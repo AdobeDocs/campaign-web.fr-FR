@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Découvrir l’interface
-description: Interface utilisateur Web de Campaign v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 7%
+description: Interface utilisateur web de Campaign v8
+exl-id: 0908c827-aa91-469f-824b-8e3de543876d
+source-git-commit: 15ee9ea467f9243834374cfe1a3e411f929c2a77
+workflow-type: ht
+source-wordcount: '717'
+ht-degree: 100%
 
 ---
 
@@ -13,20 +14,16 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Interface"
 >abstract="TBC"
 
-## Présentation de l’interface
+La nouvelle interface web de Campaign v8 offre une expérience utilisateur intégrée, intuitive et cohérente.
 
-![](assets/home.png)
-
-La nouvelle interface web de Campaign v8 offre une expérience utilisateur intégrée, intuitive et cohérente.
-
-Les concepts clés lors de la navigation dans l’interface utilisateur sont communs à Adobe Experience Platform. Voir [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) pour plus d’informations.
+Les concepts clés lors de la navigation dans l’interface utilisateur sont communs à Adobe Experience Platform. Pour plus d’informations, reportez-vous à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide).
 
 >[!NOTE]
 >
@@ -38,34 +35,24 @@ Les concepts clés lors de la navigation dans l’interface utilisateur sont com
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## Shell unifié
-
-accès aux informations sur la communauté, centre d’aide, sélecteur d’organisation, sélecteur de solution
-
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
-
-## Aide contextuelle?
-
-Aide contextuelle et Gainsight : guide d’intégration/dans le produit
-
-## Page d&#39;accueil       
-
-## Général
-
-onglet modèle de écrans de liste
-
 ## Menu de navigation gauche
 
-Parcourez les liens situés à gauche pour accéder aux fonctionnalités web de Campaign v8.
+Parcourez les liens situés à gauche pour accéder aux fonctionnalités web de Campaign v8.
 
-### Page d&#39;accueil       
+![](assets/home.png)
 
-* Bannière
-* IPC sur le canal email (diffusions croisées) : taux d&#39;ouverture, taux de diffusion, etc.
-* Éléments récents
-* Cartes d’apprentissage
+### Page d’accueil
+
+La page d’accueil web de Campaign v8 contient des liens et des ressources importants pour bien démarrer. La liste **Récents** offre des raccourcis vers les diffusions récemment créées. Cette liste affiche les dates et statuts de création et de modification.
+
+<!--
+* Banner
+* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
+* Recent items
+* Learning cards
+-->
+
+Accédez aux pages principales d’aide concernant l’interface web de Campaign v8 depuis la section inférieure de la page d’accueil.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -80,13 +67,18 @@ Global report not alpha
 >title="Explorateur"
 >abstract="TBC"
 
-Menu de l’Explorateur dans l’interface utilisateur web pour naviguer dans le contenu de la console : la deuxième vue de la console navtree en plus des listes avec filtres dans le menu de gauche. L’Explorateur donne la véritable hiérarchie de dossiers à partir de la console. Assurez-vous de trouver vos diffusions dans les sous-dossiers. Toutes les listes sont accessibles en lecture seule. Aucun élément Créer/Modifier. Vous pouvez configurer des listes (colonnes). Tous les champs de schéma, tables liées sont disponibles.
+Le menu **Explorateur** affiche la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous vos composants, dossiers et schémas Campaign v8. Tous les écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion e-mail.
 
-Seules les diffusions peuvent être ouvertes.
+Les éléments affichés dans l’Explorateur dépendent de vos autorisations utilisateur.
 
-Si vous devez afficher vos listes de destinataires (âge, genre), transactions ou messages transactionnels en direct. Pour afficher chaque console/modification ->.
+Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes afin d’afficher toutes les informations que vous souhaitez. Consultez cette [section](#list-screens).
+<!--
+Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
-La vue Navtree dépend des autorisations (comme pour la console).
+If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
+
+Navtree view depends on permissions (same as console).
+-->
 
 ### Campaign Management
 
@@ -100,8 +92,9 @@ La vue Navtree dépend des autorisations (comme pour la console).
 >title="Diffusions"
 >abstract="TBC"
 
-* **Campagnes** - Votre liste de campagnes. Aucune édition/création.
-* **Diffusions** - Votre liste de diffusions. Création/édition.
+* **Campagnes** - Il s’agit de la liste de vos campagnes. Vous pouvez afficher des informations utiles telles que leurs dates de début, de fin ou de dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Des modèles de campagne sont également disponibles. Ces listes sont en lecture seule.
+
+* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les indicateurs clés de performance. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur une diffusion e-mail pour ouvrir son tableau de bord. Les autres éléments sont en lecture seule. Des modèles de diffusion sont également disponibles.
 
 ### Gestion des clients
 
@@ -117,7 +110,7 @@ La vue Navtree dépend des autorisations (comme pour la console).
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="Listes d&#39;abonnements"
+>title="Listes d’abonnements"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -125,10 +118,10 @@ La vue Navtree dépend des autorisations (comme pour la console).
 >title="Les workflows de ciblage"
 >abstract="TBC"
 
-* **Destinataires** - Votre liste de destinataires. Aucune édition/création.
-* **Audiences** - Votre liste d’audiences. Aucune édition/création.
-* **Listes d&#39;abonnements** - Votre liste d&#39;abonnements . Aucune édition/création.
-* **Workflows de ciblage** - Votre liste de workflows de ciblage. Aucune édition/création.
+* **Destinataires** - Accédez à la base de données des destinataires. Vous pouvez consulter des informations utiles telles que leur adresse e-mail, prénom et nom. Cette liste est en lecture seule.
+* **Audiences** - Il s’agit de votre liste d’audiences. Vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Cette liste est en lecture seule.
+* **Listes d’abonnements** - Parcourez vos listes d’abonnements. Vous pouvez consulter leur type, mode et libellé. Cette liste est en lecture seule.
+* **Workflows de ciblage** - Accédez à votre liste de workflows de campagne. Vous pouvez afficher leur état, les dates de leur dernier/prochain traitement et leur environnement. Vous pouvez filtrer la liste par état, date de dernier traitement et type de workflow. Des modèles de workflow sont également disponibles. Ces listes sont en lecture seule.
 
 ### Gestion des décisions
 
@@ -137,19 +130,49 @@ La vue Navtree dépend des autorisations (comme pour la console).
 >title="Offres"
 >abstract="TBC"
 
-* **Offres** - Votre liste d’offres. Aucune édition/création.
+* **Offres** - Parcourez votre liste d’offres d’interaction. Vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par état et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
 
-## Filtrer les listes{#filter-lists}
+## Shell unifié
 
-Écrans de liste
+L’application web de Campaign v8 est intégrée à un shell unifié. Plusieurs boutons sont disponibles sur le côté droit de la barre supérieure.
 
-## Obtention d’aide et de support {#find-help}
+![](assets/unified-shell.png){width="70%" align="left"}
 
-Accédez aux pages d’aide de la clé Adobe Journey Optimizer à partir de la section inférieure de la page d’accueil.
+Ces boutons vous permettent d’effectuer les opérations suivantes :
 
-Utilisez la variable **Aide** pour accéder aux pages d’aide, contacter l’assistance et partager des commentaires. Vous pouvez rechercher des articles et des vidéos d’aide dans le champ de recherche.
+* partager vos commentaires en tant que client(e) Alpha,
+* basculer entre les organisations IMS,
+* basculer entre les applications Adobe Experience Cloud,
+* accéder aux pages d’aide, contacter le support et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d’aide dans le champ de recherche.
 
-## Navigateurs pris en charge {#browsers}
+<!--
+Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
+-->
 
-Adobe [!DNL Journey Optimizer] est conçue pour fonctionner de manière optimale dans la dernière version de Google Chrome. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou d’autres navigateurs.
+## Aide contextuelle et guide d’intégration
 
+Une aide contextuelle est disponible dans l’interface. Lorsque cette option est disponible, cliquez sur l’icône **.Icône** pour afficher des informations d’aide et des liens vers une documentation connexe.
+
+![](assets/context-help.png){width="70%" align="left"}
+
+Un guide d’intégration est également disponible pour vous aider à commencer à utiliser l’application web de Campaign v8. Cliquez sur l’icône dans le coin inférieur droit, sélectionnez l’un des scénarios détaillés disponibles, puis suivez simplement les instructions.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Configurer les écrans de liste {#list-screens}
+
+Tous les écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion e-mail.
+
+Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou filtrer la liste selon des critères contextuels.
+
+![](assets/filter.png){width="70%" align="left"}
+
+Les listes sont affichées en colonnes. Chaque colonne peut être triée dans un ordre croissant ou décroissant, une à la fois. Vous pouvez également afficher des informations supplémentaires en modifiant la configuration des colonnes. Pour ce faire, cliquez sur l’icône dans le coin supérieur droit de la liste. Vous pouvez ajouter ou supprimer des colonnes et modifier leur ordre d’affichage.
+
+![](assets/columns.png){width="70%" align="left"}
+
+<!--
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+-->
