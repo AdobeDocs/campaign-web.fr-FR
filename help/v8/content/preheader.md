@@ -1,53 +1,54 @@
 ---
 audience: end-user
-title: Ajout d’un pré-titre dans Journey Optimizer
-description: Découvrez comment concevoir le contenu de vos emails
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 0%
+title: Ajouter un pré-titre dans Journey Optimizer
+description: Découvrez comment concevoir le contenu des e-mails.
+exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+source-git-commit: 8515e9cabb535759b47b15ff86a2baa2384fc105
+workflow-type: ht
+source-wordcount: '228'
+ht-degree: 100%
 
 ---
 
-
-# Ajout d’un pré-titre {#preheader}
+# Ajouter un pré-titre {#preheader}
 
 >[!NOTE]
 >
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="Ajouter un pré-titre"
->abstract="Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez à partir de votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’email et il s’agit généralement d’une seule phrase."
+>abstract="Un pré-titre est un bref résumé qui suit l’objet d’un e-mail lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail et contient généralement une seule phrase."
 
+Un pré-titre est un bref résumé qui suit l’objet d’un e-mail lorsque vous le visualisez depuis votre client de messagerie.
 
-Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez à partir de votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’email et il s’agit généralement d’une seule phrase.
+Dans de nombreux cas, il fournit un bref résumé de l’e-mail et contient généralement une seule phrase.
 
 >[!NOTE]
 >
->Les en-têtes prédéfinis ne sont pas pris en charge par tous les clients de messagerie. Lorsqu’il n’est pas pris en charge, le pré-titre ne s’affiche pas.
+>Les pré-titres ne sont pas pris en charge par tous les clients de messagerie. Le pré-titre ne s’affiche pas s’il n’est pas pris en charge.
 
-Pour définir le pré-titre de l&#39;email, procédez comme suit :
+Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
-1. Depuis le Concepteur d’email, ajoutez une **[!UICONTROL Composants de structure]** pour commencer à concevoir votre email.
+1. À partir du Concepteur d’e-mail, ajoutez au moins un **[!UICONTROL composant de structure]** pour commencer à concevoir votre e-mail.
 
-   ![](assets/preheader_1.png)
+1. Cliquez sur l’icône **[!UICONTROL Arborescence de navigation]** dans le volet de gauche, puis sélectionnez **[!UICONTROL Corps]**.
 
-1. Dans la **[!UICONTROL Paramètres du corps]** volet de droite, cliquez sur **Modifier** en regard de **[!UICONTROL Preheader]** pour ajouter du contenu.
+   ![](assets/preheader_body.png)
 
-   ![](assets/preheader_2.png)
+1. Dans le volet de droite **[!UICONTROL Paramètres du corps]**, cliquez sur l’icône de modification à côté du champ **[!UICONTROL Pré-titre]** pour ajouter du contenu.
 
-1. Ajoutez votre pré-titre. Vous pouvez la personnaliser davantage en cliquant sur le bouton **[!UICONTROL Ajouter une personnalisation]** icône .
+   ![](assets/preheader_body_settings.png)
+
+1. Ajoutez le pré-titre. Vous pouvez le personnaliser davantage en cliquant sur l’icône **[!UICONTROL Ajouter une personnalisation]**.
 
    ![](assets/preheader_3.png)
 
-1. Dans la **[!UICONTROL Modifier la personnalisation]** fenêtre, vous pouvez ajouter **[!UICONTROL Bloc de contenu]**, **[!UICONTROL Contenu dynamique]** ou **[!UICONTROL Champs de personnalisation]**.
+1. Dans la fenêtre **[!UICONTROL Modifier la personnalisation]**, vous pouvez ajouter un **[!UICONTROL Bloc de contenu]**, du **[!UICONTROL Contenu dynamique]** ou des **[!UICONTROL Champs de personnalisation]**.
 
-1. Cliquez sur **[!UICONTROL Valider]** pour vérifier votre syntaxe de personnalisation.
-
-   ![](assets/preheader_4.png)
+1. Cliquez sur **[!UICONTROL Valider]** pour vérifier la syntaxe de votre personnalisation.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Votre pré-titre est maintenant configuré pour votre email.
+Le pré-titre de votre e-mail est à présent configuré.
