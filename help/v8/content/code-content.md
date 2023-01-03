@@ -1,47 +1,37 @@
 ---
 audience: end-user
-title: Code votre propre contenu d’email
-description: Découvrez comment coder votre propre contenu d'email
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+title: Coder votre propre contenu d’e-mail
+description: Découvrez comment coder votre propre contenu d’e-mail.
+exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+workflow-type: ht
+source-wordcount: '140'
+ht-degree: 100%
 
 ---
 
-
-# Code votre propre contenu {#code-content}
+# Coder votre propre contenu {#code-content}
 
 >[!NOTE]
 >
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
-Utilisez la variable **[!UICONTROL Codez vos propres]** pour importer du HTML brut et/ou coder le contenu de votre email. Cette méthode nécessite des compétences de HTML.
+Utilisez le mode **[!UICONTROL Coder le vôtre]** pour importer du code HTML brut et/ou coder le contenu de l’e-mail. Cette méthode requiert des compétences en code HTML.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
-
->[!CAUTION]
->
-> Les images de Adobe Experience Manager Assets Essentials ne peuvent pas être référencées lors de l’utilisation de cette méthode. Les images référencées dans votre code de HTML doivent être stockées dans un emplacement public.
-
-1. Dans la page d&#39;accueil du Concepteur d&#39;email, sélectionnez **[!UICONTROL Codez vos propres]**.
+1. Sur la page d’accueil du Concepteur d’e-mail, sélectionnez **[!UICONTROL Coder le vôtre]**.
 
    ![](assets/code-your-own.png)
 
-1. Entrez ou collez votre code de HTML brut.
+1. Entrez ou collez votre code HTML brut.
 
-1. Utilisation du volet de gauche pour tirer parti [!DNL Journey Optimizer] fonctionnalités de personnalisation.
+1. Dans le volet de gauche, vous pouvez utiliser les fonctionnalités de personnalisation.
 
-   ![](assets/code-editor.png)
-
-1. Si vous souhaitez ouvrir le Concepteur d&#39;email pour démarrer votre email à partir d&#39;une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu options.
+1. Si vous souhaitez ouvrir le Concepteur d’e-mail pour créer un e-mail à partir d’une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu Options.
 
    ![](assets/code-editor-change-design.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour vérifier la conception et la personnalisation des messages à l’aide de profils de test.
+1. Cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la conception et la personnalisation du message à l’aide de profils de test.
 
-   ![](assets/code-editor-preview.png)
-
-1. Une fois que votre code est prêt, cliquez sur **[!UICONTROL Enregistrer]** revenez ensuite à l&#39;écran de création du message pour finaliser votre message.
+1. Une fois que votre code est prêt, cliquez sur **[!UICONTROL Enregistrer]**, puis revenez à l’écran de création du message pour le finaliser.
 
    ![](assets/code-editor-save.png)
