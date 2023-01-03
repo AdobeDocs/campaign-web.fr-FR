@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser les composants de contenu du Concepteur d’email
 description: Découvrez comment utiliser des composants de contenu dans vos emails.
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: fd85f2b799602b7c411b73e7b1c1cbd38c798857
+source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
 workflow-type: ht
-source-wordcount: '1397'
+source-wordcount: '1104'
 ht-degree: 100%
 
 ---
@@ -168,45 +168,6 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
 1. Ajustez les autres attributs de style tels que la marge, la bordure, etc. ou en ajoutant un lien pour rediriger votre audience vers un autre contenu à partir du volet **[!UICONTROL Paramètres des composants]**.
 
-## Vidéo {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo dans votre email. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo sur votre page de destination. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo dans votre fragment. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo dans votre modèle. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
-
-
-Utilisez le composant **[!UICONTROL Vidéo]** pour insérer une vidéo dans votre e-mail via un lien URL.
-
-1. Dans **[!UICONTROL Composants de contenu]**, faites glisser et déposez **[!UICONTROL Vidéo]** dans un **[!UICONTROL composant de structure]**.
-
-   ![](assets/email_designer_17.png)
-
-1. Cliquez sur le composant que vous venez d’ajouter pour commencer à configurer les **[!UICONTROL Composants de contenu]** et avoir accès aux **[!UICONTROL Paramètres des composants]** dans le volet de droite du Concepteur d’e-mail.
-
-1. Dans le champ **[!UICONTROL Lien de la vidéo]** des **[!UICONTROL Paramètres des composants]**, ajoutez l’URL de la vidéo.
-
-   ![](assets/email_designer_18.png)
-
-1. Vous pouvez ajouter une **[!UICONTROL Image d’affichage]** à votre vidéo. Cette image apparaîtra jusqu’à ce que votre audience clique sur le bouton de lecture.
-
-1. Ajustez les autres attributs de style tels que le style, la marge, la bordure, etc. à partir du volet **[!UICONTROL Paramètres des composants]**.
-
 ## Social {#social}
 
 Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des pages de réseaux sociaux dans le contenu de l’e-mail.
@@ -228,15 +189,3 @@ Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des p
 1. Vous pouvez également modifier les icônes de chaque réseau social si nécessaire dans le champ **[!UICONTROL Image]**.
 
 1. Ajustez les autres attributs de style tels que le style, la marge, la bordure, etc. à partir du volet **[!UICONTROL Paramètres des composants]**.
-
-## Carrousel {#carousel-settings}
-
-1. Placez le composant **[!UICONTROL Carrousel]** à l’intérieur d’un composant de structure.
-
-1. Parcourez votre ordinateur pour sélectionner des images.
-
-1. Dans le volet **[!UICONTROL Paramètres]**, définissez le nombre de miniatures souhaitées dans le carrousel.
-
-1. Sélectionnez une image de remplacement à partir de votre ordinateur.
-
-Le composant carrousel n’est pas compatible avec tous les programmes de messagerie. Chargez une image de remplacement pour l’afficher lorsque le carrousel n’est pas pris en charge dans un email.
