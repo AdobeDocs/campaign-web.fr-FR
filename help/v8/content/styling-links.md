@@ -1,43 +1,41 @@
 ---
 audience: end-user
-title: Définition d’un style pour les liens
-description: Découvrez comment définir un style pour les liens
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 20%
+title: Définir un style pour les liens
+description: Découvrez comment définir un style pour les liens.
+exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+workflow-type: ht
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
-
-# Définition d’un style pour les liens {#styling-links}
+# Définir un style pour les liens {#styling-links}
 
 >[!NOTE]
 >
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
-Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d&#39;email.
+Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d’e-mail.
 
-1. Dans un texte **[!UICONTROL Composant de contenu]** lorsqu&#39;un lien est inséré, sélectionnez-le.
+1. Dans un composant **[!UICONTROL Texte]** contenant un lien, sélectionnez ce dernier.
 
-1. Dans le **[!UICONTROL Paramètres des composants]** menu, vérifier **[!UICONTROL Lien de soulignement]** pour souligner le texte du libellé de votre lien.
+1. Dans le menu **[!UICONTROL Paramètres des composants]**, cochez **[!UICONTROL Souligner le lien]** pour que le libellé soit souligné.
 
    ![](assets/link_1.png)
 
-1. Choisissez la manière dont votre audience sera redirigée avec la variable **[!UICONTROL Cible]** menu déroulant :
+1. Choisissez la manière de rediriger votre audience avec la liste déroulante **[!UICONTROL Cible]** :
 
-   * **[!UICONTROL Aucun]**: ouvre le lien dans le même cadre que celui sur lequel l’utilisateur a cliqué (par défaut).
-   * **[!UICONTROL Vide]**: ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
-   * **[!UICONTROL Auto]**: ouvre le lien dans le même cadre que celui sur lequel l’utilisateur a cliqué.
-   * **[!UICONTROL Parent]**: ouvre le lien dans le cadre parent.
-   * **[!UICONTROL Haut]**: ouvre le lien dans le corps complet de la fenêtre.
+   * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur ou l’utilisatrice a cliqué (par défaut).
+   * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
+   * **[!UICONTROL Auto]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur ou l’utilisatrice a cliqué.
+   * **[!UICONTROL Parent]** : ouvre le lien dans le cadre parent.
+   * **[!UICONTROL Haut]** : ouvre le lien dans le corps complet de la fenêtre.
 
    ![](assets/link_2.png)
 
-1. Pour changer la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]**.
+1. Pour modifier la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]** dans le volet de droite.
 
    ![](assets/link_3.png)
-
-1. Choisissez la couleur dont vous avez besoin.
 
 1. Enregistrez vos modifications.
