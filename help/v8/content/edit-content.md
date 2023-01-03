@@ -1,50 +1,64 @@
 ---
 audience: end-user
-title: Configuration du contenu de l'email
-description: Documentation web de Campaign v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 0%
+title: Modifier le contenu de l’e-mail
+description: Documentation de l’application web de Campaign v8
+exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
+source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
+workflow-type: ht
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
+# Modifier le contenu de l’e-mail {#configure-content}
 
-# Configuration du contenu de l&#39;email {#configure-content}
-
->[!NOTE]
->
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
-
-Bouton Modifier le contenu : montrer le cas d’utilisation avec l’objet, la pièce jointe, l’ajout d’une offre, le suivi activé (+ note sur le bouton de simulation de contenu avec lien pour prévisualiser la section BAT)
-
-![](assets/content-dashboard.png)
-
-## En-tête de message électronique
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_content"
+>title="Créer le contenu de l’e-mail"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="En-tête de message électronique"
+>title="En-tête d’e-mail"
 >abstract="TBC"
-
-## Pièce jointe du courrier électronique
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Pièce jointe au courrier électronique"
+>title="Pièce jointe d’e-mail"
 >abstract="TBC"
-
-## Suivi des emails
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Options de tracking"
 >abstract="TBC"
 
+>[!NOTE]
+>
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
+Pour commencer à créer le contenu d’un e-mail, cliquez sur le bouton **[!UICONTROL Modifier le contenu]**. Cet écran vous permet de définir le contenu de votre e-mail et d’accéder au Concepteur d’e-mail pour le concevoir.
 
+![](assets/content-dashboard.png)
 
-<!--
-Offers same as campaign (no design, only selection)
-Diff from AJO:  attachement
--->
+Les étapes de définition du contenu de votre e-mail sont les suivantes :
+
+1. Vérifiez les informations **[!UICONTROL À partir du nom]** et **[!UICONTROL À partir de l’e-mail]**. Ces champs sont en lecture seule et sont configurés dans le modèle d’e-mail sélectionné lors de la création de l’e-mail.
+
+1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Pour ce faire, ouvrez l’éditeur d’expression afin de définir son contenu et d’ajouter une personnalisation à l’aide de divers attributs, blocs de contenu ou offres. [Découvrez comment personnaliser le contenu](../personalization/personalize.md)
+
+1. Si vous souhaitez envoyer des offres par e-mail, sélectionnez-les à l’aide du bouton **[!UICONTROL Offres]**. Vous pourrez ensuite les insérer dans l’e-mail à l’aide de champs de personnalisation. [Découvrez comment envoyer des offres](offers.md)
+
+1. Cliquez sur le bouton **[!UICONTROL Concepteur d’e-mail]** pour structurer et concevoir le contenu de l’e-mail. Des informations supplémentaires sur la conception de contenu d’e-mail sont disponibles dans les sections suivantes :
+
+   * [Découvrez comment concevoir des e-mails](create-email-content.md)
+   * [Donner un style à votre contenu](get-started-email-style.md)
+
+1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]** puis sélectionnez un ou plusieurs fichiers.
+
+   <!--limitation on size + number of files?-->
+
+1. Par défaut, le tracking e-mail est activé pour les ouvertures et les clics. Pour désactiver ces options, désélectionnez-les dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking](message-tracking.md)
+
+Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour vérifier comment il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail](../preview-test/preview-test.md)
+
+<!-- show screenshot showing an email fully configured + highlight the simulate content button-->
