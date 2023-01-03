@@ -1,37 +1,30 @@
 ---
 audience: end-user
-title: Prévisualiser et tester votre email
-description: Documentation web de Campaign v8
-source-git-commit: fa7baaa7cc75fdb20d4c21f1391edb9aa5dd268c
-workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+title: À propos de la prévisualisation et des BAT
+description: Documentation de l’application web de Campaign v8
+exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+workflow-type: ht
+source-wordcount: '120'
+ht-degree: 100%
 
 ---
 
-# Prévisualiser et tester votre email {#preview-test-send}
+# À propos de la prévisualisation et des BAT {#about-preview-proofs}
 
 >[!NOTE]
 >
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
-## Prévisualiser le contenu
+Une fois le contenu de l’e-mail défini, vous pouvez générer un aperçu avant de l’envoyer. Vous pouvez ainsi tester l’e-mail afin de détecter d’éventuelles erreurs dans le contenu ou les paramètres de personnalisation.
 
-<!--
-Diff from AJO: 
-preview: more features than AJO: preview using target population, test profiles or audience
--->
+Pour ce faire, Adobe Campaign vous permet d’effectuer les opérations suivantes :
 
-![](assets/preview.png)
+* [Prévisualiser le contenu et la personnalisation de l’e-mail](#preview) à l’aide des données de profil,
 
-1. sélectionner les profils à tester (profils ciblés / profils de test / audience) ;
-1. prévisualiser le contenu
+<!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [Envoyer des BAT](#send-proofs) à des destinataires spécifiques afin de tester et valider l’e-mail.
 
-## Envoi de BAT
+Ces actions sont effectuées à partir du bouton **[!UICONTROL Simuler du contenu]**, accessible lors de la création du contenu de votre e-mail à partir du Concepteur d’e-mail :
 
-étapes détaillées pour envoyer un BAT
-
-<!--
-Diff from AJO: 
-substitution, test profile
--->
+![](assets/simulate.png)
