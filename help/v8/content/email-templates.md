@@ -2,27 +2,23 @@
 audience: end-user
 product: campaign
 title: Utilisation de modèles d’email
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 16%
 
 ---
-
 
 # Utilisation de modèles de contenu d’email {#email-content-templates}
 
 >[!NOTE]
 >
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
 Utilisez la variable **[!UICONTROL Sélectionner un modèle de conception]** pour commencer à créer votre contenu à partir d’un modèle.
 
 ![](assets/email_designer-templates.png)
-
-Vous pouvez choisir parmi les options suivantes :
-* 20 modèles d&#39;email d&#39;usine.
-* Modèles enregistrés. [En savoir plus](#save-as-template)
 
 ## Sauver comme modèle {#save-as-template}
 
@@ -40,7 +36,7 @@ Une fois que vous avez conçu le contenu de votre email, vous pouvez l’enregis
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-La prochaine fois que vous créez un email, vous pouvez utiliser ce modèle pour créer votre contenu. [Découvrez comment](#use-saved-template)
+La prochaine fois que vous créez un email, vous pouvez utiliser ce modèle pour créer votre contenu. [Voici comment procéder](#use-saved-template).
 
 ![](assets/email_designer-saved-template.png)
 

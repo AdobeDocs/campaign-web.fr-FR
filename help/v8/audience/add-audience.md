@@ -4,7 +4,7 @@ title: Ajouter une audience
 description: Documentation de l’application web de Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%
 

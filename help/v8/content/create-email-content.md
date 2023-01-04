@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Créer des e-mails dans Journey Optimizer
+title: Concevoir des emails dans le Concepteur d'email
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: fd85f2b799602b7c411b73e7b1c1cbd38c798857
-workflow-type: ht
-source-wordcount: '541'
-ht-degree: 100%
+source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 98%
 
 ---
 
@@ -91,10 +91,6 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de l’e-mail à partir des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
-1. Ajoutez du contenu dynamique pour adapter le contenu aux profils ciblés selon des règles conditionnelles. <!-- Add link to Get started with dynamic content-->
-
-   ![](assets/email_designer_6.png)
-
 1. Cliquez sur l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui seront trackées. Vous pouvez modifier le **[!UICONTROL Type de tracking]** ou le **[!UICONTROL Libellé]**, et ajouter des **[!UICONTROL Balises]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md).
 
    ![](assets/email_designer_7.png)
@@ -106,6 +102,8 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
    >Vous ne pourrez pas revenir au concepteur visuel de cet e-mail après avoir basculé vers l’éditeur de code.
 
 1. Une fois que votre contenu est prêt, cliquez sur **[!UICONTROL Simuler du contenu]** pour vérifier le rendu de l’e-mail. Vous pouvez choisir la vue de bureau ou mobile. [En savoir plus sur la prévisualisation des e-mails](../preview-test/preview-test.md).
+
+   ![](assets/email_designer_28.png)
 
 1. Lorsque votre e-mail est prêt, cliquez sur **[!UICONTROL Enregistrer]**.
 

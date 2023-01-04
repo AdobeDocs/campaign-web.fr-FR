@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Surveiller les logs de diffusion
-description: Documentation web de Campaign v8
-source-git-commit: 4ed89d326acd3b7d5d8f14bec68cceda3c8169fb
+description: Documentation de l’application web de Campaign v8
+exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
+source-git-commit: 13765b02288ec4682c5d55603c68f8ea1a5758f8
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 65%
+source-wordcount: '313'
+ht-degree: 64%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
@@ -22,13 +23,11 @@ ht-degree: 65%
 
 Après avoir préparé et envoyé un email, les logs de diffusion vous permettent de vérifier qu&#39;il n&#39;y a pas d&#39;erreur. Ces logs sont accessibles depuis le tableau de bord des messages. Ils indiquent le détail de l&#39;envoi, la cible exclue et les raisons de l&#39;exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
-Pour afficher les journaux, cliquez sur le bouton **Journaux** bouton .
+Pour afficher les logs, accédez au tableau de bord de votre diffusion et cliquez sur le bouton **Journaux** bouton .
 
-![](assets/logs.png)
+Plusieurs onglets sont disponibles :
 
-Plusieurs onglets contiennent les informations (si elles existent) relatives aux Envois, aux Exclus, aux Causes d&#39;exclusion, aux Logs de tracking et URL suivies.
-
-**Los** tab
+## Logs
 
 Le **Journaux** contient tous les messages relatifs à la diffusion et aux bons à tirer. Des icônes spécifiques permettent de repérer les erreurs ou avertissements.
 
@@ -38,31 +37,38 @@ Toutes les étapes de validation, les avertissements et les erreurs sont répert
 * L’icône jaune indique une erreur de traitement non critique.
 * L’icône rouge indique une erreur critique qui empêche l’envoi de la diffusion.
 
-**Onglet Diffusions**
+![](assets/logs.png)
+
+## Diffusions
 
 Le **Diffusions** offre un historique de chaque occurrence de cette diffusion. Y est répertoriée la liste des messages envoyés et leur statut. Il permet de visualiser l&#39;état de la diffusion pour chaque destinataire.
 
-**Exclusions** tab
+![](assets/logs2.png)
 
-L’onglet Logs d’exclusion liste tous les messages qui ont été exclus de l&#39;envoi à la cible et indique la raison de l&#39;échec de l&#39;envoi.
+## Exclusions
 
-**Exclusions appliquées** tab
+L’onglet **Logs d’exclusion** liste tous les messages qui ont été exclus de l&#39;envoi à la cible et indique la raison de l&#39;échec de l&#39;envoi.
+
+![](assets/logs3.png)
+
+## Causes d&#39;exclusion
 
 L&#39;onglet **Causes d&#39;exclusion** indique le volume (en nombre de messages) des messages qui ont été exclus de l&#39;envoi à la cible.
 
-**URL trackées** tab
+![](assets/logs4.png)
 
-Le **URL trackées** affichage des onglets
+## Tracked URLs
 
-**Onglet Tracking**
+L&#39;onglet **URL trackées** regroupe les URL contenues dans le message envoyé, leur type et leur URL source.
 
-L&#39;onglet **Tracking** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les informations de tracking sont mises à jour toutes les heures.
+![](assets/logs5.png)
+
+## Tracking
+
+Le **Tracking** répertorie l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les données de tracking des messages envoyés, c&#39;est-à-dire toutes les URL qui font l&#39;objet d&#39;un tracking par Adobe Campaign.
 
 >[!NOTE]
 >
 >Si le tracking n&#39;est pas activé pour une diffusion, cet onglet n&#39;est pas affiché.
 
-Les données de tracking sont interprétées dans les rapports de diffusion. Voir cette section.
-
-
-
+![](assets/logs6.png)

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Ajouter un pré-titre dans Journey Optimizer
+title: Ajouter un pré-titre dans le Concepteur d'email
 description: Découvrez comment concevoir le contenu des e-mails.
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 8515e9cabb535759b47b15ff86a2baa2384fc105
-workflow-type: ht
-source-wordcount: '228'
-ht-degree: 100%
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 96%
 
 ---
 

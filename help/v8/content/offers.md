@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer des offres
 description: Envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 999ece2367b8bb791f57fba311172b4dc3f2cdf1
-workflow-type: ht
-source-wordcount: '529'
-ht-degree: 100%
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >
 >Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
-Adobe Campaign v8 web vous permet d’envoyer les offres qui ont été créées dans la console à l’aide du module **[!UICONTROL Interaction]** avec les e-mails. Pour plus d’informations sur Interaction et la gestion d’un catalogue d’offres dans la console, reportez-vous à la [documentation de Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr).
+Adobe Campaign v8 web vous permet d’envoyer les offres qui ont été créées dans la console à l’aide du module **[!UICONTROL Interaction]** avec les e-mails. Pour plus d’informations sur Interaction et la gestion d’un catalogue d’offres dans la console, reportez-vous à la [documentation de Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html).
 
 Les étapes clés pour envoyer des offres avec un e-mail sont les suivantes :
 

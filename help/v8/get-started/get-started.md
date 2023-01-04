@@ -3,9 +3,9 @@ audience: end-user
 title: Prise en main
 description: Documentation de l’application web de Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 15ee9ea467f9243834374cfe1a3e411f929c2a77
-workflow-type: ht
-source-wordcount: '334'
+source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+workflow-type: tm+mt
+source-wordcount: '332'
 ht-degree: 100%
 
 ---

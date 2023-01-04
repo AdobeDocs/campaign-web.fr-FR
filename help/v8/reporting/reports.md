@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Effectuer un reporting.
-description: Documentation web de Campaign v8
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+description: Documentation de l’application web de Campaign v8
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
 <!--
 detail delivery reports and how to access them
@@ -54,6 +55,3 @@ Echecs et retours : Ce rapport présente la répartition des messages en échec 
 **Hotclicks**
 
 Ce rapport présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. Les liens situés dans les blocs de personnalisation, le lien de désinscription, le lien vers la page miroir et les liens des offres sont comptabilisés dans le total des clics cumulés mais ne sont pas affichés dans le rapport.
-
-
-

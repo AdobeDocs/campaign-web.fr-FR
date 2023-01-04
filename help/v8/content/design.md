@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Utilisation du Concepteur d'email
-description: Documentation web de Campaign v8
+description: Documentation de l’application web de Campaign v8
 source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Cette documentation est en cours de construction et fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+>Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
 
 

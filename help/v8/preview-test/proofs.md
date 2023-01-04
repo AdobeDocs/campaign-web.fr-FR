@@ -4,7 +4,7 @@ title: Envoyer des BAT
 description: Documentation de l’application web de Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 

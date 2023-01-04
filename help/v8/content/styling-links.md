@@ -4,7 +4,7 @@ title: Définir un style pour les liens
 description: Découvrez comment définir un style pour les liens.
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
 

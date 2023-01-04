@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser le créateur de segments
 description: Documentation de l’application web de Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 05efb03e8657e9ac3419e11fc7bbae49b5d93fe7
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Cette section décrit comment créer une audience lors de la conception d’un e
 
 Le créateur de segments permet de définir la population ciblée par votre message en filtrant les données contenues dans la base de données Adobe Campaign. Si vous souhaitez sélectionner une audience existante, reportez-vous à cette [section](add-audience.md).
 
-Pour plus d’informations sur le créateur de segments, reportez-vous à la [documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr).
+Pour plus d’informations sur le créateur de segments, reportez-vous à la [documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 Pour créer une audience lors de la conception d’un e-mail, procédez comme suit :
 

@@ -4,7 +4,7 @@ title: Modifier le contenu de l’e-mail
 description: Documentation de l’application web de Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
