@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Documentation de l’application web de Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
+source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Créer le contenu de l’e-mail"
->abstract="TBC"
+>abstract="Avec cette section, vous pouvez créer le contenu de votre email et utiliser le Concepteur d&#39;email pour lui donner un aspect poli."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
