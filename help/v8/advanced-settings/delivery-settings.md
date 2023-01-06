@@ -3,10 +3,10 @@ audience: end-user
 title: Paramètres avancés
 description: Documentation de l’application web de Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
+source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 60%
+source-wordcount: '1077'
+ht-degree: 49%
 
 ---
 
@@ -31,8 +31,14 @@ Documentation on this part is targeted for december 2022
 -->
 
 Tous les paramètres techniques de diffusion du modèle.
-Modifiez uniquement les paramètres, pas de création ici.
-En fonction des autorisations, les pragmatiques ne doivent pas modifier ce paramètre. Vérifier et modifier uniquement la règle de typologie -> reste défini dans le modèle
+
+>[!NOTE]
+>
+> Modifiez uniquement les paramètres, pas de création ici. Selon les autorisations.
+
+>[!NOTE]
+>
+> Les pragmatiques ne doivent pas modifier cela, attention. Vérifiez et modifiez uniquement la règle de typologie.
 
 ## Typology {#typology}
 
@@ -56,11 +62,11 @@ Dans cette section, les paramètres de pression permettent de définir un seuil.
 
 La valeur de ce seuil peut être constante ou variable. Pour une même période, le seuil peut donc varier d&#39;un profil à l&#39;autre, et même pour un même profil.
 
-Dans le **Type de poids** , trois options sont disponibles :
+Dans le **Type de poids** , trois options sont disponibles : (formule manquante selon l’option.)
 
-Le **Poids de la diffusion** field vous permet de :
+Le **Poids de la diffusion** field : Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d&#39;une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles seront appliquées. Les poids peuvent être définis ou calculés à partir d&#39;une formule en fonction des destinataires. Vous pouvez par exemple définir le poids d&#39;une diffusion en fonction des centres d&#39;intérêt des destinataires.
 
-Le **Mode de diffusion** champ..
+Le **Mode de diffusion** champ.. ??
 
 ### Paramètres de capacité {#capacity-settings}
 
@@ -75,13 +81,15 @@ Le **importance du destinataire** field est une formule utilisée pour détermin
 
 ## Audience {#audience}
 
-Dans cette section, vous pouvez choisir un mapping de ciblage défini dans la console Adobe Campaign v8. La création du mapping de ciblage est nécessaire dans le cas où vous utilisez une table de destinataires autre que celle fournie par Adobe Campaign.
+Dans cette section, vous pouvez choisir un **mapping de ciblage** définie dans la console Adobe Campaign v8. La création du mapping de ciblage est nécessaire dans le cas où vous utilisez une table de destinataires autre que celle fournie par Adobe Campaign.
 
 ## Diffusion {#delivery}
 
-Tester la diffusion via SMTP : cette option vous permet de tester la diffusion par SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+**Routage** selection : sélectionnez le compte externe....
 
-E-mail Cci : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible des messages.
+**Tester la diffusion via SMTP** : cette option vous permet de tester la diffusion par SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+
+**E-mail Cci** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible des messages.
 
 ### Reprises {#retries}
 
@@ -94,16 +102,17 @@ Les messages temporairement non diffusés en raison d’une erreur Soft ou Ignor
 
 ## Validation {#approval}
 
-**Manuelle**
-
-**Semi-automatique**
-
-**Automatique**
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Mode de validation"
+>title="Validation mode"
 >abstract="Chaque étape d&#39;une diffusion peut faire l&#39;objet d&#39;une validation afin d&#39;assurer un suivi et un contrôle complets des différents processus."
+
+**Manuel** : à la fin de la phase d’analyse, l’utilisateur doit confirmer la diffusion pour commencer l’envoi.
+
+**Semi-automatique**: L&#39;envoi commence automatiquement si la phase d&#39;analyse ne génère aucun message d&#39;avertissement.
+
+**Automatique** : les envois démarrent automatiquement à la fin de la phase d’analyse, quel qu’en soit le résultat.
+
 
 ## Validité {#validity}
 
@@ -118,15 +127,16 @@ Les messages temporairement non diffusés en raison d’une erreur Soft ou Ignor
 >abstract="Le champ Limite de validité est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page sont valides pendant une durée limitée."
 
 
-Le champ Durée de diffusion permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n&#39;est pas atteinte.
+Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n&#39;est pas atteinte.
 
-Vous pouvez également choisir de spécifier des dates.Pour cela, cochez l&#39;option Fixer explicitement les dates de validité. Dans ce cas, les dates limites de diffusion et de validité permettent de préciser également l&#39;heure. Cette heure correspond par défaut à l&#39;heure courante mais peut être modifiée directement dans le champ de saisie.
+Vous pouvez également choisir de spécifier des dates.Pour cela, cochez l&#39;option **Fixer explicitement les dates de validité**. Dans ce cas, les dates limites de diffusion et de validité permettent de préciser également l&#39;heure. Cette heure correspond par défaut à l&#39;heure courante mais peut être modifiée directement dans le champ de saisie.
 
-Limite de validité des ressources : le champ Limite de validité est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
+**Limite de validité des ressources** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
 
 ### Gestion de la page miroir {#mirror}
 
-**Gestion de la page miroir**
+**Gestion des pages miroir** contient quatre options :
+
 
 ### Tracking {#tracking}
 
@@ -140,14 +150,14 @@ Limite de validité des ressources : le champ Limite de validité est utilisé 
 **URL de substitution des URL expirées**: TBC
 
 
-## Paramètres de test{#test-setttings}
+## Paramètres de test {#test-setttings}
 
-**Conserver double**
+**Conserver double** permet d&#39;autoriser plusieurs diffusions vers des destinataires répondant à plusieurs critères de ciblage.
 
 **Conserve les adresses placées sur la liste bloquée**
 
-**Conserver les quarantaines**
+**Conserver les adresses en quarantaine** permet de garder à l’écart de la cible les profils dont l’adresse ne répond pas.
 
-**Conserver le code diffusion pour le BAT**
+**Conserver le code de diffusion pour le BAT** permet d&#39;attribuer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il correspond.
 
-**Préfixe du libellé**
+Par défaut, le sujet du BAT est précédé du préfixe ‘BAT #’, où # est le numéro du BAT. Vous pouvez modifier ce préfixe dans la variable **Préfixe d’étiquette** champ .
