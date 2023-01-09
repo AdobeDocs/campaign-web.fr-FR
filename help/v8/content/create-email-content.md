@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir des emails dans le Concepteur d'email
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 >title="Définir les colonnes du modèle"
 >abstract="Le Concepteur d’e-mail permet de définir facilement la disposition de votre modèle en définissant la structure des colonnes."
 
-Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
+Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir le corps de votre email en quelques secondes.
 
 Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
@@ -91,7 +91,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de l’e-mail à partir des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
-1. Cliquez sur l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui seront trackées. Vous pouvez modifier le **[!UICONTROL Type de tracking]** ou le **[!UICONTROL Libellé]**, et ajouter des **[!UICONTROL Balises]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md).
+1. Cliquez sur l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui seront trackées. Vous pouvez modifier les **[!UICONTROL Type de suivi]** ou **[!UICONTROL Libellé]** et ajouter **[!UICONTROL Catégories]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md).
 
    ![](assets/email_designer_7.png)
 
