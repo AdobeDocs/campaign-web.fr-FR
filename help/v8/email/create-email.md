@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre premier e-mail
 description: Documentation de l’application web de Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 98%
+source-wordcount: '1174'
+ht-degree: 87%
 
 ---
 
@@ -116,9 +116,11 @@ Dans ce cas d’utilisation, nous allons envoyer l’e-mail à une audience exis
 
    >[!NOTE]
    >
-   >Les audiences disponibles dans la liste proviennent de votre instance Campaign V8 ou d’Adobe Experience Platform si l’intégration Destination/Sources a été implémentée sur votre instance.
+   >Les audiences disponibles dans la liste proviennent de votre instance Campaign V8 ou de Adobe Experience Platform si l’intégration de destination/source a été configurée sur votre instance.
+   >
+   >L’intégration Destination/Sources vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de suivi Campaign à Adobe Experience Platform. [Découvrez comment utiliser Campaign et Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. Une fois votre audience sélectionnée, vous pouvez modifier sa règle si nécessaire.
+1. Une fois votre audience sélectionnée, vous pouvez affiner la cible à l’aide de règles supplémentaires.
 
    Vous pouvez également définir une population témoin afin d’analyser le comportement des destinataires de l’e-mail par rapport au comportement des profils qui n’ont pas été ciblés. [Découvrez comment travailler avec les populations témoins.](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ Dans ce cas d’utilisation, nous allons envoyer l’e-mail à une audience exis
 
 Pour planifier l’envoi de l’e-mail, cliquez sur **[!UICONTROL Activer]**, puis indiquez la date et l’heure de votre choix pour l’envoi.
 
-Par défaut, l’option **[!UICONTROL Confirmer avant l’envoi]** est activée, ce qui signifie que vous devrez confirmer l’envoi à la date et à l’heure spécifiées pour envoyer l’e-mail. Désactivez cette option pour permettre l’envoi de l’e-mail à la date et à l’heure planifiées, sans confirmation nécessaire.
+Par défaut, la variable **[!UICONTROL Confirmer avant envoi]** est activée, ce qui signifie que vous devez confirmer l’envoi pour permettre l’envoi de l’email à la date et à l’heure spécifiées. Désactivez cette option pour permettre l’envoi de l’e-mail à la date et à l’heure planifiées, sans confirmation nécessaire.
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ Par défaut, l’option **[!UICONTROL Confirmer avant l’envoi]** est activée,
 
 Une fois votre e-mail prêt, vous pouvez le prévisualiser et le tester avant de lancer son envoi.
 
-Dans ce cas d’utilisation, nous allons prévisualiser l’e-mail à l’aide de profils existants et envoyer un BAT à un profil de test qui ne fait pas partie de la cible.
+Dans ce cas pratique, nous allons prévisualiser l&#39;email et envoyer un BAT à l&#39;aide de profils existants.
 
 Des informations supplémentaires sur la prévisualisation et le test des e-mails sont disponibles dans [cette section](../preview-test/preview-test.md).
 
@@ -161,7 +163,7 @@ Des informations supplémentaires sur la prévisualisation et le test des e-mail
 
 1. Pour envoyer des BAT de votre e-mail, cliquez sur le bouton **[!UICONTROL Tester]**, puis sélectionnez les profils qui recevront le BAT.
 
-   Dans cet exemple, nous souhaitons envoyer les BAT vers un profil de test spécifique, qui est une adresse de contrôle qui ne fait pas partie de la cible. [Découvrez comment utiliser les adresses de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=fr){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
