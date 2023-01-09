@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer des BAT
 description: Documentation de l’application web de Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 80%
 
 ---
 
@@ -16,12 +16,11 @@ ht-degree: 100%
 >
 >Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
-L’envoi de BAT vous permet de valider l’e-mail et de vérifier différents éléments tels que des liens, des liens de désinscription, des pages miroir et des images, et de détecter d’éventuelles erreurs.
+L&#39;envoi d&#39;emails de test vous permet de valider votre email et de vérifier différents éléments tels que des liens, des liens d&#39;opt-out et des pages miroir, des images et de détecter d&#39;éventuelles erreurs.
 
 Vous pouvez envoyer des BAT à deux types de destinataires :
 
-* **Profils/audiences de test** : envoyez des BAT aux adresses de contrôle, qui sont des destinataires supplémentaires de la base qui ne font pas partie de la cible de l’e-mail,
-
+* **Profils de test**: envoyer des BAT aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base,
 * **Profils de substitution** : envoyez des BAT à une adresse e-mail spécifique à l’aide d’un profil existant. Cela permet de vous mettre à la place de l’un des profils ciblés et d’obtenir une représentation exacte du message que le profil recevra.
 
 ## Sélectionner les destinataires des BAT {#recipients}
@@ -38,7 +37,7 @@ Vous pouvez envoyer des BAT à deux types de destinataires :
 
 1. Ajoutez les profils de test qui recevront les e-mails de test.
 
-   Vous pouvez également créer une audience pour sélectionner des profils de test en fonction de vos propres critères à l’aide du bouton **[!UICONTROL Ajouter une audience de test]**.
+   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
 
    ![](assets/test-profiles-audience.png)
 
@@ -68,8 +67,14 @@ Pour envoyer les BAT aux destinataires sélectionné(e)s, cliquez sur **[!UICONT
 
 ![](assets/send-proof.png)
 
-Une fois les BAT envoyés, vous pouvez accéder aux journaux dédiés à partir du bouton **[!UICONTROL Afficher le journal des e-mails de test]**. Ces journaux permettent d’accéder aux BAT envoyés et aux statistiques relatives à l’envoi du BAT.
+Vous pouvez envoyer autant de BAT que nécessaire jusqu’à ce que le contenu de votre diffusion soit finalisé. Une fois cette opération effectuée, vous pouvez envoyer l’e-mail à la cible principale. [Découvrez comment préparer et envoyer des e-mails](../monitor/prepare-send.md).
+
+## Accès aux BAT envoyés {#access-proofs}
+
+Une fois les BAT envoyés, vous pouvez accéder aux journaux dédiés à partir du bouton **[!UICONTROL Afficher le journal des e-mails de test]**. Ces logs permettent d&#39;accéder à tous les BAT envoyés pour la diffusion sélectionnée et de visualiser des statistiques spécifiques relatives à leur envoi.
 
 ![](assets/proof-log.png)
 
-Vous pouvez envoyer autant de BAT que nécessaire jusqu’à ce que le contenu de votre diffusion soit finalisé. Une fois cette opération effectuée, vous pouvez envoyer l’e-mail à la cible principale. [Découvrez comment préparer et envoyer des e-mails](../monitor/prepare-send.md).
+Vous pouvez également accéder aux BAT à partir de la liste des diffusions, comme n&#39;importe quelle diffusion.
+
+![](assets/delivery-list.png)
