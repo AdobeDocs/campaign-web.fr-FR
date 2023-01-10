@@ -3,14 +3,19 @@ audience: end-user
 title: Prévisualiser le contenu d’un e-mail
 description: Documentation de l’application web de Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 84%
+source-wordcount: '238'
+ht-degree: 73%
 
 ---
 
 # Prévisualiser le contenu d’un e-mail {#preview}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="Aperçu intelligent de votre contenu"
+>abstract="Adobe Campaign vous permet d&#39;utiliser des profils pour prévisualiser le contenu de votre email avant l&#39;envoi afin de vérifier la personnalisation et l&#39;affichage de vos destinataires."
 
 >[!NOTE]
 >

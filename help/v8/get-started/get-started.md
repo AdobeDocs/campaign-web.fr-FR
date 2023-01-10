@@ -3,9 +3,9 @@ audience: end-user
 title: Prise en main
 description: Documentation de l’application web de Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -25,11 +25,6 @@ only existing customers
 >id="acw_homepage_card1"
 >title="Prise en main"
 >abstract="Découvrez les principales fonctionnalités, l’interface utilisateur et les directives globales."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Créer et gérer des tâches"
->abstract="Adobe Campaign vous permet de créer des tâches et de gérer leur cycle de vie complet directement dans l’application."
 
 >[!NOTE]
 >
