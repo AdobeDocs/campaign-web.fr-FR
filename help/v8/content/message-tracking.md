@@ -3,10 +3,10 @@ audience: end-user
 title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 92%
 
 ---
 
@@ -102,3 +102,8 @@ Le [Concepteur d’e-mail](create-email-content.md) permet de gérer les URL tra
    * **[!UICONTROL Page miroir]** : traite cette URL comme une URL de page miroir.
    * **[!UICONTROL Jamais]** : n’active jamais le tracking de cette URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. Ajouter un **[!UICONTROL Catégorie]** à votre lien pour regrouper les liens trackés, puis cliquez sur **[!UICONTROL Enregistrer]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. Une fois votre diffusion envoyée, accédez à votre rapport de diffusion. Sous , **[!UICONTROL Tracking]** , **[!UICONTROL URL et flux de clics]** Le rapport affiche les URL de votre diffusion les plus visitées. [En savoir plus](../reporting/reports.md)
