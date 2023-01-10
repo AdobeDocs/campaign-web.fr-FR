@@ -3,10 +3,10 @@ audience: end-user
 title: Paramètres avancés
 description: Documentation de l’application web de Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
+source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 49%
+source-wordcount: '1241'
+ht-degree: 51%
 
 ---
 
@@ -16,29 +16,13 @@ ht-degree: 49%
 >
 >Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
-Ces paramètres sont des paramètres de diffusion techniques définis dans le modèle d’email. Si vous souhaitez modifier l’une d’elles pour une diffusion spécifique, faites attention.
+Ces paramètres sont les suivants : **paramètres de diffusion technique** qui sont définis dans le modèle d’email. Si vous souhaitez modifier l’une d’elles pour une diffusion spécifique, faites attention.
 
 ## Paramètres de diffusion email {#email-delivery-settings}
 
-<!--
-October 2022 
-
-Note that this page is for now a placeholder to host Contextualhelp blocks
-
-Do not delete these blocks 
-
-Documentation on this part is targeted for december 2022
--->
-
-Tous les paramètres techniques de diffusion du modèle.
-
 >[!NOTE]
 >
-> Modifiez uniquement les paramètres, pas de création ici. Selon les autorisations.
-
->[!NOTE]
->
-> Les pragmatiques ne doivent pas modifier cela, attention. Vérifiez et modifiez uniquement la règle de typologie.
+> Modifiez uniquement les paramètres, aucune nouvelle création n’est autorisée. Sujet des droits d&#39;accès.
 
 ## Typology {#typology}
 
@@ -47,7 +31,7 @@ Tous les paramètres techniques de diffusion du modèle.
 >title="Typology"
 >abstract="La typologie permet de contrôler, filtrer et contrôler l&#39;envoi des diffusions."
 
-Les typologies sont des ensembles de règles de typologie, qui sont exécutés pendant la phase d’analyse du message. Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clients désabonnés, les concurrents et les clients ne faisant pas partie du programme de fidélité).
+Les typologies sont des ensembles de **règles de typologie**, qui sont exécutés pendant la phase d’analyse du message. Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clients désabonnés, les concurrents et les clients ne faisant pas partie du programme de fidélité).
 
 Lors de l’association d’une typologie à un message ou à un modèle de message, les règles de typologie incluses dans la typologie sont exécutées pour vérifier la validité du message.
 
@@ -58,15 +42,23 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 >title="Poids de la diffusion"
 >abstract="Les poids de chaque diffusion permettent d&#39;identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
 
-Dans cette section, les paramètres de pression permettent de définir un seuil. Il s’agit du nombre maximum de messages qui peuvent être envoyés à un profil sur une période donnée. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
+Dans cette section, les paramètres de pression permettent de définir une **seuil**. Il s’agit du nombre maximum de messages qui peuvent être envoyés à un profil sur une période donnée. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
 
 La valeur de ce seuil peut être constante ou variable. Pour une même période, le seuil peut donc varier d&#39;un profil à l&#39;autre, et même pour un même profil.
 
 Dans le **Type de poids** , trois options sont disponibles : (formule manquante selon l’option.)
 
+* **Constante**
+* **Dépend du destinataire**
+* **Défini dans chaque règle**
+
 Le **Poids de la diffusion** field : Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d&#39;une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles seront appliquées. Les poids peuvent être définis ou calculés à partir d&#39;une formule en fonction des destinataires. Vous pouvez par exemple définir le poids d&#39;une diffusion en fonction des centres d&#39;intérêt des destinataires.
 
 Le **Mode de diffusion** champ.. ??
+
+* **Estimation de la cible et personnalisation des messages**
+* **Estimation et validation de la cible prévisionnelle**
+* **Evaluation de la cible**
 
 ### Paramètres de capacité {#capacity-settings}
 
@@ -85,7 +77,7 @@ Dans cette section, vous pouvez choisir un **mapping de ciblage** définie dans 
 
 ## Diffusion {#delivery}
 
-**Routage** selection : sélectionnez le compte externe....
+**Routage** selection : Le compte externe Routage e-mail intégré est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
 **Tester la diffusion via SMTP** : cette option vous permet de tester la diffusion par SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
@@ -137,6 +129,11 @@ Vous pouvez également choisir de spécifier des dates.Pour cela, cochez l&#39;o
 
 **Gestion des pages miroir** contient quatre options :
 
+* **Générer la page miroir si un lien miroir apparaît dans le contenu de l&#39;email**: la page miroir est générée si le lien est inséré dans le contenu du mail.
+* **Forcer la génération de la page miroir** : même si aucun lien vers la page miroir n’est inséré dans les messages, la page miroir sera créée.
+* **Ne pas générer de page miroir** : aucune page miroir n’est générée, même si le lien est présent dans les messages.
+* **Génère une page miroir accessible à l’aide de l’identifiant du message uniquement**: cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion.
+
 
 ### Tracking {#tracking}
 
@@ -147,14 +144,14 @@ Vous pouvez également choisir de spécifier des dates.Pour cela, cochez l&#39;o
 
 **Limite de validité du suivi**: Cette option définit la durée d’activation du tracking sur les URL.
 
-**URL de substitution des URL expirées**: TBC
+**URL de substitution des URL périmées** : utilisez cette option pour renseigner une URL vers une page web de secours. Elle s&#39;affiche après expiration du tracking.
 
 
 ## Paramètres de test {#test-setttings}
 
 **Conserver double** permet d&#39;autoriser plusieurs diffusions vers des destinataires répondant à plusieurs critères de ciblage.
 
-**Conserve les adresses placées sur la liste bloquée**
+**Conserver les adresses placées sur la liste bloquée** permet de garder à l&#39;écart de la cible les profils qui ne sont plus ciblés par la diffusion, par exemple après une désinscription (opt-out).
 
 **Conserver les adresses en quarantaine** permet de garder à l’écart de la cible les profils dont l’adresse ne répond pas.
 
