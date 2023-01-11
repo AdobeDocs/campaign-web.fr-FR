@@ -3,18 +3,14 @@ keywords: Web Campaign;accueil;rubriques les plus consultées
 description: Centre d'aide de Campaign Web v8
 title: Documentation du produit Web v8 d’Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 59%
+source-wordcount: '53'
+ht-degree: 45%
 
 ---
 
 # Documentation web d’Adobe Campaign v8 {#campaign-documentation}
-
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 

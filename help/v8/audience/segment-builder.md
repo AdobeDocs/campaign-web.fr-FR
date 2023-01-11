@@ -3,18 +3,16 @@ audience: end-user
 title: Utiliser le créateur de segments
 description: Documentation de l’application web de Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 78%
+source-wordcount: '540'
+ht-degree: 77%
 
 ---
 
 # Définition d’une audience à l’aide du créateur de règles {#segment-builder}
 
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+![](../assets/do-not-localize/badge.png)
 
 Cette section décrit comment créer une audience lors de la conception d’un e-mail. L’audience créée ne peut être utilisée que dans cet e-mail.
 

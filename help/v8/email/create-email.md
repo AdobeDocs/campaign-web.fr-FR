@@ -3,18 +3,16 @@ audience: end-user
 title: Créer votre premier e-mail
 description: Documentation de l’application web de Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1155'
 ht-degree: 84%
 
 ---
 
 # Envoyer votre premier e-mail {#first-email}
 
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+![](../assets/do-not-localize/badge.png)
 
 Ce cas d’utilisation présente comment créer votre premier e-mail. Nous allons planifier l’envoi d’un e-mail à une date spécifique aux client(e)s de rang de fidélité argent et or. Cet e-mail sera conçu à l’aide d’un modèle prédéfini et comprendra une personnalisation utilisant les attributs du profil.
 

@@ -3,18 +3,16 @@ audience: end-user
 title: Définir un style pour les liens
 description: Découvrez comment définir un style pour les liens.
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '141'
 ht-degree: 100%
 
 ---
 
 # Définir un style pour les liens {#styling-links}
 
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+![](../assets/do-not-localize/badge.png)
 
 Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d’e-mail.
 

@@ -3,18 +3,16 @@ audience: end-user
 title: Ajouter des attributs de style intégrés
 description: Découvrez comment ajouter des attributs de style intégrés.
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: aef03e727f751c25df48c29fcbc9bd553af08357
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
 
 # Ajouter des attributs de style intégrés {#adding-inline-styling-attributes}
 
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+![](../assets/do-not-localize/badge.png)
 
 Dans l’interface du Concepteur d’e-mail, lorsque vous sélectionnez un élément et affichez ses paramètres dans le volet de droite, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 

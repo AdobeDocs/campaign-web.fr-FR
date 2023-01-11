@@ -3,20 +3,16 @@ audience: end-user
 title: Paramètres avancés
 description: Documentation de l’application web de Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 51%
+source-wordcount: '1222'
+ht-degree: 50%
 
 ---
 
 # Paramètres avancés {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
 Ces paramètres sont les suivants : **paramètres de diffusion technique** qui sont définis dans le modèle d’email. Si vous souhaitez modifier l’une d’elles pour une diffusion spécifique, faites attention.
 

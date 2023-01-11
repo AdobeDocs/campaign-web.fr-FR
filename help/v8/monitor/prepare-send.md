@@ -3,23 +3,21 @@ audience: end-user
 title: Préparer et envoyer un email
 description: Documentation de l’application web de Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 18%
+source-wordcount: '521'
+ht-degree: 15%
 
 ---
 
 # Préparez et envoyez votre email {#prepare-send}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Préparez et envoyez votre email"
 >abstract="Découvrez comment préparer votre email et en savoir plus sur l’envoi d’indicateurs de performance clés."
-
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
 
 <!--
 

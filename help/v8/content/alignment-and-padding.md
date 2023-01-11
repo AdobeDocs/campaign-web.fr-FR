@@ -3,18 +3,16 @@ audience: end-user
 title: Ajuster l'alignement vertical et la marge intérieure dans le Concepteur d'email
 description: Découvrez comment ajuster l’alignement vertical et la marge intérieure.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '171'
 ht-degree: 95%
 
 ---
 
 # Ajuster l’alignement vertical et la marge intérieure {#alignment-and-padding}
 
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+![](../assets/do-not-localize/badge.png)
 
 Dans cet exemple, nous ajusterons la marge intérieure et l’alignement vertical à l’intérieur d’un composant de structure composé de trois colonnes.
 

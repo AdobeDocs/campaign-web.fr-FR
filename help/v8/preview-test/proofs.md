@@ -3,18 +3,16 @@ audience: end-user
 title: Envoyer des BAT
 description: Documentation de l’application web de Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 80%
+source-wordcount: '378'
+ht-degree: 79%
 
 ---
 
 # Envoyer des BAT {#send-proofs}
 
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+![](../assets/do-not-localize/badge.png)
 
 L&#39;envoi d&#39;emails de test vous permet de valider votre email et de vérifier différents éléments tels que des liens, des liens d&#39;opt-out et des pages miroir, des images et de détecter d&#39;éventuelles erreurs.
 

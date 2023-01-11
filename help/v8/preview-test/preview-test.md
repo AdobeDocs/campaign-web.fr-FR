@@ -3,18 +3,16 @@ audience: end-user
 title: À propos de la prévisualisation et des BAT
 description: Documentation de l’application web de Campaign v8
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 82%
+source-wordcount: '115'
+ht-degree: 80%
 
 ---
 
 # À propos de la prévisualisation et des BAT {#about-preview-proofs}
 
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+![](../assets/do-not-localize/badge.png)
 
 Une fois le contenu de l’e-mail défini, vous pouvez générer un aperçu avant de l’envoyer. Vous pouvez ainsi tester l’e-mail afin de détecter d’éventuelles erreurs dans le contenu ou les paramètres de personnalisation.
 

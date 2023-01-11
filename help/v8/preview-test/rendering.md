@@ -3,18 +3,16 @@ audience: end-user
 title: Test du rendu des emails
 description: Documentation de l’application web de Campaign v8
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 19%
+source-wordcount: '153'
+ht-degree: 9%
 
 ---
 
 # Tester le rendu de l&#39;email {#rendering}
 
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+![](../assets/do-not-localize/badge.png)
 
 Avant d&#39;envoyer votre email, vérifiez que l&#39;affichage de votre message sera optimal pour les destinataires sur divers clients web, webmails et appareils.
 

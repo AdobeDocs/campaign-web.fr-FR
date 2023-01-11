@@ -3,18 +3,16 @@ audience: end-user
 title: Prise en main du style des e-mails
 description: Découvrez les différentes manières d’ajuster le style du contenu des e-mails.
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 6e658c6a2c4f49135ffa6bb4ef0eb39086b1623a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
 
 # Prise en main du style des e-mails {#get-started-email-style}
 
->[!NOTE]
->
->Cette documentation est en cours d’élaboration et est fréquemment mise à jour. La version finale de ce contenu sera prête en janvier 2023.
+![](../assets/do-not-localize/badge.png)
 
 Une fois que vous avez commencé à créer le contenu de votre e-mail dans [!DNL Journey Optimizer], vous pouvez ajuster un certain nombre de paramètres et d’attributs de style dans le volet Paramètres du Concepteur d’e-mail.
 
