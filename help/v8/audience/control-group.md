@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Configurer une population témoin
-description: Documentation de l’application web de Campaign v8
+description: Documentation de Campaign v8 Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt

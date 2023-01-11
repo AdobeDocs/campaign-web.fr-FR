@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 54%
+ht-degree: 86%
 
 ---
 
@@ -37,7 +37,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Menu de navigation gauche
 
-Parcourez les liens situés à gauche pour accéder aux fonctionnalités Web de Campaign v8. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Tous les écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion e-mail. Cliquer sur un élément de liste à des fins d’édition/d’affichage n’est pas disponible dans Alpha. Toutes les listes seront modifiables dans les versions bêta et GA. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations utilisateur.
+Parcourez les liens situés à gauche pour accéder aux fonctionnalités Web de Campaign v8. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Tous les écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion e-mail. Alpha ne permet pas de cliquer sur un élément de liste pour le modifier/visualiser. Toutes les listes seront modifiables dans les versions bêta et GA. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations utilisateur.
 
 ![](assets/home.png)
 
@@ -71,9 +71,9 @@ Le menu **Explorateur** affiche la même hiérarchie de dossiers que celle de la
 
 Les éléments affichés dans l’Explorateur dépendent de vos autorisations utilisateur.
 
-Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes pour personnaliser l’affichage afin d’afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens).
+Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes pour personnaliser l’affichage en fonction des informations que vous souhaitez. Consultez cette [section](#list-screens).
 
-Pour plus d&#39;informations sur l&#39;explorateur Campaign, reportez-vous à cette section [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+Pour plus d&#39;informations sur l’Explorateur Campaign, consultez cet [article](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html?lang=fr).
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -94,9 +94,9 @@ Navtree view depends on permissions (same as console).
 >title="Diffusions"
 >abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les indicateurs clés de performance. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur une diffusion e-mail pour ouvrir son tableau de bord. Les autres éléments sont en lecture seule. Des modèles de diffusion sont également disponibles."
 
-* **Campagnes** - Il s’agit de la liste de vos campagnes. Par défaut, vous pouvez afficher leurs dates de début/fin/dernière modification, ainsi que leur état. Vous pouvez filtrer la liste par statut ou date de début/fin. Des modèles de campagne sont également disponibles. Ces listes sont en lecture seule.
+* **Campagnes** - Il s’agit de la liste de vos campagnes. Par défaut, vous pouvez afficher leurs dates de début/fin/dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Des modèles de campagne sont également disponibles. Ces listes sont en lecture seule.
 
-* **Diffusions** - Parcourez votre liste de diffusions. Par défaut, vous pouvez afficher leur état, la date de dernière modification ainsi que les indicateurs clés de performance. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur une diffusion email pour ouvrir son tableau de bord afin d&#39;obtenir un aperçu des détails de la diffusion. Les diffusions sur d’autres canaux sont en lecture seule. Les modèles de diffusion sont également disponibles en lecture seule. Vous pouvez utiliser la console cliente pour les modifier. Voir [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=fr).
+* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Les modèles de diffusion sont également disponibles en lecture seule. Vous pouvez utiliser la console cliente pour les modifier. Consultez cette [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=fr).
 
 ### Gestion des clients
 
@@ -108,35 +108,35 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Audiences"
->abstract="Voici votre liste d’audiences. Vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Cette liste est en lecture seule."
+>abstract="Il s’agit de votre liste d’audiences. Vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Cette liste est en lecture seule."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Listes d’abonnements"
->abstract="Parcourez les listes d&#39;abonnements. Vous pouvez consulter leur type, mode et libellé. Cette liste est en lecture seule."
+>abstract="Parcourez les listes d’abonnements. Vous pouvez consulter leur type, mode et libellé. Cette liste est en lecture seule."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Les workflows de ciblage"
 >abstract="Accédez à votre liste de workflows Campaign. Vous pouvez afficher leur état, les dates de leur dernier/prochain traitement et leur environnement. Vous pouvez filtrer la liste par état, date de dernier traitement et type de workflow. Des modèles de workflow sont également disponibles. Ces listes sont en lecture seule."
 
-* **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez visualiser leur adresse email, prénom et nom. Cette liste est en lecture seule.
-* **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez visualiser leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Cette liste est en lecture seule.
-* **Listes d’abonnements** - Parcourez vos listes d’abonnements. Par défaut, vous pouvez visualiser leur type, mode et libellé. Cette liste est en lecture seule.
-* **Workflows de ciblage** - Accédez à votre liste de workflows de campagne. Par défaut, vous pouvez afficher leur état, les dates de traitement de dernier/suivant et leur environnement. Vous pouvez filtrer la liste par état, date de dernier traitement et type de workflow. Des modèles de workflow sont également disponibles. Ces listes sont en lecture seule.
+* **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. Cette liste est en lecture seule.
+* **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Cette liste est en lecture seule.
+* **Listes d’abonnements** - Parcourez vos listes d’abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Cette liste est en lecture seule.
+* **Workflows de ciblage** - Accédez à votre liste de workflows de campagne. Par défaut, vous pouvez consulter leur état, les dates de leur dernier/prochain traitement et leur environnement. Vous pouvez filtrer la liste par état, date de dernier traitement et type de workflow. Des modèles de workflow sont également disponibles. Ces listes sont en lecture seule.
 
 ### Gestion des décisions
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offres"
->abstract="Parcourez votre liste d&#39;offres Interaction. Par défaut, vous pouvez visualiser leur état, les dates de début et de fin et leur environnement. Vous pouvez filtrer la liste par état et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule."
+>abstract="Parcourez votre liste d’offres Interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par état et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule."
 
-* **Offres** - Parcourez votre liste d’offres d’interaction. Par défaut, vous pouvez visualiser leur état, les dates de début et de fin et leur environnement. Vous pouvez filtrer la liste par état et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
+* **Offres** - Parcourez votre liste d’offres d’interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par état et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
 
 ## Barre supérieure  
 
-La barre supérieure de l’interface vous permet d’effectuer les opérations suivantes :
+La barre supérieure de l’interface vous permet de :
 
 * partager vos commentaires en tant que testeur Alpha ;
 * Intervalle entre les organisations et les instances
@@ -160,17 +160,17 @@ Un guide d&#39;intégration est également disponible pour vous aider à prendre
 
 ## Configurer les écrans de liste {#list-screens}
 
-Plusieurs liens à partir du menu de navigation de gauche, par exemple **Diffusions** ou **Campagnes**, affiche des listes d’objets. Ces écrans de type Liste sont en lecture seule, à l&#39;exception de la liste de diffusion email.
+Plusieurs liens du menu de navigation de gauche, par exemple **Diffusions** ou **Campagnes**, affichent des listes d’objets. Ces écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion d’e-mails.
 
 Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou filtrer la liste selon des critères contextuels.
 
 ![](assets/filter.png){width="70%" align="left"}
 
-Les listes sont affichées en colonnes. Vous pouvez afficher des informations supplémentaires en modifiant le paramétrage des colonnes. Pour ce faire, cliquez sur l’icône dans le coin supérieur droit de la liste. Vous pouvez ajouter ou supprimer des colonnes et modifier leur ordre d’affichage.
+Les listes sont affichées en colonnes. Vous pouvez également afficher des informations supplémentaires en modifiant la configuration des colonnes. Pour ce faire, cliquez sur l’icône dans le coin supérieur droit de la liste. Vous pouvez ajouter ou supprimer des colonnes et modifier leur ordre d’affichage.
 
 ![](assets/columns.png){width="70%" align="left"}
 
-Vous pouvez trier les éléments de la liste en cliquant sur l’en-tête d’une colonne. Une flèche s’affiche (vers le haut ou vers le bas) pour indiquer que la liste est triée sur cette colonne. Pour les colonnes numériques ou de date, la flèche Haut indique que la liste est triée par ordre croissant, tandis que la flèche Bas indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont répertoriées dans l’ordre alphabétique.
+Vous pouvez trier les éléments de la liste en cliquant sur l’en-tête d’une colonne. Une flèche s’affiche (vers le haut ou vers le bas) pour indiquer que la liste est triée sur cette colonne. Pour les colonnes numériques ou de date, la flèche vers le haut indique que la liste est triée par ordre croissant, tandis que la flèche vers le bas indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont classées par ordre alphabétique.
 
 <!--
 ## Supported browsers {#browsers}

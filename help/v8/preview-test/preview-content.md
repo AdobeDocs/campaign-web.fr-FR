@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Prévisualiser le contenu d’un e-mail
-description: Documentation de l’application web de Campaign v8
+description: Documentation de Campaign v8 Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt

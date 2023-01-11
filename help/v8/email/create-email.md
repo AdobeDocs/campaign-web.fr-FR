@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Créer votre premier e-mail
-description: Documentation de l’application web de Campaign v8
+description: Documentation de Campaign v8 Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
 source-wordcount: '1155'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -127,7 +127,7 @@ Dans ce cas d’utilisation, nous allons envoyer l’e-mail à une audience exis
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Planifier l’envoi"
->abstract="Définissez la date et l’heure exactes de votre envoi. En choisissant l’heure la plus appropriée pour votre message marketing, vous maximiserez les taux d’ouverture."
+>abstract="Définissez la date et l’heure exactes de votre envoi. En choisissant l’heure la plus appropriée pour votre message marketing, vous maximisez les taux d’ouverture."
 
 Pour planifier l’envoi de l’e-mail, cliquez sur **[!UICONTROL Activer]**, puis indiquez la date et l’heure de votre choix pour l’envoi.
 
