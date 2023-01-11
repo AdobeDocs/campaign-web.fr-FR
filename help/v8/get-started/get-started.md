@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main
 description: Documentation de l’application web de Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 82%
 
 ---
 
@@ -32,11 +32,11 @@ only existing customers
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.
 
-Outre toutes les fonctionnalités existantes disponibles dans la console, nous avons créé une interface web permettant d’offrir aux utilisateurs et utilisatrices une expérience intégrée, intuitive et cohérente.
+Outre toutes les fonctionnalités existantes disponibles dans la console, nous avons créé une nouvelle interface utilisateur web moderne afin de simplifier la conception et la diffusion des campagnes marketing, et de respecter l’expérience des applications natives Adobe Experience Platform.
 
 ## Fonctionnalités Alpha
 
-Actuellement, cette interface web moderne n’est disponible que pour les utilisateurs et utilisatrices Alpha, et dispose des fonctionnalités suivantes :
+Actuellement, cette interface web n’est disponible que pour les utilisateurs d’Alpha disposant des fonctionnalités suivantes :
 
 **Une expérience moderne, intuitive et unifiée**
 
@@ -50,7 +50,7 @@ No search and pulse notifications in Alpha
 **Créer, lancer et mesurer votre campagne par e-mail**
 
 * Concevoir un contenu d’e-mail personnalisé avec l’éditeur d’e-mail
-* Définir des audiences avec le créateur de segments
+* Définition des audiences cibles avec le créateur de segments
 * Prévisualiser, tester et envoyer vos e-mails
 * Surveiller l’envoi et la mesure des résultats à l’aide de rapports intégrés
 
