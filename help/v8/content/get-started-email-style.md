@@ -4,7 +4,7 @@ title: Prise en main du style des e-mails
 description: Découvrez les différentes manières d’ajuster le style du contenu des e-mails.
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 
