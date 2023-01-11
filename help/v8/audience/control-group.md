@@ -3,10 +3,10 @@ audience: end-user
 title: Configurer une population témoin
 description: Documentation de l’application web de Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ Dans la section **Extraire à partir de la cible**, sélectionnez un **Type d’
 
    ![](assets/control-group.png)
 
-* **Classement par attribut(s)** : cette option permet de définir une limitation en fonction d’un ou plusieurs ordres de tri.
+* **Classement par attribut(s)**: cette option vous permet d’exclure un ensemble de profils en fonction d’attributs spécifiques dans un ou plusieurs ordres de tri spécifiques.
 
    ![](assets/control-group2.png)
 

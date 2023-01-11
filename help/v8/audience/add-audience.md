@@ -3,10 +3,10 @@ audience: end-user
 title: Ajouter une audience
 description: Documentation de l’application web de Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 92%
 
 ---
 
@@ -32,6 +32,10 @@ Cette section explique comment sélectionner une audience existante lors de la d
    Cet écran affiche toutes les audiences existantes définies dans la console Adobe Campaign ou à partir d’Adobe Experience Platform.
 
    ![](assets/create-audience2.png)
+
+   >[!NOTE]
+   >
+   >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Reportez-vous à la section [Documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr).
 
 1. Choisissez une audience, puis cliquez sur **Sélectionner**.
 

@@ -5,10 +5,10 @@ description: Documentation de l’application web de Campaign v8
 breadcrumb-title: Présentation de Campaign
 title: Campaign v8 Documentation web
 hide: true
-source-git-commit: 655e0525c445b3bbf82011db84672835ea81b8ed
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 64%
+source-wordcount: '167'
+ht-degree: 61%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 64%
    + [À propos des audiences](audience/about-audiences.md)
    + [Sélectionnez une audience.](audience/add-audience.md)
    + [Configurer une population témoin](audience/control-group.md)
-   + [Utiliser le créateur de segments](audience/segment-builder.md)
+   + [Définition d’une audience à l’aide du créateur de règles](audience/segment-builder.md)
 + Prévisualiser et tester votre email {#preview-test}
    + [À propos de la prévisualisation et des BAT](preview-test/preview-test.md)
    + [Prévisualiser le contenu d’un e-mail](preview-test/preview-content.md)
