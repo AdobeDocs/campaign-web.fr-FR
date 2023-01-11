@@ -3,10 +3,10 @@ audience: end-user
 title: À propos des audiences
 description: À propos des audiences
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 67%
+source-wordcount: '136'
+ht-degree: 65%
 
 ---
 
@@ -42,7 +42,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Dans cette section, vous apprendrez à définir l’audience de l’email. Il s&#39;agit de la cible de votre diffusion, les destinataires qui recevront l&#39;email. Le type d&#39;audience dépend du mapping de ciblage.
+Dans cette section, vous apprendrez à définir l’audience de l’email. Il s&#39;agit de la cible de votre diffusion, les destinataires qui recevront l&#39;email. Le type d&#39;audience dépend du mapping de ciblage défini dans le modèle de diffusion. Consultez cette [section](../email/create-email.md).
 
 Pour définir l’audience, vous pouvez :
 

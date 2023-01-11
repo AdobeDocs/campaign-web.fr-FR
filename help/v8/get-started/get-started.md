@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main
 description: Documentation de l’application web de Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 76%
+ht-degree: 74%
 
 ---
 
@@ -28,7 +28,7 @@ only existing customers
 
 >[!NOTE]
 >
->L’application web de Campaign v8 est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
+>Le Web de Campaign v8 est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.
 
