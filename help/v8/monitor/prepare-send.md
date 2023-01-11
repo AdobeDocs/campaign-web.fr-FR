@@ -3,7 +3,7 @@ audience: end-user
 title: Préparer et envoyer un email
 description: Documentation de l’application web de Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 18%
@@ -60,7 +60,7 @@ Procédez comme suit :
    * **A envoyer**: le nombre de messages qui seront envoyés ;
    * **Pour exclure**: le nombre de messages exclus par une règle de typologie
 
-1. Cliquez sur le bouton **Journaux** et vérifiez qu’il n’y a pas d’erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. Voir à ce propos cette [section](#send).
+1. Cliquez sur le bouton **Journaux** et vérifiez qu’il n’y a pas d’erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. Voir à ce propos cette [section](delivery-logs.md).
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +82,7 @@ Procédez comme suit :
 
    ![](assets/send.png)
 
-1. La progression de l&#39;envoi s&#39;affiche. Vérifiez les indicateurs de performance clés affichés. Vous pouvez également consulter les journaux. Voir à ce propos cette [section](#send).
+1. La progression de l&#39;envoi s&#39;affiche. Vérifiez les indicateurs de performance clés affichés. Vous pouvez également consulter les journaux. Voir à ce propos cette [section](delivery-logs.md).
 
    ![](assets/send2.png)
 

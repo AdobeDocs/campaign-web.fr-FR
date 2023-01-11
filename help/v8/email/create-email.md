@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre premier e-mail
 description: Documentation de l’application web de Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -104,7 +104,7 @@ Dans ce cas d’utilisation, nous allons concevoir l’e-mail à l’aide d’un
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Définir l’audience"
->abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance de Campaign v8 ou dans Adobe Experience Platform ou choisir de créer une nouvelle audience à l’aide du créateur de segments."
+>abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance de Campaign v8 ou dans Adobe Experience Platform ou choisir de créer une audience à l’aide du créateur de règles."
 
 Dans ce cas d’utilisation, nous allons envoyer l’e-mail à une audience existante. Pour plus d’informations sur l’utilisation des audiences, reportez-vous à [cette section](../audience/about-audiences.md).
 

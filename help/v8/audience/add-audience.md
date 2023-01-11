@@ -3,10 +3,10 @@ audience: end-user
 title: Ajouter une audience
 description: Documentation de l’application web de Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 92%
+ht-degree: 86%
 
 ---
 
@@ -43,7 +43,7 @@ Cette section explique comment sélectionner une audience existante lors de la d
 
    ![](assets/create-audience3.png)
 
-1. Le créateur de segments vous permet d’enrichir votre audience avec des filtres supplémentaires ou en combinant différentes audiences. Consultez cette [section](segment-builder.md).
+1. Le créateur de règles vous permet d’enrichir votre audience avec des filtres supplémentaires ou en combinant différentes audiences. Consultez cette [section](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

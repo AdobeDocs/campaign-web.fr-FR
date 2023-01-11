@@ -3,10 +3,10 @@ audience: end-user
 title: Configurer une population témoin
 description: Documentation de l’application web de Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 94%
+source-wordcount: '545'
+ht-degree: 77%
 
 ---
 
@@ -56,6 +56,28 @@ Dans la section **Extraire à partir de la cible**, sélectionnez un **Type d’
 
 Définissez ensuite la variable **Limite de taille** : vous devez définir la manière dont vous allez limiter le nombre de profils que vous extrayez de la cible principale.
 
+**Exemple**
+
+Vous pouvez consulter les logs pour vérifier et identifier les profils exclus. Prenons l’exemple d’une exclusion aléatoire sur cinq profils.
+
+![](assets/control-group4.png)
+
+Après la préparation de la diffusion, vous pouvez visualiser les exclusions sur les écrans suivants :
+
+* Le **Pour exclure** IPC dans le tableau de bord de la diffusion, avant l&#39;envoi.
+
+   ![](assets/control-group5.png)
+
+* Le **Exclus** afficher chaque profil et l’exclusion associée ; **Motif**.
+
+   ![](assets/control-group6.png)
+
+* Le **Exclusions appliquées** afficher le nombre de profils exclus pour chaque règle de typologie.
+
+   ![](assets/control-group7.png)
+
+Pour plus d&#39;informations sur les logs de diffusion, reportez-vous à cette section [section](../monitor/delivery-logs.md).
+
 ## Population supplémentaire {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ Dans la section **Population supplémentaire** de l’écran de définition de l
 
 * Pour utiliser une audience existante, cliquez sur **Sélectionner une audience**. Reportez-vous à cette [section](add-audience.md).
 
-* Pour définir une nouvelle requête, sélectionnez **Créer la vôtre** et définissez les critères d’exclusion à l’aide du créateur de segments. Reportez-vous à cette [section](segment-builder.md).
+* Pour définir une nouvelle requête, sélectionnez **Créez votre propre** et définissez les critères d’exclusion à l’aide du créateur de règles. Reportez-vous à cette [section](segment-builder.md).
 
 Les profils inclus dans l’audience ou correspondant au résultat de la requête sont exclus de la cible.
