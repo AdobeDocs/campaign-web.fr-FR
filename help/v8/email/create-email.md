@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre premier e-mail
 description: Documentation de Campaign v8 Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 84%
+source-wordcount: '1199'
+ht-degree: 83%
 
 ---
 
@@ -161,7 +161,9 @@ Des informations supplémentaires sur la prévisualisation et le test des e-mail
 
 1. Pour envoyer des BAT de votre e-mail, cliquez sur le bouton **[!UICONTROL Tester]**, puis sélectionnez les profils qui recevront le BAT.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+
+   Dans cet exemple, nous souhaitons envoyer les BAT vers un profil de test spécifique, qui est une adresse de contrôle qui ne fait pas partie de la cible. Découvrez comment utiliser les adresses de contrôle dans [Documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=fr){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 
