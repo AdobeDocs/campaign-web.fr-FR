@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre premier e-mail
 description: Documentation de Campaign v8 Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 85%
+source-wordcount: '1153'
+ht-degree: 84%
 
 ---
 
@@ -36,7 +36,7 @@ Ce cas d’utilisation présente comment créer votre premier e-mail. Nous allon
 
    >[!NOTE]
    >
-   >Un modèle est une configuration de diffusion spécifique qui a été enregistrée comme modèle afin d’être réutilisée. Les modèles de diffusion sont configurés par les utilisateurs et utilisatrices disposant des droits d’administration dans la console Adobe Campaign. [Découvrez comment utiliser les modèles de diffusion](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=fr){target=&quot;_blank&quot;}.
+   >Un modèle est une configuration de diffusion spécifique qui a été enregistrée comme modèle afin d’être réutilisée. Les modèles de diffusion sont configurés par les utilisateurs et utilisatrices disposant des droits d’administration dans la console Adobe Campaign. [Découvrez comment utiliser les modèles de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -116,7 +116,7 @@ Dans ce cas d’utilisation, nous allons envoyer l’e-mail à une audience exis
    >
    >Les audiences disponibles dans la liste proviennent de votre instance Campaign V8 ou de Adobe Experience Platform si l’intégration de destination/source a été configurée sur votre instance.
    >
-   >L’intégration Destination/Sources vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de suivi Campaign à Adobe Experience Platform. [Découvrez comment utiliser Campaign et Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
+   >L’intégration Destination/Sources vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de suivi Campaign à Adobe Experience Platform. [Découvrez comment utiliser Campaign et Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. Une fois votre audience sélectionnée, vous pouvez affiner la cible à l’aide de règles supplémentaires.
 
@@ -161,7 +161,7 @@ Des informations supplémentaires sur la prévisualisation et le test des e-mail
 
 1. Pour envoyer des BAT de votre e-mail, cliquez sur le bouton **[!UICONTROL Tester]**, puis sélectionnez les profils qui recevront le BAT.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 

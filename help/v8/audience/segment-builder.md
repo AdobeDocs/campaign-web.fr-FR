@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser le créateur de segments
 description: Documentation de Campaign v8 Web
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 79%
@@ -44,7 +44,7 @@ La palette, située à gauche, contient tous les éléments sur lesquels vous po
 
    >[!NOTE]
    >
-   >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Reportez-vous à la section [Documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr).
+   >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Reportez-vous à la section [Documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
 
 Vous pouvez utiliser la barre de recherche pour rechercher rapidement des éléments.
 
