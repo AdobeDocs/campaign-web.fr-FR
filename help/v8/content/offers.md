@@ -5,8 +5,8 @@ description: Envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
