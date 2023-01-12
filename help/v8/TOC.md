@@ -5,9 +5,9 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 title: Documentation Web de Campaign v8
 hide: true
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '168'
 ht-degree: 91%
 
 ---
@@ -54,5 +54,5 @@ ht-degree: 91%
 + Envoyer et surveiller l’e-mail {#monitor}
    + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
    + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
+   + [Paramètres de diffusion d’e-mail](advanced-settings/delivery-settings.md)
 + [Créer des rapports](reporting/reports.md)
-+ [Paramètres avancés](advanced-settings/delivery-settings.md)
