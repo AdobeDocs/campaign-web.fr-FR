@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Documentation de Campaign v8 Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 77%
+source-wordcount: '308'
+ht-degree: 71%
 
 ---
 
@@ -59,7 +59,7 @@ Les étapes de définition du contenu de votre e-mail sont les suivantes :
 
    <!--limitation on size + number of files?-->
 
-1. Par défaut, le tracking e-mail est activé pour les ouvertures et les clics. Pour désactiver ces options, désélectionnez-les dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking](message-tracking.md)
+1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la **[!UICONTROL Fonctionnalités facultatives]** . [Découvrez comment ajouter des liens et gérer le tracking](message-tracking.md)
 
 Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour vérifier comment il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail](../preview-test/preview-test.md)
 
