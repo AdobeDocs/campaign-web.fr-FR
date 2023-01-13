@@ -3,10 +3,10 @@ audience: end-user
 title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un email avec l’interface utilisateur web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 95%
+source-wordcount: '551'
+ht-degree: 83%
 
 ---
 
@@ -86,12 +86,12 @@ Procédez comme suit :
 
    Voici les KPI qui s’affichent :
 
-   * **Diffusés** : le nombre de messages envoyés avec succès. Le pourcentage est basé sur le nombre total de destinataires ciblé(e)s.
-   * **Ouvertures** : le nombre de messages ouverts. Le pourcentage est basé sur le nombre de messages diffusés.
-   * **Clics** : le nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Le pourcentage est basé sur le nombre de messages diffusés.
+   * **Délivrés**: le nombre de messages délivrés avec succès. Le pourcentage affiché est basé sur le nombre total de messages envoyés.
+   * **Ouvertures** : le nombre de messages ouverts. Le pourcentage affiché est le ratio du nombre d&#39;ouvertures distinctes par rapport au nombre de messages délivrés.
+   * **Clics** : le nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages délivrés.
 
    >[!NOTE]
    >
-   >Les indicateurs **Ouvertures** et **Clics** sont mis à jour en temps réel.
+   >Le **Ouvertures** et **Clics** Les indicateurs seront mis à jour au bout de 5 minutes.
 
    Vous pouvez suspendre l’envoi à tout moment, puis reprendre. Si vous arrêtez la diffusion pendant son envoi, vous ne pourrez pas reprendre.

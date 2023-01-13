@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion
 description: Découvrez comment accéder aux rapports de diffusion et les utiliser
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 97%
+source-wordcount: '385'
+ht-degree: 89%
 
 ---
 
@@ -44,9 +44,9 @@ Pour afficher les rapports, procédez comme suit :
 
 * **URL et flux de clics** : ce rapport présente la liste des pages visitées suite à une diffusion.
 
-* **Activités utilisateurs** : ce rapport présente la répartition des ouvertures, clics et transactions, par demi-heure, par heure ou par jour, sous la forme d’un graphique.
+* **Activités utilisateurs**: Ce rapport présente la répartition des ouvertures et clics par demi-heure, heure ou jour, sous la forme d&#39;un graphique.
 
-* **Statistiques de tracking** : ce rapport présente les statistiques sur les taux d’ouverture, clics et transactions.
+* **Statistiques de suivi**: Ce rapport fournit des statistiques sur les ouvertures et les clics.
 
 * **Répartition des ouvertures** : ce rapport présente la répartition des ouvertures, par système d’exploitation, par appareil et par navigateur, sur la période concernée. Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. Le second affiche des statistiques relatives uniquement aux ouvertures sur les appareils mobiles.
 
