@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 7%
+source-wordcount: '330'
+ht-degree: 8%
 
 ---
 
@@ -21,11 +21,11 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
 * Insérer dynamique **champs de personnalisation**
 
-   Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données dans l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n&#39;importe quel champ associé au destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans la ligne d’objet ou le corps de vos messages.
+   Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données dans l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n&#39;importe quel champ associé au destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans la ligne d’objet ou dans le corps de vos messages.
 
    ![](assets/perso-subject-line.png)
 
-   La syntaxe ci-dessus insère la ville du destinataire dans votre contenu : &lt;%= recipient.location.city %>.
+   La syntaxe suivante insère la ville du destinataire dans votre contenu : &lt;%= recipient.location.city %>.
 
 * Insertion de données prédéfinies **blocs de contenu**
 
@@ -44,7 +44,7 @@ Pour ajouter de la personnalisation dans le **[!UICONTROL Objet]** du message, p
 
 1. Cliquez sur le bouton **Ouvrir la boîte de dialogue de personnalisation** à droite de la **Objet** champ .
 1. Saisissez l’objet du contenu et sélectionnez les attributs de personnalisation à ajouter.
-1. Cliquez sur Confirmer pour valider. Les attributs de personnalisation sont ajoutés à l’objet.
+1. Cliquez sur **Confirmer** pour valider. Les attributs de personnalisation sont ajoutés à l’objet.
 
 ![](assets/perso-subject.png)
 
@@ -81,4 +81,4 @@ Pour personnaliser une **link**:
 
 ## Personnaliser vos offres {#personalize-offers}
 
-Vous pouvez également accéder à l’éditeur de personnalisation lorsque vous ajoutez du contenu de type texte aux représentations de vos offres.
+Vous pouvez également accéder à l’éditeur de personnalisation lorsque vous ajoutez du contenu de type texte aux représentations de vos offres. En savoir plus dans [cette section](../content/offers.md).
