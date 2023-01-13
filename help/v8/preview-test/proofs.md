@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Envoyer des BAT
-description: Documentation de l’application web de Campaign v8
+description: Découvrez comment définir et envoyer des messages de BAT
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 79%
+source-wordcount: '382'
+ht-degree: 77%
 
 ---
 

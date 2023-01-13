@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Utiliser le créateur de segments
-description: Documentation de Campaign v8 Web
+title: Définition d’une audience à l’aide du créateur de règles
+description: Découvrez comment utiliser le créateur de segments
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '546'
+ht-degree: 76%
 
 ---
 

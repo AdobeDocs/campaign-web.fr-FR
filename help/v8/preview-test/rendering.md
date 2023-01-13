@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Tester le rendu des e-mails
-description: Documentation de Campaign v8 Web
+description: Découvrez comment tester le rendu de vos emails dans l’interface utilisateur web de Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 93%
 
 ---
 

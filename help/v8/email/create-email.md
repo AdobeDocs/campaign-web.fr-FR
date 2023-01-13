@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Créer votre premier e-mail
-description: Documentation de Campaign v8 Web
+title: Envoyer votre premier e-mail
+description: Découvrez comment envoyer votre premier email avec l’interface utilisateur web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1206'
+ht-degree: 83%
 
 ---
 

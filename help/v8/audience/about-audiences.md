@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: À propos des audiences
-description: À propos des audiences
+title: Prise en main des audiences
+description: Découvrez comment utiliser les audiences dans l’interface utilisateur web de Campaign
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 59%
+source-wordcount: '128'
+ht-degree: 56%
 
 ---
 
-# À propos des audiences {#about-audiences}
+# Prise en main des audiences {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 

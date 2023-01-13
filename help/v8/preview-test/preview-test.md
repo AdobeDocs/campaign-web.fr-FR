@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: À propos de la prévisualisation et des BAT
-description: Documentation de l’application web de Campaign v8
+description: Découvrez comment prévisualiser des messages et envoyer des bons à tirer
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 80%
+source-wordcount: '119'
+ht-degree: 73%
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Créer des rapports
-description: Documentation de Campaign v8 Web
+title: Rapports de diffusion
+description: Découvrez comment accéder aux rapports de diffusion et les utiliser
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
-# Créer des rapports {#reports}
+# Rapports de diffusion {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 

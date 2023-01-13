@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Préparer et envoyer un e-mail
-description: Documentation de Campaign v8 Web
+description: Découvrez comment préparer et envoyer un email avec l’interface utilisateur web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '532'
+ht-degree: 95%
 
 ---
 

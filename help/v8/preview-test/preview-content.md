@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Prévisualiser le contenu d’un e-mail
-description: Documentation de Campaign v8 Web
+description: Découvrez comment prévisualiser le contenu de vos emails avec l’interface utilisateur web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 70%
+source-wordcount: '226'
+ht-degree: 66%
 
 ---
 
