@@ -3,16 +3,16 @@ audience: end-user
 title: Paramètres de diffusion par e-mail
 description: Documentation de Campaign v8 Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ed814fbb9d3f9daeb725f44a7a1929217d1d48d2
+source-git-commit: bd028d11d9468c0d5752691cb08ebd7a49608374
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1447'
 ht-degree: 56%
 
 ---
 
 # Paramètres de diffusion d’e-mail {#email-del-settings}
 
-![](../assets/do-not-localize/badge.png)
+![Version Alpha](../assets/do-not-localize/badge.png)
 
 Ces paramètres sont les suivants : **paramètres de diffusion technique** qui sont définis dans le modèle d’email.
 
