@@ -5,9 +5,9 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 title: Documentation Web de Campaign v8
 hide: true
-source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
+source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 93%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 93%
       + [Définir un style pour les liens](content/styling-links.md)
       + [Ajouter des attributs de style intégrés](content/inline-styling.md)
    + Personnaliser le contenu {#personalize}
-      + [Prise en main de la personnalisation](personalization/personalize.md)
+      + [Ajout de personnalisation](personalization/personalize.md)
    + [Envoyer des offres](content/offers.md)
 + Sélectionner l’audience de l’e-mail {#audience}
    + [À propos des audiences](audience/about-audiences.md)
