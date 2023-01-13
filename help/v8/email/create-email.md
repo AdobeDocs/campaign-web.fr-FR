@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier email avec l’interface utilisateur web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 83%
+source-wordcount: '1268'
+ht-degree: 67%
 
 ---
 
@@ -32,7 +32,7 @@ Ce cas d’utilisation présente comment créer votre premier e-mail. Nous allon
 
 1. Créez une nouvelle diffusion à partir du menu **[!UICONTROL Diffusions]**.
 
-1. Sélectionnez le canal **[!UICONTROL E-mail]** ainsi que le modèle à utiliser, puis cliquez sur **[!UICONTROL Créer]**.
+1. Sélectionnez la **[!UICONTROL Email]** canal et modèle à utiliser, puis cliquez sur **[!UICONTROL Créer une diffusion]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ Ce cas d’utilisation présente comment créer votre premier e-mail. Nous allon
    * **[!UICONTROL Code de diffusion]** : utilisez ce champ pour organiser vos diffusions selon votre propre convention de nommage,
    * **[!UICONTROL Description]** : spécifiez une description pour la diffusion,
    * **[!UICONTROL Nature]** : indiquez la nature de l’e-mail à des fins de classification.<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >Si vous avez étendu votre schéma avec des champs personnalisés spécifiques, vous pouvez y accéder à partir de la section **[!UICONTROL Options personnalisées]**.
@@ -79,7 +78,7 @@ Dans ce cas d’utilisation, nous allons concevoir l’e-mail à l’aide d’un
 
    Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, nous allons utiliser un modèle de conception existant.
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ Dans ce cas d’utilisation, nous allons concevoir l’e-mail à l’aide d’un
 
    ![](assets/add-perso.png)
 
-1. Une fois votre contenu prêt, enregistrez-le, puis cliquez sur la flèche pour revenir à l’écran de création d’e-mail.
+1. Une fois votre contenu prêt, enregistrez et fermez votre conception, puis cliquez sur **[!UICONTROL Enregistrer]** pour revenir à l’écran de création d’email.
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ Dans ce cas d’utilisation, nous allons envoyer l’e-mail à une audience exis
 
    Vous pouvez également définir une population témoin afin d’analyser le comportement des destinataires de l’e-mail par rapport au comportement des profils qui n’ont pas été ciblés. [Découvrez comment travailler avec les populations témoins.](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## Planifier l’envoi {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ Par défaut, la variable **[!UICONTROL Confirmer avant envoi]** est activée, ce
 
 Une fois votre e-mail prêt, vous pouvez le prévisualiser et le tester avant de lancer son envoi.
 
-Dans ce cas pratique, nous allons prévisualiser l&#39;email et envoyer un BAT à l&#39;aide de profils existants.
+Dans ce cas pratique, nous allons prévisualiser l&#39;email et envoyer des BAT à des adresses email spécifiques tout en empruntant l&#39;identité de certains des profils ciblés.
 
 Des informations supplémentaires sur la prévisualisation et le test des e-mails sont disponibles dans [cette section](../preview-test/preview-test.md).
 
-1. Cliquez sur **[!UICONTROL Vérifier pour envoyer]**. Un aperçu de votre e-mail s’affiche, ainsi que toutes les propriétés, l’audience et le planning configurés. Vous pouvez éditer chacun de ces éléments à partir du bouton Modifier.
+1. Cliquez sur **[!UICONTROL Vérifier et envoyer]**. Un aperçu de votre e-mail s’affiche, ainsi que toutes les propriétés, l’audience et le planning configurés. Vous pouvez éditer chacun de ces éléments à partir du bouton Modifier.
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser l’e-mail et envoyer les BAT.
 
@@ -159,21 +160,25 @@ Des informations supplémentaires sur la prévisualisation et le test des e-mail
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Pour envoyer des BAT de votre e-mail, cliquez sur le bouton **[!UICONTROL Tester]**, puis sélectionnez les profils qui recevront le BAT.
+1. Pour envoyer des bons à tirer de votre email, cliquez sur le bouton **[!UICONTROL Test]** puis sélectionnez le mode à utiliser pour envoyer vos BAT.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   Dans cet exemple, nous allons utiliser le mode Substituer de la cible principale, ce qui signifie que nous enverrons des BAT à des adresses email spécifiques tout en empruntant l&#39;identité de certains des profils ciblés par la diffusion.
 
-   Dans cet exemple, nous souhaitons envoyer les BAT vers un profil de test spécifique, qui est une adresse de contrôle qui ne fait pas partie de la cible. Découvrez comment utiliser les adresses de contrôle dans [Documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=fr){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. Cliquez sur Ajouter une adresse, puis indiquez la ou les adresses électroniques qui recevront les bons à tirer.
+
+   Pour chaque adresse email, sélectionnez le profil de la cible à emprunter. Vous pouvez également laisser Adobe Campaign sélectionner un profil aléatoire à partir de la cible.
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >Vous pouvez également tester vos messages en empruntant l’identité de certains des profils ciblés et en envoyant le message du BAT à l’adresse e-mail de votre choix. [Découvrez comment envoyer des BAT](../preview-test/preview-test.md)
-
 1. Cliquez sur **[!UICONTROL Envoyer un e-mail de test]**, puis confirmez l’envoi.
 
-   Une fois les BAT envoyés, vous pouvez vérifier leur statut en cliquant sur le bouton **[!UICONTROL Afficher le journal des e-mails de test]**.
+   Les BAT sont envoyés aux adresses email spécifiées à l’aide du profil sélectionné, avec la variable **[Bon à tirer x]** préfixe.
+
+   ![](assets/proof-sent.png)
+
+   Vous pouvez vérifier à tout moment l&#39;état de l&#39;envoi et accéder aux BAT envoyés en cliquant sur le bouton **[!UICONTROL Afficher le journal des emails de test]** dans l’écran simuler le contenu.
 
 ## Envoyer et surveiller l’e-mail {#prepare-send}
 
@@ -183,11 +188,15 @@ Une fois que vous avez validé et testé votre e-mail, vous pouvez lancer sa pr�
 
    ![](assets/preparation.png)
 
-1. Une fois que votre e-mail est prêt à être envoyé, cliquez sur **[!UICONTROL Envoyer]**, puis confirmez l’envoi.
+1. Une fois que votre email est prêt à être envoyé, cliquez sur **[!UICONTROL Envoyer]** ou **[!UICONTROL Envoyer comme prévu]** confirmez ensuite l’envoi.
 
-   Vous pouvez suivre l’envoi en temps réel, ainsi que les statistiques. En outre, le bouton **[!UICONTROL Logs]** permet d’accéder à des informations détaillées sur l’envoi de l’e-mail. [Découvrez comment surveiller les logs de diffusion](../monitor/delivery-logs.md).
-   ![](assets/logs.png)
+1. Une fois l&#39;envoi de votre email commencé, immédiatement ou à la date planifiée, vous pouvez suivre son envoi en temps réel dans cet écran, avec des statistiques.
 
-1. Une fois l’e-mail envoyé, vous pouvez accéder aux [rapports](../reporting/reports.md) à des fins d’analyse plus approfondie.
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >En outre, le bouton **[!UICONTROL Logs]** permet d’accéder à des informations détaillées sur l’envoi de l’e-mail. [Découvrez comment surveiller les logs de diffusion](../monitor/delivery-logs.md).
+
+1. Une fois l’e-mail envoyé, vous pouvez accéder aux rapports à des fins d’analyse plus approfondie. [Découvrez comment utiliser les rapports](../reporting/reports.md)
    ![](assets/reports.png)
