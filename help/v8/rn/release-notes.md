@@ -3,9 +3,9 @@ audience: end-user
 title: Notes de mise à jour de Campaign Web v8
 description: Notes de mise à jour de Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
+source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 8%
 
 ---
@@ -55,9 +55,9 @@ add info somewhere to remind users that
 
 ## Mises à jour de terminologie
 
-En tant qu’utilisateur Campaign existant, notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques du secteur. Ces modifications s’appliquent uniquement à l’interface utilisateur web et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
+En tant qu’utilisateur Campaign existant, notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s’appliquent uniquement à l’interface utilisateur web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
 
-* Les bons à tirer sont maintenant **Tester les emails**. Pour envoyer un bon à tirer, utilisez le **Test** dans l’interface utilisateur de diffusion email
+* Les bons à tirer sont maintenant **Tester les emails**: pour envoyer un bon à tirer, utilisez la méthode **Test** dans l’interface utilisateur de diffusion par courrier électronique. La cible de la cible des BAT est désormais appelée **Profils de test**
 * L’analyse des diffusions est désormais **préparation de la diffusion**. Lorsque vous devez lancer l’analyse, cliquez sur le bouton **Préparer** button
 * L’ aperçu de l’email est maintenant disponible dans la **Simulation du contenu** button
 * Les listes sont maintenant **Audiences**
