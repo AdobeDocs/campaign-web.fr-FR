@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier email avec l’interface utilisateur web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 23%
+source-wordcount: '1272'
+ht-degree: 22%
 
 ---
 
@@ -62,8 +62,8 @@ En utilisant un modèle de conception prédéfini, l&#39;email proposera égalem
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Découvrez comment concevoir le contenu de vos e-mails à l’aide du Concepteur d’e-mail."
->abstract="Découvrez comment concevoir votre contenu."
+>title="Découvrez comment concevoir le contenu de votre email"
+>abstract="Découvrez comment utiliser le Concepteur d&#39;email."
 
 Dans ce cas pratique, nous utiliserons un modèle prédéfini pour concevoir notre email.
 
