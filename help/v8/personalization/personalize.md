@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 27%
+source-wordcount: '653'
+ht-degree: 23%
 
 ---
 
@@ -80,17 +80,17 @@ Les blocs de contenu intégrés sont les suivants :
 * **[!UICONTROL Activé par Adobe Campaign]** : insère le logo &quot;Activé par Adobe Campaign&quot;.
 * **[!UICONTROL Fonction de formatage d&#39;un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
 * **[!UICONTROL Salutations]** : insère des salutations avec le nom du destinataire. Par exemple : &quot;Bonjour John Doe,&quot;.
-* **[!UICONTROL Insertion du logo]** : insère un logo prêt à l&#39;emploi qui a été défini lors du paramétrage de l&#39;instance.
+* **[!UICONTROL Insertion du logo]** : insère un logo défini dans les paramètres de l’instance.
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici ».
 * **[!UICONTROL URL de page miroir]** : insère l&#39;URL de page miroir qui permet aux concepteurs de diffusion de vérifier le lien.
-* **[!UICONTROL URL d’acceptation des offres en mode unitaire]** : insère une URL permettant de définir une offre d&#39;Interaction sur **[!UICONTROL Acceptée]**.
+* **[!UICONTROL URL d’acceptation des offres en mode unitaire]** : insère une URL permettant de définir une offre sur **[!UICONTROL Acceptée]**.
 * **[!UICONTROL URL de la page d’enregistrement]** : insère une URL d’abonnement.
-* **[!UICONTROL Lien d&#39;inscription]** : insère un lien d&#39;inscription. Ce lien doit être défini lors de la configuration de l&#39;instance. Le contenu par défaut est le suivant : &quot;Pour vous inscrire, cliquez ici.&quot;
-* **[!UICONTROL Lien d&#39;inscription (avec parrain)]** : insère un lien d&#39;inscription qui permet d&#39;identifier le visiteur et la diffusion. Le lien a été défini lors du paramétrage de l&#39;instance.
+* **[!UICONTROL Lien d&#39;inscription]** : insère un lien d&#39;inscription. Ce lien est défini dans les paramètres de l&#39;instance. Le contenu par défaut est le suivant : &quot;Pour vous inscrire, cliquez ici.&quot;
+* **[!UICONTROL Lien d&#39;inscription (avec parrain)]** : insère un lien d&#39;inscription permettant d&#39;identifier le visiteur et la diffusion. Ce lien est défini dans les paramètres de l&#39;instance.
 * **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l&#39;inscription.
 * **[!UICONTROL Liens de partage sur les réseaux sociaux]** : insère des boutons permettant au destinataire de partager un lien vers le contenu de la page miroir.
 * **[!UICONTROL Style des emails de contenu]** et **[!UICONTROL Style de notification]** : génèrent un code permettant de formater un email avec les styles HTML par défaut.
-* **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée). Le contenu associé par défaut est : &quot;Vous recevez ce message car vous avez été en contact avec `<your rganization name>` ou un affilié. Pour ne plus recevoir de messages de `<your rganization name>` cliquez ici.&quot;
+* **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée). Le contenu associé par défaut est : &quot;Vous recevez ce message car vous avez été en contact avec ***nom de votre organisation*** ou un affilié. Pour ne plus recevoir de messages de ***nom de votre organisation*** cliquez ici.&quot;
 
 
 ## Personnalisation des liens dans vos emails {#personalize-links}
