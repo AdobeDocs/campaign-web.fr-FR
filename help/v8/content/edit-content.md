@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment éditer le contenu de l'email dans l'interface utilisateur web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 68%
+source-wordcount: '331'
+ht-degree: 70%
 
 ---
 
@@ -56,6 +56,8 @@ Les étapes de définition du contenu de votre e-mail sont les suivantes :
    * [Donner un style à votre contenu](get-started-email-style.md)
 
 1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]** puis sélectionnez un ou plusieurs fichiers.
+
+   Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email.
 
    <!--limitation on size + number of files?-->
 
