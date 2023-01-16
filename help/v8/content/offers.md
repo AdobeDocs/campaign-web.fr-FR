@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer des offres
 description: Envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '513'
+ht-degree: 78%
 
 ---
 
@@ -33,11 +33,13 @@ Les étapes clés pour envoyer des offres avec un e-mail sont les suivantes :
 
 ## Configurer les offres à proposer {#configure}
 
-Pour sélectionner les offres à proposer dans l’e-mail, cliquez sur le bouton **[!UICONTROL Offres]** sur l’écran d’édition du contenu de l’e-mail, puis configurez les offres à proposer.
+1. Pour sélectionner les offres à proposer dans votre email, cliquez sur le bouton **[!UICONTROL Offres]** à partir de l&#39;écran d&#39;édition du contenu de l&#39;email.
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. Sélectionnez l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres.
+1. Configurez les offres qui doivent être proposées aux destinataires. Sélectionnez d’abord la variable **[!UICONTROL Emplacement]** qui correspond à votre environnement d’offres.
+
+   ![](assets/create-content-offers.png)
 
 1. Pour affiner le choix des offres du moteur, sélectionnez une **[!UICONTROL Catégorie d’offres]** dans laquelle les offres sont triées.
 
@@ -67,10 +69,10 @@ Une fois que vous avez configuré les offres à proposer, vous pouvez les insér
 
 ## Insérer des offres dans l’e-mail {#insert}
 
-Vous ajoutez des offres à un e-mail à l’aide de l’éditeur d’expression. Vous pouvez les insérez de l’une des manières suivantes :
+Les offres peuvent être ajoutées dans l&#39;email à l&#39;aide de l&#39;éditeur d&#39;expression. Vous pouvez les insérez de l’une des manières suivantes :
 
-* dans l’objet de l’e-mail,
-* dans le corps de l’e-mail en autorisant la personnalisation dans n’importe quel composant de contenu. [Découvrez comment ajouter des composants de contenu](content-components.md).
+* Dans l’objet de l’email,
+* Dans le corps de l&#39;email en autorisant la personnalisation dans n&#39;importe quel composant de contenu. [Découvrez comment ajouter des composants de contenu](content-components.md).
 
 >[!NOTE]
 >
