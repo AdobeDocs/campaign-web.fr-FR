@@ -3,10 +3,10 @@ audience: end-user
 title: Notes de mise à jour de Campaign Web v8
 description: Notes de mise à jour de Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 28%
+source-wordcount: '195'
+ht-degree: 12%
 
 ---
 
@@ -22,16 +22,21 @@ Cette nouvelle interface web de Campaign n’est actuellement disponible que pou
 
 **Une expérience moderne, intuitive et unifiée**
 
+La nouvelle interface utilisateur web de Campaign offre une nouvelle expérience utilisateur, alignée sur toutes les applications et solutions Adobe Experience Cloud. Il offre :
+
 * Accès à la nouvelle interface et aux autres solutions d’Adobe avec une session utilisateur unique et partagée
-* Intégration de Shell unifié : accédez aux apprentissages de la communauté, au centre d’aide, au sélecteur de solution.
+* Nouvelle expérience de navigation, avec tous les menus et dossiers disponibles dans le rail de gauche
+* Sélecteur de solution et d’organisation à partir de la barre supérieure
+* Intégration de Shell unifiée, avec un accès direct à la communauté, au centre d’aide et au support
 <!--
 No search and pulse notifications in Alpha
 -->
-* Découvrez la nouvelle navigation avec les menus de gauche et les dossiers.
 
 En savoir plus sur la nouvelle interface utilisateur dans [cette page](../get-started/user-interface.md).
 
 **Créer, lancer et mesurer votre campagne par e-mail**
+
+Utilisez la nouvelle interface utilisateur web de Campaign pour :
 
 * Concevoir un contenu d&#39;email personnalisé avec le Concepteur d&#39;email - [En savoir plus](../content/edit-content.md)
 * Définition des audiences cibles avec le créateur de règles - [En savoir plus](../audience/about-audiences.md)
@@ -46,4 +51,4 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Veuillez noter que les campagnes cross-canal et les fonctionnalités de gestion des workflows seront disponibles dans le programme bêta.
+>Les campagnes cross-canal et les fonctionnalités de gestion des workflows seront disponibles avec la version bêta.

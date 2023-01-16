@@ -5,9 +5,9 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 title: Documentation Web de Campaign v8
 hide: true
-source-git-commit: e67f941d59b38a5dfa5985cacfc7403314e9c71f
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 + [Documentation de Campaign v8 Web](campaign-web-home.md)
 + Nouveautés{#whats-new}
-   + [Dernières notes de mise à jour](rn/release-notes.md)
+   + [Notes de mise à jour](rn/release-notes.md)
    + [Mises à jour de la documentation](rn/documentation-updates.md)
 + [Prise en main](get-started/get-started.md)
 + [Découvrir l’interface](get-started/user-interface.md)
