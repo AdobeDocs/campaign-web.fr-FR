@@ -3,10 +3,10 @@ audience: end-user
 title: Surveiller les logs de diffusion
 description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 85%
 
 ---
 
@@ -45,13 +45,13 @@ L’onglet **Diffusions** propose un historique des occurrences de cette diffusi
 
 ## Exclusions
 
-L’onglet **Logs d’exclusion** liste tous les messages qui ont été exclus de l&#39;envoi à la cible et indique la raison de l&#39;échec de l&#39;envoi.
+Le **Exclus** tab répertorie tous les messages qui ont été exclus de la cible et indique la raison de l’échec de l’envoi.
 
 ![](assets/logs3.png)
 
 ## Causes d&#39;exclusion
 
-L&#39;onglet **Causes d&#39;exclusion** indique le volume (en nombre de messages) des messages qui ont été exclus de l&#39;envoi à la cible.
+Le **Exclusions appliquées** onglet affiche le volume (en nombre de messages) des messages qui ont été exclus de la cible.
 
 ![](assets/logs4.png)
 

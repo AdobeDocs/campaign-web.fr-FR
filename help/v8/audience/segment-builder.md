@@ -3,7 +3,7 @@ audience: end-user
 title: Définition d’une audience à l’aide du créateur de règles
 description: Découvrez comment utiliser le créateur de segments
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 76%
@@ -60,7 +60,7 @@ Sur le côté droit, le volet **Propriétés des règles** vous permet d’effec
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Afficher les résultats :** affiche la liste des destinataires ciblés par l’audience.
+* **Afficher les résultats :** affiche la liste des destinataires ciblés par l’audience..
 * **Affichage du code** : affiche une version basée sur le code de l’audience dans SQL.
 * **Afficher les attributs avancés** : cochez cette option si vous souhaitez afficher la liste complète des attributs dans la palette de gauche : noeuds, regroupements, liens 1-1, liens 1-N.
 * **Attributs** : affiche une description de l’audience créée.
