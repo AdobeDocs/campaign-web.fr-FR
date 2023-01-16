@@ -3,9 +3,9 @@ audience: end-user
 title: Paramètres de diffusion par e-mail
 description: En savoir plus sur les paramètres de diffusion email dans l’interface utilisateur web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1472'
 ht-degree: 55%
 
 ---
@@ -183,8 +183,8 @@ Vous pouvez définir les paramètres d’exclusion dans cette section. Les optio
 
 * **Conserver les adresses en quarantaine** permet de garder à l’écart de la cible les profils dont l’adresse ne répond pas.
 
-Vous pouvez également personnaliser le nom des BAT.
+Vous pouvez également personnaliser le nom des emails de test.
 
-Utilisez la variable **Conserver le code de diffusion pour le BAT** pour associer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte.
+Utilisez la variable **Conserver le code de diffusion pour le BAT** pour associer à l&#39;email de test le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte.
 
-Par défaut, le sujet du BAT est précédé du préfixe ‘BAT #’, où # est le numéro du BAT. Vous pouvez modifier ce préfixe dans la variable **Préfixe d’étiquette** champ .
+Par défaut, l’objet de l’email de test est précédé du préfixe ‘BAT #’, où # correspond au numéro de l’email de test. Vous pouvez modifier ce préfixe dans la variable **Préfixe d’étiquette** champ .

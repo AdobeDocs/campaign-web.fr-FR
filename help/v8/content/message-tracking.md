@@ -3,10 +3,10 @@ audience: end-user
 title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 92%
+source-wordcount: '550'
+ht-degree: 89%
 
 ---
 
@@ -73,7 +73,7 @@ Une fois l’e-mail envoyé, lorsque les destinataires cliquent sur le lien de l
 
 >[!NOTE]
 >
->Dans le BAT envoyé aux profils de test, le lien vers la page miroir est inactif. Il n’est actif que dans les messages finaux.
+>Dans l&#39;email de test envoyé aux profils de test, le lien vers la page miroir n&#39;est pas principal. Il n’est actif que dans les messages finaux.
 
 La période de conservation d’une page miroir est de 60 jours. Une fois ce délai écoulé, la page miroir n’est plus disponible.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Prévisualiser le contenu d’un e-mail
 description: Découvrez comment prévisualiser le contenu de vos emails avec l’interface utilisateur web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,8 @@ Pour prévisualiser le contenu de votre e-mail, procédez comme suit :
 
 1. Accédez à l&#39;écran de création de contenu d&#39;email et cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 
+   ![](assets/simulate.png)
+
 1. Sélectionnez un ou plusieurs profils en cliquant sur le bouton **[!UICONTROL Sélectionner un ou plusieurs profils]** , puis utilisez la méthode **[!UICONTROL Profils de test]** et **[!UICONTROL Profils]** des onglets.
 
    Vous pouvez combiner les profils de test et les profils pour prévisualiser l’e-mail.
@@ -40,6 +42,10 @@ Pour prévisualiser le contenu de votre e-mail, procédez comme suit :
 
    Si vous avez ajouté plusieurs profils, vous pouvez basculer entre eux dans la liste pour prévisualiser l&#39;email correspondant.
 
-   Vous pouvez également prévisualiser le rendu de votre contenu sur différents appareils (bureau, mobile, tablette), en cliquant sur l’icône dédiée dans le coin supérieur droit.
+   >[!NOTE]
+   >
+   >Vous pouvez prévisualiser le rendu de votre contenu sur différents appareils (bureau, mobile, tablette), en cliquant sur l’icône dédiée dans le coin supérieur droit.
 
    ![](assets/preview.png)
+
+

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: À propos de la prévisualisation et des BAT
-description: Découvrez comment prévisualiser des messages et envoyer des bons à tirer
+title: A propos de l'aperçu et du test
+description: Découvrez comment prévisualiser des messages et tester des emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 14%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
-# À propos de la prévisualisation et des BAT {#about-preview-proofs}
+# A propos des emails de prévisualisation et de test {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +21,7 @@ Pour ce faire, Adobe Campaign vous permet d’effectuer les opérations suivant
 * [Prévisualiser le contenu et la personnalisation de l&#39;email](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Envoyer un bon à tirer](#send-proofs) à des destinataires spécifiques à des fins de test et de validation.
+* [Envoi d’emails de test](#send-proofs) à des destinataires spécifiques à des fins de test et de validation.
 
 Ces actions peuvent être effectuées à partir de la fonction **[!UICONTROL Simulation du contenu]** accessible lors de la création du contenu de votre email à partir du Concepteur d&#39;email :
 

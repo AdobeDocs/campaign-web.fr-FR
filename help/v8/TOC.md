@@ -5,10 +5,10 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 title: Documentation Web de Campaign v8
 hide: true
-source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 93%
+source-wordcount: '165'
+ht-degree: 90%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 93%
    + [Configurer une population témoin](audience/control-group.md)
    + [Définition d’une audience à l’aide du créateur de règles](audience/segment-builder.md)
 + Prévisualiser et tester l’e-mail {#preview-test}
-   + [À propos de la prévisualisation et des BAT](preview-test/preview-test.md)
+   + [A propos de l&#39;aperçu et du test](preview-test/preview-test.md)
    + [Prévisualiser le contenu d’un e-mail](preview-test/preview-content.md)
-   + [Envoyer des BAT](preview-test/proofs.md)
+   + [Envoyer des e-mails de test](preview-test/proofs.md)
 + Envoyer et surveiller l’e-mail {#monitor}
    + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
    + [Surveiller les logs de diffusion](monitor/delivery-logs.md)

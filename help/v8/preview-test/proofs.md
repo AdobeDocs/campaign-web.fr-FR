@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer des e-mails de test
 description: Découvrez comment définir et envoyer des emails de test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 62%
+source-wordcount: '524'
+ht-degree: 8%
 
 ---
 
@@ -19,60 +19,61 @@ L’envoi d’emails de test est une étape importante pour valider votre campag
 Les emails de test peuvent être envoyés à deux types de destinataires :
 
 * **Profils de test**: envoyer des emails de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données,
-* **Profils de substitution**: envoyer des emails de test à une adresse email spécifique lors de l’emprunt de l’identité d’un profil existant ; Vous pouvez ainsi tester l&#39;email comme le feraient les destinataires, ce qui vous donne une représentation exacte du message que le profil recevra.
 
-## Sélectionner les destinataires des BAT {#recipients}
+* **Substitution de la cible principale**: envoyer des emails de test à une adresse email spécifique lors de l’emprunt de l’identité d’un profil existant ; Vous pouvez ainsi tester l&#39;email comme le feraient les destinataires, ce qui vous donne une représentation exacte du message que le profil recevra.
 
-1. Accédez à l’écran de création de contenu d’e-mail, puis cliquez sur **[!UICONTROL Simuler du contenu]**.
+## Sélection des destinataires du test {#recipients}
 
-1. Cliquez sur le bouton **[!UICONTROL Test]**, puis utilisez la liste déroulante **[!UICONTROL Mode]** pour sélectionner le type de destinataires qui recevra les BAT :
+1. Accédez à l&#39;écran de simulation du contenu de l&#39;email, puis cliquez sur le bouton **[!UICONTROL Test]** bouton .
 
-<!-- to check: by default, profiles selected in previous screen are pre-selected for proofs. Can add addtitional profiles + remove preselected?-->
+   ![](assets/test-button.png)
 
-### Envoyer des BAT à des profils de test
+1. Utilisez la variable **[!UICONTROL Mode]** liste déroulante pour sélectionner le type de destinataires qui recevra l&#39;email de test :
 
-1. Choisissez le mode **[!UICONTROL Utiliser des profils de test]**.
+   * **Profils de test**: envoyer l&#39;email de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données,
 
-1. Ajoutez les profils de test qui recevront les e-mails de test.
+   * **Substitution de la cible principale**: envoyer l’email de test à une adresse email spécifique lors de l’emprunt de l’identité d’un profil existant ; Vous pouvez ainsi tester l&#39;email comme le feraient les destinataires, ce qui vous donne une représentation exacte du message que le profil recevra.
 
-   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
-
-   ![](assets/test-profiles-audience.png)
-
-### Envoyer des BAT aux profils de substitution
-
-1. Sélectionnez le mode **[!UICONTROL Substitution de la cible]**.
-
-1. Ajoutez la ou les adresses e-mail qui recevront les BAT.
+   ![](assets/test-mode.png)
 
    >[!NOTE]
    >
-   >Vous pouvez indiquer n’importe quelle adresse e-mail. Vous pouvez ainsi envoyer des BAT à n’importe quel utilisateur ou utilisatrice, même s’il ne s’agit pas d’un utilisateur ou d’une utilisatrice d’Adobe Campaign V8.
+   >Par défaut, la variable **[!UICONTROL Profils de test]** Le mode est sélectionné. Si vous avez déjà sélectionné des profils pour prévisualiser l&#39;email dans l&#39;écran de simulation du contenu, ces profils sont pré-sélectionnés comme destinataires test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires.
 
-1. Pour chaque adresse e-mail, sélectionnez le profil à partir de la cible à utiliser. Vous pouvez également laisser Adobe Campaign sélectionner un profil aléatoire à partir de la cible.
+1. Pour envoyer des emails de test aux profils de substitution, choisissez la variable **[!UICONTROL Substitution de la cible]** puis procédez comme suit :
 
-   ![](assets/substitution.png)
+   1. Cliquez sur le bouton **[!UICONTROL Ajouter une adresse]** et indiquez l’adresse électronique qui recevra l’e-mail de test.
 
-Une fois les destinataires du BAT sélectionnés, vous pouvez envoyer l’e-mail de test. [Découvrez comment envoyer des BAT](#send)
+      Vous pouvez saisir n’importe quelle adresse électronique. Vous pouvez ainsi envoyer des emails de test à n’importe quel utilisateur, même s’il n’est pas un utilisateur d’Adobe Campaign V8.
 
->[!NOTE]
->
->Si vous souhaitez envoyer l’e-mail final aux destinataires des BAT, activez l’option **[!UICONTROL Inclure la population test dans la cible principale]**.
+   1. Sélectionnez le profil de la cible à utiliser pour envoyer l’email de test. Vous pouvez également laisser Adobe Campaign sélectionner un profil aléatoire à partir de la cible.
 
-## Envoyer les BAT {#send}
+   1. Confirmez le destinataire et renouvelez l&#39;opération pour ajouter autant d&#39;adresses que nécessaire.
 
-Pour envoyer les BAT aux destinataires sélectionné(e)s, cliquez sur **[!UICONTROL Envoyer un e-mail de test]**, puis confirmez l’envoi.
+      ![](assets/substitution.png)
+
+1. Une fois les destinataires du test sélectionnés, vous pouvez envoyer l&#39;email de test. [Découvrez comment envoyer des emails de test](#send)
+
+   >[!NOTE]
+   >
+   >Si vous souhaitez envoyer le message électronique final aux destinataires de l’email de test, activez l’option **[!UICONTROL Inclure la population test dans la cible principale]** sur .
+
+## Envoyer l’email de test {#send}
+
+Pour envoyer l&#39;email de test aux destinataires sélectionnés, cliquez sur **[!UICONTROL Envoyer un email de test]** confirmez ensuite l’envoi.
 
 ![](assets/send-proof.png)
 
-Vous pouvez envoyer autant de BAT que nécessaire jusqu’à ce que le contenu de votre diffusion soit finalisé. Une fois cette opération effectuée, vous pouvez envoyer l’e-mail à la cible principale. [Découvrez comment préparer et envoyer des e-mails](../monitor/prepare-send.md).
+Envoyez autant d&#39;emails de test que nécessaire jusqu&#39;à ce que vous ayez finalisé le contenu de votre diffusion. Une fois cette opération effectuée, vous pouvez envoyer l’e-mail à la cible principale. [Découvrez comment préparer et envoyer des e-mails](../monitor/prepare-send.md).
 
-## Accès aux BAT envoyés {#access-proofs}
+## Accès aux emails de test envoyés {#access-proofs}
 
-Une fois les BAT envoyés, vous pouvez accéder aux journaux dédiés à partir du bouton **[!UICONTROL Afficher le journal des e-mails de test]**. Ces logs permettent d&#39;accéder à tous les BAT envoyés pour la diffusion sélectionnée et de visualiser des statistiques spécifiques relatives à leur envoi.
+Une fois les emails de test envoyés, vous pouvez accéder aux logs dédiés à partir de la **[!UICONTROL Afficher le journal des emails de test]** bouton .
+
+Ces logs permettent d&#39;accéder à tous les emails de test envoyés pour la diffusion sélectionnée et de visualiser des statistiques spécifiques relatives à leur envoi. [Découvrez comment surveiller les logs de diffusion](../monitor/delivery-logs.md).
 
 ![](assets/proof-log.png)
 
-Vous pouvez également accéder aux BAT à partir de la liste des diffusions, comme n&#39;importe quelle diffusion.
+Vous pouvez également accéder aux emails de test envoyés depuis la liste des diffusions, comme toute diffusion.
 
 ![](assets/delivery-list.png)
