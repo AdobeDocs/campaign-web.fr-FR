@@ -3,10 +3,10 @@ audience: end-user
 title: À propos de la prévisualisation et des BAT
 description: Découvrez comment prévisualiser des messages et envoyer des bons à tirer
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 73%
+source-wordcount: '108'
+ht-degree: 14%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 73%
 
 ![](../assets/do-not-localize/badge.png)
 
-Une fois le contenu de l’e-mail défini, vous pouvez générer un aperçu avant de l’envoyer. Vous pouvez ainsi tester l’e-mail afin de détecter d’éventuelles erreurs dans le contenu ou les paramètres de personnalisation.
+Avant d’envoyer un email, il est important de vérifier et de tester son contenu pour s’assurer qu’il est précis et sans erreur dans le contenu ou les paramètres de personnalisation.
 
 Pour ce faire, Adobe Campaign vous permet d’effectuer les opérations suivantes :
 
 * [Prévisualiser le contenu et la personnalisation de l&#39;email](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Envoyer des BAT](#send-proofs) à des destinataires spécifiques afin de tester et valider l’e-mail.
+* [Envoyer un bon à tirer](#send-proofs) à des destinataires spécifiques à des fins de test et de validation.
 
-Ces actions sont effectuées à partir du bouton **[!UICONTROL Simuler du contenu]**, accessible lors de la création du contenu de votre e-mail à partir du Concepteur d’e-mail :
+Ces actions peuvent être effectuées à partir de la fonction **[!UICONTROL Simulation du contenu]** accessible lors de la création du contenu de votre email à partir du Concepteur d&#39;email :
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->La simulation de contenu est également disponible à partir de la page de synthèse de la diffusion, après avoir cliqué sur le bouton **[!UICONTROL Vérifier et envoyer]** bouton .
+>La simulation de contenu est également disponible à partir de la synthèse de la diffusion, après avoir cliqué sur le bouton **[!UICONTROL Vérifier et envoyer]** bouton .

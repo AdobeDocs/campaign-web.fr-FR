@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Envoyer des BAT
-description: Découvrez comment définir et envoyer des messages de BAT
+title: Envoyer des e-mails de test
+description: Découvrez comment définir et envoyer des emails de test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 77%
+source-wordcount: '402'
+ht-degree: 62%
 
 ---
 
-# Envoyer des BAT {#send-proofs}
+# Envoyer des e-mails de test {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-L&#39;envoi d&#39;emails de test vous permet de valider votre email et de vérifier différents éléments tels que des liens, des liens d&#39;opt-out et des pages miroir, des images et de détecter d&#39;éventuelles erreurs.
+L’envoi d’emails de test est une étape importante pour valider votre campagne par e-mail et identifier les problèmes potentiels. En envoyant des emails de test, vous pouvez vérifier différents éléments tels que des liens, des liens d’opt-out, des images et des pages miroir, ainsi que détecter d’éventuelles erreurs.
 
-Vous pouvez envoyer des BAT à deux types de destinataires :
+Les emails de test peuvent être envoyés à deux types de destinataires :
 
-* **Profils de test**: envoyer des BAT aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base,
-* **Profils de substitution** : envoyez des BAT à une adresse e-mail spécifique à l’aide d’un profil existant. Cela permet de vous mettre à la place de l’un des profils ciblés et d’obtenir une représentation exacte du message que le profil recevra.
+* **Profils de test**: envoyer des emails de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données,
+* **Profils de substitution**: envoyer des emails de test à une adresse email spécifique lors de l’emprunt de l’identité d’un profil existant ; Vous pouvez ainsi tester l&#39;email comme le feraient les destinataires, ce qui vous donne une représentation exacte du message que le profil recevra.
 
 ## Sélectionner les destinataires des BAT {#recipients}
 
