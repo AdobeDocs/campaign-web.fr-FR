@@ -3,9 +3,9 @@ audience: end-user
 title: Envoyer des e-mails de test
 description: Découvrez comment définir et envoyer des emails de test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '540'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,7 @@ L’envoi d’emails de test est une étape importante pour valider votre campag
 
 Les emails de test peuvent être envoyés à deux types de destinataires :
 
-* **Profils de test**: envoyer des emails de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données,
+* **Profils de test**: envoyer des emails de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données ; Ils peuvent être créés dans la console Adobe Campaign dans le **[!UICONTROL Ressources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Adresses de contrôle]** dossier.
 
 * **Substitution de la cible principale**: envoyer des emails de test à une adresse email spécifique lors de l’emprunt de l’identité d’un profil existant ; Vous pouvez ainsi tester l&#39;email comme le feraient les destinataires, ce qui vous donne une représentation exacte du message que le profil recevra.
 

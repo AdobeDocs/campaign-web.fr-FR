@@ -3,10 +3,10 @@ audience: end-user
 title: Prévisualiser le contenu d’un e-mail
 description: Découvrez comment prévisualiser le contenu de vos emails avec l’interface utilisateur web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 11%
+source-wordcount: '257'
+ht-degree: 10%
 
 ---
 
@@ -21,18 +21,16 @@ ht-degree: 11%
 
 Adobe Campaign vous permet de prévisualiser le contenu de votre email avant de l&#39;envoyer pour vérifier la personnalisation et l&#39;apparence de celui-ci pour vos destinataires.
 
-Vous pouvez prévisualiser un email à l’aide de :
-
-* **Profils de test**: Prévisualiser l&#39;email à l&#39;aide d&#39;adresses de contrôle, qui sont des destinataires fictifs et supplémentaires dans la base de données,
-* **Profils**: Prévisualisez l&#39;email à l&#39;aide d&#39;un profil existant.
-
 Pour prévisualiser le contenu de votre e-mail, procédez comme suit :
 
 1. Accédez à l&#39;écran de création de contenu d&#39;email et cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 
    ![](assets/simulate.png)
 
-1. Sélectionnez un ou plusieurs profils en cliquant sur le bouton **[!UICONTROL Sélectionner un ou plusieurs profils]** , puis utilisez la méthode **[!UICONTROL Profils de test]** et **[!UICONTROL Profils]** des onglets.
+1. Sélectionnez un ou plusieurs profils en cliquant sur le bouton **[!UICONTROL Sélectionner un ou plusieurs profils]** , puis utilisez la méthode **[!UICONTROL Profils de test]** et **[!UICONTROL Profils]** onglets parmi lesquels choisir :
+
+   * Le **Profils de test** contient des adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données. Ils peuvent être créés dans la console Adobe Campaign dans le **[!UICONTROL Ressources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Adresses de contrôle]** dossier.
+   * Le **Profils** répertorie tous les destinataires stockés dans la variable **[!UICONTROL Profils et cibles]** à partir de la console Campaign.
 
    Vous pouvez combiner les profils de test et les profils pour prévisualiser l’e-mail.
 

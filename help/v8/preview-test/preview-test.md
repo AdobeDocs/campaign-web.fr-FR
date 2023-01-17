@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: A propos de l'aperçu et du test
-description: Découvrez comment prévisualiser des messages et tester des emails
+title: A propos de la prévisualisation et du test d'un email
+description: Découvrez comment prévisualiser et tester des emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 7%
 
 ---
 
-# A propos des emails de prévisualisation et de test {#about-preview-proofs}
+# A propos de la prévisualisation et du test d&#39;un email {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
