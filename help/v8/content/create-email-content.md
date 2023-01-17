@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Concevoir des emails dans le Concepteur d'email
+title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Définition des colonnes de l’email"
->abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
+>abstract="Le Concepteur d’e-mail vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
@@ -55,7 +55,7 @@ ht-degree: 92%
 >title="Définir les colonnes du modèle"
 >abstract="Le Concepteur d’e-mail permet de définir facilement la disposition de votre modèle en définissant la structure des colonnes."
 
-Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir le corps de votre email en quelques secondes.
+Le Concepteur d’e-mail permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir le corps de votre e-mail en quelques secondes.
 
 Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
@@ -89,7 +89,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de l’e-mail à partir des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
-1. Cliquez sur l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui seront trackées. Vous pouvez modifier les **[!UICONTROL Type de suivi]** ou **[!UICONTROL Libellé]** et ajouter **[!UICONTROL Catégories]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md).
+1. Cliquez sur l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui seront trackées. Vous pouvez modifier le **[!UICONTROL Type de tracking]** ou le **[!UICONTROL Libellé]**, ainsi qu’ajouter des **[!UICONTROL Catégories]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md).
 
    ![](assets/email_designer_7.png)
 
