@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
 source-wordcount: '1272'
-ht-degree: 22%
+ht-degree: 31%
 
 ---
 
@@ -38,7 +38,7 @@ En utilisant un modèle de conception prédéfini, l&#39;email proposera égalem
 
    >[!NOTE]
    >
-   >Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. Ils peuvent être créés par les utilisateurs administrateurs dans la console Adobe Campaign. [Découvrez comment utiliser les modèles de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+   >Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. Ils peuvent être créés par les utilisateurs administrateurs dans la console Adobe Campaign. [Découvrez comment utiliser les modèles de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=fr){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -106,7 +106,7 @@ vont concevoir l&#39;email à l&#39;aide d&#39;un modèle prédéfini. Des instr
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Définir l’audience"
->abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance de Campaign v8 ou dans Adobe Experience Platform ou choisir de créer une audience à l’aide du créateur de règles."
+>abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance de Campaign v8 ou dans Adobe Experience Platform ou choisir de créer une nouvelle audience à l’aide du créateur de règles."
 
 Dans ce cas pratique, nous enverrons l&#39;email à une audience existante. Des instructions supplémentaires sur l’utilisation des audiences sont disponibles dans [cette section](../audience/about-audiences.md).
 
@@ -118,9 +118,9 @@ Dans ce cas pratique, nous enverrons l&#39;email à une audience existante. Des 
 
    >[!NOTE]
    >
-   >Les audiences disponibles dans la liste proviennent de votre instance Campaign V8 ou de Adobe Experience Platform si l’intégration de destination/source a été configurée sur votre instance.
+   >Les audiences disponibles dans la liste proviennent de votre instance Campaign V8 ou d’Adobe Experience Platform si l’intégration Destination/Sources a été configurée sur votre instance.
    >
-   >L’intégration Destination/Sources vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de suivi Campaign à Adobe Experience Platform. [Découvrez comment utiliser Campaign et Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >L’intégration Destination/Sources vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de tracking Campaign à Adobe Experience Platform. [Découvrez comment utiliser Campaign et Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=fr){target="_blank"}.
 
 1. Une fois l&#39;audience sélectionnée, vous pouvez affiner davantage la cible en appliquant des règles supplémentaires.
 

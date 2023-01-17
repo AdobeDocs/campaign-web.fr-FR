@@ -6,7 +6,7 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 74%
+ht-degree: 92%
 
 ---
 
@@ -46,7 +46,7 @@ Dans la section **Extraire à partir de la cible**, sélectionnez un **Type d’
 
    ![](assets/control-group.png)
 
-* **Classement par attribut(s)**: cette option vous permet d’exclure un ensemble de profils en fonction d’attributs spécifiques dans un ou plusieurs ordres de tri spécifiques.
+* **Classement par attribut(s)** : cette option permet d’exclure un jeu de profils en fonction d’un ou de plusieurs attributs spécifiques dans un ou plusieurs ordres de tri spécifiques.
 
    ![](assets/control-group2.png)
 
@@ -54,13 +54,13 @@ Définissez ensuite la variable **Limite de taille** : vous devez définir la m
 
 **Exemple**
 
-Vous pouvez consulter les logs pour vérifier et identifier les profils exclus. Prenons l’exemple d’une exclusion aléatoire sur cinq profils.
+Vous pouvez consulter les logs pour vérifier et identifier les profils exclus. Prenons l’exemple suivant d’une exclusion aléatoire sur cinq profils.
 
 ![](assets/control-group4.png)
 
-Après la préparation de la diffusion, vous pouvez visualiser les exclusions sur les écrans suivants :
+Après la préparation de la diffusion, vous pouvez visualiser les exclusions sur les écrans suivants :
 
-* Le **Pour exclure** IPC dans le tableau de bord de la diffusion, avant l&#39;envoi.
+* L’indicateur clé de performance (KPI) **À exclure** dans le tableau de bord de la diffusion, avant l’envoi.
 
    ![](assets/control-group5.png)
 
@@ -72,7 +72,7 @@ Après la préparation de la diffusion, vous pouvez visualiser les exclusions su
 
    ![](assets/control-group7.png)
 
-Pour plus d&#39;informations sur les logs de diffusion, reportez-vous à cette section [section](../monitor/delivery-logs.md).
+Pour plus d’informations sur les logs de diffusion, consultez [cette section](../monitor/delivery-logs.md).
 
 ## Population supplémentaire {#extra-population}
 
@@ -89,6 +89,6 @@ Dans la section **Population supplémentaire** de l’écran de définition de l
 
 * Pour utiliser une audience existante, cliquez sur **Sélectionner une audience**. Reportez-vous à cette [section](add-audience.md).
 
-* Pour définir une nouvelle requête, sélectionnez **Créez votre propre** et définissez les critères d’exclusion à l’aide du créateur de règles. Reportez-vous à cette [section](segment-builder.md).
+* Pour définir une nouvelle requête, sélectionnez **Créer la vôtre** et définissez les critères d’exclusion à l’aide du créateur de règles. Reportez-vous à cette [section](segment-builder.md).
 
 Les profils inclus dans l’audience ou correspondant au résultat de la requête sont exclus de la cible.

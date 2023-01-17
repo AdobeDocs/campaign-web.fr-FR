@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 46%
+ht-degree: 71%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 46%
 ![](assets/do-not-localize/badge.png)
 
 
-Campaign offre désormais une nouvelle interface utilisateur web avec une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et apporte de la cohérence avec d’autres solutions d’Adobe, notamment Adobe Experience Platform. [En savoir plus](get-started/get-started.md)
+Campaign offre désormais une nouvelle interface utilisateur web avec une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform. [En savoir plus](get-started/get-started.md)
 
->Le Web de Campaign v8 est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/release-notes.md)
+>Campaign v8 Web est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/release-notes.md)
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">

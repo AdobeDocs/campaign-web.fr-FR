@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Définition d’une audience à l’aide du créateur de règles
+title: Définir une audience à l’aide du créateur de règles
 description: Découvrez comment utiliser le créateur de segments
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 76%
+ht-degree: 98%
 
 ---
 
-# Définition d’une audience à l’aide du créateur de règles {#segment-builder}
+# Définir une audience à l’aide du créateur de règles {#segment-builder}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -18,7 +18,7 @@ Cette section décrit comment créer une audience lors de la conception d’un e
 
 Le créateur de règles permet de définir la population ciblée par votre message en filtrant les données contenues dans la base de données. Si vous souhaitez sélectionner une audience existante, reportez-vous à cette [section](add-audience.md).
 
-Pour plus d’informations sur le créateur de règles, reportez-vous à la section [Documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr).
+Pour plus d’informations sur le créateur de règles, consultez la [documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr).
 
 Pour créer une audience lors de la conception d’un e-mail, procédez comme suit :
 
@@ -38,13 +38,13 @@ La palette, située à gauche, contient tous les éléments sur lesquels vous po
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Audiences**: cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou à partir de Adobe Experience Platform.
+* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
 
    >[!NOTE]
    >
-   >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Reportez-vous à la section [Documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
+   >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Consultez la [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
 
 Vous pouvez utiliser la barre de recherche pour rechercher rapidement des éléments.
 
@@ -89,7 +89,7 @@ Dans cet exemple, nous allons créer une audience pour cibler tous les clients h
 
    ![](assets/segment-builder10.png)
 
-1. Cliquez sur **Afficher les résultats** pour afficher la liste et le nombre de destinataires correspondant à la requête. Vous pouvez également ajouter des colonnes pour visualiser et vérifier les données. Dans notre exemple, ajoutez le **Ville** et devraient voir Atlanta et Seattle.
+1. Cliquez sur **Afficher les résultats** pour afficher la liste et le nombre de destinataires correspondant à la requête. Vous pouvez également ajouter des colonnes pour visualiser et vérifier les données. Dans notre exemple, ajoutez la colonne **Ville** et vous devriez voir Atlanta et Seattle.
 
    ![](assets/segment-builder11.png)
 

@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 60%
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Créer le contenu de l’e-mail"
->abstract="Avec cette section, vous pouvez créer le contenu de votre email et utiliser le Concepteur d&#39;email pour lui donner un aspect poli."
+>abstract="Dans cette section, vous pouvez créer le contenu de votre e-mail et utiliser le concepteur d’e-mail pour peaufiner son aspect."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -34,7 +34,7 @@ ht-degree: 60%
 >title="Options de tracking"
 >abstract="TBC"
 
-Pour commencer à créer le contenu d&#39;un email, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir de l’écran de création d’email.
+Pour commencer à créer le contenu d’un e-mail, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir de l’écran de création d’e-mail.
 
 ![](assets/edit-content.png)
 
@@ -46,7 +46,7 @@ Les étapes de définition du contenu de votre e-mail sont les suivantes :
 
 1. Vérifiez les informations **[!UICONTROL À partir du nom]** et **[!UICONTROL À partir de l’e-mail]**. Ces champs sont en lecture seule et sont configurés dans le modèle d’e-mail sélectionné lors de la création de l’e-mail.
 
-1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Pour ce faire, saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour définir l’ajout de la personnalisation à l’aide de divers attributs, blocs de contenu ou offres. [Découvrez comment personnaliser le contenu](../personalization/personalize.md)
+1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Pour ce faire, saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter de la personnalisation à l’aide de divers attributs, blocs de contenu ou offres. [Découvrez comment personnaliser le contenu](../personalization/personalize.md)
 
 1. Si vous souhaitez envoyer des offres par courrier électronique, sélectionnez-les à l’aide du **[!UICONTROL Configuration des offres]** bouton . Vous pourrez ensuite les insérer dans l’e-mail à l’aide de champs de personnalisation. [Découvrez comment envoyer des offres](offers.md)
 
@@ -61,6 +61,6 @@ Les étapes de définition du contenu de votre e-mail sont les suivantes :
 
    <!--limitation on size + number of files?-->
 
-1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la **[!UICONTROL Fonctionnalités facultatives]** . [Découvrez comment ajouter des liens et gérer le tracking](message-tracking.md)
+1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking](message-tracking.md)
 
 Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour vérifier comment il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail](../preview-test/preview-test.md)

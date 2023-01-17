@@ -6,7 +6,7 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 82%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Cette section explique comment sélectionner une audience existante lors de la d
 
    >[!NOTE]
    >
-   >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Reportez-vous à la section [Documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
+   >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Consultez la [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
 
 1. Choisissez une audience, puis cliquez sur **Sélectionner**.
 

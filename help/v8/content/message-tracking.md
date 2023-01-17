@@ -6,7 +6,7 @@ exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -100,8 +100,8 @@ Le [Concepteur d’e-mail](create-email-content.md) permet de gérer les URL tra
    * **[!UICONTROL Page miroir]** : traite cette URL comme une URL de page miroir.
    * **[!UICONTROL Jamais]** : n’active jamais le tracking de cette URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. Ajouter un **[!UICONTROL Catégorie]** à votre lien pour regrouper les liens trackés, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Ajoutez une **[!UICONTROL Catégorie]** à votre lien pour regrouper les liens trackés, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/message-tracking-edit-a-link_2.png)
 
-1. Une fois votre diffusion envoyée, accédez à votre rapport de diffusion. Sous , **[!UICONTROL Tracking]** , **[!UICONTROL URL et flux de clics]** Le rapport affiche les URL de votre diffusion les plus visitées. [En savoir plus](../reporting/reports.md)
+1. Une fois votre diffusion envoyée, accédez à votre rapport de diffusion. Dans le menu **[!UICONTROL Tracking]**, le rapport **[!UICONTROL URL et flux de clics]** affiche les URL de votre diffusion les plus visitées. [En savoir plus](../reporting/reports.md)

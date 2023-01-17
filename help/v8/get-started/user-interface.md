@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Découvrir l’interface"
->abstract="La nouvelle interface web de Campaign v8 offre une expérience utilisateur intégrée, intuitive et cohérente."
+>abstract="La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur intégrée, intuitive et cohérente."
 
-La nouvelle interface web de Campaign v8 offre une expérience utilisateur moderne et intuitive afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée à Adobe Experience Platform.
+La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée à Adobe Experience Platform.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -37,13 +37,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Menu de navigation gauche
 
-Parcourez les liens situés à gauche pour accéder aux fonctionnalités Web de Campaign v8. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Tous les écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion e-mail. Alpha ne permet pas de cliquer sur un élément de liste pour le modifier/visualiser. Toutes les listes seront modifiables dans les versions bêta et GA. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations utilisateur.
+Parcourez les liens situés à gauche pour accéder aux fonctionnalités de Campaign v8 Web. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Tous les écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion e-mail. La version Alpha ne permet pas de cliquer sur un élément de liste pour le modifier/visualiser. Toutes les listes seront modifiables dans les versions Bêta et GA. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations utilisateur.
 
 ![](assets/home.png)
 
 ### Accueil
 
-Cet écran contient des liens et des ressources clés permettant un accès rapide aux principales fonctionnalités web de Campaign v8. Le **Récents** La liste propose des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche les dates et statuts de création et de modification.
+Les liens et les ressources clés de cet écran offrent un accès rapide aux principales fonctionnalités de Campaign v8 Web. La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche les dates et statuts de création et de modification.
 
 <!--
 * Banner
@@ -52,7 +52,7 @@ Cet écran contient des liens et des ressources clés permettant un accès rapid
 * Learning cards
 -->
 
-Accédez aux pages d&#39;aide de la clé Web de Campaign v8 depuis la section inférieure de la page d&#39;accueil.
+Accédez aux pages principales d’aide de Campaign v8 Web depuis la section inférieure de la page d’accueil.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -73,7 +73,7 @@ Les éléments affichés dans l’Explorateur dépendent de vos autorisations ut
 
 Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes pour personnaliser l’affichage en fonction des informations que vous souhaitez. Consultez cette [section](#list-screens).
 
-Pour plus d&#39;informations sur l’Explorateur Campaign, consultez cet [article](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Pour plus d’informations sur l’explorateur de Campaign, consultez cet [article](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -96,7 +96,7 @@ Navtree view depends on permissions (same as console).
 
 * **Campagnes** - Il s’agit de la liste de vos campagnes. Par défaut, vous pouvez afficher leurs dates de début/fin/dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Des modèles de campagne sont également disponibles. Ces listes sont en lecture seule.
 
-* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Les modèles de diffusion sont également disponibles en lecture seule. Vous pouvez utiliser la console cliente pour les modifier. Consultez cette [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Les modèles de diffusion sont également disponibles en lecture seule. Vous pouvez utiliser la console cliente pour les modifier. Consultez cette [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=fr){target="_blank"}.
 
    Utilisez la variable **Autres actions** pour supprimer ou dupliquer une diffusion.
 
@@ -142,8 +142,8 @@ Navtree view depends on permissions (same as console).
 
 La barre supérieure de l’interface vous permet de :
 
-* partager vos commentaires en tant que testeur Alpha ;
-* Intervalle entre les organisations et les instances
+* partager vos commentaires en tant que testeur ou testeuse Alpha,
+* basculer entre les organisations et les instances,
 * basculer entre les applications Adobe Experience Cloud,
 * accéder aux pages d’aide, contacter le support et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d’aide dans le champ de recherche.
 
@@ -158,7 +158,7 @@ Une aide contextuelle est disponible dans l’interface. Lorsque cette option es
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Un guide d&#39;intégration est également disponible pour vous aider à prendre en main le Web de Campaign v8. Cliquez sur l’icône dans le coin inférieur droit, sélectionnez l’un des scénarios détaillés disponibles, puis suivez simplement les instructions.
+Un guide d’intégration est également disponible pour vous aider à commencer à utiliser Campaign v8 Web. Cliquez sur l’icône dans le coin inférieur droit, sélectionnez l’un des scénarios détaillés disponibles, puis suivez simplement les instructions.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 

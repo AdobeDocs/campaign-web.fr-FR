@@ -6,7 +6,7 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 7%
+ht-degree: 27%
 
 ---
 
@@ -18,7 +18,7 @@ Avant d’envoyer un email, il est important de vérifier et de tester son conte
 
 Pour ce faire, Adobe Campaign vous permet d’effectuer les opérations suivantes :
 
-* [Prévisualiser le contenu et la personnalisation de l&#39;email](#preview),
+* [Prévisualiser le contenu et la personnalisation de l’e-mail](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
 * [Envoi d’emails de test](#send-proofs) à des destinataires spécifiques à des fins de test et de validation.
@@ -29,4 +29,4 @@ Ces actions peuvent être effectuées à partir de la fonction **[!UICONTROL Sim
 
 >[!NOTE]
 >
->La simulation de contenu est également disponible à partir de la synthèse de la diffusion, après avoir cliqué sur le bouton **[!UICONTROL Vérifier et envoyer]** bouton .
+>La simulation de contenu est également disponible à partir de la de synthèse des diffusions, après avoir cliqué sur le bouton **[!UICONTROL Vérifier et envoyer]**.

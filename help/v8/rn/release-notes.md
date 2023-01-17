@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -20,11 +20,11 @@ Cette page répertorie toutes les dernières fonctionnalités et améliorations 
 
 Cette nouvelle interface web de Campaign n’est actuellement disponible que pour **Utilisateurs Alpha** avec les fonctionnalités suivantes :
 
-**Une expérience moderne, intuitive et unifiée**
+**Une expérience moderne, intuitive et unifiée.**
 
 La nouvelle interface utilisateur web de Campaign offre une nouvelle expérience utilisateur, alignée sur toutes les solutions et applications Adobe Experience Cloud. Il offre :
 
-* Accès à la nouvelle interface et aux autres solutions d’Adobe avec une session utilisateur unique et partagée
+* Accédez à la nouvelle interface et aux autres solutions Adobe avec une session utilisateur unique et partagée.
 * Nouvelle expérience de navigation, avec tous les menus et dossiers disponibles dans le rail de gauche
 * Sélecteur de solution et d’organisation à partir de la barre supérieure
 * Intégration de Shell unifiée, avec un accès direct à la communauté, au centre d’aide et au support
