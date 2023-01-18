@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser les composants de contenu du Concepteur d’e-mail
 description: Découvrez comment utiliser des composants de contenu dans vos emails.
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
-source-wordcount: '1085'
-ht-degree: 100%
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '1079'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Vous pouvez ajouter autant de **[!UICONTROL composants de contenu]** que nécess
 
 ## Conteneur {#container}
 
-Vous pouvez ajouter un conteneur simple à l’intérieur duquel vous pourrez ajouter un autre composant de contenu. Vous pouvez ainsi appliquer un style spécifique au conteneur, qui sera différent du composant utilisé à l’intérieur.
+Vous pouvez ajouter un conteneur simple à l’intérieur duquel vous ajoutez un autre composant de contenu. Vous pouvez ainsi appliquer un style spécifique au conteneur, qui est différent du composant utilisé à l’intérieur.
 
 Par exemple, ajoutez un composant **[!UICONTROL Conteneur]**, puis ajoutez un composant [Bouton](#button) à l’intérieur de ce conteneur. Vous pouvez utiliser un arrière-plan spécifique pour le conteneur et un autre pour le bouton.
 
@@ -81,7 +81,7 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
 
 1. Dans le champ **[!UICONTROL Lien]**, ajoutez l’URL vers laquelle vous souhaitez rediriger lors d’un clic sur le bouton.
 
-1. Choisissez comment votre audience sera redirigée avec la liste déroulante **[!UICONTROL Cible]** :
+1. Sélectionnez l’affichage du contenu avec la variable **[!UICONTROL Cible]** liste déroulante :
 
    * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur ou l’utilisatricea cliqué (par défaut).
    * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
@@ -180,7 +180,7 @@ Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des p
 
 1. Sélectionnez la taille des icônes dans le champ **[!UICONTROL Taille des images]**.
 
-1. Cliquez sur chaque icône de réseau social pour configurer l’**[!UICONTROL URL]** vers laquelle votre audience sera redirigée.
+1. Cliquez sur chacune de vos icônes de médias sociaux pour configurer la variable **[!UICONTROL URL]** vers laquelle votre audience est redirigée.
 
    ![](assets/email_designer_21.png)
 

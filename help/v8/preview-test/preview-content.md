@@ -3,10 +3,10 @@ audience: end-user
 title: Prévisualiser le contenu d’un e-mail
 description: Découvrez comment prévisualiser le contenu de vos emails avec l’interface utilisateur web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 10%
+source-wordcount: '252'
+ht-degree: 19%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Aperçu intelligent de votre contenu"
->abstract="Adobe Campaign vous permet d&#39;utiliser des profils pour prévisualiser le contenu de votre email avant l&#39;envoi afin de vérifier la personnalisation et l&#39;affichage de vos destinataires."
+>title="Prévisualisation intelligente de votre contenu"
+>abstract="Adobe Campaign vous permet d&#39;utiliser des profils pour prévisualiser le contenu de votre email avant l&#39;envoi, vérifier la personnalisation et la façon dont vos destinataires le verront."
 
-Adobe Campaign vous permet de prévisualiser le contenu de votre email avant de l&#39;envoyer pour vérifier la personnalisation et l&#39;apparence de celui-ci pour vos destinataires.
+Adobe Campaign vous permet de prévisualiser le contenu de votre email avant l&#39;envoi, de vérifier la personnalisation et l&#39;affichage de celui-ci à vos destinataires.
 
 Pour prévisualiser le contenu de votre e-mail, procédez comme suit :
 
@@ -36,7 +36,7 @@ Pour prévisualiser le contenu de votre e-mail, procédez comme suit :
 
    ![](assets/preview-profile.png)
 
-1. Une fois les profils sélectionnés, un aperçu de l&#39;email s&#39;affiche dans le volet de droite. Les éléments personnalisés seront remplacés par les données du profil sélectionné dans le volet de gauche.
+1. Une fois les profils sélectionnés, un aperçu de l&#39;email s&#39;affiche dans le volet de droite. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche.
 
    Si vous avez ajouté plusieurs profils, vous pouvez basculer entre eux dans la liste pour prévisualiser l&#39;email correspondant.
 

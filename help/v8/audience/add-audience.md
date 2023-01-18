@@ -3,10 +3,10 @@ audience: end-user
 title: Sélectionner une audience.
 description: Découvrez comment sélectionner une audience
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
@@ -47,4 +47,4 @@ Cette section explique comment sélectionner une audience existante lors de la d
 
 1. Cliquez sur **Enregistrer**.
 
-Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne recevra pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. Reportez-vous à la [section](control-group.md).
+Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne reçoit pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. Reportez-vous à la [section](control-group.md).

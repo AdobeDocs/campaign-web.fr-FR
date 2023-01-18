@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment éditer le contenu de l'email dans l'interface utilisateur web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 87%
+source-wordcount: '332'
+ht-degree: 76%
 
 ---
 
@@ -48,7 +48,7 @@ Les étapes de définition du contenu de votre e-mail sont les suivantes :
 
 1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Pour ce faire, saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter de la personnalisation à l’aide de divers attributs, blocs de contenu ou offres. [Découvrez comment personnaliser le contenu](../personalization/personalize.md)
 
-1. Si vous souhaitez envoyer des offres par courrier électronique, sélectionnez-les à l’aide du **[!UICONTROL Configuration des offres]** bouton . Vous pourrez ensuite les insérer dans l’e-mail à l’aide de champs de personnalisation. [Découvrez comment envoyer des offres](offers.md)
+1. Si vous souhaitez envoyer des offres par courrier électronique, sélectionnez-les à l’aide du **[!UICONTROL Configuration des offres]** bouton . Vous pouvez ensuite les insérer dans l&#39;email à l&#39;aide de champs de personnalisation. [Découvrez comment envoyer des offres](offers.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’email]** pour structurer et concevoir le contenu de l&#39;email. Des informations supplémentaires sur la conception de contenu d’e-mail sont disponibles dans les sections suivantes :
 
@@ -63,4 +63,4 @@ Les étapes de définition du contenu de votre e-mail sont les suivantes :
 
 1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking](message-tracking.md)
 
-Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour vérifier comment il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail](../preview-test/preview-test.md)
+Une fois le contenu de votre email défini, utilisez la variable **[!UICONTROL Simulation du contenu]** pour vérifier comment il s’affiche avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail](../preview-test/preview-test.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 96%
+source-wordcount: '548'
+ht-degree: 90%
 
 ---
 
@@ -75,13 +75,13 @@ Une fois l’e-mail envoyé, lorsque les destinataires cliquent sur le lien de l
 >
 >Dans l&#39;email de test envoyé aux profils de test, le lien vers la page miroir n&#39;est pas principal. Il n’est actif que dans les messages finaux.
 
-La période de conservation d’une page miroir est de 60 jours. Une fois ce délai écoulé, la page miroir n’est plus disponible.
+La période de conservation d’une page miroir est de 60 jours. Après ce délai, la page miroir n’est plus disponible.
 
 ## Gérer le tracking {#manage-tracking}
 
 Le [Concepteur d’e-mail](create-email-content.md) permet de gérer les URL trackées : par exemple, vous pouvez modifier le type de tracking de chaque lien.
 
-1. Cliquez sur l’icône **[!UICONTROL Liens]** dans le volet de gauche pour afficher la liste de toutes les URL du contenu qui feront l’objet d’un tracking.
+1. Cliquez sur le bouton **[!UICONTROL Liens]** dans le volet de gauche pour afficher la liste de toutes les URL de votre contenu à suivre.
 
    Cette liste permet d’avoir une vue centrale et de localiser chaque URL dans le contenu de l’e-mail.
 

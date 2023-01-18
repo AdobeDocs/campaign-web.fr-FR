@@ -3,9 +3,9 @@ audience: end-user
 title: Envoyer des e-mails de test
 description: Découvrez comment définir et envoyer des emails de test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '537'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ Les emails de test peuvent être envoyés à deux types de destinataires :
 
 * **Profils de test**: envoyer des emails de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données ; Ils peuvent être créés dans la console Adobe Campaign dans le **[!UICONTROL Ressources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Adresses de contrôle]** dossier.
 
-* **Substitution de la cible principale**: envoyer des emails de test à une adresse email spécifique lors de l’emprunt de l’identité d’un profil existant ; Vous pouvez ainsi tester l&#39;email comme le feraient les destinataires, ce qui vous donne une représentation exacte du message que le profil recevra.
+* **Substitution de la cible principale**: envoyer des emails de test à une adresse email spécifique lors de l’emprunt de l’identité d’un profil existant ; Vous pouvez ainsi tester l&#39;email comme le feraient les destinataires, ce qui vous donne une représentation exacte du message que le profil reçoit.
 
 ## Sélection des destinataires du test {#recipients}
 
@@ -28,7 +28,7 @@ Les emails de test peuvent être envoyés à deux types de destinataires :
 
    ![](assets/test-button.png)
 
-1. Utilisez la variable **[!UICONTROL Mode]** liste déroulante pour sélectionner le type de destinataires qui recevra l&#39;email de test :
+1. Utilisez la variable **[!UICONTROL Mode]** liste déroulante pour sélectionner le type de destinataires qui reçoivent l&#39;email de test :
 
    * **Profils de test**: envoyer l&#39;email de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données,
 
@@ -42,7 +42,7 @@ Les emails de test peuvent être envoyés à deux types de destinataires :
 
 1. Pour envoyer des emails de test aux profils de substitution, choisissez la variable **[!UICONTROL Substitution de la cible]** puis procédez comme suit :
 
-   1. Cliquez sur le bouton **[!UICONTROL Ajouter une adresse]** et indiquez l’adresse électronique qui recevra l’e-mail de test.
+   1. Cliquez sur le bouton **[!UICONTROL Ajouter une adresse]** et indiquez l’adresse électronique qui reçoit l’e-mail de test.
 
       Vous pouvez saisir n’importe quelle adresse électronique. Vous pouvez ainsi envoyer des emails de test à n’importe quel utilisateur, même s’il n’est pas un utilisateur d’Adobe Campaign V8.
 

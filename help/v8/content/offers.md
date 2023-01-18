@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer des offres
 description: Envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 87%
+source-wordcount: '509'
+ht-degree: 62%
 
 ---
 
@@ -43,7 +43,7 @@ Les étapes clés pour envoyer des offres avec un e-mail sont les suivantes :
 
 1. Pour affiner le choix des offres du moteur, sélectionnez une **[!UICONTROL Catégorie d’offres]** dans laquelle les offres sont triées.
 
-   Si vous ne sélectionnez aucune catégorie, toutes les offres contenues dans l’environnement seront prises en compte par le moteur d’offres, sauf si vous sélectionnez un **[!UICONTROL Thème d’offre]**.
+   Si aucune catégorie n&#39;est spécifiée, toutes les offres contenues dans l&#39;environnement sont prises en compte par le moteur d&#39;offres, sauf si une **[!UICONTROL Thème d’offre]** est sélectionnée.
 
    >[!NOTE]
    >
@@ -55,15 +55,15 @@ Les étapes clés pour envoyer des offres avec un e-mail sont les suivantes :
 
    Cette option permet d’activer ou désactiver l’exclusion des destinataires pour lesquels il n’y a pas assez d’offres éligibles.
 
-   * Si vous activez cette option, les destinataires qui n’ont pas suffisamment de propositions sont exclus de la diffusion.
-   * Si vous désactivez cette option, ces destinataires ne sont pas exclus, mais ils n’auront pas le nombre de propositions demandé.
+   * Si l&#39;option est activée, les destinataires qui n&#39;ont pas suffisamment de propositions sont exclus de la diffusion.
+   * Si l&#39;option est désactivée, ces destinataires ne sont pas exclus mais ils ne peuvent pas avoir le nombre de propositions demandé.
 
 1. Si nécessaire, sélectionnez l’option **[!UICONTROL Masquer tout si aucune offre n’est sélectionnée]**.
 
-   Cette option permet de choisir le mode de traitement du message au cas où l’une des propositions n’existerait pas.
+   Cette option permet de choisir le mode de traitement du message au cas où l&#39;une des propositions n&#39;existerait pas.
 
-   * Si vous activez cette option, la représentation de la proposition manquante ne s’affiche pas et aucun contenu n’apparaît dans le message pour cette proposition.
-   * Si vous désactivez cette option, le message est annulé lors de l’envoi et les destinataires ne recevront plus de messages.
+   * Si l&#39;option est activée, la représentation de la proposition manquante n&#39;est pas affichée et aucun contenu n&#39;apparaît dans le message pour cette proposition.
+   * Si l&#39;option est désactivée, le message lui-même est annulé lors de l&#39;envoi et les destinataires ne peuvent plus recevoir de messages.
 
 Une fois que vous avez configuré les offres à proposer, vous pouvez les insérer dans l’e-mail à l’aide de l’éditeur d’expression. [Découvrez comment insérer des offres dans l’e-mail](#insert).
 

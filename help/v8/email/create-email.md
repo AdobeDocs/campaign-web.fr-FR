@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier email avec l’interface utilisateur web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1244'
+ht-degree: 24%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 31%
 
 ![](../assets/do-not-localize/badge.png)
 
-Découvrez comment créer votre premier email ciblé dans ce cas pratique. Nous planifions l’envoi d’un email à des clients fidèles à l’argent et à l’or à une date spécifique.
+Découvrez comment créer votre premier email ciblé. Dans ce cas pratique, vous planifiez l’envoi d’un email aux membres Silver et Gold à une date spécifique.
 
-En utilisant un modèle de conception prédéfini, l&#39;email proposera également du contenu personnalisé basé sur les attributs de profil du client.
+Basé sur un modèle de conception prédéfini, l’email propose également du contenu personnalisé basé sur les attributs de profil du client.
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ En utilisant un modèle de conception prédéfini, l&#39;email proposera égalem
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Sélectionnez un modèle d’e-mail."
->abstract="Un modèle est défini dans la console Adobe Campaign v8. Il s’agit d’une configuration de diffusion spécifique qui contient des paramètres prédéfinis tels que les règles de typologie, la personnalisation ou les paramètres de routage."
+>abstract="Un modèle d’email est une configuration de diffusion spécifique qui contient des paramètres prédéfinis, tels que des règles de typologie, des paramètres de personnalisation ou de routage. Les modèles sont définis dans la console cliente Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -65,9 +65,9 @@ En utilisant un modèle de conception prédéfini, l&#39;email proposera égalem
 >title="Découvrez comment concevoir le contenu de votre email"
 >abstract="Découvrez comment utiliser le Concepteur d&#39;email."
 
-Dans ce cas pratique, nous utiliserons un modèle prédéfini pour concevoir notre email.
+Dans ce cas pratique, vous utilisez un modèle prédéfini pour concevoir votre email.
 
-vont concevoir l&#39;email à l&#39;aide d&#39;un modèle prédéfini. Des instructions détaillées sur la configuration du contenu d’un email sont disponibles dans la section [cette section](../content/edit-content.md).
+Des instructions détaillées sur la configuration du contenu de l’email sont disponibles dans la section [cette section](../content/edit-content.md).
 
 1. Pour commencer à créer le contenu de l&#39;email, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** bouton .
 
@@ -81,7 +81,7 @@ vont concevoir l&#39;email à l&#39;aide d&#39;un modèle prédéfini. Des instr
 
 1. Pour concevoir le corps de l&#39;email, cliquez sur le bouton **[!UICONTROL Modifier le corps de l’email]** bouton .
 
-   Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, nous utiliserons un modèle de conception prédéfini.
+   Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, utilisez un modèle de conception prédéfini.
 
    ![](assets/select-template.png)
 
@@ -106,9 +106,9 @@ vont concevoir l&#39;email à l&#39;aide d&#39;un modèle prédéfini. Des instr
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Définir l’audience"
->abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance de Campaign v8 ou dans Adobe Experience Platform ou choisir de créer une nouvelle audience à l’aide du créateur de règles."
+>abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance de Campaign v8 ou Adobe Experience Platform, ou créer une nouvelle audience à l’aide du créateur de règles."
 
-Dans ce cas pratique, nous enverrons l&#39;email à une audience existante. Des instructions supplémentaires sur l’utilisation des audiences sont disponibles dans [cette section](../audience/about-audiences.md).
+Dans ce cas pratique, vous envoyez l’email à une audience existante. Des instructions supplémentaires sur l’utilisation des audiences sont disponibles dans [cette section](../audience/about-audiences.md).
 
 1. Pour sélectionner l&#39;audience de l&#39;email, cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** et choisissez une audience existante dans la liste.
 
@@ -118,7 +118,7 @@ Dans ce cas pratique, nous enverrons l&#39;email à une audience existante. Des 
 
    >[!NOTE]
    >
-   >Les audiences disponibles dans la liste proviennent de votre instance Campaign V8 ou d’Adobe Experience Platform si l’intégration Destination/Sources a été configurée sur votre instance.
+   >Les audiences disponibles dans la liste proviennent soit de votre instance Campaign v8, soit de Adobe Experience Platform si l’intégration Destination/Sources a été configurée sur votre instance.
    >
    >L’intégration Destination/Sources vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de tracking Campaign à Adobe Experience Platform. [Découvrez comment utiliser Campaign et Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=fr){target="_blank"}.
 
@@ -133,7 +133,7 @@ Dans ce cas pratique, nous enverrons l&#39;email à une audience existante. Des 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Planifier l’envoi"
->abstract="Définissez la date et l’heure exactes de votre envoi. En choisissant l’heure la plus appropriée pour votre message marketing, vous maximisez les taux d’ouverture."
+>abstract="Définissez la date et l’heure exactes de votre envoi. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez optimiser les taux d’ouverture."
 
 Pour planifier l’envoi de l’email, cliquez sur **[!UICONTROL Activer]** et définissez la date et l’heure d’envoi.
 
@@ -145,13 +145,13 @@ Par défaut, la variable **[!UICONTROL Confirmer avant envoi]** est activée, ce
 
 Avant d&#39;envoyer votre email, vous pouvez le prévisualiser et le tester afin de vous assurer qu&#39;il répond à vos attentes.
 
-Dans ce cas pratique, nous prévisualiserons l’email et enverrons des versions de test à des adresses email spécifiques tout en empruntant l’identité de certains des profils ciblés.
+Dans ce cas pratique, vous prévisualisez l’email et envoyez des versions de test à des adresses email spécifiques tout en empruntant l’identité de certains des profils ciblés.
 
 Des informations supplémentaires sur la prévisualisation et le test des e-mails sont disponibles dans [cette section](../preview-test/preview-test.md).
 
 1. Pour examiner et envoyer le courrier électronique, cliquez sur **[!UICONTROL Vérifier et envoyer]**. Vous affichez ainsi un aperçu de votre email, ainsi que toutes les propriétés, l’audience et le planning configurés. Vous pouvez éditer l&#39;un de ces éléments en cliquant sur le bouton de modification .
 
-1. Pour prévisualiser l&#39;email et envoyer les versions de test, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton . L’interface d’aperçu s’ouvre alors.
+1. Pour prévisualiser l&#39;email et envoyer les versions de test, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 
    ![](assets/review-email.png)
 
@@ -167,11 +167,11 @@ Des informations supplémentaires sur la prévisualisation et le test des e-mail
 
 1. Pour envoyer des versions de test de votre email, cliquez sur le bouton **[!UICONTROL Test]** puis sélectionnez le mode à utiliser.
 
-   Dans cet exemple, nous utiliserons la variable **[!UICONTROL Substituer à partir de la cible principale]** , qui envoie des versions de test à des adresses email spécifiques tout en empruntant l’identité de certains des profils ciblés par l’email.
+   Dans cet exemple, utilisez la méthode **[!UICONTROL Substituer à partir de la cible principale]** , qui envoie des versions de test à des adresses email spécifiques tout en empruntant l’identité de certains des profils ciblés par l’email.
 
    ![](assets/proof-mode.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter une adresse]** et indiquez la ou les adresses électroniques qui recevront les versions de test.
+1. Cliquez sur **[!UICONTROL Ajouter une adresse]** et indiquez la ou les adresses email qui reçoivent les versions de test.
 
    Pour chaque adresse email, sélectionnez le profil à emprunter. Vous pouvez également laisser Adobe Campaign sélectionner un profil aléatoire à partir de la cible.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Ajuster l’alignement vertical et la marge intérieure dans le concepteur d’e-mail
 description: Découvrez comment ajuster l’alignement vertical et la marge intérieure.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
-source-wordcount: '171'
-ht-degree: 100%
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![](../assets/do-not-localize/badge.png)
 
-Dans cet exemple, nous ajusterons la marge intérieure et l’alignement vertical à l’intérieur d’un composant de structure composé de trois colonnes.
+Dans cet exemple, nous ajustons la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes.
 
 1. Sélectionnez le composant de structure directement dans l’e-mail ou à l’aide de l’**[!UICONTROL Arborescence de navigation]** disponible dans le volet de gauche.
 

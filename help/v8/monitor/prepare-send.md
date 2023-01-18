@@ -3,10 +3,10 @@ audience: end-user
 title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un email avec l’interface utilisateur web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 83%
+source-wordcount: '546'
+ht-degree: 80%
 
 ---
 
@@ -92,6 +92,6 @@ Procédez comme suit :
 
    >[!NOTE]
    >
-   >Le **Ouvertures** et **Clics** Les indicateurs seront mis à jour au bout de 5 minutes.
+   >Le **Ouvertures** et **Clics** Les indicateurs sont mis à jour au bout de 5 minutes.
 
-   Vous pouvez suspendre l’envoi à tout moment, puis reprendre. Si vous arrêtez la diffusion pendant son envoi, vous ne pourrez pas reprendre.
+   Vous pouvez suspendre l’envoi à tout moment, puis reprendre. Si vous arrêtez la diffusion pendant son envoi, vous ne pouvez pas la reprendre.

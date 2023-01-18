@@ -3,10 +3,10 @@ audience: end-user
 title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 92%
+source-wordcount: '525'
+ht-degree: 71%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 Vous pouvez utiliser des populations témoins pour éviter d’envoyer des messages à une partie de votre audience afin de mesurer l’impact de vos campagnes.
 
-Créez une population témoin lors de la définition de l’audience de votre diffusion. Les profils sont ajoutés à la population témoin de manière aléatoire, filtrés ou non, ou selon des critères. Vous pourrez ensuite comparer le comportement de la population cible qui a reçu le message avec celui des contacts qui n’ont pas été ciblés.
+Créez une population témoin lors de la définition de l’audience de votre diffusion. Les profils sont ajoutés à la population témoin de manière aléatoire, filtrés ou non, ou selon des critères. Vous pouvez ensuite comparer le comportement de la population cible qui a bien reçu le message au comportement des contacts qui n&#39;ont pas été ciblés.
 
 La population témoin peut être extraite de manière aléatoire de la cible principale et/ou sélectionnée dans une population spécifique. Par conséquent, vous pouvez définir une population témoin de deux manières principales :
 
@@ -23,7 +23,7 @@ La population témoin peut être extraite de manière aléatoire de la cible pri
 
 Vous pouvez utiliser les deux méthodes lors de la définition d’une population témoin.
 
-Tous les profils faisant partie de la population témoin à l’étape de préparation de la diffusion seront supprimés de la cible principale. Ils ne recevront pas le message.
+Tous les profils faisant partie de la population témoin à l’étape de préparation de la diffusion sont supprimés de la cible principale. Ils ne reçoivent pas le message.
 
 Pour créer une population témoin, cliquez sur le bouton **[!UICONTROL Définir la population témoin]** à partir de la section **Audience** de l’assistant de création de diffusion.
 
@@ -38,11 +38,11 @@ Pour créer une population témoin, cliquez sur le bouton **[!UICONTROL Définir
 
 Pour définir une population témoin, vous pouvez choisir d’extraire, de manière aléatoire ou selon un tri, un pourcentage ou un nombre fixe de profils de la population cible.
 
-Tout d’abord, définissez la façon dont les profils seront extraits de la cible : de manière aléatoire ou en fonction d’un tri.
+Tout d&#39;abord, définissez la manière dont les profils sont extraits de la cible : de manière aléatoire ou selon un tri.
 
 Dans la section **Extraire à partir de la cible**, sélectionnez un **Type d’exclusion** :
 
-* **Tirage aléatoire** : lors de la préparation de la diffusion, Adobe Campaign extrait de manière aléatoire un certain nombre de profils correspondant au pourcentage ou au nombre maximal que vous définissez comme limite de taille.
+* **Random**: lors de la préparation de la diffusion, Adobe Campaign extrait de manière aléatoire un certain nombre de profils correspondant au pourcentage ou au nombre maximum défini comme limite de taille.
 
    ![](assets/control-group.png)
 
@@ -91,4 +91,4 @@ Dans la section **Population supplémentaire** de l’écran de définition de l
 
 * Pour définir une nouvelle requête, sélectionnez **Créer la vôtre** et définissez les critères d’exclusion à l’aide du créateur de règles. Reportez-vous à cette [section](segment-builder.md).
 
-Les profils inclus dans l’audience ou correspondant au résultat de la requête sont exclus de la cible.
+Les profils inclus dans l&#39;audience ou correspondant au résultat de la requête sont exclus de la cible.
