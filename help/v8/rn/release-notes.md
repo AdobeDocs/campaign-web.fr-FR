@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 12%
+ht-degree: 92%
 
 ---
 
@@ -14,34 +14,34 @@ ht-degree: 12%
 
 ![](../assets/do-not-localize/badge.png)
 
-Cette page répertorie toutes les dernières fonctionnalités et améliorations de Campaign Web v8.
+Cette page répertorie toutes les dernières fonctionnalités et améliorations de Campaign Web v8.
 
 ## Version Alpha{#alpha-release}
 
-Cette nouvelle interface web de Campaign n’est actuellement disponible que pour **Utilisateurs Alpha** avec les fonctionnalités suivantes :
+Actuellement, cette nouvelle interface web de Campaign n’est disponible que pour les **utilisateurs et utilisatrices Alpha**, et dispose des fonctionnalités suivantes :
 
-**Une expérience moderne, intuitive et unifiée.**
+**Une expérience moderne, intuitive et unifiée**
 
-La nouvelle interface utilisateur web de Campaign offre une nouvelle expérience utilisateur, alignée sur toutes les solutions et applications Adobe Experience Cloud. Il offre :
+La nouvelle IU web de Campaign offre une nouvelle expérience client, alignée sur toutes les solutions et applications Adobe Experience Cloud. Elle offre :
 
-* Accédez à la nouvelle interface et aux autres solutions Adobe avec une session utilisateur unique et partagée.
-* Nouvelle expérience de navigation, avec tous les menus et dossiers disponibles dans le rail de gauche
-* Sélecteur de solution et d’organisation à partir de la barre supérieure
-* Intégration de Shell unifiée, avec un accès direct à la communauté, au centre d’aide et au support
+* L’accès à la nouvelle interface et aux autres solutions Adobe avec une session utilisateur unique et partagée
+* Une nouvelle expérience de navigation, avec tous les menus et dossiers disponibles dans le rail de gauche
+* Des sélecteurs de solution et d’organisation à partir de la barre supérieure
+* Une intégration de Shell unifié, avec un accès direct à la communauté, au centre d’aide et au support
 <!--
 No search and pulse notifications in Alpha
 -->
 
-En savoir plus sur la nouvelle interface utilisateur dans [cette page](../get-started/user-interface.md).
+En savoir plus sur la nouvelle IU sur [cette page](../get-started/user-interface.md).
 
 **Créer, lancer et mesurer votre campagne par e-mail**
 
-Utilisez la nouvelle interface utilisateur web de Campaign pour :
+Utilisez la nouvelle IU web de Campaign pour :
 
-* Concevoir un contenu d&#39;email personnalisé avec le Concepteur d&#39;email - [En savoir plus](../content/edit-content.md)
-* Définition des audiences cibles avec le créateur de règles - [En savoir plus](../audience/about-audiences.md)
-* Prévisualiser, tester et envoyer vos emails - [En savoir plus](../monitor/prepare-send.md)
-* Surveillez les envois et mesurez les résultats à l’aide de rapports natifs - [En savoir plus](../reporting/reports.md)
+* Concevoir un contenu d’e-mail personnalisé avec le concepteur d’e-mail - [En savoir plus](../content/edit-content.md)
+* Définir des audiences cibles avec le créateur de règles - [En savoir plus](../audience/about-audiences.md)
+* Prévisualiser, tester et envoyer vos e-mails - [En savoir plus](../monitor/prepare-send.md)
+* Surveiller l’envoi et la mesure des résultats à l’aide de rapports intégrés - [En savoir plus](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -51,14 +51,14 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Les campagnes cross-canal et les fonctionnalités de gestion des workflows seront disponibles avec la version bêta.
+>Les campagnes cross-canal et les fonctionnalités de gestion des workflows seront disponibles dans la version Bêta.
 
-## Mises à jour de terminologie
+## Mises à jour de la terminologie
 
-En tant qu’utilisateur Campaign existant, notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s’appliquent uniquement à l’interface utilisateur web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
+En tant qu’utilisateur ou utilisatrice Campaign existant(e), notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s’appliquent uniquement à l’IU web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
 
-* Les bons à tirer sont maintenant **Tester les emails**: pour envoyer un bon à tirer, utilisez la méthode **Test** dans l’interface utilisateur de diffusion par courrier électronique. La cible de la cible des BAT est désormais appelée **Profils de test**
+* Les bons à tirer sont maintenant des **e-mails de test** : pour envoyer un bon à tirer, utilisez le bouton **Tester** dans l’IU de diffusion par e-mail. La cible de la cible des bons à tirer s’appelle désormais **Profils de test**.
 * Les adresses de contrôle sont désormais utilisées comme **Profils de test**: envoyer l&#39;email de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données ;
-* L’analyse des diffusions est désormais **préparation de la diffusion**. Lorsque vous devez lancer l’analyse, cliquez sur le bouton **Préparer** button
-* L’ aperçu de l’email est maintenant disponible dans la **Simulation du contenu** button
-* Les listes sont maintenant **Audiences**
+* L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer l’analyse, cliquez sur le bouton **Préparer**.
+* L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu**.
+* Les listes sont s’appellent désormais **audiences**.
