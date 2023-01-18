@@ -5,8 +5,8 @@ description: Notes de mise à jour de Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +57,7 @@ add info somewhere to remind users that
 
 En tant qu’utilisateur ou utilisatrice Campaign existant(e), notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s’appliquent uniquement à l’IU web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
 
-* Les bons à tirer sont maintenant des **e-mails de test** : pour envoyer un bon à tirer, utilisez le bouton **Tester** dans l’IU de diffusion par e-mail. La cible de la cible des bons à tirer s’appelle désormais **Profils de test**.
+* Les BAT sont maintenant des **e-mails de test** : pour envoyer un BAT, utilisez le bouton **Tester** dans l’IU de diffusion par e-mail. La cible de la cible des bat s’appelle désormais **Profils de test**.
 * Les adresses de contrôle sont désormais utilisées comme **Profils de test**: envoyer l&#39;email de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données ;
 * L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer l’analyse, cliquez sur le bouton **Préparer**.
 * L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu**.
