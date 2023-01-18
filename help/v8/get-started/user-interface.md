@@ -3,7 +3,7 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
+source-git-commit: a911bdca4bc83b770ff1c4537c3fc06a5b43026f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 88%
@@ -184,20 +184,54 @@ Campaign v8 Web est conçu pour fonctionner de manière optimale dans la derniè
 
 Le Web de Campaign v8 est actuellement disponible dans les langues suivantes :
 
-* Anglais (US) - EN-US
-* Français - FR
-* Allemand - DE
-* Italien - IT
-* Espagnol - ES
-* Portugais (Brésil) - PTBR
-* Japonais - JP
-* Coréen - KR
-* Chinois simplifié - CHS
-* Chinois traditionnel - CHT
+<table>
+<tr>
+<td>
+<p>Anglais (US) - EN-US</p>
+</td>
+<td>
+<p>Espagnol - ES</p>
+</td>
+<td>
+<p>Coréen - KR</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Français - FR</p>
+</td>
+<td>
+<p>Portugais (Brésil) - PTBR</p>
+</td>
+<td>
+<p>Chinois simplifié - CHS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Allemand - DE</p>
+</td>
+<td>
+<p>Japonais - JP</p>
+</td>
+<td>
+<p>Chinois traditionnel - CHT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Italien - IT</p>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>
 
 La langue de votre interface par défaut est déterminée par la langue préférée spécifiée dans votre profil utilisateur.
 
-Pour modifier votre langue :
+Pour changer de langue :
 
 1. Cliquez sur l’icône de votre profil, en haut à droite, puis sélectionnez **Préférences**.
 
