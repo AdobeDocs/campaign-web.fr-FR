@@ -1,79 +1,73 @@
 ---
 audience: end-user
-title: Envoyer des e-mails de test
-description: Découvrez comment définir et envoyer des emails de test
+title: Send test emails
+description: Learn how to define and send test emails
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 8%
-
 ---
-
-# Envoyer des e-mails de test {#send-proofs}
+# Send test emails {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-L’envoi d’emails de test est une étape importante pour valider votre campagne par e-mail et identifier les problèmes potentiels. En envoyant des emails de test, vous pouvez vérifier différents éléments tels que des liens, des liens d’opt-out, des images et des pages miroir, ainsi que détecter d’éventuelles erreurs.
+Sending test emails is an important step in validating your email campaign and identifying potential issues. By sending test emails, you can check various elements such as links, opt-out links, images, and mirror pages, as well as detect any errors.
 
-Les emails de test peuvent être envoyés à deux types de destinataires :
+Test emails can be sent to two types of recipients: 
 
-* **Profils de test**: envoyer des emails de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données ; Ils peuvent être créés dans la console Adobe Campaign dans le **[!UICONTROL Ressources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Adresses de contrôle]** dossier.
+* **Test profiles**: send test emails to seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
+    
+* **Substitution from main target**: send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile receives.
 
-* **Substitution de la cible principale**: envoyer des emails de test à une adresse email spécifique lors de l’emprunt de l’identité d’un profil existant ; Vous pouvez ainsi tester l&#39;email comme le feraient les destinataires, ce qui vous donne une représentation exacte du message que le profil reçoit.
+## Select the test recipients {#recipients}
 
-## Sélection des destinataires du test {#recipients}
+1. Access the email content simulation screen, then click the **[!UICONTROL Test]** button.
 
-1. Accédez à l&#39;écran de simulation du contenu de l&#39;email, puis cliquez sur le bouton **[!UICONTROL Test]** bouton .
+    ![](assets/test-button.png)
 
-   ![](assets/test-button.png)
+1. Use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that receive the test email:
 
-1. Utilisez la variable **[!UICONTROL Mode]** liste déroulante pour sélectionner le type de destinataires qui reçoivent l&#39;email de test :
+    * **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database,
+    
+    * **Substitution from main target**: send the test email to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
 
-   * **Profils de test**: envoyer l&#39;email de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données,
+    ![](assets/test-mode.png)
 
-   * **Substitution de la cible principale**: envoyer l’email de test à une adresse email spécifique lors de l’emprunt de l’identité d’un profil existant ; Vous pouvez ainsi tester l&#39;email comme le feraient les destinataires, ce qui vous donne une représentation exacte du message que le profil recevra.
+    >[!NOTE]
+    >
+    >By default, the **[!UICONTROL Test profiles]** mode is selected. If you have already selected profiles to preview the email in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients.
 
-   ![](assets/test-mode.png)
+1. To send test emails to substitution profiles, choose the **[!UICONTROL Substitution from target]** mode then follow these steps:
 
-   >[!NOTE]
-   >
-   >Par défaut, la variable **[!UICONTROL Profils de test]** Le mode est sélectionné. Si vous avez déjà sélectionné des profils pour prévisualiser l&#39;email dans l&#39;écran de simulation du contenu, ces profils sont pré-sélectionnés comme destinataires test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires.
+    1. Click the **[!UICONTROL Add address]** button and specify the email address that receives the test email.
 
-1. Pour envoyer des emails de test aux profils de substitution, choisissez la variable **[!UICONTROL Substitution de la cible]** puis procédez comme suit :
+        You can enter any email address. This allows you to send test emails to any users, even if they are not users of Adobe Campaign V8.
 
-   1. Cliquez sur le bouton **[!UICONTROL Ajouter une adresse]** et indiquez l’adresse électronique qui reçoit l’e-mail de test.
+    1. Select the profile from the target to use to send the test email. You can also let Adobe Campaign select a random profile from the target.
 
-      Vous pouvez saisir n’importe quelle adresse électronique. Vous pouvez ainsi envoyer des emails de test à n’importe quel utilisateur, même s’il n’est pas un utilisateur d’Adobe Campaign V8.
+    1. Confirm the recipient and repeat the operation to add as many addresses as needed.
 
-   1. Sélectionnez le profil de la cible à utiliser pour envoyer l’email de test. Vous pouvez également laisser Adobe Campaign sélectionner un profil aléatoire à partir de la cible.
+        ![](assets/substitution.png)
 
-   1. Confirmez le destinataire et renouvelez l&#39;opération pour ajouter autant d&#39;adresses que nécessaire.
+1. Once the test recipients have been selected, you can send the test email. [Learn how to send test emails](#send)
 
-      ![](assets/substitution.png)
+    >[!NOTE]
+    >
+    >If you want to send the final email message to the recipients of the test email, enable the **[!UICONTROL Include test population in the main target]** option on.
 
-1. Une fois les destinataires du test sélectionnés, vous pouvez envoyer l&#39;email de test. [Découvrez comment envoyer des emails de test](#send)
+## Send the test email {#send}
 
-   >[!NOTE]
-   >
-   >Si vous souhaitez envoyer le message électronique final aux destinataires de l’email de test, activez l’option **[!UICONTROL Inclure la population test dans la cible principale]** sur .
-
-## Envoyer l’email de test {#send}
-
-Pour envoyer l&#39;email de test aux destinataires sélectionnés, cliquez sur **[!UICONTROL Envoyer un email de test]** confirmez ensuite l’envoi.
+To send the test email to the selected recipients, click **[!UICONTROL Send test email]** then confirm the sending.
 
 ![](assets/send-proof.png)
 
-Envoyez autant d&#39;emails de test que nécessaire jusqu&#39;à ce que vous ayez finalisé le contenu de votre diffusion. Une fois cette opération effectuée, vous pouvez envoyer l’e-mail à la cible principale. [Découvrez comment préparer et envoyer des e-mails](../monitor/prepare-send.md).
+Send as many test emails as necessary until you have finalized the content of your delivery. Once this is done, you can send the email to the main target. [Learn how to prepare and send your email](../monitor/prepare-send.md)
 
-## Accès aux emails de test envoyés {#access-proofs}
+## Access sent test emails {#access-proofs}
 
-Une fois les emails de test envoyés, vous pouvez accéder aux logs dédiés à partir de la **[!UICONTROL Afficher le journal des emails de test]** bouton .
+Once the test emails have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button.
 
-Ces logs permettent d&#39;accéder à tous les emails de test envoyés pour la diffusion sélectionnée et de visualiser des statistiques spécifiques relatives à leur envoi. [Découvrez comment surveiller les logs de diffusion](../monitor/delivery-logs.md).
+These logs allow you to access all the test emails sent for the selected delivery, and to visualize specific statistics related to their sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-Vous pouvez également accéder aux emails de test envoyés depuis la liste des diffusions, comme toute diffusion.
+You can also access sent test emails from the deliveries list, like any delivery.
 
 ![](assets/delivery-list.png)

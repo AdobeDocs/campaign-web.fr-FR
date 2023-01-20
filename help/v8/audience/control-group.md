@@ -1,94 +1,88 @@
 ---
 audience: end-user
-title: Configurer une population témoin
-description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign
+title: Set a control group
+description: Learn how to set a control group for your messages in Campaign Web UI
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 71%
-
 ---
+# Set a control group {#control-group}
 
-# Configurer une population témoin {#control-group}
+You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
 
-Vous pouvez utiliser des populations témoins pour éviter d’envoyer des messages à une partie de votre audience afin de mesurer l’impact de vos campagnes.
+To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You can then compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
 
-Créez une population témoin lors de la définition de l’audience de votre diffusion. Les profils sont ajoutés à la population témoin de manière aléatoire, filtrés ou non, ou selon des critères. Vous pouvez ensuite comparer le comportement de la population cible qui a bien reçu le message au comportement des contacts qui n&#39;ont pas été ciblés.
+The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 
-La population témoin peut être extraite de manière aléatoire de la cible principale et/ou sélectionnée dans une population spécifique. Par conséquent, vous pouvez définir une population témoin de deux manières principales :
+* Extract a number of profiles from the main target.
+* Exclude some profiles based on criteria defined in a query.
 
-* En extrayant un certain nombre de profils de la cible principale.
-* En excluant certains profils en fonction de critères définis dans une requête.
+You can use both methods when defining a control group.
 
-Vous pouvez utiliser les deux méthodes lors de la définition d’une population témoin.
+All profiles being part of the control group at the delivery preparation step are removed from the main target. They do not receive the message.
 
-Tous les profils faisant partie de la population témoin à l’étape de préparation de la diffusion sont supprimés de la cible principale. Ils ne reçoivent pas le message.
-
-Pour créer une population témoin, cliquez sur le bouton **[!UICONTROL Définir la population témoin]** à partir de la section **Audience** de l’assistant de création de diffusion.
+To create a control group, click the **[!UICONTROL Set Control Group]** button, from the **Audience** section of the delivery creation assistant.
 
 ![](assets/control-group1.png)
 
-## Extraire à partir de la cible {#extract-target}
+## Extract from target {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Extraire à partir de la cible"
+>title="Extract from target"
 >abstract="TBC"
 
-Pour définir une population témoin, vous pouvez choisir d’extraire, de manière aléatoire ou selon un tri, un pourcentage ou un nombre fixe de profils de la population cible.
+To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
 
-Tout d&#39;abord, définissez la manière dont les profils sont extraits de la cible : de manière aléatoire ou selon un tri.
+First, define the way the profiles are e extracted from the target: randomly or based on a sorting.
 
-Dans la section **Extraire à partir de la cible**, sélectionnez un **Type d’exclusion** :
+Under the **Extract from target** section, choose an **Exclusion type**:
 
-* **Random**: lors de la préparation de la diffusion, Adobe Campaign extrait de manière aléatoire un certain nombre de profils correspondant au pourcentage ou au nombre maximum défini comme limite de taille.
+* **Random**: when preparing the delivery, Adobe Campaign  randomly extracts a number of profiles corresponding to the percentage or to the maximum number that is set as the size limit.
 
-   ![](assets/control-group.png)
+    ![](assets/control-group.png)
 
-* **Classement par attribut(s)** : cette option permet d’exclure un jeu de profils en fonction d’un ou de plusieurs attributs spécifiques dans un ou plusieurs ordres de tri spécifiques.
+* **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
 
-   ![](assets/control-group2.png)
+    ![](assets/control-group2.png)
 
-Définissez ensuite la variable **Limite de taille** : vous devez définir la manière dont vous allez limiter le nombre de profils que vous extrayez de la cible principale.
+Then define the **Size limit**: you must set how you are going to limit the number of profiles that you extract from the main target. 
 
-**Exemple**
+**Example**
 
-Vous pouvez consulter les logs pour vérifier et identifier les profils exclus. Prenons l’exemple suivant d’une exclusion aléatoire sur cinq profils.
+You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
 
 ![](assets/control-group4.png)
 
-Après la préparation de la diffusion, vous pouvez visualiser les exclusions sur les écrans suivants :
+After the delivery preparation, you can view the exclusions on the following screens:
 
-* L’indicateur clé de performance (KPI) **À exclure** dans le tableau de bord de la diffusion, avant l’envoi.
+* The **To exclude** KPI in the delivery dashboard, before the sending.
 
-   ![](assets/control-group5.png)
+    ![](assets/control-group5.png)
 
-* Le **Exclus** afficher chaque profil et l’exclusion associée ; **Motif**.
+* The **Exclusion logs** display each profile and the related exclusion **Reason**.
 
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
 
-* Le **Exclusions appliquées** afficher le nombre de profils exclus pour chaque règle de typologie.
+* The **Exclusion causes** display the number of excluded profile for each typology rule.
 
-   ![](assets/control-group7.png)
+    ![](assets/control-group7.png)
 
-Pour plus d’informations sur les logs de diffusion, consultez [cette section](../monitor/delivery-logs.md).
+For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
 
-## Population supplémentaire {#extra-population}
+## Extra population {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="Population supplémentaire"
+>title="Extra population"
 >abstract="TBC"
 
-Vous pouvez également définir une population témoin en excluant une population spécifique de la cible. Pour cela, vous pouvez utilisez une audience existante ou définir une requête.
+Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 
-Dans la section **Population supplémentaire** de l’écran de définition de la **Population témoin**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
+From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
 ![](assets/control-group3.png)
 
-* Pour utiliser une audience existante, cliquez sur **Sélectionner une audience**. Reportez-vous à cette [section](add-audience.md).
+* To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
 
-* Pour définir une nouvelle requête, sélectionnez **Créer la vôtre** et définissez les critères d’exclusion à l’aide du créateur de règles. Reportez-vous à cette [section](segment-builder.md).
+* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
 
-Les profils inclus dans l&#39;audience ou correspondant au résultat de la requête sont exclus de la cible.
+The profiles included in the audience or matching the result of the query are excluded from the target.

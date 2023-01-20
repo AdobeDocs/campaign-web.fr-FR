@@ -1,15 +1,9 @@
 ---
 audience: end-user
-title: Utiliser le concepteur d’e-mail.
-description: Documentation de Campaign v8 Web
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
-source-wordcount: '14'
-ht-degree: 100%
-
+title: Work with the Email Designer
+description: Campaign v8 Web documentation
 ---
-
-# Utiliser le concepteur d’e-mail. {#email-designer}
+# Work with the Email Designer {#email-designer}
 
 ![](../assets/do-not-localize/badge.png)
 

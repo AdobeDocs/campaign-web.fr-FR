@@ -1,34 +1,27 @@
 ---
 audience: end-user
-title: Tester le rendu des e-mails
-description: Découvrez comment tester le rendu de vos emails dans l’interface utilisateur web de Campaign
+title: Test email rendering
+description: Learn how to test your email rendering in Campaign Web UI
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 75%
-
 ---
-
-# Tester le rendu des e-mails {#rendering}
+# Test the email rendering {#rendering}
 
 ![](../assets/do-not-localize/badge.png)
 
-Avant d&#39;envoyer votre email, vérifiez que l&#39;affichage de votre message est optimal pour les destinataires sur divers clients web, webmails et appareils.
+Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
-Pour cela, Adobe Campaign permet de prévisualiser le message envoyé dans les différents contextes de réception et de vérifier la compatibilité sur les principaux postes de travail et applications (messagerie web, service de
-messagerie, mobile, etc.).
+To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
 
-Pour tester le rendu des e-mails, procédez comme suit :
+To test the email rendering, follow these steps:
 
-1. Accédez à l’écran de création de contenu d’e-mail, puis cliquez sur **[!UICONTROL Simuler du contenu]**.
+1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Rendu de l’e-mail]**.
+1. Click the **[!UICONTROL Render email]** button.
 
-   Le volet de gauche fournit divers clients de messagerie de bureau, mobile et web. Sélectionnez le client de messagerie de votre choix pour afficher un aperçu de votre e-mail dans le volet de droite.
+    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-   ![](assets/render-context.png)
+    ![](assets/render-context.png)
 
-   >[!NOTE]
-   >
-   >La liste des clients de messagerie fournit un exemple des principaux clients de messagerie. D’autres clients de messagerie sont disponibles à partir du bouton de filtrage en regard de la barre de recherche supérieure.
+    >[!NOTE]
+    >
+    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.

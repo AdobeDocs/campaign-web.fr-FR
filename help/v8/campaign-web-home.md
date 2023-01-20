@@ -1,42 +1,36 @@
 ---
-keywords: Campaign Web;accueil;thèmes populaires
-description: Centre d’aide de Campaign Web v8
-title: Documentation du produit Adobe Campaign Web v8
+keywords: Campaign Web;home;popular topics
+description: Campaign Web v8 help center
+title: Adobe Campaign Web v8 product documentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 71%
-
 ---
+# Adobe Campaign v8 Web Documentation {#campaign-documentation}
 
-# Documentation d’Adobe Campaign v8 Web {#campaign-documentation}
+![](assets/do-not-localize/banner-documentationv8.png) 
 
-![](assets/do-not-localize/banner-documentationv8.png)
-
-![](assets/do-not-localize/badge.png)
+![](assets/do-not-localize/badge.png) 
 
 
-Campaign offre désormais une nouvelle interface utilisateur web avec une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform. [En savoir plus](get-started/get-started.md)
+Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform. [Learn more](get-started/get-started.md)
 
->Campaign v8 Web est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/release-notes.md)
+>Campaign v8 Web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice. [Learn more](rn/release-notes.md)
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="get-started/user-interface.md">
-<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/email-create.jpeg">
+<img alt="new UI" src="assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>Nouvelle interface utilisateur de Campaign</strong>
+<div><a href="get-started/user-interface.md"><strong>Campaign New UI</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="content/create-email-content.md">
-<img alt="Inrégulier" src="assets/do-not-localize/email-design.jpg">
+<img alt="Infrequent" src="assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Concevoir un email</strong></a>
+<a href="content/create-email-content.md"><strong>Design an email</strong></a>
 </div>
 <p></td>
 <td>
@@ -44,7 +38,7 @@ Campaign offre désormais une nouvelle interface utilisateur web avec une conviv
 <img alt="Audiences" src="assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Sélectionner une audience.</strong></a>
+<a href="audience/about-audiences.md"><strong>Select an audience</strong></a>
 </div>
 <p>
 </td>
@@ -53,7 +47,7 @@ Campaign offre désormais une nouvelle interface utilisateur web avec une conviv
 <img alt="Validation" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Prévisualiser et tester un email</strong></a>
+<a href="preview-test/proofs.md"><strong>Preview and test an email</strong></a>
 </div>
 <p>
 </td>

@@ -1,32 +1,25 @@
 ---
 audience: end-user
-title: A propos de la prévisualisation et du test d'un email
-description: Découvrez comment prévisualiser et tester des emails
+title: About email preview and test
+description: Learn how to preview and test emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
-workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 27%
-
 ---
-
-# A propos de la prévisualisation et du test d&#39;un email {#about-preview-proofs}
+# About email preview and test {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Avant d’envoyer un email, il est important de vérifier et de tester son contenu pour s’assurer qu’il est précis et sans erreur dans le contenu ou les paramètres de personnalisation.
+Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
 
-Pour ce faire, Adobe Campaign vous permet d’effectuer les opérations suivantes :
+To do this, Adobe Campaign allows you to:
 
-* [Prévisualiser le contenu et la personnalisation de l’e-mail](#preview),
-
+* [Preview the email content and personalization](#preview),
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Envoi d’emails de test](#send-proofs) à des destinataires spécifiques à des fins de test et de validation.
+* [Send test emails](#send-proofs) to specific recipients for testing and validation.
 
-Ces actions peuvent être effectuées à partir de la fonction **[!UICONTROL Simulation du contenu]** accessible lors de la création du contenu de votre email à partir du Concepteur d&#39;email :
+These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->La simulation de contenu est également disponible à partir de la de synthèse des diffusions, après avoir cliqué sur le bouton **[!UICONTROL Vérifier et envoyer]**.
+>Content simulation is also available from the delivery summary after clicking the **[!UICONTROL Review and send]** button.

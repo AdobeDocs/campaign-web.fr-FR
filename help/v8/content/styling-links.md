@@ -1,39 +1,33 @@
 ---
 audience: end-user
-title: Définir un style pour les liens
-description: Découvrez comment définir un style pour les liens.
+title: Define a style for links
+description: Learn how to define a style for links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 92%
-
 ---
-
-# Définir un style pour les liens {#styling-links}
+# Define a style for links {#styling-links}
 
 ![](../assets/do-not-localize/badge.png)
 
-Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d’e-mail.
+You can underline a link and select its color and target in the Email Designer.
 
-1. Dans un composant **[!UICONTROL Texte]** contenant un lien, sélectionnez ce dernier.
+1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
 
-1. Dans le menu **[!UICONTROL Paramètres des composants]**, cochez **[!UICONTROL Souligner le lien]** pour que le libellé soit souligné.
+1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to have the label underlined.
 
    ![](assets/link_1.png)
 
-1. Choisissez la manière dont votre audience est redirigée avec la variable **[!UICONTROL Cible]** menu déroulant :
+1. Choose how your audience is redirected with the **[!UICONTROL Target]** drop-down:
 
-   * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur ou l’utilisatricea cliqué (par défaut).
-   * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
-   * **[!UICONTROL Auto]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur ou l’utilisatrice a cliqué.
-   * **[!UICONTROL Parent]** : ouvre le lien dans le cadre parent.
-   * **[!UICONTROL Haut]** : ouvre le lien dans le corps complet de la fenêtre.
+    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
+    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
+    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
+    * **[!UICONTROL Parent]**: opens the link in the parent frame.
+    * **[!UICONTROL Top]**: opens the link in the full body of the window.
 
    ![](assets/link_2.png)
 
-1. Pour modifier la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]** dans le volet de droite.
+1. To change the color of your link, click on **[!UICONTROL Link color]** from the right pane.
 
    ![](assets/link_3.png)
 
-1. Enregistrez vos modifications.
+1. Save your changes.

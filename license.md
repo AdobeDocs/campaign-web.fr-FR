@@ -1,16 +1,9 @@
----
-source-git-commit: 91649bdf1e6561c9af93d22bd4980f6f5a87bf7c
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
-
----
-# Licence MIT
+# MIT License
 
 © Copyright 2021 Adobe. All rights reserved.
 
-Une autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « Logiciel »), afin de traiter le Logiciel sans restriction, y compris et sans s’y limiter, les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de cession sous-licence et/ou de vente du Logiciel, et de permettre aux personnes auxquelles le Logiciel est fourni de le faire, sous réserve des conditions suivantes :
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-La notification du droit d’auteur (Copyright) ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties substantielles du Logiciel.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS AUCUNE GARANTIE, EXPRESSE OU IMPLICITE, Y COMPRIS MAIS SANS S’Y LIMITER LES GARANTIES QUANT À LA QUALITÉ MARCHANDE, L’ADÉQUATION À UN USAGE PARTICULIER ET LA NON-VIOLATION DES DROITS D’AUTEUR. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DU DROIT D’AUTEUR (COPYRIGHT) NE PEUVENT ÊTRE TENUS RESPONSABLES DES RÉCLAMATIONS, DOMMAGES OU AUTRES RESPONSABILITÉS, QU’IL S’AGISSE D’UNE ACTION FONDÉE SUR LA RESPONSABILITÉ CONTRACTUELLE, DÉLICTUELLE OU AUTREMENT, QUI DÉCOULERAIENT DU LOGICIEL, DE L’UTILISATION DU LOGICIEL OU D’AUTRES INTERVENTIONS DANS LE LOGICIEL.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
