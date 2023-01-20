@@ -1,16 +1,16 @@
 ---
 audience: end-user
 title: Prise en main avec le Web de Campaign v8
-description: Prise en main du web de Campaign v8
+description: Prise en main de l’interface web de Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
-# Prise en main du web de Campaign v8 {#get-started}
+# Prise en main de l’interface web de Campaign v8 {#get-started}
 
 ![](../assets/do-not-localize/badge.png)
 
