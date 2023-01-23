@@ -1,66 +1,72 @@
 ---
 audience: end-user
-title: Monitor delivery logs
-description: Learn how to monitor delivery logs
+title: Surveiller les logs de diffusion
+description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 85%
+
 ---
-# Monitor delivery logs {#delivery-logs}
+
+# Surveiller les logs de diffusion {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="Delivery logs"
+>title="Logs de diffusion"
 >abstract="TBC"
 
-After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
+Après avoir préparé et envoyé un e-mail, les logs de diffusion vous permettent de vérifier qu’il n’y a aucune erreur. Vous pouvez accéder à ces logs depuis le tableau de bord des messages. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
-To view the logs, access your delivery dashboard and click the **Logs** button.
+Pour afficher les logs, accédez au tableau de bord de votre diffusion et cliquez sur le bouton **Logs**.
 
-Several tabs are available:
+Plusieurs onglets sont disponibles :
 
 ## Logs
 
-The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
+L’onglet **Logs** contient tous les messages relatifs à la diffusion et aux bons à tirer (BAT). Des icônes spécifiques permettent de repérer les erreurs ou avertissements.
 
-All the validation steps, warnings and errors are listed. Colored icons show the message type:
+Toutes les étapes de validation, les avertissements et les erreurs sont répertoriés. Les icônes colorées indiquent le type de message :
 
-* The grey icon indicates an informative message.
-* The yellow icon indicates a non-critical processing error.
-* The red icon indicates a critical error that prevents sending the delivery. 
+* L’icône grise indique un message informatif.
+* L’icône jaune indique une erreur de traitement non critique.
+* L’icône rouge indique une erreur critique qui empêche l’envoi de la diffusion.
 
 ![](assets/logs.png)
 
-## Deliveries
+## Diffusions
 
-The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
+L&#39;onglet **Envois** propose un historique des occurrences de cette diffusion. Y est répertoriée la liste des messages envoyés et leur statut. Il permet de visualiser l&#39;état de la diffusion pour chaque destinataire.
 
 ![](assets/logs2.png)
 
 ## Exclusions
 
-The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
+Le **Exclus** tab répertorie tous les messages qui ont été exclus de la cible et indique la raison de l’échec de l’envoi.
 
 ![](assets/logs3.png)
 
-## Exclusion causes
+## Causes d&#39;exclusion
 
-The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
+Le **Exclusions appliquées** onglet affiche le volume (en nombre de messages) des messages qui ont été exclus de la cible.
 
 ![](assets/logs4.png)
 
 ## Tracked URLs
 
-The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
+L’onglet **URL trackées** regroupe les URL contenues dans le message envoyé, leur type et leur URL source.
 
 ![](assets/logs5.png)
 
 ## Tracking
 
-The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
+L’onglet **Tracking** affiche l’historique du tracking pour cette diffusion. Cet onglet affiche les données de tracking sur les messages envoyés, soit toutes les URL qui ont fait l’objet d’un tracking par Adobe Campaign.
 
 >[!NOTE]
 >
->If tracking is not enabled for a delivery, this tab is not displayed.
+>Si le tracking n’est pas activé pour une diffusion, cet onglet n’est pas affiché.
 
 ![](assets/logs6.png)

@@ -1,17 +1,23 @@
 ---
 audience: end-user
-title: Prepare and send an email
-description: Learn how to prepare and send an email with Campaign Web UI
+title: Préparer et envoyer un e-mail
+description: Découvrez comment préparer et envoyer un email avec l’interface utilisateur web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 80%
+
 ---
-# Prepare and send your email {#prepare-send}
+
+# Préparer et envoyer votre e-mail {#prepare-send}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Prepare and send your email"
->abstract="Discover how to prepare your email and learn more about sending KPIs."
+>title="Préparer et envoyer votre e-mail"
+>abstract="Découvrez comment préparer un e-mail et comment envoyer des KPI."
 
 <!--
 
@@ -26,66 +32,66 @@ exclusion logs, causes
 send also KPIs
 -->
 
-## Prepare the send{#prepare}
+## Préparer l’envoi{#prepare}
 
-When you have defined your content, audience and schedule, you're ready to prepare your message. During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+Lorsque vous avez défini le contenu, l’audience et le planning, vous êtes prêt(e) à préparer votre message. Pendant la préparation, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées. Les règles de validation utilisées lors de l’analyse sont décrites dans la section [Documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=fr#validation-process-with-typologies){target="_blank"}.
 
-Follow the steps below: 
+Procédez comme suit :
 
-1. From the delivery dashboard, click the **Prepare** button located in the top right corner and confirm.
+1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **Préparer** dans le coin supérieur droit et confirmez.
 
-    ![](assets/prepare.png)
+   ![](assets/prepare.png)
 
-   The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
+   La progression de la préparation s’affiche. La durée de cette opération varie en fonction de la taille de la population ciblée.
 
-    >[!NOTE]
-    >
-    >You can stop the preparation at any time using the **Stop preparation** button. During the preparation phase, no messages are sent. You can therefore start or stop this without risk of impacting anything.
+   >[!NOTE]
+   >
+   >Vous pouvez arrêter la préparation à tout moment à l’aide du bouton **Arrêter la préparation**. Pendant la phase de préparation, aucun message n&#39;est envoyé. Vous pouvez donc lancer ou annuler cette opération sans aucun risque.
 
-1. When the preparation is finished, check the KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation. 
+1. Une fois la préparation terminée, vérifiez les KPI. Si le nombre de messages à envoyer ne correspond pas à vos attentes, modifiez l’audience et relancez la préparation.
 
-    ![](assets/prepare2.png)
-    
-    Here are the different KPIs displayed:
+   ![](assets/prepare2.png)
 
-    * **Targeted**: the number of recipients targeted
-    * **To deliver**: the number of messages that will be sent 
-    * **To exclude**: the number of messages excluded by a typology rule
+   Voici les KPI qui s’affichent :
 
-1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](delivery-logs.md).
+   * **Ciblés** : le nombre de destinataires ciblés.
+   * **À envoyer** : le nombre de messages qui seront envoyés.
+   * **À exclure** : le nombre de messages exclus par une règle de typologie.
 
-    ![](assets/prepare-logs.png)
+1. Cliquez sur le bouton **Logs** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. Voir à ce propos cette [section](delivery-logs.md).
 
-If the preparation detects a critical error preventing the delivery from being sent, the preparation status appears as failed in the delivery dashboard.
+   ![](assets/prepare-logs.png)
+
+Si la préparation détecte une erreur critique qui empêche l’envoi de la diffusion, le statut de préparation apparaît comme ayant échoué dans le tableau de bord de la diffusion.
 
 ![](assets/prepare-error.png)
 
-If you need to make any changes to your delivery after the preparation, you need to restart the preparation for those changes to be taken into account. 
+Si vous devez modifier la diffusion après la préparation, vous devez relancer la préparation pour que ces modifications soient prises en compte.
 
-Once the preparation is complete with no error, your message is ready to be sent. For more on this, see this [section](#send).
+Une fois la préparation terminée sans erreur, le message est prêt à être envoyé. Voir à ce propos cette [section](#send).
 
-## Send the message{#send}
+## Envoyer le message{#send}
 
-Once the preparation is complete, you can now send your message. This step is only required for messages sent immediately. If the message is scheduled, it is sent at the defined date. 
+Une fois la préparation terminée, vous pouvez envoyer le message. Cette étape n’est nécessaire que pour les messages envoyés immédiatement. Si le message est planifié, il sera envoyé à la date définie.
 
-Follow these steps:
+Procédez comme suit :
 
-1. From the delivery dashboard, click the **Send** button in the top right corner and confirm.
+1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **Envoyer** dans le coin supérieur droit et confirmez.
 
-    ![](assets/send.png)
+   ![](assets/send.png)
 
-1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](delivery-logs.md).
+1. La progression de l’envoi s’affiche. Vérifiez les KPI qui s’affichent. Vous pouvez également consulter les logs. Voir à ce propos cette [section](delivery-logs.md).
 
-    ![](assets/send2.png)
+   ![](assets/send2.png)
 
-    Here are the different KPIs displayed:
+   Voici les KPI qui s’affichent :
 
-    * **Delivered**: the number of messages successfully delivered. The percentage displayed is based on the total number of sent messages.
-    * **Opens**: the number of opened messages. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages.
-    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages.
+   * **Délivrés**: le nombre de messages délivrés avec succès. Le pourcentage affiché est basé sur le nombre total de messages envoyés.
+   * **Ouvertures** : le nombre de messages ouverts. Le pourcentage affiché est le ratio du nombre d&#39;ouvertures distinctes par rapport au nombre de messages délivrés.
+   * **Clics** : le nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages délivrés.
 
-    >[!NOTE]
-    >
-    >The **Opens** and **Clicks** indicators are updated after 5 minutes.  
+   >[!NOTE]
+   >
+   >Le **Ouvertures** et **Clics** Les indicateurs sont mis à jour au bout de 5 minutes.
 
-   You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you cannot resume.
+   Vous pouvez suspendre l’envoi à tout moment, puis reprendre. Si vous arrêtez la diffusion pendant son envoi, vous ne pouvez pas la reprendre.

@@ -1,10 +1,16 @@
 ---
 audience: end-user
-title: Delivery reports
-description: Learn how to access and use delivery reports
+title: Rapports de diffusion
+description: Découvrez comment accéder aux rapports de diffusion et les utiliser
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 84%
+
 ---
-# Delivery reports {#reports}
+
+# Rapports de diffusion {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -14,60 +20,60 @@ detail delivery reports and how to access them
 same content as in v7 (excepted for the navigation that is similar to AJO
 -->
 
-Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
+Adobe Campaign propose plusieurs types de rapports, accessibles pour chaque diffusion. Ces rapports vous permettent de mesurer et de visualiser l’impact et les performances de vos messages dans un tableau de bord intégré.
 
-To display reports, follow these steps:
+Pour afficher les rapports, procédez comme suit :
 
-1. Access your email delivery and click the **Report** button.
+1. Accédez à votre diffusion e-mail et cliquez sur le bouton **Rapport**.
 
-    ![](assets/reporting.png)
+   ![](assets/reporting.png)
 
-1. From the left menu, select a report from the list.
+1. Dans le menu de gauche, sélectionnez un rapport dans la liste.
 
-    ![](assets/reporting2.png){width="70%" align="left"}
+   ![](assets/reporting2.png){width="70%" align="left"}
 
-## Sending
+## Envoi
 
-* **Delivery summary**: This report provides all the main information on the delivery. Target population, Causes of exclusion, Delivery statistics.
+* **Résumé de diffusion** : ce rapport présente l’ensemble des informations principales relatives à la diffusion. Population cible, causes d’exclusion, statistiques de diffusion..
 
-    ![](assets/reporting3.png)
+   ![](assets/reporting3.png)
 
-* **Delivery throughput**: This report contains information on the delivery throughput for a given period. To measure the speed at which the messages are delivered, the criteria are the number of messages sent per hour and the size of the messages (in bits per second). In the example below, the first graph shows the successful deliveries in blue, and the number of erroneous deliveries in orange.
+* **Débit des diffusions** : ce rapport contient des informations sur le débit des diffusions pour une période donnée. Pour mesurer la vitesse à laquelle les messages sont diffusés, les critères sont le nombre de messages envoyés par heure et la taille des messages (en bits par seconde). Dans l’exemple ci-dessous, le premier graphique indique les diffusions réussies en bleu et le nombre de diffusions erronées en orange.
 
-    ![](assets/reporting3bis.png)
+   ![](assets/reporting3bis.png)
 
-* **Broadcast statistics**: This report shows the breakdown by internet domain, of all messages processed and sent, of hard and soft bounces, opens, clicks and unsubscriptions.
+* **Statistiques de diffusion** : ce rapport présente la répartition, par domaine Internet, des messages traités et envoyés, des erreurs hard et soft, des ouvertures, des clics et des désinscriptions.
 
-    ![](assets/reporting4.png)
+   ![](assets/reporting4.png)
 
-* **Non-deliverables and bounces**: This report shows the breakdown of non-deliverables as well as a breakdown of bounces per internet domain.
+* **Echecs et retours**: Ce rapport présente la répartition des messages en échec ainsi qu&#39;une répartition des échecs par domaine Internet.
 
-    ![](assets/reporting5.png)
+   ![](assets/reporting5.png)
 
 ## Tracking
 
-* **Tracking indicators**: This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery. It gives access to delivery and reception statistics, open and click-through rates, generated click streams, web tracking as well as sharing activities to social networks.
+* **Indicateurs de tracking** : ce rapport regroupe les indicateurs-clés permettant de tracker le comportement des destinataires à la réception de la diffusion. Il donne accès aux statistiques d’envoi et de réception, aux taux d’ouverture et de clics, aux flux de clics générés, au tracking web ainsi qu’au partage d’activités sur les réseaux sociaux.
 
-    ![](assets/reporting6.png)
+   ![](assets/reporting6.png)
 
-* **URLs and click streams**: This report shows the list of pages visited following a delivery.
+* **URL et flux de clics** : ce rapport présente la liste des pages visitées suite à une diffusion.
 
-    ![](assets/reporting7.png)
+   ![](assets/reporting7.png)
 
-* **User Activities**: This report shows the breakdown of opens and clicks per half-hour, hour or day, in the form of a chart.
+* **Activités utilisateurs**: Ce rapport présente la répartition des ouvertures et clics par demi-heure, heure ou jour, sous la forme d&#39;un graphique.
 
-    ![](assets/reporting8.png)
+   ![](assets/reporting8.png)
 
-* **Tracking Statistics**: This report provides statistics on opens and clicks.
+* **Statistiques de suivi**: Ce rapport fournit des statistiques sur les ouvertures et les clics.
 
-    ![](assets/reporting9.png)
+   ![](assets/reporting9.png)
 
-* **Breakdown of opens**: This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
+* **Répartition des ouvertures** : ce rapport présente la répartition des ouvertures, par système d’exploitation, par appareil et par navigateur, sur la période concernée. Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. Le second affiche des statistiques relatives uniquement aux ouvertures sur les appareils mobiles.
 
-    ![](assets/reporting10.png)
+   ![](assets/reporting10.png)
 
 ## Hotclicks
 
-This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
+Ce rapport présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. Les liens situés dans les blocs de personnalisation, le lien de désinscription, le lien vers la page miroir et les liens des offres sont comptabilisés dans le total des clics cumulés mais ne sont pas affichés dans le rapport.
 
 ![](assets/reporting11.png)

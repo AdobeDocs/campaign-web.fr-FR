@@ -1,52 +1,57 @@
 ---
 audience: end-user
-user-guide-title: Campaign v8 Web
-title: Adobe Campaign v8 Web Documentation
-description: Campaign v8 Web documentation
-breadcrumb-title: Campaign overview
-title: Campaign v8 Web docs
-hide: yes
+user-guide-title: Campaign v8 Web
+description: Documentation de Campaign v8 Web
+breadcrumb-title: Présentation de Campaign
+title: Documentation de Campaign v8 Web
+hide: true
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 97%
+
 ---
 
-# Adobe Campaign v8 Web documentation {#v8}
 
-+ [Campaign v8 Web documentation](campaign-web-home.md)
-+ What's new? {#whats-new}
-  + [Release notes](rn/release-notes.md)
-  + [Documentation updates](rn/documentation-updates.md)
-+ [Get started](get-started/get-started.md)
-+ [Discover the interface](get-started/user-interface.md)
-+ [Create your first email](email/create-email.md)
-+ Create email content {#content}
-  + [Edit the email content](content/edit-content.md)
-  + Design your email {#design-content}
-    + Start designing your content {#start-design}
-      + [Start from scratch ](content/create-email-content.md)
-      + [Import your email content](content/existing-content.md)
-      + [Code your own content](content/code-content.md)
-    + [Use content components](content/content-components.md)
-    + [Generate the text version](content/text-version-email.md)
-    + [Add a preheader](content/preheader.md)
-    + [Add links and track messages](content/message-tracking.md)    
-  + Style your content {#style}
-    + [Get started with email style](content/get-started-email-style.md)
-    + [Edit background settings](content/backgrounds.md)
-    + [Adjust vertical alignment and padding](content/alignment-and-padding.md)
-    + [Define a style for links](content/styling-links.md)
-    + [Add inline styling attributes](content/inline-styling.md)
-  + [Add personalization](personalization/personalize.md)
-  + [Send offers](content/offers.md)
-+ Select the email audience {#audience}
-  + [Get started with audiences](audience/about-audiences.md)
-  + [Select an audience](audience/add-audience.md)
-  + [Set a control group](audience/control-group.md)
-  + [Define an audience with the rule builder](audience/segment-builder.md)
-+ Preview and test your email {#preview-test}
-  + [About preview and test](preview-test/preview-test.md) 
-  + [Preview email content](preview-test/preview-content.md)
-  + [Send test emails](preview-test/proofs.md)
-+ Send and monitor the email {#monitor}
-  + [Prepare and send an email](monitor/prepare-send.md)
-  + [Monitor delivery logs](monitor/delivery-logs.md)
-  + [Email delivery settings](advanced-settings/delivery-settings.md)
-+ [Reporting](reporting/reports.md)
+# Documentation d’Adobe Campaign v8 Web {#v8}
+
++ [Documentation de Campaign v8 Web](campaign-web-home.md)
++ Nouveautés{#whats-new}
+   + [Notes de mise à jour](rn/release-notes.md)
+   + [Mises à jour de la documentation](rn/documentation-updates.md)
++ [Prise en main](get-started/get-started.md)
++ [Découvrir l’interface](get-started/user-interface.md)
++ [Créer votre premier e-mail](email/create-email.md)
++ Créer le contenu d’un e-mail {#content}
+   + [Modifier le contenu de l’e-mail](content/edit-content.md)
+   + Concevoir un e-mail {#design-content}
+      + Commencer à concevoir le contenu {#start-design}
+         + [Démarrer en partant de zéro ](content/create-email-content.md)
+         + [Importer le contenu des e-mails](content/existing-content.md)
+         + [Coder votre propre contenu](content/code-content.md)
+      + [Utiliser les composants de contenu](content/content-components.md)
+      + [Générer la version texte](content/text-version-email.md)
+      + [Ajouter un pré-titre](content/preheader.md)
+      + [Ajouter des liens et tracker les messages](content/message-tracking.md)
+   + Donner un style à votre contenu {#style}
+      + [Prise en main du style des e-mails](content/get-started-email-style.md)
+      + [Modifier les paramètres d’arrière-plan](content/backgrounds.md)
+      + [Ajuster l’alignement vertical et la marge intérieure](content/alignment-and-padding.md)
+      + [Définir un style pour les liens](content/styling-links.md)
+      + [Ajouter des attributs de style intégrés](content/inline-styling.md)
+   + [Ajout de personnalisation](personalization/personalize.md)
+   + [Envoyer des offres](content/offers.md)
++ Sélectionner l’audience de l’e-mail {#audience}
+   + [Prise en main des audiences](audience/about-audiences.md)
+   + [Sélectionner une audience.](audience/add-audience.md)
+   + [Configurer une population témoin](audience/control-group.md)
+   + [Définir une audience à l’aide du créateur de règles](audience/segment-builder.md)
++ Prévisualiser et tester l’e-mail {#preview-test}
+   + [A propos de l&#39;aperçu et du test](preview-test/preview-test.md)
+   + [Prévisualiser le contenu d’un e-mail](preview-test/preview-content.md)
+   + [Envoyer des e-mails de test](preview-test/proofs.md)
++ Envoyer et surveiller l’e-mail {#monitor}
+   + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
+   + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
+   + [Paramètres de diffusion d’e-mail](advanced-settings/delivery-settings.md)
++ [Créer des rapports](reporting/reports.md)

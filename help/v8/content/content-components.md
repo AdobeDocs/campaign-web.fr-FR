@@ -1,183 +1,189 @@
 ---
 audience: end-user
-title: Use email designer content components
-description: Learn how to use content components in your emails
+title: Utiliser les composants de contenu du Concepteur d’e-mail
+description: Découvrez comment utiliser des composants de contenu dans vos emails.
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '1079'
+ht-degree: 94%
+
 ---
-# Use the Email designer content components {#content-components}
+
+# Utiliser les composants de contenu du Concepteur d’e-mail {#content-components}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un email."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’une page de destination."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un fragment."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a template."
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un modèle."
 
-## Add content components {#add-content-components}
+## Ajouter des composants de contenu {#add-content-components}
 
-To add content components to your email and adjust them to your needs, follow the steps below.
+Pour ajouter des composants de contenu à votre e-mail et les ajuster selon vos besoins, suivez les étapes ci-dessous.
 
-1. In the Email Designer, use an existing content or drag and drop **[!UICONTROL Structure components]** into your empty content to define the layout of your email. [Learn how](create-email-content.md)
+1. Dans le Concepteur d’e-mail, utilisez un contenu existant ou faites glisser et déposez la section **[!UICONTROL Composants de structure]** dans votre contenu vide pour définir la disposition de votre e-mail. [Voici comment procéder](create-email-content.md).
 
-1. To access the **[!UICONTROL Content components]** section, select the corresponding button from the Email Designer left pane.
+1. Pour accéder à la section **[!UICONTROL Composants de contenu]**, sélectionnez le bouton correspondant dans le volet gauche du Concepteur d’e-mail.
 
-    ![](assets/email_designer_content_components.png)
+   ![](assets/email_designer_content_components.png)
 
-1. Drag and drop the content components of your choice inside the relevant structure components.
+1. Faites glisser et déposez les composants de contenu de votre choix dans les composants de structure appropriés.
 
-    ![](assets/email_designer_add_content_components.png)
+   ![](assets/email_designer_add_content_components.png)
 
-    >[!NOTE]
-    >
-    >You can add several components into a single structure component and into each column of a structure component.
+   >[!NOTE]
+   >
+   >Vous pouvez ajouter plusieurs composants dans un seul composant de structure et dans chaque colonne d’un composant de structure.
 
-1. Adjust the styling attributes for each component using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+1. Ajustez les attributs de style de chaque composant à l’aide du volet **[!UICONTROL Paramètres des composants]** sur la droite. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de chaque composant. [En savoir plus sur l’alignement et la marge intérieure](alignment-and-padding.md).
 
-    ![](assets/email_designer_content_components_settings.png)
+   ![](assets/email_designer_content_components_settings.png)
 
-When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
-You can add as many **[!UICONTROL Content components]** as you need inside a **[!UICONTROL Structure component]** which defines the layout of your email.
+Lorsque vous créez le contenu de votre e-mail en partant de zéro, la section **[!UICONTROL Composants de contenu]** vous permet de personnaliser davantage votre e-mail à l’aide des composants bruts que vous pouvez utiliser une fois placés dans un e-mail.
+Vous pouvez ajouter autant de **[!UICONTROL composants de contenu]** que nécessaire dans un **[!UICONTROL composant de structure]**, ce qui permet de définir la disposition de votre e-mail.
 
-## Container {#container}
+## Conteneur {#container}
 
-You can add a simple container inside which you add another content component. This allows you to apply a specific styling to the container, which is different from the component used inside.
+Vous pouvez ajouter un conteneur simple à l’intérieur duquel vous ajoutez un autre composant de contenu. Vous pouvez ainsi appliquer un style spécifique au conteneur, qui est différent du composant utilisé à l’intérieur.
 
-For example, add a **[!UICONTROL Container]** component and then add a [Button](#button) component inside that container. You can use a specific background for the container, and another one for the button.
+Par exemple, ajoutez un composant **[!UICONTROL Conteneur]**, puis ajoutez un composant [Bouton](#button) à l’intérieur de ce conteneur. Vous pouvez utiliser un arrière-plan spécifique pour le conteneur et un autre pour le bouton.
 
 ![](assets/email_designer_container_component.png)
 
-## Button {#buttons}
+## Bouton {#buttons}
 
-Use the **[!UICONTROL Button]** component to insert one or multiple buttons into your email and redirect your email audience to another page.
+Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs boutons dans votre e-mail et rediriger votre audience d’e-mail vers une autre page.
 
-1. From **[!UICONTROL Content components]**, drag and drop the **[!UICONTROL Button]** component into a **[!UICONTROL Structure component]**.
+1. À partir de **[!UICONTROL Composants de contenu]**, faites glisser et déposez le composant **[!UICONTROL Bouton]** dans un **[!UICONTROL composant de structure]**.
 
-    ![](assets/email_designer_13.png)
+   ![](assets/email_designer_13.png)
 
-1. Click your newly added button to personalize the text and to have access to the **[!UICONTROL Components settings]** in the Email Designer right pane.
+1. Cliquez sur votre bouton nouvellement ajouté pour personnaliser le texte et accéder aux **[!UICONTROL Paramètres des composants]** dans le volet droit du Concepteur d’e-mail.
 
-    ![](assets/email_designer_14.png)
+   ![](assets/email_designer_14.png)
 
-1. In the **[!UICONTROL Link]** field, add the URL you want to redirect to when clicking the button.
+1. Dans le champ **[!UICONTROL Lien]**, ajoutez l’URL vers laquelle vous souhaitez rediriger lors d’un clic sur le bouton.
 
-1. Choose how your the content is displayed with the **[!UICONTROL Target]** drop-down list:
+1. Sélectionnez l’affichage du contenu avec la variable **[!UICONTROL Cible]** liste déroulante :
 
-    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
-    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
-    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
-    * **[!UICONTROL Parent]**: opens the link in the parent frame.
-    * **[!UICONTROL Top]**: opens the link in the full body of the window.
+   * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur ou l’utilisatricea cliqué (par défaut).
+   * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
+   * **[!UICONTROL Auto]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur ou l’utilisatrice a cliqué.
+   * **[!UICONTROL Parent]** : ouvre le lien dans le cadre parent.
+   * **[!UICONTROL Haut]** : ouvre le lien dans le corps complet de la fenêtre.
 
-    ![](assets/email_designer_15.png)
+   ![](assets/email_designer_15.png)
 
-1. You can further personalize your button by changing styling attributes such as **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, etc. from the **[!UICONTROL Component settings]** pane.
+1. Vous pouvez personnaliser davantage votre bouton en modifiant les attributs de style, tels que la **[!UICONTROL bordure]**, la **[!UICONTROL taille]**, la **[!UICONTROL marge]**, etc. à partir du volet **[!UICONTROL Paramètres des composants]**.
 
-## Text {#text}
+## Texte {#text}
 
-Use the **[!UICONTROL Text]** component to insert text into your email, and adjust the style (border, size, padding, etc.) using the **[!UICONTROL Component settings]** pane.
+Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajuster le style (bordure, taille, marge intérieure, etc.) en utilisant le volet **[!UICONTROL Paramètres des composants]**.
 
-1. From **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Text]** in a **[!UICONTROL Structure component]**.
+1. À partir des **[!UICONTROL Composants de contenu]**, faites glisser et déposez **[!UICONTROL Texte]** dans un **[!UICONTROL composant de structure]**.
 
-    ![](assets/email_designer_11.png)
+   ![](assets/email_designer_11.png)
 
-1. Click on your newly added component to personalize the text and to have access to the **[!UICONTROL Components Settings]** in the right pane of the email designer.
+1. Cliquez sur votre composant nouvellement ajouté pour personnaliser le texte et accéder aux **[!UICONTROL Paramètres des composants]** dans le volet droit du Concepteur d’e-mail.
 
-1. Change your text with the following options available in the toolbar:
+1. Modifiez votre texte avec les options suivantes disponibles dans la barre d’outils :
 
-    ![](assets/email_designer_27.png)
+   ![](assets/email_designer_27.png)
 
-    * **[!UICONTROL Change text style]**: apply bold, italic, underline or strike through to your text.
-    * **Change alignment**: choose between left, right, center or justified alignment for your text.
-    * **[!UICONTROL Create list]**: add bullet or number list to your text.
-    * **[!UICONTROL Set heading]**: add up to six heading levels to your text.
-    * **Font size**: select the font size of your text in pixels.
-    * **[!UICONTROL Edit image]**: add an image or an asset to your text component.
-    * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
-    * **[!UICONTROL Duplicate]**: add a copy of your text component.
-    * **[!UICONTROL Delete]**: delete the selected text component from your email.
-    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data.
-    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles.
+   * **[!UICONTROL Modifier le style de texte]** : appliquez le style gras, italique, souligné ou barré à votre texte.
+   * **Modifier l’alignement** : sélectionnez l’alignement gauche, droite, centré ou justifié pour votre texte.
+   * **[!UICONTROL Créer une liste]** : ajoutez une liste à puces ou à nombres à votre texte.
+   * **[!UICONTROL Définir un titre]** : ajoutez jusqu’à six niveaux de titre à votre texte.
+   * **Taille de police** : sélectionnez la taille de police de votre texte en pixels.
+   * **[!UICONTROL Modifier l’image]** : ajoutez une image ou une ressource à votre composant de texte.
+   * **[!UICONTROL Afficher le code source]** : affichez le code source de votre texte. Impossible d’effectuer une modification.
+   * **[!UICONTROL Dupliquer]** : ajoutez une copie de votre composant de texte.
+   * **[!UICONTROL Supprimer]** : supprimez le composant de texte sélectionné de votre e-mail.
+   * **[!UICONTROL Ajouter une personnalisation]** : ajoutez des champs de personnalisation pour personnaliser le contenu des données de vos profils.
+   * **[!UICONTROL Activer le contenu conditionnel]** : ajoutez du contenu conditionnel pour adapter le contenu du composant aux profils ciblés.
 
-1. Adjust the other styling attributes such as text color, font family, border, padding, margin, etc. from the **[!UICONTROL Component settings]** pane.
+1. Ajustez les autres attributs de style tels que la couleur du texte, la famille de polices, la bordure, la marge intérieure, la marge, etc. à partir du volet **[!UICONTROL Paramètres des composants]**.
 
-    ![](assets/email_designer_12.png)
+   ![](assets/email_designer_12.png)
 
-## Divider {#divider}
+## Diviseur {#divider}
 
-Use the **[!UICONTROL Divider]** component to insert a dividing line to organize the layout and content of your email.
+Utilisez le composant **[!UICONTROL Diviseur]** pour insérer une ligne de séparation afin d’organiser la disposition et le contenu de l’e-mail.
 
-You can adjust styling attributes such as the line color, style and height from the **[!UICONTROL Component settings]** pane.
+Vous pouvez ajuster les attributs de style, tels que la couleur de la ligne, le style et la hauteur, à partir du volet **[!UICONTROL Paramètres des composants]**.
 
 ![](assets/email_designer_16.png)
 
 ## HTML {#HTML}
 
-Use the **[!UICONTROL HTML]** component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components to reuse some external content.
+Utilisez le composant **[!UICONTROL HTML]** pour copier-coller les différentes parties de votre code HTML existant. Vous pouvez ainsi créer des composants HTML modulaires autonomes afin de réutiliser du contenu externe.
 
-1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL HTML]** component into a **[!UICONTROL Structure component]**.
+1. À partir des **[!UICONTROL Composants de contenu]**, faites glisser et déposez le composant **[!UICONTROL HTML]** dans un **[!UICONTROL composant de structure]**.
 
-    ![](assets/email_designer_22.png)
+   ![](assets/email_designer_22.png)
 
-1. Click on your newly added component, then select **[!UICONTROL Show the source code]** from the contextual toolbar to add your HTML.
+1. Cliquez sur le composant que vous venez d’ajouter, puis sélectionnez **[!UICONTROL Afficher le code source]** dans la barre d’outils contextuelle pour ajouter votre code HTML.
 
-    ![](assets/email_designer_23.png)
+   ![](assets/email_designer_23.png)
 
 >[!NOTE]
 >
->To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into components.
+>Pour rendre un contenu externe compatible avec le Concepteur d’e-mail, Adobe recommande de créer un message en partant de zéro et de copier le contenu de l’e-mail existant dans des composants.
 
 ## Image {#image}
 
-Use the **[!UICONTROL Image]** component to insert an image file from your computer in your email.
+Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de votre ordinateur dans l’e-mail.
 
-1. In **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Image]** in a **[!UICONTROL Structure component]**.
+1. Dans **[!UICONTROL Composants de contenu]**, faites glisser et déposez **[!UICONTROL Image]** dans un **[!UICONTROL composant de structure]**.
 
-    ![](assets/email_designer_9.png)
+   ![](assets/email_designer_9.png)
 
-1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
+1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources.
 
-1. Click your newly added component and set up your image properties using the **[!UICONTROL Components settings]** pane:
+1. Cliquez sur le composant que vous venez d’ajouter et configurez les propriétés de l’image à l’aide du volet **[!UICONTROL Paramètres des composants]** :
 
-    * **[!UICONTROL Image title]** lets you define a title to your image.
-    * **[!UICONTROL Alt text]** lets you define the caption linked to your image. This corresponds to the alt HTML attribute.
+   * **[!UICONTROL Titre de l’image]** permet de définir le titre de l’image.
+   * **[!UICONTROL Texte alternatif]** permet de définir la légende associée à votre image. Cela correspond à l’attribut HTML alternatif.
 
-    ![](assets/email_designer_10.png)
+   ![](assets/email_designer_10.png)
 
-1. Adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content from the **[!UICONTROL Component settings]** pane.
+1. Ajustez les autres attributs de style tels que la marge, la bordure, etc. ou en ajoutant un lien pour rediriger votre audience vers un autre contenu à partir du volet **[!UICONTROL Paramètres des composants]**.
 
 ## Social {#social}
 
-Use the **[!UICONTROL Social]** component to insert links to social media pages into your email content.
+Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des pages de réseaux sociaux dans le contenu de l’e-mail.
 
-1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL Social]** component into a **[!UICONTROL Structure component]**.
+1. À partir des **[!UICONTROL Composants de contenu]**, faites glisser et déposer le composant **[!UICONTROL Social]** dans un composant **[!UICONTROL composant de structure]**.
 
-1. Click your newly added component.
+1. Cliquez sur le composant que vous venez d’ajouter.
 
-1. In the **[!UICONTROL Social]** field of the **[!UICONTROL Components settings]** pane, choose which social media you want to add or remove.
+1. Dans le champ **[!UICONTROL Social]** du volet **[!UICONTROL Paramètres des composants]**, sélectionnez les médias sociaux à ajouter ou à supprimer.
 
-    ![](assets/email_designer_20.png)
+   ![](assets/email_designer_20.png)
 
-1. Choose the size of your icons in the **[!UICONTROL Size of images]** field.
+1. Sélectionnez la taille des icônes dans le champ **[!UICONTROL Taille des images]**.
 
-1. Click on each of your social media icons to configure the **[!UICONTROL URL]** to which your audience is redirected.
+1. Cliquez sur chacune de vos icônes de médias sociaux pour configurer la variable **[!UICONTROL URL]** vers laquelle votre audience est redirigée.
 
-    ![](assets/email_designer_21.png)
+   ![](assets/email_designer_21.png)
 
-1. You can also change the icons of each of your social media if needed in the **[!UICONTROL Image]** field.
+1. Vous pouvez également modifier les icônes de chaque réseau social si nécessaire dans le champ **[!UICONTROL Image]**.
 
-1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Component settings]** pane.
+1. Ajustez les autres attributs de style tels que le style, la marge, la bordure, etc. à partir du volet **[!UICONTROL Paramètres des composants]**.

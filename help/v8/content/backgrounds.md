@@ -1,56 +1,62 @@
 ---
 audience: end-user
-title: Personalize your email background
-description: Learn how to personalize your email background
+title: Personnaliser l’arrière-plan des e-mails
+description: Découvrez comment personnaliser l’arrière-plan des e-mails.
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 96%
+
 ---
-# Personalize your email background {#backgrounds}
+
+# Personnaliser l’arrière-plan des e-mails {#backgrounds}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Background settings"
->abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
+>title="Paramètres d’arrière-plan"
+>abstract="Vous pouvez personnaliser la couleur d’arrière-plan ou l’image d’arrière-plan de votre contenu. Notez que l’image d’arrière-plan n’est pas prise en charge par tous les clients de messagerie."
 
-When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
+Lorsqu&#39;il s&#39;agit de définir des fonds dans le Concepteur d’e-mail, Adobe a les recommandations suivantes :
 
-1. Apply a background color to the body of your email if required by your design.
-1. Usually, set background colors at the column level.
-1. Try not to use background colors on image or text components as they are difficult to manage.
+1. Appliquez une couleur de fond au corps de votre email si votre design le requiert.
+1. En règle générale, définissez les couleurs d’arrière-plan au niveau des colonnes.
+1. Evitez d&#39;utiliser des couleurs de fond sur des composants d&#39;image ou de texte, car elles sont difficiles à gérer.
 
-Below are the available background settings that you can use.
+Vous trouverez ci-dessous les paramètres de fond disponibles.
 
-* Set a **[!UICONTROL Background color]** for the whole email. Make sure you select the body settings in the navigation tree accessible from the left pane.
+* Définissez une **[!UICONTROL Couleur de fond]** pour l&#39;ensemble de l&#39;email. N’oubliez pas de sélectionner les paramètres du corps dans l’arborescence de navigation accessible à partir du volet de gauche.
 
-  ![](assets/background_1.png)
+   ![](assets/background_1.png)
 
-* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
+* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un paramètre différent de la couleur de fond.
 
-  ![](assets/background_2.png)
+   ![](assets/background_2.png)
 
-* Set a different background color for each structure component. Select a structure in the navigation tree on the left pane to apply a specific background color only to that structure.
+* Définissez une couleur de fond différente pour chaque composant de structure. Sélectionnez une structure dans l’arborescence de navigation du volet de gauche afin d’appliquer une couleur d’arrière-plan spécifique uniquement sur cette structure.
 
-  ![](assets/background_3.png)
+   ![](assets/background_3.png)
 
-  >[!NOTE]
-  >
-  >Make sure you do not set a viewport background color as it may hide the structure background colors.
+   >[!NOTE]
+   >
+   >Veillez à ne pas définir de couleur de fond de la fenêtre, car celle-ci peut masquer les couleurs de fond de la structure.
 
-* Set a **[!UICONTROL Background image]** for the content of a structure component.
+* Définissez une **[!UICONTROL Image de fond]** pour le contenu d&#39;un composant de structure.
 
-  ![](assets/background_4.png)
+   ![](assets/background_4.png)
 
-  >[!NOTE]
-  >
-  >Some email programs do not support background images. When not supported, the row background color is used instead. Make sure you select an appropriate fallback background color in case the image cannot be displayed.
+   >[!NOTE]
+   >
+   >Certains programmes de messagerie ne prennent pas en charge les images de fond. Lorsqu’elle n’est pas prise en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
 
-* Set a background color at the column level.
+* Définissez une couleur de fond au niveau des colonnes.
 
-  ![](assets/background_5.png)
+   ![](assets/background_5.png)
 
-  >[!NOTE]
-  >
-  >This is the most common use case. Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
+   >[!NOTE]
+   >
+   >Il s&#39;agit du cas pratique le plus courant. Adobe vous recommande de définir les couleur de fond au niveau des colonnes afin de profiter d&#39;une plus grande flexibilité lors de l&#39;édition de l&#39;ensemble du contenu d&#39;email.
 
-  You can also set a background image at the column level, but this is rarely used.
+   Vous pouvez également définir une image de fond au niveau des colonnes, mais cette option est rarement utilisée.

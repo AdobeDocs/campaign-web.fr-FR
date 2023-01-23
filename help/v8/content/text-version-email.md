@@ -1,35 +1,42 @@
 ---
 audience: end-user
-title: Create the text version of an email
-description: Learn how to create the text version of an email
+title: Créer la version texte d’un e-mail
+description: Découvrez comment créer la version texte d’un e-mail
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 83%
+
 ---
-# Create the text version of an email {#text-version-email}
+
+# Créer la version texte d’un e-mail {#text-version-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
+Nous vous recommandons de créer une version texte du corps de votre e-mail, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 
-By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.
+Par défaut, le Concepteur d’e-mail crée une version **[!UICONTROL Texte brut]** de votre e-mail, y compris les champs de personnalisation. Cette version est automatiquement générée et synchronisée avec la version HTML de votre contenu.
 
-If you prefer using a different content for the plain text version, follow the steps below:
+Si vous préférez utiliser un contenu différent pour la version en texte brut, procédez comme suit :
 
-1. From your email, select the **[!UICONTROL Plain text]** tab.
+1. Dans votre e-mail, sélectionnez l’onglet **[!UICONTROL Texte brut]**.
 
-    ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png)
 
-1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
+1. Utilisez le bouton (bascule) **[!UICONTROL Synchroniser avec le code HTML]** pour désactiver la synchronisation.
 
-    ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png)
 
-1. Click the check mark to confirm your choice.
+1. Cliquez sur la coche pour confirmer votre choix.
 
-    ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png)
 
-1. You can then edit the plain text version as desired.
+1. Vous pouvez ensuite éditer la version en texte brut comme vous le souhaitez.
 
 >[!CAUTION]
 >
->* Changes made in **[!UICONTROL Plain text]** view are not reflected in HTML view.
+>* Les modifications effectuées dans la vue **[!UICONTROL Texte brut]** ne sont pas reflétées dans la vue HTML.
 >
->*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes are lost, and replaced with text content generated from the HTML version.
+>* Si vous réactivez l’événement **[!UICONTROL Synchroniser avec le HTML]** après la mise à jour de votre contenu en texte brut, vos modifications sont perdues et remplacées par du contenu texte généré à partir de la version HTML.
+

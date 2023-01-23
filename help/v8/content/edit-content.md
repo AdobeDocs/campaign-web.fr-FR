@@ -1,60 +1,66 @@
 ---
 audience: end-user
-title: Edit the email content
-description: Learn how to edit the email content in Campaign Web UI
+title: Modifier le contenu de l’e-mail
+description: Découvrez comment éditer le contenu de l'email dans l'interface utilisateur web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 76%
+
 ---
-# Edit the email content {#configure-content}
+
+# Modifier le contenu de l’e-mail {#configure-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Create the email content"
->abstract="With this section, you can create the content for your email and use the Email Designer to give it a polished look."
+>title="Créer le contenu de l’e-mail"
+>abstract="Dans cette section, vous pouvez créer le contenu de votre e-mail et utiliser le concepteur d’e-mail pour peaufiner son aspect."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Email Header"
+>title="En-tête d’e-mail"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Email attachment"
+>title="Pièce jointe d’e-mail"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Tracking options"
+>title="Options de tracking"
 >abstract="TBC"
 
-To start creating the content of an email, click the **[!UICONTROL Edit content]** button from the email creation screen.
+Pour commencer à créer le contenu d’un e-mail, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir de l’écran de création d’e-mail.
 
 ![](assets/edit-content.png)
 
-This screen allows you to define the content of your email and access the Email Designer to design it.
+Cet écran vous permet de définir le contenu de votre e-mail et d’accéder au Concepteur d’e-mail pour le concevoir.
 
 ![](assets/content-dashboard.png)
 
-The steps to define the content of your email are as follows:
+Les étapes de définition du contenu de votre e-mail sont les suivantes :
 
-1. Check the **[!UICONTROL From name]** and **[!UICONTROL From email]** information. These fields are read-only, they are configured in the email template selected when creating the email.
+1. Vérifiez les informations **[!UICONTROL À partir du nom]** et **[!UICONTROL À partir de l’e-mail]**. Ces champs sont en lecture seule et sont configurés dans le modèle d’e-mail sélectionné lors de la création de l’e-mail.
 
-1. Define the email **[!UICONTROL Subject line]**. To do this, type your subject directly into the dedicated field, or open the Expression Editor to define to add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
+1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Pour ce faire, saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter de la personnalisation à l’aide de divers attributs, blocs de contenu ou offres. [Découvrez comment personnaliser le contenu](../personalization/personalize.md)
 
-1. If you want to send offers with your email, select them using the **[!UICONTROL Set up offers]** button. You are then able to insert them into the email using personalization fields. [Learn how to send offers](offers.md)
+1. Si vous souhaitez envoyer des offres par courrier électronique, sélectionnez-les à l’aide du **[!UICONTROL Configuration des offres]** bouton . Vous pouvez ensuite les insérer dans l&#39;email à l&#39;aide de champs de personnalisation. [Découvrez comment envoyer des offres](offers.md)
 
-1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email. Additional information on how to design email content are available in these sections:
+1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’email]** pour structurer et concevoir le contenu de l&#39;email. Des informations supplémentaires sur la conception de contenu d’e-mail sont disponibles dans les sections suivantes :
 
-    * [Learn how to design emails](create-email-content.md)
-    * [Style your content](get-started-email-style.md)
+   * [Découvrez comment concevoir des e-mails](create-email-content.md)
+   * [Donner un style à votre contenu](get-started-email-style.md)
 
-1. If you want to attach a file to the email, click the **[!UICONTROL Add attachment]** button then select one or multiple file(s).
-    
-    To avoid performance issue, it is recommended not to include more than one attachment per email. 
+1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]** puis sélectionnez un ou plusieurs fichiers.
 
-    <!--limitation on size + number of files?-->
+   Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email.
 
-1. By default, tracking is enabled for the delivery. You can disable this option from from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
+   <!--limitation on size + number of files?-->
 
-Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md)
+1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking](message-tracking.md)
+
+Une fois le contenu de votre email défini, utilisez la variable **[!UICONTROL Simulation du contenu]** pour vérifier comment il s’affiche avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail](../preview-test/preview-test.md)

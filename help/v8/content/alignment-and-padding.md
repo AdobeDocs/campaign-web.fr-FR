@@ -1,37 +1,43 @@
 ---
 audience: end-user
-title: Adjust vertical alignment and padding in Email Designer
-description: Learn how to adjust vertical alignment and padding
+title: Ajuster l’alignement vertical et la marge intérieure dans le concepteur d’e-mail
+description: Découvrez comment ajuster l’alignement vertical et la marge intérieure.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 90%
+
 ---
-# Adjust vertical alignment and padding {#alignment-and-padding}
+
+# Ajuster l’alignement vertical et la marge intérieure {#alignment-and-padding}
 
 ![](../assets/do-not-localize/badge.png)
 
-In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
+Dans cet exemple, nous ajustons la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes.
 
-1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
+1. Sélectionnez le composant de structure directement dans l’e-mail ou à l’aide de l’**[!UICONTROL Arborescence de navigation]** disponible dans le volet de gauche.
 
    ![](assets/alignment_1.png)
 
-1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
+1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également le sélectionner dans l’arborescence de structure à gauche.
 
    ![](assets/alignment_2.png)
 
-1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
+1. Les paramètres modifiables pour cette colonne sont affichés dans le menu **[!UICONTROL Paramètres de colonne]** à droite. Ajustez l’**[!UICONTROL Alignement vertical]** à l’aide de la section dédiée.
 
    ![](assets/alignment_3.png)
 
-   For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
+   Par exemple, sélectionnez **[!UICONTROL Bas]**. Le composant de contenu se déplace en bas de la colonne.
 
-1. Under **[!UICONTROL Padding]**, define the top padding inside the column, and set the left and right padding for that column.
+1. Sous **[!UICONTROL Marge intérieure]**, définissez la marge intérieure supérieure à l’intérieur de la colonne, puis définissez la marge intérieure à gauche et à droite de cette colonne.
 
    >[!NOTE]
    >
-   >Click the lock icon to break synchronization between the top/bottom or left/right padding.
+   >Cliquez sur l’icône représentant un verrou pour interrompre la synchronisation entre la marge intérieure supérieure et inférieure ou droite et gauche.
 
    ![](assets/alignment_4.png)
 
-1. Proceed similarly to adjust the other columns' alignment and padding.
+1. Procédez de façon similaire pour ajuster l&#39;alignement et la marge intérieure des autres colonnes.
 
-1. Save your changes.
+1. Enregistrez vos modifications.
