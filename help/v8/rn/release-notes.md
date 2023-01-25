@@ -3,10 +3,10 @@ audience: end-user
 title: Notes de mise à jour de Campaign Web v8
 description: Notes de mise à jour de Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
 
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->Les campagnes cross-canal et les fonctionnalités de gestion des workflows seront disponibles dans la version Bêta.
 
-## Mises à jour de la terminologie
+## Mises à jour de la terminologie{#terminology-updates}
 
 En tant qu’utilisateur ou utilisatrice Campaign existant(e), notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s’appliquent uniquement à l’IU web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
 
@@ -62,3 +59,17 @@ En tant qu’utilisateur ou utilisatrice Campaign existant(e), notez que certain
 * L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer l’analyse, cliquez sur le bouton **Préparer**.
 * L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu**.
 * Les listes sont désormais des **audiences**.
+
+## Limites{#limitations-alpha}
+
+Certaines fonctionnalités clés de Campaign, telles que les campagnes cross-canal et la gestion des workflows, seront disponibles avec la version bêta.
+
+Les restrictions ci-dessous s’appliquent à cette version Alpha :
+
+* Les seuls objets modifiables sont les Diffusions. Les autres sont en lecture seule. Utilisez des filtres pour tous les parcourir.
+* Cette version est conçue pour une campagne par e-mail. Les autres canaux ne sont pas encore pris en charge.
+* L’interface utilisateur d’administration n’est pas disponible.
+* Les mesures de création de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
+* Les KPI du tableau de bord des diffusions sont mis à jour toutes les 5 minutes. - mais la préparation de la diffusion est en temps réel.
+* Les notifications Adobe Experience Cloud et l’aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
+
