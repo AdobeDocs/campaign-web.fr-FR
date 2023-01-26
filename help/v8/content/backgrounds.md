@@ -4,9 +4,9 @@ title: Personnaliser l’arrière-plan des e-mails
 description: Découvrez comment personnaliser l’arrière-plan des e-mails.
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
    >[!NOTE]
    >
-   >Certains programmes de messagerie ne prennent pas en charge les images de fond. Lorsqu’elle n’est pas prise en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
+   >Certains programmes de messagerie ne prennent pas en charge les images de fond. Lorsqu’elles ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
 
 * Définissez une couleur de fond au niveau des colonnes.
 
