@@ -4,9 +4,9 @@ title: Créer la version texte d’un e-mail
 description: Découvrez comment créer la version texte d’un e-mail
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 >
 >* Les modifications effectuées dans la vue **[!UICONTROL Texte brut]** ne sont pas reflétées dans la vue HTML.
 >
->* Si vous réactivez l’événement **[!UICONTROL Synchroniser avec le HTML]** après la mise à jour de votre contenu en texte brut, vos modifications sont perdues et remplacées par du contenu texte généré à partir de la version HTML.
+>* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications sont perdues et remplacées par du contenu texte généré à partir de la version HTML.
 
