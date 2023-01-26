@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Définir une audience à l’aide du créateur de règles
-description: Découvrez comment utiliser le créateur de segments
+description: Découvrez comment utiliser le créateur de segments.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Vous pouvez utiliser la barre de recherche pour rechercher rapidement des élém
 
 ## Zone de travail
 
-La zone de travail est la zone centrale, dans laquelle vous pouvez paramétrer et combiner les règles selon les éléments ajoutés depuis la palette. Pour ajouter une nouvelle règle, faites glisser une vignette depuis la palette et déposez-la sur la zone de travail. Des options spécifiques au contexte peuvent ensuite vous être présentées en fonction du type de données ajouté.
+La zone de travail est la zone centrale, dans laquelle vous pouvez paramétrer et combiner les règles selon les éléments ajoutés depuis la palette. Pour ajouter une nouvelle règle, faites glisser une vignette depuis la palette et déposez-la sur la zone de travail. Des options spécifiques au contexte vous seront ensuite présentées en fonction du type de données ajouté.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -67,7 +67,7 @@ Sur le côté droit, le volet **Propriétés des règles** vous permet d’effec
 
 ## Exemple
 
-Dans cet exemple, nous créons une audience pour cibler tous les clients vivant à Atlanta ou Seattle et nés après 1980.
+Dans cet exemple, nous allons créer une audience pour cibler tous les clients et clientes habitant à Atlanta ou Seattle et nés après 1980.
 
 1. Dans l’onglet **Attributs** de la palette, recherchez le champ **Date de naissance**. Faites glisser la vignette et déposez-la sur la zone de travail.
 
