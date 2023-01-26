@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Paramètres de diffusion d’e-mail
-description: En savoir plus sur les paramètres de diffusion email dans l’interface utilisateur web de Campaign
+description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 ![Version Alpha](../assets/do-not-localize/badge.png)
 
-Ces paramètres sont des **paramètres de diffusion techniques** définis dans le modèle d’e-mail. Ils sont disponibles à partir du **Configuration des paramètres de diffusion** icône disponible lors de l&#39;édition d&#39;une diffusion email.
+Ces paramètres sont des **paramètres de diffusion techniques** définis dans le modèle d’e-mail. Ils sont disponibles à partir de l’icône **Configurer les paramètres de diffusion** disponible lors de la modification de la diffusion d’un e-mail.
 
 ## Paramètres de diffusion d’e-mail {#email-delivery-settings}
 
@@ -53,7 +53,7 @@ Dans le champ **Type de poids**, trois options sont disponibles :
 * **Dépend du destinataire**
 * **Défini dans chaque règle**
 
-Utilisez le champ **Poids de la diffusion** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s&#39;appliquent. Le poids peut être fixe ou calculé au travers d&#39;une formule afin de l&#39;adapter en fonction du destinataire. Par exemple, vous pouvez définir le poids d&#39;une diffusion en fonction des centres d&#39;intérêt d&#39;un destinataire.
+Utilisez le champ **Poids de la diffusion** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Le poids peut être fixe ou calculé au travers d’une formule afin de l’adapter en fonction des destinataires. Par exemple, vous pouvez définir le poids d’une diffusion en fonction des centres d’intérêt d’un(e) destinataire.
 
 
 Utilisez le champ **Mode de diffusion** pour sélectionner le mode d’évaluation de la cible. Trois modes sont disponibles :
@@ -101,7 +101,7 @@ Les paramètres de diffusion sont des paramètres techniques qui s’appliquent 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Nombre maximal de reprises"
->abstract="Si un message échoue en raison d’une erreur temporaire, les reprises sont effectuées jusqu’à la fin de la durée de diffusion."
+>abstract="Si un message est en échec en raison d’une erreur temporaire, les reprises sont effectuées jusqu’à la fin de la durée de diffusion."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
@@ -155,7 +155,7 @@ La page miroir est une page HTML accessible en ligne via un navigateur web et do
 
 Outre le mode par défaut, les options disponibles sont les suivantes :
 
-* **[!UICONTROL Forcer la génération de la page miroir]**: même si aucun lien vers la page miroir n&#39;est inséré dans la diffusion, la page miroir est créée.
+* **[!UICONTROL Forcer la génération de la page miroir]** : même si aucun lien vers la page miroir n’est inséré dans la diffusion, la page miroir est créée.
 * **[!UICONTROL Ne pas générer de page miroir]** : aucune page miroir n&#39;est générée, même si le lien est présent dans la diffusion.
 * **[!UICONTROL Générer une page miroir accessible depuis l&#39;identifiant du message]** : cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion. Pour cela, une fois la diffusion terminée, cliquez sur l&#39;onglet **[!UICONTROL Diffusion]** et sélectionnez la ligne du destinataire dont vous souhaitez visualiser la page miroir. Cliquez ensuite sur le lien **[!UICONTROL Afficher la page miroir de ce message...]**.
 
@@ -169,7 +169,7 @@ Outre le mode par défaut, les options disponibles sont les suivantes :
 
 Les paramètres de tracking sont définis dans la section correspondante. Les options possibles sont les suivantes :
 
-**Limite de validité du suivi**: utilisez cette option pour modifier la durée d&#39;activation du tracking sur les URL.
+**Limite de validité du tracking** : utilisez cette option pour définir la durée d’activation du tracking sur les URL.
 
 **URL de substitution des URL périmées** : utilisez cette option pour renseigner une URL vers une page web de secours. Elle s’affiche après expiration du tracking.
 
@@ -183,8 +183,8 @@ Vous pouvez définir les paramètres d’exclusion dans cette section. Les optio
 
 * L’option **Conserver les adresses placées en quarantaine** permet de tenir à l’écart de la cible les profils dont l’adresse ne répond pas.
 
-Vous pouvez également personnaliser le nom des emails de test.
+Vous pouvez également personnaliser le nom des e-mails de test.
 
-Utilisez la variable **Conserver le code de diffusion pour le BAT** pour associer à l&#39;email de test le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte.
+Utilisez l’option **Conserver le code de diffusion pour le BAT** pour associer à l’e-mail de test le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte.
 
-Par défaut, l’objet de l’email de test est précédé du préfixe ‘BAT #’, où # correspond au numéro de l’email de test. Vous pouvez modifier ce préfixe dans la variable **Préfixe d’étiquette** champ .
+Par défaut, l’objet de l’e-mail de test est précédé du préfixe « BAT # », où # correspond au numéro de l’e-mail de test. Vous pouvez modifier ce préfixe dans le champ **Préfixe de libellé**.
