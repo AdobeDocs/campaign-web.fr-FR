@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Tester le rendu des e-mails
-description: Découvrez comment tester le rendu de vos emails dans l’interface utilisateur web de Campaign
+description: Découvrez comment tester le rendu de vos e-mails dans l’interface utilisateur web de Campaign.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -14,10 +14,9 @@ ht-degree: 75%
 
 ![](../assets/do-not-localize/badge.png)
 
-Avant d&#39;envoyer votre email, vérifiez que l&#39;affichage de votre message est optimal pour les destinataires sur divers clients web, webmails et appareils.
+Avant d’envoyer votre e-mail, vérifiez que l’affichage de votre message est optimal pour les destinataires sur divers clients web, messageries web et appareils.
 
-Pour cela, Adobe Campaign permet de prévisualiser le message envoyé dans les différents contextes de réception et de vérifier la compatibilité sur les principaux postes de travail et applications (messagerie web, service de
-messagerie, mobile, etc.).
+Pour cela, Adobe Campaign permet de prévisualiser le message envoyé dans les différents contextes de réception et de vérifier la compatibilité sur les principaux postes de travail et applications (messagerie web, service de messagerie, mobile, etc.).
 
 Pour tester le rendu des e-mails, procédez comme suit :
 
