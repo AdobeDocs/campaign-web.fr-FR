@@ -4,9 +4,9 @@ title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de l’e-mail à partir des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
-1. Cliquez sur le bouton **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL de votre contenu qui doivent être suivies. Vous pouvez modifier le **[!UICONTROL Type de tracking]** ou le **[!UICONTROL Libellé]**, ainsi qu’ajouter des **[!UICONTROL Catégories]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md).
+1. Cliquez sur l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui doivent être trackées. Vous pouvez modifier le **[!UICONTROL Type de tracking]** ou le **[!UICONTROL Libellé]**, ainsi qu’ajouter des **[!UICONTROL Catégories]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md).
 
    ![](assets/email_designer_7.png)
 
@@ -97,7 +97,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
    >[!CAUTION]
    >
-   >Vous ne pouvez pas revenir au concepteur visuel de cet email après avoir basculé vers l’éditeur de code.
+   >Vous ne pouvez pas revenir au concepteur visuel de cet e-mail après avoir basculé vers l’éditeur de code.
 
 1. Une fois que votre contenu est prêt, cliquez sur **[!UICONTROL Simuler du contenu]** pour vérifier le rendu de l’e-mail. Vous pouvez choisir la vue de bureau ou mobile. [En savoir plus sur la prévisualisation des e-mails](../preview-test/preview-test.md).
 
