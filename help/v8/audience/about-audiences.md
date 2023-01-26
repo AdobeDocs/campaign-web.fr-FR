@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Prise en main des audiences
-description: Découvrez comment utiliser les audiences dans l’interface utilisateur web de Campaign
+description: Découvrez comment utiliser les audiences dans l’interface utilisateur web de Campaign.
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Dans cette section, découvrez comment définir l’audience de l’email. L&#39;audience est la cible principale de votre diffusion : les destinataires qui reçoivent l&#39;email. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. Consultez cette [section](../email/create-email.md).
+Dans cette section, découvrez comment définir l’audience de l’e-mail. L’audience est la cible principale de votre diffusion : les destinataires de l’e-mail. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. Consultez cette [section](../email/create-email.md).
 
 Pour définir l’audience, vous pouvez :
 
