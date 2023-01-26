@@ -4,9 +4,9 @@ title: Définir un style pour les liens
 description: Découvrez comment définir un style pour les liens.
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
    ![](assets/link_1.png)
 
-1. Choisissez la manière dont votre audience est redirigée avec la variable **[!UICONTROL Cible]** menu déroulant :
+1. Choisissez la manière de rediriger votre audience avec la liste déroulante **[!UICONTROL Cible]** :
 
    * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur ou l’utilisatricea cliqué (par défaut).
    * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
