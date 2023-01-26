@@ -6,9 +6,9 @@ breadcrumb-title: Présentation de Campaign
 title: Documentation de Campaign v8 Web
 hide: true
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 97%
       + [Ajuster l’alignement vertical et la marge intérieure](content/alignment-and-padding.md)
       + [Définir un style pour les liens](content/styling-links.md)
       + [Ajouter des attributs de style intégrés](content/inline-styling.md)
-   + [Ajout de personnalisation](personalization/personalize.md)
+   + [Ajouter de la personnalisation](personalization/personalize.md)
    + [Envoyer des offres](content/offers.md)
 + Sélectionner l’audience de l’e-mail {#audience}
    + [Prise en main des audiences](audience/about-audiences.md)
-   + [Sélectionner une audience.](audience/add-audience.md)
+   + [Sélectionner une audience](audience/add-audience.md)
    + [Configurer une population témoin](audience/control-group.md)
    + [Définir une audience à l’aide du créateur de règles](audience/segment-builder.md)
 + Prévisualiser et tester l’e-mail {#preview-test}
-   + [A propos de l&#39;aperçu et du test](preview-test/preview-test.md)
+   + [À propos de la prévisualisation et du test](preview-test/preview-test.md)
    + [Prévisualiser le contenu d’un e-mail](preview-test/preview-content.md)
    + [Envoyer des e-mails de test](preview-test/proofs.md)
 + Envoyer et surveiller l’e-mail {#monitor}
