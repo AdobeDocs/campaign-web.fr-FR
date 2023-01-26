@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Préparer et envoyer un e-mail
-description: Découvrez comment préparer et envoyer un email avec l’interface utilisateur web de Campaign
+description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ send also KPIs
 
 ## Préparer l’envoi{#prepare}
 
-Lorsque vous avez défini le contenu, l’audience et le planning, vous êtes prêt(e) à préparer votre message. Pendant la préparation, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées. Les règles de validation utilisées lors de l’analyse sont décrites dans la section [Documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=fr#validation-process-with-typologies){target="_blank"}.
+Lorsque vous avez défini le contenu, l’audience et le planning, vous êtes prêt(e) à préparer votre message. Pendant la préparation, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées. Les règles de validation utilisées pendant l’analyse sont décrites dans la [documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=fr#validation-process-with-typologies){target="_blank"}.
 
 Procédez comme suit :
 
@@ -86,12 +86,12 @@ Procédez comme suit :
 
    Voici les KPI qui s’affichent :
 
-   * **Délivrés**: le nombre de messages délivrés avec succès. Le pourcentage affiché est basé sur le nombre total de messages envoyés.
-   * **Ouvertures** : le nombre de messages ouverts. Le pourcentage affiché est le ratio du nombre d&#39;ouvertures distinctes par rapport au nombre de messages délivrés.
-   * **Clics** : le nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages délivrés.
+   * **Diffusés** : le nombre de messages envoyés avec succès. Le pourcentage qui affiché est basé sur le nombre total de messages envoyés.
+   * **Ouvertures** : le nombre de messages ouverts. Le pourcentage affiché est le ratio du nombre d’ouvertures distinctes par rapport au nombre de messages diffusés.
+   * **Clics** : le nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages diffusés.
 
    >[!NOTE]
    >
-   >Le **Ouvertures** et **Clics** Les indicateurs sont mis à jour au bout de 5 minutes.
+   >Les indicateurs **Ouvertures** et **Clics** sont mis à jour au bout de 5 minutes.
 
    Vous pouvez suspendre l’envoi à tout moment, puis reprendre. Si vous arrêtez la diffusion pendant son envoi, vous ne pouvez pas la reprendre.
