@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Prise en main de l’interface web de Campaign v8
-description: Prise en main de l’interface web de Campaign v8
+title: Prise en main de Campaign v8 Web
+description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Prise en main de l’interface web de Campaign v8 {#get-started}
+# Prise en main de Campaign v8 Web {#get-started}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -30,12 +30,12 @@ only existing customers
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.
 
-Initialement disponible uniquement par l’intermédiaire d’un [console cliente](#ac-client), Campaign fournit désormais une nouvelle interface utilisateur web avec une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
+Initialement uniquement accessible par le biais d’une [console cliente](#ac-client) riche, la nouvelle interface utilisateur web de Campaign offre une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
 
 ![](assets/home.png)
 
-Cette nouvelle interface utilisateur répond tout d’abord aux besoins de la fonction **professionnel de l&#39;entreprise** - toutes les tâches d’administration standard ne sont pas disponibles dans cette première version, mais seront traitées dans les versions suivantes. Notez que toutes les fonctionnalités ou options disponibles dans la console cliente ne sont pas disponibles pour l’instant dans la nouvelle interface utilisateur. De nouveaux cas d’utilisation, options et fonctionnalités seront disponibles dans les versions ultérieures.
+Cette nouvelle interface utilisateur répond tout d’abord aux besoins des **professionnels et professionnelles**, car toutes les tâches d’administration standard ne sont pas disponibles dans cette première version. Elles seront intégrées dans les versions ultérieures. Notez que toutes les fonctionnalités ou options disponibles dans la console cliente ne sont pas disponibles pour l’instant dans la nouvelle interface utilisateur. De nouveaux cas d’utilisation, options et fonctionnalités seront disponibles dans les versions ultérieures.
 
 Si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas disponible dans l’interface utilisateur web, vous pouvez utiliser la [console cliente](#ac-client).
 

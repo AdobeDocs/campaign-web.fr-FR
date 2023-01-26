@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
 workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -98,7 +98,7 @@ Navtree view depends on permissions (same as console).
 
 * **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Les modèles de diffusion sont également disponibles en lecture seule. Vous pouvez utiliser la console cliente pour les modifier. Consultez cette [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=fr){target="_blank"}.
 
-   Utilisez la variable **Autres actions** pour supprimer ou dupliquer une diffusion.
+   Utilisez le bouton **Autres actions** pour supprimer ou dupliquer une diffusion.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
@@ -207,7 +207,7 @@ Le Web de Campaign v8 est actuellement disponible dans les langues suivantes :
 
 La langue de votre interface par défaut est déterminée par la langue préférée spécifiée dans votre profil utilisateur.
 
-Pour changer de langue :
+Pour modifier votre langue :
 
 1. Cliquez sur l’icône de votre profil, en haut à droite, puis sélectionnez **Préférences**.
 
