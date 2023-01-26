@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Rapports de diffusion
-description: Découvrez comment accéder aux rapports de diffusion et les utiliser
+description: Découvrez comment accéder aux rapports de diffusion et les utiliser.
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Pour afficher les rapports, procédez comme suit :
 
    ![](assets/reporting4.png)
 
-* **Echecs et retours**: Ce rapport présente la répartition des messages en échec ainsi qu&#39;une répartition des échecs par domaine Internet.
+* **Échecs et retours** : ce rapport présente la répartition des messages en échec et la répartition des retours par domaine Internet.
 
    ![](assets/reporting5.png)
 
@@ -60,11 +60,11 @@ Pour afficher les rapports, procédez comme suit :
 
    ![](assets/reporting7.png)
 
-* **Activités utilisateurs**: Ce rapport présente la répartition des ouvertures et clics par demi-heure, heure ou jour, sous la forme d&#39;un graphique.
+* **Activités utilisateurs** : ce rapport présente la répartition des ouvertures et des clics, par demi-heure, par heure ou par jour, sous la forme d’un graphique.
 
    ![](assets/reporting8.png)
 
-* **Statistiques de suivi**: Ce rapport fournit des statistiques sur les ouvertures et les clics.
+* **Statistiques de tracking** : ce rapport présente les statistiques des ouvertures et des clics.
 
    ![](assets/reporting9.png)
 
