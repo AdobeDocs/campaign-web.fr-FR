@@ -3,10 +3,10 @@ audience: end-user
 title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 91%
 
 ---
 
@@ -72,6 +72,22 @@ Une fois la préparation terminée sans erreur, le message est prêt à être en
 
 ## Envoyer le message{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Delivrés"
+>abstract="Le nombre de messages délivrés avec succès. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage qui affiché est basé sur le nombre total de messages envoyés."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Ouvertures"
+>abstract="Nombre de messages ouverts. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre d’ouvertures distinctes par rapport au nombre de messages diffusés."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Clics"
+>abstract="Nombre de destinataires ayant cliqué au moins une fois dans l’email. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages diffusés."
+
+
 Une fois la préparation terminée, vous pouvez envoyer le message. Cette étape n’est nécessaire que pour les messages envoyés immédiatement. Si le message est planifié, il sera envoyé à la date définie.
 
 Procédez comme suit :
@@ -92,6 +108,6 @@ Procédez comme suit :
 
    >[!NOTE]
    >
-   >Les indicateurs **Ouvertures** et **Clics** sont mis à jour au bout de 5 minutes.
+   >Tous les indicateurs sont mis à jour toutes les 5 minutes après le démarrage de la diffusion. Les indicateurs de préparation des diffusions sont en temps réel.
 
    Vous pouvez suspendre l’envoi à tout moment, puis reprendre. Si vous arrêtez la diffusion pendant son envoi, vous ne pouvez pas la reprendre.
