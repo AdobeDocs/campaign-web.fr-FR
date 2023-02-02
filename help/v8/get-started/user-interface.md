@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -178,16 +178,16 @@ Un guide d’intégration est également disponible pour vous aider à commencer
 
 ## Navigateurs pris en charge {#browsers}
 
-Campaign v8 Web est conçu pour fonctionner de manière optimale dans la dernière version de Google Chrome, Safari et Microsoft Edge. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou d’autres navigateurs.
+Campaign v8 Web est conçu pour fonctionner de manière optimale dans la dernière version de Google Chrome, Safari et Microsoft Edge. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou d’autres navigateurs.
 
-## Préférences linguistiques {#language-pref}
+## Préférences de langue {#language-pref}
 
-Le Web de Campaign v8 est actuellement disponible dans les langues suivantes :
+Campaign v8 Web est actuellement disponible dans les langues suivantes :
 
 <table>
 <tr>
 <td>
-<p>Anglais (US) - EN-US</p>
+<p>Anglais (États-Unis) - EN-US</p>
 <p>Français - FR</p>
 <p>Allemand - DE</p>
 <p>Italien - IT</p>
@@ -207,13 +207,13 @@ Le Web de Campaign v8 est actuellement disponible dans les langues suivantes :
 
 La langue de votre interface par défaut est déterminée par la langue préférée spécifiée dans votre profil utilisateur.
 
-Pour modifier votre langue :
+Pour changer de langue :
 
 1. Cliquez sur l’icône de votre profil, en haut à droite, puis sélectionnez **Préférences**.
 
    ![](assets/preferences.png){width="70%" align="left"}
 
-1. Cliquez ensuite sur la langue affichée sous votre adresse email.
+1. Cliquez ensuite sur la langue affichée sous votre adresse e-mail.
 
    ![](assets/preferences2.png)
 
