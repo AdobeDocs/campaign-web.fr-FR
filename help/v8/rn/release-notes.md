@@ -4,9 +4,9 @@ title: Notes de mise à jour de Campaign Web v8
 description: Notes de mise à jour de Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -64,12 +64,12 @@ En tant qu’utilisateur ou utilisatrice Campaign existant(e), notez que certain
 
 Certaines fonctionnalités clés de Campaign, telles que les campagnes cross-canal et la gestion des workflows, seront disponibles avec la version bêta.
 
-Les restrictions ci-dessous s’appliquent à cette version Alpha :
+Les restrictions ci-dessous s’appliquent à cette version Alpha :
 
-* Les seuls objets modifiables sont les Diffusions. Les autres sont en lecture seule. Utilisez des filtres pour tous les parcourir.
-* Cette version est conçue pour une campagne par e-mail. Les autres canaux ne sont pas encore pris en charge.
+* Les seuls objets modifiables sont les diffusions. Les autres sont en lecture seule. Utilisez des filtres pour tous les parcourir.
+* Cette version est conçue pour une campagne par e-mail ponctuelle. Les autres canaux ne sont pas encore pris en charge.
 * L’interface utilisateur d’administration n’est pas disponible.
-* Les mesures de création de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
-* Les KPI du tableau de bord des diffusions sont mis à jour toutes les 5 minutes. - mais la préparation de la diffusion est en temps réel.
-* Les notifications Adobe Experience Cloud et l’aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
+* Les mesures de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
+* Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes.  - mais la préparation de la diffusion est en temps réel.
+* Les notifications d’Adobe Experience Cloud et l’aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
 
