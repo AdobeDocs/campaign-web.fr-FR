@@ -10,14 +10,14 @@ ht-degree: 91%
 
 ---
 
-# Préparer et envoyer votre e-mail {#prepare-send}
+# Préparation et envoi de votre e-mail {#prepare-send}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Préparer et envoyer votre e-mail"
->abstract="Découvrez comment préparer un e-mail et comment envoyer des KPI."
+>title="Préparation et envoi de votre e-mail"
+>abstract="Découvrez comment préparer un e-mail et apprenez-en davantage sur les KPI d’envoi."
 
 <!--
 
