@@ -4,7 +4,7 @@ title: Rapports de diffusion
 description: Découvrez comment accéder aux rapports de diffusion et les utiliser.
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
 ht-degree: 100%
 
