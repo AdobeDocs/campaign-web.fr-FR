@@ -4,7 +4,7 @@ title: Tester le rendu des e-mails
 description: Découvrez comment tester le rendu de vos e-mails dans l’interface utilisateur web de Campaign.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
 ht-degree: 100%
 
