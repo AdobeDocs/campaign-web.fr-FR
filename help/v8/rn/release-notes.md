@@ -52,7 +52,7 @@ add info somewhere to remind users that
 
 ## Mises à jour de la terminologie{#terminology-updates}
 
-En tant qu’utilisateur ou utilisatrice Campaign existant(e), notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s’appliquent uniquement à l’IU web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
+En tant qu’utilisateur ou utilisatrice de Campaign, notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s’appliquent uniquement à l’IU web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
 
 * Les BAT sont maintenant des **e-mails de test** : pour envoyer un BAT, utilisez le bouton **Tester** dans l’IU de diffusion par e-mail. La cible de la cible des BAT s’appelle désormais **Profils de test**.
 * Les adresses de contrôle sont désormais utilisées comme **Profils de test** : envoyez l’e-mail de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données.
@@ -70,6 +70,6 @@ Les restrictions ci-dessous s’appliquent à cette version Alpha :
 * Cette version est conçue pour une campagne par e-mail ponctuelle. Les autres canaux ne sont pas encore pris en charge.
 * L’interface utilisateur d’administration n’est pas disponible.
 * Les mesures de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
-* Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes.  - mais la préparation de la diffusion est en temps réel.
+* Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes. - mais la préparation de la diffusion est en temps réel.
 * Les notifications d’Adobe Experience Cloud et l’aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
 
