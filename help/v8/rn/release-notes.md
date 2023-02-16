@@ -4,7 +4,7 @@ title: Notes de mise à jour de Campaign Web v8
 description: Notes de mise à jour de Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
