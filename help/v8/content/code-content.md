@@ -4,7 +4,7 @@ title: Coder votre propre contenu d’e-mail
 description: Découvrez comment coder votre propre contenu d’e-mail.
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 
