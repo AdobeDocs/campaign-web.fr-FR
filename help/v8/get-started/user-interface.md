@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -237,17 +237,17 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="Résumé du rapport SMS"
+>title="Synthèse du rapport SMS"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Résumé du rapport push"
+>title="Synthèse du rapport des notifications push"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
 >id="acw_import_from_a_file"
->title="Importation d’une audience à partir d’un fichier"
+>title="Importer une audience à partir d’un fichier"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
