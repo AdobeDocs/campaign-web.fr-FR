@@ -4,9 +4,9 @@ title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -74,18 +74,18 @@ Une fois la préparation terminée sans erreur, le message est prêt à être en
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
->title="Delivrés"
->abstract="Le nombre de messages délivrés avec succès. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage qui affiché est basé sur le nombre total de messages envoyés."
+>title="Diffusés"
+>abstract="Le nombre de messages envoyés avec succès. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est basé sur le nombre total de messages envoyés."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Ouvertures"
->abstract="Nombre de messages ouverts. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre d’ouvertures distinctes par rapport au nombre de messages diffusés."
+>abstract="Le nombre de messages ouverts. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre d’ouvertures distinctes par rapport au nombre de messages diffusés."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Clics"
->abstract="Nombre de destinataires ayant cliqué au moins une fois dans l’email. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages diffusés."
+>abstract="Le nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages diffusés."
 
 
 Une fois la préparation terminée, vous pouvez envoyer le message. Cette étape n’est nécessaire que pour les messages envoyés immédiatement. Si le message est planifié, il sera envoyé à la date définie.
@@ -108,6 +108,6 @@ Procédez comme suit :
 
    >[!NOTE]
    >
-   >Tous les indicateurs sont mis à jour toutes les 5 minutes après le démarrage de la diffusion. Les indicateurs de préparation des diffusions sont en temps réel.
+   >Les indicateurs sont mis à jour toutes les 5 minutes après le début de la diffusion. Les indicateurs de préparation de diffusion sont exprimés en temps réel.
 
    Vous pouvez suspendre l’envoi à tout moment, puis reprendre. Si vous arrêtez la diffusion pendant son envoi, vous ne pouvez pas la reprendre.
