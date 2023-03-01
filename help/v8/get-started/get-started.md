@@ -4,9 +4,9 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d3cbac2dfe1f5a0a6f1d79b2671e6c0a07efa156
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ only existing customers
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Prise en main"
->abstract="Découvrez les principales fonctionnalités, l’interface utilisateur et les directives globales."
+>abstract="Découvrez les principales fonctionnalités, l’interface utilisateur et quelques conseils généraux."
 
 >[!NOTE]
 >
