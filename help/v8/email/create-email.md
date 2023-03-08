@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
-workflow-type: ht
-source-wordcount: '1244'
-ht-degree: 100%
+source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 85%
 
 ---
 
@@ -32,9 +32,9 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
 >title="Propriétés de l’e-mail"
 >abstract="Les propriétés sont les paramètres de diffusion courants qui vous permettent de nommer et de classer votre diffusion. Si votre diffusion est basée sur un schéma étendu défini dans la console Adobe Campaign v8, des champs spécifiques d’**Options personnalisées** sont disponibles."
 
-1. Pour créer une diffusion, accédez au menu **[!UICONTROL Diffusions]** et sélectionnez **[!UICONTROL E-mail]** comme canal.
+1. Pour créer une diffusion, accédez au **[!UICONTROL Diffusions]** sur le rail de gauche, puis cliquez sur le  **[!UICONTROL Créer une diffusion]** bouton .
 
-1. Sélectionnez le modèle que vous souhaitez utiliser, puis cliquez sur **[!UICONTROL Créer une diffusion]**.
+1. Sélectionner **[!UICONTROL Email]** comme canal et choisissez un modèle.
 
    >[!NOTE]
    >
@@ -42,7 +42,8 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
 
    ![](assets/channel-template.png)
 
-1. Indiquez un libellé pour l’e-mail et configurez les options supplémentaires en fonction de vos besoins :
+1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
+1. Saisissez un libellé pour la diffusion et configurez les options supplémentaires en fonction de vos besoins :
 
    * **[!UICONTROL Nom interne]** : attribuez un identifiant unique à la diffusion,
    * **[!UICONTROL Dossier]** : stockez la diffusion dans un dossier spécifique,
@@ -65,11 +66,11 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
 >title="Conception du contenu de votre e-mail"
 >abstract="Découvrez comment utiliser le concepteur d’e-mail"
 
-Dans ce cas d’utilisation, vous utilisez un modèle prédéfini pour concevoir votre e-mail.
-
 Des informations détaillées sur la configuration du contenu d’un e-mail sont disponibles dans [cette section](../content/edit-content.md).
 
-1. Pour commencer à créer le contenu d’e-mail, cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
+Dans ce cas d’utilisation, vous utilisez un modèle prédéfini pour concevoir votre e-mail.
+
+1. Pour commencer à créer le contenu de l&#39;email, ouvrez votre diffusion email et cliquez sur le bouton **[!UICONTROL Modifier le contenu]** bouton .
 
    Vous accédez ainsi à une interface dédiée dans laquelle vous pouvez configurer le contenu de l’e-mail et le concevoir à l’aide du concepteur d’e-mail.
 
@@ -79,7 +80,7 @@ Des informations détaillées sur la configuration du contenu d’un e-mail sont
 
    ![](assets/subject-line.png)
 
-1. Pour concevoir le corps de l’e-mail, cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]**.
+1. Pour concevoir le contenu de l&#39;email, cliquez sur le bouton **[!UICONTROL Modifier le corps de l’email]** bouton .
 
    Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, utilisez un modèle de conception prédéfini.
 
@@ -135,9 +136,9 @@ Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante. 
 >title="Planifier l’envoi"
 >abstract="Définissez la date et l’heure exactes de votre envoi. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture."
 
-Pour planifier l’envoi de l’e-mail, cliquez sur **[!UICONTROL Activer]**, puis indiquez la date et l’heure que vous souhaitez pour l’envoi.
+Pour planifier l’envoi de l’email, ouvrez votre diffusion email et accédez au **Planification** . Utilisez la variable **[!UICONTROL Activation de la planification]** Activez-la et définissez la date et l’heure d’envoi. Une fois la diffusion envoyée, l&#39;envoi effectif démarre à la date de contact que vous avez définie.
 
-Par défaut, l’option **[!UICONTROL Confirmer avant l’envoi]** est activée, ce qui nécessite de confirmer l’envoi avant que l’e-mail ne soit envoyé à la date et à l’heure planifiées. Si vous souhaitez envoyer automatiquement l’e-mail à la date et l’heure planifiées, vous pouvez désactiver cette option.
+Par défaut, la variable **[!UICONTROL Activer la confirmation avant envoi]** est activée. Cette option nécessite de confirmer l’envoi avant que l’email ne soit envoyé à la date et à l’heure planifiées. Si vous devez envoyer l&#39;email automatiquement à la date et à l&#39;heure planifiées, vous pouvez désactiver cette option.
 
 ![](assets/schedule.png)
 
@@ -149,7 +150,7 @@ Dans ce cas d’utilisation, vous prévisualisez l’e-mail et envoyez des versi
 
 Des informations supplémentaires sur la prévisualisation et le test des e-mails sont disponibles dans [cette section](../preview-test/preview-test.md).
 
-1. Pour vérifier et envoyer l’e-mail, cliquez sur **[!UICONTROL Vérifier et envoyer]**. Un aperçu de votre e-mail s’affiche, ainsi que toutes les propriétés, l’audience et le planning configurés. Vous pouvez modifier chacun de ces éléments en cliquant sur le bouton Modifier.
+1. Pour vérifier votre email, cliquez sur **[!UICONTROL Vérifier et envoyer]**. Un aperçu de votre e-mail s’affiche, ainsi que toutes les propriétés, l’audience et le planning configurés. Vous pouvez modifier chacun de ces éléments en cliquant sur le bouton Modifier.
 
 1. Pour prévisualiser l’e-mail et envoyer les versions de test, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
