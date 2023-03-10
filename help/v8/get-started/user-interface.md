@@ -168,7 +168,7 @@ Vous pouvez trier les éléments de la liste en cliquant sur l’en-tête d’un
 
 ## Aide contextuelle et guide d’intégration
 
-Une aide contextuelle est disponible dans l’interface. Lorsque cette option est disponible, cliquez sur l’icône **.Icône** pour afficher des informations d’aide et des liens vers une documentation connexe.
+Une aide contextuelle est disponible dans l’interface. Lorsquʼelle est disponible, cliquez sur l&#39;icône **?** pour afficher les informations dʼassistance et les liens des documents connexes.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
