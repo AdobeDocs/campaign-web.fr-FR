@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
+source-git-commit: a61b1322ef277ab1707ef8f81009e3d344b1fd5a
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 100%
+source-wordcount: '1339'
+ht-degree: 99%
 
 ---
 
@@ -263,4 +263,19 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Modèle de notification push"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Propriétés de création de campagne"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Planning de création de campagne"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Attributs avancés du créateur de règles"
 >abstract="À déterminer"
