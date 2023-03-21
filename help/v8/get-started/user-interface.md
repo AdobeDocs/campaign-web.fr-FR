@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a61b1322ef277ab1707ef8f81009e3d344b1fd5a
+source-git-commit: b51059b7fc5166dcd0218ae2b227ea9c703a65a5
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 99%
+source-wordcount: '1345'
+ht-degree: 98%
 
 ---
 
@@ -278,4 +278,14 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Attributs avancés du créateur de règles"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Mesures envoyées"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Mesures des erreurs"
 >abstract="À déterminer"
