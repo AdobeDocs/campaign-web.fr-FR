@@ -3,9 +3,9 @@ audience: end-user
 title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Pour créer une population témoin, cliquez sur le bouton **[!UICONTROL Définir
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extraire à partir de la cible"
->abstract="TBC"
+>abstract="Pour définir une population témoin, vous pouvez choisir d’extraire, de manière aléatoire ou selon un tri, un pourcentage ou un nombre fixe de profils de la population cible."
 
 Pour définir une population témoin, vous pouvez choisir d’extraire, de manière aléatoire ou selon un tri, un pourcentage ou un nombre fixe de profils de la population cible.
 
@@ -79,7 +79,7 @@ Pour plus d’informations sur les logs de diffusion, consultez [cette section](
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Population supplémentaire"
->abstract="TBC"
+>abstract="Vous pouvez également définir une population témoin en excluant une population spécifique de la cible. Pour cela, vous pouvez utilisez une audience existante ou définir une requête."
 
 Vous pouvez également définir une population témoin en excluant une population spécifique de la cible. Pour cela, vous pouvez utilisez une audience existante ou définir une requête.
 

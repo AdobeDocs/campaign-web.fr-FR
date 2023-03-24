@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 84%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="En-tête d’e-mail"
->abstract="TBC"
+>abstract="Dans cette section, vous pouvez contrôler les valeurs De nom et De courrier électronique définies dans le modèle de courrier électronique. Le champ Objet peut être personnalisé à l’aide de l’éditeur d’expression."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Pièce jointe d’e-mail"
->abstract="TBC"
+>abstract="Sélectionnez un ou plusieurs fichiers à insérer dans votre message."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Options de tracking"
->abstract="TBC"
+>abstract="Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option à partir de là."
 
 Pour commencer à créer le contenu d’un e-mail, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir de l’écran de création d’e-mail.
 
@@ -61,6 +61,6 @@ Les étapes de définition du contenu de votre e-mail sont les suivantes :
 
    <!--limitation on size + number of files?-->
 
-1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
+1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la **[!UICONTROL Fonctionnalités facultatives]** . [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
 
 Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)

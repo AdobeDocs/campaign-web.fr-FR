@@ -3,10 +3,10 @@ audience: end-user
 title: Surveiller les logs de diffusion
 description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Logs de diffusion"
->abstract="TBC"
+>abstract="Les logs de diffusion vous permettent de vérifier qu’il n’y a pas d’erreur."
 
 Après avoir préparé et envoyé un e-mail, les logs de diffusion vous permettent de vérifier qu’il n’y a aucune erreur. Vous pouvez accéder à ces logs depuis le tableau de bord des messages. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
