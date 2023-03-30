@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
+source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 91%
 
 ---
 
@@ -77,20 +77,21 @@ Une fois inséré, le bloc de contenu est ajouté au contenu de l’e-mail, comm
 
 
 Les blocs de contenu intégrés sont les suivants :
+
 * **[!UICONTROL Enabled by Adobe Campaign]** : insère le logo « Enabled by Adobe Campaign ».
 * **[!UICONTROL Fonction de formatage d’un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
-* **[!UICONTROL Salutations]** : insère des salutations avec le nom du ou de la destinataire. Par exemple : « Bonjour John Doe, ».
+* **[!UICONTROL Salutations]**: insère des salutations avec le nom complet du destinataire, suivies d&#39;une virgule. Exemple : &quot;Bonjour John Doe&quot;.
 * **[!UICONTROL Insertion du logo]** : insère un logo défini dans les paramètres de l’instance.
-* **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici ».
+* **[!UICONTROL Lien vers la page miroir]**[ : insère un lien vers la page miroir](mirror-page.md). Le format par défaut est : &quot;Si vous ne parvenez pas à afficher correctement ce message, cliquez ici&quot;.
 * **[!UICONTROL URL de page miroir]** : insère l’URL de page miroir qui permet aux concepteurs et conceptrices de diffusion de vérifier le lien.
-* **[!UICONTROL URL d’acceptation d’une offre en mode unitaire]** : insère une URL permettant de définir une offre comme étant **[!UICONTROL Acceptée]**.
-* **[!UICONTROL URL de la page d’inscription]** : insère une URL d’inscription.
+* **[!UICONTROL URL d’acceptation d’une offre en mode unitaire]** : insère une URL permettant de définir une offre comme étant **[!UICONTROL Acceptée]**. (Ce bloc est disponible si le module Interaction est activé)
+* **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l’inscription.
 * **[!UICONTROL Lien d’inscription]** : insère un lien d’inscription. Ce lien est défini dans les paramètres de l’instance. Le contenu par défaut est le suivant : « Pour vous inscrire, cliquez ici. ».
 * **[!UICONTROL Lien d’inscription (avec parrain)]** : insère un lien d’inscription permettant d’identifier le visiteur ou la visiteuse et la diffusion. Ce lien est défini dans les paramètres de l’instance.
-* **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l’inscription.
-* **[!UICONTROL Liens de partage sur les réseaux sociaux]** : insère des boutons permettant au ou à la destinataire de partager un lien vers le contenu de la page miroir.
-* **[!UICONTROL Style des emails de contenu]** et **[!UICONTROL Style de notification]** : génèrent un code permettant de formater un email avec les styles HTML par défaut.
+* **[!UICONTROL URL de la page d’inscription]** : insère une URL d’inscription
+* **[!UICONTROL Style des emails de contenu]** et **[!UICONTROL Style de notification]**: générer du code qui formate un email avec des styles de HTML prédéfinis ;
 * **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée). Le contenu associé par défaut est : « Vous recevez ce message car vous avez été en contact avec ***nom de votre organisation*** ou une entité associée. Pour ne plus recevoir de messages de ***nom de votre organisation***, cliquez ici. »
+
 
 
 ## Personnaliser les liens dans vos e-mails {#personalize-links}
