@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 84%
+source-wordcount: '376'
+ht-degree: 86%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="En-tête d’e-mail"
->abstract="Dans cette section, vous pouvez contrôler les valeurs De nom et De courrier électronique définies dans le modèle de courrier électronique. Le champ Objet peut être personnalisé à l’aide de l’éditeur d’expression."
+>title="Paramètres de l’e-mail"
+>abstract="Les valeurs De nom et De courrier électronique sont définies dans le modèle de courrier électronique. L&#39;objet peut être personnalisé à l&#39;aide de l&#39;éditeur d&#39;expression."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

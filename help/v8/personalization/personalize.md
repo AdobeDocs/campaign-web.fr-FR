@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 91%
@@ -82,7 +82,7 @@ Les blocs de contenu intégrés sont les suivants :
 * **[!UICONTROL Fonction de formatage d’un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
 * **[!UICONTROL Salutations]**: insère des salutations avec le nom complet du destinataire, suivies d&#39;une virgule. Exemple : &quot;Bonjour John Doe&quot;.
 * **[!UICONTROL Insertion du logo]** : insère un logo défini dans les paramètres de l’instance.
-* **[!UICONTROL Lien vers la page miroir]**[ : insère un lien vers la page miroir](mirror-page.md). Le format par défaut est : &quot;Si vous ne parvenez pas à afficher correctement ce message, cliquez ici&quot;.
+* **[!UICONTROL Lien vers la page miroir]**[ : insère un lien vers la page miroir](../content/mirror-page.md). Le format par défaut est : &quot;Si vous ne parvenez pas à afficher correctement ce message, cliquez ici&quot;.
 * **[!UICONTROL URL de page miroir]** : insère l’URL de page miroir qui permet aux concepteurs et conceptrices de diffusion de vérifier le lien.
 * **[!UICONTROL URL d’acceptation d’une offre en mode unitaire]** : insère une URL permettant de définir une offre comme étant **[!UICONTROL Acceptée]**. (Ce bloc est disponible si le module Interaction est activé)
 * **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l’inscription.

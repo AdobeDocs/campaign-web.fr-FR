@@ -3,10 +3,10 @@ audience: end-user
 title: Paramètres de diffusion d’e-mail
 description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -135,14 +135,14 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Limite de validité des ressources"
->abstract="Le champ Limite de validité est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée."
+>abstract="Le champ Limite de validité est utilisé pour les ressources chargées, telles que la page miroir ou les images. Ces ressources sont valides pendant une durée limitée : une fois la limite atteinte, les ressources ne sont plus disponibles."
 
 
 Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n&#39;est pas atteinte.
 
 Vous pouvez également choisir de spécifier des dates.Pour cela, cochez l&#39;option **Fixer explicitement les dates de validité**. Dans ce cas, les dates limites de diffusion et de validité permettent de préciser également l&#39;heure. Cette heure correspond par défaut à l&#39;heure courante mais peut être modifiée directement dans le champ de saisie.
 
-Le champ **Limite de validité des ressources** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
+Le champ **Limite de validité des ressources** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque). Après cette limite, ces ressources ne sont plus disponibles.
 
 ![](assets/delivery-settings-2.png)
 
@@ -155,9 +155,10 @@ La page miroir est une page HTML accessible en ligne via un navigateur web et do
 
 Outre le mode par défaut, les options disponibles sont les suivantes :
 
-* **[!UICONTROL Forcer la génération de la page miroir]** : même si aucun lien vers la page miroir n’est inséré dans la diffusion, la page miroir est créée.
-* **[!UICONTROL Ne pas générer de page miroir]** : aucune page miroir n&#39;est générée, même si le lien est présent dans la diffusion.
-* **[!UICONTROL Générer une page miroir accessible depuis l&#39;identifiant du message]** : cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion. Pour cela, une fois la diffusion terminée, cliquez sur l&#39;onglet **[!UICONTROL Diffusion]** et sélectionnez la ligne du destinataire dont vous souhaitez visualiser la page miroir. Cliquez ensuite sur le lien **[!UICONTROL Afficher la page miroir de ce message...]**.
+
+* **[!UICONTROL Forcer la génération de la page miroir]**: utilisez ce mode pour générer la page miroir même si aucun lien vers la page miroir n&#39;est inséré dans la diffusion.
+* **[!UICONTROL Ne pas générer de page miroir]**: utilisez ce mode pour éviter de générer une page miroir, même si le lien est présent dans la diffusion.
+* **[!UICONTROL Génère une page miroir accessible à l’aide de l’identifiant du message uniquement]**: lorsque le lien de la page miroir n&#39;est pas présent dans le contenu de l&#39;email, utilisez cette option pour activer l&#39;accès au contenu de la page miroir, dans la fenêtre du journal de diffusion, depuis la console cliente.
 
 
 ### Tracking {#tracking}

@@ -5,10 +5,10 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 title: Documentation de Campaign v8 Web
 hide: true
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 95%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
          + [Coder votre propre contenu](content/code-content.md)
       + [Utiliser les composants de contenu](content/content-components.md)
       + [Générer la version texte](content/text-version-email.md)
+      + [Ajouter un lien vers la page miroir](content/mirror-page.md)
       + [Ajouter un pré-titre](content/preheader.md)
       + [Ajouter des liens et tracker les messages](content/message-tracking.md)
    + Donner un style à votre contenu {#style}

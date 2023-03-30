@@ -3,10 +3,10 @@ audience: end-user
 title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 93%
 
 ---
 
@@ -45,37 +45,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 >
 >Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la surface du canal (c’est-à-dire le paramètre prédéfini du message) et lors de la création du message.
 
-## Lien vers une page miroir {#mirror-page}
-
-La page miroir est une page HTML accessible en ligne via un navigateur web. Son contenu est identique à celui de l’e-mail.
-
-Pour ajouter un lien vers une page miroir dans l’e-mail :
-
-1. Sélectionnez un élément et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
-
-   ![](assets/message-tracking-mirror-page.png)
-
-1. Sélectionnez l’icône **[!UICONTROL Insérer un lien]** pour accéder au menu de personnalisation.
-
-   ![](assets/message-tracking-mirror-page_2.png)
-
-1. Dans le menu **[!UICONTROL Bloc de contenu]**, sélectionnez **[!UICONTROL URL de la page miroir]** et cliquez sur **[!UICONTROL Ajouter]**.
-
-   ![](assets/message-tracking-mirror-page_3.png)
-
-La page miroir est automatiquement créée.
-
->[!IMPORTANT]
->
->Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées chiffrées requises pour générer l’e-mail original. Par conséquent, l’utilisation d’attributs personnalisés avec des valeurs élevées peut générer de longues URL de pages miroir. Cela peut empêcher le lien de fonctionner dans les navigateurs web qui imposent des limites de longueur d’URL.
-
-Une fois l’e-mail envoyé, lorsque les destinataires cliquent sur le lien de la page miroir, le contenu de l’e-mail s’affiche dans leur navigateur web par défaut.
-
->[!NOTE]
->
->Dans l’e-mail de test envoyé aux profils de test, le lien vers la page miroir est inactif. Il n’est actif que dans les messages finaux.
-
-La période de conservation d’une page miroir est de 60 jours. Une fois ce délai écoulé, la page miroir n’est plus disponible.
+Un lien spécifique vers la page miroir doit être ajouté à tous vos emails. En savoir plus sur la page miroir dans [cette section](mirror-page.md).
 
 ## Gérer le tracking {#manage-tracking}
 
