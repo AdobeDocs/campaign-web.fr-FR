@@ -5,8 +5,8 @@ description: Découvrez comment modifier le contenu de l’e-mail dans l’inter
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,6 +61,6 @@ Les étapes de définition du contenu de votre e-mail sont les suivantes :
 
    <!--limitation on size + number of files?-->
 
-1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la **[!UICONTROL Fonctionnalités facultatives]** . [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
+1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
 
 Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)
