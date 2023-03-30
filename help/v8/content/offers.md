@@ -4,9 +4,9 @@ title: Envoyer des offres
 description: Envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
