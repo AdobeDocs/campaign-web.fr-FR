@@ -5,8 +5,8 @@ description: Découvrez comment modifier le contenu de l’e-mail dans l’inter
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '376'
+ht-degree: 93%
 
 ---
 
