@@ -3,16 +3,15 @@ audience: end-user
 title: Créer la version texte d’un e-mail
 description: Découvrez comment créer la version texte d’un e-mail
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informatif"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 97%
 
 ---
 
 # Créer la version texte d’un e-mail {#text-version-email}
-
-![](../assets/do-not-localize/badge.png)
 
 Nous vous recommandons de créer une version texte du corps de votre e-mail, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 

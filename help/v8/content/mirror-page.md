@@ -2,7 +2,8 @@
 audience: end-user
 title: Ajouter un lien vers la page miroir
 description: Découvrez comment ajouter et gérer le lien vers la page miroir
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informatif"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 37%
@@ -11,8 +12,6 @@ ht-degree: 37%
 
 
 # Ajouter un lien vers la page miroir{#mirror-page}
-
-## A propos de la page miroir{#about-mirror-page}
 
 La page miroir est une version en ligne de votre email.
 
@@ -27,7 +26,6 @@ La page miroir générée par Adobe Campaign contient toutes les données de per
 L’insertion d’un lien vers la page miroir est une bonne pratique. Ce lien peut, par exemple, &quot;Afficher cet email dans votre navigateur&quot; ou &quot;Lire ceci en ligne&quot;. Il se trouve souvent dans l’en-tête ou le pied de page de l’email.
 
 Dans Adobe Campaign, vous pouvez insérer un lien vers la page miroir dans le contenu de l&#39;email à l&#39;aide du **bloc de personnalisation**. La version intégrée **Lien vers la page miroir** le bloc de personnalisation insère le code suivant dans le contenu de votre email : `<%@ include view='MirrorPage' %>`.
-
 
 Pour ajouter un lien vers une page miroir dans l’e-mail :
 

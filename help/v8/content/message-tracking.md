@@ -3,16 +3,15 @@ audience: end-user
 title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informatif"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 93%
+source-wordcount: '373'
+ht-degree: 92%
 
 ---
 
 # Ajouter des liens et tracker les messages {#tracking}
-
-![](../assets/do-not-localize/badge.png)
 
 Utilisez le Concepteur d’e-mail pour ajouter des liens à votre contenu et tracker les messages envoyés afin de surveiller le comportement de vos destinataires.
 

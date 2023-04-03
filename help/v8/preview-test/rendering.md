@@ -3,16 +3,17 @@ audience: end-user
 title: Tester le rendu des e-mails
 description: Découvrez comment tester le rendu de vos e-mails dans l’interface utilisateur web de Campaign.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informatif"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 97%
 
 ---
 
+
 # Tester le rendu des e-mails {#rendering}
 
-![](../assets/do-not-localize/badge.png)
 
 Avant d’envoyer votre e-mail, vérifiez que l’affichage de votre message est optimal pour les destinataires sur divers clients web, messageries web et appareils.
 

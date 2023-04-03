@@ -3,16 +3,16 @@ audience: end-user
 title: Prévisualiser le contenu d’un e-mail
 description: Découvrez comment prévisualiser le contenu de vos e-mails avec l’interface utilisateur web de Campaign.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Informatif"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
-# Prévisualiser le contenu d’un e-mail {#preview}
 
-![](../assets/do-not-localize/badge.png)
+# Prévisualiser le contenu d’un e-mail {#preview}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
