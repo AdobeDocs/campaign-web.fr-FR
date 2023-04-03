@@ -5,10 +5,10 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 title: Documentation de Campaign v8 Web
 hide: true
-source-git-commit: 694085f49f2722cc8eefb08196503bc210e36ffa
+source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 85%
+source-wordcount: '222'
+ht-degree: 81%
 
 ---
 
@@ -62,8 +62,9 @@ ht-degree: 85%
 + Audiences et destinataires {#audiences}
    + [Prise en main des audiences](audience/about-audiences.md)
    + [Sélectionner une audience](audience/add-audience.md)
+   + [Création d’une audience avec le créateur de règles](audience/segment-builder.md)
+   + [Importation d’une audience](audience/import-audience.md)
    + [Configurer une population témoin](audience/control-group.md)
-   + [Définir une audience à l’aide du créateur de règles](audience/segment-builder.md)
 + Campagnes cross-canal {#campaigns}
    + [Prise en main des campagnes](campaigns/gs-campaigns.md)
    + [Créer votre première campagne](campaigns/create-campaigns.md)
