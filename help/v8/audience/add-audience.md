@@ -4,22 +4,31 @@ title: Sélectionner une audience
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positif"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+source-wordcount: '272'
+ht-degree: 90%
 
 ---
 
 
-# Sélectionner une audience {#add-audience}
+# Sélectionner une audience existante {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Sélectionner une audience existante"
 >abstract="Les audiences sont définies dans la console Adobe Campaign v8. Si une intégration Adobe Experience Platform est disponible, vous devriez également voir les audiences définies par Platform."
 
-Cette section explique comment sélectionner une audience existante lors de la définition de la population cible de la diffusion d’un e-mail. Si vous souhaitez créer une nouvelle audience, reportez-vous à cette [section](segment-builder.md).
+Cette section explique comment sélectionner une audience existante lors de la définition de la population cible de la diffusion d’un e-mail.
+
+Vous pouvez également procéder comme suit :
+
+* Créez une audience. [En savoir plus](segment-builder.md)
+* Importer une audience à partir d’un fichier. [En savoir plus](import-audience.md)
+* Utilisez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md).
+
+
+Pour sélectionner une audience existante pour votre message, procédez comme suit :
 
 1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
 

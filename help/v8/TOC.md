@@ -5,10 +5,10 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 title: Documentation de Campaign v8 Web
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,9 +61,10 @@ ht-degree: 81%
       + [Prise en main des diffusions SMS](sms/gs-sms.md)
 + Audiences et destinataires {#audiences}
    + [Prise en main des audiences](audience/about-audiences.md)
-   + [Sélectionner une audience](audience/add-audience.md)
+   + [Sélectionner une audience existante](audience/add-audience.md)
    + [Création d’une audience avec le créateur de règles](audience/segment-builder.md)
    + [Importation d’une audience](audience/import-audience.md)
+   + [Utilisation d’une audience Adobe Experience Platform](audience/aep-audience.md)
    + [Configurer une population témoin](audience/control-group.md)
 + Campagnes cross-canal {#campaigns}
    + [Prise en main des campagnes](campaigns/gs-campaigns.md)
