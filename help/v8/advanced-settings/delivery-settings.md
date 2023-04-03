@@ -3,16 +3,16 @@ audience: end-user
 title: Paramètres de diffusion d’e-mail
 description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informatif"
+source-git-commit: 5ae59f72739943a7073e7cbd0d4d8cec0b7eb7ee
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 90%
 
 ---
 
-# Paramètres de diffusion d’e-mail {#email-del-settings}
 
-![Version Alpha](../assets/do-not-localize/badge.png)
+# Paramètres de diffusion d’e-mail {#email-del-settings}
 
 Ces paramètres sont des **paramètres de diffusion techniques** définis dans le modèle d’e-mail. Ils sont disponibles à partir de l’icône **Configurer les paramètres de diffusion** disponible lors de la modification de la diffusion d’un e-mail.
 
