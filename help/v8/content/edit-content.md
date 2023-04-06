@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positif"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Paramètres de l’e-mail"
->abstract="Les valeurs De nom et De courrier électronique sont définies dans le modèle de courrier électronique. L&#39;objet peut être personnalisé à l&#39;aide de l&#39;éditeur d&#39;expression."
+>abstract="Définissez les valeurs Nom de l’expéditeur et Adresse e-mail de l’expéditeur dans le modèle d’e-mail. Vous pouvez également personnaliser l’objet de l’e-mail dans l’éditeur d’expression."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

@@ -1,31 +1,31 @@
 ---
 audience: end-user
 title: Ajouter un lien vers la page miroir
-description: Découvrez comment ajouter et gérer le lien vers la page miroir
+description: Découvrez comment ajouter et gérer le lien vers la page miroir.
 badge: label="Alpha" type="Positif"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 37%
+ht-degree: 99%
 
 ---
 
 
 # Ajouter un lien vers la page miroir{#mirror-page}
 
-La page miroir est une version en ligne de votre email.
+La page miroir est une version en ligne de votre e-mail.
 
-Bien que la plupart des clients de messagerie rendent les images sans problème, certains paramètres prédéfinis peuvent éviter d’afficher les images pour des raisons de sécurité. Les utilisateurs peuvent accéder à la page miroir d’un email, par exemple s’ils rencontrent des problèmes de rendu ou des images endommagées lors de la tentative de l’afficher dans leur boîte de réception. Il est également recommandé de fournir une version en ligne pour des raisons d’accessibilité ou d’encourager le partage sur les réseaux sociaux.
+La plupart des clients de messagerie affichent les images sans problème. Toutefois, certains préréglages peuvent empêcher le rendu des images, notamment pour des raisons de sécurité. Les utilisateurs et utilisatrices consultent la page miroir d’un e-mail en cas de problème d’affichage des images dans leur boîte de réception ou lorsque ces dernières sont endommagées. Il est également recommandé de fournir une version en ligne pour des raisons d’accessibilité ou pour faciliter le partage sur les réseaux sociaux.
 
-La page miroir générée par Adobe Campaign contient toutes les données de personnalisation.
+La page miroir générée par Adobe Campaign contient toutes les données de personnalisation.
 
 ![exemple de lien miroir](assets/mirror-page-link.png){width="600" align="left"}
 
 ## Ajouter un lien vers la page miroir{#link-to-mirror-page}
 
-L’insertion d’un lien vers la page miroir est une bonne pratique. Ce lien peut, par exemple, &quot;Afficher cet email dans votre navigateur&quot; ou &quot;Lire ceci en ligne&quot;. Il se trouve souvent dans l’en-tête ou le pied de page de l’email.
+Il est recommandé d’insérer un lien vers la page miroir. Vous pouvez nommer le lien « Afficher cet e-mail dans votre navigateur » ou « Lire ceci en ligne », par exemple. Il se trouve généralement dans l’en-tête ou le pied de page de l’e-mail.
 
-Dans Adobe Campaign, vous pouvez insérer un lien vers la page miroir dans le contenu de l&#39;email à l&#39;aide du **bloc de personnalisation**. La version intégrée **Lien vers la page miroir** le bloc de personnalisation insère le code suivant dans le contenu de votre email : `<%@ include view='MirrorPage' %>`.
+Dans Adobe Campaign, vous pouvez insérer un lien vers la page miroir dans le contenu de l’e-mail à l’aide du **bloc de personnalisation** dédié. Le bloc de personnalisation intégré **Lien vers la page miroir** insère le code suivant dans le contenu de votre e-mail : `<%@ include view='MirrorPage' %>`.
 
 Pour ajouter un lien vers une page miroir dans l’e-mail :
 
@@ -41,7 +41,7 @@ Pour ajouter un lien vers une page miroir dans l’e-mail :
 
    ![](assets/message-tracking-mirror-page_3.png)
 
-   Pour plus d&#39;informations sur l&#39;insertion de blocs de contenu personnalisés, reportez-vous à la section [cette section](../personalization/personalize.md#personalize-emails).
+   Pour plus d’informations sur l’insertion de blocs de contenu personnalisés, consultez [cette section](../personalization/personalize.md#personalize-emails).
 
 La page miroir est automatiquement créée.
 
@@ -53,13 +53,13 @@ Une fois l’e-mail envoyé, lorsque les destinataires cliquent sur le lien de l
 
 >[!NOTE]
 >
->Dans l’e-mail de test envoyé aux profils de test, le lien vers la page miroir est inactif. Il n’est actif que dans les messages finaux.
+>Dans l’e-mail de test envoyé aux profils de test, le lien vers la page miroir est inactif. Il n’est activé que dans les messages finaux.
 
-Par défaut, la période de conservation d’une page miroir est de 60 jours. Une fois ce délai écoulé, la page miroir n’est plus disponible.
+Par défaut, la période de conservation d’une page miroir est de 60 jours. Une fois ce délai écoulé, la page miroir n’est plus disponible.
 
 
-## Génération de pages miroir{#mirror-page-generation}
+## Génération de la page miroir{#mirror-page-generation}
 
-Par défaut, la page miroir est automatiquement générée par Adobe Campaign si le contenu de l&#39;email n&#39;est pas vide et s&#39;il contient un lien vers la page miroir (ou lien miroir).
+Par défaut, la page miroir est automatiquement générée par Adobe Campaign si le contenu de l’e-mail n’est pas vide et s’il comporte un lien vers la page miroir (ou lien miroir).
 
-Vous pouvez contrôler le mode de génération de la page miroir de l&#39;email. Les options sont disponibles dans les propriétés de la diffusion. [En savoir plus](../advanced-settings/delivery-settings.md#mirror)
+Vous pouvez choisir le mode de génération de la page miroir de l’e-mail. Plusieurs options s’offrent à vous dans les propriétés de la diffusion. [En savoir plus](../advanced-settings/delivery-settings.md#mirror)
