@@ -5,10 +5,10 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 title: Documentation de Campaign v8 Web
 hide: true
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
+source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 82%
+source-wordcount: '245'
+ht-degree: 78%
 
 ---
 
@@ -72,5 +72,10 @@ ht-degree: 82%
 + Workflows {#wf}
    + [Prise en main des workflows](workflows/gs-workflows.md)
    + [Créer votre premier workflow](workflows/create-workflows.md)
+   + Utilisation des activités de workflow {#activities}
+      + [Prise en main des activités de workflow](workflows/get-started-activities.md)
+      + [Activités de ciblage](workflows/targeting-activities.md)
+      + [Activités de canal](workflows/channel-activities.md)
+      + [Activités de Data Management](workflows/data-management-activities.md)
 + [Créer des rapports](reporting/reports.md)
 
