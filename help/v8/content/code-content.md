@@ -3,11 +3,11 @@ audience: end-user
 title: Coder votre propre contenu d’e-mail
 description: Découvrez comment coder votre propre contenu d’e-mail.
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Alpha" type="Positif"
+badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '126'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
