@@ -3,11 +3,11 @@ audience: end-user
 title: Sélectionner une audience
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alpha" type="Positif"
+badge: label="Alpha" type="Positive"
 source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Cette section explique comment sélectionner une audience existante lors de la d
 Vous pouvez également procéder comme suit :
 
 * Créez une audience. [En savoir plus](segment-builder.md)
-* Importer une audience à partir d’un fichier. [En savoir plus](import-audience.md)
-* Utilisez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md).
+* Importez une audience à partir d’un fichier. [En savoir plus](import-audience.md)
+* Utilisez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md).
 
 
-Pour sélectionner une audience existante pour votre message, procédez comme suit :
+Pour sélectionner une audience existante pour votre message, procédez comme suit :
 
 1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
 
