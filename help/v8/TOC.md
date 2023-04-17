@@ -5,10 +5,10 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 title: Documentation de Campaign v8 Web
 hide: true
-source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
+source-git-commit: f77b5a483f7276ecade687f9fd9e9028ec750dbf
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 94%
+source-wordcount: '259'
+ht-degree: 90%
 
 ---
 
@@ -71,11 +71,15 @@ ht-degree: 94%
    + [Créer votre première campagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Prise en main des workflows](workflows/gs-workflows.md)
-   + [Créer votre premier workflow](workflows/create-workflows.md)
-   + Utilisation des activités de workflow {#activities}
-      + [Prise en main des activités de workflow](workflows/get-started-activities.md)
+   + Créer votre premier workflow {#create-workflow}
+      + [Prise en main de la création de workflow](workflows/gs-workflow-creation.md)
+      + [Création dʼun workflow](workflows/create-workflow.md)
+      + [Démarrage et surveillance de l’exécution des workflows](workflows/start-monitor-workflows.md)
+   + Conception de workflows {#design-workflows}
+      + [Prise en main du canevas de workflow](workflows/gs-canvas.md)
       + [Activités de ciblage](workflows/targeting-activities.md)
       + [Activités de canal](workflows/channel-activities.md)
       + [Activités de Data Management](workflows/data-management-activities.md)
+   + [Accéder aux workflows et les surveiller](workflows/access-monitor.md)
 + [Créer des rapports](reporting/reports.md)
 
