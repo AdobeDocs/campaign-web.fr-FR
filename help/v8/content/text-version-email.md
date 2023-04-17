@@ -3,11 +3,11 @@ audience: end-user
 title: Créer la version texte d’un e-mail
 description: Découvrez comment créer la version texte d’un e-mail
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Alpha" type="Positif"
+badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
