@@ -3,11 +3,11 @@ audience: end-user
 title: Utiliser les composants de contenu du Concepteur d’e-mail
 description: Découvrez comment utiliser des composants de contenu dans vos emails.
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Alpha" type="Positif"
+badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
