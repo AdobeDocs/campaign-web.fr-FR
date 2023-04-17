@@ -3,11 +3,11 @@ audience: end-user
 title: Prise en main du style des e-mails
 description: Découvrez les différentes manières d’ajuster le style du contenu des e-mails.
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Alpha" type="Positif"
+badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
