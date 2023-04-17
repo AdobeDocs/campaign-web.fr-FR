@@ -3,15 +3,15 @@ audience: end-user
 title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Alpha" type="Positif"
+badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Démarrez entièrement le contenu de votre email {#create-email-content}
+# Rédiger le contenu de l’e-mail en partant de zéro {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
