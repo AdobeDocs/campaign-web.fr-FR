@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 78%
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 78%
 + Nouveautés{#whats-new}
    + [Notes de mise à jour](rn/release-notes.md)
    + [Mises à jour de la documentation](rn/documentation-updates.md)
-+ Prise en main avec Adobe Campaign {#start}
++ Prise en main d’Adobe Campaign {#start}
    + [Prise en main](get-started/get-started.md)
    + [Découvrir l’interface](get-started/user-interface.md)
 + Messages et diffusions {#msg}
@@ -33,7 +33,7 @@ ht-degree: 78%
                + [Démarrer en partant de zéro ](content/create-email-content.md)
                + [Importer le contenu des e-mails](content/existing-content.md)
                + [Coder votre propre contenu](content/code-content.md)
-               + [Utiliser des modèles de contenu d’email](content/email-templates.md)
+               + [Utiliser des modèles de contenu d’e-mail](content/email-templates.md)
             + [Utiliser les composants de contenu](content/content-components.md)
             + [Générer la version texte](content/text-version-email.md)
             + [Ajouter un lien vers la page miroir](content/mirror-page.md)
@@ -62,9 +62,9 @@ ht-degree: 78%
 + Audiences et destinataires {#audiences}
    + [Prise en main des audiences](audience/about-audiences.md)
    + [Sélectionner une audience existante](audience/add-audience.md)
-   + [Création d’une audience avec le créateur de règles](audience/segment-builder.md)
-   + [Importation d’une audience](audience/import-audience.md)
-   + [Utilisation d’une audience Adobe Experience Platform](audience/aep-audience.md)
+   + [Créer une audience à l’aide du créateur de règles](audience/segment-builder.md)
+   + [Importer une audience](audience/import-audience.md)
+   + [Utiliser une audience Adobe Experience Platform](audience/aep-audience.md)
    + [Configurer une population témoin](audience/control-group.md)
 + Campagnes cross-canal {#campaigns}
    + [Prise en main des campagnes](campaigns/gs-campaigns.md)
