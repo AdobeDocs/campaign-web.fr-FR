@@ -3,11 +3,11 @@ audience: end-user
 title: Rapports de diffusion
 description: Découvrez comment accéder aux rapports de diffusion et les utiliser.
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Alpha" type="Positif"
+badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
