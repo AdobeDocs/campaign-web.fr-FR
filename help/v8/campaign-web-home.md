@@ -3,11 +3,11 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web v8
 title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Alpha" type="Positif"
+badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
