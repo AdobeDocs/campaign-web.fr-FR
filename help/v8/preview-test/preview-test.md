@@ -3,11 +3,11 @@ audience: end-user
 title: À propos de la prévisualisation et du test des e-mails
 description: Découvrez comment prévisualiser et tester des e-mails.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Alpha" type="Positif"
+badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
