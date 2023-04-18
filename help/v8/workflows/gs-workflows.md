@@ -4,16 +4,16 @@ title: Prise en main des workflows
 description: Découvrez comment commencer avec les workflows.
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 583e83d65e7ca26e8501eca4696043f0aedb683c
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 7%
+source-wordcount: '359'
+ht-degree: 6%
 
 ---
 
 # Prise en main des workflows {#workflows}
 
-## Qu’est-ce qu&#39;un workflow ? 
+## Que sont les workflows Adobe Campaign ?
 
 Le marketing cross-canal est essentiel pour toute entreprise qui souhaite atteindre efficacement ses clients. Adobe Campaign fournit un environnement graphique complet qui vous permet de concevoir des processus complexes qui peuvent vous aider à gérer facilement vos campagnes marketing.
 
@@ -21,19 +21,23 @@ Grâce aux workflows, vous pouvez orchestrer l’ensemble des processus et tâch
 
 L’un des avantages les plus significatifs de l’utilisation des workflows est qu’il est plus simple de diffuser du contenu personnalisé à vos clients sur tous les canaux. Que vos clients préfèrent recevoir des messages par email ou sur mobile, Adobe Campaign vous permet de fournir une expérience cohérente et contextuelle sur n’importe quel canal, transformant ainsi le parcours de chaque client en une expérience unique.
 
-## Ce que vous pouvez faire avec les workflows
+## Utilisation pratique des workflows
 
 Les workflows sont incroyablement polyvalents et peuvent être utilisés dans divers contextes, notamment le ciblage pour gérer les audiences ou envoyer des messages, la gestion des données (ETL) pour manipuler les données et l’import de données dans la base de données Adobe Campaign.
 
-Grâce à l’environnement graphique complet d’Adobe Campaign, vous pouvez concevoir des processus tels que la segmentation, l’exécution de campagnes, le traitement de fichiers et la participation humaine, pour n’en citer que quelques-uns. Les workflows peuvent également impliquer les utilisateurs en leur assignant des tâches ou en les faisant approuver les tâches effectuées, ce qui facilite la gestion du travail de votre équipe et garantit que tout est fait correctement.
+Grâce à l&#39;environnement graphique complet d&#39;Adobe Campaign, vous pouvez concevoir des processus tels que la segmentation, l&#39;exécution de campagnes, le traitement de fichiers. Les workflows peuvent également impliquer les utilisateurs en leur assignant des tâches ou en les faisant approuver les tâches effectuées, ce qui facilite la gestion du travail de votre équipe et garantit que tout est fait correctement.
 
 Voici quelques exemples d’utilisation des workflows avec Adobe Campaign :
 
 * Téléchargez un fichier depuis un serveur, décompressez-le, puis importez les enregistrements contenus dans la base de données Adobe Campaign.
 * Créez une action de diffusion, affectez une tâche à un ou plusieurs opérateurs afin de travailler sur le contenu, indiquez des cibles et validez les BAT avant de démarrer la diffusion.
 
-Ajouter des références aux sous-sections :
+## Explorons plus en détail
+
+Maintenant que vous connaissez les workflows et ce que vous pouvez en faire dans Adobe Campaign, il est temps d’examiner plus en détail les sections de documentation pour commencer à utiliser cette fonctionnalité.
 
 * Créer votre premier workflow
 * Conception de workflows
-* Accéder aux workflows et les surveiller
+* Accès et surveillance
+
+(lien vers la sous-section à déterminer)

@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1319'
 ht-degree: 99%
 
 ---
@@ -117,11 +117,6 @@ Navtree view depends on permissions (same as console).
 >id="acw_subscriptions_list"
 >title="Listes d’abonnements"
 >abstract="Parcourez les listes d’abonnements. Vous pouvez consulter leur type, mode et libellé. Cette liste est en lecture seule."
-
->[!CONTEXTUALHELP]
->id="acw_targeting_workflow_list"
->title="Les workflows de ciblage"
->abstract="Accédez à votre liste de workflows Campaign. Vous pouvez afficher leur état, les dates de leur dernier/prochain traitement et leur environnement. Vous pouvez filtrer la liste par état, date de dernier traitement et type de workflow. Des modèles de workflow sont également disponibles. Ces listes sont en lecture seule."
 
 * **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. Cette liste est en lecture seule.
 * **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Cette liste est en lecture seule.
