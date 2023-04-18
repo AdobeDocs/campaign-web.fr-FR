@@ -4,16 +4,16 @@ title: Prise en main des workflows
 description: Découvrez comment commencer avec les workflows.
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 6%
+source-wordcount: '358'
+ht-degree: 7%
 
 ---
 
 # Prise en main des workflows {#workflows}
 
-## Que sont les workflows Adobe Campaign ?
+## Qu’est-ce qu&#39;un workflow ? 
 
 Le marketing cross-canal est essentiel pour toute entreprise qui souhaite atteindre efficacement ses clients. Adobe Campaign fournit un environnement graphique complet qui vous permet de concevoir des processus complexes qui peuvent vous aider à gérer facilement vos campagnes marketing.
 
