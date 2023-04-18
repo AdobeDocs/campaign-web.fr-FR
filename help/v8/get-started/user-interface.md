@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 99%
+source-wordcount: '1388'
+ht-degree: 96%
 
 ---
 
@@ -227,6 +227,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
+REFER TO 
+https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -290,11 +292,123 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_iOS_content"
+>id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenu SMS"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Abonnés aux applications"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Test de la population"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Mode Aperçu"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Enrichir des données"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personnalisation"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="Sélection de fichier"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="Définition des colonnes"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="Paramètres de formatage"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Envoi de rapports"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Suivi des rapports"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Présentation des rapports"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Statistiques cibles des rapports"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="Reporting agrégé : sélectionner une diffusion"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Propriétés de la campagne"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Planning de la campagne"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Liste des workflows"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Création d&#39;une campagne"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Planning de la campagne"
+>abstract="À déterminer"
+
+
+<!--BETA-->
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_fields"
+>title="Champs de déduplication"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Paramètres de déduplication"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="complémentaire de déduplication"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_dimension_complement"
+>title="Dimension complémentaire"
 >abstract="À déterminer"
