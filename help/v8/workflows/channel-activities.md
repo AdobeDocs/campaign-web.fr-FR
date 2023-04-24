@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: Utilisation des activités de canal de workflows
-description: Découvrez comment utiliser les activités de canal dans les workflows web Adobe Campaign
-badge: label="Alpha" type="Positif"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
-workflow-type: tm+mt
+title: Utiliser les activités des canaux de workflows
+description: Découvrez comment utiliser les activités des canaux dans les workflows Web Adobe Campaign.
+badge: label="Alpha" type="Positive"
+exl-id: 6f9be348-6138-470c-8c40-750dc0311424
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # Activités des canaux {#channel}
 
-aperçu : ce qu’ils sont utilisés, auquel cas vous pouvez les utiliser ;
+Vue d’ensemble : utilisation
+cas d’utilisation
 
 liste des activités disponibles + brève description + référence à la section
 
 ## E-mail {#email}
 
-description, quel cas d’utilisation vous pouvez exécuter (autres activités courantes que vous pouvez lier avant ou après l’activité)
+description, les cas d’utilisation possibles (autres activités courantes que vous pouvez lier avant ou après l’activité)
 
 comment ajouter et configurer l’activité
 
-exemple d&#39;activité paramétrée dans un workflow
+exemple d’activité configurée dans un workflow
