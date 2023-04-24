@@ -1,21 +1,22 @@
 ---
 audience: end-user
 title: Prise en main des activités de workflow
-description: Découvrez les différents types d’activités que vous pouvez exploiter pour créer des workflows web Adobe Campaign
-badge: label="Alpha" type="Positif"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
-workflow-type: tm+mt
+description: Découvrez les différents types d’activités que vous pouvez utiliser pour créer des workflows Web Adobe Campaign.
+badge: label="Alpha" type="Positive"
+exl-id: 0c269e63-c861-4e51-b999-2e8d33fec7a0
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '61'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Prise en main des activités de workflow {#get-started-activities}
 
-quelles sont les activités de workflow ?
+en quoi consistent les activités de workflow ?
 
-types d’activités et ce que vous pouvez en faire
+les types d’activités et leur utilité
 
-comment les utiliser (ajouter, supprimer, dupliquer ?..)
+comment les utiliser (ajout, suppression, duplication…)
 
 référence aux pages d’activités de ciblage/canal/gestion des données (photos cliquables)
