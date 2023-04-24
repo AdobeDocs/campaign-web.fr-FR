@@ -5,14 +5,14 @@ description: Découvrez comment créer des workflows à l’aide d’Adobe Camp
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '40'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
-# Création dʼun workflow {#create}
+# Créer un workflow {#create}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
->title="Paramètres d&#39;exécution"
+>title="Paramètres d’exécution"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
@@ -39,4 +39,4 @@ ht-degree: 82%
 >title="Paramètres de gestion des erreurs"
 >abstract="À déterminer"
 
-content TBD
+contenu à déterminer
