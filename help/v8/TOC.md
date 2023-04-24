@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -72,14 +72,14 @@ ht-degree: 90%
 + Workflows {#wf}
    + [Prise en main des workflows](workflows/gs-workflows.md)
    + Créer votre premier workflow {#create-workflow}
-      + [Principes clés de la création de workflows](workflows/gs-workflow-creation.md)
-      + [Création dʼun workflow](workflows/create-workflow.md)
-      + [Démarrage et surveillance de l’exécution des workflows](workflows/start-monitor-workflows.md)
-   + Conception de workflows {#design-workflows}
-      + [Prise en main du canevas de workflow](workflows/gs-canvas.md)
+      + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
+      + [Créer un workflow](workflows/create-workflow.md)
+      + [Démarrer et surveiller l’exécution des workflows](workflows/start-monitor-workflows.md)
+   + Concevoir des workflows {#design-workflows}
+      + [Prise en main de la zone de travail des workflows](workflows/gs-canvas.md)
       + [Activités de ciblage](workflows/targeting-activities.md)
-      + [Activités de canal](workflows/channel-activities.md)
-      + [Activités de Data Management](workflows/data-management-activities.md)
+      + [Activités des canaux](workflows/channel-activities.md)
+      + [Activités de gestion des données](workflows/data-management-activities.md)
    + [Accéder aux workflows et les surveiller](workflows/access-monitor.md)
 + [Créer des rapports](reporting/reports.md)
 
