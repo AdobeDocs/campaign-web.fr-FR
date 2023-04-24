@@ -1,19 +1,20 @@
 ---
 audience: end-user
-title: Utilisation des activités de Data Management des workflows
-description: Découvrez comment utiliser les activités de Data Management dans les workflows web Adobe Campaign
+title: Utiliser les activités de gestion des données des workflows
+description: Découvrez comment utiliser les activités de gestion des données dans les workflows Web Adobe Campaign.
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Activités de Data Management {#data-management}
+# Activités de gestion des données {#data-management}
 
-aperçu : ce qu’ils sont utilisés, auquel cas vous pouvez les utiliser ;
+Vue d’ensemble : utilisation
+cas d’utilisation
 
 liste des activités disponibles + brève description + référence à la section
 
@@ -22,41 +23,44 @@ liste des activités disponibles + brève description + référence à la sectio
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Enrichissement activité"
->abstract="L&#39;activité Enrichissement permet d&#39;améliorer les données ciblées avec des informations supplémentaires de la base de données. Il est généralement utilisé dans un workflow après des activités de ciblage.<br/>Une fois que les données d&#39;enrichissement ont été ajoutées au workflow, elles peuvent être utilisées dans les activités ajoutées après l&#39;activité Enrichissement pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins, ou pour créer des messages marketing personnalisés et des campagnes qui ont plus de chances de répondre à votre audience cible."
+>abstract="L’activité Enrichissement permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de ciblage.<br/>Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
 
-L&#39;activité Enrichissement permet d&#39;améliorer les données ciblées avec des informations supplémentaires de la base de données. Il est généralement utilisé dans un workflow après des activités de ciblage.
+L’activité Enrichissement permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de ciblage.
 
-Les données d’enrichissement peuvent venir :
+Les données d’enrichissement tirent leur origine des sources suivantes :
 
-* **A partir de la même table de travail** comme celui ciblé dans votre workflow :
+* **Le même tableau de travail** que celui ciblé dans votre workflow :
 
-   *Ciblez un groupe de clients et ajoutez le champ &quot;Date de naissance&quot; à la table de travail actuelle.*
+   *Ciblez un groupe de clients et de clientes et ajoutez le champ « Date de naissance » au tableau de travail actuel.*
 
-* **A partir d&#39;une autre table de travail**:
+* **Un autre tableau de travail** :
 
-   *Ciblez un groupe de clients et ajoutez les champs &quot;Montant&quot; et &quot;Type de produit&quot; provenant de la table &quot;Achat&quot;*.
+   *Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat »*.
 
-Une fois que les données d&#39;enrichissement ont été ajoutées au workflow, elles peuvent être utilisées dans les activités ajoutées après l&#39;activité Enrichissement pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins, ou pour créer des messages marketing personnalisés et des campagnes plus susceptibles de répondre à votre audience cible.
+Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clients et les clientes en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible.
 
-Par exemple, vous pouvez ajouter à la table de travail du workflow des informations relatives aux achats des clients et utiliser ces données pour personnaliser les emails avec leur dernier achat ou le montant dépensé pour ces achats.
+Par exemple, vous pouvez ajouter au tableau de travail du workflow des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
 
-Pour ajouter une activité Enrichissement à votre workflow, procédez comme suit :
+Pour ajouter une activité Enrichissement à votre workflow, procédez comme suit :
 
 1. ajouter une activité
 1. sélectionner l’attribut à utiliser comme données d’enrichissement
 
-   bouton afficher les champs avancés
+   bouton i
+afficher les champs avancés
 
-   remarque : attributs de la dimension cible
+   note : attributs de la dimension cible
 
 1. Sélectionner la manière de collecter les données
-1. nombre d’enregistrements à récupérer si vous souhaitez récupérer une collection de plusieurs enregistrements
-1. Application de filtres et de règles de création
+1. le nombre d’enregistrements à récupérer si vous souhaitez récupérer une collection de plusieurs enregistrements
+1. Appliquer des filtres et créer des règles
 
-   sélectionner un filtre existant enregistrer le filtre pour réutiliser les résultats des vues du filtre visuellement ou en mode code
+   sélectionner un filtre existant
+enregistrer le filtre pour le réutiliser
+consulter les résultats du filtre visuellement ou sous forme de code
 
-1. tri des enregistrements à l’aide d’un attribut
+1. trier les enregistrements à l’aide d’un attribut
 
-exploiter les données d’enrichissement dans campaign
+tirer parti des données d’enrichissement dans les campagnes
 
-où nous pouvons utiliser les données d&#39;enrichissement : personnaliser l&#39;email, d&#39;autres cas pratiques ?
+application des données d’enrichissement : pour la personnalisation des e-mails et dans d’autres cas d’utilisation ?
