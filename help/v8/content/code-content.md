@@ -4,10 +4,10 @@ title: Coder votre propre contenu d’e-mail
 description: Découvrez comment coder votre propre contenu d’e-mail.
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '126'
-ht-degree: 100%
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 63%
 
 ---
 
@@ -23,9 +23,13 @@ Utilisez le mode **[!UICONTROL Coder le vôtre]** pour importer du code HTML bru
 
 1. Dans le volet de gauche, vous pouvez utiliser les fonctionnalités de personnalisation.
 
-1. Si vous souhaitez ouvrir le Concepteur d’e-mail pour créer un e-mail à partir d’une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu Options.
+1. Si vous souhaitez effacer le contenu de votre email et commencer votre email à partir d&#39;une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu options.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >Cette action ouvre le modèle sélectionné dans le Concepteur d&#39;email. À partir de là, vous pouvez soit terminer la conception de votre email, soit revenir à l’éditeur de code à l’aide du **[!UICONTROL Passer à l’éditeur de code]** .
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la conception et la personnalisation du message à l’aide de profils de test.
 
