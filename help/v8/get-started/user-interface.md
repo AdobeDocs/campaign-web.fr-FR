@@ -5,9 +5,9 @@ description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 2c5d4c46892ad9fa575e4ed56aa6fa599f1ece7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1366'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -288,7 +288,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="Abonnés aux applications"
+>title="Personnes abonnées à l’application"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
@@ -303,7 +303,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
->title="Enrichir des données"
+>title="Données d’enrichissement"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
@@ -328,12 +328,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
->title="Envoi de rapports"
+>title="Envoi des rapports"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
->title="Suivi des rapports"
+>title="Tracking des rapports"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
@@ -343,12 +343,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="Statistiques cibles des rapports"
+>title="Rapports sur les statistiques cibles"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Reporting agrégé : sélectionner une diffusion"
+>title="Reporting agrégé : sélectionner une diffusion"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
@@ -374,10 +374,10 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="complémentaire de déduplication"
+>title="Complémentaire de déduplication"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Dimension complémentaire"
+>title="Complémentaire de dimension"
 >abstract="À déterminer"
