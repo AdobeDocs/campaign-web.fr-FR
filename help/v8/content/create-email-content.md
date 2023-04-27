@@ -5,9 +5,9 @@ description: Découvrez comment concevoir le contenu des e-mails en partant de z
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
 source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -88,11 +88,11 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de l’e-mail à partir des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
-1. Cliquez sur l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui doivent être trackées. Vous pouvez modifier le **[!UICONTROL Type de tracking]** ou le **[!UICONTROL Libellé]**, ainsi qu’ajouter des **[!UICONTROL Catégories]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md).
+1. Cliquez sur l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui doivent être trackées. Vous pouvez modifier le **[!UICONTROL Type de tracking]** ou le **[!UICONTROL Libellé]**, ainsi qu’ajouter des **[!UICONTROL Catégories]** si nécessaire. [En savoir plus sur le tracking des liens et des messages](message-tracking.md).
 
    ![](assets/email_designer_7.png)
 
-1. Si nécessaire, vous pouvez personnaliser davantage votre email en cliquant sur **[!UICONTROL Passer à l’éditeur de code]** dans le menu avancé afin de travailler directement sur le code source de votre email. [En savoir plus sur l’éditeur de code](code-content.md).
+1. Si nécessaire, vous pouvez personnaliser davantage votre e-mail en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé, afin de travailler directement sur le code source de votre e-mail. [En savoir plus sur l’éditeur de code](code-content.md).
 
    >[!CAUTION]
    >
