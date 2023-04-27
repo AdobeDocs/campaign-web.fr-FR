@@ -5,9 +5,9 @@ description: Découvrez comment importer des destinataires à partir d’un fich
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Lors de la création et de la personnalisation du contenu du message, vous pouve
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="Exemple de fichier"
->abstract="Formats de fichiers pris en charge : txt, csv, xls. Utiliser la première ligne comme titre des colonnes."
+>abstract="Formats de fichiers pris en charge : txt, csv, xls. Utiliser la première ligne comme en-tête de colonne."
 
 
 ```json
