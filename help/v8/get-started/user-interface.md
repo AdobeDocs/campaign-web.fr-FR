@@ -5,7 +5,7 @@ description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 2c5d4c46892ad9fa575e4ed56aa6fa599f1ece7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 100%
 
