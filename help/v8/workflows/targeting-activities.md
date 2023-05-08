@@ -5,9 +5,9 @@ description: Découvrez comment utiliser les activités de ciblage dans les work
 badge: label="Alpha" type="Positive"
 exl-id: ffd58dbc-9207-4c1c-bad5-a208378621cf
 source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '48'
+ht-degree: 100%
 
 ---
 
@@ -15,4 +15,4 @@ ht-degree: 0%
 
 contenu à déterminer
 
-<!--à reformuler-->Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l&#39;aide des opérations d&#39;intersection, d&#39;union ou d&#39;exclusion.
+<!--à reformuler-->Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
