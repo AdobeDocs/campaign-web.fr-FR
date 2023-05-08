@@ -7,7 +7,7 @@ exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 53%
+ht-degree: 59%
 
 ---
 
@@ -40,4 +40,4 @@ Pour créer un workflow, procédez comme suit :
 
 À déterminer : illustration de l’ensemble du processus, avec explication et référence aux pages du document
 
-créer et définir des propriétés > orchestrer les activités dans la zone de travail > configurer les paramètres si nécessaire > lancer l’exécution et suivre
+Créer et définir les propriétés > orchestrer les activités dans la zone de travail > configurer les paramètres si nécessaire > démarrer l’exécution et surveiller
