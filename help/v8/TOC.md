@@ -6,9 +6,9 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
 source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,13 +74,13 @@ ht-degree: 93%
    + Créer votre premier workflow {#create-workflow}
       + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
       + [Créer un workflow](workflows/create-workflow.md)
-      + [Orchestration des activités de workflow](workflows/build-workflow.md)
-      + [Configuration des paramètres de workflow](workflows/workflow-settings.md)
-      + [Démarrage et surveillance d’un workflow](workflows/start-monitor-workflows.md)
-   + [Accès et gestion des workflows](workflows/access-monitor.md)
-   + Utilisation des activités de workflow {#design-workflows}
+      + [Orchestrer les activités de workflow](workflows/build-workflow.md)
+      + [Configurer les paramètres de workflow](workflows/workflow-settings.md)
+      + [Démarrer et surveiller un workflow](workflows/start-monitor-workflows.md)
+   + [Accéder à vos workflows et les gérer](workflows/access-monitor.md)
+   + Utiliser les activités de workflow {#design-workflows}
       + [Activités de ciblage](workflows/targeting-activities.md)
       + [Activités des canaux](workflows/channel-activities.md)
       + [Activités de gestion des données](workflows/data-management-activities.md)
-+ [Créer des rapports](reporting/reports.md)
++ [Rapports](reporting/reports.md)
 
