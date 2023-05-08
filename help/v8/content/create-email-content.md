@@ -5,9 +5,9 @@ description: Découvrez comment concevoir le contenu des e-mails en partant de z
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
 source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '528'
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
    ![](assets/email_designer_7.png)
 
-1. Si nécessaire, vous pouvez personnaliser davantage l’e-mail en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. Vous pouvez ainsi modifier le code source de l’email, par exemple pour ajouter des balises de HTML de suivi ou personnalisées. [En savoir plus sur l’éditeur de code](code-content.md).
+1. Si nécessaire, vous pouvez personnaliser davantage l’e-mail en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. Vous pouvez modifier le code source de l’e-mail, par exemple pour ajouter des balises HTML de tracking ou personnalisées. [En savoir plus sur l’éditeur de code](code-content.md).
 
    >[!CAUTION]
    >
