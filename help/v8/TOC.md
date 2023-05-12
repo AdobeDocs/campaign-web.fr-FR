@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 4bfe96782dc34d641144e4a6e744c262a79a1a7e
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 96%
 
 ---
 
@@ -71,13 +71,13 @@ ht-degree: 100%
    + [Créer votre première campagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Prise en main des workflows](workflows/gs-workflows.md)
+   + [Accès et gestion des workflows](workflows/access-monitor.md)
    + Créer votre premier workflow {#create-workflow}
       + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
-      + [Créer un workflow](workflows/create-workflow.md)
-      + [Orchestrer les activités de workflow](workflows/build-workflow.md)
+      + [Créer le workflow](workflows/create-workflow.md)
+      + [Ajouter et configurer des activités de workflow](workflows/build-workflow.md)
       + [Configurer les paramètres de workflow](workflows/workflow-settings.md)
       + [Démarrer et surveiller un workflow](workflows/start-monitor-workflows.md)
-   + [Accéder à vos workflows et les gérer](workflows/access-monitor.md)
    + Utiliser les activités de workflow {#design-workflows}
       + [Activités de ciblage](workflows/targeting-activities.md)
       + [Activités des canaux](workflows/channel-activities.md)
