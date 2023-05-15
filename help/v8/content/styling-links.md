@@ -4,10 +4,10 @@ title: Définir un style pour les liens
 description: Découvrez comment définir un style pour les liens.
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '144'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 1. Dans un composant **[!UICONTROL Texte]** contenant un lien, sélectionnez ce dernier.
 
-1. Dans le menu **[!UICONTROL Paramètres des composants]**, cochez **[!UICONTROL Souligner le lien]** pour que le libellé soit souligné.
+1. Dans le **[!UICONTROL Paramètres]** onglet, vérifier **[!UICONTROL Lien de soulignement]** pour que le libellé soit souligné.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
    ![](assets/link_2.png)
 
-1. Pour modifier la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]** dans le volet de droite.
+1. Pour modifier la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]** de la **[!UICONTROL Styles]** .
 
    ![](assets/link_3.png)
 

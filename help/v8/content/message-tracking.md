@@ -4,10 +4,10 @@ title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 1. Enregistrez vos modifications.
 
-1. Une fois le lien créé, vous pouvez encore le modifier à partir du volet **[!UICONTROL Paramètres des composants]** à droite.
+1. Une fois le lien créé, vous pouvez toujours le modifier à partir de la fonction **[!UICONTROL Paramètres]** .
 
    * Vous pouvez modifier le lien ainsi que sa **[!UICONTROL Cible]**.
    * Vous pouvez choisir de souligner le lien en cochant l’option correspondante.

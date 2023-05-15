@@ -3,13 +3,13 @@ audience: end-user
 title: Ajouter un lien vers la page miroir
 description: Découvrez comment ajouter et gérer le lien vers la page miroir.
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
-
 
 # Ajouter un lien vers la page miroir{#mirror-page}
 
@@ -33,7 +33,7 @@ Pour ajouter un lien vers une page miroir dans l’e-mail :
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. Sélectionnez l’icône **[!UICONTROL Insérer un lien]** pour accéder au menu de personnalisation.
+1. Sélectionnez la **[!UICONTROL Ajouter une personnalisation]** pour accéder au menu de personnalisation.
 
    ![](assets/message-tracking-mirror-page_2.png)
 

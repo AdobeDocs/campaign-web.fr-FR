@@ -4,10 +4,10 @@ title: Ajouter un pré-titre dans le Concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails.
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '217'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 96%
 
 ---
 
@@ -34,13 +34,9 @@ Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
    ![](assets/preheader_body.png)
 
-1. Dans le volet de droite **[!UICONTROL Paramètres du corps]**, cliquez sur l’icône de modification à côté du champ **[!UICONTROL Pré-titre]** pour ajouter du contenu.
+1. Dans la **[!UICONTROL Paramètres]** ajoutez votre pré-titre. Vous pouvez le personnaliser davantage en cliquant sur l’icône **[!UICONTROL Ajouter une personnalisation]**.
 
    ![](assets/preheader_body_settings.png)
-
-1. Ajoutez le pré-titre. Vous pouvez le personnaliser davantage en cliquant sur l’icône **[!UICONTROL Ajouter une personnalisation]**.
-
-   ![](assets/preheader_3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier la personnalisation]**, vous pouvez ajouter un **[!UICONTROL Bloc de contenu]**, du **[!UICONTROL Contenu dynamique]** ou des **[!UICONTROL Champs de personnalisation]**.
 

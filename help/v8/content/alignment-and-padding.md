@@ -4,10 +4,10 @@ title: Ajuster l’alignement vertical et la marge intérieure dans le concepteu
 description: Découvrez comment ajuster l’alignement vertical et la marge intérieure.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ Dans cet exemple, nous ajustons la marge intérieure et l’alignement vertical 
 
    ![](assets/alignment_2.png)
 
-1. Les paramètres modifiables pour cette colonne sont affichés dans le menu **[!UICONTROL Paramètres de colonne]** à droite. Ajustez l’**[!UICONTROL Alignement vertical]** à l’aide de la section dédiée.
+1. Les paramètres éditables de cette colonne sont affichés dans la **[!UICONTROL Styles]** . Réglez les **[!UICONTROL Alignement]** à l’aide de la section dédiée.
 
    ![](assets/alignment_3.png)
 
