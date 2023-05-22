@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 23%
+source-wordcount: '303'
+ht-degree: 22%
 
 ---
 
@@ -19,6 +19,14 @@ Concevez et exécutez des campagnes par e-mail à volume élevé pour diffuser d
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Grâce aux fonctionnalités de segmentation d&#39;Adobe Campaign, vous pouvez exécuter des requêtes sur une base de données volumineuse et définir facilement des segments de marketing dynamique qui ciblent parfaitement vos campagnes.
 
 ## Créer une campagne cross-canal {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Liste des workflows"
+>abstract="Liste des workflows disponibles pour votre campagne. Utilisez le bouton &quot;Créer un workflow&quot; pour ajouter un workflow à votre campagne."
+
+
 
 Dans une campagne cross-canal, une communication marketing unique utilise différents canaux. Les données sont transmises entre les canaux. Le client reçoit la communication par le biais de plusieurs canaux en fonction, par exemple, de son interaction avec la communication précédente.
 
