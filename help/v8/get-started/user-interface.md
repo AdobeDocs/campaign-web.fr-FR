@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 94%
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Modèle de notification push"
 >abstract="À déterminer"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Propriétés de création de campagne"
->abstract="Définissez les propriétés et les métadonnées de la campagne."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Planning de création de campagne"
->abstract="Définissez le planning de l&#39;opération."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Définition des colonnes"
->abstract="À déterminer"
+>abstract="Sélectionnez les colonnes à insérer à partir du fichier."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Paramètres de formatage"
->abstract="À déterminer"
+>abstract="Définissez les paramètres de formatage de votre fichier."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -394,25 +385,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Champs avancés du sélecteur d’attributs"
->abstract="À déterminer"
+>abstract="Configurez les colonnes avec des champs avancés."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Champs avancés du créateur de règles"
->abstract="À déterminer"
+>abstract="Configurez les colonnes avec des champs avancés."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="Propriétés de diffusion SMS"
->abstract="À déterminer"
+>abstract="Gérez les propriétés de la diffusion SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Propriétés de diffusion push"
->abstract="À déterminer"
+>abstract="Gérez les propriétés de la diffusion push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nouvelle mesure de mises en quarantaine"
->abstract="À déterminer"
+>abstract="Nouvelle mesure de mise en quarantaine."
 
