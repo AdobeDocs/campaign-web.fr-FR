@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 22%
+source-wordcount: '282'
+ht-degree: 23%
 
 ---
 
@@ -28,6 +28,11 @@ Dans une campagne cross-canal, une communication marketing unique utilise diffé
 >id="acw_campaign_creation_properties"
 >title="Propriétés de création de campagne"
 >abstract="Définissez les propriétés et les métadonnées de la campagne."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Propriétés de la campagne"
+>abstract="Définissez les paramètres et les métadonnées de votre campagne."
 
 Les propriétés de la campagne s’affichent lorsque vous créez une campagne.
 
