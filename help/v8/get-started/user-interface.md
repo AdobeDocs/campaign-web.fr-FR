@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 93%
+source-wordcount: '1558'
+ht-degree: 85%
 
 ---
 
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Synthèse du rapport SMS"
->abstract="À déterminer"
+>abstract="Découvrez les mesures de création de rapports pour votre diffusion SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Synthèse du rapport des notifications push"
->abstract="À déterminer"
+>abstract="Découvrez les mesures de création de rapports pour votre diffusion push."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Attributs avancés du créateur de règles"
->abstract="À déterminer"
+>abstract="Utilisez des attributs avancés pour définir votre règle."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenu de notification push pour Android"
->abstract="À déterminer"
+>abstract="Définissez le contenu Android push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenu de notification push pour iOS"
->abstract="À déterminer"
+>abstract="Définissez le contenu iOS push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Envoi des rapports"
->abstract="À déterminer"
+>abstract="Consultez les indicateurs d&#39;envoi pour le reporting de l&#39;opération."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracking des rapports"
->abstract="À déterminer"
+>abstract="Consultez les indicateurs de tracking pour le reporting de l&#39;opération."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Présentation des rapports"
->abstract="À déterminer"
+>abstract="Mesures clés de votre diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Rapports sur les statistiques cibles"
->abstract="À déterminer"
+>abstract="Cette section affiche des mesures spécifiques en fonction des audiences."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Reporting agrégé : sélectionner une diffusion"
->abstract="À déterminer"
+>title="Rapports agrégés pour les diffusions"
+>abstract="Sélectionnez au moins deux diffusions pour afficher un rapport de données agrégées."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Liste des workflows"
->abstract="À déterminer"
+>abstract="Liste des workflows disponibles pour votre campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Autorisation requise"
->abstract="À déterminer"
+>abstract="Avant de pouvoir créer un segment, votre administrateur doit vous accorder des autorisations."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Autorisation requise"
->abstract="À déterminer"
+>abstract="Avant de pouvoir créer un segment, votre administrateur doit vous accorder des autorisations."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Nouvelle mesure de mises en quarantaine"
 >abstract="Nouvelle mesure de mise en quarantaine."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Sélection du modèle de SMS"
+>abstract="Sélectionnez un modèle prédéfini pour démarrer votre diffusion SMS."
