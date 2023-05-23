@@ -4,14 +4,14 @@ title: Cibler les destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer votre audience de courrier électronique
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 23%
 
 ---
 
-# Cibler les destinataires à partir d’un fichier {#audience-from-file}
+# Chargement des destinataires à partir d’un fichier {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
