@@ -4,10 +4,10 @@ title: Prise en main des audiences
 description: Découvrez comment utiliser les audiences dans l’interface utilisateur web de Campaign.
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Pour définir l’audience, vous pouvez :
 
 * Utilisez une audience existante. [En savoir plus](add-audience.md)
 * Créez une audience. [En savoir plus](segment-builder.md)
-* Importez une audience à partir d’un fichier. [En savoir plus](import-audience.md)
+* Utilisez une audience provenant d’un fichier externe. [En savoir plus](file-audience.md)
 * Utilisez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md)
 
 Vous pouvez également définir des populations témoins afin d’éviter d’envoyer des messages à une partie de votre audience et pour mesurer l’impact de vos campagnes. [En savoir plus](control-group.md)
