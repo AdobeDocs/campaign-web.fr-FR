@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -273,11 +273,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Définissez le contenu iOS push."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_sms_content"
->title="Contenu SMS"
->abstract="Définition du contenu des SMS."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Personnes abonnées à l’application"
 >abstract="Prévisualisez et testez le message en ajoutant des abonnés à l’application à la cible principale. "
@@ -368,11 +363,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_rulebuilder_advancedfields"
 >title="Champs avancés du créateur de règles"
 >abstract="Configurez les colonnes avec des champs avancés."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_properties"
->title="Propriétés de diffusion SMS"
->abstract="Gérez les propriétés de la diffusion SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
