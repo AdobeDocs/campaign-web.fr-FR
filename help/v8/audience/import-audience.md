@@ -1,34 +1,40 @@
 ---
 audience: end-user
-title: Importer des destinataires à partir d’un fichier
-description: Découvrez comment importer des destinataires à partir d’un fichier externe.
+title: Cibler les destinataires à partir d’un fichier
+description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer votre audience de courrier électronique
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
+source-git-commit: a6c85aeed30726532ab6060fec5cb4b5e398d9ec
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 37%
 
 ---
 
-# Importer des destinataires à partir d’un fichier {#audience-from-file}
+# Cibler les destinataires à partir d’un fichier {#audience-from-file}
 
-Vous pouvez ajouter ou mettre à jour des contacts dans l’interface de diffusion. Il vous suffit de télécharger un fichier texte (TXT) ou un fichier avec des valeurs séparées par des virgules (CSV). Ils seront ensuite ajoutés à la base de données.
+Vous pouvez transférer des contacts depuis un fichier externe. Cette fonctionnalité est uniquement disponible pour les diffusions email. Les formats pris en charge sont les suivants : fichier texte (TXT) ou fichier de valeurs séparées par des virgules (CSV). Ils seront ensuite ajoutés à la base de données.
 
 >[!NOTE]
 >
->Vous pouvez également créer un workflow d’importation pour ajouter ou mettre à jour plusieurs profils.
+>Vous pouvez créer un workflow d&#39;import pour ajouter ou mettre à jour plusieurs profils.  En savoir plus
 
 
-Pour ajouter des profils à partir d’un fichier local directement dans l’interface, procédez comme suit :
+Pour cibler des profils à partir d’un fichier local directement à partir de l’interface, procédez comme suit :
 
-1. Dans la fenêtre de création de la diffusion, cliquez sur le bouton **Sélectionner une audience**, puis sur l’option **Sélectionner dans un fichier**.
+1. Dans la fenêtre de création d&#39;une diffusion email, cliquez sur le bouton **Sélection de l’audience** et sélectionnez l’option **Sélectionner dans le fichier** .
+
+   ![](assets/select-from-file.png)
+
 1. Sélectionnez le fichier local à télécharger.
-1. Définissez les paramètres des colonnes et de format des données. Vous pouvez ignorer une colonne à l’aide du bouton (bascule) **Ignorer la colonne**.
 1. Prévisualisez le mappage des données dans la section centrale de l’écran.
+1. Sélectionnez la colonne contenant l&#39;adresse email parmi les **Champ d’adresse** menu déroulant.
+1. Ajustez les paramètres des colonnes et comment formater les données à partir des options disponibles.
 1. Cliquez sur **Confirmer** une fois que les paramètres sont corrects.
 
 Lors de la création et de la personnalisation du contenu du message, vous pouvez sélectionner des champs dans le fichier d’entrée de l’éditeur de personnalisation.
+
+![](assets/select-external-perso.png)
 
 ## Exemple de fichier {#sample-file}
 
@@ -40,10 +46,10 @@ Lors de la création et de la personnalisation du contenu du message, vous pouve
 
 ```json
 {
-lastname,firstname,birthdate,email,crmID
-Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
-Mars,Daniel,17/11/1987,dannymars@example.com,123545
-Smith,Clara,08/02/1989,clara.smith@example.com,124567
-Durance,Allison,15/12/1978,allison.durance@example.com,120987
+lastname,firstname,city,birthdate,email,denylist
+Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+Mars,Daniel,London,17/11/1999,dannymars@example.com,0
+Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
