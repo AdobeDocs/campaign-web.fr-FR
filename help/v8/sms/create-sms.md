@@ -5,8 +5,8 @@ description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe�
 badge: label="Alpha" type="Positive"
 source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '276'
+ht-degree: 12%
 
 ---
 
