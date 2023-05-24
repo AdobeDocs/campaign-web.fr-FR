@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1535'
+ht-degree: 83%
 
 ---
 
@@ -86,12 +86,12 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campagnes"
->abstract="Il s’agit de la liste de vos campagnes. Vous pouvez afficher des informations utiles telles que leurs dates de début, de fin ou de dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Des modèles de campagne sont également disponibles. Ces listes sont en lecture seule."
+>abstract="Il s’agit de la liste de vos campagnes. Vous pouvez afficher des informations utiles telles que leurs dates de début, de fin ou de dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Cliquez sur le bouton &quot;Créer une campagne&quot; pour ajouter une nouvelle campagne. Sélectionnez une opération pour afficher son contenu, ses diffusions et ses détails. Accédez à l&#39;onglet &quot;Modèles&quot; pour afficher et créer des modèles."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Diffusions"
->abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les indicateurs clés de performance. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur une diffusion e-mail pour ouvrir son tableau de bord. Les autres éléments sont en lecture seule. Des modèles de diffusion sont également disponibles."
+>abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur statut, les dates de contact et de modification, les indicateurs clés de performance. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur le bouton &quot;Créer une diffusion&quot; pour ajouter une nouvelle diffusion. Sélectionnez une diffusion pour afficher son contenu, son audience et ses détails."
 
 * **Campagnes** - Il s’agit de la liste de vos campagnes. Par défaut, vous pouvez afficher leurs dates de début/fin/dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Des modèles de campagne sont également disponibles. Ces listes sont en lecture seule.
 
