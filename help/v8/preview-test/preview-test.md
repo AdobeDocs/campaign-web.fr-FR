@@ -4,10 +4,10 @@ title: À propos de la prévisualisation et du test des e-mails
 description: Découvrez comment prévisualiser et tester des e-mails.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ Avant d’envoyer un e-mail, il est important de vérifier et de tester son cont
 Pour ce faire, Adobe Campaign vous permet d’effectuer les opérations suivantes :
 
 * [Prévisualiser le contenu et la personnalisation de l’e-mail](preview-content.md),
-   <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [Vérifier le rendu des emails](#rendering) dans les clients de bureau, mobiles et web les plus courants,
 * [Envoyer des e-mails de test](proofs.md) à des destinataires spécifiques à des fins de test et de validation.
 
 Ces actions peuvent être effectuées à partir du bouton **[!UICONTROL Simuler du contenu]**, accessible lors de la création du contenu de votre e-mail à partir du concepteur d’e-mail :

@@ -4,10 +4,10 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 35%
+source-wordcount: '855'
+ht-degree: 40%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Campaign v8 propose les canaux de diffusion suivants :
 
 * **Canal applications mobiles** : les diffusions d&#39;applications mobiles vous permettent d&#39;envoyer des notifications aux systèmes iOS et Android.  Découvrez comment créer et envoyer des notifications push dans [cette page](../push/gs-push.md).
 
-## Création dʼune diffusion
+## Création dʼune diffusion {#create-delivery}
 
-Vous pouvez créer des diffusions autonomes à partir du **Diffusions** dans le menu de gauche, ou créez des diffusions dans le cadre d&#39;une campagne marketing, à partir de la **Campagnes** menu de gauche.
+Vous pouvez créer des diffusions autonomes à partir du **[!UICONTROL Diffusions]** dans le menu de gauche, ou créez des diffusions dans le cadre d&#39;une campagne marketing, à partir de la **[!UICONTROL Campagnes]** menu de gauche.
 
 >[!BEGINTABS]
 
@@ -47,45 +47,62 @@ Pour créer une diffusion autonome, procédez comme suit :
 1. Utilisez la variable  **[!UICONTROL Simulation du contenu]** pour tester votre diffusion et vos paramètres de personnalisation. En savoir plus sur la simulation des messages dans [cette section](../preview-test/preview-test.md).
 1. Cliquez sur le bouton  **[!UICONTROL Préparer]** pour calculer la population cible et générer les messages. L’étape de préparation peut prendre quelques minutes. Une fois la préparation terminée, les messages sont prêts à être envoyés. En cas d’erreur, accédez à la **Journaux** pour vérifier les alertes et les avertissements.
 1. Vérifiez les résultats, puis cliquez sur le bouton  **[!UICONTROL Envoyer]** pour commencer à envoyer des messages.
-1. Une fois les messages envoyés, accédez à la section Rapports pour accéder aux mesures clés. En savoir plus sur les rapports de diffusion dans [cette section](../reporting/reports.md).
+1. Une fois les messages envoyés, accédez à la **Rapports** pour accéder aux mesures clés. En savoir plus sur les rapports de diffusion dans [cette section](../reporting/reports.md).
 
 >[!TAB Créer une diffusion dans une campagne]
 
 Pour créer une diffusion dans une opération, procédez comme suit :
 
-1. Créez une campagne ou ouvrez une campagne existante.
+1. Créez une campagne ou ouvrez une campagne existante. En savoir plus sur [campagnes marketing](../campaigns/gs-campaigns.md).
 1. Créez un workflow ou ouvrez un workflow existant.
-1. Ajout et configuration d’une **Créer une audience** puis cliquez sur le bouton `+`bouton .
+1. Ajout et configuration d’une **[!UICONTROL Créer une audience]** puis cliquez sur le bouton `+`bouton .
+
    ![](assets/add-delivery-in-wf.png)
-1. Sélectionnez une activité de diffusion : Courriel, SMS, notification push (Android) ou notification push (iOS). En savoir plus sur les canaux de diffusion et la définition d&#39;un contenu de diffusion dans les sections suivantes :
 
-   * [Canal email](../email/create-email.md)
-   * [Canal des notifications push](../push/gs-push.md)
-   * [Canal SMS](../sms/create-sms.md)
+   Le **[!UICONTROL Créer une audience]** L’activité est présentée dans la section [cette section](../workflows/targeting-activities.md).
 
+1. Sélectionnez une activité de diffusion : **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]** ou **[!UICONTROL Notification push (iOS)]**. En savoir plus sur les activités des canaux de diffusion dans un workflow et comment définir un contenu de diffusion dans ce workflow [section](../workflows/channel-activities.md).
 1. Démarrez le workflow et vérifiez les logs.
 
-Pour plus d&#39;informations sur le paramétrage d&#39;une opération,
+Vous pouvez également ajouter des diffusions dans une campagne sans créer de workflow. Pour ce faire, accédez à la **[!UICONTROL Diffusions]** de votre campagne, puis cliquez sur l’onglet **[!UICONTROL Créer une diffusion]** bouton .
+
+![](assets/new-campaign-delivery.png)
+
+Les étapes de configuration sont similaires à celles des diffusions autonomes.
+
+Pour plus d&#39;informations sur la configuration d&#39;une opération et la gestion des diffusions qui appartiennent à une opération, reportez-vous à la section [cette section](../campaigns/gs-campaigns.md).
 
 >[!ENDTABS]
 
 
-## Choisir comment envoyer vos messages{#gs-send-msg}
-
-Une fois votre message créé et son contenu conçu et testé, vous pouvez choisir la façon dont vous souhaitez l&#39;envoyer.
-
-Campaign offre un ensemble de fonctionnalités pour :
-
-* Envoyer les messages manuellement à la cible principale
-
-* Envoyer des messages associés à une [campagne marketing](../campaigns/gs-campaigns.md)
-
-* Envoyer des messages via un [workflow](../workflows/channel-activities.md)
-
-
 ## Ajouter de la personnalisation{#personalization}
 
-Les messages diffusés par Adobe Campaign peuvent être personnalisés de différentes façons
+Les messages diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. [En savoir plus sur les fonctionnalités de personnalisation](../personalization/personalize.md).
+
+Utilisez Campaign pour créer du contenu dynamique et envoyer des messages personnalisés. Vous pouvez cumuler les fonctionnalités de personnalisation afin d’améliorer vos messages et créer une expérience utilisateur personnalisée.
+
+Vous pouvez personnaliser le contenu du message en procédant comme suit :
+
+* Insérer des **champs de personnalisation** dynamiques.
+
+   Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données de l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n’importe quel champ associé au ou à la destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. [En savoir plus](../personalization/personalize.md)
+
+* Insérer des **blocs de contenu** prédéfinis
+
+   Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation. [En savoir plus](../personalization/personalize.md#ootb-content-blocks)
+
+* Créer du **contenu conditionnel**
+
+   Configurez du contenu conditionnel et ajoutez une touche de personnalisation dynamique (basée sur le profil du ou de la destinataire, par exemple). Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. [En savoir plus](../personalization/conditions.md)
+
+* Ajouter **offres personnalisées**
+
+   Insérez des offres personnalisées dans le contenu de votre message, en fonction de l&#39;emplacement du destinataire, de la météo actuelle ou du dernier bon de commande.
+
+
+## Prévisualiser et tester vos diffusions
+
+Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin de contrôler le rendu de vos messages, et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](preview.md)
 
 
 ## Logs de tracking et de diffusion{#gs-tracking-logs}
