@@ -4,10 +4,10 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '1296'
-ht-degree: 100%
+source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+workflow-type: tm+mt
+source-wordcount: '1308'
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Dans ce cas d’utilisation, vous utilisez un modèle prédéfini pour concevoir
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Définir l’audience"
->abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance Campaign v8 ou dans Adobe Experience Platform ou choisir de créer une nouvelle audience à l’aide du créateur de règles."
+>abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance Campaign v8 ou dans Adobe Experience Platform ou choisir de créer une nouvelle audience à l’aide du créateur de règles. Les groupes de contrôle ne sont pas activés pour &quot;Select from file&quot; et vice versa."
 
 Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante. Des instructions supplémentaires sur l’utilisation des audiences sont disponibles dans [cette section](../audience/about-audiences.md).
 
