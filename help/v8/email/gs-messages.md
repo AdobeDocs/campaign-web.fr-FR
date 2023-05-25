@@ -4,10 +4,10 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 38%
+source-wordcount: '604'
+ht-degree: 35%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8 propose les canaux de diffusion suivants :
 
 ## Création dʼune diffusion
 
-Vous pouvez créer des diffusions autonomes à partir du **Diffusion** ou créer des diffusions dans le cadre d&#39;une campagne marketing.
+Vous pouvez créer des diffusions autonomes à partir du **Diffusions** dans le menu de gauche, ou créez des diffusions dans le cadre d&#39;une campagne marketing, à partir de la **Campagnes** menu de gauche.
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Pour créer une diffusion autonome, procédez comme suit :
 Pour créer une diffusion dans une opération, procédez comme suit :
 
 1. Créez une campagne ou ouvrez une campagne existante.
+1. Créez un workflow ou ouvrez un workflow existant.
+1. Ajout et configuration d’une **Créer une audience** puis cliquez sur le bouton `+`bouton .
+   ![](assets/add-delivery-in-wf.png)
+1. Sélectionnez une activité de diffusion : Courriel, SMS, notification push (Android) ou notification push (iOS). En savoir plus sur les canaux de diffusion et la définition d&#39;un contenu de diffusion dans les sections suivantes :
+
+   * [Canal email](../email/create-email.md)
+   * [Canal des notifications push](../push/gs-push.md)
+   * [Canal SMS](../sms/create-sms.md)
+
+1. Démarrez le workflow et vérifiez les logs.
 
 Pour plus d&#39;informations sur le paramétrage d&#39;une opération,
 
