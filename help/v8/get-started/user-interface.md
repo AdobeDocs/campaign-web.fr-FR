@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a1e515b1a70e8959755cace78a6999e973564153
+source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 74%
+source-wordcount: '1598'
+ht-degree: 72%
 
 ---
 
@@ -95,15 +95,15 @@ Navtree view depends on permissions (same as console).
 
 Dans la section CAMPAIGN MANAGEMENT , vous pouvez accéder aux opérations marketing, diffusions et workflows.
 
-* **Campagnes** - Il s’agit de la liste de vos campagnes et modèles de campagne. Par défaut, pour chaque opération, vous pouvez visualiser les dates de début/fin/création/dernière modification, l&#39;état actuel et le nom de l&#39;opérateur Campaign qui l&#39;a créée. Vous pouvez filtrer la liste par statut, dates de début/fin, dossier ou créer un filtre avancé afin de définir vos propres critères de filtrage.
+* **Campagnes** - Il s’agit de la liste de vos campagnes et modèles de campagne. Par défaut, pour chaque opération, vous pouvez visualiser les dates de début/fin/création/dernière modification, l&#39;état actuel et le nom de l&#39;opérateur Campaign qui l&#39;a créée. Vous pouvez filtrer la liste par statut, dates de début/fin, dossier ou créer un filtre avancé afin de définir vos propres critères de filtrage. En savoir plus sur les campagnes [dans cette section](../campaigns/gs-campaigns.md).
 
-* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Les modèles de diffusion sont également disponibles en lecture seule. Vous pouvez utiliser la console cliente pour les modifier. Consultez cette [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=fr){target="_blank"}.
+* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. En savoir plus sur les diffusions [dans cette section](../email/gs-messages.md).
 
    Utilisez le bouton **Autres actions** pour supprimer ou dupliquer une diffusion.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Workflows** - Dans cet écran, vous pouvez accéder à la liste complète des workflows et des modèles de workflows. Vous pouvez vérifier leur état, les dates de dernière exécution/prochaine exécution et créer un nouveau workflow ou un nouveau modèle de workflow. Vous pouvez filtrer la liste selon les mêmes critères que pour les autres objets. En outre, vous pouvez filtrer les workflows appartenant à une campagne ou non.
+* **Workflows** - Dans cet écran, vous pouvez accéder à la liste complète des workflows et des modèles de workflows. Vous pouvez vérifier leur état, les dates de dernière exécution/prochaine exécution et créer un nouveau workflow ou un nouveau modèle de workflow. Vous pouvez filtrer la liste selon les mêmes critères que pour les autres objets. En outre, vous pouvez filtrer les workflows appartenant à une campagne ou non. En savoir plus sur les workflows [dans cette section](../workflows/gs-workflows.md).
 
 
 ### Gestion des clients
@@ -126,7 +126,6 @@ Dans la section CAMPAIGN MANAGEMENT , vous pouvez accéder aux opérations marke
 * **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. Cette liste est en lecture seule.
 * **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Cette liste est en lecture seule.
 * **Listes d’abonnements** - Parcourez vos listes d’abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Cette liste est en lecture seule.
-* **Workflows de ciblage** - Accédez à votre liste de workflows de campagne. Par défaut, vous pouvez consulter leur état, les dates de leur dernier/prochain traitement et leur environnement. Vous pouvez filtrer la liste par état, date de dernier traitement et type de workflow. Des modèles de workflow sont également disponibles. Ces listes sont en lecture seule.
 
 ### Gestion des décisions
 
