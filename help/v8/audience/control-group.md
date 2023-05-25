@@ -4,10 +4,10 @@ title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
+workflow-type: tm+mt
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ Tous les profils faisant partie de la population témoin à l’étape de prépa
 Pour créer une population témoin, cliquez sur le bouton **[!UICONTROL Définir la population témoin]** à partir de la section **Audience** de l’assistant de création de diffusion.
 
 ![](assets/control-group1.png)
+
+>[!CAUTION]
+>
+>Vous ne pouvez pas utiliser de population témoin lors du chargement de la population cible. [à partir d’un fichier externe](file-audience.md).
+
 
 ## Extraire à partir de la cible {#extract-target}
 

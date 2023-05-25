@@ -4,10 +4,10 @@ title: Cibler les destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer votre audience de courrier électronique
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 23%
+source-wordcount: '288'
+ht-degree: 22%
 
 ---
 
@@ -50,6 +50,10 @@ Pour cibler des profils à partir d’un fichier local directement à partir de 
 Lors de la création et de la personnalisation du contenu du message, vous pouvez sélectionner des champs dans le fichier d’entrée de l’éditeur de personnalisation.
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>Vous ne pouvez pas utiliser [populations témoins](control-group.md) lors du chargement de la population cible à partir d&#39;un fichier externe.
 
 ## Exemple de fichier {#sample-file}
 

@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 83%
+source-wordcount: '1624'
+ht-degree: 75%
 
 ---
 
@@ -66,7 +66,7 @@ Global report not alpha
 >title="Explorateur"
 >abstract="Le menu **Explorateur** affiche la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous vos composants, dossiers et schémas Campaign v8. Tous les écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion e-mail."
 
-Le menu **Explorateur** affiche la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous vos composants, dossiers et schémas Campaign v8. Tous les écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion e-mail.
+Le menu **Explorateur** affiche la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous vos composants, dossiers et schémas Campaign v8.
 
 Les éléments affichés dans l’Explorateur dépendent de vos autorisations utilisateur.
 
@@ -93,13 +93,18 @@ Navtree view depends on permissions (same as console).
 >title="Diffusions"
 >abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur statut, les dates de contact et de modification, les indicateurs clés de performance. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur le bouton &quot;Créer une diffusion&quot; pour ajouter une nouvelle diffusion. Sélectionnez une diffusion pour afficher son contenu, son audience et ses détails."
 
-* **Campagnes** - Il s’agit de la liste de vos campagnes. Par défaut, vous pouvez afficher leurs dates de début/fin/dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Des modèles de campagne sont également disponibles. Ces listes sont en lecture seule.
+Dans la section CAMPAIGN MANAGEMENT , vous pouvez accéder aux opérations marketing, diffusions et workflows.
+
+* **Campagnes** - Il s’agit de la liste de vos campagnes et modèles de campagne. Par défaut, pour chaque opération, vous pouvez visualiser les dates de début/fin/création/dernière modification, l&#39;état actuel et le nom de l&#39;opérateur Campaign qui l&#39;a créée. Vous pouvez filtrer la liste par statut, dates de début/fin, dossier ou créer un filtre avancé afin de définir vos propres critères de filtrage.
 
 * **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Les modèles de diffusion sont également disponibles en lecture seule. Vous pouvez utiliser la console cliente pour les modifier. Consultez cette [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=fr){target="_blank"}.
 
    Utilisez le bouton **Autres actions** pour supprimer ou dupliquer une diffusion.
 
    ![](assets/more-actions.png){width="70%" align="left"}
+
+* **Workflows** - Dans cet écran, vous pouvez accéder à la liste complète des workflows et des modèles de workflows. Vous pouvez vérifier leur état, les dates de dernière exécution/prochaine exécution et créer un nouveau workflow ou un nouveau modèle de workflow. Vous pouvez filtrer la liste selon les mêmes critères que pour les autres objets. En outre, vous pouvez filtrer les workflows appartenant à une campagne ou non.
+
 
 ### Gestion des clients
 
