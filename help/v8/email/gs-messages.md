@@ -4,7 +4,7 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 40%
@@ -102,7 +102,7 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
 ## Prévisualiser et tester vos diffusions
 
-Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin de contrôler le rendu de vos messages, et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](preview.md)
+Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin de contrôler le rendu de vos messages, et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../preview-test/preview-test.md)
 
 
 ## Logs de tracking et de diffusion{#gs-tracking-logs}
