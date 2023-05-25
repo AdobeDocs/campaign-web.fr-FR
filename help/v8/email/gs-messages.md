@@ -4,10 +4,10 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
+source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 40%
+source-wordcount: '959'
+ht-degree: 36%
 
 ---
 
@@ -34,6 +34,9 @@ Vous pouvez créer des diffusions autonomes à partir du **[!UICONTROL Diffusion
 Pour créer une diffusion autonome, procédez comme suit :
 
 1. Accédez au **[!UICONTROL Diffusions]** dans le volet de navigation de gauche, puis cliquez sur l’icône **[!UICONTROL Créer une diffusion]** bouton .
+
+   ![](assets/create-a-delivery.png)
+
 1. Sélectionnez un canal pour la diffusion. En savoir plus sur les canaux de diffusion et la définition d&#39;un contenu de diffusion dans les sections suivantes :
 
    * [Canal email](../email/create-email.md)
@@ -108,3 +111,21 @@ Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin
 ## Logs de tracking et de diffusion{#gs-tracking-logs}
 
 La surveillance de vos diffusions après leur envoi est une étape clé pour vous assurer que vos campagnes marketing sont efficaces et atteignent vos clients. Vous pouvez ainsi surveiller une diffusion après son envoi et comprendre la gestion des diffusions en échec et des quarantaines.
+
+## Dupliquer une diffusion{#delivery-duplicate}
+
+Vous pouvez créer une copie d&#39;une diffusion existante, depuis la liste de diffusion ou depuis le tableau de bord de la diffusion.
+
+Pour dupliquer une diffusion à partir de la liste des diffusions, procédez comme suit :
+
+1. Cliquez sur le bouton des trois points à droite, en regard du nom de la diffusion à dupliquer.
+1. Sélectionner  **[!UICONTROL Dupliquer]**.
+1. Confirmer la duplication : le nouveau tableau de bord des diffusions s&#39;ouvre dans l&#39;écran central.
+
+
+Pour dupliquer une diffusion depuis son tableau de bord, procédez comme suit :
+
+1. Ouvrez la diffusion et cliquez sur le bouton  **[!UICONTROL ...Plus]** dans la section supérieure de l’écran.
+1. Sélectionner  **[!UICONTROL Dupliquer]**.
+1. Confirmer la duplication : la nouvelle diffusion remplace la diffusion actuelle dans l&#39;écran central.
+
