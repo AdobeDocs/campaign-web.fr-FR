@@ -7,15 +7,19 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 94%
+source-wordcount: '824'
+ht-degree: 78%
 
 ---
 
 
 # Personnaliser votre contenu{#add-personalization}
+
+Pour tirer le meilleur parti de chacune de vos campagnes marketing, Adobe Campaign permet de diffuser du contenu personnalisé adapté au profil de la clientèle. En fonction des données de profil, utilisez les fonctionnalités de personnalisation pour créer une expérience personnalisée pour différents groupes et individus : vous pouvez adapter vos messages à chaque destinataire spécifique en exploitant les données et informations dont vous disposez à son sujet. Il peut s’agir de son prénom, de ses centres d’intérêts, de l’endroit où il/elle vit, de ses achats et bien plus encore.
+
+Utilisez Campaign pour créer du contenu dynamique et envoyer des messages personnalisés. Vous pouvez cumuler les fonctionnalités de personnalisation afin d’améliorer vos messages et créer une expérience utilisateur personnalisée.
 
 Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
@@ -29,26 +33,27 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
 * Insérer des **blocs de contenu** prédéfinis
 
-   Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation.
+   Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers la page miroir d’un message électronique. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation.
 
    ![](assets/perso-content-blocks.png)
 
 * Créer du **contenu conditionnel**
 
-   Configurez du contenu conditionnel et ajoutez une touche de personnalisation dynamique (basée sur le profil du ou de la destinataire, par exemple). Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés.
+   Configurez du contenu conditionnel et ajoutez une touche de personnalisation dynamique (basée sur le profil du ou de la destinataire, par exemple). Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. Vous pouvez définir la version alternative du contenu lorsque la condition n’est pas vraie.
 
 
-## Personnaliser l’objet de l’e-mail {#personalize-subject-line}
+## Personnaliser l&#39;objet d&#39;un message {#personalize-subject-line}
 
 Pour ajouter de la personnalisation dans le champ **[!UICONTROL Objet]** du message, procédez comme suit :
 
-1. Cliquez sur l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** à droite du champ **[!UICONTROL Objet]**.
+1. Ouvrez une diffusion et cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Cliquez sur le bouton **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** à droite de la **[!UICONTROL Objet]** pour les emails, ou le champ **[!UICONTROL Titre]** des champs pour les diffusions push/SMS.
 
    ![](assets/perso-subject.png){width="600"}
 
-1. Saisissez le contenu de l’objet et sélectionnez les attributs de personnalisation à ajouter.
+1. Saisissez l’objet ou le titre, puis sélectionnez les attributs de personnalisation à ajouter.
 
-1. Cliquez sur **[!UICONTROL Confirmer]**** à valider. Les attributs de personnalisation sont ajoutés à l’objet.
+1. Cliquez sur **[!UICONTROL Confirmer]** pour valider. Les attributs de personnalisation sont ajoutés au contenu.
 
 ## Personnaliser le contenu de vos e-mails {#personalize-emails}
 
