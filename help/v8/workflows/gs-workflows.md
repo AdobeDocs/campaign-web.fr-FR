@@ -4,14 +4,20 @@ title: Prise en main des workflows
 description: Découvrez comment commencer avec les workflows.
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 95%
 
 ---
 
 # Prise en main des workflows {#workflows}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="Interface de zone de travail du workflow repensée"
+>abstract="Grâce à notre canevas graphique complet, vous pouvez facilement concevoir des processus tels que la segmentation, l’exécution de campagnes, etc."
+
 
 ## Qu’est-ce qu’un workflow ?
 

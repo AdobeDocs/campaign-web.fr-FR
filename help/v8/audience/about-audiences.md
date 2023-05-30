@@ -4,10 +4,10 @@ title: Prise en main des audiences
 description: Découvrez comment utiliser les audiences dans l’interface utilisateur web de Campaign.
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 94%
+source-wordcount: '146'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Prise en main des audiences"
->abstract="Découvrez comment gérer l’audience du contenu de vos e-mails."
+>abstract="Découvrez comment utiliser le créateur de règles de Campaign et définir des critères de filtrage pour créer des audiences pour vos messages."
 
 <!--
 Audience only created for the delivery, not available later-->
