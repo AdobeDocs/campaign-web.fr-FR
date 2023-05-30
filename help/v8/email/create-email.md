@@ -4,15 +4,20 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '1333'
+ht-degree: 94%
 
 ---
 
 
 # Envoyer votre premier e-mail {#first-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Envoyer votre premier email avec Adobe Campaign"
+>abstract="Découvrez comment utiliser le Concepteur d&#39;email pour créer votre contenu, le prévisualiser et le tester, puis envoyer un email à une audience existante dans un cas pratique de bout en bout."
 
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
 
@@ -20,7 +25,7 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
 
 ![](assets/delivery-list.png)
 
-## Créer l’e-mail {#create-email}
+## Créer la diffusion email {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
 >title="Propriétés de l’e-mail"
 >abstract="Les propriétés sont les paramètres de diffusion courants qui vous permettent de nommer et de classer votre diffusion. Si votre diffusion est basée sur un schéma étendu défini dans la console Adobe Campaign v8, des champs spécifiques d’**Options personnalisées** sont disponibles."
 
-1. Pour créer une diffusion, accédez au menu **[!UICONTROL Diffusions]** sur le rail de gauche, puis cliquez sur le  bouton **[!UICONTROL Créer une diffusion]**.
+Pour créer une diffusion, procédez comme suit :
+
+1. Accédez au **[!UICONTROL Diffusions]** sur le rail de gauche, puis cliquez sur le  **[!UICONTROL Créer une diffusion]** bouton .
 
 1. Sélectionnez **[!UICONTROL E-mail]** comme canal et choisissez un modèle.
 
@@ -60,11 +67,6 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
    En outre, vous pouvez accéder aux paramètres avancés, tels que les règles de typologie et les mappings de ciblage, en cliquant sur le bouton situé à côté du nom de la diffusion. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique.
 
 ## Créer le contenu de l’e-mail {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Conception du contenu de votre e-mail"
->abstract="Découvrez comment utiliser le concepteur d’e-mail"
 
 Des informations détaillées sur la configuration du contenu d’un e-mail sont disponibles dans [cette section](../content/edit-content.md).
 
