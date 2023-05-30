@@ -4,14 +4,15 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 36%
+source-wordcount: '956'
+ht-degree: 35%
 
 ---
 
-# Prise en main des messages dans Campaign Web {#gs-messages}
+# Prise en main des messages{#gs-messages}
+
 
 Avec Adobe Campaign, vous pouvez envoyer des campagnes cross-canal, y compris des emails, des SMS et des notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés. Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans le cadre d&#39;une campagne marketing.
 
@@ -50,7 +51,7 @@ Pour créer une diffusion autonome, procédez comme suit :
 1. Utilisez la variable  **[!UICONTROL Simulation du contenu]** pour tester votre diffusion et vos paramètres de personnalisation. En savoir plus sur la simulation des messages dans [cette section](../preview-test/preview-test.md).
 1. Cliquez sur le bouton  **[!UICONTROL Préparer]** pour calculer la population cible et générer les messages. L’étape de préparation peut prendre quelques minutes. Une fois la préparation terminée, les messages sont prêts à être envoyés. En cas d’erreur, accédez à la **Journaux** pour vérifier les alertes et les avertissements.
 1. Vérifiez les résultats, puis cliquez sur le bouton  **[!UICONTROL Envoyer]** pour commencer à envoyer des messages.
-1. Une fois les messages envoyés, accédez à la **Rapports** pour accéder aux mesures clés. En savoir plus sur les rapports de diffusion dans [cette section](../reporting/reports.md).
+1. Une fois les messages envoyés, accédez à la **Rapports** pour accéder aux mesures clés. En savoir plus sur les rapports de diffusion dans [cette section](../reporting/delivery-reports.md).
 
 >[!TAB Créer une diffusion dans une campagne]
 

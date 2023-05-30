@@ -4,9 +4,9 @@ title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '635'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # Préparation et envoi de votre e-mail {#prepare-send}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Préparation et envoi de votre e-mail"
->abstract="Découvrez comment préparer un e-mail et apprenez-en davantage sur les KPI d’envoi."
 
 <!--
 
