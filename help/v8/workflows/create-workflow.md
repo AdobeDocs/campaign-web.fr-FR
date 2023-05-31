@@ -4,9 +4,9 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
+source-git-commit: b47e64fc876b38c7ce59690b7a1ce162eee89cbf
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '663'
 ht-degree: 7%
 
 ---
@@ -21,27 +21,12 @@ ht-degree: 7%
 
 ## Créer le workflow {#create-workflow}
 
-La première étape pour créer votre workflow dans le Web de Campaign v8 consiste à le créer soit en tant que workflow autonome, soit directement dans une campagne, et à définir ses propriétés.
+La première étape pour créer votre workflow dans le Web Campaign v8 consiste à le créer soit comme un workflow autonome, soit directement dans une campagne et à définir ses propriétés générales. Pour ce faire, procédez comme suit :
 
-Pour ce faire, procédez comme suit :
+1. Commencez par décider si vous souhaitez créer un workflow autonome ou l&#39;intégrer directement dans une campagne :
 
-1. Commencez par décider si vous souhaitez créer un workflow autonome ou l’intégrer directement dans une campagne.
-
->[!BEGINTABS]
-
->[!TAB Créer un workflow autonome]
-
-Accédez au menu Workflows et cliquez sur le bouton Créer un workflow dans le coin supérieur droit.
-
-![](assets/workflow-create-standalone.png)
-
->[!TAB Créer un workflow de campagne]
-
-Accédez au menu Campagnes et ouvrez l&#39;opération dans laquelle vous souhaitez créer un nouveau workflow. Cliquez sur le bouton Créer un workflow dans le coin supérieur droit de l&#39;onglet Workflows .
-
-![](assets/workflow-create-campaign.png)
-
->[!ENDTABS]
+   * **Processus autonome**: Accédez au menu Workflows et cliquez sur le bouton Créer un workflow dans le coin supérieur droit.
+   * **Workflow de campagne :** Accédez au menu Campagnes et ouvrez l&#39;opération dans laquelle vous souhaitez créer un nouveau workflow. Cliquez sur le bouton Créer un workflow dans le coin supérieur droit de l&#39;onglet Workflows .
 
 1. La boîte de dialogue Propriétés du workflow s’affiche. Sélectionnez le modèle à utiliser pour créer le workflow et attribuez-lui un nom.
 
@@ -51,7 +36,7 @@ Accédez au menu Campagnes et ouvrez l&#39;opération dans laquelle vous souhait
 
    >[!NOTE]
    >
-   >Lors de la création d&#39;un workflow au sein d&#39;une opération, vous trouverez un champ Campaign supplémentaire qui vous permet d&#39;identifier facilement la campagne qui lui est associée et d&#39;y accéder.
+   >Lors de la création d&#39;un workflow au sein d&#39;une opération, vous trouverez un champ Campaign supplémentaire qui vous permet d&#39;identifier facilement la campagne associée au workflow et d&#39;y accéder.
 
 1. Cliquez sur le bouton Créer un workflow pour valider la création de votre workflow.
 
@@ -61,15 +46,13 @@ Une fois votre workflow créé, vous pouvez commencer à orchestrer les différe
 
 ## Orchestrer les activités de workflow {#build}
 
-Une fois que vous avez [création d’un workflow](create-workflow.md), que ce soit à partir du menu de workflow ou dans une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera.
-
-Pour ce faire, un canevas visuel est fourni, vous permettant de construire un diagramme de workflow. Dans ce diagramme, vous pouvez ajouter différentes activités et les connecter dans un ordre séquentiel.
+Une fois que vous avez [création d’un workflow](create-workflow.md), que ce soit à partir du menu de workflow ou dans une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera. Pour ce faire, un canevas visuel est fourni, vous permettant de construire un diagramme de workflow. Dans ce diagramme, vous pouvez ajouter différentes activités et les connecter dans un ordre séquentiel.
 
 A ce stade de la configuration, le diagramme s&#39;affiche avec une icône de démarrage représentant le début de votre workflow. Pour ajouter votre première activité, cliquez sur le bouton + connecté à l&#39;icône de début.
 
-![](assets/workflow-start.png)
+Une liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de workflow. Par exemple, lorsque vous ajoutez votre première activité, vous pouvez démarrer votre workflow en ciblant une audience, en fractionnant le chemin du workflow ou en définissant une activité Attente pour retarder l&#39;exécution du workflow. D’un autre côté, après une activité Créer une audience , vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de workflow avec des activités de contrôle de flux.
 
-Une liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de workflow. Par exemple, lorsque vous ajoutez votre première activité, vous pouvez démarrer votre workflow en ciblant une audience, en fractionnant le chemin du workflow ou en définissant une activité Attente pour retarder l&#39;exécution du workflow. D’un autre côté, si vous ajoutez une activité après une activité Créer une audience , vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de workflow avec des activités de contrôle de flux.
+![](assets/workflow-start.png)
 
 Une fois qu’une activité a été ajoutée au diagramme, un volet de droite s’affiche, vous permettant de configurer l’activité nouvellement ajoutée avec des paramètres spécifiques. Des informations détaillées sur la configuration de chaque activité sont disponibles dans la section [cette section](workflow-activities.md).
 
