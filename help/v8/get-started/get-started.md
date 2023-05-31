@@ -4,34 +4,35 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '405'
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+workflow-type: tm+mt
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
 
-# Prise en main de Campaign v8 Web {#get-started}
+# Prise en main de Campaign  Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Prise en main"
 >abstract="Découvrez les principales fonctionnalités, l’interface utilisateur et quelques conseils généraux."
 
->[!NOTE]
->
->Campaign v8 Web est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.
 
 Initialement uniquement accessible par le biais d’une [console cliente](#ac-client) riche, la nouvelle interface utilisateur web de Campaign offre une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
-
 
 ![](assets/home.png)
 
 Cette nouvelle interface utilisateur répond tout d’abord aux besoins des **professionnels et professionnelles**, car toutes les tâches d’administration standard ne sont pas disponibles dans cette première version. Elles seront intégrées dans les versions ultérieures. Notez que toutes les fonctionnalités ou options disponibles dans la console cliente ne sont pas disponibles pour l’instant dans la nouvelle interface utilisateur. De nouveaux cas d’utilisation, options et fonctionnalités seront disponibles dans les versions ultérieures.
 
 Si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas disponible dans l’interface utilisateur web, vous pouvez utiliser la [console cliente](#ac-client).
+
+
+>[!NOTE]
+>
+>Campaign v8 Web est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
 ## À propos de la console cliente Campaign{#ac-client}
 
