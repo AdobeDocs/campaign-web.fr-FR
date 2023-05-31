@@ -4,10 +4,10 @@ title: Utilisation des activités de workflows
 description: Découvrez comment workflows des activités
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
+source-git-commit: ebd119a38129f8576ad9b4e4b9301b116a255c9b
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 79%
+source-wordcount: '1140'
+ht-degree: 69%
 
 ---
 
@@ -22,9 +22,17 @@ Ces activités permettent de construire une ou plusieurs cibles en définissant 
 
 Cette activité permet de définir une audience. Vous pouvez sélectionner une instance Campaign existante ou utiliser le créateur de règles pour définir votre propre requête.
 
-Le **Créer une audience** peut être placée au début du workflow ou après toute autre activité. N’importe quelle activité peut être placée après le **Créer une audience**.
+<!--
+The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
+-->
 
-Pour créer votre propre requête :
+Procédez comme suit pour configurer la variable **Créer une audience** activité :
+
+1. Ajoutez une activité Créer une audience .
+1. Définir un libellé.
+1. Définissez le type d’audience : **Créez votre propre** ou **Lecture d’audience**.
+
+Pour créer votre propre requête, procédez comme suit :
 
 1. Sélectionner **Créez votre propre (requête)**.
 1. Choisissez la **Dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l&#39;opération : destinataires, bénéficiaires d&#39;un contrat, opérateur, abonnés, etc. Par défaut, la cible est sélectionnée parmi les destinataires. Reportez-vous à la section [Documentation v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
@@ -39,13 +47,31 @@ Pour sélectionner une audience existante, procédez comme suit :
 
 ### Combiner {#combine}
 
-Le **Combiner** peut être placée après toute autre activité, mais pas au début du workflow. N’importe quelle activité peut être placée après le **Combiner**.
+Cette activité permet de traiter des ensembles sur les données entrantes. Il est ainsi possible de regrouper plusieurs populations, d&#39;en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles. Voici les types de segmentation disponibles :
 
-Union : permet de regrouper le résultat de plusieurs activités dans une même cible. Pour plus d&#39;informations, consultez la section Union.
+<!--
+The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
+-->
 
-Intersection : permet de n&#39;extraire que la population commune aux résultats des activités entrantes
+* Le **Union** permet de regrouper le résultat de plusieurs activités dans une seule cible.
+* Le **Intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité.
+* Le **Exclusion** permet d&#39;exclure des éléments d&#39;une population selon certains critères.
 
-Exclusion : permet de créer une cible à partir d&#39;une cible principale de laquelle on extrait une ou plusieurs autres cibles.
+Procédez comme suit pour configurer la variable **Combiner** activité :
+
+1. Ajoutez vos **Combiner** à l’une des transitions de segmentation précédentes.
+1. Sélectionnez le type de segmentation : union, intersection ou exclusion.
+1. Cliquez sur **Continuer**.
+1. Dans le **Définit la jointure** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre.
+
+Pour le **Union** et **Intersection**, vous devez sélectionner la variable **Type de réconciliation** pour définir la gestion des doublons :
+
+    * Uniquement les clés : c&#39;est le mode par défaut. L&#39;activité ne conserve qu&#39;un élément lorsque des éléments provenant des différentes transitions entrantes ont la même clé. Cette option ne peut être utilisée que si les populations en entrée sont homogènes.
+    * Une sélection de colonnes : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d&#39;abord sélectionner l&#39;ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
+
+Pour le **Intersection** et **Exclusion**, vous pouvez vérifier la variable **Générer l’achèvement** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l&#39;activité.
+
+Pour le **Exclusion**, sélectionnez la variable **Principal** depuis les transitions entrantes, dans la **Définit la jointure** . C&#39;est l&#39;ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l&#39;ensemble principal.
 
 ### Enrichissement {#enrichment}
 
@@ -93,7 +119,6 @@ consulter les résultats du filtre visuellement ou sous forme de code
 tirer parti des données d’enrichissement dans les campagnes
 
 application des données d’enrichissement : pour la personnalisation des e-mails et dans d’autres cas d’utilisation ?
-
 
 ## Activités des canaux {#channel}
 
