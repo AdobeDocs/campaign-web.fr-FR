@@ -5,7 +5,8 @@ description: Découvrez comment créer et utiliser des modèles de diffusion dan
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 57%
@@ -70,5 +71,3 @@ Pour configurer un modèle de diffusion à partir de zéro, procédez comme suit
 1. Définissez le nom et les paramètres du modèle.
 1. Cliquez sur le bouton **[!UICONTROL Réviser]** pour définir le contenu du modèle et modifier ses propriétés.
 1. Enregistrez le nouveau modèle.
-
-
