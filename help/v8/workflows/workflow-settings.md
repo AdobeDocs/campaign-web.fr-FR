@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
-workflow-type: ht
-source-wordcount: '839'
-ht-degree: 100%
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,9 @@ Définir les paramètres disponibles à partir du bouton dans la zone de travail
 * Nom interne
 * Dossier
 * Campagne liée > modification possible. Si tel est le cas, le workflow disparaîtra de la campagne en cours et apparaîtra dans la nouvelle campagne liée.
+
+   Lors de la création d&#39;un workflow au sein d&#39;une opération, vous trouverez un champ Campaign supplémentaire qui vous permet d&#39;identifier facilement la campagne associée au workflow et d&#39;y accéder.
+
 * Fuseau horaire : définissez un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
 * Superviseur : lorsqu’un workflow est en erreur, la ou les personnes appartenant au groupe de supervision du workflow sont averties par e-mail, à condition que leur adresse e-mail soit indiquée dans leur profil. Ce groupe est sélectionné dans le champ **[!UICONTROL Superviseur(s)]** des propriétés de workflow.
 * description
