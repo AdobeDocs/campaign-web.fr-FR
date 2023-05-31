@@ -4,10 +4,10 @@ title: Prise en main des audiences
 description: Découvrez comment utiliser les audiences dans l’interface utilisateur web de Campaign.
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 83%
+source-wordcount: '162'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Prise en main des audiences"
->abstract="Découvrez comment utiliser le créateur de règles de Campaign et définir des critères de filtrage pour créer des audiences pour vos messages."
+>abstract="Découvrez comment utiliser le créateur de règles de Campaign et définir des critères de filtrage pour créer des audiences pour vos messages. Vous pouvez également facilement utiliser les données d’un fichier externe ou cibler des audiences Adobe Experience Platform."
 
 <!--
 Audience only created for the delivery, not available later-->
