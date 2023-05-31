@@ -4,10 +4,10 @@ title: Utilisation des activités de workflows
 description: Découvrez comment workflows des activités
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
+source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 78%
+source-wordcount: '904'
+ht-degree: 79%
 
 ---
 
@@ -40,6 +40,12 @@ Pour sélectionner une audience existante, procédez comme suit :
 ### Combiner {#combine}
 
 Le **Combiner** peut être placée après toute autre activité, mais pas au début du workflow. N’importe quelle activité peut être placée après le **Combiner**.
+
+Union : permet de regrouper le résultat de plusieurs activités dans une même cible. Pour plus d&#39;informations, consultez la section Union.
+
+Intersection : permet de n&#39;extraire que la population commune aux résultats des activités entrantes
+
+Exclusion : permet de créer une cible à partir d&#39;une cible principale de laquelle on extrait une ou plusieurs autres cibles.
 
 ### Enrichissement {#enrichment}
 
