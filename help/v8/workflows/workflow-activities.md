@@ -4,9 +4,9 @@ title: Utilisation des activités de workflows
 description: Découvrez comment workflows des activités
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 92444d4ee324f64a35f4cca0b40907bdf453732c
+source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '665'
 ht-degree: 98%
 
 ---
@@ -20,21 +20,9 @@ contenu à déterminer
 
 <!--à reformuler-->Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
+### Créer une audience {#build-audience}
 
-## Activités de contrôle de flux {#flow-control}
-
-contenu à déterminer
-
-<!--à reformuler-->Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
-
-Les activités de contrôle de flux servent à coordonner les activités de workflow.
-
-## Activités de gestion des données {#data-management}
-
-Vue d’ensemble : utilisation
-cas d’utilisation
-
-liste des activités disponibles + brève description + référence à la section
+### Combiner {#combine}
 
 ### Enrichissement {#enrichment}
 
@@ -82,3 +70,69 @@ consulter les résultats du filtre visuellement ou sous forme de code
 tirer parti des données d’enrichissement dans les campagnes
 
 application des données d’enrichissement : pour la personnalisation des e-mails et dans d’autres cas d’utilisation ?
+
+
+## Activités des canaux {#channel}
+
+Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux, tels que les e-mails, les SMS ou les notifications push. Avec les workflows Adobe Campaign, vous pouvez combiner des activités de canal dans la zone de travail afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement du client ou de la cliente.
+
+Vous pouvez par exemple créer une campagne par e-mail de bienvenue qui comprend une série de messages sur différents canaux, tels que les e-mails, les SMS et les notifications push. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente a effectué un achat, ou encore envoyer un message d’anniversaire personnalisé par SMS.
+
+Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent des clients et clientes sur plusieurs points de contact et génèrent des conversions.
+
+Les activités de canal sont disponibles à partir de la palette, dans la partie gauche de l’écran, dans la section Canaux.
+
+### E-mail {#email}
+
+description, les cas d’utilisation possibles (autres activités courantes que vous pouvez lier avant ou après l’activité)
+
+comment ajouter et configurer l’activité
+
+exemple d’activité configurée dans un workflow
+
+
+L’activité Diffusion E-mail permet de paramétrer l’envoi d’un e-mail dans un workflow.
+
+<!-- Scheduled emails available?
+
+This can be a single send email and sent just once, or it can be a recurring email.
+* Single send emails are standard emails, sent once.
+* Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+
+When linked to a scheduler, you can define recurring emails.-->
+
+Les destinataires des e-mails sont définis en amont de l’activité dans le même workflow, via une activité de ciblage d’audience.
+
+<!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
+
+### SMS {#sms}
+
+### Notification push (Android) {#push-android}
+
+### Notification push (iOS) {#push-ios}
+
+## Activités de contrôle de flux {#flow-control}
+
+contenu à déterminer
+
+<!--à reformuler-->Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
+
+Les activités de contrôle de flux servent à coordonner les activités de workflow.
+
+### Branchement {#fork}
+
+### Rendez-vous {#join}
+
+
+### Attente {#wait}
+
+### Fin {#end}
+
+## Activités de gestion des données {#data-management}
+
+Vue d’ensemble : utilisation
+cas d’utilisation
+
+liste des activités disponibles + brève description + référence à la section
+
