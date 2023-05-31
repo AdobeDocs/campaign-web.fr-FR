@@ -3,21 +3,24 @@ audience: end-user
 title: Utilisation de l’activité de workflow de courrier électronique
 description: Découvrez comment utiliser l’activité de workflow de courrier électronique
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 84%
+source-wordcount: '50'
+ht-degree: 74%
 
 ---
 
 
 # E-mail {#email}
 
-description, les cas d’utilisation possibles (autres activités courantes que vous pouvez lier avant ou après l’activité)
+<!--
+description, which use case you can perform (common other activities that you can link before of after the activity)
 
-comment ajouter et configurer l’activité
+how to add and configure the activity
 
-exemple d’activité configurée dans un workflow
+example of a configured activity within a workflow
+
+-->
 
 
 L’activité Diffusion E-mail permet de paramétrer l’envoi d’un e-mail dans un workflow.

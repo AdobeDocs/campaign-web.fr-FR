@@ -4,10 +4,10 @@ title: Utilisation des activités de workflows
 description: Découvrez comment workflows des activités
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 53%
+source-wordcount: '369'
+ht-degree: 51%
 
 ---
 
@@ -47,7 +47,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 Les activités ci-après sont spécifiques à l&#39;organisation et à l&#39;exécution du workflow. Leur principale tâche est de coordonner les autres activités:
 
 * Le [Et rejoindre](and-join.md) permet de synchroniser plusieurs branches d&#39;exécution d&#39;un workflow.
-* Le [Fin](end.md) est facultative. Vous pouvez utiliser pour
+* Le [Fin](end.md) vous permet de marquer graphiquement la fin d’un workflow. Ces activités n&#39;ont aucun impact fonctionnel et sont donc facultatives.
 * L&#39;activité [Branchement](fork.md) permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle.
 * L&#39;activité [Attente](wait.md) permet de suspendre momentanément l&#39;exécution d&#39;une partie d&#39;un workflow.
 
