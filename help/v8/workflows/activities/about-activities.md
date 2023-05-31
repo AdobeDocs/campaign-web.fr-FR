@@ -4,23 +4,31 @@ title: Utilisation des activités de workflows
 description: Découvrez comment workflows des activités
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 95%
+source-wordcount: '355'
+ht-degree: 53%
 
 ---
 
 
 # À propos des activités de workflows {#workflow-activities}
 
+Les activités de workflow sont regroupées en trois catégories. Selon le contexte, les activités disponibles peuvent différer.
+
+Toutes les activités sont présentées dans les sections ci-dessous :
+
+* [Activités de ciblage](#targeting)
+* [Activités des canaux](#channel)
+* [Activités de contrôle de flux](#flow-control)
+
 ## Activités de ciblage {#targeting}
 
-Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
+Ces activités sont spécifiques au ciblage, à la manipulation et à l&#39;enrichissement des données sur la population. Ils permettent de construire une ou plusieurs cibles en définissant une audience et en partitionnant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
-* [Créer une audience](build-audience.md)
-* [Combiner](combine.md)
-* [Enrichissement](enrichment.md)
+* Le [Créer une audience](build-audience.md) activité vous permet de définir votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le créateur de règles pour définir votre propre requête.
+* Le [Combiner](combine.md) activité permet d’effectuer une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
+* Le [Enrichissement](enrichment.md) activité vous permet de définir des données additionnelles à traiter dans votre workflow. Avec cette activité, vous pouvez utiliser la transition entrante et configurer l&#39;activité pour compléter la transition sortante avec des données additionnelles.
 
 ## Activités des canaux {#channel}
 
@@ -30,26 +38,18 @@ Vous pouvez par exemple créer une campagne par e-mail de bienvenue qui comprend
 
 Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent des clients et clientes sur plusieurs points de contact et génèrent des conversions.
 
-Les activités de canal sont disponibles à partir de la palette, dans la partie gauche de l’écran, dans la section Canaux.
-
 * [E-mail](email.md)
 * [Push](push.md)
 * [SMS](sms.md)
 
 ## Activités de contrôle de flux {#flow-control}
 
-contenu à déterminer
+Les activités ci-après sont spécifiques à l&#39;organisation et à l&#39;exécution du workflow. Leur principale tâche est de coordonner les autres activités:
 
-<!--à reformuler-->Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
-
-Les activités de contrôle de flux servent à coordonner les activités de workflow.
-
-
-* [Et rejoindre](and-join.md)
-* [Fin](end.md)
-* [Branchement](fork.md)
-* [Attente](wait.md)
-
+* Le [Et rejoindre](and-join.md) permet de synchroniser plusieurs branches d&#39;exécution d&#39;un workflow.
+* Le [Fin](end.md) est facultative. Vous pouvez utiliser pour
+* L&#39;activité [Branchement](fork.md) permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle.
+* L&#39;activité [Attente](wait.md) permet de suspendre momentanément l&#39;exécution d&#39;une partie d&#39;un workflow.
 
 <!--
 ## Data management activities {#data-management}

@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation de l’activité de workflow Créer l’audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 10%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # Créer une audience {#build-audience}
 
-Cette activité permet de définir une audience. Vous pouvez sélectionner une instance Campaign existante ou utiliser le créateur de règles pour définir votre propre requête.
+Cette activité permet de définir une audience. Vous pouvez sélectionner une audience existante ou utiliser le créateur de règles pour définir votre propre requête.
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
