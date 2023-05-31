@@ -4,10 +4,10 @@ title: Utilisation des activités de workflows
 description: Découvrez comment workflows des activités
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 98%
+source-wordcount: '853'
+ht-degree: 78%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 98%
 
 ## Activités de ciblage {#targeting}
 
-contenu à déterminer
-
-<!--à reformuler-->Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
+Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
 ### Créer une audience {#build-audience}
 
+Cette activité permet de définir une audience. Vous pouvez sélectionner une instance Campaign existante ou utiliser le créateur de règles pour définir votre propre requête.
+
+Le **Créer une audience** peut être placée au début du workflow ou après toute autre activité. N’importe quelle activité peut être placée après le **Créer une audience**.
+
+Pour créer votre propre requête :
+
+1. Sélectionner **Créez votre propre (requête)**.
+1. Choisissez la **Dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l&#39;opération : destinataires, bénéficiaires d&#39;un contrat, opérateur, abonnés, etc. Par défaut, la cible est sélectionnée parmi les destinataires. Reportez-vous à la section [Documentation v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Cliquez sur **Continuer**.
+1. Utilisez le créateur de règles pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel email. Reportez-vous à cette [section](../audience/segment-builder.md).
+
+Pour sélectionner une audience existante, procédez comme suit :
+
+1. Sélectionner **Lecture d’audience**.
+1. Cliquez sur **Continuer**.
+1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d&#39;un nouvel email. Reportez-vous à cette [section](../audience/add-audience.md).
+
 ### Combiner {#combine}
+
+Le **Combiner** peut être placée après toute autre activité, mais pas au début du workflow. N’importe quelle activité peut être placée après le **Combiner**.
 
 ### Enrichissement {#enrichment}
 
