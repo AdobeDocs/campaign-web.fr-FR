@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 38%
+source-wordcount: '439'
+ht-degree: 28%
 
 ---
 
@@ -23,9 +23,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * Le **Intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité.
 * Le **Exclusion** permet d&#39;exclure des éléments d&#39;une population selon certains critères.
 
+## Configuration
+
 Procédez comme suit pour configurer la variable **Combiner** activité :
 
-1. Ajoutez vos **Combiner** à l’une des transitions de segmentation précédentes.
+1. Ajoutez plusieurs activités, telles que **Créer une audience** pour former au moins deux branches d&#39;exécution différentes.
+1. Ajouter un **Combiner** à l’une des transitions de segmentation précédentes.
 1. Sélectionnez le type de segmentation : union, intersection ou exclusion.
 1. Cliquez sur **Continuer**.
 1. Dans le **Définit la jointure** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre.
@@ -38,3 +41,22 @@ Pour le **Union** et **Intersection**, vous devez sélectionner la variable **Ty
 Pour le **Intersection** et **Exclusion**, vous pouvez vérifier la variable **Générer l’achèvement** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l&#39;activité.
 
 Pour le **Exclusion**, sélectionnez la variable **Principal** depuis les transitions entrantes, dans la **Définit la jointure** . C&#39;est l&#39;ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l&#39;ensemble principal.
+
+## Exemples      
+
+Dans l’exemple suivant, nous avons ajouté une **union** qui récupère tous les profils des deux requêtes : personnes de 18 à 27 ans et personnes de 34 à 40 ans.
+
+![](../assets/workflow-union-example.png)
+
+L’exemple suivant illustre la variable **intersection** entre deux activités de requête. Il est utilisé ici pour récupérer les profils qui ont entre 18 et 27 ans et dont l&#39;adresse email a été renseignée.
+
+![](../assets/workflow-intersection-example.png)
+
+Les éléments suivants **exclusion** exemple affiche deux requêtes configurées pour filtrer les profils qui ont entre 18 et 27 ans et ont un domaine de messagerie adobe. Les profils avec un domaine de messagerie Adobe sont ensuite exclus du premier ensemble.
+
+![](../assets/workflow-exclusion-example.png)
+
+
+
+
+

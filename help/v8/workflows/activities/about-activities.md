@@ -4,7 +4,7 @@ title: Utilisation des activités de workflows
 description: Découvrez comment workflows des activités
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c842829915784654b7130563d36dea188e84ff3d
+source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 51%
@@ -22,7 +22,7 @@ Toutes les activités sont présentées dans les sections ci-dessous :
 * [Activités des canaux](#channel)
 * [Activités de contrôle de flux](#flow-control)
 
-![](../assets/wokflow-activities.png)
+![](../assets/workflow-activities.png)
 
 ## Activités de ciblage {#targeting}
 
