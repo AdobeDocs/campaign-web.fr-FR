@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Créer l’audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 9%
 
 ---
 
@@ -41,3 +41,7 @@ Pour sélectionner une audience existante, procédez comme suit :
 1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d&#39;un nouvel email. Reportez-vous à cette [section](../../audience/add-audience.md).
 
 ## Exemple
+
+Voici un exemple de workflow avec deux **Créer une audience** activités. Le premier cible l&#39;audience des joueurs de poker, suivi d&#39;une diffusion email. La seconde cible l&#39;audience des clients VIP, suivie d&#39;une diffusion SMS.
+
+![](../assets/workflow-audience-example.png)
