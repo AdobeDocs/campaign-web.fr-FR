@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner
 badge: label="Alpha" type="Positive"
-source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
+source-git-commit: 98b4b43427266d5f9580733d4674db938713296d
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 28%
@@ -35,8 +35,8 @@ Procédez comme suit pour configurer la variable **Combiner** activité :
 
 Pour le **Union** et **Intersection**, vous devez sélectionner la variable **Type de réconciliation** pour définir la gestion des doublons :
 
-    * Uniquement les clés : c&#39;est le mode par défaut. L&#39;activité ne conserve qu&#39;un élément lorsque des éléments provenant des différentes transitions entrantes ont la même clé. Cette option ne peut être utilisée que si les populations en entrée sont homogènes.
-    * Une sélection de colonnes : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d&#39;abord sélectionner l&#39;ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
+* Uniquement les clés : c&#39;est le mode par défaut. L&#39;activité ne conserve qu&#39;un élément lorsque des éléments provenant des différentes transitions entrantes ont la même clé. Cette option ne peut être utilisée que si les populations en entrée sont homogènes.
+* Une sélection de colonnes : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d&#39;abord sélectionner l&#39;ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
 
 Pour le **Intersection** et **Exclusion**, vous pouvez vérifier la variable **Générer l’achèvement** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l&#39;activité.
 
