@@ -4,10 +4,10 @@ title: Notes de mise à jour de Campaign Web v8
 description: Notes de mise à jour de Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 81%
+source-wordcount: '447'
+ht-degree: 80%
 
 ---
 
@@ -70,6 +70,7 @@ En tant qu’utilisateur ou utilisatrice de Campaign, notez que certains concept
 Les restrictions ci-dessous s’appliquent à cette version Alpha :
 
 * Les seuls objets modifiables sont Diffusions, Campagnes, Workflows, Audiences et Modèles. Les autres sont en lecture seule. Utilisez des filtres pour tous les parcourir.
+* Les audiences ne peuvent pas être enregistrées pour une utilisation ultérieure.
 * L’interface utilisateur d’administration n’est pas disponible.
 * Les mesures de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
 * Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes. - mais la préparation de la diffusion est en temps réel.
