@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
+source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 73%
+source-wordcount: '230'
+ht-degree: 77%
 
 ---
 
@@ -38,39 +38,4 @@ Chaque workflow comprend :
 
 Pour créer un workflow, procédez comme suit :
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="create-workflow.md#create">
-<img alt="prospect" src="assets/do-not-localize/workflow-process-1 .jpeg">
-</a>
-<div><a href="create-workflow.md#create"><strong>Créer le workflow</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="create-workflow.md#build">
-<img alt="Peu fréquent" src="assets/do-not-localize/workflow-process-2.jpeg">
-</a>
-<div>
-<a href="create-workflow.md#build"><strong>Orchestration des activités</strong></a>
-</div>
-<p></td>
-<td>
-<a href="workflow-settings.md">
-<img alt="Validation" src="assets/do-not-localize/workflow-process-3.jpeg">
-</a>
-<div>
-<a href="workflow-settings.md"><strong>Configuration des paramètres avancés (facultatif)</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="start-monitor-workflows.md">
-<img alt="démarrage et surveillance des workflows" src="assets/do-not-localize/workflow-process-4.jpeg">
-</a>
-<div>
-<a href="start-monitor-workflows.md"><strong>Démarrer et suivre l'exécution du workflow</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+![](assets/workflow-creation-process.png)
