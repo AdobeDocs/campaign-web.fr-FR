@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 73%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 100%
 
 Avec Campaign v8 Web, vous pouvez créer des workflows dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
 
-Les workflows peuvent être créés en tant que workflows autonomes, depuis le menu Workflows ou depuis une campagne, à partir du menu Campagnes.
-
-À déterminer : les spécificités des workflows de campagne et autonomes.
+Les workflows peuvent être créés en tant que workflows autonomes, depuis le menu Workflows , ou directement au sein d&#39;une opération. Dans ce cas, le workflow sera associé à l&#39;opération et exécuté avec tous les workflows des autres opérations.
 
 ## Quels sont les éléments d’un workflow ?
 
 Le diagramme de workflow est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
+
+![](assets/workflow-example.png)
 
 Chaque workflow comprend :
 
@@ -32,12 +32,45 @@ Chaque workflow comprend :
 
 * **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
 
-* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque workflow utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être accélérées et utilisées tout au long du cycle de vie du workflow, tant qu’elles ne sont pas purgées. En effet, les tableaux inutiles sont purgés à chaque passivation du workflow, et potentiellement en cours d’exécution pour les workflows les plus volumineux afin de ne pas surcharger le serveur.
+* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque workflow utilise plusieurs tables de travail. Les données véhiculées dans ces tables peuvent être utilisées tout au long du cycle de vie du workflow.
 
 ## Procédure de création d’un workflow
 
 Pour créer un workflow, procédez comme suit :
 
-À déterminer : illustration de l’ensemble du processus, avec explication et référence aux pages du document
-
-Créer et définir les propriétés > orchestrer les activités dans la zone de travail > configurer les paramètres si nécessaire > démarrer l’exécution et surveiller
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-workflow.md#create">
+<img alt="prospect" src="assets/do-not-localize/workflow-process-1 .jpeg">
+</a>
+<div><a href="create-workflow.md#create"><strong>Créer le workflow</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md#build">
+<img alt="Peu fréquent" src="assets/do-not-localize/workflow-process-2.jpeg">
+</a>
+<div>
+<a href="create-workflow.md#build"><strong>Orchestration des activités</strong></a>
+</div>
+<p></td>
+<td>
+<a href="workflow-settings.md">
+<img alt="Validation" src="assets/do-not-localize/workflow-process-3.jpeg">
+</a>
+<div>
+<a href="workflow-settings.md"><strong>Configuration des paramètres avancés (facultatif)</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="start-monitor-workflows.md">
+<img alt="démarrage et surveillance des workflows" src="assets/do-not-localize/workflow-process-4.jpeg">
+</a>
+<div>
+<a href="start-monitor-workflows.md"><strong>Démarrer et suivre l'exécution du workflow</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
