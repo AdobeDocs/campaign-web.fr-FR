@@ -4,19 +4,20 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: 806e465b7c1df6cd26d68103c45b175371d73485
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 96%
+source-wordcount: '821'
+ht-degree: 63%
 
 ---
 
-# Configurer les paramètres du workflow {#workflow-settings}
+# Configuration des paramètres avancés du workflow {#workflow-settings}
 
-contenu à déterminer
+Lors de l’orchestration des activités de workflow dans la zone de travail, vous pouvez accéder aux paramètres avancés liés au workflow. Par exemple, vous pouvez définir un fuseau horaire spécifique pour le workflow, gérer le comportement du workflow en cas d’erreur ou gérer le délai après lequel l’historique du workflow doit être purgé.
 
-Définir les paramètres disponibles à partir du bouton dans la zone de travail du workflow
-<!--à reformuler-->
+Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres de workflow]** dans le coin supérieur gauche de la zone de travail, en regard du libellé du workflow.
+
+![](assets/workflow-settings.png)
 
 ## Propriétés de workflow  {#properties}
 
@@ -25,19 +26,15 @@ Définir les paramètres disponibles à partir du bouton dans la zone de travail
 >title="Propriétés de workflow"
 >abstract="À déterminer"
 
-(= comme lors de la création du workflow ? à vérifier)
+La section Propriétés du workflow fournit des propriétés génériques qui sont également accessibles lors de la création du workflow.
 
-* Libellé
-* Options additionnelles
-* Nom interne
-* Dossier
-* Campagne liée > modification possible. Si tel est le cas, le workflow disparaîtra de la campagne en cours et apparaîtra dans la nouvelle campagne liée.
-
-   Lors de la création d&#39;un workflow au sein d&#39;une opération, vous trouverez un champ Campaign supplémentaire qui vous permet d&#39;identifier facilement la campagne associée au workflow et d&#39;y accéder.
-
-* Fuseau horaire : définissez un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
-* Superviseur : lorsqu’un workflow est en erreur, la ou les personnes appartenant au groupe de supervision du workflow sont averties par e-mail, à condition que leur adresse e-mail soit indiquée dans leur profil. Ce groupe est sélectionné dans le champ **[!UICONTROL Superviseur(s)]** des propriétés de workflow.
-* description
+* **[!UICONTROL Libellé]**: Libellé du workflow qui s’affiche dans la liste.
+* **[!UICONTROL Nom interne]**: Nom interne du workflow.
+* **[!UICONTROL Dossier]**: Dossier dans lequel le workflow doit être enregistré.
+* **[!UICONTROL Campagne liée]**: Ce champ s&#39;affiche si le workflow a été créé dans une campagne. Il vous permet d’ouvrir la campagne associée.
+* **[!UICONTROL Fuseau horaire]**: Définissez un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
+* **[!UICONTROL Superviseur]**: Lorsqu&#39;un workflow est en erreur, le ou les opérateurs appartenant au groupe de supervision du workflow sont avertis par email, sous réserve que leur adresse email soit indiquée dans leur profil.
+* **[!UICONTROL Description]**: Utilisez ce champ pour fournir une description de votre workflow.
 
 ## Paramètres de segmentation
 
@@ -46,17 +43,10 @@ Définir les paramètres disponibles à partir du bouton dans la zone de travail
 >title="Paramètres de segmentation"
 >abstract="À déterminer"
 
-* Dimension de ciblage :
+* **[!UICONTROL Dimension de ciblage]**: Sélectionnez la dimension de ciblage à utiliser pour cibler les profils : destinataires, bénéficiaires d&#39;un contrat, opérateur, abonnés, etc.
+* **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**: Par défaut, seules les tables de travail de la dernière exécution du workflow sont conservées. Les tables de travail des exécutions précédentes sont purgées par un workflow technique qui s’exécute tous les jours.
 
-   Lors des opérations de segmentation des données, la clé de ciblage est associée à une dimension de filtrage. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, titulaires d’un contrat, opérateur ou opératrice, abonnées ou abonnés, etc. La dimension de filtrage permet de sélectionner la population selon certains critères : détention d’un contrat, inscription à une newsletter, etc.
-
-* Conserver les résultats : l’option **Conserver le résultat des populations intermédiaires entre deux exécutions** permet de conserver les tables temporaires entre deux exécutions d’un workflow.  Elle est disponible dans l&#39;onglet **[!UICONTROL Général]** des propriétés du workflow et peut être utilisée à des fins de développement et de test pour surveiller les données et vérifier les résultats. Vous pouvez utiliser cette option dans les environnements de développement, mais ne l&#39;utilisez jamais dans les environnements de production. La conservation des tables temporaires peut entraîner une augmentation significative de la taille de la base de données et, par la suite, l&#39;atteinte de la limite de taille. De plus, cela ralentira la sauvegarde.
-
-   Seules les tables de travail de la dernière exécution du workflow sont conservées. Celles des exécutions précédentes sont purgées par le workflow de **[!UICONTROL nettoyage]** qui s&#39;exécute tous les jours.
-
-   >[!CAUTION]
-   >
-   >Ne cochez **jamais** cette option dans un workflow de **production**. Elle sert à analyser les résultats et est conçue uniquement à des fins de test. Elle ne doit donc être utilisée que dans les environnements de développement ou d&#39;évaluation.
+   Si cette option est activée, les tables de travail seront conservées même après l&#39;exécution du workflow. Vous pouvez l’utiliser à des fins de test et par conséquent ne doit être utilisé que dans les environnements de développement ou d’évaluation. Il ne doit jamais être vérifié dans un workflow de production,
 
 ## Paramètres d’exécution du workflow
 
