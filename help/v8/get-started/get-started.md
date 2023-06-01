@@ -4,9 +4,9 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 90%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Nouveautés"
->abstract="Découvrez la nouvelle interface utilisateur Web de Campaign, les dernières améliorations, les principales fonctionnalités et comment les utiliser pour créer des campagnes cross-canal pour vos audiences. Grâce à ses fonctionnalités conviviales, Campaign vous permet de rationaliser le processus personnalisé de création de campagnes cross-canal, de générer des résultats et d’obtenir un avantage concurrentiel. "
+>abstract="Découvrez la nouvelle interface utilisateur Web de Campaign, les dernières améliorations, les principales fonctionnalités et apprenez à les utiliser pour créer des campagnes cross-canal pour vos audiences. Grâce à ses fonctionnalités conviviales, Campaign vous permet de rationaliser le processus personnalisé de création de campagnes cross-canal, de générer des résultats et d’obtenir un avantage concurrentiel. "
 
 
 

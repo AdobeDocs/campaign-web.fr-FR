@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 19%
+source-wordcount: '353'
+ht-degree: 18%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Concevoir et envoyer des campagnes cross-canal"
->abstract="Grâce à ses fonctionnalités d’orchestration des campagnes marketing, vous pouvez gérer et centraliser les données client, concevoir des communications client et des campagnes et créer des expériences personnalisées sur différents canaux. Les canaux Email, Push et SMS sont disponibles."
+>abstract="Les fonctionnalités d’Adobe Campaign vous aident à gérer des données client centralisées, à concevoir des communications et des campagnes client et à créer des expériences personnalisées sur différents canaux : Courriel, Push et SMS."
 
-Utilisez Adobe Campaign pour créer des campagnes cross-canal. Grâce à ses fonctionnalités d’orchestration des campagnes marketing, vous pouvez gérer et centraliser les données client, concevoir des communications client et des campagnes et créer des expériences personnalisées sur différents canaux. Les canaux Email, Push et SMS sont disponibles.
+Utilisez Adobe Campaign pour créer des campagnes cross-canal. Grâce à ses fonctionnalités d’orchestration des campagnes marketing, vous pouvez gérer et centraliser les données client, concevoir des communications client et des campagnes et créer des expériences personnalisées sur différents canaux. Dans cette version, les canaux email, push et SMS sont disponibles.
 
 Concevez et exécutez des campagnes par e-mail à volume élevé pour diffuser des messages personnalisés, pour toutes les plates-formes et toutes les tailles d’écran.
-<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Grâce aux fonctionnalités de segmentation d&#39;Adobe Campaign, vous pouvez exécuter des requêtes sur une base de données volumineuse et définir facilement des segments de marketing dynamique qui ciblent parfaitement vos campagnes.
+Mesurez l&#39;efficacité de vos diffusions à l&#39;aide de rapports détaillés, notamment le nombre d&#39;ouvertures, de clics, de transferts, etc. Grâce aux fonctionnalités de segmentation d&#39;Adobe Campaign, vous pouvez exécuter des requêtes sur une base de données volumineuse et définir facilement des segments de marketing dynamique qui ciblent parfaitement vos campagnes.
 
 ## Créer une campagne cross-canal {#cross-channel-campaign}
 
