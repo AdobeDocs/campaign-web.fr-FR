@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Création d’une audience avec le créateur de règles
-description: Découvrez comment utiliser le créateur de segments.
+title: Créer une audience avec le créateur de règles de Campaign
+description: Découvrez comment utiliser le créateur de règles
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 97%
 
 ---
 
-# Création d’une audience avec le créateur de règles {#segment-builder}
+# Définir une audience à l’aide du créateur de règles {#segment-builder}
 
 Cette section décrit comment créer une audience lors de la conception d’un e-mail. L’audience créée ne peut être utilisée que dans cet e-mail.
 
