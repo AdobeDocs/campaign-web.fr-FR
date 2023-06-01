@@ -5,8 +5,8 @@ description: Découvrez comment utiliser l’activité de workflow Enrichissemen
 badge: label="Alpha" type="Positive"
 source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 93%
 
 ---
 
