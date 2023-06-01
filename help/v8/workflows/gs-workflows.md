@@ -4,9 +4,9 @@ title: Prise en main des workflows
 description: Découvrez comment commencer avec les workflows.
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '387'
 ht-degree: 91%
 
 ---
@@ -41,12 +41,6 @@ Voici quelques exemples d’utilisation des workflows avec Adobe Campaign :
 ## Explorons plus en détail
 
 Maintenant que vous connaissez le b.a.-ba des workflows et leur utilisation dans Adobe Campaign, nous allons parcourir les sections de la documentation consacrées à l’utilisation de cette fonctionnalité.
-
-* Créer votre premier workflow
-* Concevoir des workflows
-* Accéder et surveiller
-
-(lien vers la sous-section à déterminer)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
