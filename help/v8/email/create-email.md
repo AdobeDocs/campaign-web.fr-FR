@@ -4,10 +4,10 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 94%
+source-wordcount: '1356'
+ht-degree: 92%
 
 ---
 
@@ -15,9 +15,10 @@ ht-degree: 94%
 # Envoyer votre premier e-mail {#first-email}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card2"
 >title="Envoyer votre premier email avec Adobe Campaign"
->abstract="Découvrez comment utiliser le Concepteur d&#39;email pour créer votre contenu, le prévisualiser et le tester, puis envoyer un email à une audience existante dans un cas pratique de bout en bout."
+>abstract="Commencez à partir d’un modèle ou utilisez Adobe Campaign pour créer un nouveau Concepteur d’email afin de créer des emails sans avoir à écrire une seule ligne de code. Découvrez comment utiliser le Concepteur d&#39;email pour créer votre contenu, le prévisualiser et le tester, puis envoyer un email à une audience existante dans un cas pratique de bout en bout."
+
 
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
 
