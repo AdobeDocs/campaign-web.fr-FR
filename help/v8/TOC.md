@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 88%
+source-wordcount: '307'
+ht-degree: 83%
 
 ---
 
@@ -59,10 +59,14 @@ ht-degree: 88%
          + [Paramètres de diffusion d’e-mail](advanced-settings/delivery-settings.md)
    + Notifications push {#push}
       + [Prise en main des notifications push](push/gs-push.md)
+      + [Créer une diffusion de notification push](push/create-push.md)
+      + [Concevoir une diffusion push](push/content-push.md)
+      + [Envoyer une diffusion de notification push](push/send-push.md)
    + SMS {#sms}
       + [Prise en main des diffusions SMS](sms/gs-sms.md)
-      + [Création d&#39;une diffusion SMS](sms/create-sms.md)
+      + [Créer une diffusion SMS](sms/create-sms.md)
       + [Concevoir une diffusion SMS ](sms/content-sms.md)
+      + [Envoyer une diffusion SMS ](sms/send-sms.md)
 + Audiences et destinataires {#audiences}
    + [Prise en main des audiences](audience/about-audiences.md)
    + [Sélectionner une audience existante](audience/add-audience.md)
