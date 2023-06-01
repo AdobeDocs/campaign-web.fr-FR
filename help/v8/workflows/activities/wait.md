@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow d’attente
 description: Découvrez comment utiliser l’activité de workflow d’attente
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '181'
+ht-degree: 72%
 
 ---
 
@@ -29,4 +29,6 @@ Procédez comme suit pour configurer la variable **Attente** activité :
 
 ## Exemple
 
+L&#39;exemple suivant illustre l&#39;activité **Attente** dans un cas typique. Un email d&#39;invitation à un événement est envoyé. 24 heures après son envoi, une diffusion SMS est envoyée à la même population.
 
+![](../assets/workflow-wait-example.png)
