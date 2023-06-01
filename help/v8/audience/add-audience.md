@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Sélectionner une audience
+title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 97%
+source-wordcount: '274'
+ht-degree: 95%
 
 ---
 
@@ -23,8 +23,8 @@ Cette section explique comment sélectionner une audience existante lors de la d
 
 Vous pouvez également procéder comme suit :
 
-* Créez une audience. [En savoir plus](segment-builder.md)
-* Utilisez une audience provenant d’un fichier externe. [En savoir plus](file-audience.md)
+* Créez une nouvelle audience. [En savoir plus](segment-builder.md)
+* Charger une audience à partir d&#39;un fichier externe. [En savoir plus](file-audience.md)
 * Utilisez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md).
 
 
