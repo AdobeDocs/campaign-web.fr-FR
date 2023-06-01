@@ -4,10 +4,10 @@ title: Prise en main des workflows
 description: Découvrez comment commencer avec les workflows.
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 95%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
@@ -47,3 +47,31 @@ Maintenant que vous connaissez le b.a.-ba des workflows et leur utilisation dans
 * Accéder et surveiller
 
 (lien vers la sous-section à déterminer)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="Accès et gestion des workflows" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>Accès et gestion des workflows</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="prospect" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>Créer et exécuter votre premier workflow</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="Peu fréquent" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>Utiliser les activités de workflow</strong></a>
+</div>
+<p></td>
+</tr></table>
