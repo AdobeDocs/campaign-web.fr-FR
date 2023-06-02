@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 19%
+source-wordcount: '884'
+ht-degree: 15%
 
 ---
 
@@ -25,8 +25,8 @@ Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres de workflow]** da
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
->title="Propriétés de workflow"
->abstract="À déterminer"
+>title="Propriétés d&#39;exécution "
+>abstract="Cette section fournit des propriétés de workflow génériques qui sont également accessibles lors de la création du workflow. Vous pouvez choisir le modèle à utiliser pour créer le workflow et spécifier un libellé. Développez la section Options supplémentaires pour configurer des paramètres spécifiques tels que le dossier de stockage du workflow ou le fuseau horaire."
 
 Le **[!UICONTROL Propriétés]** fournit des paramètres génériques qui sont également accessibles lors de la création du workflow.
 
@@ -43,7 +43,7 @@ Le **[!UICONTROL Propriétés]** fournit des paramètres génériques qui sont �
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Paramètres de segmentation"
->abstract="À déterminer"
+>abstract="Dans cette section, vous pouvez sélectionner la dimension de ciblage pour cibler les profils dans le workflow, et choisir de conserver les résultats du workflow entre deux exécutions. Cette option ne doit être utilisée qu’à des fins de test et ne doit jamais être activée dans un workflow de production."
 
 * **[!UICONTROL Dimension de ciblage]**: Sélectionnez la dimension de ciblage à utiliser pour cibler les profils : destinataires, bénéficiaires d&#39;un contrat, opérateur, abonnés, etc.
 * **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**: Par défaut, seules les tables de travail de la dernière exécution du workflow sont conservées. Les tables de travail des exécutions précédentes sont purgées par un workflow technique qui s’exécute tous les jours.
@@ -54,8 +54,8 @@ Le **[!UICONTROL Propriétés]** fournit des paramètres génériques qui sont �
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
->title="Paramètres d’exécution"
->abstract="À déterminer"
+>title="Paramètres d&#39;exécution"
+>abstract="Dans cette section, vous pouvez paramétrer les paramètres relatifs à l&#39;exécution du workflow, par exemple le nombre de jours pendant lesquels l&#39;historique du workflow est conservé."
 
 * **[!UICONTROL Jours d&#39;historique]**: Indique le nombre de jours après lesquels l’historique doit être purgé. L&#39;historique contient des éléments liés au workflow : logs, tâches, événements (objets techniques liés à l&#39;opération du workflow). La valeur par défaut est de 30 jours pour les modèles de workflow d’usine. La purge de l’historique est effectuée par le workflow technique de nettoyage de la base de données, qui est exécuté par défaut tous les jours.
 
@@ -74,7 +74,7 @@ Le **[!UICONTROL Propriétés]** fournit des paramètres génériques qui sont �
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Paramètres de gestion des erreurs"
->abstract="À déterminer"
+>abstract="Dans cette section, vous pouvez gérer le comportement du workflow lorsqu&#39;une erreur se produit lors de son exécution (mettre en pause/arrêter son exécution ou ignorer les erreurs)."
 
 * **[!UICONTROL Gestion des erreurs]**: Ce champ vous permet de définir les actions à effectuer si une tâche de workflow est en erreur. Deux options sont disponibles :
 
