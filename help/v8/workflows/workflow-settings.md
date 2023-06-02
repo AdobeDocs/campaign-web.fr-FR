@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
+source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 15%
+source-wordcount: '858'
+ht-degree: 16%
 
 ---
 
@@ -65,9 +65,7 @@ Le **[!UICONTROL Propriétés]** fournit des paramètres génériques qui sont �
 
 * **[!UICONTROL Affinité par défaut]**: Si votre installation comprend plusieurs serveurs de workflow, utilisez ce champ pour choisir la machine sur laquelle le workflow sera exécuté. Si la valeur définie dans ce champ n&#39;existe sur aucun serveur, le workflow reste en attente.
 
-* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**: permet d&#39;enregistrer les requêtes SQL du workflow dans les logs. Cette fonctionnalité est réservée aux utilisateurs avancés. Il s’applique aux workflows qui contiennent des activités de ciblage telles que **[!UICONTROL Créer une audience]**. Lorsque cette option est activée, les requêtes SQL envoyées à la base lors de l&#39;exécution du workflow s&#39;affichent dans Adobe Campaign, ce qui permet de les analyser afin d&#39;optimiser les requêtes ou de diagnostiquer les problèmes.
-
-   Les requêtes sont affichées dans une **[!UICONTROL Journaux SQL]** de l&#39;onglet qui est ajouté au workflow (à l&#39;exception des workflows d&#39;opération) et au **[!UICONTROL Propriétés]** lorsque l’option est activée. <!-- where?-->
+* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**: permet d&#39;enregistrer les requêtes SQL du workflow dans les logs. Cette fonctionnalité est réservée aux utilisateurs avancés. Il s’applique aux workflows qui contiennent des activités de ciblage telles que **[!UICONTROL Créer une audience]**. Lorsque cette option est activée, les requêtes SQL envoyées à la base lors de l&#39;exécution du workflow sont affichées dans les logs du workflow, ce qui vous permet de les analyser pour optimiser les requêtes ou diagnostiquer les problèmes.
 
 ## Paramètres de gestion des erreurs
 
