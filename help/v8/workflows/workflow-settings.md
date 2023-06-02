@@ -4,16 +4,18 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 806e465b7c1df6cd26d68103c45b175371d73485
+source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 63%
+source-wordcount: '750'
+ht-degree: 19%
 
 ---
 
-# Configuration des paramètres avancés du workflow {#workflow-settings}
+# Configurer les paramètres de workflow {#workflow-settings}
 
 Lors de l’orchestration des activités de workflow dans la zone de travail, vous pouvez accéder aux paramètres avancés liés au workflow. Par exemple, vous pouvez définir un fuseau horaire spécifique pour le workflow, gérer le comportement du workflow en cas d’erreur ou gérer le délai après lequel l’historique du workflow doit être purgé.
+
+Ces paramètres sont préconfigurés dans le modèle sélectionné lors de la création du workflow, mais peuvent être modifiés selon les besoins pour ce workflow spécifique.
 
 Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres de workflow]** dans le coin supérieur gauche de la zone de travail, en regard du libellé du workflow.
 
@@ -26,14 +28,14 @@ Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres de workflow]** da
 >title="Propriétés de workflow"
 >abstract="À déterminer"
 
-La section Propriétés du workflow fournit des propriétés génériques qui sont également accessibles lors de la création du workflow.
+Le **[!UICONTROL Propriétés]** fournit des paramètres génériques qui sont également accessibles lors de la création du workflow.
 
 * **[!UICONTROL Libellé]**: Libellé du workflow qui s’affiche dans la liste.
-* **[!UICONTROL Nom interne]**: Nom interne du workflow.
+* **[!UICONTROL Nom]**: Nom interne du workflow.
 * **[!UICONTROL Dossier]**: Dossier dans lequel le workflow doit être enregistré.
 * **[!UICONTROL Campagne liée]**: Ce champ s&#39;affiche si le workflow a été créé dans une campagne. Il vous permet d’ouvrir la campagne associée.
 * **[!UICONTROL Fuseau horaire]**: Définissez un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
-* **[!UICONTROL Superviseur]**: Lorsqu&#39;un workflow est en erreur, le ou les opérateurs appartenant au groupe de supervision du workflow sont avertis par email, sous réserve que leur adresse email soit indiquée dans leur profil.
+* **[!UICONTROL Superviseur(s)]**: Lorsqu&#39;un workflow est en erreur, le ou les opérateurs appartenant au groupe de supervision du workflow sont avertis par email, sous réserve que leur adresse email soit indiquée dans leur profil.
 * **[!UICONTROL Description]**: Utilisez ce champ pour fournir une description de votre workflow.
 
 ## Paramètres de segmentation
@@ -46,32 +48,26 @@ La section Propriétés du workflow fournit des propriétés génériques qui so
 * **[!UICONTROL Dimension de ciblage]**: Sélectionnez la dimension de ciblage à utiliser pour cibler les profils : destinataires, bénéficiaires d&#39;un contrat, opérateur, abonnés, etc.
 * **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**: Par défaut, seules les tables de travail de la dernière exécution du workflow sont conservées. Les tables de travail des exécutions précédentes sont purgées par un workflow technique qui s’exécute tous les jours.
 
-   Si cette option est activée, les tables de travail seront conservées même après l&#39;exécution du workflow. Vous pouvez l’utiliser à des fins de test et par conséquent ne doit être utilisé que dans les environnements de développement ou d’évaluation. Il ne doit jamais être vérifié dans un workflow de production,
+   Si cette option est activée, les tables de travail seront conservées même après l&#39;exécution du workflow. Vous pouvez l’utiliser à des fins de test et par conséquent ne doit être utilisé que dans les environnements de développement ou d’évaluation. Elle ne doit jamais être vérifiée dans un workflow de production.
 
-## Paramètres d’exécution du workflow
+## Paramètres d&#39;exécution
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="Paramètres d’exécution"
 >abstract="À déterminer"
 
-* Jours d’historique : les tables de travail de la base de données conservent un historique des exécutions (tâches, événements, journal). Vous pouvez définir ici le nombre de jours à archiver pour ce workflow : le processus de nettoyage supprimera les archives les plus anciennes une fois par jour. Si la valeur de ce champ est zéro, l’archive ne sera jamais supprimée.
-
-   indique le nombre de jours après lesquels l’historique doit être purgé. L’historique contient des éléments liés au workflow : logs, tâches, événements (objets techniques liés à l’opération du workflow), ainsi que les fichiers téléchargés par l’activité **[!UICONTROL Transfert de fichier]**. La valeur par défaut est de 30 jours pour les modèles de workflow d’usine.
-
-   La purge de l’historique est effectuée par le workflow technique de nettoyage de la base de données, qui est exécuté par défaut tous les jours.
+* **[!UICONTROL Jours d&#39;historique]**: Indique le nombre de jours après lesquels l’historique doit être purgé. L&#39;historique contient des éléments liés au workflow : logs, tâches, événements (objets techniques liés à l&#39;opération du workflow). La valeur par défaut est de 30 jours pour les modèles de workflow d’usine. La purge de l’historique est effectuée par le workflow technique de nettoyage de la base de données, qui est exécuté par défaut tous les jours.
 
    >[!IMPORTANT]
    >
    >Si le champ **[!UICONTROL Jours d’historique]** n’est pas renseigné, la valeur prise en compte est « 1 », ce qui signifie que l’historique sera purgé après 1 jour.
 
-* Affinité par défaut : ce champ permet de forcer l’exécution d’un workflow ou d’une activité de workflow sur une machine en particulier.   Si votre installation comprend plusieurs serveurs de workflow, utilisez ce champ pour choisir sur quelle machine le workflow s’exécutera. Si la valeur définie dans ce champ n’existe au niveau d’aucun serveur, le workflow restera en attente.
+* **[!UICONTROL Affinité par défaut]**: Si votre installation comprend plusieurs serveurs de workflow, utilisez ce champ pour choisir la machine sur laquelle le workflow sera exécuté. Si la valeur définie dans ce champ n&#39;existe sur aucun serveur, le workflow reste en attente.
 
-* Enregistrer les requêtes SQL dans le journal : permet d’enregistrer les requêtes SQL du workflow dans les journaux. (où accéder aux journaux SQL ?)
+* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**: permet d&#39;enregistrer les requêtes SQL du workflow dans les logs. Cette fonctionnalité est réservée aux utilisateurs avancés. Il s’applique aux workflows qui contiennent des activités de ciblage telles que **[!UICONTROL Créer une audience]**. Lorsque cette option est activée, les requêtes SQL envoyées à la base lors de l&#39;exécution du workflow s&#39;affichent dans Adobe Campaign, ce qui permet de les analyser afin d&#39;optimiser les requêtes ou de diagnostiquer les problèmes.
 
-   Cette fonctionnalité est réservée aux utilisateurs experts. Elle concerne les workflows qui contiennent des activités de ciblage (requête, union, intersection, etc.). Lorsque cette option est cochée, les requêtes SQL envoyées vers la base lors de l&#39;exécution du workflow sont affichées dans Adobe Campaign : vous pouvez ainsi les analyser afin d&#39;optimiser les requêtes ou diagnostiquer d&#39;éventuels problèmes.
-
-   Les requêtes sont affichées dans un onglet **[!UICONTROL Logs SQL]** qui est ajouté au workflow (sauf pour les workflows d&#39;opération) et à l&#39;activité **[!UICONTROL Propriétés]** lorsque l&#39;option est activée. L&#39;onglet **[!UICONTROL Suivi]** inclut également les requêtes SQL.
+   Les requêtes sont affichées dans une **[!UICONTROL Journaux SQL]** de l&#39;onglet qui est ajouté au workflow (à l&#39;exception des workflows d&#39;opération) et au **[!UICONTROL Propriétés]** lorsque l’option est activée. <!-- where?-->
 
 ## Paramètres de gestion des erreurs
 
@@ -80,10 +76,10 @@ La section Propriétés du workflow fournit des propriétés génériques qui so
 >title="Paramètres de gestion des erreurs"
 >abstract="À déterminer"
 
-* Ce champ vous permet de définir l’action à effectuer lorsqu’une tâche du workflow est en erreur. Deux options sont disponibles :
+* **[!UICONTROL Gestion des erreurs]**: Ce champ vous permet de définir les actions à effectuer si une tâche de workflow est en erreur. Deux options sont disponibles :
 
-   Suspendre le processus : le workflow est automatiquement suspendu. Le statut du workflow est alors en Échec. Lorsque le problème est résolu, relancez le workflow en utilisant les boutons Démarrer ou Redémarrer.
+   * **[!UICONTROL Suspension du processus]**: Le workflow est automatiquement suspendu et son état passe à **[!UICONTROL En échec]**. Une fois le problème résolu, reprenez le workflow à l’aide de la fonction **[!UICONTROL Reprendre]** des boutons.
+   * **[!UICONTROL Ignorer]**: L’état de la tâche qui a déclenché l’erreur passe à **[!UICONTROL En échec]**, mais le workflow conserve la variable **[!UICONTROL Démarré]** statut. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+   * **[!UICONTROL Abandonner le processus]**: Le workflow est automatiquement arrêté et son état passe à **[!UICONTROL En échec]**. Une fois le problème résolu, redémarrez le workflow à l’aide de la fonction **[!UICONTROL Début]** des boutons.
 
-   Ignorer : la tâche ayant provoqué l’erreur prend le statut en Échec, mais le workflow garde le statut Démarré. Ce paramétrage est pertinent dans le cas de tâches récurrentes : si la branche comporte un planificateur, celui-ci se déclenchera normalement à sa prochaine date d’exécution.
-
-* Erreurs consécutives : ce champ devient disponible lorsque la valeur Ignorer est sélectionnée dans le champ En cas d’erreur. Vous pouvez indiquer le nombre d’erreurs qui peuvent être ignorées avant l’arrêt du processus. Une fois ce nombre atteint, le statut du workflow passe en mode Échec. Si la valeur de ce champ est 0, le workflow ne sera jamais arrêté, quel que soit le nombre d’erreurs.
+* **[!UICONTROL Erreurs consécutives]**: Ce champ devient disponible lorsque la variable **[!UICONTROL Ignorer]** est sélectionnée dans la variable **[!UICONTROL En cas d&#39;erreur]** champ . Vous pouvez indiquer le nombre d’erreurs qui peuvent être ignorées avant l’arrêt du processus. Une fois ce nombre atteint, l’état du workflow passe à **[!UICONTROL En échec]**. Si la valeur de ce champ est 0, le workflow ne sera jamais arrêté, quel que soit le nombre d’erreurs.
