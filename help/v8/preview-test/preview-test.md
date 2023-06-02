@@ -4,14 +4,21 @@ title: À propos de la prévisualisation et du test des e-mails
 description: Découvrez comment prévisualiser et tester des e-mails.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 91%
+source-wordcount: '175'
+ht-degree: 78%
 
 ---
 
 # À propos de la prévisualisation et du test des e-mails {#about-preview-proofs}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate"
+>title="Prévisualiser et tester vos messages"
+>abstract="Une fois le contenu du message défini, prévisualisez-le et testez-le à l’aide de profils de test."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Prévisualiser le contenu d’un e-mail"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Envoyer des e-mails de test"
 
 Avant d’envoyer un e-mail, il est important de vérifier et de tester son contenu pour vous assurer qu’il est précis et ne comporte pas d’erreurs dans le contenu ou les paramètres de personnalisation.
 
