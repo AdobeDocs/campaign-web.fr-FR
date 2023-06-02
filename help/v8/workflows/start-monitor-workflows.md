@@ -4,14 +4,14 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
-# Démarrer et surveiller l’exécution des workflows {#start-monitor}
+# Démarrer et suivre le workflow {#start-monitor}
 
 Une fois que vous avez créé votre workflow et conçu les tâches à effectuer dans la zone de travail, vous pouvez le lancer et contrôler son exécution.
 
@@ -40,7 +40,7 @@ Les indicateurs visuels situés dans le coin supérieur droit de chaque activit�
 | ![](assets/activity-status-red.png) | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les journaux de workflow pour plus d’informations. |
 | ![](assets/activity-status-green.png) | L’activité a été exécutée avec succès. |
 
-## Surveiller les journaux et les tâches
+## Surveiller les journaux et les tâches {#logs-tasks}
 
 La surveillance des logs et des tâches des workflows est une étape clé pour analyser vos workflows et s’assurer qu’ils s’exécutent correctement. Elles sont accessibles à partir du **[!UICONTROL Journaux]** qui est disponible dans la barre d’outils d’actions et dans le volet des propriétés de chaque activité.
 
