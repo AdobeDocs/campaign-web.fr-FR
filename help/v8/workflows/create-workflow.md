@@ -4,7 +4,7 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 14%
@@ -34,8 +34,8 @@ La première étape pour créer votre workflow dans le Web Campaign v8 consiste 
 
    Les modèles de workflow contiennent des activités préconfigurées et des configurations globales des propriétés qui peuvent être réutilisées pour créer de nouveaux workflows. Ils sont créés à partir de la console cliente. [Découvrez comment utiliser des modèles](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
 
-1. Développez la section Options supplémentaires si vous souhaitez configurer des paramètres spécifiques pour le workflow, tels que le dossier de stockage et le fuseau horaire. [Découvrez comment configurer les propriétés de workflow](workflow-settings.md)
+1. Développez l’objet **[!UICONTROL Options supplémentaires]** si vous souhaitez configurer des paramètres spécifiques au workflow, tels que le dossier de stockage et le fuseau horaire. [Découvrez comment configurer les propriétés de workflow](workflow-settings.md)
 
-1. Cliquez sur le bouton Créer un workflow pour valider la création de votre workflow.
+1. Cliquez sur le bouton **[!UICONTROL Créer un workflow]** pour confirmer la création de votre workflow.
 
 Une fois votre workflow créé, vous pouvez commencer à orchestrer les différentes tâches qu’il exécutera à l’aide d’une zone de travail visuelle dédiée. [Découvrez comment orchestrer des activités de workflow.](orchestrate-activities.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
-source-git-commit: 422f2d2cbef424a95540f359c4a5e978eace6c9f
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 7%
+source-wordcount: '518'
+ht-degree: 5%
 
 ---
 
@@ -33,6 +33,23 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail, puis cli
 >
 >Vous avez la possibilité de personnaliser le nom des transitions entre chaque activité. Pour cela, sélectionnez la transition et modifiez son libellé dans le volet de droite.
 
-Une fois le workflow terminé, ajoutez une activité Fin à la fin du diagramme. Cette activité permet de marquer visuellement la fin d&#39;un workflow et n&#39;a aucun impact fonctionnel.
+Voici un exemple de workflow conçu pour envoyer un email à tous les clients (autres que les clients VIP) avec un email qui s’intéresse aux machines à café.
+
+![](assets/workflow-example.png)
+
+Pour ce faire, les activités ci-dessous ont été ajoutées :
+
+* A **[!UICONTROL Branchement]** activité qui divise le workflow en trois chemins (un pour chaque ensemble de clients),
+* **[!UICONTROL Créer une audience]** des activités destinées à cibler les trois ensembles de clients :
+
+   * Clients disposant d’un email,
+   * Clients appartenant à l’audience préexistante &quot;Interrested in Coffee Machine(s)&quot;,
+   * Clients appartenant à l’audience préexistante &quot;VIP ou récompense&quot;.
+
+* A **[!UICONTROL Combiner]** une activité qui regroupe les clients avec un email et ceux intéressés par les machines à café,
+* A **[!UICONTROL Combiner]** une activité qui exclut VIP clients,
+* Un **[!UICONTROL Diffusion Email]** activité qui envoie un email aux clients qui en résultent.
+
+Une fois le workflow terminé, ajoutez en **[!UICONTROL Fin]** à la fin du diagramme. Cette activité permet de marquer visuellement la fin d&#39;un workflow et n&#39;a aucun impact fonctionnel.
 
 Une fois le diagramme de workflow conçu, vous pouvez l’exécuter et suivre l’avancement de ses différentes tâches. [Découvrez comment démarrer un workflow et surveiller son exécution.](start-monitor-workflows.md)

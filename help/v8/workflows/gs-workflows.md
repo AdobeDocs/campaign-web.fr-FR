@@ -4,10 +4,10 @@ title: Prise en main des workflows
 description: Découvrez comment commencer avec les workflows.
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 88%
+source-wordcount: '390'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 88%
 >id="acw_homepage_card4"
 >title="Interface de zone de travail du workflow repensée"
 >abstract="Grâce à notre canevas graphique complet, vous pouvez facilement concevoir des processus tels que la segmentation, l’exécution de campagnes, etc. Grâce à cet outil avancé, vous pouvez rationaliser votre workflow et améliorer vos campagnes."
-
 
 ## Qu’est-ce qu’un workflow ?
 
@@ -35,8 +34,9 @@ Grâce à l’environnement graphique complet d’Adobe Campaign, concevez des 
 
 Voici quelques exemples d’utilisation des workflows avec Adobe Campaign :
 
-* Téléchargez un fichier sur un serveur, décompressez-le, puis importez les enregistrements qu’il contient dans la base de données Adobe Campaign.
-* Créez une action de diffusion, attribuez une tâche à une ou plusieurs personnes pour élaborer le contenu, spécifiez des cibles et validez les BAT avant de lancer la diffusion.
+* Lancez une campagne de suivi pour les clients inactifs,
+* Envoyer un email de bienvenue à tous les nouveaux abonnés à un service,
+* Personnalisez des diffusions cross-canal en fonction de l’état du programme de fidélité des clients ou des points ciblés.
 
 ## Explorons plus en détail
 
