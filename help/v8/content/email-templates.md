@@ -4,48 +4,36 @@ product: campaign
 title: Utiliser des modèles d’e-mails
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 35%
 
 ---
 
 # Utiliser des modèles d’e-mails {#email-content-templates}
 
-Dans le contenu de l’e-mail, accédez à la section **[!UICONTROL Sélectionner un modèle de conception]** de l’interface pour commencer à créer le contenu à partir d’un modèle.
+When [création d’un email](#create-email), utilisez le **[!UICONTROL Sélectionner un modèle de conception]** de la section **[!UICONTROL Créer votre email]** pour commencer à créer votre contenu à partir d’un modèle.
 
 ![](assets/email_designer-templates.png)
 
-Plusieurs modèles intégrés sont disponibles dans Campaign, consultez-les sous l’onglet **Exemples de modèles**. Vous pouvez ajouter vos propres modèles et les utiliser pour créer le contenu de votre e-mail. Les modèles personnalisés sont stockés sous l’onglet **Modèles enregistrés**. Découvrez comment enregistrer un e-mail en tant que modèle, puis comment l’utiliser dans les sections ci-dessous.
+Vous pouvez choisir parmi les options suivantes :
 
-## Enregistrer comme modèle {#save-as-template}
+* **Exemples de modèles**. Campaign s’accompagne d’un ensemble de modèles intégrés que vous pouvez sélectionner.
 
-Une fois que vous avez conçu le contenu de votre e-mail, vous pouvez l’enregistrer en tant que modèle pour le réutiliser plus tard. Les modèles enregistrés sont disponibles pour tous les utilisateurs et utilisatrices de votre environnement Adobe Campaign.
+* **Modèles enregistrés**. Vous pouvez également utiliser un modèle personnalisé que vous avez enregistré comme modèle à partir d’un contenu existant.
 
-Pour enregistrer un contenu d’e-mail en tant que modèle, procédez comme suit :
+Découvrez comment utiliser des modèles et comment enregistrer un contenu d’email en tant que modèle dans les sections ci-dessous.
 
-1. Dans le Concepteur d’e-mail, cliquez sur les points de suspension en haut à droite de l’écran.
+## Utiliser un modèle {#use-templates}
 
-1. Sélectionnez **[!UICONTROL Enregistrer le modèle de conception]** dans le menu déroulant.
-
-   ![](assets/email_designer-save-template.png)
-
-1. Saisissez le nom du modèle et enregistrez-le.
-
-   ![](assets/email_designer-template-name.png)
-
-Vous pouvez désormais [utiliser ce modèle](#use-saved-template) pour créer un nouveau contenu : il est disponible sous l’onglet Modèles enregistrés du Concepteur d’e-mail.
-
-![](assets/email_designer-saved-template.png)
-
-## Utiliser un modèle enregistré {#use-saved-template}
-
-Les modèles enregistrés sont regroupés dans un tableau spécifique du Concepteur d’e-mail. Pour créer un contenu d’e-mail à partir d’un modèle personnalisé existant, procédez comme suit :
+Pour commencer à créer votre contenu avec l’un des exemples ou des modèles enregistrés, procédez comme suit.
 
 1. Ouvrez le [concepteur d’e-mail](create-email-content.md).
 
-1. Sur l’écran **[!UICONTROL Créer votre e-mail]**, l’onglet **[!UICONTROL Exemples de modèles]** est sélectionné par défaut. Accédez à l’onglet **[!UICONTROL Modèles enregistrés]** pour consulter les modèles personnalisés.
+1. Sur l’écran **[!UICONTROL Créer votre e-mail]**, l’onglet **[!UICONTROL Exemples de modèles]** est sélectionné par défaut.
+
+1. Pour utiliser un modèle personnalisé existant, accédez au **[!UICONTROL Modèles enregistrés]** .
 
    ![](assets/email_designer-saved-templates-tab.png)
 
@@ -53,10 +41,32 @@ Les modèles enregistrés sont regroupés dans un tableau spécifique du Concept
 
    ![](assets/email_designer-saved-templates.png)
 
-1. Sélectionnez un modèle dans la liste pour afficher son contenu. Utilisez les flèches gauche et droite pour parcourir les modèles.
+1. Sélectionnez un modèle dans la liste pour afficher son contenu.
+
+1. Utilisez les flèches droite et gauche pour naviguer entre les modèles (exemple ou enregistrement selon votre sélection).
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Cliquez sur **[!UICONTROL Utiliser cet e-mail]** en haut à droite de l’écran pour sélectionner un modèle.
+1. Cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite de l’écran.
 
 1. Modifiez le contenu selon vos besoins à l’aide du concepteur d’e-mail. [En savoir plus](create-email-content.md)
+
+## Enregistrer le contenu de l&#39;email en tant que modèle {#save-as-template}
+
+Une fois que [conception d’un email](create-email-content.md), vous pouvez enregistrer ce contenu en tant que modèle pour une réutilisation ultérieure. Les modèles enregistrés sont disponibles pour tous les utilisateurs et utilisatrices de votre environnement Adobe Campaign.
+
+Pour enregistrer un contenu d’e-mail en tant que modèle, procédez comme suit :
+
+1. Dans le concepteur d&#39;email, cliquez sur les points de suspension en haut à droite de l&#39;écran.
+
+1. Sélectionner **[!UICONTROL Enregistrer en tant que modèle de contenu]** dans le menu déroulant.
+
+   ![](assets/email_designer-save-template.png)
+
+1. Saisissez le nom de ce modèle, puis enregistrez-le.
+
+   ![](assets/email_designer-template-name.png)
+
+Vous pouvez désormais [utiliser ce modèle](#use-templates) pour créer un nouveau contenu : il est disponible sous l’onglet Modèles enregistrés du Concepteur d’e-mail.****
+
+![](assets/email_designer-saved-template.png)

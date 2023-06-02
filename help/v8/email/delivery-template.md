@@ -6,56 +6,113 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
+source-git-commit: 3e06271c15db24c24aa9f0ee19113d52ffa1a19a
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 57%
+source-wordcount: '877'
+ht-degree: 15%
 
 ---
 
-# Utilisation du modèle de diffusion{#work-with-delivery-template}
+# Utiliser des modèles de diffusion {#work-with-delivery-templates}
 
-Utilisez les modèles de diffusion pour normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes.
+Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles de diffusion afin de réutiliser facilement du contenu personnalisé dans vos campagnes. Cette fonctionnalité vous permet de normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes.
 
 Un modèle peut inclure les éléments suivants :
 
-* Typologies
-* Adresses d&#39;expéditeur et destinataire
-* Blocs de personnalisation de base
-* Liens vers la page miroir et liens de désinscription
-* Contenu, logo de la société ou signature
-* Autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
+<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
+Sender and reply-to addresses?-->
+* Un [audience](../audience/about-audiences.md), y compris [populations témoins](../audience/control-group.md)
+* Personnalisé [content](../content/edit-content.md)<!--company logo, or signature-->
+* [Champs personnalisés](../personalization/personalize.md) et [contenu conditionnel](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Liens vers [page miroir](../content/mirror-page.md) et désinscription [links](../content/message-tracking.md)
 
+<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
 
-## Création d’un modèle{#create-a-delivery-template}
+## Accès et gestion des modèles {#access-manage-templates}
 
-Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré, convertir une diffusion existante en modèle ou créer un modèle de diffusion à partir de zéro.
+Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL Campaign Management]** > **[!UICONTROL Diffusions]** dans le menu de gauche, puis accédez à la **Modèles** .
 
-### Duplication d’un modèle existant{#copy-an-existing-template}
+![](assets/templates-tab.png)
 
-Campaign est fourni avec un ensemble de modèles intégrés pour chaque canal : email, push, SMS.
+Tous les modèles qui étaient [created](#create-a-delivery-template) sur l’environnement actif s’affichent.
 
-Le moyen le plus simple de créer un modèle de diffusion consiste à dupliquer et personnaliser un modèle intégré.
+Vous pouvez filtrer les modèles de contenu sur les canaux et les dossiers. Vous pouvez également définir des filtres avancés en créant une règle à l’aide des attributs de diffusion. [En savoir plus sur le créateur de règles](../audience/segment-builder.md)
+
+![](assets/templates-filters.png)
+
+Pour modifier un modèle, cliquez sur l’élément de votre choix dans la liste. De là :
+
+* Vous pouvez modifier son contenu, ses propriétés, son audience et toute offre qui lui est associée.
+* Vous pouvez également tester votre modèle. [En savoir plus](#test-template)
+
+![](assets/templates-edition.png)
+
+Pour supprimer ou [duplicata](#copy-an-existing-template) un modèle, sélectionnez l’action correspondante dans la **[!UICONTROL Autres actions]** , depuis le **[!UICONTROL Modèles]** liste ou à partir d’un écran d’édition de modèle.
+
+![](assets/templates-more-actions.png)
+
+>[!NOTE]
+>
+>Lorsqu&#39;un modèle est édité ou supprimé, les diffusions créées à l&#39;aide de ce modèle ne sont pas impactées.
+
+## Création d’un modèle {#create-a-delivery-template}
+
+Pour créer un modèle de diffusion, vous pouvez :
+* Dupliquer un modèle existant - [En savoir plus](#copy-an-existing-template)
+* Convertir une diffusion existante en modèle - [En savoir plus](#convert-an-existing-delivery)
+* Créer entièrement un modèle de diffusion - [En savoir plus](#create-a-new-template)
+
+### Duplication d’un modèle existant {#copy-an-existing-template}
+
+Campaign est fourni avec un ensemble de modèles intégrés pour chaque canal : email, push, SMS. Le moyen le plus simple de créer un modèle de diffusion consiste à dupliquer et personnaliser un modèle intégré.
+
+>[!NOTE]
+>
+>Vous pouvez également dupliquer n’importe quel modèle personnalisé.
 
 Pour dupliquer un modèle de diffusion, procédez comme suit :
 
-1. Accédez au **Modèles** , depuis l’onglet **Diffusions** menu de gauche.
-1. Cliquez sur le bouton de trois points à droite, en regard du nom du modèle à dupliquer.
-1. Sélectionner  **[!UICONTROL Dupliquer]**.
-1. Confirmer la duplication : le nouveau tableau de bord du modèle s’ouvre dans l’écran central.
-1. Définissez les paramètres du nouveau modèle et enregistrez-le.
+1. Accédez au **Modèles** , depuis l’onglet **Diffusions** menu de gauche. [En savoir plus](#access-manage-templates)
+1. Cliquez sur le bouton **[!UICONTROL Autres actions]** à droite du nom du modèle, puis sélectionnez  **[!UICONTROL Dupliquer]**.
 
-Le modèle est alors ajouté dans la liste des modèles de diffusion. Vous pouvez désormais le sélectionner lors de la création d’une diffusion.
+   Vous pouvez également sélectionner un modèle dans la liste et sélectionner cette option dans l’écran d’édition du modèle.
 
-### Conversion d’une diffusion existante en modèle {#convert-an-existing-delivery}
+1. Confirmez la duplication.
 
-Toute diffusion peut être convertie en modèle pour de nouvelles actions de diffusion répétées.
+   ![](assets/templates-duplicate-confirm.png)
 
-Pour convertir une diffusion en modèle, procédez comme suit :
+1. Le nouveau tableau de bord du modèle s’ouvre dans l’écran central. Modifiez les paramètres du modèle selon vos besoins.
 
-1. Cliquez sur le bouton des trois points situé à droite, en regard du nom de la diffusion à enregistrer comme modèle.
-1. Sélectionner  **[!UICONTROL Copier en tant que modèle]**.
-1. Confirmer la duplication : le nouveau modèle s&#39;ouvre dans l&#39;écran central.
+   ![](assets/templates-duplicated-item.png)
+
+1. Cliquez sur le bouton **[!UICONTROL Réviser]** pour enregistrer et revoir votre modèle. Vous pouvez toujours modifier tous ses paramètres, les supprimer et les dupliquer.
+
+   ![](assets/templates-review-screen.png)
+
+1. Testez le rendu du modèle si nécessaire. [En savoir plus](#test-template)
+
+Le nouveau modèle est ajouté au [**Modèles** list](#access-manage-templates). Vous pouvez désormais le sélectionner lors de la création d’une diffusion.
+
+### Convertir une diffusion en modèle {#convert-an-existing-delivery}
+
+Toute diffusion peut être convertie en modèle pour de futures actions de diffusion répétées.
+
+Pour enregistrer une diffusion en tant que modèle, procédez comme suit :
+
+1. Accédez au **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** .
+1. Dans la **[!UICONTROL Parcourir]** , cliquez sur l’onglet **[!UICONTROL Autres actions]** à droite du nom de la diffusion souhaitée, puis sélectionnez **[!UICONTROL Copier en tant que modèle]**.
+
+   ![](assets/templates-convert-delivery.png)
+
+1. Confirmez la duplication.
+
+1. Le nouveau tableau de bord du modèle s’ouvre dans l’écran central. Modifiez les paramètres du modèle selon vos besoins.
+
+1. Cliquez sur le bouton **[!UICONTROL Réviser]** pour enregistrer et revoir votre modèle. Vous pouvez toujours modifier tous ses paramètres, les supprimer et les dupliquer.
+
+1. Testez le rendu du modèle si nécessaire. [En savoir plus](#test-template)
+
+Le nouveau modèle est ajouté au [**Modèles** list](#access-manage-templates). Vous pouvez désormais le sélectionner lors de la création d’une diffusion.
 
 ### Création d’un modèle {#create-a-new-template}
 
@@ -65,9 +122,65 @@ Pour convertir une diffusion en modèle, procédez comme suit :
 
 Pour configurer un modèle de diffusion à partir de zéro, procédez comme suit :
 
-1. Accédez au **Modèles** , depuis l’onglet **Diffusions** menu de gauche.
-1. Cliquez sur le bouton  **[!UICONTROL Créer un modèle]** bouton .
-1. Sélectionnez le canal du modèle.
-1. Définissez le nom et les paramètres du modèle.
-1. Cliquez sur le bouton **[!UICONTROL Réviser]** pour définir le contenu du modèle et modifier ses propriétés.
-1. Enregistrez le nouveau modèle.
+1. Accédez au **Modèles** , depuis l’onglet **Diffusions** menu de gauche. [En savoir plus](#access-manage-templates)
+1. Cliquez sur le bouton **[!UICONTROL Créer un modèle]** bouton .
+
+   ![](assets/templates-create-button.png)
+
+1. Sélectionnez le canal à utiliser pour votre modèle.
+1. Le modèle de diffusion intégré pour ce canal est utilisé par défaut pour vous aider à créer votre propre modèle. Utilisez le bouton dédié situé à droite du canal sélectionné pour sélectionner un autre modèle si nécessaire.
+
+   ![](assets/templates-channel-browse.png)
+
+1. Cliquez sur le bouton **[!UICONTROL Créer un modèle]** à nouveau.
+
+1. Définissez les propriétés du modèle, [audience](../audience/add-audience.md) et le contenu selon le canal sélectionné.
+
+   >[!NOTE]
+   >
+   >En savoir plus sur les canaux de diffusion et sur la conception de contenus respectifs dans les sections ci-dessous :
+   >
+   > * [Canal email](../email/create-email.md)
+   > * [Canal des notifications push](../push/gs-push.md)
+   > * [Canal SMS](../sms/create-sms.md)
+
+
+1. Cliquez sur le bouton **[!UICONTROL Réviser]** pour enregistrer et revoir votre modèle. Vous pouvez toujours modifier tous ses paramètres, les supprimer et les dupliquer.
+
+1. Testez le rendu du modèle si nécessaire. [En savoir plus](#test-template)
+
+Le nouveau modèle est ajouté au [**Modèles** list](#access-manage-templates). Vous pouvez désormais le sélectionner lors de la création d’une diffusion.
+
+## Tester un modèle de diffusion {#test-template}
+
+Vous pouvez tester le rendu de n&#39;importe quel modèle de diffusion, qu&#39;il soit créé entièrement ou à partir d&#39;un contenu existant. Pour ce faire, procédez comme suit.
+
+1. Accédez au **Modèles** à l’aide de l’onglet **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** et sélectionnez n’importe quel modèle. [En savoir plus](#access-manage-templates)
+
+1. Cliquez sur le bouton **[!UICONTROL Simulation du contenu]** en haut à droite de l’écran.
+
+   ![](assets/templates-simulate-button.png)
+
+1. Sélectionnez un ou plusieurs profils de test pour vérifier le rendu de votre email. Vous pouvez également sélectionner des profils réels dans votre base de données.
+
+1. Basculez entre les différents profils pour obtenir une représentation personnalisée du message en fonction du profil sélectionné.
+
+   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+
+   Vous pouvez également ajuster le niveau de zoom et choisir la vue pour ordinateur ou mobile.
+
+   ![](assets/templates-stimulate.png)
+
+1. Fermez la fenêtre pour revenir à l&#39;écran d&#39;édition du modèle.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas utiliser le rendu des emails ni envoyer de BAT dans un modèle de diffusion.
+
+* [En savoir plus sur la prévisualisation du contenu d&#39;un email](../preview-test/preview-content.md)
+
+* [En savoir plus sur la prévisualisation du contenu des SMS](../sms/content-sms.md)
+
+* [En savoir plus sur la prévisualisation du contenu push](../push/gs-push.md)
+
+
