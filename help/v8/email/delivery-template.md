@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 3e06271c15db24c24aa9f0ee19113d52ffa1a19a
+source-git-commit: e4a667f81c1d95c12003c2d93fb9f5fd9239a2eb
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '921'
 ht-degree: 15%
 
 ---
@@ -29,6 +29,13 @@ Sender and reply-to addresses?-->
 <!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
 
 ## Accès et gestion des modèles {#access-manage-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_templates"
+>title="Utiliser des modèles de diffusion"
+>abstract="Utilisez les modèles de diffusion pour créer et enregistrer facilement vos diffusions existantes en vue d’une utilisation ultérieure."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplication d’un modèle existant"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Convertir une diffusion en modèle"
 
 Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL Campaign Management]** > **[!UICONTROL Diffusions]** dans le menu de gauche, puis accédez à la **Modèles** .
 
