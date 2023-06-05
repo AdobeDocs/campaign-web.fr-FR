@@ -4,10 +4,10 @@ title: Prise en main des audiences
 description: Découvrez comment utiliser les audiences dans l’interface utilisateur web de Campaign.
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 53%
+source-wordcount: '217'
+ht-degree: 31%
 
 ---
 
@@ -36,17 +36,16 @@ control groups like acc: exract, random, based on attribute
 -->
 
 
-L&#39;audience est la cible principale de votre diffusion : les destinataires qui reçoivent les messages. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. Consultez cette [section](../msg/delivery-template.md).
+L&#39;audience est la cible principale de votre diffusion : les destinataires qui reçoivent les messages. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. Découvrez ce qu&#39;est un modèle de diffusion [dans cette section](../msg/delivery-template.md).
 
-Découvrez comment utiliser le créateur de règles de Campaign et définir des critères de filtrage pour sélectionner l’audience de vos messages. Vous pouvez facilement utiliser les données d’un fichier externe ou cibler des audiences Adobe Experience Platform.
+Pour définir la population de l&#39;audience, vous pouvez :
 
+* Sélectionnez une audience existante, créée sous forme de liste dans la console cliente. [En savoir plus](add-audience.md)
+* Sélectionnez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md)
+* Créez une nouvelle audience avec le créateur de règles en définissant et combinant des critères de filtrage. [En savoir plus](segment-builder.md)
+* Utiliser une audience depuis un fichier externe : cette option est disponible uniquement pour les diffusions email autonomes et ne peut pas être utilisée dans les diffusions de campagne. [En savoir plus](file-audience.md)
 
-Pour définir l’audience, vous pouvez :
-
-* Sélectionnez une audience existante, créée dans la console cliente. [En savoir plus](add-audience.md)
-* Créez une audience avec le créateur de règles. [En savoir plus](segment-builder.md)
-* Utilisez une audience provenant d’un fichier externe. [En savoir plus](file-audience.md)
-* Utilisez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md)
+Lors de l&#39;envoi de messages dans le cadre d&#39;un workflow de campagne, l&#39;audience est définie dans une **Lecture d’audience** activité de workflow. Dans ce contexte, vous ne pouvez pas charger une audience depuis un fichier pour une diffusion par email, et l&#39;audience n&#39;est définie que dans cette activité dédiée. Découvrez comment définir l&#39;audience de votre diffusion dans un workflow de campagne [dans cette section](../workflows/orchestrate-activities.md).
 
 Vous pouvez également définir des populations témoins afin d’éviter d’envoyer des messages à une partie de votre audience et pour mesurer l’impact de vos campagnes. [En savoir plus](control-group.md)
 
