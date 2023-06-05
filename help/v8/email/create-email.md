@@ -4,9 +4,9 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1329'
 ht-degree: 93%
 
 ---
@@ -46,7 +46,7 @@ Pour créer une diffusion, procédez comme suit :
 
    >[!NOTE]
    >
-   >Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. Ils peuvent être créés par les utilisateurs et utilisatrices disposant des droits d’administration dans la console Adobe Campaign. [Découvrez comment utiliser les modèles de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=fr){target="_blank"}.
+   >Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. [En savoir plus](../msg/delivery-template.md)
 
    ![](assets/channel-template.png)
 
@@ -89,7 +89,7 @@ Dans ce cas d’utilisation, vous utilisez un modèle prédéfini pour concevoir
 
    ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
