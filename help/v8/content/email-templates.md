@@ -4,10 +4,10 @@ product: campaign
 title: Utiliser des modèles d’e-mails
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
+source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 35%
+ht-degree: 27%
 
 ---
 
@@ -29,7 +29,7 @@ Découvrez comment utiliser des modèles et comment enregistrer un contenu d’e
 
 Pour commencer à créer votre contenu avec l’un des exemples ou des modèles enregistrés, procédez comme suit.
 
-1. Ouvrez le [concepteur d’e-mail](create-email-content.md).
+1. Ouvrez le [Concepteur d&#39;email](create-email-content.md).
 
 1. Sur l’écran **[!UICONTROL Créer votre e-mail]**, l’onglet **[!UICONTROL Exemples de modèles]** est sélectionné par défaut.
 
@@ -67,6 +67,6 @@ Pour enregistrer un contenu d’e-mail en tant que modèle, procédez comme suit
 
    ![](assets/email_designer-template-name.png)
 
-Vous pouvez désormais [utiliser ce modèle](#use-templates) pour créer un nouveau contenu : il est disponible sous l’onglet Modèles enregistrés du Concepteur d’e-mail.****
+Vous pouvez désormais [utiliser ce modèle](#use-templates) pour créer un nouveau contenu : il est disponible dans la **[!UICONTROL Modèles enregistrés]** du Concepteur d’email.
 
 ![](assets/email_designer-saved-template.png)
