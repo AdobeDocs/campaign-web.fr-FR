@@ -4,10 +4,10 @@ title: Utilisation des activités de workflows
 description: Découvrez comment workflows des activités
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 34%
+source-wordcount: '303'
+ht-degree: 26%
 
 ---
 
@@ -36,9 +36,7 @@ Ces activités sont spécifiques au ciblage, à la manipulation et à l&#39;enri
 
 Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux, tels que les emails, les SMS ou les notifications push. Vous pouvez combiner des activités de canal dans la zone de travail afin de créer des processus cross-canal pouvant déclencher des actions en fonction du comportement du client.
 
-Vous pouvez par exemple créer une campagne par e-mail de bienvenue qui comprend une série de messages sur différents canaux, tels que les e-mails, les SMS et les notifications push. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente a effectué un achat, ou encore envoyer un message d’anniversaire personnalisé par SMS.
-
-Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent des clients sur plusieurs points de contact et génèrent des conversions.
+Les éléments suivants **Canal** les activités sont disponibles :
 
 * [E-mail](email.md)
 * [Push](push.md)
