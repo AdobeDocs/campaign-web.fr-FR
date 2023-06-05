@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow de courrier électronique
 description: Découvrez comment utiliser l’activité de workflow de courrier électronique
 badge: label="Alpha" type="Positive"
-source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
+source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 32%
@@ -29,7 +29,7 @@ Voici les étapes à suivre pour ajouter une **Canal** activité dans un workflo
 
 1. Sélectionnez une **Modèle**. Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. [En savoir plus](../../msg/delivery-template.md)
 
-1. Cliquez sur **Créer une diffusion** et définir votre message de la même manière que vous créez une diffusion autonome. [En savoir plus](../../msg/gs-message.md)
+1. Cliquez sur **Créer une diffusion** et définir votre message de la même manière que vous créez une diffusion autonome. [En savoir plus](../../msg/gs-messages.md)
 
 
 1. Démarrez le workflow et vérifiez les logs.
