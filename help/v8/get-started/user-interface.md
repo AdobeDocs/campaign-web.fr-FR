@@ -4,7 +4,7 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 73%
@@ -97,7 +97,7 @@ Dans la section CAMPAIGN MANAGEMENT , vous pouvez accéder aux opérations marke
 
 * **Campagnes** - Il s’agit de la liste de vos campagnes et modèles de campagne. Par défaut, pour chaque opération, vous pouvez visualiser les dates de début/fin/création/dernière modification, l&#39;état actuel et le nom de l&#39;opérateur Campaign qui l&#39;a créée. Vous pouvez filtrer la liste par statut, dates de début/fin, dossier ou créer un filtre avancé afin de définir vos propres critères de filtrage. En savoir plus sur les campagnes [dans cette section](../campaigns/gs-campaigns.md).
 
-* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. En savoir plus sur les diffusions [dans cette section](../email/gs-messages.md).
+* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. En savoir plus sur les diffusions [dans cette section](../msg/gs-messages.md).
 
    Utilisez le bouton **Autres actions** pour supprimer ou dupliquer une diffusion.
 
