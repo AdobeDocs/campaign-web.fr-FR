@@ -4,10 +4,10 @@ title: Paramètres de diffusion d’e-mail
 description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -188,4 +188,4 @@ Vous pouvez également personnaliser le nom des e-mails de test.
 
 Utilisez l’option **Conserver le code de diffusion pour le BAT** pour associer à l’e-mail de test le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte.
 
-Par défaut, l’objet de l’e-mail de test est précédé du préfixe « BAT # », où # correspond au numéro de l’e-mail de test. Vous pouvez modifier ce préfixe dans le champ **Préfixe de libellé**.
+Par défaut, l’objet de l’email de test est précédé du préfixe &quot;BAT #&quot;, où # correspond au numéro de l’email de test. Vous pouvez modifier ce préfixe dans le champ **Préfixe de libellé**.
