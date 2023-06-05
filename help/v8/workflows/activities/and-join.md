@@ -3,28 +3,28 @@ audience: end-user
 title: Utilisation de l’activité de workflow Rendez-vous
 description: Découvrez comment utiliser l’activité de workflow Rendez-vous
 badge: label="Alpha" type="Positive"
-source-git-commit: 6ed2c73a5348871348ec4cbdd89fc8119fdbc718
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 21%
+source-wordcount: '189'
+ht-degree: 3%
 
 ---
 
 
 # Rendez-vous {#join}
 
-Le **Et rejoindre** permet de synchroniser plusieurs branches d&#39;exécution d&#39;un workflow.
+Le **Et rejoindre** est une activité **Contrôle de flux** activité. Il permet de synchroniser plusieurs branches d&#39;exécution d&#39;un workflow.
 
-L&#39;activité Rendez-vous ne déclenche sa transition sortante qu&#39;une fois toutes les transitions entrantes activées, c&#39;est-à-dire quand toutes les activités précédentes sont terminées.
+Cette activité ne déclenche sa transition sortante qu&#39;une fois toutes les transitions entrantes activées, c&#39;est-à-dire une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter le workflow.
 
 ## Configuration
 
 Procédez comme suit pour configurer la variable **AND-join** activité :
 
-1. Ajoutez plusieurs activités, telles que **Combiner** pour former au moins deux branches d&#39;exécution différentes.
+1. Ajoutez plusieurs activités telles que des activités de canal afin de former au moins deux branches d’exécution différentes.
 1. Ajoutez un **AND-join** à l’une des branches.
 1. Dans le **Options de fusion** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre.
-1. Sélectionnez la **Principal** à conserver dans la transition sortante.
+1. Dans le **Principal** , choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l&#39;une des populations de la transition entrante.
 
 ## Exemple
 

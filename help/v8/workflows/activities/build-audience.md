@@ -3,17 +3,27 @@ audience: end-user
 title: Utilisation de l’activité de workflow Créer l’audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience
 badge: label="Alpha" type="Positive"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 9%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
 
 # Créer une audience {#build-audience}
 
-Cette activité permet de définir une audience. Vous pouvez sélectionner une audience existante ou utiliser le créateur de règles pour définir votre propre requête.
+Le **Créer une audience** est une activité **Ciblage** activité. Cette activité permet de définir l&#39;audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans la variable **Créer une audience** activité.
+
+Pour définir la population de l&#39;audience, vous pouvez :
+
+* Sélectionnez une audience existante, créée sous forme de liste dans la console cliente.
+* Sélectionnez une audience Adobe Experience Platform.
+* Créez une nouvelle audience avec le créateur de règles en définissant et combinant des critères de filtrage.
+
+>[!NOTE]
+>
+>Dans ce contexte, vous ne pouvez pas charger une audience à partir d’un fichier. Pour cela, vous devez créer une diffusion autonome. [En savoir plus](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Procédez comme suit pour configurer la variable **Créer une audience** activité :
 
-1. Ajoutez une activité Créer une audience .
+1. Ajouter un **Créer une audience** activité.
 1. Définir un libellé.
 1. Définissez le type d’audience : **Créez votre propre** ou **Lecture d’audience**.
 

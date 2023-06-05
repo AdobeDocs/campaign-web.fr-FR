@@ -4,10 +4,10 @@ title: Utilisation des activités de workflows
 description: Découvrez comment workflows des activités
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 51%
+source-wordcount: '366'
+ht-degree: 34%
 
 ---
 
@@ -34,11 +34,11 @@ Ces activités sont spécifiques au ciblage, à la manipulation et à l&#39;enri
 
 ## Activités des canaux {#channel}
 
-Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux, tels que les e-mails, les SMS ou les notifications push. Avec les workflows Adobe Campaign, vous pouvez combiner des activités de canal dans la zone de travail afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement du client ou de la cliente.
+Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux, tels que les emails, les SMS ou les notifications push. Vous pouvez combiner des activités de canal dans la zone de travail afin de créer des processus cross-canal pouvant déclencher des actions en fonction du comportement du client.
 
 Vous pouvez par exemple créer une campagne par e-mail de bienvenue qui comprend une série de messages sur différents canaux, tels que les e-mails, les SMS et les notifications push. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente a effectué un achat, ou encore envoyer un message d’anniversaire personnalisé par SMS.
 
-Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent des clients et clientes sur plusieurs points de contact et génèrent des conversions.
+Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent des clients sur plusieurs points de contact et génèrent des conversions.
 
 * [E-mail](email.md)
 * [Push](push.md)
@@ -49,7 +49,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 Les activités ci-après sont spécifiques à l&#39;organisation et à l&#39;exécution du workflow. Leur principale tâche est de coordonner les autres activités:
 
 * Le [Et rejoindre](and-join.md) permet de synchroniser plusieurs branches d&#39;exécution d&#39;un workflow.
-* Le [Fin](end.md) vous permet de marquer graphiquement la fin d’un workflow. Ces activités n&#39;ont aucun impact fonctionnel et sont donc facultatives.
+* Le [Fin](end.md) vous permet de marquer graphiquement la fin d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative.
 * L&#39;activité [Branchement](fork.md) permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle.
 * L&#39;activité [Attente](wait.md) permet de suspendre momentanément l&#39;exécution d&#39;une partie d&#39;un workflow.
 
