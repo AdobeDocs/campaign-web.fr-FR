@@ -4,10 +4,10 @@ title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 56%
+source-wordcount: '743'
+ht-degree: 45%
 
 ---
 
@@ -53,9 +53,21 @@ Sous , **Population témoin** , choisissez une **Mode d&#39;extraction**:
 
 * **Classement par attribut(s)** : cette option permet d’exclure un jeu de profils en fonction d’un ou de plusieurs attributs spécifiques dans un ou plusieurs ordres de tri spécifiques.
 
+
+Ensuite, utilisez le **Limite de taille** pour définir le nombre de profils à extraire de la cible principale. Il peut s’agir d’un nombre brut (par exemple, 50 profils à exclure) ou d’un pourcentage de votre audience initiale (par exemple, 5 % de la cible principale).
+
+
+### Exemple de groupe témoin
+
+Par exemple, pour créer une population témoin avec les 100 nouveaux destinataires les plus jeunes, procédez comme suit :
+
+1. Sélectionnez le champ **Age** comme critère de tri. Laissez le champ **ascendant** option de tri.
+1. Ajoutez la variable **Date de création** champ . Changement de la variable **Descendant** option de tri.
+1. Définissez 100 comme seuil dans la variable **Limite de taille** .
+
    ![](assets/control-group2.png)
 
-Ensuite, utilisez le **Limite de taille** pour définir le nombre de profils à extraire de la cible principale. Il peut s’agir d’un nombre brut ou d’un pourcentage de votre audience initiale.
+Ces 100 nouveaux destinataires les plus jeunes sont alors exclus de la cible principale.
 
 ### Vérifier votre groupe témoin {#check-extract-target}
 
@@ -89,7 +101,7 @@ Pour plus d’informations sur les logs de diffusion, consultez [cette section](
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Population supplémentaire"
->abstract="Vous pouvez également définir une population témoin en excluant une population spécifique de la cible. Pour cela, vous pouvez utilisez une audience existante ou définir une requête."
+>abstract="Vous pouvez exclure une population spécifique de la cible en sélectionnant une audience existante ou en définissant une requête."
 
 Vous pouvez également définir une population témoin en excluant une population spécifique de la cible. Pour cela, vous pouvez utilisez une audience existante ou définir une requête.
 
@@ -102,3 +114,8 @@ Dans la section **Population supplémentaire** de l’écran de définition de l
 * Pour définir une nouvelle requête, sélectionnez **Créer la vôtre** et définissez les critères d’exclusion à l’aide du créateur de règles. Reportez-vous à cette [section](segment-builder.md).
 
 Les profils inclus dans l’audience ou correspondant au résultat de la requête sont exclus de la cible.
+
+## Comparer les résultats{#control-group-results}
+
+Une fois la diffusion envoyée, vous pouvez extraire les logs d&#39;envoi pour comparer le comportement entre les profils qui n&#39;ont pas reçu la communication et la cible effective. Vous pouvez également utiliser les logs de diffusion pour créer un nouveau ciblage.
+
