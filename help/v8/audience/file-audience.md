@@ -4,9 +4,9 @@ title: Cibler les destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer votre audience de courrier électronique
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '328'
 ht-degree: 13%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 13%
 >title="Paramètres de formatage"
 >abstract="Vérifiez les paramètres de formatage de votre fichier."
 
-Vous pouvez transférer des contacts depuis un fichier externe. Les formats de fichiers pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour [personnalisation](../personalization/gs-personalization.md).
+Vous pouvez transférer des contacts depuis un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour [personnalisation](../personalization/gs-personalization.md). Les formats de fichiers pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ Pour cibler des profils à partir d&#39;un fichier local directement depuis l&#3
 
    ![](assets/select-from-file.png)
 
-1. Sélectionnez le fichier local à télécharger.
+1. Sélectionnez le fichier local à télécharger. Le format doit s’aligner sur la variable [exemple de fichier](#sample-file).
 1. Prévisualisez et vérifiez le mappage des données dans la section centrale de l’écran.
 1. Sélectionnez la colonne contenant l&#39;adresse email parmi les **Champ d’adresse** menu déroulant. Vous pouvez également sélectionner la colonne liste bloquée si vous disposez de ces informations dans le fichier d’entrée.
 1. Ajustez les paramètres des colonnes et comment formater les données à partir des options disponibles.
