@@ -3,15 +3,15 @@ audience: end-user
 title: Utilisation de l’activité de workflow de courrier électronique
 description: Découvrez comment utiliser l’activité de workflow de courrier électronique
 badge: label="Alpha" type="Positive"
-source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 32%
+source-wordcount: '316'
+ht-degree: 31%
 
 ---
 
 
-# Email, SMS, Push {#email}
+# Email, SMS, Push {#channel}
 
 Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux, tels que les emails, les SMS ou les notifications push. Vous pouvez combiner des activités de canal dans la zone de travail afin de créer des processus cross-canal pouvant déclencher des actions en fonction du comportement du client.
 
@@ -25,14 +25,22 @@ Voici les étapes à suivre pour ajouter une **Canal** activité dans un workflo
 
    ![](../../msg/assets/add-delivery-in-wf.png)
 
-1. Sélectionnez une activité de diffusion : **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]** ou **[!UICONTROL Notification push (iOS)]**.
+1. Sélectionnez une activité de diffusion : **[!UICONTROL e-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL notification push (Android)]** ou **[!UICONTROL notification push (iOS)]**.
 
 1. Sélectionnez une **Modèle**. Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. [En savoir plus](../../msg/delivery-template.md)
 
-1. Cliquez sur **Créer une diffusion** et définir votre message de la même manière que vous créez une diffusion autonome. [En savoir plus](../../msg/gs-messages.md)
+1. Cliquez sur **Créer une diffusion** et définir votre message de la même manière que vous créez une diffusion autonome. C&#39;est également à cet endroit que vous définissez les paramètres de diffusion, planifiez et simulez le contenu. [En savoir plus](../../msg/gs-messages.md)
 
+1. Revenez à votre workflow et cliquez sur **Début** pour lancer votre workflow.
 
-1. Démarrez le workflow et vérifiez les logs.
+   Par défaut, le lancement d’un workflow de diffusion déclenche l’étape de préparation du message, sans envoyer immédiatement le message.
+
+1. Cliquez sur **Réviser et envoyer** de l’activité de canal pour confirmer l’envoi.
+
+1. Dans le tableau de bord de la diffusion, cliquez sur **Envoyer**.
+
+## Exemple
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
