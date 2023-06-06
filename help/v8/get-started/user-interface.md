@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1506'
 ht-degree: 99%
 
 ---
@@ -235,20 +235,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="Définissez l’audience du SMS."
->abstract="Sélectionnez l’audience la plus appropriée pour votre SMS."
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Synthèse du rapport SMS"
->abstract="Découvrez les mesures de reporting pour votre diffusion par SMS."
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Synthèse du rapport des notifications push"
->abstract="Découvrez les mesures de reporting pour votre diffusion par notification push."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,21 +250,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="Mesures des erreurs"
 >abstract="Nombre d’e-mails avec le statut d’erreur."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="Contenu de notification push pour Android"
->abstract="Définissez le contenu de la notification push Android."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="Contenu de notification push pour iOS"
->abstract="Définissez le contenu de la notification push iOS."
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="Personnes abonnées à l’application"
->abstract="Prévisualisez et testez le message en ajoutant des abonnés ou abonnées à l’application à la cible principale. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -366,20 +337,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Champs avancés du créateur de règles"
 >abstract="Configurez les colonnes avec des champs avancés."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="Propriétés de diffusion par notification push"
->abstract="Gérez les propriétés de la diffusion par notification push."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nouvelle mesure de quarantaines"
 >abstract="Nouvelle mesure de quarantaine."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="Sélection du modèle de SMS"
->abstract="Sélectionnez un modèle prédéfini pour démarrer votre diffusion par SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

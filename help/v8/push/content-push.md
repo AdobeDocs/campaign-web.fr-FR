@@ -3,14 +3,24 @@ audience: end-user
 title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 965c2d72d81233c98beb4e4bc3c76692c7bf3990
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 58%
+source-wordcount: '785'
+ht-degree: 59%
 
 ---
 
 # Concevoir une diffusion push {#content-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="Contenu de notification push pour Android"
+>abstract="Définissez le contenu de la notification push Android."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_content"
+>title="Contenu de notification push pour iOS"
+>abstract="Définissez le contenu de la notification push iOS."
 
 ## Message {#push-message}
 

@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 80%
+source-wordcount: '332'
+ht-degree: 77%
 
 ---
 
@@ -94,14 +94,14 @@ ht-degree: 80%
       + [Et rejoindre](workflows/activities/and-join.md)
       + [Créer une audience](workflows/activities/build-audience.md)
       + [Combiner](workflows/activities/combine.md)
-      + [E-mail](workflows/activities/email.md)
+      + [Email, SMS, Push](workflows/activities/email.md)
       + [Fin](workflows/activities/end.md)
       + [Enrichissement](workflows/activities/enrichment.md)
       + [Branchement](workflows/activities/fork.md)
-      + [Push](workflows/activities/push.md)
-      + [SMS](workflows/activities/sms.md)
       + [Attente](workflows/activities/wait.md)
 + Reporting {#reports}
    + [Commencer avec les rapports](reporting/gs-reports.md)
    + [Accès aux rapports de diffusion](reporting/delivery-reports.md)
-
+   + [Rapport Diffusion Email](reporting/email-report.md)
+   + [Rapport Diffusion push](reporting/push-report.md)
+   + [Rapport de diffusion SMS](reporting/sms-report.md)
