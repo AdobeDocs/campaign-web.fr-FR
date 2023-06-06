@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow de courrier électronique
 description: Découvrez comment utiliser l’activité de workflow de courrier électronique
 badge: label="Alpha" type="Positive"
-source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
+source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,9 @@ Voici les étapes à suivre pour ajouter une **Canal** activité dans un workflo
 
 ## Exemple
 
+Voici un exemple de workflow cross-canal avec une segmentation et deux diffusions. Le workflow cible tous les clients ayant une adresse email et qui s&#39;intéressent aux machines à café. Parmi cette population, un email est envoyé aux clients réguliers et un SMS est envoyé aux clients VIP.
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
