@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
    ![](assets/preheader_body.png)
 
-1. Dans la **[!UICONTROL Paramètres]** ajoutez votre pré-titre. Vous pouvez le personnaliser davantage en cliquant sur l’icône **[!UICONTROL Ajouter une personnalisation]**.
+1. Depuis l’onglet **[!UICONTROL Paramètres]**, ajoutez votre pré-titre. Vous pouvez le personnaliser davantage en cliquant sur l’icône **[!UICONTROL Ajouter une personnalisation]**.
 
    ![](assets/preheader_body_settings.png)
 

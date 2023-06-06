@@ -7,16 +7,16 @@ exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 source-git-commit: be7cdfbffbe5c3b1a7ec58e5c60856a6bdc56200
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
-# Accès et gestion des workflows {#access-monitor}
+# Accéder aux workflows et les gérer {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="Dans cet écran, vous pouvez accéder à la liste complète des workflows de campagne et autonome, vérifier leur état actuel, les dates de dernière exécution/prochaine exécution et créer un nouveau workflow. Accédez à l&#39;onglet &quot;Modèle&quot; pour accéder aux modèles de workflow disponibles."
+>abstract="Dans cet écran, vous pouvez accéder à la liste complète des workflows de campagne et autonome, vérifier leur état actuel, les dates de dernière exécution/prochaine exécution et créer un nouveau workflow. Accédez à l’onglet « Modèle » pour accéder aux modèles de workflow disponibles."
 
 Le **[!UICONTROL Workflows]** vous permet d’accéder à la liste complète des workflows. Cette liste comprend les deux éléments suivants : **workflows autonomes** qui ont été créés à partir de cet écran ; et **workflows de campagne**, qui ont été créées dans une campagne.
 

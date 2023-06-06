@@ -10,7 +10,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -78,7 +78,7 @@ Pour personnaliser le contenu des e-mails, ouvrez le message dans le concepteur 
 
    ![](assets/perso-insert-block.png)
 
-1. Une fois inséré, le bloc de contenu est ajouté au contenu de l&#39;email. Il est automatiquement adapté au profil du destinataire lors de la génération de la personnalisation, à l&#39;étape de préparation de la diffusion.
+1. Une fois inséré, le bloc de contenu est ajouté au contenu de l’e-mail. Il est automatiquement adapté au profil du ou de la destinataire lors de la génération de la personnalisation, à l’étape de préparation de la diffusion.
 
    ![](assets/perso-content-block-in-email.png)
 

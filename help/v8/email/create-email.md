@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1326'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -114,7 +114,7 @@ Dans ce cas pratique, vous utilisez un email prédéfini [modèle de diffusion](
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Définir l’audience"
->abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance Campaign v8 ou dans Adobe Experience Platform ou choisir de créer une nouvelle audience à l’aide du créateur de règles. Les groupes de contrôle ne sont pas activés pour &quot;Select from file&quot; et vice versa."
+>abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante déjà définie dans une instance Campaign v8 ou dans Adobe Experience Platform ou choisir de créer une nouvelle audience à l’aide du créateur de règles. Les populations témoins ne sont pas activées pour « Sélectionner à partir du fichier » et vice versa."
 
 Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante. Des instructions supplémentaires sur l’utilisation des audiences sont disponibles dans [cette section](../audience/about-audiences.md).
 

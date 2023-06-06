@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 73%
+ht-degree: 99%
 
 ---
 
@@ -86,24 +86,24 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campagnes"
->abstract="Il s’agit de la liste de vos campagnes. Vous pouvez afficher des informations utiles telles que leurs dates de début, de fin ou de dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Cliquez sur le bouton &quot;Créer une campagne&quot; pour ajouter une nouvelle campagne. Sélectionnez une opération pour afficher son contenu, ses diffusions et ses détails. Accédez à l&#39;onglet &quot;Modèles&quot; pour afficher et créer des modèles."
+>abstract="Il s’agit de la liste de vos campagnes. Vous pouvez afficher des informations utiles telles que leurs dates de début, de fin ou de dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Cliquez sur le bouton « Créer une campagne » pour ajouter une nouvelle campagne. Sélectionnez une campagne pour afficher son contenu, ses diffusions et ses détails. Accédez à l’onglet « Modèles » pour afficher et créer des modèles."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Diffusions"
->abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur statut, les dates de contact et de modification, les indicateurs clés de performance. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur le bouton &quot;Créer une diffusion&quot; pour ajouter une nouvelle diffusion. Sélectionnez une diffusion pour afficher son contenu, son audience et ses détails."
+>abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur statut, les dates de contact et de modification, les KPI clés. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur le bouton « Créer une diffusion » pour ajouter une nouvelle diffusion. Sélectionnez une diffusion pour afficher son contenu, son audience et ses détails."
 
-Dans la section CAMPAIGN MANAGEMENT , vous pouvez accéder aux opérations marketing, diffusions et workflows.
+Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketing, diffusions et workflows.
 
-* **Campagnes** - Il s’agit de la liste de vos campagnes et modèles de campagne. Par défaut, pour chaque opération, vous pouvez visualiser les dates de début/fin/création/dernière modification, l&#39;état actuel et le nom de l&#39;opérateur Campaign qui l&#39;a créée. Vous pouvez filtrer la liste par statut, dates de début/fin, dossier ou créer un filtre avancé afin de définir vos propres critères de filtrage. En savoir plus sur les campagnes [dans cette section](../campaigns/gs-campaigns.md).
+* **Campagnes** : il s’agit de la liste de vos campagnes et modèles de campagne. Par défaut, pour chaque campagne, vous pouvez afficher les dates de début, de fin, de création, de dernière modification, le statut actuel et le nom de l’opérateur ou de l’opératrice Campaign qui l’a créée. Vous pouvez filtrer la liste par statut, dates de début et de fin, ou par dossier, ou créer un filtre avancé afin de définir vos propres critères de filtrage. En savoir plus sur les campagnes [dans cette section](../campaigns/gs-campaigns.md).
 
-* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. En savoir plus sur les diffusions [dans cette section](../msg/gs-messages.md).
+* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Pour en savoir plus sur les diffusions, consultez [cette section](../msg/gs-messages.md).
 
    Utilisez le bouton **Autres actions** pour supprimer ou dupliquer une diffusion.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Workflows** - Dans cet écran, vous pouvez accéder à la liste complète des workflows et des modèles de workflows. Vous pouvez vérifier leur état, les dates de dernière exécution/prochaine exécution et créer un nouveau workflow ou un nouveau modèle de workflow. Vous pouvez filtrer la liste selon les mêmes critères que pour les autres objets. En outre, vous pouvez filtrer les workflows appartenant à une campagne ou non. En savoir plus sur les workflows [dans cette section](../workflows/gs-workflows.md).
+* **Workflows** : dans cet écran, vous pouvez accéder à la liste complète des workflows et des modèles de workflows. Vous pouvez vérifier leur statut, les dates de dernière exécution ou de prochaine exécution, et créer un nouveau workflow ou un nouveau modèle de workflow. Vous pouvez filtrer la liste selon les mêmes critères que pour les autres objets. En outre, vous pouvez filtrer les workflows appartenant ou non à une campagne. Pour en savoir plus sur les workflows, consultez [cette section](../workflows/gs-workflows.md).
 
 
 ### Gestion des clients
@@ -237,18 +237,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
->title="Définition de l&#39;audience SMS"
->abstract="Sélectionnez la meilleure audience pour votre SMS."
+>title="Définissez l’audience du SMS."
+>abstract="Sélectionnez l’audience la plus appropriée pour votre SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Synthèse du rapport SMS"
->abstract="Découvrez les mesures de création de rapports pour votre diffusion SMS."
+>abstract="Découvrez les mesures de reporting pour votre diffusion par SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Synthèse du rapport des notifications push"
->abstract="Découvrez les mesures de création de rapports pour votre diffusion push."
+>abstract="Découvrez les mesures de reporting pour votre diffusion par notification push."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -258,27 +258,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Mesures envoyées"
->abstract="Nombre de courriers électroniques remis."
+>abstract="Nombre d’e-mails envoyés."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Mesures des erreurs"
->abstract="Nombre d&#39;emails avec le statut d&#39;erreur."
+>abstract="Nombre d’e-mails avec le statut d’erreur."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenu de notification push pour Android"
->abstract="Définissez le contenu Android push."
+>abstract="Définissez le contenu de la notification push Android."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenu de notification push pour iOS"
->abstract="Définissez le contenu iOS push."
+>abstract="Définissez le contenu de la notification push iOS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Personnes abonnées à l’application"
->abstract="Prévisualisez et testez le message en ajoutant des abonnés à l’application à la cible principale. "
+>abstract="Prévisualisez et testez le message en ajoutant des abonnés ou abonnées à l’application à la cible principale. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -304,12 +304,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Envoi des rapports"
->abstract="Consultez les indicateurs d&#39;envoi pour le reporting de l&#39;opération."
+>abstract="Consultez les indicateurs d’envoi pour le reporting de la campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracking des rapports"
->abstract="Consultez les indicateurs de tracking pour le reporting de l&#39;opération."
+>abstract="Consultez les indicateurs de tracking pour le reporting de la campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -323,7 +323,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Rapports agrégés pour les diffusions"
+>title="Reporting agrégé pour les diffusions"
 >abstract="Sélectionnez au moins deux diffusions pour afficher un rapport de données agrégées."
 
 >[!CONTEXTUALHELP]
@@ -349,12 +349,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Autorisation requise"
->abstract="Avant de pouvoir créer un segment, votre administrateur doit vous accorder des autorisations."
+>abstract="Avant de pouvoir créer un segment, votre administrateur ou administratrice doit vous accorder une autorisation."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Autorisation requise"
->abstract="Avant de pouvoir créer un segment, votre administrateur doit vous accorder des autorisations."
+>abstract="Avant de pouvoir créer un segment, votre administrateur ou administratrice doit vous accorder une autorisation."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -368,18 +368,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="Propriétés de diffusion push"
->abstract="Gérez les propriétés de la diffusion push."
+>title="Propriétés de diffusion par notification push"
+>abstract="Gérez les propriétés de la diffusion par notification push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
->title="Nouvelle mesure de mises en quarantaine"
->abstract="Nouvelle mesure de mise en quarantaine."
+>title="Nouvelle mesure de quarantaines"
+>abstract="Nouvelle mesure de quarantaine."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Sélection du modèle de SMS"
->abstract="Sélectionnez un modèle prédéfini pour démarrer votre diffusion SMS."
+>abstract="Sélectionnez un modèle prédéfini pour démarrer votre diffusion par SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

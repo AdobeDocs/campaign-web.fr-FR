@@ -8,7 +8,7 @@ hide: true
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 78%
    + Rendre votre contenu dynamique {#dynamic-content}
       + [Prise en main du contenu dynamique](personalization/gs-personalization.md)
       + [Ajouter de la personnalisation](personalization/personalize.md)
-      + [Ajout de contenu conditionnel](personalization/conditions.md)
+      + [Ajouter du contenu conditionnel](personalization/conditions.md)
 + Audiences et destinataires {#audiences}
    + [Prise en main des audiences](audience/about-audiences.md)
    + [Sélectionner une audience existante](audience/add-audience.md)
@@ -82,7 +82,7 @@ ht-degree: 78%
    + [Créer votre première campagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Prise en main des workflows](workflows/gs-workflows.md)
-   + [Accès et gestion des workflows](workflows/access-monitor.md)
+   + [Accéder aux workflows et les gérer](workflows/access-monitor.md)
    + Créer et exécuter votre premier workflow {#create-workflow}
       + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
       + [Créer le workflow](workflows/create-workflow.md)

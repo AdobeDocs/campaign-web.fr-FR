@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 45%
+ht-degree: 47%
 
 ---
 
@@ -28,7 +28,7 @@ Tous les profils faisant partie de la population témoin à l’étape de prépa
 
 >[!CAUTION]
 >
->Vous ne pouvez pas utiliser de population témoin lors du chargement de la population cible. [à partir d’un fichier externe](file-audience.md).
+>Vous ne pouvez pas utiliser de population témoin lors du chargement de la population cible [à partir d’un fichier externe](file-audience.md).
 
 Pour ajouter une population témoin à une diffusion, activez la fonction **[!UICONTROL Activer la population témoin]** bascule, à partir de **Audience** de l&#39;écran de création de la diffusion.
 
