@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 99%
+source-wordcount: '1508'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ Les éléments affichés dans l’Explorateur dépendent de vos autorisations ut
 
 Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes pour personnaliser l’affichage en fonction des informations que vous souhaitez. Consultez cette [section](#list-screens).
 
-Pour plus d’informations sur l’explorateur de Campaign, consultez cet [article](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
+Pour plus d&#39;informations sur l&#39;explorateur Campaign, reportez-vous à cette section [Documentation de la console Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
