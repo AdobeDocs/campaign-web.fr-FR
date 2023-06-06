@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '323'
+ht-degree: 78%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 0%
    + [Prise en main des audiences](audience/about-audiences.md)
    + [Sélectionner une audience existante](audience/add-audience.md)
    + [Définir une audience à l’aide du créateur de règles](audience/segment-builder.md)
-   + [Chargement d’une audience à partir d’un fichier](audience/file-audience.md)
+   + [Chargement d’une audience de courrier électronique à partir d’un fichier](audience/file-audience.md)
    + [Utiliser une audience Adobe Experience Platform](audience/aep-audience.md)
    + [Configurer une population témoin](audience/control-group.md)
 + Campagnes cross-canal {#campaigns}

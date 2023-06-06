@@ -4,9 +4,9 @@ title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '764'
 ht-degree: 45%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 45%
 # Configurer une population témoin {#control-group}
 
 Une population témoin est une sous-population exclue de la diffusion. Vous pouvez définir une population témoin afin d’éviter d’envoyer des messages à une partie de votre audience et comparer le comportement après diffusion à la cible principale. Cette option vous aide à mesurer l’impact de votre campagne.
+
+## Activer la population témoin{#add-a-control-group}
 
 Pour ajouter une population témoin, activez l&#39;option lors de la définition de l&#39;audience de votre diffusion. La population témoin peut être extraite de manière aléatoire de la cible principale et/ou sélectionnée dans une population spécifique. Par conséquent, vous pouvez définir une population témoin de deux manières principales :
 
@@ -57,7 +59,7 @@ Sous , **Population témoin** , choisissez une **Mode d&#39;extraction**:
 Ensuite, utilisez le **Limite de taille** pour définir le nombre de profils à extraire de la cible principale. Il peut s’agir d’un nombre brut (par exemple, 50 profils à exclure) ou d’un pourcentage de votre audience initiale (par exemple, 5 % de la cible principale).
 
 
-### Exemple de groupe témoin
+### Exemple de groupe témoin{#control-group-sample}
 
 Par exemple, pour créer une population témoin avec les 100 nouveaux destinataires les plus jeunes, procédez comme suit :
 
@@ -69,7 +71,7 @@ Par exemple, pour créer une population témoin avec les 100 nouveaux destinatai
 
 Ces 100 nouveaux destinataires les plus jeunes sont alors exclus de la cible principale.
 
-### Vérifier votre groupe témoin {#check-extract-target}
+### Vérifier votre groupe témoin {#check-control-group}
 
 Vous pouvez consulter les logs pour vérifier et identifier les profils exclus. Prenons l’exemple suivant d’une exclusion aléatoire sur cinq profils.
 
@@ -118,4 +120,7 @@ Les profils inclus dans l’audience ou correspondant au résultat de la requêt
 ## Comparer les résultats{#control-group-results}
 
 Une fois la diffusion envoyée, vous pouvez extraire les logs d&#39;envoi pour comparer le comportement entre les profils qui n&#39;ont pas reçu la communication et la cible effective. Vous pouvez également utiliser les logs de diffusion pour créer un nouveau ciblage.
+
+Pour savoir quels profils ont été supprimés de la cible, vérifiez la variable **Logs de diffusion**. En savoir plus [dans cette section](#check-control-group).
+
 
