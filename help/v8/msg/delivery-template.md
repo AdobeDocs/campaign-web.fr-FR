@@ -9,7 +9,7 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -70,7 +70,7 @@ Pour créer un modèle de diffusion, vous pouvez :
 
 ### Duplication d’un modèle existant {#copy-an-existing-template}
 
-Campaign est fourni avec un ensemble de modèles intégrés pour chaque canal : email, push, SMS. Le moyen le plus simple de créer un modèle de diffusion consiste à dupliquer et personnaliser un modèle intégré.
+Un ensemble de modèles intégrés pour chaque canal (e-mail, notification push, SMS) est inclus dans Campaign. Le moyen le plus simple de créer un modèle de diffusion consiste à dupliquer et personnaliser un modèle intégré.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Campaign est fourni avec un ensemble de modèles intégrés pour chaque canal : 
 
 Pour dupliquer un modèle de diffusion, procédez comme suit :
 
-1. Accédez au **Modèles** , depuis l’onglet **Diffusions** menu de gauche. [En savoir plus](#access-manage-templates)
+1. Accédez à l’onglet **Modèles** depuis le menu de gauche **Diffusions.** [En savoir plus](#access-manage-templates)
 1. Cliquez sur le bouton **[!UICONTROL Autres actions]** à droite du nom du modèle, puis sélectionnez  **[!UICONTROL Dupliquer]**.
 
    Vous pouvez également sélectionner un modèle dans la liste et sélectionner cette option dans l’écran d’édition du modèle.
@@ -128,8 +128,8 @@ Le nouveau modèle est ajouté au [**Modèles** list](#access-manage-templates).
 
 Pour configurer un modèle de diffusion à partir de zéro, procédez comme suit :
 
-1. Accédez au **Modèles** , depuis l’onglet **Diffusions** menu de gauche. [En savoir plus](#access-manage-templates)
-1. Cliquez sur le bouton **[!UICONTROL Créer un modèle]** bouton .
+1. Accédez à l’onglet **Modèles** depuis le menu de gauche **Diffusions.** [En savoir plus](#access-manage-templates)
+1. Cliquez sur le bouton **[!UICONTROL Créer un modèle]**.
 
    ![](assets/templates-create-button.png)
 
