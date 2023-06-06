@@ -4,7 +4,7 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 90%
@@ -48,7 +48,7 @@ Les données de Campaign sont stockées dans le serveur d’applications. Les do
 ## Se connecter à Campaign
 
 
-1. Connectez-vous à [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
+1. Connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Connectez-vous à l’aide de vos informations d’identification Adobe.
 1. Dans la section **Accès rapide**, cliquez sur **Campaign**.
    ![](assets/connect.png)
