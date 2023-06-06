@@ -5,9 +5,9 @@ description: Découvrez comment ajouter des attributs de style intégrés.
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Dans l’interface du Concepteur d’e-mail, lorsque vous sélectionnez un élé
 
 1. Sélectionnez un composant directement dans votre contenu ou à l’aide de la fonction **[!UICONTROL Arborescence de navigation]** disponible dans le volet de gauche.
 
-1. Dans la **[!UICONTROL Styles]** , cliquez sur l’onglet **[!UICONTROL Avancé]** menu déroulant.
+1. Dans l’onglet **[!UICONTROL Styles]**, cliquez sur le menu déroulant **[!UICONTROL Avancé]**.
 
    ![](assets/styles_1.png)
 
