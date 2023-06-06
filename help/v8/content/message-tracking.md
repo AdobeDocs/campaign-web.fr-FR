@@ -5,9 +5,9 @@ description: Découvrez comment ajouter des liens et tracker les messages envoy�
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
 source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 1. Enregistrez vos modifications.
 
-1. Une fois le lien créé, vous pouvez toujours le modifier à partir de la fonction **[!UICONTROL Paramètres]** .
+1. Une fois le lien créé, vous pouvez encore le modifier dans l’onglet **[!UICONTROL Paramètres]**.
 
    * Vous pouvez modifier le lien ainsi que sa **[!UICONTROL Cible]**.
    * Vous pouvez choisir de souligner le lien en cochant l’option correspondante.
@@ -42,7 +42,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la surface du canal (c’est-à-dire le paramètre prédéfini du message) et lors de la création du message.
+>Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la surface du canal (c’est-à-dire le préréglage du message) et lors de la création du message.
 
 Il est recommandé d’insérer un lien vers la page miroir dans tous les e-mails. En savoir plus sur la page miroir dans [cette section](mirror-page.md).
 
