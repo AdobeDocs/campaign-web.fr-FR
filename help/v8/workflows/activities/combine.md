@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation de l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 25%
 
 ---
@@ -65,11 +65,8 @@ L’exemple suivant illustre la variable **intersection** entre deux activités 
 
 ![](../assets/workflow-intersection-example.png)
 
-Les éléments suivants **exclusion** exemple affiche deux requêtes configurées pour filtrer les profils qui ont entre 18 et 27 ans et ont un domaine de messagerie adobe. Les profils avec un domaine de messagerie Adobe sont ensuite exclus du premier ensemble.
+Les éléments suivants **exclusion** L’exemple présente deux requêtes configurées pour filtrer les profils ayant entre 18 et 27 ans et ayant un domaine d’email Adobe. Les profils avec un domaine d’email Adobe sont ensuite exclus du premier ensemble.
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 
