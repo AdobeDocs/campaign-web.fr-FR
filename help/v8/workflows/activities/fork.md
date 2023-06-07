@@ -3,19 +3,17 @@ audience: end-user
 title: Utilisation de l’activité de workflow Branchement
 description: Découvrez comment utiliser l’activité de workflow Branchement
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
 
 # Branchement {#fork}
 
-L&#39;activité **Branchement** permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle.
-
-L&#39;activité **Branchement** permet de réaliser, au sein d&#39;un même workflow, plusieurs exécutions distinctes de manière indépendante.
+Le **Branchement** est une activité **Contrôle de flux** activité. Il permet de créer des transitions sortantes afin de lancer simultanément plusieurs activités.
 
 ## Configuration
 
