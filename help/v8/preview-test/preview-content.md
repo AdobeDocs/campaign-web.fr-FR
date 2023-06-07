@@ -4,39 +4,53 @@ title: Prévisualiser le contenu d’un e-mail
 description: Découvrez comment prévisualiser le contenu de vos e-mails avec l’interface utilisateur web de Campaign.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: a06158b5aea52c074340ba9819dd67af4f148196
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 29%
 
 ---
 
 
-# Prévisualiser le contenu d’un e-mail {#preview}
+# Prévisualiser le contenu d’un e-mail {#preview-content}
 
+Utilisez la variable [!DNL Campaign] simulation de contenu permettant de prévisualiser le contenu de votre email avant son envoi. Vous pouvez ainsi contrôler la personnalisation et vérifier comment elle s&#39;affiche pour vos destinataires.
 
-Utilisez la fonctionnalité de simulation de contenu d’Adobe Campaign pour prévisualiser le contenu de votre e-mail avant de l’envoyer, afin de contrôler la personnalisation et vérifier la manière dont vos destinataires le verront.
+Pour prévisualiser le contenu de votre email, procédez comme suit.
 
-Pour prévisualiser le contenu de votre e-mail, procédez comme suit :
+1. Accédez à l’email [Modifier le contenu](../content/edit-content.md) ou au [Concepteur d&#39;email](../content/get-started-email-designer.md).
 
-1. Naviguez vers l’écran de création de contenu d’e-mail, puis cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
+1. Cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 
-   ![](assets/simulate.png)
+   ![](assets/simulate-button.png)
 
-1. Utilisez le bouton **[!UICONTROL Sélectionner un ou plusieurs profils]** pour sélectionner un ou plusieurs profils.
+1. Utilisez la variable **[!UICONTROL Ajouter un ou plusieurs profils de test]** pour sélectionner les profils qui seront utilisés pour prévisualiser votre contenu personnalisé.
+
 1. Vous pouvez combiner les profils de test et les profils pour prévisualiser l’e-mail.
 
-   ![](assets/preview-profile.png)
+   * L’onglet **[!UICONTROL Profils de test]** répertorie les adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données.
 
-   * L’onglet **[!UICONTROL Profils de test]** répertorie les adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données. Ils peuvent être créés à l’aide de la console Adobe Campaign dans le dossier **[!UICONTROL Ressources]** / **[!UICONTROL Gestion de campagne]** / **[!UICONTROL Adresses de contrôle]**.
-   * L’onglet **[!UICONTROL Profils]** répertorie tous les destinataires enregistrés dans le dossier **[!UICONTROL Profils et cibles]** à partir de la console Campaign.
+      >[!NOTE]
+      >
+      >Les profils de test peuvent être créés dans la variable [!DNL Campaign] dans la console **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** dossier. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
 
-1. Une fois les profils sélectionnés, un aperçu de l’e-mail s’affiche dans le volet de droite. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche.
+   * L’onglet **[!UICONTROL Profils]** répertorie tous les destinataires enregistrés dans le dossier **[!UICONTROL Profils et cibles]** à partir de la console [!DNL Campaign] [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
-   Si vous avez ajouté plusieurs profils, vous pouvez passer d’un profil à l’autre dans la liste pour prévisualiser le contenu de l’e-mail correspondant.
+   ![](assets/simulate-select-profiles.png)
 
-1. Vous pouvez prévisualiser le rendu de votre contenu sur différents appareils (poste de travail, mobile, tablette), en cliquant sur l’icône dédiée dans le coin supérieur droit.
+1. Cliquez sur **[!UICONTROL Sélectionner]** pour confirmer votre sélection dans les deux onglets.
 
-   ![](assets/preview.png)
+   Un aperçu de l&#39;email s&#39;affiche dans le volet droit de la **[!UICONTROL Simuler]** écran. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche.
+
+   ![](assets/simulate-preview.png)
+
+1. Si vous avez ajouté plusieurs profils, vous pouvez passer d’un profil à l’autre dans la liste pour prévisualiser le contenu de l’e-mail correspondant. Vous pouvez également ajouter d’autres profils de test et effacer votre sélection à l’aide des boutons correspondants dans le volet de gauche.
+
+1. Vous pouvez ajuster la variable **[!UICONTROL Niveau de zoom]** et prévisualisez votre contenu sur un ordinateur ou un appareil mobile à l’aide de l’icône dédiée dans le coin supérieur droit.
+
+1. Dans la **[!UICONTROL Simuler]** vous pouvez également :
+   * Vérifiez le rendu des emails dans les clients de messagerie les plus courants - [En savoir plus](email-rendering.md)
+   * Envoyer des emails de test à des destinataires spécifiques pour validation - [En savoir plus](proofs.md)
+
 
 
