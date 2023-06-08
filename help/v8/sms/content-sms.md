@@ -4,10 +4,10 @@ title: Créer une diffusion SMS
 description: Découvrez comment concevoir votre diffusion SMS.
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 98%
+source-wordcount: '218'
+ht-degree: 93%
 
 ---
 
@@ -35,14 +35,8 @@ ht-degree: 98%
 
 1. Par défaut, le tracking est activé pour les diffusions. Vous pouvez désactiver cette option dans la **[!UICONTROL section Fonctionnalités facultatives]**.
 
+1. Accédez au **[!UICONTROL Simulation du contenu]** pour prévisualiser votre contenu personnalisé.
+
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu.
-
-1. Vous pouvez utiliser **[!UICONTROL Simuler du contenu]** pour prévisualiser votre contenu personnalisé.
-
-1. Cliquez sur **[!UICONTROL Ajouter un ou plusieurs profils de test]** pour sélectionner un ou plusieurs profils de test.
-
-1. Une fois vos profils de test sélectionnés, cliquez sur **[!UICONTROL Sélectionner]**.
-
-1. Dans le volet de droite, vous trouverez un aperçu de l’e-mail, où les éléments personnalisés sont remplacés dynamiquement par les données du profil sélectionné.
 
 Vous pouvez maintenant vérifier et envoyer votre SMS à votre audience.

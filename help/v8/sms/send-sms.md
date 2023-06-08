@@ -3,14 +3,30 @@ audience: end-user
 title: Envoyer une diffusion SMS
 description: Découvrez comment envoyer des SMS avec Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 24%
 
 ---
 
-# Envoyer une diffusion SMS {#send-sms}
+# Prévisualiser et envoyer une diffusion SMS {#send-sms}
+
+## Prévisualiser votre diffusion SMS{#preview-push}
+
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inclus du contenu personnalisé, vous pouvez examiner l&#39;affichage de ce contenu dans le message à l&#39;aide des données de profil de test. Vous pouvez ainsi vous assurer que le message s’affiche comme prévu et que toute information personnalisée est correctement présentée.
+
+1. Depuis la page de contenu de votre diffusion, vous pouvez utiliser **[!UICONTROL Simulation du contenu]** pour prévisualiser votre contenu personnalisé.
+
+1. Cliquez sur **[!UICONTROL Ajouter un ou plusieurs profils de test]** pour sélectionner un ou plusieurs profils de test.
+
+1. Une fois vos profils de test sélectionnés, cliquez sur **[!UICONTROL Sélectionner]**.
+
+1. Dans le volet de droite, vous trouverez un aperçu de l’e-mail, où les éléments personnalisés sont remplacés dynamiquement par les données du profil sélectionné.
+
+Vous pouvez maintenant vérifier et envoyer votre SMS à votre audience.
+
+## Envoyer votre diffusion SMS {#preview-send-push}
 
 1. Après avoir personnalisé le contenu de votre SMS, cliquez sur **[!UICONTROL Réviser et envoyer]** de votre **[!UICONTROL Diffusion]** page.
 
