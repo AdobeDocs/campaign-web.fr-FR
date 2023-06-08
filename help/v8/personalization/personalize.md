@@ -7,27 +7,33 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
+source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '400'
 ht-degree: 8%
 
 ---
 
 
-# Personnaliser votre contenu{#add-personalization}
+# Personnaliser votre contenu {#add-personalization}
 
-La personnalisation peut être ajoutée à n&#39;importe quelle diffusion à l&#39;aide de l&#39;éditeur d&#39;expression.
+La personnalisation peut être ajoutée à n’importe quelle diffusion à l’aide de l’éditeur d’expression, accessible dans tous les champs de la fonction **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** par exemple, le champ de ligne d’objet ou les liens d’e-mail et les composants de contenu texte/bouton. [Découvrez où ajouter du contenu dynamique](gs-personalization.md/#access)
 
-Une balise de personnalisation utilise toujours la syntaxe suivante : `<%=table.field%>`.Par exemple, pour insérer le nom du destinataire, stocké dans la table des destinataires, la balise de personnalisation utilise la syntaxe &lt;%= recipient.lastName %> .
+## Syntaxe de la personnalisation {#syntax}
+
+Une balise de personnalisation utilise toujours la syntaxe suivante : `<%=table.field%>`. Par exemple, pour insérer le nom du destinataire, stocké dans la table des destinataires, la balise de personnalisation utilise la syntaxe &lt;%= recipient.lastName %> .
 
 Lors de la préparation d&#39;une diffusion, ces balises sont automatiquement interprétées par Adobe Campaign et remplacées par la valeur du champ pour un destinataire donné. Le remplacement physique peut ensuite être visualisé lors de la simulation de votre contenu.
 
-Pour ajouter des balises de personnalisation dans une diffusion, cliquez sur l&#39;icône Ouvrir la boîte de dialogue de personnalisation accessible à partir des champs d&#39;édition de type texte, tels que la ligne d&#39;objet ou le corps du SMS.
+## Ajout de balises de personnalisation {#add}
+
+Pour ajouter des balises de personnalisation dans une diffusion, ouvrez l’éditeur d’expression à l’aide du **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** icône accessible à partir des champs de modification de type texte, tels que l’objet ou le corps du SMS. [Découvrez où ajouter du contenu dynamique](gs-personalization.md/#access)
 
 ![](assets/perso-access.png)
 
 L’éditeur d’expression s’affiche. Les champs de personnalisation sont organisés en trois menus, situés à gauche de l&#39;écran. Ces menus donnent accès à tous les champs disponibles dans la base de données Adobe Campaign.
+
+![](assets/perso-insert-field.png)
 
 | Menu | Description |
 |-----|------------|
@@ -37,8 +43,16 @@ L’éditeur d’expression s’affiche. Les champs de personnalisation sont org
 
 >[!NOTE]
 >
->Par défaut, la liste affiche tous les champs de la table sélectionnée (Destinataires / Message / Diffusion). Si vous souhaitez inclure des champs issus de tables liées à la table sélectionnée, activez l’option **[!UICONTROL Afficher les attributs avancés]** située sous la liste.
+>Par défaut, chaque menu affiche tous les champs de la table sélectionnée (Destinataires / Message / Diffusion). Si vous souhaitez inclure des champs issus de tables liées à la table sélectionnée, activez l’option **[!UICONTROL Afficher les attributs avancés]** située sous la liste.
 
 Pour ajouter un champ de personnalisation, placez le curseur à l’emplacement souhaité dans votre contenu, puis cliquez sur le bouton + pour l’insérer.
 
-![](assets/perso-insert-field.png)
+Une fois votre contenu prêt, vous pouvez l’enregistrer et tester le rendu de la personnalisation en simulant votre contenu. Dans l&#39;exemple ci-dessous, nous personnalisons un SMS avec les prénoms des profils ciblés.
+
+*Ajouter la balise de personnalisation dans le contenu du message*
+
+![](assets/perso-preview1.png)
+
+*Simuler le rendu de la personnalisation pour un profil de test donné*
+
+![](assets/perso-preview2.png)
