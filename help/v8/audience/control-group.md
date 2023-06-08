@@ -4,10 +4,10 @@ title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 47%
+source-wordcount: '752'
+ht-degree: 48%
 
 ---
 
@@ -86,11 +86,12 @@ Après la préparation de la diffusion, vous pouvez examiner comment les exclusi
 * Dans les logs de diffusion, l&#39;onglet Logs affiche l&#39;étape d&#39;exclusion.
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* Le **Exclus** affiche chaque profil et l’exclusion associée. **Motif**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * Le **Exclusions appliquées** affiche le nombre de profils exclus pour chaque règle de typologie.
 

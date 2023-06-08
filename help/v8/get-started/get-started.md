@@ -4,10 +4,10 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 90%
+source-wordcount: '439'
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.
 
-Initialement uniquement accessible par le biais d’une [console cliente](#ac-client) riche, la nouvelle interface utilisateur web de Campaign offre une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
+Initialement disponible uniquement par l’intermédiaire d’un [Console cliente](#ac-client), Campaign propose désormais une nouvelle interface utilisateur (interface utilisateur) web avec une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
 ![](assets/home.png)
 
