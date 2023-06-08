@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 39%
+source-wordcount: '437'
+ht-degree: 36%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez rendre le contenu de votre message dynamique en insérant :
 
 * **Contenu conditionnel**
 
-   Configurez du contenu conditionnel et ajoutez une touche de personnalisation dynamique (basée sur le profil du ou de la destinataire, par exemple). Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. Vous pouvez définir la version alternative du contenu lorsque la condition n’est pas vraie.
+   Configurez du contenu conditionnel pour ajouter du contenu en fonction du profil du destinataire, par exemple. Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. Vous pouvez définir la version alternative du contenu lorsque la condition n’est pas vraie.
 
 * **Blocs de contenu intégrés**
 
@@ -46,11 +46,13 @@ Vous pouvez rendre le contenu de votre message dynamique en insérant :
 
 Adobe Campaign V8 Web fournit un éditeur d’expression dans lequel vous pouvez sélectionner, organiser, personnaliser et valider toutes les données afin de créer une expérience personnalisée pour votre contenu.
 
-L’éditeur d’expression est disponible pour tous les canaux, dans tous les champs de l’icône Ouvrir la boîte de dialogue de personnalisation, comme le champ de ligne d’objet, ou les composants de contenu de texte et de bouton dans les emails.
+L’éditeur d’expression est disponible pour tous les canaux, dans tous les champs de l’icône Ouvrir la boîte de dialogue de personnalisation, comme le champ de ligne d’objet, ou les liens d’email et les composants de contenu de texte/bouton.
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 En outre, un créateur de contenu conditionnel dédié est accessible lors de la conception d’un email. [Découvrez comment créer du contenu conditionnel dans les emails](conditions.md)
 
