@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 36%
+source-wordcount: '298'
+ht-degree: 8%
 
 ---
 
@@ -42,36 +42,3 @@ L’éditeur d’expression s’affiche. Les champs de personnalisation sont org
 Pour ajouter un champ de personnalisation, placez le curseur à l’emplacement souhaité dans votre contenu, puis cliquez sur le bouton + pour l’insérer.
 
 ![](assets/perso-insert-field.png)
-
-## Personnaliser le contenu de vos e-mails {#personalize-emails}
-
-Pour personnaliser le contenu des e-mails, ouvrez le message dans le concepteur d’e-mail et :
-
-1. Cliquez à l’intérieur d’un bloc de texte.
-1. Dans la barre d’outils contextuelle, sélectionnez **[!UICONTROL Ajouter une personnalisation]**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Insérez le nom du ou de la destinataire dans l’éditeur de personnalisation et confirmez.
-
-   ![](assets/perso-add-name.png)
-
-   L’attribut de personnalisation est ajouté au contenu de l’e-mail.
-
-   Vous pouvez simuler le contenu pour vérifier le rendu. [En savoir plus](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-1. Pour ajouter un bloc de contenu à votre e-mail, procédez de la même manière et sélectionnez un bloc de contenu à partir de la dernière icône :
-
-   ![](assets/perso-insert-block.png)
-
-1. Une fois inséré, le bloc de contenu est ajouté au contenu de l’e-mail. Il est automatiquement adapté au profil du ou de la destinataire lors de la génération de la personnalisation, à l’étape de préparation de la diffusion.
-
-   ![](assets/perso-content-block-in-email.png)
-
-
-## Personnaliser vos offres {#personalize-offers}
-
-Vous pouvez également accéder à l’éditeur de personnalisation lorsque vous ajoutez du contenu de type texte aux représentations de vos offres. En savoir plus dans [cette section](../content/offers.md).
-
