@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 8%
+source-wordcount: '432'
+ht-degree: 7%
 
 ---
 
@@ -37,6 +37,7 @@ L’éditeur d’expression s’affiche. Les champs de personnalisation sont org
 
 | Menu | Description |
 |-----|------------|
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | Le **[!UICONTROL Application d’abonnements]** répertorie tous les champs liés aux abonnés d’une application, tels que le terminal ou le système d’exploitation utilisé. *Ce menu est disponible uniquement pour les notifications push* |
 | ![](assets/do-not-localize/perso-recipients-menu.png) | Le **[!UICONTROL Destinataire]** répertorie tous les champs définis dans la table des destinataires, tels que le nom, l’âge ou l’adresse du destinataire. |
 | ![](assets/do-not-localize/perso-message-menu.png) | Le **[!UICONTROL Message]** menu répertorie tous les champs liés aux logs de diffusion, c’est-à-dire tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux, comme la date du dernier événement avec un destinataire donné. |
 | ![](assets/do-not-localize/perso-delivery-menu.png) | Le **[!UICONTROL Diffusion]** répertorie tous les champs relatifs aux paramètres requis pour effectuer des diffusions, tels que le canal de diffusion, le libellé, etc. |
