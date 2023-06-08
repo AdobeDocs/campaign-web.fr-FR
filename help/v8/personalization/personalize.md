@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 7%
@@ -31,7 +31,7 @@ Pour ajouter des balises de personnalisation dans une diffusion, ouvrez l’édi
 
 ![](assets/perso-access.png)
 
-L’éditeur d’expression s’affiche. Les champs de personnalisation sont organisés en trois menus, situés à gauche de l&#39;écran. Ces menus donnent accès à tous les champs disponibles dans la base de données Adobe Campaign.
+L’éditeur d’expression s’affiche. Les champs de personnalisation sont organisés en plusieurs menus, situés à gauche de l&#39;écran. Ces menus donnent accès à tous les champs disponibles dans la base de données Adobe Campaign.
 
 ![](assets/perso-insert-field.png)
 
