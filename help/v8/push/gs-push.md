@@ -4,10 +4,10 @@ title: Prise en main des notifications push
 description: Découvrez comment créer et envoyer des notifications push à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 15%
+source-wordcount: '203'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,8 @@ Pour créer des notifications push, vous disposez de trois options :
 * Campagnes : Une fois une opération créée, vous pouvez créer une diffusion Notification push . Pour plus d&#39;informations sur la configuration de votre opération, consultez cette page.
 
 * Diffusions autonomes : Interagir directement et instantanément avec les clients avec une diffusion de notification push individuelle, sans avoir besoin de workflows ou de campagnes.
+
+![](../assets/do-not-localize/book.png) Découvrez comment configurer le canal Notification push dans cette [page](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=en).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

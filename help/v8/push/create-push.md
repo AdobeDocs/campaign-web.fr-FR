@@ -3,10 +3,10 @@ audience: end-user
 title: Créer une diffusion de notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 70%
+source-wordcount: '317'
+ht-degree: 68%
 
 ---
 
@@ -29,9 +29,11 @@ ht-degree: 70%
 
 1. Dans la page d’accueil **[!UICONTROL Diffusions]**, cliquez sur **[!UICONTROL Créer une diffusion]**.
 
-1. Sous , **[!UICONTROL Canal]** , choisissez Notification push comme canal et sélectionnez un modèle. En savoir plus sur les modèles
+1. Sous , **[!UICONTROL Canal]** , choisissez Notification push comme canal et sélectionnez un modèle en fonction du système opérationnel sélectionné : Android ou iOS. [En savoir plus sur les modèles](../msg/delivery-template.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
+
+   ![](assets/push_create_1.png)
 
 1. Saisissez un **[!UICONTROL Libellé]** pour la diffusion et accédez au menu déroulant **[!UICONTROL Options supplémentaires]**.
 
@@ -45,14 +47,18 @@ ht-degree: 70%
 
 1. Dans la **[!UICONTROL Audience]** , sélectionnez l&#39;application à utiliser pour cette diffusion.
 
-1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. En savoir plus.
+1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. [En savoir plus](../audience/about-audiences.md)
 
    Notez que, par défaut, votre notification push sera envoyée à tous les abonnés de l&#39;application.
 
-1. Activez l’option **[!UICONTROL Activer la population témoin]** permettant de définir une population témoin afin de mesurer l’impact de votre diffusion. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message à celui des contacts qui ne l’ont pas reçu. En savoir plus
+   ![](assets/push_create_2.png)
+
+1. Activez l’option **[!UICONTROL Activer la population témoin]** permettant de définir une population témoin afin de mesurer l’impact de votre diffusion. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message à celui des contacts qui ne l’ont pas reçu. [En savoir plus](../audience/control-group.md)
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à concevoir le contenu de votre notification push.
 
 1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour le ou la destinataire.
 
-1. Cliquez sur Configurer les paramètres de diffusion pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
+1. Cliquez sur **[!UICONTROL Configuration des paramètres de diffusion]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
+
+   ![](assets/push_create_3.png)

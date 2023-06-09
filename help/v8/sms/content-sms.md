@@ -4,10 +4,10 @@ title: Créer une diffusion SMS
 description: Découvrez comment concevoir votre diffusion SMS.
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 93%
+source-wordcount: '182'
+ht-degree: 92%
 
 ---
 
@@ -25,17 +25,19 @@ ht-degree: 93%
 
 1. Dans votre page de diffusion, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour concevoir le contenu de votre SMS.
 
-1. Dans la page **[!UICONTROL Modifier le contenu]**, vous pouvez modifier le nom de l’expéditeur ou expéditrice à partir du **[!UICONTROL champ Expéditeur]**. Saisissez le nom que vous souhaitez utiliser. Vous pouvez également cliquer sur **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique.
-
 1. Sur la page **[!UICONTROL Modifier le contenu]**, vous pouvez personnaliser le nom de l’expéditeur ou expéditrice en accédant au **[!UICONTROL champ Expéditeur]** et en saisissant le nom souhaité.
 
    En outre, en cliquant sur **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, vous pouvez inclure des champs de personnalisation, des blocs de contenu et du contenu dynamique dans votre message.
 
-1. Saisissez votre message texte dans le champ **[!UICONTROL Message]** ou cliquez sur l’option **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour définir le contenu et ajouter du contenu dynamique.
+   ![](assets/sms_content_1.png)
+
+1. Saisissez votre message texte dans le champ **[!UICONTROL Message]** ou cliquez sur l’option **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour définir le contenu et ajouter du contenu dynamique. [En savoir plus](../personalization/gs-personalization.md)
+
+   ![](assets/sms_content_2.png)
 
 1. Par défaut, le tracking est activé pour les diffusions. Vous pouvez désactiver cette option dans la **[!UICONTROL section Fonctionnalités facultatives]**.
 
-1. Accédez au **[!UICONTROL Simulation du contenu]** pour prévisualiser votre contenu personnalisé.
+1. Accédez au **[!UICONTROL Simulation du contenu]** pour prévisualiser votre contenu personnalisé. [En savoir plus](send-sms.md#preview-sms)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu.
 

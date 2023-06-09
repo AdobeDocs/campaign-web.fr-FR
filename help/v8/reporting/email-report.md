@@ -3,9 +3,9 @@ audience: end-user
 title: Rapports de diffusion par email
 description: Découvrez comment accéder aux rapports de diffusion email et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: d44cbd6b9bd417f79b07b735ac571a9bcf7a04f4
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '337'
 ht-degree: 95%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 95%
 ## Envoi
 
 * **Résumé de diffusion** : ce rapport présente l’ensemble des informations principales relatives à la diffusion. Population cible, causes d’exclusion, statistiques de diffusion..
-
-  +++Configurez les paramètres suivants en fonction de vos besoins.
-Test
-+++
 
   ![](assets/reporting3.png)
 

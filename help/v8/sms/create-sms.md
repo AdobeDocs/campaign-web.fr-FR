@@ -4,9 +4,9 @@ title: Créer une diffusion SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -30,9 +30,11 @@ ht-degree: 100%
 
 1. Dans la page d’accueil **[!UICONTROL Diffusions]**, cliquez sur **[!UICONTROL Créer une diffusion]**.
 
-1. Sous la section **[!UICONTROL Canal]**, choisissez SMS comme canal et sélectionnez un modèle. En savoir plus sur les modèles
+1. Sous la section **[!UICONTROL Canal]**, choisissez SMS comme canal et sélectionnez un modèle. [En savoir plus sur les modèles](../msg/delivery-template.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
+
+   ![](assets/sms_create_1.png)
 
 1. Saisissez un **[!UICONTROL Libellé]** pour la diffusion et accédez au menu déroulant **[!UICONTROL Options supplémentaires]**.
 
@@ -44,11 +46,11 @@ ht-degree: 100%
    * **[!UICONTROL Nature]** : indiquez la nature de l’e-mail à des fins de classification.
 +++
 
-1. Dans le menu déroulant **[!UICONTROL Options personnalisées]**, vous pouvez accéder à votre schéma étendu avec des champs personnalisés spécifiques.
+1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. [En savoir plus](../audience/about-audiences.md).
 
-1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. En savoir plus.
+   ![](assets/sms_create_2.png)
 
-1. Activez l’option **[!UICONTROL Activer la population témoin]** permettant de définir une population témoin afin de mesurer l’impact de votre diffusion. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message à celui des contacts qui ne l’ont pas reçu. En savoir plus
+1. Activez l’option **[!UICONTROL Activer la population témoin]** permettant de définir une population témoin afin de mesurer l’impact de votre diffusion. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message à celui des contacts qui ne l’ont pas reçu. [En savoir plus](../audience/control-group.md)
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à concevoir le contenu de votre SMS.
 

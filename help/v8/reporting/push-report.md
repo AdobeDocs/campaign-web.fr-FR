@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion push
 description: Découvrez comment accéder aux rapports de diffusion push et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '269'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec vos messages push.
 
-  +++En savoir plus sur les mesures.
+  +++En savoir plus sur les mesures des rapports de diffusion push.
 
    * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 * **Population ciblée** les données d’affichage graphiques et tabulaires relatives à votre audience :
 
-  +++En savoir plus sur les mesures.
+  +++En savoir plus sur les mesures des rapports de diffusion push.
 
    * **[!UICONTROL A envoyer]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 * **Statistiques globales** présente des données pour les notifications push envoyées, notamment :
 
-  +++En savoir plus sur les mesures.
+  +++En savoir plus sur les mesures des rapports de diffusion push.
 
    * **[!UICONTROL Succès]**: Nombre de messages traités avec succès.
 
