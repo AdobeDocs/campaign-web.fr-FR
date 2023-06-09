@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 45f4d070c95861f5f96038df82ae7100860159e0
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 26%
+source-wordcount: '495'
+ht-degree: 25%
 
 ---
 
@@ -26,38 +26,37 @@ Utilisez Campaign pour créer du contenu dynamique et envoyer des messages perso
 
 Vous pouvez rendre le contenu de votre message dynamique en insérant :
 
-* **Champs de personnalisation**: Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données de l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n’importe quel champ associé au ou à la destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages.
+* **Champs de personnalisation**: Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données de l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n’importe quel champ associé au ou à la destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. La syntaxe suivante insère la ville du ou de la destinataire dans votre contenu : &lt;%= recipient.location.city %>.
 
-   La syntaxe suivante insère la ville du ou de la destinataire dans votre contenu : &lt;%= recipient.location.city %>.
-
-   ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **Contenu conditionnel**: Configurez du contenu conditionnel pour ajouter du contenu en fonction du profil du destinataire, par exemple. Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. Vous pouvez définir la version alternative du contenu lorsque la condition n’est pas vraie.
 
 * **Blocs de contenu intégrés**: Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers la page miroir d’un message électronique. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation.
 
-   ![](assets/perso-content-blocks.png){width="800" align="center"}
+  ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## Accès à l’éditeur d’expression {#access}
 
 Adobe Campaign V8 Web fournit un éditeur d’expression dans lequel vous pouvez sélectionner, organiser, personnaliser et valider toutes les données afin de créer une expérience personnalisée pour votre contenu. L’éditeur d’expression est disponible pour tous les canaux, dans tous les champs de la variable **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** par exemple, le champ de ligne d’objet ou les liens d’e-mail et les composants de contenu texte/bouton.
 
+Voici quelques exemples d’accès à l’éditeur d’expression en fonction du contenu que vous souhaitez rendre dynamique.
+
+* *Accès à l&#39;éditeur d&#39;expression à partir du champ Nom de l&#39;expéditeur*
+
+  ![](assets/expression-editor-access.png){width="800" align="center"}
+
+* *Accès à l’éditeur d’expression à partir d’un composant de texte d’email*
+
+  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+
+* *Accès à l&#39;éditeur d&#39;expression à partir d&#39;un lien dans un email*
+
+  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+
 >[!NOTE]
 >
 >Outre l’éditeur d’expression, vous pouvez également utiliser un créateur de contenu conditionnel dédié lors de la conception d’un email. [Découvrez comment créer du contenu conditionnel dans les emails](conditions.md)
-
-*Accès à l&#39;éditeur d&#39;expression à partir du champ Nom de l&#39;expéditeur*
-
-![](assets/expression-editor-access.png){width="800" align="center"}
-
-*Accès à l’éditeur d’expression à partir d’un composant de texte d’email*
-
-![](assets/expression-editor-access-email.png){width="800" align="center"}
-
-*Accès à l&#39;éditeur d&#39;expression à partir d&#39;un lien dans un email*
-
-![](assets/perso-link-insert-icon.png){width="800" align="center"}
-
 
 ## Explorons plus en détail
 

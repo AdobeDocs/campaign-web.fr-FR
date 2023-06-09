@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: c1ee83b456f47424f8032aaaca52a5e7c68a4077
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 68%
@@ -24,13 +24,13 @@ Pour ajouter un bloc de contenu dans une diffusion, procédez comme suit :
 
 1. Localisez le champ dans lequel vous souhaitez ajouter un bloc de contenu et cliquez sur le bouton **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour ouvrir l’éditeur d’expression.
 
-   ![](assets/content-block-access.png)
+   ![](assets/content-block-access.png){width="800" align="center"}
 
 1. Dans l’éditeur d’expression, accédez au **[!UICONTROL Blocs de contenu]** menu de gauche.
 
 1. Pour ajouter un bloc de contenu, positionnez-vous à l&#39;emplacement de votre choix dans votre contenu, puis cliquez sur le bouton &quot;+&quot; pour l&#39;insérer.
 
-   ![](assets/content-blocks.png)
+   ![](assets/content-blocks.png){width="800" align="center"}
 
 Les blocs de contenu intégrés sont les suivants :
 
