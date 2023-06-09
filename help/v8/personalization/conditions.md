@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -59,11 +59,11 @@ Pour définir du contenu conditionnel pour une diffusion à l&#39;aide de l&#39;
 
    1. Remplacer `Ìnsert content here` avec le contenu que vous souhaitez afficher aux profils qui ne respectent pas la condition de la fonction if .
 
-      ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){width="800" align="center"}
 
-      Vous pouvez également utiliser la variable **else** fonction d’aide pour créer des conditions avec plusieurs variantes de contenu. Par exemple, l&#39;expression ci-dessous affiche trois variantes d&#39;un message selon la langue du destinataire :
+   Vous pouvez également utiliser la variable **else** fonction d’aide pour créer des conditions avec plusieurs variantes de contenu. Par exemple, l&#39;expression ci-dessous affiche trois variantes d&#39;un message selon la langue du destinataire :
 
-      ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){width="800" align="center"}
 
    >[!NOTE]
    >
