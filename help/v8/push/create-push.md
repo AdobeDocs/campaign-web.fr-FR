@@ -3,7 +3,7 @@ audience: end-user
 title: Créer une diffusion de notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 68%
@@ -59,6 +59,8 @@ ht-degree: 68%
 
 1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour le ou la destinataire.
 
+   ![](assets/push_create_3.png)
+
 1. Cliquez sur **[!UICONTROL Configuration des paramètres de diffusion]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 
-   ![](assets/push_create_3.png)
+   ![](assets/push_create_4.png)
