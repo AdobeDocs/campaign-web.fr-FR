@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 25%
+source-wordcount: '690'
+ht-degree: 20%
 
 ---
 
@@ -25,6 +25,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## Paramétrage général {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="Options de fusion des intersections"
+>abstract="L&#39;intersection permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité. Dans la section Jeux à rejoindre , cochez toutes les activités précédentes que vous souhaitez rejoindre."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="Options de fusion des exclusions"
+>abstract="L&#39;exclusion permet d&#39;exclure des éléments d&#39;une population selon certains critères. Dans la section Jeux à rejoindre , cochez toutes les activités précédentes que vous souhaitez rejoindre."
+
 Pour commencer à configurer le **Combiner** activité :
 
 1. Ajoutez plusieurs activités, telles que **Créer une audience** pour former au moins deux branches d&#39;exécution différentes.
@@ -34,6 +44,11 @@ Pour commencer à configurer le **Combiner** activité :
 1. Dans le **Définit la jointure** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre.
 
 ## Union {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Options de réconciliation des interactions"
+>abstract="Sélectionnez le type de réconciliation pour définir la gestion des doublons."
 
 Pour le **Union**, vous devez sélectionner la variable **Type de réconciliation** pour définir la gestion des doublons :
 
@@ -48,6 +63,11 @@ Pour le **Intersection**, procédez comme suit :
 1. Vous pouvez vérifier les **Générer l’achèvement** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l&#39;activité.
 
 ## Exclusion {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="Exclusion rules"
+>abstract="Au besoin, vous pouvez manipuler les tables entrantes. En effet, pour exclure une cible d&#39;une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour cela, cliquez sur Ajouter une règle dans la section Règles d&#39;exclusion et indiquez les conditions de changement de dimension. La réconciliation des données est réalisée soit par un attribut, soit par une jointure."
 
 Pour le **Exclusion**, procédez comme suit :
 
