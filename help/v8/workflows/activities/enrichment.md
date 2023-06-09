@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 28%
+source-wordcount: '628'
+ht-degree: 27%
 
 ---
 
@@ -24,17 +24,17 @@ Les données d’enrichissement tirent leur origine des sources suivantes :
 
 * **Le même tableau de travail** que celui ciblé dans votre workflow :
 
-   *Ciblez un groupe de clients et de clientes et ajoutez le champ « Date de naissance » au tableau de travail actuel.*
+  *Ciblez un groupe de clients et de clientes et ajoutez le champ « Date de naissance » au tableau de travail actuel.*
 
 * **Un autre tableau de travail** :
 
-   *Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat »*.
+  *Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat »*.
 
 Une fois les données d&#39;enrichissement ajoutées au workflow, elles peuvent être utilisées dans les activités ajoutées après la **Enrichissement** pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins, ou pour créer des messages marketing personnalisés et des campagnes qui ont plus de chances de répondre à votre audience cible.
 
 Par exemple, vous pouvez ajouter au tableau de travail du workflow des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
 
-## Configuration générale
+## Configuration générale {#general}
 
 Procédez comme suit pour configurer la variable **Enrichissement** activité :
 
@@ -44,9 +44,9 @@ Procédez comme suit pour configurer la variable **Enrichissement** activité :
 
 ![](../assets/workflow-enrichment1.png)
 
-Vous pouvez sélectionner deux types de données : un attribut unique de la dimension cible ou un lien de collection.
+Vous pouvez sélectionner deux types de données d&#39;enrichissement : a [attribut d’enrichissement unique](#single-attribute) de la dimension cible, ou un [lien de collection](#collection-link).
 
-## Attribut unique
+## Attribut d’enrichissement unique {#single-attribute}
 
 Ici, nous ajoutons un seul attribut d&#39;enrichissement, par exemple, la date de naissance. Procédez comme suit :
 
@@ -56,16 +56,14 @@ Ici, nous ajoutons un seul attribut d&#39;enrichissement, par exemple, la date d
 
 ![](../assets/workflow-enrichment2.png)
 
-## Lien de collection
+## Lien de collection {#collection-link}
 
 Dans ce cas pratique plus complexe, nous allons sélectionner un lien de collection qui est un lien avec une cardinalité 1-N entre les tables. Récupérons les trois derniers achats qui sont inférieurs à 100$. Pour cela, vous devez définir :
 
-* un attribut : la valeur **Montant total** field
+* un attribut enrichment : la valeur **Montant total** field
 * le nombre de lignes à récupérer : 3
 * un filtre : filtrer les éléments supérieurs à 100$
 * un tri : tri descendant sur la **Date de commande** champ .
-
-Procédez comme suit :
 
 ### Ajouter l’attribut
 
@@ -92,7 +90,7 @@ Si vous souhaitez, par exemple, obtenir le montant moyen des achats pour un clie
 
 ### Définition des filtres
 
-Ici, nous définissons la valeur maximale de l’attribut . Nous filtrons les éléments qui sont supérieurs à 100$.
+Ici, nous définissons la valeur maximale de l&#39;attribut d&#39;enrichissement. Nous filtrons les éléments qui sont supérieurs à 100$.
 
 1. Cliquez sur **Modifier les filtres**.
 1. Ajoutez les deux filtres suivants : **Montant total** exists AND **Montant total** est inférieur à 100. Le premier filtre les valeurs NULL, car elles apparaissent comme la valeur la plus élevée.
@@ -113,6 +111,11 @@ Nous devons maintenant appliquer un tri pour récupérer les trois **dernier** a
 ![](../assets/workflow-enrichment7.png)
 
 <!--
+
+Add other fields
+use it in delivery
+
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
