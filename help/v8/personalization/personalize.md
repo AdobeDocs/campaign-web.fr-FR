@@ -7,53 +7,55 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
+source-git-commit: 1e5bc39adfeae4f956fc208ef9763eb020552364
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 7%
+source-wordcount: '403'
+ht-degree: 6%
 
 ---
 
 
 # Personnaliser votre contenu {#add-personalization}
 
-La personnalisation peut être ajoutée à n’importe quelle diffusion à l’aide de l’éditeur d’expression, accessible dans tous les champs de la fonction **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** par exemple, le champ de ligne d’objet ou les liens d’e-mail et les composants de contenu texte/bouton. [Découvrez où ajouter du contenu dynamique](gs-personalization.md/#access)
+Vous pouvez personnaliser n’importe quelle diffusion à l’aide de l’éditeur d’expression, accessible dans les champs de la variable **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** par exemple, l’objet, les liens d’e-mail et les composants de contenu texte/bouton. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md/#access)
 
 ## Syntaxe de la personnalisation {#syntax}
 
-Une balise de personnalisation utilise toujours la syntaxe suivante : `<%=table.field%>`. Par exemple, pour insérer le nom du destinataire, stocké dans la table des destinataires, la balise de personnalisation utilise la syntaxe &lt;%= recipient.lastName %> .
+Les balises de personnalisation suivent une syntaxe spécifique : `<%=table.field%>`. Par exemple, pour insérer le nom du destinataire dans la table des destinataires, utilisez le `<%= recipient.lastName %>` syntaxe.
 
-Lors de la préparation d&#39;une diffusion, ces balises sont automatiquement interprétées par Adobe Campaign et remplacées par la valeur du champ pour un destinataire donné. Le remplacement physique peut ensuite être visualisé lors de la simulation de votre contenu.
+Pendant le processus de préparation de la diffusion, Adobe Campaign interprète automatiquement ces balises et les remplace par les valeurs de champ correspondantes pour chaque destinataire. Vous pouvez visualiser le remplacement réel en simulant votre contenu.
 
 ## Ajout de balises de personnalisation {#add}
 
-Pour ajouter des balises de personnalisation dans une diffusion, ouvrez l’éditeur d’expression à l’aide du **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** icône accessible à partir des champs de modification de type texte, tels que l’objet ou le corps du SMS. [Découvrez où ajouter du contenu dynamique](gs-personalization.md/#access)
+Pour ajouter des balises de personnalisation dans une diffusion, procédez comme suit :
 
-![](assets/perso-access.png)
+1. Ouvrez l’éditeur d’expression à l’aide du **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** icône accessible à partir des champs de modification de type texte, tels que l’objet ou le corps du SMS. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md/#access)
 
-L’éditeur d’expression s’affiche. Les champs de personnalisation sont organisés en plusieurs menus, situés à gauche de l&#39;écran. Ces menus donnent accès à tous les champs disponibles dans la base de données Adobe Campaign.
+   ![](assets/perso-access.png)
+
+1. L’éditeur d’expression s’ouvre. Les champs de personnalisation disponibles dans la base de données Adobe Campaign sont organisés en plusieurs menus dans la partie gauche de l&#39;écran :
 
 ![](assets/perso-insert-field.png)
 
 | Menu | Description |
 |-----|------------|
-| ![](assets/do-not-localize/perso-subscribers-menu.png) | Le **[!UICONTROL Application d’abonnements]** répertorie tous les champs liés aux abonnés d’une application, tels que le terminal ou le système d’exploitation utilisé. *Ce menu est disponible uniquement pour les notifications push* |
-| ![](assets/do-not-localize/perso-recipients-menu.png) | Le **[!UICONTROL Destinataire]** répertorie tous les champs définis dans la table des destinataires, tels que le nom, l’âge ou l’adresse du destinataire. |
-| ![](assets/do-not-localize/perso-message-menu.png) | Le **[!UICONTROL Message]** menu répertorie tous les champs liés aux logs de diffusion, c’est-à-dire tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux, comme la date du dernier événement avec un destinataire donné. |
-| ![](assets/do-not-localize/perso-delivery-menu.png) | Le **[!UICONTROL Diffusion]** répertorie tous les champs relatifs aux paramètres requis pour effectuer des diffusions, tels que le canal de diffusion, le libellé, etc. |
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | Le **[!UICONTROL Application d’abonnements]** menu répertorie les champs liés aux abonnés d’une application, tels que le terminal utilisé ou le système d’exploitation. *Ce menu est disponible uniquement pour les notifications push* |
+| ![](assets/do-not-localize/perso-recipients-menu.png) | Le **[!UICONTROL Destinataire]** menu liste les champs définis dans la table des destinataires, tels que les noms, âges ou adresses des destinataires. |
+| ![](assets/do-not-localize/perso-message-menu.png) | Le **[!UICONTROL Message]** Le menu répertorie les champs liés aux logs de diffusion, y compris tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux, comme la date du dernier événement avec un destinataire donné. |
+| ![](assets/do-not-localize/perso-delivery-menu.png) | Le **[!UICONTROL Diffusion]** Le menu répertorie les champs liés aux paramètres requis pour effectuer des diffusions, tels que le canal ou le libellé de la diffusion. |
 
 >[!NOTE]
 >
->Par défaut, chaque menu affiche tous les champs de la table sélectionnée (Destinataires / Message / Diffusion). Si vous souhaitez inclure des champs issus de tables liées à la table sélectionnée, activez l’option **[!UICONTROL Afficher les attributs avancés]** située sous la liste.
+>Par défaut, chaque menu répertorie tous les champs de la table sélectionnée (Destinataires / Message / Diffusion). Si vous souhaitez inclure des champs issus de tables liées à la table sélectionnée, activez l’option **[!UICONTROL Afficher les attributs avancés]** située sous la liste.
 
-Pour ajouter un champ de personnalisation, placez le curseur à l’emplacement souhaité dans votre contenu, puis cliquez sur le bouton + pour l’insérer.
+1. Pour ajouter un champ de personnalisation, positionnez-vous à l’emplacement souhaité dans votre contenu, puis cliquez sur le bouton `+` pour l’insérer.
 
-Une fois votre contenu prêt, vous pouvez l’enregistrer et tester le rendu de la personnalisation en simulant votre contenu. Dans l&#39;exemple ci-dessous, nous personnalisons un SMS avec les prénoms des profils ciblés.
+1. Une fois votre contenu prêt, vous pouvez l’enregistrer et tester le rendu de la personnalisation en simulant votre contenu. L&#39;exemple ci-dessous illustre la personnalisation d&#39;un SMS avec les prénoms des destinataires.
 
-*Ajouter la balise de personnalisation dans le contenu du message*
+   *Ajouter la balise de personnalisation dans le contenu du message*
 
-![](assets/perso-preview1.png)
+   ![](assets/perso-preview1.png)
 
-*Simuler le rendu de la personnalisation pour un profil de test donné*
+   *Simuler le rendu de la personnalisation pour un profil de test donné*
 
-![](assets/perso-preview2.png)
+   ![](assets/perso-preview2.png)
