@@ -5,7 +5,7 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 76%
@@ -28,19 +28,19 @@ ht-degree: 76%
    + E-mails {#email}
       + [Créer votre premier e-mail](email/create-email.md)
       + Définir le contenu d&#39;un email {#content}
-         + [Configuration du contenu de votre email](content/edit-content.md)
+         + [Configuration du contenu de l&#39;email](content/edit-content.md)
          + Commencez à définir votre email {#start-design}
             + [Prise en main du Concepteur d’e-mail](content/get-started-email-designer.md)
-            + [Démarrer en partant de zéro ](content/create-email-content.md)
+            + [Démarrer en partant de zéro](content/create-email-content.md)
             + [Importer le contenu des e-mails](content/existing-content.md)
             + [Coder votre propre contenu](content/code-content.md)
             + [Utiliser des modèles de contenu d’e-mail](content/email-templates.md)
          + Concevoir votre contenu {#design-content}
             + [Utiliser les composants de contenu](content/content-components.md)
-            + [Générer la version texte](content/text-version-email.md)
+            + [Ajouter des liens et suivre les messages](content/message-tracking.md)
             + [Ajouter un lien vers la page miroir](content/mirror-page.md)
             + [Ajouter un pré-titre](content/preheader.md)
-            + [Ajouter des liens et tracker les messages](content/message-tracking.md)
+            + [Générer la version texte](content/text-version-email.md)
          + Donner un style à votre contenu {#style}
             + [Prise en main du style des e-mails](content/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 76%
    + SMS {#sms}
       + [Prise en main des diffusions SMS](sms/gs-sms.md)
       + [Créer une diffusion SMS](sms/create-sms.md)
-      + [Concevoir une diffusion SMS ](sms/content-sms.md)
-      + [Envoyer une diffusion SMS ](sms/send-sms.md)
+      + [Concevoir une diffusion SMS](sms/content-sms.md)
+      + [Envoyer une diffusion SMS](sms/send-sms.md)
    + Rendre votre contenu dynamique {#dynamic-content}
       + [Prise en main du contenu dynamique](personalization/gs-personalization.md)
       + [Ajouter de la personnalisation](personalization/personalize.md)

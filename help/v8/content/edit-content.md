@@ -4,10 +4,10 @@ title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
+source-git-commit: 3aee085da2031a497469fa826bbca3498d3dd0aa
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 48%
+source-wordcount: '508'
+ht-degree: 43%
 
 ---
 
@@ -36,29 +36,33 @@ ht-degree: 48%
 L&#39;email **[!UICONTROL Modifier le contenu]** vous permet d’effectuer les opérations suivantes :
 * Définissez des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet.
 * Effectuer des actions supplémentaires telles que l’ajout de pièces jointes ou la configuration d’offres
-* Accédez au [Concepteur d&#39;email](get-started-email-designer.md) pour commencer à créer le contenu approprié de votre email
+* Accédez au [Concepteur d&#39;email](get-started-email-designer.md#start-authoring) pour commencer à créer le contenu approprié de votre email
 
 Pour configurer ou éditer le contenu d&#39;un email, procédez comme suit.
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir du bouton [tableau de bord des diffusions email](../email/create-email.md) écran.
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content-button.png)
 
-1. L’écran d’édition du contenu d’email s’affiche. Si vous configurez un nouvel email, la variable **[!UICONTROL À partir du nom]** et **[!UICONTROL Adresse électronique]** sont déjà renseignés.
+1. L’écran d’édition du contenu d’email s’affiche.
 
    ![](assets/email-edit-content-dashboard.png)
+
+   >[!NOTE]
+   >
+   >Si vous configurez un nouvel email, la variable **[!UICONTROL À partir du nom]** et **[!UICONTROL Adresse électronique]** sont déjà renseignés.
 
 1. Le **[!UICONTROL À partir du nom]** est défini dans le modèle d’email. Si vous souhaitez le modifier, utilisez un nom facilement identifiable par les destinataires, tel que le nom de votre marque, afin d&#39;augmenter le taux d&#39;ouverture de vos diffusions.
 
    >[!NOTE]
    >
-   >    Pour améliorer davantage l’expérience des destinataires, vous pouvez ajouter le nom d’une personne, par exemple « Emma de Megastore ».
+   >Pour améliorer davantage l’expérience du destinataire, vous pouvez ajouter le nom d’une personne, par exemple &quot;Eve de Luma&quot;.
 
 1. Le **[!UICONTROL Adresse électronique]** Le champ address est également défini dans le modèle email. Assurez-vous que le domaine d’adresse est identique au sous-domaine que vous avez délégué à Adobe.
 
    >[!NOTE]
    >
-   >    Vous pouvez modifier la partie qui précède le signe &quot;@&quot;, mais pas l’adresse du domaine.
+   >Vous pouvez modifier la partie qui précède le signe &quot;@&quot;, mais pas l’adresse du domaine.
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
@@ -80,6 +84,10 @@ Pour configurer ou éditer le contenu d&#39;un email, procédez comme suit.
 
    * [Création d’emails à partir de zéro](create-email-content.md)
    * [Donner un style à votre contenu](get-started-email-style.md)
+
+   >[!NOTE]
+   >
+   >Vous pouvez également passer la souris sur l’aperçu de l’email et sélectionner **[!UICONTROL Ouvrir le Concepteur d&#39;email]**.
 
 1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
 

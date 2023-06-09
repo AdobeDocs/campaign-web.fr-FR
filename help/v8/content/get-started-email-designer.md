@@ -3,16 +3,22 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment commencer à créer votre contenu à l’aide du Concepteur d’email dans l’interface utilisateur web de Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 5%
+source-wordcount: '382'
+ht-degree: 9%
 
 ---
 
 # Prise en main du Concepteur d’e-mail {#get-started-email-designer}
 
-Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer parti des fonctionnalités de conception de contenu :
+Une fois que vous avez créé un email dans Adobe Campaign, vous devez en définir le contenu.
+
+Le Concepteur d&#39;email vous permet de créer des emails attrayants et personnalisés grâce à une interface intuitive par glisser-déposer. Que vous commenciez à partir d’une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque email, qu’il soit promotionnel ou transactionnel.
+
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
 * Utilisation [!DNL Campaign] fonctionnalités de conception d’emails pour créer facilement des emails réactifs. [En savoir plus](create-email-content.md)
 
@@ -38,5 +44,5 @@ Depuis le tableau de bord des diffusions email, accédez au [Modifier le contenu
 
 * **Sélectionner un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’email [cette section](email-templates.md).
 
-   ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png)
 
