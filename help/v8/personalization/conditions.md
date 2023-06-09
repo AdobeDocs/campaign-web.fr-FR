@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 1dfd557b22de9888ab8d3a1f0479b45d59a86f93
+source-git-commit: 548bc638ed24433550c322bce5fc55439e8d938d
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -27,28 +27,29 @@ En configurant des champs de contenu conditionnel, vous pouvez créer une person
 
 ## Création de contenu conditionnel
 
-Pour créer du contenu conditionnel, vous devez créer des conditions dans l’éditeur d’expression à l’aide d’une fonction d’assistance spécifique. Cette méthode est disponible pour tous les canaux de diffusion, dans tous les champs où vous pouvez accéder à l’éditeur d’expression, comme le champ de ligne d’objet, ou les liens d’email et les composants de contenu de texte/bouton. [Découvrez où ajouter du contenu dynamique](gs-personalization.md/#access)
+Pour créer du contenu conditionnel, vous devez créer des conditions dans le **éditeur d&#39;expression** à l’aide d’une fonction d’assistance spécifique. Cette méthode est disponible pour tous les canaux de diffusion, dans tous les champs où vous pouvez accéder à l’éditeur d’expression, comme l’objet, ou les liens d’email et les composants de contenu texte/bouton. [Découvrez où ajouter du contenu dynamique](gs-personalization.md/#access)
 
-Outre l’éditeur d’expression, vous pouvez tirer parti d’un créateur de contenu conditionnel dédié lors de la conception d’un email qui vous permet de créer des conditions à l’aide d’attributs de profil.
+En plus de l’éditeur d’expression, vous pouvez tirer parti d’un **créateur de contenu conditionnel** lors de la conception d’un email qui vous permet de créer des conditions à l’aide d’attributs de profil uniquement.
 
 ## Création de conditions dans l’éditeur d’expression {#condition-perso-editor}
 
-Pour définir un contenu conditionnel pour une diffusion, procédez comme suit. Dans cet exemple, nous allons créer un contenu conditionnel basé sur la langue du destinataire (français ou anglais).
+Pour définir du contenu conditionnel pour une diffusion à l&#39;aide de l&#39;éditeur d&#39;expression, procédez comme suit. Dans cet exemple, nous allons créer un contenu conditionnel basé sur la langue du destinataire (français ou anglais).
 
-1. Ouvrez une diffusion et éditez son contenu.
+1. Ouvrez une diffusion et accédez à la section d&#39;édition du contenu.
 
-1. Localisez le champ dans lequel vous souhaitez ajouter du contenu conditionnel et cliquez sur le bouton **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour ouvrir l’éditeur d’expression. Dans cet exemple, nous allons ajouter du contenu conditionnel dans un SMS :
+1. Localisez le champ dans lequel vous souhaitez ajouter du contenu conditionnel. Par exemple, vous pouvez ajouter du contenu conditionnel à un SMS.
+
+1. Cliquez sur le bouton **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** en regard du champ pour ouvrir l’éditeur d’expression.
 
    ![](assets/open-perso-editor-sms.png)
 
-1. Dans l’éditeur de personnalisation, accédez au **[!UICONTROL Fonctions d’assistance]** menu de gauche.
+1. Dans l’éditeur de personnalisation, accédez au **[!UICONTROL Fonctions d’assistance]** sur la gauche.
 
-1. Cliquez sur l’icône &quot;+&quot; en regard de l’option **If** pour démarrer votre condition. La ligne suivante est ajoutée à l&#39;écran central :
-   `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
+* Pour commencer à créer votre condition, cliquez sur l’icône &quot;+&quot; en regard de l’option **If** fonction . La ligne suivante est ajoutée à l&#39;écran central :`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
-   * Remplacer `<FIELD>` par un champ de personnalisation. Par exemple, la langue du destinataire : `recipient.language`.
-   * Remplacer `<VALUE>` par la valeur à satisfaire. Par exemple, `'French'`.
-   * Remplacer `Ìnsert content here` par le contenu que vous souhaitez afficher aux profils répondant à la condition spécifiée ci-dessus.
+   * Remplacer `<FIELD>` avec un champ de personnalisation, tel que la langue du destinataire : `recipient.language`.
+   * Remplacer `<VALUE>` avec la valeur à satisfaire. Par exemple, `'French'`.
+   * Remplacer `Ìnsert content here` avec le contenu que vous souhaitez afficher aux profils qui respectent la condition spécifiée.
 
      ![](assets/condition-sample1.png)
 
@@ -62,11 +63,11 @@ Pour définir un contenu conditionnel pour une diffusion, procédez comme suit. 
       >
       >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
       >
-      >Veillez à supprimer ces balises pour éviter toute erreur de syntaxe. Dans cet exemple, l’expression corrigée après la suppression de la propriété **Else** Les balises de fonction sont les suivantes :
+      >Veillez à supprimer ces balises pour éviter toute erreur de syntaxe. Dans cet exemple, l’expression corrigée après la suppression de la propriété **else** Les balises de fonction sont les suivantes :
       >
       >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
 
-   1. Remplacer `Ìnsert content here` par le contenu que vous souhaitez afficher aux profils qui ne respectent pas la condition.
+   1. Remplacer `Ìnsert content here` avec le contenu que vous souhaitez afficher aux profils qui ne respectent pas la condition de la fonction if .
 
       ![](assets/condition-sample2.png)
 
@@ -79,34 +80,34 @@ Pour définir un contenu conditionnel pour une diffusion, procédez comme suit. 
 ## Création de contenu conditionnel dans les emails  {#condition-condition-builder}
 
 Le contenu conditionnel des emails peut être créé de deux manières :
-* Dans l’éditeur d’expression en créant une condition à l’aide de fonctions d’assistance,
+* Dans l&#39;éditeur d&#39;expression en créant une condition avec des fonctions d&#39;assistance,
 * Dans un créateur de contenu conditionnel dédié accessible lors de la conception d’un email.
 
 Des informations détaillées sur la création de conditions à l’aide de l’éditeur d’expression sont disponibles. [here](#condition-perso-editor).
 
-La section ci-dessous vous guide tout au long des étapes pour créer des conditions à l’aide du Concepteur d’email du créateur de contenu conditionnel. Dans cet exemple, nous allons créer un email qui va proposer plusieurs variantes en fonction de la langue du destinataire. Pour ce faire, procédez comme suit :
+La section suivante fournit des instructions détaillées sur la création de conditions à l’aide de la fonctionnalité de contenu conditionnel du concepteur d’email. Dans cet exemple, nous allons créer un email avec plusieurs variantes basées sur la langue des destinataires. Procédez comme suit :
 
 1. Créez ou ouvrez une diffusion email, éditez son contenu, puis cliquez sur le bouton **[!UICONTROL Modifier le corps de l’email]** pour ouvrir l’espace de travail de conception d’email.
 
-1. Sélectionnez un composant de contenu, puis cliquez sur **[!UICONTROL Activation du contenu conditionnel]**.
+1. Sélectionnez un composant de contenu et cliquez sur le bouton **[!UICONTROL Activation du contenu conditionnel]** icône .
 
    ![](assets/condition-email-enable.png)
 
 1. Le **[!UICONTROL Contenu conditionnel]** s’ouvre dans la partie gauche de l’écran. Dans ce volet, vous pouvez créer plusieurs variantes du composant de contenu sélectionné à l’aide de conditions.
 
-1. Configurez votre première variante. Pour ce faire, pointez sur **[!UICONTROL Variante - 1]** dans le **[!UICONTROL Contenu conditionnel]** et cliquez sur le bouton **[!UICONTROL Ajouter une condition]** icône .
+1. Configurez votre première variante. Survol **[!UICONTROL Variante - 1]** dans le **[!UICONTROL Contenu conditionnel]** et cliquez sur le bouton **[!UICONTROL Ajouter une condition]** icône .
 
-1. Un créateur de règles s’affiche. Utilisez les attributs de profil pour créer la condition de la première variante du message et cliquez sur **[!UICONTROL Confirmer]**. Dans cet exemple, nous allons créer une règle ciblant les destinataires dont la langue est le &quot;français&quot;.
+1. Un créateur de règles s’affiche. Utilisez les attributs de profil pour créer la condition pour la première variante du message, puis cliquez sur **[!UICONTROL Confirmer]**. Dans cet exemple, nous allons créer une règle ciblant les destinataires dont la langue est le &quot;français&quot;.
 
    ![](assets/condition-email-rule.png)
 
-1. La règle est désormais associée à la variante. Pour une meilleure lisibilité, il est recommandé de renommer la variante en cliquant sur le menu ellipse .
+1. La règle est désormais associée à la variante. Pour une meilleure lisibilité, il est recommandé de renommer la variante en cliquant sur le menu représentant des points de suspension.
 
-   Maintenant, configurez l’affichage du composant si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous allons afficher le texte en français s&#39;il s&#39;agit de la langue préférée du destinataire.
+1. Configurez l’affichage du composant si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous allons afficher le texte en français s&#39;il s&#39;agit de la langue préférée du destinataire.
 
    ![](assets/condition-email-variant1.png)
 
-1. Ajoutez autant de variantes que nécessaire pour le composant de contenu. Vous pouvez basculer à tout moment entre les différentes variantes pour vérifier comment le composant de contenu s’affichera en fonction des règles conditionnelles.
+1. Ajoutez autant de variantes que nécessaire pour le composant de contenu. Vous pouvez basculer entre les variantes à tout moment pour vérifier comment le composant de contenu s’affichera en fonction de leurs règles conditionnelles.
 
    >[!NOTE]
    >Si aucune des règles définies dans les variantes n’est respectée lors de l’envoi du message, le composant de contenu affiche le contenu défini dans la variable **[!UICONTROL Variante par défaut]** de la **[!UICONTROL Contenu conditionnel]** volet.
