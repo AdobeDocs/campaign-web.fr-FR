@@ -3,9 +3,9 @@ audience: end-user
 title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '254'
 ht-degree: 7%
 
 ---
@@ -46,3 +46,10 @@ ht-degree: 7%
    * **[!UICONTROL Nouvelle mise en quarantaine]**: Nombre de profils qui ont été exclus et ajoutés à la quarantaine.
 
 * **[!UICONTROL Exclusions]** le graphique et le tableau affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message.
+
+## Débit des diffusions {#delivery-throughput}
+
+Ce rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée. La mesure Principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
+
+![](assets/reporting_sms_2.png)
+

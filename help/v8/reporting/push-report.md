@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion push
 description: Découvrez comment accéder aux rapports de diffusion push et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 15%
 
 ## Résumé de notifications push {#push-summary}
 
-![](assets/reporting_push.png)
+* **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec vos messages push.
 
-* **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec vos messages push. Ces indicateurs clés de performance incluent :
+  +++En savoir plus sur les mesures.
 
    * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
 
@@ -31,13 +31,25 @@ ht-degree: 15%
 
    * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
 
++++
+
+  ![](assets/reporting_push_3.png)
+
 * **Population ciblée** les données d’affichage graphiques et tabulaires relatives à votre audience :
+
+  +++En savoir plus sur les mesures.
 
    * **[!UICONTROL A envoyer]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
 
    * **[!UICONTROL Exclusions]**: Nombre de profils qui ont été exclus de l’analyse.
 
++++
+
+  ![](assets/reporting_push_4.png)
+
 * **Statistiques globales** présente des données pour les notifications push envoyées, notamment :
+
+  +++En savoir plus sur les mesures.
 
    * **[!UICONTROL Succès]**: Nombre de messages traités avec succès.
 
@@ -45,4 +57,16 @@ ht-degree: 15%
 
    * **[!UICONTROL Nouvelle mise en quarantaine]**: Nombre de profils qui ont été exclus et ajoutés à la quarantaine.
 
++++
+
+  ![](assets/reporting_push_5.png)
+
 * **[!UICONTROL Exclusions]** le graphique et le tableau affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message.
+
+  ![](assets/reporting_push_6.png)
+
+## Débit des diffusions {#delivery-throughput}
+
+Ce rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée. La mesure Principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
+
+![](assets/reporting_push_2.png)
