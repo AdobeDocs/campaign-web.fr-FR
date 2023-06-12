@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer une diffusion de notification push
 description: Découvrez comment envoyer une diffusion de notification push avec Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 22%
+source-wordcount: '275'
+ht-degree: 23%
 
 ---
 
@@ -50,4 +50,4 @@ Vous pouvez maintenant vérifier et envoyer votre SMS à votre audience.
 
 Une fois votre diffusion envoyée, vous pouvez effectuer le suivi de vos données IPC (Indicateur de performance clé) à partir de votre page de diffusion et des données à partir du menu Logs (Journaux).
 
-Vous pouvez maintenant commencer à mesurer l’impact de votre message à l’aide de rapports intégrés.
+Vous pouvez maintenant commencer à mesurer l’impact de votre message à l’aide de rapports intégrés. [En savoir plus](../reporting/push-report.md)
