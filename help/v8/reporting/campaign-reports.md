@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 10%
+source-wordcount: '1520'
+ht-degree: 6%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 10%
 ### Synthèse des diffusions {#delivery-summary-email}
 
 * **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion par e-mail.
+
+  ![](assets/campaign_report_email_1.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -32,9 +34,9 @@ ht-degree: 10%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
 
-* **[!UICONTROL Statistiques initiales sur l´audience cible]**
+  ![](assets/campaign_report_email_2.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -46,9 +48,9 @@ ht-degree: 10%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le succès de votre diffusion.
 
-* **[!UICONTROL Statistiques d’exécution]**
+  ![](assets/campaign_report_email_3.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -62,9 +64,9 @@ ht-degree: 10%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL Statistiques de réaction]** contient les données disponibles pour l&#39;activité des destinataires pour votre diffusion.
 
-* **[!UICONTROL Statistiques des réactions]**
+  ![](assets/campaign_report_email_4.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -77,11 +79,9 @@ ht-degree: 10%
    * **[!UICONTROL Page miroir]**: Nombre de destinataires ayant cliqué sur le lien de la page miroir.
 
    * **[!UICONTROL Transférer]**: Nombre de destinataires ayant cliqué et ayant transféré l&#39;email.
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL Flux de clics générés]**
+* **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion.
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 10%
 
 ### Non délivrables {#non-deliverables-email}
 
-* **[!UICONTROL Ventilation des erreurs par type]** et **[!UICONTROL Répartition des erreurs par navigateur]**
+* **[!UICONTROL Ventilation des erreurs par type]** et **[!UICONTROL Ventilation des erreurs par domaine]** les tableaux et les graphiques contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
+
+  ![](assets/campaign_report_email_6.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -109,11 +111,11 @@ ht-degree: 10%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### Indicateurs de tracking {#tracking-indicators-email}
 
-* **[!UICONTROL Statistiques de diffusion]**
+* **[!UICONTROL Statistiques de diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés.
+
+  ![](assets/campaign_report_email_7.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -130,9 +132,9 @@ ht-degree: 10%
    * **[!UICONTROL Estimation des transferts]**: Estimation du nombre d&#39;emails transférés par les destinataires ciblés.
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL Statistiques initiales d’audience cible]** affiche des données relatives à vos destinataires.
 
-* **[!UICONTROL Taux d&#39;ouverture et de clic]**
+  ![](assets/campaign_report_email_8.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -147,11 +149,11 @@ ht-degree: 10%
    * **[!UICONTROL Réactivité brute]** : Pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URL et flux de clics {#url-email}
 
-* **[!UICONTROL URL et flux de clics]**
+* **[!UICONTROL URL et flux de clics]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion.
+
+  ![](assets/campaign_report_email_9.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -163,9 +165,9 @@ ht-degree: 10%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL 10 liens les plus consultés]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien.
 
-* **[!UICONTROL Top 10 des liens les plus visités]**
+  ![](assets/campaign_report_email_10.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -175,23 +177,23 @@ ht-degree: 10%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL Répartition des clics au fil du temps]**, nombre de clics
+* **[!UICONTROL Répartition des clics au fil du temps]** Le graphique contient les données disponibles sur le comportement des destinataires par lien.
 
   ![](assets/campaign_report_email_11.png)
 
 ### Activités utilisateurs {#user-activities-email}
 
-* **[!UICONTROL Activités utilisateurs]**
+* **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et clics sous la forme d&#39;un graphique.
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
    * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
 
    * **[!UICONTROL Ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## Canal SMS {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 10%
 
 +++
 
-* **[!UICONTROL Statistiques initiales sur l´audience cible]**
+* **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
@@ -223,7 +225,7 @@ ht-degree: 10%
 
 +++
 
-* **[!UICONTROL Statistiques d’exécution]**
+* **[!UICONTROL Statistiques d&#39;exécution]** le tableau détaille le succès de votre diffusion :
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
@@ -237,7 +239,7 @@ ht-degree: 10%
 
 +++
 
-* **[!UICONTROL Flux de clics générés]**
+* **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion :
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
@@ -267,7 +269,7 @@ ht-degree: 10%
 
 +++
 
-* **[!UICONTROL Statistiques initiales sur l´audience cible]**
+* **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
 
   +++En savoir plus sur les mesures des rapports de campagne push.
 
@@ -279,7 +281,7 @@ ht-degree: 10%
 
 +++
 
-* **[!UICONTROL Statistiques d’exécution]**
+* **[!UICONTROL Statistiques d&#39;exécution]** le tableau détaille le succès de votre diffusion :
 
   +++En savoir plus sur les mesures des rapports de campagne push.
 
@@ -293,7 +295,7 @@ ht-degree: 10%
 
 +++
 
-* **[!UICONTROL Flux de clics générés]**
+* **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion :
 
   +++En savoir plus sur les mesures des rapports de campagne push.
 

@@ -3,54 +3,170 @@ audience: end-user
 title: Rapports de diffusion par email
 description: Découvrez comment accéder aux rapports de diffusion email et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 95%
+source-wordcount: '985'
+ht-degree: 15%
 
 ---
 
 # Rapport Diffusion Email {#email-report}
 
-## Envoi
+## Synthèse des diffusions {#delivery-summary-email}
 
-* **Résumé de diffusion** : ce rapport présente l’ensemble des informations principales relatives à la diffusion. Population cible, causes d’exclusion, statistiques de diffusion..
+* **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
 
-  ![](assets/reporting3.png)
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
 
-* **Débit des diffusions** : ce rapport contient des informations sur le débit des diffusions pour une période donnée. Pour mesurer la vitesse à laquelle les messages sont diffusés, les critères sont le nombre de messages envoyés par heure et la taille des messages (en bits par seconde). Dans l’exemple ci-dessous, le premier graphique indique les diffusions réussies en bleu et le nombre de diffusions erronées en orange.
+   * **[!UICONTROL Audience initiale]**: Nombre total de destinataires ciblés.
 
-  ![](assets/reporting3bis.png)
+   * **[!UICONTROL A envoyer]**: Nombre total de messages à diffuser après l&#39;analyse de la diffusion.
 
-* **Statistiques de diffusion** : ce rapport présente la répartition, par domaine Internet, des messages traités et envoyés, des erreurs hard et soft, des ouvertures, des clics et des désinscriptions.
+   * **[!UICONTROL Exclusion]**: Nombre total de messages exclus de la cible envoyés.
++++
 
-  ![](assets/reporting4.png)
+* **[!UICONTROL Statistiques de diffusion]** le tableau décrit le succès de votre diffusion.
 
-* **Échecs et retours** : ce rapport présente la répartition des messages en échec et la répartition des retours par domaine Internet.
+  +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-  ![](assets/reporting5.png)
+   * **[!UICONTROL Message envoyé]**: Nombre total de messages à diffuser après l&#39;analyse de la diffusion.
 
-## Tracking
+   * **[!UICONTROL Succès]**: Nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-* **Indicateurs de tracking** : ce rapport regroupe les indicateurs-clés permettant de tracker le comportement des destinataires à la réception de la diffusion. Il donne accès aux statistiques d’envoi et de réception, aux taux d’ouverture et de clics, aux flux de clics générés, au tracking web ainsi qu’au partage d’activités sur les réseaux sociaux.
+   * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
 
-  ![](assets/reporting6.png)
+   * **[!UICONTROL Nouvelles quarantaines]**: Nombre total d&#39;adresses mises en quarantaine à la suite d&#39;un échec de diffusion (utilisateur inconnu, domaine invalide) par rapport au nombre de messages à diffuser.
 
-* **URL et flux de clics** : ce rapport présente la liste des pages visitées suite à une diffusion.
++++
 
-  ![](assets/reporting7.png)
+* **[!UICONTROL Causes d&#39;exclusion]** le graphique et le tableau affichent la répartition, par règle, des messages rejetés lors de l&#39;analyse.
 
-* **Activités utilisateurs** : ce rapport présente la répartition des ouvertures et des clics, par demi-heure, par heure ou par jour, sous la forme d’un graphique.
+## Débit des diffusions {#delivery-throughtput}
 
-  ![](assets/reporting8.png)
+Ce rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée. La mesure Principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
 
-* **Statistiques de tracking** : ce rapport présente les statistiques des ouvertures et des clics.
+## Statistiques de diffusion {#broadcast-statistics}
 
-  ![](assets/reporting9.png)
+* **[!UICONTROL Statistiques de diffusion]** contient les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 
-* **Répartition des ouvertures** : ce rapport présente la répartition des ouvertures, par système d’exploitation, par appareil et par navigateur, sur la période concernée. Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. Le second affiche des statistiques relatives uniquement aux ouvertures sur les appareils mobiles.
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
 
-  ![](assets/reporting10.png)
+   * **[!UICONTROL Emails traités]**: Nombre total de messages traités par le serveur de diffusion.
+
+   * **[!UICONTROL Délivrés]**: Pourcentage du nombre de messages traités avec succès, par rapport au nombre total de messages traités.
+
+   * **[!UICONTROL Hard bounces]**: Pourcentage du nombre de &quot;hard&quot; bounces, d&#39;erreurs permanentes, telles qu&#39;une mauvaise adresse email, par rapport au nombre total de messages traités.
+
+   * **[!UICONTROL Soft bounces]**: Pourcentage du nombre de &quot;soft bounces&quot;, des erreurs temporaires telles qu&#39;une boîte de réception pleine, par rapport au nombre total de messages traités
+
+   * **[!UICONTROL Ouvertures]**: Pourcentage du nombre de destinataires ciblés ayant ouvert au moins une fois un même message, par rapport au nombre de messages traités avec succès.
+
+   * **[!UICONTROL Clics]**: Pourcentage du nombre de personnes ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de messages traités avec succès.
+
+   * **[!UICONTROL Désabonnements]**: Pourcentage du nombre de clics effectués sur un lien de désinscription, par rapport au nombre de messages traités avec succès.
++++
+
+## Échecs et bounces {#non-deliverables-email}
+
+* **[!UICONTROL Ventilation des erreurs par type]** et **[!UICONTROL Ventilation des erreurs par domaine]** les tableaux et les graphiques contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
+
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
+
+   * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours, par rapport au nombre de messages à diffuser.
+
+   * **[!UICONTROL Contribution]**:
+
+   * **[!UICONTROL Répartition]**:
+
++++
+
+## Indicateurs de tracking {#tracking-indicators-email}
+
+* **[!UICONTROL Statistiques de diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés.
+
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
+
+   * **[!UICONTROL Succès]**: Nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+
+   * **[!UICONTROL Ouvertures distinctes]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
+
+   * **[!UICONTROL Ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+
+   * **[!UICONTROL Clics sur le lien d’exclusion]**: Nombre de clics sur le lien de désinscription.
+
+   * **[!UICONTROL Clics sur le lien miroir]**: Nombre de clics sur le lien vers la page miroir.
+
+   * **[!UICONTROL Estimation des transferts]**: Estimation du nombre d&#39;emails transférés par les destinataires ciblés.
++++
+
+* **[!UICONTROL Taux d&#39;ouverture et de clic]** affiche des données relatives à vos destinataires.
+
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
+
+   * **[!UICONTROL Envoyé]**: Nombre total de messages envoyés.
+
+   * **[!UICONTROL Plaintes]**: Nombre de messages pour ce domaine qui ont été signalés par le destinataire comme indésirables.
+
+   * **[!UICONTROL Ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+
+   * **[!UICONTROL Clics]**: Nombre de destinataires ciblés distincts ayant cliqué au moins une fois dans une même diffusion.
+
+   * **[!UICONTROL Réactivité brute]** : Pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.
++++
+
+## URL et flux de clics {#url-email}
+
+* **[!UICONTROL URL et flux de clics]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion.
+
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
+
+   * **[!UICONTROL Réactivité]**: Ratio du nombre de destinataires ciblés ayant cliqué dans une diffusion, par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert une diffusion.
+
+   * **[!UICONTROL Clics distincts]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
+
+   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+
++++
+
+* **[!UICONTROL 10 liens les plus consultés]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien.
+
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
+
+   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+
+   * **[!UICONTROL Pourcentage]**: Pourcentage d&#39;utilisateurs ayant interagi avec la diffusion.
+
++++
+
+* **[!UICONTROL Répartition des clics au fil du temps]** Le graphique contient les données disponibles sur le comportement des destinataires par lien.
+
+## Activités utilisateurs {#user-activities-email}
+
+* **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et clics sous la forme d&#39;un graphique.
+
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
+
+   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+
+   * **[!UICONTROL Ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+
++++
+
+## Statistiques de tracking {#tracking-statistics}
+
+* **[!UICONTROL Statistiques de suivi]** Le graphique fournit des statistiques sur les ouvertures et les clics.
+
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
+
+   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+
+   * **[!UICONTROL Ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+
++++
+
+## Répartition des ouvertures {#breakdown-opens}
+
+Ce rapport affiche la répartition des ouvertures par système d&#39;exploitation, par appareil, et par navigateur, sur la période sélectionnée. Pour chaque catégorie, deux graphiques sont utilisés. Le premier affiche les statistiques d&#39;ouvertures sur ordinateur et mobile. Le second affiche uniquement les statistiques d&#39;ouvertures sur mobiles.
 
 ## Hotclicks
 
