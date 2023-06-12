@@ -8,33 +8,33 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
+source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 25%
+source-wordcount: '486'
+ht-degree: 12%
 
 ---
 
 
 # Prise en main du contenu dynamique
 
-Pour tirer le meilleur parti de chaque campagne marketing, Adobe Campaign vous offre un moyen de diffuser du contenu dynamique personnalisé qui s’adresse aux clients à leur niveau. En fonction des données de profil, utilisez les fonctionnalités de personnalisation pour créer une expérience personnalisée pour différents groupes et individus : vous pouvez adapter vos messages à chaque destinataire spécifique en exploitant les données et informations dont vous disposez à son sujet. Il peut s’agir de son prénom, de ses centres d’intérêts, de l’endroit où il/elle vit, de ses achats et bien plus encore.
+La diffusion de contenu pertinent à vos clients est essentielle pour vous assurer que vous séduisez divers clients et que vous jouez leur intérêt afin que votre contenu marketing soit lu.
 
-Utilisez Campaign pour créer du contenu dynamique et envoyer des messages personnalisés. Vous pouvez cumuler les fonctionnalités de personnalisation afin d’améliorer vos messages et créer une expérience utilisateur personnalisée.
+Pour tirer le meilleur parti de chaque campagne marketing, Adobe Campaign vous permet de créer une expérience personnalisée pour différents groupes et individus en fournissant un contenu dynamique personnalisé qui s’adresse aux clients à leur niveau en exploitant les informations que vous avez recueillies à leur sujet.
 
-## Comment rendre votre contenu dynamique ?
+* **Personnaliser vos messages** à chaque destinataire spécifique en exploitant des données de profil telles que son prénom, ses centres d’intérêt, son lieu de vie, ses achats, etc.
 
-Vous pouvez rendre le contenu de votre message dynamique en insérant :
-
-* **Champs de personnalisation**: Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données de l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n’importe quel champ associé au ou à la destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. La syntaxe suivante insère la ville du ou de la destinataire dans votre contenu : &lt;%= recipient.location.city %>.
+  Vous pouvez sélectionner n&#39;importe quel champ disponible dans la base depuis l&#39;éditeur de personnalisation associé au destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. La syntaxe suivante insère la ville du ou de la destinataire dans votre contenu : &lt;%= recipient.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 
-* **Contenu conditionnel**: Configurez du contenu conditionnel pour ajouter du contenu en fonction du profil du destinataire, par exemple. Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. Vous pouvez définir la version alternative du contenu lorsque la condition n’est pas vraie.
+* **Création de contenu conditionnel** pour adapter vos diffusions à chaque destinataire et afficher uniquement le contenu pertinent pour un client donné en fonction des informations que vous avez à son sujet. Vous pouvez ainsi afficher des blocs de texte et/ou des images spécifiques en fonction de conditions. Par exemple, adaptez une bannière d&#39;email en fonction de l&#39;abonnement des destinataires à un service spécifique.
 
-* **Blocs de contenu intégrés**: Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers la page miroir d’un message électronique. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation.
+  ![](assets/condition-sample.png){width="800" align="center"}
 
-  ![](assets/perso-content-blocks.png){width="800" align="center"}
+* **Utiliser des blocs de personnalisation** pour gagner du temps et exploiter facilement le contenu personnalisé réutilisable dans vos messages. Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers la page miroir d’un message électronique. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation.
+
+  ![](assets/content-blocks.png){width="800" align="center"}
 
 ## Accès à l’éditeur d’expression {#access}
 
