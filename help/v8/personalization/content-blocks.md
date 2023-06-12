@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 68%
+source-wordcount: '445'
+ht-degree: 66%
 
 ---
 
@@ -55,4 +55,5 @@ Les blocs de contenu intégrés sont les suivants :
 
 >[!NOTE]
 >
->Vous pouvez définir de nouveaux blocs à partir de la console Adobe Campaign V8 qui vous permettront d&#39;optimiser la personnalisation de vos diffusions. [En savoir plus dans la documentation de la console](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=fr)
+>Vous pouvez définir de nouveaux blocs à partir de la console Adobe Campaign v8 qui permettent d&#39;optimiser la personnalisation de vos diffusions. En savoir plus dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+
