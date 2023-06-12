@@ -4,7 +4,7 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9ccc69844c813f5c8828fade442c766e9331bfbb
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 34%

@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 58af32a30bcb765f089dce521844ce77462fdeff
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '513'
+ht-degree: 15%
 
 ---
 
