@@ -3,7 +3,7 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment commencer à créer votre contenu à l’aide du Concepteur d’email dans l’interface utilisateur web de Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
+source-git-commit: 208647ea17f6e0d824ff119a4d046c8041a04777
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 9%
@@ -42,7 +42,7 @@ Depuis le tableau de bord des diffusions email, accédez au [Modifier le contenu
 
 * **Importer du contenu de HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer un contenu d’email dans [cette section](existing-content.md).
 
-* **Sélectionner un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’email [cette section](email-templates.md).
+* **Sélectionner un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’email [cette section](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
 
