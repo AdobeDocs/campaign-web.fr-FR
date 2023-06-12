@@ -4,25 +4,52 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 98%
+source-wordcount: '1072'
+ht-degree: 83%
 
 ---
 
 # Prise en main des messages{#gs-messages}
 
+Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS, notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés.
 
-Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS, notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés. Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans le cadre d’une campagne marketing.
+Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans le cadre d’une campagne marketing.
 
-Adobe Campaign v8 propose les canaux de diffusion suivants :
+Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : Messagerie électronique, SMS et applications mobiles.
 
-* **Canal e-mail** : les diffusions e-mail permettent d&#39;envoyer des e-mails personnalisés à la population cible. Découvrez comment créer et envoyer un e-mail sur [cette page](../email/create-email.md).
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="E-mail" src="assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>Créer des emails</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="Push" src="assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/gs-push.md"><strong>Créer des notifications push</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="SMS" src="assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>Création de SMS</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-* **Canal SMS** : les diffusions sur canaux mobiles permettent d’envoyer des SMS personnalisés à la population cible.  Découvrez comment créer et envoyer des SMS sur [cette page](../sms/create-sms.md).
-
-* **Canal applications mobiles** : les diffusions d’applications mobiles vous permettent d’envoyer des notifications aux systèmes iOS et Android.  Découvrez comment créer et envoyer des notifications push sur [cette page](../push/gs-push.md).
 
 ## Créer une diffusion {#create-delivery}
 
@@ -83,7 +110,7 @@ Pour plus d’informations sur la configuration d’une campagne et la gestion d
 
 ## Ajouter de la personnalisation{#personalization}
 
-Les messages diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. [En savoir plus sur les fonctionnalités de personnalisation](../personalization/personalize.md).
+Les messages diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. [En savoir plus sur les fonctionnalités de personnalisation](../personalization/gs-personalization.md).
 
 Utilisez Campaign pour créer du contenu dynamique et envoyer des messages personnalisés. Vous pouvez cumuler les fonctionnalités de personnalisation afin d’améliorer vos messages et créer une expérience utilisateur personnalisée.
 
@@ -91,19 +118,19 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
 * Insérer des **champs de personnalisation** dynamiques.
 
-   Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données de l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n’importe quel champ associé au ou à la destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. [En savoir plus](../personalization/personalize.md)
+  Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données de l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n’importe quel champ associé au ou à la destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. [En savoir plus](../personalization/personalize.md)
 
 * Insérer des **blocs de contenu** prédéfinis
 
-   Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation. [En savoir plus](../personalization/personalize.md#ootb-content-blocks)
+  Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation. [En savoir plus](../personalization/personalize.md#ootb-content-blocks)
 
 * Créer du **contenu conditionnel**
 
-   Configurez du contenu conditionnel et ajoutez une touche de personnalisation dynamique (basée sur le profil du ou de la destinataire, par exemple). Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. [En savoir plus](../personalization/conditions.md)
+  Configurez du contenu conditionnel et ajoutez une touche de personnalisation dynamique (basée sur le profil du ou de la destinataire, par exemple). Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. [En savoir plus](../personalization/conditions.md)
 
 * Ajouter des **offres personnalisées**
 
-   Insérez des offres personnalisées dans le contenu de votre message, en fonction de l’emplacement des destinataires, de la météo actuelle ou de la dernière commande.
+  Insérez des offres personnalisées dans le contenu de votre message, en fonction de l’emplacement des destinataires, de la météo actuelle ou de la dernière commande.
 
 
 ## Prévisualiser et tester vos diffusions
@@ -111,9 +138,13 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin de contrôler le rendu de vos messages, et vérifier les paramètres de personnalisation avec des profils de test. [En savoir plus](../preview-test/preview-test.md)
 
 
-## Logs de tracking et de diffusion{#gs-tracking-logs}
+## Logs de tracking et de tracking{#gs-tracking-logs}
 
-La surveillance de vos diffusions après leur envoi est une étape clé pour vous assurer que vos campagnes marketing sont efficaces et atteignent vos clients. Vous pouvez ainsi surveiller une diffusion après son envoi et comprendre la gestion des diffusions en échec et des quarantaines.
+La surveillance de vos diffusions après leur envoi est une étape clé pour vous assurer que vos campagnes marketing sont efficaces et atteignent vos clients.
+
+Vous pouvez ainsi surveiller une diffusion après son envoi et comprendre la gestion des diffusions en échec et des quarantaines.
+
+En savoir plus sur les fonctionnalités de surveillance et de suivi dans [cette section](../reporting/gs-reports.md).
 
 ## Dupliquer une diffusion {#delivery-duplicate}
 
@@ -125,12 +156,30 @@ Pour dupliquer une diffusion à partir de la liste des diffusions, procédez com
 1. Sélectionnez **[!UICONTROL Dupliquer]**.
 1. Confirmer la duplication : le nouveau tableau de bord des diffusions s’ouvre dans l’écran central.
 
-
 Pour dupliquer une diffusion depuis son tableau de bord, procédez comme suit :
 
 1. Ouvrez la diffusion et cliquez sur le bouton **[!UICONTROL … Plus]** dans la section supérieure de l’écran.
 1. Sélectionnez **[!UICONTROL Dupliquer]**.
 1. Confirmer la duplication : la nouvelle diffusion remplace la diffusion actuelle dans l’écran central.
 
+## Supprimer une diffusion {#delivery-delete}
 
+Les diffusions sont supprimées de la liste des diffusions, soit de l&#39;entrée de diffusion principale dans le rail gauche, soit de la liste des diffusions d&#39;une opération.
 
+Pour supprimer une diffusion de la liste des diffusions, procédez comme suit :
+
+1. Cliquez sur le bouton des trois points à droite, en regard du nom de la diffusion à dupliquer.
+1. Sélectionner  **[!UICONTROL Supprimer]**.
+1. Confirmation de suppression.
+
+![Supprimer une diffusion de la liste de diffusion](assets/delete-delivery-from-list.png)
+
+Toutes les diffusions sont disponibles dans ces listes, mais les diffusions créées dans un workflow ne peuvent pas être supprimées de là. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow.
+
+Pour supprimer une diffusion d&#39;un workflow, procédez comme suit :
+
+1. Sélectionnez l&#39;activité de diffusion .
+1. Cliquez sur le bouton  **[!UICONTROL Supprimer]** dans le panneau de droite.
+1. Confirmation de suppression. Si la diffusion contient des noeuds enfants, vous pouvez choisir de les supprimer ou de les conserver.
+
+![Supprimer une diffusion dans un workflow](assets/delete-delivery-from-wf.png)

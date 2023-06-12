@@ -4,10 +4,10 @@ title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 48%
+source-wordcount: '759'
+ht-degree: 42%
 
 ---
 
@@ -81,11 +81,11 @@ Après la préparation de la diffusion, vous pouvez examiner comment les exclusi
 
 * Dans le tableau de bord des diffusions, avant l&#39;envoi, cochez la case **Pour exclure** IPC.
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * Dans les logs de diffusion, l&#39;onglet Logs affiche l&#39;étape d&#39;exclusion.
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ Après la préparation de la diffusion, vous pouvez examiner comment les exclusi
 
 * Le **Exclusions appliquées** affiche le nombre de profils exclus pour chaque règle de typologie.
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 Pour plus d’informations sur les logs de diffusion, consultez [cette section](../monitor/delivery-logs.md).
 
@@ -104,19 +104,19 @@ Pour plus d’informations sur les logs de diffusion, consultez [cette section](
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Population supplémentaire"
->abstract="Vous pouvez exclure une population spécifique de la cible en sélectionnant une audience existante ou en définissant une requête."
+>abstract="Vous pouvez exclure une population spécifique de l&#39;audience de diffusion en sélectionnant une audience existante ou en définissant une requête."
 
-Vous pouvez également définir une population témoin en excluant une population spécifique de la cible. Pour cela, vous pouvez utilisez une audience existante ou définir une requête.
+Une autre manière de définir une population témoin consiste à sélectionner une population spécifique dans une audience existante ou à définir une requête.
 
 Dans la section **Population supplémentaire** de l’écran de définition de la **Population témoin**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
 
 ![](assets/control-group3.png)
 
-* Pour utiliser une audience existante, cliquez sur **Sélectionner une audience**. Reportez-vous à cette [section](add-audience.md).
+* Pour utiliser une audience existante, cliquez sur **Sélectionner une audience**. En savoir plus dans [cette section](add-audience.md).
 
-* Pour définir une nouvelle requête, sélectionnez **Créer la vôtre** et définissez les critères d’exclusion à l’aide du créateur de règles. Reportez-vous à cette [section](segment-builder.md).
+* Pour définir une nouvelle requête, sélectionnez **Créer la vôtre** et définissez les critères d’exclusion à l’aide du créateur de règles. En savoir plus dans [cette section](segment-builder.md).
 
-Les profils inclus dans l’audience ou correspondant au résultat de la requête sont exclus de la cible.
+Les profils inclus dans l&#39;audience ou correspondant au résultat de la requête sont **excluded** de la cible de la diffusion : ils ne reçoivent aucun message.
 
 ## Comparer les résultats{#control-group-results}
 
