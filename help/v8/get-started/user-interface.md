@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 83%
+source-wordcount: '1772'
+ht-degree: 66%
 
 ---
 
@@ -129,29 +129,75 @@ Utilisez la barre supérieure de l’interface pour :
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Configurer les écrans de liste {#list-screens}
+## Parcourir et filtrer les listes {#list-screens}
 
-Plusieurs liens du menu de navigation de gauche, par exemple **Diffusions** ou **Campagnes**, affichent des listes d’objets. Ces écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion d’e-mails.
+La plupart des liens du menu de navigation de gauche affichent des listes d’objets, telles que la liste des **Diffusions** ou **Campagnes**. Certains de ces écrans de liste sont en lecture seule. Vous pouvez personnaliser l’affichage de la liste et filtrer ces listes, comme décrit ci-dessous.
+
+Pour supprimer un filtre, cliquez sur le bouton **Effacer tout** bouton .
+
+### Personnalisation des écrans de liste {#custom-lists}
+
+Les listes sont affichées en colonnes. Vous pouvez également afficher des informations supplémentaires en modifiant la configuration des colonnes. Pour ce faire, cliquez sur le bouton **Configuration d’une colonne pour une disposition personnalisée** dans le coin supérieur droit de la liste.
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+Dans le **Configuration des colonnes** , ajoutez ou supprimez des colonnes et modifiez l’ordre dans lequel elles s’affichent.
+
+Par exemple, pour les paramètres suivants :
+
+![](assets/columns.png){width="70%" align="left"}
+
+La liste affiche les colonnes suivantes :
+
+![](assets/column-sample.png){width="70%" align="left"}
+
+Utilisez la variable **Afficher les attributs avancés** pour afficher tous les attributs de la liste active. [En savoir plus](#adv-attributes)
+
+### Trier les données {#sort-lists}
+
+Vous pouvez également trier les éléments de la liste en cliquant sur l’en-tête d’une colonne. Une flèche s’affiche (vers le haut ou vers le bas) pour indiquer que la liste est triée sur cette colonne.
+
+Pour les colonnes numériques ou de date, la variable **Monter** la flèche indique que la liste est triée dans l’ordre croissant lorsque la variable **Descendre** la flèche indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont classées par ordre alphabétique.
+
+### Filtres intégrés {#list-built-in-filters}
 
 Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou filtrer la liste selon des critères contextuels.
 
 ![](assets/filter.png){width="70%" align="left"}
 
-Les listes sont affichées en colonnes. Vous pouvez également afficher des informations supplémentaires en modifiant la configuration des colonnes. Pour ce faire, cliquez sur l’icône dans le coin supérieur droit de la liste. Vous pouvez ajouter ou supprimer des colonnes et modifier leur ordre d’affichage.
+Vous pouvez, par exemple, filtrer les diffusions selon leur état, canal, date de contact ou dossier. Vous pouvez également masquer les tests.
 
-![](assets/columns.png){width="70%" align="left"}
+### Filtres personnalisés{#list-custom-filters}
 
-Vous pouvez trier les éléments de la liste en cliquant sur l’en-tête d’une colonne. Une flèche s’affiche (vers le haut ou vers le bas) pour indiquer que la liste est triée sur cette colonne. Pour les colonnes numériques ou de date, la flèche vers le haut indique que la liste est triée par ordre croissant, tandis que la flèche vers le bas indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont classées par ordre alphabétique.
+Pour créer des filtres personnalisés sur les données, accédez au bas des filtres et cliquez sur le bouton **Ajouter des règles** bouton .
 
-## Aide contextuelle et guide d’intégration {#contextual-help}
+Faites glisser et déposez des attributs pour créer vos critères de filtre dans le **Filtres avancés** écran.
 
-Une aide contextuelle est disponible dans l’interface. Lorsquʼelle est disponible, cliquez sur l&#39;icône **?** pour afficher les informations dʼassistance et les liens des documents connexes.
+![](assets/custom-filter.png){width="70%" align="left"}
+
+Utilisez la variable **Afficher les attributs avancés** pour afficher tous les attributs de la liste active. [En savoir plus](#adv-attributes)
+
+### Utilisation d’attributs avancés {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Afficher les attributs avancés"
+>abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Utilisez ce bouton pour créer un filtre avec des attributs avancés."
+
+Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs et les écrans de configuration des filtres.
+
+Utilisez la variable **Afficher les attributs avancés** basculez sous la liste pour afficher tous les attributs disponibles pour la liste actuelle.
+
+
+## Aide contextuelle {#contextual-help}
+
+Une aide contextuelle est disponible dans l’interface. Lorsque cette option est disponible, cliquez sur le `?` pour afficher des informations d’aide et des liens vers la documentation connexe.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Un guide d’intégration est également disponible pour vous aider à commencer à utiliser Campaign v8 Web. Cliquez sur l’icône dans le coin inférieur droit, sélectionnez l’un des scénarios détaillés disponibles, puis suivez simplement les instructions.
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Navigateurs pris en charge {#browsers}
 
@@ -187,17 +233,8 @@ La langue de votre interface par défaut est déterminée par la langue préfér
 Pour changer de langue :
 
 1. Cliquez sur l’icône de votre profil, en haut à droite, puis sélectionnez **Préférences**.
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. Cliquez ensuite sur la langue affichée sous votre adresse e-mail.
-
-   ![](assets/preferences2.png)
-
+1. Cliquez ensuite sur le lien de la langue affiché sous votre adresse email.
 1. Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez n’est pas localisé dans votre première langue.
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Champs avancés du créateur de règles"
+>abstract="Configurez les colonnes avec des champs avancés."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Autorisation requise"
 >abstract="Avant de pouvoir créer un segment, votre administrateur ou administratrice doit vous accorder une autorisation."
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Champs avancés du sélecteur d’attributs"
->abstract="Configurez les colonnes avec des champs avancés."
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Champs avancés du créateur de règles"
->abstract="Configurez les colonnes avec des champs avancés."
+
 
 
 
