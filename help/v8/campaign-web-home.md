@@ -4,7 +4,7 @@ description: Centre d’aide de Campaign Web v8
 title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 39b4ec268ba7b1383ad887ab35e66b67d1d4a2ef
+source-git-commit: 45f56870bc823b4f620063cd1a64d69e91c4e0a8
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 30%
@@ -69,19 +69,19 @@ Campaign fournit désormais une nouvelle interface utilisateur (interface utilis
 
 <table style="table-layout:fixed">
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-ui.jpeg">
+<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
 </a></td><td>Découvrez la nouvelle interface utilisateur Web de Campaign, les dernières améliorations, les principales fonctionnalités. Découvrez comment les utiliser pour créer des campagnes cross-canal pour vos audiences. Grâce à ses fonctionnalités conviviales, Campaign vous permet de rationaliser le processus personnalisé de création de campagnes cross-canal, de générer des résultats et d’obtenir un avantage concurrentiel.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-workflows.jpeg">
+<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
 </a></td><td>Grâce à notre canevas graphique complet, vous pouvez facilement concevoir des processus tels que la segmentation, l’exécution de campagnes, etc. Grâce à cet outil avancé, vous pouvez rationaliser votre workflow et améliorer vos campagnes.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-design.jpg">
+<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-design.jpg" width="150px">
 </a></td><td>Commencez à partir d’un modèle ou utilisez Adobe Campaign pour créer un nouveau Concepteur d’email afin de créer des emails sans avoir à écrire une seule ligne de code. Découvrez comment utiliser le Concepteur d'email pour créer votre contenu, le prévisualiser et le tester, puis envoyer un email à une audience existante dans un cas pratique de bout en bout.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-dynamic.jpg">
+<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
 </a></td><td>Créez un contenu conditionnel pour définir une personnalisation dynamique basée sur le profil du destinataire, en remplaçant automatiquement les blocs de texte et les images lorsque certaines conditions sont remplies. Cette fonctionnalité permet d’augmenter le nombre de campagnes et de proposer des expériences hautement ciblées et personnalisées à votre audience.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-campaign.jpeg">
+<img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
 </a></td><td>Les fonctionnalités d’Adobe Campaign vous aident à gérer des données client centralisées, à concevoir des communications et des campagnes client et à créer des expériences personnalisées sur différents canaux : Courriel, Push et SMS.</td></tr>
 </table>
 
