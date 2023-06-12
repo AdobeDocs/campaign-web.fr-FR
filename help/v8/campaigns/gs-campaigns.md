@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 58af32a30bcb765f089dce521844ce77462fdeff
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ Dans le **Parcourir** , cliquez sur une opération pour afficher son tableau de 
 
 Le **Configuration des paramètres de campagne** vous permet de modifier les propriétés de l&#39;opération qui ont été définies lors de la création de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
 
-## Surveillance et tracking{#campaign-monitoring}
+## Logs de tracking et de tracking{#campaign-monitoring}
 
 La surveillance des campagnes est une étape essentielle pour analyser vos campagnes. Elles sont accessibles à partir du **Journaux** bouton .
 
