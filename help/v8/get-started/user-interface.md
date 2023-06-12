@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
+source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1769'
 ht-degree: 66%
 
 ---
@@ -186,8 +186,7 @@ Utilisez la variable **Afficher les attributs avancés** pour afficher tous les 
 
 Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs et les écrans de configuration des filtres.
 
-Utilisez la variable **Afficher les attributs avancés** basculez sous la liste pour afficher tous les attributs disponibles pour la liste actuelle.
-
+Utilisez la variable **Afficher les attributs avancés** pour afficher tous les attributs disponibles pour la liste actuelle.
 
 ## Aide contextuelle {#contextual-help}
 
