@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f937e189494c6bcf023c49254bfd8ddc5bfa51
+source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 10%
@@ -79,8 +79,11 @@ ht-degree: 10%
    * **[!UICONTROL Transférer]**: Nombre de destinataires ayant cliqué et ayant transféré l&#39;email.
 
   ![](assets/campaign_report_email_4.png)
++++
 
 * **[!UICONTROL Flux de clics générés]**
+
+  ![](assets/campaign_report_email_5.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -91,8 +94,6 @@ ht-degree: 10%
    * **[!UICONTROL Réactivité]**: Ratio du nombre de destinataires ciblés ayant cliqué dans une diffusion, par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert une diffusion.
 
 +++
-
-  ![](assets/campaign_report_email_5.png)
 
 ### Non délivrables {#non-deliverables-email}
 
