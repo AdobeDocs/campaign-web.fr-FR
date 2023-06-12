@@ -8,23 +8,25 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
+source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 12%
+source-wordcount: '592'
+ht-degree: 10%
 
 ---
 
 
 # Prise en main du contenu dynamique
 
-La diffusion de contenu pertinent à vos clients est essentielle pour vous assurer que vous séduisez divers clients et que vous jouez leur intérêt afin que votre contenu marketing soit lu.
+En tant que marketeur, il est essentiel de cibler les clients véritablement intéressés par vos offres et de les impliquer dans la diffusion de contenu efficace et pertinent. Étant donné la diversité des destinataires que vous rencontrez, la création de plusieurs éléments de contenu marketing pour séduire différentes personnes peut être fastidieuse et coûteuse en temps. C’est là que le contenu dynamique entre en jeu.
 
-Pour tirer le meilleur parti de chaque campagne marketing, Adobe Campaign vous permet de créer une expérience personnalisée pour différents groupes et individus en fournissant un contenu dynamique personnalisé qui s’adresse aux clients à leur niveau en exploitant les informations que vous avez recueillies à leur sujet.
+Les fonctionnalités de contenu dynamique web d’Adobe Campaign vous permettent de personnaliser votre contenu en fonction des informations que vous avez collectées sur vos destinataires. L’utilisation de contenu dynamique vous permet de vous assurer que vos efforts marketing sont plus pertinents, en évitant les produits ou services indésirables ou inutiles en marketing. Cette approche rend votre contenu plus attrayant et augmente la probabilité qu’il soit lu. De plus, il vous permet de personnaliser votre contenu, donnant aux destinataires l’impression de recevoir des informations d’une personne plutôt que d’une machine.
 
-* **Personnaliser vos messages** à chaque destinataire spécifique en exploitant des données de profil telles que son prénom, ses centres d’intérêt, son lieu de vie, ses achats, etc.
+## Comment rendre votre contenu dynamique ?
 
-  Vous pouvez sélectionner n&#39;importe quel champ disponible dans la base depuis l&#39;éditeur de personnalisation associé au destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. La syntaxe suivante insère la ville du ou de la destinataire dans votre contenu : &lt;%= recipient.location.city %>.
+Vous pouvez rendre le contenu de votre message dynamique en insérant des éléments JavaScript dans l&#39;éditeur d&#39;expression Web de Campaign. Lors de l&#39;envoi d&#39;un message, ces expressions sont interprétées par Adobe Campaign afin de diffuser le contenu correct à chacun de vos destinataires :
+
+* **Personnaliser vos messages** à chaque destinataire spécifique en exploitant des données de profil telles que son prénom, ses centres d’intérêt, son lieu de vie, ses achats, etc. Vous pouvez sélectionner n&#39;importe quel champ disponible dans la base depuis l&#39;éditeur de personnalisation associé au destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. La syntaxe suivante insère la ville du ou de la destinataire dans votre contenu : &lt;%= recipient.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 

@@ -4,7 +4,7 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 98%
@@ -72,7 +72,7 @@ Les éléments affichés dans l’Explorateur dépendent de vos autorisations ut
 
 Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes pour personnaliser l’affichage en fonction des informations que vous souhaitez. Consultez cette [section](#list-screens).
 
-Pour plus d&#39;informations sur l&#39;explorateur Campaign, reportez-vous à cette section [Documentation de la console Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
+Pour plus d&#39;informations sur l&#39;explorateur Campaign, reportez-vous à cette section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -99,9 +99,9 @@ Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketi
 
 * **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Pour en savoir plus sur les diffusions, consultez [cette section](../msg/gs-messages.md).
 
-   Utilisez le bouton **Autres actions** pour supprimer ou dupliquer une diffusion.
+  Utilisez le bouton **Autres actions** pour supprimer ou dupliquer une diffusion.
 
-   ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){width="70%" align="left"}
 
 * **Workflows** : dans cet écran, vous pouvez accéder à la liste complète des workflows et des modèles de workflows. Vous pouvez vérifier leur statut, les dates de dernière exécution ou de prochaine exécution, et créer un nouveau workflow ou un nouveau modèle de workflow. Vous pouvez filtrer la liste selon les mêmes critères que pour les autres objets. En outre, vous pouvez filtrer les workflows appartenant ou non à une campagne. Pour en savoir plus sur les workflows, consultez [cette section](../workflows/gs-workflows.md).
 
@@ -164,7 +164,7 @@ Les listes sont affichées en colonnes. Vous pouvez également afficher des info
 
 Vous pouvez trier les éléments de la liste en cliquant sur l’en-tête d’une colonne. Une flèche s’affiche (vers le haut ou vers le bas) pour indiquer que la liste est triée sur cette colonne. Pour les colonnes numériques ou de date, la flèche vers le haut indique que la liste est triée par ordre croissant, tandis que la flèche vers le bas indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont classées par ordre alphabétique.
 
-## Aide contextuelle et guide d’intégration
+## Aide contextuelle et guide d’intégration {#contextual-help}
 
 Une aide contextuelle est disponible dans l’interface. Lorsquʼelle est disponible, cliquez sur l&#39;icône **?** pour afficher les informations dʼassistance et les liens des documents connexes.
 
@@ -218,12 +218,6 @@ Pour changer de langue :
 1. Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez n’est pas localisé dans votre première langue.
 
    ![](assets/select-language.png)
-
-<!--
-## Supported browsers {#browsers}
-
-Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
--->
 
 
 

@@ -4,10 +4,10 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 72%
+source-wordcount: '469'
+ht-degree: 71%
 
 ---
 
@@ -34,19 +34,6 @@ Si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas dispo
 >
 >Campaign v8 Web est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
-## À propos de la console cliente Campaign{#ac-client}
-
-La console cliente Campaign est une application de navigateur installée sur votre système. Elle utilise l’API des services web pour se connecter à votre serveur d’applications Campaign.
-
-Découvrez comment télécharger et configurer la console cliente dans [cette section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html?lang=fr){target="_blank"}.
-
-Pour plus d&#39;informations sur l&#39;utilisation de Campaign v8, reportez-vous à la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.
-
-Les données de Campaign sont stockées dans le serveur d’applications. Les données sont disponibles sur la console cliente et sur l’interface utilisateur web. Par exemple, si vous créez un modèle de diffusion à partir de la console cliente, il est également disponible dans l’interface web. De même, si vous créez une diffusion e-mail dans l’interface utilisateur web, celle-ci est également accessible sur la console cliente.
-
-
-Certains objets ne peuvent être créés et gérés que dans la console cliente. Ils peuvent être visibles et utilisés dans l&#39;interface utilisateur web de Campaign, mais ne peuvent pas être créés ni modifiés à partir de cet environnement. Tous les objets et composants de Campaign sont disponibles dans la vue Explorateur, à partir du volet de navigation de gauche.
-
 ## Se connecter à Campaign
 
 
@@ -63,3 +50,13 @@ Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à 
 -> or Campaign v8 web if direct URL
 -->
 
+
+## À propos de la console cliente Campaign{#ac-client}
+
+La console cliente Campaign est une application de navigateur installée sur votre système. Elle utilise l’API des services web pour se connecter à votre serveur d’applications Campaign.
+
+Les données de Campaign sont stockées dans le serveur d’applications. Les données sont disponibles sur la console cliente et sur l’interface utilisateur web. Par exemple, si vous créez un modèle de diffusion à partir de la console cliente, il est également disponible dans l’interface web. De même, si vous créez une diffusion e-mail dans l’interface utilisateur web, celle-ci est également accessible sur la console cliente.
+
+Certains objets ne peuvent être créés et gérés que dans la console cliente. Ils peuvent être visibles et utilisés dans l&#39;interface utilisateur web de Campaign, mais ne peuvent pas être créés ni modifiés à partir de cet environnement. Tous les objets et composants de Campaign sont disponibles dans la vue Explorateur, à partir du volet de navigation de gauche.
+
+Pour plus d&#39;informations sur l&#39;utilisation de Campaign v8, reportez-vous à la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.
