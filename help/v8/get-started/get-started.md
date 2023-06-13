@@ -4,7 +4,7 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: c4b06445c23c82d02bd34b64f96445ca994c0a24
+source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 64%
@@ -50,7 +50,7 @@ Pour vous connecter au web Adobe Campaign, procédez comme suit :
 
 Si vous êtes déjà connecté à une autre solution Adobe Experience Cloud, vous pouvez également accéder à votre environnement Campaign à partir du sélecteur de solution situé en haut à droite de votre écran.
 
-## À propos de la console cliente Campaign{#ac-client}
+## À propos de la console cliente Campaign {#ac-client}
 
 La console cliente Campaign est une application de navigateur installée sur votre système. Elle utilise l’API des services web pour se connecter à votre serveur d’applications Campaign.
 

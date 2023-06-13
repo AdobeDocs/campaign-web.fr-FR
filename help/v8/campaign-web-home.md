@@ -4,7 +4,7 @@ description: Centre d’aide de Campaign Web v8
 title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 563b5d78a48938a44f7d4bdcf89d2a0180b95920
+source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 38%
@@ -17,7 +17,7 @@ ht-degree: 38%
 
 Campaign fournit désormais une nouvelle interface utilisateur (interface utilisateur) web avec une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform. [En savoir plus](get-started/get-started.md)
 
->Campaign v8 Web est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/release-notes.md)
+>Campaign v8 Web est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/whats-new.md)
 
 ## Nouvelles fonctionnalités Web de Campaign
 
