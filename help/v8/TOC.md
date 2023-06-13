@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 995655c0d34489ad84b7e65eed7a9855e809d784
+source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 75%
+source-wordcount: '346'
+ht-degree: 74%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 75%
 + Prise en main d’Adobe Campaign {#start}
    + [Prise en main](get-started/get-started.md)
    + [Découvrir l’interface](get-started/user-interface.md)
+   + [Parcourir, rechercher et filtrer les listes](get-started/list-filters.md)
 + Messages et diffusions {#msg}
    + [Prise en main des messages](msg/gs-messages.md)
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
