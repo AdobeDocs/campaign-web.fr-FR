@@ -3,9 +3,9 @@ audience: end-user
 title: Parcourir, rechercher et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '396'
 ht-degree: 14%
 
 ---
@@ -68,4 +68,4 @@ Utilisez la variable **Afficher les attributs avancés** pour afficher tous les 
 
 Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs et les écrans de configuration des filtres. Attributs définis comme `advanced` Les attributs du schéma de données sont masqués dans les écrans de configuration.
 
-Utilisez la variable **Afficher les attributs avancés** pour afficher tous les attributs disponibles pour la liste actuelle.
+Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle : la liste des attributs est mise à jour instantanément.
