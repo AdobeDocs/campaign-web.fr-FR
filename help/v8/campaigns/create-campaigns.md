@@ -4,7 +4,7 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 22%
@@ -12,7 +12,7 @@ ht-degree: 22%
 ---
 
 
-# Créer votre première campagne {#create-campaigns}
+# Créer votre première campagne {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 22%
 >title="Propriétés de la campagne"
 >abstract="Définissez les paramètres et les métadonnées de votre campagne."
 
-Les campagnes peuvent inclure des workflows et des diffusions autonomes. Propriétés, planning, travail, deliv plus rien a faire
+Pour créer une opération, vous devez définir ses propriétés, planifier et inclure les workflows et les diffusions.
 
-## Créer l&#39;opération
+## Créer l&#39;opération{#campaign-create}
 
 Pour créer une opération, procédez comme suit :
 
@@ -40,25 +40,27 @@ Pour créer une opération, procédez comme suit :
 
    >[!NOTE]
    >
-   >Vous pouvez toujours modifier ces propriétés ultérieurement, à partir de la **Configuration des paramètres de campagne** en regard du libellé de l&#39;opération. Consultez cette [section](gs-campaigns.md#campaign-dashboard)
+   >Vous pouvez toujours modifier ces propriétés ultérieurement, à partir de la **Configuration des paramètres de campagne** en regard du libellé de l&#39;opération. Consultez cette [section](gs-campaigns.md#campaign-dashboard).
 
 1. Cliquez sur **Créer**.
 1. Ajoutez des workflows et des diffusions à votre campagne :
 
-   * Dans la **Workflows** , cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. En savoir plus sur la façon de procéder [créer un workflow](../workflows/create-workflow.md)
+   * Dans la **Workflows** , cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. En savoir plus sur la façon de procéder [créer un workflow](../workflows/create-workflow.md).
    * Dans la **Diffusions** , cliquez sur **Créer une diffusion**. [En savoir plus](../msg/gs-messages.md)
 
 1. Utilisez la variable **Journaux** et **Reporting** pour analyser les performances de votre campagne.
 
 ## Surveiller et suivre votre campagne{#campaign-monitoring}
 
-La surveillance des campagnes est une étape essentielle pour analyser vos campagnes. Ouvrez votre campagne, puis cliquez sur le bouton **Journaux** bouton .
+La surveillance des campagnes est une étape clé pour analyser l’efficacité de votre campagne. Ouvrez votre campagne, puis cliquez sur le bouton **Journaux** bouton .
 
 Vous pouvez également afficher les rapports dédiés en cliquant sur le **Rapports** bouton . Consultez cette [section](../reporting/campaign-reports.md).
 
-Écran +++WORKF ++
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 

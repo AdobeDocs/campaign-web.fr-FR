@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 11%
 
 ---
 
@@ -26,6 +26,12 @@ En ajoutant plusieurs workflows et diffusions spécifiques à l&#39;opération, 
 Les campagnes offrent des mesures de création de rapports dédiées pour obtenir des informations complètes sur les performances de l’ensemble de votre campagne, ce qui vous permet d’évaluer son efficacité, d’identifier les tendances et de prendre des décisions basées sur les données afin d’optimiser les efforts futurs.
 
 ![Flux de campagne](assets/campaign-flow.png)
+
+Reportez-vous aux sections suivantes :
+
+* [Accès et gestion de vos campagnes](manage-campaigns.md)
+* [Créer votre première campagne](create-campaigns.md)
+
 
 
 <!--
