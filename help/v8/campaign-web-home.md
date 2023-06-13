@@ -4,9 +4,9 @@ description: Centre d’aide de Campaign Web v8
 title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
+source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 34%
 
 ---
@@ -29,7 +29,7 @@ La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur
 
 Grâce à notre canevas graphique complet, vous pouvez facilement concevoir des processus tels que la segmentation, l’exécution de campagnes, etc. Grâce à cet outil avancé, vous pouvez rationaliser votre workflow et améliorer vos campagnes.
 
-**Concevoir des emails**
+**Présentation du Concepteur d&#39;email**
 
 Commencez à partir d’un modèle ou utilisez Adobe Campaign pour créer un nouveau Concepteur d’email afin de créer des emails sans avoir à écrire une seule ligne de code. Découvrez comment utiliser le Concepteur d&#39;email pour créer votre contenu, le prévisualiser et le tester, puis envoyer un email à une audience existante dans un cas pratique de bout en bout.
 
@@ -51,6 +51,15 @@ Maintenant que vous avez une idée de ce que vous pouvez faire sur le Web Adobe 
 <img alt="nouvelle interface utilisateur" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>Découvrez la nouvelle interface utilisateur</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="Validation" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>Interface de zone de travail du workflow repensée</strong></a>
 </div>
 <p>
 </td>
@@ -77,15 +86,6 @@ Maintenant que vous avez une idée de ce que vous pouvez faire sur le Web Adobe 
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Envoi de diffusions cross-canal</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="Validation" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>Interface de zone de travail du workflow repensée</strong></a>
 </div>
 <p>
 </td>
