@@ -3,7 +3,7 @@ audience: end-user
 title: Parcourir, rechercher et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 14%
@@ -27,11 +27,11 @@ Dans le **Configuration des colonnes** , ajoutez ou supprimez des colonnes et mo
 
 Par exemple, pour les paramètres suivants :
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 La liste affiche les colonnes suivantes :
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 Utilisez la variable **Afficher les attributs avancés** pour afficher tous les attributs de la liste active. [En savoir plus](#adv-attributes)
 
@@ -45,7 +45,7 @@ Pour les colonnes numériques ou de date, la variable **Monter** la flèche indi
 
 Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou filtrer la liste selon des critères contextuels.
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 Vous pouvez, par exemple, filtrer les diffusions selon leur état, canal, date de contact ou dossier. Vous pouvez également masquer les tests.
 
@@ -55,7 +55,7 @@ Pour créer des filtres personnalisés sur les données, accédez au bas des fil
 
 Faites glisser et déposez des attributs pour créer vos critères de filtre dans le **Filtres avancés** écran.
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Utilisez la variable **Afficher les attributs avancés** pour afficher tous les attributs de la liste active. [En savoir plus](#adv-attributes)
 
