@@ -2,11 +2,11 @@
 audience: end-user
 title: Parcourir, rechercher et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
-badge: label="Alpha" type="Positive"
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 14%
+source-wordcount: '415'
+ht-degree: 18%
 
 ---
 
@@ -66,6 +66,20 @@ Utilisez la variable **Afficher les attributs avancés** pour afficher tous les 
 >title="Afficher les attributs avancés"
 >abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Utilisez ce bouton pour créer un filtre avec des attributs avancés."
 
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Champs avancés du créateur de règles"
+>abstract="Configurez les colonnes avec des champs avancés."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Attributs avancés du créateur de règles"
+>abstract="Utilisez des attributs avancés pour définir votre règle."
+
+
 Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs et les écrans de configuration des filtres. Attributs définis comme `advanced` Les attributs du schéma de données sont masqués dans les écrans de configuration.
 
 Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle : la liste des attributs est mise à jour instantanément.
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
