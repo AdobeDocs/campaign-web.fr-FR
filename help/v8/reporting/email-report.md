@@ -3,20 +3,22 @@ audience: end-user
 title: Rapports de diffusion par email
 description: Découvrez comment accéder aux rapports de diffusion email et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 23%
+source-wordcount: '1407'
+ht-degree: 26%
 
 ---
 
 # Rapport Diffusion Email {#email-report}
 
+Le **Rapport Diffusion Email** offre des informations et des données complètes spécifiques au canal email. Il fournit des informations détaillées sur les performances, l’efficacité et les résultats de vos diffusions individuelles, ce qui vous permet d’obtenir un aperçu complet.
+
 ## Synthèse des diffusions {#delivery-summary-email}
 
 * **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
@@ -96,6 +98,8 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 * **[!UICONTROL Ventilation des erreurs par type]** et **[!UICONTROL Ventilation des erreurs par domaine]** les tableaux et les graphiques contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 
+  Les erreurs présentées dans ce rapport enclenchent le mécanisme de mise en quarantaine. Pour plus d&#39;information sur la gestion des quarantaines, consultez la section [Gestion des quarantaines](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr)
+
   ![](assets/campaign_report_email_6.png)
 
   +++En savoir plus sur les mesures des rapports de diffusion Email.
@@ -168,6 +172,8 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
    * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
 
+   * **[!UICONTROL Moyenne plateforme]** : Ce taux moyen, affiché sous chaque taux (réactivité, clics distincts, et clics cumulés), est calculé sur les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
+
 +++
 
 * **[!UICONTROL 10 liens les plus consultés]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien.
@@ -188,7 +194,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 ## Activités utilisateurs {#user-activities-email}
 
-* **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et clics sous la forme d&#39;un graphique.
+* **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et clics sous la forme d&#39;un graphique. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour ou heure ou 30 minutes.
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 ## Statistiques de tracking {#tracking-statistics}
 
-* **[!UICONTROL Statistiques de suivi]** Le graphique fournit des statistiques sur les ouvertures et les clics.
+* **[!UICONTROL Statistiques de suivi]** Le graphique fournit des statistiques sur les ouvertures et les clics. Vous avez la possibilité de sélectionner la période spécifique pour les données de ciblage.
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -217,10 +223,11 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 ## Répartition des ouvertures {#breakdown-opens}
 
 Ce rapport affiche la répartition des ouvertures par système d&#39;exploitation, par appareil, et par navigateur, sur la période sélectionnée. Pour chaque catégorie, deux graphiques sont utilisés. Le premier affiche les statistiques d&#39;ouvertures sur ordinateur et mobile. Le second affiche uniquement les statistiques d&#39;ouvertures sur mobiles.
+Vous avez la possibilité de passer d’ **[!UICONTROL Correctif et mobile]** pour le ciblage exclusif **[!UICONTROL Mobile uniquement]** pour un ciblage plus précis.
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## Hotclicks
+## Hotclicks {#hotclicks}
 
 Ce rapport présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. Les liens situés dans les blocs de personnalisation, le lien de désinscription, le lien vers la page miroir et les liens des offres sont comptabilisés dans le total des clics cumulés mais ne sont pas affichés dans le rapport.
 
