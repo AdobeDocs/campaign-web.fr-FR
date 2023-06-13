@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 10%
+source-wordcount: '1753'
+ht-degree: 14%
 
 ---
 
@@ -111,6 +111,8 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 
 * **[!UICONTROL Ventilation des erreurs par type]** et **[!UICONTROL Ventilation des erreurs par domaine]** les tableaux et les graphiques contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 
+  Les erreurs présentées dans ce rapport enclenchent le mécanisme de mise en quarantaine. Pour plus d&#39;information sur la gestion des quarantaines, consultez la section [Gestion des quarantaines](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr).
+
   ![](assets/campaign_report_email_6.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
@@ -183,6 +185,7 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 
    * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
 
+   * **[!UICONTROL Moyenne plateforme]** : Ce taux moyen, affiché sous chaque taux (réactivité, clics distincts, et clics cumulés), est calculé sur les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
 +++
 
 * **[!UICONTROL 10 liens les plus consultés]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien.
