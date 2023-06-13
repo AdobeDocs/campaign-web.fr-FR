@@ -4,9 +4,9 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 89%
 
 ---
@@ -56,4 +56,4 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
 1. Cliquez sur **Enregistrer**.
 
-Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne reçoit pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. Reportez-vous à la [section](control-group.md).
+Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne reçoit pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. En savoir plus dans [cette section](control-group.md).
