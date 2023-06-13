@@ -3,7 +3,7 @@ audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 8%
@@ -19,11 +19,11 @@ Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le bout
 
 Dans la liste des campagnes, deux onglets sont disponibles :
 
-![Liste des campagnes](assets/campaign-list.png)
-
 * Le **Parcourir** répertorie toutes les campagnes existantes. Vous pouvez cliquer sur une campagne pour ouvrir son tableau de bord ou créer une nouvelle campagne en cliquant sur le bouton **Créer une campagne** bouton . Consultez cette [section](create-campaigns.md#create-campaigns).
 
 * Le **Modèles** répertorie tous les modèles d’opération disponibles. Les modèles d&#39;opération sont préconfigurés afin de pouvoir être réutilisés lors de la création de campagnes. Ils sont créés à partir de la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr)
+
+![Liste des campagnes](assets/campaign-list.png)
 
 Chaque campagne de la liste affiche des informations sur son état actuel, sa date de création, la dernière fois où elle a été modifiée, etc.
 
@@ -43,9 +43,9 @@ L&#39;état et le planning de l&#39;opération sont affichés en haut de l&#39;�
 
 Deux onglets sont disponibles :
 
-* Le **Workflows** répertorie tous les workflows liés à l&#39;opération. Cet onglet permet également de créer un nouveau workflow dans l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
+* Le **Workflows** répertorie tous les workflows liés à l&#39;opération. Cet onglet permet également de créer un nouveau workflow dans l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns).
 
-* Le **Diffusions** répertorie toutes les diffusions liées à l&#39;opération. Vous pouvez également créer une diffusion au sein de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
+* Le **Diffusions** répertorie toutes les diffusions liées à l&#39;opération. Vous pouvez également créer une diffusion au sein de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns).
 
 ## Duplication et suppression d’une campagne
 
