@@ -4,35 +4,31 @@ title: Coder votre propre contenu d’e-mail
 description: Découvrez comment coder votre propre contenu d’e-mail.
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 98%
+source-wordcount: '109'
+ht-degree: 60%
 
 ---
 
 # Coder votre propre contenu d’e-mail {#code-content}
 
-Utilisez le mode **[!UICONTROL Coder le vôtre]** pour importer du code HTML brut et/ou coder le contenu de l’e-mail. Cette méthode requiert des compétences en code HTML.
+Utilisez le mode **[!UICONTROL Coder le vôtre]** pour importer du code HTML brut et/ou coder le contenu de l’e-mail.
 
-1. Sur la page d’accueil du Concepteur d’e-mail, sélectionnez **[!UICONTROL Coder le vôtre]**.
+>[!CAUTION]
+>
+>Cette méthode requiert des compétences en code HTML.
+
+1. Sur le [Concepteur d&#39;email](get-started-email-designer.md) page d’accueil, sélectionnez **[!UICONTROL Codez vos propres]**.
 
    ![](assets/code-your-own.png)
 
-1. Entrez ou collez votre code HTML brut.
+1. Entrez ou collez votre code de HTML brut dans la zone de travail principale.
 
-1. Dans le volet de gauche, vous pouvez utiliser les fonctionnalités de personnalisation.
+1. Dans le volet de gauche, vous pouvez utiliser les fonctionnalités de personnalisation. [En savoir plus](../personalization/gs-personalization.md)
 
-1. Pour effacer le contenu de votre e-mail et en recréer un à partir d’une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu Options.
+   ![](assets/code-editor-personalization.png)
 
-   ![](assets/code-editor-change-design.png)
+1. Cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la conception et la personnalisation du message à l’aide de profils de test. [En savoir plus](../preview-test/preview-test.md)
 
-   >[!NOTE]
-   >
-   >Cette action ouvre le modèle sélectionné dans le Concepteur d’e-mail. À partir de là, vous pouvez soit terminer la conception de votre e-mail, soit revenir à l’éditeur de code à l’aide de l’option **[!UICONTROL Basculer vers l’éditeur de code]**.
-
-1. Cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la conception et la personnalisation du message à l’aide de profils de test.
-
-1. Une fois que votre code est prêt, cliquez sur **[!UICONTROL Enregistrer]**, puis revenez à l’écran de création du message pour le finaliser.
-
-   ![](assets/code-editor-save.png)
+1. Une fois que votre code est prêt, cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir à l&#39;écran de création du message et finaliser votre message.
