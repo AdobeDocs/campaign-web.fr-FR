@@ -4,10 +4,10 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 34%
+source-wordcount: '229'
+ht-degree: 27%
 
 ---
 
@@ -24,36 +24,27 @@ ht-degree: 34%
 >title="Propriétés de la campagne"
 >abstract="Définissez les paramètres et les métadonnées de votre campagne."
 
+Les campagnes peuvent inclure des workflows et des diffusions autonomes.
+
 Pour créer une opération, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Campagnes]** , puis cliquez sur le bouton **[!UICONTROL Créer une campagne]** bouton .
 1. Sélectionnez la **Modèle** pour utiliser et fournir un libellé pour l&#39;opération. Les modèles de campagne sont préconfigurés afin de pouvoir être réutilisés pour créer de nouvelles campagnes. Ils sont créés à partir de la console cliente.
    [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr).
-1. Si nécessaire, vous pouvez modifier la variable **Options supplémentaires**. Consultez cette [section](#campaign-options).
+1. Si nécessaire, vous pouvez modifier les éléments suivants : **Options supplémentaires**: nom interne, dossier, personne désignée, description et nature.
 1. Définissez la variable **Planification** de votre campagne. La campagne démarre lorsque la date de début est atteinte. Les dates de début et de fin sont affichées dans la liste des campagnes et peuvent être utilisées comme filtre. Consultez cette [section](gs-campaigns.md#access-campaigns).
 
    ![Définir les propriétés de votre campagne](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >Vous pouvez également accéder aux propriétés de la campagne à partir de l’icône **Configurer les paramètres de campagne** en regard du libellé de la campagne. Consultez cette [section](gs-campaigns.md#campaign-dashboard)
+   >Vous pouvez toujours modifier ces propriétés ultérieurement, à partir de la **Configuration des paramètres de campagne** en regard du libellé de l&#39;opération. Consultez cette [section](gs-campaigns.md#campaign-dashboard)
 
 1. Cliquez sur **Créer**.
-1. Ajoutez un workflow ou une diffusion autonome à votre campagne.
+1. Ajoutez des workflows et des diffusions à votre campagne.
+
    * Dans la **Workflows** , cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. En savoir plus sur la façon de procéder [créer un workflow](../workflows/create-workflow.md)
    * Dans la **Diffusions** , cliquez sur **Créer une diffusion**. [En savoir plus](../msg/gs-messages.md)
-
-## Options additionnelles {#campaign-options}
-
-Les propriétés de la campagne s’affichent lors de la création d’une campagne.
-
-Sous **Options supplémentaires**, vous pouvez configurer les paramètres suivants :
-
-* Nom interne:
-* Dossier : sélectionnez le dossier dans lequel la campagne sera stockée.
-* Affecté à:
-* Description:
-* Nature : spécifier la nature de la campagne à des fins de classification ;
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

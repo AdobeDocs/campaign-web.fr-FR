@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 15%
+source-wordcount: '543'
+ht-degree: 8%
 
 ---
 
@@ -19,10 +19,18 @@ ht-degree: 15%
 >title="Concevoir et envoyer des campagnes cross-canal"
 >abstract="Les fonctionnalités d’Adobe Campaign vous aident à gérer des données client centralisées, à concevoir des communications et des campagnes client et à créer des expériences personnalisées sur différents canaux : Courriel, Push et SMS."
 
-Utilisez Adobe Campaign pour créer des campagnes cross-canal. Grâce à ses fonctionnalités d’orchestration des campagnes marketing, vous pouvez gérer et centraliser les données client, concevoir des communications client et des campagnes et créer des expériences personnalisées sur différents canaux. Dans cette version, les canaux email, push et SMS sont disponibles.
+Adobe Campaign vous permet d’orchestrer facilement vos initiatives marketing ciblées à l’aide de la fonctionnalité intégrée de gestion de campagne. La possibilité de définir un planning vous permet de planifier la durée et le timing de vos campagnes en fonction des objectifs stratégiques et d’optimiser l’engagement de l’audience.
 
-Concevez et exécutez des campagnes par e-mail à volume élevé pour diffuser des messages personnalisés, pour toutes les plates-formes et toutes les tailles d’écran.
-Mesurez l&#39;efficacité de vos diffusions à l&#39;aide de rapports détaillés, notamment le nombre d&#39;ouvertures, de clics, de transferts, etc. Grâce aux fonctionnalités de segmentation d’Adobe Campaign, vous pouvez exécuter des requêtes sur une base de données volumineuse et définir facilement des segments de marketing dynamique qui ciblent parfaitement vos campagnes.
+En ajoutant plusieurs workflows et diffusions spécifiques à l&#39;opération, vous pouvez créer des expériences personnalisées sur différents canaux, en vous assurant que chaque point de contact correspond à l&#39;audience prévue.
+
+Les campagnes offrent des mesures de création de rapports dédiées pour obtenir des informations complètes sur les performances de l’ensemble de votre campagne, ce qui vous permet d’évaluer son efficacité, d’identifier les tendances et de prendre des décisions basées sur les données afin d’optimiser les efforts futurs.
+
+<!--
+Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
+
+Design and execute high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
+Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns.
+-->
 
 <!--
 Get Started with campaigns
@@ -39,13 +47,13 @@ Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le bout
 
 * Le **Modèles** répertorie tous les modèles d’opération disponibles. Les modèles de campagne sont préconfigurés afin de pouvoir être réutilisés pour créer de nouvelles campagnes. Ils sont créés à partir de la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr).
 
+Chaque campagne de la liste affiche des informations sur son état actuel, sa date de création, la dernière fois où elle a été modifiée, etc.
+
 Vous pouvez personnaliser les colonnes affichées en cliquant sur le **Configuration d’une colonne pour une disposition personnalisée** située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste. En outre, une barre de recherche et des filtres sont disponibles pour faciliter la recherche dans la liste. [En savoir plus](../get-started/user-interface.md#list-screens)
 
 Vous pouvez, par exemple, filtrer selon le calendrier de votre campagne. Ouvrez le panneau Filtres et utilisez le **Start - End Date** section :
 
 ![Liste des campagnes](assets/campaign-filter-on-dates.png)
-
-Chaque campagne de la liste affiche des informations sur son état actuel, sa date de création, la dernière fois où elle a été modifiée, etc.
 
 ## Le tableau de bord de l&#39;opération{#campaign-dashboard}
 
@@ -58,15 +66,18 @@ Le **Configuration des paramètres de campagne** vous permet de modifier les pro
 
 ## Logs de tracking et de tracking{#campaign-monitoring}
 
-La surveillance des campagnes est une étape essentielle pour analyser vos campagnes. Elles sont accessibles à partir du **Journaux** bouton .
+La surveillance des campagnes est une étape essentielle pour analyser vos campagnes. Ouvrez votre campagne, puis cliquez sur le bouton **Journaux** bouton .
 
-Vous pouvez également afficher les rapports dédiés en cliquant sur le **Rapports** bouton . Consultez cette [section](../reporting/campaign-reports.md)
+Vous pouvez également afficher les rapports dédiés en cliquant sur le **Rapports** bouton . Consultez cette [section](../reporting/campaign-reports.md).
 
 ## Dupliquer et supprimer
 
-Pour dupliquer ou supprimer une campagne, cliquez sur le bouton représentant des points de suspension puis sélectionnez **Dupliquer** ou **Supprimer**. Vous pouvez également dupliquer ou supprimer un workflow ou une diffusion depuis le tableau de bord d&#39;une opération.
+Vous pouvez dupliquer ou supprimer une campagne :
+
+* dans la liste des campagnes, cliquez sur le bouton représentant des points de suspension puis sélectionnez **Dupliquer** ou **Supprimer**.
+* dans la campagne elle-même, cliquez sur le bouton **Plus** bouton puis sélectionner **Dupliquer** ou **Supprimer**.
 
 >[!NOTE]
 >
->Pour supprimer une diffusion qui se trouve dans un workflow, vous devez la supprimer du workflow.
+>Le **Diffusion** affiche toutes les diffusions liées à l&#39;opération, mais les diffusions créées dans un workflow ne peuvent pas y être supprimées. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow.
 
