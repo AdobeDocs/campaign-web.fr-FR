@@ -4,7 +4,7 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 9%
@@ -49,13 +49,13 @@ Deux onglets sont disponibles :
 
 * Le **Parcourir** répertorie toutes les campagnes existantes. Vous pouvez cliquer sur une campagne pour ouvrir son tableau de bord ou créer une nouvelle campagne en cliquant sur le bouton **Créer une campagne** bouton . Consultez cette [section](create-campaigns.md#create-campaigns).
 
-* Le **Modèles** répertorie tous les modèles d’opération disponibles. Les modèles de campagne sont préconfigurés afin de pouvoir être réutilisés pour créer de nouvelles campagnes. Ils sont créés à partir de la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr)
+* Le **Modèles** répertorie tous les modèles d’opération disponibles. Les modèles d&#39;opération sont préconfigurés afin de pouvoir être réutilisés lors de la création de campagnes. Ils sont créés à partir de la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr)
 
 Chaque campagne de la liste affiche des informations sur son état actuel, sa date de création, la dernière fois où elle a été modifiée, etc.
 
 Vous pouvez personnaliser les colonnes affichées en cliquant sur le **Configuration d’une colonne pour une disposition personnalisée** située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste. En outre, une barre de recherche et des filtres sont disponibles pour faciliter la recherche dans la liste. [En savoir plus](../get-started/user-interface.md#list-screens)
 
-Vous pouvez, par exemple, filtrer selon le calendrier de votre campagne. Ouvrez le panneau Filtres et utilisez le **Start - End Date** section :
+Vous pouvez, par exemple, filtrer selon le calendrier de votre campagne. Ouvrez le panneau de filtrage et utilisez le **Start - End Date** section :
 
 ![Filtre de campagne](assets/campaign-filter-on-dates.png)
 
@@ -70,5 +70,6 @@ L&#39;état et le planning de l&#39;opération sont affichés en haut de l&#39;�
 Deux onglets sont disponibles :
 
 * Le **Workflows** répertorie tous les workflows liés à l&#39;opération. Cet onglet permet également de créer un nouveau workflow dans l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
+
 * Le **Diffusions** répertorie toutes les diffusions liées à l&#39;opération. Vous pouvez également créer une diffusion au sein de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
 

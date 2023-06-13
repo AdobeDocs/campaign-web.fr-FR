@@ -4,7 +4,7 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 18%
@@ -41,12 +41,12 @@ Pour créer une opération, procédez comme suit :
    >Vous pouvez toujours modifier ces propriétés ultérieurement, à partir de la **Configuration des paramètres de campagne** en regard du libellé de l&#39;opération. Consultez cette [section](gs-campaigns.md#campaign-dashboard)
 
 1. Cliquez sur **Créer**.
-1. Ajoutez des workflows et des diffusions à votre campagne.
+1. Ajoutez des workflows et des diffusions à votre campagne :
 
    * Dans la **Workflows** , cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. En savoir plus sur la façon de procéder [créer un workflow](../workflows/create-workflow.md)
    * Dans la **Diffusions** , cliquez sur **Créer une diffusion**. [En savoir plus](../msg/gs-messages.md)
 
-1. Utilisez la variable **Journaux** et **Reporting** pour analyser votre campagne.
+1. Utilisez la variable **Journaux** et **Reporting** pour analyser les performances de votre campagne.
 
 ## Logs de tracking et de tracking{#campaign-monitoring}
 
@@ -63,7 +63,7 @@ Vous pouvez dupliquer ou supprimer une campagne :
 
 >[!NOTE]
 >
->Le **Diffusion** affiche toutes les diffusions liées à l&#39;opération. Cependant, les diffusions créées dans un workflow ne peuvent pas être supprimées de là. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow.
+>Le **Diffusions** affiche toutes les diffusions liées à l&#39;opération. Cependant, les diffusions créées dans un workflow ne peuvent pas être supprimées de là. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow.
 
 
 <!--
