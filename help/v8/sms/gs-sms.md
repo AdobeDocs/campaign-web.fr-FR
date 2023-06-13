@@ -4,10 +4,10 @@ title: Prise en main des diffusions SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 80%
+ht-degree: 45%
 
 ---
 
@@ -17,11 +17,11 @@ Les diffusions par SMS offrent un moyen pratique et efficace d’envoyer des SMS
 
 Le canal SMS propose trois méthodes pour créer des diffusions par SMS :
 
-* Workflows : ajoutez une activité SMS, définissez des paramètres de base et composez le contenu de votre SMS dans une séquence d’automatisation plus large.
+* **[!UICONTROL Workflows]**: Ajoutez une activité SMS, définissez des paramètres de base et composez votre contenu SMS dans une séquence d&#39;automatisation plus large.
 
-* Campagnes : intégrez les diffusions par SMS dans des campagnes dédiées, en définissant des paramètres tels que l’audience cible et le planning de diffusion.
+* **[!UICONTROL Campagnes]**: Intégrez les diffusions SMS dans des campagnes dédiées, en définissant des paramètres tels que l&#39;audience cible et le planning de diffusion.
 
-* Diffusions autonomes : créez des diffusions SMS individuelles pour une communication rapide et directe avec vos clientes et clients, sans avoir besoin de workflows ni de campagnes.
+* **Diffusions autonomes**: Créez des diffusions SMS individuelles pour une communication rapide et directe avec vos clients, sans avoir besoin de workflows ni de campagnes.
 
 ![](../assets/do-not-localize/book.png) Découvrez comment configurer le canal SMS dans cette [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
 

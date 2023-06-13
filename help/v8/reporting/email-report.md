@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de diffusion par email
 description: Découvrez comment accéder aux rapports de diffusion email et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 15%
@@ -16,6 +16,8 @@ ht-degree: 15%
 
 * **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
    * **[!UICONTROL Audience initiale]**: Nombre total de destinataires ciblés.
@@ -26,6 +28,8 @@ ht-degree: 15%
 +++
 
 * **[!UICONTROL Statistiques de diffusion]** le tableau décrit le succès de votre diffusion.
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -41,6 +45,8 @@ ht-degree: 15%
 
 * **[!UICONTROL Causes d&#39;exclusion]** le graphique et le tableau affichent la répartition, par règle, des messages rejetés lors de l&#39;analyse.
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## Débit des diffusions {#delivery-throughtput}
 
 Ce rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée. La mesure Principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
@@ -48,6 +54,8 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 ## Statistiques de diffusion {#broadcast-statistics}
 
 * **[!UICONTROL Statistiques de diffusion]** contient les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
@@ -84,6 +92,8 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 * **[!UICONTROL Statistiques de diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés.
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
    * **[!UICONTROL Succès]**: Nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
@@ -100,6 +110,8 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 +++
 
 * **[!UICONTROL Taux d&#39;ouverture et de clic]** affiche des données relatives à vos destinataires.
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
@@ -118,6 +130,8 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 * **[!UICONTROL URL et flux de clics]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion.
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
    * **[!UICONTROL Réactivité]**: Ratio du nombre de destinataires ciblés ayant cliqué dans une diffusion, par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert une diffusion.
@@ -130,6 +144,8 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 * **[!UICONTROL 10 liens les plus consultés]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien.
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
    * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
@@ -140,9 +156,13 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 * **[!UICONTROL Répartition des clics au fil du temps]** Le graphique contient les données disponibles sur le comportement des destinataires par lien.
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## Activités utilisateurs {#user-activities-email}
 
 * **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et clics sous la forme d&#39;un graphique.
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
@@ -156,6 +176,8 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 * **[!UICONTROL Statistiques de suivi]** Le graphique fournit des statistiques sur les ouvertures et les clics.
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
    * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
@@ -167,6 +189,8 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 ## Répartition des ouvertures {#breakdown-opens}
 
 Ce rapport affiche la répartition des ouvertures par système d&#39;exploitation, par appareil, et par navigateur, sur la période sélectionnée. Pour chaque catégorie, deux graphiques sont utilisés. Le premier affiche les statistiques d&#39;ouvertures sur ordinateur et mobile. Le second affiche uniquement les statistiques d&#39;ouvertures sur mobiles.
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks
 

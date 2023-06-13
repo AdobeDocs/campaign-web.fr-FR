@@ -3,14 +3,26 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1562'
 ht-degree: 6%
 
 ---
 
 # Rapports de campagne {#campaign-reports}
+
+Le rapport Campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne.
+
+La page du rapport Campagne s&#39;affiche avec les onglets suivants :
+
+* [Canal email](#email-channel)
+* [Canal SMS](#sms-channel)
+* [Canal de notification push](#push-channel)
+
+Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord de votre campagne.
+
+![](assets/campaign_report_email_13.png)
 
 ## Canal e-mail {#email-channel}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de diffusion push
 description: Découvrez comment accéder aux rapports de diffusion push et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 12%
@@ -21,6 +21,8 @@ ht-degree: 12%
 
 * **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec vos messages push.
 
+  ![](assets/reporting_push_3.png)
+
   +++En savoir plus sur les mesures des rapports de diffusion push.
 
    * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
@@ -33,9 +35,9 @@ ht-degree: 12%
 
 +++
 
-  ![](assets/reporting_push_3.png)
-
 * **Population ciblée** les données d’affichage graphiques et tabulaires relatives à votre audience :
+
+  ![](assets/reporting_push_4.png)
 
   +++En savoir plus sur les mesures des rapports de diffusion push.
 
@@ -45,9 +47,11 @@ ht-degree: 12%
 
 +++
 
-  ![](assets/reporting_push_4.png)
+
 
 * **Statistiques globales** présente des données pour les notifications push envoyées, notamment :
+
+  ![](assets/reporting_push_5.png)
 
   +++En savoir plus sur les mesures des rapports de diffusion push.
 
@@ -58,8 +62,6 @@ ht-degree: 12%
    * **[!UICONTROL Nouvelle mise en quarantaine]**: Nombre de profils qui ont été exclus et ajoutés à la quarantaine.
 
 +++
-
-  ![](assets/reporting_push_5.png)
 
 * **[!UICONTROL Exclusions]** le graphique et le tableau affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message.
 

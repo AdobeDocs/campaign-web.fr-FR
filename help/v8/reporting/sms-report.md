@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -21,6 +21,8 @@ ht-degree: 6%
 
 * **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec vos SMS.
 
+  ![](assets/reporting_sms_3.png)
+
   +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
    * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
@@ -32,9 +34,9 @@ ht-degree: 6%
    * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
 +++
 
-  ![](assets/reporting_sms_3.png)
-
 * **Population ciblée** les graphiques et les tableaux affichent les données relatives à votre audience.
+
+  ![](assets/reporting_sms_4.png)
 
   +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
@@ -43,9 +45,10 @@ ht-degree: 6%
    * **[!UICONTROL Exclusions]**: Nombre de profils qui ont été exclus de l’analyse.
 +++
 
-  ![](assets/reporting_sms_4.png)
 
 * **Statistiques globales** présente les données des SMS envoyés, notamment :
+
+  ![](assets/reporting_sms_5.png)
 
   +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
@@ -55,8 +58,6 @@ ht-degree: 6%
 
    * **[!UICONTROL Nouvelle mise en quarantaine]**: Nombre de profils qui ont été exclus et ajoutés à la quarantaine.
 +++
-
-  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL Exclusions]** le graphique et le tableau affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message.
 
