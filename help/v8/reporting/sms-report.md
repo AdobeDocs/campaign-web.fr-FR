@@ -3,9 +3,9 @@ audience: end-user
 title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '303'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 6%
 >id="acw_sms_report_overview"
 >title="Synthèse du rapport SMS"
 >abstract="Découvrez les mesures de reporting pour votre diffusion par SMS."
+
+Le **Rapport de diffusion SMS** offre une vue d’ensemble complète du canal SMS, fournissant des informations détaillées et des données spécifiques. Il fournit des informations complètes sur la performance, l’efficacité et les résultats de chaque diffusion.
 
 ## Synthèse des diffusions {#delivery-summary}
 
