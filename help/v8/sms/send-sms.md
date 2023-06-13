@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer une diffusion SMS
 description: Découvrez comment envoyer des SMS avec Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 24%
+source-wordcount: '363'
+ht-degree: 17%
 
 ---
 
@@ -31,6 +31,16 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
    ![](assets/sms_send_3.png)
 
 Vous pouvez maintenant vérifier et envoyer votre SMS à votre audience.
+
+## Tester votre diffusion SMS {#test-send-sms}
+
+Avec **Adobe Campaign**, vous avez la possibilité de tester un message avant de l’envoyer à l’audience principale, ce qui est une étape essentielle pour valider votre campagne par e-mail et identifier les problèmes potentiels.
+
+L’envoi de SMS de test est une étape importante pour assurer la qualité et l’efficacité de votre diffusion. Les destinataires du test peuvent consulter divers éléments tels que des liens, des liens d&#39;opt-out et des images, et identifier les erreurs de rendu, de contenu, de paramètres de personnalisation et de configuration des SMS. Ce processus vous aide à évaluer et à optimiser minutieusement votre SMS avant d’atteindre votre audience principale.
+
+![](../assets/do-not-localize/book.png) Découvrez comment envoyer des SMS de test dans cette [page](../preview-test/proofs.md).
+
+![](assets/sms_send_6.png)
 
 ## Envoyer votre diffusion SMS {#preview-send-sms}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de diffusion push
 description: Découvrez comment accéder aux rapports de diffusion push et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 12%
@@ -46,8 +46,6 @@ ht-degree: 12%
    * **[!UICONTROL Exclusions]**: Nombre de profils qui ont été exclus de l’analyse.
 
 +++
-
-
 
 * **Statistiques globales** présente des données pour les notifications push envoyées, notamment :
 

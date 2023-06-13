@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 6%
+source-wordcount: '1682'
+ht-degree: 10%
 
 ---
 
@@ -115,11 +115,19 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours, par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Utilisateur inconnu]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse email est invalide.
 
-   * **[!UICONTROL Contribution]**:
+   * **[!UICONTROL Domaine invalide]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse email est erroné ou n&#39;existe plus.
 
-   * **[!UICONTROL Répartition]**:
+   * **[!UICONTROL Boîte pleine]**: Type d’erreur généré après cinq tentatives de diffusion pour indiquer que la boîte de réception du destinataire contient trop de messages.
+
+   * **[!UICONTROL Compte désactivé]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
+
+   * **[!UICONTROL Refusés]**: Type d&#39;erreur générée lorsqu&#39;une adresse est refusée par l&#39;IAP (Fournisseur d&#39;Accès Internet), par exemple suite à l&#39;application d&#39;une règle de sécurité (logiciel anti-spam).
+
+   * **[!UICONTROL Inatteignable]** : Type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
+
+   * **[!UICONTROL Non connecté]**: Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou déconnecté du réseau au moment de l&#39;envoi.
 
 +++
 
@@ -213,6 +221,8 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 
 * **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion SMS.
 
+  ![](assets/campaign_report_sms_1.png)
+
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
    * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
@@ -227,6 +237,8 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 
 * **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
 
+  ![](assets/campaign_report_sms_2.png)
+
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
    * **[!UICONTROL Audience initiale]**: Nombre total de destinataires ciblés.
@@ -238,6 +250,8 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 +++
 
 * **[!UICONTROL Statistiques d&#39;exécution]** le tableau détaille le succès de votre diffusion :
+
+  ![](assets/campaign_report_sms_3.png)
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
@@ -252,6 +266,8 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 +++
 
 * **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion :
+
+  ![](assets/campaign_report_sms_4.png)
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 

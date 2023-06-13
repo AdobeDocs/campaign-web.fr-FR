@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion par email
 description: Découvrez comment accéder aux rapports de diffusion email et les utiliser
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 15%
+source-wordcount: '1256'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 * **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
 
-  ![](assets/reporting_email_1.png){align="center"}
+  ![](assets/reporting_email_1.png){align="left"}
 
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 
 * **[!UICONTROL Statistiques de diffusion]** le tableau décrit le succès de votre diffusion.
 
-  ![](assets/reporting_email_2.png){align="center"}
+  ![](assets/reporting_email_2.png){align="left"}
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -46,6 +46,24 @@ ht-degree: 15%
 * **[!UICONTROL Causes d&#39;exclusion]** le graphique et le tableau affichent la répartition, par règle, des messages rejetés lors de l&#39;analyse.
 
   ![](assets/reporting_email_3.png){align="center"}
+
+  +++En savoir plus sur les mesures des rapports de diffusion Email.
+
+   * **[!UICONTROL Utilisateur inconnu]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse email est invalide.
+
+   * **[!UICONTROL Domaine invalide]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse email est erroné ou n&#39;existe plus.
+
+   * **[!UICONTROL Boîte pleine]**: Type d’erreur généré après cinq tentatives de diffusion pour indiquer que la boîte de réception du destinataire contient trop de messages.
+
+   * **[!UICONTROL Compte désactivé]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
+
+   * **[!UICONTROL Refusés]**: Type d&#39;erreur générée lorsqu&#39;une adresse est refusée par l&#39;IAP (Fournisseur d&#39;Accès Internet), par exemple suite à l&#39;application d&#39;une règle de sécurité (logiciel anti-spam).
+
+   * **[!UICONTROL Inatteignable]** : Type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
+
+   * **[!UICONTROL Non connecté]**: Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou déconnecté du réseau au moment de l&#39;envoi.
+
++++
 
 ## Débit des diffusions {#delivery-throughtput}
 
@@ -78,13 +96,23 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 * **[!UICONTROL Ventilation des erreurs par type]** et **[!UICONTROL Ventilation des erreurs par domaine]** les tableaux et les graphiques contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 
+  ![](assets/campaign_report_email_6.png)
+
   +++En savoir plus sur les mesures des rapports de diffusion Email.
 
-   * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours, par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Utilisateur inconnu]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse email est invalide.
 
-   * **[!UICONTROL Contribution]**:
+   * **[!UICONTROL Domaine invalide]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse email est erroné ou n&#39;existe plus.
 
-   * **[!UICONTROL Répartition]**:
+   * **[!UICONTROL Boîte pleine]**: Type d’erreur généré après cinq tentatives de diffusion pour indiquer que la boîte de réception du destinataire contient trop de messages.
+
+   * **[!UICONTROL Compte désactivé]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
+
+   * **[!UICONTROL Refusés]**: Type d&#39;erreur générée lorsqu&#39;une adresse est refusée par l&#39;IAP (Fournisseur d&#39;Accès Internet), par exemple suite à l&#39;application d&#39;une règle de sécurité (logiciel anti-spam).
+
+   * **[!UICONTROL Inatteignable]** : Type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
+
+   * **[!UICONTROL Non connecté]**: Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou déconnecté du réseau au moment de l&#39;envoi.
 
 +++
 
