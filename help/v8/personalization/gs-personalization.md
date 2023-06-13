@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 ---
 
 
-# Prise en main du contenu dynamique
+# Prise en main du contenu dynamique {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ En tant que marketeur, il est essentiel de cibler les clients véritablement int
 
 Les fonctionnalités de contenu dynamique web d’Adobe Campaign vous permettent de personnaliser votre contenu en fonction des informations que vous avez collectées sur vos destinataires. L’utilisation de contenu dynamique vous permet de vous assurer que vos efforts marketing sont plus pertinents, en évitant les produits ou services indésirables ou inutiles en marketing. Cette approche rend votre contenu plus attrayant et augmente la probabilité qu’il soit lu. De plus, il vous permet de personnaliser votre contenu, donnant aux destinataires l’impression de recevoir des informations d’une personne plutôt que d’une machine.
 
-## Comment rendre votre contenu dynamique ?
+## Comment rendre votre contenu dynamique ? {#make-content-dyn}
 
 Vous pouvez rendre le contenu de votre message dynamique en insérant des éléments JavaScript dans l&#39;éditeur d&#39;expression Web de Campaign. Lors de l&#39;envoi d&#39;un message, ces expressions sont interprétées par Adobe Campaign afin de diffuser le contenu correct à chacun de vos destinataires :
 
@@ -65,7 +65,7 @@ Voici quelques exemples d’accès à l’éditeur d’expression en fonction du
 >
 >Outre l’éditeur d’expression, vous pouvez également utiliser un créateur de contenu conditionnel dédié lors de la conception d’un email. [Découvrez comment créer du contenu conditionnel dans les emails](conditions.md)
 
-## Explorons plus en détail
+## Explorons plus en détail {#dive-deeper}
 
 Maintenant que vous savez comment rendre votre contenu dynamique, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser cette fonctionnalité.
 
