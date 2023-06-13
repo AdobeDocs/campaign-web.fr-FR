@@ -2,11 +2,11 @@
 audience: end-user
 title: Rapports de diffusion push
 description: Découvrez comment accéder aux rapports de diffusion push et les utiliser
-badge: label="Alpha" type="Positive"
-source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 11%
+source-wordcount: '298'
+ht-degree: 10%
 
 ---
 

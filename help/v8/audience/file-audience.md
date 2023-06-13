@@ -2,11 +2,11 @@
 audience: end-user
 title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 64%
 
 ---
@@ -35,7 +35,6 @@ Vous pouvez charger des contacts à partir d’un fichier externe. Les profils n
 >* Cette fonctionnalité n’est disponible que pour **diffusions email autonomes**. Il ne peut pas être utilisé dans les workflows, ni avec les diffusions SMS ou push.
 >
 >* Vous ne pouvez pas utiliser les [populations témoins](control-group.md) lors du chargement de la population cible à partir d’un fichier externe.
-
 
 
 Pour cibler des profils à partir d&#39;un fichier local directement depuis l&#39;interface de messagerie, procédez comme suit :

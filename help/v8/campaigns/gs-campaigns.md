@@ -2,11 +2,11 @@
 audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '151'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,9 @@ En ajoutant plusieurs workflows et diffusions spécifiques à l&#39;opération, 
 
 Les campagnes offrent des mesures de création de rapports dédiées pour obtenir des informations complètes sur les performances de l’ensemble de votre campagne, ce qui vous permet d’évaluer son efficacité, d’identifier les tendances et de prendre des décisions basées sur les données afin d’optimiser les efforts futurs.
 
+![Flux de campagne](assets/campaign-flow.png)
+
+
 <!--
 Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
 
@@ -38,38 +41,3 @@ Adobe Campaign offers a set of solutions that help you personalize and deliver c
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 -->
-
-## Accès et gestion de vos campagnes{#access-campaigns}
-
-Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le bouton **[!UICONTROL Campagnes]** .
-
-![Liste des campagnes](assets/campaign-list.png)
-
-Deux onglets sont disponibles :
-
-* Le **Parcourir** répertorie toutes les campagnes existantes. Vous pouvez cliquer sur une campagne pour ouvrir son tableau de bord ou créer une nouvelle campagne en cliquant sur le bouton **Créer une campagne** bouton . Consultez cette [section](create-campaigns.md#create-campaigns).
-
-* Le **Modèles** répertorie tous les modèles d’opération disponibles. Les modèles d&#39;opération sont préconfigurés afin de pouvoir être réutilisés lors de la création de campagnes. Ils sont créés à partir de la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr)
-
-Chaque campagne de la liste affiche des informations sur son état actuel, sa date de création, la dernière fois où elle a été modifiée, etc.
-
-Vous pouvez personnaliser les colonnes affichées en cliquant sur le **Configuration d’une colonne pour une disposition personnalisée** située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste. En outre, une barre de recherche et des filtres sont disponibles pour faciliter la recherche dans la liste. [En savoir plus](../get-started/user-interface.md#list-screens)
-
-Vous pouvez, par exemple, filtrer selon le calendrier de votre campagne. Ouvrez le panneau de filtrage et utilisez le **Start - End Date** section :
-
-![Filtre de campagne](assets/campaign-filter-on-dates.png)
-
-## Le tableau de bord de l&#39;opération{#campaign-dashboard}
-
-Dans le **Parcourir** dans la liste des opérations, cliquez sur une opération pour afficher son tableau de bord.
-
-![Tableau de bord des campagnes](assets/campaign-dashboard.png)
-
-L&#39;état et le planning de l&#39;opération sont affichés en haut de l&#39;écran. Vous pouvez utiliser la variable **Configuration des paramètres de campagne** pour modifier les propriétés de l&#39;opération qui ont été définies lors de la création de l&#39;opération. Trois boutons sont disponibles pour afficher les logs, créer des rapports, dupliquer ou supprimer l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
-
-Deux onglets sont disponibles :
-
-* Le **Workflows** répertorie tous les workflows liés à l&#39;opération. Cet onglet permet également de créer un nouveau workflow dans l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
-
-* Le **Diffusions** répertorie toutes les diffusions liées à l&#39;opération. Vous pouvez également créer une diffusion au sein de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
-

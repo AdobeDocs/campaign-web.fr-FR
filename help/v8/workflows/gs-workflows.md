@@ -2,12 +2,12 @@
 audience: end-user
 title: Prise en main des workflows
 description: Découvrez comment commencer avec les workflows.
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 79%
+source-wordcount: '388'
+ht-degree: 81%
 
 ---
 
@@ -48,7 +48,7 @@ Maintenant que vous connaissez le b.a.-ba des workflows et leur utilisation dans
 <img alt="Accès et gestion des workflows" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="access-monitor.md"><strong>Accès et gestion des workflows</strong></a>
+<a href="access-monitor.md"><strong>Accéder aux workflows et les gérer</strong></a>
 </div>
 <p>
 </td>

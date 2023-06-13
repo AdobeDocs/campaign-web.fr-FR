@@ -2,17 +2,17 @@
 audience: end-user
 title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 18%
+source-wordcount: '290'
+ht-degree: 22%
 
 ---
 
 
-# Créer des campagnes cross-canal {#create-campaigns}
+# Créer votre première campagne {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 18%
 >title="Propriétés de la campagne"
 >abstract="Définissez les paramètres et les métadonnées de votre campagne."
 
-Les campagnes peuvent inclure des workflows et des diffusions autonomes.
+Les campagnes peuvent inclure des workflows et des diffusions autonomes. Propriétés, planning, travail, deliv plus rien a faire
+
+## Créer l&#39;opération
 
 Pour créer une opération, procédez comme suit :
 
@@ -32,7 +34,7 @@ Pour créer une opération, procédez comme suit :
 1. Sélectionnez la **Modèle** pour utiliser et fournir un libellé pour l&#39;opération. Les modèles de campagne sont préconfigurés afin de pouvoir être réutilisés pour créer de nouvelles campagnes. Ils sont créés à partir de la console cliente.
    [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr).
 1. Si nécessaire, vous pouvez modifier les éléments suivants : **Options supplémentaires**: nom interne, dossier, personne désignée, description et nature.
-1. Définissez la variable **Planification** de votre campagne. La campagne démarre lorsque la date de début est atteinte. Les dates de début et de fin sont affichées dans la liste des campagnes et peuvent être utilisées comme filtre. Consultez cette [section](gs-campaigns.md#access-campaigns).
+1. Définissez la variable **Planification** de votre campagne. La campagne démarre lorsque la date de début est atteinte. Les dates de début et de fin sont affichées dans la liste des campagnes et peuvent être utilisées comme filtre. Consultez cette [section](manage-campaigns.md#access-campaigns).
 
    ![Définir les propriétés de votre campagne](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ Pour créer une opération, procédez comme suit :
 
 1. Utilisez la variable **Journaux** et **Reporting** pour analyser les performances de votre campagne.
 
-## Logs de tracking et de tracking{#campaign-monitoring}
+## Surveiller et suivre votre campagne{#campaign-monitoring}
 
 La surveillance des campagnes est une étape essentielle pour analyser vos campagnes. Ouvrez votre campagne, puis cliquez sur le bouton **Journaux** bouton .
 
 Vous pouvez également afficher les rapports dédiés en cliquant sur le **Rapports** bouton . Consultez cette [section](../reporting/campaign-reports.md).
 
-## Duplication et suppression d’une campagne
-
-Vous pouvez dupliquer ou supprimer une campagne :
-
-* dans la liste des campagnes, cliquez sur le bouton représentant des points de suspension puis sélectionnez **Dupliquer** ou **Supprimer**.
-* dans la campagne elle-même, cliquez sur le bouton **Plus** bouton puis sélectionner **Dupliquer** ou **Supprimer**.
-
->[!NOTE]
->
->Le **Diffusions** affiche toutes les diffusions liées à l&#39;opération. Cependant, les diffusions créées dans un workflow ne peuvent pas être supprimées de là. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow.
-
+Écran +++WORKF ++
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

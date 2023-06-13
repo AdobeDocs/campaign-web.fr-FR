@@ -2,12 +2,12 @@
 audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 18%
+source-wordcount: '520'
+ht-degree: 17%
 
 ---
 

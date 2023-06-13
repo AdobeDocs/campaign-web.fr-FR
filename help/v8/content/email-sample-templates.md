@@ -2,11 +2,11 @@
 audience: end-user
 product: campaign
 title: Utiliser des modèles d’e-mails
-badge: label="Alpha" type="Positive"
-source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 11%
+source-wordcount: '120'
+ht-degree: 8%
 
 ---
 
