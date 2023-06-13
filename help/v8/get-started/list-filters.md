@@ -3,7 +3,7 @@ audience: end-user
 title: Parcourir, rechercher et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 14%
@@ -21,7 +21,7 @@ Pour supprimer un filtre, cliquez sur le bouton **Effacer tout** bouton .
 
 Les listes sont affichées en colonnes. Vous pouvez également afficher des informations supplémentaires en modifiant la configuration des colonnes. Pour ce faire, cliquez sur le bouton **Configuration d’une colonne pour une disposition personnalisée** dans le coin supérieur droit de la liste.
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 Dans le **Configuration des colonnes** , ajoutez ou supprimez des colonnes et modifiez l’ordre dans lequel elles s’affichent.
 

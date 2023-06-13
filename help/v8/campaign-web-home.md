@@ -4,10 +4,10 @@ description: Centre d’aide de Campaign Web v8
 title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -37,7 +37,7 @@ Commencez à partir d’un modèle ou utilisez Adobe Campaign pour créer un nou
 
 Personnalisez votre contenu en fonction des informations que vous avez collectées sur vos destinataires. L’utilisation de contenu dynamique rend votre contenu plus attrayant et augmente la probabilité qu’il soit lu. Personnalisez vos messages à chaque destinataire spécifique en exploitant les données de profil telles que son prénom, ses centres d’intérêt, son lieu de vie, ses achats, etc. Créez un contenu conditionnel afin d&#39;adapter vos diffusions à chaque destinataire et n&#39;afficher que le contenu correspondant à un client donné en fonction des informations dont vous disposez à son sujet.
 
-**Envoi de diffusions cross-canal**
+**Création de campagnes cross-canal**
 
 Utilisez Adobe Campaign pour créer des campagnes cross-canal. Grâce à ses fonctionnalités d’orchestration des campagnes marketing, vous pouvez gérer et centraliser les données client, concevoir des communications client et des campagnes et créer des expériences personnalisées sur différents canaux. Dans cette version, les canaux email, push et SMS sont disponibles. Mesurez l&#39;efficacité de vos diffusions à l&#39;aide de rapports détaillés, notamment le nombre d&#39;ouvertures, de clics, de transferts, etc.
 
@@ -64,11 +64,11 @@ Maintenant que vous avez une idée de ce que vous pouvez faire sur le Web Adobe 
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="Peu fréquent" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Présentation du Concepteur d'email</strong></a>
+<a href="content/get-started-email-designer.md"><strong>Présentation du Concepteur d'email</strong></a>
 </div>
 <p></td>
 <td>
@@ -85,7 +85,7 @@ Maintenant que vous avez une idée de ce que vous pouvez faire sur le Web Adobe 
 <img alt="Validation" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>Envoi de diffusions cross-canal</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Création de campagnes cross-canal</strong></a>
 </div>
 <p>
 </td>
