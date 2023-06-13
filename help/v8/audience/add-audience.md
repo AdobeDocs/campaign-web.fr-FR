@@ -4,10 +4,10 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
 1. Choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante. Afin de créer une nouvelle audience pour cet e-mail, choisissez **Créer la vôtre**. Reportez-vous à cette [section](segment-builder.md).
 
-   Cet écran affiche toutes les audiences existantes définies dans la console Adobe Campaign ou à partir d’Adobe Experience Platform.
+   Cet écran affiche toutes les audiences existantes définies dans la console cliente Adobe Campaign, pour le dossier actif.
 
    ![](assets/create-audience2.png)
 
