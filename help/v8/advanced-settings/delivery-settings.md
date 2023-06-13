@@ -4,10 +4,10 @@ title: Paramètres de diffusion d’e-mail
 description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -158,7 +158,7 @@ Outre le mode par défaut, les options disponibles sont les suivantes :
 
 * **[!UICONTROL Forcer la génération de la page miroir]** : ce mode permet de générer la page miroir même si aucun lien vers celle-ci n’est inséré dans la diffusion.
 * **[!UICONTROL Ne pas générer de page miroir]** : ce mode permet de ne pas générer de page miroir, même si le lien est présent dans la diffusion.
-* **[!UICONTROL Générer une page miroir accessible depuis l’identifiant du message]** : ce mode permet d’accéder au contenu de la page miroir, dans la fenêtre du log de diffusion de la console cliente, lorsque l’e-mail ne contient pas de lien vers celle-ci.
+* **[!UICONTROL Génère une page miroir accessible à l’aide de l’identifiant du message uniquement]**: lorsque le lien de la page miroir n&#39;est pas présent dans le contenu de l&#39;email, utilisez cette option pour permettre l&#39;accès au contenu de la page miroir, dans la fenêtre du log de diffusion, depuis la console cliente.
 
 
 ### Tracking {#tracking}

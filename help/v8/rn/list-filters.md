@@ -4,10 +4,10 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités accompagnant Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 66%
+ht-degree: 63%
 
 ---
 
@@ -56,7 +56,7 @@ De plus, toutes vos données et tous vos paramètres déjà disponibles dans la 
 
 ## Mises à jour de la terminologie {#terminology-updates}
 
-En tant qu’utilisateur ou utilisatrice de Campaign, notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s’appliquent uniquement à l’IU web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
+En tant qu’utilisateur ou utilisatrice de Campaign, notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s&#39;appliquent uniquement à l&#39;interface utilisateur web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
 
 * Les BAT sont maintenant des **e-mails de test** : pour envoyer un BAT, utilisez le bouton **Tester** dans l’IU de diffusion par e-mail. La cible de la cible des BAT s’appelle désormais **Profils de test**.
 * Les adresses de contrôle sont désormais utilisées comme **Profils de test** : envoyez l’e-mail de test aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données.
