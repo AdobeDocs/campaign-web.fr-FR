@@ -4,10 +4,10 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 27%
+source-wordcount: '356'
+ht-degree: 18%
 
 ---
 
@@ -45,6 +45,25 @@ Pour créer une opération, procédez comme suit :
 
    * Dans la **Workflows** , cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. En savoir plus sur la façon de procéder [créer un workflow](../workflows/create-workflow.md)
    * Dans la **Diffusions** , cliquez sur **Créer une diffusion**. [En savoir plus](../msg/gs-messages.md)
+1. Utilisez la variable **Journaux** et **Reporting** pour analyser votre campagne.
+
+## Logs de tracking et de tracking{#campaign-monitoring}
+
+La surveillance des campagnes est une étape essentielle pour analyser vos campagnes. Ouvrez votre campagne, puis cliquez sur le bouton **Journaux** bouton .
+
+Vous pouvez également afficher les rapports dédiés en cliquant sur le **Rapports** bouton . Consultez cette [section](../reporting/campaign-reports.md).
+
+## Duplication et suppression d’une campagne
+
+Vous pouvez dupliquer ou supprimer une campagne :
+
+* dans la liste des campagnes, cliquez sur le bouton représentant des points de suspension puis sélectionnez **Dupliquer** ou **Supprimer**.
+* dans la campagne elle-même, cliquez sur le bouton **Plus** bouton puis sélectionner **Dupliquer** ou **Supprimer**.
+
+>[!NOTE]
+>
+>Le **Diffusion** affiche toutes les diffusions liées à l&#39;opération, mais les diffusions créées dans un workflow ne peuvent pas y être supprimées. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow.
+
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

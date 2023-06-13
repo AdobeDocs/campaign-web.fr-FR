@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '429'
+ht-degree: 10%
 
 ---
 
@@ -57,27 +57,10 @@ Vous pouvez, par exemple, filtrer selon le calendrier de votre campagne. Ouvrez 
 
 ## Le tableau de bord de l&#39;opération{#campaign-dashboard}
 
-Dans le **Parcourir** , cliquez sur une opération pour afficher son tableau de bord. Deux onglets sont disponibles :
+Dans le **Parcourir** dans la liste des opérations, cliquez sur une opération pour afficher son tableau de bord. Deux onglets sont disponibles :
 
 * Le **Workflows** répertorie tous les workflows liés à l&#39;opération. Cet onglet permet également de créer un nouveau workflow dans l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
-* Le **Diffusions** répertorie toutes les diffusions liées à l&#39;opération. Cet onglet permet également de créer une diffusion au sein de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
+* Le **Diffusions** répertorie toutes les diffusions liées à l&#39;opération. Vous pouvez également créer une diffusion au sein de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
 
 Le **Configuration des paramètres de campagne** vous permet de modifier les propriétés de l&#39;opération qui ont été définies lors de la création de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
-
-## Logs de tracking et de tracking{#campaign-monitoring}
-
-La surveillance des campagnes est une étape essentielle pour analyser vos campagnes. Ouvrez votre campagne, puis cliquez sur le bouton **Journaux** bouton .
-
-Vous pouvez également afficher les rapports dédiés en cliquant sur le **Rapports** bouton . Consultez cette [section](../reporting/campaign-reports.md).
-
-## Dupliquer et supprimer
-
-Vous pouvez dupliquer ou supprimer une campagne :
-
-* dans la liste des campagnes, cliquez sur le bouton représentant des points de suspension puis sélectionnez **Dupliquer** ou **Supprimer**.
-* dans la campagne elle-même, cliquez sur le bouton **Plus** bouton puis sélectionner **Dupliquer** ou **Supprimer**.
-
->[!NOTE]
->
->Le **Diffusion** affiche toutes les diffusions liées à l&#39;opération, mais les diffusions créées dans un workflow ne peuvent pas y être supprimées. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow.
 
