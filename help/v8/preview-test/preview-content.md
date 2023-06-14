@@ -4,9 +4,9 @@ title: Prévisualiser le contenu d'une diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion avec l'interface utilisateur web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -28,9 +28,9 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
 1. Pour sélectionner les profils qui seront utilisés pour prévisualiser votre contenu personnalisé, utilisez :
 
-   * **[!UICONTROL Ajouter un ou plusieurs profils de test]** pour prévisualiser les emails et SMS
+   * **[!UICONTROL Ajouter un ou plusieurs profils de test]** pour prévisualiser les diffusions email et SMS
 
-   * **[!UICONTROL Ajouter des abonnés]** pour prévisualiser des diffusions push
+   * **[!UICONTROL Ajouter des abonnés]** pour prévisualiser des notifications push
 
 1. Vous pouvez combiner des profils de test et des profils pour prévisualiser votre email ou votre SMS.
 
