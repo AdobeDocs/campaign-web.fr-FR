@@ -4,33 +4,35 @@ title: À propos de la prévisualisation et du test des e-mails
 description: Découvrez comment prévisualiser et tester des e-mails.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 36%
+source-wordcount: '185'
+ht-degree: 21%
 
 ---
 
-# À propos de la prévisualisation et du test des e-mails {#about-preview-test}
+# A propos de l&#39;aperçu et du test d&#39;une diffusion {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Prévisualiser et tester vos messages"
 >abstract="Une fois le contenu du message défini, prévisualisez-le et testez-le à l’aide de profils de test."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Prévisualiser le contenu d’un e-mail"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Envoyer des e-mails de test"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Prévisualiser le contenu de la diffusion"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Envoyer des messages de test"
 
-Une fois le contenu de votre email défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester avant d&#39;envoyer le message.
+Une fois le contenu de votre diffusion défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester avant d&#39;envoyer le message.
 
 Il s’agit d’une étape essentielle pour s’assurer qu’elle est exacte, mais également exempte d’erreurs dans les paramètres de contenu et de personnalisation.
 
 Pour ce faire, procédez comme suit : [!DNL Adobe Campaign] vous permet d’effectuer les opérations suivantes :
 
-* [Prévisualiser le contenu et la personnalisation de l’e-mail](preview-content.md)
+* [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
+* [Envoyer des diffusions test](proofs.md) à des destinataires ou des abonnés spécifiques à des fins de test et de validation ;
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clientes et clients de bureau, mobiles et web les plus courants
-* [Envoyer des e-mails de test](proofs.md) à des destinataires spécifiques à des fins de test et de validation
 
-Ces actions peuvent être effectuées à partir de la fonction **[!UICONTROL Simulation du contenu]** accessible à partir du bouton [Modifier le contenu](../content/edit-content.md) ou depuis l’ [Concepteur d&#39;email](../content/get-started-email-designer.md).
+Ces actions peuvent être effectuées à l’aide de la variable **[!UICONTROL Simulation du contenu]** accessible à partir de l&#39;écran d&#39;édition du contenu de votre diffusion.
+
+<!-- from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).-->
 
 ![](assets/simulate-button.png)
 
