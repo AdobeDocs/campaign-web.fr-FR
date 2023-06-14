@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 72%
+source-wordcount: '352'
+ht-degree: 69%
 
 ---
 
@@ -48,11 +48,6 @@ ht-degree: 72%
             + [Définir un style pour les liens](content/styling-links.md)
             + [Ajouter des attributs de style intégrés](content/inline-styling.md)
          + [Envoyer des offres](content/offers.md)
-      + Prévisualiser et tester l’e-mail {#preview-test}
-         + [À propos de la prévisualisation et du test](preview-test/preview-test.md)
-         + [Prévisualiser le contenu d’un e-mail](preview-test/preview-content.md)
-         + [Rendre votre email](preview-test/email-rendering.md)
-         + [Envoyer des e-mails de test](preview-test/proofs.md)
       + Envoyer et surveiller l’e-mail {#monitor}
          + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
          + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 72%
       + [Ajouter de la personnalisation](personalization/personalize.md)
       + [Ajouter du contenu conditionnel](personalization/conditions.md)
       + [Ajout de blocs de contenu intégrés](personalization/content-blocks.md)
+   + Prévisualiser et tester votre diffusion {#preview-test}
+      + [À propos de la prévisualisation et du test](preview-test/preview-test.md)
+      + [Prévisualiser le contenu du message](preview-test/preview-content.md)
+      + [Envoyer des diffusions test](preview-test/proofs.md)
+      + [Rendre votre email](preview-test/email-rendering.md)
 + Audiences et destinataires {#audiences}
    + [Prise en main des audiences](audience/about-audiences.md)
    + [Sélectionner une audience existante](audience/add-audience.md)
