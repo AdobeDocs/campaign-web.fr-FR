@@ -4,10 +4,10 @@ title: Envoyer des offres
 description: Envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 99%
+source-wordcount: '545'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Les étapes clés pour envoyer des offres avec un e-mail sont les suivantes :
 
    ![](assets/create-content-offers.png)
 
-1. Pour affiner le choix des offres du moteur, sélectionnez une **[!UICONTROL Catégorie d’offres]** spécifique dans laquelle les offres sont triées.
+1. Pour affiner le choix des offres du moteur, sélectionnez une **[!UICONTROL Catégorie d’offres]** spécifique dans laquelle les offres sont triées. Lors de la sélection d’un dossier, tous les sous-dossiers sont automatiquement inclus et ne peuvent pas être supprimés. Notez que l’interface utilisateur ne reflète pas ce comportement.
 
    Si vous ne sélectionnez aucune catégorie, toutes les offres contenues dans l’environnement sont prises en compte par le moteur d’offres, sauf si vous sélectionnez un **[!UICONTROL Thème d’offre]**.
 
