@@ -4,7 +4,7 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 1%
@@ -27,11 +27,11 @@ En fonction du canal que vous utilisez, les messages de test peuvent être envoy
 
   Ils peuvent être créés dans le [!DNL Campaign] dans la console **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** dossier. En savoir plus dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* **[Substituer à partir de la cible principale](#substitution-profiles)** - Envoyer **test des emails et des SMS** à une adresse électronique ou un numéro de téléphone spécifique lors de l’emprunt de l’identité d’un profil existant.
+* [Substituer à partir de la cible principale](#substitution-profiles) - Envoyer **test des emails et des SMS** à une adresse électronique ou un numéro de téléphone spécifique lors de l’emprunt de l’identité d’un profil existant.
 
   Cela vous permet de tester le message comme le feraient les destinataires, ce qui vous donne une représentation exacte du contenu que le profil recevra.
 
-* **[Abonnés](#subscribers)** - Envoyer **test des notifications push** aux abonnés fictifs ajoutés à la base de données.
+* [Abonnés](#subscribers) - Envoyer **test des notifications push** aux abonnés fictifs ajoutés à la base de données.
 
   Tout comme les profils de test, ils peuvent être créés dans la variable [!DNL Campaign] dans la console **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** dossier. En savoir plus dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
