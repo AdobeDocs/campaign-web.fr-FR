@@ -4,9 +4,9 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
+source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,9 @@ Pour sélectionner les destinataires d&#39;une diffusion test, procédez comme s
 
    ![](assets/simulate-test-button-email.png)
 
-1. Utilisez la variable **[!UICONTROL Mode]** liste déroulante pour sélectionner le type de destinataires qui reçoivent l&#39;email de test ou la diffusion SMS :
+1. Dans la **[!UICONTROL Mode]** liste déroulante, choisissez **Profils de test** pour cibler les destinataires fictifs qui recevront l&#39;email de test ou la diffusion SMS.
 
-   * **Profils de test** pour cibler des destinataires fictifs
-
-   Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l&#39;écran de simulation du contenu, ces profils sont pré-sélectionnés comme destinataires test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires à l’aide de la fonction **[!UICONTROL Ajouter un ou plusieurs profils de test]** bouton .
-
-   * **Substituer à partir de la cible principale** pour envoyer un test à une adresse électronique ou un numéro de téléphone spécifique lors de l’affichage des données d’un profil existant. [En savoir plus](#substitution-profiles)
+1. Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l&#39;écran de simulation du contenu, ces profils sont pré-sélectionnés comme destinataires test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires à l’aide de la fonction **[!UICONTROL Ajouter un ou plusieurs profils de test]** bouton .
 
    ![](assets/simulate-profile-mode.png)
 
@@ -69,9 +65,21 @@ Pour sélectionner les destinataires d&#39;une diffusion test, procédez comme s
 
 ### Profils de substitution {#substitution-profiles}
 
-Pour envoyer un email de test ou un SMS à une adresse email ou un numéro de téléphone spécifique tout en affichant les données d’un profil existant de la base de données Campaign, utilisez des profils de substitution.
+Pour envoyer un email ou un SMS de test à une adresse électronique ou un numéro de téléphone spécifique tout en affichant les données d’un profil existant de la variable [!DNL Campaign] base de données, utilisez des profils de substitution.
 
-Pour ce faire, les premières étapes sont les mêmes que lors de la sélection de [profils de test](#test-profiles), mais choisissez la variable **[!UICONTROL Substituer à partir de la cible]** et suivez les étapes ci-dessous.
+1. Avant d&#39;envoyer un test, veillez à définir une audience pour votre diffusion. [En savoir plus](../audience/about-audiences.md)
+
+1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion email ou SMS, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
+
+1. Cliquez sur le bouton **[!UICONTROL Test]** bouton .
+
+   >[!NOTE]
+   >
+   >Si vous avez déjà sélectionné des profils pour [prévisualiser votre diffusion](preview-content.md), ils sont répertoriés dans le volet de gauche.
+
+   ![](assets/simulate-test-button-email.png)
+
+1. Dans la **[!UICONTROL Mode]** liste déroulante, choisissez **Substituer à partir de la cible principale** pour envoyer un test à une adresse électronique ou un numéro de téléphone spécifique lors de l’affichage des données d’un profil existant.
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter une adresse]** et indiquez l’adresse email ou le numéro de téléphone qui recevra la diffusion test.
 
