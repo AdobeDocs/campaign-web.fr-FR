@@ -4,17 +4,17 @@ title: Envoyer des offres
 description: Envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: 9203d2bcfbe75b584ecab65637b5ded202435d29
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Envoyer des offres {#offers-content}
 
-Adobe Campaign v8 Web vous permet d&#39;envoyer avec vos diffusions les offres qui ont été créées dans la console à l&#39;aide du **[!UICONTROL Interaction]** module . Pour plus d’informations sur Interaction et la gestion d’un catalogue d’offres dans la console, consultez la [documentation de Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
+Adobe Campaign v8 Web vous permet d&#39;envoyer avec vos diffusions les offres qui ont été créées dans la console à l&#39;aide du **[!UICONTROL Interaction]** module . Pour plus d&#39;informations sur Interaction et la gestion d&#39;un catalogue d&#39;offres dans la console, reportez-vous à la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 
 Les étapes pour envoyer des offres avec une diffusion sont les suivantes :
 
@@ -39,7 +39,7 @@ Les étapes pour envoyer des offres avec une diffusion sont les suivantes :
 
 1. Configurez les offres qui doivent être proposées aux destinataires.
 
-   Sélectionnez d’abord l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement dans le [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   Sélectionnez d’abord l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement dans le [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 

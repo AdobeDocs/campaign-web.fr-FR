@@ -4,10 +4,10 @@ title: Prise en main des diffusions SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Alpha"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Le canal SMS propose trois méthodes pour créer des diffusions par SMS :
 
 * **Diffusions autonomes**: Créez des diffusions SMS individuelles pour une communication rapide et directe avec vos clients, sans avoir besoin de workflows ni de campagnes.
 
-![](../assets/do-not-localize/book.png) Découvrez comment configurer le canal SMS dans cette [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
+![](../assets/do-not-localize/book.png) Découvrez comment configurer le canal SMS dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
