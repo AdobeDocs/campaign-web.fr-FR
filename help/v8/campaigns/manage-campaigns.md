@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha"
-source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
+source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 8%
+source-wordcount: '416'
+ht-degree: 9%
 
 ---
 
@@ -56,4 +56,4 @@ Vous pouvez dupliquer ou supprimer une campagne :
 
 >[!NOTE]
 >
->Le **Diffusions** affiche toutes les diffusions liées à l&#39;opération. Cependant, les diffusions créées dans un workflow ne peuvent pas être supprimées de là. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow.
+>Le **Diffusions** affiche toutes les diffusions liées à l&#39;opération. Cependant, les diffusions créées dans un workflow ne peuvent pas être supprimées de là. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow. [En savoir plus](../msg/gs-messages.md#delivery-delete).
