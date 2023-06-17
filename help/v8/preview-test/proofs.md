@@ -4,9 +4,9 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ Pour sélectionner les destinataires d&#39;une diffusion test, procédez comme s
 
    ![](assets/simulate-test-button-email.png)
 
-1. Dans la **[!UICONTROL Mode]** liste déroulante, choisissez **Profils de test** pour cibler les destinataires fictifs qui recevront l&#39;email de test ou la diffusion SMS.
-
-1. Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l&#39;écran de simulation du contenu, ces profils sont pré-sélectionnés comme destinataires test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires à l’aide de la fonction **[!UICONTROL Ajouter un ou plusieurs profils de test]** bouton .
+1. Dans la **[!UICONTROL Mode]** liste déroulante, choisissez **[!UICONTROL Profils de test]** pour cibler les destinataires fictifs qui recevront l&#39;email de test ou la diffusion SMS.
 
    ![](assets/simulate-profile-mode.png)
+
+1. Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l&#39;écran de simulation du contenu, ces profils sont pré-sélectionnés comme destinataires test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires à l’aide de la fonction **[!UICONTROL Ajouter un ou plusieurs profils de test]** bouton .
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ Pour envoyer un email ou un SMS de test à une adresse électronique ou un numé
 
 1. Cliquez sur le bouton **[!UICONTROL Test]** bouton .
 
-   >[!NOTE]
-   >
-   >Si vous avez déjà sélectionné des profils pour [prévisualiser votre diffusion](preview-content.md), ils sont répertoriés dans le volet de gauche.
-
    ![](assets/simulate-test-button-email.png)
 
-1. Dans la **[!UICONTROL Mode]** liste déroulante, choisissez **Substituer à partir de la cible principale** pour envoyer un test à une adresse électronique ou un numéro de téléphone spécifique lors de l’affichage des données d’un profil existant.
+1. Dans la **[!UICONTROL Mode]** liste déroulante, choisissez **[!UICONTROL Substituer à partir de la cible principale]** pour envoyer un test à une adresse électronique ou un numéro de téléphone spécifique lors de l’affichage des données d’un profil existant.
+
+   >[!CAUTION]
+   >
+   >Si vous n’avez pas sélectionné une [audience](../audience/about-audiences.md) pour votre diffusion, le **[!UICONTROL Substituer à partir de la cible principale]** est grisée et vous ne pourrez pas sélectionner de profils de substitution.
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter une adresse]** et indiquez l’adresse email ou le numéro de téléphone qui recevra la diffusion test.
 
-   Vous pouvez saisir n’importe quelle adresse électronique ou numéro de téléphone. Vous pouvez ainsi envoyer des diffusions test à n’importe quel destinataire, même s’il n’est pas un utilisateur de [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >Vous pouvez saisir n’importe quelle adresse électronique ou numéro de téléphone. Vous pouvez ainsi envoyer des diffusions test à n’importe quel destinataire, même s’il n’est pas un utilisateur de [!DNL Adobe Campaign].
 
 1. Sélectionnez le profil de la base de données à utiliser en remplacement. Vous pouvez également sélectionner [!DNL Adobe Campaign] sélectionnez un profil aléatoire. Les données de profil du profil sélectionné seront affichées dans la diffusion test.
 
@@ -105,7 +109,9 @@ Lorsque vous utilisez des notifications push, les diffusions de test ne peuvent 
 
    ![](assets/simulate-test-button-push.png)
 
-1. Si vous avez déjà sélectionné des abonnés à [prévisualiser la diffusion](preview-content.md) dans l&#39;écran de simulation du contenu, ces profils sont pré-sélectionnés comme abonnés aux tests. Vous pouvez effacer votre sélection et/ou ajouter d&#39;autres abonnés à l&#39;aide du bouton dédié.
+1. Si vous avez déjà sélectionné des abonnés à [prévisualiser la diffusion](preview-content.md) dans l&#39;écran de simulation du contenu, ces profils sont pré-sélectionnés comme abonnés aux tests.
+
+   Vous pouvez effacer votre sélection et/ou ajouter d&#39;autres abonnés à l&#39;aide du bouton dédié.
 
    ![](assets/simulate-test-subscribers.png)
 
