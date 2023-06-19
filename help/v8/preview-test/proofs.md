@@ -4,14 +4,19 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Envoyer des diffusions test {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Mode Aperçu"
+>abstract="Prévisualisez et testez le message en incluant la population test à la cible principale."
 
 **[!UICONTROL Adobe Campaign]** permet de tester un message avant de l&#39;envoyer à l&#39;audience principale.
 
@@ -20,6 +25,15 @@ L’envoi de diffusions test est une étape importante pour valider votre campag
 Les destinataires d&#39;un test peuvent vérifier différents éléments tels que des liens, des liens d&#39;opt-out, des images ou des pages miroir, et détecter toute erreur dans le rendu, le contenu, les paramètres de personnalisation et la configuration de la diffusion.
 
 ## Sélectionner les destinataires du test {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Population test"
+>abstract="Sélectionnez un mode de population test."
+
+
 
 En fonction du canal que vous utilisez, les messages de test peuvent être envoyés à trois types de destinataires :
 
@@ -38,6 +52,7 @@ En fonction du canal que vous utilisez, les messages de test peuvent être envoy
 Pour sélectionner les destinataires d&#39;une diffusion test, procédez comme suit en fonction du type de profils que vous souhaitez utiliser.
 
 ### Profils de test {#test-profiles}
+
 
 1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion email ou SMS, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 

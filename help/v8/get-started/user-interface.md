@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,10 +62,7 @@ Pour plus d&#39;informations sur l&#39;explorateur Campaign, la hiérarchie des 
 >title="Campagnes"
 >abstract="Il s’agit de la liste de vos campagnes. Vous pouvez afficher des informations utiles telles que leurs dates de début, de fin ou de dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Cliquez sur le bouton « Créer une campagne » pour ajouter une nouvelle campagne. Sélectionnez une campagne pour afficher son contenu, ses diffusions et ses détails. Accédez à l’onglet « Modèles » pour afficher et créer des modèles."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_list"
->title="Diffusions"
->abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur statut, les dates de contact et de modification, les KPI clés. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur le bouton « Créer une diffusion » pour ajouter une nouvelle diffusion. Sélectionnez une diffusion pour afficher son contenu, son audience et ses détails."
+
 
 Dans la section CAMPAIGN MANAGEMENT , vous pouvez accéder aux campagnes marketing, aux diffusions et aux workflows.
 
@@ -196,15 +193,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Mesures des erreurs"
 >abstract="Nombre d’e-mails avec le statut d’erreur."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_option_test_target"
->title="Population test"
->abstract="Sélectionnez un mode de population test."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_mode"
->title="Mode Aperçu"
->abstract="Prévisualisez et testez le message en incluant la population test à la cible principale."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
