@@ -4,14 +4,20 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 83%
+source-wordcount: '1119'
+ht-degree: 84%
 
 ---
 
 # Prise en main des messages{#gs-messages}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_list"
+>title="Diffusions"
+>abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur statut, les dates de contact et de modification, les KPI clés. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur le bouton « Créer une diffusion » pour ajouter une nouvelle diffusion. Sélectionnez une diffusion pour afficher son contenu, son audience et ses détails."
+
 
 Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS, notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés.
 
@@ -52,6 +58,7 @@ Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : Messagerie 
 
 
 ## Créer une diffusion {#create-delivery}
+
 
 Vous pouvez créer des diffusions autonomes à partir du menu de gauche **[!UICONTROL Diffusions]**, ou créer des diffusions dans le cadre d’une campagne marketing, à partir du menu de gauche **[!UICONTROL Campagnes]**.
 
