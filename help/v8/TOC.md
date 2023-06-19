@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 69%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 0%
    + [Configurer une population témoin](audience/control-group.md)
 + Campagnes cross-canal {#campaigns}
    + [Prise en main des campagnes](campaigns/gs-campaigns.md)
-   + [Gérer vos campagnes](campaigns/manage-campaigns.md)
+   + [Accès et gestion des campagnes](campaigns/manage-campaigns.md)
    + [Créer votre première campagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Prise en main des workflows](workflows/gs-workflows.md)

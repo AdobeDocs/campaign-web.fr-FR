@@ -3,17 +3,17 @@ audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha"
-source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 9%
+source-wordcount: '423'
+ht-degree: 8%
 
 ---
 
 
 # Accès et gestion de vos campagnes{#manage-campaigns}
 
-Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le bouton **[!UICONTROL Campagnes]** .
+Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le bouton **[!UICONTROL Campagnes]** dans le volet de navigation de gauche.
 
 ## La liste des campagnes{#access-campaigns}
 
@@ -25,9 +25,9 @@ Dans la liste des campagnes, deux onglets sont disponibles :
 
 ![Liste des campagnes](assets/campaign-list.png)
 
-Chaque campagne de la liste affiche des informations sur son état actuel, sa date de création, la dernière fois où elle a été modifiée, etc.
+Par défaut, chaque campagne de la liste affiche des informations sur son état actuel, sa date de création, sa dernière modification, etc.
 
-Vous pouvez personnaliser les colonnes affichées en cliquant sur le **Configuration d’une colonne pour une disposition personnalisée** située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste. En outre, une barre de recherche et des filtres sont disponibles pour faciliter la recherche dans la liste. [En savoir plus](../get-started/user-interface.md#list-screens)
+Vous pouvez personnaliser les colonnes affichées en cliquant sur le **Configuration d’une colonne pour une disposition personnalisée** située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste. En outre, une barre de recherche et des filtres sont disponibles pour faciliter la recherche dans la liste. [En savoir plus](../get-started/user-interface.md#list-screens).
 
 Vous pouvez, par exemple, filtrer selon le calendrier de votre campagne. Ouvrez le panneau de filtrage et utilisez le **Start - End Date** section :
 
@@ -45,7 +45,7 @@ Deux onglets sont disponibles :
 
 * Le **Workflows** répertorie tous les workflows liés à l&#39;opération. Cet onglet permet également de créer un nouveau workflow dans l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns).
 
-* Le **Diffusions** répertorie toutes les diffusions liées à l&#39;opération. Vous pouvez également créer une diffusion au sein de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns).
+* Le **Diffusions** répertorie toutes les diffusions liées à l&#39;opération en cours. Vous pouvez également créer une diffusion au sein de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns).
 
 ## Duplication et suppression d’une campagne
 

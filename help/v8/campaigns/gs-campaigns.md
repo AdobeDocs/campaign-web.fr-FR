@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 10%
 
 ---
 
@@ -23,11 +23,11 @@ Adobe Campaign vous permet d’orchestrer facilement vos initiatives marketing c
 
 En ajoutant plusieurs workflows et diffusions spécifiques à l&#39;opération, vous pouvez créer des expériences personnalisées sur différents canaux, en vous assurant que chaque point de contact correspond à l&#39;audience prévue.
 
-Les campagnes offrent des mesures de création de rapports dédiées pour obtenir des informations complètes sur les performances de l’ensemble de votre campagne, ce qui vous permet d’évaluer son efficacité, d’identifier les tendances et de prendre des décisions basées sur les données afin d’optimiser les efforts futurs.
+Les campagnes offrent des mesures de création de rapports dédiées pour obtenir des informations complètes sur les performances de l’ensemble de votre campagne, ce qui vous permet d’évaluer son efficacité, d’identifier les tendances et de prendre des décisions basées sur les données afin d’optimiser les efforts futurs. Découvrez comment accéder aux rapports de campagne et les comprendre dans [cette section](../reporting/campaign-reports.md).
 
 ![Flux de campagne](assets/campaign-flow.png)
 
-Reportez-vous aux sections suivantes :
+Découvrez comment créer et gérer des campagnes dans les sections suivantes :
 
 * [Accès et gestion de vos campagnes](manage-campaigns.md)
 * [Créer votre première campagne](create-campaigns.md)
