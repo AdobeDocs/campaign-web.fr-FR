@@ -6,8 +6,8 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1329'
+ht-degree: 98%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Prise en main des e-mails"
->abstract="Commencez à partir d’un modèle ou utilisez Adobe Campaign pour créer un nouveau Concepteur d’email afin de créer des emails sans avoir à écrire une seule ligne de code. Découvrez comment utiliser le Concepteur d&#39;email pour créer votre contenu, le prévisualiser et le tester, puis envoyer un email à une audience existante dans un cas pratique de bout en bout."
+>title="Commencer avec les e-mails"
+>abstract="Commencez à partir d’un modèle ou utilisez le nouveau Concepteur d’e-mail d’Adobe Campaign afin de créer des e-mails sans avoir à écrire une seule ligne de code. Découvrez comment utiliser le Concepteur d’e-mail pour créer votre contenu, le prévisualiser et le tester, puis envoyer un e-mail à une audience existante dans un cas d’utilisation complet."
 
 
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
@@ -26,7 +26,7 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
 
 ![](assets/delivery-list.png)
 
-## Créer la diffusion email {#create-email}
+## Créer la diffusion e-mail {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -38,15 +38,15 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
 >title="Propriétés de l’e-mail"
 >abstract="Les propriétés sont les paramètres de diffusion courants qui vous permettent de nommer et de classer votre diffusion. Si votre diffusion est basée sur un schéma étendu défini dans la console Adobe Campaign v8, des champs spécifiques d’**Options personnalisées** sont disponibles."
 
-Pour créer une diffusion, procédez comme suit :
+Pour créer une diffusion, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Diffusions]** sur le rail de gauche, puis cliquez sur le  **[!UICONTROL Créer une diffusion]** bouton .
+1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
 
-1. Sélectionner **[!UICONTROL Email]** comme canal et choisissez un modèle de diffusion email dans la liste.
+1. Sélectionnez le canal **[!UICONTROL E-mail]** et choisissez un modèle de diffusion e-mail dans la liste.
 
    >[!NOTE]
    >
-   >Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. [En savoir plus](../msg/delivery-template.md)
+   >Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. [En savoir plus](../msg/delivery-template.md).
 
    ![](assets/channel-template.png)
 
@@ -67,19 +67,19 @@ Pour créer une diffusion, procédez comme suit :
 
    En outre, vous pouvez accéder aux paramètres avancés, tels que les règles de typologie et les mappings de ciblage, en cliquant sur le bouton situé à côté du nom de la diffusion. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique.
 
-## Définition du contenu de l’e-mail {#create-content}
+## Définir le contenu de l’e-mail {#create-content}
 
-Pour commencer à créer le contenu de votre email, procédez comme suit.
+Pour commencer à créer le contenu de votre e-mail, procédez comme suit.
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-Dans ce cas pratique, vous utilisez un email prédéfini [modèle de diffusion](../msg/delivery-template.md) pour concevoir votre email.
+Dans ce cas d’utilisation, vous allez utiliser un [modèle de diffusion](../msg/delivery-template.md) prédéfini pour concevoir votre e-mail.
 
-1. Dans le tableau de bord des diffusions email, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** bouton .
+1. Dans le tableau de bord de la diffusion e-mail, cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
 
    ![](assets/email-edit-content.png)
 
-   Vous accédez ainsi à une interface dédiée dans laquelle vous pouvez configurer le contenu de l&#39;email et accéder au Concepteur d&#39;email. [En savoir plus](../content/edit-content.md)
+   Une interface dédiée s’affiche, dans laquelle vous pouvez configurer le contenu de l’e-mail et accéder au concepteur d’e-mail. [En savoir plus](../content/edit-content.md).
 
    ![](assets/edit-content.png)
 
@@ -89,7 +89,7 @@ Dans ce cas pratique, vous utilisez un email prédéfini [modèle de diffusion](
 
 1. Pour concevoir le contenu de l’e-mail, cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]**.
 
-   Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, utilisez une [modèle de contenu prédéfini](../msg/delivery-template.md).
+   Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, utilisez un [modèle de contenu prédéfini](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -99,7 +99,7 @@ Dans ce cas pratique, vous utilisez un email prédéfini [modèle de diffusion](
 
     ![](assets/import-folder.png)-->
 
-1. Une fois le modèle sélectionné, il s’affiche dans la [Concepteur d&#39;email](../content/create-email-content.md), où vous pouvez apporter les modifications nécessaires et ajouter une personnalisation.
+1. Une fois le modèle sélectionné, il s’affiche dans le [concepteur d’e-mail](../content/create-email-content.md). Vous pouvez ainsi apporter les modifications nécessaires et le personnaliser à souhait.
 
    Par exemple, pour personnaliser le titre de l’e-mail, sélectionnez le bloc de composant et cliquez sur **[!UICONTROL Ajouter une personnalisation]**.
 

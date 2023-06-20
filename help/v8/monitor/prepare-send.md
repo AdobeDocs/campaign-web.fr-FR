@@ -7,12 +7,12 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
 
-# Préparation et envoi de votre e-mail {#prepare-send}
+# Préparer et envoyer votre e-mail {#prepare-send}
 
 
 <!--
@@ -32,7 +32,7 @@ send also KPIs
 
 Lorsque vous avez défini le contenu, l’audience et le planning, vous êtes prêt(e) à préparer votre message. Pendant la préparation, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées.
 
-Les règles de validation utilisées lors de la préparation de la diffusion sont décrites dans la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+Les règles de validation utilisées pendant la préparation de la diffusion sont décrites dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
 
 Procédez comme suit :
 

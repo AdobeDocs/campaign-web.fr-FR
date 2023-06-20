@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Utilisation de l’activité de workflow SMS
-description: Découvrez comment utiliser l’activité de workflow SMS
+title: Utiliser l’activité de workflow SMS
+description: Découvrez comment utiliser l’activité de workflow SMS.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 3%
+ht-degree: 99%
 
 ---
 
 
 # SMS {#sms}
 
-Le **SMS** L’activité fournit la fonctionnalité d’envoi de messages SMS dans un workflow. Il permet l&#39;automatisation de l&#39;envoi des SMS à une cible spécifique déterminée dans le même workflow.
+L’activité **SMS** permet d’envoyer des messages SMS au sein d’un workflow. Les SMS sont alors envoyés automatiquement à une cible spécifique déterminée dans le même workflow.
 
-Pour définir les destinataires du SMS, vous pouvez les configurer avant l&#39;activité Diffusion SMS dans le workflow à l&#39;aide de l&#39;activité Créer l&#39;audience . En savoir plus.
+Définissez les destinataires du SMS avant l’activité de diffusion SMS dans le workflow, à l’aide de l’activité Créer une audience. En savoir plus.
 
-1. Après avoir créé et configuré un nouveau workflow, ajoutez une activité Créer une audience pour sélectionner une audience existante ou utilisez le créateur de règles pour définir votre propre requête.
+1. Une fosi que vous avez créé et configuré un workflow, ajoutez une activité Créer une audience pour sélectionner une audience existante ou utilisez le créateur de règles pour définir votre propre requête.
 
-1. Ajoutez une activité Canal SMS à votre workflow.
+1. Ajoutez une activité de canal SMS à votre workflow.
 
    ![](../assets/activity-sms-1.png)
 <!--
@@ -30,14 +30,14 @@ Pour définir les destinataires du SMS, vous pouvez les configurer avant l&#39;a
     * Recurring delivery: Choose this option if you want the SMS to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the SMS to be sent at regular intervals.
 -->
 
-1. Sélectionnez votre activité. Dans le menu de la diffusion, sélectionnez les Modèles à utiliser pour cette diffusion. En savoir plus sur les modèles
+1. Sélectionnez votre activité. Dans le menu de la diffusion, sélectionnez les modèles à utiliser pour la diffusion. En savoir plus sur les modèles
 
-1. Cliquez sur Créer une diffusion pour configurer votre diffusion SMS. Pour plus d&#39;informations sur la diffusion SMS, consultez cette page.
+1. Cliquez sur Créer une diffusion pour configurer votre diffusion SMS. Pour plus d’informations sur les diffusions SMS, consultez cette page.
 
 1. Une fois que votre diffusion est prête à être envoyée, revenez à votre workflow et cliquez sur Démarrer pour lancer votre workflow.
 
 1. Par défaut, le lancement d’un workflow de diffusion déclenche l’étape de préparation du message, sans envoyer immédiatement le message.
 
-   Cliquez sur Réviser et envoyer dans le menu avancé de votre activité SMS pour confirmer l&#39;envoi.
+   Cliquez sur Réviser et envoyer dans le menu avancé de votre activité SMS pour confirmer l’envoi.
 
 1. Dans le tableau de bord de la diffusion SMS, cliquez sur Envoyer.

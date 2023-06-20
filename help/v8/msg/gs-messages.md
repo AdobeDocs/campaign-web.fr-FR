@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris
 
 Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans le cadre d’une campagne marketing.
 
-Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : Messagerie électronique, SMS et applications mobiles.
+Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : e-mail, SMS et applications mobiles.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -31,13 +31,13 @@ Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : Messagerie 
     <a href="../email/create-email.md">
     <img alt="E-mail" src="assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../email/create-email.md"><strong>Créer des emails</strong>
+    <div><a href="../email/create-email.md"><strong>Créer des e-mails</strong>
     </div>
     <p>
     </td>
     <td>
     <a href="../push/create-push.md">
-      <img alt="Push" src="assets/do-not-localize/push.jpg">
+      <img alt="Notifications push" src="assets/do-not-localize/push.jpg">
     </a>
     <div>
     <a href="../push/gs-push.md"><strong>Créer des notifications push</strong></a>
@@ -49,7 +49,7 @@ Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : Messagerie 
       <img alt="SMS" src="assets/do-not-localize/sms.jpg">
     </a>
     <div>
-    <a href="../sms/create-sms.md"><strong>Création de SMS</strong></a>
+    <a href="../sms/create-sms.md"><strong>Créer des SMS</strong></a>
     </div>
     <p>
     </td>
@@ -62,7 +62,7 @@ Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : Messagerie 
 
 Vous pouvez créer des diffusions autonomes à partir du menu de gauche **[!UICONTROL Diffusions]**, ou créer des diffusions dans le cadre d’une campagne marketing, à partir du menu de gauche **[!UICONTROL Campagnes]**.
 
-Parcourez les onglets ci-dessous pour découvrir comment créer une diffusion :
+Parcourez les onglets ci-dessous pour découvrir comment créer une diffusion :
 
 >[!BEGINTABS]
 
@@ -145,13 +145,13 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin de contrôler le rendu de vos messages, et vérifier les paramètres de personnalisation avec des profils de test. [En savoir plus](../preview-test/preview-test.md)
 
 
-## Logs de tracking et de tracking{#gs-tracking-logs}
+## Surveillance et logs de tracking{#gs-tracking-logs}
 
-La surveillance de vos diffusions après leur envoi est une étape clé pour vous assurer que vos campagnes marketing sont efficaces et atteignent vos clients.
+La surveillance de vos diffusions après leur envoi est une étape clé pour vous assurer que vos campagnes marketing sont efficaces et atteignent votre clientèle.
 
 Vous pouvez ainsi surveiller une diffusion après son envoi et comprendre la gestion des diffusions en échec et des quarantaines.
 
-En savoir plus sur les fonctionnalités de surveillance et de suivi dans [cette section](../reporting/gs-reports.md).
+En savoir plus sur les fonctionnalités de surveillance et de tracking dans [cette section](../reporting/gs-reports.md).
 
 ## Dupliquer une diffusion {#delivery-duplicate}
 
@@ -171,22 +171,22 @@ Pour dupliquer une diffusion depuis son tableau de bord, procédez comme suit :
 
 ## Supprimer une diffusion {#delivery-delete}
 
-Les diffusions sont supprimées de la liste des diffusions, soit de l&#39;entrée de diffusion principale dans le rail gauche, soit de la liste des diffusions d&#39;une opération.
+Les diffusions sont supprimées de la liste des diffusions, soit de l’entrée de diffusion principale dans le rail gauche, soit de la liste des diffusions d’une campagne.
 
-Pour supprimer une diffusion de la liste des diffusions, procédez comme suit :
+Pour supprimer une diffusion à partir de la liste des diffusions, procédez comme suit :
 
 1. Cliquez sur le bouton des trois points à droite, en regard du nom de la diffusion à dupliquer.
-1. Sélectionner  **[!UICONTROL Supprimer]**.
-1. Confirmation de suppression.
+1. Sélectionnez **[!UICONTROL Supprimer]**.
+1. Confirmez la suppression.
 
-![Supprimer une diffusion de la liste de diffusion](assets/delete-delivery-from-list.png)
+![Supprimer une diffusion de la liste des diffusions](assets/delete-delivery-from-list.png)
 
-Toutes les diffusions sont disponibles dans ces listes, mais les diffusions créées dans un workflow ne peuvent pas être supprimées de là. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow.
+Toutes les diffusions sont disponibles dans ces listes, mais les diffusions créées dans un workflow ne peuvent pas être supprimées à cet endroit. Pour supprimer une diffusion créée dans le cadre d’un workflow, vous devez supprimer l’activité de diffusion du workflow.
 
-Pour supprimer une diffusion d&#39;un workflow, procédez comme suit :
+Pour supprimer une diffusion d’un workflow, procédez comme suit :
 
-1. Sélectionnez l&#39;activité de diffusion .
-1. Cliquez sur le bouton  **[!UICONTROL Supprimer]** dans le panneau de droite.
-1. Confirmation de suppression. Si la diffusion contient des noeuds enfants, vous pouvez choisir de les supprimer ou de les conserver.
+1. Sélectionnez l’activité de diffusion.
+1. Cliquez sur l’icône **[!UICONTROL Supprimer]** dans le panneau de droite.
+1. Confirmez la suppression. Si la diffusion contient des nœuds enfants, vous pouvez choisir de les supprimer ou de les conserver.
 
 ![Supprimer une diffusion dans un workflow](assets/delete-delivery-from-wf.png)

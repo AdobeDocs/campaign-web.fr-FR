@@ -7,11 +7,11 @@ exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
-# Concevoir une diffusion SMS {#design-sms}
+# Créer une diffusion par SMS {#design-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -37,7 +37,7 @@ ht-degree: 91%
 
 1. Par défaut, le tracking est activé pour les diffusions. Vous pouvez désactiver cette option dans la **[!UICONTROL section Fonctionnalités facultatives]**.
 
-1. Accédez au **[!UICONTROL Simulation du contenu]** pour prévisualiser votre contenu personnalisé. [En savoir plus](send-sms.md#preview-sms)
+1. Accédez au menu **[!UICONTROL Simuler du contenu]** pour prévisualiser votre contenu personnalisé. [En savoir plus](send-sms.md#preview-sms)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu.
 

@@ -7,7 +7,7 @@ exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 9%
+ht-degree: 99%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="Dans cet écran, vous pouvez accéder à la liste complète des workflows de campagne et autonome, vérifier leur état actuel, les dates de dernière exécution/prochaine exécution et créer un nouveau workflow. Accédez à l’onglet « Modèle » pour accéder aux modèles de workflow disponibles."
+>abstract="Sur cet écran, vous pouvez accéder à la liste complète des workflows autonomes et de campagne, vérifier leur statut en cours, les dates de dernière exécution et de prochaine exécution et créer un workflow. Accédez à l’onglet « Modèle » pour accéder aux modèles de workflow disponibles."
 
-Le **[!UICONTROL Workflows]** vous permet d’accéder à la liste complète des workflows. Cette liste comprend les deux éléments suivants : **workflows autonomes** qui ont été créés à partir de cet écran ; et **workflows de campagne**, qui ont été créées dans une campagne.
+Le menu **[!UICONTROL Workflows]** vous permet d’accéder à la liste complète des workflows. Les **workflows autonomes**, créés à partir de cet écran et les **workflows de campagne**, créés dans une campagne, sont répertoriés.
 
 ![](assets/workflow-list.png)
 
-Chaque workflow de la liste affiche des informations sur son [status](#status), la dernière exécution ou modification qu’il a effectuée, ainsi que la date et l’heure d’exécution planifiée suivantes.
+Chaque workflow de la liste affiche des informations sur son [statut](#status) en cours, la dernière fois qu’il a été exécuté ou modifié, ainsi que la date et l’heure de la prochaine exécution planifiée.
 
-Vous pouvez personnaliser les colonnes affichées en cliquant sur le **[!UICONTROL Configuration d’une colonne pour une disposition personnalisée]** située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste, telles que la dernière activité en erreur pour chaque workflow ou la dimension de ciblage appliquée.
+Pour personnaliser les colonnes affichées, cliquez sur l’icône **[!UICONTROL Configurer la colonne pour une disposition personnalisée]** située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste, telles que la dernière activité à avoir rencontré une erreur pour chaque workflow ou la dimension de ciblage appliquée.
 
-En outre, une barre de recherche et des filtres sont disponibles pour faciliter la recherche dans la liste. Vous pouvez par exemple filtrer les workflows afin de n&#39;afficher que ceux appartenant à une campagne ou ceux traités au cours d&#39;une période spécifique.
+Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Vous pouvez par exemple filtrer les workflows afin de n’afficher que ceux appartenant à une campagne ou ceux traités au cours d’une période spécifique.
 
-Pour dupliquer ou supprimer un workflow, cliquez sur le bouton représentant des points de suspension puis sélectionnez **[!UICONTROL Dupliquer]** ou **[!UICONTROL Supprimer]**.
+Pour dupliquer ou supprimer un workflow, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Dupliquer]** ou **[!UICONTROL Supprimer]**.
 
 >[!NOTE]
 >
@@ -36,18 +36,18 @@ Pour dupliquer ou supprimer un workflow, cliquez sur le bouton représentant des
 
 ## Statuts des workflows {#status}
 
-Les workflows peuvent avoir plusieurs états :
+Les workflows peuvent adopter plusieurs statuts :
 
-* **[!UICONTROL Version préliminaire]**: Le workflow a été créé et enregistré.
-* **[!UICONTROL En cours]**: Le workflow est en cours d’exécution.
-* **[!UICONTROL Terminé]**: L’exécution du workflow est terminée.
-* **[!UICONTROL En pause]**: Le workflow a été suspendu.
-* **[!UICONTROL En erreur]**: Le workflow a rencontré une erreur. Ouvrez le workflow et accédez aux logs et tâches pour identifier l&#39;erreur et la résoudre. [Découvrez comment surveiller les logs et les tâches](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL Brouillon]** : le workflow a été créé et enregistré.
+* **[!UICONTROL En cours]** : le workflow est en cours d’exécution.
+* **[!UICONTROL Terminé]** : l’exécution du workflow est terminée.
+* **[!UICONTROL En pause]** : le workflow a été suspendu.
+* **[!UICONTROL Avec erreur]** : le workflow a rencontré une erreur. Ouvrez le workflow et consultez les logs et tâches pour identifier l’erreur et la résoudre. [Découvrez comment surveiller les logs et les tâches.](start-monitor-workflows.md#logs-tasks)
 
-Des informations détaillées sur le démarrage et le suivi de l&#39;exécution des workflows sont disponibles dans la section [cette page](start-monitor-workflows.md).
+Pour obtenir des informations détaillées sur le démarrage et la surveillance de l’exécution des workflows, consultez [cette page](start-monitor-workflows.md).
 
-## Les modèles de workflows {#templates}
+## Modèles de workflows {#templates}
 
-Le **[!UICONTROL Modèles]** répertorie tous les modèles de workflows disponibles.
+L’onglet **[!UICONTROL Modèles]** répertorie tous les modèles de workflows disponibles.
 
-Les modèles de workflow contiennent des activités préconfigurées et des configurations globales des propriétés qui peuvent être réutilisées pour créer de nouveaux workflows. Ils sont créés à partir de la console cliente. [Découvrez comment utiliser des modèles](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+Les modèles de workflow contiennent des activités préconfigurées et des configurations globales des propriétés qui peuvent être réutilisées pour créer de nouveaux workflows. Ils sont créés à partir de la console cliente. [Découvrez comment utiliser les modèles](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=fr#workflow-templates).

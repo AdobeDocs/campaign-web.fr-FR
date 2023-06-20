@@ -1,29 +1,29 @@
 ---
 audience: end-user
-title: Utilisation de l’activité de workflow Créer l’audience
-description: Découvrez comment utiliser l’activité de workflow Créer une audience
+title: Utiliser l’activité de workflow Créer une audience
+description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 6%
+ht-degree: 99%
 
 ---
 
 
 # Créer une audience {#build-audience}
 
-Le **Créer une audience** est une activité **Ciblage** activité. Cette activité permet de définir l&#39;audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans la variable **Créer une audience** activité.
+L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l&#39;audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
 
-Pour définir la population de l&#39;audience, vous pouvez :
+Pour définir la population de l’audience, vous pouvez :
 
-* Sélectionnez une audience existante, créée sous forme de liste dans la console cliente.
-* Sélectionnez une audience Adobe Experience Platform.
-* Créez une nouvelle audience avec le créateur de règles en définissant et combinant des critères de filtrage.
+* sélectionner une audience existante, créée sous forme de liste dans la console cliente ;
+* sélectionner une audience Adobe Experience Platform ;
+* créer une nouvelle audience avec le créateur de règles en définissant et combinant des critères de filtrage.
 
 >[!NOTE]
 >
->Dans ce contexte, vous ne pouvez pas charger une audience à partir d’un fichier. Pour cela, vous devez créer une diffusion autonome. [En savoir plus](../../audience/about-audiences.md)
+>Dans ce contexte, vous ne pouvez pas charger d&#39;audience à partir d’un fichier. Pour cela, vous devez créer une diffusion autonome. [En savoir plus](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -31,27 +31,27 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ## Configuration
 
-Procédez comme suit pour configurer la variable **Créer une audience** activité :
+Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
-1. Ajouter un **Créer une audience** activité.
-1. Définir un libellé.
-1. Définissez le type d’audience : **Créez votre propre** ou **Lecture d’audience**.
+1. Ajoutez une activité **Créer une audience**.
+1. Définissez un libellé.
+1. Définissez le type d’audience : **Créer la vôtre** ou **Lecture d’audience**.
 
-Pour créer votre propre requête, procédez comme suit :
+Pour créer votre propre requête, procédez comme suit :
 
-1. Sélectionner **Créez votre propre (requête)**.
-1. Choisissez la **Dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l&#39;opération : destinataires, bénéficiaires d&#39;un contrat, opérateur, abonnés, etc. Par défaut, la cible est sélectionnée parmi les destinataires. Reportez-vous à la section [Documentation v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Sélectionnez **Créer la vôtre (requête)**.
+1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires. Consultez la [documentation v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr#targeting-and-filtering-dimensions){target="_blank"}.
 1. Cliquez sur **Continuer**.
-1. Utilisez le créateur de règles pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel email. Reportez-vous à cette [section](../../audience/segment-builder.md).
+1. Utilisez le créateur de règles pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. Reportez-vous à cette [section](../../audience/segment-builder.md).
 
-Pour sélectionner une audience existante, procédez comme suit :
+Pour sélectionner une audience existante, procédez comme suit :
 
-1. Sélectionner **Lecture d’audience**.
+1. Sélectionnez **Lecture d’audience**.
 1. Cliquez sur **Continuer**.
-1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d&#39;un nouvel email. Reportez-vous à cette [section](../../audience/add-audience.md).
+1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d’un e-mail. Reportez-vous à cette [section](../../audience/add-audience.md).
 
 ## Exemple
 
-Voici un exemple de workflow avec deux **Créer une audience** activités. Le premier cible l&#39;audience des joueurs de poker, suivi d&#39;une diffusion email. La seconde cible l&#39;audience des clients VIP, suivie d&#39;une diffusion SMS.
+Voici un exemple de workflow avec deux activités **Créer une audience**. La première cible l’audience des joueurs et joueuses de poker, suivie d’une diffusion e-mail. La seconde cible l’audience des clientes et clients VIP, suivie d’une diffusion SMS.
 
 ![](../assets/workflow-audience-example.png)

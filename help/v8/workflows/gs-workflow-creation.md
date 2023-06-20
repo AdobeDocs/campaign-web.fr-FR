@@ -7,7 +7,7 @@ exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 76%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 Avec Campaign v8 Web, vous pouvez créer des workflows dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
 
-Les workflows peuvent être créés en tant que workflows autonomes, depuis le menu Workflows , ou directement au sein d&#39;une opération. Dans ce cas, le workflow sera associé à l&#39;opération et exécuté avec tous les workflows des autres opérations.
+Vous pouvez créer des workflows de différentes manières : en tant que workflows autonomes, à partir du menu Workflows ou directement au sein d’une campagne. Dans ce dernier cas, le workflow sera lié à la campagne et exécuté en même temps que tous les workflows de la campagne.
 
 ## Quels sont les éléments d’un workflow ?
 
@@ -32,7 +32,7 @@ Chaque workflow comprend :
 
 * **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
 
-* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque workflow utilise plusieurs tables de travail. Les données véhiculées dans ces tables peuvent être utilisées tout au long du cycle de vie du workflow.
+* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque workflow utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être utilisées tout au long du cycle de vie du workflow.
 
 ## Procédure de création d’un workflow
 

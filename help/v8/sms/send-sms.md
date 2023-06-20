@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Envoyer une diffusion SMS
-description: Découvrez comment envoyer des SMS avec Adobe Campaign Web
+title: Envoyer une diffusion par SMS
+description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Alpha"
 source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 7%
+ht-degree: 66%
 
 ---
 
-# Prévisualiser et envoyer une diffusion SMS {#send-sms-delivery}
+# Prévisualiser et envoyer une diffusion par SMS {#send-sms-delivery}
 
-## Prévisualiser votre diffusion SMS{#preview-sms}
+## Prévisualiser votre diffusion par SMS{#preview-sms}
 
 Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inclus du contenu personnalisé, vous pouvez examiner l&#39;affichage de ce contenu dans le message à l&#39;aide des données de profil de test. Vous pouvez ainsi vous assurer que le message s’affiche comme prévu et que toute information personnalisée est correctement présentée.
 
@@ -35,31 +35,31 @@ Les principales étapes pour prévisualiser votre diffusion SMS sont les suivant
 
 Vous pouvez maintenant vérifier et envoyer votre SMS à votre audience.
 
-## Tester votre diffusion SMS {#test-sms}
+## Tester votre diffusion par SMS {#test-sms}
 
-Avec **Adobe Campaign**, vous avez la possibilité de tester un message avant de l’envoyer à l’audience principale, ce qui est une étape essentielle pour valider votre campagne par e-mail et identifier les problèmes potentiels.
+Avec **Adobe Campaign**, vous avez la possibilité de tester un message avant de l’envoyer à l’audience principale, ce qui est une étape essentielle pour valider votre campagne par e-mail et identifier les problèmes potentiels.
 
-L’envoi de SMS de test est une étape importante pour assurer la qualité et l’efficacité de votre diffusion. Les destinataires du test peuvent consulter divers éléments tels que des liens, des liens d&#39;opt-out et des images, et identifier les erreurs de rendu, de contenu, de paramètres de personnalisation et de configuration des SMS. Ce processus vous aide à évaluer et à optimiser minutieusement votre SMS avant d’atteindre votre audience principale.
+L’envoi de SMS de test est une étape importante pour assurer la qualité et l’efficacité de votre diffusion. Les destinataires du test peuvent consulter divers éléments tels que des liens, des liens d’opt-out et des images, et identifier les erreurs de rendu, de contenu, de paramètres de personnalisation et de configuration des SMS. Ce processus vous aide à évaluer et à optimiser minutieusement votre SMS avant d’atteindre votre audience principale.
 
 ![](../assets/do-not-localize/book.png) Découvrez comment envoyer des SMS de test dans [cette section](../preview-test/proofs.md).
 
 ![](assets/sms_send_6.png)
 
-## Envoyer votre diffusion SMS {#send-sms}
+## Envoyer votre diffusion par SMS {#send-sms}
 
-1. Après avoir personnalisé le contenu de votre SMS, cliquez sur **[!UICONTROL Réviser et envoyer]** de votre **[!UICONTROL Diffusion]** page.
+1. Après avoir personnalisé le contenu de votre SMS, cliquez sur **[!UICONTROL Vérifier et envoyer]** sur votre page **[!UICONTROL Diffusion]**.
 
    ![](assets/sms_send_4.png)
 
 1. Cliquez sur **[!UICONTROL Préparer]** et suivre les progrès et les statistiques fournis.
 
-   En cas d&#39;erreur, reportez-vous au menu Journaux pour obtenir des informations détaillées sur l&#39;échec.
+   En cas d’erreur, reportez-vous au menu Journaux pour obtenir des informations détaillées sur l’échec.
 
-1. Envoyer les messages en cliquant sur **[!UICONTROL Envoyer]** pour poursuivre le processus d’envoi final.
+1. Envoyez les messages en cliquant sur **[!UICONTROL Envoyer]** pour poursuivre le processus d’envoi final.
 
    ![](assets/sms_send_5.png)
 
-1. Confirmez l&#39;action d&#39;envoi en cliquant sur le bouton **[!UICONTROL Envoyer]** bouton .
+1. Confirmez l’action d’envoi en cliquant sur le bouton **[!UICONTROL Envoyer]**.
 
 Une fois votre diffusion envoyée, vous pouvez effectuer le suivi de vos données IPC (Indicateur de performance clé) provenant de votre page de diffusion et des données issues de la variable **[!UICONTROL Journaux]** .
 

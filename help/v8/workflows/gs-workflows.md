@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Interface de zone de travail du workflow repensée"
->abstract="Grâce à notre canevas graphique complet, vous pouvez facilement concevoir des processus tels que la segmentation, l’exécution de campagnes, etc. Grâce à cet outil avancé, vous pouvez rationaliser votre workflow et améliorer vos campagnes."
+>abstract="Grâce à notre zone de travail graphique complète, vous pouvez facilement concevoir des processus tels que la segmentation, l’exécution de campagnes, etc. Grâce à cet outil avancé, vous pouvez rationaliser votre workflow et améliorer vos campagnes."
 
 ## Qu’est-ce qu’un workflow ?
 
@@ -34,9 +34,9 @@ Grâce à l’environnement graphique complet d’Adobe Campaign, concevez des 
 
 Voici quelques exemples d’utilisation des workflows avec Adobe Campaign :
 
-* Lancez une campagne de suivi pour les clients inactifs,
-* Envoyer un email de bienvenue à tous les nouveaux abonnés à un service,
-* Personnalisez des diffusions cross-canal en fonction de l’état du programme de fidélité des clients ou des points ciblés.
+* Lancez une campagne de suivi pour la clientèle inactive,
+* envoyez un e-mail de bienvenue à toutes les nouvelles personnes abonnées à un service,
+* personnalisez des diffusions cross-canal en fonction du statut du programme de fidélité de la clientèle ou de points ciblés.
 
 ## Explorons plus en détail
 
@@ -45,16 +45,16 @@ Maintenant que vous connaissez le b.a.-ba des workflows et leur utilisation dans
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="access-monitor.md">
-<img alt="Accès et gestion des workflows" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="Accéder et gérer des workflows" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="access-monitor.md"><strong>Accéder aux workflows et les gérer</strong></a>
+<a href="access-monitor.md"><strong>Accéder et gérer des workflows</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="create-workflow.md">
-<img alt="prospect" src="assets/do-not-localize/workflow-create.jpeg">
+<img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
 <div><a href="create-workflow.md"><strong>Créer et exécuter votre premier workflow</strong>
 </div>

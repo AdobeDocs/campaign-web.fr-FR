@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 >title="Mode Aperçu"
 >abstract="Prévisualisez et testez le message en incluant la population test à la cible principale."
 
-**[!UICONTROL Adobe Campaign]** permet de tester un message avant de l&#39;envoyer à l&#39;audience principale.
+**[!UICONTROL Adobe Campaign]** permet de tester un message avant de l’envoyer à l’audience principale.
 
 L’envoi de diffusions test est une étape importante pour valider votre campagne et identifier les problèmes potentiels.
 
@@ -39,7 +39,7 @@ En fonction du canal que vous utilisez, les messages de test peuvent être envoy
 
 * [Profils de test](#test-profiles) - Envoyer **test des emails et des SMS** aux adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données.
 
-  Ils peuvent être créés dans le [!DNL Campaign] dans la console **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** dossier. En savoir plus dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  Ils peuvent être créés à l’aide de la console [!DNL Campaign] dans le dossier **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Adresses de contrôle]**. Apprenez-en davantage en consultant la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
 * [Substituer à partir de la cible principale](#substitution-profiles) - Envoyer **test des emails et des SMS** à une adresse électronique ou un numéro de téléphone spécifique lors de l’emprunt de l’identité d’un profil existant.
 
@@ -47,7 +47,7 @@ En fonction du canal que vous utilisez, les messages de test peuvent être envoy
 
 * [Abonnés](#subscribers) - Envoyer **test des notifications push** aux abonnés fictifs ajoutés à la base de données.
 
-  Tout comme les profils de test, ils peuvent être créés dans la variable [!DNL Campaign] dans la console **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** dossier. En savoir plus dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  Tout comme les profils de test, ils peuvent être créés dans la variable [!DNL Campaign] dans la console **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** dossier. En savoir plus dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
 Pour sélectionner les destinataires d&#39;une diffusion test, procédez comme suit en fonction du type de profils que vous souhaitez utiliser.
 
@@ -56,7 +56,7 @@ Pour sélectionner les destinataires d&#39;une diffusion test, procédez comme s
 
 1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion email ou SMS, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 
-1. Cliquez sur le bouton **[!UICONTROL Test]** bouton .
+1. Cliquez sur le bouton **[!UICONTROL Tester]**.
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ Pour sélectionner les destinataires d&#39;une diffusion test, procédez comme s
 
    >[!NOTE]
    >
-   >Par défaut, la variable **[!UICONTROL Utilisation de profils de test]** Le mode est sélectionné.
+   >Par défaut, le mode **[!UICONTROL Utiliser des profils de test]** est sélectionné.
 
 1. Pour envoyer également le message final aux destinataires de la diffusion test, sélectionnez l&#39;option **[!UICONTROL Inclure la population test dans la cible principale]** .
 
@@ -86,7 +86,7 @@ Pour envoyer un email ou un SMS de test à une adresse électronique ou un numé
 
 1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion email ou SMS, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 
-1. Cliquez sur le bouton **[!UICONTROL Test]** bouton .
+1. Cliquez sur le bouton **[!UICONTROL Tester]**.
 
    ![](assets/simulate-test-button-email.png)
 
@@ -120,7 +120,7 @@ Lorsque vous utilisez des notifications push, les diffusions de test ne peuvent 
 
 1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 
-1. Cliquez sur le bouton **[!UICONTROL Test]** bouton .
+1. Cliquez sur le bouton **[!UICONTROL Tester]**.
 
    ![](assets/simulate-test-button-push.png)
 
@@ -140,7 +140,7 @@ Pour envoyer la diffusion test aux destinataires sélectionnés, procédez comme
 
 1. Cliquez sur le bouton **[!UICONTROL Envoyer le test]** bouton .
 
-1. Validez l&#39;envoi.
+1. Confirmez l’envoi.
 
    ![](assets/simulate-send-test.png)
 
@@ -150,7 +150,7 @@ Une fois cette opération terminée, vous pouvez préparer et envoyer votre diff
 
 * [Envoyer votre email](../monitor/prepare-send.md)
 * [Envoyer votre notification push](../push/send-push.md#send-push)
-* [Envoyer votre diffusion SMS](../sms/send-sms.md#send-sms)
+* [Envoyer votre diffusion par SMS](../sms/send-sms.md#send-sms)
 
 ## Accès aux diffusions de test envoyées {#access-proofs}
 

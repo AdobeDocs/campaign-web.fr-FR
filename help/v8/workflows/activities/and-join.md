@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: Utilisation de l’activité de workflow Rendez-vous
-description: Découvrez comment utiliser l’activité de workflow Rendez-vous
+title: Utiliser l’activité de workflow Rendez-vous
+description: Découvrez comment utiliser l’activité de workflow Rendez-vous.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 1%
+ht-degree: 98%
 
 ---
 
 
 # Rendez-vous {#join}
 
-Le **Et rejoindre** est une activité **Contrôle de flux** activité. Il permet de synchroniser plusieurs branches d&#39;exécution d&#39;un workflow.
+L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle vous permet de synchroniser plusieurs branches d’exécution d’un workflow.
 
-Cette activité ne déclenche sa transition sortante qu&#39;une fois toutes les transitions entrantes activées, c&#39;est-à-dire une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter le workflow.
+L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées, c’est-à-dire quand toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter le workflow.
 
 ## Configuration
 
-Procédez comme suit pour configurer la variable **AND-join** activité :
+Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 
 1. Ajoutez plusieurs activités telles que des activités de canal afin de former au moins deux branches d’exécution différentes.
-1. Ajoutez un **AND-join** à l’une des branches.
-1. Dans le **Options de fusion** , vérifiez toutes les activités précédentes que vous souhaitez rejoindre.
-1. Dans le **Principal** , choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l&#39;une des populations de la transition entrante.
+1. Ajoutez une activité **Rendez-vous** à l’une des branches.
+1. Dans les **Options de fusion**, cochez les activités précédentes à joindre.
+1. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l’une des populations de la transition entrante.
 
 ## Exemple
 
-L&#39;exemple suivant montre deux branches d&#39;un workflow avec une diffusion email et SMS. La jointure ET se déclenche lorsque les deux transitions entrantes sont activées. Les notifications push seront alors envoyées uniquement une fois les deux diffusions terminées.
+L’exemple ci-après montre deux branches d’un workflow avec une diffusion e-mail et SMS. L’activité Rendez-vous se déclenche lorsque les deux transitions entrantes sont activées. Les notifications push seront alors envoyées uniquement une fois les deux diffusions terminées.
 
 ![](../assets/workflow-andjoin-example.png)

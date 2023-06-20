@@ -7,7 +7,7 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 10%
+ht-degree: 85%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Concevoir et envoyer des campagnes cross-canal"
->abstract="Les fonctionnalités d’Adobe Campaign vous aident à gérer des données client centralisées, à concevoir des communications et des campagnes client et à créer des expériences personnalisées sur différents canaux : Courriel, Push et SMS."
+>abstract="Les fonctionnalités puissantes d’Adobe Campaign répondent à de nombreux besoins, dont la gestion des données centralisées relatives à la clientèle, la conception de communications et de campagnes destinées aux clientes et clients et la création d’expériences personnalisées sur différents canaux : e-mail, notification push et SMS."
 
-Adobe Campaign vous permet d’orchestrer facilement vos initiatives marketing ciblées à l’aide de la fonctionnalité intégrée de gestion de campagne. La possibilité de définir un planning vous permet de planifier la durée et le timing de vos campagnes en fonction des objectifs stratégiques et d’optimiser l’engagement de l’audience.
+Grâce à la fonctionnalité de gestion de campagne d’Adobe Campaign, orchestrez en toute facilité vos initiatives marketing ciblées. Tirez parti de la possibilité de définir un planning pour planifier la durée et le lancement opportun de vos campagnes, sur la base de vos objectifs stratégiques, et optimisez l’engagement de votre audience.
 
-En ajoutant plusieurs workflows et diffusions spécifiques à l&#39;opération, vous pouvez créer des expériences personnalisées sur différents canaux, en vous assurant que chaque point de contact correspond à l&#39;audience prévue.
+Ajoutez plusieurs workflows et des diffusions spécifiques à votre campagne afin de créer des expériences personnalisées sur différents canaux. Chaque point de contact atteint alors l’audience visée.
 
-Les campagnes offrent des mesures de création de rapports dédiées pour obtenir des informations complètes sur les performances de l’ensemble de votre campagne, ce qui vous permet d’évaluer son efficacité, d’identifier les tendances et de prendre des décisions basées sur les données afin d’optimiser les efforts futurs. Découvrez comment accéder aux rapports de campagne et les comprendre dans [cette section](../reporting/campaign-reports.md).
+Les campagnes offrent des mesures de rapports dédiées permettant d’obtenir des informations sur les performances de l’ensemble de la campagne. Vous pouvez ainsi juger de son efficacité, identifier les tendances et prendre des décisions éclairées afin d’atteindre le plein potentiel de votre campagne. Découvrez comment accéder aux rapports de campagne et les comprendre dans [cette section](../reporting/campaign-reports.md).
 
 ![Flux de campagne](assets/campaign-flow.png)
 
 Découvrez comment créer et gérer des campagnes dans les sections suivantes :
 
-* [Accès et gestion de vos campagnes](manage-campaigns.md)
+* [Accéder aux campagnes et les gérer](manage-campaigns.md)
 * [Créer votre première campagne](create-campaigns.md)
 
 

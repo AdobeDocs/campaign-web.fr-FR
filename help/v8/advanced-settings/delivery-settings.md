@@ -6,8 +6,8 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1475'
+ht-degree: 97%
 
 ---
 
@@ -135,7 +135,7 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Limite de validité des ressources"
->abstract="Le champ Limite de validité est utilisé pour les ressources chargées, comme la page miroir ou les images. Ces ressources sont valides pour une durée limitée. Une fois la limite atteinte, elles ne sont plus disponibles."
+>abstract="Le champ Limite de validité est utilisé pour les ressources téléchargées, comme la page miroir ou les images. Ces ressources sont valides pour une durée limitée. Une fois la limite atteinte, elles ne sont plus disponibles."
 
 
 Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n&#39;est pas atteinte.
@@ -158,7 +158,7 @@ Outre le mode par défaut, les options disponibles sont les suivantes :
 
 * **[!UICONTROL Forcer la génération de la page miroir]** : ce mode permet de générer la page miroir même si aucun lien vers celle-ci n’est inséré dans la diffusion.
 * **[!UICONTROL Ne pas générer de page miroir]** : ce mode permet de ne pas générer de page miroir, même si le lien est présent dans la diffusion.
-* **[!UICONTROL Génère une page miroir accessible à l’aide de l’identifiant du message uniquement]**: lorsque le lien de la page miroir n&#39;est pas présent dans le contenu de l&#39;email, utilisez cette option pour permettre l&#39;accès au contenu de la page miroir, dans la fenêtre du log de diffusion, depuis la console cliente.
+* **[!UICONTROL Générer une page miroir accessible depuis l’identifiant du message]** : ce mode permet d’accéder au contenu de la page miroir, dans la fenêtre du log de diffusion de la console cliente, lorsque l’e-mail ne contient pas de lien vers celle-ci.
 
 
 ### Tracking {#tracking}
@@ -188,4 +188,4 @@ Vous pouvez également personnaliser le nom des e-mails de test.
 
 Utilisez l’option **Conserver le code de diffusion pour le BAT** pour associer à l’e-mail de test le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte.
 
-Par défaut, l’objet de l’email de test est précédé du préfixe &quot;BAT #&quot;, où # correspond au numéro de l’email de test. Vous pouvez modifier ce préfixe dans le champ **Préfixe de libellé**.
+Par défaut, l’objet de l’e-mail de test est précédé du préfixe « BAT # », où # correspond au numéro de l’e-mail de test. Vous pouvez modifier ce préfixe dans le champ **Préfixe de libellé**.

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Créer une diffusion de notification push
-description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web
+title: Créer une diffusion notification push
+description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Alpha"
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 65%
+ht-degree: 95%
 
 ---
 
-# Créer une diffusion de notification push {#create-push}
+# Créer une diffusion notification push {#create-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
@@ -29,7 +29,7 @@ ht-degree: 65%
 
 1. Dans la page d’accueil **[!UICONTROL Diffusions]**, cliquez sur **[!UICONTROL Créer une diffusion]**.
 
-1. Sous , **[!UICONTROL Canal]** , choisissez Notification push comme canal et sélectionnez un modèle en fonction du système opérationnel sélectionné : Android ou iOS. [En savoir plus sur les modèles](../msg/delivery-template.md)
+1. Dans la section **[!UICONTROL Canal]**, choisissez Notification push comme canal et sélectionnez un modèle en fonction du système d’exploitation sélectionné : Android ou iOS. [En savoir plus sur les modèles](../msg/delivery-template.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
 
@@ -45,11 +45,11 @@ ht-degree: 65%
    * **[!UICONTROL Nature]** : indiquez la nature de l’e-mail à des fins de classification.
 +++
 
-1. Dans la **[!UICONTROL Audience]** , sélectionnez l&#39;application à utiliser pour cette diffusion.
+1. Dans le menu **[!UICONTROL Audience]**, sélectionnez l’application à utiliser pour cette diffusion.
 
 1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. [En savoir plus](../audience/about-audiences.md)
 
-   Notez que, par défaut, votre notification push sera envoyée à tous les abonnés de l&#39;application.
+   Notez que, par défaut, votre notification push sera envoyée à toutes les personnes abonnées de l’application.
 
    ![](assets/push_create_2.png)
 
@@ -65,6 +65,6 @@ ht-degree: 65%
 
    ![](assets/push_create_3.png)
 
-1. Cliquez sur **[!UICONTROL Configuration des paramètres de diffusion]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
+1. Cliquez sur **[!UICONTROL Configurer les paramètres de diffusion]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 
    ![](assets/push_create_4.png)

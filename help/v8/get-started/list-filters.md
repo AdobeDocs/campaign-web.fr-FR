@@ -1,45 +1,45 @@
 ---
 audience: end-user
 title: Parcourir, rechercher et filtrer les listes
-description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
+description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 18%
+ht-degree: 93%
 
 ---
 
 
 # Parcourir, rechercher et filtrer les listes {#list-screens}
 
-La plupart des liens du menu de navigation de gauche affichent des listes d’objets, telles que la liste des **Diffusions** ou **Campagnes**. Certains de ces écrans de liste sont en lecture seule. Vous pouvez personnaliser l’affichage de la liste et filtrer ces listes, comme décrit ci-dessous.
+La plupart des liens du menu de navigation de gauche affichent des listes d’objets, telles que la liste des **Diffusions** ou des **Campagnes**. Certaines de ces fenêtres de liste sont en lecture seule. Vous pouvez personnaliser l’affichage de la liste et filtrer ces listes, comme décrit ci-dessous.
 
-Pour supprimer un filtre, cliquez sur le bouton **Effacer tout** bouton .
+Pour supprimer un filtre, cliquez sur le bouton **Effacer tout**.
 
-## Personnalisation des écrans de liste {#custom-lists}
+## Personnaliser les fenêtres de liste {#custom-lists}
 
-Les listes sont affichées en colonnes. Vous pouvez également afficher des informations supplémentaires en modifiant la configuration des colonnes. Pour ce faire, cliquez sur le bouton **Configuration d’une colonne pour une disposition personnalisée** dans le coin supérieur droit de la liste.
+Les listes sont affichées en colonnes. Vous pouvez également afficher des informations supplémentaires en modifiant la configuration des colonnes. Pour ce faire, cliquez sur l’icône **Configurer une colonne pour une disposition personnalisée** dans le coin supérieur droit de la liste.
 
 ![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
-Dans le **Configuration des colonnes** , ajoutez ou supprimez des colonnes et modifiez l’ordre dans lequel elles s’affichent.
+Dans la fenêtre **Configurer des colonnes**, ajoutez ou supprimez des colonnes et modifiez leur ordre d’affichage.
 
-Par exemple, pour les paramètres suivants :
+Par exemple, pour les paramètres suivants :
 
 ![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
-La liste affiche les colonnes suivantes :
+La liste affiche les colonnes suivantes :
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-Utilisez la variable **Afficher les attributs avancés** pour afficher tous les attributs de la liste active. [En savoir plus](#adv-attributes)
+Utilisez le bouton **Afficher les attributs avancés** pour afficher tous les attributs de la liste actuelle. [En savoir plus](#adv-attributes)
 
 ## Trier les données {#sort-lists}
 
 Vous pouvez également trier les éléments de la liste en cliquant sur l’en-tête d’une colonne. Une flèche s’affiche (vers le haut ou vers le bas) pour indiquer que la liste est triée sur cette colonne.
 
-Pour les colonnes numériques ou de date, la variable **Monter** la flèche indique que la liste est triée dans l’ordre croissant lorsque la variable **Descendre** la flèche indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont classées par ordre alphabétique.
+Pour les colonnes numériques ou de date, la flèche vers le **haut** indique que la liste est triée par ordre croissant, tandis que la flèche vers le **bas** indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont classées par ordre alphabétique.
 
 ## Filtres intégrés {#list-built-in-filters}
 
@@ -47,19 +47,19 @@ Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de re
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-Vous pouvez, par exemple, filtrer les diffusions selon leur état, canal, date de contact ou dossier. Vous pouvez également masquer les tests.
+Vous pouvez, par exemple, filtrer les diffusions selon leur statut, leur canal, leur date de contact ou leur dossier. Vous pouvez également masquer les tests.
 
 ## Filtres personnalisés{#list-custom-filters}
 
-Pour créer des filtres personnalisés sur les données, accédez au bas des filtres et cliquez sur le bouton **Ajouter des règles** bouton .
+Pour créer des filtres personnalisés sur les données, naviguez jusqu’au bas des filtres et cliquez sur le bouton **Ajouter des règles**.
 
-Faites glisser et déposez des attributs pour créer vos critères de filtre dans le **Filtres avancés** écran.
+Faites glisser et déposez des attributs pour créer vos critères de filtre dans la fenêtre **Filtres avancés**.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-Utilisez la variable **Afficher les attributs avancés** pour afficher tous les attributs de la liste active. [En savoir plus](#adv-attributes)
+Utilisez le bouton **Afficher les attributs avancés** pour afficher tous les attributs de la liste actuelle. [En savoir plus](#adv-attributes)
 
-## Utilisation d’attributs avancés {#adv-attributes}
+## Utiliser les attributs avancés {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -77,7 +77,7 @@ Utilisez la variable **Afficher les attributs avancés** pour afficher tous les 
 >abstract="Utilisez des attributs avancés pour définir votre règle."
 
 
-Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs et les écrans de configuration des filtres. Attributs définis comme `advanced` Les attributs du schéma de données sont masqués dans les écrans de configuration.
+Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs et les fenêtres de configuration des filtres. Les attributs définis comme attributs `advanced` dans le schéma de données sont masqués dans les fenêtres de configuration.
 
 Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle : la liste des attributs est mise à jour instantanément.
 

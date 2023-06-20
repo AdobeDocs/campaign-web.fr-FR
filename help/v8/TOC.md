@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 69%
+ht-degree: 93%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 69%
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
    + E-mails {#email}
       + [Créer votre premier e-mail](email/create-email.md)
-      + Définir le contenu d&#39;un email {#content}
-         + [Configuration du contenu de l&#39;email](content/edit-content.md)
-         + Commencez à définir votre email {#start-design}
-            + [Prise en main du Concepteur d’e-mail](content/get-started-email-designer.md)
+      + Définir le contenu d’un email {#content}
+         + [Configurer le contenu de l’e-mail](content/edit-content.md)
+         + Commencer à rédiger l’e-mail {#start-design}
+            + [Commencer avec le Concepteur d’e-mail](content/get-started-email-designer.md)
             + [Démarrer en partant de zéro](content/create-email-content.md)
             + [Importer le contenu des e-mails](content/existing-content.md)
             + [Coder votre propre contenu](content/code-content.md)
             + [Utiliser des modèles de contenu d’e-mail](content/email-sample-templates.md)
-         + Concevoir votre contenu {#design-content}
+         + Concevoir le contenu {#design-content}
             + [Utiliser les composants de contenu](content/content-components.md)
             + [Ajouter des liens et suivre les messages](content/message-tracking.md)
             + [Ajouter un lien vers la page miroir](content/mirror-page.md)
@@ -53,30 +53,30 @@ ht-degree: 69%
          + [Paramètres de diffusion d’e-mail](advanced-settings/delivery-settings.md)
    + Notifications push {#push}
       + [Prise en main des notifications push](push/gs-push.md)
-      + [Créer une diffusion de notification push](push/create-push.md)
-      + [Concevoir une diffusion push](push/content-push.md)
-      + [Prévisualiser et envoyer une diffusion de notification push](push/send-push.md)
+      + [Créer une diffusion notification push](push/create-push.md)
+      + [Concevoir une diffusion de notification push](push/content-push.md)
+      + [Prévisualiser et envoyer une diffusion notification push](push/send-push.md)
    + SMS {#sms}
       + [Prise en main des diffusions SMS](sms/gs-sms.md)
       + [Créer une diffusion SMS](sms/create-sms.md)
-      + [Concevoir une diffusion SMS](sms/content-sms.md)
-      + [Prévisualiser et envoyer une diffusion SMS](sms/send-sms.md)
+      + [Créer une diffusion par SMS](sms/content-sms.md)
+      + [Prévisualiser et envoyer une diffusion par SMS](sms/send-sms.md)
    + Rendre votre contenu dynamique {#dynamic-content}
       + [Prise en main du contenu dynamique](personalization/gs-personalization.md)
       + [Ajouter de la personnalisation](personalization/personalize.md)
       + [Ajouter du contenu conditionnel](personalization/conditions.md)
-      + [Ajout de blocs de contenu intégrés](personalization/content-blocks.md)
+      + [Ajouter des blocs de contenu intégrés](personalization/content-blocks.md)
    + [Envoyer des offres](content/offers.md)
    + Prévisualiser et tester votre diffusion {#preview-test}
       + [À propos de la prévisualisation et du test](preview-test/preview-test.md)
       + [Prévisualiser le contenu du message](preview-test/preview-content.md)
       + [Envoyer des diffusions test](preview-test/proofs.md)
-      + [Rendre votre email](preview-test/email-rendering.md)
+      + [Rendu de l’e-mail](preview-test/email-rendering.md)
 + Audiences et destinataires {#audiences}
-   + [Prise en main des audiences](audience/about-audiences.md)
+   + [Commencer avec les audiences](audience/about-audiences.md)
    + [Sélectionner une audience existante](audience/add-audience.md)
    + [Définir une audience à l’aide du créateur de règles](audience/segment-builder.md)
-   + [Chargement d’une audience de courrier électronique à partir d’un fichier](audience/file-audience.md)
+   + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
    + [Utiliser une audience Adobe Experience Platform](audience/aep-audience.md)
    + [Configurer une population témoin](audience/control-group.md)
 + Campagnes cross-canal {#campaigns}
@@ -89,23 +89,23 @@ ht-degree: 69%
    + Créer et exécuter votre premier workflow {#create-workflow}
       + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
       + [Créer le workflow](workflows/create-workflow.md)
-      + [Orchestration des activités](workflows/orchestrate-activities.md)
+      + [Orchestrer les activités](workflows/orchestrate-activities.md)
       + [Configurer les paramètres de workflow](workflows/workflow-settings.md)
-      + [Démarrer et suivre le workflow](workflows/start-monitor-workflows.md)
+      + [Démarrer et surveiller le workflow](workflows/start-monitor-workflows.md)
    + Utiliser les activités de workflow {#design-workflows}
       + [À propos des activités de workflow](workflows/activities/about-activities.md)
-      + [Et rejoindre](workflows/activities/and-join.md)
+      + [Rendez-vous](workflows/activities/and-join.md)
       + [Créer une audience](workflows/activities/build-audience.md)
       + [Combiner](workflows/activities/combine.md)
-      + [Email, SMS, Push](workflows/activities/channels.md)
+      + [E-mail, SMS, notification push](workflows/activities/channels.md)
       + [Enrichissement](workflows/activities/enrichment.md)
       + [Branchement](workflows/activities/fork.md)
       + [Attente](workflows/activities/wait.md)
-+ Reporting {#reports}
++ Rapports {#reports}
    + [Commencer avec les rapports](reporting/gs-reports.md)
    + Rapports sur les diffusions {#delivery-report}
-      + [Accès aux rapports de diffusion](reporting/delivery-reports.md)
-      + [Rapport Diffusion Email](reporting/email-report.md)
-      + [Rapport Diffusion push](reporting/push-report.md)
+      + [Accéder aux rapports de diffusion](reporting/delivery-reports.md)
+      + [Rapport de diffusion par e-mail](reporting/email-report.md)
+      + [Rapport de diffusion des notifications push](reporting/push-report.md)
       + [Rapport de diffusion SMS](reporting/sms-report.md)
    + [Rapports de campagne](reporting/campaign-reports.md)

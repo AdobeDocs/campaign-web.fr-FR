@@ -7,7 +7,7 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -60,6 +60,6 @@ ht-degree: 91%
 
 1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour le ou la destinataire.
 
-1. Cliquez sur **[!UICONTROL Configuration des paramètres de diffusion]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
+1. Cliquez sur **[!UICONTROL Configurer les paramètres de diffusion]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 
    ![](assets/sms_create_3.png)

@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 22%
+ht-degree: 49%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 22%
 
 Une fois le contenu de votre diffusion défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester avant d&#39;envoyer le message.
 
-Il s’agit d’une étape essentielle pour s’assurer qu’elle est exacte, mais également exempte d’erreurs dans les paramètres de contenu et de personnalisation.
+Il s’agit d’une étape cruciale pour s’assurer qu’il est exact, mais également exempt d’erreurs au niveau du contenu et des paramètres de personnalisation.
 
-Pour ce faire, procédez comme suit : [!DNL Adobe Campaign] vous permet d’effectuer les opérations suivantes :
+Pour ce faire, [!DNL Adobe Campaign] vous permet d’effectuer les opérations suivantes :
 
 * [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
 * [Envoyer des diffusions test](proofs.md) à des destinataires ou des abonnés spécifiques à des fins de test et de validation ;
-* [Vérifier le rendu des e-mails](email-rendering.md) pour les clientes et clients de bureau, mobiles et web les plus courants
+* [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
 
 Ces actions peuvent être effectuées à l’aide de la variable **[!UICONTROL Simulation du contenu]** accessible à partir de l&#39;écran d&#39;édition du contenu de votre diffusion.
 
@@ -38,4 +38,4 @@ Ces actions peuvent être effectuées à l’aide de la variable **[!UICONTROL S
 
 >[!NOTE]
 >
->La simulation de contenu est également disponible à partir de la [synthèse de diffusion](../monitor/prepare-send.md) après avoir cliqué sur le bouton **[!UICONTROL Vérifier et envoyer]** bouton .
+>La simulation de contenu est également disponible à partir de la [synthèse des diffusions](../monitor/prepare-send.md) après avoir cliqué sur le bouton **[!UICONTROL Vérifier et envoyer]**.

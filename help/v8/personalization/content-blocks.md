@@ -9,38 +9,38 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 66%
+ht-degree: 99%
 
 ---
 
 
 # Blocs de contenu intégrés {#ootb-content-blocks}
 
-Adobe Campaign propose une liste de blocs de contenus pré-paramétrés. Ces blocs de contenu sont dynamiques, personnalisés et possèdent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir.
+Adobe Campaign propose une liste de blocs de contenus pré-paramétrés. Ces blocs de contenu sont dynamiques, personnalisés et contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir.
 
-Pour ajouter un bloc de contenu dans une diffusion, procédez comme suit :
+Pour ajouter un bloc de contenu dans une diffusion, procédez comme suit :
 
-1. Ouvrez une diffusion et éditez son contenu.
+1. Ouvrez une diffusion et modifiez son contenu.
 
-1. Localisez le champ dans lequel vous souhaitez ajouter un bloc de contenu et cliquez sur le bouton **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour ouvrir l’éditeur d’expression.
+1. Localisez le champ dans lequel vous souhaitez ajouter un bloc de contenu et cliquez sur l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour afficher l’éditeur d’expression.
 
    ![](assets/content-block-access.png){width="800" align="center"}
 
-1. Dans l’éditeur d’expression, accédez au **[!UICONTROL Blocs de contenu]** menu de gauche.
+1. Dans l’éditeur d’expression, accédez au menu de gauche **[!UICONTROL Blocs de contenu]**.
 
-1. Pour ajouter un bloc de contenu, positionnez-vous à l&#39;emplacement de votre choix dans votre contenu, puis cliquez sur le bouton &quot;+&quot; pour l&#39;insérer.
+1. Pour ajouter un bloc de contenu, placez le curseur de la souris à l’emplacement souhaité au sein de votre contenu, puis cliquez sur le bouton « + » pour l’insérer.
 
    ![](assets/content-blocks.png){width="800" align="center"}
 
 Les blocs de contenu intégrés sont les suivants :
 
-* **[!UICONTROL Validation de la personnalisation Purl]**
-* **[!UICONTROL Bannière d’exclusion par défaut]**
-* **[!UICONTROL Enabled by Adobe Campaign]** : insère le logo « Enabled by Adobe Campaign ».
+* **[!UICONTROL Approbation de la personnalisation Purl]**
+* **[!UICONTROL Bannière de désinscription par défaut]**
+* **[!UICONTROL Enabled by Adobe Campaign]** : insère le logo « Enabled by Adobe Campaign ».
 * **[!UICONTROL Pré-remplissage Facebook]**
 * **[!UICONTROL Fonction de formatage d’un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
 * **[!UICONTROL Salutations]** : permet d’insérer des salutations avec le nom complet du ou de la destinataire, suivi d’une virgule. Exemple : « Bonjour Pierre Martin, ».
-* **[!UICONTROL Insertion d’un logo]**: insère un logo défini dans les paramètres de l’instance.
+* **[!UICONTROL Insertion du logo]** : insère un logo défini dans les paramètres de l’instance.
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la [page miroir](../content/mirror-page.md). Le format par défaut est : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici »
 * **[!UICONTROL URL de page miroir]** : insère l’URL de page miroir qui permet aux concepteurs et conceptrices de diffusion de vérifier le lien.
 * **[!UICONTROL Style de notification]**
@@ -55,5 +55,5 @@ Les blocs de contenu intégrés sont les suivants :
 
 >[!NOTE]
 >
->Vous pouvez définir de nouveaux blocs à partir de la console Adobe Campaign v8 qui permettent d&#39;optimiser la personnalisation de vos diffusions. En savoir plus dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+>Vous pouvez définir de nouveaux blocs à partir de la console Adobe Campaign v8 afin d’optimiser la personnalisation de vos diffusions. En savoir plus dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=fr#create-custom-personalization-blocks){target="_blank"}.
 

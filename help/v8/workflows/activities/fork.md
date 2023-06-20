@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Utilisation de l’activité de workflow Branchement
-description: Découvrez comment utiliser l’activité de workflow Branchement
+title: Utiliser l’activité de workflow Branchement
+description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 19%
+ht-degree: 98%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 19%
 
 ## Configuration
 
-Procédez comme suit pour configurer la variable **Branchement** activité :
+Procédez comme suit pour configurer l’activité **Branchement** :
 
-1. Ajouter un **Branchement** à votre workflow.
+1. Ajoutez une activité **Branchement** à votre workflow.
 1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
 1. Ajoutez un libellé à chacune de vos transitions.
 
 ## Exemple
 
-L’exemple suivant, nous utilisons deux **Branchement** activités :
+Dans l’exemple suivant, nous utilisons deux activités **Branchement** :
 
-* Un avant les deux requêtes, pour les exécuter en même temps.
-* Une fois l&#39;intersection terminée, pour envoyer simultanément un email et un SMS à la population ciblée.
+* Une avant les deux requêtes, pour les exécuter en même temps.
+* Une après l’intersection, pour envoyer simultanément un e-mail et un SMS à la population ciblée.
 
 ![](../assets/workflow-fork-example.png)
 

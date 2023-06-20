@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -23,8 +23,8 @@ Cette section explique comment sélectionner une audience existante lors de la d
 
 Vous pouvez également procéder comme suit :
 
-* Créez une nouvelle audience. [En savoir plus](segment-builder.md)
-* Charger une audience à partir d&#39;un fichier externe. [En savoir plus](file-audience.md)
+* Créez une audience. [En savoir plus](segment-builder.md)
+* Chargez une audience à partir d’un fichier externe. [En savoir plus](file-audience.md)
 * Utilisez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md).
 
 
@@ -36,7 +36,7 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
 1. Choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante. Afin de créer une nouvelle audience pour cet e-mail, choisissez **Créer la vôtre**. Reportez-vous à cette [section](segment-builder.md).
 
-   Cet écran affiche toutes les audiences existantes définies dans la console cliente Adobe Campaign, pour le dossier actif.
+   Cet écran affiche toutes les audiences existantes définies dans la console cliente Adobe Campaign, pour le dossier actuel.
 
    ![](assets/create-audience2.png)
 

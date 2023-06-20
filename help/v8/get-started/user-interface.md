@@ -6,8 +6,8 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
 source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1318'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Découvrir l’interface"
->abstract="La nouvelle interface web de Campaign v8 offre une expérience utilisateur intégrée, intuitive et cohérente."
+>abstract="La nouvelle interface de Campaign v8 Web offre une expérience client intégrée, intuitive et cohérente."
 
 La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée à Adobe Experience Platform.
 
@@ -36,24 +36,24 @@ Parcourez les liens situés à gauche pour accéder aux fonctionnalités de Camp
 
 Les liens et les ressources clés de cet écran offrent un accès rapide aux principales fonctionnalités de Campaign v8 Web.
 
-La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche les dates de canal, d’état, de propriétaire, de création et de modification.
+La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, le ou la propriétaire, les dates de création et de modification.
 
-Accédez aux pages d&#39;aide de la clé Web de Campaign v8 à partir de **Formation** de la page d’accueil.
+Accédez aux pages principales d’aide de Campaign v8 Web depuis la section **Formation** de la page d’accueil.
 
 ### Explorateur {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorateur"
->abstract="Le **Explorateur** affiche tous les composants et objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous les composants, dossiers et schémas de Campaign v8 et créez des diffusions, des workflows et des campagnes. Toutes les autres listes sont en lecture seule."
+>abstract="Le menu **Explorateur** affiche tous les composants et objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous les composants, dossiers et schémas de Campaign v8 et créez des diffusions, des workflows et des campagnes. Toutes les autres listes sont en lecture seule."
 
-Le **Explorateur** affiche toutes les ressources et tous les objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous les composants, dossiers et schémas de Campaign v8 et créez des diffusions, des workflows et des campagnes. Toutes les autres listes sont en lecture seule.
+Le menu **Explorateur** affiche toutes les ressources et tous les objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous les composants, dossiers et schémas de Campaign v8 et créez des diffusions, des workflows et des campagnes. Toutes les autres listes sont en lecture seule.
 
 Les éléments affichés dans l’Explorateur dépendent de vos autorisations utilisateur.
 
 Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes pour personnaliser l’affichage en fonction des informations que vous souhaitez. Consultez cette [section](#list-screens).
 
-Pour plus d&#39;informations sur l&#39;explorateur Campaign, la hiérarchie des dossiers et les ressources, reportez-vous à cette section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
+Pour plus d’informations sur l’explorateur Campaign, la hiérarchie des dossiers et les ressources, reportez-vous à la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
 
 ### Campaign Management {#user-interface-campaign-management}
 
@@ -64,7 +64,7 @@ Pour plus d&#39;informations sur l&#39;explorateur Campaign, la hiérarchie des 
 
 
 
-Dans la section CAMPAIGN MANAGEMENT , vous pouvez accéder aux campagnes marketing, aux diffusions et aux workflows.
+Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketing, aux diffusions et aux workflows.
 
 * **Campagnes** : il s’agit de la liste de vos campagnes et modèles de campagne. Par défaut, pour chaque campagne, vous pouvez afficher les dates de début, de fin, de création, de dernière modification, le statut actuel et le nom de l’opérateur ou de l’opératrice Campaign qui l’a créée. Vous pouvez filtrer la liste par statut, dates de début et de fin, ou par dossier, ou créer un filtre avancé afin de définir vos propres critères de filtrage. En savoir plus sur les campagnes [dans cette section](../campaigns/gs-campaigns.md).
 
@@ -95,11 +95,11 @@ Dans la section CAMPAIGN MANAGEMENT , vous pouvez accéder aux campagnes marketi
 >abstract="Parcourez les listes d’abonnements. Vous pouvez consulter leur type, mode et libellé. Cette liste est en lecture seule."
 
 
-Dans la section GESTION DES CLIENTS , vous pouvez afficher vos destinataires, audiences et abonnements. Ces listes sont en lecture seule.
+Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos audiences et vos abonnements. Ces listes sont en lecture seule.
 
-* **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. En savoir plus sur les destinataires dans [Documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
-* **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. En savoir plus sur les audiences et les listes dans [Documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
-* **Abonnements** - Parcourez vos listes d&#39;abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Découvrez comment gérer les abonnements et les désabonnements dans [Documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
+* **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. En savoir plus sur les destinataires dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html?lang=fr){target="_blank"}.
+* **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. En savoir plus sur les audiences et les listes dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=fr){target="_blank"}.
+* **Listes d’abonnements** : parcourez vos listes d’abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Découvrez comment gérer les abonnements et les désabonnements dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=fr){target="_blank"}.
 
 ### Gestion des décisions
 
@@ -110,11 +110,11 @@ Dans la section GESTION DES CLIENTS , vous pouvez afficher vos destinataires, au
 
 * **Offres** - Parcourez votre liste d’offres d’interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par état et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
 
-Découvrez comment créer des offres dans [Documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
+Découvrez comment créer et gérer des offres dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 
-## Barre supérieure  
+## Barre supérieure
 
-Utilisez la barre supérieure de l’interface pour :
+La barre supérieure de l’interface vous permet d’effectuer les actions suivantes :
 
 * partager vos commentaires en tant que testeur ou testeuse Alpha,
 * basculer entre les organisations et les instances,
@@ -128,7 +128,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## Aide contextuelle {#contextual-help}
 
-Une aide contextuelle est disponible dans l’interface. Lorsque cette option est disponible, cliquez sur le `?` pour afficher des informations d’aide et des liens vers la documentation connexe.
+Une aide contextuelle est disponible dans l’interface. Si elle est présente, cliquez sur l’icône `?` pour afficher des informations d’aide et des liens vers la documentation connexe.
 
 ![](assets/context-help.png){width="40%" align="left"}
 
@@ -170,7 +170,7 @@ La langue de votre interface par défaut est déterminée par la langue préfér
 Pour changer de langue :
 
 1. Cliquez sur l’icône de votre profil, en haut à droite, puis sélectionnez **Préférences**.
-1. Cliquez ensuite sur le lien de la langue affiché sous votre adresse email.
+1. Cliquez ensuite sur le lien de la langue affichée sous votre adresse e-mail.
 1. Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez n’est pas localisé dans votre première langue.
 
 
@@ -269,7 +269,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Diffusés"
->abstract="IPC distribués"
+>abstract="KPI pour les messages diffusés"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
@@ -279,7 +279,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clics"
->abstract="IPC de clics"
+>abstract="KPI pour les clics"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
@@ -289,9 +289,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Indésirables"
->abstract="IPC de spam"
+>abstract="KPI pour le courrier indésirable"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
 >title="Erreurs"
->abstract="Indicateur de performance clé des erreurs"
+>abstract="KPI pour les erreurs"

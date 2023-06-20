@@ -6,50 +6,50 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
 
-# Orchestration des activités {#orchestrate}
+# Orchestrer les activités {#orchestrate}
 
-Une fois que vous avez [création d’un workflow](create-workflow.md), que ce soit à partir du menu de workflow ou dans une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera. Pour ce faire, un canevas visuel est fourni, vous permettant de construire un diagramme de workflow. Dans ce diagramme, vous pouvez ajouter différentes activités et les connecter dans un ordre séquentiel.
+Une fois que vous avez réussi à [créer un workflow](create-workflow.md), à partir du menu de workflow ou au sein d’une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’il exécutera. Pour ce faire, une zone de travail visuelle dédiée vous permet de créer un diagramme de workflow. Dans ce diagramme, vous pouvez ajouter différentes activités et les enchaîner dans un ordre séquentiel.
 
-A ce stade de la configuration, le diagramme s&#39;affiche avec une icône de démarrage représentant le début de votre workflow. Pour ajouter votre première activité, cliquez sur le bouton + connecté à l&#39;icône de début.
+À ce stade de la configuration, le diagramme comporte une icône de démarrage, qui représente le début de votre workflow. Pour ajouter votre première activité, cliquez sur le bouton + associé à l’icône de démarrage.
 
-Une liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de workflow. Par exemple, lorsque vous ajoutez votre première activité, vous pouvez démarrer votre workflow en ciblant une audience, en fractionnant le chemin du workflow ou en définissant une activité Attente pour retarder l&#39;exécution du workflow. D’un autre côté, après une activité Créer une audience , vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de workflow avec des activités de contrôle de flux.
+La liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de workflow. Par exemple, lorsque vous ajoutez votre première activité pour démarrer votre workflow, vous pouvez cibler une audience, fractionner le chemin du workflow ou définir une activité Attente pour retarder l’exécution du workflow. D’autres choix s’offrent à vous après une activité Créer une audience : vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus du workflow avec des activités de contrôle de flux.
 
 ![](assets/workflow-start.png)
 
-Une fois qu’une activité a été ajoutée au diagramme, un volet de droite s’affiche, vous permettant de configurer l’activité nouvellement ajoutée avec des paramètres spécifiques. Des informations détaillées sur la configuration de chaque activité sont disponibles dans la section [cette section](activities/about-activities.md).
+Une fois qu’une activité a été ajoutée au diagramme, un volet s’affiche à droite. Il vous permet de définir des paramètres spécifiques pour l’activité. Des informations détaillées sur la configuration de chacune des activités sont disponibles dans [cette section](activities/about-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 
-Répétez ce processus pour ajouter autant d&#39;activités que vous le souhaitez en fonction des tâches que votre workflow doit exécuter. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour cela, cliquez sur le bouton + de la transition entre les activités, sélectionnez l&#39;activité souhaitée et paramétrez-la dans le volet de droite.
+Répétez ce processus pour ajouter autant d’activités que vous le souhaitez en fonction des tâches que votre workflow doit exécuter. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton + sur la transition entre les activités, puis sélectionnez l’activité souhaitée et configurez-la dans le volet de droite.
 
-Pour supprimer une activité, sélectionnez-la dans la zone de travail, puis cliquez sur l’icône Supprimer dans les propriétés de l’activité.
+Pour supprimer une activité, sélectionnez-la dans la zone de travail et cliquez sur l’icône Supprimer dans les propriétés de l’activité.
 
 >[!TIP]
 >
->Vous avez la possibilité de personnaliser le nom des transitions entre chaque activité. Pour cela, sélectionnez la transition et modifiez son libellé dans le volet de droite.
+>Vous pouvez personnaliser le nom des transitions entre chaque activité. Pour ce faire, sélectionnez la transition et modifiez son libellé dans le volet de droite.
 
-Voici un exemple de workflow conçu pour envoyer un email à tous les clients (autres que les clients VIP) avec un email qui s’intéresse aux machines à café.
+Voici un exemple de workflow permettant d’envoyer un e-mail à l’ensemble de la clientèle (autres que les clients et clientes VIP) qui s’intéresse aux machines à café.
 
 ![](assets/workflow-example.png)
 
-Pour ce faire, les activités ci-dessous ont été ajoutées :
+Dans le cadre de ce workflow, les activités suivantes ont été ajoutées :
 
-* A **[!UICONTROL Branchement]** activité qui divise le workflow en trois chemins (un pour chaque ensemble de clients),
-* **[!UICONTROL Créer une audience]** des activités destinées à cibler les trois ensembles de clients :
+* une activité **[!UICONTROL Branchement]** qui divise le workflow en trois chemins (un pour chaque ensemble de clients et clientes)
+* des activités **[!UICONTROL Créer une audience]** destinées à cibler les trois ensembles de clients et clientes :
 
-   * Clients disposant d’un email,
-   * Clients appartenant à l’audience préexistante &quot;Interrested in Coffee Machine(s)&quot;,
-   * Clients appartenant à l’audience préexistante &quot;VIP ou récompense&quot;.
+   * les clients et clientes disposant d’une adresse e-mail
+   * les clients et clientes appartenant à l’audience préexistante « Intéressés par la ou les machines à café »
+   * les clients et clientes appartenant à l’audience préexistante « VIP ou récompense »
 
-* A **[!UICONTROL Combiner]** une activité qui regroupe les clients avec un email et ceux intéressés par les machines à café,
-* A **[!UICONTROL Combiner]** une activité qui exclut VIP clients,
-* Un **[!UICONTROL Diffusion Email]** activité qui envoie un email aux clients qui en résultent.
+* une activité **[!UICONTROL Combiner]** qui regroupe les clients et clientes disposant d’une adresse e-mail et ceux ou celles intéressés par les machines à café
+* une activité **[!UICONTROL Combiner]** qui exclut les clients et clientes VIP
+* une activité **[!UICONTROL Diffusion e-mail]** qui envoie un e-mail aux clients et clientes correspondants
 
-Une fois le workflow terminé, ajoutez en **[!UICONTROL Fin]** à la fin du diagramme. Cette activité permet de marquer visuellement la fin d&#39;un workflow et n&#39;a aucun impact fonctionnel.
+Une fois le workflow terminé, ajoutez l’activité **[!UICONTROL Fin]** à la fin du diagramme. Cette activité permet d’illustrer la fin d’un workflow et n’a aucun impact sur celui-ci.
 
-Une fois le diagramme de workflow conçu, vous pouvez l’exécuter et suivre l’avancement de ses différentes tâches. [Découvrez comment démarrer un workflow et surveiller son exécution.](start-monitor-workflows.md)
+Une fois le diagramme de workflow conçu, vous pouvez l’exécuter et suivre la progression des différentes tâches. [Découvrez comment démarrer un workflow et surveiller son exécution.](start-monitor-workflows.md)

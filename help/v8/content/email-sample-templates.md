@@ -6,13 +6,13 @@ badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 8%
+ht-degree: 98%
 
 ---
 
 # Utiliser des modèles d’e-mails {#email-saved-content-templates}
 
-When [création d’un email](../email/create-email.md), utilisez le **[!UICONTROL Sélectionner un modèle de conception]** de la section **[!UICONTROL Créer votre email]** pour commencer à créer votre contenu à partir d’un modèle.
+Lors de la [création d’un e-mail](../email/create-email.md), accédez à la section **[!UICONTROL Sélectionner un modèle de conception]** de l’interface **[!UICONTROL Créer votre e-mail]** pour commencer à créer votre contenu à partir d’un modèle.
 
 ![](assets/email_designer-sample-templates.png)
 
@@ -20,9 +20,9 @@ Campaign s’accompagne d’un ensemble de modèles intégrés que vous pouvez s
 
 Pour commencer à créer votre contenu avec l’un des exemples de modèles, procédez comme suit.
 
-1. Ouvrez le [Concepteur d&#39;email](get-started-email-designer.md).
+1. Ouvrez le [concepteur d’e-mail](get-started-email-designer.md).
 
-1. Sur le **[!UICONTROL Créer votre email]** écran, liste des **[!UICONTROL Exemples de modèles]**  s’affiche.
+1. Sur l’écran **[!UICONTROL Créer votre e-mail]**, la liste des **[!UICONTROL Exemples de modèles]** s’affiche.
 
 1. Sélectionnez un modèle dans la liste pour afficher son contenu.
 
@@ -32,4 +32,4 @@ Pour commencer à créer votre contenu avec l’un des exemples de modèles, pro
 
 1. Cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite de l’écran.
 
-1. Modifiez votre contenu selon vos besoins à l&#39;aide du Concepteur d&#39;email. [En savoir plus](create-email-content.md)
+1. Modifiez le contenu selon vos besoins à l’aide du concepteur d’e-mail. [En savoir plus](create-email-content.md)

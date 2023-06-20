@@ -7,19 +7,19 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 62%
+ht-degree: 97%
 
 ---
 
-# Accéder aux rapports Diffusion {#reports}
+# Accéder aux rapports de diffusion {#reports}
 
 Adobe Campaign propose plusieurs types de rapports, accessibles pour chaque diffusion. Ces rapports vous permettent de mesurer et de visualiser l’impact et les performances de vos messages dans un tableau de bord intégré.
 
 Pour afficher les rapports, procédez comme suit :
 
-1. Pour générer un rapport pour une diffusion spécifique, accédez au **[!UICONTROL Diffusions]** et sélectionnez la diffusion sur laquelle vous souhaitez créer un rapport.
+1. Pour générer un rapport concernant une diffusion spécifique, accédez au menu **[!UICONTROL Diffusions]** et sélectionnez la diffusion pour laquelle vous souhaitez créer un rapport.
 
-1. À partir de **[!UICONTROL Diffusion]** tableau de bord, cliquez sur **[!UICONTROL Rapports]**.
+1. Dans le tableau de bord de la **[!UICONTROL Diffusion]**, cliquez sur **[!UICONTROL Rapports]**.
 
    ![](assets/reporting2.png)
 

@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 46%
+ht-degree: 68%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 46%
 >title="Ajouter un pré-titre"
 >abstract="Un pré-titre est un bref résumé qui suit l’objet d’un e-mail lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail et contient généralement une seule phrase."
 
-Un pré-titre est un texte court qui suit l’objet d’un email lorsqu’il est affiché à partir d’un client de messagerie majeur.
+Un pré-titre est un texte court qui suit l’objet d’un e-mail lorsque vous le visualisez depuis n’importe quel client de messagerie principal.
 
-Dans de nombreux cas, il fournit un bref résumé du contenu, généralement d’une seule phrase.
+Dans de nombreux cas, il fournit un bref résumé du contenu et contient généralement une seule phrase.
 
 >[!NOTE]
 >
 >Les pré-titres ne sont pas pris en charge par tous les clients de messagerie. Le pré-titre ne s’affiche pas s’il n’est pas pris en charge.
 
-Pour définir le pré-titre de l&#39;email, procédez comme suit.
+Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
 1. Dans la [Concepteur d&#39;email](create-email-content.md), ajoutez au moins un **[!UICONTROL Structure]** pour commencer à concevoir votre email.
 

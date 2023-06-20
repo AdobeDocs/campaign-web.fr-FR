@@ -7,21 +7,21 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 99%
 
 ---
 
-# Prise en main de Campaign  Web {#get-started}
+# Commencer avec Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Nouveautés"
->abstract="Découvrez la nouvelle interface utilisateur Web de Campaign, les dernières améliorations, les principales fonctionnalités. Découvrez comment les utiliser pour créer des campagnes cross-canal pour vos audiences. Grâce à ses fonctionnalités conviviales, Campaign vous permet de rationaliser le processus personnalisé de création de campagnes cross-canal, de générer des résultats et d’obtenir un avantage concurrentiel. "
+>abstract="Découvrez la nouvelle interface utilisateur de Campaign Web, les dernières améliorations et les principales fonctionnalités. Découvrez comment les utiliser pour créer des campagnes cross-canal pour vos audiences. Grâce à ses fonctionnalités conviviales, Campaign vous permet de rationaliser le processus personnalisé de création de campagnes cross-canal, de générer des résultats et d’obtenir un avantage concurrentiel. "
 
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.
 
-Initialement disponible uniquement par l’intermédiaire d’un [console cliente](#ac-client), Campaign propose désormais une nouvelle interface utilisateur (interface utilisateur) web avec une convivialité améliorée, une meilleure accessibilité et une nouvelle conception pour améliorer considérablement votre expérience utilisateur. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
+Initialement accessible uniquement par le biais d’une [console cliente](#ac-client), Campaign offre à présent une nouvelle interface utilisateur web avec une convivialité et une accessibilité accrues, ainsi qu’une nouvelle conception qui améliore considérablement votre expérience en tant que client ou cliente. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
 ![](assets/home.png)
 
@@ -36,9 +36,9 @@ Si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas dispo
 
 ## Se connecter à Campaign
 
-Pour vous connecter au web Adobe Campaign, procédez comme suit :
+Pour vous connecter à Adobe Campaign Web, procédez comme suit :
 
-1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
+1. Connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Connectez-vous à l’aide de vos informations d’identification Adobe.
 1. Dans la section **Accès rapide**, cliquez sur **Campaign**.
 
@@ -48,7 +48,7 @@ Pour vous connecter au web Adobe Campaign, procédez comme suit :
 
    Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à utiliser l’interface utilisateur sur [cette page](user-interface.md).
 
-Si vous êtes déjà connecté à une autre solution Adobe Experience Cloud, vous pouvez également accéder à votre environnement Campaign à partir du sélecteur de solution situé en haut à droite de votre écran.
+Si vous disposez déjà d’une connexion à une autre solution Adobe Experience Cloud, vous pouvez également accéder à votre environnement Campaign à partir du sélecteur de solution situé en haut à droite de votre écran.
 
 ## À propos de la console cliente Campaign {#ac-client}
 
@@ -56,6 +56,6 @@ La console cliente Campaign est une application de navigateur installée sur vot
 
 Les données de Campaign sont stockées dans le serveur d’applications. Les données sont disponibles sur la console cliente et sur l’interface utilisateur web. Par exemple, si vous créez un modèle de diffusion à partir de la console cliente, il est également disponible dans l’interface web. De même, si vous créez une diffusion e-mail dans l’interface utilisateur web, celle-ci est également accessible sur la console cliente.
 
-Certains objets ne peuvent être créés et gérés que dans la console cliente. Ils peuvent être visibles et utilisés dans l&#39;interface utilisateur web de Campaign, mais ne peuvent pas être créés ni modifiés à partir de cet environnement. Tous les objets et composants de Campaign sont disponibles dans la vue Explorateur, à partir du volet de navigation de gauche.
+Certains objets ne peuvent être créés et gérés que dans la console cliente. Ils peuvent être visibles et utilisés dans l’interface utilisateur de Campaign Web, mais ne peuvent pas être créés ni modifiés à partir de cet environnement. Tous les objets et composants de Campaign sont disponibles dans la vue Explorateur, à partir du volet de navigation de gauche.
 
-Pour plus d&#39;informations sur l&#39;utilisation de Campaign v8, reportez-vous à la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur l’utilisation de Campaign v8, reportez-vous à la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.
