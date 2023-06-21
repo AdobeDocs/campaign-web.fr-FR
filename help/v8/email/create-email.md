@@ -29,7 +29,7 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="Sélectionnez un modèle d’e-mail."
+>title="Sélectionner le modèle d’e-mail"
 >abstract="Un modèle d’e-mail est une configuration de diffusion spécifique qui contient des paramètres prédéfinis, tels que des règles de typologie, des paramètres de personnalisation ou de routage. Les modèles sont définis dans la console cliente Campaign."
 
 >[!CONTEXTUALHELP]
