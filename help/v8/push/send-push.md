@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer une diffusion par notification push
 description: Découvrez comment envoyer une diffusion par notification push dans Adobe Campaign Web.
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 57%
+ht-degree: 55%
 
 ---
 
@@ -49,7 +49,7 @@ Les destinataires du test vérifient alors divers éléments, tels que les liens
 
    ![](assets/push_send_2.png)
 
-1. Cliquez sur **[!UICONTROL Préparer]**et suivez la progression et les statistiques fournies.
+1. Cliquez sur **[!UICONTROL Préparer]** et suivre les progrès et les statistiques fournis.
 
    En cas d’erreur, reportez-vous au menu Journaux pour obtenir des informations détaillées sur l’échec.
 

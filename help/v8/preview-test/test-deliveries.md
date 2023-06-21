@@ -4,10 +4,10 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 13%
+source-wordcount: '941'
+ht-degree: 14%
 
 ---
 
@@ -82,7 +82,7 @@ Pour sélectionner les destinataires d&#39;une diffusion test, procédez comme s
 
 Pour envoyer un email ou un SMS de test à une adresse électronique ou un numéro de téléphone spécifique tout en affichant les données d’un profil existant de la variable [!DNL Campaign] base de données, utilisez des profils de substitution.
 
-1. Avant d&#39;envoyer un test, veillez à définir une audience pour votre diffusion. [En savoir plus](../audience/about-audiences.md)
+1. Avant d&#39;envoyer un test, veillez à définir une audience cible pour votre diffusion. [En savoir plus](../audience/about-audiences.md)
 
 1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion email ou SMS, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 
@@ -104,7 +104,7 @@ Pour envoyer un email ou un SMS de test à une adresse électronique ou un numé
    >
    >Vous pouvez saisir n’importe quelle adresse électronique ou numéro de téléphone. Vous pouvez ainsi envoyer des diffusions test à n’importe quel destinataire, même s’il n’est pas un utilisateur de [!DNL Adobe Campaign].
 
-1. Sélectionnez le profil de la base de données à utiliser en remplacement. Vous pouvez également sélectionner [!DNL Adobe Campaign] sélectionnez un profil aléatoire. Les données de profil du profil sélectionné seront affichées dans la diffusion test.
+1. Sélectionnez le profil de la cible que vous avez définie pour votre diffusion à utiliser en remplacement. Vous pouvez également laisser [!DNL Adobe Campaign] sélectionner un profil aléatoire à partir de la cible. Les données de profil du profil sélectionné seront affichées dans la diffusion test.
 
 1. Confirmez le destinataire et renouvelez l&#39;opération pour ajouter autant d&#39;adresses email ou de numéros de téléphone que nécessaire.
 
