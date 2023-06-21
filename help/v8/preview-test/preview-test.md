@@ -4,9 +4,9 @@ title: À propos de la prévisualisation et du test des e-mails
 description: Découvrez comment prévisualiser et tester des e-mails.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 49%
 
 ---
@@ -27,7 +27,7 @@ Il s’agit d’une étape cruciale pour s’assurer qu’il est exact, mais ég
 Pour ce faire, [!DNL Adobe Campaign] vous permet d’effectuer les opérations suivantes :
 
 * [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
-* [Envoyer des diffusions test](proofs.md) à des destinataires ou des abonnés spécifiques à des fins de test et de validation ;
+* [Envoyer des diffusions test](test-deliveries.md) (BAT) à des destinataires ou des abonnés spécifiques à des fins de test et de validation
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
 
 Ces actions peuvent être effectuées à l’aide de la variable **[!UICONTROL Simulation du contenu]** accessible à partir de l&#39;écran d&#39;édition du contenu de votre diffusion.

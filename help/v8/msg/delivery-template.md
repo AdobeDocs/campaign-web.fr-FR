@@ -6,8 +6,8 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
-workflow-type: ht
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ Pour enregistrer une diffusion comme modèle, procédez comme suit :
 
 1. Confirmez la duplication.
 
-1. Le nouveau tableau de bord du modèle s’ouvre dans l’écran central. Modifiez les paramètres du modèle selon vos besoins.
+1. Le nouveau tableau de bord de modèle s’ouvre dans l’écran central. Modifiez les paramètres du modèle selon vos besoins.
 
 1. Cliquez sur le bouton **[!UICONTROL Vérifier]** pour enregistrer et vérifier votre modèle. Vous pouvez toujours modifier tous ses paramètres, le supprimer et le dupliquer.
 
@@ -170,7 +170,7 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
 1. Basculez entre les différents profils pour obtenir une représentation personnalisée du message en fonction du profil sélectionné.
 
-   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    Vous pouvez également ajuster le niveau de zoom et choisir la vue pour ordinateur ou mobile.
 

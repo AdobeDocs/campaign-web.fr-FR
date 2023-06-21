@@ -5,7 +5,7 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 93%
@@ -70,7 +70,7 @@ ht-degree: 93%
    + Prévisualiser et tester votre diffusion {#preview-test}
       + [À propos de la prévisualisation et du test](preview-test/preview-test.md)
       + [Prévisualiser le contenu du message](preview-test/preview-content.md)
-      + [Envoyer des diffusions test](preview-test/proofs.md)
+      + [Envoyer des diffusions test](preview-test/test-deliveries.md)
       + [Rendu de l’e-mail](preview-test/email-rendering.md)
 + Audiences et destinataires {#audiences}
    + [Commencer avec les audiences](audience/about-audiences.md)

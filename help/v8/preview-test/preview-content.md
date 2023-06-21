@@ -4,7 +4,7 @@ title: Prévisualiser le contenu d'une diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion avec l'interface utilisateur web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 40%
@@ -55,8 +55,8 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 1. Pour les diffusions par email, vous pouvez ajuster la variable **[!UICONTROL Niveau de zoom]** et prévisualisez votre contenu sur un ordinateur ou un appareil mobile à l’aide de l’icône dédiée dans le coin supérieur droit.
 
 1. L’écran **[!UICONTROL Simuler]** vous permet également d’effectuer les actions suivantes :
-   * Envoyer des diffusions test à des destinataires spécifiques pour validation - [En savoir plus](proofs.md)
-   * Accéder aux logs des diffusions test envoyées - [En savoir plus](proofs.md#access-proofs)
+   * Envoyer des diffusions test à des destinataires spécifiques pour validation - [En savoir plus](test-deliveries.md)
+   * Accéder aux logs des diffusions test envoyées - [En savoir plus](test-deliveries.md#access-proofs)
    * Pour les emails uniquement, vérifiez le rendu du contenu des messages dans les clients de messagerie les plus courants - [En savoir plus](email-rendering.md)
 
 
