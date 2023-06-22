@@ -82,7 +82,7 @@ Pour sélectionner les destinataires d&#39;une diffusion test, procédez comme s
 
 Pour envoyer un email ou un SMS de test à une adresse électronique ou un numéro de téléphone spécifique tout en affichant les données d’un profil existant de la variable [!DNL Campaign] base de données, utilisez des profils de substitution.
 
-1. Avant d&#39;envoyer un test, veillez à définir une audience cible pour votre diffusion. [En savoir plus](../audience/about-audiences.md)
+1. Avant d&#39;envoyer un test, veillez à définir une audience cible pour votre diffusion. [En savoir plus](../audience/about-audiences.md).
 
 1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion email ou SMS, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 

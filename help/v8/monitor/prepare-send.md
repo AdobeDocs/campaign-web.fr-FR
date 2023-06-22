@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
@@ -56,7 +56,7 @@ Les principales étapes de préparation de l&#39;envoi sont répertoriées ci-de
    * **[!UICONTROL A envoyer]**: le nombre de messages qui seront envoyés.
    * **[!UICONTROL Pour exclure]**: le nombre de messages exclus par un [règle de typologie](../advanced-settings/delivery-settings.md#typology).
 
-1. Cliquez sur le bouton **[!UICONTROL Logs]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md)
+1. Cliquez sur le bouton **[!UICONTROL Logs]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md).
 
    ![](assets/email-prepare-logs.png)
 
@@ -87,7 +87,7 @@ Une fois la préparation terminée sans erreur, le message est prêt à être en
 
 Une fois que la variable [préparation](#prepare) est terminée, vous pouvez désormais envoyer votre email.
 
-Si le message est planifié, il sera envoyé à la date et à l’heure définies. [En savoir plus](#schedule-the-send)
+Si le message est planifié, il sera envoyé à la date et à l’heure définies. [En savoir plus](#schedule-the-send).
 
 ### Envoyer immédiatement {#send-immediately}
 
@@ -105,7 +105,7 @@ Pour envoyer immédiatement un email, procédez comme suit.
 
 Si vous avez planifié l&#39;envoi de votre email à une date et une heure ultérieures, procédez comme suit.
 
-1. Avant d’accéder à la variable **[!UICONTROL Vérifier et envoyer]** , veillez à définir un planning pour votre email. [En savoir plus](../email/create-email.md#schedule)
+1. Avant d’accéder à la variable **[!UICONTROL Vérifier et envoyer]** , veillez à définir un planning pour votre email. [En savoir plus](../email/create-email.md#schedule).
 
 1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **[!UICONTROL Bouton Envoyer comme planifié]** dans le coin supérieur droit.
 
@@ -147,4 +147,4 @@ Une fois l&#39;envoi terminé, vous pouvez vérifier les KPI affichés :
 >
 >Les indicateurs sont mis à jour toutes les 5 minutes après le début de la diffusion. Les indicateurs de préparation des diffusions sont en temps réel.
 
-Vous pouvez également consulter les logs. [En savoir plus](delivery-logs.md)
+Vous pouvez également consulter les logs. [En savoir plus](delivery-logs.md).

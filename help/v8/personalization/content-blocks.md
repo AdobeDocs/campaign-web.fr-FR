@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 99%
+source-wordcount: '437'
+ht-degree: 100%
 
 ---
 
@@ -34,10 +34,8 @@ Pour ajouter un bloc de contenu dans une diffusion, procédez comme suit :
 
 Les blocs de contenu intégrés sont les suivants :
 
-* **[!UICONTROL Approbation de la personnalisation Purl]**
 * **[!UICONTROL Bannière de désinscription par défaut]**
 * **[!UICONTROL Enabled by Adobe Campaign]** : insère le logo « Enabled by Adobe Campaign ».
-* **[!UICONTROL Pré-remplissage Facebook]**
 * **[!UICONTROL Fonction de formatage d’un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
 * **[!UICONTROL Salutations]** : permet d’insérer des salutations avec le nom complet du ou de la destinataire, suivi d’une virgule. Exemple : « Bonjour Pierre Martin, ».
 * **[!UICONTROL Insertion du logo]** : insère un logo défini dans les paramètres de l’instance.
