@@ -3,10 +3,10 @@ audience: end-user
 title: Parcourir, rechercher et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 92%
 
 ---
 
@@ -69,7 +69,7 @@ Utilisez le bouton **Afficher les attributs avancés** pour afficher tous les at
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Champs avancés du créateur de règles"
->abstract="Configurez les colonnes avec des champs avancés."
+>abstract="Configurez des filtres avancés avec des champs avancés."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
