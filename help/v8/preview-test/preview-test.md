@@ -1,24 +1,24 @@
 ---
 audience: end-user
-title: À propos de la prévisualisation et du test des e-mails
-description: Découvrez comment prévisualiser et tester des e-mails.
+title: A propos de l'aperçu et du test d'une diffusion
+description: Découvrez comment prévisualiser et tester des diffusions
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 49%
+source-wordcount: '179'
+ht-degree: 46%
 
 ---
 
-# A propos de l&#39;aperçu et du test d&#39;une diffusion {#about-preview-test}
+# À propos de la prévisualisation et du test {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Prévisualiser et tester vos messages"
 >abstract="Une fois le contenu du message défini, prévisualisez-le et testez-le à l’aide de profils de test."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Prévisualiser le contenu de la diffusion"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Envoyer des messages de test"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Prévisualiser le contenu du message"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Envoyer des diffusions test"
 
 Une fois le contenu de votre diffusion défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester avant d&#39;envoyer le message.
 
