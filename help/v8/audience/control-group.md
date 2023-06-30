@@ -5,9 +5,9 @@ description: Découvrez comment définir une population témoin pour vos message
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
