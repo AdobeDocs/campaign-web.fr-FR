@@ -5,9 +5,9 @@ description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe�
 badge: label="Alpha"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Le canal SMS propose trois méthodes pour créer des diffusions par SMS :
 
 * **Diffusions autonomes** : créez des diffusions SMS individuelles pour une communication rapide et directe avec vos clientes et clients, sans avoir besoin de workflows ni de campagnes.
 
-![](../assets/do-not-localize/book.png) Découvrez comment configurer le canal SMS dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Découvrez comment configurer un canal SMS dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=fr){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
