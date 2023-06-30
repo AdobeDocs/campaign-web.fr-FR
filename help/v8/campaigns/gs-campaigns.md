@@ -5,9 +5,9 @@ description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Grâce à la fonctionnalité de gestion de campagne d’Adobe Campaign, orchest
 
 Ajoutez plusieurs workflows et des diffusions spécifiques à votre campagne afin de créer des expériences personnalisées sur différents canaux. Chaque point de contact atteint alors l’audience visée.
 
-Les campagnes offrent des mesures de rapports dédiées permettant d’obtenir des informations sur les performances de l’ensemble de la campagne. Vous pouvez ainsi juger de son efficacité, identifier les tendances et prendre des décisions éclairées afin d’atteindre le plein potentiel de votre campagne. Découvrez comment accéder aux rapports de campagne et les comprendre dans [cette section](../reporting/campaign-reports.md).
+Les campagnes offrent des mesures de rapports dédiées permettant d’obtenir des informations sur les performances de l’ensemble de la campagne. Vous pouvez ainsi juger de son efficacité, identifier les tendances et prendre des décisions éclairées afin d’atteindre le plein potentiel de votre campagne. Découvrez comment accéder aux rapports de campagne et en quoi ils consistent dans [cette section](../reporting/campaign-reports.md).
 
 ![Flux de campagne](assets/campaign-flow.png)
 
-Découvrez comment créer et gérer des campagnes dans les sections suivantes :
+Découvrez comment créer et gérer des campagnes dans les sections suivantes :
 
 * [Accéder aux campagnes et les gérer](manage-campaigns.md)
 * [Créer votre première campagne](create-campaigns.md)
