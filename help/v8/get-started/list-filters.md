@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Utilisez le bouton **Afficher les attributs avancés** pour afficher tous les at
 
 Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs et les fenêtres de configuration des filtres. Les attributs définis comme attributs `advanced` dans le schéma de données sont masqués dans les fenêtres de configuration.
 
-Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle : la liste des attributs est mise à jour instantanément.
+Activez le bouton (bascule) **Afficher les attributs avancés** pour afficher tous les attributs disponibles pour la liste actuelle : la liste des attributs est mise à jour instantanément.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
