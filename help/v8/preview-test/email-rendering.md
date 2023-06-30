@@ -5,9 +5,9 @@ description: Découvrez comment tester le rendu de vos e-mails dans l’interfac
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
