@@ -5,9 +5,9 @@ description: Découvrez les activités de workflow.
 badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
