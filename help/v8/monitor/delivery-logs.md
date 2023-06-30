@@ -5,9 +5,9 @@ description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
