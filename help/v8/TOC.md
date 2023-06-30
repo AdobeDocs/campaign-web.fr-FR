@@ -6,9 +6,9 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 93%
    + [Configurer une population témoin](audience/control-group.md)
 + Campagnes cross-canal {#campaigns}
    + [Prise en main des campagnes](campaigns/gs-campaigns.md)
-   + [Accès et gestion des campagnes](campaigns/manage-campaigns.md)
+   + [Accéder aux campagnes et les gérer](campaigns/manage-campaigns.md)
    + [Créer votre première campagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Prise en main des workflows](workflows/gs-workflows.md)
