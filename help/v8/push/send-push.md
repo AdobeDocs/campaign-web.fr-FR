@@ -4,9 +4,9 @@ title: Envoyer une diffusion par notification push
 description: Découvrez comment envoyer une diffusion par notification push dans Adobe Campaign Web.
 badge: label="Alpha"
 source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 56%
 
 ## Prévisualiser la diffusion par notification push {#preview-push}
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés au test pour prévisualiser et tester le message. Si vous avez inclus du contenu personnalisé, vous pouvez examiner l&#39;affichage de ce contenu dans le message à l&#39;aide des données de profil de test. Vous pouvez ainsi vous assurer que le message est correctement rendu et que les éléments personnalisés sont bien intégrés.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées tests pour prévisualiser et tester le message. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son affichage dans le message à l’aide des données de profil de test. Vous pouvez ainsi vous assurer que le message est correctement rendu et que les éléments personnalisés sont bien intégrés.
 
-Les principales étapes pour prévisualiser votre diffusion SMS sont les suivantes. Pour plus d’informations sur la prévisualisation des diffusions, reportez-vous à la section [cette section](../preview-test/preview-content.md).
+La diffusion par SMS comprend les étapes suivantes. Pour plus d’informations sur la prévisualisation des diffusions, consultez [cette section](../preview-test/preview-content.md).
 
-1. Dans la page de contenu de votre diffusion, utilisez **[!UICONTROL Simulation du contenu]** pour prévisualiser votre contenu personnalisé.
+1. Sur la page de contenu de la diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu que vous avez personnalisé.
 
    ![](assets/push_send_1.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter des abonnés]** pour sélectionner un ou plusieurs profils afin de prévisualiser leurs données dans le contenu de la notification push.
+1. Cliquez sur **[!UICONTROL Ajouter un ou plusieurs abonnés]** pour sélectionner un ou plusieurs profils afin de prévisualiser leurs données dans le contenu de la notification push.
 
 
    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
@@ -49,7 +49,7 @@ Les destinataires du test vérifient alors divers éléments, tels que les liens
 
    ![](assets/push_send_2.png)
 
-1. Cliquez sur **[!UICONTROL Préparer]** et suivre les progrès et les statistiques fournis.
+1. Cliquez sur **[!UICONTROL Préparer]** et suivez la progression et les statistiques fournies.
 
    En cas d’erreur, reportez-vous au menu Journaux pour obtenir des informations détaillées sur l’échec.
 
@@ -61,6 +61,6 @@ Les destinataires du test vérifient alors divers éléments, tels que les liens
 
    ![](assets/push_send_4.png)
 
-Une fois votre diffusion envoyée, vous pouvez effectuer le suivi de vos données IPC (Indicateur de performance clé) provenant de votre page de diffusion et des données issues de la variable **[!UICONTROL Journaux]** .
+Une fois votre diffusion envoyée, vous pouvez suivre les données de vos KPI (indicateurs clés de performance) à partir de votre page de diffusion et les données à partir du menu **[!UICONTROL Journaux]**.
 
 Vous pouvez maintenant commencer à mesurer l’impact de votre message à l’aide de rapports intégrés. [En savoir plus](../reporting/push-report.md)
