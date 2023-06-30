@@ -4,56 +4,56 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha"
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 
-# Accès et gestion de vos campagnes{#manage-campaigns}
+# Accéder aux campagnes et les gérer{#manage-campaigns}
 
-Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le bouton **[!UICONTROL Campagnes]** dans le volet de navigation de gauche.
+Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le menu **[!UICONTROL Campagnes]** dans le volet de navigation de gauche.
 
 ## La liste des campagnes{#access-campaigns}
 
-Dans la liste des campagnes, deux onglets sont disponibles :
+La liste des campagnes comprend deux onglets :
 
-* Le **Parcourir** répertorie toutes les campagnes existantes. Vous pouvez cliquer sur une campagne pour ouvrir son tableau de bord ou créer une nouvelle campagne en cliquant sur le bouton **Créer une campagne** bouton . Consultez cette [section](create-campaigns.md#create-campaigns).
+* L’onglet **Parcourir** répertorie toutes les campagnes existantes. Cliquez sur une campagne pour afficher son tableau de bord ou créez une campagne à l’aide du bouton **Créer une campagne**. Consultez cette [section](create-campaigns.md#create-campaigns).
 
-* Le **Modèles** répertorie tous les modèles d’opération disponibles. Les modèles d&#39;opération sont préconfigurés afin de pouvoir être réutilisés lors de la création de campagnes. Ils sont créés à partir de la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr)
+* L’onglet **Modèles** répertorie tous les modèles de campagne disponibles. Les modèles de campagne sont préconfigurés afin de pouvoir être réutilisés lors de la création de campagnes. Ils sont créés à partir de la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr)
 
 ![Liste des campagnes](assets/campaign-list.png)
 
-Par défaut, chaque campagne de la liste affiche des informations sur son état actuel, sa date de création, sa dernière modification, etc.
+Par défaut, chaque campagne de la liste affiche des informations sur son statut en cours, sa date de création, la dernière fois qu’elle a été modifiée, etc.
 
-Vous pouvez personnaliser les colonnes affichées en cliquant sur le **Configuration d’une colonne pour une disposition personnalisée** située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste. En outre, une barre de recherche et des filtres sont disponibles pour faciliter la recherche dans la liste. [En savoir plus](../get-started/user-interface.md#list-screens).
+Vous pouvez personnaliser les colonnes affichées en cliquant sur l’icône **Configurer la colonne pour une disposition personnalisée**, située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste. Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. [En savoir plus](../get-started/user-interface.md#list-screens).
 
-Vous pouvez, par exemple, filtrer selon le calendrier de votre campagne. Ouvrez le panneau de filtrage et utilisez le **Start - End Date** section :
+Vous pouvez, par exemple, filtrer selon le planning de votre campagne. Ouvrez le panneau de filtrage et accédez à la section **Date de début et de fin** :
 
 ![Filtre de campagne](assets/campaign-filter-on-dates.png)
 
-## Le tableau de bord de l&#39;opération{#campaign-dashboard}
+## Le tableau de bord de la campagne{#campaign-dashboard}
 
-Dans le **Parcourir** dans la liste des campagnes, cliquez sur une campagne pour en afficher les détails.
+Sous l’onglet **Parcourir** de la liste des campagnes, cliquez sur une campagne pour afficher ses détails.
 
-![Tableau de bord des campagnes](assets/campaign-dashboard.png)
+![Tableau de bord de la campagne](assets/campaign-dashboard.png)
 
-L&#39;état et le planning de l&#39;opération sont affichés en haut de l&#39;écran. Vous pouvez utiliser la variable **Configuration des paramètres de campagne** pour modifier les propriétés de l&#39;opération qui ont été définies lors de la création de l&#39;opération. Trois boutons sont disponibles pour afficher les logs, créer des rapports, dupliquer ou supprimer l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns)
+Le statut et le planning de la campagne sont affichés en haut de l’écran. L’icône **Configurer les paramètres de campagne** permet de modifier les propriétés de la campagne précédemment définies. Trois boutons permettent d’afficher les logs, de créer des rapports, de dupliquer ou de supprimer la campagne. Consultez cette [section](create-campaigns.md#create-campaigns).
 
-Deux onglets sont disponibles :
+Deux onglets sont disponibles :
 
-* Le **Workflows** répertorie tous les workflows liés à l&#39;opération. Cet onglet permet également de créer un nouveau workflow dans l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns).
+* L’onglet **Workflows** dresse la liste des workflows liés à la campagne. Cet onglet permet également de créer un workflow au sein de la campagne. Consultez cette [section](create-campaigns.md#create-campaigns)..
 
-* Le **Diffusions** répertorie toutes les diffusions liées à l&#39;opération en cours. Vous pouvez également créer une diffusion au sein de l&#39;opération. Consultez cette [section](create-campaigns.md#create-campaigns).
+* L’onglet **Diffusions** répertorie toutes les diffusions liées à la campagne en cours. Vous pouvez également créer une diffusion au sein de la campagne. Consultez cette [section](create-campaigns.md#create-campaigns).
 
-## Duplication et suppression d’une campagne
+## Dupliquer et supprimer une campagne
 
-Vous pouvez dupliquer ou supprimer une campagne :
+Vous pouvez dupliquer ou supprimer une campagne :
 
-* dans la liste des campagnes, cliquez sur le bouton représentant des points de suspension puis sélectionnez **Dupliquer** ou **Supprimer**.
-* dans la campagne elle-même, cliquez sur le bouton **Plus** bouton puis sélectionner **Dupliquer** ou **Supprimer**.
+* dans la liste des campagnes, cliquez sur le bouton représentant des points de suspension puis sélectionnez **Dupliquer** ou **Supprimer** ;
+* dans la campagne elle-même, cliquez sur le bouton **Plus** puis sélectionnez **Dupliquer** ou **Supprimer**.
 
 >[!NOTE]
 >
->Le **Diffusions** affiche toutes les diffusions liées à l&#39;opération. Cependant, les diffusions créées dans un workflow ne peuvent pas être supprimées de là. Pour supprimer une diffusion créée dans le cadre d&#39;un workflow, vous devez supprimer l&#39;activité de diffusion du workflow. [En savoir plus](../msg/gs-messages.md#delivery-delete).
+>L’onglet **Diffusions** affiche toutes les diffusions liées à la campagne. Cependant, les diffusions créées dans un workflow ne peuvent pas être supprimées depuis cet endroit. Pour supprimer une diffusion créée dans le cadre d’un workflow, vous devez supprimer l’activité de diffusion du workflow. [En savoir plus](../msg/gs-messages.md#delivery-delete).
