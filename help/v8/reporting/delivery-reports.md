@@ -5,9 +5,9 @@ description: Découvrez comment accéder aux rapports de diffusion et les utilis
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
