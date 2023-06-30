@@ -1,26 +1,26 @@
 ---
 audience: end-user
 title: Rapports de campagne
-description: Découvrez comment accéder aux rapports de campagne et les utiliser
+description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1753'
+ht-degree: 100%
 
 ---
 
 # Rapports de campagne {#campaign-reports}
 
-Le rapport Campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne.
+Le rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne.
 
-La page du rapport Campagne s&#39;affiche avec les onglets suivants :
+La page du rapport de campagne s’affiche avec les onglets suivants :
 
 * [Canal email](#email-channel)
 * [Canal SMS](#sms-channel)
 * [Canal de notification push](#push-channel)
 
-Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord de votre campagne.
+Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bord de votre campagne.
 
 ![](assets/campaign_report_email_13.png)
 
@@ -28,193 +28,193 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 
 ### Synthèse des diffusions {#delivery-summary-email}
 
-* **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion par e-mail.
+* La **[!UICONTROL vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion e-mail.
 
   ![](assets/campaign_report_email_1.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
+   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de l’analyse de la diffusion.
 
    * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-   * **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+   * **[!UICONTROL Bounces]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-   * **[!UICONTROL Ouvertures distinctes]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
+   * **[!UICONTROL Ouvertures distinctes]** : nombre total de destinataires ciblé(e)s ayant ouvert un message au moins une fois.
 
-   * **[!UICONTROL Clics distincts]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
+   * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 
 +++
 
-* **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
+* Le tableau **[!UICONTROL Statistiques d’audience cible initiale]** affiche les données relatives à vos destinataires :
 
   ![](assets/campaign_report_email_2.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Audience initiale]**: Nombre total de destinataires ciblés.
+   * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après l&#39;analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
 
-   * **[!UICONTROL Rejetés par les règles]**: Nombre total d&#39;adresses ignorées lors de l&#39;analyse lors de l&#39;application des règles : adresse manquante, en quarantaine, à liste bloquée, etc.
+   * **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
 +++
 
-* **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le succès de votre diffusion.
+* Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de votre diffusion.
 
   ![](assets/campaign_report_email_3.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après l&#39;analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l&#39;analyse de la diffusion.
 
-   * **[!UICONTROL Succès]**: Nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-   * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
 
-   * **[!UICONTROL Nouvelles quarantaines]**: Nombre total d&#39;adresses mises en quarantaine à la suite d&#39;un échec de diffusion (utilisateur inconnu, domaine invalide) par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
 
 +++
 
-* **[!UICONTROL Statistiques de réaction]** contient les données disponibles pour l&#39;activité des destinataires pour votre diffusion.
+* Le tableau **[!UICONTROL Statistiques de réaction]** contient les données disponibles relatives à l’activité des destinataires pour votre diffusion.
 
   ![](assets/campaign_report_email_4.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Ouvertures distinctes]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
+   * **[!UICONTROL Ouvertures distinctes]** : nombre total de destinataires ciblé(e)s ayant ouvert un message au moins une fois.
 
-   * **[!UICONTROL Ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+   * **[!UICONTROL Ouvertures]** : nombre de destinataires ciblé(e)s distinct(e)s, pour ce domaine, ayant ouvert un message au moins une fois.
 
-   * **[!UICONTROL Désabonnements]**: Nombre de destinataires ayant cliqué sur les désinscriptions pour la période correspondante.
+   * **[!UICONTROL Désabonnements]** : nombre de destinataires ayant cliqué afin de se désabonner pour la période correspondante.
 
-   * **[!UICONTROL Page miroir]**: Nombre de destinataires ayant cliqué sur le lien de la page miroir.
+   * **[!UICONTROL Page miroir]** : nombre de destinataires ayant cliqué sur le lien de la page miroir.
 
-   * **[!UICONTROL Transférer]**: Nombre de destinataires ayant cliqué et ayant transféré l&#39;email.
+   * **[!UICONTROL Transferts]** : nombre de destinataires ayant cliqué et transféré l’e-mail.
 +++
 
-* **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion.
+* Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion.
 
   ![](assets/campaign_report_email_5.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Clics distincts]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
+   * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 
-   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+   * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-   * **[!UICONTROL Réactivité]**: Ratio du nombre de destinataires ciblés ayant cliqué dans une diffusion, par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert une diffusion.
+   * **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
 
 +++
 
 ### Non délivrables {#non-deliverables-email}
 
-* **[!UICONTROL Ventilation des erreurs par type]** et **[!UICONTROL Ventilation des erreurs par domaine]** les tableaux et les graphiques contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
+* Les tableaux et graphes **[!UICONTROL Répartition des erreurs par type]** et **[!UICONTROL Répartition des erreurs par domaine]** contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 
-  Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d&#39;informations sur la gestion des quarantaines, reportez-vous à la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
+  Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Utilisateur inconnu]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse email est invalide.
+   * **[!UICONTROL Utilisateur inconnu]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse e-mail est invalide.
 
-   * **[!UICONTROL Domaine invalide]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse email est erroné ou n&#39;existe plus.
+   * **[!UICONTROL Domaine invalide]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse e-mail est erroné ou n&#39;existe plus.
 
-   * **[!UICONTROL Boîte pleine]**: Type d’erreur généré après cinq tentatives de diffusion pour indiquer que la boîte de réception du destinataire contient trop de messages.
+   * **[!UICONTROL Boîte pleine]** : type d’erreur générée, après cinq tentatives d’envoi d’une diffusion, indiquant que la boîte de réception des destinataires contient trop de messages.
 
-   * **[!UICONTROL Compte désactivé]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
+   * **[!UICONTROL Compte désactivé]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
 
-   * **[!UICONTROL Refusés]**: Type d&#39;erreur générée lorsqu&#39;une adresse est refusée par l&#39;IAP (Fournisseur d&#39;Accès Internet), par exemple suite à l&#39;application d&#39;une règle de sécurité (logiciel anti-spam).
+   * **[!UICONTROL Refusé]** : type d’erreur générée lorsqu’une adresse est refusée par le FAI (Fournisseur d’accès Internet), par exemple, suite à l’application d’une règle de sécurité (logiciel anti-spams).
 
-   * **[!UICONTROL Inatteignable]** : Type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
+   * **[!UICONTROL Inatteignable]** : type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
 
-   * **[!UICONTROL Non connecté]**: Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou déconnecté du réseau au moment de l&#39;envoi.
+   * **[!UICONTROL Non connecté]** : type d’erreur indiquant que le téléphone portable des destinataires est éteint ou n’est pas connecté au réseau au moment de l’envoi du message.
 
 +++
 
 ### Indicateurs de tracking {#tracking-indicators-email}
 
-* **[!UICONTROL Statistiques de diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés.
+* Les **[!UICONTROL statistiques de diffusion]** fournissent des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les données disponibles pour les e-mails envoyés.
 
   ![](assets/campaign_report_email_7.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Succès]**: Nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-   * **[!UICONTROL Ouvertures distinctes]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
+   * **[!UICONTROL Ouvertures distinctes]** : nombre total de destinataires ciblé(e)s ayant ouvert un message au moins une fois.
 
-   * **[!UICONTROL Ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+   * **[!UICONTROL Ouvertures]** : nombre de destinataires ciblé(e)s distinct(e)s pour ce domaine ayant ouvert un message au moins une fois.
 
-   * **[!UICONTROL Clics sur le lien d’exclusion]**: Nombre de clics sur le lien de désinscription.
+   * **[!UICONTROL Clics sur le lien d’exclusion]** : nombre de clics effectués sur le lien d’exclusion.
 
-   * **[!UICONTROL Clics sur le lien miroir]**: Nombre de clics sur le lien vers la page miroir.
+   * **[!UICONTROL Clics sur le lien miroir]** : nombre de clics sur le lien vers la page miroir.
 
-   * **[!UICONTROL Estimation des transferts]**: Estimation du nombre d&#39;emails transférés par les destinataires ciblés.
+   * **[!UICONTROL Estimation des transferts]** : estimation du nombre d’e-mails transférés par les destinataires ciblé(e)s.
 +++
 
-* **[!UICONTROL Statistiques initiales d’audience cible]** affiche des données relatives à vos destinataires.
+* Le tableau **[!UICONTROL Statistiques d’audience cible initiale]** affiche des données relatives à vos destinataires.
 
   ![](assets/campaign_report_email_8.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Envoyé]**: Nombre total de messages envoyés.
+   * **[!UICONTROL Envoyés]** : nombre total de messages envoyés.
 
-   * **[!UICONTROL Plaintes]**: Nombre de messages pour ce domaine qui ont été signalés par le destinataire comme indésirables.
+   * **[!UICONTROL Plaintes]** : nombre de messages pour ce domaine qui ont été signalés par le ou la destinataire comme indésirables.
 
-   * **[!UICONTROL Ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+   * **[!UICONTROL Ouvertures]** : nombre de destinataires ciblé(e)s distinct(e)s, pour ce domaine, ayant ouvert un message au moins une fois.
 
-   * **[!UICONTROL Clics]**: Nombre de destinataires ciblés distincts ayant cliqué au moins une fois dans une même diffusion.
+   * **[!UICONTROL Clics]** : nombre de destinataires ciblé(e)s distinct(e)s ayant cliqué au moins une fois dans une même diffusion.
 
-   * **[!UICONTROL Réactivité brute]** : Pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.
+   * **[!UICONTROL Réactivité brute]** : pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.
 +++
 
 ### URL et flux de clics {#url-email}
 
-* **[!UICONTROL URL et flux de clics]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion.
+* Les **[!UICONTROL URL et flux de clics]** fournissent des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion.
 
   ![](assets/campaign_report_email_9.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Réactivité]**: Ratio du nombre de destinataires ciblés ayant cliqué dans une diffusion, par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert une diffusion.
+   * **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
 
-   * **[!UICONTROL Clics distincts]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
+   * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 
-   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+   * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-   * **[!UICONTROL Moyenne plateforme]** : Ce taux moyen, affiché sous chaque taux (réactivité, clics distincts, et clics cumulés), est calculé sur les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
+   * **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BAT sont exclus.
 +++
 
-* **[!UICONTROL 10 liens les plus consultés]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien.
+* Le tableau et le graphe des **[!UICONTROL 10 liens les plus consultés]** contiennent les données disponibles pour le comportement des destinataires par lien.
 
   ![](assets/campaign_report_email_10.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+   * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-   * **[!UICONTROL Pourcentage]**: Pourcentage d&#39;utilisateurs ayant interagi avec la diffusion.
+   * **[!UICONTROL Pourcentage]** : pourcentage d’utilisateurs et utilisatrices ayant interagi avec la diffusion.
 
 +++
 
-* **[!UICONTROL Répartition des clics au fil du temps]** Le graphique contient les données disponibles sur le comportement des destinataires par lien.
+* Le graphe **[!UICONTROL Répartition des clics au fil du temps]** contient les données disponibles sur le comportement des destinataires par lien.
 
   ![](assets/campaign_report_email_11.png)
 
 ### Activités utilisateurs {#user-activities-email}
 
-* **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et clics sous la forme d&#39;un graphique.
+* Les **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et clics sous la forme d’un graphique.
 
   ![](assets/campaign_report_email_12.png)
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+   * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-   * **[!UICONTROL Ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+   * **[!UICONTROL Ouvertures]** : nombre de destinataires ciblé(e)s distinct(e)s, pour ce domaine, ayant ouvert un message au moins une fois.
 
 +++
 
@@ -222,63 +222,63 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 
 ### Synthèse des diffusions {#delivery-summary-sms}
 
-* **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion SMS.
+* La **[!UICONTROL vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion par SMS.
 
   ![](assets/campaign_report_sms_1.png)
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
-   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
+   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de l’analyse de la diffusion.
 
    * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-   * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+   * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-   * **[!UICONTROL Clics distincts]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
+   * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 
 +++
 
-* **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
+* Le tableau **[!UICONTROL Statistiques d’audience cible initiale]** affiche les données relatives à vos destinataires :
 
   ![](assets/campaign_report_sms_2.png)
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
-   * **[!UICONTROL Audience initiale]**: Nombre total de destinataires ciblés.
+   * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après l&#39;analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
 
-   * **[!UICONTROL Rejetés par les règles]**: Nombre total d&#39;adresses ignorées lors de l&#39;analyse lors de l&#39;application des règles : adresse manquante, en quarantaine, à liste bloquée, etc.
+   * **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
 +++
 
-* **[!UICONTROL Statistiques d&#39;exécution]** le tableau détaille le succès de votre diffusion :
+* Le tableau **[!UICONTROL Statistiques d&#39;exécution]** détaille le succès de votre diffusion :
 
   ![](assets/campaign_report_sms_3.png)
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après l&#39;analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
 
-   * **[!UICONTROL Succès]**: Nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-   * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
 
-   * **[!UICONTROL Nouvelles quarantaines]**: Nombre total d&#39;adresses mises en quarantaine à la suite d&#39;un échec de diffusion (utilisateur inconnu, domaine invalide) par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine suite à un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
 
 +++
 
-* **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion :
+* Le tableau **[!UICONTROL Flux de clics générés]** affiche des données sur les interactions des destinataires avec votre diffusion :
 
   ![](assets/campaign_report_sms_4.png)
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
-   * **[!UICONTROL Clics distincts]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
+   * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 
-   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+   * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-   * **[!UICONTROL Réactivité]**: Ratio du nombre de destinataires ciblés ayant cliqué dans une diffusion, par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert une diffusion.
+   * **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
 
 +++
 
@@ -286,54 +286,54 @@ Pour accéder au rapport Campagne , cliquez sur Rapports dans le tableau de bord
 
 ### Synthèse des diffusions {#delivery-summary-push}
 
-* **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion de notification push.
+* La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI qui donnent des informations détaillées sur les interactions de vos visiteurs et visiteuses avec votre diffusion Notification push.
 
-  +++En savoir plus sur les mesures des rapports de campagne push.
+  +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
-   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de l&#39;analyse de la diffusion.
+   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de l’analyse de la diffusion.
 
    * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-   * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+   * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-   * **[!UICONTROL Clics distincts]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
-
-+++
-
-* **[!UICONTROL Statistiques initiales d’audience cible]** Le tableau affiche les données relatives à vos destinataires :
-
-  +++En savoir plus sur les mesures des rapports de campagne push.
-
-   * **[!UICONTROL Audience initiale]**: Nombre total de destinataires ciblés.
-
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après l&#39;analyse de la diffusion.
-
-   * **[!UICONTROL Rejetés par les règles]**: Nombre total d&#39;adresses ignorées lors de l&#39;analyse lors de l&#39;application des règles : adresse manquante, en quarantaine, à liste bloquée, etc.
+   * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 
 +++
 
-* **[!UICONTROL Statistiques d&#39;exécution]** le tableau détaille le succès de votre diffusion :
+* Le tableau **[!UICONTROL Statistiques initiales sur laudience cible]** affiche les données relatives à vos destinataires :
 
-  +++En savoir plus sur les mesures des rapports de campagne push.
+  +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après l&#39;analyse de la diffusion.
+   * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL Succès]**: Nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
 
-   * **[!UICONTROL Erreurs]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
-
-   * **[!UICONTROL Nouvelles quarantaines]**: Nombre total d&#39;adresses mises en quarantaine à la suite d&#39;un échec de diffusion (utilisateur inconnu, domaine invalide) par rapport au nombre de messages à diffuser.
+   * **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
 +++
 
-* **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion :
+* Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de votre diffusion :
 
-  +++En savoir plus sur les mesures des rapports de campagne push.
+  +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
-   * **[!UICONTROL Clics distincts]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
 
-   * **[!UICONTROL Clics]**: Nombre total de clics sur les liens dans les diffusions.
+   * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-   * **[!UICONTROL Réactivité]**: Ratio du nombre de destinataires ciblés ayant cliqué dans une diffusion, par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert une diffusion.
+   * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
+
+   * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine suite à un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
+
++++
+
+* Le tableau **[!UICONTROL Flux de clics générés]** affiche des données sur les interactions des destinataires avec votre diffusion :
+
+  +++En savoir plus sur les mesures des rapports de campagne Notification push.
+
+   * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
+
+   * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
+
+   * **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
 
 +++
