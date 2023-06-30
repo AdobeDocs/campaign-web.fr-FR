@@ -5,9 +5,9 @@ title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Commencez à partir d’un modèle ou utilisez le nouveau Concepteur d’e-mail 
 
 Personnalisez votre contenu en fonction des informations que vous avez collectées sur vos destinataires. L’utilisation de contenu dynamique rend votre contenu plus attrayant et augmente la probabilité qu’il soit lu. Personnalisez vos messages pour chaque destinataire spécifique en utilisant les données de profil telles que son prénom, ses centres d’intérêt, son lieu de vie, ses achats, etc. Créez un contenu conditionnel afin d’adapter vos diffusions à chaque destinataire et n’afficher que le contenu correspondant à une personne donnée en fonction des informations dont vous disposez à son sujet.
 
-**Création de campagnes cross-canal**
+**Créer des campagnes cross-canal**
 
 Utilisez Adobe Campaign pour créer des campagnes cross-canal. Grâce à ses fonctionnalités d’orchestration des campagnes marketing, vous pouvez gérer et centraliser les données des clientes et clients, concevoir des communications et des campagnes pour les clientes et clients, et créer des expériences personnalisées sur différents canaux. Dans cette version, les canaux e-mail, notification push et SMS sont disponibles. Mesurez l’efficacité de vos diffusions à l’aide de rapports détaillés comprenant le nombre d’ouvertures, de clics, de transferts, etc.
 
@@ -85,7 +85,7 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <img alt="Validation" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>Création de campagnes cross-canal</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Créer des campagnes cross-canal</strong></a>
 </div>
 <p>
 </td>
