@@ -5,9 +5,9 @@ description: Découvrez comment concevoir le contenu des e-mails.
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ Dans de nombreux cas, il fournit un bref résumé du contenu et contient génér
 
 Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
-1. Dans la [Concepteur d&#39;email](create-email-content.md), ajoutez au moins un **[!UICONTROL Structure]** pour commencer à concevoir votre email.
+1. À partir du [Concepteur d’e-mail](create-email-content.md), ajoutez au moins un composant de **[!UICONTROL Structure]** pour commencer à concevoir votre e-mail.
 
 1. Cliquez sur l’icône **[!UICONTROL Arborescence de navigation]** dans le volet de gauche, puis sélectionnez **[!UICONTROL Corps]**.
 
    ![](assets/preheader_body.png)
 
-1. Dans la **[!UICONTROL Paramètres]** , saisissez du texte pour votre pré-titre.
+1. Sous l’onglet **[!UICONTROL Paramètres]**, saisissez le texte de votre pré-titre.
 
-1. Pour le personnaliser davantage, cliquez sur le bouton **[!UICONTROL Ajouter une personnalisation]** à gauche de la **[!UICONTROL Preheader]** champ .
+1. Pour le personnaliser davantage, cliquez sur l’icône **[!UICONTROL Ajouter une personnalisation]** à gauche du champ **[!UICONTROL Pré-titre]**.
 
    ![](assets/preheader_body_settings.png)
 
-1. Dans la **[!UICONTROL Modifier la personnalisation]** fenêtre, vous pouvez ajouter [champs de personnalisation](../personalization/personalize.md), [blocs de contenu](../personalization/content-blocks.md) et [contenu conditionnel](../personalization/conditions.md) en utilisant les entrées dédiées sur la gauche.
+1. Dans la fenêtre **[!UICONTROL Modifier la personnalisation]**, vous pouvez ajouter des [champs de personnalisation](../personalization/personalize.md), des [blocs de contenu](../personalization/content-blocks.md) et du [contenu conditionnel](../personalization/conditions.md) à l’aide des entrées dédiées situées sur la gauche.
 
    ![](assets/preheader_body_personalization.png)
 
