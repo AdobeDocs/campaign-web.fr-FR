@@ -5,9 +5,9 @@ description: Découvrez comment préparer et envoyer un e-mail avec l’interfac
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
 source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 49%
 
 ## Préparer l’envoi {#prepare}
 
-Lorsque vous avez défini votre [content](../content/edit-content.md), [audience](../audience/add-audience.md) et planifiez, vous êtes prêt à préparer votre diffusion email.
+Lorsque vous avez défini le [contenu](../content/edit-content.md), l’[audience](../audience/add-audience.md) et le planning, vous pouvez préparer votre diffusion e-mail.
 
 Pendant la préparation, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées.
 
 Les règles de validation utilisées pendant la préparation de la diffusion sont décrites dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
 
-Les principales étapes de préparation de l&#39;envoi sont répertoriées ci-dessous.
+Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-dessous.
 
 1. Dans le tableau de bord de la diffusion, cliquez sur **[!UICONTROL Vérifier et envoyer]**.
 
@@ -35,7 +35,7 @@ Les principales étapes de préparation de l&#39;envoi sont répertoriées ci-de
 
    >[!NOTE]
    >
-   >Si vous avez planifié votre diffusion et désactivé la variable **[!UICONTROL Activer la confirmation avant envoi]** , les étapes de préparation et d&#39;envoi sont regroupées sous l&#39;option **[!UICONTROL Préparer et envoyer]** bouton . [En savoir plus sur la planification](../email/create-email.md#schedule)
+   >Si vous avez planifié votre diffusion et désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../email/create-email.md#schedule)
 
 1. La progression de la préparation s’affiche. La durée de cette opération varie en fonction de la taille de la population ciblée.
 
@@ -53,8 +53,8 @@ Les principales étapes de préparation de l&#39;envoi sont répertoriées ci-de
    Voici les KPI qui s’affichent :
 
    * **[!UICONTROL Ciblés]** : le nombre de destinataires ciblés..
-   * **[!UICONTROL A envoyer]**: le nombre de messages qui seront envoyés.
-   * **[!UICONTROL Pour exclure]**: le nombre de messages exclus par un [règle de typologie](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL À diffuser]** : le nombre de messages qui seront envoyés.
+   * **[!UICONTROL À exclure]** : le nombre de messages exclus par une [règle de typologie](../advanced-settings/delivery-settings.md#typology).
 
 1. Cliquez sur le bouton **[!UICONTROL Logs]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md).
 
@@ -64,7 +64,7 @@ Les principales étapes de préparation de l&#39;envoi sont répertoriées ci-de
 
    ![](assets/email-prepare-error.png)
 
-1. Si vous apportez des modifications à votre diffusion après la préparation, vous devez relancer la préparation pour que ces modifications soient prises en compte.
+1. Si vous modifiez la diffusion après la préparation, vous devez relancer la préparation pour que ces modifications soient prises en compte.
 
 Une fois la préparation terminée sans erreur, le message est prêt à être envoyé.
 
@@ -85,13 +85,13 @@ Une fois la préparation terminée sans erreur, le message est prêt à être en
 >title="Clics"
 >abstract="Le nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages diffusés."
 
-Une fois que la variable [préparation](#prepare) est terminée, vous pouvez désormais envoyer votre email.
+Une fois la [préparation](#prepare) terminée, vous pouvez envoyer l’e-mail.
 
 Si le message est planifié, il sera envoyé à la date et à l’heure définies. [En savoir plus](#schedule-the-send).
 
 ### Envoyer immédiatement {#send-immediately}
 
-Pour envoyer immédiatement un email, procédez comme suit.
+Pour envoyer immédiatement un e-mail, procédez comme suit.
 
 1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **[!UICONTROL Envoyer]** dans le coin supérieur droit.
 
@@ -101,50 +101,50 @@ Pour envoyer immédiatement un email, procédez comme suit.
 
 1. La progression de l’envoi s’affiche.
 
-### Planifiez l&#39;envoi {#schedule-the-send}
+### Planifier l’envoi {#schedule-the-send}
 
-Si vous avez planifié l&#39;envoi de votre email à une date et une heure ultérieures, procédez comme suit.
+Si vous avez planifié l’envoi de votre e-mail à une date et une heure ultérieures, procédez comme suit.
 
-1. Avant d’accéder à la variable **[!UICONTROL Vérifier et envoyer]** , veillez à définir un planning pour votre email. [En savoir plus](../email/create-email.md#schedule).
+1. Avant de cliquer sur le bouton **[!UICONTROL Vérifier et envoyer]**, assurez-vous de définir un planning pour votre e-mail. [En savoir plus](../email/create-email.md#schedule).
 
-1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **[!UICONTROL Bouton Envoyer comme planifié]** dans le coin supérieur droit.
+1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]** dans le coin supérieur droit.
 
    ![](assets/email-send-as-scheduled.png)
 
-1. Cliquez sur **[!UICONTROL Confirmer l&#39;envoi]**. La diffusion sera envoyée à la date planifiée à la cible principale.
+1. Cliquez sur **[!UICONTROL Confirmer l’envoi]**. La diffusion sera envoyée à la cible principale, à la date planifiée.
 
    >[!NOTE]
    >
-   >Si vous avez désactivé la variable **[!UICONTROL Activer la confirmation avant envoi]** , les étapes de préparation et d&#39;envoi sont regroupées sous l&#39;option **[!UICONTROL Préparer et envoyer]** bouton . [En savoir plus sur la planification](../email/create-email.md#schedule)
+   >Si vous avez désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../email/create-email.md#schedule).
 
-## Suspendre ou arrêter l&#39;envoi {#pause-stop-sending}
+## Suspendre ou arrêter l’envoi {#pause-stop-sending}
 
-Que votre diffusion soit planifiée ou non, deux actions peuvent être effectuées à tout moment pendant le processus d&#39;envoi :
+Deux actions peuvent être effectuées à tout moment pendant le processus d’envoi, que votre diffusion soit planifiée ou non :
 
-* Cliquez sur **[!UICONTROL Pause de l&#39;envoi]** pour interrompre l&#39;envoi des messages. Vous pouvez reprendre l’envoi à tout moment.
+* Cliquez sur **[!UICONTROL Suspendre l’envoi]** pour interrompre l’envoi des messages. Vous pouvez reprendre l’envoi à tout moment.
 
-* Cliquez sur **[!UICONTROL Arrêter l’envoi]** pour interrompre immédiatement l’envoi. Ni la préparation ni l&#39;envoi ne peuvent être repris une fois arrêtés.
+* Cliquez sur **[!UICONTROL Arrêter l’envoi]** pour interrompre immédiatement l’envoi. Une fois arrêtés, la préparation et l’envoi ne peuvent pas être repris.
 
 ![](assets/email-send-pause-or-stop.png)
 
-## Vérification des indicateurs clés de performance {#check-kpis}
+## Vérifier les KPI {#check-kpis}
 
-Une fois l&#39;envoi terminé, vous pouvez vérifier les KPI affichés :
+Une fois l’envoi terminé, vous pouvez vérifier les KPI affichés :
 
 ![](assets/email-send-kpis.png)
 
-* **[!UICONTROL Envoyé]**: le nombre de messages délivrés. Le pourcentage affiché est basé sur le nombre total de messages à diffuser.
+* **[!UICONTROL Envoyé]** : le nombre de messages diffusés. Le pourcentage affiché est basé sur le nombre total de messages à diffuser.
 
-* **[!UICONTROL Diffusés]** : le nombre de messages envoyés avec succès. Le pourcentage qui affiché est basé sur le nombre total de messages envoyés.
+* **[!UICONTROL Diffusés]** : le nombre de messages envoyés avec succès. Le pourcentage affiché est basé sur le nombre total de messages envoyés.
 
-* **[!UICONTROL Ouvertures]** : le nombre de messages ouverts. Le pourcentage affiché est le nombre d&#39;ouvertures distinctes par rapport au nombre de messages délivrés.
+* **[!UICONTROL Ouvertures]** : le nombre de messages ouverts. Le pourcentage affiché correspond au nombre d’ouvertures distinctes par rapport au nombre de messages diffusés.
 
-* **[!UICONTROL Clics]**: le nombre de destinataires ayant cliqué au moins une fois dans l&#39;email. Le pourcentage affiché est le nombre de clics distincts par rapport au nombre de messages délivrés.
+* **[!UICONTROL Clics]** : le nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Le pourcentage affiché correspond au nombre de clics distincts par rapport au nombre de messages diffusés.
 
-* **[!UICONTROL Erreurs]**: le nombre d&#39;emails avec le statut d&#39;erreur. Le pourcentage affiché est basé sur le nombre total de messages envoyés.
+* **[!UICONTROL Erreurs]** : le nombre d’e-mails présentant un statut d’erreur. Le pourcentage affiché est basé sur le nombre total de messages envoyés.
 
 >[!NOTE]
 >
->Les indicateurs sont mis à jour toutes les 5 minutes après le début de la diffusion. Les indicateurs de préparation des diffusions sont en temps réel.
+>Les indicateurs sont mis à jour toutes les 5 minutes après le début de la diffusion. Les indicateurs de préparation de diffusion sont exprimés en temps réel.
 
-Vous pouvez également consulter les logs. [En savoir plus](delivery-logs.md).
+Vous pouvez également consulter les journaux. [En savoir plus](delivery-logs.md).
