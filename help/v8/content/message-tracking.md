@@ -5,9 +5,9 @@ description: D√©couvrez comment ajouter des liens et tracker les messages envoy√
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
