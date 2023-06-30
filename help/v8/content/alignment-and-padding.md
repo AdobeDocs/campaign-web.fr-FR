@@ -5,9 +5,9 @@ description: Découvrez comment ajuster l’alignement vertical et la marge int�
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
