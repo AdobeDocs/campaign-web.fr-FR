@@ -4,9 +4,9 @@ title: Envoyer une diffusion par SMS
 description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Alpha"
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 66%
 
 ## Prévisualiser votre diffusion par SMS{#preview-sms}
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inclus du contenu personnalisé, vous pouvez examiner l&#39;affichage de ce contenu dans le message à l&#39;aide des données de profil de test. Vous pouvez ainsi vous assurer que le message s’affiche comme prévu et que toute information personnalisée est correctement présentée.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son affichage dans le message à l’aide des données de profil de test. Vous pouvez ainsi vous assurer que le message s’affiche comme prévu et que toute information personnalisée est correctement présentée.
 
-Les principales étapes pour prévisualiser votre diffusion SMS sont les suivantes. Pour plus d’informations sur la prévisualisation des diffusions, reportez-vous à la section [cette section](../preview-test/preview-content.md).
+La diffusion par SMS comprend les étapes suivantes. Pour plus d’informations sur la prévisualisation des diffusions, consultez [cette section](../preview-test/preview-content.md).
 
-1. Dans la page de contenu de votre diffusion, utilisez **[!UICONTROL Simulation du contenu]** pour prévisualiser votre contenu personnalisé.
+1. Sur la page de contenu de la diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu que vous avez personnalisé.
 
    ![](assets/sms_send_1.png)
 
@@ -29,7 +29,7 @@ Les principales étapes pour prévisualiser votre diffusion SMS sont les suivant
     ![](assets/sms_send_2.png)
     -->
 
-1. Dans le volet de droite, vous trouverez un aperçu de la diffusion SMS, où les éléments personnalisés sont remplacés dynamiquement par les données du profil sélectionné.
+1. Dans le volet de droite, vous trouverez un aperçu de la diffusion par SMS, où les éléments personnalisés sont remplacés dynamiquement par les données du profil sélectionné.
 
    ![](assets/sms_send_3.png)
 
@@ -51,7 +51,7 @@ L’envoi de SMS de test est une étape importante pour assurer la qualité et l
 
    ![](assets/sms_send_4.png)
 
-1. Cliquez sur **[!UICONTROL Préparer]** et suivre les progrès et les statistiques fournis.
+1. Cliquez sur **[!UICONTROL Préparer]** et suivez la progression et les statistiques fournies.
 
    En cas d’erreur, reportez-vous au menu Journaux pour obtenir des informations détaillées sur l’échec.
 
@@ -61,7 +61,7 @@ L’envoi de SMS de test est une étape importante pour assurer la qualité et l
 
 1. Confirmez l’action d’envoi en cliquant sur le bouton **[!UICONTROL Envoyer]**.
 
-Une fois votre diffusion envoyée, vous pouvez effectuer le suivi de vos données IPC (Indicateur de performance clé) provenant de votre page de diffusion et des données issues de la variable **[!UICONTROL Journaux]** .
+Une fois votre diffusion envoyée, vous pouvez suivre les données de vos KPI (indicateurs clés de performance) à partir de la page de diffusion et les données à partir du menu **[!UICONTROL Journaux]**.
 
 Vous pouvez maintenant commencer à mesurer l’impact de votre message à l’aide de rapports intégrés. [En savoir plus](../reporting/sms-report.md)
 
