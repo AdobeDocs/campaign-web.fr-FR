@@ -5,9 +5,9 @@ description: Découvrez comment créer des campagnes cross-canal à l’aide d�
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 86%
 >title="Propriétés de la campagne"
 >abstract="Définissez les paramètres et les métadonnées de votre campagne."
 
-Pour créer une opération, vous devez définir ses propriétés, planifier et inclure les workflows et les diffusions.
+Pour créer une campagne, vous devez définir ses propriétés, planifier et inclure les workflows et les diffusions.
 
-## Créer l&#39;opération{#campaign-create}
+## Créer la campagne{#campaign-create}
 
 Pour créer une campagne procédez comme suit :
 
@@ -50,9 +50,9 @@ Pour créer une campagne procédez comme suit :
 
 1. Utilisez les boutons **Journaux** et **Reporting** pour analyser les performances de votre campagne.
 
-## Surveiller et suivre votre campagne{#campaign-monitoring}
+## Surveiller et suivre la campagne{#campaign-monitoring}
 
-La surveillance des campagnes est une étape clé pour analyser l’efficacité de votre campagne. Ouvrez votre campagne, puis cliquez sur le bouton **Journaux**.
+La surveillance des campagnes est une étape essentielle pour analyser l’efficacité de votre campagne. Ouvrez votre campagne, puis cliquez sur le bouton **Journaux**.
 
 Vous pouvez également afficher les rapports dédiés en cliquant sur le bouton **Rapports**. Consultez cette [section](../reporting/campaign-reports.md).
 
