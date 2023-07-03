@@ -5,7 +5,7 @@ description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Concevoir et envoyer des campagnes cross-canal"
->abstract="Les fonctionnalités puissantes d’Adobe Campaign répondent à de nombreux besoins, dont la gestion des données centralisées relatives à la clientèle, la conception de communications et de campagnes destinées aux clientes et clients et la création d’expériences personnalisées sur différents canaux : e-mail, notification push et SMS."
+>abstract="Les fonctionnalités d’Adobe Campaign répondent à de nombreux besoins, dont la gestion des données centralisées relatives à la clientèle, la conception de communications et de campagnes destinées aux clientes et clients, ainsi que la création d’expériences personnalisées sur différents canaux : e-mail, notification push et SMS."
 
 Grâce à la fonctionnalité de gestion de campagne d’Adobe Campaign, orchestrez en toute facilité vos initiatives marketing ciblées. Tirez parti de la possibilité de définir un planning pour planifier la durée et le lancement opportun de vos campagnes, sur la base de vos objectifs stratégiques, et optimisez l’engagement de votre audience.
 

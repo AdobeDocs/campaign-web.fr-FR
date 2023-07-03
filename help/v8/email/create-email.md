@@ -5,7 +5,7 @@ description: Découvrez comment envoyer votre premier e-mail avec l’interface 
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha"
 source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 100%
 
