@@ -5,8 +5,8 @@ description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Alpha"
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
