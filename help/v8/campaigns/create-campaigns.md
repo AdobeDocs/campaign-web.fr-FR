@@ -4,10 +4,10 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,11 @@ ht-degree: 100%
 Pour créer une campagne, vous devez définir ses propriétés, planifier et inclure les workflows et les diffusions.
 
 ## Créer la campagne{#campaign-create}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Planning de la campagne"
+>abstract="Définissez le planning de votre opération lors de la création de celle-ci."
 
 Pour créer une campagne procédez comme suit :
 
@@ -59,7 +64,7 @@ Vous pouvez également afficher les rapports dédiés en cliquant sur le bouton 
 
 
 <!--
-	+++WORKF
+    +++WORKF
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
