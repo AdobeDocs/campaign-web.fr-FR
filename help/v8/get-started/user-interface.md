@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
-workflow-type: ht
-source-wordcount: '1318'
+source-git-commit: 99e66a77c3451a4a43fa3e29f080191b2b51c074
+workflow-type: tm+mt
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -295,3 +295,48 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="Erreurs"
 >abstract="KPI pour les erreurs"
+
+
+
+
+<!-- delivery template settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="Période de validité"
+>abstract="Cette option définit la durée d’activation du tracking sur les URL."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="Durée de diffusion"
+>abstract="Le champ Durée de diffusion permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de validité n’est pas atteinte."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="Limite de validité des ressources"
+>abstract="Le champ Limite de validité est utilisé pour les ressources téléchargées, comme la page miroir ou les images. Ces ressources sont valides pour une durée limitée. Une fois la limite atteinte, elles ne sont plus disponibles."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="Mode de validation"
+>abstract="Chaque étape d’une diffusion peut faire l’objet d’une validation afin d’assurer un suivi et un contrôle complets des différents processus."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="Nombre maximal de reprises"
+>abstract="Si un message est en échec en raison d’une erreur temporaire, les reprises sont effectuées jusqu’à la fin de la durée de diffusion."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="Importance du destinataire"
+>abstract="L’importance du destinataire est une formule utilisée pour déterminer les destinataires qui sont conservés lorsque les règles de typologie de capacité sont dépassées."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="Poids de la diffusion"
+>abstract="Les poids de chaque diffusion permettent d’identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="Typologie"
+>abstract="Ce module permet de contrôler, de filtrer et de surveiller l’envoi des diffusions."
