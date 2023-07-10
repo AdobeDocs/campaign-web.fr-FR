@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 4a3591d917aedd028666eca99b8cf1c4aeb45e8f
+source-git-commit: de4aab11b858925617cdac782d537a746fb507d4
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 100%
+source-wordcount: '1552'
+ht-degree: 99%
 
 ---
 
@@ -301,6 +301,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_creation_workflow"
 >title="Liste des workflows"
 >abstract="Liste des workflows disponibles pour votre campagne. Utilisez le bouton « Créer un workflow » pour ajouter un workflow à votre campagne."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="Transition sortante pour la sauvegarde d’audience"
+>abstract="tbc"
+
 
 <!-- delivery template settings-->
 
