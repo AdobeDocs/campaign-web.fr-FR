@@ -5,18 +5,18 @@ description: Découvrez comment concevoir le contenu des e-mails.
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: ht
-source-wordcount: '209'
+workflow-type: tm+mt
+source-wordcount: '208'
 ht-degree: 100%
 
 ---
 
-# Ajouter un pré-titre à un e-mail {#preheader}
+# Ajouter un pré-en-tête à un e-mail {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Ajouter un pré-titre"
->abstract="Un pré-titre est un bref résumé qui suit l’objet d’un e-mail lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail et contient généralement une seule phrase."
+>title="Ajouter un pré-en-tête"
+>abstract="Un pré-en-tête est un bref résumé qui suit l’objet d’un e-mail lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail et contient généralement une seule phrase."
 
 Un pré-titre est un texte court qui suit l’objet d’un e-mail lorsque vous le visualisez depuis n’importe quel client de messagerie principal.
 
