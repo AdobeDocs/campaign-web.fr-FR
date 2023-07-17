@@ -3,14 +3,19 @@ audience: end-user
 title: Envoyer une diffusion par SMS
 description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 94%
 
 ---
 
 # Prévisualiser et envoyer une diffusion par SMS {#send-sms-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="Nouvelle mesure de quarantaines"
+>abstract="Nombre total d&#39;adresses mises en quarantaine à la suite d&#39;un échec de diffusion (utilisateur inconnu, domaine invalide) par rapport au nombre de messages à diffuser."
 
 ## Prévisualiser votre diffusion par SMS{#preview-sms}
 
