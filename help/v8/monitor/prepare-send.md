@@ -4,9 +4,9 @@ title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
-workflow-type: ht
-source-wordcount: '840'
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+workflow-type: tm+mt
+source-wordcount: '871'
 ht-degree: 100%
 
 ---
@@ -128,6 +128,16 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’e
 ![](assets/email-send-pause-or-stop.png)
 
 ## Vérifier les KPI {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Mesures envoyées"
+>abstract="Nombre total de messages traités lors de l&#39;analyse de la diffusion."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Mesures des erreurs"
+>abstract="Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés."
 
 Une fois l’envoi terminé, vous pouvez vérifier les KPI affichés :
 
