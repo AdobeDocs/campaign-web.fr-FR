@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="Sur cet écran, vous pouvez accéder à la liste complète des workflows de campagnes et autonomes, vérifier leur état actuel, les dates de dernière/prochaine exécution et créer un nouveau workflow. Allez à l&#39;onglet « Modèles » pour accéder aux modèles de workflow disponibles."
+>abstract="Sur cet écran, vous pouvez accéder à la liste complète des workflows autonomes et de campagne, vérifier leur statut actuel, les dates de dernière/prochaine exécution et créer un nouveau workflow. Allez à l’onglet « Modèle » pour accéder aux modèles de workflow disponibles."
 
 Le menu **[!UICONTROL Workflows]** vous permet d’accéder à la liste complète des workflows. Les **workflows autonomes**, créés à partir de cet écran et les **workflows de campagne**, créés dans une campagne, sont répertoriés.
 
