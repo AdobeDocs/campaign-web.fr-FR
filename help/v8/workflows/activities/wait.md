@@ -13,11 +13,11 @@ ht-degree: 100%
 
 # Attente {#wait}
 
-L’activité d’**attente** est une activité de **contrôle de flux**. Elle est utilisée pour permettre qu’un certain temps s’écoule entre l’exécution de deux activités. Par exemple, attendre plusieurs jours après une activité de diffusion email puis analyser les ouvertures et les clics générés pendant ce laps de temps avant d&#39;appliquer d&#39;autres traitements (email de rappel, création d&#39;audience, etc.).
+L’activité d’**attente** est une activité de **contrôle de flux**. Elle est utilisée pour permettre qu’un certain temps s’écoule entre l’exécution de deux activités. Par exemple, elle permet d’attendre plusieurs jours après une activité de diffusion e-mail puis d’analyser les ouvertures et les clics générés pendant ce laps de temps avant d’appliquer d’autres traitements (e-mail de rappel, création d’audience, etc.).
 
-## Configuration 
+## Configuration
 
-Procédez comme suit pour configurer l’activité d’**attente** :
+Pour configurer l’activité d’**attente**, procédez comme suit :
 
 1. Ajoutez une activité d’**attente** dans votre workflow.
 
@@ -27,6 +27,6 @@ Procédez comme suit pour configurer l’activité d’**attente** :
 
 ## Exemple
 
-L&#39;exemple suivant illustre l&#39;activité **Attente** dans un cas typique. Un email d&#39;invitation à un événement est envoyé. 24 heures après son envoi, une diffusion SMS est envoyée à la même population.
+L’exemple suivant illustre l’activité **Attente** dans un cas typique. Un e-mail d’invitation à un événement est envoyé. 24 heures après son envoi, une diffusion SMS est envoyée à la même population.
 
 ![](../assets/workflow-wait-example.png)
