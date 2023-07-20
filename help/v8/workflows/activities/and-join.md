@@ -28,6 +28,6 @@ Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 
 ## Exemple
 
-L’exemple ci-après montre deux branches d’un workflow avec une diffusion e-mail et SMS. L’activité Rendez-vous se déclenche lorsque les deux transitions entrantes sont activées. Les notifications push seront alors envoyées uniquement une fois les deux diffusions terminées.
+L’exemple ci-après montre deux branches d’un workflow avec une diffusion e-mail et SMS. L’activité Rendez-vous se déclenche lorsque les deux transitions entrantes sont activées. Les notifications push seront alors envoyées uniquement lorsque les deux diffusions seront terminées.
 
 ![](../assets/workflow-andjoin-example.png)
