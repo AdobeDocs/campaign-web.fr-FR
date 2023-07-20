@@ -17,11 +17,11 @@ Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes ma
 
 Vous pouvez par exemple créer une campagne par e-mail de bienvenue qui comprend une série de messages sur différents canaux, tels que les e-mails, les SMS et les notifications push. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente a effectué un achat, ou envoyer un message d’anniversaire personnalisé par SMS.
 
-Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent la clientèle sur plusieurs points de contact et génèrent des conversions.
+Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent la clientèle sur plusieurs touchpoints et génèrent des conversions.
 
 Voici les étapes à suivre pour ajouter une activité de **canal** dans un workflow :
 
-1. Assurez-vous d’avoir ajouté une activité **Créer une audience**. L’audience est la cible principale de votre diffusion : les destinataires qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**. Consultez [cette section](build-audience.md).
+1. Assurez-vous d’avoir ajouté une activité **Créer une audience**. L’audience est la cible principale de votre diffusion : il s’agit des destinataires qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**. Consultez [cette section](build-audience.md).
 
    ![](../../msg/assets/add-delivery-in-wf.png)
 
