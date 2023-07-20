@@ -15,12 +15,12 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Branchement activité"
->abstract="L&#39;activité Branchement permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle."
+>title="Branchement  activité"
+>abstract="L’activité Branchement permet de créer des transitions sortantes afin de démarrer plusieurs activités en parallèle."
 
 ## Configuration
 
-Procédez comme suit pour configurer l’activité **Branchement** :
+Pour configurer l’activité **Branchement**, procédez comme suit :
 
 1. Ajoutez une activité **Branchement** à votre workflow.
 1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
