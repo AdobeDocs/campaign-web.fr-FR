@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Créer une audience {#build-audience}
 
-L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l&#39;audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
+L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l’audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
 
 Pour définir la population de l’audience, vous pouvez :
 
@@ -23,7 +23,7 @@ Pour définir la population de l’audience, vous pouvez :
 
 >[!NOTE]
 >
->Dans ce contexte, vous ne pouvez pas charger d&#39;audience à partir d’un fichier. Pour cela, vous devez créer une diffusion autonome. [En savoir plus](../../audience/about-audiences.md)
+>Dans ce contexte, vous ne pouvez pas charger d’audience à partir d’un fichier. Pour cela, vous devez créer une diffusion autonome. [En savoir plus](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -35,7 +35,7 @@ Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
 1. Ajoutez une activité **Créer une audience**.
 1. Définissez un libellé.
-1. Définissez le type d’audience : **Créer la vôtre** ou **Lecture d’audience**.
+1. Définissez le type d’audience : **Créer votre audience** ou **Lecture d’audience**.
 
 Pour créer votre propre requête, procédez comme suit :
 
