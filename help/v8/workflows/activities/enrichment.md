@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Utiliser l’activité de workflow d’enrichissement
-description: Découvrez comment utiliser l’activité de workflow d’enrichissement.
+title: Utiliser l’activité de workflow Enrichissement
+description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: ht
@@ -15,36 +15,36 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
->title="Enrichissement activité"
+>title="Enrichissement  activité"
 >abstract="L’activité Enrichissement permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de ciblage.<br/>Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
 
-L’activité d’**enrichissement** est une activité de **ciblage**. Elle permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de segmentation.
+L’activité **Enrichissement** est une activité de **ciblage**. Elle permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de segmentation.
 
 Les données d’enrichissement tirent leur origine des sources suivantes :
 
-* **Le même tableau de travail** que celui ciblé dans votre workflow :
+* **La même table de travail** que celle ciblée dans votre workflow :
 
-  *Ciblez un groupe de clients et de clientes et ajoutez le champ « Date de naissance » au tableau de travail actuel.*
+  *Ciblez un groupe de clients et de clientes et ajoutez le champ « Date de naissance » à la table de travail actuelle.*
 
-* **Un autre tableau de travail** :
+* **Une autre table de travail** :
 
   *Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat »*.
 
-Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité d’**enrichissement** pour segmenter les clients et les clientes en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible.
+Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité **Enrichissement** pour segmenter les clients et les clientes en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible.
 
-Par exemple, vous pouvez ajouter au tableau de travail du workflow des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
+Par exemple, vous pouvez ajouter à la table de travail du workflow des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
 
 ## Configuration générale {#general}
 
-Procédez comme suit pour configurer l’activité d’**enrichissement** :
+Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
 1. Ajoutez des activités telles que **Créer une audience** et **Combiner**.
-1. Ajoutez une activité d’**enrichissement**.
+1. Ajoutez une activité **Enrichissement**.
 1. Cliquez sur **Ajouter des données d’enrichissement**.
 
 ![](../assets/workflow-enrichment1.png)
 
-Vous pouvez sélectionner deux types de données d’enrichissement : un [attribut d’enrichissement unique](#single-attribute) de la dimension cible, ou un [lien de collection](#collection-link).
+Vous pouvez sélectionner deux types de données d’enrichissement : un [attribut d’enrichissement unique](#single-attribute) de la dimension cible, ou un [lien de collecte](#collection-link).
 
 ## Attribut d’enrichissement unique {#single-attribute}
 
@@ -56,18 +56,18 @@ Ici, nous ajoutons un seul attribut d’enrichissement, par exemple, la date de 
 
 ![](../assets/workflow-enrichment2.png)
 
-## Lien de collection {#collection-link}
+## Lien de collecte {#collection-link}
 
-Dans ce cas pratique plus complexe, nous allons sélectionner un lien de collection qui est un lien avec une cardinalité 1-N entre les tableaux. Récupérons les trois derniers achats inférieurs à 100 $. Pour cela, vous devez définir :
+Dans ce cas pratique plus complexe, nous sélectionnons un lien de collecte qui est un lien avec une cardinalité 1-N entre les tableaux. Récupérons les trois derniers achats inférieurs à 100 USD. Pour cela, vous devez définir :
 
 * un attribut d’enrichissement : le champ **Montant total** ;
 * le nombre de lignes à récupérer : 3 ;
-* un filtre : filtrez les éléments supérieurs à 100 $ ;
+* un filtre : filtrez les éléments supérieurs à 100 USD ;
 * un tri : tri descendant sur le champ **Date de commande**.
 
 ### Ajouter l’attribut
 
-C’est là que vous sélectionnez le lien de collection à utiliser comme données d’enrichissement.
+C’est là que vous sélectionnez le lien de collecte à utiliser comme données d’enrichissement.
 
 1. Cliquez dans le champ **Attribut**.
 1. Cliquez sur **Afficher les attributs avancés**.
@@ -75,7 +75,7 @@ C’est là que vous sélectionnez le lien de collection à utiliser comme donn�
 
 ![](../assets/workflow-enrichment3.png)
 
-### Définir les paramètres de la collection
+### Définir les paramètres de la collecte
 
 Définissez ensuite la manière dont les données sont collectées et le nombre d’enregistrements à récupérer.
 
@@ -90,7 +90,7 @@ Si vous souhaitez, par exemple, obtenir le montant moyen des achats d’un clien
 
 ### Définir des filtres
 
-Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. Nous filtrons les éléments supérieurs à 100 $.
+Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. Nous filtrons les éléments supérieurs à 100 USD.
 
 1. Cliquez sur **Modifier les filtres**.
 1. Ajoutez les deux filtres suivants : **Montant total** existe ET **Montant total** est inférieur à 100. Le premier filtre les valeurs NULL, car elles apparaissent comme la valeur la plus élevée.
