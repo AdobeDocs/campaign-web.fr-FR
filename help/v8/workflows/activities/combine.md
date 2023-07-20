@@ -4,8 +4,8 @@ title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '688'
+workflow-type: tm+mt
+source-wordcount: '687'
 ht-degree: 100%
 
 ---
