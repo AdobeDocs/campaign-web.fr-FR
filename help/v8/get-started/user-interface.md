@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
+source-git-commit: 23104c91c01575ad393ef3702819ad2dc6a5fe23
 workflow-type: tm+mt
 source-wordcount: '1530'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketi
 
 * **Campagnes** : il s’agit de la liste de vos campagnes et modèles de campagne. Par défaut, pour chaque campagne, vous pouvez afficher les dates de début, de fin, de création, de dernière modification, le statut actuel et le nom de l’opérateur ou de l’opératrice Campaign qui l’a créée. Vous pouvez filtrer la liste par statut, dates de début et de fin, ou par dossier, ou créer un filtre avancé afin de définir vos propres critères de filtrage. En savoir plus sur les campagnes [dans cette section](../campaigns/gs-campaigns.md).
 
-* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par état, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Pour en savoir plus sur les diffusions, consultez [cette section](../msg/gs-messages.md).
+* **Diffusions** - Parcourez votre liste de diffusions. Vous pouvez consulter leur état, date de dernière modification ainsi que les principaux KPI. Vous pouvez filtrer la liste par statut, date de contact ou canal. Pour obtenir une vue d’ensemble des détails d’une diffusion e-mail, cliquez sur celle-ci afin d’ouvrir son tableau de bord. Les diffusions sur d’autres canaux sont en lecture seule. Pour en savoir plus sur les diffusions, consultez [cette section](../msg/gs-messages.md).
 
   Utilisez le bouton **Autres actions** pour supprimer ou dupliquer une diffusion.
 
@@ -106,9 +106,9 @@ Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offres"
->abstract="Parcourez votre liste d’offres Interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par état et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule."
+>abstract="Parcourez votre liste d’offres Interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule."
 
-* **Offres** - Parcourez votre liste d’offres d’interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par état et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
+* **Offres** - Parcourez votre liste d’offres d’interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
 
 Découvrez comment créer et gérer des offres dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 

@@ -4,10 +4,10 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Diffusions"
->abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur statut, les dates de contact et de modification, les KPI clés. Vous pouvez filtrer la liste par état, date de contact ou canal. Cliquez sur le bouton « Créer une diffusion » pour ajouter une nouvelle diffusion. Sélectionnez une diffusion pour afficher son contenu, son audience et ses détails."
+>abstract="Parcourez votre liste de diffusions. Vous pouvez consulter leur statut, les dates de contact et de modification, les KPI clés. Vous pouvez filtrer la liste par statut, date de contact ou canal. Cliquez sur le bouton « Créer une diffusion » pour ajouter une nouvelle diffusion. Sélectionnez une diffusion pour afficher son contenu, son audience et ses détails."
 
 
 Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS, notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés.
@@ -133,7 +133,7 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
 * Créer du **contenu conditionnel**
 
-  Configurez du contenu conditionnel et ajoutez une touche de personnalisation dynamique (basée sur le profil du ou de la destinataire, par exemple). Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. [En savoir plus](../personalization/conditions.md)
+  Configurez du contenu conditionnel pour ajouter une personnalisation dynamique basée sur le profil du destinataire, par exemple. Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. [En savoir plus](../personalization/conditions.md)
 
 * Ajouter des **offres personnalisées**
 
