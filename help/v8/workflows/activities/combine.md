@@ -37,7 +37,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 
-1. ajoutez plusieurs activités, comme **Créer une audience**, pour former au moins deux branches d’exécution différentes.
+1. Ajoutez plusieurs activités, comme **Créer une audience**, pour former au moins deux branches d’exécution différentes.
 1. Ajoutez une activité **Combiner** à l’une des branches précédentes.
 1. Sélectionnez le type de segmentation : [union](#union), [intersection](#intersection) ou [exclusion](#exclusion).
 1. Cliquez sur **Continuer**.
@@ -52,26 +52,26 @@ Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 
 Pour l’**Union**, vous devez sélectionner le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités :
 
-* **Uniquement les clés** : c&#39;est le mode par défaut. L&#39;activité ne conserve qu&#39;un élément lorsque des éléments provenant des différentes transitions entrantes ont la même clé. Cette option ne peut être utilisée que si les populations en entrée sont homogènes.
-* **Une sélection de colonnes** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d&#39;abord sélectionner l&#39;ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
+* **Uniquement les clés** : il s’agit du mode par défaut. Lorsque des éléments provenant des différentes transitions entrantes ont la même clé, l’activité ne conserve qu’un élément. Cette option ne peut être utilisée que si les populations entrantes sont homogènes.
+* **Une sélection de colonnes** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d’abord sélectionner l’ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
 
 ## Intersection {#intersection}
 
 Pour l’**Intersection**, procédez comme suit :
 
 1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
-1. Cochez l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
+1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
 
 ## Exclusion {#exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
->title="Exclusion règles"
+>title="Exclusion  règles"
 >abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur Ajouter une règle dans la section Règles d’exclusion et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 Pour l’**Exclusion**, suivez ces étapes supplémentaires :
 
-1. Dans la section **Ensembles à joindre**, sélectionnez **Ensemble principal** parmi les transitions entrantes. C&#39;est l&#39;ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l&#39;ensemble principal.
+1. Dans la section **Ensembles à joindre**, sélectionnez **Ensemble principal** parmi les transitions entrantes. C’est l’ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l’ensemble principal.
 1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure.
 1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Pour plus d’informations, consultez la section [Intersection](#intersection).
 
@@ -85,7 +85,7 @@ L’exemple suivant montre l’**intersection** de deux activités de requête. 
 
 ![](../assets/workflow-intersection-example.png)
 
-L’exemple d’**exclusion** suivant présente deux requêtes configurées pour filtrer les profils ayant entre 18 et 27 ans et ayant un domaine d’e-mail Adobe. Les profils avec un domaine d’e-mail Adobe sont ensuite exclus du premier ensemble.
+L’exemple d’**exclusion** suivant présente deux requêtes configurées pour filtrer les profils qui ont entre 18 et 27 ans et qui ont un domaine d’e-mail Adobe. Les profils avec un domaine d’e-mail Adobe sont ensuite exclus du premier ensemble.
 
 ![](../assets/workflow-exclusion-example.png)
 
