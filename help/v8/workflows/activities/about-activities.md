@@ -4,10 +4,10 @@ title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 96%
 
 ---
 
@@ -31,6 +31,7 @@ Ces activités sont spécifiques au ciblage, à la manipulation et à l’enrich
 * L’activité [Créer une audience](build-audience.md) vous permet de définir votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le créateur de règles pour définir votre propre requête.
 * L’activité [Combiner](combine.md) permet d’effectuer une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
 * L’activité [Enrichissement](enrichment.md) vous permet de définir des données supplémentaires à traiter dans votre workflow. Avec cette activité, vous pouvez utiliser la transition entrante et configurer l’activité pour ajouter des données supplémentaires à la transition sortante.
+* Le [Partage](split.md) permet de segmenter la population entrante en plusieurs sous-ensembles.
 
 ## Activités de canal {#channel}
 

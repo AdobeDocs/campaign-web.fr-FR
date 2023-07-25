@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Branchement
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Pour configurer l’activité **Branchement**, procédez comme suit :
 
 ## Exemple
 
-Dans l’exemple suivant, nous utilisons deux activités **Branchement** :
+Dans l’exemple suivant, nous utilisons deux **Branchement** activités :
 
 * Une avant les deux requêtes, pour les exécuter en même temps.
 * Une après l’intersection, pour envoyer simultanément un e-mail et un SMS à la population ciblée.
