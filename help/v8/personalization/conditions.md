@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c977f8e3567a478fa46dc8914c329ca4e8dd3274
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,16 @@ ht-degree: 100%
 >title="Créer du contenu conditionnel"
 >abstract="Créez du contenu conditionnel pour définir une personnalisation dynamique basée sur le profil de destination, en remplaçant automatiquement les blocs de texte et les images lorsque certaines conditions sont remplies. Cette fonctionnalité permet de créer des campagnes plus sophistiquées, et de proposer des expériences hautement ciblées et personnalisées à votre audience."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditional_content"
+>title="Ajouter du contenu conditionnel"
+>abstract="Configurez des champs de contenu conditionnel pour créer une personnalisation dynamique avancée basée sur les données de profil du destinataire. Les blocs de texte, les liens, l’objet et/ou les images sont remplacés dans le contenu du message lorsqu’une condition particulière est remplie."
+
 Le contenu conditionnel est une puissante fonctionnalité qui permet de créer une personnalisation dynamique basée sur le profil de la personne destinataire, en remplaçant automatiquement les blocs de texte et les images lorsque certaines conditions sont remplies. Cette fonctionnalité permet de créer des campagnes plus sophistiquées, et de proposer des expériences hautement ciblées et personnalisées à votre audience.
 
-En configurant des champs de contenu conditionnel, vous pouvez notamment créer une personnalisation dynamique avancée basée sur le profil de la personne destinataire. Les blocs de texte, les liens, l’objet et/ou les images sont remplacés dans le contenu du message lorsqu’une condition particulière est remplie. Par exemple, vous pouvez afficher « M. » ou « Mme » en fonction de la valeur du champ Genre dans la base de données Adobe Campaign, ou inclure un lien différent en fonction de la langue préférée de la personne destinataire.
+En configurant des champs de contenu conditionnel, vous pouvez créer une personnalisation dynamique avancée basée sur le profil du destinataire, par exemple. Les blocs de texte, les liens, l’objet et/ou les images sont remplacés dans le contenu du message lorsqu’une condition particulière est remplie. Par exemple, vous pouvez afficher « M. » ou « Mme » en fonction de la valeur du champ Genre dans la base de données Adobe Campaign, ou inclure un lien différent en fonction de la langue préférée de la personne destinataire.
 
 ## Comment créer du contenu conditionnel
 
