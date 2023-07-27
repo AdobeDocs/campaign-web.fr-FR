@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '1068'
-ht-degree: 100%
+source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+workflow-type: tm+mt
+source-wordcount: '1285'
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,19 @@ ht-degree: 100%
 >title="Contenu de notification push pour iOS"
 >abstract="Définissez le contenu de la notification push iOS."
 
-## Message {#push-message}
+## Définir le contenu de la notification {#push-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_msg"
+>title="Message push iOS"
+>abstract="Définissez le titre et le contenu de votre message iOS push. Utilisez la boîte de dialogue de personnalisation pour personnaliser le contenu et ajouter des conditions."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_silent"
+>title="Notification silencieuse pour iOS"
+>abstract="Le mode Notification silencieuse permet d&#39;envoyer une notification &quot;silencieuse&quot; à une application mobile. L&#39;utilisateur n&#39;est pas averti de l&#39;arrivée de la notification. Elle est directement transférée à l&#39;application."
+
+
 
 >[!BEGINTABS]
 
@@ -30,18 +42,17 @@ ht-degree: 100%
 
 Firebase Cloud Messaging vous permet de choisir entre deux types de messages :
 
-* Le **[!UICONTROL Message de donnée]s** est géré par l’application cliente. Ces messages sont envoyés directement à l’application mobile, qui génère et affiche une notification Android sur l’appareil. Les messages de données contiennent uniquement vos variables d’application personnalisées.
+* La variable **[!UICONTROL Message de données]** est géré par l’application cliente. Ces messages sont envoyés directement à l’application mobile, qui génère et affiche une notification Android sur l’appareil. Les messages de données contiennent uniquement vos variables d’application personnalisées.
 
-  Pour définir le contenu, personnaliser les données et ajouter du contenu dynamique, cliquez sur le champ **[!UICONTROL Message]** et utilisez l’éditeur d’expression. Vous pouvez accéder à cet éditeur pour personnaliser vos messages.
-Dans le menu **[!UICONTROL Variables d’application]**, vos variables d’application sont automatiquement ajoutées. Ces variables vous permettent de définir le comportement des notifications. Vous pouvez par exemple paramétrer un écran d’application spécifique qui s’affichera lorsque l’utilisateur ou l’utilisatrice activera la notification.
+  Pour définir le contenu, personnaliser les données et ajouter du contenu dynamique, cliquez sur le champ **[!UICONTROL Message]** et utilisez l’éditeur d’expression. Vous pouvez accéder à cet éditeur pour personnaliser vos messages. Dans le **[!UICONTROL Variables d’application]** , vos variables d’application sont automatiquement ajoutées. Ces variables vous permettent de définir le comportement des notifications. Vous pouvez par exemple paramétrer un écran d’application spécifique qui s’affichera lorsque l’utilisateur ou l’utilisatrice activera la notification.
 
   ![](assets/push_content_4.png)
 
-* Le **[!UICONTROL Message de notification]**, géré automatiquement par le SDK FCM. FCM affiche automatiquement le message sur les appareils de vos utilisateurs pour le compte de l’application cliente. Les messages de notification contiennent un ensemble de paramètres et d’options prédéfini, mais peuvent encore être personnalisés avec des variables d’application personnalisées.
+* Le **[!UICONTROL Message de notification]**, géré automatiquement par le SDK FCM. FCM affiche automatiquement le message sur les appareils de vos utilisateurs pour le compte de l&#39;application cliente. Les messages de notification contiennent un ensemble de paramètres et d’options prédéfini, mais peuvent encore être personnalisés avec des variables d’application personnalisées.
 
   Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**. Utilisez l’éditeur d’expression pour définir le contenu, personnaliser les données et ajouter du contenu dynamique.
 
-  Pour personnaliser davantage votre notification push, vous pouvez choisir une image à lui ajouter, l’icône de la notification qui s’affichera sur les appareils de vos profils et sa couleur.
+  Pour personnaliser davantage votre notification push, vous pouvez choisir une image à ajouter à votre notification push, l&#39;icône de la notification qui s&#39;affichera sur les appareils de vos profils et sa couleur.
 
   ![](assets/push_content_3.png)
 
@@ -51,13 +62,43 @@ Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **
 
 Vous pouvez ajouter un **[!UICONTROL sous-titre]**, valeur du paramètre sous-titre de la payload de notification iOS. Consultez cette section.
 
-Le mode Notification silencieuse permet d’envoyer une notification « silencieuse » à une application mobile. La personne n’est pas avertie de l’arrivée de la notification. Elle est directement transférée à l’application.
+Le mode Notification silencieuse permet d&#39;envoyer une notification &quot;silencieuse&quot; à une application mobile. L&#39;utilisateur n&#39;est pas averti de l&#39;arrivée de la notification. Elle est directement transférée à l&#39;application.
 
 ![](assets/push_content_1.png)
 
 >[!ENDTABS]
 
-## Paramètres avancés {#push-advanced}
+## Paramètres avancés de notification push {#push-advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_critical"
+>title="Mode d’alerte critique pour iOS"
+>abstract="Activez cette option pour ajouter du son à votre notification, même si le téléphone de l&#39;utilisateur est en mode focus ou si l&#39;appareil est en mode muet. Ainsi, les utilisateurs sont avertis des alertes importantes dans tous les cas."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_count"
+>title="Numéro de badge pour iOS"
+>abstract="Utilisez cette option pour définir le nombre de nouvelles informations non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur de voir rapidement le nombre de notifications en attente."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_mutable"
+>title="Contenu mutable pour iOS"
+>abstract="Utilisez cette option pour permettre à l&#39;application mobile de télécharger le contenu multimédia associé à la notification."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_score"
+>title="Score de pertinence pour iOS"
+>abstract="Définissez un score de pertinence compris entre 0 et 100 pour classer par priorité l’ordre des notifications dans le résumé des notifications. Des scores plus élevés indiquent des notifications plus importantes."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_app_variables"
+>title="Variables d’application pour iOS"
+>abstract="Utilisez des variables d’application pour définir le comportement des notifications. Ces variables sont entièrement personnalisables et font partie de la payload du message envoyée à l’appareil mobile."
+
+
 
 >[!BEGINTABS]
 
@@ -69,7 +110,7 @@ Le mode Notification silencieuse permet d’envoyer une notification « silenci
 |---------|---------|
 | **[!UICONTROL Son]** | Définissez le son à émettre lorsque l’appareil reçoit votre notification. |
 | **[!UICONTROL Nombre de notifications]** | Définissez le nombre de nouvelles informations non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur de voir rapidement le nombre de notifications en attente. |
-| **[!UICONTROL Identifiant du canal]** | Définissez l’identifiant de canal de votre notification. L’application doit créer un canal avec cet identifiant de canal avant la réception d’une notification avec cet identifiant de canal. |
+| **[!UICONTROL Identifiant du canal]** | Définissez l&#39;identifiant de canal de votre notification. L’application doit créer un canal avec cet identifiant de canal avant la réception d’une notification avec cet identifiant de canal. |
 | **[!UICONTROL Action de clic]** | Définissez l’action associée à un clic de l’utilisateur sur votre notification. Cela détermine le comportement lorsque l’utilisateur interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application. |
 | **[!UICONTROL Balise]** | Définissez l’identifiant utilisé pour remplacer les notifications existantes dans le tiroir de notifications. Vous éviterez ainsi l’accumulation de plusieurs notifications et vous assurerez que seule la dernière notification pertinente est affichée. |
 | **[!UICONTROL Priorité]** | Définissez le niveau de priorité de votre notification, qui peut être par défaut, minimale, faible ou élevée. Le niveau de priorité détermine l’importance et l’urgence de la notification. Il influence son affichage et la possibilité ou non qu’elle puisse contourner certains paramètres système. Pour plus d’informations à ce propos, consultez la [documentation FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
@@ -83,7 +124,7 @@ Le mode Notification silencieuse permet d’envoyer une notification « silenci
 
 | Paramètre | Description |
 |---------|---------|
-| **[!UICONTROL Mode d’alerte critique]** | Activez cette option pour ajouter du son à votre notification, même si le téléphone de la personne est en mode de mise au point ou si l’iPhone est en mode silencieux. Vous vous assurerez ainsi que les alertes importantes sont remarquées par la personne. |
+| **[!UICONTROL Mode d’alerte critique]** | Activez cette option pour ajouter du son à votre notification, même si le téléphone de l&#39;utilisateur est en mode focus ou si l&#39;appareil est en mode muet. Vous vous assurerez ainsi que les alertes importantes sont remarquées par la personne. |
 | **[!UICONTROL Nettoyer la pastille]** | Activez cette option pour actualiser la valeur du badge affichée sur l’icône de l’application. Vous vous assurerez ainsi que le badge reflète exactement le nombre de nouvelles informations non lues. |
 | **[!UICONTROL Nombre de notifications]** | Définissez un nombre qui s’affichera directement sur l’icône de l’application, indiquant le nombre de nouvelles informations non lues. Vous obtiendrez ainsi une référence visuelle rapide pour l’utilisateur ou l’utilisatrice. |
 | **[!UICONTROL Volume]** | Volume de votre son de 0 à 100. |
