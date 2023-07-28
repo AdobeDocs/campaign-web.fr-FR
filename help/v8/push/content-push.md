@@ -3,14 +3,14 @@ audience: end-user
 title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Alpha"
-source-git-commit: 20a518d846d046aed92648fa0cdcd89b7731bca6
+source-git-commit: c6cbb60086d159103a7a28f10eb2874a6dd20a9c
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 81%
+source-wordcount: '1347'
+ht-degree: 80%
 
 ---
 
-# Concevoir une diffusion de notification push {#content-push}
+# Concevoir une diffusion de messagerie push {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -68,7 +68,7 @@ Le mode Notification silencieuse permet d&#39;envoyer une notification &quot;sil
 
 >[!ENDTABS]
 
-## Paramètres avancés de notification push {#push-advanced}
+## Paramètres avancés des notifications push {#push-advanced}
 
 
 >[!CONTEXTUALHELP]
