@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Alpha"
-source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
+source-git-commit: 20a518d846d046aed92648fa0cdcd89b7731bca6
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 80%
+source-wordcount: '1346'
+ht-degree: 81%
 
 ---
 
@@ -105,6 +105,11 @@ Le mode Notification silencieuse permet d&#39;envoyer une notification &quot;sil
 >title="Variables d’application pour iOS"
 >abstract="Utilisez des variables d’application pour définir le comportement des notifications. Ces variables sont entièrement personnalisables et font partie de la payload du message envoyée à l’appareil mobile."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_category"
+>title="ID de catégorie pour iOS"
+>abstract="Indiquez le nom de l’ID de catégorie associé à la notification. Cela permet d’afficher des boutons d’action, permettant à l’utilisateur ou utilisatrice d’effectuer différentes tâches directement depuis la notification sans ouvrir l’application."
 
 
 >[!BEGINTABS]
