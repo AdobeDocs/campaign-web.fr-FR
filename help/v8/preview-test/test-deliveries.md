@@ -4,10 +4,10 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 100%
+source-wordcount: '1000'
+ht-degree: 94%
 
 ---
 
@@ -26,14 +26,10 @@ Les destinataires d’un test peuvent vérifier différents éléments tels que 
 
 ## Sélectionner les destinataires du test {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Population test"
 >abstract="Sélectionnez un mode de population test."
-
-
 
 En fonction du canal que vous utilisez, les messages de test peuvent être envoyés à trois types de destinataires :
 
@@ -53,6 +49,15 @@ Pour sélectionner les destinataires d’une diffusion test, procédez comme sui
 
 ### Profils de test {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="Cible du BAT"
+>abstract="Vous pouvez télécharger un second fichier en tant que &quot;cible du BAT&quot;, si vous souhaitez tester votre diffusion avant de l&#39;envoyer à la cible principale."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="Chargement de profils"
+>abstract="Vous pouvez charger un second fichier avec des profils supplémentaires si vous souhaitez tester votre diffusion avec un ensemble différent de celui utilisé pour la cible principale."
 
 1. Accédez à l’écran de modification du contenu de votre diffusion e-mail ou SMS, puis cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
