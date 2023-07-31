@@ -5,8 +5,8 @@ description: Découvrez comment coder votre propre contenu d’e-mail.
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: ht
-source-wordcount: '109'
+workflow-type: tm+mt
+source-wordcount: '108'
 ht-degree: 100%
 
 ---

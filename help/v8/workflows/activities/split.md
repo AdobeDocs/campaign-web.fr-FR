@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Partage {#split}
 
-Le **Partage** est une activité **Ciblage** activité permettant de segmenter les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population.
+La variable **Partage** est une activité **Ciblage** activité permettant de segmenter les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population.
 
 ## Configuration {#general}
 
-Procédez comme suit pour configurer la variable **Partage** activité :
+Pour configurer la variable **Partage** activité :
 
 1. Ajouter un **Partage** à votre workflow.
 
@@ -57,8 +57,8 @@ L’activité est maintenant configurée. Lors de l&#39;exécution du workflow, 
 
 Dans l’exemple suivant, la variable **[!UICONTROL Partage]** L’activité sert à segmenter une audience en sous-ensembles distincts en fonction du canal de communication que nous voulons utiliser :
 
-* **Sous-ensemble 1 &quot;push&quot;**: Ce sous-ensemble comprend tous les profils ayant installé notre application mobile.
-* **Sous-ensemble 2 &quot;sms&quot;**: Utilisateurs de téléphone mobile : Pour la population restante qui n&#39;a pas fait partie du sous-ensemble 1, le sous-ensemble 2 applique une règle de filtrage afin de sélectionner les profils avec des téléphones mobiles dans la base de données.
-* **Transition complémentaire**: Cette transition capture tous les profils restants qui ne correspondent pas au sous-ensemble 1 ou au sous-ensemble 2. Plus précisément, il inclut les profils qui n’ont pas installé l’application mobile ou qui n’ont pas de téléphone mobile, tels que les utilisateurs qui n’ont pas installé l’application mobile ou qui ne disposent pas d’un numéro de mobile enregistré.
+* **Sous-ensemble 1 &quot;push&quot;**: ce sous-ensemble comprend tous les profils ayant installé notre application mobile.
+* **Sous-ensemble 2 &quot;sms&quot;**: Utilisateurs de téléphone mobile : pour la population restante qui n&#39;a pas fait partie du sous-ensemble 1, le sous-ensemble 2 applique une règle de filtrage afin de sélectionner les profils avec des téléphones mobiles dans la base de données.
+* **Transition complémentaire**: cette transition capture tous les profils restants qui ne correspondent pas au sous-ensemble 1 ou au sous-ensemble 2. Plus précisément, il inclut les profils qui n’ont pas installé l’application mobile ou qui n’ont pas de téléphone mobile, tels que les utilisateurs qui n’ont pas installé l’application mobile ou qui ne disposent pas d’un numéro de mobile enregistré.
 
 ![](../assets/workflow-split-example.png)

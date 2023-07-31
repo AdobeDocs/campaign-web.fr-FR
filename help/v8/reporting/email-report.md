@@ -4,8 +4,8 @@ title: Rapports de diffusion par e-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '1407'
+workflow-type: tm+mt
+source-wordcount: '1406'
 ht-degree: 100%
 
 ---

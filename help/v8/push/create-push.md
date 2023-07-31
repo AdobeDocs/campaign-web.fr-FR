@@ -4,8 +4,8 @@ title: Créer une diffusion notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Alpha"
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
-workflow-type: ht
-source-wordcount: '330'
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---

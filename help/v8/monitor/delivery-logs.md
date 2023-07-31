@@ -6,7 +6,7 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 badge: label="Alpha"
 source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '358'
 ht-degree: 72%
 
 ---
@@ -58,13 +58,13 @@ L’onglet **Logs d’exclusion** répertorie tous les messages qui ont été ex
 
 ## Causes d’exclusion {#exclusion-causes-tab}
 
-Le **Exclusions appliquées** onglet affiche, pour chaque cause possible, le nombre de messages qui ont été exclus de la cible.
+La variable **Exclusions appliquées** onglet affiche, pour chaque cause possible, le nombre de messages qui ont été exclus de la cible.
 
 ![](assets/logs4.png)
 
 ## Tracked URLs {#tracked-urls-tab}
 
-Le **URL trackées** tab regroupe les URL contenues dans les messages envoyés, leur type et leur URL source.
+La variable **URL trackées** tab regroupe les URL contenues dans les messages envoyés, leur type et leur URL source.
 
 ![](assets/logs5.png)
 

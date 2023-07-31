@@ -4,8 +4,8 @@ title: Utiliser l’activité de workflow Rendez-vous
 description: Découvrez comment utiliser l’activité de workflow Rendez-vous.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '187'
+workflow-type: tm+mt
+source-wordcount: '186'
 ht-degree: 100%
 
 ---

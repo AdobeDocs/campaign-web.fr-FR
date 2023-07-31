@@ -31,7 +31,7 @@ Ces activités sont spécifiques au ciblage, à la manipulation et à l’enrich
 * L’activité [Créer une audience](build-audience.md) vous permet de définir votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le créateur de règles pour définir votre propre requête.
 * L’activité [Combiner](combine.md) permet d’effectuer une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
 * L’activité [Enrichissement](enrichment.md) vous permet de définir des données supplémentaires à traiter dans votre workflow. Avec cette activité, vous pouvez utiliser la transition entrante et configurer l’activité pour ajouter des données supplémentaires à la transition sortante.
-* Le [Partage](split.md) permet de segmenter la population entrante en plusieurs sous-ensembles.
+* La variable [Partage](split.md) permet de segmenter la population entrante en plusieurs sous-ensembles.
 
 ## Activités de canal {#channel}
 

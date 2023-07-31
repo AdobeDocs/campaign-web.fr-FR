@@ -4,8 +4,8 @@ product: campaign
 title: Utiliser des modèles d’e-mails
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: ht
-source-wordcount: '120'
+workflow-type: tm+mt
+source-wordcount: '119'
 ht-degree: 100%
 
 ---

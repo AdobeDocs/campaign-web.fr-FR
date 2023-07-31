@@ -5,8 +5,8 @@ description: En savoir plus sur les paramètres de diffusion d’e-mail dans l�
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '1475'
+workflow-type: tm+mt
+source-wordcount: '1474'
 ht-degree: 100%
 
 ---

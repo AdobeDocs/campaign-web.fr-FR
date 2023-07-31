@@ -5,8 +5,8 @@ description: Découvrez comment créer des workflows à l’aide d’Adobe Camp
 badge: label="Alpha"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '520'
+workflow-type: tm+mt
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
