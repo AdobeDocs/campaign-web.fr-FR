@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
+source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 91%
+source-wordcount: '1667'
+ht-degree: 89%
 
 ---
 
@@ -288,6 +288,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Cette diffusion est en lecture seule"
 >abstract="Vous ne disposez pas des autorisations nécessaires pour éditer cette diffusion. Si nécessaire, contactez votre administrateur pour lui accorder l’accès."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Ce service est en lecture seule"
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce service. Si nécessaire, contactez votre administrateur pour lui accorder l’accès."
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -310,6 +315,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_wf_read_only"
 >title="Ce workflow est en lecture seule"
 >abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce workflow. Si nécessaire, contactez votre administrateur pour lui accorder l’accès."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Ce workflow est en lecture seule"
+>abstract="Vous ne pouvez pas modifier ce workflow en raison d’un canevas non pris en charge ou incompatible."
 
 <!-- delivery template settings-->
 
