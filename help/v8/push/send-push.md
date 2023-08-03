@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées tests pour prévisualiser et tester le message. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son affichage dans le message à l’aide des données de profil de test. Vous pouvez ainsi vous assurer que le message est correctement rendu et que les éléments personnalisés sont bien intégrés.
 
-Les principales étapes pour prévisualiser votre notification push sont les suivantes. Pour plus d’informations sur la prévisualisation des diffusions, consultez [cette section](../preview-test/preview-content.md).
+Voici les étapes principales pour prévisualiser votre notification push. Pour plus d’informations sur la prévisualisation des diffusions, consultez [cette section](../preview-test/preview-content.md).
 
 1. Sur la page de contenu de la diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu que vous avez personnalisé.
 

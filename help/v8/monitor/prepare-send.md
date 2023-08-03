@@ -132,7 +132,7 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’e
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Mesures envoyées"
->abstract="Nombre total de messages traités lors de l&#39;analyse de la diffusion."
+>abstract="Nombre total de messages traités lors de l’analyse de la diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"

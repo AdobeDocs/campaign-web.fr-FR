@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -106,9 +106,9 @@ Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offres"
->abstract="Parcourez votre liste d’offres Interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule."
+>abstract="Parcourez votre liste d’offres Interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par dates de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule."
 
-* **Offres** - Parcourez votre liste d’offres d’interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par date de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
+* **Offres** - Parcourez votre liste d’offres d’interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par dates de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
 
 Découvrez comment créer et gérer des offres dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 
@@ -307,7 +307,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_activity"
->title="Sauver une audience"
+>title="Enregistrer une audience"
 >abstract="Utilisez cette activité pour enregistrer l’audience du workflow."
 
 

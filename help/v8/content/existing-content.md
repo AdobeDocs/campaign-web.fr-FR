@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
->title="Utiliser un contenu d&#39;email existant"
->abstract="Le Concepteur d’e-mail permet d’importer du contenu HTML existant. Ce contenu peut être un fichier de HTML avec une feuille de style incorporée ou un dossier .zip contenant le fichier de HTML, la feuille de style (.css) et les images."
+>title="Utiliser un contenu d’e-mail existant"
+>abstract="Le Concepteur d’e-mail permet d’importer du contenu HTML existant. Ce contenu peut être un fichier HTML avec une feuille de style incorporée ou un dossier ZIP contenant le fichier HTML, la feuille de style (CSS) et les images."
 
 Le Concepteur d’e-mail permet d’importer du contenu HTML existant. Ce contenu peut être :
 

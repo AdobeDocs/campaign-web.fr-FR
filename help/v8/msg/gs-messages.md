@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
 * Créer du **contenu conditionnel**
 
-  Configurez du contenu conditionnel pour ajouter une personnalisation dynamique basée sur le profil du destinataire, par exemple. Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. [En savoir plus](../personalization/conditions.md)
+  Configurez du contenu conditionnel pour ajouter une personnalisation dynamique basée notamment sur le profil de la personne destinataire. Lorsqu’une condition est rencontrée, des blocs de texte et/ou des images sont alors insérés. [En savoir plus](../personalization/conditions.md)
 
 * Ajouter des **offres personnalisées**
 

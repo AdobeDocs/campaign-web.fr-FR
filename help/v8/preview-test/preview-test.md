@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: À propos de la prévisualisation et du test des diffusions
-description: Découvrez comment prévisualiser et tester des diffusions
+description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
 source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >title="Prévisualiser et tester vos messages"
 >abstract="Une fois le contenu du message défini, prévisualisez-le et testez-le à l’aide de profils de test."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=fr" text="Prévisualiser le contenu du message"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Envoyer des diffusions test"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=fr" text="Envoyer des diffusions test"
 
 Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils de test pour le prévisualiser et le tester avant d’envoyer le message.
 

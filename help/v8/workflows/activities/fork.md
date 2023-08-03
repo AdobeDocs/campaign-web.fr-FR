@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Pour configurer l’activité **Branchement**, procédez comme suit :
 
 ## Exemple
 
-Dans l’exemple suivant, nous utilisons deux **Branchement** activités :
+Dans l’exemple suivant, nous utilisons deux activités **Branchement** :
 
 * Une avant les deux requêtes, pour les exécuter en même temps.
 * Une après l’intersection, pour envoyer simultanément un e-mail et un SMS à la population ciblée.

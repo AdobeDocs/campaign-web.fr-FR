@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Logs de diffusion"
->abstract="Les logs de diffusion affichent le détail de l&#39;envoi. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics."
+>abstract="Les logs de diffusion affichent le détail de l’envoi. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics."
 
-Une fois la diffusion préparée et que vous avez cliqué sur le bouton **Envoyer** , accédez aux logs de diffusion pour vérifier les avertissements, les erreurs, le statut, les exclusions et les données de tracking. Vous pouvez accéder à ces logs depuis le tableau de bord des messages. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
+Une fois la diffusion préparée et lorsque vous avez cliqué sur le bouton **Envoyer**, accédez aux logs de diffusion pour vérifier les avertissements, les erreurs, le statut, les exclusions et les données de tracking. Vous pouvez accéder à ces logs depuis le tableau de bord des messages. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
 Pour afficher les logs, accédez au tableau de bord de votre diffusion et cliquez sur le bouton **Logs**.
 
-Les onglets suivants sont disponibles :
+Les onglets suivants sont disponibles :
 
 * [Logs](#logs-tab)
 * [Diffusions](#deliveries-tab)
 * [Exclusions](#exclusion-tab)
 * [Causes d’exclusion](#exclusion-causes)
-* [Tracked URLs](#tracked-urls)
+* [URL suivies](#tracked-urls)
 * [Tracking](#tracking)
 
 ## Logs {#logs-tab}
@@ -58,13 +58,13 @@ L’onglet **Logs d’exclusion** répertorie tous les messages qui ont été ex
 
 ## Causes d’exclusion {#exclusion-causes-tab}
 
-La variable **Exclusions appliquées** onglet affiche, pour chaque cause possible, le nombre de messages qui ont été exclus de la cible.
+L’onglet **Causes des exclusions** affiche, pour chaque cause possible, le nombre de messages qui ont été exclus de la cible.
 
 ![](assets/logs4.png)
 
-## Tracked URLs {#tracked-urls-tab}
+## URL suivies {#tracked-urls-tab}
 
-La variable **URL trackées** tab regroupe les URL contenues dans les messages envoyés, leur type et leur URL source.
+L’onglet **URL suivies** regroupe les URL contenues dans les messages envoyés, leur type et leur URL source.
 
 ![](assets/logs5.png)
 
