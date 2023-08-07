@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Interface de zone de travail du workflow repensée"
->abstract="Grâce à notre zone de travail graphique complète, vous pouvez facilement concevoir des processus tels que la segmentation, l’exécution de campagnes, etc. Grâce à cet outil avancé, vous pouvez rationaliser votre workflow et améliorer vos campagnes."
+>abstract="Grâce à notre zone de travail graphique complète, vous pouvez facilement concevoir des processus tels que la segmentation, l’exécution de campagnes et plus encore. Grâce à cet outil avancé, vous pouvez rationaliser votre workflow et améliorer vos campagnes."
 
 ## Qu’est-ce qu’un workflow ?
 
