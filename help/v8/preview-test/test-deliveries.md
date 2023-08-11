@@ -5,9 +5,9 @@ description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,17 +52,17 @@ Pour sélectionner les destinataires d’une diffusion test, procédez comme sui
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
 >title="Cible du BAT"
->abstract="Vous pouvez télécharger un second fichier en tant que &quot;cible du BAT&quot;, si vous souhaitez tester votre diffusion avant de l&#39;envoyer à la cible principale."
+>abstract="Vous pouvez télécharger un second fichier en tant que « cible du BAT » si vous souhaitez tester votre diffusion avant de l’envoyer à la cible principale."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
->title="Chargement de profils"
+>title="Charger les profils"
 >abstract="Vous pouvez charger un second fichier avec des profils supplémentaires si vous souhaitez tester votre diffusion avec un ensemble différent de celui utilisé pour la cible principale."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="Fichier modèle"
->abstract="La mise en forme du fichier doit être identique à celle du fichier d’origine.<br/>Formats de fichiers pris en charge : txt, csv. Taille maximale du fichier : 15 Mo. Utilisez la première ligne comme en-tête de colonne."
+>abstract="La mise en forme du fichier doit être identique à celle du fichier d’origine.<br/>Formats de fichiers pris en charge : txt, csv. Taille maximale du fichier : 15 Mo. Utilisez la première ligne comme en-tête de colonne."
 
 1. Accédez à l’écran de modification du contenu de votre diffusion e-mail ou SMS, puis cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
