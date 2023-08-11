@@ -5,9 +5,9 @@ description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1667'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ Pour changer de langue :
 
 ## En savoir plus {#learn-more}
 
-Découvrez comment parcourir, rechercher et filtrer les listes disponibles dans votre environnement Campaign [dans cette page](list-filters.md).
+Découvrez [sur cette page](list-filters.md) comment parcourir, rechercher et filtrer les listes disponibles dans votre environnement Campaign.
 
 
 <!--
@@ -280,18 +280,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
->title="Cette campagne est en lecture seule"
->abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette campagne. Si nécessaire, contactez votre administrateur pour lui accorder l’accès."
+>title="Cette campagne est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette campagne. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
->title="Cette diffusion est en lecture seule"
->abstract="Vous ne disposez pas des autorisations nécessaires pour éditer cette diffusion. Si nécessaire, contactez votre administrateur pour lui accorder l’accès."
+>title="Cette diffusion est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette diffusion. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
->title="Ce service est en lecture seule"
->abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce service. Si nécessaire, contactez votre administrateur pour lui accorder l’accès."
+>title="Ce service est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce service. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
 <!-- Workflows-->
 
@@ -313,12 +313,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
->title="Ce workflow est en lecture seule"
->abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce workflow. Si nécessaire, contactez votre administrateur pour lui accorder l’accès."
+>title="Ce workflow est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce workflow. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
->title="Ce workflow est en lecture seule"
+>title="Ce workflow est en lecture seule."
 >abstract="Vous ne pouvez pas modifier ce workflow en raison d’un canevas non pris en charge ou incompatible."
 
 <!-- delivery template settings-->
