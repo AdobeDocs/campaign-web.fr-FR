@@ -5,7 +5,7 @@ description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 100%
 
@@ -255,8 +255,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
->title="Ouvertures (Opens)"
->abstract="Ouvertures (Opens) KPI"
+>title="Ouvertures"
+>abstract="KPI relatif aux ouvertures"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
