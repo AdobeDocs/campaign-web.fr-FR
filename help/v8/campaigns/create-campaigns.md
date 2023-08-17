@@ -31,7 +31,7 @@ Pour créer une campagne, vous devez définir ses propriétés, planifier et inc
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Planning de la campagne"
->abstract="Définissez le planning de votre campagne lors de sa création."
+>abstract="Définissez le planning de votre campagne lors de la création de celle-ci."
 
 Pour créer une campagne procédez comme suit :
 
