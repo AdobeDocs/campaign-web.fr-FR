@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
+source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 100%
+source-wordcount: '1675'
+ht-degree: 99%
 
 ---
 
@@ -362,3 +362,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_typology"
 >title="Typologie"
 >abstract="Ce module permet de contrôler, de filtrer et de surveiller l’envoi des diffusions."
+
+>[!CONTEXTUALHELP]
+>id="acw_reporting_email_exportation"
+>title="Exportation"
+>abstract="Vous ne pouvez exporter que la page sélectionnée."
+
