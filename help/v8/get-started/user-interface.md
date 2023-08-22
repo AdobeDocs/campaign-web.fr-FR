@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2286'
 ht-degree: 73%
 
 ---
@@ -38,10 +38,12 @@ Les liens et les ressources clés de cet écran offrent un accès rapide aux pri
 
 La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, le ou la propriétaire, les dates de création et de modification.
 
+La variable **Principaux indicateurs de performance** vous permet de vérifier l’efficacité de votre plateforme grâce à des indicateurs de performance clés courants.
+
 Accédez aux pages principales d’aide de Campaign v8 Web depuis la section **Formation** de la page d’accueil.
 
 
-#### Indicateurs clés de performance {#user-interface-key-indicators}
+### Indicateurs clés de performance {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ La variable **Désabonnements** indique les indicateurs clés de performance sui
 >id="acw_keyindicators_errors"
 >title="Erreurs"
 >abstract="Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours. Le taux associé est le ratio avec le nombre de messages à diffuser."
+
+La variable **Erreurs** indique les indicateurs clés de performance suivants, pour chaque canal :
 
 * Pourcentage du nombre d&#39;erreurs, par rapport au nombre total de messages à diffuser.
 
