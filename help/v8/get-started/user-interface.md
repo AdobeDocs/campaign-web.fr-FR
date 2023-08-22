@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +39,98 @@ Les liens et les ressources clés de cet écran offrent un accès rapide aux pri
 La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, le ou la propriétaire, les dates de création et de modification.
 
 Accédez aux pages principales d’aide de Campaign v8 Web depuis la section **Formation** de la page d’accueil.
+
+
+#### Indicateurs clés de performance {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Indésirables"
+>abstract="KPI pour le courrier indésirable"
+
+Accédez à la page d’accueil pour vérifier les indicateurs de performances clés de votre plateforme. Ces indicateurs indiquent le nombre et le pourcentage de messages diffusés, ouverts, sur les clics, sur les désabonnements et sur les taux d’erreur.
+
+Par défaut, les mesures sont calculées pour les diffusions envoyées au cours des 7 jours précédents. Vous pouvez modifier la période dans la liste déroulante située dans la section supérieure droite de la carte. Les messages envoyés aux profils de test sont exclus.
+
+Vous pouvez sélectionner le canal à afficher. Par défaut, ces indicateurs reflètent les mesures pour le canal email.
+
+![](assets/kpi.png)
+
+#### Message diffusé {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Diffusés"
+>abstract="Cette mesure indique, pour le canal sélectionné, la somme de tous les messages traités avec succès et le pourcentage du message diffusé avec succès par rapport au nombre total de messages envoyés."
+
+
+La variable **Délivrés** indique les indicateurs clés de performance suivants, pour chaque canal :
+
+* Pourcentage du nombre de messages délivrés avec succès par rapport au nombre total de messages à envoyer.
+
+* Somme de tous les messages traités avec succès.
+
+Dans Adobe Campaign, la règle pour marquer un message comme &quot;Délivrés&quot; est la suivante :
+
+Comptage des messages pour lesquels le champ &quot;adresse de contrôle&quot; est égal à &quot;Non&quot; et dont le statut est égal à &quot;Pris en compte par le prestataire&quot; (pour les SMS) ou &quot;Envoyé&quot; (pour les Emails) ou &quot;Reçu sur le mobile&quot; (pour les notifications push).
+
+
+#### Total des ouvertures {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Ouvertures"
+>abstract="Cette mesure affiche, pour le canal sélectionné, la somme de tous les messages ouverts et le pourcentage du message ouvert par rapport au nombre total de messages transmis avec succès."
+
+La variable **Ouvertures** indique les indicateurs clés de performance suivants, pour chaque canal :
+
+* Pourcentage du nombre de messages ouverts par rapport au nombre total de messages délivrés avec succès.
+
+* Somme de tous les messages ouverts, par canal.
+
+Adobe Campaign détecte les ouvertures de message lorsque le destinataire télécharge les images dans l&#39;email. Les emails HTML et multipart/alternative incluent une image de 0 pixel, qui vous permet de détecter les messages ouverts. Les messages au format texte ne contenant aucune image, il est impossible de détecter s&#39;ils ont été ouverts ou non. Les valeurs calculées à partir des ouvertures de messages sont toujours des estimations, en raison de la marge d&#39;erreur liée à l&#39;affichage de l&#39;image.
+
+#### Taux de clics {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Clics"
+>abstract="Cette mesure affiche, pour le canal sélectionné, la somme de toutes les URL ayant fait l’objet d’un clic dans les messages, ainsi que le pourcentage de clics par rapport au nombre total de messages transmis avec succès."
+
+La variable **Clics** indique les indicateurs clés de performance suivants, pour chaque canal :
+
+* Pourcentage du nombre de clics par rapport au nombre total de messages transmis avec succès.
+
+* Nombre de personnes distinctes ayant cliqué au moins une fois dans une même diffusion. Les liens de désabonnement et les liens vers la page miroir sont exclus.
+
+Ces mesures sont basées sur la table de tracking consolidée (`nms:trackingStats`). Ce tableau agrégé est utilisé pour des raisons de performances lors de l&#39;affichage des rapports, à la place de la table Logs de tracking des destinataires (`nms:trackingLogRcp`) et il n’est pas calculé en temps réel. Le tableau est généré quelques minutes après la récupération des logs de tracking.
+
+
+#### Taux de désabonnement {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Désinscriptions"
+>abstract="Cette mesure affiche, pour le canal sélectionné, la somme de tous les désabonnements à un service, ainsi que le pourcentage de désabonnements par rapport au nombre total de messages transmis avec succès."
+
+La variable **Désabonnements** indique les indicateurs clés de performance suivants, pour chaque canal :
+
+* Pourcentage du nombre de désabonnements par rapport au nombre total de messages transmis avec succès.
+
+* Somme de tous les clics sur un lien de désinscription, c&#39;est-à-dire avec une catégorie d&#39;URL égale à &quot;Opt-out&quot;.
+
+
+#### Taux d’erreur {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Erreurs"
+>abstract="Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours. Le taux associé est le ratio avec le nombre de messages à diffuser."
+
+* Pourcentage du nombre d&#39;erreurs, par rapport au nombre total de messages à diffuser.
+
+* Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours.
+
 
 ### Explorateur {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Autorisation requise"
 >abstract="Avant de pouvoir créer un segment, votre administrateur ou administratrice doit vous accorder une autorisation."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="Diffusés"
->abstract="KPI pour les messages diffusés"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Ouvertures"
->abstract="KPI relatif aux ouvertures"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Clics"
->abstract="KPI pour les clics"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Désinscriptions"
->abstract="KPI relatif aux désinscriptions"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="Indésirables"
->abstract="KPI pour le courrier indésirable"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="Erreurs"
->abstract="KPI pour les erreurs"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

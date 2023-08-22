@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les rapports
 description: Découvrez comment accéder aux rapports et les gérer dans Campaign Web.
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 12578ed208ba9261b69ba5907c0083e483248a49
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
