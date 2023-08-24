@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
+source-git-commit: f4d72c5dfb1aa4fbc73ab8ffc13d42396d9a1136
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 73%
+source-wordcount: '2549'
+ht-degree: 67%
 
 ---
 
@@ -65,10 +65,11 @@ Vous pouvez sélectionner le canal à afficher. Par défaut, ces indicateurs ref
 >title="Diffusés"
 >abstract="Cette mesure indique, pour le canal sélectionné, la somme de tous les messages traités avec succès et le pourcentage du message diffusé avec succès par rapport au nombre total de messages envoyés."
 
+Le nombre de messages délivrés reflète votre taux de délivrabilité. Il ne peut jamais être défini à 100 % pour les raisons suivantes : certaines adresses ou numéros de téléphone peuvent être erronés, des bloqueurs de spam chez les fournisseurs de messagerie peuvent rejeter vos messages ou des problèmes de délivrabilité peuvent se produire.
 
 La variable **Délivrés** indique les indicateurs clés de performance suivants, pour chaque canal :
 
-* Pourcentage du nombre de messages délivrés avec succès par rapport au nombre total de messages à envoyer.
+* Pourcentage du nombre de messages délivrés avec succès par rapport au nombre total de messages envoyés.
 
 * Somme de tous les messages traités avec succès.
 
@@ -84,6 +85,8 @@ Comptage des messages pour lesquels le champ &quot;adresse de contrôle&quot; es
 >title="Ouvertures"
 >abstract="Cette mesure affiche, pour le canal sélectionné, la somme de tous les messages ouverts et le pourcentage du message ouvert par rapport au nombre total de messages transmis avec succès."
 
+Le nombre total d&#39;ouvertures est calculé par le tracking du nombre total d&#39;ouvertures d&#39;un message, indépendamment du nombre de destinataires individuels par lesquels ces ouvertures sont générées. Cet indicateur n’est disponible que pour les emails.
+
 La variable **Ouvertures** indique les indicateurs clés de performance suivants, pour chaque canal :
 
 * Pourcentage du nombre de messages ouverts par rapport au nombre total de messages délivrés avec succès.
@@ -92,18 +95,22 @@ La variable **Ouvertures** indique les indicateurs clés de performance suivants
 
 Adobe Campaign détecte les ouvertures de message lorsque le destinataire télécharge les images dans l&#39;email. Les emails HTML et multipart/alternative incluent une image de 0 pixel, qui vous permet de détecter les messages ouverts. Les messages au format texte ne contenant aucune image, il est impossible de détecter s&#39;ils ont été ouverts ou non. Les valeurs calculées à partir des ouvertures de messages sont toujours des estimations, en raison de la marge d&#39;erreur liée à l&#39;affichage de l&#39;image.
 
-#### Taux de clics {#ui-click-kpi}
+
+
+#### Taux de clic publicitaire {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clics"
 >abstract="Cette mesure affiche, pour le canal sélectionné, la somme de toutes les URL ayant fait l’objet d’un clic dans les messages, ainsi que le pourcentage de clics par rapport au nombre total de messages transmis avec succès."
 
+Vous pouvez ajouter des URL dans le contenu de votre message, qui redirige les destinataires vers une page spécifique. Le taux de clics publicitaires mesure le nombre et le pourcentage de destinataires ayant cliqué sur un lien dans le message.
+
 La variable **Clics** indique les indicateurs clés de performance suivants, pour chaque canal :
 
 * Pourcentage du nombre de clics par rapport au nombre total de messages transmis avec succès.
 
-* Nombre de personnes distinctes ayant cliqué au moins une fois dans une même diffusion. Les liens de désabonnement et les liens vers la page miroir sont exclus.
+* Nombre de personnes distinctes ayant cliqué au moins une fois dans une même diffusion. Les liens de désabonnement et les liens vers la page miroir de l&#39;email sont exclus.
 
 Ces mesures sont basées sur la table de tracking consolidée (`nms:trackingStats`). Ce tableau agrégé est utilisé pour des raisons de performances lors de l&#39;affichage des rapports, à la place de la table Logs de tracking des destinataires (`nms:trackingLogRcp`) et il n’est pas calculé en temps réel. Le tableau est généré quelques minutes après la récupération des logs de tracking.
 
@@ -114,6 +121,8 @@ Ces mesures sont basées sur la table de tracking consolidée (`nms:trackingStat
 >id="acw_keyindicators_unsubscriptions"
 >title="Désinscriptions"
 >abstract="Cette mesure affiche, pour le canal sélectionné, la somme de tous les désabonnements à un service, ainsi que le pourcentage de désabonnements par rapport au nombre total de messages transmis avec succès."
+
+Les destinataires doivent pouvoir se désabonner de l&#39;email et des SMS par le biais d&#39;un lien de désinscription dédié dans le contenu de l&#39;email, ou en répondant STOP à un SMS.
 
 La variable **Désabonnements** indique les indicateurs clés de performance suivants, pour chaque canal :
 
@@ -128,6 +137,10 @@ La variable **Désabonnements** indique les indicateurs clés de performance sui
 >id="acw_keyindicators_errors"
 >title="Erreurs"
 >abstract="Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours. Le taux associé est le ratio avec le nombre de messages à diffuser."
+
+Certains messages envoyés par votre plateforme Adobe Campaign peuvent ne pas atteindre leur destination. Cela peut se produire lorsque l’adresse utilisateur ou le téléphone contient des fautes de frappe, ou si le destinataire a modifié son adresse électronique, ou si sa boîte de réception est pleine. Si un message ne peut pas être envoyé à un profil, le serveur distant envoie automatiquement un message d&#39;erreur à Adobe Campaign. Cette erreur est qualifiée pour déterminer si l&#39;adresse e-mail, le numéro de téléphone ou l&#39;appareil doit être mis en quarantaine.
+
+Par conséquent, vous devez toujours vérifier et mettre à jour votre base de données, et vous assurer que tous les profils sont actifs et réels. Les erreurs de diffusion peuvent être temporaires ou permanentes (soft ou hard bounce), selon la raison pour laquelle le message n’a pas été diffusé.
 
 La variable **Erreurs** indique les indicateurs clés de performance suivants, pour chaque canal :
 
@@ -435,3 +448,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Exportation"
 >abstract="Vous ne pouvez exporter que la page sélectionnée."
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Liste de diffusion dans une campagne"
+>abstract="Liste de diffusion dans une campagne"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Liste des workflows dans une campagne"
+>abstract="Liste des workflows dans une campagne"
