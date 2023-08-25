@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: f4d72c5dfb1aa4fbc73ab8ffc13d42396d9a1136
+source-git-commit: bbe4ed0ce05048cf22a18a36967b9a4c0422d93f
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 67%
+source-wordcount: '2567'
+ht-degree: 66%
 
 ---
 
@@ -457,3 +457,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_workflow_list"
 >title="Liste des workflows dans une campagne"
 >abstract="Liste des workflows dans une campagne"
+
+<!-- delivery settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Audience des paramètres de diffusion"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_approval"
+>title="Validation des paramètres de diffusion"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Paramètres de test des paramètres de diffusion"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Analyse web des paramètres de diffusion"
+>abstract="TBC"
