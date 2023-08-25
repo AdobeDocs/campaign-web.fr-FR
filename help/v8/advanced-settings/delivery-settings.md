@@ -4,7 +4,7 @@ title: Paramètres de diffusion d’e-mail
 description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
+source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 94%
@@ -37,12 +37,14 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 
 
 ### Paramètres de pression {#pressure-parameters}
+
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Delivery weight"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 -->
+
 Dans cette section, les paramètres de pression permettent de définir un **seuil**. Il s’agit du nombre maximum de messages qui peuvent être envoyés à un profil sur une période donnée. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
 
 La valeur de ce seuil peut être constante ou variable. Pour une même période, le seuil peut donc varier d&#39;un profil à l&#39;autre, et même pour un même profil.
