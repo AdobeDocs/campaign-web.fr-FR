@@ -5,9 +5,9 @@ description: En savoir plus sur les paramètres de diffusion d’e-mail dans l�
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
 source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1392'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ La gestion de la fatigue est comprise dans le module complémentaire **Optimisat
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Paramètres de capacité"
->abstract="Sélectionnez une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal e-mail."
+>abstract="Sélectionnez une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal e-mail."
 
 Dans cette section, vous pouvez sélectionner une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal e-mail.
 
@@ -90,7 +90,7 @@ En savoir plus sur les mappings de ciblage dans la [documentation de Campaign v
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Diffusion paramètres"
+>title="Diffusion Paramètres"
 >abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion."
 
 Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion.
@@ -109,7 +109,7 @@ Les paramètres de diffusion sont des paramètres techniques qui s’appliquent 
 
 En savoir plus sur la gestion des reprises dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
-## Validation {#approval}
+## Approbation {#approval}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -134,7 +134,7 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validité des paramètres"
->abstract="Le champ Durée de diffusion permet de saisir la limite pour les reprises globales de diffusion. Cela signifie qu&#39;Adobe Campaign envoie les messages à partir de la date de début, puis, pour les messages renvoyant une erreur uniquement, des reprises régulières et paramétrables sont effectuées jusqu&#39;à ce que la limite de validité soit atteinte. Le champ Limite de validité est utilisé pour les ressources téléchargées, telles que la page miroir ou les images. Ces ressources sont valides pour une durée limitée. Une fois la limite atteinte, elles ne sont plus disponibles."
+>abstract="Le champ « Durée de diffusion » permet de saisir la limite pour les reprises globales de diffusion. Cela signifie qu’Adobe Campaign envoie les messages à partir de la date de début, puis, pour les messages renvoyant une erreur uniquement, des reprises régulières et paramétrables sont effectuées jusqu’à ce que la limite de validité soit atteinte. Le champ « Limite de validité » est utilisé pour les ressources chargées, telles que la page miroir ou les images. Ces ressources sont valides pour une durée limitée. Une fois la limite atteinte, elles ne sont plus disponibles."
 
 <!--
 >[!CONTEXTUALHELP]
