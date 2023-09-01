@@ -3,11 +3,11 @@ audience: end-user
 title: Créer une audience à l’aide du créateur de règles de Campaign
 description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ La palette, située à gauche, contient tous les éléments sur lesquels vous po
 
   >[!NOTE]
   >
-  >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Consultez la [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
+  >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Voir [Documentation sur les destinations Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
 
 Vous pouvez utiliser la barre de recherche pour rechercher rapidement des éléments.
 

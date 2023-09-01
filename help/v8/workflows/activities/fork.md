@@ -2,8 +2,8 @@
 audience: end-user
 title: Utiliser l’activité de workflow Branchement
 description: Découvrez comment utiliser l’activité de workflow Branchement.
-badge: label="Alpha"
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%

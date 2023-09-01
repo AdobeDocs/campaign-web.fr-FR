@@ -2,8 +2,8 @@
 audience: end-user
 title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
-badge: label="Alpha"
-source-git-commit: c6cbb60086d159103a7a28f10eb2874a6dd20a9c
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 100%

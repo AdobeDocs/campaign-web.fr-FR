@@ -3,11 +3,11 @@ audience: end-user
 title: Paramètres de diffusion d’e-mail
 description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha"
-source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
-workflow-type: ht
-source-wordcount: '1392'
-ht-degree: 100%
+badge: label="Beta"
+source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
+workflow-type: tm+mt
+source-wordcount: '1494'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ Ces paramètres sont des **paramètres de diffusion techniques** définis dans l
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Ce module permet de contrôler, de filtrer et de surveiller l’envoi des diffusions."
+>abstract="Les typologies sont des ensembles de règles qui sont exécutés pendant la préparation du message. Ils permettent de contrôler, filtrer et contrôler l&#39;envoi des diffusions."
 
 Les typologies sont des ensembles de **règles de typologie**, qui sont exécutés pendant la phase d’analyse du message. Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clients désabonnés, les concurrents et les clients ne faisant pas partie du programme de fidélité).
 
@@ -38,12 +38,12 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 
 ### Paramètres de pression {#pressure-parameters}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_weight"
->title="Delivery weight"
->abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
--->
+>id="acw_email_settings_pressure_parameters"
+>title="Paramètres de pression"
+>abstract="Les poids de chaque diffusion permettent d’identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
+
 
 Dans cette section, les paramètres de pression permettent de définir un **seuil**. Il s’agit du nombre maximum de messages qui peuvent être envoyés à un profil sur une période donnée. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
 
@@ -64,34 +64,34 @@ Utilisez le champ **Mode de diffusion** pour sélectionner le mode d’évaluati
 * **Estimation et validation de la cible prévisionnelle**
 * **Évaluation de la cible**
 
-La gestion de la fatigue est comprise dans le module complémentaire **Optimisation de campagne**. En savoir plus sur les règles de pression et la configuration de la gestion de la fatigue dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
+La gestion de la fatigue est comprise dans le module complémentaire **Optimisation de campagne**. En savoir plus sur les règles de pression et comment configurer la gestion de la fatigue dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
 
 ### Paramètres de capacité {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Paramètres de capacité"
->abstract="Sélectionnez une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal e-mail."
+>abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter la diffusion, les messages entrants que la diffusion peut générer et le nombre d&#39;appels à passer pour contacter les abonnés, par exemple. Les règles de capacité sont définies dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal email."
 
 Dans cette section, vous pouvez sélectionner une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal e-mail.
 
 Le champ **Importance du destinataire** est une formule utilisée pour déterminer les destinataires qui sont conservés lorsque les règles de typologie de capacité sont dépassées.
 
-En savoir plus sur les règles de cohérence et de capacité ainsi que leur configuration dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=fr){target="_blank"}.
+En savoir plus sur les règles de cohérence et de capacité et comment les configurer dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=fr){target="_blank"}.
 
 
 ## Audience {#audience}
 
 Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8.
 
-En savoir plus sur les mappings de ciblage dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
+En savoir plus sur les mappings de ciblage dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
 
 ## Diffusion {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Diffusion Paramètres"
->abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion."
+>abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez activer Cci pour la diffusion et modifier les modes de diffusion et de routine. Ces options sont limitées aux utilisateurs experts uniquement."
 
 Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion.
 
@@ -99,7 +99,7 @@ Les paramètres de diffusion sont des paramètres techniques qui s’appliquent 
 
 * **Tester la diffusion par SMTP** : cette option vous permet de tester l’envoi par SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
-* **E-mail Cci** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible de vos messages. En savoir plus sur la fonctionnalité E-mail Cci dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
+* **E-mail Cci** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible de vos messages. En savoir plus sur la fonctionnalité Email Cci dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
 
 
@@ -107,7 +107,7 @@ Les paramètres de diffusion sont des paramètres techniques qui s’appliquent 
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-En savoir plus sur la gestion des reprises dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
+En savoir plus sur la gestion des reprises dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
 ## Approbation {#approval}
 
@@ -152,7 +152,7 @@ Le champ **Limite de validité des ressources** est utilisé pour les ressources
 ![](assets/delivery-settings-2.png)
 
 
-En savoir plus sur la période de validité des diffusions dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr#validity-period){target="_blank"}.
+En savoir plus sur la période de validité des diffusions dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr#validity-period){target="_blank"}.
 
 ### Gestion de la page miroir {#mirror}
 

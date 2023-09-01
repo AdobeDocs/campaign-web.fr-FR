@@ -3,20 +3,20 @@ audience: end-user
 title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
 
 # Nouveautés {#new}
 
-## Version Alpha 2.0{#alpha-release}
+## Version bêta{#beta-release}
 
-Actuellement, cette nouvelle interface web de Campaign n’est disponible que pour les **utilisateurs et utilisatrices Alpha**, et dispose des fonctionnalités suivantes :
+Cette nouvelle interface web de Campaign n’est actuellement disponible que pour **Professionnels bêta** avec les fonctionnalités suivantes :
 
 **Une expérience moderne, intuitive et unifiée**
 
@@ -53,6 +53,7 @@ En tant qu’utilisateur ou utilisatrice de Campaign, vous pouvez toujours accé
 
 De plus, l’ensemble de vos données et paramètres déjà disponibles dans la console cliente sont visibles dans l’UI de Campaign Web, à partir du volet de navigation de gauche de l’explorateur. En savoir plus sur la vue Explorateur dans [cette section](../get-started/user-interface.md#explorer-user-interface-explorer).
 
+Avec la version bêta de Campaign Web, l’interface utilisateur reflète les autorisations de l’utilisateur. En savoir plus sur les autorisations dans [cette page](../get-started/permissions.md)
 
 ## Mises à jour de la terminologie {#terminology-updates}
 
@@ -68,7 +69,7 @@ Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont 
 
 Les restrictions ci-dessous s’appliquent à cette version Alpha :
 
-* Les seuls objets modifiables sont les diffusions, les campagnes, les workflows, les audiences et les modèles. Les autres sont en lecture seule. Utilisez des filtres pour tous les parcourir.
+* Les objets modifiables sont les suivants : diffusions, campagnes, workflows, audiences, services d’abonnement, filtres prédéfinis et modèles. Les autres sont en lecture seule. Utilisez des filtres pour tous les parcourir.
 * Les audiences ne peuvent pas être enregistrées pour une utilisation ultérieure.
 * L’interface utilisateur d’administration n’est pas disponible.
 * Les mesures de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.

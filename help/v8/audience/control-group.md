@@ -3,11 +3,11 @@ audience: end-user
 title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Pour ajouter une population témoin à une diffusion, activez le bouton (bascule
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Mode Extraction"
->abstract="Pour définir une population témoin, vous pouvez choisir d’extraire, de manière aléatoire ou selon un tri, un pourcentage ou un nombre fixe de profils de la population cible."
+>abstract="Une population témoin est un ensemble de profils exclus de la diffusion. Pour définir une population témoin, vous pouvez choisir d’extraire, de manière aléatoire ou selon un tri, un pourcentage ou un nombre fixe de profils de la population cible."
 
 
 ### Créer une population témoin {#build-extract-target}
@@ -104,7 +104,7 @@ Pour plus d’informations sur les logs de diffusion, consultez [cette section](
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Population supplémentaire"
->abstract="Vous pouvez exclure une population spécifique de l’audience de diffusion en sélectionnant une audience existante ou en définissant une requête."
+>abstract="Une population témoin est un ensemble de profils exclus de la diffusion. Vous pouvez exclure une population spécifique de l’audience de diffusion en sélectionnant une audience existante ou en définissant une requête."
 
 Vous pouvez également définir une population témoin en sélectionnant une population spécifique dans une audience existante ou en définissant une requête.
 
