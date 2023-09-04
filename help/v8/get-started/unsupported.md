@@ -5,15 +5,15 @@ description: Liste des fonctionnalités non prises en charge dans l’interface 
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 13%
+source-wordcount: '350'
+ht-degree: 12%
 
 ---
 
 
-# Fonctionnalités non prises en charge dans l’interface utilisateur web de Campaign {#unsupported-capabilities}
+# Fonctionnalités non prises en charge dans Campaign Web {#unsupported-capabilities}
 
 Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign, mais pas encore disponibles dans l’interface utilisateur web. Certains seront disponibles dans une version ultérieure, mais d’autres non.
 
@@ -22,17 +22,13 @@ Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign
 * Tableau de bord de la page d’accueil
 * Personnalisation de la page d’accueil
 
-
 **Campaign Management**
 
 * Calendrier marketing/chronologie
 * Gestion des budgets et des coûts
 * Gestion des tâches
-* Marketing distribué
+* Marketing distribué (marketing central/local)
 * Gestion de la réaction
-
-**Optimisation des campagnes**
-
 * A/B testing
 * Gestion des ressources marketing (MRM), objectifs, simulations, budget et coûts
 
@@ -46,6 +42,7 @@ Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign
 **Contenu web**
 
 * Création et publication d&#39;une landing page
+* Applications web, formulaires web
 * Gestion des questionnaires
 
 **Profils et destinataires**
@@ -66,16 +63,16 @@ Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign
 
 * Contenu des ressources publiques
 * Boucles / Gestion des collections
-* Enregistrer un contenu de HTML en tant que modèle (non disponible dans la console cliente)
+* Enregistrer un contenu de HTML en tant que modèle`*`
 * Synchronisation des modèles de courrier électronique à partir de Adobe Experience Manager
 * Ressources de Adobe Experience Manager 6.5 dans un contenu d’email
 * Création de blocs de contenu
 * Contenu des formulaires personnalisés
-* Contenu provenant d’une URL (non disponible dans la console cliente)
+* Contenu depuis une URL`*`
 * Fragments de messagerie
 * AMP pour les emails
-* Fragments de courrier électronique (non disponibles dans la console cliente)
-* Cas d’utilisation multivarié/multilingue (non disponible dans la console cliente)
+* Fragments de messagerie`*`
+* Cas d’utilisation multivarié/multilingue`*`
 
 **Règles de typologie**
 
@@ -125,3 +122,4 @@ Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign
 * Validation de la cible
 
 
+`*` Non disponible dans la console cliente
