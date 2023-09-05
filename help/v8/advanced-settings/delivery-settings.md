@@ -4,10 +4,10 @@ title: Paramètres de diffusion d’e-mail
 description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 87%
+source-wordcount: '1643'
+ht-degree: 77%
 
 ---
 
@@ -27,13 +27,24 @@ Ces paramètres sont des **paramètres de diffusion techniques** définis dans l
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Les typologies sont des ensembles de règles qui sont exécutés pendant la préparation du message. Ils permettent de contrôler, filtrer et contrôler l&#39;envoi des diffusions."
+>abstract="Les règles de typologie permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
-Les typologies sont des ensembles de **règles de typologie**, qui sont exécutés pendant la phase d’analyse du message. Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clients désabonnés, les concurrents et les clients ne faisant pas partie du programme de fidélité).
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="Typologie"
+>abstract="Typologie les règles permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
+
+
+Les typologies sont des ensembles de **règles de typologie**, qui sont exécutés pendant la phase de préparation. Les règles de typologie permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation de la diffusion.  Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clients et clientes désabonnés, les concurrents et les client(e)s ne faisant pas partie du programme de fidélité).
+
+Les règles de typologie sont regroupées au sein d&#39;une typologie afin d&#39;appliquer facilement plusieurs règles de filtrage à une même diffusion.
 
 Lors de l’association d’une typologie à un message ou à un modèle de message, les règles de typologie incluses dans la typologie sont exécutées pour vérifier la validité du message durant la préparation de celui-ci.
 
 ![](assets/delivery-settings-1.png)
+
+
 
 
 ### Paramètres de pression {#pressure-parameters}
@@ -42,10 +53,10 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
 >title="Paramètres de pression"
->abstract="Les poids de chaque diffusion permettent d’identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
+>abstract="Le poids des diffusions permet d&#39;identifier les diffusions prioritaires dans le cadre de la gestion de la fatigue. Les messages dont le poids est le plus élevé sont prioritaires."
 
 
-Dans cette section, les paramètres de pression permettent de définir un **seuil**. Il s’agit du nombre maximum de messages qui peuvent être envoyés à un profil sur une période donnée. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
+Dans cette section, les paramètres de pression permettent de définir une **seuil** pour configurer des règles de gestion de la fatigue. Il s’agit du nombre maximum de messages qui peuvent être envoyés à un profil sur une période donnée. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
 
 La valeur de ce seuil peut être constante ou variable. Pour une même période, le seuil peut donc varier d&#39;un profil à l&#39;autre, et même pour un même profil.
 

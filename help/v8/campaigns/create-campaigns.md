@@ -4,10 +4,10 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 58%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Propriétés de création de campagne"
->abstract="Définissez les propriétés et les métadonnées de la campagne."
+>abstract="Dans cet écran, définissez les paramètres de votre opération : sélectionnez un modèle et saisissez le libellé de votre opération. Accédez aux paramètres supplémentaires pour modifier le nom interne par défaut, le dossier, ajouter une description et sélectionner la personne désignée."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Propriétés de la campagne"
->abstract="Définissez les paramètres et les métadonnées de votre campagne."
+>abstract="Dans cet écran, vous pouvez vérifier et mettre à jour les paramètres de votre campagne : son libellé, son nom interne, son dossier et sa description. Vous pouvez également afficher l’utilisateur auquel il est affecté."
 
-Pour créer une campagne, vous devez définir ses propriétés, planifier et inclure les workflows et les diffusions.
+Pour créer une opération, vous devez définir ses propriétés, planifier et inclure les workflows et les diffusions.
 
 ## Créer la campagne{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Planning de la campagne"
->abstract="Définissez le planning de votre campagne lors de la création de celle-ci."
 
 Pour créer une campagne procédez comme suit :
 
@@ -39,14 +34,7 @@ Pour créer une campagne procédez comme suit :
 1. Sélectionnez le **Modèle** à utiliser, puis fournissez un libellé pour la campagne. Les modèles de campagne sont préconfigurés afin de pouvoir être réutilisés pour créer de nouvelles campagnes. Ils sont créés à partir de la console cliente.
    [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=fr).
 1. Si nécessaire, vous pouvez modifier les **options supplémentaires** suivantes : nom interne, dossier, personnes assignées, description et nature.
-1. Définissez le **planning** de votre campagne. La campagne démarre à la date de début. Les dates de début et de fin sont affichées dans la liste des campagnes et peuvent être utilisées comme filtre. Consultez cette [section](manage-campaigns.md#access-campaigns).
-
-   ![Définir les propriétés de votre campagne](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >Vous pouvez toujours modifier ces propriétés ultérieurement à partir de l’icône **Configurer les paramètres de campagne** en regard du libellé de la campagne. Consultez cette [section](gs-campaigns.md#campaign-dashboard).
-
+1. Définissez le **planning** de votre campagne. Découvrez comment définir le planning de votre campagne dans [cette section](#campaign-schedule)
 1. Cliquez sur **Créer**.
 1. Ajoutez des workflows et des diffusions à votre campagne :
 
@@ -61,6 +49,29 @@ La surveillance des campagnes est une étape essentielle pour analyser l’effic
 
 Vous pouvez également afficher les rapports dédiés en cliquant sur le bouton **Rapports**. Consultez cette [section](../reporting/campaign-reports.md).
 
+
+## Définition du planning de l&#39;opération {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Planning de la campagne"
+>abstract="Sélectionnez le planning de l&#39;opération. Vous pouvez créer la campagne, qui démarre à la date de début atteinte. Par défaut, la date de début de la campagne est la date de création et elle dure 5 jours. Les dates de début et de fin sont affichées dans la liste des campagnes et peuvent être utilisées comme filtre."
+
+
+La campagne démarre à la date de début. Tant que la date de début n&#39;est pas atteinte, l&#39;opération a la valeur **[!UICONTROL Version préliminaire]** statut. Lorsque la date de début est atteinte, elle devient **[!UICONTROL En cours]**. Une fois la date de fin atteinte, la campagne est définie sur **[!UICONTROL Terminé]**.
+
+Les dates de début et de fin sont affichées dans la liste des campagnes et peuvent être utilisées comme filtre. Consultez cette [section](manage-campaigns.md#access-campaigns).
+
+![Définir les propriétés de votre campagne](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>Vous pouvez toujours modifier ces propriétés ultérieurement à partir de l’icône **Configurer les paramètres de campagne** en regard du libellé de la campagne. Consultez cette [section](gs-campaigns.md#campaign-dashboard).
+
+
+
+Une fois la date atteinte, les diffusions créées dans cette opération dans le cadre d&#39;un workflow prêt à être envoyé sont effectivement envoyées. Pour cela, le workflow doit avoir été démarré.
 
 
 <!--

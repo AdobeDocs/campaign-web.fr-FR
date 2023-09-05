@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 98%
+source-wordcount: '1724'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ Les liens et les ressources clés de cet écran offrent un accès rapide aux pri
 
 La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, le ou la propriétaire, les dates de création et de modification.
 
-Les **indicateurs clés de performance** vous permettent de vérifier l’efficacité de votre plateforme grâce aux KPI courants.
+Les **indicateurs clés de performance** vous permettent de vérifier l’efficacité de votre plateforme grâce aux KPI courants. En savoir plus sur ces indicateurs clés de performance dans [cette page](../reporting/kpis.md).
 
 Accédez aux pages principales d’aide de Campaign v8 Web depuis la section **Formation** de la page d’accueil.
 
@@ -299,7 +299,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Période de validité"
->abstract="Cette option définit la durée d’activation du tracking sur les URL."
+>abstract="La période de validité définit la durée d&#39;activation du tracking sur les URL des messages."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -330,11 +330,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_delivery_weight"
 >title="Poids de la diffusion"
 >abstract="Les poids de chaque diffusion permettent d’identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="Typologie"
->abstract="Ce module permet de contrôler, de filtrer et de surveiller l’envoi des diffusions."
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
