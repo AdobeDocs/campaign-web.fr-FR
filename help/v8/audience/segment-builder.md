@@ -4,14 +4,20 @@ title: Créer une audience à l’aide du créateur de règles de Campaign
 description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 98%
+source-wordcount: '602'
+ht-degree: 89%
 
 ---
 
 # Définir une audience à l’aide du créateur de règles {#segment-builder}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Ciblage d’audiences"
+>abstract="Construire une cible de diffusion n&#39;a jamais été aussi facile ! Avec notre dernier créateur de règles, vous pouvez désormais définir des critères de filtrage pour les destinataires ou toute autre dimension de ciblage de la base de données. Profitez de l’audience Adobe Experience Platform pour affiner davantage votre audience cible et optimiser l’impact de votre campagne."
 
 Cette section décrit comment créer une audience lors de la conception d’un e-mail. L’audience créée ne peut être utilisée que dans cet e-mail.
 

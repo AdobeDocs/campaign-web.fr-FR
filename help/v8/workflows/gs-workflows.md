@@ -4,10 +4,10 @@ title: Prise en main des workflows
 description: Découvrez comment commencer avec les workflows.
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 89%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Interface de zone de travail du workflow repensée"
->abstract="Grâce à notre zone de travail graphique complète, vous pouvez facilement concevoir des processus tels que la segmentation, l’exécution de campagnes et plus encore. Grâce à cet outil avancé, vous pouvez rationaliser votre workflow et améliorer vos campagnes."
+>title="Autres activités de workflow de campagne"
+>abstract="Déverrouillez de nouvelles possibilités d’automatisation et d’optimisation, ce qui vous permet de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes."
 
 ## Qu’est-ce qu’un workflow ?
 

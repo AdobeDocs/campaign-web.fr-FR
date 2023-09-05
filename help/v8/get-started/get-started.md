@@ -4,10 +4,10 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 96%
+source-wordcount: '493'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Nouveautés"
->abstract="Découvrez la nouvelle interface utilisateur de Campaign Web, les dernières améliorations et les principales fonctionnalités. Découvrez comment les utiliser pour créer des campagnes cross-canal pour vos audiences. Grâce à ses fonctionnalités conviviales, Campaign vous permet de rationaliser le processus personnalisé de création de campagnes cross-canal, de générer des résultats et d’obtenir un avantage concurrentiel. "
+>abstract="Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux. "
 
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.

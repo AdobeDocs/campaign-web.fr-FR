@@ -4,10 +4,10 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 98%
+source-wordcount: '1324'
+ht-degree: 95%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Commencer avec les e-mails"
->abstract="Commencez à partir d’un modèle ou utilisez le nouveau Concepteur d’e-mail d’Adobe Campaign afin de créer des e-mails sans avoir à écrire une seule ligne de code. Découvrez comment utiliser le Concepteur d’e-mail pour créer votre contenu, le prévisualiser et le tester, puis envoyer un e-mail à une audience existante dans un cas d’utilisation complet."
+>title="IA dédiée au contenu des emails"
+>abstract="Notre technologie Gen AI utilise des algorithmes avancés pour générer du contenu hautement attrayant et personnalisé. Augmentez les taux d’ouverture, les taux de clics publicitaires et les conversions grâce à la génération de contenu intelligent de Gen AI. Gardez l’avance sur le jeu et augmentez votre jeu de marketing email avec Gen AI sur le contenu des emails."
 
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
 

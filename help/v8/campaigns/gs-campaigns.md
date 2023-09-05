@@ -4,9 +4,9 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # Prise en main des campagnes {#campaigns}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Concevoir et envoyer des campagnes cross-canal"
->abstract="Les fonctionnalités d’Adobe Campaign répondent à de nombreux besoins, dont la gestion des données centralisées relatives à la clientèle, la conception de communications et de campagnes destinées aux clientes et clients, ainsi que la création d’expériences personnalisées sur différents canaux : e-mail, notification push et SMS."
 
 Grâce à la fonctionnalité de gestion de campagne d’Adobe Campaign, orchestrez en toute facilité vos initiatives marketing ciblées. Tirez parti de la possibilité de définir un planning pour planifier la durée et le lancement opportun de vos campagnes, sur la base de vos objectifs stratégiques, et optimisez l’engagement de votre audience.
 
