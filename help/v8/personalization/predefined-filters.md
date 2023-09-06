@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
+source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '331'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 >title="Filtres prédéfinis"
 >abstract="Le web de Campaign vous offre désormais une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis en fonction de vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure."
 
-Les filtres prédéfinis sont des filtres personnalisés qui peuvent être utilisés ultérieurement. Ils peuvent être utilisés comme raccourcis lors des opérations de filtrage avec le créateur de règles.
+Les filtres prédéfinis sont des filtres personnalisés qui peuvent être utilisés ultérieurement. Ils peuvent être utilisés comme raccourcis lors des opérations de filtrage avec le créateur de règles. Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-ensemble spécifique de vos données ou créer votre propre filtre prédéfini.
 
 
 ## Créer un filtre prédéfini {#create-predefined-filter}
@@ -65,3 +65,5 @@ Votre filtre personnalisé est désormais disponible dans la **Filtres prédéfi
 
 ## Gestion des filtres prédéfinis {#manage-predefined-filter}
 
+
+## Filtres prédéfinis intégrés {#ootb-predefined-filter}
