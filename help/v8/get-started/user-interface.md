@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1747'
 ht-degree: 96%
 
 ---
@@ -265,6 +265,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscription_services_read_only"
 >title="Ce service est en lecture seule."
 >abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce service. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Cette audience est en lecture seule"
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette audience. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
 <!-- Workflows-->
 
