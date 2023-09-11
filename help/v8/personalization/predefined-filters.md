@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
+source-git-commit: 52b41f27da9c43c935c5a33c3f836b0030941dbd
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,14 +39,14 @@ Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-e
 >title="Créer un filtre prédéfini"
 >abstract="Saisissez un libellé pour le filtre prédéfini et sélectionnez le tableau auquel il s&#39;applique. Ouvrez les options supplémentaires pour ajouter une description et définir ce filtre comme favori. Utilisez ensuite le bouton &quot;Créer une règle&quot; pour définir les conditions de filtrage."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="Création de règles de filtrage prédéfinies"
 >abstract="Pour définir les conditions de filtrage de votre filtre personnalisé, cliquez sur le bouton &quot;Créer une règle&quot;."
 
+### Création d’un filtre à partir du créateur de règles {#create-from-rule-builder}
 
-Pour enregistrer un filtre personnalisé dans le créateur de règles, procédez comme suit :
+Vous pouvez enregistrer un filtre personnalisé à partir du créateur de règles afin de le rendre disponible pour une utilisation ultérieure. Procédez comme suit :
 
 1. Ouvrez le créateur de règles et définissez vos conditions de filtrage. Dans l&#39;exemple ci-dessous, vous filtrez les destinataires qui vivent à Madrid.
 1. Cliquez sur le bouton **Sélectionner ou enregistrer un filtre** et sélectionnez **Enregistrer en tant que filtre**.
@@ -57,28 +57,40 @@ Pour enregistrer un filtre personnalisé dans le créateur de règles, procédez
 
    ![](assets/predefined-filters-save-filter.png)
 
-1. (facultatif) Activez la variable **Enregistrer en tant que favori** si vous souhaitez voir ce filtre prédéfini dans vos favoris.
-
-
-   Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les utilisateurs de la variable **Filtres favoris** de la liste de création de filtre, comme illustré ci-dessous :
-
-   ![](assets/predefined-filters-favorite.png)
-
+   Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter).
 
 1. Cliquez sur **Confirmer** pour sauvegarder vos changements.
 
 Votre filtre personnalisé est désormais disponible dans la **Filtres prédéfinis** Liste et accessible à tous les utilisateurs de Campaign.
 
-Vous pouvez également créer un filtre à partir du **Filtres prédéfinis** dans le menu de gauche. Pour ce faire, suivez les étapes ci-après :
+
+### Créer un filtre à partir de la liste des filtres {#create-filter-from-list}
+
+
+Vous pouvez créer un filtre à partir du **Filtres prédéfinis** dans le menu de gauche. Pour ce faire, suivez les étapes ci-après :
 
 1. Parcourez les **Filtres prédéfinis** dans le menu de gauche.
 1. Cliquez sur le bouton **Créer un filtre** bouton .
 1. Saisissez le nom du filtre et, dans la **Type de document** , sélectionnez le schéma auquel il s’applique. Le schéma par défaut est : `Recipients(nms)`.
+
+   Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter).
+
 1. Définissez la règle pour le filtre. Par exemple, les profils de plus de 30 ans.
 
    ![](assets/filter-30+.png)
 
 1. Enregistrez vos modifications. Le filtre est ajouté à la liste des filtres prédéfinis.
+
+
+## Enregistrer votre filtre comme favori {#fav-filter}
+
+Lors de la création d’un filtre prédéfini, vous pouvez activer la fonction **Enregistrer en tant que favori** si vous souhaitez voir ce filtre prédéfini dans vos favoris.
+
+
+Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les utilisateurs de la variable **Filtres favoris** de la liste de création de filtre, comme illustré ci-dessous :
+
+![](assets/predefined-filters-favorite.png)
+
 
 ## Utiliser un filtre prédéfini {#use-predefined-filter}
 
@@ -86,7 +98,7 @@ Les filtres prédéfinis sont disponibles lors de la définition des propriété
 
 Vous pouvez ensuite accéder à la liste complète des filtres prédéfinis disponibles pour le contexte actuel.
 
-Vous pouvez également utiliser les raccourcis de filtrage disponibles dans la **Filtres favoris** de la liste déroulante.
+Vous pouvez également utiliser les raccourcis de filtrage disponibles dans la **Filtres favoris** de la liste déroulante. En savoir plus sur les favoris dans [cette section](#fav-filter).
 
 Par exemple, pour créer une audience à partir d’un filtre prédéfini, procédez comme suit :
 
@@ -125,7 +137,7 @@ Dans cette liste, vous pouvez créer un nouveau filtre, comme décrit ci-dessus,
 * dupliquer un filtre prédéfini
 * suppression d’un filtre prédéfini
 
-Vous pouvez ajouter un filtre prédéfini comme favori pour un accès rapide lors de la création de vos règles. Cette fonctionnalité est décrite dans la section [cette section](#create-predefined-filter).
+Vous pouvez ajouter un filtre prédéfini comme favori pour un accès rapide lors de la création de vos règles. En savoir plus dans [cette section](#fav-filter).
 
 ## Filtres prédéfinis intégrés {#ootb-predefined-filter}
 
