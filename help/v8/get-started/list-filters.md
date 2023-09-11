@@ -3,7 +3,7 @@ audience: end-user
 title: Parcourir, rechercher et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Alpha"
-source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
