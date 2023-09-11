@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,8 @@ Les filtres prédéfinis sont des filtres personnalisés qui sont créés et enr
 
 Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-ensemble spécifique de vos données, ou créer vos propres filtres prédéfinis et les enregistrer.
 
+![](assets/predefined-filters-menu.png)
+
 
 ## Créer un filtre prédéfini {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-e
 >title="Créer un filtre prédéfini"
 >abstract="Saisissez un libellé pour le filtre prédéfini et sélectionnez le tableau auquel il s&#39;applique. Ouvrez les options supplémentaires pour ajouter une description et définir ce filtre comme favori. Utilisez ensuite le bouton &quot;Créer une règle&quot; pour définir les conditions de filtrage."
 
-Lors de la création d’un filtre à l’aide du créateur de règles, vous pouvez l’enregistrer pour une utilisation ultérieure. Lorsqu’il est enregistré en tant que filtre personnalisé, il peut être utilisé ultérieurement. Vous pouvez également créer et modifier un filtre prédéfini à partir du menu dédié dans le volet de navigation de gauche.
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="Création de règles de filtrage prédéfinies"
+>abstract="Pour définir les conditions de filtrage de votre filtre personnalisé, cliquez sur le bouton &quot;Créer une règle&quot;."
+
 
 Pour enregistrer un filtre personnalisé dans le créateur de règles, procédez comme suit :
 
@@ -83,7 +88,6 @@ Vous pouvez ensuite accéder à la liste complète des filtres prédéfinis disp
 
 Vous pouvez également utiliser les raccourcis de filtrage disponibles dans la **Filtres favoris** de la liste déroulante.
 
-
 Par exemple, pour créer une audience à partir d’un filtre prédéfini, procédez comme suit :
 
 1. Parcourez les **Audiences** dans le menu de gauche.
@@ -120,6 +124,8 @@ Dans cette liste, vous pouvez créer un nouveau filtre, comme décrit ci-dessus,
 * modifier un filtre existant, puis modifier ses règles et ses propriétés ;
 * dupliquer un filtre prédéfini
 * suppression d’un filtre prédéfini
+
+Vous pouvez ajouter un filtre prédéfini comme favori pour un accès rapide lors de la création de vos règles. Cette fonctionnalité est décrite dans la section [cette section](#create-predefined-filter).
 
 ## Filtres prédéfinis intégrés {#ootb-predefined-filter}
 
