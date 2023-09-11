@@ -7,7 +7,7 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Le canal SMS propose trois méthodes pour créer des diffusions par SMS :
 
 * **Diffusions autonomes** : créez des diffusions SMS individuelles pour une communication rapide et directe avec vos clientes et clients, sans avoir besoin de workflows ni de campagnes.
 
-![](../assets/do-not-localize/book.png) Découvrez comment configurer le canal SMS dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=fr){target="_blank"}.
+![](../assets/do-not-localize/book.png) Découvrez comment configurer un canal SMS dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=fr){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

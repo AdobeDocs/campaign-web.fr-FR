@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Sélectionner une audience existante"
->abstract="Parcourez la liste pour sélectionner une audience existante. Utilisez l&#39;icône &quot;Afficher les filtres&quot; pour filtrer la liste ou sélectionnez un dossier spécifique."
+>abstract="Parcourez la liste pour sélectionner une audience existante. Utilisez l&#39;icône Afficher les filtres pour filtrer la liste ou sélectionnez un dossier spécifique."
 
 Cette section explique comment sélectionner une audience existante lors de la définition de la population cible de la diffusion d’un e-mail.
 
 Vous pouvez également procéder comme suit :
 
 * Créez une audience. [En savoir plus](segment-builder.md)
-* Charger une audience depuis un fichier externe (pour les emails uniquement). [En savoir plus](file-audience.md)
+* Chargez une audience depuis un fichier externe (pour les e-mails uniquement). [En savoir plus](file-audience.md)
 * Utilisez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md).
 
 
@@ -36,16 +36,16 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
 1. Choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante. Afin de créer une nouvelle audience pour cet e-mail, choisissez **Créer la vôtre**. Reportez-vous à cette [section](segment-builder.md).
 
-   Cet écran affiche toutes les audiences existantes pour le dossier actif.
+   Cet écran affiche toutes les audiences existantes pour le dossier actuel.
 
    ![](assets/create-audience2.png)
 
-   Les audiences sont créées à partir du **Audience** menu de gauche. Ils peuvent également être créés dans la console cliente.
+   Les audiences sont créées à partir du menu **Audience** de gauche. Elles peuvent également être créées dans la console cliente.
 
-   Pour utiliser les audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Voir [Documentation sur les destinations Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
+   Pour utiliser des audiences Adobe Experience Platform, vous devez configurer l’intégration aux destinations. Consultez la [documentation sur les destinations Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
 
 1. Choisissez une audience, puis cliquez sur **Sélectionner**.
-1. Utilisez la variable **Afficher les filtres** pour afficher les options de filtrage. Cliquez sur **Ajouter des règles** pour accéder au créateur de règles : l’utilisation du créateur de règles vous permet de créer des filtres avancés pour la liste des audiences. Découvrez comment utiliser le créateur de règles dans cette [section](segment-builder.md).
+1. Utilisez l’icône **Afficher les filtres** pour afficher les options de filtrage. Cliquez sur **Ajouter des règles** pour accéder au créateur de règles : l’utilisation du créateur de règles vous permet de créer des filtres avancés pour la liste des audiences. Découvrez comment utiliser le créateur de règles dans cette [section](segment-builder.md).
 
    ![](assets/create-audience4.png)
 
