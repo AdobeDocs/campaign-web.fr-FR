@@ -4,10 +4,10 @@ title: Importer le contenu des e-mails
 description: Découvrez comment importer le contenu des e-mails.
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 62%
 
 ---
 
@@ -36,6 +36,19 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
 1. Faites glisser et déposez le fichier HTML ou ZIP contenant le contenu HTML, puis cliquez sur **[!UICONTROL Importer]**.
 
-1. Une fois le contenu HTML téléchargé, vous pouvez utiliser les fonctionnalités du Concepteur d’e-mail pour modifier et prévisualiser votre e-mail. [En savoir plus](create-email-content.md).
+1. Une fois le contenu du HTML chargé, votre contenu sera placé dans **[!UICONTROL Mode de compatibilité]**.
+
+   Dans ce mode, vous pouvez uniquement personnaliser votre texte, ajouter des liens ou inclure des ressources à votre contenu.
 
    ![](assets/html-imported.png)
+
+1. Pour pouvoir exploiter les composants de contenu du Concepteur d&#39;email, accédez à la **[!UICONTROL Convertisseur de HTMLs]** et cliquez sur **[!UICONTROL Convertir]**.
+
+   ![](assets/html-imported-2.png)
+
+   >[!NOTE]
+   >
+   > Utilisation d’une `<table>` comme premier calque d’un fichier de HTML peut entraîner une perte de style, y compris les paramètres d’arrière-plan et de largeur dans la balise de calque supérieure.
+
+1. Vous pouvez désormais personnaliser votre fichier importé selon vos besoins à l&#39;aide des fonctionnalités du Concepteur d&#39;email . [En savoir plus](content-components.md).
+
