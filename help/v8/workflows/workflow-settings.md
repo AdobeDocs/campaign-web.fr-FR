@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,13 @@ La section **[!UICONTROL Propriétés]** fournit des paramètres génériques, q
 * **[!UICONTROL Dossier]** : le dossier dans lequel le workflow doit être enregistré.
 * **[!UICONTROL Campagne liée]** : ce champ s’affiche si le workflow a été créé dans une campagne. Il vous permet d’ouvrir la campagne associée.
 * **[!UICONTROL Fuseau horaire]** : définissez un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
-* **[!UICONTROL Superviseur(s)]** : lorsqu’un workflow rencontre une erreur, la ou les personnes appartenant au groupe de supervision du workflow sont averties par e-mail, à condition que leur adresse e-mail soit indiquée dans leur profil.
+Les autres valeurs possibles sont les suivantes :
+   * **Fuseau horaire du serveur** pour utiliser le fuseau horaire du serveur applicatif Adobe Campaign
+   * **Fuseau horaire de l&#39;opérateur** pour utiliser le fuseau horaire de l&#39;opérateur Adobe Campaign qui exécute le workflow, tel que défini dans le profil de l&#39;opérateur, dans la console cliente
+   * **Fuseau horaire de la base** pour utiliser le fuseau horaire du serveur de base de données
+   * Un fuseau horaire spécifique
+
+* **[!UICONTROL Superviseurs]**: en cas d&#39;échec d&#39;un workflow, les opérateurs appartenant au groupe d&#39;opérateurs sélectionné dans ce champ sont notifiés par email.
 * **[!UICONTROL Description]** : ce champ permet d’indiquer une description du workflow.
 
 ## Paramètres de segmentation
