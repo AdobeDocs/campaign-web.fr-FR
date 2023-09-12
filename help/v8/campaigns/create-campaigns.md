@@ -4,7 +4,7 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 58%
@@ -68,8 +68,6 @@ Les dates de début et de fin sont affichées dans la liste des campagnes et peu
 >[!NOTE]
 >
 >Vous pouvez toujours modifier ces propriétés ultérieurement à partir de l’icône **Configurer les paramètres de campagne** en regard du libellé de la campagne. Consultez cette [section](gs-campaigns.md#campaign-dashboard).
-
-
 
 Une fois la date atteinte, les diffusions créées dans cette opération dans le cadre d&#39;un workflow prêt à être envoyé sont effectivement envoyées. Pour cela, le workflow doit avoir été démarré.
 
