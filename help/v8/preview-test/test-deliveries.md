@@ -4,7 +4,7 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
@@ -33,17 +33,11 @@ Les destinataires d’un test peuvent vérifier différents éléments tels que 
 
 En fonction du canal que vous utilisez, les messages de test peuvent être envoyés à trois types de destinataires :
 
-* [Profils de test](#test-profiles) : envoyez des **e-mails et des SMS de test** aux adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données.
+* [Profils de test](#test-profiles) : envoyez des **e-mails et des SMS de test** aux adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Ils peuvent être créés à l’aide de la console [!DNL Campaign] dans le dossier **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Adresses de contrôle]**. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
-  Ils peuvent être créés à l’aide de la console [!DNL Campaign] dans le dossier **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Adresses de contrôle]**. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
+* [Substituer à partir de la cible principale](#substitution-profiles) : envoyez des **e-mails et des SMS de test** à une adresse e-mail ou un numéro de téléphone spécifique lors de l’emprunt de l’identité d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez le ou la destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
 
-* [Substituer à partir de la cible principale](#substitution-profiles) : envoyez des **e-mails et des SMS de test** à une adresse e-mail ou un numéro de téléphone spécifique lors de l’emprunt de l’identité d’un profil existant.
-
-  Vous pouvez ainsi consulter le message comme si vous étiez le ou la destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
-
-* [Abonnés](#subscribers) : envoyez des **notifications push de test** aux abonnés et abonnées fictifs ajoutés à la base de données.
-
-  À l’instar des profils de test, elles peuvent être créées dans la console [!DNL Campaign] sous le dossier **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Adresses de contrôle]**. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
+* [Abonnés](#subscribers) : envoyez des **notifications push de test** aux abonnés et abonnées fictifs ajoutés à la base de données. À l’instar des profils de test, elles peuvent être créées dans la console [!DNL Campaign] sous le dossier **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Adresses de contrôle]**. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
 Pour sélectionner les destinataires d’une diffusion test, procédez comme suit en fonction du type de profils que vous souhaitez utiliser.
 

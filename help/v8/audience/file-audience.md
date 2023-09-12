@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 94%
+source-wordcount: '442'
+ht-degree: 75%
 
 ---
 
@@ -36,6 +36,7 @@ Vous pouvez charger des contacts à partir d’un fichier externe. Les profils n
 >
 >* Vous ne pouvez pas utiliser les [populations témoins](control-group.md) lors du chargement de la population cible à partir d’un fichier externe.
 
+## Chargement du fichier {#upload}
 
 Pour cibler des profils à partir d’un fichier local directement dans l’interface e-mail, procédez comme suit :
 
@@ -54,6 +55,22 @@ Lors de la création et de la personnalisation du contenu du message, vous pouve
 
 ![](assets/select-external-perso.png)
 
+## Prévisualiser et tester votre email {#test}
+
+Campaign Web vous permet de prévisualiser et d’envoyer des emails de test lors de l’utilisation d’une audience téléchargée à partir d’un fichier. Pour ce faire, procédez comme suit :
+
+1. Simuler le contenu
+1. Ouvre l’aperçu. Cliquez sur sélectionner le ou les profils : sélectionnez les profils du fichier à utiliser.
+1. pour envoyer un email de test, cliquez sur test
+1. mode test : définition de la cible des BAT
+1. Téléchargez la cible de l’email de test à partir d’un second fichier (ou utilisez-la). la mise en forme du fichier est identique à celle du fichier téléchargé.
+1. Vérifications effectuées sur le format de fichier
+1. cliquer sur envoyer
+
++ lien vers la section aperçu et test
+
+**questions :**
+* aucune substitution du fichier disponible ?
 
 ## Exemple de fichier {#sample-file}
 
