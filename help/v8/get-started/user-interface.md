@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
+source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 97%
+source-wordcount: '1701'
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur
 
 ## Menu de navigation gauche {#user-interface-left-nav}
 
-Parcourez les liens situés à gauche pour accéder aux fonctionnalités de Campaign v8 Web. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Tous les écrans de type Liste sont en lecture seule, à l’exception de la liste de diffusion e-mail. La version Alpha ne permet pas de cliquer sur un élément de liste pour le modifier/visualiser. Toutes les listes pourront être modifiées dans les versions ultérieures. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations utilisateur.
+Parcourez les liens situés à gauche pour accéder aux fonctionnalités de Campaign v8 Web. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Certains écrans de type Liste sont en lecture seule. Les éléments affichés dans le menu de navigation de gauche et dans les listes dépendent de vos autorisations utilisateur. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
 
 ![](assets/home.png)
 
@@ -47,11 +47,11 @@ Accédez aux pages principales d’aide de Campaign v8 Web depuis la section *
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorateur"
->abstract="Le menu **Explorateur** affiche tous les composants et objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous les composants, dossiers et schémas de Campaign v8 et créez des diffusions, des workflows et des campagnes. Toutes les autres listes sont en lecture seule."
+>abstract="Le menu **Explorateur** affiche tous les composants et objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous vos composants, dossiers et schémas Campaign v8, vérifiez les autorisations associées et créez des dossiers et des sous-dossiers à partir de ce menu."
 
-Le menu **Explorateur** affiche toutes les ressources et tous les objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous les composants, dossiers et schémas de Campaign v8 et créez des diffusions, des workflows et des campagnes. Toutes les autres listes sont en lecture seule.
+Le menu **Explorateur** affiche toutes les ressources et tous les objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous les composants, dossiers et schémas de Campaign v8 et créez des diffusions, des workflows et des campagnes.
 
-Les éléments affichés dans l’Explorateur dépendent de vos autorisations utilisateur.
+Les éléments affichés dans le **Explorateur** dépendent de vos autorisations utilisateur.  Vous pouvez également ajouter des dossiers et des sous-dossiers, si vous disposez des autorisations appropriées. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
 
 Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes pour personnaliser l’affichage en fonction des informations que vous souhaitez. Consultez cette [section](#list-screens).
 
@@ -81,10 +81,6 @@ Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketi
 
 ### Gestion des clients {#user-interface-customer-management}
 
->[!CONTEXTUALHELP]
->id="acw_recipients_list"
->title="Destinataires"
->abstract="Accédez à la base de données des destinataires. Vous pouvez consulter des informations utiles telles que leur adresse e-mail, prénom et nom. Cette liste est en lecture seule."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -99,8 +95,8 @@ Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketi
 
 Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos audiences et vos abonnements. Ces listes sont en lecture seule.
 
-* **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. En savoir plus sur les destinataires dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html?lang=fr){target="_blank"}.
-* **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. En savoir plus sur les audiences et les listes dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=fr){target="_blank"}.
+* **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. En savoir plus sur les destinataires dans [cette section](../audience/about-recipients.md).
+* **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. En savoir plus sur les audiences et les listes dans [cette section](../audience/about-audiences.md).
 * **Listes d’abonnements** : parcourez vos listes d’abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Découvrez comment gérer les abonnements et les désabonnements dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=fr){target="_blank"}.
 
 ### Gestion des décisions
@@ -392,9 +388,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Modèle de workflow dans Campaign"
 >abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_explorer_permissions_create"
->title="Autorisation requise"
->abstract="Votre administrateur doit vous accorder l’autorisation avant de pouvoir créer cet objet."
-
