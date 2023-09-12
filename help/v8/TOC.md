@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
+source-git-commit: ba449ee0b5a4b41db8efbbabeb37ce7cd7cc3720
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 97%
+source-wordcount: '374'
+ht-degree: 96%
 
 ---
 
@@ -79,10 +79,12 @@ ht-degree: 97%
 + Audiences et destinataires {#audiences}
    + [Commencer avec les audiences](audience/about-audiences.md)
    + [Utilisation des destinataires](audience/about-recipients.md)
-   + [Sélectionner une audience existante](audience/add-audience.md)
-   + [Définir une audience à l’aide du créateur de règles](audience/segment-builder.md)
-   + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
-   + [Utiliser une audience Adobe Experience Platform](audience/aep-audience.md)
+   + [Création d&#39;audiences](audience/create-audience.md)
+   + Ciblage d’audiences {#target-audiences}
+      + [Sélectionner une audience existante](audience/add-audience.md)
+      + [Définir une audience à l’aide du créateur de règles](audience/segment-builder.md)
+      + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
+      + [Utiliser une audience Adobe Experience Platform](audience/aep-audience.md)
    + [Configurer une population témoin](audience/control-group.md)
 + Campagnes cross-canal {#campaigns}
    + [Prise en main des campagnes](campaigns/gs-campaigns.md)
