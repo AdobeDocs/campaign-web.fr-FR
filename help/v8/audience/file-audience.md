@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 94%
 
 ---
 
@@ -59,8 +59,8 @@ Lors de la création et de la personnalisation du contenu du message, vous pouve
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="Exemple de fichier"
->abstract="Formats de fichiers pris en charge : txt, csv. Utilisez la première ligne comme en-tête de colonne."
+>title="Charger une audience à partir d’un fichier"
+>abstract="Les formats de fichiers pris en charge sont TXT et CSV. Utilisez la première ligne comme en-tête de colonne. Alignez votre format de fichier sur l’exemple de fichier fourni dans le lien ci-dessous."
 
 Les formats pris en charge sont TXT et CSV. La première ligne correspond à l’en-tête de colonne.
 
