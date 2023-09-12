@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 75%
+source-wordcount: '443'
+ht-degree: 74%
 
 ---
 
@@ -67,7 +67,7 @@ Campaign Web vous permet de prévisualiser et d’envoyer des emails de test lor
 1. Vérifications effectuées sur le format de fichier
 1. cliquer sur envoyer
 
-+ lien vers la section aperçu et test
+ajouter un lien à la section aperçu et test
 
 **questions :**
 * aucune substitution du fichier disponible ?
