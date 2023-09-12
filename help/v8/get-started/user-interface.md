@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
+source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 96%
+source-wordcount: '1761'
+ht-degree: 97%
 
 ---
 
@@ -370,7 +370,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Validation des paramètres de diffusion"
+>title="Approbation des paramètres de diffusion"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -392,4 +392,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Modèle de workflow dans Campaign"
 >abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Autorisation requise"
+>abstract="Votre administrateur doit vous accorder l’autorisation avant de pouvoir créer cet objet."
 
