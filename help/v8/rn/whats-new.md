@@ -4,10 +4,10 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 50%
+source-wordcount: '903'
+ht-degree: 54%
 
 ---
 
@@ -52,15 +52,13 @@ Utilisez la nouvelle UI web de Campaign pour :
 
 ## Dernières mises à jour
 
-
 **Résumé bêta**
 
-* Activez la composition de données (fédérée) pour Audiences et personnalisation.
-* Utilisez la technologie IA pour améliorer la génération de contenu d’email.
-* Synchronisez en toute transparence les ressources et les modèles de HTML complets.
-* Organisez et gérez efficacement vos dossiers et ressources.
-* Créez des landing pages attrayantes et efficaces.
-* Autres activités de workflow : accédez à des activités supplémentaires telles que la modification de la dimension, la déduplication et les diffusions récurrentes afin d’améliorer les workflows de campagne.
+* Activation de la composition de données (fédérée) pour les audiences et la personnalisation
+* Utiliser la technologie AI pour améliorer la génération de contenu d&#39;email
+* Synchronisation transparente des ressources et des modèles de HTML complet
+* Organisez et gérez efficacement vos dossiers et ressources
+* Accédez à d’autres activités telles que la modification de la dimension, la déduplication et les diffusions récurrentes afin d’améliorer les workflows des opérations.
 
 **Nouvelles fonctionnalités clés**
 
@@ -92,11 +90,14 @@ Utilisez la nouvelle UI web de Campaign pour :
 
   Améliorez vos efforts marketing en exploitant la puissance des offres intégrées par SMS et notifications push sur notre plateforme web avancée.
 
-* Intégration de Adobe Experience Manager (AEM)
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  Avec notre intégration AEM étendue à l’interface utilisateur web, vous pouvez facilement gérer les ressources et synchroniser des modèles de HTML complets, ce qui vous permet de créer des expériences numériques captivantes sans tracas.
-
-  Optimisez et rationalisez vos fonctionnalités de gestion de contenu dans l’interface utilisateur web grâce à cette intégration afin d’optimiser votre productivité.
 
 ## Migrer vers l’UI de Campaign Web
 
