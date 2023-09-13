@@ -4,10 +4,10 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 91%
 
 ---
 
@@ -82,7 +82,7 @@ Pour créer une diffusion autonome, procédez comme suit :
 
 1. Définissez l’audience de la diffusion, pour la cible principale et la population témoin. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-audiences.md).
 1. Définissez le contenu du message.
-1. (Facultatif) Définissez le planning de diffusion. Si aucun planning n’est défini, les messages sont envoyés immédiatement après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**.
+1. (facultatif) Définir la diffusion [planning](#gs-schedule). Si aucun planning n’est défini, les messages sont envoyés immédiatement après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**.
 1. Cliquez sur le bouton **[!UICONTROL Vérifier et envoyer]** pour vérifier vos paramètres.
 1. Utilisez le bouton  **[!UICONTROL Simuler du contenu]** pour tester votre diffusion et vos paramètres de personnalisation. Pour en savoir plus sur la simulation des messages, consultez [cette section](../preview-test/preview-test.md).
 1. Cliquez sur le bouton **[!UICONTROL Préparer]** pour calculer la population cible et générer les messages. L’étape de préparation peut prendre quelques minutes. Une fois la préparation terminée, les messages sont prêts à être envoyés. En cas d’erreur, accédez aux **Journaux** pour vérifier les alertes et les avertissements.
@@ -144,8 +144,24 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
 Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin de contrôler le rendu de vos messages, et vérifier les paramètres de personnalisation avec des profils de test. [En savoir plus](../preview-test/preview-test.md)
 
+## Planification de lʼenvoi de la diffusion {#gs-schedule}
 
-## Surveillance et logs de tracking{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="Planifier l’envoi"
+>abstract="Définissez la date et l’heure exactes d’envoi des messages. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture."
+
+Vous pouvez définir la date et l’heure exactes d’envoi des messages. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture.
+
+Pour planifier l’envoi d’une diffusion, ouvrez-la et accédez au **Planification** . Utilisez la variable **[!UICONTROL Activation de la planification]** Activez-la et définissez la date et l’heure d’envoi. Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
+
+![](assets/schedule.png)
+
+Par défaut, l’option **[!UICONTROL Activer la confirmation avant l’envoi]** est activée. Cette option nécessite de confirmer l&#39;envoi avant que la diffusion ne soit envoyée à la date et à l&#39;heure planifiées. Si vous devez envoyer automatiquement la diffusion à la date et à l&#39;heure planifiées, vous pouvez désactiver cette option.
+
+Découvrez les étapes à suivre pour envoyer une diffusion planifiée dans [cette section](../monitor/prepare-send.md#schedule-the-send).
+
+## Surveillance et logs de tracking {#gs-tracking-logs}
 
 La surveillance de vos diffusions après leur envoi est une étape clé pour vous assurer que vos campagnes marketing sont efficaces et atteignent votre clientèle.
 

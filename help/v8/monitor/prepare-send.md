@@ -4,7 +4,7 @@ title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
    >[!NOTE]
    >
-   >Si vous avez planifié votre diffusion et désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../email/create-email.md#schedule)
+   >Si vous avez planifié votre diffusion et désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../msg/gs-messages.md#gs-schedule)
 
 1. La progression de la préparation s’affiche. La durée de cette opération varie en fonction de la taille de la population ciblée.
 
@@ -87,7 +87,7 @@ Une fois la préparation terminée sans erreur, le message est prêt à être en
 
 Une fois la [préparation](#prepare) terminée, vous pouvez envoyer l’e-mail.
 
-Si le message est planifié, il sera envoyé à la date et à l’heure définies. [En savoir plus](#schedule-the-send).
+Si le message est planifié, il sera envoyé à la date et à l’heure définies. [En savoir plus](../msg/gs-messages.md#gs-schedule).
 
 ### Envoyer immédiatement {#send-immediately}
 
@@ -105,7 +105,7 @@ Pour envoyer immédiatement un e-mail, procédez comme suit.
 
 Si vous avez planifié l’envoi de votre e-mail à une date et une heure ultérieures, procédez comme suit.
 
-1. Avant de cliquer sur le bouton **[!UICONTROL Vérifier et envoyer]**, assurez-vous de définir un planning pour votre e-mail. [En savoir plus](../email/create-email.md#schedule).
+1. Avant de cliquer sur le bouton **[!UICONTROL Vérifier et envoyer]**, assurez-vous de définir un planning pour votre e-mail. [En savoir plus](../msg/gs-messages.md#gs-schedule).
 
 1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]** dans le coin supérieur droit.
 
@@ -115,7 +115,7 @@ Si vous avez planifié l’envoi de votre e-mail à une date et une heure ultér
 
    >[!NOTE]
    >
-   >Si vous avez désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../email/create-email.md#schedule).
+   >Si vous avez désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../msg/gs-messages.md#gs-schedule).
 
 ## Suspendre ou arrêter l’envoi {#pause-stop-sending}
 

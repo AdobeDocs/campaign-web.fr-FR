@@ -4,9 +4,9 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1224'
 ht-degree: 95%
 
 ---
@@ -121,7 +121,7 @@ Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante. 
    >
    >Les audiences disponibles dans la liste proviennent de votre instance Campaign v8 ou d’Adobe Experience Platform si l’intégration Destination/Sources a été configurée sur votre instance.
    >
-   >L’intégration Destination/Sources vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de tracking Campaign à Adobe Experience Platform. Découvrez comment utiliser Campaign et Adobe Experience Platform dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=fr){target="_blank"}.
+   >L’intégration Destination/Sources vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de tracking Campaign à Adobe Experience Platform. Découvrez comment utiliser Campaign et Adobe Experience Platform dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=fr){target="_blank"}.
 
 1. Une fois l’audience sélectionnée, vous pouvez affiner davantage la cible en appliquant des règles supplémentaires.
 
@@ -131,16 +131,11 @@ Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante. 
 
 ## Planifier l’envoi {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Planifier l’envoi"
->abstract="Définissez la date et l’heure exactes de votre envoi. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture."
-
-Pour planifier l’envoi de l’e-mail, ouvrez votre diffusion e-mail et accédez à la section **Planning**. Utilisez le bouton (bascule) **[!UICONTROL Activer le planning]** pour l’activer et définir la date et l’heure d’envoi. Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
-
-Par défaut, l’option **[!UICONTROL Activer la confirmation avant l’envoi]** est activée. Cette option nécessite de confirmer l’envoi avant que l’e-mail ne soit envoyé à la date et à l’heure planifiées. Si vous souhaitez envoyer automatiquement l’e-mail à la date et l’heure planifiées, vous pouvez désactiver cette option.
+Pour planifier l’envoi de l’e-mail, ouvrez votre diffusion e-mail et accédez à la section **Planning**.
 
 ![](assets/schedule.png)
+
+Découvrez comment planifier l’envoi de la diffusion [cette section](../msg/gs-messages.md#gs-schedule)
 
 ## Prévisualiser et tester l’e-mail {#preview-test}
 
