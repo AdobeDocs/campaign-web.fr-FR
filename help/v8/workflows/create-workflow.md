@@ -4,9 +4,9 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer un workflow avec Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: a3cc0a65d6016c28cfe65b025bb971245720b181
+source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '693'
 ht-degree: 8%
 
 ---
@@ -64,6 +64,12 @@ Pour créer un modèle de workflow à partir d&#39;un workflow existant, procéd
 1. Dans la fenêtre contextuelle, validez la création du modèle.
 1. Dans le canevas du modèle de workflow, vérifiez, ajoutez et configurez les activités selon vos besoins.
 1. Accédez aux paramètres pour modifier le nom du modèle de workflow et saisissez une description.
+1. Sélectionnez le dossier et le dossier d’exécution du modèle. Le dossier correspond à l’emplacement où le modèle de workflow est enregistré. Le dossier d’exécution est le dossier dans lequel les workflows créés à partir de ce modèle sont enregistrés.
+
+   ![](assets/wf-settings-template.png)
+
+   Les autres propriétés sont communes aux workflows. Apprenez-en davantage en consultant [cette page](workflow-settings.md#properties).
+
 1. Enregistrez vos modifications.
 
 Le modèle de workflow est désormais disponible dans la liste des modèles. Vous pouvez créer un workflow à partir de ce modèle. Ce workflow sera préconfiguré avec les paramètres et activités définis dans le modèle.
@@ -79,9 +85,9 @@ Pour créer entièrement un modèle de workflow, procédez comme suit :
 1. Saisissez le libellé et ouvrez les options supplémentaires afin de saisir une description de votre modèle de workflow.
 1. Sélectionnez le dossier et le dossier d’exécution du modèle. Le dossier correspond à l’emplacement où le modèle de workflow est enregistré. Le dossier d’exécution est le dossier dans lequel les workflows créés à partir de ce modèle sont enregistrés.
 
-   Les autres propriétés sont communes aux workflows. Apprenez-en davantage en consultant [cette page](workflow-settings.md#properties).
-
    ![](assets/new-wf-template.png)
+
+   Les autres propriétés sont communes aux workflows. Apprenez-en davantage en consultant [cette page](workflow-settings.md#properties).
 
 1. Cliquez sur le bouton **Créer** pour confirmer vos paramètres.
 1. Dans le canevas du modèle de workflow, ajoutez et configurez les activités selon vos besoins.
