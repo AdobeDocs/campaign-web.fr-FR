@@ -3,7 +3,7 @@ audience: end-user
 title: Création de services
 description: Découvrez comment créer des services dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 20de61c502c205adbb87505a36b5fcd264bb938c
+source-git-commit: 6a8556dd531484a99d153a2aaf2058dc7e8b3a62
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 19%
@@ -11,7 +11,7 @@ ht-degree: 19%
 ---
 
 
-# Création de services {#create-service}
+# Création de services {#create-services}
 
 Utilisez Adobe Campaign pour créer et surveiller vos services d’information tels que les newsletters et pour vérifier les abonnements/désabonnements à ces services.
 
