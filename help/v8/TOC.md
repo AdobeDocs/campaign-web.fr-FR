@@ -5,9 +5,9 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 20de61c502c205adbb87505a36b5fcd264bb938c
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 95%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 95%
    + [Prise en main](get-started/get-started.md)
    + [Découvrir l’interface](get-started/user-interface.md)
    + [Parcourir, rechercher et filtrer les listes](get-started/list-filters.md)
+   + [Utilisation de filtres prédéfinis](get-started/predefined-filters.md)
    + [Accès et autorisations](get-started/permissions.md)
+   + [Mécanismes de sécurisation et limitations](get-started/guardrails.md)
    + [Fonctionnalités non prises en charge](get-started/unsupported.md)
    + [Utilisation d’AI](get-started/using-ai.md)
 + Messages et diffusions {#msg}
@@ -69,7 +71,6 @@ ht-degree: 95%
       + [Ajouter de la personnalisation](personalization/personalize.md)
       + [Ajouter du contenu conditionnel](personalization/conditions.md)
       + [Ajouter des blocs de contenu intégrés](personalization/content-blocks.md)
-      + [Utilisation de filtres prédéfinis](personalization/predefined-filters.md)
    + [Envoyer des offres](content/offers.md)
    + Prévisualiser et tester votre diffusion {#preview-test}
       + [À propos de la prévisualisation et du test](preview-test/preview-test.md)

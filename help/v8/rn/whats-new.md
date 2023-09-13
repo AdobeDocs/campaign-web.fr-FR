@@ -4,9 +4,9 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '895'
 ht-degree: 54%
 
 ---
@@ -77,18 +77,18 @@ Utilisez la nouvelle UI web de Campaign pour :
 
 * Gestion des filtres prédéfinis
 
-  Présentation de la gestion des filtres prédéfinis. L’interface utilisateur web de Campaign vous offre désormais une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis en fonction de vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure. [En savoir plus](../personalization/predefined-filters.md)
+  Présentation de la gestion des filtres prédéfinis. L’interface utilisateur web de Campaign vous offre désormais une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis en fonction de vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure. [En savoir plus](predefined-filters.md)
 
 
 * Public cible
 
   Construire une cible de diffusion n&#39;a jamais été aussi facile ! Avec notre dernier créateur de règles, vous pouvez désormais définir des critères de filtrage pour les destinataires ou toute autre dimension de ciblage de la base de données. En outre, vous pouvez tirer parti de votre audience AEP (Adobe Experience Platform) pour affiner davantage votre audience cible et optimiser l’impact de votre campagne.
 
-* Offres avec SMS et Push
+* Offres avec SMS
 
-  La nouvelle interface utilisateur web vous permet désormais d’intégrer des offres à l’aide de SMS et de notifications push en plus de la fonction Email. Atteignez votre audience sur leurs appareils mobiles, en proposant des promotions et des notifications opportunes.
+  La nouvelle interface utilisateur web vous permet désormais d’intégrer des offres avec des SMS en plus des emails. Atteignez votre audience sur leurs appareils mobiles, en proposant des promotions et des notifications opportunes.
 
-  Améliorez vos efforts marketing en exploitant la puissance des offres intégrées par SMS et notifications push sur notre plateforme web avancée.
+  Optimisez vos efforts marketing en exploitant la puissance des offres intégrées par SMS sur notre plateforme web avancée.
 
 <!--
 * Adobe Experience Manager (AEM) Integration

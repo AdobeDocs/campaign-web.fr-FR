@@ -3,11 +3,11 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+badge: label="Beta"
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 90%
+source-wordcount: '1758'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 >title="Découvrir l’interface"
 >abstract="La nouvelle interface de Campaign v8 Web offre une expérience client intégrée, intuitive et cohérente."
 
-La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée à Adobe Experience Platform.
+La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée aux applications et solutions Adobe Experience Cloud.
 
 
 >[!NOTE]
@@ -114,13 +114,13 @@ Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos
 
 * **Offres** - Parcourez votre liste d’offres d’interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par dates de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
 
-Découvrez comment créer et gérer des offres dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
+Découvrez comment créer et envoyer des offres dans des emails et des SMS dans [cette section](../content/offers.md).
 
 ## Barre supérieure
 
 La barre supérieure de l’interface vous permet d’effectuer les actions suivantes :
 
-* partager vos commentaires en tant que testeur ou testeuse Alpha,
+* partager vos commentaires en tant que testeur bêta
 * basculer entre les organisations et les instances,
 * basculer entre les applications Adobe Experience Cloud,
 * accéder aux pages d’aide, contacter le support et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d’aide dans le champ de recherche.
