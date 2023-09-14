@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Sauvegarde d’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 64%
+source-wordcount: '323'
+ht-degree: 17%
 
 ---
 
@@ -18,57 +18,37 @@ ht-degree: 64%
 >id="acw_orchestration_saveaudience_activity"
 >title="Save an audience"
 >abstract="Use this activity to save the workflow audience."
+-->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Outbound transition for save audience"
->abstract="tbc"
+La variable **Sauvegarde d’audience** est une activité **Ciblage** activité. Cette activité permet de mettre à jour une audience existante ou de créer une nouvelle audience à partir de la population calculée en amont dans un workflow. Les audiences créées sont ajoutées à la liste des audiences de l&#39;application et mises à disposition via le **Audiences** .
 
-Mode
-Audience label
-Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
-Update method
-
-Replace audience with new data
-
-Complete audience with new data
-Folder
-Lists (/Profiles and Targets/Lists/)
-
-Generate an outbound transition
-
-
-The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
-
-This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
+Cette activité est essentiellement utilisée pour conserver les groupes de population calculés dans le même workflow, en les convertissant en audiences réutilisables. Connectez-la à d’autres activités de ciblage telles qu’une **Créer une audience** ou **Combiner** activité.
 
 ## Configuration
 
-Follow these steps to configure the **Save audience** activity:
+Pour configurer la variable **Sauvegarde d’audience** activité :
 
-1. Add a **Save audience** activity to your workflow.
+1. Ajouter un **Sauvegarde d’audience** à votre workflow.
 
    ![](../assets/workflow-save-audience.png)
 
-1. In the **Mode** drop-down, select the action that you would like to carry out:
+1. Dans le **Mode** , sélectionnez l’action que vous souhaitez réaliser :
 
-    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
+   * **Créer ou mettre à jour une audience existante**: définissez une **Libellé de l’audience**. Si l’audience existe déjà, elle est mise à jour, sinon une nouvelle audience est créée.
 
-    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
+   * **Mettre à jour une audience existante**: sélectionnez la variable **Audience** vous souhaitez mettre à jour parmi la liste des audiences existantes.
 
-1. Select the **Update mode** which will apply for existing audiences:
+1. Sélectionnez la variable **Mode de mise à jour** qui s’appliquera aux audiences existantes :
 
-    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
+   * **Remplacer le contenu de l’audience par de nouvelles données**: tout le contenu de l’audience est remplacé. Les anciennes données sont perdues. Seules les données issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience sont conservées. Cette option supprime le type d&#39;audience et la dimension de ciblage de l&#39;audience mise à jour.
 
-    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
+   * **Compléter l’audience avec les nouvelles données**: l&#39;ancien contenu de l&#39;audience est conservé et les données de la transition entrante de l&#39;activité de sauvegarde d&#39;audience y sont ajoutées.
 
-1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
+1. Vérifiez les **Générer le complémentaire** si vous souhaitez exploiter la population restante. Une transition supplémentaire sera alors ajoutée à l&#39;activité.
 
-The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
-
-
-## Example
+Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis le menu **Audiences**. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de l&#39;objet **Audience de l’Afrique du Sud** activité.
 
 
+## Exemple
 
--->
+
