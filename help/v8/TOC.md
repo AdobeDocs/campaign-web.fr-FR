@@ -5,9 +5,9 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '389'
 ht-degree: 95%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 95%
    + [Commencer avec les audiences](audience/about-audiences.md)
    + [Utilisation des destinataires](audience/about-recipients.md)
    + [Création d&#39;audiences](audience/create-audience.md)
+   + [Surveillance et gestion des audiences](audience/access-audiences.md)
    + Ciblage d’audiences {#target-audiences}
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Définir une audience à l’aide du créateur de règles](audience/segment-builder.md)
@@ -105,10 +106,14 @@ ht-degree: 95%
       + [À propos des activités de workflow](workflows/activities/about-activities.md)
       + [Rendez-vous](workflows/activities/and-join.md)
       + [Créer une audience](workflows/activities/build-audience.md)
+      + [Changement de dimension](workflows/activities/change-dimension.md)
       + [Combiner](workflows/activities/combine.md)
+      + [Déduplication](workflows/activities/deduplication.md)
       + [E-mail, SMS, notification push](workflows/activities/channels.md)
       + [Enrichissement](workflows/activities/enrichment.md)
       + [Branchement](workflows/activities/fork.md)
+      + [Sauvegarde d&#39;audience](workflows/activities/save-audience.md)
+      + [Planificateur](workflows/activities/scheduler.md)
       + [Partage](workflows/activities/split.md)
       + [Attente](workflows/activities/wait.md)
 + Rapports {#reports}

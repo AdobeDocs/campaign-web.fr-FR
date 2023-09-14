@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Accès aux audiences
-description: Découvrez comment accéder aux audiences dans Adobe Campaign Web
+title: Surveillance et gestion des audiences
+description: Découvrez comment surveiller et gérer les audiences dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# Accès aux audiences {#create-audiences}
+# Surveillance et gestion des audiences {#create-audiences}
 
 La liste des audiences disponibles sur le Web de Campaign est accessible à partir du **[!UICONTROL Audiences]** .
 
