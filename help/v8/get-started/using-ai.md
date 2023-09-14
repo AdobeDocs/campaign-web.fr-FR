@@ -4,9 +4,9 @@ description: Utilisation de l’assistant de connaissances optimisé par l’IA 
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
+source-git-commit: 368f716e72abfe9ac22893798cf11f6fd90f2cd4
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '399'
 ht-degree: 2%
 
 ---
@@ -33,5 +33,15 @@ Les réponses peuvent être inexactes ou trompeuses. Par conséquent, l’assist
 
 L’intelligence artificielle et les modèles d’apprentissage automatique s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L&#39;assistant de connaissances basé sur l&#39;IA de Campaign continuera à s&#39;améliorer dans les prochains mois. Nous vous conseillons vivement d’utiliser la ?? ?? à chaque fois que vous lisez une réponse, pour signaler toute réponse inappropriée à nos ingénieurs.
 
+## Recommandations  {#recommendations-ai}
 
+Lorsque vous posez une question dans l’aide contextuelle, le contexte actuel du produit est pris en compte.
+
+Pour obtenir le meilleur de l&#39;assistant, lors d&#39;une question, nous vous conseillons de :
+
+* Soyez aussi précis et précis que possible et évitez toute ambiguïté. La réponse sera plus précise et utile.
+* Pour aider l&#39;assistant de connaissances à trouver les informations correctes, ajoutez autant de détails que possible sur ce que vous essayez d&#39;apprendre.
+* Remplissez et affinez vos questions pour obtenir de meilleures réponses. Si la réponse n’est pas exacte ou utile, essayez différentes approches et ajoutez du contexte pour obtenir de meilleurs résultats.
+* Utilisez des termes et des termes appropriés, avec un ton neutre.
+* Évaluez les réponses et fournissez des commentaires afin que nos ingénieurs puissent apprendre de votre expérience et améliorer les résultats.
 
