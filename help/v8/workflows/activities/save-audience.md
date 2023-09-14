@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Sauvegarde d’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 18%
+source-wordcount: '333'
+ht-degree: 17%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 18%
 >title="Sauvegarde d&#39;audience activité"
 >abstract="L&#39;activité Sauvegarde d&#39;audience permet de..."
 
-Étiquette d’audience de mode Adobe Campaign va faire correspondre cette étiquette aux audiences existantes. S’il trouve une correspondance, il met à jour cette audience, sinon il crée une nouvelle audience.
-Mettre à jour la méthode
-
-Remplacement de l’audience par de nouvelles données
-
-Compléter l’audience avec de nouvelles listes de dossiers de données (/Profils et Cibles/Listes/)
-
-Générer une transition sortante
-
-
 La variable **Sauvegarde d’audience** est une activité **Ciblage** activité. Cette activité permet de mettre à jour une audience existante ou de créer une nouvelle audience à partir de la population calculée en amont dans un workflow. Les audiences créées sont ajoutées à la liste des audiences de l&#39;application et mises à disposition via le **Audiences** .
 
 Cette activité est essentiellement utilisée pour conserver les groupes de population calculés dans le même workflow, en les convertissant en audiences réutilisables. Connectez-la à d’autres activités de ciblage telles qu’une **Créer une audience** ou **Combiner** activité.
@@ -38,7 +28,7 @@ Pour configurer la variable **Sauvegarde d’audience** activité :
 
 1. Ajouter un **Sauvegarde d’audience** à votre workflow.
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. Dans le **Mode** , sélectionnez l’action que vous souhaitez réaliser :
 
