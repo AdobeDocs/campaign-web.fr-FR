@@ -4,10 +4,10 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 91%
+source-wordcount: '1303'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS, notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés.
 
-Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans le cadre d’une campagne marketing.
+Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans des workflows dans le cadre d&#39;une campagne marketing.
 
 Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : e-mail, SMS et applications mobiles.
 
@@ -59,7 +59,6 @@ Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : e-mail, 
 
 ## Créer une diffusion {#create-delivery}
 
-
 Vous pouvez créer des diffusions autonomes à partir du menu de gauche **[!UICONTROL Diffusions]**, ou créer des diffusions dans le cadre d’une campagne marketing, à partir du menu de gauche **[!UICONTROL Campagnes]**.
 
 Parcourez les onglets ci-dessous pour découvrir comment créer une diffusion :
@@ -89,7 +88,7 @@ Pour créer une diffusion autonome, procédez comme suit :
 1. Vérifiez les résultats, puis cliquez sur le bouton **[!UICONTROL Envoyer]** pour commencer à envoyer des messages.
 1. Une fois les messages envoyés, rendez-vous dans la section **Rapports** pour accéder aux mesures clés. Pour en savoir plus sur les rapports de diffusion, consultez [cette section](../reporting/delivery-reports.md).
 
->[!TAB Créer une diffusion dans une campagne]
+>[!TAB Créer une diffusion dans un workflow de campagne]
 
 Pour créer une diffusion dans une campagne, procédez comme suit :
 

@@ -4,10 +4,10 @@ title: Créer une diffusion SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 97%
+source-wordcount: '386'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,12 @@ ht-degree: 97%
 >title="Sélection du modèle de SMS"
 >abstract="Sélectionnez un modèle prédéfini pour démarrer votre diffusion par SMS."
 
-1. Dans la page d’accueil **[!UICONTROL Diffusions]**, cliquez sur **[!UICONTROL Créer une diffusion]**.
+Vous pouvez créer une diffusion SMS autonome ou créer un SMS dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous détaillent la procédure pour une diffusion SMS mono-plan. Si vous travaillez dans le cadre d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+
+Pour créer une diffusion SMS autonome, procédez comme suit :
+
+1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
 
 1. Sous la section **[!UICONTROL Canal]**, choisissez SMS comme canal et sélectionnez un modèle. [En savoir plus sur les modèles](../msg/delivery-template.md)
 

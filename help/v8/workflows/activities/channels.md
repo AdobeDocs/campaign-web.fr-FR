@@ -3,15 +3,15 @@ audience: end-user
 title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 82%
 
 ---
 
 
-# E-mail, SMS, notification push {#channel}
+# Email, SMS, activités push {#channel}
 
 Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux e-mail, SMS et de notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données.
 
@@ -19,7 +19,17 @@ Vous pouvez par exemple créer une campagne par e-mail de bienvenue qui comprend
 
 Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent la clientèle sur plusieurs touchpoints et génèrent des conversions.
 
-Voici les étapes à suivre pour ajouter une activité de **canal** dans un workflow :
+>[!NOTE]
+>
+>Vous pouvez également créer une diffusion ponctuelle, en dehors du contexte d&#39;un workflow de campagne. En savoir plus dans ces sections :
+>* [Créer une diffusion email autonome](../../email/create-email.md
+>* [Créer une diffusion SMS autonome](../../sms/create-sms.md)
+>* [Créer une diffusion push autonome](../../push/create-push.md)
+>
+
+## Créer une diffusion dans un workflow de campagne{#create-a-delivery-in-a-workflow}
+
+Pour créer un email, un SMS ou une diffusion push dans le cadre d&#39;un workflow de campagne, procédez comme suit :
 
 1. Assurez-vous d’avoir ajouté une activité **Créer une audience**. L’audience est la cible principale de votre diffusion : il s’agit des destinataires qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**. Consultez [cette section](build-audience.md).
 
@@ -36,7 +46,7 @@ Voici les étapes à suivre pour ajouter une activité de **canal** dans un work
 
 1. Cliquez sur **Créer une diffusion**. Définissez les paramètres et le contenu de votre message de la même manière que vous créez une diffusion autonome. Vous pouvez également planifier et simuler le contenu. [En savoir plus](../../msg/gs-messages.md).
 
-1. Revenez à votre workflow et enregistrez vos modifications.
+1. Revenez à votre workflow. Choisissez si vous souhaitez continuer votre workflow. **Générer une transition sortante** si vous souhaitez ajouter une transition après l’activité de canal.
 
 1. Cliquez sur **Démarrer** pour lancer le workflow.
 
@@ -46,7 +56,7 @@ Voici les étapes à suivre pour ajouter une activité de **canal** dans un work
 
 1. Dans le tableau de bord de la diffusion, cliquez sur **Envoyer**.
 
-## Exemple
+## Exemple{#cross-channel-workflow-sample}
 
 Voici un exemple de workflow cross-canal avec une segmentation et deux diffusions. Le workflow cible la clientèle qui vit à Paris et qui s’intéresse aux machines à café. Parmi cette population, un e-mail est envoyé à la clientèle régulière, et un SMS est envoyé à la clientèle VIP.
 

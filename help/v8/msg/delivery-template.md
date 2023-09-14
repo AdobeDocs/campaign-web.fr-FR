@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 100%
+source-wordcount: '941'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Un modèle peut inclure les éléments suivants :
 * Des liens vers la [page miroir](../content/mirror-page.md) et des [liens](../content/message-tracking.md) de désinscription
 * Autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
 
-## Accéder aux modèles et les gérer {#access-manage-templates}
+## Accès et gestion des modèles de diffusion {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -61,14 +61,14 @@ Pour supprimer ou [dupliquer](#copy-an-existing-template) un modèle, sélection
 >
 >Lorsqu’un modèle est modifié ou supprimé, les diffusions créées à l’aide de ce modèle ne sont pas affectées.
 
-## Créer un modèle {#create-a-delivery-template}
+## Créer un modèle de diffusion {#create-a-delivery-template}
 
 Pour créer un modèle de diffusion, vous pouvez :
 * Dupliquer un modèle existant - [En savoir plus](#copy-an-existing-template)
 * Convertir une diffusion existante en modèle - [En savoir plus](#convert-an-existing-delivery)
 * Créer entièrement un modèle de diffusion - [En savoir plus](#create-a-new-template)
 
-### Dupliquer un modèle existant {#copy-an-existing-template}
+### Dupliquer un modèle de diffusion existant {#copy-an-existing-template}
 
 Un ensemble de modèles intégrés pour chaque canal (e-mail, notification push, SMS) est inclus dans Campaign. Le moyen le plus simple de créer un modèle de diffusion consiste à dupliquer et à personnaliser un modèle intégré.
 
@@ -118,9 +118,9 @@ Pour enregistrer une diffusion comme modèle, procédez comme suit :
 
 1. Testez le rendu du modèle si nécessaire. [En savoir plus](#test-template)
 
-Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez désormais le sélectionner lors de la création d’une diffusion.
+Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez maintenant le sélectionner lors de la création d’une diffusion.
 
-### Création d’un modèle {#create-a-new-template}
+### Créer un modèle de diffusion {#create-a-new-template}
 
 >[!NOTE]
 >

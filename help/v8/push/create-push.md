@@ -3,10 +3,10 @@ audience: end-user
 title: Créer une diffusion notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 97%
+source-wordcount: '406'
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,14 @@ ht-degree: 97%
 >title="Propriétés de diffusion par notification push"
 >abstract="Gérez les propriétés de la diffusion par notification push."
 
-1. Dans la page d’accueil **[!UICONTROL Diffusions]**, cliquez sur **[!UICONTROL Créer une diffusion]**.
+Vous pouvez créer une diffusion de notification push autonome ou créer une notification push dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous détaillent la procédure pour une diffusion push autonome (ponctuelle). Si vous travaillez dans le cadre d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. Dans la section **[!UICONTROL Canal]**, choisissez Notification push comme canal et sélectionnez un modèle en fonction du système d’exploitation sélectionné : Android ou iOS. [En savoir plus sur les modèles](../msg/delivery-template.md)
+
+Pour créer une diffusion push autonome, procédez comme suit :
+
+1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
+
+1. Sous , **[!UICONTROL Canal]** , choisissez **Notification push** comme canal et sélectionnez un modèle, en fonction du système opérationnel de l’appareil choisi : Android ou iOS. [En savoir plus sur les modèles](../msg/delivery-template.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
 
