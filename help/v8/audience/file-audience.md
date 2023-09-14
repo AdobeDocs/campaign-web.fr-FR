@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 74%
+source-wordcount: '548'
+ht-degree: 62%
 
 ---
 
@@ -55,23 +55,6 @@ Lors de la création et de la personnalisation du contenu du message, vous pouve
 
 ![](assets/select-external-perso.png)
 
-## Prévisualiser et tester votre email {#test}
-
-Campaign Web vous permet de prévisualiser et d’envoyer des emails de test lors de l’utilisation d’une audience téléchargée à partir d’un fichier. Pour ce faire, procédez comme suit :
-
-1. Simuler le contenu
-1. Ouvre l’aperçu. Cliquez sur sélectionner le ou les profils : sélectionnez les profils du fichier à utiliser.
-1. pour envoyer un email de test, cliquez sur test
-1. mode test : définition de la cible des BAT
-1. Téléchargez la cible de l’email de test à partir d’un second fichier (ou utilisez-la). la mise en forme du fichier est identique à celle du fichier téléchargé.
-1. Vérifications effectuées sur le format de fichier
-1. cliquer sur envoyer
-
-ajouter un lien à la section aperçu et test
-
-**questions :**
-* aucune substitution du fichier disponible ?
-
 ## Exemple de fichier {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## Prévisualiser et tester votre email {#test}
+
+Campaign Web vous permet de prévisualiser et d’envoyer des emails de test lors de l’utilisation d’une audience téléchargée à partir d’un fichier. Pour ce faire, procédez comme suit :
+
+1. Cliquez sur le bouton **[!UICONTROL Bouton Simuler le contenu]** dans l&#39;écran d&#39;édition du contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]** bouton .
+
+1. Les profils contenus dans le fichier téléchargé s’affichent. Sélectionnez le ou les profils que vous souhaitez utiliser pour prévisualiser votre contenu, puis cliquez sur **[!UICONTROL Sélectionner]**.
+
+1. Un aperçu du contenu de la diffusion s&#39;affiche dans le volet droit de l&#39;écran. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche. [En savoir plus sur la prévisualisation du contenu de la diffusion](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. Pour envoyer des emails de test, cliquez sur le bouton **[!UICONTROL Test]** bouton .
+
+1. Cliquez sur le bouton **[!UICONTROL Chargement des profils de BAT]** et sélectionnez le fichier .txt ou .csv contenant les destinataires de vos BAT.
+
+   >[!CAUTION]
+   >
+   >Assurez-vous que le format de fichier correspond à celui utilisé pour charger votre audience. Toutes les erreurs de format afficheront une alerte.
+
+1. Lorsque les destinataires du BAT sont ajoutés et que vous êtes prêt à envoyer les BAT, cliquez sur le bouton **[!UICONTROL Envoyer un email de test]** et confirmez l’envoi.
+
+   ![](assets/file-upload-test.png)
+
+1. Vous pouvez contrôler à tout moment l’envoi de l’email de test à l’aide du bouton Afficher le journal de l’email de test . [En savoir plus sur la surveillance des emails de test](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
