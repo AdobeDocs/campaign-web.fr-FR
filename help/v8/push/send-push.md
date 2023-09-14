@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer une diffusion par notification push
 description: Découvrez comment envoyer une diffusion par notification push dans Adobe Campaign Web.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 92%
 
 ---
 
@@ -57,10 +57,12 @@ Les destinataires du test vérifient alors divers éléments, tels que les liens
 
 1. Envoyez les messages en cliquant sur **[!UICONTROL Envoyer]** pour poursuivre le processus d’envoi final.
 
-1. Confirmez l’action d’envoi en cliquant sur le bouton **[!UICONTROL Envoyer]** ou **[!UICONTROL Envoyer comme prévu]**.
+1. Confirmez l&#39;action d&#39;envoi en cliquant sur le bouton **[!UICONTROL Envoyer]**.
+
+   Si la diffusion push a été planifiée, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]** bouton . En savoir plus sur la planification des diffusions dans [cette section](../msg/gs-messages.md#schedule-the-delivery-sending).
 
    ![](assets/push_send_4.png)
 
-Une fois votre diffusion envoyée, vous pouvez suivre les données de vos KPI (indicateurs clés de performance) à partir de votre page de diffusion et les données à partir du menu **[!UICONTROL Journaux]**.
+Une fois votre diffusion envoyée, vous pouvez suivre les données de vos KPI (indicateurs clés de performance) à partir de la page de diffusion et les données à partir du menu **[!UICONTROL Journaux]**.
 
 Vous pouvez maintenant commencer à mesurer l’impact de votre message à l’aide de rapports intégrés. [En savoir plus](../reporting/push-report.md)
