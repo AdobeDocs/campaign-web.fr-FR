@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1683'
 ht-degree: 88%
 
 ---
@@ -223,16 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Sélectionnez au moins deux diffusions pour afficher un rapport de données agrégées."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="Paramètres de déduplication"
->abstract="À déterminer"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="Complémentaire de déduplication"
->abstract="À déterminer"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Autorisation requise"
 >abstract="Avant de pouvoir créer un segment, votre administrateur ou administratrice doit vous accorder une autorisation."
@@ -241,7 +231,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Autorisation requise"
 >abstract="Avant de pouvoir créer un segment, votre administrateur ou administratrice doit vous accorder une autorisation."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -253,33 +242,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Cette diffusion est en lecture seule."
 >abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette diffusion. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="Ce service est en lecture seule."
->abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce service. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Cette audience est en lecture seule"
->abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette audience. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
-
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Liste des workflows"
 >abstract="Liste des workflows disponibles pour votre campagne. Utilisez le bouton « Créer un workflow » pour ajouter un workflow à votre campagne."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Transition sortante pour la sauvegarde d’audience"
->abstract="tbc"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Enregistrer une audience"
->abstract="Utilisez cette activité pour enregistrer l’audience du workflow."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"

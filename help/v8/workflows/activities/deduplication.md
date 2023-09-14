@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 27%
+source-wordcount: '279'
+ht-degree: 29%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 27%
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="Complémentaire de déduplication"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Paramètres de déduplication"
+>abstract="À déterminer"
 
 La variable **Déduplication** est une activité **Ciblage** activité. Cette activité permet de supprimer les doublons dans le ou les résultats des activités entrantes. La variable **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant l&#39;utilisation des données ciblées.
 
