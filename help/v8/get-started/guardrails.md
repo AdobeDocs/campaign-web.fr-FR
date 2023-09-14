@@ -2,10 +2,10 @@
 title: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 description: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 badge: label="Beta"
-source-git-commit: ff95b563784ae507245e6690feedda33ea6a111b
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '443'
+ht-degree: 8%
 
 ---
 
@@ -47,7 +47,48 @@ Dans la console cliente Campaign, le **Enrichissement** l’activité peut effec
 
 ## Filtres prédéfinis {#filters-guardrails-limitations}
 
-
 Lors de la sélection de l&#39;audience d&#39;une diffusion, ou lors de la création d&#39;une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles. Un message d’erreur spécifique s’affiche. Vous pouvez toujours utiliser la requête et voir : la condition de filtrage et les résultats, mais vous ne pouvez pas afficher la requête exacte dans le créateur de règles et ne pouvez pas modifier le filtre.
 
-![](assets/filter-unavailable.png)
+![](assets/filter-unavailable.png){width="70%" align="left"}
+
+
+### Types de données non pris en charge {#unsupported-data-type}
+
+Les types de données suivants disponibles dans la console cliente ne sont pas pris en charge lors de l’affichage d’un filtre ou d’une règle dans l’interface web :
+
+* datetime
+* time
+* timespan
+* double
+* float
+
+### Fonctionnalités de filtrage non prises en charge {#unsupported-filtering-capabilities}
+
+Lorsqu&#39;un filtre est créé avec des expressions et fonctions complexes dans la console cliente, il ne peut pas être édité dans l&#39;interface Web.
+
+En outre, les opérateurs suivants ne sont pas pris en charge :
+
+* Type numérique
+   * est compris dans
+   * no dans
+
+* Type de chaîne
+   * supérieur à
+   * inférieur à
+   * supérieur ou égal à
+   * inférieur ou égal à
+   * comme
+   * pas comme
+
+* Type de date
+   * après ou égal à
+   * avant ou égal à
+   * n’est pas égal à
+   * est vide
+   * n&#39;est pas vide
+   * est compris dans
+   * n&#39;est pas compris dans
+   * in last
+
+* Liens 1-N
+   * COMPTAGE, SOMME, AVG, MIN, MAX
