@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '491'
 ht-degree: 82%
 
 ---
@@ -27,9 +27,9 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 >* [Créer une diffusion push autonome](../../push/create-push.md)
 >
 
-## Créer une diffusion dans un workflow de campagne{#create-a-delivery-in-a-workflow}
+## Créer une diffusion dans un workflow{#create-a-delivery-in-a-workflow}
 
-Pour créer un email, un SMS ou une diffusion push dans le cadre d&#39;un workflow de campagne, procédez comme suit :
+Pour créer un email, un SMS ou une diffusion push dans le cadre d&#39;un workflow, procédez comme suit :
 
 1. Assurez-vous d’avoir ajouté une activité **Créer une audience**. L’audience est la cible principale de votre diffusion : il s’agit des destinataires qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**. Consultez [cette section](build-audience.md).
 
@@ -56,7 +56,7 @@ Pour créer un email, un SMS ou une diffusion push dans le cadre d&#39;un workfl
 
 1. Dans le tableau de bord de la diffusion, cliquez sur **Envoyer**.
 
-## Exemple{#cross-channel-workflow-sample}
+## Exemple {#cross-channel-workflow-sample}
 
 Voici un exemple de workflow cross-canal avec une segmentation et deux diffusions. Le workflow cible la clientèle qui vit à Paris et qui s’intéresse aux machines à café. Parmi cette population, un e-mail est envoyé à la clientèle régulière, et un SMS est envoyé à la clientèle VIP.
 

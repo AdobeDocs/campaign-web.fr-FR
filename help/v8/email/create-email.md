@@ -4,7 +4,7 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 90%
@@ -37,7 +37,7 @@ Basé sur un modèle de conception prédéfini, l’e-mail propose également du
 >title="Propriétés de l’e-mail"
 >abstract="Les propriétés sont les paramètres de diffusion courants qui vous permettent de nommer et de classer votre diffusion. Si votre diffusion est basée sur un schéma étendu défini dans la console Adobe Campaign v8, des champs spécifiques d’**Options personnalisées** sont disponibles."
 
-Vous pouvez créer une diffusion email autonome ou créer un email dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous détaillent la procédure pour une diffusion d’email autonome (ponctuelle). Si vous travaillez dans le cadre d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Vous pouvez créer une diffusion email autonome ou créer un email dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous détaillent la procédure pour une diffusion d’email autonome (ponctuelle). Si vous travaillez dans le contexte d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 Pour créer une diffusion email autonome, procédez comme suit :
 

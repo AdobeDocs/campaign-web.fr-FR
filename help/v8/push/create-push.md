@@ -3,7 +3,7 @@ audience: end-user
 title: Créer une diffusion notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 77%
@@ -27,7 +27,7 @@ ht-degree: 77%
 >title="Propriétés de diffusion par notification push"
 >abstract="Gérez les propriétés de la diffusion par notification push."
 
-Vous pouvez créer une diffusion de notification push autonome ou créer une notification push dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous détaillent la procédure pour une diffusion push autonome (ponctuelle). Si vous travaillez dans le cadre d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Vous pouvez créer une diffusion de notification push autonome ou créer une notification push dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous détaillent la procédure pour une diffusion push autonome (ponctuelle). Si vous travaillez dans le contexte d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 Pour créer une diffusion push autonome, procédez comme suit :
