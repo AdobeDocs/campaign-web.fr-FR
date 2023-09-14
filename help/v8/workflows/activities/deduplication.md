@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 33%
+source-wordcount: '281'
+ht-degree: 27%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 33%
 >title="Branchement  activité"
 >abstract="L&#39;activité Déduplication permet de..."
 
-L&#39;activité Déduplication permet de supprimer les doublons dans le ou les résultats des activités entrantes.
-
-L&#39;activité Déduplication est généralement utilisée à la suite des activités de ciblage et avant les activités permettant l&#39;utilisation des données ciblées.
+La variable **Déduplication** est une activité **Ciblage** activité. Cette activité permet de supprimer les doublons dans le ou les résultats des activités entrantes. La variable **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant l&#39;utilisation des données ciblées.
 
 ## Configuration
 
 Pour configurer la variable **Planificateur** activité :
 
 1. Ajouter un **Déduplication** à votre workflow.
+
+   <!--![](../assets/workflow-deduplication.png)-->
 
 1. Dans le **Champs permettant d’identifier des doublons** , cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d&#39;identifier les doublons : adresse email, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
 
@@ -48,3 +48,6 @@ Pour configurer la variable **Planificateur** activité :
    * **Par ordonnancement de valeurs** : permet de définir un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attribut** pour sélectionner un champ ou créer une expression, ajoutez la ou les valeurs dans le tableau correspondant. Cliquez sur le bouton Ajouter situé au-dessus de la liste des valeurs pour définir un nouveau champ. ++ Tri
 
 1. Vérifiez les **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l&#39;activité.
+
+## Exemple
+
