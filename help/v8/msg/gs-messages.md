@@ -4,10 +4,10 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 89%
+source-wordcount: '1289'
+ht-degree: 88%
 
 ---
 
@@ -88,11 +88,10 @@ Pour créer une diffusion autonome, procédez comme suit :
 1. Vérifiez les résultats, puis cliquez sur le bouton **[!UICONTROL Envoyer]** pour commencer à envoyer des messages.
 1. Une fois les messages envoyés, rendez-vous dans la section **Rapports** pour accéder aux mesures clés. Pour en savoir plus sur les rapports de diffusion, consultez [cette section](../reporting/delivery-reports.md).
 
->[!TAB Créer une diffusion dans un workflow de campagne]
+>[!TAB Créer une diffusion dans un workflow]
 
-Pour créer une diffusion dans une campagne, procédez comme suit :
+Pour créer une diffusion dans un workflow, procédez comme suit :
 
-1. Créez une campagne ou ouvrez une campagne existante. Découvrez les [campagnes marketing](../campaigns/gs-campaigns.md).
 1. Créez un workflow ou ouvrez un workflow existant.
 1. Ajoutez et configurez une activité **[!UICONTROL Créer une audience]**, puis cliquez sur le bouton `+`.
 
@@ -100,7 +99,7 @@ Pour créer une diffusion dans une campagne, procédez comme suit :
 
    L’activité **[!UICONTROL Créer une audience]** est présentée dans [cette section](../workflows/activities/build-audience.md).
 
-1. Sélectionnez une activité de diffusion : **[!UICONTROL e-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL notification push (Android)]** ou **[!UICONTROL notification push (iOS)]**. Découvrez les activités de canal de diffusion dans un workflow et comment définir un contenu de diffusion dans cette [section](../workflows/activities/about-activities.md#channel).
+1. Sélectionnez une activité de diffusion : **[!UICONTROL e-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL notification push (Android)]** ou **[!UICONTROL notification push (iOS)]**. Découvrez les activités de canal de diffusion dans un workflow et comment définir un contenu de diffusion dans cette [section](../workflows/activities/channels.md).
 1. Démarrez le workflow et vérifiez les logs.
 
 Vous pouvez également ajouter des diffusions dans une campagne sans créer de workflow. Pour ce faire, accédez à l’onglet **[!UICONTROL Diffusions]** de votre campagne, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
