@@ -1,37 +1,35 @@
 ---
 audience: end-user
-title: Utiliser l’activité de workflow Branchement
-description: Découvrez comment utiliser l’activité de workflow Branchement.
+title: Utilisation de l’activité de workflow Changement de dimension
+description: Découvrez comment utiliser l’activité de workflow Changement de dimension
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 39%
 
 ---
 
 
-# Branchement {#fork}
+# Changement de dimension {#change-dimension}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_fork_transitions"
->title="Branchement  activité"
->abstract="L’activité Branchement permet de créer des transitions sortantes afin de démarrer plusieurs activités en parallèle."
+>id="acw_orchestration_dimension_complement"
+>title="Changement de dimension activité"
+>abstract="L&#39;activité Changement de dimension permet de..."
+
+La variable **Changement de dimension** est une activité **Ciblage** activité. Cette activité vous permet de modifier la dimension de ciblage à mesure que vous créez une audience. Cette activité déplace l’axe en fonction du modèle de données et de la dimension d’entrée. Par exemple, vous pouvez passer de la dimension &quot;contrats&quot; à la dimension &quot;clients&quot;.
+
+Vous pouvez également utiliser cette activité pour définir les colonnes supplémentaires de la nouvelle cible et définir les critères de déduplication des données.
 
 ## Configuration
 
-Pour configurer l’activité **Branchement**, procédez comme suit :
+Pour configurer la variable **changer de dimension** activité :
 
-1. Ajoutez une activité **Branchement** à votre workflow.
-1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
-1. Ajoutez un libellé à chacune de vos transitions.
+1. Ajouter un **Changement de dimension** à votre workflow.
 
-## Exemple
+       &lt;!— ![](../assets/workflow-change-dimension.png)—>
+   
+1. Sélectionnez la nouvelle dimension de ciblage à partir du champ Changement de dimension.
 
-Dans l’exemple suivant, nous utilisons deux activités **Branchement** :
-
-* Une avant les deux requêtes, pour les exécuter en même temps.
-* Une après l’intersection, pour envoyer simultanément un e-mail et un SMS à la population ciblée.
-
-![](../assets/workflow-fork-example.png)
-
+Rien d&#39;autre??
