@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation de l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '333'
 ht-degree: 37%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 37%
 
 # Planificateur {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Activité Planificateur"
->abstract="L&#39;activité Planificateur permet..."
+>title="Scheduler activity"
+>abstract="The Scheduler activity allows you..."
+-->
 
 La variable **Planificateur** est une activité **Contrôle de flux** activité. Il permet de planifier le démarrage du workflow. Cette activité doit être considérée comme un début planifié. Il ne peut être utilisé que comme première activité du workflow.
 

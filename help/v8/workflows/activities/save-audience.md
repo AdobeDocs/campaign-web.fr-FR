@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation de l’activité de workflow Sauvegarde d’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Beta"
-source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '323'
 ht-degree: 17%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 17%
 
 # Sauvegarde d&#39;audience {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
->title="Sauvegarde d&#39;audience activité"
->abstract="L&#39;activité Sauvegarde d&#39;audience permet de..."
+>title="Save audience activity"
+>abstract="The Save audience activity allows you to..."
+-->
 
 La variable **Sauvegarde d’audience** est une activité **Ciblage** activité. Cette activité permet de mettre à jour une audience existante ou de créer une nouvelle audience à partir de la population calculée en amont dans un workflow. Les audiences créées sont ajoutées à la liste des audiences de l&#39;application et mises à disposition via le **Audiences** .
 
