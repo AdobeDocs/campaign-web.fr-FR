@@ -3,9 +3,9 @@ audience: end-user
 title: Création d'audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
+source-git-commit: 1b17dcbdaadcbf45b2c26d9099e6d139143d253c
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 1%
 Campaign Web vous permet de créer des workflows dans lesquels vous pouvez combiner des audiences existantes dans une zone de travail visuelle. En intégrant diverses activités de workflow, telles que Partage ou Exclusion, vous pouvez générer de nouvelles audiences affinées.
 
 Une fois que vous avez conçu votre workflow, les audiences résultantes sont automatiquement stockées dans Campaign Web à côté de vos audiences existantes. Ces audiences peuvent ensuite être ciblées dans des campagnes ou des diffusions autonomes.
-
-## Créer votre première audience {#create}
 
 Pour créer une audience, procédez comme suit :
 
