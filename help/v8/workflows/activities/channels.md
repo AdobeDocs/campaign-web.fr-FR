@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '493'
 ht-degree: 82%
 
 ---
@@ -22,7 +22,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 >[!NOTE]
 >
 >Vous pouvez également créer une diffusion ponctuelle, en dehors du contexte d&#39;un workflow de campagne. En savoir plus dans ces sections :
->* [Créer une diffusion email autonome](../../email/create-email.md
+>* [Créer une diffusion email autonome](../../email/create-email.md)
 >* [Créer une diffusion SMS autonome](../../sms/create-sms.md)
 >* [Créer une diffusion push autonome](../../push/create-push.md)
 >
