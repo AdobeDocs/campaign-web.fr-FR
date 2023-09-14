@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow Changement de dimension
 description: Découvrez comment utiliser l’activité de workflow Changement de dimension
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 39%
@@ -28,7 +28,7 @@ Pour configurer la variable **changer de dimension** activité :
 
 1. Ajouter un **Changement de dimension** à votre workflow.
 
-       &lt;!— ![](../assets/workflow-change-dimension.png)—>
+       ![](../assets/workflow-change-dimension.png)
    
 1. Sélectionnez la nouvelle dimension de ciblage à partir du champ Changement de dimension.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 37%
@@ -30,7 +30,7 @@ Pour configurer la variable **Planificateur** activité :
 
 1. Ajouter un **Planificateur** à votre workflow.
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. Configurez la variable **Fréquence d&#39;exécution**:
 
@@ -58,7 +58,7 @@ Pour configurer la variable **Planificateur** activité :
 
 Dans l&#39;exemple suivant, l&#39;activité est paramétrée de sorte que le workflow démarre plusieurs fois par jour à 9h00 et 12h00, tous les jours de la semaine du 1er octobre 2023 au 1er janvier 2024.
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 
