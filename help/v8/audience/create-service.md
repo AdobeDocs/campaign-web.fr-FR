@@ -1,40 +1,42 @@
 ---
 audience: end-user
-title: Création de services
+title: Utilisation des services d’abonnement
 description: Découvrez comment créer des services dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 29%
+source-wordcount: '219'
+ht-degree: 10%
 
 ---
 
 
-# Création de services {#create-services}
+# Utilisation des services d’abonnement {#create-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Ce service est en lecture seule."
 >abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce service. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
-Utilisez Adobe Campaign pour créer et surveiller vos services d’information tels que les newsletters et pour vérifier les abonnements/désabonnements à ces services.
+Utilisez Adobe Campaign pour créer et surveiller vos services, tels que les newsletters, et pour vérifier les abonnements/désabonnements à ces services. Les abonnements ne s&#39;appliquent qu&#39;aux diffusions email et SMS.
 
-Plusieurs services peuvent être définis en parallèle, par exemple : des newsletters spécialisées pour certaines catégories de produits, certains thèmes ou des zones particulières d’un site Web, des abonnements à divers types de messages d’alerte et des notifications en temps réel.
+Plusieurs services peuvent être définis en parallèle, par exemple : newsletters pour des catégories de produits spécifiques, des thèmes ou des zones d’un site web, abonnements à différents types de messages d’alerte et notifications en temps réel.
 
 Pour en savoir plus sur la gestion des abonnements et des désabonnements, consultez la section [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Accès aux services d’abonnement {#access-services}
 
-1. Accédez à **[!UICONTROL Gestion des accès]** > **[!UICONTROL Services d’inscriptions]** .
+Pour accéder aux services d’abonnement disponibles pour votre plateforme, accédez au **[!UICONTROL Services d’inscriptions]** sur le rail de navigation de gauche.
 
-   ![](assets/service-list.png)
+![](assets/service-list.png)
 
-1. La liste de tous les services créés jusqu&#39;à présent s&#39;affiche. Vous pouvez effectuer des recherches dans les services et filtrer par canal, par dossier ou utiliser des filtres avancés.
+La liste de tous les services d&#39;abonnement existants s&#39;affiche. Vous pouvez effectuer des recherches dans les services et filtrer par canal, par dossier ou utiliser des filtres avancés.
 
-   ![](assets/service-filters.png)
+![](assets/service-filters.png)
 
-## Créer votre premier service {#create-service}
+## Créer votre premier service d’abonnement {#create-service}
+
+Pour créer un service d&#39;abonnement, procédez comme suit :
 
 1. Sélectionnez la variable **[!UICONTROL Créer un service d’abonnement]** bouton .
 

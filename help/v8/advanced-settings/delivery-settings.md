@@ -1,26 +1,29 @@
 ---
 audience: end-user
-title: Paramètres de diffusion d’e-mail
-description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
+title: Paramètres de diffusion
+description: En savoir plus sur les paramètres de diffusion dans Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2094'
 ht-degree: 71%
 
 ---
 
 
-# Paramètres de diffusion d’e-mail {#email-del-settings}
+# Paramètres de diffusion {#email-del-settings}
 
-Ces paramètres sont des **paramètres de diffusion techniques** définis dans le modèle d’e-mail. Ils sont disponibles à partir de l’icône **Configurer les paramètres de diffusion** disponible lors de la modification de la diffusion d’un e-mail.
+Les paramètres de diffusion des emails sont **paramètres de diffusion technique** qui sont définis dans le modèle d’email. Elles peuvent être surchargées pour chaque diffusion.
+
+Ces paramètres sont disponibles à partir du **Configuration des paramètres de diffusion** icône disponible lors de l&#39;édition d&#39;une diffusion email ou d&#39;un modèle de diffusion email.
+
 
 ## Paramètres de diffusion d’e-mail {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> Ces paramètres sont décrits uniquement à titre d’information. Certains dépendent de votre configuration et de vos autorisations. Ils ne doivent pas être modifiées dans cette version du produit.
+>Ces paramètres sont décrits uniquement à titre d’information. Certains dépendent de votre configuration et de vos autorisations. Ils ne doivent pas être modifiées dans cette version du produit.
 
 ## Paramètres de typologie {#typology}
 
@@ -56,6 +59,11 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 >abstract="Le poids des diffusions permet d&#39;identifier les diffusions prioritaires dans le cadre de la gestion de la fatigue. Les messages dont le poids est le plus élevé sont prioritaires."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="Poids de la diffusion"
+>abstract="Les poids de chaque diffusion permettent d’identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
+
 Dans cette section, les paramètres de pression permettent de définir une **seuil** pour configurer des règles de gestion de la fatigue. Il s’agit du nombre maximum de messages qui peuvent être envoyés à un profil sur une période donnée. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
 
 La valeur de ce seuil peut être constante ou variable. Pour une même période, le seuil peut donc varier d&#39;un profil à l&#39;autre, et même pour un même profil.
@@ -83,6 +91,13 @@ La gestion de la fatigue est comprise dans le module complémentaire **Optimisat
 >id="acw_email_settings_capacity_settings"
 >title="Paramètres de capacité pour la diffusion"
 >abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter la diffusion, les messages entrants que la diffusion peut générer et le nombre d&#39;appels à passer pour contacter les abonnés, par exemple. Les règles de capacité sont définies dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal email."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="Importance du destinataire"
+>abstract="L’importance du destinataire est une formule utilisée pour déterminer les destinataires qui sont conservés lorsque les règles de typologie de capacité sont dépassées."
+
 
 Dans cette section, vous pouvez sélectionner une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal e-mail.
 
@@ -136,7 +151,12 @@ En savoir plus sur Web Analytics et Campaign dans [Documentation de Campaign v8 
 
 ### Reprises {#retries}
 
-<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="Nombre maximal de reprises"
+>abstract="Si un message est en échec en raison d’une erreur temporaire, les reprises sont effectuées jusqu’à la fin de la durée de diffusion."
+
+Les messages temporairement non diffusés en raison d’une erreur Soft ou Ignoré font l’objet d’une nouvelle tentative automatique. Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec un intervalle minimum d’une heure, réparties sur les 24h de la journée.
 
 En savoir plus sur la gestion des reprises dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
@@ -145,7 +165,13 @@ En savoir plus sur la gestion des reprises dans [Documentation de Campaign v8 (c
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Mode de validation de la diffusion"
->abstract="Sélectionnez le mode de validation. Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non. "
+>abstract="Sélectionnez le mode de validation. Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="Mode de validation des diffusions"
+>abstract="Sélectionnez le mode de validation des diffusions à partir de ce modèle. Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non."
 
 Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non. Par défaut, l’utilisateur ou l’utilisatrice doit confirmer l’envoi des messages à la fin de la phase d’analyse : il s’agit d’une validation **manuelle**.
 
@@ -165,6 +191,18 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 >title="Validité des paramètres"
 >abstract="Le champ « Durée de diffusion » permet de saisir la limite pour les reprises globales de diffusion. Cela signifie qu’Adobe Campaign envoie les messages à partir de la date de début, puis, pour les messages renvoyant une erreur uniquement, des reprises régulières et paramétrables sont effectuées jusqu’à ce que la limite de validité soit atteinte. Le champ « Limite de validité » est utilisé pour les ressources chargées, telles que la page miroir ou les images. Ces ressources sont valides pour une durée limitée. Une fois la limite atteinte, elles ne sont plus disponibles."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="Limite de validité des ressources"
+>abstract="Le champ Limite de validité est utilisé pour les ressources téléchargées, comme la page miroir ou les images. Ces ressources sont valides pour une durée limitée. Une fois la limite atteinte, elles ne sont plus disponibles."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="Durée de diffusion"
+>abstract="Le champ Durée de diffusion permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de validité n’est pas atteinte."
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -203,6 +241,15 @@ Outre le mode par défaut, les options disponibles sont les suivantes :
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="Période de validité"
+>abstract="La période de validité définit la durée d&#39;activation du tracking sur les URL des messages."
+
 
 Les paramètres de tracking sont définis dans la section correspondante. Les options possibles sont les suivantes :
 

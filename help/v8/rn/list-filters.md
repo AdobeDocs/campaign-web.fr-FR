@@ -4,10 +4,10 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont 
 * L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu**.
 * Les listes sont désormais des **audiences**.
 
-## Limites{#limitations-alpha}
+## Limites{#limitations-beta}
 
-Les restrictions ci-dessous s’appliquent à cette version Alpha :
+Les restrictions ci-dessous s’appliquent à cette version bêta :
 
 * Les seuls objets modifiables sont les diffusions, les campagnes, les workflows, les audiences et les modèles. Les autres sont en lecture seule. Utilisez des filtres pour tous les parcourir.
 * Les audiences ne peuvent pas être enregistrées pour une utilisation ultérieure.

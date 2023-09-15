@@ -6,14 +6,20 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '984'
 ht-degree: 93%
 
 ---
 
 # Utiliser des modèles de diffusion {#work-with-delivery-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Modèles de diffusion"
+>abstract="Utilisez les modèles de diffusion pour normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes"
+
 
 Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles de diffusion afin de réutiliser facilement du contenu et des paramètres personnalisés dans vos campagnes. Cette fonctionnalité vous permet de normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes.
 

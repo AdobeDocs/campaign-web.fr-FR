@@ -4,7 +4,7 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 90%
@@ -32,7 +32,7 @@ Si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas dispo
 
 >[!NOTE]
 >
->Campaign v8 Web est actuellement en version Alpha. L’accès est limité à un petit groupe de clients et clientes Alpha. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
+>Le Web de Campaign v8 est actuellement en version bêta. L’accès est limité à un petit groupe de clients bêta. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
 ## Se connecter à Campaign
 
@@ -58,4 +58,4 @@ Les données de Campaign sont stockées dans le serveur d’applications. Les do
 
 Certains objets ne peuvent être créés et gérés que dans la console cliente. Ils peuvent être visibles et utilisés dans l’interface utilisateur de Campaign Web, mais ne peuvent pas être créés ni modifiés à partir de cet environnement. Tous les objets et composants de Campaign sont disponibles dans la vue Explorateur, à partir du volet de navigation de gauche.
 
-Pour plus d&#39;informations sur l&#39;utilisation de Campaign v8, voir [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur l’utilisation de Campaign v8, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.

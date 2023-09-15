@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion par e-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 99%
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 
    * **[!UICONTROL Domaine invalide]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse e-mail est erroné ou n&#39;existe plus.
 
-   * **[!UICONTROL Boîte pleine]** : type d’erreur générée, après cinq tentatives d’envoi d’une diffusion, indiquant que la boîte de réception des destinataires contient trop de messages.
+   * **[!UICONTROL Boîte pleine]**: Type d&#39;erreur généré après cinq tentatives de diffusion pour indiquer que la boîte de réception du destinataire contient trop de messages.
 
    * **[!UICONTROL Compte désactivé]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
 
@@ -63,7 +63,7 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 
    * **[!UICONTROL Inatteignable]** : type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
 
-   * **[!UICONTROL Non connecté]** : type d’erreur indiquant que le téléphone mobile du ou de la destinataire est éteint ou n’est pas connecté au réseau au moment de l’envoi du message.
+   * **[!UICONTROL Non connecté]** : Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou n&#39;est pas connecté au réseau au moment de l&#39;envoi du message.
 
 +++
 
@@ -83,9 +83,9 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
    * **[!UICONTROL Diffusés]** : pourcentage du nombre de messages traités avec succès, par rapport au nombre total de messages traités.
 
-   * **[!UICONTROL Erreurs hard]** : pourcentage du nombre d’erreurs « hard », des erreurs permantentes telles qu’une mauvaise adresse e-mail, par rapport au nombre total de messages traités.
+   * **[!UICONTROL Hard bounces]**: Pourcentage du nombre de &quot;hard&quot; bounces, d&#39;erreurs permanentes, telles qu&#39;une mauvaise adresse email, par rapport au nombre total de messages traités.
 
-   * **[!UICONTROL Erreurs soft]** : pourcentage du nombre d’erreurs « soft », des erreurs temporaires telles qu’une boîte de réception pleine, par rapport au nombre total de messages traités.
+   * **[!UICONTROL Soft bounces]**: pourcentage du nombre de soft bounces, des erreurs temporaires telles qu&#39;une boîte de réception pleine, par rapport au nombre total de messages traités
 
    * **[!UICONTROL Ouvertures]** : pourcentage du nombre de destinataires ciblé(e)s ayant ouvert un message au moins une fois, par rapport au nombre de messages traités avec succès.
 
@@ -98,7 +98,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 * Les tableaux et graphes **[!UICONTROL Répartition des erreurs par type]** et **[!UICONTROL Répartition des erreurs par domaine]** contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 
-  Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d&#39;informations sur la gestion des quarantaines, voir [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
+  Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 
@@ -108,7 +108,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
    * **[!UICONTROL Domaine invalide]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse e-mail est erroné ou n&#39;existe plus.
 
-   * **[!UICONTROL Boîte pleine]** : type d’erreur générée, après cinq tentatives d’envoi d’une diffusion, indiquant que la boîte de réception des destinataires contient trop de messages.
+   * **[!UICONTROL Boîte pleine]**: Type d&#39;erreur généré après cinq tentatives de diffusion pour indiquer que la boîte de réception du destinataire contient trop de messages.
 
    * **[!UICONTROL Compte désactivé]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
 
@@ -116,11 +116,13 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
    * **[!UICONTROL Inatteignable]** : type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
 
-   * **[!UICONTROL Non connecté]** : type d’erreur indiquant que le téléphone portable des destinataires est éteint ou n’est pas connecté au réseau au moment de l’envoi du message.
+   * **[!UICONTROL Non connecté]** : Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou n&#39;est pas connecté au réseau au moment de l&#39;envoi du message.
 
 +++
 
 ## Indicateurs de tracking {#tracking-indicators-email}
+
+
 
 * Les **[!UICONTROL statistiques de diffusion]** fournissent des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les données disponibles pour les e-mails envoyés.
 
@@ -207,6 +209,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 +++
 
 ## Statistiques de tracking {#tracking-statistics}
+
 
 * Le graphe **[!UICONTROL Statistiques de tracking]** fournit des statistiques sur les ouvertures et les clics. Vous avez la possibilité de sélectionner la période spécifique pour les données de ciblage.
 
