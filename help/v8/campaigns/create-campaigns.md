@@ -4,7 +4,7 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
+source-git-commit: ef459ca97bbe327128d790f77029521ed12cc6c9
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 58%
@@ -77,11 +77,6 @@ Une fois la date atteinte, les diffusions créées dans cette opération dans le
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Workflow list"
->abstract="List of workflows available for your campaign. Use the 'Create workflow' button to add a workflow in your campaign."
 
 In a cross-channel campaign, a single marketing communication uses different channels. Data is passed between the channels. The customer receives communication through multiple channels based on, for example, their interaction with the previous communication.
 
