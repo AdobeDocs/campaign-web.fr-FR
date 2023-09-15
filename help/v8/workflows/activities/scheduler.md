@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur
 badge: label="Beta"
-source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 34%
+source-wordcount: '435'
+ht-degree: 29%
 
 ---
 
@@ -24,7 +24,9 @@ La variable **Planificateur** est une activité **Contrôle de flux** activité.
 
 ## Bonnes pratiques
 
-Ne planifiez pas l’exécution d’un workflow à une fréquence supérieure à toutes les 15 minutes, car cela peut nuire aux performances générales du système et créer des blocs dans la base de données.
+* Ne planifiez pas l’exécution d’un workflow à une fréquence supérieure à toutes les 15 minutes, car cela peut nuire aux performances générales du système et créer des blocs dans la base de données.
+* Si vous souhaitez envoyer une diffusion ponctuelle dans votre workflow, vous pouvez ajouter une activité Planificateur et la configurer pour qu’elle s’exécute. **Une fois**. Vous pouvez également définir **Planification** dans les paramètres de la diffusion.
+* Si vous souhaitez envoyer une diffusion récurrente dans votre workflow, vous devez utiliser une **Planificateur** et définissez la fréquence d&#39;exécution. L&#39;activité de diffusion récurrente ne permet pas de définir de planning.
 
 ## Configuration
 
@@ -65,7 +67,7 @@ Notes:
 
 ## Exemple
 
-Dans l&#39;exemple suivant, l&#39;activité est paramétrée de sorte que le workflow démarre plusieurs fois par jour à 9h00 et 12h00, tous les jours de la semaine du 1er octobre 2023 au 1er janvier 2024.
+Dans l’exemple suivant, l’activité est configurée de sorte que le workflow s’exécute plusieurs fois par jour à 9h00 et 12h00, tous les jours de la semaine du 1er octobre 2023 au 1er janvier 2024.
 
 ![](../assets/workflow-scheduler2.png)
 
