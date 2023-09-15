@@ -4,10 +4,10 @@ title: Paramètres de diffusion d’e-mail
 description: En savoir plus sur les paramètres de diffusion d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 77%
+source-wordcount: '1829'
+ht-degree: 71%
 
 ---
 
@@ -22,18 +22,18 @@ Ces paramètres sont des **paramètres de diffusion techniques** définis dans l
 >
 > Ces paramètres sont décrits uniquement à titre d’information. Certains dépendent de votre configuration et de vos autorisations. Ils ne doivent pas être modifiées dans cette version du produit.
 
-## Typologie {#typology}
+## Paramètres de typologie {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Les règles de typologie permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
+>abstract="Typologie les règles permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Typologie"
->abstract="Typologie les règles permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
+>title="Paramètres de typologie de la diffusion"
+>abstract="Les règles de typologie permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
 
 Les typologies sont des ensembles de **règles de typologie**, qui sont exécutés pendant la phase de préparation. Les règles de typologie permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation de la diffusion.  Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clients et clientes désabonnés, les concurrents et les client(e)s ne faisant pas partie du programme de fidélité).
@@ -52,7 +52,7 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Paramètres de pression"
+>title="Paramètres de pression pour la diffusion"
 >abstract="Le poids des diffusions permet d&#39;identifier les diffusions prioritaires dans le cadre de la gestion de la fatigue. Les messages dont le poids est le plus élevé sont prioritaires."
 
 
@@ -81,7 +81,7 @@ La gestion de la fatigue est comprise dans le module complémentaire **Optimisat
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Paramètres de capacité"
+>title="Paramètres de capacité pour la diffusion"
 >abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter la diffusion, les messages entrants que la diffusion peut générer et le nombre d&#39;appels à passer pour contacter les abonnés, par exemple. Les règles de capacité sont définies dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal email."
 
 Dans cette section, vous pouvez sélectionner une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal e-mail.
@@ -91,7 +91,14 @@ Le champ **Importance du destinataire** est une formule utilisée pour détermin
 En savoir plus sur les règles de cohérence et de capacité et comment les configurer dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=fr){target="_blank"}.
 
 
-## Audience {#audience}
+## Paramètres de l’audience {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Paramètres d’audience pour la diffusion"
+>abstract="Sélectionnez une **mapping de ciblage** parmi celles disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Vous pouvez également définir les paramètres d&#39;exclusion de la diffusion. "
+
 
 Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8.
 
@@ -101,7 +108,7 @@ En savoir plus sur les mappings de ciblage dans [Documentation de Campaign v8 (c
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Diffusion Paramètres"
+>title="Paramètres de diffusion pour la diffusion"
 >abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez activer Cci pour la diffusion et modifier les modes de diffusion et de routine. Ces options sont limitées aux utilisateurs experts uniquement."
 
 Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion.
@@ -112,6 +119,19 @@ Les paramètres de diffusion sont des paramètres techniques qui s’appliquent 
 
 * **E-mail Cci** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible de vos messages. En savoir plus sur la fonctionnalité Email Cci dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
+### Web Analytics {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Paramètres des analyses web pour la diffusion"
+>abstract="Sélectionnez un compte Web Analytics. Ce compte est paramétré dans la console cliente Campaign. Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez."
+
+Dans cette section, vous pouvez sélectionner un compte Web Analytics. Ce compte est paramétré dans la console cliente Campaign.
+
+Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez.
+
+En savoir plus sur Web Analytics et Campaign dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
 
 ### Reprises {#retries}
@@ -122,12 +142,10 @@ En savoir plus sur la gestion des reprises dans [Documentation de Campaign v8 (c
 
 ## Approbation {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="Mode de validation de la diffusion"
+>abstract="Sélectionnez le mode de validation. Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non. "
 
 Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non. Par défaut, l’utilisateur ou l’utilisatrice doit confirmer l’envoi des messages à la fin de la phase d’analyse : il s’agit d’une validation **manuelle**.
 
@@ -193,6 +211,11 @@ Les paramètres de tracking sont définis dans la section correspondante. Les op
 **URL de substitution des URL périmées** : utilisez cette option pour renseigner une URL vers une page web de secours. Elle s’affiche après expiration du tracking.
 
 ## Paramètres de test {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Paramètres de test de la diffusion"
+>abstract="Sélectionnez les paramètres d&#39;exclusion et personnalisez le libellé des emails de test."
 
 Vous pouvez définir les paramètres d’exclusion dans cette section. Les options disponibles sont les suivantes :
 

@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 88%
+source-wordcount: '1661'
+ht-degree: 86%
 
 ---
 
@@ -60,7 +60,11 @@ Pour plus d’informations sur l’explorateur Campaign, la hiérarchie des doss
 
 ### Aide contextuelle {#user-interface-help}
 
-Posez des questions et trouvez des conseils directement dans l’interface utilisateur du produit. Le nouvel assistant de connaissances optimisé par l’IA, intégré dans les fenêtres d’aide contextuelle, vous aide à découvrir et à développer votre expertise sur les nouvelles fonctionnalités de Campaign. Basé sur la documentation la plus récente du produit, il vous aide à trouver de l’aide et à obtenir des conseils détaillés instantanément, au fur et à mesure que vous créez vos cas d’utilisation.
+La variable **Assistant de connaissances avec Gen AI** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
+
+Grâce aux fonctionnalités de Campaign Gen AI, cet assistant transforme votre expérience, en faisant de la récupération d&#39;informations et de la résolution de problèmes une brise. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances avec Gen AI est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
+
+En savoir plus dans [cette section](using-ai.md).
 
 
 ### Campaign Management {#user-interface-campaign-management}
@@ -244,10 +248,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Workflows-->
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Liste des workflows"
->abstract="Liste des workflows disponibles pour votre campagne. Utilisez le bouton « Créer un workflow » pour ajouter un workflow à votre campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
@@ -311,10 +311,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Suivi des rapports globaux"
 >abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_delivery_list"
->title="Liste de diffusion dans une campagne"
->abstract="Liste de diffusion dans une campagne"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
@@ -323,25 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery settings-->
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_audience"
->title="Audience des paramètres de diffusion"
->abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_approval"
->title="Approbation des paramètres de diffusion"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_testsettings"
->title="Paramètres de test des paramètres de diffusion"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_webanalytics"
->title="Analyse web des paramètres de diffusion"
->abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"

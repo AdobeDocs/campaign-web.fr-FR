@@ -4,9 +4,9 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer un workflow avec Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '736'
 ht-degree: 8%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 8%
 >id="acw_workflow_creation_properties"
 >title="Propriétés de workflow "
 >abstract="Dans cet écran, choisissez le modèle à utiliser pour créer le workflow et indiquez un libellé. Développez la section OPTIONS SUPPLÉMENTAIRES pour configurer d’autres paramètres tels que le nom interne du workflow, son dossier, son fuseau horaire et le groupe de superviseurs. Il est vivement recommandé de sélectionner un groupe de superviseurs afin d&#39;alerter les opérateurs en cas d&#39;erreur."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Liste des workflows de l&#39;opération"
+>abstract="La variable **Diffusions** répertorie tous les workflows liés à l&#39;opération en cours. Cliquez sur le nom d&#39;un workflow pour l&#39;éditer. Utilisez le bouton Créer un workflow pour ajouter un nouveau workflow pour cette campagne."
+
 
 Vous pouvez créer des workflows autonomes ou des workflows au sein d’une campagne. La première étape consiste à sélectionner un modèle et à définir ses propriétés générales. Vous pouvez ensuite configurer d’autres paramètres si nécessaire.
 
@@ -63,8 +70,8 @@ Pour créer un modèle de workflow à partir d&#39;un workflow existant, procéd
 
 1. Dans la fenêtre contextuelle, validez la création du modèle.
 1. Dans le canevas du modèle de workflow, vérifiez, ajoutez et configurez les activités selon vos besoins.
-1. Accédez aux paramètres pour modifier le nom du modèle de workflow et saisissez une description.
-1. Sélectionnez le dossier et le dossier d’exécution du modèle. Le dossier correspond à l’emplacement où le modèle de workflow est enregistré. Le dossier d’exécution est le dossier dans lequel les workflows créés à partir de ce modèle sont enregistrés.
+1. Accédez aux paramètres, depuis le **Paramètres** pour modifier le nom du modèle de workflow, puis saisissez une description.
+1. Sélectionnez la variable **folder** et **dossier d’exécution** du modèle. Le dossier correspond à l’emplacement où le modèle de workflow est enregistré. Le dossier d’exécution est le dossier dans lequel les workflows créés à partir de ce modèle sont enregistrés.
 
    ![](assets/wf-settings-template.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le menu **[!UICONTROL Campagnes]** dans le volet de navigation de gauche.
 
-## La liste des campagnes{#access-campaigns}
+## Liste des campagnes {#access-campaigns}
+
 
 La liste des campagnes comprend deux onglets :
 
@@ -38,7 +39,13 @@ Vous pouvez, par exemple, filtrer selon le planning de votre campagne. Ouvrez le
 
 ![Filtre de campagne](assets/campaign-filter-on-dates.png)
 
-## Le tableau de bord de la campagne{#campaign-dashboard}
+## Tableau de bord de la campagne{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Liste des diffusions de l&#39;opération"
+>abstract="L’onglet **Diffusions** répertorie toutes les diffusions liées à la campagne en cours. Cliquez sur le nom d&#39;une diffusion pour l&#39;éditer. Utilisez le bouton Créer une diffusion pour ajouter une nouvelle diffusion pour cette opération."
 
 Sous l’onglet **Parcourir** de la liste des campagnes, cliquez sur une campagne pour afficher ses détails.
 
