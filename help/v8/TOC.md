@@ -5,9 +5,9 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 18fc6233582fc0bfe0aeb682dfa90ba4f7ce85ce
+source-git-commit: bf2f38b9a484376e21b0b6ac05ac03f4044bd9c8
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '421'
 ht-degree: 88%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 88%
             + [Importer le contenu des e-mails](content/existing-content.md)
             + [Coder votre propre contenu](content/code-content.md)
             + [Utiliser des modèles de contenu d’e-mail](content/email-sample-templates.md)
+            + [Utiliser des modèles d’e-mails](content/email-templates.md)
          + Concevoir le contenu {#design-content}
             + [Utiliser les composants de contenu](content/content-components.md)
             + [Ajouter des liens et suivre les messages](content/message-tracking.md)
