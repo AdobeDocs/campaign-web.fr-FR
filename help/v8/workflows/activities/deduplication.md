@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 29%
@@ -34,7 +34,7 @@ La variable **Déduplication** est une activité **Ciblage** activité. Cette ac
 
 ## Configuration
 
-Pour configurer la variable **Planificateur** activité :
+Pour configurer la variable **Déduplication** activité :
 
 1. Ajouter un **Déduplication** à votre workflow.
 
