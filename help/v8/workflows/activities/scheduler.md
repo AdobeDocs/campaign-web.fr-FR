@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 27%
+source-wordcount: '499'
+ht-degree: 26%
 
 ---
 
@@ -30,6 +30,10 @@ La variable **Planificateur** est une activité **Contrôle de flux** activité.
 
 ## Configuration
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Validité du planificateur"
+>abstract="Vous pouvez définir une période de validité pour le planificateur. Il peut être permanent ou valide jusqu’à une date spécifique."
 
 Pour configurer la variable **Planificateur** activité :
 
