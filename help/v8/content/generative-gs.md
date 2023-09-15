@@ -3,7 +3,7 @@ audience: end-user
 title: Prise en main de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Cette fonctionnalité permet de gagner du temps et d’assurer une qualité coh�
 <a href="generative-image.md">
 <img alt="Génération d’images" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image"><strong>Génération d’images avec l’assistant de contenu</strong>
+<div><a href="generative-image.md"><strong>Génération d’images avec l’assistant de contenu</strong>
 </div>
 <p>
 </td>
