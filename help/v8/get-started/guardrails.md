@@ -2,9 +2,9 @@
 title: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 description: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 badge: label="Beta"
-source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
+source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 7%
 
 ---
@@ -36,7 +36,18 @@ Le même workflow est accessible dans la console et dans l’interface utilisate
 
 **Boucles**
 
-* Les workflows, y compris les boucles, ne s’affichent pas dans l’interface utilisateur web. Un message d’erreur s’affiche.
+* Les boucles ne sont pas encore disponibles dans l’interface utilisateur web. Si vous avez créé un workflow comprenant une boucle à l’aide de la console, il ne sera pas accessible dans l’interface utilisateur web. Un message d’erreur s’affiche.
+
+<table>
+<tr>
+<th>Console</th>
+<th>Interface utilisateur web</th>
+</tr>
+<tr>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **Réconciliation et enrichissement**
 
