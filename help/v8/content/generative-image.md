@@ -3,9 +3,9 @@ audience: end-user
 title: Génération d’images avec l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Après avoir conçu et personnalisé vos emails, vous pouvez améliorer votre contenu à l’aide de l’assistant de contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu.
 
-Dans l’exemple ci-dessous, comment tirer parti de l’assistant de contenu pour optimiser et améliorer votre contenu, afin d’offrir une expérience plus conviviale. Procédez comme suit :
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant de contenu pour optimiser et améliorer votre contenu, afin d’offrir une expérience plus conviviale. Procédez comme suit :
 
 1. Après avoir créé et configuré votre diffusion Email, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
