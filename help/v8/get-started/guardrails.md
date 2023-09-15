@@ -2,10 +2,10 @@
 title: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 description: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 8%
+source-wordcount: '514'
+ht-degree: 7%
 
 ---
 
@@ -47,10 +47,16 @@ Dans la console cliente Campaign, le **Enrichissement** l’activité peut effec
 
 ## Filtres prédéfinis {#filters-guardrails-limitations}
 
-Lors de la sélection de l&#39;audience d&#39;une diffusion, ou lors de la création d&#39;une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles. Un message d’erreur spécifique s’affiche. Vous pouvez toujours utiliser la requête et voir : la condition de filtrage et les résultats, mais vous ne pouvez pas afficher la requête exacte dans le créateur de règles et ne pouvez pas modifier le filtre.
+Lors de la sélection de l&#39;audience d&#39;une diffusion, ou lors de la création d&#39;une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l&#39;interface utilisateur, dans cette version du produit.
+
+Un message d’erreur spécifique s’affiche. Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le créateur de règles et si vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage et les résultats. Vous pouvez également accéder à la requête SQL pour vérifier les paramètres exacts.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+
+Notez que si vous créez un filtre dans l’interface Web et que vous le modifiez dans la console avec des attributs non pris en charge, la représentation graphique ne peut plus être disponible dans l’interface Web. Dans tous les cas, vous pouvez toujours utiliser le filtre.
+
+Les attributs non pris en charge sont répertoriés ci-dessous.
 
 ### Types de données non pris en charge {#unsupported-data-type}
 
