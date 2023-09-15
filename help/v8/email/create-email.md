@@ -4,7 +4,7 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 883463ef70bfd908ae0ec66863fa61ec2334442b
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 73%
@@ -66,7 +66,7 @@ Pour créer une diffusion email autonome, procédez comme suit.
 
    ![](assets/email-properties.png)
 
-5. De plus, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via la variable **[!UICONTROL Paramètres]** située en haut à droite de l’écran. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique.
+1. De plus, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via la variable **[!UICONTROL Paramètres]** située en haut à droite de l’écran. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique.
 
 ## Définir l’audience {#define-audience}
 
