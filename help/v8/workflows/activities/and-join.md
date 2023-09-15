@@ -3,21 +3,34 @@ audience: end-user
 title: Utiliser l’activité de workflow Rendez-vous
 description: Découvrez comment utiliser l’activité de workflow Rendez-vous.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '232'
+ht-degree: 95%
 
 ---
 
 
 # Rendez-vous {#join}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join"
+>title="Activité AND-join"
+>abstract="L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle vous permet de synchroniser plusieurs branches d’exécution d’un workflow."
+
+
+
 L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle vous permet de synchroniser plusieurs branches d’exécution d’un workflow.
 
 L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées, c’est-à-dire quand toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter le workflow.
 
 ## Configuration
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join_merging"
+>title="Configuration de l’activité Rendez-vous"
+>abstract="Sélectionnez les activités que vous souhaitez rejoindre. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver."
 
 Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 

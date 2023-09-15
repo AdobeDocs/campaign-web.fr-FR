@@ -4,9 +4,9 @@ title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
@@ -46,6 +46,12 @@ Les activités **Canal** suivantes sont disponibles :
 Reportez-vous à cette [section](channels.md).
 
 ## Activités de contrôle de flux {#flow-control}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="Activité Fin"
+>abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative."
 
 Les activités ci-après sont spécifiques à l’organisation et à l’exécution du workflow. Leur principale tâche est de coordonner les autres activités :
 
