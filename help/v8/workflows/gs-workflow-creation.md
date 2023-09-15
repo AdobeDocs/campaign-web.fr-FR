@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 5c4ace1fc8d299048c398fcce14900c797ef6207
+source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 62%
+source-wordcount: '281'
+ht-degree: 57%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 62%
 
 Avec Campaign v8 Web, vous pouvez créer des workflows dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
 
-Les workflows peuvent être créés en tant que workflows autonomes à partir de la **Workflows** ou directement au sein d&#39;une opération, auquel cas le workflow sera associé à l&#39;opération et exécuté avec tous les workflows de l&#39;autre opération.
 
 ## Quels sont les éléments d’un workflow ? {#gs-workflow-inside}
 
@@ -35,6 +34,18 @@ Chaque workflow comprend :
 * **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque workflow utilise plusieurs tables de travail. Les données véhiculées dans ces tables peuvent être utilisées tout au long du cycle de vie du workflow.
 
 ## Étapes clés de création d’un workflow {#gs-workflow-steps}
+
+
+Les campagnes offrent deux manières de créer un workflow :
+
+1. Les workflows peuvent être créés en tant que workflows autonomes à partir de la **Workflows** .
+
+   ![](assets/create-a-standalone-wf.png)
+
+1. Les workflows peuvent être créés directement au sein d&#39;une opération, à partir de la fonction **Workflow** de l&#39;opération. Lorsqu’il est inclus dans une campagne, le workflow est exécuté avec tous les autres workflows de la campagne et les mesures de création de rapports sont toutes regroupées au niveau de la campagne.
+
+   ![](assets/create-a-wf-from-a-campaign.png)
+
 
 Les étapes clés pour créer des workflows sont les suivantes :
 
