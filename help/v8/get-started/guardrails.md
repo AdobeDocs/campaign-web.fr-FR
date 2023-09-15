@@ -2,10 +2,10 @@
 title: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 description: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 8%
+source-wordcount: '586'
+ht-degree: 7%
 
 ---
 
@@ -60,10 +60,21 @@ Le positionnement des noeuds est actualisé chaque fois qu’une activité est a
 
 Lors de la sélection de l&#39;audience d&#39;une diffusion, ou lors de la création d&#39;une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l&#39;interface utilisateur, dans cette version du produit.
 
-Un message d’erreur spécifique s’affiche. Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le créateur de règles et si vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage et les résultats. Vous pouvez également accéder à la requête SQL pour vérifier les paramètres exacts.
+Un message d’erreur spécifique s’affiche.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le créateur de règles et si vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage dans la variable **Attributs** de l’écran.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+Vous pouvez également accéder à la requête SQL pour vérifier les paramètres exacts. Pour ce faire, cliquez sur le bouton **Affichage du code** bouton .
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+Cliquez sur le bouton **Calculer** pour vérifier combien d’éléments correspondent aux critères du filtre. Utilisez la variable **Affichage des résultats** pour afficher ces éléments.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 Notez que si vous créez un filtre dans l’interface Web et que vous le modifiez dans la console avec des attributs non pris en charge, la représentation graphique ne peut plus être disponible dans l’interface Web. Dans tous les cas, vous pouvez toujours utiliser le filtre.
 
