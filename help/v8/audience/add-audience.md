@@ -4,10 +4,10 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 88%
 
 ---
 
@@ -43,6 +43,10 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
    Les audiences sont créées à partir du menu **Audience** de gauche. Elles peuvent également être créées dans la console cliente.
 
    Pour utiliser des audiences Adobe Experience Platform, vous devez configurer l’intégration aux destinations. Consultez la [documentation sur les destinations Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
+
+   >[!IMPORTANT]
+   >
+   >Dans cette version du produit, lors de la création de règles, de la sélection de l’audience d’une diffusion ou de la création d’une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur. Vous pouvez toujours les utiliser. [En savoir plus](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. Choisissez une audience, puis cliquez sur **Sélectionner**.
 1. Utilisez l’icône **Afficher les filtres** pour afficher les options de filtrage. Cliquez sur **Ajouter des règles** pour accéder au créateur de règles : l’utilisation du créateur de règles vous permet de créer des filtres avancés pour la liste des audiences. Découvrez comment utiliser le créateur de règles dans cette [section](segment-builder.md).
