@@ -4,10 +4,10 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 51%
+source-wordcount: '991'
+ht-degree: 49%
 
 ---
 
@@ -102,6 +102,12 @@ Les fonctionnalités clés accompagnant la version bêta web de Campaign sont r�
   Posez des questions et trouvez des conseils directement dans l’interface utilisateur du produit. Le nouvel assistant de connaissances optimisé par l’IA, intégré dans les fenêtres d’aide contextuelle, vous aide à découvrir et à développer votre expertise sur les nouvelles fonctionnalités de Campaign. Basé sur la documentation la plus récente du produit, il vous aide à trouver de l’aide et à obtenir des conseils détaillés instantanément, au fur et à mesure que vous créez vos cas d’utilisation.
 
   En savoir plus dans [cette section](../get-started/using-ai.md).
+
+* **Convertisseur de HTMLs pour la conception d&#39;email**
+
+  Vous pouvez désormais importer et convertir n’importe quel contenu de HTML dans l’éditeur d’email de Campaign. Les blocs de contenu sont automatiquement identifiés et disponibles dans le Concepteur d&#39;email : utilisez ses puissantes fonctionnalités de conception pour le mettre à jour et le personnaliser !
+
+  En savoir plus dans [cette section](../content/existing-content.md).
 
 
 ## Migrer vers l’UI de Campaign Web

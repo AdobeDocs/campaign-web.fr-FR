@@ -4,22 +4,21 @@ title: Importer le contenu des e-mails
 description: Découvrez comment importer le contenu des e-mails.
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 62%
+ht-degree: 58%
 
 ---
 
 # Importer le contenu des e-mails {#existing-content}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="Utiliser un contenu d’e-mail existant"
 >abstract="Le Concepteur d’e-mail permet d’importer du contenu HTML existant. Ce contenu peut être un fichier HTML avec une feuille de style incorporée ou un dossier ZIP contenant le fichier HTML, la feuille de style (CSS) et les images."
 
-Le Concepteur d’e-mail permet d’importer du contenu HTML existant. Ce contenu peut être :
+Vous pouvez importer du contenu de HTML existant dans le Concepteur d&#39;email. Ce contenu peut être :
 
 * Un **fichier HTML** avec une feuille de style incorporée,
 * Un **dossier ZIP** contenant le fichier HTML, la feuille de style (CSS) et les images.
