@@ -3,9 +3,9 @@ audience: end-user
 title: Génération d’images avec l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Génération d’images avec l’assistant de contenu {#generative-image}
 
-Après avoir conçu et personnalisé vos emails, vous pouvez améliorer votre contenu à l’aide de l’assistant de contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu.
+Après avoir conçu et personnalisé vos emails, vous pouvez améliorer votre contenu à l’aide de l’assistant de contenu, optimisé par une IA générative. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu.
 
 Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant de contenu pour optimiser et améliorer votre contenu, afin d’offrir une expérience plus conviviale. Procédez comme suit :
 

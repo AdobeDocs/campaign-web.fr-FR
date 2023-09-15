@@ -3,9 +3,9 @@ audience: end-user
 title: Texte avec l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 6%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Génération de texte avec l’assistant de contenu {#generative-content}
 
-Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistant de contenu pour passer votre contenu au niveau supérieur.
+Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistant de contenu, optimisé par l’IA générative, pour passer votre contenu au niveau supérieur.
 
 L’assistant de contenu peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent plus susceptible de résonner auprès de votre audience.
 
