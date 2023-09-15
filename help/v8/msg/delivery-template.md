@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 98%
+source-wordcount: '962'
+ht-degree: 93%
 
 ---
 
 # Utiliser des modèles de diffusion {#work-with-delivery-templates}
 
-Pour un processus de conception accéléré et amélioré, vous pouvez créer des modèles de diffusion pour réutiliser facilement le contenu personnalisé dans vos campagnes. Cette fonctionnalité vous permet de normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes.
+Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles de diffusion afin de réutiliser facilement du contenu et des paramètres personnalisés dans vos campagnes. Cette fonctionnalité vous permet de normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes.
 
 Un modèle peut inclure les éléments suivants :
 
@@ -26,6 +26,10 @@ Un modèle peut inclure les éléments suivants :
 * Des [champs personnalisés](../personalization/personalize.md) et du [contenu conditionnel](../personalization/conditions.md)
 * Des liens vers la [page miroir](../content/mirror-page.md) et des [liens](../content/message-tracking.md) de désinscription
 * Autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
+
+>[!NOTE]
+>
+>Les modèles de diffusion diffèrent de [modèles de contenu email](../content/email-templates.md), qui vous permettent de réutiliser uniquement le contenu de vos messages.
 
 ## Accès et gestion des modèles de diffusion {#access-manage-templates}
 
@@ -162,7 +166,7 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
 1. Accédez à l’onglet **Modèles** à l’aide du menu **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** et sélectionnez n’importe quel modèle. [En savoir plus](#access-manage-templates)
 
-1. Cliquez sur le bouton **[!UICONTROL Simuler du contenu]** en haut à droite de l’écran.
+1. Cliquez sur le bouton **[!UICONTROL Simulation du contenu]** en haut à droite de l’écran.
 
    ![](assets/templates-simulate-button.png)
 
@@ -170,7 +174,7 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
 1. Basculez entre les différents profils pour obtenir une représentation personnalisée du message en fonction du profil sélectionné.
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    Vous pouvez également ajuster le niveau de zoom et choisir la vue pour ordinateur ou mobile.
 

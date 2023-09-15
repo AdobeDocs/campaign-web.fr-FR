@@ -4,10 +4,10 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 88%
+source-wordcount: '1302'
+ht-degree: 86%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : e-mail, 
 
 ## Créer une diffusion {#create-delivery}
 
-Vous pouvez créer des diffusions autonomes à partir du menu de gauche **[!UICONTROL Diffusions]**, ou créer des diffusions dans le cadre d’une campagne marketing, à partir du menu de gauche **[!UICONTROL Campagnes]**.
+Vous pouvez créer des diffusions autonomes à partir du **[!UICONTROL Diffusions]** menu de gauche ou créer des diffusions dans le contexte d&#39;un workflow, inclus ou non dans une campagne.
 
 Parcourez les onglets ci-dessous pour découvrir comment créer une diffusion :
 
@@ -92,7 +92,7 @@ Pour créer une diffusion autonome, procédez comme suit :
 
 Pour créer une diffusion dans un workflow, procédez comme suit :
 
-1. Créez un workflow ou ouvrez un workflow existant.
+1. Créez un workflow ou ouvrez un workflow existant. En savoir plus sur les workflows dans [cette page](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Ajoutez et configurez une activité **[!UICONTROL Créer une audience]**, puis cliquez sur le bouton `+`.
 
    ![](assets/add-delivery-in-wf.png)
@@ -113,7 +113,7 @@ Pour plus d’informations sur la configuration d’une campagne et la gestion d
 >[!ENDTABS]
 
 
-## Ajouter de la personnalisation{#personalization}
+## Ajouter de la personnalisation {#personalization}
 
 Les messages diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. [En savoir plus sur les fonctionnalités de personnalisation](../personalization/gs-personalization.md).
 
@@ -135,8 +135,7 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
 * Ajouter des **offres personnalisées**
 
-  Insérez des offres personnalisées dans le contenu de votre message, en fonction de l’emplacement des destinataires, de la météo actuelle ou de la dernière commande.
-
+  Insérez des offres personnalisées dans le contenu de votre message, en fonction de l’emplacement des destinataires, de la météo actuelle ou de la dernière commande. [En savoir plus](../content/offers.md)
 
 ## Prévisualiser et tester vos diffusions
 
@@ -146,12 +145,12 @@ Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Planifier l’envoi"
->abstract="Définissez la date et l’heure exactes d’envoi des messages. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture."
+>title="Définition de la date et de l’heure de contact"
+>abstract="Définissez la date et l&#39;heure exactes d&#39;envoi de votre diffusion. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture."
 
 Vous pouvez définir la date et l’heure exactes d’envoi des messages. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture.
 
-Pour planifier l’envoi d’une diffusion, ouvrez-la et accédez au **Planification** . Utilisez la variable **[!UICONTROL Activation de la planification]** Activez-la et définissez la date et l’heure d’envoi. Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
+Pour planifier l’envoi d’une diffusion, ouvrez-la et accédez au **[!UICONTROL Planification]** . Utilisez la variable **[!UICONTROL Activation de la planification]** Activez-la et définissez la date et l’heure d’envoi. Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
 
 ![](assets/schedule.png)
 

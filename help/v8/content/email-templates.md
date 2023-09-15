@@ -4,10 +4,10 @@ product: campaign
 title: Utiliser des modèles d’e-mails
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 88%
 
 ---
 
@@ -24,6 +24,11 @@ Vous pouvez choisir parmi les options suivantes :
 * **Modèles enregistrés**. Vous pouvez également utiliser un modèle personnalisé que vous avez enregistré comme modèle à partir d’un contenu existant.
 
 Découvrez comment utiliser des modèles et comment enregistrer un contenu d’e-mail en tant que modèle dans les sections ci-dessous.
+
+>[!NOTE]
+>
+>Les modèles de contenu d’email diffèrent de [modèles de diffusion](../msg/delivery-template.md). Ils permettent de réutiliser uniquement le contenu d&#39;un email, tandis que les modèles de diffusion permettent de réutiliser le contenu d&#39;une diffusion mais également tous les paramètres et propriétés de la diffusion, tels que les typologies, l&#39;adresse de l&#39;expéditeur, les audiences, etc.
+
 
 ## Utiliser un modèle {#use-templates}
 

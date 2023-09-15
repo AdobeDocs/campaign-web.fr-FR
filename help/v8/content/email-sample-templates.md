@@ -3,20 +3,20 @@ audience: end-user
 product: campaign
 title: Utiliser des modèles d’e-mails
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 100%
+source-wordcount: '121'
+ht-degree: 87%
 
 ---
 
 # Utiliser des modèles d’e-mails {#email-saved-content-templates}
 
-Lors de la [création d’un e-mail](../email/create-email.md), accédez à la section **[!UICONTROL Sélectionner un modèle de conception]** de l’interface **[!UICONTROL Créer votre e-mail]** pour commencer à créer votre contenu à partir d’un modèle.
+Lors de la [création d’un e-mail](../email/create-email.md), accédez à la section **[!UICONTROL Sélectionner un modèle de conception]** de l’interface **[!UICONTROL Créer votre e-mail]** pour commencer à créer le contenu à partir d’un modèle.
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign s’accompagne d’un ensemble de modèles intégrés que vous pouvez sélectionner.
+Campaign est fourni avec un ensemble de modèles de contenu d’email intégrés que vous pouvez choisir.
 
 Pour commencer à créer votre contenu avec l’un des exemples de modèles, procédez comme suit.
 

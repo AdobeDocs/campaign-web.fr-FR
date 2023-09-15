@@ -4,10 +4,10 @@ title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '570'
+ht-degree: 90%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Créer le contenu de l’e-mail"
->abstract="Dans cette section, vous pouvez créer le contenu de votre e-mail et utiliser le concepteur d’e-mail pour peaufiner son aspect."
+>title="Définir le contenu de l’e-mail"
+>abstract="La variable **Modifier le contenu** écran vous permet de définir des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet, d’effectuer des actions supplémentaires, telles que l’ajout de pièces jointes ou d’offres, et d’accéder au Concepteur d’email pour donner un aspect poli à votre message."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -64,7 +64,9 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
    >
    >Vous pouvez modifier la partie qui précède le signe « @ », mais pas l’adresse du domaine.
 
-   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. Développez l’objet **[!UICONTROL Champs de réponse]** . L&#39;adresse de l&#39;expéditeur est utilisée par défaut pour les réponses. Adobe recommande toutefois d’utiliser une adresse réelle existante, comme l’assistance clientèle de votre marque. Ainsi, si un destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
+
+   ![](assets/email-edit-content-reply-to.png)
 
 1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter de la personnalisation à l’aide de divers attributs, blocs de contenu ou offres. [Découvrez comment personnaliser le contenu.](../personalization/personalize.md)
 
