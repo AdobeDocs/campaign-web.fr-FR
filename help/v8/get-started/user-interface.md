@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
+source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 82%
+source-wordcount: '1509'
+ht-degree: 81%
 
 ---
 
@@ -170,6 +170,9 @@ Pour changer de langue :
 1. Cliquez ensuite sur le lien de la langue affichée sous votre adresse e-mail.
 1. Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez n’est pas localisé dans votre première langue.
 
+## Thème sombre {#dark-theme}
+
+Vous pouvez passer au thème sombre à partir de l’icône de votre profil. Utilisez la variable **Thème sombre** bascule pour l’activer/désactiver.
 
 ## En savoir plus {#learn-more}
 
