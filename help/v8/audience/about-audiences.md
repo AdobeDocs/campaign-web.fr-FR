@@ -4,10 +4,10 @@ title: Commencer avec les audiences
 description: Découvrez comment utiliser les audiences dans l’interface utilisateur web de Campaign.
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 98%
 
 ---
 
@@ -40,6 +40,7 @@ L’audience est la cible principale de votre diffusion : les destinataires qui
 
 Pour définir la population de l’audience, vous pouvez :
 
+* Créer et combiner des audiences. [En savoir plus](create-audience.md)
 * Sélectionnez une audience existante, créée sous forme de liste dans la console cliente. [En savoir plus](add-audience.md)
 * Sélectionnez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md)
 * Créez une nouvelle audience avec le créateur de règles en définissant et combinant des critères de filtrage. [En savoir plus](segment-builder.md)
