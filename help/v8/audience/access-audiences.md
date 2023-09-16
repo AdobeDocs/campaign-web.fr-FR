@@ -3,20 +3,15 @@ audience: end-user
 title: Surveillance et gestion des audiences
 description: Découvrez comment surveiller et gérer les audiences dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 9%
+source-wordcount: '239'
+ht-degree: 7%
 
 ---
 
 
 # Surveillance et gestion des audiences {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Cette audience est en lecture seule"
->abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette audience. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
 La liste des audiences disponibles sur le Web de Campaign est accessible à partir du **[!UICONTROL Audiences]** .
 

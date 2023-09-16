@@ -3,16 +3,15 @@ audience: end-user
 title: Gestion des autorisations dans Campaign web
 description: En savoir plus sur les autorisations dans Campaign web v8
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 33%
+source-wordcount: '604'
+ht-degree: 45%
 
 ---
 
 
 # Accès et autorisations {#access-and-permissions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
@@ -20,6 +19,38 @@ ht-degree: 33%
 >abstract="Votre administrateur doit vous accorder l’autorisation avant de pouvoir créer cet objet."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Cette audience est en lecture seule"
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette audience. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Ce service est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce service. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Cette campagne est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette campagne. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Cette diffusion est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette diffusion. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Ce workflow est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce workflow. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Ce workflow est en lecture seule."
+>abstract="Vous ne pouvez pas modifier ce workflow en raison d’un canevas non pris en charge ou incompatible."
 
 Le contrôle d’accès peut restreindre l’accès aux objets et données des listes principales, telles que les diffusions, les destinataires ou les workflows. Ces restrictions s’appliquent également dans l’arborescence de navigation de l’explorateur. En outre, vous avez besoin d’autorisations pour créer, supprimer, dupliquer et modifier des objets à partir de l’interface utilisateur.
 
@@ -30,7 +61,6 @@ Lorsque vous naviguez dans l&#39;interface utilisateur Web de Campaign, vous pou
 ## Affichage des autorisations {#view-permissions}
 
 Dans la **Explorateur**, vous pouvez parcourir les autorisations pour chaque dossier. Ces permissions sont définies dans la console cliente et sont utilisées pour organiser et contrôler l&#39;accès aux données de Campaign.
-
 
 Pour afficher les autorisations d’un dossier, procédez comme suit :
 
