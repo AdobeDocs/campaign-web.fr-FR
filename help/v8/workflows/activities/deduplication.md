@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication
 badge: label="Beta"
-source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
+source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 29%
+source-wordcount: '353'
+ht-degree: 24%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="Complémentaire de déduplication"
->abstract="À déterminer"
+>title="Générer un complémentaire"
+>abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **Générer le complémentaire**"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Paramètres de déduplication"
->abstract="À déterminer"
+>abstract="Pour supprimer des doublons dans les données entrantes, définissez la méthode de déduplication dans les champs ci-dessous. Par défaut, un seul enregistrement est conservé. Vous devez également sélectionner le mode de déduplication en fonction d&#39;une expression ou d&#39;un attribut. Par défaut, l’enregistrement à conserver en dehors des doublons est sélectionné de manière aléatoire."
 
 La variable **Déduplication** est une activité **Ciblage** activité. Cette activité permet de supprimer les doublons dans le ou les résultats des activités entrantes. La variable **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant l&#39;utilisation des données ciblées.
 
