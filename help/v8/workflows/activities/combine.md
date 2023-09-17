@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 82%
+source-wordcount: '885'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="Activité Combiner"
->abstract="La variable **Combiner** est une activité **Ciblage** activité. Cette activité vous permet d’effectuer une segmentation sur votre population entrante. Vous pouvez ainsi combiner plusieurs populations, en exclure une partie ou ne conserver que les données communes à plusieurs cibles."
+>abstract="La variable **Combiner** vous permet d’effectuer une segmentation sur votre population entrante. Vous pouvez ainsi combiner plusieurs populations, en exclure une partie ou ne conserver que les données communes à plusieurs cibles."
 
 
 La variable **Combiner** est une activité **Ciblage** activité. Cette activité vous permet d’effectuer une segmentation sur votre population entrante. Il est ainsi possible de regrouper plusieurs populations, d’en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles. Les types de segmentation disponibles sont les suivants :
