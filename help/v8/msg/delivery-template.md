@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 93%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -25,12 +25,12 @@ Pour accélérer et améliorer le processus de conception, vous pouvez créer de
 
 Un modèle peut inclure les éléments suivants :
 
-* [Typologies](../advanced-settings/delivery-settings.md#typology)
-* L’adresse de l’expéditeur ou expéditrice
-* Une [audience](../audience/about-audiences.md), y compris des [populations témoins](../audience/control-group.md)
-* Du [contenu](../content/edit-content.md) personnalisé
-* Des [champs personnalisés](../personalization/personalize.md) et du [contenu conditionnel](../personalization/conditions.md)
-* Des liens vers la [page miroir](../content/mirror-page.md) et des [liens](../content/message-tracking.md) de désinscription
+* [Typologies](../advanced-settings/delivery-settings.md#typology),
+* L’adresse de l’expéditeur ou expéditrice,
+* Une [audience](../audience/about-audiences.md), y compris des [populations témoins](../audience/control-group.md),
+* Personnalisé [content](../content/edit-content.md),
+* Des [champs personnalisés](../personalization/personalize.md) et du [contenu conditionnel](../personalization/conditions.md),
+* Liens vers [page miroir](../content/mirror-page.md) et désinscription [links](../content/message-tracking.md),
 * Autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
 
 >[!NOTE]
@@ -159,6 +159,8 @@ Pour configurer un modèle de diffusion à partir de zéro, procédez comme suit
    > * [Canal e-mail](../email/create-email.md)
    > * [Canal des notifications push](../push/gs-push.md)
    > * [Canal SMS](../sms/create-sms.md)
+
+1. En outre, pour les modèles d’email, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via le **[!UICONTROL Paramètres]** située en haut à droite de l’écran. [En savoir plus](../advanced-settings/delivery-settings.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Vérifier]** pour enregistrer et vérifier votre modèle. Vous pouvez toujours modifier tous ses paramètres, le supprimer et le dupliquer.
 

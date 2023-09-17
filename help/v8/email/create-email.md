@@ -4,10 +4,10 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 73%
+source-wordcount: '1354'
+ht-degree: 72%
 
 ---
 
@@ -66,7 +66,7 @@ Pour créer une diffusion email autonome, procédez comme suit.
 
    ![](assets/email-properties.png)
 
-1. De plus, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via la variable **[!UICONTROL Paramètres]** située en haut à droite de l’écran. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique.
+1. De plus, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via la variable **[!UICONTROL Paramètres]** située en haut à droite de l’écran. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique. [En savoir plus](../advanced-settings/delivery-settings.md)
 
 ## Définir l’audience {#define-audience}
 
@@ -157,7 +157,7 @@ Des informations supplémentaires sur la prévisualisation et le test des e-mail
 
 1. Pour vérifier votre e-mail, cliquez sur **[!UICONTROL Vérifier et envoyer]**. Un aperçu de votre e-mail s’affiche, ainsi que toutes les propriétés, l’audience et le planning configurés. Vous pouvez modifier chacun de ces éléments en cliquant sur le bouton Modifier.
 
-1. Pour prévisualiser l’e-mail et envoyer les versions de test, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
+1. Pour prévisualiser l’email et envoyer les versions de test, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
 
    ![](assets/review-email.png)
 
