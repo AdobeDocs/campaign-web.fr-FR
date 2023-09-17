@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow d’attente
 description: Découvrez comment utiliser l’activité de workflow d’attente.
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 91%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
->title="Attente"
->abstract="L’activité d’**attente** est une activité de **contrôle de flux**. Elle est utilisée pour permettre qu’un certain temps s’écoule entre l’exécution de deux activités."
+>title="Activité d’attente"
+>abstract="La variable **Attente** est utilisée pour retarder la transition d’une activité à une autre."
 
 
 L’activité d’**attente** est une activité de **contrôle de flux**. Elle est utilisée pour permettre qu’un certain temps s’écoule entre l’exécution de deux activités. Par exemple, elle permet d’attendre plusieurs jours après une activité de diffusion e-mail puis d’analyser les ouvertures et les clics générés pendant ce laps de temps avant d’appliquer d’autres traitements (e-mail de rappel, création d’audience, etc.).

@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 78%
+source-wordcount: '389'
+ht-degree: 77%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Créer une audience"
+>title="Activité Créer une audience"
 >abstract="La variable **Créer une audience** l&#39;activité permet de définir l&#39;audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow, l’audience du message n’est pas définie dans l’activité du canal, mais dans la variable **Créer une audience** activité."
 
 

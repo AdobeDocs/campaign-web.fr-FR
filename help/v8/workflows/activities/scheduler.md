@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur
 badge: label="Beta"
-source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 26%
+source-wordcount: '519'
+ht-degree: 25%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 26%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_options"
+>id="acw_orchestration_scheduler"
 >title="Activité Planificateur"
->abstract="La variable **Planificateur** est une activité **Contrôle de flux** activité. Il permet de planifier le démarrage du workflow. Cette activité doit être considérée comme un début planifié. Il ne peut être utilisé que comme première activité du workflow."
+>abstract="La variable **Planificateur** l’activité vous permet de planifier le démarrage du workflow. Cette activité doit être considérée comme un début planifié. Il ne peut être utilisé que comme première activité du workflow."
 
 
 La variable **Planificateur** est une activité **Contrôle de flux** activité. Il permet de planifier le démarrage du workflow. Cette activité doit être considérée comme un début planifié. Il ne peut être utilisé que comme première activité du workflow.
@@ -33,7 +33,13 @@ La variable **Planificateur** est une activité **Contrôle de flux** activité.
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="Validité du planificateur"
->abstract="Vous pouvez définir une période de validité pour le planificateur. Il peut être permanent ou valide jusqu’à une date spécifique."
+>abstract="Vous pouvez définir une période de validité pour le planificateur. Il peut être permanent (par défaut) ou valide jusqu’à une date spécifique."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Options de planificateur"
+>abstract="Définissez la fréquence du planificateur. Il peut être exécuté à un moment précis, une ou plusieurs fois par jour, semaine ou mois."
 
 Pour configurer la variable **Planificateur** activité :
 
