@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 88%
 
 ---
 
@@ -29,16 +29,27 @@ Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide
 >
 >Vous pouvez désactiver le flux visuel à l’aide du bouton **[!UICONTROL Masquer la progression]**, situé dans la barre d’actions supérieure de la zone de travail.
 
+## Transitions de workflow {#transitions}
+
+Dans les workflows, les données transportées d&#39;une activité à l&#39;autre via les transitions sont stockées dans une table de travail temporaire.
+
+Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l&#39;écran.
+
+* Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
+* Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données transportées dans la transition sélectionnée.
+
+![](assets/transition.png)
+
 ## Surveiller l’exécution des activités {#activities}
 
 Les indicateurs visuels situés dans le coin supérieur droit de chaque activité vous permettent de vérifier leur exécution :
 
 | Indicateur visuel | Description |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | L’activité est en cours d’exécution. |
-| ![](assets/activity-status-orange.png) | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
-| ![](assets/activity-status-red.png) | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les logs de workflow pour obtenir plus d’informations. |
-| ![](assets/activity-status-green.png) | L’activité a été exécutée correctement. |
+| ![](assets/activity-status-pending.png){width="70%"} | L’activité est en cours d’exécution. |
+| ![](assets/activity-status-orange.png){width="70%"} | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
+| ![](assets/activity-status-red.png){width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les logs de workflow pour obtenir plus d’informations. |
+| ![](assets/activity-status-green.png){width="70%"} | L’activité a été exécutée correctement. |
 
 ## Surveiller les logs et les tâches {#logs-tasks}
 
