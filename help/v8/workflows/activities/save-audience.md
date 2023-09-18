@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation de l’activité de workflow Sauvegarde d’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Beta"
-source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
+source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '319'
 ht-degree: 17%
 
 ---
@@ -44,7 +44,7 @@ Pour configurer la variable **Sauvegarde d’audience** activité :
 
    * **Compléter l’audience avec les nouvelles données**: l&#39;ancien contenu de l&#39;audience est conservé et les données de la transition entrante de l&#39;activité de sauvegarde d&#39;audience y sont ajoutées.
 
-1. Vérifiez les **Générer le complémentaire** si vous souhaitez exploiter la population restante. Une transition supplémentaire sera alors ajoutée à l&#39;activité.
+1. Vérifiez les **Générer une transition sortante** si vous souhaitez ajouter une transition après le **Sauvegarde d’audience** activité.
 
 Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis le menu **Audiences**. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de l&#39;objet **Audience de l’Afrique du Sud** activité.
 
