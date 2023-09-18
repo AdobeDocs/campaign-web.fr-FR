@@ -3,9 +3,9 @@ audience: end-user
 title: Génération d’emails avec l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,17 @@ Grâce à Generative AI, vous pouvez créer facilement des emails attrayants qui
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer.
 
-   Activez la variable **[!UICONTROL Amélioration du contenu actuel]** pour l’assistant de contenu afin de personnaliser le nouveau contenu en fonction de votre diffusion, de votre nom de diffusion et de l’audience sélectionnée.
+   Voici quelques exemples rapides :
+
+   * Pour une newsletter : générez une newsletter mensuelle comprenant des articles de voyage, des points forts de destination et des offres d’abonné exclusives.
+   * Pour les commentaires et les enquêtes : créez un email invitant les clients à fournir des commentaires sur leur expérience logicielle récente et à participer à un questionnaire d’amélioration des produits.
+   * Pour les emails d’anniversaire ou d’anniversaire : générez un email d’anniversaire, célébrez le jour spécial du client et offrez-lui une remise d’anniversaire.
 
    ![](assets/email-genai-2.png)
 
-1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une note marketing afin de donner plus de contexte à l’assistant de contenu.
+1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
-   Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment.
+   Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur actuel.
 
 1. Sélectionnez la variable **[!UICONTROL Stratégie de communication]** qui répond le mieux à vos besoins. Cela aura une incidence sur le ton et le style de l&#39;email généré.
 
@@ -46,7 +50,7 @@ Grâce à Generative AI, vous pouvez créer facilement des emails attrayants qui
 
    ![](assets/email-genai-3.png)
 
-1. Personnalisez le **[!UICONTROL Type de contenu]** pour correspondre aux caractéristiques de ressources souhaitées.
+1. Personnalisez le **[!UICONTROL Type de contenu]** paramètres de ressources correspondant aux caractéristiques de ressources souhaitées.
 
 1. Une fois votre invite prête, cliquez sur **[!UICONTROL Générer]**.
 

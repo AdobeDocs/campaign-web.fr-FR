@@ -3,9 +3,9 @@ audience: end-user
 title: Texte avec l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -31,13 +31,13 @@ L’assistant de contenu peut vous aider à optimiser l’impact de vos diffusio
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer.
 
-   Activez la variable **[!UICONTROL Amélioration du contenu actuel]** pour l’assistant de contenu afin de personnaliser le nouveau contenu en fonction de votre diffusion, de votre nom de diffusion et de l’audience sélectionnée.
+   Activez la variable **[!UICONTROL Amélioration du contexte actuel]** pour l’assistant de contenu afin de personnaliser le nouveau contenu en fonction de votre diffusion, de votre nom de diffusion et de l’audience sélectionnée.
 
    ![](assets/text-genai-3.png)
 
-1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une note marketing afin de donner plus de contexte à l’assistant de contenu.
+1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
-   Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment.
+   Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur actuel.
 
 1. Sélectionnez la variable **[!UICONTROL Stratégie de communication]** qui répond le mieux à vos besoins. Cela aura une incidence sur la tonalité et le style du texte généré.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Génération d’images avec l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant de 
 
    ![](assets/image-genai-2.png)
 
-1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une note marketing afin de donner plus de contexte à l’assistant de contenu.
+1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
-   Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment.
+   Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur actuel.
 
 1. Sélectionnez la variable **[!UICONTROL Format]** de votre ressource. Cela détermine la largeur et la hauteur de la ressource.
 
