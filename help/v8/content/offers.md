@@ -4,10 +4,10 @@ title: Envoyer des offres
 description: Envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 94%
+source-wordcount: '771'
+ht-degree: 75%
 
 ---
 
@@ -25,15 +25,19 @@ Pour envoyer des offres avec une diffusion, procédez comme suit :
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Paramètres des offres"
->abstract="Configurez les offres qui doivent être proposées aux destinataires."
+>title="Définition des paramètres des offres"
+>abstract="Configurez les offres qui doivent être proposées aux destinataires en définissant un emplacement, éventuellement une catégorie et un thème, et indiquez le nombre d&#39;offres que vous souhaitez insérer dans la diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Paramètres avancés des offres"
->abstract="Configurez les options avancées sur les offres."
+>title="Définition des paramètres avancés des offres"
+>abstract="Vous pouvez activer l&#39;exclusion des destinataires pour lesquels les offres éligibles ne sont pas suffisantes, et choisir le mode de traitement du message au cas où l&#39;une des propositions n&#39;existerait pas."
 
-1. Pour sélectionner les offres à proposer dans la diffusion, cliquez sur le bouton **[!UICONTROL Configurer les offres]** sur l’écran de modification du contenu de la diffusion.
+Adobe Campaign vous permet de proposer une ou plusieurs offres spécifiques à un contact donné. Module d&#39;Interaction qui permet de répondre en temps réel lors d&#39;une interaction avec un contact donné en lui proposant une ou plusieurs offres spécifiques. Il peut s’agir par exemple de messages de communication simples, d’offres spéciales sur un ou plusieurs produits ou d’un service.
+
+Pour sélectionner les offres à ajouter à votre diffusion, procédez comme suit.
+
+1. Cliquez sur le bouton **[!UICONTROL Configuration des offres]** à partir de l&#39;écran d&#39;édition du contenu de la diffusion.
 
    ![](assets/setup-offers.png)
 
@@ -99,7 +103,7 @@ Pour insérer une offre à l’aide de l’éditeur d’expression, procédez co
 
    >[!NOTE]
    >
-   >Le nombre de propositions disponibles dépend de la configuration de l’appel au moteur et leur ordre dépend de la priorité des offres.
+   >Le nombre de propositions disponibles dépend de la configuration de l’appel au moteur et leur ordre dépend de la priorité des offres. En savoir plus dans la section [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Enregistrez vos modifications.
 

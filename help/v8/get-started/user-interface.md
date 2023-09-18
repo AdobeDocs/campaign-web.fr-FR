@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 82cefed06353ce91ab75128bc4e0459570a95617
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 78%
+source-wordcount: '1331'
+ht-degree: 74%
 
 ---
 
@@ -85,10 +85,12 @@ Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offres"
->abstract="Parcourez votre liste d’offres Interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par dates de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Ajouter une offre dans une diffusion"
+>abstract="Parcourez les listes d’offres et de modèles d’offres qui ont été créés dans la console à l’aide de l’option **Interaction** module . Ces listes sont en lecture seule."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Ajouter des offres à une diffusion"
 
-* **Offres** - Parcourez votre liste d’offres d’interaction. Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par dates de début/fin. Des modèles d’offre sont également disponibles. Ces listes sont en lecture seule.
+Dans la section GESTION DES CLIENTS , vous pouvez visualiser les offres et les modèles d’offre. Ces listes sont en lecture seule.
+
+* **Offres** - Parcourez la liste des offres et des modèles d’offres créés dans la console à l’aide de la fonction **Interaction** module . Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par dates de début/fin. Des modèles d’offre sont également disponibles.
 
 Découvrez comment créer et envoyer des offres dans des emails et des SMS dans [cette section](../content/offers.md).
 
