@@ -4,10 +4,10 @@ title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 82%
+source-wordcount: '618'
+ht-degree: 80%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Définition des propriétés de base de votre email"
+>title="Définir les propriétés de l&#39;email"
 >abstract="La variable **Détails de base** vous permet de mettre à jour l’adresse de l’expéditeur et l’adresse de réponse, et de définir l’objet à l’aide de l’éditeur d’expression."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Joindre des fichiers à votre email"
->abstract="Sélectionnez un ou plusieurs fichiers à insérer dans votre message."
+>abstract="Sélectionnez un ou plusieurs fichiers à insérer dans votre message. Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Modifier le suivi"
->abstract="Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option à partir de là."
+>abstract="Par défaut, le tracking est activé pour la diffusion, ce qui signifie que tous les liens inclus dans le contenu du message sont suivis. Vous pouvez désactiver cette option à partir de là."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Ajouter des liens et suivre les messages"
 
 La fenêtre **[!UICONTROL Modifier le contenu]** de l’e-mail vous permet d’effectuer les opérations suivantes :
