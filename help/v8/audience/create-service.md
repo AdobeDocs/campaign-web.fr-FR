@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation des services d’abonnement
 description: Découvrez comment créer et gérer des services dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
@@ -158,7 +158,15 @@ Une fois que [création d’un service d’abonnement](#create-service), vous po
 
    ![](assets/service-audience-subscribers.png)
 
-1. Créez une campagne et ciblez l’audience que vous avez créée.
+1. [Créer une diffusion](../msg/gs-messages.md) et sélectionnez l’audience que vous avez créée ci-dessus.
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. Modifiez le contenu de votre message selon vos besoins et envoyez la diffusion.
+
+   ![](assets/service-delivery-ready.png)
+
+Votre diffusion n&#39;est envoyée qu&#39;aux abonnés à ce service.
 
 
 
