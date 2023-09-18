@@ -3,14 +3,34 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 100%
+source-wordcount: '1853'
+ht-degree: 95%
 
 ---
 
 # Rapports de campagne {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Envoi des rapports"
+>abstract="L&#39;onglet Envoi de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs avec vos diffusions et sur les erreurs potentielles qu&#39;ils ont pu rencontrer."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Tracking des rapports"
+>abstract="L&#39;onglet Envoi de votre rapport propose des données précieuses, notamment le comportement des destinataires par lien, la répartition des ouvertures et des clics, ainsi que des informations détaillées sur les URL ayant reçu le plus de clics lors d&#39;une diffusion."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Vue d’ensemble de la diffusion"
+>abstract="L’ aperçu de la diffusion fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont les visiteurs interagissent avec votre diffusion par e-mail."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Statistiques initiales sur l´audience cible"
+>abstract="Le tableau Statistiques d&#39;audience cible initiale affiche les données relatives à vos destinataires."
 
 Le rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne.
 

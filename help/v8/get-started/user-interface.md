@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 74%
+source-wordcount: '1278'
+ht-degree: 73%
 
 ---
 
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Données d’enrichissement"
 >abstract="À déterminer"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Envoi des rapports"
->abstract="Consultez les indicateurs d’envoi pour le reporting de la campagne."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Tracking des rapports"
->abstract="Consultez les indicateurs de tracking pour le reporting de la campagne."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="Présentation des rapports"
->abstract="Mesures clés de votre diffusion."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="Rapports sur les statistiques cibles"
->abstract="Cette section affiche des mesures spécifiques en fonction des audiences."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="Reporting agrégé pour les diffusions"
->abstract="Sélectionnez au moins deux diffusions pour afficher un rapport de données agrégées."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="Suivi des rapports globaux"
 >abstract="Les mesures de suivi des rapports sont visibles dans cet écran."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
