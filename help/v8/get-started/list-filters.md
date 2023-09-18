@@ -3,10 +3,10 @@ audience: end-user
 title: Parcourir, rechercher et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Beta"
-source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
+source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 98%
+source-wordcount: '448'
+ht-degree: 86%
 
 ---
 
@@ -51,13 +51,15 @@ Vous pouvez, par exemple, filtrer les diffusions selon leur statut, leur canal, 
 
 ## Filtres personnalisés{#list-custom-filters}
 
-Pour créer des filtres personnalisés sur les données, naviguez jusqu’au bas des filtres et cliquez sur le bouton **Ajouter des règles**.
+Pour créer des filtres personnalisés sur les données, accédez au bas des filtres et cliquez sur le bouton **Ajouter des règles** pour accéder au créateur de règles.
 
 Faites glisser et déposez des attributs pour créer vos critères de filtre dans la fenêtre **Filtres avancés**.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Utilisez le bouton **Afficher les attributs avancés** pour afficher tous les attributs de la liste actuelle. [En savoir plus](#adv-attributes)
+
+Le principe de fonctionnement du créateur de règles pour les filtres personnalisés est similaire au créateur de règles utilisé pour créer des audiences. Des informations détaillées sur son utilisation sont disponibles dans la section [Documentation sur les audiences](../audience/segment-builder.md).
 
 ## Utiliser les attributs avancés {#adv-attributes}
 
