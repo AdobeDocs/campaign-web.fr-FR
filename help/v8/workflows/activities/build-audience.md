@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 61%
+source-wordcount: '485'
+ht-degree: 62%
 
 ---
 
@@ -64,7 +64,7 @@ Pour sélectionner une audience existante, procédez comme suit :
 
 >[!IMPORTANT]
 >
->Si vous souhaitez combiner plusieurs **[!UICONTROL Créer une audience]** dans un workflow comprenant une audience Experience Platform, vous devez ajouter une **[!UICONTROL Changement de dimension]** par la suite, pour s’assurer que toutes les audiences appartiennent à la dimension de ciblage &quot;Destinataire&quot;. Un exemple de workflow est disponible au bas de cette page.
+>Si vous souhaitez utiliser une **[!UICONTROL Créer une audience]** activité ciblant une audience Experience Platform, vous devez ajouter une **[!UICONTROL Changement de dimension]** activité après celle-ci, pour vous assurer que la dimension de ciblage de l’audience est définie sur &quot;Destinataire&quot;. Un exemple de workflow est disponible au bas de cette page.
 
 ## Exemples
 
