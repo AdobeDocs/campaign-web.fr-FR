@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 77%
+source-wordcount: '488'
+ht-degree: 61%
 
 ---
 
@@ -62,8 +62,16 @@ Pour sélectionner une audience existante, procédez comme suit :
 1. Cliquez sur **Continuer**.
 1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d’un e-mail. Reportez-vous à cette [section](../../audience/add-audience.md).
 
-## Exemple
+>[!IMPORTANT]
+>
+>Si vous souhaitez combiner plusieurs **[!UICONTROL Créer une audience]** dans un workflow comprenant une audience Experience Platform, vous devez ajouter une **[!UICONTROL Changement de dimension]** par la suite, pour s’assurer que toutes les audiences appartiennent à la dimension de ciblage &quot;Destinataire&quot;. Un exemple de workflow est disponible au bas de cette page.
+
+## Exemples
 
 Voici un exemple de workflow avec deux activités **Créer une audience**. La première cible l’audience des joueurs et joueuses de poker, suivie d’une diffusion e-mail. La seconde cible l’audience des clientes et clients VIP, suivie d’une diffusion SMS.
 
 ![](../assets/workflow-audience-example.png)
+
+Voici un autre exemple de workflow dans lequel une audience Adobe Experience Platform est combinée à une audience Adobe Campaign. Pour combiner ces audiences, une **[!UICONTROL Changement de dimension]** l’activité avec la dimension de ciblage &quot;Destinataire&quot; est ajoutée après l’audience Adobe Experience Platform. [Découvrez comment configurer une activité Modification de dimension](change-dimension.md)
+
+![](../assets/workflow-audience-aep.png)
