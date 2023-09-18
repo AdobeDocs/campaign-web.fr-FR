@@ -4,7 +4,7 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 72%
@@ -21,7 +21,7 @@ ht-degree: 72%
 
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
 
-Basé sur une prédéfinition [modèle de conception](../content/email-templates.md), l’e-mail comporte également du contenu personnalisé basé sur les attributs de profil du client.
+Basé sur une prédéfinition [modèle de conception](../content/email-sample-templates.md), l’e-mail comporte également du contenu personnalisé basé sur les attributs de profil du client.
 
 ## Créer la diffusion e-mail {#create-email}
 
