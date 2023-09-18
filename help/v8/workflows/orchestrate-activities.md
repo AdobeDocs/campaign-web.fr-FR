@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 82%
 
 ---
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # Orchestrer les activités {#orchestrate}
 
 Une fois que vous avez réussi à [créer un workflow](create-workflow.md), à partir du menu de workflow ou au sein d’une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’il exécutera. Pour ce faire, une zone de travail visuelle dédiée vous permet de créer un diagramme de workflow. Dans ce diagramme, vous pouvez ajouter différentes activités et les enchaîner dans un ordre séquentiel.
+
+## Ajouter des activités {#add}
 
 À ce stade de la configuration, le diagramme comporte une icône de démarrage, qui représente le début de votre workflow. Pour ajouter votre première activité, cliquez sur le bouton + associé à l’icône de démarrage.
 
@@ -32,6 +34,20 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail et clique
 >[!TIP]
 >
 >Vous pouvez personnaliser le nom des transitions entre chaque activité. Pour ce faire, sélectionnez la transition et modifiez son libellé dans le volet de droite.
+
+## Gestion des activités {#manage}
+
+Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le volet des propriétés, ce qui vous permet d’effectuer plusieurs opérations. Vous pouvez ainsi :
+
+* **Supprimer** l’activité à partir de la zone de travail.
+* **Désactiver/activer** l’activité. Lorsque le workflow est exécuté, les activités désactivées ne sont pas exécutées et le workflow est interrompu ?
+* **Copier** l’activité. Vous pouvez ensuite la coller dans n&#39;importe quel workflow en cliquant sur le bouton &quot;+&quot; sur une transition et en sélectionnant &quot;Activité Coller 1&quot;.
+* Accéder à la **Logs et tâches**.
+* **Pause/Reprendre** l’activité. Lorsque le workflow est exécuté, il s&#39;arrête à l&#39;activité en pause. La tâche correspondante ainsi que toutes celles qui la suivent dans le même chemin ne sont pas exécutées.
+
+![](assets/activity-action.png){width="70%"}
+
+## Exemple {#example}
 
 Voici un exemple de workflow permettant d’envoyer un e-mail à l’ensemble de la clientèle (autres que les clients et clientes VIP) qui s’intéresse aux machines à café.
 
