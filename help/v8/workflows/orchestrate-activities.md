@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
-source-git-commit: 72faa94a1a63042f6a275ca3252ad0fa5b57e51c
+source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 82%
+source-wordcount: '633'
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail et clique
 Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le volet des propriétés, ce qui vous permet d’effectuer plusieurs opérations. Vous pouvez ainsi :
 
 * **Supprimer** l’activité à partir de la zone de travail.
-* **Désactiver/activer** l’activité. Lorsque le workflow est exécuté, les activités désactivées ne sont pas exécutées et le workflow est interrompu ?
+* **Désactiver/activer** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités suivantes situées sur le même chemin ne sont pas exécutées et le workflow est arrêté.
 * **Copier** l’activité. Vous pouvez ensuite la coller dans n&#39;importe quel workflow en cliquant sur le bouton &quot;+&quot; sur une transition et en sélectionnant &quot;Activité Coller 1&quot;.
 * Accéder à la **Logs et tâches**.
 * **Pause/Reprendre** l’activité. Lorsque le workflow est exécuté, il s&#39;arrête à l&#39;activité en pause. La tâche correspondante ainsi que toutes celles qui la suivent dans le même chemin ne sont pas exécutées.
