@@ -4,10 +4,10 @@ title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 80%
+source-wordcount: '633'
+ht-degree: 75%
 
 ---
 
@@ -39,6 +39,10 @@ La fenêtre **[!UICONTROL Modifier le contenu]** de l’e-mail vous permet d’e
 * Effectuer des actions supplémentaires telles que l’ajout de pièces jointes ou la configuration d’offres.
 * Accéder au [Concepteur d’e-mail](get-started-email-designer.md#start-authoring) pour commencer à créer le contenu de votre e-mail.
 
+>[!NOTE]
+>
+>Tous les champs de texte modifiables de cet écran peuvent être remplis à l’aide de champs de personnalisation. [Découvrez comment personnaliser le contenu.](../personalization/personalize.md)
+
 Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir de la fenêtre [tableau de bord de diffusion des e-mails](../email/create-email.md).
@@ -69,7 +73,7 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter de la personnalisation à l’aide de divers attributs, blocs de contenu ou offres. [Découvrez comment personnaliser le contenu.](../personalization/personalize.md)
+1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez votre objet directement dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter [personnalisation](../personalization/personalize.md) en utilisant divers attributs et blocs de contenu, ou offres.
 
 1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]** puis sélectionnez un ou plusieurs fichiers.
 
