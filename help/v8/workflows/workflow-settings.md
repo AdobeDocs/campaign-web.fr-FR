@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 90%
+source-wordcount: '903'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ Lors de l’orchestration des activités de workflow dans la zone de travail, vo
 
 Ces paramètres sont prédéfinis dans le modèle sélectionné lors de la création du workflow, mais peuvent être modifiés selon les besoins du workflow.
 
-Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres de workflow]** dans le coin supérieur gauche de la zone de travail, en regard du libellé du workflow.
+Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres]** est disponible dans la barre d’actions située au-dessus de la zone de travail du workflow.
 
 ![](assets/workflow-settings.png)
 
