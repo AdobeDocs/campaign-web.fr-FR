@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Utiliser des modèles de diffusion
-description: Découvrez comment créer et utiliser des modèles de diffusion dans Campaign.
+description: Découvrez comment créer et utiliser des modèles de diffusion dans Campaign. Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1015'
 ht-degree: 89%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 89%
 >id="acw_delivery_template_for_campaign"
 >title="Modèles de diffusion"
 >abstract="Utilisez les modèles de diffusion pour normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes"
-
 
 Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles de diffusion afin de réutiliser facilement du contenu et des paramètres personnalisés dans vos campagnes. Cette fonctionnalité vous permet de normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes.
 

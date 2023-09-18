@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Utilisation des services d’abonnement
-description: Découvrez comment créer des services dans Adobe Campaign Web
+description: Découvrez comment créer et gérer des services dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
+source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,13 @@ Pour modifier un service existant, cliquez sur son nom.
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Propriétés du service Abonnements"
->abstract="Saisissez le libellé du service d&#39;abonnement et définissez des options supplémentaires."
+>title="Définition des propriétés du service"
+>abstract="Saisissez le libellé du service d&#39;abonnement et définissez des options supplémentaires, telles qu&#39;une période de validité pour votre service."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Messages de confirmation du service d’inscriptions"
->abstract="Lorsqu&#39;un utilisateur s&#39;abonne à un service ou se désabonne d&#39;un service, vous pouvez envoyer un message de confirmation. Sélectionnez les modèles à utiliser pour ces messages."
-
+>title="Sélectionner un message de confirmation"
+>abstract="Lorsqu&#39;un utilisateur s&#39;abonne à un service ou s&#39;en désabonne, vous pouvez envoyer un message de confirmation. Sélectionnez les modèles à utiliser pour ce message."
 
 Pour créer un service d&#39;abonnement, procédez comme suit :
 
