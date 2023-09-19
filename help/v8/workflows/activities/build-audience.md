@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Pour définir la population de l’audience, vous pouvez :
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configuration de l’activité de création d’audience
+## Configuration de l’activité de création d’audience{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 Pour configurer l’activité **Créer une audience**, procédez comme suit :
+
+![](../assets/workflow-audience.png)
 
 1. Ajoutez une activité **Créer une audience**.
 1. Définissez un libellé.
@@ -66,7 +68,7 @@ Pour sélectionner une audience existante, procédez comme suit :
 >
 >Si vous souhaitez utiliser une **[!UICONTROL Créer une audience]** activité ciblant une audience Experience Platform, vous devez ajouter une **[!UICONTROL Changement de dimension]** activité après celle-ci, pour vous assurer que la dimension de ciblage de l’audience est définie sur &quot;Destinataire&quot;. Un exemple de workflow est disponible au bas de cette page.
 
-## Exemples
+## Exemples{#build-audience-examples}
 
 Voici un exemple de workflow avec deux activités **Créer une audience**. La première cible l’audience des joueurs et joueuses de poker, suivie d’une diffusion e-mail. La seconde cible l’audience des clientes et clients VIP, suivie d’une diffusion SMS.
 
