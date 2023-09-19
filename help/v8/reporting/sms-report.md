@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser.
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 80%
+source-wordcount: '398'
+ht-degree: 25%
 
 ---
 
@@ -14,31 +14,31 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="Synthèse du rapport SMS"
->abstract="Découvrez les mesures de reporting pour votre diffusion par SMS."
+>title="Présentation de la diffusion SMS"
+>abstract="La variable **Présentation de la diffusion SMS** offre un aperçu complet de votre diffusion SMS, fournissant des informations détaillées et des données spécifiques. Il fournit des informations complètes sur les performances, l’efficacité et les résultats de votre diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Envoi des rapports"
->abstract="L&#39;onglet Envoi de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs avec vos diffusions et sur les erreurs potentielles qu&#39;ils ont pu rencontrer."
+>abstract="La variable **Envoi** Cet onglet de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs avec vos diffusions et sur les erreurs potentielles qu’ils ont pu rencontrer."
 
-Le **rapport de diffusion SMS** offre une vue d’ensemble complète du canal SMS, fournissant des informations détaillées et des données spécifiques. Il fournit des informations complètes sur les performances, l’efficacité et les résultats de chaque diffusion.
+La variable **Présentation de la diffusion SMS** offre un aperçu complet de votre diffusion SMS, fournissant des informations détaillées et des données spécifiques. Il fournit des informations complètes sur les performances, l’efficacité et les résultats de votre diffusion.
 
 ## Synthèse des diffusions {#delivery-summary}
 
-* La **[!UICONTROL vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec vos SMS.
+* **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les taux de succès et d’erreur, ainsi que sur la manière dont vos visiteurs interagissent avec vos SMS.
 
   ![](assets/reporting_sms_3.png)
 
   +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
-   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de la préparation de la diffusion.
+   * **[!UICONTROL Total envoyé]**: Pourcentage et nombre total de messages traités lors de la préparation de la diffusion.
 
-   * **[!UICONTROL Succès]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+   * **[!UICONTROL Succès]**: Pourcentage et nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-   * **[!UICONTROL Taux de clic publicitaire]** : pourcentage d’utilisateurs et utilisatrices ayant interagi avec des liens inclus dans votre diffusion SMS.
+   * **[!UICONTROL Taux de clics]**: pourcentage et nombre d&#39;utilisateurs ayant interagi avec des liens inclus dans votre diffusion SMS.
 
-   * **[!UICONTROL Erreurs]** : nombre total d’erreurs qui se sont produites au cours d’une diffusion et qui l’ont empêché d’être envoyée aux profils.
+   * **[!UICONTROL Erreurs]**: pourcentage et nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
 +++
 
 * Le graphe et le tableau **Population ciblée** affichent les données relatives à votre audience.
@@ -47,9 +47,9 @@ Le **rapport de diffusion SMS** offre une vue d’ensemble complète du canal SM
 
   +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
-   * **[!UICONTROL A envoyer]**: Nombre total de messages traités lors de la préparation de la diffusion.
+   * **[!UICONTROL A envoyer]**: Nombre total et pourcentage de messages traités lors de la préparation de la diffusion.
 
-   * **[!UICONTROL Exclusions]** : nombre de profils qui ont été exclus de l’analyse.
+   * **[!UICONTROL Exclusions]**: nombre et pourcentage de profils qui ont été exclus de l’analyse.
 +++
 
 
@@ -59,18 +59,18 @@ Le **rapport de diffusion SMS** offre une vue d’ensemble complète du canal SM
 
   +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
-   * **[!UICONTROL Succès]** : nombre de messages traités avec succès.
+   * **[!UICONTROL Succès]**: Nombre et pourcentage de messages traités avec succès.
 
-   * **[!UICONTROL Erreurs]** : nombre total d’erreurs qui se sont produites pendant la diffusion, empêchant l’envoi des messages à certains profils.
+   * **[!UICONTROL Erreurs]**: Nombre total et pourcentage d&#39;erreurs s&#39;étant produites lors de la diffusion, empêchant l&#39;envoi des messages à certains profils.
 
-   * **[!UICONTROL Nouvelle quarantaine]** : nombre de profils qui ont été exclus et ajoutés à la quarantaine.
+   * **[!UICONTROL Nouvelle mise en quarantaine]**: nombre et pourcentage de profils qui ont été exclus et ajoutés à la quarantaine.
 +++
 
-* Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message.
+* **[!UICONTROL Exclusions]** le graphique et le tableau affichent les raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message.
 
   ![](assets/reporting_sms_6.png)
 
-## Débit des diffusions {#delivery-throughput}
+## Débit des diffusions (Delivery throughput) {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
