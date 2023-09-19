@@ -5,9 +5,9 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 5ea7ee7cc9046c80d28ea413cd11641e0b213ccf
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 88%
 
 ---
@@ -83,8 +83,7 @@ ht-degree: 88%
       + [Envoyer des diffusions test](preview-test/test-deliveries.md)
       + [Rendu de l’e-mail](preview-test/email-rendering.md)
 + Audiences et destinataires {#audiences}
-   + [Commencer avec les audiences](audience/about-audiences.md)
-   + [Utilisation des destinataires](audience/about-recipients.md)
+   + [Utilisation des destinataires et des audiences](audience/about-recipients.md)
    + [Création d&#39;audiences](audience/create-audience.md)
    + [Surveillance et gestion des audiences](audience/access-audiences.md)
    + Ciblage d’audiences {#target-audiences}
@@ -92,7 +91,7 @@ ht-degree: 88%
       + [Définir une audience à l’aide du créateur de règles](audience/segment-builder.md)
       + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
       + [Utiliser une audience Adobe Experience Platform](audience/aep-audience.md)
-   + [Configurer une population témoin](audience/control-group.md)
+      + [Configurer une population témoin](audience/control-group.md)
    + [Utilisation des services d’abonnement](audience/create-service.md)
 + Campagnes cross-canal {#campaigns}
    + [Prise en main des campagnes](campaigns/gs-campaigns.md)

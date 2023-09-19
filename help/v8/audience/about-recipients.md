@@ -1,16 +1,18 @@
 ---
-title: Utilisation des destinataires
+title: Utilisation des destinataires et des audiences
 description: Découvrez comment utiliser le Web Campaign des destinataires
 badge: label="Beta"
-source-git-commit: 0dc5d7d32c743a4e01f539b9c1fc1733ce1fcffe
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 10%
+source-wordcount: '582'
+ht-degree: 21%
 
 ---
 
 
-# Utilisation des destinataires {#about-recipients}
+# Utilisation des destinataires et des audiences {#about-recipients}
+
+## Destinataires {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -43,3 +45,22 @@ Vous pouvez également accéder aux destinataires à partir de la fonction **Exp
 >
 >En fonction de vos permissions, il se peut que vous n&#39;ayez pas accès à la liste complète des destinataires stockés dans la base de données. Pour en savoir plus sur les autorisations, consultez [cette section](../get-started/permissions.md).
 
+En outre, vous pouvez gérer l&#39;inscription et la désinscription de vos destinataires à des services tels que des newsletters. [Découvrez comment utiliser les services d’abonnement](create-service.md)
+
+## Audiences {#audiences}
+
+L’audience est la cible principale de votre diffusion : les destinataires qui reçoivent les messages. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. [Découvrez ce qu&#39;est un modèle de diffusion](../msg/delivery-template.md).
+
+Pour définir la population d&#39;une audience, vous pouvez :
+
+* [Créer de nouvelles audiences](create-audience.md) de la **[!UICONTROL Audiences]** menu,
+* [Sélectionner une audience existante](add-audience.md) créé en tant que liste dans la console cliente,
+* [Sélection d’une audience Adobe Experience Platform](aep-audience.md),
+* [créer une nouvelle audience avec le créateur de règles en définissant et combinant des critères de filtrage,](segment-builder.md)
+* [Utilisation d’une audience à partir d’un fichier externe](file-audience.md). Cette option est disponible uniquement pour les diffusions email autonomes et ne peut pas être utilisée dans les diffusions de campagne.
+
+Lors du ciblage d’une audience, vous pouvez également définir **populations témoins** pour éviter d’envoyer des messages à une partie de votre audience et mesurer l’impact de vos campagnes. [Découvrez comment définir une population témoin](control-group.md)
+
+>[!NOTE]
+>
+>Lors de l&#39;envoi de messages dans le cadre d&#39;un workflow de campagne, l&#39;audience est définie dans une **Créer une audience** activité de workflow. Dans ce contexte, vous ne pouvez pas charger une audience depuis un fichier pour une diffusion par e-mail, et l’audience n’est définie que dans cette activité dédiée. Découvrez comment définir l’audience de votre diffusion dans un workflow de campagne [dans cette section](../workflows/activities/build-audience.md)
