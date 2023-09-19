@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation des services d’abonnement
 description: Découvrez comment créer et gérer des services dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
+source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1099'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Pour accéder aux services d&#39;abonnement disponibles pour votre plateforme, p
 
 1. Pour modifier un service existant, cliquez sur son nom.
 
-1. Vous pouvez supprimer ou dupliquer n’importe quel service à l’aide de l’icône de trois points située en regard de ce nom de service.
+1. Vous pouvez supprimer ou dupliquer n’importe quel service à l’aide de l’icône de trois points située en regard de ce nom de service.<!--so all subscribers are unsuibscribed - need to mention?-->
 
 ## Créer votre premier service d’abonnement {#create-service}
 
@@ -68,7 +68,11 @@ Pour créer un service d&#39;abonnement, procédez comme suit.
 
    ![](assets/service-create-properties.png)
 
-1. Par défaut, les abonnements sont illimités. Vous pouvez désactiver la variable **[!UICONTROL Durée de validité illimitée]** pour définir une durée de validité du service. Dans l&#39;exemple ci-dessous, après 20 jours, aucun utilisateur ne pourra plus s&#39;abonner à ce service.
+1. Par défaut, les abonnements sont illimités. Vous pouvez désactiver la variable **[!UICONTROL Durée de validité illimitée]** pour définir une durée de validité du service.
+
+   Dans l’exemple ci-dessous, après 20 jours :
+   * Aucun destinataire ne pourra plus s&#39;abonner à ce service.
+   * Tous les abonnés à ce service seront automatiquement désabonnés au bout de 20 jours. [En savoir plus](#automatic-unsubscription)
 
    ![](assets/service-create-validity-period.png)
 
@@ -80,7 +84,7 @@ Pour créer un service d&#39;abonnement, procédez comme suit.
 
 ## Créer un message de confirmation {#create-confirmation-message}
 
-Pour envoyer un message de confirmation aux utilisateurs qui s&#39;abonnent ou se désabonnent de votre service, vous devez créer un modèle de diffusion avec la fonction **[!UICONTROL Abonnements]** mapping de ciblage, sans cible définie. Procédez comme suit :
+Pour envoyer des messages de confirmation aux utilisateurs qui s&#39;abonnent ou se désabonnent de votre service, vous devez créer un modèle de diffusion avec la fonction **[!UICONTROL Abonnements]** mapping de ciblage, sans cible définie. Procédez comme suit :
 
 1. Créez un modèle de diffusion pour la confirmation d&#39;inscription. [Voici comment procéder](../msg/delivery-template.md).
 
@@ -102,7 +106,7 @@ Pour envoyer un message de confirmation aux utilisateurs qui s&#39;abonnent ou s
 
 1. Répétez les étapes ci-dessus pour créer un modèle de diffusion pour la confirmation de désinscription.
 
-Vous pouvez maintenant sélectionner ces messages lorsque [création d’un service d’abonnement](#create-service). Les utilisateurs qui s’abonnent ou se désabonnent de ce service reçoivent le message de confirmation sélectionné.
+Vous pouvez maintenant sélectionner ces messages lorsque [création d’un service d’abonnement](#create-service). Les utilisateurs qui s’abonnent ou se désabonnent de ce service recevront les messages de confirmation sélectionnés.
 
 ## Ajouter des abonnés à votre service {#add-subscribers}
 
@@ -118,7 +122,7 @@ Une fois que vous avez créé un service, vous pouvez ajouter manuellement des a
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Cliquez sur **[!UICONTROL Envoyer]**. Les destinataires sélectionnés recevront l&#39;abonnement. [message de confirmation](#create-confirmation-message) que vous avez sélectionné lorsque [création du service](#create-service).
+1. Cliquez sur **[!UICONTROL Envoyer]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> Les destinataires sélectionnés recevront l&#39;abonnement. [message de confirmation](#create-confirmation-message) que vous avez sélectionné lorsque [création du service](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
@@ -126,7 +130,9 @@ Les profils ajoutés sont affichés dans le **[!UICONTROL Abonnés]** liste. Ils
 
 ## Supprimer des abonnés de votre service {#remove-subscribers}
 
-Une fois que vous avez ajouté des abonnés à votre service, vous pouvez les supprimer. Suivez les étapes ci-dessous.
+### Désabonner manuellement les destinataires {#manual-unsubscription}
+
+Une fois que vous avez ajouté des abonnés à votre service, vous pouvez les désabonner manuellement. Suivez les étapes ci-dessous.
 
 1. Sélectionnez un service existant à partir de la fonction **[!UICONTROL Services d’inscriptions]** liste.
 
@@ -134,11 +140,21 @@ Une fois que vous avez ajouté des abonnés à votre service, vous pouvez les su
 
    ![](assets/service-subscribers-delete.png)
 
-1. Confirmez la suppression et cliquez sur **[!UICONTROL Envoyer]**. Les destinataires sélectionnés recevront la désinscription. [message de confirmation](#create-confirmation-message) que vous avez sélectionné lorsque [création du service](#create-service).
+1. Confirmez la suppression et cliquez sur **[!UICONTROL Envoyer]**. Le destinataire sélectionné recevra la désinscription. [message de confirmation](#create-confirmation-message) que vous avez sélectionné lorsque [création du service](#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
 Le destinataire est supprimé de la variable **[!UICONTROL Abonnés]** et n’est plus abonné à votre service.
+
+### Désabonner automatiquement les destinataires {#automatic-unsubscription}
+
+Un service d’abonnement peut avoir une durée limitée. Les destinataires sont automatiquement désabonnés à l&#39;expiration de la période de validité.
+
+Cette période est spécifiée lorsque [création du service](#create-service). Dans la **[!UICONTROL Options supplémentaires]**, désactivez la variable **[!UICONTROL Durée de validité illimitée]** et définir une période de validité pour le service.
+
+![](assets/service-create-validity-period.png)
+
+Une fois la durée spécifiée expirée, tous les abonnés sont automatiquement désabonnés de ce service.
 
 ## Journaux et rapports du service d’abonnement {#logs-and-reports}
 
@@ -162,7 +178,7 @@ Pour mesurer l’efficacité de vos services d’abonnement pour les canaux SMS 
 
    * La variable **[!UICONTROL Evolution globale des inscriptions]** Le graphique présente la répartition par période, y compris les abonnements, les désabonnements, l’évolution en nombre et le pourcentage de fidélité.<!--what is Registered?-->
 
-   * Utilisez la variable **[!UICONTROL Recharger]** pour récupérer les dernières valeurs de l&#39;exécution et du planning du workflow de tracking.
+1. Utilisez la variable **[!UICONTROL Recharger]** pour récupérer les dernières valeurs de l&#39;exécution et du planning du workflow de tracking.
 
 ## Diffuser aux abonnés d&#39;un service
 
@@ -184,7 +200,7 @@ Une fois que [création d’un service d’abonnement](#create-service), vous po
 
    ![](assets/service-delivery-ready.png)
 
-Votre diffusion n&#39;est envoyée qu&#39;aux abonnés à ce service.
+Votre diffusion n&#39;est envoyée qu&#39;aux abonnés de ce service.
 
 
 
