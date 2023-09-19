@@ -4,9 +4,9 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 72%
 
 ---
@@ -75,7 +75,7 @@ Pour créer une diffusion email autonome, procédez comme suit.
 >title="Sélectionner une audience pour votre diffusion"
 >abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante (déjà définie dans une instance de Campaign v8 ou à partir de Adobe Experience Platform), créer une audience à l’aide du créateur de règles ou charger un fichier contenant votre audience. Les groupes de contrôle ne sont pas activés pour la variable **Sélectionner dans le fichier** et vice versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Sélectionner les audiences principales"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Configurer une population témoin"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Configurer une population témoin"
 
 Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante.
 
