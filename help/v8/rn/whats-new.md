@@ -4,10 +4,10 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
+source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 48%
+source-wordcount: '1007'
+ht-degree: 46%
 
 ---
 
@@ -122,7 +122,7 @@ Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont 
 
 * Les BAT sont maintenant des **e-mails de test** : pour envoyer un BAT, utilisez le bouton **Tester** dans l’UI de diffusion par e-mail. La cible des BAT s’appelle désormais **Profils de test**. [En savoir plus](../preview-test/test-deliveries.md).
 * Les adresses de contrôle sont désormais utilisées comme **Profils de test** : envoyez l’e-mail de test aux adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. [En savoir plus](../preview-test/test-deliveries.md).
-* L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer l’analyse, cliquez sur le bouton **Préparer**. [En savoir plus](../monitor/prepare-send.md).
+* L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer la préparation du message, cliquez sur le bouton **Préparer** bouton . [En savoir plus](../monitor/prepare-send.md)
 * L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu.** [En savoir plus](../preview-test/preview-test.md).
 * Les listes s’appellent désormais **Audiences**. [En savoir plus](../audience/about-audiences.md).
 
