@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Beta"
-source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 61%
 
 ---
@@ -36,7 +36,7 @@ Commencez à créer votre workflow avec les activités pertinentes avant de plac
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## Configurer la diffusion {#create-a-delivery-in-a-workflow}
+## Configuration de l’activité Canal {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,6 @@ Pour configurer une diffusion dans le cadre d&#39;un workflow, procédez comme s
 
    ![](../assets/delivery-activity-in-wf.png)
 
-
    Vous pouvez sélectionner un autre modèle dans le volet de gauche de la configuration de l’activité de canal. Si l’audience précédemment sélectionnée n’est pas compatible avec le canal, vous ne pouvez pas sélectionner de modèle. Pour résoudre ce problème, modifiez l’activité **Créer une audience** et sélectionnez une audience ayant le mapping de ciblage approprié. En savoir plus sur les mappings de ciblage dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
 
 1. Cliquez sur **Créer une diffusion**. Définissez les paramètres et le contenu de votre message de la même manière que vous créez une diffusion autonome. Vous pouvez également planifier et simuler le contenu. [En savoir plus](../../msg/gs-messages.md).
@@ -95,6 +94,7 @@ Pour configurer une diffusion dans le cadre d&#39;un workflow, procédez comme s
 Voici un exemple de workflow cross-canal avec une segmentation et deux diffusions. Le workflow cible la clientèle qui vit à Paris et qui s’intéresse aux machines à café. Parmi cette population, un e-mail est envoyé à la clientèle régulière, et un SMS est envoyé à la clientèle VIP.
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -105,7 +105,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Vous pouvez également créer un workflow récurrent pour envoyer une notification push personnalisée chaque premier jour du mois à 20 heures aux abonnés de votre application mobile selon leur fuseau horaire.
+Vous pouvez également créer un workflow récurrent pour envoyer un SMS personnalisé chaque premier jour du mois à 20 heures à tous les clients habitant à Paris.
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 

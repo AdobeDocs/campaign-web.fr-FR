@@ -4,7 +4,7 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -88,7 +88,7 @@ Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos
 >abstract="Parcourez les listes d’offres et de modèles d’offres qui ont été créés dans la console à l’aide de l’option **Interaction** module . Ces listes sont en lecture seule."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Ajouter des offres à une diffusion"
 
-Dans la section GESTION DES CLIENTS , vous pouvez visualiser les offres et les modèles d’offre. Ces listes sont en lecture seule.
+Dans la section GESTION DES DÉCISIONS , vous pouvez visualiser les offres et les modèles d’offres. Ces listes sont en lecture seule.
 
 * **Offres** - Parcourez la liste des offres et des modèles d’offres créés dans la console à l’aide de la fonction **Interaction** module . Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par dates de début/fin. Des modèles d’offre sont également disponibles.
 
