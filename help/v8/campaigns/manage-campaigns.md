@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 90%
+source-wordcount: '604'
+ht-degree: 77%
 
 ---
 
@@ -69,3 +69,22 @@ Vous pouvez dupliquer ou supprimer une campagne :
 >[!NOTE]
 >
 >L’onglet **Diffusions** affiche toutes les diffusions liées à la campagne. Cependant, les diffusions créées dans un workflow ne peuvent pas être supprimées depuis cet endroit. Pour supprimer une diffusion créée dans le cadre d’un workflow, vous devez supprimer l’activité de diffusion du workflow. [En savoir plus](../msg/gs-messages.md#delivery-delete).
+
+## Utilisation de modèles de campagne{#manage-campaign-templates}
+
+Les modèles d&#39;opération contiennent des paramètres préconfigurés qui peuvent être réutilisés pour créer de nouveaux workflows. Un ensemble de modèles intégrés est disponible pour vous aider à démarrer. Vous pouvez créer et configurer des modèles d&#39;opération, puis créer des opérations à partir de ces modèles.
+
+Un modèle de campagne peut stocker les informations suivantes :
+
+* de la campagne **Propriétés** et **Planification** paramètres
+* modèles de workflow
+* modèles de diffusion
+
+Pour créer un modèle de campagne, procédez comme suit :
+
+1. Cliquez sur le bouton **[!UICONTROL Campagnes]** , accédez à la **Modèles** , puis cliquez sur le bouton **[!UICONTROL Créer un modèle]** bouton .
+1. Sélectionnez le **Modèle** à utiliser, puis fournissez un libellé pour la campagne. Vous pouvez ainsi baser votre nouveau modèle sur un modèle déjà créé.
+1. Si nécessaire, vous pouvez modifier les **options supplémentaires** suivantes : nom interne, dossier, personnes assignées, description et nature.
+1. Définissez le **planning** de votre campagne. Découvrez comment définir le planning de votre campagne dans [cette section](create-campaigns.md#campaign-schedule)
+1. Cliquez sur **Créer**.
+1. Ajoutez des workflows et des modèles de diffusion à votre campagne.

@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 25%
@@ -74,7 +74,6 @@ Pour configurer la variable **Planificateur** activité :
 >Si vous souhaitez démarrer immédiatement le workflow, vous pouvez cliquer sur le bouton **Traitement de la tâche en attente** dans la barre d’actions supérieure du planificateur. Ce bouton n’est disponible que lorsque vous avez démarré le workflow.
 
 Notes:
-
 
 ## Exemple
 
