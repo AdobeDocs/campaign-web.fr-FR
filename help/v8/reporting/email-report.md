@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion par e-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 
    * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL À diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
+   * **[!UICONTROL A envoyer]**: Nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Exclusion]** : nombre total de messages exclus de la cible envoyés.
 +++
@@ -35,7 +35,7 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Message envoyé]** : nombre total de messages à diffuser après l’analyse de la diffusion.
+   * **[!UICONTROL Message envoyé]**: Nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 

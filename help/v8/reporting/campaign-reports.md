@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1853'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -54,7 +54,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de l’analyse de la diffusion.
+   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de la préparation de la diffusion.
 
    * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -74,7 +74,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
@@ -86,7 +86,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l&#39;analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
@@ -248,7 +248,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
-   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de l’analyse de la diffusion.
+   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de la préparation de la diffusion.
 
    * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -266,7 +266,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
@@ -278,7 +278,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
-   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
@@ -310,7 +310,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
-   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de l’analyse de la diffusion.
+   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de la préparation de la diffusion.
 
    * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -326,7 +326,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
@@ -336,7 +336,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
-   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après l’analyse de la diffusion.
+   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 

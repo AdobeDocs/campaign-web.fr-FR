@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Le **rapport de diffusion SMS** offre une vue d’ensemble complète du canal SM
 
   +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
-   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de l’analyse de la diffusion.
+   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de la préparation de la diffusion.
 
    * **[!UICONTROL Succès]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -42,7 +42,7 @@ Le **rapport de diffusion SMS** offre une vue d’ensemble complète du canal SM
 
   +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
-   * **[!UICONTROL À diffuser]** : nombre total de messages traités lors de l’analyse de la diffusion.
+   * **[!UICONTROL A envoyer]**: Nombre total de messages traités lors de la préparation de la diffusion.
 
    * **[!UICONTROL Exclusions]** : nombre de profils qui ont été exclus de l’analyse.
 +++
