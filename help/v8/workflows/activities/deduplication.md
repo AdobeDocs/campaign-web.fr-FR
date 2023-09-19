@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 21%
+source-wordcount: '430'
+ht-degree: 20%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 21%
 
 La variable **Déduplication** est une activité **Ciblage** activité. Cette activité permet de supprimer les doublons dans le ou les résultats des activités entrantes. La variable **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant l&#39;utilisation des données ciblées.
 
-## Configuration
+## Configuration de l&#39;activité Déduplication{#deduplication-configuration}
 
 Pour configurer la variable **Déduplication** activité :
 
-1. Ajouter un **Déduplication** à votre workflow.
+![](../assets/workflow-deduplication.png)
 
-   ![](../assets/workflow-deduplication.png)
+1. Ajouter un **Déduplication** à votre workflow.
 
 1. Dans le **Champs permettant d’identifier des doublons** , cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d&#39;identifier les doublons : adresse email, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
 
@@ -65,5 +65,5 @@ Pour configurer la variable **Déduplication** activité :
 
 1. Vérifiez les **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l&#39;activité.
 
-## Exemple
+## Exemple{#example}
 

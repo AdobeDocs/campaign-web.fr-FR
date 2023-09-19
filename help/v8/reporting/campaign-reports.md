@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
 source-wordcount: '1853'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracking des rapports"
->abstract="L&#39;onglet Envoi de votre rapport propose des données précieuses, notamment le comportement des destinataires par lien, la répartition des ouvertures et des clics, ainsi que des informations détaillées sur les URL ayant reçu le plus de clics lors d&#39;une diffusion."
+>abstract="L&#39;onglet Tracking de votre rapport propose des données précieuses, notamment le comportement des destinataires par lien, la répartition des ouvertures et des clics, ainsi que des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d&#39;une diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -32,7 +32,7 @@ ht-degree: 89%
 >title="Statistiques initiales sur l´audience cible"
 >abstract="Le tableau Statistiques d&#39;audience cible initiale affiche les données relatives à vos destinataires."
 
-Le rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne.
+Le rapport Campagne est divisé en différents widgets détaillant le succès et les erreurs de votre campagne.
 
 La page du rapport de campagne s’affiche avec les onglets suivants :
 
@@ -141,7 +141,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Domaine invalide]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse e-mail est erroné ou n&#39;existe plus.
 
-   * **[!UICONTROL Boîte pleine]** : type d’erreur générée, après cinq tentatives d’envoi d’une diffusion, indiquant que la boîte de réception des destinataires contient trop de messages.
+   * **[!UICONTROL Boîte pleine]**: Type d&#39;erreur généré après cinq tentatives de diffusion pour indiquer que la boîte de réception du destinataire contient trop de messages.
 
    * **[!UICONTROL Compte désactivé]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
 
@@ -149,7 +149,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Inatteignable]** : type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
 
-   * **[!UICONTROL Non connecté]** : type d’erreur indiquant que le téléphone portable des destinataires est éteint ou n’est pas connecté au réseau au moment de l’envoi du message.
+   * **[!UICONTROL Non connecté]** : Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou n&#39;est pas connecté au réseau au moment de l&#39;envoi du message.
 
 +++
 

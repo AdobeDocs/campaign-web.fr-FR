@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 badge: label="Beta"
-source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '887'
 ht-degree: 81%
 
 ---
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * l’**Intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l’activité.
 * l’**Exclusion** permet d’exclure des éléments d’une population selon certains critères.
 
-## Configuration générale {#general}
+## Configurez l&#39;activité Combiner {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -48,13 +48,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 
+![](../assets/workflow-combine.png)
+
 1. Ajoutez plusieurs activités, comme **Créer une audience**, pour former au moins deux branches d’exécution différentes.
 1. Ajoutez une activité **Combiner** à l’une des branches précédentes.
 1. Sélectionnez le type de segmentation : [union](#union), [intersection](#intersection) ou [exclusion](#exclusion).
 1. Cliquez sur **Continuer**.
 1. Dans la section **Ensembles à joindre**, cochez les activités précédentes à joindre.
 
-## Union {#union}
+## Union {#combine-union}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
@@ -71,14 +73,14 @@ Dans le **Combiner** vous pouvez configurer une activité **Union**. Pour cela, 
 * **Uniquement les clés** : il s’agit du mode par défaut. Lorsque des éléments provenant des différentes transitions entrantes ont la même clé, l’activité ne conserve qu’un élément. Cette option ne peut être utilisée que si les populations entrantes sont homogènes.
 * **Une sélection de colonnes** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d’abord sélectionner l’ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
 
-## Intersection {#intersection}
+## Intersection {#combine-intersection}
 
 Dans le **Combiner** vous pouvez configurer une **Intersection**. Pour cela, vous devez suivre les étapes supplémentaires ci-dessous :
 
 1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
 1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
 
-## Exclusion {#exclusion}
+## Exclusion {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
@@ -103,7 +105,7 @@ Dans le **Combiner** vous pouvez configurer une **Exclusion**. Pour cela, vous d
 1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure.
 1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Pour plus d’informations, consultez la section [Intersection](#intersection).
 
-## Exemples
+## Exemples{#combine-examples}
 
 Dans l’exemple suivant, nous utilisons une **Combiner** activité et nous ajoutons une **union** pour retrouver tous les profils des deux requêtes : les personnes âgées de 18 à 27 ans et les personnes âgées de 34 à 40 ans.
 
