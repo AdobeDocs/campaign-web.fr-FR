@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Branchement
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 68%
+source-wordcount: '165'
+ht-degree: 66%
 
 ---
 
@@ -26,15 +26,17 @@ ht-degree: 68%
 
 La variable **Branchement** est une activité **Contrôle de flux** activité. Il permet de créer des transitions sortantes afin de lancer simultanément plusieurs activités.
 
-## Configuration
+## Configuration de l’activité Branchement{#fork-configuration}
 
 Pour configurer l’activité **Branchement**, procédez comme suit :
+
+![](../assets/workflow-fork.png)
 
 1. Ajoutez une activité **Branchement** à votre workflow.
 1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
 1. Ajoutez un libellé à chacune de vos transitions.
 
-## Exemple
+## Exemple{#fork-example}
 
 Dans l’exemple suivant, nous utilisons deux activités **Branchement** :
 

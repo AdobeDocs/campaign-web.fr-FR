@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation de l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication
 badge: label="Beta"
-source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 18%
 
 ---
@@ -65,8 +65,8 @@ Pour configurer la variable **Déduplication** activité :
 
 1. Vérifiez les **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l&#39;activité.
 
-## Exemple{#example}
+## Exemple{#deduplication-example}
 
-Dans l&#39;exemple suivant, nous utilisons une activité de déduplication pour exclure les doublons de la cible avant l&#39;envoi d&#39;une diffusion. Les doublons identifiés sont ajoutés à une audience dédiée aux doublons qui peut être réutilisée si nécessaire. Nous utilisons la variable **Email** pour identifier les doublons. Nous choisissons de conserver 1 entrée et de sélectionner la variable **Random** méthode de déduplication.
+Dans l&#39;exemple suivant, nous utilisons une activité de déduplication pour exclure les doublons de la cible avant l&#39;envoi d&#39;une diffusion. Les doublons identifiés sont ajoutés à une audience dédiée qui peut être réutilisée si nécessaire. Nous utilisons la variable **Email** pour identifier les doublons. Nous choisissons de conserver 1 entrée et de sélectionner la variable **Random** méthode de déduplication.
 
 ![](../assets/workflow-deduplication-example.png)

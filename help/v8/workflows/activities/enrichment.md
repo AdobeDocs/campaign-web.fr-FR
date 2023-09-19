@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
@@ -45,7 +45,7 @@ Une fois que les données d’enrichissement ont été ajoutées au workflow, vo
 
 Par exemple, vous pouvez ajouter à la table de travail du workflow des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
 
-## Configuration générale {#general}
+## Configuration de l&#39;activité Enrichissement {#enrichment-configuration}
 
 Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
@@ -76,7 +76,7 @@ Dans ce cas pratique plus complexe, nous sélectionnons un lien de collecte qui 
 * un filtre : filtrez les éléments supérieurs à 100 USD ;
 * un tri : tri descendant sur le champ **Date de commande**.
 
-### Ajouter l’attribut
+### Ajouter l’attribut {#add-attribute}
 
 C’est là que vous sélectionnez le lien de collecte à utiliser comme données d’enrichissement.
 
@@ -86,7 +86,7 @@ C’est là que vous sélectionnez le lien de collecte à utiliser comme donnée
 
 ![](../assets/workflow-enrichment3.png)
 
-### Définir les paramètres de la collecte
+### Définir les paramètres de la collecte{#collection-settings}
 
 Définissez ensuite la manière dont les données sont collectées et le nombre d’enregistrements à récupérer.
 
@@ -99,7 +99,7 @@ Si vous souhaitez, par exemple, obtenir le montant moyen des achats d’un clien
 
 ![](../assets/workflow-enrichment5.png)
 
-### Définir des filtres
+### Définir des filtres{#collection-filters}
 
 Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. Nous filtrons les éléments supérieurs à 100 USD.
 
@@ -109,7 +109,7 @@ Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. No
 
 ![](../assets/workflow-enrichment6.png)
 
-### Définir le tri
+### Définir le tri{#collection-sorting}
 
 Nous devons maintenant appliquer un tri pour récupérer les trois **derniers** achats.
 
