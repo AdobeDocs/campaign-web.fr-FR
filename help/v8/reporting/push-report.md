@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion des notifications push
 description: Découvrez comment accéder aux rapports de diffusion des notifications push et les utiliser.
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 80%
+source-wordcount: '368'
+ht-degree: 73%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Synthèse du rapport des notifications push"
->abstract="Découvrez les mesures de reporting pour votre diffusion par notification push."
+>abstract="La variable **Présentation de la diffusion push** offre un aperçu complet de votre diffusion push, fournissant des informations détaillées et des données spécifiques. Il fournit des informations complètes sur les performances, l’efficacité et les résultats de votre diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Envoi des rapports"
->abstract="L&#39;onglet Envoi de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs avec vos diffusions et sur les erreurs potentielles qu&#39;ils ont pu rencontrer."
+>abstract="he **Envoi** Cet onglet de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs avec vos diffusions et sur les erreurs potentielles qu’ils ont pu rencontrer."
 
 Le **rapport de diffusion des notifications push** offre une vue d’ensemble complète du canal de notification push, avec des informations détaillées et des données spécifiques. Il fournit des informations complètes sur les performances, l’efficacité et les résultats de chaque diffusion.
 

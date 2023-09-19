@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion par e-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '1787'
-ht-degree: 73%
+source-wordcount: '1890'
+ht-degree: 68%
 
 ---
 
@@ -19,17 +19,17 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Envoi des rapports"
->abstract="Le menu Envoi de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs avec vos diffusions et sur les erreurs potentielles qu’ils ont pu rencontrer."
+>abstract="he **Envoi** Cet onglet de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs avec vos diffusions et sur les erreurs potentielles qu’ils ont pu rencontrer."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="Widget de population cible initiale"
->abstract="Le graphique Population cible initiale affiche les données relatives à vos destinataires et au succès de votre diffusion."
+>abstract="La variable **Population cible initiale** Le graphique affiche les données relatives à vos destinataires et le succès de votre diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Widget de statistiques de diffusion"
->abstract="Le graphique Statistiques de diffusion présente le succès de votre diffusion et les erreurs qui se sont produites."
+>abstract="La variable **Statistiques de diffusion** Le graphique décrit le succès de votre diffusion et les erreurs qui se sont produites."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
@@ -92,7 +92,7 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
 >title="Débit des diffusions (Delivery throughput) widget"
->abstract="Le rapport Débit de diffusion présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée."
+>abstract="La variable **Débit de diffusion** le rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période spécifiée."
 
 Ce rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
 
@@ -101,7 +101,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="Widget de statistiques de diffusion"
->abstract="Le tableau Statistiques d&#39;émission contient les données disponibles relatives aux erreurs possibles rencontrées pour chaque domaine."
+>abstract="La variable **Statistiques de diffusion** contient les données disponibles pour les erreurs possibles rencontrées pour chaque domaine."
 
 * Le tableau **[!UICONTROL Statistiques de diffusion]** contient les données disponibles liées aux erreurs possibles rencontrées pour chaque domaine.
 
@@ -129,12 +129,12 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Ventilation des erreurs par type de widget"
->abstract="Le tableau et graphique Répartition des erreurs par type contient les données disponibles pour chaque type d&#39;erreur rencontré."
+>abstract="La variable **Ventilation des erreurs par type** le tableau et le graphique contiennent les données disponibles pour chaque type d’erreur rencontré."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Ventilation des erreurs par widget de domaine"
->abstract="Le tableau et graphique Répartition des erreurs par type contient les données disponibles pour chaque type d&#39;erreur rencontré, selon chaque domaine."
+>abstract="La variable **Ventilation des erreurs par domaine** le tableau et le graphique contiennent les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
 
 * Les tableaux et graphes **[!UICONTROL Répartition des erreurs par type]** et **[!UICONTROL Répartition des erreurs par domaine]** contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 
@@ -165,17 +165,17 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="Tracking des rapports"
->abstract="L&#39;onglet Tracking de votre rapport propose des données précieuses, notamment le comportement des destinataires par lien, la répartition des ouvertures et des clics, ainsi que des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d&#39;une diffusion."
+>abstract="La variable **Tracking** dans votre rapport, cet onglet contient des données importantes, notamment le comportement des destinataires par lien, la répartition des ouvertures et des clics, ainsi que des informations détaillées sur les URL ayant reçu le plus de clics lors d&#39;une diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Widget de statistiques de diffusion"
->abstract="Le widget Statistiques de diffusion fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés."
+>abstract="La variable **Statistiques de diffusion** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Widget de taux d’ouverture et de clic"
->abstract="Le tableau Taux d&#39;ouverture et de clics affiche les données relatives à l&#39;engagement des destinataires avec votre diffusion."
+>abstract="La variable **Taux d&#39;ouverture et de clic** Le tableau affiche les données relatives à l’engagement de vos destinataires avec votre diffusion."
 
 * Les **[!UICONTROL statistiques de diffusion]** fournissent des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les données disponibles pour les e-mails envoyés.
 
@@ -218,7 +218,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL et flux de clics (URLs and click streams) widget"
->abstract="Les URL et flux de clics fournissent des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion."
+>abstract="La variable **URL et flux de clics** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion."
 
 * Les **[!UICONTROL URL et flux de clics]** fournissent des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion.
 
@@ -257,7 +257,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="Widget Activités utilisateur"
->abstract="Le graphique Activités utilisateurs affiche la répartition des ouvertures et clics sous la forme d&#39;un graphique. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour, dernière heure ou 30 dernières minutes."
+>abstract="La variable **Activités utilisateurs** Le graphique présente la répartition des ouvertures et clics sous la forme d&#39;un graphique. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour, dernière heure ou 30 dernières minutes."
 
 * Les **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et clics sous la forme d’un graphique. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour, dernière heure ou 30 dernières minutes.
 
@@ -276,7 +276,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Widget Statistiques de suivi"
->abstract="Le graphique Statistiques de suivi fournit des statistiques sur les ouvertures et les clics. Vous avez la possibilité de sélectionner la période spécifique pour les données de ciblage."
+>abstract="La variable **Statistiques de suivi** Le graphique fournit des statistiques sur les ouvertures et les clics. Vous avez la possibilité de sélectionner la période spécifique pour les données de ciblage."
 
 * Le graphe **[!UICONTROL Statistiques de tracking]** fournit des statistiques sur les ouvertures et les clics. Vous avez la possibilité de sélectionner la période spécifique pour les données de ciblage.
 
@@ -294,15 +294,16 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
->title="Ventilation par widget d’appareil"
->abstract="Ventilation par appareil"
+>title="Répartition par appareil"
+>abstract="La variable **Ventilation par appareil** affiche la répartition des ouvertures, par type d&#39;appareil, sur la période concernée. Le premier graphique présente les statistiques d&#39;ouverture sur un ordinateur et des appareils mobiles. Le second affiche des statistiques relatives uniquement aux ouvertures sur les appareils mobiles."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="Ventilation par widget du système d’exploitation"
->abstract="Ventilation par système d’exploitation"
+>title="Répartition par système d’exploitation"
+>abstract="La variable **Ventilation par système d’exploitation** affiche la répartition des ouvertures, par système d&#39;exploitation, sur la période concernée. Le premier graphique présente les statistiques d&#39;ouverture sur un ordinateur et des appareils mobiles. Le second affiche des statistiques relatives uniquement aux ouvertures sur les appareils mobiles."
 
-Ce rapport affiche la répartition des ouvertures par système d’exploitation, par appareil, et par navigateur, sur la période sélectionnée. Pour chaque catégorie, deux graphiques sont utilisés. Le premier affiche les statistiques d’ouvertures sur ordinateur et mobile. Le second affiche uniquement les statistiques d’ouvertures sur mobiles.
+Ce rapport affiche la répartition des ouvertures par système d&#39;exploitation, par appareil, et par navigateur, sur la période sélectionnée. Pour chaque catégorie, deux graphiques sont utilisés. Le premier affiche les statistiques d&#39;ouvertures sur ordinateur et mobile. Le second affiche uniquement les statistiques d&#39;ouvertures sur mobiles.
+
 Vous avez la possibilité de passer de **[!UICONTROL Fixe et mobile]** à **[!UICONTROL Mobile uniquement]** pour un ciblage plus précis.
 
 ![](assets/reporting_email_13.png){align="center"}
@@ -312,8 +313,8 @@ Vous avez la possibilité de passer de **[!UICONTROL Fixe et mobile]** à **[!UI
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="Rapport HotClicks"
->abstract="Le rapport Clics rapides présente le contenu du message avec le pourcentage de clics sur chaque lien."
+>abstract="La variable **Hotclicks** présente le contenu de l&#39;email (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. Les blocs de personnalisation, liens de désinscription, liens de page miroir et liens d&#39;offre sont pris en compte dans le total des clics cumulés, mais ne sont pas affichés dans le rapport."
 
-Ce rapport présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. Les liens situés dans les blocs de personnalisation, le lien de désinscription, le lien vers la page miroir et les liens des offres sont comptabilisés dans le total des clics cumulés mais ne sont pas affichés dans le rapport.
+Ce rapport présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. Les blocs de personnalisation, liens de désinscription, liens de page miroir et liens d&#39;offre sont pris en compte dans le total des clics cumulés, mais ne sont pas affichés dans le rapport.
 
 ![](assets/reporting11.png)
