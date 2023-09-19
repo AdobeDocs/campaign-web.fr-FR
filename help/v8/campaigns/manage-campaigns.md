@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Beta"
-source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
+source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 77%
+source-wordcount: '603'
+ht-degree: 75%
 
 ---
 
@@ -70,7 +70,7 @@ Vous pouvez dupliquer ou supprimer une campagne :
 
 ## Utilisation de modèles de campagne{#manage-campaign-templates}
 
-Les modèles d&#39;opération contiennent des paramètres préconfigurés qui peuvent être réutilisés pour créer de nouveaux workflows. Un ensemble de modèles intégrés est disponible pour vous aider à démarrer. Vous pouvez créer et configurer des modèles d&#39;opération, puis créer des opérations à partir de ces modèles.
+Les modèles d’opération contiennent des paramètres préconfigurés qui peuvent être réutilisés pour créer de nouvelles campagnes. Un ensemble de modèles intégrés est disponible pour vous aider à démarrer. Vous pouvez créer et configurer des modèles d&#39;opération, puis créer des opérations à partir de ces modèles.
 
 Un modèle de campagne peut stocker les informations suivantes :
 
@@ -81,7 +81,8 @@ Un modèle de campagne peut stocker les informations suivantes :
 Pour créer un modèle de campagne, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Campagnes]** , accédez à la **Modèles** , puis cliquez sur le bouton **[!UICONTROL Créer un modèle]** bouton .
-1. Sélectionnez le **Modèle** à utiliser, puis fournissez un libellé pour la campagne. Vous pouvez ainsi baser votre nouveau modèle sur un modèle déjà créé.
+1. Sélectionnez la variable **Modèle** à utiliser. Vous pouvez ainsi baser votre nouveau modèle sur un modèle créé précédemment.
+1. Attribuez un libellé à votre modèle.
 1. Si nécessaire, vous pouvez modifier les **options supplémentaires** suivantes : nom interne, dossier, personnes assignées, description et nature.
 1. Définissez le **planning** de votre campagne. Découvrez comment définir le planning de votre campagne dans [cette section](create-campaigns.md#campaign-schedule)
 1. Cliquez sur **Créer**.
