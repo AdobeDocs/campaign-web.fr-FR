@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 20%
+source-wordcount: '482'
+ht-degree: 18%
 
 ---
 
@@ -60,10 +60,13 @@ Pour configurer la variable **Déduplication** activité :
 1. Sélectionnez la variable **Méthode de déduplication** pour utiliser :
 
    * **Sélection aléatoire**: sélectionne au hasard parmi les doublons l&#39;enregistrement à conserver.
-   * **A partir d&#39;une expression** : permet de conserver les enregistrements dont la valeur de l&#39;expression renseignée est la plus petite ou la plus grande. Tri ++ des expressions ++
-   * **Par ordonnancement de valeurs** : permet de définir un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attribut** pour sélectionner un champ ou créer une expression, ajoutez la ou les valeurs dans le tableau correspondant. Cliquez sur le bouton Ajouter situé au-dessus de la liste des valeurs pour définir un nouveau champ. ++ Tri
+   * **A partir d&#39;une expression** : permet de conserver les enregistrements dont la valeur de l&#39;expression renseignée est la plus petite ou la plus grande.
+   * **Par ordonnancement de valeurs** : permet de définir un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attribut** pour sélectionner un champ ou créer une expression, ajoutez la ou les valeurs dans le tableau correspondant. Cliquez sur le bouton Ajouter situé au-dessus de la liste des valeurs pour définir un nouveau champ.
 
 1. Vérifiez les **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l&#39;activité.
 
 ## Exemple{#example}
 
+Dans l&#39;exemple suivant, nous utilisons une activité de déduplication pour exclure les doublons de la cible avant l&#39;envoi d&#39;une diffusion. Les doublons identifiés sont ajoutés à une audience dédiée aux doublons qui peut être réutilisée si nécessaire. Nous utilisons la variable **Email** pour identifier les doublons. Nous choisissons de conserver 1 entrée et de sélectionner la variable **Random** méthode de déduplication.
+
+![](../assets/workflow-deduplication-example.png)
