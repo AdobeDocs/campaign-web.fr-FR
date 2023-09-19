@@ -4,7 +4,7 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 46%
@@ -44,7 +44,7 @@ Utilisez la nouvelle UI web de Campaign pour :
 
 * Créer un contenu d’e-mail personnalisé avec le concepteur d’e-mail - [En savoir plus](../content/edit-content.md)
 * Envoyez des campagnes cross-canal, y compris des SMS et des notifications push - [En savoir plus](../workflows/activities/channels.md)
-* Définir des audiences cibles avec le créateur de règles - [En savoir plus](../audience/about-audiences.md)
+* Définir des audiences cibles avec le créateur de règles - [En savoir plus](../audience/about-recipients.md)
 * Prévisualiser, tester et envoyer vos messages - [En savoir plus](../monitor/prepare-send.md)
 * Surveiller l’envoi et la mesure des résultats à l’aide de rapports intégrés - [En savoir plus](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont 
 * Les adresses de contrôle sont désormais utilisées comme **Profils de test** : envoyez l’e-mail de test aux adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. [En savoir plus](../preview-test/test-deliveries.md).
 * L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer la préparation du message, cliquez sur le bouton **Préparer** bouton . [En savoir plus](../monitor/prepare-send.md)
 * L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu.** [En savoir plus](../preview-test/preview-test.md).
-* Les listes s’appellent désormais **Audiences**. [En savoir plus](../audience/about-audiences.md).
+* Les listes s’appellent désormais **Audiences**. [En savoir plus](../audience/about-recipients.md).
 
 ## Limites{#limitations-beta}
 

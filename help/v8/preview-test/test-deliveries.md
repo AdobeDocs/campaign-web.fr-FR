@@ -4,7 +4,7 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
@@ -86,7 +86,7 @@ Pour sélectionner les destinataires d’une diffusion test, procédez comme sui
 
 Pour envoyer un e-mail ou un SMS de test à une adresse e-mail ou un numéro de téléphone spécifique tout en affichant les données d’un profil existant de la base de données [!DNL Campaign], utilisez des profils de substitution.
 
-1. Avant d’envoyer un test, assurez-vous de définir une audience cible pour votre diffusion. [En savoir plus](../audience/about-audiences.md).
+1. Avant d’envoyer un test, assurez-vous de définir une audience cible pour votre diffusion. [En savoir plus](../audience/about-recipients.md).
 
 1. Accédez à l’écran de modification du contenu de votre diffusion e-mail ou SMS, puis cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
@@ -98,7 +98,7 @@ Pour envoyer un e-mail ou un SMS de test à une adresse e-mail ou un numéro de 
 
    >[!CAUTION]
    >
-   >Si vous n’avez pas sélectionné d’[audience](../audience/about-audiences.md) pour votre diffusion, l’option **[!UICONTROL Substituer à partir de la cible principale]** est grisée et vous ne pourrez pas sélectionner de profil de substitution.
+   >Si vous n’avez pas sélectionné d’[audience](../audience/about-recipients.md) pour votre diffusion, l’option **[!UICONTROL Substituer à partir de la cible principale]** est grisée et vous ne pourrez pas sélectionner de profil de substitution.
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter une adresse]** et indiquez l’adresse e-mail ou le numéro de téléphone qui recevra la diffusion test.
 

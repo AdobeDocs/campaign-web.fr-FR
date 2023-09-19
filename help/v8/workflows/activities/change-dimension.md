@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Changement de dimension
 description: Découvrez comment utiliser l’activité de workflow Changement de dimension
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 13%
+source-wordcount: '210'
+ht-degree: 12%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 La variable **Changement de dimension** est une activité **Ciblage** activité. Cette activité vous permet de modifier la dimension de ciblage à mesure que vous créez une audience. Cette activité déplace l’axe en fonction du modèle de données et de la dimension d’entrée. Par exemple, vous pouvez passer de la dimension &quot;contrats&quot; à la dimension &quot;clients&quot;.
 
-## Configuration
+## Configuration de l’activité Changement de dimension {#configure}
 
 Pour configurer la variable **Changement de dimension** activité :
 
@@ -37,5 +37,6 @@ Pour configurer la variable **Changement de dimension** activité :
 
 1. Exécutez le workflow pour visualiser le résultat. Comparez les données des tables avant et après l&#39;activité de changement de dimension et comparez la structure des tables du workflow.
 
+## Exemple {#example}
 
 

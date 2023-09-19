@@ -3,7 +3,7 @@ audience: end-user
 title: Créer une diffusion notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 77%
@@ -52,7 +52,7 @@ Pour créer une diffusion push autonome, procédez comme suit :
 
 1. Dans le menu **[!UICONTROL Audience]**, sélectionnez l’application à utiliser pour cette diffusion.
 
-1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. [En savoir plus](../audience/about-audiences.md)
+1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. [En savoir plus](../audience/about-recipients.md)
 
    Notez que, par défaut, votre notification push sera envoyée à toutes les personnes abonnées de l’application.
 

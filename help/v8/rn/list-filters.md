@@ -4,7 +4,7 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 98%
@@ -42,7 +42,7 @@ Utilisez la nouvelle UI web de Campaign pour :
 
 * Créer un contenu d’e-mail personnalisé avec le concepteur d’e-mail - [En savoir plus](../content/edit-content.md)
 * Envoyer des campagnes cross-canal, y compris des SMS et des notifications push
-* Définir des audiences cibles avec le créateur de règles - [En savoir plus](../audience/about-audiences.md)
+* Définir des audiences cibles avec le créateur de règles - [En savoir plus](../audience/about-recipients.md)
 * Prévisualiser, tester et envoyer vos e-mails - [En savoir plus](../monitor/prepare-send.md)
 * Surveiller l’envoi et la mesure des résultats à l’aide de rapports intégrés - [En savoir plus](../reporting/delivery-reports.md)
 

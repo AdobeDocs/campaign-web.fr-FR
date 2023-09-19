@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 badge: label="Beta"
-source-git-commit: 4028fabf0aca85ace97316b4e072c2b1dfa5dc5f
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -29,7 +29,7 @@ Pour définir la population de l’audience, vous pouvez :
 
 >[!NOTE]
 >
->Dans ce contexte, vous ne pouvez pas charger d’audience à partir d’un fichier. Pour cela, vous devez créer une diffusion email autonome. [En savoir plus](../../audience/about-audiences.md)
+>Dans ce contexte, vous ne pouvez pas charger d’audience à partir d’un fichier. Pour cela, vous devez créer une diffusion email autonome. [En savoir plus](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

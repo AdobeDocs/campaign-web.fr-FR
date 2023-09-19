@@ -4,7 +4,7 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 72%
@@ -79,7 +79,7 @@ Pour créer une diffusion email autonome, procédez comme suit.
 
 Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante.
 
-Des instructions supplémentaires sur l’utilisation des audiences sont disponibles dans [cette section](../audience/about-audiences.md).
+Des instructions supplémentaires sur l’utilisation des audiences sont disponibles dans [cette section](../audience/about-recipients.md).
 
 1. Pour sélectionner l’audience de l’e-mail, cliquez sur le bouton **[!UICONTROL Sélectionner l’audience]** et choisissez une audience existante dans la liste.
 

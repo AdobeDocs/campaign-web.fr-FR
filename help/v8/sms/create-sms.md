@@ -4,7 +4,7 @@ title: Créer une diffusion SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: a67a692cf9b74015323954eca5b4c554f7fe8eb6
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 82%
@@ -51,7 +51,7 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
    * **[!UICONTROL Nature]** : indiquez la nature de l’e-mail à des fins de classification.
 +++
 
-1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. [En savoir plus](../audience/about-audiences.md).
+1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. [En savoir plus](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png)
 

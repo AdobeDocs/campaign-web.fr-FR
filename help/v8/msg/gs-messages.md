@@ -4,7 +4,7 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 86%
@@ -79,7 +79,7 @@ Pour créer une diffusion autonome, procédez comme suit :
    * [Canal des notifications push](../push/gs-push.md)
    * [Canal SMS](../sms/create-sms.md)
 
-1. Définissez l’audience de la diffusion, pour la cible principale et la population témoin. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-audiences.md).
+1. Définissez l’audience de la diffusion, pour la cible principale et la population témoin. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-recipients.md).
 1. Définissez le contenu du message.
 1. (facultatif) Définir la diffusion [planning](#gs-schedule). Si aucun planning n’est défini, les messages sont envoyés immédiatement après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**.
 1. Cliquez sur le bouton **[!UICONTROL Vérifier et envoyer]** pour vérifier vos paramètres.
