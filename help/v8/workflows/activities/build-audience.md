@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 badge: label="Beta"
-source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -74,6 +74,6 @@ Voici un exemple de workflow avec deux activités **Créer une audience**. La pr
 
 ![](../assets/workflow-audience-example.png)
 
-Voici un autre exemple de workflow dans lequel une audience Adobe Experience Platform est combinée à une audience Adobe Campaign. Pour combiner ces audiences, une **[!UICONTROL Changement de dimension]** l’activité avec la dimension de ciblage &quot;Destinataire&quot; est ajoutée après l’audience Adobe Experience Platform. [Découvrez comment configurer une activité Modification de dimension](change-dimension.md)
+Voici un autre exemple de workflow dans lequel une audience Adobe Experience Platform est combinée à une audience Adobe Campaign. Pour combiner ces audiences, une **[!UICONTROL Changement de dimension]** l’activité avec la dimension de ciblage &quot;Destinataire&quot; est ajoutée après l’audience Adobe Experience Platform. [Découvrez comment configurer une activité Changement de dimension](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)

@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Beta"
-source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 61%
@@ -30,7 +30,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 
 Commencez à créer votre workflow avec les activités pertinentes avant de placer la diffusion :
 
-* Si vous souhaitez envoyer une diffusion récurrente, démarrez votre workflow avec un **Planificateur** activité. Si vous souhaitez envoyer une diffusion ponctuelle, vous pouvez définir la date de contact à l’aide d’une **Planificateur** ou définissez le planning dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
+* Si vous souhaitez envoyer une diffusion récurrente, démarrez votre workflow avec une **Planificateur** activité. Si vous souhaitez envoyer une diffusion ponctuelle, vous pouvez définir la date de contact à l’aide d’une **Planificateur** ou définissez le planning dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
 
 * Ajoutez une activité **Créer une audience.** L’audience est la cible principale de votre diffusion : il s’agit des destinataires qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**. Consultez [cette section](build-audience.md).
 

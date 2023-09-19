@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 81%
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * l’**Intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l’activité.
 * l’**Exclusion** permet d’exclure des éléments d’une population selon certains critères.
 
-## Configurez l&#39;activité Combiner {#combine-configuration}
+## Configuration de l’activité Combiner {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
