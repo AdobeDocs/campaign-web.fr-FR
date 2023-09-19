@@ -2,7 +2,7 @@
 title: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 description: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 7%
@@ -66,13 +66,17 @@ Un message d’erreur spécifique s’affiche.
 
 Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le créateur de règles et si vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage dans la variable **Attributs** de l’écran.
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 Vous pouvez également accéder à la requête SQL pour vérifier les paramètres exacts. Pour ce faire, cliquez sur le bouton **Affichage du code** bouton .
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-Cliquez sur le bouton **Calculer** pour vérifier combien d’éléments correspondent aux critères du filtre. Utilisez la variable **Affichage des résultats** pour afficher ces éléments.
+Cliquez sur le bouton **Calculer** pour vérifier combien d’éléments correspondent aux critères du filtre.
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+Utilisez la variable **Affichage des résultats** pour afficher ces éléments.
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
