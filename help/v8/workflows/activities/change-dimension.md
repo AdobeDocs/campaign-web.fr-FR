@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Changement de dimension
 description: Découvrez comment utiliser l’activité de workflow Changement de dimension
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: 524d690ad5dbaa1d63c53cece05207eb0d745540
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 12%
+source-wordcount: '292'
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,10 @@ ht-degree: 12%
 >title="Activité Changement de dimension"
 >abstract="Cette activité vous permet de modifier la dimension de ciblage à mesure que vous créez une audience. Il déplace l’axe en fonction du modèle de données et de la dimension d’entrée. Par exemple, vous pouvez passer de la dimension &quot;contrats&quot; à la dimension &quot;clients&quot;."
 
-La variable **Changement de dimension** est une activité **Ciblage** activité. Cette activité vous permet de modifier la dimension de ciblage à mesure que vous créez une audience. Cette activité déplace l’axe en fonction du modèle de données et de la dimension d’entrée. Par exemple, vous pouvez passer de la dimension &quot;contrats&quot; à la dimension &quot;clients&quot;.
+La variable **Changement de dimension** est une activité **Ciblage** activité. Cette activité permet de modifier la dimension de ciblage au fur et à mesure de la construction de votre workflow.
+Cette activité déplace l’axe en fonction du modèle de données et de la dimension d’entrée.
+
+Par exemple, vous pouvez passer la dimension de ciblage d&#39;un workflow de &quot;Destinataires&quot; à &quot;Application d&#39;abonnés&quot; afin d&#39;envoyer des notifications push aux destinataires ciblés.
 
 ## Configuration de l’activité Changement de dimension {#configure}
 
@@ -39,4 +42,8 @@ Pour configurer la variable **Changement de dimension** activité :
 
 ## Exemple {#example}
 
+Dans cet exemple, nous souhaitons envoyer une diffusion SMS à tous les profils ayant effectué un achat. Pour ce faire, nous utilisons d’abord un **[!UICONTROL Créer une audience]** activité liée à une dimension de ciblage &quot;Achat&quot; personnalisée pour cibler tous les achats qui se sont produits.
 
+Nous utilisons ensuite une **[!UICONTROL Changement de dimension]** pour changer la dimension de ciblage du workflow en &quot;Destinataires&quot;. Cela nous permet de cibler les destinataires qui correspondent à la requête.
+
+![](assets/workflow-change-dimension-example.png)
