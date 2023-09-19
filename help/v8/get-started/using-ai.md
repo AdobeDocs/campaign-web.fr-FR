@@ -2,9 +2,9 @@
 title: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 description: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ L’intelligence artificielle et les modèles d’apprentissage automatique s’
 
 ## Recommandations  {#recommendations-ai}
 
-Lorsque vous posez une question dans l’assistant de connaissances optimisé par l’IA, le contexte du produit actuel, c’est-à-dire l’écran Campaign dans lequel vous vous trouvez, est pris en compte.
+Lorsque vous posez une question dans l’assistant de connaissances optimisé par l’IA, le contexte du produit actuel, c’est-à-dire l’écran Campaign dans lequel vous vous trouvez et le contenu de la boîte d’aide actuelle, est pris en compte.
 
 Pour tirer le meilleur parti de l’assistant de connaissances optimisé par l’IA, nous vous conseillons de :
 
