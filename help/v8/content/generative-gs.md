@@ -3,9 +3,9 @@ audience: end-user
 title: Prise en main de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 3%
 L’assistant de contenu, optimisé par une IA générative, est un outil précieux pour améliorer le contenu des emails. Elle simplifie la personnalisation et l’amélioration du contenu, optimisant vos diffusions email pour mieux résonner avec votre audience.
 
 Cette fonctionnalité permet de gagner du temps et d’assurer une qualité cohérente en générant automatiquement un contenu d’email complet. En utilisant l’IA générique, vous pouvez créer des emails attrayants sans effort, améliorant ainsi l’efficacité et l’efficience de vos communications.
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité sera disponible début octobre.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">

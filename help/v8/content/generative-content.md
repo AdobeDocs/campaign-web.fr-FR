@@ -3,9 +3,9 @@ audience: end-user
 title: Texte avec l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '351'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 6%
 Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistant de contenu, optimisé par l’IA générative, pour passer votre contenu au niveau supérieur.
 
 L’assistant de contenu peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent plus susceptible de résonner auprès de votre audience.
+
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité sera disponible début octobre.
 
 1. Après avoir créé et configuré votre diffusion Email, cliquez sur **[!UICONTROL Modifier le contenu]**.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Génération d’emails avec l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '418'
 ht-degree: 2%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 2%
 L’assistant de contenu améliore l’impact de votre communication en générant automatiquement du contenu d’email complet, ce qui vous permet de gagner du temps et d’assurer une qualité cohérente.
 
 Grâce à Generative AI, vous pouvez créer facilement des emails attrayants qui interagissent avec votre audience, rendant ainsi votre communication plus efficace et plus efficace.
+
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité sera disponible début octobre.
+
 
 1. Après avoir créé et configuré votre diffusion Email, cliquez sur **[!UICONTROL Créer du contenu]**.
 

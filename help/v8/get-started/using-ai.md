@@ -2,10 +2,10 @@
 title: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 description: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 badge: label="Beta"
-source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '337'
+ht-degree: 0%
 
 ---
 
@@ -13,24 +13,29 @@ ht-degree: 1%
 
 Obtenez des réponses rapides et générées par l’IA en fonction de la documentation du produit et de votre contexte de produit actuel, avec l’assistant de connaissance optimisé par l’IA disponible dans les boîtes d’aide contextuelle du produit.
 
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité sera disponible début octobre.
+
 La variable **Assistant de connaissances avec Gen AI** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
 
 Grâce aux fonctionnalités de Campaign Gen AI, cet assistant transforme votre expérience, en faisant de la récupération d&#39;informations et de la résolution de problèmes une brise. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances avec Gen AI est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
 
-![](assets/ask-a-question.png)
+![](assets/ask-a-question.png){width="70%" align="left"}
 
+<!--
+## Consent {#consent-ai}
 
-## Consentement {#consent-ai}
+Campaign knowledge assistant embeeded in the contextual help boxes uses AI. Your use of this capability constitutes consent that the information you provide in your session will be collected, used, disclosed, and retained by Adobe in accordance with the terms of Adobe's Customer Feedback Program. Please do not provide any personal information about yourself or other parties (including your name or contact information) in the knowledge assistant.
 
-L’assistant de connaissances de Campaign intégré dans les boîtes d’aide contextuelle utilise l’IA. L’utilisation de cette fonctionnalité signifie que vous acceptez que les informations que vous fournissez au cours de votre session soient collectées, utilisées, divulguées et conservées par Adobe conformément aux conditions du Programme de commentaires du client d’Adobe. Veuillez ne pas fournir d&#39;informations personnelles sur vous-même ou sur d&#39;autres personnes (y compris votre nom ou vos coordonnées) dans l&#39;assistant de connaissances.
+## Privacy {#privacy-ai}
 
-## Confidentialité {#privacy-ai}
+Your data is encrypted and private following our standard data protection practices. Learn more about [Adobe Privacy Policies](https://www.adobe.com/privacy/policy.html){target="_blank"}.
 
-Vos données sont cryptées et privées, conformément à nos pratiques standard de protection des données. En savoir plus sur [Stratégies de confidentialité des Adobes](https://www.adobe.com/fr/privacy/policy.html){target="_blank"}.
+The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or 3rd parties to use your data for training their models or any other purpose.
 
-La fonctionnalité IA de l’assistant de connaissances n’utilise pas vos données pour entraîner nos modèles. Nous n’autorisons aucun partenaire ou tiers à utiliser vos données pour la formation de ses modèles ou pour tout autre objectif.
-
-Pour plus d’informations sur les stratégies Adobe AI dans les applications et solutions Experience Cloud, reportez-vous à la section [cette page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+-->
 
 ## Réponses {#answers-ai}
 
