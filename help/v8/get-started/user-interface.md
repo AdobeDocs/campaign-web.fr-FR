@@ -4,7 +4,7 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -80,7 +80,7 @@ Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos
 * **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. En savoir plus sur les audiences et les listes dans [cette section](../audience/about-audiences.md).
 * **Listes d’abonnements** : parcourez vos listes d’abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Découvrez comment gérer les abonnements et les désabonnements dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=fr){target="_blank"}.
 
-### Gestion des décisions
+### Gestion des décisions {#decision-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
@@ -94,7 +94,7 @@ Dans la section GESTION DES CLIENTS , vous pouvez visualiser les offres et les m
 
 Découvrez comment créer et envoyer des offres dans des emails et des SMS dans [cette section](../content/offers.md).
 
-## Barre supérieure
+## Barre supérieure {#top-bar}
 
 La barre supérieure de l’interface vous permet d’effectuer les actions suivantes :
 
