@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow Changement de dimension
 description: Découvrez comment utiliser l’activité de workflow Changement de dimension
 badge: label="Beta"
-source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
+source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 9%
@@ -46,7 +46,5 @@ Dans cet exemple, nous souhaitons envoyer une diffusion SMS à tous les profils 
 
 Nous utilisons ensuite une **[!UICONTROL Changement de dimension]** pour changer la dimension de ciblage du workflow en &quot;Destinataires&quot;. Cela nous permet de cibler les destinataires qui correspondent à la requête.
 
-<!--
-![](assets/workflow-change-dimension-example.png)
--->
+![](../assets/workflow-change-dimension-example.png)
 

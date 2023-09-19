@@ -4,10 +4,10 @@ title: Prise en main des messages et des diffusions dans Campaign v8 Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 86%
+source-wordcount: '1289'
+ht-degree: 82%
 
 ---
 
@@ -16,8 +16,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Diffusions"
->abstract="Une diffusion est un élément de communication marketing qui est envoyé à une audience sur un canal spécifique : e-mail, SMS ou notification push. Dans votre liste de diffusions, vous pouvez modifier les diffusions existantes et vérifier leur statut, les dates de contact et de modification et les KPI. Cliquez sur le bouton « Créer une diffusion » pour ajouter une nouvelle diffusion. Sélectionnez une diffusion pour afficher son contenu, son planning, son audience et ses détails."
-
+>abstract="Une diffusion est une communication envoyée à une audience sur un canal spécifique : email, SMS ou Push. Dans cet écran, vous pouvez modifier, dupliquer et supprimer des diffusions existantes. Vous pouvez également afficher des rapports pour les diffusions terminées. Cliquez sur le bouton **Créer une diffusion** pour ajouter une nouvelle diffusion."
 
 Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS, notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés.
 
