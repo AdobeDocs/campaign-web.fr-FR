@@ -2,15 +2,15 @@
 title: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 description: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 badge: label="Beta"
-source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 7%
 
 ---
 
 
-# Mécanismes de sécurisation et limitations {#guardrails-limitations}
+# Barrières de sécurité et restrictions {#guardrails-limitations}
 
 Lorsque vous utilisez l’interface utilisateur web de Campaign avec des composants créés ou modifiés dans la console cliente Campaign, les barrières de sécurité et les limitations répertoriées ci-dessous s’appliquent.
 

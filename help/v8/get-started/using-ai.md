@@ -2,16 +2,16 @@
 title: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 description: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # Utilisation de l’assistant de connaissances optimisé par l’IA {#using-ai}
 
-Obtenez des réponses rapides et générées par l’IA en fonction de la documentation du produit et de votre contexte de produit actuel, avec l’assistant de connaissance optimisé par l’IA disponible dans les boîtes d’aide contextuelle du produit.
+Obtenez des réponses rapides et générées par l’IA en fonction de la documentation du produit et de votre contexte de produit actuel, avec l’assistant de prise en charge de l’IA disponible dans les boîtes d’aide contextuelle du produit.
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ L’intelligence artificielle et les modèles d’apprentissage automatique s’
 
 ## Recommandations  {#recommendations-ai}
 
-Lorsque vous posez une question dans l’aide contextuelle, le contexte actuel du produit est pris en compte.
+Lorsque vous posez une question dans l’assistant de connaissances optimisé par l’IA, le contexte du produit actuel, c’est-à-dire l’écran Campaign dans lequel vous vous trouvez, est pris en compte.
 
-Pour obtenir le meilleur de l&#39;assistant, lors d&#39;une question, nous vous conseillons de :
+Pour tirer le meilleur parti de l’assistant de connaissances optimisé par l’IA, nous vous conseillons de :
 
 * Soyez aussi précis et précis que possible et évitez toute ambiguïté. La réponse sera plus précise et utile.
-* Pour aider l&#39;assistant de connaissances à trouver les informations correctes, ajoutez autant de détails que possible sur ce que vous essayez d&#39;apprendre.
+* Pour aider l’assistant de connaissances optimisé par l’IA à trouver les informations correctes, ajoutez autant de détails que possible sur ce que vous essayez d’apprendre.
 * Remplissez et affinez vos questions pour obtenir de meilleures réponses. Si la réponse n’est pas exacte ou utile, essayez différentes approches et ajoutez du contexte pour obtenir de meilleurs résultats.
 * Utilisez des termes et des termes appropriés, avec un ton neutre.
 * Évaluez les réponses et fournissez des commentaires afin que nos ingénieurs puissent apprendre de votre expérience et améliorer les résultats.
