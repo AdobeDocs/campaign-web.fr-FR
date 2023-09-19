@@ -3,7 +3,7 @@ audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 77%
@@ -22,7 +22,6 @@ Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le menu
 
 ## Liste des campagnes {#access-campaigns}
 
-
 La liste des campagnes comprend deux onglets :
 
 * L’onglet **Parcourir** répertorie toutes les campagnes existantes. Cliquez sur une campagne pour afficher son tableau de bord ou créez une campagne à l’aide du bouton **Créer une campagne**. Consultez cette [section](create-campaigns.md#create-campaigns).
@@ -40,7 +39,6 @@ Vous pouvez, par exemple, filtrer selon le planning de votre campagne. Ouvrez le
 ![Filtre de campagne](assets/campaign-filter-on-dates.png)
 
 ## Tableau de bord de la campagne{#campaign-dashboard}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
