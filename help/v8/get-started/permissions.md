@@ -3,10 +3,10 @@ audience: end-user
 title: Gestion des autorisations dans Campaign web
 description: En savoir plus sur les autorisations dans Campaign web v8
 badge: label="Beta"
-source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 45%
+source-wordcount: '605'
+ht-degree: 42%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 45%
 >title="Ce workflow est en lecture seule."
 >abstract="Vous ne pouvez pas modifier ce workflow en raison d’un canevas non pris en charge ou incompatible."
 
-Le contrôle d’accès peut restreindre l’accès aux objets et données des listes principales, telles que les diffusions, les destinataires ou les workflows. Ces restrictions s’appliquent également dans l’arborescence de navigation de l’explorateur. En outre, vous avez besoin d’autorisations pour créer, supprimer, dupliquer et modifier des objets à partir de l’interface utilisateur.
+Le contrôle d’accès peut restreindre l’accès aux objets et données des listes principales, telles que les diffusions, les destinataires ou les workflows. Ces restrictions s’appliquent également dans la variable **Explorateur** arborescence de navigation. En outre, vous avez besoin d’autorisations pour créer, supprimer, dupliquer et modifier des objets à partir de l’interface utilisateur.
 
-Le contrôle d’accès est géré dans la console cliente. Toutes les autorisations de Campaign web sont synchronisées avec celles de la console cliente Campaign. Seuls les administrateurs ou les administratrices de Campaign peuvent définir et modifier les autorisations utilisateur. En savoir plus sur les autorisations utilisateur dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
+Le contrôle d’accès est géré dans la console cliente Campaign. Toutes les autorisations de Campaign web sont synchronisées avec celles de la console cliente Campaign. Seuls les administrateurs ou les administratrices de Campaign peuvent définir et modifier les autorisations utilisateur. En savoir plus sur les autorisations utilisateur dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
 
 Lorsque vous naviguez dans l&#39;interface utilisateur Web de Campaign, vous pouvez accéder aux données, aux objets et aux fonctionnalités en fonction de vos permissions. Par exemple, si vous ne disposez pas des autorisations d’accès à un dossier, vous ne pouvez pas l’afficher. Vos autorisations ont également une incidence sur la gestion des objets et des données. Sans autorisation d’écriture pour un dossier spécifique, vous ne pouvez pas créer de diffusion dans ce dossier, même si vous pouvez l’afficher dans l’interface utilisateur.
 

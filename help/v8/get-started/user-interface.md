@@ -4,7 +4,7 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -51,7 +51,7 @@ Accédez aux pages principales d’aide de Campaign v8 Web depuis la section *
 
 Le menu **Explorateur** affiche toutes les ressources et tous les objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous les composants, dossiers et schémas de Campaign v8 et créez des diffusions, des workflows et des campagnes.
 
-Les éléments affichés dans le **Explorateur** dépendent de vos autorisations utilisateur.  Vous pouvez également ajouter des dossiers et des sous-dossiers, si vous disposez des autorisations appropriées. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
+Les éléments affichés dans le **Explorateur** dépendent de vos autorisations utilisateur. Vous pouvez également ajouter des dossiers et des sous-dossiers, si vous disposez des droits adéquats. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
 
 Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes pour personnaliser l’affichage en fonction des informations que vous souhaitez. Consultez cette [section](#list-screens).
 
