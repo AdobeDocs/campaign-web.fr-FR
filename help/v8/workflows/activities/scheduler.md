@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 25%
+source-wordcount: '518'
+ht-degree: 24%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 25%
 
 La variable **Planificateur** est une activité **Contrôle de flux** activité. Il permet de planifier le démarrage du workflow. Cette activité doit être considérée comme un début planifié. Il ne peut être utilisé que comme première activité du workflow.
 
-## Bonnes pratiques
+## Bonnes pratiques{#scheduler-best-practices}
 
 * Ne planifiez pas l’exécution d’un workflow à une fréquence supérieure à toutes les 15 minutes, car cela peut nuire aux performances générales du système et créer des blocs dans la base de données.
 * Si vous souhaitez envoyer une diffusion ponctuelle dans votre workflow, vous pouvez ajouter une activité Planificateur et la configurer pour qu’elle s’exécute. **Une fois**. Vous pouvez également définir **Planification** dans les paramètres de la diffusion.
 * Si vous souhaitez envoyer une diffusion récurrente dans votre workflow, vous devez utiliser une **Planificateur** et définissez la fréquence d&#39;exécution. L&#39;activité de diffusion récurrente ne permet pas de définir de planning.
 
-## Configuration
+## Configuration{#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
@@ -43,9 +43,9 @@ La variable **Planificateur** est une activité **Contrôle de flux** activité.
 
 Pour configurer la variable **Planificateur** activité :
 
-1. Ajouter un **Planificateur** à votre workflow.
+![](../assets/workflow-scheduler.png)
 
-   ![](../assets/workflow-scheduler.png)
+1. Ajouter un **Planificateur** à votre workflow.
 
 1. Configurez la variable **Fréquence d&#39;exécution**:
 
@@ -73,9 +73,7 @@ Pour configurer la variable **Planificateur** activité :
 >
 >Si vous souhaitez démarrer immédiatement le workflow, vous pouvez cliquer sur le bouton **Traitement de la tâche en attente** dans la barre d’actions supérieure du planificateur. Ce bouton n’est disponible que lorsque vous avez démarré le workflow.
 
-Notes:
-
-## Exemple
+## Exemple{#scheduler-example}
 
 Dans l’exemple suivant, l’activité est configurée de sorte que le workflow s’exécute plusieurs fois par jour à 9h00 et 12h00, tous les jours de la semaine du 1er octobre 2023 au 1er janvier 2024.
 
