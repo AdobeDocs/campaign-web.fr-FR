@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation de l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '500'
 ht-degree: 18%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Déduplication attributs"
->abstract="Vous pouvez ainsi indiquer les champs pour lesquels des valeurs identiques permettent d&#39;identifier les doublons : adresse email, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier."
+>title="Champs pour identifier les doublons"
+>abstract="Dans le **Champs permettant d’identifier des doublons** , cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d&#39;identifier les doublons, par exemple : adresse email, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
@@ -34,7 +34,7 @@ ht-degree: 18%
 >title="Paramètres de déduplication"
 >abstract="Pour supprimer des doublons dans les données entrantes, définissez la méthode de déduplication dans les champs ci-dessous. Par défaut, un seul enregistrement est conservé. Vous devez également sélectionner le mode de déduplication en fonction d&#39;une expression ou d&#39;un attribut. Par défaut, l’enregistrement à conserver en dehors des doublons est sélectionné de manière aléatoire."
 
-La variable **Déduplication** est une activité **Ciblage** activité. Cette activité permet de supprimer les doublons dans le ou les résultats des activités entrantes. La variable **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant l&#39;utilisation des données ciblées.
+La variable **Déduplication** est une activité **Ciblage** activité. Cette activité permet de supprimer les doublons dans le ou les résultats des activités entrantes, par exemple les profils dupliqués dans la liste des destinataires. La variable **Déduplication** est généralement utilisée à la suite des activités de ciblage, et avant les activités permettant l&#39;utilisation des données ciblées.
 
 ## Configuration de l&#39;activité Déduplication{#deduplication-configuration}
 
@@ -44,7 +44,7 @@ Pour configurer la variable **Déduplication** activité :
 
 1. Ajouter un **Déduplication** à votre workflow.
 
-1. Dans le **Champs permettant d’identifier des doublons** , cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d&#39;identifier les doublons : adresse email, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
+1. Dans le **Champs permettant d’identifier des doublons** , cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d&#39;identifier les doublons, par exemple : adresse email, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
 
 1. Sélectionnez le nombre d’attributs uniques **Doublons à conserver**. La valeur par défaut de ce champs est 1. La valeur 0 permet de conserver tous les doublons.
 
@@ -67,6 +67,6 @@ Pour configurer la variable **Déduplication** activité :
 
 ## Exemple{#deduplication-example}
 
-Dans l&#39;exemple suivant, nous utilisons une activité de déduplication pour exclure les doublons de la cible avant l&#39;envoi d&#39;une diffusion. Les doublons identifiés sont ajoutés à une audience dédiée qui peut être réutilisée si nécessaire. Nous utilisons la variable **Email** pour identifier les doublons. Nous choisissons de conserver 1 entrée et de sélectionner la variable **Random** méthode de déduplication.
+Dans l&#39;exemple suivant, utilisez une activité de déduplication pour exclure les doublons de la cible avant l&#39;envoi d&#39;une diffusion. Les destinataires dupliqués identifiés sont ajoutés à une audience dédiée qui peut être réutilisée si nécessaire. Choisissez la **Email** pour identifier les doublons. Conserver une entrée et sélectionnez **Random** méthode de déduplication.
 
 ![](../assets/workflow-deduplication-example.png)
