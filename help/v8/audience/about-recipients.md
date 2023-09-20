@@ -2,9 +2,9 @@
 title: Utilisation des destinataires et des audiences
 description: Découvrez comment utiliser le Web Campaign des destinataires
 badge: label="Beta"
-source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
+source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '946'
 ht-degree: 25%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 25%
 
 Un destinataire est un profil qui cible les messages envoyés par Adobe Campaign. Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (emails, SMS, etc.). Les données de destinataires stockées dans la base de données vous permettent de créer des audiences qui recevront une diffusion donnée, et d&#39;ajouter des données de personnalisation dans les contenus de vos diffusions. D&#39;autres types de profils sont stockés dans la base de données. Ils sont conçus pour différents usages : par exemple, des profils de contrôle sont créés pour tester vos diffusions avant leur envoi à l&#39;audience finale.
 
-Les destinataires ne peuvent être ajoutés que depuis la console cliente Campaign. Toutefois, elles sont visibles dans le web de Campaign, à partir de la variable **Destinataires** entrée du rail de navigation de gauche.
+Les destinataires ne peuvent être ajoutés que depuis la console cliente Campaign. Toutefois, elles sont visibles dans le web de Campaign, à partir de la variable **Destinataires** entrée du rail de navigation de gauche. Vous pouvez également modifier les attributs du destinataire à partir de cet écran.
 
 Pour éditer les données du destinataire, cliquez sur les trois points en regard de son nom et choisissez **Modifier...**.
 
@@ -46,6 +46,8 @@ Vous pouvez également accéder aux destinataires à partir de la fonction **Exp
 >En fonction de vos permissions, il se peut que vous n&#39;ayez pas accès à la liste complète des destinataires stockés dans la base de données. Pour en savoir plus sur les autorisations, consultez [cette section](../get-started/permissions.md).
 
 En outre, vous pouvez gérer l&#39;inscription et la désinscription de vos destinataires à des services tels que des newsletters. [Découvrez comment utiliser les services d’abonnement](manage-services.md)
+
+Vous pouvez créer des workflows pour dédupliquer, enrichir, combiner des profils et créer des audiences. En savoir plus dans [cette section](../workflows/gs-workflows.md).
 
 ## Que sont les audiences ? {#audiences}
 
