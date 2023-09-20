@@ -2,10 +2,10 @@
 title: Utilisation des destinataires et des audiences
 description: Découvrez comment utiliser le Web Campaign des destinataires
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 26%
+source-wordcount: '919'
+ht-degree: 25%
 
 ---
 
@@ -71,11 +71,11 @@ La dimension de ciblage est le type de données qu’une opération gère. Il pe
 
 La dimension de ciblage d&#39;un workflow est définie par la première **[!UICONTROL Créer une audience]** et est utilisée dans toutes les autres activités jusqu’à la fin du workflow. Par exemple, si vous effectuez une requête sur les destinataires de la base de données, la transition sortante contiendra des données de type destinataire et sera transmise à l&#39;activité suivante.
 
-Notez que vous pouvez changer la dimension de ciblage dans un workflow à l’aide d’une **[!UICONTROL Changement de dimension]** activité. [En savoir plus](../workflows/activities/change-dimension.md)
+Notez que vous pouvez changer la dimension de ciblage dans un workflow à l’aide d’une **[!UICONTROL Changement de dimension]** activité. [En savoir plus](../workflows/activities/change-dimension.md). Vous pouvez ainsi, par exemple, interroger la base de données sur une table spécifique telle que des achats ou des abonnements, puis modifier la dimension de ciblage en Destinataires afin d&#39;envoyer des diffusions aux destinataires correspondants.
 
 Par défaut, les modèles de diffusion par e-mail et SMS ciblent les **[!UICONTROL destinataires]**. Leur dimension cible utilise donc les champs de la variable **nms:recipient** table. Pour les notifications push, la dimension cible par défaut est **Applications abonnées nms:appSubscriptionRcp**, qui est lié à la table des destinataires.
 
-Vous pouvez également utiliser d’autres mappings de ciblage intégrés pour vos diffusions répertoriés ci-dessous :
+Vous pouvez également utiliser d’autres mappings de ciblage intégrés dans vos workflows et diffusions répertoriés ci-dessous :
 
 | Nom | Utilisation à | Schéma |
 |---|---|---|
