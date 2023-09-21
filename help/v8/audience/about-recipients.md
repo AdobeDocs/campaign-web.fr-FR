@@ -2,9 +2,9 @@
 title: Utilisation des destinataires et des audiences
 description: Découvrez comment utiliser le Web Campaign des destinataires
 badge: label="Beta"
-source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
+source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 25%
 
 ---
@@ -69,7 +69,7 @@ Lors du ciblage d’une audience, vous pouvez également définir **populations 
 
 ## Dimensions de ciblage {#targeting-dimensions}
 
-La dimension de ciblage est le type de données qu’une opération gère. Il permet de définir la population ciblée : destinataires, bénéficiaires de contrats, opérateurs, abonnés, etc.
+La dimension de ciblage, c’est-à-dire. mapping de ciblage, est le type de données qu’une opération gère. Il permet de définir la population ciblée : destinataires, bénéficiaires de contrats, opérateurs, abonnés, etc.
 
 La dimension de ciblage d&#39;un workflow est définie par la première **[!UICONTROL Créer une audience]** et est utilisée dans toutes les autres activités jusqu’à la fin du workflow. Par exemple, si vous effectuez une requête sur les destinataires de la base de données, la transition sortante contiendra des données de type destinataire et sera transmise à l&#39;activité suivante.
 
