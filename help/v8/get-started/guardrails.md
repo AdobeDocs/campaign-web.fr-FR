@@ -2,10 +2,10 @@
 title: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 description: Barrières de sécurité et limites de l’interface utilisateur web de Campaign
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 7%
+source-wordcount: '588'
+ht-degree: 6%
 
 ---
 
@@ -50,7 +50,7 @@ Les boucles ne sont pas encore disponibles dans l’interface utilisateur web. S
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-Le positionnement des noeuds est actualisé chaque fois qu’une activité est ajoutée ou supprimée. Si vous créez un workflow dans la console, modifiez-le à l’aide de l’interface utilisateur web et rouvrez-le dans la console, vous constaterez peut-être des imperfections mineures du positionnement. Cela n’a aucun impact sur la variable
+Le positionnement des noeuds est actualisé chaque fois qu’une activité est ajoutée ou supprimée. Si vous créez un workflow dans la console, modifiez-le à l’aide de l’interface utilisateur web et rouvrez-le dans la console, vous constaterez peut-être des imperfections mineures du positionnement. Cela n’a aucun impact sur les processus et les tâches du workflow.
 
 | Workflow initial | Changement de positionnement |
 | --- | --- |
