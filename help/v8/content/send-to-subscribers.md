@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer des messages aux abonnés d'un service
 description: Découvrez comment envoyer des messages aux abonnés d'un service
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 5%
+source-wordcount: '163'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Vous pouvez créer des services d’abonnement dans Adobe Campaign et envoyer des messages à vos abonnés. Découvrez comment créer des services d’abonnements dans [cette page](../audience//manage-services.md#create-service).
 
-Pour envoyer des messages à vos abonnés, créez une audience spécifique pour identifier les abonnés, puis créez la diffusion comme décrit ci-dessous. Pour ce faire, procédez comme suit :
+Pour envoyer des messages à vos abonnés, créez une audience spécifique pour identifier les abonnés, puis créez la diffusion comme décrit ci-dessous.
 
 1. Création d’une audience. En savoir plus sur les audiences dans [cette page](../audience/create-audience.md).
 
