@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer des messages aux abonnés d'un service
 description: Découvrez comment envoyer des messages aux abonnés d'un service
 badge: label="Beta"
-source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
+source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 6%
+source-wordcount: '185'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,11 @@ Pour envoyer des messages à vos abonnés, créez une audience spécifique pour 
 
 1. Enregistrez l&#39;audience.
 1. Créer une diffusion. Les étapes de création d&#39;une diffusion sont présentées dans la section [cette page](../msg/gs-messages.md#create-delivery).
-1. Sélectionnez l’audience que vous avez créée ci-dessus.
+1. Accédez aux paramètres de diffusion et définissez le mapping de ciblage par défaut sur **Abonnements (nms:subscriptions)**.
+
+   ![](assets/service-delivery-change-mapping.png)
+
+1. Dans la section cible principale de la diffusion, sélectionnez l&#39;audience que vous avez créée ci-dessus.
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
