@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation des services d’abonnement
 description: Découvrez comment accéder aux services d’abonnement, les créer et les gérer dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '771'
 ht-degree: 4%
 
 ---
@@ -108,7 +108,7 @@ Pour envoyer des messages de confirmation aux utilisateurs qui s&#39;abonnent ou
 
 Vous pouvez maintenant sélectionner ces messages lorsque [création d’un service d’abonnement](#create-service). Les utilisateurs qui s’abonnent ou se désabonnent de ce service recevront les messages de confirmation sélectionnés.
 
-## Journaux et rapports du service d’abonnement {#logs-and-reports}
+## Surveillance des services d’abonnement {#logs-and-reports}
 
 Pour mesurer l’efficacité de vos services d’abonnement pour les canaux SMS et email, vous pouvez accéder aux logs et aux rapports d’un service donné.
 

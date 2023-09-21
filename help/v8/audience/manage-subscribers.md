@@ -3,9 +3,9 @@ audience: end-user
 title: Gérer les abonnés d'un service
 description: Découvrez comment gérer et diffuser aux abonnés d’un service dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 # Gérer les abonnés d&#39;un service {#manage-subscribers}
 
-Une fois que [création d’un service](manage-services.md#create-service), vous pouvez ajouter des abonnés, désabonner des destinataires et diffuser aux abonnés de ce service.
+Une fois que [création d’un service](manage-services.md#create-service), vous pouvez ajouter des abonnés, désabonner des destinataires et envoyer des messages aux abonnés de ce service.
+
+La gestion des abonnés est présentée dans cette page. Pour savoir comment envoyer des messages à vos abonnés, reportez-vous à la section [cette section](../content/send-to-subscribers.md).
 
 ## Ajouter des abonnés à votre service {#add-subscribers}
 
@@ -62,25 +64,3 @@ Cette période est spécifiée lorsque [création du service](manage-services.md
 ![](assets/service-create-validity-period.png)
 
 Une fois la durée spécifiée expirée, tous les abonnés sont automatiquement désabonnés de ce service.
-
-## Diffuser aux abonnés d&#39;un service
-
-Une fois que [création d’un service d’abonnement](manage-services.md#create-service), vous pouvez cibler ses abonnés dans une diffusion. Suivez les étapes ci-dessous.
-
-1. [Création d’une audience](../audience/create-audience.md) y compris les abonnés au service que vous avez créé :
-
-   * Dans le **[!UICONTROL Créer une audience]** activité, afficher les attributs avancés et sélectionner **[!UICONTROL Destinataire]** > **[!UICONTROL Abonnements]** > **[!UICONTROL Service]**.
-
-   * Dans cet exemple, sélectionnez les utilisateurs abonnés au service qui a la variable **Newsletter Luma** libellé.
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [Créer une diffusion](../msg/gs-messages.md#create-delivery) et sélectionnez l’audience que vous avez créée ci-dessus.
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. Modifiez le contenu de votre message selon vos besoins et envoyez la diffusion.
-
-   ![](assets/service-delivery-ready.png)
-
-Votre diffusion n&#39;est envoyée qu&#39;aux abonnés de ce service.
