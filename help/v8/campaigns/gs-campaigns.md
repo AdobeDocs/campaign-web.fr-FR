@@ -4,10 +4,10 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campagnes"
->abstract="Il s’agit de la liste de vos campagnes. Vous pouvez afficher des informations utiles telles que leurs dates de début, de fin ou de dernière modification, ainsi que leur statut. Vous pouvez filtrer la liste par statut ou date de début/fin. Cliquez sur le bouton « Créer une campagne » pour ajouter une nouvelle campagne. Sélectionnez une campagne pour afficher son contenu, ses diffusions et ses détails. Accédez à l’onglet « Modèles » pour afficher et créer des modèles."
+>abstract="Parcourez la liste des campagnes. Sélectionnez une campagne pour afficher son contenu, ses diffusions et ses détails. Vous pouvez filtrer par statut, date de début/fin ou avec des règles personnalisées. Vous pouvez également afficher des rapports pour les campagnes terminées. Cliquez sur le bouton **Créer une campagne** pour ajouter une nouvelle campagne. Accédez au **Modèles** pour afficher et créer des modèles."
 
 
 Grâce à la fonctionnalité de gestion de campagne d’Adobe Campaign, orchestrez en toute facilité vos initiatives marketing ciblées. Tirez parti de la possibilité de définir un planning pour planifier la durée et le lancement opportun de vos campagnes, sur la base de vos objectifs stratégiques, et optimisez l’engagement de votre audience.

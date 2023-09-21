@@ -3,9 +3,9 @@ audience: end-user
 title: Création et gestion des audiences
 description: Découvrez comment créer et gérer des audiences dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Audiences"
->abstract="Dans cet écran, vous pouvez créer et combiner des audiences dans une zone de travail visuelle. Ajoutez diverses activités de workflow, telles que **Partage** ou **Exclure** pour générer de nouvelles audiences affinées."
+>abstract="Depuis cet écran, vous pouvez accéder à la liste de toutes les audiences qui peuvent être ciblées dans vos diffusions. Cliquez sur **Créer** pour créer de nouvelles audiences dans une zone de travail visuelle à l’aide de diverses activités de workflow, telles que **Partage** ou **Exclure**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

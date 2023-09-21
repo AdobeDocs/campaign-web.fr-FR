@@ -4,10 +4,10 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 87%
+source-wordcount: '569'
+ht-degree: 86%
 
 ---
 
@@ -24,10 +24,6 @@ Une fois le workflow en cours d’exécution, chaque activité de la zone de tra
 Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide du flux visuel. Vous pouvez ainsi identifier rapidement le statut de chaque activité et le nombre de profils qu’elle contient.
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->Vous pouvez désactiver le flux visuel à l’aide du bouton **[!UICONTROL Masquer la progression]**, situé dans la barre d’actions supérieure de la zone de travail.
 
 ## Transitions de workflow {#transitions}
 

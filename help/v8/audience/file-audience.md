@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
+source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 62%
+source-wordcount: '580'
+ht-degree: 57%
 
 ---
 
@@ -28,15 +28,17 @@ ht-degree: 62%
 >title="Paramètres de formatage"
 >abstract="Vérifiez les paramètres de formatage de votre fichier."
 
-Vous pouvez charger des contacts à partir d’un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
+Vous ne pouvez pas charger directement des profils dans Campaign à partir de l’interface, mais vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
 
 >[!CAUTION]
 >
 >* Cette fonctionnalité est réservée aux **diffusions e-mail autonomes**. Elle ne peut être utilisée dans les workflows et les diffusions SMS ou Notification push.
 >
 >* Vous ne pouvez pas utiliser les [populations témoins](control-group.md) lors du chargement de la population cible à partir d’un fichier externe.
+>
+>* Les profils ne sont pas ajoutés à la base de données et sont chargés et disponibles uniquement pour cette diffusion d’email autonome spécifique.
 
-## Chargement du fichier {#upload}
+## Sélectionner et configurer votre fichier {#upload}
 
 Pour cibler des profils à partir d’un fichier local directement dans l’interface e-mail, procédez comme suit :
 
@@ -45,7 +47,7 @@ Pour cibler des profils à partir d’un fichier local directement dans l’inte
 
    ![](assets/select-from-file.png)
 
-1. Sélectionnez le fichier local à télécharger. Le format doit correspondre à celui de l’[exemple de fichier](#sample-file).
+1. Sélectionnez le fichier local à utiliser. Le format doit correspondre à celui de l’[exemple de fichier](#sample-file).
 1. Prévisualisez et vérifiez le mappage des données dans la section centrale de l’écran.
 1. Sélectionnez la colonne contenant l’adresse e-mail dans le menu déroulant **Champ d’adresse**. Vous pouvez également sélectionner la colonne de liste bloquée si vous disposez de ces informations dans le fichier d’entrée.
 1. Ajustez les paramètres des colonnes et comment formater les données à partir des options disponibles.
