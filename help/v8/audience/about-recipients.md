@@ -2,15 +2,17 @@
 title: Utilisation des destinataires et des audiences
 description: Découvrez comment utiliser le Web Campaign des destinataires
 badge: label="Beta"
-source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
+source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 25%
+source-wordcount: '1022'
+ht-degree: 23%
 
 ---
 
 
 # Utilisation des destinataires et des audiences {#about-recipients}
+
+Dans Adobe Campaign, la population cible d&#39;une diffusion est une audience. Un groupe d’audiences de personnes qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée. [comme décrit ci-dessous](#audiences). Dans la plupart des cas, l’audience est composée de profils stockés sous la forme [destinataires](#recipients) dans Adobe Campaign. Vous pouvez également travailler avec d’autres mappings de ciblage en modifiant la dimension comme expliqué. [dans cette section](#targeting-dimensions).
 
 ## Que sont les destinataires ? {#recipients}
 
