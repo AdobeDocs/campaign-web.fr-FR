@@ -2,7 +2,7 @@
 title: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 description: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -55,3 +55,4 @@ Pour tirer le meilleur parti de l’assistant de connaissances optimisé par l�
 * Utilisez des termes et des termes appropriés, avec un ton neutre.
 * Évaluez les réponses et fournissez des commentaires afin que nos ingénieurs puissent apprendre de votre expérience et améliorer les résultats.
 
+<img src="assets/AI_CH.gif"/>
