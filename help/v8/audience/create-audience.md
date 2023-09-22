@@ -3,9 +3,9 @@ audience: end-user
 title: Création et gestion des audiences
 description: Découvrez comment créer et gérer des audiences dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '780'
 ht-degree: 2%
 
 ---
@@ -73,6 +73,11 @@ L’exemple ci-dessous montre un workflow d’audience configuré pour cibler le
 1. La variable **[!UICONTROL Sauvegarde d’audience]** les activités à la fin de chaque chemin créent deux nouvelles audiences dans la base de données, y compris la population calculée dans chaque chemin.
 
 ## Surveillance et gestion des audiences {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Erreur d’audience"
+>abstract="Les données d’audience ne sont pas disponibles. Veuillez attendre la fin de l&#39;exécution du workflow."
 
 La liste des audiences disponibles sur le Web de Campaign est accessible à partir du **[!UICONTROL Audiences]** .
 
