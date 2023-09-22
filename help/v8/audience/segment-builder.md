@@ -4,53 +4,40 @@ title: Créer une audience à l’aide du créateur de règles de Campaign
 description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 91%
+source-wordcount: '614'
+ht-degree: 64%
 
 ---
 
-# Définir une audience à l’aide du créateur de règles {#segment-builder}
+# Utilisation du créateur de règles {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Ciblage d’audiences"
 >abstract="Construire une cible de diffusion n&#39;a jamais été aussi facile ! Avec notre dernier créateur de règles, vous pouvez désormais définir des critères de filtrage pour les destinataires ou toute autre dimension de ciblage de la base de données. Profitez de l’audience Adobe Experience Platform pour affiner davantage votre audience cible et optimiser l’impact de votre campagne."
 
-Cette section décrit comment créer une audience lors de la conception d’un e-mail. L’audience créée ne peut être utilisée que dans cet e-mail.
+Le créateur de règles permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. Vous pouvez l’utiliser pour créer une audience à partir d’un workflow à l’aide d’une **[!UICONTROL Créer une audience]** ou directement lors de la création d&#39;une diffusion pour créer une audience unique.
 
-Le créateur de règles permet de définir la population ciblée par votre message en filtrant les données contenues dans la base de données. Si vous souhaitez sélectionner une audience existante, reportez-vous à cette [section](add-audience.md).
-
-Pour plus d’informations sur le créateur de règles, consultez la [documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr).
-
-Pour créer une audience lors de la conception d’un e-mail, procédez comme suit :
-
-1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner l’audience]**.
-
-   ![](assets/segment-builder0.png)
-
-1. Sélectionnez **Créez la vôtre**. Le créateur de règles s’affiche.
-
-   ![](assets/segment-builder.png)
+* [Découvrez comment créer une audience](create-audience.md)
+* [Découvrez comment créer une audience unique pour une diffusion](one-time-audience.md)
 
 ## Palette
 
-La palette, située à gauche, contient tous les éléments sur lesquels vous pouvez appliquer un filtre pour créer votre audience. Les vignettes de la palette doivent être déplacées dans la zone de travail centrale pour être configurées et prises en compte. La palette est divisée en deux onglets :
+La palette, située à gauche, contient tous les éléments sur lesquels vous pouvez appliquer un filtre pour créer votre audience. Vous pouvez utiliser la barre de recherche pour rechercher rapidement des éléments. Les vignettes de la palette doivent être déplacées dans la zone de travail centrale pour être configurées et prises en compte.
+
+![](assets/segment-builder2.png){width="70%" align="left"}
+
+La palette est divisée en deux onglets :
 
 * **Attributs** : cet onglet permet d’accéder à tous les champs disponibles à partir du schéma. La liste des champs dépend du schéma de ciblage défini dans le modèle d’e-mail.
 
-  ![](assets/segment-builder2.png){width="70%" align="left"}
-
-* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform.
-
-  ![](assets/segment-builder3.png){width="70%" align="left"}
+* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform. [Découvrez comment surveiller et gérer les audiences](manage-audience.md)
 
   >[!NOTE]
   >
   >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Consultez la [documentation sur les destinations Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
-
-Vous pouvez utiliser la barre de recherche pour rechercher rapidement des éléments.
 
 ## Zone de travail
 
@@ -60,13 +47,20 @@ La zone de travail est la zone centrale, dans laquelle vous pouvez paramétrer e
 
 ## Le volet Propriétés des règles
 
-Sur le côté droit, le volet **Propriétés des règles** vous permet d’effectuer les actions suivantes :
+Sur le côté droit, le **Propriétés des règles** vous permet d’effectuer les actions répertoriées ci-dessous.
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Afficher les résultats :** affiche la liste des destinataires ciblés par l’audience..
+* **Afficher les résultats :** affiche la liste des destinataires ciblés par l’audience.
 * **Affichage du code** : affiche une version basée sur le code de l’audience dans SQL.
 * **Afficher les attributs avancés** : cochez cette option si vous souhaitez afficher la liste complète des attributs dans la palette de gauche : noeuds, regroupements, liens 1-1, liens 1-N.
+* **Calculer**: met à jour et affiche le nombre de profils ciblés par votre requête.
+* **Sélectionner ou enregistrer un filtre**: utilisez un filtre prédéfini pour filtrer votre requête ou enregistrez votre requête en tant que nouveau filtre pour une réutilisation ultérieure. [Découvrez comment utiliser des filtres prédéfinis](../get-started/predefined-filters.md)
+
+  >[!IMPORTANT]
+  >
+  >Dans cette version du produit, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur. Vous pouvez toujours les utiliser. [En savoir plus](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
 * **Attributs** : affiche une description de l’audience créée.
 
 ## Exemple
@@ -98,5 +92,3 @@ Dans cet exemple, nous allons créer une audience pour cibler tous les clients e
    ![](assets/segment-builder11.png)
 
 1. Cliquez sur **Confirmer**.
-
-Votre audience est définie et prête à être utilisée dans votre e-mail.

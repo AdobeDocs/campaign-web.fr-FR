@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Création et gestion des audiences
-description: Découvrez comment créer et gérer des audiences dans Adobe Campaign Web
+title: Création d'audiences
+description: Découvrez comment créer des audiences dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '557'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 Campaign Web vous permet de créer de nouvelles audiences dans un canevas de workflow visuel. Au-delà du fait de commencer à zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Par exemple, vous pouvez combiner plusieurs audiences en une seule, enrichir votre audience avec des attributs externes ou la diviser en plusieurs audiences en fonction des règles de votre choix.
 
-Une fois que vous avez conçu votre workflow, les audiences résultantes sont automatiquement stockées dans la base de données Campaign avec les audiences existantes. Ces audiences peuvent ensuite être ciblées dans des campagnes ou des diffusions autonomes.
+Une fois que vous avez conçu votre workflow, les audiences résultantes sont automatiquement stockées dans la base de données Campaign avec les audiences existantes. Ces audiences peuvent ensuite être ciblées dans des workflows ou des diffusions autonomes.
 
 ## Créer votre première audience {#create}
 
@@ -59,7 +59,9 @@ Pour créer une audience, procédez comme suit :
 
 1. Lorsque votre workflow est prêt, cliquez sur **[!UICONTROL Début]** pour l’exécuter.
 
-Le workflow est enregistré dans la variable **[!UICONTROL Workflows]** tandis que la ou les audiences obtenues sont accessibles dans la **[!UICONTROL Audiences]** liste.
+Le workflow est enregistré dans la variable **[!UICONTROL Workflows]** tandis que la ou les audiences obtenues sont accessibles dans la **[!UICONTROL Audiences]** liste. [Découvrez comment surveiller et gérer les audiences](manage-audience.md)
+
+Vous pouvez désormais utiliser cette audience comme cible principale d&#39;une diffusion. [En savoir plus](add-audience.md)
 
 ## Exemple de workflow d’audience {#example}
 
@@ -71,30 +73,3 @@ L’exemple ci-dessous montre un workflow d’audience configuré pour cibler le
 1. La variable **[!UICONTROL Enrichissement]** l’activité enrichit l’audience avec des informations de la table Achats afin d’identifier le type de produit que les clients ont acheté.
 1. La variable **[!UICONTROL Partage]** L’activité divise le workflow en deux chemins d’accès en fonction du dernier achat des clients.
 1. La variable **[!UICONTROL Sauvegarde d’audience]** les activités à la fin de chaque chemin créent deux nouvelles audiences dans la base de données, y compris la population calculée dans chaque chemin.
-
-## Surveillance et gestion des audiences {#monitor}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_workflow_error_data_execution"
->title="Erreur d’audience"
->abstract="Les données d’audience ne sont pas disponibles. Veuillez attendre la fin de l&#39;exécution du workflow."
-
-La liste des audiences disponibles sur le Web de Campaign est accessible à partir du **[!UICONTROL Audiences]** .
-
-![](assets/audiences-list.png)
-
-Les audiences peuvent provenir de plusieurs sources. La variable **[!UICONTROL Origin]** indique l’emplacement de création d’une audience donnée :
-
-* **[!UICONTROL Adobe Campaign]**: ces audiences sont créées dans la console Adobe Campaign V8. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=fr){target="_blank"}.
-
-* **[!UICONTROL ADOBE EXPERIENCE PLATFORM :]** Ces audiences sont créées dans Adobe Experience Platform et intégrées au Web de Campaign à l’aide de l’intégration Sources d’Adobe et Destinations . Découvrez comment configurer cette intégration dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
-
-* **[!UICONTROL Interface utilisateur web d’Adobe Campaign]**: ces audiences sont créées à l&#39;aide des workflows d&#39;audience Web de Campaign. [Découvrez comment créer des audiences](create-audience.md)
-
-Pour obtenir plus d’informations sur une audience, ouvrez-la dans la liste. Les propriétés de l’audience s’affichent, avec le nombre de profils inclus dans l’audience. Vous pouvez actualiser le nombre d’audiences à tout moment à l’aide de la variable **[!UICONTROL Calculer]** bouton .
-
-La variable **[!UICONTROL Données]** vous permet de visualiser les profils qui font partie de l’audience. Vous pouvez personnaliser cette vue en ajoutant d’autres colonnes ou en utilisant des filtres avancés pour affiner les données affichées.
-
-![](assets/audiences-details.png)
-
-Pour dupliquer ou supprimer une audience, cliquez sur le bouton **[!UICONTROL Plus d&#39;action]** est disponible dans la liste des audiences en regard du nom de l’audience ou dans un écran de détails de l’audience.

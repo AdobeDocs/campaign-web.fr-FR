@@ -2,7 +2,7 @@
 title: Utilisation des destinataires et des audiences
 description: Découvrez comment utiliser le Web Campaign des destinataires
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 23%
@@ -12,7 +12,7 @@ ht-degree: 23%
 
 # Utilisation des destinataires et des audiences {#about-recipients}
 
-Dans Adobe Campaign, la population cible d&#39;une diffusion est une audience. Un groupe d’audiences de personnes qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée. [comme décrit ci-dessous](#audiences). Dans la plupart des cas, l’audience est composée de profils stockés sous la forme [destinataires](#recipients) dans Adobe Campaign. Vous pouvez également travailler avec d’autres mappings de ciblage en modifiant la dimension comme expliqué. [dans cette section](#targeting-dimensions).
+Dans Adobe Campaign, la population cible d&#39;une diffusion est une audience. Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée. [comme décrit ci-dessous](#audiences). Dans la plupart des cas, l’audience est composée de profils stockés sous la forme [destinataires](#recipients) dans Adobe Campaign. Vous pouvez également travailler avec d’autres mappings de ciblage en modifiant la dimension comme expliqué. [dans cette section](#targeting-dimensions).
 
 ## Que sont les destinataires ? {#recipients}
 
@@ -58,8 +58,7 @@ L’audience est la cible principale de votre diffusion : les destinataires qui
 Pour définir la population d&#39;une audience, vous pouvez :
 
 * [Créer de nouvelles audiences](create-audience.md) de la **[!UICONTROL Audiences]** menu,
-* [Sélectionner une audience existante](add-audience.md) créé en tant que liste dans la console cliente,
-* [Sélection d’une audience Adobe Experience Platform](aep-audience.md),
+* [Sélectionner une audience existante](add-audience.md) créé sous la forme d&#39;une liste dans la console cliente ou provenant de Adobe Experience Platform,
 * [créer une nouvelle audience avec le créateur de règles en définissant et combinant des critères de filtrage,](segment-builder.md)
 * [Utilisation d’une audience à partir d’un fichier externe](file-audience.md). Cette option est disponible uniquement pour les diffusions email autonomes et ne peut pas être utilisée dans les diffusions de campagne.
 
@@ -75,7 +74,7 @@ La dimension de ciblage, c’est-à-dire. mapping de ciblage, est le type de don
 
 La dimension de ciblage d&#39;un workflow est définie par la première **[!UICONTROL Créer une audience]** et est utilisée dans toutes les autres activités jusqu’à la fin du workflow. Par exemple, si vous effectuez une requête sur les destinataires de la base de données, la transition sortante contiendra des données de type destinataire et sera transmise à l&#39;activité suivante.
 
-Notez que vous pouvez changer la dimension de ciblage dans un workflow à l’aide d’une **[!UICONTROL Changement de dimension]** activité. [En savoir plus](../workflows/activities/change-dimension.md). Vous pouvez ainsi, par exemple, interroger la base de données sur une table spécifique telle que des achats ou des abonnements, puis modifier la dimension de ciblage en Destinataires afin d&#39;envoyer des diffusions aux destinataires correspondants.
+Notez que vous pouvez changer la dimension de ciblage dans un workflow à l’aide d’une [Activité Changement de dimension](../workflows/activities/change-dimension.md). Vous pouvez ainsi, par exemple, interroger la base de données sur une table spécifique telle que des achats ou des abonnements, puis modifier la dimension de ciblage en Destinataires afin d&#39;envoyer des diffusions aux destinataires correspondants.
 
 Par défaut, les modèles de diffusion par e-mail et SMS ciblent les **[!UICONTROL destinataires]**. Leur dimension cible utilise donc les champs de la variable **nms:recipient** table. Pour les notifications push, la dimension cible par défaut est **Applications abonnées nms:appSubscriptionRcp**, qui est lié à la table des destinataires.
 

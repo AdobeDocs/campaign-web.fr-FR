@@ -4,10 +4,10 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 88%
+source-wordcount: '308'
+ht-degree: 43%
 
 ---
 
@@ -19,40 +19,33 @@ ht-degree: 88%
 >title="Sélectionner une audience existante"
 >abstract="Parcourez la liste pour sélectionner une audience existante. Utilisez l&#39;icône Afficher les filtres pour filtrer la liste ou sélectionnez un dossier spécifique."
 
-Cette section explique comment sélectionner une audience existante lors de la définition de la population cible de la diffusion d’un e-mail.
+Cette section explique comment sélectionner une audience existante lors de la définition de la population cible d&#39;une diffusion. Lors de la définition de la cible principale d&#39;une diffusion, vous pouvez également :
 
-Vous pouvez également procéder comme suit :
+* [Création d’une audience unique](one-time-audience.md) à l’aide du créateur de règles.
+* [Chargement d’une audience à partir d’un fichier externe](file-audience.md) (pour les emails uniquement).
 
-* Créez une audience. [En savoir plus](segment-builder.md)
-* Chargez une audience depuis un fichier externe (pour les e-mails uniquement). [En savoir plus](file-audience.md)
-* Utilisez une audience Adobe Experience Platform. [En savoir plus](aep-audience.md).
-
+Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à partir du **Audience** menu de gauche. Elles proviennent de plusieurs sources telles que la console cliente, les workflows d’audience Web Campaign ou Adobe Experience Platform. [Découvrez comment surveiller et gérer les audiences](manage-audience.md)
 
 Pour sélectionner une audience existante pour votre message, procédez comme suit :
 
-1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
+1. Dans la **Audience** de l&#39;assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** puis choisissez
 
    ![](assets/create-audience.png)
 
-1. Choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante. Afin de créer une nouvelle audience pour cet e-mail, choisissez **Créer la vôtre**. Reportez-vous à cette [section](segment-builder.md).
-
-   Cet écran affiche toutes les audiences existantes pour le dossier actuel.
+1. Choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante. Cet écran affiche toutes les audiences existantes pour le dossier actuel.
 
    ![](assets/create-audience2.png)
 
-   Les audiences sont créées à partir du menu **Audience** de gauche. Elles peuvent également être créées dans la console cliente.
+   Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section dédiée aux filtres de l’écran.
 
-   Pour utiliser des audiences Adobe Experience Platform, vous devez configurer l’intégration aux destinations. Consultez la [documentation sur les destinations Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
+   ![](assets/select-audience-folder.png)
 
-   >[!IMPORTANT]
-   >
-   >Dans cette version du produit, lors de la création de règles, de la sélection de l’audience d’une diffusion ou de la création d’une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur. Vous pouvez toujours les utiliser. [En savoir plus](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
-
-1. Choisissez une audience, puis cliquez sur **Sélectionner**.
-1. Utilisez l’icône **Afficher les filtres** pour afficher les options de filtrage. Cliquez sur **Ajouter des règles** pour accéder au créateur de règles : l’utilisation du créateur de règles vous permet de créer des filtres avancés pour la liste des audiences. Découvrez comment utiliser le créateur de règles dans cette [section](segment-builder.md).
+1. La section Filtre permet d&#39;accéder aux options de filtrage afin d&#39;affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au créateur de règles, qui vous permet de créer des filtres avancés pour la liste des audiences. [Découvrez comment utiliser le créateur de règles](segment-builder.md)
 
    ![](assets/create-audience4.png)
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **Confirmer** pour ajouter votre audience comme cible principale de la diffusion. Une fois l’opération terminée, vous pouvez toujours affiner l’audience à l’aide du créateur de règles en cliquant sur le **Modifier des règles** bouton .
 
-Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne reçoit pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. En savoir plus dans [cette section](control-group.md).
+   ![](assets/refine-audience.png)
+
+   Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne reçoit pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](control-group.md)
