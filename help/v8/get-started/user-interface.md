@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1263'
 ht-degree: 73%
 
 ---
@@ -115,9 +115,9 @@ Une aide contextuelle est disponible dans l’interface. Si elle est présente, 
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-Avec la nouvelle version bêta, la variable **Assistant de connaissances avec Gen AI** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
+Avec la nouvelle version bêta, la variable **Assistant de connaissances optimisé par l&#39;IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
 
-Grâce aux fonctionnalités de Campaign Gen AI, cet assistant transforme votre expérience, en faisant de la récupération d&#39;informations et de la résolution de problèmes une brise. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances avec Gen AI est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
+Grâce aux fonctionnalités de Campaign Gen AI, cet assistant transforme votre expérience, en faisant de la récupération d&#39;informations et de la résolution de problèmes une brise. Que vous recherchiez des conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances optimisé par l’IA est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
 
 En savoir plus dans [cette section](using-ai.md).
 
@@ -182,11 +182,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery template settings-->
 
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Exportation"
->abstract="Vous pouvez uniquement exporter la page sélectionnée."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"

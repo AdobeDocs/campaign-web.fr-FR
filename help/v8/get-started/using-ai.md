@@ -2,7 +2,7 @@
 title: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 description: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Obtenez des réponses rapides et générées par l’IA en fonction de la docume
 
 La variable **Assistant de connaissances avec Gen AI** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
 
-Grâce aux fonctionnalités de Campaign Gen AI, cet assistant transforme votre expérience, en faisant de la récupération d&#39;informations et de la résolution de problèmes une brise. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances avec Gen AI est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
+Grâce aux fonctionnalités de Campaign Gen AI, cet assistant transforme votre expérience, en faisant de la récupération d&#39;informations et de la résolution de problèmes une brise. Que vous recherchiez des conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances optimisé par l’IA est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Réponses {#answers-ai}
 
-Les réponses peuvent être inexactes ou trompeuses. Par conséquent, l’assistant de connaissances de l’Adobe peut produire des informations incorrectes. Veillez à vérifier la documentation du produit qui est liée dans chaque zone d’aide.
+Les réponses peuvent être inexactes ou trompeuses. Par conséquent, l’assistant de connaissances optimisé par Adobe Campaign AI peut générer des informations incorrectes. Veillez à vérifier la documentation du produit qui est liée dans chaque zone d’aide.
 
 L’intelligence artificielle et les modèles d’apprentissage automatique s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L&#39;assistant de connaissances basé sur l&#39;IA de Campaign continuera à s&#39;améliorer dans les prochains mois. Nous vous conseillons vivement d’utiliser la ?? ?? à chaque fois que vous lisez une réponse, pour signaler toute réponse inappropriée à nos ingénieurs.
 
