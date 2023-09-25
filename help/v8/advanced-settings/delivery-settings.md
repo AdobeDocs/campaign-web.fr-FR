@@ -4,10 +4,10 @@ title: Paramètres de diffusion
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 71%
+source-wordcount: '2112'
+ht-degree: 70%
 
 ---
 
@@ -108,16 +108,15 @@ En savoir plus sur les règles de cohérence et de capacité et comment les conf
 
 ## Paramètres de l’audience {#audience}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Paramètres d’audience pour la diffusion"
 >abstract="Sélectionnez une **mapping de ciblage** parmi celles disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Vous pouvez également définir les paramètres d&#39;exclusion de la diffusion. "
 
+Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. La dimension de ciblage, ou mapping de ciblage, est le type de données qu’une opération gère. Il permet de définir la population ciblée : destinataires, bénéficiaires de contrats, opérateurs, abonnés, etc.
 
-Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8.
 
-En savoir plus sur les mappings de ciblage dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
+En savoir plus sur les mappings de ciblage dans [cette section](../audience/about-recipients.md#targeting-dimensions).
 
 ## Diffusion {#delivery}
 
