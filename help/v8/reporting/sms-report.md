@@ -3,14 +3,14 @@ audience: end-user
 title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser.
 badge: label="Beta"
-source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
+source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 25%
+source-wordcount: '482'
+ht-degree: 17%
 
 ---
 
-# Rapport de diffusion SMS {#report}
+# Rapports de diffusion SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
@@ -26,49 +26,78 @@ La variable **Présentation de la diffusion SMS** offre un aperçu complet de vo
 
 ## Synthèse des diffusions {#delivery-summary}
 
-* **[!UICONTROL Présentation de la diffusion]** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les taux de succès et d’erreur, ainsi que sur la manière dont vos visiteurs interagissent avec vos SMS.
+### Vue d’ensemble de la diffusion {#sms-delivery-overview}
 
-  ![](assets/reporting_sms_3.png)
+La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les taux de succès et d’erreur, ainsi que sur la manière dont vos visiteurs interagissent avec vos SMS.
 
-  +++En savoir plus sur les mesures des rapports de diffusion SMS.
+![](assets/reporting_sms_3.png)
 
-   * **[!UICONTROL Total envoyé]**: Pourcentage et nombre total de messages traités lors de la préparation de la diffusion.
++++En savoir plus sur les mesures des rapports de diffusion SMS.
 
-   * **[!UICONTROL Succès]**: Pourcentage et nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Total envoyé]**: Pourcentage et nombre total de messages traités lors de la préparation de la diffusion.
 
-   * **[!UICONTROL Taux de clics]**: pourcentage et nombre d&#39;utilisateurs ayant interagi avec des liens inclus dans votre diffusion SMS.
+* **[!UICONTROL Succès]**: Pourcentage et nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-   * **[!UICONTROL Erreurs]**: pourcentage et nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
-+++
+* **[!UICONTROL Taux de clics]**: pourcentage et nombre d&#39;utilisateurs ayant interagi avec des liens inclus dans votre diffusion SMS.
 
-* Le graphe et le tableau **Population ciblée** affichent les données relatives à votre audience.
+* **[!UICONTROL Erreurs]**: pourcentage et nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
 
-  ![](assets/reporting_sms_4.png)
-
-  +++En savoir plus sur les mesures des rapports de diffusion SMS.
-
-   * **[!UICONTROL A envoyer]**: Nombre total et pourcentage de messages traités lors de la préparation de la diffusion.
-
-   * **[!UICONTROL Exclusions]**: nombre et pourcentage de profils qui ont été exclus de l’analyse.
 +++
 
 
-* Les **statistiques globales** présentent les données des SMS envoyés, notamment :
+### Population ciblée {#sms-delivery-targeted-population}
 
-  ![](assets/reporting_sms_5.png)
 
-  +++En savoir plus sur les mesures des rapports de diffusion SMS.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_targeted_population"
+>title="Population ciblée des SMS"
+>abstract="La variable **Population ciblée** afficher des données graphiques et tabulaires relatives à votre audience SMS : messages à diffuser et exclusions."
 
-   * **[!UICONTROL Succès]**: Nombre et pourcentage de messages traités avec succès.
+La variable **Population ciblée** les graphiques et les tableaux affichent les données relatives à votre audience. Les mesures sont détaillées ci-dessous.
 
-   * **[!UICONTROL Erreurs]**: Nombre total et pourcentage d&#39;erreurs s&#39;étant produites lors de la diffusion, empêchant l&#39;envoi des messages à certains profils.
+![](assets/reporting_sms_4.png)
 
-   * **[!UICONTROL Nouvelle mise en quarantaine]**: nombre et pourcentage de profils qui ont été exclus et ajoutés à la quarantaine.
++++En savoir plus sur les mesures des rapports de diffusion SMS.
+
+* **[!UICONTROL A envoyer]**: Nombre total et pourcentage de messages traités lors de la préparation de la diffusion.
+
+* **[!UICONTROL Exclusions]**: nombre et pourcentage de profils qui ont été exclus de l’analyse.
 +++
+
+
+### Statistiques globales {#sms-delivery-overall}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_overall_stats"
+>title="Statistiques globales push"
+>abstract="La variable **Statistiques globales** présente les données du SMS envoyé : succès, erreurs et mises en quarantaine."
+
+La variable **Statistiques globales** présente les données des SMS envoyés. Les mesures sont détaillées ci-dessous.
+
+![](assets/reporting_sms_5.png)
+
++++En savoir plus sur les mesures des rapports de diffusion SMS.
+
+* **[!UICONTROL Succès]**: Nombre et pourcentage de messages traités avec succès.
+
+* **[!UICONTROL Erreurs]**: Nombre total et pourcentage d&#39;erreurs s&#39;étant produites lors de la diffusion, empêchant l&#39;envoi des messages à certains profils.
+
+* **[!UICONTROL Nouvelle mise en quarantaine]**: nombre et pourcentage de profils qui ont été exclus et ajoutés à la quarantaine.
++++
+
+### Exclusions {#sms-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_exclusions"
+>title="Statistiques globales des SMS"
+>abstract="La variable **Exclusions** le graphique et le tableau affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message."
+
 
 * **[!UICONTROL Exclusions]** le graphique et le tableau affichent les raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message.
 
-  ![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png)
 
 ## Débit des diffusions (Delivery throughput) {#delivery-throughput}
 
