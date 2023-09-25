@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion par e-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 68%
+source-wordcount: '1932'
+ht-degree: 67%
 
 ---
 
@@ -301,6 +301,12 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 >id="acw_delivery_reporting_breakdown_os"
 >title="Répartition par système d’exploitation"
 >abstract="La variable **Ventilation par système d’exploitation** affiche la répartition des ouvertures, par système d&#39;exploitation, sur la période concernée. Le premier graphique présente les statistiques d&#39;ouverture sur un ordinateur et des appareils mobiles. Le second affiche des statistiques relatives uniquement aux ouvertures sur les appareils mobiles."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="Répartition par navigateur"
+>abstract="La variable **Ventilation par navigateur** affiche la répartition des ouvertures, par navigateur, sur la période concernée. Le premier graphique présente les statistiques d&#39;ouverture sur un ordinateur et des appareils mobiles. Le second affiche des statistiques relatives uniquement aux ouvertures sur les appareils mobiles."
+
 
 Ce rapport affiche la répartition des ouvertures par système d&#39;exploitation, par appareil, et par navigateur, sur la période sélectionnée. Pour chaque catégorie, deux graphiques sont utilisés. Le premier affiche les statistiques d&#39;ouvertures sur ordinateur et mobile. Le second affiche uniquement les statistiques d&#39;ouvertures sur mobiles.
 
