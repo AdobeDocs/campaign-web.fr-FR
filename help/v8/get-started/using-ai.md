@@ -2,14 +2,20 @@
 title: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 description: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
 
 # Utilisation de l’assistant de connaissances optimisé par l’IA {#using-ai}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card6"
+>title="Assistant de connaissances optimisé par l&#39;IA"
+>abstract="Obtenez rapidement des réponses générées par l’IA en fonction de la documentation du produit et du contexte actuel du produit, grâce à l’assistant de connaissances optimisé par l’IA. Disponible dans les boîtes d’aide contextuelle du produit, il révolutionne la recherche de documentation et répond aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin."
+
 
 Obtenez des réponses rapides et générées par l’IA en fonction de la documentation du produit et de votre contexte de produit actuel, avec l’assistant de prise en charge de l’IA disponible dans les boîtes d’aide contextuelle du produit.
 
@@ -19,7 +25,7 @@ Obtenez des réponses rapides et générées par l’IA en fonction de la docume
 
 La variable **Assistant de connaissances avec Gen AI** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
 
-Grâce aux fonctionnalités de Campaign Gen AI, cet assistant transforme votre expérience, en faisant de la récupération d&#39;informations et de la résolution de problèmes une brise. Que vous recherchiez des conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances optimisé par l’IA est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
+Grâce aux fonctionnalités de Campaign Gen AI, cet assistant transforme votre expérience, en faisant de la récupération d&#39;informations et de la résolution de problèmes une brise. Que vous recherchiez des conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, l’assistant de connaissances optimisé par l’IA est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
