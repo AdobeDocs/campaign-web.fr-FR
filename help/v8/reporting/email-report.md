@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de diffusion par e-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Beta"
-source-git-commit: f2ae73ce56e2e5128fecd8b74a6bdb096b8b75ec
+source-git-commit: cc58e6bcf030885ba364df7dfd51de797117120c
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 52%
@@ -30,11 +30,11 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 
 La variable **[!UICONTROL Population cible initiale]** Le graphique affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion et affichent : l’audience initiale, le nombre de messages à envoyer, le nombre de destinataires exclus.
 
-![](assets/reporting_email_1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.png){width="50%" align="center" zoomable="yes"}
 
 Placez le pointeur de la souris sur une partie du graphique pour afficher le nombre exact.
 
-![](assets/reporting_email_1.1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.1.png){width="50%" align="center" zoomable="yes"}
 
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
@@ -57,7 +57,7 @@ Placez le pointeur de la souris sur une partie du graphique pour afficher le nom
 
 La variable **[!UICONTROL Statistiques de diffusion]** Le graphique décrit le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/reporting_email_2.png){align="center" zoomable="yes"}
+![](assets/reporting_email_2.png){width="50%" align="center" zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
