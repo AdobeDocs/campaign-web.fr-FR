@@ -4,10 +4,10 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1145'
+ht-degree: 84%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 100%
 >title="Mode Aperçu"
 >abstract="Prévisualisez et testez le message en incluant la population test à la cible principale."
 
-**[!UICONTROL Adobe Campaign]** permet de tester un message avant de l’envoyer à l’audience principale.
+Une fois le contenu de votre message défini, vous pouvez le prévisualiser et le tester en envoyant des diffusions test (c’est-à-dire &quot;BAT&quot;) pour tester les profils. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son contenu dans le message à l’aide des données de profil de test.
 
-L’envoi de diffusions de test (anciennement appelées « BAT ») est une étape importante dans la validation de votre campagne et l’identification de problèmes potentiels.
-
-Les destinataires d’un test peuvent vérifier différents éléments tels que des liens, des liens d’opt-out, des images ou des pages miroir, ainsi que détecter toute erreur de rendu, de contenu, de paramètres de personnalisation et de configuration de la diffusion.
+Pour détecter d’éventuelles erreurs dans le contenu du message ou les paramètres de personnalisation, envoyez des messages de test aux profils de test avant de les envoyer à l’audience cible. Un message de test doit être envoyé chaque fois qu’une modification est apportée, afin de valider le contenu le plus récent. L’envoi de diffusions de test (anciennement appelées « BAT ») est une étape importante dans la validation de votre campagne et l’identification de problèmes potentiels. Les destinataires d&#39;un message de test peuvent vérifier différents éléments tels que des liens, des liens d&#39;opt-out, des images ou des pages miroir, et détecter toute erreur dans le rendu, le contenu, les paramètres de personnalisation et la configuration de la diffusion.
 
 ## Sélectionner les destinataires du test {#test-recipients}
 
@@ -58,6 +56,10 @@ Pour sélectionner les destinataires d’une diffusion test, procédez comme sui
 >title="Fichier modèle"
 >abstract="La mise en forme du fichier doit être identique à celle du fichier d’origine.<br/>Formats de fichiers pris en charge : txt, csv. Taille maximale du fichier : 15 Mo. Utilisez la première ligne comme en-tête de colonne."
 
+
+Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Ils peuvent être créés dans le [!DNL Adobe Campaign] la console cliente dans la **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** dossier. Les étapes pour envoyer des messages de test aux adresses de contrôle sont présentées ci-dessous.
+
+
 1. Accédez à l’écran de modification du contenu de votre diffusion e-mail ou SMS, puis cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Tester]**.
@@ -84,7 +86,7 @@ Pour sélectionner les destinataires d’une diffusion test, procédez comme sui
 
 ### Profils de substitution {#substitution-profiles}
 
-Pour envoyer un e-mail ou un SMS de test à une adresse e-mail ou un numéro de téléphone spécifique tout en affichant les données d’un profil existant de la base de données [!DNL Campaign], utilisez des profils de substitution.
+Pour envoyer un email ou un SMS de test à une adresse électronique ou un numéro de téléphone spécifique tout en affichant les données d’un profil existant de la variable [!DNL Adobe Campaign] base de données, utilisez des profils de substitution, comme décrit ci-dessous :
 
 1. Avant d’envoyer un test, assurez-vous de définir une audience cible pour votre diffusion. [En savoir plus](../audience/about-recipients.md).
 
@@ -120,7 +122,7 @@ Pour envoyer un e-mail ou un SMS de test à une adresse e-mail ou un numéro de 
 
 ### Abonnés {#subscribers}
 
-Lorsque vous utilisez des notifications push, les diffusions test ne peuvent être envoyées qu’aux abonnés et abonnées. Pour les sélectionner, procédez comme suit.
+Lorsque vous utilisez des notifications push, les diffusions de test ne peuvent être envoyées qu&#39;aux abonnés de votre application. Pour les sélectionner, procédez comme suit.
 
 1. Accédez à l’écran de modification du contenu de la diffusion, puis cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
