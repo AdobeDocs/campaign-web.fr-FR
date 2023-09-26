@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 73%
+source-wordcount: '1270'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 73%
 >title="Découvrir l’interface"
 >abstract="La nouvelle interface de Campaign v8 Web offre une expérience client intégrée, intuitive et cohérente."
 
-La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée aux applications et solutions Adobe Experience Cloud.
+La nouvelle interface web de Campaign v8 offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée aux applications et solutions Adobe Experience Cloud.
 
 
 >[!NOTE]
@@ -28,7 +28,7 @@ La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur
 
 ## Menu de navigation gauche {#user-interface-left-nav}
 
-Parcourez les liens situés à gauche pour accéder aux fonctionnalités de Campaign v8 Web. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Certains écrans de type Liste sont en lecture seule. Les éléments affichés dans le menu de navigation de gauche et dans les listes dépendent de vos autorisations utilisateur. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
+Parcourez les liens situés à gauche pour accéder aux fonctionnalités de Campaign v8 Web. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Certains écrans de liste sont en lecture seule. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
 
 ![](assets/home.png)
 
@@ -38,7 +38,7 @@ Les liens et les ressources clés de cet écran offrent un accès rapide aux pri
 
 La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, le ou la propriétaire, les dates de création et de modification.
 
-Les **indicateurs clés de performance** vous permettent de vérifier l’efficacité de votre plateforme grâce aux KPI courants. En savoir plus sur ces indicateurs clés de performance dans [cette page](../reporting/kpis.md).
+Les **indicateurs clés de performance** vous permettent de vérifier l’efficacité de votre plateforme grâce aux KPI courants. Pour en savoir plus sur les KPI, consultez [cette page](../reporting/kpis.md).
 
 Accédez aux pages principales d’aide de Campaign v8 Web depuis la section **Formation** de la page d’accueil.
 
@@ -51,9 +51,9 @@ Accédez aux pages principales d’aide de Campaign v8 Web depuis la section *
 
 Le menu **Explorateur** affiche toutes les ressources et tous les objets Campaign avec la même hiérarchie de dossiers que celle de la console cliente. Parcourez tous les composants, dossiers et schémas de Campaign v8 et créez des diffusions, des workflows et des campagnes.
 
-Les éléments affichés dans le **Explorateur** dépendent de vos autorisations utilisateur. Vous pouvez également ajouter des dossiers et des sous-dossiers, si vous disposez des droits adéquats. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
+Les éléments affichés dans l’**Explorateur** dépendent de vos autorisations. Vous pouvez également ajouter des dossiers et des sous-dossiers, si vous disposez des droits adéquats. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
 
-Comme dans n’importe quel écran de liste, vous pouvez configurer des colonnes pour personnaliser l’affichage en fonction des informations que vous souhaitez. Consultez cette [section](#list-screens).
+Vous pouvez configurer des colonnes pour personnaliser l’affichage afin d’afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Vous pouvez également ajouter des dossiers et des sous-dossiers, comme décrit dans la section [cette section](permissions.md#folders).
 
 Pour plus d’informations sur l’explorateur Campaign, la hiérarchie des dossiers et les ressources, reportez-vous à la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
 
@@ -76,8 +76,8 @@ Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketi
 
 Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos audiences et vos abonnements. Ces listes sont en lecture seule.
 
-* **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. En savoir plus sur les destinataires dans [cette section](../audience/about-recipients.md).
-* **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. En savoir plus sur les audiences et les listes dans [cette section](../audience/about-recipients.md).
+* **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. Pour en savoir plus sur les destinataires, consultez [cette section](../audience/about-recipients.md).
+* **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-recipients.md).
 * **Listes d’abonnements** : parcourez vos listes d’abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Découvrez comment gérer les abonnements et les désabonnements dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=fr){target="_blank"}.
 
 ### Gestion des décisions {#decision-management}
@@ -85,20 +85,20 @@ Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offres"
->abstract="Parcourez les listes d’offres et de modèles d’offres qui ont été créés dans la console à l’aide de l’option **Interaction** module . Ces listes sont en lecture seule."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Ajouter des offres à une diffusion"
+>abstract="Parcourez les listes d’offres et de modèles d’offres qui ont été créées dans la console à l’aide du module **Interaction**. Ces listes sont en lecture seule."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=fr" text="Ajouter des offres à une diffusion"
 
-Dans la section GESTION DES DÉCISIONS , vous pouvez visualiser les offres et les modèles d’offres. Ces listes sont en lecture seule.
+Dans la section GESTION DES DÉCISIONS, vous pouvez visualiser les offres et les modèles d’offres. Ces listes sont en lecture seule.
 
-* **Offres** - Parcourez la liste des offres et des modèles d’offres créés dans la console à l’aide de la fonction **Interaction** module . Par défaut, vous pouvez consulter leur état, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par dates de début/fin. Des modèles d’offre sont également disponibles.
+* **Offres** - Parcourez la liste des offres et des modèles d’offres créés dans la console à l’aide du module **Interaction**. Par défaut, vous pouvez consulter leur statut, les dates de début/fin et leur environnement. Vous pouvez filtrer la liste par statut et par dates de début/fin. Des modèles d’offre sont également disponibles.
 
-Découvrez comment créer et envoyer des offres dans des emails et des SMS dans [cette section](../content/offers.md).
+Découvrez comment créer et envoyer des offres dans des e-mails et des SMS dans [cette section](../content/offers.md).
 
 ## Barre supérieure {#top-bar}
 
 La barre supérieure de l’interface vous permet d’effectuer les actions suivantes :
 
-* partager vos commentaires en tant que testeur bêta
+* partager vos commentaires en tant que testeur beta,
 * basculer entre les organisations et les instances,
 * basculer entre les applications Adobe Experience Cloud,
 * accéder aux pages d’aide, contacter le support et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d’aide dans le champ de recherche.
@@ -117,7 +117,7 @@ Une aide contextuelle est disponible dans l’interface. Si elle est présente, 
 
 Avec la nouvelle version bêta, la variable **Assistant de connaissances optimisé par l&#39;IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
 
-Grâce aux fonctionnalités de Campaign Gen AI, cet assistant transforme votre expérience, en faisant de la récupération d&#39;informations et de la résolution de problèmes une brise. Que vous recherchiez des conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances optimisé par l’IA est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
+Grâce aux fonctionnalités de l’IA générative de Campaign, cet assistant transforme votre expérience, en facilitant la récupération d’informations et la résolution de problèmes. Que vous recherchiez des conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances optimisé par l’IA est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
 
 En savoir plus dans [cette section](using-ai.md).
 
@@ -141,7 +141,7 @@ Campaign v8 Web est actuellement disponible dans les langues suivantes :
 * Chinois traditionnel - CHT
 
 
-Votre langue par défaut pour Campaign Web est déterminée par la langue préférée spécifiée dans votre profil utilisateur. Il n&#39;est pas lié à la langue de votre serveur Campaign et de votre console cliente.
+La langue par défaut pour Campaign Web est déterminée par la langue préférée spécifiée dans votre profil utilisateur. Elle n’est pas liée à la langue de votre serveur Campaign et de votre console cliente.
 
 Pour changer de langue :
 
@@ -151,7 +151,7 @@ Pour changer de langue :
 
 ## Thème sombre {#dark-theme}
 
-Vous pouvez passer au thème sombre à partir de l’icône de votre profil. Utilisez la variable **Thème sombre** bascule pour l’activer/désactiver.
+Vous pouvez passer au thème sombre à partir de l’icône de votre profil. Utilisez le bouton (bascule) **Thème sombre** pour l’activer ou le désactiver.
 
 ## En savoir plus {#learn-more}
 
@@ -186,12 +186,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Envoi de rapports globaux"
->abstract="Les mesures de suivi des rapports sont visibles dans cet écran."
+>abstract="Les mesures des rapports de suivi sont visibles dans cet écran."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="Suivi des rapports globaux"
->abstract="Les mesures de suivi des rapports sont visibles dans cet écran."
+>abstract="Les mesures des rapports de suivi sont visibles dans cet écran."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

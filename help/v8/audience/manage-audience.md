@@ -3,7 +3,7 @@ audience: end-user
 title: Surveillance et gestion des audiences
 description: Découvrez comment surveiller et gérer les audiences dans Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 12%
@@ -26,7 +26,7 @@ Les audiences peuvent provenir de plusieurs sources. La variable **[!UICONTROL O
 
 * **[!UICONTROL Adobe Campaign]**: ces audiences sont créées dans la console Adobe Campaign V8. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=fr){target="_blank"}.
 
-* **[!UICONTROL ADOBE EXPERIENCE PLATFORM :]** Ces audiences sont créées dans Adobe Experience Platform et intégrées au Web de Campaign à l’aide de l’intégration Sources d’Adobe et Destinations . Découvrez comment configurer cette intégration dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL ADOBE EXPERIENCE PLATFORM :]** Ces audiences sont créées dans Adobe Experience Platform et intégrées au Web de Campaign à l’aide de l’intégration Sources d’Adobe et Destinations . Découvrez comment configurer cette intégration dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 >[!NOTE]
 >
