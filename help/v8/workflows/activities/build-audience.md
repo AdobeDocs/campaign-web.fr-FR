@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 60%
+ht-degree: 98%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="Activité Créer une audience"
->abstract="La variable **Créer une audience** l&#39;activité permet de définir l&#39;audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow, l’audience du message n’est pas définie dans l’activité du canal, mais dans la variable **Créer une audience** activité."
+>abstract="L’activité **Créer une audience** permet de définir l’audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
 
 
-L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l’audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow, l’audience du message n’est pas définie dans l’activité du canal, mais dans la variable **Créer une audience** activité.
+L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l’audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
 
 Pour définir la population de l’audience, vous pouvez :
 
@@ -29,13 +29,13 @@ Pour définir la population de l’audience, vous pouvez :
 
 >[!NOTE]
 >
->Dans ce contexte, vous ne pouvez pas charger d’audience à partir d’un fichier. Pour cela, vous devez créer une diffusion email autonome. [En savoir plus](../../audience/about-recipients.md)
+>Dans ce contexte, vous ne pouvez pas charger d’audience à partir d’un fichier. Pour cela, vous devez créer une diffusion d’e-mail autonome. [En savoir plus](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configuration de l’activité de création d’audience{#build-audience-configuration}
+## Configurer l’activité Créer une audience{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -66,7 +66,7 @@ Pour sélectionner une audience existante, procédez comme suit :
 
 >[!IMPORTANT]
 >
->Si vous souhaitez utiliser une **[!UICONTROL Créer une audience]** activité ciblant une audience Experience Platform, vous devez ajouter une **[!UICONTROL Changement de dimension]** activité après celle-ci, pour vous assurer que la dimension de ciblage de l’audience est définie sur &quot;Destinataire&quot;. Un exemple de workflow est disponible au bas de cette page.
+>Si vous souhaitez utiliser une activité **[!UICONTROL Créer une audience]** ciblant une audience Experience Platform, vous devez ajouter une activité **[!UICONTROL Changement de dimension]** après celle-ci, pour vous assurer que la dimension de ciblage de l’audience est définie sur Personne destinataire. Un exemple de workflow est disponible au bas de cette page.
 
 ## Exemples{#build-audience-examples}
 
@@ -74,6 +74,6 @@ Voici un exemple de workflow avec deux activités **Créer une audience**. La pr
 
 ![](../assets/workflow-audience-example.png)
 
-Voici un autre exemple de workflow dans lequel une audience Adobe Experience Platform est combinée à une audience Adobe Campaign. Pour combiner ces audiences, une **[!UICONTROL Changement de dimension]** l’activité avec la dimension de ciblage &quot;Destinataire&quot; est ajoutée après l’audience Adobe Experience Platform. [Découvrez comment configurer une activité Changement de dimension](change-dimension.md)
+Voici un autre exemple de workflow dans lequel une audience Adobe Experience Platform est combinée à une audience Adobe Campaign. Pour combiner ces audiences, une activité **[!UICONTROL Changement de dimension]** avec la dimension de ciblage Personne destinataire est ajoutée après l’audience Adobe Experience Platform. [Découvrez comment configurer une activité Changement de dimension](change-dimension.md).
 
 ![](../assets/workflow-audience-aep.png)

@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 39%
+ht-degree: 63%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Résumé du rapport Diffusion push"
->abstract="La variable **Présentation de la diffusion push** offre un aperçu complet de votre diffusion push, fournissant des informations détaillées et des données spécifiques. Il fournit des informations complètes sur les performances, l’efficacité et les résultats de votre diffusion."
+>abstract="La **Vue d’ensemble de la diffusion des notifications push** offre une vue d’ensemble complète de votre diffusion de notifications push, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de votre diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Envoi des rapports"
->abstract="he **Envoi** Cet onglet de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs avec vos diffusions et sur les erreurs potentielles qu’ils ont pu rencontrer."
+>abstract="L’onglet **Envoi** de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs et visiteuses avec vos diffusions, ainsi que sur les erreurs potentielles qu’ils ont pu rencontrer."
 
 Le **rapport de diffusion des notifications push** offre une vue d’ensemble complète du canal de notification push, avec des informations détaillées et des données spécifiques. Il fournit des informations complètes sur les performances, l’efficacité et les résultats de chaque diffusion.
 
@@ -34,7 +34,7 @@ La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit de
 
 +++En savoir plus sur les mesures des rapports de diffusion des notifications push.
 
-* **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de la préparation de la diffusion.
+* **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de la préparation de la diffusion.
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -58,7 +58,7 @@ La variable **Population ciblée** données d&#39;affichage graphiques et tabula
 
 +++En savoir plus sur les mesures des rapports de diffusion des notifications push.
 
-* **[!UICONTROL A envoyer]**: Nombre total de messages traités lors de la préparation de la diffusion.
+* **[!UICONTROL À diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
 * **[!UICONTROL Exclusions]** : nombre de profils qui ont été exclus de l’analyse.
 
@@ -104,8 +104,8 @@ La variable **[!UICONTROL Exclusions]** le graphique et le tableau affichent les
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
 >title="Débit des diffusions (Delivery throughput) rapport"
->abstract="Le rapport Débit de diffusion présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée."
+>abstract="Le rapport Débit de diffusion présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné."
 
-La variable **Débit de diffusion** le rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période spécifiée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
+Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
 
 ![](assets/reporting_push_2.png)

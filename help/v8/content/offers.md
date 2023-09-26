@@ -7,14 +7,14 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
 
 # Ajout d’offres dans vos messages {#offers-content}
 
-Adobe Campaign v8 Web vous permet d’envoyer les offres qui ont été créées dans la console à l’aide du module **[!UICONTROL Interaction]** avec les diffusions. Pour plus d&#39;informations sur Interaction et la gestion d&#39;un catalogue d&#39;offres dans la console, reportez-vous à la section [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
+Adobe Campaign v8 Web vous permet d’envoyer les offres qui ont été créées dans la console à l’aide du module **[!UICONTROL Interaction]** avec les diffusions. Pour plus d’informations sur Interaction et sur la gestion d’un catalogue d’offres dans la console, consultez la [documentation de Campaign V8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 
 Pour envoyer des offres avec une diffusion, procédez comme suit :
 
@@ -25,25 +25,25 @@ Pour envoyer des offres avec une diffusion, procédez comme suit :
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Définition des paramètres des offres"
->abstract="Configurez les offres qui doivent être proposées aux destinataires en définissant un emplacement, éventuellement une catégorie et un thème, et indiquez le nombre d&#39;offres que vous souhaitez insérer dans la diffusion."
+>title="Définir les paramètres d’offres"
+>abstract="Configurez les offres qui doivent être proposées aux personnes destinataires en définissant un emplacement, éventuellement une catégorie et un thème, et indiquez le nombre d’offres à insérer dans la diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Définition des paramètres avancés des offres"
->abstract="Vous pouvez activer l&#39;exclusion des destinataires pour lesquels les offres éligibles ne sont pas suffisantes, et choisir le mode de traitement du message au cas où l&#39;une des propositions n&#39;existerait pas."
+>title="Définir les paramètres avancés des offres"
+>abstract="Vous pouvez activer l’exclusion des profils destinataires pour lesquels les offres éligibles ne sont pas suffisantes, puis choisir le mode de traitement du message au cas où l’une des propositions n’existerait pas."
 
-Adobe Campaign vous permet de proposer une ou plusieurs offres spécifiques à un contact donné. Module d&#39;Interaction qui permet de répondre en temps réel lors d&#39;une interaction avec un contact donné en lui proposant une ou plusieurs offres spécifiques. Il peut s’agir par exemple de messages de communication simples, d’offres spéciales sur un ou plusieurs produits ou d’un service.
+Adobe Campaign vous permet de proposer une ou plusieurs offres spécifiques à un contact donné. Le module Interaction permet de répondre en temps réel lors d’une interaction avec un contact donné en lui proposant une ou plusieurs offres adaptées. Il peut s’agir par exemple de messages de communication simples, d’offres spéciales sur un ou plusieurs produits ou d’un service.
 
 Pour sélectionner les offres à ajouter à votre diffusion, procédez comme suit.
 
-1. Cliquez sur le bouton **[!UICONTROL Configuration des offres]** à partir de l&#39;écran d&#39;édition du contenu de la diffusion.
+1. Cliquez sur le bouton **[!UICONTROL Configuration des offres]** à partir de l‘écran d’édition du contenu de la diffusion.
 
    ![](assets/setup-offers.png)
 
 1. Configurez les offres qui doivent être proposées aux destinataires.
 
-   Sélectionnez d’abord l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement dans le [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=fr){target="_blank"}
+   Sélectionnez d’abord l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement dans la [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=fr){target="_blank"}.
 
    ![](assets/create-content-offers.png)
 
@@ -103,7 +103,7 @@ Pour insérer une offre à l’aide de l’éditeur d’expression, procédez co
 
    >[!NOTE]
    >
-   >Le nombre de propositions disponibles dépend de la configuration de l’appel au moteur et leur ordre dépend de la priorité des offres. En savoir plus dans la section [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >Le nombre de propositions disponibles dépend de la configuration de l’appel au moteur et leur ordre dépend de la priorité des offres. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=fr){target="_blank"}.
 
 1. Enregistrez vos modifications.
 

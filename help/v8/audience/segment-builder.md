@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 64%
+ht-degree: 73%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Ciblage d’audiences"
->abstract="Construire une cible de diffusion n&#39;a jamais été aussi facile ! Avec notre dernier créateur de règles, vous pouvez désormais définir des critères de filtrage pour les destinataires ou toute autre dimension de ciblage de la base de données. Profitez de l’audience Adobe Experience Platform pour affiner davantage votre audience cible et optimiser l’impact de votre campagne."
+>title="Audiences cibles"
+>abstract="Créer une cible de diffusion n’a jamais été aussi facile. Avec notre dernier créateur de règles en date, vous pouvez désormais définir des critères de filtrage pour les personnes destinataires ou toute autre dimension de ciblage de la base de données. Profitez de l’audience Adobe Experience Platform pour affiner davantage votre audience cible et optimiser l’impact de votre campagne."
 
 Le créateur de règles permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. Vous pouvez l’utiliser pour créer une audience à partir d’un workflow à l’aide d’une **[!UICONTROL Créer une audience]** ou directement lors de la création d&#39;une diffusion pour créer une audience unique.
 

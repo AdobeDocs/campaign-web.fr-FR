@@ -1,22 +1,22 @@
 ---
 audience: end-user
 title: Paramètres de diffusion
-description: En savoir plus sur les paramètres de diffusion dans Campaign Web
+description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
 source-wordcount: '2112'
-ht-degree: 70%
+ht-degree: 98%
 
 ---
 
 
 # Paramètres de diffusion {#email-del-settings}
 
-Les paramètres de diffusion des emails sont **paramètres de diffusion technique** qui sont définis dans le modèle d’email. Elles peuvent être surchargées pour chaque diffusion.
+Les paramètres de diffusion d’e-mail sont des **paramètres de diffusion techniques** définis dans le modèle d’e-mail. Ils peuvent être surchargés pour chaque diffusion.
 
-Ces paramètres sont disponibles à partir du **Configuration des paramètres de diffusion** icône disponible lors de l&#39;édition d&#39;une diffusion email ou d&#39;un modèle de diffusion email.
+Ces paramètres sont disponibles à partir de l’icône **Configurer les paramètres de diffusion** lors de la modification d’une diffusion d’e-mail ou d’un modèle de diffusion d’e-mail.
 
 
 ## Paramètres de diffusion d’e-mail {#email-delivery-settings}
@@ -30,18 +30,18 @@ Ces paramètres sont disponibles à partir du **Configuration des paramètres de
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Typologie les règles permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
+>abstract="Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Paramètres de typologie de la diffusion"
->abstract="Les règles de typologie permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
+>abstract="Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
 
-Les typologies sont des ensembles de **règles de typologie**, qui sont exécutés pendant la phase de préparation. Les règles de typologie permettent aux marketeurs de normaliser les pratiques commerciales, dans toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, filtrer et prioriser l&#39;envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation de la diffusion.  Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clients et clientes désabonnés, les concurrents et les client(e)s ne faisant pas partie du programme de fidélité).
+Les typologies sont des ensembles de **règles de typologie** qui sont exécutés pendant la phase de préparation. Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation de la diffusion.  Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou un objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clientes et clients désabonnés, les personnes concurrentes et les clientes et clients ne faisant pas partie du programme de fidélité).
 
-Les règles de typologie sont regroupées au sein d&#39;une typologie afin d&#39;appliquer facilement plusieurs règles de filtrage à une même diffusion.
+Les règles de typologie sont regroupées dans une typologie afin d’appliquer facilement plusieurs règles de filtrage à une diffusion à la fois.
 
 Lors de l’association d’une typologie à un message ou à un modèle de message, les règles de typologie incluses dans la typologie sont exécutées pour vérifier la validité du message durant la préparation de celui-ci.
 
@@ -55,8 +55,8 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Paramètres de pression pour la diffusion"
->abstract="Le poids des diffusions permet d&#39;identifier les diffusions prioritaires dans le cadre de la gestion de la fatigue. Les messages dont le poids est le plus élevé sont prioritaires."
+>title="Paramètres de pression de la diffusion"
+>abstract="Le poids des diffusions permet d’identifier les diffusions prioritaires dans le cadre de la gestion de la fatigue. Les messages dont le poids est le plus élevé sont prioritaires."
 
 
 >[!CONTEXTUALHELP]
@@ -64,7 +64,7 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 >title="Poids de la diffusion"
 >abstract="Les poids de chaque diffusion permettent d’identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
 
-Dans cette section, les paramètres de pression permettent de définir une **seuil** pour configurer des règles de gestion de la fatigue. Il s’agit du nombre maximum de messages qui peuvent être envoyés à un profil sur une période donnée. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
+Dans cette section, les paramètres de pression permettent de définir un **seuil** de configuration des règles de gestion de la fatigue. Il s’agit du nombre maximum de messages qui peuvent être envoyés à un profil sur une période donnée. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
 
 La valeur de ce seuil peut être constante ou variable. Pour une même période, le seuil peut donc varier d&#39;un profil à l&#39;autre, et même pour un même profil.
 
@@ -83,14 +83,14 @@ Utilisez le champ **Mode de diffusion** pour sélectionner le mode d’évaluati
 * **Estimation et validation de la cible prévisionnelle**
 * **Évaluation de la cible**
 
-La gestion de la fatigue est comprise dans le module complémentaire **Optimisation de campagne**. En savoir plus sur les règles de pression et comment configurer la gestion de la fatigue dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
+La gestion de la fatigue est comprise dans le module complémentaire **Optimisation de campagne**. En savoir plus sur les règles de pression et la configuration de la gestion de la fatigue dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
 
 ### Paramètres de capacité {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Paramètres de capacité pour la diffusion"
->abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter la diffusion, les messages entrants que la diffusion peut générer et le nombre d&#39;appels à passer pour contacter les abonnés, par exemple. Les règles de capacité sont définies dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal email."
+>title="Paramètres de capacité de la diffusion"
+>abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter notamment la diffusion, les messages entrants que la diffusion peut générer et le nombre d’appels à passer pour contacter les personnes abonnées. Les règles de capacité sont définies dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal e-mail."
 
 
 >[!CONTEXTUALHELP]
@@ -103,15 +103,15 @@ Dans cette section, vous pouvez sélectionner une règle de capacité définie d
 
 Le champ **Importance du destinataire** est une formule utilisée pour déterminer les destinataires qui sont conservés lorsque les règles de typologie de capacité sont dépassées.
 
-En savoir plus sur les règles de cohérence et de capacité et comment les configurer dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=fr){target="_blank"}.
+En savoir plus sur les règles de cohérence et de capacité ainsi que sur leur configuration dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=fr){target="_blank"}.
 
 
 ## Paramètres de l’audience {#audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="Paramètres d’audience pour la diffusion"
->abstract="Sélectionnez une **mapping de ciblage** parmi celles disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Vous pouvez également définir les paramètres d&#39;exclusion de la diffusion. "
+>title="Paramètres d’audience de la diffusion"
+>abstract="Sélectionnez un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Vous pouvez également définir les paramètres d’exclusion de la diffusion. "
 
 Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. La dimension de ciblage, ou mapping de ciblage, est le type de données qu’une opération gère. Il permet de définir la population ciblée : destinataires, bénéficiaires de contrats, opérateurs, abonnés, etc.
 
@@ -122,8 +122,8 @@ En savoir plus sur les mappings de ciblage dans [cette section](../audience/abou
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Paramètres de diffusion pour la diffusion"
->abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez activer Cci pour la diffusion et modifier les modes de diffusion et de routine. Ces options sont limitées aux utilisateurs experts uniquement."
+>title="Paramètres de diffusion de la diffusion"
+>abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez activer la fonction Cci de la diffusion et modifier les modes de diffusion et de routine. Ces options sont limitées aux personnes expertes uniquement."
 
 Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion.
 
@@ -131,21 +131,21 @@ Les paramètres de diffusion sont des paramètres techniques qui s’appliquent 
 
 * **Tester la diffusion par SMTP** : cette option vous permet de tester l’envoi par SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
-* **E-mail Cci** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible de vos messages. En savoir plus sur la fonctionnalité Email Cci dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
+* **E-mail Cci** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible de vos messages. En savoir plus sur la fonctionnalité E-mail Cci dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
 ### Web Analytics {#web-analytics}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="Paramètres des analyses web pour la diffusion"
->abstract="Sélectionnez un compte Web Analytics. Ce compte est paramétré dans la console cliente Campaign. Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez."
+>title="Paramètres Web Analytics de la diffusion"
+>abstract="Sélectionnez un compte Web Analytics. Ce compte est paramétré dans la console cliente Campaign. Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez."
 
-Dans cette section, vous pouvez sélectionner un compte Web Analytics. Ce compte est paramétré dans la console cliente Campaign.
+Dans cette section, vous pouvez sélectionner un compte Web Analytics. Ce compte est paramétré dans la console cliente Campaign.
 
 Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez.
 
-En savoir plus sur Web Analytics et Campaign dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
+En savoir plus sur Web Analytics et Campaign dans la [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
 
 ### Reprises {#retries}
@@ -155,22 +155,22 @@ En savoir plus sur Web Analytics et Campaign dans [Documentation de Campaign v8 
 >title="Nombre maximal de reprises"
 >abstract="Si un message est en échec en raison d’une erreur temporaire, les reprises sont effectuées jusqu’à la fin de la durée de diffusion."
 
-Les messages temporairement non diffusés en raison d’une erreur Soft ou Ignoré font l’objet d’une nouvelle tentative automatique. Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec un intervalle minimum d’une heure, réparties sur les 24h de la journée.
+Les messages temporairement non diffusés en raison d’une erreur Soft ou Ignoré font l’objet d’une nouvelle tentative automatique. Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec un intervalle minimum d’une heure, réparties sur les 24 heures de la journée.
 
-En savoir plus sur la gestion des reprises dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
+En savoir plus sur la gestion des reprises dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
 ## Approbation {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Mode de validation de la diffusion"
->abstract="Sélectionnez le mode de validation. Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non."
+>title="Mode d’approbation de la diffusion"
+>abstract="Sélectionnez le mode d’approbation. Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
->title="Mode de validation des diffusions"
->abstract="Sélectionnez le mode de validation des diffusions à partir de ce modèle. Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non."
+>title="Mode d’approbation des diffusions"
+>abstract="Sélectionnez le mode d’approbation des diffusions à partir de ce modèle. Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non."
 
 Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non. Par défaut, l’utilisateur ou l’utilisatrice doit confirmer l’envoi des messages à la fin de la phase d’analyse : il s’agit d’une validation **manuelle**.
 
@@ -218,7 +218,7 @@ Le champ **Limite de validité des ressources** est utilisé pour les ressources
 ![](assets/delivery-settings-2.png)
 
 
-En savoir plus sur la période de validité des diffusions dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr#validity-period){target="_blank"}.
+En savoir plus sur la période de validité des diffusions dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr#validity-period){target="_blank"}.
 
 ### Gestion de la page miroir {#mirror}
 
@@ -247,7 +247,7 @@ Outre le mode par défaut, les options disponibles sont les suivantes :
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Période de validité"
->abstract="La période de validité définit la durée d&#39;activation du tracking sur les URL des messages."
+>abstract="La période de validité définit la durée d’activation du tracking sur les URL des messages."
 
 
 Les paramètres de tracking sont définis dans la section correspondante. Les options possibles sont les suivantes :
@@ -261,7 +261,7 @@ Les paramètres de tracking sont définis dans la section correspondante. Les op
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
 >title="Paramètres de test de la diffusion"
->abstract="Sélectionnez les paramètres d&#39;exclusion et personnalisez le libellé des emails de test."
+>abstract="Sélectionnez les paramètres d’exclusion et personnalisez le libellé des e-mails de test."
 
 Vous pouvez définir les paramètres d’exclusion dans cette section. Les options disponibles sont les suivantes :
 
