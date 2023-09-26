@@ -4,30 +4,30 @@ title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Enrichissement  {#enrichment}
+# Enrichissement {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment"
->title="Activité d’enrichissement"
->abstract="La variable **Enrichissement** activité permet d&#39;améliorer les données ciblées avec des informations supplémentaires de la base de données. Elle est généralement utilisée dans un workflow après les activités de segmentation."
+>title="Activité Enrichissement"
+>abstract="L’activité **Enrichissement** permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de segmentation."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
->title="Activité d’enrichissement"
->abstract="Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité d’enrichissement pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
+>title="Activité Enrichissement"
+>abstract="Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="Données d’enrichissement"
->abstract="Sélectionnez les données à utiliser pour enrichir votre workflow. Vous pouvez sélectionner deux types de données d&#39;enrichissement : un seul attribut d&#39;enrichissement de la dimension cible ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tables."
+>abstract="Sélectionnez les données à utiliser pour enrichir votre workflow. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement de la dimension cible ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tables."
 
 L’activité **Enrichissement** est une activité de **ciblage**. Elle permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de segmentation.
 
@@ -45,7 +45,7 @@ Une fois que les données d’enrichissement ont été ajoutées au workflow, vo
 
 Par exemple, vous pouvez ajouter à la table de travail du workflow des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
 
-## Configuration de l&#39;activité Enrichissement {#enrichment-configuration}
+## Configurer l’activité Enrichissement {#enrichment-configuration}
 
 Pour configurer l’activité **Enrichissement**, procédez comme suit :
 

@@ -5,9 +5,9 @@ description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beta"
 source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -40,4 +40,4 @@ Ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simule
 >
 >La simulation de contenu est également disponible à partir de la [synthèse des diffusions](../monitor/prepare-send.md) après avoir cliqué sur le bouton **[!UICONTROL Vérifier et envoyer]**.
 >
->Si vous ciblez une audience téléchargée depuis un fichier, reportez-vous à la section [cette section](../audience/file-audience.md#preview--test-your-email-test) pour apprendre à prévisualiser et tester votre diffusion.
+>Si vous ciblez une audience chargée depuis un fichier, reportez-vous à [cette section](../audience/file-audience.md#preview--test-your-email-test) pour apprendre à prévisualiser et à tester votre diffusion.

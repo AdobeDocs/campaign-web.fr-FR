@@ -5,9 +5,9 @@ description: Découvrez comment créer des workflows à l’aide d’Adobe Camp
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -27,12 +27,12 @@ Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide
 
 ## Transitions de workflow {#transitions}
 
-Dans les workflows, les données transportées d&#39;une activité à l&#39;autre via les transitions sont stockées dans une table de travail temporaire.
+Dans les workflows, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une table de travail temporaire.
 
-Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l&#39;écran.
+Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l’écran.
 
 * Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
-* Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données transportées dans la transition sélectionnée.
+* Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données véhiculées dans la transition sélectionnée.
 
 ![](assets/transition.png)
 

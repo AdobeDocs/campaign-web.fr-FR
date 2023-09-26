@@ -4,9 +4,9 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -35,15 +35,15 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail et clique
 >
 >Vous pouvez personnaliser le nom des transitions entre chaque activité. Pour ce faire, sélectionnez la transition et modifiez son libellé dans le volet de droite.
 
-## Gestion des activités {#manage}
+## Gérer des activités {#manage}
 
-Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le volet des propriétés, ce qui vous permet d’effectuer plusieurs opérations. Vous pouvez ainsi :
+Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le panneau des propriétés, vous permettant d’effectuer plusieurs opérations. Vous pouvez ainsi :
 
 * **Supprimer** l’activité à partir de la zone de travail.
-* **Désactiver/activer** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités suivantes situées sur le même chemin ne sont pas exécutées et le workflow est arrêté.
-* **Copier** l’activité. Vous pouvez ensuite la coller dans n&#39;importe quel workflow en cliquant sur le bouton &quot;+&quot; sur une transition et en sélectionnant &quot;Activité Coller 1&quot;.
-* Accéder à la **Logs et tâches**.
-* **Pause/Reprendre** l’activité. Lorsque le workflow est exécuté, il s&#39;arrête à l&#39;activité en pause. La tâche correspondante ainsi que toutes celles qui la suivent dans le même chemin ne sont pas exécutées.
+* **Désactivez/activez** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités qui suivent sur le même chemin ne sont pas exécutées et le workflow est arrêté.
+* **Copiez** l’activité. Vous pouvez ensuite la coller dans n’importe quel workflow en cliquant sur le bouton « + » sur une transition et en sélectionnant « Coller 1 activité ».
+* Accédez aux **Journaux et tâches** de l’activité.
+* **Mettez en pause/Reprenez** l’activité. Lorsque le workflow est exécuté, il s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 
 ![](assets/activity-action.png){width="70%"}
 

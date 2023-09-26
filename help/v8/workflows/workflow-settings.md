@@ -5,9 +5,9 @@ description: Découvrez comment créer des workflows à l’aide d’Adobe Camp
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
 source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Lors de l’orchestration des activités de workflow dans la zone de travail, vo
 
 Ces paramètres sont prédéfinis dans le modèle sélectionné lors de la création du workflow, mais peuvent être modifiés selon les besoins du workflow.
 
-Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres]** est disponible dans la barre d’actions située au-dessus de la zone de travail du workflow.
+Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres]** disponible dans la barre d’actions située au-dessus de la zone de travail du workflow.
 
 ![](assets/workflow-settings.png)
 
@@ -34,14 +34,14 @@ La section **[!UICONTROL Propriétés]** fournit des paramètres génériques, q
 * **[!UICONTROL Nom]** : le nom interne du workflow.
 * **[!UICONTROL Dossier]** : le dossier dans lequel le workflow doit être enregistré.
 * **[!UICONTROL Campagne liée]** : ce champ s’affiche si le workflow a été créé dans une campagne. Il vous permet d’ouvrir la campagne associée.
-* **[!UICONTROL Fuseau horaire]** : définissez un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
-Les autres valeurs possibles sont les suivantes :
-   * **Fuseau horaire du serveur** pour utiliser le fuseau horaire du serveur applicatif Adobe Campaign
-   * **Fuseau horaire de l&#39;opérateur** pour utiliser le fuseau horaire de l&#39;opérateur Adobe Campaign qui exécute le workflow, tel que défini dans le profil de l&#39;opérateur, dans la console cliente
-   * **Fuseau horaire de la base** pour utiliser le fuseau horaire du serveur de base de données
-   * Un fuseau horaire spécifique
+* **[!UICONTROL Fuseau horaire]** : définissez un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour la personne opératrice actuelle de Campaign.
+Les autres valeurs possibles sont les suivantes :
+   * **Fuseau horaire du serveur** pour utiliser le fuseau horaire du serveur applicatif Adobe Campaign.
+   * **Fuseau horaire de l’opérateur ou de l’opératrice** pour utiliser le fuseau horaire de l’opérateur ou de l’opératrice Adobe Campaign qui exécute le workflow, tel que défini dans le profil de l’opérateur ou de l’opératrice, dans la console cliente.
+   * **Fuseau horaire de la base de données** pour utiliser le fuseau horaire du serveur de base de données.
+   * Un fuseau horaire spécifique.
 
-* **[!UICONTROL Superviseurs]**: en cas d&#39;échec d&#39;un workflow, les opérateurs appartenant au groupe d&#39;opérateurs sélectionné dans ce champ sont notifiés par email.
+* **[!UICONTROL Superviseur(s)]** : en cas d’échec d’un workflow, les opérateurs et opératrices appartenant au groupe sélectionné dans ce champ reçoivent une notification par e-mail.
 * **[!UICONTROL Description]** : ce champ permet d’indiquer une description du workflow.
 
 ## Paramètres de segmentation

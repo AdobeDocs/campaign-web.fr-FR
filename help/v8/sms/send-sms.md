@@ -4,9 +4,9 @@ title: Envoyer une diffusion par SMS
 description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ L’envoi de SMS de test est une étape importante pour assurer la qualité et l
 
    ![](assets/sms_send_5.png)
 
-   Si la diffusion SMS a été planifiée, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]** bouton . En savoir plus sur la planification des diffusions dans [cette section](../msg/gs-messages.md#schedule-the-delivery-sending).
+   Si la diffusion SMS a été planifiée, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]**. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#schedule-the-delivery-sending).
 
 
 1. Confirmez l’action d’envoi en cliquant sur le bouton **[!UICONTROL Envoyer]**.

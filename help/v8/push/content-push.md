@@ -4,9 +4,9 @@ title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
 source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1347'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Dans le menu **[!UICONTROL Variables d’application]**, vos variables d’appli
 
 * Le **[!UICONTROL Message de notification]**, géré automatiquement par le SDK FCM. FCM affiche automatiquement le message sur les appareils de vos utilisateurs et utilisatrices pour le compte de l&#39;application cliente. Les messages de notification contiennent un ensemble de paramètres et d’options prédéfini, mais peuvent encore être personnalisés avec des variables d’application personnalisées.
 
-  Pour composer votre message, cliquez sur le bouton **[!UICONTROL Titre]** et **[!UICONTROL Message]** des champs. Utilisez l’éditeur d’expression pour définir le contenu, personnaliser les données et ajouter du contenu dynamique.
+  Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Message]**. Utilisez l’éditeur d’expression pour définir le contenu, personnaliser les données et ajouter du contenu dynamique.
 
   Pour personnaliser davantage votre notification push, vous pouvez choisir une image à lui ajouter, l’icône de la notification qui s’affichera sur les appareils de vos profils et sa couleur.
 
@@ -59,7 +59,7 @@ Dans le menu **[!UICONTROL Variables d’application]**, vos variables d’appli
 
 >[!TAB iOS]
 
-Pour composer votre message, cliquez sur le bouton **[!UICONTROL Titre]** et **[!UICONTROL Message]** des champs. Utilisez l’éditeur d’expression pour définir le contenu, personnaliser les données et ajouter du contenu dynamique.
+Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Message]**. Utilisez l’éditeur d’expression pour définir le contenu, personnaliser les données et ajouter du contenu dynamique.
 
 Vous pouvez ajouter un **[!UICONTROL sous-titre]**, valeur du paramètre sous-titre de la payload de notification iOS. Consultez cette section.
 

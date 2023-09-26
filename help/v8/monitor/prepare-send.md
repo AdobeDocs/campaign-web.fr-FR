@@ -5,9 +5,9 @@ description: Découvrez comment préparer et envoyer un e-mail avec l’interfac
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 90%
 
 ## Préparer l’envoi {#prepare}
 
-Lorsque vous avez défini votre [content](../content/edit-content.md), [audience](../audience/add-audience.md), et [planning](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), vous êtes prêt à préparer votre diffusion email.
+Lorsque vous avez défini le [contenu](../content/edit-content.md), l’[audience](../audience/add-audience.md) et le planning, vous pouvez préparer la [diffusion](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule) de votre e-mail.
 
-Lors de la préparation de la diffusion, la population cible est calculée et le contenu du message généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées.
+Pendant la préparation de la diffusion, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées.
 
 Les règles de validation utilisées pendant la préparation de la diffusion sont décrites dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
 
@@ -119,34 +119,34 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’e
 >id="acw_deliveries_email_metrics_delivered"
 >title="Diffusés"
 >abstract="Le nombre de messages envoyés avec succès. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est basé sur le nombre total de messages envoyés."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Présentation des indicateurs de performance clés"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=fr" text="Comprendre les KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Ouvertures"
 >abstract="Le nombre de messages ouverts. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre d’ouvertures distinctes par rapport au nombre de messages diffusés."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Présentation des indicateurs de performance clés"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=fr" text="Comprendre les KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Clics"
 >abstract="Le nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages diffusés."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Présentation des indicateurs de performance clés"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=fr" text="Comprendre les KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Mesures envoyées"
 >abstract="Nombre total de messages traités lors de l’analyse de la diffusion."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Présentation des indicateurs de performance clés"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=fr" text="Comprendre les KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Mesures des erreurs"
 >abstract="Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Présentation des indicateurs de performance clés"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=fr" text="Comprendre les KPI"
 
 
 Une fois l’envoi terminé, vous pouvez vérifier les KPI affichés :
@@ -167,6 +167,6 @@ Une fois l’envoi terminé, vous pouvez vérifier les KPI affichés :
 >
 >Les indicateurs sont mis à jour toutes les 5 minutes après le début de la diffusion. Les indicateurs de préparation de diffusion sont exprimés en temps réel.
 
-En savoir plus sur les indicateurs de performance clés dans [cette page](../reporting/kpis.md).
+Pour en savoir plus sur les KPI, consultez [cette page](../reporting/kpis.md).
 
 Vous pouvez également consulter les journaux. [En savoir plus](delivery-logs.md).

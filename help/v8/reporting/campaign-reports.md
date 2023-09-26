@@ -4,9 +4,9 @@ title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 badge: label="Beta"
 source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1853'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Envoi des rapports"
->abstract="L&#39;onglet Envoi de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs avec vos diffusions et sur les erreurs potentielles qu&#39;ils ont pu rencontrer."
+>abstract="L’onglet Envoi de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs et visiteuses avec vos diffusions, ainsi que sur les erreurs potentielles qu’ils ont pu rencontrer."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracking des rapports"
->abstract="L&#39;onglet Tracking de votre rapport propose des données précieuses, notamment le comportement des destinataires par lien, la répartition des ouvertures et des clics, ainsi que des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d&#39;une diffusion."
+>abstract="L’onglet Tracking de votre rapport contient des données importantes, notamment le comportement des personnes destinataires par lien, la répartition des ouvertures et des clics, ainsi que des informations détaillées sur les URL ayant reçu le plus de clics lors d’une diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Vue d’ensemble de la diffusion"
->abstract="L’ aperçu de la diffusion fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont les visiteurs interagissent avec votre diffusion par e-mail."
+>abstract="La vue d’ensemble de la diffusion fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiques initiales sur l´audience cible"
->abstract="Le tableau Statistiques d&#39;audience cible initiale affiche les données relatives à vos destinataires."
+>abstract="Le tableau Statistiques initiales sur l’audience cible affiche des données relatives à vos personnes destinataires."
 
-Le rapport Campagne est divisé en différents widgets détaillant le succès et les erreurs de votre campagne.
+Le rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne.
 
 La page du rapport de campagne s’affiche avec les onglets suivants :
 
@@ -54,7 +54,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de la préparation de la diffusion.
+   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de la préparation de la diffusion.
 
    * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -74,7 +74,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
@@ -86,7 +86,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
@@ -141,7 +141,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Domaine invalide]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse e-mail est erroné ou n&#39;existe plus.
 
-   * **[!UICONTROL Boîte pleine]**: Type d&#39;erreur généré après cinq tentatives de diffusion pour indiquer que la boîte de réception du destinataire contient trop de messages.
+   * **[!UICONTROL Boîte pleine]** : type d’erreur générée, après cinq tentatives de diffusion, indiquant que la boîte de réception de la personne destinataire contient trop de messages.
 
    * **[!UICONTROL Compte désactivé]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
 
@@ -149,7 +149,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Inatteignable]** : type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
 
-   * **[!UICONTROL Non connecté]** : Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou n&#39;est pas connecté au réseau au moment de l&#39;envoi du message.
+   * **[!UICONTROL Non connecté]** : type d’erreur indiquant que le téléphone portable de la personne destinataire est éteint ou n’est pas connecté au réseau au moment de l’envoi du message.
 
 +++
 
@@ -248,7 +248,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
-   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de la préparation de la diffusion.
+   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de la préparation de la diffusion.
 
    * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -266,7 +266,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
@@ -278,7 +278,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne SMS.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
@@ -310,7 +310,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
-   * **[!UICONTROL Total envoyé]**: Nombre total de messages traités lors de la préparation de la diffusion.
+   * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de la préparation de la diffusion.
 
    * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -326,7 +326,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
    * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
@@ -336,7 +336,7 @@ Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bo
 
   +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
-   * **[!UICONTROL Message à diffuser]**: Nombre total de messages à diffuser après la préparation de la diffusion.
+   * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
    * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 

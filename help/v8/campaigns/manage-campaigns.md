@@ -4,9 +4,9 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 75%
 
 Pour créer une campagne ou gérer vos campagnes existantes, cliquez sur le menu **[!UICONTROL Campagnes]** dans le volet de navigation de gauche.
 
-## Liste des campagnes {#access-campaigns}
+## Liste de campagnes {#access-campaigns}
 
 La liste des campagnes comprend deux onglets :
 
@@ -42,8 +42,8 @@ Vous pouvez, par exemple, filtrer selon le planning de votre campagne. Ouvrez le
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
->title="Liste des diffusions de l&#39;opération"
->abstract="L’onglet **Diffusions** répertorie toutes les diffusions liées à la campagne en cours. Cliquez sur le nom d&#39;une diffusion pour l&#39;éditer. Utilisez le bouton Créer une diffusion pour ajouter une nouvelle diffusion pour cette opération."
+>title="Liste des diffusions de la campagne"
+>abstract="L’onglet **Diffusions** répertorie toutes les diffusions liées à la campagne en cours. Cliquez sur le nom d’une diffusion pour la modifier. Cliquez sur le bouton Créer une diffusion pour ajouter une diffusion à cette campagne."
 
 Sous l’onglet **Parcourir** de la liste des campagnes, cliquez sur une campagne pour afficher ses détails.
 
@@ -68,22 +68,22 @@ Vous pouvez dupliquer ou supprimer une campagne :
 >
 >L’onglet **Diffusions** affiche toutes les diffusions liées à la campagne. Cependant, les diffusions créées dans un workflow ne peuvent pas être supprimées depuis cet endroit. Pour supprimer une diffusion créée dans le cadre d’un workflow, vous devez supprimer l’activité de diffusion du workflow. [En savoir plus](../msg/gs-messages.md#delivery-delete).
 
-## Utilisation de modèles de campagne{#manage-campaign-templates}
+## Utiliser des modèles de campagnes{#manage-campaign-templates}
 
-Les modèles d’opération contiennent des paramètres préconfigurés qui peuvent être réutilisés pour créer de nouvelles campagnes. Un ensemble de modèles intégrés est disponible pour vous aider à démarrer. Vous pouvez créer et configurer des modèles d&#39;opération, puis créer des opérations à partir de ces modèles.
+Les modèles de campagnes contiennent des paramètres préconfigurés qui peuvent être réutilisés pour créer de nouvelles campagnes. Nous mettons à votre disposition un ensemble de modèles intégrés pour vous aider à démarrer. Vous pouvez créer et configurer des modèles d’opération, puis créer des opérations à partir de ces modèles.
 
-Un modèle de campagne peut stocker les informations suivantes :
+Un modèle de campagne peut stocker les informations suivantes :
 
-* de la campagne **Propriétés** et **Planification** paramètres
-* modèles de workflow
-* modèles de diffusion
+* **Propriétés** de la campagne et paramètres du **planning**.
+* Modèles de workflows.
+* Modèles de diffusion.
 
 Pour créer un modèle de campagne, procédez comme suit :
 
-1. Cliquez sur le bouton **[!UICONTROL Campagnes]** , accédez à la **Modèles** , puis cliquez sur le bouton **[!UICONTROL Créer un modèle]** bouton .
-1. Sélectionnez la variable **Modèle** à utiliser. Vous pouvez ainsi baser votre nouveau modèle sur un modèle créé précédemment.
+1. Cliquez sur le menu **[!UICONTROL Campagnes]**, accédez à l’onglet **Modèles**, puis cliquez sur le bouton **[!UICONTROL Créer un modèle]**.
+1. Sélectionnez le **modèle** à utiliser. Vous pouvez ainsi baser votre nouveau modèle sur un modèle créé précédemment.
 1. Attribuez un libellé à votre modèle.
 1. Si nécessaire, vous pouvez modifier les **options supplémentaires** suivantes : nom interne, dossier, personnes assignées, description et nature.
-1. Définissez le **planning** de votre campagne. Découvrez comment définir le planning de votre campagne dans [cette section](create-campaigns.md#campaign-schedule)
+1. Définissez le **planning** de votre campagne. Découvrez comment définir le planning de votre campagne dans [cette section](create-campaigns.md#campaign-schedule).
 1. Cliquez sur **Créer**.
 1. Ajoutez des workflows et des modèles de diffusion à votre campagne.

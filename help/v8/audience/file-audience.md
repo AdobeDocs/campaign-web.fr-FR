@@ -5,9 +5,9 @@ description: Découvrez comment utiliser les destinataires d’un fichier extern
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 57%
 >title="Paramètres de formatage"
 >abstract="Vérifiez les paramètres de formatage de votre fichier."
 
-Vous ne pouvez pas charger directement des profils dans Campaign à partir de l’interface, mais vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
+Il est impossible de charger directement des profils dans Campaign à partir de l’interface, mais vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
 
 >[!CAUTION]
 >
@@ -36,7 +36,7 @@ Vous ne pouvez pas charger directement des profils dans Campaign à partir de l�
 >
 >* Vous ne pouvez pas utiliser les [populations témoins](control-group.md) lors du chargement de la population cible à partir d’un fichier externe.
 >
->* Les profils ne sont pas ajoutés à la base de données et sont chargés et disponibles uniquement pour cette diffusion d’email autonome spécifique.
+>* Les profils ne sont pas ajoutés à la base de données et sont chargés et disponibles uniquement pour cette diffusion d’e-mail autonome spécifique.
 
 ## Sélectionner et configurer votre fichier {#upload}
 
@@ -62,7 +62,7 @@ Lors de la création et de la personnalisation du contenu du message, vous pouve
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="Charger une audience à partir d’un fichier"
->abstract="Les formats de fichiers pris en charge sont TXT et CSV. Utilisez la première ligne comme en-tête de colonne. Alignez votre format de fichier sur l’exemple de fichier fourni dans le lien ci-dessous."
+>abstract="Les formats de fichiers pris en charge sont TXT et CSV. Utilisez la première ligne comme en-tête de colonne. Alignez votre format de fichier sur l’exemple fourni dans le lien ci-dessous."
 
 Les formats pris en charge sont TXT et CSV. La première ligne correspond à l’en-tête de colonne.
 
@@ -78,28 +78,28 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
 
-## Prévisualiser et tester votre email {#test}
+## Prévisualiser et tester votre e-mail {#test}
 
-Campaign Web vous permet de prévisualiser et d’envoyer des emails de test lors de l’utilisation d’une audience téléchargée à partir d’un fichier. Pour ce faire, procédez comme suit :
+Campaign Web vous permet de prévisualiser et d’envoyer des e-mails de test lors de l’utilisation d’une audience chargée à partir d’un fichier. Pour ce faire, procédez comme suit :
 
-1. Cliquez sur le bouton **[!UICONTROL Bouton Simuler le contenu]** dans l&#39;écran d&#39;édition du contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]** bouton .
+1. Cliquez sur le **[!UICONTROL bouton Simuler le contenu]** dans l’écran de modification du contenu de votre diffusion, puis cliquez sur le bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]**.
 
-1. Les profils contenus dans le fichier téléchargé s’affichent. Sélectionnez le ou les profils que vous souhaitez utiliser pour prévisualiser votre contenu, puis cliquez sur **[!UICONTROL Sélectionner]**.
+1. Les profils contenus dans le fichier chargé s’affichent. Sélectionnez le ou les profils à utiliser pour prévisualiser votre contenu, puis cliquez sur **[!UICONTROL Sélectionner]**.
 
-1. Un aperçu du contenu de la diffusion s&#39;affiche dans le volet droit de l&#39;écran. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche. [En savoir plus sur la prévisualisation du contenu de la diffusion](../preview-test/preview-content.md)
+1. Un aperçu du contenu de la diffusion s’affiche dans le volet de droite de l’écran. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche. [En savoir plus sur la prévisualisation du contenu de la diffusion](../preview-test/preview-content.md)
 
    ![](assets/file-upload-preview.png)
 
-1. Pour envoyer des emails de test, cliquez sur le bouton **[!UICONTROL Test]** bouton .
+1. Pour envoyer des e-mails de test, cliquez sur le bouton **[!UICONTROL Test]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Chargement des profils de BAT]** et sélectionnez le fichier .txt ou .csv contenant les destinataires de vos BAT.
+1. Cliquez sur le bouton **[!UICONTROL Charger des profils de BAT]** et sélectionnez le fichier .txt ou .csv contenant les personnes destinataires de vos BAT.
 
    >[!CAUTION]
    >
-   >Assurez-vous que le format de fichier correspond à celui utilisé pour charger votre audience. Toutes les erreurs de format afficheront une alerte.
+   >Assurez-vous que le format de fichier correspond à celui utilisé pour charger votre audience. Toutes les erreurs de format affichent une alerte.
 
-1. Lorsque les destinataires du BAT sont ajoutés et que vous êtes prêt à envoyer les BAT, cliquez sur le bouton **[!UICONTROL Envoyer un email de test]** et confirmez l’envoi.
+1. Après l’ajout des personnes destinataires du BAT et lorsque vou êtes en mesure d’envoyer les BAT, cliquez sur le bouton **[!UICONTROL Envoyer un e-mail de test]**, puis confirmez l’envoi.
 
    ![](assets/file-upload-test.png)
 
-1. Vous pouvez contrôler à tout moment l’envoi de l’email de test à l’aide du bouton Afficher le journal de l’email de test . [En savoir plus sur la surveillance des emails de test](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. Vous pouvez contrôler à tout moment l’envoi de l’e-mail de test à l’aide du bouton Afficher le journal de l’e-mail de test. [En savoir plus sur la surveillance des e-mails de test](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)

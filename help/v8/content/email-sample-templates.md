@@ -4,9 +4,9 @@ product: campaign
 title: Utiliser des modèles d’e-mails
 badge: label="Beta"
 source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Lors de la [création d’un e-mail](../email/create-email.md), accédez à la s
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign est fourni avec un ensemble de modèles de contenu d’email intégrés que vous pouvez choisir.
+Campaign s’accompagne d’un ensemble de modèles de contenu d’e-mail intégrés que vous pouvez sélectionner.
 
 Pour commencer à créer votre contenu avec l’un des exemples de modèles, procédez comme suit.
 

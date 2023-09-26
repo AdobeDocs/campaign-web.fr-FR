@@ -4,9 +4,9 @@ title: Envoyer une diffusion par notification push
 description: Découvrez comment envoyer une diffusion par notification push dans Adobe Campaign Web.
 badge: label="Beta"
 source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -57,9 +57,9 @@ Les destinataires du test vérifient alors divers éléments, tels que les liens
 
 1. Envoyez les messages en cliquant sur **[!UICONTROL Envoyer]** pour poursuivre le processus d’envoi final.
 
-1. Confirmez l&#39;action d&#39;envoi en cliquant sur le bouton **[!UICONTROL Envoyer]**.
+1. Confirmez l’action d’envoi en cliquant sur le bouton **[!UICONTROL Envoyer]**.
 
-   Si la diffusion push a été planifiée, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]** bouton . En savoir plus sur la planification des diffusions dans [cette section](../msg/gs-messages.md#schedule-the-delivery-sending).
+   Si la diffusion de notification push a été planifiée, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]**. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#schedule-the-delivery-sending).
 
    ![](assets/push_send_4.png)
 

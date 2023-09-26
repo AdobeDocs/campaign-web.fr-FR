@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Modèles de diffusion"
->abstract="Utilisez les modèles de diffusion pour normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes"
+>abstract="Utilisez les modèles de diffusion pour normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes."
 
-Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles de diffusion afin de réutiliser facilement du contenu et des paramètres personnalisés dans vos campagnes. Cette fonctionnalité vous permet de normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes.
+Pour un processus de conception accéléré et amélioré, vous pouvez créer des modèles de diffusion et en réutiliser facilement le contenu et les paramètres personnalisés dans vos campagnes. Cette fonctionnalité vous permet de normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes.
 
 Un modèle peut inclure les éléments suivants :
 
-* [Typologies](../advanced-settings/delivery-settings.md#typology),
-* L’adresse de l’expéditeur ou expéditrice,
+* [Des typologies](../advanced-settings/delivery-settings.md#typology),
+* L’adresse de la personne expéditrice,
 * Une [audience](../audience/about-recipients.md), y compris des [populations témoins](../audience/control-group.md),
-* Personnalisé [content](../content/edit-content.md),
+* Du [contenu](../content/edit-content.md) personnalisé,
 * Des [champs personnalisés](../personalization/personalize.md) et du [contenu conditionnel](../personalization/conditions.md),
-* Liens vers [page miroir](../content/mirror-page.md) et désinscription [links](../content/message-tracking.md),
-* Autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
+* Des liens vers la [page miroir](../content/mirror-page.md) et des [liens](../content/message-tracking.md) de désinscription,
+* D’autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
 
 <!--
 >[!NOTE]
@@ -39,10 +39,10 @@ Un modèle peut inclure les éléments suivants :
 
 >[!NOTE]
 >
->Les modèles de diffusion diffèrent de [modèles de contenu](../content/email-sample-templates.md), qui vous permettent de commencer à créer votre contenu avec l’un des exemples de modèles d’email prêts à l’emploi.
+>Les modèles de diffusion diffèrent des [modèles de contenu](../content/email-sample-templates.md), qui permettent de commencer à créer du contenu avec l’un des exemples de modèles d’e-mail prêts à l’emploi.
 
 
-## Accès et gestion des modèles de diffusion {#access-manage-templates}
+## Accéder aux modèles de diffusion et les gérer {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -165,7 +165,7 @@ Pour configurer un modèle de diffusion à partir de zéro, procédez comme suit
    > * [Canal des notifications push](../push/gs-push.md)
    > * [Canal SMS](../sms/create-sms.md)
 
-1. En outre, pour les modèles d’email, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via le **[!UICONTROL Paramètres]** située en haut à droite de l’écran. [En savoir plus](../advanced-settings/delivery-settings.md)
+1. De plus, pour les modèles d’e-mails, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via le bouton **[!UICONTROL Paramètres]** situé en haut à droite de l’écran. [En savoir plus](../advanced-settings/delivery-settings.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Vérifier]** pour enregistrer et vérifier votre modèle. Vous pouvez toujours modifier tous ses paramètres, le supprimer et le dupliquer.
 
@@ -179,7 +179,7 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
 1. Accédez à l’onglet **Modèles** à l’aide du menu **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** et sélectionnez n’importe quel modèle. [En savoir plus](#access-manage-templates)
 
-1. Cliquez sur le bouton **[!UICONTROL Simulation du contenu]** en haut à droite de l’écran.
+1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** en haut à droite de l’écran.
 
    ![](assets/templates-simulate-button.png)
 

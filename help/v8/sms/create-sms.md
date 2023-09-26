@@ -5,9 +5,9 @@ description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe�
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 82%
 >title="Sélection du modèle de SMS"
 >abstract="Sélectionnez un modèle prédéfini pour démarrer votre diffusion par SMS."
 
-Vous pouvez créer une diffusion SMS autonome ou créer un SMS dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous détaillent la procédure pour une diffusion SMS mono-plan. Si vous travaillez dans le contexte d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Vous pouvez créer une diffusion SMS autonome ou créer un SMS dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion SMS autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
-Pour créer une diffusion SMS autonome, procédez comme suit :
+Pour créer une diffusion SMS autonome, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
 
@@ -63,7 +63,7 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
    Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/preview-test.md) et [configurer des offres](../content/offers.md).
 
-1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour le ou la destinataire. En savoir plus sur la planification des diffusions dans [cette section](../msg/gs-messages.md#gs-schedule).
+1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour la personne destinataire. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#gs-schedule).
 
 1. Cliquez sur **[!UICONTROL Configurer les paramètres de diffusion]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 

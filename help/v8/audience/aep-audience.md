@@ -5,9 +5,9 @@ description: Découvrez comment utiliser une audience à partir d’Adobe Exper
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
 source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Une fois l’audience Adobe Experience Platform créée, vous pouvez l’utili
 
 >[!NOTE]
 >
->Pour utiliser les audiences Adobe Experience Platform dans Campaign, vous devez configurer l’intégration avec les sources et destinations Adobe. Voir [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+>Pour utiliser les audiences Adobe Experience Platform dans Campaign, vous devez configurer l’intégration avec les sources et destinations Adobe. Consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=fr){target="_blank"}.
 
 Pour sélectionner l’audience d’une diffusion, vous pouvez également procéder comme suit :
 

@@ -5,9 +5,9 @@ description: Découvrez comment modifier le contenu de l’e-mail dans l’inter
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
 source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Définir le contenu de l’e-mail"
->abstract="La variable **Modifier le contenu** écran vous permet de définir des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet, d’effectuer des actions supplémentaires, telles que l’ajout de pièces jointes ou d’offres, et d’accéder au Concepteur d’email pour donner un aspect poli à votre message."
+>abstract="L’écran **Modifier le contenu** vous permet de définir les éléments de base de votre message, tels que l’adresse de la personne expéditrice et l’objet, d’effectuer des actions supplémentaires, telles que l’ajout de pièces jointes ou d’offres, et d’accéder au Concepteur d’e-mail pour peaufiner l’aspect de votre message."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Définir les propriétés de l&#39;email"
->abstract="La variable **Détails de base** vous permet de mettre à jour l’adresse de l’expéditeur et l’adresse de réponse, et de définir l’objet à l’aide de l’éditeur d’expression."
+>title="Définir les propriétés de l’e-mail"
+>abstract="La section **Détails de base** vous permet de mettre à jour l’adresse de la personne expéditrice et l’adresse de réponse, puis de définir l’objet à l’aide de l’éditeur d’expression."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Joindre des fichiers à votre email"
->abstract="Sélectionnez un ou plusieurs fichiers à insérer dans votre message. Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email."
+>title="Joindre des fichiers à un e-mail"
+>abstract="Sélectionnez un ou plusieurs fichiers à insérer dans votre message. Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Modifier le suivi"
->abstract="Par défaut, le tracking est activé pour la diffusion, ce qui signifie que tous les liens inclus dans le contenu du message sont suivis. Vous pouvez désactiver cette option à partir de là."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Ajouter des liens et suivre les messages"
+>title="Modifier le tracking"
+>abstract="Par défaut, le tracking est activé pour la diffusion, ce qui signifie que tous les liens inclus dans le contenu du message sont suivis. Vous pouvez désactiver cette option à partir d’ici."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=fr" text="Ajouter des liens et suivre les messages"
 
 La fenêtre **[!UICONTROL Modifier le contenu]** de l’e-mail vous permet d’effectuer les opérations suivantes :
 * Définir des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet.
@@ -69,11 +69,11 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
    >
    >Vous pouvez modifier la partie qui précède le signe « @ », mais pas l’adresse du domaine.
 
-1. Développez l’objet **[!UICONTROL Champs de réponse]** . Le nom et l&#39;adresse de l&#39;expéditeur sont utilisés par défaut pour les réponses. Adobe recommande toutefois d’utiliser une adresse réelle existante, comme l’assistance clientèle de votre marque. Ainsi, si un destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
+1. Développez la section **[!UICONTROL Champs de réponse]**. Le nom et l’adresse de la personne expéditrice sont utilisés par défaut pour les réponses. Adobe recommande toutefois d’utiliser une adresse réelle existante, comme l’assistance clientèle de votre marque. Ainsi, si un destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez votre objet directement dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter [personnalisation](../personalization/personalize.md) en utilisant divers attributs et blocs de contenu, ou offres.
+1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter des éléments de [personnalisation](../personalization/personalize.md) à l’aide de divers attributs, blocs de contenu ou offres.
 
 1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]** puis sélectionnez un ou plusieurs fichiers.
 

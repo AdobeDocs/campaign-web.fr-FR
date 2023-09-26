@@ -4,9 +4,9 @@ title: Créer une diffusion notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 77%
 >title="Propriétés de diffusion par notification push"
 >abstract="Gérez les propriétés de la diffusion par notification push."
 
-Vous pouvez créer une diffusion de notification push autonome ou créer une notification push dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous détaillent la procédure pour une diffusion push autonome (ponctuelle). Si vous travaillez dans le contexte d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Vous pouvez créer une diffusion de notification push autonome ou créer une notification push dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion de notification push autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
-Pour créer une diffusion push autonome, procédez comme suit :
+Pour créer une diffusion de notification push autonome, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
 
-1. Sous , **[!UICONTROL Canal]** , choisissez **Notification push** comme canal et sélectionnez un modèle, en fonction du système opérationnel de l’appareil choisi : Android ou iOS. [En savoir plus sur les modèles](../msg/delivery-template.md)
+1. Dans la section **[!UICONTROL Canal]**, choisissez **Notification push** comme canal et sélectionnez un modèle en fonction du système d’exploitation sélectionné : Android ou iOS. [En savoir plus sur les modèles](../msg/delivery-template.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
 
@@ -66,7 +66,7 @@ Pour créer une diffusion push autonome, procédez comme suit :
 
    Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/preview-test.md) et [configurer des offres](../content/offers.md).
 
-1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour le ou la destinataire. En savoir plus sur la planification des diffusions dans [cette section](../msg/gs-messages.md#gs-schedule)
+1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour la personne destinataire. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#gs-schedule).
 
    ![](assets/push_create_3.png)
 

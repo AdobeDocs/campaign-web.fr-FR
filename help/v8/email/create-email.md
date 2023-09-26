@@ -5,9 +5,9 @@ description: Découvrez comment envoyer votre premier e-mail avec l’interface 
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
 source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1355'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 72%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="IA dédiée au contenu des emails"
->abstract="Notre technologie Gen AI utilise des algorithmes avancés pour générer du contenu hautement attrayant et personnalisé. Augmentez les taux d’ouverture, les taux de clics publicitaires et les conversions grâce à la génération de contenu intelligent de Gen AI. Gardez l’avance sur le jeu et augmentez votre jeu de marketing email avec Gen AI sur le contenu des emails."
+>title="IA générative pour le contenu d’e-mails"
+>abstract="Notre technologie d’IA générative utilise des algorithmes avancés pour générer du contenu hautement attrayant et personnalisé. Augmentez les taux d’ouverture, les taux de clic publicitaire et les conversions grâce à la génération de contenu intelligent par IA générative. Gardez toujours une longueur d’avance sur la concurrence et optimisez votre marketing par e-mail avec la génération de contenu d’e-mails par IA générative."
 
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
 
-Basé sur une prédéfinition [modèle de conception](../content/email-sample-templates.md), l’e-mail comporte également du contenu personnalisé basé sur les attributs de profil du client.
+Basé sur un [modèle de conception](../content/email-sample-templates.md) prédéfini, l’e-mail propose également du contenu personnalisé en fonction des attributs de profil du client ou de la cliente.
 
 ## Créer la diffusion e-mail {#create-email}
 
@@ -32,12 +32,12 @@ Basé sur une prédéfinition [modèle de conception](../content/email-sample-te
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="Définition des propriétés des emails"
->abstract="Les propriétés sont les paramètres de diffusion courants qui vous permettent de nommer et de classer votre diffusion. Les paramètres supplémentaires sont facultatifs. Si votre diffusion est basée sur un schéma étendu défini dans la console Adobe Campaign v8, des champs spécifiques d’**Options personnalisées** sont disponibles."
+>title="Définir les propriétés de vos e-mails"
+>abstract="Les propriétés sont les paramètres de diffusion courants qui vous permettent de nommer et de classer votre diffusion. Les paramètres supplémentaires sont facultatifs. Si votre diffusion est basée sur un schéma étendu défini dans la console Adobe Campaign v8, des champs spécifiques d’**Options personnalisées** sont disponibles."
 
-Vous pouvez créer une diffusion email autonome ou créer un email dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous détaillent la procédure pour une diffusion d’email autonome (ponctuelle). Si vous travaillez dans le contexte d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Vous pouvez créer une diffusion d’e-mail autonome ou créer un e-mail dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion d’e-mail autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-Pour créer une diffusion email autonome, procédez comme suit.
+Pour créer une diffusion d’e-mail autonome, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
 
@@ -66,16 +66,16 @@ Pour créer une diffusion email autonome, procédez comme suit.
 
    ![](assets/email-properties.png)
 
-1. De plus, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via la variable **[!UICONTROL Paramètres]** située en haut à droite de l’écran. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique. [En savoir plus](../advanced-settings/delivery-settings.md)
+1. De plus, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via le bouton **[!UICONTROL Paramètres]** situé en haut à droite de l’écran. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique. [En savoir plus](../advanced-settings/delivery-settings.md)
 
 ## Définir l’audience {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Sélectionner une audience pour votre diffusion"
->abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante (déjà définie dans une instance de Campaign v8 ou à partir de Adobe Experience Platform), créer une audience à l’aide du créateur de règles ou charger un fichier contenant votre audience. Les groupes de contrôle ne sont pas activés pour la variable **Sélectionner dans le fichier** et vice versa."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Sélectionner les audiences principales"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Configurer une population témoin"
+>abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante (déjà définie dans une instance de Campaign v8 ou à partir d’Adobe Experience Platform), créer une audience à l’aide du créateur de règles ou charger un fichier contenant votre audience. Les populations témoins ne sont pas activées pour l’option **Sélectionner à partir du fichier** et vice versa."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=fr" text="Sélectionner les audiences principales"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=fr" text="Configurer une population témoin"
 
 Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante.
 
@@ -89,7 +89,7 @@ Des instructions supplémentaires sur l’utilisation des audiences sont disponi
 
    >[!NOTE]
    >
-   >Les audiences disponibles dans la liste proviennent soit de votre instance Campaign v8, soit de Adobe Experience Platform si l’intégration Destination/Source a été configurée sur votre instance. Cette intégration vous permet d’envoyer des segments Experience Platform à Adobe Campaign et d’envoyer des logs de diffusion et de suivi Campaign à Adobe Experience Platform. Découvrez comment utiliser Campaign et Adobe Experience Platform dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+   >Les audiences disponibles dans la liste proviennent de votre instance Campaign v8 ou d’Adobe Experience Platform si l’intégration Destination/Source a été configurée sur votre instance. L’intégration vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de tracking Campaign à Adobe Experience Platform. Découvrez comment utiliser Campaign et Adobe Experience Platform dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=fr){target="_blank"}.
 
 1. Une fois l’audience sélectionnée, vous pouvez affiner davantage la cible en appliquant des règles supplémentaires.
 
@@ -133,13 +133,13 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans 
 
 ## Planifier l’envoi {#schedule}
 
-Pour planifier l’envoi de l’email, procédez comme suit.
+Pour planifier l’envoi de l’e-mail, procédez comme suit :
 
-Vous trouverez des instructions supplémentaires sur la planification de l’envoi de la diffusion dans la section [cette section](../msg/gs-messages.md#gs-schedule).
+Vous trouverez des instructions supplémentaires sur la planification de l’envoi de la diffusion dans [cette section](../msg/gs-messages.md#gs-schedule).
 
-1. Accédez au **[!UICONTROL Planification]** .
+1. Accédez à la section **[!UICONTROL Planifier]**.
 
-1. Utilisez la variable **[!UICONTROL Activation de la planification]** bascule pour l’activer.
+1. Utilisez le bouton (bascule) **[!UICONTROL Activer la planification]** pour l’activer.
 
 1. Définissez la date et l’heure d’envoi.
 
@@ -157,7 +157,7 @@ Des informations supplémentaires sur la prévisualisation et le test des e-mail
 
 1. Pour vérifier votre e-mail, cliquez sur **[!UICONTROL Vérifier et envoyer]**. Un aperçu de votre e-mail s’affiche, ainsi que toutes les propriétés, l’audience et le planning configurés. Vous pouvez modifier chacun de ces éléments en cliquant sur le bouton Modifier.
 
-1. Pour prévisualiser l’email et envoyer les versions de test, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
+1. Pour prévisualiser l’e-mail et envoyer les versions de test, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
    ![](assets/review-email.png)
 

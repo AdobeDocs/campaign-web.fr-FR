@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,27 +16,27 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="Partage activité"
->abstract="La variable **Partage** permet de segmenter les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population."
+>abstract="L’activité **Partage** permet de segmenter les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population."
 
 
 L’activité **Partage** est une activité de **ciblage** vous permettant de segmenter les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population.
 
-## Configurer l&#39;activité Partage {#split-configuration}
+## Configurer l’activité Partage {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
->title="Filtre d&#39;activité de partage"
+>title="Filtre de l’activité Partage"
 >abstract="Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
->title="Limite de l&#39;activité de fractionnement"
+>title="Limite de l’activité Partage"
 >abstract="Pour limiter le nombre de profils sélectionnés par le sous-ensemble, activez la fonction **[!UICONTROL Activer la limite]** et indiquez le nombre ou les pourcentages de la population à inclure."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
->title="Tri de l&#39;activité de partage"
+>title="Tri de l’activité Partage"
 >abstract="Lorsque vous définissez une limite de population pour un sous-ensemble, vous pouvez classer les profils sélectionnés en fonction d’un attribut de profil spécifique, dans un ordre croissant ou décroissant. Pour ce faire, activez l’option **Activer le tri**. Par exemple, vous pouvez restreindre un sous-ensemble afin de n’inclure que les 50 premiers profils ayant le montant d’achat le plus élevé."
 
 

@@ -5,9 +5,9 @@ description: Découvrez comment concevoir votre diffusion SMS.
 badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: 74fd0a7d68491b2c0522943c5e078721013fece9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 >abstract="Prévisualisez et testez le message en ajoutant des abonnés ou abonnées à l’application à la cible principale."
 
 
-Pour concevoir le contenu d&#39;une diffusion SMS, procédez comme suit :
+Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :
 
 1. Dans votre page de diffusion, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour concevoir le contenu de votre SMS.
 

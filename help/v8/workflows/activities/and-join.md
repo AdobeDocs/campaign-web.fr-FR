@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Rendez-vous
 description: Découvrez comment utiliser l’activité de workflow Rendez-vous.
 badge: label="Beta"
 source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 83%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
->title="Activité AND-join"
->abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’un workflow. Il est déclenché une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter le workflow."
+>title="Activité Rendez-vous"
+>abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’un workflow. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter le workflow."
 
 L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle vous permet de synchroniser plusieurs branches d’exécution d’un workflow.
 
 L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées, c’est-à-dire quand toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter le workflow.
 
-## Configuration de l’activité Rendez-vous{#and-join-configuration}
+## Configurer l’activité Rendez-vous{#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="Configuration de l’activité Rendez-vous"
->abstract="Sélectionnez les activités que vous souhaitez rejoindre. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver."
+>title="Configurer l’activité Rendez-vous"
+>abstract="Sélectionnez les activités auxquelles vous souhaitez adhérer. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver."
 
 Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 

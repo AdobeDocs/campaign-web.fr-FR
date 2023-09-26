@@ -5,9 +5,9 @@ description: Découvrez comment utiliser des composants de contenu dans vos emai
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
 source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1170'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -155,13 +155,13 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
    ![](assets/email_designer_9.png)
 
-1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources. Vous pouvez également choisir **[!UICONTROL Importer votre média]**.
+1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources. Vous pouvez également choisir d’**[!UICONTROL importer votre contenu multimédia]**.
 
-   Pour en savoir plus sur le chargement et l’ajout de ressources dans les Assets Essentials, reportez-vous à la section [Documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+   Pour en savoir plus sur le chargement et l’ajout de ressources dans Assets Essentials, reportez-vous à la section [Documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=fr).
 
    ![](assets/email_designer_28.png)
 
-1. Parcourez vos dossiers pour localiser la ressource spécifique dont vous avez besoin ou utilisez la barre de recherche pour la trouver efficacement.
+1. Parcourez vos dossiers pour localiser la ressource spécifique dont vous avez besoin ou utilisez la barre de recherche pour la chercher efficacement.
 
    Une fois que vous avez trouvé la ressource recherchée, cliquez sur **[!UICONTROL Sélectionner]**.
 

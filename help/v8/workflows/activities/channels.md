@@ -4,14 +4,14 @@ title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
-# Email, SMS, activités push {#channel}
+# Activités e-mail, SMS, notification push {#channel}
 
 Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux e-mail, SMS et de notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données.
 
@@ -21,55 +21,55 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 
 >[!NOTE]
 >
->Vous pouvez également créer une diffusion ponctuelle, en dehors du contexte d&#39;un workflow de campagne. En savoir plus dans ces sections :
->* [Créer une diffusion email autonome](../../email/create-email.md)
->* [Créer une diffusion SMS autonome](../../sms/create-sms.md)
->* [Créer une diffusion push autonome](../../push/create-push.md)
+>Vous pouvez également créer une diffusion ponctuelle, en dehors du contexte d’un workflow de campagne. En savoir plus dans ces sections :
+>* [Créer une diffusion par e-mail autonome](../../email/create-email.md)
+>* [Créer une diffusion par SMS autonome](../../sms/create-sms.md)
+>* [Créer une diffusion par notification push autonome](../../push/create-push.md)
 
 ## Créer votre workflow{#build-your-workflow}
 
-Commencez à créer votre workflow avec les activités pertinentes avant de placer la diffusion :
+Commencez à créer votre workflow avec les activités pertinentes avant de placer la diffusion :
 
-* Si vous souhaitez envoyer une diffusion récurrente, démarrez votre workflow avec une **Planificateur** activité. Si vous souhaitez envoyer une diffusion ponctuelle, vous pouvez définir la date de contact à l’aide d’une **Planificateur** ou définissez le planning dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
+* Pour envoyer une diffusion récurrente, démarrez votre workflow avec une activité **Planificateur**. Pour envoyer une diffusion ponctuelle, vous pouvez définir la date de contact à l’aide d’une activité **Planificateur** ou définir le planning dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
 
-* Ajoutez une activité **Créer une audience.** L’audience est la cible principale de votre diffusion : il s’agit des destinataires qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**. Consultez [cette section](build-audience.md).
+* Ajoutez une activité **Créer une audience**. L’audience est la cible principale de votre diffusion : il s’agit des destinataires qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**. Consultez [cette section](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## Configuration de l’activité Canal {#create-a-delivery-in-a-workflow}
+## Configurer l’activité Canal {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
->title="Activité Email"
->abstract="Automatisez et exécutez des campagnes marketing sur les canaux email, SMS et push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>title="Activité e-mail"
+>abstract="Automatisez et exécutez des campagnes marketing sur les canaux e-mail, SMS et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Activité SMS"
->abstract="Automatisez et exécutez des campagnes marketing sur les canaux email, SMS et push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="Automatisez et exécutez des campagnes marketing sur les canaux e-mail, SMS et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
->title="Activité iOS push"
->abstract="Automatisez et exécutez des campagnes marketing sur les canaux email, SMS et push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>title="Activité notification push iOS"
+>abstract="Automatisez et exécutez des campagnes marketing sur les canaux e-mail, SMS et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
->title="Activité Push Android"
->abstract="Automatisez et exécutez des campagnes marketing sur les canaux email, SMS et push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>title="Activité notification push Android"
+>abstract="Automatisez et exécutez des campagnes marketing sur les canaux e-mail, SMS et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
-Pour configurer une diffusion dans le cadre d&#39;un workflow, procédez comme suit :
+Pour configurer une diffusion dans le cadre d’un workflow, procédez comme suit :
 
-1. Ajoutez une activité Canal : **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]** ou **[!UICONTROL Notification push (iOS)]**.
+1. Sélectionnez une activité canal : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]** ou **[!UICONTROL Notification push (iOS)]**.
 
-1. Sélectionnez la variable **Type de diffusion**: unique ou récurrent.
+1. Sélectionnez le **Type de diffusion** : unique ou récurrent.
 
-   * **Diffusion unique**: il s’agit d’une diffusion ponctuelle, envoyée une seule fois, par exemple un email du Black Friday.
-   * **Diffusion récurrente**: pour ce type de diffusion, vous définissez la fréquence d&#39;exécution à l&#39;aide d&#39;une [activité du planificateur](scheduler.md). A chaque exécution du workflow, l&#39;audience est recalculée et la diffusion est envoyée avec le contenu mis à jour. Il peut s’agir d’une newsletter hebdomadaire ou d’un email récurrent d’anniversaire.
+   * **Diffusion unique** : il s’agit d’une diffusion ponctuelle, envoyée une seule fois, par exemple un e-mail pour le Black Friday.
+   * **Diffusion récurrente** : pour ce type de diffusion, vous définissez la fréquence d’exécution à l’aide d’une [activité Planificateur](scheduler.md). À chaque exécution du workflow, l’audience est recalculée et la diffusion est envoyée avec le contenu mis à jour. Il peut s’agir d’une newsletter hebdomadaire ou d’un e-mail d’anniversaire récurrent.
 
 1. Choisissez un **modèle** de diffusion. Les modèles sont des paramètres de diffusion préconfigurés, spécifiques à un canal. Un modèle intégré est disponible pour chaque canal et prérempli par défaut. [En savoir plus](../../msg/delivery-template.md).
 
@@ -79,7 +79,7 @@ Pour configurer une diffusion dans le cadre d&#39;un workflow, procédez comme s
 
 1. Cliquez sur **Créer une diffusion**. Définissez les paramètres et le contenu de votre message de la même manière que vous créez une diffusion autonome. Vous pouvez également planifier et simuler le contenu. [En savoir plus](../../msg/gs-messages.md).
 
-1. Revenez à votre workflow. Choisissez si vous souhaitez continuer votre workflow. **Générer une transition sortante** si vous souhaitez ajouter une transition après l’activité de canal.
+1. Revenez à votre workflow. Pour continuer votre workflow, choisissez **Générer une transition sortante** afin d’ajouter une transition après l’activité canal.
 
 1. Cliquez sur **Démarrer** pour lancer le workflow.
 
@@ -105,7 +105,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Vous pouvez également créer un workflow récurrent pour envoyer un SMS personnalisé chaque premier jour du mois à 20 heures à tous les clients habitant à Paris.
+Vous pouvez également créer un workflow récurrent pour envoyer un SMS personnalisé chaque premier jour du mois à 20 heures à tous les clientes et clients habitant à Paris.
 
 ![](../assets/workflow-channel-example2.png)
 

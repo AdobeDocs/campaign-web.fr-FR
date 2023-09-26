@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 badge: label="Beta"
 source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '886'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="Activité Combiner"
->abstract="La variable **Combiner** vous permet d’effectuer une segmentation sur votre population entrante. Vous pouvez ainsi combiner plusieurs populations, en exclure une partie ou ne conserver que les données communes à plusieurs cibles."
+>abstract="L’activité **Combiner** permet d’effectuer une segmentation sur votre population entrante. Il est ainsi possible de regrouper plusieurs populations, d’en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles."
 
 
-La variable **Combiner** est une activité **Ciblage** activité. Cette activité vous permet d’effectuer une segmentation sur votre population entrante. Il est ainsi possible de regrouper plusieurs populations, d’en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles. Les types de segmentation disponibles sont les suivants :
+L’activité **Combiner** est une activité de **ciblage**. Cette activité vous permet d’effectuer une segmentation sur votre population entrante. Il est ainsi possible de regrouper plusieurs populations, d’en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles. Les types de segmentation disponibles sont les suivants :
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * l’**Intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l’activité.
 * l’**Exclusion** permet d’exclure des éléments d’une population selon certains critères.
 
-## Configuration de l’activité Combiner {#combine-configuration}
+## Configurer l’activité Combiner {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -43,8 +43,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
->title="Sélection du type de segmentation"
->abstract="Choisissez comment combiner des audiences : union, intersection ou exclusion."
+>title="Sélectionner le type de segmentation"
+>abstract="Choisissez comment combiner des audiences : union, intersection ou exclusion."
 
 Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 
@@ -66,16 +66,16 @@ Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Options de réconciliation"
->abstract="Sélectionnez la variable **Type de réconciliation** pour définir comment gérer les doublons."
+>abstract="Sélectionnez le **type de réconciliation** pour définir comment gérer les doublons."
 
-Dans le **Combiner** vous pouvez configurer une activité **Union**. Pour cela, vous devez sélectionner la variable **Type de réconciliation** pour définir la gestion des doublons :
+Dans l’activité **Combiner**, vous pouvez configurer une **Union**. Pour cela, vous devez sélectionner le **type de réconciliation** pour définir la manière dont les doublons sont traités :
 
 * **Uniquement les clés** : il s’agit du mode par défaut. Lorsque des éléments provenant des différentes transitions entrantes ont la même clé, l’activité ne conserve qu’un élément. Cette option ne peut être utilisée que si les populations entrantes sont homogènes.
-* **Une sélection de colonnes**: sélectionnez cette option pour définir la liste des colonnes sur lesquelles s&#39;applique la réconciliation des données. Vous devez d’abord sélectionner l’ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
+* **Une sélection de colonnes** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles est appliquée la réconciliation des données. Vous devez d’abord sélectionner l’ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
 
 ## Intersection {#combine-intersection}
 
-Dans le **Combiner** vous pouvez configurer une **Intersection**. Pour cela, vous devez suivre les étapes supplémentaires ci-dessous :
+Dans l’activité **Combiner**, vous pouvez configurer une **intersection**. Pour cela, suivez les étapes supplémentaires ci-dessous :
 
 1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
 1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
@@ -99,7 +99,7 @@ Dans le **Combiner** vous pouvez configurer une **Intersection**. Pour cela, vou
 
 
 
-Dans le **Combiner** vous pouvez configurer une **Exclusion**. Pour cela, vous devez suivre les étapes supplémentaires ci-dessous :
+Dans l’activité **Combiner**, vous pouvez configurer une **exclusion**. Pour cela, suivez les étapes supplémentaires ci-dessous :
 
 1. Dans la section **Ensembles à joindre**, sélectionnez **Ensemble principal** parmi les transitions entrantes. C’est l’ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l’ensemble principal.
 1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure.
@@ -107,7 +107,7 @@ Dans le **Combiner** vous pouvez configurer une **Exclusion**. Pour cela, vous d
 
 ## Exemples{#combine-examples}
 
-Dans l’exemple suivant, nous utilisons une **Combiner** activité et nous ajoutons une **union** pour retrouver tous les profils des deux requêtes : les personnes âgées de 18 à 27 ans et les personnes âgées de 34 à 40 ans.
+Dans l’exemple suivant, nous utilisons une activité **Combiner** et nous ajoutons une **union** pour retrouver tous les profils des deux requêtes : les personnes âgées de 18 à 27 ans et les personnes âgées de 34 à 40 ans.
 
 ![](../assets/workflow-union-example.png)
 
