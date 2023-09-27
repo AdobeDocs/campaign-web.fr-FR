@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 82%
    + [Prise en main](get-started/get-started.md)
    + [Découvrir l’interface](get-started/user-interface.md)
    + [Parcourir, rechercher et filtrer les listes](get-started/list-filters.md)
-   + [Utilisation de filtres prédéfinis](get-started/predefined-filters.md)
+   + [Utiliser des filtres prédéfinis](get-started/predefined-filters.md)
    + [Accès et autorisations](get-started/permissions.md)
-   + [Barrières de sécurité et restrictions](get-started/guardrails.md)
+   + [Mécanismes de sécurisation et limitations](get-started/guardrails.md)
    + [Fonctionnalités non prises en charge](get-started/unsupported.md)
-   + [Recherche d’aide et de conseils](get-started/using-ai.md)
+   + [Rechercher de l’aide et des conseils](get-started/using-ai.md)
 + Messages et diffusions {#msg}
    + [Prise en main des messages](msg/gs-messages.md)
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
@@ -48,9 +48,9 @@ ht-degree: 82%
             + [Générer la version texte](content/text-version-email.md)
          + Assistant de contenu {#content-assistant}
             + [Prise en main de l’assistant de contenu](content/generative-gs.md)
-            + [Génération de texte avec l’assistant de contenu](content/generative-content.md)
-            + [Génération d’images avec l’assistant de contenu](content/generative-image.md)
-            + [Génération d’emails avec l’assistant de contenu](content/generative-email.md)
+            + [Génération de texte à l’aide de l’assistant de contenu](content/generative-content.md)
+            + [Génération d’images à l’aide de l’assistant de contenu](content/generative-image.md)
+            + [Génération d’emails à l’aide de l’assistant de contenu](content/generative-email.md)
          + Donner un style à votre contenu {#style}
             + [Prise en main du style des e-mails](content/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](content/backgrounds.md)
@@ -84,7 +84,7 @@ ht-degree: 82%
       + [Envoyer des diffusions test](preview-test/test-deliveries.md)
       + [Rendu de l’e-mail](preview-test/email-rendering.md)
 + Audiences et destinataires {#audiences}
-   + [Utilisation des destinataires et des audiences](audience/about-recipients.md)
+   + [Utiliser des destinataires et des audiences](audience/about-recipients.md)
    + [Création d&#39;audiences](audience/create-audience.md)
    + Sélectionner les destinataires de vos diffusions {#target-audiences}
       + [Sélectionner une audience existante](audience/add-audience.md)
@@ -93,15 +93,15 @@ ht-degree: 82%
       + [Configurer une population témoin](audience/control-group.md)
    + [Utilisation du créateur de règles](audience/segment-builder.md)
    + [Surveillance et gestion des audiences](audience/manage-audience.md)
-   + Utilisation des services d’abonnement {#work-with-services}
-      + [Gestion des services](audience/manage-services.md)
-      + [Gestion des abonnés](audience/manage-subscribers.md)
+   + Utiliser des services d’abonnement {#work-with-services}
+      + [Gérer des services](audience/manage-services.md)
+      + [Gérer des personnes abonnées](audience/manage-subscribers.md)
 + Campagnes cross-canal {#campaigns}
-   + [Prise en main des campagnes](campaigns/gs-campaigns.md)
+   + [Commencer avec les campagnes](campaigns/gs-campaigns.md)
    + [Accéder aux campagnes et les gérer](campaigns/manage-campaigns.md)
    + [Créer votre première campagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
-   + [Prise en main des workflows](workflows/gs-workflows.md)
+   + [Commencer avec les workflows](workflows/gs-workflows.md)
    + [Accéder aux workflows et les gérer](workflows/access-monitor.md)
    + Créer et exécuter votre premier workflow {#create-workflow}
       + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
@@ -119,7 +119,7 @@ ht-degree: 82%
       + [E-mail, SMS, notification push](workflows/activities/channels.md)
       + [Enrichissement](workflows/activities/enrichment.md)
       + [Branchement](workflows/activities/fork.md)
-      + [Sauvegarde d&#39;audience](workflows/activities/save-audience.md)
+      + [Sauvegarde d’audience](workflows/activities/save-audience.md)
       + [Planificateur](workflows/activities/scheduler.md)
       + [Partage](workflows/activities/split.md)
       + [Attente](workflows/activities/wait.md)

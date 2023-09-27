@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Texte avec l’assistant de contenu
+title: Texte à l’aide de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 6%
+source-wordcount: '383'
+ht-degree: 5%
 
 ---
 
 
-# Génération de texte avec l’assistant de contenu {#generative-content}
+# Génération de texte à l’aide de l’assistant de contenu {#generative-content}
 
 Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistant de contenu, optimisé par l’IA générative, pour passer votre contenu au niveau supérieur.
 
@@ -21,6 +21,8 @@ L’assistant de contenu peut vous aider à optimiser l’impact de vos diffusio
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité sera disponible début octobre.
+
+Pour générer et améliorer le contenu d’un email à l’aide de l’assistant de contenu, procédez comme suit. Vous pouvez également créer du contenu de HTML complet avec l’assistant de contenu, comme décrit dans la section [cette page](generative-email.md).
 
 1. Après avoir créé et configuré votre diffusion Email, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -36,11 +38,11 @@ L’assistant de contenu peut vous aider à optimiser l’impact de vos diffusio
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer.
 
-   Activez la variable **[!UICONTROL Amélioration du contexte actuel]** pour l’assistant de contenu afin de personnaliser le nouveau contenu en fonction de votre diffusion, de votre nom de diffusion et de l’audience sélectionnée.
+   Activez la variable **[!UICONTROL Amélioration du contexte actuel]** de l’assistant de contenu afin de personnaliser le nouveau contenu en fonction de votre diffusion, de votre nom de diffusion et de l’audience sélectionnée.
 
    ![](assets/text-genai-3.png)
 
-1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
+1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
    Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur actuel.
 

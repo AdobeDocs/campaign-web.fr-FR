@@ -1,26 +1,30 @@
 ---
 audience: end-user
-title: Génération d’emails avec l’assistant de contenu
+title: Génération d’emails à l’aide de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
-# Générer un email avec l’assistant de contenu {#generative-email}
+# Générez un email à l’aide de l’assistant de contenu {#generative-email}
 
-L’assistant de contenu améliore l’impact de votre communication en générant automatiquement du contenu d’email complet, ce qui vous permet de gagner du temps et d’assurer une qualité cohérente.
-
-Grâce à Generative AI, vous pouvez créer facilement des emails attrayants qui interagissent avec votre audience, rendant ainsi votre communication plus efficace et plus efficace.
+L’assistant de contenu améliore l’impact de votre communication en générant automatiquement du contenu d’email complet, ce qui vous permet de gagner du temps et d’assurer une qualité cohérente. Grâce à Generative AI, vous pouvez créer facilement des emails attrayants qui interagissent avec votre audience, rendant ainsi votre communication plus efficace et plus efficace.
 
 
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité sera disponible début octobre.
 
+
+
+
+## Génération du contenu du HTML avec l’IA {#generative-email-generate}
+
+Pour générer un contenu d’email à l’aide de l’assistant de contenu, procédez comme suit. Vous pouvez également améliorer un contenu existant à l’aide de l’assistant de contenu, comme indiqué dans la section [cette page](generative-content.md).
 
 1. Après avoir créé et configuré votre diffusion Email, cliquez sur **[!UICONTROL Créer du contenu]**.
 
@@ -46,7 +50,7 @@ Grâce à Generative AI, vous pouvez créer facilement des emails attrayants qui
 
    ![](assets/email-genai-2.png)
 
-1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
+1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
    Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur actuel.
 
@@ -75,4 +79,5 @@ Grâce à Generative AI, vous pouvez créer facilement des emails attrayants qui
    ![](assets/email-genai-6.png)
 
 1. Une fois que vous avez défini votre contenu, votre audience et votre planning, vous êtes prêt à préparer votre diffusion email. [En savoir plus](../monitor/prepare-send.md)
+
 

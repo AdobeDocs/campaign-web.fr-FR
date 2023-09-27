@@ -1,9 +1,9 @@
 ---
 audience: end-user
-title: Génération d’images avec l’assistant de contenu
+title: Génération d’images à l’aide de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -11,7 +11,7 @@ ht-degree: 2%
 ---
 
 
-# Génération d’images avec l’assistant de contenu {#generative-image}
+# Génération d’images à l’aide de l’assistant de contenu {#generative-image}
 
 Après avoir conçu et personnalisé vos emails, vous pouvez améliorer votre contenu à l’aide de l’assistant de contenu, optimisé par une IA générative. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu.
 
@@ -37,7 +37,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant de 
 
    ![](assets/image-genai-2.png)
 
-1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
+1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
    Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur actuel.
 
