@@ -4,7 +4,7 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
+source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 84%
@@ -58,7 +58,6 @@ Pour sélectionner les destinataires d’une diffusion test, procédez comme sui
 
 
 Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Ils peuvent être créés dans le [!DNL Adobe Campaign] la console cliente dans la **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** dossier. Les étapes pour envoyer des messages de test aux adresses de contrôle sont présentées ci-dessous.
-
 
 1. Accédez à l’écran de modification du contenu de votre diffusion e-mail ou SMS, puis cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
