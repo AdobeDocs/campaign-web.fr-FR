@@ -3,9 +3,9 @@ audience: end-user
 title: Génération d’images à l’aide de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '370'
 ht-degree: 2%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 2%
 
 Après avoir conçu et personnalisé vos emails, vous pouvez améliorer votre contenu à l’aide de l’assistant de contenu, optimisé par une IA générative. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu.
 
->[!AVAILABILITY]
+Pour générer et améliorer des images dans vos emails à l’aide de l’assistant de contenu, procédez comme suit. Vous pouvez également créer du contenu de HTML complet avec l’assistant de contenu, comme décrit dans la section [cette page](generative-email.md), ou de générer un contenu textuel, en suivant la procédure décrite à la section [cette page](generative-content.md).
+
+>[!NOTE]
 >
->Cette fonctionnalité sera disponible début octobre.
+>Avant de commencer à utiliser cette fonctionnalité, lisez les sections connexes : [Barrières de sécurité et limites](generative-gs.md#guardrails-and-limitations).
 
 Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant de contenu pour optimiser et améliorer votre contenu, afin d’offrir une expérience plus conviviale. Procédez comme suit :
 
-1. Après avoir créé et configuré votre diffusion Email, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Après avoir créé et configuré votre diffusion email, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
    Pour plus d&#39;informations sur le paramétrage de votre diffusion email, reportez-vous à la section [cette page](../content/create-email-content.md).
 

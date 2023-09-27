@@ -3,9 +3,9 @@ audience: end-user
 title: Texte à l’aide de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 5%
 
 ---
@@ -17,10 +17,9 @@ Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistan
 
 L’assistant de contenu peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent plus susceptible de résonner auprès de votre audience.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Cette fonctionnalité sera disponible début octobre.
+>Avant de commencer à utiliser cette fonctionnalité, lisez les sections connexes : [Barrières de sécurité et limites](generative-gs.md#guardrails-and-limitations).
 
 Pour générer et améliorer le contenu d’un email à l’aide de l’assistant de contenu, procédez comme suit. Vous pouvez également créer du contenu de HTML complet avec l’assistant de contenu, comme décrit dans la section [cette page](generative-email.md).
 
@@ -42,7 +41,7 @@ Pour générer et améliorer le contenu d’un email à l’aide de l’assistan
 
    ![](assets/text-genai-3.png)
 
-1. Sélectionner **[!UICONTROL Télécharger le fichier]** si vous souhaitez ajouter une ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
+1. Sélectionner **[!UICONTROL Télécharger le fichier]** pour ajouter toute ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
    Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur actuel.
 

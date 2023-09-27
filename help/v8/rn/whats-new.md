@@ -4,9 +4,9 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 98%
 
 ---
@@ -67,7 +67,7 @@ Les fonctionnalités clés accompagnant la version beta web de Campaign sont ré
 
 * **IA générative pour le contenu des e-mails**
 
-  Dites adieu à la création manuelle de contenu et bonjour à des campagnes efficaces et pilotées par les données avec la puissance de l’IA générative.  Notre technologie d’IA générative utilise des algorithmes avancés pour **générer du contenu hautement attrayant et personnalisé**. Augmentez les taux d’ouverture, les taux de clics publicitaires et les conversions grâce à la génération de contenu intelligent de l’IA générative. Gardez une longueur d’avance sur la concurrence et améliorez votre marketing par e-mail avec l’IA générative sur le contenu des e-mails. Cette fonctionnalité sera disponible début octobre.
+  Dites adieu à la création manuelle de contenu et bonjour à des campagnes efficaces et pilotées par les données avec la puissance de l’IA générative.  Notre technologie d’IA générative utilise des algorithmes avancés pour **générer du contenu hautement attrayant et personnalisé**. Augmentez les taux d’ouverture, les taux de clic publicitaire et les conversions grâce à la génération de contenu intelligent par IA générative. Gardez toujours une longueur d’avance sur la concurrence et optimisez votre marketing par e-mail avec la génération de contenu d’e-mails par IA générative.
 
   En savoir plus dans [cette section](../content/generative-gs.md).
 
@@ -99,7 +99,7 @@ Les fonctionnalités clés accompagnant la version beta web de Campaign sont ré
 
 * **Assistant de connaissances avec l’IA générative**
 
-  Posez des questions et trouvez des conseils directement dans l’interface utilisateur du produit. Le nouvel **assistant de connaissances optimisé par l’IA**, incorporé dans les fenêtres contextuelles d’aide, vous aide à découvrir et à développer votre expertise sur les nouvelles fonctionnalités de Campaign. Selon la documentation la plus récente du produit, il vous aide à trouver de l’aide et à obtenir des conseils détaillés instantanément, au fur et à mesure que vous créez vos cas d’utilisation. Cette fonctionnalité sera disponible début octobre.
+  Posez des questions et trouvez des conseils directement dans l’interface utilisateur du produit. Le nouvel **assistant de connaissances optimisé par l’IA**, incorporé dans les fenêtres contextuelles d’aide, vous aide à découvrir et à développer votre expertise sur les nouvelles fonctionnalités de Campaign. Selon la documentation la plus récente du produit, il vous aide à trouver de l’aide et à obtenir des conseils détaillés instantanément, au fur et à mesure que vous créez vos cas d’utilisation.
 
   En savoir plus dans [cette section](../get-started/using-ai.md).
 
