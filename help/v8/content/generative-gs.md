@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 3%
+source-wordcount: '336'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="Créer le contenu de l’e-mail"
+>title="Assistant de contenu"
 >abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’assistant de contenu pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu en décrivant ce que vous souhaitez générer."
 
 L’assistant de contenu, optimisé par une IA générative, est un outil précieux pour améliorer le contenu des emails. Elle simplifie la personnalisation et l’amélioration du contenu, optimisant vos diffusions email pour mieux résonner avec votre audience.
@@ -26,6 +26,22 @@ Cette fonctionnalité permet de gagner du temps et d’assurer une qualité coh�
 >
 >Cette fonctionnalité sera disponible début octobre.
 
+## Mécanismes de sécurisation et limitations {#generative-guardrails}
+
+Vous trouverez ci-dessous des instructions générales concernant l’utilisation de l’assistant de contenu pour la génération de courriers électroniques :
+
+* La qualité du contenu généré est fortement influencée par l’objectif/l’invite marketing que vous définissez. Utilisez une invite bien définie pour que le modèle GenAI soit interprété avec précision. 
+* Chargez les ressources de marque pour qu’elles soient précises sur le contenu de la marque. Sinon, le contenu est basé sur des informations disponibles publiquement. Le contenu téléchargé peut être : des fichiers de PDF, des documents Microsoft Word, des fichiers JPEG, PNG ou ZIP (avec les formats de fichier pris en charge).
+* La taille recommandée pour la ressource de marque chargée est inférieure à 10 Mo. Des fichiers plus volumineux ou de nombreuses images peuvent fonctionner, mais le temps de traitement est augmenté.
+* Utilisation d’une Adobe Campaign créée [modèles d&#39;email](../content/email-sample-templates.md), ou de préférence [modèles de courrier électronique intégrés](../content/email-sample-templates.md) pour créer le contenu de votre email. Il est recommandé d’utiliser un modèle d’email contenant jusqu’à 8-10 images.
+
+
+Les restrictions suivantes s’appliquent à l’assistant de contenu Campaign :
+
+* La langue prise en charge est l’anglais uniquement
+* Disponible uniquement pour le canal Email
+* Le contenu de GenAI n&#39;est peut-être pas toujours précis : partagez vos commentaires pour que nos ingénieurs puissent affiner les modèles.
+* Vous pouvez charger plusieurs ressources de marque, mais vous ne pouvez en exploiter qu’une seule pour une génération spécifique.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -33,7 +49,7 @@ Cette fonctionnalité permet de gagner du temps et d’assurer une qualité coh�
 <img alt="Génération de texte" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Génération de texte avec l’assistant de contenu</strong></a>
+<a href="generative-content.md"><strong>Génération de texte à l’aide de l’assistant de contenu</strong></a>
 </div>
 <p>
 </td>
@@ -41,7 +57,7 @@ Cette fonctionnalité permet de gagner du temps et d’assurer une qualité coh�
 <a href="generative-image.md">
 <img alt="Génération d’images" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>Génération d’images avec l’assistant de contenu</strong>
+<div><a href="generative-image.md"><strong>Génération d’images à l’aide de l’assistant de contenu</strong>
 </div>
 <p>
 </td>
@@ -50,7 +66,7 @@ Cette fonctionnalité permet de gagner du temps et d’assurer une qualité coh�
 <img alt="Génération d&apos;emails" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>Génération d’emails avec l’assistant de contenu</strong></a>
+<a href="generative-email.md"><strong>Génération d’emails à l’aide de l’assistant de contenu</strong></a>
 </div>
 <p></td>
 </tr></table>
