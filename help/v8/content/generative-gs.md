@@ -3,9 +3,9 @@ audience: end-user
 title: Prise en main de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
+source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,8 @@ L’assistant de contenu, optimisé par une IA générative, est un outil préci
 
 Cette fonctionnalité permet de gagner du temps et d’assurer une qualité cohérente en générant automatiquement un contenu d’email complet. En utilisant l’IA générique, vous pouvez créer des emails attrayants sans effort, améliorant ainsi l’efficacité et l’efficience de vos communications.
 
->[!AVAILABILITY]
->
->Cette fonctionnalité sera disponible début octobre.
+L&#39;assistant de contenu de Campaign est accessible dans vos emails pour : [générer des images ;](generative-image.md), [générer du contenu texte ;](generative-content.md), [générer le contenu complet du HTML ;](generative-email.md).
+
 
 ## Mécanismes de sécurisation et limitations {#generative-guardrails}
 
@@ -33,7 +32,7 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 * La qualité du contenu généré est fortement influencée par l’objectif/l’invite marketing que vous définissez. Utilisez une invite bien définie pour que le modèle GenAI soit interprété avec précision. 
 * Chargez les ressources de marque pour qu’elles soient précises sur le contenu de la marque. Sinon, le contenu est basé sur des informations disponibles publiquement. Le contenu téléchargé peut être : des fichiers de PDF, des documents Microsoft Word, des fichiers JPEG, PNG ou ZIP (avec les formats de fichier pris en charge).
 * La taille recommandée pour la ressource de marque chargée est inférieure à 10 Mo. Des fichiers plus volumineux ou de nombreuses images peuvent fonctionner, mais le temps de traitement est augmenté.
-* Utilisation d’une Adobe Campaign créée [modèles d&#39;email](../content/email-sample-templates.md), ou de préférence [modèles de courrier électronique intégrés](../content/email-sample-templates.md) pour créer le contenu de votre email. Il est recommandé d’utiliser un modèle d’email contenant jusqu’à 8-10 images.
+* Utilisez des modèles d’email créés par Adobe Campaign, ou de préférence [modèles de courrier électronique intégrés](../content/email-sample-templates.md) pour créer le contenu de votre email. Il est recommandé d’utiliser un modèle d’email contenant jusqu’à 8-10 images.
 
 
 Les restrictions suivantes s’appliquent à l’assistant de contenu Campaign :
