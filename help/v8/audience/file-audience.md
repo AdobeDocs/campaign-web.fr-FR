@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 100%
 >id="acw_audience_fromfile_formatting"
 >title="Paramètres de formatage"
 >abstract="Vérifiez les paramètres de formatage de votre fichier."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="Aperçu du fichier"
+>abstract="Vérifiez l’aperçu de votre fichier. Cet écran n’affiche que 30 enregistrements au maximum."
+
+
 
 Il est impossible de charger directement des profils dans Campaign à partir de l’interface, mais vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
 
