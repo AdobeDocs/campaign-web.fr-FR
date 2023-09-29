@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les rapports
 description: Découvrez comment accéder aux rapports et les gérer dans Campaign Web.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 49%
 
 ---
 
@@ -16,10 +16,9 @@ Notre suite complète d’outils de création de rapports fournit des informatio
 
 Adobe Campaign propose deux rapports différents :
 
-* **Rapport de diffusion** : le **rapport de diffusion** offre des informations et des données complètes spécifiques à chaque canal. Il fournit des informations détaillées sur les performances, l’efficacité et les résultats de vos diffusions individuelles, ce qui vous permet d’obtenir une vue d’ensemble complète.
+* **Rapports de diffusion**: la variable **Rapports de diffusion** proposer des informations complètes et des données spécifiques à chaque canal. Ces rapports fournissent des informations détaillées sur les performances, l’efficacité et les résultats de vos diffusions individuelles, ce qui vous permet d’obtenir un aperçu complet.
 
-* **Rapport de campagne** : le **rapport de campagne** fournit une vue d’ensemble complète de votre campagne, intégrant toutes les informations pertinentes concernant les différentes diffusions incluses. Ce rapport propose une analyse approfondie des performances, des taux de succès, de l’engagement de l’audience et d’autres mesures essentielles de chaque diffusion, ce qui vous permet d’évaluer l’efficacité globale et l’impact de votre campagne.
-
+* **Rapports de campagne**: la variable **Rapports de campagne** proposez un aperçu complet de votre campagne, intégrant toutes les informations pertinentes concernant les différentes diffusions incluses. Ces rapports offrent une analyse approfondie des performances de chaque diffusion, par canal : taux de succès, engagement de l’audience et autres mesures essentielles. Elles vous permettent d’évaluer l’efficacité globale et l’impact de votre campagne.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -27,7 +26,7 @@ Adobe Campaign propose deux rapports différents :
 <a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>Rapport de diffusion des e-mails</strong>
+<div><a href="email-report.md"><strong>Rapports de diffusion par e-mail</strong>
 </div>
 <p>
 </td>
@@ -36,7 +35,7 @@ Adobe Campaign propose deux rapports différents :
 <img alt="Peu fréquent" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> Rapport de diffusion des notifications push<strong></strong></a>
+<a href="push-report.md"><strong> Rapports de diffusion des notifications push<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -44,7 +43,7 @@ Adobe Campaign propose deux rapports différents :
 <img alt="Validation" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> Rapport de diffusion des SMS</strong></a>
+<a href="sms-report.md"><strong> Rapports de diffusion SMS</strong></a>
 </div>
 <p>
 </td>
@@ -53,7 +52,7 @@ Adobe Campaign propose deux rapports différents :
 <img alt="Validation" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong>Rapport de campagne</strong></a>
+<a href="campaign-reports.md"><strong>Rapports de campagne</strong></a>
 </div>
 <p>
 </td>
