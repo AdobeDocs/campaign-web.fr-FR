@@ -2,9 +2,9 @@
 title: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 description: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -41,9 +41,12 @@ L’intelligence artificielle et les modèles d’apprentissage automatique s’
 
 ## Recommandations  {#recommendations-ai}
 
-Lorsque vous posez une question dans l’assistant de connaissances optimisé par l’IA, le contexte du produit actuel, c’est-à-dire l’écran Campaign dans lequel vous vous trouvez et le contenu de la boîte d’aide actuelle, est pris en compte.
+Lorsque vous posez une question dans l’assistant de connaissances optimisé par l’IA, le contexte du produit actuel, c’est-à-dire l’écran dans lequel vous vous trouvez, et le contenu de la boîte d’aide actuelle, sont pris en compte.
 
-Pour tirer le meilleur parti de l’assistant de connaissances optimisé par l’IA, nous vous conseillons de :
+Par conséquent, il est recommandé de poser des questions relatives au contexte de l’interface utilisateur. Par exemple, si vous devez apprendre à envoyer une diffusion push dans un workflow, accédez à la **Workflow** dans le menu de gauche, et utilisez une zone d’aide contextuelle dans ce contexte spécifique. Pour en savoir plus sur les mesures de création de rapports, accédez aux rapports de campagne ou de diffusion, puis commencez par là.
+
+
+En outre, pour tirer le meilleur parti de l’assistant de connaissances optimisé par l’IA, nous vous conseillons de :
 
 * Soyez aussi précis et précis que possible et évitez toute ambiguïté. La réponse sera plus précise et utile.
 * Pour aider l’assistant de connaissances optimisé par l’IA à trouver les informations correctes, ajoutez autant de détails que possible sur ce que vous essayez d’apprendre.

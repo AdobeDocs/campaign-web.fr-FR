@@ -4,9 +4,9 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
+source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1108'
 ht-degree: 68%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 68%
 >title="Mode Aperçu"
 >abstract="Prévisualisez et testez le message en incluant la population test à la cible principale."
 
-Une fois le contenu de votre message défini, vous pouvez le prévisualiser et le tester en envoyant des diffusions test (c’est-à-dire &quot;BAT&quot;) pour tester les profils. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son contenu dans le message à l’aide des données de profil de test.
+Une fois le contenu de votre message défini, vous pouvez le prévisualiser et le tester en envoyant des diffusions test aux profils de test. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son contenu dans le message à l’aide des données de profil de test.
 
 Pour détecter d’éventuelles erreurs dans le contenu du message ou les paramètres de personnalisation, envoyez des messages de test aux profils de test avant de les envoyer à l’audience cible. Un message de test doit être envoyé chaque fois qu’une modification est apportée, afin de valider le contenu le plus récent. L’envoi de diffusions de test (anciennement appelées « BAT ») est une étape importante dans la validation de votre campagne et l’identification de problèmes potentiels. Les destinataires d&#39;un message de test peuvent vérifier différents éléments tels que des liens, des liens d&#39;opt-out, des images ou des pages miroir, et détecter toute erreur dans le rendu, le contenu, les paramètres de personnalisation et la configuration de la diffusion.
 
@@ -34,7 +34,7 @@ Avant d’envoyer un test, assurez-vous de définir une audience cible pour votr
 
 Pour commencer à tester le contenu de votre message :
 
-1. Editez le contenu de votre diffusion email ou SMS.
+1. Editez le contenu de votre diffusion.
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 1. Cliquez sur le bouton **[!UICONTROL Test]** pour envoyer des messages de test.
 
@@ -72,23 +72,13 @@ Pour commencer à tester le contenu de votre message :
 
 Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Ils peuvent être créés dans le [!DNL Adobe Campaign] console cliente. Les étapes pour envoyer des messages de test aux adresses de contrôle sont présentées ci-dessous.
 
-1. Editez le contenu de votre diffusion, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton . Cliquez ensuite sur le bouton **[!UICONTROL Test]** bouton .
-
-   >[!NOTE]
-   >
-   >Si vous avez déjà sélectionné des profils pour [prévisualiser votre diffusion](preview-content.md), ils sont indiqués dans le volet de gauche.
-
-   ![](assets/simulate-test-button-email.png)
+1. Dans le contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** et le bouton **[!UICONTROL Test]** bouton .
 
 1. Dans la liste déroulante **[!UICONTROL Mode]**, choisissez les **[!UICONTROL Profils de test]** pour cibler les destinataires fictifs qui recevront la diffusion e-mail ou SMS de test.
 
    ![](assets/simulate-profile-mode.png)
 
 1. Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l’écran de simulation du contenu, ils sont présélectionnés comme destinataires du test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires à l’aide du bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]**.
-
-   >[!NOTE]
-   >
-   >Par défaut, le mode **[!UICONTROL Utiliser des profils de test]** est sélectionné.
 
 1. Si vous souhaitez envoyer le message final aux destinataires de la diffusion test, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
 
@@ -99,9 +89,7 @@ Les profils de test sont des adresses de contrôle, qui sont des destinataires s
 Utiliser la substitution de profil pour envoyer des messages de test à une adresse électronique ou à un numéro de téléphone spécifiques, tout en affichant les données d’un profil existant de la variable [!DNL Adobe Campaign] base de données. Pour ce faire, suivez les étapes ci-après :
 
 
-1. Editez le contenu de votre diffusion, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton . Cliquez ensuite sur le bouton **[!UICONTROL Test]** bouton .
-
-   ![](assets/simulate-test-button-email.png)
+1. Dans le contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** et le bouton **[!UICONTROL Test]** bouton .
 
 1. Dans la liste déroulante **[!UICONTROL Mode]**, choisissez l’option **[!UICONTROL Substituer à partir de la cible principale]** pour envoyer un test à une adresse e-mail ou un numéro de téléphone spécifique tout en affichant les données d’un profil existant.
 
@@ -131,7 +119,7 @@ Utiliser la substitution de profil pour envoyer des messages de test à une adre
 
 Lorsque vous utilisez des notifications push, les diffusions de test ne peuvent être envoyées qu&#39;aux abonnés de votre application. Pour les sélectionner, procédez comme suit.
 
-1. Editez le contenu de votre diffusion, puis cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton . Cliquez ensuite sur le bouton **[!UICONTROL Test]** bouton .
+1. Dans le contenu de votre diffusion push, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** et le bouton **[!UICONTROL Test]** bouton .
 
    ![](assets/simulate-test-button-push.png)
 
