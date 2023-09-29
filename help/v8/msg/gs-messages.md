@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
 workflow-type: tm+mt
 source-wordcount: '1289'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Diffusions"
->abstract="Une diffusion est une communication envoyée à une audience sur un canal spécifique : email, SMS ou Push. Dans cet écran, vous pouvez modifier, dupliquer et supprimer des diffusions existantes. Vous pouvez également afficher des rapports pour les diffusions terminées. Cliquez sur le bouton **Créer une diffusion** pour ajouter une nouvelle diffusion."
+>abstract="Une diffusion est une communication qui est envoyée à une audience sur un canal spécifique : e-mail, SMS ou notification push. Dans cet écran, vous pouvez modifier, dupliquer et supprimer des diffusions existantes. Vous pouvez également afficher des rapports pour les diffusions terminées. Cliquez sur le bouton **Créer une diffusion** pour ajouter une nouvelle diffusion."
 
 Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS, notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés.
 
-Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans des workflows dans le cadre d&#39;une campagne marketing.
+Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans des workflows, dans le cadre d’une campagne marketing.
 
 Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : e-mail, SMS et applications mobiles.
 
@@ -58,7 +58,7 @@ Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : e-mail, 
 
 ## Créer une diffusion {#create-delivery}
 
-Vous pouvez créer des diffusions autonomes à partir du **[!UICONTROL Diffusions]** menu de gauche ou créer des diffusions dans le contexte d&#39;un workflow, inclus ou non dans une campagne.
+Vous pouvez créer des diffusions autonomes à partir du menu de gauche **[!UICONTROL Diffusions]**, ou créer des diffusions dans le cadre d’un workflow, incluses ou non dans une campagne.
 
 Parcourez les onglets ci-dessous pour découvrir comment créer une diffusion :
 
@@ -80,7 +80,7 @@ Pour créer une diffusion autonome, procédez comme suit :
 
 1. Définissez l’audience de la diffusion, pour la cible principale et la population témoin. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-recipients.md).
 1. Définissez le contenu du message.
-1. (facultatif) Définir la diffusion [planning](#gs-schedule). Si aucun planning n’est défini, les messages sont envoyés immédiatement après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**.
+1. (Facultatif) Définissez le [planning](#gs-schedule) de diffusion. Si aucun planning n’est défini, les messages sont envoyés immédiatement après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**.
 1. Cliquez sur le bouton **[!UICONTROL Vérifier et envoyer]** pour vérifier vos paramètres.
 1. Utilisez le bouton  **[!UICONTROL Simuler du contenu]** pour tester votre diffusion et vos paramètres de personnalisation. Pour en savoir plus sur la simulation des messages, consultez [cette section](../preview-test/preview-test.md).
 1. Cliquez sur le bouton **[!UICONTROL Préparer]** pour calculer la population cible et générer les messages. L’étape de préparation peut prendre quelques minutes. Une fois la préparation terminée, les messages sont prêts à être envoyés. En cas d’erreur, accédez aux **Journaux** pour vérifier les alertes et les avertissements.
@@ -89,9 +89,9 @@ Pour créer une diffusion autonome, procédez comme suit :
 
 >[!TAB Créer une diffusion dans un workflow]
 
-Pour créer une diffusion dans un workflow, procédez comme suit :
+Pour créer une diffusion dans un workflow, procédez comme suit :
 
-1. Créez un workflow ou ouvrez un workflow existant. En savoir plus sur les workflows dans [cette page](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Créez un workflow ou ouvrez un workflow existant. Vous trouverez plus d’informations sur les workflows sur [cette page](../workflows/gs-workflow-creation.md#gs-workflow-steps).
 1. Ajoutez et configurez une activité **[!UICONTROL Créer une audience]**, puis cliquez sur le bouton `+`.
 
    ![](assets/add-delivery-in-wf.png)
@@ -145,15 +145,15 @@ Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Définition de la date et de l’heure de contact"
->abstract="Définissez la date et l&#39;heure exactes d&#39;envoi de votre diffusion. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture."
+>abstract="Définissez la date et l’heure exactes de votre diffusion. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez optimiser les taux d’ouverture."
 
-Vous pouvez définir la date et l’heure exactes d’envoi des messages. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture.
+Vous pouvez définir la date et l’heure d’envoi exactes de vos messages. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez optimiser les taux d’ouverture.
 
-Pour planifier l’envoi d’une diffusion, ouvrez-la et accédez au **[!UICONTROL Planification]** . Utilisez la variable **[!UICONTROL Activation de la planification]** Activez-la et définissez la date et l’heure d’envoi. Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
+Pour planifier l’envoi d’une diffusion, ouvrez-la et accédez à la section **[!UICONTROL Planning]**. Utilisez le bouton (bascule) **[!UICONTROL Activer le planning]** pour l’activer et définir la date et l’heure d’envoi. Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
 
 ![](assets/schedule.png)
 
-Par défaut, l’option **[!UICONTROL Activer la confirmation avant l’envoi]** est activée. Cette option nécessite de confirmer l&#39;envoi avant que la diffusion ne soit envoyée à la date et à l&#39;heure planifiées. Si vous devez envoyer automatiquement la diffusion à la date et à l&#39;heure planifiées, vous pouvez désactiver cette option.
+Par défaut, l’option **[!UICONTROL Activer la confirmation avant l’envoi]** est activée. Cette option nécessite de confirmer l’envoi avant que la diffusion ne soit envoyée à la date et à l’heure planifiées. Si vous souhaitez envoyer automatiquement la diffusion à la date et l’heure planifiées, vous pouvez désactiver cette option.
 
 Découvrez les étapes à suivre pour envoyer une diffusion planifiée dans [cette section](../monitor/prepare-send.md#schedule-the-send).
 

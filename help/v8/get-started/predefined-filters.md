@@ -9,11 +9,11 @@ badge: label="Beta"
 source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
-# Utilisation de filtres prédéfinis {#predefined-filters}
+# Utiliser des filtres prédéfinis {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"

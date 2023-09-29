@@ -5,7 +5,7 @@ description: Découvrez comment utiliser des composants de contenu dans vos emai
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
 source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 100%
 

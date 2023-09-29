@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Prise en main des campagnes
+title: Commencer avec les campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
 

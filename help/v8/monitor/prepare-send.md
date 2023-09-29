@@ -5,7 +5,7 @@ description: Découvrez comment préparer et envoyer un e-mail avec l’interfac
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 100%
 

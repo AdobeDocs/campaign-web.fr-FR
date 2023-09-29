@@ -5,7 +5,7 @@ description: Découvrez les activités de workflows.
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 

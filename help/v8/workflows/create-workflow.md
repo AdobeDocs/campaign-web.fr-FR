@@ -5,7 +5,7 @@ description: Découvrez comment créer un workflow avec Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Découvrez comment concevoir votre diffusion SMS.
 badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: 74fd0a7d68491b2c0522943c5e078721013fece9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Envoyer une diffusion par SMS
 description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
 source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 

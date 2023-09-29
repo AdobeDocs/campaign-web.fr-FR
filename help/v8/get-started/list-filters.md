@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Vous pouvez, par exemple, filtrer les diffusions selon leur statut, leur canal, 
 
 ## Filtres personnalisés{#list-custom-filters}
 
-Pour créer des filtres personnalisés sur les données, accédez au bas des filtres et cliquez sur le bouton **Ajouter des règles** pour accéder au créateur de règles.
+Pour créer des filtres personnalisés sur les données, naviguez jusqu’au bas des filtres et cliquez sur le bouton **Ajouter des règles**.
 
 Faites glisser et déposez des attributs pour créer vos critères de filtre dans la fenêtre **Filtres avancés**.
 

@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -26,11 +26,11 @@ Les audiences peuvent provenir de plusieurs sources. La variable **[!UICONTROL O
 
 * **[!UICONTROL Adobe Campaign]**: ces audiences sont créées dans la console Adobe Campaign V8. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=fr){target="_blank"}.
 
-* **[!UICONTROL ADOBE EXPERIENCE PLATFORM :]** Ces audiences sont créées dans Adobe Experience Platform et intégrées au Web de Campaign à l’aide de l’intégration Sources d’Adobe et Destinations . Découvrez comment configurer cette intégration dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* **[!UICONTROL ADOBE EXPERIENCE PLATFORM :]** Ces audiences sont créées dans Adobe Experience Platform et intégrées au Web de Campaign à l’aide de l’intégration Sources d’Adobe et Destinations . Découvrez comment configurer cette intégration dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=fr){target="_blank"}.
 
 >[!NOTE]
 >
->Pour utiliser les audiences Adobe Experience Platform dans Campaign, vous devez configurer l’intégration avec les sources et destinations Adobe. Voir [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+>Pour utiliser les audiences Adobe Experience Platform dans Campaign, vous devez configurer l’intégration avec les sources et destinations Adobe. Consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=fr){target="_blank"}.
 
 * **[!UICONTROL Interface utilisateur web d’Adobe Campaign]**: ces audiences sont créées à l&#39;aide des workflows d&#39;audience Web de Campaign. [Découvrez comment créer des audiences](create-audience.md)
 

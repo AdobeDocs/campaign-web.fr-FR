@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Utilisation des services d’abonnement
+title: Utiliser des services d’abonnement
 description: Découvrez comment accéder aux services d’abonnement, les créer et les gérer dans Adobe Campaign Web
 badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Utilisation des services d’abonnement {#manage-services}
+# Utiliser des services d’abonnement {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"

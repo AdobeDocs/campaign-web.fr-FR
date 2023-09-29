@@ -5,7 +5,7 @@ description: Découvrez comment importer le contenu des e-mails.
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
 source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
 
