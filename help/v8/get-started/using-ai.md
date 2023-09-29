@@ -1,17 +1,22 @@
 ---
 title: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 description: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
-badge: label="Beta"
-source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
+badge: label="Alpha"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: '433'
+ht-degree: 4%
 
 ---
 
 # Utilisation de l’assistant de connaissances optimisé par l’IA {#using-ai}
 
 Obtenez des réponses rapides et générées par l’IA en fonction de la documentation du produit et de votre contexte de produit actuel, avec l’assistant de prise en charge de l’IA disponible dans les boîtes d’aide contextuelle du produit.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible dans sa version Alpha et peut être modifiée sans préavis.
+
 
 La variable **Assistant de connaissances avec Gen AI** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
 
