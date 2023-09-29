@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de campagne pour le canal push
 description: Présentation des rapports de campagne pour le canal push
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 58%
@@ -23,6 +23,9 @@ Chaque rapport de campagne est divisé en différents widgets détaillant le suc
 >abstract="La variable **Présentation de la diffusion** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion de notification push."
 
 La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion de notification push. Les mesures sont détaillées ci-dessous.
+
+![](assets/campaign-reporting-push-summary.png)
+
 
 +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
@@ -46,6 +49,9 @@ La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit de
 
 La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
 * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
@@ -64,6 +70,9 @@ La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche d
 >abstract="La variable **Statistiques d&#39;exécution** le tableau détaille le succès de votre diffusion : messages à diffuser, succès, erreurs et nouvelles mises en quarantaine."
 
 La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
@@ -85,6 +94,8 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 >abstract="La variable **Flux de clics générés** Le tableau affiche les données disponibles par rapport à la façon dont vos destinataires ont interagi avec votre diffusion."
 
 La variable **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
