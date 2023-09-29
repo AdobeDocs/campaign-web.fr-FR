@@ -3,9 +3,9 @@ audience: end-user
 title: Rapports de diffusion par e-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2254'
 ht-degree: 68%
 
 ---
@@ -106,7 +106,7 @@ La variable **[!UICONTROL Causes d&#39;exclusion]** le graphique et le tableau a
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Débit des diffusions (Delivery throughput) widget"
+>title="Débit des diffusions (Delivery throughput)"
 >abstract="Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné."
 
 Ce rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
@@ -118,7 +118,7 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Widget Statistiques sur les domaines"
+>title="Statistiques de diffusion"
 >abstract="La variable **Statistiques de diffusion** Ce rapport contient les données disponibles relatives aux erreurs possibles rencontrées pour chaque domaine."
 
 Le tableau **[!UICONTROL Statistiques sur les domaines]** contient les données disponibles liées aux erreurs possibles rencontrées pour chaque domaine. Les mesures sont détaillées ci-dessous.
@@ -235,7 +235,7 @@ La variable **[!UICONTROL Statistiques de diffusion]** Ce rapport fournit des in
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Widget Taux d’ouverture et de clic publicitaire"
+>title="Taux d&#39;ouverture et de clic"
 >abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos personnes destinataires avec votre diffusion."
 
 
@@ -306,7 +306,7 @@ La variable **[!UICONTROL Les 10 liens les plus consultés]** Le graphique et le
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="Répartition des clics dans le temps"
 >abstract="La variable **Répartition des clics au fil du temps** Le graphique présente les données disponibles pour le comportement des destinataires par lien."
 

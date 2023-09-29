@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de diffusion des notifications push
 description: Découvrez comment accéder aux rapports de diffusion des notifications push et les utiliser.
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 63%
@@ -11,11 +11,6 @@ ht-degree: 63%
 ---
 
 # Rapports de diffusion des notifications push {#push-report}
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Résumé du rapport Diffusion push"
->abstract="La **Vue d’ensemble de la diffusion des notifications push** offre une vue d’ensemble complète de votre diffusion de notifications push, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de votre diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -27,6 +22,11 @@ Le **rapport de diffusion des notifications push** offre une vue d’ensemble co
 ## Résumé de notifications push {#push-summary}
 
 ### Vue d’ensemble de la diffusion {#push-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="Résumé du rapport Diffusion push"
+>abstract="La **Vue d’ensemble de la diffusion des notifications push** offre une vue d’ensemble complète de votre diffusion de notifications push, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de votre diffusion."
 
 La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont les visiteurs interagissent avec vos messages push.
 
@@ -45,7 +45,6 @@ La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit de
 +++
 
 ### Population ciblée {#push-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"

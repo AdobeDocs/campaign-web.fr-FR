@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de campagne pour le canal email
 description: En savoir plus sur les rapports de campagne pour le canal email
 badge: label="Beta"
-source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 64%
@@ -282,7 +282,7 @@ La variable **[!UICONTROL Les 10 liens les plus consultés]** Le graphique et le
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_campaign_urls_clickstreams_breakdown"
+>id="acw_delivery_campaign_urls_click_breakdown"
 >title="Répartition des clics dans le temps"
 >abstract="La variable **Répartition des clics au fil du temps** Le graphique présente les données disponibles pour le comportement des destinataires par lien."
 

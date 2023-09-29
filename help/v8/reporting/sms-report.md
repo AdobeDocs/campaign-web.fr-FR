@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser.
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 66%
@@ -13,11 +13,6 @@ ht-degree: 66%
 # Rapports de diffusion SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Vue d’ensemble de la diffusion SMS"
->abstract="La **Vue d’ensemble de la diffusion SMS** constitue une vue d’ensemble complète du canal SMS, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de chaque diffusion."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Envoi des rapports"
 >abstract="L’onglet **Envoi** de votre rapport fournit des informations détaillées sur les interactions de vos visiteurs et visiteuses avec vos diffusions, ainsi que sur les erreurs potentielles qu’ils ont pu rencontrer."
@@ -25,6 +20,11 @@ ht-degree: 66%
 La **Vue d’ensemble de la diffusion SMS** offre une vue d’ensemble complète de votre diffusion SMS, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de chaque diffusion.
 
 ## Synthèse des diffusions {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="Vue d’ensemble de la diffusion SMS"
+>abstract="La **Vue d’ensemble de la diffusion SMS** constitue une vue d’ensemble complète du canal SMS, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de chaque diffusion."
 
 ### Vue d’ensemble de la diffusion {#sms-delivery-overview}
 
