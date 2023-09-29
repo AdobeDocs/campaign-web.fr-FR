@@ -3,9 +3,9 @@ audience: end-user
 title: Prise en main de l’assistant de contenu
 description: Prise en main de l’assistant de contenu
 badge: label="Beta"
-source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
+source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 1%
 >id="acw_generation_settings"
 >title="Assistant de contenu"
 >abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’assistant de contenu pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu en décrivant ce que vous souhaitez générer."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="Définition du contexte pour la génération de contenu"
+>abstract="Pour utiliser le contenu sélectionné comme entrée pour la génération du contenu, activez la variable **Amélioration du contenu actuel** bascule. Vous pouvez également charger vos ressources de marque pour les utiliser comme source. Si vous n’utilisez pas le contenu sélectionné, le téléchargement et la sélection de ressources de marque sont obligatoires."
 
 L’assistant de contenu, optimisé par une IA générative, est un outil précieux pour améliorer le contenu des emails. Elle simplifie la personnalisation et l’amélioration du contenu, optimisant vos diffusions email pour mieux résonner avec votre audience.
 
