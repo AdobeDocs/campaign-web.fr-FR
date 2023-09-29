@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 77%
+source-wordcount: '85'
+ht-degree: 22%
 
 ---
 
@@ -28,10 +28,13 @@ Pour accéder aux rapports de votre opération, cliquez sur le bouton **Rapports
 
 ![](assets/campaign_report_email_13.png)
 
+Vous pouvez également utiliser les trois points. **Autres actions** en regard du nom de l&#39;opération dans la liste des opérations, comme dans l&#39;exemple ci-dessous :
 
-Le rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne.
+![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
-La page du rapport de campagne s’affiche avec les onglets suivants :
+Le rapport de campagne est divisé en différents widgets détaillant le succès et les erreurs de votre campagne.
+
+La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
 
 * [Canal email](campaign-reports-email.md)
 * [Canal SMS](campaign-reports-sms.md)

@@ -4,10 +4,10 @@ title: Rapports de diffusion
 description: Découvrez comment accéder aux rapports de diffusion et les utiliser.
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 91%
+source-wordcount: '195'
+ht-degree: 65%
 
 ---
 
@@ -34,12 +34,22 @@ Pour afficher les rapports, procédez comme suit :
 
    ![](assets/reporting2.png)
 
+   Vous pouvez également utiliser les trois points. **Autres actions** en regard du nom de la diffusion dans la liste des campagnes, comme dans l&#39;exemple ci-dessous :
+
+   ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+
 1. Dans le menu de gauche, sélectionnez un rapport dans la liste.
 
    ![](assets/reporting.png)
 
-1. Si votre diffusion est récurrente, vous pouvez sélectionner une diffusion spécifique sur laquelle créer un rapport en cliquant sur **[!UICONTROL Sélectionner les diffusions]**.
+1. Si votre diffusion est récurrente, sélectionnez une diffusion spécifique sur laquelle vous souhaitez créer un rapport en cliquant sur **[!UICONTROL Sélectionner les diffusions]**.
 
    Vous pouvez également appliquer une période à votre rapport en sélectionnant la **[!UICONTROL Date de contact]**.
 
    ![](assets/delivery-recurring.png)
+
+La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
+
+* [Rapports de diffusion par e-mail](email-report.md)
+* [Rapports de diffusion SMS](sms-report.md)
+* [Rapports de diffusion des notifications push](push-report.md)
