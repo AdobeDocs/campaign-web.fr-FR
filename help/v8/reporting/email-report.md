@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion par e-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Beta"
-source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
+source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
 workflow-type: tm+mt
-source-wordcount: '2205'
-ht-degree: 70%
+source-wordcount: '2257'
+ht-degree: 68%
 
 ---
 
@@ -202,10 +202,6 @@ Les mesures disponibles sont les mêmes que pour la variable [Répartition des e
 >title="Tracking des rapports"
 >abstract="L’onglet **Tracking** de votre rapport contient des données importantes, notamment le comportement des personnes destinataires par lien, la répartition des ouvertures et des clics, ainsi que des informations détaillées sur les URL ayant reçu le plus de clics lors d’une diffusion."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="Widget Taux d’ouverture et de clic publicitaire"
->abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos personnes destinataires avec votre diffusion."
 
 ### Statistiques de diffusion  {#email-tracking-delivery-stats}
 
@@ -237,6 +233,13 @@ La variable **[!UICONTROL Statistiques de diffusion]** Ce rapport fournit des in
 
 ### Taux d&#39;ouverture et de clic {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widget Taux d’ouverture et de clic publicitaire"
+>abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos personnes destinataires avec votre diffusion."
+
+
+
 La variable **[!UICONTROL Taux d&#39;ouverture et de clic]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -258,40 +261,59 @@ La variable **[!UICONTROL Taux d&#39;ouverture et de clic]** affiche des donnée
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="URL et flux de clics (URLs and click streams) widget"
+>title="URL et flux de clics (URLs and click streams)"
 >abstract="La variable **URL et flux de clics** Ce rapport fournit des indicateurs de performance clés (IPC) qui fournissent des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d’une diffusion."
 
-* La variable **[!UICONTROL URL et flux de clics]** Ce rapport fournit des indicateurs de performance clés (IPC) qui fournissent des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d’une diffusion.
 
-  ![](assets/reporting_email_7.png){align="center"}
+La variable **[!UICONTROL URL et flux de clics]** Ce rapport fournit des indicateurs de performance clés (IPC) qui fournissent des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d’une diffusion.
 
-  +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
+![](assets/reporting_email_7.png){align="center"}
 
-   * **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
-   * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
+* **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
 
-   * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
+* **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 
-   * **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BAT sont exclus.
+* **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-+++
-
-* Le tableau et le graphe des **[!UICONTROL 10 liens les plus consultés]** contiennent les données disponibles pour le comportement des destinataires par lien.
-
-  ![](assets/reporting_email_8.png){align="center"}
-
-  +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
-
-   * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
-
-   * **[!UICONTROL Pourcentage]** : pourcentage d’utilisateurs et utilisatrices ayant interagi avec la diffusion.
+* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BAT sont exclus.
 
 +++
 
-* Le graphe **[!UICONTROL Répartition des clics au fil du temps]** contient les données disponibles sur le comportement des destinataires par lien.
+### Top 10 des liens les plus visités {#email-tracking-top10}
 
-  ![](assets/reporting_email_9.png){align="center"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="Top 10 des liens les plus visités"
+>abstract="La variable **Les 10 liens les plus consultés** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien."
+
+
+La variable **[!UICONTROL Les 10 liens les plus consultés]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien.
+
+![](assets/reporting_email_8.png){align="center"}
+
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
+
+* **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
+
+* **[!UICONTROL Pourcentage]** : pourcentage d’utilisateurs et utilisatrices ayant interagi avec la diffusion.
+
++++
+
+### Répartition des clics dans le temps {#email-tracking-breakdown-over-time}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="Répartition des clics dans le temps"
+>abstract="La variable **Répartition des clics au fil du temps** Le graphique présente les données disponibles pour le comportement des destinataires par lien."
+
+
+La variable **[!UICONTROL Répartition des clics au fil du temps]** Le graphique contient les données disponibles sur le comportement des destinataires par lien.
+
+![](assets/reporting_email_9.png){align="center"}
 
 ## Activités utilisateurs {#user-activities-email}
 
@@ -332,7 +354,6 @@ Le graphe **[!UICONTROL Statistiques de tracking]** fournit des statistiques sur
 +++
 
 ## Répartition des ouvertures {#breakdown-opens}
-
 
 ### Répartition des ouvertures par appareil {#breakdown-opens-devices}
 
