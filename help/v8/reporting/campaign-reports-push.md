@@ -3,17 +3,24 @@ audience: end-user
 title: Rapports de campagne pour le canal push
 description: Présentation des rapports de campagne pour le canal push
 badge: label="Beta"
-source-git-commit: 939ac543398568bfd72392860f90226b0b21a717
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 73%
+source-wordcount: '479'
+ht-degree: 58%
 
 ---
 
 
 # Rapports de campagne pour le canal push {#campaign-reports-push-channel}
 
+Chaque rapport de campagne est divisé en différents widgets détaillant le succès et les erreurs de votre campagne. Pour le canal push, les rapports et les mesures sont présentés ci-dessous. Découvrez comment accéder aux rapports de campagne dans [cette page](campaign-reports.md).
+
 ## Synthèse des diffusions {#delivery-summary-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_deliveries_overview"
+>title="Vue d’ensemble de la diffusion"
+>abstract="La variable **Présentation de la diffusion** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion de notification push."
 
 La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion de notification push. Les mesures sont détaillées ci-dessous.
 
@@ -31,6 +38,12 @@ La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit de
 
 ### Statistiques initiales sur l´audience cible {#delivery-summary-push-initial-target}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_target"
+>title="Statistiques initiales sur l´audience cible"
+>abstract="La variable **Statistiques initiales d’audience cible** affiche des données relatives à vos destinataires."
+
 La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
 +++En savoir plus sur les mesures des rapports de campagne Notification push.
@@ -44,6 +57,11 @@ La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche d
 +++
 
 ### Statistiques d’exécution {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_exec_stats"
+>title="Statistiques d’exécution"
+>abstract="La variable **Statistiques d&#39;exécution** le tableau détaille le succès de votre diffusion : messages à diffuser, succès, erreurs et nouvelles mises en quarantaine."
 
 La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
@@ -60,6 +78,11 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 +++
 
 ### Flux de clics générés {#delivery-summary-push-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_click_streams"
+>title="Flux de clics générés"
+>abstract="La variable **Flux de clics générés** Le tableau affiche les données disponibles par rapport à la façon dont vos destinataires ont interagi avec votre diffusion."
 
 La variable **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
 

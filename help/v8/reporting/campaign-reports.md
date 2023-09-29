@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 badge: label="Beta"
-source-git-commit: 9ade4045b34f93620694218a8ed4e53242c49aae
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 100%
+source-wordcount: '57'
+ht-degree: 77%
 
 ---
 
@@ -24,6 +24,9 @@ ht-degree: 100%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
+Pour accéder aux rapports de votre opération, cliquez sur le bouton **Rapports** du tableau de bord de votre campagne.
+
+![](assets/campaign_report_email_13.png)
 
 
 Le rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne.
@@ -34,6 +37,3 @@ La page du rapport de campagne s’affiche avec les onglets suivants :
 * [Canal SMS](campaign-reports-sms.md)
 * [Canal de notification push](campaign-reports-push.md)
 
-Pour accéder au rapport de campagne, cliquez sur Rapports dans le tableau de bord de votre campagne.
-
-![](assets/campaign_report_email_13.png)

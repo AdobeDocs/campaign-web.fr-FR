@@ -3,22 +3,24 @@ audience: end-user
 title: Rapports de campagne pour le canal email
 description: En savoir plus sur les rapports de campagne pour le canal email
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 68%
+source-wordcount: '1546'
+ht-degree: 64%
 
 ---
 
 
 # Rapports de campagne pour le canal email {#campaign-reports-email-channel}
 
+Chaque rapport de campagne est divisé en différents widgets détaillant le succès et les erreurs de votre campagne. Pour le canal Email, les rapports et les mesures sont présentés ci-dessous. Découvrez comment accéder aux rapports de campagne dans [cette page](campaign-reports.md).
+
 ## Synthèse des diffusions {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Vue d’ensemble de la diffusion"
->abstract="La vue d’ensemble de la diffusion fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion e-mail."
+>abstract="La variable **Présentation de la diffusion** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion par e-mail."
 
 ### Vue d’ensemble de la diffusion {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 +++
 
 ### Statistiques des réactions {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ La variable **[!UICONTROL Ventilation des erreurs par domaine]** le tableau et l
 
 ### Statistiques de diffusion {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="Statistiques de diffusion"
+>abstract="La variable **Statistiques de diffusion** Le graphique décrit le succès de votre diffusion et les erreurs qui se sont produites."
+
 La variable **[!UICONTROL Statistiques de diffusion]** metrics fournit des indicateurs de performances clés (KPI) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ La variable **[!UICONTROL Statistiques de diffusion]** metrics fournit des indic
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Widget Taux d’ouverture et de clic publicitaire"
+>title="Taux d&#39;ouverture et de clic"
 >abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos personnes destinataires avec votre diffusion."
 
 
@@ -253,8 +260,6 @@ La variable **[!UICONTROL URL et flux de clics]** Ce rapport fournit des indicat
 
 ### Top 10 des liens les plus visités {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Top 10 des liens les plus visités"
@@ -286,13 +291,19 @@ la valeur **[!UICONTROL Répartition des clics au fil du temps]** Le graphique c
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## Activités utilisateurs {#user-activities-email}
 
-La variable  **[!UICONTROL Activités utilisateurs]** Le rapport présente la répartition des ouvertures et clics sous la forme d&#39;un graphique. Les mesures sont détaillées ci-dessous.
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="Activités utilisateurs"
+>abstract="Le graphe **Activités utilisateurs et utilisatrices** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme."
 
-![](assets/campaign_report_email_12.png)
+La variable **[!UICONTROL Activités utilisateurs]** Le rapport présente la répartition des ouvertures et clics sous la forme d&#39;un graphique. Les mesures de ce rapport sont présentées ci-dessous.
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
+![](assets/campaign_report_email_10.png){align="center"}
+
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
