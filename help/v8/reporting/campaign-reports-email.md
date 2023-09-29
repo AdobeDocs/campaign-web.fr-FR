@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne pour le canal email
 description: En savoir plus sur les rapports de campagne pour le canal email
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 64%
+source-wordcount: '1568'
+ht-degree: 63%
 
 ---
 
@@ -85,6 +85,9 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
+
+  Les types d’erreur de courrier électronique sont répertoriés dans la section [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+
 
 +++
 

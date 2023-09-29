@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne pour le canal push
 description: Présentation des rapports de campagne pour le canal push
 badge: label="Beta"
-source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
+source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 58%
+source-wordcount: '507'
+ht-degree: 42%
 
 ---
 
@@ -35,7 +35,7 @@ La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit de
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
+* **[!UICONTROL Nombre total de clics]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
 
 +++
 
@@ -82,7 +82,9 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Nouvelles quarantaines]**: Nombre total d&#39;adresses mises en quarantaine à la suite d&#39;un échec de diffusion (enregistrement non valide, rejet du message, erreur de payload, par exemple). par rapport au nombre de messages à diffuser.
+
+  Les types d’erreur des notifications push sont répertoriés dans la section [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -99,9 +101,9 @@ La variable **[!UICONTROL Flux de clics générés]** Le tableau affiche des don
 
 +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
-* **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
+* **[!UICONTROL Clics uniques]**: Nombre total de destinataires distincts ayant cliqué au moins une fois dans une même diffusion.
 
-* **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
+* **[!UICONTROL Nombre total de clics]**: Nombre total de clics sur les liens des diffusions.
 
 * **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
 

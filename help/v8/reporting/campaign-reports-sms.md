@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne pour le canal SMS
 description: Présentation des rapports de campagne pour le canal SMS
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 58%
+source-wordcount: '499'
+ht-degree: 55%
 
 ---
 
@@ -86,6 +86,8 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
+
+  Les types d&#39;erreur de SMS sont répertoriés dans la section [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
