@@ -4,10 +4,10 @@ title: Rapports de diffusion
 description: Découvrez comment accéder aux rapports de diffusion et les utiliser.
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 65%
+source-wordcount: '204'
+ht-degree: 62%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 65%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Recharger"
->abstract="Cliquez sur le bouton **Recharger** pour récupérer les dernières mesures et actualiser les données."
+>title="Exporter"
+>abstract="Cliquez sur le bouton **Exporter** pour exporter ces mesures au format PDF ou CSV, ce qui vous permet de les partager ou de les imprimer. "
 
 Adobe Campaign propose plusieurs types de rapports, accessibles pour chaque diffusion. Ces rapports vous permettent de mesurer et de visualiser l’impact et les performances de vos messages dans un tableau de bord intégré.
 
