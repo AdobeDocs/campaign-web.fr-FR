@@ -2,20 +2,23 @@
 title: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 description: Utilisation de l’assistant de connaissances optimisé par l’IA dans Campaign Web
 badge: label="Alpha"
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
+source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '450'
 ht-degree: 4%
 
 ---
 
 # Utilisation de l’assistant de connaissances optimisé par l’IA {#using-ai}
 
-Obtenez des réponses rapides et générées par l’IA en fonction de la documentation du produit et de votre contexte de produit actuel, avec l’assistant de prise en charge de l’IA disponible dans les boîtes d’aide contextuelle du produit.
+Obtenez des réponses rapides et générées par l’IA en fonction de la documentation du produit et de votre contexte de produit actuel, avec l’assistant de gestion des connaissances optimisé par l’IA disponible dans les boîtes d’aide contextuelle du produit.
 
->[!NOTE]
+>[!CAUTION]
 >
 >Cette fonctionnalité est disponible dans sa version Alpha et peut être modifiée sans préavis.
+>
+>Cette fonctionnalité n’est disponible que dans **Anglais**. Les autres langues ne sont pas prises en charge dans cette version.
 
 
 La variable **Assistant de connaissances avec Gen AI** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
@@ -58,5 +61,3 @@ En outre, pour tirer le meilleur parti de l’assistant de connaissances optimis
 * Remplissez et affinez vos questions pour obtenir de meilleures réponses. Si la réponse n’est pas exacte ou utile, essayez différentes approches et ajoutez du contexte pour obtenir de meilleurs résultats.
 * Utilisez des termes et des termes appropriés, avec un ton neutre.
 * Évaluez les réponses et fournissez des commentaires afin que nos ingénieurs puissent apprendre de votre expérience et améliorer les résultats.
-
-
