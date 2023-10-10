@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Le menu **Explorateur** affiche toutes les ressources et tous les objets Campaig
 
 Les éléments affichés dans l’**Explorateur** dépendent de vos autorisations. Vous pouvez également ajouter des dossiers et des sous-dossiers, si vous disposez des droits adéquats. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
 
-Vous pouvez configurer des colonnes pour personnaliser l’affichage afin d’afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Vous pouvez également ajouter des dossiers et des sous-dossiers, comme décrit dans la section [cette section](permissions.md#folders).
+Vous pouvez configurer des colonnes pour personnaliser l’affichage afin de consulter toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Vous pouvez également ajouter des dossiers et des sous-dossiers, comme décrit dans [cette section](permissions.md#folders).
 
 Pour plus d’informations sur l’explorateur Campaign, la hiérarchie des dossiers et les ressources, reportez-vous à la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
 
@@ -110,9 +110,9 @@ Une aide contextuelle est disponible dans l’interface. Si elle est présente, 
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-Avec la nouvelle version bêta, la variable **Assistant de connaissances optimisé par l&#39;IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
+Avec la nouvelle version Beta, l’**assistant de connaissances optimisé par l’IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation grâce à l’identification instantanée des informations précises dont vous avez besoin.
 
-Grâce aux fonctionnalités de l’IA générative de Campaign, cet assistant transforme votre expérience, en facilitant la récupération d’informations et la résolution de problèmes. Que vous recherchiez des conseils dans une tâche complexe ou que vous naviguiez dans des documents exhaustifs, notre assistant de connaissances optimisé par l’IA est votre compagnon ultime, offrant une efficacité et une précision inégalées dans chaque interaction.
+Grâce aux fonctionnalités de l’IA générative de Campaign, cet assistant transforme votre expérience, en facilitant la récupération d’informations et la résolution de problèmes. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous parcouriez des documents volumineux, notre assistant de connaissances optimisé par l’IA devient votre meilleur compagnon, en vous offrant une efficacité et une précision inégalées à chaque interaction.
 
 En savoir plus dans [cette section](using-ai.md).
 
