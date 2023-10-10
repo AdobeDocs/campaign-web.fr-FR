@@ -6,9 +6,9 @@ description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
 source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 85%
             + [Ajouter un pré-titre](content/preheader.md)
             + [Générer la version texte](content/text-version-email.md)
          + Assistant de contenu {#content-assistant}
-            + [Prise en main de l’assistant de contenu](content/generative-gs.md)
-            + [Génération de texte à l’aide de l’assistant de contenu](content/generative-content.md)
-            + [Génération d’images à l’aide de l’assistant de contenu](content/generative-image.md)
-            + [Génération d’emails à l’aide de l’assistant de contenu](content/generative-email.md)
+            + [Commencer avec l’assistant de contenu](content/generative-gs.md)
+            + [Génération de texte avec l’assistant de contenu](content/generative-content.md)
+            + [Génération d’images avec l’assistant de contenu](content/generative-image.md)
+            + [Génération d’e-mails avec l’assistant de contenu](content/generative-email.md)
          + Donner un style à votre contenu {#style}
             + [Prise en main du style des e-mails](content/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](content/backgrounds.md)
@@ -76,8 +76,8 @@ ht-degree: 85%
       + [Ajouter de la personnalisation](personalization/personalize.md)
       + [Ajouter du contenu conditionnel](personalization/conditions.md)
       + [Ajouter des blocs de contenu intégrés](personalization/content-blocks.md)
-   + [Ajout d’offres à vos messages](content/offers.md)
-   + [Envoyer des messages à vos abonnés](content/send-to-subscribers.md)
+   + [Ajouter des offres à vos messages](content/offers.md)
+   + [Envoyer des messages à vos personnes abonnées](content/send-to-subscribers.md)
    + Prévisualiser et tester votre diffusion {#preview-test}
       + [À propos de la prévisualisation et du test](preview-test/preview-test.md)
       + [Prévisualiser le contenu du message](preview-test/preview-content.md)
@@ -85,14 +85,14 @@ ht-degree: 85%
       + [Rendu de l’e-mail](preview-test/email-rendering.md)
 + Audiences et destinataires {#audiences}
    + [Utiliser des destinataires et des audiences](audience/about-recipients.md)
-   + [Création d&#39;audiences](audience/create-audience.md)
-   + Sélectionner les destinataires de vos diffusions {#target-audiences}
+   + [Créer des audiences](audience/create-audience.md)
+   + Sélectionner les personnes destinataires de vos diffusions {#target-audiences}
       + [Sélectionner une audience existante](audience/add-audience.md)
-      + [Création d’une audience unique](audience/one-time-audience.md)
+      + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience à partir d’un fichier](audience/file-audience.md)
       + [Configurer une population témoin](audience/control-group.md)
-   + [Utilisation du créateur de règles](audience/segment-builder.md)
-   + [Surveillance et gestion des audiences](audience/manage-audience.md)
+   + [Utiliser le créateur de règles](audience/segment-builder.md)
+   + [Surveiller et gérer les audiences](audience/manage-audience.md)
    + Utiliser des services d’abonnement {#work-with-services}
       + [Gérer des services](audience/manage-services.md)
       + [Gérer des personnes abonnées](audience/manage-subscribers.md)
@@ -132,7 +132,7 @@ ht-degree: 85%
       + [Rapport de diffusion des notifications push](reporting/push-report.md)
       + [Rapport de diffusion SMS](reporting/sms-report.md)
    + Rapports de campagne {#campaign-report}
-      + [Accès aux rapports de campagne](reporting/campaign-reports.md)
+      + [Accéder aux rapports de campagne](reporting/campaign-reports.md)
       + [Rapports de campagne par e-mail](reporting/campaign-reports-email.md)
-      + [Rapports de campagne push](reporting/campaign-reports-push.md)
-      + [Rapports de campagne SMS](reporting/campaign-reports-sms.md)
+      + [Rapports de campagne par notification push](reporting/campaign-reports-push.md)
+      + [Rapports de campagne par SMS](reporting/campaign-reports-sms.md)

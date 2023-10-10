@@ -5,73 +5,73 @@ description: Liste des fonctionnalités non prises en charge dans l’interface 
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
-workflow-type: tm+mt
+exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
+# Fonctionnalités non prises en charge dans Campaign Web {#unsupported-capabilities}
 
-# Fonctionnalités non prises en charge dans Campaign Web {#unsupported-capabilities}
-
-Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign, mais pas encore disponibles dans l’interface utilisateur web. Certains seront disponibles dans une version ultérieure, mais d’autres non.
+Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign, mais pas encore disponibles dans l’interface utilisateur web. Certaines seront disponibles dans une version ultérieure, mais d’autres non.
 
 **Page d’accueil**
 
 * Tableau de bord de la page d’accueil
 * Personnalisation de la page d’accueil
 
-**Campaign Management**
+**Campaign Management**
 
 * Calendrier marketing/chronologie
 * Gestion des budgets et des coûts
 * Gestion des tâches
 * Marketing distribué (marketing central/local)
 * Gestion de la réaction
-* A/B testing
+* Test A/B
 * Gestion des ressources marketing (MRM), objectifs, simulations, budget et coûts
 
 **Canaux de communication**
 
 * Messagerie LINE
 * Courrier
-* Centre d’appels
+* Centre d’appel
 * Canal personnalisé
 
 **Contenu web**
 
-* Création et publication d&#39;une landing page
+* Création et publication d’une page de destination
 * Applications web, formulaires web
 * Gestion des questionnaires
 
-**Profils et destinataires**
+**Profils et personnes destinataires**
 
 * Création de profil
 * Tableau de bord du profil
-* Test de la création de profils
+* Création de profil de test
 * Tableau de bord du profil de test
 
 **Messages transactionnels**
 
-* Création et exécution de messages en temps réel sur email, SMS et push
+* Création et exécution de messages en temps réel par e-mail, SMS et notification push
 * Enrichissement et personnalisation des messages
-* Triggers (abandon de panier Adobe Analytics)
-* Reporting et surveillance sur les messages transactionnels
+* Triggers (abandon de panier Adobe Analytics)
+* Reporting et surveillance relatifs aux messages transactionnels
 
 **Conception de contenu**
 
-* Contenu des ressources publiques
-* Boucles / Gestion des collections
-* Enregistrer un contenu de HTML en tant que modèle`*`
-* Synchronisation des modèles de courrier électronique à partir de Adobe Experience Manager
-* Ressources de Adobe Experience Manager 6.5 dans un contenu d’email
+* Contenu venant de ressources publiques
+* Boucles/Gestion des collections
+* Enregistrer un contenu HTML en tant que modèle`*`
+* Synchronisation des modèles d’e-mail à partir d’Adobe Experience Manager
+* Ressources d’Adobe Experience Manager 6.5 dans un contenu d’e-mail
 * Création de blocs de contenu
 * Contenu des formulaires personnalisés
-* Contenu depuis une URL`*`
-* Fragments de messagerie
-* AMP pour les emails
-* Fragments de messagerie`*`
+* Contenu venant d’une URL`*`
+* Fragments d’e-mail
+* AMP pour les e-mails
+* Fragments d’e-mail`*`
 * Cas d’utilisation multivarié/multilingue`*`
 
 **Règles de typologie**
@@ -85,7 +85,7 @@ Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign
 **Workflows**
 
 * Script dans les workflows
-* Activités ETL : export, édition de schéma, chargement de données, extraction de données, code SQL
+* Activités ETL : export, édition de schéma, chargement de données, extraction de données, code SQL
 
 **Gestion des offres**
 
@@ -93,32 +93,32 @@ Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign
 
 **Intégrations avec les solutions Adobe Experience Cloud***
 
-* Utilisation des données Adobe Analytics
-* Partage des KPI Adobe Analytics
-* Utilisation des segments Adobe Audience Manager
-* Intégration avec Adobe Target
-* Intégration avec les Triggers Adobe
+* Utilisation des données Adobe Analytics
+* Partage des KPI Adobe Analytics
+* Utilisation des segments Adobe Audience Manager
+* Intégration avec Adobe Target
+* Intégration avec Adobe Triggers
 
 **Reporting**
 
 * Rapport de délivrabilité intégré
 * Rapport global intégré
 * Personnalisations des rapports
-* Partage des rapports selon un calendrier au format PDF et CSV ou lien
-* Exportation/téléchargement d’un rapport au format CSV ou PDF
+* Partage des rapports selon un planning au format PDF et CSV ou lien
+* Export/téléchargement d’un rapport au format CSV ou PDF
 
 **Modélisation des données et ingestion des données**
 
 * Comptes externes
 * Extension de schéma
-* Activités de workflow Data Management : Chargement, Extraction (fichier), Mise à jour de données, Edition de schémas, Import/export de workflows techniques
+* Activités de workflow de gestion de données : chargement de données, extraction (fichier), mise à jour de données, édition de schémas, import/export de workflows techniques
 * Configuration de Campaign et connexion à des systèmes externes
 
 **Validations**
 
 * Validation du contenu
-* Validation de la diffusion
-* Validation de campagne
+* Approbation de la diffusion
+* Approbation de la campagne
 * Validation de la cible
 
 
