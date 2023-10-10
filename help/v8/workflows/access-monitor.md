@@ -3,11 +3,11 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
-exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 2cd46f37ed59d252c2c39da46274d970c9aaf5cf
+exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
+source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="Sur cet écran, vous pouvez accéder à la liste complète des workflows autonomes et de campagne, vérifier leur statut actuel, les dates de dernière/prochaine exécution et créer un nouveau workflow. Allez à l’onglet « Modèle » pour accéder aux modèles de workflow disponibles."
+>abstract="Sur cet écran, vous pouvez accéder à la liste complète des workflows autonomes et de campagne, vérifier leur statut actuel, les dates de dernière/prochaine exécution et créer un nouveau workflow. Accédez à l&#39;onglet &quot;Modèles&quot; pour accéder aux modèles de workflow disponibles."
 
 Le menu **[!UICONTROL Workflows]** vous permet d’accéder à la liste complète des workflows. Les **workflows autonomes**, créés à partir de cet écran et les **workflows de campagne**, créés dans une campagne, sont répertoriés.
 
