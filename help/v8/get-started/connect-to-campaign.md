@@ -2,10 +2,10 @@
 title: Connexion à l’interface web d’Adobe Campaign
 description: Découvrez comment vous connecter à l’interface utilisateur web d’Adobe Campaign v8
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 46%
+source-wordcount: '474'
+ht-degree: 32%
 
 ---
 
@@ -31,32 +31,34 @@ Pour vous connecter à Adobe Experience Cloud, procédez comme suit :
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   En savoir plus sur l’organisation dans Adobe Experience Cloud dans [cet article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){target="_blank"}.
+   En savoir plus sur les organisations dans Adobe Experience Cloud dans [cet article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){target="_blank"}.
 
 
 ## Accès à Adobe Campaign {#access-to-campaign}
 
 Pour accéder à votre environnement Campaign, sélectionnez **Campagne** de la page d’accueil de Adobe Experience Cloud.
 
+Vous pouvez également utiliser le sélecteur de solution pour naviguer entre vos solutions Adobe Experience Cloud et vos applications.
 
-Si vous avez accès à plusieurs environnements, y compris le Panneau de Contrôle Campaign, cliquez sur le bouton **Launch** dans la carte de votre entreprise.
+![](assets/solution-switcher.png)
+
+Si vous avez accès à plusieurs environnements, y compris le Panneau de Contrôle Campaign, cliquez sur le bouton **Launch** pour la bonne instance.
 
 ![](assets/launch-campaign.png)
-
-Vous pouvez également utiliser le sélecteur de solution pour naviguer entre vos solutions Adobe Experience Cloud.
-
 
 ## Navigation supérieure de Adobe Experience Cloud {#top-bar}
 
 La barre supérieure de l’interface vous permet d’effectuer les actions suivantes :
 
-* partager vos commentaires en tant que testeur beta,
-* basculer entre les organisations et les instances,
-* basculer entre les applications Adobe Experience Cloud,
-* accéder aux pages d’aide, contacter le support et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d’aide dans le champ de recherche.
+* partager vos commentaires en tant qu’utilisateur bêta ;
+* basculer entre vos organisations
+* basculez entre vos solutions et applications Adobe Experience Cloud
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
+## Navigateurs pris en charge {#browsers}
+
+Campaign v8 Web est conçu pour fonctionner de manière optimale dans la dernière version de Google Chrome, Safari et Microsoft Edge. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou sur d’autres navigateurs.
 
 ## Préférences de langue {#language-pref}
 
