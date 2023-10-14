@@ -3,13 +3,13 @@ audience: end-user
 title: Parcourir, rechercher et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Beta"
-source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
+exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
+source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 69%
 
 ---
-
 
 # Parcourir, rechercher et filtrer les listes {#list-screens}
 
@@ -66,22 +66,22 @@ Le principe de fonctionnement du créateur de règles pour les filtres personnal
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Afficher les attributs avancés"
->abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Utilisez ce bouton pour afficher les attributs avancés."
+>abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les noeuds, les regroupements, les liens 1-1, les liens 1-N."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Champs avancés du créateur de règles"
->abstract="Configurez des filtres avancés avec des champs avancés."
+>abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les noeuds, les regroupements, les liens 1-1, les liens 1-N."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Attributs avancés du créateur de règles"
->abstract="Utilisez des attributs avancés pour définir votre règle."
+>abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les noeuds, les regroupements, les liens 1-1, les liens 1-N."
 
 
 Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs et les fenêtres de configuration des filtres. Les attributs définis comme attributs `advanced` dans le schéma de données sont masqués dans les fenêtres de configuration.
 
-Activez le bouton (bascule) **Afficher les attributs avancés** pour afficher tous les attributs disponibles pour la liste actuelle : la liste des attributs est mise à jour instantanément.
+Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les noeuds, les regroupements, les liens 1-1, les liens 1-N. La liste des attributs est mise à jour instantanément.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
