@@ -4,10 +4,10 @@ title: Prise en main de Campaign v8 Web
 description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: db3d47830cb07f9e69200a68377e695641f7b057
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 97%
 
 ---
 
@@ -34,21 +34,7 @@ Si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas dispo
 >
 >Campaign v8 Web est actuellement en version beta. L’accès est limité à un petit groupe de clientes et clients beta. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
-## Se connecter à Campaign
-
-Pour vous connecter à Adobe Campaign Web, procédez comme suit :
-
-1. Connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
-1. Connectez-vous à l’aide de vos informations d’identification Adobe.
-1. Dans la section **Accès rapide**, cliquez sur **Campaign**.
-
-   ![](assets/connect.png)
-
-1. Sur la page suivante, cliquez sur le bouton **Démarrer** de votre instance Campaign.
-
-   Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à utiliser l’interface utilisateur sur [cette page](user-interface.md).
-
-Si vous disposez déjà d’une connexion à une autre solution Adobe Experience Cloud, vous pouvez également accéder à votre environnement Campaign à partir du sélecteur de solution situé en haut à droite de votre écran.
+Découvrez comment vous connecter au Web Adobe Campaign dans [cette page](connect-to-campaign.md).
 
 ## À propos de la console cliente Campaign {#ac-client}
 
