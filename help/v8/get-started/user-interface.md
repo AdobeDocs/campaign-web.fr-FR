@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1029'
 ht-degree: 100%
 
 ---
@@ -103,9 +103,7 @@ Grâce aux fonctionnalités de l’IA générative de Campaign, cet assistant tr
 
 En savoir plus dans [cette section](using-ai.md).
 
-## Navigateurs pris en charge {#browsers}
 
-Campaign v8 Web est conçu pour fonctionner de manière optimale dans la dernière version de Google Chrome, Safari et Microsoft Edge. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou d’autres navigateurs.
 
 ## En savoir plus {#learn-more}
 
