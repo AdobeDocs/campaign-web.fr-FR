@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1063'
 ht-degree: 100%
 
 ---
@@ -89,19 +89,6 @@ Dans la section GESTION DES DÉCISIONS, vous pouvez visualiser les offres et les
 
 Découvrez comment créer et envoyer des offres dans des e-mails et des SMS dans [cette section](../content/offers.md).
 
-## Barre supérieure {#top-bar}
-
-La barre supérieure de l’interface vous permet d’effectuer les actions suivantes :
-
-* partager vos commentaires en tant que testeur beta,
-* basculer entre les organisations et les instances,
-* basculer entre les applications Adobe Experience Cloud,
-* accéder aux pages d’aide, contacter le support et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d’aide dans le champ de recherche.
-
-![](assets/unified-shell.png){width="50%" align="left"}
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
 
 
 ## Aide contextuelle {#user-interface-help}
@@ -120,37 +107,10 @@ En savoir plus dans [cette section](using-ai.md).
 
 Campaign v8 Web est conçu pour fonctionner de manière optimale dans la dernière version de Google Chrome, Safari et Microsoft Edge. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou d’autres navigateurs.
 
-## Préférences de langue {#language-pref}
-
-Campaign v8 Web est actuellement disponible dans les langues suivantes :
-
-* Anglais (États-Unis) - EN-US
-* Français - FR
-* Allemand - DE
-* Italien - IT
-* Espagnol - ES
-* Portugais (Brésil) - PTBR
-* Japonais - JP
-* Coréen - KR
-* Chinois simplifié - CHS
-* Chinois traditionnel - CHT
-
-
-La langue par défaut pour Campaign Web est déterminée par la langue préférée spécifiée dans votre profil utilisateur. Elle n’est pas liée à la langue de votre serveur Campaign et de votre console cliente.
-
-Pour changer de langue :
-
-1. Cliquez sur l’icône de votre profil, en haut à droite, puis sélectionnez **Préférences**.
-1. Cliquez ensuite sur le lien de la langue affichée sous votre adresse e-mail.
-1. Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez n’est pas localisé dans votre première langue.
-
-## Thème sombre {#dark-theme}
-
-Vous pouvez passer au thème sombre à partir de l’icône de votre profil. Utilisez le bouton (bascule) **Thème sombre** pour l’activer ou le désactiver.
-
 ## En savoir plus {#learn-more}
 
 Découvrez [sur cette page](list-filters.md) comment parcourir, rechercher et filtrer les listes disponibles dans votre environnement Campaign.
+
 
 
 <!--
