@@ -4,10 +4,10 @@ title: Rapports de diffusion E-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** détaille le succès de vot
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Statistiques de diffusion"
+>title="Causes d&#39;exclusion de diffusion"
 >abstract="Le tableau et le graphe **Causes d’exclusion** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion."
 
 
@@ -320,7 +320,7 @@ Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les don
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="Widget Activités utilisateurs et utilisatrices"
+>title="Activités utilisateurs"
 >abstract="Le graphe **Activités utilisateurs et utilisatrices** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour, dernière heure ou 30 dernières minutes."
 
 Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour, dernière heure ou 30 dernières minutes.
@@ -339,7 +339,7 @@ Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des o
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="Widget Statistiques de tracking"
+>title="Statistiques de tracking"
 >abstract="Le graphe **Statistiques de tracking** fournit des statistiques sur les ouvertures et les clics. Vous avez la possibilité de sélectionner la période spécifique pour les données de ciblage."
 
 Le graphe **[!UICONTROL Statistiques de tracking]** fournit des statistiques sur les ouvertures et les clics. Vous avez la possibilité de sélectionner la période spécifique pour les données de ciblage.
