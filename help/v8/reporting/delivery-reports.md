@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 62%
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ Pour afficher les rapports, procédez comme suit :
 
    ![](assets/reporting2.png)
 
-   Vous pouvez également utiliser les trois points. **Autres actions** en regard du nom de la diffusion dans la liste des campagnes, comme dans l&#39;exemple ci-dessous :
+   Vous pouvez également utiliser le bouton **Plus d’actions** (trois points) en regard du nom de la diffusion dans la liste des campagnes, comme dans l’exemple ci-dessous :
 
    ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
@@ -42,14 +42,14 @@ Pour afficher les rapports, procédez comme suit :
 
    ![](assets/reporting.png)
 
-1. Si votre diffusion est récurrente, sélectionnez une diffusion spécifique sur laquelle vous souhaitez créer un rapport en cliquant sur **[!UICONTROL Sélectionner les diffusions]**.
+1. Si votre diffusion est récurrente, sélectionnez une diffusion spécifique sur laquelle créer un rapport en cliquant sur **[!UICONTROL Sélectionner des diffusions]**.
 
    Vous pouvez également appliquer une période à votre rapport en sélectionnant la **[!UICONTROL Date de contact]**.
 
    ![](assets/delivery-recurring.png)
 
-La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
+La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
 
-* [Rapports de diffusion par e-mail](email-report.md)
+* [Rapports de diffusion E-mail](email-report.md)
 * [Rapports de diffusion SMS](sms-report.md)
-* [Rapports de diffusion des notifications push](push-report.md)
+* [Rapports de diffusion Notifications push](push-report.md)
