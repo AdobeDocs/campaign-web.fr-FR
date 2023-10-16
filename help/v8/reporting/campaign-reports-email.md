@@ -5,7 +5,7 @@ description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 100%
 
@@ -137,7 +137,7 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 +++
 
-## Non délivrables {#non-deliverables-email}
+## Non diffusables {#non-deliverables-email}
 
 ### Répartition des erreurs par type {#delivery-summary-email-breakdown-per-type}
 

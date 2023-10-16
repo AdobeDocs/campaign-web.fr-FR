@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux services d’abonnements, comment l
 badge: label="Beta"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 100%
 
