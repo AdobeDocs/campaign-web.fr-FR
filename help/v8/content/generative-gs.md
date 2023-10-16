@@ -4,10 +4,10 @@ title: Commencer avec l’assistant de contenu
 description: Commencer avec l’assistant de contenu
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
+workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ L’assistant de contenu de Campaign est accessible dans vos e-mails pour : [g�
 Vous trouverez ci-dessous des instructions générales concernant l’utilisation de l’assistant de contenu pour la génération d’e-mails :
 
 * La qualité du contenu généré est fortement influencée par l’invite/l’objectif marketing que vous définissez. Utilisez une invite bien définie pour que le modèle GenAI soit interprété avec précision. 
-* Chargez les ressources de marque pour qu’elles soient précises sur le contenu de la marque. Autrement, le contenu est basé sur des informations disponibles au public. Le contenu téléchargé peut être : des fichiers PDF, des documents Microsoft Word, des fichiers JPEG, PNG ou ZIP (avec les formats de fichier pris en charge).
+* Chargez les ressources de marque pour qu’elles soient précises sur le contenu de la marque. Autrement, le contenu est basé sur des informations disponibles au public. Le contenu téléchargé peut se présenter sous les formats suivants : fichiers PDF, JPEG, PNG ou ZIP (avec les formats de fichiers pris en charge).
 * La taille recommandée pour la ressource de marque chargée est inférieure à 10 Mo.Des fichiers plus volumineux ou de nombreuses images peuvent être traités, mais le temps de traitement sera plus long.
 * Utilisez des modèles d’e-mails créés par Adobe Campaign, ou de préférence des [modèles d’e-mails intégrés](../content/email-sample-templates.md) pour créer le contenu de votre e-mail. Il est recommandé d’utiliser un modèle d’e-mail contenant jusqu’à 8-10 images.
 
