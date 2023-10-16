@@ -4,10 +4,10 @@ title: Rapports de diffusion Notifications push
 description: Découvrez comment accéder aux rapports de diffusion des notifications push et les utiliser.
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Le **rapport de diffusion des notifications push** offre une vue d’ensemble co
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Résumé du rapport de diffusion des notifications push"
+>title="Présentation de la diffusion push"
 >abstract="La **Vue d’ensemble de la diffusion des notifications push** offre une vue d’ensemble complète de votre diffusion de notifications push, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de votre diffusion."
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec vos notifications push.
@@ -91,7 +91,7 @@ Le rapport **Statistiques globales** présente des données relatives aux notifi
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Statistiques globales des notifications push"
+>title="Exclusions push"
 >abstract="Le graphe et le tableau **Exclusions** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message."
 
 Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message. Les règles d’exclusion sont détaillées dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){_blank}.
