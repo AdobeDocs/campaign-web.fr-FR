@@ -3,13 +3,13 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
-workflow-type: tm+mt
+exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Créer une audience {#build-audience}
 
@@ -54,7 +54,7 @@ Pour configurer l’activité **Créer une audience**, procédez comme suit :
 Pour créer votre propre requête, procédez comme suit :
 
 1. Sélectionnez **Créer la vôtre (requête)**.
-1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires. En savoir plus sur les dimensions de ciblage dans [cette section](../../audience/about-recipients.md#targeting-dimensions).
+1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires. Pour en savoir plus sur les dimensions de ciblage, veuillez consulter [cette section](../../audience/about-recipients.md#targeting-dimensions).
 1. Cliquez sur **Continuer**.
 1. Utilisez le créateur de règles pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. Reportez-vous à cette [section](../../audience/segment-builder.md).
 

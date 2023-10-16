@@ -1,12 +1,13 @@
 ---
 audience: end-user
-title: Rapports de diffusion par e-mail
+title: Rapports de diffusion E-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
-workflow-type: tm+mt
+exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '2254'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +27,13 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="Population cible initiale"
->abstract="La variable **Population cible initiale** Le graphique affiche les données relatives à vos destinataires et messages, en fonction des résultats de la préparation de la diffusion."
+>abstract="Le graphe **Population cible initiale** affiche les données relatives à vos destinataires et messages, en fonction des résultats de la préparation de la diffusion."
 
-La variable **[!UICONTROL Population cible initiale]** Le graphique affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion et affichent : l’audience initiale, le nombre de messages à envoyer, le nombre de destinataires exclus.
+Le graphe **[!UICONTROL Population cible initiale]** affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de destinataires exclus.
 
 ![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
 
-Placez le pointeur de la souris sur une partie du graphique pour afficher le nombre exact.
+Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre exact.
 
 ![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
 
@@ -43,7 +44,7 @@ Placez le pointeur de la souris sur une partie du graphique pour afficher le nom
 
 * **[!UICONTROL À diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Exclusion]**: Nombre total de destinataires exclus de la population cible.
+* **[!UICONTROL Exclusion]** : nombre total de destinataires exclus de la population cible.
 +++
 
 ### Statistiques de diffusion {#email-delivery-stats}
@@ -52,10 +53,10 @@ Placez le pointeur de la souris sur une partie du graphique pour afficher le nom
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Statistiques de diffusion"
->abstract="La variable **Statistiques de diffusion** Le graphique décrit le succès de votre diffusion et les erreurs qui se sont produites."
+>abstract="Le graphe **Statistiques de diffusion** détaille le succès de votre diffusion et les erreurs qui se sont produites."
 
 
-La variable **[!UICONTROL Statistiques de diffusion]** Le graphique décrit le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
+Le graphe **[!UICONTROL Statistiques de diffusion]** détaille le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
 ![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
 
@@ -71,16 +72,16 @@ La variable **[!UICONTROL Statistiques de diffusion]** Le graphique décrit le s
 
 +++
 
-### Causes d&#39;exclusion  {#email-delivery-exclusions}
+### Causes d’exclusion  {#email-delivery-exclusions}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="Statistiques de diffusion"
->abstract="La variable **Causes d&#39;exclusion** le graphique et le tableau affichent la répartition, par règle, des messages rejetés lors de la préparation de la diffusion."
+>abstract="Le tableau et le graphe **Causes d’exclusion** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion."
 
 
-La variable **[!UICONTROL Causes d&#39;exclusion]** le graphique et le tableau affichent la répartition, par règle, des messages rejetés lors de la préparation de la diffusion. Les règles d&#39;exclusion sont détaillées dans la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion. Les règles d’exclusion sont détaillées dans la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
@@ -114,14 +115,14 @@ Ce rapport présente des informations détaillées sur le débit de diffusion de
 ![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
 
 
-## Statistiques de diffusion {#broadcast-statistics}
+## Statistiques de domaine {#broadcast-statistics}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Statistiques de diffusion"
->abstract="La variable **Statistiques de diffusion** Ce rapport contient les données disponibles relatives aux erreurs possibles rencontrées pour chaque domaine."
+>title="Statistiques de domaine"
+>abstract="Le rapport **Statistiques de domaine** contient les données disponibles liées aux erreurs possibles rencontrées pour chaque domaine."
 
-Le tableau **[!UICONTROL Statistiques sur les domaines]** contient les données disponibles liées aux erreurs possibles rencontrées pour chaque domaine. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Statistiques de domaine]** contient les données disponibles liées aux erreurs possibles rencontrées pour chaque domaine. Les mesures sont détaillées ci-dessous.
 
 ![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 
@@ -142,16 +143,16 @@ Le tableau **[!UICONTROL Statistiques sur les domaines]** contient les données 
 * **[!UICONTROL Désinscriptions]** : pourcentage du nombre de clics effectués sur un lien de désinscription, par rapport au nombre de messages traités avec succès.
 +++
 
-## Non délivrables {#non-deliverables-email}
+## Non diffusables {#non-deliverables-email}
 
-###  Répartition des erreurs par type {#email-delivery-breakdown-type}
+### Répartition des erreurs par type {#email-delivery-breakdown-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
->title=" Répartition des erreurs par type"
->abstract="La variable **Ventilation des erreurs par type** le tableau et le graphique contiennent les données disponibles pour chaque type d’erreur rencontré : utilisateur inconnu, boîte pleine, domaine non valide, etc."
+>title="Répartition des erreurs par type"
+>abstract="Le tableau et le graphe **Répartition des erreurs par type** contiennent les données disponibles pour chaque type d’erreur rencontré : utilisateur inconnu ou utilisatrice inconnue, boîte pleine, domaine non valide, etc."
 
-La variable **[!UICONTROL Ventilation des erreurs par type]** le tableau et le graphique contiennent les données disponibles pour le type d’erreur. Les mesures sont détaillées ci-dessous.
+Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** contiennent les données disponibles pour chaque type d’erreur. Les mesures sont détaillées ci-dessous.
 
 Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
@@ -182,10 +183,10 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Répartition des erreurs par domaine"
->abstract="La variable **Ventilation des erreurs par domaine** tableau et graphique affichent les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
+>abstract="Le tableau et le graphe **Répartition des erreurs par domaine** affichent les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
 
 
-La variable **[!UICONTROL Ventilation des erreurs par domaine]** tableau et graphique affichent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
+Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** affichent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 
 ![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
@@ -193,7 +194,7 @@ Cliquez sur l’icône en regard du nom de chaque domaine pour afficher les dét
 
 ![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
-Les mesures disponibles sont les mêmes que pour la variable [Répartition des erreurs par type](#email-delivery-breakdown-type) décrits ci-dessus.
+Les mesures disponibles sont les mêmes que celles de la [Répartition des erreurs par type](#email-delivery-breakdown-type) décrites ci-dessus.
 
 ## Indicateurs de tracking {#tracking-indicators-email}
 
@@ -209,10 +210,10 @@ Les mesures disponibles sont les mêmes que pour la variable [Répartition des e
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Statistiques de diffusion"
->abstract="La variable **Statistiques de diffusion** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés : succès, ouvertures, clics, etc."
+>abstract="Le rapport **Statistiques de diffusion** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les données disponibles pour les e-mails envoyés : succès, ouvertures, clics, etc."
 
 
-La variable **[!UICONTROL Statistiques de diffusion]** Ce rapport fournit des indicateurs de performance clés (IPC) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés. Les mesures sont détaillées ci-dessous.
+Le rapport **[!UICONTROL Statistiques de diffusion]** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les données disponibles pour les e-mails envoyés. Les mesures sont détaillées ci-dessous.
 
 ![](assets/reporting_email_5.png){align="center"}
 
@@ -231,16 +232,16 @@ La variable **[!UICONTROL Statistiques de diffusion]** Ce rapport fournit des in
 * **[!UICONTROL Estimation des transferts]** : estimation du nombre d’e-mails transférés par les destinataires ciblé(e)s.
 +++
 
-### Taux d&#39;ouverture et de clic {#email-tracking-click-through}
+### Taux d’ouverture et de clic publicitaire {#email-tracking-click-through}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Taux d&#39;ouverture et de clic"
->abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos personnes destinataires avec votre diffusion."
+>title="Taux d’ouverture et de clic publicitaire"
+>abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos destinataires envers votre diffusion."
 
 
 
-La variable **[!UICONTROL Taux d&#39;ouverture et de clic]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
 ![](assets/reporting_email_6.png){align="center"}
 
@@ -262,16 +263,16 @@ La variable **[!UICONTROL Taux d&#39;ouverture et de clic]** affiche des donnée
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL et flux de clics (URLs and click streams)"
->abstract="La variable **URL et flux de clics** Ce rapport fournit des indicateurs de performance clés (IPC) qui fournissent des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d’une diffusion."
+>abstract="Le rapport **URL et flux de clics** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion."
 
 
-La variable **[!UICONTROL URL et flux de clics]** Ce rapport fournit des indicateurs de performance clés (IPC) qui fournissent des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d’une diffusion.
+Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion.
 
 ![](assets/reporting_email_7.png){align="center"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
-* **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
+* **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
 * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 
@@ -287,10 +288,10 @@ La variable **[!UICONTROL URL et flux de clics]** Ce rapport fournit des indicat
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="Top 10 des liens les plus visités"
->abstract="La variable **Les 10 liens les plus consultés** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien."
+>abstract="Le tableau et le graphe des **10 liens les plus visités** contiennent les données disponibles pour le comportement des destinataires par lien."
 
 
-La variable **[!UICONTROL Les 10 liens les plus consultés]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien.
+Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contiennent les données disponibles pour le comportement des destinataires par lien.
 
 ![](assets/reporting_email_8.png){align="center"}
 
@@ -308,10 +309,10 @@ La variable **[!UICONTROL Les 10 liens les plus consultés]** Le graphique et le
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="Répartition des clics dans le temps"
->abstract="La variable **Répartition des clics au fil du temps** Le graphique présente les données disponibles pour le comportement des destinataires par lien."
+>abstract="Le graphe **Répartition des clics dans le temps** contient les données disponibles sur le comportement des destinataires par lien."
 
 
-La variable **[!UICONTROL Répartition des clics au fil du temps]** Le graphique contient les données disponibles sur le comportement des destinataires par lien.
+Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des destinataires par lien.
 
 ![](assets/reporting_email_9.png){align="center"}
 
@@ -322,7 +323,7 @@ La variable **[!UICONTROL Répartition des clics au fil du temps]** Le graphique
 >title="Widget Activités utilisateurs et utilisatrices"
 >abstract="Le graphe **Activités utilisateurs et utilisatrices** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour, dernière heure ou 30 dernières minutes."
 
-La variable **[!UICONTROL Activités utilisateurs]** Le rapport présente la répartition des ouvertures et clics sous la forme d&#39;un graphique. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour, dernière heure ou 30 dernières minutes.
+Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour, dernière heure ou 30 dernières minutes.
 
 ![](assets/reporting_email_10.png){align="center"}
 
@@ -360,25 +361,25 @@ Le graphe **[!UICONTROL Statistiques de tracking]** fournit des statistiques sur
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="Répartition par appareil"
->abstract="La variable **Ventilation par appareil** Le rapport présente la répartition des ouvertures, par appareil, sur la période. Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. La seconde affiche le nombre et le pourcentage exacts pour chaque type d’appareil."
+>abstract="Le rapport **Répartition par appareil** affiche la répartition des ouvertures, par type d’appareil, sur la période concernée. Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. Le second affiche le nombre et le pourcentage exacts pour chaque type d’appareil."
 
-La variable **Ventilation par appareil** Ce rapport présente la répartition des ouvertures, par appareil, sur la période : ordinateurs personnels, appareils Android, appareils Apple, etc.
+Le rapport **Répartition par appareil** affiche la répartition des ouvertures, par appareil, sur la période concernée : ordinateurs personnels, appareils Android, appareils Apple, etc.
 
-Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. La seconde affiche le nombre et le pourcentage exacts pour chaque type d’appareil.
+Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. Le second affiche le nombre et le pourcentage exacts pour chaque type d’appareil.
 
 ![](assets/reporting_email_13.png){align="center"}
 
 
-### Répartition des ouvertures par système d&#39;exploitation {#breakdown-opens-os}
+### Répartition des ouvertures par système d’exploitation {#breakdown-opens-os}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="Ventilation par système d&#39;exploitation"
->abstract="La variable **Ventilation par système d’exploitation** Le rapport présente la répartition des ouvertures, par système d&#39;exploitation, sur la période concernée. Le premier diagramme affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. La seconde affiche le nombre et le pourcentage exacts pour chaque système d’exploitation."
+>title="Répartition par système d’exploitation"
+>abstract="Le rapport **Répartition par système d’exploitation** affiche la répartition des ouvertures par système d’exploitation sur la période concernée. Le premier diagramme affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. Le second affiche le nombre et le pourcentage exacts pour chaque système d’exploitation."
 
-La variable **Ventilation par système d’exploitation** Ce rapport présente la répartition des ouvertures, par système d’exploitation, sur la période : systèmes Windows, systèmes Android, systèmes iOS, etc.
+Le rapport **Répartition par système d’exploitation** affiche la répartition des ouvertures, par système d’exploitation, sur la période concernée : systèmes Windows, systèmes Android, systèmes iOS, etc.
 
-Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d&#39;ouverture sur un ordinateur et sur les systèmes d&#39;exploitation mobiles. La seconde affiche le nombre et le pourcentage exacts pour chaque système d’exploitation.
+Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des systèmes d’exploitation mobiles. Le second affiche le nombre et le pourcentage exacts pour chaque système d’exploitation.
 
 ![](assets/reporting_email_13.1.png){align="center"}
 
@@ -387,11 +388,11 @@ Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les st
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="Répartition par navigateur"
->abstract="La variable **Ventilation par navigateur** affiche la répartition des ouvertures, par navigateur, sur la période. Le premier diagramme affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. La seconde affiche le nombre et le pourcentage exacts pour chaque navigateur."
+>abstract="La **Répartition par navigateur** affiche la répartition des ouvertures par navigateur sur la période concernée. Le premier diagramme affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. Le second affiche le nombre et le pourcentage exacts pour chaque navigateur."
 
-La variable **Ventilation par navigateur** Ce rapport présente la ventilation des ouvertures par navigateur : Chrome, Safari, Internet Explorer, etc.
+Le rapport **Répartition par navigateur** affiche la répartition des ouvertures par navigateur : Chrome, Safari, Internet Explorer, etc.
 
-Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d&#39;ouverture sur un ordinateur et sur les systèmes d&#39;exploitation mobiles. La seconde affiche le nombre et le pourcentage exacts pour chaque navigateur.
+Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des systèmes d’exploitation mobiles. Le second affiche le nombre et le pourcentage exacts pour chaque navigateur.
 
 ![](assets/reporting_email_13.2.png){align="center"}
 

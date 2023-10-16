@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Ajout d’offres dans vos messages
+title: Ajouter des offres à vos messages
 description: Découvrez comment ajouter et envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Ajout d’offres dans vos messages {#offers-content}
+# Ajouter des offres à vos messages {#offers-content}
 
 Adobe Campaign v8 Web vous permet d’envoyer les offres qui ont été créées dans la console à l’aide du module **[!UICONTROL Interaction]** avec les diffusions. Pour plus d’informations sur Interaction et sur la gestion d’un catalogue d’offres dans la console, consultez la [documentation de Campaign V8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 

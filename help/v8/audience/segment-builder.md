@@ -5,27 +5,27 @@ description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
-# Utilisation du créateur de règles {#segment-builder}
+# Utiliser le créateur de règles {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Audiences cibles"
 >abstract="Créer une cible de diffusion n’a jamais été aussi facile. Avec notre dernier créateur de règles en date, vous pouvez désormais définir des critères de filtrage pour les personnes destinataires ou toute autre dimension de ciblage de la base de données. Profitez de l’audience Adobe Experience Platform pour affiner davantage votre audience cible et optimiser l’impact de votre campagne."
 
-Le créateur de règles permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. Vous pouvez l’utiliser pour créer une audience à partir d’un workflow à l’aide d’une **[!UICONTROL Créer une audience]** ou directement lors de la création d&#39;une diffusion pour créer une audience unique.
+Le créateur de règles permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. Vous pouvez l’utiliser pour créer une audience à partir d’un workflow à l’aide d’une activité **[!UICONTROL Créer une audience]** ou directement lors de la création d’une diffusion pour créer une audience unique.
 
-* [Découvrez comment créer une audience](create-audience.md)
-* [Découvrez comment créer une audience unique pour une diffusion](one-time-audience.md)
+* [Découvrez comment créer une audience.](create-audience.md)
+* [Découvrez comment créer une audience unique pour une diffusion.](one-time-audience.md)
 
 ## Palette
 
-La palette, située à gauche, contient tous les éléments sur lesquels vous pouvez appliquer un filtre pour créer votre audience. Vous pouvez utiliser la barre de recherche pour rechercher rapidement des éléments. Les vignettes de la palette doivent être déplacées dans la zone de travail centrale pour être configurées et prises en compte.
+La palette, située à gauche, contient tous les éléments sur lesquels vous pouvez appliquer un filtre pour créer votre audience. Vous pouvez utiliser la barre de recherche pour rechercher rapidement des éléments. Les tuiles de la palette doivent être déplacées dans la zone de travail centrale pour être configurées et prises en compte.
 
 ![](assets/segment-builder2.png){width="70%" align="left"}
 
@@ -33,7 +33,7 @@ La palette est divisée en deux onglets :
 
 * **Attributs** : cet onglet permet d’accéder à tous les champs disponibles à partir du schéma. La liste des champs dépend du schéma de ciblage défini dans le modèle d’e-mail.
 
-* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform. [Découvrez comment surveiller et gérer les audiences](manage-audience.md)
+* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform. [Découvrez comment surveiller et gérer les audiences](manage-audience.md).
 
   >[!NOTE]
   >
@@ -47,15 +47,15 @@ La zone de travail est la zone centrale, dans laquelle vous pouvez paramétrer e
 
 ## Le volet Propriétés des règles
 
-Sur le côté droit, le **Propriétés des règles** vous permet d’effectuer les actions répertoriées ci-dessous.
+Sur le côté droit, le volet **Propriétés des règles** vous permet d’effectuer les actions ci-après.
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Afficher les résultats :** affiche la liste des destinataires ciblés par l’audience.
+* **Afficher les résultats :** affiche la liste des personnes destinataires ciblées par l’audience.
 * **Affichage du code** : affiche une version basée sur le code de l’audience dans SQL.
 * **Afficher les attributs avancés** : cochez cette option si vous souhaitez afficher la liste complète des attributs dans la palette de gauche : noeuds, regroupements, liens 1-1, liens 1-N.
-* **Calculer**: met à jour et affiche le nombre de profils ciblés par votre requête.
-* **Sélectionner ou enregistrer un filtre**: utilisez un filtre prédéfini pour filtrer votre requête ou enregistrez votre requête en tant que nouveau filtre pour une réutilisation ultérieure. [Découvrez comment utiliser des filtres prédéfinis](../get-started/predefined-filters.md)
+* **Calculer** : met à jour et affiche le nombre de profils ciblés par votre requête.
+* **Sélectionner ou enregistrer un filtre** : utilisez un filtre prédéfini pour filtrer votre requête ou enregistrez votre requête en tant que nouveau filtre pour une réutilisation ultérieure. [Découvrez comment utiliser des filtres prédéfinis](../get-started/predefined-filters.md).
 
   >[!IMPORTANT]
   >

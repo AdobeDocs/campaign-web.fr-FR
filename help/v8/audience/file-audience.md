@@ -5,9 +5,9 @@ description: Découvrez comment utiliser les destinataires d’un fichier extern
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
->title="Aperçu du fichier"
->abstract="Vérifiez l’aperçu de votre fichier. Cet écran n’affiche que 30 enregistrements au maximum."
+>title="Prévisualisez votre fichier"
+>abstract="Vérifiez la prévisualisation de votre fichier. Cet écran n’affiche que 30 enregistrements au maximum."
 
 
 

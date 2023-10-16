@@ -1,63 +1,63 @@
 ---
 audience: end-user
-title: Texte à l’aide de l’assistant de contenu
-description: Prise en main de l’assistant de contenu
+title: Texte avec l’assistant de contenu
+description: Commencer avec l’assistant de contenu
 badge: label="Alpha"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
-workflow-type: tm+mt
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
-# Génération de texte à l’aide de l’assistant de contenu {#generative-content}
-
+# Génération de texte avec l’assistant de contenu {#generative-content}
 
 
-Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistant de contenu, optimisé par l’IA générative, pour passer votre contenu au niveau supérieur.
 
-L’assistant de contenu peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent plus susceptible de résonner auprès de votre audience.
+Une fois que vous avez créé et personnalisé vos e-mails, utilisez l’assistant de contenu optimisé par l’IA générative pour donner encore plus de poids à votre contenu.
+
+L’assistant de contenu peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
 
 >[!NOTE]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez les sections connexes : [Barrières de sécurité et limites](generative-gs.md#guardrails-and-limitations).
+>Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#guardrails-and-limitations).
 
-Pour générer et améliorer le contenu d’un email à l’aide de l’assistant de contenu, procédez comme suit. Vous pouvez également créer du contenu de HTML complet avec l’assistant de contenu, comme décrit dans la section [cette page](generative-email.md).
+Pour générer et améliorer le contenu d’un e-mail à l’aide de l’assistant de contenu, procédez comme suit. Vous pouvez également créer du contenu HTML complet avec l’assistant de contenu, comme décrit sur [cette page](generative-email.md).
 
-1. Après avoir créé et configuré votre diffusion Email, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   Pour plus d&#39;informations sur le paramétrage de votre diffusion email, reportez-vous à la section [cette page](../content/create-email-content.md).
+   Pour plus d’informations sur la configuration de votre diffusion e-mail, consultez [cette page](../content/create-email-content.md).
 
-1. Renseignez les **[!UICONTROL Détails de base]** pour votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu d’un email]**.
+1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]**.
 
-1. Personnalisez votre email selon vos besoins.
+1. Personnalisez votre e-mail selon vos besoins.
 
-1. Sélectionnez la variable **[!UICONTROL Composant textuel]** vous souhaitez mettre à jour et accéder au menu Génération d’expérience .
+1. Sélectionnez le **[!UICONTROL Composant de texte]** à mettre à jour et accédez au menu Génération d’expérience.
 
    ![](assets/text-genai-1.png)
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer.
 
-   Activez la variable **[!UICONTROL Amélioration du contexte actuel]** de l’assistant de contenu afin de personnaliser le nouveau contenu en fonction de votre diffusion, de votre nom de diffusion et de l’audience sélectionnée.
+   Activez l’option **[!UICONTROL Améliorer avec le contexte actuel]** de l’assistant de contenu afin de personnaliser le nouveau contenu en fonction de votre diffusion, de son nom et de l’audience sélectionnée.
 
    ![](assets/text-genai-3.png)
 
-1. Sélectionner **[!UICONTROL Télécharger le fichier]** pour ajouter toute ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
+1. Sélectionnez **[!UICONTROL Charger le fichier]** pour ajouter toute ressource de marque ayant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
-   Cliquez également sur **[!UICONTROL Contenu téléchargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur actuel.
+   Cliquez également sur **[!UICONTROL Contenu chargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur ou l’utilisatrice en cours.
 
-1. Sélectionnez la variable **[!UICONTROL Stratégie de communication]** qui répond le mieux à vos besoins. Cela aura une incidence sur la tonalité et le style du texte généré.
+1. Sélectionnez la **[!UICONTROL Stratégie de communication]** qui répond le mieux à vos besoins. Cette dernière a une incidence sur la tonalité et le style du texte généré.
 
-1. Choisissez la **[!UICONTROL Langue]** et **[!UICONTROL Tone]** que vous souhaitez que le texte généré ait. Cela permet de s’assurer que le texte est adapté à votre audience et à votre objectif.
+1. Choisissez la **[!UICONTROL Langue]** et le **[!UICONTROL Ton]** à donner au texte. Vous vous assurez ainsi que le texte est adapté à votre audience et à votre objectif.
 
    ![](assets/text-genai-4.png)
 
 1. Utilisez le curseur pour définir la longueur du texte généré.
 
-1. Une fois votre invite prête, cliquez sur **[!UICONTROL Générer]**.
+1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourir les **[!UICONTROL Variations]** et cliquez sur **[!UICONTROL Appliquer]** une fois que vous avez trouvé le contenu approprié.
+1. Parcourez les **[!UICONTROL Variations]** générées et cliquez sur **[!UICONTROL Appliquer]** une fois que vous avez trouvé le contenu approprié.
 
    ![](assets/text-genai-5.png)
 
@@ -65,9 +65,8 @@ Pour générer et améliorer le contenu d’un email à l’aide de l’assistan
 
    ![](assets/text-genai-6.png)
 
-1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../preview-test/preview-content.md)
+1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../preview-test/preview-content.md)
 
    ![](assets/text-genai-7.png)
 
-1. Une fois que vous avez défini votre contenu, votre audience et votre planning, vous êtes prêt à préparer votre diffusion email. [En savoir plus](../monitor/prepare-send.md)
-
+1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)

@@ -1,42 +1,42 @@
 ---
 audience: end-user
-title: Envoyer des messages aux abonnés d'un service
-description: Découvrez comment envoyer des messages aux abonnés d'un service
+title: Envoyer des messages aux personnes abonnées à un service
+description: Découvrez comment envoyer des messages aux personnes abonnées à un service.
 badge: label="Beta"
-source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
-workflow-type: tm+mt
+exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
+# Envoyer des messages aux personnes abonnées à un service
 
-# Envoyer des messages aux abonnés d&#39;un service
+Vous pouvez créer des services d’abonnements dans Adobe Campaign et envoyer des messages à vos personnes abonnées. Découvrez comment créer des services d’abonnements sur [cette page](../audience//manage-services.md#create-service).
 
-Vous pouvez créer des services d’abonnement dans Adobe Campaign et envoyer des messages à vos abonnés. Découvrez comment créer des services d’abonnements dans [cette page](../audience//manage-services.md#create-service).
+Pour envoyer des messages à vos personnes abonnées, créez une audience spécifique pour identifier les personnes abonnées, puis créez la diffusion comme décrit ci-dessous.
 
-Pour envoyer des messages à vos abonnés, créez une audience spécifique pour identifier les abonnés, puis créez la diffusion comme décrit ci-dessous.
+1. Créez une audience. Pour en savoir plus sur les audiences, consultez [cette page](../audience/create-audience.md).
 
-1. Création d’une audience. En savoir plus sur les audiences dans [cette page](../audience/create-audience.md).
+1. Dans l’activité **[!UICONTROL Créer une audience]**, affichez les attributs avancés et sélectionnez **[!UICONTROL Destinataire]** > **[!UICONTROL Abonnements]** > **[!UICONTROL Service]**.
 
-1. Dans le **[!UICONTROL Créer une audience]** activité, afficher les attributs avancés et sélectionner **[!UICONTROL Destinataire]** > **[!UICONTROL Abonnements]** > **[!UICONTROL Service]**.
-
-   Dans cet exemple, sélectionnez les utilisateurs abonnés au service qui a la variable **Newsletter Luma** libellé.
+   Dans cet exemple, sélectionnez les personnes abonnées au service libellé **Newsletter Luma**.
 
    ![](assets/service-audience-subscribers.png)
 
 1. Enregistrez l&#39;audience.
-1. Créer une diffusion. Les étapes de création d&#39;une diffusion sont présentées dans la section [cette page](../msg/gs-messages.md#create-delivery).
+1. Créez une diffusion. Les étapes de création d’une diffusion sont détaillées sur [cette page](../msg/gs-messages.md#create-delivery).
 1. Accédez aux paramètres de diffusion et définissez le mapping de ciblage par défaut sur **Abonnements (nms:subscriptions)**.
 
    ![](assets/service-delivery-change-mapping.png)
 
-1. Dans la section cible principale de la diffusion, sélectionnez l&#39;audience que vous avez créée ci-dessus.
+1. Dans la section cible principale de la diffusion, sélectionnez l’audience que vous avez créée ci-dessus.
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
-1. Créez le contenu de votre message, testez et envoyez la diffusion, comme décrit dans la section [cette section](../preview-test/preview-test.md).
+1. Créez le contenu de votre message, puis testez et envoyez la diffusion, comme décrit dans [cette section](../preview-test/preview-test.md).
 
    ![](assets/service-delivery-ready.png)
 
-Votre diffusion n&#39;est envoyée qu&#39;aux abonnés de ce service.
+Votre diffusion n’est envoyée qu’aux personnes abonnées à ce service.

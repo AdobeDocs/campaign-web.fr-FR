@@ -1,29 +1,29 @@
 ---
 audience: end-user
-title: Rapports de campagne pour le canal SMS
-description: Présentation des rapports de campagne pour le canal SMS
+title: Rapports de campagne du canal SMS
+description: Présentation des rapports de campagne du canal SMS
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
-workflow-type: tm+mt
+exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
+# Rapports de campagne du canal SMS {#campaign-reports-sms-channel}
 
-# Rapports de campagne pour le canal SMS {#campaign-reports-sms-channel}
-
-Chaque rapport de campagne est divisé en différents widgets détaillant le succès et les erreurs de votre campagne. Pour le canal SMS, les rapports et les mesures sont présentés ci-dessous. Découvrez comment accéder aux rapports de campagne dans [cette page](campaign-reports.md).
+Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Pour le canal SMS, les mesures et les rapports sont détaillés ci-dessous. Découvrez comment accéder aux rapports de campagne sur [cette page](campaign-reports.md).
 
 ## Synthèse des diffusions {#delivery-summary-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_deliveries_overview"
 >title="Vue d’ensemble de la diffusion"
->abstract="La variable **Présentation de la diffusion** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion SMS."
+>abstract="Le rapport **Vue d’ensemble de la diffusion** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion SMS."
 
 
-La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion SMS. Les mesures sont détaillées ci-dessous.
+Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion SMS. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_sms_1.png)
 
@@ -40,14 +40,14 @@ La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit de
 +++
 
 
-### Statistiques initiales sur l´audience cible {#delivery-summary-sms-initial-target}
+### Statistiques initiales sur l’audience cible {#delivery-summary-sms-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
->title="Statistiques initiales sur l´audience cible"
->abstract="La variable **Statistiques initiales d’audience cible** affiche des données relatives à vos destinataires."
+>title="Statistiques initiales sur l’audience cible"
+>abstract="Le tableau **Statistiques initiales sur l’audience cible** affiche des données relatives à vos personnes destinataires."
 
-La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
 
 ![](assets/campaign_report_sms_2.png)
@@ -58,7 +58,7 @@ La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche d
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
+* **[!UICONTROL Rejetées par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
 +++
 
@@ -69,10 +69,10 @@ La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche d
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_exec_stats"
 >title="Statistiques d’exécution"
->abstract="La variable **Statistiques d&#39;exécution** le tableau détaille le succès de votre diffusion : messages à diffuser, succès, erreurs et nouvelles mises en quarantaine."
+>abstract="Le tableau **Statistiques d’exécution** détaille le succès de votre diffusion : messages à diffuser, succès, erreurs et nouvelles mises en quarantaine."
 
 
-La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
 
 ![](assets/campaign_report_sms_3.png)
@@ -87,7 +87,7 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
 
-  Les types d&#39;erreur de SMS sont répertoriés dans la section [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
+  Les types d’erreur de SMS sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -97,9 +97,9 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_click_streams"
 >title="Flux de clics générés"
->abstract="La variable **Flux de clics générés** Le tableau affiche les données disponibles par rapport à la façon dont vos destinataires ont interagi avec votre diffusion."
+>abstract="Le tableau **Flux de clics générés** affiche les données disponibles sur les interactions des destinataires avec votre diffusion."
 
-La variable **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_sms_4.png)
 
@@ -109,6 +109,6 @@ La variable **[!UICONTROL Flux de clics générés]** Le tableau affiche des don
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
+* **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
 +++

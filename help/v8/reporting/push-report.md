@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: Rapports de diffusion des notifications push
+title: Rapports de diffusion Notifications push
 description: Découvrez comment accéder aux rapports de diffusion des notifications push et les utiliser.
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
-workflow-type: tm+mt
+exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-# Rapports de diffusion des notifications push {#push-report}
+# Rapports de diffusion Notifications push {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -25,10 +26,10 @@ Le **rapport de diffusion des notifications push** offre une vue d’ensemble co
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Résumé du rapport Diffusion push"
+>title="Résumé du rapport de diffusion des notifications push"
 >abstract="La **Vue d’ensemble de la diffusion des notifications push** offre une vue d’ensemble complète de votre diffusion de notifications push, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de votre diffusion."
 
-La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont les visiteurs interagissent avec vos messages push.
+Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec vos notifications push.
 
 ![](assets/reporting_push_3.png)
 
@@ -48,10 +49,10 @@ La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit de
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
->title="Push population ciblée"
->abstract="La variable **Population ciblée** données d’affichage graphiques et tabulaires relatives à votre audience de messagerie push : messages à diffuser et exclusions."
+>title="Population ciblée des notifications push"
+>abstract="Le tableau et le graphe **Population ciblée** affichent des données relatives à votre audience de notifications push : messages à diffuser et exclusions."
 
-La variable **Population ciblée** données d&#39;affichage graphiques et tabulaires relatives à votre audience : messages à diffuser et exclusions. Les mesures sont détaillées ci-dessous.
+Le tableau et le graphe **Population ciblée** affichent des données relatives à votre audience : messages à diffuser et exclusions. Les mesures sont détaillées ci-dessous.
 
 ![](assets/reporting_push_4.png)
 
@@ -68,10 +69,10 @@ La variable **Population ciblée** données d&#39;affichage graphiques et tabula
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
->title="Statistiques globales push"
->abstract="La variable **Statistiques globales** présente les données des notifications push envoyées : succès, erreurs et mises en quarantaine."
+>title="Statistiques globales des notifications push"
+>abstract="Le rapport **Statistiques globales** présente des données relatives aux notifications push envoyées : succès, erreurs et mises en quarantaine."
 
-La variable **Statistiques globales** présente les données des notifications push envoyées : succès, erreurs et mises en quarantaine. Les mesures sont détaillées ci-dessous.
+Le rapport **Statistiques globales** présente des données relatives aux notifications push envoyées : succès, erreurs et mises en quarantaine. Les mesures sont détaillées ci-dessous.
 
 ![](assets/reporting_push_5.png)
 
@@ -90,10 +91,10 @@ La variable **Statistiques globales** présente les données des notifications p
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Statistiques globales push"
->abstract="La variable **Exclusions** le graphique et le tableau affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message."
+>title="Statistiques globales des notifications push"
+>abstract="Le graphe et le tableau **Exclusions** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message."
 
-La variable **[!UICONTROL Exclusions]** le graphique et le tableau affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message. Les règles d&#39;exclusion sont détaillées dans la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message. Les règles d’exclusion sont détaillées dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){_blank}.
 
 
 ![](assets/reporting_push_6.png)

@@ -1,30 +1,30 @@
 ---
 audience: end-user
-title: Rapports de campagne pour le canal email
-description: En savoir plus sur les rapports de campagne pour le canal email
+title: Rapports de campagne du canal E-mail
+description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
-workflow-type: tm+mt
+exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '1568'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
+# Rapports de campagne du canal E-mail {#campaign-reports-email-channel}
 
-# Rapports de campagne pour le canal email {#campaign-reports-email-channel}
-
-Chaque rapport de campagne est divisé en différents widgets détaillant le succès et les erreurs de votre campagne. Pour le canal Email, les rapports et les mesures sont présentés ci-dessous. Découvrez comment accéder aux rapports de campagne dans [cette page](campaign-reports.md).
+Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Les rapports et mesures du canal E-mail sont détaillés ci-dessous. Découvrez comment accéder aux rapports de campagne sur [cette page](campaign-reports.md).
 
 ## Synthèse des diffusions {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Vue d’ensemble de la diffusion"
->abstract="La variable **Présentation de la diffusion** fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec votre diffusion par e-mail."
+>abstract="La **Vue d’ensemble de la diffusion** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion e-mail."
 
 ### Vue d’ensemble de la diffusion {#delivery-summary-email-ovv}
 
-La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont les visiteurs interagissent avec votre diffusion par e-mail. Les mesures sont détaillées ci-dessous.
+La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion e-mail. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_1.png)
 
@@ -42,15 +42,15 @@ La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit de
 
 +++
 
-### Statistiques initiales sur l´audience cible {#delivery-summary-email-initial-target}
+### Statistiques initiales sur l’audience cible {#delivery-summary-email-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="Statistiques initiales sur l´audience cible"
+>title="Statistiques initiales sur l’audience cible"
 >abstract="Le tableau Statistiques initiales sur l’audience cible affiche des données relatives à vos personnes destinataires."
 
 
-La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_2.png)
 
@@ -60,7 +60,7 @@ La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche d
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
+* **[!UICONTROL Rejetées par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
 +++
 
@@ -70,9 +70,9 @@ La variable **[!UICONTROL Statistiques initiales d’audience cible]** affiche d
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="Statistiques d’exécution"
->abstract="La variable **Statistiques d&#39;exécution** le tableau détaille le succès de votre diffusion : messages à diffuser, succès, erreurs et nouvelles mises en quarantaine."
+>abstract="Le tableau **Statistiques d’exécution** détaille le succès de votre diffusion : messages à diffuser, succès, erreurs et nouvelles mises en quarantaine."
 
-La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_3.png)
 
@@ -86,7 +86,7 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
 
-  Les types d’erreur de courrier électronique sont répertoriés dans la section [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+  Les types d’erreur d’e-mail sont répertoriés dans la section [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
 
 
 +++
@@ -96,10 +96,10 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau décrit le
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
 >title="Statistiques des réactions"
->abstract="La variable **Statistiques de réaction** le tableau affiche les données disponibles pour l&#39;activité des destinataires pour votre diffusion : nombre d&#39;ouvertures, abonnements, désabonnements, clic sur le lien de la page miroir."
+>abstract="Le tableau **Statistiques des réactions** affiche les données disponibles pour l’activité des destinataires de votre diffusion : nombre d’ouvertures, abonnements, désabonnements, clic sur le lien de la page miroir."
 
 
-La variable **[!UICONTROL Statistiques de réaction]** contient les données disponibles pour l&#39;activité des destinataires pour votre diffusion. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Statistiques des réactions]** contient les données disponibles relatives à l’activité des destinataires de votre diffusion. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_4.png)
 
@@ -121,9 +121,9 @@ La variable **[!UICONTROL Statistiques de réaction]** contient les données dis
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="Flux de clics générés"
->abstract="La variable **Flux de clics générés** Le tableau affiche les données disponibles par rapport à la façon dont vos destinataires ont interagi avec votre diffusion."
+>abstract="Le tableau **Flux de clics générés** affiche les données disponibles sur les interactions des destinataires avec votre diffusion."
 
-La variable **[!UICONTROL Flux de clics générés]** Le tableau affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_5.png)
 
@@ -133,21 +133,21 @@ La variable **[!UICONTROL Flux de clics générés]** Le tableau affiche des don
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
+* **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
 +++
 
 ## Non délivrables {#non-deliverables-email}
 
-###  Répartition des erreurs par type {#delivery-summary-email-breakdown-per-type}
+### Répartition des erreurs par type {#delivery-summary-email-breakdown-per-type}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
->title=" Répartition des erreurs par type"
->abstract="La variable **Ventilation des erreurs par type** le tableau et le graphique contiennent les données disponibles pour chaque type d’erreur rencontré : utilisateur inconnu, boîte pleine, domaine non valide, etc."
+>title="Répartition des erreurs par type"
+>abstract="Le tableau et le graphe **Répartition des erreurs par type** contiennent les données disponibles pour chaque type d’erreur rencontré : utilisateur inconnu ou utilisatrice inconnue, boîte pleine, domaine non valide, etc."
 
-La variable **[!UICONTROL Ventilation des erreurs par type]** le tableau et le graphique contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque type de domaine. Les mesures sont détaillées ci-dessous.
+Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque type de domaine. Les mesures sont détaillées ci-dessous.
 
 Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
@@ -177,10 +177,10 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
 >title="Répartition des erreurs par domaine"
->abstract="La variable **Ventilation des erreurs par domaine** tableau et graphique affichent les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
+>abstract="Le tableau et le graphe **Répartition des erreurs par domaine** affichent les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
 
 
-La variable **[!UICONTROL Ventilation des erreurs par domaine]** le tableau et le graphique contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine. Les mesures sont communes aux **[!UICONTROL Ventilation des erreurs par type]** tableau et graphique présentés ci-dessus.
+Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine. Les mesures sont communes au tableau et au graphe **[!UICONTROL Répartition des erreurs par type]** présentés ci-dessus.
 
 
 ## Indicateurs de tracking {#tracking-indicators-email}
@@ -191,9 +191,9 @@ La variable **[!UICONTROL Ventilation des erreurs par domaine]** le tableau et l
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
 >title="Statistiques de diffusion"
->abstract="La variable **Statistiques de diffusion** Le graphique décrit le succès de votre diffusion et les erreurs qui se sont produites."
+>abstract="Le graphe **Statistiques de diffusion** détaille le succès de votre diffusion et les erreurs qui se sont produites."
 
-La variable **[!UICONTROL Statistiques de diffusion]** metrics fournit des indicateurs de performances clés (KPI) qui fournissent des informations détaillées sur les données disponibles pour les emails envoyés. Les mesures sont détaillées ci-dessous.
+Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les données disponibles pour les e-mails envoyés. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_7.png)
 
@@ -212,17 +212,17 @@ La variable **[!UICONTROL Statistiques de diffusion]** metrics fournit des indic
 * **[!UICONTROL Estimation des transferts]** : estimation du nombre d’e-mails transférés par les destinataires ciblé(e)s.
 +++
 
-### Taux d’ouverture et de clics publicitaires {#delivery-summary-open-rate}
+### Taux d’ouverture et de clic publicitaire {#delivery-summary-open-rate}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Taux d&#39;ouverture et de clic"
->abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos personnes destinataires avec votre diffusion."
+>title="Taux d&#39;ouverture et de clic publicitaire"
+>abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos destinataires envers votre diffusion."
 
 
 
-La variable **[!UICONTROL Taux d’ouverture et de clics publicitaires]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_8.png)
 
@@ -244,15 +244,15 @@ La variable **[!UICONTROL Taux d’ouverture et de clics publicitaires]** affich
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL et flux de clics (URLs and click streams)"
->abstract="La variable **URL et flux de clics** Ce rapport fournit des indicateurs de performance clés (IPC) qui fournissent des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d’une diffusion."
+>abstract="Le rapport **URL et flux de clics** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion."
 
-La variable **[!UICONTROL URL et flux de clics]** Ce rapport fournit des indicateurs de performance clés (IPC) qui fournissent des informations détaillées sur les URL ayant reçu le plus grand nombre de clics lors d’une diffusion. Les mesures sont détaillées ci-dessous.
+Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_9.png)
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
+* **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
 * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 
@@ -266,10 +266,10 @@ La variable **[!UICONTROL URL et flux de clics]** Ce rapport fournit des indicat
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Top 10 des liens les plus visités"
->abstract="La variable **Les 10 liens les plus consultés** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien."
+>abstract="Le tableau et le graphe des **10 liens les plus visités** contiennent les données disponibles pour le comportement des destinataires par lien."
 
 
-La variable **[!UICONTROL Les 10 liens les plus consultés]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par lien. Les mesures sont détaillées ci-dessous.
+Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contiennent les données disponibles pour le comportement des destinataires par lien. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_10.png)
 
@@ -287,10 +287,10 @@ La variable **[!UICONTROL Les 10 liens les plus consultés]** Le graphique et le
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="Répartition des clics dans le temps"
->abstract="La variable **Répartition des clics au fil du temps** Le graphique présente les données disponibles pour le comportement des destinataires par lien."
+>abstract="Le graphe **Répartition des clics dans le temps** contient les données disponibles sur le comportement des destinataires par lien."
 
 
-la valeur **[!UICONTROL Répartition des clics au fil du temps]** Le graphique contient les données disponibles sur le comportement des destinataires par lien.
+Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des destinataires par lien.
 
 ![](assets/campaign_report_email_11.png)
 
@@ -300,9 +300,9 @@ la valeur **[!UICONTROL Répartition des clics au fil du temps]** Le graphique c
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_user_activities"
 >title="Activités utilisateurs"
->abstract="Le graphe **Activités utilisateurs et utilisatrices** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme."
+>abstract="Le graphe **Activités utilisateurs** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme."
 
-La variable **[!UICONTROL Activités utilisateurs]** Le rapport présente la répartition des ouvertures et clics sous la forme d&#39;un graphique. Les mesures de ce rapport sont présentées ci-dessous.
+Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Les mesures de ce rapport sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_10.png){align="center"}
 

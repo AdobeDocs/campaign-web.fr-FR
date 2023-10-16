@@ -1,29 +1,29 @@
 ---
 audience: end-user
-title: Gérer les abonnés d'un service
-description: Découvrez comment gérer et diffuser aux abonnés d’un service dans Adobe Campaign Web
+title: Gérer les personnes abonnées à un service
+description: Découvrez comment gérer les personnes abonnées à un service dans Adobe Campaign Web et leurs envoyer des diffusions.
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
-workflow-type: tm+mt
+exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
+# Gérer les personnes abonnées à un service {#manage-subscribers}
 
-# Gérer les abonnés d&#39;un service {#manage-subscribers}
+Après avoir [créé un service](manage-services.md#create-service), vous pouvez ajouter des personnes abonnées, désabonner des destinataires et envoyer des messages aux personnes abonnées à ce service.
 
-Une fois que [création d’un service](manage-services.md#create-service), vous pouvez ajouter des abonnés, désabonner des destinataires et envoyer des messages aux abonnés de ce service.
+La gestion des personnes abonnées est détaillée sur cette page. Pour découvrir comment envoyer des messages à vos personnes abonnées, reportez-vous à [cette section](../content/send-to-subscribers.md).
 
-La gestion des abonnés est présentée dans cette page. Pour savoir comment envoyer des messages à vos abonnés, reportez-vous à la section [cette section](../content/send-to-subscribers.md).
+## Ajouter des personnes abonnées à votre service {#add-subscribers}
 
-## Ajouter des abonnés à votre service {#add-subscribers}
+Pour ajouter manuellement des personnes abonnées, procédez comme suit.
 
-Pour ajouter manuellement des abonnés, procédez comme suit.
+1. Sélectionnez un service existant dans la liste **[!UICONTROL Services d’abonnements]**.
 
-1. Sélectionnez un service existant à partir de la fonction **[!UICONTROL Services d’inscriptions]** liste.
-
-1. Sélectionnez la variable **[!UICONTROL Abonnés]** et cliquez sur **[!UICONTROL Ajout de profils]**.
+1. Sélectionnez l’onglet **[!UICONTROL Abonnés]** et cliquez sur **[!UICONTROL Ajouter des profils]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,36 +31,36 @@ Pour ajouter manuellement des abonnés, procédez comme suit.
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Cliquez sur **[!UICONTROL Envoyer]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> Les destinataires sélectionnés recevront l&#39;abonnement. [message de confirmation](manage-services.md#create-confirmation-message) que vous avez sélectionné lorsque [création du service](manage-services.md#create-service).
+1. Cliquez sur **[!UICONTROL Envoyer]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> Les destinataires sélectionnés recevront le [message de confirmation](manage-services.md#create-confirmation-message) d’abonnement que vous avez sélectionné lors de la [création du service](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-Les profils ajoutés sont affichés dans le **[!UICONTROL Abonnés]** liste. Ils sont maintenant abonnés à votre service.
+Les profils ajoutés sont affichés dans la liste des **[!UICONTROL personnes abonnées]**. Ils sont maintenant abonnés à votre service.
 
-## Supprimer des abonnés de votre service {#remove-subscribers}
+## Supprimer des personnes abonnées de votre service {#remove-subscribers}
 
-### Désabonner manuellement les destinataires {#manual-unsubscription}
+### Désabonner manuellement des destinataires {#manual-unsubscription}
 
-Une fois que [abonnés ajoutés](#add-subscribers) à votre service, vous pouvez vous désabonner manuellement de chacun d’eux. Suivez les étapes ci-dessous.
+Une fois les [personnes abonnées ajoutées](#add-subscribers) à votre service, vous pouvez désabonner manuellement chacune d’elles. Suivez les étapes ci-dessous.
 
-1. Sélectionnez un service existant à partir de la fonction **[!UICONTROL Services d’inscriptions]** liste.
+1. Sélectionnez un service existant à partir de la liste **[!UICONTROL Services d’abonnements]**.
 
-1. Cliquez sur l’icône de trois points située en regard du nom du destinataire souhaité, puis sélectionnez **[!UICONTROL Supprimer]**.
+1. Cliquez sur l’icône représentant trois points de suspension située en regard du nom de la personne souhaitée, puis sélectionnez **[!UICONTROL Supprimer]**.
 
    ![](assets/service-subscribers-delete.png)
 
-1. Confirmez la suppression et cliquez sur **[!UICONTROL Envoyer]**. Le destinataire sélectionné recevra la désinscription. [message de confirmation](manage-services.md#create-confirmation-message) que vous avez sélectionné lorsque [création du service](manage-services.md#create-service).
+1. Confirmez la suppression et cliquez sur **[!UICONTROL Envoyer]**. La personne destinataire sélectionnée recevra le [message de confirmation](manage-services.md#create-confirmation-message) de désabonnement que vous avez sélectionné lors de la [création du service](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
-Le destinataire est supprimé de la variable **[!UICONTROL Abonnés]** et n’est plus abonné à votre service.
+La personne destinataire est supprimée de la liste des **[!UICONTROL personnes abonnées]** et n’est plus abonnée à votre service.
 
 ### Désabonner automatiquement les destinataires {#automatic-unsubscription}
 
-Un service d’abonnement peut avoir une durée limitée. Les destinataires sont automatiquement désabonnés à l&#39;expiration de la période de validité.
+Un service d’abonnement peut avoir une durée limitée. Les personnes destinataires sont automatiquement désabonnées à l’expiration de la période de validité.
 
-Cette période est spécifiée lorsque [création du service](manage-services.md#create-service). Dans la **[!UICONTROL Options supplémentaires]**, désactivez la variable **[!UICONTROL Durée de validité illimitée]** et définir une période de validité pour le service.
+Cette période est spécifiée lors de la [création du service](manage-services.md#create-service). Dans les **[!UICONTROL Options supplémentaires]**, désactivez l’option **[!UICONTROL Période de validité illimitée]** et définissez une période de validité pour le service.
 
 ![](assets/service-create-validity-period.png)
 
-Une fois la durée spécifiée expirée, tous les abonnés sont automatiquement désabonnés de ce service.
+Une fois la durée spécifiée expirée, toutes les personnes abonnées sont automatiquement désabonnées de ce service.
