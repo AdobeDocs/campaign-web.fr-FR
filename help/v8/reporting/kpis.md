@@ -1,16 +1,16 @@
 ---
-title: Indicateurs de performance clés
+title: Indicateurs clés de performance
 description: Découvrez comment comprendre les indicateurs clés de performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Indicateurs de performance clés {#kpis}
+# Indicateurs clés de performance {#kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -25,16 +25,16 @@ Vous pouvez sélectionner le canal à afficher. Par défaut, ces indicateurs ref
 
 ![](assets/kpi.png)
 
-## Message diffusé {#ui-delivered-kpi}
+## Message délivré {#ui-delivered-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Diffusés"
->abstract="Cette mesure indique, pour le canal sélectionné, le nombre de tous les messages traités et le pourcentage de messages diffusés par rapport au nombre total de messages envoyés."
+>abstract="Cette mesure indique, pour le canal sélectionné, le nombre total de messages traités et le pourcentage de messages délivrés par rapport au nombre total de messages envoyés."
 
 Le nombre de messages diffusés reflète votre taux de délivrabilité. Ce taux ne peux jamais être de 100 % pour les raisons suivantes : certaines adresses e-mail ou numéros de téléphone peuvent être erronés, les bloqueurs de spam des fournisseurs de messagerie peuvent rejeter vos messages ou des problèmes de délivrabilité peuvent se produire.
 
-L’indicateur **Diffusés** montre les KPI suivants, pour chaque canal :
+L’indicateur **Délivrés** montre les KPI suivants, pour chaque canal :
 
 * Pourcentage du nombre de messages diffusés par rapport au nombre total de messages envoyés.
 
@@ -69,7 +69,7 @@ Adobe Campaign détecte les messages ouverts lorsque la personne destinataire t
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clics"
->abstract="Cette mesure indique, pour le canal sélectionné, le nombre de toutes les URL ayant fait l’objet d’un clic dans les messages, ainsi que le pourcentage de clics par rapport au nombre total de messages diffusés."
+>abstract="Cette mesure indique, pour le canal sélectionné, le nombre total d’URL ayant fait l’objet d’un clic dans les messages, ainsi que le pourcentage de clics par rapport au nombre total de messages délivrés."
 
 Dans votre message, vous pouvez ajouter des URL qui redirigent les personnes destinataires vers une page spécifique. Le taux de clic publicitaire mesure le nombre et le pourcentage de personnes destinataires ayant cliqué sur un lien dans le message.
 
@@ -107,10 +107,10 @@ L’indicateur **Désinscriptions** montre les KPI suivants, pour chaque canal 
 
 Certains messages envoyés par votre plateforme Adobe Campaign peuvent ne pas arriver à destination. Cela peut se produire lorsque l’adresse de l’utilisateur ou de l’utilisatrice ou le numéro de téléphone contient des fautes de frappe, si la personne destinataire a modifié son adresse e-mail, ou si sa boîte de réception est pleine. Si un message ne peut pas être envoyé à un profil, le serveur distant envoie automatiquement un message d’erreur à Adobe Campaign. Cette erreur est qualifiée pour déterminer si l’adresse e-mail, le numéro de téléphone ou l’appareil doit être mis en quarantaine.
 
-Par conséquent, vous devez toujours vérifier et mettre à jour votre base de données, et vous assurer que tous les profils sont actifs et réels. Les erreurs de diffusion peuvent être temporaires ou permanentes (rebonds temporaires ou définitifs), selon la raison pour laquelle le message n’a pas été diffusé.
+Par conséquent, vous devez toujours vérifier et mettre à jour votre base de données, et vous assurer que tous les profils sont actifs et réels. Les erreurs de diffusion peuvent être temporaires ou permanentes (rebonds temporaires ou définitifs), selon la raison pour laquelle le message n’a pas été délivré.
 
 L’indicateur **Erreurs** montre les KPI suivants, pour chaque canal :
 
-* Pourcentage du nombre d’erreurs, par rapport au nombre total de messages à diffuser.
+* Pourcentage du nombre d’erreurs, par rapport au nombre total de messages à délivrer.
 
 * Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds.
