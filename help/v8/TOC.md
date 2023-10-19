@@ -36,7 +36,7 @@ ht-degree: 97%
       + Définir le contenu d’un email {#content}
          + [Configurer le contenu de l’e-mail](content/edit-content.md)
          + Commencer à rédiger l’e-mail {#start-design}
-            + [Commencer avec le Concepteur d’e-mail](content/get-started-email-designer.md)
+            + [Commencer avec le concepteur d’e-mail](content/get-started-email-designer.md)
             + [Démarrer en partant de zéro](content/create-email-content.md)
             + [Importer le contenu des e-mails](content/existing-content.md)
             + [Coder votre propre contenu](content/code-content.md)
@@ -99,7 +99,7 @@ ht-degree: 97%
       + [Gérer des services](audience/manage-services.md)
       + [Gérer des personnes abonnées](audience/manage-subscribers.md)
 + Campagnes cross-canal {#campaigns}
-   + [Commencer avec les campagnes](campaigns/gs-campaigns.md)
+   + [Prise en main des campagnes](campaigns/gs-campaigns.md)
    + [Accéder aux campagnes et les gérer](campaigns/manage-campaigns.md)
    + [Créer votre première campagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
