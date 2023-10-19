@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Définir le contenu de l’e-mail"
->abstract="L’écran **Modifier le contenu** vous permet de définir les éléments de base de votre message, tels que l’adresse de la personne expéditrice et l’objet, d’effectuer des actions supplémentaires, telles que l’ajout de pièces jointes ou d’offres, et d’accéder au Concepteur d’e-mail pour peaufiner l’aspect de votre message."
+>abstract="L’écran **Modifier le contenu** vous permet de définir les éléments de base de votre message, tels que l’adresse de la personne expéditrice et l’objet, d’effectuer des actions supplémentaires, telles que l’ajout de pièces jointes ou d’offres, et d’accéder au concepteur d’e-mail pour peaufiner l’aspect de votre message."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -37,7 +37,7 @@ ht-degree: 100%
 La fenêtre **[!UICONTROL Modifier le contenu]** de l’e-mail vous permet d’effectuer les opérations suivantes :
 * Définir des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet.
 * Effectuer des actions supplémentaires telles que l’ajout de pièces jointes ou la configuration d’offres.
-* Accéder au [Concepteur d’e-mail](get-started-email-designer.md#start-authoring) pour commencer à créer le contenu de votre e-mail.
+* Accéder au [concepteur d’e-mail](get-started-email-designer.md#start-authoring) pour commencer à créer le contenu de votre e-mail.
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
    Vous pouvez ensuite les insérer dans l’e-mail à l’aide de champs de personnalisation. [Découvrez comment envoyer des offres.](offers.md)
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour organiser et concevoir le contenu de l’e-mail en utilisant le [Concepteur d’e-mail](#start-authoring). Des informations supplémentaires sur la conception de contenu d’e-mail sont disponibles dans les sections suivantes :
+1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour organiser et concevoir le contenu de l’e-mail en utilisant le [concepteur d’e-mail](#start-authoring). Des informations supplémentaires sur la conception de contenu d’e-mail sont disponibles dans les sections suivantes :
 
    * [Rédiger des e-mails à partir de zéro](create-email-content.md)
    * [Donner un style à votre contenu](get-started-email-style.md)

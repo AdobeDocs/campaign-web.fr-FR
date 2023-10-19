@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Audiences"
->abstract="Sur cet écran, vous pouvez accéder à la liste de toutes les audiences qui peuvent être ciblées dans vos diffusions. Cliquez sur **Créer** pour créer de nouvelles audiences dans une zone de travail visuelle à l’aide de diverses activités de workflow, telles que **Partager** ou **Exclure**."
+>abstract="Depuis cet écran, vous pouvez accéder à la liste de toutes les audiences qui peuvent être ciblées dans vos diffusions. Cliquez sur **Créer** pour créer de nouvelles audiences dans une zone de travail visuelle à l’aide de diverses activités de workflow, telles que **Partager** ou **Exclure**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

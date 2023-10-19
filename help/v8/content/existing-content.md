@@ -16,9 +16,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="Utiliser un contenu d’e-mail existant"
->abstract="Le Concepteur d’e-mail permet d’importer du contenu HTML existant. Ce contenu peut être un fichier HTML avec une feuille de style incorporée ou un dossier ZIP contenant le fichier HTML, la feuille de style (CSS) et les images."
+>abstract="Le concepteur d’e-mail permet d’importer du contenu HTML existant. Ce contenu peut être un fichier HTML avec une feuille de style incorporée ou un dossier ZIP contenant le fichier HTML, la feuille de style (CSS) et les images."
 
-Vous pouvez importer du contenu HTML existant dans le Concepteur d’e-mail. Ce contenu peut être :
+Vous pouvez importer du contenu HTML existant dans le concepteur d’e-mail. Ce contenu peut être :
 
 * Un **fichier HTML** avec une feuille de style incorporée,
 * Un **dossier ZIP** contenant le fichier HTML, la feuille de style (CSS) et les images.
@@ -29,7 +29,7 @@ Vous pouvez importer du contenu HTML existant dans le Concepteur d’e-mail. Ce 
 
 Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
-1. Sur la page d’accueil du [Concepteur d’e-mail](get-started-email-designer.md), sélectionnez **[!UICONTROL Importer du contenu HTML]**.
+1. Sur la page d’accueil du [concepteur d’e-mail](get-started-email-designer.md), sélectionnez **[!UICONTROL Importer du contenu HTML]**.
 
    ![](assets/html-import.png)
 
@@ -41,7 +41,7 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
    ![](assets/html-imported.png)
 
-1. Pour pouvoir exploiter les composants de contenu du Concepteur d’e-mail, accédez à l’onglet **[!UICONTROL Convertisseur HTML]** et cliquez sur **[!UICONTROL Convertir]**.
+1. Pour pouvoir exploiter les composants de contenu du concepteur d’e-mail, accédez à l’onglet **[!UICONTROL Convertisseur HTML]** et cliquez sur **[!UICONTROL Convertir]**.
 
    ![](assets/html-imported-2.png)
 
@@ -49,5 +49,5 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
    >
    > L’utilisation d’une balise `<table>` comme premier calque d’un fichier HTML peut entraîner une perte de style, y compris des paramètres d’arrière-plan et de largeur de la balise de calque supérieure.
 
-1. Vous pouvez désormais personnaliser votre fichier importé selon vos besoins à l’aide des fonctionnalités du Concepteur d’e-mail. [En savoir plus](content-components.md).
+1. Vous pouvez désormais personnaliser votre fichier importé selon vos besoins à l’aide des fonctionnalités du concepteur d’e-mail. [En savoir plus](content-components.md).
 

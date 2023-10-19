@@ -37,28 +37,28 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Définition des colonnes de l’email"
->abstract="Le Concepteur d’e-mail vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
+>abstract="Le concepteur d’e-mail vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="Définir les colonnes de la page de destination"
->abstract="Le Concepteur d’e-mail permet de définir facilement la disposition de la page de destination en définissant la structure des colonnes."
+>abstract="Le concepteur d’e-mail permet de définir facilement la disposition de la page de destination en définissant la structure des colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="Définir les colonnes du fragment"
->abstract="Le Concepteur d’e-mail permet de définir facilement la disposition du fragment en définissant la structure des colonnes."
+>abstract="Le concepteur d’e-mail permet de définir facilement la disposition du fragment en définissant la structure des colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="Définir les colonnes du modèle"
->abstract="Le Concepteur d’e-mail permet de définir facilement la disposition de votre modèle en définissant la structure des colonnes."
+>abstract="Le concepteur d’e-mail permet de définir facilement la disposition de votre modèle en définissant la structure des colonnes."
 
-Le Concepteur d’e-mail permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir le corps de votre e-mail en quelques secondes.
+Le concepteur d’e-mail permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir le corps de votre e-mail en quelques secondes.
 
 Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
-1. Sur la page d’accueil du [Concepteur d’e-mail](get-started-email-designer.md#start-authoring), cliquez sur l’option **[!UICONTROL Créer en partant de zéro]**.
+1. Sur la page d’accueil du [concepteur d’e-mail](get-started-email-designer.md#start-authoring), cliquez sur l’option **[!UICONTROL Créer en partant de zéro]**.
 
    ![](assets/email_designer-from-scratch.png)
 
