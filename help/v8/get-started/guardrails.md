@@ -3,10 +3,10 @@ title: Mécanismes de sécurisation et limites de l’interface utilisateur web 
 description: Mécanismes de sécurisation et limites de l’interface utilisateur web de Campaign
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,12 @@ Le positionnement des nœuds est actualisé à chaque fois qu’une activité es
 
 ## Filtres prédéfinis {#filters-guardrails-limitations}
 
-Lors de la sélection de l’audience d’une diffusion ou lors de la création d’une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur, dans cette version du produit.
+>[!CONTEXTUALHELP]
+>id="acw_predefined_filter_read_only"
+>title="Ce filtre est en lecture seule"
+>abstract="Certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur de cette version du produit. Ces filtres sont marqués comme lecture seule. Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le créateur de règles et que vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage dans la section **Attributs** de l’écran."
+
+Lors de la sélection de l’audience d’une diffusion ou lors de la création d’une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur, dans cette version du produit. Ces filtres sont marqués comme lecture seule.
 
 Un message d’erreur spécifique s’affiche.
 
