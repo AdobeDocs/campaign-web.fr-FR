@@ -5,7 +5,7 @@ description: Présentation des rapports de campagne du canal SMS
 badge: label="Beta"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1568'
 ht-degree: 100%
 
