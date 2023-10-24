@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
+source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 97%
+source-wordcount: '1204'
+ht-degree: 90%
 
 ---
 
@@ -154,6 +154,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+
+
+
+
+<!-- FOR BETA (alignment) -->
+<!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
+
+
+
+
 <!-- FOR GA -->
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
@@ -216,3 +226,205 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Prévisualisation des offres des destinataires"
 >abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Modèle de diffusion Abonnements"
+>abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_menu"
+>title="Landing pages"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_properties"
+>title="Propriétés Landing Pages"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_pages_list"
+>title="Pages d’entrée"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_schedule"
+>title="Planification des pages d’entrée"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="Page principale Pages d’entrée"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Abonnement aux landing pages"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_calltoaction"
+>title="Appel à l’action des pages d’entrée"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="Simulation des pages d’entrée"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_query_enrichment_noneditable"
+>title="Activité non modifiable"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="Fragments"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="Enregistrement des fragments"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="Création de fragments"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="Propriétés des fragments"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="Type de fragment"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Liste de fragments"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="Détails des fragments"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="Modèle de contenu"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="Propriétés du modèle de contenu"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_design"
+>title="Conception de modèle de contenu"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="Sélection du modèle de contenu"
+>abstract="TBC"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_loadfile"
+>title="Chargement de fichier  activité"
+>abstract="TBC"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation"
+>title="Activité Réconciliation"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting"
+>title="Ciblage de la réconciliation"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_rules"
+>title="Règles de réconciliation"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting_selection"
+>title="Dimension de ciblage de réconciliation"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_field"
+>title="Champ de sélection de la réconciliation"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_attribute"
+>title="Attribut de sélection de réconciliation"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_condition"
+>title="Condition de création de réconciliation"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_complement"
+>title="Génération d’une réconciliation complémentaire"
+>abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_savefilter"
+>title="Filtre d’enregistrement de contenu conditionnel"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_selectfilter"
+>title="Filtre de sélection de contenu conditionnel"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectline"
+>title="Contenu conditionnel sur la ligne d’objet"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectlinecondition"
+>title="Condition d’objet du contenu conditionnel"
+>abstract="TBC"
+
