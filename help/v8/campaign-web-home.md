@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,21 +17,21 @@ ht-degree: 96%
 
 La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform. [En savoir plus](get-started/get-started.md)
 
->Le Web de Campaign v8 est actuellement en version bêta. L’accès est limité à un petit groupe de clients bêta. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/whats-new.md)
+>Campaign v8 Web est actuellement en version beta. L’accès est limité à un petit groupe de clientes et clients beta. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/whats-new.md)
 
 ## Nouvelles fonctionnalités de Campaign Web
 
 **Découvrez la nouvelle interface utilisateur de Campaign v8 Web**.
 
-La nouvelle interface web de Campaign v8 Web offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée à Adobe Experience Platform.
+La nouvelle interface web de Campaign v8 offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée à Adobe Experience Platform.
 
 **Interface de zone de travail du workflow repensée**
 
 Notre environnement graphique complet vous permet de concevoir des processus complexes et de gérer vos campagnes marketing en toute facilité. Grâce aux workflows, passez à la vitesse supérieure : orchestrez l’ensemble des processus et tâches, améliorez la vitesse et l’échelle de chaque composante de vos campagnes marketing, de la création de segments jusqu’à la préparation des messages et leur diffusion. Dans une interface unique et conviviale, vous pouvez coordonner vos canaux et orchestrer vos campagnes.
 
-**Présentation du Concepteur d’e-mail**
+**Présentation du concepteur d’e-mail**
 
-Commencez à partir d’un modèle ou utilisez le nouveau Concepteur d’e-mail d’Adobe Campaign afin de créer des e-mails sans avoir à écrire une seule ligne de code. Découvrez comment utiliser le Concepteur d’e-mail pour créer votre contenu, le prévisualiser et le tester, puis envoyer un e-mail à une audience existante dans un cas d’utilisation complet.
+Commencez à partir d’un modèle ou utilisez le nouveau concepteur d’e-mail d’Adobe Campaign afin de créer des e-mails sans avoir à écrire une seule ligne de code. Découvrez comment utiliser le concepteur d’e-mail pour créer votre contenu, le prévisualiser et le tester, puis envoyer un e-mail à une audience existante dans un cas d’utilisation complet.
 
 **Rendre votre contenu dynamique**
 
@@ -68,7 +68,7 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <img alt="Peu fréquent" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/get-started-email-designer.md"><strong>Présentation du Concepteur d’e-mail</strong></a>
+<a href="content/get-started-email-designer.md"><strong>Présentation du concepteur d’e-mail</strong></a>
 </div>
 <p></td>
 <td>

@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Ajouter des attributs de style intégrés {#adding-inline-styling-attributes}
 
-Dans l’interface du Concepteur d’e-mail, lorsque vous sélectionnez un élément et affichez ses paramètres dans le volet de droite, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
+Dans l’interface du concepteur d’e-mail, lorsque vous sélectionnez un élément et affichez ses paramètres dans le volet de droite, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
 1. Sélectionnez un composant directement dans votre contenu ou à l’aide de la fonction **[!UICONTROL Arborescence de navigation]** disponible dans le volet de gauche.
 

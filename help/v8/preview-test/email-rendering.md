@@ -29,7 +29,7 @@ Pour accéder aux fonctionnalités de rendu des e-mails, vous devez remplir les 
 
 Suivez ensuite les étapes ci-dessous.
 
-1. Dans l’écran [Modifier le contenu](../content/edit-content.md) ou dans le [Concepteur d’e-mail](../content/get-started-email-designer.md), cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
+1. Dans l’écran [Modifier le contenu](../content/edit-content.md) ou dans le [concepteur d’e-mail](../content/get-started-email-designer.md), cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Rendu d’e-mail]**.
 

@@ -3,7 +3,8 @@ audience: end-user
 title: Envoyer une diffusion par SMS
 description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Beta"
-source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
@@ -72,7 +73,3 @@ L’envoi de SMS de test est une étape importante pour assurer la qualité et l
 Une fois votre diffusion envoyée, vous pouvez suivre les données de vos KPI (indicateurs clés de performance) à partir de la page de diffusion et les données à partir du menu **[!UICONTROL Journaux]**.
 
 Vous pouvez maintenant commencer à mesurer l’impact de votre message à l’aide de rapports intégrés. [En savoir plus](../reporting/sms-report.md)
-
-
-
-

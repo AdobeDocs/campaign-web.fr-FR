@@ -3,13 +3,13 @@ audience: end-user
 title: Gestion des autorisations dans Campaign web
 description: En savoir plus sur les autorisations dans Campaign web v8
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # Accès et autorisations {#access-and-permissions}
 
@@ -101,4 +101,3 @@ Pour créer un dossier, procédez comme suit :
    Le dossier est ajouté en tant que sous-dossier du dossier actuel. Accédez à ce nouveau dossier pour y créer des composants directement. Vous pouvez également créer un composant à partir de n’importe quel dossier, puis l’enregistrer dans ce nouveau dossier, à partir de la section **Options supplémentaires** des propriétés, comme illustré ci-dessous pour une diffusion :
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-

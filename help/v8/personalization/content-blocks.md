@@ -6,13 +6,13 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
 ---
-
 
 # Blocs de contenu intégrés {#ootb-content-blocks}
 
@@ -54,4 +54,3 @@ Les blocs de contenu intégrés sont les suivants :
 >[!NOTE]
 >
 >Vous pouvez définir de nouveaux blocs à partir de la console Adobe Campaign v8 afin d’optimiser la personnalisation de vos diffusions. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=fr#create-custom-personalization-blocks){target="_blank"}.
-

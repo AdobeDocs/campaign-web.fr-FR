@@ -39,7 +39,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui
 
 * **[!UICONTROL Succès]** : pourcentage et nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Taux de clic publicitaire]** : pourcentage et nombre d’utilisateurs et utilisatrices ayant interagi avec des liens inclus dans votre diffusion SMS.
+* **[!UICONTROL Taux de clics]** : pourcentage et nombre d’utilisateurs et utilisatrices ayant interagi avec des liens inclus dans votre diffusion SMS.
 
 * **[!UICONTROL Erreurs]** : pourcentage et nombre total d’erreurs qui se sont produites au cours d’une diffusion, l’empêchant d’être envoyée aux profils.
 

@@ -5,7 +5,7 @@ description: Commencer avec l’assistant de contenu
 badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
 

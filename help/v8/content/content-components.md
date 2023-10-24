@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Utiliser les composants de contenu du Concepteur d’e-mail
+title: Utiliser les composants de contenu du concepteur d’e-mail
 description: Découvrez comment utiliser des composants de contenu dans vos emails.
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
@@ -41,7 +41,7 @@ Vous pouvez ajouter autant de **[!UICONTROL contenus]** que nécessaire dans une
 
 Pour ajouter des composants de contenu à votre e-mail et les ajuster selon vos besoins, suivez les étapes ci-dessous.
 
-1. Dans le Concepteur d’e-mail, utilisez un [contenu existant](existing-content.md) ou faites glisser et déposez une **[!UICONTROL structure]** dans votre contenu vide pour définir la disposition de votre e-mail. [Voici comment procéder](create-email-content.md).
+1. Dans le concepteur d’e-mail, utilisez un [contenu existant](existing-content.md) ou faites glisser et déposez une **[!UICONTROL structure]** dans votre contenu vide pour définir la disposition de votre e-mail. [Voici comment procéder](create-email-content.md).
 
 1. Faites glisser et déposez le **[!UICONTROL contenu]** de votre choix dans les structures appropriées.
 
@@ -145,7 +145,7 @@ Utilisez le composant **[!UICONTROL HTML]** pour copier-coller les différentes 
 
 >[!NOTE]
 >
->Pour rendre un contenu externe compatible avec le Concepteur d’e-mail, Adobe recommande de [créer un message en partant de zéro](create-email-content.md) et de copier le contenu de l’e-mail existant dans des composants.
+>Pour rendre un contenu externe compatible avec le concepteur d’e-mail, Adobe recommande de [créer un message en partant de zéro](create-email-content.md) et de copier le contenu de l’e-mail existant dans des composants.
 
 ## Image {#image}
 

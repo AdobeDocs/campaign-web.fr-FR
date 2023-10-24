@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Définir un style pour les liens {#styling-links}
 
-Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d’e-mail.
+Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le concepteur d’e-mail.
 
 1. Dans un composant **[!UICONTROL Texte]** contenant un lien, sélectionnez ce dernier.
 

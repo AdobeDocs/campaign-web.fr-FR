@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Ajouter un pré-titre dans le Concepteur d’e-mail
+title: Ajouter un pré-titre dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails.
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Beta"
@@ -28,7 +28,7 @@ Dans de nombreux cas, il fournit un bref résumé du contenu et contient génér
 
 Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
-1. À partir du [Concepteur d’e-mail](create-email-content.md), ajoutez au moins un composant de **[!UICONTROL Structure]** pour commencer à concevoir votre e-mail.
+1. À partir du [concepteur d’e-mail](create-email-content.md), ajoutez au moins un composant de **[!UICONTROL Structure]** pour commencer à concevoir votre e-mail.
 
 1. Cliquez sur l’icône **[!UICONTROL Arborescence de navigation]** dans le volet de gauche, puis sélectionnez **[!UICONTROL Corps]**.
 

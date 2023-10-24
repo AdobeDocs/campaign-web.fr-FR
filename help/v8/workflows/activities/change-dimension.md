@@ -3,13 +3,13 @@ audience: end-user
 title: Utiliser l’activité de workflow Changement de dimension
 description: Découvrez comment utiliser l’activité de workflow Changement de dimension.
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
 ---
-
 
 # Changement de dimension {#change-dimension}
 

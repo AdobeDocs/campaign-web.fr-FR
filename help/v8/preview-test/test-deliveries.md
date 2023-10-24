@@ -5,7 +5,7 @@ description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
 source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 100%
 

@@ -3,13 +3,13 @@ audience: end-user
 title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 badge: label="Beta"
-source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
 
 ---
-
 
 # Combiner {#combine}
 
@@ -118,5 +118,3 @@ L’exemple suivant montre l’**intersection** de deux activités de requête. 
 L’exemple d’**exclusion** suivant présente deux requêtes configurées pour filtrer les profils qui ont entre 18 et 27 ans et qui ont un domaine d’e-mail Adobe. Les profils avec un domaine d’e-mail Adobe sont ensuite exclus du premier ensemble.
 
 ![](../assets/workflow-exclusion-example.png)
-
-

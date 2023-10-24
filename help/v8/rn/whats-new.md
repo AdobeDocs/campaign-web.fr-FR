@@ -66,7 +66,7 @@ Les fonctionnalités clés accompagnant la version beta web de Campaign sont ré
 
 * **IA générative pour le contenu des e-mails**
 
-  Dites adieu à la création manuelle de contenu et bonjour à des campagnes efficaces et pilotées par les données avec la puissance de l’IA générative.  Notre technologie d’IA générative utilise des algorithmes avancés pour **générer du contenu hautement attrayant et personnalisé**. Augmentez les taux d’ouverture, les taux de clic publicitaire et les conversions grâce à la génération de contenu intelligent par IA générative. Gardez toujours une longueur d’avance sur la concurrence et optimisez votre marketing par e-mail avec la génération de contenu d’e-mails par IA générative.
+  Dites adieu à la création manuelle de contenu et bonjour à des campagnes efficaces et pilotées par les données avec la puissance de l’IA générative.  Notre technologie d’IA générative utilise des algorithmes avancés pour **générer du contenu hautement attrayant et personnalisé**. Augmentez les taux d’ouvertures, les taux de clics et les conversions grâce à la génération de contenu intelligent par l’IA générative. Gardez toujours une longueur d’avance sur la concurrence et optimisez votre marketing par e-mail avec la génération de contenu d’e-mails par IA générative.
 
   En savoir plus dans [cette section](../content/generative-gs.md).
 
@@ -104,7 +104,7 @@ Les fonctionnalités clés accompagnant la version beta web de Campaign sont ré
 
 * **Convertisseur HTML pour la conception d’e-mail**
 
-  Vous pouvez désormais **importer et convertir tout contenu HTML** dans l’éditeur d’e-mail de Campaign. Les blocs de contenu sont automatiquement identifiés et disponibles dans le Concepteur d’e-mail : utilisez ses puissantes fonctionnalités de conception pour les mettre à jour et les personnaliser !
+  Vous pouvez désormais **importer et convertir tout contenu HTML** dans l’éditeur d’e-mail de Campaign. Les blocs de contenu sont automatiquement identifiés et disponibles dans le concepteur d’e-mail : utilisez ses puissantes fonctionnalités de conception pour les mettre à jour et les personnaliser !
 
   En savoir plus dans [cette section](../content/existing-content.md).
 

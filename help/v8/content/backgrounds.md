@@ -18,7 +18,7 @@ ht-degree: 100%
 >title="Paramètres d’arrière-plan"
 >abstract="Vous pouvez personnaliser la couleur d’arrière-plan ou l’image d’arrière-plan de votre contenu. Notez que l’image d’arrière-plan n’est pas prise en charge par tous les clients de messagerie."
 
-Lorsqu&#39;il s&#39;agit de définir des fonds dans le Concepteur d’e-mail, Adobe a les recommandations suivantes :
+Lorsqu&#39;il s&#39;agit de définir des fonds dans le concepteur d’e-mail, Adobe a les recommandations suivantes :
 
 1. Appliquez une couleur de fond au corps de votre email si votre design le requiert.
 1. En règle générale, définissez les couleurs d’arrière-plan au niveau des colonnes.

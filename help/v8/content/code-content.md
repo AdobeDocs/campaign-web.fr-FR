@@ -19,7 +19,7 @@ Utilisez le mode **[!UICONTROL Coder le vôtre]** pour importer du code HTML bru
 >
 >Cette méthode requiert des compétences en code HTML.
 
-1. Sur la page d’accueil du [Concepteur d’e-mail](get-started-email-designer.md), sélectionnez **[!UICONTROL Coder le vôtre]**.
+1. Sur la page d’accueil du [concepteur d’e-mail](get-started-email-designer.md), sélectionnez **[!UICONTROL Coder le vôtre]**.
 
    ![](assets/code-your-own.png)
 

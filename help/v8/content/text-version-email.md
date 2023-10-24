@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Nous vous recommandons de créer une version texte du corps de votre e-mail, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 
-Par défaut, le Concepteur d’e-mail crée une version **[!UICONTROL Texte brut]** de votre e-mail, y compris les champs de personnalisation. Cette version est automatiquement générée et synchronisée avec la version HTML de votre contenu.
+Par défaut, le concepteur d’e-mail crée une version **[!UICONTROL Texte brut]** de votre e-mail, y compris les champs de personnalisation. Cette version est automatiquement générée et synchronisée avec la version HTML de votre contenu.
 
 Si vous préférez utiliser un contenu différent pour la version en texte brut, procédez comme suit :
 

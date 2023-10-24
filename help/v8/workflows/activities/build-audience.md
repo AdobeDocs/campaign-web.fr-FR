@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité de workflow Créer une au
 badge: label="Beta"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 

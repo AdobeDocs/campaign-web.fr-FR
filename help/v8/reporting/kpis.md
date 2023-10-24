@@ -4,7 +4,7 @@ description: Découvrez comment comprendre les indicateurs clés de performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
 
@@ -29,8 +29,8 @@ Vous pouvez sélectionner le canal à afficher. Par défaut, ces indicateurs ref
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
->title="Diffusés"
->abstract="Cette mesure indique, pour le canal sélectionné, le nombre total de messages traités et le pourcentage de messages délivrés par rapport au nombre total de messages envoyés."
+>title="Délivrés"
+>abstract="Cette mesure indique, pour le canal sélectionné, la somme de tous les messages traités et le pourcentage de messages diffusés par rapport au nombre total de messages envoyés."
 
 Le nombre de messages diffusés reflète votre taux de délivrabilité. Ce taux ne peux jamais être de 100 % pour les raisons suivantes : certaines adresses e-mail ou numéros de téléphone peuvent être erronés, les bloqueurs de spam des fournisseurs de messagerie peuvent rejeter vos messages ou des problèmes de délivrabilité peuvent se produire.
 
@@ -64,14 +64,14 @@ Adobe Campaign détecte les messages ouverts lorsque la personne destinataire t
 
 
 
-## Taux de clic publicitaire {#ui-click-kpi}
+## Taux de clics {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clics"
->abstract="Cette mesure indique, pour le canal sélectionné, le nombre total d’URL ayant fait l’objet d’un clic dans les messages, ainsi que le pourcentage de clics par rapport au nombre total de messages délivrés."
+>abstract="Cette mesure indique, pour le canal sélectionné, la somme de toutes les URL ayant fait l’objet d’un clic dans les messages, ainsi que le pourcentage de clics par rapport au nombre total de messages diffusés."
 
-Dans votre message, vous pouvez ajouter des URL qui redirigent les personnes destinataires vers une page spécifique. Le taux de clic publicitaire mesure le nombre et le pourcentage de personnes destinataires ayant cliqué sur un lien dans le message.
+Dans votre message, vous pouvez ajouter des URL qui redirigent les personnes destinataires vers une page spécifique. Le taux de clics mesure le nombre et le pourcentage de destinataires ayant cliqué sur un lien dans le message.
 
 L’indicateur **Clics** montre les KPI suivants, pour chaque canal :
 
@@ -87,7 +87,7 @@ Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
 >title="Désinscriptions"
->abstract="Cette mesure indique, pour le canal sélectionné, le nombre de toutes les désinscriptions à un service, ainsi que le pourcentage de désinscriptions par rapport au nombre total de messages diffusés."
+>abstract="Cette mesure indique, pour le canal sélectionné, le total des désinscriptions à un service, ainsi que le pourcentage de désinscriptions par rapport au nombre total de messages diffusés."
 
 Les personnes destinataires doivent pouvoir se désinscrire des e-mails et des SMS par le biais d’un lien de désinscription dédié dans le contenu de l’email, ou en répondant STOP à un SMS.
 

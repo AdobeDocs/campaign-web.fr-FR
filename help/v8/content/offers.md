@@ -5,7 +5,7 @@ description: Découvrez comment ajouter et envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 100%
 

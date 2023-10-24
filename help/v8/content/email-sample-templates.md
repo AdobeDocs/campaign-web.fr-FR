@@ -3,8 +3,9 @@ audience: end-user
 product: campaign
 title: Utiliser des modèles d’e-mails
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
-workflow-type: ht
+exl-id: dae72639-69e1-4266-8062-ef076e2924c6
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 

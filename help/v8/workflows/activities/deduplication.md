@@ -3,13 +3,13 @@ audience: end-user
 title: Utiliser l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication.
 badge: label="Beta"
-source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
+exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
 
 ---
-
 
 # Déduplication {#deduplication}
 

@@ -3,13 +3,13 @@ audience: end-user
 title: Utiliser l’activité de workflow Branchement
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # Branchement {#fork}
 
@@ -44,4 +44,3 @@ Dans l’exemple suivant, nous utilisons deux activités **Branchement** :
 * Une après l’intersection, pour envoyer simultanément un e-mail et un SMS à la population ciblée.
 
 ![](../assets/workflow-fork-example.png)
-

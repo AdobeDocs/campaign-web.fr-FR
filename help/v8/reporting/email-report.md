@@ -232,16 +232,16 @@ Le rapport **[!UICONTROL Statistiques de diffusion]** fournit des indicateurs cl
 * **[!UICONTROL Estimation des transferts]** : estimation du nombre d’e-mails transférés par les destinataires ciblé(e)s.
 +++
 
-### Taux d’ouverture et de clic publicitaire {#email-tracking-click-through}
+### Taux d’ouvertures et de clics {#email-tracking-click-through}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Taux d’ouverture et de clic publicitaire"
->abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos destinataires envers votre diffusion."
+>title="Taux d’ouvertures et de clics"
+>abstract="Le tableau **Taux d’ouvertures et de clics** affiche des données relatives à l’engagement de vos destinataires envers votre diffusion."
 
 
 
-Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Taux d’ouvertures et de clics]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
 ![](assets/reporting_email_6.png){align="center"}
 

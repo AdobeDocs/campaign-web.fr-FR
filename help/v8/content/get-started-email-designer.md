@@ -3,18 +3,19 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez le b.a.-ba de la création de contenu à l’aide du concepteur d’e-mail dans l’UI de Campaign Web.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
 ---
 
-# Comencer avec le Concepteur d’e-mail {#get-started-email-designer}
+# Commencer avec le concepteur d’e-mail {#get-started-email-designer}
 
 Une fois que vous avez créé un e-mail dans Adobe Campaign, vous devez en définir le contenu.
 
-Le Concepteur d’e-mail permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuite par glisser-déposer. Un monde de possibilités s’offre à vous : commencez à partir de zéro, importez un contenu précédent ou tirez parti de modèles existants. Vous pouvez concevoir et affiner le contenu de chaque e-mail pour un usage promotionnel ou transactionnel.
+Le concepteur d’e-mail permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuite par glisser-déposer. Un monde de possibilités s’offre à vous : commencez à partir de zéro, importez un contenu précédent ou tirez parti de modèles existants. Vous pouvez concevoir et affiner le contenu de chaque e-mail pour un usage promotionnel ou transactionnel.
 
 <!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
@@ -34,9 +35,9 @@ Pour éviter autant que possible ces problèmes de rendu, une bonne pratique con
 
 ## Commencer à créer du contenu {#start-authoring}
 
-À partir du tableau de bord de la diffusion e-mail, accédez à l’écran [Modifier le contenu](edit-content.md) pour ouvrir la page d’accueil du Concepteur d’e-mail. Choisissez ensuite votre méthode de conception d’e-mail parmi les options suivantes :
+À partir du tableau de bord de la diffusion e-mail, accédez à l’écran [Modifier le contenu](edit-content.md) pour ouvrir la page d’accueil du concepteur d’e-mail. Choisissez ensuite votre méthode de conception d’e-mail parmi les options suivantes :
 
-* **Concevoir votre e-mail à partir de zéro** dans l’interface du Concepteur d’e-mail. Découvrez comment concevoir le contenu de votre e-mail dans [cette section](create-email-content.md).
+* **Concevoir votre e-mail à partir de zéro** dans l’interface du concepteur d’e-mail. Découvrez comment concevoir le contenu de votre e-mail dans [cette section](create-email-content.md).
 
 * **Codez ou collez du code HTML brut** directement dans le concepteur d’e-mail. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
 
@@ -45,4 +46,3 @@ Pour éviter autant que possible ces problèmes de rendu, une bonne pratique con
 * **Sélectionnez un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’e-mail dans [cette section](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
-

@@ -5,7 +5,7 @@ description: Commencer avec l’assistant de contenu
 badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant de 
 
    Pour plus d’informations sur la configuration de votre diffusion e-mail, consultez [cette page](../content/create-email-content.md).
 
-1. Renseignez les **[!UICONTROL Détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]**.
+1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]**.
 
 1. Sélectionnez la ressource à modifier à l’aide de l’assistant de contenu.
 

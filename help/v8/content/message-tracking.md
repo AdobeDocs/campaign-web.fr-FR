@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Ajouter des liens et suivre les messages {#tracking}
 
-Utilisez le Concepteur d’e-mail pour ajouter des liens à votre contenu et tracker les messages envoyés afin de surveiller le comportement de vos destinataires.
+Utilisez le concepteur d’e-mail pour ajouter des liens à votre contenu et tracker les messages envoyés afin de surveiller le comportement de vos destinataires.
 
 ## Insérer des liens {#insert-links}
 
@@ -48,7 +48,7 @@ Il est recommandé d’insérer un lien vers la page miroir dans tous les e-mail
 
 ## Gérer le tracking {#manage-tracking}
 
-Le [Concepteur d’e-mail](create-email-content.md) permet de gérer les URL trackées : par exemple, vous pouvez modifier le type de tracking de chaque lien.
+Le [concepteur d’e-mail](create-email-content.md) permet de gérer les URL trackées : par exemple, vous pouvez modifier le type de tracking de chaque lien.
 
 1. Cliquez sur l’icône **[!UICONTROL Liens]** dans le volet de gauche pour afficher la liste de toutes les URL du contenu à tracker.
 
