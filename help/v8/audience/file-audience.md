@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
+source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Prévisualisez votre fichier"
->abstract="Vérifiez la prévisualisation de votre fichier. Cet écran n’affiche que 30 enregistrements au maximum."
+>abstract="Vérifiez la prévisualisation de votre fichier. Cet écran affiche uniquement jusqu’à 30 enregistrements."
 
 
 
