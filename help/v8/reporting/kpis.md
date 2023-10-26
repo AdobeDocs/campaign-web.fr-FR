@@ -30,7 +30,7 @@ Vous pouvez sélectionner le canal à afficher. Par défaut, ces indicateurs ref
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Délivrés"
->abstract="Cette mesure indique, pour le canal sélectionné, la somme de tous les messages traités et le pourcentage de messages diffusés par rapport au nombre total de messages envoyés."
+>abstract="Cette mesure indique, pour le canal sélectionné, la somme de tous les messages traités et le pourcentage de messages délivrés par rapport au nombre total de messages envoyés."
 
 Le nombre de messages diffusés reflète votre taux de délivrabilité. Ce taux ne peux jamais être de 100 % pour les raisons suivantes : certaines adresses e-mail ou numéros de téléphone peuvent être erronés, les bloqueurs de spam des fournisseurs de messagerie peuvent rejeter vos messages ou des problèmes de délivrabilité peuvent se produire.
 
@@ -69,7 +69,7 @@ Adobe Campaign détecte les messages ouverts lorsque la personne destinataire t
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clics"
->abstract="Cette mesure indique, pour le canal sélectionné, la somme de toutes les URL ayant fait l’objet d’un clic dans les messages, ainsi que le pourcentage de clics par rapport au nombre total de messages diffusés."
+>abstract="Cette mesure indique, pour le canal sélectionné, le nombre total d’URL ayant fait l’objet d’un clic dans les messages, ainsi que le pourcentage de clics par rapport au nombre total de messages délivrés."
 
 Dans votre message, vous pouvez ajouter des URL qui redirigent les personnes destinataires vers une page spécifique. Le taux de clics mesure le nombre et le pourcentage de destinataires ayant cliqué sur un lien dans le message.
 
