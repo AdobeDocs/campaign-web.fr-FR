@@ -3,14 +3,19 @@ title: Indicateurs clés de performance
 description: Découvrez comment comprendre les indicateurs clés de performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '886'
+ht-degree: 98%
 
 ---
 
 # Indicateurs clés de performance {#kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_kpi"
+>title="Indicateurs clés de performance"
+>abstract="La variable **Principaux indicateurs de performance** vous permet de vérifier l’efficacité de votre plateforme grâce à des indicateurs de performance clés courants."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
