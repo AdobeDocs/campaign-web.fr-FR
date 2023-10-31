@@ -5,7 +5,7 @@ description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1568'
 ht-degree: 100%
 
@@ -217,8 +217,8 @@ Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateu
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Taux d’ouvertures et de clics"
->abstract="Le tableau **Taux d’ouvertures et de clics** affiche des données relatives à l’engagement de vos destinataires envers votre diffusion."
+>title="Taux d&#39;ouverture et de clic publicitaire"
+>abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos destinataires envers votre diffusion."
 
 
 

@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux rapports et les gérer dans Campaig
 badge: label="Beta"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Commencer avec les rapports {#get-started-reports}
 
-Notre suite complète d’outils de création de rapports fournit des informations précieuses sur l’efficacité de vos efforts marketing, ce qui vous permet d’optimiser vos campagnes pour un impact maximum. Des taux de diffusion aux taux d’ouvertures et de clics, notre suite de rapports dispose de tout ce dont vous avez besoin pour prendre des décisions pilotées par les données qui génèrent des résultats.
+Notre suite complète d’outils de création de rapports fournit des informations précieuses sur l’efficacité de vos efforts marketing, ce qui vous permet d’optimiser vos campagnes pour un impact maximum. Des taux de diffusion aux taux d’ouverture et de clics, notre suite de rapports dispose de tout ce dont vous avez besoin pour prendre des décisions pilotées par les données qui génèrent des résultats.
 
 Adobe Campaign propose deux rapports différents :
 

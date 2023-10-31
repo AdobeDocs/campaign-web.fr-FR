@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux rapports de campagne et les utilise
 badge: label="Beta"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
 ht-degree: 100%
 
