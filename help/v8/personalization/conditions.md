@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"
 >title="Ajouter du contenu conditionnel"
->abstract="Configurez du contenu conditionnel pour créer une personnalisation dynamique basée sur le profil de la personne destinataire. Les blocs de texte, les liens, l’objet et/ou les images sont remplacés dans le contenu du message lorsqu’une condition particulière est remplie."
+>abstract="Configurez les champs de contenu conditionnel pour créer une personnalisation dynamique basée sur le profil de la personne destinataire. Les blocs de texte, les liens, l’objet et/ou les images sont remplacés dans le contenu du message lorsqu’une condition particulière est remplie."
 
 Le contenu conditionnel est une puissante fonctionnalité qui permet de créer une personnalisation dynamique basée sur le profil de la personne destinataire, en remplaçant automatiquement les blocs de texte et les images lorsque certaines conditions sont remplies. Cette fonctionnalité permet de créer des campagnes plus sophistiquées, et de proposer des expériences hautement ciblées et personnalisées à votre audience.
 
