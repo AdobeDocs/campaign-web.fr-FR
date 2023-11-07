@@ -3,10 +3,10 @@ title: Indicateurs clés de performance
 description: Découvrez comment comprendre les indicateurs clés de performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 98%
+source-wordcount: '936'
+ht-degree: 93%
 
 ---
 
@@ -93,6 +93,10 @@ Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats
 >id="acw_keyindicators_unsubscriptions"
 >title="Désinscriptions"
 >abstract="Cette mesure indique, pour le canal sélectionné, le total des désinscriptions à un service, ainsi que le pourcentage de désinscriptions par rapport au nombre total de messages diffusés."
+
+>[!NOTE]
+>
+> Les indicateurs de performance clés d’abonnement et de désabonnement varient en fonction du type de service. Par exemple, les abonnements et désabonnements aux emails englobent tous les services liés aux emails, qu’ils proviennent d’actions manuelles ou de formulaires web. Il est important de distinguer cette approche de la mesure de désabonnement au niveau de la diffusion, qui effectue le suivi des clics sur les liens de désabonnement plutôt que des utilisateurs désabonnés réels.
 
 Les personnes destinataires doivent pouvoir se désinscrire des e-mails et des SMS par le biais d’un lien de désinscription dédié dans le contenu de l’email, ou en répondant STOP à un SMS.
 
