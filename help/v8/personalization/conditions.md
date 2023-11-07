@@ -19,11 +19,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"
 >title="Ajouter du contenu conditionnel"
->abstract="Configurez les champs de contenu conditionnel pour créer une personnalisation dynamique basée sur le profil de la personne destinataire. Les blocs de texte, les liens, l’objet et/ou les images sont remplacés dans le contenu du message lorsqu’une condition particulière est remplie."
+>abstract="Configure campos de contenido condicional para crear una personalización dinámica avanzada basada en el perfil del destinatario. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición en concreto. "
 
 Le contenu conditionnel est une puissante fonctionnalité qui permet de créer une personnalisation dynamique basée sur le profil de la personne destinataire, en remplaçant automatiquement les blocs de texte et les images lorsque certaines conditions sont remplies. Cette fonctionnalité permet de créer des campagnes plus sophistiquées, et de proposer des expériences hautement ciblées et personnalisées à votre audience.
 
-En configurant du contenu conditionnel, vous pouvez notamment créer une personnalisation dynamique avancée basée sur le profil de la personne destinataire. Les blocs de texte, les liens, l’objet et/ou les images sont remplacés dans le contenu du message lorsqu’une condition particulière est remplie. Par exemple, vous pouvez afficher « M. » ou « Mme » en fonction de la valeur du champ Genre dans la base de données Adobe Campaign, ou inclure un lien différent en fonction de la langue préférée de la personne destinataire.
+En configurant du contenu conditionnel, vous pouvez notamment créer une personnalisation dynamique avancée basée sur le profil de la personne destinataire. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición en concreto. Par exemple, vous pouvez afficher « M. » ou « Mme » en fonction de la valeur du champ Genre dans la base de données Adobe Campaign, ou inclure un lien différent en fonction de la langue préférée de la personne destinataire.
 
 ## Comment créer du contenu conditionnel
 
