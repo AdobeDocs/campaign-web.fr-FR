@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: c5f57d85a65a4f17189586f7b83df5d45eed0781
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 79%
+source-wordcount: '1396'
+ht-degree: 78%
 
 ---
 
@@ -410,6 +410,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Génération d’une réconciliation complémentaire"
 >abstract="Génération d’une réconciliation complémentaire"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Fractionner le complémentaire de génération"
+>abstract="Fractionner le complémentaire de génération"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Combiner le complémentaire de génération"
+>abstract="Combiner le complémentaire de génération"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segments de l’activité de partage"
+>abstract="Segments de l’activité de partage"
+
 
 
 
@@ -483,3 +498,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evolution globale des inscriptions"
 >abstract="Evolution globale des inscriptions"
+
+
