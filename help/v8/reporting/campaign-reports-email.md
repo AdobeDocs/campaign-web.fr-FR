@@ -217,8 +217,8 @@ Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateu
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Taux d&#39;ouverture et de clic publicitaire"
->abstract="Le tableau **Taux d’ouverture et de clic publicitaire** affiche des données relatives à l’engagement de vos destinataires envers votre diffusion."
+>title="Taux d’ouvertures et de clics"
+>abstract="Le tableau **Taux d’ouvertures et de clics** affiche des données relatives à l’engagement de vos destinataires envers votre diffusion."
 
 
 

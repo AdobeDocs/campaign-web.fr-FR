@@ -5,9 +5,9 @@ description: Découvrez comment accéder aux rapports de diffusion SMS et les ut
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
 >title="Population ciblée par les SMS"
->abstract="Le tableau et le graphe **Population ciblée** affichent des données relatives à votre audience SMS : messages à diffuser et exclusions."
+>abstract="Le tableau et le graphe **Population ciblée** affichent des données relatives à votre audience SMS : messages à délivrer et exclusions."
 
 Le graphe et le tableau **Population ciblée** affichent les données relatives à votre audience. Les mesures sont détaillées ci-dessous.
 
@@ -60,7 +60,7 @@ Le graphe et le tableau **Population ciblée** affichent les données relatives 
 
 +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
-* **[!UICONTROL À diffuser]** : nombre total et pourcentage de messages traités lors de la préparation de la diffusion.
+* **[!UICONTROL À délivrer]** : nombre total et pourcentage de messages traités lors de la préparation de la diffusion.
 
 * **[!UICONTROL Exclusions]** : nombre et pourcentage de profils qui ont été exclus de l’analyse.
 +++
@@ -104,9 +104,9 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les raisons qui on
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Débit des diffusions SMS"
->abstract="La variable **Débit de diffusion** le rapport présente des informations détaillées sur le débit de diffusion au cours d’une période spécifiée.  La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure."
+>title="Débit des diffusions par SMS"
+>abstract="Le rapport **Débit des diffusions** présente des informations détaillées sur le débit des diffusions au cours d’une période spécifiée.  La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure."
 
-Ce rapport présente des informations détaillées sur le débit des diffusions au cours d&#39;une période spécifiée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
+Ce rapport présente des informations détaillées sur le débit des diffusions au cours d’une période spécifiée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
 
 ![](assets/reporting_sms_2.png)

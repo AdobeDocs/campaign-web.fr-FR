@@ -5,9 +5,9 @@ description: Découvrez comment accéder aux rapports de diffusion par e-mail et
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2254'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre
 
 * **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
 
-* **[!UICONTROL À diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
+* **[!UICONTROL À délivrer]** : nombre total de messages à délivrer après la préparation de la diffusion.
 
 * **[!UICONTROL Exclusion]** : nombre total de destinataires exclus de la population cible.
 +++
@@ -62,13 +62,13 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** détaille le succès de vot
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Message envoyé]** : nombre total de messages à diffuser après la préparation de la diffusion.
+* **[!UICONTROL Message envoyé]** : nombre total de messages à délivrer après la préparation de la diffusion.
 
-* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à délivrer.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à délivrer.
 
-* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à délivrer.
 
 +++
 
@@ -77,7 +77,7 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** détaille le succès de vot
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Causes d&#39;exclusion de diffusion"
+>title="Causes d’exclusion lors d’une diffusion"
 >abstract="Le tableau et le graphe **Causes d’exclusion** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion."
 
 
@@ -130,7 +130,7 @@ Le tableau **[!UICONTROL Statistiques de domaine]** contient les données dispon
 
 * **[!UICONTROL E-mails traités]** : nombre total de messages traités par le serveur de diffusion.
 
-* **[!UICONTROL Diffusés]** : pourcentage du nombre de messages traités avec succès, par rapport au nombre total de messages traités.
+* **[!UICONTROL Délivrés]** : pourcentage du nombre de messages traités avec succès, par rapport au nombre total de messages traités.
 
 * **[!UICONTROL Hard bounces]** : pourcentage du nombre de hard bounces, c’est-à-dire des erreurs permanentes, telles qu’une mauvaise adresse e-mail, par rapport au nombre total de messages traités.
 
@@ -219,7 +219,7 @@ Le rapport **[!UICONTROL Statistiques de diffusion]** fournit des indicateurs cl
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
-* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à délivrer.
 
 * **[!UICONTROL Ouvertures distinctes]** : nombre total de destinataires ciblé(e)s ayant ouvert un message au moins une fois.
 
