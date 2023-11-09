@@ -6,7 +6,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
 >title="Indicateurs clés de performance"
->abstract="La variable **Principaux indicateurs de performance** vous permet de vérifier l’efficacité de votre plateforme grâce à des indicateurs de performance clés courants."
+>abstract="La section **Indicateurs clés de performance** vous permet de vérifier l’efficacité de votre plateforme à travers des KPI communs."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Indésirables"
 >abstract="KPI pour le courrier indésirable"
 
-Accédez à la page d’accueil pour vérifier les indicateurs clés de performances de votre plateforme. Ces indicateurs indiquent le nombre et le pourcentage de messages diffusés, ouverts, mais aussi les clics, les désinscriptions et les taux d’erreur.
+Accédez à la page d’accueil pour vérifier les indicateurs clés de performances de votre plateforme. Ces indicateurs indiquent le nombre et le pourcentage de messages délivrés, ouverts, mais aussi les clics, les désinscriptions et les taux d’erreur.
 
 Par défaut, les mesures sont calculées pour les diffusions au cours des 7 derniers jours. Vous pouvez modifier la période dans la liste déroulante située dans la section supérieure droite de la vignette. Les messages envoyés aux profils de test sont exclus.
 
@@ -37,15 +37,15 @@ Vous pouvez sélectionner le canal à afficher. Par défaut, ces indicateurs ref
 >title="Délivrés"
 >abstract="Cette mesure indique, pour le canal sélectionné, la somme de tous les messages traités et le pourcentage de messages délivrés par rapport au nombre total de messages envoyés."
 
-Le nombre de messages diffusés reflète votre taux de délivrabilité. Ce taux ne peux jamais être de 100 % pour les raisons suivantes : certaines adresses e-mail ou numéros de téléphone peuvent être erronés, les bloqueurs de spam des fournisseurs de messagerie peuvent rejeter vos messages ou des problèmes de délivrabilité peuvent se produire.
+Le nombre de messages délivrés reflète votre taux de délivrabilité. Ce taux ne peux jamais être de 100 % pour les raisons suivantes : certaines adresses e-mail ou numéros de téléphone peuvent être erronés, les bloqueurs de spam des fournisseurs de messagerie peuvent rejeter vos messages ou des problèmes de délivrabilité peuvent se produire.
 
 L’indicateur **Délivrés** montre les KPI suivants, pour chaque canal :
 
-* Pourcentage du nombre de messages diffusés par rapport au nombre total de messages envoyés.
+* Pourcentage du nombre de messages délivrés par rapport au nombre total de messages envoyés.
 
 * Nombre de messages traités.
 
-Dans Adobe Campaign, la règle pour marquer un message comme « Diffusé » est la suivante :
+Dans Adobe Campaign, la règle pour marquer un message comme « Délivré » est la suivante :
 
 Nombre de messages pour lesquels le champ « adresse de contrôle » est égal à « Non » et dont le statut est égal à « Pris en compte par le prestataire » (pour les SMS) ou « Envoyé » (pour les e-mails) ou « Reçu sur le mobile » (pour les notifications push).
 
@@ -55,13 +55,13 @@ Nombre de messages pour lesquels le champ « adresse de contrôle » est égal
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Ouvertures"
->abstract="Cette mesure indique, pour le canal sélectionné, le nombre de messages ouverts et le pourcentage de messages ouverts par rapport au nombre total de messages diffusés."
+>abstract="Cette mesure indique, pour le canal sélectionné, le nombre de messages ouverts et le pourcentage de messages ouverts par rapport au nombre total de messages délivrés."
 
 Le nombre d’e-mails ouverts est calculé par le tracking du nombre de fois où un message est ouvert, indépendamment du nombre de personnes destinataires individuelles qui ont ouvert ces messages. Cet indicateur n’est disponible que pour les e-mails.
 
 L’indicateur **Ouvertures** montre les KPI suivants, pour chaque canal :
 
-* Pourcentage du nombre de messages ouverts par rapport au nombre total de messages diffusés.
+* Pourcentage du nombre de messages ouverts par rapport au nombre total de messages délivrés.
 
 * Nombre total de messages ouverts, par canal.
 
@@ -80,7 +80,7 @@ Dans votre message, vous pouvez ajouter des URL qui redirigent les personnes des
 
 L’indicateur **Clics** montre les KPI suivants, pour chaque canal :
 
-* Pourcentage du nombre de clics par rapport au nombre total de messages diffusés.
+* Pourcentage du nombre de clics par rapport au nombre total de messages délivrés.
 
 * Nombre de personnes distinctes ayant cliqué au moins une fois pour une même diffusion. Les liens de désinscription et les liens vers la page miroir de l’email sont exclus.
 
@@ -92,7 +92,7 @@ Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
 >title="Désinscriptions"
->abstract="Cette mesure indique, pour le canal sélectionné, le total des désinscriptions à un service, ainsi que le pourcentage de désinscriptions par rapport au nombre total de messages diffusés."
+>abstract="Cette mesure indique, pour le canal sélectionné, le total des désinscriptions à un service, ainsi que le pourcentage de désinscriptions par rapport au nombre total de messages délivrés."
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ Les personnes destinataires doivent pouvoir se désinscrire des e-mails et des S
 
 L’indicateur **Désinscriptions** montre les KPI suivants, pour chaque canal :
 
-* Pourcentage du nombre de désinscriptions par rapport au nombre total de messages diffusés.
+* Pourcentage du nombre de désinscriptions par rapport au nombre total de messages délivrés.
 
 * Nombre total de tous les clics sur un lien de désinscription, soit une catégorie d’URL égale à « opt-out ».
 
@@ -112,7 +112,7 @@ L’indicateur **Désinscriptions** montre les KPI suivants, pour chaque canal 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
 >title="Erreurs"
->abstract="Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds. Le taux associé est le ratio par rapport au nombre de messages à diffuser."
+>abstract="Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds. Le taux associé est le ratio par rapport au nombre de messages à délivrer."
 
 Certains messages envoyés par votre plateforme Adobe Campaign peuvent ne pas arriver à destination. Cela peut se produire lorsque l’adresse de l’utilisateur ou de l’utilisatrice ou le numéro de téléphone contient des fautes de frappe, si la personne destinataire a modifié son adresse e-mail, ou si sa boîte de réception est pleine. Si un message ne peut pas être envoyé à un profil, le serveur distant envoie automatiquement un message d’erreur à Adobe Campaign. Cette erreur est qualifiée pour déterminer si l’adresse e-mail, le numéro de téléphone ou l’appareil doit être mis en quarantaine.
 
