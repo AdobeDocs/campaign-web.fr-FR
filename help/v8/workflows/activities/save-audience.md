@@ -4,21 +4,21 @@ title: Utiliser l’activité de workflow Enregistrer l’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Beta"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '425'
+ht-degree: 91%
 
 ---
 
 # Enregistrer l’audience {#save-audience}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Save an audience"
->abstract="Use this activity to save the workflow audience."
--->
+>id="acw_orchestration_saveaudience"
+>title="Enregistrer une audience"
+>abstract="Utilisez cette activité pour mettre à jour une audience existante ou créer une nouvelle audience à partir de la population calculée en amont dans le workflow. Les audiences créées sont ajoutées à la liste des audiences, disponibles via le **Audiences** ."
+
 
 L’activité **Enregistrer l’audience** est une activité de **ciblage**. Cette activité permet de mettre à jour une audience existante ou de créer une audience à partir de la population calculée en amont dans un workflow. Les audiences créées sont ajoutées à la liste des audiences de l’application, disponible via le menu **Audiences**.
 
