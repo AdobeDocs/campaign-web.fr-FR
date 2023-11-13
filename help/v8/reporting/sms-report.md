@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux rapports de diffusion SMS et les ut
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 100%
 

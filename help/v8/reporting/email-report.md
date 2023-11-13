@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux rapports de diffusion par e-mail et
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2254'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répa
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Débit des diffusions (Delivery throughput)"
+>title="Débit des diffusions (Delivery throughput) "
 >abstract="Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné."
 
 Ce rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
