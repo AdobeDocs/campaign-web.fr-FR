@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Enregistrer l’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Beta"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
+source-git-commit: 091775bae73595cb209199b062508931dd3ea315
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 91%
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience"
+>id="acw_orchestration_save_audience"
 >title="Enregistrer une audience"
 >abstract="Utilisez cette activité pour mettre à jour une audience existante ou créer une nouvelle audience à partir de la population calculée en amont dans le workflow. Les audiences créées sont ajoutées à la liste des audiences, disponibles via le **Audiences** ."
 
