@@ -1,12 +1,12 @@
 ---
 title: Utilisation de l’aide contextuelle optimisée par l’IA dans Campaign Web
-description: Poser des questions dans les fenêtres contextuelles de l'aide Web de Campaign
+description: Poser des questions dans les fenêtres contextuelles d’aide de Campaign Web
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ Obtenez des réponses rapides et générées par l’IA en fonction de la docume
 >
 >Cette fonctionnalité est disponible dans sa version Alpha et peut être modifiée sans préavis.
 >
->Cette fonctionnalité n’est disponible que dans **Anglais**. Les autres langues ne sont pas prises en charge dans cette version.
+>Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version.
 
 
 La variable **Aide contextuelle avec Gen AI** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
