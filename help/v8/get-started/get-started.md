@@ -5,9 +5,9 @@ description: Prise en main de Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
 source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas dispo
 >
 >Campaign v8 Web est actuellement en version beta. L’accès est limité à un petit groupe de clientes et clients beta. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
-Découvrez comment vous connecter au Web Adobe Campaign dans [cette page](connect-to-campaign.md).
+Découvrez comment vous connecter à Adobe Campaign Web sur [cette page](connect-to-campaign.md).
 
 ## À propos de la console cliente Campaign {#ac-client}
 

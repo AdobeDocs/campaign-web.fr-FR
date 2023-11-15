@@ -4,9 +4,9 @@ description: Découvrez comment comprendre les indicateurs clés de performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats
 
 >[!NOTE]
 >
-> Les indicateurs de performance clés d’abonnement et de désabonnement varient en fonction du type de service. Par exemple, les abonnements et désabonnements aux emails englobent tous les services liés aux emails, qu’ils proviennent d’actions manuelles ou de formulaires web. Il est important de distinguer cette approche de la mesure de désabonnement au niveau de la diffusion, qui effectue le suivi des clics sur les liens de désabonnement plutôt que des utilisateurs désabonnés réels.
+> Les indicateurs clés de performance (KPI) d’abonnement et de désinscription varient en fonction du type de service. Par exemple, les abonnements et désinscriptions aux e-mails englobent tous les services liés aux e-mails, qu’ils proviennent d’actions manuelles ou de formulaires web. Il est important de distinguer cette approche de la mesure de désinscription au niveau de la diffusion, qui effectue le suivi des clics sur les liens de désinscription plutôt que des personnes désabonnées réelles.
 
 Les personnes destinataires doivent pouvoir se désinscrire des e-mails et des SMS par le biais d’un lien de désinscription dédié dans le contenu de l’email, ou en répondant STOP à un SMS.
 

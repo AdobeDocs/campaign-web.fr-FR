@@ -5,9 +5,9 @@ description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
 source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Les profils de test sont des adresses de contrôle, qui sont des destinataires s
 
    >[!NOTE]
    >
-   >Les profils de test sont créés dans la section [!DNL Campaign] la console cliente dans la **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** dossier. Découvrez comment créer et gérer des adresses de contrôle dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
+   >Les profils de test peuvent être créés dans la console cliente [!DNL Campaign] sous le dossier **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Adresses de contrôle]**. Découvrez comment créer et gérer des adresses de contrôle dans la [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
 1. Si vous souhaitez envoyer le message final aux destinataires de la diffusion test, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
 

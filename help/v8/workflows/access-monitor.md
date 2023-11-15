@@ -5,9 +5,9 @@ description: Découvrez comment créer des workflows à l’aide d’Adobe Camp
 badge: label="Beta"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="Sur cet écran, vous pouvez accéder à la liste complète des workflows autonomes et de campagne, vérifier leur statut actuel, les dates de dernière/prochaine exécution et créer un nouveau workflow. Accédez à l&#39;onglet &quot;Modèles&quot; pour accéder aux modèles de workflow disponibles."
+>abstract="Sur cet écran, vous pouvez accéder à la liste complète des workflows autonomes et de campagne, vérifier leur statut actuel, les dates de dernière/prochaine exécution et créer un nouveau workflow. Rendez-vous sur l’onglet « Modèles » pour accéder aux modèles de workflow disponibles."
 
 Le menu **[!UICONTROL Workflows]** vous permet d’accéder à la liste complète des workflows. Les **workflows autonomes**, créés à partir de cet écran et les **workflows de campagne**, créés dans une campagne, sont répertoriés.
 

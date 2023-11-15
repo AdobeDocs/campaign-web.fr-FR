@@ -5,9 +5,9 @@ description: Découvrez comment utiliser des composants de contenu dans vos emai
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
 source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1175'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
 1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources. Vous pouvez également choisir d’**[!UICONTROL importer votre contenu multimédia]**.
 
-   Pour en savoir plus sur le chargement et l’ajout de ressources dans Adobe Experience Manager, reportez-vous à la section [Documentation Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
+   Pour en savoir plus sur le chargement et l’ajout de ressources dans Adobe Experience Manager, reportez-vous à la [Documentation d’Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=fr).
 
    ![](assets/email_designer_28.png)
 

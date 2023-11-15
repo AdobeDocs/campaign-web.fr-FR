@@ -4,9 +4,9 @@ description: Découvrez comment utiliser des destinataires Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Vous pouvez également accéder aux destinataires à partir de la vue **Explorat
 >
 >En fonction de vos autorisations, il se peut que vous n’ayez pas accès à la liste complète des destinataires stockés dans la base de données. Pour en savoir plus sur les autorisations, consultez [cette section](../get-started/permissions.md).
 
-En outre, vous pouvez gérer l’abonnement et le désabonnement de vos destinataires à des services tels que les newsletters. Découvrez comment utiliser les services d’abonnement dans [cette page](manage-services.md)
+En outre, vous pouvez gérer l’abonnement et le désabonnement de vos destinataires à des services tels que les newsletters. Découvrez comment utiliser les services d’abonnement sur [cette page](manage-services.md).
 
 Vous pouvez créer des workflows pour dédupliquer, enrichir, combiner des profils et créer des audiences. En savoir plus dans [cette section](../workflows/gs-workflows.md).
 
 ## Que sont les audiences ? {#audiences}
 
-L’audience est la cible principale de votre diffusion : les destinataires qui reçoivent les messages. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. En savoir plus sur les modèles de diffusion dans [cette page](../msg/delivery-template.md).
+L’audience est la cible principale de votre diffusion : les destinataires qui reçoivent les messages. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. Apprenez-en plus sur les modèles de diffusion sur [cette page](../msg/delivery-template.md).
 
 Pour définir la population d’une audience, vous pouvez :
 
@@ -66,7 +66,7 @@ Lors du ciblage d’une audience, vous pouvez également définir des **populati
 
 >[!NOTE]
 >
->Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience est définie dans une activité de workflow **Créer une audience** spécifique. Dans ce contexte, vous ne pouvez pas charger une audience depuis un fichier pour une diffusion par e-mail, et l’audience n’est définie que dans cette activité dédiée. Découvrez comment définir l&#39;audience de votre diffusion dans un workflow de campagne dans [cette section](../workflows/activities/build-audience.md)
+>Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience est définie dans une activité de workflow **Créer une audience** spécifique. Dans ce contexte, vous ne pouvez pas charger une audience depuis un fichier pour une diffusion par e-mail, et l’audience n’est définie que dans cette activité dédiée. Découvrez comment définir l’audience de votre diffusion dans un workflow de campagne dans [cette section](../workflows/activities/build-audience.md).
 
 ## Dimensions de ciblage {#targeting-dimensions}
 
