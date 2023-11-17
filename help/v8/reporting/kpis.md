@@ -3,10 +3,10 @@ title: Indicateurs clés de performance
 description: Découvrez comment comprendre les indicateurs clés de performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+workflow-type: tm+mt
+source-wordcount: '1054'
+ht-degree: 93%
 
 ---
 
@@ -87,6 +87,23 @@ L’indicateur **Clics** montre les KPI suivants, pour chaque canal :
 Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats`). Cette table agrégée est utilisée pour des raisons de performances lors de l’affichage des rapports, à la place de la table des logs de tracking des personnes destinataires (`nms:trackingLogRcp`) et elle n’est pas calculée en temps réel. La table est générée quelques minutes après la récupération des logs de tracking.
 
 
+## Taux d&#39;inscription {#ui-sub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_subscriptions"
+>title="Abonnements"
+>abstract="Cette mesure indique, pour le canal sélectionné, la somme de tous les abonnements à un service et le pourcentage d’abonnements par rapport au nombre total de messages transmis avec succès."
+
+
+Les destinataires peuvent souscrire aux communications par email et par SMS.
+
+La variable **Abonnements** indique les KPI suivants, pour chaque canal le pourcentage du nombre d&#39;abonnements par rapport au nombre total de messages transmis avec succès.
+
+
+>[!NOTE]
+>
+> Les indicateurs clés de performance (KPI) d’abonnement et de désinscription varient en fonction du type de service. Par exemple, les abonnements et désinscriptions aux e-mails englobent tous les services liés aux e-mails, qu’ils proviennent d’actions manuelles ou de formulaires web. Il est important de distinguer cette approche de la mesure de désinscription au niveau de la diffusion, qui effectue le suivi des clics sur les liens de désinscription plutôt que des personnes désabonnées réelles.
+
 ## Taux de désinscription {#ui-unsub-kpi}
 
 >[!CONTEXTUALHELP]
@@ -94,9 +111,6 @@ Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats
 >title="Désinscriptions"
 >abstract="Cette mesure indique, pour le canal sélectionné, le total des désinscriptions à un service, ainsi que le pourcentage de désinscriptions par rapport au nombre total de messages délivrés."
 
->[!NOTE]
->
-> Les indicateurs clés de performance (KPI) d’abonnement et de désinscription varient en fonction du type de service. Par exemple, les abonnements et désinscriptions aux e-mails englobent tous les services liés aux e-mails, qu’ils proviennent d’actions manuelles ou de formulaires web. Il est important de distinguer cette approche de la mesure de désinscription au niveau de la diffusion, qui effectue le suivi des clics sur les liens de désinscription plutôt que des personnes désabonnées réelles.
 
 Les personnes destinataires doivent pouvoir se désinscrire des e-mails et des SMS par le biais d’un lien de désinscription dédié dans le contenu de l’email, ou en répondant STOP à un SMS.
 
@@ -106,6 +120,10 @@ L’indicateur **Désinscriptions** montre les KPI suivants, pour chaque canal 
 
 * Nombre total de tous les clics sur un lien de désinscription, soit une catégorie d’URL égale à « opt-out ».
 
+
+>[!NOTE]
+>
+> Les indicateurs clés de performance (KPI) d’abonnement et de désinscription varient en fonction du type de service. Par exemple, les abonnements et désinscriptions aux e-mails englobent tous les services liés aux e-mails, qu’ils proviennent d’actions manuelles ou de formulaires web. Il est important de distinguer cette approche de la mesure de désinscription au niveau de la diffusion, qui effectue le suivi des clics sur les liens de désinscription plutôt que des personnes désabonnées réelles.
 
 ## Taux d’erreur {#ui-error-kpi}
 
