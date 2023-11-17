@@ -3,10 +3,10 @@ title: Indicateurs clés de performance
 description: Découvrez comment comprendre les indicateurs clés de performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 93%
+source-wordcount: '1196'
+ht-degree: 82%
 
 ---
 
@@ -141,3 +141,23 @@ L’indicateur **Erreurs** montre les KPI suivants, pour chaque canal :
 * Pourcentage du nombre d’erreurs, par rapport au nombre total de messages à délivrer.
 
 * Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds.
+
+## Message envoyé {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="Envoyés"
+>abstract="Cette mesure indique, pour le canal courrier, la somme de tous les messages envoyés et le pourcentage du message envoyé au fournisseur, par rapport au nombre total de messages préparés lors de la phase de préparation de la diffusion."
+
+Lors de la phase de préparation, le fichier d&#39;extraction de courrier est généré, mais les informations relatives aux destinataires (c&#39;est-à-dire les logs de diffusion) ne sont pas mises à jour.  L&#39;état d&#39;une diffusion est passé de En attente de diffusion à Envoyé lorsque l&#39;utilisateur de Campaign confirme l&#39;envoi de la diffusion. La diffusion est alors paramétrée sur Terminé.
+
+Il ne peut jamais s&#39;agir de 100% des messages envoyés par rapport au total des messages préparés, car certaines adresses peuvent être manquantes ou incomplètes.
+
+La variable **Envoyé** indique les indicateurs de performance clés suivants pour le canal Courrier :
+
+* Pourcentage du nombre de messages envoyés par rapport au nombre total de messages préparés.
+
+* Somme de tous les messages envoyés.
+
