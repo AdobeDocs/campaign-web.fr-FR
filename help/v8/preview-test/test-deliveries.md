@@ -4,10 +4,10 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+workflow-type: tm+mt
+source-wordcount: '1190'
+ht-degree: 94%
 
 ---
 
@@ -69,6 +69,10 @@ Pour commencer à tester le contenu de votre message :
 >title="Fichier modèle"
 >abstract="La mise en forme du fichier doit être identique à celle du fichier d’origine.<br/>Formats de fichiers pris en charge : txt, csv. Taille maximale du fichier : 15 Mo. Utilisez la première ligne comme en-tête de colonne."
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Inclure les profils de test dans l’audience principale"
+>abstract="Activez cette option pour envoyer également le message final aux destinataires de la diffusion de test."
 
 Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Elles peuvent être créées dans la console cliente [!DNL Adobe Campaign]. Les étapes d’envoi de messages test aux adresses de contrôle sont détaillées ci-dessous.
 
@@ -90,7 +94,9 @@ Les profils de test sont des adresses de contrôle, qui sont des destinataires s
 
 ## Substituer des données de profil {#substitution-profiles}
 
-Utilisez la substitution de profil pour envoyer des messages test à une adresse e-mail ou à un numéro de téléphone spécifiques, tout en affichant les données d’un profil existant de la base de données [!DNL Adobe Campaign]. Pour ce faire, suivez les étapes ci-après :
+Utilisez la substitution de profil pour envoyer des messages test à une adresse e-mail ou à un numéro de téléphone spécifiques, tout en affichant les données d’un profil existant de la base de données [!DNL Adobe Campaign]. Ce mode ne peut être sélectionné que si l&#39;audience de la diffusion a été définie.
+
+Pour remplacer les données de profil de la cible principale, procédez comme suit :
 
 
 1. Dans le contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Test]**.
@@ -119,9 +125,9 @@ Utilisez la substitution de profil pour envoyer des messages test à une adresse
 
 1. Une fois les profils de substitution sélectionnés, vous pouvez [envoyer la diffusion test](#send-test).
 
-## Envoyer des tests aux personnes abonnées {#subscribers}
+## Envoyer des tests aux abonnés de l’application {#subscribers}
 
-Lorsque vous utilisez des notifications push, les diffusions test ne peuvent être envoyées qu’aux personnes abonnées de votre application. Pour les sélectionner, procédez comme suit.
+Lors de la conception avec des notifications push, les diffusions de test peuvent uniquement être envoyées aux abonnés de votre application. Pour les sélectionner, procédez comme suit.
 
 1. Dans le contenu de votre diffusion push, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Test]**.
 

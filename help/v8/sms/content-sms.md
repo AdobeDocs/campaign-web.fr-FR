@@ -4,9 +4,9 @@ title: Créer une diffusion SMS
 description: Découvrez comment concevoir votre diffusion SMS.
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 100%
 >title="Contenu SMS"
 >abstract="Créez le contenu de vos diffusions SMS et personnalisez-le avec des champs de personnalisation, des blocs de contenu et du contenu dynamique."
 
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="Personnes abonnées à l’application"
->abstract="Prévisualisez et testez le message en ajoutant des abonnés ou abonnées à l’application à la cible principale."
 
 
 Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :
