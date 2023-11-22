@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1047'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,7 @@ Pour un processus de conception accéléré et amélioré, vous pouvez créer de
 
 Un modèle peut inclure les éléments suivants :
 
+* La variable **folder** et **dossier d’exécution** du modèle. Le dossier correspond à l’emplacement où le modèle de diffusion est enregistré. Le dossier d&#39;exécution est le dossier dans lequel sont enregistrées les diffusions créées à partir de ce modèle.
 * [Des typologies](../advanced-settings/delivery-settings.md#typology),
 * L’adresse de la personne expéditrice,
 * Une [audience](../audience/about-recipients.md), y compris des [populations témoins](../audience/control-group.md),
@@ -47,9 +48,8 @@ Un modèle peut inclure les éléments suivants :
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Utiliser des modèles de diffusion"
->abstract="Utilisez des modèles de diffusion pour créer et enregistrer facilement vos diffusions existantes pour une utilisation future."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=fr#copy-an-existing-template" text="Dupliquer un modèle existant"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=fr#convert-an-existing-delivery" text="Convertir une diffusion en modèle"
+>abstract="Utilisez les modèles de diffusion pour créer et enregistrer des paramètres de diffusion en vue d’une utilisation ultérieure dans vos campagnes. Vous pouvez créer entièrement des modèles de diffusion, dupliquer un modèle existant ou convertir une diffusion en modèle."
+
 
 Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL Gestion des campagnes]** > **[!UICONTROL Diffusions]** dans le menu de gauche, puis accédez à l’onglet **Modèles**.
 
@@ -120,7 +120,7 @@ Une diffusion peut être convertie en modèle pour de futures actions de diffusi
 
 Pour enregistrer une diffusion comme modèle, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
+1. Accédez au **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** .
 1. Dans l’onglet **[!UICONTROL Parcourir]**, cliquez sur le bouton **[!UICONTROL Plus d’actions]** à droite du nom de la diffusion souhaitée, puis sélectionnez **[!UICONTROL Copier comme modèle]**.
 
    ![](assets/templates-convert-delivery.png)
