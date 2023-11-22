@@ -3,10 +3,10 @@ title: Utiliser des destinataires et des audiences
 description: Découvrez comment utiliser des destinataires Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
-workflow-type: ht
+source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -18,8 +18,8 @@ Dans Adobe Campaign, la population cible d’une diffusion est une audience. Un
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Destinataires"
->abstract="Un ou une destinataire est un profil ciblé pour recevoir les messages envoyés par Adobe Campaign. Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS). Depuis cette liste, vous pouvez visualiser le profil du ou de la destinataire, en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de votre destinataire."
+>title="Profils"
+>abstract="Un profil est un individu qui cible les messages envoyés par Adobe Campaign. Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS). Depuis cette liste, vous pouvez visualiser le profil du ou de la destinataire, en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de votre destinataire."
 
 Un ou une destinataire est un profil ciblé pour recevoir les messages envoyés par Adobe Campaign. Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS, etc.). Les données de destinataire stockées dans la base de données permettent de créer des audiences qui recevront une diffusion donnée ainsi que d’ajouter des données de personnalisation dans le contenu de votre diffusion. D’autres types de profils existent dans la base de données. Ils sont conçus pour différentes utilisations : par exemple, des profils de contrôle sont créés pour tester vos diffusions avant leur envoi à l’audience finale.
 
