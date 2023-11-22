@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -39,6 +39,10 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >title="Tri de l’activité Partage"
 >abstract="Lorsque vous définissez une limite de population pour un sous-ensemble, vous pouvez classer les profils sélectionnés en fonction d’un attribut de profil spécifique, dans un ordre croissant ou décroissant. Pour ce faire, activez l’option **Activer le tri**. Par exemple, vous pouvez restreindre un sous-ensemble afin de n’inclure que les 50 premiers profils ayant le montant d’achat le plus élevé."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Partager le complément de génération"
+>abstract="Une fois que vous avez paramétré tous les sous-ensembles, vous pouvez sélectionner la population restante qui ne correspond à aucun des sous-ensembles et les inclure dans une transition sortante supplémentaire. Pour ce faire, activez l’option **Générer le complémentaire**."
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 
