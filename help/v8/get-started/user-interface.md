@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 96%
+source-wordcount: '1501'
+ht-degree: 93%
 
 ---
 
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Propriétés de contenu pour Direct Mail"
 >abstract="Propriétés de contenu pour Direct Mail"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Chargement de fichier  activité"
+>abstract="Chargement de fichier  activité"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Exemple de fichier"
+>abstract="Exemple de fichier"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Nom du fichier"
+>abstract="Nom du fichier"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Base de donnée cible"
+>abstract="Base de donnée cible"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Gestion des rejets pour l’activité Chargement de fichier"
+>abstract="Gestion des rejets pour l’activité Chargement de fichier"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Transition sortante de la gestion du rejet"
+>abstract="Transition sortante de la gestion du rejet"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Transition sortante de la gestion des rejets"
+>abstract="Transition sortante de la gestion des rejets"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Mise en forme de l’activité Chargement de fichier"
+>abstract="Mise en forme de l’activité Chargement de fichier"
+
