@@ -4,10 +4,10 @@ title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Beta"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 3c77120c5936f647514969644f59833e97d56232
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 83%
 
 ---
 
@@ -42,25 +42,25 @@ Commencez à créer votre workflow avec les activités pertinentes avant de plac
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="Activité e-mail"
->abstract="Automatisez et exécutez des campagnes marketing sur les canaux e-mail, SMS et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité Email facilite l’envoi d’emails dans votre workflow, ce qui permet d’envoyer des messages ponctuels et récurrents. Il permet d&#39;automatiser le processus d&#39;envoi d&#39;emails à une cible calculée dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Activité SMS"
->abstract="Automatisez et exécutez des campagnes marketing sur les canaux e-mail, SMS et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L&#39;activité SMS facilite l&#39;envoi de SMS dans votre workflow, ce qui permet d&#39;envoyer des messages ponctuels et récurrents. Il permet d&#39;automatiser le processus d&#39;envoi de SMS à une cible calculée dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Activité notification push iOS"
->abstract="Automatisez et exécutez des campagnes marketing sur les canaux e-mail, SMS et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité Push iOS simplifie le processus d’envoi de notifications push iOS dans le cadre de votre workflow. Il permet la diffusion de messages ponctuels et récurrents, automatisant l&#39;envoi de notifications push iOS à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="Activité notification push Android"
->abstract="Automatisez et exécutez des campagnes marketing sur les canaux e-mail, SMS et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité Push Android simplifie le processus d’envoi de notifications push Android dans le cadre de votre workflow. Il permet la diffusion de messages ponctuels et récurrents, automatisant l’envoi de notifications push Android à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 Pour configurer une diffusion dans le cadre d’un workflow, procédez comme suit :
 
