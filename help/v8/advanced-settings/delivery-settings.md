@@ -6,8 +6,8 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 97%
+source-wordcount: '2113'
+ht-degree: 92%
 
 ---
 
@@ -93,7 +93,7 @@ Utilisez le champ **Mode de diffusion** pour sélectionner le mode d’évaluati
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Paramètres de capacité de la diffusion"
+>title="Paramètres des capacités pour la diffusion"
 >abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter notamment la diffusion, les messages entrants que la diffusion peut générer et le nombre d’appels à passer pour contacter les personnes abonnées. Les règles de capacité sont définies dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal e-mail."
 
 
@@ -219,7 +219,7 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 
 Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n&#39;est pas atteinte.
 
-Vous pouvez également choisir de spécifier des dates.Pour cela, cochez l&#39;option **Fixer explicitement les dates de validité**. Dans ce cas, les dates limites de diffusion et de validité permettent de préciser également l&#39;heure. Cette heure correspond par défaut à l&#39;heure courante mais peut être modifiée directement dans le champ de saisie.
+Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **Définition explicite de dates de validité**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l&#39;heure. L&#39;heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
 
 Le champ **Limite de validité des ressources** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque). Au-delà de cette limite, ces ressources ne sont plus disponibles.
 

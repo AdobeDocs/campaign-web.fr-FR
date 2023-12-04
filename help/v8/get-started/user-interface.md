@@ -6,8 +6,8 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
 source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 93%
+source-wordcount: '1475'
+ht-degree: 92%
 
 ---
 
@@ -510,8 +510,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
->title="Chargement de fichier  activité"
->abstract="Chargement de fichier  activité"
+>title="Activité Chargement de fichier"
+>abstract="Activité Chargement de fichier"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"

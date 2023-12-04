@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '894'
 ht-degree: 100%
 
 ---
@@ -80,11 +80,11 @@ Dans l’activité **Combiner**, vous pouvez configurer une **intersection**. Po
 1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
 1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
 
-## Exclusion {#combine-exclusion}
+## Exclusion  {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
->title="Exclusion  règles"
+>title="Règles d&#39;exclusion"
 >abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur Ajouter une règle dans la section Règles d’exclusion et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
@@ -94,7 +94,7 @@ Dans l’activité **Combiner**, vous pouvez configurer une **intersection**. Po
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
->title="Exclusion  règles"
+>title="Règles d&#39;exclusion"
 >abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur Ajouter une règle dans la section Règles d’exclusion et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 

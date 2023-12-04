@@ -7,15 +7,15 @@ exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Branchement {#fork}
+# Branchement  {#fork}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
->title="Branchement  activité"
+>title="Activité Branchement"
 >abstract="L’activité **Branchement** permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle."
 
 

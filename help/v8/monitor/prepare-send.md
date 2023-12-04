@@ -6,8 +6,8 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '891'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
    Voici les KPI qui s’affichent :
 
-   * **[!UICONTROL Ciblés]** : le nombre de destinataires ciblés..
+   * **[!UICONTROL Ciblés]**: nombre de destinataires ciblés.
    * **[!UICONTROL À diffuser]** : le nombre de messages qui seront envoyés.
    * **[!UICONTROL À exclure]** : le nombre de messages exclus par une [règle de typologie](../advanced-settings/delivery-settings.md#typology).
 

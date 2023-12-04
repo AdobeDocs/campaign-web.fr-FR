@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes r
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
->title="Débit des diffusions (Delivery throughput)  rapport"
+>title="Rapport de débit de diffusion"
 >abstract="Le rapport Débit de diffusion présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné."
 
 Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
