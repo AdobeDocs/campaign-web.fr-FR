@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
+source-git-commit: 24d62bab783e8a00b71d01e5bf44b206d52d6a4e
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 92%
+source-wordcount: '1503'
+ht-degree: 91%
 
 ---
 
@@ -204,6 +204,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Champs personnalisés des personnes destinataires"
 
 >[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Destinataires Ne plus contacter"
+>abstract="Destinataires Ne plus contacter"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Destinataires Autres"
+>abstract="Destinataires Autres"
+
+>[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Vue d’ensemble de la carte des personnes destinataires"
 >abstract="Vue d’ensemble de la carte des personnes destinataires"
@@ -233,6 +243,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Aperçu des offres des personnes destinataires"
 >abstract="Aperçu des offres des personnes destinataires"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Profil en lecture seule des destinataires"
+>abstract="Profil en lecture seule des destinataires"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_additionaldata"
+>title="Test des données additionnelles des profils"
+>abstract="Test des données additionnelles des profils"
 
 
 
