@@ -4,10 +4,10 @@ title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 * Le **[!UICONTROL Message de données]** est géré par l’application cliente. Ces messages sont envoyés directement à l’application mobile, qui génère et affiche une notification Android sur l’appareil. Les messages de données contiennent uniquement vos variables d’application personnalisées.
 
   Pour définir le contenu, personnaliser les données et ajouter du contenu dynamique, cliquez sur le champ **[!UICONTROL Message]** et utilisez l’éditeur d’expression. Vous pouvez accéder à cet éditeur pour personnaliser vos messages.
-Dans le menu **[!UICONTROL Variables d’application]**, vos variables d’application sont automatiquement ajoutées. Ces variables vous permettent de définir le comportement des notifications. Vous pouvez par exemple paramétrer un écran d’application spécifique qui s’affichera lorsque l’utilisateur ou l’utilisatrice activera la notification.
+Dans le **[!UICONTROL Variables d’application]** , vos variables d’application sont automatiquement ajoutées. Ces variables vous permettent de définir le comportement des notifications. Vous pouvez par exemple paramétrer un écran d’application spécifique qui s’affichera lorsque l’utilisateur ou l’utilisatrice activera la notification.
 
   ![](assets/push_content_4.png)
 
@@ -81,36 +81,36 @@ Le mode Notification silencieuse permet d’envoyer une notification « silenci
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="Mode d’alerte critique pour iOS"
+>title="Mode d’alerte critique"
 >abstract="Activez cette option pour ajouter du son à votre notification, même si le téléphone de la personne est en mode Concentration ou si l’appareil est en mode silencieux. Ainsi, les utilisateurs et utilisatrices reçoivent les alertes importantes dans tous les cas."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Numéro de badge pour iOS"
+>title="Numéro de badge"
 >abstract="Utilisez cette option pour définir le nombre de nouvelles informations non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur de voir rapidement le nombre de notifications en attente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="Contenu modifiable pour iOS"
+>title="Contenu mutable"
 >abstract="Utilisez cette option pour permettre à l’application mobile de télécharger le contenu multimédia associé à la notification."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="Score de pertinence pour iOS"
+>title="Score de pertinence"
 >abstract="Définissez un score de pertinence compris entre 0 et 100 pour classer par priorité l’ordre des notifications dans le résumé des notifications. Des scores plus élevés indiquent des notifications plus importantes."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="Variables d’application pour iOS"
+>title="Variables de l&#39;application"
 >abstract="Utilisez des variables d’application pour définir le comportement des notifications. Ces variables sont entièrement personnalisables et font partie de la payload du message envoyée à l’appareil mobile."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="ID de catégorie pour iOS"
+>title="Identifiant de la catégorie"
 >abstract="Indiquez le nom de l’ID de catégorie associé à la notification. Cela permet d’afficher des boutons d’action, permettant à l’utilisateur ou utilisatrice d’effectuer différentes tâches directement depuis la notification sans ouvrir l’application."
 
 
