@@ -4,10 +4,10 @@ title: Rapports de campagne du canal E-mail
 description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '1568'
-ht-degree: 100%
+source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
+workflow-type: tm+mt
+source-wordcount: '1572'
+ht-degree: 86%
 
 ---
 
@@ -30,15 +30,15 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de la préparation de la diffusion.
+* **[!UICONTROL Messages à diffuser]**: Nombre total de messages traités lors de la préparation de la diffusion.
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Bounces]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Ouvertures distinctes]** : nombre total de destinataires ciblé(e)s ayant ouvert un message au moins une fois.
+* **[!UICONTROL Ouvertures totales]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
 
-* **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
+* **[!UICONTROL Nombre total de clics]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 
 +++
 
@@ -48,7 +48,6 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiques initiales sur l’audience cible"
 >abstract="Le tableau Statistiques initiales sur l’audience cible affiche des données relatives à vos personnes destinataires."
-
 
 Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
@@ -66,7 +65,6 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 ### Statistiques d’exécution {#delivery-summary-email-exec-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="Statistiques d’exécution"
@@ -80,14 +78,13 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à délivrer.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à délivrer.
 
-* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à délivrer.
 
   Les types d’erreur d’e-mail sont répertoriés dans la section [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
-
 
 +++
 
@@ -98,16 +95,15 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 >title="Statistiques des réactions"
 >abstract="Le tableau **Statistiques des réactions** affiche les données disponibles pour l’activité des destinataires de votre diffusion : nombre d’ouvertures, abonnements, désabonnements, clic sur le lien de la page miroir."
 
-
 Le tableau **[!UICONTROL Statistiques des réactions]** contient les données disponibles relatives à l’activité des destinataires de votre diffusion. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_4.png)
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Ouvertures distinctes]** : nombre total de destinataires ciblé(e)s ayant ouvert un message au moins une fois.
+* **[!UICONTROL Ouvertures uniques]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
 
-* **[!UICONTROL Ouvertures]** : nombre de destinataires ciblé(e)s distinct(e)s, pour ce domaine, ayant ouvert un message au moins une fois.
+* **[!UICONTROL Nombre total d’ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
 
 * **[!UICONTROL Désabonnements]** : nombre de destinataires ayant cliqué afin de se désabonner pour la période correspondante.
 
@@ -129,9 +125,9 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
+* **[!UICONTROL Clics uniques]**: nombre total de destinataires uniques ayant cliqué au moins une fois dans une même diffusion.
 
-* **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
+* **[!UICONTROL Nombre total de clics]**: Nombre total de clics sur les liens des diffusions.
 
 * **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
@@ -140,7 +136,6 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 ## Non diffusables {#non-deliverables-email}
 
 ### Répartition des erreurs par type {#delivery-summary-email-breakdown-per-type}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
@@ -171,7 +166,6 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 
 +++
 
-
 ### Répartition des erreurs par domaine {#delivery-summary-email-breakdown-per-domain}
 
 >[!CONTEXTUALHELP]
@@ -179,14 +173,11 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 >title="Répartition des erreurs par domaine"
 >abstract="Le tableau et le graphe **Répartition des erreurs par domaine** affichent les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
 
-
 Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine. Les mesures sont communes au tableau et au graphe **[!UICONTROL Répartition des erreurs par type]** présentés ci-dessus.
-
 
 ## Indicateurs de tracking {#tracking-indicators-email}
 
 ### Statistiques de diffusion {#delivery-summary-email-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
@@ -199,11 +190,11 @@ Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateu
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Message(s) à diffuser]**: Nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Ouvertures distinctes]** : nombre total de destinataires ciblé(e)s ayant ouvert un message au moins une fois.
+* **[!UICONTROL Ouvertures uniques]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
 
-* **[!UICONTROL Ouvertures]** : nombre de destinataires ciblé(e)s distinct(e)s pour ce domaine ayant ouvert un message au moins une fois.
+* **[!UICONTROL Nombre total d’ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
 
 * **[!UICONTROL Clics sur le lien d’exclusion]** : nombre de clics effectués sur le lien d’exclusion.
 
@@ -214,29 +205,27 @@ Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateu
 
 ### Taux d’ouverture et de clic publicitaire {#delivery-summary-open-rate}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Taux d’ouvertures et de clics"
 >abstract="Le tableau **Taux d’ouvertures et de clics** affiche des données relatives à l’engagement de vos destinataires envers votre diffusion."
 
-
-
 Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign_report_email_8.png)
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++ En savoir plus sur les mesures des rapports de campagne par e-mail.
 
 * **[!UICONTROL Envoyés]** : nombre total de messages envoyés.
 
-* **[!UICONTROL Plaintes]** : nombre de messages pour ce domaine qui ont été signalés par le ou la destinataire comme indésirables.
+* **[!UICONTROL Plaintes]**: nombre et pourcentage de messages pour ce domaine qui ont été signalés comme indésirables par le destinataire.
 
-* **[!UICONTROL Ouvertures]** : nombre de destinataires ciblé(e)s distinct(e)s, pour ce domaine, ayant ouvert un message au moins une fois.
+* **[!UICONTROL Ouvertures uniques]**: nombre et pourcentage de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
 
-* **[!UICONTROL Clics]** : nombre de destinataires ciblé(e)s distinct(e)s ayant cliqué au moins une fois dans une même diffusion.
+* **[!UICONTROL Clics uniques]**: nombre et pourcentage de destinataires ciblés distincts ayant cliqué au moins une fois dans une même diffusion.
 
 * **[!UICONTROL Réactivité brute]** : pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.
+
 +++
 
 ## URL et flux de clics {#url-email}
@@ -250,15 +239,16 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 ![](assets/campaign_report_email_9.png)
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++ En savoir plus sur les mesures des rapports de campagne par e-mail.
 
 * **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
-* **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
+* **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 
-* **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
+* **[!UICONTROL Nombre total de clics]**: Nombre total de clics sur les liens des diffusions.
 
 * **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BAT sont exclus.
+
 +++
 
 ### Top 10 des liens les plus visités {#top10-campaign-report-email}
@@ -267,7 +257,6 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Top 10 des liens les plus visités"
 >abstract="Le tableau et le graphe des **10 liens les plus visités** contiennent les données disponibles pour le comportement des destinataires par lien."
-
 
 Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contiennent les données disponibles pour le comportement des destinataires par lien. Les mesures sont détaillées ci-dessous.
 
@@ -283,17 +272,14 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 
 ### Répartition des clics dans le temps {#campaign-report-email-breakdown-clicks}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="Répartition des clics dans le temps"
 >abstract="Le graphe **Répartition des clics dans le temps** contient les données disponibles sur le comportement des destinataires par lien."
 
-
 Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des destinataires par lien.
 
 ![](assets/campaign_report_email_11.png)
-
 
 ## Activités utilisateurs {#user-activities-email}
 
