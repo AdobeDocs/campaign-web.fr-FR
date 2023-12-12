@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,7 @@ Vous pouvez enregistrer un filtre personnalisé à partir du créateur de règle
 
 Votre filtre personnalisé est désormais disponible dans la liste des **Filtres prédéfinis** et accessible à tous les utilisateurs et utilisatrices de Campaign.
 
-
 ### Créer un filtre à partir de la liste des filtres {#create-filter-from-list}
-
 
 Vous pouvez créer un filtre à partir de l’entrée **Filtres prédéfinis** dans le menu de gauche. Pour ce faire, suivez les étapes ci-après :
 
@@ -86,7 +84,6 @@ Vous pouvez créer un filtre à partir de l’entrée **Filtres prédéfinis** d
 
 1. Enregistrez vos modifications. Le filtre est ajouté à la liste des filtres prédéfinis.
 
-
 ## Enregistrez votre filtre comme favori. {#fav-filter}
 
 Lors de la création d’un filtre prédéfini, vous pouvez activer l’option **Enregistrer en tant que favori** si vous souhaitez voir ce filtre prédéfini dans vos favoris.
@@ -95,7 +92,6 @@ Lors de la création d’un filtre prédéfini, vous pouvez activer l’option *
 Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les utilisateurs et utilisatrices de la section **Filtres favoris** de la liste de création de filtre, comme illustré ci-dessous :
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## Utiliser un filtre prédéfini {#use-predefined-filter}
 
