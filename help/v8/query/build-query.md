@@ -2,10 +2,10 @@
 audience: end-user
 title: Créez votre première requête à l’aide du créateur de modèles de requête.
 description: Découvrez comment créer votre première requête dans Adobe Campaign Web query modeler.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 13%
+source-wordcount: '1354'
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,12 @@ Les composants de filtrage vous permettent d’affiner votre requête à l’aid
 * **Audiences**: filtrez votre requête à l’aide d’une audience existante.
 * **Filtre prédéfini**: filtrez votre requête à l’aide de filtres prédéfinis existants.
 
-### Création d’une condition personnalisée
+### Configuration d’une condition personnalisée
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="Condition personnalisée"
+>abstract="Condition personnalisée"
 
 Pour filtrer votre requête à l’aide d’une condition personnalisée, procédez comme suit :
 
@@ -96,6 +101,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### Sélectionner une audience
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="Sélectionner une audience"
+>abstract="Sélectionner une audience"
+
 Pour filtrer votre requête à l&#39;aide d&#39;une audience existante, procédez comme suit :
 
 1. Cliquez sur le bouton + sur le noeud souhaité, puis sélectionnez **[!UICONTROL Sélection de l’audience]**.
@@ -108,6 +118,11 @@ Pour filtrer votre requête à l&#39;aide d&#39;une audience existante, procéde
 
 ### Utiliser un filtre prédéfini
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="Filtre prédéfini"
+>abstract="Filtre prédéfini"
+
 Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez comme suit :
 
 1. Cliquez sur le bouton + sur le noeud souhaité, puis sélectionnez **[!UICONTROL Filtre prédéfini]**.
@@ -119,6 +134,11 @@ Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez com
    ![](assets/query-predefined-filter.png)
 
 ## Combiner des composants de filtrage avec des opérateurs
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Groupe"
+>abstract="Groupe"
 
 Lors de l&#39;ajout d&#39;un composant de filtrage à votre requête, une nouvelle transition est automatiquement créée sur le canevas de la requête, et le nouveau composant de filtrage est lié au premier par un opérateur AND. Cela signifie que les résultats des deux composants de filtrage sont combinés dans les résultats de la requête.
 
@@ -137,6 +157,11 @@ Les opérateurs disponibles sont les suivants :
 * SAUF (Exclusion) : exclut les résultats de tous les composants de filtrage de la transition sortante.
 
 ## Vérifier et valider votre requête
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="Propriétés de la règle"
+>abstract="Propriétés de la règle"
 
 Une fois votre requête créée dans la zone de travail, vous pouvez la vérifier à l’aide du volet Propriétés de la règle situé sur le côté droit. Les opérations disponibles sont les suivantes :
 
