@@ -2,19 +2,14 @@
 audience: end-user
 title: Utilisation du modélisateur de requêtes
 description: Découvrez comment travailler avec le modeleur de requêtes web Adobe Campaign.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 7%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
 # Utilisation du modélisateur de requêtes {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Audiences cibles"
->abstract="Créer une cible de diffusion n’a jamais été aussi facile. Grâce à notre dernier outil de modélisation des requêtes, vous pouvez désormais définir des critères de filtrage pour les destinataires ou toute autre dimension de ciblage de la base de données. Profitez de l’audience Adobe Experience Platform pour affiner davantage votre audience cible et optimiser l’impact de votre campagne."
 
 ## Présentation de Query modeler {#overview}
 
