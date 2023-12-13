@@ -2,32 +2,34 @@
 audience: end-user
 title: Créez votre première requête à l’aide du créateur de modèles de requête.
 description: Découvrez comment créer votre première requête dans Adobe Campaign Web query modeler.
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1319'
 ht-degree: 15%
 
 ---
 
 # Créer votre première requête {#build-query}
 
-Pour commencer à créer une requête, accédez au créateur de requêtes à partir de l’emplacement de votre choix, en fonction de l’action que vous souhaitez effectuer. Le modeleur de requête s’ouvre avec un canevas vierge. Cliquez sur le bouton + pour ajouter le premier noeud de votre requête.
-
-![](assets/query-add-component.png)
+Pour commencer à créer une requête, accédez au créateur de requêtes à partir de l’emplacement de votre choix, en fonction de l’action que vous souhaitez effectuer. Le modeleur de requête s’ouvre avec un canevas vierge. Cliquez sur le bouton **+** pour configurer le premier noeud de votre requête.
 
 Vous pouvez ajouter deux types d’éléments :
 
-* Les composants de filtrage (Condition personnalisée, Sélectionner une audience, Filtre prédéfini) vous permettent de créer vos propres règles, de sélectionner une audience ou un filtre prédéfini pour affiner votre requête.
+* **Filtrage des composants** (Condition personnalisée, Sélectionner une audience, Filtre prédéfini) vous permettent de créer vos propres règles, de sélectionner une audience ou un filtre prédéfini pour affiner votre requête. [Découvrez comment utiliser les composants de filtrage](#filtering)
 
-  Exemple *Destinataires qui se sont inscrits à la newsletter &quot;Sports&quot;*. *Destinataires résidant à New York*, *Destinataires résidant à San Francisco*
+  Exemple :
 
-* Les opérateurs de groupe (ET, OU, SAUF) vous permettent de regrouper les composants de filtrage dans le diagramme en fonction de vos besoins.
+  *Destinataires qui se sont inscrits à la newsletter &quot;Sports&quot;*. *Destinataires résidant à New York*, *Destinataires résidant à San Francisco*
 
-  Exemple : *Destinataires qui se sont inscrits à la newsletter &quot;Sports&quot;**ET**qui vivent à New York **OU**San Francisco*.
+* **Opérateurs de groupe** (ET, OU, SAUF) vous permettent de regrouper les composants de filtrage dans le diagramme en fonction de vos besoins. [Découvrez comment travailler avec des opérateurs](#filtering)
 
-Vous trouverez ci-dessous des étapes détaillées pour ajouter et combiner des composants de filtrage et des opérateurs de groupe.
+  Exemple :
 
-## Ajouter des composants de filtrage
+  *Destinataires qui se sont inscrits à la newsletter &quot;Sports&quot;**ET**qui vivent à New York **OU**San Francisco*.
+
+![](assets/query-add-component.png)
+
+## Ajouter des composants de filtrage {#filtering}
 
 Les composants de filtrage vous permettent d’affiner votre requête à l’aide des éléments suivants :
 
@@ -44,10 +46,9 @@ Les composants de filtrage vous permettent d’affiner votre requête à l’aid
 
 Pour filtrer votre requête à l’aide d’une condition personnalisée, procédez comme suit :
 
-1. Cliquez sur le bouton + sur le noeud souhaité, puis sélectionnez **[!UICONTROL Condition personnalisée]**.
-1. Le volet des propriétés de condition personnalisée s’ouvre sur le côté droit. Dans le champ Attribut , sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition.
+1. Cliquez sur le bouton **+** sur le noeud souhaité, puis sélectionnez **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’ouvre sur le côté droit.
 
-   Les attributs disponibles représentent tous les champs de la base de données Campaign, y compris les champs des tables liées à la table Destinataires .
+1. Dans le **Attribut** , sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données Campaign, y compris les attributs liés à votre table.
 
    ![](assets/query-custom-condition-fields.png)
 
@@ -55,13 +56,9 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
    >
    >Le bouton Editer l&#39;expression permet d&#39;utiliser l&#39;éditeur d&#39;expression Web de Campaign pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance.
 
-1. Sélectionnez l&#39;opérateur à appliquer dans la liste déroulante.
+1. Sélectionnez l&#39;opérateur à appliquer dans la liste déroulante. Plusieurs opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l&#39;attribut sélectionné.
 
    +++Liste des opérateurs disponibles
-
-   >[!NOTE]
-   >
-   >Les opérateurs disponibles dans la liste déroulante dépendent du type de données de l&#39;attribut sélectionné.
 
    | Opérateur | Intérêt | Exemple |
    |  ---  |  ---  |  ---  |
@@ -84,20 +81,11 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 +++
 
-1. Dans le champ Valeur , sélectionnez la valeur attendue.
+1. Dans le **Valeur** , définissez la valeur attendue. Vous pouvez également utiliser l&#39;éditeur d&#39;expression Web de Campaign pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance. Pour ce faire, cliquez sur le bouton **Expression d’édition** bouton .
 
-   Vous pouvez également utiliser l&#39;éditeur d&#39;expression Web de Campaign pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance. Pour cela, cliquez sur le bouton Editer l&#39;expression .
-
-   *Exemple : requête retournant tous les profils âgés de 21 ans ou plus*
+   *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
    ![](assets/query-custom-condition.png)
-
-<!--
-querying linked tables
-collect additional information on the targeted population, e.g. contract numbers, subscriptions to newsletters or origin.
-Select the type of data you want to add. This can be data belonging to the filtering dimension or data stored in linked tables. Select the table which contains the information you want to collect and click Next.
-
-aggregates: Define a calculation mode for the field to be added, such as an aggregate for example.-->
 
 ### Sélectionner une audience
 
@@ -108,11 +96,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 Pour filtrer votre requête à l&#39;aide d&#39;une audience existante, procédez comme suit :
 
-1. Cliquez sur le bouton + sur le noeud souhaité, puis sélectionnez **[!UICONTROL Sélection de l’audience]**.
+1. Cliquez sur le bouton **+** sur le noeud souhaité, puis choisissez **[!UICONTROL Sélection de l’audience]**.
 
-1. Le volet de sélection des propriétés de l’audience s’ouvre sur le côté droit. Sélectionnez l’audience que vous souhaitez utiliser pour filtrer votre requête.
+1. La variable **Sélection de l’audience** le volet Propriétés s’ouvre sur le côté droit. Sélectionnez l&#39;audience que vous souhaitez utiliser pour filtrer votre requête.
 
-   *Exemple : requête renvoyant tous les profils appartenant à l’audience &quot;Goers du festival&quot;*
+   *Exemple de requête retournant tous les profils appartenant à l&#39;audience &quot;Goers du festival&quot; :*
 
    ![](assets/query-audience.png)
 
@@ -125,36 +113,36 @@ Pour filtrer votre requête à l&#39;aide d&#39;une audience existante, procéde
 
 Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez comme suit :
 
-1. Cliquez sur le bouton + sur le noeud souhaité, puis sélectionnez **[!UICONTROL Filtre prédéfini]**.
+1. Cliquez sur le bouton **+** sur le noeud souhaité, puis sélectionnez **[!UICONTROL Filtre prédéfini]**.
 
-1. Le volet de sélection des propriétés de l’audience s’ouvre sur le côté droit. Sélectionnez un filtre prédéfini dans la liste des filtres personnalisés ou des favoris.
+1. La variable **Filtre prédéfini** le volet Propriétés s’ouvre sur le côté droit. Sélectionnez un filtre prédéfini dans la liste des filtres personnalisés ou des favoris.
 
-   *Exemple : requête retournant tous les profils correspondant au filtre prédéfini &quot;Clients inactifs&quot;.*
+   *Exemple de requête retournant tous les profils correspondant au filtre prédéfini &quot;Clients inactifs&quot; :*
 
    ![](assets/query-predefined-filter.png)
 
-## Combiner des composants de filtrage avec des opérateurs
+## Combiner des composants de filtrage avec des opérateurs {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Groupe"
 >abstract="Groupe"
 
-Lors de l&#39;ajout d&#39;un composant de filtrage à votre requête, une nouvelle transition est automatiquement créée sur le canevas de la requête, et le nouveau composant de filtrage est lié au premier par un opérateur AND. Cela signifie que les résultats des deux composants de filtrage sont combinés dans les résultats de la requête.
+Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête, il est automatiquement lié à l’autre composant par un opérateur AND. Cela signifie que les résultats des deux composants de filtrage sont combinés dans les résultats de la requête.
 
-Dans cet exemple, de nouveaux composants de filtrage de type audience sont ajoutés à la zone de travail. Il est automatiquement ajouté sur une nouvelle transition et associé à la condition de type filtre prédéfinie avec un opérateur AND. Dans ce cas, les résultats de la requête incluent les destinataires ciblés par le filtre prédéfini &quot;Madridiens&quot; ET appartenant à l&#39;audience &quot;chasseurs de remises&quot;.
+Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de type de filtre prédéfinie avec un opérateur AND, ce qui signifie que les résultats de la requête incluent les destinataires ciblés par le filtre prédéfini &quot;Madridians&quot; ET appartenant à l&#39;audience &quot;chasseurs de remises&quot;.
 
 ![](assets/query-operator.png)
 
-Pour changer l&#39;opérateur utilisé pour associer les conditions de filtrage, cliquez dessus et sélectionnez l&#39;opérateur désiré dans la section Vous pouvez changer l&#39;opérateur en cliquant dessus et en sélectionnant l&#39;opérateur désiré dans le volet Groupe qui s&#39;ouvre sur la droite.
-
-![](assets/query-operator-change.png)
+Pour changer l&#39;opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez l&#39;opérateur désiré dans le volet Groupe qui s&#39;ouvre sur la droite.
 
 Les opérateurs disponibles sont les suivants :
 
-* AND (Intersection) : combine les résultats de tous les composants de filtrage dans les transitions sortantes.
-* OR (Union) : regroupe les résultats d&#39;au moins un des composants de filtrage dans les transitions sortantes.
-* SAUF (Exclusion) : exclut les résultats de tous les composants de filtrage de la transition sortante.
+* **AND (Intersection)**: combine les résultats de tous les composants de filtrage dans les transitions sortantes.
+* **OU (Union)**: inclut les résultats d’au moins un des composants de filtrage dans les transitions sortantes.
+* **SAUF (Exclusion)**: exclut les résultats de tous les composants de filtrage de la transition sortante.
+
+![](assets/query-operator-change.png)
 
 ## Vérifier et valider votre requête
 
@@ -163,12 +151,12 @@ Les opérateurs disponibles sont les suivants :
 >title="Propriétés de la règle"
 >abstract="Propriétés de la règle"
 
-Une fois votre requête créée dans la zone de travail, vous pouvez la vérifier à l’aide du volet Propriétés de la règle situé sur le côté droit. Les opérations disponibles sont les suivantes :
+Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide de la fonction **Propriétés des règles** situé sur le côté droit. Les opérations disponibles sont les suivantes :
 
-* **Afficher les résultats :** affiche les données issues de votre requête.
+* **Afficher les résultats :** Affiche les données issues de votre requête.
 * **Affichage du code**: affiche une version de la requête basée sur un code dans SQL.
 * **Calculer**: met à jour et affiche le nombre d&#39;enregistrements ciblés par votre requête.
-* **Sélectionner ou enregistrer un filtre**: choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. [Découvrez comment utiliser des filtres prédéfinis](../get-started/predefined-filters.md).
+* **Sélectionner ou enregistrer un filtre**: sélectionnez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure. [Découvrez comment utiliser des filtres prédéfinis](../get-started/predefined-filters.md).
 
   >[!IMPORTANT]
   >
