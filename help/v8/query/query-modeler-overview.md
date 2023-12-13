@@ -1,24 +1,27 @@
 ---
 audience: end-user
-title: Utilisation du modélisateur de requêtes
+title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le modeleur de requêtes web Adobe Campaign.
-source-git-commit: 9262db778deb20bcb1b1e4496bbd55e551a5769f
+source-git-commit: c60b1c99b520b862b4dc0ee2ea63053dcd38104d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 4%
 
 ---
 
-# Utilisation du modélisateur de requêtes {#segment-builder}
+# Utiliser le concepteur de requête {#segment-builder}
 
-## Présentation de Query modeler {#overview}
+Adobe Campaign Web comporte un modèle de requête qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés.
 
-Adobe Campaign Web comporte un modèle de requête qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés. Le modèle de requête est parfaitement intégré dans l’interface, ce qui vous permet d’effectuer des opérations de filtrage et de créer facilement des règles :
+## Accès au créateur de requêtes {#access}
 
-* Définition des audiences cibles : définissez la population que vous souhaitez cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins.
-* Personnaliser les activités de workflow : appliquez des règles dans les activités de workflow, telles que Partage et Réconciliation, afin de répondre à vos besoins spécifiques,
-* Dynamiser le contenu : rendez votre contenu dynamique en créant des conditions qui définissent quel contenu doit être affiché pour différents destinataires, en assurant une messagerie personnalisée et pertinente.
-* Filtres prédéfinis : créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion.
+Le créateur de modèles de requête est disponible dans chaque contexte où vous devez définir des règles pour filtrer les données.
+
+* **Définition des audiences**: indiquez la population que vous souhaitez cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins.
+* **Personnalisation des activités de workflow**: appliquez des règles dans les activités de workflow, telles que Partage et Réconciliation, afin de répondre à vos besoins spécifiques,
+* **Dynamiser le contenu**: rendez votre contenu dynamique en créant des conditions qui définissent quel contenu doit être affiché pour différents destinataires, en veillant à la personnalisation et à la pertinence des messages.
+* **Filtres prédéfinis**: créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion.
+* **Filtrage des données de rapports**: ajoutez une règle pour filtrer les données affichées dans les rapports.
 
 ## Interface du Query modeler {#interface}
 
