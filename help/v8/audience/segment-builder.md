@@ -1,54 +1,94 @@
 ---
 audience: end-user
-title: Utiliser une audience Adobe Experience Platform
-description: Découvrez comment utiliser une audience à partir d’Adobe Experience Platform.
+title: Créer une audience à l’aide du créateur de règles de Campaign
+description: Découvrez comment utiliser le créateur de règles.
+exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: cbf1021c722aeff5f7ce384a29467576d5f83ab2
+source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
 
-# Utiliser une audience Adobe Experience Platform{#aep-audience}
+# Utiliser le créateur de règles {#segment-builder}
 
-La destination et les connecteurs source d’Adobe Campaign Managed Cloud Services permettent une intégration transparente entre Adobe Campaign et Adobe Experience Platform.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Audiences cibles"
+>abstract="Créer une cible de diffusion n’a jamais été aussi facile. Avec notre dernier créateur de règles en date, vous pouvez désormais définir des critères de filtrage pour les personnes destinataires ou toute autre dimension de ciblage de la base de données. Profitez de l’audience Adobe Experience Platform pour affiner davantage votre audience cible et optimiser l’impact de votre campagne."
 
-Une fois l’audience Adobe Experience Platform créée, vous pouvez l’utiliser de la même manière qu’une audience de campagne pour personnaliser et envoyer des messages.
+Le créateur de règles permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. Vous pouvez l’utiliser pour créer une audience à partir d’un workflow à l’aide d’une activité **[!UICONTROL Créer une audience]** ou directement lors de la création d’une diffusion pour créer une audience unique.
 
->[!NOTE]
->
->Pour utiliser les audiences Adobe Experience Platform dans Campaign, vous devez configurer l’intégration aux sources et destinations Adobe. Consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=fr){target="_blank"}.
+* [Découvrez comment créer une audience.](create-audience.md)
+* [Découvrez comment créer une audience unique pour une diffusion.](one-time-audience.md)
 
-Pour sélectionner l’audience d’une diffusion, vous pouvez également procéder comme suit :
+## Palette
 
-* Créez une audience. [En savoir plus](segment-builder.md)
-* Chargez une audience à partir d’un fichier externe. [En savoir plus](file-audience.md)
-* Utilisez une audience de campagne existante. [En savoir plus](add-audience.md).
+La palette, située à gauche, contient tous les éléments sur lesquels vous pouvez appliquer un filtre pour créer votre audience. Vous pouvez utiliser la barre de recherche pour rechercher rapidement des éléments. Les tuiles de la palette doivent être déplacées dans la zone de travail centrale pour être configurées et prises en compte.
 
-Pour sélectionner une audience Adobe Experience Platform pour votre diffusion, procédez comme suit :
+![](assets/segment-builder2.png){width="70%" align="left"}
 
-1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
+La palette est divisée en deux onglets :
 
-   ![](assets/create-audience.png)
+* **Attributs** : cet onglet permet d’accéder à tous les champs disponibles à partir du schéma. La liste des champs dépend du schéma de ciblage défini dans le modèle d’e-mail.
 
-1. Choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante. Afin de créer une nouvelle audience pour cet e-mail, choisissez **Créer la vôtre**. Reportez-vous à cette [section](segment-builder.md).
+* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform. [Découvrez comment surveiller et gérer les audiences](manage-audience.md).
 
-   Cet écran affiche toutes les audiences existantes définies dans la console cliente Adobe Campaign, pour le dossier actuel. Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section dédiée aux filtres de l’écran.
+  >[!NOTE]
+  >
+  >Pour tirer parti des audiences Adobe Experience Platform, vous devez configurer l’intégration avec les destinations. Consultez la [documentation sur les destinations Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
 
-   ![](assets/select-audience-folder.png)
+## Zone de travail
 
-   Vous pouvez également définir une règle pour filtrer l’origine des audiences, comme indiqué ci-dessous :
+La zone de travail est la zone centrale, dans laquelle vous pouvez paramétrer et combiner les règles selon les éléments ajoutés depuis la palette. Pour ajouter une nouvelle règle, faites glisser une vignette depuis la palette et déposez-la sur la zone de travail. Des options spécifiques au contexte vous seront ensuite présentées en fonction du type de données ajouté.
 
-   ![](assets/filter-on-aep-audience.png)
+![](assets/segment-builder4.png){width="70%" align="left"}
 
-1. Choisissez une audience, puis cliquez sur **Sélectionner**.
+## Le volet Propriétés des règles
 
-1. Cliquez sur **Modifier les règles** si vous souhaitez affiner votre audience.
+Sur le côté droit, le volet **Propriétés des règles** vous permet d’effectuer les actions ci-après.
 
-   ![](assets/refine-audience.png)
+![](assets/segment-builder5.png){width="70%" align="left"}
 
-1. Le créateur de règles vous permet d’enrichir votre audience avec des filtres supplémentaires ou en combinant différentes audiences. Consultez cette [section](segment-builder.md).
+* **Afficher les résultats :** affiche la liste des personnes destinataires ciblées par l’audience.
+* **Affichage du code** : affiche une version basée sur le code de l’audience dans SQL.
+* **Afficher les attributs avancés** : cochez cette option si vous souhaitez afficher la liste complète des attributs dans la palette de gauche : noeuds, regroupements, liens 1-1, liens 1-N.
+* **Calculer** : met à jour et affiche le nombre de profils ciblés par votre requête.
+* **Sélectionner ou enregistrer un filtre** : utilisez un filtre prédéfini pour filtrer votre requête ou enregistrez votre requête en tant que nouveau filtre pour une réutilisation ultérieure. [Découvrez comment utiliser des filtres prédéfinis](../get-started/predefined-filters.md).
 
-1. Cliquez sur **Enregistrer**.
+  >[!IMPORTANT]
+  >
+  >Dans cette version du produit, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur. Vous pouvez toujours les utiliser. [En savoir plus](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
+* **Attributs** : affiche une description de l’audience créée.
+
+## Exemple
+
+Dans cet exemple, nous allons créer une audience pour cibler tous les clients et clientes habitant à Atlanta ou Seattle et nés après 1980.
+
+1. Dans l’onglet **Attributs** de la palette, recherchez le champ **Date de naissance**. Faites glisser la vignette et déposez-la sur la zone de travail.
+
+   ![](assets/segment-builder6.png)
+
+1. Dans la zone de travail, choisissez l’opérateur **Après** et saisissez la date souhaitée.
+
+   ![](assets/segment-builder7.png)
+
+1. Dans la palette, recherchez le champ **Ville** et ajoutez-le à la zone de travail sous la première règle.
+
+   ![](assets/segment-builder8.png)
+
+1. Dans le champ de texte, saisissez le nom de la première ville, puis appuyez sur Entrée.
+
+   ![](assets/segment-builder9.png)
+
+1. Répétez cette action pour le nom de la deuxième ville.
+
+   ![](assets/segment-builder10.png)
+
+1. Cliquez sur **Afficher les résultats** pour afficher la liste et le nombre de destinataires correspondant à la requête. Vous pouvez également ajouter des colonnes pour visualiser et vérifier les données. Dans notre exemple, ajoutez la colonne **Ville** et vous devriez voir Atlanta et Seattle.
+
+   ![](assets/segment-builder11.png)
+
+1. Cliquez sur **Confirmer**.
