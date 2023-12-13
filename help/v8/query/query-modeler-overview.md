@@ -2,9 +2,9 @@
 audience: end-user
 title: Utilisation du modélisateur de requêtes
 description: Découvrez comment travailler avec le modeleur de requêtes web Adobe Campaign.
-source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
+source-git-commit: 9262db778deb20bcb1b1e4496bbd55e551a5769f
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,7 @@ ht-degree: 0%
 
 ## Présentation de Query modeler {#overview}
 
-Adobe Campaign Web propose un outil de modélisation des requêtes qui permet de filtrer la base de données pour sélectionner une cible selon différents critères à l&#39;aide d&#39;informations provenant de la base de données, d&#39;expressions avancées et d&#39;opérateurs.
-
-
-Adobe Campaign Web comporte un outil de modélisation de requête convivial qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés.
-
-Le modèle de requête est parfaitement intégré dans l’interface, ce qui vous permet d’effectuer des opérations de filtrage et de créer facilement des règles :
+Adobe Campaign Web comporte un modèle de requête qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés. Le modèle de requête est parfaitement intégré dans l’interface, ce qui vous permet d’effectuer des opérations de filtrage et de créer facilement des règles :
 
 * Définition des audiences cibles : définissez la population que vous souhaitez cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins.
 * Personnaliser les activités de workflow : appliquez des règles dans les activités de workflow, telles que Partage et Réconciliation, afin de répondre à vos besoins spécifiques,
@@ -27,22 +22,8 @@ Le modèle de requête est parfaitement intégré dans l’interface, ce qui vou
 
 ## Interface du Query modeler {#interface}
 
-Le créateur de modèles de requête fournit un canevas central où vous pouvez ajouter et combiner les différents composants qui composent votre requête, ainsi qu’un volet Propriétés de règle sur le côté droit qui fournit des informations sur votre requête.
+Le créateur de modèles de requêtes fournit un canevas central où vous pouvez ajouter et combiner les différents composants qui construisent votre requête.
+
+Sur le côté droit, le volet Propriétés de la règle fournit des informations sur votre requête. Il vous permet d’effectuer diverses opérations pour vérifier votre requête et vous assurer qu’elle correspond à vos besoins. Découvrez comment vérifier et valider votre requête (lien à déterminer)
 
 ![](assets/query-interface.png)
-
-Le canevas est l’endroit où vous ajoutez et combinez les composants qui construisent votre requête. Il se compose des éléments suivants :
-
-* Une icône Requête indique le point de départ de votre requête.
-* Un ou plusieurs chemins : c&#39;est là que vous ajouterez les différents éléments composant votre requête.
-
-En outre, une barre d’outils située en haut à gauche propose des options pour parcourir et gérer facilement les éléments de la zone de travail.
-
-* Mode de sélection multiple
-* Rotation
-* Ajuster à l’écran
-* Zoom arrière/Zoom avant
-* Afficher la carte
-
-
-Sur le côté droit, le **Propriétés des règles** vous permet de récupérer des informations sur la requête que vous créez dans la zone de travail.
