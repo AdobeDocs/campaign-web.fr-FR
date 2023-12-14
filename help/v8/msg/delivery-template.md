@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 91%
+source-wordcount: '1068'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Modèles de diffusion"
->abstract="Utilisez les modèles de diffusion pour normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes."
+>abstract="Pour un processus de conception accéléré et amélioré, vous pouvez créer des modèles de diffusion et en réutiliser facilement le contenu et les paramètres personnalisés dans vos campagnes. Cette fonctionnalité vous permet de normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes."
 
 Pour un processus de conception accéléré et amélioré, vous pouvez créer des modèles de diffusion et en réutiliser facilement le contenu et les paramètres personnalisés dans vos campagnes. Cette fonctionnalité vous permet de normaliser l’aspect créatif afin d’être plus rapide dans l’exécution et le lancement des campagnes.
 
@@ -79,6 +79,7 @@ Pour supprimer ou [dupliquer](#copy-an-existing-template) un modèle, sélection
 ## Créer un modèle de diffusion {#create-a-delivery-template}
 
 Pour créer un modèle de diffusion, vous pouvez :
+
 * Dupliquer un modèle existant - [En savoir plus](#copy-an-existing-template)
 * Convertir une diffusion existante en modèle - [En savoir plus](#convert-an-existing-delivery)
 * Créer entièrement un modèle de diffusion - [En savoir plus](#create-a-new-template)

@@ -4,10 +4,10 @@ title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 98%
+source-wordcount: '1484'
+ht-degree: 87%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenu de notification push pour Android"
->abstract="Définissez le contenu de la notification push Android."
+>abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l&#39;éditeur d&#39;expression pour personnaliser les données et ajouter du contenu dynamique. Pour personnaliser davantage votre notification push, vous pouvez choisir une image à ajouter à votre notification push, l&#39;icône de la notification qui s&#39;affichera sur les appareils de vos profils et sa couleur. Pour une configuration plus personnalisée, accédez à la page **Paramètres avancés** ."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenu de notification push pour iOS"
->abstract="Définissez le contenu de la notification push iOS."
+>abstract="Définissez le contenu de votre notification push pour les appareils iOS. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l&#39;éditeur d&#39;expression pour personnaliser les données et ajouter du contenu dynamique. Pour une configuration plus personnalisée, accédez à la page **Paramètres avancés** ."
 
 ## Définir le contenu de la notification {#push-message}
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 >title="Notification silencieuse pour iOS"
 >abstract="Le mode Notification silencieuse permet d&#39;envoyer une notification « silencieuse » à une application mobile. L&#39;utilisateur n&#39;est pas averti de l&#39;arrivée de la notification. Elle est directement transférée à l&#39;application."
 
-
+Une fois votre diffusion push créée, vous pouvez en définir le contenu. Les paramètres et paramètres dépendent du système d’exploitation mobile : Android ou iOS. Accédez aux onglets ci-dessous pour savoir comment composer votre message pour chaque système d’exploitation.
 
 >[!BEGINTABS]
 
@@ -113,6 +113,7 @@ Le mode Notification silencieuse permet d’envoyer une notification « silenci
 >title="Identifiant de la catégorie"
 >abstract="Indiquez le nom de l’ID de catégorie associé à la notification. Cela permet d’afficher des boutons d’action, permettant à l’utilisateur ou utilisatrice d’effectuer différentes tâches directement depuis la notification sans ouvrir l’application."
 
+Les options avancées dépendent du système d’exploitation mobile : Android ou iOS. Accédez aux onglets ci-dessous pour savoir comment définir les options de votre message pour chaque système d’exploitation.
 
 >[!BEGINTABS]
 
