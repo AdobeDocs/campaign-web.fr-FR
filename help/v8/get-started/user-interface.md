@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4bdf23ab5905602608f3982692c88d3a399ca76a
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 91%
+source-wordcount: '1513'
+ht-degree: 90%
 
 ---
 
@@ -576,11 +576,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="Mise en forme de l’activité Chargement de fichier"
 >abstract="Mise en forme de l’activité Chargement de fichier"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_querymessage"
->title="Concepteur de requête"
->abstract="Définissez des critères de filtrage pour les personnes destinataires ou toute autre dimension de ciblage issue de la base de données. Tirez parti de votre audience Adobe Experience Platform pour affiner davantage votre audience cible et maximiser l’impact de votre campagne."

@@ -2,10 +2,10 @@
 audience: end-user
 title: Créez votre première requête à l’aide du créateur de modèles de requête.
 description: Découvrez comment créer votre première requête dans Adobe Campaign Web query modeler.
-source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 15%
+source-wordcount: '1462'
+ht-degree: 14%
 
 ---
 
@@ -56,7 +56,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
    >
    >Le bouton Editer l&#39;expression permet d&#39;utiliser l&#39;éditeur d&#39;expression Web de Campaign pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance.
 
-1. Sélectionnez l&#39;opérateur à appliquer dans la liste déroulante. Plusieurs opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l&#39;attribut sélectionné.
+1. Sélectionnez l&#39;opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
    +++Liste des opérateurs disponibles
 
@@ -86,6 +86,32 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
    ![](assets/query-custom-condition.png)
+
+**Conditions personnalisées sur les tables distantes (liens 1-1 et 1-N)**
+
+Les conditions personnalisées vous permettent d&#39;interroger des tables distantes liées à la table Destinataires .
+
+Pour un **Lien 1-1** avec une autre ressource de base de données, sélectionnez la valeur directement dans la table ciblée.
+
+Exemple +++Query
+
+Ici, la requête cible les destinataires dont le pays ou la région est inclus dans des valeurs données (uk et us).
+
+![](assets/custom-condition-1-1.png)
+
++++
+
+Pour un **Lien 1-N** avec une autre ressource de base de données, vous pouvez définir des sous-conditions sur les champs de cette seconde ressource.
+
+Vous pouvez par exemple sélectionner l&#39;opérateur Existe sur les achats de profils pour cibler tous les profils pour lesquels des achats existent. Une fois cette opération terminée, ajoutez une condition personnalisée sur la transition sortante et créez un filtre en fonction de vos besoins.
+
+Exemple +++Query
+
+Ici, la requête cible les destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100$.
+
+![](assets/custom-condition-1-N.png)
+
++++
 
 ### Sélectionner une audience
 
@@ -138,9 +164,9 @@ Pour changer l&#39;opérateur utilisé pour relier les conditions de filtrage, c
 
 Les opérateurs disponibles sont les suivants :
 
-* **AND (Intersection)**: combine les résultats de tous les composants de filtrage dans les transitions sortantes.
-* **OU (Union)**: inclut les résultats d’au moins un des composants de filtrage dans les transitions sortantes.
-* **SAUF (Exclusion)**: exclut les résultats de tous les composants de filtrage de la transition sortante.
+* **AND (Intersection)**: combine les résultats correspondant à tous les composants de filtrage dans les transitions sortantes.
+* **OU (Union)**: inclut des résultats correspondant à au moins un des composants de filtrage dans les transitions sortantes.
+* **SAUF (Exclusion)**: exclut les résultats correspondant à tous les composants de filtrage dans la transition sortante.
 
 ![](assets/query-operator-change.png)
 

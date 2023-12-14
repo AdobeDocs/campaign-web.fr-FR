@@ -5,9 +5,9 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: acc8956c21c700b615bcd1b2a055a91b1d227f7b
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 96%
 
 ---
@@ -127,8 +127,9 @@ ht-degree: 96%
       + [Partage](workflows/activities/split.md)
       + [Attente](workflows/activities/wait.md)
 + Interrogation de la base de données {#query-database}
-   + [Utilisation du modélisateur de requêtes](query/query-modeler-overview.md)
+   + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
+   + [Editer les expressions](query/expression-editor.md)
    + [Exemples de requêtes](query/query-samples.md)
 + Rapports {#reports}
    + [Commencer avec les rapports](reporting/gs-reports.md)
