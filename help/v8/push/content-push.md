@@ -4,10 +4,10 @@ title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 80%
+source-wordcount: '1534'
+ht-degree: 83%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenu de notification push pour Android"
->abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l&#39;éditeur d&#39;expression pour personnaliser les données et ajouter du contenu dynamique. Pour personnaliser davantage votre notification push, vous pouvez choisir une image à ajouter à votre notification push, l&#39;icône de la notification qui s&#39;affichera sur les appareils de vos profils et sa couleur. Pour une configuration plus personnalisée, accédez à la page **Paramètres avancés** ."
+>abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu** bouton ."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenu de notification push pour iOS"
->abstract="Définissez le contenu de votre notification push pour les appareils iOS. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l&#39;éditeur d&#39;expression pour personnaliser les données et ajouter du contenu dynamique. Pour une configuration plus personnalisée, accédez à la page **Paramètres avancés** ."
+>abstract="Définissez le contenu de votre notification push pour les appareils iOS. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu** bouton ."
 
 ## Définir le contenu de la notification {#push-message}
 
