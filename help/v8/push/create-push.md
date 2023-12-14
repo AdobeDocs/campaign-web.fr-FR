@@ -4,10 +4,10 @@ title: Créer une diffusion notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 40%
+source-wordcount: '638'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ Pour créer une diffusion de notification push autonome, procédez comme suit :
 
 Configurez vos paramètres de diffusion comme indiqué ci-dessous :
 
-1. Saisissez un **[!UICONTROL Libellé]** pour la diffusion
+1. Saisissez un **[!UICONTROL Libellé]** pour la diffusion. Par défaut, le libellé est défini avec le libellé du modèle sélectionné. Il doit être mis à jour.
 
 1. Parcourez les **[!UICONTROL Options supplémentaires]** pour personnaliser les options, le cas échéant.
 
