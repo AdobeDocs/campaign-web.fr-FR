@@ -4,10 +4,10 @@ title: Créer une diffusion notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 39%
+source-wordcount: '653'
+ht-degree: 38%
 
 ---
 
@@ -33,7 +33,7 @@ Pour créer une diffusion de notification push autonome, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
 
-1. Sous , **[!UICONTROL Canal]** , choisissez **Notification push** comme canal et sélectionnez un modèle, en fonction du système de fonctionnement de l’appareil choisi : Android ou iOS. [En savoir plus sur les modèles](../msg/delivery-template.md)
+1. Sous , **[!UICONTROL Canal]** , choisissez **Notification push** comme canal, puis sélectionnez un modèle, en fonction du système de fonctionnement de l’appareil choisi : Android ou iOS. [En savoir plus sur les modèles](../msg/delivery-template.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
 
@@ -45,7 +45,7 @@ Configurez vos paramètres de diffusion comme indiqué ci-dessous :
 
 1. Saisissez un **[!UICONTROL Libellé]** pour la diffusion. Par défaut, le libellé est défini avec le libellé du modèle sélectionné. Il doit être mis à jour.
 
-1. Parcourez les **[!UICONTROL Options supplémentaires]** pour personnaliser les options, le cas échéant.
+1. Parcourez les **[!UICONTROL Options supplémentaires]** pour personnaliser les options, le cas échéant. Si votre diffusion est basée sur un schéma étendu, **Options personnalisées** sont disponibles.
 
    +++Configurez les paramètres suivants en fonction de vos besoins.
    * **[!UICONTROL Nom interne]** : attribuez un identifiant unique à la diffusion.
