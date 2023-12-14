@@ -2,14 +2,16 @@
 audience: end-user
 title: Créez votre première requête à l’aide du créateur de modèles de requête.
 description: Découvrez comment créer votre première requête dans Adobe Campaign Web query modeler.
-source-git-commit: e620df0ff9af0d32fc353a904e3dde37501495d0
+source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 80%
+source-wordcount: '1797'
+ht-degree: 83%
 
 ---
 
 # Editer les expressions {#expression}
+
+## Editer une expression  {#edit}
 
 La modification d’une expression implique la saisie manuelle de conditions pour former une règle. Ce mode permet d&#39;utiliser des fonctions avancées. Ces fonctions permettent de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
@@ -25,152 +27,666 @@ L’éditeur d’expression fournit :
 
 Editez l&#39;expression en saisissant une expression directement dans le champ de saisie ou en utilisant la liste des champs et fonctions disponibles. Pour ce faire, placez le curseur dans votre inexpression à l’endroit où vous souhaitez ajouter l’élément et double-cliquez sur le champ ou l’expression de votre choix.
 
-Il est possible d&#39;utiliser les variables d&#39;événements des workflows pour créer une expression. Voir à ce sujet xxxx.
+## Fonctions d’assistance
 
-## Syntaxe des expressions  {#expression-syntax}
+L&#39;outil d&#39;édition de requêtes permet d&#39;utiliser des fonctions avancées pour réaliser un filtrage complexe en fonction des résultats souhaités et des types de données manipulées. Les fonctions suivantes sont disponibles :
 
-### Syntaxe standard {#standard-syntax}
+### Agrégat
 
-Les expressions standard sont composées d&#39;une ou plusieurs conditions, respectant les éléments de syntaxe suivants :
-
-* Chaque condition est de la forme **&lt;valeur1> &lt;opérateur de comparaison> &lt;valeur2>** où :
-
-   * **&lt;valeur1>** est un champ ou une fonction. Par exemple **@created** pour la date de création d&#39;un profil ou **Year(@created)** pour l&#39;année de création d&#39;un profil.
-   * **&lt;comparison operator=&quot;&quot;>** est l&#39;un des opérateurs listés dans la section Opérateurs de comparaison . Cet opérateur définit la méthode de comparaison entre **&lt;valeur1>** et **&lt;valeur2>**.
-   * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
-
-  >[!NOTE]
-  >
-  >Le type de données de **&lt;valeur1>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;valeur1>** est une date, alors **&lt;valeur2>** doit également être une date.
-
-* Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
-
-   * **[!UICONTROL AND]** : intersection des deux conditions
-   * **[!UICONTROL OR]** : union des deux conditions.
-
-Par exemple :
-
-```
-Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
-```
-
-Dans cet exemple sont ciblés les profils dont la date de création correspond au mois et à l&#39;année courants.
-
-### Syntaxe JavaScript   {#javascript-syntax}
-
-Lors de la définition des conditions de visibilité d&#39;un bloc de type texte de l&#39;éditeur de contenus HTML, vous devez utiliser une expression dont la syntaxe est de type JavaScript.
-
-Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, respectant les éléments de syntaxe suivants :
-
-* Chaque condition est de la forme **&lt;contexte> &lt;opérateur de comparaison> &lt;valeur2>** où :
-
-   * **&lt;contexte>** correspond à un champ ou une fonction permettant de préciser le contexte. Par exemple, **context.profile.@email** pour l&#39;adresse email d&#39;un profil ou **context.profile.firstName.length()** pour le nombre de caractères du prénom d&#39;un profil.
-   * **&lt;comparison operator=&quot;&quot;>** est l&#39;un des opérateurs listés dans la section Opérateurs de comparaison . Cet opérateur définit la méthode de comparaison entre **&lt;contexte>** et **&lt;valeur2>**.
-   * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
-
-  >[!NOTE]
-  >
-  Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
-
-* Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
-
-   * **[!UICONTROL &amp;&amp;]** : intersection des deux conditions
-   * **[!UICONTROL ||]**: union des deux conditions.
-
-Par exemple :
-
-```
-context.profile.age > 21 && context.profile.firstName.length() > 0
-```
-
-Dans cet exemple sont ciblés les profils de plus de 21 ans et dont le prénom est bien renseigné (symbolisé par le fait que le champ **firstName** contienne au moins un caractère).
-
-## Opérateurs de comparaison  {#comparison-operators}
-
-Pour certaines règles, l&#39;éditeur de requêtes vous permet de choisir une valeur afin de définir votre condition.
-
-Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des opérateurs ci-après.
+Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
 
 <table> 
- <thead> 
-  <tr> 
-   <th> Opérateur<br /> </th> 
-   <th> Syntaxe standard<br /> </th> 
-   <th> Syntaxe JavaScript <br /> </th> 
-   <th> Description<br /> </th> 
-   <th> Exemple<br /> </th> 
-  </tr> 
- </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">Egal à</span> <br /> </td> 
-   <td> =<br /> </td> 
-   <td> ==<br /> </td> 
-   <td> La première valeur doit être rigoureusement identique à la seconde valeur.<br /> </td> 
-   <td> <strong>@lastName = Martin</strong> permet de retrouver les profils dont le nom est 'Martin', avec les seuls caractères indiqués.<br /> </td> 
+   <td> <strong>Nom</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntaxe</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Supérieur à</span> <br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> La première valeur doit être strictement supérieure à la seconde valeur.<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> permet de retrouver les profils dont l'âge est supérieur à 50, donc 51, 52, etc.<br /> </td> 
+   <td> <strong>Avg</strong><br /> </td> 
+   <td> Renvoie la moyenne d'une colonne de type numérique<br /> </td> 
+   <td> Avg(&lt;valeur&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Inférieur à</span> <br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> La première valeur doit être strictement inférieure à la seconde valeur.<br /> </td> 
-   <td> <strong>@created &lt; DaysAgo(100)</strong> permet de retrouver tous les profils créés dans la base de données il y a moins de 100 jours.<br /> </td> 
+   <td> <strong>Count</strong><br /> </td> 
+   <td> Compte les valeurs non nulles d'une colonne<br /> </td> 
+   <td> Count(&lt;valeur&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Supérieur ou égal à</span> <br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> La première valeur doit être supérieure ou égale à la seconde valeur.<br /> </td> 
-   <td> <strong>@age &gt;= 30</strong> permet de retrouver les profils âgés de 30 ans et plus.<br /> </td> 
+   <td> <strong>CountAll</strong><br /> </td> 
+   <td> Compte les valeurs retournées (tous champs confondus)<br /> </td> 
+   <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Inférieur ou égal à</span> <br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> La première valeur doit être inférieure ou égale à la seconde valeur.<br /> </td> 
-   <td> <strong>@age &lt;= 60</strong> permet de retrouver les profils âgés de 60 ans ou moins.<br /> </td> 
+   <td> <strong>Countdistinct</strong><br /> </td> 
+   <td> Compte les valeurs distinctes non nulles d'une colonne<br /> </td> 
+   <td> Countdistinct(&lt;valeur&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Différentes </span> <br /> </td> 
-   <td> !=<br /> </td> 
-   <td> !=<br /> </td> 
-   <td> La première valeur doit être différente de la seconde valeur.<br /> </td> 
-   <td> <strong>@Langue != Anglais</strong> permet de retrouver les profils n'étant pas définis comme anglophones.<br /> </td> 
+   <td> <strong>Max</strong><br /> </td> 
+   <td> Renvoie la valeur maximum d'une colonne de type nombre, chaîne ou date<br /> </td> 
+   <td> Max(&lt;valeur&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Contient</span> <br /> </td> 
-   <td> IN<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> La première valeur doit contenir la seconde valeur.<br /> </td> 
-   <td> <strong>@domain IN mail</strong>. Ici, tous les noms de domaine comportant la valeur 'mail' sont retournés en résultat. Par conséquent, le nom de domaine 'gmail.com' fera partie des résultats retournés.<br /> </td> 
+   <td> <strong>Min</strong><br /> </td> 
+   <td> Renvoie la valeur minimum d'une colonne de type nombre, chaîne ou date<br /> </td> 
+   <td> Min(&lt;valeur&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Comme</span> <br /> </td> 
-   <td> LIKE<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> <span class="uicontrol">Comme</span> est quasiment identique à l’opérateur <span class="uicontrol">Contient. </span> Il permet d'insérer un caractère de substitution <span class="uicontrol">%</span> dans la valeur recherchée.<br /> </td> 
-   <td> <strong>@lastName LIKE Mart%n</strong>. Ici, le caractère <strong>%</strong> de substitution sert de "joker" afin de retrouver le nom "Martin" dans le cas hypothétique où l'orthographe d'une valeur n'est pas certaine.<br /> </td> 
+   <td> <strong>StdDev</strong><br /> </td> 
+   <td> Renvoie l'écart type d'une colonne de type nombre<br /> </td> 
+   <td> StdDev(&lt;valeur&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Pas comme</span> <br /> </td> 
-   <td> NOT<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> Similaire à <span class="uicontrol">Comme</span>. Permet de ne pas obtenir la valeur renseignée. La valeur renseignée doit ici aussi comporter le caractère de substitution <span class="uicontrol">%</span>.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. Ici, les destinataires correspondent au nom 'Smi%h' (donc Smith, etc.) ne sont pas renvoyées par conséquent.<br /> </td> 
+   <td> <strong>Sum</strong><br /> </td> 
+   <td> Renvoie la somme des valeurs d'une colonne de type nombre, chaîne ou date<br /> </td> 
+   <td> Sum(&lt;valeur&gt;)<br /></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Date
+
+Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#39;heure.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Nom</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntaxe</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Est vide</span> <br /> </td> 
-   <td> IS NULL<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> La première valeur doit correspondre à une valeur vide.<br /> </td> 
-   <td> <strong>@mobilePhone IS NULL</strong> permet de retrouver tous les profils dont le numéro de téléphone portable n'est pas renseigné.<br /> </td> 
+   <td> <strong>AddDays</strong><br /> </td> 
+   <td> Ajoute un nombre de jours à une date<br /> </td> 
+   <td> AddDays(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddHours</strong><br /> </td> 
+   <td> Ajoute un nombre d'heures à une date<br /> </td> 
+   <td> AddHours(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddMinutes</strong><br /> </td> 
+   <td> Ajoute un nombre de minutes à une date<br /> </td> 
+   <td> AddMinutes(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddMonths</strong><br /> </td> 
+   <td> Ajoute un nombre de mois à une date<br /> </td> 
+   <td> AddMonths(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddSeconds</strong><br /> </td> 
+   <td> Ajoute un nombre de secondes à une date<br /> </td> 
+   <td> AddSeconds(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddYears</strong><br /> </td> 
+   <td> Ajoute un nombre d'années à une date<br /> </td> 
+   <td> AddYears(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>DateOnly</strong><br /> </td> 
+   <td> Renvoie la date uniquement (avec heure à zéro)*<br /> </td> 
+   <td> DateOnly(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Jour</strong><br /> </td> 
+   <td> Renvoie le nombre représentant le jour de la date<br /> </td> 
+   <td> Day(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DayOfYear</strong><br /> </td> 
+   <td> Renvoie le numéro du jour dans l'année de la date<br /> </td> 
+   <td> DayOfYear(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysAgo</strong><br /> </td> 
+   <td> Renvoie la date correspondant à la date courante moins n jours<br /> </td> 
+   <td> DaysAgo(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysAgoInt</strong><br /> </td> 
+   <td> Renvoie la date (entier aaaammjj) correspondant à la date courante moins n jours<br /> </td> 
+   <td> DaysAgoInt(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysDiff</strong><br /> </td> 
+   <td> Nombre de jours entre deux dates<br /> </td> 
+   <td> DaysDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysOld</strong><br /> </td> 
+   <td> Renvoie l'ancienneté en jours d'une date<br /> </td> 
+   <td> DaysOld(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetDate</strong><br /> </td> 
+   <td> Renvoie la date système courante du serveur<br /> </td> 
+   <td> GetDate()<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Hour</strong><br /> </td> 
+   <td> Renvoie l'heure de la date<br /> </td> 
+   <td> Hour(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>HoursDiff</strong><br /> </td> 
+   <td> Renvoie le nombre d'heures entre deux dates<br /> </td> 
+   <td> HoursDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Minute</strong><br /> </td> 
+   <td> Renvoie les minutes de la date<br /> </td> 
+   <td> Minute(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MinutesDiff</strong><br /> </td> 
+   <td> Renvoie le nombre de minutes entre deux dates<br /> </td> 
+   <td> MinutesDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Month</strong><br /> </td> 
+   <td> Renvoie le nombre représentant le mois de la date<br /> </td> 
+   <td> Month(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsAgo</strong><br /> </td> 
+   <td> Renvoie la date correspondant à la date courante moins n mois<br /> </td> 
+   <td> MonthsAgo(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsDiff</strong><br /> </td> 
+   <td> Renvoie le nombre de mois entre deux dates<br /> </td> 
+   <td> MonthsDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsOld</strong><br /> </td> 
+   <td> Renvoie l'ancienneté en mois d'une date<br /> </td> 
+   <td> MonthsOld(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Second</strong><br /> </td> 
+   <td> Renvoie les secondes de la date<br /> </td> 
+   <td> Second(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SecondsDiff</strong><br /> </td> 
+   <td> Renvoie le nombre de secondes entre deux dates<br /> </td> 
+   <td> SecondsDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubDays</strong><br /> </td> 
+   <td> Enlève un nombre de jours à une date<br /> </td> 
+   <td> SubDays(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubHours</strong><br /> </td> 
+   <td> Enlève un nombre d'heures à une date<br /> </td> 
+   <td> SubHours(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubMinutes</strong><br /> </td> 
+   <td> Enlève un nombre de minutes à une date<br /> </td> 
+   <td> SubMinutes(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubMonths</strong><br /> </td> 
+   <td> Enlève un nombre de mois à une date<br /> </td> 
+   <td> SubMonths(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubSeconds</strong><br /> </td> 
+   <td> Enlève un nombre de secondes à une date<br /> </td> 
+   <td> SubSeconds(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubYears</strong><br /> </td> 
+   <td> Enlève un nombre d'années à une date<br /> </td> 
+   <td> SubYears(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDate</strong><br /> </td> 
+   <td> Convertit une date + heure en date seule<br /> </td> 
+   <td> ToDate(&lt;date + heure&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDateTime</strong><br /> </td> 
+   <td> Convertit une chaîne en date + heure<br /> </td> 
+   <td> ToDateTime(&lt;chaîne&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncDate</strong><br /> </td> 
+   <td> Arrondit une date + heure à la seconde<br /> </td> 
+   <td> TruncDate(@lastModified, &lt;nombre de secondes&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>TruncDateTZ</strong><br /> </td> 
+   <td> Arrondit une date + heure à la seconde près<br /> </td> 
+   <td> TruncDateTZ(&lt;date&gt;, &lt;nombre de secondes&gt;, &lt;fuseau horaire&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>TruncQuarter</strong><br /> </td> 
+   <td> Arrondit une date au trimestre<br /> </td> 
+   <td> TruncQuarter(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncTime</strong><br /> </td> 
+   <td> Arrondit la partie heure à la seconde<br /> </td> 
+   <td> TruncTim(e&lt;date&gt;, &lt;nombre de secondes&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> Arrondit une date à la semaine<br /> </td> 
+   <td> TruncWeek(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncYear</strong><br /> </td> 
+   <td> Arrondit une date + heure au premier janvier de l'année<br /> </td> 
+   <td> TruncYear(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> Renvoie le numéro du jour dans la semaine de la date<br /> </td> 
+   <td> WeekDay(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Year</strong><br /> </td> 
+   <td> Renvoie le nombre représentant l'année de la date<br /> </td> 
+   <td> Year(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearAnd Month</strong><br /> </td> 
+   <td> Renvoie le nombre représentant l'année et le mois de la date<br /> </td> 
+   <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearsDiff</strong><br /> </td> 
+   <td> Renvoie le nombre d'années entre deux dates<br /> </td> 
+   <td> YearsDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearsOld</strong><br /> </td> 
+   <td> Renvoie l'ancienneté en années d'une date<br /> </td> 
+   <td> YearsOld(&lt;date&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>Notez que la fonction **Dateonly** prend uniquement le fuseau horaire du serveur, et non celui de l&#39;opérateur.
+
+### Géomarketing
+
+Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géographiques.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Nom</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntaxe</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Distance</strong><br /> </td> 
+   <td> Renvoie la distance entre deux points définis par leur longitude et leur latitude, exprimées en degrés.<br /> </td> 
+   <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Numérique
+
+Les fonctions numériques sont utilisées pour convertir du texte en nombres.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Nom</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntaxe</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Abs</strong><br /> </td> 
+   <td> Renvoie la valeur absolue d'un nombre<br /> </td> 
+   <td> Abs(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Ceil</strong><br /> </td> 
+   <td> Renvoie le plus petit entier supérieur ou égal à un nombre<br /> </td> 
+   <td> Ceil(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Floor</strong><br /> </td> 
+   <td> Renvoie le plus grand entier supérieur ou égal à un nombre<br /> </td> 
+   <td> Floor(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Greatest</strong><br /> </td> 
+   <td> Renvoie le plus grand de deux nombres<br /> </td> 
+   <td> Greatest(&lt;nombre 1&gt;, &lt;nombre 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Least</strong><br /> </td> 
+   <td> Renvoie le plus petit de deux nombres<br /> </td> 
+   <td> Least(&lt;nombre 1&gt;, &lt;nombre 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Mod</strong><br /> </td> 
+   <td> Renvoie le reste de la division entiers de n1 par n2<br /> </td> 
+   <td> Mod(&lt;nombre 1&gt;, &lt;nombre 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Percent</strong><br /> </td> 
+   <td> Renvoie la proportion en pourcentage entre deux nombres<br /> </td> 
+   <td> Percent(&lt;nombre 1&gt;, &lt;nombre 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Random</strong><br /> </td> 
+   <td> Renvoie une valeur aléatoire<br /> </td> 
+   <td> Random()<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Round</strong><br /> </td> 
+   <td> Arrondit un nombre à n décimales près<br /> </td> 
+   <td> Round(&lt;nombre&gt;, &lt;nombre de décimales&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Sign</strong><br /> </td> 
+   <td> Renvoie le signe du nombre<br /> </td> 
+   <td> Sign(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDouble</strong><br /> </td> 
+   <td> Convertit un entier en réel<br /> </td> 
+   <td> ToDouble(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInt64</strong><br /> </td> 
+   <td> Convertit un réel en entier 64 bits<br /> </td> 
+   <td> ToInt64(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInteger</strong><br /> </td> 
+   <td> Convertit un réel en entier<br /> </td> 
+   <td> ToInteger(&lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Trunc</strong><br /> </td> 
+   <td> Tronque n1 à n2 décimales<br /> </td> 
+   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Autres
+
+Ce tableau contient les autres fonctions disponibles.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Nom</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntaxe</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Case</strong><br /> </td> 
+   <td> Renvoie la valeur 1 si la condition est vraie. Si ce n’est pas le cas, la valeur 2 est renvoyée.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;valeur 1&gt;), Else(&lt;valeur 2&gt;))<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>ClearBit</strong><br /> </td> 
+   <td> Efface le Flag dans la valeur<br /> </td> 
+   <td> ClearBit(&lt;identifiant&gt;, &lt;flag&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Coalesce</strong><br /> </td> 
+   <td> Renvoie la valeur 2 si la valeur 1 est nulle ou vide (null), sinon renvoie la valeur 1<br /> </td> 
+   <td> Coalesce(&lt;valeur 1&gt;, &lt;valeur 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Decode</strong><br /> </td> 
+   <td> Renvoie la valeur 3 si la valeur 1 = la valeur 2. Si elle ne renvoie pas la valeur 4.<br /> </td> 
+   <td> Decode(&lt;valeur 1&gt;, &lt;valeur 2&gt;, &lt;valeur 3&gt;, &lt;valeur 4&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Else</strong><br /> </td> 
+   <td> Renvoie la valeur 1 (ne peut être utilisée qu'en paramètre de la fonction Case)<br /> </td> 
+   <td> Else(&lt;valeur 1&gt;, &lt;valeur 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetEmailDomain</strong><br /> </td> 
+   <td> Extrait le domaine d'une adresse e-mail<br /> </td> 
+   <td> GetEmailDomain(&lt;valeur&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetMirrorURL</strong><br /> </td> 
+   <td> Récupère l'URL du serveur de page miroir<br /> </td> 
+   <td> GetMirrorURL(&lt;valeur&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Iif</strong><br /> </td> 
+   <td> Renvoie la valeur 1 si l’expression est vraie. Sinon, renvoie la valeur 2<br /> </td> 
+   <td> Iif(&lt;condition&gt;, &lt;valeur 1&gt;, &lt;valeur 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsBitSet</strong><br /> </td> 
+   <td> Indique si le Flag est présent dans la valeur<br /> </td> 
+   <td> IsBitSet(&lt;identifiant&gt;, &lt;flag&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsEmptyString</strong><br /> </td> 
+   <td> Renvoie la valeur 2 si la chaîne 1 est vide, sinon renvoie la valeur 3<br /> </td> 
+   <td> IsEmptyString(&lt;valeur 1&gt;, &lt;valeur 2&gt;, &lt;valeur 3&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>NoNull</strong><br /> </td> 
+   <td> Renvoie la chaîne vide si l'argument n'a pas de valeur (null)<br /> </td> 
+   <td> NoNull(&lt;valeur&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>RowId</strong><br /> </td> 
+   <td> Renvoie le numéro de la ligne<br /> </td> 
+   <td> RowId<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>SetBit</strong><br /> </td> 
+   <td> Force le Flag dans la valeur<br /> </td> 
+   <td> SetBit(&lt;identifiant&gt;, &lt;flag&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToBoolean</strong><br /> </td> 
+   <td> Convertit un nombre en booléen<br /> </td> 
+   <td> ToBoolean(&lt;nombre&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>When</strong><br /> </td> 
+   <td> Renvoie la valeur 1 si l’expression est vraie. Sinon, elle renvoie la valeur 2 (ne peut être utilisée qu'en paramètre de la fonction Case)<br /> </td> 
+   <td> When(&lt;condition&gt;, &lt;valeur 1&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Chaîne
+
+Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Nom</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntaxe</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull2</strong><br /> </td> 
+   <td> Indique si tous les paramètres sont non nuls et non vides<br /> </td> 
+   <td> AllNonNull2(&lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull3</strong><br /> </td> 
+   <td> Indique si tous les paramètres sont non nuls et non vides<br /> </td> 
+   <td> AllNonNull3(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ascii</strong><br /> </td> 
+   <td> Renvoie la valeur ascii du premier caractère de la chaîne.<br /> </td> 
+   <td> Ascii(&lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Char</strong><br /> </td> 
+   <td> Renvoie le caractère de code ascii n<br /> </td> 
+   <td> Char(&lt;nombre&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Charindex</strong><br /> </td> 
+   <td> Retourne la position de la chaîne 2 dans la chaîne 1.<br /> </td> 
+   <td> Charindex(&lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>GetLine</strong><br /> </td> 
+   <td> Renvoie la nième (de 1 à n) ligne de la chaîne<br /> </td> 
+   <td> GetLine(&lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IfEquals</strong><br /> </td> 
+   <td> Renvoie le troisième paramètre si les deux premiers paramètres sont égaux. Sinon, renvoie le dernier paramètre<br /> </td> 
+   <td> IfEquals(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IsMemoNull</strong><br /> </td> 
+   <td> Indique si le memo passé en paramètre est nul<br /> </td> 
+   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords</strong><br /> </td> 
+   <td> Concatène les chaînes transmises en tant que paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
+   <td> JuxtWords(&lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords3</strong><br /> </td> 
+   <td> Concatène les chaînes transmises en tant que paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
+   <td> JuxtWords3(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> Renvoie la chaîne complétée à gauche<br /> </td> 
+   <td> LPad(&lt;chaîne&gt;, &lt;nombre&gt;, &lt;caractère&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Left</strong><br /> </td> 
+   <td> Renvoie les n premiers caractères de la chaîne<br /> </td> 
+   <td> Left(&lt;chaîne&gt;, &lt;nombre&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Length</strong><br /> </td> 
+   <td> Renvoie la longueur de la chaîne<br /> </td> 
+   <td> Length(&lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Lower</strong><br /> </td> 
+   <td> Renvoie la chaîne en minuscules<br /> </td> 
+   <td> Lower(&lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ltrim</strong><br /> </td> 
+   <td> Ote les espaces à gauche de la chaîne<br /> </td> 
+   <td> Ltrim(&lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Md5Digest</strong><br /> </td> 
+   <td> Renvoie une représentation hexadécimale de la clé MD5 d'une chaîne<br /> </td> 
+   <td> Md5Digest(&lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>MemoContains</strong><br /> </td> 
+   <td> Indique si le mémo contient la chaîne passée en paramètre<br /> </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> Renvoie la chaîne complétée à droite<br /> </td> 
+   <td> RPad(&lt;chaîne&gt;, &lt;nombre&gt;, &lt;caractère&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Right</strong><br /> </td> 
+   <td> Renvoie les n derniers caractères de la chaîne<br /> </td> 
+   <td> Right(&lt;chaîne&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Rtrim</strong><br /> </td> 
+   <td> Ote les espaces à droite de la chaîne<br /> </td> 
+   <td> Rtrim(&lt;chaîne&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Smart</strong><br /> </td> 
+   <td> Renvoie la chaîne avec la première lettre de chaque mot en majuscule<br /> </td> 
+   <td> Smart(&lt;chaîne&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Substring</strong><br /> </td> 
+   <td> Extrait la sous-chaîne débutant au caractère n1 de la chaîne et de longueur n2<br /> </td> 
+   <td> Substring(&lt;chaîne&gt;, &lt;départ&gt;, &lt;longueur&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToString</strong><br /> </td> 
+   <td> Convertit le nombre en chaîne<br /> </td> 
+   <td> ToString(&lt;nombre&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Upper</strong><br /> </td> 
+   <td> Renvoie la chaîne en majuscules<br /> </td> 
+   <td> Upper(&lt;chaîne&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLink</strong><br /> </td> 
+   <td> Renvoie la clé étrangère d'un lien passée en premier paramètre, si les deux autres paramètres sont égaux<br /> </td> 
+   <td> VirtualLink(&lt;nombre&gt;, &lt;nombre&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLinkStr</strong><br /> </td> 
+   <td> Renvoie la clé étrangère (texte) d'un lien passée en premier paramètre, si les deux autres paramètres sont égaux<br /> </td> 
+   <td> VirtualLinkStr(&lt;chaîne&gt;, &lt;nombre&gt;, &lt;nombre&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> Renvoie la taille de la chaîne<br /> </td> 
+   <td> dataLength(&lt;chaîne&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Fenêtre
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Nom</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntaxe</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Desc</strong><br /> </td> 
+   <td> Applique un tri descendant<br /> </td> 
+   <td> Desc(&lt;valeur 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>OrderBy</strong><br /> </td> 
+   <td> Trie le résultat au sein de la partition<br /> </td> 
+   <td> OrderBy(&lt;valeur 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>PartitionBy</strong><br /> </td> 
+   <td> Partitionne le résultat d'une requête sur une table<br /> </td> 
+   <td> PartitionBy(&lt;valeur 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>RowNum</strong><br /> </td> 
+   <td> Génère un numéro de ligne en fonction de la partition de la table et d'un ordre de tri.<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;valeur 1&gt;), OrderBy(&lt;valeur 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
