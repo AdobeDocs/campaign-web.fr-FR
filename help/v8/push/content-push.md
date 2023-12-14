@@ -4,10 +4,10 @@ title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 87%
+source-wordcount: '1605'
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,15 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Message push iOS"
->abstract="Définissez le titre et le contenu de votre message push iOS. Utilisez la boîte de dialogue de personnalisation pour personnaliser le contenu et ajouter des conditions."
+>abstract="Définissez le contenu de votre notification push pour les appareils iOS. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l&#39;éditeur d&#39;expression pour personnaliser les données et ajouter du contenu dynamique. Pour une configuration plus personnalisée, accédez à la page **Paramètres avancés** ."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="Message push iOS"
+>abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l&#39;éditeur d&#39;expression pour personnaliser les données et ajouter du contenu dynamique. Pour personnaliser davantage votre notification push, vous pouvez choisir une image à ajouter à votre notification push, l&#39;icône de la notification qui s&#39;affichera sur les appareils de vos profils et sa couleur. Pour une configuration plus personnalisée, accédez à la page **Paramètres avancés** ."
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -87,7 +95,7 @@ Le mode Notification silencieuse permet d’envoyer une notification « silenci
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Numéro de badge"
+>title="Nombre de notifications"
 >abstract="Utilisez cette option pour définir le nombre de nouvelles informations non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur de voir rapidement le nombre de notifications en attente."
 
 
@@ -139,7 +147,7 @@ Les options avancées dépendent du système d’exploitation mobile : Android o
 
 | Paramètre | Description |
 |---------|---------|
-| **[!UICONTROL Mode d’alerte critique]** | Activez cette option pour ajouter du son à votre notification, même si le téléphone de la personne est en mode Concentration ou si l’appareil est en mode silencieux. Vous vous assurerez ainsi que les alertes importantes sont remarquées par la personne. |
+| **[!UICONTROL Mode d’alerte critique]** | Activez cette option pour ajouter du son à votre notification, même si le téléphone de la personne est en mode Concentration ou si l’appareil est en mode silencieux. Cela permet de s’assurer que les alertes importantes sont remarquées par l’utilisateur. Lorsque cette option est sélectionnée, vous pouvez régler le volume de la notification à partir de la barre de niveau Volume . Un nombre compris entre 0 et 100 au-dessus de la barre reflète vos paramètres. |
 | **[!UICONTROL Nettoyer la pastille]** | Activez cette option pour actualiser la valeur du badge affichée sur l’icône de l’application. Vous vous assurerez ainsi que le badge reflète exactement le nombre de nouvelles informations non lues. |
 | **[!UICONTROL Nombre de notifications]** | Définissez un nombre qui s’affichera directement sur l’icône de l’application, indiquant le nombre de nouvelles informations non lues. Vous obtiendrez ainsi une référence visuelle rapide pour l’utilisateur ou l’utilisatrice. |
 | **[!UICONTROL Volume]** | Volume de votre son de 0 à 100. |
