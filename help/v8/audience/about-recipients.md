@@ -3,10 +3,10 @@ title: Utiliser des destinataires et des audiences
 description: Découvrez comment utiliser des destinataires Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 98%
+source-wordcount: '1049'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 98%
 Dans Adobe Campaign, la population cible d’une diffusion est une audience. Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée [comme décrit ci-dessous](#audiences). Dans la plupart des cas, l’audience est composée de profils stockés sous la forme de [destinataires](#recipients) dans Adobe Campaign. Vous pouvez également travailler avec d’autres mappings de ciblage en modifiant la dimension, tel qu’expliqué [dans cette section](#targeting-dimensions).
 
 ## Que sont les destinataires ? {#recipients}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="Destinataires"
+>abstract="Créez de nouveaux destinataires et surveillez-les à l’aide de puissants rapports et outils. Accédez au profil de votre destinataire, utilisez les options de filtrage pour parcourir la liste des destinataires, éditer et mettre à jour ses attributs."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -80,7 +86,7 @@ Par défaut, les modèles de diffusion par e-mail et SMS ciblent les **[!UICONTR
 
 Vous pouvez également utiliser d’autres mappings de ciblage intégrés dans vos workflows et diffusions répertoriés ci-dessous :
 
-| Nom | Utilisation à | Schéma |
+| Nom | Utilisez pour | Schéma |
 |---|---|---|
 | Destinataires | Diffuser aux destinataires (tableau de destinataires intégré) | nms:recipient |
 | Visiteurs | Diffuser aux visiteurs dont les profils ont été collectés par le biais d’une recommandation (marketing viral), par exemple. | mns:visitor |
