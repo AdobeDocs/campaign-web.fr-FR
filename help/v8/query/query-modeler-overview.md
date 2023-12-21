@@ -2,9 +2,9 @@
 audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le modeleur de requêtes web Adobe Campaign.
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: c89760f342c270a9bb775db1c0b5ba2e92fd64f7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '273'
 ht-degree: 16%
 
 ---
@@ -24,15 +24,58 @@ Adobe Campaign Web comporte un modèle de requête qui simplifie le processus de
 Le créateur de modèles de requête est disponible dans chaque contexte où vous devez définir des règles pour filtrer les données.
 
 * **Définition des audiences**: indiquez la population que vous souhaitez cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins.
+
+  +++Exemple
+
+  ![](assets/access-audience.png)
+
++++
+
 * **Personnalisation des activités de workflow**: appliquez des règles dans les activités de workflow, telles que Partage et Réconciliation, afin de répondre à vos besoins spécifiques,
-* **Dynamiser le contenu**: rendez votre contenu dynamique en créant des conditions qui définissent quel contenu doit être affiché pour différents destinataires, en veillant à la personnalisation et à la pertinence des messages.
+
+  +++Exemple
+
+  ![](assets/access-workflow.png)
+
++++
+
+<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+
+    +++Example
+
+    ![](assets/access-audience.png)
+
+    +++
+-->
+
 * **Filtres prédéfinis**: créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion.
+
+  +++Exemple
+
+  ![](assets/access-predefined-filter.png)
+
++++
+
 * **Filtrage des données de rapports**: ajoutez une règle pour filtrer les données affichées dans les rapports.
+
+  +++Exemple
+
+  ![](assets/access-reports.png)
+
++++
+
+* **Personnalisation des listes**: créez des règles personnalisées pour filtrer les données affichées dans les listes telles que les destinataires, les listes de diffusions, etc.
+
+  +++Exemple
+
+  ![](assets/access-lists.png)
+
++++
 
 ## Interface du Query modeler {#interface}
 
 Le créateur de modèles de requêtes fournit un canevas central où vous pouvez ajouter et combiner les différents composants qui construisent votre requête.
 
-Sur le côté droit, le volet Propriétés de la règle fournit des informations sur votre requête. Il vous permet d’effectuer diverses opérations pour vérifier votre requête et vous assurer qu’elle correspond à vos besoins. Découvrez comment vérifier et valider votre requête (lien à déterminer)
+Sur le côté droit, le volet Propriétés de la règle fournit des informations sur votre requête. Il vous permet d’effectuer diverses opérations pour vérifier votre requête et vous assurer qu’elle correspond à vos besoins. Découvrez comment vérifier et valider votre requête
 
 ![](assets/query-interface.png)
