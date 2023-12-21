@@ -2,10 +2,10 @@
 audience: end-user
 title: Créez votre première requête à l’aide du créateur de modèles de requête.
 description: Découvrez comment créer votre première requête dans Adobe Campaign Web query modeler.
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 83%
+source-wordcount: '1846'
+ht-degree: 80%
 
 ---
 
@@ -127,6 +127,11 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
    <td> AddYears(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> Convertit l’horodatage NTZ (horodatage sans fuseau horaire) en TZ (horodatage avec fuseau horaire) en application de la valeur TZ de session définie<br/> </td> 
+   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Renvoie la date uniquement (avec heure à zéro)*<br /> </td> 
    <td> DateOnly(&lt;date&gt;)<br /> </td>  
@@ -205,6 +210,11 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> Renvoie l'ancienneté en mois d'une date<br /> </td> 
    <td> MonthsOld(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> Renvoie la date la plus ancienne d'une plage<br /> </td> 
+   <td> Le plus ancien (&lt;date date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -287,8 +297,8 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
    <td> TruncYear(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Renvoie le numéro du jour dans la semaine de la date<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> Renvoie un nombre représentant le jour dans la semaine de la date (0=lundi, 6=dimanche)<br /> </td> 
    <td> WeekDay(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> Renvoie le nombre représentant l'année et le mois de la date<br /> </td> 
    <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>YearsAgo</strong><br /> </td> 
+   <td> Renvoie le nombre d'années entre deux dates spécifiées<br /> </td> 
+   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
