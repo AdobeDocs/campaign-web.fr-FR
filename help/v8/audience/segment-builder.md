@@ -5,7 +5,7 @@ description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
 source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
 ht-degree: 100%
 

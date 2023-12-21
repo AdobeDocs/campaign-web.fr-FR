@@ -5,8 +5,8 @@ description: Découvrez comment concevoir le contenu des e-mails en partant de z
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
-source-wordcount: '583'
+workflow-type: ht
+source-wordcount: '586'
 ht-degree: 100%
 
 ---
