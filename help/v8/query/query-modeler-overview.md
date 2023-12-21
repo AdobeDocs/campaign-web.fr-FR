@@ -2,7 +2,7 @@
 audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le modeleur de requêtes web Adobe Campaign.
-source-git-commit: c89760f342c270a9bb775db1c0b5ba2e92fd64f7
+source-git-commit: 3ee80257ded04bce0333396916df71ff296f3eca
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 16%
@@ -23,52 +23,52 @@ Adobe Campaign Web comporte un modèle de requête qui simplifie le processus de
 
 Le créateur de modèles de requête est disponible dans chaque contexte où vous devez définir des règles pour filtrer les données.
 
-* **Définition des audiences**: indiquez la population que vous souhaitez cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins.
+**Définition des audiences**: indiquez la population que vous souhaitez cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins. <!--(LINK TBD)-->
 
-  +++Exemple
++++Exemple
 
-  ![](assets/access-audience.png)
-
-+++
-
-* **Personnalisation des activités de workflow**: appliquez des règles dans les activités de workflow, telles que Partage et Réconciliation, afin de répondre à vos besoins spécifiques,
-
-  +++Exemple
-
-  ![](assets/access-workflow.png)
+![](assets/access-audience.png)
 
 +++
 
-<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+**Personnalisation des activités de workflow**: appliquez des règles dans les activités de workflow, telles que Partage et Réconciliation, afin de respecter vos besoins spécifiques. <!--(LINK TBD)-->
 
-    +++Example
++++Exemple
 
-    ![](assets/access-audience.png)
+![](assets/access-workflow.png)
 
-    +++
++++
+
+<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+
++++Example
+
+![](assets/access-audience.png)
+
+ +++
 -->
 
-* **Filtres prédéfinis**: créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion.
+**Filtres prédéfinis**: créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion. <!--(LINK TBD)-->
 
-  +++Exemple
++++Exemple
 
-  ![](assets/access-predefined-filter.png)
-
-+++
-
-* **Filtrage des données de rapports**: ajoutez une règle pour filtrer les données affichées dans les rapports.
-
-  +++Exemple
-
-  ![](assets/access-reports.png)
+![](assets/access-predefined-filter.png)
 
 +++
 
-* **Personnalisation des listes**: créez des règles personnalisées pour filtrer les données affichées dans les listes telles que les destinataires, les listes de diffusions, etc.
+**Filtrage des données de rapports**: ajoutez une règle pour filtrer les données affichées dans les rapports. <!--(LINK TBD)-->
 
-  +++Exemple
++++Exemple
 
-  ![](assets/access-lists.png)
+![](assets/access-reports.png)
+
++++
+
+**Personnalisation des listes**: créez des règles personnalisées pour filtrer les données affichées dans les listes telles que les destinataires, les listes de diffusions, etc. <!--(LINK TBD)-->
+
++++Exemple
+
+![](assets/access-lists.png)
 
 +++
 
