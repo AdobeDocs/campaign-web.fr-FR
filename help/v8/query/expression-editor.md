@@ -2,10 +2,10 @@
 audience: end-user
 title: Créez votre première requête à l’aide du créateur de modèles de requête.
 description: Découvrez comment créer votre première requête dans Adobe Campaign Web query modeler.
-source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
+source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 80%
+source-wordcount: '1917'
+ht-degree: 77%
 
 ---
 
@@ -313,8 +313,8 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
   </tr>
   <tr> 
    <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> Renvoie le nombre d'années entre deux dates spécifiées<br /> </td> 
-   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
+   <td> Renvoie le nombre d'années entre une date donnée et la date courante<br /> </td> 
+   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -447,6 +447,11 @@ Ce tableau contient les autres fonctions disponibles.
    <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntaxe</strong><br /> </td> 
   </tr> 
+  <!--MISSING INFO<tr> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+  </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Renvoie la valeur 1 si la condition est vraie. Si ce n’est pas le cas, la valeur 2 est renvoyée.<br /> </td> 
@@ -467,6 +472,11 @@ Ce tableau contient les autres fonctions disponibles.
    <td> Renvoie la valeur 3 si la valeur 1 = la valeur 2. Si elle ne renvoie pas la valeur 4.<br /> </td> 
    <td> Decode(&lt;valeur 1&gt;, &lt;valeur 2&gt;, &lt;valeur 3&gt;, &lt;valeur 4&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>DefaultFolder</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Renvoie la valeur 1 (ne peut être utilisée qu'en paramètre de la fonction Case)<br /> </td> 
@@ -497,6 +507,11 @@ Ce tableau contient les autres fonctions disponibles.
    <td> Renvoie la valeur 2 si la chaîne 1 est vide, sinon renvoie la valeur 3<br /> </td> 
    <td> IsEmptyString(&lt;valeur 1&gt;, &lt;valeur 2&gt;, &lt;valeur 3&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Renvoie la chaîne vide si l'argument n'a pas de valeur (null)<br /> </td> 
@@ -562,6 +577,11 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> Charindex(&lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> Renvoie la taille en octets de la chaîne<br /> </td> 
+   <td> dataLength(&lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Renvoie la nième (de 1 à n) ligne de la chaîne<br /> </td> 
    <td> GetLine(&lt;chaîne&gt;)<br /></td> 
@@ -587,11 +607,6 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> JuxtWords3(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> Renvoie la chaîne complétée à gauche<br /> </td> 
-   <td> LPad(&lt;chaîne&gt;, &lt;nombre&gt;, &lt;caractère&gt;)<br /></td> 
-  </tr> 
-  <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Renvoie les n premiers caractères de la chaîne<br /> </td> 
    <td> Left(&lt;chaîne&gt;, &lt;nombre&gt;)<br /></td> 
@@ -601,10 +616,20 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> Renvoie la longueur de la chaîne<br /> </td> 
    <td> Length(&lt;chaîne&gt;)<br /></td> 
   </tr> 
+  <!--<tr> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> -->
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Renvoie la chaîne en minuscules<br /> </td> 
    <td> Lower(&lt;chaîne&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> Renvoie la chaîne complétée à gauche<br /> </td> 
+   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -622,9 +647,9 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> MemoContains(&lt;memo&gt;, &lt;chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> Renvoie la chaîne complétée à droite<br /> </td> 
-   <td> RPad(&lt;chaîne&gt;, &lt;nombre&gt;, &lt;caractère&gt;)<br /></td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> Extrait la valeur d'un champ XML de son XPath et des données de champ<br /> </td> 
+   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -632,9 +657,24 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> Right(&lt;chaîne&gt;)<br /> </td> 
   </tr> 
   <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> Renvoie la chaîne complétée à droite<br /> </td> 
+   <td> RPad(&lt;chaîne&gt;, &lt;nombre&gt;, &lt;caractère&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> Ote les espaces à droite de la chaîne<br /> </td> 
    <td> Rtrim(&lt;chaîne&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha256Digest</strong><br /> </td> 
+   <td> Représentation hexadécimale de la clé SHA256 d’une chaîne.<br /> </td> 
+   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha512Digest</strong><br /> </td> 
+   <td> Représentation hexadécimale de la clé SHA512 d’une chaîne.<br /> </td> 
+   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -666,11 +706,6 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> Renvoie la clé étrangère (texte) d'un lien passée en premier paramètre, si les deux autres paramètres sont égaux<br /> </td> 
    <td> VirtualLinkStr(&lt;chaîne&gt;, &lt;nombre&gt;, &lt;nombre&gt;)<br /> </td>  
   </tr> 
-  <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> Renvoie la taille de la chaîne<br /> </td> 
-   <td> dataLength(&lt;chaîne&gt;)<br /> </td>  
-  </tr> 
  </tbody> 
 </table>
 
@@ -682,6 +717,11 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> <strong>Nom</strong><br /> </td> 
    <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntaxe</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> Exécutez l’appel de fonction SQL saisi en tant que premier paramètre, sur Partition ou Order By les champs saisis en tant que deuxième paramètre.<br /> </td> 
+   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
