@@ -3,10 +3,10 @@ title: Utiliser des destinataires et des audiences
 description: Découvrez comment utiliser des destinataires Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 95%
+source-wordcount: '1060'
+ht-degree: 94%
 
 ---
 
@@ -19,8 +19,8 @@ Dans Adobe Campaign, la population cible d’une diffusion est une audience. Un
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="Destinataires"
->abstract="Créez de nouveaux destinataires et surveillez-les à l’aide de puissants rapports et outils. Accédez au profil de votre destinataire, utilisez les options de filtrage pour parcourir la liste des destinataires, éditer et mettre à jour ses attributs."
+>title="360 vues de vos destinataires"
+>abstract="Créez de nouveaux destinataires et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de votre destinataire. Utilisez les options de filtrage pour parcourir la liste des destinataires, éditer et mettre à jour leur profil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Voir les notes de mise à jour"
 
 
