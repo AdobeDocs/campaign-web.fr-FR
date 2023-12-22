@@ -2,15 +2,20 @@
 audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le modeleur de requêtes web Adobe Campaign.
-source-git-commit: 94350335df08ae9c24d88843c77554db1890ab4d
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 17%
+source-wordcount: '321'
+ht-degree: 14%
 
 ---
 
 # Utiliser le concepteur de requête {#segment-builder}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Nouveau modèle de requête"
+>abstract="Adobe Campaign Web comporte un modèle de requête qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés. Le créateur de modèles de requête est disponible dans chaque contexte où vous devez définir des règles pour filtrer les données."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"

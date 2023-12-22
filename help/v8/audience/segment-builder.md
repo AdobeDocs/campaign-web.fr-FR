@@ -4,19 +4,15 @@ title: Créer une audience à l’aide du créateur de règles de Campaign
 description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
-workflow-type: ht
-source-wordcount: '612'
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+workflow-type: tm+mt
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
 
 # Utiliser le créateur de règles {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Audiences cibles"
->abstract="Créer une cible de diffusion n’a jamais été aussi facile. Avec notre dernier créateur de règles en date, vous pouvez désormais définir des critères de filtrage pour les personnes destinataires ou toute autre dimension de ciblage de la base de données. Profitez de l’audience Adobe Experience Platform pour affiner davantage votre audience cible et optimiser l’impact de votre campagne."
 
 Le créateur de règles permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. Vous pouvez l’utiliser pour créer une audience à partir d’un workflow à l’aide d’une activité **[!UICONTROL Créer une audience]** ou directement lors de la création d’une diffusion pour créer une audience unique.
 
