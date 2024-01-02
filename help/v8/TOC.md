@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 96%
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 96%
    + [Rechercher de l’aide et des conseils](get-started/using-ai.md)
 + Messages et diffusions {#msg}
    + [Prise en main des messages](msg/gs-messages.md)
-   + [Utilisation des diffusions](msg/gs-deliveries.md)
-   + [Utilisation de modèles de diffusion](msg/delivery-template.md)
+   + [Utiliser les diffusions](msg/gs-deliveries.md)
+   + [Utiliser des modèles de diffusion](msg/delivery-template.md)
    + E-mails {#email}
       + [Créer votre premier e-mail](email/create-email.md)
       + Définir le contenu d’un email {#content}
@@ -122,6 +122,8 @@ ht-degree: 96%
       + [E-mail, SMS, notification push](workflows/activities/channels.md)
       + [Enrichissement](workflows/activities/enrichment.md)
       + [Branchement](workflows/activities/fork.md)
+      + [Chargement de fichier ](workflows/activities/load-file.md)
+      + [Réconciliation](workflows/activities/reconciliation.md)
       + [Sauvegarde d’audience](workflows/activities/save-audience.md)
       + [Planificateur](workflows/activities/scheduler.md)
       + [Partage](workflows/activities/split.md)
@@ -129,7 +131,7 @@ ht-degree: 96%
 + Interrogation de la base de données {#query-database}
    + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
-   + [Editer les expressions](query/expression-editor.md)
+   + [Éditer les expressions](query/expression-editor.md)
    + [Exemples de requêtes](query/query-samples.md)
 + Rapports {#reports}
    + [Commencer avec les rapports](reporting/gs-reports.md)

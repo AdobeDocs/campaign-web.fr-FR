@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1388'
 ht-degree: 100%
 
 ---
@@ -388,52 +388,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="Activité Réconciliation"
->abstract="Utilisez l’activité **Réconciliation** pour relier des données non identifiées à des ressources existantes."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="Ciblage de réconciliation"
->abstract="Ciblage de réconciliation"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="Règles de réconciliation"
->abstract="Règles de réconciliation"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="Dimension de ciblage de réconciliation"
->abstract="Dimension de ciblage de réconciliation"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="Champ de sélection de la réconciliation"
->abstract="Champ de sélection de la réconciliation"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="Attribut de sélection de la réconciliation"
->abstract="Attribut de sélection de la réconciliation"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="Condition de création de réconciliation"
->abstract="Condition de création de réconciliation"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="Complément de génération de réconciliation"
->abstract="Complément de génération de réconciliation"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="Option Conserver les données non réconciliées"
->abstract="Option Conserver les données non réconciliées"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -537,42 +491,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="Activité Chargement de fichier"
->abstract="Activité Chargement de fichier"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="Exemple de fichier"
->abstract="Exemple de fichier"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="Nom du fichier"
->abstract="Nom du fichier"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Base de données cible"
->abstract="Base de données cible"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="Gestion des rejets pour l’activité Chargement de fichier"
->abstract="Gestion des rejets pour l’activité Chargement de fichier"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="Transition sortante de la gestion des rejets"
->abstract="Transition sortante de la gestion des rejets"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Transition sortante de la gestion des rejets (pour les rejets)"
->abstract="Transition sortante de la gestion des rejets (pour les rejets)"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="Mise en forme de l’activité Chargement de fichier"
->abstract="Mise en forme de l’activité Chargement de fichier"

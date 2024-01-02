@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 86%
 
 ---
 
@@ -21,26 +21,25 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Définition des colonnes"
->abstract="Vérifiez le format des colonnes à insérer à partir de votre fichier local."
+>abstract="Vérifiez le format des colonnes dans le fichier externe."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Paramètres de formatage"
->abstract="Vérifiez les paramètres de formatage de votre fichier."
+>abstract="Vérifiez les paramètres de formatage du fichier externe."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Prévisualisez votre fichier"
->abstract="Vérifiez la prévisualisation de votre fichier. Cet écran n’affiche que 30 enregistrements au maximum."
+>abstract="Vérifiez l&#39;aperçu des colonnes du fichier externe. Cet écran n’affiche que 30 enregistrements au maximum."
 
 
-
-Il est impossible de charger directement des profils dans Campaign à partir de l’interface, mais vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
+Vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Cet article décrit comment charger un profil externe lors de la création d’une diffusion email autonome. Pour charger des données à partir d’un fichier dans un workflow, reportez-vous à la section [cette page](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* Cette fonctionnalité est réservée aux **diffusions e-mail autonomes**. Elle ne peut être utilisée dans les workflows et les diffusions SMS ou Notification push.
+>* Cette fonctionnalité est uniquement disponible pour **diffusions email**. Il ne peut pas être utilisé avec les diffusions SMS ou push.
 >
 >* Vous ne pouvez pas utiliser les [populations témoins](control-group.md) lors du chargement de la population cible à partir d’un fichier externe.
 >

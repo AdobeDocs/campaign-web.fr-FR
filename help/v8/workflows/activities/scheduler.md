@@ -4,10 +4,10 @@ title: Utiliser l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur.
 badge: label="Beta"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '526'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ L’activité **Planificateur** est une activité de **contrôle de flux**. Elle
 * Pour envoyer une diffusion ponctuelle dans votre workflow, vous pouvez ajouter une activité Planificateur et la configurer pour qu’elle s’exécute **une fois**. Vous pouvez également définir le **Planning** dans les paramètres de la diffusion.
 * Si vous souhaitez envoyer une diffusion récurrente dans votre workflow, vous devez utiliser une activité **Planificateur** et définir la fréquence d’exécution. L’activité de diffusion récurrente ne permet pas de définir de planning.
 
-## Configuration{#scheduler-configuration}
+## Configuration de l’activité Planificateur {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
