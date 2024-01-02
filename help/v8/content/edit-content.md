@@ -5,7 +5,7 @@ description: Découvrez comment modifier le contenu de l’e-mail dans l’inter
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
 source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
 ht-degree: 100%
 
