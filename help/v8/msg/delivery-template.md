@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 100%
+source-wordcount: '1075'
+ht-degree: 97%
 
 ---
 
@@ -33,14 +33,9 @@ Un modèle peut inclure les éléments suivants :
 * Des liens vers la [page miroir](../content/mirror-page.md) et des [liens](../content/message-tracking.md) de désinscription,
 * D’autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
 
-<!--
 >[!NOTE]
 >
->Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
-
->[!NOTE]
->
->Les modèles de diffusion diffèrent des [modèles de contenu](../content/email-sample-templates.md), qui permettent de commencer à créer du contenu avec l’un des exemples de modèles d’e-mail prêts à l’emploi.
+>Les modèles de diffusion diffèrent de [modèles de contenu](../content/create-email-templates.md), qui vous permettent de réutiliser uniquement le contenu de vos emails et de commencer à créer du contenu à l’aide de l’un des modèles d’email prêts à l’emploi.
 
 
 ## Accéder aux modèles de diffusion et les gérer {#access-manage-templates}
