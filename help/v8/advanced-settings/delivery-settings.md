@@ -5,7 +5,7 @@ description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2113'
 ht-degree: 100%
 

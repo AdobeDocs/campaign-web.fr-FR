@@ -5,7 +5,7 @@ description: Découvrez comment créer une diffusion de notification push avec A
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Vous devez d’abord sélectionner l’application, puis affiner l’audience de
 
    Découvrez comment créer une audience sur [cette page](../audience/one-time-audience.md).
 
-1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin afin de mesurer l’impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](../audience/control-group.md)
+1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin et mesurer l’impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](../audience/control-group.md)
 
 ## Définir le contenu de la notification push {#create-content-push}
 

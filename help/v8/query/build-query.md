@@ -3,7 +3,7 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 100%
 
