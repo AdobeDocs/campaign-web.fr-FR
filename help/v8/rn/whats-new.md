@@ -4,10 +4,10 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilité limitée"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 67%
+source-wordcount: '1337'
+ht-degree: 66%
 
 ---
 
@@ -83,6 +83,8 @@ Les principales fonctionnalités de la version Campaign Web Limited Available so
 * **Autres activités de workflow de Campaign**
 
   Boostez vos campagnes marketing avec notre **ensemble étendu d’activités de workflow**. Bénéficiez de nouvelles possibilités d’automatisation et d’optimisation, ce qui vous permet de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
+
+  Les nouvelles activités accompagnant la dernière version de LA sont les suivantes : **Réconciliation**, **Chargement d’audience**, et **Sauvegarde d’audience**.
 
   En savoir plus dans [cette section](../workflows/gs-workflows.md).
 
