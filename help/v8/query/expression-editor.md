@@ -1,35 +1,35 @@
 ---
 audience: end-user
-title: Créez votre première requête à l’aide du créateur de modèles de requête.
-description: Découvrez comment créer votre première requête dans Adobe Campaign Web query modeler.
+title: Créer votre première requête à l’aide du créateur de modèles de requête
+description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
 source-wordcount: '1917'
-ht-degree: 77%
+ht-degree: 95%
 
 ---
 
-# Editer les expressions {#expression}
+# Éditer les expressions {#expression}
 
 ## Editer une expression  {#edit}
 
-La modification d’une expression implique la saisie manuelle de conditions pour former une règle. Ce mode permet d&#39;utiliser des fonctions avancées. Ces fonctions permettent de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
+L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d&#39;utiliser des fonctions avancées. Ces fonctions permettent de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
-Ces opérations sont disponibles à partir du bouton Editer l’expression du créateur de requêtes , disponible pour les champs Attribut et Valeur lors de la configuration d’une condition personnalisée.
+Ces opérations sont disponibles à partir du bouton Éditer l’expression du créateur de modèles de requête, disponible pour les champs Attribut et Valeur lors de la configuration d’une condition personnalisée.
 
 ![](assets/edit-expression.png)
 
-L’éditeur d’expression fournit :
+L’éditeur d’expression fournit :
 
-* un champ de saisie, dans lequel l&#39;expression est définie
-* La liste des champs disponibles qui peuvent être utilisés dans l&#39;expression et qui correspondent à la dimension de ciblage de la requête.
+* un champ de saisie, dans lequel l’expression est définie ;
+* la liste des champs disponibles, utilisables dans l’expression et correspondant à la dimension de ciblage de la requête ;
 * la liste des fonctions disponibles, triées par catégorie.
 
-Editez l&#39;expression en saisissant une expression directement dans le champ de saisie ou en utilisant la liste des champs et fonctions disponibles. Pour ce faire, placez le curseur dans votre inexpression à l’endroit où vous souhaitez ajouter l’élément et double-cliquez sur le champ ou l’expression de votre choix.
+Éditez l’expression en saisissant directement une expression dans le champ ou en vous aidant de la liste des champs ainsi que de la liste des fonctions disponibles. Pour ce faire, placez le curseur dans votre expression à l’endroit où vous souhaitez ajouter l’élément et double-cliquez sur le champ ou l’expression de votre choix.
 
 ## Fonctions d’assistance
 
-L&#39;outil d&#39;édition de requêtes permet d&#39;utiliser des fonctions avancées pour réaliser un filtrage complexe en fonction des résultats souhaités et des types de données manipulées. Les fonctions suivantes sont disponibles :
+L’outil d’édition de requêtes permet d’utiliser des fonctions avancées pour réaliser un filtrage complexe en fonction des résultats souhaités et des types de données manipulées. Les fonctions suivantes sont disponibles :
 
 ### Agrégat
 
@@ -128,8 +128,8 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
   </tr>
   <tr> 
    <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Convertit l’horodatage NTZ (horodatage sans fuseau horaire) en TZ (horodatage avec fuseau horaire) en application de la valeur TZ de session définie<br/> </td> 
-   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+   <td> Convertit l’horodatage NTZ (horodatage sans fuseau horaire) en TZ (horodatage avec fuseau horaire) en application de la valeur TZ de session définie.<br/> </td> 
+   <td> ConvertNTZ (&lt;date+heure&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -213,8 +213,8 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
   </tr> 
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
-   <td> Renvoie la date la plus ancienne d'une plage<br /> </td> 
-   <td> Le plus ancien (&lt;date date=""&gt;)<br /> </td>  
+   <td> Renvoie la date la plus ancienne d’une plage.<br /> </td> 
+   <td> Oldest (&lt;date, date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -298,7 +298,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
   </tr> 
   <tr> 
    <td> <strong>WeekDay</strong><br /> </td> 
-   <td> Renvoie un nombre représentant le jour dans la semaine de la date (0=lundi, 6=dimanche)<br /> </td> 
+   <td> Renvoie le numéro du jour dans la semaine de la date (0=lundi, 6=dimanche).<br /> </td> 
    <td> WeekDay(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -346,7 +346,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
-   <td> Renvoie la distance entre deux points définis par leur longitude et leur latitude, exprimées en degrés.<br /> </td> 
+   <td> Renvoie la distance entre deux points donnés par leur longitude et leur latitude, exprimées en degrés.<br /> </td> 
    <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -454,7 +454,7 @@ Ce tableau contient les autres fonctions disponibles.
   </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> Renvoie la valeur 1 si la condition est vraie. Si ce n’est pas le cas, la valeur 2 est renvoyée.<br /> </td> 
+   <td> Renvoie la valeur 1 si la condition est vérifiée. Sinon, renvoie la valeur 2.<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;valeur 1&gt;), Else(&lt;valeur 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -469,7 +469,7 @@ Ce tableau contient les autres fonctions disponibles.
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> Renvoie la valeur 3 si la valeur 1 = la valeur 2. Si elle ne renvoie pas la valeur 4.<br /> </td> 
+   <td> Renvoie la valeur 3 si la valeur 1 = la valeur 2. Sinon, renvoie la valeur 4.<br /> </td> 
    <td> Decode(&lt;valeur 1&gt;, &lt;valeur 2&gt;, &lt;valeur 3&gt;, &lt;valeur 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
@@ -494,7 +494,7 @@ Ce tableau contient les autres fonctions disponibles.
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> Renvoie la valeur 1 si l’expression est vraie. Sinon, renvoie la valeur 2<br /> </td> 
+   <td> Renvoie la valeur 1 si l’expression est vraie. Sinon, renvoie la valeur 2.<br /> </td> 
    <td> Iif(&lt;condition&gt;, &lt;valeur 1&gt;, &lt;valeur 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -534,7 +534,7 @@ Ce tableau contient les autres fonctions disponibles.
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> Renvoie la valeur 1 si l’expression est vraie. Sinon, elle renvoie la valeur 2 (ne peut être utilisée qu'en paramètre de la fonction Case)<br /> </td> 
+   <td> Renvoie la valeur 1 si l’expression est vraie. Sinon, renvoie la valeur 2 (ne peut être utilisée qu’en paramètre de la fonction Case).<br /> </td> 
    <td> When(&lt;condition&gt;, &lt;valeur 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -588,7 +588,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> Renvoie le troisième paramètre si les deux premiers paramètres sont égaux. Sinon, renvoie le dernier paramètre<br /> </td> 
+   <td> Renvoie le troisième paramètre si les deux premiers paramètres sont égaux. Sinon, renvoie le dernier paramètre.<br /> </td> 
    <td> IfEquals(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -598,12 +598,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Concatène les chaînes transmises en tant que paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
+   <td> Concatène les chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
    <td> JuxtWords(&lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Concatène les chaînes transmises en tant que paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
+   <td> Concatène les chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
    <td> JuxtWords3(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td>  
   </tr> 
   <tr> 

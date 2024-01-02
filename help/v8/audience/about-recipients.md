@@ -6,7 +6,7 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -20,14 +20,14 @@ Dans Adobe Campaign, la population cible d’une diffusion est une audience. Un
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="360 vues de vos destinataires"
->abstract="Créez de nouveaux destinataires et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de votre destinataire. Utilisez les options de filtrage pour parcourir la liste des destinataires, éditer et mettre à jour leur profil."
+>abstract="Créez de nouvelles personnes destinataires et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de votre destinataire. Utilisez les options de filtrage pour parcourir la liste des destinataires, éditer et mettre à jour leur profil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Voir les notes de mise à jour"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profils"
->abstract="Un profil est un individu qui cible les messages envoyés par Adobe Campaign. Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS). Depuis cette liste, vous pouvez visualiser le profil du ou de la destinataire, en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de votre destinataire."
+>abstract="Un profil est une personne ciblée pour recevoir les messages envoyés par Adobe Campaign. Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS). Depuis cette liste, vous pouvez visualiser le profil du ou de la destinataire, en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de votre destinataire."
 
 Un ou une destinataire est un profil ciblé pour recevoir les messages envoyés par Adobe Campaign. Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS, etc.). Les données de destinataire stockées dans la base de données permettent de créer des audiences qui recevront une diffusion donnée ainsi que d’ajouter des données de personnalisation dans le contenu de votre diffusion. D’autres types de profils existent dans la base de données. Ils sont conçus pour différentes utilisations : par exemple, des profils de contrôle sont créés pour tester vos diffusions avant leur envoi à l’audience finale.
 
@@ -88,7 +88,7 @@ Par défaut, les modèles de diffusion par e-mail et SMS ciblent les **[!UICONTR
 
 Vous pouvez également utiliser d’autres mappings de ciblage intégrés dans vos workflows et diffusions répertoriés ci-dessous :
 
-| Nom | Utilisez pour | Schéma |
+| Nom | Utilisation | Schéma |
 |---|---|---|
 | Destinataires | Diffuser aux destinataires (tableau de destinataires intégré) | nms:recipient |
 | Visiteurs | Diffuser aux visiteurs dont les profils ont été collectés par le biais d’une recommandation (marketing viral), par exemple. | mns:visitor |
