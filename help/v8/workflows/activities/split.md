@@ -5,8 +5,8 @@ description: Découvrez comment utiliser l’activité de workflow Partage.
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
-workflow-type: tm+mt
-source-wordcount: '694'
+workflow-type: ht
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
->title="Partage activité"
+>title="Activité Partage"
 >abstract="L’activité **Partage** permet de segmenter les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population."
 
 

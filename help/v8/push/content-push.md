@@ -5,9 +5,9 @@ description: Découvrez comment concevoir une diffusion de notification push ave
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1534'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -16,25 +16,25 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenu de notification push pour Android"
->abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu** bouton ."
+>abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenu de notification push pour iOS"
->abstract="Définissez le contenu de votre notification push pour les appareils iOS. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu** bouton ."
+>abstract="Définissez le contenu de votre notification push pour les appareils iOS. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu**."
 
 ## Définir le contenu de la notification {#push-message}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Message push iOS"
->abstract="Définissez le contenu de votre notification push pour les appareils iOS. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l&#39;éditeur d&#39;expression pour personnaliser les données et ajouter du contenu dynamique. Pour une configuration plus personnalisée, accédez à la page **Paramètres avancés** ."
+>abstract="Définissez le contenu de votre notification push pour les appareils iOS. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l’éditeur d’expression pour personnaliser des données et ajouter du contenu dynamique. Pour une configuration davantage personnalisée, accédez à la section **Paramètres avancés**."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="Message push iOS"
->abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l&#39;éditeur d&#39;expression pour personnaliser les données et ajouter du contenu dynamique. Pour personnaliser davantage votre notification push, vous pouvez choisir une image à ajouter à votre notification push, l&#39;icône de la notification qui s&#39;affichera sur les appareils de vos profils et sa couleur. Pour une configuration plus personnalisée, accédez à la page **Paramètres avancés** ."
+>abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l’éditeur d’expression pour personnaliser des données et ajouter du contenu dynamique. Pour personnaliser davantage votre notification push, vous pouvez choisir une image à lui ajouter, l’icône de la notification qui s’affichera sur les appareils de vos profils et sa couleur. Pour une configuration davantage personnalisée, accédez à la section **Paramètres avancés**."
 
 
 
@@ -43,7 +43,7 @@ ht-degree: 83%
 >title="Notification silencieuse pour iOS"
 >abstract="Le mode Notification silencieuse permet d&#39;envoyer une notification « silencieuse » à une application mobile. L&#39;utilisateur n&#39;est pas averti de l&#39;arrivée de la notification. Elle est directement transférée à l&#39;application."
 
-Une fois votre diffusion push créée, vous pouvez en définir le contenu. Les paramètres et paramètres dépendent du système d’exploitation mobile : Android ou iOS. Accédez aux onglets ci-dessous pour savoir comment composer votre message pour chaque système d’exploitation.
+Une fois votre diffusion de notification push créée, vous pouvez en définir le contenu. Les paramètres et la configuration dépendent du système d’exploitation mobile : Android ou iOS. Accédez aux onglets ci-dessous pour savoir comment composer votre message pour chaque système d’exploitation.
 
 >[!BEGINTABS]
 
@@ -54,7 +54,7 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 * Le **[!UICONTROL Message de données]** est géré par l’application cliente. Ces messages sont envoyés directement à l’application mobile, qui génère et affiche une notification Android sur l’appareil. Les messages de données contiennent uniquement vos variables d’application personnalisées.
 
   Pour définir le contenu, personnaliser les données et ajouter du contenu dynamique, cliquez sur le champ **[!UICONTROL Message]** et utilisez l’éditeur d’expression. Vous pouvez accéder à cet éditeur pour personnaliser vos messages.
-Dans le **[!UICONTROL Variables d’application]** , vos variables d’application sont automatiquement ajoutées. Ces variables vous permettent de définir le comportement des notifications. Vous pouvez par exemple paramétrer un écran d’application spécifique qui s’affichera lorsque l’utilisateur ou l’utilisatrice activera la notification.
+Dans le menu **[!UICONTROL Variables de l’application]**, vos variables d’application sont automatiquement ajoutées. Ces variables vous permettent de définir le comportement des notifications. Vous pouvez par exemple paramétrer un écran d’application spécifique qui s’affichera lorsque l’utilisateur ou l’utilisatrice activera la notification.
 
   ![](assets/push_content_4.png)
 
@@ -112,7 +112,7 @@ Le mode Notification silencieuse permet d’envoyer une notification « silenci
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="Variables de l&#39;application"
+>title="Variables de l’application"
 >abstract="Utilisez des variables d’application pour définir le comportement des notifications. Ces variables sont entièrement personnalisables et font partie de la payload du message envoyée à l’appareil mobile."
 
 
@@ -121,7 +121,7 @@ Le mode Notification silencieuse permet d’envoyer une notification « silenci
 >title="Identifiant de la catégorie"
 >abstract="Indiquez le nom de l’ID de catégorie associé à la notification. Cela permet d’afficher des boutons d’action, permettant à l’utilisateur ou utilisatrice d’effectuer différentes tâches directement depuis la notification sans ouvrir l’application."
 
-Les options avancées dépendent du système d’exploitation mobile : Android ou iOS. Accédez aux onglets ci-dessous pour savoir comment définir les options de votre message pour chaque système d’exploitation.
+Les options avancées dépendent du système d’exploitation mobile : Android ou iOS. Accédez aux onglets ci-dessous pour savoir comment définir les options de votre message pour chaque système d’exploitation.
 
 >[!BEGINTABS]
 
@@ -147,7 +147,7 @@ Les options avancées dépendent du système d’exploitation mobile : Android o
 
 | Paramètre | Description |
 |---------|---------|
-| **[!UICONTROL Mode d’alerte critique]** | Activez cette option pour ajouter du son à votre notification, même si le téléphone de la personne est en mode Concentration ou si l’appareil est en mode silencieux. Cela permet de s’assurer que les alertes importantes sont remarquées par l’utilisateur. Lorsque cette option est sélectionnée, vous pouvez régler le volume de la notification à partir de la barre de niveau Volume . Un nombre compris entre 0 et 100 au-dessus de la barre reflète vos paramètres. |
+| **[!UICONTROL Mode d’alerte critique]** | Activez cette option pour ajouter du son à votre notification, même si le téléphone de la personne est en mode Concentration ou si l’appareil est en mode silencieux. Vous vous assurerez ainsi que les alertes importantes sont remarquées par la personne. Lorsque cette option est sélectionnée, vous pouvez régler le volume de la notification à partir de la barre de niveau Volume. Un nombre compris entre 0 et 100 au-dessus de la barre reflète vos paramètres. |
 | **[!UICONTROL Nettoyer la pastille]** | Activez cette option pour actualiser la valeur du badge affichée sur l’icône de l’application. Vous vous assurerez ainsi que le badge reflète exactement le nombre de nouvelles informations non lues. |
 | **[!UICONTROL Nombre de notifications]** | Définissez un nombre qui s’affichera directement sur l’icône de l’application, indiquant le nombre de nouvelles informations non lues. Vous obtiendrez ainsi une référence visuelle rapide pour l’utilisateur ou l’utilisatrice. |
 | **[!UICONTROL Volume]** | Volume de votre son de 0 à 100. |

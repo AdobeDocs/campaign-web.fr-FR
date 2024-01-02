@@ -5,9 +5,9 @@ description: Découvrez comment ajouter une activité de workflow de diffusion (
 badge: label="Beta"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 3c77120c5936f647514969644f59833e97d56232
-workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 83%
+workflow-type: ht
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
@@ -42,25 +42,25 @@ Commencez à créer votre workflow avec les activités pertinentes avant de plac
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="Activité e-mail"
->abstract="L’activité Email facilite l’envoi d’emails dans votre workflow, ce qui permet d’envoyer des messages ponctuels et récurrents. Il permet d&#39;automatiser le processus d&#39;envoi d&#39;emails à une cible calculée dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité e-mail facilite l’envoi d’e-mails dans votre workflow et vous permet d’envoyer des messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi d’e-mails à une cible calculée dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Activité SMS"
->abstract="L&#39;activité SMS facilite l&#39;envoi de SMS dans votre workflow, ce qui permet d&#39;envoyer des messages ponctuels et récurrents. Il permet d&#39;automatiser le processus d&#39;envoi de SMS à une cible calculée dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité SMS facilite l’envoi de SMS dans votre workflow et vous permet d’envoyer des messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi de SMS à une cible calculée dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Activité notification push iOS"
->abstract="L’activité Push iOS simplifie le processus d’envoi de notifications push iOS dans le cadre de votre workflow. Il permet la diffusion de messages ponctuels et récurrents, automatisant l&#39;envoi de notifications push iOS à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité notification push iOS simplifie le processus d’envoi de notifications push iOS dans le cadre de votre workflow. Elle permet la diffusion de messages ponctuels et récurrents, en automatisant l’envoi de notifications push iOS à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="Activité notification push Android"
->abstract="L’activité Push Android simplifie le processus d’envoi de notifications push Android dans le cadre de votre workflow. Il permet la diffusion de messages ponctuels et récurrents, automatisant l’envoi de notifications push Android à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité notification push Android simplifie le processus d’envoi de notifications push Android dans le cadre de votre workflow. Elle permet la diffusion de messages ponctuels et récurrents, en automatisant l’envoi de notifications push Android à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 Pour configurer une diffusion dans le cadre d’un workflow, procédez comme suit :
 

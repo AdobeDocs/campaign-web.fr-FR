@@ -4,9 +4,9 @@ description: Découvrez comment comprendre les indicateurs clés de performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
-workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '1200'
+ht-degree: 100%
 
 ---
 
@@ -87,17 +87,17 @@ L’indicateur **Clics** montre les KPI suivants, pour chaque canal :
 Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats`). Cette table agrégée est utilisée pour des raisons de performances lors de l’affichage des rapports, à la place de la table des logs de tracking des personnes destinataires (`nms:trackingLogRcp`) et elle n’est pas calculée en temps réel. La table est générée quelques minutes après la récupération des logs de tracking.
 
 
-## Taux d&#39;inscription {#ui-sub-kpi}
+## Taux d’abonnement {#ui-sub-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="Abonnements"
->abstract="Cette mesure indique, pour le canal sélectionné, la somme de tous les abonnements à un service et le pourcentage d’abonnements par rapport au nombre total de messages transmis avec succès."
+>abstract="Cette mesure indique, pour le canal sélectionné, le nombre de toutes les inscriptions à un service, ainsi que le pourcentage d’inscriptions par rapport au nombre total de messages diffusés."
 
 
-Les destinataires peuvent souscrire aux communications par email et par SMS.
+Les personnes destinataires peuvent souscrire aux communications par e-mail et par SMS.
 
-La variable **Abonnements** indique les KPI suivants, pour chaque canal le pourcentage du nombre d&#39;abonnements par rapport au nombre total de messages transmis avec succès.
+L’indicateur **Abonnements** indique les KPI suivants. Pour chaque canal est indiqué le pourcentage du nombre d’abonnements par rapport au nombre total de messages transmis avec succès.
 
 
 >[!NOTE]
@@ -149,13 +149,13 @@ L’indicateur **Erreurs** montre les KPI suivants, pour chaque canal :
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Envoyés"
->abstract="Cette mesure indique, pour le canal courrier, la somme de tous les messages envoyés et le pourcentage du message envoyé au fournisseur, par rapport au nombre total de messages préparés lors de la phase de préparation de la diffusion."
+>abstract="Cette mesure indique, pour le canal publipostage direct, la somme de tous les messages envoyés et le pourcentage de messages envoyés au fournisseur, par rapport au nombre total de messages préparés lors de la phase de préparation de la diffusion."
 
-Lors de la phase de préparation, le fichier d&#39;extraction de courrier est généré, mais les informations relatives aux destinataires (c&#39;est-à-dire les logs de diffusion) ne sont pas mises à jour.  L&#39;état d&#39;une diffusion est passé de En attente de diffusion à Envoyé lorsque l&#39;utilisateur de Campaign confirme l&#39;envoi de la diffusion. La diffusion est alors paramétrée sur Terminé.
+Lors de la phase de préparation, le fichier d’extraction de publipostage direct est généré, mais les informations relatives aux personnes destinataires (c’est-à-dire les logs de diffusion) ne sont pas mises à jour.  L’état d’une diffusion est passé de En attente de diffusion à Envoyé lorsque l’utilisateur ou l’utilisatrice de Campaign confirme l’envoi de la diffusion. La diffusion est alors paramétrée sur Terminé.
 
-Il ne peut jamais s&#39;agir de 100% des messages envoyés par rapport au total des messages préparés, car certaines adresses peuvent être manquantes ou incomplètes.
+Il n’y a jamais 100 % des messages envoyés par rapport au total des messages préparés, car certaines adresses peuvent être manquantes ou incomplètes.
 
-La variable **Envoyé** indique les indicateurs de performance clés suivants pour le canal Courrier :
+L’indicateur **Envoyé** montre les KPI suivants, pour le canal publipostage direct :
 
 * Pourcentage du nombre de messages envoyés par rapport au nombre total de messages préparés.
 

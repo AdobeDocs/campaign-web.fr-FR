@@ -5,9 +5,9 @@ description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2113'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Ces paramètres sont disponibles à partir de l’icône **Configurer les param�
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
+>abstract="Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Paramètres de typologie de la diffusion"
->abstract="Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
+>abstract="Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
 
 
 Les typologies sont des ensembles de **règles de typologie** qui sont exécutés pendant la phase de préparation. Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation de la diffusion.  Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou un objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clientes et clients désabonnés, les personnes concurrentes et les clientes et clients ne faisant pas partie du programme de fidélité).
@@ -93,7 +93,7 @@ Utilisez le champ **Mode de diffusion** pour sélectionner le mode d’évaluati
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Paramètres des capacités pour la diffusion"
+>title="Paramètres de capacité de la diffusion"
 >abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter notamment la diffusion, les messages entrants que la diffusion peut générer et le nombre d’appels à passer pour contacter les personnes abonnées. Les règles de capacité sont définies dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal e-mail."
 
 
@@ -145,7 +145,7 @@ Les paramètres de diffusion sont des paramètres techniques qui s’appliquent 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Paramètres Web Analytics de la diffusion"
->abstract="Sélectionnez un compte Web Analytics. Ce compte est configuré dans la console cliente Campaign. Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez."
+>abstract="Sélectionnez un compte Web Analytics. Ce compte est paramétré dans la console cliente Campaign. Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez."
 
 Dans cette section, vous pouvez sélectionner un compte Web Analytics. Ce compte est paramétré dans la console cliente Campaign.
 
@@ -153,7 +153,7 @@ Vous pouvez également définir les balises partagées avec l’outil d’analys
 
 >[!NOTE]
 >
->Les fonctionnalités Web Analytics sont configurées dans la console cliente de Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
+>Les fonctionnalités Web analytics sont configurées dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
 
 ### Reprises {#retries}
@@ -217,11 +217,11 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 >abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
 -->
 
-Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n&#39;est pas atteinte.
+Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.
 
-Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **Définition explicite de dates de validité**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l&#39;heure. L&#39;heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
+Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **Fixer explicitement les dates de validité**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l’heure. L’heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
 
-Le champ **Limite de validité des ressources** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque). Au-delà de cette limite, ces ressources ne sont plus disponibles.
+Le champ **Limite de validité des ressources** est utilisé pour les ressources chargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque). Au-delà de cette limite, ces ressources ne sont plus disponibles.
 
 ![](assets/delivery-settings-2.png)
 

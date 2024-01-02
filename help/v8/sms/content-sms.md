@@ -5,9 +5,9 @@ description: Découvrez comment concevoir votre diffusion SMS.
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenu SMS"
->abstract="Créez le contenu de vos diffusions SMS et personnalisez-le avec des champs de personnalisation, des blocs de contenu et du contenu dynamique. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu** bouton ."
+>abstract="Créez le contenu de vos diffusions SMS et personnalisez-le avec des champs de personnalisation, des blocs de contenu et du contenu dynamique. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu**."
 
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
->title="Contenu des messages SMS"
->abstract="Définissez le contenu de votre SMS. Pour composer votre message, cliquez sur le bouton **Message** et saisissez le contenu du message. Utilisez l&#39;éditeur d&#39;expression pour ajouter des données personnalisées et du contenu dynamique. Vous pouvez également personnaliser le nom de l’expéditeur. Par défaut, le tracking est activé pour toutes les diffusions SMS afin que vous puissiez mesurer le moment où les destinataires cliquent sur les liens."
+>title="Contenu du message SMS"
+>abstract="Définissez le contenu de votre SMS. Pour composer votre message, cliquez sur le champ **Message** et saisissez le contenu du message. Utilisez l’éditeur d’expression pour ajouter des données personnalisées et du contenu dynamique. Vous pouvez également personnaliser le nom de l’expéditeur ou de l’expéditrice. Par défaut, le suivi est activé pour toutes les diffusions SMS, afin que vous puissiez mesurer le moment où les personnes destinataires cliquent sur les liens."
 
 
 Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :

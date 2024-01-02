@@ -1,18 +1,19 @@
 ---
 product: campaign
-title: Utilisation des diffusions
-description: Découvrez comment créer votre première diffusion sur le Web de Campaign
+title: Utiliser les diffusions
+description: Découvrez comment créer votre première diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
-workflow-type: tm+mt
+exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
+source-git-commit: 62887b8ba24163885ad0a42c790f3d4dc8f9499e
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Utilisation des diffusions {#work-with-deliveries}
+# Utiliser les diffusions {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"

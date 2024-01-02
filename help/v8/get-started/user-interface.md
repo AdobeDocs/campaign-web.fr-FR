@@ -5,9 +5,9 @@ description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -205,13 +205,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Destinataires Ne plus contacter"
->abstract="Destinataires Ne plus contacter"
+>title="Personnes destinataires : ne plus contacter"
+>abstract="Personnes destinataires : ne plus contacter"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
->title="Destinataires Autres"
->abstract="Destinataires Autres"
+>title="Personnes destinataires : autres"
+>abstract="Personnes destinataires : autres"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
@@ -245,8 +245,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="Profil en lecture seule des destinataires"
->abstract="Profil en lecture seule des destinataires"
+>title="Profil en lecture seule des personnes destinataires"
+>abstract="Profil en lecture seule des personnes destinataires"
 
 
 
@@ -254,8 +254,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
->title="Test des données additionnelles des profils"
->abstract="Test des données additionnelles des profils"
+>title="Tester les données additionnelles des profils"
+>abstract="Tester les données additionnelles des profils"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
@@ -383,15 +383,15 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
->title="Modification du modèle de contenu"
->abstract="Modification du modèle de contenu"
+>title="Édition du modèle de contenu"
+>abstract="Édition du modèle de contenu"
 
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Activité Réconciliation"
->abstract="Utilisez la variable **Réconciliation** pour lier des données non identifiées à des ressources existantes."
+>abstract="Utilisez l’activité **Réconciliation** pour relier des données non identifiées à des ressources existantes."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -521,18 +521,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
->title="Contenu pour courrier"
->abstract="Contenu pour courrier"
+>title="Contenu pour publipostage direct"
+>abstract="Contenu pour publipostage direct"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
->title="Propriétés de fichier pour Direct Mail"
->abstract="Propriétés de fichier pour Direct Mail"
+>title="Propriétés de fichier pour publipostage direct"
+>abstract="Propriétés de fichier pour publipostage direct"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
->title="Propriétés de contenu pour Direct Mail"
->abstract="Propriétés de contenu pour Direct Mail"
+>title="Propriétés de contenu pour publipostage direct"
+>abstract="Propriétés de contenu pour publipostage direct"
 
 
 
@@ -554,8 +554,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
->title="Base de donnée cible"
->abstract="Base de donnée cible"
+>title="Base de données cible"
+>abstract="Base de données cible"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
@@ -564,13 +564,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
->title="Transition sortante de la gestion du rejet"
->abstract="Transition sortante de la gestion du rejet"
+>title="Transition sortante de la gestion des rejets"
+>abstract="Transition sortante de la gestion des rejets"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Transition sortante de la gestion des rejets"
->abstract="Transition sortante de la gestion des rejets"
+>title="Transition sortante de la gestion des rejets (pour les rejets)"
+>abstract="Transition sortante de la gestion des rejets (pour les rejets)"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"

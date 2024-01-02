@@ -3,11 +3,11 @@ audience: end-user
 title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Beta"
+badge: label="Version bêta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '785'
+ht-degree: 100%
 
 ---
 

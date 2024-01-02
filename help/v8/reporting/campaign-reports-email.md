@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Rapports de campagne du canal E-mail
+title: Rapports de campagne du canal e-mail
 description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1572'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Messages à diffuser]**: Nombre total de messages traités lors de la préparation de la diffusion.
+* **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Ouvertures totales]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
+* **[!UICONTROL Total des ouvertures]** : nombre total de personnes destinataires ciblées ayant ouvert un message au moins une fois.
 
 * **[!UICONTROL Nombre total de clics]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 
@@ -101,9 +101,9 @@ Le tableau **[!UICONTROL Statistiques des réactions]** contient les données di
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Ouvertures uniques]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
+* **[!UICONTROL Ouvertures uniques]** : nombre total de personnes destinataires ciblées ayant ouvert un message au moins une fois.
 
-* **[!UICONTROL Nombre total d’ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+* **[!UICONTROL Total des ouvertures]** : nombre de personnes destinataires ciblées distinctes pour ce domaine ayant ouvert un message au moins une fois.
 
 * **[!UICONTROL Désabonnements]** : nombre de destinataires ayant cliqué afin de se désabonner pour la période correspondante.
 
@@ -125,9 +125,9 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Clics uniques]**: nombre total de destinataires uniques ayant cliqué au moins une fois dans une même diffusion.
+* **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 
-* **[!UICONTROL Nombre total de clics]**: Nombre total de clics sur les liens des diffusions.
+* **[!UICONTROL Nombre total de clics]** : nombre total de clics sur les liens dans les diffusions.
 
 * **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
@@ -190,11 +190,11 @@ Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateu
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
-* **[!UICONTROL Message(s) à diffuser]**: Nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Message(s) à diffuser]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Ouvertures uniques]**: Nombre total de destinataires ciblés ayant ouvert au moins une fois un même message.
+* **[!UICONTROL Ouvertures uniques]** : nombre total de personnes destinataires ciblées ayant ouvert un message au moins une fois.
 
-* **[!UICONTROL Nombre total d’ouvertures]**: Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+* **[!UICONTROL Total des ouvertures]** : nombre de personnes destinataires ciblées distinctes pour ce domaine, ayant ouvert un message au moins une fois.
 
 * **[!UICONTROL Clics sur le lien d’exclusion]** : nombre de clics effectués sur le lien d’exclusion.
 
@@ -218,11 +218,11 @@ Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche d
 
 * **[!UICONTROL Envoyés]** : nombre total de messages envoyés.
 
-* **[!UICONTROL Plaintes]**: nombre et pourcentage de messages pour ce domaine qui ont été signalés comme indésirables par le destinataire.
+* **[!UICONTROL Plaintes]** : nombre et pourcentage de messages pour ce domaine qui ont été signalés par la personne destinataire comme indésirables.
 
-* **[!UICONTROL Ouvertures uniques]**: nombre et pourcentage de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message.
+* **[!UICONTROL Ouvertures uniques]** : nombre et pourcentage de personnes destinataires ciblées distinctes pour ce domaine, ayant ouvert un message au moins une fois.
 
-* **[!UICONTROL Clics uniques]**: nombre et pourcentage de destinataires ciblés distincts ayant cliqué au moins une fois dans une même diffusion.
+* **[!UICONTROL Clics uniques]** : nombre et poucentage de personnes destinataires ciblées distinctes ayant cliqué au moins une fois dans une même diffusion.
 
 * **[!UICONTROL Réactivité brute]** : pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.
 
@@ -245,9 +245,9 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 * **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 
-* **[!UICONTROL Nombre total de clics]**: Nombre total de clics sur les liens des diffusions.
+* **[!UICONTROL Nombre total de clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BAT sont exclus.
+* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BAT sont exclus.
 
 +++
 

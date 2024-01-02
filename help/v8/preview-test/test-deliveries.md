@@ -5,9 +5,9 @@ description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
 source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1157'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 78%
 >title="Mode Aperçu"
 >abstract="Prévisualisez et testez le message en incluant la population test à la cible principale."
 
-Une fois le contenu de votre message défini, vous pouvez le prévisualiser et le tester en envoyant des bons à tirer aux profils de test. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son contenu dans le message à l’aide des données de profil de test.
+Une fois le contenu de votre message défini, vous pouvez le prévisualiser et le tester en envoyant des BAT aux profils de test. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son contenu dans le message à l’aide des données de profil de test.
 
-Pour détecter d&#39;éventuelles erreurs dans le contenu du message ou les paramètres de personnalisation, envoyez des BAT aux profils de test avant de les envoyer à l&#39;audience cible. Un bon à tirer doit être envoyé chaque fois qu’une modification est apportée pour valider le contenu le plus récent. L’envoi de diffusions de test (anciennement appelées « BAT ») est une étape importante dans la validation de votre campagne et l’identification de problèmes potentiels. Les destinataires du BAT peuvent vérifier différents éléments tels que des liens, des liens d&#39;opt-out, des images ou des pages miroir, et détecter toute erreur dans le rendu, le contenu, les paramètres de personnalisation et la configuration de la diffusion.
+Pour détecter d’éventuelles erreurs dans le contenu du message ou les paramètres de personnalisation, envoyez des BAT aux profils de test avant de les envoyer à l’audience cible. Un BAT doit être envoyé à chaque modification afin de valider le contenu le plus récent. L’envoi de diffusions de test (anciennement appelées « BAT ») est une étape importante dans la validation de votre campagne et l’identification de problèmes potentiels. Les personnes destinataires d’un BAT peuvent vérifier différents éléments tels que des liens, des liens de désinscription, des images ou des pages miroir, ainsi que détecter toute erreur de rendu, de contenu, de paramètres de personnalisation et de configuration de la diffusion.
 
 ## Simuler du contenu avec des destinataires test {#simulate-content-test-deliveries}
 
@@ -35,17 +35,17 @@ Pour commencer à tester le contenu de votre message :
 
 1. Modifiez le contenu de votre diffusion.
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
-1. Cliquez sur le bouton **[!UICONTROL Test]** pour envoyer des bons à tirer.
+1. Cliquez sur le bouton **[!UICONTROL Test]** pour envoyer des BAT.
 
    ![](assets/simulate-test-button-email.png)
 
-1. Sélectionnez les destinataires du test.
+1. Sélectionnez les personnes destinataires du test.
 
-   En fonction du canal du message, les bons à tirer peuvent être envoyés aux types de destinataires suivants :
+   Selon le canal de message, les BAT peuvent être envoyés aux types de personnes destinataires suivants :
 
    * Pour les SMS et les e-mails, vous pouvez utiliser des [profils de test](#test-profiles), qui sont des destinataires supplémentaires spécifiques dans la base de données. Ces destinataires sont créés dans la console cliente [!DNL Campaign]. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
-   * Pour les SMS et les emails, vous pouvez également utiliser la variable [substitution de la cible principale](#substitution-profiles) , qui envoie les BAT à l’adresse de test email ou au numéro de téléphone, et utilise les données de personnalisation d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez la personne destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
+   * Pour les SMS et les e-mails, vous pouvez également utiliser le mode de [substitution de la cible principale](#substitution-profiles), qui envoie les BAT à l’adresse e-mail ou au numéro de téléphone test, et utilise les données de personnalisation d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez la personne destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
 
    * Pour les messages push, vous pouvez utiliser des [personnes abonnées](#subscribers) fictives ajoutées à la base de données. Elles sont créés dans la console [!DNL Campaign]. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
@@ -71,9 +71,9 @@ Pour commencer à tester le contenu de votre message :
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Inclure les profils de test dans l’audience principale"
->abstract="Activez cette option pour envoyer également le message final aux destinataires de la diffusion de test."
+>abstract="Activez cette option pour envoyer également le message final aux personnes destinataires de la diffusion de test."
 
-Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Elles peuvent être créées dans la console cliente [!DNL Adobe Campaign]. Les étapes d&#39;envoi de BAT aux adresses de contrôle sont présentées ci-après.
+Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Elles peuvent être créées dans la console cliente [!DNL Adobe Campaign]. Les étapes d’envoi de BAT aux adresses de contrôle sont détaillées ci-dessous.
 
 1. Dans le contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Test]**.
 
@@ -93,9 +93,9 @@ Les profils de test sont des adresses de contrôle, qui sont des destinataires s
 
 ## Substituer des données de profil {#substitution-profiles}
 
-Utilisez la substitution de profil pour envoyer des bons à tirer à une adresse électronique ou un numéro de téléphone spécifique, tout en affichant les données d’un profil existant de la variable [!DNL Adobe Campaign] base de données. Ce mode ne peut être sélectionné que si l&#39;audience de la diffusion a été définie.
+Utilisez la substitution de profils pour envoyer un BAT à une adresse e-mail ou un numéro de téléphone spécifique, tout en affichant les données d’un profil existant de la base de données [!DNL Adobe Campaign]. Ce mode ne peut être sélectionné que si l’audience de la diffusion a été définie.
 
-Pour remplacer les données de profil de la cible principale, procédez comme suit :
+Pour remplacer les données de profil de la cible principale, procédez comme suit :
 
 
 1. Dans le contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Test]**.
@@ -124,9 +124,9 @@ Pour remplacer les données de profil de la cible principale, procédez comme su
 
 1. Une fois les profils de substitution sélectionnés, vous pouvez [envoyer la diffusion test](#send-test).
 
-## Envoyer des tests aux abonnés de l’application {#subscribers}
+## Envoyer des tests aux personnes abonnées de l’application {#subscribers}
 
-Lors de la conception avec des notifications push, les diffusions de test peuvent uniquement être envoyées aux abonnés de votre application. Pour les sélectionner, procédez comme suit.
+Lorsque vous travaillez avec les notifications push, les diffusions test ne peuvent être envoyées qu’aux personnes abonnées de votre application. Pour les sélectionner, procédez comme suit.
 
 1. Dans le contenu de votre diffusion push, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Test]**.
 

@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Utilisation de modèles de diffusion
-description: Découvrez comment créer et utiliser des modèles de diffusion dans le Web de Campaign
+title: Utiliser des modèles de diffusion
+description: Découvrez comment créer et utiliser des modèles de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Utilisation de modèles de diffusion {#work-with-delivery-templates}
+# Utiliser des modèles de diffusion {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
@@ -24,7 +24,7 @@ Pour un processus de conception accéléré et amélioré, vous pouvez créer de
 
 Un modèle peut inclure les éléments suivants :
 
-* La variable **folder** et **dossier d’exécution** du modèle. Le dossier correspond à l’emplacement où le modèle de diffusion est enregistré. Le dossier d&#39;exécution est le dossier dans lequel sont enregistrées les diffusions créées à partir de ce modèle.
+* Sélectionnez le **dossier** et le **dossier d’exécution** du modèle. Le dossier correspond à l’emplacement où le modèle de diffusion est enregistré. Le dossier d’exécution est le dossier dans lequel les diffusions créées à partir de ce modèle sont enregistrées.
 * [Des typologies](../advanced-settings/delivery-settings.md#typology),
 * L’adresse de la personne expéditrice,
 * Une [audience](../audience/about-recipients.md), y compris des [populations témoins](../audience/control-group.md),
@@ -48,7 +48,7 @@ Un modèle peut inclure les éléments suivants :
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Utiliser des modèles de diffusion"
->abstract="Utilisez les modèles de diffusion pour créer et enregistrer des paramètres de diffusion en vue d’une utilisation ultérieure dans vos campagnes. Vous pouvez créer entièrement des modèles de diffusion, dupliquer un modèle existant ou convertir une diffusion en modèle."
+>abstract="Utilisez les modèles de diffusion pour créer et enregistrer des paramètres de diffusion en vue d’une utilisation ultérieure dans vos campagnes. Vous pouvez créer des modèles de diffusion à partir de zéro, dupliquer un modèle existant ou convertir une diffusion en modèle."
 
 
 Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL Gestion des campagnes]** > **[!UICONTROL Diffusions]** dans le menu de gauche, puis accédez à l’onglet **Modèles**.
@@ -121,7 +121,7 @@ Une diffusion peut être convertie en modèle pour de futures actions de diffusi
 
 Pour enregistrer une diffusion comme modèle, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** .
+1. Accédez au menu **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
 1. Dans l’onglet **[!UICONTROL Parcourir]**, cliquez sur le bouton **[!UICONTROL Plus d’actions]** à droite du nom de la diffusion souhaitée, puis sélectionnez **[!UICONTROL Copier comme modèle]**.
 
    ![](assets/templates-convert-delivery.png)

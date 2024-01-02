@@ -5,9 +5,9 @@ description: Découvrez comment envoyer votre premier e-mail avec l’interface 
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
 source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1314'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Commencer avec les e-mails"
->abstract="Vous pouvez créer une diffusion d’e-mail autonome ou créer un e-mail dans le cadre d’un workflow de campagne. Découvrez comment créer la diffusion, sélectionner l&#39;audience et concevoir le contenu de l&#39;email."
+>abstract="Vous pouvez créer une diffusion d’e-mail autonome ou créer un e-mail dans le cadre d’un workflow de campagne. Découvrez comment créer la diffusion, sélectionner l’audience et concevoir le contenu de l’e-mail."
 
 
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
@@ -38,7 +38,7 @@ Basé sur un [modèle de conception](../content/email-sample-templates.md) préd
 >title="Définir les propriétés de vos e-mails"
 >abstract="Les propriétés sont les paramètres de diffusion courants qui vous permettent de nommer et de classer votre diffusion. Les paramètres supplémentaires sont facultatifs. Si votre diffusion est basée sur un schéma étendu défini dans la console Adobe Campaign v8, des champs spécifiques d’**Options personnalisées** sont disponibles."
 
-Vous pouvez créer une diffusion d’e-mail autonome ou créer un e-mail dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion d’e-mail autonome (ponctuelle). En savoir plus sur les étapes de création de diffusion dans Adobe Campaign dans [cette page](../msg/gs-deliveries.md).
+Vous pouvez créer une diffusion d’e-mail autonome ou créer un e-mail dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion d’e-mail autonome (ponctuelle). En savoir plus sur les étapes de création de diffusions dans Adobe Campaign sur [cette page](../msg/gs-deliveries.md).
 
 Pour créer une diffusion d’e-mail autonome, procédez comme suit :
 

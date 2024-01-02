@@ -5,9 +5,9 @@ description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe�
 badge: label="Beta"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
->title="Définissez l’audience du SMS."
->abstract="Vous pouvez créer une nouvelle audience ou en sélectionner une existante en cliquant sur le bouton **Sélection de l’audience** bouton . Si nécessaire, ajoutez une population témoin pour mesurer l&#39;impact de votre diffusion."
+>title="Définir l’audience du SMS"
+>abstract="Vous pouvez créer une nouvelle audience ou en sélectionner une existante en cliquant sur le bouton **Sélectionner une audience**. Si nécessaire, ajoutez une population témoin pour mesurer l’impact de votre diffusion."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=fr" text="Configurer une population témoin"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Sélection du modèle de SMS"
->abstract="Sélectionnez un modèle prédéfini pour démarrer votre diffusion SMS. Les modèles de diffusion vous permettent de réutiliser facilement du contenu et des paramètres personnalisés dans vos campagnes et diffusions."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Utilisation de modèles de diffusion"
+>abstract="Sélectionnez un modèle prédéfini pour démarrer votre diffusion par SMS. Les modèles de diffusion vous permettent de réutiliser facilement du contenu et des paramètres personnalisés dans vos campagnes et diffusions."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=fr" text="Utiliser des modèles de diffusion"
 
 
 Vous pouvez créer une diffusion SMS autonome ou créer un SMS dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion SMS autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
@@ -38,13 +38,13 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
 
-1. Sous , **[!UICONTROL Canal]** , choisissez SMS comme canal, puis sélectionnez un modèle. [En savoir plus sur les modèles](../msg/delivery-template.md)
+1. Sous la section **[!UICONTROL Canal]**, choisissez SMS comme canal et sélectionnez un modèle. [En savoir plus sur les modèles](../msg/delivery-template.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
 
    ![](assets/sms_create_1.png)
 
-1. Saisissez un **[!UICONTROL Libellé]** pour la diffusion et accéder au **[!UICONTROL Options supplémentaires]** menu déroulant. Si votre diffusion est basée sur un schéma étendu, **Options personnalisées** sont disponibles.
+1. Saisissez un **[!UICONTROL libellé]** pour la diffusion et accédez au menu déroulant **[!UICONTROL Options supplémentaires]**. Si votre diffusion est basée sur un schéma étendu, des champs d’**options personnalisées** spécifiques sont disponibles.
 
    +++Configurez les paramètres suivants en fonction de vos besoins.
    * **[!UICONTROL Nom interne]** : attribuez un identifiant unique à la diffusion.
@@ -58,11 +58,11 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
    ![](assets/sms_create_2.png)
 
-   Découvrez comment sélectionner une audience existante dans [cette page](../audience/add-audience.md)
+   Découvrez comment sélectionner une audience existante sur [cette page](../audience/add-audience.md).
 
-   Découvrez comment créer une audience dans [cette page](../audience/one-time-audience.md)
+   Découvrez comment créer une audience sur [cette page](../audience/one-time-audience.md).
 
-1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin afin de mesurer l&#39;impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin, vous pouvez donc comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l&#39;ont pas fait. [En savoir plus](../audience/control-group.md)
+1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin et mesurer l’impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](../audience/control-group.md)
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à concevoir le contenu de votre SMS. [En savoir plus](content-sms.md).
 
