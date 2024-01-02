@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier
 badge: label="Disponibilité limitée"
-source-git-commit: 6068e3695ebed22a94a75b9aded59d1e5fb6b47a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 40%
+source-wordcount: '294'
+ht-degree: 39%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Activité Chargement de fichier"
->abstract="La variable **Chargement de fichier** est une activité **Gestion des données** activité. Utilisez cette activité pour travailler avec des profils stockés dans un fichier externe."
+>abstract="La variable **Chargement de fichier** est une activité **Gestion des données** activité. Utilisez cette activité pour utiliser les données stockées dans un fichier externe."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 40%
 >abstract="Mise en forme de l’activité Chargement de fichier"
 
 
-La variable **Chargement de fichier** est une activité **Gestion des données** activité. Utilisez cette activité pour travailler avec des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour [personnalisation](../../personalization/gs-personalization.md)ou pour mettre à jour des profils.
+La variable **Chargement de fichier** est une activité **Gestion des données** activité. Utilisez cette activité pour travailler avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour [personnalisation](../../personalization/gs-personalization.md)ou pour mettre à jour les profils ou toute autre table.
 
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Pour configurer la variable **Chargement de fichier** activité :
 
 
 1. Faites glisser et déposez un **Chargement de fichier** dans votre workflow. Cliquez sur le bouton **Sélectionner dans le fichier** bouton .
-1. Sélectionnez le fichier local à utiliser. Le format doit être aligné avec la variable [exemple de fichier](../../audience/file-audience.md#sample-file).
+1. Sélectionnez le fichier local à utiliser. Le format doit être aligné sur cette [exemple de fichier](../../audience/file-audience.md#sample-file).
 1. Prévisualisez et vérifiez le mappage des données dans la section centrale de l’écran.
 1. Ajustez les paramètres des colonnes et comment formater les données à partir des options disponibles.
 1. Cliquez sur **Confirmer** une fois que les paramètres sont corrects.

@@ -3,9 +3,9 @@ audience: end-user
 title: Utilisation de l’activité de workflow Réconciliation
 description: Découvrez comment utiliser l’activité de workflow Réconciliation
 badge: label="Disponibilité limitée"
-source-git-commit: 89372e4a6c60937c646de59eb1a65b86fa1b2528
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 20%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Activité Réconciliation"
->abstract="La variable **Réconciliation** est une activité **Ciblage** activité. Il vous permet de lier des données non identifiées à des ressources existantes. Par exemple, la variable **Réconciliation** peut être placée après une **Chargement d’audience** pour importer des données non standard dans la base de données. Dans ce cas, la variable **Réconciliation** permet de définir le lien entre les données de la base Adobe Campaign et celles de la table de travail."
+>abstract="La variable **Réconciliation** est une activité **Ciblage** activité permettant de lier des données non identifiées à des données Campaign existantes. Par exemple, la variable **Réconciliation** peut être placée après une **Chargement d’audience** pour importer des données non standard dans la base de données. Dans ce cas, la variable **Réconciliation** activité permet de définir le lien entre les données de la base Adobe Campaign et les données de la table externe."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 20%
 
 
 
-La variable **Réconciliation** est une activité **Ciblage** activité. Il vous permet de lier des données non identifiées à des ressources existantes. Par exemple, la variable **Réconciliation** peut être placée après une **Chargement d’audience** pour importer des données non standard dans la base de données. Dans ce cas, la variable **Réconciliation** permet de définir le lien entre les données de la base Adobe Campaign et celles de la table de travail.
+La variable **Réconciliation** est une activité **Ciblage** qui permet de lier des données non identifiées à des ressources existantes. Par exemple, la variable **Réconciliation** peut être placée après une **Chargement d’audience** pour importer des données non standard dans la base de données. Dans ce cas, la variable **Réconciliation** permet de définir le lien entre les données de la base Adobe Campaign et celles de la table de travail.
 
 
 ## Bonnes pratiques {#reconciliation-best-practices}
@@ -85,7 +85,7 @@ Pour configurer la variable **Réconciliation** activité :
 
 1. Sélectionnez le ou les champs de réconciliation à utiliser pour la déduplication. Vous pouvez utiliser un ou plusieurs critères de réconciliation.
 
-   1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez la variable **Attributs simples** . Par exemple, sélectionnez la variable **Email** pour dédupliquer les profils en fonction de leur adresse email. La variable **Source** répertorie les champs disponibles dans la transition de saisie, qui doivent être réconciliés. La variable **Destination** correspond aux champs de la dimension de ciblage sélectionnée. Les données sont réconciliées lorsque la source et la destination sont égales.
+   1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez la variable **Attributs simples** . La variable **Source** répertorie les champs disponibles dans la transition de saisie, qui doivent être réconciliés. La variable **Destination** correspond aux champs de la dimension de ciblage sélectionnée. Les données sont réconciliées lorsque la source et la destination sont égales. Par exemple, sélectionnez la variable **Email** pour dédupliquer les profils en fonction de leur adresse email.
 
       Pour ajouter un autre critère de réconciliation, cliquez sur le bouton **Ajouter une règle** bouton . Si plusieurs conditions de jointure sont indiquées, elles doivent TOUTES être vérifiées pour que le lien entre les données puisse se faire.
 
@@ -121,7 +121,7 @@ Il est construit avec les activités suivantes :
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Réconciliation** activité qui identifie les données entrantes sous forme de profils, en utilisant la variable **email** champ comme critère de réconciliation.
+* A **Réconciliation** activité qui identifie les données entrantes sous forme de profils, en utilisant la variable **email** et **Date de naissance** champs comme critères de réconciliation.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
