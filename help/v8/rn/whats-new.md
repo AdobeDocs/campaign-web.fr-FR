@@ -3,11 +3,11 @@ audience: end-user
 title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Beta"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+badge: label="Disponibilité limitée"
+source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 100%
+source-wordcount: '1322'
+ht-degree: 67%
 
 ---
 
@@ -20,34 +20,55 @@ ht-degree: 100%
 >abstract="Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux."
 
 
-Nous sommes ravis de présenter la version beta de l’interface utilisateur web d’Adobe Campaign. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux.
+Nous sommes ravis de vous présenter la nouvelle version de l’interface utilisateur web d’Adobe Campaign. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux.
 
 ## Fonctionnalités principales {#key-features}
 
-Actuellement, cette nouvelle interface web de Campaign n’est disponible que pour les **utilisateurs et utilisatrices de la version beta**, et dispose des fonctionnalités suivantes :
+Cette nouvelle interface web de Campaign est actuellement disponible dans **Disponibilité limitée** avec les fonctionnalités suivantes :
 
-**Une expérience moderne, intuitive et unifiée**
+**Expérience moderne, amicale et unifiée**
 
 La nouvelle UI web de Campaign offre une nouvelle expérience client, alignée sur toutes les solutions et applications Adobe Experience Cloud. Elle offre :
 
-* L’accès à la nouvelle interface et aux autres solutions Adobe dans une session utilisateur unique et partagée
+* Accès à la nouvelle interface de Campaign et à vos autres solutions d’Adobe avec une session utilisateur unique et partagée
 * Une nouvelle expérience de navigation, avec tous les menus et dossiers disponibles dans le rail de gauche
 * Des sélecteurs de solution et d’organisation à partir de la barre supérieure
 * Une intégration d’Unified Shell, avec un accès direct à la communauté, au centre d’aide et au support
 
-**De nouvelles fonctionnalités puissantes et des processus efficaces**
+Découvrez comment vous connecter à Adobe Experience Cloud et vous connecter à Campaign dans [cette page](../get-started/connect-to-campaign.md).
+
+
+**Nouvelles fonctionnalités puissantes et processus homogènes**
+
+L’interface utilisateur web d’Adobe Campaign fournit un environnement graphique complet qui vous permet de concevoir des processus complexes qui peuvent vous aider à gérer facilement vos campagnes marketing. Elle est fournie avec :
 
 * Une interface de zone de travail de workflow repensée pour concevoir et gérer vos processus
 * Du contenu dynamique pour diffuser des expériences hautement ciblées et personnalisées à votre audience
 * Une intégration native des audiences Adobe Experience Platform
-* Une gestion des modèles pour les workflows, les diffusions, les campagnes et le contenu
+* Gestion des modèles pour les workflows, les diffusions, les campagnes et le contenu
 
 Apprenez-en davantage sur la nouvelle UI sur [cette page](../get-started/user-interface.md).
 
-**Créer, lancer et mesurer votre campagne**
+**Nouveau modèle de requête simplifié et intuitif**
+
+Adobe Campaign Web est doté d&#39;un puissant outil de modélisation des requêtes qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Vous pouvez utiliser le modèle de requête pour :
+
+* Définissez des audiences à cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins.
+* Appliquez les règles dans les activités de workflow, telles que Partage et Réconciliation, afin de respecter vos besoins spécifiques.
+* Créer des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous travailliez avec des listes de données ou que vous créiez l’audience pour une diffusion
+* Ajoutez une règle pour filtrer les données affichées dans les rapports.
+* Créez des règles personnalisées pour filtrer les données affichées dans les listes telles que les destinataires, les listes de diffusions, etc.
+
+En savoir plus dans [cette section](../query/query-modeler-overview.md).
+
+
+**Fonctionnalités intégrées de gestion de campagne cross-canal**
+
+Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS, notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés. Ajoutez plusieurs workflows et des diffusions spécifiques à votre campagne afin de créer des expériences personnalisées sur différents canaux. Chaque point de contact atteint alors l’audience visée.
 
 Utilisez la nouvelle UI web de Campaign pour :
 
+* Créez, concevez, personnalisez, planifiez et envoyez des notifications électroniques, SMS et push - [En savoir plus](../msg/gs-messages.md)
 * Créer un contenu d’e-mail personnalisé avec le concepteur d’e-mail - [En savoir plus](../content/edit-content.md)
 * Envoyer des campagnes cross-canal, y compris des SMS et des notifications push - [En savoir plus](../workflows/activities/channels.md)
 * Définir des audiences cibles avec le créateur de règles - [En savoir plus](../audience/about-recipients.md)
@@ -55,9 +76,9 @@ Utilisez la nouvelle UI web de Campaign pour :
 * Surveiller l’envoi et la mesure des résultats à l’aide de rapports intégrés - [En savoir plus](../reporting/delivery-reports.md)
 
 
-## Mises à jour de la version beta {#beta-release}
+## Dernières mises à jour de version {#latest-release}
 
-Les fonctionnalités clés accompagnant la version beta web de Campaign sont répertoriées ci-dessous.
+Les principales fonctionnalités de la version Campaign Web Limited Available sont répertoriées ci-dessous.
 
 * **Autres activités de workflow de Campaign**
 
@@ -65,29 +86,18 @@ Les fonctionnalités clés accompagnant la version beta web de Campaign sont ré
 
   En savoir plus dans [cette section](../workflows/gs-workflows.md).
 
-* **IA générative pour le contenu des e-mails**
 
-  Dites adieu à la création manuelle de contenu et bonjour à des campagnes efficaces et pilotées par les données avec la puissance de l’IA générative.  Notre technologie d’IA générative utilise des algorithmes avancés pour **générer du contenu hautement attrayant et personnalisé**. Augmentez les taux d’ouvertures, les taux de clics et les conversions grâce à la génération de contenu intelligent par l’IA générative. Gardez toujours une longueur d’avance sur la concurrence et optimisez votre marketing par e-mail avec la génération de contenu d’e-mails par IA générative.
+* **Public cible avec le créateur de modèles de requête**
 
-  En savoir plus dans [cette section](../content/generative-gs.md).
+  Fonctionnalités Web d’Adobe Campaign **puissant et intuitif query modeler** qui simplifie le processus de filtrage des bases de données pour sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés. Le concepteur de requête est disponible dans tout contexte où vous devez définir des règles pour filtrer les données.
 
-* **Filtres prédéfinis**
+  En savoir plus dans [cette section](../query/query-modeler-overview.md).
 
-  Présentation de la gestion des filtres prédéfinis. L’interface utilisateur web de Campaign vous offre désormais une interface conviviale pour **gérer et personnaliser facilement des filtres prédéfinis** pour répondre à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure.
+* **Création et gestion aisées des profils**
 
-  En savoir plus dans [cette section](../get-started/predefined-filters.md).
+  Vous pouvez utiliser la nouvelle interface utilisateur web pour **créer et mettre à jour des destinataires** dans la base directement depuis le menu Destinataires . Un formulaire simplifié d&#39;édition de profil permet de renseigner les coordonnées et attributs du destinataire, et de mettre à jour un destinataire existant, sans utiliser la console cliente.
 
-* **Audience cible avec le créateur de règles**
-
-  Créer une cible de diffusion n’a jamais été aussi facile ! Avec notre **dernier créateur de règles**, vous pouvez désormais définir des critères de filtrage pour les destinataires ou toute autre dimension de ciblage de la base de données. En outre, vous pouvez tirer parti de votre audience AEP (Adobe Experience Platform) pour affiner davantage votre audience cible et optimiser l’impact de votre campagne.
-
-  En savoir plus dans [cette section](../audience/segment-builder.md).
-
-* **SMS avec des offres**
-
-  La nouvelle interface utilisateur web vous permet désormais d’**intégrer des offres à des SMS** en plus de l’e-mail. Atteignez votre audience sur ses appareils mobiles, en proposant des promotions et des notifications opportunes. Optimisez vos efforts marketing en exploitant la puissance des offres intégrées par SMS sur notre plateforme web avancée.
-
-  En savoir plus dans [cette section](../content/offers.md).
+  En savoir plus dans [cette section](../audience/about-recipients.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -97,11 +107,24 @@ Les fonctionnalités clés accompagnant la version beta web de Campaign sont ré
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
 
-* **Assistant de connaissances avec l’IA générative**
+* **IA générative pour le contenu des e-mails**
 
-  Posez des questions et trouvez des conseils directement dans l’interface utilisateur du produit. Le nouvel **assistant de connaissances optimisé par l’IA**, incorporé dans les fenêtres contextuelles d’aide, vous aide à découvrir et à développer votre expertise sur les nouvelles fonctionnalités de Campaign. Selon la documentation la plus récente du produit, il vous aide à trouver de l’aide et à obtenir des conseils détaillés instantanément, au fur et à mesure que vous créez vos cas d’utilisation.
+  Dites adieu à la création manuelle de contenu et bonjour à des campagnes efficaces et pilotées par les données avec la puissance de l’IA générative.  Notre technologie d’IA générative utilise des algorithmes avancés pour **générer du contenu hautement attrayant et personnalisé**. Augmentez les taux d’ouvertures, les taux de clics et les conversions grâce à la génération de contenu intelligent par l’IA générative. Gardez toujours une longueur d’avance sur la concurrence et optimisez votre marketing par e-mail avec la génération de contenu d’e-mails par IA générative.
+
+  En savoir plus dans [cette section](../content/generative-gs.md).
+
+
+* **Aide contextuelle optimisée par l’IA**
+
+  Posez des questions et trouvez des conseils directement dans l’interface utilisateur du produit. La nouvelle **Aide contextuelle optimisée par l’IA** vous aide à apprendre et à développer votre expertise sur les nouvelles fonctionnalités de Campaign. Selon la documentation la plus récente du produit, il vous aide à trouver de l’aide et à obtenir des conseils détaillés instantanément, au fur et à mesure que vous créez vos cas d’utilisation. Cette fonctionnalité est actuellement disponible en version bêta pour un nombre limité d’utilisateurs.
 
   En savoir plus dans [cette section](../get-started/using-ai.md).
+
+* **Filtres prédéfinis**
+
+  Présentation de la gestion des filtres prédéfinis. L’interface utilisateur web de Campaign vous offre désormais une interface conviviale pour **gérer et personnaliser facilement des filtres prédéfinis** pour répondre à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure.
+
+  En savoir plus dans [cette section](../get-started/predefined-filters.md).
 
 * **Convertisseur HTML pour la conception d’e-mail**
 
@@ -110,13 +133,19 @@ Les fonctionnalités clés accompagnant la version beta web de Campaign sont ré
   En savoir plus dans [cette section](../content/existing-content.md).
 
 
+* **SMS avec des offres**
+
+  La nouvelle interface utilisateur web vous permet désormais d’**intégrer des offres à des SMS** en plus de l’e-mail. Atteignez votre audience sur ses appareils mobiles, en proposant des promotions et des notifications opportunes. Optimisez vos efforts marketing en exploitant la puissance des offres intégrées par SMS sur notre plateforme web avancée.
+
+  En savoir plus dans [cette section](../content/offers.md).
+
 ## Migrer vers l’UI de Campaign Web
 
 En tant qu’utilisateur ou utilisatrice de Campaign, vous pouvez toujours accéder à la console cliente pour créer et gérer des ressources et des composants de Campaign. Les données et les paramètres sont synchronisés d’un environnement à un autre. En savoir plus dans [cette section](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
 De plus, l’ensemble de vos données et paramètres déjà disponibles dans la console cliente sont visibles dans l’UI de Campaign Web, à partir du volet de navigation de gauche de l’explorateur. En savoir plus sur la vue Explorateur dans [cette section](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-Avec la version beta de Campaign Web, l’interface utilisateur reflète les autorisations de l’utilisateur ou utilisatrice. Pour en savoir plus sur les autorisations, consultez [cette page](../get-started/permissions.md).
+Avec la version de l’interface utilisateur web de Campaign, l’interface utilisateur reflète les autorisations de l’utilisateur. Pour en savoir plus sur les autorisations, consultez [cette page](../get-started/permissions.md).
 
 ## Mises à jour de la terminologie {#terminology-updates}
 
@@ -130,12 +159,12 @@ Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont 
 
 ## Limites{#limitations-beta}
 
-Les restrictions ci-dessous s’appliquent à cette version beta :
+Les restrictions ci-dessous s’appliquent à cette version :
 
-* Les objets modifiables sont les suivants : diffusions, campagnes, workflows, audiences, services d’abonnement, filtres prédéfinis et modèles. Les autres sont en lecture seule. Utilisez des filtres et créez des règles pour tous les parcourir.
+* Les objets modifiables sont les suivants : destinataires, diffusions, campagnes, workflows, audiences, services d’abonnement, filtres prédéfinis et modèles. Les autres sont en lecture seule. Utilisez des filtres et créez des règles pour tous les parcourir.
 * L’interface utilisateur d’administration n’est pas disponible.
 * Les mesures de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
 * Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes, mais la préparation de la diffusion est en temps réel.
 * Les notifications d’Adobe Experience Cloud et l’aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
 
-D’autres mécanismes de sécurisation et restrictions sont disponibles dans [cette page](../get-started/guardrails.md).
+Pour plus d’informations sur les barrières de sécurité et les limitations, reportez-vous à la section [cette page](../get-started/guardrails.md).
