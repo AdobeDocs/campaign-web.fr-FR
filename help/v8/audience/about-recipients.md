@@ -2,10 +2,10 @@
 title: Surveillance et gestion des profils
 description: Découvrez comment surveiller et gérer les profils dans le Web de Campaign.
 badge: label="Disponibilité limitée"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 11%
+source-wordcount: '662'
+ht-degree: 9%
 
 ---
 
@@ -38,12 +38,52 @@ Vous pouvez filtrer la liste des profils à l’aide du champ de recherche ou de
 
 ## Accès et modification des attributs des profils {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="Détails de base"
+>abstract="Cette section donne des informations sur les détails de base du profil. Pour modifier des informations, apportez vos modifications directement dans le champ correspondant, puis cliquez sur le bouton **Enregistrer** situé dans le coin supérieur droit de l’écran."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="Coordonnées"
+>abstract="Cette section donne des informations sur les coordonnées du profil. Pour modifier des informations, apportez vos modifications directement dans le champ correspondant, puis cliquez sur le bouton **Enregistrer** situé dans le coin supérieur droit de l’écran."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="Cette section donne des informations sur l’adresse postale du profil et la qualité des adresses. Pour modifier des informations, apportez vos modifications directement dans le champ correspondant, puis cliquez sur le bouton **Enregistrer** situé dans le coin supérieur droit de l’écran."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="Détails du compte"
+>abstract="Cette section fournit des informations sur les détails du compte du profil. Pour modifier des informations, apportez vos modifications directement dans le champ correspondant, puis cliquez sur le bouton **Enregistrer** situé dans le coin supérieur droit de l’écran."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Personnes destinataires : ne plus contacter"
+>abstract="Cette section donne des informations sur les préférences de contact du profil. Pour modifier des informations, apportez vos modifications directement dans le champ correspondant, puis cliquez sur le bouton **Enregistrer** situé dans le coin supérieur droit de l’écran."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="Champs personnalisés"
+>abstract="Les champs personnalisés sont des attributs spécifiques, adaptés à vos besoins, qui ont été configurés pour votre instance. Pour modifier des informations, apportez vos modifications directement dans le champ correspondant, puis cliquez sur le bouton **Enregistrer** situé dans le coin supérieur droit de l’écran."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Autres"
+>abstract="Cette section fournit des attributs intégrés supplémentaires. Pour modifier des informations, apportez vos modifications directement dans le champ correspondant, puis cliquez sur le bouton **Enregistrer** situé dans le coin supérieur droit de l’écran."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="Liste des abonnements des personnes destinataires"
+>abstract="Cet onglet répertorie tous les services auxquels le profil est abonné."
+
 Pour accéder aux détails d&#39;un profil, cliquez sur son nom dans la liste des profils.
 
 ![](assets/profiles-details.png)
 
 Dans cet écran, vous pouvez accéder à des informations détaillées sur le profil :
 
-* La variable **[!UICONTROL Détails]** vous permet de parcourir les attributs du profil. Pour modifier un attribut, apportez des modifications dans le champ souhaité, puis cliquez sur le bouton **[!UICONTROL Enregistrer]** bouton .
+* La variable **[!UICONTROL Détails]** vous permet de parcourir les attributs intégrés et personnalisés du profil. Pour modifier un attribut, apportez des modifications dans le champ souhaité, puis cliquez sur le bouton **[!UICONTROL Enregistrer]** bouton .
 * La variable **[!UICONTROL Abonnements]** fournit des informations sur les services auxquels le profil est abonné. [Découvrez comment utiliser les services d’abonnement](manage-services.md)
 * La variable **[!UICONTROL Journaux]** situé dans le coin supérieur droit de l&#39;écran, le bouton permet de visualiser l&#39;historique des interactions du profil par le biais des logs d&#39;envoi, d&#39;exclusion et de tracking, ainsi que les propositions présentées au profil.
