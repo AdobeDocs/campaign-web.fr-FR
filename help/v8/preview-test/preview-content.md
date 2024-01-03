@@ -3,11 +3,11 @@ audience: end-user
 title: Prévisualiser le contenu de la diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion avec l’interface utilisateur web de Campaign.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+badge: label="Disponibilité limitée"
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '342'
+ht-degree: 88%
 
 ---
 
@@ -18,9 +18,7 @@ La fonctionnalité de simulation de contenu de [!DNL Campaign] permet de prévis
 
 Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
-1. Accédez à l’écran de modification du contenu de votre diffusion.
-
-   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
+1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion ou au [Concepteur d&#39;email](../content/get-started-email-designer.md).
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
@@ -36,13 +34,17 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
    * L’onglet **[!UICONTROL Profils de test]** répertorie les adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données.
 
+     ![](assets/simulate-select-profiles.png)
+
      >[!NOTE]
      >
-     >Les profils de test peuvent être créés dans la console [!DNL Campaign] sous le dossier **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Adresses de contrôle]**. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
+     >Les profils de test peuvent être créés à partir du **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** . [En savoir plus](../audience/test-profiles.md#create-test-profiles)
 
    * L’onglet **[!UICONTROL Profils]** répertorie tous les destinataires enregistrés dans le dossier **[!UICONTROL Profils et cibles]** à partir de la console [!DNL Campaign]. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=fr){target="_blank"}.
 
-   ![](assets/simulate-select-profiles.png)
+     >[!NOTE]
+     >
+     >Vous pouvez également afficher et gérer les profils à partir de l’onglet correspondant dans l’interface utilisateur web de Campaign. [En savoir plus](../audience/about-recipients.md)
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** pour confirmer votre sélection.
 
@@ -56,7 +58,7 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
 1. L’écran **[!UICONTROL Simuler]** vous permet également d’effectuer les actions suivantes :
    * Envoyer des diffusions test à des destinataires spécifiques pour validation - [En savoir plus](test-deliveries.md)
-   * Accéder aux journaux des diffusions test envoyées - [En savoir plus](test-deliveries.md#access-proofs)
+   * Accéder aux journaux des diffusions test envoyées - [En savoir plus](test-deliveries.md#access-test-deliveries)
    * Pour les e-mails uniquement, vérifiez le rendu du contenu des messages dans les clients de messagerie les plus courants - [En savoir plus](email-rendering.md)
 
 

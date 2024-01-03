@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -109,4 +109,4 @@ Campaign Web vous permet de prévisualiser et d’envoyer des e-mails de test l
 
    ![](assets/file-upload-test.png)
 
-1. Vous pouvez contrôler à tout moment l’envoi de l’e-mail de test à l’aide du bouton Afficher le journal de l’e-mail de test. [En savoir plus sur la surveillance des e-mails de test](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. Vous pouvez surveiller l’envoi de l’email de test à l’aide de la variable **[!UICONTROL Afficher le journal des emails de test]** à tout moment. [En savoir plus sur la surveillance des e-mails de test](../preview-test/test-deliveries.md#access-test-deliveries)

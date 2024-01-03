@@ -4,23 +4,23 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Disponibilité limitée"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 93%
+source-wordcount: '1187'
+ht-degree: 77%
 
 ---
 
-# Envoyer des BAT {#send-test-deliveries}
+# Envoyer des diffusions test {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Mode Aperçu"
 >abstract="Prévisualisez et testez le message en incluant la population test à la cible principale."
 
-Une fois le contenu de votre message défini, vous pouvez le prévisualiser et le tester en envoyant des BAT aux profils de test. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son contenu dans le message à l’aide des données de profil de test.
+Une fois le contenu de votre message défini, vous pouvez le prévisualiser et le tester en envoyant des diffusions test aux profils de test. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son contenu dans le message à l’aide des données de profil de test.
 
-Pour détecter d’éventuelles erreurs dans le contenu du message ou les paramètres de personnalisation, envoyez des BAT aux profils de test avant de les envoyer à l’audience cible. Un BAT doit être envoyé à chaque modification afin de valider le contenu le plus récent. L’envoi de diffusions de test (anciennement appelées « BAT ») est une étape importante dans la validation de votre campagne et l’identification de problèmes potentiels. Les personnes destinataires d’un BAT peuvent vérifier différents éléments tels que des liens, des liens de désinscription, des images ou des pages miroir, ainsi que détecter toute erreur de rendu, de contenu, de paramètres de personnalisation et de configuration de la diffusion.
+Pour détecter d&#39;éventuelles erreurs dans le contenu du message ou les paramètres de personnalisation, envoyez des diffusions test aux profils de test avant de l&#39;envoyer à l&#39;audience cible. Une diffusion de test doit être envoyée chaque fois qu’une modification est apportée, afin de valider le contenu le plus récent. L&#39;envoi de diffusions test (également appelées &quot;BAT&quot;) est une étape importante dans la validation de votre campagne et l&#39;identification des problèmes potentiels. Les destinataires de la diffusion test peuvent vérifier différents éléments tels que des liens, des liens de désinscription, des images ou des pages miroir, et détecter les erreurs dans le rendu, le contenu, les paramètres de personnalisation et la configuration de la diffusion.
 
 ## Simuler du contenu avec des destinataires test {#simulate-content-test-deliveries}
 
@@ -29,23 +29,23 @@ Pour détecter d’éventuelles erreurs dans le contenu du message ou les param�
 >title="Population test"
 >abstract="Sélectionnez un mode de population test."
 
-Avant d’envoyer un test, assurez-vous de définir une audience cible pour votre diffusion. [En savoir plus](../audience/about-recipients.md).
+Avant d’envoyer un test, assurez-vous de définir une audience cible pour votre diffusion. [En savoir plus](../audience/add-audience.md).
 
 Pour commencer à tester le contenu de votre message :
 
 1. Modifiez le contenu de votre diffusion.
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
-1. Cliquez sur le bouton **[!UICONTROL Test]** pour envoyer des BAT.
+1. Cliquez sur le bouton **[!UICONTROL Test]** pour envoyer des diffusions test.
 
    ![](assets/simulate-test-button-email.png)
 
 1. Sélectionnez les personnes destinataires du test.
 
-   Selon le canal de message, les BAT peuvent être envoyés aux types de personnes destinataires suivants :
+   En fonction du canal du message, les diffusions test peuvent être envoyées aux types de destinataires suivants :
 
    * Pour les SMS et les e-mails, vous pouvez utiliser des [profils de test](#test-profiles), qui sont des destinataires supplémentaires spécifiques dans la base de données. [En savoir plus](../audience/test-profiles.md)
 
-   * Pour les SMS et les e-mails, vous pouvez également utiliser le mode de [substitution de la cible principale](#substitution-profiles), qui envoie les BAT à l’adresse e-mail ou au numéro de téléphone test, et utilise les données de personnalisation d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez la personne destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
+   * Pour les SMS et les emails, vous pouvez également utiliser la variable [substitution de la cible principale](#substitution-profiles) , qui envoie les diffusions test à une adresse de test email ou un numéro de téléphone, et utilise les données de personnalisation d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez la personne destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
 
    * Pour les messages push, vous pouvez utiliser des [personnes abonnées](#subscribers) fictives ajoutées à la base de données. Elles sont créés dans la console [!DNL Campaign]. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
@@ -75,7 +75,7 @@ Pour commencer à tester le contenu de votre message :
 
 Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Ils peuvent être créés à partir de la fonction **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** . [En savoir plus](../audience/test-profiles.md#create-test-profiles)
 
-Les étapes d&#39;envoi des BAT aux adresses de contrôle sont présentées ci-après.
+Les étapes d&#39;envoi des diffusions test aux adresses de contrôle sont présentées ci-après.
 
 1. Dans le contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Test]**.
 
@@ -93,9 +93,7 @@ Les étapes d&#39;envoi des BAT aux adresses de contrôle sont présentées ci-a
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test avec la variable **[!UICONTROL Prospect]** statut. [En savoir plus sur les filtres avancés](../get-started/list-filters.md#adv-attributes)
-
-   ![](assets/simulate-test-profile-filter-ex.png)
+   Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test avec la variable **[!UICONTROL Prospect]** statut. Découvrez comment ajouter des règles à l’aide du [query modeler](../query/query-modeler-overview.md).
 
 1. Si vous souhaitez envoyer le message final aux destinataires de la diffusion test, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
 
@@ -105,7 +103,7 @@ Les étapes d&#39;envoi des BAT aux adresses de contrôle sont présentées ci-a
 
 ## Substituer des données de profil {#substitution-profiles}
 
-Utilisez la substitution de profils pour envoyer un BAT à une adresse e-mail ou un numéro de téléphone spécifique, tout en affichant les données d’un profil existant de la base de données [!DNL Adobe Campaign]. Ce mode ne peut être sélectionné que si l’audience de la diffusion a été définie.
+Utiliser la substitution de profil pour envoyer des diffusions test à une adresse email ou un numéro de téléphone spécifique, tout en affichant les données d’un profil existant de la variable [!DNL Adobe Campaign] base de données. Ce mode ne peut être sélectionné que si l’audience de la diffusion a été définie.
 
 Pour remplacer les données de profil de la cible principale, procédez comme suit :
 
@@ -172,7 +170,7 @@ Une fois cette opération effectuée, vous pouvez préparer et envoyer la diffus
 * [Envoyer votre notification push](../push/send-push.md#send-push)
 * [Envoyer votre diffusion par SMS](../sms/send-sms.md#send-sms)
 
-## Accéder aux diffusions tests envoyées {#access-proofs}
+## Accéder aux diffusions tests envoyées {#access-test-deliveries}
 
 Une fois les diffusions test envoyées, vous pouvez accéder aux journaux dédiés à partir du bouton **[!UICONTROL Afficher le journal des tests]**.
 
@@ -180,6 +178,6 @@ Ces journaux permettent d’accéder à tous les tests envoyés pour la diffusio
 
 ![](assets/simulate-test-log.png)
 
-Vous pouvez également accéder aux tests envoyés à partir de la [liste des diffusions](../msg/gs-messages.md), comme pour n’importe quelle diffusion.
+Vous pouvez également accéder aux tests envoyés à partir de la [liste de diffusion](../msg/gs-messages.md), comme toute diffusion.
 
 ![](assets/simulate-deliveries-list.png)
