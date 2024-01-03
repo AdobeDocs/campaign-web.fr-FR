@@ -4,7 +4,9 @@ title: Génération d’e-mails avec l’assistant de contenu
 description: Commencer avec l’assistant de contenu
 badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%

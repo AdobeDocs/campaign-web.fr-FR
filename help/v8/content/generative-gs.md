@@ -4,7 +4,9 @@ title: Commencer avec l’assistant de contenu
 description: Commencer avec l’assistant de contenu
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 99%
@@ -18,8 +20,6 @@ ht-degree: 99%
 >title="IA générative pour le contenu d’e-mails"
 >abstract="Notre technologie d’IA générative utilise des algorithmes avancés pour générer du contenu hautement attrayant et personnalisé. Augmentez les taux d’ouvertures, les taux de clics et les conversions grâce à la génération de contenu intelligent par l’IA générative. Gardez toujours une longueur d’avance sur la concurrence et optimisez votre marketing par e-mail avec la génération de contenu d’e-mails par IA générative."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Voir les notes de mise à jour"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
