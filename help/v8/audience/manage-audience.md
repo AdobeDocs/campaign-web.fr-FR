@@ -4,9 +4,9 @@ title: Surveiller et gérer les audiences
 description: Découvrez comment surveiller et gérer les audiences dans Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '472'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 100%
 >id="acw_audiences_workflow_error_data_execution"
 >title="Erreur d’audience"
 >abstract="Données d’audience non disponibles Veuillez attendre la fin de l’exécution du workflow."
+
+L’audience est la cible principale de votre diffusion : les destinataires qui reçoivent les messages. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. Apprenez-en plus sur les modèles de diffusion sur [cette page](../msg/delivery-template.md).
+
+Pour définir la population d’une audience, vous pouvez :
+
+* [Créer de nouvelles audiences](create-audience.md) à partir du menu **[!UICONTROL Audiences]**.
+* [Sélectionner une audience existante](add-audience.md) créée sous la forme d’une liste dans la console cliente ou provenant d’Adobe Experience Platform.
+* [Créer une nouvelle audience](segment-builder.md) avec le créateur de règles en définissant et combinant des critères de filtrage,
+* [Utiliser une audience depuis un fichier externe](file-audience.md). Cette option est disponible uniquement pour les diffusions d’e-mails autonomes et ne peut pas être utilisée dans les diffusions de campagne.
+
+Lors du ciblage d’une audience, vous pouvez également définir des **populations témoins** afin d’éviter d’envoyer des messages à une partie de votre audience et pour mesurer l’impact de vos campagnes. [Découvrez comment définir une population témoin](control-group.md)
+
+>[!NOTE]
+>
+>Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience est définie dans une activité de workflow **Créer une audience** spécifique. Dans ce contexte, vous ne pouvez pas charger une audience depuis un fichier pour une diffusion par e-mail, et l’audience n’est définie que dans cette activité dédiée. Découvrez comment définir l’audience de votre diffusion dans un workflow de campagne dans [cette section](../workflows/activities/build-audience.md).
 
 La liste des audiences disponibles dans Campaign Web est accessible à partir du menu **[!UICONTROL Audiences]**.
 

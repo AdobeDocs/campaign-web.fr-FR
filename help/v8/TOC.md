@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 97%
+source-wordcount: '482'
+ht-degree: 95%
 
 ---
 
@@ -88,15 +88,17 @@ ht-degree: 97%
       + [Envoyer des diffusions test](preview-test/test-deliveries.md)
       + [Rendu de l’e-mail](preview-test/email-rendering.md)
 + Audiences et destinataires {#audiences}
-   + [Utiliser des destinataires et des audiences](audience/about-recipients.md)
-   + [Créer des audiences](audience/create-audience.md)
+   + [Prise en main des destinataires et des audiences](audience/gs-audiences-recipients.md)
+   + [Utilisation des destinataires](audience/about-recipients.md)
+   + Utilisation des audiences {#audiences}
+      + [Création d’audiences](audience/create-audience.md)
+      + [Surveiller et gérer les audiences](audience/manage-audience.md)
    + Sélectionner les personnes destinataires de vos diffusions {#target-audiences}
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience à partir d’un fichier](audience/file-audience.md)
       + [Configurer une population témoin](audience/control-group.md)
    + [Utiliser le créateur de règles](audience/segment-builder.md)
-   + [Surveiller et gérer les audiences](audience/manage-audience.md)
    + Utiliser des services d’abonnement {#work-with-services}
       + [Gérer des services](audience/manage-services.md)
       + [Gérer des personnes abonnées](audience/manage-subscribers.md)
