@@ -1,12 +1,12 @@
 ---
 title: Se connecter à l’interface web d’Adobe Campaign
 description: Découvrez comment vous connecter à l’interface utilisateur web d’Adobe Campaign v8.
-badge: label="Version bêta"
+badge: label="Disponibilité limitée"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 84%
 
 ---
 
@@ -51,11 +51,13 @@ Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à 
 
 ## Navigation de niveau supérieur d’Adobe Experience Cloud {#top-bar}
 
-La barre supérieure de l’interface vous permet d’effectuer les actions suivantes :
+Accédez à la barre supérieure de l’interface pour :
 
-* partager vos commentaires en tant qu’utilisateur ou utilisatrice bêta ;
 * basculer entre vos organisations ;
 * basculer entre vos solutions et applications Adobe Experience Cloud.
+* rechercher de l’aide sur [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* vérifier vos notifications de produit
+* modifiez votre profil Adobe et gérez les paramètres, tels que [mettre à jour votre langue préférée](#language-pref) ou [passer au thème clair/foncé](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -87,9 +89,9 @@ Pour changer de langue :
 1. Cliquez ensuite sur le lien de la langue affichée sous votre adresse e-mail.
 1. Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue si le composant que vous utilisez n’est pas localisé dans votre première langue.
 
-## Thème sombre {#dark-theme}
+## Thèmes foncés et clairs {#dark-theme}
 
-Vous pouvez passer au thème sombre à partir de l’icône de votre profil. Utilisez le bouton (bascule) **Thème sombre** pour l’activer ou le désactiver.
+Adobe Campaign est disponible dans des thèmes clairs et sombres. Par défaut, l’interface utilisateur est activée dans le thème léger. Pour passer au thème sombre, cliquez sur l’icône de votre profil, puis utilisez le **Thème sombre** bascule pour l’activer/désactiver.
 
 Les paramètres de profil utilisateur et les préférences de compte sont détaillés dans [cette section](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=fr#preferences){target="_blank"}.
 
