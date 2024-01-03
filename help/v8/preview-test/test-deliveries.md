@@ -3,11 +3,11 @@ audience: end-user
 title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Beta"
-source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
+badge: label="LA"
+source-git-commit: 9ff8b19507f34afcaca95d5eed0ce45c71710463
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 100%
+source-wordcount: '1171'
+ht-degree: 93%
 
 ---
 
@@ -43,7 +43,7 @@ Pour commencer à tester le contenu de votre message :
 
    Selon le canal de message, les BAT peuvent être envoyés aux types de personnes destinataires suivants :
 
-   * Pour les SMS et les e-mails, vous pouvez utiliser des [profils de test](#test-profiles), qui sont des destinataires supplémentaires spécifiques dans la base de données. Ces destinataires sont créés dans la console cliente [!DNL Campaign]. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
+   * Pour les SMS et les e-mails, vous pouvez utiliser des [profils de test](#test-profiles), qui sont des destinataires supplémentaires spécifiques dans la base de données. [En savoir plus](../audience/test-profiles.md)
 
    * Pour les SMS et les e-mails, vous pouvez également utiliser le mode de [substitution de la cible principale](#substitution-profiles), qui envoie les BAT à l’adresse e-mail ou au numéro de téléphone test, et utilise les données de personnalisation d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez la personne destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
 
@@ -73,7 +73,9 @@ Pour commencer à tester le contenu de votre message :
 >title="Inclure les profils de test dans l’audience principale"
 >abstract="Activez cette option pour envoyer également le message final aux personnes destinataires de la diffusion de test."
 
-Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Elles peuvent être créées dans la console cliente [!DNL Adobe Campaign]. Les étapes d’envoi de BAT aux adresses de contrôle sont détaillées ci-dessous.
+Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Ils peuvent être créés à partir de la fonction **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** . [En savoir plus](../audience/test-profiles.md#create-test-profiles)
+
+Les étapes d&#39;envoi des BAT aux adresses de contrôle sont présentées ci-après.
 
 1. Dans le contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Test]**.
 
@@ -81,13 +83,23 @@ Les profils de test sont des adresses de contrôle, qui sont des destinataires s
 
    ![](assets/simulate-profile-mode.png)
 
-1. Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l’écran de simulation du contenu, ils sont présélectionnés comme destinataires du test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires à l’aide du bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]**.
-
    >[!NOTE]
    >
-   >Les profils de test peuvent être créés dans la console cliente [!DNL Campaign] sous le dossier **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Adresses de contrôle]**. Découvrez comment créer et gérer des adresses de contrôle dans la [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
+   >Les profils de test sont créés à partir de la fonction **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** . Découvrez comment les créer et les gérer dans [cette section](../audience/test-profiles.md#create-test-profiles).
+
+1. Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l’écran de simulation du contenu, ils sont présélectionnés comme destinataires du test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires à l’aide du bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]**.
+
+1. Lorsque vous parcourez la liste des profils de test, vous pouvez utiliser des filtres pour affiner votre recherche.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test avec la variable **[!UICONTROL Prospect]** statut. [En savoir plus sur les filtres avancés](../get-started/list-filters.md#adv-attributes)
+
+   ![](assets/simulate-test-profile-filter-ex.png)
 
 1. Si vous souhaitez envoyer le message final aux destinataires de la diffusion test, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
+
+   ![](assets/simulate-include-test.png)
 
 1. Une fois les profils de test sélectionnés, vous pouvez [envoyer la diffusion test](#send-test).
 

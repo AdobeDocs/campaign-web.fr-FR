@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '488'
+ht-degree: 94%
 
 ---
 
@@ -89,7 +89,9 @@ ht-degree: 95%
       + [Rendu de l’e-mail](preview-test/email-rendering.md)
 + Audiences et destinataires {#audiences}
    + [Prise en main des destinataires et des audiences](audience/gs-audiences-recipients.md)
-   + [Utilisation des destinataires](audience/about-recipients.md)
+   + Utilisation des destinataires {#work-with-recipients}
+      + [Gestion des profils](audience/about-recipients.md)
+      + [Créer et gérer des profils de test](audience/test-profiles.md)
    + Utilisation des audiences {#audiences}
       + [Création d’audiences](audience/create-audience.md)
       + [Surveiller et gérer les audiences](audience/manage-audience.md)
