@@ -4,18 +4,16 @@ title: Parcourir, rechercher et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Disponibilité limitée"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 89%
+source-wordcount: '241'
+ht-degree: 81%
 
 ---
 
 # Parcourir, rechercher et filtrer les listes {#list-screens}
 
 La plupart des liens du menu de navigation de gauche affichent des listes d’objets, telles que la liste des **Diffusions** ou des **Campagnes**. Certaines de ces fenêtres de liste sont en lecture seule. Vous pouvez personnaliser l’affichage de la liste et filtrer ces listes, comme décrit ci-dessous.
-
-Pour supprimer un filtre, cliquez sur le bouton **Effacer tout**.
 
 ## Personnaliser les fenêtres de liste {#custom-lists}
 
@@ -39,23 +37,13 @@ Vous pouvez également trier les éléments de la liste en cliquant sur l’en-t
 
 Pour les colonnes numériques ou de date, la flèche vers le **haut** indique que la liste est triée par ordre croissant, tandis que la flèche vers le **bas** indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont classées par ordre alphabétique.
 
-## Filtres intégrés {#list-built-in-filters}
+## Filtres {#list-built-in-filters}
 
-Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou filtrer la liste selon des critères contextuels.
+Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou les filtres intégrés et personnalisés pour adapter la liste en fonction des critères contextuels.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-Vous pouvez, par exemple, filtrer les diffusions selon leur statut, leur canal, leur date de contact ou leur dossier. Vous pouvez également masquer les tests.
-
-## Filtres personnalisés{#list-custom-filters}
-
-Pour créer des filtres personnalisés sur les données, naviguez jusqu’au bas des filtres et cliquez sur le bouton **Ajouter des règles**.
-
-Définissez et combinez vos critères de filtre dans le **Filtres avancés** écran.
-
-![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
-
-Les filtres personnalisés sont conçus avec le modeleur de requête de Campaign. Des informations détaillées sur son utilisation sont disponibles dans la section [cette section](../query/query-modeler-overview.md).
+Des informations détaillées sur l’utilisation des filtres et la création de vos propres filtres personnalisés sont disponibles dans [cette section](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}
