@@ -2,11 +2,11 @@
 audience: end-user
 title: Rapports de campagne du canal e-mail
 description: En savoir plus sur les rapports de campagne du canal E-mail
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
-workflow-type: ht
-source-wordcount: '1572'
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+workflow-type: tm+mt
+source-wordcount: '1573'
 ht-degree: 100%
 
 ---

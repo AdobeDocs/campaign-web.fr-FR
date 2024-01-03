@@ -2,11 +2,11 @@
 audience: end-user
 title: Rapports de diffusion E-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2245'
 ht-degree: 100%
 
 ---
@@ -132,9 +132,9 @@ Le tableau **[!UICONTROL Statistiques de domaine]** contient les données dispon
 
 * **[!UICONTROL Délivrés]** : pourcentage du nombre de messages traités avec succès, par rapport au nombre total de messages traités.
 
-* **[!UICONTROL Hard bounces]** : pourcentage du nombre de hard bounces, c’est-à-dire des erreurs permanentes, telles qu’une mauvaise adresse e-mail, par rapport au nombre total de messages traités.
+* **[!UICONTROL Rebonds définitifs]** : pourcentage du nombre de rebonds définitifs, c’est-à-dire des erreurs permanentes, telles qu’une mauvaise adresse e-mail, par rapport au nombre total de messages traités.
 
-* **[!UICONTROL Soft bounces]** : pourcentage du nombre de soft bounces, c’est-à-dire des erreurs temporaires telles qu’une boîte de réception pleine, par rapport au nombre total de messages traités.
+* **[!UICONTROL Rebonds temporaires]** : pourcentage du nombre de rebonds temporaires, c’est-à-dire des erreurs temporaires telles qu’une boîte de réception pleine, par rapport au nombre total de messages traités.
 
 * **[!UICONTROL Ouvertures]** : pourcentage du nombre de destinataires ciblé(e)s ayant ouvert un message au moins une fois, par rapport au nombre de messages traités avec succès.
 
@@ -278,7 +278,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BAT sont exclus.
+* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BAT sont exclus.
 
 +++
 
