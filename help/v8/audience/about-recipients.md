@@ -2,9 +2,9 @@
 title: Surveillance et gestion des profils
 description: Découvrez comment surveiller et gérer les profils dans le Web de Campaign.
 badge: label="Disponibilité limitée"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 9%
 
 ---
@@ -50,7 +50,7 @@ Vous pouvez filtrer la liste des profils à l’aide du champ de recherche ou de
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="Adresse"
 >abstract="Cette section donne des informations sur l’adresse postale du profil et la qualité des adresses. Pour modifier des informations, apportez vos modifications directement dans le champ correspondant, puis cliquez sur le bouton **Enregistrer** situé dans le coin supérieur droit de l’écran."
 
 >[!CONTEXTUALHELP]
