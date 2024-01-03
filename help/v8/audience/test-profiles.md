@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 14%
 
 ---
@@ -31,13 +31,19 @@ Les étapes pour envoyer des messages de test aux adresses de contrôle sont pr�
 
 ## Accès et gestion des profils de test {#access-test-profiles}
 
-Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** dans le menu de gauche, puis sélectionnez l’option **[!UICONTROL Profils de test]** .
+Pour accéder à la liste des profils de test, sélectionnez **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** dans le menu de gauche, puis cliquez sur l’icône **[!UICONTROL Profils de test]** .
+
+![](assets/test-profile-list.png)
 
 Vous pouvez filtrer selon un [folder](../get-started/permissions.md#folders) à l’aide de la liste déroulante ou en ajoutant des règles à l’aide de la fonction [query modeler](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 Pour modifier un profil de test, cliquez sur l’élément de votre choix dans la liste.
 
 Pour supprimer un profil de test, sélectionnez l’option correspondante dans la **[!UICONTROL Autres actions]** .
+
+![](assets/test-profile-list-delete.png)
 
 ## Créer un profil de test {#create-test-profile}
 
@@ -48,11 +54,7 @@ Pour supprimer un profil de test, sélectionnez l’option correspondante dans l
 
 Pour créer un profil de test, procédez comme suit.
 
-1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]**.
-
-1. Sélectionnez la variable **[!UICONTROL Profils de test]** .
-
-   ![](assets/test-profile-list.png)
+1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** et sélectionnez la variable **[!UICONTROL Profils de test]** .
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un profil de test]** bouton .
 
@@ -62,7 +64,7 @@ Pour créer un profil de test, procédez comme suit.
 
    >[!NOTE]
    >
-   >Le libellé de l&#39;adresse est automatiquement renseigné avec le prénom et le nom que vous avez définis.
+   >La variable **[!UICONTROL Libellé]** est automatiquement renseigné avec le prénom et le nom que vous avez définis.
 
 1. Par défaut, les profils de test sont stockés dans la variable **[!UICONTROL Adresses de contrôle]** dossier. Vous pouvez la modifier en accédant à l’emplacement souhaité. [En savoir plus](#seed-addresses-folders)
 
