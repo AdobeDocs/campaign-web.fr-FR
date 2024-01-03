@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 94%
+source-wordcount: '502'
+ht-degree: 90%
 
 ---
 
@@ -149,6 +149,11 @@ ht-degree: 94%
       + [Rapport de diffusion SMS](reporting/sms-report.md)
    + Rapports de campagne {#campaign-report}
       + [Accéder aux rapports de campagne](reporting/campaign-reports.md)
-      + [Rapports de campagne par e-mail](reporting/campaign-reports-email.md)
-      + [Rapports de campagne par notification push](reporting/campaign-reports-push.md)
-      + [Rapports de campagne par SMS](reporting/campaign-reports-sms.md)
+      + [Rapport Campagne par courriel](reporting/campaign-reports-email.md)
+      + [Rapport de campagne push](reporting/campaign-reports-push.md)
+      + [Rapport de campagne SMS](reporting/campaign-reports-sms.md)
+   + Rapports globaux {#global-report}
+      + [Accès aux rapports globaux](reporting/global-reports.md)
+      + [Envoyer le rapport global par courriel](reporting/global-report-email.md)
+      + [Push global report](reporting/global-report-push.md)
+      + [Rapport global de SMS](reporting/global-report-sms.md)
