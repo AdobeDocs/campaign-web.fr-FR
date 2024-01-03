@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow Réconciliation
 description: Découvrez comment utiliser l’activité de workflow Réconciliation
 badge: label="Disponibilité limitée"
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 19%
@@ -64,7 +64,7 @@ Lorsque la variable **Enrichissement** vous permet de définir des données addi
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Sélectionner la dimension de ciblage"
 >abstract="Sélectionnez la dimension de ciblage des données entrantes avec lesquelles vous souhaitez effectuer la réconciliation."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/about-recipients.html?lang=en#targeting-dimensions" text="Dimensions de ciblage"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Dimensions de ciblage"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
