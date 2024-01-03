@@ -1,32 +1,30 @@
 ---
-title: Utiliser des destinataires et des audiences
-description: Découvrez comment utiliser les destinataires et les audiences dans le Web de Campaign
-badge: label="Beta"
+title: Prise en main des profils et des audiences
+description: Découvrez comment utiliser les profils et les audiences dans Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+badge: label="Disponibilité limitée"
+source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 93%
+source-wordcount: '391'
+ht-degree: 65%
 
 ---
 
-# Utiliser des destinataires et des audiences {#about-recipients}
+# Prise en main des profils et des audiences {#about-profiles}
 
-## Destinataires et audiences {#about}
+## Profils &amp; audiences {#about}
 
-Dans Adobe Campaign, la population cible d’une diffusion est une audience. Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée. [comme décrit ci-dessous](#audiences).
-
-Dans la plupart des cas, l’audience est composée de profils stockés sous la forme de [destinataires](#recipients) dans Adobe Campaign. Vous pouvez également travailler avec d’autres mappings de ciblage en modifiant la dimension, tel qu’expliqué [dans cette section](#targeting-dimensions).
+Dans Adobe Campaign, la population cible d’une diffusion est une audience. Une audience est un ensemble de profils qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée. [comme décrit ci-dessous](#audiences).
 
 ## Dimensions de ciblage {#targeting-dimensions}
 
-La dimension de ciblage, c’est-à-dire le mapping de ciblage, est le type de données qu’une opération traite. Il permet de définir la population ciblée : destinataires, bénéficiaires de contrats, opérateurs et opératrices, abonnés et abonnées, etc.
+La dimension de ciblage, c’est-à-dire le mapping de ciblage, est le type de données qu’une opération traite. Il permet de définir la population ciblée : profils, bénéficiaires de contrats, opérateurs, abonnés, etc.
 
-La dimension de ciblage d’un workflow est définie par la première activité **[!UICONTROL Créer une audience]** et est utilisée dans toutes les autres activités jusqu’à la fin du workflow. Si vous effectuez par exemple une requête sur les destinataires de la base de données, la transition sortante contiendra des données de type destinataire et sera transmise à l’activité suivante.
+La dimension de ciblage d’un workflow est définie par la première activité **[!UICONTROL Créer une audience]** et est utilisée dans toutes les autres activités jusqu’à la fin du workflow. Par exemple, si vous effectuez une requête sur les profils de la base, la transition sortante contiendra des données de type &#39;recipient&#39; et sera transmise à l&#39;activité suivante.
 
-Notez que vous pouvez changer la dimension de ciblage dans un workflow à l’aide d’une activité [Changer une dimension](../workflows/activities/change-dimension.md). Vous pouvez ainsi, par exemple, interroger la base de données sur un tableau spécifique tel que des achats ou des inscriptions, puis changer la dimension de ciblage par Destinataires afin d’envoyer des diffusions aux destinataires correspondants.
+Notez que vous pouvez changer la dimension de ciblage dans un workflow à l’aide d’une activité [Changer une dimension](../workflows/activities/change-dimension.md). Vous pouvez ainsi, par exemple, interroger la base de données sur une table spécifique telle que des achats ou des abonnements, puis modifier la dimension de ciblage en Destinataires afin d&#39;envoyer des diffusions aux profils correspondants.
 
-Par défaut, les modèles de diffusion par e-mail et SMS ciblent les **[!UICONTROL destinataires]**. Leur dimension de ciblage utilise donc les champs du tableau **nms:recipient**. Pour les notifications push, la dimension de ciblage par défaut est **Applications Abonnés (nms:appSubscriptionRcp)**, qui est liée au tableau des destinataires.
+Par défaut, les modèles de diffusion email et SMS ciblent les profils. Leur dimension de ciblage utilise donc les champs du tableau **nms:recipient**. Pour les notifications push, la dimension de ciblage par défaut est **Applications Abonnés (nms:appSubscriptionRcp)**, qui est liée au tableau des destinataires.
 
 Vous pouvez également utiliser d’autres mappings de ciblage intégrés dans vos workflows et diffusions répertoriés ci-dessous :
 
