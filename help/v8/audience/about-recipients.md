@@ -1,54 +1,49 @@
 ---
-title: Utiliser des destinataires et des audiences
-description: Découvrez comment utiliser des destinataires Campaign Web
-badge: label="Beta"
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+title: Surveillance et gestion des profils
+description: Découvrez comment surveiller et gérer les profils dans le Web de Campaign.
+badge: label="Disponibilité limitée"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 93%
+source-wordcount: '380'
+ht-degree: 11%
 
 ---
 
-# Utiliser des destinataires et des audiences {#about-recipients}
+# Surveillance et gestion des profils {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="360 vues de vos destinataires"
->abstract="Créez de nouvelles personnes destinataires et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de votre destinataire. Utilisez les options de filtrage pour parcourir la liste des destinataires, éditer et mettre à jour leur profil."
+>title="Affichage 360 de vos profils"
+>abstract="Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, éditer et mettre à jour leur profil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Voir les notes de mise à jour"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profils"
->abstract="Un profil est une personne ciblée pour recevoir les messages envoyés par Adobe Campaign. Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS). Depuis cette liste, vous pouvez visualiser le profil du ou de la destinataire, en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de votre destinataire."
+>abstract="Un profil est une personne ciblée pour recevoir les messages envoyés par Adobe Campaign. Dans cette liste, vous pouvez afficher les détails des profils en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de vos profils."
 
-Un ou une destinataire est un profil ciblé pour recevoir les messages envoyés par Adobe Campaign. Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS, etc.). Les données de destinataire stockées dans la base de données permettent de créer des audiences qui recevront une diffusion donnée ainsi que d’ajouter des données de personnalisation dans le contenu de votre diffusion. D’autres types de profils existent dans la base de données. Ils sont conçus pour différentes utilisations : par exemple, des profils de contrôle sont créés pour tester vos diffusions avant leur envoi à l’audience finale.
+## Prise en main des profils {#gs}
 
-Les destinataires ne peuvent être ajoutés que depuis la console cliente Campaign. Ils sont cependant visibles dans Campaign Web, à partir de l’entrée **Destinataires** du rail de navigation de gauche. Vous pouvez également modifier les attributs des destinataires à partir de cet écran.
+Un profil dans Adobe Campaign Web est un individu stocké dans la base de données. Il sert de composant clé pour créer des audiences pour les diffusions et ajouter des données de personnalisation à votre contenu. Différents types de profils sont stockés dans la base de données, tels que les profils de test, qui sont conçus pour tester vos diffusions avant leur envoi à l&#39;audience finale. [Découvrez comment utiliser des profils de test](test-profiles.md)
 
-Pour modifier les données d’un ou d’une destinataire, cliquez sur les trois points en regard de son nom et sélectionnez **Modifier**.
+Les profils ne peuvent être ajoutés que depuis la console cliente Campaign. Toutefois, elles sont accessibles dans le Web Adobe Campaign à partir de la variable **Profils** dans le rail de navigation de gauche. Vous pouvez également y accéder à partir de la **Explorateur** où vous pouvez parcourir, créer des dossiers, des sous-dossiers et vérifier les autorisations associées.
 
-![Modifier le profil d’un ou d’une destinataire](assets/recipient-edit.png)
+Vous pouvez filtrer la liste des profils à l’aide du champ de recherche ou des filtres disponibles dans la variable **Afficher les filtres** bouton .
 
-Vous pouvez mettre à jour un ensemble limité d’attributs, à savoir : son prénom, son nom, son e-mail et son numéro de téléphone.
-
-![Mettre à jour un profil de destinataire](assets/recipient-update.png)
+![](assets/profiles-list.png)
 
 >[!NOTE]
 >
->Ce formulaire de modification de profil limité est fourni uniquement pour le test du programme Bêta. Il sera amélioré dans la prochaine version. Il permet à l’utilisateur ou l’utilisatrice d’ajouter rapidement une adresse e-mail et un numéro de téléphone à n’importe quel profil afin de pouvoir tester les canaux e-mail et SMS et de recevoir les messages envoyés.
+>En fonction de vos permissions, il se peut que vous n&#39;ayez pas accès à la liste complète des profils stockés dans la base de données. Pour en savoir plus sur les autorisations, consultez [cette section](../get-started/permissions.md).
 
-Vous pouvez filtrer les destinataires à l’aide du champ de recherche, à l’aide du bouton **Afficher les filtres**.
+## Accès et modification des attributs des profils {#access}
 
-Vous pouvez également accéder aux destinataires à partir de la vue **Explorateur**, parcourir et créer des dossiers et des sous-dossiers, ainsi que vérifier les autorisations associées.
+Pour accéder aux détails d&#39;un profil, cliquez sur son nom dans la liste des profils.
 
-![Liste des destinataires à partir de la vue Explorateur](assets/recipients-from-explorer.png)
+![](assets/profiles-details.png)
 
->[!NOTE]
->
->En fonction de vos autorisations, il se peut que vous n’ayez pas accès à la liste complète des destinataires stockés dans la base de données. Pour en savoir plus sur les autorisations, consultez [cette section](../get-started/permissions.md).
+Dans cet écran, vous pouvez accéder à des informations détaillées sur le profil :
 
-En outre, vous pouvez gérer l’abonnement et le désabonnement de vos destinataires à des services tels que les newsletters. Découvrez comment utiliser les services d’abonnement sur [cette page](manage-services.md).
-
-Vous pouvez créer des workflows pour dédupliquer, enrichir, combiner des profils et créer des audiences. En savoir plus dans [cette section](../workflows/gs-workflows.md).
+* La variable **[!UICONTROL Détails]** vous permet de parcourir les attributs du profil. Pour modifier un attribut, apportez des modifications dans le champ souhaité, puis cliquez sur le bouton **[!UICONTROL Enregistrer]** bouton .
+* La variable **[!UICONTROL Abonnements]** fournit des informations sur les services auxquels le profil est abonné. [Découvrez comment utiliser les services d’abonnement](manage-services.md)
+* La variable **[!UICONTROL Journaux]** situé dans le coin supérieur droit de l&#39;écran, le bouton permet de visualiser l&#39;historique des interactions du profil par le biais des logs d&#39;envoi, d&#39;exclusion et de tracking, ainsi que les propositions présentées au profil.
