@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1452'
 ht-degree: 90%
 
 ---
@@ -179,41 +179,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Création de personnes destinataires"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="Détails des personnes destinataires"
->abstract="Détails des personnes destinataires"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="Coordonnées des personnes destinataires"
->abstract="Coordonnées des personnes destinataires"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="Adresse des personnes destinataires"
->abstract="Adresse des personnes destinataires"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="Compte des personnes destinataires"
->abstract="Compte des personnes destinataires"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="Champs personnalisés des personnes destinataires"
->abstract="Champs personnalisés des personnes destinataires"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="Personnes destinataires : ne plus contacter"
->abstract="Personnes destinataires : ne plus contacter"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="Personnes destinataires : autres"
->abstract="Personnes destinataires : autres"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Vue d’ensemble de la carte des personnes destinataires"
 >abstract="Vue d’ensemble de la carte des personnes destinataires"
@@ -222,11 +187,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="Points de contact des personnes destinataires"
 >abstract="Points de contact des personnes destinataires"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="Liste des abonnements des personnes destinataires"
->abstract="Liste des abonnements des personnes destinataires"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
