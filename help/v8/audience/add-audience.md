@@ -4,7 +4,7 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
    ![](assets/select-audience-folder.png)
 
-1. La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au créateur de règles, qui vous permet de créer des filtres avancés pour la liste des audiences. [Découvrez comment utiliser le créateur de règles](segment-builder.md)
+1. La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au créateur de règles, qui vous permet de créer des filtres avancés pour la liste des audiences. [Découvrez comment utiliser le créateur de règles](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
