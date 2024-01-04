@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 95%
+source-wordcount: '1909'
+ht-degree: 88%
 
 ---
 
@@ -16,21 +16,23 @@ ht-degree: 95%
 
 L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d&#39;utiliser des fonctions avancées. Ces fonctions permettent de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
-Ces opérations sont disponibles à partir du bouton Éditer l’expression du créateur de modèles de requête, disponible pour les champs Attribut et Valeur lors de la configuration d’une condition personnalisée.
+Ces opérations sont disponibles à partir du créateur de modèles de requête. **[!UICONTROL Expression d’édition]** , disponible pour le **[!UICONTROL Attribut]** et **[!UICONTROL Valeur]** lors de la configuration d’une condition personnalisée.
 
 ![](assets/edit-expression.png)
 
 L’éditeur d’expression fournit :
 
-* un champ de saisie, dans lequel l’expression est définie ;
-* la liste des champs disponibles, utilisables dans l’expression et correspondant à la dimension de ciblage de la requête ;
-* la liste des fonctions disponibles, triées par catégorie.
+* Un **Champ de saisie (1)** dans laquelle l’expression est définie.
+* La liste des **fields (2)** qui peut être utilisé dans l’expression et correspondant à la dimension de ciblage de la requête.
+* **Fonctions d’assistance (3)**, triés par catégorie.
 
-Éditez l’expression en saisissant directement une expression dans le champ ou en vous aidant de la liste des champs ainsi que de la liste des fonctions disponibles. Pour ce faire, placez le curseur dans votre expression à l’endroit où vous souhaitez ajouter l’élément et double-cliquez sur le champ ou l’expression de votre choix.
+![](assets/expression-editor.png)
+
+Editez l&#39;expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton + .
 
 ## Fonctions d’assistance
 
-L’outil d’édition de requêtes permet d’utiliser des fonctions avancées pour réaliser un filtrage complexe en fonction des résultats souhaités et des types de données manipulées. Les fonctions suivantes sont disponibles :
+L&#39;outil d&#39;édition de requêtes permet d&#39;utiliser des fonctions avancées pour réaliser un filtrage complexe en fonction des résultats souhaités et des types de données manipulées. Les fonctions suivantes sont disponibles :
 
 ### Agrégat
 
