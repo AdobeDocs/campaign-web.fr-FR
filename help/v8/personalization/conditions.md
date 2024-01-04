@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d3afb758e11faf9c39fb14f0b30f1b9edc913ec3
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 99%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 100%
 >title="Ajouter du contenu conditionnel"
 >abstract="Configure campos de contenido condicional para crear una personalización dinámica avanzada basada en el perfil del destinatario. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición en concreto. "
 
+## Prise en main du contenu conditionnel {#gs}
+
 Le contenu conditionnel est une puissante fonctionnalité qui permet de créer une personnalisation dynamique basée sur le profil de la personne destinataire, en remplaçant automatiquement les blocs de texte et les images lorsque certaines conditions sont remplies. Cette fonctionnalité permet de créer des campagnes plus sophistiquées, et de proposer des expériences hautement ciblées et personnalisées à votre audience.
 
 En configurant du contenu conditionnel, vous pouvez notamment créer une personnalisation dynamique avancée basée sur le profil de la personne destinataire. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición en concreto. Par exemple, vous pouvez afficher « M. » ou « Mme » en fonction de la valeur du champ Genre dans la base de données Adobe Campaign, ou inclure un lien différent en fonction de la langue préférée de la personne destinataire.
 
-## Comment créer du contenu conditionnel
-
 Pour créer du contenu conditionnel, vous devez créer des conditions dans l’**éditeur d’expression** à l’aide de fonctions d’assistance spécifiques. Cette méthode est disponible pour tous les canaux de diffusion, dans tous les champs où vous pouvez accéder à l’éditeur d’expression, comme l’objet, ou encore les liens d’e-mail et les composants de contenu texte/bouton. [Découvrez comment accéder à l’éditeur d’expression.](gs-personalization.md/#access)
 
-En plus de l’éditeur d’expression, vous pouvez utiliser un **créateur de contenu conditionnel** dédié lors de la conception d’un e-mail. Vous pourrez ainsi créer des conditions à l’aide d’attributs de profil uniquement. [Découvrez comment créer du contenu conditionnel dans les e-mails.](#condition-condition-builder)
+<!--In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only. [Learn how to create conditional content in emails](#condition-condition-builder)-->
 
 ## Créer des conditions dans l’éditeur d’expression {#condition-perso-editor}
 
@@ -79,35 +79,38 @@ Pour définir du contenu conditionnel pour une diffusion à l’aide de l’édi
 
 1. Une fois votre condition prête, vous pouvez enregistrer votre contenu et vérifier son rendu en simulant votre contenu.
 
-## Créer du contenu conditionnel dans les e-mails. {#condition-condition-builder}
+<!--SECTION REMOVED FOR LA > CONDITIONAL CONTENT NOT AVAILABLE ANYMORE FROM THE DEDICATED MENU IN THE EMAIL DESIGNER. ONLY THE EXPRESSION EDITOR IS AVAILABLE FOR NOW
 
-Le contenu conditionnel des e-mails peut être créé de deux manières :
-* Dans l’éditeur d’expression en créant une condition avec des fonctions d’assistance
-* Dans un créateur de contenu conditionnel dédié accessible lors de la conception d’un email.
+## Create conditional content in emails {#condition-condition-builder}
 
-Vous trouverez [ici](#condition-perso-editor) des informations détaillées sur la création de conditions à l’aide de l’éditeur d’expression. La section suivante fournit des instructions détaillées sur la création de conditions à l’aide de la fonctionnalité de contenu conditionnel du concepteur d’e-mail. Dans cet exemple, nous allons créer un e-mail avec plusieurs variantes basées sur la langue des personnes destinataires. Procédez comme suit :
+Conditional content in emails can be created in two ways:
+* In the expression editor by building a condition with helper functions,
+* In a dedicated conditional content builder that is accessible when designing an email.
 
-1. Créez ou ouvrez une diffusion e-mail, modifiez son contenu, puis cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour ouvrir l’espace de travail de conception d’e-mail.
+Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor). The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
 
-1. Sélectionnez un composant de contenu et cliquez sur l’icône **[!UICONTROL Activer le contenu conditionnel]**.
+1. Create or open an email delivery, edit its content, and click the **[!UICONTROL Edit email body]** button to open the email designing workspace.
 
-   ![](assets/condition-email-enable.png){width="800" align="center"}
+1. Select a content component and click the **[!UICONTROL Enable conditional content]** icon.
 
-1. Le volet **[!UICONTROL Contenu conditionnel]** s’affiche sur la partie gauche de l’écran. Dans ce volet, vous pouvez créer plusieurs variantes du composant de contenu sélectionné en indiquant des conditions.
+    ![](assets/condition-email-enable.png){width="800" align="center"}
 
-1. Configurez votre première variante. Pointez sur **[!UICONTROL Variante - 1]** dans le volet **[!UICONTROL Contenu conditionnel]** et cliquez sur l’icône **[!UICONTROL Ajouter une condition]**.
+1. The **[!UICONTROL Conditional Content]** pane opens on the left-hand side of the screen. In this pane, you can create multiple variants of the selected content component using conditions.
 
-1. Un créateur de règles s’affiche. Utilisez les attributs de profil pour créer la condition pour la première variante du message, puis cliquez sur **[!UICONTROL Confirmer]**. Dans l’exemple suivant, nous allons créer une règle ciblant les destinataires dont la langue est le « français ».
+1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** icon.
 
-   ![](assets/condition-email-rule.png){width="800" align="center"}
+1. A rule builder appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
 
-1. La règle est désormais associée à la variante. Pour une meilleure lisibilité, il est recommandé de renommer la variante en cliquant sur le menu représentant des points de suspension.
+    ![](assets/condition-email-rule.png){width="800" align="center"}
 
-1. Configurez l’affichage du composant si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous souhaitons afficher le texte en français s’il s’agit de la langue préférée du ou de la destinataire.
+1. The rule is now associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipsis menu.
 
-   ![](assets/condition-email-variant1.png){width="800" align="center"}
+1. Configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
 
-1. Ajoutez autant de variantes que nécessaire pour le composant de contenu. Vous pouvez basculer entre les variantes à tout moment pour examiner l’affichage du composant de contenu en fonction des différentes règles conditionnelles.
+    ![](assets/condition-email-variant1.png){width="800" align="center"}
 
-   >[!NOTE]
-   >Si aucune des règles définies dans les variantes n’est respectée lors de l’envoi du message, le composant de contenu affiche le contenu défini dans la **[!UICONTROL Variante par défaut]** du volet **[!UICONTROL Contenu conditionnel]**.
+1. Add as many variants as needed for the content component. You can switch between the variants at any time to check how the content component will display based on their conditional rules.
+
+    >[!NOTE]
+    >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]** from the **[!UICONTROL Conditional Content]** pane.
+-->
