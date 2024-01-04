@@ -4,8 +4,8 @@ title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Version bêta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: ht
+source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
+workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ Dans la section **Population supplémentaire** de l’écran de définition de l
 
 * Pour utiliser une audience existante, cliquez sur **Sélectionner une audience**. En savoir plus dans [cette section](add-audience.md).
 
-* Pour définir une nouvelle requête, sélectionnez **Créer la vôtre** et définissez les critères d’exclusion à l’aide du créateur de règles. En savoir plus dans [cette section](segment-builder.md).
+* Pour définir une nouvelle requête, sélectionnez **Créer la vôtre** et définissez les critères d’exclusion à l’aide du créateur de règles. En savoir plus dans [cette section](../query/query-modeler-overview.md).
 
 Les profils inclus dans l’audience ou correspondant au résultat de la requête sont **exclus** de la cible de la diffusion : ils ne reçoivent aucun message.
 
