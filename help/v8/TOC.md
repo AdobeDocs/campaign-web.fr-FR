@@ -5,10 +5,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Présentation de Campaign
 hide: true
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 88%
+source-wordcount: '504'
+ht-degree: 87%
 
 ---
 
@@ -87,10 +87,10 @@ ht-degree: 88%
       + [Prévisualiser le contenu du message](preview-test/preview-content.md)
       + [Envoyer des diffusions test](preview-test/test-deliveries.md)
       + [Rendu de l’e-mail](preview-test/email-rendering.md)
-+ Audiences et destinataires {#audiences}
-   + [Prise en main des destinataires et des audiences](audience/gs-audiences-recipients.md)
-   + Utilisation des destinataires {#work-with-recipients}
-      + [Gestion des profils](audience/about-recipients.md)
++ Profils &amp; audiences {#audiences}
+   + [Prise en main des profils et des audiences](audience/gs-audiences-recipients.md)
+   + Utilisation de profils {#work-with-profiles}
+      + [Surveillance et gestion des profils](audience/about-recipients.md)
       + [Créer et gérer des profils de test](audience/test-profiles.md)
    + Utilisation des audiences {#audiences}
       + [Création d’audiences](audience/create-audience.md)
@@ -100,7 +100,6 @@ ht-degree: 88%
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience à partir d’un fichier](audience/file-audience.md)
       + [Configurer une population témoin](audience/control-group.md)
-   + [Utiliser le créateur de règles](audience/segment-builder.md)
    + Utiliser des services d’abonnement {#work-with-services}
       + [Gérer des services](audience/manage-services.md)
       + [Gérer des personnes abonnées](audience/manage-subscribers.md)

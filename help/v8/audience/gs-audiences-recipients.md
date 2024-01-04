@@ -3,39 +3,55 @@ title: Prise en main des profils et des audiences
 description: Découvrez comment utiliser les profils et les audiences dans Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Disponibilité limitée"
-source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 65%
+source-wordcount: '203'
+ht-degree: 17%
 
 ---
 
 # Prise en main des profils et des audiences {#about-profiles}
 
-## Profils &amp; audiences {#about}
+Dans Adobe Campaign Web, une **profile** est un individu stocké dans la base de données, qui sert de composant clé pour créer des audiences pour les diffusions et ajouter des données de personnalisation à votre contenu. Différents types de profils sont stockés dans la base de données, tels que **Profils de test**, qui sont conçues pour tester vos diffusions avant leur envoi à l’audience finale.
 
-Dans Adobe Campaign, la population cible d’une diffusion est une audience. Une audience est un ensemble de profils qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée. [comme décrit ci-dessous](#audiences).
+**Audiences** sont des ensembles de profils qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée.  Une fois créées, les audiences peuvent être exploitées comme population cible de vos diffusions.
 
-## Dimensions de ciblage {#targeting-dimensions}
+En outre, le Web Adobe Campaign peut être utilisé pour gérer et créer des **services** par exemple des newsletters et pour vérifier les abonnements ou désabonnements à ces services. Une fois cette opération terminée, vous pouvez ajouter des abonnés, désabonner des profils et envoyer des messages aux abonnés de vos services.
 
-La dimension de ciblage, c’est-à-dire le mapping de ciblage, est le type de données qu’une opération traite. Il permet de définir la population ciblée : profils, bénéficiaires de contrats, opérateurs, abonnés, etc.
+Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adobe Campaign Web, il est temps d’explorer plus en détails les sections de cette documentation pour commencer à travailler.
 
-La dimension de ciblage d’un workflow est définie par la première activité **[!UICONTROL Créer une audience]** et est utilisée dans toutes les autres activités jusqu’à la fin du workflow. Par exemple, si vous effectuez une requête sur les profils de la base, la transition sortante contiendra des données de type &#39;recipient&#39; et sera transmise à l&#39;activité suivante.
-
-Notez que vous pouvez changer la dimension de ciblage dans un workflow à l’aide d’une activité [Changer une dimension](../workflows/activities/change-dimension.md). Vous pouvez ainsi, par exemple, interroger la base de données sur une table spécifique telle que des achats ou des abonnements, puis modifier la dimension de ciblage en Destinataires afin d&#39;envoyer des diffusions aux profils correspondants.
-
-Par défaut, les modèles de diffusion email et SMS ciblent les profils. Leur dimension de ciblage utilise donc les champs du tableau **nms:recipient**. Pour les notifications push, la dimension de ciblage par défaut est **Applications Abonnés (nms:appSubscriptionRcp)**, qui est liée au tableau des destinataires.
-
-Vous pouvez également utiliser d’autres mappings de ciblage intégrés dans vos workflows et diffusions répertoriés ci-dessous :
-
-| Nom | Utilisation | Schéma |
-|---|---|---|
-| Destinataires | Diffuser aux destinataires (tableau de destinataires intégré) | nms:recipient |
-| Visiteurs | Diffuser aux visiteurs dont les profils ont été collectés par le biais d’une recommandation (marketing viral), par exemple. | mns:visitor |
-| Abonnements  | Diffuser aux destinataires abonnés à un service d&#39;information, par exemple une newsletter | nms:subscription |
-| Abonnements des visiteurs | Diffuser à des visiteurs abonnés à un service d&#39;information | nms:visitorSub |
-| Les opérateurs | Diffuser aux opérateurs Adobe Campaign | nms:operator |
-| Fichier externe | Diffuser depuis un fichier contenant les toutes informations nécessaires à la diffusion | Aucun schéma associé, aucune cible renseignée |
-| Applications abonnés | Diffuser aux destinataires abonnés à une application | nms:appSubscriptionRcp |
-
-En outre, vous pouvez créer un nouveau mapping de ciblage selon vos besoins. Cette opération est effectuée à partir de la console cliente. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr#new-mapping){target="_blank"}.
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="about-recipients.md">
+<img src="../assets/do-not-localize/profiles-audiences-profile.png">
+</a>
+<div>
+<a href="manage-audience.md"><strong>Surveillance et gestion des profils</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="test-profiles.md">
+<img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
+</a>
+<div><a href="conditions.md"><strong>Création d’audiences</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="manage-services.md">
+<img alt="Peu fréquent" src="../assets/do-not-localize/profiles-audiences-service.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>Gestion des services</strong></a>
+</div>
+<p></td>
+<td>
+<a href="add-audience.md">
+<img alt="Peu fréquent" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>Sélectionner les destinataires de vos diffusions</strong></a>
+</div>
+<p></td>
+</tr></table>
