@@ -4,7 +4,7 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 337f2f063e54e8b50446780a0ce89c529c8d743a
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 100%
@@ -110,7 +110,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans 
 
    ![](assets/email-edit-content.png)
 
-   Une interface dédiée s’affiche, dans laquelle vous pouvez configurer le contenu de l’e-mail et accéder au concepteur d’e-mail. [En savoir plus](../email/edit-content.md).
+   Une interface dédiée s’affiche, dans laquelle vous pouvez configurer le contenu de l’e-mail et accéder au concepteur d’e-mail. [En savoir plus](edit-content.md).
 
    ![](assets/edit-content.png)
 
@@ -120,11 +120,11 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans 
 
 1. Pour concevoir le contenu de l’e-mail, cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]**.
 
-   Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, utilisez un [modèle de contenu prédéfini](../email/create-email-templates.md).
+   Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, utilisez un [modèle de contenu prédéfini](create-email-templates.md).
 
    ![](assets/select-template.png)
 
-1. Une fois le modèle sélectionné, il s’affiche dans le [concepteur d’e-mail](../email/create-email-content.md). Vous pouvez ainsi apporter les modifications nécessaires et le personnaliser à souhait.
+1. Une fois le modèle sélectionné, il s’affiche dans le [concepteur d’e-mail](create-email-content.md). Vous pouvez ainsi apporter les modifications nécessaires et le personnaliser à souhait.
 
    Par exemple, pour personnaliser le titre de l’e-mail, sélectionnez le bloc de composant et cliquez sur **[!UICONTROL Ajouter une personnalisation]**.
 
