@@ -3,17 +3,23 @@ audience: end-user
 title: Prise en main des rapports globaux
 description: Présentation des rapports globaux
 badge: label="Disponibilité limitée"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 2%
+source-wordcount: '258'
+ht-degree: 8%
 
 ---
 
 
 # Prise en main des rapports globaux {#global-report-gs}
 
-Les rapports globaux fournissent un aperçu complet du trafic et de l’engagement sur tous les canaux, et offrent un large éventail de widgets qui fournissent des informations uniques sur les performances des campagnes et des diffusions.
+La variable **Rapports globaux** constitue un outil efficace, offrant un résumé global consolidé des mesures de trafic et d’engagement pour chaque canal de votre instance Campaign. Ces rapports se composent de différents widgets, chacun offrant une perspective différente des performances de vos campagnes ou diffusions.
+
+La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
+
+* [Envoyer les rapports globaux par courriel](global-report-email.md)
+* [Rapports globaux SMS](global-report-email-sms.md)
+* [Rapports globaux push](global-report-push.md)
 
 ## Gérer le tableau de bord des rapports {#manage-reports}
 
@@ -29,7 +35,7 @@ Pour accéder à vos rapports globaux et les gérer, procédez comme suit :
 
    ![](assets/global_report_manage_2.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter des règles]** pour commencer à créer des requêtes afin de mieux filtrer les données de reporting.
+1. Cliquez sur **[!UICONTROL Ajouter des règles]** pour commencer à créer des requêtes afin de mieux filtrer les données de reporting. [Découvrez comment utiliser le créateur de modèles de requête](../query/query-modeler-overview.md)
 
 1. Dans la **[!UICONTROL URL et flux de clics]**, vous pouvez également choisir la variable **[!UICONTROL Liens les plus visités]** ou le **[!UICONTROL Période]**.
 
