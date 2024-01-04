@@ -3,7 +3,7 @@ title: Prise en main des profils et des audiences
 description: Découvrez comment utiliser les profils et les audiences dans Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Disponibilité limitée"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 17%
@@ -26,15 +26,15 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>Surveillance et gestion des profils</strong></a>
+<a href="about-recipients.md"><strong>Surveillance et gestion des profils</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>Création d’audiences</strong>
+<div><a href="create-audience.md"><strong>Création d’audiences</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <img alt="Peu fréquent" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Gestion des services</strong></a>
+<a href="manage-services.md"><strong>Gestion des services</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <img alt="Peu fréquent" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Sélectionner les destinataires de vos diffusions</strong></a>
+<a href="add-audience.md"><strong>Sélectionner les destinataires de vos diffusions</strong></a>
 </div>
 <p></td>
 </tr></table>
