@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 12%
 
 ---
@@ -106,15 +106,13 @@ Pour créer entièrement un modèle de contenu, procédez comme suit.
 
    ![](assets/content-template-create.png)
 
-1. Renseignez les détails du modèle.
+1. Renseignez les détails du modèle. Vous pouvez sélectionner le dossier dans lequel vous souhaitez stocker votre modèle. Par défaut, les modèles de contenu sont stockés dans un noeud dédié de la hiérarchie Adobe Campaign : **[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >Actuellement, seule la variable **Email** channel et **HTML** Les types sont pris en charge.
-
-1. Sélectionnez le dossier dans lequel vous souhaitez stocker votre modèle. Par défaut, les modèles de contenu sont stockés dans un noeud dédié de la hiérarchie Adobe Campaign : **[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
 
 1. Cliquez sur **[!UICONTROL Créer]** et choisissez la manière dont vous souhaitez concevoir votre modèle parmi les différentes options suivantes :
 
