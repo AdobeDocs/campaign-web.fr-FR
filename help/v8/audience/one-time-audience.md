@@ -4,7 +4,7 @@ title: Créer une audience unique pour une diffusion
 description: Découvrez comment créer une audience unique pour une diffusion.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Pour créer une nouvelle audience directement depuis une diffusion, procédez co
 
    ![](assets/segment-builder0.png)
 
-1. Sélectionnez **Créez la vôtre**. Le créateur de règles s’affiche. Il permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. [Découvrez comment utiliser le créateur de règles](segment-builder.md)
+1. Sélectionnez **Créez la vôtre**. Le créateur de règles s’affiche. Il permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. [Découvrez comment utiliser le créateur de règles](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

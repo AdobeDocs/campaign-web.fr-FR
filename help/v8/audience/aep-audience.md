@@ -4,9 +4,9 @@ title: Utiliser une audience Adobe Experience Platform
 description: Découvrez comment utiliser une audience à partir d’Adobe Experience Platform.
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Une fois l’audience Adobe Experience Platform créée, vous pouvez l’utili
 
 Pour sélectionner l’audience d’une diffusion, vous pouvez également procéder comme suit :
 
-* Créez une audience. [En savoir plus](segment-builder.md)
+* Créez une audience. [En savoir plus](../query/query-modeler-overview.md)
 * Chargez une audience à partir d’un fichier externe. [En savoir plus](file-audience.md)
 * Utilisez une audience de campagne existante. [En savoir plus](add-audience.md).
 
@@ -33,7 +33,7 @@ Pour sélectionner une audience Adobe Experience Platform pour votre diffusion
 
    ![](assets/create-audience.png)
 
-1. Choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante. Afin de créer une nouvelle audience pour cet e-mail, choisissez **Créer la vôtre**. Reportez-vous à cette [section](segment-builder.md).
+1. Choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante. Afin de créer une nouvelle audience pour cet e-mail, choisissez **Créer la vôtre**. Reportez-vous à cette [section](../query/query-modeler-overview.md).
 
    Cet écran affiche toutes les audiences existantes définies dans la console cliente Adobe Campaign, pour le dossier actuel. Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section dédiée aux filtres de l’écran.
 
@@ -49,6 +49,6 @@ Pour sélectionner une audience Adobe Experience Platform pour votre diffusion
 
    ![](assets/refine-audience.png)
 
-1. Le créateur de règles vous permet d’enrichir votre audience avec des filtres supplémentaires ou en combinant différentes audiences. Consultez cette [section](segment-builder.md).
+1. Le créateur de règles vous permet d’enrichir votre audience avec des filtres supplémentaires ou en combinant différentes audiences. Consultez cette [section](../query/query-modeler-overview.md).
 
 1. Cliquez sur **Enregistrer**.
