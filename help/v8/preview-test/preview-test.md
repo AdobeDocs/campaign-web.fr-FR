@@ -4,7 +4,7 @@ title: À propos de la prévisualisation et du test des diffusions
 description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Disponibilité limitée"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 86%
@@ -30,7 +30,7 @@ Pour ce faire, [!DNL Adobe Campaign] vous permet d’effectuer les opérations s
 * [Envoyer des diffusions test](test-deliveries.md) (BAT) à des destinataires ou des abonnés et abonnées spécifiques à des fins de test et de validation
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
 
-Ces actions peuvent être effectuées à l’aide de la variable **[!UICONTROL Simulation du contenu]** accessible à partir de l’écran d’édition du contenu de votre diffusion ou à partir de la fonction [Concepteur d&#39;email](../content/get-started-email-designer.md).
+Ces actions peuvent être effectuées à l’aide de la variable **[!UICONTROL Simulation du contenu]** accessible à partir de l’écran d’édition du contenu de votre diffusion ou à partir de la fonction [Concepteur d&#39;email](../email/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 

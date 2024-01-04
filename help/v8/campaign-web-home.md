@@ -4,7 +4,7 @@ description: Centre d’aide de Campaign Web v8
 title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilité limitée"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 92%
@@ -68,11 +68,11 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <p>
 </td>
 <td>
-<a href="content/get-started-email-designer.md">
+<a href="email/get-started-email-designer.md">
 <img alt="Peu fréquent" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/get-started-email-designer.md"><strong>Présentation du concepteur d’e-mail</strong></a>
+<a href="email/get-started-email-designer.md"><strong>Présentation du concepteur d’e-mail</strong></a>
 </div>
 <p></td>
 <td>

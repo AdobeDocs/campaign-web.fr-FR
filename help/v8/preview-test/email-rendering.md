@@ -4,7 +4,7 @@ title: Tester le rendu des e-mails
 description: Découvrez comment tester le rendu de vos e-mails dans l’interface utilisateur web de Campaign.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Disponibilité limitée"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Pour accéder aux fonctionnalités de rendu des e-mails, vous devez remplir les 
 
 Suivez ensuite les étapes ci-dessous.
 
-1. Dans l’écran [Modifier le contenu](../content/edit-content.md) ou dans le [concepteur d’e-mail](../content/get-started-email-designer.md), cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
+1. Dans l’écran [Modifier le contenu](../email/edit-content.md) ou dans le [concepteur d’e-mail](../email/get-started-email-designer.md), cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Rendu d’e-mail]**.
 

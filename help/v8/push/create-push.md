@@ -4,7 +4,7 @@ title: Créer une diffusion par notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Pour définir le contenu de votre notification, cliquez sur **[!UICONTROL Modifi
 
 ![](assets/push_create_5.png)
 
-Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/preview-test.md) et [configurer des offres](../content/offers.md).
+Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/preview-test.md) et [configurer des offres](../msg/offers.md).
 
 ## Planifier lʼenvoi de la diffusion {#schedule-push}
 

@@ -4,7 +4,7 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilité limitée"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 66%
@@ -69,7 +69,7 @@ Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris
 Utilisez la nouvelle UI web de Campaign pour :
 
 * Créez, concevez, personnalisez, planifiez et envoyez des notifications électroniques, SMS et push - [En savoir plus](../msg/gs-messages.md)
-* Créer un contenu d’e-mail personnalisé avec le concepteur d’e-mail - [En savoir plus](../content/edit-content.md)
+* Créer un contenu d’e-mail personnalisé avec le concepteur d’e-mail - [En savoir plus](../email/edit-content.md)
 * Envoyer des campagnes cross-canal, y compris des SMS et des notifications push - [En savoir plus](../workflows/activities/channels.md)
 * Définir des audiences cibles avec le créateur de règles - [En savoir plus](../audience/about-recipients.md)
 * Prévisualiser, tester et envoyer vos messages - [En savoir plus](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ Les principales fonctionnalités de la version Campaign Web Limited Available so
 
   Dites adieu à la création manuelle de contenu et bonjour à des campagnes efficaces et pilotées par les données avec la puissance de l’IA générative.  Notre technologie d’IA générative utilise des algorithmes avancés pour **générer du contenu hautement attrayant et personnalisé**. Augmentez les taux d’ouvertures, les taux de clics et les conversions grâce à la génération de contenu intelligent par l’IA générative. Gardez toujours une longueur d’avance sur la concurrence et optimisez votre marketing par e-mail avec la génération de contenu d’e-mails par IA générative.
 
-  En savoir plus dans [cette section](../content/generative-gs.md).
+  En savoir plus dans [cette section](../email/generative-gs.md).
 
 
 * **Aide contextuelle optimisée par l’IA**
@@ -132,14 +132,14 @@ Les principales fonctionnalités de la version Campaign Web Limited Available so
 
   Vous pouvez désormais **importer et convertir tout contenu HTML** dans l’éditeur d’e-mail de Campaign. Les blocs de contenu sont automatiquement identifiés et disponibles dans le concepteur d’e-mail : utilisez ses puissantes fonctionnalités de conception pour les mettre à jour et les personnaliser !
 
-  En savoir plus dans [cette section](../content/existing-content.md).
+  En savoir plus dans [cette section](../email/existing-content.md).
 
 
 * **SMS avec des offres**
 
   La nouvelle interface utilisateur web vous permet désormais d’**intégrer des offres à des SMS** en plus de l’e-mail. Atteignez votre audience sur ses appareils mobiles, en proposant des promotions et des notifications opportunes. Optimisez vos efforts marketing en exploitant la puissance des offres intégrées par SMS sur notre plateforme web avancée.
 
-  En savoir plus dans [cette section](../content/offers.md).
+  En savoir plus dans [cette section](../msg/offers.md).
 
 ## Migrer vers l’UI de Campaign Web
 

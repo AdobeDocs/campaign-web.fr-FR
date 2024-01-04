@@ -4,7 +4,7 @@ title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 99%
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 ## Préparer l’envoi {#prepare}
 
-Lorsque vous avez défini le [contenu](../content/edit-content.md), l’[audience](../audience/add-audience.md) et le planning, vous pouvez préparer la [diffusion](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule) de votre e-mail.
+Lorsque vous avez défini le [contenu](../email/edit-content.md), l’[audience](../audience/add-audience.md) et le planning, vous pouvez préparer la [diffusion](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule) de votre e-mail.
 
 Pendant la préparation de la diffusion, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées.
 

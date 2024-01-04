@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 96%
@@ -28,14 +28,14 @@ Un modèle peut inclure les éléments suivants :
 * [Des typologies](../advanced-settings/delivery-settings.md#typology),
 * L’adresse de la personne expéditrice,
 * Une [audience](../audience/about-recipients.md), y compris des [populations témoins](../audience/control-group.md),
-* Du [contenu](../content/edit-content.md) personnalisé,
+* Du [contenu](../email/edit-content.md) personnalisé,
 * Des [champs personnalisés](../personalization/personalize.md) et du [contenu conditionnel](../personalization/conditions.md),
-* Des liens vers la [page miroir](../content/mirror-page.md) et des [liens](../content/message-tracking.md) de désinscription,
+* Des liens vers la [page miroir](../email/mirror-page.md) et des [liens](../email/message-tracking.md) de désinscription,
 * D’autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
 
 >[!NOTE]
 >
->Les modèles de diffusion diffèrent de [modèles de contenu](../content/create-email-templates.md), qui vous permettent de réutiliser uniquement le contenu de vos emails et de commencer à créer du contenu à l’aide de l’un des modèles d’email prêts à l’emploi.
+>Les modèles de diffusion diffèrent de [modèles de contenu](../email/create-email-templates.md), qui vous permettent de réutiliser uniquement le contenu de vos emails et de commencer à créer du contenu à l’aide de l’un des modèles d’email prêts à l’emploi.
 
 
 ## Accéder aux modèles de diffusion et les gérer {#access-manage-templates}

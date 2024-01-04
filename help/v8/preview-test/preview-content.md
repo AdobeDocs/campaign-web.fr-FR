@@ -4,7 +4,7 @@ title: Prévisualiser le contenu de la diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion avec l’interface utilisateur web de Campaign.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilité limitée"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 88%
@@ -18,7 +18,7 @@ La fonctionnalité de simulation de contenu de [!DNL Campaign] permet de prévis
 
 Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
-1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion ou au [Concepteur d&#39;email](../content/get-started-email-designer.md).
+1. Accédez à l&#39;écran d&#39;édition du contenu de votre diffusion ou au [Concepteur d&#39;email](../email/get-started-email-designer.md).
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
