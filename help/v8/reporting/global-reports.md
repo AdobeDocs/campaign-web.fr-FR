@@ -3,7 +3,7 @@ audience: end-user
 title: Prise en main des rapports globaux
 description: Présentation des rapports globaux
 badge: label="Disponibilité limitée"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 8%
@@ -18,7 +18,7 @@ La variable **Rapports globaux** constitue un outil efficace, offrant un résum�
 La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
 
 * [Envoyer les rapports globaux par courriel](global-report-email.md)
-* [Rapports globaux SMS](global-report-email-sms.md)
+* [Rapports globaux SMS](global-report-sms.md)
 * [Rapports globaux push](global-report-push.md)
 
 ## Gérer le tableau de bord des rapports {#manage-reports}
