@@ -4,7 +4,7 @@ title: Rapports de diffusion
 description: Découvrez comment accéder aux rapports de diffusion et les utiliser.
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Disponibilité limitée"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 55%
@@ -45,7 +45,7 @@ Pour afficher et gérer des rapports, procédez comme suit :
 
    Vous pouvez également utiliser les trois points. **Autres actions** en regard du nom de la diffusion dans la liste des diffusions et sélectionnez **[!UICONTROL Afficher le rapport]**.
 
-   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png)
 
 1. Dans le menu de gauche, sélectionnez un rapport dans la liste.
 
