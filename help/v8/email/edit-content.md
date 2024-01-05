@@ -4,7 +4,7 @@ title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
+source-git-commit: f3bb9f98a9f4c3e1b113b07aa868cd77b06588cb
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
@@ -86,7 +86,7 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
 1. Si vous souhaitez envoyer des offres par e-mail, sélectionnez-les à l’aide du bouton **[!UICONTROL configurer les offres]**.
 
-   Vous pouvez ensuite les insérer dans l’e-mail à l’aide de champs de personnalisation. [Découvrez comment envoyer des offres.](offers.md)
+   Vous pouvez ensuite les insérer dans l’e-mail à l’aide de champs de personnalisation. [Découvrez comment envoyer des offres.](../msg/offers.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour organiser et concevoir le contenu de l’e-mail en utilisant le [concepteur d’e-mail](get-started-email-designer.md#start-authoring). Des informations supplémentaires sur la conception de contenu d’e-mail sont disponibles dans les sections suivantes :
 
