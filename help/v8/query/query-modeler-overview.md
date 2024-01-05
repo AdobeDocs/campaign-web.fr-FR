@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 96%
+source-wordcount: '428'
+ht-degree: 59%
 
 ---
 
@@ -37,8 +37,6 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 | **Filtrer les données de rapports** : ajoutez une règle pour filtrer les données affichées dans les rapports. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
 | **Personnaliser les listes** : créez des règles personnalisées pour filtrer les données affichées dans les listes, telles que les personnes destinataires, les listes de diffusions, etc. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-
-
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
@@ -48,11 +46,24 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
  +++
 -->
 
-
 ## Interface du concepteur de requête {#interface}
 
-Le concepteur de requête fournit une zone de travail centrale où vous pouvez ajouter et combiner les différents composants qui construisent votre requête.
-
-Sur le côté droit, le volet Propriétés de la règle fournit des informations sur votre requête. Il vous permet d’effectuer diverses opérations pour vérifier votre requête et vous assurer qu’elle correspond à vos besoins. Découvrez comment vérifier et valider votre requête.
+Le créateur de modèles de requêtes fournit un canevas central dans lequel vous créez votre requête, ainsi qu’un volet de droite fournissant des informations sur votre requête.
 
 ![](assets/query-interface.png)
+
+### Zone de travail centrale {#canvas}
+
+Le canevas central du modeleur de requête est l’endroit où vous ajoutez et combinez les différents composants qui construisent votre requête.
+
+La barre d’outils située dans le coin supérieur droit du canevas fournit des options pour manipuler facilement les composants de requête et naviguer dans la zone de travail :
+
+* Mode de sélection multiple : sélectionnez plusieurs composants de filtrage à copier et coller à l’emplacement de votre choix.
+* Rotation : basculez le canevas verticalement.
+* Ajuster à l’écran : adaptez le niveau de zoom de la zone de travail à votre écran.
+* Zoom arrière/Zoom avant : permet de zoomer en arrière ou dans la zone de travail.
+* Carte d’affichage : ouvre un instantané de la zone de travail indiquant que vous vous trouvez.
+
+### Volet Propriétés de la règle {#rule-properties}
+
+Sur le côté droit, le **[!UICONTROL Propriétés des règles]** Le volet fournit des informations sur votre requête. Il vous permet d’effectuer diverses opérations pour vérifier la requête et vous assurer qu’elle correspond à vos besoins. [Découvrez comment vérifier et valider votre requête](build-query.md#check-and-validate-your-query)

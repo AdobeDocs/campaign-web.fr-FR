@@ -3,7 +3,7 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 88%
@@ -26,9 +26,9 @@ L’éditeur d’expression fournit :
 * La liste des **fields (2)** qui peut être utilisé dans l’expression et correspondant à la dimension de ciblage de la requête.
 * **Fonctions d’assistance (3)**, triés par catégorie.
 
-![](assets/expression-editor.png)
-
 Editez l&#39;expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton + .
+
+![](assets/expression-editor.png)
 
 ## Fonctions d’assistance
 
