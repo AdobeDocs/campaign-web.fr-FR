@@ -3,10 +3,10 @@ audience: end-user
 title: Exportation des rapports
 description: Comprendre comment exporter vos rapports
 badge: label="Disponibilité limitée"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 28%
+source-wordcount: '107'
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Exporter"
+>title="Exportation des rapports"
 >abstract="Cliquez sur le bouton **Exporter** pour exporter ces mesures au format PDF ou CSV, ce qui vous permet de les partager ou de les imprimer."
 
 Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, ce qui vous permet de les partager, de les manipuler ou de les imprimer.
