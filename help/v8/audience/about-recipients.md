@@ -2,14 +2,14 @@
 title: Surveillance et gestion des profils
 description: Découvrez comment surveiller et gérer les profils dans le Web de Campaign.
 badge: label="Disponibilité limitée"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '900'
 ht-degree: 9%
 
 ---
 
-# Surveillance et gestion des profils {#profiles}
+# Surveillance et modification des profils {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Pour accéder aux détails d&#39;un profil et les éditer, procédez comme suit.
 
 1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]**.
 
-1. Cliquez sur l’élément de votre choix dans la **[!UICONTROL Profils]** liste.
-
-1. Vous pouvez accéder aux informations détaillées du profil.
+1. Cliquez sur l’élément de votre choix dans la **[!UICONTROL Profils]** liste. Les informations détaillées relatives au profil s&#39;affichent.
 
    ![](assets/profile-details.png)
 
