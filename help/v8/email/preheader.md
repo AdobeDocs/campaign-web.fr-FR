@@ -3,11 +3,11 @@ audience: end-user
 title: Ajouter un pré-titre dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails.
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Disponibilité bêta limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+badge: label="Disponibilité limitée"
+source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
