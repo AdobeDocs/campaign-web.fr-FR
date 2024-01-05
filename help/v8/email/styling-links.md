@@ -3,10 +3,10 @@ audience: end-user
 title: Définir un style pour les liens
 description: Découvrez comment définir un style pour les liens.
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="Version bêta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Disponibilité limitée"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 100%
 
 ---

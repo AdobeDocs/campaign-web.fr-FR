@@ -2,12 +2,12 @@
 audience: end-user
 title: Créer une diffusion SMS
 description: Découvrez comment concevoir votre diffusion SMS.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '258'
+ht-degree: 95%
 
 ---
 
@@ -18,13 +18,10 @@ ht-degree: 100%
 >title="Contenu SMS"
 >abstract="Créez le contenu de vos diffusions SMS et personnalisez-le avec des champs de personnalisation, des blocs de contenu et du contenu dynamique. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu**."
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="Contenu du message SMS"
 >abstract="Définissez le contenu de votre SMS. Pour composer votre message, cliquez sur le champ **Message** et saisissez le contenu du message. Utilisez l’éditeur d’expression pour ajouter des données personnalisées et du contenu dynamique. Vous pouvez également personnaliser le nom de l’expéditeur ou de l’expéditrice. Par défaut, le suivi est activé pour toutes les diffusions SMS, afin que vous puissiez mesurer le moment où les personnes destinataires cliquent sur les liens."
-
 
 Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :
 
@@ -41,6 +38,8 @@ Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :
    ![](assets/sms_content_2.png)
 
 1. Par défaut, le tracking est activé pour les diffusions. Vous pouvez désactiver cette option dans la **[!UICONTROL section Fonctionnalités facultatives]**.
+
+1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 
 1. Accédez au menu **[!UICONTROL Simuler du contenu]** pour prévisualiser votre contenu personnalisé. [En savoir plus](send-sms.md#preview-sms)
 

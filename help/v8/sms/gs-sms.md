@@ -2,11 +2,11 @@
 audience: end-user
 title: Prise en main des diffusions SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---

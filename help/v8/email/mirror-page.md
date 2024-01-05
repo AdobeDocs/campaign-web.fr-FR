@@ -2,11 +2,11 @@
 audience: end-user
 title: Ajouter un lien vers la page miroir
 description: Découvrez comment ajouter et gérer le lien vers la page miroir.
-badge: label="Version bêta"
+badge: label="Disponibilité limitée"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
