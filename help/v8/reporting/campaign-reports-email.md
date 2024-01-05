@@ -4,7 +4,7 @@ title: Rapports de campagne du canal e-mail
 description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Disponibilité limitée"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 100%
@@ -290,7 +290,7 @@ Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les don
 
 Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Les mesures de ce rapport sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_10.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){align="center"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 

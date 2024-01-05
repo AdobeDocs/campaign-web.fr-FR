@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des rapports globaux
 description: Présentation des rapports globaux
 badge: label="Disponibilité limitée"
-source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 8%
+source-wordcount: '207'
+ht-degree: 9%
 
 ---
 
@@ -27,6 +27,10 @@ Pour accéder à vos rapports globaux et les gérer, procédez comme suit :
 
 1. Accédez au **[!UICONTROL Rapports]** dans le **[!UICONTROL Reporting]** .
 
+1. Dans le menu de gauche, sélectionnez un rapport dans la liste et naviguez dans l’onglet pour afficher les données de chaque canal.
+
+   ![](assets/global_report_manage_3.png)
+
 1. Dans votre tableau de bord, choisissez une **Début** et **[!UICONTROL Heure de fin]** pour cibler des données spécifiques.
 
    ![](assets/global_report_manage_1.png)
@@ -40,16 +44,3 @@ Pour accéder à vos rapports globaux et les gérer, procédez comme suit :
 1. Dans la **[!UICONTROL URL et flux de clics]**, vous pouvez également choisir la variable **[!UICONTROL Liens les plus visités]** ou le **[!UICONTROL Période]**.
 
    La variable **[!UICONTROL Afficher par]** Les options vous permettent de filtrer selon les URL, les libellés ou les catégories.
-
-## Exportation des rapports {#export-reports}
-
-Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, ce qui vous permet de les partager, de les manipuler ou de les imprimer.
-
-1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Exporter en tant que fichier PDF]** ou **[!UICONTROL Exportation au format CSV]**.
-
-   ![](assets/global_report_export.png)
-
-1. Localisez le dossier dans lequel vous souhaitez enregistrer votre fichier, renommez-le si nécessaire, puis cliquez sur **[!UICONTROL Enregistrer]**.
-
-Votre rapport peut désormais être affiché ou partagé dans un PDF ou fichier CSV.
-

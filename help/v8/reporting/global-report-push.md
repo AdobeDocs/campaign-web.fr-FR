@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports globaux pour le canal push
 description: Présentation des rapports globaux pour le canal push
 badge: label="Disponibilité limitée"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 44%
@@ -80,7 +80,7 @@ Les types d’erreur de notifications push sont répertoriés dans la [documenta
 
 ## Débit des diffusions (Delivery throughput)  {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 Ce rapport fournit des détails complets sur le débit de diffusion au cours d’une période spécifiée.
 

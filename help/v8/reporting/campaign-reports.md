@@ -4,10 +4,10 @@ title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 badge: label="Disponibilité limitée"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 19%
+source-wordcount: '269'
+ht-degree: 23%
 
 ---
 
@@ -64,16 +64,3 @@ Pour accéder aux rapports de vos campagnes et les gérer, procédez comme suit 
 1. Dans la **[!UICONTROL URL et flux de clics]**, vous pouvez également choisir la variable **[!UICONTROL Liens les plus visités]** ou le **[!UICONTROL Période]**.
 
    La variable **[!UICONTROL Afficher par]** Les options vous permettent de filtrer selon les URL, les libellés ou les catégories.
-
-## Exportation des rapports {#export-reports}
-
-Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, ce qui vous permet de les partager, de les manipuler ou de les imprimer.
-
-1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Exporter en tant que fichier PDF]** ou **[!UICONTROL Exportation au format CSV]**.
-
-   ![](assets/export_campaign_report.png)
-
-1. Localisez le dossier dans lequel vous souhaitez enregistrer votre fichier, renommez-le si nécessaire, puis cliquez sur **[!UICONTROL Enregistrer]**.
-
-Votre rapport peut désormais être affiché ou partagé dans un PDF ou fichier CSV.
-
