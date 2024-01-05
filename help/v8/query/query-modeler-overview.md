@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 59%
+source-wordcount: '434'
+ht-degree: 58%
 
 ---
 
@@ -54,15 +54,15 @@ Le créateur de modèles de requêtes fournit un canevas central dans lequel vou
 
 ### Zone de travail centrale {#canvas}
 
-Le canevas central du modeleur de requête est l’endroit où vous ajoutez et combinez les différents composants qui construisent votre requête.
+Le canevas central du modeleur de requête est l’endroit où vous ajoutez et combinez les différents composants qui construisent votre requête. [Découvrez comment créer une requête](build-query.md)
 
 La barre d’outils située dans le coin supérieur droit du canevas fournit des options pour manipuler facilement les composants de requête et naviguer dans la zone de travail :
 
-* Mode de sélection multiple : sélectionnez plusieurs composants de filtrage à copier et coller à l’emplacement de votre choix.
-* Rotation : basculez le canevas verticalement.
-* Ajuster à l’écran : adaptez le niveau de zoom de la zone de travail à votre écran.
-* Zoom arrière/Zoom avant : permet de zoomer en arrière ou dans la zone de travail.
-* Carte d’affichage : ouvre un instantané de la zone de travail indiquant que vous vous trouvez.
+* **Mode de sélection multiple**: sélectionnez plusieurs composants de filtrage à copier et coller à l’emplacement de votre choix.
+* **Rotation**: basculez le canevas verticalement.
+* **Ajuster à l’écran**: adaptez le niveau de zoom de la zone de travail à votre écran.
+* **Zoom arrière** / **Zoom avant**: permet de zoomer ou dans la zone de travail.
+* **Afficher la carte**: ouvre un instantané de la zone de travail indiquant que vous vous trouvez.
 
 ### Volet Propriétés de la règle {#rule-properties}
 

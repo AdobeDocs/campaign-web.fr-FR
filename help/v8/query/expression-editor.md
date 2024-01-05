@@ -3,22 +3,28 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 88%
+source-wordcount: '2008'
+ht-degree: 82%
 
 ---
 
 # Éditer les expressions {#expression}
 
-## Editer une expression  {#edit}
+L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d&#39;utiliser des fonctions avancées qui permettent de manipuler les valeurs utilisées pour effectuer des requêtes spécifiques telles que manipuler les dates, les chaînes, les champs numériques, le tri, etc.
 
-L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d&#39;utiliser des fonctions avancées. Ces fonctions permettent de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
+>[!IMPORTANT]
+>
+>La section ci-dessous fournit des informations sur l’utilisation de l’éditeur d’expression pour créer des règles. Gardez à l’esprit que la syntaxe utilisée pour créer des règles diffère de celle utilisée pour ajouter de la personnalisation.
 
-Ces opérations sont disponibles à partir du créateur de modèles de requête. **[!UICONTROL Expression d’édition]** , disponible pour le **[!UICONTROL Attribut]** et **[!UICONTROL Valeur]** lors de la configuration d’une condition personnalisée.
+## Utilisation de l’éditeur d’expression {#edit}
 
-![](assets/edit-expression.png)
+L’éditeur d’expression est disponible à partir du créateur de modèles de requête. **[!UICONTROL Expression d’édition]** , disponible pour le **[!UICONTROL Attribut]** et **[!UICONTROL Valeur]** lors de la configuration d’une condition personnalisée.
+
+| Accès depuis le **Attribut** field | Accès depuis le **Valeur** field |
+|  ---  |  ---  |
+| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 L’éditeur d’expression fournit :
 
@@ -29,6 +35,12 @@ L’éditeur d’expression fournit :
 Editez l&#39;expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton + .
 
 ![](assets/expression-editor.png)
+
+Lorsque votre expression est prête, cliquez sur l’icône **[!UICONTROL Confirmer]** bouton . L’expression s’affiche dans le champ sélectionné. Pour le modifier, ouvrez l’éditeur d’expression et apportez les modifications souhaitées.
+
+L’exemple ci-dessous illustre une expression configurée pour la fonction **[!UICONTROL Valeur]** champ . Pour le modifier, vous devez ouvrir l’éditeur d’expression à l’aide de la fonction **[!UICONTROL Expression d’édition]** bouton .
+
+![](assets/edit-expression-value.png)
 
 ## Fonctions d’assistance
 
