@@ -3,7 +3,7 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 82%
@@ -34,13 +34,13 @@ L’éditeur d’expression fournit :
 
 Editez l&#39;expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton + .
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){width="70%" align="center"}
 
 Lorsque votre expression est prête, cliquez sur l’icône **[!UICONTROL Confirmer]** bouton . L’expression s’affiche dans le champ sélectionné. Pour le modifier, ouvrez l’éditeur d’expression et apportez les modifications souhaitées.
 
 L’exemple ci-dessous illustre une expression configurée pour la fonction **[!UICONTROL Valeur]** champ . Pour le modifier, vous devez ouvrir l’éditeur d’expression à l’aide de la fonction **[!UICONTROL Expression d’édition]** bouton .
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){width="70%" align="center"}
 
 ## Fonctions d’assistance
 

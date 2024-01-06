@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 65%
+source-wordcount: '1860'
+ht-degree: 64%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez ajouter deux types d’éléments :
 
   *Personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**qui vivent à New York **OU**à San Francisco*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){width="70%" align="center"}
 
 ## Ajouter des composants de filtrage {#filtering}
 
@@ -51,7 +51,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 1. Dans le champ **Attribut**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données Campaign, y compris les attributs des tables liées.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
 
    >[!NOTE]
    >
@@ -86,13 +86,13 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){width="70%" align="center"}
 
 #### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
 Les conditions personnalisées vous permettent d&#39;interroger des tables liées à la table actuellement utilisée par votre règle. Cela inclut les tables avec un lien de cardinalité 1-1 ou les tables de collection (lien 1-N).
 
-Pour un **Lien 1-1**, sélectionnez l’attribut directement dans la table ciblée.
+Pour un **Lien 1-1**, accédez à la table liée, sélectionnez l’attribut de votre choix et définissez la valeur attendue.
 
 +++Exemple de requête
 
@@ -100,17 +100,15 @@ Ici, la requête cible les marques dont le libellé est &quot;en cours&quot;.
 
 1. Naviguez dans le **Marque** et sélectionnez le **Libellé** attribut.
 
-   ![](assets/1-1-attribute.png)
+   ![](assets/1-1-attribute.png){width="70%" align="center"}
 
 1. Définissez la valeur attendue de l’attribut.
 
-   ![](assets/1-1-table.png)
+   ![](assets/1-1-table.png){width="70%" align="center"}
 
 +++
 
-Pour un **Lien 1-N**, vous pouvez définir des sous-conditions pour affiner votre requête.
-
-Vous pouvez par exemple sélectionner l’opérateur Existe sur les achats de profils pour cibler tous les profils pour lesquels des achats existent. Une fois cette opération terminée, ajoutez une condition personnalisée sur la transition sortante et créez un filtre en fonction de vos besoins.
+Pour un **Lien 1-N**, vous pouvez définir des sous-conditions pour affiner votre requête, comme illustré dans l’exemple ci-dessous.
 
 +++Exemple de requête
 
@@ -118,19 +116,19 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
 1. Sélectionnez la variable **Achats** et confirmez.
 
-   ![](assets/1-N-collection.png)
+   ![](assets/1-N-collection.png){width="70%" align="center"}
 
 1. Une transition sortante est ajoutée, ce qui permet de créer des sous-conditions.
 
-   ![](assets/1-n-subcondition.png)
+   ![](assets/1-n-subcondition.png){width="70%" align="center"}
 
 1. Sélectionnez la variable **Prix** achats d’attributs et de cibles d’au moins 1 000 $
 
-   ![](assets/1-n-price.png)
+   ![](assets/1-n-price.png){width="70%" align="center"}
 
 1. Ajoutez des sous-conditions adaptées à vos besoins. Ici, nous avons ajouté une condition pour cibler les profils ayant acheté un produit BrewMaster.
 
-   ![](assets/custom-condition-1-N.png)
+   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
 
 +++
 
@@ -140,11 +138,11 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 
 1. Naviguez dans la table de collection souhaitée et sélectionnez l’attribut sur lequel vous souhaitez effectuer une opération d’agrégat.
 
-   ![](assets/aggregate-attribute.png)
+   ![](assets/aggregate-attribute.png){width="70%" align="center"}
 
 1. Dans le volet des propriétés, activez l’option **Agrégat de données** et sélectionnez la fonction d’agrégat souhaitée.
 
-   ![](assets/aggregate.png)
+   ![](assets/aggregate.png){width="70%" align="center"}
 
 ### Sélectionner une audience
 
@@ -178,7 +176,7 @@ Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez com
 
    *Exemple de requête renvoyant tous les profils correspondant au filtre prédéfini « Clients inactifs » :*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){width="70%" align="center"}
 
 ### Copier-coller des composants {#copy}
 
@@ -200,7 +198,7 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
 
 1. Pour coller le ou les composants, cliquez sur le bouton + à la fin de la transition souhaitée et sélectionnez **Coller dans les éléments**.
 
-![](assets/copy-paste.png)
+![](assets/copy-paste.png){width="70%" align="center"}
 
 ## Combiner des composants de filtrage avec des opérateurs {#operators}
 
@@ -213,7 +211,7 @@ Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête,
 
 Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de type de filtre prédéfinie avec une **ET** , ce qui signifie que les résultats de la requête incluent les destinataires ciblés par le filtre prédéfini &quot;Madridians&quot; ET appartenant à l&#39;audience &quot;chasseurs de remises&quot;.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){width="70%" align="center"}
 
 Pour changer l&#39;opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez l&#39;opérateur de votre choix dans le **Groupe** qui s’ouvre sur le côté droit.
 
@@ -223,13 +221,13 @@ Les opérateurs disponibles sont les suivants :
 * **OU (Union)** : inclut des résultats correspondant à au moins un des composants de filtrage dans les transitions sortantes.
 * **SAUF (Exclusion)** : exclut les résultats correspondant à tous les composants de filtrage dans la transition sortante.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){width="70%" align="center"}
 
 En outre, vous pouvez créer des groupes intermédiaires de composants en cliquant sur le **+** sur une transition. Vous pouvez ainsi ajouter un opérateur à cet emplacement spécifique pour regrouper plusieurs composants et affiner votre requête.
 
 Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inclure les résultats des audiences &quot;VIP à récompenser&quot; ou &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){width="70%" align="center"}
 
 ## Vérifier et valider votre requête
 
