@@ -2,8 +2,10 @@
 audience: end-user
 title: Exemples de requêtes
 description: Découvrez comment utiliser le créateur de règles.
+hide: true
+hidefromtoc: true
 badge: label="Disponibilité limitée"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e555a6aabab6a20a5b3f3ddecf9d63d49292d55a
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 95%
