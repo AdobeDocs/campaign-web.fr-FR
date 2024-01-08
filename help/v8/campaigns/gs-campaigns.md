@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Prise en main des campagnes
+title: Commencer avec les campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
 ---
 
 
-# Prise en main des campagnes {#campaigns}
+# Commencer avec les campagnes {#campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
