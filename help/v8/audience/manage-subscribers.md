@@ -5,7 +5,7 @@ description: Découvrez comment gérer les personnes abonnées à un service dan
 badge: label="Beta"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
 ht-degree: 100%
 
