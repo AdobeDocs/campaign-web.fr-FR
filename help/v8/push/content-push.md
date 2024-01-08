@@ -4,7 +4,7 @@ title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 7e66d4e67ae14c8318bbda31bfdc90840390db01
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 98%
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
->title="Message push iOS"
+>title="Message Push Android"
 >abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l’éditeur d’expression pour personnaliser des données et ajouter du contenu dynamique. Pour personnaliser davantage votre notification push, vous pouvez choisir une image à lui ajouter, l’icône de la notification qui s’affichera sur les appareils de vos profils et sa couleur. Pour une configuration davantage personnalisée, accédez à la section **Paramètres avancés**."
 
 
