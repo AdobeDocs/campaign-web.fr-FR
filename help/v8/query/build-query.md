@@ -3,9 +3,9 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1858'
 ht-degree: 64%
 
 ---
@@ -18,27 +18,23 @@ Vous pouvez ajouter deux types d’éléments :
 
 * Les **composants de filtrage** (condition personnalisée, audience sélectionnée, filtre prédéfini) vous permettent de créer vos propres règles, de sélectionner une audience ou un filtre prédéfini pour affiner votre requête. [Découvrez comment utiliser les composants de filtrage](#filtering).
 
-  Exemple :
-
   *Personnes destinataires qui se sont abonnées à la newsletter « Sports »*. *Personnes destinataires résidant à New York*, *Personnes destinataires résidant à San Francisco*.
 
 * Les **opérateurs de groupe** (ET, OU, SAUF) vous permettent de regrouper les composants de filtrage dans le diagramme en fonction de vos besoins. [Découvrez comment utiliser les opérateurs](#filtering).
 
-  Exemple :
-
   *Personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**qui vivent à New York **OU**à San Francisco*.
 
-![](assets/query-add-component.png){width="70%" align="center"}
+![](assets/query-add-component.png)
 
 ## Ajouter des composants de filtrage {#filtering}
 
 Les composants de filtrage vous permettent d’affiner votre requête à l’aide des éléments suivants :
 
-* **Conditions personnalisées** : filtrez votre requête en créant votre propre condition avec des attributs de la base de données et des expressions avancées.
-* **Audiences** : filtrez votre requête à l’aide d’une audience existante.
-* **Filtre prédéfini** : filtrez votre requête à l’aide de filtres prédéfinis existants.
+* **[Conditions personnalisées](#custom-condition)** : filtrez votre requête en créant votre propre condition avec des attributs de la base de données et des expressions avancées.
+* **[Audiences](#audiences)** : filtrez votre requête à l’aide d’une audience existante.
+* **[Filtre prédéfini](#predefined-filters)** : filtrez votre requête à l’aide de filtres prédéfinis existants.
 
-### Configurer une condition personnalisée
+### Configurer une condition personnalisée {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
@@ -51,7 +47,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 1. Dans le champ **Attribut**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données Campaign, y compris les attributs des tables liées.
 
-   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
+   ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
@@ -86,7 +82,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
-   ![](assets/query-custom-condition.png){width="70%" align="center"}
+   ![](assets/query-custom-condition.png)
 
 #### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
@@ -100,11 +96,11 @@ Ici, la requête cible les marques dont le libellé est &quot;en cours&quot;.
 
 1. Naviguez dans le **Marque** et sélectionnez le **Libellé** attribut.
 
-   ![](assets/1-1-attribute.png){width="70%" align="center"}
+   ![](assets/1-1-attribute.png){width="85%" align="center"}
 
 1. Définissez la valeur attendue de l’attribut.
 
-   ![](assets/1-1-table.png){width="70%" align="center"}
+   ![](assets/1-1-table.png){width="85%" align="center"}
 
 +++
 
@@ -116,19 +112,19 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
 1. Sélectionnez la variable **Achats** et confirmez.
 
-   ![](assets/1-N-collection.png){width="70%" align="center"}
+   ![](assets/1-N-collection.png){width="50%" align="center"}
 
 1. Une transition sortante est ajoutée, ce qui permet de créer des sous-conditions.
 
-   ![](assets/1-n-subcondition.png){width="70%" align="center"}
+   ![](assets/1-n-subcondition.png){width="85%" align="center"}
 
 1. Sélectionnez la variable **Prix** achats d’attributs et de cibles d’au moins 1 000 $
 
-   ![](assets/1-n-price.png){width="70%" align="center"}
+   ![](assets/1-n-price.png){width="85%" align="center"}
 
 1. Ajoutez des sous-conditions adaptées à vos besoins. Ici, nous avons ajouté une condition pour cibler les profils ayant acheté un produit BrewMaster.
 
-   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
+   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
 
 +++
 
@@ -138,13 +134,13 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 
 1. Naviguez dans la table de collection souhaitée et sélectionnez l’attribut sur lequel vous souhaitez effectuer une opération d’agrégat.
 
-   ![](assets/aggregate-attribute.png){width="70%" align="center"}
+   ![](assets/aggregate-attribute.png){width="85%" align="center"}
 
 1. Dans le volet des propriétés, activez l’option **Agrégat de données** et sélectionnez la fonction d’agrégat souhaitée.
 
-   ![](assets/aggregate.png){width="70%" align="center"}
+   ![](assets/aggregate.png){width="85%" align="center"}
 
-### Sélectionner une audience
+### Sélectionner une audience {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
@@ -161,7 +157,7 @@ Pour filtrer votre requête à l’aide d’une audience existante, procédez co
 
    ![](assets/query-audience.png)
 
-### Utiliser un filtre prédéfini
+### Utiliser un filtre prédéfini {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
@@ -176,7 +172,7 @@ Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez com
 
    *Exemple de requête renvoyant tous les profils correspondant au filtre prédéfini « Clients inactifs » :*
 
-   ![](assets/query-predefined-filter.png){width="70%" align="center"}
+   ![](assets/query-predefined-filter.png)
 
 ### Copier-coller des composants {#copy}
 
@@ -198,7 +194,7 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
 
 1. Pour coller le ou les composants, cliquez sur le bouton + à la fin de la transition souhaitée et sélectionnez **Coller dans les éléments**.
 
-![](assets/copy-paste.png){width="70%" align="center"}
+   ![](assets/copy-paste.png)
 
 ## Combiner des composants de filtrage avec des opérateurs {#operators}
 
@@ -211,7 +207,7 @@ Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête,
 
 Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de type de filtre prédéfinie avec une **ET** , ce qui signifie que les résultats de la requête incluent les destinataires ciblés par le filtre prédéfini &quot;Madridians&quot; ET appartenant à l&#39;audience &quot;chasseurs de remises&quot;.
 
-![](assets/query-operator.png){width="70%" align="center"}
+![](assets/query-operator.png)
 
 Pour changer l&#39;opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez l&#39;opérateur de votre choix dans le **Groupe** qui s’ouvre sur le côté droit.
 
@@ -221,13 +217,13 @@ Les opérateurs disponibles sont les suivants :
 * **OU (Union)** : inclut des résultats correspondant à au moins un des composants de filtrage dans les transitions sortantes.
 * **SAUF (Exclusion)** : exclut les résultats correspondant à tous les composants de filtrage dans la transition sortante.
 
-![](assets/query-operator-change.png){width="70%" align="center"}
+![](assets/query-operator-change.png)
 
 En outre, vous pouvez créer des groupes intermédiaires de composants en cliquant sur le **+** sur une transition. Vous pouvez ainsi ajouter un opérateur à cet emplacement spécifique pour regrouper plusieurs composants et affiner votre requête.
 
 Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inclure les résultats des audiences &quot;VIP à récompenser&quot; ou &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png){width="70%" align="center"}
+![](assets/query-intermediate-group.png)
 
 ## Vérifier et valider votre requête
 
@@ -250,3 +246,5 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
 Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour l’enregistrer.
 
 Vous pouvez modifier votre requête à tout moment en l&#39;ouvrant. Gardez à l’esprit que lors de l’ouverture d’une requête existante, elle s’affiche dans une vue simplifiée sans la visibilité de  **+** des boutons. Pour ajouter de nouveaux éléments à la requête, sélectionnez un composant ou un opérateur dans la zone de travail afin d’afficher le **+** des boutons.
+
+![](assets/edit-audience.png)

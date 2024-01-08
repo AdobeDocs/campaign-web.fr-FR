@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 58%
@@ -50,7 +50,7 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 
 Le créateur de modèles de requêtes fournit un canevas central dans lequel vous créez votre requête, ainsi qu’un volet de droite fournissant des informations sur votre requête.
 
-![](assets/query-interface.png){width="70%" align="center"}
+![](assets/query-interface.png)
 
 ### Zone de travail centrale {#canvas}
 
