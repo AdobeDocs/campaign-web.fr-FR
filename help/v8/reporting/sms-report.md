@@ -4,10 +4,10 @@ title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser.
 badge: label="Disponibilité limitée"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -22,12 +22,12 @@ La **Vue d’ensemble de la diffusion SMS** offre une vue d’ensemble complète
 
 ## Synthèse des diffusions {#delivery-summary}
 
+### Vue d’ensemble de la diffusion {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Vue d’ensemble de la diffusion SMS"
 >abstract="La **Vue d’ensemble de la diffusion SMS** constitue une vue d’ensemble complète du canal SMS, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de chaque diffusion."
-
-### Vue d’ensemble de la diffusion {#sms-delivery-overview}
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur les taux d’erreurs et de succès, ainsi que sur la manière dont vos visiteurs et visiteuses interagissent avec vos SMS.
 
@@ -45,9 +45,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui
 
 +++
 
-
 ### Population ciblée {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -67,7 +65,6 @@ Le graphe et le tableau **Population ciblée** affichent les données relatives 
 
 
 ### Statistiques globales {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -89,12 +86,10 @@ Le rapport **Statistiques globales** présente les données des SMS envoyés. Le
 
 ### Exclusions {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="Exclusions de SMS"
 >abstract="Le graphe et le tableau **Exclusions** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message."
-
 
 Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les raisons qui ont empêché les profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message. Les règles d’exclusion sont détaillées dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#sms-quarantines){_blank}.
 
@@ -105,7 +100,7 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les raisons qui on
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="Débit des diffusions par SMS"
->abstract="Le rapport **Débit des diffusions** présente des informations détaillées sur le débit des diffusions au cours d’une période spécifiée.  La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure."
+>abstract="La variable **Débit de diffusion** le rapport présente des informations détaillées sur le débit de diffusion au cours d’une période spécifiée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure."
 
 Ce rapport présente des informations détaillées sur le débit des diffusions au cours d’une période spécifiée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
 

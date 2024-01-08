@@ -4,7 +4,7 @@ title: Rapports de diffusion E-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 badge: label="Disponibilité limitée"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '2245'
 ht-degree: 100%
@@ -74,12 +74,10 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** détaille le succès de vot
 
 ### Causes d’exclusion  {#email-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="Causes d’exclusion lors d’une diffusion"
 >abstract="Le tableau et le graphe **Causes d’exclusion** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion."
-
 
 Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion. Les règles d’exclusion sont détaillées dans la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
 

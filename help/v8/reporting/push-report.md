@@ -4,7 +4,7 @@ title: Rapports de diffusion Notifications push
 description: Découvrez comment accéder aux rapports de diffusion des notifications push et les utiliser.
 badge: label="Disponibilité limitée"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
@@ -66,7 +66,6 @@ Le tableau et le graphe **Population ciblée** affichent des données relatives 
 
 ### Statistiques globales {#push-delivery-overall}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
 >title="Statistiques globales des notifications push"
@@ -87,7 +86,6 @@ Le rapport **Statistiques globales** présente des données relatives aux notifi
 +++
 
 ### Exclusions {#push-delivery-exclusions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"

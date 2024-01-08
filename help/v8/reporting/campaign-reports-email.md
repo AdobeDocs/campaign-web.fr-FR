@@ -4,10 +4,10 @@ title: Rapports de campagne du canal e-mail
 description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Disponibilité limitée"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiques initiales sur l’audience cible"
->abstract="Le tableau Statistiques initiales sur l’audience cible affiche des données relatives à vos personnes destinataires."
+>abstract="Le tableau Statistiques d’audience cible initiales affiche les données relatives à vos destinataires."
 
 Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
