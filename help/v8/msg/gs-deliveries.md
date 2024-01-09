@@ -2,14 +2,15 @@
 product: campaign
 title: Utiliser les diffusions
 description: Découvrez comment créer votre première diffusion dans Campaign Web.
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="Disponibilité limitée"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
+workflow-type: tm+mt
+source-wordcount: '1203'
+ht-degree: 96%
 
 ---
 
@@ -36,14 +37,17 @@ Pour créer une diffusion autonome, procédez comme suit :
 
    ![](assets/create-a-delivery.png)
 
-1. Sélectionnez un canal de diffusion. Découvrez les canaux de diffusion et comment définir un contenu de diffusion dans les sections suivantes :
+1. Sélectionnez un canal pour la diffusion.
+1. Définissez l’audience de la diffusion, pour la cible principale et la population témoin. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-recipients.md).
+
+   ![](assets/select-audience.png){width="70%" align="left"}
+
+1. Définissez le contenu du message. Découvrez les canaux de diffusion et comment définir un contenu de diffusion dans les sections suivantes :
 
    * [Canal e-mail](../email/create-email.md)
    * [Canal des notifications push](../push/gs-push.md)
    * [Canal SMS](../sms/create-sms.md)
 
-1. Définissez l’audience de la diffusion, pour la cible principale et la population témoin. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-recipients.md).
-1. Définissez le contenu du message.
 1. (Facultatif) Définissez le [planning](#gs-schedule) de diffusion. Si aucun planning n’est défini, les messages sont envoyés immédiatement après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**.
 1. Cliquez sur le bouton **[!UICONTROL Vérifier et envoyer]** pour vérifier vos paramètres.
 1. Utilisez le bouton  **[!UICONTROL Simuler du contenu]** pour tester votre diffusion et vos paramètres de personnalisation. Pour en savoir plus sur la simulation des messages, consultez [cette section](../preview-test/preview-test.md).
@@ -56,13 +60,11 @@ Pour créer une diffusion autonome, procédez comme suit :
 Pour créer une diffusion dans un workflow, procédez comme suit :
 
 1. Créez un workflow ou ouvrez un workflow existant. Vous trouverez plus d’informations sur les workflows sur [cette page](../workflows/gs-workflow-creation.md#gs-workflow-steps).
-1. Ajoutez et configurez une activité **[!UICONTROL Créer une audience]**, puis cliquez sur le bouton `+`.
+1. Ajout et configuration d’une **[!UICONTROL Créer une audience]** activité. En savoir plus sur les **[!UICONTROL Créer une audience]** activité dans [cette section](../workflows/activities/build-audience.md).
+1. Cliquez sur le bouton `+` et sélectionnez une activité de diffusion : **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]** ou **[!UICONTROL Notification push (iOS)]**. Découvrez les activités de canal de diffusion dans un workflow et comment définir un contenu de diffusion dans cette [section](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png)
 
-   L’activité **[!UICONTROL Créer une audience]** est présentée dans [cette section](../workflows/activities/build-audience.md).
-
-1. Sélectionnez une activité de diffusion : **[!UICONTROL e-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL notification push (Android)]** ou **[!UICONTROL notification push (iOS)]**. Découvrez les activités de canal de diffusion dans un workflow et comment définir un contenu de diffusion dans cette [section](../workflows/activities/channels.md).
 1. Démarrez le workflow et vérifiez les logs.
 
 Vous pouvez également ajouter des diffusions dans une campagne sans créer de workflow. Pour ce faire, accédez à l’onglet **[!UICONTROL Diffusions]** de votre campagne, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
