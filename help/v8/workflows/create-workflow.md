@@ -4,7 +4,7 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer un workflow avec Adobe Campaign Web.
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
+source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -52,7 +52,6 @@ Votre workflow est maintenant créé et disponible dans la liste des workflows. 
 
 ## Utiliser des modèles de workflows {#workflow-templates}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_for_campaign"
 >title="Modèles de workflows"
@@ -61,7 +60,6 @@ Votre workflow est maintenant créé et disponible dans la liste des workflows. 
 Les modèles de workflows contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer de nouveaux workflows. Vous pouvez sélectionner le modèle de workflow dans les propriétés lors de la création. Un modèle vide est fourni par défaut.
 
 Vous pouvez créer un modèle à partir d’un workflow existant ou à partir de zéro. Les deux méthodes sont présentées ci-dessous.
-
 
 >[!BEGINTABS]
 
