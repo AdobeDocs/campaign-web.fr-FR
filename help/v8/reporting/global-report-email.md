@@ -3,14 +3,14 @@ audience: end-user
 title: Rapports globaux pour le canal email
 description: En savoir plus sur les rapports globaux pour le canal email
 badge: label="Disponibilité limitée"
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 52%
 
 ---
 
-# Rapports globaux pour le canal email {#global-report-direct}
+# Rapports globaux pour le canal Email {#global-report-direct}
 
 Les rapports globaux offrent aux utilisateurs un aperçu complet des mesures de trafic et d’engagement au niveau des canaux.
 
