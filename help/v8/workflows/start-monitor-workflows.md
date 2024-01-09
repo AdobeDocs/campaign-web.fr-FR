@@ -2,12 +2,12 @@
 audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '570'
+ht-degree: 96%
 
 ---
 
@@ -27,9 +27,7 @@ Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide
 
 ## Transitions de workflow {#transitions}
 
-Dans les workflows, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une table de travail temporaire.
-
-Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l’écran.
+Dans les workflows, les données transportées d&#39;une activité à l&#39;autre via les transitions sont stockées dans une table de travail temporaire. Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l’écran.
 
 * Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
 * Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données véhiculées dans la transition sélectionnée.

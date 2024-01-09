@@ -4,9 +4,9 @@ title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 badge: label="Disponibilité limitée"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 39%
 
 ---
@@ -41,9 +41,7 @@ Ces activités sont spécifiques au ciblage, à la manipulation et à l’enrich
 
 ## Activités de canal {#channel}
 
-Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux. Vous pouvez combiner des activités de canal dans la zone de travail afin de créer des processus cross-canal pouvant déclencher des actions en fonction du comportement du client. Les éléments suivants **Canal** Les activités sont disponibles : email, SMS, Android et notifications push iOS.
-
-Découvrez comment configurer une diffusion dans le contexte d&#39;un workflow dans ce [section](channels.md).
+Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux. Vous pouvez combiner des activités de canal dans la zone de travail afin de créer des processus cross-canal pouvant déclencher des actions en fonction du comportement du client. Les éléments suivants **Canal** Les activités sont disponibles : email, SMS, Android et notifications push iOS. [Découvrez comment configurer une diffusion dans le contexte d&#39;un workflow](channels.md).
 
 ## Activités de contrôle de flux {#flow-control}
 

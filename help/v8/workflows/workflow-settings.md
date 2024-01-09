@@ -2,12 +2,12 @@
 audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,8 @@ Les autres valeurs possibles sont les suivantes :
 >title="Paramètres de segmentation"
 >abstract="Cette section vous permet de sélectionner la dimension de ciblage pour cibler les profils dans le workflow et de conserver ou non les résultats du workflow entre deux exécutions. Cette option ne doit être utilisée qu’à des fins de test. Elle ne doit en aucun cas être activée dans un workflow de production."
 
-* **[!UICONTROL Dimension de ciblage]** : sélectionnez la dimension de ciblage à utiliser pour cibler les profils (destinataires, bénéficiaires d’un contrat, opérateur ou opératrice, abonnées et abonnés, etc.).
+* **[!UICONTROL Dimension de ciblage]**: sélectionnez la dimension de ciblage à utiliser pour cibler les profils : destinataires, bénéficiaires de contrats, opérateur, abonnés, etc. [En savoir plus sur les dimensions de ciblage](../audience/targeting-dimensions.md)
+
 * **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** : par défaut, seules les tables de travail de la dernière exécution du workflow sont conservées. Les tables de travail des exécutions précédentes sont purgées par un workflow technique qui s’exécute quotidiennement.
 
   Si cette option est activée, les tables de travail sont conservées même après l’exécution du workflow. Vous pouvez l’utiliser à des fins de test. N’utilisez donc cette option que dans les environnements de développement ou d’évaluation. Cette option ne doit jamais être activée dans un workflow de production.
