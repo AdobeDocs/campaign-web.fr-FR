@@ -5,7 +5,7 @@ description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
 source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
