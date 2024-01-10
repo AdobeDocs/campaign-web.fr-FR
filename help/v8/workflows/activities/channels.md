@@ -2,12 +2,12 @@
 audience: end-user
 title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
-workflow-type: ht
-source-wordcount: '879'
-ht-degree: 100%
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+workflow-type: tm+mt
+source-wordcount: '876'
+ht-degree: 96%
 
 ---
 
@@ -38,24 +38,20 @@ Commencez à créer votre workflow avec les activités pertinentes avant de plac
 
 ## Configurer l’activité Canal {#create-a-delivery-in-a-workflow}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="Activité e-mail"
 >abstract="L’activité e-mail facilite l’envoi d’e-mails dans votre workflow et vous permet d’envoyer des messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi d’e-mails à une cible calculée dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Activité SMS"
 >abstract="L’activité SMS facilite l’envoi de SMS dans votre workflow et vous permet d’envoyer des messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi de SMS à une cible calculée dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Activité notification push iOS"
 >abstract="L’activité notification push iOS simplifie le processus d’envoi de notifications push iOS dans le cadre de votre workflow. Elle permet la diffusion de messages ponctuels et récurrents, en automatisant l’envoi de notifications push iOS à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
@@ -75,11 +71,11 @@ Pour configurer une diffusion dans le cadre d’un workflow, procédez comme sui
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Vous pouvez sélectionner un autre modèle dans le volet de gauche de la configuration de l’activité de canal. Si l’audience précédemment sélectionnée n’est pas compatible avec le canal, vous ne pouvez pas sélectionner de modèle. Pour résoudre ce problème, modifiez l’activité **Créer une audience** et sélectionnez une audience ayant le mapping de ciblage approprié. En savoir plus sur les mappings de ciblage dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
+   Vous pouvez sélectionner un autre modèle dans le volet de gauche de la configuration de l’activité de canal. Si l’audience précédemment sélectionnée n’est pas compatible avec le canal, vous ne pouvez pas sélectionner de modèle. Pour résoudre ce problème, modifiez l’activité **Créer une audience** et sélectionnez une audience ayant le mapping de ciblage approprié. En savoir plus sur les mappings de ciblage dans [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}
 
-1. Cliquez sur **Créer une diffusion**. Définissez les paramètres et le contenu de votre message de la même manière que vous créez une diffusion autonome. Vous pouvez également planifier et simuler le contenu. [En savoir plus](../../msg/gs-messages.md).
+1. Cliquez sur **Créer une diffusion**. Définissez les paramètres et le contenu de votre message de la même manière que vous créez une diffusion autonome. Vous pouvez également planifier et simuler le contenu. [En savoir plus](../../msg/gs-messages.md)
 
-1. Revenez à votre workflow. Pour continuer votre workflow, choisissez **Générer une transition sortante** afin d’ajouter une transition après l’activité canal.
+1. Revenez à votre workflow. Si vous souhaitez continuer votre workflow, **Générer une transition sortante** pour ajouter une transition après l’activité de canal.
 
 1. Cliquez sur **Démarrer** pour lancer le workflow.
 

@@ -2,12 +2,12 @@
 audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 82%
 
 ---
 
@@ -18,14 +18,13 @@ ht-degree: 100%
 >title="Activité Créer une audience"
 >abstract="L’activité **Créer une audience** permet de définir l’audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
 
-
 L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l’audience qui va entrer dans le workflow. Lors de l’envoi de messages dans le cadre d’un workflow, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
 
 Pour définir la population de l’audience, vous pouvez :
 
 * sélectionner une audience existante, créée sous forme de liste dans la console cliente ;
 * sélectionner une audience Adobe Experience Platform ;
-* créer une nouvelle audience avec le créateur de règles en définissant et combinant des critères de filtrage.
+* Créez une nouvelle audience avec le créateur de modèles de requêtes en définissant et en combinant des critères de filtrage.
 
 >[!NOTE]
 >
@@ -42,7 +41,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >title="Sélectionner la dimension de ciblage"
 >abstract="La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires."
 
-
 Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
 ![](../assets/workflow-audience.png)
@@ -50,23 +48,32 @@ Pour configurer l’activité **Créer une audience**, procédez comme suit :
 1. Ajoutez une activité **Créer une audience**.
 1. Définissez un libellé.
 1. Définissez le type d’audience : **Créer votre audience** ou **Lecture d’audience**.
+1. Configurez votre audience en suivant les étapes présentées dans les onglets ci-dessous.
 
-Pour créer votre propre requête, procédez comme suit :
+>[!BEGINTABS]
+
+>[!TAB Créez votre propre (requête)]
+
+Pour créer votre propre requête, procédez comme suit :
 
 1. Sélectionnez **Créer la vôtre (requête)**.
-1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires. Pour en savoir plus sur les dimensions de ciblage, veuillez consulter [cette section](../../audience/about-recipients.md#targeting-dimensions).
+1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires. [En savoir plus sur les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions)
 1. Cliquez sur **Continuer**.
-1. Utilisez le créateur de règles pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. Reportez-vous à cette [section](../../audience/../query/query-modeler-overview.md).
+1. Utilisez le modèle de requête pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel email. [Découvrez comment utiliser le créateur de modèles de requête](../../audience/../query/query-modeler-overview.md)
+
+>[!TAB Lecture d’audience]
 
 Pour sélectionner une audience existante, procédez comme suit :
 
 1. Sélectionnez **Lecture d’audience**.
 1. Cliquez sur **Continuer**.
-1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d’un e-mail. Reportez-vous à cette [section](../../audience/add-audience.md).
+1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d&#39;une nouvelle diffusion. Reportez-vous à cette [section](../../audience/add-audience.md).
 
 >[!IMPORTANT]
 >
 >Si vous souhaitez utiliser une activité **[!UICONTROL Créer une audience]** ciblant une audience Experience Platform, vous devez ajouter une activité **[!UICONTROL Changement de dimension]** après celle-ci, pour vous assurer que la dimension de ciblage de l’audience est définie sur Personne destinataire. Un exemple de workflow est disponible au bas de cette page.
+
+>[!ENDTABS]
 
 ## Exemples{#build-audience-examples}
 

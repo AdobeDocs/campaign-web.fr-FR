@@ -3,7 +3,7 @@ audience: end-user
 title: Exportation des rapports
 description: Comprendre comment exporter vos rapports
 badge: label="Disponibilité limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 29%
