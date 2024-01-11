@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Exemples de requêtes
-description: Découvrez comment utiliser le créateur de règles.
+description: Découvrez comment utiliser le modèle de requête.
 hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée"
-source-git-commit: e555a6aabab6a20a5b3f3ddecf9d63d49292d55a
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 95%

@@ -4,16 +4,16 @@ title: Créer une audience unique pour une diffusion
 description: Découvrez comment créer une audience unique pour une diffusion.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # Créer une audience unique pour une diffusion {#sone-time}
 
-Cette section décrit comment créer une audience lors de la création d’une nouvelle diffusion. Dans ce cas, les destinataires à inclure dans l’audience de diffusion sont ciblés en interrogeant la base de données avec le créateur de règles.
+Cette section décrit comment créer une audience lors de la création d’une nouvelle diffusion. Dans ce cas, les destinataires à inclure dans l&#39;audience de diffusion sont ciblés en interrogant la base de données avec le créateur de requêtes.
 
 L’audience obtenue n’est utilisée qu’une seule fois pour cette diffusion. Elle n’est pas enregistrée dans la liste des audiences.
 
@@ -28,7 +28,7 @@ Pour créer une nouvelle audience directement depuis une diffusion, procédez co
 
    ![](assets/segment-builder0.png)
 
-1. Sélectionnez **Créez la vôtre**. Le créateur de règles s’affiche. Il permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. [Découvrez comment utiliser le créateur de règles](../query/query-modeler-overview.md)
+1. Sélectionnez **Créez la vôtre**. Le créateur de requêtes s’affiche. Il permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. [Découvrez comment utiliser le créateur de modèles de requête](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

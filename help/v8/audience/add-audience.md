@@ -4,10 +4,10 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Cette section explique comment sélectionner une audience existante lors de la définition de la population cible d’une diffusion. Lors de la définition de la cible principale d’une diffusion, vous pouvez également :
 
-* [Créer une audience unique](one-time-audience.md) à l’aide du créateur de règles.
+* [Création d’une audience unique](one-time-audience.md) en utilisant le modèle de requête.
 * [Charger une audience depuis un fichier externe](file-audience.md) (pour les e-mails uniquement).
 
 Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à partir du menu **Audience** sur la gauche. Elles proviennent de plusieurs sources telles que la console cliente, ou encore les workflows d’audience Web Campaign ou Adobe Experience Platform. [Découvrez comment surveiller et gérer les audiences](manage-audience.md)
@@ -40,11 +40,11 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
    ![](assets/select-audience-folder.png)
 
-1. La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au créateur de règles, qui vous permet de créer des filtres avancés pour la liste des audiences. [Découvrez comment utiliser le créateur de règles](../query/query-modeler-overview.md)
+1. La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au query modeler, qui permet de créer des filtres avancés pour la liste des audiences. [Découvrez comment utiliser le créateur de modèles de requête](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
-1. Cliquez sur **Confirmer** pour ajouter votre audience comme cible principale de la diffusion. Une fois l’opération terminée, vous pouvez toujours affiner l’audience à l’aide du créateur de règles en cliquant sur le bouton **Modifier des règles**.
+1. Cliquez sur **Confirmer** pour ajouter votre audience comme cible principale de la diffusion. Une fois cette opération terminée, vous pouvez toujours affiner l’audience à l’aide du créateur de requêtes en cliquant sur le **Modifier des règles** bouton .
 
    ![](assets/refine-audience.png)
 

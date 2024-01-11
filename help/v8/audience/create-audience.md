@@ -4,10 +4,10 @@ title: Création d’audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -54,7 +54,7 @@ Pour créer une audience, veuillez procéder comme suit :
 
    * **[!UICONTROL Enregistrer une audience]** : cela représente la dernière étape de votre workflow et vous permet d’enregistrer les résultats du workflow en tant que nouvelle audience.
 
-1. Ouvrez l’activité **[!UICONTROL Créer une audience]** et utilisez le créateur de règles pour définir la population à inclure dans votre audience en filtrant les données contenues dans la base de données. [Découvrez comment configurer une activité Créer une audience](../workflows/activities/build-audience.md).
+1. Ouvrez le **[!UICONTROL Créer une audience]** et utilisez le modèle de requête pour définir la population à inclure dans votre audience en filtrant les données contenues dans la base de données. [Découvrez comment configurer une activité Créer une audience](../workflows/activities/build-audience.md).
 
 1. Si vous souhaitez effectuer des opérations supplémentaires sur la population ciblée dans le workflow, ajoutez autant d’activités que nécessaire et connectez-les l’une à l’autre. Pour plus d’informations sur la configuration des activités de workflow, reportez-vous à la [documentation sur les workflows](../workflows/activities/about-activities.md).
 

@@ -3,10 +3,10 @@ title: Créer et utiliser des filtres prédéfinis
 description: Découvrez comment créer et gérer des filtres prédéfinis dans l’interface utilisateur web d’Adobe Campaign.
 badge: label="Disponibilité limitée"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les
 
 ## Utiliser un filtre prédéfini {#use-predefined-filter}
 
-Les filtres prédéfinis sont disponibles lors de la définition des propriétés de règle. Pour accéder aux filtres prédéfinis, choisissez l’option **Sélectionner un filtre personnalisé** dans la liste déroulante du créateur de règles.
+Les filtres prédéfinis sont disponibles lors de la définition des propriétés de règle. Pour accéder aux filtres prédéfinis, choisissez la **Sélectionner un filtre personnalisé** dans la liste déroulante du modèle de requête.
 
 Vous pouvez ensuite accéder à la liste complète des filtres prédéfinis disponibles pour le contexte actuel.
 

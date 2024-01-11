@@ -3,10 +3,10 @@ title: Mécanismes de sécurisation et limites de l’interface utilisateur web 
 description: Mécanismes de sécurisation et limites de l’interface utilisateur web de Campaign
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -61,7 +61,7 @@ Le positionnement des nœuds est actualisé à chaque fois qu’une activité es
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="Ce filtre est en lecture seule."
->abstract="Certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur de cette version du produit. Ces filtres sont marqués comme étant en lecture seule. Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le créateur de règles et que vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage dans la section **Attributs** de l’écran."
+>abstract="Certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur de cette version du produit. Ces filtres sont marqués comme étant en lecture seule. Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le modèle de requête et si vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et voir les conditions de filtrage dans le **Attributs** de l’écran."
 
 Lors de la sélection de l’audience d’une diffusion ou lors de la création d’une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur, dans cette version du produit. Ces filtres sont marqués comme étant en lecture seule.
 
@@ -69,7 +69,7 @@ Un message d’erreur spécifique s’affiche.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le créateur de règles et que vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage dans la section **Attributs** de l’écran.
+Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le modèle de requête et si vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et voir les conditions de filtrage dans le **Attributs** de l’écran.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

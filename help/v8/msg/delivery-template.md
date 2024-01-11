@@ -7,10 +7,10 @@ role: User
 level: Beginner
 badge: label="Version bêta"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 67c41530b3992bca218b2c2ed04ebc963bf5b295
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL G
 
 Tous les modèles qui ont été [créés](#create-a-delivery-template) sur l’environnement actuel sont affichés.
 
-Vous pouvez filtrer les modèles de contenu sur les canaux et les dossiers. Vous pouvez également définir des filtres avancés en créant une règle à l’aide d’attributs de diffusion. [En savoir plus sur le créateur de règles](../audience/../query/query-modeler-overview.md)
+Vous pouvez filtrer les modèles de contenu sur les canaux et les dossiers. Vous pouvez également définir des filtres avancés en créant une règle à l’aide d’attributs de diffusion. [En savoir plus sur le créateur de modèles de requêtes](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 

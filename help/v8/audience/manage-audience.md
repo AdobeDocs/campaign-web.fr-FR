@@ -4,10 +4,10 @@ title: Surveiller et gérer les audiences
 description: Découvrez comment surveiller et gérer les audiences dans Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Pour définir la population d’une audience, vous pouvez :
 
 * [Créer de nouvelles audiences](create-audience.md) à partir du menu **[!UICONTROL Audiences]**.
 * [Sélectionner une audience existante](add-audience.md) créée sous la forme d’une liste dans la console cliente ou provenant d’Adobe Experience Platform.
-* [Créer une nouvelle audience](../query/query-modeler-overview.md) avec le créateur de règles en définissant et combinant des critères de filtrage,
+* [Création d’une audience](../query/query-modeler-overview.md) avec le modèle de requête en définissant et combinant les critères de filtrage,
 * [Utiliser une audience depuis un fichier externe](file-audience.md). Cette option est disponible uniquement pour les diffusions d’e-mails autonomes et ne peut pas être utilisée dans les diffusions de campagne.
 
 Lors du ciblage d’une audience, vous pouvez également définir des **populations témoins** afin d’éviter d’envoyer des messages à une partie de votre audience et pour mesurer l’impact de vos campagnes. [Découvrez comment définir une population témoin](control-group.md)
