@@ -2,12 +2,12 @@
 audience: end-user
 title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 100%
 >id="acw_orchestration_split"
 >title="Activité Partage"
 >abstract="L’activité **Partage** permet de segmenter les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population."
-
 
 L’activité **Partage** est une activité de **ciblage** vous permettant de segmenter les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population.
 
@@ -54,9 +53,9 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
    >[!IMPORTANT]
    >
-   >Lorsque l’activité Partage est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Par exemple, si le premier sous-ensemble récupère 70 % de la population initiale, le sous-ensemble ajouté suivant n’appliquera ses critères de sélection qu’aux 30 % restants, etc.
+   >Lorsque la variable **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Par exemple, si le premier sous-ensemble récupère 70 % de la population initiale, le sous-ensemble ajouté suivant n’appliquera ses critères de sélection qu’aux 30 % restants, etc.
    >
-   > Avant de configurer vos sous-ensembles, assurez-vous de les avoir ajoutés dans l’ordre approprié, car leur position ne peut pas être modifiée.
+   >Avant de démarrer votre workflow, vérifiez que vous avez ordonné les sous-ensembles dans l&#39;ordre qui correspond à vos besoins. Pour ce faire, utilisez les boutons fléchés pour modifier la position d’un sous-ensemble.
 
 1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions en sortie que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble afin de les identifier facilement dans la zone de travail du workflow.
 
