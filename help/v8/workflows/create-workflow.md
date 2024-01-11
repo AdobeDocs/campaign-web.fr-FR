@@ -2,12 +2,12 @@
 audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer un workflow avec Adobe Campaign Web.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 97%
 
 ---
 
@@ -25,20 +25,17 @@ ht-degree: 100%
 >title="Liste des workflows de la campagne"
 >abstract="L’onglet **Workflows** dresse la liste des workflows liés à la campagne. Cliquez sur le nom d’un workflow pour le modifier. Utilisez le bouton **Créer un workflow** pour ajouter un nouveau workflow à cette campagne."
 
-
 Vous pouvez créer des workflows autonomes ou des workflows au sein d’une campagne. La première étape consiste à sélectionner un modèle et à définir ses propriétés générales. Vous pouvez ensuite configurer d’autres paramètres si nécessaire.
 
 Pour ce faire, procédez comme suit :
 
-1. Pour créer un **Workflow autonome**, accédez au menu **Workflows**.
-
-   Pour créer un **Workflow de campagne**, accédez au menu **Campagnes**, puis ouvrez la campagne pour laquelle créer un nouveau workflow.
+1. Pour créer une **Processus autonome**, accédez à la **Workflows** . Pour créer un **Workflow de campagne**, accédez au menu **Campagnes**, puis ouvrez la campagne pour laquelle créer un nouveau workflow.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un workflow]** dans le coin supérieur droit de l’écran.
 
    ![](assets/workflow-create.png)
 
-1. Dans les **Propriétés** du workflow, sélectionnez le modèle à utiliser pour créer le workflow (vous pouvez également utiliser le modèle intégré par défaut). En savoir plus sur les modèles dans [la section ci-dessous](#work-with-workflow-templates-workflow-templates).
+1. Dans les **Propriétés** du workflow, sélectionnez le modèle à utiliser pour créer le workflow (vous pouvez également utiliser le modèle intégré par défaut). [En savoir plus sur les modèles de workflow](#workflow-templates).
 
 1. Saisissez le libellé du workflow. En outre, nous vous recommandons vivement d’ajouter une description à votre workflow, dans le champ dédié de la section **[!UICONTROL Options supplémentaires]** de l’écran.
 
@@ -48,7 +45,7 @@ Pour ce faire, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un workflow]** pour confirmer la création de votre workflow.
 
-Votre workflow est maintenant créé et disponible dans la liste des workflows. Vous pouvez maintenant accéder à sa zone de travail visuelle et commencer à ajouter, configurer et orchestrer les tâches qu’il exécutera. Découvrez comment orchestrer des activités de workflow sur [cette page](orchestrate-activities.md).
+Votre workflow est maintenant créé et disponible dans la liste des workflows. Vous pouvez maintenant accéder à sa zone de travail visuelle et commencer à ajouter, configurer et orchestrer les tâches qu’il exécutera. [Découvrez comment orchestrer des activités de workflow](orchestrate-activities.md).
 
 ## Utiliser des modèles de workflows {#workflow-templates}
 
