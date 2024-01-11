@@ -3,11 +3,11 @@ audience: end-user
 title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Disponibilité limitée"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 99%
+source-wordcount: '892'
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Si vous avez planifié l’envoi de votre e-mail à une date et une heure ultér
 
 ## Suspendre ou arrêter l’envoi {#pause-stop-sending}
 
-Deux actions peuvent être effectuées à tout moment pendant le processus d’envoi, que votre diffusion soit planifiée ou non :
+Si votre diffusion est planifiée ou non<!--TBC-->, deux actions peuvent être effectuées à tout moment pendant le processus d’envoi :
 
 * Cliquez sur **[!UICONTROL Suspendre l’envoi]** pour interrompre l’envoi des messages. Vous pouvez reprendre l’envoi à tout moment.
 
