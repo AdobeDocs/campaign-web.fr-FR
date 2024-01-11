@@ -4,10 +4,10 @@ title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 badge: label="Disponibilité limitée"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 82%
+source-wordcount: '410'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ Pour définir la population de l’audience, vous pouvez :
 
 >[!NOTE]
 >
->Dans ce contexte, vous ne pouvez pas charger d’audience à partir d’un fichier. Pour cela, vous devez créer une diffusion d’e-mail autonome. [En savoir plus](../../audience/about-recipients.md)
+>Les audiences chargées à partir d’un fichier ne peuvent pas être ciblées à l’aide d’une activité Créer une audience . Pour ce faire, vous devez utiliser une **Chargement de fichier** activité suivie d’une **Réconciliation** activité. [En savoir plus](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -69,10 +69,6 @@ Pour sélectionner une audience existante, procédez comme suit :
 1. Cliquez sur **Continuer**.
 1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d&#39;une nouvelle diffusion. Reportez-vous à cette [section](../../audience/add-audience.md).
 
->[!IMPORTANT]
->
->Si vous souhaitez utiliser une activité **[!UICONTROL Créer une audience]** ciblant une audience Experience Platform, vous devez ajouter une activité **[!UICONTROL Changement de dimension]** après celle-ci, pour vous assurer que la dimension de ciblage de l’audience est définie sur Personne destinataire. Un exemple de workflow est disponible au bas de cette page.
-
 >[!ENDTABS]
 
 ## Exemples{#build-audience-examples}
@@ -80,7 +76,3 @@ Pour sélectionner une audience existante, procédez comme suit :
 Voici un exemple de workflow avec deux activités **Créer une audience**. La première cible l’audience des joueurs et joueuses de poker, suivie d’une diffusion e-mail. La seconde cible l’audience des clientes et clients VIP, suivie d’une diffusion SMS.
 
 ![](../assets/workflow-audience-example.png)
-
-Voici un autre exemple de workflow dans lequel une audience Adobe Experience Platform est combinée à une audience Adobe Campaign. Pour combiner ces audiences, une activité **[!UICONTROL Changement de dimension]** avec la dimension de ciblage Personne destinataire est ajoutée après l’audience Adobe Experience Platform. [Découvrez comment configurer une activité Changement de dimension](change-dimension.md).
-
-![](../assets/workflow-audience-aep.png)

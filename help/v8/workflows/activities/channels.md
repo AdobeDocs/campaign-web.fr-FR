@@ -4,10 +4,10 @@ title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Disponibilité limitée"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 96%
+source-wordcount: '901'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 >* [Créer une diffusion par SMS autonome](../../sms/create-sms.md)
 >* [Créer une diffusion par notification push autonome](../../push/create-push.md)
 
-## Créer votre workflow{#build-your-workflow}
+## Créer votre workflow {#build-your-workflow}
 
 Commencez à créer votre workflow avec les activités pertinentes avant de placer la diffusion :
 
@@ -35,6 +35,10 @@ Commencez à créer votre workflow avec les activités pertinentes avant de plac
 * Ajoutez une activité **Créer une audience**. L’audience est la cible principale de votre diffusion : il s’agit des destinataires qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**. Consultez [cette section](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >Vous pouvez également cibler une audience chargée à partir d’un fichier. Pour ce faire, utilisez un **Chargement de fichier** activité suivie d’une **Réconciliation** activité. [En savoir plus](../../audience/about-recipients.md)
 
 ## Configurer l’activité Canal {#create-a-delivery-in-a-workflow}
 
