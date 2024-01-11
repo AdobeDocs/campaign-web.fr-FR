@@ -3,10 +3,10 @@ audience: end-user
 title: Surveiller les logs de diffusion
 description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '358'
+badge: label="Disponibilité limitée"
+source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
+workflow-type: tm+mt
+source-wordcount: '359'
 ht-degree: 100%
 
 ---
