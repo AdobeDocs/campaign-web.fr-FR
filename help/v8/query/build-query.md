@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 64%
+source-wordcount: '1920'
+ht-degree: 62%
 
 ---
 
@@ -90,6 +90,8 @@ Les conditions personnalisées vous permettent d&#39;interroger des tables liée
 
 Pour un **Lien 1-1**, accédez à la table liée, sélectionnez l’attribut de votre choix et définissez la valeur attendue.
 
+Vous pouvez également sélectionner directement un lien de tableau dans la variable **Valeur** et confirmez. Dans ce cas, les valeurs disponibles pour le tableau sélectionné doivent être sélectionnées à l’aide d’un sélecteur dédié, comme illustré dans l’exemple ci-dessous.
+
 +++Exemple de requête
 
 Ici, la requête cible les marques dont le libellé est &quot;en cours&quot;.
@@ -101,6 +103,10 @@ Ici, la requête cible les marques dont le libellé est &quot;en cours&quot;.
 1. Définissez la valeur attendue de l’attribut.
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+Voici un exemple de requête dans lequel un lien de tableau a été directement sélectionné. Les valeurs disponibles pour ce tableau doivent être sélectionnées dans un sélecteur dédié.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
