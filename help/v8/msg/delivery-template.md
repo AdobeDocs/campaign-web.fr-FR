@@ -5,12 +5,12 @@ description: Découvrez comment créer et utiliser des modèles de diffusion dan
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Version bêta"
+badge: label="Disponibilité limitée"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 95%
+source-wordcount: '1087'
+ht-degree: 92%
 
 ---
 
@@ -122,6 +122,8 @@ Pour enregistrer une diffusion comme modèle, procédez comme suit :
 
    ![](assets/templates-convert-delivery.png)
 
+   Vous pouvez également sélectionner un modèle dans la liste et sélectionner cette option dans l’écran d’édition du modèle.
+
 1. Confirmez la duplication.
 
 1. Le nouveau tableau de bord de modèle s’ouvre dans l’écran central. Modifiez les paramètres du modèle selon vos besoins.
@@ -180,13 +182,11 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
    ![](assets/templates-simulate-button.png)
 
-1. Sélectionnez un ou plusieurs profils de test pour vérifier le rendu de votre e-mail. Vous pouvez également sélectionner des profils réels dans votre base de données.
+1. Sélectionnez un ou plusieurs profils de test pour vérifier le rendu de votre e-mail. Vous pouvez également sélectionner des profils réels dans votre base de données. [En savoir plus sur les profils de test](../audience/test-profiles.md)
 
-1. Basculez entre les différents profils pour obtenir une représentation personnalisée du message en fonction du profil sélectionné.
+1. Basculez entre les différents profils pour obtenir une représentation personnalisée du message en fonction du profil sélectionné. Vous pouvez également ajuster le niveau de zoom et choisir la vue pour ordinateur ou mobile.
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   Vous pouvez également ajuster le niveau de zoom et choisir la vue pour ordinateur ou mobile.
+[En savoir plus sur la prévisualisation du contenu](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 >
 >Vous ne pouvez pas utiliser le rendu des emails ni envoyer de tests dans un modèle de diffusion.
 
-* [En savoir plus sur la prévisualisation du contenu des e-mails.](../preview-test/preview-content.md)
 
-* [En savoir plus sur la prévisualisation du contenu des SMS.](../sms/content-sms.md)
-
-* [En savoir plus sur la prévisualisation du contenu des notifications push.](../push/gs-push.md)
