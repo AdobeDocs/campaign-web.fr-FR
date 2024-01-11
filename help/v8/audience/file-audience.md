@@ -4,10 +4,10 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 83%
+source-wordcount: '618'
+ht-degree: 82%
 
 ---
 
@@ -26,14 +26,12 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Paramètres de formatage"
->abstract="Vérifiez les paramètres de formatage du fichier externe."
-
+>abstract="Indiquez le format du fichier externe pour vous assurer que les données sont correctement importées."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Prévisualisez votre fichier"
 >abstract="Vérifiez l&#39;aperçu des colonnes du fichier externe. Cet écran n’affiche que 30 enregistrements au maximum."
-
 
 Vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Cet article décrit comment charger un profil externe lors de la création d’une diffusion email autonome. Pour charger des données à partir d’un fichier dans un workflow, reportez-vous à la section [cette page](../workflows/activities/load-file.md).
 

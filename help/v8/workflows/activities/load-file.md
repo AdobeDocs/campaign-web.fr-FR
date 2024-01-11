@@ -3,10 +3,10 @@ audience: end-user
 title: Utilisation de l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier
 badge: label="Disponibilité limitée"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 39%
+source-wordcount: '323'
+ht-degree: 31%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 39%
 >title="Mise en forme de l’activité Chargement de fichier"
 >abstract="Mise en forme de l’activité Chargement de fichier"
 
-
 La variable **Chargement de fichier** est une activité **Gestion des données** activité. Utilisez cette activité pour travailler avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour [personnalisation](../../personalization/gs-personalization.md)ou pour mettre à jour les profils ou toute autre table.
 
 >[!NOTE]
@@ -72,10 +71,12 @@ Pour configurer la variable **Chargement de fichier** activité :
 
    ![](../assets/load-file.png)
 
-1. Ajustez les paramètres des colonnes et comment formater les données à partir des options disponibles.
+1. Utilisez la variable **Colonnes** dans le volet de gauche afin d’ajuster le type et la largeur des données pour chaque colonne.
+
+1. Dans le **Formatage** , située sous la configuration des colonnes, indiquez le format du fichier externe pour vous assurer que les données sont correctement importées.
 
 1. Cliquez sur **Confirmer** une fois que les paramètres sont corrects.
 
 ## Exemple{#load-example}
 
-Un exemple de chargement de fichier externe est disponible avec la fonction **Réconciliation** activité dans [cette section](reconciliation.md#example).
+Un exemple de chargement de fichier externe utilisé avec la fonction **Réconciliation** est disponible dans [cette section](reconciliation.md#example).
