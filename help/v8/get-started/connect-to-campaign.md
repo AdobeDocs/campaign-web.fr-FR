@@ -3,10 +3,10 @@ title: Se connecter à l’interface web d’Adobe Campaign
 description: Découvrez comment vous connecter à l’interface utilisateur web d’Adobe Campaign v8.
 badge: label="Disponibilité limitée"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 84%
+source-wordcount: '557'
+ht-degree: 81%
 
 ---
 
@@ -88,6 +88,12 @@ Pour changer de langue :
 1. Cliquez sur l’icône de votre profil, en haut à droite, puis sélectionnez **Préférences**.
 1. Cliquez ensuite sur le lien de la langue affichée sous votre adresse e-mail.
 1. Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue si le composant que vous utilisez n’est pas localisé dans votre première langue.
+
+>[!CAUTION]
+>
+>Si vous prévoyez d’utiliser les fonctionnalités d’aide contextuelle optimisée par l’IA, vous devez définir votre langue préférée sur l’anglais. Les autres langues ne sont pas prises en charge.
+>
+
 
 ## Thèmes foncés et clairs {#dark-theme}
 
