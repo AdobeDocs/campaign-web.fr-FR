@@ -4,10 +4,10 @@ title: Créer une audience à l’aide du créateur de règles de Campaign
 description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ La palette est divisée en deux onglets :
 
 * **Attributs** : cet onglet permet d’accéder à tous les champs disponibles à partir du schéma. La liste des champs dépend du schéma de ciblage défini dans le modèle d’e-mail.
 
-* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform. [Découvrez comment surveiller et gérer les audiences](manage-audience.md).
+* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform. Découvrez comment surveiller et gérer les audiences dans [cette section](manage-audience.md)
 
   >[!NOTE]
   >
