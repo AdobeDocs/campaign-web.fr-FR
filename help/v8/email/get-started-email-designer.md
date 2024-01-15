@@ -4,21 +4,30 @@ title: Modifier le contenu de l’e-mail
 description: Découvrez le b.a.-ba de la création de contenu à l’aide du concepteur d’e-mail dans l’UI de Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 89%
+source-wordcount: '472'
+ht-degree: 80%
 
 ---
 
 # Prise en main du concepteur d’e-mail {#get-started-email-designer}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Nouveau Concepteur d&#39;email"
+>abstract="Le Concepteur d’email de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque email !"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Voir les notes de mise à jour"
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
 >title="Nouveau Concepteur d&#39;email"
 >abstract="Le Concepteur d’email de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque email !"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Voir les notes de mise à jour"
 
+<!--TO REMOVE ABOVE-->
 
 Une fois que vous avez créé un e-mail dans Adobe Campaign, vous devez en définir le contenu.
 
