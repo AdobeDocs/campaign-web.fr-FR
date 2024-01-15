@@ -4,15 +4,15 @@ title: Prévisualiser le contenu de la diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion avec l’interface utilisateur web de Campaign.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilité limitée"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 88%
 
 ---
 
 
-# Prévisualiser le contenu de la diffusion {#preview-content}
+# Prévisualiser le contenu du message {#preview-content}
 
 La fonctionnalité de simulation de contenu de [!DNL Campaign] permet de prévisualiser le contenu du message avant son envoi. Vous pouvez ainsi contrôler la personnalisation et vérifier son affichage pour vos destinataires.
 

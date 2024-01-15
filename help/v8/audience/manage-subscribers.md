@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Gérer les personnes abonnées à un service
+title: Gestion des abonnés
 description: Découvrez comment gérer les personnes abonnées à un service dans Adobe Campaign Web et leurs envoyer des diffusions.
 badge: label="Beta"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '292'
-ht-degree: 100%
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 97%
 
 ---
 
-# Gérer les personnes abonnées à un service {#manage-subscribers}
+# Gestion des abonnés {#manage-subscribers}
 
 Après avoir [créé un service](manage-services.md#create-service), vous pouvez ajouter des personnes abonnées, désabonner des destinataires et envoyer des messages aux personnes abonnées à ce service.
 

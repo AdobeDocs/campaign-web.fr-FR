@@ -7,14 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '428'
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+workflow-type: tm+mt
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
 
-# Blocs de contenu intégrés {#ootb-content-blocks}
+# Ajouter des blocs de contenu intégrés {#ootb-content-blocks}
 
 Adobe Campaign propose une liste de blocs de contenus pré-paramétrés. Ces blocs de contenu sont dynamiques, personnalisés et contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir.
 

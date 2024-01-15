@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Créer des workflows à l’aide d’Adobe Campaign Web
-description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
+title: Configurer les paramètres de workflow
+description: Découvrez comment configurer les paramètres du workflow avec Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 97%
+source-wordcount: '911'
+ht-degree: 96%
 
 ---
+
 
 # Configurer les paramètres de workflow {#workflow-settings}
 

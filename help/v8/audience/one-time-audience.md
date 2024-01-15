@@ -4,14 +4,14 @@ title: Créer une audience unique pour une diffusion
 description: Découvrez comment créer une audience unique pour une diffusion.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 85%
 
 ---
 
-# Créer une audience unique pour une diffusion {#sone-time}
+# Créer une audience ponctuelle {#one-time}
 
 Cette section décrit comment créer une audience lors de la création d’une nouvelle diffusion. Dans ce cas, les destinataires à inclure dans l&#39;audience de diffusion sont ciblés en interrogant la base de données avec le créateur de requêtes.
 

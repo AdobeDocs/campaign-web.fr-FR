@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Parcourir, rechercher et filtrer les listes
+title: Parcourir et filtrer les listes
 description: Découvrez comment parcourir et filtrer les listes de Campaign Web v8
 badge: label="Disponibilité limitée"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 81%
+source-wordcount: '239'
+ht-degree: 78%
 
 ---
 
-# Parcourir, rechercher et filtrer les listes {#list-screens}
+# Parcourir et filtrer les listes {#list-screens}
 
 La plupart des liens du menu de navigation de gauche affichent des listes d’objets, telles que la liste des **Diffusions** ou des **Campagnes**. Certaines de ces fenêtres de liste sont en lecture seule. Vous pouvez personnaliser l’affichage de la liste et filtrer ces listes, comme décrit ci-dessous.
 

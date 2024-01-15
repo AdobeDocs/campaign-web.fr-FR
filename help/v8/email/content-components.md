@@ -4,14 +4,14 @@ title: Utiliser les composants de contenu du concepteur d’e-mail
 description: Découvrez comment utiliser des composants de contenu dans vos emails.
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Disponibilité limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 100%
 
 ---
 
-# Utiliser les contenus du concepteur d’e-mail {#content-components}
+# Utiliser les composants de contenu {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

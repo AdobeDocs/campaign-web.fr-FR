@@ -4,14 +4,14 @@ title: Envoyer des messages aux personnes abonnées à un service
 description: Découvrez comment envoyer des messages aux personnes abonnées à un service.
 badge: label="Beta"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Envoyer des messages aux personnes abonnées à un service
+# Envoyer des messages aux personnes abonnées à un service {#send-to-subscribers}
 
 Vous pouvez créer des services d’abonnements dans Adobe Campaign et envoyer des messages à vos personnes abonnées. Découvrez comment créer des services d’abonnements sur [cette page](../audience//manage-services.md#create-service).
 
