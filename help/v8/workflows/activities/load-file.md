@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier
 badge: label="Disponibilité limitée"
-source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
+source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 31%
