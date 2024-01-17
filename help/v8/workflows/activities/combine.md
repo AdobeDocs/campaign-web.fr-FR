@@ -4,10 +4,10 @@ title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 100%
+source-wordcount: '912'
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,10 @@ Dans l’activité **Combiner**, vous pouvez configurer une **intersection**. Po
 >title="Règles d&#39;exclusion"
 >abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur Ajouter une règle dans la section Règles d’exclusion et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Combiner le complément de génération"
+>abstract="Activez l’option Générer le complémentaire pour traiter la population restante dans une transition supplémentaire."
 
 Dans l’activité **Combiner**, vous pouvez configurer une **exclusion**. Pour cela, suivez les étapes supplémentaires ci-dessous :
 

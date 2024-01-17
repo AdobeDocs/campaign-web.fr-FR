@@ -4,10 +4,10 @@ title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 badge: label="Disponibilité limitée"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 92%
+source-wordcount: '777'
+ht-degree: 85%
 
 ---
 
@@ -23,6 +23,11 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 ## Configurer l’activité Partage {#split-configuration}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segments de l’activité de partage"
+>abstract="Ajoutez autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.<br/></br>Lorsque la variable **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de démarrer votre workflow, assurez-vous d&#39;avoir ordonné les sous-ensembles dans l&#39;ordre qui vous convient à l&#39;aide des boutons fléchés."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Filtre de l’activité Partage"
 >abstract="Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
@@ -31,7 +36,6 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >id="acw_orchestration_split_limit"
 >title="Limite de l’activité Partage"
 >abstract="Pour limiter le nombre de profils sélectionnés par le sous-ensemble, activez la fonction **[!UICONTROL Activer la limite]** et indiquez le nombre ou les pourcentages de la population à inclure."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"

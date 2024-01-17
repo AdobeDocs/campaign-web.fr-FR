@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de l’activité de workflow Réconciliation
 description: Découvrez comment utiliser l’activité de workflow Réconciliation
 badge: label="Disponibilité limitée"
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 19%
@@ -34,7 +34,7 @@ ht-degree: 19%
 
 La variable **Réconciliation** est une activité **Ciblage** activité permettant de définir le lien entre les données de la base Adobe Campaign et les données d&#39;une table de travail, par exemple les données chargées à partir d&#39;un fichier externe.
 
-Par exemple, la variable **Réconciliation** peut être placée après une **Chargement d’audience** pour importer des données non standard dans la base de données. Dans ce cas, la variable **Réconciliation** permet de définir le lien entre les données de la base Adobe Campaign et celles de la table de travail.
+Par exemple, la variable **Réconciliation** peut être placée après une **Chargement de fichier** pour importer des données non standard dans la base de données. Dans ce cas, la variable **Réconciliation** permet de définir le lien entre les données de la base Adobe Campaign et celles de la table de travail.
 
 ## Bonnes pratiques {#reconciliation-best-practices}
 

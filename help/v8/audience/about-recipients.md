@@ -2,7 +2,7 @@
 title: Surveillance et gestion des profils
 description: Découvrez comment surveiller et gérer les profils dans le Web de Campaign.
 badge: label="Disponibilité limitée"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -15,14 +15,14 @@ ht-degree: 5%
 >id="acw_homepage_welcome_rn4"
 >title="Affichage 360 de vos profils"
 >abstract="Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, éditer et mettre à jour leur profil."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Voir les notes de mise à jour"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="Affichage 360 de vos profils"
 >abstract="Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, éditer et mettre à jour leur profil."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Voir les notes de mise à jour"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
 
 <!--TO REMOVE ABOVE-->
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profils"
->abstract="Un profil est une personne ciblée pour recevoir les messages envoyés par Adobe Campaign. Dans cette liste, vous pouvez afficher les détails des profils en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de vos profils."
+>abstract="Un profil est une personne ciblée pour recevoir les messages envoyés par Adobe Campaign. Dans cette liste, vous pouvez afficher les détails des profils en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de vos profils."
 
 ## Prise en main des profils {#gs}
 
