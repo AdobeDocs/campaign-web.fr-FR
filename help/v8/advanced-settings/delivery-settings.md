@@ -29,12 +29,12 @@ Ces paramètres sont disponibles à partir du **Paramètres** est disponible lor
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
+>abstract="Les règles de typologie permettent aux spécialistes marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Paramètres de typologie de la diffusion"
->abstract="Les règles de typologie permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie permettant de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
+>abstract="Les règles de typologie permettent aux spécialistes marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
 
 
 Les typologies sont des ensembles de **règles de typologie** qui sont exécutés pendant la phase de préparation afin d&#39;appliquer facilement plusieurs règles de filtrage à une diffusion à la fois. Ils permettent aux marketeurs de normaliser les pratiques commerciales dans toutes les diffusions, car ils leur permettent de contrôler, filtrer et prioriser l’envoi des diffusions.

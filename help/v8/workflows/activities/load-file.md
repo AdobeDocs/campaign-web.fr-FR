@@ -10,7 +10,7 @@ ht-degree: 31%
 
 ---
 
-# Chargement de fichier  {#load-file}
+# Charger un fichier {#load-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
