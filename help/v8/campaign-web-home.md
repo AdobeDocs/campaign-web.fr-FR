@@ -7,16 +7,16 @@ badge: label="Disponibilité limitée"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 86%
+ht-degree: 96%
 
 ---
 
-# Documentation d’Adobe Campaign v8 Web {#campaign-documentation}
+# Documentation d’Adobe Campaign v8 Web {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="Aide et documentation"
->abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et apporte de la cohérence avec d’autres solutions d’Adobe."
+>abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
@@ -54,7 +54,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Aide et documentation"
->abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et apporte de la cohérence avec d’autres solutions d’Adobe."
+>abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
@@ -87,7 +87,7 @@ ht-degree: 86%
 La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform. [En savoir plus](get-started/get-started.md)
 
 >[!AVAILABILITY]
-> Le Web de Campaign v8 est actuellement en version à disponibilité limitée (LA). L’accès est limité à un petit groupe de clients LA. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/whats-new.md)
+> Campaign v8 Web est actuellement en version Disponibilité limitée. Cela signifie que l’accès est limité à un petit groupe de clientes et clients. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/whats-new.md)
 
 ## Nouvelles fonctionnalités de Campaign Web
 

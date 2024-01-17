@@ -1,22 +1,22 @@
 ---
 title: Prise en main des profils et des audiences
-description: Découvrez comment utiliser les profils et les audiences dans Campaign Web
+description: Découvrez comment utiliser les profils et les audiences dans Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Disponibilité limitée"
 source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
 # Prise en main des profils et des audiences {#about-profiles}
 
-Dans Adobe Campaign Web, une **profile** est un individu stocké dans la base de données, qui sert de composant clé pour créer des audiences pour les diffusions et ajouter des données de personnalisation à votre contenu. Différents types de profils sont stockés dans la base de données, tels que **Profils de test**, qui sont conçues pour tester vos diffusions avant leur envoi à l’audience finale.
+Dans Adobe Campaign Web, un **profil** désigne une personne stockée dans la base de données. Il sert de composant clé pour créer des audiences pour les diffusions et ajouter des données de personnalisation à votre contenu. Différents types de profils sont stockés dans la base de données, tels que les **Profils de test**, conçus pour tester vos diffusions avant leur envoi à l’audience finale.
 
-**Audiences** sont des ensembles de profils qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée.  Une fois créées, les audiences peuvent être exploitées comme population cible de vos diffusions.
+Les **audiences** désignent un ensemble de profils qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée.  Une fois créées, les audiences peuvent être exploitées comme la population cible de vos diffusions.
 
-En outre, le Web Adobe Campaign peut être utilisé pour gérer et créer des **services** par exemple des newsletters et pour vérifier les abonnements ou désabonnements à ces services. Une fois cette opération terminée, vous pouvez ajouter des abonnés, désabonner des profils et envoyer des messages aux abonnés de vos services.
+Vous pouvez également utiliser Adobe Campaign Web pour gérer et créer vos **services**, tels que les newsletters, ou encore pour vérifier les abonnements et désabonnements relatifs à ces services. Ensuite, vous pouvez ajouter des personnes abonnées, désabonner des profils et envoyer des messages aux personnes abonnées à vos services.
 
 Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adobe Campaign Web, il est temps d’explorer plus en détails les sections de cette documentation pour commencer à travailler.
 
@@ -26,7 +26,7 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="about-recipients.md"><strong>Surveillance et gestion des profils</strong></a>
+<a href="about-recipients.md"><strong>Surveiller et gérer les profils</strong></a>
 </div>
 <p>
 </td>
@@ -34,7 +34,7 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <a href="create-audience.md">
 <img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="create-audience.md"><strong>Création d’audiences</strong>
+<div><a href="create-audience.md"><strong>Créer des audiences</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <img alt="Peu fréquent" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="manage-services.md"><strong>Gestion des services</strong></a>
+<a href="manage-services.md"><strong>Gérer des services</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 <img alt="Peu fréquent" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="add-audience.md"><strong>Sélectionner les destinataires de vos diffusions</strong></a>
+<a href="add-audience.md"><strong>Sélectionner les personnes destinataires de vos diffusions</strong></a>
 </div>
 <p></td>
 </tr></table>

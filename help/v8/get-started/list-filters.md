@@ -7,7 +7,7 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ Pour les colonnes numériques ou de date, la flèche vers le **haut** indique qu
 
 ## Filtres {#list-built-in-filters}
 
-Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou les filtres intégrés et personnalisés pour adapter la liste en fonction des critères contextuels.
+Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou les filtres intégrés et personnalisés pour adapter la liste selon des critères contextuels.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
