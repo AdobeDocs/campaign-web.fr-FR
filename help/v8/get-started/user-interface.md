@@ -5,9 +5,9 @@ description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
 source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1452'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -408,14 +408,14 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Afficher les attributs avancés"
->abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les noeuds, les regroupements, les liens 1-1, les liens 1-N."
+>abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez le bouton (bascule) **Afficher les attributs avancés** pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les nœuds, les regroupements, les liens 1-1 et les liens 1-N."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Champs avancés du créateur de règles"
->abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les noeuds, les regroupements, les liens 1-1, les liens 1-N."
+>abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez le bouton (bascule) **Afficher les attributs avancés** pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les nœuds, les regroupements, les liens 1-1 et les liens 1-N."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Attributs avancés du créateur de règles"
->abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez la variable **Afficher les attributs avancés** bascule pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les noeuds, les regroupements, les liens 1-1, les liens 1-N."
+>abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez le bouton (bascule) **Afficher les attributs avancés** pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les nœuds, les regroupements, les liens 1-1 et les liens 1-N."
