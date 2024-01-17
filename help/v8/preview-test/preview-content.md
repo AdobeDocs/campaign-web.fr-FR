@@ -4,10 +4,10 @@ title: Prévisualiser le contenu de la diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion avec l’interface utilisateur web de Campaign.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilité limitée"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 88%
+source-wordcount: '384'
+ht-degree: 78%
 
 ---
 
@@ -45,6 +45,12 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
      >[!NOTE]
      >
      >Vous pouvez également afficher et gérer les profils à partir de l’onglet correspondant dans l’interface utilisateur web de Campaign. [En savoir plus](../audience/about-recipients.md)
+
+1. Lorsque vous parcourez les listes de profils ou de profils de test, vous pouvez utiliser des filtres pour affiner votre recherche.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test avec la variable **[!UICONTROL Prospect]** statut. Découvrez comment ajouter des règles à l’aide du [query modeler](../query/query-modeler-overview.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** pour confirmer votre sélection.
 
