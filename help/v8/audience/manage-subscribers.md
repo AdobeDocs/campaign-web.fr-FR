@@ -2,12 +2,12 @@
 audience: end-user
 title: Gestion des abonnés
 description: Découvrez comment gérer les personnes abonnées à un service dans Adobe Campaign Web et leurs envoyer des diffusions.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 97%
+source-wordcount: '306'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Pour ajouter manuellement des personnes abonnées, procédez comme suit.
 
 1. Sélectionnez un service existant dans la liste **[!UICONTROL Services d’abonnements]**.
 
-1. Sélectionnez l’onglet **[!UICONTROL Abonnés]** et cliquez sur **[!UICONTROL Ajouter des profils]**.
+1. Accédez au **[!UICONTROL Abonnés]** et cliquez sur **[!UICONTROL Ajouter des abonnés]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,11 +31,15 @@ Pour ajouter manuellement des personnes abonnées, procédez comme suit.
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Cliquez sur **[!UICONTROL Envoyer]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> Les destinataires sélectionnés recevront le [message de confirmation](manage-services.md#create-confirmation-message) d’abonnement que vous avez sélectionné lors de la [création du service](manage-services.md#create-service).
+1. Cliquez sur **[!UICONTROL Envoyer]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> pour que les destinataires sélectionnés reçoivent l’abonnement [message de confirmation](manage-services.md#create-confirmation-message) que vous avez défini lorsque [création du service](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-Les profils ajoutés sont affichés dans la liste des **[!UICONTROL personnes abonnées]**. Ils sont maintenant abonnés à votre service.
+   >[!NOTE]
+   >
+   >Si vous sélectionnez **[!UICONTROL Annuler]**, aucun message de confirmation n&#39;est envoyé aux profils sélectionnés, mais ils sont abonnés.
+
+Les profils ajoutés sont affichés dans le **[!UICONTROL Abonnés]** . Ils sont maintenant abonnés à votre service.
 
 ## Supprimer des personnes abonnées de votre service {#remove-subscribers}
 
@@ -49,11 +53,13 @@ Une fois les [personnes abonnées ajoutées](#add-subscribers) à votre service,
 
    ![](assets/service-subscribers-delete.png)
 
-1. Confirmez la suppression et cliquez sur **[!UICONTROL Envoyer]**. La personne destinataire sélectionnée recevra le [message de confirmation](manage-services.md#create-confirmation-message) de désabonnement que vous avez sélectionné lors de la [création du service](manage-services.md#create-service).
+1. Confirmez la suppression.
+
+1. Cliquez sur **[!UICONTROL Envoyer]** pour que le destinataire sélectionné reçoive la désinscription [message de confirmation](manage-services.md#create-confirmation-message) que vous avez défini lorsque [création du service](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
-La personne destinataire est supprimée de la liste des **[!UICONTROL personnes abonnées]** et n’est plus abonnée à votre service.
+Le destinataire est supprimé de la variable **[!UICONTROL Abonnés]** et n’est plus abonné à votre service.
 
 ### Désabonner automatiquement les destinataires {#automatic-unsubscription}
 
