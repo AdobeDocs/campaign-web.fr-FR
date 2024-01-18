@@ -3,11 +3,11 @@ audience: end-user
 title: Ajouter des offres à vos messages
 description: Découvrez comment ajouter et envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '763'
-ht-degree: 100%
+badge: label="Disponibilité limitée"
+source-git-commit: 013d5ab21d3fda9e7b04ddd709185c2ff4bf23a3
+workflow-type: tm+mt
+source-wordcount: '734'
+ht-degree: 73%
 
 ---
 
@@ -33,19 +33,19 @@ Pour envoyer des offres avec une diffusion, procédez comme suit :
 >title="Définir les paramètres avancés des offres"
 >abstract="Vous pouvez activer l’exclusion des profils destinataires pour lesquels les offres éligibles ne sont pas suffisantes, puis choisir le mode de traitement du message au cas où l’une des propositions n’existerait pas."
 
-Adobe Campaign vous permet de proposer une ou plusieurs offres spécifiques à un contact donné. Le module Interaction permet de répondre en temps réel lors d’une interaction avec un contact donné en lui proposant une ou plusieurs offres adaptées. Il peut s’agir par exemple de messages de communication simples, d’offres spéciales sur un ou plusieurs produits ou d’un service.
+Adobe Campaign vous permet de répondre en temps réel lors d&#39;une interaction avec un contact donné en lui proposant une ou plusieurs offres spécifiques. Ces offres peuvent être de simples messages de communication, des offres spéciales sur un ou plusieurs produits ou un service.
 
 Pour sélectionner les offres à ajouter à votre diffusion, procédez comme suit.
 
 1. Cliquez sur le bouton **[!UICONTROL Configuration des offres]** à partir de l‘écran d’édition du contenu de la diffusion.
 
-   ![](assets/setup-offers.png)
+   ![](assets/offer-setup.png)
 
 1. Configurez les offres qui doivent être proposées aux destinataires.
 
-   Sélectionnez d’abord l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement dans la [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=fr){target="_blank"}.
+   Sélectionnez d’abord l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement dans le [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=fr){target="_blank"}.
 
-   ![](assets/create-content-offers.png)
+   ![](assets/offer-create-content.png)
 
 1. Pour affiner le choix des offres du moteur, sélectionnez une **[!UICONTROL Catégorie d’offres]** spécifique dans laquelle les offres sont triées.
 
@@ -61,33 +61,35 @@ Pour sélectionner les offres à ajouter à votre diffusion, procédez comme sui
 
 1. Sélectionnez l’option **[!UICONTROL Exclure les destinataires non éligibles]**, si nécessaire.
 
-   Cette option permet d’activer ou désactiver l’exclusion des destinataires pour lesquels il n’y a pas assez d’offres éligibles.
+   Cette option permet d&#39;activer ou désactiver l&#39;exclusion des destinataires pour lesquels les offres éligibles ne sont pas suffisantes :
 
    * Si vous activez cette option, les destinataires qui n’ont pas suffisamment de propositions sont exclus de la diffusion.
    * Si vous désactivez cette option, ces destinataires ne sont pas exclus, mais ils ne peuvent pas avoir le nombre de propositions demandé.
 
 1. Si nécessaire, sélectionnez l’option **[!UICONTROL Masquer tout si aucune offre n’est sélectionnée]**.
 
-   Cette option vous permet de choisir le mode de traitement du message au cas où l’une des propositions n’existerait pas.
+   Cette option permet de choisir le mode de traitement du message en cas d&#39;absence d&#39;une proposition :
 
    * Si vous activez cette option, la représentation de la proposition manquante ne s’affiche pas et aucun contenu n’apparaît dans le message pour cette proposition.
    * Si vous désactivez cette option, le message est annulé lors de l’envoi et les destinataires ne peuvent plus recevoir de messages.
 
-Une fois que vous avez configuré les offres à proposer dans la diffusion, vous pouvez les insérer dans le contenu de la diffusion à l’aide de l’éditeur d’expression.
+Une fois que vous avez paramétré les offres à proposer dans votre diffusion, vous pouvez les insérer dans le contenu de la diffusion.
 
 ## Insérer des offres dans la diffusion {#insert}
 
-Vous pouvez ajouter des offres à la diffusion à l’aide de l’[Éditeur d’expression](../personalization/gs-personalization.md#access). Elles peuvent être insérées dans l’objet ou dans le corps de la diffusion.
+Vous pouvez ajouter des offres dans la diffusion à l’aide du [éditeur d&#39;expression](../personalization/gs-personalization.md#access). Elles peuvent être insérées dans l’objet ou dans le corps de la diffusion.
 
 >[!CAUTION]
 >
 >Avant d’insérer une offre dans une diffusion, assurez-vous d’avoir [configuré les offres proposées dans le cadre de cette diffusion](#configure).
 
-Pour insérer une offre à l’aide de l’éditeur d’expression, procédez comme suit.
+Pour insérer une offre à l&#39;aide de l&#39;éditeur d&#39;expression, procédez comme suit.
 
 1. Accédez à l’objet ou au contenu d’une diffusion.
 
-1. Placez le curseur de la souris à l’endroit où vous souhaitez insérer l’offre, puis ouvrez l’éditeur d’expression à l’aide de l’icône de personnalisation.
+1. Placez le curseur de la souris à l&#39;endroit où vous souhaitez insérer l&#39;offre et ouvrez l&#39;éditeur d&#39;expression à l&#39;aide de l&#39;icône de personnalisation.
+
+   ![](assets/offer-insert-perso-icon.png)
 
 1. Sélectionnez le menu **[!UICONTROL Propositions]**. Les propositions disponibles s’affichent dans la liste.
 
@@ -95,9 +97,7 @@ Pour insérer une offre à l’aide de l’éditeur d’expression, procédez co
    >
    >Le nombre de propositions est défini lors de la [configuration des offres](#configure) de la diffusion en cours.
 
-   ![](assets/offer-insertion.png)
-
-1. Ajoutez les propositions dans l’objet ou le corps de la diffusion à l’aide des champs de personnalisation, des fonctions de rendu ou des attributs d’offre disponibles pour chaque proposition.
+1. Définissez chaque proposition à partir des champs de personnalisation, des fonctions de rendu ou des attributs d&#39;offre disponibles.
 
    ![](assets/offer-inserted.png)
 
@@ -107,6 +107,6 @@ Pour insérer une offre à l’aide de l’éditeur d’expression, procédez co
 
 1. Enregistrez vos modifications.
 
-1. Finalisez le contenu, puis testez et envoyez votre diffusion.
+1. Finalisez le contenu, testez et envoyez votre diffusion. [En savoir plus](gs-messages.md)
 
 Désormais, lorsqu’un destinataire reçoit la diffusion, l’offre pertinente s’affiche pour ce profil spécifique.
