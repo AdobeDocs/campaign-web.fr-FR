@@ -5,7 +5,7 @@ description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe�
 badge: label="Disponibilité limitée"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
 

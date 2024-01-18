@@ -6,8 +6,8 @@ badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Pour créer une campagne procédez comme suit :
 1. Cliquez sur **Créer**.
 1. Ajoutez des workflows et des diffusions à votre campagne :
 
-   * Dans l’onglet **Workflows**, cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. En savoir plus sur la façon de [créer un workflow](../workflows/create-workflow.md).
+   * Dans l’onglet **Workflows**, cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. En savoir plus sur la façon de procéder [créer un workflow ;](../workflows/create-workflow.md).
    * Dans l’onglet **Diffusions**, cliquez sur **Créer une diffusion**. [En savoir plus](../msg/gs-messages.md)
 
 1. Utilisez les boutons **Journaux** et **Reporting** pour analyser les performances de votre campagne.

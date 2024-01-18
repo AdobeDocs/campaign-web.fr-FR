@@ -8,9 +8,9 @@ level: Beginner
 badge: label="Disponibilité limitée"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Pour créer une diffusion autonome, procédez comme suit :
 
    ![](assets/create-a-delivery.png)
 
-1. Sélectionnez un canal de diffusion.
+1. Sélectionnez un canal pour la diffusion.
 1. Définissez l’audience de la diffusion, pour la cible principale et la population témoin. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-recipients.md).
 
    ![](assets/select-audience.png){width="70%" align="left"}
@@ -60,8 +60,8 @@ Pour créer une diffusion autonome, procédez comme suit :
 Pour créer une diffusion dans un workflow, procédez comme suit :
 
 1. Créez un workflow ou ouvrez un workflow existant. Vous trouverez plus d’informations sur les workflows sur [cette page](../workflows/gs-workflow-creation.md#gs-workflow-steps).
-1. Ajoutez et configurez une activité **[!UICONTROL Créer une audience]**. En savoir plus sur l’activité **[!UICONTROL Créer une audience]** dans [cette section](../workflows/activities/build-audience.md).
-1. Cliquez sur l’icône `+` et sélectionnez une activité de diffusion : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]** ou **[!UICONTROL Notification push (iOS)]**. Découvrez les activités de canal de diffusion dans un workflow et comment définir un contenu de diffusion dans cette [section](../workflows/activities/channels.md).
+1. Ajout et configuration d’une **[!UICONTROL Créer une audience]** activité. En savoir plus sur les **[!UICONTROL Créer une audience]** activité dans [cette section](../workflows/activities/build-audience.md).
+1. Cliquez sur le bouton `+` et sélectionnez une activité de diffusion : **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]** ou **[!UICONTROL Notification push (iOS)]**. Découvrez les activités de canal de diffusion dans un workflow et comment définir un contenu de diffusion dans cette [section](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png)
 

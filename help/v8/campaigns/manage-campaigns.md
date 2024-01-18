@@ -53,7 +53,7 @@ Le statut et le planning de la campagne sont affichés en haut de l’écran. L�
 
 Deux onglets sont disponibles :
 
-* L’onglet **Workflows** dresse la liste des workflows liés à la campagne. Cet onglet permet également de créer un workflow au sein de la campagne. Consultez cette [section](create-campaigns.md#create-campaigns)..
+* L’onglet **Workflows** dresse la liste des workflows liés à la campagne. Cet onglet permet également de créer un workflow au sein de la campagne. Consultez cette [section](create-campaigns.md#create-campaigns).
 
 * L’onglet **Diffusions** répertorie toutes les diffusions liées à la campagne en cours. Vous pouvez également créer une diffusion au sein de la campagne. Consultez cette [section](create-campaigns.md#create-campaigns).
 
