@@ -4,10 +4,10 @@ description: Centre d’aide de Campaign Web v8
 title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilité limitée"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 96%
+source-wordcount: '669'
+ht-degree: 93%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Elément 3"
->abstract="Expérience utilisateur repensée pour les audiences, les abonnements et les services, AEM Assets"
+>abstract="UX repensé pour les audiences, les abonnements, AEM Assets, les landing pages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Élément 4"
->abstract="E-mails générés par l’IA : génération d’e-mails à l’aide de prompts"
+>abstract="Modéliseur de requêtes de génération suivante et Concepteur d’email"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -50,7 +50,7 @@ ht-degree: 96%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-
+l
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Aide et documentation"
