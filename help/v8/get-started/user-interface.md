@@ -3,11 +3,11 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Beta"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+badge: label="Disponibilité limitée"
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 81%
 
 ---
 
@@ -15,33 +15,36 @@ ht-degree: 100%
 
 La nouvelle interface web de Campaign v8 offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée aux applications et solutions Adobe Experience Cloud.
 
+Découvrez comment vous connecter à Adobe Campaign et découvrir les principes de navigation des Experience Cloud [dans cet article](connect-to-campaign.md).
+
 
 >[!NOTE]
 >
 >Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications apportées à l’interface utilisateur du produit. Cependant, certaines captures d’écran peuvent légèrement différer de votre interface utilisateur.
 
-
-## Menu de navigation gauche {#user-interface-left-nav}
-
-Parcourez les liens situés à gauche pour accéder aux fonctionnalités de Campaign v8 Web. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Certains écrans de liste sont en lecture seule. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
-
-![](assets/home.png)
-
-### Accueil {#user-interface-home}
-
-Les liens et les ressources clés de cet écran offrent un accès rapide aux principales fonctionnalités de Campaign v8 Web.
+## Page d&#39;accueil de Campaign {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Récents"
 >abstract="La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, la personne propriétaire, les dates de création et de modification."
 
-La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, la personne propriétaire, les dates de création et de modification. Cliquez sur le bouton **Afficher plus** pour charger d’autres diffusions.
+La page d’accueil de Campaign vous permet de parcourir rapidement et facilement les ressources clés, les indicateurs et les composants.
+
+La section supérieure de la page d’accueil fournit des détails sur les dernières mises à jour et les nouvelles fonctionnalités disponibles dans le produit, avec un lien vers les notes de mise à jour et la documentation connexe.
+
+![](assets/home.png)
 
 Les **indicateurs clés de performance** vous permettent de vérifier l’efficacité de votre plateforme grâce aux KPI courants. Pour en savoir plus sur les KPI, consultez [cette page](../reporting/kpis.md).
 
+La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, la personne propriétaire, les dates de création et de modification. Cliquez sur le bouton **Afficher plus** pour charger d’autres diffusions.
 
-Accédez aux pages principales d’aide de Campaign v8 Web depuis la section **Formation** de la page d’accueil.
+De plus, vous pouvez accéder aux pages d&#39;aide de la clé Web de Campaign v8 à partir de la page **Formation** de la page.
+
+## Menu de navigation gauche {#user-interface-left-nav}
+
+Parcourez les liens situés à gauche pour accéder aux fonctionnalités de Campaign v8 Web. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Certains écrans de liste sont en lecture seule. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
+
 
 ### Explorateur {#user-interface-explorer}
 
@@ -73,13 +76,25 @@ Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketi
 * **Workflows** : dans cet écran, vous pouvez accéder à la liste complète des workflows et des modèles de workflows. Vous pouvez vérifier leur statut, les dates de dernière exécution ou de prochaine exécution, et créer un nouveau workflow ou un nouveau modèle de workflow. Vous pouvez filtrer la liste selon les mêmes critères que pour les autres objets. En outre, vous pouvez filtrer les workflows appartenant ou non à une campagne. Pour en savoir plus sur les workflows, consultez [cette section](../workflows/gs-workflows.md).
 
 
+### Gestion de contenu {#user-interface-content-management}
+
+Dans la section GESTION DU CONTENU , vous pouvez afficher vos modèles de contenu et vos fragments.
+
+* **Modèles de contenu** - Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles autonomes pour réutiliser facilement du contenu personnalisé dans tous les [!DNL Adobe Campaign]. Cette fonctionnalité, disponible uniquement pour les emails, permet aux utilisateurs orientés contenu de travailler sur des modèles autonomes afin que les utilisateurs marketing puissent les réutiliser et les adapter dans leurs propres campagnes email. En savoir plus dans [cette section](../email/create-email-templates.md).
+
+<!--
+* **Fragments** -
+-->
+
 ### Gestion des clients {#user-interface-customer-management}
 
-Dans la section GESTION DES CLIENTS, vous pouvez afficher vos destinataires, vos audiences et vos abonnements. Ces listes sont en lecture seule.
+Dans la section GESTION DES CLIENTS , vous pouvez afficher vos profils, audiences et abonnements. Ces listes sont en lecture seule.
 
-* **Destinataires** - Accédez à la base de données des destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. Pour en savoir plus sur les destinataires, consultez [cette section](../audience/about-recipients.md).
+* **Profils** - Créez et gérez des profils, et accédez à votre base de données de destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. En savoir plus sur les profils dans [cette section](../audience/about-recipients.md).
 * **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-recipients.md).
-* **Listes d’abonnements** : parcourez vos listes d’abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Découvrez comment gérer les abonnements et les désabonnements dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=fr){target="_blank"}.
+* **Services d’inscriptions** - Parcourez vos listes d&#39;abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Découvrez comment gérer les abonnements et les désabonnements dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=fr){target="_blank"}.
+* **Filtres prédéfinis** - Les filtres prédéfinis sont des filtres personnalisés qui sont créés et enregistrés pour être disponibles pour une utilisation ultérieure. Ils peuvent être utilisés comme raccourcis lors de toute opération de filtrage avec le modeleur de requête, par exemple lors du filtrage d&#39;une liste de données ou de la création de l&#39;audience d&#39;une diffusion. En savoir plus dans [cette section](predefined-filters.md).
+
 
 ### Gestion des décisions {#decision-management}
 
@@ -95,15 +110,18 @@ Dans la section GESTION DES DÉCISIONS, vous pouvez visualiser les offres et les
 
 Découvrez comment créer et envoyer des offres dans des e-mails et des SMS dans [cette section](../msg/offers.md).
 
+### Rapports {#left-nav-reporting}
+
+* **Rapports** - La variable **Rapport** entry offre un résumé global consolidé des mesures de trafic et d’engagement pour chaque canal de votre environnement Campaign. Ces rapports se composent de différents widgets, chacun offrant une perspective différente des performances de vos campagnes ou diffusions. En savoir plus dans [cette section](../reporting/global-reports.md).
 
 
 ## Aide contextuelle {#user-interface-help}
 
 Une aide contextuelle est disponible dans l’interface. Si elle est présente, cliquez sur l’icône `?` pour afficher des informations d’aide et des liens vers la documentation connexe.
 
-![](assets/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-Avec la nouvelle version Beta, l’**assistant de connaissances optimisé par l’IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation grâce à l’identification instantanée des informations précises dont vous avez besoin.
+Disponible actuellement en tant que version bêta dans la nouvelle interface utilisateur web de Campaign, le **Assistant de connaissances optimisé par l&#39;IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
 
 Grâce aux fonctionnalités de l’IA générative de Campaign, cet assistant transforme votre expérience, en facilitant la récupération d’informations et la résolution de problèmes. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous parcouriez des documents volumineux, notre assistant de connaissances optimisé par l’IA devient votre meilleur compagnon, en vous offrant une efficacité et une précision inégalées à chaque interaction.
 
