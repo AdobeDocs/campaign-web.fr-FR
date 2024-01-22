@@ -4,10 +4,10 @@ description: Centre d’aide de Campaign Web v8
 title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilité limitée"
-source-git-commit: 2e0386cbab15d076400fc86490f68f5229b1b779
+source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 93%
+source-wordcount: '692'
+ht-degree: 44%
 
 ---
 
@@ -83,109 +83,100 @@ ht-degree: 93%
 
 <!--TO REMOVE ABOVE-->
 
-
-La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform. [En savoir plus](get-started/get-started.md)
+Nous avons le plaisir de présenter la nouvelle version de l’interface utilisateur web d’Adobe Campaign. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> Campaign v8 Web est actuellement en version Disponibilité limitée. Cela signifie que l’accès est limité à un petit groupe de clientes et clients. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis. [En savoir plus](rn/whats-new.md)
+> Campaign v8 Web est actuellement en version Disponibilité limitée. Cela signifie que l’accès est limité à un petit groupe de clientes et clients. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
-## Nouvelles fonctionnalités de Campaign Web
+## Nouveautés
 
-**Découvrez la nouvelle interface utilisateur de Campaign v8 Web**.
+Découvrez les dernières améliorations apportées au produit Web et à la documentation d’Adobe Campaign v8 ! Pour obtenir une liste complète des fonctionnalités clés et des mises à jour de version, consultez [cette page](rn/whats-new.md).
 
-La nouvelle interface web de Campaign v8 offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée à Adobe Experience Platform.
+>[!BEGINTABS]
 
-**Interface de zone de travail du workflow repensée**
+>[!TAB Workflows cross-canal]
 
-Notre environnement graphique complet vous permet de concevoir des processus complexes et de gérer vos campagnes marketing en toute facilité. Grâce aux workflows, passez à la vitesse supérieure : orchestrez l’ensemble des processus et tâches, améliorez la vitesse et l’échelle de chaque composante de vos campagnes marketing, de la création de segments jusqu’à la préparation des messages et leur diffusion. Dans une interface unique et conviviale, vous pouvez coordonner vos canaux et orchestrer vos campagnes.
+Bénéficiez de nouvelles possibilités d’automatisation et d’optimisation, ce qui vous permet de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
 
-**Présentation du concepteur d’e-mail**
+[![image](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
-Commencez à partir d’un modèle ou utilisez le nouveau concepteur d’e-mail d’Adobe Campaign afin de créer des e-mails sans avoir à écrire une seule ligne de code. Découvrez comment utiliser le concepteur d’e-mail pour créer votre contenu, le prévisualiser et le tester, puis envoyer un e-mail à une audience existante dans un cas d’utilisation complet.
+>[!TAB Composition de l’audience]
 
-**Rendre votre contenu dynamique**
+Créez de nouvelles audiences dans un canevas de workflow visuel. En plus de commencer de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Combinez plusieurs audiences en une seule, enrichissez votre audience avec des attributs externes ou divisez-la en plusieurs audiences en fonction des règles de votre choix.
 
-Personnalisez votre contenu en fonction des informations que vous avez collectées sur vos destinataires. L’utilisation de contenu dynamique rend votre contenu plus attrayant et augmente la probabilité qu’il soit lu. Personnalisez vos messages pour chaque destinataire spécifique en utilisant les données de profil telles que son prénom, ses centres d’intérêt, son lieu de vie, ses achats, etc. Créez un contenu conditionnel afin d’adapter vos diffusions à chaque destinataire et n’afficher que le contenu correspondant à une personne donnée en fonction des informations dont vous disposez à son sujet.
+[![image](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
-**Créer des campagnes cross-canal**
+>[!TAB Concepteur d’e-mail]
 
-Utilisez Adobe Campaign pour créer des campagnes cross-canal. Grâce à ses fonctionnalités d’orchestration des campagnes marketing, vous pouvez gérer et centraliser les données des clientes et clients, concevoir des communications et des campagnes pour les clientes et clients, et créer des expériences personnalisées sur différents canaux. Dans cette version, les canaux e-mail, notification push et SMS sont disponibles. Mesurez l’efficacité de vos diffusions à l’aide de rapports détaillés comprenant le nombre d’ouvertures, de clics, de transferts, etc.
+Le Concepteur d’email de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque email !
 
-## Explorons plus en détail
+[![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
-Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adobe Campaign Web, il est temps d’explorer plus en détails les sections de cette documentation pour commencer à travailler.
+>[!TAB Profil 360]
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="get-started/user-interface.md">
-<img alt="Nouvelle interface utilisateur" src="assets/do-not-localize/menu-ui.jpeg">
-</a>
-<div><a href="get-started/user-interface.md"><strong>Découvrez la nouvelle interface utilisateur</strong>.
-</div>
-<p>
-</td>
-<td>
-<a href="workflows/gs-workflows.md">
-<img alt="Validation" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="workflows/gs-workflows.md"><strong>Interface de zone de travail du workflow repensée</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="email/get-started-email-designer.md">
-<img alt="Peu fréquent" src="assets/do-not-localize/menu-design.jpg">
-</a>
-<div>
-<a href="email/get-started-email-designer.md"><strong>Présentation du concepteur d’e-mail</strong></a>
-</div>
-<p></td>
-<td>
-<a href="personalization/gs-personalization.md">
-<img alt="Audiences" src="assets/do-not-localize/menu-dynamic.jpg">
-</a>
-<div>
-<a href="personalization/gs-personalization.md"><strong>Rendre votre contenu dynamique</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="campaigns/gs-campaigns.md">
-<img alt="Validation" src="assets/do-not-localize/menu-campaign.jpeg">
-</a>
-<div>
-<a href="campaigns/gs-campaigns.md"><strong>Créer des campagnes cross-canal</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, éditer et mettre à jour leur profil.
 
-<!--
+[![image](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
+
+>[!ENDTABS]
+
+## Principes de base
+
 <table style="table-layout:fixed">
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
-</a></td><td>Discover Campaign Web new user interface, latest improvements, key capabilities. Learn how to use them to build cross-channel campaigns for your audiences. With its user-friendly features, Campaign helps you streamline personalized cross-channel campaign creation process, drive results, and gain a competitive edge.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
-</a></td><td>Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-design.jpg" width="150px">
-</a></td><td>Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
-</a></td><td>Create conditional content to define dynamic personalization based on the recipient's profile, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
-</a></td><td>Adobe Campaign capabilities help you manage centralized customer data, design customer communications and campaigns, and create personalized experiences across different channels: Email, Push and SMS.</td></tr>
+  <tr style="border: 0;">
+    <td>
+    <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <div><strong>Découvrez la nouvelle interface utilisateur</strong><br/>Découvrez la nouvelle interface de Campaign v8 Web et l'expérience de navigation intégrée à Adobe Experience Platform.</div>
+    </td>
+    <td>
+    <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
+    <div><strong>Canevas de workflow repensé</strong><br/>Découvrez comment créer des workflows pour orchestrer l’ensemble des processus et tâches et améliorer la vitesse et l’échelle de chaque aspect de vos campagnes marketing.</div><br/>
+    </td>
+    <td>
+    <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
+    <div><strong>Présentation du Concepteur d'email</strong><br/>Découvrez comment commencer à partir d’un modèle ou utilisez le nouveau Concepteur d’email d’Adobe Campaign pour créer des emails sans avoir à écrire une seule ligne de code.
+    </div></td>
+    <td>
+    <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
+    <div><strong>Rendre votre contenu dynamique</strong><br/>Découvrez comment personnaliser votre contenu en fonction des informations que vous avez collectées sur vos destinataires afin de rendre votre contenu plus attrayant et d’augmenter la probabilité qu’il soit lu.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="get-started/user-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
--->
 
+## Accéder à la documentation
 
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-start.svg" width="35px">
+    <br/>
+      <strong>Prise en main</strong><br/><a href="get-started/user-interface.md">Interface utilisateur</a> - <a href="get-started/connect-to-campaign.md">Connexion à Campaign</a> - <a href="get-started/using-ai.md">Aide contextuelle optimisée par l’IA</a> - <a href="get-started/permissions.md">Accès et autorisations</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
+      <strong>Expérience du client</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatiser avec des workflows</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orchestration des campagnes</a> - <a href="personalization/gs-personalization.md">Contenu dynamique</a> - <a href="reporting/gs-reports.md">Rapports et analyses</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-message.svg" width="35px">
+    <br/>
+      <strong>Envoyer les messages</strong><br/><a href="msg/gs-deliveries.md">Créer une diffusion</a> - <a href="email/create-email.md">Email</a> -  <a href="push/gs-push.md">Notifications push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modèles de diffusion</a> - <a href="preview-test/preview-test.md">Aperçu et test</a> 
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon_profile.svg" width="35px">
+    <br/>
+      <strong>Profils &amp; audiences</strong><br/><a href="audience/gs-audiences-recipients.md">Prise en main</a> - <a href="audience/create-audience.md">Création d’audiences</a> - <a href="audience/test-profiles.md">Profils de test</a> - <a href="audience/manage-services.md">Services d’inscriptions</a> - <a href="query/query-modeler-overview.md">Moteur de requête</a>
+    </td>
+  </tr>
+</table>
 
+## Autres ressources
 
-
-
-
-
-
+* [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Documentation d’Adobe Campaign V8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr){target="_blank"}
