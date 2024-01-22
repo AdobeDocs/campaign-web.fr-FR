@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilité limitée"
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1640'
 ht-degree: 81%
 
 ---
@@ -31,7 +31,7 @@ Découvrez comment vous connecter à Adobe Campaign et découvrir les principes 
 
 La page d’accueil de Campaign vous permet de parcourir rapidement et facilement les ressources clés, les indicateurs et les composants.
 
-La section supérieure de la page d’accueil fournit des détails sur les dernières mises à jour et les nouvelles fonctionnalités disponibles dans le produit, avec un lien vers les notes de mise à jour et la documentation connexe.
+La section supérieure de la page d’accueil fournit des détails sur les dernières mises à jour et les nouvelles fonctionnalités disponibles dans le produit, avec un lien vers les notes de mise à jour et la documentation détaillée. Utilisez la flèche gauche pour faire défiler les cartes de fonctionnalités.
 
 ![](assets/home.png)
 

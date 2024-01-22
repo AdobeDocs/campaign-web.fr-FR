@@ -2,12 +2,12 @@
 audience: end-user
 title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 98%
+source-wordcount: '444'
+ht-degree: 92%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 98%
 >title="Propriétés de la campagne"
 >abstract="Dans cet écran, vous pouvez vérifier et mettre à jour les paramètres de votre campagne : son libellé, son nom interne, son dossier et sa description. Vous pouvez également afficher la personne à laquelle elle est affectée."
 
-Pour créer une campagne, vous devez définir ses propriétés, puis planifier et inclure les workflows et les diffusions.
+Pour créer une nouvelle opération, vous devez définir ses paramètres, planifier et inclure les workflows et les diffusions.
 
-## Créer la campagne{#campaign-create}
+## Créer la campagne {#campaign-create}
 
 Pour créer une campagne procédez comme suit :
 
 1. Cliquez sur le menu **[!UICONTROL Campagnes]**, puis sur le bouton **[!UICONTROL Créer une campagne]**.
+
+   ![Créer une campagne](assets/create-campaign-button.png)
+
 1. Sélectionnez le **Modèle** à utiliser, puis fournissez un libellé pour la campagne. [En savoir plus](manage-campaigns.md#manage-campaign-templates).
 1. Si nécessaire, vous pouvez modifier les **options supplémentaires** suivantes : nom interne, dossier, personnes assignées, description et nature.
 1. Définissez le **planning** de votre campagne. Découvrez comment définir le planning de votre campagne dans [cette section](#campaign-schedule).
 1. Cliquez sur **Créer**.
+
+   ![Création de propriétés de campagne](assets/create-a-campaign-properties.png)
+
 1. Ajoutez des workflows et des diffusions à votre campagne :
 
    * Dans l’onglet **Workflows**, cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. En savoir plus sur la façon de procéder [créer un workflow ;](../workflows/create-workflow.md).
-   * Dans l’onglet **Diffusions**, cliquez sur **Créer une diffusion**. [En savoir plus](../msg/gs-messages.md)
 
-1. Utilisez les boutons **Journaux** et **Reporting** pour analyser les performances de votre campagne.
+   * Dans l’onglet **Diffusions**, cliquez sur **Créer une diffusion**. [En savoir plus](../msg/gs-messages.md)
 
 ## Surveiller et suivre la campagne{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ Vous pouvez également afficher les rapports dédiés en cliquant sur le bouton 
 
 ## Définir le planning de la campagne {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Planning de la campagne"
@@ -61,8 +65,6 @@ Vous pouvez également afficher les rapports dédiés en cliquant sur le bouton 
 La campagne démarre à la date de début. Tant que la date de début n’est pas atteinte, la campagne a le statut **[!UICONTROL Version préliminaire]**. Lorsque la date de début est atteinte, le statut devient **[!UICONTROL En cours]**. Une fois la date de fin atteinte, le statut de la campagne est défini sur **[!UICONTROL Terminé]**.
 
 Les dates de début et de fin sont affichées dans la liste des campagnes et peuvent être utilisées comme filtre. Consultez cette [section](manage-campaigns.md#access-campaigns).
-
-![Définir les propriétés de votre campagne](assets/campaign-properties.png)
 
 >[!NOTE]
 >
