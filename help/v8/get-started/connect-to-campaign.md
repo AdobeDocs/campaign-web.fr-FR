@@ -3,10 +3,10 @@ title: Se connecter à l’interface web d’Adobe Campaign
 description: Découvrez comment vous connecter à l’interface utilisateur web d’Adobe Campaign v8.
 badge: label="Disponibilité limitée"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 81%
+source-wordcount: '563'
+ht-degree: 95%
 
 ---
 
@@ -51,15 +51,16 @@ Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à 
 
 ## Navigation de niveau supérieur d’Adobe Experience Cloud {#top-bar}
 
-Accédez à la barre supérieure de l’interface pour :
+La barre supérieure de l’interface vous permet d’effectuer les actions suivantes :
 
+* partager des commentaires sur l’interface utilisateur web de Campaign
 * basculer entre vos organisations ;
 * basculer entre vos solutions et applications Adobe Experience Cloud.
-* rechercher de l’aide sur [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
-* vérifier vos notifications de produit
-* modifiez votre profil Adobe et gérez les paramètres, tels que [mettre à jour votre langue préférée](#language-pref) ou [passer au thème clair/foncé](#dark-theme)
+* rechercher de l’aide sur [Adobe Experience League](https://experienceleague.adobe.com/docs/fr?lang=){target="_blank"} ;
+* vérifier vos notifications de produit ;
+* modifier votre profil Adobe et gérer les paramètres, par exemple [mettre à jour votre langue préférée](#language-pref) ou [passer au thème clair/sombre](#dark-theme).
 
-![](assets/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
 
 ## Navigateurs pris en charge {#browsers}
 
@@ -95,9 +96,9 @@ Pour changer de langue :
 >
 
 
-## Thèmes foncés et clairs {#dark-theme}
+## Thèmes sombre et clair {#dark-theme}
 
-Adobe Campaign est disponible dans des thèmes clairs et sombres. Par défaut, l’interface utilisateur est activée dans le thème léger. Pour passer au thème sombre, cliquez sur l’icône de votre profil, puis utilisez le **Thème sombre** bascule pour l’activer/désactiver.
+Adobe Campaign est disponible dans les thèmes clair et sombre. Par défaut, l’interface utilisateur est activée avec le thème clair. Pour passer au thème sombre, cliquez sur l’icône de votre profil, puis utilisez la bascule **Thème sombre** pour l’activer/le désactiver.
 
 Les paramètres de profil utilisateur et les préférences de compte sont détaillés dans [cette section](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=fr#preferences){target="_blank"}.
 

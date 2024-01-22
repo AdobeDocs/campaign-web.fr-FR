@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '348'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,6 @@ Les fonctionnalités suivantes sont accessibles dans la console cliente Campaign
 * Création de blocs de contenu
 * Contenu des formulaires personnalisés
 * Contenu venant d’une URL`*`
-* Fragments d’e-mail
 * AMP pour les e-mails
 * Fragments d’e-mail`*`
 * Cas d’utilisation multivarié/multilingue`*`
