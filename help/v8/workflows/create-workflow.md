@@ -5,9 +5,9 @@ description: Découvrez comment créer un workflow avec Adobe Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: 24521be2c796b5714712849355c3d033537847bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez créer des workflows autonomes ou des workflows au sein d’une camp
 
 Pour ce faire, procédez comme suit :
 
-1. Pour créer une **Processus autonome**, accédez à la **Workflows** . Pour créer un **Workflow de campagne**, accédez au menu **Campagnes**, puis ouvrez la campagne pour laquelle créer un nouveau workflow.
+1. Pour créer un **workflow autonome**, accédez au menu **Workflows**. Pour créer un **Workflow de campagne**, accédez au menu **Campagnes**, puis ouvrez la campagne pour laquelle créer un nouveau workflow.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un workflow]** dans le coin supérieur droit de l’écran.
 

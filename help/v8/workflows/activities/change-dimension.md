@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité de workflow Changement de
 badge: label="Disponibilité limitée"
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
 ht-degree: 100%
 

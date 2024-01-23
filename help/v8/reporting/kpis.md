@@ -4,7 +4,7 @@ description: Découvrez comment comprendre les indicateurs clés de performance
 badge: label="Disponibilité limitée"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
 ht-degree: 100%
 

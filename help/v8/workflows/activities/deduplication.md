@@ -5,9 +5,9 @@ description: Découvrez comment utiliser l’activité de workflow Déduplicatio
 badge: label="Disponibilité limitée"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '597'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Dans la section **Champs pour identifier les doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
 
-1. Dans le **Paramètres de déduplication** , sélectionnez le nombre d’éléments uniques **Doublons à conserver**. La valeur par défaut de ce champs est 1. La valeur 0 permet de conserver tous les doublons.
+1. Dans la section **Paramètres de déduplication**, sélectionnez le nombre de **Doublons à conserver** uniques. La valeur par défaut de ce champs est 1. La valeur 0 permet de conserver tous les doublons.
 
    Par exemple, si des enregistrements A et B sont considérés comme des doublons d&#39;un enregistrement Y, et un enregistrement C est considéré comme un doublon d&#39;un enregistrement Z :
 

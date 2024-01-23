@@ -5,7 +5,7 @@ description: Découvrez comment concevoir le contenu des e-mails en partant de z
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Disponibilité limitée"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
 ht-degree: 100%
 

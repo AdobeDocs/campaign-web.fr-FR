@@ -5,7 +5,7 @@ description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign�
 badge: label="Disponibilité limitée"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
 ht-degree: 100%
 

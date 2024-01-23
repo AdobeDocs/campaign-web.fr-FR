@@ -5,9 +5,9 @@ description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Disponibilité limitée"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent
 
 * **[!UICONTROL Total des ouvertures]** : nombre total de personnes destinataires ciblées ayant ouvert un message au moins une fois.
 
-* **[!UICONTROL Nombre total de clics]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
+* **[!UICONTROL Nombre total de clics]** : nombre total de destinataires distincts ayant cliqué dans une diffusion au moins une fois.
 
 +++
 
@@ -47,7 +47,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiques initiales sur l’audience cible"
->abstract="Le tableau Statistiques d’audience cible initiales affiche les données relatives à vos destinataires."
+>abstract="Le tableau Statistiques initiales sur l’audience cible affiche des données relatives à vos destinataires."
 
 Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
@@ -232,7 +232,7 @@ Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche d
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
->title="URL et flux de clics (URLs and click streams)"
+>title="URL et flux de clics"
 >abstract="Le rapport **URL et flux de clics** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion."
 
 Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion. Les mesures sont détaillées ci-dessous.

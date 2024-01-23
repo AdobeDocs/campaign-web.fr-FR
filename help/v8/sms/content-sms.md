@@ -5,9 +5,9 @@ description: Découvrez comment concevoir votre diffusion SMS.
 badge: label="Disponibilité limitée"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

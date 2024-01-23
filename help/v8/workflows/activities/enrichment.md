@@ -5,9 +5,9 @@ description: Découvrez comment utiliser l’activité de workflow Enrichissemen
 badge: label="Disponibilité limitée"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -34,15 +34,15 @@ Les données d’enrichissement tirent leur origine des sources suivantes :
 
 * **La même table de travail** que celle ciblée dans votre workflow :
 
-  *Ciblez un groupe de clients et ajoutez le champ &quot;Date de naissance&quot; à la table de travail actuelle.*.
+  *Ciblez un groupe de clientes et de clients et ajoutez le champ « Date de naissance » au tableau de travail actuel.*
 
 * **Une autre table de travail** :
 
   *Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat »*.
 
-Une fois les données d&#39;enrichissement ajoutées au workflow, elles peuvent être utilisées dans les activités ajoutées après la **Enrichissement** pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins, ou pour créer des messages marketing personnalisés et des campagnes qui ont plus de chances de répondre à votre audience cible.
+Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité d’**enrichissement** pour segmenter les clientes et les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible.
 
-Par exemple, vous pouvez ajouter à la table de travail du workflow des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
+Par exemple, vous pouvez ajouter à la table de travail du workflow des informations relatives aux achats des clientes et clients et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
 
 ## Configurer l’activité Enrichissement {#enrichment-configuration}
 
@@ -50,13 +50,13 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
 1. Ajoutez des activités telles que **Créer une audience** et **Combiner**.
 1. Ajoutez une activité **Enrichissement**.
-1. Cliquez sur **Ajouter des données d&#39;enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données.
+1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données.
 
-   Vous pouvez sélectionner deux types de données d’enrichissement : un [attribut d’enrichissement unique](#single-attribute) de la dimension cible, ou un [lien de collecte](#collection-link).
+   Vous pouvez sélectionner deux types de données d’enrichissement : un [attribut d’enrichissement unique](#single-attribute) de la dimension cible, ou un [lien de collection](#collection-link).
 
    >[!NOTE]
    >
-   >La variable **Bouton Modifier l’expression** dans l’écran de sélection d’attributs, vous pouvez créer des expressions avancées pour sélectionner l’attribut. [Découvrez comment utiliser l’éditeur d’expression](../../query/expression-editor.md)
+   >Le **bouton Modifier l’expression** dans l’écran de sélection d’attributs vous permet de créer des expressions avancées pour sélectionner l’attribut. [Découvrez comment travailler avec l’éditeur d’expression](../../query/expression-editor.md).
 
    ![](../assets/workflow-enrichment1.png)
 
@@ -104,7 +104,7 @@ Si vous souhaitez, par exemple, obtenir le montant moyen des achats d’un clien
 
 ### Définir des filtres{#collection-filters}
 
-Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. Nous filtrons les éléments qui sont supérieurs à 100$. [Découvrez comment utiliser le créateur de modèles de requête](../../query/query-modeler-overview.md)
+Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. Nous filtrons les éléments supérieurs à 100 $. [Découvrez comment utiliser le concepteur de requête](../../query/query-modeler-overview.md)
 
 1. Cliquez sur **Modifier les filtres**.
 1. Ajoutez les deux filtres suivants : **Montant total** existe ET **Montant total** est inférieur à 100. Le premier filtre les valeurs NULL, car elles apparaissent comme la valeur la plus élevée.

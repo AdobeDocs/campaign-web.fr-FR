@@ -5,9 +5,9 @@ description: Découvrez comment accéder aux rapports de diffusion et les utilis
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Disponibilité limitée"
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 66%
 >title="Reporting agrégé pour les diffusions"
 >abstract="Sélectionnez au moins deux diffusions pour afficher un rapport de données agrégées."
 
-La variable **Rapports de diffusion** fournir des informations détaillées et des données exclusivement axées sur vos **diffusions** sur chaque canal. Ils fournissent des informations détaillées sur les performances, l’efficacité et les résultats de vos diffusions individuelles, ce qui vous permet d’obtenir une vue d’ensemble complète.
+Les **rapports de diffusion** fournissent des informations détaillées et des données exclusivement axées sur vos **diffusions** sur chaque canal. Ils fournissent des informations détaillées sur les performances, l’efficacité et les résultats de vos diffusions individuelles, ce qui vous permet d’obtenir une vue d’ensemble complète.
 
 La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
 
@@ -26,11 +26,11 @@ La liste complète des rapports et mesures associées pour chaque canal est disp
 * [Rapports de diffusion SMS](sms-report.md)
 * [Rapports de diffusion Notifications push](push-report.md)
 
-## Gérer le tableau de bord des rapports {#manage-reports}
+## Gérer votre tableau de bord des rapports {#manage-reports}
 
 Adobe Campaign propose plusieurs types de rapports, accessibles pour chaque diffusion. Ces rapports vous permettent de mesurer et de visualiser l’impact et les performances de vos messages dans un tableau de bord intégré.
 
-Pour afficher et gérer des rapports, procédez comme suit :
+Pour afficher et gérer les rapports, procédez comme suit :
 
 1. Pour générer un rapport concernant une diffusion spécifique, accédez au menu **[!UICONTROL Diffusions]** et sélectionnez la diffusion pour laquelle vous souhaitez créer un rapport.
 
@@ -38,7 +38,7 @@ Pour afficher et gérer des rapports, procédez comme suit :
 
    ![](assets/manage_delivery_report_1.png)
 
-   Vous pouvez également utiliser les trois points. **Autres actions** en regard du nom de la diffusion dans la liste des diffusions et sélectionnez **[!UICONTROL Afficher le rapport]**.
+   Vous pouvez également utiliser les trois points **Plus d’actions** en regard du nom de la diffusion dans la liste des diffusions et sélectionner **[!UICONTROL Afficher le rapport]**.
 
    ![](assets/manage_delivery_report_2.png)
 
@@ -52,8 +52,8 @@ Pour afficher et gérer des rapports, procédez comme suit :
 
    ![](assets/delivery-recurring.png)
 
-1. Dans la **[!UICONTROL URL et flux de clics]**, vous pouvez également choisir la variable **[!UICONTROL Liens les plus visités]** ou le **[!UICONTROL Période]**.
+1. Dans **[!UICONTROL URL et flux de clics]**, vous pouvez également choisir **[!UICONTROL Liens les plus visités]** ou **[!UICONTROL Période]**.
 
-   La variable **[!UICONTROL Afficher par]** Les options vous permettent de filtrer selon les URL, les libellés ou les catégories.
+   Les options **[!UICONTROL Afficher par]** vous permettent de filtrer sur des URL, des libellés ou des catégories.
 
    ![](assets/manage_delivery_report_5.png)

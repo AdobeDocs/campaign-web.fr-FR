@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux rapports de diffusion par e-mail et
 badge: label="Disponibilité limitée"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2245'
 ht-degree: 100%
 
@@ -101,11 +101,11 @@ Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répa
 
 +++
 
-## Débit des diffusions (Delivery throughput) {#delivery-throughtput}
+## Débit de diffusion {#delivery-throughtput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Débit des diffusions (Delivery throughput) "
+>title="Débit de diffusion"
 >abstract="Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné."
 
 Ce rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
@@ -260,7 +260,7 @@ Le tableau **[!UICONTROL Taux d’ouvertures et de clics]** affiche des données
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="URL et flux de clics (URLs and click streams)"
+>title="URL et flux de clics"
 >abstract="Le rapport **URL et flux de clics** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion."
 
 

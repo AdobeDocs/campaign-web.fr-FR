@@ -4,47 +4,47 @@ title: Créer votre première requête à l’aide du créateur de modèles de r
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 badge: label="Disponibilité limitée"
 source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2008'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Éditer les expressions {#expression}
 
-L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d&#39;utiliser des fonctions avancées qui permettent de manipuler les valeurs utilisées pour effectuer des requêtes spécifiques telles que manipuler les dates, les chaînes, les champs numériques, le tri, etc.
+L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
 >[!IMPORTANT]
 >
 >La section ci-dessous fournit des informations sur l’utilisation de l’éditeur d’expression pour créer des règles. Gardez à l’esprit que la syntaxe utilisée pour créer des règles diffère de celle utilisée pour ajouter de la personnalisation.
 
-## Utilisation de l’éditeur d’expression {#edit}
+## Utiliser l’éditeur d’expression {#edit}
 
-L’éditeur d’expression est disponible à partir du créateur de modèles de requête. **[!UICONTROL Expression d’édition]** , disponible pour le **[!UICONTROL Attribut]** et **[!UICONTROL Valeur]** lors de la configuration d’une condition personnalisée.
+L’éditeur d’expression est disponible à partir du bouton **[!UICONTROL Modifier une expression]** du concepteur de requête, disponible pour les champs **[!UICONTROL Attribut]** et **[!UICONTROL Valeur]** lors de la configuration d’une condition personnalisée.
 
-| Accès depuis le **Attribut** field | Accès depuis le **Valeur** field |
+| Accéder depuis le champ **Attribut** | Accéder depuis le champ **Valeur** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 L’éditeur d’expression fournit :
 
-* Un **Champ de saisie (1)** dans laquelle l’expression est définie.
-* La liste des **fields (2)** qui peut être utilisé dans l’expression et correspondant à la dimension de ciblage de la requête.
-* **Fonctions d’assistance (3)**, triés par catégorie.
+* un **champ de saisie (1)**, dans lequel l’expression est définie ;
+* la liste des **champs (2)** disponibles, utilisables dans l’expression et correspondant à la dimension de ciblage de la requête ;
+* des **fonctions d’assistance (3)**, triées par catégorie.
 
-Editez l&#39;expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton + .
+Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton +.
 
 ![](assets/expression-editor.png)
 
-Lorsque votre expression est prête, cliquez sur l’icône **[!UICONTROL Confirmer]** bouton . L’expression s’affiche dans le champ sélectionné. Pour le modifier, ouvrez l’éditeur d’expression et apportez les modifications souhaitées.
+Lorsque votre expression est prête, cliquez sur le bouton **[!UICONTROL Confirmer]**. L’expression s’affiche dans le champ sélectionné. Pour la modifier, ouvrez l’éditeur d’expression et apportez les modifications souhaitées.
 
-L’exemple ci-dessous illustre une expression configurée pour la fonction **[!UICONTROL Valeur]** champ . Pour le modifier, vous devez ouvrir l’éditeur d’expression à l’aide de la fonction **[!UICONTROL Expression d’édition]** bouton .
+L’exemple ci-dessous présente une expression configurée pour le champ **[!UICONTROL Valeur]**. Pour la modifier, vous devez ouvrir l’éditeur d’expression à l’aide du bouton **[!UICONTROL Modifier une expression]**.
 
 ![](assets/edit-expression-value.png)
 
 ## Fonctions d’assistance
 
-L&#39;outil d&#39;édition de requêtes permet d&#39;utiliser des fonctions avancées pour réaliser un filtrage complexe en fonction des résultats souhaités et des types de données manipulées. Les fonctions suivantes sont disponibles :
+L’outil d’édition de requêtes permet d’utiliser des fonctions avancées pour réaliser un filtrage complexe en fonction des résultats souhaités et des types de données manipulées. Les fonctions suivantes sont disponibles :
 
 ### Agrégat
 
@@ -328,7 +328,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
   </tr>
   <tr> 
    <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> Renvoie le nombre d'années entre une date donnée et la date courante<br /> </td> 
+   <td> Renvoie le nombre d’années entre une date donnée et la date actuelle <br /> </td> 
    <td> YearsAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -593,8 +593,8 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> Renvoie la taille en octets de la chaîne<br /> </td> 
-   <td> dataLength(&lt;chaîne&gt;)<br /></td> 
+   <td> Renvoie la taille de la chaîne en octets <br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -619,7 +619,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Concatène les chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
-   <td> JuxtWords3(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -644,7 +644,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Renvoie la chaîne complétée à gauche<br /> </td> 
-   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
+   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -663,8 +663,8 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   </tr> 
   <tr> 
    <td> <strong>NodeValue</strong><br /> </td> 
-   <td> Extrait la valeur d'un champ XML de son XPath et des données de champ<br /> </td> 
-   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> Extrait la valeur d’un champ XML de son XPath et des données de champ<br /> </td> 
+   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -684,12 +684,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Représentation hexadécimale de la clé SHA256 d’une chaîne.<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Représentation hexadécimale de la clé SHA512 d’une chaîne.<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -735,8 +735,8 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   </tr> 
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
-   <td> Exécutez l’appel de fonction SQL saisi en tant que premier paramètre, sur Partition ou Order By les champs saisis en tant que deuxième paramètre.<br /> </td> 
-   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Exécutez l’appel de fonction SQL saisi en tant que 1er paramètre, sur Partition ou Trier selon les champs saisis en tant que 2e paramètre.<br /> </td> 
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

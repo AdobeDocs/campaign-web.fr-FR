@@ -5,9 +5,9 @@ description: Découvrez comment accéder aux rapports de diffusion SMS et les ut
 badge: label="Disponibilité limitée"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -95,12 +95,12 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les raisons qui on
 
 ![](assets/reporting_sms_6.png)
 
-## Débit des diffusions {#delivery-throughput}
+## Débit de diffusion {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="Débit des diffusions par SMS"
->abstract="La variable **Débit de diffusion** le rapport présente des informations détaillées sur le débit de diffusion au cours d’une période spécifiée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure."
+>abstract="Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion dans un délai donné. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure."
 
 Ce rapport présente des informations détaillées sur le débit des diffusions au cours d’une période spécifiée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
 

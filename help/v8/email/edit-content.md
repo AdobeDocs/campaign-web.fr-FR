@@ -5,7 +5,7 @@ description: Découvrez comment modifier le contenu de l’e-mail dans l’inter
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Disponibilité limitée"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
 ht-degree: 100%
 

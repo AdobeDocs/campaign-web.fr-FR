@@ -5,9 +5,9 @@ description: Découvrez comment utiliser l’activité de workflow Rendez-vous.
 badge: label="Disponibilité limitée"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -5,7 +5,7 @@ description: Présentation des rapports de campagne du canal SMS
 badge: label="Disponibilité limitée"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
