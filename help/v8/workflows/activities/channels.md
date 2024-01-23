@@ -4,9 +4,9 @@ title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Disponibilité limitée"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 70%
 
 ---
@@ -28,15 +28,18 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 
 ## Créer votre workflow {#build-your-workflow}
 
-Commencez à construire votre workflow avec les activités pertinentes avant d&#39;insérer l&#39;activité Canal :
+Commencez à créer votre workflow avec les activités adéquates :
 
-* Avant d&#39;insérer une activité de diffusion, vous devez définir l&#39;audience. L&#39;audience est la cible principale de votre diffusion : les profils qui reçoivent les messages. Lors de l&#39;envoi de messages dans le cadre d&#39;un workflow de campagne, l&#39;audience du message n&#39;est pas définie dans l&#39;activité Canal, mais dans une activité dédiée, telle que :
+* Avant d&#39;insérer une activité de canal, vous devez définir l&#39;audience. L&#39;audience est la cible principale de votre diffusion : les profils qui reçoivent les messages. Lors de l&#39;envoi de messages dans le cadre d&#39;un workflow de campagne, l&#39;audience du message n&#39;est pas définie dans l&#39;activité Canal, mais dans une activité dédiée, telle que :
 
    * A **Créer une audience** activité. [En savoir plus](build-audience.md).
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **Chargement de fichier** activité suivie d’une **Réconciliation** activité. [En savoir plus](load-file.md).
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * Pour envoyer une diffusion récurrente, démarrez votre workflow avec un **Planificateur** activité. Vous pouvez également utiliser une **Planificateur** activité pour les diffusions uniques ponctuelles afin de définir la date de contact pour cette diffusion. Cette date de contact peut également être définie dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).

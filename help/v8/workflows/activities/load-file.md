@@ -1,21 +1,22 @@
 ---
 audience: end-user
-title: Utilisation de l’activité de workflow Chargement de fichier
-description: Découvrez comment utiliser l’activité de workflow Chargement de fichier
+title: Utiliser l’activité de workflow Chargement de fichier
+description: Découvrez comment utiliser l’activité de workflow Chargement de fichier.
 badge: label="Disponibilité limitée"
-source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
+exl-id: 230177e2-1926-451a-8a66-0db962ada514
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 31%
+ht-degree: 82%
 
 ---
 
-# Charger un fichier {#load-file}
+# Chargement de fichier {#load-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Activité Chargement de fichier"
->abstract="La variable **Chargement de fichier** est une activité **Gestion des données** activité. Utilisez cette activité pour utiliser les données stockées dans un fichier externe."
+>abstract="L’activité **Chargement de fichier** est une activité de **Data Management**. Elle vous permet d’utiliser les données stockées dans un fichier externe."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -52,20 +53,20 @@ ht-degree: 31%
 >title="Mise en forme de l’activité Chargement de fichier"
 >abstract="Mise en forme de l’activité Chargement de fichier"
 
-La variable **Chargement de fichier** est une activité **Gestion des données** activité. Utilisez cette activité pour travailler avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour [personnalisation](../../personalization/gs-personalization.md)ou pour mettre à jour les profils ou toute autre table.
+L’activité **Chargement de fichier** est une activité de **Data Management**. Utilisez-la lorsque vous travaillez avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour la [personnalisation](../../personalization/gs-personalization.md) ou la mise à jour des profils ou des tables.
 
 >[!NOTE]
 >Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
 
-Cette activité peut être utilisée avec une [Réconciliation](reconciliation.md) pour lier des données non identifiées à des ressources existantes. Par exemple, la variable **Chargement de fichier** peut être placée avant une activité **Réconciliation** si vous importez des données non standard dans la base de données.
+Combinée avec l’activité [Réconciliation](reconciliation.md), elle permet de lier des données non identifiées à des ressources existantes. L’activité **Chargement de fichier** peut par exemple être placée après une activité de **Réconciliation** si vous importez des données non standard dans la base de données.
 
-## Configuration de l’activité Chargement de fichier {#load-configuration}
+## Configurer l’activité Chargement de fichier {#load-configuration}
 
-Pour configurer la variable **Chargement de fichier** activité :
+Pour configurer l’activité **Chargement de fichier**, procédez comme suit :
 
-1. Faites glisser et déposez un **Chargement de fichier** dans votre workflow. Cliquez sur le bouton **Sélectionner dans le fichier** bouton .
+1. Placez une activité **Chargement de fichier** dans votre workflow. Cliquez sur le bouton **Sélectionner à partir du fichier**.
 
-1. Sélectionnez le fichier local à utiliser. Le format doit être aligné sur cette [exemple de fichier](../../audience/file-audience.md#sample-file).
+1. Sélectionnez le fichier local à utiliser. Le format doit correspondre à celui de l’[exemple de fichier](../../audience/file-audience.md#sample-file).
 
 1. Prévisualisez et vérifiez le mappage des données dans la section centrale de l’écran.
 
@@ -79,4 +80,4 @@ Pour configurer la variable **Chargement de fichier** activité :
 
 ## Exemple{#load-example}
 
-Un exemple de chargement de fichier externe utilisé avec la fonction **Réconciliation** est disponible dans [cette section](reconciliation.md#example).
+Un exemple de chargement de fichier externe utilisé avec la fonction **Réconciliation** est disponible dans [cette section](reconciliation.md#reconciliation-example).
