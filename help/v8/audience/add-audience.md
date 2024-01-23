@@ -4,7 +4,7 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 82%
@@ -41,8 +41,6 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
    ![](assets/select-audience-folder.png)
 
 1. La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au query modeler, qui permet de créer des filtres avancés pour la liste des audiences. [Découvrez comment utiliser le créateur de modèles de requête](../query/query-modeler-overview.md)
-
-   ![](assets/create-audience4.png)
 
 1. Cliquez sur **Confirmer** pour ajouter votre audience comme cible principale de la diffusion. Une fois cette opération terminée, vous pouvez toujours affiner l’audience à l’aide du créateur de requêtes en cliquant sur le **Modifier des règles** bouton .
 
