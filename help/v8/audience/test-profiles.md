@@ -5,10 +5,11 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -19,54 +20,54 @@ ht-degree: 13%
 >title="Créer des profils de test"
 >abstract="Les profils de test sont créés en tant qu’adresses de contrôle. Il s’agit de destinataires supplémentaires dans la base de données utilisés pour cibler des profils fictifs qui ne correspondent pas aux critères de ciblage définis."
 
-Les profils de test sont créés en tant qu’adresses de contrôle. Il s’agit de destinataires supplémentaires dans la base de données utilisés pour cibler des profils fictifs qui ne correspondent pas aux critères de ciblage définis. Ils vous permettent de prévisualiser et de tester la personnalisation et le rendu avant l&#39;envoi de votre diffusion, en leur envoyant des BAT.
+Les profils de test sont créés en tant qu’adresses de contrôle. Il s’agit de destinataires supplémentaires dans la base de données utilisés pour cibler des profils fictifs qui ne correspondent pas aux critères de ciblage définis. Ils vous permettent de prévisualiser et de tester la personnalisation et le rendu avant l’envoi de votre diffusion, via l’envoi de BAT.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-Les étapes pour envoyer des messages de test aux adresses de contrôle sont présentées dans la section [cette section](../preview-test/test-deliveries.md#test-profiles).
+Les étapes permettant d’envoyer des messages de test à des adresses de contrôle sont présentées dans [cette section](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->Les profils de test sont automatiquement exclus des rapports sur les statistiques d&#39;envoi suivantes : **[!UICONTROL Clics]**, **[!UICONTROL Ouvertures]**, **[!UICONTROL Désabonnements]**. [En savoir plus sur les rapports]
+>Les profils de test sont automatiquement exclus des rapports sur les statistiques de diffusions suivants : **[!UICONTROL Clics]**, **[!UICONTROL Ouvertures]**, **[!UICONTROL Désinscriptions]**. [En savoir plus sur les rapports]
 
-## Accès et gestion des profils de test {#access-test-profiles}
+## Accéder aux profils de test et les gérer {#access-test-profiles}
 
-Pour accéder à la liste des profils de test, sélectionnez **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** dans le menu de gauche, puis cliquez sur l’icône **[!UICONTROL Profils de test]** .
+Pour accéder à la liste des profils de test, sélectionnez **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** dans le menu de gauche, puis cliquez sur l’onglet **[!UICONTROL Profils de test]**.
 
 ![](assets/test-profile-list.png)
 
-* Vous pouvez filtrer selon un [folder](../get-started/permissions.md#folders) à l’aide de la liste déroulante ou en ajoutant des règles à l’aide de la fonction [query modeler](../query/query-modeler-overview.md).
+* Vous pouvez filtrer sur un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
   ![](assets/test-profile-list-filters.png)
 
-* Vous pouvez dupliquer n’importe quel profil de test et le mettre à jour si nécessaire. Les étapes de modification d’un profil de test sont les mêmes que lorsque [création d’un profil de test](#create-test-profile).
+* Vous pouvez dupliquer n’importe quel profil de test et le mettre à jour si nécessaire. Les étapes permettant de modifier un profil de test sont les mêmes que lors de la [création d’un profil de test](#create-test-profile).
 
-* Pour supprimer un profil de test, sélectionnez l’option correspondante dans la **[!UICONTROL Autres actions]** .
+* Pour supprimer un profil de test, sélectionnez l’option correspondante dans le menu **[!UICONTROL Plus d’actions]**.
 
   ![](assets/test-profile-list-delete.png)
 
-* Pour modifier un profil de test, cliquez sur l’élément de votre choix dans la liste. Les étapes de modification d’un profil de test sont les mêmes que lorsque [création d’un profil de test](#create-test-profile).
+* Pour modifier un profil de test, cliquez sur l’élément souhaité dans la liste. Les étapes permettant de modifier un profil de test sont les mêmes que lors de la [création d’un profil de test](#create-test-profile).
 
-Vous pouvez également accéder aux profils de test via la **[!UICONTROL Explorateur]** de la vue **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Adresses de contrôle]** noeud .
+Vous pouvez également accéder aux profils de test via la vue **[!UICONTROL Explorateur]**, dans le nœud **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagnes]** > **[!UICONTROL Adresses de contrôle]**.
 
 De là, vous pouvez parcourir, créer et gérer des dossiers ou des sous-dossiers, ainsi que vérifier les autorisations associées. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
 
 ![](assets/test-profiles-folders.png)
 
-Dans la **[!UICONTROL Explorateur]** vous pouvez également filtrer, supprimer, modifier et [create](#create-test-profile) profils de test.
+Dans la vue **[!UICONTROL Explorateur]**, vous pouvez également filtrer, supprimer, modifier et [créer](#create-test-profile) des profils de test.
 
 ## Créer un profil de test {#create-test-profile}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
->title="Tester les données additionnelles des profils"
->abstract="Renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Data management et auxquelles vous souhaitez attribuer une valeur spécifique."
+>title="Tester les données supplémentaires des profils"
+>abstract="Renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Gestion des données et auxquelles vous souhaitez attribuer une valeur spécifique."
 
 Pour créer un profil de test, procédez comme suit.
 
-1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** et sélectionnez la variable **[!UICONTROL Profils de test]** .
+1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** et sélectionnez l’onglet **[!UICONTROL Profils de test]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Créer un profil de test]** bouton .
+1. Cliquez sur le bouton **[!UICONTROL Créer un profil de test]**.
 
    ![](assets/test-profile-create.png)
 
@@ -76,9 +77,9 @@ Pour créer un profil de test, procédez comme suit.
 
    >[!NOTE]
    >
-   >La variable **[!UICONTROL Libellé]** est automatiquement renseigné avec le prénom et le nom que vous avez définis.
+   >Le champ **[!UICONTROL Libellé]** reprend automatiquement le prénom et le nom saisis.
 
-1. Par défaut, les profils de test sont stockés dans la variable **[!UICONTROL Adresses de contrôle]** dossier. Vous pouvez la modifier en accédant à l’emplacement souhaité. [Découvrez comment utiliser des dossiers](../get-started/permissions.md#folders)
+1. Par défaut, les profils de test sont stockés dans le dossier **[!UICONTROL Adresses de contrôle]**. Vous pouvez le modifier en accédant à l’emplacement souhaité. [Découvrez comment utiliser les dossiers](../get-started/permissions.md#folders)
 
    <!--![](assets/test-profile-folder.png)-->
 
@@ -86,23 +87,20 @@ Pour créer un profil de test, procédez comme suit.
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
 -->
 
-1. Dans le **[!UICONTROL Coordonnées]** , saisissez l’adresse électronique et d’autres données pertinentes. L&#39;adresse email s&#39;affiche entre parenthèses après le libellé du profil de test.
+1. Dans la section **[!UICONTROL Coordonnées]**, saisissez l’adresse e-mail et d’autres données pertinentes. L’adresse e-mail s’affiche entre parenthèses après le libellé du profil de test.
 
    ![](assets/test-profile-address.png)
 
-1. Si vous sélectionnez l’option **[!UICONTROL Ne plus contacter (tous canaux)]** , le profil de test est en liste bloquée. Ce destinataire n&#39;est plus ciblé sur aucun canal (email, SMS, etc.).
+1. Si vous sélectionnez la case à cocher **[!UICONTROL Ne plus contacter (tous canaux)]**, le profil de test est sur la liste bloquée. Ce ou cette destinataire ne sera plus ciblé(e) sur aucun canal (e-mail, SMS, etc.).
 
-1. Dans le **[!UICONTROL Données additionnelles]** saisissez les données de personnalisation utilisées pour les diffusions créées dans les workflows Data management et auxquelles vous souhaitez affecter une valeur spécifique. [En savoir plus sur les workflows](../workflows/gs-workflows.md)
+1. Dans l’onglet **[!UICONTROL Données supplémentaires]**, renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Gestion des données et auxquelles vous souhaitez attribuer une valeur spécifique. [En savoir plus sur les workflows](../workflows/gs-workflows.md)
 
    ![](assets/test-profile-additional-data.png)
 
-   Assurez-vous que les données additionnelles de la cible ont été définies avec un alias commençant par &#39;@&#39; dans l’activité du workflow **[!UICONTROL Enrichissement]**. Sinon, vous ne pourrez pas l&#39;utiliser correctement avec vos adresses de contrôle dans l&#39;activité de diffusion. [En savoir plus sur l’activité Enrichissement](../workflows/activities/enrichment.md)
+   Assurez-vous que les données supplémentaires de la cible ont été définies avec un alias commençant par &#39;@&#39; dans l’activité du workflow **[!UICONTROL Enrichissement]**. Sinon, vous ne pouvez pas l’utiliser correctement avec vos adresses de contrôle dans l’activité de diffusion. [En savoir plus sur l’activité d’enrichissement](../workflows/activities/enrichment.md)
 
 1. Cliquer sur le bouton **[!UICONTROL Enregistrer]**.
 
 Le profil de test que vous venez de créer est maintenant prêt à être utilisé pour envoyer un test. [En savoir plus](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
-
-
-

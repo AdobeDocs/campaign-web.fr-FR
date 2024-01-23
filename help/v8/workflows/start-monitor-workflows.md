@@ -7,7 +7,7 @@ exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide
 
 ## Transitions de workflow {#transitions}
 
-Dans les workflows, les données transportées d&#39;une activité à l&#39;autre via les transitions sont stockées dans une table de travail temporaire. Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l’écran.
+Dans les workflows, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une table de travail temporaire. Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l’écran.
 
 * Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
 * Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données véhiculées dans la transition sélectionnée.
@@ -62,7 +62,7 @@ Sous les deux onglets, vous pouvez choisir les colonnes à afficher et leur ordr
 
 ## Commandes d’exécution du workflow {#execution-commands}
 
-La barre d’actions située dans le coin supérieur droit propose des commandes dédiées à la gestion de l’exécution du workflow. Vous pouvez ainsi :
+La barre d’actions située dans le coin supérieur droit propose des commandes dédiées à la gestion de l’exécution du workflow. Vous pouvez ainsi effectuer les actions suivantes :
 
 * **[!UICONTROL Démarrer]** / **[!UICONTROL Reprendre]** l’exécution du workflow, qui adopte alors le statut En cours. Si le workflow était en pause, il s’agit d’une reprise, sinon il s’agit d’un démarrage et les activités initiales sont alors activées.
 

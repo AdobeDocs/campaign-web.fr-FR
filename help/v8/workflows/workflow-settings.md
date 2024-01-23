@@ -7,7 +7,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Les autres valeurs possibles sont les suivantes :
 >title="Paramètres de segmentation"
 >abstract="Cette section vous permet de sélectionner la dimension de ciblage pour cibler les profils dans le workflow et de conserver ou non les résultats du workflow entre deux exécutions. Cette option ne doit être utilisée qu’à des fins de test. Elle ne doit en aucun cas être activée dans un workflow de production."
 
-* **[!UICONTROL Dimension de ciblage]**: sélectionnez la dimension de ciblage à utiliser pour cibler les profils : destinataires, bénéficiaires de contrats, opérateur, abonnés, etc. [En savoir plus sur les dimensions de ciblage](../audience/targeting-dimensions.md)
+* **[!UICONTROL Dimension de ciblage]** : sélectionnez la dimension de ciblage à utiliser pour cibler les profils (destinataires, bénéficiaires d’un contrat, opérateur ou opératrice, abonnées ou abonnés, etc.). [En savoir plus sur les dimensions de ciblage](../audience/targeting-dimensions.md)
 
 * **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** : par défaut, seules les tables de travail de la dernière exécution du workflow sont conservées. Les tables de travail des exécutions précédentes sont purgées par un workflow technique qui s’exécute quotidiennement.
 

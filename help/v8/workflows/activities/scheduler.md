@@ -7,7 +7,7 @@ exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ L’activité **Planificateur** est une activité de **contrôle de flux**. Elle
 * Pour envoyer une diffusion ponctuelle dans votre workflow, vous pouvez ajouter une activité Planificateur et la configurer pour qu’elle s’exécute **une fois**. Vous pouvez également définir le **Planning** dans les paramètres de la diffusion.
 * Si vous souhaitez envoyer une diffusion récurrente dans votre workflow, vous devez utiliser une activité **Planificateur** et définir la fréquence d’exécution. L’activité de diffusion récurrente ne permet pas de définir de planning.
 
-## Configuration de l’activité Planificateur {#scheduler-configuration}
+## Configurer l’activité Planificateur {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"

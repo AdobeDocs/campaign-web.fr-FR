@@ -7,24 +7,24 @@ exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Prise en main du concepteur d’e-mail {#get-started-email-designer}
+# Commencer avec le concepteur d’e-mail {#get-started-email-designer}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Nouveau Concepteur d&#39;email"
->abstract="Le Concepteur d’email de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque email !"
+>title="Nouveau concepteur d’e-mail"
+>abstract="Le concepteur d’e-mail de Campaign permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuite par glisser-déposer. Un monde de possibilités s’offre à vous : commencez à partir de zéro, importez un contenu précédent ou tirez parti de modèles existants. Vous pouvez concevoir et affiner le contenu de chaque e-mail !"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
 
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
->title="Nouveau Concepteur d&#39;email"
->abstract="Le Concepteur d’email de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque email !"
+>title="Nouveau concepteur d’e-mail"
+>abstract="Le concepteur d’e-mail de Campaign permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuite par glisser-déposer. Un monde de possibilités s’offre à vous : commencez à partir de zéro, importez un contenu précédent ou tirez parti de modèles existants. Vous pouvez concevoir et affiner le contenu de chaque e-mail !"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
 
 <!--TO REMOVE ABOVE-->

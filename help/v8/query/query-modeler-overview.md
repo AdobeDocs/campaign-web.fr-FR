@@ -3,10 +3,11 @@ audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +16,13 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
->title="Nouveau modèle de requête"
+>title="Nouveau concepteur de requête"
 >abstract="Adobe Campaign Web comporte un concepteur de requête qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés. Le concepteur de requête est disponible dans tout contexte où vous devez définir des règles pour filtrer les données."
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Nouveau modèle de requête"
+>title="Nouveau concepteur de requête"
 >abstract="Adobe Campaign Web comporte un concepteur de requête qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés. Le concepteur de requête est disponible dans tout contexte où vous devez définir des règles pour filtrer les données."
 
 <!--TO REMOVE ABOVE-->
@@ -57,22 +58,22 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 
 ## Interface du concepteur de requête {#interface}
 
-Le créateur de modèles de requêtes fournit un canevas central dans lequel vous créez votre requête, ainsi qu’un volet de droite fournissant des informations sur votre requête.
+Le concepteur de requête fournit une zone de travail centrale où vous pouvez créer votre requête, et un volet droit fournissant des informations sur votre requête.
 
 ![](assets/query-interface.png)
 
-### Zone de travail centrale {#canvas}
+### La zone de travail centrale {#canvas}
 
-Le canevas central du modeleur de requête est l’endroit où vous ajoutez et combinez les différents composants qui construisent votre requête. [Découvrez comment créer une requête](build-query.md)
+Le concepteur de requête fournit une zone de travail centrale où vous pouvez ajouter et combiner les différents composants qui construisent votre requête. [Découvrez comment créer une requête](build-query.md)
 
-La barre d’outils située dans le coin supérieur droit du canevas fournit des options pour manipuler facilement les composants de requête et naviguer dans la zone de travail :
+La barre d’outils située dans le coin supérieur droit de la zone de travail fournit des options permettant de manipuler facilement les composants de requête et de naviguer dans la zone de travail :
 
-* **Mode de sélection multiple**: sélectionnez plusieurs composants de filtrage à copier et coller à l’emplacement de votre choix.
-* **Rotation**: basculez le canevas verticalement.
-* **Ajuster à l’écran**: adaptez le niveau de zoom de la zone de travail à votre écran.
-* **Zoom arrière** / **Zoom avant**: permet de zoomer ou dans la zone de travail.
-* **Afficher la carte**: ouvre un instantané de la zone de travail indiquant que vous vous trouvez.
+* **Mode de sélection multiple** : sélectionnez plusieurs composants de filtrage pour les copier et coller à l’emplacement de votre choix.
+* **Faire pivoter** : retournez la zone de travail verticalement.
+* **Ajuster à l’écran** : adaptez le niveau de zoom de la zone de travail à votre écran.
+* **Zoom arrière**/**Zoom avant** : effectuez un zoom arrière ou avant dans la zone de travail.
+* **Afficher la carte** : ouvre un instantané de la zone de travail indiquant où vous vous trouvez.
 
-### Volet Propriétés de la règle {#rule-properties}
+### Le volet Propriétés de la règle {#rule-properties}
 
-Sur le côté droit, le **[!UICONTROL Propriétés des règles]** Le volet fournit des informations sur votre requête. Il vous permet d’effectuer diverses opérations pour vérifier la requête et vous assurer qu’elle correspond à vos besoins. [Découvrez comment vérifier et valider votre requête](build-query.md#check-and-validate-your-query)
+Sur le côté droit, le volet **[!UICONTROL Propriétés de la règle]** fournit des informations sur votre requête. Il vous permet d’effectuer diverses opérations pour vérifier la requête et vous assurer qu’elle correspond à vos besoins. [Découvrez comment vérifier et valider votre requête](build-query.md#check-and-validate-your-query)

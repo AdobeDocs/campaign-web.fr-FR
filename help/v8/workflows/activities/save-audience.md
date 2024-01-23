@@ -7,7 +7,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
 >title="Enregistrer une audience"
->abstract="Utilisez cette activité pour mettre à jour une audience existante ou créer une nouvelle audience à partir de la population calculée en amont dans le workflow. Les audiences créées sont ajoutées à la liste des audiences, disponibles via le **Audiences** ."
+>abstract="Utilisez cette activité pour mettre à jour une audience existante ou créer une audience à partir de la population calculée en amont dans le workflow. Les audiences créées sont ajoutées à la liste des audiences et sont disponibles dans le menu **Audiences**."
 
 L’activité **Enregistrer l’audience** est une activité de **ciblage**. Cette activité permet de mettre à jour une audience existante ou de créer une audience à partir de la population calculée en amont dans un workflow. Les audiences créées sont ajoutées à la liste des audiences de l’application, disponible via le menu **Audiences**.
 

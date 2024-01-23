@@ -7,7 +7,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
->title="Message Push Android"
+>title="Message push Android"
 >abstract="Définissez le contenu de votre notification push pour les appareils Android. Pour composer votre message, cliquez sur les champs **Titre** et **Message**. Utilisez l’éditeur d’expression pour personnaliser des données et ajouter du contenu dynamique. Pour personnaliser davantage votre notification push, vous pouvez choisir une image à lui ajouter, l’icône de la notification qui s’affichera sur les appareils de vos profils et sa couleur. Pour une configuration davantage personnalisée, accédez à la section **Paramètres avancés**."
 
 
@@ -96,7 +96,7 @@ Le mode Notification silencieuse permet d’envoyer une notification « silenci
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Nombre de notifications"
->abstract="Utilisez cette option pour définir le nombre de notifications non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur de voir rapidement le nombre de notifications en attente."
+>abstract="Utilisez cette option pour définir le nombre de notifications non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur ou à l’utilisatrice de voir rapidement le nombre de notifications en attente."
 
 
 >[!CONTEXTUALHELP]
@@ -132,7 +132,7 @@ Les options avancées dépendent du système d’exploitation mobile : Android 
 | Paramètre | Description |
 |---------|---------|
 | **[!UICONTROL Son]** | Définissez le son à émettre lorsque l’appareil reçoit votre notification. |
-| **[!UICONTROL Nombre de notifications]** | Définissez le nombre de nouvelles informations non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur de voir rapidement le nombre de notifications en attente. |
+| **[!UICONTROL Nombre de notifications]** | Définissez le nombre de nouvelles informations non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur ou à l’utilisatrice de voir rapidement le nombre de notifications en attente. |
 | **[!UICONTROL Identifiant du canal]** | Définissez l’identifiant de canal de votre notification. L’application doit créer un canal avec cet identifiant de canal avant la réception d’une notification avec cet identifiant de canal. |
 | **[!UICONTROL Action de clic]** | Définissez l’action associée à un clic de l’utilisateur sur votre notification. Cela détermine le comportement lorsque l’utilisateur interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application. |
 | **[!UICONTROL Balise]** | Définissez l’identifiant utilisé pour remplacer les notifications existantes dans le tiroir de notifications. Vous éviterez ainsi l’accumulation de plusieurs notifications et vous assurerez que seule la dernière notification pertinente est affichée. |

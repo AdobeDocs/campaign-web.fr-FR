@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 82%
+ht-degree: 97%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
->title="Prévisualisez votre fichier"
->abstract="Vérifiez l&#39;aperçu des colonnes du fichier externe. Cet écran n’affiche que 30 enregistrements au maximum."
+>title="Prévisualiser votre fichier"
+>abstract="Vérifiez l’aperçu des colonnes du fichier externe. Cet écran n’affiche que 30 enregistrements au maximum."
 
-Vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Cet article décrit comment charger un profil externe lors de la création d’une diffusion email autonome. Pour charger des données à partir d’un fichier dans un workflow, reportez-vous à la section [cette page](../workflows/activities/load-file.md).
+Vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Cet article décrit comment charger un profil externe lors de la création d’une diffusion par e-mail autonome. Pour charger des données à partir d’un fichier dans un workflow, reportez-vous à [cette page](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* Cette fonctionnalité est uniquement disponible pour **diffusions email**. Il ne peut pas être utilisé avec les diffusions SMS ou push.
+>* Cette fonctionnalité n’est disponible que pour les **diffusions par e-mail**. Elle ne peut pas être utilisée avec les diffusions SMS ou Notification push.
 >
 >* Vous ne pouvez pas utiliser les [populations témoins](control-group.md) lors du chargement de la population cible à partir d’un fichier externe.
 >
@@ -107,4 +107,4 @@ Campaign Web vous permet de prévisualiser et d’envoyer des e-mails de test l
 
    ![](assets/file-upload-test.png)
 
-1. Vous pouvez surveiller l’envoi de l’email de test à l’aide de la variable **[!UICONTROL Afficher le journal des emails de test]** à tout moment. [En savoir plus sur la surveillance des e-mails de test](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Vous pouvez contrôler à tout moment l’envoi de l’e-mail de test à l’aide du bouton **[!UICONTROL Afficher le journal de l’e-mail de test]**. [En savoir plus sur la surveillance des e-mails de test](../preview-test/test-deliveries.md#access-test-deliveries)

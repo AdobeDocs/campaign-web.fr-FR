@@ -10,7 +10,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Un modèle peut inclure les éléments suivants :
 
 >[!NOTE]
 >
->Les modèles de diffusion diffèrent de [modèles de contenu](../email/create-email-templates.md), qui vous permettent de réutiliser uniquement le contenu de vos emails et de commencer à créer du contenu à l’aide de l’un des modèles d’email prêts à l’emploi.
+>Les modèles de diffusion diffèrent des [modèles de contenu](../email/create-email-templates.md), qui permettent de réutiliser uniquement le contenu de vos e-mails et de commencer à créer du contenu avec l’un des exemples de modèles d’e-mail prêts à l’emploi.
 
 
 ## Accéder aux modèles de diffusion et les gérer {#access-manage-templates}
@@ -194,6 +194,6 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
 >[!NOTE]
 >
->Vous ne pouvez pas utiliser le rendu des emails ni envoyer de tests dans un modèle de diffusion.
+>Vous ne pouvez pas utiliser le rendu des e-mails ni envoyer de tests dans un modèle de diffusion.
 
 

@@ -7,7 +7,7 @@ badge: label="Disponibilité limitée"
 source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
 workflow-type: tm+mt
 source-wordcount: '2260'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -114,11 +114,11 @@ La variable **[!UICONTROL Importance du destinataire]** field est une formule ut
 >title="Paramètres d’audience de la diffusion"
 >abstract="Sélectionnez un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Vous pouvez également définir les paramètres d’exclusion de la diffusion. "
 
-Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Le mapping de ciblage est le type de données qu’une opération gère. Il permet de définir la population ciblée : destinataires, bénéficiaires de contrats, opérateurs et opératrices, abonnés et abonnées, etc.
+Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Le mapping de ciblage est le type de données qu’une opération traite. Il permet de définir la population ciblée : destinataires, bénéficiaires de contrats, opérateurs et opératrices, abonnés et abonnées, etc.
 
 Pour plus d’informations sur les mappings de ciblage, consultez [cette section](../audience/targeting-dimensions.md).
 
-Dans le **[!UICONTROL Exclusion]** , vous pouvez sélectionner pour exclure les destinataires qui ne souhaitent plus être contactés ou qui sont mis en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+Dans le **[!UICONTROL Exclusion]** , vous pouvez sélectionner pour exclure les destinataires qui ne souhaitent plus être contactés ou qui sont mis en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr){target="_blank"}
 
 ## Diffusion {#delivery}
 

@@ -7,7 +7,7 @@ exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,4 +52,4 @@ L’onglet **[!UICONTROL Modèles]** répertorie tous les modèles de workflows 
 
 Les modèles de workflow contiennent des activités préconfigurées et des configurations globales des propriétés qui peuvent être réutilisées pour créer de nouveaux workflows.
 
-Vous pouvez créer des modèles de workflow à partir d’un workflow existant ou à partir de zéro. [Découvrez comment créer des modèles de workflow](create-workflow.md#workflow-templates)
+Vous pouvez créer des modèles de workflow à partir d’un workflow existant ou à partir de zéro. [Découvrez comment créer des modèles de workflow](create-workflow.md#workflow-templates).

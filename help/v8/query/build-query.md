@@ -3,10 +3,11 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
+exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 62%
+ht-degree: 96%
 
 ---
 
@@ -45,13 +46,13 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 1. Cliquez sur le bouton **+** sur le nœud souhaité, puis sélectionnez **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’affiche sur le côté droit.
 
-1. Dans le champ **Attribut**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données Campaign, y compris les attributs des tables liées.
+1. Dans le champ **Attribut**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données Campaign, y compris les attributs de vos tables liées.
 
    ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
-   >Le bouton Editer l&#39;expression permet d&#39;utiliser l&#39;éditeur d&#39;expression Web de Campaign pour définir manuellement une expression à l&#39;aide de champs de la base de données et de fonctions d&#39;assistance. [Découvrez comment modifier des expressions](expression-editor.md)
+   >Le bouton Modifier une expression permet d’utiliser l’éditeur d’expression de Campaign Web pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
 
 1. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
@@ -78,7 +79,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 +++
 
-1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression de Campaign Web pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur le bouton **Expression d’édition** bouton . [Découvrez comment modifier des expressions](expression-editor.md)
+1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression de Campaign Web pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur le bouton **Modifier une expression**. [Découvrez comment modifier des expressions](expression-editor.md)
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
@@ -86,17 +87,17 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 #### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
-Les conditions personnalisées vous permettent d&#39;interroger des tables liées à la table actuellement utilisée par votre règle. Cela inclut les tables avec un lien de cardinalité 1-1 ou les tables de collection (lien 1-N).
+Les conditions personnalisées vous permettent d’interroger des tables liées à la table actuellement utilisée par votre règle. Cela inclut les tables avec un lien de cardinalité 1-1 ou les tables de collection (lien 1-N).
 
-Pour un **Lien 1-1**, accédez à la table liée, sélectionnez l’attribut de votre choix et définissez la valeur attendue.
+Pour un **lien 1-1**, accédez à la table liée, sélectionnez l’attribut souhaité et définissez la valeur attendue.
 
 Vous pouvez également sélectionner directement un lien de tableau dans la variable **Valeur** et confirmez. Dans ce cas, les valeurs disponibles pour le tableau sélectionné doivent être sélectionnées à l’aide d’un sélecteur dédié, comme illustré dans l’exemple ci-dessous.
 
 +++Exemple de requête
 
-Ici, la requête cible les marques dont le libellé est &quot;en cours&quot;.
+Ici, la requête cible les marques dont le libellé est « running ».
 
-1. Naviguez dans le **Marque** et sélectionnez le **Libellé** attribut.
+1. Naviguez dans la table **Marque** et sélectionnez l’attribut **Libellé**.
 
    ![](assets/1-1-attribute.png){width="85%" align="center"}
 
@@ -110,21 +111,21 @@ Voici un exemple de requête dans lequel un lien de tableau a été directement 
 
 +++
 
-Pour un **Lien 1-N**, vous pouvez définir des sous-conditions pour affiner votre requête, comme illustré dans l’exemple ci-dessous.
+Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner votre requête, comme illustré dans l’exemple ci-dessous.
 
 +++Exemple de requête
 
 Ici, la requête cible les personnes destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
 
-1. Sélectionnez la variable **Achats** et confirmez.
+1. Sélectionnez le tableau **Achats** et confirmez.
 
    ![](assets/1-N-collection.png){width="50%" align="center"}
 
-1. Une transition sortante est ajoutée, ce qui permet de créer des sous-conditions.
+1. Une transition sortante est ajoutée, vous permettant ainsi de créer des sous-conditions.
 
    ![](assets/1-n-subcondition.png){width="85%" align="center"}
 
-1. Sélectionnez la variable **Prix** achats d’attributs et de cibles d’au moins 1 000 $
+1. Sélectionnez l’attribut **Prix** et ciblez les achats de 1 000 $ ou plus.
 
    ![](assets/1-n-price.png){width="85%" align="center"}
 
@@ -134,15 +135,15 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
 +++
 
-#### Utilisation des données agrégées {#aggregate}
+#### Utiliser des données agrégées {#aggregate}
 
-Les conditions personnalisées vous permettent d’effectuer des opérations d’agrégat. Pour cela, vous devez sélectionner directement un attribut dans une table de collection :
+Les conditions personnalisées vous permettent d’effectuer des opérations d’agrégat. Pour cela, vous devez sélectionner directement un attribut dans un tableau de collection :
 
-1. Naviguez dans la table de collection souhaitée et sélectionnez l’attribut sur lequel vous souhaitez effectuer une opération d’agrégat.
+1. Naviguez dans le tableau de collection souhaité et sélectionnez l’attribut sur lequel vous souhaitez effectuer une opération d’agrégat.
 
    ![](assets/aggregate-attribute.png){width="85%" align="center"}
 
-1. Dans le volet des propriétés, activez l’option **Agrégat de données** et sélectionnez la fonction d’agrégat souhaitée.
+1. Dans le volet des propriétés, activez l’option **Données agrégées** et sélectionnez la fonction d’agrégat souhaitée.
 
    ![](assets/aggregate.png){width="85%" align="center"}
 
@@ -182,23 +183,23 @@ Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez com
 
 ### Copier-coller des composants {#copy}
 
-Le créateur de requêtes permet de copier un ou plusieurs composants de filtrage et de les coller à la fin d’une transition. Cette opération peut être exécutée dans la zone de travail de la requête actuelle ou dans n’importe quel canevas de votre instance.
+Le concepteur de requête vous permet de copier un ou plusieurs composants de filtrage et de les coller à la fin d’une transition. Cette opération peut être exécutée dans la zone de travail de la requête actuelle ou dans n’importe quelle zone de travail de votre instance.
 
 >[!NOTE]
 >
 >La sélection copiée est conservée tant que vous travaillez dans votre instance. Si vous vous déconnectez et vous reconnectez, votre sélection ne sera plus disponible pour le collage.
 
-Pour copier-coller des composants de filtrage, procédez comme suit :
+Pour copier-coller des composants de filtrage, procédez comme suit :
 
 1. Sélectionnez le composant de filtrage à copier en cliquant dessus dans la zone de travail de la requête. Pour sélectionner plusieurs composants, utilisez l’outil de sélection multiple disponible dans la barre d’outils située dans le coin supérieur droit de la zone de travail.
 
 1. Cliquez sur le bouton **[!UICONTROL Copier]** dans le volet des propriétés du composant ou dans le ruban bleu situé en bas de l’écran si vous avez sélectionné plusieurs composants.
 
-   | Copier un seul composant | Copie de plusieurs composants |
+   | Copier un seul composant | Copier plusieurs composants |
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
 
-1. Pour coller le ou les composants, cliquez sur le bouton + à la fin de la transition souhaitée et sélectionnez **Coller dans les éléments**.
+1. Pour coller le ou les composants, cliquez sur le bouton + situé à la fin de la transition souhaitée et sélectionnez **Coller n éléments**.
 
    ![](assets/copy-paste.png)
 
@@ -209,13 +210,13 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
 >title="Groupe"
 >abstract="Groupe"
 
-Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête, il est automatiquement lié à l’autre composant par un **ET** de l’opérateur. Cela signifie que les résultats des deux composants de filtrage sont combinés.
+Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête, il est automatiquement lié à l’autre composant par un opérateur **ET**. Cela signifie que les résultats des deux composants de filtrage sont combinés.
 
-Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de type de filtre prédéfinie avec une **ET** , ce qui signifie que les résultats de la requête incluent les destinataires ciblés par le filtre prédéfini &quot;Madridians&quot; ET appartenant à l&#39;audience &quot;chasseurs de remises&quot;.
+Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de type de filtre prédéfinie avec un opérateur **ET**, ce qui signifie que les résultats de la requête incluent les destinataires ciblés par le filtre prédéfini « Madrilènes » ET appartenant à l’audience « Chasseurs de remises ».
 
 ![](assets/query-operator.png)
 
-Pour changer l&#39;opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez l&#39;opérateur de votre choix dans le **Groupe** qui s’ouvre sur le côté droit.
+Pour changer l’opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez-en un autre dans le volet **Groupe** qui s’ouvre sur la droite.
 
 Les opérateurs disponibles sont les suivants :
 
@@ -225,9 +226,9 @@ Les opérateurs disponibles sont les suivants :
 
 ![](assets/query-operator-change.png)
 
-En outre, vous pouvez créer des groupes intermédiaires de composants en cliquant sur le **+** sur une transition. Vous pouvez ainsi ajouter un opérateur à cet emplacement spécifique pour regrouper plusieurs composants et affiner votre requête.
+En outre, vous pouvez créer des groupes intermédiaires de composants en cliquant sur le bouton **+** sur une transition. Vous pouvez ainsi ajouter un opérateur à cet emplacement spécifique pour regrouper plusieurs composants et affiner votre requête.
 
-Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inclure les résultats des audiences &quot;VIP à récompenser&quot; ou &quot;Super VIP&quot;.
+Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inclure les résultats des audiences « VIP à récompenser » ou « Super VIP ».
 
 ![](assets/query-intermediate-group.png)
 
@@ -249,8 +250,8 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
   >
   >Sélectionnez un filtre prédéfini dans le volet Propriétés de la règle pour remplacer la requête qui a été créée dans la zone de travail par le filtre sélectionné.
 
-Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour l’enregistrer.
+Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour effectuer l’enregistrement.
 
-Vous pouvez modifier votre requête à tout moment en l&#39;ouvrant. Gardez à l’esprit que lors de l’ouverture d’une requête existante, elle s’affiche dans une vue simplifiée sans la visibilité de  **+** des boutons. Pour ajouter de nouveaux éléments à la requête, sélectionnez un composant ou un opérateur dans la zone de travail afin d’afficher le **+** des boutons.
+Vous pouvez modifier votre requête à tout moment en l’ouvrant. Gardez à l’esprit que lors de l’ouverture d’une requête existante, elle s’affiche dans une vue simplifiée sans la visibilité des boutons **+**. Pour ajouter de nouveaux éléments à la requête, sélectionnez un composant ou un opérateur dans la zone de travail afin d’afficher les boutons **+**.
 
 ![](assets/edit-audience.png)

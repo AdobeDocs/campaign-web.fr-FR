@@ -1,12 +1,13 @@
 ---
 audience: end-user
-title: Utilisation de l’activité de workflow Réconciliation
+title: Utiliser l’activité de workflow Réconciliation
 description: Découvrez comment utiliser l’activité de workflow Réconciliation
 badge: label="Disponibilité limitée"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 19%
+ht-degree: 85%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Activité Réconciliation"
->abstract="La variable **Réconciliation** est une activité **Ciblage** activité permettant de définir le lien entre les données de la base Adobe Campaign et les données d&#39;une table de travail. Par exemple, la variable **Réconciliation** peut être placée après une **Chargement de fichier** pour importer des données non standard dans la base de données. Dans ce cas, la variable **Réconciliation** activité permet de définir le lien entre les données de la base Adobe Campaign et les données de la table externe."
+>abstract="La variable **Réconciliation** est une activité **Ciblage** activité permettant de définir le lien entre les données de la base Adobe Campaign et les données d&#39;une table de travail. Par exemple, la variable **Réconciliation** peut être placée après une **Chargement de fichier** pour importer des données non standard dans la base de données. Dans ce cas, l’activité **Réconciliation** vous permet de définir le lien entre les données dans la base de données Adobe Campaign et les données dans la table externe."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -34,21 +35,21 @@ ht-degree: 19%
 
 La variable **Réconciliation** est une activité **Ciblage** activité permettant de définir le lien entre les données de la base Adobe Campaign et les données d&#39;une table de travail, par exemple les données chargées à partir d&#39;un fichier externe.
 
-Par exemple, la variable **Réconciliation** peut être placée après une **Chargement de fichier** pour importer des données non standard dans la base de données. Dans ce cas, la variable **Réconciliation** permet de définir le lien entre les données de la base Adobe Campaign et celles de la table de travail.
+Par exemple, la variable **Réconciliation** peut être placée après une **Chargement de fichier** pour importer des données non standard dans la base de données. Dans ce cas, l’activité **Réconciliation** vous permet de définir le lien entre les données dans la base de données Adobe Campaign et les données dans la table de travail.
 
 ## Bonnes pratiques {#reconciliation-best-practices}
 
-Lorsque la variable **Enrichissement** vous permet de définir des données additionnelles à traiter dans votre workflow (vous pouvez utiliser une **Enrichissement** pour combiner des données provenant de plusieurs ensembles, ou pour créer des liens vers une ressource temporaire), la variable **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes.
+Si vous utilisez l’activité **Enrichissement** pour définir des données supplémentaires à traiter dans votre workflow (en utilisant une activité **Enrichissement** pour combiner des données provenant de plusieurs jeux ou pour créer des liens vers une ressource temporaire), l’activité **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes.
 
 >[!NOTE]
->L&#39;opération de réconciliation implique que les données des dimensions liées se trouvent déjà dans la base de données.  Par exemple, si vous importez un fichier d&#39;actes d&#39;achats indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister en base.
+>L’opération de réconciliation suppose que les données des dimensions liées sont déjà présentes dans la base de données.  Par exemple, si vous importez un fichier d’achats indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister dans la base de données.
 
-## Configurer l&#39;activité Réconciliation {#reconciliation-configuration}
+## Configurer l’activité Réconciliation {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
->title="Targeting dimension"
->abstract="Sélectionnez la nouvelle dimension de ciblage. Une dimension permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc. Par défaut, la dimension de ciblage actuelle est sélectionnée."
+>title="Dimension de ciblage"
+>abstract="Sélectionnez la nouvelle dimension de ciblage. Une dimension vous permet de définir la population ciblée : destinataires, personnes abonnées à l’application, opérateurs et opératrices, personnes eabonnés, etc. Par défaut, la dimension de ciblage actuelle est sélectionnée."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
@@ -58,38 +59,38 @@ Lorsque la variable **Enrichissement** vous permet de définir des données addi
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Sélectionner la dimension de ciblage"
->abstract="Sélectionnez la dimension de ciblage des données entrantes avec lesquelles vous souhaitez effectuer la réconciliation."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Dimensions de ciblage"
+>abstract="Sélectionnez la dimension de ciblage de vos données entrantes avec lesquelles vous souhaitez effectuer la réconciliation."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=fr#targeting-dimensions" text="Dimensions de ciblage"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="Conserver les données non réconciliées"
->abstract="Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Pour supprimer les données non réconciliées, désactivez la variable **Conserver les données non réconciliées** ."
+>abstract="Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Pour supprimer les données non réconciliées, désactivez l’option **Conserver les données non réconciliées**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Attribut de réconciliation"
 >abstract="Sélectionnez l’attribut à utiliser pour réconcilier les données, puis cliquez sur Confirmer."
 
-Pour configurer la variable **Réconciliation** activité :
+Pour configurer l’activité **Réconciliation**, procédez comme suit :
 
-1. Faites glisser et déposez un **Réconciliation** dans votre workflow. Cette activité doit être ajoutée à la suite d&#39;une transition contenant une population dont la dimension de ciblage ne provient pas directement d&#39;Adobe Campaign.
+1. Glissez-déposez une activité **Réconciliation** dans votre workflow. Cette activité doit être ajoutée à la suite d’une transition contenant une population dont la dimension de ciblage ne provient pas directement d’Adobe Campaign.
 
-1. Sélectionnez la nouvelle dimension de ciblage. Une dimension permet de définir la population ciblée : destinataires, abonnés aux applications, opérateurs, abonnés, etc. [En savoir plus sur les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions).
+1. Sélectionnez la nouvelle dimension de ciblage. Une dimension vous permet de définir la population ciblée : destinataires, personnes abonnées à l’application, opérateurs et opératrices, personnes eabonnés, etc. [En savoir plus sur les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions).
 
 1. Sélectionnez le ou les champs à utiliser pour la réconciliation. Vous pouvez utiliser un ou plusieurs critères de réconciliation.
 
-   1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez la variable **Attributs simples** . La variable **Source** répertorie les champs disponibles dans la transition de saisie, qui doivent être réconciliés. La variable **Destination** correspond aux champs de la dimension de ciblage sélectionnée. Les données sont réconciliées lorsque la source et la destination sont égales. Par exemple, sélectionnez la variable **Email** pour dédupliquer les profils en fonction de leur adresse email.
+   1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez l’option **Attributs simples**. Le champ **Source** répertorie les champs disponibles dans la transition d’entrée, qui doivent être réconciliés. Le champ **Destination** correspond aux champs de la dimension de ciblage sélectionnée. Les données sont réconciliées lorsque la source et la destination sont égales. Par exemple, sélectionnez les champs **E-mail** pour dédupliquer des profils en fonction de leur adresse e-mail.
 
-      Pour ajouter un autre critère de réconciliation, cliquez sur le bouton **Ajouter une règle** bouton . Si plusieurs conditions de jointure sont indiquées, elles doivent TOUTES être vérifiées pour que le lien entre les données puisse se faire.
+      Pour ajouter un autre critère de réconciliation, cliquez sur le bouton **Ajouter une règle**. Si plusieurs conditions de jointure sont indiquées, elles doivent TOUTES être vérifiées pour que le lien entre les données puisse se faire.
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. Pour utiliser d’autres attributs afin de réconcilier des données, sélectionnez la variable **Conditions de réconciliation avancées** . Vous pouvez ensuite créer votre propre condition de réconciliation à l’aide du modeleur de requête. Découvrez comment utiliser le créateur de modèles de requête dans [cette section](../../query/query-modeler-overview.md).
+   1. Pour utiliser d’autres attributs afin de réconcilier des données, sélectionnez l’option **Conditions avancées de réconciliation**. Vous pouvez ensuite créer votre propre condition de réconciliation à l’aide du concepteur de requête. Découvrez comment utiliser le concepteur de requête dans [cette section](../../query/query-modeler-overview.md).
 
-1. Vous pouvez filtrer les données à réconcilier à l’aide de la variable **Créer un filtre** bouton . Vous pouvez ainsi créer une condition personnalisée à l’aide de la variable [query modeler](../../query/query-modeler-overview.md).
+1. Vous pouvez filtrer les données à réconcilier à l’aide du bouton **Créer un filtre**. Vous pouvez ainsi créer une condition personnalisée à l’aide du [concepteur de requête](../../query/query-modeler-overview.md).
 
-Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Pour supprimer les données non réconciliées, désactivez la variable **Conserver les données non réconciliées** .
+Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Pour supprimer les données non réconciliées, désactivez l’option **Conserver les données non réconciliées**.
 
 ## Exemple {#reconciliation-example}
 
@@ -100,7 +101,7 @@ Le workflow se présente comme suit :
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 
 
-Il est construit avec les activités suivantes :
+Il est créé avec les activités suivantes :
 
 * Une activité [Chargement de fichier](load-file.md) télécharge un fichier contenant des données de profils extraites à l&#39;aide d&#39;un outil externe.
 
@@ -115,13 +116,13 @@ Il est construit avec les activités suivantes :
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Réconciliation** activité qui identifie les données entrantes sous forme de profils, en utilisant la variable **email** et **Date de naissance** champs comme critères de réconciliation.
+* Une activité **Réconciliation** qui identifie les données entrantes sous forme de profils, en utilisant les champs **E-mail** et **Date de naissance** comme critères de réconciliation.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* A [Sauvegarde d’audience](save-audience.md) pour créer une audience à partir de ces mises à jour. Vous pouvez également remplacer la variable **Sauvegarde d’audience** activité par une **Fin** activité si aucune audience spécifique ne doit être créée ou mise à jour. Les profils de destinataires sont mis à jour dans tous les cas lorsque vous exécutez le workflow.
+* Une activité [Sauvegarde d’audience](save-audience.md) pour créer une audience à partir de ces mises à jour. Vous pouvez également remplacer l’activité **Sauvegarde d’audience** par une activité **Fin** si aucune audience spécifique ne doit être créée ou mise à jour. Dans tous les cas, les profils de destinataires sont mis à jour lorsque vous exécutez le workflow.
 
 
 ## Compatibilité {#reconciliation-compat}
 
-La variable **Réconciliation** n’existe pas dans la console cliente. Tous **Enrichissements** les activités créées dans la console cliente avec les options de réconciliation activées s’affichent sous la forme **Réconciliation** activités dans l’interface utilisateur web de Campaign.
+L’activité **Réconciliation** n’existe pas dans la console cliente. Toutes les activités **Enrichissement** créées dans la console cliente avec les options de réconciliation activées s’affichent sous la forme d’activités **Réconciliation** dans l’interface utilisateur de Campaign Web.

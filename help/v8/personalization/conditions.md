@@ -10,7 +10,7 @@ exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 >title="Ajouter du contenu conditionnel"
 >abstract="Configure campos de contenido condicional para crear una personalización dinámica avanzada basada en el perfil del destinatario. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición en concreto. "
 
-## Prise en main du contenu conditionnel {#gs}
+## Commencer avec le contenu conditionnel {#gs}
 
 Le contenu conditionnel est une puissante fonctionnalité qui permet de créer une personnalisation dynamique basée sur le profil de la personne destinataire, en remplaçant automatiquement les blocs de texte et les images lorsque certaines conditions sont remplies. Cette fonctionnalité permet de créer des campagnes plus sophistiquées, et de proposer des expériences hautement ciblées et personnalisées à votre audience.
 

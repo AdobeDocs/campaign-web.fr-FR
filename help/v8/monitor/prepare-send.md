@@ -52,7 +52,7 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
    Voici les KPI qui s’affichent :
 
-   * **[!UICONTROL Ciblés]**: nombre de destinataires ciblés.
+   * **[!UICONTROL Ciblés]** : le nombre de destinataires ciblés.
    * **[!UICONTROL À diffuser]** : le nombre de messages qui seront envoyés.
    * **[!UICONTROL À exclure]** : le nombre de messages exclus par une [règle de typologie](../advanced-settings/delivery-settings.md#typology).
 

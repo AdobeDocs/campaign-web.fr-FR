@@ -7,7 +7,7 @@ badge: label="Disponibilité limitée"
 source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 77%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 77%
 
 Une fois le contenu de votre message défini, vous pouvez le prévisualiser et le tester en envoyant des diffusions test aux profils de test. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son contenu dans le message à l’aide des données de profil de test.
 
-Pour détecter d&#39;éventuelles erreurs dans le contenu du message ou les paramètres de personnalisation, envoyez des diffusions test aux profils de test avant de l&#39;envoyer à l&#39;audience cible. Une diffusion de test doit être envoyée chaque fois qu’une modification est apportée, afin de valider le contenu le plus récent. L&#39;envoi de diffusions test (également appelées &quot;BAT&quot;) est une étape importante dans la validation de votre campagne et l&#39;identification des problèmes potentiels. Les destinataires de la diffusion test peuvent vérifier différents éléments tels que des liens, des liens de désinscription, des images ou des pages miroir, et détecter les erreurs dans le rendu, le contenu, les paramètres de personnalisation et la configuration de la diffusion.
+Pour détecter d’éventuelles erreurs dans le contenu du message ou les paramètres de personnalisation, envoyez des diffusions test aux profils de test avant de les envoyer à l’audience cible. Une diffusion test doit être envoyée à chaque modification afin de valider le contenu le plus récent. L’envoi de diffusions test (également appelées « BAT ») est une étape importante dans la validation de votre campagne et l’identification de tout problème potentiel. Les destinataires d’une diffusion test peuvent vérifier différents éléments tels que des liens, des liens de désinscription, des images ou des pages miroir, ainsi que détecter toute erreur de rendu, de contenu, de paramètres de personnalisation et de configuration de la diffusion.
 
 ## Simuler du contenu avec des destinataires test {#simulate-content-test-deliveries}
 
@@ -35,17 +35,17 @@ Pour commencer à tester le contenu de votre message :
 
 1. Modifiez le contenu de votre diffusion.
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
-1. Cliquez sur le bouton **[!UICONTROL Test]** pour envoyer des diffusions test.
+1. Cliquez sur le bouton **[!UICONTROL Test]** pour envoyer les diffusions test.
 
    ![](assets/simulate-test-button-email.png)
 
-1. Sélectionnez les personnes destinataires du test.
+1. Sélectionnez les destinataires du test.
 
-   En fonction du canal du message, les diffusions test peuvent être envoyées aux types de destinataires suivants :
+   Selon le canal de message, les diffusions test sont envoyées aux types de destinataires suivants :
 
    * Pour les SMS et les e-mails, vous pouvez utiliser des [profils de test](#test-profiles), qui sont des destinataires supplémentaires spécifiques dans la base de données. [En savoir plus](../audience/test-profiles.md)
 
-   * Pour les SMS et les emails, vous pouvez également utiliser la variable [substitution de la cible principale](#substitution-profiles) , qui envoie les diffusions test à une adresse de test email ou un numéro de téléphone, et utilise les données de personnalisation d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez la personne destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
+   * Pour les SMS et les e-mails, vous pouvez également utiliser le mode de [substitution de la cible principale](#substitution-profiles), qui envoie les diffusions test à l’adresse e-mail ou au numéro de téléphone test, et utilise les données de personnalisation d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez la personne destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
 
    * Pour les messages push, vous pouvez utiliser des [personnes abonnées](#subscribers) fictives ajoutées à la base de données. Elles sont créés dans la console [!DNL Campaign]. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
@@ -73,9 +73,9 @@ Pour commencer à tester le contenu de votre message :
 >title="Inclure les profils de test dans l’audience principale"
 >abstract="Activez cette option pour envoyer également le message final aux personnes destinataires de la diffusion de test."
 
-Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Ils peuvent être créés à partir de la fonction **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** . [En savoir plus](../audience/test-profiles.md#create-test-profiles)
+Les profils de test sont des adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. Pour les créer, accédez au menu **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]**. [En savoir plus](../audience/test-profiles.md#create-test-profiles)
 
-Les étapes d&#39;envoi des diffusions test aux adresses de contrôle sont présentées ci-après.
+Les étapes d’envoi de diffusions test aux adresses de contrôle sont détaillées ci-dessous.
 
 1. Dans le contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Test]**.
 
@@ -85,7 +85,7 @@ Les étapes d&#39;envoi des diffusions test aux adresses de contrôle sont prés
 
    >[!NOTE]
    >
-   >Les profils de test sont créés à partir de la fonction **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** . Découvrez comment les créer et les gérer dans [cette section](../audience/test-profiles.md#create-test-profiles).
+   >Pour créer des profils de test, accédez au menu **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]**. Découvrez comment créer et gérer des profils de test dans [cette section](../audience/test-profiles.md#create-test-profiles).
 
 1. Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l’écran de simulation du contenu, ils sont présélectionnés comme destinataires du test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires à l’aide du bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]**.
 
@@ -93,7 +93,7 @@ Les étapes d&#39;envoi des diffusions test aux adresses de contrôle sont prés
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test avec la variable **[!UICONTROL Prospect]** statut. Découvrez comment ajouter des règles à l’aide du [query modeler](../query/query-modeler-overview.md).
+   Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. Découvrez comment ajouter des règles à l’aide du [concepteur de requêtes](../query/query-modeler-overview.md).
 
 1. Si vous souhaitez envoyer le message final aux destinataires de la diffusion test, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
 
@@ -103,7 +103,7 @@ Les étapes d&#39;envoi des diffusions test aux adresses de contrôle sont prés
 
 ## Substituer des données de profil {#substitution-profiles}
 
-Utiliser la substitution de profil pour envoyer des diffusions test à une adresse email ou un numéro de téléphone spécifique, tout en affichant les données d’un profil existant de la variable [!DNL Adobe Campaign] base de données. Ce mode ne peut être sélectionné que si l’audience de la diffusion a été définie.
+Utilisez la substitution de profil pour envoyer des diffusions test à une adresse e-mail ou à un numéro de téléphone spécifiques, tout en affichant les données d’un profil existant de la base de données [!DNL Adobe Campaign]. Ce mode ne peut être sélectionné que si l’audience de la diffusion a été définie.
 
 Pour remplacer les données de profil de la cible principale, procédez comme suit :
 
@@ -178,6 +178,6 @@ Ces journaux permettent d’accéder à tous les tests envoyés pour la diffusio
 
 ![](assets/simulate-test-log.png)
 
-Vous pouvez également accéder aux tests envoyés à partir de la [liste de diffusion](../msg/gs-messages.md), comme toute diffusion.
+Vous pouvez également accéder aux tests envoyés à partir de la [liste des diffusions](../msg/gs-messages.md), comme pour n’importe quelle diffusion.
 
 ![](assets/simulate-deliveries-list.png)

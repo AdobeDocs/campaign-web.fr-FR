@@ -1,20 +1,21 @@
 ---
 audience: end-user
-title: Rapports globaux pour le canal push
+title: Rapports globaux du canal de notification push
 description: Présentation des rapports globaux pour le canal push
 badge: label="Disponibilité limitée"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 34%
+ht-degree: 95%
 
 ---
 
-# Rapports globaux pour le canal push {#campaign-reports-push}
+# Rapports globaux du canal de notification push {#campaign-reports-push}
 
 Les rapports globaux offrent aux utilisateurs un aperçu complet des mesures de trafic et d’engagement au niveau des canaux.
 
-Accédez au **[!UICONTROL Rapports]** dans le **[!UICONTROL Reporting]** . Vous pouvez filtrer vos données en fonction de la date, du dossier ou des règles du rapport. [En savoir plus](global-reports.md)
+Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporting]**. Vous pouvez filtrer vos données en fonction de la date, du dossier ou des règles du rapport. [En savoir plus](global-reports.md)
 
 ## Synthèse des diffusions {#delivery-summary-push}
 
@@ -23,19 +24,19 @@ Accédez au **[!UICONTROL Rapports]** dans le **[!UICONTROL Reporting]** . Vous 
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="Vue d’ensemble de la diffusion des notifications push"
->abstract="Push **présentation des diffusions** Les indicateurs de performance clés offrent un examen approfondi de vos diffusions push, fournissant des informations détaillées et des données spécifiques. Il fournit des détails complets sur les performances, l’efficacité et les résultats des diffusions."
+>abstract="Les KPI de la **Vue d’ensemble de la diffusion** des notifications push offrent un examen approfondi de vos diffusions push, en vous présentant des informations détaillées et des données ciblées. Les performances, l’efficacité et les résultats des diffusions sont scrutés à la loupe."
 
-La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit des indicateurs de performances clés (IPC) qui fournissent des informations détaillées sur la manière dont vos visiteurs interagissent avec chaque diffusion de notification push. Les mesures sont détaillées ci-dessous.
+Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI (indicateurs clés de performance) qui illustrent l’engagement de vos visiteurs et de vos visiteuses par rapport à chaque diffusion de notification push. Les mesures sont détaillées ci-dessous.
 
 ![](assets/global_report_push_delivery_overview.png)
 
-+++En savoir plus sur les mesures de présentation des diffusions.
++++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Nombre total de clics]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
+* **[!UICONTROL Nombre total de clics]** : nombre total de destinataires distincts ayant cliqué dans une diffusion au moins une fois.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
@@ -46,19 +47,19 @@ La variable **[!UICONTROL Présentation de la diffusion]** Ce rapport fournit de
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_targeted_audience"
 >title="Population ciblée des notifications push"
->abstract="La variable **Population ciblée** le graphique et le tableau présentent les données relatives à votre audience de messagerie push, avec des informations sur les messages à diffuser et les exclusions."
+>abstract="Le tableau et le graphe **Population ciblée** affichent des données relatives à votre audience de messages push, notamment les messages à diffuser et les exclusions."
 
-La variable **[!UICONTROL Audience ciblée]** tableau et graphique présentant les données relatives à vos destinataires pour chaque diffusion de notification push envoyée. Les mesures sont détaillées ci-dessous.
+Le tableau et le graphe **[!UICONTROL Audience ciblée]** présentent les données relatives à vos destinataires pour chaque diffusion de notification push envoyée. Les mesures sont détaillées ci-dessous.
 
 ![](assets/global_report_push_targeted_audience.png)
 
-+++En savoir plus sur les mesures d’audience ciblées.
++++En savoir plus sur les mesures d’audience ciblée.
 
-* **[!UICONTROL Audience ciblée]**: Nombre total de destinataires ciblés.
+* **[!UICONTROL Audience ciblée]** : nombre total de destinataires ciblés.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Exclusion]**: Nombre total d&#39;adresses ignorées lors de l&#39;analyse lors de l&#39;application des règles : adresse manquante, en quarantaine, en liste bloquée, etc.
+* **[!UICONTROL Exclusion]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
 +++
 
@@ -67,19 +68,19 @@ La variable **[!UICONTROL Audience ciblée]** tableau et graphique présentant l
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_delivery_stats"
 >title="Statistiques de diffusion push"
->abstract="La variable **Statistiques globales** Ce rapport fournit des informations sur les notifications push envoyées, notamment les taux de succès, les erreurs et les mises en quarantaine."
+>abstract="Le rapport **Statistiques globales** fournit des informations sur les notifications push envoyées, notamment le taux de succès, les erreurs et les mises en quarantaine."
 
-La variable **[!UICONTROL Statistiques de diffusion]** Le tableau décrit le succès de chaque diffusion de notification push. Les mesures sont détaillées ci-dessous.
+Le tableau **[!UICONTROL Statistiques de diffusion]** renseigne sur le succès des diffusions de notifications push. Les mesures sont détaillées ci-dessous.
 
 ![](assets/global_report_push_delivery_statistics.png)
 
-+++En savoir plus sur les mesures de statistiques de diffusion.
++++En savoir plus sur les mesures des statistiques de diffusion.
 
-* **[!UICONTROL Messages totaux]**: Nombre total de messages à diffuser après la préparation de la diffusion.
+* **[!UICONTROL Nombre total de messages]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à délivrer.
+* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Erreurs / Rebonds]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Erreurs/Rebonds]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds par rapport au nombre de messages à diffuser.
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (enregistrement non valide, rejet du message, erreur de payload, par exemple), par rapport au nombre de messages à diffuser.
 
@@ -92,20 +93,19 @@ La variable **[!UICONTROL Statistiques de diffusion]** Le tableau décrit le suc
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_exclusion"
 >title="Causes d’exclusion des notifications push"
->abstract="La variable **Causes d’exclusion** Le graphique et le tableau illustrent les différentes raisons qui ont empêché les profils utilisateur de recevoir les notifications push."
+>abstract="Le graphe et le tableau **Causes d’exclusion** renseignent sur les différentes raisons pour lesquelles les profils utilisateur n’ont pas reçu les notifications push."
 
-La variable **[!UICONTROL Causes d&#39;exclusion]** le graphique et le tableau affichent les raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message.
+Le graphe et le tableau **[!UICONTROL Causes d’exclusion]** illustrent les raisons pour lesquelles les profils utilisateur exclus des profils ciblés n’ont pas reçu le message.
 
 Les types d’erreur de notifications push sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
 
-## Débit des diffusions (Delivery throughput)  {#delivery-throughput-sms}
+## Débit de diffusion {#delivery-throughput-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_push"
 >title="Rapport de débit de diffusion"
->abstract="La variable **Débit de diffusion** le rapport présente des informations détaillées sur le débit de diffusion des notifications push de l’ensemble de la plateforme au cours d’une période spécifiée."
+>abstract="Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de la notification push de l’ensemble de la plateforme dans un délai donné."
 
 ![](assets/global_report_push_delivery_throughput.png)
 
-La variable **[!UICONTROL Débit de diffusion]** Ce rapport offre des informations complètes sur l’efficacité du système de diffusion des notifications push, et offre un résumé détaillé des taux de succès et d’erreur sur une période donnée.
-
+Le rapport **[!UICONTROL Débit de diffusion]** offre des informations complètes sur l’efficacité du système de diffusion des notifications push, ainsi qu’un résumé détaillé des taux de succès et d’erreur sur une période donnée.

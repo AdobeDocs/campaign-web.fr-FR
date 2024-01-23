@@ -5,7 +5,8 @@ description: Découvrez comment utiliser le modèle de requête.
 hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 95%

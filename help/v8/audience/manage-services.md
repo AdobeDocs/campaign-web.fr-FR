@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 70%
+ht-degree: 74%
 
 ---
 
@@ -68,9 +68,9 @@ Pour créer un service d’abonnement, procédez comme suit :
 
    ![](assets/service-create-properties.png)
 
-1. Par défaut, les services sont stockés dans la variable **[!UICONTROL Services et abonnements]** dossier. Vous pouvez la modifier en accédant à l’emplacement souhaité. [Découvrez comment utiliser des dossiers](../get-started/permissions.md#folders)
+1. Par défaut, les services sont stockés dans la variable **[!UICONTROL Services et abonnements]** dossier. Vous pouvez le modifier en accédant à l’emplacement souhaité. [Découvrez comment utiliser les dossiers](../get-started/permissions.md#folders)
 
-1. Par défaut, les abonnements sont illimités. Vous pouvez désactiver la variable **[!UICONTROL Durée de validité illimitée]** pour définir une durée de validité du service.
+1. Par défaut, les abonnements sont illimités. Vous pouvez désactiver l’option **[!UICONTROL Période de validité illimitée]** pour définir une durée de validité du service.
 
    Dans l’exemple ci-dessous, après 20 jours :
    * Aucun destinataire ne pourra plus s’abonner à ce service.

@@ -97,7 +97,7 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes r
 
 ![](assets/reporting_push_6.png)
 
-## Débit des diffusions {#delivery-throughput}
+## Débit de diffusion {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
