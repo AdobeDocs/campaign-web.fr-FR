@@ -1,15 +1,15 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
-user-guide-description: Documentation du produit pour le Web de Campaign v8.
-title: Documentation d’Adobe Campaign v8 Web
+user-guide-description: Documentation du produit Campaign v8 Web.
+title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 81%
+source-wordcount: '537'
+ht-degree: 89%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 81%
       + [Créer votre premier e-mail](email/create-email.md)
       + Définir le contenu d’un email {#content}
          + [Configurer le contenu de l’e-mail](email/edit-content.md)
-         + [Utilisation de modèles de contenu](email/create-email-templates.md)
+         + [Utiliser des modèles de contenu](email/create-email-templates.md)
          + Commencer à rédiger l’e-mail {#start-design}
             + [Commencer avec le concepteur d’e-mail](email/get-started-email-designer.md)
             + [Démarrer en partant de zéro](email/create-email-content.md)
@@ -91,16 +91,17 @@ ht-degree: 81%
 + Profils et audiences {#audiences}
    + [Prise en main des profils et des audiences](audience/gs-audiences-recipients.md)
    + [Dimensions de ciblage](audience/targeting-dimensions.md)
-   + Utilisation de profils {#work-with-profiles}
+   + Utiliser les profils {#work-with-profiles}
       + [Surveillance et gestion des profils](audience/about-recipients.md)
       + [Créer et gérer des profils de test](audience/test-profiles.md)
-   + Utilisation des audiences {#audiences}
-      + [Création d’audiences](audience/create-audience.md)
+   + Utiliser les audiences {#audiences}
+      + [Créer des audiences](audience/create-audience.md)
       + [Surveillance et gestion des audiences](audience/manage-audience.md)
    + Sélectionner les personnes destinataires de vos diffusions {#target-audiences}
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
+      + [Utiliser une audience Adobe Experience Platform](audience/aep-audience.md)
       + [Configurer une population témoin](audience/control-group.md)
    + Utiliser des services d’abonnement {#work-with-services}
       + [Créer et gérer des services d’abonnement](audience/manage-services.md)
@@ -128,13 +129,13 @@ ht-degree: 81%
       + [E-mail, SMS, notification push](workflows/activities/channels.md)
       + [Enrichissement](workflows/activities/enrichment.md)
       + [Branchement](workflows/activities/fork.md)
-      + [Chargement de fichier ](workflows/activities/load-file.md)
+      + [Charger un fichier](workflows/activities/load-file.md)
       + [Réconciliation](workflows/activities/reconciliation.md)
       + [Sauvegarde d’audience](workflows/activities/save-audience.md)
       + [Planificateur](workflows/activities/scheduler.md)
       + [Partage](workflows/activities/split.md)
       + [Attente](workflows/activities/wait.md)
-+ Interrogation de la base de données {#query-database}
++ Interroger la base de données {#query-database}
    + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
    + [Éditer les expressions](query/expression-editor.md)
@@ -142,20 +143,20 @@ ht-degree: 81%
    + [Filtrer les listes](query/filter.md)
 + Rapports {#reports}
    + [Commencer avec les rapports](reporting/gs-reports.md)
-   + [Exportation des rapports](reporting/export-reports.md)
+   + [Exporter vos rapports](reporting/export-reports.md)
    + [Indicateurs clés de performance](reporting/kpis.md)
-   + Rapports sur les diffusions {#delivery-report}
+   + Rapports de diffusion {#delivery-report}
       + [Prise en main des rapports de diffusion](reporting/delivery-reports.md)
       + [Rapport de diffusion par e-mail](reporting/email-report.md)
       + [Rapport de diffusion des notifications push](reporting/push-report.md)
       + [Rapport de diffusion SMS](reporting/sms-report.md)
    + Rapports de campagne {#campaign-report}
       + [Prise en main des rapports de campagne](reporting/campaign-reports.md)
-      + [Rapport Campagne par courriel](reporting/campaign-reports-email.md)
-      + [Rapport de campagne push](reporting/campaign-reports-push.md)
-      + [Rapport de campagne SMS](reporting/campaign-reports-sms.md)
+      + [Rapport de campagne par e-mail](reporting/campaign-reports-email.md)
+      + [Rapport de campagne par notification push](reporting/campaign-reports-push.md)
+      + [Rapport de campagne par SMS](reporting/campaign-reports-sms.md)
    + Rapports globaux {#global-report}
       + [Prise en main des rapports globaux](reporting/global-reports.md)
-      + [Envoyer le rapport global par courriel](reporting/global-report-email.md)
-      + [Push global report](reporting/global-report-push.md)
-      + [Rapport global de SMS](reporting/global-report-sms.md)
+      + [Rapport global par e-mail](reporting/global-report-email.md)
+      + [Rapport global par notifications push](reporting/global-report-push.md)
+      + [Rapport global par SMS](reporting/global-report-sms.md)

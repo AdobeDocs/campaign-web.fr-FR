@@ -2,12 +2,12 @@
 audience: end-user
 title: Utiliser une audience Adobe Experience Platform
 description: Découvrez comment utiliser une audience à partir d’Adobe Experience Platform.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 93%
+source-wordcount: '327'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,8 @@ Pour sélectionner une audience Adobe Experience Platform pour votre diffusion
    ![](assets/select-audience-folder.png)
 
    Vous pouvez également définir une règle pour filtrer l’origine des audiences, comme indiqué ci-dessous :
+
+   La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au query modeler, qui permet de créer des filtres avancés pour la liste des audiences. [Découvrez comment utiliser le créateur de modèles de requête](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 

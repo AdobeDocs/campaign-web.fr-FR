@@ -3,11 +3,11 @@ audience: end-user
 title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="Disponibilité limitée"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 82%
+source-wordcount: '317'
+ht-degree: 66%
 
 ---
 
@@ -28,15 +28,15 @@ Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à
 
 Pour sélectionner une audience existante pour votre message, procédez comme suit :
 
-1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
+1. Dans la **Audience** de l&#39;assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** puis choisissez **[!UICONTROL Sélection de l’audience]** pour utiliser une audience existante.
 
    ![](assets/create-audience.png)
 
-1. Choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante. Cet écran affiche toutes les audiences existantes pour le dossier actuel.
+1. Cet écran affiche toutes les audiences existantes pour le dossier actuel.
 
    ![](assets/create-audience2.png)
 
-   Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section dédiée aux filtres de l’écran.
+   Pour choisir une audience dans Adobe Experience Platform, accédez à la `AEP Audiences folder` dans la section filtre de l’écran. [Découvrez comment utiliser une audience Adobe Experience Platform](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 
