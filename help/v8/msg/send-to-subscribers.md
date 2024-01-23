@@ -4,10 +4,10 @@ title: Envoyer des messages aux personnes abonnées à un service
 description: Découvrez comment envoyer des messages aux personnes abonnées à un service.
 badge: label="Disponibilité limitée"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 61%
 
 ---
 
@@ -17,15 +17,20 @@ Vous pouvez créer des services d’abonnements dans Adobe Campaign et envoyer 
 
 Pour envoyer des messages à vos personnes abonnées, créez une audience spécifique pour identifier les personnes abonnées, puis créez la diffusion comme décrit ci-dessous.
 
-1. Créez une audience. Pour en savoir plus sur les audiences, consultez [cette page](../audience/create-audience.md).
+1. Créez une audience. Un nouveau workflow est automatiquement créé. [En savoir plus sur les audiences](../audience/create-audience.md)
 
-1. Dans l’activité **[!UICONTROL Créer une audience]**, affichez les attributs avancés et sélectionnez **[!UICONTROL Destinataire]** > **[!UICONTROL Abonnements]** > **[!UICONTROL Service]**.
+1. Pour une meilleure lisibilité, modifiez le nom du workflow dans les paramètres du workflow. **Libellé** champ . [Découvrez comment configurer les paramètres du workflow](../workflows/workflow-settings.md)
 
-   Dans cet exemple, sélectionnez les personnes abonnées au service libellé **Newsletter Luma**.
+1. Ouvrez le **[!UICONTROL Créer une audience]** et sélectionnez **[!UICONTROL Créer une audience]**. [Découvrez comment configurer une activité Créer une audience](../workflows/activities/build-audience.md).
+
+   ![](assets/service-create-audience.png)
+
+1. Dans le flux de création de l’audience, sélectionnez les conditions personnalisées suivantes : **[!UICONTROL Abonnements]** existent tels que **[!UICONTROL Service]** est égal au service que vous avez défini. Dans cet exemple, sélectionnez votre **newsletter yoga Luma**.
 
    ![](assets/service-audience-subscribers.png)
 
-1. Enregistrez l&#39;audience.
+1. Sélectionner **[!UICONTROL Confirmer]** et cliquez sur **[!UICONTROL Début]** pour exécuter le workflow.
+
 1. Créez une diffusion. Les étapes de création d’une diffusion sont détaillées sur [cette page](../msg/gs-messages.md#create-delivery).
 1. Accédez aux paramètres de diffusion et définissez le mapping de ciblage par défaut sur **Abonnements (nms:subscriptions)**.
 
