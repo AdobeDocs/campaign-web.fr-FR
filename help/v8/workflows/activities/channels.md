@@ -4,10 +4,10 @@ title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 badge: label="Disponibilité limitée"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 94%
+source-wordcount: '905'
+ht-degree: 70%
 
 ---
 
@@ -28,17 +28,19 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 
 ## Créer votre workflow {#build-your-workflow}
 
-Commencez à créer votre workflow avec les activités pertinentes avant de placer la diffusion :
+Commencez à construire votre workflow avec les activités pertinentes avant d&#39;insérer l&#39;activité Canal :
 
-* Pour envoyer une diffusion récurrente, démarrez votre workflow avec une activité **Planificateur**. Pour envoyer une diffusion ponctuelle, vous pouvez définir la date de contact à l’aide d’une activité **Planificateur** ou définir le planning dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
+* Avant d&#39;insérer une activité de diffusion, vous devez définir l&#39;audience. L&#39;audience est la cible principale de votre diffusion : les profils qui reçoivent les messages. Lors de l&#39;envoi de messages dans le cadre d&#39;un workflow de campagne, l&#39;audience du message n&#39;est pas définie dans l&#39;activité Canal, mais dans une activité dédiée, telle que :
 
-* Ajoutez une activité **Créer une audience**. L’audience est la cible principale de votre diffusion : il s’agit des destinataires qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**. Consultez [cette section](build-audience.md).
+   * A **Créer une audience** activité. [En savoir plus](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-  >[!NOTE]
-  >
-  >Vous pouvez également cibler une audience chargée à partir d’un fichier. Pour ce faire, utilisez un **Chargement de fichier** activité suivie d’une **Réconciliation** activité. [En savoir plus](../../audience/about-recipients.md)
+   * A **Chargement de fichier** activité suivie d’une **Réconciliation** activité. [En savoir plus](load-file.md).
+
+
+* Pour envoyer une diffusion récurrente, démarrez votre workflow avec un **Planificateur** activité. Vous pouvez également utiliser une **Planificateur** activité pour les diffusions uniques ponctuelles afin de définir la date de contact pour cette diffusion. Cette date de contact peut également être définie dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
+
 
 ## Configurer l’activité Canal {#create-a-delivery-in-a-workflow}
 
@@ -68,24 +70,24 @@ Pour configurer une diffusion dans le cadre d’un workflow, procédez comme sui
 
 1. Sélectionnez le **Type de diffusion** : unique ou récurrent.
 
-   * **Diffusion unique** : il s’agit d’une diffusion ponctuelle, envoyée une seule fois, par exemple un e-mail pour le Black Friday.
-   * **Diffusion récurrente** : pour ce type de diffusion, vous définissez la fréquence d’exécution à l’aide d’une [activité Planificateur](scheduler.md). À chaque exécution du workflow, l’audience est recalculée et la diffusion est envoyée avec le contenu mis à jour. Il peut s’agir d’une newsletter hebdomadaire ou d’un e-mail d’anniversaire récurrent.
+   * A **Diffusion unique** est une diffusion ponctuelle, envoyée une seule fois, par exemple un email du Black Friday.
+   * A **Diffusion récurrente** est envoyé plusieurs fois en fonction de sa fréquence d’exécution définie dans une [activité du planificateur](scheduler.md). A chaque exécution du workflow, l&#39;audience est recalculée et la diffusion est envoyée à l&#39;audience mise à jour, avec le contenu mis à jour. Il peut s’agir d’une newsletter hebdomadaire ou d’un email récurrent d’anniversaire, par exemple.
 
 1. Choisissez un **modèle** de diffusion. Les modèles sont des paramètres de diffusion préconfigurés, spécifiques à un canal. Un modèle intégré est disponible pour chaque canal et prérempli par défaut. [En savoir plus](../../msg/delivery-template.md).
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Vous pouvez sélectionner un autre modèle dans le volet de gauche de la configuration de l’activité de canal. Si l’audience précédemment sélectionnée n’est pas compatible avec le canal, vous ne pouvez pas sélectionner de modèle. Pour résoudre ce problème, modifiez l’activité **Créer une audience** et sélectionnez une audience ayant le mapping de ciblage approprié. En savoir plus sur les mappings de ciblage dans [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}
+   Vous pouvez sélectionner le modèle dans le volet de gauche de la configuration de l’activité des canaux. Si l’audience précédemment sélectionnée n’est pas compatible avec le canal, vous ne pouvez pas sélectionner de modèle. Pour résoudre ce problème, modifiez l’activité **Créer une audience** et sélectionnez une audience ayant le mapping de ciblage approprié. En savoir plus sur les mappings de ciblage dans [cette section](../../audience/targeting-dimensions.md)
 
-1. Cliquez sur **Créer une diffusion**. Définissez les paramètres et le contenu de votre message de la même manière que vous créez une diffusion autonome. Vous pouvez également planifier et simuler le contenu. [En savoir plus](../../msg/gs-messages.md)
+1. Cliquez sur **Créer une diffusion**. Vous pouvez ensuite définir vos paramètres de message et votre contenu de la même manière que vous créez une diffusion autonome. Vous pouvez également tester et simuler le contenu. [En savoir plus](../../msg/gs-messages.md)
 
-1. Revenez à votre workflow. Si vous souhaitez continuer votre workflow, **Générer une transition sortante** pour ajouter une transition après l’activité de canal.
+1. Revenez à votre workflow. Si vous souhaitez continuer votre workflow, faites basculer le **Générer une transition sortante** pour ajouter une transition après l’activité du canal.
 
 1. Cliquez sur **Démarrer** pour lancer le workflow.
 
    Par défaut, le lancement d’un workflow déclenche l’étape de préparation du message, sans envoyer immédiatement le message.
 
-1. Ouvrez l’activité de diffusion pour confirmer l’envoi à partir du bouton **Vérifier et envoyer**.
+1. Ouvrez votre activité de canal pour confirmer l’envoi à partir de la **Réviser et envoyer** bouton .
 
 1. Dans le tableau de bord de la diffusion, cliquez sur **Envoyer**.
 
