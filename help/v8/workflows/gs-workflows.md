@@ -5,7 +5,7 @@ description: Découvrez comment commencer avec les workflows.
 badge: label="Disponibilité limitée"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 
