@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilité limitée"
-source-git-commit: 59929983859687081859e007b4e3b48a6279edee
+source-git-commit: db318411c9271688b1982acd7f0a23349f18b984
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1654'
 ht-degree: 80%
 
 ---
@@ -405,4 +405,7 @@ Deprecated IDs - to remove in GA: -->
 >title="Ce modèle est prêt uniquement"
 >abstract="TBC"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Générer tous les sous-ensembles dans la même table"
+>abstract="TBC"
