@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux rapports de diffusion par e-mail et
 badge: label="Disponibilité limitée"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2245'
 ht-degree: 100%
 

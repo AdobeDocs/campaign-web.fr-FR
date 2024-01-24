@@ -5,7 +5,7 @@ description: En savoir plus sur les rapports de campagne du canal E-mail
 badge: label="Disponibilité limitée"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
