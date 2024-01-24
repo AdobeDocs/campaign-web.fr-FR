@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilité limitée"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 59929983859687081859e007b4e3b48a6279edee
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 81%
+source-wordcount: '1646'
+ht-degree: 80%
 
 ---
 
@@ -397,3 +397,12 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Attributs avancés du créateur de règles"
 >abstract="Seuls les attributs les plus courants sont affichés par défaut dans la liste des attributs. Activez le bouton (bascule) **Afficher les attributs avancés** pour afficher tous les attributs disponibles pour la liste actuelle dans la palette gauche du créateur de règles, tels que les nœuds, les regroupements, les liens 1-1 et les liens 1-N."
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_readonlymode"
+>title="Ce modèle est prêt uniquement"
+>abstract="TBC"
+
+
