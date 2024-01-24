@@ -5,7 +5,7 @@ description: Découvrez comment travailler avec le concepteur de requête d’Ad
 badge: label="Disponibilité limitée"
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
