@@ -1,12 +1,12 @@
 ---
 title: Utiliser des filtres prédéfinis
-description: Découvrez comment créer et gérer des filtres prédéfinis dans l’interface utilisateur web d’Adobe Campaign.
+description: Découvrez comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 85%
+source-wordcount: '821'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 85%
 >title="Filtres prédéfinis"
 >abstract="L’interface utilisateur web de Campaign vous offre désormais une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis qui répondent à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure."
 
-Les filtres prédéfinis sont des filtres personnalisés qui sont créés et enregistrés afin d’être disponibles pour une utilisation ultérieure. Ils peuvent être utilisés comme raccourcis lors de toute opération de filtrage avec le modeleur de requête, par exemple lors du filtrage d&#39;une liste de données ou de la création de l&#39;audience d&#39;une diffusion.
+Les filtres prédéfinis sont des filtres personnalisés qui sont créés et enregistrés afin d’être disponibles pour une utilisation ultérieure. Ils peuvent être utilisés comme raccourcis lors d’opérations de filtrage avec le concepteur de requête, par exemple lors du filtrage d’une liste de données ou de la création de l’audience d’une diffusion.
 
 Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-ensemble spécifique de vos données ou créer vos propres filtres prédéfinis et les enregistrer.
 
@@ -55,11 +55,11 @@ Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-e
 >title="Créer des règles de filtrage prédéfinies"
 >abstract="Pour définir les conditions de filtrage de votre filtre personnalisé, cliquez sur le bouton « Créer une règle »."
 
-### Création d’un filtre à partir du créateur de modèles de requête {#create-from-rule-builder}
+### Créer un filtre à partir du concepteur de requête {#create-from-rule-builder}
 
-Vous pouvez enregistrer un filtre personnalisé à partir du [query modeler](../query/query-modeler-overview.md) pour la rendre disponible pour une utilisation ultérieure. Procédez comme suit :
+Vous pouvez enregistrer un filtre personnalisé à partir du [concepteur de requête](../query/query-modeler-overview.md) afin de le rendre disponible pour une utilisation ultérieure. Procédez comme suit :
 
-1. Ouvrez le modèle de requête et définissez vos conditions de filtrage. Dans l&#39;exemple ci-dessous, vous filtrez les destinataires qui vivent à Madrid et se sont abonnés à une Newsletter.
+1. Ouvrez le concepteur de requête et définissez vos conditions de filtrage. Dans l’exemple ci-dessous, vous filtrez les personnes destinataires qui vivent à Madrid et qui ont un abonnement à une newsletter.
 1. Cliquez sur le bouton **Sélectionner ou enregistrer un filtre** et sélectionnez **Enregistrer en tant que filtre**.
 
    ![](assets/predefined-filters-save.png)

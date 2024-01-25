@@ -4,10 +4,10 @@ title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 >title="Création et gestion des services"
 >abstract="Utilisez Adobe Campaign pour créer et surveiller vos services, tels que les newsletters, et pour vérifier les inscriptions ou désinscriptions à ces services. Les abonnements ne s’appliquent qu’aux diffusions e-mail et SMS."
 
-Utilisez Adobe Campaign Web pour créer et surveiller vos services tels que les newsletters, ainsi que pour vérifier les abonnements et désabonnements relatifs à ces services.
+Utilisez le Web Adobe Campaign pour gérer et créer vos services tels que les newsletters, et pour vérifier les abonnements ou désabonnements à ces services.
 
 >[!NOTE]
 >
