@@ -4,10 +4,10 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Disponibilité limitée"
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 66%
+source-wordcount: '326'
+ht-degree: 72%
 
 ---
 
@@ -36,11 +36,15 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
    ![](assets/create-audience2.png)
 
-   Pour choisir une audience dans Adobe Experience Platform, accédez à la `AEP Audiences folder` dans la section filtre de l’écran. [Découvrez comment utiliser une audience Adobe Experience Platform](aep-audience.md)
+   Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section dédiée aux filtres de l’écran.
 
    ![](assets/select-audience-folder.png)
 
-1. La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au query modeler, qui permet de créer des filtres avancés pour la liste des audiences. [Découvrez comment utiliser le créateur de modèles de requête](../query/query-modeler-overview.md)
+1. La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au query modeler, qui permet de créer des filtres avancés pour la liste des audiences. [Découvrez comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
+
+   Vous pouvez par exemple définir une règle pour filtrer l&#39;origine des audiences, comme dans l&#39;exemple ci-dessous :
+
+   ![](assets/filter-on-aep-audience.png)
 
 1. Cliquez sur **Confirmer** pour ajouter votre audience comme cible principale de la diffusion. Une fois cette opération terminée, vous pouvez toujours affiner l’audience à l’aide du créateur de requêtes en cliquant sur le **Modifier des règles** bouton .
 

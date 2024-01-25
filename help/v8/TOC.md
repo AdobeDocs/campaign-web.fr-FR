@@ -6,10 +6,10 @@ title: Documentation d’Adobe Campaign v8 Web
 description: Documentation de Campaign v8 Web
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 92%
+source-wordcount: '536'
+ht-degree: 91%
 
 ---
 
@@ -103,7 +103,6 @@ ht-degree: 92%
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
-      + [Utiliser une audience Adobe Experience Platform](audience/aep-audience.md)
       + [Configurer une population témoin](audience/control-group.md)
    + Utiliser des services d’abonnement {#work-with-services}
       + [Créer et gérer des services d’abonnement](audience/manage-services.md)
