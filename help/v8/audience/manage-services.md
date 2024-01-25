@@ -4,10 +4,10 @@ title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 71%
+source-wordcount: '951'
+ht-degree: 66%
 
 ---
 
@@ -91,6 +91,17 @@ Vous pouvez maintenant :
 * Envoyez des messages aux abonnés de ce service. [Voici comment procéder](../msg/send-to-subscribers.md).
 
 ## Créer un message de confirmation {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Sélectionner le modèle de diffusion des abonnements"
+>abstract="Pour envoyer des messages de confirmation aux utilisateurs abonnés à votre service, vous devez sélectionner un modèle de diffusion spécifique basé sur la variable **[!UICONTROL Abonnements]** mapping de ciblage, sans cible définie."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="Sélectionnez le modèle de diffusion Désinscriptions ."
+>abstract="Pour envoyer des messages de confirmation aux utilisateurs qui se désabonnent de votre service, vous devez sélectionner un modèle de diffusion spécifique basé sur le **[!UICONTROL Abonnements]** mapping de ciblage, sans cible définie."
 
 Pour envoyer des messages de confirmation aux personnes qui s’abonnent à ou se désabonnent de votre service, vous devez créer un modèle de diffusion avec le mapping de ciblage **[!UICONTROL Abonnements]**, sans cible définie. Procédez comme suit :
 

@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilité limitée"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1697'
 ht-degree: 78%
 
 ---
@@ -242,10 +242,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Profil en lecture seule des personnes destinataires"
 >abstract="Profil en lecture seule des personnes destinataires"
 
->[!CONTEXTUALHELP]
->id="acw_subscriptions_delivery_template"
->title="Modèle de diffusion des abonnements"
->abstract="Modèle de diffusion des abonnements"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
