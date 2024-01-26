@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Prise en main des messages et des diffusions dans Campaign v8 Web
+title: Prise en main des messages et des diffusions dans le web Adobe Campaign
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 51cde630b5867662c40f79109f40f78a08eb758f
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
 # Prise en main des messages{#gs-messages}
 
-Avec Adobe Campaign, vous pouvez envoyer des campagnes cross-canal, y compris des emails, des SMS et des notifications push, et mesurer leur impact à l’aide de divers rapports dédiés.
+Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS et notifications push, puis mesurer leur impact à l’aide de différents rapports dédiés.
 
-Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans des workflows, dans le cadre d’une campagne marketing. Découvrez comment créer et gérer diffusions dans Adobe Campaign dans [cette section](gs-deliveries.md).
+Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque personne destinataire. Ces diffusions peuvent être autonomes ou incluses dans des workflows, dans le cadre d’une campagne marketing. Découvrez comment créer et gérer diffusions dans Adobe Campaign dans [cette section](gs-deliveries.md).
 
 Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : e-mail, SMS et applications mobiles. Parcourez les sections ci-dessous pour découvrir comment créer et envoyer des messages.
 

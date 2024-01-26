@@ -4,17 +4,17 @@ title: Ajouter des offres à vos messages
 description: Découvrez comment ajouter et envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Disponibilité limitée"
-source-git-commit: 013d5ab21d3fda9e7b04ddd709185c2ff4bf23a3
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 73%
+source-wordcount: '733'
+ht-degree: 70%
 
 ---
 
 
 # Ajouter des offres à vos messages {#offers-content}
 
-Adobe Campaign v8 Web vous permet d’envoyer les offres qui ont été créées dans la console à l’aide du module **[!UICONTROL Interaction]** avec les diffusions. Pour plus d’informations sur Interaction et sur la gestion d’un catalogue d’offres dans la console, consultez la [documentation de Campaign V8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
+Adobe Campaign Web vous permet d’envoyer avec vos diffusions des offres qui ont été créées dans la console à l’aide du **[!UICONTROL Interaction]** module . Pour plus d’informations sur Interaction et sur la gestion d’un catalogue d’offres dans la console, consultez la [documentation de Campaign V8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 
 Pour envoyer des offres avec une diffusion, procédez comme suit :
 

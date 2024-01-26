@@ -1,18 +1,18 @@
 ---
 title: Se connecter à l’interface web d’Adobe Campaign
-description: Découvrez comment vous connecter à l’interface utilisateur web d’Adobe Campaign v8.
+description: Découvrez comment vous connecter à l’interface utilisateur Web d’Adobe Campaign
 badge: label="Disponibilité limitée"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 95%
+source-wordcount: '561'
+ht-degree: 85%
 
 ---
 
 # Se connecter à Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services. Découvrez comment vous connecter à Adobe Experience Cloud et accéder à l’interface web d’Adobe Campaign v8 dans cette page.
+Experience Cloud est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services. Découvrez comment vous connecter à Adobe Experience Cloud et accéder à l’interface web d’Adobe Campaign dans cette page.
 
 ## Se connecter à Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,11 +64,11 @@ La barre supérieure de l’interface vous permet d’effectuer les actions suiv
 
 ## Navigateurs pris en charge {#browsers}
 
-Campaign v8 Web est conçu pour fonctionner de manière optimale dans la dernière version de Google Chrome, Safari et Microsoft Edge. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou d’autres navigateurs.
+Adobe Campaign Web est conçu pour fonctionner de manière optimale dans la dernière version de Google Chrome, Safari et Microsoft Edge. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou d’autres navigateurs.
 
 ## Préférences de langue {#language-pref}
 
-Campaign v8 Web est actuellement disponible dans les langues suivantes :
+Adobe Campaign Web est actuellement disponible dans les langues suivantes :
 
 * Anglais (États-Unis) - EN-US
 * Français - FR

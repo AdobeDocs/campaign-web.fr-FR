@@ -4,17 +4,17 @@ title: Principes fondamentaux de la création de workflows
 description: Découvrez les principes clés des workflows avec Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 92%
+ht-degree: 84%
 
 ---
 
 
 # Principes fondamentaux de la création de workflows {#gs-workflow-creation}
 
-Avec Campaign v8 Web, vous pouvez créer des workflows dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
+Avec Adobe Campaign Web, vous pouvez créer des workflows dans un canevas visuel afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes, le traitement de fichiers.
 
 
 ## Quels sont les éléments d’un workflow ? {#gs-workflow-inside}

@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Découvrir l’interface
-description: Interface utilisateur web de Campaign v8
+description: Interface utilisateur Web d’Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilité limitée"
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '1697'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
 # Découvrir l’interface {#user-interface}
 
-La nouvelle interface web de Campaign v8 offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée aux applications et solutions Adobe Experience Cloud.
+La nouvelle interface web d’Adobe Campaign offre une expérience utilisateur moderne et intuitive afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée aux applications et solutions Adobe Experience Cloud.
 
 Découvrez comment vous connecter à Adobe Campaign et découvrir les principes de navigation des Experience Cloud [dans cet article](connect-to-campaign.md).
 
@@ -39,11 +39,11 @@ Les **indicateurs clés de performance** vous permettent de vérifier l’effica
 
 La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, la personne propriétaire, les dates de création et de modification. Cliquez sur le bouton **Afficher plus** pour charger d’autres diffusions.
 
-De plus, vous pouvez accéder aux pages d&#39;aide de la clé Web de Campaign v8 à partir de la page **Formation** de la page.
+En outre, vous pouvez accéder aux pages d’aide de la clé Web d’Adobe Campaign à partir de la page **Formation** de la page.
 
 ## Menu de navigation gauche {#user-interface-left-nav}
 
-Parcourez les liens situés à gauche pour accéder aux fonctionnalités de Campaign v8 Web. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Certains écrans de liste sont en lecture seule. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
+Parcourez les liens situés à gauche pour accéder aux fonctionnalités Web d’Adobe Campaign. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Certains écrans de liste sont en lecture seule. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
 
 
 ### Explorateur {#user-interface-explorer}
