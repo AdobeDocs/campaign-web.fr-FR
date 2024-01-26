@@ -2,12 +2,12 @@
 audience: end-user
 title: Prise en main des notifications push
 description: Découvrez comment créer et envoyer des notifications push à l’aide d’Adobe Campaign Web.
-badge: label="Beta"
+badge: label="Disponibilité limitée"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 73b87f94a2ac8478e44efb4ae74caf511baf0061
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 67%
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Les notifications push sont essentielles pour communiquer avec les utilisateurs 
 
 Pour créer des notifications push, vous disposez de trois options :
 
-* **Workflows**: après avoir ajouté une activité Canal push à votre workflow et configuré les paramètres de base, vous pouvez ensuite concevoir le contenu de vos notifications push à partir du menu du volet de droite. Pour obtenir des instructions détaillées sur la configuration d&#39;un workflow, consultez cette page.
+* **Workflows** : après avoir ajouté une activité de canal push à votre workflow et configuré les paramètres de base, vous pouvez concevoir le contenu de vos notifications push à partir du menu du volet de droite. Pour obtenir des instructions détaillées sur la configuration d’un workflow, consultez cette page.
 
-* **Campagnes**: une fois que vous avez créé une opération, vous pouvez créer une diffusion Notification push . Pour plus d&#39;informations sur la configuration de votre campagne, consultez cette page.
+* **Campagnes** : après avoir créé une campagne, vous pouvez créer une diffusion de notification push. Pour plus d’informations sur la configuration de votre campagne, consultez cette page.
 
-* **Diffusions autonomes**: impliquer les clients directement et instantanément dans la diffusion individuelle des notifications push, sans avoir besoin de workflows ni de campagnes.
+* **Diffusions autonomes** : attirez la clientèle directement et instantanément avec des diffusions de notifications push individuelles, sans avoir recours à des workflows ou à des campagnes.
 
 ![](../assets/do-not-localize/book.png) Découvrez comment configurer le canal de notification push dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=fr){target="_blank"}.
 
