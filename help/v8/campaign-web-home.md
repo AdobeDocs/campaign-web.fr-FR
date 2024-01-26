@@ -4,10 +4,10 @@ description: Centre d’aide de Campaign Web v8
 title: Documentation du produit Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilité limitée"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 44%
+ht-degree: 58%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Élément 1"
->abstract="Nouvelle expérience de conception d’e-mails, de SMS et de notifications push"
+>abstract="Nouvelle expérience de conception d’email, de SMS et de notifications push"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -41,7 +41,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Élément 4"
->abstract="Modéliseur de requêtes de génération suivante et Concepteur d’email"
+>abstract="Moteur de requête de nouvelle génération et Concepteur d’email"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -102,19 +102,19 @@ Bénéficiez de nouvelles possibilités d’automatisation et d’optimisation, 
 
 >[!TAB Composition de l’audience]
 
-Créez de nouvelles audiences dans un canevas de workflow visuel. En plus de commencer de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Combinez plusieurs audiences en une seule, enrichissez votre audience avec des attributs externes ou divisez-la en plusieurs audiences en fonction des règles de votre choix.
+Créez des audiences dans une zone de travail visuelle de workflow. En plus de commencer de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Combinez plusieurs audiences en une seule, enrichissez votre audience avec des attributs externes ou divisez-la en plusieurs audiences en fonction des règles de votre choix.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
 >[!TAB Concepteur d’e-mail]
 
-Le Concepteur d’email de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque email !
+Le concepteur d’e-mail de Campaign permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuite par glisser-déposer. Un monde de possibilités s’offre à vous : commencez à partir de zéro, importez un contenu précédent ou tirez parti de modèles existants. Vous pouvez concevoir et affiner le contenu de chaque e-mail !
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
 >[!TAB Profil 360]
 
-Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, éditer et mettre à jour leur profil.
+Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, modifier et mettre à jour votre profil.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
@@ -134,7 +134,7 @@ Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports e
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Présentation du Concepteur d'email</strong><br/>Découvrez comment commencer à partir d’un modèle ou utilisez le nouveau Concepteur d’email d’Adobe Campaign pour créer des emails sans avoir à écrire une seule ligne de code.
+    <div><strong>Présentation du Concepteur d'email</strong><br/>Découvrez comment commencer à partir d’un modèle ou utilisez Adobe Campaign pour créer un nouveau Concepteur d’email afin de créer des emails sans avoir à écrire une seule ligne de code.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
