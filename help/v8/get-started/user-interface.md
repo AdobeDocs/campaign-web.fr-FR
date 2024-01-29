@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur Web d’Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilité limitée"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 78%
+source-wordcount: '1596'
+ht-degree: 77%
 
 ---
 
@@ -178,14 +178,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
-
-
-
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
-
-
 
 
 <!-- FOR GA -->
@@ -227,55 +221,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Profil en lecture seule des personnes destinataires"
 
 
->[!CONTEXTUALHELP]
->id="acw_landingpages_menu"
->title="Pages de destination"
->abstract="Pages de destination"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_properties"
->title="Propriétés des pages de destination"
->abstract="Propriétés des pages de destination"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_pages_list"
->title="Pages des pages de destination"
->abstract="Pages des pages de destination"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_schedule"
->title="Planning des pages de destination"
->abstract="Planning des pages de destination"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="Page principale des pages de destination"
->abstract="Page principale des pages de destination"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="Abonnement aux pages de destination"
->abstract="Abonnement aux pages de destination"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_calltoaction"
->title="Appel à l’action des pages de destination"
->abstract="Appel à l’action des pages de destination"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_simulate"
->title="Simulation des pages de destination"
->abstract="Simulation des pages de destination"
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Activité non modifiable"
 >abstract="Activité non modifiable"
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -312,8 +262,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="Détails des fragments"
 >abstract="Détails des fragments"
-
-
 
 
 
