@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur Web d’Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilité limitée"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 76%
+source-wordcount: '1648'
+ht-degree: 78%
 
 ---
 
@@ -153,22 +153,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Autorisation requise"
 >abstract="Avant de pouvoir créer un segment, votre administrateur ou administratrice doit vous accorder une autorisation."
-
-
-<!-- Waves-->
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_definition"
->title="Définition des vagues"
->abstract="Définissez des vagues pour fractionner les diffusions en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_size"
->title="Taille de la vague"
->abstract="La taille de la vague est requise. Saisissez une valeur numérique (nombre de messages) ou un pourcentage (0 à 100 %) dans le champ Taille."
-
-
 
 <!-- Workflows-->
 

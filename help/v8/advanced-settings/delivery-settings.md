@@ -4,9 +4,9 @@ title: Paramètres de diffusion
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilité limitée"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2260'
+source-wordcount: '2316'
 ht-degree: 68%
 
 ---
@@ -136,6 +136,8 @@ Vous pouvez définir ce qui suit : **[!UICONTROL Envoi]** settings :
 * **[!UICONTROL Tester la diffusion SMTP]**: cette option est utilisée pour tester l’envoi par SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
 * **[!UICONTROL Email Cci]**: cette option est utilisée pour stocker les emails sur un système externe via Cci en ajoutant simplement une adresse email en Cci à votre cible de message. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
+
+* **[!UICONTROL Envoyer en plusieurs vagues]**: vous pouvez augmenter progressivement le volume envoyé à l’aide des vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. [En savoir plus](send-using-waves.md)
 
 Vous pouvez également modifier le format des emails envoyés :
 
