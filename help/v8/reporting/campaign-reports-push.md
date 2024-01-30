@@ -5,7 +5,7 @@ description: Présentation des rapports de campagne du canal de notification pus
 badge: label="Disponibilité limitée"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 

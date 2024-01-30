@@ -5,7 +5,7 @@ description: Découvrez les différentes manières d’ajuster le style du conte
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 badge: label="Disponibilité limitée"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 

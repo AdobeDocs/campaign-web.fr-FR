@@ -7,7 +7,7 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ Pour créer une nouvelle audience directement depuis une diffusion, procédez co
 
    ![](assets/segment-builder0.png)
 
-1. Sélectionnez **Créez la vôtre**. Le créateur de requêtes s’affiche. Il permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. [Découvrez comment utiliser le créateur de modèles de requête](../query/query-modeler-overview.md)
+1. Sélectionnez **Créez la vôtre**. Le créateur de requêtes s’affiche. Il permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. [Découvrez comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
 
    ![](assets/query-modeler.png)
 

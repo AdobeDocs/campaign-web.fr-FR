@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux rapports de campagne et les utilise
 badge: label="Disponibilité limitée"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
 
@@ -63,4 +63,4 @@ Pour accéder à vos rapports de campagne et les gérer, procédez comme suit :
 
 1. Dans **[!UICONTROL URL et flux de clics]**, vous pouvez également choisir **[!UICONTROL Liens les plus visités]** ou **[!UICONTROL Période]**.
 
-   Les options **[!UICONTROL Afficher par]** vous permettent de filtrer sur les URL, les libellés ou les catégories.
+   Les options **[!UICONTROL Afficher par]** vous permettent de filtrer sur des URL, des libellés ou des catégories.

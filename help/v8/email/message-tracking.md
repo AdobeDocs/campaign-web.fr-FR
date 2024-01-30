@@ -5,7 +5,7 @@ description: Découvrez comment ajouter des liens et tracker les messages envoy�
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Disponibilité limitée"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 100%
 

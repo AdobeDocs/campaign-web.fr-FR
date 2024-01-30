@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité de workflow Enrichissemen
 badge: label="Disponibilité limitée"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 100%
 
