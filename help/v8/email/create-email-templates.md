@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Disponibilité limitée"
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 
    ![](assets/content-template-create.png)
 
-1. Renseignez les détails du modèle. Vous pouvez sélectionner le dossier dans lequel vous souhaitez stocker votre modèle. Par défaut, les modèles de contenu sont stockés dans un dossier dédié de la hiérarchie Adobe Campaign : **[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
+1. Renseignez les détails du modèle. Vous pouvez sélectionner le dossier dans lequel vous souhaitez stocker votre modèle. Par défaut, les modèles de contenu sont stockés dans un dossier dédié de la hiérarchie Adobe Campaign : **[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -137,9 +137,9 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 
    ![](assets/content-template-save-back.png)
 
-Le modèle est enregistré dans le dossier par défaut de la hiérarchie Adobe Campaign (**[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**). [En savoir plus sur les dossiers](../get-started/permissions.md#folders)
+Le modèle est enregistré dans le dossier par défaut de la hiérarchie Adobe Campaign (**[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**). [En savoir plus sur les dossiers](../get-started/permissions.md#folders)
 
-Elle s’affiche également dans la variable **[!UICONTROL Modèles de contenu]** liste. [En savoir plus](#access-manage-templates)
+Il s’affiche également dans la liste des **[!UICONTROL Modèles de contenu]**. [En savoir plus](#access-manage-templates)
 
 Vous pouvez désormais utiliser ce modèle pour créer un nouveau contenu : il est disponible sous l’onglet **[!UICONTROL Modèles enregistrés]** du Concepteur d’e-mail. [Voici comment procéder](use-email-templates.md).
 
@@ -159,9 +159,9 @@ Pour enregistrer un contenu d’e-mail en tant que modèle, procédez comme suit
 
    ![](assets/email_designer-template-name.png)
 
-Le modèle est enregistré dans le dossier par défaut de la hiérarchie Adobe Campaign (**[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**). [En savoir plus sur les dossiers](../get-started/permissions.md#folders)
+Le modèle est enregistré dans le dossier par défaut de la hiérarchie Adobe Campaign (**[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**). [En savoir plus sur les dossiers](../get-started/permissions.md#folders)
 
-Elle s’affiche également dans la variable **[!UICONTROL Modèles de contenu]** liste. Il devient alors un modèle de contenu autonome, pouvant être consulté, modifié et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates)
+Il s’affiche également dans la liste des **[!UICONTROL Modèles de contenu]**. Il devient alors un modèle de contenu autonome, pouvant être consulté, modifié et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates)
 
 Vous pouvez désormais utiliser ce modèle pour créer un nouveau contenu : il est disponible sous l’onglet **[!UICONTROL Modèles enregistrés]** du Concepteur d’e-mail. [Voici comment procéder](use-email-templates.md).
 

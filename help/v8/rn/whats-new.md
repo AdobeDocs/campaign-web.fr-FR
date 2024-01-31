@@ -5,9 +5,9 @@ description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilité limitée"
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign Web comporte un concepteur de requête puissant qui simplifie l
 * Définir les audiences à cibler dans vos messages ou workflows et créer facilement de nouvelles audiences adaptées à vos besoins.
 * Appliquer des règles aux activités de workflow, telles que Partage et Réconciliation, afin de respecter vos besoins spécifiques.
 * Créer des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion.
-* Ajouter une règle pour filtrer les données affichées dans les rapports
+* Ajouter une règle pour filtrer les données affichées dans les rapports.
 * Créer des règles personnalisées pour filtrer les données affichées dans les listes, telles que les listes de personnes destinataires, de diffusions, etc.
 
 En savoir plus dans [cette section](../query/query-modeler-overview.md).
@@ -79,7 +79,7 @@ Utilisez la nouvelle UI web de Campaign pour effectuer les actions suivantes :
 * Créer, concevoir, personnaliser, planifier et envoyer des notifications par e-mail, par SMS et par notification push – [En savoir plus](../msg/gs-messages.md)
 * Créer un contenu d’e-mail personnalisé avec le concepteur d’e-mail – [En savoir plus](../email/edit-content.md)
 * Envoyer des campagnes cross-canal, y compris des SMS et des notifications push - [En savoir plus](../workflows/activities/channels.md)
-* Définissez les audiences cibles avec le modeleur de requête - [En savoir plus](../audience/about-recipients.md)
+* Définir des audiences cibles avec le concepteur de requête – [En savoir plus](../audience/about-recipients.md)
 * Prévisualiser, tester et envoyer vos messages - [En savoir plus](../monitor/prepare-send.md)
 * Surveiller l’envoi et la mesure des résultats à l’aide de rapports intégrés - [En savoir plus](../reporting/delivery-reports.md)
 

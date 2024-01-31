@@ -5,9 +5,9 @@ description: Découvrez les activités de workflows.
 badge: label="Disponibilité limitée"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Toutes les activités sont présentées dans les sections ci-dessous :
 Ces activités sont spécifiques au ciblage, à la manipulation et à l’enrichissement des données relatives à la population. Elles permettent de construire une ou plusieurs cibles en définissant une audience, puis en partageant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
 * Utilisez l’activité [Enregistrer l’audience](save-audience.md) pour mettre à jour une audience existante ou créer une nouvelle audience à partir de la population calculée en amont dans un workflow.
-* Utilisez l’activité [Créer une audience](build-audience.md) pour définir votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le modèle de requête pour définir votre propre requête.
+* Utilisez l’activité [Créer une audience](build-audience.md) pour définir votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
 * Utilisez l’activité [Combiner](combine.md) pour effectuer une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
 * Utilisez l’activité [Partage](split.md) pour segmenter la population entrante en plusieurs sous-ensembles.
 * Utilisez l’activité [Réconciliation](reconciliation.md) pour définir le lien entre les données dans la base de données Adobe Campaign et les données dans une table de travail, par exemple les données chargées à partir d’un fichier externe.

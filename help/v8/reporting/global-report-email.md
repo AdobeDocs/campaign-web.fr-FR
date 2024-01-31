@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Rapports globaux du canal e-mail
-description: En savoir plus sur les rapports globaux pour le canal email
+description: En savoir plus sur les rapports globaux du canal e-mail
 badge: label="Disponibilité limitée"
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1594'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Rapports globaux du canal e-mail {#global-report-direct}
 
-Les rapports globaux offrent aux utilisateurs un aperçu complet des mesures de trafic et d’engagement au niveau des canaux.
+Les rapports globaux offrent aux utilisateurs et aux utilisatrices une vue d’ensemble complète des mesures de trafic et d’engagement au niveau d’un canal.
 
 Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporting]**. Vous pouvez filtrer vos données en fonction de la date, du dossier ou des règles du rapport. [En savoir plus](global-reports.md)
 

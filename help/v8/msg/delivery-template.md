@@ -8,9 +8,9 @@ level: Beginner
 badge: label="Disponibilité limitée"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1087'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL G
 
 Tous les modèles qui ont été [créés](#create-a-delivery-template) sur l’environnement actuel sont affichés.
 
-Vous pouvez filtrer les modèles de contenu sur les canaux et les dossiers. Vous pouvez également définir des filtres avancés en créant une règle à l’aide d’attributs de diffusion. [En savoir plus sur le créateur de modèles de requêtes](../audience/../query/query-modeler-overview.md)
+Vous pouvez filtrer les modèles de contenu sur les canaux et les dossiers. Vous pouvez également définir des filtres avancés en créant une règle à l’aide d’attributs de diffusion. [En savoir plus sur le concepteur de requête](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 
@@ -170,7 +170,7 @@ Pour configurer un modèle de diffusion à partir de zéro, procédez comme suit
 
 1. Testez le rendu du modèle si nécessaire. [En savoir plus](#test-template)
 
-Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez désormais le sélectionner lors de la création d’une diffusion.
+Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez maintenant le sélectionner lors de la création d’une diffusion.
 
 ## Tester un modèle de diffusion {#test-template}
 
@@ -184,9 +184,9 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
 1. Sélectionnez un ou plusieurs profils de test pour vérifier le rendu de votre e-mail. Vous pouvez également sélectionner des profils réels dans votre base de données. [En savoir plus sur les profils de test](../audience/test-profiles.md)
 
-1. Basculez entre les différents profils pour obtenir une représentation personnalisée du message en fonction du profil sélectionné. Vous pouvez également ajuster le niveau de zoom et choisir la vue pour ordinateur ou mobile.
+1. Basculez entre les différents profils pour obtenir une représentation personnalisée du message selon le profil sélectionné. Vous pouvez également ajuster le niveau de zoom et choisir la vue pour ordinateur ou mobile.
 
-[En savoir plus sur la prévisualisation du contenu](../preview-test/preview-content.md)
+[En savoir plus sur la prévisualisation de contenu](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 

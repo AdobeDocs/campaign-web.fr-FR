@@ -4,9 +4,9 @@ description: Mécanismes de sécurisation et limites de l’interface utilisateu
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Le positionnement des nœuds est actualisé à chaque fois qu’une activité es
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="Ce filtre est en lecture seule."
->abstract="Certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur de cette version du produit. Ces filtres sont marqués comme étant en lecture seule. Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le modèle de requête et si vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et voir les conditions de filtrage dans le **Attributs** de l’écran."
+>abstract="Certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur de cette version du produit. Ces filtres sont marqués comme étant en lecture seule. Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le concepteur de requête et que vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage dans la section **Attributs** de l’écran."
 
 Lors de la sélection de l’audience d’une diffusion ou lors de la création d’une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur, dans cette version du produit. Ces filtres sont marqués comme étant en lecture seule.
 
@@ -69,7 +69,7 @@ Un message d’erreur spécifique s’affiche.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le modèle de requête et si vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et voir les conditions de filtrage dans le **Attributs** de l’écran.
+Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le concepteur de requête et que vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage dans la section **Attributs** de l’écran.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

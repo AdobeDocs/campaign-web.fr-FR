@@ -5,9 +5,9 @@ description: Découvrez comment utiliser l’activité de workflow Combiner.
 badge: label="Disponibilité limitée"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,11 +79,11 @@ Dans l’activité **Combiner**, vous pouvez configurer une **intersection**. Po
 1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
 1. Vous pouvez vérifier l’option **Générer le complémentaire** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
 
-## Exclusion  {#combine-exclusion}
+## Exclusion {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
->title="Règles d&#39;exclusion"
+>title="Règles d’exclusion"
 >abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur Ajouter une règle dans la section Règles d’exclusion et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
@@ -93,13 +93,13 @@ Dans l’activité **Combiner**, vous pouvez configurer une **intersection**. Po
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
->title="Règles d&#39;exclusion"
+>title="Règles d’exclusion"
 >abstract="Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur Ajouter une règle dans la section Règles d’exclusion et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="Combiner le complément de génération"
->abstract="Activez l’option Générer le complémentaire pour traiter la population restante dans une transition supplémentaire."
+>title="Combiner la génération de complément"
+>abstract="Activez l’option Générer un complément pour traiter la population restante dans une transition supplémentaire."
 
 Dans l’activité **Combiner**, vous pouvez configurer une **exclusion**. Pour cela, suivez les étapes supplémentaires ci-dessous :
 

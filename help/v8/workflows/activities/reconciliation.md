@@ -5,9 +5,9 @@ description: Découvrez comment utiliser l’activité de workflow Réconciliati
 badge: label="Disponibilité limitée"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Activité Réconciliation"
->abstract="La variable **Réconciliation** est une activité **Ciblage** activité permettant de définir le lien entre les données de la base Adobe Campaign et les données d&#39;une table de travail. Par exemple, la variable **Réconciliation** peut être placée après une **Chargement de fichier** pour importer des données non standard dans la base de données. Dans ce cas, l’activité **Réconciliation** vous permet de définir le lien entre les données dans la base de données Adobe Campaign et les données dans la table externe."
+>abstract="L’activité **Réconciliation** est une activité de **Ciblage** vous permettant de définir le lien entre les données dans la base de données Adobe Campaign et les données dans une table de travail. L’activité **Réconciliation** peut par exemple être placée après une activité **Charger un fichier** visant à importer des données non standard dans la base de données. Dans ce cas, l’activité **Réconciliation** vous permet de définir le lien entre les données dans la base de données Adobe Campaign et les données dans la table externe."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -33,9 +33,9 @@ ht-degree: 85%
 >title="Complément de génération de réconciliation"
 >abstract="Complément de génération de réconciliation"
 
-La variable **Réconciliation** est une activité **Ciblage** activité permettant de définir le lien entre les données de la base Adobe Campaign et les données d&#39;une table de travail, par exemple les données chargées à partir d&#39;un fichier externe.
+L’activité **Réconciliation** est une activité de **Ciblage** vous permettant de définir le lien entre les données dans la base de données Adobe Campaign et les données dans une table de travail, par exemple les données chargées à partir d’un fichier externe.
 
-Par exemple, la variable **Réconciliation** peut être placée après une **Chargement de fichier** pour importer des données non standard dans la base de données. Dans ce cas, l’activité **Réconciliation** vous permet de définir le lien entre les données dans la base de données Adobe Campaign et les données dans la table de travail.
+L’activité **Réconciliation** peut par exemple être placée après une activité **Charger un fichier** visant à importer des données non standard dans la base de données. Dans ce cas, l’activité **Réconciliation** vous permet de définir le lien entre les données dans la base de données Adobe Campaign et les données dans la table de travail.
 
 ## Bonnes pratiques {#reconciliation-best-practices}
 
@@ -76,7 +76,7 @@ Pour configurer l’activité **Réconciliation**, procédez comme suit :
 
 1. Glissez-déposez une activité **Réconciliation** dans votre workflow. Cette activité doit être ajoutée à la suite d’une transition contenant une population dont la dimension de ciblage ne provient pas directement d’Adobe Campaign.
 
-1. Sélectionnez la nouvelle dimension de ciblage. Une dimension vous permet de définir la population ciblée : destinataires, personnes abonnées à l’application, opérateurs et opératrices, personnes eabonnés, etc. [En savoir plus sur les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions).
+1. Sélectionnez la nouvelle dimension de ciblage. Une dimension vous permet de définir la population ciblée : destinataires, personnes abonnées à l’application, opérateurs et opératrices, personnes eabonnés, etc. [Découvrez les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions).
 
 1. Sélectionnez le ou les champs à utiliser pour la réconciliation. Vous pouvez utiliser un ou plusieurs critères de réconciliation.
 

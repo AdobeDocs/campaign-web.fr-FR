@@ -4,9 +4,9 @@ description: Poser des questions dans les fenêtres contextuelles d’aide de Ca
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Obtenez des réponses rapides et générées par l’IA en fonction de la docume
 >
 >Cette fonctionnalité est disponible dans sa version Alpha et peut être modifiée sans préavis.
 >
->Cette fonctionnalité n’est disponible qu’en **anglais**. D’autres langues ne sont pas prises en charge dans cette version. En conséquence, assurez-vous que [votre langue préférée](connect-to-campaign.md#language-pref) est définie sur Anglais avant d’utiliser cette fonctionnalité.
+>Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version. En conséquence, assurez-vous que [votre langue préférée](connect-to-campaign.md#language-pref) est définie sur Anglais avant d’utiliser cette fonctionnalité.
 
 
 L’**aide contextuelle avec l’IA générative** incorporée dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation grâce à l’identification instantanée des informations précises dont vous avez besoin.
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 L’aide contextuelle optimisée par l’IA d’Adobe Campaign vous apporte une assistance, mais vous devez vérifier les faits. Il peut produire des informations incorrectes ou des réponses inexactes ou trompeuses. Vérifiez la documentation du produit fournie sous forme de lien dans chaque zone d’aide.
 
-L’intelligence artificielle et les modèles de machine learning s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L’aide contextuelle optimisée par l’IA de Campaign continuera de s’améliorer au cours des prochains mois. Nous vous conseillons vivement d’utiliser la variable <img src="assets/do-not-localize/thumb.png" width="10%"/> chaque fois que vous lisez une réponse, pour signaler toute réponse inappropriée à nos ingénieurs.
+L’intelligence artificielle et les modèles de machine learning s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L’aide contextuelle optimisée par l’IA de Campaign continuera de s’améliorer au cours des prochains mois. Nous vous recommandons vivement d’utiliser les boutons <img src="assets/do-not-localize/thumb.png" width="10%"/> chaque fois que vous lisez une réponse, pour signaler toute réponse inappropriée à notre équipe d’ingénierie.
 
 ## Recommandations  {#recommendations-ai}
 

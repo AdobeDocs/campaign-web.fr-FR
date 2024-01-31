@@ -5,9 +5,9 @@ description: Découvrez comment commencer avec les campagnes cross-canal.
 badge: label="Disponibilité limitée"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Les campagnes offrent des mesures de rapports dédiées permettant d’obtenir d
 
 ![Flux de campagne](assets/campaign-flow.png)
 
-Découvrez comment créer, gérer et contrôler vos campagnes dans les sections suivantes :
+Découvrez comment créer, gérer et surveiller des campagnes dans les sections suivantes :
 
 * [Accéder aux campagnes et les gérer](manage-campaigns.md)
 * [Créer votre première campagne](create-campaigns.md)
-* [Parcourir les rapports de campagne](../reporting/campaign-reports.md).
+* [Parcourez vos rapports de campagne](../reporting/campaign-reports.md).
 
 

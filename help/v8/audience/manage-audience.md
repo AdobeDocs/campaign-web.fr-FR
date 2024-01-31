@@ -1,27 +1,27 @@
 ---
 audience: end-user
-title: Surveillance et gestion des audiences
-description: Découvrez comment surveiller et gérer les audiences dans Adobe Campaign Web
+title: Surveiller et gérer des audiences
+description: Découvrir comment surveiller et gérer les audiences dans Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Surveillance et gestion des audiences {#monitor}
+# Surveiller et gérer des audiences {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Propriétés"
->abstract="Vous trouverez ici un résumé des propriétés de l’audience, telles que son origine, son dossier de stockage ou son état. Cliquez sur le lien de la section **Dernier workflow** pour ouvrir le workflow qui a été utilisé pour créer l’audience."
+>abstract="Vous trouverez ici un résumé des propriétés de l’audience, telles que son origine, son dossier de stockage ou son statut. Cliquez sur le lien dans la section **Dernier workflow** pour ouvrir le workflow qui a été utilisé pour créer l’audience."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
->title="Taille de l&#39;audience"
->abstract="Vous y trouverez le nombre total de profils au sein de l’audience. Cliquez sur le bouton Calculer pour mettre à jour et recalculer les résultats de l&#39;audience."
+>title="Taille de l’audience"
+>abstract="Vous trouverez ici le nombre total de profils que comporte l’audience. Cliquez sur le bouton Calculer pour mettre à jour et recalculer les résultats de l’audience."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
@@ -34,7 +34,7 @@ Pour définir la population d’une audience, vous pouvez :
 
 * [Créer de nouvelles audiences](create-audience.md) à partir du menu **[!UICONTROL Audiences]**.
 * [Sélectionner une audience existante](add-audience.md) créée sous la forme d’une liste dans la console cliente ou provenant d’Adobe Experience Platform.
-* [Création d’une audience](../query/query-modeler-overview.md) avec le modèle de requête en définissant et combinant les critères de filtrage,
+* [Créer une audience](../query/query-modeler-overview.md) à l’aide du concepteur de requête en définissant et en combinant des critères de filtrage.
 * [Utiliser une audience depuis un fichier externe](file-audience.md). Cette option est disponible uniquement pour les diffusions d’e-mails autonomes et ne peut pas être utilisée dans les diffusions de campagne.
 
 Lors du ciblage d’une audience, vous pouvez également définir des **populations témoins** afin d’éviter d’envoyer des messages à une partie de votre audience et pour mesurer l’impact de vos campagnes. [Découvrez comment définir une population témoin](control-group.md)

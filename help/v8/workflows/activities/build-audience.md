@@ -5,9 +5,9 @@ description: Découvrez comment utiliser l’activité de workflow Créer une au
 badge: label="Disponibilité limitée"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Pour définir la population de l’audience, vous pouvez :
 
 >[!NOTE]
 >
->Les audiences chargées à partir d’un fichier ne peuvent pas être ciblées à l’aide d’une activité Créer une audience . Pour ce faire, vous devez utiliser une **Chargement de fichier** activité suivie d’une **Réconciliation** activité. [En savoir plus](../../audience/about-recipients.md)
+>Les audiences chargées à partir d’un fichier ne peuvent pas être ciblées à l’aide d’une activité Créer une audience. Pour ce faire, vous devez utiliser une activité **Charger un fichier** suivie d’une activité **Réconciliation**. [En savoir plus](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

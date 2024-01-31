@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Rapports globaux du canal SMS
-description: Présentation des rapports globaux pour le canal SMS
+description: Comprendre les rapports globaux du canal SMS
 badge: label="Disponibilité limitée"
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Rapports globaux du canal SMS {#campaign-reports-sms}
 
-Les rapports globaux offrent aux utilisateurs un aperçu complet des mesures de trafic et d’engagement au niveau des canaux.
+Les rapports globaux offrent aux utilisateurs et aux utilisatrices une vue d’ensemble complète des mesures de trafic et d’engagement au niveau d’un canal.
 
 Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporting]**. Vous pouvez filtrer vos données en fonction de la date, du dossier ou des règles du rapport. [En savoir plus](global-reports.md)
 

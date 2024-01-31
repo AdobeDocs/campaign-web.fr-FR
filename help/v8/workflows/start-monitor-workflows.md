@@ -5,13 +5,13 @@ description: Découvrez comment créer des workflows à l’aide d’Adobe Camp
 badge: label="Disponibilité limitée"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Démarrage et surveillance de vos workflows {#start-monitor}
+# Démarrer et surveiller vos workflows {#start-monitor}
 
 Une fois que vous avez créé votre workflow et conçu les tâches à effectuer dans la zone de travail, vous pouvez lancer et contrôler son exécution.
 

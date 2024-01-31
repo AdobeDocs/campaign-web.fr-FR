@@ -5,9 +5,9 @@ description: Découvrez comment utiliser l’activité de workflow d’attente.
 badge: label="Disponibilité limitée"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Pour configurer l’activité d’**attente**, procédez comme suit :
 
 1. Spécifiez la **durée** de l’attente entre les transitions entrante et sortante.
 
-1. Sélectionnez l’unité de temps dans la **Nombre de points** champ : secondes, minutes, heures, jours.
+1. Sélectionnez l’unité de temps dans le champ **Périodes** : secondes, minutes, heures, jours.
 
 ## Exemple{#wait-example}
 

@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Création d’audiences
+title: Créer des audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 1206da29f9987b55b957b6845e3dbf1e71ef03ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -49,21 +49,21 @@ Pour créer une audience, veuillez procéder comme suit :
 
 1. Accédez au menu **[!UICONTROL Audiences]** et cliquez sur le bouton **[!UICONTROL Créer une audience]** situé dans le coin supérieur droit.
 
-1. Un nouveau workflow est automatiquement créé, ce qui vous permet de combiner des activités pour générer votre audience. Par défaut, la zone de travail contient deux activités principales :
+1. Un nouveau workflow est automatiquement créé, ce qui vous permet de combiner des activités pour générer votre audience. Par défaut, la zone de travail contient deux activités principales :
 
-   * La &quot;Requête&quot; **[!UICONTROL Créer une audience]** activité est le point de départ de votre workflow, ce qui vous permet de créer une audience et de l’utiliser comme base de votre workflow.
+   * L’activité « Requête » **[!UICONTROL Créer une audience]** est le point de départ de votre workflow, qui vous permet de créer une audience et de l’utiliser comme base de votre workflow.
 
-   * La &quot;nouvelle audience&quot; **[!UICONTROL Sauvegarde d’audience]** L’activité représente la dernière étape de votre workflow, ce qui vous permet d’enregistrer les résultats en tant que nouvelle audience.
+   * L’activité « Nouvelle audience » **[!UICONTROL Enregistrer une audience]** représente la dernière étape de votre workflow et vous permet d’enregistrer les résultats du workflow en tant que nouvelle audience.
 
    ![](assets/create-audience-blank.png)
 
    >[!IMPORTANT]
    >
-   >Les workflows d’audience sont stockés dans la variable **Workflows** , ainsi que vos autres workflows Campaign. Ils sont spécialement conçus pour créer des audiences et sont identifiables par leur canevas vertical.
+   >Les workflows d’audience sont stockés dans le menu **Workflows**, avec vos autres workflows Campaign. Ils sont spécialement conçus pour créer des audiences et sont reconnaissables à leur forme de zone de travail verticale.
 
-1. Pour une meilleure lisibilité, nous vous recommandons de modifier le nom du workflow dans les paramètres du workflow. **Libellé** champ . [Découvrez comment configurer les paramètres du workflow](../workflows/workflow-settings.md)
+1. Pour une meilleure lisibilité, nous vous recommandons de modifier le nom du workflow dans le champ **Libellé** des paramètres du workflow. [Découvrir comment configurer les paramètres des workflows](../workflows/workflow-settings.md)
 
-1. Ouvrez le **[!UICONTROL Créer une audience]** et utilisez le modèle de requête pour définir la population à inclure dans votre audience en filtrant les données contenues dans la base de données. [Découvrez comment configurer une activité Créer une audience](../workflows/activities/build-audience.md).
+1. Ouvrez l’activité **[!UICONTROL Créer une audience]** et utilisez le concepteur de requête pour définir la population à inclure dans votre audience en filtrant les données contenues dans la base de données. [Découvrez comment configurer une activité Créer une audience](../workflows/activities/build-audience.md).
 
 1. Si vous souhaitez effectuer des opérations supplémentaires sur la population ciblée dans le workflow, ajoutez autant d’activités que nécessaire et connectez-les l’une à l’autre. Pour plus d’informations sur la configuration des activités de workflow, reportez-vous à la [documentation sur les workflows](../workflows/activities/about-activities.md).
 
@@ -77,7 +77,7 @@ Pour créer une audience, veuillez procéder comme suit :
 
 1. Lorsque votre workflow est prêt, cliquez sur **[!UICONTROL Démarrer]** pour l’exécuter.
 
-Le workflow est enregistré dans la variable **[!UICONTROL Workflows]** tandis que la ou les audiences obtenues sont accessibles dans la **[!UICONTROL Audiences]** avec le libellé défini dans la variable **Sauvegarde d’audience** activité. Découvrez comment surveiller et gérer les audiences dans [cette section](manage-audience.md)
+Le workflow est enregistré dans la liste **[!UICONTROL Workflows]** tandis que la ou les audiences obtenues sont accessibles dans la liste **[!UICONTROL Audiences]** avec le libellé défini dans l’activité **Enregistrer une audience**. Découvrez comment surveiller et gérer des audiences dans [cette section](manage-audience.md).
 
 Vous pouvez désormais utiliser cette audience comme cible principale d’une diffusion. [En savoir plus](add-audience.md)
 
@@ -92,16 +92,16 @@ L’exemple ci-dessous montre un workflow d’audience configuré pour cibler le
 1. L’activité **[!UICONTROL Partager]** divise le workflow en deux chemins d’accès en fonction du dernier achat des clientes.
 1. L’activité **[!UICONTROL Enregistrer une audience]** à la fin de chaque chemin d’accès crée deux nouvelles audiences dans la base de données en incluant la population calculée dans chacun des chemins.
 
-## Modification d’une audience {#edit}
+## Modifier une audience {#edit}
 
-Vous pouvez modifier une audience générée à partir d&#39;un workflow si nécessaire en réexécutant le workflow correspondant. Vous pouvez ainsi actualiser facilement les données d’audience ou affiner l’audience en ajustant la requête en fonction de vos besoins.
+Vous pouvez modifier une audience générée à partir d’un workflow à n’importe quel moment en exécutant à nouveau le workflow correspondant. Cela vous permet d’actualiser facilement les données de l’audience ou d’affiner l’audience en ajustant la requête selon vos besoins.
 
-1. Accédez au **Audiences** et ouvrez l’audience que vous souhaitez modifier.
-1. Dans le **Présentation** , **Dernier workflow** fournit un lien vers le workflow utilisé pour générer l’audience. Cliquez dessus pour accéder au workflow.
-1. Apportez les modifications souhaitées, puis cliquez sur le bouton **Début** pour réexécuter le workflow. Une fois le workflow terminé, l’audience issue du workflow est automatiquement mise à jour avec les derniers résultats du workflow.
+1. Accédez au menu **Audiences** et ouvrez l’audience que vous souhaitez modifier.
+1. Dans l’onglet **Vue d’ensemble**, la section **Dernier workflow** fournit un lien vers le workflow utilisé pour générer l’audience. Cliquez sur celui-ci pour accéder au workflow.
+1. Apportez les modifications souhaitées, puis cliquez sur le bouton **Démarrer** pour exécuter le workflow à nouveau. Une fois le workflow terminé, l’audience issue du workflow est automatiquement mise à jour avec les derniers résultats du workflow.
 
 Par défaut, la réexécution d’un workflow d’audience remplace l’ensemble du contenu de l’audience par de nouvelles données, ce qui entraîne la perte des données précédentes.
 
-Si vous préférez ne pas remplacer les résultats de l’audience existante, configurez la variable **Sauvegarde d’audience** activités afin de répondre à vos besoins. Par exemple, vous pouvez modifier la variable **Libellé de l’audience** pour stocker les nouveaux résultats dans une nouvelle audience ou ajouter les nouveaux résultats au contenu de l’audience existante sans effacer les données précédentes. [Découvrez comment configurer une activité Sauvegarde d’audience](../workflows/activities/save-audience.md)
+Si vous préférez ne pas remplacer les résultats de l’audience existante, configurez les activités **Enregistrer une audience** pour qu’elles correspondent à vos besoins. Par exemple, vous pouvez modifier le champ **Libellé de l’audience** pour stocker les nouveaux résultats dans une nouvelle audience ou pour ajouter les nouveaux résultats au contenu de l’audience existante sans effacer les données précédentes. [Découvrir comment configurer une activité Enregistrer une audience](../workflows/activities/save-audience.md)
 
 ![](assets/edit-audience-save.png)

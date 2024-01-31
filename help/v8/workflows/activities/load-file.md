@@ -5,9 +5,9 @@ description: Découvrez comment utiliser l’activité de workflow Chargement de
 badge: label="Disponibilité limitée"
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -72,12 +72,12 @@ Pour configurer l’activité **Chargement de fichier**, procédez comme suit :
 
    ![](../assets/load-file.png)
 
-1. Utilisez la variable **Colonnes** dans le volet de gauche afin d’ajuster le type et la largeur des données pour chaque colonne.
+1. Utilisez la section **Colonnes** dans le volet de gauche pour ajuster le type et la largeur des données pour chaque colonne.
 
-1. Dans le **Formatage** , située sous la configuration des colonnes, indiquez le format du fichier externe pour vous assurer que les données sont correctement importées.
+1. Dans la section **Formatage**, située sous la configuration des colonnes, indiquez le format du fichier externe pour vous assurer que les données sont correctement importées.
 
 1. Cliquez sur **Confirmer** une fois que les paramètres sont corrects.
 
 ## Exemple{#load-example}
 
-Un exemple de chargement de fichier externe utilisé avec la fonction **Réconciliation** est disponible dans [cette section](reconciliation.md#reconciliation-example).
+Un exemple de chargement de fichier externe est disponible avec l’activité **Réconciliation** dans [cette section](reconciliation.md#reconciliation-example).

@@ -2,7 +2,7 @@
 audience: end-user
 product: campaign
 title: Utiliser des modèles de contenu d’e-mail
-description: Découvrez comment utiliser des modèles de contenu d’email dans Adobe Campaign
+description: Découvrez comment utiliser des modèles de contenu d’e-mail dans Adobe Campaign.
 feature: Templates
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Disponibilité limitée"
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

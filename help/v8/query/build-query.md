@@ -5,9 +5,9 @@ description: Découvrez comment créer votre première requête dans le créateu
 badge: label="Disponibilité limitée"
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1920'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Les conditions personnalisées vous permettent d’interroger des tables liées 
 
 Pour un **lien 1-1**, accédez à la table liée, sélectionnez l’attribut souhaité et définissez la valeur attendue.
 
-Vous pouvez également sélectionner directement un lien de tableau dans la variable **Valeur** et confirmez. Dans ce cas, les valeurs disponibles pour le tableau sélectionné doivent être sélectionnées à l’aide d’un sélecteur dédié, comme illustré dans l’exemple ci-dessous.
+Vous pouvez également sélectionner directement un lien de table dans le sélecteur de **Valeur** et confirmer. Dans ce cas, les valeurs disponibles pour la table sélectionnée doivent être sélectionnées à l’aide d’un sélecteur dédié, comme illustré dans l’exemple ci-dessous.
 
 +++Exemple de requête
 
@@ -105,7 +105,7 @@ Ici, la requête cible les marques dont le libellé est « running ».
 
    ![](assets/1-1-table.png){width="85%" align="center"}
 
-Voici un exemple de requête dans lequel un lien de tableau a été directement sélectionné. Les valeurs disponibles pour ce tableau doivent être sélectionnées dans un sélecteur dédié.
+Voici un exemple de requête dans laquelle un lien de table a été directement sélectionné. Les valeurs disponibles pour cette table doivent être sélectionnées avec un sélecteur dédié.
 
 ![](assets/1-1-table-direct.png){width="85%" align="center"}
 

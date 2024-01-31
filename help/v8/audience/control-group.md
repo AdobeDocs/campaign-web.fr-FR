@@ -5,9 +5,9 @@ description: Découvrez comment définir une population témoin pour vos message
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Disponibilité limitée"
 source-git-commit: 3a5c4a02f6d3d46696e4db0f2e97d7981e2d68b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Dans la section **Population supplémentaire** de l’écran de définition de l
 
 * Pour utiliser une audience existante, cliquez sur **Sélectionner une audience**. En savoir plus dans [cette section](add-audience.md).
 
-* Pour définir une nouvelle requête, sélectionnez **Créez votre propre** et définissez les critères d’exclusion à l’aide du modèle de requête. En savoir plus dans [cette section](../query/query-modeler-overview.md).
+* Pour définir une nouvelle requête, sélectionnez **Créer votre propre requête** et définissez les critères d’exclusion à l’aide du concepteur de requête. En savoir plus dans [cette section](../query/query-modeler-overview.md).
 
 Les profils inclus dans l’audience ou correspondant au résultat de la requête sont **exclus** de la cible de la diffusion : ils ne reçoivent aucun message.
 

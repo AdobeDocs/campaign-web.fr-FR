@@ -5,9 +5,9 @@ description: Découvrez comment préparer et envoyer un e-mail avec l’interfac
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Disponibilité limitée"
 source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Si vous avez planifié l’envoi de votre e-mail à une date et une heure ultér
 
 ## Suspendre ou arrêter l’envoi {#pause-stop-sending}
 
-Si votre diffusion est planifiée ou non<!--TBC-->, deux actions peuvent être effectuées à tout moment pendant le processus d’envoi :
+Deux actions peuvent être effectuées à tout moment pendant le processus d’envoi, que votre diffusion soit planifiée ou non<!--TBC--> :
 
 * Cliquez sur **[!UICONTROL Suspendre l’envoi]** pour interrompre l’envoi des messages. Vous pouvez reprendre l’envoi à tout moment.
 

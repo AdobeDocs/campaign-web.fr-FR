@@ -5,13 +5,13 @@ description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Disponibilité limitée"
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Branchement  {#fork}
+# Branchement {#fork}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
