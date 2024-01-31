@@ -6,7 +6,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les
 
 ## Utiliser un filtre prédéfini {#use-predefined-filter}
 
-Les filtres prédéfinis sont disponibles lors de la définition des propriétés de règle. Pour accéder aux filtres prédéfinis, choisissez la **Sélectionner un filtre personnalisé** dans la liste déroulante du modèle de requête.
+Les filtres prédéfinis sont disponibles lors de la définition des propriétés de règle. Pour accéder aux filtres prédéfinis, choisissez l’option **Sélectionner un filtre personnalisé** dans la liste déroulante du concepteur de requête.
 
 Vous pouvez ensuite accéder à la liste complète des filtres prédéfinis disponibles pour le contexte actuel.
 

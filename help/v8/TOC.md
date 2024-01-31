@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 83%
    + [Mécanismes de sécurisation et limitations](get-started/guardrails.md)
    + [Fonctionnalités non prises en charge](get-started/unsupported.md)
    + [Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
-+ Messages et diffusions {#msg}
++ Messages et diffusions {#msg}
    + [Prise en main des messages](msg/gs-messages.md)
    + [Utiliser les diffusions](msg/gs-deliveries.md)
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
@@ -104,7 +104,7 @@ ht-degree: 83%
       + [Utilisation de profils de test](audience/test-profiles.md)
    + Utiliser les audiences {#audiences}
       + [Créer des audiences](audience/create-audience.md)
-      + [Surveillance et gestion des audiences](audience/manage-audience.md)
+      + [Surveiller et gérer des audiences](audience/manage-audience.md)
    + Sélectionner les personnes destinataires de vos diffusions {#target-audiences}
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
@@ -125,7 +125,7 @@ ht-degree: 83%
       + [Créer le workflow](workflows/create-workflow.md)
       + [Orchestrer les activités](workflows/orchestrate-activities.md)
       + [Configurer les paramètres de workflow](workflows/workflow-settings.md)
-      + [Démarrage et surveillance de vos workflows](workflows/start-monitor-workflows.md)
+      + [Démarrer et surveiller vos workflows](workflows/start-monitor-workflows.md)
    + Utiliser les activités de workflow {#design-workflows}
       + [À propos des activités de workflow](workflows/activities/about-activities.md)
       + [Rendez-vous](workflows/activities/and-join.md)
@@ -138,7 +138,7 @@ ht-degree: 83%
       + [Branchement](workflows/activities/fork.md)
       + [Charger un fichier](workflows/activities/load-file.md)
       + [Réconciliation](workflows/activities/reconciliation.md)
-      + [Sauvegarde d’audience](workflows/activities/save-audience.md)
+      + [Enregistrer l’audience](workflows/activities/save-audience.md)
       + [Planificateur](workflows/activities/scheduler.md)
       + [Partage](workflows/activities/split.md)
       + [Attente](workflows/activities/wait.md)

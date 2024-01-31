@@ -7,7 +7,7 @@ badge: label="Disponibilité limitée"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 55%
+ht-degree: 84%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
->title="Découvrez la nouvelle interface utilisateur d’Adobe Campaign"
->abstract="Plus moderne, intuitif et dynamique."
+>title="Découvrir la nouvelle interface utilisateur d’Adobe Campaign"
+>abstract="Plus moderne, plus intuitive, plus dynamique."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
->title="Élément 1"
+>title="Élément 1"
 >abstract="Nouvelle expérience de conception d’email, de SMS et de notifications push"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
->title="Élément 2"
+>title="Élément 2"
 >abstract="Interface de zone de travail du workflow simplifiée"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
->title="Elément 3"
+>title="Élément 3"
 >abstract="UX repensé pour les audiences, les abonnements, AEM Assets, les landing pages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
->title="Élément 4"
+>title="Élément 4"
 >abstract="Moteur de requête de nouvelle génération et Concepteur d’email"
 
 <!--
@@ -58,28 +58,28 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
->title="Découvrez la nouvelle interface utilisateur d’Adobe Campaign"
->abstract="Plus moderne, intuitif et dynamique."
+>title="Découvrir la nouvelle interface utilisateur d’Adobe Campaign"
+>abstract="Plus moderne, plus intuitive, plus dynamique."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
->title="Élément 1"
+>title="Élément 1"
 >abstract="Nouvelle expérience de conception d’e-mails, de SMS et de notifications push"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
->title="Élément 2"
+>title="Élément 2"
 >abstract="Interface de zone de travail du workflow simplifiée"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list3"
->title="Elément 3"
+>title="Élément 3"
 >abstract="Expérience utilisateur repensée pour les audiences, les abonnements et les services, AEM Assets"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list4"
->title="Élément 4"
->abstract="E-mails générés par l’IA : génération d’e-mails à l’aide de prompts"
+>title="Élément 4"
+>abstract="E-mails générés par l’IA : génération d’e-mails à l’aide d’invites"
 
 <!--TO REMOVE ABOVE-->
 
@@ -90,7 +90,7 @@ Nous avons le plaisir de présenter la nouvelle version de l’interface utilisa
 
 ## Nouveautés
 
-Découvrez les dernières améliorations apportées au produit Web et à la documentation d’Adobe Campaign. Pour obtenir une liste complète des fonctionnalités clés et des mises à jour de version, consultez [cette page](rn/whats-new.md).
+Découvrez les dernières améliorations apportées au produit Web et à la documentation d’Adobe Campaign. Pour obtenir une liste complète des fonctionnalités clés et des notes de mises à jour, consultez [cette page](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -112,7 +112,7 @@ Le concepteur d’e-mail de Campaign permet de créer des e-mails captivants et 
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
->[!TAB Profil 360]
+>[!TAB Profil 360]
 
 Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, modifier et mettre à jour votre profil.
 
@@ -130,7 +130,7 @@ Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports e
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>Canevas de workflow repensé</strong><br/>Découvrez comment créer des workflows pour orchestrer l’ensemble des processus et tâches et améliorer la vitesse et l’échelle de chaque aspect de vos campagnes marketing.</div><br/>
+    <div><strong>Zone de travail de workflow repensée</strong><br/> Découvrez comment créer des workflows pour orchestrer l’ensemble des processus et des tâches et améliorer la vitesse et l’évolutivité de chaque aspect de vos campagnes marketing.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
@@ -138,7 +138,7 @@ Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports e
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Rendre votre contenu dynamique</strong><br/>Découvrez comment personnaliser votre contenu en fonction des informations que vous avez collectées sur vos destinataires afin de rendre votre contenu plus attrayant et d’augmenter la probabilité qu’il soit lu.</div>
+    <div><strong>Rendre votre contenu dynamique</strong><br/> Découvrez comment personnaliser votre contenu en fonction des informations que vous avez collectées sur vos personnes destinataires afin de rendre votre contenu plus attrayant et d’augmenter la probabilité qu’il soit lu.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -155,28 +155,28 @@ Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports e
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
-    <br/>
-      <strong>Prise en main</strong><br/><a href="get-started/user-interface.md">Interface utilisateur</a> - <a href="get-started/connect-to-campaign.md">Connexion à Campaign</a> - <a href="get-started/using-ai.md">Aide contextuelle optimisée par l’IA</a> - <a href="get-started/permissions.md">Accès et autorisations</a>
+<br/>
+<strong>Prise en main</strong><br/> <a href="get-started/user-interface.md">Interface utilisateur</a> – <a href="get-started/connect-to-campaign.md">Se connecter à Campaign</a> – <a href="get-started/using-ai.md">Aide contextuelle optimisée par l’IA</a> – <a href="get-started/permissions.md">Accès et autorisations</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
-    <br/>
-      <strong>Expérience du client</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatiser avec des workflows</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orchestration des campagnes</a> - <a href="personalization/gs-personalization.md">Contenu dynamique</a> - <a href="reporting/gs-reports.md">Rapports et analyses</a>
+<br/>
+<strong>Expérience du client ou de la cliente</strong><br/> <a href="workflows/gs-workflows.md" target="_blank">Automatiser avec des workflows</a> – <a href="campaigns/gs-campaigns.md" target="_blank">Orchestration des campagnes</a> – <a href="personalization/gs-personalization.md">Contenu dynamique</a> – <a href="reporting/gs-reports.md">Rapports et analyse</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
-    <br/>
-      <strong>Envoyer les messages</strong><br/><a href="msg/gs-deliveries.md">Créer une diffusion</a> - <a href="email/create-email.md">Email</a> -  <a href="push/gs-push.md">Notifications push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modèles de diffusion</a> - <a href="preview-test/preview-test.md">Aperçu et test</a> 
+<br/>
+<strong>Envoyer des messages</strong><br/> <a href="msg/gs-deliveries.md">Créer une diffusion</a> – <a href="email/create-email.md">E-mail</a> – <a href="push/gs-push.md">Notifications push</a> – <a href="sms/gs-sms.md">SMS</a> – <a href="msg/delivery-template.md">Modèles de diffusion</a> – <a href="preview-test/preview-test.md">Aperçu et test</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
-    <br/>
-      <strong>Profils &amp; audiences</strong><br/><a href="audience/gs-audiences-recipients.md">Prise en main</a> - <a href="audience/create-audience.md">Création d’audiences</a> - <a href="audience/test-profiles.md">Profils de test</a> - <a href="audience/manage-services.md">Services d’inscriptions</a> - <a href="query/query-modeler-overview.md">Moteur de requête</a>
+<br/>
+<strong>Profils et audiences</strong><br/> <a href="audience/gs-audiences-recipients.md">Prise en main</a> – <a href="audience/create-audience.md">Créer des audiences</a> – <a href="audience/test-profiles.md">Profils de test</a> – <a href="audience/manage-services.md">Services d’abonnements</a> – <a href="query/query-modeler-overview.md">Concepteur de requête</a>
     </td>
   </tr>
 </table>
 
 ## Autres ressources
 
-* [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Documentation d’Adobe Campaign V8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr){target="_blank"}
+* [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Documentation Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr){target="_blank"}

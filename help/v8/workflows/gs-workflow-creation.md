@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Principes fondamentaux de la création de workflows
-description: Découvrez les principes clés des workflows avec Adobe Campaign Web
+description: Découvrir les principes fondamentaux des workflows avec Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Le diagramme de workflow est une représentation de ce qui est censé se produir
 
 Chaque workflow comprend :
 
-* **Activités**: une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
+* des **Activités** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
 
   Dans un diagramme de workflow, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d’actions récurrentes.
 

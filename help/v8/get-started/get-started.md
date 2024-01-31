@@ -7,7 +7,7 @@ badge: label="Disponibilité limitée"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 68%
+ht-degree: 87%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 68%
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.
 
-Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu pour divers canaux marketing tels que les emails, les notifications push, les SMS et les courriers. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots. Il est également fourni avec un serveur de messagerie en temps réel évolutif qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’une payload globale de n’importe quel système informatique pour des communications telles que la réinitialisation du mot de passe, la confirmation de commande, les reçus électroniques, etc.
+Adobe Campaign v8 est l’outil de campagne de nouvelle génération conçu pour des canaux marketing variés, tels que les e-mails, les notifications push, les SMS et le publipostage direct. Il offre des fonctionnalités ETL et de gestion des données performantes pour concevoir et organiser une campagne parfaite. Son moteur d’orchestration fournit des programmes marketing multi-touch riches qui mettent l’accent sur les parcours pilotés par lots. Il est également associé à un serveur de messagerie en temps réel évolutif qui permet aux équipes marketing d’envoyer des messages prédéfinis sur la base d’une payload globale à partir de n’importe quel système informatique, pour des communications à propos de la réinitialisation d’un mot de passe, une confirmation de commande, une facturation en ligne, etc.
 
 En utilisant Campaign, vous pouvez :
 
@@ -45,7 +45,7 @@ Initialement accessible uniquement par le biais d’une [console cliente](#ac-cl
 
 Cette nouvelle interface utilisateur répond tout d’abord aux besoins des **professionnels et professionnelles**, car toutes les tâches d’administration standard ne sont pas disponibles dans cette première version. Elles seront intégrées dans les versions ultérieures. Notez que toutes les fonctionnalités ou options disponibles dans la console cliente ne sont pas disponibles pour l’instant dans la nouvelle interface utilisateur. De nouveaux cas d’utilisation, options et fonctionnalités seront disponibles dans les versions ultérieures.
 
-En tant qu&#39;administrateur ou utilisateur expert, si vous devez accéder aux fonctionnalités de Campaign v8 qui ne sont pas disponibles dans l&#39;interface utilisateur web, vous pouvez vous connecter au [console cliente](#ac-client).
+En tant qu’utilisateur expert ou utilisatrice experte, ou en tant qu’administrateur ou administratrice, si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas disponible dans l’interface utilisateur web, vous pouvez utiliser la [console cliente](#ac-client).
 
 
 >[!NOTE]
@@ -62,4 +62,4 @@ Les données de Campaign sont stockées dans le serveur d’applications. Les do
 
 Certains objets ne peuvent être créés et gérés que dans la console cliente. Ils peuvent être visibles et utilisés dans l’interface utilisateur de Campaign Web, mais ne peuvent pas être créés ni modifiés à partir de cet environnement. Tous les objets et composants de Campaign sont disponibles dans la vue Explorateur, à partir du volet de navigation de gauche.
 
-Pour plus d&#39;informations sur l&#39;utilisation de Campaign v8 avec sa console cliente, voir [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur l’utilisation de Campaign v8 avec sa console cliente, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.

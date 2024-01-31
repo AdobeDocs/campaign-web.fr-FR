@@ -7,7 +7,7 @@ badge: label="Disponibilité limitée"
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 77%
+ht-degree: 96%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 77%
 
 La nouvelle interface web d’Adobe Campaign offre une expérience utilisateur moderne et intuitive afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée aux applications et solutions Adobe Experience Cloud.
 
-Découvrez comment vous connecter à Adobe Campaign et découvrir les principes de navigation des Experience Cloud [dans cet article](connect-to-campaign.md).
+Découvrez comment vous connecter à Adobe Campaign et découvrez les principes de base de la navigation dans Experience Cloud [dans cet article](connect-to-campaign.md).
 
 
 >[!NOTE]
 >
 >Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications apportées à l’interface utilisateur du produit. Cependant, certaines captures d’écran peuvent légèrement différer de votre interface utilisateur.
 
-## Page d&#39;accueil de Campaign {#user-interface-home}
+## Page d’accueil de Campaign {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Récents"
 >abstract="La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, la personne propriétaire, les dates de création et de modification."
 
-La page d’accueil de Campaign vous permet de parcourir rapidement et facilement les ressources clés, les indicateurs et les composants.
+La page d’accueil de Campaign vous permet de parcourir rapidement et facilement les ressources, indicateurs et composants essentiels.
 
-La section supérieure de la page d’accueil fournit des détails sur les dernières mises à jour et les nouvelles fonctionnalités disponibles dans le produit, avec un lien vers les notes de mise à jour et la documentation détaillée. Utilisez la flèche gauche pour faire défiler les cartes de fonctionnalités.
+La section supérieure de la page d’accueil fournit des informations à propos des dernières mises à jour et des nouvelles fonctionnalités disponibles dans le produit, incluant un lien vers les notes de mise à jour et la documentation détaillée. Utilisez la flèche de gauche pour faire défiler les cartes des fonctionnalités.
 
 ![](assets/home.png)
 
@@ -41,7 +41,7 @@ La liste **Récents** offre des raccourcis vers les diffusions récemment créé
 
 En outre, vous pouvez accéder aux pages d’aide de la clé Web d’Adobe Campaign à partir de la page **Formation** de la page.
 
-## Menu de navigation gauche {#user-interface-left-nav}
+## Menu de navigation de gauche {#user-interface-left-nav}
 
 Parcourez les liens situés à gauche pour accéder aux fonctionnalités Web d’Adobe Campaign. Plusieurs liens affichent des listes d’objets qui peuvent être triés et filtrés. Vous pouvez également configurer des colonnes pour afficher toutes les informations dont vous avez besoin. Consultez cette [section](#list-screens). Certains écrans de liste sont en lecture seule. Les éléments affichés dans le menu de navigation de gauche dépendent de vos autorisations. Pour en savoir plus sur les autorisations, consultez [cette section](permissions.md).
 
@@ -78,22 +78,22 @@ Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketi
 
 ### Gestion de contenu {#user-interface-content-management}
 
-Dans la section GESTION DU CONTENU , vous pouvez afficher vos modèles de contenu et vos fragments.
+Dans la section Gestion de contenu, vous pouvez afficher vos modèles de contenu et vos fragments de contenu.
 
-* **Modèles de contenu** - Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles autonomes pour réutiliser facilement du contenu personnalisé dans tous les [!DNL Adobe Campaign]. Cette fonctionnalité, disponible uniquement pour les emails, permet aux utilisateurs orientés contenu de travailler sur des modèles autonomes afin que les utilisateurs marketing puissent les réutiliser et les adapter dans leurs propres campagnes email. En savoir plus dans [cette section](../email/create-email-templates.md).
+* **Modèles de contenu** : pour un processus de conception accéléré et amélioré, vous pouvez créer des modèles autonomes afin de réutiliser facilement le contenu personnalisé dans [!DNL Adobe Campaign]. Cette fonctionnalité, uniquement réservée aux e-mails, permet aux personnes orientées sur le contenu d’utiliser des modèles autonomes afin que les utilisateurs et utilisatrices marketing puissent les réutiliser et les adapter dans leurs propres campagnes par e-mail. En savoir plus dans [cette section](../email/create-email-templates.md).
 
 <!--
 * **Fragments** -
 -->
 
-### Gestion des clients {#user-interface-customer-management}
+### Gestion des clientes et clients {#user-interface-customer-management}
 
-Dans la section GESTION DES CLIENTS , vous pouvez afficher vos profils, audiences et abonnements. Ces listes sont en lecture seule.
+Dans la section Gestion des clientes et clients, vous pouvez afficher vos profils, vos audiences et vos abonnements. Ces listes sont en lecture seule.
 
-* **Profils** - Créez et gérez des profils, et accédez à votre base de données de destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. En savoir plus sur les profils dans [cette section](../audience/about-recipients.md).
+* **Profils** : créez et gérez les profils, et accédez à votre base de données de personnes destinataires. Par défaut, vous pouvez consulter leur adresse e-mail, prénom et nom. Pour en savoir plus sur les profils, consultez [cette section](../audience/about-recipients.md).
 * **Audiences** - Il s’agit de votre liste d’audiences. Par défaut, vous pouvez consulter leur type, origine, date de création/dernière modification et libellé. Vous pouvez filtrer la liste par origine. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-recipients.md).
-* **Services d’inscriptions** - Parcourez vos listes d&#39;abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Découvrez comment gérer les abonnements et les désabonnements dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=fr){target="_blank"}.
-* **Filtres prédéfinis** - Les filtres prédéfinis sont des filtres personnalisés qui sont créés et enregistrés pour être disponibles pour une utilisation ultérieure. Ils peuvent être utilisés comme raccourcis lors de toute opération de filtrage avec le modeleur de requête, par exemple lors du filtrage d&#39;une liste de données ou de la création de l&#39;audience d&#39;une diffusion. En savoir plus dans [cette section](predefined-filters.md).
+* **Services d’abonnements** : parcourez vos listes d’abonnements. Par défaut, vous pouvez consulter leur type, mode et libellé. Découvrez comment gérer les abonnements et les désabonnements dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=fr){target="_blank"}.
+* **Filtres prédéfinis** : les filtres prédéfinis sont des filtres personnalisés qui sont créés et enregistrés afin d’être disponibles pour une utilisation ultérieure. Ils peuvent être utilisés comme raccourcis lors d’opérations de filtrage avec le concepteur de requête, par exemple lors du filtrage d’une liste de données ou de la création de l’audience d’une diffusion. En savoir plus dans [cette section](predefined-filters.md).
 
 
 ### Gestion des décisions {#decision-management}
@@ -112,7 +112,7 @@ Découvrez comment créer et envoyer des offres dans des e-mails et des SMS dans
 
 ### Rapports {#left-nav-reporting}
 
-* **Rapports** - La variable **Rapport** entry offre un résumé global consolidé des mesures de trafic et d’engagement pour chaque canal de votre environnement Campaign. Ces rapports se composent de différents widgets, chacun offrant une perspective différente des performances de vos campagnes ou diffusions. En savoir plus dans [cette section](../reporting/global-reports.md).
+* **Rapports** : l’entrée **Rapport** fournit un résumé global et synthétique des mesures de trafic et d’engagement pour chaque canal de votre environnement Campaign. Ces rapports sont composés de différents widgets, chacun fournissant une perspective spécifique des performances de vos campagnes ou diffusions. En savoir plus dans [cette section](../reporting/global-reports.md).
 
 
 ## Aide contextuelle {#user-interface-help}
@@ -121,7 +121,7 @@ Une aide contextuelle est disponible dans l’interface. Si elle est présente, 
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-Disponible actuellement en tant que version bêta dans la nouvelle interface utilisateur web de Campaign, le **Assistant de connaissances optimisé par l&#39;IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
+Actuellement présent en version bêta dans la nouvelle interface utilisateur web de Campaign, l’**assistant de connaissances optimisé par l’IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation grâce à l’identification instantanée des informations précises dont vous avez besoin.
 
 Grâce aux fonctionnalités de l’IA générative de Campaign, cet assistant transforme votre expérience, en facilitant la récupération d’informations et la résolution de problèmes. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous parcouriez des documents volumineux, notre assistant de connaissances optimisé par l’IA devient votre meilleur compagnon, en vous offrant une efficacité et une précision inégalées à chaque interaction.
 
@@ -346,10 +346,10 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
->title="Ce modèle est prêt uniquement"
+>title="Ce modèle est en lecture seule."
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
->title="Générer tous les sous-ensembles dans la même table"
+>title="Générer tous les sous-ensembles dans le même tableau"
 >abstract="TBC"

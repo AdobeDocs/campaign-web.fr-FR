@@ -7,7 +7,7 @@ badge: label="Disponibilité limitée"
 source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
 source-wordcount: '2316'
-ht-degree: 68%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 68%
 
 Les paramètres de diffusion d’e-mail sont des **paramètres de diffusion techniques** définis dans le modèle d’e-mail. Ils peuvent être surchargés pour chaque diffusion.
 
-Ces paramètres sont disponibles à partir du **Paramètres** est disponible lors de l&#39;édition d&#39;une diffusion email ou d&#39;un modèle de diffusion email.
+Ces paramètres sont disponibles à partir du bouton **Paramètres** disponible lors de la modification d’une diffusion par e-mail ou d’un modèle de diffusion par e-mail.
 
 ## Paramètres de diffusion d’e-mail {#email-delivery-settings}
 
@@ -29,25 +29,25 @@ Ces paramètres sont disponibles à partir du **Paramètres** est disponible lor
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Les règles de typologie permettent aux spécialistes marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
+>abstract="Les règles de typologie permettent aux spécialistes marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. La création de typologies et de règles de typologie s’effectue dans la console cliente Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Paramètres de typologie de la diffusion"
->abstract="Les règles de typologie permettent aux spécialistes marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. Les typologies et les règles de typologie sont créées dans la console cliente Campaign."
+>abstract="Les règles de typologie permettent aux spécialistes marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. La création de typologies et de règles de typologie s’effectue dans la console cliente Campaign."
 
 
-Les typologies sont des ensembles de **règles de typologie** qui sont exécutés pendant la phase de préparation afin d&#39;appliquer facilement plusieurs règles de filtrage à une diffusion à la fois. Ils permettent aux marketeurs de normaliser les pratiques commerciales dans toutes les diffusions, car ils leur permettent de contrôler, filtrer et prioriser l’envoi des diffusions.
+Les typologies sont des ensembles de **règles de typologie** qui sont exécutées pendant la phase de préparation afin d’appliquer facilement plusieurs règles de filtrage en même temps à une diffusion. Elles permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales pour toutes les diffusions, car elles leur permettent de contrôler, filtrer et gérer la priorité de l’envoi des diffusions.
 
-Lors de l&#39;association d&#39;une typologie à un message ou à un modèle de message, les règles de typologie incluses dans la typologie sont exécutées afin de vérifier la validité de la diffusion lors de la préparation du message. Les profils qui correspondent à des critères dans une règle de typologie sont alors exclus des audiences de diffusion.
+Lors de l’association d’une typologie à un message ou à un modèle de message, les règles de typologie incluses dans la typologie sont exécutées pour vérifier la validité du message durant la préparation de celui-ci. Les profils qui correspondent à des critères inclus dans une règle de typologie sont exclus des audiences de diffusion.
 
-Les typologies vous permettent de vous assurer que vos emails contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible prévue (comme les clients désabonnés, les concurrents ou les clients ne faisant pas partie de la fidélité).
+Les typologies vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désabonnement ou un objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clientes et clients désabonnés, les concurrents et les clientes et clients ne faisant pas partie du programme de fidélité).
 
 ![](assets/delivery-settings-typology.png)
 
 >[!NOTE]
 >
->Les typologies et les règles de typologie sont créées dans la console cliente Campaign. En savoir plus sur les règles de pression et la configuration de la gestion de la fatigue dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
+>La création de typologies et de règles de typologie s’effectue dans la console cliente Campaign. En savoir plus sur les règles de pression et la configuration de la gestion de la fatigue dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
 
 ### Paramètres de pression {#pressure-parameters}
 
@@ -62,7 +62,7 @@ Les typologies vous permettent de vous assurer que vos emails contiennent toujou
 >title="Poids de la diffusion"
 >abstract="Les poids de chaque diffusion permettent d’identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
 
-Dans cette section, les paramètres de pression permettent de définir une **seuil** pour configurer des règles de gestion de la fatigue, qui est le nombre maximal de messages pouvant être envoyés à un profil sur une période donnée.
+Dans cette section, les paramètres de pression vous permettent de définir un **seuil** pour configurer des règles de gestion d’usure, qui est le nombre maximal de messages pouvant être envoyés à un profil sur une période donnée.
 
 Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
 
@@ -84,14 +84,14 @@ Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode 
 
 >[!NOTE]
 >
->La gestion de la fatigue est paramétrée dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
+>La configuration de la gestion de l’usure s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
 
 ### Paramètres de capacité {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Paramètres de capacité de la diffusion"
->abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter notamment la diffusion, les messages entrants que la diffusion peut générer et le nombre d’appels à passer pour contacter les personnes abonnées. Les règles de capacité sont définies dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal e-mail."
+>abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter notamment la diffusion, les messages entrants que la diffusion peut générer et le nombre d’appels à passer pour contacter les personnes abonnées, par exemple. La définition des règles de capacité s’effectue dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -99,13 +99,13 @@ Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode 
 >abstract="L’importance du destinataire est une formule utilisée pour déterminer les destinataires qui sont conservés lorsque les règles de typologie de capacité sont dépassées."
 
 
-Dans cette section, vous pouvez sélectionner une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal e-mail.
+Dans cette section, vous pouvez sélectionner une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal e-mail.
 
-La variable **[!UICONTROL Importance du destinataire]** field est une formule utilisée pour déterminer les destinataires qui sont conservés lorsque les règles de typologie de capacité sont dépassées.
+Le champ **[!UICONTROL Importance de la personne destinataire]** est une formule utilisée pour déterminer les personnes destinataires conservées lorsque les règles de typologie de capacité sont dépassées.
 
 >[!NOTE]
 >
->Les règles de typologie sont configurées dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=fr){target="_blank"}.
+>La configuration de règles de typologie s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=fr){target="_blank"}.
 
 ## Paramètres de l’audience {#audience}
 
@@ -118,7 +118,7 @@ Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ce
 
 Pour plus d’informations sur les mappings de ciblage, consultez [cette section](../audience/targeting-dimensions.md).
 
-Dans le **[!UICONTROL Exclusion]** , vous pouvez sélectionner pour exclure les destinataires qui ne souhaitent plus être contactés ou qui sont mis en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr){target="_blank"}
+Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des personnes destinataires qui ne souhaitent plus être contactées ou qui sont mises en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr){target="_blank"}
 
 ## Diffusion {#delivery}
 
@@ -127,23 +127,23 @@ Dans le **[!UICONTROL Exclusion]** , vous pouvez sélectionner pour exclure les 
 >title="Paramètres de diffusion de la diffusion"
 >abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez activer la fonction Cci de la diffusion et modifier les modes de diffusion et de routine. Ces options sont limitées aux personnes expertes uniquement."
 
-**[!UICONTROL Diffusion]** Les paramètres sont des paramètres techniques qui s&#39;appliquent à votre diffusion.
+Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qui s’appliquent à votre diffusion.
 
-L&#39;email intégré **[!UICONTROL Routage]** le compte externe est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
+Le compte externe de **[!UICONTROL Routage]** d’e-mails intégré est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
-Vous pouvez définir ce qui suit : **[!UICONTROL Envoi]** settings :
+Vous pouvez définir les paramètres d’**[!UICONTROL Envoi]** suivants :
 
-* **[!UICONTROL Tester la diffusion SMTP]**: cette option est utilisée pour tester l’envoi par SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+* **[!UICONTROL Test de la diffusion par SMTP]** : cette option vous permet de tester l’envoi via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque personne destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
-* **[!UICONTROL Email Cci]**: cette option est utilisée pour stocker les emails sur un système externe via Cci en ajoutant simplement une adresse email en Cci à votre cible de message. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
+* **[!UICONTROL E-mail Cci]** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible de vos messages. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
 * **[!UICONTROL Envoyer en plusieurs vagues]**: vous pouvez augmenter progressivement le volume envoyé à l’aide des vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. [En savoir plus](send-using-waves.md)
 
-Vous pouvez également modifier le format des emails envoyés :
+Vous pouvez également modifier le format des e-mails envoyés :
 
-* **[!UICONTROL Tenir compte des préférences des destinataires]** (mode par défaut)
+* **[!UICONTROL Tenir compte des préférences des personnes destinataires]** (mode par défaut)
 
-  Le format du message est défini en fonction des données stockées dans le profil du destinataire. Si un destinataire souhaite recevoir les messages dans un format particulier, ce format lui est envoyé. Si le champ n’est pas renseigné, un message multipart-alternative est envoyé (voir ci-dessous).
+  Le format du message est défini en fonction des données stockées dans le profil de la personne destinataire. Si une personne destinataire souhaite recevoir les messages dans un format particulier, ce format lui est envoyé. Si ce champ n’est pas renseigné, le message sera envoyé au format multipart-alternative (voir ci-dessous).
 
 * **[!UICONTROL Laisser le mailer des destinataires choisir le format le plus adapté]**
 
@@ -155,22 +155,22 @@ Vous pouvez également modifier le format des emails envoyés :
 
 * **[!UICONTROL Envoyer tous les messages au format texte]**
 
-  Le message est envoyé au format texte. Le format HTML ne sera pas envoyé, mais utilisé pour la page miroir uniquement lorsque le destinataire clique sur le message.
+  Le message est envoyé au format texte. Le format HTML ne sera pas envoyé, mais uniquement utilisé pour la page miroir, lorsque la personne destinataire clique sur le message.
 
 ## Web Analytics {#web-analytics}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Paramètres Web Analytics de la diffusion"
->abstract="Sélectionnez un compte Web Analytics. Ce compte est configuré dans la console cliente Campaign. Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez."
+>abstract="Sélectionnez un compte Web Analytics. La configuration de ce compte s’effectue dans la console cliente Campaign. Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez."
 
-Dans cette section, vous pouvez sélectionner un compte Web Analytics. Ce compte est paramétré dans la console cliente Campaign.
+Dans cette section, vous pouvez sélectionner un compte Web Analytics. La configuration de ce compte s’effectue dans la console cliente Campaign.
 
 Vous pouvez également définir les balises partagées avec l’outil d’analyse que vous utilisez.
 
 >[!NOTE]
 >
->Les fonctionnalités Web Analytics sont configurées dans la console cliente de Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
+>La configuration des fonctionnalités Web analytics s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=fr#external-account-ac){target="_blank"}.
 
 ## Reprises {#retries}
 
@@ -212,12 +212,12 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validité des paramètres"
->abstract="Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.<br>La variable **Limite de validité des ressources** est utilisé pour les ressources chargées, telles que la page miroir ou les images. Une fois la limite atteinte, les ressources ne sont plus disponibles."
+>abstract="Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.<br>Le champ **Limite de validité des ressources** est utilisé pour les ressources chargées, comme la page miroir ou les images. Au-delà de cette limite, ces ressources ne sont plus disponibles."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Limite de validité des ressources"
->abstract="La variable **Limite de validité des ressources** est utilisé pour les ressources téléchargées, telles que la page miroir ou les images. Ces ressources sont valides pour une durée limitée. Une fois la limite atteinte, elles ne sont plus disponibles."
+>abstract="Le champ **Limite de validité des ressources** est utilisé pour les ressources chargées, comme la page miroir ou les images. Ces ressources sont valides pour une durée limitée. Une fois la limite atteinte, elles ne sont plus disponibles."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -237,7 +237,7 @@ Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour de
 
 Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l’heure. L’heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
 
-**[!UICONTROL Limite de validité des ressources]** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque). Au-delà de cette limite, ces ressources ne sont plus disponibles.
+La **[!UICONTROL Limite de validité des ressources]** est utilisée pour les ressources chargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque). Au-delà de cette limite, ces ressources ne sont plus disponibles.
 
 ![](assets/delivery-settings-validity.png)
 
@@ -251,9 +251,9 @@ La page miroir est une page HTML accessible en ligne via un navigateur web et do
 
 Outre le mode par défaut, les options disponibles sont les suivantes :
 
-* **[!UICONTROL Forcer la génération de la page miroir]**: utilisez ce mode pour générer la page miroir même si aucun lien vers la page miroir n&#39;est inséré dans la diffusion.
-* **[!UICONTROL Ne pas générer de page miroir]**: utilisez ce mode pour éviter de générer une page miroir, même si le lien est présent dans la diffusion.
-* **[!UICONTROL Génère une page miroir accessible à l’aide de l’identifiant du message uniquement]**: lorsque le lien de la page miroir n&#39;est pas présent dans le contenu de l&#39;email, utilisez cette option pour permettre l&#39;accès au contenu de la page miroir, dans la fenêtre du log de diffusion, depuis la console cliente.
+* **[!UICONTROL Forcer la génération de la page miroir]** : ce mode permet de générer la page miroir même si aucun lien vers la page miroir n’est inséré dans la diffusion.
+* **[!UICONTROL Ne pas générer de page miroir]** : ce mode permet de ne pas générer de page miroir, même si le lien est présent dans la diffusion.
+* **[!UICONTROL Générer une page miroir accessible via l’identifiant du message uniquement]** : ce mode permet d’accéder au contenu de la page miroir, dans la fenêtre du log de diffusion de la console cliente, lorsque l’e-mail ne contient pas de lien vers la page miroir.
 
 
 ### Tracking {#tracking}
@@ -270,31 +270,31 @@ Outre le mode par défaut, les options disponibles sont les suivantes :
 >title="Période de validité"
 >abstract="La période de validité définit la durée d’activation du tracking sur les URL des messages."
 
-**[!UICONTROL Tracking]** Les paramètres sont définis dans la section correspondante. Les options possibles sont les suivantes :
+Les paramètres de **[!UICONTROL Tracking]** sont définis dans la section correspondante. Les options possibles sont les suivantes :
 
-**[!UICONTROL Limite de validité du suivi]**: utilisez cette option pour modifier la durée d’activation du tracking sur les URL.
+**[!UICONTROL Limite de validité du tracking]** : utilisez cette option pour définir la durée d’activation du tracking sur les URL.
 
-**[!UICONTROL URL de substitution des URL expirées]**: utilisez cette option pour saisir une URL vers une page web de secours : elle est affichée une fois le tracking expiré.
+**[!UICONTROL URL de substitution des URL arrivées à expiration]** : utilisez cette option pour renseigner une URL vers une page web de secours. Celle-ci s’affiche après l’expiration du tracking.
 
 ## Paramètres de BAT {#test-setttings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Définir les paramètres du BAT pour la diffusion"
->abstract="Sélectionnez les paramètres d&#39;exclusion et personnalisez le libellé des BAT."
+>title="Configurer les paramètres de BAT pour la diffusion"
+>abstract="Sélectionnez les paramètres d’exclusion et personnalisez le libellé des BAT."
 
 <!--Test to be replaced with Proof everywhere - currently not consistent within UI > changed to Proof to reflect UI here but not consistent in documentation either-->
 
 Vous pouvez définir les paramètres d’exclusion dans cette section. Les options disponibles sont les suivantes :
 
-* ****[!UICONTROL Conserver les doublons]**** permet d&#39;autoriser plusieurs diffusions vers des destinataires répondant à plusieurs critères de ciblage.
+* ****[!UICONTROL Conserver les doublons]**** vous permet d’autoriser plusieurs diffusions vers des personnes destinataires répondant à plusieurs critères de ciblage.
 
 * L’option **[!UICONTROL Conserver les adresses placées sur la liste bloquée]** permet de tenir à l’écart de la cible les profils qui ne sont plus ciblés par la diffusion, par exemple après une désinscription (opt-out).
 
 * L’option **[!UICONTROL Conserver les adresses placées en quarantaine]** permet de tenir à l’écart de la cible les profils dont l’adresse ne répond pas.
 
-Vous pouvez également personnaliser l’étiquette des BAT :
+Vous pouvez également personnaliser le libellé des BAT :
 
-* Utilisez l’option **[!UICONTROL Conserver le code diffusion pour le BAT]** pour associer au BAT le même code diffusion que celui défini pour la diffusion à laquelle il se rapporte.
+* Utilisez l’option **[!UICONTROL Conserver le code diffusion pour le BAT]** pour associer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte.
 
-* Par défaut, le sujet du BAT est précédé du préfixe &#39;BAT #&#39;, où # est le numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe de libellé]**.
+* Par défaut, l’objet du BAT est précédé du préfixe « BAT # », où # correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe de libellé]**.

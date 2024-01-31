@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -53,10 +53,10 @@ Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à 
 
 La barre supérieure de l’interface vous permet d’effectuer les actions suivantes :
 
-* partager des commentaires sur l’interface utilisateur web de Campaign
+* partager des commentaires à propos de l’interface utilisateur web de Campaign ;
 * basculer entre vos organisations ;
 * basculer entre vos solutions et applications Adobe Experience Cloud.
-* rechercher de l’aide sur [Adobe Experience League](https://experienceleague.adobe.com/docs/fr?lang=){target="_blank"} ;
+* rechercher de l’aide sur [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=fr){target="_blank"} ;
 * vérifier vos notifications de produit ;
 * modifier votre profil Adobe et gérer les paramètres, par exemple [mettre à jour votre langue préférée](#language-pref) ou [passer au thème clair/sombre](#dark-theme).
 
@@ -92,7 +92,7 @@ Pour changer de langue :
 
 >[!CAUTION]
 >
->Si vous prévoyez d’utiliser [Aide contextuelle optimisée par l’IA](using-ai.md) , vous devez définir votre langue préférée sur l’anglais. Les autres langues ne sont pas prises en charge.
+>Si vous prévoyez d’utiliser la fonctionnalité d’[Aide contextuelle optimisée par l’IA](using-ai.md), vous devez définir votre langue préférée sur l’anglais. Les autres langues ne sont pas prises en charge.
 >
 
 
