@@ -3,9 +3,9 @@ audience: end-user
 title: Prise en main des landing pages
 description: En savoir plus sur les landing pages dans Campaign Web
 badge: label="Disponibilité limitée"
-source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landing pages"
->abstract="Découvrez la nouvelle expérience de page d’entrée. Créez, concevez et partagez instantanément des landing pages afin d&#39;orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer l&#39;acquisition de données de profil, et les flux d&#39;opt-in/opt-out rapides et fluides."
+>abstract="Découvrez la nouvelle expérience de page d’entrée. Créez, concevez et partagez instantanément des landing pages afin d&#39;orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer, acheter, abonnements/désabonnements et cas pratiques de liste bloquée, en fonction de modèles intégrés."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
 
 

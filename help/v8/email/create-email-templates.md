@@ -9,10 +9,10 @@ role: User
 level: Beginner
 badge: label="Disponibilité limitée"
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+workflow-type: tm+mt
+source-wordcount: '946'
+ht-degree: 49%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
->title="Définir votre propre contenu"
->abstract="Créez un modèle personnalisé autonome à partir de zéro pour rendre votre contenu réutilisable entre plusieurs e-mails."
+>title="Modèles de contenu"
+>abstract="Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles d’email autonomes pour réutiliser facilement du contenu personnalisé dans Adobe Campaign. Ces modèles de contenu peuvent être entièrement conçus, en fonction de modèles intégrés ou personnalisés, créés à partir d’un contenu existant ou importés dans l’éditeur de modèles de contenu."
 
-Pour un processus de conception accéléré et amélioré, vous pouvez créer des modèles autonomes afin de réutiliser facilement le contenu personnalisé dans [!DNL Adobe Campaign].
+Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles autonomes pour réutiliser facilement du contenu personnalisé dans [!DNL Adobe Campaign]. Ces modèles de contenu peuvent être entièrement conçus, en fonction de modèles intégrés ou personnalisés, créés à partir d’un contenu existant ou importés dans l’éditeur de modèles de contenu.
 
 Cette fonctionnalité permet aux personnes orientées contenu d’utiliser des modèles autonomes afin que les utilisateurs et utilisatrices marketing puissent les réutiliser et les adapter dans leurs propres campagnes par e-mail.
 
@@ -31,40 +31,23 @@ Cette fonctionnalité permet aux personnes orientées contenu d’utiliser des m
 >
 >Actuellement, seuls les modèles de contenu d’**e-mail** sont pris en charge.
 
-## Accéder aux modèles et les gérer {#access-manage-templates}
+## Accès aux modèles de contenu {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="Modifier le contenu de votre modèle"
 >abstract="Cliquez sur le bouton **Modifier le contenu** pour mettre à jour votre contenu avec le Concepteur d’e-mail."
 
-Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]** dans le menu de gauche.
+Pour accéder à la liste des modèles de contenu, accédez au **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]** dans le rail de gauche.
 
 ![](assets/content-template-list.png)
 
-Tous les modèles qui ont été créés, que ce soit à partir d’un e-mail à l’aide de l’option [Enregistrer en tant que modèle](#save-as-template) ou à partir du menu **[!UICONTROL Modèles de contenu]**, s’affichent.
-
-<!--You can sort content templates by creation or modification date. You can also choose to display only the items that you created or modified.-->
-
-Vous pouvez filtrer sur un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
+Ce tableau de bord affiche tous les modèles de contenu disponibles sous la forme d’une liste. Vous pouvez filtrer sur un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
 ![](assets/content-template-list-filters.png)
 
-Pour modifier le contenu d’un modèle, cliquez sur l’élément souhaité dans la liste. Vous pouvez ainsi effectuer les actions suivantes :
+Dans la liste, vous pouvez modifier, dupliquer ou supprimer des modèles de contenu existants. Utilisez le bouton situé dans la section supérieure pour créer un modèle de contenu.
 
-* Modifiez ses propriétés.
-
-* Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour mettre à jour votre contenu avec le [Concepteur d’e-mail](get-started-email-designer.md).
-
-![](assets/content-template-edition.png)
-
-Pour supprimer un modèle, sélectionnez l’option correspondante dans le menu **[!UICONTROL Plus d’actions]**.
-
-![](assets/content-template-list-delete.png)
-
->[!NOTE]
->
->Lorsqu’un modèle est supprimé, les diffusions créées à l’aide de ce modèle ne sont pas affectées.
 
 ## Créer des modèles de contenu {#create-content-templates}
 
@@ -78,13 +61,9 @@ Pour supprimer un modèle, sélectionnez l’option correspondante dans le menu 
 >title="Sélection du modèle de contenu"
 >abstract="Sélection du modèle de contenu"
 
-Vous pouvez créer des modèles de contenu de deux manières différentes :
+Les modèles de contenu peuvent être créés par [enregistrer un email existant en tant que modèle ;](#save-as-template), ou de la liste des modèles d’email, via le **Créer un modèle de contenu** bouton, [comme décrit ci-dessous](#create-template-from-scratch).
 
-* Créez un modèle de contenu à partir de zéro à l’aide du menu **[!UICONTROL Modèles de contenu]** du rail de gauche. [Voici comment procéder](#create-template-from-scratch).
-
-* Lors de la conception d’un e-mail, enregistrez le contenu de votre e-mail en tant que modèle. [Voici comment procéder](#save-as-template).
-
-Une fois enregistré, qu’il soit créé à partir de zéro ou à partir d’un e-mail précédent, vous pouvez désormais utiliser ce modèle lors de la création d’un [e-mail](../email/create-email.md) dans [!DNL Adobe Campaign]. [Voici comment procéder](use-email-templates.md).
+Une fois enregistré, vous pouvez désormais utiliser ce modèle lors de la création d’un [email](../email/create-email.md) dans [!DNL Adobe Campaign]. [Voici comment procéder](use-email-templates.md).
 
 >[!NOTE]
 >
@@ -92,32 +71,28 @@ Une fois enregistré, qu’il soit créé à partir de zéro ou à partir d’un
 >
 >* De même, lorsque des modèles sont utilisés dans un e-mail, les modifications que vous apportez au contenu de votre e-mail n’ont aucune incidence sur le modèle de contenu précédemment utilisé.
 
-### Créer un modèle à partir de zéro {#create-template-from-scratch}
+### Créer un modèle de contenu {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Définir les propriétés de votre modèle"
->abstract="Lors de la création d’un modèle à partir de zéro, définissez ses propriétés à récupérer facilement si nécessaire."
+>abstract="Si nécessaire, définissez facilement les propriétés de modèle de contenu d&#39;email à récupérer."
 
-Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
+Pour créer un modèle de contenu à partir du tableau de bord des modèles de contenu, procédez comme suit :
 
-1. Accédez à la liste des modèles de contenu via le menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]**.
+1. Accédez à la liste des modèles de contenu à partir du **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]** rail gauche.
 
 1. Sélectionnez **[!UICONTROL Créer un modèle]**.
 
    ![](assets/content-template-create.png)
 
-1. Renseignez les détails du modèle. Vous pouvez sélectionner le dossier dans lequel vous souhaitez stocker votre modèle. Par défaut, les modèles de contenu sont stockés dans un dossier dédié de la hiérarchie Adobe Campaign : **[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
+1. Saisissez le libellé et les propriétés du modèle. Vous pouvez sélectionner le dossier dans lequel vous souhaitez stocker votre modèle. Par défaut, les modèles de contenu sont stockés dans un dossier dédié de la hiérarchie Adobe Campaign : **[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**. En savoir plus sur les dossiers dans [cette page](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
-   >[!NOTE]
-   >
-   >Actuellement, seuls le canal **E-mail** et le type **HTML** sont pris en charge.
-
 1. Cliquez sur **[!UICONTROL Créer]** et choisissez votre méthode de conception de modèle parmi les différentes options suivantes :
 
-   * [Concevez votre e-mail à partir de zéro](create-email-content.md) dans l’interface du Concepteur d’e-mail.
+   * [Concevoir entièrement votre contenu](create-email-content.md) via l&#39;interface du Concepteur d&#39;email.
 
    * [Codez ou collez du code HTML brut](code-content.md) directement dans le Concepteur d’e-mail.
 
@@ -127,7 +102,7 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 
    ![](assets/email_designer-templates.png)
 
-1. Le [Concepteur d’e-mail](get-started-email-designer.md) s’affiche. Modifiez votre contenu selon vos besoins, comme vous le feriez pour n’importe quel e-mail, en fonction de l’option que vous avez sélectionnée.
+1. Le Concepteur d’email s’affiche. Modifiez votre contenu selon vos besoins, comme vous le feriez pour n&#39;importe quel email, selon l&#39;option que vous avez sélectionnée. Découvrez comment utiliser le Concepteur d’email dans [cette section](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -137,9 +112,7 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 
    ![](assets/content-template-save-back.png)
 
-Le modèle est enregistré dans le dossier par défaut de la hiérarchie Adobe Campaign (**[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**). [En savoir plus sur les dossiers](../get-started/permissions.md#folders)
-
-Il s’affiche également dans la liste des **[!UICONTROL Modèles de contenu]**. [En savoir plus](#access-manage-templates)
+Le modèle est disponible dans la variable **[!UICONTROL Modèles de contenu]** liste. [En savoir plus](#access-templates)
 
 Vous pouvez désormais utiliser ce modèle pour créer un nouveau contenu : il est disponible sous l’onglet **[!UICONTROL Modèles enregistrés]** du Concepteur d’e-mail. [Voici comment procéder](use-email-templates.md).
 
@@ -159,13 +132,12 @@ Pour enregistrer un contenu d’e-mail en tant que modèle, procédez comme suit
 
    ![](assets/email_designer-template-name.png)
 
-Le modèle est enregistré dans le dossier par défaut de la hiérarchie Adobe Campaign (**[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**). [En savoir plus sur les dossiers](../get-started/permissions.md#folders)
-
-Il s’affiche également dans la liste des **[!UICONTROL Modèles de contenu]**. Il devient alors un modèle de contenu autonome, pouvant être consulté, modifié et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates)
+Le modèle est enregistré et affiché dans le **[!UICONTROL Modèles de contenu]** liste. Il devient alors un modèle de contenu autonome, pouvant être consulté, modifié et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates)
 
 Vous pouvez désormais utiliser ce modèle pour créer un nouveau contenu : il est disponible sous l’onglet **[!UICONTROL Modèles enregistrés]** du Concepteur d’e-mail. [Voici comment procéder](use-email-templates.md).
 
 ![](assets/email_designer-saved-template.png)
+
 
 >[!NOTE]
 >
@@ -186,3 +158,45 @@ You can test the rendering of any email content template, whether created from s
 1. You can send a proof to test your content and have it approved by some internal users before using it. To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in .
 
 -->
+
+
+## Modifier un modèle de contenu {#modify-delete}
+
+Pour mettre à jour un modèle de contenu existant, procédez comme suit :
+
+1. Dans la liste des modèles de contenu, cliquez sur le libellé du modèle à modifier pour l&#39;éditer.
+
+1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour mettre à jour votre contenu avec le [Concepteur d’e-mail](get-started-email-designer.md).
+
+![](assets/content-template-edition.png)
+
+>[!NOTE]
+>
+>Les modifications apportées aux modèles de contenu ne sont pas propagées aux emails utilisant ce modèle de contenu.
+
+## Suppression d’un modèle de contenu {#content-delete}
+
+Vous pouvez supprimer un modèle de contenu de deux manières différentes :
+
+* dans la liste des modèles de contenu, cliquez sur le bouton représentant des points de suspension puis sélectionnez **Supprimer**
+
+  ![Supprimer un modèle de contenu du tableau de bord](assets/content-template-list-delete.png)
+
+* dans le modèle de contenu lui-même, cliquez sur le bouton **Plus** bouton puis sélectionner **Supprimer**
+
+
+>[!NOTE]
+>
+>La suppression d&#39;un modèle de contenu n&#39;a aucun impact sur les diffusions créées à partir de ce modèle.
+
+
+## Dupliquer un modèle de contenu {#content-duplicate}
+
+Vous pouvez dupliquer un modèle de contenu de deux manières différentes :
+
+* dans la liste des modèles de contenu, cliquez sur le bouton représentant des points de suspension puis sélectionnez **Dupliquer**
+
+* dans le modèle de contenu lui-même, cliquez sur le bouton **Plus** bouton puis sélectionner **Dupliquer**
+
+Dans les deux cas, confirmez la duplication pour créer le modèle de contenu. Le libellé du nouveau modèle de contenu est **Copie de`<label of the initial campaign`**. Accédez aux paramètres du modèle pour mettre à jour ce libellé.
+
