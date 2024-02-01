@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité de workflow Partage.
 badge: label="Disponibilité limitée"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
 

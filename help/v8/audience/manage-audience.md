@@ -5,7 +5,7 @@ description: Découvrir comment surveiller et gérer les audiences dans Adobe C
 badge: label="Disponibilité limitée"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité de workflow Réconciliati
 badge: label="Disponibilité limitée"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 100%
 

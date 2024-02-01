@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité de workflow Branchement.
 badge: label="Disponibilité limitée"
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 

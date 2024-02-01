@@ -4,7 +4,7 @@ description: Mécanismes de sécurisation et limites de l’interface utilisateu
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 100%
 

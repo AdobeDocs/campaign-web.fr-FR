@@ -5,7 +5,7 @@ description: Découvrez comment envoyer votre premier e-mail avec l’interface 
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Disponibilité limitée"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 100%
 

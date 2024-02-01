@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité de workflow Combiner.
 badge: label="Disponibilité limitée"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
