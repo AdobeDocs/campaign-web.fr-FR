@@ -3,14 +3,21 @@ audience: end-user
 title: Prise en main des landing pages
 description: En savoir plus sur les landing pages dans Campaign Web
 badge: label="Disponibilité limitée"
-source-git-commit: cfd648013a8ae16be30603f982d122d09781cd51
+source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 5%
+source-wordcount: '195'
+ht-degree: 7%
 
 ---
 
 # Prise en main des landing pages {#get-sarted-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Landing pages"
+>abstract="Découvrez la nouvelle expérience de page d’entrée. Créez, concevez et partagez instantanément des landing pages afin d&#39;orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer l&#39;acquisition de données de profil, et les flux d&#39;opt-in/opt-out rapides et fluides."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
+
 
 Une page d’entrée est une page web autonome à laquelle l’utilisateur est redirigé après avoir cliqué à partir d’un courrier électronique, d’un site web, d’une publicité ou de tout autre emplacement numérique.
 
