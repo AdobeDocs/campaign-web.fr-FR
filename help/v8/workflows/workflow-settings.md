@@ -4,10 +4,10 @@ title: Configurer les paramètres de workflow
 description: Découvrir comment configurer les paramètres de workflow à l’aide d’Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
+source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 81%
+source-wordcount: '957'
+ht-degree: 75%
 
 ---
 
@@ -77,7 +77,12 @@ Lorsque le workflow est [associé à une opération](create-workflow.md), il s�
   >
   >Si le champ **[!UICONTROL Jours d’historique]** n’est pas renseigné, la valeur prise en compte est « 1 », ce qui signifie que l’historique sera purgé après 1 jour.
 
-* **[!UICONTROL Affinité par défaut]** : si votre installation comprend plusieurs serveurs de workflow, ce champ permet de choisir la machine sur laquelle le workflow sera exécuté. Si la valeur définie dans ce champ n’existe sur aucun serveur, le workflow reste en attente.
+* **[!UICONTROL Affinité par défaut]**: si votre installation comprend plusieurs serveurs de workflow, utilisez ce champ pour spécifier le serveur sur lequel le workflow sera exécuté. Cela force l’exécution de ce workflow sur un serveur particulier. Vous pouvez choisir n’importe quel nom d’affinité, mais assurez-vous de ne pas utiliser d’espaces ni de signes de ponctuation. Si vous utilisez des serveurs différents, spécifiez des noms différents, séparés par des virgules.
+
+  >[!IMPORTANT]
+  >
+  >Si la valeur définie dans ce champ n’existe sur aucun serveur, le workflow reste en attente.
+
 
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**: cochez cette option pour enregistrer les requêtes SQL du workflow dans les logs. Cette fonctionnalité est réservée aux utilisateurs et utilisatrices avancés. Elle s’applique aux workflows qui contiennent des activités de ciblage, comme **[!UICONTROL Créer une audience]**. Lorsque cette option est activée, les requêtes SQL envoyées à la base de données lors de l’exécution du workflow sont affichées dans les logs du workflow, ce qui vous permet de les analyser afin d’optimiser les requêtes ou de diagnostiquer les problèmes.
 
