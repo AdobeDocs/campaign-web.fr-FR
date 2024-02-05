@@ -4,10 +4,10 @@ title: Créer une diffusion SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,10 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
    Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/preview-test.md) et [configurer des offres](../msg/offers.md).
 
 1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour la personne destinataire. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#gs-schedule).
+
+   >[!NOTE]
+   >
+   >Lorsqu&#39;une diffusion est envoyée dans le cadre d&#39;un workflow, vous devez utiliser la variable **Planificateur** activité. En savoir plus sur [cette page](../workflows/activities/scheduler.md).
 
 1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 

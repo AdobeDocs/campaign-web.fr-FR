@@ -4,10 +4,10 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier email avec l'interface utilisateur web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Disponibilité limitée"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 99%
+source-wordcount: '1367'
+ht-degree: 95%
 
 ---
 
@@ -144,11 +144,9 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans 
 
 ## Planifier l’envoi {#schedule}
 
-Pour planifier l’envoi de l’e-mail, procédez comme suit :
+Lorsqu&#39;une diffusion est envoyée dans le cadre d&#39;un workflow, vous devez utiliser la variable **Planificateur** activité. En savoir plus sur [cette page](../workflows/activities/scheduler.md). Les étapes ci-dessous s’appliquent uniquement aux diffusions autonomes.
 
-Vous trouverez des instructions supplémentaires sur la planification de l’envoi de la diffusion dans [cette section](../msg/gs-messages.md#gs-schedule).
-
-1. Accédez à la section **[!UICONTROL Planifier]**.
+1. Accédez au **[!UICONTROL Planification]** de la section des propriétés de la diffusion.
 
 1. Utilisez le bouton (bascule) **[!UICONTROL Activer la planification]** pour l’activer.
 
@@ -156,7 +154,9 @@ Vous trouverez des instructions supplémentaires sur la planification de l’env
 
    ![](assets/schedule.png)
 
-Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
+Une fois que vous avez envoyé la diffusion, l&#39;envoi effectif commence à la date de contact que vous avez définie.
+
+Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## Prévisualiser et tester l’e-mail {#preview-test}
 

@@ -4,10 +4,10 @@ title: Créer une diffusion par notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '706'
+ht-degree: 89%
 
 ---
 
@@ -89,10 +89,21 @@ Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/
 
 ## Planifier lʼenvoi de la diffusion {#schedule-push}
 
-Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour la personne destinataire. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#gs-schedule).
+Lorsqu&#39;une diffusion est envoyée dans le cadre d&#39;un workflow, vous devez utiliser la variable **Planificateur** activité. En savoir plus sur [cette page](../workflows/activities/scheduler.md). Les étapes ci-dessous s’appliquent uniquement aux diffusions autonomes.
+
+Pour planifier une diffusion push autonome à une date et une heure spécifiques, procédez comme suit :
+
+1. Accédez au **[!UICONTROL Planification]** de la section des propriétés de la diffusion.
+
+1. Utilisez le bouton (bascule) **[!UICONTROL Activer la planification]** pour l’activer.
+
+1. Définissez la date et l’heure d’envoi.
+
+Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l&#39;heure exactes que vous avez définies pour le destinataire.
 
 ![](assets/push_create_3.png)
 
+Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#gs-schedule).
 
 ## Paramètres avancés des diffusions {#adv-push}
 
