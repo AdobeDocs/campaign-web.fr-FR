@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Prévisualiser le contenu de la diffusion
-description: Découvrez comment prévisualiser le contenu de votre diffusion avec l’interface utilisateur web de Campaign.
+description: Découvrez comment prévisualiser le contenu de votre diffusion à l'aide de l'interface utilisateur Web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilité limitée"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 85%
 
 ---
 
@@ -30,21 +30,18 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
    * **[!UICONTROL Ajouter un ou plusieurs abonnés]** pour prévisualiser les notifications push.
 
-1. Vous pouvez combiner les profils de test et les profils pour prévisualiser le message e-mail ou SMS.
+1. Vous pouvez combiner des profils et des profils de test pour prévisualiser votre email ou votre SMS.
 
    * L’onglet **[!UICONTROL Profils de test]** répertorie les adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données.
-
      ![](assets/simulate-select-profiles.png)
 
-     >[!NOTE]
-     >
-     >Les profils de test peuvent être créés à partir du menu **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]**. [En savoir plus](../audience/test-profiles.md#create-test-profiles)
+     Les profils de test peuvent être créés à partir du menu **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]**. [En savoir plus](../audience/test-profiles.md#create-test-profiles)
 
-   * L’onglet **[!UICONTROL Profils]** répertorie tous les destinataires enregistrés dans le dossier **[!UICONTROL Profils et cibles]** à partir de la console [!DNL Campaign]. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=fr){target="_blank"}.
 
-     >[!NOTE]
-     >
-     >Vous pouvez également afficher et gérer les profils dans l’onglet correspondant de l’interface utilisateur web de Campaign. [En savoir plus](../audience/about-recipients.md)
+   * La variable **[!UICONTROL Profils]** répertorie tous les destinataires stockés dans la variable **[!UICONTROL Profils et cibles]** à partir du dossier [!DNL Campaign] console cliente. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=fr){target="_blank"}.
+
+     Vous pouvez afficher, créer et gérer des profils à partir du **[!UICONTROL Profils]** . [En savoir plus](../audience/about-recipients.md)
+
 
 1. Lorsque vous parcourez le profil de test ou la liste des profils, vous pouvez ajouter des filtres pour affiner votre recherche.
 

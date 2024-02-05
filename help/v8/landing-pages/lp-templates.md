@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser des modèles de contenu de landing page
 description: Découvrez comment enregistrer le contenu d'une landing page en tant que modèle de conception et le réutiliser dans Campaign Web
 badge: label="Disponibilité limitée"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 29%
@@ -56,4 +56,4 @@ La prochaine fois que vous créerez une landing page, vous pourrez utiliser ce m
 
 1. Modifiez votre contenu selon vos besoins à l&#39;aide du concepteur de landing page.
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

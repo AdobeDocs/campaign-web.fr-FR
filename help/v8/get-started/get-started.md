@@ -4,10 +4,10 @@ title: Prise en main d’Adobe Campaign Web
 description: Prise en main d’Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Disponibilité limitée"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 87%
+source-wordcount: '577'
+ht-degree: 64%
 
 ---
 
@@ -43,9 +43,9 @@ Initialement accessible uniquement par le biais d’une [console cliente](#ac-cl
 
 ![](assets/home.png)
 
-Cette nouvelle interface utilisateur répond tout d’abord aux besoins des **professionnels et professionnelles**, car toutes les tâches d’administration standard ne sont pas disponibles dans cette première version. Elles seront intégrées dans les versions ultérieures. Notez que toutes les fonctionnalités ou options disponibles dans la console cliente ne sont pas disponibles pour l’instant dans la nouvelle interface utilisateur. De nouveaux cas d’utilisation, options et fonctionnalités seront disponibles dans les versions ultérieures.
+Cette nouvelle interface utilisateur Web répond tout d’abord aux besoins des **professionnel de l&#39;entreprise** - toutes les tâches d’administration standard ne sont pas disponibles dans cette première version, mais seront traitées dans les versions suivantes. Notez que toutes les fonctionnalités ou options disponibles dans la console cliente ne sont pas disponibles pour l’instant dans la nouvelle interface utilisateur. De nouveaux cas d’utilisation, options et fonctionnalités seront disponibles dans les versions ultérieures.
 
-En tant qu’utilisateur expert ou utilisatrice experte, ou en tant qu’administrateur ou administratrice, si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas disponible dans l’interface utilisateur web, vous pouvez utiliser la [console cliente](#ac-client).
+En tant qu&#39;administrateur ou utilisateur expert, si vous devez accéder aux fonctionnalités de Campaign v8 qui ne sont pas disponibles dans l&#39;interface utilisateur Web de Campaign, vous pouvez vous connecter à la [console cliente](#ac-client).
 
 
 >[!NOTE]
@@ -58,8 +58,8 @@ Découvrez comment vous connecter à Adobe Campaign Web sur [cette page](connec
 
 La console cliente Campaign est une application de navigateur installée sur votre système. Elle utilise l’API des services web pour se connecter à votre serveur d’applications Campaign.
 
-Les données de Campaign sont stockées dans le serveur d’applications. Les données sont disponibles sur la console cliente et sur l’interface utilisateur web. Par exemple, si vous créez un modèle de diffusion à partir de la console cliente, il est également disponible dans l’interface web. De même, si vous créez une diffusion e-mail dans l’interface utilisateur web, celle-ci est également accessible sur la console cliente.
+Les données de Campaign sont stockées dans le serveur d’applications. Les données sont disponibles à la fois à partir de la console cliente et de l&#39;interface utilisateur Web de Campaign. Par exemple, si vous créez un modèle de diffusion à l&#39;aide de la console cliente, il est également disponible dans l&#39;interface utilisateur Web de Campaign. Et si vous créez une diffusion email dans l&#39;interface utilisateur Web de Campaign, cette diffusion est également accessible à partir de la console cliente.
 
-Certains objets ne peuvent être créés et gérés que dans la console cliente. Ils peuvent être visibles et utilisés dans l’interface utilisateur de Campaign Web, mais ne peuvent pas être créés ni modifiés à partir de cet environnement. Tous les objets et composants de Campaign sont disponibles dans la vue Explorateur, à partir du volet de navigation de gauche.
+Certains objets ne peuvent être créés et gérés que dans la console cliente. Ils peuvent être visibles et utilisés dans l&#39;interface utilisateur Web de Campaign, mais ne peuvent pas être créés ni modifiés à partir de cet environnement. Tous les objets et composants de Campaign sont disponibles dans la vue Explorateur, à partir du volet de navigation de gauche.
 
 Pour plus d’informations sur l’utilisation de Campaign v8 avec sa console cliente, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.

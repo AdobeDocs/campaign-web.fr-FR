@@ -4,10 +4,10 @@ title: Utiliser l’activité de workflow Réconciliation
 description: Découvrez comment utiliser l’activité de workflow Réconciliation
 badge: label="Disponibilité limitée"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 97%
 
 ---
 
@@ -125,4 +125,4 @@ Il est créé avec les activités suivantes :
 
 ## Compatibilité {#reconciliation-compat}
 
-L’activité **Réconciliation** n’existe pas dans la console cliente. Toutes les activités **Enrichissement** créées dans la console cliente avec les options de réconciliation activées s’affichent sous la forme d’activités **Réconciliation** dans l’interface utilisateur de Campaign Web.
+L’activité **Réconciliation** n’existe pas dans la console cliente. Tous **Enrichissements** les activités créées dans la console cliente avec les options de réconciliation activées s’affichent sous la forme **Réconciliation** activités dans l&#39;interface utilisateur Web de Campaign.

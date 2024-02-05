@@ -1,56 +1,56 @@
 ---
-title: Mécanismes de sécurisation et limites de l’interface utilisateur web de Campaign
-description: Mécanismes de sécurisation et limites de l’interface utilisateur web de Campaign
-badge: label="Beta"
+title: Barrières de sécurité et limitations de l’interface utilisateur Web de Campaign
+description: Barrières de sécurité et limitations de l’interface utilisateur Web de Campaign
+badge: label="Version bêta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 65%
 
 ---
 
 # Mécanismes de sécurisation et limitations {#guardrails-limitations}
 
-Lorsque vous utilisez l’interface utilisateur web de Campaign avec des composants créés ou modifiés dans la console cliente Campaign, les mécanismes de sécurisation et les limites répertoriés ci-dessous s’appliquent.
+Lorsque vous utilisez l&#39;interface utilisateur Web de Campaign avec des composants créés ou modifiés dans la console cliente Campaign, les barrières de sécurité et les limitations répertoriées ci-dessous s&#39;appliquent.
 
 ## Workflows {#wf-guardrails-limitations}
 
 ### Activités
 
-Les activités de workflow qui ne sont pas encore prises en charge dans l’interface utilisateur web sont en lecture seule et affichées en tant qu’activités incompatibles. Vous pouvez toujours exécuter le workflow, envoyer des messages, vérifier les journaux, etc. Les activités de workflow disponibles dans l’interface utilisateur web et dans la console cliente sont modifiables.
+Les activités de workflow qui ne sont pas encore prises en charge dans l&#39;interface utilisateur Web de Campaign sont en lecture seule et affichées en tant qu&#39;activités incompatibles. Vous pouvez toujours exécuter le workflow, envoyer des messages, vérifier les journaux, etc. Les activités de workflow disponibles dans l&#39;interface utilisateur Web de Campaign et dans la console cliente Campaign sont modifiables.
 
-| Console | Interface utilisateur web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-Les paramètres d’activité de workflow qui ne sont pas encore pris en charge dans l’interface utilisateur web ne s’affichent pas. Toutefois, lorsque le workflow est exécuté, ces paramètres s’appliquent.
+Les paramètres d’activité de workflow qui ne sont pas encore pris en charge dans l’interface utilisateur Web ne s’affichent pas. Toutefois, lorsque le workflow est exécuté, ces paramètres s’appliquent.
 
-| Console | Interface utilisateur web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-Dans la console, l’activité **Enrichissement** peut effectuer à la fois la réconciliation et l’enrichissement. Dans l’interface utilisateur web, les fonctionnalités de réconciliation ne sont pas encore disponibles. Si vous avez défini des paramètres de réconciliation dans la console, dans l’activité **Enrichissement**, celle-ci s’affiche en tant qu’activité en lecture seule non compatible dans l’interface utilisateur web.
+Dans la console, l’activité **Enrichissement** peut effectuer à la fois la réconciliation et l’enrichissement. Dans l&#39;interface utilisateur Web de Campaign, les fonctionnalités de réconciliation ne sont pas encore disponibles. Si vous avez défini, dans la console cliente, les paramètres de réconciliation dans la **Enrichissement** , elle s&#39;affiche en tant qu&#39;activité en lecture seule non compatible dans l&#39;interface utilisateur Web de Campaign.
 
-| Console | Interface utilisateur web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### Zone de travail
 
-Lors de la création d’un workflow dans l’interface utilisateur web, la zone de travail ne prend en charge qu’un seul point d’entrée. Cependant, si vous avez créé un workflow dans la console avec plusieurs points d’entrée, vous pouvez l’ouvrir et le modifier dans l’interface utilisateur web.
+Lors de la création d’un workflow dans l’interface utilisateur Web de Campaign, le canevas ne prend en charge qu’un seul point d’entrée. Cependant, si vous avez créé un workflow dans la console avec plusieurs points d&#39;entrée, vous pouvez l&#39;ouvrir et l&#39;éditer dans l&#39;interface utilisateur Web de Campaign.
 
-| Console | Interface utilisateur web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Les boucles ne sont pas encore disponibles dans l’interface utilisateur web. Si vous avez créé un workflow comprenant une boucle à l’aide de la console, vous ne pouvez pas y accéder à partir de l’interface utilisateur web. Un message d’erreur s’affiche.
+Les boucles ne sont pas encore disponibles dans l&#39;interface utilisateur Web de Campaign. Si vous avez créé un workflow comprenant une boucle à l&#39;aide de la console, vous ne pouvez pas y accéder à partir de l&#39;interface utilisateur Web de Campaign. Un message d’erreur s’affiche.
 
-| Console | Interface utilisateur web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-Le positionnement des nœuds est actualisé à chaque fois qu’une activité est ajoutée ou supprimée. Si vous créez un workflow dans la console, que vous le modifiez à l’aide de l’interface utilisateur web et que vous le rouvrez dans la console, vous constaterez peut-être des imperfections mineures du positionnement. Cela n’a aucun impact sur les processus et les tâches du workflow.
+Le positionnement des nœuds est actualisé à chaque fois qu’une activité est ajoutée ou supprimée. Si vous créez un workflow dans la console, modifiez-le à l&#39;aide de l&#39;interface utilisateur Web de Campaign et rouvrez-le dans la console, vous constaterez peut-être des imperfections mineures de positionnement. Cela n’a aucun impact sur les processus et les tâches du workflow.
 
 | Workflow initial | Changement de positionnement |
 | --- | --- |

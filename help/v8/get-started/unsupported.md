@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Fonctionnalités non prises en charge dans l’interface utilisateur web de Campaign
-description: Liste des fonctionnalités non prises en charge dans l’interface utilisateur web de Campaign
+title: Fonctionnalités non prises en charge dans l’interface utilisateur Web de Campaign
+description: Liste des fonctionnalités non prises en charge dans l’interface utilisateur Web de Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 100%
+source-wordcount: '350'
+ht-degree: 95%
 
 ---
 

@@ -4,10 +4,10 @@ title: Nouveautés de Campaign Web v8
 description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilité limitée"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 100%
+source-wordcount: '1302'
+ht-degree: 84%
 
 ---
 
@@ -32,11 +32,11 @@ Nous avons le plaisir de présenter la nouvelle version de l’interface utilisa
 
 ## Fonctionnalités principales {#key-features}
 
-Actuellement, cette nouvelle interface web de Campaign n’est fournie qu’en **disponibilité limitée** et dispose des fonctionnalités suivantes :
+Cette nouvelle interface utilisateur Web de Campaign est dotée des fonctionnalités suivantes :
 
 **Une expérience moderne, conviviale et unifiée**
 
-La nouvelle UI web de Campaign offre une nouvelle expérience client, alignée sur toutes les solutions et applications Adobe Experience Cloud. Elle offre :
+La nouvelle interface utilisateur Web de Campaign offre une nouvelle expérience utilisateur, alignée sur toutes les solutions et applications Adobe Experience Cloud. Elle offre :
 
 * L’accès à la nouvelle interface Campaign et aux autres solutions Adobe dans une session utilisateur unique et partagée
 * Une nouvelle expérience de navigation, avec tous les menus et dossiers disponibles dans le rail de gauche
@@ -48,14 +48,14 @@ Découvrez comment vous connecter à Adobe Experience Cloud et à Campaign sur
 
 **De nouvelles fonctionnalités puissantes et des processus transparents**
 
-L’interface utilisateur d’Adobe Campaign Web propose un environnement graphique complet qui vous permet de concevoir des processus complexes et de gérer vos campagnes marketing en toute facilité. Elle est fournie avec les éléments suivants :
+L’interface utilisateur web d’Adobe Campaign fournit un environnement graphique complet qui vous permet de concevoir des processus complexes qui peuvent vous aider à gérer facilement vos campagnes marketing. Elle est fournie avec les éléments suivants :
 
 * Une interface de zone de travail de workflow repensée pour concevoir et gérer vos processus
 * Du contenu dynamique pour diffuser des expériences hautement ciblées et personnalisées à votre audience
 * Une intégration native des audiences Adobe Experience Platform
 * Une gestion des modèles pour les workflows, les diffusions, les campagnes et le contenu
 
-Apprenez-en davantage sur la nouvelle UI sur [cette page](../get-started/user-interface.md).
+En savoir plus sur la nouvelle interface utilisateur Web dans [cette page](../get-started/user-interface.md).
 
 **Nouveau modèle de requête simplifié et intuitif**
 
@@ -74,7 +74,7 @@ En savoir plus dans [cette section](../query/query-modeler-overview.md).
 
 Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’e-mails, SMS, notifications push, et mesurer leur efficacité à l’aide de différents rapports dédiés. Ajoutez plusieurs workflows et des diffusions spécifiques à votre campagne afin de créer des expériences personnalisées sur différents canaux. Chaque point de contact atteint alors l’audience visée.
 
-Utilisez la nouvelle UI web de Campaign pour effectuer les actions suivantes :
+Utilisez la nouvelle interface utilisateur Web de Campaign pour :
 
 * Créer, concevoir, personnaliser, planifier et envoyer des notifications par e-mail, par SMS et par notification push – [En savoir plus](../msg/gs-messages.md)
 * Créer un contenu d’e-mail personnalisé avec le concepteur d’e-mail – [En savoir plus](../email/edit-content.md)
@@ -105,7 +105,7 @@ Les principales fonctionnalités de la version à disponibilité limitée de Cam
 
 * **Création et gestion aisées des profils**
 
-  Vous pouvez utiliser la nouvelle interface utilisateur web pour **créer et mettre à jour des personnes destinataires** dans la base de données directement depuis le menu Personnes destinataires. Un formulaire simplifié d’édition de profil permet de renseigner les coordonnées et attributs de la personne destinataire, ou encore de mettre à jour une personne destinataire existante, sans utiliser la console cliente.
+  Vous pouvez utiliser la nouvelle interface utilisateur Web de Campaign pour **créer et mettre à jour des destinataires** dans la base directement depuis le menu Destinataires . Un formulaire simplifié d’édition de profil permet de renseigner les coordonnées et attributs de la personne destinataire, ou encore de mettre à jour une personne destinataire existante, sans utiliser la console cliente.
 
   En savoir plus dans [cette section](../audience/about-recipients.md).
 
@@ -132,7 +132,7 @@ Les principales fonctionnalités de la version à disponibilité limitée de Cam
 
 * **Filtres prédéfinis**
 
-  Présentation de la gestion des filtres prédéfinis. L’interface utilisateur web de Campaign vous offre désormais une interface conviviale pour **gérer et personnaliser facilement des filtres prédéfinis** pour répondre à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure.
+  Présentation de la gestion des filtres prédéfinis. L’interface utilisateur Web de Campaign vous offre une interface conviviale pour **gestion et personnalisation des filtres prédéfinis** pour répondre à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure.
 
   En savoir plus dans [cette section](../get-started/predefined-filters.md).
 
@@ -145,21 +145,21 @@ Les principales fonctionnalités de la version à disponibilité limitée de Cam
 
 * **SMS avec des offres**
 
-  La nouvelle interface utilisateur web vous permet désormais d’**intégrer des offres à des SMS** en plus de l’e-mail. Atteignez votre audience sur ses appareils mobiles, en proposant des promotions et des notifications opportunes. Optimisez vos efforts marketing en exploitant la puissance des offres intégrées par SMS sur notre plateforme web avancée.
+  La nouvelle interface utilisateur Web de Campaign permet de **intégrer des offres à des SMS** en plus de Email. Atteignez votre audience sur ses appareils mobiles, en proposant des promotions et des notifications opportunes. Optimisez vos efforts marketing en exploitant la puissance des offres intégrées par SMS sur notre plateforme web avancée.
 
   En savoir plus dans [cette section](../msg/offers.md).
 
-## Migrer vers l’UI de Campaign Web
+## Transition vers l’interface utilisateur Web de Campaign
 
 En tant qu’utilisateur ou utilisatrice de Campaign, vous pouvez toujours accéder à la console cliente pour créer et gérer des ressources et des composants de Campaign. Les données et les paramètres sont synchronisés d’un environnement à un autre. En savoir plus dans [cette section](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
-De plus, l’ensemble de vos données et paramètres déjà disponibles dans la console cliente sont visibles dans l’UI de Campaign Web, à partir du volet de navigation de gauche de l’explorateur. En savoir plus sur la vue Explorateur dans [cette section](../get-started/user-interface.md#explorer-user-interface-explorer).
+De plus, toutes vos données et tous vos paramètres déjà disponibles dans la console cliente sont visibles dans l&#39;interface utilisateur Web de Campaign, à partir du volet de navigation de gauche de l&#39;Explorateur. En savoir plus sur la vue Explorateur dans [cette section](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-Avec cette version de Campaign Web, l’interface utilisateur reflète les autorisations de l’utilisateur ou de l’utilisatrice. Pour en savoir plus sur les autorisations, consultez [cette page](../get-started/permissions.md).
+Avec l’interface utilisateur Web de Campaign, l’interface utilisateur reflète les autorisations de l’utilisateur. Pour en savoir plus sur les autorisations, consultez [cette page](../get-started/permissions.md).
 
 ## Mises à jour de la terminologie {#terminology-updates}
 
-Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications concernent uniquement l’UI de Campaign Web et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
+Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s&#39;appliquent uniquement à l&#39;interface utilisateur Web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
 
 * Les BAT sont maintenant des **e-mails de test** : pour envoyer un BAT, utilisez le bouton **Tester** dans l’UI de diffusion par e-mail. La cible des BAT s’appelle désormais **Profils de test**. [En savoir plus](../preview-test/test-deliveries.md).
 * Les adresses de contrôle sont désormais utilisées comme **Profils de test** : envoyez l’e-mail de test aux adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. [En savoir plus](../preview-test/test-deliveries.md).
