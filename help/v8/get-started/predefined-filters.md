@@ -3,9 +3,9 @@ title: Utiliser des filtres prédéfinis
 description: Découvrez comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '824'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ Les filtres prédéfinis sont des filtres personnalisés qui sont créés et enr
 
 Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-ensemble spécifique de vos données ou créer vos propres filtres prédéfinis et les enregistrer.
 
-![](assets/predefined-filters-menu.png)
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >
