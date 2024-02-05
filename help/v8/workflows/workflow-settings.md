@@ -4,10 +4,10 @@ title: Configurer les paramètres de workflow
 description: Découvrir comment configurer les paramètres de workflow à l’aide d’Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '917'
+ht-degree: 80%
 
 ---
 
@@ -29,23 +29,24 @@ Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres]** disponible dan
 >title="Propriétés de workflow "
 >abstract="Cette section fournit des propriétés de workflow génériques, qui sont également accessibles lors de la création du workflow. Vous pouvez choisir le modèle à utiliser pour créer le workflow et indiquer un libellé. Développez la section Options supplémentaires pour configurer des paramètres spécifiques tels que le dossier de stockage du workflow ou le fuseau horaire."
 
-La section **[!UICONTROL Propriétés]** fournit des paramètres génériques, qui sont également accessibles lors de la création du workflow.
+La variable **[!UICONTROL Propriétés]** fournit des paramètres génériques qui sont également accessibles lors de la création du workflow. Ces propriétés sont les suivantes :
 
-* **[!UICONTROL Libellé]** : le libellé du workflow qui s’affiche dans la liste.
-* **[!UICONTROL Nom]** : le nom interne du workflow.
-* **[!UICONTROL Dossier]** : le dossier dans lequel le workflow doit être enregistré.
-* **[!UICONTROL Campagne liée]** : ce champ s’affiche si le workflow a été créé dans une campagne. Il vous permet d’ouvrir la campagne associée.
-* **[!UICONTROL Fuseau horaire]** : définissez un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour la personne opératrice actuelle de Campaign.
-Les autres valeurs possibles sont les suivantes :
+* La variable **[!UICONTROL Libellé]** du workflow qui s’affiche dans la liste.
+* L’interne **[!UICONTROL Nom]** du workflow.
+* La variable **[!UICONTROL Dossier]** où le workflow doit être enregistré.
+* Par défaut **[!UICONTROL Fuseau horaire]** à utiliser dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour la personne opératrice actuelle de Campaign.
+Les valeurs possibles sont les suivantes :
    * **Fuseau horaire du serveur** pour utiliser le fuseau horaire du serveur applicatif Adobe Campaign.
    * **Fuseau horaire de l’opérateur ou de l’opératrice** pour utiliser le fuseau horaire de l’opérateur ou de l’opératrice Adobe Campaign qui exécute le workflow, tel que défini dans le profil de l’opérateur ou de l’opératrice, dans la console cliente.
    * **Fuseau horaire de la base de données** pour utiliser le fuseau horaire du serveur de base de données.
    * Un fuseau horaire spécifique.
+* En cas d&#39;échec d&#39;un workflow, les opérateurs appartenant au groupe d&#39;opérateurs sélectionné dans le **[!UICONTROL Superviseurs]** sont avertis par email.
+* *Vous pouvez également saisir un **[!UICONTROL Description]** de votre workflow.
 
-* **[!UICONTROL Superviseur(s)]** : en cas d’échec d’un workflow, les opérateurs et opératrices appartenant au groupe sélectionné dans ce champ reçoivent une notification par e-mail.
-* **[!UICONTROL Description]** : ce champ permet d’indiquer une description du workflow.
+Lorsque le workflow est [associé à une opération](create-workflow.md), il s’affiche dans la **[!UICONTROL Campagne liée]** champ . Vous pouvez ouvrir la campagne associée à partir de ce champ.
 
-## Paramètres de segmentation
+
+## Paramètres de segmentation  {#segmentation-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
@@ -56,9 +57,9 @@ Les autres valeurs possibles sont les suivantes :
 
 * **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** : par défaut, seules les tables de travail de la dernière exécution du workflow sont conservées. Les tables de travail des exécutions précédentes sont purgées par un workflow technique qui s’exécute quotidiennement.
 
-  Si cette option est activée, les tables de travail sont conservées même après l’exécution du workflow. Vous pouvez l’utiliser à des fins de test. N’utilisez donc cette option que dans les environnements de développement ou d’évaluation. Cette option ne doit jamais être activée dans un workflow de production.
+  Si cette option est activée, les tables de travail sont conservées même après l’exécution du workflow. Vous pouvez l’utiliser à des fins de test et doit donc être utilisé. **only** sur les environnements de développement ou d’évaluation. Cette option ne doit jamais être activée dans un workflow de production.
 
-## Paramètres d&#39;exécution
+## Paramètres d&#39;exécution  {#exec-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
@@ -73,16 +74,16 @@ Les autres valeurs possibles sont les suivantes :
 
 * **[!UICONTROL Affinité par défaut]** : si votre installation comprend plusieurs serveurs de workflow, ce champ permet de choisir la machine sur laquelle le workflow sera exécuté. Si la valeur définie dans ce champ n’existe sur aucun serveur, le workflow reste en attente.
 
-* **[!UICONTROL Enregistrer les requêtes SQL dans le log]** : permet d’enregistrer les requêtes SQL du workflow dans les logs. Cette fonctionnalité est réservée aux utilisateurs et utilisatrices avancés. Elle s’applique aux workflows qui contiennent des activités de ciblage, comme **[!UICONTROL Créer une audience]**. Lorsque cette option est activée, les requêtes SQL envoyées à la base de données lors de l’exécution du workflow sont affichées dans les logs du workflow, ce qui vous permet de les analyser afin d’optimiser les requêtes ou de diagnostiquer les problèmes.
+* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**: cochez cette option pour enregistrer les requêtes SQL du workflow dans les logs. Cette fonctionnalité est réservée aux utilisateurs et utilisatrices avancés. Elle s’applique aux workflows qui contiennent des activités de ciblage, comme **[!UICONTROL Créer une audience]**. Lorsque cette option est activée, les requêtes SQL envoyées à la base de données lors de l’exécution du workflow sont affichées dans les logs du workflow, ce qui vous permet de les analyser afin d’optimiser les requêtes ou de diagnostiquer les problèmes.
 
-## Paramètres de gestion des erreurs
+## Paramètres de gestion des erreurs  {#error-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Paramètres de gestion des erreurs"
->abstract="Dans cette section, vous pouvez gérer le comportement du workflow lorsqu’une erreur se produit lors de son exécution (mettre en pause/arrêter son exécution ou ignorer les erreurs)."
+>abstract="Dans cette section, vous pouvez définir comment le workflow doit gérer les erreurs lors de son exécution. Vous pouvez choisir de suspendre le processus, d&#39;ignorer un certain nombre d&#39;erreurs ou d&#39;arrêter l&#39;exécution du workflow."
 
-* **[!UICONTROL Gestion des erreurs]** : ce champ vous permet de définir les actions à effectuer si une tâche de workflow rencontre une erreur. Deux choix s’offrent à vous :
+* **[!UICONTROL Gestion des erreurs]** : ce champ vous permet de définir les actions à effectuer si une tâche de workflow rencontre une erreur. Trois options sont disponibles :
 
    * **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement mis en pause et adopte le statut **[!UICONTROL Échec]**. Une fois le problème résolu, reprenez l’exécution du workflow à l’aide des boutons **[!UICONTROL Reprendre]**.
    * **[!UICONTROL Ignorer]** : le statut de la tâche qui a déclenché l’erreur passe à **[!UICONTROL Échec]**, mais le workflow conserve le statut **[!UICONTROL Démarré]**.<!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
