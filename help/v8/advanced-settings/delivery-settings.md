@@ -4,10 +4,10 @@ title: Paramètres de diffusion
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilité limitée"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 99%
+source-wordcount: '2326'
+ht-degree: 98%
 
 ---
 
@@ -125,9 +125,11 @@ Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des pe
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Paramètres de diffusion de la diffusion"
->abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez activer la fonction Cci de la diffusion et modifier les modes de diffusion et de routine. Ces options sont limitées aux personnes expertes uniquement."
+>abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez modifier les modes de diffusion et de routine, activer Email Cci, envoyer par vagues et choisir le format des emails envoyés. Ces options sont limitées aux personnes expertes uniquement."
 
 Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qui s’appliquent à votre diffusion.
+
+![](assets/delivery-settings-delivery.png)
 
 Le compte externe de **[!UICONTROL Routage]** d’e-mails intégré est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 

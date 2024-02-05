@@ -3,7 +3,7 @@ audience: end-user
 title: Envoyer par vagues
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 53%
@@ -34,7 +34,11 @@ Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. 
 
 1. Pour configurer des vagues, vous pouvez effectuer l&#39;une des opérations suivantes :
 
-   * **[!UICONTROL Planification de plusieurs vagues de même taille]**. Par exemple, si vous saisissez **[!UICONTROL 30 %]** dans le champ correspondant, chaque vague représentera 30% des messages inclus dans la diffusion, à l&#39;exception de la dernière vague, qui représentera 10% des messages.
+   * **[!UICONTROL Planification de plusieurs vagues de même taille]**.
+
+     Par exemple, si vous saisissez **[!UICONTROL 30 %]** dans le champ correspondant, chaque vague représentera 30% des messages inclus dans la diffusion, à l&#39;exception de la dernière vague, qui représentera 10% des messages.
+
+     ![](assets/waves-same-size.png)
 
      Dans le **[!UICONTROL Intervalle]** , indiquez le délai entre le démarrage de deux vagues consécutives. Par exemple, si vous saisissez **[!UICONTROL 2d]**, la première vague démarrera immédiatement, la deuxième démarrera dans deux jours, la troisième dans quatre jours, etc.
 
@@ -44,7 +48,9 @@ Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. 
 
      Dans l&#39;exemple ci-dessous, la première vague représente 25 % du nombre total des messages inclus dans l&#39;envoi et démarre immédiatement. Les deux vagues suivantes terminent l&#39;envoi et sont définies pour démarrer à six heures d&#39;intervalle.
 
-     une règle de contrôle de typologie spécifique, **[!UICONTROL Vérification de la planification des vagues]**, assure que la dernière vague est planifiée avant la limite de validité de la diffusion. Les typologies de campagne et leurs règles sont configurées dans la variable **[!UICONTROL Typologie]** de l’onglet des paramètres de diffusion. En savoir plus sur les règles de contrôle dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     une règle de contrôle de typologie spécifique, **[!UICONTROL Vérification de la planification des vagues]**, assure que la dernière vague est planifiée avant la limite de validité de la diffusion. Les typologies de campagne et leurs règles sont configurées dans la variable **[!UICONTROL Typologie]** de l’onglet des paramètres de diffusion. En savoir plus sur les règles de contrôle dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ Les deux exemples ci-dessous constituent les cas d&#39;utilisation les plus fré
 
   Pour ce faire, utilisez l&#39;option **[!UICONTROL Planifier les vagues selon un calendrier]**. Par exemple, définissez la première vague sur 10 %, la deuxième sur 15 %, etc.
 
+  ![](assets/waves-ramp-up.png)
+
 * **Campagnes impliquant un centre d&#39;appels**
 
   Lorsque vous gérez une campagne téléphonique de fidélisation, votre entreprise a une capacité de traitement des appels limitée pour contacter les abonnés.
@@ -73,3 +81,5 @@ Les deux exemples ci-dessous constituent les cas d&#39;utilisation les plus fré
   Grâce aux vagues, vous pouvez limiter le nombre des messages à 20 par jour, ce qui correspond à la capacité de traitement quotidien d&#39;un centre d&#39;appels.
 
   Pour ce faire, sélectionnez l’option **[!UICONTROL Planification de plusieurs vagues de même taille]** . Entrée **[!UICONTROL 20]** comme la taille de la vague et **[!UICONTROL 1d]** dans le **[!UICONTROL Période]** champ .
+
+  ![](assets/waves-call-center.png)
