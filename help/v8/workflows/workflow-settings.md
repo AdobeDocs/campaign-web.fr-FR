@@ -4,7 +4,7 @@ title: Configurer les paramètres de workflow
 description: Découvrir comment configurer les paramètres de workflow à l’aide d’Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 75%
@@ -46,7 +46,7 @@ Les valeurs possibles sont les suivantes :
    * **Fuseau horaire de la base de données** pour utiliser le fuseau horaire du serveur de base de données.
    * Un fuseau horaire spécifique.
 * En cas d&#39;échec d&#39;un workflow, les opérateurs appartenant au groupe d&#39;opérateurs sélectionné dans le **[!UICONTROL Superviseurs]** sont avertis par email.
-* *Vous pouvez également saisir un **[!UICONTROL Description]** de votre workflow.
+* Vous pouvez également saisir un **[!UICONTROL Description]** de votre workflow.
 
 Lorsque le workflow est [associé à une opération](create-workflow.md), il s’affiche dans la **[!UICONTROL Campagne liée]** champ . Vous pouvez ouvrir la campagne associée à partir de ce champ.
 
