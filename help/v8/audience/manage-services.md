@@ -4,10 +4,10 @@ title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 90%
+source-wordcount: '940'
+ht-degree: 85%
 
 ---
 
@@ -70,11 +70,11 @@ Pour créer un service d’abonnement, procédez comme suit :
 
 1. Par défaut, les services sont stockés dans le dossier **[!UICONTROL Services et abonnements]**. Vous pouvez le modifier en accédant à l’emplacement souhaité. [Découvrez comment utiliser les dossiers](../get-started/permissions.md#folders)
 
-1. Par défaut, les abonnements sont illimités. Vous pouvez désactiver l’option **[!UICONTROL Période de validité illimitée]** pour définir une durée de validité du service.
+1. Par défaut, les abonnements sont illimités.
 
-   Dans l’exemple ci-dessous, après 20 jours :
-   * Aucun destinataire ne pourra plus s’abonner à ce service.
-   * Toutes les personnes abonnées à ce service seront automatiquement désabonnées au bout de 20 jours. [En savoir plus](#automatic-unsubscription)
+   Vous pouvez désactiver la variable **[!UICONTROL Durée de validité illimitée]** pour définir une durée de validité du service. Une fois la période de validité terminée :
+   * Aucun destinataire ne peut plus s&#39;abonner à ce service.
+   * Tous les abonnés à ce service sont automatiquement désabonnés.
 
    ![](assets/service-create-validity-period.png)
 
