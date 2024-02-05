@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité de workflow Créer une au
 badge: label="Disponibilité limitée"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 

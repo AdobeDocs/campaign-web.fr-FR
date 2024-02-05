@@ -7,7 +7,7 @@ hidefromtoc: true
 badge: label="Disponibilité limitée"
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
 

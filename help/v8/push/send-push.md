@@ -5,7 +5,7 @@ description: Découvrez comment envoyer une diffusion par notification push dans
 badge: label="Disponibilité limitée"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 100%
 

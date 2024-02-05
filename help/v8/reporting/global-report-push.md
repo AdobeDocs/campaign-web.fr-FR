@@ -5,7 +5,7 @@ description: Comprendre les rapports globaux du canal de notification push
 badge: label="Disponibilité limitée"
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 100%
 

@@ -16,12 +16,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="Aide et documentation"
->abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
+>abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception qui permettent d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
 >title="Découvrir la nouvelle interface utilisateur d’Adobe Campaign"
->abstract="Plus moderne, plus intuitive, plus dynamique."
+>abstract="Plus moderne, intuitive et dynamique"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
@@ -54,12 +54,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Aide et documentation"
->abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
+>abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception qui permettent d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
 >title="Découvrir la nouvelle interface utilisateur d’Adobe Campaign"
->abstract="Plus moderne, plus intuitive, plus dynamique."
+>abstract="Plus moderne, intuitive et dynamique"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
@@ -96,11 +96,11 @@ Découvrez les dernières améliorations apportées au produit Web et à la docu
 
 >[!TAB Workflows cross-canal]
 
-Bénéficiez de nouvelles possibilités d’automatisation et d’optimisation, ce qui vous permet de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
+Bénéficiez de nouvelles fonctionnalités d’automatisation et d’optimisation qui vous permettront de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
->[!TAB Composition de l’audience]
+>[!TAB Composition d’audiences]
 
 Créez des audiences dans une zone de travail visuelle de workflow. En plus de commencer de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Combinez plusieurs audiences en une seule, enrichissez votre audience avec des attributs externes ou divisez-la en plusieurs audiences en fonction des règles de votre choix.
 
@@ -108,7 +108,7 @@ Créez des audiences dans une zone de travail visuelle de workflow. En plus de c
 
 >[!TAB Concepteur d’e-mail]
 
-Le concepteur d’e-mail de Campaign permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuite par glisser-déposer. Un monde de possibilités s’offre à vous : commencez à partir de zéro, importez un contenu précédent ou tirez parti de modèles existants. Vous pouvez concevoir et affiner le contenu de chaque e-mail !
+Le Concepteur d’e-mail de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 

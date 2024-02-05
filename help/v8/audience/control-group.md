@@ -5,7 +5,7 @@ description: Découvrez comment définir une population témoin pour vos message
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Disponibilité limitée"
 source-git-commit: 3a5c4a02f6d3d46696e4db0f2e97d7981e2d68b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 100%
 

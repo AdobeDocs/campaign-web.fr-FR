@@ -5,7 +5,7 @@ description: Découvrez comment prévisualiser le contenu de votre diffusion ave
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilité limitée"
 source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
 

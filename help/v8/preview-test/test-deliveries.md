@@ -5,7 +5,7 @@ description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Disponibilité limitée"
 source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 100%
 

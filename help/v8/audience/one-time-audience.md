@@ -5,7 +5,7 @@ description: Découvrez comment créer une audience unique pour une diffusion.
 badge: label="Disponibilité limitée"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 

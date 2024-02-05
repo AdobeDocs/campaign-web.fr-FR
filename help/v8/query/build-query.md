@@ -5,7 +5,7 @@ description: Découvrez comment créer votre première requête dans le créateu
 badge: label="Disponibilité limitée"
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1920'
 ht-degree: 100%
 

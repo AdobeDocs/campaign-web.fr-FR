@@ -5,7 +5,7 @@ description: Découvrez comment gérer les personnes abonnées à un service dan
 badge: label="Disponibilité limitée"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 

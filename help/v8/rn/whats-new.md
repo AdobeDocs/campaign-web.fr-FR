@@ -5,7 +5,7 @@ description: Découvrez les nouvelles fonctionnalités de Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilité limitée"
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Les principales fonctionnalités de la version à disponibilité limitée de Cam
 
 * **Autres activités de workflow de Campaign**
 
-  Boostez vos campagnes marketing avec notre **ensemble étendu d’activités de workflow**. Bénéficiez de nouvelles possibilités d’automatisation et d’optimisation, ce qui vous permet de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
+  Boostez vos campagnes marketing avec notre **ensemble étendu d’activités de workflow**. Bénéficiez de nouvelles fonctionnalités d’automatisation et d’optimisation qui vous permettront de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
 
   Les nouvelles activités accompagnant la dernière version en disponibilité limité sont les suivantes : **Réconciliation**, **Chargement de fichier** et **Sauvegarde d’audience**.
 

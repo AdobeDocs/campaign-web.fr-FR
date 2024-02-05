@@ -5,7 +5,7 @@ description: Comprendre les rapports globaux du canal SMS
 badge: label="Disponibilité limitée"
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
 

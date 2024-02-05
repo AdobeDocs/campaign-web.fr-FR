@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ La palette est divisée en deux onglets :
 
 * **Attributs** : cet onglet permet d’accéder à tous les champs disponibles à partir du schéma. La liste des champs dépend du schéma de ciblage défini dans le modèle d’e-mail.
 
-* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform. Découvrez comment surveiller et gérer les audiences dans [cette section](manage-audience.md)
+* **Audiences** : cet onglet vous permet de filtrer à l’aide de l’une des audiences existantes définies dans la console Campaign Classic ou depuis Adobe Experience Platform. Découvrez comment surveiller et gérer des audiences dans [cette section](manage-audience.md).
 
   >[!NOTE]
   >
