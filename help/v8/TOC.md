@@ -6,7 +6,7 @@ title: Documentation Web d’Adobe Campaign
 description: Documentation Web de Campaign
 breadcrumb-title: Interface utilisateur Web de Campaign
 hide: true
-source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 88%
@@ -27,7 +27,7 @@ ht-degree: 88%
    + [Utiliser des filtres prédéfinis](get-started/predefined-filters.md)
    + [Accès et autorisations](get-started/permissions.md)
    + [Mécanismes de sécurisation et limitations](get-started/guardrails.md)
-   + [Fonctionnalités non prises en charge](get-started/unsupported.md)
+   + [Fonctionnalités non prises en charge](get-started/capability-matrix.md)
    + [Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
 + Messages et diffusions {#msg}
    + [Prise en main des messages](msg/gs-messages.md)
