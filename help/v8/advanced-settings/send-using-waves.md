@@ -4,10 +4,10 @@ title: Envoyer par vagues
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
 feature: Email
 badge: label="Disponibilité limitée"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 26%
+source-wordcount: '790'
+ht-degree: 25%
 
 ---
 
@@ -81,7 +81,11 @@ Si vous sélectionnez cette option, vous devez définir le jour/l’heure de dé
 
 * Dans le **[!UICONTROL Taille]** , saisissez un nombre fixe ou un pourcentage.
 
-Ajoutez autant de vagues que nécessaire.
+Ajoutez autant de vagues que vous le souhaitez. Vous pouvez les réorganiser selon vos besoins.
+
+>[!NOTE]
+>
+>Si vous utilisez des pourcentages, le total de toutes les vagues ne doit pas dépasser 100 %.
 
 Dans l&#39;exemple ci-dessous, la première vague représente 25% du nombre total de messages inclus dans la diffusion et démarre immédiatement. Les deux vagues suivantes terminent la diffusion et sont définies pour commencer à six heures d’intervalle.
 
