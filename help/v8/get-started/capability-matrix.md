@@ -5,10 +5,10 @@ description: Liste des fonctionnalités prises en charge dans l’interface util
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 15%
+source-wordcount: '1281'
+ht-degree: 16%
 
 ---
 
@@ -35,7 +35,7 @@ Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (conso
 * Gestion des ressources marketing (MRM), objectifs, simulations et contrôle des coûts. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * Gestion des tâches. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## Canaux de communication{ #channels-capabilities}
+## Canaux de communication {#channels-capabilities}
 
 Grâce à l&#39;interface utilisateur Web de Campaign, vous pouvez créer, concevoir et envoyer des emails, des SMS et des notifications push, et mesurer leur impact à l&#39;aide de différents rapports dédiés, comme indiqué dans la section [dans cette section](../msg/gs-messages.md). Toutefois, les canaux suivants ne sont pas disponibles dans cette version.
 
