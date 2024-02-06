@@ -2,10 +2,11 @@
 audience: end-user
 title: Envoyer par vagues
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
+feature: Email
 badge: label="Disponibilité limitée"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '767'
 ht-degree: 26%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 26%
 >title="Définir la taille de chaque vague"
 >abstract="Vous devez indiquer une taille pour toutes les vagues que vous ajoutez. Saisissez une valeur numérique (nombre de messages pour chaque vague) ou un pourcentage (0 à 100 %)."
 
-Pour équilibrer la charge, vous pouvez répartir les diffusions en plusieurs lots. Paramétrez le nombre de lots et leur proportion par rapport à l&#39;ensemble de la diffusion, ainsi que l&#39;intervalle entre deux vagues.
+Pour équilibrer la charge, vous pouvez diviser les diffusions email en plusieurs lots. Paramétrez le nombre de lots et leur proportion par rapport à l&#39;ensemble de la diffusion, ainsi que l&#39;intervalle entre deux vagues.
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ Pour envoyer des diffusions par vagues, procédez comme suit.
 
    >[!CAUTION]
    >
-   >Veillez à ce que les dernières vagues ne dépassent pas la date limite de diffusion, définie dans la variable **[!UICONTROL Validité]** . Sinon, certains messages peuvent ne pas être envoyés. [En savoir plus](delivery-settings.md#validity)
+   >Veillez à ce que les dernières vagues ne dépassent pas la date limite de diffusion, définie dans la variable [Validité](delivery-settings.md#validity) , sinon certains messages peuvent ne pas être envoyés. une règle de contrôle de typologie spécifique, **[!UICONTROL Vérification de la planification des vagues]**, assure que la dernière vague est planifiée avant la limite de validité de la diffusion. En savoir plus sur les règles de contrôle dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. [En savoir plus](delivery-settings.md#retries)
 
-1. Pour surveiller vos envois, accédez à la [logs de diffusion](../monitor/delivery-logs.md).
-
-   Vous pouvez visualiser les diffusions qui ont déjà été envoyées dans les vagues traitées (statut **[!UICONTROL Envoyé]**) et celles à envoyer dans les vagues restantes (statut **[!UICONTROL En attente]**).
-
-une règle de contrôle de typologie spécifique, **[!UICONTROL Vérification de la planification des vagues]**, assure que la dernière vague est planifiée avant la limite de validité de la diffusion. Les typologies de campagne et leurs règles sont configurées dans la variable **[!UICONTROL Typologie]** de l’onglet des paramètres de diffusion. En savoir plus sur les règles de contrôle dans [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. Pour surveiller vos envois, accédez à la [logs de diffusion](../monitor/delivery-logs.md). Vous pouvez visualiser les diffusions qui ont déjà été envoyées dans les vagues traitées (statut **[!UICONTROL Envoyé]**) et celles à envoyer dans les vagues restantes (statut **[!UICONTROL En attente]**).
 
 ## Planifier plusieurs vagues de même taille {#waves-same-size}
 
@@ -64,7 +61,7 @@ Si vous sélectionnez cette option, toutes les vagues ont la même taille (sauf 
 
 * Indiquez la taille de toutes les vagues dans lesquelles vous divisez la diffusion. Vous pouvez saisir un pourcentage ou une valeur numérique. Seule la dernière vague peut varier en taille, car elle doit inclure le nombre de messages restant.
 
-  Par exemple, si vous saisissez **[!UICONTROL 30 %]** dans le champ correspondant, les trois premières vagues représentent 30% de tous les messages inclus dans la diffusion, et la quatrième représente les 10% restants.
+  Par exemple, si vous saisissez **[!UICONTROL 30 %]** dans le **[!UICONTROL Taille des vagues]** , les trois premières vagues représentent 30% de tous les messages inclus dans la diffusion, et la quatrième représente les 10% restants.
 
 * Dans le **[!UICONTROL Intervalle]** , indiquez le délai entre le démarrage de deux vagues consécutives. Par exemple, si vous saisissez **[!UICONTROL 2 jours]**, la première vague démarre immédiatement, la deuxième démarre dans deux jours, la troisième dans quatre jours, etc.
 

@@ -2,12 +2,13 @@
 audience: end-user
 title: Paramètres de diffusion
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilité limitée"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '2326'
-ht-degree: 98%
+source-wordcount: '2425'
+ht-degree: 93%
 
 ---
 
@@ -133,15 +134,23 @@ Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qu
 
 Le compte externe de **[!UICONTROL Routage]** d’e-mails intégré est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
-Vous pouvez définir les paramètres d’**[!UICONTROL Envoi]** suivants :
+Vous pouvez définir la variable **[!UICONTROL Envoi]** les paramètres ci-dessous.
 
-* **[!UICONTROL Test de la diffusion par SMTP]** : cette option vous permet de tester l’envoi via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque personne destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+* **[!UICONTROL Priorité de diffusion]**: utilisez cette option pour modifier l&#39;ordre d&#39;envoi de vos diffusions en définissant leur niveau de priorité : normal, élevé ou faible.
+
+* **[!UICONTROL Quantité de lot de messages]**: utilisez cette option pour définir le nombre de messages regroupés dans le même package de diffusion XML. Si le paramètre est défini sur 0, les messages sont automatiquement regroupés. La taille du paquet est définie par le calcul `<delivery size>/1024`, avec un minimum de 8 messages et un maximum de 256 messages par package.
+
+  >[!IMPORTANT]
+  >
+  >Lorsque vous créez la diffusion en dupliquant une diffusion existante, vous réinitialisez également ce paramètre.
+
+* **[!UICONTROL Test de la diffusion par SMTP]** : cette option vous permet de tester l’envoi via SMTP. La diffusion est traitée jusqu&#39;à la connexion au serveur SMTP, mais n&#39;est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
 * **[!UICONTROL E-mail Cci]** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible de vos messages. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=fr){target="_blank"}.
 
-* **[!UICONTROL Envoyer en plusieurs vagues]**: vous pouvez augmenter progressivement le volume envoyé à l’aide des vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. [En savoir plus](send-using-waves.md)
+Dans le **[!UICONTROL Définition des vagues]** , sélectionnez **[!UICONTROL Envoyer en plusieurs vagues]** pour augmenter progressivement le volume envoyé à l’aide des vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. [En savoir plus](send-using-waves.md)
 
-Vous pouvez également modifier le format des e-mails envoyés :
+Vous pouvez également modifier la variable **[!UICONTROL Formats de messagerie]** des emails envoyés, comme décrit ci-dessous.
 
 * **[!UICONTROL Tenir compte des préférences des personnes destinataires]** (mode par défaut)
 
