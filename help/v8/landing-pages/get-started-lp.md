@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des landing pages
 description: En savoir plus sur les landing pages dans Campaign Web
 badge: label="Disponibilité limitée"
-source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 7%
+source-wordcount: '223'
+ht-degree: 6%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 7%
 >abstract="Découvrez la nouvelle expérience de page d’entrée. Créez, concevez et partagez instantanément des landing pages afin d&#39;orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer l&#39;acquisition, les abonnements/désabonnements et les cas pratiques de liste bloquée, en fonction de modèles intégrés."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
 
+Adobe Campaign vous permet de créer, concevoir et partager des landing pages. Dans le cadre de campagnes marketing, une landing page est une page web autonome vers laquelle est dirigé un visiteur lorsqu’il clique sur un lien dans une diffusion par email, SMS ou push, ou sur un site web.
 
-Une page d’entrée est une page web autonome à laquelle l’utilisateur est redirigé après avoir cliqué à partir d’un courrier électronique, d’un site web, d’une publicité ou de tout autre emplacement numérique.
+[!DNL Adobe Campaign] vous permet de créer et de concevoir des landing pages afin d’orienter vos utilisateurs vers des formulaires en ligne où ils peuvent s’inscrire/refuser de recevoir vos communications ou s’abonner à un service spécifique tel qu’une newsletter. Adobe Campaign s’accompagne de quatre modèles pour gérer l’acquisition, les abonnements, les désabonnements et les cas pratiques de liste bloquée.
 
-[!DNL Adobe Campaign] vous permet de créer et de concevoir des landing pages afin d’orienter vos utilisateurs vers des formulaires en ligne où ils peuvent s’inscrire ou se désinscrire de la réception de vos communications, ou s’abonner à un service spécifique tel qu’une newsletter.
+Les principales fonctionnalités sont répertoriées ci-dessous :
 
 * Utilisation [!DNL Adobe Campaign] fonctionnalités de conception de contenu à créer facilement **landing pages réactives**.
 * Configuration **flux d’opt-in et d’opt-out** rapidement et facilement.

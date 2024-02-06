@@ -2,9 +2,9 @@
 title: Créer une landing page
 description: Découvrez comment configurer et publier une landing page dans le Web de Campaign
 badge: label="Disponibilité limitée"
-source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1031'
 ht-degree: 8%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Créer et gérer des landing pages"
->abstract="Adobe Campaign vous permet de créer, concevoir et partager des landing pages afin d’orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer les cas d’utilisation d’acquisition, d’abonnements/désabonnements et de liste bloquée, en fonction de modèles intégrés."
+>abstract="Adobe Campaign vous permet de créer, concevoir et partager des landing pages afin d’orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer l’acquisition, les abonnements/désabonnements et les cas d’utilisation de liste bloquée, en fonction de modèles intégrés."
 
-Adobe Campaign vous permet de créer, concevoir et partager des landing pages afin d’orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer les cas d’utilisation d’acquisition, d’abonnements/désabonnements et de liste bloquée, en fonction de modèles intégrés.
+Adobe Campaign vous permet de créer, concevoir et partager des landing pages. Dans le cadre de campagnes marketing, une landing page est une page web autonome vers laquelle est dirigé un visiteur lorsqu’il clique sur un lien dans un email, un SMS, une diffusion push ou un site web. Adobe Campaign comprend quatre modèles à gérer. **acquisition**, **subscriptions**, **désabonnements**, et **liste bloquée** cas d’utilisation.
 
 ## Accès aux landing pages {#access-landing-pages}
 
