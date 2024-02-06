@@ -3,9 +3,9 @@ audience: end-user
 title: Prise en main des landing pages
 description: En savoir plus sur les landing pages dans Campaign Web
 badge: label="Disponibilité limitée"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landing pages"
->abstract="Découvrez la nouvelle expérience de page d’entrée. Créez, concevez et partagez instantanément des landing pages afin d&#39;orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer, acheter, abonnements/désabonnements et cas pratiques de liste bloquée, en fonction de modèles intégrés."
+>abstract="Découvrez la nouvelle expérience de page d’entrée. Créez, concevez et partagez instantanément des landing pages afin d&#39;orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer l&#39;acquisition, les abonnements/désabonnements et les cas pratiques de liste bloquée, en fonction de modèles intégrés."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
 
 
@@ -27,7 +27,7 @@ Une page d’entrée est une page web autonome à laquelle l’utilisateur est r
 * Configuration **flux d’opt-in et d’opt-out** rapidement et facilement.
 * Créer des services d’abonnement pour permettre aux utilisateurs de **abonnement à un service**. [En savoir plus](../audience/manage-services.md)
 * Fournissez à vos destinataires les **fonctionnalité de désabonnement** de recevoir vos communications.
-* Envoyer un **email de confirmation** lors de l’inclusion ou de l’exclusion.
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

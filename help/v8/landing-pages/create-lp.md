@@ -2,9 +2,9 @@
 title: Créer une landing page
 description: Découvrez comment configurer et publier une landing page dans le Web de Campaign
 badge: label="Disponibilité limitée"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1006'
 ht-degree: 8%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Créer et gérer des landing pages"
->abstract="Adobe Campaign vous permet de créer, de concevoir et de partager des landing pages afin d’orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer, acquérir, abonner/désabonner et créer des cas d’utilisation de liste bloquée, en fonction de modèles intégrés."
+>abstract="Adobe Campaign vous permet de créer, concevoir et partager des landing pages afin d’orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer les cas d’utilisation d’acquisition, d’abonnements/désabonnements et de liste bloquée, en fonction de modèles intégrés."
 
-Adobe Campaign vous permet de créer, de concevoir et de partager des landing pages afin d’orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer, acquérir, abonner/désabonner et créer des cas d’utilisation de liste bloquée, en fonction de modèles intégrés.
+Adobe Campaign vous permet de créer, concevoir et partager des landing pages afin d’orienter vos utilisateurs vers des pages web en ligne où vous pouvez gérer les cas d’utilisation d’acquisition, d’abonnements/désabonnements et de liste bloquée, en fonction de modèles intégrés.
 
 ## Accès aux landing pages {#access-landing-pages}
 
@@ -30,9 +30,9 @@ La variable **[!UICONTROL Landing pages]** inventory affiche tous les éléments
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->Vous ne pouvez pas afficher les landing pages créées à partir de la console cliente dans Campaign Web. En savoir plus dans la section [Documentation de la console Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Vous ne pouvez pas afficher ni modifier les landing pages créées à partir de la console cliente dans le Web de Campaign. En savoir plus dans la section [Documentation de la console Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -98,7 +98,7 @@ Vous pouvez dupliquer ou supprimer une landing page. Cliquez sur les trois point
 
    ![](assets/lp-pages.png)
 
-1. La variable **[!UICONTROL Mise à jour de l’enregistrement préchargé]** est sélectionné par défaut. Si vous souhaitez mettre à jour les profils stockés dans la base via la landing page, vous pouvez utiliser une boîte de préchargement. La boîte de préchargement permet d&#39;indiquer comment trouver l&#39;enregistrement à mettre à jour dans la base de données. Vous pouvez également choisir parmi les champs du contexte courant de la landing page, ceux qui seront utilisés pour trouver le profil correspondant dans la base de données.
+1. La variable **[!UICONTROL Mise à jour de l’enregistrement préchargé]** est sélectionnée par défaut. Si vous souhaitez mettre à jour les profils stockés dans la base via la landing page, vous pouvez utiliser une boîte de préchargement. La boîte de préchargement permet d&#39;indiquer comment trouver l&#39;enregistrement à mettre à jour dans la base de données. Vous pouvez également choisir parmi les champs du contexte courant de la landing page, ceux qui seront utilisés pour trouver le profil correspondant dans la base de données.
 
    ![](assets/lp-storage-schedule.png)
 
