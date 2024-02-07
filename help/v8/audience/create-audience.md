@@ -4,7 +4,7 @@ title: Créer des audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 1206da29f9987b55b957b6845e3dbf1e71ef03ed
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 100%

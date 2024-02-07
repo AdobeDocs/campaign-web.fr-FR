@@ -3,20 +3,22 @@ title: Barrières de sécurité et limitations de l’interface utilisateur Web 
 description: Barrières de sécurité et limitations de l’interface utilisateur Web de Campaign
 badge: label="Version bêta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 65%
+source-wordcount: '355'
+ht-degree: 21%
 
 ---
 
 # Mécanismes de sécurisation et limitations {#guardrails-limitations}
 
-Lorsque vous utilisez l&#39;interface utilisateur Web de Campaign avec des composants créés ou modifiés dans la console cliente Campaign, les barrières de sécurité et les limitations répertoriées ci-dessous s&#39;appliquent.
+Lorsque vous utilisez l&#39;interface utilisateur Web de Campaign avec des workflows créés ou modifiés dans la console cliente Campaign, les barrières de sécurité et limitations répertoriées ci-dessous s&#39;appliquent.
 
-## Workflows {#wf-guardrails-limitations}
+Veuillez noter que, bien que cette page identifie les points essentiels à prendre en compte lors de l’utilisation des workflows dans la console et l’interface utilisateur web, elle n’englobe pas toutes les incompatibilités potentielles entre les deux interfaces.
 
-### Activités
+## Activités de workflows {#wkf-activities}
+
+Les activités de workflow qui ne sont pas encore prises en charge sur le Web de Campaign sont en lecture seule et affichées en tant qu&#39;activités incompatibles. Vous pouvez toujours exécuter le workflow, envoyer des messages, vérifier les journaux, etc. Les activités de workflow disponibles dans le Web de Campaign et dans la console cliente sont modifiables.
 
 Les activités de workflow qui ne sont pas encore prises en charge dans l&#39;interface utilisateur Web de Campaign sont en lecture seule et affichées en tant qu&#39;activités incompatibles. Vous pouvez toujours exécuter le workflow, envoyer des messages, vérifier les journaux, etc. Les activités de workflow disponibles dans l&#39;interface utilisateur Web de Campaign et dans la console cliente Campaign sont modifiables.
 
@@ -24,19 +26,19 @@ Les activités de workflow qui ne sont pas encore prises en charge dans l&#39;in
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-Les paramètres d’activité de workflow qui ne sont pas encore pris en charge dans l’interface utilisateur Web ne s’affichent pas. Toutefois, lorsque le workflow est exécuté, ces paramètres s’appliquent.
+Lorsqu’une **Requête** ou **Enrichissement** activité est paramétrée avec des données additionnelles dans la console, les données d&#39;enrichissement sont prises en compte dans Campaign Web et transmises à la transition sortante, mais elles ne peuvent pas être éditées.
 
 | Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-Dans la console, l’activité **Enrichissement** peut effectuer à la fois la réconciliation et l’enrichissement. Dans l&#39;interface utilisateur Web de Campaign, les fonctionnalités de réconciliation ne sont pas encore disponibles. Si vous avez défini, dans la console cliente, les paramètres de réconciliation dans la **Enrichissement** , elle s&#39;affiche en tant qu&#39;activité en lecture seule non compatible dans l&#39;interface utilisateur Web de Campaign.
+Dans la console, l’activité **Enrichissement** peut effectuer à la fois la réconciliation et l’enrichissement. Si vous avez défini, dans la console cliente, les paramètres de réconciliation dans la **Enrichissement** activité, elle s’affiche sous la forme d’une **Réconciliation** activité dans l&#39;interface utilisateur Web de Campaign.
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-enrichment-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){width="800px" align="left" zoomable="yes"} |
 
-### Zone de travail
+## Canevas de workflow {#wkf-canvas}
 
 Lors de la création d’un workflow dans l’interface utilisateur Web de Campaign, le canevas ne prend en charge qu’un seul point d’entrée. Cependant, si vous avez créé un workflow dans la console avec plusieurs points d&#39;entrée, vous pouvez l&#39;ouvrir et l&#39;éditer dans l&#39;interface utilisateur Web de Campaign.
 
@@ -44,88 +46,8 @@ Lors de la création d’un workflow dans l’interface utilisateur Web de Campa
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Les boucles ne sont pas encore disponibles dans l&#39;interface utilisateur Web de Campaign. Si vous avez créé un workflow comprenant une boucle à l&#39;aide de la console, vous ne pouvez pas y accéder à partir de l&#39;interface utilisateur Web de Campaign. Un message d’erreur s’affiche.
-
-| Console | Web |
-| --- | --- |
-| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
-
 Le positionnement des nœuds est actualisé à chaque fois qu’une activité est ajoutée ou supprimée. Si vous créez un workflow dans la console, modifiez-le à l&#39;aide de l&#39;interface utilisateur Web de Campaign et rouvrez-le dans la console, vous constaterez peut-être des imperfections mineures de positionnement. Cela n’a aucun impact sur les processus et les tâches du workflow.
 
 | Workflow initial | Changement de positionnement |
 | --- | --- |
 | ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
-
-## Filtres prédéfinis {#filters-guardrails-limitations}
-
->[!CONTEXTUALHELP]
->id="acw_predefined_filter_read_only"
->title="Ce filtre est en lecture seule."
->abstract="Certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur de cette version du produit. Ces filtres sont marqués comme étant en lecture seule. Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le concepteur de requête et que vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage dans la section **Attributs** de l’écran."
-
-Lors de la sélection de l’audience d’une diffusion ou lors de la création d’une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur, dans cette version du produit. Ces filtres sont marqués comme étant en lecture seule.
-
-Un message d’erreur spécifique s’affiche.
-
-![](assets/filter-unavailable.png){width="70%" align="left"}
-
-Même si vous ne pouvez pas afficher la représentation graphique de la requête dans le concepteur de requête et que vous ne pouvez pas modifier le filtre, vous pouvez toujours l’utiliser et afficher les conditions de filtrage dans la section **Attributs** de l’écran.
-
-![](assets/rule-edit.png){width="70%" align="left"}
-
-Vous pouvez également accéder à la requête SQL pour vérifier les paramètres exacts. Pour ce faire, cliquez sur le bouton **Affichage du code**.
-
-![](assets/rule-code-view.png){width="70%" align="left"}
-
-Cliquez sur le bouton **Calculer** pour vérifier le nombre d’éléments qui correspondent aux critères du filtre.
-
-![](assets/rule-calculate.png){width="70%" align="left"}
-
-Utilisez le bouton **Afficher les résultats** pour afficher ces éléments.
-
-![](assets/rule-view-results.png){width="70%" align="left"}
-
-Notez que si vous créez un filtre dans l’interface web et que vous le modifiez dans la console avec des attributs non pris en charge, la représentation graphique ne sera plus disponible dans l’interface web. Dans tous les cas, vous pouvez toujours utiliser le filtre.
-
-Les attributs non pris en charge sont répertoriés ci-dessous.
-
-### Types de données non pris en charge {#unsupported-data-type}
-
-Les types de données suivants, disponibles dans la console cliente, ne sont pas pris en charge lors de l’affichage d’un filtre ou d’une règle dans l’interface web :
-
-* datetime
-* time
-* timespan
-* double
-* float
-
-### Fonctionnalités de filtrage non prises en charge {#unsupported-filtering-capabilities}
-
-Lorsqu’un filtre est créé avec des expressions et fonctions complexes dans la console cliente, il ne peut pas être édité dans l’interface web.
-
-En outre, les opérateurs suivants ne sont pas pris en charge :
-
-* Type numérique
-   * est compris dans
-   * pas dans
-
-* Type de chaîne
-   * supérieur à
-   * inférieur à
-   * supérieur ou égal à
-   * inférieur ou égal à
-   * comme
-   * pas comme
-
-* Type de date
-   * après ou égal à
-   * avant ou égal à
-   * n’est pas égal à
-   * est vide
-   * n’est pas vide
-   * est compris dans
-   * pas dans
-   * ces derniers
-
-* 1-N liens
-   * COUNT, SUM, AVG, MIN, MAX
