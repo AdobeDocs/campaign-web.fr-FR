@@ -3,14 +3,19 @@ title: Dimensions de ciblage
 description: En savoir plus sur les dimensions de ciblage dans Adobe Campaign Web
 badge: label="Disponibilité limitée"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
 # Dimensions de ciblage {#targeting-dimensions}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="Sélectionner la dimension de ciblage"
+>abstract="La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires."
 
 La dimension de ciblage, c’est-à-dire le mapping de ciblage, est le type de données qu’une opération traite. Elle permet de définir la population ciblée : profils, bénéficiaires de contrats, opérateurs et opératrices, abonnées et abonnés, etc.
 
