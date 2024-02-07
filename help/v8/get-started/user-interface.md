@@ -4,10 +4,10 @@ title: Découvrir l’interface
 description: Interface utilisateur Web d’Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilité limitée"
-source-git-commit: 5badcc46be14fb2cd218fd525b0c5eed8788a680
+source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 93%
+source-wordcount: '1636'
+ht-degree: 92%
 
 ---
 
@@ -143,7 +143,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Autorisation requise"
@@ -154,11 +153,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Autorisation requise"
 >abstract="Avant de pouvoir créer un segment, votre administrateur ou administratrice doit vous accorder une autorisation."
 
-<!-- Workflows-->
-
-
 <!-- delivery template settings-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
@@ -174,8 +169,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_workflow_list"
 >title="Liste des workflows dans une campagne"
 >abstract="Liste des workflows dans une campagne"
-
-<!-- delivery settings-->
 
 
 <!-- FOR BETA (alignment) -->
@@ -322,6 +315,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Propriétés de contenu pour publipostage direct"
 >abstract="Propriétés de contenu pour publipostage direct"
+
+<!-- FOR POST-GA -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_data_source"
+>title="Modifier la source de données"
+>abstract="La variable **Modifier la source de données** l’activité vous permet de sélectionner une autre source de données pour la table de travail de votre workflow."
 
 
 <!--
