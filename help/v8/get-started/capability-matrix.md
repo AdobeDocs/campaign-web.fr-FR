@@ -5,7 +5,7 @@ description: Liste des fonctionnalités prises en charge dans l’interface util
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
+source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 12%
@@ -114,7 +114,7 @@ Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (conso
 
 ## Workflows {#wf-capabilities}
 
-La nouvelle interface utilisateur Web de Campaign offre une interface de canevas de workflow repensée pour concevoir et gérer vos processus. Les activités de workflow clés sont déjà disponibles dans leur nouvelle conception, certaines le seront dans une version ultérieure. En savoir plus sur les fonctionnalités de workflow, y compris les barrières de sécurité et les limitations [dans cette section](../workflows/gs-workflows.md)
+La nouvelle interface utilisateur Web de Campaign offre une interface de canevas de workflow repensée pour concevoir et gérer vos processus. Les activités de workflow clés sont déjà disponibles dans leur nouvelle conception, certaines le seront dans une version ultérieure. En savoir plus sur les fonctionnalités de workflow, y compris les barrières de sécurité et les limitations [dans cette section](../get-started/guardrails.md).
 
 Notez que les fonctionnalités suivantes ne sont disponibles que dans la console cliente Campaign :
 
