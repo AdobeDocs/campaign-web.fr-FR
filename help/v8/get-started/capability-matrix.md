@@ -5,16 +5,16 @@ description: Liste des fonctionnalités prises en charge dans l’interface util
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 7c48f8670f523a5ed8925ea70306af0fa99a6baa
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1485'
 ht-degree: 13%
 
 ---
 
 # Matrice des fonctionnalités de l&#39;interface utilisateur Web de Campaign/de la console cliente {#capabilities-matrix}
 
-Les fonctionnalités suivantes ne sont accessibles que depuis la console cliente Campaign. Certaines d&#39;entre elles seront disponibles dans une version ultérieure de l&#39;interface utilisateur web de Campaign.
+Les fonctionnalités clés de Campaign sont disponibles dans l’interface utilisateur Web de Campaign. Cependant, certains paramètres et fonctionnalités ne peuvent être accessibles, créés ou gérés que depuis la console cliente Campaign. Certaines d&#39;entre elles seront disponibles dans une version ultérieure de l&#39;interface utilisateur Web de Campaign.
 
 <!--
 **Homepage**
