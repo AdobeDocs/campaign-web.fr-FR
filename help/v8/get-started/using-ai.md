@@ -1,12 +1,12 @@
 ---
 title: Utiliser l’aide contextuelle optimisée par l’IA dans Campaign Web
 description: Poser des questions dans les fenêtres contextuelles d’aide de Campaign Web
-badge: label="Alpha"
+badge: label="Version bêta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
@@ -14,18 +14,21 @@ ht-degree: 100%
 
 Obtenez des réponses rapides et générées par l’IA en fonction de la documentation du produit et de votre contexte de produit actuel, grâce à l’aide contextuelle optimisée par l’IA sous forme de Q&amp;R, disponible dans les boîtes de dialogue d’aide contextuelles du produit.
 
->[!CAUTION]
->
->Cette fonctionnalité est disponible dans sa version Alpha et peut être modifiée sans préavis.
->
->Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version. En conséquence, assurez-vous que [votre langue préférée](connect-to-campaign.md#language-pref) est définie sur Anglais avant d’utiliser cette fonctionnalité.
-
-
 L’**aide contextuelle avec l’IA générative** incorporée dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation grâce à l’identification instantanée des informations précises dont vous avez besoin.
 
 Grâce aux fonctionnalités de l’IA générative de Campaign, ce composant transforme votre expérience, en facilitant la récupération d’informations et la résolution de problèmes. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous parcouriez des documents volumineux, l’aide contextuelle optimisée par l’IA est votre meilleur compagnon, offrant une efficacité et une précision inégalées à chaque interaction.
 
 <img src="assets/AI_CH.gif" width="80%"/>
+
+
+>[!AVAILABILITY]
+>
+>L’aide contextuelle optimisée par l’IA est disponible dans sa version bêta et peut être modifiée sans préavis.
+>
+>Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version. En conséquence, assurez-vous que [votre langue préférée](connect-to-campaign.md#language-pref) est définie sur Anglais avant d’utiliser cette fonctionnalité.
+>
+>L’aide contextuelle optimisée par l’IA n’est pas disponible pour l’instant dans le Concepteur d’email de Campaign.
+
 
 <!--
 ## Consent {#consent-ai}
@@ -46,6 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 L’aide contextuelle optimisée par l’IA d’Adobe Campaign vous apporte une assistance, mais vous devez vérifier les faits. Il peut produire des informations incorrectes ou des réponses inexactes ou trompeuses. Vérifiez la documentation du produit fournie sous forme de lien dans chaque zone d’aide.
 
 L’intelligence artificielle et les modèles de machine learning s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L’aide contextuelle optimisée par l’IA de Campaign continuera de s’améliorer au cours des prochains mois. Nous vous recommandons vivement d’utiliser les boutons <img src="assets/do-not-localize/thumb.png" width="10%"/> chaque fois que vous lisez une réponse, pour signaler toute réponse inappropriée à notre équipe d’ingénierie.
+
 
 ## Recommandations  {#recommendations-ai}
 
