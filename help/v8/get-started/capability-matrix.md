@@ -5,9 +5,9 @@ description: Liste des fonctionnalités prises en charge dans l’interface util
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 12%
 
 ---
@@ -184,8 +184,13 @@ Les autorisations sont définies dans Adobe Admin Console et la console cliente 
 
 Les fonctionnalités de surveillance de la plateforme Campaign ne sont disponibles que dans la console cliente et le panneau de contrôle de Campaign. Elles ne s’affichent pas dans l’interface utilisateur Web de Campaign.
 
-Parcourez les liens fournis vers la [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"} pour en savoir plus.
+Pour en savoir plus, consultez les liens fournis vers la documentation Campaign v8 (console cliente) et la documentation du panneau de contrôle.
 
 * [Surveillance des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [Carte thermique des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [Suivi des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr){target="_blank"}
+* [Supervision de la délivrabilité](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
