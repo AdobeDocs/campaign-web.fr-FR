@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 10%
 
 ---
@@ -145,6 +145,8 @@ A la réception de l&#39;email, si vos destinataires cliquent sur le lien vers l
 
 ## Désabonnement {#lp-unsubscription}
 
+Vous pouvez permettre à vos clients de se désabonner d&#39;un service à l&#39;aide d&#39;une landing page.
+
 1. Assurez-vous d&#39;avoir créé un modèle de confirmation pour les utilisateurs qui se désabonnent de votre service, afin que vous puissiez le sélectionner facilement lors de la création du service. [En savoir plus](../audience/manage-services.md#create-confirmation-message)
 
 1. Dans votre [service d&#39;abonnement](../audience/manage-services.md), sélectionnez le modèle que vous avez créé comme email de confirmation que les utilisateurs recevront lors de leur désinscription.
@@ -167,11 +169,11 @@ A la réception de l&#39;email, si vos destinataires cliquent sur le lien vers l
 
 1. Révision et [publier](create-lp.md#publish-landing-page) votre landing page.
 
-1. Créez un [email](../email/create-email.md) et [ajouter un lien](../email/message-tracking.md#insert-links) pour diriger le trafic vers la page d’entrée de l’enregistrement.
+1. Créez un [email](../email/create-email.md) et [ajouter un lien](../email/message-tracking.md#insert-links) à la landing page.
 
-A la réception de l&#39;email, si vos destinataires cliquent sur le lien vers la landing page et envoient le formulaire, ils seront redirigés vers la page de confirmation de désinscription et ils seront retirés de la liste d&#39;inscription.
+A la réception de l&#39;email, si vos destinataires cliquent sur le lien vers la landing page et envoient le formulaire, ils seront redirigés vers la page de confirmation de désinscription et seront retirés du service d&#39;inscription correspondant.
 
-## Configuration des landing pages de désinscription {#lp-denylist}
+## Liste bloquée {#lp-denylist}
 
 Donner aux personnes destinataires la capacité de se désabonner des communications d’une marque est une obligation légale. Par conséquent, vous devez toujours inclure une **lien de désabonnement** dans chaque email envoyé aux destinataires. Lorsque vous cliquez sur ce lien, les personnes destinataires sont redirigées vers une page de destination comprenant un bouton pour confirmer leur désinscription.
 
