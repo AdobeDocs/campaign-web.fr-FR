@@ -3,10 +3,10 @@ title: Créer une page de destination
 description: Découvrir comment configurer et publier une page de destination dans Campaign Web
 feature: Landing Pages
 badge: label="Disponibilité limitée"
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 49%
+source-wordcount: '1279'
+ht-degree: 44%
 
 ---
 
@@ -80,9 +80,13 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
    * **[!UICONTROL Acquisition]**: il s’agit du modèle par défaut des landing pages, qui vous permet de capturer et de mettre à jour les données de profil.
    * **[!UICONTROL Abonnement]**: utilisez ce modèle pour permettre aux utilisateurs de s’abonner à un [service](../audience/manage-services.md).
    * **[!UICONTROL Désabonnement]**: ce modèle peut être utilisé dans une diffusion envoyée aux abonnés d&#39;un service, afin de leur permettre de se désabonner. [service](../audience/manage-services.md).
-   * **[!UICONTROL Liste bloquée]** : ce modèle doit être utilisé lorsqu’un profil ne souhaite plus être contacté par Campaign. En savoir plus sur la gestion des listes bloquées
+   * **[!UICONTROL Liste bloquée]**: ce modèle doit être utilisé lorsqu’un profil ne souhaite plus être contacté par Campaign.
 
    ![](assets/lp-templates.png)
+
+   >[!NOTE]
+   >
+   >Découvrez comment mettre en oeuvre les différents cas d’utilisation correspondant à chaque modèle dans [cette section](lp-use-cases.md).
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -94,7 +98,7 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
 
 1. Dans la section **[!UICONTROL Préchargement des données]**, les deux options ci-dessous sont sélectionnées par défaut :
 
-   * L’option **[!UICONTROL Préremplir avec les données référencées dans le formulaire]** permet de précharger automatiquement les données correspondant aux champs de saisie et aux champs de fusion du formulaire.
+   * Lorsque la variable **[!UICONTROL Préremplir avec les données référencées dans le formulaire]** est sélectionnée, si le visiteur de la landing page correspond à un profil de la base de données, les informations du profil sont automatiquement préchargées dans le formulaire. L’utilisateur doit simplement renseigner les champs manquants et mettre à jour les valeurs existantes si nécessaire. Cela permet de fusionner les données des profils existants au lieu de créer des doublons.
 
    * L’option **[!UICONTROL Ignorer le pré-chargement si l’identification est vide]** doit être sélectionnée si vous ne souhaitez pas mettre à jour les profils. Dans ce cas, chaque profil saisi sera ajouté à la base de données après validation du formulaire. Cette option est utilisée, par exemple, lorsque le formulaire est publié sur un site web.
 
@@ -118,7 +122,7 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
      >
      >Si aucune date de début n&#39;est définie, la landing page devient active dès qu&#39;elle est publiée.
 
-   * Lorsque la page atteint la date de fin, la landing page est automatiquement dépubliée et le formulaire n&#39;est plus disponible. La variable **[!UICONTROL Expiration]** s’affiche à la place.
+   * Lorsque la page atteint la date de fin, <!--the landing page is automatically unpublished and -->le formulaire n’est plus disponible. La variable **[!UICONTROL Expiration]** s’affiche à la place.
 
      >[!NOTE]
      >
