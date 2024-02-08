@@ -3,7 +3,7 @@ title: Créer une landing page
 description: Découvrez comment configurer et publier une landing page dans le Web de Campaign
 feature: Landing Pages
 badge: label="Disponibilité limitée"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 7%
@@ -78,8 +78,8 @@ Vous pouvez dupliquer ou supprimer une landing page. Cliquez sur les points de s
 
 1. Sélectionnez un modèle :
    * **[!UICONTROL Acquisition]**: il s’agit du modèle par défaut des landing pages, qui vous permet de capturer et de mettre à jour les données de profil.
-   * **[!UICONTROL Abonnement]**: utilisez ce modèle pour permettre aux utilisateurs de s’abonner à un [service](manage-services.md).
-   * **[!UICONTROL Désabonnement]**: ce modèle peut être utilisé dans une diffusion envoyée aux abonnés d&#39;un service, afin de leur permettre de se désabonner. [service](manage-services.md).
+   * **[!UICONTROL Abonnement]**: utilisez ce modèle pour permettre aux utilisateurs de s’abonner à un [service](../audience/manage-services.md).
+   * **[!UICONTROL Désabonnement]**: ce modèle peut être utilisé dans une diffusion envoyée aux abonnés d&#39;un service, afin de leur permettre de se désabonner. [service](../audience/manage-services.md).
    * **[!UICONTROL Liste bloquée]**: ce modèle doit être utilisé lorsqu’un profil ne souhaite plus être contacté par Campaign. En savoir plus sur la gestion des listes bloquées
 
    ![](assets/lp-templates.png)
