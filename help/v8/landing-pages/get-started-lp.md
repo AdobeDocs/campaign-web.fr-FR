@@ -4,10 +4,10 @@ title: Commencer avec les pages de destination
 description: En savoir plus sur les pages de destination dans Campaign Web
 feature: Landing Pages
 badge: label="Disponibilité limitée"
-source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
+source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 37%
+source-wordcount: '271'
+ht-degree: 25%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 37%
 
 [!DNL Adobe Campaign] vous permet de créer, concevoir et partager des landing pages.
 
-Dans le cadre de campagnes marketing, une landing page est une page web autonome vers laquelle est dirigé un visiteur lorsqu’il clique sur un lien d’un email, d’un SMS, d’une diffusion push ou d’un site web.
+Dans le cadre de campagnes marketing, une landing page est une page web autonome vers laquelle est dirigé un visiteur lorsqu’il clique sur un lien dans une diffusion ou sur un site web.
 
-Les landing pages vous permettent d’orienter vos utilisateurs vers des formulaires en ligne où ils peuvent s’inscrire/se désinscrire de la réception de vos communications ou s’abonner à un service spécifique tel qu’une newsletter.
+Les landing pages vous permettent d’orienter vos utilisateurs vers des formulaires en ligne où ils peuvent mettre à jour leurs données, s’inscrire/refuser de recevoir vos communications ou s’abonner à un service spécifique tel qu’une newsletter.
 
 >[!CAUTION]
 >
@@ -33,10 +33,11 @@ Les landing pages vous permettent d’orienter vos utilisateurs vers des formula
 
 Les principales fonctionnalités des landing pages sont répertoriées ci-dessous :
 
-* Utilisez le contenu des fonctionnalités de conception de [!DNL Adobe Campaign] pour créer facilement des **pages de destination réactives**.
-* Configurez des **flux d’abonnement et de désabonnement** rapidement et facilement.
-* Créez des services d’abonnement pour permettre aux utilisateurs et aux utilisatrices de **s’abonner à un service**. [En savoir plus](../audience/manage-services.md)
-* Offrez à vos personnes destinataires la **possibilité de se désabonner** de vos communications.
+* Créez, concevez et partagez instantanément des landing pages à l’aide de pages prêtes à l’emploi **modèles préremplis** correspondance de différents cas d’utilisation. [En savoir plus](create-lp.md)
+* Utilisation [!DNL Adobe Campaign] fonctionnalités de conception de contenu à créer facilement **landing pages réactives**. [En savoir plus](lp-content.md)
+* Configuration **flux d’opt-in et d’opt-out** rapidement et facilement. [En savoir plus](lp-use-cases.md)
+* Créez des services d’abonnement pour permettre aux utilisateurs et aux utilisatrices de **s’abonner à un service**. [En savoir plus](lp-use-cases.md#lp-subscription)
+* Fournissez à vos destinataires les **fonctionnalité de désabonnement** de recevoir vos communications. [En savoir plus](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
