@@ -1,74 +1,63 @@
 ---
-title: Définition du contenu spécifique à une landing page
-description: Découvrez comment concevoir du contenu spécifique à une landing page dans Campaign Web
+title: Définir du contenu spécifique à une page de destination
+description: Découvrir comment concevoir du contenu spécifique à une page de destination dans Campaign Web
 feature: Landing Pages
 badge: label="Disponibilité limitée"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 7%
+source-wordcount: '750'
+ht-degree: 85%
 
 ---
 
-# Définition du contenu spécifique à une landing page {#lp-content}
+# Définir du contenu spécifique à une page de destination {#lp-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Utiliser les composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la mise en page d’une landing page. Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectionner et d’envoyer leurs choix, utilisez le composant de formulaire."
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’une page de destination. Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utilisatrices de sélectionner et d’envoyer leurs choix, utilisez le composant de formulaire."
 
-Lors de l&#39;édition du contenu d&#39;une page de votre landing page, celle-ci est déjà préremplie.
+Lors de la modification du contenu d’une page de votre page de destination, celle-ci est déjà préremplie.
 
-La page principale est la page qui s’affiche immédiatement pour les utilisateurs lorsqu’ils cliquent sur le lien vers votre page d’entrée (provenant d’un courrier électronique ou d’un site web, par exemple). La page principale est déjà prérenseignée avec la variable [composant de formulaire spécifique à une page d’entrée](#use-form-component) pour permettre aux utilisateurs de sélectionner et d’envoyer leurs choix. Vous pouvez également définir [styles spécifiques aux landing pages](#lp-form-styles).
+La première page, immédiatement affichée par les utilisateurs lorsqu’ils cliquent sur le lien vers votre landing page, est déjà prérenseignée avec le champ [composant de formulaire spécifique à une page d’entrée](#use-form-component) pour le modèle sélectionné afin de permettre aux utilisateurs de sélectionner et d’envoyer leurs choix. Vous pouvez également définir des [styles spécifiques aux pages de destination](#lp-form-styles).
 
-Pour concevoir plus précisément le contenu de votre landing page, vous pouvez utiliser les mêmes composants que pour un email. [En savoir plus](../email/content-components.md#add-content-components)
+Pour concevoir plus précisément le contenu de votre page de destination, vous pouvez utiliser les mêmes composants que pour un e-mail. [En savoir plus](../email/content-components.md#add-content-components)
 
-<!--
-The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
+Le contenu de la **[!UICONTROL Confirmation]**, **[!UICONTROL Erreur]** et **[!UICONTROL Expiration]** Les pages sont également préremplies. Modifiez-les si nécessaire.
 
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
-
-## Utilisation du composant de formulaire {#use-form-component}
+## Utiliser le composant de formulaire {#use-form-component}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
->title="Définition des champs de composant de formulaire"
->abstract="Définissez la manière dont vos destinataires verront et soumettront leurs choix depuis votre landing page."
+>title="Définir les champs de composant de formulaire"
+>abstract="Définissez la manière dont vos personnes destinataires verront et soumettront leurs choix depuis votre page de destination."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
->title="Que se passe-t-il lorsque vous cliquez sur le bouton ?"
->abstract="Définissez ce qui se passera lorsque les utilisateurs envoient le formulaire de landing page."
+>title="Résultat du clic sur le bouton"
+>abstract="Définissez ce qui se passe lorsque les utilisateurs et les utilisatrices envoient le formulaire de la page de destination."
 
-Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectionner et d’envoyer leurs choix depuis votre landing page, utilisez la méthode **[!UICONTROL Formulaire]** composant. Procédez comme suit :
+Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utilisatrices de sélectionner et d’envoyer leurs choix depuis votre page de destination, utilisez le composant **[!UICONTROL Formulaire]**. Procédez comme suit :
 
-1. Spécifique à la landing page **[!UICONTROL Formulaire]** est déjà affiché dans la zone de travail du modèle sélectionné.
+1. Le composant **[!UICONTROL Formulaire]** spécifique à la page de destination est déjà affiché dans la zone de travail du modèle sélectionné.
 
    >[!NOTE]
    >
-   >La variable **[!UICONTROL Formulaire]** ne peut être utilisé qu’une seule fois sur la même page.
+   >Le composant **[!UICONTROL Formulaire]** ne peut être utilisé qu’une seule fois sur la même page.
 
-1. Sélectionnez-le. La variable **[!UICONTROL Contenu du formulaire]** s’affiche dans la palette de droite pour vous permettre de modifier les différents champs du formulaire.
+1. Sélectionnez-le. Lʼonglet **[!UICONTROL Contenu du formulaire]** s’affiche dans le panneau de droite et vous permet de modifier les différents champs du formulaire.
 
    ![](assets/lp-form-component.png)
 
    >[!NOTE]
    >
-   >Basculez vers le **[!UICONTROL Styles]** à tout moment pour modifier les styles du contenu de votre composant de formulaire. [En savoir plus](#lp-form-styles)
+   >Basculez vers l’onglet **[!UICONTROL Styles]** à tout moment pour modifier les styles du contenu de votre composant de formulaire. [En savoir plus](#lp-form-styles)
 
-1. Développez le premier champ de texte. Dans la **[!UICONTROL Champ de texte 1]** , vous pouvez modifier le type de champ, le champ de la base de données, le libellé et le texte qui s’afficheront dans le champ avant que l’utilisateur ne le renseigne.
+1. Développez le premier champ de texte. Dans la section **[!UICONTROL Champ de texte 1]**, vous pouvez modifier le type de champ, le champ de la base de données, le libellé et le texte qui s’afficheront dans le champ avant que l’utilisateur ou l’utilisatrice ne le renseigne.
 
    ![](assets/lp-form-text-field.png)
 
-1. Vérifiez les **[!UICONTROL Rendre le champ de formulaire obligatoire]** si nécessaire. Dans ce cas, la landing page ne peut être envoyée que si l&#39;utilisateur a renseigné ce champ.
+1. Activez l’option **[!UICONTROL Rendre le champ du formulaire obligatoire]** si nécessaire. Dans ce cas, la landing page ne peut être envoyée que si l&#39;utilisateur a renseigné ce champ.
 
    >[!NOTE]
    >
@@ -78,50 +67,50 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    ![](assets/lp-form-checkbox.png)
 
-   Définissez si cette case doit être activée ou désactivée pour les utilisateurs. Sélectionnez l’une des deux options ci-dessous :
+   Définissez si cette case doit être activée ou désactivée pour les utilisateurs et les utilisatrices. Sélectionnez l’une des deux options ci-dessous :
 
-   * **[!UICONTROL S’abonner si coché]**: les utilisateurs doivent cocher la case pour accepter (opt-in).
-   * **[!UICONTROL Se désabonner si cette case est cochée]**: les utilisateurs doivent cocher la case pour retirer leur consentement (opt-out).
+   * **[!UICONTROL S’abonner à si cette option est cochée]**: les utilisateurs doivent cocher la case pour accepter (opt-in).
+   * **[!UICONTROL Se désabonner si cette case est cochée]** : les utilisateurs et les utilisatrices doivent cocher la case pour retirer leur consentement (désabonnement).
 
 1. Vous pouvez supprimer et ajouter autant de champs de texte et/ou de cases à cocher que nécessaire.
 
-1. Une fois que vous avez ajouté toutes les cases à cocher et/ou tous les champs de texte, cliquez sur **[!UICONTROL Appel à l’action]** pour développer la section correspondante. Il permet de définir le comportement du bouton dans la variable **[!UICONTROL Formulaire]** composant.
+1. Une fois que vous avez ajouté toutes les cases à cocher et/ou tous les champs de texte, cliquez sur **[!UICONTROL Appel à l’action]** pour développer la section correspondante. Cela permet de définir le comportement du bouton dans le composant **[!UICONTROL Formulaire]**.
 
    ![](assets/lp-call-to-action.png)
 
-1. Définissez ce qui se passe lorsque vous cliquez sur le bouton :
+1. Définissez ce qui se passe lors du clic sur le bouton :
 
-   * **[!UICONTROL Page de confirmation]**: l’utilisateur sera redirigé vers la fonction **[!UICONTROL Confirmation]** jeu de pages pour la page d’entrée active.
+   * **[!UICONTROL Page de confirmation]** : la personne sera redirigée vers la page de **[!UICONTROL confirmation]**  pour la page de destination active.
 
-   * **[!UICONTROL URL de redirection]**: saisissez l’URL de la page vers laquelle les utilisateurs seront redirigés.
+   * **[!UICONTROL URL de redirection]** : saisissez l’URL de la page vers laquelle les utilisateurs et les utilisatrices seront redirigés.
 
 1. Si vous souhaitez apporter des mises à jour supplémentaires lors de l’envoi du formulaire, sélectionnez **[!UICONTROL Mises à jour supplémentaires]**, choisissez **[!UICONTROL Inclusion]** ou **[!UICONTROL Exclusion]** et définissez si vous souhaitez mettre à jour une liste d’abonnements, le canal ou uniquement l’adresse électronique utilisée.
 
    ![](assets/lp-form-additionnal-updates.png)
 
-1. Enregistrez votre contenu pour revenir au [propriétés de page d’entrée](create-lp.md).
+1. Enregistrez votre contenu pour revenir aux [propriétés de page de destination](create-lp.md).
 
-## Définition des styles de formulaire de landing page {#lp-form-styles}
+## Définir les styles de formulaire de page de destination {#lp-form-styles}
 
-1. Pour modifier les styles du contenu de votre composant de formulaire, basculez à tout moment vers la fonction **[!UICONTROL Style]** .
+1. Pour modifier les styles du contenu de votre composant de formulaire, accédez à tout moment à l’onglet **[!UICONTROL Style]**.
 
    ![](assets/lp_designer-form-style.png)
 
-1. La variable **[!UICONTROL Champs]** La section est développée par défaut et permet de modifier l’aspect du champ de texte, comme le libellé et la police de l’espace réservé, la position du libellé, la couleur d’arrière-plan du champ ou la bordure du champ.
+1. La section **[!UICONTROL Champs]** est développée par défaut et permet de modifier l’aspect du champ de texte, comme le libellé et la police de l’espace réservé, la position du libellé, la couleur d’arrière-plan du champ ou la bordure du champ.
 
    ![](assets/lp_designer-form-style-fields.png)
 
-1. Développez l’objet **[!UICONTROL Cases à cocher]** pour définir l’aspect des cases à cocher et du texte correspondant. Par exemple, vous pouvez régler la famille ou la taille de police ou la couleur de la bordure de la case à cocher.
+1. Développez la section **[!UICONTROL Cases à cocher]** pour définir l’aspect des cases à cocher et du texte correspondant. Par exemple, vous pouvez régler la famille ou la taille de police ou la couleur de la bordure de la case à cocher.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Développez l’objet **[!UICONTROL Boutons]** pour modifier l’aspect du bouton dans le formulaire du composant. Par exemple, vous pouvez modifier la police, ajouter une bordure, modifier la couleur du libellé au survol ou ajuster l’alignement du bouton.
+1. Développez la section **[!UICONTROL Boutons]** pour modifier l’aspect du bouton dans le formulaire du composant. Par exemple, vous pouvez changer de police, ajouter une bordure, modifier la couleur du libellé en le survolant avec votre souris ou ajuster lʼalignement du bouton.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Vous pouvez prévisualiser certains de vos paramètres, comme la couleur de l’étiquette du bouton lorsque vous survolez en utilisant la fonction **[!UICONTROL Simulation du contenu]** bouton . En savoir plus sur le test des landing pages [here](create-lp.md#test-landing-page).
+   Vous pouvez prévisualiser certains de vos paramètres, comme la couleur du libellé du bouton lorsque vous survolez en utilisant le bouton **[!UICONTROL Simuler du contenu]**. En savoir plus sur le test des pages de destination [ici](create-lp.md#test-landing-page).
 
-1. Développez l’objet **[!UICONTROL Mettre en page le formulaire]** pour modifier les paramètres de mise en page, tels que la couleur d’arrière-plan, la marge intérieure ou la marge.
+1. Développez la section **[!UICONTROL Disposition du formulaire]** pour modifier les paramètres de disposition, tels que la couleur d’arrière-plan, la dilatation ou la marge.
 
    ![](assets/lp_designer-form-style-layout.png)
 

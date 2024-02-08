@@ -3,10 +3,10 @@ title: Créer une page de destination
 description: Découvrir comment configurer et publier une page de destination dans Campaign Web
 feature: Landing Pages
 badge: label="Disponibilité limitée"
-source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 51%
+source-wordcount: '1237'
+ht-degree: 49%
 
 ---
 
@@ -176,7 +176,11 @@ Une fois publiée :
 
 * La landing page est ajoutée à la liste de la landing page avec l’événement **[!UICONTROL Publié]** statut. Il est maintenant en ligne et prêt à être référencé dans votre contenu.
 
-* Vous pouvez copier-coller le **[!UICONTROL URL de la landing page]** qui s’affiche en haut de la page dans un navigateur web.
+* Vous pouvez copier-coller le **[!UICONTROL URL de la landing page]** qui s’affiche en haut de la page dans un navigateur web pour prévisualiser votre landing page.
+
+>[!CAUTION]
+>
+>Pour tester ou exploiter pleinement votre landing page, vous ne pouvez pas copier-coller ce lien directement dans un navigateur web ou dans vos diffusions. Utilisez plutôt la variable [Simulation du contenu](#test-landing-page) pour le tester, et suivez les étapes décrites dans la section [cette section](lp-use-cases.md) pour utiliser correctement votre landing page.
 
 ![](assets/lp-published.png)
 
