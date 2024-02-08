@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Prise en main d’Adobe Campaign Web
-description: Prise en main d’Adobe Campaign Web
+title: Commencer avec Adobe Campaign Web
+description: Commencer avec Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Disponibilité limitée"
 source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 64%
+ht-degree: 76%
 
 ---
 
-# Prise en main d’Adobe Campaign Web {#get-started}
+# Commencer avec Adobe Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="Prise en main"
->abstract="La nouvelle interface web d’Adobe Campaign offre une expérience utilisateur intégrée, intuitive et cohérente."
+>abstract="La nouvelle interface d’Adobe Campaign Web offre une expérience client intégrée, intuitive et cohérente."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Prise en main"
->abstract="La nouvelle interface web d’Adobe Campaign offre une expérience utilisateur intégrée, intuitive et cohérente."
+>abstract="La nouvelle interface d’Adobe Campaign Web offre une expérience client intégrée, intuitive et cohérente."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Prise en main"
->abstract="La nouvelle interface web d’Adobe Campaign offre une expérience utilisateur intégrée, intuitive et cohérente."
+>abstract="La nouvelle interface d’Adobe Campaign Web offre une expérience client intégrée, intuitive et cohérente."
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.
 
@@ -50,7 +50,7 @@ En tant qu&#39;administrateur ou utilisateur expert, si vous devez accéder aux 
 
 >[!NOTE]
 >
->Adobe Campaign Web est actuellement en version à disponibilité limitée (LA). Cela signifie que l’accès est limité à un petit groupe de clientes et clients. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
+>Adobe Campaign Web est actuellement en version Disponibilité limitée. Cela signifie que l’accès est limité à un petit groupe de clientes et clients. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
 Découvrez comment vous connecter à Adobe Campaign Web sur [cette page](connect-to-campaign.md).
 

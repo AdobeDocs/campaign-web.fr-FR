@@ -3,7 +3,7 @@ title: Explorer les détails des profils
 description: Découvrez comment explorer les détails d’un profil.
 badge: label="Disponibilité limitée"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 

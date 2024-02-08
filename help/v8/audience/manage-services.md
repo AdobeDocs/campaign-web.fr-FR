@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 >title="Créer et gérer des services"
 >abstract="Utilisez Adobe Campaign pour créer et surveiller vos services, tels que les newsletters, et pour vérifier les inscriptions ou désinscriptions à ces services. Les abonnements ne s’appliquent qu’aux diffusions e-mail et SMS."
 
-Utilisez le Web Adobe Campaign pour gérer et créer vos services tels que les newsletters, et pour vérifier les abonnements ou désabonnements à ces services.
+Utilisez Adobe Campaign Web pour créer et surveiller vos services tels que les newsletters, ainsi que pour vérifier les abonnements et désabonnements relatifs à ces services.
 
 >[!NOTE]
 >
@@ -95,13 +95,13 @@ Vous pouvez maintenant :
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="Sélectionner le modèle de diffusion des abonnements"
->abstract="Pour envoyer des messages de confirmation aux utilisateurs abonnés à votre service, vous devez sélectionner un modèle de diffusion spécifique basé sur la variable **[!UICONTROL Abonnements]** mapping de ciblage, sans cible définie."
+>abstract="Pour envoyer des messages de confirmation aux personnes qui s’abonnent à votre service, vous devez sélectionner un modèle de diffusion avec le mapping de ciblage **[!UICONTROL Abonnements]**, sans cible définie."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
->title="Sélectionnez le modèle de diffusion Désinscriptions ."
->abstract="Pour envoyer des messages de confirmation aux utilisateurs qui se désabonnent de votre service, vous devez sélectionner un modèle de diffusion spécifique basé sur le **[!UICONTROL Abonnements]** mapping de ciblage, sans cible définie."
+>title="Sélectionner le modèle de diffusion pour les désabonnements"
+>abstract="Pour envoyer des messages de confirmation aux personnes qui se désabonnent de votre service, vous devez sélectionner un modèle de diffusion avec le mapping de ciblage **[!UICONTROL Abonnements]**, sans cible définie."
 
 Pour envoyer des messages de confirmation aux personnes qui s’abonnent à ou se désabonnent de votre service, vous devez créer un modèle de diffusion avec le mapping de ciblage **[!UICONTROL Abonnements]**, sans cible définie. Procédez comme suit :
 
