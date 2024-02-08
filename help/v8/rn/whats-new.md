@@ -4,10 +4,10 @@ title: Nouveautés de l’interface utilisateur web de Campaign
 description: Découvrez les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilité limitée"
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 75%
+source-wordcount: '1292'
+ht-degree: 74%
 
 ---
 
@@ -168,7 +168,7 @@ Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont 
 
 Les restrictions ci-dessous s’appliquent à cette version :
 
-* Les objets modifiables sont les suivants : personnes destinataires, diffusions, campagnes, workflows, audiences, services d’abonnement, filtres prédéfinis et modèles. Les autres sont en lecture seule. Utilisez des filtres et créez des règles pour tous les parcourir.
+* Les objets modifiables sont les suivants : destinataires, diffusions, campagnes, workflows, audiences, services d’abonnement, filtres prédéfinis, modèles et pages d’entrée. Les autres sont en lecture seule. Utilisez des filtres et créez des règles pour tous les parcourir.
 * Les fonctionnalités d&#39;administration et de paramétrage avancé ne sont pas disponibles dans l&#39;interface utilisateur Web de Campaign.
 * Les mesures de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
 * Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes, mais la préparation de la diffusion est en temps réel.
