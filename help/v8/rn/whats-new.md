@@ -4,10 +4,10 @@ title: Nouveautés de l’interface utilisateur web de Campaign
 description: Découvrez les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilité limitée"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 79%
+source-wordcount: '1290'
+ht-degree: 75%
 
 ---
 
@@ -158,20 +158,20 @@ Avec l’interface utilisateur Web de Campaign, l’interface utilisateur reflè
 
 Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s&#39;appliquent uniquement à l&#39;interface utilisateur Web de Campaign et ne sont pas répercutées dans la console cliente. Elles sont résumées ci-dessous.
 
-* Les BAT sont maintenant des **e-mails de test** : pour envoyer un BAT, utilisez le bouton **Tester** dans l’UI de diffusion par e-mail. La cible des BAT s’appelle désormais **Profils de test**. [En savoir plus](../preview-test/test-deliveries.md).
-* Les adresses de contrôle sont désormais utilisées comme **Profils de test** : envoyez l’e-mail de test aux adresses de contrôle, qui sont des destinataires supplémentaires dans la base de données. [En savoir plus](../preview-test/test-deliveries.md).
+* Les destinataires sont désormais **Profils**. [En savoir plus](../audience/gs-audiences-recipients.md).
+* Les adresses de contrôle sont désormais **Profils de test**. [En savoir plus](../preview-test/test-deliveries.md).
 * L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer la préparation des messages, cliquez sur le bouton **Préparer**. [En savoir plus](../monitor/prepare-send.md)
 * L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu.** [En savoir plus](../preview-test/preview-test.md).
-* Les listes s’appellent désormais **Audiences**. [En savoir plus](../audience/about-recipients.md).
+* Les listes s’appellent désormais **Audiences**. [En savoir plus](../audience/gs-audiences-recipients.md).
 
 ## Limites{#limitations-beta}
 
 Les restrictions ci-dessous s’appliquent à cette version :
 
 * Les objets modifiables sont les suivants : personnes destinataires, diffusions, campagnes, workflows, audiences, services d’abonnement, filtres prédéfinis et modèles. Les autres sont en lecture seule. Utilisez des filtres et créez des règles pour tous les parcourir.
-* L’interface utilisateur d’administration n’est pas disponible.
+* Les fonctionnalités d&#39;administration et de paramétrage avancé ne sont pas disponibles dans l&#39;interface utilisateur Web de Campaign.
 * Les mesures de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
 * Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes, mais la préparation de la diffusion est en temps réel.
 * Les notifications d’Adobe Experience Cloud et l’aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
 
-Pour plus de mécanismes de sécurisation et de restrictions, consultez [cette page](../get-started/guardrails.md).
+En savoir plus sur les fonctionnalités prises en charge/non prises en charge et l&#39;interopérabilité entre l&#39;interface utilisateur Web de Campaign et la console cliente Campaign, [dans cette page](../get-started/capability-matrix.md).
