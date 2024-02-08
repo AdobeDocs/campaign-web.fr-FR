@@ -2,19 +2,19 @@
 audience: end-user
 user-guide-title: Interface utilisateur Web d’Adobe Campaign
 user-guide-description: Documentation produit de l’interface utilisateur web d’Adobe Campaign.
-title: Documentation Web d’Adobe Campaign
-description: Documentation Web de Campaign
+title: Documentation d’Adobe Campaign Web
+description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur Web de Campaign
 hide: true
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 06ec541924c906980ed0e318556177e26a9f00b0
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 87%
+source-wordcount: '574'
+ht-degree: 94%
 
 ---
 
 
-# Documentation Web d’Adobe Campaign {#v8}
+# Documentation d’Adobe Campaign Web {#v8}
 
 + [Documentation de l’interface utilisateur web d’Adobe Campaign](campaign-web-home.md)
 + [Nouveautés](rn/whats-new.md)
@@ -64,7 +64,7 @@ ht-degree: 87%
       + Envoyer et surveiller l’e-mail {#monitor}
          + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
          + [Paramètres de diffusion d’e-mail](advanced-settings/delivery-settings.md)
-         + [Envoi en plusieurs vagues](advanced-settings/send-using-waves.md)
+         + [Envoyer en plusieurs vagues](advanced-settings/send-using-waves.md)
          + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
    + Notifications push {#push}
       + [Prise en main des notifications push](push/gs-push.md)
@@ -88,19 +88,20 @@ ht-degree: 87%
       + [Prévisualiser le contenu du message](preview-test/preview-content.md)
       + [Envoyer des diffusions test](preview-test/test-deliveries.md)
       + [Tester le rendu des e-mails](preview-test/email-rendering.md)
-+ Landing pages {#landing-pages}
-   + [Prise en main des landing pages](landing-pages/get-started-lp.md)
-   + [Créer et publier une landing page](landing-pages/create-lp.md)
-   + [Concevoir le contenu d&#39;une landing page](landing-pages/lp-content.md)
-   + [Utiliser des modèles de landing page](landing-pages/lp-templates.md)
++ Pages de destination {#landing-pages}
+   + [Commencer avec les pages de destination](landing-pages/get-started-lp.md)
+   + [Créer et publier une page de destination](landing-pages/create-lp.md)
+   + [Modifier le contenu d’une page de destination](landing-pages/lp-content.md)
+   + [Utiliser des modèles de page de destination](landing-pages/lp-templates.md)
+   + [En savoir plus sur les cas pratiques](landing-pages/lp-use-cases.md)
 + Profils et audiences {#audiences}
    + [Prise en main des profils et des audiences](audience/gs-audiences-recipients.md)
    + [Dimensions de ciblage](audience/targeting-dimensions.md)
    + Utiliser les profils {#work-with-profiles}
       + [Commencer avec les profils](audience/about-recipients.md)
-      + [Exploration des détails des profils](audience/profile-view.md)
+      + [Explorer les détails des profils](audience/profile-view.md)
       + [Créer un profil](audience/create-profile.md)
-      + [Utilisation de profils de test](audience/test-profiles.md)
+      + [Utiliser les profils de test](audience/test-profiles.md)
    + Utiliser les audiences {#audiences}
       + [Créer des audiences](audience/create-audience.md)
       + [Surveiller et gérer des audiences](audience/manage-audience.md)
