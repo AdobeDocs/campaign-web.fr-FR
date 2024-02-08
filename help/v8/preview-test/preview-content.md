@@ -4,10 +4,10 @@ title: Prévisualiser le contenu de la diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion à l'aide de l'interface utilisateur Web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilité limitée"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 85%
+source-wordcount: '352'
+ht-degree: 80%
 
 ---
 
@@ -32,22 +32,17 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
 1. Vous pouvez combiner des profils et des profils de test pour prévisualiser votre email ou votre SMS.
 
-   * L’onglet **[!UICONTROL Profils de test]** répertorie les adresses de contrôle, qui sont des destinataires supplémentaires et fictifs dans la base de données.
-     ![](assets/simulate-select-profiles.png)
+   * La variable **[!UICONTROL Profils de test]** répertorie tous les profils de test, qui sont des destinataires supplémentaires et fictifs dans la base de données. [Découvrir comment utiliser des profils test](../audience/test-profiles.md)
 
-     Les profils de test peuvent être créés à partir du menu **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]**. [En savoir plus](../audience/test-profiles.md#create-test-profiles)
+   * La variable **[!UICONTROL Profils]** répertorie tous les profils stockés dans votre base de données. [Découvrez comment utiliser des profils](../audience/about-recipients.md)
 
-
-   * La variable **[!UICONTROL Profils]** répertorie tous les destinataires stockés dans la variable **[!UICONTROL Profils et cibles]** à partir du dossier [!DNL Campaign] console cliente. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=fr){target="_blank"}.
-
-     Vous pouvez afficher, créer et gérer des profils à partir du **[!UICONTROL Profils]** . [En savoir plus](../audience/about-recipients.md)
-
+   ![](assets/simulate-select-profiles.png)
 
 1. Lorsque vous parcourez le profil de test ou la liste des profils, vous pouvez ajouter des filtres pour affiner votre recherche.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. Découvrez comment ajouter des règles à l’aide du [concepteur de requêtes](../query/query-modeler-overview.md).
+   Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. [Découvrez comment ajouter des règles à l’aide du créateur de modèles de requête](../query/query-modeler-overview.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** pour confirmer votre sélection.
 

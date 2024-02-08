@@ -4,10 +4,10 @@ title: À propos de la prévisualisation et du test des diffusions
 description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Disponibilité limitée"
-source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 84%
+source-wordcount: '201'
+ht-degree: 72%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Prévisualiser et tester votre contenu"
->abstract="Une fois votre contenu défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester."
+>abstract="Une fois votre contenu défini, vous pouvez utiliser des profils et des profils de test pour le prévisualiser et le tester."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=fr" text="Envoyer des diffusions test"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test des landing pages"
 
-Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils de test pour le prévisualiser et le tester avant d’envoyer le message.
+Une fois le contenu de votre diffusion défini, vous pouvez utiliser des profils et des profils de test pour le prévisualiser et le tester avant d&#39;envoyer le message.
 
 Il s’agit d’une étape cruciale pour s’assurer qu’il est exact, mais également exempt d’erreurs au niveau du contenu et des paramètres de personnalisation.
 

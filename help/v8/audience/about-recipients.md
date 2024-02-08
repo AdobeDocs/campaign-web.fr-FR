@@ -2,10 +2,10 @@
 title: Commencer avec les profils
 description: Découvrez comment surveiller et gérer les profils dans Campaign Web.
 badge: label="Disponibilité limitée"
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 71%
+source-wordcount: '527'
+ht-degree: 57%
 
 ---
 
@@ -31,19 +31,17 @@ ht-degree: 71%
 >title="Profils"
 >abstract="Un profil est une personne ciblée pour recevoir les messages envoyés par Adobe Campaign. Depuis cette liste, vous pouvez visualiser les détails des profils, en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de vos profils."
 
-## Qu’est-ce qu’un profil ? {#what}
+## Qu’est-ce qu’un profil ? {#what}
 
-Un profil dans Adobe Campaign Web est un individu stocké dans la base de données, qui sert de composant clé pour [créer des audiences](create-audience.md) pour les diffusions et [ajouter des données de personnalisation](../personalization/personalize.md) à votre contenu.
+A **profile**, également appelé &quot;destinataires&quot; dans la console cliente, représente un individu stocké dans la base de données Campaign, servant de composant clé à [créer des audiences](create-audience.md) pour les diffusions et [ajout de la personnalisation](../personalization/personalize.md) des données à votre contenu. Adobe Campaign vous permet de gérer facilement les profils, de la création de nouvelles entrées à l’accès à une vue complète de tous les attributs et abonnements aux services de vos profils, tout cela grâce à l’interface utilisateur Web de Campaign.
 
-Adobe Campaign vous permet de créer et de surveiller vos profils directement à partir de l’interface. De là, vous pouvez créer des profils, accéder à une vue détaillée de vos profils et les modifier.
+De plus, **[!UICONTROL profils de test]**, identifié comme &quot;profils de contrôle&quot; dans la console cliente, permet de cibler des destinataires supplémentaires qui ne correspondent pas aux critères de ciblage d&#39;une diffusion donnée. Ces profils contiennent des informations de contact fictives ou des informations de contact contrôlées par l’expéditeur. Ils peuvent être ajoutés à l’audience d’un message pour détecter une utilisation frauduleuse de votre base de données de destinataires ou pour s’assurer que les emails arrivent dans les boîtes de réception. [Découvrir comment utiliser des profils test](test-profiles.md)
 
-D’autres types de profils sont stockés dans la base de données, tels que les **[!UICONTROL Profils de test]**, qui sont conçus pour tester vos diffusions avant leur envoi à l’audience finale. [Découvrez comment utiliser des profils de test](test-profiles.md)
+Les profils et les profils de test peuvent être utilisés pour tester vos diffusions avant qu’elles n’atteignent l’audience prévue. Ce faisant, vous pouvez prévisualiser le contenu et la personnalisation du message, envoyer des bons à tirer pour le test et la validation, évaluer le rendu des emails sur différentes plateformes et périphériques et tester vos landing pages. [Découvrez comment prévisualiser et tester des diffusions](../preview-test/preview-test.md)
 
 ## Accéder à la liste des profils {#access}
 
-Les profils sont accessibles et modifiables dans Adobe Campaign Web à partir de la **[!UICONTROL Gestion des clients]** > **Profils** dans le rail de navigation de gauche.
-
-Vous pouvez également y accéder via la **[!UICONTROL Explorateur]** de la vue **[!UICONTROL Profils et cibles]** > **[!UICONTROL Destinataires]** noeud . De là, vous pouvez parcourir, créer et gérer des dossiers ou des sous-dossiers, ainsi que vérifier les autorisations associées. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
+Les profils sont accessibles et modifiables dans Adobe Campaign Web à partir de la **[!UICONTROL Gestion des clients]** > **Profils** dans le rail de navigation de gauche. Vous pouvez également y accéder dans la **[!UICONTROL Explorateur]** de la vue **[!UICONTROL Profils et cibles]** > **[!UICONTROL Destinataires]** noeud . De là, vous pouvez parcourir, créer et gérer des dossiers ou des sous-dossiers, ainsi que vérifier les autorisations associées. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >
@@ -53,6 +51,6 @@ Vous pouvez filtrer la liste **[!UICONTROL Profils]** à l’aide du champ de re
 
 ![](assets/profiles-list-filters.png)
 
-Pour accéder aux détails d&#39;un profil, cliquez sur son nom dans la liste. Une vue détaillée du profil s’ouvre, vous permettant d’explorer ses attributs et les services auxquels il s’est abonné. [Découvrez comment explorer les détails des profils](create-profile.md)
+Pour accéder aux détails d’un profil, cliquez sur son nom dans la liste. Une vue détaillée du profil s’ouvre, vous permettant d’explorer ses attributs et les services auxquels il s’est abonné. [Découvrir comment explorer les détails des profils](create-profile.md)
 
 Pour supprimer un profil, sélectionnez l’option correspondante dans le menu **[!UICONTROL Plus d’actions]**.
