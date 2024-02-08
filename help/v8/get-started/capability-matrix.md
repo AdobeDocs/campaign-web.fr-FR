@@ -3,10 +3,10 @@ audience: end-user
 title: Matrice des fonctionnalités de l'interface utilisateur Web de Campaign/de la console cliente
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur Web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 12%
+source-wordcount: '2143'
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (conso
 
 * **Calendrier marketing**. Le calendrier des campagnes affiche l’ensemble des programmes, plans, campagnes et diffusions dans une chronologie globale. Cette fonctionnalité n’est disponible que dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
 * **Programmes et plans**. Chaque campagne appartient à un programme qui appartient à son tour à un plan. Dans l&#39;interface utilisateur Web de Campaign, toutes les campagnes sont associées à un plan et à un programme intégrés par défaut. Vous pouvez uniquement créer et gérer des plans et des programmes dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
-* **Prestataires, budget et gestion des coûts**. Vous pouvez configurer les prestataires impliqués dans les traitements réalisés dans vos opérations, y compris les structures de coûts, et gérer vos budgets au sein de chaque Programme et campagne. Cette fonctionnalité n’est disponible que dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* **Prestataires, budget et gestion des coûts**. Vous pouvez configurer les prestataires impliqués dans les traitements réalisés dans vos opérations, y compris les structures de coûts, et gérer vos budgets au sein de chaque programme et campagne. Cette fonctionnalité n’est disponible que dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
 * **Marketing distribué** (Marketing central/local). Adobe Campaign propose une application de Marketing Distribué pour la réalisation de campagnes de coopération entre les entités centrales (siège social, départements marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Cette fonctionnalité n’est disponible que dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}
 * **Gestion des ressources marketing** (MRM), objectifs, simulations et contrôle des coûts. Adobe Campaign propose une application Marketing Resource Management (MRM) qui permet de contrôler les actions marketing en mode collaboratif en assurant une gestion complète et un suivi en temps réel des tâches, budgets et ressources marketing impliquées. Cette fonctionnalité n’est disponible que dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * **Gestion des tâches**. Dans le cadre de l&#39;application MRM, les tâches de Campaign peuvent être créées, affectées, suivies et surveillées à partir du tableau de bord de l&#39;opération. Cette fonctionnalité n’est disponible que dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
@@ -43,8 +43,8 @@ Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (conso
 
 * **Canal Courrier**. Le canal Courrier vous permet d’envoyer une correspondance physique à vos clients, clients, fournisseurs ou autres, tels que des avis, des factures, des récapitulatifs, des offres marketing, etc. Ce canal est uniquement disponible dans la console cliente.  [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=fr){target="_blank"}
 * **Messagerie LINE**. LINE est une application gratuite de messagerie instantanée, d&#39;appels vocaux et vidéo, disponible sur tous les appareils mobiles et sur PC. Adobe Campaign vous permet d&#39;envoyer des messages LINE uniquement depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
-* Canaux centre d’appels et personnalisés. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
-* Marketing social avec X (Twitter). [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=fr){target="_blank"}
+* **Canaux du centre d’appels et personnalisés**. Le centre d’appels et d’autres canaux personnalisés peuvent être implémentés dans votre environnement Campaign. Ces canaux ne peuvent être disponibles que dans la console cliente. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
+* **Marketing social** avec X (Twitter). Vous interagissez avec vos clients via X (Twitter) en publiant des messages et en envoyant des messages directs. Cette fonctionnalité, fournie avec le module complémentaire Social Marketing, n’est disponible que depuis la console cliente : [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=fr){target="_blank"}
 
 ## Landing pages et applications web {#Webapps-capabilities}
 
@@ -52,9 +52,9 @@ Adobe Campaign vous permet de créer, concevoir et partager des landing pages. L
 
 Par conséquent, dans la console cliente Campaign, vous ne pouvez pas éditer, mettre à jour ou modifier une landing page créée dans l&#39;interface web - et inversement. Les types d&#39;applications web suivants ne sont pas disponibles dans l&#39;interface utilisateur web de Campaign. Elles sont toutefois visibles dans la liste des landing pages. Utilisez les liens fournis pour parcourir la documentation de Campaign Classic v7 et en savoir plus sur ces applications web :
 
-* Applications Web. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
-* Formulaires Web. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=fr){target="_blank"}
-* Questionnaires en ligne. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
+* **Applications web**. Adobe Campaign permet de créer et publier des applications web dynamiques et interactives avec des données pré-chargées de la base et du contenu adapté aux droits de l&#39;utilisateur connecté. Cette fonctionnalité n’est disponible que dans la console cliente. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
+* **Formulaires web**. Les pages Web et landing pages conçues dans la console cliente sont visibles dans l&#39;interface utilisateur Web de Campaign, mais ne peuvent être ni éditées ni modifiées. Certaines options peuvent différer entre le concepteur de page web de la console cliente et le concepteur de page d’entrée fourni avec l’interface utilisateur Web de Campaign. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=fr){target="_blank"}
+* **Questionnaires en ligne**. Vous pouvez créer des enquêtes en ligne et collecter les réponses à partir de la console cliente uniquement. Cette fonctionnalité n&#39;est pas disponible dans l&#39;interface utilisateur Web de Campaign.  [Apprenez-en davantage en consultant la documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
 
 
 ## Profils, profils de test et audiences {#profiles-audiences-capabilities}
@@ -88,9 +88,9 @@ Grâce à cette nouvelle interface utilisateur, vous pouvez gérer la synchronis
 
 Notez que les fonctionnalités suivantes ne sont pas disponibles pour l’instant dans l’interface utilisateur Web de Campaign. Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (console cliente) et en savoir plus sur ces fonctionnalités.
 
-* Création de blocs de personnalisation personnalisés. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
-* Contenu des formulaires personnalisés (module de gestion de contenu). [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
-* AMP pour les emails. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
+* **Création de blocs de personnalisation personnalisés**. Outre les blocs de personnalisation par défaut, vous pouvez créer des blocs personnalisés à partir de la console cliente. Cette fonctionnalité n&#39;est pas disponible dans l&#39;interface utilisateur Web de Campaign. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
+* **Contenu des formulaires personnalisés**. Le module de gestion de contenu permet de créer et de gérer des formulaires destinés à assister les utilisateurs lors de la création de contenu dans Campaign. Cette fonctionnalité est uniquement disponible avec la console cliente. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* **AMP pour les emails**. Le nouveau format AMP for Email vous permet d’inclure des composants AMP dans vos messages et d’améliorer l’expérience email avec un contenu riche et exploitable. Cette fonctionnalité n’est disponible que dans la console cliente. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
@@ -157,10 +157,10 @@ L&#39;interface utilisateur Web de Campaign ne présente pas les fonctionnalité
 
 Parcourez les liens fournis dans le [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"} pour en savoir plus.
 
-* Comptes externes. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
-* Création et extension de schéma. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
-* Activités de workflow de Data Management : Chargement, Extraction (fichier), Mise à jour de données, Edition de schémas, Workflows techniques d&#39;import/export. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
-* Configuration de Campaign et connexion à des systèmes externes. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr){target="_blank"}
+* **Comptes externes**. Adobe Campaign est fourni avec un ensemble de comptes externes prédéfinis pour la connexion aux systèmes externes. En tant qu’administrateur système Campaign, vous ne pouvez créer et gérer des comptes externes qu’à partir de la console cliente.[En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* **Création et extension de schéma**. La création, la modification et l’extension de schéma sont limitées aux utilisateurs avancés. Ces fonctionnalités ne sont disponibles que depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* **Gestion des données** activités de workflow. Data Management combine un ensemble d’activités pour résoudre des problèmes de ciblage complexes en proposant des outils plus efficaces et plus flexibles. Ces activités comprennent : Chargement, Extraction (fichier), Mise à jour de données, Edition du schéma, Workflows techniques d&#39;import/export. Elles ne sont disponibles que dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* **Federated Data Access**. La configuration de Campaign et la connexion à des systèmes externes sont limitées aux utilisateurs avancés et ne sont disponibles que depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr){target="_blank"}
 
 ## Validations {#approvals-capabilities}
 
