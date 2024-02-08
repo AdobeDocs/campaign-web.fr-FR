@@ -5,9 +5,9 @@ description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Disponibilité limitée"
 source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
 1. La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au concepteur de requête, qui vous permet de créer des filtres avancés pour la liste des audiences. [Découvrir comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
 
-   Vous pouvez par exemple définir une règle pour filtrer l&#39;origine des audiences, comme dans l&#39;exemple ci-dessous :
+   Par exemple, vous pouvez également définir une règle pour filtrer l’origine des audiences, comme indiqué ci-dessous :
 
    ![](assets/filter-on-aep-audience.png)
 

@@ -4,9 +4,9 @@ description: Découvrez comment utiliser les profils et les audiences dans Campa
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Disponibilité limitée"
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Dans Adobe Campaign Web, un **profil** désigne une personne stockée dans la 
 
 Les **audiences** désignent un ensemble de profils qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée.  Une fois créées, les audiences peuvent être exploitées comme la population cible de vos diffusions.
 
-En outre, Adobe Campaign Web peut être utilisé pour gérer et créer des **services** par exemple des newsletters et pour vérifier les abonnements ou désabonnements à ces services. Ensuite, vous pouvez ajouter des personnes abonnées, désabonner des profils et envoyer des messages aux personnes abonnées à vos services.
+Vous pouvez également utiliser Adobe Campaign Web pour gérer et créer vos **services**, tels que les newsletters, ou encore pour vérifier les abonnements et désabonnements relatifs à ces services. Ensuite, vous pouvez ajouter des personnes abonnées, désabonner des profils et envoyer des messages aux personnes abonnées à vos services.
 
 Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adobe Campaign Web, il est temps d’explorer plus en détails les sections de cette documentation pour commencer à travailler.
 
@@ -32,7 +32,7 @@ Maintenant que vous avez une idée de la manière dont vous pouvez utiliser Adob
 </td>
 <td>
 <a href="create-audience.md">
-<img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
+<img alt="Prospect" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
 <div><a href="create-audience.md"><strong>Créer des audiences</strong>
 </div>

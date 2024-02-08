@@ -1,32 +1,32 @@
 ---
-keywords: Campaign Web;accueil;thèmes populaires
-description: Centre d'aide Web Campaign
-title: Documentation du produit web Adobe Campaign
+keywords: Campaign Web;accueil;thèmes populaires
+description: Centre d’aide de Campaign Web
+title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilité limitée"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Documentation Web d’Adobe Campaign {#campaign-documentation}
+# Documentation d’Adobe Campaign Web {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="Aide et documentation"
->abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception qui permettent d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
+>abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
 >title="Découvrir la nouvelle interface utilisateur d’Adobe Campaign"
->abstract="Plus moderne, intuitive et dynamique"
+>abstract="Plus moderne, plus intuitive, plus dynamique."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Élément 1"
->abstract="Nouvelle expérience de conception d’email, de SMS et de notifications push"
+>abstract="Nouvelle expérience de conception d’e-mails, de SMS et de notifications push"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,12 +36,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Élément 3"
->abstract="UX repensé pour les audiences, les abonnements, AEM Assets, les landing pages"
+>abstract="Expérience client repensée pour les audiences, les abonnements, les ressources AEM, les pages de destination"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Élément 4"
->abstract="Moteur de requête de nouvelle génération et Concepteur d’email"
+>abstract="Concepteur de requête de nouvelle génération et concepteur d’e-mail"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -54,12 +54,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Aide et documentation"
->abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception qui permettent d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
+>abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception permettant d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
 >title="Découvrir la nouvelle interface utilisateur d’Adobe Campaign"
->abstract="Plus moderne, intuitive et dynamique"
+>abstract="Plus moderne, plus intuitive, plus dynamique."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
@@ -86,21 +86,21 @@ ht-degree: 84%
 Nous avons le plaisir de présenter la nouvelle version de l’interface utilisateur web d’Adobe Campaign. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> Adobe Campaign Web est actuellement en version à disponibilité limitée (LA). Cela signifie que l’accès est limité à un petit groupe de clientes et clients. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
+> Adobe Campaign Web est actuellement en version Disponibilité limitée. Cela signifie que l’accès est limité à un petit groupe de clientes et clients. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
 ## Nouveautés
 
-Découvrez les dernières améliorations apportées au produit Web et à la documentation d’Adobe Campaign. Pour obtenir une liste complète des fonctionnalités clés et des notes de mises à jour, consultez [cette page](rn/whats-new.md).
+Découvrez les dernières améliorations apportées à Adobe Campaign Web et à sa documentation. Pour obtenir une liste complète des fonctionnalités clés et des notes de mises à jour, consultez [cette page](rn/whats-new.md).
 
 >[!BEGINTABS]
 
 >[!TAB Workflows cross-canal]
 
-Bénéficiez de nouvelles fonctionnalités d’automatisation et d’optimisation qui vous permettront de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
+Bénéficiez de nouvelles possibilités d’automatisation et d’optimisation, ce qui vous permet de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
->[!TAB Composition d’audiences]
+>[!TAB Composition de l’audience]
 
 Créez des audiences dans une zone de travail visuelle de workflow. En plus de commencer de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Combinez plusieurs audiences en une seule, enrichissez votre audience avec des attributs externes ou divisez-la en plusieurs audiences en fonction des règles de votre choix.
 
@@ -108,7 +108,7 @@ Créez des audiences dans une zone de travail visuelle de workflow. En plus de c
 
 >[!TAB Concepteur d’e-mail]
 
-Le Concepteur d’e-mail de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !
+Le concepteur d’e-mail de Campaign permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuite par glisser-déposer. Un monde de possibilités s’offre à vous : commencez à partir de zéro, importez un contenu précédent ou tirez parti de modèles existants. Vous pouvez concevoir et affiner le contenu de chaque e-mail !
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
@@ -126,7 +126,7 @@ Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports e
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Découvrez la nouvelle interface utilisateur</strong><br/>Découvrez la nouvelle interface et l’expérience de navigation d’Adobe Campaign Web intégrées à Adobe Experience Platform.</div>
+    <div><strong>Découvrir la nouvelle interface utilisateur</strong><br/> Découvrez la nouvelle interface d’Adobe Campaign Web et l’expérience de navigation intégrée à Adobe Experience Platform.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
@@ -134,7 +134,7 @@ Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports e
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Présentation du Concepteur d'email</strong><br/>Découvrez comment commencer à partir d’un modèle ou utilisez Adobe Campaign pour créer un nouveau Concepteur d’email afin de créer des emails sans avoir à écrire une seule ligne de code.
+    <div><strong>Découvrir le concepteur d’e-mail</strong><br/> Découvrez comment démarrer à partir d’un modèle ou utilisez le nouveau concepteur d’e-mail d’Adobe Campaign afin de créer des e-mails sans avoir à écrire une seule ligne de code.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>

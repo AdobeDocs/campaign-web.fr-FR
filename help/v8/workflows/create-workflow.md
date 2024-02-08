@@ -5,9 +5,9 @@ description: Découvrez comment créer un workflow avec Adobe Campaign Web.
 badge: label="Disponibilité limitée"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
->title="Propriétés de workflow "
+>title="Propriétés du workflow"
 >abstract="Dans cet écran, choisissez le modèle à utiliser pour créer le workflow et indiquez un libellé. Développez la section Options supplémentaires pour configurer d’autres paramètres tels que le nom interne du workflow, son dossier, son fuseau horaire et le groupe de personnes responsables. Il est vivement recommandé de sélectionner un groupe de personnes responsables afin d’alerter les opérateurs et opératrices en cas d’erreur."
 
 
@@ -56,8 +56,8 @@ Votre workflow est maintenant créé et disponible dans la liste des workflows. 
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_creation_properties"
->title="Propriétés de workflow "
->abstract="Les modèles de workflows contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer de nouveaux workflows. Dans cet écran, saisissez le libellé du modèle de workflow et paramétrez-le, notamment son nom interne, ses dossiers et dossiers d&#39;exécution, son fuseau horaire et son groupe de superviseurs."
+>title="Propriétés du workflow"
+>abstract="Les modèles de workflows contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer de nouveaux workflows. Dans cet écran, saisissez le libellé du modèle de workflow et paramétrez-le, notamment son nom interne, son dossier et ses dossiers d’exécution, son fuseau horaire et son groupe de supervision."
 
 Les modèles de workflows contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer de nouveaux workflows. Vous pouvez sélectionner le modèle de workflow dans les propriétés lors de la création. Un modèle vide est fourni par défaut.
 

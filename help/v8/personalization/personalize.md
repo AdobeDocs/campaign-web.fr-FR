@@ -1,6 +1,6 @@
 ---
 title: Personnaliser votre contenu dans Campaign
-description: Découvrez comment personnaliser votre contenu dans Adobe Campaign Web
+description: Découvrir comment personnaliser votre contenu dans Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,9 +8,9 @@ level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Disponibilité limitée"
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les balises de personnalisation suivent une syntaxe spécifique : `<%= table.fi
 
 Pendant le processus de préparation de la diffusion, Adobe Campaign interprète automatiquement ces balises et les remplace par les valeurs de champ correspondantes pour chaque destinataire. Vous pouvez visualiser le remplacement réel en simulant votre contenu.
 
-Lors du téléchargement de contacts depuis un fichier externe pour une diffusion e-mail autonome, tous les champs du fichier d’entrée peuvent être personnalisés. La syntaxe est la suivante : `<%= dataSource.field %>`.
+Lors du chargement de contacts depuis un fichier externe pour une diffusion e-mail autonome, tous les champs du fichier d’entrée peuvent être personnalisés. La syntaxe est la suivante : `<%= dataSource.field %>`.
 
 ## Ajouter des balises de personnalisation {#add}
 
@@ -42,7 +42,7 @@ Pour ajouter des balises de personnalisation dans une diffusion, procédez comme
    | Menu | Description |
    |-----|------------|
    | ![](assets/do-not-localize/perso-subscribers-menu.png) | Le menu **[!UICONTROL Application des abonnées et abonnés]** répertorie les champs liés aux abonnées et abonnés d’une application, tels que le terminal utilisé ou le système d’exploitation. *Ce menu est disponible uniquement pour les notifications push*. |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | Le menu **[!UICONTROL Destinataire]** répertorie les champs définis dans le tableau des destinataires, tels que les noms, âges ou adresses des destinataires. Lors du [téléchargement des contacts depuis un fichier externe](../audience/file-audience.md) pour une diffusion e-mail autonome, ce menu répertorie tous les champs disponibles dans le fichier d’entrée. |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | Le menu **[!UICONTROL Destinataire]** répertorie les champs définis dans le tableau des destinataires, tels que les noms, âges ou adresses des destinataires. Lors du [chargement des contacts depuis un fichier externe](../audience/file-audience.md) pour une diffusion e-mail autonome, ce menu répertorie tous les champs disponibles dans le fichier d’entrée. |
    | ![](assets/do-not-localize/perso-message-menu.png) | Le menu **[!UICONTROL Message]** répertorie les champs liés aux logs de diffusion, y compris tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux, comme la date du dernier événement avec une personne destinataire donnée. |
    | ![](assets/do-not-localize/perso-delivery-menu.png) | Le menu **[!UICONTROL Diffusion]** répertorie les champs liés aux paramètres requis pour effectuer des diffusions, tels que le canal ou le libellé de la diffusion. |
 
