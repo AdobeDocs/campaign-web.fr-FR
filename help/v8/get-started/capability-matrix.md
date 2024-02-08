@@ -3,10 +3,10 @@ audience: end-user
 title: Matrice des fonctionnalités de l'interface utilisateur Web de Campaign/de la console cliente
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur Web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
+source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 11%
+source-wordcount: '1772'
+ht-degree: 12%
 
 ---
 
@@ -41,8 +41,8 @@ Grâce à l&#39;interface utilisateur Web de Campaign, vous pouvez créer, conce
 
 Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (console cliente) et en savoir plus sur ces canaux.
 
-* Courrier. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=fr){target="_blank"}
-* Messagerie LINE. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **Canal Courrier**. Le canal Courrier vous permet d’envoyer une correspondance physique à vos clients, clients, fournisseurs ou autres, tels que des avis, des factures, des récapitulatifs, des offres marketing, etc. Ce canal est uniquement disponible dans la console cliente.  [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=fr){target="_blank"}
+* **Messagerie LINE**. LINE est une application gratuite de messagerie instantanée, d&#39;appels vocaux et vidéo, disponible sur tous les appareils mobiles et sur PC. Adobe Campaign vous permet d&#39;envoyer des messages LINE uniquement depuis la console cliente.[En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Canaux centre d’appels et personnalisés. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Marketing social avec X (Twitter). [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=fr){target="_blank"}
 
