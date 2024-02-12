@@ -3,9 +3,9 @@ audience: end-user
 title: Matrice des fonctionnalités de l'interface utilisateur Web de Campaign/de la console cliente
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur Web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2151'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,6 @@ Parcourez les [Documentation de Campaign v8 (console cliente)](https://experienc
 
 * Création et exécution de messages en temps réel par e-mail, SMS et notification push
 * Enrichissement et personnalisation des messages
-* Triggers (abandon de panier Adobe Analytics)
 * Reporting et surveillance relatifs aux messages transactionnels
 
 ## Conception de contenu {#content-capabilities}
