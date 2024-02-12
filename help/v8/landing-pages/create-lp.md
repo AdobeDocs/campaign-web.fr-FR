@@ -2,11 +2,10 @@
 title: Créer une page de destination
 description: Découvrir comment configurer et publier une page de destination dans Campaign Web
 feature: Landing Pages
-badge: label="Disponibilité limitée"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 44%
+source-wordcount: '1340'
+ht-degree: 42%
 
 ---
 
@@ -25,11 +24,11 @@ L&#39;interface utilisateur Web de Campaign vous permet de créer, concevoir et 
 
 Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
 
-![](assets/lp-inventory.png)
+![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
 L’inventaire **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer à l’aide du bouton **Afficher les filtres**. Vous pouvez limiter les résultats à un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png)
+![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -70,23 +69,25 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
 
 <!--The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png)-->
+![](assets/lp-creation-process.png){zoomable="yes"}-->
+
+Pour créer une landing page, procédez comme suit :
 
 1. Dans l’inventaire **[!UICONTROL Pages de destination]**, cliquez sur **[!UICONTROL Créer une page de destination]**.
 
-   ![](assets/lp-create-button.png)
+   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Choisissez un modèle :
    * **[!UICONTROL Acquisition]**: il s’agit du modèle par défaut des landing pages, qui vous permet de capturer et de mettre à jour les données de profil.
    * **[!UICONTROL Abonnement]**: utilisez ce modèle pour permettre aux utilisateurs de s’abonner à un [service](../audience/manage-services.md).
    * **[!UICONTROL Désabonnement]**: ce modèle peut être utilisé dans une diffusion envoyée aux abonnés d&#39;un service, afin de leur permettre de se désabonner. [service](../audience/manage-services.md).
-   * **[!UICONTROL Liste bloquée]**: ce modèle doit être utilisé lorsqu’un profil ne souhaite plus être contacté par Campaign.
+   * **[!UICONTROL Liste bloquée]**: ce modèle doit être utilisé lorsqu’un profil clique sur un lien d’exclusion dans une diffusion et ne souhaite plus être contacté.
 
-   ![](assets/lp-templates.png)
+   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Découvrez comment mettre en oeuvre les différents cas d’utilisation correspondant à chaque modèle dans [cette section](lp-use-cases.md).
+   >Découvrez comment mettre en oeuvre les différents cas d’utilisation correspondant à chaque modèle dans [cette page](lp-use-cases.md).
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -94,7 +95,7 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
 
    Par défaut, les pages de destination sont stockées dans le dossier **[!UICONTROL Applications web]**. Vous pouvez le modifier en accédant à l’emplacement de votre choix dans les **[!UICONTROL Options supplémentaires]**. [Découvrir comment utiliser les dossiers](../get-started/permissions.md#folders)
 
-   ![](assets/lp-properties.png)
+   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
 1. Dans la section **[!UICONTROL Préchargement des données]**, les deux options ci-dessous sont sélectionnées par défaut :
 
@@ -102,19 +103,19 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
 
    * L’option **[!UICONTROL Ignorer le pré-chargement si l’identification est vide]** doit être sélectionnée si vous ne souhaitez pas mettre à jour les profils. Dans ce cas, chaque profil saisi sera ajouté à la base de données après validation du formulaire. Cette option est utilisée, par exemple, lorsque le formulaire est publié sur un site web.
 
-1. Dans la section **[!UICONTROL Pages]**, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour chaque page que vous souhaitez concevoir pour cette page de destination. Le contenu de chaque page est déjà prérempli. Modifiez-le si nécessaire. [En savoir plus](lp-content.md)
+1. Une landing page peut comporter des pages suivantes. Pour ajouter des pages, définissez les **[!UICONTROL Pages]** , puis cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour chaque page que vous souhaitez concevoir pour cette landing page. Le contenu de chaque page est déjà prérempli. Modifiez-le si nécessaire. [En savoir plus](lp-content.md)
 
-   ![](assets/lp-pages.png)
+   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
 1. La variable **[!UICONTROL Mise à jour de l’enregistrement préchargé]** est sélectionnée par défaut. Il permet de mettre à jour les profils stockés dans la base via la landing page. La boîte de préchargement permet d&#39;indiquer comment trouver l&#39;enregistrement à mettre à jour dans la base de données.
 
    Vous pouvez également choisir parmi les champs du contexte courant de la landing page, ceux qui seront utilisés pour trouver le profil correspondant dans la base de données. Pour ce faire, désélectionnez l’option **[!UICONTROL Mise à jour de l’enregistrement préchargé]** et cochez les champs de votre choix sous **[!UICONTROL Options de réconciliation]**.
 
-   ![](assets/lp-storage.png)
+   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
 1. Vous pouvez définir une date de début et une date de fin pour votre page de destination. Sélectionner **[!UICONTROL Activation de la planification]** et définissez les dates.
 
-   ![](assets/lp-schedule.png)
+   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
 
    * La landing page est automatiquement publiée à la date/l&#39;heure de début spécifiées.
 
@@ -130,7 +131,7 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
 
 1. Cliquez sur **[!UICONTROL Réviser et publier]**.
 
-Une fois tous les paramètres définis et [conçu](lp-content.md) toutes les pages, vous pouvez [test](#test-landing-page) et [publier](#publish-landing-page) votre landing page.
+Une fois tous les paramètres définis et [conçu](lp-content.md) toutes les pages, vous pouvez [test](#test-landing-page) et [publier](#publish-landing-page) votre landing page comme décrit ci-dessous.
 
 ## Tester la page de destination {#test-landing-page}
 
@@ -150,9 +151,11 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 >
 >Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des BAT. [En savoir plus sur les profils de test](../audience/test-profiles.md)
 
+Pour tester votre landing page, procédez comme suit :
+
 1. Cliquez ensuite sur **[!UICONTROL Révision et publication]**, sélectionnez la variable **[!UICONTROL Simulation du contenu]** dans le tableau de bord de la landing page pour accéder à la sélection du profil de test.
 
-   ![](assets/lp-simulate-content.png)
+   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
 
 1. Dans l’écran **[!UICONTROL Simuler]**, sélectionnez un ou plusieurs profils de test.
 
@@ -160,13 +163,13 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 1. Sélectionnez **[!UICONTROL Ouvrir l’aperçu]** pour tester votre page de destination.
 
-   ![](assets/lp-open-preview.png)
+   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
 
 1. L’aperçu de votre page de destination s’ouvre dans un nouvel onglet. Les éléments personnalisés sont remplacés par les données du profil de test sélectionné.
 
    Si vous avez sélectionné la variable **[!UICONTROL Préremplir avec les données référencées dans le formulaire]** dans les paramètres de la landing page, les champs du formulaire sont automatiquement préremplis avec les données de profil de test correspondantes.<!--TBC-->
 
-   ![](assets/lp-preview.png)
+   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
 
 1. Sélectionnez d’autres profils de test pour prévisualiser le rendu pour chaque variante de votre page de destination.
 
@@ -174,7 +177,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 ## Publier la page de destination {#publish-landing-page}
 
-Une fois votre landing page prête, publiez-la pour la rendre disponible dans une diffusion via le bouton correspondant.
+Une fois votre landing page prête et validée, publiez-la afin de la rendre disponible pour utilisation dans une diffusion via le bouton correspondant.
 
 Une fois publiée :
 
@@ -186,6 +189,6 @@ Une fois publiée :
 >
 >Pour tester ou exploiter pleinement votre landing page, vous ne pouvez pas copier-coller ce lien directement dans un navigateur web ou dans vos diffusions. Utilisez plutôt la variable [Simulation du contenu](#test-landing-page) pour le tester, et suivez les étapes décrites dans la section [cette section](lp-use-cases.md) pour utiliser correctement votre landing page.
 
-![](assets/lp-published.png)
+![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 
 Vous pouvez surveiller les impacts de vos landing pages via les logs<!--and specific reports-->. Cliquez sur le bouton **[!UICONTROL Journaux]** bouton .

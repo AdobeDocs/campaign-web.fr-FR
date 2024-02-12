@@ -3,11 +3,10 @@ audience: end-user
 title: Commencer avec les pages de destination
 description: En savoir plus sur les pages de destination dans Campaign Web
 feature: Landing Pages
-badge: label="Disponibilité limitée"
-source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 25%
+source-wordcount: '275'
+ht-degree: 24%
 
 ---
 
@@ -27,9 +26,9 @@ Les landing pages vous permettent d’orienter vos utilisateurs vers des formula
 
 >[!CAUTION]
 >
->Les landing pages que vous créez dans l&#39;interface utilisateur Web de Campaign sont différentes des formulaires web créés à partir de la console cliente. Vous ne pouvez pas afficher ni modifier les formulaires web dans l&#39;interface utilisateur web de Campaign.
+>Les landing pages que vous créez dans l&#39;interface utilisateur Web de Campaign sont différentes des formulaires web créés à partir de la console cliente. Vous ne pouvez pas afficher ni modifier les formulaires web créés dans la console cliente dans l&#39;interface utilisateur Web de Campaign.
 >
->En savoir plus sur les formulaires web dans [Documentation de la console Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
+>En savoir plus sur les formulaires web dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
 
 Les principales fonctionnalités des landing pages sont répertoriées ci-dessous :
 
