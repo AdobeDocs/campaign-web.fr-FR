@@ -3,9 +3,9 @@ audience: end-user
 title: Matrice des fonctionnalités de l'interface utilisateur Web de Campaign/de la console cliente
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur Web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2156'
 ht-degree: 11%
 
 ---
@@ -37,7 +37,7 @@ Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (conso
 
 ## Canaux de communication {#channels-capabilities}
 
-Grâce à l&#39;interface utilisateur Web de Campaign, vous pouvez créer, concevoir et envoyer des emails, des SMS et des notifications push, et mesurer leur impact à l&#39;aide de différents rapports dédiés, comme indiqué dans la section [dans cette section](../msg/gs-messages.md). Toutefois, les canaux suivants ne sont actuellement pas disponibles.
+Avec l&#39;interface utilisateur Web de Campaign, vous pouvez créer, concevoir et envoyer des **email**, **SMS** et **notifications push**, et mesurer leur impact à l’aide de divers rapports dédiés, comme indiqué dans la section [dans cette section](../msg/gs-messages.md). Toutefois, les canaux suivants sont actuellement **not** disponible : in-app, courrier, LINE, centre d’appels/canal personnalisé, Marketing social avec X (Twitter).
 
 Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (console cliente) et en savoir plus sur ces canaux.
 
@@ -104,7 +104,7 @@ Les règles de typologie peuvent être sélectionnées pour une diffusion, ou un
 
 Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (console cliente) et en savoir plus sur les règles de typologie :
 
-* Création de règles de contrôle. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+* Création de règles de contrôle. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=fr){target="_blank"}
 * Création de règles de fatigue/pression. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}
 * Création de règles de filtrage. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
 * Gestion des règles de typologie. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
