@@ -1,11 +1,10 @@
 ---
 title: Commencer avec les profils
 description: Découvrez comment surveiller et gérer les profils dans Campaign Web.
-badge: label="Disponibilité limitée"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 57%
+ht-degree: 54%
 
 ---
 
@@ -29,11 +28,11 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profils"
->abstract="Un profil est une personne ciblée pour recevoir les messages envoyés par Adobe Campaign. Depuis cette liste, vous pouvez visualiser les détails des profils, en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de vos profils."
+>abstract="Un profil est un enregistrement qui cible les messages envoyés par Adobe Campaign. Depuis cette liste, vous pouvez visualiser les détails des profils, en fonction de vos autorisations. Utilisez les options de filtrage pour parcourir cette liste. Vous pouvez modifier et mettre à jour un petit ensemble d’attributs de vos profils."
 
 ## Qu’est-ce qu’un profil ? {#what}
 
-A **profile**, également appelé &quot;destinataires&quot; dans la console cliente, représente un individu stocké dans la base de données Campaign, servant de composant clé à [créer des audiences](create-audience.md) pour les diffusions et [ajout de la personnalisation](../personalization/personalize.md) des données à votre contenu. Adobe Campaign vous permet de gérer facilement les profils, de la création de nouvelles entrées à l’accès à une vue complète de tous les attributs et abonnements aux services de vos profils, tout cela grâce à l’interface utilisateur Web de Campaign.
+A **profile**, également appelé &quot;destinataires&quot; dans la console cliente, représente un enregistrement stocké dans la base de données Campaign, servant de composant clé à [créer des audiences](create-audience.md) pour les diffusions et [ajout de la personnalisation](../personalization/personalize.md) des données à votre contenu. Adobe Campaign vous permet de gérer facilement les profils, de la création de nouvelles entrées à l’accès à une vue complète de tous les attributs et abonnements aux services de vos profils, tout cela grâce à l’interface utilisateur Web de Campaign.
 
 De plus, **[!UICONTROL profils de test]**, identifié comme &quot;profils de contrôle&quot; dans la console cliente, permet de cibler des destinataires supplémentaires qui ne correspondent pas aux critères de ciblage d&#39;une diffusion donnée. Ces profils contiennent des informations de contact fictives ou des informations de contact contrôlées par l’expéditeur. Ils peuvent être ajoutés à l’audience d’un message pour détecter une utilisation frauduleuse de votre base de données de destinataires ou pour s’assurer que les emails arrivent dans les boîtes de réception. [Découvrir comment utiliser des profils test](test-profiles.md)
 
@@ -49,7 +48,7 @@ Les profils sont accessibles et modifiables dans Adobe Campaign Web à partir de
 
 Vous pouvez filtrer la liste **[!UICONTROL Profils]** à l’aide du champ de recherche ou des filtres disponibles en cliquant sur le bouton **Afficher les filtres**. Vous pouvez limiter les résultats à un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
-![](assets/profiles-list-filters.png)
+![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
 
 Pour accéder aux détails d’un profil, cliquez sur son nom dans la liste. Une vue détaillée du profil s’ouvre, vous permettant d’explorer ses attributs et les services auxquels il s’est abonné. [Découvrir comment explorer les détails des profils](create-profile.md)
 

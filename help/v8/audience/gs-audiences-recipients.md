@@ -2,17 +2,16 @@
 title: Prise en main des profils et des audiences
 description: Découvrez comment utiliser les profils et les audiences dans Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-badge: label="Disponibilité limitée"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 85%
 
 ---
 
 # Prise en main des profils et des audiences {#about-profiles}
 
-Dans Adobe Campaign Web, un **profil** désigne une personne stockée dans la base de données. Il sert de composant clé pour créer des audiences pour les diffusions et ajouter des données de personnalisation à votre contenu. Différents types de profils sont stockés dans la base de données, tels que les **Profils de test**, conçus pour tester vos diffusions avant leur envoi à l’audience finale.
+Dans Adobe Campaign Web, une **profile** est un enregistrement stocké dans la base de données, qui sert de composant clé pour créer des audiences pour les diffusions et ajouter des données de personnalisation à votre contenu. Différents types de profils sont stockés dans la base de données, tels que les **Profils de test**, conçus pour tester vos diffusions avant leur envoi à l’audience finale.
 
 Les **audiences** désignent un ensemble de profils qui partagent des comportements et/ou des caractéristiques similaires. Cette collection de personnes peut être générée, sélectionnée ou chargée.  Une fois créées, les audiences peuvent être exploitées comme la population cible de vos diffusions.
 
