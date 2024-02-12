@@ -3,10 +3,10 @@ title: Utiliser l’aide contextuelle optimisée par l’IA dans Campaign Web
 description: Poser des questions dans les fenêtres contextuelles d’aide de Campaign Web
 badge: label="Version bêta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '532'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ L’**aide contextuelle avec l’IA générative** incorporée dans l’aide con
 
 Grâce aux fonctionnalités de l’IA générative de Campaign, ce composant transforme votre expérience, en facilitant la récupération d’informations et la résolution de problèmes. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous parcouriez des documents volumineux, l’aide contextuelle optimisée par l’IA est votre meilleur compagnon, offrant une efficacité et une précision inégalées à chaque interaction.
 
-<img src="assets/AI_CH.gif" width="80%"/>
+<img src="assets/do-not-localize/CH+AI-BETA.gif" width="80%"/>
 
 
 >[!AVAILABILITY]
@@ -44,19 +44,25 @@ The knowledge assistant AI capability does not use your data to train our models
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 -->
 
+## Questions suggérées {#questions-ai}
+
+Dans le champ de saisie, l’aide contextuelle optimisée par Adobe Campaign AI apporte trois questions suggérées. Ces questions sont générées par l’IA et concernent la boîte d’aide et le contexte du produit actuel. Sélectionnez une question pour obtenir la réponse.
+
 ## Réponses {#answers-ai}
 
 L’aide contextuelle optimisée par l’IA d’Adobe Campaign vous apporte une assistance, mais vous devez vérifier les faits. Il peut produire des informations incorrectes ou des réponses inexactes ou trompeuses. Vérifiez la documentation du produit fournie sous forme de lien dans chaque zone d’aide.
 
-L’intelligence artificielle et les modèles de machine learning s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L’aide contextuelle optimisée par l’IA de Campaign continuera de s’améliorer au cours des prochains mois. Nous vous recommandons vivement d’utiliser les boutons <img src="assets/do-not-localize/thumb.png" width="10%"/> chaque fois que vous lisez une réponse, pour signaler toute réponse inappropriée à notre équipe d’ingénierie.
+Vous pouvez copier une réponse dans le Presse-papiers à l’aide de la variable **Copier** au bas de la fenêtre contextuelle d’aide.
 
+## Retours {#feedback-ai}
+
+L’intelligence artificielle et les modèles de machine learning s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L’aide contextuelle optimisée par l’IA de Campaign continuera de s’améliorer au cours des prochains mois. Nous vous recommandons vivement d’utiliser les boutons <img src="assets/do-not-localize/thumb.png" width="10%"/> chaque fois que vous lisez une réponse, pour signaler toute réponse inappropriée à notre équipe d’ingénierie.
 
 ## Recommandations  {#recommendations-ai}
 
 Lorsque vous posez une question dans l’aide contextuelle optimisée par l’IA, le contexte du produit actuel, c’est-à-dire l’écran dans lequel vous vous trouvez, et le contenu de la boîte de dialogue d’aide actuelle sont pris en compte.
 
 Par conséquent, il est recommandé de poser des questions relatives au contexte de l’interface utilisateur. Par exemple, si vous voulez apprendre à envoyer une diffusion des notifications push dans un workflow, accédez à l’entrée **Workflow** dans le menu de gauche et utilisez une zone d’aide contextuelle dans ce contexte spécifique. Pour en savoir plus sur les mesures de création de rapports, accédez aux rapports de campagne ou de diffusion, puis commencez par là.
-
 
 En outre, pour tirer le meilleur parti de l’aide contextuelle optimisé par l’IA, nous vous conseillons ce qui suit :
 

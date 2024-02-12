@@ -3,15 +3,14 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Disponibilité limitée"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 99%
 
 ---
 
-# Documentation d’Adobe Campaign Web {#campaign-documentation}
+# Documentation de l’interface utilisateur web d’Adobe Campaign {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -84,9 +83,6 @@ ht-degree: 100%
 <!--TO REMOVE ABOVE-->
 
 Nous avons le plaisir de présenter la nouvelle version de l’interface utilisateur web d’Adobe Campaign. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
-
->[!AVAILABILITY]
-> Adobe Campaign Web est actuellement en version Disponibilité limitée. Cela signifie que l’accès est limité à un petit groupe de clientes et clients. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
 ## Nouveautés
 
