@@ -2,12 +2,11 @@
 audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
-badge: label="Disponibilité limitée"
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 4de9a8afea6a07971ebd23982a1a1ab98bc70045
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 82%
 
 ---
 
@@ -33,7 +32,9 @@ ht-degree: 100%
 >title="Concepteur de requête"
 >abstract="Définissez des critères de filtrage pour les personnes destinataires ou toute autre dimension de ciblage issue de la base de données. Tirez parti de votre audience Adobe Experience Platform pour affiner davantage votre audience cible et maximiser l’impact de votre campagne."
 
-Adobe Campaign Web comporte un concepteur de requête qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés.
+L’interface utilisateur web d’Adobe Campaign comporte un modèle de requête qui simplifie le processus de filtrage de la base de données selon différents critères. Il assure une compatibilité totale avec les requêtes créées dans la console cliente, ce qui facilite une transition transparente vers l’interface utilisateur web.
+
+De plus, le modeleur de requêtes peut gérer efficacement des requêtes très complexes et longues, offrant une flexibilité et une précision optimisées. En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qui vous permet d’affiner facilement vos requêtes tout en utilisant des expressions et des opérateurs avancés pour un ciblage d’audience et des stratégies de segmentation complètes.
 
 ## Accéder au concepteur de requête
 
@@ -41,17 +42,17 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 
 | Usage | Exemple |
 |  ---  |  ---  |
-| **Définir les audiences** : indiquez la population à cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins. | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **Personnaliser les activités de workflow** : appliquez des règles aux activités de workflow, telles que Partage et Réconciliation, afin de respecter vos besoins spécifiques. | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
-| **Filtres prédéfinis** : créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion. | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
-| **Filtrer les données de rapports** : ajoutez une règle pour filtrer les données affichées dans les rapports. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
-| **Personnaliser les listes** : créez des règles personnalisées pour filtrer les données affichées dans les listes, telles que les personnes destinataires, les listes de diffusions, etc. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **Définir les audiences** : indiquez la population à cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins. | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Personnaliser les activités de workflow** : appliquez des règles aux activités de workflow, telles que Partage et Réconciliation, afin de respecter vos besoins spécifiques. | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Filtres prédéfinis** : créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion. | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Filtrer les données de rapports** : ajoutez une règle pour filtrer les données affichées dans les rapports. | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Personnaliser les listes** : créez des règles personnalisées pour filtrer les données affichées dans les listes, telles que les personnes destinataires, les listes de diffusions, etc. | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
 
-![](assets/access-audience.png)
+![](assets/access-audience.png){zoomable="yes"}
 
  +++
 -->
@@ -60,7 +61,7 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 
 Le concepteur de requête fournit une zone de travail centrale où vous pouvez créer votre requête, et un volet droit fournissant des informations sur votre requête.
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){zoomable=&quot;yes&quot;}
 
 ### La zone de travail centrale {#canvas}
 
