@@ -3,7 +3,7 @@ title: Utiliser l’aide contextuelle optimisée par l’IA dans Campaign Web
 description: Poser des questions dans les fenêtres contextuelles d’aide de Campaign Web
 badge: label="Version bêta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 82%
@@ -23,11 +23,11 @@ Grâce aux fonctionnalités de l’IA générative de Campaign, ce composant tra
 
 >[!AVAILABILITY]
 >
->L’aide contextuelle optimisée par l’IA est disponible dans sa version bêta et peut être modifiée sans préavis.
+>* L’aide contextuelle optimisée par l’IA est disponible dans sa version bêta et peut être modifiée sans préavis.
 >
->Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version. En conséquence, assurez-vous que [votre langue préférée](connect-to-campaign.md#language-pref) est définie sur Anglais avant d’utiliser cette fonctionnalité.
+>* Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version. En conséquence, assurez-vous que [votre langue préférée](connect-to-campaign.md#language-pref) est définie sur Anglais avant d’utiliser cette fonctionnalité.
 >
->L’aide contextuelle optimisée par l’IA n’est pas disponible pour l’instant dans le Concepteur d’email de Campaign.
+>* L’aide contextuelle optimisée par l’IA n’est pas disponible pour l’instant dans le Concepteur d’email de Campaign.
 
 
 <!--
