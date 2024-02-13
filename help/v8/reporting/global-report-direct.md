@@ -2,11 +2,10 @@
 audience: end-user
 title: Rapports globaux pour le canal courrier
 description: En savoir plus sur les rapports globaux pour le canal courrier
-badge: label="Disponibilité limitée"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +21,7 @@ Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporti
 
 La **[!UICONTROL Vue d’ensemble de la diffusion]** présente des indicateurs clés de performance (KPI) qui donnent des informations détaillées sur l’interaction de vos visiteurs et visiteuses avec chaque diffusion d’e-mail. Les mesures sont décrites ci-dessous.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
@@ -39,7 +38,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** présente des indicateurs c
 
 Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des données relatives à vos destinataires, avec les mesures détaillées fournies ci-dessous.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures d’audience ciblée.
 
@@ -55,7 +54,7 @@ Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des d
 
 Le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition du succès de chaque diffusion courrier, avec les mesures détaillées décrites ci-dessous.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures des statistiques de diffusion.
 
@@ -71,7 +70,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition d
 
 ### Causes d’exclusion {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils utilisateur et utilisatrice exclus des profils ciblés de recevoir le message.
 

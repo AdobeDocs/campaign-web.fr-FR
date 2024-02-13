@@ -3,10 +3,9 @@ audience: end-user
 title: Personnaliser l’arrière-plan des e-mails
 description: Découvrez comment personnaliser l’arrière-plan des e-mails.
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Disponibilité limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 100%
 >title="Paramètres d’arrière-plan"
 >abstract="Vous pouvez personnaliser la couleur d’arrière-plan ou l’image d’arrière-plan de votre contenu. Notez que l’image d’arrière-plan n’est pas prise en charge par tous les clients de messagerie."
 
-Lorsqu&#39;il s&#39;agit de définir des fonds dans le concepteur d’e-mail, Adobe a les recommandations suivantes :
+Lorsqu’il s’agit de définir des arrière-plans dans le concepteur d’e-mail, Adobe a les recommandations suivantes :
 
 1. Appliquez une couleur de fond au corps de votre email si votre design le requiert.
 1. En règle générale, définissez les couleurs d’arrière-plan au niveau des colonnes.
@@ -26,25 +25,25 @@ Lorsqu&#39;il s&#39;agit de définir des fonds dans le concepteur d’e-mail, Ad
 
 Vous trouverez ci-dessous les paramètres de fond disponibles.
 
-* Définissez une **[!UICONTROL Couleur de fond]** pour l&#39;ensemble de l&#39;email. N’oubliez pas de sélectionner les paramètres du corps dans l’arborescence de navigation accessible à partir du volet de gauche.
+* Définissez une **[!UICONTROL Couleur d’arrière-plan]** pour l’ensemble de l’e-mail. N’oubliez pas de sélectionner les paramètres du corps dans l’arborescence de navigation accessible à partir du volet de gauche.
 
-  ![](assets/background_1.png)
+  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
 
-* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un paramètre différent de la couleur de fond.
+* Définissez la même couleur d’arrière-plan pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur d’arrière-plan de la fenêtre]**. Cette option vous permet de sélectionner un paramètre différent de la couleur de fond.
 
-  ![](assets/background_2.png)
+  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
 
 * Définissez une couleur de fond différente pour chaque composant de structure. Sélectionnez une structure dans l’arborescence de navigation du volet de gauche afin d’appliquer une couleur d’arrière-plan spécifique uniquement sur cette structure.
 
-  ![](assets/background_3.png)
+  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
   >Veillez à ne pas définir de couleur de fond de la fenêtre, car celle-ci peut masquer les couleurs de fond de la structure.
 
-* Définissez une **[!UICONTROL Image de fond]** pour le contenu d&#39;un composant de structure.
+* Définissez une **[!UICONTROL Image d’arrière-plan]** pour le contenu d’un composant de structure.
 
-  ![](assets/background_4.png)
+  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -52,7 +51,7 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
 * Définissez une couleur de fond au niveau des colonnes.
 
-  ![](assets/background_5.png)
+  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >

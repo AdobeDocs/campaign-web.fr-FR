@@ -1,15 +1,14 @@
 ---
 title: Créer du contenu conditionnel
-description: Découvrez comment définir des conditions pour personnaliser votre contenu dans Adobe Campaign Web
+description: Découvrir comment personnaliser votre contenu dans Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Disponibilité limitée"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 9f5d3d8ea7441641e037545d5bf22dda09a1f881
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '994'
 ht-degree: 84%
 
 ---
@@ -41,7 +40,7 @@ Pour définir du contenu conditionnel pour une diffusion à l’aide de l’édi
 
 1. Cliquez sur l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** en regard du champ pour ouvrir l’éditeur d’expression.
 
-   ![](assets/open-perso-editor-sms.png)
+   ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
 1. Dans l’éditeur de personnalisation, accédez au menu **[!UICONTROL Fonctions d’assistance]** sur la gauche.
 
@@ -51,7 +50,7 @@ Pour définir du contenu conditionnel pour une diffusion à l’aide de l’édi
    * Remplacez `<VALUE>` par la valeur à satisfaire. Par exemple, `'French'`.
    * Remplacez `Ìnsert content here` par le contenu à afficher pour les profils qui respectent la condition spécifiée.
 
-     ![](assets/condition-sample1.png){width="800" align="center"}
+     ![](assets/condition-sample1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Indiquez le contenu à afficher si les personnes destinataires ne remplissent pas la condition. Pour ce faire, utilisez une fonction d’assistance **Else** :
 
@@ -59,11 +58,11 @@ Pour définir du contenu conditionnel pour une diffusion à l’aide de l’édi
 
    1. Remplacez `Ìnsert content here` par le contenu à afficher pour les profils qui ne respectent pas la condition de la fonction If.
 
-   ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    Vous pouvez également utiliser la fonction d’assistance **Else if** pour créer des conditions avec plusieurs variantes de contenu. Par exemple, l’expression ci-dessous affiche trois variantes d’un message selon la langue de la personne destinataire :
 
-   ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    >[!NOTE]
    >
@@ -93,29 +92,29 @@ Dans cet exemple, nous allons créer un e-mail avec plusieurs variantes basées 
 
 1. Sélectionnez un composant de contenu et cliquez sur l’icône **[!UICONTROL Activer le contenu conditionnel]**.
 
-   ![](assets/condition-email-enable.png){width="800" align="center"}
+   ![](assets/condition-email-enable.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Le volet **[!UICONTROL Contenu conditionnel]** s’affiche sur la partie gauche de l’écran. Dans ce volet, vous pouvez créer plusieurs variantes du composant de contenu sélectionné en indiquant des conditions.
 
 1. Configurez votre première variante. Survol **[!UICONTROL Variante - 1]** dans le **[!UICONTROL Contenu conditionnel]** et cliquez sur le bouton **[!UICONTROL Ajouter une condition]** bouton .
 
-   ![](assets/condition-add-condition.png){width="800" align="center"}
+   ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Un créateur de règles s’affiche. Il fournit **Profil**, **Message**, et **Diffusion** attributs que vous pouvez utiliser pour créer votre condition.
 
    En outre, la variable **Conditions** fournit des conditions prédéfinies que vous pouvez ajouter à la zone de travail pour créer facilement votre variante. Pour les utiliser, cliquez sur le bouton **Ajouter** puis remplacer les éléments entre `<` et `>`symboles des éléments souhaités. Assurez-vous que la valeur que vous spécifiez pour la variable `<value>` est entre guillemets.
 
-   ![](assets/condition-syntax.png){width="800" align="center"}
+   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Une fois la condition de la première variante du message prête, cliquez sur **[!UICONTROL Confirmer]**. Dans l’exemple suivant, nous allons créer une règle ciblant les destinataires dont la langue est le « français ».
 
-   ![](assets/condition-example.png){width="800" align="center"}
+   ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. La règle est désormais associée à la variante. Pour une meilleure lisibilité, il est recommandé de renommer la variante en cliquant sur le menu représentant des points de suspension.
 
 1. Configurez l’affichage du composant si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous souhaitons afficher le texte en français s’il s’agit de la langue préférée du ou de la destinataire.
 
-   ![](assets/condition-email-variant1.png){width="800" align="center"}
+   ![](assets/condition-email-variant1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Ajoutez autant de variantes que nécessaire pour le composant de contenu. Vous pouvez basculer entre les variantes à tout moment pour examiner l’affichage du composant de contenu en fonction des différentes règles conditionnelles.
 

@@ -2,11 +2,10 @@
 audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
-badge: label="Disponibilité limitée"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '277'
 ht-degree: 100%
 
 ---
@@ -39,27 +38,27 @@ Pour accéder à vos rapports de campagne et les gérer, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Campagnes]**. Cliquez sur le bouton **Rapports** dans le tableau de bord de votre campagne.
 
-   ![](assets/manage_campaign_report_2.png)
+   ![](assets/manage_campaign_report_2.png){zoomable=&quot;yes&quot;}
 
    Vous pouvez également utiliser les trois points **Plus d’actions** en regard du nom de la campagne dans la liste des campagnes et sélectionner **[!UICONTROL Afficher le rapport]**.
 
-   ![](assets/manage_campaign_report_1.png)
+   ![](assets/manage_campaign_report_1.png){zoomable=&quot;yes&quot;}
 
 1. Dans le menu de gauche, sélectionnez un rapport dans la liste et naviguez dans l’onglet pour afficher les données de chaque canal.
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. Dans votre tableau de bord, cliquez sur **[!UICONTROL Sélectionner des diffusions]** si vous souhaitez cibler une diffusion spécifique incluse dans votre campagne.
 
 1. Dans le menu **[!UICONTROL Débit de diffusion]**, choisissez une **Heure de début** et une **[!UICONTROL Heure de fin]** pour cibler des données spécifiques.
 
-   ![](assets/manage_campaign_report_3.png)
+   ![](assets/manage_campaign_report_3.png){zoomable=&quot;yes&quot;}
 
 1. Dans le champ **[!UICONTROL Sélectionner un dossier]**, choisissez si vous souhaitez cibler des diffusions ou une campagne d’un dossier spécifique.
 
    Vous pouvez également sélectionner **[!UICONTROL Ajouter des règles]** pour commencer à créer des requêtes afin de mieux filtrer les données de rapport. [Découvrez comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. Dans **[!UICONTROL URL et flux de clics]**, vous pouvez également choisir **[!UICONTROL Liens les plus visités]** ou **[!UICONTROL Période]**.
 

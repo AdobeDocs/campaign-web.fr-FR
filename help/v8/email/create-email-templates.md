@@ -7,12 +7,11 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Disponibilité limitée"
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 49%
+source-wordcount: '964'
+ht-degree: 50%
 
 ---
 
@@ -40,11 +39,11 @@ Cette fonctionnalité permet aux personnes orientées contenu d’utiliser des m
 
 Pour accéder à la liste des modèles de contenu, accédez au **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]** dans le rail de gauche.
 
-![](assets/content-template-list.png)
+![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
 
 Ce tableau de bord affiche tous les modèles de contenu disponibles sous la forme d’une liste. Vous pouvez filtrer sur un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
-![](assets/content-template-list-filters.png)
+![](assets/content-template-list-filters.png){zoomable=&quot;yes&quot;}
 
 Dans la liste, vous pouvez modifier, dupliquer ou supprimer des modèles de contenu existants. Utilisez le bouton situé dans la section supérieure pour créer un modèle de contenu.
 
@@ -84,11 +83,11 @@ Pour créer un modèle de contenu à partir du tableau de bord des modèles de c
 
 1. Sélectionnez **[!UICONTROL Créer un modèle]**.
 
-   ![](assets/content-template-create.png)
+   ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
 
 1. Saisissez le libellé et les propriétés du modèle. Vous pouvez sélectionner le dossier dans lequel vous souhaitez stocker votre modèle. Par défaut, les modèles de contenu sont stockés dans un dossier dédié de la hiérarchie Adobe Campaign : **[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**. En savoir plus sur les dossiers dans [cette page](../get-started/permissions.md#folders)
 
-   ![](assets/content-template-details.png)
+   ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
 
 1. Cliquez sur **[!UICONTROL Créer]** et choisissez votre méthode de conception de modèle parmi les différentes options suivantes :
 
@@ -100,7 +99,7 @@ Pour créer un modèle de contenu à partir du tableau de bord des modèles de c
 
    * Utilisez du contenu existant à partir d’une liste de modèles intégrés ou personnalisés. Les étapes d’utilisation d’un modèle de contenu dans un e-mail sont décrites dans [cette section](use-email-templates.md).
 
-   ![](assets/email_designer-templates.png)
+   ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 1. Le Concepteur d’email s’affiche. Modifiez votre contenu selon vos besoins, comme vous le feriez pour n&#39;importe quel email, selon l&#39;option que vous avez sélectionnée. Découvrez comment utiliser le Concepteur d’email dans [cette section](get-started-email-designer.md).
 
@@ -110,7 +109,7 @@ Pour créer un modèle de contenu à partir du tableau de bord des modèles de c
 
    Si nécessaire, cliquez sur la flèche en regard du nom du modèle pour revenir à l’écran **[!UICONTROL Détails]** et modifiez votre modèle.
 
-   ![](assets/content-template-save-back.png)
+   ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
 
 Le modèle est disponible dans la variable **[!UICONTROL Modèles de contenu]** liste. [En savoir plus](#access-templates)
 
@@ -126,17 +125,17 @@ Pour enregistrer un contenu d’e-mail en tant que modèle, procédez comme suit
 
 1. Sélectionnez **[!UICONTROL Enregistrer comme modèle de contenu]** dans le menu déroulant.
 
-   ![](assets/email_designer-save-template.png)
+   ![](assets/email_designer-save-template.png){zoomable=&quot;yes&quot;}
 
 1. Saisissez le nom du modèle et enregistrez-le.
 
-   ![](assets/email_designer-template-name.png)
+   ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
 
 Le modèle est enregistré et affiché dans le **[!UICONTROL Modèles de contenu]** liste. Il devient alors un modèle de contenu autonome, pouvant être consulté, modifié et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates)
 
 Vous pouvez désormais utiliser ce modèle pour créer un nouveau contenu : il est disponible sous l’onglet **[!UICONTROL Modèles enregistrés]** du Concepteur d’e-mail. [Voici comment procéder](use-email-templates.md).
 
-![](assets/email_designer-saved-template.png)
+![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
 
 
 >[!NOTE]
@@ -168,7 +167,7 @@ Pour mettre à jour un modèle de contenu existant, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour mettre à jour votre contenu avec le [Concepteur d’e-mail](get-started-email-designer.md).
 
-![](assets/content-template-edition.png)
+![](assets/content-template-edition.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

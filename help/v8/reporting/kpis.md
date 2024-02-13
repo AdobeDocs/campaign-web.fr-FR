@@ -1,9 +1,8 @@
 ---
 title: Indicateurs clés de performance
 description: Découvrez comment comprendre les indicateurs clés de performance
-badge: label="Disponibilité limitée"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 100%
@@ -28,7 +27,7 @@ Par défaut, les mesures sont calculées pour les diffusions au cours des 7 der
 
 Vous pouvez sélectionner le canal à afficher. Par défaut, ces indicateurs reflètent les mesures pour le canal e-mail.
 
-![](assets/kpi.png)
+![](assets/kpi.png){zoomable=&quot;yes&quot;}
 
 ## Message délivré {#ui-delivered-kpi}
 
@@ -92,7 +91,7 @@ Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="Abonnements"
->abstract="Cette mesure indique, pour le canal sélectionné, le nombre de tous les abonnements à un service, ainsi que le pourcentage d’abonnements par rapport au nombre total de messages diffusés."
+>abstract="Cette mesure indique, pour le canal sélectionné, le nombre total d’abonnements à un service, ainsi que le pourcentage d’abonnements par rapport au nombre total de messages diffusés."
 
 
 Les personnes destinataires peuvent souscrire aux communications par e-mail et par SMS.

@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -35,13 +35,13 @@ Pour générer et améliorer le contenu d’un e-mail à l’aide de l’assista
 
 1. Sélectionnez le **[!UICONTROL Composant de texte]** à mettre à jour et accédez au menu Génération d’expérience.
 
-   ![](assets/text-genai-1.png)
+   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer.
 
    Activez l’option **[!UICONTROL Améliorer avec le contexte actuel]** de l’assistant de contenu afin de personnaliser le nouveau contenu en fonction de votre diffusion, de son nom et de l’audience sélectionnée.
 
-   ![](assets/text-genai-3.png)
+   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Sélectionnez **[!UICONTROL Charger le fichier]** pour ajouter toute ressource de marque ayant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
@@ -51,7 +51,7 @@ Pour générer et améliorer le contenu d’un e-mail à l’aide de l’assista
 
 1. Choisissez la **[!UICONTROL Langue]** et le **[!UICONTROL Ton]** à donner au texte. Vous vous assurez ainsi que le texte est adapté à votre audience et à votre objectif.
 
-   ![](assets/text-genai-4.png)
+   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Utilisez le curseur pour définir la longueur du texte généré.
 
@@ -59,14 +59,14 @@ Pour générer et améliorer le contenu d’un e-mail à l’aide de l’assista
 
 1. Parcourez les **[!UICONTROL Variations]** générées et cliquez sur **[!UICONTROL Appliquer]** une fois que vous avez trouvé le contenu approprié.
 
-   ![](assets/text-genai-5.png)
+   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
-   ![](assets/text-genai-6.png)
+   ![](assets/text-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../preview-test/preview-content.md)
 
-   ![](assets/text-genai-7.png)
+   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)

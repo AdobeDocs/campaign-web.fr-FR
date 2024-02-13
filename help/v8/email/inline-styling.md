@@ -3,10 +3,9 @@ audience: end-user
 title: Ajouter des attributs de style intégrés
 description: Découvrez comment ajouter des attributs de style intégrés.
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="Disponibilité limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 100%
 
 ---
@@ -20,13 +19,13 @@ Dans l’interface du concepteur d’e-mail, lorsque vous sélectionnez un élé
 
 1. Dans l’onglet **[!UICONTROL Styles]**, cliquez sur le menu déroulant **[!UICONTROL Avancé]**.
 
-   ![](assets/styles_1.png)
+   ![](assets/styles_1.png){zoomable=&quot;yes&quot;}
 
 1. Modifiez les valeurs des attributs existants.
 
 1. Vous pouvez ajouter de nouvelles propriétés à l’aide du bouton **+**. Vous pouvez ajouter tout attribut et toute valeur compatible CSS.
 
-   ![](assets/styles_2.png)
+   ![](assets/styles_2.png){zoomable=&quot;yes&quot;}
 
 Le style est ensuite appliqué à l’élément sélectionné.
 

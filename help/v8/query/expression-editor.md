@@ -2,12 +2,11 @@
 audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
-badge: label="Disponibilité limitée"
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 100%
+source-wordcount: '2014'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +24,7 @@ L’éditeur d’expression est disponible à partir du bouton **[!UICONTROL Mod
 
 | Accéder depuis le champ **Attribut** | Accéder depuis le champ **Valeur** |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 L’éditeur d’expression fournit :
 
@@ -35,13 +34,13 @@ L’éditeur d’expression fournit :
 
 Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton +.
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
 
 Lorsque votre expression est prête, cliquez sur le bouton **[!UICONTROL Confirmer]**. L’expression s’affiche dans le champ sélectionné. Pour la modifier, ouvrez l’éditeur d’expression et apportez les modifications souhaitées.
 
 L’exemple ci-dessous présente une expression configurée pour le champ **[!UICONTROL Valeur]**. Pour la modifier, vous devez ouvrir l’éditeur d’expression à l’aide du bouton **[!UICONTROL Modifier une expression]**.
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
 
 ## Fonctions d’assistance
 

@@ -1,18 +1,17 @@
 ---
 title: Se connecter à l’interface web d’Adobe Campaign
-description: Découvrez comment vous connecter à l’interface utilisateur Web d’Adobe Campaign
-badge: label="Disponibilité limitée"
+description: Découvrir comment vous connecter à l’interface utilisateur d’Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 87%
+source-wordcount: '581'
+ht-degree: 96%
 
 ---
 
 # Se connecter à Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services. Découvrez comment vous connecter à Adobe Experience Cloud et accéder à l’interface web d’Adobe Campaign dans cette page.
+Experience Cloud est la famille intégrée d’applications, de produits et de services de marketing numérique d’Adobe. Grâce à son interface intuitive, vous pouvez accéder rapidement à vos applications cloud, fonctionnalités de produit et services. Découvrez comment vous connecter à Adobe Experience Cloud et accéder à l’interface d’Adobe Campaign Web dans cette page.
 
 ## Se connecter à Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -26,11 +25,11 @@ Pour vous connecter à Adobe Experience Cloud, les étapes de base sont les su
 
    Une fois la connexion à Experience Cloud effectuée, vous pouvez accéder rapidement à toutes vos solutions et applications.
 
-   ![](assets/exc-home.png)
+   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
 
 1. Vérifiez que vous vous trouvez dans la bonne organisation.
 
-   ![](assets/exc-orgs.png){width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
    Apprenez-en plus sur les organisations dans Adobe Experience Cloud dans [cet article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){target="_blank"}.
 
@@ -41,11 +40,11 @@ Pour accéder à votre environnement Campaign, sélectionnez **Campaign** dans l
 
 Si vous disposez déjà d’une connexion à une autre solution Adobe Experience Cloud, vous pouvez également accéder à votre environnement Campaign à partir du sélecteur de solution situé en haut à droite de votre écran.
 
-![](assets/solution-switcher.png)
+![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
 
 Si vous avez accès à plusieurs environnements, y compris le panneau de contrôle Campaign, cliquez sur le bouton **Démarrer** de l’instance appropriée.
 
-![](assets/launch-campaign.png)
+![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
 
 Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à utiliser l’interface utilisateur sur [cette page](user-interface.md).
 
@@ -60,15 +59,15 @@ La barre supérieure de l’interface vous permet d’effectuer les actions suiv
 * vérifier vos notifications de produit ;
 * modifier votre profil Adobe et gérer les paramètres, par exemple [mettre à jour votre langue préférée](#language-pref) ou [passer au thème clair/sombre](#dark-theme).
 
-![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
 ## Navigateurs pris en charge {#browsers}
 
-Adobe Campaign Web est conçu pour fonctionner de manière optimale dans la dernière version de Google Chrome, Safari et Microsoft Edge. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou d’autres navigateurs.
+Adobe Campaign Web est conçu pour fonctionner de manière optimale dans la dernière version de Google Chrome, Safari et Microsoft Edge. Vous pouvez rencontrer des problèmes lors de l’utilisation de certaines fonctionnalités sur des versions plus anciennes ou d’autres navigateurs.
 
 ## Préférences de langue {#language-pref}
 
-Adobe Campaign Web est actuellement disponible dans les langues suivantes :
+Adobe Campaign Web est actuellement disponible dans les langues suivantes :
 
 * Anglais (États-Unis) - EN-US
 * Français - FR

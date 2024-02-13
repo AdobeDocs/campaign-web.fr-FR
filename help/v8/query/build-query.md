@@ -2,12 +2,11 @@
 audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
-badge: label="Disponibilité limitée"
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 100%
+source-wordcount: '1960'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ Vous pouvez ajouter deux types d’éléments :
 
   *Personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**qui vivent à New York **OU**à San Francisco*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
 ## Ajouter des composants de filtrage {#filtering}
 
@@ -48,7 +47,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
 1. Dans le champ **Attribut**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données Campaign, y compris les attributs de vos tables liées.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -83,7 +82,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
 #### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
@@ -99,15 +98,15 @@ Ici, la requête cible les marques dont le libellé est « running ».
 
 1. Naviguez dans la table **Marque** et sélectionnez l’attribut **Libellé**.
 
-   ![](assets/1-1-attribute.png){width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Définissez la valeur attendue de l’attribut.
 
-   ![](assets/1-1-table.png){width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 Voici un exemple de requête dans laquelle un lien de table a été directement sélectionné. Les valeurs disponibles pour cette table doivent être sélectionnées avec un sélecteur dédié.
 
-![](assets/1-1-table-direct.png){width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -119,19 +118,19 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
 1. Sélectionnez le tableau **Achats** et confirmez.
 
-   ![](assets/1-N-collection.png){width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
 
 1. Une transition sortante est ajoutée, vous permettant ainsi de créer des sous-conditions.
 
-   ![](assets/1-n-subcondition.png){width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Sélectionnez l’attribut **Prix** et ciblez les achats de 1 000 $ ou plus.
 
-   ![](assets/1-n-price.png){width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Ajoutez des sous-conditions adaptées à vos besoins. Ici, nous avons ajouté une condition pour cibler les profils ayant acheté un produit BrewMaster.
 
-   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -141,11 +140,11 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 
 1. Naviguez dans le tableau de collection souhaité et sélectionnez l’attribut sur lequel vous souhaitez effectuer une opération d’agrégat.
 
-   ![](assets/aggregate-attribute.png){width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Dans le volet des propriétés, activez l’option **Données agrégées** et sélectionnez la fonction d’agrégat souhaitée.
 
-   ![](assets/aggregate.png){width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 ### Sélectionner une audience {#audiences}
 
@@ -162,7 +161,7 @@ Pour filtrer votre requête à l’aide d’une audience existante, procédez co
 
    *Exemple de requête renvoyant tous les profils appartenant à l’audience « Festivaliers » :*
 
-   ![](assets/query-audience.png)
+   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
 
 ### Utiliser un filtre prédéfini {#predefined-filters}
 
@@ -179,7 +178,7 @@ Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez com
 
    *Exemple de requête renvoyant tous les profils correspondant au filtre prédéfini « Clients inactifs » :*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
 
 ### Copier-coller des composants {#copy}
 
@@ -197,11 +196,11 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
 
    | Copier un seul composant | Copier plusieurs composants |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 1. Pour coller le ou les composants, cliquez sur le bouton + situé à la fin de la transition souhaitée et sélectionnez **Coller n éléments**.
 
-   ![](assets/copy-paste.png)
+   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
 
 ## Combiner des composants de filtrage avec des opérateurs {#operators}
 
@@ -214,7 +213,7 @@ Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête,
 
 Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de type de filtre prédéfinie avec un opérateur **ET**, ce qui signifie que les résultats de la requête incluent les destinataires ciblés par le filtre prédéfini « Madrilènes » ET appartenant à l’audience « Chasseurs de remises ».
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 
 Pour changer l’opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez-en un autre dans le volet **Groupe** qui s’ouvre sur la droite.
 
@@ -224,13 +223,13 @@ Les opérateurs disponibles sont les suivants :
 * **OU (Union)** : inclut des résultats correspondant à au moins un des composants de filtrage dans les transitions sortantes.
 * **SAUF (Exclusion)** : exclut les résultats correspondant à tous les composants de filtrage dans la transition sortante.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
 
 En outre, vous pouvez créer des groupes intermédiaires de composants en cliquant sur le bouton **+** sur une transition. Vous pouvez ainsi ajouter un opérateur à cet emplacement spécifique pour regrouper plusieurs composants et affiner votre requête.
 
 Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inclure les résultats des audiences « VIP à récompenser » ou « Super VIP ».
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
 
 ## Vérifier et valider votre requête
 
@@ -254,4 +253,4 @@ Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer
 
 Vous pouvez modifier votre requête à tout moment en l’ouvrant. Gardez à l’esprit que lors de l’ouverture d’une requête existante, elle s’affiche dans une vue simplifiée sans la visibilité des boutons **+**. Pour ajouter de nouveaux éléments à la requête, sélectionnez un composant ou un opérateur dans la zone de travail afin d’afficher les boutons **+**.
 
-![](assets/edit-audience.png)
+![](assets/edit-audience.png){zoomable=&quot;yes&quot;}

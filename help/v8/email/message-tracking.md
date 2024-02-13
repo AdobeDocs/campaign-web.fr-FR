@@ -3,10 +3,9 @@ audience: end-user
 title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Disponibilité limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '375'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 1. Sélectionnez un élément et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. Ajoutez un **[!UICONTROL Libellé]** et un **[!UICONTROL Lien]**.
 
@@ -38,7 +37,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
    * Vous pouvez modifier le lien ainsi que sa **[!UICONTROL Cible]**.
    * Vous pouvez choisir de souligner le lien en cochant l’option correspondante.
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ Le [concepteur d’e-mail](create-email-content.md) permet de gérer les URL tra
 
 1. Pour éditer un lien, cliquez sur l’icône représentant un crayon correspondante.
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. Vous pouvez modifier le **[!UICONTROL Type de tracking]** si nécessaire :
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    Pour chaque URL trackée, vous pouvez définir le mode de tracking sur l’une des valeurs suivantes :
 
@@ -71,6 +70,6 @@ Le [concepteur d’e-mail](create-email-content.md) permet de gérer les URL tra
 
 1. Ajoutez une **[!UICONTROL Catégorie]** à votre lien pour regrouper les liens trackés, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. Une fois votre diffusion envoyée, accédez à votre rapport de diffusion. Dans le menu **[!UICONTROL Tracking]**, le rapport **[!UICONTROL URL et flux de clics]** affiche les URL de votre diffusion les plus visitées. [En savoir plus](../reporting/gs-reports.md)

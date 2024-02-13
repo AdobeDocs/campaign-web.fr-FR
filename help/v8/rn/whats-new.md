@@ -3,10 +3,9 @@ audience: end-user
 title: Nouveautés de l’interface utilisateur web de Campaign
 description: Découvrez les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Disponibilité limitée"
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1290'
 ht-degree: 74%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="Notes de mise à jour"
->abstract="Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux."
+>abstract="Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous apporter un avantage concurrentiel sur tous les canaux."
 
-Nous sommes ravis d’introduire la nouvelle version de **Interface utilisateur Web d’Adobe Campaign**. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux. L’interface utilisateur (IU) de Campaign Web apporte un canevas connecté avec Adobe Experience Platform pour une expérience unifiée.
+Nous sommes ravis d’introduire la nouvelle version de **Interface utilisateur Web d’Adobe Campaign**. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous apporter un avantage concurrentiel sur tous les canaux. L’interface utilisateur (IU) de Campaign Web apporte un canevas connecté avec Adobe Experience Platform pour une expérience unifiée.
 
 
 >[!AVAILABILITY]

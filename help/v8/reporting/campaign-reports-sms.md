@@ -2,11 +2,10 @@
 audience: end-user
 title: Rapports de campagne du canal SMS
 description: Présentation des rapports de campagne du canal SMS
-badge: label="Disponibilité limitée"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '498'
 ht-degree: 100%
 
 ---
@@ -25,7 +24,7 @@ Chaque rapport de campagne est divisé en différents widgets qui détaillent le
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion SMS. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_sms_1.png)
+![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
 
 +++En savoir plus sur les mesures des rapports de campagne SMS.
 
@@ -50,7 +49,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui
 Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
 
-![](assets/campaign_report_sms_2.png)
+![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
 
 +++En savoir plus sur les mesures des rapports de campagne SMS.
 
@@ -75,7 +74,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
 
-![](assets/campaign_report_sms_3.png)
+![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++En savoir plus sur les mesures des rapports de campagne SMS.
 
@@ -101,7 +100,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_sms_4.png)
+![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++En savoir plus sur les mesures des rapports de campagne SMS.
 

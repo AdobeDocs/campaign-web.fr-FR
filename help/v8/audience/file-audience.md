@@ -2,11 +2,10 @@
 audience: end-user
 title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
-badge: label="Disponibilité limitée"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -50,7 +49,7 @@ Pour cibler des profils à partir d’un fichier local directement dans l’inte
 1. ouvrez une diffusion e-mail existante ou [créez une diffusion e-mail](../email/create-email.md).
 1. Dans la fenêtre de création d’une diffusion par e-mail, à partir de la section **Audience**, cliquez sur le bouton **Sélectionner une audience**, puis choisissez l’option **Sélectionner dans un fichier**.
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. Sélectionnez le fichier local à utiliser. Le format doit correspondre à celui de l’[exemple de fichier](#sample-file).
 1. Prévisualisez et vérifiez le mappage des données dans la section centrale de l’écran.
@@ -60,7 +59,7 @@ Pour cibler des profils à partir d’un fichier local directement dans l’inte
 
 Lors de la création et de la personnalisation du contenu du message, vous pouvez sélectionner des champs dans le fichier d’entrée de l’[éditeur de personnalisation](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## Exemple de fichier {#sample-file}
 
@@ -93,7 +92,7 @@ Campaign Web vous permet de prévisualiser et d’envoyer des e-mails de test l
 
 1. Un aperçu du contenu de la diffusion s’affiche dans le volet de droite de l’écran. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche. [En savoir plus sur la prévisualisation du contenu de la diffusion](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. Pour envoyer des e-mails de test, cliquez sur le bouton **[!UICONTROL Test]**.
 
@@ -105,6 +104,6 @@ Campaign Web vous permet de prévisualiser et d’envoyer des e-mails de test l
 
 1. Après l’ajout des personnes destinataires du BAT et lorsque vou êtes en mesure d’envoyer les BAT, cliquez sur le bouton **[!UICONTROL Envoyer un e-mail de test]**, puis confirmez l’envoi.
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. Vous pouvez contrôler à tout moment l’envoi de l’e-mail de test à l’aide du bouton **[!UICONTROL Afficher le journal de l’e-mail de test]**. [En savoir plus sur la surveillance des e-mails de test](../preview-test/test-deliveries.md#access-test-deliveries)

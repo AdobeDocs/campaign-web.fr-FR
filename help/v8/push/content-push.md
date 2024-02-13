@@ -2,11 +2,10 @@
 audience: end-user
 title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
-badge: label="Disponibilité limitée"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1541'
 ht-degree: 100%
 
 ---
@@ -56,7 +55,7 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
   Pour définir le contenu, personnaliser les données et ajouter du contenu dynamique, cliquez sur le champ **[!UICONTROL Message]** et utilisez l’éditeur d’expression. Vous pouvez accéder à cet éditeur pour personnaliser vos messages.
 Dans le menu **[!UICONTROL Variables de l’application]**, vos variables d’application sont automatiquement ajoutées. Ces variables vous permettent de définir le comportement des notifications. Vous pouvez par exemple paramétrer un écran d’application spécifique qui s’affichera lorsque l’utilisateur ou l’utilisatrice activera la notification.
 
-  ![](assets/push_content_4.png)
+  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
 
 * Le **[!UICONTROL Message de notification]**, géré automatiquement par le SDK FCM. FCM affiche automatiquement le message sur les appareils de vos utilisateurs et utilisatrices pour le compte de l&#39;application cliente. Les messages de notification contiennent un ensemble de paramètres et d’options prédéfini, mais peuvent encore être personnalisés avec des variables d’application personnalisées.
 
@@ -64,7 +63,7 @@ Dans le menu **[!UICONTROL Variables de l’application]**, vos variables d’ap
 
   Pour personnaliser davantage votre notification push, vous pouvez choisir une image à lui ajouter, l’icône de la notification qui s’affichera sur les appareils de vos profils et sa couleur.
 
-  ![](assets/push_content_3.png)
+  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
 
 >[!TAB iOS]
 
@@ -74,7 +73,7 @@ Vous pouvez ajouter un **[!UICONTROL sous-titre]**, valeur du paramètre sous-ti
 
 Le mode Notification silencieuse permet d’envoyer une notification « silencieuse » à une application mobile. L&#39;utilisateur n&#39;est pas averti de l&#39;arrivée de la notification. Elle est directement transférée à l&#39;application.
 
-![](assets/push_content_1.png)
+![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
 
 >[!ENDTABS]
 
@@ -127,7 +126,7 @@ Les options avancées dépendent du système d’exploitation mobile : Android 
 
 >[!TAB Android]
 
-![](assets/push_content_5.png)
+![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
 
 | Paramètre | Description |
 |---------|---------|
@@ -143,7 +142,7 @@ Les options avancées dépendent du système d’exploitation mobile : Android 
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png)
+![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
 
 | Paramètre | Description |
 |---------|---------|

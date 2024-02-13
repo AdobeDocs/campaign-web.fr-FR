@@ -1,9 +1,8 @@
 ---
 title: Dimensions de ciblage
 description: En savoir plus sur les dimensions de ciblage dans Adobe Campaign Web
-badge: label="Disponibilité limitée"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
@@ -27,7 +26,7 @@ Notez que vous pouvez changer la dimension de ciblage dans un workflow à l’ai
 
 Lors de la sélection d’une dimension de ciblage (dans les paramètres du workflow, ou dans des activités telles que **Créer une audience**, **Réconciliation** ou **Changer de dimension**), une sélection des schémas couramment utilisés s’affiche par défaut dans la liste. Pour afficher tous les schémas disponibles, cliquez sur le bouton **[!UICONTROL Afficher tous les schémas]**. La sélection de cette option est enregistrée pour chaque utilisateur ou utilisatrice.
 
-![](assets/targeting-dimension-show-all.png)
+![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
 
 ## Dimensions de ciblage {#list}
 

@@ -2,11 +2,10 @@
 audience: end-user
 title: Prise en main des rapports globaux
 description: Comprendre les rapports globaux
-badge: label="Disponibilité limitée"
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
@@ -29,15 +28,15 @@ Pour accéder à vos rapports globaux et les gérer, procédez comme suit :
 
 1. Dans le menu de gauche, sélectionnez un rapport dans la liste et naviguez dans l’onglet pour afficher les données de chaque canal.
 
-   ![](assets/global_report_manage_3.png)
+   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
 
 1. Dans votre tableau de bord, choisissez une **Heure de début** et une **[!UICONTROL Heure de fin]** pour cibler des données spécifiques.
 
-   ![](assets/global_report_manage_1.png)
+   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
 
-1. Dans le champ **[!UICONTROL Sélectionner un dossier]**, choisissez si vous souhaitez cibler des diffusions ou une campagne à partir d’un dossier spécifique.
+1. Dans le champ **[!UICONTROL Sélectionner un dossier]**, choisissez si vous souhaitez cibler des diffusions ou une campagne d’un dossier spécifique.
 
-   ![](assets/global_report_manage_2.png)
+   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
 
 1. Cliquez sur **[!UICONTROL Ajouter des règles]** pour commencer à créer des requêtes afin de mieux filtrer les données de reporting. [Découvrez comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
 

@@ -2,12 +2,11 @@
 audience: end-user
 title: Principes fondamentaux de la création de workflows
 description: Découvrir les principes fondamentaux des workflows avec Adobe Campaign Web
-badge: label="Disponibilité limitée"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +20,7 @@ Avec Adobe Campaign Web, vous pouvez créer des workflows dans une zone de tra
 
 Le diagramme de workflow est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 
-![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;} {zoomable=&quot;yes&quot;}
 
 Chaque workflow comprend :
 
@@ -40,16 +39,16 @@ Les campagnes offrent deux manières de créer un workflow :
 
 1. Les workflows peuvent être créés en tant que workflows autonomes à partir du menu **Workflows**.
 
-   ![](assets/create-a-standalone-wf.png)
+   ![](assets/create-a-standalone-wf.png){zoomable=&quot;yes&quot;}
 
 1. Les workflows peuvent être créés directement au sein d’une campagne, à partir de l’onglet **Workflow** de la campagne. Lorsqu’il est inclus dans une campagne, le workflow est exécuté avec tous les autres workflows de la campagne et les mesures de rapports sont toutes regroupées au niveau de la campagne.
 
-   ![](assets/create-a-wf-from-a-campaign.png)
+   ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
 
 
 Pour créer des workflows, procédez comme suit :
 
-![](assets/workflow-creation-process.png)
+![](assets/workflow-creation-process.png){zoomable=&quot;yes&quot;}
 
 Ces étapes sont détaillées dans la section suivante :
 

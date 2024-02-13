@@ -2,11 +2,10 @@
 audience: end-user
 title: Envoyer une diffusion par SMS
 description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign Web.
-badge: label="Disponibilité limitée"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -26,18 +25,18 @@ La diffusion par SMS comprend les étapes suivantes. Pour plus d’informations 
 
 1. Sur la page de contenu de la diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu que vous avez personnalisé.
 
-   ![](assets/sms_send_1.png)
+   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
 
 1. Cliquez sur **[!UICONTROL Ajouter un ou plusieurs profils de test]** pour sélectionner un ou plusieurs profils de test.
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
-    ![](assets/sms_send_2.png)
+    ![](assets/sms_send_2.png){zoomable="yes"}
     -->
 
 1. Dans le volet de droite, vous trouverez un aperçu de la diffusion par SMS, où les éléments personnalisés sont remplacés dynamiquement par les données du profil sélectionné.
 
-   ![](assets/sms_send_3.png)
+   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
 
 Vous pouvez maintenant vérifier et envoyer votre SMS à votre audience.
 
@@ -49,13 +48,13 @@ L’envoi de SMS de test est une étape importante pour assurer la qualité et l
 
 ![](../assets/do-not-localize/book.png) Découvrez comment envoyer des SMS de test dans [cette section](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png)
+![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 
 ## Envoyer votre diffusion par SMS {#send-sms}
 
 1. Après avoir personnalisé le contenu de votre SMS, cliquez sur **[!UICONTROL Vérifier et envoyer]** sur votre page **[!UICONTROL Diffusion]**.
 
-   ![](assets/sms_send_4.png)
+   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
 
 1. Cliquez sur **[!UICONTROL Préparer]** et suivez la progression et les statistiques fournies.
 
@@ -63,7 +62,7 @@ L’envoi de SMS de test est une étape importante pour assurer la qualité et l
 
 1. Envoyez les messages en cliquant sur **[!UICONTROL Envoyer]** pour poursuivre le processus d’envoi final.
 
-   ![](assets/sms_send_5.png)
+   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
 
    Si la diffusion SMS a été planifiée, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]**. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#schedule-the-delivery-sending).
 

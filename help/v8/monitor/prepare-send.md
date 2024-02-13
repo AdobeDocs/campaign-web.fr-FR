@@ -3,10 +3,9 @@ audience: end-user
 title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un email avec l'interface utilisateur Web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Disponibilité limitée"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '911'
 ht-degree: 98%
 
 ---
@@ -26,12 +25,12 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
 1. Dans le tableau de bord de la diffusion, cliquez sur **[!UICONTROL Vérifier et envoyer]**.
 
-   ![](assets/email-review-and-send.png)
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. Cliquez sur le bouton **[!UICONTROL Préparer]** dans le coin supérieur droit et confirmez.
 
-   ![](assets/email-prepare.png)
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -41,14 +40,14 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
    Vous pouvez arrêter la préparation à tout moment à l’aide du bouton **[!UICONTROL Arrêter la préparation]**.
 
-   ![](assets/email-stop-preparation.png)
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >Pendant la phase de préparation, aucun message n&#39;est envoyé. Vous pouvez donc lancer ou annuler cette opération sans aucun risque.
 
 1. Une fois la préparation terminée, vérifiez les KPI. Si le nombre de messages à envoyer ne correspond pas à vos attentes, modifiez l’audience et relancez la préparation.
 
-   ![](assets/email-preparation-complete.png)
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    Voici les KPI qui s’affichent :
 
@@ -58,11 +57,11 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
 1. Cliquez sur le bouton **[!UICONTROL Logs]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md).
 
-   ![](assets/email-prepare-logs.png)
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. Si la préparation détecte une erreur critique qui empêche l’envoi de la diffusion, le statut de préparation apparaît comme ayant échoué dans le tableau de bord de la diffusion.
 
-   ![](assets/email-prepare-error.png)
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. Si vous modifiez la diffusion après la préparation, vous devez relancer la préparation pour que ces modifications soient prises en compte.
 
@@ -81,7 +80,7 @@ Pour envoyer immédiatement un e-mail, procédez comme suit.
 
 1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **[!UICONTROL Envoyer]** dans le coin supérieur droit.
 
-   ![](assets/email-send.png)
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. Confirmez cette action pour envoyer immédiatement le message à la cible principale.
 
@@ -95,7 +94,7 @@ Si vous avez planifié l’envoi de votre e-mail à une date et une heure ultér
 
 1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]** dans le coin supérieur droit.
 
-   ![](assets/email-send-as-scheduled.png)
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. Cliquez sur **[!UICONTROL Confirmer l’envoi]**. La diffusion sera envoyée à la cible principale, à la date planifiée.
 
@@ -111,7 +110,7 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’
 
 * Cliquez sur **[!UICONTROL Arrêter l’envoi]** pour interrompre immédiatement l’envoi. Une fois arrêtés, la préparation et l’envoi ne peuvent pas être repris.
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## Vérifier les KPI {#check-kpis}
 
@@ -151,7 +150,7 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’
 
 Une fois l’envoi terminé, vous pouvez vérifier les KPI affichés :
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL Envoyé]** : le nombre de messages diffusés. Le pourcentage affiché est basé sur le nombre total de messages à diffuser.
 

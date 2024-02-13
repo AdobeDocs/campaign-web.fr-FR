@@ -3,10 +3,9 @@ audience: end-user
 title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Disponibilité limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '595'
 ht-degree: 100%
 
 ---
@@ -60,7 +59,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 1. Sur la page d’accueil du [concepteur d’e-mail](get-started-email-designer.md#start-authoring), cliquez sur l’option **[!UICONTROL Créer en partant de zéro]**.
 
-   ![](assets/email_designer-from-scratch.png)
+   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
 
 1. Commencez à concevoir le contenu de l’e-mail en faisant glisser et en déposant les **[!UICONTROL Structures]** dans la zone de travail pour définir la disposition de l’e-mail.
 
@@ -70,7 +69,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 1. Ajoutez autant de **[!UICONTROL Structures]** que nécessaire et modifiez leurs paramètres dans le volet dédié sur la droite.
 
-   ![](assets/email_designer_structure_components.png)
+   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
 
 1. Vous pouvez sélectionner le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
 
@@ -82,7 +81,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 1. Chaque composant peut être personnalisé à l’aide des onglets **[!UICONTROL Paramètres]** ou **[!UICONTROL Style]** sur la droite. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de chaque composant. [En savoir plus sur l’alignement et la marge intérieure](alignment-and-padding.md).
 
-   ![](assets/email_designer-styles.png)
+   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
@@ -92,7 +91,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 [En savoir plus sur le tracking des liens et des messages.](message-tracking.md)
 
-   ![](assets/email_designer-links.png)
+   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
 
 1. Si nécessaire, vous pouvez personnaliser davantage l’e-mail en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. Vous pouvez modifier le code source de l’e-mail, par exemple pour ajouter des balises HTML de tracking ou personnalisées. [En savoir plus sur l’éditeur de code](code-content.md).
 
@@ -102,7 +101,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 1. Une fois que votre contenu est prêt, cliquez sur **[!UICONTROL Simuler du contenu]** pour vérifier le rendu de l’e-mail. Vous pouvez choisir la vue de bureau ou mobile. [En savoir plus sur la prévisualisation des e-mails](../preview-test/preview-test.md).
 
-   ![](assets/email_designer-simulate.png)
+   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
 
 1. Lorsque votre e-mail est prêt, cliquez sur **[!UICONTROL Enregistrer]**.
 

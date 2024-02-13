@@ -2,11 +2,10 @@
 audience: end-user
 title: Créer des audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
-badge: label="Disponibilité limitée"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '902'
 ht-degree: 100%
 
 ---
@@ -55,7 +54,7 @@ Pour créer une audience, veuillez procéder comme suit :
 
    * L’activité « Nouvelle audience » **[!UICONTROL Enregistrer une audience]** représente la dernière étape de votre workflow et vous permet d’enregistrer les résultats du workflow en tant que nouvelle audience.
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Pour créer une audience, veuillez procéder comme suit :
    >
    >Les activités de canal ne peuvent pas être utilisées dans les workflows d’audience.
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. Configurez l’activité **[!UICONTROL Enregistrer une audience]** pour indiquer comment enregistrer la population calculée en amont dans le workflow. [Découvrez comment configurer une activité Enregistrer une audience](../workflows/activities/save-audience.md).
 
@@ -85,7 +84,7 @@ Vous pouvez désormais utiliser cette audience comme cible principale d’une di
 
 L’exemple ci-dessous montre un workflow d’audience configuré pour cibler les clientes habitant à New York et créer deux nouvelles audiences en fonction de leur dernier achat (tenue de yoga ou de running).
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. L’activité **[!UICONTROL Créer une audience]** cible tous les profils de femmes habitant à New York.
 1. L’activité **[!UICONTROL Enrichissement]** enrichit l’audience avec des informations du tableau Achats pour identifier le type de produit que les clientes ont acheté.
@@ -104,4 +103,4 @@ Par défaut, la réexécution d’un workflow d’audience remplace l’ensemble
 
 Si vous préférez ne pas remplacer les résultats de l’audience existante, configurez les activités **Enregistrer une audience** pour qu’elles correspondent à vos besoins. Par exemple, vous pouvez modifier le champ **Libellé de l’audience** pour stocker les nouveaux résultats dans une nouvelle audience ou pour ajouter les nouveaux résultats au contenu de l’audience existante sans effacer les données précédentes. [Découvrir comment configurer une activité Enregistrer une audience](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}

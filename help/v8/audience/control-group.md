@@ -3,10 +3,9 @@ audience: end-user
 title: Configurer une population témoin
 description: Découvrez comment définir une population témoin pour vos messages dans l'interface utilisateur Web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Disponibilité limitée"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '797'
 ht-degree: 98%
 
 ---
@@ -67,7 +66,7 @@ Prenons l’exemple suivant : vous souhaitez créer une population témoin cons
 1. Ajoutez le champ **Date de création**. Modifiez l’option de tri sur **Descendant**.
 1. Définissez sur 100 le seuil de la section **Limite de taille**.
 
-   ![](assets/control-group2.png)
+   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
 Ces 100 nouveaux destinataires les plus jeunes sont alors exclus de la cible principale.
 
@@ -75,27 +74,27 @@ Ces 100 nouveaux destinataires les plus jeunes sont alors exclus de la cible pr
 
 Vous pouvez consulter les logs pour vérifier et identifier les profils exclus. Prenons l’exemple suivant d’une exclusion aléatoire sur cinq profils.
 
-![](assets/control-group4.png)
+![](assets/control-group4.png){zoomable=&quot;yes&quot;}
 
 Après la préparation de la diffusion, vous pouvez vérifier comment les exclusions ont été appliquées :
 
 * Dans le tableau de bord de la diffusion, avant l’envoi, cochez le KPI **À exclure**.
 
-  ![](assets/control-group5.png)
+  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
 
 * Dans les logs de diffusion, l’onglet Logs affiche l’étape d’exclusion.
 
-  ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-    ![](assets/control-group6.png)
+    ![](assets/control-group6.png){zoomable="yes"}
 -->
 
 * L’onglet **Causes d’exclusions** affichent le nombre de profils exclus pour chaque règle de typologie.
 
-  ![](assets/control-group7.png)
+  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 
 Pour plus d’informations sur les logs de diffusion, consultez [cette section](../monitor/delivery-logs.md).
 
@@ -110,7 +109,7 @@ Vous pouvez également définir une population témoin en sélectionnant une pop
 
 Dans la section **Population supplémentaire** de l’écran de définition de la **Population témoin**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
 
-![](assets/control-group3.png)
+![](assets/control-group3.png){zoomable=&quot;yes&quot;}
 
 * Pour utiliser une audience existante, cliquez sur **Sélectionner une audience**. En savoir plus dans [cette section](add-audience.md).
 

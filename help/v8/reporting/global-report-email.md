@@ -2,12 +2,11 @@
 audience: end-user
 title: Rapports globaux du canal e-mail
 description: En savoir plus sur les rapports globaux du canal e-mail
-badge: label="Disponibilité limitée"
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 100%
+source-wordcount: '1618'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +27,7 @@ Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporti
 
 La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions e-mail. Les mesures sont décrites ci-dessous.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
@@ -54,7 +53,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicat
 
 Le tableau et le graphe **[!UICONTROL Audience ciblée]** affichent les données relatives à vos destinataires sous la forme de mesures détaillées. Consultez-les ci-dessous.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures d’audience ciblée.
 
@@ -75,7 +74,7 @@ Le tableau et le graphe **[!UICONTROL Audience ciblée]** affichent les données
 
 Le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition des performances pour chaque diffusion e-mail, qui comprend les mesures détaillées ci-dessous.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures des statistiques de diffusion.
 
@@ -96,7 +95,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition d
 >title="Causes d’exclusion"
 >abstract="Le graphe et le tableau **Causes d’exclusion** illustrent les raisons spécifiques du rejet des messages lors de la préparation de la diffusion, avec une répartition détaillée par règle."
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils utilisateur et utilisatrice exclus des profils ciblés de recevoir le message.
 
@@ -109,7 +108,7 @@ Les types d’erreur d’e-mail sont répertoriés dans la section [Documentatio
 >title="Débit de diffusion"
 >abstract="Le rapport **Débit de diffusion** fournit des informations complètes sur le débit des diffusions, en mettant en évidence les taux de succès et d’erreur au cours d’une période donnée."
 
-![](assets/global_report_email_delivery_throughput.png){align="center"}
+![](assets/global_report_email_delivery_throughput.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Le rapport Débit de diffusion présente des informations détaillées sur l’efficacité du processus de diffusion, ainsi qu’une vue d’ensemble des taux de succès et d’erreur survenus au cours d’une période donnée.
 
@@ -130,9 +129,9 @@ Le rapport Débit de diffusion présente des informations détaillées sur l’e
 >title="Répartition des erreurs par type"
 >abstract="Le tableau et le graphe détaillant la **Répartition des erreurs par type** présentent les informations sur les différents types d’erreur rencontrés lors du processus, notamment l’utilisateur ou utilisatrice inconnu, la boîte pleine, le domaine non valide, etc."
 
-![](assets/global_report_email_breakdown_type.png){align="center"}
+![](assets/global_report_email_breakdown_type.png){zoomable=&quot;yes&quot;}{align="center"}
 
-Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** présentent les données relatives aux erreurs potentielles rencontrées dans différents domaines sous la forme de mesures spécifiques. Consultez-les ci-dessous.
+Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** présentent les données liées aux erreurs potentielles rencontrées dans différents domaines, avec des mesures spécifiques fournies ci-dessous.
 
 Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
@@ -161,9 +160,9 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 >title="Répartition des erreurs par domaine"
 >abstract="Le tableau et le graphe illustrant la **Répartition des erreurs par domaine** présentent les données correspondant à chaque type d’erreur rencontré, avec un classement par domaine."
 
-![](assets/global_report_email_breakdown_domain.png){align="center"}
+![](assets/global_report_email_breakdown_domain.png){zoomable=&quot;yes&quot;}{align="center"}
 
-Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** présentent les données relatives aux erreurs potentielles rencontrées dans chaque domaine. Les mesures sont communes au tableau et au graphe **[!UICONTROL Répartition des erreurs par type]** présentés ci-dessus.
+Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** illustrent les données liées aux erreurs potentielles dans chaque domaine. Les mesures sont communes au tableau et au graphe **[!UICONTROL Répartition des erreurs par type]** présentés ci-dessus.
 
 ## Indicateurs de tracking {#tracking-indicators-email}
 
@@ -176,7 +175,7 @@ Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** pr
 
 Les mesures des **[!UICONTROL Statistiques de diffusion]** offrent des KPI (indicateurs clés de performance) pour éclairer les données obtenues avec chaque diffusion e-mail. Vous trouverez plus d’informations sur ces mesures ci-dessous.
 
-![](assets/global_report_email_delivery_statistics_tracking.png){align="center"}
+![](assets/global_report_email_delivery_statistics_tracking.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures des statistiques de diffusion.
 
@@ -204,7 +203,7 @@ Les mesures des **[!UICONTROL Statistiques de diffusion]** offrent des KPI (indi
 
 Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
-![](assets/global_report_email_opens.png){align="center"}
+![](assets/global_report_email_opens.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures Taux d’ouvertures et Taux de clic publicitaire.
 
@@ -230,7 +229,7 @@ Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche d
 
 Le rapport **[!UICONTROL URL et flux de clics]** fournit des KPI (indicateurs clés de performances) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_9.png){align="center"}
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures URL et flux de clics.
 
@@ -252,7 +251,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des KPI (indicateurs cl
 
 Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contiennent les données disponibles pour le comportement des destinataires par lien. Les mesures sont détaillées ci-dessous.
 
-![](assets/global_report_email_top10.png){align="center"}
+![](assets/global_report_email_top10.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur le Top 10 des liens les plus visités.
 
@@ -271,7 +270,7 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 
 Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des destinataires par lien.
 
-![](assets/global_report_email_breakdown_clicks.png){align="center"}
+![](assets/global_report_email_breakdown_clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ## Activités utilisateurs {#user-activities-email}
 
@@ -282,7 +281,7 @@ Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les don
 
 Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Les mesures de ce rapport sont détaillées ci-dessous.
 
-![](assets/global_report_email_user.png){align="center"}
+![](assets/global_report_email_user.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures des activités utilisateurs.
 

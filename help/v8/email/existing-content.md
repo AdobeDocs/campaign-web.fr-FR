@@ -3,10 +3,9 @@ audience: end-user
 title: Importer le contenu des e-mails
 description: Découvrez comment importer le contenu des e-mails.
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="Disponibilité limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -31,7 +30,7 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
 1. Sur la page d’accueil du [concepteur d’e-mail](get-started-email-designer.md), sélectionnez **[!UICONTROL Importer du contenu HTML]**.
 
-   ![](assets/html-import.png)
+   ![](assets/html-import.png){zoomable=&quot;yes&quot;}
 
 1. Faites glisser et déposez le fichier HTML ou ZIP contenant le contenu HTML, puis cliquez sur **[!UICONTROL Importer]**.
 
@@ -39,11 +38,11 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
    Ce mode permet uniquement de personnaliser votre texte, d’ajouter des liens ou d’inclure des ressources à votre contenu.
 
-   ![](assets/html-imported.png)
+   ![](assets/html-imported.png){zoomable=&quot;yes&quot;}
 
 1. Pour pouvoir exploiter les composants de contenu du concepteur d’e-mail, accédez à l’onglet **[!UICONTROL Convertisseur HTML]** et cliquez sur **[!UICONTROL Convertir]**.
 
-   ![](assets/html-imported-2.png)
+   ![](assets/html-imported-2.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

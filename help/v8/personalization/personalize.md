@@ -6,11 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="Disponibilité limitée"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 98%
 
 ---
 
@@ -33,18 +32,18 @@ Pour ajouter des balises de personnalisation dans une diffusion, procédez comme
 
 1. Ouvrez l’éditeur d’expression à l’aide de l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** accessible à partir des champs de modification de type texte, tels que l’objet ou le corps du SMS. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md/#access).
 
-   ![](assets/perso-access.png){width="800" align="center"}
+   ![](assets/perso-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. L’éditeur d’expression s’ouvre. Les champs de personnalisation disponibles dans la base de données d’Adobe Campaign sont organisés en plusieurs menus dans la partie gauche de l’écran :
 
-   ![](assets/perso-insert-field.png){width="800" align="center"}
+   ![](assets/perso-insert-field.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    | Menu | Description |
    |-----|------------|
-   | ![](assets/do-not-localize/perso-subscribers-menu.png) | Le menu **[!UICONTROL Application des abonnées et abonnés]** répertorie les champs liés aux abonnées et abonnés d’une application, tels que le terminal utilisé ou le système d’exploitation. *Ce menu est disponible uniquement pour les notifications push*. |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | Le menu **[!UICONTROL Destinataire]** répertorie les champs définis dans le tableau des destinataires, tels que les noms, âges ou adresses des destinataires. Lors du [chargement des contacts depuis un fichier externe](../audience/file-audience.md) pour une diffusion e-mail autonome, ce menu répertorie tous les champs disponibles dans le fichier d’entrée. |
-   | ![](assets/do-not-localize/perso-message-menu.png) | Le menu **[!UICONTROL Message]** répertorie les champs liés aux logs de diffusion, y compris tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux, comme la date du dernier événement avec une personne destinataire donnée. |
-   | ![](assets/do-not-localize/perso-delivery-menu.png) | Le menu **[!UICONTROL Diffusion]** répertorie les champs liés aux paramètres requis pour effectuer des diffusions, tels que le canal ou le libellé de la diffusion. |
+   | ![](assets/do-not-localize/perso-subscribers-menu.png){zoomable=&quot;yes&quot;} | Le menu **[!UICONTROL Application des abonnées et abonnés]** répertorie les champs liés aux abonnées et abonnés d’une application, tels que le terminal utilisé ou le système d’exploitation. *Ce menu est disponible uniquement pour les notifications push*. |
+   | ![](assets/do-not-localize/perso-recipients-menu.png){zoomable=&quot;yes&quot;} | Le menu **[!UICONTROL Destinataire]** répertorie les champs définis dans le tableau des destinataires, tels que les noms, âges ou adresses des destinataires. Lors du [chargement des contacts depuis un fichier externe](../audience/file-audience.md) pour une diffusion e-mail autonome, ce menu répertorie tous les champs disponibles dans le fichier d’entrée. |
+   | ![](assets/do-not-localize/perso-message-menu.png){zoomable=&quot;yes&quot;} | Le menu **[!UICONTROL Message]** répertorie les champs liés aux logs de diffusion, y compris tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux, comme la date du dernier événement avec une personne destinataire donnée. |
+   | ![](assets/do-not-localize/perso-delivery-menu.png){zoomable=&quot;yes&quot;} | Le menu **[!UICONTROL Diffusion]** répertorie les champs liés aux paramètres requis pour effectuer des diffusions, tels que le canal ou le libellé de la diffusion. |
 
    >[!NOTE]
    >
@@ -54,6 +53,6 @@ Pour ajouter des balises de personnalisation dans une diffusion, procédez comme
 
 1. Une fois votre contenu prêt, vous pouvez l’enregistrer et tester le rendu de la personnalisation en simulant votre contenu. L’exemple ci-dessous illustre la personnalisation d’un SMS avec les prénoms des destinataires.
 
-   ![](assets/perso-preview1.png){width="800" align="center"}
+   ![](assets/perso-preview1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-   ![](assets/perso-preview2.png){width="800" align="center"}
+   ![](assets/perso-preview2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}

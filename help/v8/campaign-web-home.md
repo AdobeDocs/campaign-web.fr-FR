@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
->title="Découvrir la nouvelle interface utilisateur d’Adobe Campaign"
+>title="Découvrez la nouvelle interface utilisateur d’Adobe Campaign"
 >abstract="Plus moderne, intuitive et dynamique"
 
 >[!CONTEXTUALHELP]
@@ -30,7 +30,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
 >title="Élément 2"
->abstract="Interface de zone de travail du workflow simplifiée"
+>abstract="Interface de zone de travail de workflow simplifiée"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
@@ -57,7 +57,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
->title="Découvrir la nouvelle interface utilisateur d’Adobe Campaign"
+>title="Découvrez la nouvelle interface utilisateur d’Adobe Campaign"
 >abstract="Plus moderne, intuitive et dynamique"
 
 >[!CONTEXTUALHELP]
@@ -68,7 +68,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
 >title="Élément 2"
->abstract="Interface de zone de travail du workflow simplifiée"
+>abstract="Interface de zone de travail de workflow simplifiée"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list3"
@@ -82,7 +82,7 @@ ht-degree: 99%
 
 <!--TO REMOVE ABOVE-->
 
-Nous avons le plaisir de présenter la nouvelle version de l’interface utilisateur web d’Adobe Campaign. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
+Nous avons le plaisir de présenter la nouvelle version de l’interface utilisateur web d’Adobe Campaign. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous apporter un avantage concurrentiel sur tous les canaux. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
 ## Nouveautés
 
@@ -104,7 +104,7 @@ Créez des audiences dans une zone de travail visuelle de workflow. En plus de c
 
 >[!TAB Concepteur d’e-mail]
 
-Le Concepteur d’e-mail de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !
+Le Concepteur d’e-mail de Campaign vous permet de créer des e-mails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 

@@ -3,10 +3,9 @@ audience: end-user
 title: Ajuster l’alignement vertical et la marge intérieure dans le concepteur d’e-mail
 description: Découvrez comment ajuster l’alignement vertical et la marge intérieure.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-badge: label="Disponibilité limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
@@ -18,15 +17,15 @@ Dans cet exemple, nous ajustons la marge intérieure et l’alignement vertical 
 
 1. Sélectionnez le composant de structure directement dans l’e-mail ou à l’aide de l’**[!UICONTROL Arborescence de navigation]** disponible dans le volet de gauche.
 
-   ![](assets/alignment_1.png)
+   ![](assets/alignment_1.png){zoomable=&quot;yes&quot;}
 
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également le sélectionner dans l’arborescence de structure à gauche.
 
-   ![](assets/alignment_2.png)
+   ![](assets/alignment_2.png){zoomable=&quot;yes&quot;}
 
 1. Les paramètres modifiables de cette colonne sont affichés dans l’onglet **[!UICONTROL Styles]**. Ajustez l’**[!UICONTROL alignement]** à l’aide de la section dédiée.
 
-   ![](assets/alignment_3.png)
+   ![](assets/alignment_3.png){zoomable=&quot;yes&quot;}
 
    Par exemple, sélectionnez **[!UICONTROL Bas]**. Le composant de contenu se déplace en bas de la colonne.
 
@@ -36,7 +35,7 @@ Dans cet exemple, nous ajustons la marge intérieure et l’alignement vertical 
    >
    >Cliquez sur l’icône représentant un verrou pour interrompre la synchronisation entre la marge intérieure supérieure et inférieure ou droite et gauche.
 
-   ![](assets/alignment_4.png)
+   ![](assets/alignment_4.png){zoomable=&quot;yes&quot;}
 
 1. Procédez de façon similaire pour ajuster l&#39;alignement et la marge intérieure des autres colonnes.
 

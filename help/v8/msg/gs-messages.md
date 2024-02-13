@@ -1,13 +1,12 @@
 ---
 audience: end-user
-title: Prise en main des messages et des diffusions dans le web Adobe Campaign
+title: Commencer avec les messages et les diffusions dans Adobe Campaign Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
-badge: label="Disponibilité limitée"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 71%
+source-wordcount: '147'
+ht-degree: 78%
 
 ---
 

@@ -1,13 +1,12 @@
 ---
 audience: end-user
 title: Paramètres de diffusion
-description: En savoir plus sur les paramètres de diffusion dans Campaign Web.
+description: En savoir plus sur les paramètres de diffusion dans Campaign Web
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Disponibilité limitée"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2429'
 ht-degree: 93%
 
 ---
@@ -44,7 +43,7 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 
 Les typologies vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désabonnement ou un objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clientes et clients désabonnés, les concurrents et les clientes et clients ne faisant pas partie du programme de fidélité).
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des pe
 
 Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qui s’appliquent à votre diffusion.
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 Le compte externe de **[!UICONTROL Routage]** d’e-mails intégré est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
@@ -250,7 +249,7 @@ Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectio
 
 La **[!UICONTROL Limite de validité des ressources]** est utilisée pour les ressources chargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque). Au-delà de cette limite, ces ressources ne sont plus disponibles.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

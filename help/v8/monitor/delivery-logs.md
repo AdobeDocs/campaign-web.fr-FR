@@ -3,10 +3,9 @@ audience: end-user
 title: Surveiller les logs de diffusion
 description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Disponibilité limitée"
-source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '369'
 ht-degree: 100%
 
 ---
@@ -41,39 +40,39 @@ Toutes les étapes de validation, les avertissements et les erreurs sont répert
 * L’icône jaune indique une erreur de traitement non critique.
 * L’icône rouge indique une erreur critique qui empêche l’envoi de la diffusion. Les erreurs critiques doivent être corrigées pour que la diffusion soit envoyée.
 
-![](assets/logs.png)
+![](assets/logs.png){zoomable=&quot;yes&quot;}
 
 
 ## Diffusions {#deliveries-tab}
 
 L&#39;onglet **Envois** propose un historique des occurrences de cette diffusion. Y est répertoriée la liste des messages envoyés et leur statut. Il permet de visualiser l&#39;état de la diffusion pour chaque destinataire.
 
-![](assets/logs2.png)
+![](assets/logs2.png){zoomable=&quot;yes&quot;}
 
 ## Exclusions {#exclusion-tab}
 
 L’onglet **Logs d’exclusion** répertorie tous les messages qui ont été exclus de la cible et indique la raison de l’échec de l’envoi.
 
-![](assets/logs3.png)
+![](assets/logs3.png){zoomable=&quot;yes&quot;}
 
 ## Causes d’exclusion {#exclusion-causes-tab}
 
 L’onglet **Causes des exclusions** affiche, pour chaque cause possible, le nombre de messages qui ont été exclus de la cible.
 
-![](assets/logs4.png)
+![](assets/logs4.png){zoomable=&quot;yes&quot;}
 
 ## URL suivies {#tracked-urls-tab}
 
 L’onglet **URL suivies** regroupe les URL contenues dans les messages envoyés, leur type et leur URL source.
 
-![](assets/logs5.png)
+![](assets/logs5.png){zoomable=&quot;yes&quot;}
 
 ## Tracking {#tracking-tab}
 
 L’onglet **Tracking** affiche l’historique du tracking pour cette diffusion. Cet onglet affiche les données de tracking sur les messages envoyés, soit toutes les URL qui ont fait l’objet d’un tracking par Adobe Campaign.
 
 
-![](assets/logs6.png)
+![](assets/logs6.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

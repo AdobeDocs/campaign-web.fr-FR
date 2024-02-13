@@ -2,12 +2,11 @@
 audience: end-user
 title: Créer une diffusion par notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
-badge: label="Disponibilité limitée"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 89%
+source-wordcount: '714'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +36,7 @@ Pour créer une diffusion de notification push autonome, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
 
-   ![](assets/push_create_1.png)
+   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
 
 ## Configurer les paramètres de la diffusion {#configure-push-settings}
 
@@ -69,7 +68,7 @@ Vous devez d’abord sélectionner l’application, puis affiner l’audience de
 
 1. Dans le menu **[!UICONTROL Audience]**, sélectionnez l’application à utiliser pour cette diffusion. Par défaut, votre notification push est envoyée à toutes les personnes abonnées de l’application. Vous pouvez affiner une audience spécifique en cliquant sur le bouton **[!UICONTROL Sélectionner une audience]**.
 
-   ![](assets/push_create_2.png)
+   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
 
 1. Sélectionnez une audience existante ou créez votre propre audience pour affiner la population cible de votre diffusion de notification push. Pour les notifications push, la [dimension de ciblage](../audience/about-recipients.md#targeting-dimensions) par défaut est **Applications abonnée** (nms:appSubscriptionRcp), qui est liée au tableau des personnes destinataires.
 
@@ -81,9 +80,9 @@ Vous devez d’abord sélectionner l’application, puis affiner l’audience de
 
 ## Définir le contenu de la notification push {#create-content-push}
 
-Pour définir le contenu de votre notification, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](content-push.md).
+Pour définir le contenu de votre notification, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](content-push.md)
 
-![](assets/push_create_5.png)
+![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
 
 Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/preview-test.md) et [configurer des offres](../msg/offers.md).
 
@@ -101,7 +100,7 @@ Pour planifier une diffusion push autonome à une date et une heure spécifiques
 
 Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l&#39;heure exactes que vous avez définies pour le destinataire.
 
-![](assets/push_create_3.png)
+![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 
 Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#gs-schedule).
 
@@ -109,4 +108,4 @@ Pour en savoir plus sur la planification des diffusions, consultez [cette sectio
 
 Cliquez sur **[!UICONTROL Configurer les paramètres de diffusion]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png)
+![](assets/push_create_4.png){zoomable=&quot;yes&quot;}

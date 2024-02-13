@@ -3,10 +3,9 @@ audience: end-user
 title: Créer la version texte d’un e-mail
 description: Découvrez comment créer la version texte d’un e-mail
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Disponibilité limitée"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '172'
 ht-degree: 100%
 
 ---
@@ -21,15 +20,15 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 
 1. Dans votre e-mail, sélectionnez l’onglet **[!UICONTROL Texte brut]**.
 
-   ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
 
 1. Utilisez le bouton (bascule) **[!UICONTROL Synchroniser avec le code HTML]** pour désactiver la synchronisation.
 
-   ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
 
 1. Cliquez sur la coche pour confirmer votre choix.
 
-   ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
 
 1. Vous pouvez ensuite éditer la version en texte brut comme vous le souhaitez.
 

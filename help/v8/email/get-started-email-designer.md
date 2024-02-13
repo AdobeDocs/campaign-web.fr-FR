@@ -2,9 +2,8 @@
 audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment commencer à créer votre contenu à l'aide du Concepteur d'email dans l'interface utilisateur web de Campaign
-badge: label="Disponibilité limitée"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 96%
@@ -16,7 +15,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Nouveau concepteur d’e-mail"
->abstract="Le Concepteur d’e-mail de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !"
+>abstract="Le Concepteur d’e-mail de Campaign vous permet de créer des e-mails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
 
 
@@ -24,7 +23,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
 >title="Nouveau concepteur d’e-mail"
->abstract="Le Concepteur d’e-mail de Campaign vous permet de créer des emails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !"
+>abstract="Le Concepteur d’e-mail de Campaign vous permet de créer des e-mails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
 
 <!--TO REMOVE ABOVE-->
@@ -61,4 +60,4 @@ Pour éviter autant que possible ces problèmes de rendu, une bonne pratique con
 
 * **Sélectionnez un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’e-mail dans [cette section](create-email-templates.md).
 
-  ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png){zoomable=&quot;yes&quot;}

@@ -2,11 +2,10 @@
 audience: end-user
 title: Surveiller et gérer des audiences
 description: Découvrir comment surveiller et gérer les audiences dans Adobe Campaign Web
-badge: label="Disponibilité limitée"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
@@ -45,7 +44,7 @@ Lors du ciblage d’une audience, vous pouvez également définir des **populati
 
 La liste des audiences disponibles dans Campaign Web est accessible à partir du menu **[!UICONTROL Audiences]**.
 
-![](assets/audiences-list.png)
+![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 
 Les audiences peuvent provenir de plusieurs sources. Les colonnes **[!UICONTROL Origine]** indiquent l’emplacement de création d’une audience donnée :
 
@@ -63,6 +62,6 @@ Pour obtenir plus d’informations sur une audience, ouvrez-la dans la liste. Le
 
 L’onglet **[!UICONTROL Données]** vous permet de visualiser les profils qui font partie de l’audience. Vous pouvez personnaliser cette vue en ajoutant d’autres colonnes ou en utilisant des filtres avancés pour affiner les données affichées.
 
-![](assets/audiences-details.png)
+![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 Pour dupliquer ou supprimer une audience, cliquez sur le bouton **[!UICONTROL Plus d’action]** disponible dans la liste des audiences, en regard du nom de l’audience ou dans un écran détaillé de l’audience.
