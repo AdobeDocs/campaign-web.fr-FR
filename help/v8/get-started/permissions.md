@@ -2,12 +2,11 @@
 audience: end-user
 title: Gestion des autorisations dans l'interface utilisateur Web de Campaign
 description: En savoir plus sur les permissions dans l'interface utilisateur web de Campaign
-badge: label="Disponibilité limitée"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 97%
+source-wordcount: '601'
+ht-degree: 91%
 
 ---
 
@@ -67,11 +66,11 @@ Pour afficher les autorisations d’un dossier, procédez comme suit :
 1. Dans le menu de navigation de gauche **Explorateur**, sélectionnez un dossier.
 1. Cliquez sur les trois points dans le coin supérieur droit et sélectionnez **Autorisations de dossier**.
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Vérifiez les détails dans l’écran, comme ci-dessous :
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    Un groupe, un opérateur ou une opératrice, peut disposer des autorisations de lecture, d’écriture et/ou de suppression sur les données stockées dans le dossier sélectionné.
 
@@ -96,8 +95,8 @@ Pour créer un dossier, procédez comme suit :
 1. Cliquez sur les trois points dans le coin supérieur droit et choisissez **Créer un sous-dossier**.
 1. Saisissez le nom du dossier et enregistrez-le.
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   Le dossier est ajouté en tant que sous-dossier du dossier actuel. Accédez à ce nouveau dossier pour y créer des composants directement. Vous pouvez également créer un composant à partir de n’importe quel dossier, puis l’enregistrer dans ce nouveau dossier, à partir de la section **Options supplémentaires** des propriétés, comme illustré ci-dessous pour une diffusion :
+   Le dossier est ajouté en tant que sous-dossier du dossier actuel. Accédez à ce nouveau dossier pour y créer des composants directement. Vous pouvez également créer un composant à partir de n’importe quel dossier, puis l’enregistrer dans ce nouveau dossier, à partir de l’événement **Options supplémentaires** de la section des propriétés, comme illustré ci-dessous pour une diffusion :
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

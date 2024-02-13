@@ -1,12 +1,11 @@
 ---
 title: Utiliser des filtres prédéfinis
-description: Découvrez comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
-badge: label="Disponibilité limitée"
+description: Découvrir comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 93%
+source-wordcount: '816'
+ht-degree: 76%
 
 ---
 
@@ -36,12 +35,7 @@ Les filtres prédéfinis sont des filtres personnalisés qui sont créés et enr
 
 Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-ensemble spécifique de vos données ou créer vos propres filtres prédéfinis et les enregistrer.
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
-
->[!IMPORTANT]
->
->Dans cette version du produit, lors de la création de règles, de la sélection de l’audience d’une diffusion ou de la création d’une audience dans un workflow, certains filtres prédéfinis ne sont pas disponibles dans l’interface utilisateur. Vous pouvez toujours les utiliser. [En savoir plus](guardrails.md#predefined-filters-filters-guardrails-limitations)
-
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 ## Créer un filtre prédéfini {#create-predefined-filter}
 
@@ -62,11 +56,11 @@ Vous pouvez enregistrer un filtre personnalisé à partir du [concepteur de requ
 1. Ouvrez le concepteur de requête et définissez vos conditions de filtrage. Dans l’exemple ci-dessous, vous filtrez les personnes destinataires qui vivent à Madrid et qui ont un abonnement à une newsletter.
 1. Cliquez sur le bouton **Sélectionner ou enregistrer un filtre** et sélectionnez **Enregistrer en tant que filtre**.
 
-   ![](assets/predefined-filters-save.png)
+   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
 
 1. Sélectionnez **Créer un filtre**, puis saisissez un nom et une description pour ce filtre.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
 
    Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter).
 
@@ -86,12 +80,12 @@ Vous pouvez créer un filtre à partir de l’entrée **Filtres prédéfinis** d
 
 1. Définissez la règle pour le filtre. Par exemple, les profils de plus de 30 ans.
 
-   ![](assets/filter-30+.png)
+   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
 
 
 1. Enregistrez vos modifications.
 
-   ![](assets/new-filter.png)
+   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
 
 
 Le filtre est ajouté à la liste des filtres prédéfinis. Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter).
@@ -104,54 +98,51 @@ Lors de la création d’un filtre prédéfini, vous pouvez activer l’option *
 
 Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les utilisateurs et utilisatrices de la section **Filtres favoris** de la liste de création de filtre, comme illustré ci-dessous :
 
-![](assets/predefined-filters-favorite.png){width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
 
 ## Utiliser un filtre prédéfini {#use-predefined-filter}
 
 Les filtres prédéfinis sont disponibles lors de la définition des propriétés de règle. Pour accéder aux filtres prédéfinis, choisissez l’option **Sélectionner un filtre personnalisé** dans la liste déroulante du concepteur de requête.
 
-Vous pouvez ensuite accéder à la liste complète des filtres prédéfinis disponibles pour le contexte actuel.
-
-Vous pouvez également utiliser les raccourcis de filtrage disponibles dans la section **Filtres favoris** de la liste déroulante. Pour en savoir plus sur les favoris, consultez [cette section](#fav-filter).
+Vous pouvez ensuite accéder à la liste complète des filtres prédéfinis disponibles pour le contexte actuel et utiliser les raccourcis disponibles dans le **Filtres favoris** de la liste déroulante. Pour en savoir plus sur les favoris, consultez [cette section](#fav-filter).
 
 Par exemple, pour créer une audience à partir d’un filtre prédéfini, procédez comme suit :
 
-1. Parcourez l’entrée **Audiences** dans le menu de gauche.
-1. Cliquez sur le bouton **Créer une audience**.
+1. Accédez au **Audiences** dans le menu de gauche, puis cliquez sur l’icône **Création d’une audience** dans le coin supérieur gauche de la liste des audiences.
 1. Saisissez le nom de l’audience, puis cliquez sur le bouton **Créer une audience**.
-1. Sélectionnez l’activité **Requête**, puis, dans le volet de droite, cliquez sur le bouton **Créer une audience**.
+1. Sélectionnez la variable **Requête** puis, dans le volet de droite, cliquez sur l’icône **Créer une audience** bouton .
 
-   ![](assets/build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. À partir du **bouton Sélectionner ou enregistrer un filtre**, choisissez l’option **Sélectionner un filtre personnalisé**.
+1. Dans la **Sélectionner ou enregistrer un filtre** , choisissez la variable **Sélectionner un filtre personnalisé** .
 
-   ![](assets/build-audience-select-custom-filter.png)
+   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
 1. Accédez au filtre prédéfini à utiliser pour créer l’audience, sélectionnez-le et confirmez.
 
-   ![](assets/build-audience-filter-list.png)
+   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
 
 1. Vérifiez les propriétés de règle pour ce filtre et confirmez.
 
    Le filtre est désormais utilisé comme requête dans l’activité **Requête**.
 
-   ![](assets/build-audience-confirm.png)
+   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
 
 1. Enregistrez vos modifications et cliquez sur le bouton **Démarrer** pour créer l’audience et la rendre disponible dans la liste des audiences.
 
 ## Gérer vos filtres prédéfinis {#manage-predefined-filter}
 
-Les filtres prédéfinis sont tous regroupés dans l’entrée dédiée du menu de navigation de gauche.
+Tous les filtres prédéfinis sont regroupés dans l&#39;entrée dédiée du menu de navigation de gauche.
 
-![](assets/list-of-filters.png)
+![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-Dans cette liste, vous pouvez créer un nouveau filtre, comme décrit ci-dessus, et :
+Dans cette liste, vous pouvez créer un nouveau filtre comme décrit ci-dessus et effectuer les actions répertoriées ci-dessous :
 
-* modifier un filtre existant, puis modifier ses règles et ses propriétés ;
-* dupliquer un filtre prédéfini ;
-* supprimer un filtre prédéfini.
+* Modifiez un filtre existant, ses règles et ses propriétés.
+* Dupliquez un filtre prédéfini.
+* Supprimer un filtre prédéfini.
 
-Vous pouvez ajouter un filtre prédéfini comme favori pour un accès rapide lors de la création de vos audiences. En savoir plus dans [cette section](#fav-filter).
+Vous pouvez également ajouter un filtre prédéfini comme favori pour un accès rapide lors de la création de vos audiences. En savoir plus dans [cette section](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
