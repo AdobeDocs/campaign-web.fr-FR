@@ -3,11 +3,10 @@ audience: end-user
 title: Prévisualiser le contenu de la diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion à l'aide de l'interface utilisateur Web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Disponibilité limitée"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 80%
+source-wordcount: '359'
+ht-degree: 67%
 
 ---
 
@@ -22,13 +21,9 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. Pour sélectionner les profils qui seront utilisés pour prévisualiser votre contenu personnalisé, utilisez les options suivantes :
-
-   * **[!UICONTROL Ajouter un ou plusieurs profils de test]** pour prévisualiser les diffusions par e-mail et par SMS.
-
-   * **[!UICONTROL Ajouter un ou plusieurs abonnés]** pour prévisualiser les notifications push.
+1. Sélectionnez les profils à utiliser pour prévisualiser votre contenu. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]** (pour les emails et les SMS) ou le bouton **[!UICONTROL Ajouter des abonnés]** (pour les notifications push).
 
 1. Vous pouvez combiner des profils et des profils de test pour prévisualiser votre email ou votre SMS.
 
@@ -36,19 +31,17 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
    * La variable **[!UICONTROL Profils]** répertorie tous les profils stockés dans votre base de données. [Découvrez comment utiliser des profils](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. Lorsque vous parcourez le profil de test ou la liste des profils, vous pouvez ajouter des filtres pour affiner votre recherche.
+1. Lorsque vous parcourez les listes de profils ou de profils de test, vous pouvez utiliser des filtres pour affiner votre recherche. Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. [Découvrez comment ajouter des règles à l’aide du créateur de modèles de requête](../query/query-modeler-overview.md).
 
-   ![](assets/simulate-test-profile-filter.png)
-
-   Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. [Découvrez comment ajouter des règles à l’aide du créateur de modèles de requête](../query/query-modeler-overview.md).
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** pour confirmer votre sélection.
 
    Un aperçu du contenu de la diffusion s’affiche dans le volet de droite de l’écran **[!UICONTROL Simuler]**. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche.
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. Si vous avez ajouté plusieurs profils, vous pouvez passer d’un profil à l’autre dans la liste pour prévisualiser le contenu de la diffusion correspondante. Vous pouvez également ajouter d’autres profils de test et effacer votre sélection à l’aide des boutons correspondants dans le volet de gauche.
 

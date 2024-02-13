@@ -3,11 +3,10 @@ audience: end-user
 title: À propos de la prévisualisation et du test des diffusions
 description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Disponibilité limitée"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 72%
+source-wordcount: '198'
+ht-degree: 59%
 
 ---
 
@@ -20,11 +19,9 @@ ht-degree: 72%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=fr" text="Envoyer des diffusions test"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test des landing pages"
 
-Une fois le contenu de votre diffusion défini, vous pouvez utiliser des profils et des profils de test pour le prévisualiser et le tester avant d&#39;envoyer le message.
+Une fois le contenu de votre diffusion défini, vous pouvez utiliser des profils et des profils de test pour le prévisualiser et le tester avant d&#39;envoyer le message. Il s’agit d’une étape essentielle pour s’assurer qu’elle est exacte, mais également exempte d’erreurs dans les paramètres de contenu et de personnalisation.
 
-Il s’agit d’une étape cruciale pour s’assurer qu’il est exact, mais également exempt d’erreurs au niveau du contenu et des paramètres de personnalisation.
-
-Pour ce faire, [!DNL Adobe Campaign] vous permet d’effectuer les opérations suivantes :
+[!DNL Adobe Campaign Web user interface] vous permet d’effectuer les opérations suivantes :
 
 * [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
 * [Envoyer des diffusions test](test-deliveries.md) (BAT) à des destinataires ou des abonnés et abonnées spécifiques à des fins de test et de validation
@@ -33,7 +30,7 @@ Pour ce faire, [!DNL Adobe Campaign] vous permet d’effectuer les opérations s
 
 Ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simuler le contenu]**, accessible à partir de l’écran Modifier le contenu de la diffusion ou du [concepteur d’e-mail](../email/get-started-email-designer.md).
 
-![](assets/simulate-button.png)
+![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
