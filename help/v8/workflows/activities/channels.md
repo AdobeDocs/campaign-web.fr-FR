@@ -4,7 +4,7 @@ title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push ou SMS).
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
 ht-degree: 100%
 

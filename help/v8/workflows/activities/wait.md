@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow d’attente
 description: Découvrez comment utiliser l’activité de workflow d’attente.
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 

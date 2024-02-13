@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Enregistrer l’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
 ht-degree: 100%
 
