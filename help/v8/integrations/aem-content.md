@@ -2,9 +2,9 @@
 audience: end-user
 title: Gestion des ressources avec Adobe Experience Manager as a Cloud Service
 description: Découvrez comment gérer le contenu avec Adobe Experience Manager as a Cloud Service
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '508'
 ht-degree: 11%
 
 ---
@@ -81,7 +81,7 @@ Une fois que le modèle de Experience Manager est disponible dans Adobe Campaign
 
    ![](assets/aem_8.png)
 
-1. Si des modifications sont apportées à vos modèles directement dans Adobe Experience Manager, sélectionnez simplement **[!UICONTROL Actualiser AEM contenu]** pour disposer de la dernière version de votre modèle.
+1. Notez que le contenu n’est pas automatiquement synchronisé. Si des modifications sont apportées à vos modèles directement dans Adobe Experience Manager, sélectionnez simplement **[!UICONTROL Actualiser AEM contenu]** pour disposer de la dernière version de votre modèle.
 
 1. Pour supprimer la liaison entre Experience Manager et Campaign ou personnaliser davantage votre modèle de Experience Manager dans le Concepteur d&#39;email, cliquez sur **[!UICONTROL Dissocier AEM contenu]**.
 
