@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec Adobe Campaign Web
 description: Commencer avec Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 76%
+source-wordcount: '543'
+ht-degree: 74%
 
 ---
 
@@ -46,10 +46,6 @@ Cette nouvelle interface utilisateur Web répond tout d’abord aux besoins des 
 
 En tant qu&#39;administrateur ou utilisateur expert, si vous devez accéder aux fonctionnalités de Campaign v8 qui ne sont pas disponibles dans l&#39;interface utilisateur Web de Campaign, vous pouvez vous connecter à la [console cliente](#ac-client).
 
-
->[!NOTE]
->
->Adobe Campaign Web est actuellement en version Disponibilité limitée. Cela signifie que l’accès est limité à un petit groupe de clientes et clients. Notez que l’interface, les fonctionnalités et les flux d’utilisation du produit peuvent changer sans préavis.
 
 Découvrez comment vous connecter à Adobe Campaign Web sur [cette page](connect-to-campaign.md).
 
