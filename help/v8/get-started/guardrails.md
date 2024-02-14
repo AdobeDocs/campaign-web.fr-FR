@@ -1,15 +1,15 @@
 ---
-title: Barrières de sécurité et limitations de l’interface utilisateur Web de Campaign
-description: Barrières de sécurité et limitations de l’interface utilisateur Web de Campaign
+title: Barrières de sécurité et limitations des workflows de l'interface utilisateur Web de Campaign
+description: Barrières de sécurité et limitations lors de l'utilisation de workflows dans l'interface utilisateur Web de Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 20%
+source-wordcount: '381'
+ht-degree: 19%
 
 ---
 
-# Mécanismes de sécurisation et limitations {#guardrails-limitations}
+# Barrières de sécurité et limites des workflows {#guardrails-limitations}
 
 Lorsque vous utilisez l&#39;interface utilisateur Web de Campaign avec des workflows créés ou modifiés dans la console cliente Campaign, les barrières de sécurité et limitations répertoriées ci-dessous s&#39;appliquent.
 

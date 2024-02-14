@@ -3,10 +3,10 @@ audience: end-user
 title: Nouveautés de l’interface utilisateur web de Campaign
 description: Découvrez les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 65%
+source-wordcount: '1308'
+ht-degree: 62%
 
 ---
 
@@ -130,11 +130,13 @@ En savoir plus dans [cette section](../msg/offers.md).
 
 ## Transition vers l’interface utilisateur Web de Campaign
 
-En tant qu’utilisateur ou utilisatrice de Campaign, vous pouvez toujours accéder à la console cliente pour créer et gérer des ressources et des composants de Campaign. Les données et les paramètres sont synchronisés d’un environnement à un autre. En savoir plus dans [cette section](../get-started/get-started.md#about-campaign-client-consoleac-client).
+En tant qu’utilisateur ou utilisatrice de Campaign, vous pouvez toujours accéder à la console cliente pour créer et gérer des ressources et des composants de Campaign. Les données et les paramètres sont synchronisés d’un environnement à un autre. En savoir plus dans [cette section](../get-started/get-started.md#ac-client).
 
-De plus, toutes vos données et tous vos paramètres déjà disponibles dans la console cliente sont visibles dans l&#39;interface utilisateur Web de Campaign, à partir du volet de navigation de gauche de l&#39;Explorateur. En savoir plus sur la vue Explorateur dans [cette section](../get-started/user-interface.md#explorer-user-interface-explorer).
+De plus, toutes vos données et tous vos paramètres déjà disponibles dans la console cliente sont visibles dans l&#39;interface utilisateur Web de Campaign, à partir du volet de navigation de gauche de l&#39;Explorateur. En savoir plus sur la vue Explorateur dans [cette section](../get-started/user-interface.md#user-interface-explorer).
 
-Avec l’interface utilisateur Web de Campaign, l’interface utilisateur reflète les autorisations de l’utilisateur. Pour en savoir plus sur les autorisations, consultez [cette page](../get-started/permissions.md).
+Avec l’interface utilisateur Web de Campaign, l’interface utilisateur reflète les autorisations de l’utilisateur. En savoir plus sur les autorisations dans [cette page](../get-started/permissions.md).
+
+Fonctionnalités prises en charge et non prises en charge et interopérabilité entre l’interface utilisateur Web de Campaign et la console cliente Campaign [dans cette page](../get-started/capability-matrix.md).
 
 ## Mises à jour de la terminologie {#terminology-updates}
 
@@ -156,4 +158,6 @@ Les restrictions ci-dessous s’appliquent à cette version :
 * Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes, mais la préparation de la diffusion est en temps réel.
 * Les notifications d’Adobe Experience Cloud et l’aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
 
-En savoir plus sur les fonctionnalités prises en charge/non prises en charge et l&#39;interopérabilité entre l&#39;interface utilisateur Web de Campaign et la console cliente Campaign, [dans cette page](../get-started/capability-matrix.md).
+Lorsque vous utilisez l&#39;interface utilisateur Web de Campaign avec des workflows créés ou modifiés dans la console cliente Campaign, des barrières de sécurité et des limitations spécifiques s&#39;appliquent. Ils sont répertoriés [dans cette section](../get-started/guardrails.md).
+
+En savoir plus sur les fonctionnalités prises en charge/non prises en charge et l&#39;interopérabilité entre l&#39;interface utilisateur Web de Campaign et la console cliente Campaign [dans cette page](../get-started/capability-matrix.md).
