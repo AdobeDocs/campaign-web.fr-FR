@@ -1,10 +1,10 @@
 ---
 title: Commencer avec les profils
 description: Découvrez comment surveiller et gérer les profils dans Campaign Web.
-source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 54%
+source-wordcount: '549'
+ht-degree: 52%
 
 ---
 
@@ -38,6 +38,8 @@ De plus, **[!UICONTROL profils de test]**, identifié comme &quot;profils de con
 
 Les profils et les profils de test peuvent être utilisés pour tester vos diffusions avant qu’elles n’atteignent l’audience prévue. Ce faisant, vous pouvez prévisualiser le contenu et la personnalisation du message, envoyer des bons à tirer pour le test et la validation, évaluer le rendu des emails sur différentes plateformes et périphériques et tester vos landing pages. [Découvrez comment prévisualiser et tester des diffusions](../preview-test/preview-test.md)
 
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+
 ## Accéder à la liste des profils {#access}
 
 Les profils sont accessibles et modifiables dans Adobe Campaign Web à partir de la **[!UICONTROL Gestion des clients]** > **Profils** dans le rail de navigation de gauche. Vous pouvez également y accéder dans la **[!UICONTROL Explorateur]** de la vue **[!UICONTROL Profils et cibles]** > **[!UICONTROL Destinataires]** noeud . De là, vous pouvez parcourir, créer et gérer des dossiers ou des sous-dossiers, ainsi que vérifier les autorisations associées. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
@@ -53,3 +55,9 @@ Vous pouvez filtrer la liste **[!UICONTROL Profils]** à l’aide du champ de re
 Pour accéder aux détails d’un profil, cliquez sur son nom dans la liste. Une vue détaillée du profil s’ouvre, vous permettant d’explorer ses attributs et les services auxquels il s’est abonné. [Découvrir comment explorer les détails des profils](create-profile.md)
 
 Pour supprimer un profil, sélectionnez l’option correspondante dans le menu **[!UICONTROL Plus d’actions]**.
+
+## Vidéo pratique {#video}
+
+Découvrez comment accéder aux profils, les gérer et les explorer à l’aide de l’interface utilisateur Web de Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
