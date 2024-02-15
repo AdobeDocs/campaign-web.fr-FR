@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec Adobe Campaign Web
 description: Commencer avec Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 74%
+source-wordcount: '580'
+ht-degree: 70%
 
 ---
 
@@ -37,6 +37,7 @@ En utilisant Campaign, vous pouvez :
 * **Intégrer** les canaux e-mail, mobiles, en ligne et hors ligne au parcours client
 * **Automatiser** la diffusion de messages et d&#39;offres pertinents et opportuns
 
+## Découvrir l&#39;interface utilisateur Web de Campaign {#web}
 
 Initialement accessible uniquement par le biais d’une [console cliente](#ac-client), Campaign offre à présent une nouvelle interface utilisateur web avec une convivialité et une accessibilité accrues, ainsi qu’une nouvelle conception qui améliore considérablement votre expérience en tant que client ou cliente. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
@@ -46,8 +47,9 @@ Cette nouvelle interface utilisateur Web répond tout d’abord aux besoins des 
 
 En tant qu&#39;administrateur ou utilisateur expert, si vous devez accéder aux fonctionnalités de Campaign v8 qui ne sont pas disponibles dans l&#39;interface utilisateur Web de Campaign, vous pouvez vous connecter à la [console cliente](#ac-client).
 
-
 Découvrez comment vous connecter à Adobe Campaign Web sur [cette page](connect-to-campaign.md).
+
+➡️ [Découvrir le Web d&#39;une campagne en vidéo](#video)
 
 ## À propos de la console cliente Campaign {#ac-client}
 
@@ -58,3 +60,9 @@ Les données de Campaign sont stockées dans le serveur d’applications. Les do
 Certains objets ne peuvent être créés et gérés que dans la console cliente. Ils peuvent être visibles et utilisés dans l&#39;interface utilisateur Web de Campaign, mais ne peuvent pas être créés ni modifiés à partir de cet environnement. Tous les objets et composants de Campaign sont disponibles dans la vue Explorateur, à partir du volet de navigation de gauche.
 
 Pour plus d’informations sur l’utilisation de Campaign v8 avec sa console cliente, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"}.
+
+## Vidéo pratique {#video}
+
+Découvrez comment accéder à l&#39;interface utilisateur Web de Campaign et naviguer dans celle-ci, et comment personnaliser les listes de stock. Découvrez l’assistant de connaissances optimisé par l’IA.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
