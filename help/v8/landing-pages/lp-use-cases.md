@@ -1,17 +1,16 @@
 ---
-solution: Journey Optimizer, Campaign, Campaign v8 Web User Interface
-product: journey optimizer
+solution: Campaign, Campaign v8 Web User Interface
 title: Cas d’utilisation de l’URL de la page de destination
-description: Découvrir les cas d’utilisation les plus courants pour les pages de destination dans Journey Optimizer
+description: Découvrez les cas pratiques les plus courants avec les landing pages dans l'interface utilisateur web de Campaign
 feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
-source-git-commit: 3dcd4631a79ce2752e829f8259e0de1177f21984
+source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 12%
+source-wordcount: '1309'
+ht-degree: 11%
 
 ---
 
