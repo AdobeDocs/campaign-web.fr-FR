@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 99%
+source-wordcount: '672'
+ht-degree: 91%
 
 ---
 
@@ -90,6 +90,12 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
+>[!TAB Intégration de Adobe Experience Manager as a Cloud Service]
+
+L’intégration entre l’interface web d’Adobe Campaign et Adobe Experience Manager as a Cloud Service simplifie la gestion du contenu des emails. Vous pouvez maintenant créer et modifier le contenu d&#39;un email directement dans Adobe Experience Manager, puis importer facilement les modèles terminés dans Adobe Campaign pour vos diffusions.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB Workflows cross-canal]
 
 Bénéficiez de nouvelles fonctionnalités d’automatisation et d’optimisation qui vous permettront de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
@@ -107,12 +113,6 @@ Créez des audiences dans une zone de travail visuelle de workflow. En plus de c
 Le Concepteur d’e-mail de Campaign vous permet de créer des e-mails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !
 
 [![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB Profil 360]
-
-Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, modifier et mettre à jour votre profil.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 
