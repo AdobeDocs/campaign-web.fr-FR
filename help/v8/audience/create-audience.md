@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 100%
+source-wordcount: '928'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,8 @@ ht-degree: 100%
 Campaign Web vous permet de créer de nouvelles audiences dans une zone de travail visuelle de workflow. En plus de commencer de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Vous pouvez par exemple combiner plusieurs audiences en une seule, enrichir votre audience avec des attributs externes ou la diviser en plusieurs audiences en fonction des règles de votre choix.
 
 Une fois que vous avez conçu votre workflow, les audiences résultantes sont automatiquement stockées dans la base de données Campaign avec les audiences existantes. Ces audiences peuvent ensuite être ciblées dans des workflows ou des diffusions autonomes.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Créer votre première audience {#create}
 
@@ -104,3 +106,9 @@ Par défaut, la réexécution d’un workflow d’audience remplace l’ensemble
 Si vous préférez ne pas remplacer les résultats de l’audience existante, configurez les activités **Enregistrer une audience** pour qu’elles correspondent à vos besoins. Par exemple, vous pouvez modifier le champ **Libellé de l’audience** pour stocker les nouveaux résultats dans une nouvelle audience ou pour ajouter les nouveaux résultats au contenu de l’audience existante sans effacer les données précédentes. [Découvrir comment configurer une activité Enregistrer une audience](../workflows/activities/save-audience.md)
 
 ![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
+
+## Vidéo pratique {#video}
+
+Découvrez comment créer et gérer des audiences, comment sélectionner des audiences pour une diffusion et définir des populations témoins.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
