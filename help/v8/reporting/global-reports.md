@@ -3,16 +3,18 @@ audience: end-user
 title: Prise en main des rapports globaux
 description: Comprendre les rapports globaux
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 86%
 
 ---
 
 # Prise en main des rapports globaux {#global-report-gs}
 
 Les **rapports globaux** constitue un outil efficace, offrant un résumé global consolidé des mesures de trafic et d’engagement pour chaque canal de votre instance Campaign. Ces rapports se composent de différents widgets, chacun offrant une perspective différente des performances de vos campagnes ou diffusions.
+
+Les indicateurs de performance clés (IPC) sont actualisés toutes les heures, ce qui permet d’obtenir des informations à jour. Par défaut, les données sont filtrées pour couvrir les 30 derniers jours, offrant ainsi une perspective actuelle et pertinente sur les performances de vos campagnes et diffusions.
 
 La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
 
