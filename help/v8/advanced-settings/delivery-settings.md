@@ -60,7 +60,7 @@ Les typologies vous permettent de vous assurer que vos e-mails contiennent toujo
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
 >title="Poids de la diffusion"
->abstract="Les poids de chaque diffusion permettent d’identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
+>abstract="Le poids des diffusions permet d’identifier les diffusions prioritaires dans le cadre de la gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
 
 Dans cette section, les paramètres de pression vous permettent de définir un **seuil** pour configurer des règles de gestion d’usure, qui est le nombre maximal de messages pouvant être envoyés à un profil sur une période donnée.
 
