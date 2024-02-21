@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier.
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 93%
 
 ---
 
@@ -51,6 +51,17 @@ ht-degree: 100%
 >id="acw_orchestration_loadfile_formatting"
 >title="Mise en forme de l’activité Chargement de fichier"
 >abstract="Mise en forme de l’activité Chargement de fichier"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetfile"
+>title="Fichier cible pour l’activité Chargement de fichier"
+>abstract="Fichier cible pour l’activité Chargement de fichier"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_valueremapping"
+>title="Remappage de valeurs pour l’activité Chargement de fichier"
+>abstract="Remappage de valeurs pour l’activité Chargement de fichier"
+
 
 L’activité **Chargement de fichier** est une activité de **Data Management**. Utilisez-la lorsque vous travaillez avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour la [personnalisation](../../personalization/gs-personalization.md) ou la mise à jour des profils ou des tables.
 

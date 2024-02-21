@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion E-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 98%
+source-wordcount: '2329'
+ht-degree: 95%
 
 ---
 
@@ -30,12 +30,11 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 
 Le graphe **[!UICONTROL Population cible initiale]** affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de destinataires exclus.
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
 Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre exact.
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
@@ -48,16 +47,14 @@ Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre
 
 ### Statistiques de diffusion {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Statistiques de diffusion"
 >abstract="Le graphe **Statistiques de diffusion** détaille le succès de votre diffusion et les erreurs qui se sont produites."
 
-
 Le graphe **[!UICONTROL Statistiques de diffusion]** détaille le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -147,7 +144,12 @@ Le tableau **[!UICONTROL Statistiques de domaine]** contient les données dispon
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Répartition des erreurs par type"
->abstract="Le tableau et le graphe **Répartition des erreurs par type** contiennent les données disponibles pour chaque type d’erreur rencontré : utilisateur inconnu ou utilisatrice inconnue, boîte pleine, domaine non valide, etc."
+>abstract="La variable **Ventilation des erreurs par type** Le graphique contient les données disponibles pour chaque type d’erreur rencontré : utilisateur inconnu, boîte pleine, domaine non valide, etc."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Répartition des erreurs par type"
+>abstract="La variable **Ventilation des erreurs par type** Le tableau fournit une ventilation complète de l’occurrence de chaque type d’erreur."
 
 Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** contiennent les données disponibles pour chaque type d’erreur. Les mesures sont détaillées ci-dessous.
 
@@ -173,15 +175,17 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 
 +++
 
-
 ### Répartition des erreurs par domaine {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Répartition des erreurs par domaine"
->abstract="Le tableau et le graphe **Répartition des erreurs par domaine** affichent les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
+>abstract="La variable **Ventilation des erreurs par domaine** Le graphique affiche les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Répartition des erreurs par domaine"
+>abstract="La variable **Ventilation des erreurs par domaine** Le tableau fournit une ventilation complète de l’occurrence de chaque erreur en fonction du domaine utilisé."
 
 Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** affichent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 
