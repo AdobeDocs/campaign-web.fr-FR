@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
+source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 95%
+source-wordcount: '1687'
+ht-degree: 93%
 
 ---
 
@@ -371,3 +371,49 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Transition sortante des services d&#39;abonnements"
 >abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="Load File Commande"
+>abstract="Autoriser une commande arbitraire pour le prétraitement est un problème de sécurité. Désactivez l’option de sécurité XtkSecurity_Disable_Preproc pour forcer l’utilisation d’une liste prédéfinie de commandes."
+
+
+
+
+<!--Update file-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata"
+>title="Mettre à jour les données"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_operationtype"
+>title="Mettre à jour les données"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_recordid"
+>title="Mettre à jour les données"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_fieldsupdate"
+>title="Mettre à jour les données"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_advancedoptions"
+>title="Mettre à jour les données"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition"
+>title="Mettre à jour les données"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition_rejects"
+>title="Mettre à jour les données"
+>abstract="TBC"
+
