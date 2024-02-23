@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -292,7 +292,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 >abstract="Le tableau et le graphe des **10 liens les plus visités** contiennent les données disponibles pour le comportement des destinataires par lien."
 
 
-Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contiennent les données disponibles pour le comportement des destinataires par lien.
+Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contiennent les données disponibles pour le comportement des personnes destinataires par lien.
 
 ![](assets/reporting_email_8.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -313,7 +313,7 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 >abstract="Le graphe **Répartition des clics dans le temps** contient les données disponibles sur le comportement des destinataires par lien."
 
 
-Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des destinataires par lien.
+Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des personnes destinataires par lien.
 
 ![](assets/reporting_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 

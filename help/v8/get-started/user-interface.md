@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ Vous pouvez configurer des colonnes pour personnaliser l’affichage afin de con
 
 Pour plus d’informations sur l’explorateur Campaign, la hiérarchie des dossiers et les ressources, reportez-vous à la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=fr#ac-explorer-ui){target="_blank"}.
 
-### Campaign Management {#user-interface-campaign-management}
+### Gestion de campagne {#user-interface-campaign-management}
 
 Dans la section GESTION DE CAMPAGNES, vous pouvez accéder aux campagnes marketing, aux diffusions et aux workflows.
 
@@ -120,7 +120,7 @@ Une aide contextuelle est disponible dans l’interface. Si elle est présente, 
 
 ![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
-Disponible actuellement en version bêta dans la nouvelle interface utilisateur Web de Campaign, le **Assistant de connaissances optimisé par l&#39;IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation, en repérant instantanément les informations précises dont vous avez besoin.
+Actuellement présent en version bêta dans la nouvelle interface utilisateur web de Campaign, l’**assistant de connaissances optimisé par l’IA** incorporé dans l’aide contextuelle révolutionne la recherche de documentation et la réponse aux questions pratiques en analysant facilement de vastes référentiels de documentation grâce à l’identification instantanée des informations précises dont vous avez besoin.
 
 Grâce aux fonctionnalités de l’IA générative de Campaign, cet assistant transforme votre expérience, en facilitant la récupération d’informations et la résolution de problèmes. Que vous soyez à la recherche de conseils dans une tâche complexe ou que vous parcouriez des documents volumineux, notre assistant de connaissances optimisé par l’IA devient votre meilleur compagnon, en vous offrant une efficacité et une précision inégalées à chaque interaction.
 
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Modifier la source de données"
->abstract="La variable **Modifier la source de données** l’activité vous permet de sélectionner une autre source de données pour la table de travail de votre workflow."
+>abstract="L’activité **Modifier la source de données** vous permet de sélectionner une autre source de données pour la table de travail de votre workflow."
 
 
 <!--
@@ -359,17 +359,17 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Services d&#39;abonnements"
+>title="Services d’abonnements"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Paramètres des services d’abonnement"
+>title="Paramètres de services d’abonnements"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
->title="Transition sortante des services d&#39;abonnements"
+>title="Transition sortante des services d’abonnements"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

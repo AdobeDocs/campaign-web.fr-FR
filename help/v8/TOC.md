@@ -1,21 +1,21 @@
 ---
 audience: end-user
 user-guide-title: Interface utilisateur web d’Adobe Campaign
-user-guide-description: Documentation produit de l’interface utilisateur web d’Adobe Campaign.
+user-guide-description: Documentation du produit pour l’interface utilisateur web d’Adobe Campaign.
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
-breadcrumb-title: Interface utilisateur Web de Campaign
+breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Documentation d’Adobe Campaign Web {#v8}
 
-+ [Documentation de l’interface utilisateur web d’Adobe Campaign](campaign-web-home.md)
++ [Documentation de l’interface utilisateur web d’Adobe Campaign](campaign-web-home.md)
 + [Nouveautés](rn/whats-new.md)
 + [Mises à jour de la documentation](rn/documentation-updates.md)
 + Prise en main d’Adobe Campaign {#start}
@@ -25,7 +25,7 @@ ht-degree: 93%
    + [Parcourir et filtrer les listes](get-started/list-filters.md)
    + [Utiliser des filtres prédéfinis](get-started/predefined-filters.md)
    + [Accès et autorisations](get-started/permissions.md)
-   + [Console cliente Campaign Web et Campaign](get-started/capability-matrix.md)
+   + [Campaign Web et console cliente Campaign](get-started/capability-matrix.md)
    + [Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
 + Messages et diffusions {#msg}
    + [Prise en main des messages](msg/gs-messages.md)
@@ -91,7 +91,7 @@ ht-degree: 93%
    + [Créer et publier une page de destination](landing-pages/create-lp.md)
    + [Modifier le contenu d’une page de destination](landing-pages/lp-content.md)
    + [Utiliser des modèles de page de destination](landing-pages/lp-templates.md)
-   + [Découvrez les cas d’utilisation](landing-pages/lp-use-cases.md)
+   + [Apprendre avec des cas d’utilisation](landing-pages/lp-use-cases.md)
 + Profils et audiences {#audiences}
    + [Prise en main des profils et des audiences](audience/gs-audiences-recipients.md)
    + [Dimensions de ciblage](audience/targeting-dimensions.md)
@@ -107,7 +107,7 @@ ht-degree: 93%
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
-      + [Configurer une population témoin](audience/control-group.md)
+      + [Définir une population témoin](audience/control-group.md)
    + Utiliser des services d’abonnement {#work-with-services}
       + [Créer et gérer des services d’abonnement](audience/manage-services.md)
       + [Gérer des personnes abonnées](audience/manage-subscribers.md)
@@ -168,5 +168,5 @@ ht-degree: 93%
       + [Rapport global par SMS](reporting/global-report-sms.md)
 + Intégrations {#integrations}
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
-   + [Gestion des modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 

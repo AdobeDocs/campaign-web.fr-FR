@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Configurer une population témoin
-description: Découvrez comment définir une population témoin pour vos messages dans l'interface utilisateur Web de Campaign
+title: Définir une population témoin
+description: Découvrez comment définir une population témoin pour vos messages dans l’interface utilisateur web de Campaign.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
-# Configurer une population témoin {#control-group}
+# Définir une population témoin {#control-group}
 
 Une population témoin est une sous-population exclue de la diffusion. Définissez une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option vous aide à mesurer l’impact de votre campagne.
 
@@ -94,7 +94,7 @@ Après la préparation de la diffusion, vous pouvez vérifier comment les exclus
     ![](assets/control-group6.png){zoomable="yes"}
 -->
 
-* L’onglet **Causes d’exclusions** affichent le nombre de profils exclus pour chaque règle de typologie.
+* L’onglet **Causes d’exclusions** affiche le nombre de profils exclus pour chaque règle de typologie.
 
   ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 

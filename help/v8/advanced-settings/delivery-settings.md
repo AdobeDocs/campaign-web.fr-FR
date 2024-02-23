@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
 source-wordcount: '2417'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Ces paramètres sont disponibles à partir du bouton **Paramètres** disponible 
 >abstract="Les règles de typologie permettent aux spécialistes marketing de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation. La création de typologies et de règles de typologie s’effectue dans la console cliente Campaign."
 
 
-Les typologies sont des ensembles de **règles de typologie** qui sont exécutées pendant la phase de préparation afin d’appliquer facilement plusieurs règles de filtrage en même temps à une diffusion. Elles permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales pour toutes les diffusions, car elles leur permettent de contrôler, filtrer et gérer la priorité de l’envoi des diffusions.
+Les typologies sont des ensembles de **règles de typologie** qui sont exécutées pendant la phase de préparation afin d’appliquer facilement plusieurs règles de filtrage en même temps à une diffusion. Elles permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales pour toutes les diffusions, en contrôlant, filtrant et gérant la priorité de l’envoi des diffusions.
 
 Lors de l’association d’une typologie à un message ou à un modèle de message, les règles de typologie incluses dans la typologie sont exécutées pour vérifier la validité du message durant la préparation de celui-ci. Les profils qui correspondent à des critères inclus dans une règle de typologie sont exclus des audiences de diffusion.
 
@@ -125,7 +125,7 @@ Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des pe
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Paramètres de diffusion de la diffusion"
->abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez modifier les modes de diffusion et de routine, activer Email Cci, envoyer par vagues et choisir le format des emails envoyés. Ces options sont limitées aux personnes expertes uniquement."
+>abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez modifier les modes de diffusion et de routine, activer E-mail Cci, envoyer par vagues et choisir le format des e-mails envoyés. Ces options sont limitées aux personnes expertes uniquement."
 
 Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qui s’appliquent à votre diffusion.
 
@@ -133,23 +133,23 @@ Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qu
 
 Le compte externe de **[!UICONTROL Routage]** d’e-mails intégré est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
-Vous pouvez définir la variable **[!UICONTROL Envoi]** les paramètres ci-dessous.
+Vous pouvez définir les paramètres d’**[!UICONTROL Envoi]** ci-dessous.
 
-* **[!UICONTROL Priorité de diffusion]**: utilisez cette option pour modifier l&#39;ordre d&#39;envoi de vos diffusions en définissant leur niveau de priorité : normal, élevé ou faible.
+* **[!UICONTROL Priorité de diffusion]** : utilisez cette option pour modifier l’ordre d’envoi de vos diffusions en configurant leur niveau de priorité : normal, élevé ou faible.
 
-* **[!UICONTROL Quantité de lot de messages]**: utilisez cette option pour définir le nombre de messages regroupés dans le même package de diffusion XML. Si le paramètre est défini sur 0, les messages sont automatiquement regroupés. La taille du paquet est définie par le calcul `<delivery size>/1024`, avec un minimum de 8 messages et un maximum de 256 messages par package.
+* **[!UICONTROL Nombre de messages groupés]** : utilisez cette option pour définir le nombre de messages regroupés dans un même package d’envoi XML. Si le paramètre est défini sur 0, les messages sont automatiquement regroupés. La taille du paquet est définie par le calcul `<delivery size>/1024`, avec un minimum de 8 messages et un maximum de 256 messages par package.
 
   >[!IMPORTANT]
   >
   >Lorsque vous créez la diffusion en dupliquant une diffusion existante, vous réinitialisez également ce paramètre.
 
-* **[!UICONTROL Test de la diffusion par SMTP]** : cette option vous permet de tester l’envoi via SMTP. La diffusion est traitée jusqu&#39;à la connexion au serveur SMTP, mais n&#39;est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+* **[!UICONTROL Test de la diffusion par SMTP]** : cette option vous permet de tester l’envoi via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque personne destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
 * **[!UICONTROL E-mail Cci]** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible de vos messages. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
-Dans le **[!UICONTROL Définition des vagues]** , sélectionnez **[!UICONTROL Envoyer en plusieurs vagues]** pour augmenter progressivement le volume envoyé à l’aide des vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. [En savoir plus](send-using-waves.md)
+Dans la section **[!UICONTROL Définition de vague]**, sélectionnez l’option **[!UICONTROL Envoyer en plusieurs vagues]** pour augmenter progressivement le volume envoyé par vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. [En savoir plus](send-using-waves.md)
 
-Vous pouvez également modifier la variable **[!UICONTROL Formats de messagerie]** des emails envoyés, comme décrit ci-dessous.
+Vous pouvez également modifier les **[!UICONTROL Formats des e-mails]** des e-mails envoyés comme décrit ci-dessous.
 
 * **[!UICONTROL Tenir compte des préférences des personnes destinataires]** (mode par défaut)
 

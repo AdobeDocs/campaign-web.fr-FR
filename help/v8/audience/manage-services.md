@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 Utilisez Adobe Campaign Web pour créer et surveiller vos services tels que les newsletters, ainsi que pour vérifier les abonnements et désabonnements relatifs à ces services.
 
-Plusieurs services peuvent être définis en parallèle, comme les newsletters spécialisées dans certaines catégories de produits, certains thèmes ou certaines rubriques d’un site Web, les abonnements à divers types de messages d’alerte et les notifications en temps réel.
+Plusieurs services peuvent être définis en parallèle, comme les newsletters spécialisées dans certaines catégories de produits, certains thèmes ou certaines rubriques d’un site web, les abonnements à divers types de messages d’alerte et les notifications en temps réel.
 
 >[!NOTE]
 >
@@ -69,9 +69,9 @@ Pour créer un service d’abonnement, procédez comme suit :
 
 1. Par défaut, les abonnements sont illimités.
 
-   Vous pouvez désactiver la variable **[!UICONTROL Durée de validité illimitée]** pour définir une durée de validité du service. Une fois la période de validité terminée :
-   * Aucun destinataire ne peut plus s&#39;abonner à ce service.
-   * Tous les abonnés à ce service sont automatiquement désabonnés.
+   Vous pouvez désactiver l’option **[!UICONTROL Période de validité illimitée]** pour définir une durée de validité du service. Une fois la période de validité terminée :
+   * Aucune personne destinataire ne peut plus s’abonner à ce service.
+   * Toutes les personnes abonnées à ce service sont automatiquement désabonnées.
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
@@ -110,7 +110,7 @@ Pour envoyer des messages de confirmation aux personnes qui s’abonnent à ou s
 
    >[!NOTE]
    >
-   >Si vous ne sélectionnez pas le mapping de ciblage **[!UICONTROL Abonnements]**, vos personnes abonnées ne recevront pas le message de confirmation. En savoir plus sur les mappings de ciblage dans [cette section](../audience/targeting-dimensions.md) .
+   >Si vous ne sélectionnez pas le mapping de ciblage **[!UICONTROL Abonnements]**, vos personnes abonnées ne recevront pas le message de confirmation. Pour plus d’informations sur les mappings de ciblage, consultez [cette section](../audience/targeting-dimensions.md).
 
 1. Modifiez le contenu de votre modèle de diffusion, enregistrez-le et fermez-le.
 
