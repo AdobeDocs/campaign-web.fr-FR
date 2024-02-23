@@ -4,7 +4,7 @@ title: Créer une audience unique pour une diffusion
 description: Découvrez comment créer une audience unique pour une diffusion.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Pour créer une nouvelle audience directement depuis une diffusion, procédez co
 
    ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
 
-1. Sélectionnez **Créez la vôtre**. Le concepteur de requête s’affiche. Il permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. [Découvrir comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
+1. Sélectionnez **Créer la vôtre**. Le concepteur de requête s’affiche. Il permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. [Découvrir comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
 
    ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
 

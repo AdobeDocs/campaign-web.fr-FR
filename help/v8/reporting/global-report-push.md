@@ -4,7 +4,7 @@ title: Rapports globaux du canal de notification push
 description: Comprendre les rapports globaux du canal de notification push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -107,4 +107,4 @@ Les types d’erreur de notifications push sont répertoriés dans la [documenta
 
 ![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
-Le rapport **[!UICONTROL Débit de diffusion]** offre des informations complètes sur l’efficacité du système de diffusion des notifications push, ainsi qu’un résumé détaillé des taux de succès et d’erreur sur une période donnée.
+Le rapport **[!UICONTROL Débit de diffusion]** offre des informations complètes sur l’efficacité du système de diffusion des notifications push, ainsi qu’un résumé détaillé des taux de réussite et d’erreur sur une période donnée.

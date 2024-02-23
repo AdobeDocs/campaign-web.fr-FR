@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Gestion des autorisations dans l'interface utilisateur Web de Campaign
-description: En savoir plus sur les permissions dans l'interface utilisateur web de Campaign
+title: Gestion des autorisations dans l’interface utilisateur web de Campaign
+description: En savoir plus sur les autorisations dans l’interface utilisateur web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -97,6 +97,6 @@ Pour créer un dossier, procédez comme suit :
 
    ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   Le dossier est ajouté en tant que sous-dossier du dossier actuel. Accédez à ce nouveau dossier pour y créer des composants directement. Vous pouvez également créer un composant à partir de n’importe quel dossier, puis l’enregistrer dans ce nouveau dossier, à partir de l’événement **Options supplémentaires** de la section des propriétés, comme illustré ci-dessous pour une diffusion :
+   Le dossier est ajouté en tant que sous-dossier du dossier actuel. Accédez à ce nouveau dossier pour y créer des composants directement. Vous pouvez également créer un composant à partir de n’importe quel dossier, puis l’enregistrer dans ce nouveau dossier, à partir de la section **Options supplémentaires** des propriétés, comme illustré ci-dessous pour une diffusion :
 
    ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

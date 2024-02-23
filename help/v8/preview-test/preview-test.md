@@ -4,9 +4,9 @@ title: À propos de la prévisualisation et du test des diffusions
 description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Prévisualiser et tester votre contenu"
->abstract="Une fois votre contenu défini, vous pouvez utiliser des profils et des profils de test pour le prévisualiser et le tester."
+>abstract="Une fois le contenu défini, prévisualisez-le et testez-le à l’aide de profils et de profils de test."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=fr" text="Envoyer des diffusions test"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test des landing pages"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=fr#test-landing-page" text="Tester des pages de destination"
 
-Une fois le contenu de votre diffusion défini, vous pouvez utiliser des profils et des profils de test pour le prévisualiser et le tester avant d&#39;envoyer le message. Il s’agit d’une étape essentielle pour s’assurer qu’elle est exacte, mais également exempte d’erreurs dans les paramètres de contenu et de personnalisation.
+Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils et les profils de test pour le prévisualiser et le tester avant d’envoyer le message. Il s’agit d’une étape cruciale pour s’assurer qu’il est exact, mais également exempt d’erreurs au niveau du contenu et des paramètres de personnalisation.
 
-[!DNL Adobe Campaign Web user interface] vous permet d’effectuer les opérations suivantes :
+[!DNL Adobe Campaign Web user interface] vous permet d’effectuer les opérations suivantes :
 
 * [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
 * [Envoyer des diffusions test](test-deliveries.md) (BAT) à des destinataires ou des abonnés et abonnées spécifiques à des fins de test et de validation
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
-* [Prévisualiser et tester vos landing pages](../landing-pages/create-lp.md#test-landing-page)
+* [Prévisualiser et tester vos pages de destination](../landing-pages/create-lp.md#test-landing-page)
 
-Ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simuler le contenu]**, accessible à partir de l’écran Modifier le contenu de la diffusion ou du [concepteur d’e-mail](../email/get-started-email-designer.md).
+Ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simuler le contenu]**, accessible à partir de l’écran Modifier le contenu de la diffusion ou du [Concepteur d’e-mail](../email/get-started-email-designer.md).
 
 ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 

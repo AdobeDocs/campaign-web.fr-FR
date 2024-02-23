@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Voici quelques exemples d’accès à l’éditeur d’expression en fonction du
 
   ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-* *Accès à l’éditeur d’expression à partir d’un lien dans un e-mail*
+* *Accéder à l’éditeur d’expression à partir d’un lien dans un e-mail*
 
   ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

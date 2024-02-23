@@ -3,9 +3,9 @@ title: Utiliser des filtres prédéfinis
 description: Découvrir comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Gestion des filtres prédéfinis"
->abstract="L’interface utilisateur Web de Campaign offre une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis en fonction de vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure."
+>abstract="L’interface utilisateur web de Campaign vous offre une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis qui répondent à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure."
 
 
 <!--TO REMOVE BELOW-->
@@ -29,7 +29,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Filtres prédéfinis"
->abstract="L’interface utilisateur Web de Campaign vous offre une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis en fonction de vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure."
+>abstract="L’interface utilisateur web de Campaign vous offre une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis qui répondent à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure."
 
 Les filtres prédéfinis sont des filtres personnalisés qui sont créés et enregistrés afin d’être disponibles pour une utilisation ultérieure. Ils peuvent être utilisés comme raccourcis lors d’opérations de filtrage avec le concepteur de requête, par exemple lors du filtrage d’une liste de données ou de la création de l’audience d’une diffusion.
 
@@ -104,17 +104,17 @@ Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les
 
 Les filtres prédéfinis sont disponibles lors de la définition des propriétés de règle. Pour accéder aux filtres prédéfinis, choisissez l’option **Sélectionner un filtre personnalisé** dans la liste déroulante du concepteur de requête.
 
-Vous pouvez ensuite accéder à la liste complète des filtres prédéfinis disponibles pour le contexte actuel et utiliser les raccourcis disponibles dans le **Filtres favoris** de la liste déroulante. Pour en savoir plus sur les favoris, consultez [cette section](#fav-filter).
+Vous pouvez ensuite accéder à la liste complète des filtres prédéfinis disponibles pour le contexte actuel et utiliser les raccourcis de la section **Filtres favoris** de la liste déroulante. Pour en savoir plus sur les favoris, consultez [cette section](#fav-filter).
 
 Par exemple, pour créer une audience à partir d’un filtre prédéfini, procédez comme suit :
 
-1. Accédez au **Audiences** dans le menu de gauche, puis cliquez sur l’icône **Création d’une audience** dans le coin supérieur gauche de la liste des audiences.
+1. Accédez à l’entrée **Audiences** dans le menu de gauche, puis cliquez sur le bouton **Créer une audience** dans le coin supérieur gauche de la liste des audiences.
 1. Saisissez le nom de l’audience, puis cliquez sur le bouton **Créer une audience**.
-1. Sélectionnez la variable **Requête** puis, dans le volet de droite, cliquez sur l’icône **Créer une audience** bouton .
+1. Sélectionnez l’activité **Requête**, puis, dans le volet de droite, cliquez sur le bouton **Créer une audience**.
 
    ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. Dans la **Sélectionner ou enregistrer un filtre** , choisissez la variable **Sélectionner un filtre personnalisé** .
+1. À partir du bouton **Sélectionner ou enregistrer un filtre**, choisissez l’option **Sélectionner un filtre personnalisé**.
 
    ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
@@ -132,15 +132,15 @@ Par exemple, pour créer une audience à partir d’un filtre prédéfini, proc�
 
 ## Gérer vos filtres prédéfinis {#manage-predefined-filter}
 
-Tous les filtres prédéfinis sont regroupés dans l&#39;entrée dédiée du menu de navigation de gauche.
+Les filtres prédéfinis sont tous regroupés dans l’entrée dédiée du menu de navigation de gauche.
 
 ![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-Dans cette liste, vous pouvez créer un nouveau filtre comme décrit ci-dessus et effectuer les actions répertoriées ci-dessous :
+Dans cette liste, vous pouvez créer un nouveau filtre comme décrit ci-dessus et réaliser les actions ci-dessous :
 
-* Modifiez un filtre existant, ses règles et ses propriétés.
-* Dupliquez un filtre prédéfini.
-* Supprimer un filtre prédéfini.
+* modifier un filtre existant, puis modifier ses règles et ses propriétés ;
+* dupliquer un filtre prédéfini ;
+* supprimer un filtre prédéfini.
 
 Vous pouvez également ajouter un filtre prédéfini comme favori pour un accès rapide lors de la création de vos audiences. En savoir plus dans [cette section](#fav-filter).
 

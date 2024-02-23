@@ -4,9 +4,9 @@ description: Poser des questions dans les fenêtres contextuelles d’aide de Ca
 badge: label="Version bêta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Grâce aux fonctionnalités de l’IA générative de Campaign, ce composant tra
 
 >[!AVAILABILITY]
 >
->* L’aide contextuelle optimisée par l’IA est disponible dans sa version bêta et peut être modifiée sans préavis.
+>* L’aide contextuelle optimisée par l’IA est disponible dans sa version bêta et peut être modifiée sans préavis.
 >
 >* Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version. En conséquence, assurez-vous que [votre langue préférée](connect-to-campaign.md#language-pref) est définie sur Anglais avant d’utiliser cette fonctionnalité.
 >
->* L’aide contextuelle optimisée par l’IA n’est pas disponible pour l’instant dans le Concepteur d’email de Campaign.
+>* L’aide contextuelle optimisée par l’IA n’est pas disponible pour l’instant dans le concepteur d’e-mail de Campaign.
 
 
 <!--
@@ -46,7 +46,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Questions suggérées {#questions-ai}
 
-Dans le champ de saisie, l’aide contextuelle optimisée par Adobe Campaign AI apporte trois questions suggérées. Ces questions sont générées par l’IA et concernent la boîte d’aide et le contexte du produit actuel. Sélectionnez une question pour obtenir la réponse.
+Dans le champ de saisie, l’aide contextuelle optimisée par l’IA d’Adobe Campaign propose trois questions suggérées. Ces questions générées par l’IA concernent la zone d’aide et le contexte du produit actuel. Sélectionnez une question pour obtenir la réponse.
 
 ![Questions suggérées dans l’aide contextuelle](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
@@ -55,12 +55,12 @@ Dans le champ de saisie, l’aide contextuelle optimisée par Adobe Campaign AI 
 
 L’aide contextuelle optimisée par l’IA d’Adobe Campaign vous apporte une assistance, mais vous devez vérifier les faits. Il peut produire des informations incorrectes ou des réponses inexactes ou trompeuses. Vérifiez la documentation du produit fournie sous forme de lien dans chaque zone d’aide.
 
-Vous pouvez copier une réponse dans le Presse-papiers à l’aide de la variable **Copier** au bas de la fenêtre contextuelle d’aide.
+Vous pouvez copier une réponse dans le Presse-papiers à l’aide de l’icône **Copier** au bas de la fenêtre contextuelle d’aide.
 
 ![Copie d’une réponse dans l’aide contextuelle](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 
 
-## Retours {#feedback-ai}
+## Commentaires {#feedback-ai}
 
 L’intelligence artificielle et les modèles de machine learning s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L’aide contextuelle optimisée par l’IA de Campaign continuera de s’améliorer au cours des prochains mois. Nous vous recommandons vivement d’utiliser les boutons <img src="assets/do-not-localize/thumb.png" width="10%"/> chaque fois que vous lisez une réponse, pour signaler toute réponse inappropriée à notre équipe d’ingénierie.
 

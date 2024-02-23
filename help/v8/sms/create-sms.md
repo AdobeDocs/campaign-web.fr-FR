@@ -4,9 +4,9 @@ title: Créer une diffusion SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 >id="acw_deliveries_sms_audience"
 >title="Définir l’audience du SMS"
 >abstract="Vous pouvez créer une nouvelle audience ou en sélectionner une existante en cliquant sur le bouton **Sélectionner une audience**. Si nécessaire, ajoutez une population témoin pour mesurer l’impact de votre diffusion."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=fr" text="Configurer une population témoin"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=fr" text="Définir une population témoin"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
@@ -73,7 +73,7 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsqu&#39;une diffusion est envoyée dans le cadre d&#39;un workflow, vous devez utiliser la variable **Planificateur** activité. En savoir plus sur [cette page](../workflows/activities/scheduler.md).
+   >Lorsqu’une diffusion est envoyée dans le cadre d’un workflow, vous devez utiliser l’activité **Planificateur**. En savoir plus sur [cette page](../workflows/activities/scheduler.md).
 
 1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 

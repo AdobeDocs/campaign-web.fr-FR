@@ -4,7 +4,7 @@ title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
 ht-degree: 100%
 

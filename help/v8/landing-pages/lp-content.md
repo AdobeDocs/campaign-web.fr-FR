@@ -3,9 +3,9 @@ title: Définir du contenu spécifique à une page de destination
 description: Découvrir comment concevoir du contenu spécifique à une page de destination dans Campaign Web
 feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '872'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 45%
 >title="Utiliser les composants de contenu"
 >abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’une page de destination. Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utilisatrices de sélectionner et d’envoyer leurs choix, utilisez le composant de formulaire."
 
-Vous pouvez éditer le contenu de n&#39;importe quelle page de votre landing page.
+Vous pouvez modifier le contenu de n’importe quelle page de votre page de destination.
 
 
-La première page, immédiatement affichée par les utilisateurs lorsqu’ils cliquent sur le lien vers votre landing page, est déjà prérenseignée avec le champ [composant de formulaire spécifique à une page d’entrée](#use-form-component) pour le modèle sélectionné<!-- to enable users to select and submit their choices-->.
+La première page, qui se présente immédiatement aux utilisateurs et utilisatrices lorsqu’ils cliquent sur le lien vers votre page de destination, est déjà préremplie avec le [composant de formulaire spécifique à une page de destination](#use-form-component) pour le modèle sélectionné<!-- to enable users to select and submit their choices-->.
 
-Le contenu de la **[!UICONTROL Confirmation]**, **[!UICONTROL Erreur]** et **[!UICONTROL Expiration]** Les pages sont également préremplies. Modifiez-les si nécessaire.
+Le contenu des pages **[!UICONTROL Confirmation]**, **[!UICONTROL Erreur]** et **[!UICONTROL Expiration]** est également prérempli. Modifiez-le si nécessaire.
 
-Vous pouvez également définir [styles de votre landing page](#lp-form-styles).
+Vous pouvez également définir des [styles pour votre page de destination](#lp-form-styles).
 
 Pour concevoir plus précisément le contenu de votre page de destination, vous pouvez utiliser les mêmes composants que pour un e-mail. [En savoir plus](../email/content-components.md#add-content-components)
 
@@ -39,7 +39,7 @@ Pour concevoir plus précisément le contenu de votre page de destination, vous 
 >title="Résultat du clic sur le bouton"
 >abstract="Définissez ce qui se passe lorsque les utilisateurs et les utilisatrices envoient le formulaire de la page de destination."
 
-Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectionner et d&#39;envoyer leurs choix depuis votre landing page, modifiez la variable **[!UICONTROL Formulaire]** composant. Procédez comme suit :
+Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utilisatrices de sélectionner et d’envoyer leurs choix depuis votre page de destination, modifiez le composant **[!UICONTROL Formulaire]**. Procédez comme suit :
 
 1. Le composant **[!UICONTROL Formulaire]** spécifique à la page de destination est déjà affiché dans la zone de travail du modèle sélectionné.
 
@@ -55,7 +55,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
    >
    >Basculez vers l’onglet **[!UICONTROL Styles]** à tout moment pour modifier les styles du contenu de votre composant de formulaire. [En savoir plus](#lp-form-styles)
 
-1. Développez le premier champ de texte, le cas échéant, ou ajoutez-en un à l’aide de la propriété **[!UICONTROL Ajouter]** bouton . Dans la **[!UICONTROL Champ de texte 1]** , vous pouvez éditer le type de champ, le champ de la base de données à mettre à jour, le libellé et le texte qui s&#39;afficheront dans le champ avant que les utilisateurs ne saisissent une valeur.
+1. Développez le premier champ de texte, le cas échéant, ou ajoutez-en un à l’aide du bouton **[!UICONTROL Ajouter]**. Dans la section **[!UICONTROL Champ de texte 1]**, vous pouvez modifier le type de champ, le champ de la base de données à mettre à jour, le libellé et le texte qui s’afficheront dans le champ avant que l’utilisateur ou l’utilisatrice ne saisisse une valeur.
 
    ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
 
@@ -65,20 +65,20 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
    >
    >Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur s&#39;affiche lorsque l&#39;utilisateur envoie la page.
 
-1. Développez la case à cocher, le cas échéant, ou ajoutez-en une à l’aide de la fonction **[!UICONTROL Ajouter]** bouton . Cochez cette case pour mettre à jour un service ou un champ de la base de données.
+1. Développez la case à cocher, le cas échéant, ou ajoutez-en une à l’aide du bouton **[!UICONTROL Ajouter]**. Cochez cette case pour mettre à jour un service ou un champ de la base de données.
 
    ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
 
-   Si vous sélectionnez **[!UICONTROL Abonnements et services]**, sélectionnez un service dans la liste, puis choisissez l’une des deux options ci-dessous :
+   Si vous sélectionnez **[!UICONTROL Abonnements et services]**, sélectionnez un service dans la liste, puis choisissez l’une des deux options ci-dessous :
 
-   * **[!UICONTROL S’abonner à si cette option est cochée]**: les utilisateurs doivent cocher la case pour accepter (opt-in).
+   * **[!UICONTROL S’abonner si cette case est cochée]** : les utilisateurs et les utilisatrices doivent cocher la case pour accepter (abonnement).
    * **[!UICONTROL Se désabonner si cette case est cochée]** : les utilisateurs et les utilisatrices doivent cocher la case pour retirer leur consentement (désabonnement).
 
-   Si vous sélectionnez **[!UICONTROL Champ]**, sélectionnez un champ dans la liste des attributs, puis effectuez une sélection parmi les deux options ci-dessous :
+   Si vous sélectionnez **[!UICONTROL Champ]**, sélectionnez un champ dans la liste des attributs, puis choisissez l’une des deux options ci-dessous :
 
    * **[!UICONTROL Oui si coché]**<!--TBC-->
 
-   * **[!UICONTROL Non coché]**<!--TBC-->
+   * **[!UICONTROL Non si coché]**<!--TBC-->
 
 1. Vous pouvez supprimer et ajouter autant de champs que vous le souhaitez (champs de texte, boutons radio, cases à cocher, liste déroulante, etc.) selon les besoins.
 
@@ -92,11 +92,11 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    * **[!UICONTROL URL de redirection]** : saisissez l’URL de la page vers laquelle les utilisateurs et les utilisatrices seront redirigés.
 
-1. Si vous souhaitez apporter des mises à jour supplémentaires lors de l’envoi du formulaire, sélectionnez **[!UICONTROL Mises à jour supplémentaires]**, puis sélectionnez l’élément à mettre à jour :
-   * Un service d’abonnement : dans ce cas, définissez si vous souhaitez inscrire ou exclure des utilisateurs lors de l’envoi du formulaire.
-   * Adresse électronique utilisée lors du remplissage du formulaire.
-   * Tous les canaux : lors de l’envoi du formulaire, les utilisateurs seront inscrits ou désinscrits (selon le modèle sélectionné) pour toutes les communications de votre marque sur tous les canaux.
-   * Un champ de la base de données : sélectionnez un champ dans la liste des attributs et définissez s’il doit être défini sur True ou False lors de l’envoi du formulaire.
+1. Si vous souhaitez apporter des mises à jour supplémentaires lors de l’envoi du formulaire, sélectionnez **[!UICONTROL Mises à jour supplémentaires]**, puis sélectionnez l’élément à mettre à jour :
+   * Un service d’abonnement : dans ce cas, définissez si vous souhaitez abonner ou désabonner des utilisateurs et des utilisatrices lors de l’envoi du formulaire.
+   * Adresse e-mail utilisée lors du renseignement du formulaire.
+   * Tous les canaux : lors de l’envoi du formulaire, les utilisateurs et les utilisatrices seront abonnés ou désabonnés (selon le modèle sélectionné) à/de toutes les communications de votre marque sur tous les canaux.
+   * Un champ de la base de données : sélectionnez un champ dans la liste des attributs et définissez s’il doit être défini sur True ou False lors de l’envoi du formulaire.
 
    ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
 
@@ -104,19 +104,19 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
 ## Définir les styles de formulaire de page de destination {#lp-form-styles}
 
-1. Pour modifier les styles du contenu de votre composant de formulaire, basculez à tout moment vers la fonction **[!UICONTROL Styles]** .
+1. Pour modifier les styles du contenu de votre composant de formulaire, accédez à tout moment à l’onglet **[!UICONTROL Styles]**.
 
-1. La variable **[!UICONTROL Champ de texte]** est développée par défaut. Il permet de modifier l’aspect des champs de texte, tels que la police du libellé, la position du libellé, la couleur d’arrière-plan du champ ou la bordure du champ.
+1. La section **[!UICONTROL Champ de texte]** est développée par défaut. Elle vous permet de modifier l’aspect des champs de texte, comme le libellé et la police, la position du libellé, la couleur d’arrière-plan du champ ou la bordure du champ.
 
    ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
 
-1. Développez l’objet **[!UICONTROL Case à cocher]** pour définir l’aspect des cases à cocher et du texte correspondant. Par exemple, vous pouvez ajuster la famille et la taille de police ou la couleur de la bordure de la case à cocher.
+1. Développez la section **[!UICONTROL Case à cocher]** pour définir l’aspect des cases à cocher et du texte correspondant. Par exemple, vous pouvez régler la famille et la taille de police ou la couleur de la bordure de la case à cocher.
 
    ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
 
 1. Développez et modifiez toute autre section correspondant aux autres champs que vous avez ajoutés (bouton radio, liste déroulante, date et heure, etc.) à votre formulaire.
 
-1. Développez l’objet **[!UICONTROL Appel à l’action]** pour modifier l’aspect du bouton dans le formulaire du composant. Par exemple, vous pouvez changer de police, ajouter une bordure, modifier la couleur du libellé en le survolant avec votre souris ou ajuster lʼalignement du bouton.
+1. Développez la section **[!UICONTROL Appel à l’action]** pour modifier l’aspect du bouton dans le formulaire du composant. Par exemple, vous pouvez changer de police, ajouter une bordure, modifier la couleur du libellé en le survolant avec votre souris ou ajuster lʼalignement du bouton.
 
    ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
 

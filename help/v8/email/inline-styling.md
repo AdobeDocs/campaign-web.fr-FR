@@ -4,7 +4,7 @@ title: Ajouter des attributs de style intégrés
 description: Découvrez comment ajouter des attributs de style intégrés.
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
 ht-degree: 100%
 

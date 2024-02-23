@@ -3,9 +3,9 @@ audience: end-user
 title: Rapports globaux pour le canal courrier
 description: En savoir plus sur les rapports globaux pour le canal courrier
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

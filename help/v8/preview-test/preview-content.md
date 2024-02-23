@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Prévisualiser le contenu de la diffusion
-description: Découvrez comment prévisualiser le contenu de votre diffusion à l'aide de l'interface utilisateur Web de Campaign
+description: Découvrez comment prévisualiser le contenu de votre diffusion avec l’interface utilisateur web de Campaign.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
    ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. Sélectionnez les profils à utiliser pour prévisualiser votre contenu. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]** (pour les emails et les SMS) ou le bouton **[!UICONTROL Ajouter des abonnés]** (pour les notifications push).
+1. Sélectionnez les profils à utiliser pour prévisualiser votre contenu. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter un ou des profils de test]** (pour les e-mails et les SMS) ou le bouton **[!UICONTROL Ajouter une ou des personnes abonnées]** (pour les notifications push).
 
-1. Vous pouvez combiner des profils et des profils de test pour prévisualiser votre email ou votre SMS.
+1. Vous pouvez combiner les profils et les profils de test pour prévisualiser le message e-mail ou SMS.
 
-   * La variable **[!UICONTROL Profils de test]** répertorie tous les profils de test, qui sont des destinataires supplémentaires et fictifs dans la base de données. [Découvrir comment utiliser des profils test](../audience/test-profiles.md)
+   * L’onglet **[!UICONTROL Profils de test]** répertorie les profils de test, qui représentent des personnes destinataires supplémentaires et fictives dans la base de données. [Découvrir comment utiliser des profils de test](../audience/test-profiles.md)
 
-   * La variable **[!UICONTROL Profils]** répertorie tous les profils stockés dans votre base de données. [Découvrez comment utiliser des profils](../audience/about-recipients.md)
+   * L’onglet **[!UICONTROL Profils]** répertorie les profils stockés dans votre base de données. [Découvrir comment utiliser des profils](../audience/about-recipients.md)
 
    ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. Lorsque vous parcourez les listes de profils ou de profils de test, vous pouvez utiliser des filtres pour affiner votre recherche. Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. [Découvrez comment ajouter des règles à l’aide du créateur de modèles de requête](../query/query-modeler-overview.md).
+1. Lorsque vous parcourez le profil de test ou la liste des profils, vous pouvez ajouter des filtres pour affiner votre recherche. Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. [Découvrez comment ajouter des règles à l’aide du concepteur de requête](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 

@@ -4,9 +4,9 @@ title: Rapports globaux du canal e-mail
 description: En savoir plus sur les rapports globaux du canal e-mail
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1618'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -268,7 +268,7 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 >title="Répartition des clics dans le temps"
 >abstract="Le graphique **Répartition des clics dans le temps** offre une vue complète de la façon dont les destinataires interagissent avec les liens tout au long de la période désignée."
 
-Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des destinataires par lien.
+Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des personnes destinataires par lien.
 
 ![](assets/global_report_email_breakdown_clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 

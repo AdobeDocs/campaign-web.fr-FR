@@ -4,9 +4,9 @@ title: Principes fondamentaux de la création de workflows
 description: Découvrir les principes fondamentaux des workflows avec Adobe Campaign Web
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

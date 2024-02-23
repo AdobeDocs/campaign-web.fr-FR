@@ -4,7 +4,7 @@ title: Surveiller et gérer des audiences
 description: Découvrir comment surveiller et gérer les audiences dans Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ L’onglet **[!UICONTROL Données]** vous permet de visualiser les profils qui f
 
 ![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
-Pour dupliquer ou supprimer une audience, cliquez sur le bouton **[!UICONTROL Plus d’action]** disponible dans la liste des audiences, en regard du nom de l’audience ou dans un écran détaillé de l’audience.
+Pour dupliquer ou supprimer une audience, cliquez sur le bouton **[!UICONTROL Plus d’actions]** disponible dans la liste des audiences, en regard du nom de l’audience ou dans un écran détaillé de l’audience.

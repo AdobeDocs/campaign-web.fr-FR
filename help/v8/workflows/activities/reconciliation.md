@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Réconciliation
 description: Découvrez comment utiliser l’activité de workflow Réconciliation
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,4 +124,4 @@ Il est créé avec les activités suivantes :
 
 ## Compatibilité {#reconciliation-compat}
 
-L’activité **Réconciliation** n’existe pas dans la console cliente. Tous **Enrichissements** les activités créées dans la console cliente avec les options de réconciliation activées s’affichent sous la forme **Réconciliation** activités dans l&#39;interface utilisateur Web de Campaign.
+L’activité **Réconciliation** n’existe pas dans la console cliente. Toutes les activités **Enrichissement** créées dans la console cliente avec les options de réconciliation activées s’affichent sous la forme d’activités **Réconciliation** dans l’interface utilisateur web de Campaign.

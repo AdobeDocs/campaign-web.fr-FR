@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ En configurant du contenu conditionnel, vous pouvez notamment créer une personn
 
 Pour créer du contenu conditionnel, vous devez créer des conditions dans l’**éditeur d’expression** à l’aide de fonctions d’assistance spécifiques. Cette méthode est disponible pour tous les canaux de diffusion, dans tous les champs où vous pouvez accéder à l’éditeur d’expression, comme l’objet, ou encore les liens d’e-mail et les composants de contenu texte/bouton. [Découvrez comment accéder à l’éditeur d’expression.](gs-personalization.md/#access)
 
-En plus de l’éditeur d’expression, vous pouvez utiliser un **créateur de contenu conditionnel** lors de la conception d&#39;un email qui vous permet de créer plusieurs variantes pour un élément de votre corps d&#39;email. [Découvrez comment créer du contenu conditionnel dans les e-mails.](#condition-condition-builder)
+En plus de l’éditeur d’expression, vous pouvez utiliser un **créateur de contenu conditionnel** dédié lors de la conception d’un e-mail. Vous pourrez ainsi créer plusieurs variantes d’un élément du corps de l’e-mail. [Découvrez comment créer du contenu conditionnel dans les e-mails.](#condition-condition-builder)
 
 ## Créer des conditions dans l’éditeur d’expression {#condition-perso-editor}
 
@@ -84,7 +84,7 @@ Le contenu conditionnel des e-mails peut être créé de deux manières :
 * Dans l’éditeur d’expression en créant une condition avec des fonctions d’assistance
 * Dans un créateur de contenu conditionnel dédié accessible lors de la conception d’un email.
 
-La section suivante fournit des instructions détaillées sur la création de conditions à l’aide de la fonctionnalité de contenu conditionnel du concepteur d’e-mail. Des informations détaillées sur la création de conditions à l’aide de l’éditeur d’expression sont disponibles. [here](#condition-perso-editor).
+La section suivante fournit des instructions détaillées sur la création de conditions à l’aide de la fonctionnalité de contenu conditionnel du concepteur d’e-mail. Vous trouverez [ici](#condition-perso-editor) des informations détaillées sur la création de conditions à l’aide de l’éditeur d’expression.
 
 Dans cet exemple, nous allons créer un e-mail avec plusieurs variantes basées sur la langue des personnes destinataires. Procédez comme suit :
 
@@ -96,17 +96,17 @@ Dans cet exemple, nous allons créer un e-mail avec plusieurs variantes basées 
 
 1. Le volet **[!UICONTROL Contenu conditionnel]** s’affiche sur la partie gauche de l’écran. Dans ce volet, vous pouvez créer plusieurs variantes du composant de contenu sélectionné en indiquant des conditions.
 
-1. Configurez votre première variante. Survol **[!UICONTROL Variante - 1]** dans le **[!UICONTROL Contenu conditionnel]** et cliquez sur le bouton **[!UICONTROL Ajouter une condition]** bouton .
+1. Configurez votre première variante. Pointez sur **[!UICONTROL Variante – 1]** dans le volet **[!UICONTROL Contenu conditionnel]** et cliquez sur le bouton **[!UICONTROL Ajouter une condition]**.
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. Un créateur de règles s’affiche. Il fournit **Profil**, **Message**, et **Diffusion** attributs que vous pouvez utiliser pour créer votre condition.
+1. Un créateur de règles s’affiche. Il fournit des attributs **Profil**, **Message** et **Diffusion** que vous pouvez utiliser pour créer votre condition.
 
-   En outre, la variable **Conditions** fournit des conditions prédéfinies que vous pouvez ajouter à la zone de travail pour créer facilement votre variante. Pour les utiliser, cliquez sur le bouton **Ajouter** puis remplacer les éléments entre `<` et `>`symboles des éléments souhaités. Assurez-vous que la valeur que vous spécifiez pour la variable `<value>` est entre guillemets.
+   En outre, le menu **Conditions** fournit des conditions prédéfinies que vous pouvez ajouter à la zone de travail pour créer facilement votre variante. Pour les utiliser, cliquez sur le bouton **Ajouter** puis remplacez les éléments entre les symboles `<` et `>` par les éléments souhaités. Assurez-vous que la valeur que vous spécifiez pour l’objet `<value>` est entre guillemets.
 
    ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. Une fois la condition de la première variante du message prête, cliquez sur **[!UICONTROL Confirmer]**. Dans l’exemple suivant, nous allons créer une règle ciblant les destinataires dont la langue est le « français ».
+1. Une fois la condition de la première variante du message prête, cliquez sur **[!UICONTROL Confirmer]**. Dans l’exemple suivant, nous allons créer une règle ciblant les personnes destinataires dont la langue est le « français ».
 
    ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

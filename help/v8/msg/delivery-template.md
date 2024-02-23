@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1109'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Pour modifier un modèle, cliquez sur l’élément souhaité dans la liste. De 
 
 ![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
 
-Pour supprimer ou [dupliquer](#copy-an-existing-template) un modèle, sélectionnez l’action correspondante dans le menu **[!UICONTROL Plus d’actions]**, depuis la liste **[!UICONTROL Modèles]** ou depuis un écran d’édition de modèle.
+Pour supprimer ou [dupliquer](#copy-an-existing-template) un modèle, sélectionnez l’action correspondante dans le menu **[!UICONTROL Plus d’actions]**, depuis la liste **[!UICONTROL Modèles]** ou depuis un écran de modification de modèle.
 
 ![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
 

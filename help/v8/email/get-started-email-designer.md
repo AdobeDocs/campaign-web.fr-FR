@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Modifier le contenu de l’e-mail
-description: Découvrez comment commencer à créer votre contenu à l'aide du Concepteur d'email dans l'interface utilisateur web de Campaign
+description: Découvrez le b.a.-ba de la création de contenu à l’aide du concepteur d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

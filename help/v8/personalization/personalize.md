@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour ajouter des balises de personnalisation dans une diffusion, procédez comme
    |-----|------------|
    | ![](assets/do-not-localize/perso-subscribers-menu.png){zoomable=&quot;yes&quot;} | Le menu **[!UICONTROL Application des abonnées et abonnés]** répertorie les champs liés aux abonnées et abonnés d’une application, tels que le terminal utilisé ou le système d’exploitation. *Ce menu est disponible uniquement pour les notifications push*. |
    | ![](assets/do-not-localize/perso-recipients-menu.png){zoomable=&quot;yes&quot;} | Le menu **[!UICONTROL Destinataire]** répertorie les champs définis dans le tableau des destinataires, tels que les noms, âges ou adresses des destinataires. Lors du [chargement des contacts depuis un fichier externe](../audience/file-audience.md) pour une diffusion e-mail autonome, ce menu répertorie tous les champs disponibles dans le fichier d’entrée. |
-   | ![](assets/do-not-localize/perso-message-menu.png){zoomable=&quot;yes&quot;} | Le menu **[!UICONTROL Message]** répertorie les champs liés aux logs de diffusion, y compris tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux, comme la date du dernier événement avec une personne destinataire donnée. |
+   | ![](assets/do-not-localize/perso-message-menu.png){zoomable=&quot;yes&quot;} | Le menu **[!UICONTROL Message]** répertorie les champs liés aux logs de diffusion, y compris tous les messages envoyés aux personnes destinataires ou aux appareils sur tous les canaux, comme la date du dernier événement avec une personne destinataire donnée. |
    | ![](assets/do-not-localize/perso-delivery-menu.png){zoomable=&quot;yes&quot;} | Le menu **[!UICONTROL Diffusion]** répertorie les champs liés aux paramètres requis pour effectuer des diffusions, tels que le canal ou le libellé de la diffusion. |
 
    >[!NOTE]

@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Envoyer votre premier e-mail
-description: Découvrez comment envoyer votre premier email avec l'interface utilisateur web de Campaign
+description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1403'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Pour créer une diffusion d’e-mail autonome, procédez comme suit :
 >title="Sélectionner une audience pour votre diffusion"
 >abstract="Sélectionnez l’audience la plus appropriée pour votre message marketing. Vous pouvez choisir une audience existante (déjà définie dans une instance de Campaign v8 ou à partir d’Adobe Experience Platform), créer une audience à l’aide du concepteur de requête ou charger un fichier contenant votre audience. Les populations témoins ne sont pas activées pour l’option **Sélectionner à partir du fichier** et vice versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=fr" text="Sélectionner les audiences principales"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=fr" text="Configurer une population témoin"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=fr" text="Définir une population témoin"
 
 Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante.
 
@@ -143,9 +143,9 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans 
 
 ## Planifier l’envoi {#schedule}
 
-Lorsqu&#39;une diffusion est envoyée dans le cadre d&#39;un workflow, vous devez utiliser la variable **Planificateur** activité. En savoir plus sur [cette page](../workflows/activities/scheduler.md). Les étapes ci-dessous s’appliquent uniquement aux diffusions autonomes.
+Lorsqu’une diffusion est envoyée dans le cadre d’un workflow, vous devez utiliser l’activité **Planificateur**. En savoir plus sur [cette page](../workflows/activities/scheduler.md). Les étapes ci-dessous s’appliquent uniquement aux diffusions autonomes.
 
-1. Accédez au **[!UICONTROL Planification]** de la section des propriétés de la diffusion.
+1. Accédez à la section **[!UICONTROL Planifier]** des propriétés de la diffusion.
 
 1. Utilisez le bouton (bascule) **[!UICONTROL Activer la planification]** pour l’activer.
 
@@ -153,7 +153,7 @@ Lorsqu&#39;une diffusion est envoyée dans le cadre d&#39;un workflow, vous deve
 
    ![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
-Une fois que vous avez envoyé la diffusion, l&#39;envoi effectif commence à la date de contact que vous avez définie.
+Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
 
 Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 

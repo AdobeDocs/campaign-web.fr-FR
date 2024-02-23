@@ -4,7 +4,7 @@ title: Gérer les personnes abonnées
 description: Découvrez comment gérer les personnes abonnées à un service dans Adobe Campaign Web et leurs envoyer des diffusions.
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Pour ajouter manuellement des personnes abonnées, procédez comme suit.
 
    ![](assets/service-subscribers-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. Cliquez sur **[!UICONTROL Envoyer]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> pour que les personnes destinataires sélectionnéss reçoivent le [message de confirmation](manage-services.md#create-confirmation-message) d’abonnement que vous avez défini lors de la [création du service](manage-services.md#create-service).
+1. Cliquez sur **[!UICONTROL Envoyer]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> pour que les personnes destinataires sélectionnées reçoivent le [message de confirmation](manage-services.md#create-confirmation-message) d’abonnement que vous avez défini lors de la [création du service](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png){zoomable=&quot;yes&quot;}
 

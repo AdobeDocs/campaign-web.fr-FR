@@ -4,9 +4,9 @@ title: Filtrer des listes
 description: Découvrez comment filtrer les listes Adobe Campaign Web à l’aide de filtres intégrés et personnalisés.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1195'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,8 +59,8 @@ Pour créer une diffusion autonome, procédez comme suit :
 Pour créer une diffusion dans un workflow, procédez comme suit :
 
 1. Créez un workflow ou ouvrez un workflow existant. [En savoir plus sur les workflows](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Ajout et configuration d’une [**[!UICONTROL Créer une audience]**](../workflows/activities/build-audience.md) activité.
-1. Cliquez sur l’icône `+` et sélectionnez une activité de diffusion : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]** ou **[!UICONTROL Notification push (iOS)]**. En savoir plus sur les activités des canaux de diffusion dans un workflow et sur la définition d’un contenu de diffusion dans [cette section](../workflows/activities/channels.md).
+1. Ajoutez et configurez une activité [**[!UICONTROL Créer une audience]**](../workflows/activities/build-audience.md).
+1. Cliquez sur l’icône `+` et sélectionnez une activité de diffusion : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]** ou **[!UICONTROL Notification push (iOS)]**. Découvrez les activités de canal de diffusion dans un workflow et comment définir un contenu de diffusion dans [cette section](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
 

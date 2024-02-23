@@ -2,7 +2,7 @@
 title: Explorer les détails des profils
 description: Découvrez comment explorer les détails d’un profil.
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
 ht-degree: 100%
 

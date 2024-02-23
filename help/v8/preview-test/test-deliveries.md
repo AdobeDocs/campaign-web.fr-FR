@@ -4,9 +4,9 @@ title: Envoyer des diffusions test
 description: Découvrez comment définir et envoyer des diffusions de test.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1178'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour commencer à tester le contenu de votre message :
 
    Selon le canal de message, les diffusions test sont envoyées aux types de destinataires suivants :
 
-   * Pour les SMS et les e-mails, vous pouvez utiliser des [profils de test](#test-profiles), qui sont des destinataires supplémentaires spécifiques dans la base de données. Vous pouvez également utiliser la variable [substitution de la cible principale](#substitution-profiles) , qui envoie les diffusions test à une adresse de test email ou un numéro de téléphone, et utilise les données de personnalisation d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez la personne destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
+   * Pour les SMS et les e-mails, vous pouvez utiliser des [profils de test](#test-profiles), qui sont des destinataires supplémentaires spécifiques dans la base de données. Vous pouvez également utiliser le mode de [substitution de la cible principale](#substitution-profiles), qui envoie les diffusions test à l’adresse e-mail ou au numéro de téléphone test et utilise les données de personnalisation d’un profil existant. Vous pouvez ainsi consulter le message comme si vous étiez la personne destinataire, avec le contenu reproduit à l’identique pour le profil indiqué.
 
    * Pour les messages push, vous pouvez utiliser des [personnes abonnées](#subscribers) fictives ajoutées à la base de données. Elles sont créés dans la console [!DNL Campaign]. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.
 
@@ -70,9 +70,9 @@ Pour commencer à tester le contenu de votre message :
 >title="Inclure les profils de test dans l’audience principale"
 >abstract="Activez cette option pour envoyer également le message final aux personnes destinataires de la diffusion de test."
 
-Les profils de test sont des destinataires supplémentaires dans la base de données. Ils sont créés à partir du **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** . [En savoir plus](../audience/test-profiles.md#create-test-profiles)
+Les profils de test sont des personnes destinataires supplémentaires dans la base de données. Ils sont créés à partir du menu **[!UICONTROL Gestion des clientes et clients]** > **[!UICONTROL Profils]**. [En savoir plus](../audience/test-profiles.md#create-test-profiles)
 
-Les étapes d&#39;envoi de diffusions test aux profils de test sont présentées ci-dessous.
+Les étapes d’envoi de diffusions test aux profils de test sont détaillées ci-dessous.
 
 1. Dans le contenu de votre diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Test]**.
 
@@ -82,11 +82,11 @@ Les étapes d&#39;envoi de diffusions test aux profils de test sont présentées
 
 1. Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l’écran de simulation du contenu, ils sont présélectionnés comme destinataires du test. Vous pouvez effacer votre sélection et/ou ajouter des destinataires supplémentaires à l’aide du bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]**.
 
-1. Lorsque vous parcourez les listes de profils ou de profils de test, vous pouvez utiliser des filtres pour affiner votre recherche. Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. Découvrez comment ajouter des règles à l’aide du [concepteur de requêtes](../query/query-modeler-overview.md).
+1. Lorsque vous parcourez le profil de test ou la liste des profils, vous pouvez ajouter des filtres pour affiner votre recherche. Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. Découvrez comment ajouter des règles à l’aide du [concepteur de requêtes](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
-1. Si vous souhaitez envoyer le message final aux destinataires de la diffusion test, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
+1. Si vous souhaitez envoyer le message final aux personnes destinataires de la diffusion test, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
 
    ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
 
@@ -168,6 +168,6 @@ Ces journaux permettent d’accéder à tous les tests envoyés pour la diffusio
 
 ![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
 
-Vous pouvez également accéder aux tests envoyés à partir de la [liste des diffusions](../msg/gs-messages.md), comme pour n’importe quelle diffusion.
+Vous pouvez également accéder aux tests envoyés à partir de la [liste de diffusion](../msg/gs-messages.md), comme pour n’importe quelle diffusion.
 
 ![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}

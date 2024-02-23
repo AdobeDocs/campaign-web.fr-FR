@@ -4,9 +4,9 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '643'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ Une fois que vous avez réussi à [créer un workflow](create-workflow.md), à p
 
 ## Ajouter des activités {#add}
 
-À ce stade de la configuration, le diagramme comporte une icône de démarrage, qui représente le début de votre workflow. Pour ajouter votre première activité, cliquez sur le bouton **+** bouton connecté à l’icône de début.
+À ce stade de la configuration, le diagramme comporte une icône de démarrage, qui représente le début de votre workflow. Pour ajouter votre première activité, cliquez sur le bouton **+** associé à l’icône de démarrage.
 
-La liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de workflow. Par exemple, lors de l’ajout de votre première activité, vous pouvez démarrer votre workflow en ciblant une audience, en fractionnant le chemin du workflow ou en définissant un **Attente** pour retarder l&#39;exécution du workflow. D’un autre côté, après une **Créer une audience** activité, vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal, ou organiser le processus de workflow avec des activités de contrôle de flux.
+La liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de workflow. Par exemple, lorsque vous ajoutez votre première activité pour démarrer votre workflow, vous pouvez cibler une audience, fractionner le chemin du workflow ou définir une activité **Attente** pour retarder l’exécution du workflow. D’autres choix s’offrent à vous après une activité **Créer une audience** : vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus du workflow avec des activités de contrôle de flux.
 
 ![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
@@ -26,9 +26,9 @@ Une fois qu’une activité a été ajoutée au diagramme, un volet s’affiche 
 
 ![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
-Répétez cette procédure pour ajouter autant d&#39;activités que vous le souhaitez en fonction des tâches que votre workflow doit exécuter. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton **+** sur la transition entre les activités, sélectionnez l&#39;activité souhaitée et configurez-la dans le volet de droite.
+Répétez ce processus pour ajouter autant d’activités que vous le souhaitez en fonction des tâches que votre workflow doit exécuter. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton **+** sur la transition entre les activités, puis sélectionnez l’activité souhaitée et configurez-la dans le volet de droite.
 
-Pour supprimer une activité, sélectionnez-la dans la zone de travail, puis cliquez sur le bouton **Supprimer** dans les propriétés de l’activité.
+Pour supprimer une activité, sélectionnez-la dans la zone de travail et cliquez sur l’icône **Supprimer** dans les propriétés de l’activité.
 
 >[!TIP]
 >
@@ -40,7 +40,7 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 
 * **Supprimer** l’activité à partir de la zone de travail.
 * **Désactivez/activez** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités qui suivent sur le même chemin ne sont pas exécutées et le workflow est arrêté.
-* **Copiez** l’activité. Vous pouvez ensuite le coller dans n’importe quel workflow en cliquant sur le bouton **+** sur une transition et en sélectionnant &quot;Activité Coller 1&quot;.
+* **Copiez** l’activité. Vous pouvez ensuite la coller dans n’importe quel workflow en cliquant sur le bouton **+** sur une transition et en sélectionnant « Coller 1 activité ».
 * Accédez aux **Journaux et tâches** de l’activité.
 * **Mettez en pause/Reprenez** l’activité. Lorsque le workflow est exécuté, il s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 
@@ -48,7 +48,7 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 
 ## Exemple {#example}
 
-Voici un exemple de workflow permettant d’envoyer un e-mail à l’ensemble de la clientèle (autres que les clients et clientes VIP) qui s’intéresse aux machines à café.
+Voici un exemple de workflow permettant d’envoyer un e-mail à l’ensemble de la clientèle (autres que les clientes et clients VIP) qui s’intéresse aux machines à café.
 
 ![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 

@@ -4,9 +4,9 @@ title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 32bffad5ea6641a723887ca9fa3e58b8cc428c00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 82%
 >title="Concepteur de requête"
 >abstract="Définissez des critères de filtrage pour les personnes destinataires ou toute autre dimension de ciblage issue de la base de données. Tirez parti de votre audience Adobe Experience Platform pour affiner davantage votre audience cible et maximiser l’impact de votre campagne."
 
-L’interface utilisateur web d’Adobe Campaign comporte un modèle de requête qui simplifie le processus de filtrage de la base de données selon différents critères. Il assure une compatibilité totale avec les requêtes créées dans la console cliente, ce qui facilite une transition transparente vers l’interface utilisateur web.
+L’interface utilisateur web d’Adobe Campaign comporte un concepteur de requête qui simplifie le processus de filtrage des bases de données selon différents critères. Elle assure une compatibilité totale avec les requêtes créées dans la console cliente, ce qui facilite une transition transparente vers l’interface utilisateur web.
 
-De plus, le modeleur de requêtes peut gérer efficacement des requêtes très complexes et longues, offrant une flexibilité et une précision optimisées. En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qui vous permet d’affiner facilement vos requêtes tout en utilisant des expressions et des opérateurs avancés pour un ciblage d’audience et des stratégies de segmentation complètes.
+De plus, le concepteur de requête peut gérer efficacement des requêtes très complexes et longues, offrant une flexibilité et une précision optimisées. En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qui vous permet d’affiner facilement vos requêtes tout en utilisant des expressions et des opérateurs avancés pour des stratégies de segmentation et un ciblage d’audience complets.
 
 ## Accéder au concepteur de requête
 

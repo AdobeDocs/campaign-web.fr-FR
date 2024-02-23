@@ -4,7 +4,7 @@ title: Rapports de diffusion Notifications push
 description: Découvrez comment accéder aux rapports de diffusion des notifications push et les utiliser.
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
 ht-degree: 100%
 

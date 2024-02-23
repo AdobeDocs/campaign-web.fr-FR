@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Tester le rendu des e-mails
-description: Découvrez comment tester le rendu de vos emails dans l'interface utilisateur web de Campaign
+description: Découvrez comment tester le rendu de vos e-mails dans l’interface utilisateur web de Campaign.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Pour ce faire, tirez parti de votre compte **Litmus** dans [!DNL Adobe Campaign]
 Pour accéder aux fonctionnalités de rendu des e-mails, vous devez remplir les conditions suivantes :
 
 * disposer d’un compte Litmus
-* Sélectionner des profils et/ou des profils de test - Découvrez comment [cette section](preview-content.md)
+* sélectionner des profils et/ou des profils de test. Découvrez comment procéder dans [cette section](preview-content.md).
 
 Suivez ensuite les étapes ci-dessous.
 

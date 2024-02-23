@@ -4,9 +4,9 @@ title: Créer une diffusion par notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Configurez vos paramètres de diffusion comme indiqué ci-dessous :
 >id="acw_deliveries_push_audience"
 >title="Définir le contenu de l’audience de la notification push."
 >abstract="Pour définir l’audience de votre message, vous devez d’abord sélectionner l’application associée à la diffusion par notification push. Par défaut, votre notification push est envoyée à toutes les personnes abonnées de l’application. Vous pouvez affiner une audience spécifique en cliquant sur le bouton **Sélectionner une audience**. Si nécessaire, ajoutez une population témoin pour mesurer l’impact de votre diffusion."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=fr" text="Configurer une population témoin"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=fr" text="Définir une population témoin"
 
 
 Vous devez d’abord sélectionner l’application, puis affiner l’audience de la notification push, comme décrit ci-dessous :
@@ -88,17 +88,17 @@ Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/
 
 ## Planifier lʼenvoi de la diffusion {#schedule-push}
 
-Lorsqu&#39;une diffusion est envoyée dans le cadre d&#39;un workflow, vous devez utiliser la variable **Planificateur** activité. En savoir plus sur [cette page](../workflows/activities/scheduler.md). Les étapes ci-dessous s’appliquent uniquement aux diffusions autonomes.
+Lorsqu’une diffusion est envoyée dans le cadre d’un workflow, vous devez utiliser l’activité **Planificateur**. En savoir plus sur [cette page](../workflows/activities/scheduler.md). Les étapes ci-dessous s’appliquent uniquement aux diffusions autonomes.
 
-Pour planifier une diffusion push autonome à une date et une heure spécifiques, procédez comme suit :
+Pour planifier une diffusion push autonome à une date et une heure spécifiques, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Planification]** de la section des propriétés de la diffusion.
+1. Accédez à la section **[!UICONTROL Planifier]** dans les propriétés de la diffusion.
 
 1. Utilisez le bouton (bascule) **[!UICONTROL Activer la planification]** pour l’activer.
 
 1. Définissez la date et l’heure d’envoi.
 
-Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l&#39;heure exactes que vous avez définies pour le destinataire.
+Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour la personne destinataire.
 
 ![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 

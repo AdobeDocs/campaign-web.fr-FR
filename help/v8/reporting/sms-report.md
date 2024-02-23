@@ -4,7 +4,7 @@ title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser.
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ La **Vue d’ensemble de la diffusion SMS** offre une vue d’ensemble complète
 >title="Vue d’ensemble de la diffusion SMS"
 >abstract="La **Vue d’ensemble de la diffusion SMS** constitue une vue d’ensemble complète du canal SMS, avec des informations détaillées et des données spécifiques. Elle fournit des informations complètes sur les performances, l’efficacité et les résultats de chaque diffusion."
 
-Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur les taux d’erreurs et de succès, ainsi que sur la manière dont vos visiteurs et visiteuses interagissent avec vos SMS.
+Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur les taux d’erreur et de réussite, ainsi que sur la manière dont vos visiteurs et visiteuses interagissent avec vos SMS.
 
 ![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
 

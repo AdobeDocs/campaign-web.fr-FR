@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Modifier le contenu de l’e-mail
-description: Découvrez comment éditer le contenu de l'email dans l'interface utilisateur web de Campaign
+description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
