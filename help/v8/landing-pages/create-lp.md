@@ -3,7 +3,7 @@ title: Créer une page de destination
 description: Découvrir comment configurer et publier une page de destination dans Campaign Web
 feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
 

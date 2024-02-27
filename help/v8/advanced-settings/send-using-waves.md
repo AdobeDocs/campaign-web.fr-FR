@@ -4,7 +4,7 @@ title: Envoyer par vagues
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web
 feature: Email
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 100%
 

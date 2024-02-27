@@ -4,7 +4,7 @@ title: Commencer avec les pages de destination
 description: En savoir plus sur les pages de destination dans Campaign Web
 feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 
