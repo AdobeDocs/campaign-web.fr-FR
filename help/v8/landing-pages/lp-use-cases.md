@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 98%
+source-wordcount: '1381'
+ht-degree: 93%
 
 ---
 
@@ -21,11 +21,17 @@ ht-degree: 98%
 >title="Copier l’URL avec précaution"
 >abstract="Pour tester ou tirer pleinement profit de votre page de destination, vous ne pouvez pas copier-coller ce lien directement dans un navigateur web ou dans vos diffusions. Utilisez plutôt la fonction **Simuler le contenu** pour la tester, et suivez les étapes décrites dans la documentation pour utiliser correctement votre page de destination."
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="Copier l’URL avec précaution"
+>abstract="Lors de la création d&#39;une landing page, quatre modèles d&#39;usine permettent d&#39;implémenter différents cas pratiques : ajouter ou mettre à jour un profil dans la base de données Campaign, abonner des clients à un service, les désabonner d&#39;un service ou exclure des utilisateurs."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Créer une page de destination"
+
 Pour utiliser correctement votre page de destination, vous devez la référencer en tant que lien dans une diffusion à l’aide de l’option dédiée.
 
 >[!CAUTION]
 >
->Pour tirer pleinement profit de votre page de destination, vous ne pouvez pas copier-coller le lien affiché dans le tableau de bord des diffusions publiées directement dans vos diffusions ou dans une page web.
+>Pour exploiter pleinement votre landing page, vous ne pouvez pas copier-coller le lien affiché dans le tableau de bord des diffusions publiées directement dans vos diffusions ou dans une page web. Découvrez comment le faire correctement dans cette section.
 
 Dans l’interface [!DNL Adobe Campaign Web], quatre modèles prêts à l’emploi vous permettent de mettre en œuvre différents cas d’utilisation. Toutefois, les étapes principales restent les mêmes et sont décrites ci-dessous.
 
@@ -105,6 +111,11 @@ En cas d’abonnement à votre newsletter, le service correspondant leur sera pr
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## Abonnement à un service {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Définir la page de destination d’abonnement"
+>abstract="Une page d’abonnement permet à vos clientes et clients de s’abonner à un service."
 
 Un des cas d’utilisation les plus courants consiste à inviter vos clientes et vos clients à [s’abonner à un service](../audience/manage-services.md) (comme une newsletter ou un événement) via une page de destination. Suivez les étapes ci-dessous.
 
