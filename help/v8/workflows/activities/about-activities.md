@@ -3,8 +3,8 @@ audience: end-user
 title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -36,7 +36,6 @@ Ces activités sont spécifiques au ciblage, à la manipulation et à l’enrich
 * Utilisez l’activité [Déduplication](deduplication.md) pour supprimer les doublons dans le ou les résultats des activités entrantes.
 * Utilisez l’activité [Changement de dimension](change-dimension.md) pour modifier la dimension de ciblage au fur et à mesure que vous créez votre workflow.
 * Utilisez la variable [Chargement de fichier](load-file.md) pour utiliser des profils et des données stockés dans un fichier externe.
-
 
 ## Activités de canal {#channel}
 

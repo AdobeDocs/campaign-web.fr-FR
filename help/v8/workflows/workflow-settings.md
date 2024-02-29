@@ -3,7 +3,7 @@ audience: end-user
 title: Configurer les paramètres de workflow
 description: Découvrir comment configurer les paramètres de workflow à l’aide d’Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 92%
@@ -13,7 +13,6 @@ ht-degree: 92%
 
 # Configurer les paramètres de workflow {#workflow-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Propriétés du workflow"
@@ -22,7 +21,6 @@ ht-degree: 92%
 Lors de la création d’un workflow ou de l’orchestration des activités de workflow dans la zone de travail, vous pouvez accéder aux paramètres avancés liés au workflow. Par exemple, vous pouvez définir un fuseau horaire spécifique pour le workflow, gérer le comportement du workflow en cas d’erreur ou indiquer le délai après lequel l’historique du workflow doit être purgé.
 
 Ces paramètres sont prédéfinis dans le modèle sélectionné lors de la création du workflow, mais peuvent être modifiés selon les besoins du workflow.
-
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 

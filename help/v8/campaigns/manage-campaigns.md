@@ -3,9 +3,9 @@ audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '709'
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
+source-wordcount: '719'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,11 @@ Vous pouvez, par exemple, filtrer selon le planning de votre campagne. Ouvrez le
 >id="acw_campaign_delivery_list"
 >title="Liste des diffusions de la campagne"
 >abstract="L’onglet **Diffusions** répertorie toutes les diffusions liées à la campagne en cours. Cliquez sur le nom d’une diffusion pour la modifier. Cliquez sur le bouton Créer une diffusion pour ajouter une diffusion à cette campagne."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Liste des workflows dans une campagne"
+>abstract="Liste des workflows dans une campagne"
 
 Dans l’onglet **Parcourir** de la liste des campagnes, cliquez sur une campagne pour afficher ses détails.
 

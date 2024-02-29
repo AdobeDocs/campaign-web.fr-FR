@@ -3,8 +3,8 @@ audience: end-user
 title: Commencer avec les workflows
 description: Découvrez comment commencer avec les workflows.
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -17,7 +17,6 @@ ht-degree: 100%
 >title="Workflows cross-canal"
 >abstract="Bénéficiez de nouvelles fonctionnalités d’automatisation et d’optimisation qui vous permettront de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
-
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

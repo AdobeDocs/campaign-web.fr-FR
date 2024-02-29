@@ -3,10 +3,10 @@ audience: end-user
 title: Gestion des autorisations dans l’interface utilisateur web de Campaign
 description: En savoir plus sur les autorisations dans l’interface utilisateur web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -17,18 +17,20 @@ ht-degree: 100%
 >title="Autorisation requise"
 >abstract="Avant de pouvoir créer cet objet, votre administrateur ou administratrice doit vous accorder une autorisation."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="Cette audience est en lecture seule."
 >abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette audience. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Ce service est en lecture seule."
 >abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce service. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Profil en lecture seule des personnes destinataires"
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce profil. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

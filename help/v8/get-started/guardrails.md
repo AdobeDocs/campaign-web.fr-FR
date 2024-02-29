@@ -2,9 +2,9 @@
 title: Barrières de sécurité et limitations des workflows de l'interface utilisateur Web de Campaign
 description: Barrières de sécurité et limitations lors de l'utilisation de workflows dans l'interface utilisateur Web de Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '374'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,10 @@ Veuillez noter que, bien que cette page identifie les points essentiels à prend
 
 ## Activités de workflows {#wkf-activities}
 
-Les activités de workflow qui ne sont pas encore prises en charge dans Campaign Web sont en lecture seule et s’affichent en tant qu’activités incompatibles. Vous pouvez toujours exécuter le workflow, envoyer des messages, vérifier les journaux, etc. Les activités de workflow disponibles dans Campaign Web et dans la console cliente sont modifiables.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_query_enrichment_noneditable"
+>title="Activité non modifiable"
+>abstract="Lorsqu’une activité **Requête** ou **Enrichissement** est paramétrée avec des données additionnelles dans la console, les données d’enrichissement sont prises en compte dans Campaign Web et transmises à la transition sortante, mais elles ne peuvent pas être éditées."
 
 Les activités de workflow qui ne sont pas encore prises en charge dans l’interface utilisateur web de Campaign sont en lecture seule et affichées en tant qu’activités incompatibles. Vous pouvez toujours exécuter le workflow, envoyer des messages, vérifier les journaux, etc. Les activités de workflow disponibles dans l’interface utilisateur web de Campaign et dans la console cliente Campaign sont modifiables.
 
