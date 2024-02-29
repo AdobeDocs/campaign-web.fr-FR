@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '1960'
-ht-degree: 100%
+source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
+workflow-type: tm+mt
+source-wordcount: '2030'
+ht-degree: 96%
 
 ---
 
@@ -236,7 +236,7 @@ Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inc
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="Propriétés de la règle"
->abstract="Propriétés de la règle"
+>abstract="Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide de la fonction **Propriétés des règles** situé sur le côté droit.<br/>Ce volet permet d&#39;afficher les données obtenues, de récupérer une version de code SQL de la requête et de vérifier le nombre d&#39;enregistrements ciblés.<br/>Utilisez la variable **Sélectionner ou enregistrer un filtre** pour enregistrer votre requête en tant que filtre prédéfini ou remplacer le contenu de la zone de travail par un filtre existant."
 
 Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit. Les opérations disponibles sont les suivantes :
 
