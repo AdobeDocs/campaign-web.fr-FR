@@ -3,10 +3,10 @@ audience: end-user
 title: Matrice des fonctionnalités de l’interface utilisateur web de Campaign/de la console cliente
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
+workflow-type: tm+mt
+source-wordcount: '2179'
+ht-degree: 95%
 
 ---
 
@@ -152,14 +152,27 @@ Certaines fonctionnalités ne sont disponibles que depuis la console cliente. Su
 
 ## Modélisation des données et ingestion des données {#data-capabilities}
 
-L’interface utilisateur web de Campaign ne présente pas les fonctionnalités suivantes. Elles ne sont disponibles que dans la console cliente.
+L’interface utilisateur web de Campaign ne présente pas les fonctionnalités suivantes. Elles ne sont disponibles que dans la console cliente :
 
-Parcourez les liens fournis dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr){target="_blank"} pour en savoir plus.
+### Comptes externes {#external}
 
-* **Comptes externes**. Adobe Campaign est fourni avec un ensemble de comptes externes prédéfinis pour la connexion aux systèmes externes. En tant qu’administrateur ou administratrice système Campaign, vous ne pouvez créer et gérer des comptes externes qu’à partir de la console cliente.[En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=fr){target="_blank"}
-* **Création et extension de schéma**. La création, la modification et l’extension de schéma sont limitées aux utilisateurs et utilisatrices expérimentés. Ces fonctionnalités ne sont disponibles que depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=fr){target="_blank"}
-* Activités de workflows de **gestion des données**. Data Management combine un ensemble d’activités pour résoudre des problèmes de ciblage complexes en proposant des outils plus efficaces et plus flexibles. Entre autres activités : chargement de données, extraction (fichier), mise à jour de données, édition de schémas, import/export de workflows techniques. Elles ne sont disponibles que dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr#data-management){target="_blank"}
-* **Federated Data Access**. La configuration de Campaign et la connexion à des systèmes externes sont limitées aux utilisateurs et utilisatrices expérimentés et ne sont disponibles que depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr){target="_blank"}
+Adobe Campaign est fourni avec un ensemble de comptes externes prédéfinis pour la connexion aux systèmes externes. En tant qu’administrateur ou administratrice système Campaign, vous ne pouvez créer et gérer des comptes externes qu’à partir de la console cliente.[En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=fr){target="_blank"}
+
+### Création et extension de schéma {#schema}
+
+La création, la modification et l’extension de schéma sont limitées aux utilisateurs et utilisatrices expérimentés. Ces fonctionnalités ne sont disponibles que depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=fr){target="_blank"}
+
+### Fonctionnalités de gestion des données des workflows {#data}
+
+Data Management combine un ensemble d’activités pour résoudre des problèmes de ciblage complexes en offrant des outils plus efficaces et plus flexibles tels que le chargement de données, l’extraction (fichier), la mise à jour de données, l’édition de schéma ou les workflows techniques d’importation/exportation. [Découvrez les fonctionnalités de Data Management des workflows dans la console cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr#data-management){target="_blank"}
+
+>[!NOTE]
+>
+>Bien que certaines de ces activités ne soient disponibles que dans la console cliente, d&#39;autres le sont dans l&#39;interface utilisateur Web de Campaign, comme le **Enrichissement**, **Chargement de fichier** ou **Changement de dimension** activités. [En savoir plus sur les activités de ciblage et de gestion des données dans l&#39;interface utilisateur web de Campaign](../workflows/activities/about-activities.md#targeting)
+
+### Configuration de Federated Data Access {#fda}
+
+La configuration de Campaign et la connexion à des systèmes externes sont limitées aux utilisateurs et utilisatrices expérimentés et ne sont disponibles que depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr){target="_blank"}
 
 ## Validations {#approvals-capabilities}
 
