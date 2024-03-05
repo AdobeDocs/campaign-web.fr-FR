@@ -3,14 +3,19 @@ audience: end-user
 title: Prise en main des rapports globaux
 description: Comprendre les rapports globaux
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
+source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 86%
+source-wordcount: '277'
+ht-degree: 76%
 
 ---
 
 # Prise en main des rapports globaux {#global-report-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="Rapport global"
+>abstract="Les rapports globaux offrent un moyen puissant et efficace d’analyser les performances de votre campagne. Ces rapports fournissent une vue consolidée des mesures clés de trafic et d’engagement pour chaque canal de votre campagne."
 
 Les **rapports globaux** constitue un outil efficace, offrant un résumé global consolidé des mesures de trafic et d’engagement pour chaque canal de votre instance Campaign. Ces rapports se composent de différents widgets, chacun offrant une perspective différente des performances de vos campagnes ou diffusions.
 
