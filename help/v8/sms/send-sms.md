@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer une diffusion par SMS
 description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign Web.
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 88%
 
 ---
 
@@ -44,9 +44,9 @@ Vous pouvez maintenant vérifier et envoyer votre SMS à votre audience.
 
 Avec **Adobe Campaign**, vous avez la possibilité de tester un message avant de l’envoyer à l’audience principale, ce qui est une étape essentielle pour valider votre campagne par e-mail et identifier les problèmes potentiels.
 
-L’envoi de SMS de test est une étape importante pour assurer la qualité et l’efficacité de votre diffusion. Les destinataires du test peuvent consulter divers éléments tels que des liens, des liens d’opt-out et des images, et identifier les erreurs de rendu, de contenu, de paramètres de personnalisation et de configuration des SMS. Ce processus vous aide à évaluer et à optimiser minutieusement votre SMS avant d’atteindre votre audience principale.
+L’envoi de BAT est une étape importante pour assurer la qualité et l’efficacité de votre diffusion. Les destinataires du BAT peuvent consulter divers éléments tels que des liens, des liens et des images d&#39;opt-out, mais aussi identifier les erreurs de rendu, de contenu, de paramètres de personnalisation et de configuration des SMS. Ce processus vous aide à évaluer et à optimiser minutieusement votre SMS avant d’atteindre votre audience principale.
 
-![](../assets/do-not-localize/book.png) Découvrez comment envoyer des SMS de test dans [cette section](../preview-test/test-deliveries.md).
+![](../assets/do-not-localize/book.png) Découvrez comment envoyer des bons à tirer dans [cette section](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 

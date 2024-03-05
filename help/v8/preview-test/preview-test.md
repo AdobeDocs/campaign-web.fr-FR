@@ -3,10 +3,10 @@ audience: end-user
 title: À propos de la prévisualisation et du test des diffusions
 description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >id="acw_deliveries_simulate"
 >title="Prévisualiser et tester votre contenu"
 >abstract="Une fois le contenu défini, prévisualisez-le et testez-le à l’aide de profils et de profils de test."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=fr" text="Envoyer des diffusions test"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=fr" text="Envoyer des BAT"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=fr#test-landing-page" text="Tester des pages de destination"
 
 Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils et les profils de test pour le prévisualiser et le tester avant d’envoyer le message. Il s’agit d’une étape cruciale pour s’assurer qu’il est exact, mais également exempt d’erreurs au niveau du contenu et des paramètres de personnalisation.
@@ -24,7 +24,7 @@ Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils e
 [!DNL Adobe Campaign Web user interface] vous permet d’effectuer les opérations suivantes :
 
 * [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
-* [Envoyer des diffusions test](test-deliveries.md) (BAT) à des destinataires ou des abonnés et abonnées spécifiques à des fins de test et de validation
+* [Envoyer un bon à tirer](test-deliveries.md) (BAT) à des destinataires ou des abonnés spécifiques pour le test et la validation
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
 * [Prévisualiser et tester vos pages de destination](../landing-pages/create-lp.md#test-landing-page)
 

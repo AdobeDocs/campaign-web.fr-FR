@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '568'
-ht-degree: 100%
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ Les profils de test sont créés en tant qu’adresses de contrôle. Il s’agit
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-Les étapes permettant d’envoyer des messages de test à des adresses de contrôle sont présentées dans [cette section](../preview-test/test-deliveries.md#test-profiles).
+Les étapes d&#39;envoi des BAT aux adresses de contrôle sont présentées dans la section [cette section](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
@@ -100,6 +100,6 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. Cliquer sur le bouton **[!UICONTROL Enregistrer]**.
 
-Le profil de test que vous venez de créer est maintenant prêt à être utilisé pour envoyer un test. [En savoir plus](../preview-test/test-deliveries.md#test-profiles)
+Le profil de test que vous venez de créer est maintenant prêt à être utilisé pour envoyer un BAT. [En savoir plus](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->

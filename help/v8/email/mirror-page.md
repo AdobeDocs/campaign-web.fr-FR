@@ -3,9 +3,9 @@ audience: end-user
 title: Ajouter un lien vers la page miroir
 description: Découvrez comment ajouter et gérer le lien vers la page miroir.
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '446'
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Une fois l’e-mail envoyé, lorsque les destinataires cliquent sur le lien de l
 
 >[!NOTE]
 >
->Dans l’e-mail de test envoyé aux profils de test, le lien vers la page miroir est inactif. Il n’est activé que dans les messages finaux.
+>Dans le BAT envoyé aux profils de test, le lien vers la page miroir est inactif. Il n’est activé que dans les messages finaux.
 
 Par défaut, la période de conservation d’une page miroir est de 60 jours. Une fois ce délai écoulé, la page miroir n’est plus disponible.
 

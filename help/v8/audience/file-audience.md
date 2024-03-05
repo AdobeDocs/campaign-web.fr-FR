@@ -3,10 +3,10 @@ audience: end-user
 title: Cibler des destinataires à partir d’un fichier
 description: Découvrez comment utiliser les destinataires d’un fichier externe pour créer l’audience de vos e-mails.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '626'
-ht-degree: 100%
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 88%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Prévisualiser et tester votre e-mail {#test}
 
-Campaign Web vous permet de prévisualiser et d’envoyer des e-mails de test lors de l’utilisation d’une audience chargée à partir d’un fichier. Pour ce faire, procédez comme suit :
+Campaign Web vous permet de prévisualiser et d&#39;envoyer des BAT lors de l&#39;utilisation d&#39;une audience téléchargée à partir d&#39;un fichier. Pour ce faire, procédez comme suit :
 
 1. Cliquez sur le **[!UICONTROL bouton Simuler le contenu]** dans l’écran de modification du contenu de votre diffusion, puis cliquez sur le bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]**.
 
@@ -94,7 +94,7 @@ Campaign Web vous permet de prévisualiser et d’envoyer des e-mails de test l
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. Pour envoyer des e-mails de test, cliquez sur le bouton **[!UICONTROL Test]**.
+1. Pour envoyer des bons à tirer, cliquez sur le bouton **[!UICONTROL Envoyer un bon à tirer]** bouton .
 
 1. Cliquez sur le bouton **[!UICONTROL Charger des profils de BAT]** et sélectionnez le fichier .txt ou .csv contenant les personnes destinataires de vos BAT.
 
@@ -102,8 +102,8 @@ Campaign Web vous permet de prévisualiser et d’envoyer des e-mails de test l
    >
    >Assurez-vous que le format de fichier correspond à celui utilisé pour charger votre audience. Toutes les erreurs de format affichent une alerte.
 
-1. Après l’ajout des personnes destinataires du BAT et lorsque vou êtes en mesure d’envoyer les BAT, cliquez sur le bouton **[!UICONTROL Envoyer un e-mail de test]**, puis confirmez l’envoi.
+1. Lorsque les destinataires du BAT sont ajoutés et que vous êtes prêt à envoyer les BAT, cliquez sur le bouton **[!UICONTROL Envoyer un bon à tirer]** et confirmez l’envoi.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. Vous pouvez contrôler à tout moment l’envoi de l’e-mail de test à l’aide du bouton **[!UICONTROL Afficher le journal de l’e-mail de test]**. [En savoir plus sur la surveillance des e-mails de test](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Vous pouvez suivre l&#39;envoi du BAT à l&#39;aide de la variable **[!UICONTROL Affichage des bons à tirer]** à tout moment. [En savoir plus sur la surveillance des BAT](../preview-test/test-deliveries.md#access-test-deliveries)

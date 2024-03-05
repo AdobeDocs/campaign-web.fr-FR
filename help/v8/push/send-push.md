@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer une diffusion par notification push
 description: Découvrez comment envoyer une diffusion par notification push dans Adobe Campaign Web.
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 91%
 
 ---
 
@@ -36,10 +36,8 @@ Vous pouvez maintenant vérifier et envoyer votre notification push à votre aud
 
 ## Tester votre diffusion par notification push {#test-push}
 
-**Adobe Campaign** vous offre la possibilité de tester les notifications push avant de les envoyer à votre audience principale. Cette étape est importante pour valider votre diffusion et identifier les problèmes éventuels.
-Les destinataires du test vérifient alors divers éléments, tels que les liens, les images et les paramètres de personnalisation, détectent les erreurs éventuelles et garantissent des performances optimales. Ce processus vous permet d’affiner et d’optimiser vos notifications push avant d’atteindre votre audience principale.
-
-![](../assets/do-not-localize/book.png) Découvrez comment envoyer des notifications push de test dans [cette section](../preview-test/test-deliveries.md#subscribers).
+Utilisation **Adobe Campaign**, vous avez la possibilité d’envoyer des bons à tirer avant de les envoyer à votre audience principale. Cette étape est importante pour valider votre diffusion et identifier les problèmes éventuels.
+Les destinataires du test vérifient alors divers éléments, tels que les liens, les images et les paramètres de personnalisation, détectent les erreurs éventuelles et garantissent des performances optimales. Ce processus vous permet d’affiner et d’optimiser vos notifications push avant d’atteindre votre audience principale. [Découvrez comment envoyer des BAT](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 
