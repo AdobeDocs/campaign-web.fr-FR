@@ -4,7 +4,7 @@ title: Surveiller et gérer des audiences
 description: Découvrir comment surveiller et gérer les audiences dans Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Rapports de campagne de canal de notification push
 description: Présentation des rapports de campagne du canal de notification push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 

@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -144,12 +144,12 @@ Le tableau **[!UICONTROL Statistiques de domaine]** contient les données dispon
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Répartition des erreurs par type"
->abstract="La variable **Ventilation des erreurs par type** Le graphique contient les données disponibles pour chaque type d’erreur rencontré : utilisateur inconnu, boîte pleine, domaine non valide, etc."
+>abstract="Le graphe **Répartition des erreurs par type** contient les données disponibles pour chaque type d’erreur rencontré : utilisateur inconnu ou utilisatrice inconnue, boîte pleine, domaine non valide, etc."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="Répartition des erreurs par type"
->abstract="La variable **Ventilation des erreurs par type** Le tableau fournit une ventilation complète de l’occurrence de chaque type d’erreur."
+>abstract="Le tableau **Répartition des erreurs par type** fournit une répartition complète de l’occurrence de chaque type d’erreur."
 
 Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** contiennent les données disponibles pour chaque type d’erreur. Les mesures sont détaillées ci-dessous.
 
@@ -180,12 +180,12 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Répartition des erreurs par domaine"
->abstract="La variable **Ventilation des erreurs par domaine** Le graphique affiche les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
+>abstract="Le graphe **Répartition des erreurs par domaine** affiche les données disponibles pour chaque type d’erreur rencontré en fonction de chaque domaine."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="Répartition des erreurs par domaine"
->abstract="La variable **Ventilation des erreurs par domaine** Le tableau fournit une ventilation complète de l’occurrence de chaque erreur en fonction du domaine utilisé."
+>abstract="Le tableau **Répartition des erreurs par domaine** fournit une répartition complète de l’occurrence de chaque erreur en fonction du domaine utilisé."
 
 Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** affichent les données disponibles pour les erreurs possibles rencontrées pour chaque domaine.
 

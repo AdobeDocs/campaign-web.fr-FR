@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -128,13 +128,13 @@ Vous pouvez maintenant sélectionner ces messages lors de la [création d’un s
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Nombre d’abonnés"
+>title="Nombre de personnes abonnées"
 >abstract="Cliquez sur **Calculer** pour obtenir le nombre total de personnes abonnées à ce service."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
 >title="Nombre total de personnes abonnées"
->abstract="L’ Indicateur de performance clé (IPC) donne une vue d’ensemble de la base d’abonnés, indiquant le nombre total d’abonnés à ce service."
+>abstract="L’indicateur clé de performance (KPI) donne une vue d’ensemble de la base de personnes abonnées, indiquant le nombre total de personnes abonnées à ce service."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
