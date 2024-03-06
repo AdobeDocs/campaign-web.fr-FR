@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des notifications push
 description: Découvrez comment créer et envoyer des notifications push à l’aide d’Adobe Campaign Web.
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -16,9 +16,9 @@ Les notifications push sont essentielles pour communiquer avec les utilisateurs 
 
 Pour créer des notifications push, vous disposez de trois options :
 
-* **Workflows** : après avoir ajouté une activité de canal push à votre workflow et configuré les paramètres de base, vous pouvez concevoir le contenu de vos notifications push à partir du menu du volet de droite. Pour obtenir des instructions détaillées sur la configuration d’un workflow, consultez cette page.
+* **Workflows** : après avoir ajouté une activité de canal push à votre workflow et configuré les paramètres de base, vous pouvez concevoir le contenu de vos notifications push à partir du menu du volet de droite. Pour obtenir des instructions détaillées sur la configuration d’un workflow, reportez-vous à la section [cette page](../workflows/gs-workflows.md).
 
-* **Campagnes** : après avoir créé une campagne, vous pouvez créer une diffusion de notification push. Pour plus d’informations sur la configuration de votre campagne, consultez cette page.
+* **Campagnes** : après avoir créé une campagne, vous pouvez créer une diffusion de notification push. Pour plus d&#39;informations sur la configuration de votre opération, voir [cette page](../campaigns/gs-campaigns.md).
 
 * **Diffusions autonomes** : attirez la clientèle directement et instantanément avec des diffusions de notifications push individuelles, sans avoir recours à des workflows ou à des campagnes.
 

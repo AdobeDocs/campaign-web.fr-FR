@@ -3,10 +3,10 @@ audience: end-user
 title: Créer une diffusion par notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Configurez vos paramètres de diffusion comme indiqué ci-dessous :
    * **[!UICONTROL Dossier]** : stockez la diffusion dans un dossier spécifique.
    * **[!UICONTROL Code de diffusion]** : organisez vos diffusions à l’aide de votre propre convention de nommage.
    * **[!UICONTROL Description]** : spécifiez une description pour la diffusion.
-   * **[!UICONTROL Nature]** : indiquez la nature de l’e-mail à des fins de classification.
+   * **[!UICONTROL Nature]**: spécifiez la nature de la diffusion à des fins de classification.
 +++
 
 
