@@ -3,10 +3,10 @@ audience: end-user
 title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
    ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
-   Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section dédiée aux filtres de l’écran.
+   Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section de l’écran dédiée aux filtres. [En savoir plus sur les audiences Adobe Experience Platform](manage-audience.md#monitor)
 
    ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
