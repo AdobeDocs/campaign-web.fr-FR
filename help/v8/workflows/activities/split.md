@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '796'
+ht-degree: 98%
 
 ---
 
@@ -46,6 +46,11 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >title="Partager le complément de génération"
 >abstract="Une fois que vous avez paramétré tous les sous-ensembles, vous pouvez sélectionner la population restante qui ne correspond à aucun des sous-ensembles et les inclure dans une transition sortante supplémentaire. Pour ce faire, activez l’option **Générer le complémentaire**."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Générer tous les sous-ensembles dans le même tableau"
+>abstract="Activez cette option pour regrouper tous les sous-ensembles dans une seule transition de sortie."
+
 Pour configurer l’activité **Partage**, procédez comme suit :
 
 1. Ajoutez une activité **Partage** à votre workflow.
@@ -76,7 +81,6 @@ Pour configurer l’activité **Partage**, procédez comme suit :
       >[!NOTE]
       >
       >Lorsque vous définissez une limite de population pour un sous-ensemble, vous pouvez classer les profils sélectionnés en fonction d’un attribut de profil spécifique, dans un ordre croissant ou décroissant. Pour ce faire, activez l’option **[!UICONTROL Activer le tri]**. Par exemple, vous pouvez restreindre un sous-ensemble afin de n’inclure que les 50 premiers profils ayant le montant d’achat le plus élevé.
-
 
 1. Une fois que vous avez paramétré tous les sous-ensembles, vous pouvez sélectionner la population restante qui ne correspond à aucun des sous-ensembles et les inclure dans une transition sortante supplémentaire. Pour ce faire, activez l’option **[!UICONTROL Générer le complémentaire]**.
 
