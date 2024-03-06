@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '1541'
-ht-degree: 100%
+source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
+workflow-type: tm+mt
+source-wordcount: '1545'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 100%
 >id="acw_deliveries_push_ios_content"
 >title="Contenu de notification push pour iOS"
 >abstract="Définissez le contenu de votre notification push pour les appareils iOS. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu**."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Bouton Rappel plus tard"
+>abstract="À déterminer"
+
 
 ## Définir le contenu de la notification {#push-message}
 
