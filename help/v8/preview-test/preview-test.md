@@ -3,10 +3,10 @@ audience: end-user
 title: À propos de la prévisualisation et du test des diffusions
 description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '195'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils e
 [!DNL Adobe Campaign Web user interface] vous permet d’effectuer les opérations suivantes :
 
 * [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
-* [Envoyer un bon à tirer](test-deliveries.md) (BAT) à des destinataires ou des abonnés spécifiques pour le test et la validation
+* [Envoyer un bon à tirer](test-deliveries.md) à des destinataires ou des abonnés spécifiques à des fins de test et de validation
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
 * [Prévisualiser et tester vos pages de destination](../landing-pages/create-lp.md#test-landing-page)
 
