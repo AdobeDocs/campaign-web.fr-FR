@@ -5,7 +5,7 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 100%
@@ -61,7 +61,6 @@ ht-degree: 100%
             + [Ajouter des attributs de style intégrés](email/inline-styling.md)
       + Envoyer et surveiller l’e-mail {#monitor}
          + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
-         + [Paramètres de diffusion d’e-mail](advanced-settings/delivery-settings.md)
          + [Envoyer en plusieurs vagues](advanced-settings/send-using-waves.md)
          + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
    + Notifications push {#push}
@@ -81,6 +80,7 @@ ht-degree: 100%
       + [Ajouter des blocs de contenu intégrés](personalization/content-blocks.md)
    + [Ajouter des offres à vos messages](msg/offers.md)
    + [Envoyer des messages à vos personnes abonnées](msg/send-to-subscribers.md)
+   + [Configurer les paramètres de diffusion](advanced-settings/delivery-settings.md)
    + Prévisualiser et tester votre diffusion {#preview-test}
       + [À propos de la prévisualisation et des BAT](preview-test/preview-test.md)
       + [Prévisualiser le contenu du message](preview-test/preview-content.md)
