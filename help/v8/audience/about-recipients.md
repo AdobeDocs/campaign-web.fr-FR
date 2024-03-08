@@ -2,10 +2,10 @@
 title: Commencer avec les profils
 description: Découvrez comment surveiller et gérer les profils dans Campaign Web.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 86%
+source-wordcount: '497'
+ht-degree: 85%
 
 ---
 
@@ -16,15 +16,6 @@ ht-degree: 86%
 >title="Affichage à 360° de vos profils"
 >abstract="Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, modifier et mettre à jour votre profil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn4"
->title="Affichage à 360° de vos profils"
->abstract="Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, modifier et mettre à jour votre profil."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
-
-<!--TO REMOVE ABOVE-->
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"

@@ -3,9 +3,9 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1357'
 ht-degree: 88%
 
 ---
@@ -17,17 +17,6 @@ ht-degree: 88%
 >id="acw_homepage_learning_card3"
 >title="Commencer avec les e-mails"
 >abstract="Vous pouvez créer une diffusion par e-mail autonome ou créer un e-mail dans le cadre d’un workflow de campagne. Découvrez comment créer la diffusion, sélectionner l’audience et concevoir le contenu de l’e-mail."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Commencer avec les e-mails"
->abstract="Vous pouvez créer une diffusion par e-mail autonome ou créer un e-mail dans le cadre d’un workflow de campagne. Découvrez comment créer la diffusion, sélectionner l’audience et concevoir le contenu de l’e-mail."
-
-<!--TO REMOVE ABOVE-->
-
-
 
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
 

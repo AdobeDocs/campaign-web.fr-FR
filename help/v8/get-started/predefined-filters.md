@@ -2,9 +2,9 @@
 title: Utiliser des filtres prédéfinis
 description: Découvrir comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '786'
 ht-degree: 100%
 
 ---
@@ -15,15 +15,6 @@ ht-degree: 100%
 >id="acw_homepage_learning_card4"
 >title="Gestion des filtres prédéfinis"
 >abstract="L’interface utilisateur web de Campaign vous offre une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis qui répondent à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Gestion des filtres prédéfinis"
->abstract="L’interface utilisateur web de Campaign vous offre désormais une interface conviviale pour gérer et personnaliser facilement des filtres prédéfinis qui répondent à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure."
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]

@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 87%
+source-wordcount: '580'
+ht-degree: 85%
 
 ---
 
@@ -42,45 +42,6 @@ ht-degree: 87%
 >title="Élément 4"
 >abstract="Concepteur de requête de nouvelle génération et concepteur d’e-mail"
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_list5"
->title="Item 5"
->abstract="Additional Item"-->
-
-<!-- TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="Aide et documentation"
->abstract="La nouvelle interface utilisateur (UI) web de Campaign offre désormais une convivialité améliorée, une meilleure accessibilité et une nouvelle conception qui permettent d’améliorer considérablement votre expérience client. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_title"
->title="Découvrez la nouvelle interface utilisateur d’Adobe Campaign"
->abstract="Plus moderne, intuitive et dynamique"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list1"
->title="Élément 1"
->abstract="Nouvelle expérience de conception d’e-mails, de SMS et de notifications push"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list2"
->title="Élément 2"
->abstract="Interface de zone de travail de workflow simplifiée"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list3"
->title="Élément 3"
->abstract="Expérience utilisateur repensée pour les audiences, les abonnements et les services, AEM Assets"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list4"
->title="Élément 4"
->abstract="E-mails générés par l’IA : génération d’e-mails à l’aide d’invites"
-
-<!--TO REMOVE ABOVE-->
 
 Nous avons le plaisir de présenter la nouvelle version de l’interface utilisateur web d’Adobe Campaign. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
