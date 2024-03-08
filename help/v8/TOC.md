@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -167,6 +167,7 @@ ht-degree: 100%
       + [Rapport global par notifications push](reporting/global-report-push.md)
       + [Rapport global par SMS](reporting/global-report-sms.md)
 + Intégrations {#integrations}
+   + [Utilisation d’autres solutions d’Adobe](integrations/integration.md)
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
-   + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Gestion des modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 

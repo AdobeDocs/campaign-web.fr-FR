@@ -1,23 +1,24 @@
 ---
 audience: end-user
-title: Gérer les ressources avec Adobe Experience Manager as a Cloud service
-description: Découvrez comment gérer les ressources avec Adobe Experience Manager as a Cloud service.
-source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
+title: Gestion des ressources avec Adobe Experience Manager as a Cloud Service
+description: Découvrez comment gérer le contenu avec Adobe Experience Manager as a Cloud Service
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
-# Gérer les modèles avec [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+# Gérer les modèles avec [!DNL Adobe Experience Manager as a Cloud Service]{#aem-assets}
 
-## Commencer avec [!DNL Adobe Experience Manager as a Cloud service]{#create-aem}
+## Commencer avec [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem}
 
 L’intégration de l’interface Adobe Campaign Web à Adobe Experience Manager facilite la gestion rationalisée du contenu et des formulaires de diffusion des e-mails directement au sein de la plateforme Adobe Experience Manager.
 
-![](assets/do-not-localize/book.png)[En savoir plus sur Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=fr)
+![](assets/do-not-localize/book.png)[En savoir plus sur Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=fr)
 
-## Créer un modèle dans [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+## Créer un modèle dans [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
 1. Accédez à votre instance de création [!DNL Adobe Experience Manager] et cliquez sur l’expérience Adobe dans le coin supérieur gauche de la page. Choisissez **[!UICONTROL Sites]** dans le menu.
 
@@ -39,7 +40,7 @@ L’intégration de l’interface Adobe Campaign Web à Adobe Experience Man
 
 1. Dans la première liste déroulante, sélectionnez **[!UICONTROL Approuver Adobe Campaign]** en tant que modèle de workflow, puis cliquez sur **[!UICONTROL Démarrer le workflow]**.
 
-1. Une clause de non-responsabilité s’affiche en haut de la page, indiquant : `This page is subject to the workflow Approve for Adobe Campaign`. Cliquez sur **[!UICONTROL Terminé]** en regard de la clause de non-responsabilité pour confirmer la révision, puis cliquez sur **[!UICONTROL Ok]**.
+1. Une clause de non-responsabilité s’affiche en haut de la page et indique : `This page is subject to the workflow Approve for Adobe Campaign`. Cliquez sur **[!UICONTROL Terminer]** en regard de la clause de non-responsabilité pour confirmer son examen, puis sélectionnez **[!UICONTROL OK]**.
 
    ![](assets/aem_4.png)
 
@@ -47,7 +48,7 @@ L’intégration de l’interface Adobe Campaign Web à Adobe Experience Man
 
 Votre newsletter est maintenant prête et synchronisée dans Adobe Campaign.
 
-## Importer un modèle Adobe Experience Manager as a Cloud Service{#aem-templates-perso}
+## Importation d’un modèle Adobe Experience Manager as a Cloud Service{#aem-templates-perso}
 
 Une fois que le modèle Experience Manager est disponible dans Adobe Campaign Web en tant que modèle de contenu, vous pouvez identifier et incorporer le contenu nécessaire à l’e-mail, y compris la personnalisation.
 

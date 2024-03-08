@@ -3,7 +3,7 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 87%
@@ -90,7 +90,7 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB Intégration de Adobe Experience Manager as a Cloud Service]
+>[!TAB Intégration d’Adobe Experience Manager as a Cloud Service]
 
 L’intégration entre l’interface web d’Adobe Campaign et Adobe Experience Manager as a Cloud Service simplifie la gestion du contenu des emails. Vous pouvez maintenant créer et modifier le contenu d&#39;un email directement dans Adobe Experience Manager, puis importer facilement les modèles terminés dans Adobe Campaign pour vos diffusions.
 
