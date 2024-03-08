@@ -4,10 +4,10 @@ title: Configuration des paramètres de diffusion
 description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 79%
+source-wordcount: '2420'
+ht-degree: 75%
 
 ---
 
@@ -70,7 +70,9 @@ Dans le champ **[!UICONTROL Type de poids]**, trois options sont disponibles :
 
 Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Le poids peut être fixe ou calculé au travers d’une formule afin de l’adapter en fonction des destinataires. Par exemple, vous pouvez définir le poids d’une diffusion en fonction des centres d’intérêt d’un(e) destinataire.
 
-Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode d’évaluation de la cible. Trois modes sont disponibles :
+Utilisez la variable **[!UICONTROL Mode de diffusion]** pour sélectionner le mode d&#39;évaluation de la cible.
+
+Trois modes sont disponibles :
 
 * **[!UICONTROL Estimation de la cible et personnalisation des messages]**
 * **[!UICONTROL Estimation et validation de la cible prévisionnelle]**
@@ -78,7 +80,7 @@ Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode 
 
 >[!NOTE]
 >
->La configuration de la gestion de l’usure s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
+>Les règles de gestion de la fatigue et de la pression sont paramétrées dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
 
 ### Paramètres de capacité {#capacity-settings}
 
@@ -90,11 +92,11 @@ Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Importance du destinataire"
->abstract="L’importance du destinataire est une formule utilisée pour déterminer les destinataires qui sont conservés lorsque les règles de typologie de capacité sont dépassées."
+>abstract="L&#39;importance du destinataire est une formule utilisée pour déterminer les profils conservés lorsque les règles de typologie de capacité sont dépassées."
 
 Dans cette section, vous pouvez sélectionner une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal.
 
-Le champ **[!UICONTROL Importance de la personne destinataire]** est une formule utilisée pour déterminer les personnes destinataires conservées lorsque les règles de typologie de capacité sont dépassées.
+La variable **[!UICONTROL Importance du destinataire]** field est une formule utilisée pour déterminer les profils conservés lorsque les règles de typologie de capacité sont dépassées.
 
 >[!NOTE]
 >
@@ -109,7 +111,7 @@ Le champ **[!UICONTROL Importance de la personne destinataire]** est une formule
 
 Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Le mapping de ciblage est le type de données qu’une opération traite. Il permet de définir la population ciblée : destinataires, bénéficiaires de contrats, opérateurs, abonnés, etc. [En savoir plus sur les mappings de ciblage](../audience/targeting-dimensions.md).
 
-Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des personnes destinataires qui ne souhaitent plus être contactées ou qui sont mises en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr){target="_blank"}
+Dans le **[!UICONTROL Exclusion]** , vous pouvez sélectionner pour exclure les profils qui ne souhaitent plus être contactés ou qui sont mis en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr){target="_blank"}
 
 ## Diffusion {#delivery}
 
@@ -276,7 +278,7 @@ Les paramètres de **[!UICONTROL Tracking]** sont définis dans la section corre
 
 Vous pouvez définir les paramètres d’exclusion dans cette section. Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Conserver les doublons]** vous permet d’autoriser plusieurs diffusions vers des personnes destinataires répondant à plusieurs critères de ciblage.
+* **[!UICONTROL Conserver les doublons]** permet d&#39;autoriser plusieurs diffusions vers des profils qui répondent à plusieurs critères de ciblage.
 * L’option **[!UICONTROL Conserver les adresses placées sur la liste bloquée]** permet de tenir à l’écart de la cible les profils qui ne sont plus ciblés par la diffusion, par exemple après une désinscription (opt-out).
 * L’option **[!UICONTROL Conserver les adresses placées en quarantaine]** permet de tenir à l’écart de la cible les profils dont l’adresse ne répond pas.
 

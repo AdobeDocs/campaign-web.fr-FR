@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 94%
+source-wordcount: '608'
+ht-degree: 72%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Créer des profils de test"
->abstract="Les profils de test sont créés en tant qu’adresses de contrôle. Il s’agit de destinataires supplémentaires dans la base de données utilisés pour cibler des profils fictifs qui ne correspondent pas aux critères de ciblage définis."
+>abstract="Les profils de test sont des destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant d&#39;envoyer vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d&#39;un message et envoyer des bons à tirer aux profils de test afin de contrôler et valider le contenu et les paramètres d&#39;un message."
 
-Les profils de test sont créés en tant qu’adresses de contrôle. Il s’agit de destinataires supplémentaires dans la base de données utilisés pour cibler des profils fictifs qui ne correspondent pas aux critères de ciblage définis. Ils vous permettent de prévisualiser et de tester la personnalisation et le rendu avant l’envoi de votre diffusion, via l’envoi de BAT.
+Les profils de test sont utilisés pour envoyer des bons à tirer et valider le contenu et les paramètres de votre message. Ces profils sont des destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant d&#39;envoyer vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d&#39;un message et envoyer des bons à tirer aux profils de test afin de contrôler et valider le contenu et les paramètres d&#39;un message.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-Les étapes d&#39;envoi des BAT aux adresses de contrôle sont présentées dans la section [cette section](../preview-test/test-deliveries.md#test-profiles).
+Les étapes d&#39;envoi de BAT à des profils de test sont présentées dans la section [cette section](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->Les profils de test sont automatiquement exclus des rapports sur les statistiques de diffusions suivants : **[!UICONTROL Clics]**, **[!UICONTROL Ouvertures]**, **[!UICONTROL Désinscriptions]**. [En savoir plus sur les rapports]
+>* Les profils de test sont créés en tant qu’adresses de contrôle dans la console cliente.
+>
+>* Les profils de test sont automatiquement exclus des rapports sur les statistiques d&#39;envoi suivantes : **[!UICONTROL Clics]**, **[!UICONTROL Ouvertures]**, **[!UICONTROL Désabonnements]**.
 
 ## Accéder aux profils de test et les gérer {#access-test-profiles}
 
@@ -62,7 +64,7 @@ Dans la vue **[!UICONTROL Explorateur]**, vous pouvez également filtrer, suppri
 >title="Tester les données supplémentaires des profils"
 >abstract="Renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Gestion des données et auxquelles vous souhaitez attribuer une valeur spécifique."
 
-Pour créer un profil de test, procédez comme suit.
+Pour créer un profil de test, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** et sélectionnez l’onglet **[!UICONTROL Profils de test]**.
 

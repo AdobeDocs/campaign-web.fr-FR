@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -134,7 +134,7 @@ Le Concepteur d’e-mail de Campaign vous permet de créer des e-mails attrayant
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Rendre votre contenu dynamique</strong><br/> Découvrez comment personnaliser votre contenu en fonction des informations que vous avez collectées sur vos personnes destinataires afin de rendre votre contenu plus attrayant et d’augmenter la probabilité qu’il soit lu.</div>
+    <div><strong>Rendre votre contenu dynamique</strong><br/>Découvrez comment personnaliser votre contenu en fonction des informations que vous avez collectées sur vos profils afin de rendre votre contenu plus attrayant et d’augmenter la probabilité de lecture de ce contenu.</div>
     </td>
   </tr>
   <tr style="border: 0;">

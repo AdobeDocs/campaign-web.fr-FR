@@ -1,10 +1,11 @@
 ---
 title: Commencer avec les profils
 description: Découvrez comment surveiller et gérer les profils dans Campaign Web.
-source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
+exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 96%
+source-wordcount: '538'
+ht-degree: 86%
 
 ---
 
@@ -32,9 +33,9 @@ ht-degree: 96%
 
 ## Qu’est-ce qu’un profil ? {#what}
 
-Un **profil**, également appelé « personne destinataire » dans la console cliente, représente un enregistrement stocké dans la base de données de Campaign, qui sert de composant clé pour [créer des audiences](create-audience.md) pour les diffusions et [ajouter des données de personnalisation](../personalization/personalize.md) à votre contenu. Adobe Campaign vous permet de gérer facilement les profils, de la création d’entrées à l’accès à une vue complète de tous les attributs et abonnements aux services de vos profils, tout cela au moyen de l’interface utilisateur web de Campaign.
+A **profile**, également appelé &quot;destinataire&quot; dans la console cliente, représente un enregistrement stocké dans la base de données Campaign, servant de composant clé à [créer des audiences](create-audience.md) pour les diffusions et [ajout de la personnalisation](../personalization/personalize.md) des données à votre contenu. Adobe Campaign vous permet de gérer facilement les profils, de la création d’entrées à l’accès à une vue complète de tous les attributs et abonnements aux services de vos profils, tout cela au moyen de l’interface utilisateur web de Campaign.
 
-De plus, des **[!UICONTROL profils de test]**, désignés comme des « profils de contrôle » dans la console cliente, vous permettent de cibler des personnes destinataires supplémentaires qui ne correspondent pas aux critères de ciblage d’une diffusion donnée. Ces profils contiennent des coordonnées fictives ou des coordonnées contrôlées par l’expéditeur ou l’expéditrice. Ils peuvent être ajoutés à l’audience d’un message afin de détecter toute utilisation frauduleuse de votre base de données de personnes destinataires ou d’assurer la bonne réception des e-mails. [Découvrir comment utiliser des profils test](test-profiles.md)
+De plus, des **[!UICONTROL profils de test]**, désignés comme des « profils de contrôle » dans la console cliente, vous permettent de cibler des personnes destinataires supplémentaires qui ne correspondent pas aux critères de ciblage d’une diffusion donnée. Ces profils contiennent des coordonnées fictives ou des coordonnées contrôlées par l’expéditeur ou l’expéditrice. Les profils de test sont des destinataires du BAT : ils sont utilisés pour tester vos messages en envoyant des bons à tirer. [Découvrir comment utiliser des profils test](test-profiles.md)
 
 Les profils et les profils de test peuvent être utilisés pour tester vos diffusions avant qu’elles n’atteignent l’audience visée. Ce faisant, vous pouvez prévisualiser le contenu et la personnalisation du message, envoyer des BAT à des fins de test et de validation, évaluer le rendu des e-mails sur différents appareils et plateformes, et tester vos pages de destination. [Découvrir comment prévisualiser et tester des diffusions](../preview-test/preview-test.md)
 

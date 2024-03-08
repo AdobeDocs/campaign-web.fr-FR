@@ -1,10 +1,11 @@
 ---
 title: Explorer les détails des profils
 description: Découvrez comment explorer les détails d’un profil.
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 98%
 
 ---
 
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
->title="Liste des abonnements des destinataires"
+>title="Liste des abonnements"
 >abstract="Cet onglet répertorie tous les services auxquels le profil est abonné."
 
 Pour accéder aux détails d’un profil, accédez à la section **[!UICONTROL Gestion des clientes et clients]** > **[!UICONTROL Profils]** puis cliquez sur le profil auquel vous souhaitez accéder.

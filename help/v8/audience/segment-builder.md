@@ -3,10 +3,10 @@ audience: end-user
 title: Créer une audience à l’aide du créateur de règles de Campaign
 description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Sur le côté droit, le volet **Propriétés des règles** vous permet d’effec
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **Afficher les résultats :** affiche la liste des personnes destinataires ciblées par l’audience.
+* **Afficher les résultats :** affiche la liste des profils ciblés par l’audience.
 * **Affichage du code** : affiche une version basée sur le code de l’audience dans SQL.
 * **Afficher les attributs avancés** : cochez cette option si vous souhaitez afficher la liste complète des attributs dans la palette de gauche : noeuds, regroupements, liens 1-1, liens 1-N.
 * **Calculer** : met à jour et affiche le nombre de profils ciblés par votre requête.

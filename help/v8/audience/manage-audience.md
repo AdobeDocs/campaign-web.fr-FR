@@ -3,7 +3,7 @@ audience: end-user
 title: Surveiller et gérer des audiences
 description: Découvrir comment surveiller et gérer les audiences dans Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 91%
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 ## Qu’est-ce qu’une audience ? {#what}
 
-L’audience est la cible principale de votre diffusion : les destinataires qui reçoivent les messages. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. Apprenez-en plus sur les modèles de diffusion sur [cette page](../msg/delivery-template.md).
+L’audience est la cible principale de votre diffusion : il s’agit des profils qui reçoivent les messages. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. Apprenez-en plus sur les modèles de diffusion sur [cette page](../msg/delivery-template.md).
 
 Pour définir la population d’une audience, vous pouvez :
 

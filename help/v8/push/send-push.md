@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer une diffusion par notification push
 description: Découvrez comment envoyer une diffusion par notification push dans Adobe Campaign Web.
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 91%
+source-wordcount: '398'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,8 @@ Vous pouvez maintenant vérifier et envoyer votre notification push à votre aud
 ## Tester votre diffusion par notification push {#test-push}
 
 Utilisation **Adobe Campaign**, vous avez la possibilité d’envoyer des bons à tirer avant de les envoyer à votre audience principale. Cette étape est importante pour valider votre diffusion et identifier les problèmes éventuels.
-Les destinataires du test vérifient alors divers éléments, tels que les liens, les images et les paramètres de personnalisation, détectent les erreurs éventuelles et garantissent des performances optimales. Ce processus vous permet d’affiner et d’optimiser vos notifications push avant d’atteindre votre audience principale. [Découvrez comment envoyer des BAT](../preview-test/test-deliveries.md#subscribers)
+
+Les profils de test sont les destinataires du BAT. Ils peuvent examiner et valider les composants et paramètres tels que les liens, les images et la personnalisation, assurant des performances optimales et détectant les erreurs. Ce processus vous permet d’affiner et d’optimiser vos notifications push avant d’atteindre votre audience principale. [Découvrez comment envoyer des BAT](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

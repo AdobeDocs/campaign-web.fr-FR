@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication.
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,6 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 ## Exemple{#deduplication-example}
 
-Dans l’exemple suivant, utilisez une activité Déduplication pour exclure les doublons de la cible avant l’envoi d’une diffusion. Les profils destinataires dupliqués identifiés sont ajoutés à une audience dédiée qui peut être réutilisée si nécessaire. Choisissez l’adresse **e-mail** pour identifier les doublons. Conservez une entrée et sélectionnez la méthode de déduplication **aléatoire**.
+Dans l’exemple suivant, utilisez une activité Déduplication pour exclure les doublons de la cible avant l’envoi d’une diffusion. Les profils dupliqués identifiés sont ajoutés à une audience dédiée qui peut être réutilisée si nécessaire. Choisissez l’adresse **e-mail** pour identifier les doublons. Conservez une entrée et sélectionnez la méthode de déduplication **aléatoire**.
 
 ![](../assets/workflow-deduplication-example.png)
