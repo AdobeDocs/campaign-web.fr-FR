@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 61a15b297c8f9b36e195e173dd394dd83bd58bf1
+source-git-commit: 6d3a891bee77ebe8e1e78d816bbec7d9bf4efc1f
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 80%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Termes de l’IA générative d’Adobe"
->abstract="L’accès à cette fonctionnalité est soumis à votre accord sur les directives d’utilisation de l’IA générative d’Adobe Experience Cloud et aux conditions suivantes :"
+>abstract="L’accès à cette fonctionnalité est soumis à votre accord avec les directives utilisateur de Adobe Experience Cloud Generative AI et aux conditions suivantes : tout message, contexte ou information supplémentaire que vous fournissez à cette fonctionnalité (a) doit être lié à un contexte spécifique, qui peut inclure vos documents de marque, contenu de site web, données, schémas pour ces données, modèles ou autres documents approuvés, et (b) ne doit pas contenir d’informations personnelles (les informations personnelles incluent tout ce qui peut être lié à un (individuel). Vous devez vérifier la précision des sorties de cette fonctionnalité et vous assurer qu’elles sont adaptées à votre cas d’utilisation."
 
 <!--
- Any prompts, context, or supplemental information, or other input you provide to this feature (a) must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents, and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case."
+"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 -->
 
