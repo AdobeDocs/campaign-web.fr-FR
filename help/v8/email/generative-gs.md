@@ -6,24 +6,24 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: caeea471b3ea623f7da93c17098ee33146a6af39
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 83%
 
 ---
 
 # Commencer avec l’assistant de contenu {#generative-gs}
 
-<!--
+
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Adobe Generative AI terms"
->abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines, and the following:
-* Any prompts, context, or supplemental information, or other input you provide to this feature (a) must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents, and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual).
-* You should review any output from this feature for accuracy and ensure that it is appropriate for your use case."
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
--->
+>title="Termes de l’IA générative d’Adobe"
+>abstract="L’accès à cette fonctionnalité est soumis à votre accord sur les directives d’utilisation de l’IA générative d’Adobe Experience Cloud et aux conditions suivantes :
+* Tout message, contexte ou information supplémentaire que vous fournissez à cette fonctionnalité (a) doit être lié à un contexte spécifique, qui peut inclure vos documents de marque, contenu du site web, données, schémas pour ces données, modèles ou autres documents approuvés, et (b) ne doit pas contenir d’informations personnelles (les informations personnelles incluent tout ce qui peut être lié à un invité spécifique).
+* Vous devez vérifier la précision des sorties de cette fonctionnalité et vous assurer qu’elles sont adaptées à votre cas d’utilisation.&quot;
+>additional-url=&quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot; text=&quot;Adobe Generator AI User Guidelines&quot;
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
