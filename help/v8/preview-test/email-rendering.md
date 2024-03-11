@@ -4,9 +4,9 @@ title: Tester le rendu des e-mails
 description: Découvrez comment tester le rendu de vos e-mails dans l’interface utilisateur web de Campaign.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Pour ce faire, tirez parti de votre compte **Litmus** dans [!DNL Adobe Campaign]
 
 >[!CAUTION]
 >
->L’utilisation du rendu des emails dans Campaign envoie un BAT à un système tiers. En connectant votre compte Litmus à [!DNL Campaign], vous reconnaissez qu’Adobe n’est responsable d’aucune donnée que vous pouvez envoyer à ce tiers. La politique de conservation des données de Litmus s’applique à ces emails, y compris les données de personnalisation qui peuvent être incluses dans ces bons à tirer. Pour accéder à ces données ou les supprimer, contactez directement Litmus.
+>Lors de l’utilisation du rendu des e-mails dans Campaign, un BAT est envoyé à un système tiers. En connectant votre compte Litmus à [!DNL Campaign], vous reconnaissez qu’Adobe n’est responsable d’aucune donnée que vous pouvez envoyer à ce tiers. La politique de conservation des données de Litmus s’applique à ces e-mails, y compris concernant les données de personnalisation qui peuvent être incluses dans ces BAT. Pour accéder à ces données ou les supprimer, contactez directement Litmus.
 
 Pour accéder aux fonctionnalités de rendu des e-mails, vous devez remplir les conditions suivantes :
 

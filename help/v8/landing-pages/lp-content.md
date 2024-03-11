@@ -3,9 +3,9 @@ title: Définir du contenu spécifique à une page de destination
 description: Découvrir comment concevoir du contenu spécifique à une page de destination dans Campaign Web
 feature: Landing Pages
 source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utili
 
    * **[!UICONTROL Oui si coché]**.<!--TBC-->
 
-   * **[!UICONTROL Non coché]**.<!--TBC-->
+   * **[!UICONTROL Non si coché]**.<!--TBC-->
 
 1. Vous pouvez supprimer et ajouter autant de champs que vous le souhaitez (champs de texte, boutons radio, cases à cocher, liste déroulante, etc.) selon les besoins.
 
@@ -99,7 +99,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utili
 1. Si vous souhaitez apporter des mises à jour supplémentaires lors de l’envoi du formulaire, sélectionnez **[!UICONTROL Mises à jour supplémentaires]**, puis sélectionnez l’élément à mettre à jour :
    * Un service d’abonnement : dans ce cas, définissez si vous souhaitez abonner ou désabonner des utilisateurs et des utilisatrices lors de l’envoi du formulaire.
    * Adresse e-mail utilisée lors du renseignement du formulaire.
-   * Tous les canaux : lors de l’envoi du formulaire, les utilisateurs seront invités à participer ou à refuser (selon le modèle sélectionné) à toutes les communications de votre marque sur tous les canaux.
+   * Tous les canaux : lors de l’envoi du formulaire, les utilisateurs et utilisatrices seront abonnés ou désabonnés (selon le modèle sélectionné) de toutes les communications de votre marque sur tous les canaux.
    * Un champ de la base de données : sélectionnez un champ dans la liste des attributs et définissez s’il doit être défini sur True ou False lors de l’envoi du formulaire.
 
    ![](assets/lp-form-additionnal-updates.png)

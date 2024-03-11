@@ -4,9 +4,9 @@ title: Matrice des fonctionnalités de l’interface utilisateur web de Campaign
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ Certaines fonctionnalités ne sont disponibles que depuis la console cliente. Su
 
 ## Modélisation des données et ingestion des données {#data-capabilities}
 
-L’interface utilisateur web de Campaign ne présente pas les fonctionnalités suivantes. Elles ne sont disponibles que dans la console cliente :
+L’interface utilisateur web de Campaign ne présente pas les fonctionnalités suivantes. Elles ne sont disponibles que dans la console cliente :
 
 ### Comptes externes {#external}
 
@@ -164,11 +164,11 @@ La création, la modification et l’extension de schéma sont limitées aux uti
 
 ### Fonctionnalités de gestion des données des workflows {#data}
 
-Data Management combine un ensemble d’activités pour résoudre des problèmes de ciblage complexes en offrant des outils plus efficaces et plus flexibles tels que le chargement de données, l’extraction (fichier), la mise à jour de données, l’édition de schéma ou les workflows techniques d’importation/exportation. [Découvrez les fonctionnalités de Data Management des workflows dans la console cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr#data-management){target="_blank"}
+Data Management combine un ensemble d’activités pour résoudre des problèmes de ciblage complexes en offrant des outils plus efficaces et plus flexibles tels que Chargement de données, Extraction (fichier), Mise à jour des données, Modifier le schéma ou Importer/exporter des workflows techniques. [Découvrir les fonctionnalités Data Management des workflows dans la console cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr#data-management){target="_blank"}
 
 >[!NOTE]
 >
->Bien que certaines de ces activités ne soient disponibles que dans la console cliente, d&#39;autres le sont dans l&#39;interface utilisateur Web de Campaign, comme le **Enrichissement**, **Chargement de fichier** ou **Changement de dimension** activités. [En savoir plus sur les activités de ciblage et de gestion des données dans l&#39;interface utilisateur web de Campaign](../workflows/activities/about-activities.md#targeting)
+>Bien que certaines de ces activités ne soient disponibles que dans la console cliente, d’autres sont disponibles dans l’interface utilisateur web de Campaign, telles que les activités **Enrichissement**, **Charger un fichier** ou **Changement de dimension**. [En savoir plus sur les activités de ciblage et de gestion des données dans l’interface utilisateur web de Campaign](../workflows/activities/about-activities.md#targeting)
 
 ### Configuration de Federated Data Access {#fda}
 

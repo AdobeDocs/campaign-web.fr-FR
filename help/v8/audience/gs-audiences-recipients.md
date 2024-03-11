@@ -3,9 +3,9 @@ title: Prise en main des profils et des audiences
 description: Découvrez comment utiliser les profils et les audiences dans Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

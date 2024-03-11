@@ -4,9 +4,9 @@ title: Commencer avec Adobe Campaign Web
 description: Commencer avec Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ En utilisant Campaign, vous pouvez :
 * **Intégrer** les canaux e-mail, mobiles, en ligne et hors ligne au parcours client
 * **Automatiser** la diffusion de messages et d&#39;offres pertinents et opportuns
 
-## Découvrir l&#39;interface utilisateur Web de Campaign {#web}
+## Découvrez l’interface utilisateur web de Campaign {#web}
 
 Initialement accessible uniquement par le biais d’une [console cliente](#ac-client), Campaign offre à présent une nouvelle interface utilisateur web avec une convivialité et une accessibilité accrues, ainsi qu’une nouvelle conception qui améliore considérablement votre expérience en tant que client ou cliente. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
@@ -47,9 +47,9 @@ Cette nouvelle interface utilisateur web répond tout d’abord aux besoins des 
 
 En tant qu’utilisateur expert ou utilisatrice experte, ou en tant qu’administrateur ou administratrice, si vous devez utiliser une fonctionnalité de Campaign v8 qui n’est pas disponible dans l’interface utilisateur web de Campaign, vous pouvez utiliser la [console cliente](#ac-client).
 
-Découvrez comment vous connecter à Adobe Campaign Web sur [cette page](connect-to-campaign.md).
+Découvrez comment vous connecter à Adobe Campaign Web sur [cette page](connect-to-campaign.md).
 
-➡️ [Découvrir le Web d&#39;une campagne en vidéo](#video)
+➡️ [Découvrir Campaign Web en vidéo](#video)
 
 ## À propos de la console cliente Campaign {#ac-client}
 
@@ -63,6 +63,6 @@ Pour plus d’informations sur l’utilisation de Campaign v8 avec sa console c
 
 ## Vidéo pratique {#video}
 
-Découvrez comment accéder à l&#39;interface utilisateur Web de Campaign et naviguer dans celle-ci, et comment personnaliser les listes de stock. Découvrez l’assistant de connaissances optimisé par l’IA.
+Découvrez comment accéder à l’interface utilisateur web de Campaign, comment naviguer dans celle-ci, et comment personnaliser les listes d’inventaires. Découvrez l’assistant de connaissances optimisé par l’IA.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)

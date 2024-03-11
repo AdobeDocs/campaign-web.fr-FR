@@ -3,9 +3,9 @@ title: Créer une page de destination
 description: Découvrir comment configurer et publier une page de destination dans Campaign Web
 feature: Landing Pages
 source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 L’interface utilisateur web de Campaign vous permet de créer, concevoir et publier des pages de destination. Une fois la publication effectuée, vous pouvez insérer un lien vers votre formulaire dans une diffusion. Lorsque les personnes destinataires cliquent sur ce lien, elles sont redirigées vers la page de destination correspondante.
 
-[!DNL Adobe Campaign] est fourni avec quatre modèles pour gérer les cas d’utilisation suivants : **acquisition**, **abonnement**, **unsubscription**, et **liste bloquée**. [En savoir plus](lp-use-cases.md)
+[!DNL Adobe Campaign] est fourni avec quatre modèles pour gérer les cas d’utilisation suivants : **acquisition**, **abonnement**, **désabonnement** et **liste bloquée**. [En savoir plus](lp-use-cases.md)
 
 ## Accéder aux pages de destination {#access-landing-pages}
 
@@ -59,13 +59,13 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
->title="Définition des options de préchargement"
->abstract="Lorsque l’option **Préremplir avec les données référencées dans le formulaire** est activée, si la personne qui visite la page de destination correspond à un profil de la base de données, les informations du profil sont automatiquement préchargées dans le formulaire. Avec la variable **Ignorer le préchargement si aucun ID** sélectionnée, chaque profil saisi sera ajouté à la base après validation du formulaire."
+>title="Définir des options de pré-chargement"
+>abstract="Lorsque l’option **Préremplir avec les données référencées dans le formulaire** est activée, si la personne qui visite la page de destination correspond à un profil de la base de données, les informations du profil sont automatiquement pré-chargées dans le formulaire. Si l’option **Ignorer le pré-chargement si aucun ID** est sélectionnée, chaque profil saisi sera ajouté à la base de données après validation du formulaire."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
->title="Définition des options de stockage"
->abstract="La section Pré-chargement permet d&#39;indiquer comment trouver l&#39;enregistrement à mettre à jour dans la base de données."
+>title="Définir des options de stockage"
+>abstract="La zone de pré-chargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données."
 
 <!--The main steps to create landing pages are as follows:
 

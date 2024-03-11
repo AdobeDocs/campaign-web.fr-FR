@@ -1,16 +1,16 @@
 ---
 solution: Campaign, Campaign v8 Web User Interface
-title: Cas d’utilisation de l’URL de la page de destination
-description: Découvrez les cas pratiques les plus courants avec les landing pages dans l'interface utilisateur web de Campaign
+title: Cas d’utilisation de page de destination
+description: Découvrir les cas d’utilisation les plus courants pour les pages de destination dans l’interface utilisateur web de Campaign
 feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
 >title="Copier l’URL avec précaution"
->abstract="Lors de la création d&#39;une landing page, quatre modèles d&#39;usine permettent d&#39;implémenter différents cas pratiques : ajouter ou mettre à jour un profil dans la base de données Campaign, abonner des clients à un service, les désabonner d&#39;un service ou exclure des utilisateurs."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Créer une page de destination"
+>abstract="Lors de la création d’une page de destination, quatre modèles prêts à l’emploi permettent de mettre en œuvre différents cas pratiques : ajouter ou mettre à jour un profil dans la base de données Campaign, abonner des clientes et clients à un service, les désabonner d’un service ou exclure des utilisateurs et utilisatrices."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=fr#create-landing-page" text="Créer une page de destination"
 
 Pour utiliser correctement votre page de destination, vous devez la référencer en tant que lien dans une diffusion à l’aide de l’option dédiée.
 
 >[!CAUTION]
 >
->Pour exploiter pleinement votre landing page, vous ne pouvez pas copier-coller le lien affiché dans le tableau de bord des diffusions publiées directement dans vos diffusions ou dans une page web. Découvrez comment le faire correctement dans cette section.
+>Pour tirer pleinement profit de votre page de destination, vous ne pouvez pas copier-coller le lien affiché dans le tableau de bord des diffusions publiées directement dans vos diffusions ou dans une page web. Découvrez comment le faire correctement dans cette section.
 
 Dans l’interface [!DNL Adobe Campaign Web], quatre modèles prêts à l’emploi vous permettent de mettre en œuvre différents cas d’utilisation. Toutefois, les étapes principales restent les mêmes et sont décrites ci-dessous.
 
@@ -117,7 +117,7 @@ En cas d’abonnement à votre newsletter, le service correspondant leur sera pr
 >title="Définir la page de destination d’abonnement"
 >abstract="Une page d’abonnement permet à vos clientes et clients de s’abonner à un service."
 
-Un des cas d’utilisation les plus courants consiste à inviter vos clientes et vos clients à [s’abonner à un service](../audience/manage-services.md) (comme une newsletter ou un événement) via une page de destination. Suivez les étapes ci-dessous.
+Un des cas d’utilisation les plus courants consiste à inviter vos clientes et clients à [s’abonner à un service](../audience/manage-services.md) (comme une newsletter ou un événement) via une page de destination. Suivez les étapes ci-dessous.
 
 <!--For example, let's say you organize an event next month and you want to launch an event registration campaign. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.-->
 

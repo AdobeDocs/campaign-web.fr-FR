@@ -4,15 +4,15 @@ title: Filtrer des listes
 description: Découvrez comment filtrer les listes Adobe Campaign Web à l’aide de filtres intégrés et personnalisés.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Filtrer des listes {#filter-lists}
 
-Adobe Campaign Web fournit des filtres dans chaque liste d’objets, ce qui vous permet de filtrer les informations en fonction de critères contextuels spécifiques. Vous pouvez, par exemple, filtrer les diffusions selon leur statut, leur canal, leur date de contact ou leur dossier. Vous pouvez également masquer les bons à tirer.
+Adobe Campaign Web fournit des filtres dans chaque liste d’objets, ce qui vous permet de filtrer les informations en fonction de critères contextuels spécifiques. Vous pouvez, par exemple, filtrer les diffusions selon leur statut, leur canal, leur date de contact ou leur dossier. Vous pouvez également masquer les BAT.
 
 ## Appliquer des filtres{#apply}
 
