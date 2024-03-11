@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
+source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
-source-wordcount: '2030'
-ht-degree: 96%
+source-wordcount: '2053'
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ Les composants de filtrage vous permettent d’affiner votre requête à l’aid
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="Condition personnalisée"
->abstract="Condition personnalisée"
+>abstract="Les conditions personnalisées sont des composants de filtrage qui vous permettent de filtrer votre requête en créant votre propre condition avec des attributs de la base de données et des expressions avancées."
 
 Pour filtrer votre requête à l’aide d’une condition personnalisée, procédez comme suit :
 
