@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Nous avons le plaisir de présenter la nouvelle version de l’**interface utili
 
 >[!AVAILABILITY]
 >
->Cette version est disponible pour tous les utilisateurs qui démarrent [Version de Campaign v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr). Apprenez-en davantage sur les versions d’Adobe Campaign dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
+>Cette version est disponible pour tous les utilisateurs et utilisatrices à partir de la [version 8.6 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr). Apprenez-en davantage sur les versions d’Adobe Campaign dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=fr){target="_blank"}.
 
 
 ## Fonctionnalités principales {#key-features}
@@ -81,18 +81,18 @@ Utilisez la nouvelle interface utilisateur web de Campaign pour :
 
 
 
-**Activités de workflow de campagne nouvelles et repensées**
+**Nouvelles activités de workflow de campagne repensées**
 
 Boostez vos campagnes marketing avec notre **ensemble étendu d’activités de workflow**. Bénéficiez de nouvelles fonctionnalités d’automatisation et d’optimisation qui vous permettront de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes. En savoir plus dans [cette section](../workflows/gs-workflows.md).
 
 
 **Audience cible avec le concepteur de requête**
 
-Adobe Campaign Web comporte un **concepteur de requête puissant et intuitif** qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés. Le créateur de modèles de requête est disponible dans chaque contexte où vous devez définir des règles pour filtrer les données. En savoir plus dans [cette section](../query/query-modeler-overview.md).
+Adobe Campaign Web comporte un **concepteur de requête puissant et intuitif** qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés. Le concepteur de requête est disponible dans tout contexte où vous devez définir des règles pour filtrer des données. En savoir plus dans [cette section](../query/query-modeler-overview.md).
 
 **Création et gestion aisées des profils**
 
-Vous pouvez utiliser la nouvelle interface utilisateur web de Campaign pour **créer et mettre à jour des personnes destinataires** dans la base de données directement depuis le menu Personnes destinataires. Un formulaire simplifié d&#39;édition de profil permet de renseigner les coordonnées et attributs du destinataire, et de mettre à jour un destinataire existant, sans utiliser la console cliente. En savoir plus dans [cette section](../audience/about-recipients.md).
+Vous pouvez utiliser la nouvelle interface utilisateur web de Campaign pour **créer et mettre à jour des personnes destinataires** dans la base de données directement depuis le menu Personnes destinataires. Un formulaire simplifié d’édition de profil permet de renseigner les coordonnées et attributs de la personne destinataire, ou encore de mettre à jour une personne destinataire existante, sans utiliser la console cliente. En savoir plus dans [cette section](../audience/about-recipients.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -111,15 +111,15 @@ Vous pouvez utiliser la nouvelle interface utilisateur web de Campaign pour **cr
 
 **Aide contextuelle optimisée par l’IA**
 
-Posez des questions et trouvez des conseils directement dans l’interface utilisateur du produit. La nouvelle **Aide contextuelle optimisée par l’IA** vous aide à apprendre et à développer vos connaissances sur les nouvelles fonctionnalités de Campaign. Selon la documentation la plus récente du produit, elle vous aide à trouver de l’aide et à obtenir des conseils détaillés instantanément, au fur et à mesure que vous créez vos cas d’utilisation. Cette fonctionnalité est actuellement disponible en version bêta pour un nombre limité d’utilisateurs. En savoir plus dans [cette section](../get-started/using-ai.md).
+Posez des questions et trouvez des conseils directement dans l’interface utilisateur du produit. La nouvelle **Aide contextuelle optimisée par l’IA** vous aide à apprendre et à développer vos connaissances sur les nouvelles fonctionnalités de Campaign. Selon la documentation la plus récente du produit, elle vous aide à trouver de l’aide et à obtenir des conseils détaillés instantanément, au fur et à mesure que vous créez vos cas d’utilisation. Cette fonctionnalité est actuellement disponible en version bêta pour un nombre limité de personnes. En savoir plus dans [cette section](../get-started/using-ai.md).
 
 **Filtres prédéfinis**
 
-Présentation de la gestion des filtres prédéfinis. L’interface utilisateur web de Campaign vous offre désormais une interface conviviale pour **gérer et personnaliser facilement des filtres prédéfinis** pour répondre à vos besoins spécifiques. Créez une fois et enregistrez pour une utilisation ultérieure. En savoir plus dans [cette section](../get-started/predefined-filters.md).
+Présentation de la gestion des filtres prédéfinis. L’interface utilisateur web de Campaign vous offre désormais une interface conviviale pour **gérer et personnaliser facilement des filtres prédéfinis** pour répondre à vos besoins spécifiques. Créez-les une seule fois et enregistrez-les pour une utilisation ultérieure. En savoir plus dans [cette section](../get-started/predefined-filters.md).
 
 **Convertisseur HTML pour la conception d’e-mail**
 
-Vous pouvez désormais **importer et convertir tout contenu HTML** dans l’éditeur d’e-mail de Campaign. Les blocs de contenu sont automatiquement identifiés et disponibles dans le Concepteur d&#39;email : utilisez ses puissantes fonctionnalités de conception pour le mettre à jour et le personnaliser ! En savoir plus dans [cette section](../email/existing-content.md).
+Vous pouvez désormais **importer et convertir tout contenu HTML** dans l’éditeur d’e-mail de Campaign. Les blocs de contenu sont automatiquement identifiés et disponibles dans le concepteur d’e-mail : utilisez ses puissantes fonctionnalités de conception pour les mettre à jour et les personnaliser. En savoir plus dans [cette section](../email/existing-content.md).
 
 
 **SMS avec des offres**
@@ -134,9 +134,9 @@ En tant qu’utilisateur ou utilisatrice de Campaign, vous pouvez toujours accé
 
 De plus, l’ensemble de vos données et paramètres déjà disponibles dans la console cliente sont visibles dans l’interface utilisateur web de Campaign, à partir du volet de navigation de gauche de l’explorateur. En savoir plus sur la vue Explorateur dans [cette section](../get-started/user-interface.md#user-interface-explorer).
 
-Avec l’interface utilisateur web de Campaign, l’interface utilisateur reflète les autorisations de l’utilisateur ou de l’utilisatrice. En savoir plus sur les autorisations dans [cette page](../get-started/permissions.md).
+Avec l’interface utilisateur web de Campaign, l’interface utilisateur reflète les autorisations de l’utilisateur ou de l’utilisatrice. Pour en savoir plus sur les autorisations, consultez [cette page](../get-started/permissions.md).
 
-Fonctionnalités prises en charge et non prises en charge et interopérabilité entre l’interface utilisateur Web de Campaign et la console cliente Campaign [dans cette page](../get-started/capability-matrix.md).
+Pour les fonctionnalités prises en charge et non prises en charge ainsi que l’interopérabilité entre l’interface utilisateur web de Campaign et la console cliente Campaign, consultez [cette page](../get-started/capability-matrix.md).
 
 ## Mises à jour de la terminologie {#terminology-updates}
 
@@ -158,6 +158,6 @@ Les restrictions ci-dessous s’appliquent à cette version :
 * Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes, mais la préparation de la diffusion est en temps réel.
 * Les notifications d’Adobe Experience Cloud et l’aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
 
-Lorsque vous utilisez l&#39;interface utilisateur Web de Campaign avec des workflows créés ou modifiés dans la console cliente Campaign, des barrières de sécurité et des limitations spécifiques s&#39;appliquent. Ils sont répertoriés [dans cette section](../get-started/guardrails.md).
+Lorsque vous utilisez l’interface utilisateur web de Campaign avec des workflows créés ou modifiés dans la console cliente Campaign, des mécanismes de sécurisation et des limitations spécifiques s’appliquent. Ceux-ci sont listés [dans cette section](../get-started/guardrails.md).
 
-En savoir plus sur les fonctionnalités prises en charge/non prises en charge et l&#39;interopérabilité entre l&#39;interface utilisateur Web de Campaign et la console cliente Campaign [dans cette page](../get-started/capability-matrix.md).
+Pour en savoir plus sur les fonctionnalités prises en charge et non prises en charge et l’interopérabilité entre l’interface utilisateur web de Campaign et la console cliente Campaign, consultez [cette page](../get-started/capability-matrix.md).

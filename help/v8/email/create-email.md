@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '1357'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -146,17 +146,17 @@ Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contac
 
 Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## Prévisualiser un email et envoyer des BAT {#preview-test}
+## Prévisualiser un e-mail et envoyer des BAT {#preview-test}
 
 Avant d’envoyer votre e-mail, vous pouvez le prévisualiser et le tester pour vous assurer qu’il répond à vos attentes.
 
-Dans ce cas pratique, vous prévisualisez l&#39;email et envoyez des BAT à des adresses email spécifiques tout en empruntant l&#39;identité de certains des profils ciblés.
+Dans ce cas d’utilisation, vous prévisualisez l’e-mail et envoyez des BAT à des adresses e-mail spécifiques tout en empruntant l’identité de certains des profils ciblés.
 
-Des informations supplémentaires sur la prévisualisation d&#39;un email et l&#39;envoi de BAT sont disponibles dans la section [cette section](../preview-test/preview-test.md).
+Des informations supplémentaires sur la prévisualisation des e-mails et l’envoi de BAT sont disponibles dans [cette section](../preview-test/preview-test.md).
 
 1. Pour vérifier votre e-mail, cliquez sur **[!UICONTROL Vérifier et envoyer]**. Un aperçu de votre e-mail s’affiche, ainsi que toutes les propriétés, l’audience et le planning configurés. Vous pouvez modifier chacun de ces éléments en cliquant sur le bouton Modifier.
 
-1. Pour prévisualiser l&#39;email et envoyer les BAT, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
+1. Pour prévisualiser l’e-mail et envoyer des BAT, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
    ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
@@ -169,25 +169,25 @@ Des informations supplémentaires sur la prévisualisation d&#39;un email et l&#
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. Pour envoyer des bons à tirer, cliquez sur le bouton **[!UICONTROL Envoyer un bon à tirer]** puis sélectionnez le mode à utiliser.
+1. Pour envoyer des BAT, cliquez sur le bouton **[!UICONTROL Envoyer des BAT]**, puis sélectionnez le mode à utiliser.
 
-   Dans cet exemple, utilisez la méthode **[!UICONTROL Substituer à partir de la cible principale]** le mode , qui envoie des BAT à des adresses email spécifiques tout en empruntant l&#39;identité de certains des profils ciblés par l&#39;email.
+   Dans cet exemple, utilisez le mode **[!UICONTROL Substituer à partir de la cible principale]**, qui envoie des BAT à des adresses e-mail spécifiques tout en empruntant l’identité de certains des profils ciblés par l’e-mail.
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. Cliquez sur **[!UICONTROL Ajouter une adresse]** et indiquez la ou les adresses email qui reçoivent les bons à tirer.
+1. Cliquez sur **[!UICONTROL Ajouter une adresse]** et indiquez la ou les adresses e-mail qui reçoivent les BAT.
 
    Pour chaque adresse e-mail, sélectionnez le profil dont vous souhaitez emprunter l’identité. Vous pouvez également laisser Adobe Campaign sélectionner un profil aléatoire à partir de la cible.
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. Cliquez sur **[!UICONTROL Envoyer un bon à tirer]** et confirmez l’envoi.
+1. Cliquez sur **[!UICONTROL Envoyer un BAT]**, puis confirmez l’envoi.
 
-   Les bons à tirer sont envoyés aux adresses email spécifiées à l’aide du profil sélectionné avec la variable **[Bon à tirer x]** préfixe.
+   Les BAT sont envoyés aux adresses e-mail spécifiées à l’aide du profil sélectionné avec le préfixe **[BAT x]**.
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   Vous pouvez vérifier à tout moment l&#39;état de l&#39;envoi et accéder aux BAT envoyés en cliquant sur le bouton **[!UICONTROL Affichage des bons à tirer]** dans l’écran simuler le contenu.
+   Vous pouvez vérifier à tout moment le statut de l’envoi et accéder aux BAT envoyés en cliquant sur le bouton **[!UICONTROL Afficher les BAT]** dans l’écran Simuler du contenu.
 
 ## Envoyer et surveiller l’e-mail {#prepare-send}
 

@@ -138,7 +138,7 @@ Vous pouvez définir les paramètres d’**[!UICONTROL Envoi]** ci-dessous.
 
 * **[!UICONTROL Tester la diffusion SMTP]** (canal email) : cette option est utilisée pour tester l’envoi via SMTP. L&#39;email est traité jusqu&#39;à la connexion au serveur SMTP, mais n&#39;est pas envoyé : pour chaque destinataire de l&#39;email, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
-* **[!UICONTROL Email Cci]** (canal email) : cette option est utilisée pour stocker les emails sur un système externe via Cci en ajoutant simplement une adresse email en Cci à votre cible de message. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* **[!UICONTROL Email Cci]** (canal email) : cette option est utilisée pour stocker les emails sur un système externe via Cci en ajoutant simplement une adresse email en Cci à votre cible de message. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=fr){target="_blank"}.
 
 Dans la section **[!UICONTROL Définition de vague]**, sélectionnez l’option **[!UICONTROL Envoyer en plusieurs vagues]** pour augmenter progressivement le volume envoyé par vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. [En savoir plus](send-using-waves.md)
 

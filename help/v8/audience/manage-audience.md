@@ -6,13 +6,13 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Surveiller et gérer des audiences {#monitor-manage}
 
-## Qu’est-ce qu’une audience ? {#what}
+## Qu’est-ce qu’une audience ? {#what}
 
 L’audience est la cible principale de votre diffusion : il s’agit des profils qui reçoivent les messages. Le type d’audience dépend du mapping de ciblage défini dans le modèle de diffusion. Apprenez-en plus sur les modèles de diffusion sur [cette page](../msg/delivery-template.md).
 
@@ -29,7 +29,7 @@ Lors du ciblage d’une audience, vous pouvez également définir des **populati
 >
 >Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience est définie dans une activité de workflow **Créer une audience** spécifique. Dans ce contexte, vous ne pouvez pas charger une audience depuis un fichier pour une diffusion par e-mail, et l’audience n’est définie que dans cette activité dédiée. Découvrez comment définir l’audience de votre diffusion dans un workflow de campagne dans [cette section](../workflows/activities/build-audience.md).
 
-## Surveillance des audiences {#monitor}
+## Surveiller les audiences {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
@@ -70,8 +70,8 @@ Pour dupliquer ou supprimer une audience, cliquez sur le bouton **[!UICONTROL Pl
 
 ## Vidéo pratique {#video}
 
-Découvrez comment créer une destination pour utiliser une audience Experience Platform dans l’interface utilisateur Web d’Adobe Campaign.
+Découvrez comment créer une destination pour utiliser une audience Experience Platform dans l’interface utilisateur web d’Adobe Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Vous trouverez des informations détaillées sur la configuration de l’intégration Sources et destinations d’Adobe dans la section [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=fr){target="_blank"}.
+Vous trouverez des informations détaillées sur la configuration de l’intégration Sources et destinations d’Adobe dans la section [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=fr){target="_blank"}.

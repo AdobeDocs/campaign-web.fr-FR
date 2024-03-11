@@ -6,7 +6,7 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -236,7 +236,7 @@ Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inc
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="Propriétés de la règle"
->abstract="Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide de la fonction **Propriétés des règles** situé sur le côté droit.<br/>Ce volet permet d&#39;afficher les données obtenues, de récupérer une version de code SQL de la requête et de vérifier le nombre d&#39;enregistrements ciblés.<br/>Utilisez la variable **Sélectionner ou enregistrer un filtre** pour enregistrer votre requête en tant que filtre prédéfini ou remplacer le contenu de la zone de travail par un filtre existant."
+>abstract="Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit.<br/>Ce volet permet d’afficher les données obtenues, de récupérer une version de code SQL de la requête et de vérifier le nombre d’enregistrements ciblés.<br/>Utilisez le bouton **Sélectionner ou enregistrer un filtre** pour enregistrer votre requête en tant que filtre prédéfini ou remplacer le contenu de la zone de travail par un filtre existant."
 
 Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit. Les opérations disponibles sont les suivantes :
 

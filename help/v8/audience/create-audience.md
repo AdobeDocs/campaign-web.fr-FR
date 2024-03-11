@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Campaign Web vous permet de créer de nouvelles audiences dans une zone de trav
 
 Une fois que vous avez conçu votre workflow, les audiences résultantes sont automatiquement stockées dans la base de données Campaign avec les audiences existantes. Ces audiences peuvent ensuite être ciblées dans des workflows ou des diffusions autonomes.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Créer votre première audience {#create}
 

@@ -6,7 +6,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Prévisualiser et tester votre e-mail {#test}
 
-Campaign Web vous permet de prévisualiser et d&#39;envoyer des BAT lors de l&#39;utilisation d&#39;une audience téléchargée à partir d&#39;un fichier. Pour ce faire, procédez comme suit :
+Campaign Web vous permet de prévisualiser et d’envoyer des BAT lors de l’utilisation d’une audience chargée à partir d’un fichier. Pour ce faire, procédez comme suit :
 
 1. Cliquez sur le **[!UICONTROL bouton Simuler le contenu]** dans l’écran de modification du contenu de votre diffusion, puis cliquez sur le bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]**.
 
@@ -94,7 +94,7 @@ Campaign Web vous permet de prévisualiser et d&#39;envoyer des BAT lors de l&#3
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. Pour envoyer des bons à tirer, cliquez sur le bouton **[!UICONTROL Envoyer un bon à tirer]** bouton .
+1. Pour envoyer un BAT, cliquez sur le bouton **[!UICONTROL Envoyer un BAT]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Charger des profils de BAT]** et sélectionnez le fichier .txt ou .csv contenant les personnes destinataires de vos BAT.
 
@@ -106,4 +106,4 @@ Campaign Web vous permet de prévisualiser et d&#39;envoyer des BAT lors de l&#3
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. Vous pouvez suivre l&#39;envoi du BAT à l&#39;aide de la variable **[!UICONTROL Affichage des bons à tirer]** à tout moment. [En savoir plus sur la surveillance des BAT](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Vous pouvez surveiller à tout moment l’envoi du BAT à l’aide du bouton **[!UICONTROL Afficher les BAT]**. [En savoir plus sur la surveillance des BAT](../preview-test/test-deliveries.md#access-test-deliveries)
