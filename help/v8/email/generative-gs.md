@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: caeea471b3ea623f7da93c17098ee33146a6af39
+source-git-commit: f9fb2adf326b093114854fd36f11a90d49c7a3d2
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 83%
+source-wordcount: '536'
+ht-degree: 80%
 
 ---
 
@@ -19,10 +19,8 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Termes de l’IA générative d’Adobe"
->abstract="L’accès à cette fonctionnalité est soumis à votre accord sur les directives d’utilisation de l’IA générative d’Adobe Experience Cloud et aux conditions suivantes :
-* Tout message, contexte ou information supplémentaire que vous fournissez à cette fonctionnalité (a) doit être lié à un contexte spécifique, qui peut inclure vos documents de marque, contenu du site web, données, schémas pour ces données, modèles ou autres documents approuvés, et (b) ne doit pas contenir d’informations personnelles (les informations personnelles incluent tout ce qui peut être lié à un invité spécifique).
-* Vous devez vérifier la précision des sorties de cette fonctionnalité et vous assurer qu’elles sont adaptées à votre cas d’utilisation.&quot;
->additional-url=&quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot; text=&quot;Adobe Generator AI User Guidelines&quot;
+>abstract="L’accès à cette fonctionnalité est soumis à votre accord sur les directives utilisateur de Adobe Experience Cloud Generative AI et aux conditions suivantes :<br>Tout message, contexte ou information supplémentaire que vous fournissez à cette fonctionnalité (a) doit être lié à un contexte spécifique, qui peut inclure vos documents de marque, contenu du site web, données, schémas pour ces données, modèles ou autres documents approuvés, et (b) ne doit pas contenir d’informations personnelles (les informations personnelles incluent tout ce qui peut être lié à un invité spécifique).<br>Vous devez vérifier la précision des sorties de cette fonctionnalité et vous assurer qu’elles sont adaptées à votre cas d’utilisation."
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe des directives d’utilisation de l’IA générique"
 
 
 >[!CONTEXTUALHELP]
