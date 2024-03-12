@@ -7,8 +7,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
-workflow-type: ht
+exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 100%
 
@@ -214,14 +215,3 @@ Par exemple, si vous choisissez de mettre à jour l’option **[!UICONTROL Canal
 ![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 Ce profil ne recevra pas de communications par e-mail de votre marque, sauf en cas de nouvel abonnement.
-
-
-
-
-
-
-
-
-
-
-
