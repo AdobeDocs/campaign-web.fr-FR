@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,8 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Filtre de l’activité Partage"
->abstract="Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
+>abstract="Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage de votre choix à l’aide du modèle de requête. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utiliser le concepteur de requête"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -71,7 +72,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
    1. Ouvrez le sous-ensemble pour afficher ses propriétés.
 
-   1. Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données.
+   1. Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage de votre choix à l’aide du modèle de requête. Par exemple, incluez les profils de la population entrante dont l&#39;adresse email existe dans la base de données. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
 
    1. Pour limiter le nombre de profils sélectionnés par le sous-ensemble, activez la fonction **[!UICONTROL Activer la limite]** et indiquez le nombre ou les pourcentages de la population à inclure.
 
@@ -85,6 +86,10 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 1. Une fois que vous avez paramétré tous les sous-ensembles, vous pouvez sélectionner la population restante qui ne correspond à aucun des sous-ensembles et les inclure dans une transition sortante supplémentaire. Pour ce faire, activez l’option **[!UICONTROL Générer le complémentaire]**.
 
    ![](../assets/workflow-split-complement.png)
+
+   >[!NOTE]
+   >
+   >La variable **[!UICONTROL Générer tous les sous-ensembles dans la même table]** permet de regrouper tous les sous-ensembles dans une seule transition sortante.
 
 L’activité est désormais configurée. Lors de l’exécution du workflow, la population sera segmentée dans les différents sous-ensembles, dans l’ordre dans lequel ils ont été ajoutés à l’activité.
 

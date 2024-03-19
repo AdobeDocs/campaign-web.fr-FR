@@ -2,16 +2,16 @@
 audience: end-user
 title: Rapports globaux pour le canal courrier
 description: En savoir plus sur les rapports globaux pour le canal courrier
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '634'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '627'
+ht-degree: 50%
 
 ---
 
 # Rapports globaux pour le canal courrier {#global-report-direct}
 
-Les rapports globaux offrent aux utilisateurs et utilisatrices une vue d’ensemble complète des mesures de trafic et d’engagement au niveau d’un canal.
+Les rapports globaux Courrier offrent aux utilisateurs un aperçu complet des mesures de trafic et d’engagement au niveau des canaux.
 
 Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporting]**. Vous pouvez filtrer vos données en fonction de la date, du dossier ou des règles du rapport. [En savoir plus](global-reports.md)
 
@@ -19,9 +19,14 @@ Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporti
 
 ### Vue d’ensemble de la diffusion {#delivery-overview-direct}
 
-La **[!UICONTROL Vue d’ensemble de la diffusion]** présente des indicateurs clés de performance (KPI) qui donnent des informations détaillées sur l’interaction de vos visiteurs et visiteuses avec chaque diffusion d’e-mail. Les mesures sont décrites ci-dessous.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_overview_direct_mail"
+>title="Vue d’ensemble de la diffusion"
+>abstract="La variable **Présentation de la diffusion** présente des mesures de performances clés (IPC) offrant des informations détaillées sur l’interaction de vos visiteurs avec chaque diffusion courrier. Les mesures sont décrites ci-dessous."
 
-![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+La variable **[!UICONTROL Présentation de la diffusion]** présente des mesures de performances clés (IPC) offrant des informations détaillées sur l’interaction de vos visiteurs avec chaque diffusion courrier. Les mesures sont décrites ci-dessous.
+
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
@@ -36,9 +41,19 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** présente des indicateurs c
 
 ### Audience ciblée {#delivery-summary-direct-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_graph"
+>title="Audience ciblée"
+>abstract="Les données du destinataire et les informations sur le message s’affichent dans la variable **Audience ciblée** graphique, reflétant l’analyse de préparation de diffusion."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_table"
+>title="Audience ciblée"
+>abstract="La variable **Audience ciblée** Le tableau fournit une ventilation détaillée de vos destinataires et des messages correspondants, basée sur les résultats du processus de préparation de la diffusion."
+
 Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des données relatives à vos destinataires, avec les mesures détaillées fournies ci-dessous.
 
-![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++En savoir plus sur les mesures d’audience ciblée.
 
@@ -52,9 +67,17 @@ Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des d
 
 ### Statistiques de diffusion {#delivery-summary-direct-exec-stats}
 
-Le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition du succès de chaque diffusion courrier, avec les mesures détaillées décrites ci-dessous.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
+>title="Statistiques de diffusion"
+>abstract="La variable **Statistiques de diffusion** Le graphique fournit des informations sur l’efficacité de vos diffusions courrier, y compris les diffusions réussies et les erreurs rencontrées."
 
-![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
+>title="Statistiques de diffusion"
+>abstract="La variable **Statistiques de diffusion** Le tableau décrit le succès de votre diffusion courrier et les erreurs qui se sont produites."
+
+La variable **[!UICONTROL Statistiques de diffusion]** le graphique et le tableau fournissent une ventilation des performances de chaque diffusion courrier, avec les mesures détaillées décrites ci-dessous.
 
 +++En savoir plus sur les mesures des statistiques de diffusion.
 
@@ -70,41 +93,35 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition d
 
 ### Causes d’exclusion {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusions_direct_mail_table"
+>title="Exclusions"
+>abstract="La variable **Causes d&#39;exclusion** Le tableau affiche une ventilation détaillée, par règle, des messages qui ont été rejetés pendant le processus de préparation de la diffusion."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_causes_exclusion_direct_mail_graph"
+>title="Causes d’exclusion lors d’une diffusion"
+>abstract="La variable **Causes d&#39;exclusion** Le graphique illustre la distribution des messages rejetés lors de la préparation de la diffusion, classés par règle."
+
+![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils utilisateur et utilisatrice exclus des profils ciblés de recevoir le message.
 
-## Débit des diffusions {#delivery-throughput}
++++En savoir plus sur les mesures Causes d’exclusion.
 
-Ce rapport fournit des détails complets sur le débit de diffusion dans un délai donné. La mesure clé utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
+* **[!UICONTROL Adresse en quarantaine]**: Type d&#39;erreur générée lorsque l&#39;adresse est mise en quarantaine.
 
-## Non diffusables {#non-deliverables-direct}
+* **[!UICONTROL Adresse non renseignée]**: Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe pas.
 
-### Répartition des erreurs par type {#delivery-summary-direct-breakdown-per-type}
+* **[!UICONTROL Adresse de mauvaise qualité]**: type d’erreur générée lorsque la note de qualité de l’adresse postale est trop basse.
 
-Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** présentent les données liées aux erreurs potentielles rencontrées dans différents domaines, avec des mesures spécifiques fournies ci-dessous.
+* **[!UICONTROL Adresse Placée sur la liste bloquée]**: Type d&#39;erreur générée lorsque le destinataire a été placé sur la liste bloquée lors de l&#39;exécution de la diffusion.
 
-Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
+* **[!UICONTROL Double]**: Type d&#39;erreur générée lorsque le destinataire a été exclu, car ses valeurs de clés n&#39;étaient pas uniques.
 
-+++En savoir plus sur les mesures de répartition des erreurs par type.
+* **[!UICONTROL Population témoin]**: l&#39;adresse du destinataire fait partie de la population témoin.
 
-* **[!UICONTROL Utilisateur inconnu]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que l’adresse e-mail est non valide.
-
-* **[!UICONTROL Domaine non valide]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que le domaine de l’adresse est erroné ou n’existe plus.
-
-* **[!UICONTROL Boîte pleine]** : type d’erreur générée, après cinq tentatives de diffusion, indiquant que la boîte de réception de la personne destinataire contient trop de messages.
-
-* **[!UICONTROL Compte désactivé]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
-
-* **[!UICONTROL Refusé]** : type d’erreur générée lorsqu’une adresse est refusée par le FAI (Fournisseur d’accès Internet), par exemple, suite à l’application d’une règle de sécurité (logiciel anti-spams).
-
-* **[!UICONTROL Inatteignable]** : type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
-
-* **[!UICONTROL Non connecté]** : type d’erreur indiquant que le téléphone portable de la personne destinataire est éteint ou n’est pas connecté au réseau au moment de l’envoi du message.
+* **[!UICONTROL Cible limitée en taille]**: la taille de diffusion maximale a été atteinte pour le destinataire.
 
 +++
-
-### Répartition des erreurs par domaine {#delivery-summary-email-breakdown-per-domain}
-
-Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** illustrent les données liées aux erreurs potentielles dans chaque domaine. Les mesures sont communes au tableau et au graphe **[!UICONTROL Répartition des erreurs par type]** présentés ci-dessus.
 
