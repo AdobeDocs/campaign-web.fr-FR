@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 92%
+source-wordcount: '512'
+ht-degree: 70%
 
 ---
 
@@ -51,29 +51,27 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB Intégration d’Adobe Experience Manager as a Cloud Service]
+>[!TAB Canal courrier]
 
-L’intégration entre l’interface web d’Adobe Campaign et Adobe Experience Manager as a Cloud Service facilite la gestion du contenu des e-mails. Vous pouvez maintenant créer et modifier le contenu d’un e-mail directement dans Adobe Experience Manager, puis importer facilement les modèles terminés dans Adobe Campaign pour vos diffusions.
+**Canal Courrier** est désormais disponible pour une utilisation dans les workflows et en tant que diffusions autonomes. Le canal Courrier est un canal off-line qui vous permet de créer, personnaliser et générer des fichiers d’extraction, et de les partager avec vos fournisseurs de services postaux pour envoyer du courrier à vos clients.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![image](assets/do-not-localize/direct-mail.gif)
 
->[!TAB Workflows cross-canal]
+[![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-Bénéficiez de nouvelles fonctionnalités d’automatisation et d’optimisation qui vous permettront de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes.
+>[!TAB Moteur de requête dans le Concepteur d’email]
 
-[![image](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+Le modèle de requête est désormais disponible dans le Concepteur d’email. Il vous permet de créer des conditions lors de la création de contenu conditionnel.
 
->[!TAB Composition d’audiences]
+[![image](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-Créez des audiences dans une zone de travail visuelle de workflow. En plus de commencer de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Combinez plusieurs audiences en une seule, enrichissez votre audience avec des attributs externes ou divisez-la en plusieurs audiences en fonction des règles de votre choix.
+>[!TAB Activité de workflow Modifier la source de données]
 
-[![image](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+La variable **Modification de la source de données** l&#39;activité de ciblage permet de modifier la source de données utilisée par la table de travail de votre workflow. Cette activité offre davantage de flexibilité en vous permettant de gérer les données dans vos différentes bases de données et d’améliorer les performances.
 
->[!TAB Concepteur d’e-mail]
+![image](assets/do-not-localize/change-data-source.gif)
 
-Le Concepteur d’e-mail de Campaign vous permet de créer des e-mails attrayants et personnalisés à l’aide d’une interface intuitive par glisser-déposer. Que vous commenciez par une page vierge, que vous importiez un contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu pour chaque e-mail !
-
-[![image](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
