@@ -1,7 +1,7 @@
 ---
 title: Dernières notes de mise à jour
 description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
-source-git-commit: 45795b35fd2c02f7b513b0d4952504ca3f5f45c3
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 10%
@@ -9,6 +9,7 @@ ht-degree: 10%
 ---
 
 # Notes de mise à jour {#latest-release}
+
 
 <!--Last update: **March 19, 2024**-->
 

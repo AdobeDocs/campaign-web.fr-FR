@@ -3,21 +3,14 @@ audience: end-user
 title: Commencer avec les workflows
 description: Découvrez comment commencer avec les workflows.
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
 
 # Commencer avec les workflows {#workflows}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Workflows cross-canal"
->abstract="Bénéficiez de nouvelles fonctionnalités d’automatisation et d’optimisation qui vous permettront de créer des parcours client plus dynamiques et personnalisés. De la segmentation avancée aux déclencheurs conditionnels, nos activités de workflow supplémentaires vous permettent de diffuser des messages ciblés et d’optimiser les performances de vos campagnes."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=fr" text="Voir les notes de mise à jour"
-
 
 ## Qu’est-ce qu’un workflow ?
 

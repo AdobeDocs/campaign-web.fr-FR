@@ -2,14 +2,21 @@
 audience: end-user
 title: Utilisation de l’activité de workflow Modifier la source de données
 description: Découvrez comment utiliser l’activité de workflow Modifier la source de données
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 12%
+source-wordcount: '343'
+ht-degree: 11%
 
 ---
 
 # Modifier la source de données {#change-data-source}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Modification de la source de données dans les workflows"
+>abstract="L&#39;activité de ciblage Modifier la source de données permet de modifier la source de données utilisée par la table de travail de votre workflow. Cette activité offre davantage de flexibilité en vous permettant de gérer les données dans vos différentes bases de données et d’améliorer les performances."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

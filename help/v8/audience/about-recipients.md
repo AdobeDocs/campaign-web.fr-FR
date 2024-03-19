@@ -2,19 +2,15 @@
 title: Commencer avec les profils
 description: Découvrez comment surveiller et gérer les profils dans Campaign Web.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 89%
+source-wordcount: '456'
+ht-degree: 88%
 
 ---
 
-# Commencer avec les profils {#profiles}
+# Prise en main des profils {#profiles}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Affichage à 360° de vos profils"
->abstract="Créez de nouveaux profils et surveillez-les à l’aide de puissants rapports et outils. Accédez aux attributs, interactions et logs de vos profils. Utilisez les options de filtrage pour parcourir la liste des profils, modifier et mettre à jour votre profil."
 
 <!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 
