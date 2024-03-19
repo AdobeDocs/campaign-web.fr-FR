@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 832f3da044810e81f3c46f7e3dfaba835c1fabb4
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Termes de l’IA générative d’Adobe"
->abstract="L’accès à cette fonctionnalité est soumis à votre accord en vertu des directives utilisateur de Adobe Experience Cloud Generative AI. Les invites, les informations contextuelles ou supplémentaires, ou toute autre information que vous fournissez à cette fonctionnalité, doivent être liées à un contexte spécifique, qui peut inclure vos documents de marque, le contenu du site web, les données, les schémas de ces données, modèles ou autres documents approuvés, et ne doit pas contenir d’informations personnelles (les informations personnelles incluent tout ce qui peut être lié à un invité spécifique). Vous devez vérifier la précision des sorties de cette fonctionnalité et vous assurer qu’elles sont adaptées à votre cas d’utilisation."
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe des directives d’utilisation de l’IA générique"
+>abstract="L’accès à cette fonctionnalité est soumis à votre acceptation des directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Les instructions, les informations contextuelles ou supplémentaires, ou toute autre information que vous saisissez dans cette fonctionnalité, doivent être liées à un contexte spécifique, cela peut inclure vos supports de marque, le contenu d’un site web, des données, les schémas de ces données, des modèles ou d’autres documents approuvés, et ne doivent pas contenir d’informations personnelles (les informations personnelles incluent tout ce qui peut être associé à une personne spécifique). Vous devez vérifier la conformité des résultats produits par cette fonctionnalité et vous assurer qu’ils sont adaptés à votre cas d’utilisation."
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Directives d’utilisation de l’IA générative d’Adobe"
 
 
 L’assistant de contenu, optimisé par une IA générative, est un outil précieux qui permet d’améliorer le contenu des e-mails. Il simplifie la personnalisation et l’amélioration du contenu, en optimisant vos diffusions e-mail afin de mieux résonner avec votre audience.

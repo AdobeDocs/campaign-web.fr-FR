@@ -87,7 +87,7 @@ Trois modes sont disponibles :
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Paramètres de capacité de la diffusion"
->abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter notamment la diffusion, les messages entrants que la diffusion peut générer et le nombre d’appels à passer pour contacter les personnes abonnées, par exemple. La définition des règles de capacité s’effectue dans la console Adobe Campaign v8. Dans cet écran, sélectionnez une règle associée au canal."
+>abstract="Avant de diffuser des messages, utilisez les règles de capacité pour vous assurer que votre organisation peut traiter notamment la diffusion, les messages entrants que la diffusion peut générer et le nombre d’appels à passer pour contacter les personnes abonnées, par exemple. La définition des règles de capacité s’effectue dans la console Adobe Campaign v8. Sur cet écran, sélectionnez une règle associée au canal."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -180,7 +180,7 @@ Vous pouvez également définir les balises partagées avec l’outil d’analys
 
 Les messages temporairement non diffusés en raison d’une erreur Soft ou Ignoré font l’objet d’une nouvelle tentative automatique. Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec un intervalle minimum d’une heure, réparties sur les 24 heures de la journée.
 
-## Validation (canal email) {#approval}
+## Approbation (canal e-mail) {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"

@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="Générer tous les sous-ensembles dans le même tableau"
->abstract="Activez cette option pour regrouper tous les sous-ensembles dans une seule transition de sortie."
+>abstract="Activez cette option pour regrouper tous les sous-ensembles dans une seule transition sortante."
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 

@@ -6,7 +6,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
->title="Bouton Rappel plus tard"
+>title="Bouton Rappeler plus tard"
 >abstract="À déterminer"
 
 
