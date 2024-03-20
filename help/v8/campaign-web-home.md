@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 70%
+source-wordcount: '502'
+ht-degree: 72%
 
 ---
 
@@ -51,6 +51,12 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
+>[!TAB La version de mars est en ligne !]
+
+Découvrez les nouvelles fonctionnalités et améliorations de la version 24.3 de l’interface utilisateur web d’Adobe Campaign.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB Canal courrier]
 
 **Canal Courrier** est désormais disponible pour une utilisation dans les workflows et en tant que diffusions autonomes. Le canal Courrier est un canal off-line qui vous permet de créer, personnaliser et générer des fichiers d’extraction, et de les partager avec vos fournisseurs de services postaux pour envoyer du courrier à vos clients.
@@ -58,12 +64,6 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 ![image](assets/do-not-localize/direct-mail.gif)
 
 [![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB Moteur de requête dans le Concepteur d’email]
-
-Le modèle de requête est désormais disponible dans le Concepteur d’email. Il vous permet de créer des conditions lors de la création de contenu conditionnel.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB Activité de workflow Modifier la source de données]
 
