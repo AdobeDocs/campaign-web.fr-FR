@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '643'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,10 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 * **Mettez en pause/Reprenez** l’activité. Lorsque le workflow est exécuté, il s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+Plusieurs **Ciblage** les activités, telles que **Combiner** ou **Déduplication**, vous permettent de traiter la population restante et de l&#39;inclure dans une transition sortante supplémentaire. Par exemple, si vous utilisez une **Partage** , le complémentaire est constitué de la population qui ne correspond à aucun des sous-ensembles définis précédemment. Pour utiliser cette fonctionnalité, activez la fonction **Générer le complémentaire** .
+
+![](assets/workflow-split-complement.png)
 
 ## Exemple {#example}
 

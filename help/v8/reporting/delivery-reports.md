@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion
 description: Découvrez comment accéder aux rapports de diffusion et les utiliser.
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,7 @@ La liste complète des rapports et mesures associées pour chaque canal est disp
 * [Rapports de diffusion E-mail](email-report.md)
 * [Rapports de diffusion SMS](sms-report.md)
 * [Rapports de diffusion Notifications push](push-report.md)
+* [Rapports de diffusion courrier](direct-mail.md)
 
 ## Gérer votre tableau de bord des rapports {#manage-reports}
 

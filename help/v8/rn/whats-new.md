@@ -3,10 +3,10 @@ audience: end-user
 title: Nouveautés de l’interface utilisateur web de Campaign
 description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '1296'
+ht-degree: 98%
 
 ---
 
@@ -20,10 +20,7 @@ ht-degree: 99%
 
 Nous avons le plaisir de présenter la nouvelle version de l’**interface utilisateur web d’Adobe Campaign**. Notre dernière version est riche en fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées, générer des résultats exceptionnels et vous donner un avantage concurrentiel sur tous les canaux. L’interface utilisateur (UI) web de Campaign offre une zone de travail connectée à Adobe Experience Platform pour une expérience unifiée.
 
-
->[!AVAILABILITY]
->
->Cette version est disponible pour tous les utilisateurs et utilisatrices à partir de la [version 8.6 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr). Apprenez-en davantage sur les versions d’Adobe Campaign dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=fr){target="_blank"}.
+Les modifications, nouvelles fonctionnalités et améliorations sont répertoriées dans la section [notes de mise à jour mensuelles](release-notes.md).
 
 
 ## Fonctionnalités principales {#key-features}

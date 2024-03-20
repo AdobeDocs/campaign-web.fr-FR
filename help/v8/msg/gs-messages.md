@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les messages et les diffusions dans Adobe Campaign Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris
 
 Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque personne destinataire. Ces diffusions peuvent être autonomes ou incluses dans des workflows, dans le cadre d’une campagne marketing. Découvrez comment créer et gérer diffusions dans Adobe Campaign dans [cette section](gs-deliveries.md).
 
-Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : e-mail, SMS et notification push. D’autres canaux tels que la messagerie in-app, le courrier ou le marketing social avec X (Twitter) ne sont pas encore pris en charge.
+Adobe Campaign v8 est fourni avec les canaux de diffusion suivants : Email, SMS, Notification push et Courrier. D’autres canaux tels que la messagerie in-app ou Social Marketing avec X (par Twitter) ne sont pas encore pris en charge.
 
 Parcourez les sections ci-dessous pour découvrir comment créer et envoyer des messages.
 

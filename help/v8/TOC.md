@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '632'
+ht-degree: 93%
 
 ---
 
@@ -16,8 +16,10 @@ ht-degree: 97%
 # Documentation d’Adobe Campaign Web {#v8}
 
 + [Documentation de l’interface utilisateur web d’Adobe Campaign](campaign-web-home.md)
-+ [Nouveautés](rn/whats-new.md)
-+ [Mises à jour de la documentation](rn/documentation-updates.md)
++ Notes de mise à jour {#release-notes}
+   + [Nouveautés](rn/whats-new.md)
+   + [Dernière version](rn/release-notes.md)
+   + [Mises à jour de la documentation](rn/documentation-updates.md)
 + Prise en main d’Adobe Campaign {#start}
    + [Prise en main](get-started/get-started.md)
    + [Se connecter à Campaign](get-started/connect-to-campaign.md)
@@ -73,6 +75,11 @@ ht-degree: 97%
       + [Créer une diffusion SMS](sms/create-sms.md)
       + [Créer une diffusion par SMS](sms/content-sms.md)
       + [Prévisualiser et envoyer une diffusion par SMS](sms/send-sms.md)
+   + Courrier {#direct-mail}
+      + [Prise en main des diffusions courrier](direct-mail/gs-direct-mail.md)
+      + [Création d’une diffusion courrier](direct-mail/create-direct-mail.md)
+      + [Concevoir le fichier d&#39;extraction](direct-mail/content-direct-mail.md)
+      + [Prévisualiser et envoyer une diffusion courrier](direct-mail/send-direct-mail.md)
    + Rendre votre contenu dynamique {#dynamic-content}
       + [Prise en main du contenu dynamique](personalization/gs-personalization.md)
       + [Ajouter de la personnalisation](personalization/personalize.md)
@@ -129,6 +136,7 @@ ht-degree: 97%
       + [À propos des activités de workflow](workflows/activities/about-activities.md)
       + [Rendez-vous](workflows/activities/and-join.md)
       + [Créer une audience](workflows/activities/build-audience.md)
+      + [Modifier la source de données](workflows/activities/change-data-source.md)
       + [Changement de dimension](workflows/activities/change-dimension.md)
       + [Combiner](workflows/activities/combine.md)
       + [Déduplication](workflows/activities/deduplication.md)
@@ -156,16 +164,19 @@ ht-degree: 97%
       + [Rapport de diffusion par e-mail](reporting/email-report.md)
       + [Rapport de diffusion des notifications push](reporting/push-report.md)
       + [Rapport de diffusion SMS](reporting/sms-report.md)
+      + [Rapport Diffusion courrier](reporting/direct-mail.md)
    + Rapports de campagne {#campaign-report}
       + [Prise en main des rapports de campagne](reporting/campaign-reports.md)
       + [Rapport de campagne par e-mail](reporting/campaign-reports-email.md)
       + [Rapport de campagne par notification push](reporting/campaign-reports-push.md)
       + [Rapport de campagne par SMS](reporting/campaign-reports-sms.md)
+      + [Rapport de campagne courrier](reporting/campaign-reports-direct-mail.md)
    + Rapports globaux {#global-report}
       + [Prise en main des rapports globaux](reporting/global-reports.md)
       + [Rapport global par e-mail](reporting/global-report-email.md)
       + [Rapport global par notifications push](reporting/global-report-push.md)
       + [Rapport global par SMS](reporting/global-report-sms.md)
+      + [Rapport global courrier](reporting/global-report-direct.md)
 + Intégrations {#integrations}
    + [Utilisation d’autres solutions d’Adobe](integrations/integration.md)
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)

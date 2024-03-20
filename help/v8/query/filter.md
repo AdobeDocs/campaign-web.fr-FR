@@ -3,8 +3,8 @@ audience: end-user
 title: Filtrer des listes
 description: Découvrez comment filtrer les listes Adobe Campaign Web à l’aide de filtres intégrés et personnalisés.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
-workflow-type: ht
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 100%
 
@@ -31,6 +31,7 @@ Une fois appliqués à une liste, les filtres sont visibles dans la barre de rec
 Les filtres personnalisés vous permettent d’affiner les listes en fonction de vos propres critères. Ils sont conçus à l’aide du concepteur de requête Campaign. Pour créer un filtre personnalisé, procédez comme suit :
 
 1. Ouvrez le volet des filtres et cliquez sur le bouton **Ajouter des règles** situé au bas du volet.
+
 1. Le concepteur de requête s’ouvre. Définissez et combinez vos critères de filtre en fonction de vos besoins. Des informations détaillées sur l’utilisation du concepteur de requête sont disponibles dans [cette section](../query/query-modeler-overview.md).
 
    L’exemple ci-dessous présente un filtre personnalisé conçu pour s’afficher dans la liste des campagnes par SMS exécutées par les opérateurs des services de running ou de yoga.

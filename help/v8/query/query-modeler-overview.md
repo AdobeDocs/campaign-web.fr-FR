@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 100%
 >id="acw_homepage_learning_card5"
 >title="Nouveau concepteur de requête"
 >abstract="Adobe Campaign Web comporte un concepteur de requête qui simplifie le processus de filtrage des bases de données afin de sélectionner des cibles spécifiques selon différents critères. Cela inclut l’utilisation d’expressions et d’opérateurs avancés. Le concepteur de requête est disponible dans tout contexte où vous devez définir des règles pour filtrer les données."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
@@ -33,20 +32,12 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 
 | Usage | Exemple |
 |  ---  |  ---  |
-| **Définir les audiences** : indiquez la population à cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins. | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Personnaliser les activités de workflow** : appliquez des règles aux activités de workflow, telles que Partage et Réconciliation, afin de respecter vos besoins spécifiques. | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Filtres prédéfinis** : créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion. | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Filtrer les données de rapports** : ajoutez une règle pour filtrer les données affichées dans les rapports. | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Personnaliser les listes** : créez des règles personnalisées pour filtrer les données affichées dans les listes, telles que les personnes destinataires, les listes de diffusions, etc. | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-
-<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
-
-+++Example
-
-![](assets/access-audience.png){zoomable="yes"}
-
- +++
--->
+| **Définition des audiences**: indiquez la population que vous souhaitez cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins. [Découvrez comment créer des audiences](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Personnalisation des activités de workflow**: appliquez des règles dans les activités de workflow, telles que **Partage** et **Réconciliation**, afin de vous conformer à vos exigences spécifiques. [En savoir plus sur les activités de workflow](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Filtres prédéfinis**: créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion. [Découvrez comment utiliser des filtres prédéfinis](../get-started/predefined-filters.md). | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Filtrage des données de rapports**: ajoutez une règle pour filtrer les données affichées dans les rapports. [Découvrez comment utiliser les rapports](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Personnalisation des listes**: créez des règles personnalisées pour filtrer les données affichées dans les listes telles que les destinataires, les listes de diffusions, etc. [Découvrez comment filtrer les listes](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Création de contenu conditionnel**: rendez le contenu d&#39;un email dynamique en créant des conditions qui définissent quel contenu doit être affiché pour différents destinataires, en assurant une messagerie personnalisée et pertinente. [Découvrez comment créer du contenu conditionnel](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 ## Interface du concepteur de requête {#interface}
 

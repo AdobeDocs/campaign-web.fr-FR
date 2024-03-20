@@ -3,9 +3,9 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1386'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 100%
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
 
 Basé sur un [modèle de conception](../email/create-email-templates.md) prédéfini, l’e-mail propose également du contenu personnalisé en fonction des attributs de profil du client ou de la cliente.
+
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Créer la diffusion e-mail {#create-email}
 
@@ -211,3 +213,9 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 1. Une fois l’e-mail envoyé, vous pouvez accéder à des rapports dédiés pour une analyse plus approfondie en cliquant sur le bouton **[!UICONTROL Créer des rapports]**.
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## Vidéo pratique {#video}
+
+Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

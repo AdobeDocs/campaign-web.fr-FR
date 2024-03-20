@@ -3,10 +3,10 @@ audience: end-user
 title: Matrice des fonctionnalités de l’interface utilisateur web de Campaign/de la console cliente
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: ht
-source-wordcount: '2179'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '2141'
+ht-degree: 96%
 
 ---
 
@@ -37,11 +37,10 @@ Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (cons
 
 ## Canaux de communication {#channels-capabilities}
 
-Avec l’interface utilisateur web de Campaign, vous pouvez créer, concevoir et envoyer des **e-mails**, **SMS** et **notifications push**, puis mesurer leur impact à l’aide de divers rapports dédiés, comme indiqué [dans cette section](../msg/gs-messages.md). Toutefois, les canaux suivants sont actuellement **non** disponibles : in-app, courrier, LINE, centre d’appels/canal personnalisé, Marketing social avec X (Twitter).
+Avec l&#39;interface utilisateur Web de Campaign, vous pouvez créer, concevoir et envoyer des **email**, **SMS**, **notifications push**, **courrier** et mesurer leur impact à l&#39;aide de divers rapports dédiés, comme décrit en détail [dans cette section](../msg/gs-messages.md). Toutefois, les canaux suivants sont actuellement **not** disponible : in-app, LINE, centre d’appels/canal personnalisé, marketing sur les réseaux sociaux avec X (Twitter).
 
 Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (console cliente) et en savoir plus sur ces canaux.
 
-* **Courrier**. Le canal Courrier vous permet d’envoyer une correspondance physique à votre clientèle, à vos fournisseurs ou autres, tels que des avis, des factures, des récapitulatifs, des offres marketing, etc. Ce canal est uniquement disponible dans la console cliente.  [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=fr){target="_blank"}
 * **Messagerie LINE**. LINE est une application gratuite de messagerie instantanée, d’appels vocaux et vidéo, disponible sur tous les appareils mobiles et sur PC. Adobe Campaign vous permet d’envoyer des messages LINE uniquement depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=fr){target="_blank"}
 * **Centre d’appel et canaux personnalisés**. Le centre d’appel et d’autres canaux personnalisés peuvent être implémentés dans votre environnement Campaign. Ces canaux ne peuvent être disponibles que dans la console cliente. [En savoir plus en consultant la documentation de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=fr#other-channels){target="_blank"}
 * **Marketing social** avec X (Twitter). Vous interagissez avec vos clientes et clients via X (Twitter) en publiant des messages et en envoyant des messages directs. Cette fonctionnalité, fournie avec le module complémentaire de marketing social, n’est disponible que depuis la console cliente : [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=fr){target="_blank"}.
@@ -168,7 +167,7 @@ Data Management combine un ensemble d’activités pour résoudre des problèmes
 
 >[!NOTE]
 >
->Bien que certaines de ces activités ne soient disponibles que dans la console cliente, d’autres sont disponibles dans l’interface utilisateur web de Campaign, telles que les activités **Enrichissement**, **Charger un fichier** ou **Changement de dimension**. [En savoir plus sur les activités de ciblage et de gestion des données dans l’interface utilisateur web de Campaign](../workflows/activities/about-activities.md#targeting)
+>Bien que certaines de ces activités ne soient disponibles que dans la console cliente, d&#39;autres le sont dans l&#39;interface utilisateur Web de Campaign, comme le **Enrichissement**, **Chargement de fichier**, **Modification de la source de données** ou **Changement de dimension** activités. [En savoir plus sur les activités de ciblage et de gestion des données dans l’interface utilisateur web de Campaign](../workflows/activities/about-activities.md#targeting)
 
 ### Configuration de Federated Data Access {#fda}
 

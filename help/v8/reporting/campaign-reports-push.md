@@ -3,9 +3,9 @@ audience: end-user
 title: Rapports de campagne de canal de notification push
 description: Présentation des rapports de campagne du canal de notification push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
@@ -28,9 +28,9 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI qui
 
 +++En savoir plus sur les mesures des rapports de campagne Notification push.
 
-* **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de la préparation de la diffusion.
+* **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
@@ -71,7 +71,6 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
 ![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
-
 
 +++En savoir plus sur les mesures des rapports de campagne Notification push.
 

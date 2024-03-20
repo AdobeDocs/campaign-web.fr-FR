@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '947'
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## Commencer avec le contenu conditionnel {#gs}
 
-Le contenu conditionnel est une puissante fonctionnalité qui permet de créer une personnalisation dynamique basée sur le profil de la personne destinataire, en remplaçant automatiquement les blocs de texte et les images lorsque certaines conditions sont remplies. Cette fonctionnalité permet de créer des campagnes plus sophistiquées, et de proposer des expériences hautement ciblées et personnalisées à votre audience.
+Le contenu conditionnel est une puissante fonctionnalité qui permet de créer une personnalisation dynamique basée sur les données de profil du destinataire, en remplaçant automatiquement les blocs de texte et les images lorsque certaines conditions sont remplies. Cette fonctionnalité permet de créer des campagnes plus sophistiquées, et de proposer des expériences hautement ciblées et personnalisées à votre audience.
 
 En configurant du contenu conditionnel, vous pouvez notamment créer une personnalisation dynamique avancée basée sur le profil de la personne destinataire. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición en concreto. Par exemple, vous pouvez afficher « M. » ou « Mme » en fonction de la valeur du champ Genre dans la base de données Adobe Campaign, ou inclure un lien différent en fonction de la langue préférée de la personne destinataire.
 
@@ -84,7 +84,7 @@ Le contenu conditionnel des e-mails peut être créé de deux manières :
 * Dans l’éditeur d’expression en créant une condition avec des fonctions d’assistance
 * Dans un créateur de contenu conditionnel dédié accessible lors de la conception d’un email.
 
-La section suivante fournit des instructions détaillées sur la création de conditions à l’aide de la fonctionnalité de contenu conditionnel du concepteur d’e-mail. Vous trouverez [ici](#condition-perso-editor) des informations détaillées sur la création de conditions à l’aide de l’éditeur d’expression.
+La section suivante fournit des instructions détaillées sur la création de conditions à l’aide de la fonctionnalité de contenu conditionnel du Concepteur d’email. Vous trouverez [ici](#condition-perso-editor) des informations détaillées sur la création de conditions à l’aide de l’éditeur d’expression.
 
 Dans cet exemple, nous allons créer un e-mail avec plusieurs variantes basées sur la langue des personnes destinataires. Procédez comme suit :
 
@@ -100,13 +100,9 @@ Dans cet exemple, nous allons créer un e-mail avec plusieurs variantes basées 
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. Un créateur de règles s’affiche. Il fournit des attributs **Profil**, **Message** et **Diffusion** que vous pouvez utiliser pour créer votre condition.
+1. Le concepteur de requête s’ouvre. Il permet de créer une condition en filtrant les données de profil du destinataire. [Découvrez comment utiliser le créateur de modèles de requête](../query/query-modeler-overview.md).
 
-   En outre, le menu **Conditions** fournit des conditions prédéfinies que vous pouvez ajouter à la zone de travail pour créer facilement votre variante. Pour les utiliser, cliquez sur le bouton **Ajouter** puis remplacez les éléments entre les symboles `<` et `>` par les éléments souhaités. Assurez-vous que la valeur que vous spécifiez pour l’objet `<value>` est entre guillemets.
-
-   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
-
-1. Une fois la condition de la première variante du message prête, cliquez sur **[!UICONTROL Confirmer]**. Dans l’exemple suivant, nous allons créer une règle ciblant les personnes destinataires dont la langue est le « français ».
+   Une fois la condition de la première variante du message prête, cliquez sur **[!UICONTROL Confirmer]**. Dans l’exemple suivant, nous allons créer une règle ciblant les personnes destinataires dont la langue est le « français ».
 
    ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

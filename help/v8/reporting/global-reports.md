@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des rapports globaux
 description: Comprendre les rapports globaux
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ La liste complète des rapports et mesures associées pour chaque canal est disp
 * [Rapports globaux par e-mail](global-report-email.md)
 * [Rapports globaux par SMS](global-report-sms.md)
 * [Rapports globaux par notification push](global-report-push.md)
+* [Rapports globaux par courrier](global-report-direct.md)
 
 ## Gérer votre tableau de bord des rapports {#manage-reports}
 
