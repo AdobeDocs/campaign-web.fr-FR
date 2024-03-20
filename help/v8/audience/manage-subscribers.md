@@ -4,9 +4,9 @@ title: Gérer les personnes abonnées
 description: Découvrez comment gérer les personnes abonnées à un service dans Adobe Campaign Web et leurs envoyer des diffusions.
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Les profils ajoutés sont affichés dans l’onglet **[!UICONTROL Personnes abon
 
 ## Supprimer des personnes abonnées de votre service {#remove-subscribers}
 
-### Désabonnement manuel des profils {#manual-unsubscription}
+### Désabonner manuellement des profils {#manual-unsubscription}
 
 Une fois les [personnes abonnées ajoutées](#add-subscribers) à votre service, vous pouvez désabonner manuellement chacune d’elles. Suivez les étapes ci-dessous.
 
@@ -62,7 +62,7 @@ La personne destinataire est supprimée de l’onglet **[!UICONTROL Personnes ab
 
 ### Désabonner automatiquement les destinataires {#automatic-unsubscription}
 
-Un service d’abonnement peut avoir une durée limitée. Les profils sont automatiquement désabonnés à l&#39;expiration de la période de validité.
+Un service d’abonnement peut avoir une durée limitée. Les profils sont automatiquement désabonnés à l’expiration de la période de validité.
 
 Cette période est spécifiée lors de la [création du service](manage-services.md#create-service). Dans les **[!UICONTROL Options supplémentaires]**, désactivez l’option **[!UICONTROL Période de validité illimitée]** et définissez une période de validité pour le service.
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Gestion des ressources avec Adobe Experience Manager as a Cloud Service
-description: Découvrez comment gérer le contenu avec Adobe Experience Manager as a Cloud Service
+title: Gérer les ressources avec Adobe Experience Manager as a Cloud service
+description: Découvrez comment gérer les ressources avec Adobe Experience Manager as a Cloud service.
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 L’intégration de l’interface Adobe Campaign Web à Adobe Experience Manager facilite la gestion rationalisée du contenu et des formulaires de diffusion des e-mails directement au sein de la plateforme Adobe Experience Manager.
 
-![](assets/do-not-localize/book.png)[En savoir plus sur Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=fr)
+![](assets/do-not-localize/book.png)[En savoir plus sur Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=fr)
 
 ## Créer un modèle dans [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
@@ -48,7 +48,7 @@ L’intégration de l’interface Adobe Campaign Web à Adobe Experience Man
 
 Votre newsletter est maintenant prête et synchronisée dans Adobe Campaign.
 
-## Importation d’un modèle Adobe Experience Manager as a Cloud Service{#aem-templates-perso}
+## Importer un modèle Adobe Experience Manager as a Cloud Service{#aem-templates-perso}
 
 Une fois que le modèle Experience Manager est disponible dans Adobe Campaign Web en tant que modèle de contenu, vous pouvez identifier et incorporer le contenu nécessaire à l’e-mail, y compris la personnalisation.
 

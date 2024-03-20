@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Configuration des paramètres de diffusion
-description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web
+title: Configurer les paramètres de diffusion
+description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2420'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Configurer les paramètres de diffusion {#del-settings}
 
-Les paramètres de diffusion sont **paramètres de diffusion technique** qui sont définis dans le modèle de diffusion. Elles peuvent être surchargées pour chaque diffusion. Ces paramètres sont disponibles à partir du **Paramètres** est disponible lors de l&#39;édition d&#39;une diffusion ou d&#39;un modèle de diffusion.
+Les paramètres de diffusion sont des **paramètres de diffusions techniques** définis dans le modèle de diffusion. Ils peuvent être surchargés pour chaque diffusion. Ces paramètres sont disponibles depuis le bouton **Paramètres** disponible lors de la modification d’une diffusion ou d’un modèle de diffusion.
 
 >[!CAUTION]
 >
@@ -36,7 +36,7 @@ Les typologies sont des ensembles de **règles de typologie** qui sont exécuté
 
 Lors de l’association d’une typologie à un message ou à un modèle de message, les règles de typologie incluses dans la typologie sont exécutées pour vérifier la validité du message durant la préparation de celui-ci. Les profils qui correspondent à des critères inclus dans une règle de typologie sont exclus des audiences de diffusion.
 
-Les typologies vous permettent de vous assurer que vos diffusions contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible prévue (comme les clients qui se désabonnent, les concurrents ou les clients qui ne sont pas fidèles).
+Les typologies vous permettent de vous assurer que vos diffusions contiennent toujours certains éléments (comme un lien de désabonnement ou un objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clientes et clients désabonnés, les concurrents et les clientes et clients ne faisant pas partie du programme de fidélité).
 
 ![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
@@ -70,7 +70,7 @@ Dans le champ **[!UICONTROL Type de poids]**, trois options sont disponibles :
 
 Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Le poids peut être fixe ou calculé au travers d’une formule afin de l’adapter en fonction des destinataires. Par exemple, vous pouvez définir le poids d’une diffusion en fonction des centres d’intérêt d’un(e) destinataire.
 
-Utilisez la variable **[!UICONTROL Mode de diffusion]** pour sélectionner le mode d&#39;évaluation de la cible.
+Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode d’évaluation de la cible.
 
 Trois modes sont disponibles :
 
@@ -80,7 +80,7 @@ Trois modes sont disponibles :
 
 >[!NOTE]
 >
->Les règles de gestion de la fatigue et de la pression sont paramétrées dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
+>Le paramétrage des règles de gestion de la fatigue et de la pression s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
 
 ### Paramètres de capacité {#capacity-settings}
 
@@ -91,12 +91,12 @@ Trois modes sont disponibles :
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
->title="Importance du destinataire"
->abstract="L&#39;importance du destinataire est une formule utilisée pour déterminer les profils conservés lorsque les règles de typologie de capacité sont dépassées."
+>title="Importance de la personne destinataire"
+>abstract="L’importance de la personne destinataire est une formule utilisée pour déterminer les profils conservés lorsque les règles de typologie de capacité sont dépassées."
 
 Dans cette section, vous pouvez sélectionner une règle de capacité définie dans la console Adobe Campaign v8. Cette règle est associée au canal.
 
-La variable **[!UICONTROL Importance du destinataire]** field est une formule utilisée pour déterminer les profils conservés lorsque les règles de typologie de capacité sont dépassées.
+Le champ **[!UICONTROL Importance de la personne destinataire]** est une formule utilisée pour déterminer les profils conservés lorsque les règles de typologie de capacité sont dépassées.
 
 >[!NOTE]
 >
@@ -109,9 +109,9 @@ La variable **[!UICONTROL Importance du destinataire]** field est une formule ut
 >title="Paramètres d’audience de la diffusion"
 >abstract="Sélectionnez un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Vous pouvez également définir les paramètres d’exclusion de la diffusion."
 
-Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Le mapping de ciblage est le type de données qu’une opération traite. Il permet de définir la population ciblée : destinataires, bénéficiaires de contrats, opérateurs, abonnés, etc. [En savoir plus sur les mappings de ciblage](../audience/targeting-dimensions.md).
+Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Le mapping de ciblage est le type de données qu’une opération traite. Il permet de définir la population ciblée : personnes destinataires, personnes bénéficiaires de contrats, opérateurs et opératrices, personnes abonnées, etc. [En savoir plus sur les mappings de ciblage](../audience/targeting-dimensions.md).
 
-Dans le **[!UICONTROL Exclusion]** , vous pouvez sélectionner pour exclure les profils qui ne souhaitent plus être contactés ou qui sont mis en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr){target="_blank"}
+Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des profils qui ne souhaitent plus être contactés ou qui sont mis en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr){target="_blank"}
 
 ## Diffusion {#delivery}
 
@@ -124,7 +124,7 @@ Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qu
 
 ![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
-L&#39;intégration **[!UICONTROL Routage]** le compte externe est fourni par défaut. Elle contient les paramètres techniques qui permettent à l’application d’envoyer des diffusions.
+Le compte externe de **[!UICONTROL Routage]** intégré est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des diffusions.
 
 Vous pouvez définir les paramètres d’**[!UICONTROL Envoi]** ci-dessous.
 
@@ -136,23 +136,23 @@ Vous pouvez définir les paramètres d’**[!UICONTROL Envoi]** ci-dessous.
   >
   >Lorsque vous créez la diffusion en dupliquant une diffusion existante, vous réinitialisez également ce paramètre.
 
-* **[!UICONTROL Tester la diffusion SMTP]** (canal email) : cette option est utilisée pour tester l’envoi via SMTP. L&#39;email est traité jusqu&#39;à la connexion au serveur SMTP, mais n&#39;est pas envoyé : pour chaque destinataire de l&#39;email, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+* **[!UICONTROL Test de la diffusion par SMTP]** (canal e-mail) : cette option vous permet de tester l’envoi via SMTP. L’e-mail est traité jusqu’à la connexion au serveur SMTP mais n’est pas envoyé : pour chaque personne destinataire de l’e-mail, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et met fin à la connexion avant la commande SMTP DATA.
 
-* **[!UICONTROL Email Cci]** (canal email) : cette option est utilisée pour stocker les emails sur un système externe via Cci en ajoutant simplement une adresse email en Cci à votre cible de message. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=fr){target="_blank"}.
+* **[!UICONTROL E-mail Cci]** (canal e-mail) : cette option permet de stocker les e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail Cci à la cible de vos messages. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=fr){target="_blank"}.
 
 Dans la section **[!UICONTROL Définition de vague]**, sélectionnez l’option **[!UICONTROL Envoyer en plusieurs vagues]** pour augmenter progressivement le volume envoyé par vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. [En savoir plus](send-using-waves.md)
 
-Pour les emails, vous pouvez également modifier la variable **[!UICONTROL Formats de messagerie]** des messages envoyés, comme décrit ci-dessous.
+Concernant les e-mails, vous pouvez également modifier les **[!UICONTROL Formats d’e-mail]** des messages envoyés comme décrit ci-dessous.
 
-* **[!UICONTROL Utiliser les préférences des destinataires]** (mode par défaut) : le format des emails est défini en fonction des données stockées dans le profil du destinataire. Si un destinataire souhaite recevoir des emails dans un format donné, il s&#39;agit du format envoyé. Si le champ n’est pas renseigné, un email multipart-alternative est envoyé (voir ci-dessous).
+* **[!UICONTROL Utiliser les préférences des personnes destinataires]** (mode par défaut) : le format des e-mails est défini en fonction des données stockées dans le profil de la personne destinataire. Si une personne destinataire souhaite recevoir les messages dans un format particulier, c’est ce format qui lui est envoyé. Si ce champ n’est pas renseigné, l’e-mail est envoyé au format multipart-alternative (voir ci-dessous).
 
-* **[!UICONTROL Laisser le client de messagerie du destinataire choisir le format le plus approprié]**: l&#39;email contient les deux formats : texte et HTML. Le format affiché à la réception dépend de la configuration du logiciel de messagerie du destinataire (multipart-alternative).
+* **[!UICONTROL Laisser le client de messagerie des personnes destinataires choisir le format le plus adapté]** : l’e-mail contient les deux formats : texte et HTML. Le format affiché lors de la réception dépend de la configuration du logiciel de messagerie de la personne destinataire (multipart-alternative).
 
   >[!IMPORTANT]
   >
-  >Cette option inclut les deux versions du document. Cela a donc un impact sur le taux de diffusion, car la taille de l&#39;email est supérieure.
+  >Cette option inclut les deux versions du document. Par conséquent, celle-ci a un impact sur le débit de diffusion, car la taille de l’e-mail est plus importante.
 
-* **[!UICONTROL Envoyer tous les messages au format texte]**: l&#39;email est envoyé au format texte. Le format HTML ne sera pas envoyé, mais utilisé pour la page miroir uniquement lorsque le destinataire clique sur l&#39;email.
+* **[!UICONTROL Envoyer tous les messages au format texte]** : le message est envoyé au format texte. Le format HTML ne sera pas envoyé, mais uniquement utilisé pour la page miroir, lorsque la personne destinataire clique sur l’e-mail.
 
 ## Web Analytics {#web-analytics}
 
@@ -192,7 +192,7 @@ Les messages temporairement non diffusés en raison d’une erreur Soft ou Ignor
 >title="Mode d’approbation des diffusions"
 >abstract="Sélectionnez le mode d’approbation des diffusions à partir de ce modèle. Si des avertissements sont générés lors de la préparation de la diffusion, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non."
 
-Si des avertissements sont générés lors de la préparation d&#39;une diffusion email, vous pouvez configurer la diffusion pour définir si elle doit être exécutée ou non. Par défaut, l&#39;utilisateur doit confirmer l&#39;envoi des emails à la fin de la phase d&#39;analyse : c&#39;est-à-dire **manuel** validation.
+Si des avertissements sont générés lors de la préparation d’une diffusion par e-mail, vous pouvez configurer celle-ci pour définir si elle doit quand même être exécutée ou non. Par défaut, l’utilisateur ou l’utilisatrice doit confirmer l’envoi des messages à la fin de la phase d’analyse : il s’agit d’une validation **manuelle**.
 
 Vous pouvez sélectionner un autre mode de validation dans le champ correspondant. Les modes disponibles sont les suivants :
 
@@ -238,14 +238,14 @@ La **[!UICONTROL Limite de validité des ressources]** est utilisée pour les re
 
 En savoir plus sur la période de validité des diffusions dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr#validity-period){target="_blank"}.
 
-### Gestion des pages miroir (canal email) {#mirror}
+### Gestion des pages miroir (canal e-mail) {#mirror}
 
-La page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’e-mail. Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l&#39;email.
+La page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’e-mail. Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’e-mail.
 
 Outre le mode par défaut, les options disponibles sont les suivantes :
 
-* **[!UICONTROL Forcer la génération de la page miroir]**: utilisez ce mode pour générer la page miroir même si aucun lien vers la page miroir n&#39;est inséré dans l&#39;email.
-* **[!UICONTROL Ne pas générer de page miroir]**: utilisez ce mode pour éviter de générer une page miroir, même si le lien est présent dans l&#39;email.
+* **[!UICONTROL Forcer la génération de la page miroir]** : ce mode permet de générer la page miroir même si aucun lien vers la page miroir n’est inséré dans l’e-mail.
+* **[!UICONTROL Ne pas générer de page miroir]** : ce mode permet de ne pas générer de page miroir, même si le lien est présent dans l’e-mail.
 * **[!UICONTROL Générer une page miroir accessible via l’identifiant du message uniquement]** : ce mode permet d’accéder au contenu de la page miroir, dans la fenêtre du log de diffusion de la console cliente, lorsque l’e-mail ne contient pas de lien vers la page miroir.
 
 ### Tracking {#tracking}
@@ -278,7 +278,7 @@ Les paramètres de **[!UICONTROL Tracking]** sont définis dans la section corre
 
 Vous pouvez définir les paramètres d’exclusion dans cette section. Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Conserver les doublons]** permet d&#39;autoriser plusieurs diffusions vers des profils qui répondent à plusieurs critères de ciblage.
+* L’option **[!UICONTROL conserver les doublons]** vous permet d’autoriser plusieurs diffusions vers des profils répondant à plusieurs critères de ciblage.
 * L’option **[!UICONTROL Conserver les adresses placées sur la liste bloquée]** permet de tenir à l’écart de la cible les profils qui ne sont plus ciblés par la diffusion, par exemple après une désinscription (opt-out).
 * L’option **[!UICONTROL Conserver les adresses placées en quarantaine]** permet de tenir à l’écart de la cible les profils dont l’adresse ne répond pas.
 
