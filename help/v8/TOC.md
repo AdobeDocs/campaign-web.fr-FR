@@ -8,7 +8,7 @@ breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 93%
       + [Rapport global par SMS](reporting/global-report-sms.md)
       + [Rapport global courrier](reporting/global-report-direct.md)
 + Intégrations {#integrations}
-   + [Utilisation d’autres solutions d’Adobe](integrations/integration.md)
+   + [Utiliser d’autres solutions Adobe](integrations/integration.md)
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
-   + [Gestion des modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 

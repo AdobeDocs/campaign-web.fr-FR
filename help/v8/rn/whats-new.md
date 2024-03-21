@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
 workflow-type: tm+mt
 source-wordcount: '1265'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ Utilisez la nouvelle interface utilisateur web de Campaign pour :
 
 * Créer, concevoir, personnaliser, planifier et envoyer des notifications par e-mail, par SMS et par notification push – [En savoir plus](../msg/gs-messages.md)
 * Créer un contenu d’e-mail personnalisé avec le concepteur d’e-mail – [En savoir plus](../email/edit-content.md)
-* Envoyez des campagnes cross-canal, y compris des SMS et des notifications push - [En savoir plus](../workflows/activities/channels.md)
+* Envoyer des campagnes cross-canal, y compris par SMS et notifications push - [En savoir plus](../workflows/activities/channels.md).
 * Définir des audiences cibles avec le concepteur de requête – [En savoir plus](../audience/about-recipients.md)
 * Prévisualiser, tester et envoyer vos messages - [En savoir plus](../monitor/prepare-send.md)
 * Surveiller l’envoi et la mesure des résultats à l’aide de rapports intégrés - [En savoir plus](../reporting/delivery-reports.md)

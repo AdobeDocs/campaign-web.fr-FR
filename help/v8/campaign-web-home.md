@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ La variable **Modification de la source de données** l&#39;activité de ciblage
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Rendre votre contenu dynamique</strong><br/>Découvrez comment personnaliser votre contenu en fonction des informations que vous avez collectées sur vos profils afin de rendre votre contenu plus attrayant et d’augmenter la probabilité de lecture de ce contenu.</div>
+    <div><strong>Rendre votre contenu dynamique</strong><br/> Découvrez comment personnaliser votre contenu en fonction des informations que vous avez collectées sur vos profils afin de rendre votre contenu plus attrayant et d’augmenter la probabilité qu’il soit lu.</div>
     </td>
   </tr>
   <tr style="border: 0;">
