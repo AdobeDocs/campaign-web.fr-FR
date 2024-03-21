@@ -2,8 +2,9 @@
 title: Définir du contenu spécifique à une page de destination
 description: Découvrir comment concevoir du contenu spécifique à une page de destination dans Campaign Web
 feature: Landing Pages
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
-workflow-type: ht
+exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 100%
 

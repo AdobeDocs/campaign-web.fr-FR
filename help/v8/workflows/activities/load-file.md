@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier.
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 

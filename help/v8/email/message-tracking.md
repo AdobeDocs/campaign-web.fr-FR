@@ -4,7 +4,7 @@ title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 

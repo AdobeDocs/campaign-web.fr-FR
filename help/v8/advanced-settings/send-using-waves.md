@@ -3,13 +3,13 @@ audience: end-user
 title: Envoyer par vagues
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web
 feature: Email
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 100%
 
 ---
-
 
 # Envoyer par vagues {#send-using-waves}
 
@@ -99,6 +99,3 @@ Pour éviter que les emails soient marqués comme spam, vous pouvez augmenter pr
 Pour ce faire, utilisez l’option **[!UICONTROL Planifier les vagues selon un calendrier]**. Par exemple, définissez la première vague sur 10 %, la deuxième sur 15 %, la troisième sur 20 %, etc.
 
 ![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
-
-
-

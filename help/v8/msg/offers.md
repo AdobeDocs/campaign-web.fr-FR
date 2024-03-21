@@ -4,7 +4,7 @@ title: Ajouter des offres à vos messages
 description: Découvrez comment ajouter et envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
 

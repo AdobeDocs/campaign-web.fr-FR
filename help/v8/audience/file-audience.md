@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Charger une audience d’e-mail à partir d’un fichier
-description: Découvrez comment charger des profils à partir d’un fichier externe pour créer l’audience de vos e-mails.
+description: Découvrez comment charger des profils à partir d’un fichier externe pour créer votre audience de messagerie
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -102,7 +102,7 @@ Campaign Web vous permet de prévisualiser et d’envoyer des BAT lors de l’u
    >
    >Assurez-vous que le format de fichier correspond à celui utilisé pour charger votre audience. Toutes les erreurs de format affichent une alerte.
 
-1. Une fois l’ajout des profils de BAT effectué et lorsque vous êtes en mesure d’envoyer les BAT, cliquez sur le bouton **[!UICONTROL Envoyer un BAT]**, puis confirmez l’envoi.
+1. Lorsque les profils de BAT sont ajoutés et que vous êtes prêt à envoyer les BAT, cliquez sur le bouton **[!UICONTROL Envoyer un bon à tirer]** et confirmez l’envoi.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

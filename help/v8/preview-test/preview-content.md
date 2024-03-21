@@ -4,7 +4,7 @@ title: Prévisualiser le contenu de la diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion avec l’interface utilisateur web de Campaign.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
