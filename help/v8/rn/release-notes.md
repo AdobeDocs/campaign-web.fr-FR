@@ -1,9 +1,9 @@
 ---
 title: Dernières notes de mise à jour
 description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
-source-git-commit: 737a2ea3f3c5ecc41c692ada7927f5e60ecb256a
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '435'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,20 @@ Les versions de l’interface utilisateur Web d’Adobe Campaign fonctionnent su
 >
 >Cette version est disponible pour tous les utilisateurs qui démarrent [Version de Campaign (console) v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr). En savoir plus sur les versions et mises à niveau de la console cliente Adobe Campaign dans [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=fr){target="_blank"}.
 
-## Version de mars {#24-3-release}
+## Notes de mise à jour de mars {#24-3-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Publipostage direct"
+>abstract="Le canal Courrier est désormais disponible pour les workflows et les diffusions autonomes. Utilisez le canal Courrier hors ligne pour créer, personnaliser et générer un fichier d’extraction, et partagez-le avec vos opérateurs de services postaux afin d’envoyer du courrier à vos clients."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Voir les notes de mise à jour"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Modifier la source de données"
+>abstract="Utilisez la nouvelle activité de ciblage de workflow Modifier la source de données pour modifier la source de données utilisée par la table de travail de votre workflow. Cette activité offre davantage de flexibilité en vous permettant de gérer les données dans vos différentes bases de données et d’améliorer les performances."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Voir les notes de mise à jour"
+
 
 **Date de publication**: 19-20 mars 2024
 
