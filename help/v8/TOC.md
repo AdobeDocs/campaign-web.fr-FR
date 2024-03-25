@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 90%
 
 ---
 
@@ -50,11 +50,6 @@ ht-degree: 94%
             + [Ajouter un lien vers la page miroir](email/mirror-page.md)
             + [Ajouter un pré-titre](email/preheader.md)
             + [Générer la version texte](email/text-version-email.md)
-         + Assistant de contenu {#content-assistant}
-            + [Commencer avec l’assistant de contenu](email/generative-gs.md)
-            + [Génération de texte avec l’assistant de contenu](email/generative-content.md)
-            + [Génération d’images avec l’assistant de contenu](email/generative-image.md)
-            + [Génération d’e-mails avec l’assistant de contenu](email/generative-email.md)
          + Donner un style à votre contenu {#style}
             + [Prise en main du style des e-mails](email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](email/backgrounds.md)
@@ -80,6 +75,11 @@ ht-degree: 94%
       + [Création d’une diffusion courrier](direct-mail/create-direct-mail.md)
       + [Concevoir le fichier d&#39;extraction](direct-mail/content-direct-mail.md)
       + [Prévisualiser et envoyer une diffusion courrier](direct-mail/send-direct-mail.md)
+   + Assistant IA {#ai-assistant}
+      + [Prise en main de l’assistant d’IA](email/generative-gs.md)
+      + [Génération d’emails à l’aide de l’assistant AI](email/generative-content.md)
+      + [Génération de SMS avec l’assistant d’IA](email/generative-sms.md)
+      + [Génération des notifications push à l’aide de l’assistant AI](email/generative-push.md)
    + Rendre votre contenu dynamique {#dynamic-content}
       + [Prise en main du contenu dynamique](personalization/gs-personalization.md)
       + [Ajouter de la personnalisation](personalization/personalize.md)

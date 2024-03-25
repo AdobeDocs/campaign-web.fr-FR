@@ -6,14 +6,14 @@ badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 98%
 
 ---
 
-# Génération d’images avec l’assistant de contenu {#generative-image}
+# Génération d’images par e-mail à l’aide de l’assistant de contenu {#generative-image}
 
 Après avoir conçu et personnalisé vos e-mails, vous pouvez améliorer votre contenu à l’aide de l’assistant de contenu optimisé par l’IA générative. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu.
 
