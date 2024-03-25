@@ -5,10 +5,10 @@ description: Prise en main de l’assistant d’IA dans Campaign
 badge: label="Version bêta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 42%
+ht-degree: 35%
 
 ---
 
@@ -75,7 +75,7 @@ Cet outil pratique fournit des suggestions intelligentes pour affiner votre cont
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre SMS en fonction des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
    ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
 
@@ -83,4 +83,4 @@ Cet outil pratique fournit des suggestions intelligentes pour affiner votre cont
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)
+1. Une fois que vous avez défini votre contenu, votre audience et votre planning, vous êtes prêt à préparer votre diffusion SMS. [En savoir plus](../monitor/prepare-send.md)

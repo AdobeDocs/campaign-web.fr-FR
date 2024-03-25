@@ -5,10 +5,10 @@ description: Prise en main de l’assistant d’IA dans Campaign
 badge: label="Version bêta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 39%
+ht-degree: 33%
 
 ---
 
@@ -77,7 +77,7 @@ L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions e
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
+1. Insérez des champs de personnalisation pour personnaliser le contenu push en fonction des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
@@ -85,4 +85,4 @@ L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions e
 
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)
+1. Une fois que vous avez défini votre contenu, votre audience et votre planning, vous êtes prêt à préparer votre diffusion push. [En savoir plus](../monitor/prepare-send.md)
