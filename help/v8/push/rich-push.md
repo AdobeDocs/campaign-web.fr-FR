@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: Concevoir une diffusion de notification push enrichie
-description: Découvrez comment concevoir une diffusion de notification push enrichie avec Adobe Campaign Web
+description: Découvrez comment concevoir une diffusion de notification push Android enrichie avec Adobe Campaign Web
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 32%
+source-wordcount: '1394'
+ht-degree: 33%
 
 ---
 
-# Créer une diffusion push Android enrichie {#content-push}
+# Créer une diffusion push Android enrichie {#rich-push}
 
 Firebase Cloud Messaging vous permet de choisir entre deux types de messages :
 
@@ -23,9 +23,7 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 
 ## Définir le contenu de la notification {#push-message}
 
-Une fois votre diffusion de notification push créée, vous pouvez en définir le contenu. Accédez aux onglets ci-dessous pour savoir comment composer votre message pour chaque modèle.
-
-Trois modèles sont disponibles :
+Une fois votre diffusion de notification push créée, vous pouvez en définir le contenu. Trois modèles sont disponibles :
 
 * **Modèle par défaut** vous permet d’envoyer des notifications avec une simple icône et une image associée.
 
