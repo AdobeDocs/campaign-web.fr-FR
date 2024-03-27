@@ -6,7 +6,7 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Une fois le contenu de votre message défini, vous pouvez le prévisualiser et l
 
 Pour détecter d’éventuelles erreurs dans le contenu du message ou les paramètres de personnalisation, envoyez des BAT aux profils de test avant de les envoyer à l’audience cible. Un BAT doit être envoyé à chaque modification afin de valider le contenu le plus récent. L’envoi de BAT est une étape importante pour valider votre campagne et identifier les problèmes potentiels. Les personnes destinataires d’un BAT peuvent vérifier différents éléments tels que des liens, des liens de désinscription, des images ou des pages miroir, ainsi que détecter toute erreur de rendu, de contenu, de paramètres de personnalisation et de configuration de la diffusion.
 
-## Simulation du contenu avec des profils de test {#simulate-content-test-deliveries}
+## Simuler du contenu avec des profils de test {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

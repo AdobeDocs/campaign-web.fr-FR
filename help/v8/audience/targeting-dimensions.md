@@ -5,7 +5,7 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Sélectionner la dimension de ciblage"
->abstract="La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, pour les emails et les SMS, la cible est sélectionnée à partir de la table intégrée Destinataires . Pour les notifications push, la dimension cible par défaut est Applications abonnées."
+>abstract="La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, pour les e-mails et les SMS, la cible est sélectionnée à partir du tableau intégré Personnes destinataires. Pour les notifications push, la dimension cible par défaut est Applications des personnes abonnées."
 
 La dimension de ciblage, c’est-à-dire le mapping de ciblage, est le type de données qu’une opération traite. Elle permet de définir la population ciblée : profils, bénéficiaires de contrats, opérateurs et opératrices, abonnées et abonnés, etc.
 
@@ -36,12 +36,12 @@ Vous pouvez également utiliser d’autres mappings de ciblage intégrés dans v
 
 | Nom | Utilisation | Schéma |
 |---|---|---|
-| Destinataires | Diffuser aux profils/destinataires (table de destinataires intégrée) | nms:recipient |
+| Destinataires | Diffuser aux profils/ personnesdestinataires (tableau de personnes destinataires intégré). | nms:recipient |
 | Visiteurs | Diffuser aux visiteurs dont les profils ont été collectés par le biais d’une recommandation (marketing viral), par exemple. | mns:visitor |
-| Abonnements  | Diffuser aux profils abonnés à un service d’information, tel qu’une newsletter | nms:subscription |
+| Abonnements  | Diffuser aux profils abonnés à un service d’information, par exemple à une newsletter. | nms:subscription |
 | Abonnements des visiteurs | Diffuser à des visiteurs abonnés à un service d&#39;information | nms:visitorSub |
 | Les opérateurs | Diffuser aux opérateurs Adobe Campaign | nms:operator |
 | Fichier externe | Diffuser depuis un fichier contenant les toutes informations nécessaires à la diffusion | Aucun schéma associé, aucune cible renseignée |
-| Applications abonnés | Diffuser aux profils abonnés à une application | nms:appSubscriptionRcp |
+| Applications abonnés | Diffuser aux profils abonnés à une application. | nms:appSubscriptionRcp |
 
-En outre, vous pouvez créer un nouveau mapping de ciblage selon vos besoins. Cette opération est effectuée uniquement à partir de la console cliente. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr#new-mapping){target="_blank"}.
+En outre, vous pouvez créer un nouveau mapping de ciblage selon vos besoins. Cette opération s’effectue uniquement à partir de la console cliente. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr#new-mapping){target="_blank"}.

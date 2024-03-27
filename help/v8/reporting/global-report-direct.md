@@ -2,7 +2,8 @@
 audience: end-user
 title: Rapports globaux pour le canal courrier
 description: En savoir plus sur les rapports globaux pour le canal courrier
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 50%
@@ -124,4 +125,3 @@ Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des 
 * **[!UICONTROL Cible limitée en taille]**: la taille de diffusion maximale a été atteinte pour le destinataire.
 
 +++
-

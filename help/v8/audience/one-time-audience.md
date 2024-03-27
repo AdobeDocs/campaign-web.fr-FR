@@ -6,13 +6,13 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Créer une audience ponctuelle {#one-time}
 
-Cette section décrit comment créer une audience lors de la création d’une nouvelle diffusion. Dans ce cas, les profils à inclure dans l’audience de diffusion sont ciblés en interrogant la base de données avec le créateur de requêtes.
+Cette section décrit comment créer une audience lors de la création d’une nouvelle diffusion. Dans ce cas, les profils à inclure dans l’audience de diffusion sont ciblés en interrogeant la base de données avec le concepteur de requête.
 
 L’audience obtenue n’est utilisée qu’une seule fois pour cette diffusion. Elle n’est pas enregistrée dans la liste des audiences.
 

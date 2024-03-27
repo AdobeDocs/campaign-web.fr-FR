@@ -6,7 +6,7 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Dans la section **Limite de taille**, indiquez ensuite le nombre de profils à e
 
 ### Exemple de population témoin{#control-group-sample}
 
-Par exemple, pour créer une population témoin avec les 100 nouveaux profils les plus jeunes, procédez comme suit :
+Prenons l’exemple suivant : vous souhaitez créer une population témoin constituée des 100 nouveaux profils les plus jeunes. Pour ce faire, procédez comme suit :
 
 1. Sélectionnez le champ **Age** comme critère de tri. Laissez l’option de tri sur **Ascendant**.
 1. Ajoutez le champ **Date de création**. Modifiez l’option de tri sur **Descendant**.
@@ -70,7 +70,7 @@ Par exemple, pour créer une population témoin avec les 100 nouveaux profils le
 
    ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-Ces 100 nouveaux profils les plus jeunes sont alors exclus de la cible principale.
+Ces 100 nouveaux profils les plus jeunes sont alors exclus de la cible principale.
 
 ### Examiner la population témoin {#check-control-group}
 

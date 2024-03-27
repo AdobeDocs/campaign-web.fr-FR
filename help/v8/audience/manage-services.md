@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Pour créer un service d’abonnement, procédez comme suit :
 1. Par défaut, les abonnements sont illimités.
 
    Vous pouvez désactiver l’option **[!UICONTROL Période de validité illimitée]** pour définir une durée de validité du service. Une fois la période de validité terminée :
-   * Aucun profil ne peut plus s’abonner à ce service
+   * Plus aucun profil ne peut s’abonner à ce service.
    * Toutes les personnes abonnées à ce service sont automatiquement désabonnées.
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
@@ -83,7 +83,7 @@ Pour créer un service d’abonnement, procédez comme suit :
 
 Vous pouvez maintenant :
 
-* Ajoutez des abonnés à ce service et désabonnez-vous des profils. [En savoir plus](../msg/send-to-subscribers.md)
+* ajouter des personnes abonnées à ce service et désabonner des profils. [En savoir plus](../msg/send-to-subscribers.md)
 
 * Envoyez des messages aux personnes abonnées à ce service. [Voici comment procéder](../msg/send-to-subscribers.md).
 
