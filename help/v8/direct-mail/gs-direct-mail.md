@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Prise en main des diffusions par courrier
-description: Découvrez comment créer et envoyer des diffusions courrier avec Adobe Campaign Web
+description: Découvrez comment créer et envoyer des diffusions par courrier à l’aide d’Adobe Campaign Web.
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 15%
+ht-degree: 83%
 
 ---
 
@@ -14,20 +14,20 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="Publipostage direct"
+>title="Courrier"
 >abstract="Le canal Courrier est désormais disponible pour les workflows et les diffusions autonomes. Utilisez le canal Courrier hors ligne pour créer, personnaliser et générer un fichier d’extraction, et partagez-le avec vos opérateurs de services postaux afin d’envoyer du courrier à vos clients."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Voir les notes de mise à jour"
 
 
-Le canal Courrier est un canal hors ligne qui vous permet de produire des fichiers pour diffuser en masse des lettres personnalisées à vos clients, telles que des cartes postales, des prospectus ou des catalogues.
+Le canal Courrier est un canal hors ligne qui vous permet de produire des fichiers pour diffuser en masse des lettres personnalisées à votre clientèle, telles que des cartes postales, des prospectus ou des catalogues.
 
-Lors de la création d&#39;une diffusion courrier, Adobe Campaign génère automatiquement un fichier d&#39;extraction contenant tous les profils ciblés et les données sélectionnées, telles que les adresses postales et les attributs de profil. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par le prestataire de services postaux de votre choix, qui gérera le processus de diffusion réel pour vous.
+Lors de la création d’une diffusion par courrier, Adobe Campaign génère automatiquement un fichier d’extraction contenant tous les profils ciblés et les données sélectionnées, telles que les adresses postales et les attributs de profil. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par votre fournisseur de services postaux, qui gérera le processus de diffusion pour vous.
 
-Pour créer des diffusions courrier, vous disposez de trois options :
+Pour créer des diffusions par courrier, vous disposez de trois options :
 
-* **Workflows**: après avoir ajouté une activité Canal courrier à votre workflow et configuré les paramètres de base, vous pouvez ensuite concevoir le contenu de vos diffusions courrier à partir du menu du volet de droite. Pour obtenir des instructions détaillées sur la configuration d’un workflow, consultez [cette page](../workflows/gs-workflow-creation.md).
-* **Campagnes**: une fois que vous avez créé une opération, vous pouvez créer une diffusion courrier. Pour plus d’informations sur la configuration de votre campagne, consultez [cette page](../campaigns/gs-campaigns.md).
-* **Diffusions autonomes**: impliquer les clients directement et instantanément dans une diffusion courrier individuelle, sans avoir besoin de workflows ni de campagnes. [Découvrez comment créer une diffusion](../msg/gs-deliveries.md)
+* **Workflows** : après avoir ajouté une activité de canal Courrier à votre workflow et configuré les paramètres de base, vous pouvez concevoir le contenu de vos diffusions par courrier à partir du menu du volet de droite. Pour obtenir des instructions détaillées sur la configuration d’un workflow, consultez [cette page](../workflows/gs-workflow-creation.md).
+* **Campagnes** : après avoir créé une campagne, vous pouvez créer une diffusion par courrier. Pour plus d’informations sur la configuration de votre campagne, consultez [cette page](../campaigns/gs-campaigns.md).
+* **Diffusions autonomes** : attirez la clientèle directement et instantanément avec des diffusions par courrier individuelles, sans avoir recours à des workflows ou à des campagnes. [Apprendre à créer une diffusion](../msg/gs-deliveries.md)
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

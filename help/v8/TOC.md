@@ -8,7 +8,7 @@ breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 89%
    + Notifications push {#push}
       + [Prise en main des notifications push](push/gs-push.md)
       + [Créer une diffusion notification push](push/create-push.md)
-      + [Créer une diffusion push Android enrichie](push/rich-push.md)
+      + [Créer une diffusion de notification push Android enrichie](push/rich-push.md)
       + [Concevoir une diffusion de notification push](push/content-push.md)
       + [Prévisualiser et envoyer une diffusion push](push/send-push.md)
    + SMS {#sms}
@@ -72,12 +72,12 @@ ht-degree: 89%
       + [Créer une diffusion par SMS](sms/content-sms.md)
       + [Prévisualiser et envoyer une diffusion par SMS](sms/send-sms.md)
    + Courrier {#direct-mail}
-      + [Prise en main des diffusions courrier](direct-mail/gs-direct-mail.md)
-      + [Création d’une diffusion courrier](direct-mail/create-direct-mail.md)
-      + [Concevoir le fichier d&#39;extraction](direct-mail/content-direct-mail.md)
-      + [Prévisualiser et envoyer une diffusion courrier](direct-mail/send-direct-mail.md)
+      + [Prise en main des diffusions par courrier](direct-mail/gs-direct-mail.md)
+      + [Créer une diffusion par courrier](direct-mail/create-direct-mail.md)
+      + [Concevoir le fichier d’extraction](direct-mail/content-direct-mail.md)
+      + [Prévisualiser et envoyer une diffusion par courrier](direct-mail/send-direct-mail.md)
    + Assistant IA {#ai-assistant}
-      + [Prise en main de l’assistant d’IA](email/generative-gs.md)
+      + [Prise en main de l’assistant AI](email/generative-gs.md)
       + [Génération d’emails à l’aide de l’assistant AI](email/generative-content.md)
       + [Génération de SMS avec l’assistant d’IA](email/generative-sms.md)
       + [Génération des notifications push à l’aide de l’assistant AI](email/generative-push.md)
@@ -124,7 +124,7 @@ ht-degree: 89%
    + [Accéder aux campagnes et les gérer](campaigns/manage-campaigns.md)
    + [Créer votre première campagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
-   + [Commencer avec les workflows](workflows/gs-workflows.md)
+   + [Prise en main des workflows](workflows/gs-workflows.md)
    + [Mécanismes de sécurisation et limitations](get-started/guardrails.md)
    + [Accéder et gérer des workflows](workflows/access-monitor.md)
    + Créer et exécuter votre premier workflow {#create-workflow}
@@ -165,19 +165,19 @@ ht-degree: 89%
       + [Rapport de diffusion par e-mail](reporting/email-report.md)
       + [Rapport de diffusion des notifications push](reporting/push-report.md)
       + [Rapport de diffusion SMS](reporting/sms-report.md)
-      + [Rapport Diffusion courrier](reporting/direct-mail.md)
+      + [Rapport de diffusion par courrier](reporting/direct-mail.md)
    + Rapports de campagne {#campaign-report}
       + [Prise en main des rapports de campagne](reporting/campaign-reports.md)
       + [Rapport de campagne par e-mail](reporting/campaign-reports-email.md)
       + [Rapport de campagne par notification push](reporting/campaign-reports-push.md)
       + [Rapport de campagne par SMS](reporting/campaign-reports-sms.md)
-      + [Rapport de campagne courrier](reporting/campaign-reports-direct-mail.md)
+      + [Rapport de campagne par courrier](reporting/campaign-reports-direct-mail.md)
    + Rapports globaux {#global-report}
       + [Prise en main des rapports globaux](reporting/global-reports.md)
       + [Rapport global par e-mail](reporting/global-report-email.md)
       + [Rapport global par notifications push](reporting/global-report-push.md)
       + [Rapport global par SMS](reporting/global-report-sms.md)
-      + [Rapport global courrier](reporting/global-report-direct.md)
+      + [Rapport global sur le courrier](reporting/global-report-direct.md)
 + Intégrations {#integrations}
    + [Utiliser d’autres solutions Adobe](integrations/integration.md)
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
