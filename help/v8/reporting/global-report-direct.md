@@ -6,7 +6,7 @@ exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 50%
+ht-degree: 76%
 
 ---
 
@@ -23,9 +23,9 @@ Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporti
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="Vue d’ensemble de la diffusion"
->abstract="La variable **Présentation de la diffusion** présente des mesures de performances clés (IPC) offrant des informations détaillées sur l’interaction de vos visiteurs avec chaque diffusion courrier. Les mesures sont décrites ci-dessous."
+>abstract="La **Vue d’ensemble de la diffusion** présente des indicateurs clés de performance (KPI) qui donnent des informations détaillées sur l’interaction de vos visiteurs et visiteuses avec chaque diffusion par courrier. Les mesures sont décrites ci-dessous."
 
-La variable **[!UICONTROL Présentation de la diffusion]** présente des mesures de performances clés (IPC) offrant des informations détaillées sur l’interaction de vos visiteurs avec chaque diffusion courrier. Les mesures sont décrites ci-dessous.
+La **[!UICONTROL Vue d’ensemble de la diffusion]** présente des indicateurs clés de performance (KPI) qui donnent des informations détaillées sur l’interaction de vos visiteurs et visiteuses avec chaque diffusion par courrier. Les mesures sont décrites ci-dessous.
 
 ![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -45,12 +45,12 @@ La variable **[!UICONTROL Présentation de la diffusion]** présente des mesures
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_graph"
 >title="Audience ciblée"
->abstract="Les données du destinataire et les informations sur le message s’affichent dans la variable **Audience ciblée** graphique, reflétant l’analyse de préparation de diffusion."
+>abstract="Les données de la personne destinataire et les informations sur le message s’affichent sur le graphe **Audience ciblée**, reflétant l’analyse de préparation de la diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
 >title="Audience ciblée"
->abstract="La variable **Audience ciblée** Le tableau fournit une ventilation détaillée de vos destinataires et des messages correspondants, basée sur les résultats du processus de préparation de la diffusion."
+>abstract="Le tableau **Audience ciblée** fournit une répartition détaillée de vos personnes destinataires et des messages correspondants, basée sur les résultats du processus de préparation de la diffusion."
 
 Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des données relatives à vos destinataires, avec les mesures détaillées fournies ci-dessous.
 
@@ -71,12 +71,12 @@ Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des d
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
 >title="Statistiques de diffusion"
->abstract="La variable **Statistiques de diffusion** Le graphique fournit des informations sur l’efficacité de vos diffusions courrier, y compris les diffusions réussies et les erreurs rencontrées."
+>abstract="Le graphe **Statistiques de diffusion** fournit des informations sur l’efficacité de vos diffusions par courrier, y compris les diffusions réussies et les erreurs rencontrées."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
 >title="Statistiques de diffusion"
->abstract="La variable **Statistiques de diffusion** Le tableau décrit le succès de votre diffusion courrier et les erreurs qui se sont produites."
+>abstract="Le tableau **Statistiques de diffusion** détaille le succès de votre diffusion par courrier et les erreurs qui se sont produites."
 
 La variable **[!UICONTROL Statistiques de diffusion]** le graphique et le tableau fournissent une ventilation des performances de chaque diffusion courrier, avec les mesures détaillées décrites ci-dessous.
 
@@ -97,12 +97,12 @@ La variable **[!UICONTROL Statistiques de diffusion]** le graphique et le tablea
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
 >title="Exclusions"
->abstract="La variable **Causes d&#39;exclusion** Le tableau affiche une ventilation détaillée, par règle, des messages qui ont été rejetés pendant le processus de préparation de la diffusion."
+>abstract="Le tableau **Causes d’exclusion** affiche une répartition détaillée par règle des messages qui ont été rejetés pendant le processus de préparation de la diffusion."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
 >title="Causes d’exclusion lors d’une diffusion"
->abstract="La variable **Causes d&#39;exclusion** Le graphique illustre la distribution des messages rejetés lors de la préparation de la diffusion, classés par règle."
+>abstract="Le graphe **Causes d’exclusion** illustre la distribution des messages rejetés, classés par règle, lors de la préparation de la diffusion."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 

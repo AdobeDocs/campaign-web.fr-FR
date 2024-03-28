@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Prise en main de l’assistant d’IA
+title: Prise en main de l’assistant AI
 description: Prise en main de l’assistant d’IA
 badge: label="Version bêta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
@@ -9,11 +9,11 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 61%
+ht-degree: 63%
 
 ---
 
-# Prise en main de l’assistant d’IA {#generative-gs}
+# Prise en main de l’assistant AI {#generative-gs}
 
 >[!BEGINSHADEBOX]
 

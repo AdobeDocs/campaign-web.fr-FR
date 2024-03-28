@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -53,8 +53,8 @@ Si vous utilisez l’activité **Enrichissement** pour définir des données sup
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Règles de réconciliation"
->abstract="Sélectionnez les règles de réconciliation à utiliser pour la déduplication. Pour utiliser des attributs, sélectionnez la variable **Attributs simples** et choisissez les champs source et destination. Pour créer votre propre condition de réconciliation à l’aide du modèle de requête, sélectionnez l’option **Conditions de réconciliation avancées** ."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utiliser le concepteur de requête"
+>abstract="Sélectionnez les règles de réconciliation à utiliser pour la déduplication. Pour utiliser des attributs, sélectionnez l’option **Attributs simples** et choisissez les champs source et de destination. Pour créer votre propre condition de réconciliation à l’aide du concepteur de requête, sélectionnez l’option **Conditions de réconciliation avancées**."
+>additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utiliser le concepteur de requête"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"

@@ -6,7 +6,7 @@ exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 67%
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ Chaque rapport de campagne est divisé en différents widgets qui détaillent le
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Vue d’ensemble de la diffusion"
->abstract="La variable **Présentation de la diffusion** présente des mesures de performances clés (IPC) offrant des informations détaillées sur l’interaction de vos visiteurs avec chaque diffusion courrier. Les mesures sont décrites ci-dessous."
+>abstract="La **Vue d’ensemble de la diffusion** présente des indicateurs clés de performance (KPI) qui donnent des informations détaillées sur l’interaction de vos visiteurs et visiteuses avec chaque diffusion par courrier. Les mesures sont décrites ci-dessous."
 
 La variable **[!UICONTROL Présentation de la diffusion]** présente des mesures de performances clés (IPC) offrant des informations détaillées sur l’interaction de vos visiteurs avec chaque diffusion courrier. Les mesures sont décrites ci-dessous.
 
@@ -44,7 +44,7 @@ La variable **[!UICONTROL Présentation de la diffusion]** présente des mesures
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="Statistiques initiales sur l’audience cible"
->abstract="Les données du destinataire et les informations sur le message s’affichent dans la variable **Statistiques initiales d’audience cible** table, reflétant l’analyse de préparation de diffusion."
+>abstract="Les données de la personne destinataire et les informations sur le message s’affichent dans le tableau **Statistiques initiales d’audience cible**, reflétant l’analyse de préparation de la diffusion."
 
 Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de destinataires exclus.
 
@@ -65,7 +65,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Statistiques de diffusion"
->abstract="La variable **Statistiques d&#39;exécution** Le tableau décrit le succès de votre diffusion courrier et les erreurs qui se sont produites."
+>abstract="Le graphe **Statistiques d’exécution** détaille le succès de votre diffusion par courrier et les erreurs qui se sont produites."
 
 ![](assets/direct-mail-campaign-exec.png)
 

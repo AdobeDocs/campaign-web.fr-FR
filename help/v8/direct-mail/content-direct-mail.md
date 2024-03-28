@@ -6,26 +6,26 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
-# Concevoir le fichier d&#39;extraction {#design-direct-mail}
+# Concevoir le fichier d’extraction {#design-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
->title="Contenu du fichier d&#39;extraction"
->abstract="Cliquez sur le bouton **Modifier le contenu** pour lancer la conception du fichier d&#39;extraction requis par votre opérateur de services postaux. Vous pouvez ainsi définir les propriétés du fichier, telles que son libellé et son format, et spécifier les colonnes à inclure dans le fichier."
+>title="Contenu du fichier d’extraction"
+>abstract="Cliquez sur le bouton **Modifier le contenu** pour lancer la conception du fichier d’extraction requis par votre fournisseur de services postaux. Vous pouvez ainsi définir les propriétés du fichier, telles que son libellé et son format, et spécifier les colonnes à inclure dans le fichier."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="Propriétés du fichier"
->abstract="Configurez les propriétés du fichier d&#39;extraction, telles que son nom et son format. Vous pouvez personnaliser le nom du fichier à l’aide des attributs de la base de données à l’aide de l’éditeur d’expression."
+>abstract="Configurez les propriétés du fichier d’extraction, telles que son nom et son format. Vous pouvez personnaliser le nom du fichier à l’aide des attributs de la base de données de l’éditeur d’expression."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Contenu"
->abstract="Dans cette section, indiquez les colonnes à afficher dans le fichier d&#39;extraction. Une fois cette opération terminée, vous pouvez obtenir un aperçu du fichier d’extraction à l’aide de la fonction **Simulation du contenu** bouton ."
+>abstract="Dans cette section, indiquez les colonnes à afficher dans le fichier d’extraction. Une fois cette opération terminée, vous pouvez obtenir un aperçu du fichier d’extraction à l’aide du bouton **Simuler du contenu**."
 
 Pour concevoir le contenu du fichier d&#39;extraction généré par votre diffusion courrier, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir de la page de diffusion, puis configurez les propriétés et le contenu du fichier.
 

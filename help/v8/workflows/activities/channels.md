@@ -6,7 +6,7 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 87%
+ht-degree: 91%
 
 ---
 
@@ -67,7 +67,7 @@ Commencez à créer votre workflow avec les activités pertinentes :
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="Activité Courrier"
->abstract="L&#39;activité Courrier permet de faciliter l&#39;envoi du courrier dans votre workflow, ce qui permet d&#39;envoyer des messages ponctuels et récurrents. Il permet d&#39;automatiser le processus de génération du fichier d&#39;extraction requis par les opérateurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité Courrier facilite l’envoi de courrier depuis votre workflow, en vous permettant d’envoyer des messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 Pour configurer une diffusion dans le cadre d’un workflow, procédez comme suit :
 

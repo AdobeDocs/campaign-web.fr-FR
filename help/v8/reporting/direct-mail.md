@@ -6,7 +6,7 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 39%
+ht-degree: 51%
 
 ---
 
@@ -21,7 +21,7 @@ La variable **Rapport Diffusion courrier** offre des informations complètes et 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="Vue d’ensemble de la diffusion"
->abstract="La variable **Présentation de la diffusion** présente des mesures de performances clés (IPC) offrant des informations détaillées sur l’interaction de vos visiteurs avec chaque diffusion courrier. Les mesures sont décrites ci-dessous."
+>abstract="La **Vue d’ensemble de la diffusion** présente des indicateurs clés de performance (KPI) qui donnent des informations détaillées sur l’interaction de vos visiteurs et visiteuses avec chaque diffusion par courrier. Les mesures sont décrites ci-dessous."
 
 La variable **[!UICONTROL Présentation de la diffusion]** fournit des informations détaillées sur la manière dont vos visiteurs interagissent avec chaque diffusion courrier, en exposant les mesures de performances clés (IPC) essentielles.  Les mesures sont décrites ci-dessous.
 
@@ -65,7 +65,7 @@ Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="Statistiques de diffusion"
->abstract="La variable **Statistiques de diffusion** Le graphique présente le succès de votre diffusion courrier et les erreurs qui se sont produites."
+>abstract="Le graphe **Statistiques de diffusion** détaille le succès de votre diffusion par courrier et les erreurs qui se sont produites."
 
 La variable **[!UICONTROL Statistiques de diffusion]** Le graphique offre un aperçu complet des performances de vos diffusions, avec des mesures détaillées pour mesurer le succès et l’efficacité.
 
@@ -88,7 +88,7 @@ La variable **[!UICONTROL Statistiques de diffusion]** Le graphique offre un ape
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="Causes d’exclusion lors d’une diffusion"
->abstract="La variable **Causes d&#39;exclusion** Le graphique illustre la distribution des messages rejetés lors de la préparation de la diffusion, classés par règle."
+>abstract="Le graphe **Causes d’exclusion** illustre la distribution des messages rejetés, classés par règle, lors de la préparation de la diffusion."
 
 La variable **[!UICONTROL Causes d&#39;exclusion]** Le graphique fournit une ventilation détaillée des raisons pour lesquelles les messages sont rejetés pendant le processus de préparation de la diffusion. Cette répartition est organisée selon différentes règles, offrant une vue d&#39;ensemble des facteurs contribuant à l&#39;exclusion des messages. Les règles d’exclusion sont détaillées dans la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
 
@@ -117,7 +117,7 @@ La variable **[!UICONTROL Causes d&#39;exclusion]** Le graphique fournit une ven
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="Exclusions"
->abstract="La variable **[!UICONTROL Exclusions]** Le tableau affiche une ventilation détaillée, par règle, des messages qui ont été rejetés pendant le processus de préparation de la diffusion."
+>abstract="Le tableau **[!UICONTROL Exclusions]** affiche une répartition détaillée, par règle, des messages qui ont été rejetés pendant le processus de préparation de la diffusion."
 
 La variable **[!UICONTROL Exclusions]** Le tableau fournit une ventilation détaillée, classée par règles spécifiques, des messages qui ont été rejetés lors de la phase de préparation de la diffusion. Cette répartition exhaustive permet de comprendre clairement les raisons de l&#39;exclusion de ces messages du processus de diffusion.
 

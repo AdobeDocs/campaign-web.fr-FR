@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 9%
+ht-degree: 30%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="Nouveautés"
->abstract="Les versions de l’interface utilisateur Web d’Adobe Campaign fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Les notes de mise à jour sont mises à jour plusieurs fois par mois. **La version de mars est maintenant en ligne**, y compris le canal Courrier, la nouvelle activité de workflow Modifier la source de données et d’autres améliorations."
+>abstract="Les mises à jour de l’interface utilisateur web d’Adobe Campaign fonctionnent sur un modèle de diffusion continue qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Ces notes de mise à jour sont modifiées plusieurs fois par mois. **La version de mars est maintenant en ligne**, y compris le canal Courrier, la nouvelle activité de workflow Modifier la source de données et d’autres améliorations encore."
 
 
 <!--Last update: **March 19, 2024**-->
 
-Les versions de l’interface utilisateur Web d’Adobe Campaign fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Les mises à jour de l’interface utilisateur web d’Adobe Campaign fonctionnent sur un modèle de diffusion continue qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 >[!AVAILABILITY]
 >
