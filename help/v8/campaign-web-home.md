@@ -4,9 +4,9 @@ description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -51,23 +51,23 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB La version de mars est en ligne !]
+>[!TAB La version de mars est en ligne.]
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version 24.3 de l’interface utilisateur web d’Adobe Campaign.
+Découvrez les nouvelles fonctionnalités et améliorations de la version 24.3 de l’interface utilisateur web d’Adobe Campaign.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Canal courrier]
 
-**Canal Courrier** est désormais disponible pour une utilisation dans les workflows et en tant que diffusions autonomes. Le canal Courrier est un canal off-line qui vous permet de créer, personnaliser et générer des fichiers d’extraction, et de les partager avec vos fournisseurs de services postaux pour envoyer du courrier à vos clients.
+Le canal **Courrier** est désormais disponible pour une utilisation dans les workflows et en tant que diffusions autonomes. Le canal Courrier est un canal hors ligne qui vous permet de créer, personnaliser et générer des fichiers d’extraction, et de les partager avec vos fournisseurs de services postaux pour envoyer du courrier à votre clientèle.
 
 ![image](assets/do-not-localize/direct-mail.gif)
 
 [![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
->[!TAB Activité de workflow Modifier la source de données]
+>[!TAB Nouvelle activité de workflow Modifier la source de données]
 
-La variable **Modification de la source de données** l&#39;activité de ciblage permet de modifier la source de données utilisée par la table de travail de votre workflow. Cette activité offre davantage de flexibilité en vous permettant de gérer les données dans vos différentes bases de données et d’améliorer les performances.
+L’activité de ciblage **Modifier la source de données** permet de modifier la source de données de la table de travail d’un workflow. Cette activité offre davantage de flexibilité en vous permettant de gérer les données dans vos différentes bases de données et d’améliorer les performances.
 
 ![image](assets/do-not-localize/change-data-source.gif)
 

@@ -1,24 +1,24 @@
 ---
 audience: end-user
-title: Création d’une diffusion courrier
-description: Découvrez comment créer une diffusion courrier avec Adobe Campaign Web
-exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: tm+mt
+title: Créer une diffusion par courrier
+description: Découvrez comment créer une diffusion par courrier avec Adobe Campaign Web.
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
-# Création d’une diffusion courrier {#create-direct-mail}
 
-Vous pouvez créer une diffusion courrier autonome ou créer une diffusion courrier dans le cadre d&#39;un workflow de campagne. Les étapes ci-dessous décrivent la procédure pour une diffusion courrier autonome (ponctuelle). Si vous travaillez dans le cadre d&#39;un workflow de campagne, les étapes de création sont présentées dans la section [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+# Créer une diffusion par courrier {#create-direct-mail}
 
-Pour créer une diffusion courrier autonome, procédez comme suit :
+Vous pouvez créer une diffusion par courrier autonome ou créer une diffusion par courrier dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion par courrier autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+Pour créer une diffusion par courrier autonome, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
 
-1. Sous , **[!UICONTROL Canal]** , choisissez **[!UICONTROL Canal Courrier]** comme canal, puis sélectionnez un modèle. [En savoir plus sur les modèles](../msg/delivery-template.md)
+1. Sous la section **[!UICONTROL Canal]**, choisissez **[!UICONTROL Courrier]** comme canal et sélectionnez un modèle. [En savoir plus sur les modèles](../msg/delivery-template.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
 
@@ -36,24 +36,24 @@ Pour créer une diffusion courrier autonome, procédez comme suit :
    * **[!UICONTROL Nature]** : indiquez la nature de la diffusion à des fins de classification.
 +++
 
-1. Cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** pour cibler une audience existante ou créer la vôtre.
+1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre.
 
-   * [Découvrez comment sélectionner une audience existante](../audience/add-audience.md)
-   * [Découvrez comment créer une audience](../audience/one-time-audience.md)
+   * [Découvrir comment sélectionner une audience existante](../audience/add-audience.md)
+   * [Découvrir comment créer une audience](../audience/one-time-audience.md)
 
    ![](assets/dm-audience.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Les destinataires du courrier doivent contenir au moins leurs noms et adresses postales. Une adresse est considérée comme complète si les champs relatifs au nom, au code postal et à la ville ne sont pas vides. Les personnes destinataires dont les adresses sont incomplètes seront exclues des diffusions par courrier.
+   >Les personnes destinataires doivent afficher au minimum leur nom et leur adresse postale. Une adresse est considérée comme complète si les champs relatifs au nom, au code postal et à la ville ne sont pas vides. Les personnes destinataires dont les adresses sont incomplètes seront exclues des diffusions par courrier.
 
-1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin et mesurer l’impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin, de sorte que vous puissiez comparer le comportement de la population qui a reçu le message au comportement des contacts qui ne l’ont pas fait. [Découvrez comment travailler avec les populations témoins.](../audience/control-group.md)
+1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin et mesurer l’impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [Découvrir comment travailler avec les populations témoins](../audience/control-group.md)
 
-1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour définir les informations (colonnes) à exporter dans le fichier d&#39;extraction. [En savoir plus](content-direct-mail.md)
+1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour définir les informations (colonnes) à exporter dans le fichier d’extraction. [En savoir plus](content-direct-mail.md)
 
    ![](assets/dm-content.png){zoomable=&quot;yes&quot;}
 
-1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le fichier d&#39;extraction sera généré automatiquement à la date et à l&#39;heure exactes que vous avez définies. [Découvrez comment planifier des livraisons](../msg/gs-messages.md#gs-schedule).
+1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le fichier d’extraction est automatiquement envoyé à la date et à l’heure exactes que vous avez définies. [Découvrez comment planifier des diffusions.](../msg/gs-messages.md#gs-schedule)
 
    >[!NOTE]
    >
@@ -63,4 +63,5 @@ Pour créer une diffusion courrier autonome, procédez comme suit :
 
    ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
 
-1. Une fois votre diffusion courrier prête, cliquez sur le bouton **[!UICONTROL Vérifier et envoyer]** pour valider et envoyer votre diffusion et générer le fichier d&#39;extraction. [Découvrez comment prévisualiser et envoyer une diffusion courrier](send-direct-mail.md)
+1. Une fois votre diffusion par courrier prête, cliquez sur le bouton **[!UICONTROL Vérifier et envoyer]** pour valider et envoyer votre diffusion et générer le fichier d’extraction. [Découvrir comment prévisualiser et envoyer une diffusion par courrier](send-direct-mail.md)
+

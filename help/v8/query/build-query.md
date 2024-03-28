@@ -4,9 +4,9 @@ title: Créer votre première requête à l’aide du créateur de modèles de r
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2088'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ Pour commencer à créer une requête, accédez au concepteur de requête à par
 
 Vous pouvez ajouter deux types d’éléments :
 
-* Les **composants de filtrage** (condition personnalisée, audience sélectionnée, filtre prédéfini) vous permettent de créer vos propres règles, de sélectionner une audience ou un filtre prédéfini pour affiner votre requête. Elles sont ajoutées au début de la requête et sur les transitions en pointillés. [Découvrez comment utiliser les composants de filtrage](#filtering).
+* Les **composants de filtrage** (condition personnalisée, audience sélectionnée, filtre prédéfini) vous permettent de créer vos propres règles, de sélectionner une audience ou un filtre prédéfini pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
 
-  Exemple : *Destinataires qui se sont inscrits à la newsletter &quot;Sports&quot;*. *Personnes destinataires résidant à New York*, *Personnes destinataires résidant à San Francisco*.
+  Exemple : *personnes destinataires qui se sont abonnées à la newsletter « Sports »*. *Personnes destinataires résidant à New York*, *Personnes destinataires résidant à San Francisco*.
 
   ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
-* **Opérateurs de groupe** (ET, OU, SAUF) vous permettent de regrouper les composants de filtrage dans le diagramme. Elles sont ajoutées sur les transitions existantes avant un composant de filtrage. [Découvrez comment utiliser les opérateurs](#filtering).
+* Les **opérateurs de groupe** (ET, OU, SAUF) vous permettent de regrouper les composants de filtrage dans le diagramme. Ils sont ajoutés sur les transitions existantes avant un composant de filtrage. [Découvrir comment utiliser les opérateurs](#filtering)
 
-  Exemple : *Destinataires qui se sont inscrits à la newsletter &quot;Sports&quot;**ET**qui vivent à New York **OU**San Francisco*.
+  Example : *personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**qui vivent à New York **OU**à San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
 
@@ -53,7 +53,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    >[!NOTE]
    >
-   >La variable **Expression d’édition** vous permet d’utiliser l’éditeur d’expression Web de Campaign pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
+   >Le bouton **Modifier une expression** permet d’utiliser l’éditeur d’expression de Campaign Web pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
 
 1. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
@@ -86,7 +86,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
-   Pour les attributs de type date, les valeurs prédéfinies sont disponibles à l’aide de la variable **[!UICONTROL Paramètres prédéfinis]** .
+   Pour les attributs de type date, des valeurs prédéfinies sont disponibles à l’aide de l’option **[!UICONTROL Préréglage]**.
 
    ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
 
@@ -217,7 +217,7 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
 
 Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête, il est automatiquement lié à l’autre composant par un opérateur **ET**. Cela signifie que les résultats des deux composants de filtrage sont combinés.
 
-Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de filtre prédéfinie avec une **ET** , ce qui signifie que les résultats de la requête incluent les destinataires ciblés par le filtre prédéfini &quot;Madridians&quot; ET appartenant à l&#39;audience &quot;chasseurs de remises&quot;.
+Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de filtre prédéfinie avec un opérateur **ET**, ce qui signifie que les résultats de la requête incluent les personnes destinataires ciblées par le filtre prédéfini « Madrilènes » ET appartenant à l’audience « Chasseurs et chasseuses de remises ».
 
 ![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 

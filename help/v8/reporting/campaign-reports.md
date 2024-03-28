@@ -4,9 +4,9 @@ title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ La liste complète des rapports et mesures associées pour chaque canal est disp
 * [Canal de campagne par e-mail](campaign-reports-email.md)
 * [Canal de campagne par SMS](campaign-reports-sms.md)
 * [Canal de campagne par notification push](campaign-reports-push.md)
-* [Canal de campagne courrier](campaign-reports-direct-mail.md)
+* [Canal de campagne par courrier](campaign-reports-direct-mail.md)
 
 ## Gérer votre tableau de bord des rapports {#manage-reports}
 

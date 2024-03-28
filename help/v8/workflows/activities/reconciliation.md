@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Réconciliation
 description: Découvrez comment utiliser l’activité de workflow Réconciliation
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Si vous utilisez l’activité **Enrichissement** pour définir des données sup
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Règles de réconciliation"
->abstract="Sélectionnez les règles de réconciliation à utiliser pour la déduplication. Pour utiliser des attributs, sélectionnez l’option **Attributs simples** et choisissez les champs source et de destination. Pour créer votre propre condition de réconciliation à l’aide du concepteur de requête, sélectionnez l’option **Conditions de réconciliation avancées**."
+>abstract="Sélectionnez les règles de réconciliation à utiliser pour la déduplication. Pour utiliser des attributs, sélectionnez l’option **Attributs simples** et choisissez les champs source et destination. Pour créer votre propre condition de réconciliation à l’aide du concepteur de requête, sélectionnez l’option **Conditions avancées de réconciliation**."
 >additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utiliser le concepteur de requête"
 
 >[!CONTEXTUALHELP]
@@ -86,9 +86,9 @@ Pour configurer l’activité **Réconciliation**, procédez comme suit :
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. Pour utiliser d’autres attributs afin de réconcilier des données, sélectionnez l’option **Conditions avancées de réconciliation**. Vous pouvez ensuite créer votre propre condition de réconciliation à l’aide du concepteur de requête. [Découvrez comment utiliser le créateur de modèles de requête](../../query/query-modeler-overview.md).
+   1. Pour utiliser d’autres attributs afin de réconcilier des données, sélectionnez l’option **Conditions avancées de réconciliation**. Vous pouvez ensuite créer votre propre condition de réconciliation à l’aide du concepteur de requête. [Découvrez comment utiliser le concepteur de requête](../../query/query-modeler-overview.md).
 
-1. Vous pouvez filtrer les données à réconcilier à l’aide du bouton **Créer un filtre**. Vous pouvez ainsi créer une condition personnalisée à l’aide du créateur de modèles de requête. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
+1. Vous pouvez filtrer les données à réconcilier à l’aide du bouton **Créer un filtre**. Vous pouvez ainsi créer une condition personnalisée à l’aide du concepteur de requête. [Découvrir comment utiliser le concepteur de requête](../../query/query-modeler-overview.md)
 
 Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Pour supprimer les données non réconciliées, désactivez l’option **Conserver les données non réconciliées**.
 

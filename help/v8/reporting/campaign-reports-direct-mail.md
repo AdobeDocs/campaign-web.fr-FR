@@ -1,18 +1,17 @@
 ---
 audience: end-user
 title: Rapports de campagne pour le canal Courrier
-description: Présentation des rapports de campagne pour le canal Courrier
-exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: tm+mt
+description: Comprendre les rapports de campagne du canal Courrier
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Rapports de campagne pour le canal Courrier {#campaign-reports-direct-mail}
 
-Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Pour le canal Courrier, les rapports et les mesures sont présentés ci-dessous. Découvrez comment accéder aux rapports de campagne sur [cette page](campaign-reports.md).
+Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Les rapports et mesures du canal Courrier sont détaillés ci-dessous. Découvrez comment accéder aux rapports de campagne sur [cette page](campaign-reports.md).
 
 ## Synthèse des diffusions {#delivery-summary-direct}
 
@@ -21,9 +20,9 @@ Chaque rapport de campagne est divisé en différents widgets qui détaillent le
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Vue d’ensemble de la diffusion"
->abstract="La **Vue d’ensemble de la diffusion** présente des indicateurs clés de performance (KPI) qui donnent des informations détaillées sur l’interaction de vos visiteurs et visiteuses avec chaque diffusion par courrier. Les mesures sont décrites ci-dessous."
+>abstract="La **Vue d’ensemble de la diffusion** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions courrier. Les mesures sont décrites ci-dessous."
 
-La variable **[!UICONTROL Présentation de la diffusion]** présente des mesures de performances clés (IPC) offrant des informations détaillées sur l’interaction de vos visiteurs avec chaque diffusion courrier. Les mesures sont décrites ci-dessous.
+La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions par courrier. Les mesures sont décrites ci-dessous.
 
 ![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -44,15 +43,15 @@ La variable **[!UICONTROL Présentation de la diffusion]** présente des mesures
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="Statistiques initiales sur l’audience cible"
->abstract="Les données de la personne destinataire et les informations sur le message s’affichent dans le tableau **Statistiques initiales d’audience cible**, reflétant l’analyse de préparation de la diffusion."
+>abstract="Les données de la personne destinataire et les informations sur le message s’affichent dans le tableau **Statistiques initiales sur l´audience cible**, reflétant l’analyse de préparation de la diffusion."
 
-Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de destinataires exclus.
+Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos personnes destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de personnes destinataires exclues.
 
 ![](assets/direct-mail-campaign-target-audience.png){zoomable=&quot;yes&quot;}
 
-+++En savoir plus sur les mesures de statistiques d’audience cible initiales.
++++En savoir plus sur les mesures de statistiques initiales sur l’audience cible.
 
-* **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
+* **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -65,11 +64,11 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Statistiques de diffusion"
->abstract="Le graphe **Statistiques d’exécution** détaille le succès de votre diffusion par courrier et les erreurs qui se sont produites."
+>abstract="Le tableau **Statistiques d’exécution** détaille le succès de votre diffusion par courrier et les erreurs qui se sont produites."
 
 ![](assets/direct-mail-campaign-exec.png)
 
-La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau fournit une ventilation des performances de chaque diffusion courrier, avec les mesures détaillées décrites ci-dessous.
+Le tableau **[!UICONTROL Statistiques d’exécution]** fournit une répartition du succès de chaque diffusion par courrier, avec les mesures détaillées décrites ci-dessous.
 
 +++En savoir plus sur les mesures des statistiques de diffusion.
 
@@ -92,7 +91,7 @@ La variable **[!UICONTROL Statistiques d&#39;exécution]** le tableau fournit un
 
 ![](assets/direct-mail-campaign-clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 
-La variable **Flux de clics générés** Le tableau illustre les raisons qui ont empêché les profils utilisateur, exclus des profils ciblés, de recevoir le message.
+Le tableau **Flux de clics générés** illustre les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
 +++En savoir plus sur les mesures de flux de clics générés.
 

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Commencer avec les workflows
+title: Prise en main des workflows
 description: Découvrez comment commencer avec les workflows.
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
 ht-degree: 100%
 
 ---
 
-# Commencer avec les workflows {#workflows}
+# Prise en main des workflows {#workflows}
 
 ## Qu’est-ce qu’un workflow ?
 

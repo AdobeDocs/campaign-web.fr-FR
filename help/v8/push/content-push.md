@@ -4,7 +4,7 @@ title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1545'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ title: Matrice des fonctionnalités de l’interface utilisateur web de Campaign
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (cons
 
 ## Canaux de communication {#channels-capabilities}
 
-Avec l&#39;interface utilisateur Web de Campaign, vous pouvez créer, concevoir et envoyer des **email**, **SMS**, **notifications push**, **courrier** et mesurer leur impact à l&#39;aide de divers rapports dédiés, comme décrit en détail [dans cette section](../msg/gs-messages.md). Toutefois, les canaux suivants sont actuellement **not** disponible : in-app, LINE, centre d’appels/canal personnalisé, marketing sur les réseaux sociaux avec X (Twitter).
+Avec l’interface utilisateur web de Campaign, vous pouvez créer, concevoir et envoyer des **e-mails**, des **SMS**, des **notifications push** et du **courrier** puis mesurer leur impact à l’aide de divers rapports dédiés, comme indiqué [dans cette section](../msg/gs-messages.md). Toutefois, les canaux suivants ne sont actuellement **pas** disponibles : in-app, LINE, centre d’appels/canal personnalisé, marketing social avec X (Twitter).
 
 Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (console cliente) et en savoir plus sur ces canaux.
 
@@ -167,7 +167,7 @@ Data Management combine un ensemble d’activités pour résoudre des problèmes
 
 >[!NOTE]
 >
->Bien que certaines de ces activités ne soient disponibles que dans la console cliente, d&#39;autres le sont dans l&#39;interface utilisateur Web de Campaign, comme le **Enrichissement**, **Chargement de fichier**, **Modification de la source de données** ou **Changement de dimension** activités. [En savoir plus sur les activités de ciblage et de gestion des données dans l’interface utilisateur web de Campaign](../workflows/activities/about-activities.md#targeting)
+>Bien que certaines de ces activités ne soient disponibles que dans la console cliente, d’autres sont disponibles dans l’interface utilisateur web de Campaign, telles que les activités **Enrichissement**, **Charger un fichier**, **Changer la source des données** ou **Changement de dimension**. [En savoir plus sur les activités de ciblage et de gestion des données dans l’interface utilisateur web de Campaign](../workflows/activities/about-activities.md#targeting)
 
 ### Configuration de Federated Data Access {#fda}
 

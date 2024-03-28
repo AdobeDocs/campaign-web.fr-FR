@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
    1. Ouvrez le sous-ensemble pour afficher ses propriétés.
 
-   1. Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée à l’aide du concepteur de requête. Par exemple, incluez les profils de la population entrante dont l&#39;adresse email existe dans la base de données. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
+   1. Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée à l’aide du concepteur de requête. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données. [Découvrir comment utiliser le concepteur de requête](../../query/query-modeler-overview.md)
 
    1. Pour limiter le nombre de profils sélectionnés par le sous-ensemble, activez la fonction **[!UICONTROL Activer la limite]** et indiquez le nombre ou les pourcentages de la population à inclure.
 
@@ -89,7 +89,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
    >[!NOTE]
    >
-   >La variable **[!UICONTROL Générer tous les sous-ensembles dans la même table]** permet de regrouper tous les sous-ensembles dans une seule transition sortante.
+   >L’option **[!UICONTROL Générer tous les sous-ensembles dans le même tableau]** vous permet de regrouper tous les sous-ensembles dans une seule transition sortante.
 
 L’activité est désormais configurée. Lors de l’exécution du workflow, la population sera segmentée dans les différents sous-ensembles, dans l’ordre dans lequel ils ont été ajoutés à l’activité.
 
