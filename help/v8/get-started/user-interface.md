@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
+source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 99%
+source-wordcount: '1619'
+ht-degree: 98%
 
 ---
 
@@ -416,4 +416,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Transition JavaScript"
+>abstract="TBC"
+
+
+<!--ExtractFile-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile"
+>title="Extraction de fichier"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_file"
+>title="Fichier à extraire"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_destinationformat"
+>title="Format de destination"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_postprocessing"
+>title="Post-traitement"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_outbound"
+>title="Transition sortante"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_error"
+>title="Erreur de traitement"
 >abstract="TBC"
