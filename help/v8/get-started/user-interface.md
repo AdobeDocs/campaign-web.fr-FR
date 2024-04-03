@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 99%
+source-wordcount: '1970'
+ht-degree: 83%
 
 ---
 
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Ce modèle est en lecture seule."
->abstract="TBC"
-
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce modèle. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Pages de destination par défaut"
->abstract="TBC"
+>title="Landing Page par défaut"
+>abstract="Sélectionnez la landing page par défaut associée à ce service d&#39;abonnement."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Services d’abonnements"
->abstract="TBC"
+>title="Activité du service d&#39;inscription"
+>abstract="Utilisez Adobe Campaign pour créer et surveiller vos services, tels que les newsletters, et pour vérifier les inscriptions ou désinscriptions à ces services. Les abonnements ne s’appliquent qu’aux diffusions e-mail et SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Paramètres de services d’abonnements"
->abstract="TBC"
+>title="Paramètres du service d’abonnement"
+>abstract="Sélectionnez et confirmez les paramètres du service d’abonnement."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Transition sortante des services d’abonnements"
->abstract="TBC"
+>abstract="Activez/désactivez la variable **Générer une transition sortante** pour ajouter une transition après l’activité."
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Mettre à jour les données"
->abstract="TBC"
+>abstract="L&#39;activité **Mise à jour de données** permet de mettre à jour en masse les champs de la base de données."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Mettre à jour les données"
->abstract="TBC"
+>title="Sélectionner comment mettre à jour les données"
+>abstract="La variable **Type d&#39;opération** permet de choisir le traitement à effectuer sur les données de la base. Sélectionnez la première option pour ajouter des données ou les mettre à jour (si elles ont déjà été ajoutées). Vous pouvez également uniquement ajouter des données, mettre à jour des données ou supprimer des données. Sélectionnez la variable **Mise à jour et fusion de collections** pour sélectionner un enregistrement principal auquel lier des doublons et supprimer ces doublons en toute sécurité."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Mettre à jour les données"
->abstract="TBC"
+>title="Identification des enregistrements"
+>abstract="Indiquez le mode d&#39;identification des enregistrements dans la base de données : si les données correspondent à une dimension de ciblage existante, sélectionnez l&#39;option **Utiliser la dimension de ciblage** et sélectionnez la dimension de ciblage et les champs à mettre à jour. Dans le cas contraire, spécifiez un ou plusieurs liens personnalisés pour identifier les données de la base ou utilisez directement des clés de réconciliation."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Mettre à jour les données"
->abstract="TBC"
+>title="Sélectionner les champs à mettre à jour"
+>abstract="Sélectionnez les champs à mettre à jour et les paramètres de réconciliation. Vous pouvez utiliser la variable **Mappage automatique** pour identifier automatiquement les champs à mettre à jour."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Mettre à jour les données"
->abstract="TBC"
+>title="Options avancées de mise à jour des données"
+>abstract="La variable **Options avancées** vous permet de définir des paramètres supplémentaires pour la gestion des données et des doublons."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Mettre à jour les données"
->abstract="TBC"
+>title="Générer une transition sortante"
+>abstract="Activez/désactivez la variable **Générer une transition sortante** pour ajouter une transition sortante qui sera activée à la fin de l&#39;exécution de la fonction **Mise à jour de données** activité. La mise à jour marque généralement la fin d&#39;un workflow de ciblage et l&#39;option n&#39;est donc pas activée par défaut."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Mettre à jour les données"
->abstract="TBC"
+>title="Générer une transition sortante pour les rejets."
+>abstract="Activez/désactivez la variable **Générer une transition sortante pour les rejets** pour ajouter une transition sortante contenant les enregistrements qui n&#39;ont pas été correctement traités après la mise à jour (par exemple en cas de doublon). La mise à jour marque généralement la fin d&#39;un workflow de ciblage et l&#39;option n&#39;est donc pas activée par défaut."
 
 
 

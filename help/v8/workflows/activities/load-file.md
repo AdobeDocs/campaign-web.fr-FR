@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier.
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 95%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Supprimer le fichier après l’import"
->abstract="TBC"
+>abstract="Activez/désactivez la variable **Supprimer le fichier après importation** pour supprimer le fichier d’origine du serveur une fois le fichier importé."
 
 L’activité **Chargement de fichier** est une activité de **Data Management**. Utilisez-la lorsque vous travaillez avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour la [personnalisation](../../personalization/gs-personalization.md) ou la mise à jour des profils ou des tables.
 
