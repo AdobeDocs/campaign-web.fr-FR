@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Prise en main de l’assistant AI
+title: Prise en main de l’assistant IA
 description: Prise en main de l’assistant d’IA
 badge: label="Version bêta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
@@ -9,11 +9,11 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 63%
+ht-degree: 68%
 
 ---
 
-# Prise en main de l’assistant AI {#generative-gs}
+# Prise en main de l’assistant IA {#generative-gs}
 
 >[!BEGINSHADEBOX]
 
@@ -28,13 +28,13 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="Assistant IA"
->abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’assistant d’IA pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu en décrivant ce que vous souhaitez générer."
+>title="Assistant IA"
+>abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’assistant IA pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu en décrivant ce que vous souhaitez générer."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Définition du contexte à l’aide de l’assistant d’IA dans Campaign"
+>title="Définir le contexte à l’aide de l’assistant IA dans Campaign"
 >abstract="Pour utiliser le contenu sélectionné comme entrée pour la génération de contenu, activez le bouton (bascule) **Améliorer le contenu actuel**. Vous pouvez également charger vos ressources de marque pour les utiliser comme source. Si vous n’utilisez pas le contenu sélectionné, le chargement et la sélection de ressources de marque sont obligatoires."
 
 

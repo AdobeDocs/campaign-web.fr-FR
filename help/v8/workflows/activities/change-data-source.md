@@ -6,7 +6,7 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 >id="acw_homepage_welcome_rn2"
 >title="Modifier la source de données"
 >abstract="Utilisez la nouvelle activité de ciblage de workflow Modifier la source de données pour modifier la source de données utilisée par la table de travail de votre workflow. Cette activité offre davantage de flexibilité en vous permettant de gérer les données dans vos différentes bases de données et d’améliorer les performances."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Voir les notes de mise à jour"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
