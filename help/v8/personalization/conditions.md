@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Pour définir du contenu conditionnel pour une diffusion à l’aide de l’édi
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. Dans l’éditeur de personnalisation, accédez au menu **[!UICONTROL Fonctions d’assistance]** sur la gauche.
+1. Dans l’éditeur de personnalisation, accédez au **[!UICONTROL Conditions]** sur la gauche.
 
 1. Pour commencer à créer votre condition, cliquez sur l’icône « + » en regard de la fonction **If**. La ligne suivante est ajoutée à l’écran central :`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
