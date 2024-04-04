@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 90%
 
 ---
 
@@ -21,12 +21,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Audiences"
->abstract="Depuis cet écran, vous pouvez accéder à la liste de toutes les audiences qui peuvent être ciblées dans vos diffusions. Cliquez sur **Créer** pour créer de nouvelles audiences dans une zone de travail visuelle à l’aide de diverses activités de workflow, telles que **Partager** ou **Exclure**."
+>abstract="Depuis cet écran, vous pouvez accéder à la liste de toutes les audiences qui peuvent être ciblées dans des workflows ou des diffusions autonomes. Cliquez sur **Créer** pour créer une nouvelle audience dans une zone de travail visuelle à l’aide de diverses activités de workflow, telles que **Partage** ou **Exclure**.<br/><br/>La variable **[!UICONTROL Origin]** indique l’origine des audiences : **[!UICONTROL Adobe Campaign]** Les audiences ont été créées dans la console Adobe Campaign v8 ou l’interface utilisateur web, tandis que **[!UICONTROL ADOBE EXPERIENCE PLATFORM :]** les audiences ont été créées dans Adobe Experience Platform et intégrées à Campaign à l’aide de l’intégration Sources d’Adobe et Destinations ."
 
->[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
->title="Paramètres de l’audience"
->abstract="Saisissez le nom de l’audience et les options supplémentaires, puis cliquez sur le bouton **Créer une audience**."
+>title="Audience settings"
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
 Campaign Web vous permet de créer de nouvelles audiences dans une zone de travail visuelle de workflow. En plus de commencer de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Vous pouvez par exemple combiner plusieurs audiences en une seule, enrichir votre audience avec des attributs externes ou la diviser en plusieurs audiences en fonction des règles de votre choix.
 

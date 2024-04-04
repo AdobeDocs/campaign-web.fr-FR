@@ -3,10 +3,10 @@ audience: end-user
 title: Charger une audience d’e-mail à partir d’un fichier
 description: Découvrez comment charger des profils à partir d’un fichier externe pour créer l’audience de vos e-mails.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 64%
 
 ---
 
@@ -32,32 +32,39 @@ ht-degree: 100%
 >title="Prévisualiser votre fichier"
 >abstract="Vérifiez l’aperçu des colonnes du fichier externe. Cet écran n’affiche que 30 enregistrements au maximum."
 
-Vous pouvez cibler des profils stockés dans un fichier externe. Les profils ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée peuvent être [personnalisés](../personalization/gs-personalization.md). Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Cet article décrit comment charger un profil externe lors de la création d’une diffusion par e-mail autonome. Pour charger des données à partir d’un fichier dans un workflow, reportez-vous à [cette page](../workflows/activities/load-file.md).
+L’interface utilisateur web d’Adobe Campaign permet de cibler les profils stockés dans un fichier externe. Une fois les profils chargés, tous les champs du fichier d&#39;entrée peuvent être utilisés pour personnaliser votre diffusion. [Découvrez comment personnaliser votre contenu](../personalization/personalize.md).
 
->[!CAUTION]
->
->* Cette fonctionnalité n’est disponible que pour les **diffusions par e-mail**. Elle ne peut pas être utilisée avec les diffusions SMS ou Notification push.
->
->* Vous ne pouvez pas utiliser les [populations témoins](control-group.md) lors du chargement de la population cible à partir d’un fichier externe.
->
->* Les profils ne sont pas ajoutés à la base de données et sont chargés et disponibles uniquement pour cette diffusion d’e-mail autonome spécifique.
+Les profils du fichier d’entrée ne sont pas ajoutés à la base de données. Elles sont chargées et disponibles uniquement pour cette diffusion d’email autonome spécifique.
 
-## Sélectionner et configurer votre fichier {#upload}
+>[!NOTE]
+>
+>Cette page décrit comment charger des profils externes à partir d’un fichier lors de la création d’une diffusion email autonome. Pour charger des données à partir d&#39;un fichier dans le cadre d&#39;un workflow, reportez-vous à la section [cette page](../workflows/activities/load-file.md).
 
-Pour cibler des profils à partir d’un fichier local directement dans l’interface e-mail, procédez comme suit :
+## À lire absolument {#must-read}
+
+* Cette fonctionnalité est disponible pour **diffusions email** uniquement.
+* Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
+* Vous ne pouvez pas utiliser les [populations témoins](control-group.md) lors du chargement de la population cible à partir d’un fichier externe.
+
+## Sélection et configuration du fichier d’entrée {#upload}
+
+Pour cibler des profils à partir d&#39;un fichier de vos emails, procédez comme suit :
 
 1. ouvrez une diffusion e-mail existante ou [créez une diffusion e-mail](../email/create-email.md).
-1. Dans la fenêtre de création d’une diffusion par e-mail, à partir de la section **Audience**, cliquez sur le bouton **Sélectionner une audience**, puis choisissez l’option **Sélectionner dans un fichier**.
+1. Dans le **Audience** , cliquez sur le bouton **Sélection de l’audience** puis choisissez **Sélectionner dans le fichier**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Sélectionnez le fichier local à utiliser. Le format doit correspondre à celui de l’[exemple de fichier](#sample-file).
+1. Sélectionnez le fichier local à charger. Le format de fichier doit correspondre au [exemple de fichier](#sample-file).
 1. Prévisualisez et vérifiez le mappage des données dans la section centrale de l’écran.
-1. Sélectionnez la colonne contenant l’adresse e-mail dans le menu déroulant **Champ d’adresse**. Vous pouvez également sélectionner la colonne de liste bloquée si vous disposez de ces informations dans le fichier d’entrée.
+
+   ![](assets/select-from-file-map.png)
+
+1. Indiquez la colonne contenant l’adresse électronique du **Champ d’adresse** liste déroulante. Vous pouvez également sélectionner la colonne de liste bloquée si vous disposez de ces informations dans le fichier d’entrée.
 1. Ajustez les paramètres des colonnes et comment formater les données à partir des options disponibles.
 1. Cliquez sur **Confirmer** une fois que les paramètres sont corrects.
 
-Lors de la création et de la personnalisation du contenu du message, vous pouvez sélectionner des champs dans le fichier d’entrée de l’[éditeur de personnalisation](../personalization/gs-personalization.md).
+Lors de la création du contenu du message, vous pouvez ajouter une personnalisation en exploitant les champs du fichier d&#39;entrée. [Découvrez comment personnaliser le contenu.](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -68,19 +75,21 @@ Lors de la création et de la personnalisation du contenu du message, vous pouve
 >title="Charger une audience à partir d’un fichier"
 >abstract="Les formats de fichiers pris en charge sont TXT et CSV. Utilisez la première ligne comme en-tête de colonne. Alignez votre format de fichier sur l’exemple fourni dans le lien ci-dessous."
 
-Les formats pris en charge sont TXT et CSV. La première ligne correspond à l’en-tête de colonne.
+Lors du chargement d&#39;un fichier externe pour cibler des profils dans vos diffusions, assurez-vous que le fichier d&#39;entrée correspond aux recommandations ci-dessous :
 
-Choisissez le même format de fichier que celui de l’exemple de fichier ci-dessous :
+* Les formats pris en charge sont TXT et CSV.
+* La première ligne du fichier est votre en-tête de colonne.
+* Choisissez le même format de fichier que celui de l’exemple de fichier ci-dessous :
 
-```javascript
-{
-lastname,firstname,city,birthdate,email,denylist
-Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
-Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
-Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-}
-```
+  ```javascript
+  {
+  lastname,firstname,city,birthdate,email,denylist
+  Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+  Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
+  Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+  Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
+  }
+  ```
 
 ## Prévisualiser et tester votre e-mail {#test}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '333'
+ht-degree: 93%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 100%
 >abstract="Parcourez la liste pour sélectionner une audience existante. Utilisez l&#39;icône Afficher les filtres pour filtrer la liste ou sélectionnez un dossier spécifique."
 
 Cette section explique comment sélectionner une audience existante lors de la définition de la population cible d’une diffusion. Lors de la définition de la cible principale d’une diffusion, vous pouvez également :
-
 * [Créer une audience unique](one-time-audience.md) à l’aide du concepteur de requête.
 * [Charger une audience depuis un fichier externe](file-audience.md) (pour les e-mails uniquement).
 
-Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à partir du menu **Audience** sur la gauche. Elles proviennent de plusieurs sources telles que la console cliente, ou encore les workflows d’audience Web Campaign ou Adobe Experience Platform. [Découvrez comment surveiller et gérer les audiences](manage-audience.md)
+Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à partir du menu **Audience** sur la gauche. Elles proviennent de plusieurs sources telles que la console cliente, ou encore les workflows d’audience Web Campaign ou Adobe Experience Platform. [En savoir plus sur les audiences](manage-audience.md)
 
 Pour sélectionner une audience existante pour votre message, procédez comme suit :
 
-1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** puis choisissez **[!UICONTROL Sélectionner une audience]** pour utiliser une audience existante.
+1. Dans la **Audience** de l&#39;assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** puis choisissez **[!UICONTROL Sélection de l’audience]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
