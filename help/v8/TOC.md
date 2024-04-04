@@ -5,9 +5,9 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
+source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '646'
 ht-degree: 95%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 95%
       + [Concevoir le fichier d’extraction](direct-mail/content-direct-mail.md)
       + [Prévisualiser et envoyer une diffusion par courrier](direct-mail/send-direct-mail.md)
    + Assistant IA {#ai-assistant}
-      + [Prise en main de l’assistant AI](email/generative-gs.md)
+      + [Prise en main de l’assistant IA](email/generative-gs.md)
       + [Génération d’emails à l’aide de l’assistant AI](email/generative-content.md)
       + [Génération de SMS avec l’assistant d’IA](email/generative-sms.md)
       + [Génération des notifications push à l’aide de l’assistant AI](email/generative-push.md)
@@ -109,9 +109,10 @@ ht-degree: 95%
       + [Créer un profil](audience/create-profile.md)
       + [Utiliser les profils de test](audience/test-profiles.md)
    + Utiliser les audiences {#audiences}
+      + [Commencer avec les audiences](audience/manage-audience.md)
       + [Créer des audiences](audience/create-audience.md)
-      + [Surveiller et gérer des audiences](audience/manage-audience.md)
    + Sélectionner les personnes destinataires de vos diffusions {#target-audiences}
+      + [Prise en main de la sélection de l’audience](audience/delivery-recipients.md)
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
