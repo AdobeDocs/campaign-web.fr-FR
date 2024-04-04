@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 83%
+source-wordcount: '2108'
+ht-degree: 77%
 
 ---
 
@@ -382,12 +382,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Signal externe"
->abstract="TBC"
+>abstract="La variable **Signal externe** activity vous permet de déclencher l’exécution d’un ensemble de tâches dans un workflow à partir d’une API ou d’un autre workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="Paramètres de signal externe"
 >abstract="TBC"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -395,27 +396,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="TBC"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Code JavaScript"
->abstract="TBC"
+>abstract="La variable **Code JavaScript** l’activité exécute un code JavaScript dans le contexte d’un workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="Extrait JavaScript"
->abstract="TBC"
+>title="Extrait de JavaScript"
+>abstract="Configurez le code à exécuter."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="En savoir plus dans la documentation de Campaign v8 (console)"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="Exécution JavaScript"
->abstract="TBC"
+>abstract="Par défaut, la phase d’exécution ne peut pas dépasser 1 heure. Après ce délai, le processus est abandonné avec un message d’erreur et l’exécution de l’activité échoue. Activez/désactivez la variable **Arrêter l’exécution après** pour définir un délai personnalisé. Pour ignorer cette limite, définissez la valeur sur 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Transition JavaScript"
->abstract="TBC"
+>title="Traiter les erreurs"
+>abstract="Activez/désactivez la variable **Traiter les erreurs** pour ajouter une transition sortante contenant les erreurs."
 
 
 <!--ExtractFile-->
@@ -423,29 +426,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extraction de fichier"
->abstract="TBC"
+>abstract="Activité Extraction de fichier"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="Fichier à extraire"
->abstract="TBC"
+>abstract="Sélectionnez le fichier à extraire."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Format de destination"
->abstract="TBC"
+>abstract="Sélectionnez le format."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post-traitement"
->abstract="TBC"
+>abstract="Définition d’une étape de post-traitement"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Transition sortante"
->abstract="TBC"
+>abstract="Activez/désactivez la variable **Générer une transition sortante** pour ajouter une transition sortante après l&#39;activité en cours."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="Erreur de processus"
->abstract="TBC"
+>title="Traiter les erreurs"
+>abstract="Activez/désactivez la variable **Traiter les erreurs** pour ajouter une transition sortante contenant les erreurs."

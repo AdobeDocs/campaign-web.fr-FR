@@ -3,10 +3,10 @@ audience: end-user
 title: Matrice des fonctionnalités de l’interface utilisateur web de Campaign/de la console cliente
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
+workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Sélectionnez les liens fournis pour parcourir la documentation de Campaign v8 
 * Création de règles de filtrage. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=fr){target="_blank"}
 * Gestion des règles de typologie. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=fr){target="_blank"}
 * Simulation de campagne. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=fr){target="_blank"}
-* Codage JavaScript pour la création de règles de typologie. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr#use-cases-on-pressure-rules){target="_blank"}
+* Codage JavaScript pour la création de règles de typologie. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr#use-cases-on-pressure-rules){target="_blank"}
 
 ## Workflows {#wf-capabilities}
 
