@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
-source-wordcount: '839'
-ht-degree: 100%
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 99%
 
 ---
 
@@ -51,6 +51,11 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >id="acw_orchestration_split_generatesubsets"
 >title="Générer tous les sous-ensembles dans le même tableau"
 >abstract="Activez cette option pour regrouper tous les sous-ensembles en une seule transition de sortie."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="Ignorer la transition vide"
+>abstract="Ignorez la transition vide."
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 
