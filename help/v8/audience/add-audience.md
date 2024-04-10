@@ -4,9 +4,9 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à
 
 Pour sélectionner une audience existante pour votre message, procédez comme suit :
 
-1. À partir du **Audience** dans l&#39;assistant de création de diffusion, cliquez sur le lien **[!UICONTROL Sélectionner une audience]** , puis choisissez **[!UICONTROL Sélectionner une audience]**.
+1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**, puis sur **[!UICONTROL Sélectionner une audience]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

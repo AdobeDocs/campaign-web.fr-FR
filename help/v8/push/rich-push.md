@@ -1,14 +1,14 @@
 ---
 audience: end-user
 title: Concevoir une diffusion de notification push enrichie
-description: Découvrez comment concevoir une diffusion de notification push enrichie pour Android avec Adobe Campaign Web
+description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="Bouton Rappeler plus tard"
->abstract="Le **Rappel ultérieur** Le bouton permet de planifier un rappel. Le champ Date et heure nécessite une valeur représentant l’époque en secondes."
+>abstract="Le bouton **Rappeler plus tard** permet de planifier un rappel. Le champ Date et heure exige une valeur représentant une époque en secondes."
 
 Firebase Cloud Messaging vous permet de choisir entre deux types de messages :
 
@@ -105,7 +105,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Cliquez sur **[!UICONTROL Ajouter un bouton Rappeler plus tard]** pour ajouter une option Me rappeler plus tard à votre notification push. Saisissez un **[!UICONTROL Libellé]**, ainsi que **[!UICONTROL la date et l’heure]**.
 
-   Le champ Date et heure attend une valeur représentant l’époque en secondes.
+   Le champ Date et heure exige une valeur représentant une époque en secondes.
 
    ![](assets/rich_push_basic_5.png)
 

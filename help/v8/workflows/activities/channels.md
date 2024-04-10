@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: Utiliser une activité de workflow de diffusion
-description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push, SMS, publipostage direct)
+description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push, SMS, courrier).
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Activités E-mail, SMS, Notification push et Courrier {#channel}
+# Activités e-mail, SMS, notification push, courrier {#channel}
 
-Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux e-mail, SMS, Courrier et Push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données.
+Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux e-mail, SMS, courrier et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données.
 
-Vous pouvez, par exemple, créer une campagne par e-mail de bienvenue qui comprend une série de messages sur différents canaux, tels que les e-mails, les SMS, les notifications push et le publipostage direct. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente a effectué un achat, ou envoyer un message d’anniversaire personnalisé par SMS.
+Vous pouvez par exemple créer une campagne de bienvenue par e-mail qui inclut une série de messages sur différents canaux, tels que les canaux e-mails, SMS, notifications push et courrier. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente a effectué un achat, ou envoyer un message d’anniversaire personnalisé par SMS.
 
 Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent la clientèle sur plusieurs touchpoints et génèrent des conversions.
 
@@ -24,7 +24,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 >* [Créer une diffusion par e-mail autonome](../../email/create-email.md)
 >* [Créer une diffusion par SMS autonome](../../sms/create-sms.md)
 >* [Créer une diffusion par notification push autonome](../../push/create-push.md)
->* [Créer une diffusion de publipostage direct autonome](../../direct-mail/create-direct-mail.md)
+>* [Créer une diffusion par courrier autonome](../../direct-mail/create-direct-mail.md)
 
 ## Conditions préalables {#channel-activity-prereq}
 
@@ -71,7 +71,7 @@ Commencez à créer votre workflow avec les activités pertinentes :
 
 Pour configurer une diffusion dans le cadre d’un workflow, procédez comme suit :
 
-1. Ajoutez une activité de canal : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]**, **[!UICONTROL Notification push (iOS)]** ou **[!UICONTROL Courrier]**.
+1. Ajoutez une activité de canal : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]**, **[!UICONTROL Notification push (iOS)]** ou **[!UICONTROL Courrier]**.
 
 1. Sélectionnez le **Type de diffusion** : unique ou récurrent.
 

@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Enregistrer l’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="Générer une transition sortante"
->abstract="Utilisez cette option si vous souhaitez ajouter une transition après **Enregistrer l’audience** activité."
+>abstract="Utilisez cette option si vous souhaitez ajouter une transition après l’activité **Enregistrer l’audience**."
 
 L’activité **Enregistrer l’audience** est une activité de **ciblage**. Cette activité permet de mettre à jour une audience existante ou de créer une audience à partir de la population calculée en amont dans un workflow. Les audiences créées sont ajoutées à la liste des audiences de l’application, disponible via le menu **Audiences**.
 

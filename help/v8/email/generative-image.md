@@ -7,13 +7,13 @@ exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Génération d&#39;images d&#39;email avec l&#39;assistant de contenu {#generative-image}
+# Génération d’images d’e-mails avec l’assistant de contenu {#generative-image}
 
 Après avoir conçu et personnalisé vos e-mails, vous pouvez améliorer votre contenu à l’aide de l’assistant de contenu optimisé par l’IA générative. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu.
 

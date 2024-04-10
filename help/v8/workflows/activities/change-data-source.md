@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Modifier la source de données
 description: Découvrez comment utiliser l’activité de workflow Modifier la source de données.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 

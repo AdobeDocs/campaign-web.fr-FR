@@ -1,28 +1,28 @@
 ---
 audience: end-user
-title: Génération d'emails avec l'assistant AI dans Campaign
-description: Prise en main de l’assistant AI dans Campaign
-badge: label="Version alpha"
+title: Génération d’e-mails avec l’assistant IA dans Campaign
+description: Commencer avec l’assistant AI dans Campaign
+badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Générer un e-mail avec l’assistant d’IA {#generative-email}
+# Générer un e-mail avec l’assistant IA {#generative-email}
 
-L’assistant d’IA de Campaign améliore l’impact de votre communication en générant automatiquement un contenu d’e-mail complet, ce qui vous permet de gagner du temps et d’assurer une qualité cohérente. Grâce à l’IA générative, vous pouvez créer facilement des e-mails attrayants qui résonnent auprès de votre audience, rendant ainsi votre communication plus efficace.
+L’assistant IA dans Campaign améliore l’impact de votre communication en générant automatiquement un contenu d’e-mail complet, ce qui vous permet de gagner du temps et de garantir une qualité constante. Grâce à l’IA générative, vous pouvez créer facilement des e-mails attrayants qui résonnent auprès de votre audience, rendant ainsi votre communication plus efficace.
 
 >[!NOTE]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#guardrails-and-limitations).
 
 
-Pour générer un contenu d’e-mail avec l’assistant d’IA, procédez comme suit. Vous pouvez également améliorer un contenu existant avec l’assistant d’IA, comme indiqué dans [cette page](generative-content.md).
+Pour générer le contenu d’un e-mail avec l’assistant IA, procédez comme suit. Vous pouvez également améliorer du contenu existant avec l’assistant IA, comme expliqué sur [cette page](generative-content.md).
 
 1. Après avoir créé et configuré votre diffusion E-mail, cliquez sur **[!UICONTROL Créer un contenu]**.
 
@@ -30,7 +30,7 @@ Pour générer un contenu d’e-mail avec l’assistant d’IA, procédez comme 
 
 1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]**.
 
-1. Sélectionnez le modèle de conception sur lequel l’assistant AI doit baser l’e-mail généré.
+1. Sélectionnez le modèle de conception sur lequel vous souhaitez que l’assistant IA base l’e-mail généré.
 
    Vous pouvez également importer un fichier HTML.
 
@@ -48,7 +48,7 @@ Pour générer un contenu d’e-mail avec l’assistant d’IA, procédez comme 
 
    ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Sélectionner **[!UICONTROL Charger le fichier]** si vous souhaitez ajouter une ressource de marque dont le contenu peut fournir un contexte supplémentaire à l’assistant d’IA.
+1. Sélectionnez **[!UICONTROL Charger un fichier]** pour ajouter une ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
    Cliquez également sur **[!UICONTROL Contenu chargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur ou l’utilisatrice en cours.
 

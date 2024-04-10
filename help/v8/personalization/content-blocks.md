@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Les blocs de contenu intégrés sont les suivants :
 
 * **[!UICONTROL Bannière de désinscription par défaut]**
 * **[!UICONTROL Enabled by Adobe Campaign]** : insère le logo « Enabled by Adobe Campaign ».
-* **[!UICONTROL Fonction de formatage d’un nom propre]**: génère le **[!UICONTROL toSmartCase]** Fonction JavaScript qui convertit la première lettre de chaque mot en majuscule.
+* **[!UICONTROL Fonction de formatage des noms propres]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
 * **[!UICONTROL Salutations]** : permet d’insérer des salutations avec le nom complet du ou de la destinataire, suivi d’une virgule. Exemple : « Bonjour Pierre Martin, ».
 * **[!UICONTROL Insertion du logo]** : insère un logo défini dans les paramètres de l’instance.
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la [page miroir](../email/mirror-page.md). Le format par défaut est : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici »

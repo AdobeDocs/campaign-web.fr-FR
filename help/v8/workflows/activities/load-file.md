@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier.
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -70,12 +70,12 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Supprimer le fichier après l’import"
->abstract="Activer/désactiver **Supprimer le fichier après l’import** pour supprimer le fichier d’origine du serveur après l’importation du fichier."
+>abstract="Activez le bouton **Supprimer le fichier après l’import** pour supprimer le fichier d’origine du serveur après son import."
 
 L’activité **Chargement de fichier** est une activité de **Data Management**. Utilisez-la lorsque vous travaillez avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour la [personnalisation](../../personalization/gs-personalization.md) ou la mise à jour des profils ou des tables.
 
 >[!NOTE]
->Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
+>Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeurs séparées par des virgules (CSV).
 
 Combinée avec l’activité [Réconciliation](reconciliation.md), elle permet de lier des données non identifiées à des ressources existantes. L’activité **Chargement de fichier** peut par exemple être placée après une activité de **Réconciliation** si vous importez des données non standard dans la base de données.
 
