@@ -313,18 +313,18 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Ce modèle est en lecture seule."
->abstract="Vous n’êtes pas autorisé à modifier ce modèle. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce modèle. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Page de destination par défaut"
->abstract="Sélectionnez la page de destination par défaut associée à ce service d’abonnement."
+>title="Landing Page par défaut"
+>abstract="Sélectionnez la landing page par défaut associée à ce service d&#39;abonnement."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Activité de service d’inscription"
+>title="Activité du service d&#39;inscription"
 >abstract="Utilisez Adobe Campaign pour créer et surveiller vos services, tels que les newsletters, et pour vérifier les inscriptions ou désinscriptions à ces services. Les abonnements ne s’appliquent qu’aux diffusions e-mail et SMS."
 
 >[!CONTEXTUALHELP]
@@ -335,7 +335,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Transition sortante des services d’abonnements"
->abstract="Activer/désactiver **Générer une transition sortante** option permettant d’ajouter une transition après l’activité."
+>abstract="Activez/désactivez la variable **Générer une transition sortante** pour ajouter une transition après l’activité."
 
 
 <!--Update file-->
@@ -347,33 +347,33 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Sélectionner le mode de mise à jour des données"
->abstract="Le **Type d’opération** permet de choisir le traitement à réaliser sur les données de la base. Sélectionnez la première option pour ajouter des données ou effectuer une mise à jour (si elle a déjà été ajoutée). Vous pouvez également ajouter uniquement des données, mettre à jour uniquement des données ou supprimer des données. Sélectionner le **Mise à jour et fusion de collections** pour sélectionner un enregistrement principal auquel lier les doublons et supprimer ces doublons en toute sécurité."
+>title="Sélectionner comment mettre à jour les données"
+>abstract="La variable **Type d&#39;opération** permet de choisir le traitement à effectuer sur les données de la base. Sélectionnez la première option pour ajouter des données ou les mettre à jour (si elles ont déjà été ajoutées). Vous pouvez également uniquement ajouter des données, mettre à jour des données ou supprimer des données. Sélectionnez la variable **Mise à jour et fusion de collections** pour sélectionner un enregistrement principal auquel lier des doublons et supprimer ces doublons en toute sécurité."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="Identification des enregistrements"
->abstract="Indiquez comment identifier les enregistrements dans la base : si les données sont relatives à une dimension de ciblage existante, sélectionnez la variable **Utilisation de la dimension de ciblage** et sélectionnez la dimension de ciblage et les champs à mettre à jour. Sinon, vous pouvez spécifier un ou plusieurs liens personnalisés pour identifier les données de la base ou utiliser directement des clés de réconciliation."
+>abstract="Indiquez le mode d&#39;identification des enregistrements dans la base de données : si les données correspondent à une dimension de ciblage existante, sélectionnez l&#39;option **Utiliser la dimension de ciblage** et sélectionnez la dimension de ciblage et les champs à mettre à jour. Dans le cas contraire, spécifiez un ou plusieurs liens personnalisés pour identifier les données de la base ou utilisez directement des clés de réconciliation."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="Sélectionner les champs à mettre à jour"
->abstract="Sélectionnez les champs pour mettre à jour et réconcilier les paramètres. Vous pouvez utiliser la variable **Mappage automatique** option permettant d’identifier automatiquement les champs à mettre à jour."
+>abstract="Sélectionnez les champs à mettre à jour et les paramètres de réconciliation. Vous pouvez utiliser la variable **Mappage automatique** pour identifier automatiquement les champs à mettre à jour."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="Options avancées de mise à jour des données"
->abstract="Le **Options avancées** permet de spécifier des paramètres supplémentaires pour gérer les données et les doublons."
+>abstract="La variable **Options avancées** vous permet de définir des paramètres supplémentaires pour la gestion des données et des doublons."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="Générer une transition sortante"
->abstract="Activer/désactiver **Générer une transition sortante** option pour ajouter une transition sortante qui sera activée à la fin de l’exécution du **Mise à jour des données** activité. La mise à jour marque généralement la fin d&#39;un workflow de ciblage et l&#39;option n&#39;est donc pas activée par défaut."
+>abstract="Activez/désactivez la variable **Générer une transition sortante** pour ajouter une transition sortante qui sera activée à la fin de l&#39;exécution de la fonction **Mise à jour de données** activité. La mise à jour marque généralement la fin d&#39;un workflow de ciblage et l&#39;option n&#39;est donc pas activée par défaut."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
 >title="Générer une transition sortante pour les rejets."
->abstract="Activer/désactiver **Générer une transition sortante pour les rejets** option permettant d&#39;ajouter une transition sortante contenant des enregistrements qui n&#39;ont pas été correctement traités après la mise à jour (par exemple s&#39;il y a un doublon). La mise à jour marque généralement la fin d&#39;un workflow de ciblage et l&#39;option n&#39;est donc pas activée par défaut."
+>abstract="Activez/désactivez la variable **Générer une transition sortante pour les rejets** pour ajouter une transition sortante contenant les enregistrements qui n&#39;ont pas été correctement traités après la mise à jour (par exemple en cas de doublon). La mise à jour marque généralement la fin d&#39;un workflow de ciblage et l&#39;option n&#39;est donc pas activée par défaut."
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Signal externe"
->abstract="Le **Signal externe** vous permet de déclencher l’exécution d’un ensemble de tâches dans un workflow à partir d’une API ou d’un autre workflow."
+>abstract="La variable **Signal externe** activity vous permet de déclencher l’exécution d’un ensemble de tâches dans un workflow à partir d’une API ou d’un autre workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -401,7 +401,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Code JavaScript"
->abstract="Le **Code JavaScript** exécute un code JavaScript dans le cadre d’un workflow."
+>abstract="La variable **Code JavaScript** l’activité exécute un code JavaScript dans le contexte d’un workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
@@ -413,12 +413,12 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="Exécution JavaScript"
->abstract="Par défaut, la phase d’exécution ne peut pas dépasser 1 heure. Après ce délai, le processus est abandonné avec un message d’erreur et l’exécution de l’activité échoue. Activer/désactiver **Arrêter l’exécution après** pour définir un délai personnalisé. Pour ignorer cette limite, définissez la valeur sur 0."
+>abstract="Par défaut, la phase d’exécution ne peut pas dépasser 1 heure. Après ce délai, le processus est abandonné avec un message d’erreur et l’exécution de l’activité échoue. Activez/désactivez la variable **Arrêter l’exécution après** pour définir un délai personnalisé. Pour ignorer cette limite, définissez la valeur sur 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Traiter les erreurs"
->abstract="Activer/désactiver **Traiter les erreurs** option permettant d’ajouter une transition sortante contenant des erreurs."
+>abstract="Activez/désactivez la variable **Traiter les erreurs** pour ajouter une transition sortante contenant les erreurs."
 
 
 
@@ -447,12 +447,12 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Transition sortante"
->abstract="Activer/désactiver **Générer une transition sortante** option permettant d’ajouter une transition sortante après l’activité en cours."
+>abstract="Activez/désactivez la variable **Générer une transition sortante** pour ajouter une transition sortante après l&#39;activité en cours."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="Traiter les erreurs"
->abstract="Activer/désactiver **Traiter les erreurs** option permettant d’ajouter une transition sortante contenant des erreurs."
+>abstract="Activez/désactivez la variable **Traiter les erreurs** pour ajouter une transition sortante contenant les erreurs."
 
 <!-- Workflow settings -->
 
@@ -473,8 +473,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution_initscript"
->title="Script d’initialisation de l’exécution"
->abstract="Script d’initialisation de l’exécution"
+>title="Script d&#39;initialisation de l&#39;exécution"
+>abstract="Script d&#39;initialisation de l&#39;exécution"
 
 
 <!--incremental querry -->
@@ -486,8 +486,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
->title="Historique des requêtes incrémentielles"
->abstract="Historique des requêtes incrémentielles"
+>title="Historique incrémentiel des requêtes"
+>abstract="Historique incrémentiel des requêtes"
 
 
 <!-- Transfer file activity -->
@@ -499,8 +499,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
->title="Options Transfert de fichier"
->abstract="Options Transfert de fichier"
+>title="Options de transfert de fichier"
+>abstract="Options de transfert de fichier"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_activity"
@@ -509,13 +509,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
->title="Serveur distant de transfert de fichiers"
->abstract="Serveur distant de transfert de fichiers"
+>title="Transfert de fichier serveur distant"
+>abstract="Transfert de fichier serveur distant"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
->title="Source du fichier de transfert"
->abstract="Source du fichier de transfert"
+>title="Transfert de la source du fichier"
+>abstract="Transfert de la source du fichier"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -539,8 +539,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
->title="Traiter les fichiers manquants"
->abstract="Traiter les fichiers manquants"
+>title="Traitement des fichiers manquants"
+>abstract="Traitement des fichiers manquants"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
