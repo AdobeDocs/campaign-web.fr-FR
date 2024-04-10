@@ -55,7 +55,7 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Ignorer la transition vide"
->abstract="Ignorez la transition vide."
+>abstract="Passer la transition vide."
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 

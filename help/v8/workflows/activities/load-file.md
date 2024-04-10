@@ -70,7 +70,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Supprimer le fichier après l’import"
->abstract="Activez/désactivez la variable **Supprimer le fichier après importation** pour supprimer le fichier d’origine du serveur une fois le fichier importé."
+>abstract="Activer/désactiver **Supprimer le fichier après l’import** pour supprimer le fichier d’origine du serveur après l’importation du fichier."
 
 L’activité **Chargement de fichier** est une activité de **Data Management**. Utilisez-la lorsque vous travaillez avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour la [personnalisation](../../personalization/gs-personalization.md) ou la mise à jour des profils ou des tables.
 

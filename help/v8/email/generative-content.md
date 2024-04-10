@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Texte avec l’assistant d’IA
-description: Prise en main de l’assistant d’IA dans Campaign
+title: Texte avec l’assistant AI
+description: Prise en main de l’assistant AI dans Campaign
 badge: label="Version bêta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
@@ -9,62 +9,62 @@ hidefromtoc: true
 source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
-# Génération d’emails à l’aide de l’assistant AI {#generative-content}
+# Génération d’e-mails avec l’assistant AI {#generative-content}
 
 >[!BEGINSHADEBOX]
 
 **Table des matières**
 
-* [Prise en main de l’assistant d’IA](generative-gs.md)
-* **[Génération d’emails à l’aide de l’assistant AI](generative-content.md)**
-* [Génération de SMS avec l’assistant d’IA](generative-sms.md)
-* [Génération des notifications push à l’aide de l’assistant AI](generative-push.md)
+* [Prise en main de l’assistant IA](generative-gs.md)
+* **[Génération d’e-mails avec l’assistant AI](generative-content.md)**
+* [Génération de SMS avec l’assistant AI](generative-sms.md)
+* [Génération de notifications push avec l’assistant AI](generative-push.md)
 
 >[!ENDSHADEBOX]
 
-Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistant Journey Optimizer AI dans Campaign, optimisé par l’IA générative, pour passer votre contenu au niveau supérieur.
+Une fois que vous avez créé et personnalisé vos e-mails, utilisez l’assistant Journey Optimizer AI dans Campaign optimisé par l’IA générative pour booster votre contenu.
 
-L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent plus susceptible de résonner auprès de votre audience.
+L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent qui résonnera davantage auprès de votre audience.
 
 >[!NOTE]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#guardrails-and-limitations).
 
-## Génération de contenu à l’aide de l’assistant AI {#generative-text}
+## Génération de contenu avec l’assistant d’IA {#generative-text}
 
 1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
    Pour plus d’informations sur la configuration de votre diffusion e-mail, consultez [cette page](../email/create-email-content.md).
 
-1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Personnalisez votre email selon vos besoins. [En savoir plus](content-components.md)
+1. Personnalisez votre e-mail selon vos besoins. [En savoir plus](content-components.md)
 
-1. Accédez au **[!UICONTROL Assistant IA]** .
+1. Accéder au **[!UICONTROL Assistant IA]** menu.
 
-   Vous pouvez également sélectionner une **[!UICONTROL Composant textuel]** pour cibler uniquement un contenu spécifique.
+   Vous pouvez également sélectionner une **[!UICONTROL Composant Texte]** pour cibler uniquement un contenu spécifique.
 
    ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans la variable **[!UICONTROL Invite]** champ .
+1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le **[!UICONTROL Invite]** champ .
 
-   Si vous avez besoin d’aide pour concevoir votre invite, accédez au **[!UICONTROL Invite Library]** qui offre un large éventail d’idées rapides pour améliorer vos diffusions.
+   Si vous avez besoin d’aide pour concevoir votre invite, accédez au **[!UICONTROL Bibliothèque d’invites]** qui propose une gamme variée d&#39;idées rapides pour améliorer vos diffusions.
 
    ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Activez/désactivez la variable **[!UICONTROL Objet]** ou **[!UICONTROL Preheader]** pour les inclure à la génération des variantes.
+1. Activer/désactiver **[!UICONTROL Objet]** ou **[!UICONTROL Pré-titre]** pour les inclure à la génération de variantes.
 
-1. Dans le menu contextuel, activez la variable **[!UICONTROL Amélioration du contexte actuel]** l’option de l’assistant d’IA pour personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
+1. Dans le menu contextuel, activez l’option **[!UICONTROL Améliorer avec le contexte actuel]** option permettant à l’assistant AI de personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
 
    >[!IMPORTANT]
    >
-   > Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la fonction **[!UICONTROL Amélioration du contenu actuel]** .
+   > Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la variable **[!UICONTROL Améliorer le contenu actuel]** option.
 
-1. Cliquez sur **[!UICONTROL Chargement d’une ressource de marque]** pour ajouter toute ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA.
+1. Clic **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque dont le contenu peut fournir un contexte supplémentaire à l’assistant d’IA, procédez comme suit :
 
    ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
@@ -102,19 +102,19 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant d�
 
 1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]**.
 
-1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’assistant AI.
+1. Sélectionnez la ressource à modifier à l’aide de l’assistant d’IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
    ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans la variable **[!UICONTROL Invite]** champ .
+1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le **[!UICONTROL Invite]** champ .
 
-   Si vous avez besoin d’aide pour concevoir votre invite, accédez au **[!UICONTROL Invite Library]** qui offre un large éventail d’idées rapides pour améliorer vos diffusions.
+   Si vous avez besoin d’aide pour concevoir votre invite, accédez au **[!UICONTROL Bibliothèque d’invites]** qui propose une gamme variée d&#39;idées rapides pour améliorer vos diffusions.
 
    ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Cliquez sur **[!UICONTROL Chargement d’une ressource de marque]** pour ajouter toute ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA.
+1. Clic **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque dont le contenu peut fournir un contexte supplémentaire à l’assistant d’IA, procédez comme suit :
 
    >[!IMPORTANT]
    >
@@ -122,7 +122,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant d�
 
 1. Sélectionnez le **[!UICONTROL Format]** de votre ressource. Vous déterminez ainsi la largeur et la hauteur de la ressource.
 
-   Vous avez la possibilité de choisir parmi des rapports communs tels que 16:9, 4:3, 3:2 ou 1:1, ou vous pouvez saisir une taille personnalisée.
+   Vous avez la possibilité de choisir parmi les ratios courants tels que 16:9, 4:3, 3:2 ou 1:1, ou vous pouvez saisir une taille personnalisée.
 
 1. Personnalisez les paramètres **[!UICONTROL Couleur et ton]**, **[!UICONTROL Type de contenu]**, **[!UICONTROL Éclairage]** et **[!UICONTROL Composition]** en fonction des caractéristiques de votre ressource.
 
@@ -130,13 +130,13 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant d�
 
 1. Quand la configuration rapide vous satisfait, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL Suggestions de variation]** pour trouver la ressource souhaitée.
+1. Parcourir le **[!UICONTROL Suggestions de variation]** pour rechercher la ressource souhaitée.
 
    Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 
    ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Choisir **[!UICONTROL Afficher le même]** si vous souhaitez afficher les images associées à cette variante.
+1. Choisir **[!UICONTROL Afficher similaire]** si vous souhaitez afficher les images associées à cette variante.
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 

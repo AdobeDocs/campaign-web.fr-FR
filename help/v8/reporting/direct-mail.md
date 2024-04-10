@@ -2,8 +2,9 @@
 audience: end-user
 title: Rapports de courrier
 description: Découvrir comment accéder aux rapports de courrier pour les utiliser
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 

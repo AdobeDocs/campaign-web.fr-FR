@@ -51,7 +51,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicat
 >title="Statistiques initiales sur l’audience cible"
 >abstract="Le tableau et le graphe **Audience ciblée** offrent des informations sur l’engagement des destinataires afin de vous aider à juger de l’efficacité de vos campagnes et de vos diffusions."
 
-Le tableau et le graphe **[!UICONTROL Audience ciblée]** affichent les données relatives à vos destinataires sous la forme de mesures détaillées. Consultez-les ci-dessous.
+Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des données relatives à vos personnes destinataires, avec les mesures détaillées fournies ci-dessous.
 
 ![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -97,7 +97,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition d
 
 ![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
-Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils utilisateur et utilisatrice exclus des profils ciblés de recevoir le message.
+Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
 Les types d’erreur d’e-mail sont répertoriés dans la section [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
 

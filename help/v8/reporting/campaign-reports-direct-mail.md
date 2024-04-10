@@ -2,8 +2,9 @@
 audience: end-user
 title: Rapports de campagne pour le canal Courrier
 description: Comprendre les rapports de campagne du canal Courrier
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 

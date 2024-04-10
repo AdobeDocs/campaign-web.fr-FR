@@ -35,7 +35,7 @@ Les blocs de contenu intégrés sont les suivants :
 
 * **[!UICONTROL Bannière de désinscription par défaut]**
 * **[!UICONTROL Enabled by Adobe Campaign]** : insère le logo « Enabled by Adobe Campaign ».
-* **[!UICONTROL Fonction de formatage des noms corrects]**: génère la variable **[!UICONTROL toSmartCase]** fonction JavaScript qui remplace la première lettre de chaque mot par la majuscule.
+* **[!UICONTROL Fonction de formatage d’un nom propre]**: génère le **[!UICONTROL toSmartCase]** Fonction JavaScript qui convertit la première lettre de chaque mot en majuscule.
 * **[!UICONTROL Salutations]** : permet d’insérer des salutations avec le nom complet du ou de la destinataire, suivi d’une virgule. Exemple : « Bonjour Pierre Martin, ».
 * **[!UICONTROL Insertion du logo]** : insère un logo défini dans les paramètres de l’instance.
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la [page miroir](../email/mirror-page.md). Le format par défaut est : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici »

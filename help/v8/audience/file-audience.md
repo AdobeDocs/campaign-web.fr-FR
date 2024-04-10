@@ -32,39 +32,39 @@ ht-degree: 64%
 >title="Prévisualiser votre fichier"
 >abstract="Vérifiez l’aperçu des colonnes du fichier externe. Cet écran n’affiche que 30 enregistrements au maximum."
 
-L’interface utilisateur web d’Adobe Campaign permet de cibler les profils stockés dans un fichier externe. Une fois les profils chargés, tous les champs du fichier d&#39;entrée peuvent être utilisés pour personnaliser votre diffusion. [Découvrez comment personnaliser votre contenu](../personalization/personalize.md).
+L’interface utilisateur web d’Adobe Campaign vous permet de cibler des profils stockés dans un fichier externe. Une fois les profils chargés, tous les champs du fichier d’entrée peuvent être utilisés pour personnaliser votre diffusion [Découvrez comment personnaliser votre contenu](../personalization/personalize.md).
 
-Les profils du fichier d’entrée ne sont pas ajoutés à la base de données. Elles sont chargées et disponibles uniquement pour cette diffusion d’email autonome spécifique.
+Les profils du fichier d’entrée ne sont pas ajoutés à la base de données. Ils sont chargés et disponibles uniquement pour cette diffusion e-mail autonome spécifique.
 
 >[!NOTE]
 >
->Cette page décrit comment charger des profils externes à partir d’un fichier lors de la création d’une diffusion email autonome. Pour charger des données à partir d&#39;un fichier dans le cadre d&#39;un workflow, reportez-vous à la section [cette page](../workflows/activities/load-file.md).
+>Cette page décrit comment charger des profils externes à partir d&#39;un fichier lors de la création d&#39;une diffusion e-mail autonome. Pour charger des données depuis un fichier dans le cadre d&#39;un workflow, voir [cette page](../workflows/activities/load-file.md).
 
 ## À lire absolument {#must-read}
 
-* Cette fonctionnalité est disponible pour **diffusions email** uniquement.
+* Cette fonctionnalité est disponible pour **diffusions e-mail** uniquement.
 * Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV).
 * Vous ne pouvez pas utiliser les [populations témoins](control-group.md) lors du chargement de la population cible à partir d’un fichier externe.
 
 ## Sélection et configuration du fichier d’entrée {#upload}
 
-Pour cibler des profils à partir d&#39;un fichier de vos emails, procédez comme suit :
+Pour cibler des profils à partir d’un fichier dans vos e-mails, procédez comme suit :
 
 1. ouvrez une diffusion e-mail existante ou [créez une diffusion e-mail](../email/create-email.md).
-1. Dans le **Audience** , cliquez sur le bouton **Sélection de l’audience** puis choisissez **Sélectionner dans le fichier**.
+1. Dans le **Audience** , cliquez sur **Sélectionner une audience** , puis choisissez **Sélectionner dans le fichier**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Sélectionnez le fichier local à charger. Le format de fichier doit correspondre au [exemple de fichier](#sample-file).
+1. Sélectionnez le fichier local à charger. Le format du fichier doit correspondre au [fichier d&#39;exemple](#sample-file).
 1. Prévisualisez et vérifiez le mappage des données dans la section centrale de l’écran.
 
    ![](assets/select-from-file-map.png)
 
-1. Indiquez la colonne contenant l’adresse électronique du **Champ d’adresse** liste déroulante. Vous pouvez également sélectionner la colonne de liste bloquée si vous disposez de ces informations dans le fichier d’entrée.
+1. Indiquez la colonne contenant l’adresse e-mail du **Champ d’adresse** liste déroulante. Vous pouvez également sélectionner la colonne de liste bloquée si vous disposez de ces informations dans le fichier d’entrée.
 1. Ajustez les paramètres des colonnes et comment formater les données à partir des options disponibles.
 1. Cliquez sur **Confirmer** une fois que les paramètres sont corrects.
 
-Lors de la création du contenu du message, vous pouvez ajouter une personnalisation en exploitant les champs du fichier d&#39;entrée. [Découvrez comment personnaliser le contenu.](../personalization/personalize.md)
+Lors de la création du contenu du message, vous pouvez ajouter une personnalisation en utilisant les champs du fichier d’entrée. [Découvrez comment personnaliser le contenu.](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -75,7 +75,7 @@ Lors de la création du contenu du message, vous pouvez ajouter une personnalisa
 >title="Charger une audience à partir d’un fichier"
 >abstract="Les formats de fichiers pris en charge sont TXT et CSV. Utilisez la première ligne comme en-tête de colonne. Alignez votre format de fichier sur l’exemple fourni dans le lien ci-dessous."
 
-Lors du chargement d&#39;un fichier externe pour cibler des profils dans vos diffusions, assurez-vous que le fichier d&#39;entrée correspond aux recommandations ci-dessous :
+Lors du chargement d’un fichier externe pour cibler des profils dans vos diffusions, veillez à ce que le fichier d’entrée corresponde aux recommandations ci-dessous :
 
 * Les formats pris en charge sont TXT et CSV.
 * La première ligne du fichier est votre en-tête de colonne.

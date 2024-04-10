@@ -28,7 +28,7 @@ Le **rapport de diffusion par e-mail** offre des informations et des données co
 >title="Population cible initiale"
 >abstract="Le graphe **Population cible initiale** affiche les données relatives à vos destinataires et messages, en fonction des résultats de la préparation de la diffusion."
 
-Le graphe **[!UICONTROL Population cible initiale]** affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de destinataires exclus.
+Le graphe **[!UICONTROL Population cible initiale]** affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de personnes destinataires exclues.
 
 ![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
@@ -38,7 +38,7 @@ Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
-* **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
+* **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
 * **[!UICONTROL À délivrer]** : nombre total de messages à délivrer après la préparation de la diffusion.
 

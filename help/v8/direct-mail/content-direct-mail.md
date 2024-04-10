@@ -2,13 +2,13 @@
 audience: end-user
 title: Concevoir une diffusion par courrier
 description: Découvrir comment concevoir une diffusion par courrier avec Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
 ---
-
 
 # Concevoir le fichier d’extraction {#design-direct-mail}
 

@@ -13,7 +13,7 @@ ht-degree: 98%
 
 ---
 
-# Génération d’images par e-mail à l’aide de l’assistant de contenu {#generative-image}
+# Génération d&#39;images d&#39;email avec l&#39;assistant de contenu {#generative-image}
 
 Après avoir conçu et personnalisé vos e-mails, vous pouvez améliorer votre contenu à l’aide de l’assistant de contenu optimisé par l’IA générative. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu.
 

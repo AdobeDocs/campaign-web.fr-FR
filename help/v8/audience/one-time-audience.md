@@ -12,22 +12,22 @@ ht-degree: 66%
 
 # Créer une audience ponctuelle {#one-time}
 
-Cette section décrit comment créer une audience lors de la création d’une nouvelle diffusion. Dans ce cas, les profils à inclure dans l’audience de diffusion sont ciblés en interrogant la base de données avec le créateur de requêtes. L’audience obtenue n’est utilisée qu’une seule fois pour cette diffusion. Elle n’est pas enregistrée dans la liste des audiences.
+Cette section décrit comment créer une audience lors de la création d’une nouvelle diffusion. Dans ce cas, les profils à inclure dans l’audience de diffusion sont ciblés en interrogeant la base de données avec le requêteur. L’audience obtenue n’est utilisée qu’une seule fois pour cette diffusion. Elle n’est pas enregistrée dans la liste des audiences.
 
 Lors de la définition de la cible principale d’une diffusion, vous pouvez également :
 * [Sélectionnez une audience existante](add-audience.md) dans la liste **[!UICONTROL Audiences]**.
 * [Chargez une audience depuis un fichier externe](file-audience.md) (pour les e-mails uniquement).
 
-Pour créer une audience unique pour une diffusion, procédez comme suit :
+Pour créer une nouvelle audience unique pour une diffusion, procédez comme suit :
 
 1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
 
    ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
 
-1. Sélectionner **Créez votre propre** pour ouvrir le modèle de requête, qui permet de définir la population ciblée en filtrant les données contenues dans la base de données. [Découvrir comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
+1. Sélectionner **Créer la vôtre** pour ouvrir le requêteur qui permet de définir la population ciblée en filtrant les données contenues dans la base de données. [Découvrir comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
 
    ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
 
-1. Une fois votre requête prête, cliquez sur **Confirmer** pour utiliser l&#39;audience obtenue comme cible principale de votre diffusion.
+1. Une fois votre requête prête, cliquez sur **Confirmer** pour utiliser l’audience obtenue comme cible principale de votre diffusion.
 
    Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne reçoit pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](control-group.md)

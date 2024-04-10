@@ -4,7 +4,7 @@ title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 

@@ -78,9 +78,9 @@ ht-degree: 95%
       + [Prévisualiser et envoyer une diffusion par courrier](direct-mail/send-direct-mail.md)
    + Assistant IA {#ai-assistant}
       + [Prise en main de l’assistant IA](email/generative-gs.md)
-      + [Génération d’emails à l’aide de l’assistant AI](email/generative-content.md)
-      + [Génération de SMS avec l’assistant d’IA](email/generative-sms.md)
-      + [Génération des notifications push à l’aide de l’assistant AI](email/generative-push.md)
+      + [Génération d’e-mails avec l’assistant AI](email/generative-content.md)
+      + [Génération de SMS avec l’assistant AI](email/generative-sms.md)
+      + [Génération de notifications push avec l’assistant AI](email/generative-push.md)
    + Rendre votre contenu dynamique {#dynamic-content}
       + [Prise en main du contenu dynamique](personalization/gs-personalization.md)
       + [Ajouter de la personnalisation](personalization/personalize.md)
@@ -112,7 +112,7 @@ ht-degree: 95%
       + [Commencer avec les audiences](audience/manage-audience.md)
       + [Créer des audiences](audience/create-audience.md)
    + Sélectionner les personnes destinataires de vos diffusions {#target-audiences}
-      + [Prise en main de la sélection de l’audience](audience/delivery-recipients.md)
+      + [Prise en main de la sélection d’audiences](audience/delivery-recipients.md)
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
@@ -142,7 +142,7 @@ ht-degree: 95%
       + [Changement de dimension](workflows/activities/change-dimension.md)
       + [Combiner](workflows/activities/combine.md)
       + [Déduplication](workflows/activities/deduplication.md)
-      + [Email, SMS, Push, Courrier](workflows/activities/channels.md)
+      + [E-mail, SMS, notification push, courrier](workflows/activities/channels.md)
       + [Enrichissement](workflows/activities/enrichment.md)
       + [Branchement](workflows/activities/fork.md)
       + [Charger un fichier](workflows/activities/load-file.md)

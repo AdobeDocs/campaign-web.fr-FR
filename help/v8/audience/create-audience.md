@@ -21,7 +21,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Audiences"
->abstract="Depuis cet écran, vous pouvez accéder à la liste de toutes les audiences qui peuvent être ciblées dans des workflows ou des diffusions autonomes. Cliquez sur **Créer** pour créer une audience dans une zone de travail visuelle.<br/><br/>Au-delà du fait de commencer à zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Vous pouvez par exemple combiner plusieurs audiences en une seule, enrichir votre audience avec des attributs externes ou la diviser en plusieurs audiences en fonction des règles de votre choix."
+>abstract="Depuis cet écran, vous pouvez accéder à la liste de toutes les audiences qui peuvent être ciblées dans les workflows ou les diffusions autonomes. Clic **Créer** pour créer une audience dans une zone de travail visuelle.<br/><br/>En plus de commencer à partir de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Vous pouvez par exemple combiner plusieurs audiences en une seule, enrichir votre audience avec des attributs externes ou la diviser en plusieurs audiences en fonction des règles de votre choix."
 
 <!--
 [!CONTEXTUALHELP]
@@ -33,7 +33,7 @@ Campaign Web vous permet de créer de nouvelles audiences dans une zone de trav
 
 Une fois que vous avez conçu votre workflow, les audiences résultantes sont automatiquement stockées dans la base de données Campaign avec les audiences existantes. Ces audiences peuvent ensuite être ciblées dans des workflows ou des diffusions autonomes.
 
-La variable **[!UICONTROL Origin]** indique l’origine des audiences : **[!UICONTROL Adobe Campaign]** Les audiences ont été créées dans la console Adobe Campaign v8 ou l’interface utilisateur web, tandis que **[!UICONTROL ADOBE EXPERIENCE PLATFORM :]** les audiences ont été créées dans Adobe Experience Platform et intégrées à Campaign à l’aide de l’intégration Sources d’Adobe et Destinations .
+Le **[!UICONTROL Origine]** Les colonnes indiquent les origines des audiences : **[!UICONTROL Adobe Campaign]** les audiences ont été créées dans la console Adobe Campaign v8 ou l’interface utilisateur web, tandis que **[!UICONTROL ADOBE EXPERIENCE PLATFORM :]** Les audiences ont été créées dans Adobe Experience Platform et intégrées à Campaign à l’aide de l’intégration des sources et des destinations d’Adobe.
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 

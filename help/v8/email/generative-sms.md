@@ -1,33 +1,34 @@
 ---
 audience: end-user
 title: SMS avec l’assistant AI dans Campaign
-description: Prise en main de l’assistant d’IA dans Campaign
+description: Prise en main de l’assistant AI dans Campaign
 badge: label="Version bêta"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: db0459e5-8759-42d9-8945-8c9667450527
+source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
-# Génération de SMS avec l’assistant d’IA {#generative-sms}
+# Génération de SMS avec l’assistant AI {#generative-sms}
 
 >[!BEGINSHADEBOX]
 
 **Table des matières**
 
-* [Prise en main de l’assistant d’IA](generative-gs.md)
-* [Génération d’emails à l’aide de l’assistant AI](generative-content.md)
-* **[Génération de SMS avec l’assistant d’IA](generative-sms.md)**
-* [Génération des notifications push à l’aide de l’assistant AI](generative-push.md)
+* [Prise en main de l’assistant IA](generative-gs.md)
+* [Génération d’e-mails avec l’assistant AI](generative-content.md)
+* **[Génération de SMS avec l’assistant AI](generative-sms.md)**
+* [Génération de notifications push avec l’assistant AI](generative-push.md)
 
 >[!ENDSHADEBOX]
 
-Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, redirigez votre communication vers le niveau supérieur grâce à l’assistant d’IA dans Campaign, optimisé par une technologie IA innovante.
+Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, faites passer votre communication au niveau supérieur à l’aide de l’assistant AI dans Campaign, optimisé par une technologie d’IA innovante.
 
-Cet outil pratique fournit des suggestions intelligentes pour affiner votre contenu, en veillant à ce que vos messages résonnent efficacement et maximiser l’engagement.
+Cet outil pratique fournit des suggestions intelligentes pour affiner votre contenu, en veillant à ce que vos messages résonnent efficacement et optimisent l’engagement.
 
 >[!NOTE]
 >
@@ -35,29 +36,29 @@ Cet outil pratique fournit des suggestions intelligentes pour affiner votre cont
 
 1. Après avoir créé et configuré votre diffusion SMS, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   Pour plus d&#39;informations sur le paramétrage de votre diffusion SMS, voir [cette page](../sms/create-sms.md).
+   Pour plus d&#39;informations sur la configuration de votre diffusion SMS, voir [cette page](../sms/create-sms.md).
 
-1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
 1. Personnalisez votre SMS selon vos besoins. [En savoir plus](../sms/content-sms.md)
 
-1. Accédez au **[!UICONTROL Afficher l’assistant d’IA]** .
+1. Accéder au **[!UICONTROL Afficher l’assistant AI]** menu.
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans la variable **[!UICONTROL Invite]** champ .
+1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le **[!UICONTROL Invite]** champ .
 
-   Si vous avez besoin d’aide pour concevoir votre invite, accédez au **[!UICONTROL Invite Library]** qui offre un large éventail d’idées rapides pour améliorer vos diffusions.
+   Si vous avez besoin d’aide pour concevoir votre invite, accédez au **[!UICONTROL Bibliothèque d’invites]** qui propose une gamme variée d&#39;idées rapides pour améliorer vos diffusions.
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Activez la variable **[!UICONTROL Amélioration du contexte actuel]** l’option de l’assistant d’IA pour personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
+1. Activer le **[!UICONTROL Améliorer avec le contexte actuel]** option permettant à l’assistant AI de personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
 
    >[!IMPORTANT]
    >
-   > Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la fonction **[!UICONTROL Amélioration du contenu actuel]** .
+   > Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la variable **[!UICONTROL Améliorer le contenu actuel]** option.
 
-1. Sélectionner **[!UICONTROL Chargement d’une ressource de marque]** pour ajouter toute ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA.
+1. Sélectionner **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque dont le contenu peut fournir un contexte supplémentaire à l’assistant d’IA, procédez comme suit :
 
 1. Sélectionnez la **[!UICONTROL Stratégie de communication]** qui répond le mieux à vos besoins. Cette dernière a une incidence sur la tonalité et le style du texte généré.
 
@@ -83,4 +84,4 @@ Cet outil pratique fournit des suggestions intelligentes pour affiner votre cont
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Une fois que vous avez défini votre contenu, votre audience et votre planning, vous êtes prêt à préparer votre diffusion SMS. [En savoir plus](../monitor/prepare-send.md)
+1. Lorsque vous avez défini le contenu, l’audience et le planning, vous êtes prêt(e) à préparer votre diffusion SMS. [En savoir plus](../monitor/prepare-send.md)

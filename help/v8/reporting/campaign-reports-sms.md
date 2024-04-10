@@ -53,7 +53,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 +++En savoir plus sur les mesures des rapports de campagne SMS.
 
-* **[!UICONTROL Audience initiale]** : nombre total de destinataires ciblé(e)s.
+* **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 

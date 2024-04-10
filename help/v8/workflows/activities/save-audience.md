@@ -20,7 +20,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="Générer une transition sortante"
->abstract="Utilisez cette option si vous souhaitez ajouter une transition après le **Sauvegarde d’audience** activité."
+>abstract="Utilisez cette option si vous souhaitez ajouter une transition après **Enregistrer l’audience** activité."
 
 L’activité **Enregistrer l’audience** est une activité de **ciblage**. Cette activité permet de mettre à jour une audience existante ou de créer une audience à partir de la population calculée en amont dans un workflow. Les audiences créées sont ajoutées à la liste des audiences de l’application, disponible via le menu **Audiences**.
 

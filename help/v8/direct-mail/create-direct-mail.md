@@ -2,13 +2,13 @@
 audience: end-user
 title: Créer une diffusion par courrier
 description: Découvrez comment créer une diffusion par courrier avec Adobe Campaign Web.
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
 ---
-
 
 # Créer une diffusion par courrier {#create-direct-mail}
 
@@ -64,4 +64,3 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
    ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
 
 1. Une fois votre diffusion par courrier prête, cliquez sur le bouton **[!UICONTROL Vérifier et envoyer]** pour valider et envoyer votre diffusion et générer le fichier d’extraction. [Découvrir comment prévisualiser et envoyer une diffusion par courrier](send-direct-mail.md)
-
