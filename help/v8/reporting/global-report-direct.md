@@ -2,9 +2,10 @@
 audience: end-user
 title: Rapports globaux pour le canal Courrier
 description: En savoir plus sur les rapports globaux pour le canal courrier
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
-source-wordcount: '627'
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
+workflow-type: tm+mt
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -22,7 +23,7 @@ Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporti
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="Vue d’ensemble de la diffusion"
->abstract="La **Vue d’ensemble de la diffusion** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions par courrier. Les mesures sont décrites ci-dessous."
+>abstract="La **Vue d’ensemble de la diffusion** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions courrier. Les mesures sont décrites ci-dessous."
 
 La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions par courrier. Les mesures sont décrites ci-dessous.
 
@@ -100,7 +101,7 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** fournit une répartition du
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Causes d’exclusion des diffusions"
+>title="Causes d’exclusion"
 >abstract="Le graphe **Causes d’exclusion** illustre la distribution des messages rejetés, classés par règle, lors de la préparation de la diffusion."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
@@ -124,4 +125,3 @@ Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des 
 * **[!UICONTROL Cible limitée en taille]** : la taille de diffusion maximale a été atteinte pour la personne destinataire.
 
 +++
-
