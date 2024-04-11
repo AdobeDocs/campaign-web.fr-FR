@@ -4,7 +4,7 @@ title: Créer des audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 100%
 
