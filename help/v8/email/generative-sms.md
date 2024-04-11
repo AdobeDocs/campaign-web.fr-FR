@@ -6,10 +6,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 70%
 
 ---
 
@@ -46,35 +46,42 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
+1. Activez la variable **[!UICONTROL Utiliser le contenu d’origine]** l’option de l’assistant d’IA pour personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
+
+   >[!IMPORTANT]
+   >
+   > Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la fonction **[!UICONTROL Améliorer le contenu actuel]**.
+
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui dispose d’un large éventail d’idées d’invites pour améliorer vos diffusions.
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Activez l’option **[!UICONTROL Améliorer avec le contexte actuel]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
-
-   >[!IMPORTANT]
-   >
-   > Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la fonction **[!UICONTROL Améliorer le contenu actuel]**.
-
 1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
-1. Sélectionnez la **[!UICONTROL Stratégie de communication]** qui répond le mieux à vos besoins. Cette dernière a une incidence sur la tonalité et le style du texte généré.
+1. Adaptez les différentes options de votre invite :
 
-1. Choisissez la **[!UICONTROL Langue]** et le **[!UICONTROL Ton]** à donner au texte. Vous vous assurez ainsi que le texte est adapté à votre audience et à votre objectif.
+   * **[!UICONTROL Stratégie de communication]**: sélectionnez l’approche de communication souhaitée pour le texte généré.
+   * **[!UICONTROL Langue]**: choisissez la langue du contenu de la variante.
+   * **[!UICONTROL Tone]**: assurez-vous que le texte est adapté à votre audience et à votre objectif.
+   * **[!UICONTROL Length]**: sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. Utilisez le curseur pour définir la longueur du texte généré.
-
 1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL Variations]** générées et cliquez sur **[!UICONTROL Appliquer]** une fois que vous avez trouvé le contenu approprié.
+1. Parcourir les **[!UICONTROL Variations]** et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 
-   Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
+1. Accédez au **[!UICONTROL Affiner]** dans la fonction **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation et affiner votre variation en fonction de vos préférences :
+
+   * **Simplification de la langue**: l’assistant d’IA vous aide à rédiger des messages clairs et concis que tout le monde peut comprendre.
+
+   * **Réphrase**: l’assistant d’intelligence artificielle réexprime votre message pour que les choses continuent à s’intéresser à différents publics.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+
+1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de vos SMS en fonction des données de profil. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md)
 
@@ -84,4 +91,4 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion SMS. [En savoir plus](../monitor/prepare-send.md)
+Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion SMS. [En savoir plus](../monitor/prepare-send.md)

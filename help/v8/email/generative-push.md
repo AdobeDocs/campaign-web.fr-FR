@@ -6,10 +6,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 74%
 
 ---
 
@@ -26,13 +26,22 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
-Une fois que vous avez créé et personnalisé vos e-mails, utilisez l’assistant IA dans Campaign propulsé par l’IA générative pour améliorer votre contenu.
 
 L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
+
+L’assistant d’IA permet d’élever le contenu à de nouveaux hauteurs. Par exemple, il peut être utilisé pour :
+
+* **Résumé**: permet de condenser un contenu volumineux en résumés succincts pour les notifications push. Soyez direct et assurez-vous que les destinataires comprennent immédiatement le message clé.
+* **Elaborate**: développez les rubriques de vos notifications push, en fournissant des détails supplémentaires et du contexte pour une meilleure compréhension.
+* **Simplification de la langue**: rendez vos notifications push accessibles à une audience plus large en utilisant une langue claire et concise.
+* **Réphrase**: évitez la répétition en demandant à l’assistant d’IA de reformuler votre message de différentes manières.
+* **Modifier le ton**: modifiez le ton émotionnel de vos notifications push. Que vous souhaitiez être informatif, ludique ou urgent, l’assistant d’IA peut adapter le message en conséquence.
 
 >[!NOTE]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#guardrails-and-limitations).
+
+Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour concevoir des messages attrayants afin de créer une expérience client plus attrayante.
 
 1. Après avoir créé et configuré votre diffusion de notifications push, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -87,3 +96,4 @@ L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en s
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion de notifications push. [En savoir plus](../monitor/prepare-send.md)
+
