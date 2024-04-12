@@ -6,10 +6,10 @@ badge: label="Version bêta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 23c43fad6076fc1dd1eaec2aee1664773ac7ce09
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 53%
+source-wordcount: '1378'
+ht-degree: 47%
 
 ---
 
@@ -26,29 +26,21 @@ ht-degree: 53%
 
 >[!ENDSHADEBOX]
 
-Une fois que vous avez créé et personnalisé vos e-mails, utilisez l’assistant IA optimisé par une IA générative de Journey Optimizer dans Campaign pour donner encore plus de poids à votre contenu.
-
-L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
-
 >[!NOTE]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#guardrails-and-limitations).
 
-## Génération de contenu avec l’assistant IA {#generative-text}
+Une fois que vous avez créé et personnalisé vos e-mails, utilisez l’assistant IA dans Campaign propulsé par l’IA générative pour améliorer votre contenu.
 
-Voici comment votre assistant d’IA peut vous aider à rédiger des emails attrayants :
+L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des emails entiers, du contenu texte ciblé et même des images spécifiquement adaptées à votre audience. Cela optimise vos campagnes par e-mail pour un meilleur engagement.
 
-* **Résumé**: de longues informations peuvent surcharger les destinataires des emails. Utilisez l’assistant d’IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et les encourager à lire davantage.
+Avec vos campagnes par e-mail, vous pouvez utiliser l’assistant d’IA pour générer des e-mails, du texte ou des images complets. Consultez les onglets ci-dessous pour savoir comment utiliser l’assistant d’IA dans Campaign.
 
-* **Elaborate**: l’assistant d’IA peut vous aider à développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
+>[!BEGINTABS]
 
-* **Simplification de la langue**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
+>[!TAB Génération complète de courriers électroniques]
 
-* **Réphrase**: l’assistant d’IA peut reformuler votre message de différentes manières, en actualisant votre écriture et en l’adaptant à différents publics.
-
-* **Modifier le ton**: le ton de votre email doit résonner auprès de votre audience. Que vous souhaitiez être informatif, ludique ou convaincant, l’assistant d’IA peut adapter le message en conséquence.
-
-Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer le contenu de notre invitation par courrier électronique pour notre événement à venir.
+Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour affiner un email existant, en le personnalisant pour un événement spécial.
 
 1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -56,25 +48,74 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer 
 
 1. Personnalisez votre email selon vos besoins et accédez au **[!UICONTROL Assistant IA]** .
 
-   Vous pouvez également sélectionner un **[!UICONTROL composant de texte]** pour cibler uniquement un contenu spécifique.
+   ![](assets/full-email-1.png){zoomable=&quot;yes&quot;}
+
+1. Activez la variable **[!UICONTROL Utiliser le contenu d’origine]** l’option de l’assistant d’IA pour personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
+
+   Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la fonction **[!UICONTROL Améliorer le contenu actuel]**.
+
+1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+
+   Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui dispose d’un large éventail d’idées d’invites pour améliorer vos diffusions.
+
+   ![](assets/full-email-2.png){zoomable=&quot;yes&quot;}
+
+1. Vous pouvez activer ou désactiver la fonction **[!UICONTROL Objet]** ou **[!UICONTROL Preheader]** pour les inclure à la génération des variantes.
+
+1. Cliquez sur **[!UICONTROL Chargement d’une ressource de marque]** pour ajouter toute ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA ou en sélectionner une précédemment chargée.
+
+   ![](assets/full-email-3.png){zoomable=&quot;yes&quot;}
+
+1. Adaptez les différentes options de votre invite :
+
+   * **[!UICONTROL Stratégie de communication]**: choisissez le style de communication le plus adapté au texte généré.
+   * **[!UICONTROL Langue]**: sélectionnez la langue dans laquelle vous souhaitez générer votre contenu.
+   * **[!UICONTROL Tone]**: le ton de votre email doit résonner auprès de votre audience. Que vous souhaitiez être informatif, ludique ou convaincant, l’assistant d’IA peut adapter le message en conséquence.
+   * **[!UICONTROL Longueur]**: sélectionnez la longueur souhaitée de votre contenu à l’aide du curseur de plage.
+
+   ![](assets/full-email-4.png){zoomable=&quot;yes&quot;}
+
+1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
+
+1. Parcourir les **[!UICONTROL Variations]** et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
+
+1. Accédez au **[!UICONTROL Affiner]** dans la fonction **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
+
+   * **Réphrase**: l’assistant d’IA peut reformuler votre message de différentes manières, en actualisant votre écriture et en l’adaptant à différents publics.
+
+   * **Utilisation d’une langue simple**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
+
+   ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
+
+1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
+
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simulation du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../preview-test/preview-content.md)
+
+   ![](assets/full-email-6.png){zoomable=&quot;yes&quot;}
+
+Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)
+
+>[!TAB Génération de texte]
+
+Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer le contenu de notre invitation par courrier électronique pour notre événement à venir.
+
+1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
+
+   Pour plus d’informations sur la configuration de votre diffusion e-mail, consultez [cette page](../email/create-email-content.md).
+
+1. Sélectionnez une **[!UICONTROL Composant textuel]** pour cibler uniquement un contenu spécifique. et accédez au **[!UICONTROL Assistant IA]** .
 
    ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Activez la variable **[!UICONTROL Utiliser le contenu d’origine]** l’option de l’assistant d’IA pour personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
 
-   >[!IMPORTANT]
-   >
-   > Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la fonction **[!UICONTROL Améliorer le contenu actuel]**.
+   Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la fonction **[!UICONTROL Améliorer le contenu actuel]**.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui dispose d’un large éventail d’idées d’invites pour améliorer vos diffusions.
 
    ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
-
-1. Vous pouvez activer ou désactiver la fonction **[!UICONTROL Objet]** ou **[!UICONTROL Preheader]** pour les inclure à la génération des variantes.
-
-   Notez que cette option est disponible si vous n’avez pas sélectionné de composant Texte spécifique.
 
 1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
@@ -85,7 +126,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer 
    * **[!UICONTROL Stratégie de communication]**: sélectionnez l’approche de communication souhaitée pour le texte généré.
    * **[!UICONTROL Langue]**: choisissez la langue du contenu de la variante.
    * **[!UICONTROL Tone]**: assurez-vous que le texte est adapté à votre audience et à votre objectif.
-   * **[!UICONTROL Length]**: sélectionnez la longueur de votre contenu à l’aide du curseur de plage. Disponible uniquement si vous avez sélectionné un composant Texte spécifique.
+   * **[!UICONTROL Longueur]**: sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
    ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
@@ -93,11 +134,21 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer 
 
 1. Parcourir les **[!UICONTROL Variations]** et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 
-1. Accédez au **[!UICONTROL Affiner]** dans la fonction **[!UICONTROL Aperçu]** pour accéder à d’autres fonctions de personnalisation et affiner votre variation en fonction de vos préférences.
+1. Accédez au **[!UICONTROL Affiner]** dans la fonction **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
-   Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
+   * **Utiliser comme contenu de référence**: la variante choisie servira de contenu de référence pour générer d’autres résultats.
+
+   * **Elaborate**: l’assistant d’IA peut vous aider à développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
+
+   * **Résumé**: de longues informations peuvent surcharger les destinataires des emails. Utilisez l’assistant d’IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et les encourager à lire davantage.
+
+   * **Réphrase**: l’assistant d’IA peut reformuler votre message de différentes manières, en actualisant votre écriture et en l’adaptant à différents publics.
+
+   * **Utilisation d’une langue simple**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
+
+1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simulation du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../preview-test/preview-content.md)
 
@@ -105,17 +156,9 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer 
 
 Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)
 
-## Génération d’images avec l’assistant IA {#generative-image}
+>[!TAB Génération d’images]
 
-Utilisez l’assistant d’IA pour générer des visuels variés et personnalisés pour vos campagnes par e-mail. Par exemple, il peut être utilisé pour :
-
-* **Générer**: générez un large éventail d’images attrayantes spécialement conçues pour vos campagnes par e-mail. Un contrôle granulaire sur les paramètres tels que la palette de couleurs, l’éclair et la composition vous permet de résonner avec des segments d’audience distincts et d’atteindre vos objectifs de campagne uniques.
-
-* **Générer un contenu similaire**: utilisez l’assistant d’IA pour générer des images similaires à partir d’une variante sélectionnée.
-
-* **Ressource de marque**: optimisez la sélection d’images pour les campagnes par e-mail en exploitant à la fois les ressources de marque internes et les sources externes telles que Adobe Firefly.
-
-Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA pour optimiser et améliorer votre contenu, afin d’offrir une expérience plus conviviale. Procédez comme suit :
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant d’IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
 1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -137,9 +180,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA 
 
 1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
-   >[!IMPORTANT]
-   >
-   > Votre invite doit toujours être liée à un contexte spécifique.
+   Votre invite doit toujours être liée à un contexte spécifique.
 
 1. Adaptez les différentes options de votre invite :
 
@@ -170,3 +211,11 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA 
    ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)
+
+>[!ENDTABS]
+
+## Vidéo pratique {#video}
+
+Découvrez comment utiliser l’assistant d’IA pour générer des emails, du texte ou des images complets.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428341)
