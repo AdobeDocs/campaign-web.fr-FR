@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier.
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +83,7 @@ Combinée avec l’activité [Réconciliation](reconciliation.md), elle permet d
 
 Pour configurer l’activité **Chargement de fichier**, procédez comme suit :
 
-1. Placez une activité **Chargement de fichier** dans votre workflow. Cliquez sur le bouton **Sélectionner à partir du fichier**.
+1. Ajouter un **Chargement de fichier** dans votre workflow. Cliquez sur le bouton **Sélectionner à partir du fichier**.
 
 1. Sélectionnez le fichier local à utiliser. Le format doit correspondre à celui de l’[exemple de fichier](../../audience/file-audience.md#sample-file).
 
