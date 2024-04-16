@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -486,8 +486,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
->title="Historique incrémentiel des requêtes"
->abstract="Historique incrémentiel des requêtes"
+>title="Historique des requêtes incrémentales"
+>abstract="Historique des requêtes incrémentales"
 
 
 <!-- Transfer file activity -->
@@ -504,18 +504,18 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_activity"
->title="Activité Transfert de fichier"
->abstract="Activité Transfert de fichier"
+>title="Activité de transfert de fichier"
+>abstract="Activité de transfert de fichier"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
->title="Transfert de fichier serveur distant"
->abstract="Transfert de fichier serveur distant"
+>title="Serveur distant de transfert de fichier"
+>abstract="Serveur distant de transfert de fichier"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
->title="Transfert de la source du fichier"
->abstract="Transfert de la source du fichier"
+>title="Source de transfert de fichier"
+>abstract="Source de transfert de fichier"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -524,13 +524,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Afficher les logs de la session"
->abstract="Afficher les logs de la session"
+>title="Afficher les journaux de la session"
+>abstract="Afficher les journaux de la session"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Lister tous les fichiers"
->abstract="Lister tous les fichiers"
+>title="Répertorier tous les fichiers"
+>abstract="Répertorier tous les fichiers"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -539,8 +539,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
->title="Traitement des fichiers manquants"
->abstract="Traitement des fichiers manquants"
+>title="Traiter les fichiers absents"
+>abstract="Traiter les fichiers absents"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
