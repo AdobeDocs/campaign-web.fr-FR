@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
+source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 100%
+source-wordcount: '2279'
+ht-degree: 98%
 
 ---
 
@@ -547,7 +547,59 @@ Deprecated IDs - to remove in GA: -->
 >title="Traiter les erreurs"
 >abstract="Traiter les erreurs"
 
+<!-- Delivery alerting -->
+
 >[!CONTEXTUALHELP]
->id="acw_deliveries_alerting"
+>id="acw_delivery_alerting_criteria"
+>title="Tableau de bord des critères des alertes de diffusion"
+>abstract="Tableau de bord des critères des alertes de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="Tableau de bord des alertes de diffusion"
+>abstract="Tableau de bord des alertes de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="Créer des critères d&#39;alerte de diffusion"
+>abstract="Créer des critères d&#39;alerte de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="Indicateurs à ajouter aux alertes"
+>abstract="Indicateurs à ajouter aux alertes"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_alert"
+>title="Type d&#39;alerte"
+>abstract="Type d&#39;alerte"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_frequency"
+>title="Fréquence du critère"
+>abstract="Fréquence du critère"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="Critères des alertes de diffusion       "
+>abstract="Critères des alertes de diffusion       "
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="Paramètres généraux des alertes de diffusion"
+>abstract="Alertes de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="Paramètres des critères des alertes de diffusion"
+>abstract="Alertes de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
 >title="Alertes de diffusion"
 >abstract="Alertes de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Historique des alertes de diffusion"
+>abstract="Historique des alertes de diffusion"
