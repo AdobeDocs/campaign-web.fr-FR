@@ -3,8 +3,8 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
-workflow-type: ht
+source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Pour créer votre propre requête, procédez comme suit :
 1. Sélectionnez **Créer la vôtre (requête)**.
 1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires. [En savoir plus sur les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions)
 1. Cliquez sur **Continuer**.
-1. Utilisez le concepteur de requêtes pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. [Découvrez comment utiliser le concepteur de requêtes](../../audience/../query/query-modeler-overview.md).
+1. Utilisez le concepteur de requêtes pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
 
 >[!TAB Lecture d’audience]
 
