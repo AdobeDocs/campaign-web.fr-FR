@@ -6,10 +6,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 70%
+source-wordcount: '461'
+ht-degree: 67%
 
 ---
 
@@ -50,7 +50,7 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
    >[!IMPORTANT]
    >
-   > Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la fonction **[!UICONTROL Améliorer le contenu actuel]**.
+   > Votre invite doit toujours être liée à votre contenu actuel.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 

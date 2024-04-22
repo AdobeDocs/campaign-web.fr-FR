@@ -6,10 +6,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 60%
+source-wordcount: '473'
+ht-degree: 57%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 60%
 * **[Génération de notifications push avec l’assistant IA](generative-push.md)**
 
 >[!ENDSHADEBOX]
-
 
 L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
 
@@ -51,7 +50,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour concevoir d
 
    >[!IMPORTANT]
    >
-   > Votre invite doit toujours être liée à un contexte spécifique en chargeant une ressource de marque ou en activant la fonction **[!UICONTROL Améliorer le contenu actuel]**.
+   > Votre invite doit toujours être liée à votre contenu actuel.
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
