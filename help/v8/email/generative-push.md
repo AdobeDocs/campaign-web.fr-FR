@@ -6,10 +6,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 57%
+source-wordcount: '490'
+ht-degree: 55%
 
 ---
 
@@ -78,9 +78,11 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour concevoir d
 
 1. Accédez au **[!UICONTROL Affiner]** dans la fonction **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
+   * **[!UICONTROL Utiliser comme contenu de référence]**: la variante choisie servira de contenu de référence pour générer d’autres résultats.
+
    * **[!UICONTROL Réphrase]**: l’assistant d’IA peut reformuler votre message de différentes manières, en actualisant votre écriture et en l’adaptant à différents publics.
 
-   * **[!UICONTROL Utilisation d’une langue simple]**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage plus simple]**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 

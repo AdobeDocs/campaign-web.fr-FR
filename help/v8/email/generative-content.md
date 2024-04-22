@@ -6,10 +6,10 @@ badge: label="Version bêta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 45%
+source-wordcount: '1368'
+ht-degree: 44%
 
 ---
 
@@ -81,9 +81,11 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour affiner un 
 
 1. Accédez au **[!UICONTROL Affiner]** dans la fonction **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
+   * **[!UICONTROL Utiliser comme contenu de référence]**: la variante choisie servira de contenu de référence pour générer d’autres résultats.
+
    * **[!UICONTROL Réphrase]**: l’assistant d’IA peut reformuler votre message de différentes manières, en actualisant votre écriture et en l’adaptant à différents publics.
 
-   * **[!UICONTROL Utilisation d’une langue simple]**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage plus simple]**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
@@ -136,15 +138,15 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer 
 
 1. Accédez au **[!UICONTROL Affiner]** dans la fonction **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
-   * **Utiliser comme contenu de référence**: la variante choisie servira de contenu de référence pour générer d’autres résultats.
+   * **[!UICONTROL Utiliser comme contenu de référence]**: la variante choisie servira de contenu de référence pour générer d’autres résultats.
 
-   * **Elaborate**: l’assistant d’IA peut vous aider à développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
+   * **[!UICONTROL Elaborate]**: l’assistant d’IA peut vous aider à développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
 
-   * **Résumé**: de longues informations peuvent surcharger les destinataires des emails. Utilisez l’assistant d’IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et les encourager à lire davantage.
+   * **[!UICONTROL Résumé]**: de longues informations peuvent surcharger les destinataires des emails. Utilisez l’assistant d’IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et les encourager à lire davantage.
 
-   * **Réphrase**: l’assistant d’IA peut reformuler votre message de différentes manières, en actualisant votre écriture et en l’adaptant à différents publics.
+   * **[!UICONTROL Réphrase]**: l’assistant d’IA peut reformuler votre message de différentes manières, en actualisant votre écriture et en l’adaptant à différents publics.
 
-   * **Utilisation d’une langue simple**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage plus simple]**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 

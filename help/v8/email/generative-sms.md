@@ -6,10 +6,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 67%
+source-wordcount: '479'
+ht-degree: 65%
 
 ---
 
@@ -75,9 +75,11 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
 1. Accédez au **[!UICONTROL Affiner]** dans la fonction **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation et affiner votre variation en fonction de vos préférences :
 
-   * **Simplification de la langue**: l’assistant d’IA vous aide à rédiger des messages clairs et concis que tout le monde peut comprendre.
+   * **[!UICONTROL Utiliser comme contenu de référence]**: la variante choisie servira de contenu de référence pour générer d’autres résultats.
 
-   * **Réphrase**: l’assistant d’intelligence artificielle réexprime votre message pour que les choses continuent à s’intéresser à différents publics.
+   * **[!UICONTROL Utiliser un langage plus simple]**: l’assistant d’IA vous aide à rédiger des messages clairs et concis que tout le monde peut comprendre.
+
+   * **[!UICONTROL Réphrase]**: l’assistant d’intelligence artificielle réexprime votre message pour que les choses continuent à s’intéresser à différents publics.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
