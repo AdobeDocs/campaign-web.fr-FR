@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 15418cd8de3ce640340eb3551786682173752910
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 100%
@@ -169,3 +169,18 @@ Pour mesurer l’efficacité de vos services d’abonnement pour les canaux SMS 
    * Le graphe **[!UICONTROL Évolution globale des abonnements]** affiche la répartition par période, y compris les abonnements, les désabonnements, l’évolution en nombre et le pourcentage de fidélité.<!--what is Registered?-->
 
 1. Utilisez le bouton **[!UICONTROL Recharger]** pour récupérer les dernières valeurs de l’exécution et du planning du workflow de tracking.
+
+<!--## Best practices {#best-practices}
+
+It is recommended to send a confirmation message to the new subscribers of a service. To do so, create a delivery template and select it when creating a subscription service. [Learn more](#create-confirmation-message).
+
+Send communications targeting your subscribers only. [Learn how](../msg/send-to-subscribers.md)
+
+Always provide your subscribers the capability to unsubscribe from your services. [Learn how](consent.md#email-opt-out)
+
+* When creating a confirmation message:
+
+    * Do not select an audience for this delivery.
+
+    * Select the **[!UICONTROL Subscriptions]** target mapping. Otherwise, your subscribers will not receive the confirmation message.
+-->
