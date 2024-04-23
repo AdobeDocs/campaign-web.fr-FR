@@ -4,15 +4,15 @@ title: Créer votre première requête à l’aide du créateur de modèles de r
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2015'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Éditer les expressions {#expression}
 
-L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d&#39;utiliser des fonctions avancées qui permettent de manipuler les valeurs utilisées pour effectuer des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tri, etc.
+L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
 >[!IMPORTANT]
 >

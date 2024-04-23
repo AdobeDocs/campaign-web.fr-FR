@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -561,8 +561,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
->title="Créer des critères d&#39;alerte de diffusion"
->abstract="Créer des critères d&#39;alerte de diffusion"
+>title="Créer des critères d’alerte de diffusion"
+>abstract="Créer des critères d’alerte de diffusion"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
@@ -571,8 +571,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
->title="Type d&#39;alerte"
->abstract="Type d&#39;alerte"
+>title="Type d’alerte"
+>abstract="Type d’alerte"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
@@ -581,8 +581,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
->title="Critères des alertes de diffusion       "
->abstract="Critères des alertes de diffusion       "
+>title="Critères des alertes de diffusion"
+>abstract="Critères des alertes de diffusion"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
@@ -596,8 +596,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
->title="Alertes de diffusion"
->abstract="Alertes de diffusion"
+>title="Alertes de diffusion envoyées"
+>abstract="Alertes de diffusion envoyées"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
