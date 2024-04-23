@@ -9,7 +9,7 @@ exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 65%
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Activez la variable **[!UICONTROL Utiliser le contenu d’origine]** l’option de l’assistant d’IA pour personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction de votre diffusion, du nom de la diffusion et de l’audience sélectionnée.
 
    >[!IMPORTANT]
    >
@@ -60,26 +60,26 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
 1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
-1. Adaptez les différentes options de votre invite :
+1. Adaptez votre invite avec les différentes options :
 
-   * **[!UICONTROL Stratégie de communication]**: sélectionnez l’approche de communication souhaitée pour le texte généré.
-   * **[!UICONTROL Langue]**: choisissez la langue du contenu de la variante.
-   * **[!UICONTROL Tone]**: assurez-vous que le texte est adapté à votre audience et à votre objectif.
-   * **[!UICONTROL Longueur]**: sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
+   * **[!UICONTROL Stratégie de communication]** : sélectionnez l’approche de communication souhaitée pour le texte généré.
+   * **[!UICONTROL Langue]** : choisissez la langue du contenu de la variante.
+   * **[!UICONTROL Ton]** : assurez-vous que le texte est adapté à votre audience et à votre objectif.
+   * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourir les **[!UICONTROL Variations]** et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
+1. Parcourez les **[!UICONTROL Variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 
-1. Accédez au **[!UICONTROL Affiner]** dans la fonction **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation et affiner votre variation en fonction de vos préférences :
+1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation et affiner votre variation en fonction de vos préférences :
 
-   * **[!UICONTROL Utiliser comme contenu de référence]**: la variante choisie servira de contenu de référence pour générer d’autres résultats.
+   * **[!UICONTROL Utiliser comme contenu de référence]** : la variante choisie servira de contenu de référence pour générer d’autres résultats.
 
    * **[!UICONTROL Utiliser un langage plus simple]**: l’assistant d’IA vous aide à rédiger des messages clairs et concis que tout le monde peut comprendre.
 
-   * **[!UICONTROL Réphrase]**: l’assistant d’intelligence artificielle réexprime votre message pour que les choses continuent à s’intéresser à différents publics.
+   * **[!UICONTROL Reformuler]** : l’assistant IA reformule votre message afin de continuer à proposer un contenu attrayant pour les différentes audiences.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
