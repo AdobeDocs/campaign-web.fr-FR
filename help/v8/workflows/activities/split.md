@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
-workflow-type: ht
-source-wordcount: '845'
+source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
+workflow-type: tm+mt
+source-wordcount: '855'
 ht-degree: 100%
 
 ---
@@ -56,6 +56,11 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >id="acw_orchestration_split_emptytransition"
 >title="Ignorer la transition vide"
 >abstract="Ignorez la transition vide."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_enable_overlapping"
+>title="Permettre le recouvrement des populations de sortie"
+>abstract="Permettre le recouvrement des populations de sortie"
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 
