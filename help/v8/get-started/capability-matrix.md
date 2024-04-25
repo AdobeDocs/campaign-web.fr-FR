@@ -3,10 +3,10 @@ audience: end-user
 title: Matrice des fonctionnalités de l’interface utilisateur web de Campaign/de la console cliente
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: ht
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -167,7 +167,7 @@ Data Management combine un ensemble d’activités pour résoudre des problèmes
 
 >[!NOTE]
 >
->Bien que certaines de ces activités ne soient disponibles que dans la console cliente, d’autres sont disponibles dans l’interface utilisateur web de Campaign, telles que les activités **Enrichissement**, **Charger un fichier**, **Changer la source des données** ou **Changement de dimension**. [En savoir plus sur les activités de ciblage et de gestion des données dans l’interface utilisateur web de Campaign](../workflows/activities/about-activities.md#targeting)
+>Bien que certaines de ces activités ne soient disponibles que dans la console cliente, d’autres sont disponibles dans l’interface utilisateur web de Campaign, telles que les activités **Enrichissement**, **Charger un fichier**, **Changer la source des données** ou **Changement de dimension**. [En savoir plus sur les activités de ciblage et de gestion des données dans l&#39;interface utilisateur web de Campaign](../workflows/activities/about-activities.md#targeting)
 
 ### Configuration de Federated Data Access {#fda}
 

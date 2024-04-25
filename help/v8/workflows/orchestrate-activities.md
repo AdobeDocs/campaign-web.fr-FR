@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ Une fois que vous avez réussi à [créer un workflow](create-workflow.md), à p
 
 À ce stade de la configuration, le diagramme comporte une icône de démarrage, qui représente le début de votre workflow. Pour ajouter votre première activité, cliquez sur le bouton **+** associé à l’icône de démarrage.
 
-La liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de workflow. Par exemple, lorsque vous ajoutez votre première activité pour démarrer votre workflow, vous pouvez cibler une audience, fractionner le chemin du workflow ou définir une activité **Attente** pour retarder l’exécution du workflow. D’autres choix s’offrent à vous après une activité **Créer une audience** : vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus du workflow avec des activités de contrôle de flux.
+La liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de workflow. Par exemple, lorsque vous ajoutez votre première activité pour démarrer votre workflow, vous pouvez cibler une audience, fractionner le chemin du workflow ou définir une activité **Attente** pour retarder l’exécution du workflow. D’un autre côté, après une **Créer une audience** activité, vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de workflow avec des activités de contrôle de flux.
 
 ![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
@@ -26,7 +26,7 @@ Une fois qu’une activité a été ajoutée au diagramme, un volet s’affiche 
 
 ![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
-Répétez ce processus pour ajouter autant d’activités que vous le souhaitez en fonction des tâches que votre workflow doit exécuter. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton **+** sur la transition entre les activités, puis sélectionnez l’activité souhaitée et configurez-la dans le volet de droite.
+Répétez cette procédure pour ajouter autant d&#39;activités que vous le souhaitez en fonction des tâches que votre workflow doit réaliser. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton **+** sur la transition entre les activités, puis sélectionnez l’activité souhaitée et configurez-la dans le volet de droite.
 
 Pour supprimer une activité, sélectionnez-la dans la zone de travail et cliquez sur l’icône **Supprimer** dans les propriétés de l’activité.
 
@@ -36,7 +36,7 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail et clique
 
 ## Gérer des activités {#manage}
 
-Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le panneau des propriétés, vous permettant d’effectuer plusieurs opérations. Vous pouvez ainsi :
+Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le volet des propriétés, ce qui vous permet d’effectuer plusieurs opérations. Vous pouvez ainsi :
 
 * **Supprimer** l’activité à partir de la zone de travail.
 * **Désactivez/activez** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités qui suivent sur le même chemin ne sont pas exécutées et le workflow est arrêté.

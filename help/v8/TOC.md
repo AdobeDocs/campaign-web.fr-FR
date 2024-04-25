@@ -5,8 +5,8 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
-workflow-type: ht
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ ht-degree: 100%
       + [Configurer les paramètres de workflow](workflows/workflow-settings.md)
       + [Démarrer et surveiller vos workflows](workflows/start-monitor-workflows.md)
    + Utiliser les activités de workflow {#design-workflows}
-      + [À propos des activités de workflow](workflows/activities/about-activities.md)
+      + [À propos des activités de workflows](workflows/activities/about-activities.md)
       + [Rendez-vous](workflows/activities/and-join.md)
       + [Créer une audience](workflows/activities/build-audience.md)
       + [Modifier la source de données](workflows/activities/change-data-source.md)

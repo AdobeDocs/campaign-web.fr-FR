@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
@@ -62,6 +62,6 @@ Les activités ci-après sont spécifiques à l’organisation et à l’exécut
 overview: what they're used for
 which use case you can perform with them
 
-list available activites + short description + ref to section
+list available activities + short description + ref to section
 -->
 
