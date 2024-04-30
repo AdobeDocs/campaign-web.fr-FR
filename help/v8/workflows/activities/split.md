@@ -59,8 +59,8 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
->title="Permettre le recouvrement des populations de sortie"
->abstract="Permettre le recouvrement des populations de sortie"
+>title="Permettre le chevauchement des populations de sortie"
+>abstract="Permettre le chevauchement des populations de sortie"
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 
