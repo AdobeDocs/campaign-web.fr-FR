@@ -2,9 +2,9 @@
 audience: end-user
 title: Transition du Campaign Standard au Web Adobe Campaign
 description: Découvrir l’interface utilisateur web de Campaign
-source-git-commit: 4c1f68f0e89b2b84b8845b2759ef3b0dc9b12033
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '588'
 ht-degree: 12%
 
 ---
@@ -40,7 +40,6 @@ Examinons plus en détail les principales fonctionnalités offertes par Campaign
 * Activités de workflow de campagne nouvelles et repensées. [En savoir plus](../workflows/gs-workflows.md)
 * Public cible avec le créateur de modèles de requête. [En savoir plus](../query/query-modeler-overview.md)
 * Création et gestion aisées des profils. [En savoir plus](../audience/about-recipients.md)
-* Aide contextuelle optimisée par l’IA [En savoir plus](../get-started/using-ai.md)
 * Filtres prédéfinis. [En savoir plus](../get-started/predefined-filters.md)
 * Convertisseur de HTMLs pour la conception d&#39;email. [En savoir plus](../email/existing-content.md)
 * SMS avec des offres. [En savoir plus](../msg/offers.md)

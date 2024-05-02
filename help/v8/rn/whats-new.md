@@ -3,9 +3,9 @@ audience: end-user
 title: Nouveautés de l’interface utilisateur web de Campaign
 description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1193'
 ht-degree: 100%
 
 ---
@@ -100,10 +100,10 @@ Vous pouvez utiliser la nouvelle interface utilisateur web de Campaign pour **cr
 
     Learn more in [this section](../email/generative-gs.md).
 -->
+<!--
+**AI-powered Contextual Help**
 
-**Aide contextuelle optimisée par l’IA**
-
-Posez des questions et trouvez des conseils directement dans l’interface utilisateur du produit. La nouvelle **Aide contextuelle optimisée par l’IA** vous aide à apprendre et à développer vos connaissances sur les nouvelles fonctionnalités de Campaign. Selon la documentation la plus récente du produit, elle vous aide à trouver de l’aide et à obtenir des conseils détaillés instantanément, au fur et à mesure que vous créez vos cas d’utilisation. Cette fonctionnalité est actuellement disponible en version bêta pour un nombre limité de personnes. En savoir plus dans [cette section](../get-started/using-ai.md).
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
 
 **Filtres prédéfinis**
 
