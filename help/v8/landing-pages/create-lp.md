@@ -3,10 +3,10 @@ title: Créer une page de destination
 description: Découvrir comment configurer et publier une page de destination dans Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 37a6aefc0773b3004da8e12d237ba194f81a2784
+source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -118,7 +118,7 @@ Pour créer une page de destination, procédez comme suit :
 
      Pour le **[!UICONTROL Acquisition]** et **[!UICONTROL Abonnement]** , cette option est sélectionnée par défaut. Pour le **[!UICONTROL Désabonnement]** et **[!UICONTROL Liste bloquée]** modèles, cette option est désélectionnée par défaut et ne peut pas être modifiée.<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
-1. Une page de destination peut comporter des pages supplémentaires. Pour ajouter des pages, dans la section **[!UICONTROL Pages]**, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour chaque page que vous souhaitez concevoir pour cette page de destination. Le contenu de chaque page est déjà prérempli. Modifiez-le si nécessaire. [En savoir plus](lp-content.md)
+1. Une page de destination peut comporter des pages supplémentaires. Pour ajouter des pages, accédez à la **[!UICONTROL Pages]** , puis cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour chaque page que vous souhaitez concevoir pour cette landing page. Le contenu de chaque page est déjà prérempli. Modifiez-le si nécessaire. [En savoir plus](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
