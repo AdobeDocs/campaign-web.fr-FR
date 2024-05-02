@@ -5,10 +5,10 @@ description: Découvrir comment concevoir une diffusion Android de notifications
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: 42bab8450d78516f6db0d491759b5a46e13d8a46
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1424'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 >id="acw_deliveries_push_remind_later"
 >title="Bouton Rappeler plus tard"
 >abstract="Le bouton **Rappeler plus tard** permet de planifier un rappel. Le champ Date et heure exige une valeur représentant une époque en secondes."
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est disponible dans **Disponibilité limitée** (LA).
 
 Firebase Cloud Messaging vous permet de choisir entre deux types de messages :
 

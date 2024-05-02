@@ -3,9 +3,9 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
+source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '1789'
 ht-degree: 99%
 
 ---
@@ -285,29 +285,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Page de destination par défaut"
->abstract="Sélectionnez la page de destination par défaut associée à ce service d’inscription."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="Activité du service d’inscription"
->abstract="Utilisez Adobe Campaign pour créer et surveiller vos services, tels que les newsletters, et pour vérifier les inscriptions ou désinscriptions à ces services. Les abonnements ne s’appliquent qu’aux diffusions e-mail et SMS."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="Paramètres du service d’inscription"
->abstract="Sélectionnez et confirmez les paramètres du service d’inscription."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="Transition sortante des services d’inscription"
->abstract="Activez l’option **Générer une transition sortante** pour ajouter une transition après l’activité."
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
@@ -345,85 +322,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Générez une transition sortante pour les rejets."
 >abstract="Activez l’option **Générer une transition sortante pour les rejets** pour ajouter une transition sortante qui contient les enregistrements qui n’ont pas été correctement traités après la mise à jour (par exemple en cas de doublon). La mise à jour marque généralement la fin d’un workflow de ciblage et l’option n’est donc pas activée par défaut."
 
-
-
-<!--External Signal End-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal"
->title="Signal externe"
->abstract="L’activité **Signal externe** permet de déclencher l’exécution d’un ensemble de tâches dans un workflow à partir d’une API ou d’un autre workflow."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal_parameters"
->title="Paramètres de signal externe"
->abstract="Paramètres de signal externe"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end_trigger"
->title="Déclencheurs de fin"
->abstract="Déclencheurs de fin"
-
-
-<!--JavaScript-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript"
->title="Code JavaScript"
->abstract="L’activité **Code JavaScript** exécute un code JavaScript dans le contexte d’un workflow."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_snippet"
->title="Extrait de JavaScript"
->abstract="Configurez le code à exécuter."
->additional-url="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/api" text="En savoir plus dans la documentation de Campaign v8 (console)."
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_execution"
->title="Exécution de JavaScript"
->abstract="Par défaut, la phase d’exécution ne peut pas dépasser 1 heure. Passé ce délai, le processus est abandonné en incluant un message d’erreur et l’exécution de l’activité échoue. Activez l’option **Arrêter l’exécution après** pour définir un délai personnalisé. Pour ignorer cette limite, définissez la valeur sur 0."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="Traiter les erreurs"
->abstract="Activez l’option **Traiter les erreurs** pour ajouter une transition sortante qui contient les erreurs."
-
-
-
-<!--ExtractFile-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile"
->title="Extraire un fichier"
->abstract="Activité Extraction de fichier"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="Fichier à extraire"
->abstract="Sélectionnez le fichier à extraire."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="Format de destination"
->abstract="Sélectionnez le format."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="Post-traitement"
->abstract="Définir une étape de post-traitement"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="Transition sortante"
->abstract="Activez l’option **Générer une transition sortante** pour ajouter une transition sortante après l’activité en cours."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="Traiter les erreurs"
->abstract="Activez l’option **Traiter les erreurs** pour ajouter une transition sortante qui contient les erreurs."
-
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
@@ -445,82 +343,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Script d’initialisation de l’exécution"
 >abstract="Script d’initialisation de l’exécution"
-
-
-<!--incremental querry -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery"
->title="Requête incrémentale"
->abstract="Requête incrémentale"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_history"
->title="Historique des requêtes incrémentales"
->abstract="Historique des requêtes incrémentales"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_processeddata"
->title="Requête incrémentale Données traitées"
->abstract="Requête incrémentale Données traitées"
-
-
-<!-- Transfer file activity -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile"
->title="Transfert de fichier"
->abstract="Transfert de fichier"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_options"
->title="Options de transfert de fichier"
->abstract="Options de transfert de fichier"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_activity"
->title="Activité de transfert de fichier"
->abstract="Activité de transfert de fichier"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_remoteserver"
->title="Serveur distant de transfert de fichier"
->abstract="Serveur distant de transfert de fichier"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_source"
->title="Source de transfert de fichier"
->abstract="Source de transfert de fichier"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Effacer les fichiers source après leur transfert"
->abstract="Effacer les fichiers source après leur transfert"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Afficher les journaux de la session"
->abstract="Afficher les journaux de la session"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Répertorier tous les fichiers"
->abstract="Répertorier tous les fichiers"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="Historisation des fichiers"
->abstract="Historisation des fichiers"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Traiter les fichiers absents"
->abstract="Traiter les fichiers absents"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Traiter les erreurs"
->abstract="Traiter les erreurs"
 
 <!-- Delivery alerting -->
 
@@ -565,6 +387,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Alertes de diffusion"
 
 >[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Page de destination par défaut"
+>abstract="Sélectionnez la page de destination par défaut associée à ce service d’inscription."
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Paramètres des critères des alertes de diffusion"
 >abstract="Alertes de diffusion"

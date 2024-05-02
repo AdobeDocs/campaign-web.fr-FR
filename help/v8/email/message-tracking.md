@@ -3,10 +3,10 @@ audience: end-user
 title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 67%
 
 ---
 
@@ -26,7 +26,29 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 1. Sélectionnez un élément et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
 
+1. Sélectionnez le type de lien que vous souhaitez créer :
+
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Lien externe]**: insérez un lien vers une URL externe.
+
+     >[!AVAILABILITY]
+     >
+     >Les fonctionnalités suivantes (lien vers **[!UICONTROL Landing page]**, **[!UICONTROL Lien d&#39;abonnement]** et **[!UICONTROL Lien de désabonnement]**) sont en disponibilité limitée (LA). Ils sont limités aux clients effectuant la migration. **de Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployés dans un autre environnement.
+
+   * **[!UICONTROL Landing page]**: insérez un lien vers une landing page. Si vous sélectionnez une landing page dynamique (avec la méthode **[!UICONTROL Service à partir de l’URL]** (option sélectionnée), vous pouvez sélectionner n’importe quel service dans la liste. [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Lien d&#39;abonnement]**: insérez un lien vers un service d&#39;abonnement. Lorsque les utilisateurs cliquent sur le lien, ils sont redirigés vers la landing page d&#39;inscription référencée dans le service sélectionné. [En savoir plus](../audience/manage-services.md#create-service)
+
+     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Lien de désabonnement]**: insérez un lien vers un service de désinscription. Lorsque les abonnés cliquent sur le lien, ils sont redirigés vers la landing page de désinscription référencée dans le service sélectionné. [En savoir plus](../audience/manage-services.md#create-service)
+
+   <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
+
+1. Saisissez l&#39;URL de votre choix dans le champ correspondant, ou sélectionnez une landing page ou un service, et définissez les paramètres et les styles du lien.
 
 1. Ajoutez un **[!UICONTROL Libellé]** et un **[!UICONTROL Lien]**.
 
@@ -41,7 +63,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la surface du canal (c’est-à-dire le préréglage du message) et lors de la création du message.
+>Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la surface du canal et lors de la création du message.
 
 Il est recommandé d’insérer un lien vers la page miroir dans tous les e-mails. En savoir plus sur la page miroir dans [cette section](mirror-page.md).
 
