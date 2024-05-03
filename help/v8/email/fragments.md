@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser les fragments
 description: Découvrez comment utiliser des fragments
 hidefromtoc: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '842'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnali
 Pour optimiser l’utilisation des fragments :
 
 * Créez vos propres fragments visuels, comme décrit ci-dessous.
-* Utilisez-les autant de fois que nécessaire dans votre contenu, via le Concepteur d&#39;email. Voir [Ajout de fragments visuels](../email/use-visual-fragments.md)
+* Utilisez-les autant de fois que nécessaire dans votre contenu, via le Concepteur d&#39;email. Voir [Ajout de fragments visuels à vos emails](../email/use-visual-fragments.md).
 
 ## Création d’un fragment visuel {#create-fragments}
 
@@ -102,8 +102,6 @@ Pour créer un fragment à partir de zéro, procédez comme suit.
    ![](assets/fragment-designer.png)
 
 1. Une fois votre fragment prêt, cliquez sur **[!UICONTROL Enregistrer et fermer]**. Il est ajouté à la variable [liste de fragments](#access-manage-fragments).
-
-1. Si nécessaire, cliquez sur la flèche en regard du nom du fragment pour revenir au **[!UICONTROL Détails]** et modifiez-la.
 
 Ce fragment est maintenant prêt à être utilisé lors de la création d’un [email](../email/get-started-email-designer.md) ou [modèle de contenu](use-email-templates.md) dans Campaign. [Voici comment procéder](../email/use-visual-fragments.md).
 
