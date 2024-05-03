@@ -2,14 +2,19 @@
 title: Dernières notes de mise à jour
 description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
+source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 28%
+source-wordcount: '1185'
+ht-degree: 29%
 
 ---
 
 # Notes de mise à jour {#latest-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Notes de mise à jour"
+>abstract="Les versions de l’interface utilisateur web d’Adobe Campaign fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, les notes de mise à jour de Campaign sont mises à jour plusieurs fois par mois, avec les dernières fonctionnalités, améliorations et correctifs. Nous vous recommandons de les vérifier régulièrement."
 
 <!--Last update: **March 19, 2024**-->
 
