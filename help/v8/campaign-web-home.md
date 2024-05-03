@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 98%
+source-wordcount: '474'
+ht-degree: 82%
 
 ---
 
@@ -51,27 +51,23 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB La version de mars est en ligne.]
+>[!TAB La version d&#39;avril est en ligne !]
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version 24.3 de l’interface utilisateur web d’Adobe Campaign.
+Découvrez les nouvelles fonctionnalités et améliorations de la version 24.4 de l’interface utilisateur web d’Adobe Campaign.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Canal courrier]
+>[!TAB Nouvelles activités de workflow]
 
-Le canal **Courrier** est désormais disponible pour une utilisation dans les workflows et en tant que diffusions autonomes. Le canal Courrier est un canal hors ligne qui vous permet de créer, personnaliser et générer des fichiers d’extraction, et de les partager avec vos fournisseurs de services postaux pour envoyer du courrier à votre clientèle.
+Cette version est fournie avec les activités de workflow suivantes : Mise à jour de données, Services d’abonnements, Extraction de fichier, Transfert de fichier, Test, Code JavaScript, Signal externe, Requête incrémentale.
 
-![image](assets/do-not-localize/direct-mail.gif)
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![image](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB Notification push enrichie]
 
->[!TAB Nouvelle activité de workflow Modifier la source de données]
+Vous pouvez désormais envoyer des notifications push enrichies via Android. La notification push enrichie est une forme améliorée de notification mobile qui va au-delà des messages texte simples en incorporant des éléments multimédias tels que des images, des boutons interactifs ou d’autres contenus multimédias enrichis.
 
-L’activité de ciblage **Modifier la source de données** permet de modifier la source de données de la table de travail d’un workflow. Cette activité offre davantage de flexibilité en vous permettant de gérer les données dans vos différentes bases de données et d’améliorer les performances.
-
-![image](assets/do-not-localize/change-data-source.gif)
-
-[![image](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
