@@ -3,21 +3,14 @@ audience: end-user
 title: Prise en main des diffusions par courrier
 description: Découvrez comment créer et envoyer des diffusions par courrier à l’aide d’Adobe Campaign Web.
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: ht
-source-wordcount: '261'
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+workflow-type: tm+mt
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
 
 # Prise en main des diffusions par courrier {#gs-direct-mail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Courrier"
->abstract="Le canal Courrier est désormais disponible pour une utilisation dans les workflows et les diffusions autonomes. Utilisez le canal Courrier pour créer, personnaliser et générer le fichier d’extraction afin de le partager avec vos fournisseurs de services postaux pour envoyer du courrier à votre clientèle."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
-
 
 Le canal Courrier est un canal hors ligne qui vous permet de produire des fichiers pour diffuser en masse des lettres personnalisées à votre clientèle, telles que des cartes postales, des prospectus ou des catalogues.
 
