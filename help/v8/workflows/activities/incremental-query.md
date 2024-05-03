@@ -2,14 +2,21 @@
 audience: end-user
 title: Utilisation de l’activité de workflow de requête incrémentale
 description: Découvrez comment utiliser l’activité de workflow de requête incrémentale
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 30%
+source-wordcount: '786'
+ht-degree: 31%
 
 ---
 
 # Requête incrémentale {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Activité Requête incrémentale"
+>abstract="Utilisez la nouvelle activité Requête incrémentale pour interroger la base de données selon un calendrier précis. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela permet de ne cibler que les éléments nouveaux."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
@@ -34,7 +41,7 @@ L&#39;activité **[!UICONTROL Requête incrémentale]** peut être utilisée dan
 
 La population déjà ciblée par les exécutions précédentes est stockée dans le workflow. Cela signifie que deux workflows démarrés à partir du même modèle ne partagent pas le même journal. Toutefois, deux tâches basées sur la même requête incrémentale dans le même workflow utilisent le même journal.
 
-Si le résultat d’une requête incrémentale est égal à 0 lors de l’une de ses exécutions, le workflow est suspendu jusqu’à la prochaine exécution programmée de la requête. Les transitions et activités qui suivent la requête incrémentale ne sont donc pas traitées avant l&#39;exécution suivante.
+Si le résultat d&#39;une requête incrémentale est égal à 0 lors de l&#39;une de ses exécutions, le workflow est suspendu jusqu&#39;à la prochaine exécution programmée de la requête. Les transitions et activités qui suivent la requête incrémentale ne sont donc pas traitées avant l&#39;exécution suivante.
 
 ## Configuration de l&#39;activité Requête incrémentale {#incremental-query-configuration}
 

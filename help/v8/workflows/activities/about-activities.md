@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0086f41463524cf2bebef6bda31bb079b28259d
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 44%
+source-wordcount: '686'
+ht-degree: 38%
 
 ---
 
@@ -40,6 +40,12 @@ Ces activités sont spécifiques au ciblage. Elles permettent de construire une 
 
 ## Activités de gestion des données {#data}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Activités Extraction de fichier et Chargement de fichier"
+>abstract="De nouvelles activités de Data Management sont disponibles dans les workflows. Utilisez l&#39;activité Extraction de fichier pour exporter des données d&#39;Adobe Campaign vers un autre système sous la forme d&#39;un fichier externe. Utilisez l&#39;activité Chargement de fichier pour utiliser les profils et les données stockés dans un fichier externe."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
+
 Ces activités sont spécifiques à la manipulation et à l&#39;enrichissement des données sur la population.
 
 * [Extraction de fichier](extract-file.md): exportez les données d’Adobe Campaign vers un autre système sous la forme d’un fichier externe.
@@ -54,6 +60,15 @@ Ces activités sont spécifiques à la manipulation et à l&#39;enrichissement d
 Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux. Vous pouvez combiner des activités de canal dans la zone de travail afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement du client ou de la cliente. Les activités **Canal** suivantes sont disponibles : e-mail, SMS, notifications push Android et iOS. [Découvrez comment configurer une diffusion dans le contexte d’un workflow](channels.md).
 
 ## Activités de contrôle de flux {#flow-control}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Activités de workflow avancées"
+>abstract="Vous pouvez maintenant configurer les activités Test, Code JavaScript et Signal externe dans un workflow. Utilisez l&#39;activité Test pour activer les transitions de workflow en fonction des conditions. Ajoutez une activité Code JavaScript pour exécuter un fragment de code JS dans le contexte de votre workflow. Configurez une activité Signal externe pour déclencher l’exécution de votre workflow à partir d’une API ou d’un autre workflow."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

@@ -2,14 +2,23 @@
 audience: end-user
 title: Utilisation de l’activité Services d’abonnements
 description: Découvrez comment utiliser l’activité de workflow de services d’abonnements
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 23%
+source-wordcount: '992'
+ht-degree: 22%
 
 ---
 
 # Services d’abonnements {#subscriptipon-services}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Activité Services d’abonnements"
+>abstract="Utilisez la nouvelle activité de workflow Services d’abonnements pour gérer les abonnements à un service. Vous pouvez abonner ou désabonner une population et mettre à jour plusieurs abonnements à partir d’un fichier externe. Vous pouvez également envoyer un message de confirmation pour notifier vos abonnés."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
