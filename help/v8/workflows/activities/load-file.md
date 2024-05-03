@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier.
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 22%
+source-wordcount: '1227'
+ht-degree: 23%
 
 ---
 
@@ -42,10 +42,6 @@ La variable **Chargement de fichier** la configuration de l’activité comprend
 ![](../assets/workflow-load-file.png)
 
 ### Configuration du fichier d’exemple {#sample}
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est en disponibilité limitée (LA). Elle est limitée aux clients exécutant un serveur Campaign v8.7 et ne peut pas être déployée dans un autre environnement.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ Pour configurer le fichier d’exemple utilisé pour définir la structure de fi
 >
 >Avant de charger le fichier cible, assurez-vous qu’il respecte le formatage de fichier d’exemple. Toute incohérence dans le format de fichier, la structure des colonnes ou le nombre de colonnes peut entraîner des erreurs lors de l’exécution du workflow.
 
+Pour définir le fichier cible à télécharger, procédez comme suit :
+
 1. Dans le **[!UICONTROL Fichier cible]** , indiquez l’action à effectuer lors de la récupération du fichier à télécharger sur le serveur.
 
    * **[!UICONTROL Chargement d’un fichier depuis un ordinateur local]**: sélectionnez le fichier à télécharger sur votre ordinateur.
@@ -150,10 +148,6 @@ Pour configurer le fichier d’exemple utilisé pour définir la structure de fi
 >title="Supprimer le fichier après l’import"
 >abstract="Activez le bouton **Supprimer le fichier après l’import** pour supprimer le fichier d’origine du serveur après son import."
 
-
->[!AVAILABILITY]
->
->Ces options sont en disponibilité limitée (LA). Ils sont limités aux clients exécutant un serveur Campaign v8.7 et ne peuvent être déployés dans aucun autre environnement.
 
 1. Dans le **Gestion des rejets** , indiquez le comportement de l’activité en cas d’erreur :
 
