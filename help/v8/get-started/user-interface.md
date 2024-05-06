@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
 workflow-type: tm+mt
 source-wordcount: '1644'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -373,5 +373,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_create"
->title="Créer un tableau de bord des alertes de diffusion"
->abstract="Créer un tableau de bord des alertes de diffusion"
+>title="Créer un tableau de bord d’alerte de diffusion"
+>abstract="Créer un tableau de bord d’alerte de diffusion"
