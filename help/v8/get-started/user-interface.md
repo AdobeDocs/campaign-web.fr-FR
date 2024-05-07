@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
+source-git-commit: fbbad6abf6b43159ed8111ae3ee58834b2270fc2
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 100%
+source-wordcount: '1650'
+ht-degree: 99%
 
 ---
 
@@ -375,3 +375,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="Créer un tableau de bord d’alerte de diffusion"
 >abstract="Créer un tableau de bord d’alerte de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields"
+>title="Modifier des attributs personnalisés"
+>abstract="Modifier des attributs personnalisés"
