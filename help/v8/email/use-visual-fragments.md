@@ -5,7 +5,7 @@ description: Découvrez comment ajouter des fragments visuels à vos emails
 hide: true
 hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 1%
@@ -53,8 +53,7 @@ Pour insérer un fragment dans le contenu d&#39;un email, procédez comme suit :
    Dans la **[!UICONTROL Paramètres]** vous pouvez :
 
    * Sélectionnez les appareils sur lesquels vous souhaitez que le fragment s’affiche.
-   * 
-      1. Cliquez sur le bouton **Modifier le contenu** pour ouvrir le contenu de ce fragment. [En savoir plus](../email/fragments.md#edit-fragments)
+   * Cliquez sur le bouton **Modifier le contenu** pour ouvrir le contenu de ce fragment. [En savoir plus](../email/fragments.md#edit-fragments)
 
      Vous pouvez personnaliser davantage votre fragment à l’aide du **[!UICONTROL Styles]** .
 
