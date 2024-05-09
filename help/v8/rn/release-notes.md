@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 29%
+ht-degree: 98%
 
 ---
 
@@ -22,28 +22,28 @@ Les versions de l’interface utilisateur web d’Adobe Campaign fonctionnent 
 
 ## Notes de mise à jour d’avril {#april-24-4-release}
 
-**Date de publication**: 2 mai 2024
+**Date de publication** : 2 mai 2024
 
-### Nouveautés {#new-24-4}
+### Nouvelles fonctionnalités {#new-24-4}
 
-Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs à compter de la version d’avril.
+Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et utilisatrices à compter de la version d’avril.
 
 **Nouvelles activités de workflow**
 
-* **Mise à jour de données** - Utilisez cette activité pour effectuer des mises à jour en masse sur les champs de la base de données. Plusieurs options permettent de personnaliser la mise à jour des données. [En savoir plus](../workflows/activities/update-data.md)
-* **Services d’inscriptions** - Utilisez cette activité pour abonner ou désabonner plusieurs profils à/à un service en une seule action. [En savoir plus](../workflows/activities/subscription-services.md)
-* **Extraction de fichier** - Utilisez cette activité pour exporter des données d&#39;Adobe Campaign vers un autre système sous la forme d&#39;un fichier externe. [En savoir plus](../workflows/activities/extract-file.md)
-* **Transfert de fichier** - Utilisez cette activité pour recevoir ou envoyer des fichiers, tester la présence de fichiers ou lister les fichiers sur un serveur. Le protocole utilisé peut être soit un protocole serveur à serveur, soit un protocole HTTP. [En savoir plus](../workflows/activities/transfer-file.md)
-* **Test** - Utilisez cette activité pour activer les transitions en fonction de conditions spécifiées. [En savoir plus](../workflows/activities/test.md)
-* **Code JavaScript** - Utilisez cette activité pour exécuter un fragment de code JavaScript dans le contexte d’un workflow. [En savoir plus](../workflows/activities/javascript-code.md)
-* **Signal externe** - Utilisez cette activité pour déclencher l&#39;exécution d&#39;un workflow à partir d&#39;un autre workflow, ou un appel API. [En savoir plus](../workflows/activities/external-signal.md)
-* **Requête incrémentale** - Utilisez cette activité pour interroger la base de données selon un calendrier précis. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments. [En savoir plus](../workflows/activities/incremental-query.md)
+* **Mettre à jour les données** : utilisez cette activité pour effectuer des mises à jour en masse des champs de la base de données. Plusieurs options vous permettent de personnaliser la mise à jour des données. [En savoir plus](../workflows/activities/update-data.md)
+* **Services d’abonnement** : utilisez cette activité pour abonner plusieurs profils à un service ou les désinscrire d’un service en une seule action. [En savoir plus](../workflows/activities/subscription-services.md)
+* **Extraire un fichier** : utilisez cette activité pour exporter des données à partir d’Adobe Campaign vers un autre système sous la forme d’un fichier externe. [En savoir plus](../workflows/activities/extract-file.md)
+* **Transférer un fichier** : utilisez cette activité pour recevoir ou envoyer des fichiers, tester la présence de fichiers ou lister les fichiers présents sur un serveur. Le protocole utilisé peut être soit un protocole serveur à serveur, soit un protocole HTTP. [En savoir plus](../workflows/activities/transfer-file.md)
+* **Test** : utilisez cette activité pour activer les transitions en fonction de conditions spécifiées. [En savoir plus](../workflows/activities/test.md)
+* **Code JavaScript** : utilisez cette activité pour exécuter un fragment de code JavaScript dans le contexte d’un workflow. [En savoir plus](../workflows/activities/javascript-code.md)
+* **Signal externe** : utilisez cette activité pour déclencher l’exécution d’un workflow à partir d’un autre workflow ou d’un appel API. [En savoir plus](../workflows/activities/external-signal.md)
+* **Requête incrémentale** : utilisez cette activité pour interroger la base de données à des moments planifiés. À chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments. [En savoir plus](../workflows/activities/incremental-query.md)
 
-**Modèles de notification push enrichis**
+**Modèles de notification push enrichies**
 
 Vous pouvez désormais envoyer des notifications push enrichies via Android. La notification push enrichie est une forme améliorée de notification mobile qui va au-delà des messages texte simples en incorporant des éléments multimédias tels que des images, des boutons interactifs ou d’autres contenus multimédias enrichis. [En savoir plus](../push/rich-push.md)
 
-Notez que cette fonctionnalité est **Disponibilité limitée** (LA).
+Notez que cette fonctionnalité est en **Disponibilité limitée**.
 
 <!--
 * **Audit Trail**
@@ -51,49 +51,49 @@ Notez que cette fonctionnalité est **Disponibilité limitée** (LA).
 The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 -->
 
-### Nouvelles fonctionnalités à disponibilité limitée {#acs-24-4}
+### Nouvelles fonctionnalités en disponibilité limitée {#acs-24-4}
 
 >[!AVAILABILITY]
 >
->Les fonctionnalités suivantes sont en disponibilité limitée (LA). Ils sont limités aux clients effectuant la migration. **de Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployés dans un autre environnement.
+>Les fonctionnalités suivantes sont en disponibilité limitée. Celles-ci sont limitées aux clientes et clients qui effectuent la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et elles ne peuvent pas être déployées dans un autre environnement.
 >
->Reportez-vous aux pages de documentation suivantes : [Transition Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+>Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr).
 
-* **Marques** - En tant qu’utilisateur migré par un Campaign Standard, vos administrateurs techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. par exemple : le logo de la marque, le domaine d&#39;URL d&#39;accès aux landing pages ainsi que les paramètres du tracking des messages. Vous pouvez créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **Branding** : en tant qu’utilisateur ou utilisatrice ayant migré à partir de Campaign Standard, vos administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux pages de destination ainsi que les paramètres de suivi des messages. Vous pouvez créer ces marques et les associer à des messages ou à des pages de destination. Cette configuration est gérée dans des modèles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=fr)
 
-* **API REST** - En tant qu’utilisateur migré Campaign Standard, vous pouvez utiliser les API REST pour créer des intégrations pour Adobe Campaign et créer votre propre écosystème en interfaçant Adobe Campaign avec le panneau de technologies que vous utilisez. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+* **API REST** : en tant qu’utilisateur ou utilisatrice ayant effectué la migration à partir de Campaign Standard, vous pouvez utiliser les API REST pour créer des intégrations pour Adobe Campaign et pour créer votre propre réseau en connectant Adobe Campaign avec les technologies que vous utilisez. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr)
 
-* **Rapports dynamiques** - En tant qu’utilisateur migré Campaign Standard, vous pouvez accéder aux rapports dynamiques qui fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **Rapports dynamiques** : en tant qu’utilisateur ou utilisatrice ayant effectué la migration depuis Campaign Standard, vous pouvez accéder aux rapports dynamiques qui fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=fr)
 
-* **Pages d’entrée** - Les améliorations suivantes apportées aux landing pages ne sont disponibles que pour les utilisateurs passant du Campaign Standard :
+* **Pages de destination** : les améliorations suivantes apportées aux pages de destination ne sont disponibles que pour les utilisateurs et utilisatrices effectuant la migration depuis Campaign Standard :
 
-   * Vous pouvez désormais référencer une landing page d&#39;abonnement/désabonnement par défaut lors de la configuration d&#39;un service. Lors de la conception d&#39;un email, si vous définissez un lien vers cette landing page, les utilisateurs qui envoient le formulaire de landing page sont automatiquement abonnés ou désabonnés de ce service. [En savoir plus](../audience/manage-services.md#create-service)
-   * Une nouvelle option de configuration de la landing page permet aux visiteurs anonymes d&#39;accéder à la landing page. Si vous désélectionnez cette option, seuls les utilisateurs identifiés peuvent accéder au formulaire et l’envoyer. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
-   * Une nouvelle option de configuration de page d’entrée permet de stocker des données internes supplémentaires lors de l’envoi de la page d’entrée. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
-   * Une nouvelle option permet d&#39;utiliser une landing page pour plusieurs services, ce qui la rend dynamique. Lors de l&#39;ajout d&#39;un lien vers un email, si vous sélectionnez une landing page dynamique, vous pouvez sélectionner n&#39;importe quel service. Si vous sélectionnez une landing page associée à un service spécifique, ce service sera automatiquement utilisé (vous ne pouvez pas en sélectionner un autre). [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * Le contenu conditionnel est désormais pris en charge dans les landing pages. [En savoir plus](../landing-pages/lp-content.md)
+   * Vous pouvez désormais référencer une page de destination d’abonnement/de désinscription par défaut lors de la configuration d’un service. Lors de la conception d’un e-mail, si vous définissez un lien vers cette page de destination, les utilisateurs et utilisatrices qui envoient le formulaire de la page de destination sont automatiquement abonnés à ce service ou désinscrits de ce service. [En savoir plus](../audience/manage-services.md#create-service)
+   * Une nouvelle option de configuration de page de destination permet aux visiteurs et visiteuses anonymes d’accéder à la page de destination. Si vous désélectionnez cette option, seuls les utilisateurs et les utilisatrices identifiés peuvent accéder au formulaire et l’envoyer. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
+   * Une nouvelle option de configuration de page de destination permet de stocker des données internes supplémentaires lors de l’envoi de la page de destination. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
+   * Une nouvelle option permet d’utiliser une page de destination pour plusieurs services, ce qui la rend dynamique. Lors de l’ajout d’un lien vers un e-mail, si vous sélectionnez une page de destination dynamique, vous pouvez sélectionner n’importe quel service. Si vous sélectionnez une page de destination associée à un service spécifique, ce service sera automatiquement utilisé (vous ne pouvez pas en sélectionner un autre). [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * Le contenu conditionnel est désormais pris en charge dans les pages de destination. [En savoir plus](../landing-pages/lp-content.md)
 
 ### Améliorations générales {#improvements-24-4}
 
-Les améliorations ci-dessous sont disponibles pour tous les clients à compter de la version d’avril.
+Les améliorations ci-dessous sont disponibles pour l’ensemble des clientes et clients à compter de la version d’avril.
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* La variable **Chargement de fichier** l&#39;activité a été améliorée avec plusieurs sections permettant de télécharger un exemple de fichier, de gérer les erreurs et rejets, et de supprimer les fichiers téléchargés une fois l&#39;activité exécutée. [En savoir plus](../workflows/activities/load-file.md)
+* L’activité **Charger un fichier** a été améliorée avec plusieurs sections qui vous permettent de charger un exemple de fichier, de gérer les erreurs et les rejets, et de supprimer les fichiers chargés une fois l’activité exécutée. [En savoir plus](../workflows/activities/load-file.md)
 
 
 * Vous pouvez désormais **copier/coller des activités** d’un workflow à un autre à partir d’un autre onglet du navigateur. [En savoir plus](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* Toutes les activités de workflow permettent désormais de gérer leurs **options d’exécution**. Vous pouvez ainsi définir le mode d&#39;exécution et le comportement de l&#39;activité en cas d&#39;erreur. [En savoir plus](../workflows/orchestrate-activities.md#execution-options-execution)
+* Vous pouvez désormais gérer les **options d’exécution** de toutes les activités de workflow. Vous pouvez ainsi définir le mode d’exécution de l’activité et son comportement en cas d’erreur. [En savoir plus](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
-* L&#39;option &quot;Ne pas activer la transition si la population est vide&quot; dans la variable **Activité Partage** permet de choisir si le workflow doit passer à l’activité suivante lorsque le résultat du segment est vide. [En savoir plus](../workflows/activities/split.md)
+* L’option « Ne pas activer la transition si la population est vide » dans l’**Activité Partage** vous permet de choisir si le workflow doit passer à l’activité suivante lorsque le résultat du segment est vide. [En savoir plus](../workflows/activities/split.md)
 
 <!--* **Support of custom fields**-->
 
-* **Champs personnalisés** sont des attributs supplémentaires ajoutés aux schémas d’usine par le biais de la console Adobe Campaign. Dans l’interface utilisateur web de Campaign, ces champs personnalisés sont désormais visibles dans divers écrans, par exemple les détails d’un profil ou d’un profil de test. Dans l’interface utilisateur web, vous ne pouvez pas créer de champs personnalisés, mais vous pouvez désormais modifier leur mode d’affichage. [En savoir plus](../administration/custom-fields.md)
+* Les **Champs personnalisés** sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Dans l’interface d’utilisation de Campaign Web, ces champs personnalisés sont désormais visibles sur divers écrans, tels que les détails d’un profil ou d’un profil de test. Dans l’interface d’utilisation web, vous ne pouvez pas créer de champs personnalisés, mais vous pouvez désormais modifier leur mode d’affichage. [En savoir plus](../administration/custom-fields.md)
 
 
 ## Notes de mise à jour de mars {#24-3-release}
@@ -114,10 +114,10 @@ L’activité de ciblage **Modifier la source de données** permet de modifier l
 
 ### Amélioration de l’activité de workflow Partage {#24-3-split}
 
-Vous pouvez désormais utiliser la variable **Générer tous les sous-ensembles dans la même table** dans le **Partage** activité de workflow pour regrouper tous les sous-ensembles dans une seule transition de sortie.
+Vous pouvez désormais utiliser l’option **Générer tous les sous-ensembles dans le même tableau** dans l’activité de workflow **Partage** pour regrouper tous les sous-ensembles dans une seule transition de sortie.
 
 ### Concepteur de requête {#24-3-query-modeler}
 
-* Le concepteur de requête est désormais disponible dans le concepteur d’e-mail. Il vous permet de créer des conditions lors de la création de contenu conditionnel.
-* Les valeurs prédéfinies sont désormais disponibles pour les attributs de type date lors de la création d’une condition personnalisée.
-* Les opérateurs ne peuvent plus être ajoutés sur une nouvelle transition du diagramme. Ils ne peuvent être ajoutés que sur une transition existante avant de filtrer les composants pour les regrouper.
+* Le concepteur de requête est désormais disponible dans le concepteur d’e-mail. Cela vous permet de créer des conditions lorsque vous créez du contenu conditionnel.
+* Des valeurs prédéfinies sont désormais disponibles pour les attributs de type date lors de la création d’une condition personnalisée.
+* Les opérateurs ne peuvent plus être ajoutés sur une nouvelle transition du diagramme. Ils peuvent uniquement être ajoutés à une transition existante avant le filtrage des composants destiné à les regrouper.

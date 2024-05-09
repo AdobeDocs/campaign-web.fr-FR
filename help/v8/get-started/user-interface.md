@@ -373,8 +373,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_create"
->title="Créer un tableau de bord d’alerte de diffusion"
->abstract="Créer un tableau de bord d’alerte de diffusion"
+>title="Créer un tableau de bord des alertes de diffusion"
+>abstract="Créer un tableau de bord des alertes de diffusion"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
