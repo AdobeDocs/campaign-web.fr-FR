@@ -4,9 +4,9 @@ description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -51,17 +51,17 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB La version d&#39;avril est en ligne !]
+>[!TAB La version d’avril est en ligne.]
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version 24.4 de l’interface utilisateur web d’Adobe Campaign.
+Découvrez les nouvelles fonctionnalités et améliorations de la version 24.4 de l’interface d’utilisation d’Adobe Campaign Web.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![Image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Nouvelles activités de workflow]
 
-Cette version est fournie avec les activités de workflow suivantes : Mise à jour de données, Services d’abonnements, Extraction de fichier, Transfert de fichier, Test, Code JavaScript, Signal externe, Requête incrémentale.
+Cette version est fournie avec les activités de workflow suivantes : Mettre à jour des données, Services d’abonnements, Extraire une fichier, Transférer un fichier, Test, Code JavaScript, Signal externe, Requête incrémentale.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![Image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Notification push enrichie]
 
@@ -100,14 +100,14 @@ Vous pouvez désormais envoyer des notifications push enrichies via Android. La 
     </tr>
 </table>
 
-## Accéder à la documentation
+## Parcourir la documentation
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Prise en main</strong><br/><a href="get-started/user-interface.md">Interface utilisateur</a> - <a href="get-started/connect-to-campaign.md">Connexion à Campaign</a> - <a href="get-started/permissions.md">Accès et autorisations</a>
+      <strong>Commencer</strong><br/><a href="get-started/user-interface.md">Interface d’utilisation</a> - <a href="get-started/connect-to-campaign.md">Se connecter à Campaign</a> - <a href="get-started/permissions.md">Accès et autorisations</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
