@@ -5,10 +5,10 @@ description: Découvrez comment créer avec des fragments de contenu
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 4%
+source-wordcount: '887'
+ht-degree: 3%
 
 ---
 
@@ -167,7 +167,7 @@ Pour supprimer un fragment, procédez comme suit :
 
 >[!CAUTION]
 >
->Lors de la suppression d’un fragment de contenu, les diffusions email et les modèles qui l’utilisent sont mis à jour et le fragment est supprimé du contenu de leur message. Vous pouvez interrompre l’héritage si nécessaire. [En savoir plus](use-visual-fragments.md#break-inheritance)
+>Lors de la suppression d’un fragment de contenu, les diffusions email et les modèles qui l’utilisent sont mis à jour : le fragment est supprimé du contenu de l’email, mais il est toujours référencé. Pour conserver le contenu du fragment dans ces diffusions et modèles, vous devez rompre l’héritage avant de supprimer le fragment, [comme décrit dans cette section](use-visual-fragments.md#break-inheritance).
 >
 
 ### Dupliquer un fragment {#duplicate-fragments}
