@@ -6,7 +6,7 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 94%
@@ -30,7 +30,7 @@ L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en s
 
 >[!NOTE]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#guardrails-and-limitations).
+>Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails).
 
 Dans l’exemple suivant, nous utiliserons l’assistant IA pour concevoir des messages attrayants afin de créer une expérience client plus attrayante.
 

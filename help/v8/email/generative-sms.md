@@ -6,7 +6,7 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 94%
@@ -32,7 +32,7 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
 >[!NOTE]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#guardrails-and-limitations).
+>Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails).
 
 1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 

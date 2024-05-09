@@ -6,7 +6,7 @@ badge: label="Version bêta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 94%
@@ -28,7 +28,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#guardrails-and-limitations).
+>Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails).
 
 Une fois que vous avez créé et personnalisé vos e-mails, utilisez l’assistant IA dans Campaign propulsé par l’IA générative pour améliorer votre contenu.
 
