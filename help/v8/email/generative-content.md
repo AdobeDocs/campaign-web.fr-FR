@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '1369'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant IA pour peaufiner un e-
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
-   * **[!UICONTROL Utiliser un langage plus simple]**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
@@ -146,7 +146,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant IA afin d’améliorer 
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
-   * **[!UICONTROL Utiliser un langage plus simple]**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 

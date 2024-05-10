@@ -9,7 +9,7 @@ exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
    * **[!UICONTROL Utiliser comme contenu de référence]** : la variante choisie servira de contenu de référence pour générer d’autres résultats.
 
-   * **[!UICONTROL Utiliser un langage plus simple]**: l’assistant d’IA vous aide à rédiger des messages clairs et concis que tout le monde peut comprendre.
+   * **[!UICONTROL Utiliser un langage simplifié]** : l’assistant IA vous aide à rédiger des messages clairs et concis que tout le monde peut comprendre.
 
    * **[!UICONTROL Reformuler]** : l’assistant IA reformule votre message afin de continuer à proposer un contenu attrayant pour les différentes audiences.
 
