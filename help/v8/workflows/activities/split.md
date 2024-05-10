@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 575219c7bcef303e211f504d13227183933924cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Ignorer la transition vide"
->abstract="Activez/désactivez la variable **[!UICONTROL Ignorer la transition vide]** sur pour désactiver la transition sortante pour ce sous-ensemble si la population entrante est vide."
+>abstract="Activez l’option **[!UICONTROL Ignorer la transition vide]** pour désactiver la transition sortante pour ce sous-ensemble si la population entrante est vide."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -86,7 +86,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
    1. Pour limiter le nombre de profils sélectionnés par le sous-ensemble, activez la fonction **[!UICONTROL Activer la limite]** et indiquez le nombre ou les pourcentages de la population à inclure.
 
-   1. Pour désactiver une transition si la population entrante est vide, faites basculer le **[!UICONTROL Ignorer la transition vide]** sur . Si aucun profil ne correspond au sous-ensemble, le workflow ne passera pas à l’activité suivante.
+   1. Pour désactiver une transition si la population entrante est vide, activez l’option **[!UICONTROL Ignorer la transition vide]**. Si aucun profil ne correspond au sous-ensemble, le workflow ne passera pas à l’activité suivante.
 
       ![](../assets/workflow-split-subset.png)
 

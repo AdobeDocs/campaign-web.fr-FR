@@ -1,56 +1,57 @@
 ---
 title: Champs personnalisés
-description: Découvrez comment configurer des champs personnalisés
-source-git-commit: 97769e885145d771685752f6367c5ea00831701d
-workflow-type: tm+mt
+description: Découvrez comment configurer des champs personnalisés.
+exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# Configuration des champs personnalisés {#custom-fields}
+# Configurer des champs personnalisés {#custom-fields}
 
-Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas d&#39;usine par le biais de la console Adobe Campaign. En savoir plus dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=fr){target="_blank"}
+Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. En savoir plus dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=fr){target="_blank"}
 
-Ces champs personnalisés sont affichés dans divers écrans, par exemple les détails d&#39;un profil ou d&#39;un profil de test.
+Ces champs personnalisés sont affichés sur divers écrans, par exemple dans les détails d’un profil ou d’un profil de test.
 
-Dans l’interface utilisateur web, vous ne pouvez pas créer de champs personnalisés, mais vous pouvez modifier leur mode d’affichage. Les modifications s’appliquent à tous les utilisateurs de Campaign.
+Dans l’interface d’utilisation web, vous ne pouvez pas créer de champs personnalisés, mais vous pouvez modifier leur mode d’affichage. Ces modifications s’appliquent à tous les utilisateurs et à toutes les utilisatrices de Campaign.
 
 >[!NOTE]
 >
->Vous devez disposer des droits d’administrateur pour modifier les champs personnalisés.
+>Vous devez disposer des droits d’administration pour modifier des champs personnalisés.
 
-Les champs personnalisés sont disponibles dans les schémas suivants :
+Les champs personnalisés sont disponibles dans les schémas suivants :
 
-* Destinataires (nms)
+* Personnes destinataires (nms)
 * Campagnes (nms)
 * Diffusions (nms)
 * Adresses de contrôle (nms)
 
-Pour configurer des champs personnalisés, procédez comme suit :
+Pour configurer des champs personnalisés, procédez comme suit :
 
-1. Sous **Administration**, cliquez sur **Schémas**.
+1. Dans **Administration**, cliquez sur **Schémas**.
 
    ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
 
-1. Recherchez le schéma souhaité, par exemple le **Destinataires (nms)** schéma.
+1. Recherchez le schéma souhaité, par exemple le schéma **Personnes destinataires (nms)**.
 
    ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
 
-1. Cliquez sur le bouton **Autres actions** et sélectionnez **Modifier le détail personnalisé**.
+1. Cliquez sur le bouton **Autres actions** et sélectionnez **Modifier les détails personnalisés**.
 
    ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
 
-   La variable **Modifier le détail personnalisé** écran affiche tous les champs personnalisés et leur type.
+   L’écran **Modifier les détails personnalisés** affiche tous les champs personnalisés et leur type.
 
    ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
 
-   Cet écran vous permet d’effectuer les actions suivantes :
+   Cet écran vous permet d’effectuer les actions suivantes :
 
-   * modifiez l’ordre des différents champs à l’aide des flèches haut et bas.
-   * renseignez le champ obligatoire : cochez la case **Obligatoire** de la boîte.
-   * rendre le champ visible ou le masquer : cliquez sur le bouton **Visible** bouton .
-   * ajoutez une condition de visibilité : cliquez sur le bouton **Visible si** et écrivez votre expression xtk à l’aide des fonctions xtk disponibles.
+   * Modifiez l’ordre des différents champs à l’aide des flèches haut et bas.
+   * Rendez le champ obligatoire : cochez la case **Obligatoire**.
+   * Rendez le champ visible ou masquez-le : cliquez sur le bouton **Visible**.
+   * Ajoutez une condition de visibilité : cliquez sur le bouton **Visible si** et écrivez votre expression xtk à l’aide des fonctions xtk disponibles.
 
 1. Accédez à l’écran qui affiche le champ personnalisé. Dans notre exemple, il s’agit de l’écran des détails du profil.
 

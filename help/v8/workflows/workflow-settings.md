@@ -4,9 +4,9 @@ title: Configurer les paramètres de workflow
 description: Découvrir comment configurer les paramètres de workflow à l’aide d’Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -106,5 +106,5 @@ Lorsque le workflow est [associé à une campagne](create-workflow.md), il s’a
 
 ## Script d’initialisation {#initialization-script}
 
-La variable **Script d&#39;initialisation** vous permet d’initialiser des variables ou de modifier les propriétés de l’activité. Cliquez sur le bouton **Modifier le code** et saisissez le fragment de code à exécuter. Le script est appelé lors de l’exécution du workflow. Consultez la section relative à la [variables d&#39;événements](../workflows/event-variables.md).
+Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution du workflow. Consultez la section relative aux [variables d’événement](../workflows/event-variables.md).
 

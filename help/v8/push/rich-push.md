@@ -4,9 +4,9 @@ title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1424'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est disponible dans **Disponibilité limitée** (LA).
+>Cette fonctionnalité est en **disponibilité limitée** (LA).
 
 Firebase Cloud Messaging vous permet de choisir entre deux types de messages :
 

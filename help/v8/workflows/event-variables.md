@@ -4,15 +4,15 @@ title: Variables d’événement de workflow
 description: Découvrez comment exploiter les variables d’événement dans vos workflows.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Variables d’événement de workflow {#event-variables}
 
-Certaines activités de workflow vous permettent de modifier des scripts dans l’éditeur d’expression afin d’effectuer des actions spécifiques telles que la récupération de données provenant d’activités précédentes, la création de conditions ou le calcul de noms de fichier en fonction de variables d’événement.
+Certaines activités de workflow vous permettent de modifier des scripts dans l’éditeur d’expression afin d’effectuer des actions spécifiques, telles que récupérer des données provenant d’activités précédentes, créer des conditions ou calculer les noms de fichiers en fonction de variables d’événement.
 
 ## Que sont les variables d’événement ? {#scripting}
 

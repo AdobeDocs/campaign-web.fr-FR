@@ -4,9 +4,9 @@ title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -30,25 +30,25 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
-   * **[!UICONTROL Lien externe]**: insérez un lien vers une URL externe.
+   * **[!UICONTROL Lien externe]** : insérez un lien vers une URL externe.
 
      >[!AVAILABILITY]
      >
-     >Les fonctionnalités suivantes (lien vers **[!UICONTROL Landing page]**, **[!UICONTROL Lien d&#39;abonnement]** et **[!UICONTROL Lien de désabonnement]**) sont en disponibilité limitée (LA). Ils sont limités aux clients effectuant la migration. **de Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployés dans un autre environnement.
+     >Les fonctionnalités suivantes (lien vers une **[!UICONTROL Page de destination]**, **[!UICONTROL Lien d’abonnement]** et **[!UICONTROL Lien de désabonnement]**) sont en disponibilité limitée. Elles sont limitées aux clientes et clients effectuant la migration à partir d’**Adobe Campaign Standard vers Adobe Campaign v8** et ne peuvent pas être déployées dans un autre environnement.
 
-   * **[!UICONTROL Landing page]**: insérez un lien vers une landing page. Si vous sélectionnez une landing page dynamique (avec la méthode **[!UICONTROL Service à partir de l’URL]** (option sélectionnée), vous pouvez sélectionner n’importe quel service dans la liste. [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * **[!UICONTROL Page de destination]** : insérez un lien vers une page de destination. Si vous sélectionnez une page de destination dynamique (avec l’option **[!UICONTROL Service à partir d’une URL]** sélectionnée), vous pouvez sélectionner n’importe quel service dans la liste. [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
      ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
 
-   * **[!UICONTROL Lien d&#39;abonnement]**: insérez un lien vers un service d&#39;abonnement. Lorsque les utilisateurs cliquent sur le lien, ils sont redirigés vers la landing page d&#39;inscription référencée dans le service sélectionné. [En savoir plus](../audience/manage-services.md#create-service)
+   * **[!UICONTROL Lien d’abonnement]** : insérez un lien vers un service d’abonnement. Lorsque les utilisateurs et utilisatrices cliquent sur le lien, ils sont redirigés vers la page de destination d’abonnement référencée dans le service sélectionné. [En savoir plus](../audience/manage-services.md#create-service)
 
      ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
 
-   * **[!UICONTROL Lien de désabonnement]**: insérez un lien vers un service de désinscription. Lorsque les abonnés cliquent sur le lien, ils sont redirigés vers la landing page de désinscription référencée dans le service sélectionné. [En savoir plus](../audience/manage-services.md#create-service)
+   * **[!UICONTROL Lien de désabonnement]** : insérez un lien vers un service de désabonnement. Lorsque les personnes abonnées cliquent sur le lien, elles sont redirigées vers la page de destination de désabonnement référencée dans le service sélectionné. [En savoir plus](../audience/manage-services.md#create-service)
 
    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
-1. Saisissez l&#39;URL de votre choix dans le champ correspondant, ou sélectionnez une landing page ou un service, et définissez les paramètres et les styles du lien.
+1. Saisissez l’URL de votre choix dans le champ correspondant ou sélectionnez une page de destination ou un service, puis définissez les paramètres et les styles du lien.
 
 1. Ajoutez un **[!UICONTROL Libellé]** et un **[!UICONTROL Lien]**.
 

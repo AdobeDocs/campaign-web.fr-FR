@@ -4,9 +4,9 @@ description: Découvrir comment configurer et publier une page de destination da
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1504'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Définir des options de pré-chargement"
->abstract="Lorsque l’option **Préremplir avec les données référencées dans le formulaire** est activée, si la personne qui visite la page de destination correspond à un profil de la base de données, les informations du profil sont automatiquement pré-chargées dans le formulaire. Avec la variable **Autoriser l’absence d’ID** sélectionnée, tout visiteur, y compris les utilisateurs anonymes, peut accéder à la landing page."
+>abstract="Lorsque l’option **Préremplir avec les données référencées dans le formulaire** est activée, si la personne qui visite la page de destination correspond à un profil de la base de données, les informations du profil sont automatiquement pré-chargées dans le formulaire. Lorsque l’option **Autoriser l’absence d’identifiant** est sélectionnée, toute personne, incluant les utilisateurs et les utilisatrices anonymes, peut accéder à la page de destination."
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -100,39 +100,39 @@ Pour créer une page de destination, procédez comme suit :
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. Dans le **[!UICONTROL Préchargement des données]** , les deux options ci-dessous sont disponibles :
+1. Dans la section **[!UICONTROL Préchargement des données]**, les deux options ci-dessous sont disponibles :
 
    * Lorsque l’option **[!UICONTROL Préremplir avec les données référencées dans le formulaire]** est activée, si la personne qui visite la page de destination correspond à un profil de la base de données, les informations du profil sont automatiquement préchargées dans le formulaire. La personne doit simplement renseigner les champs manquants et mettre à jour les valeurs existantes si nécessaire. Cela permet de fusionner les données des profils existants au lieu de créer des doublons.
 
      >[!NOTE]
      >
-     >Cette option est sélectionnée par défaut pour tous les modèles de landing page.
+     >Cette option est sélectionnée par défaut pour tous les modèles de page de destination.
 
    <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
 
-   * La variable **[!UICONTROL Autoriser l’absence d’ID]** permet à n’importe quel visiteur d’accéder à la landing page. La désélection de cette option empêche les visiteurs anonymes de l’utiliser, ce qui signifie que seuls les utilisateurs identifiés peuvent accéder au formulaire et l’envoyer.
+   * L’option **[!UICONTROL Autoriser l’absence d’identifiant]** permet à n’importe quelle personne d’accéder à la page de destination. Désélectionner cette option empêche les personnes anonymes d’utiliser la page, ce qui signifie que seuls les utilisateurs et utilisatrices identifiés peuvent accéder au formulaire et l’envoyer.
 
      >[!AVAILABILITY]
      >
-     >Cette fonctionnalité est en disponibilité limitée (LA). Il est limité aux clients effectuant la migration. **de Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployés dans un autre environnement.
+     >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
-     Pour le **[!UICONTROL Acquisition]** et **[!UICONTROL Abonnement]** , cette option est sélectionnée par défaut. Pour le **[!UICONTROL Désabonnement]** et **[!UICONTROL Liste bloquée]** modèles, cette option est désélectionnée par défaut et ne peut pas être modifiée.<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+     Pour les modèles **[!UICONTROL Acquisition]** et **[!UICONTROL Abonnement]**, cette option est sélectionnée par défaut. Pour les modèles **[!UICONTROL Désabonnement]** et **[!UICONTROL Liste bloquée]**, cette option est désélectionnée par défaut et ne peut pas être modifiée<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
-1. Une page de destination peut comporter des pages supplémentaires. Pour ajouter des pages, accédez à la **[!UICONTROL Pages]** , puis cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour chaque page que vous souhaitez concevoir pour cette landing page. Le contenu de chaque page est déjà prérempli. Modifiez-le si nécessaire. [En savoir plus](lp-content.md)
+1. Une page de destination peut comporter des pages supplémentaires. Pour ajouter des pages, accédez à la section **[!UICONTROL Pages]**, puis cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour chaque page que vous souhaitez concevoir pour cette page de destination. Le contenu de chaque page est déjà prérempli. Modifiez-le si nécessaire. [En savoir plus](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. Dans le **[!UICONTROL Stockage]** , **[!UICONTROL Mise à jour de l’enregistrement préchargé]** est sélectionnée par défaut. Elle permet de mettre à jour les profils stockés dans la base via la page de destination. La zone de préchargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données.
+1. Dans la section **[!UICONTROL Stockage]**, l’option **[!UICONTROL Mise à jour de l’enregistrement préchargé]** est sélectionnée par défaut. Elle permet de mettre à jour les profils stockés dans la base via la page de destination. La zone de préchargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données.
 
    Vous pouvez également sélectionner parmi les champs du contexte courant de la page de destination, ceux qui seront utilisés pour retrouver le profil correspondant dans la base de données. Pour ce faire, désélectionnez l’option **[!UICONTROL Mettre à jour l’enregistrement pré-chargé]** et cochez les champs de votre choix sous **[!UICONTROL Options de réconciliation]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
-1. Créer **[!UICONTROL Données additionnelles]** pour stocker des données internes lors de l’envoi de la landing page. Ces données ne sont pas visibles par les utilisateurs qui visitent la page. Seules les valeurs constantes sont prises en charge.
+1. Créez des **[!UICONTROL Données additionnelles]** pour stocker les données internes lorsque la page de destination est envoyée. Ces données ne sont pas visibles par les utilisateurs et les utilisatrices qui visitent la page. Seules les valeurs constantes sont prises en charge.
 
    >[!AVAILABILITY]
    >
-   >Cette fonctionnalité est en disponibilité limitée (LA). Il est limité aux clients effectuant la migration. **de Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployés dans un autre environnement.
+   >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
    ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
@@ -184,9 +184,9 @@ Pour tester votre page de destination, suivez ces étapes :
 
    Les étapes de sélection des profils de test sont les mêmes que lors du test d’un message. Elles sont détaillées dans la section [Prévisualisation et test](../preview-test/preview-test.md).
 
-1. Lors du test d’une page d’entrée dynamique (avec la fonction **[!UICONTROL Service à partir de l’URL]** option sélectionnée - [en savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
+1. Lors d’un test d’une page de destination dynamique (avec l’option **[!UICONTROL Service à partir d’une URL]** sélectionnée - [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)),
 
-1. Sélectionnez **[!UICONTROL Ouvrir l’aperçu]** pour tester votre page de destination.
+1. sélectionnez **[!UICONTROL Ouvrir l’aperçu]** pour tester votre page de destination.
 
    ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
 

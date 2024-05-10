@@ -1,11 +1,12 @@
 ---
 audience: end-user
-title: Utilisation de l’activité Transfert de fichier
-description: Découvrez comment utiliser l’activité de workflow Transfert de fichier
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
-workflow-type: tm+mt
+title: Utiliser l’activité Transfert de fichier
+description: Découvrir comment utiliser l’activité de workflow Transfert de fichier
+exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
 >title="Transfert de fichier"
->abstract="La variable **Transfert de fichier** activité vous permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers sur un serveur. Le protocole utilisé peut être soit un protocole serveur à serveur, soit un protocole HTTP."
+>abstract="L’activité **Transfert de fichier** permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de répertorier les fichiers sur un serveur. Le protocole utilisé peut être soit un protocole serveur à serveur, soit un protocole HTTP."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
@@ -66,72 +67,72 @@ ht-degree: 13%
 >title="Traiter les erreurs"
 >abstract="Traiter les erreurs"
 
-La variable **Transfert de fichier** est une activité **Data Management** activité. Il vous permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers sur un serveur. Le protocole utilisé peut être soit un protocole serveur à serveur, soit un protocole HTTP.
+L’activité **Transfert de fichier** est une activité de **Gestion des données**. Elle permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de répertorier les fichiers sur un serveur. Le protocole utilisé peut être soit un protocole serveur à serveur, soit un protocole HTTP.
 
 >[!NOTE]
 >
->Avec l&#39;interface utilisateur web de Campaign, nous avons consolidé deux activités en une seule en fusionnant les deux. **Transfert de fichier** et **Téléchargement web** fonctionnalités. Cette consolidation n&#39;a aucun impact sur les fonctionnalités de l&#39;activité.
+>Avec l’interface d’utilisation de Campaign Web, nous avons consolidé deux activités en une seule en fusionnant les fonctionnalités **Transfert de fichier** et **Téléchargement web**. Cette consolidation n’a aucun impact sur les fonctionnalités de l’activité.
 
-Suivez les étapes détaillées ci-dessous pour configurer le **Transfert de fichier** activité.
+Suivez les étapes détaillées ci-dessous pour configurer l’activité **Transfert de fichier**.
 
-## Choisir le protocole de transfert et l&#39;opération {#protocol}
+## Choisir le protocole de transfert et l’opération {#protocol}
 
-1. Ajouter un **Transfert de fichier** dans votre workflow, puis indiquez le type de transfert à effectuer en fonction du protocole que vous souhaitez utiliser :
+1. Ajoutez une activité **Transfert de fichier** dans votre workflow, puis indiquez le type de transfert à effectuer en fonction du protocole que vous souhaitez utiliser :
 
-   * Pour le protocole HTTP, sélectionnez **[!UICONTROL Téléchargement Web]**. Vous pouvez ainsi effectuer le téléchargement d’un fichier par un GET ou un POST sur une URL explicite, un compte externe ou une instance Adobe Campaign.
+   * Pour le protocole HTTP, sélectionnez **[!UICONTROL Téléchargement web]**. Vous pouvez ainsi effectuer le téléchargement GET ou POST d’un fichier sur une URL explicite, un compte externe ou une instance Adobe Campaign.
    * Pour les autres protocoles serveur à serveur et actions connexes, sélectionnez **[!UICONTROL Transfert de fichier]**.
 
 1. Sélectionnez l’action à exécuter avec l’activité. Les actions disponibles dépendent du type de transfert que vous avez sélectionné. Pour plus d’informations, développez les sections ci-dessous.
 
-   +++Actions disponibles avec **Transfert de fichier** activités de type
+   +++Actions disponibles avec les activités de type **Transfert de fichier**
 
-   * **[!UICONTROL Téléchargement de fichier]**: téléchargez un fichier à partir du serveur.
-   * **[!UICONTROL Chargement de fichier]**: téléchargez un fichier sur le serveur.
-   * **[!UICONTROL Test d’existence de fichier]**: vérifiez si un fichier donné est présent sur le serveur. Génère deux transitions sortantes après l&#39;activité : &quot;Fichier présent&quot; et &quot;Fichier n&#39;existe pas&quot;.
-   * **[!UICONTROL Listes de fichiers]**: répertorie tous les fichiers disponibles sur le serveur.
+   * **[!UICONTROL Téléchargement web]** : téléchargez un fichier à partir du serveur.
+   * **[!UICONTROL Chargement de fichier]** : chargez un fichier sur le serveur.
+   * **[!UICONTROL Test d’existence de fichier]** : vérifiez la présence d’un fichier donné sur le serveur. Génère deux transitions sortantes après l’activité : « Fichier existe » et « Fichier n’existe pas ».
+   * **[!UICONTROL Liste de fichiers]** : liste de tous les fichiers disponibles sur le serveur.
 
 +++
 
-   +++Actions disponibles avec **Téléchargement web** activités de type
+   +++Actions disponibles avec les activités de type **Téléchargement web**
 
-   * **[!UICONTROL Transfert simple (GET)]**: récupérez un fichier.
-   * **[!UICONTROL Transférer à l’aide d’un formulaire (POST)]**: téléchargez un fichier et des paramètres supplémentaires.
+   * **[!UICONTROL Transfert simple (GET)]** : récupérez un fichier.
+   * **[!UICONTROL Transfert à l’aide d’un formulaire (POST)]** : chargez un fichier et des paramètres supplémentaires.
 
 +++
 
    ![](../assets/workflow-transfer-file-action.png)
 
-1. Par défaut, pour les actions de téléchargement de fichiers, l’activité utilise le fichier spécifié dans l’activité précédente. Pour utiliser un autre fichier, faites basculer le **[!UICONTROL Utiliser le fichier de l’activité précédente]** puis cliquez sur l’option **[!UICONTROL Ajouter un fichier]** bouton .
+1. Par défaut, pour les actions de chargement de fichiers, l’activité utilise le fichier spécifié dans l’activité précédente. Pour utiliser un autre fichier,désactivez l’option **[!UICONTROL Utiliser le fichier de l’activité précédente]** puis cliquez sur le bouton **[!UICONTROL Ajouter un fichier]**.
 
-   Dans le **[!UICONTROL Source]** , saisissez le nom de fichier souhaité ou utilisez l’éditeur d’expression pour calculer le nom du fichier à l’aide de variables d’événement. [Découvrez comment utiliser les variables d’événement et l’éditeur d’expression](../event-variables.md). Répétez l’opération pour ajouter autant de fichiers que nécessaire.
+   Dans le champ **[!UICONTROL Source]**, saisissez le nom de fichier souhaité ou utilisez l’éditeur d’expression pour calculer le nom du fichier à l’aide de variables d’événement. [Découvrez comment travailler avec des variables d’événement et l’éditeur d’expression](../event-variables.md). Répétez l’opération pour ajouter autant de fichiers que nécessaire.
 
-## Définition de la destination de transfert {#destination}
+## Définir la destination du transfert {#destination}
 
-1. Dans le **[!UICONTROL Serveur distant]** , spécifiez le serveur auquel se connecter à l’aide de l’une des méthodes suivantes :
+1. Dans la section **[!UICONTROL Serveur distant]**, spécifiez le serveur auquel se connecter à l’aide de l’une des méthodes suivantes :
 
-   * **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]**: connectez-vous à un serveur à l’aide des paramètres de connexion d’un compte externe. Dans le **[!UICONTROL Dossier du serveur]** , spécifiez le chemin d’accès au fichier (ou au dossier pour les actions de liste de fichiers).
-   * **[!UICONTROL Configuration rapide]**: saisissez l’URL du fichier (ou dossier pour les actions de liste de fichiers).
-   * **[!UICONTROL Instance Adobe Campaign]** (Activités de type Téléchargement Web) : téléchargez un fichier depuis un serveur d’instance Adobe Campaign.
+   * **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** : connectez-vous à un serveur à l’aide des paramètres de connexion d’un compte externe. Dans le champ **[!UICONTROL Dossier du serveur]**, spécifiez le chemin d’accès au fichier (ou au dossier pour les actions de liste de fichiers).
+   * **[!UICONTROL Configuration rapide]** : saisissez l’URL du fichier (ou dossier pour les actions de liste de fichiers).
+   * **[!UICONTROL Instance Adobe Campaign]** (Activités de type Téléchargement Web) : téléchargez un fichier à partir d’un serveur d’instance Adobe Campaign.
 
    ![](../assets/workflow-transfer-file-server.png)
 
-1. Pour les actions du POST de téléchargement Web, vous pouvez transmettre des paramètres supplémentaires avec l’opération. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter un paramètre]** puis indiquez le nom et la valeur des paramètres. Vous pouvez ajouter autant de paramètres que nécessaire.
+1. Pour les actions POST de téléchargement web, vous pouvez transmettre des paramètres supplémentaires avec l’opération. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter un paramètre]**, puis indiquez le nom et la valeur des paramètres. Vous pouvez ajouter autant de paramètres que vous le souhaitez.
 
-1. Par défaut, pour le téléchargement de fichiers, les fichiers chargés sur un serveur sont automatiquement enregistrés. Si vous ne souhaitez pas conserver cet historique, activez la variable **[!UICONTROL Conserver l’historique des fichiers envoyés]** désactivée.
+1. Par défaut, pour le chargement de fichiers, les fichiers chargés sur un serveur sont automatiquement enregistrés. Si vous ne souhaitez pas conserver cet historique, désactivez l’option **[!UICONTROL Garder un historique des fichiers envoyés]**.
 
 ## Paramètres d’historisation   {#historization}
 
-À chacune de ses exécutions, l’activité **[!UICONTROL Transfert de fichier]** stocke les fichiers transférés ou téléchargés dans un dossier dédié. Un dossier est créé pour chaque activité Transfert de fichier d’un workflow. Par défaut, les fichiers sont enregistrés dans le répertoire de stockage par défaut du dossier d’installation d’Adobe Campaign (`/vars`) avant d’être traité. Pour utiliser un dossier spécifique, faites basculer le **[!UICONTROL Utiliser un répertoire de stockage par défaut]** et saisissez le chemin du répertoire.
+À chacune de ses exécutions, l’activité **[!UICONTROL Transfert de fichier]** stocke les fichiers transférés ou téléchargés dans un dossier dédié. Un dossier est créé pour chaque activité Transfert de fichier d’un workflow. Par défaut, les fichiers sont enregistrés dans le répertoire de stockage par défaut du dossier d’installation d’Adobe Campaign (`/vars`) avant d’être traité. Pour utiliser un dossier spécifique, désactivez l’option **[!UICONTROL Utiliser un répertoire de stockage par défaut]** et saisissez le chemin du répertoire.
 
 ![](../assets/workflow-transfer-file-historization.png)
 
-Il est important de pouvoir limiter la taille de ce dossier afin de préserver l’espace physique sur le serveur. Pour ce faire, vous pouvez définir un nombre maximum de fichiers ou la taille totale du dossier de l’activité. Par défaut, 100 fichiers et 50 Mo sont autorisés.
+Il est important de pouvoir limiter la taille de ce dossier de façon à préserver l’espace physique sur le serveur. Pour ce faire, vous pouvez définir un nombre maximum de fichiers ou la taille totale du dossier de l’activité. Par défaut, 100 fichiers et 50 Mo sont autorisés.
 
 À chaque exécution de l’activité, le dossier est vérifié comme suit :
 
 * Seuls les fichiers créés plus de 24 heures avant l’exécution de l’activité sont pris en compte.
-* Si le nombre de fichiers pris en compte est supérieur à la valeur de la variable **[!UICONTROL Nombre de fichiers]** , les fichiers les plus anciens sont supprimés jusqu’à ce que le nombre maximal de fichiers autorisé soit atteint.
-* Si la taille totale des fichiers pris en compte est supérieure à la valeur de la variable **[!UICONTROL Taille maximale (en Mo)]** , les fichiers les plus anciens sont supprimés jusqu’à ce que la Taille maximale (en Mo) soit atteinte.
+* Si le nombre de fichiers pris en compte est supérieur à la valeur du champ **[!UICONTROL Nombre de fichiers]**, les fichiers les plus anciens sont supprimés jusqu’à ce que le nombre maximum de fichiers soit atteint.
+* Si la taille totale des fichiers pris en compte est supérieure à la valeur du paramètre **[!UICONTROL Taille maximale (en Mo)]**, les fichiers les plus anciens sont supprimés jusqu’à ce que la taille maximale (en Mo) soit atteinte.
 
 >[!CAUTION]
 >
@@ -139,22 +140,22 @@ Il est important de pouvoir limiter la taille de ce dossier afin de préserver l
 
 ## Options avancées et de gestion des erreurs {#advanced}
 
-1. Dans le **[!UICONTROL Options avancées]**, d’autres options sont disponibles en fonction du type d’activité que vous configurez. Pour plus d’informations, développez les sections ci-dessous.
+1. Dans les **[!UICONTROL Options avancées]**, d’autres options sont disponibles en fonction du type d’activité que vous configurez. Pour plus d’informations, développez les sections ci-dessous.
 
-   +++ Options supplémentaires pour **[!UICONTROL Transfert de fichier]** activités de type
+   +++ Options supplémentaires pour les activités de type **[!UICONTROL Transfert de fichier]**
 
-   * **[!UICONTROL Supprimer les fichiers source après leur transfert]**: effacez les fichiers source après un transfert réussi.
-   * **[!UICONTROL Affichage des journaux de session]**: lorsque cette option est activée, les informations relatives à l’opération de transfert s’affichent dans les logs du workflow une fois le workflow exécuté.
-   * **[!UICONTROL Liste de tous les fichiers]** (Actions de liste de fichiers) : cette option indexe tous les fichiers présents sur le serveur dans la variable `vars.filenames` dans laquelle les noms de fichier sont séparés par la variable `n` caractères. [Découvrez comment utiliser des variables d’événement](../event-variables.md)
+   * **[!UICONTROL Supprimer les fichiers source après leur transfert]** : effacez les fichiers source après un transfert réussi.
+   * **[!UICONTROL Afficher des logs de la session]** : lorsque cette option est activée, les informations relatives à l’opération de transfert s’affichent dans les logs du workflow une fois le workflow exécuté.
+   * **[!UICONTROL Répertorier tous les fichiers]** (Actions de listage de fichiers) : cette option indexe tous les fichiers présents sur le serveur dans la variable d’événement `vars.filenames` dans laquelle les noms de fichier sont séparés par les caractères `n`. [Découvrir comment travailler avec les variables d’événement](../event-variables.md)
 
 +++
 
-   +++ Options supplémentaires pour **[!UICONTROL Téléchargement web]** activités de type
+   +++Options supplémentaires pour les activités de type **[!UICONTROL Téléchargement web]**
 
-   * **[!UICONTROL Suivez les redirections]**: la redirection de fichier permet d&#39;utiliser des remplacements pour diriger la saisie ou la sortie de données vers un appareil d&#39;un autre type.
-   * **[!UICONTROL Ajout des en-têtes HTTP au fichier]**: dans certains cas, vous pouvez ajouter des en-têtes HTTP supplémentaires à un fichier. Le plus souvent, ces en-têtes seront utilisés pour fournir des informations supplémentaires à des fins de dépannage, pour les [Partage des ressources cross-origin (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS)ou pour définir des directives de mise en cache spécifiques.
-   * **[!UICONTROL Ignorer le code de retour HTTP]**: les codes retour HTTP, également appelés codes d’état HTTP, indiquent le résultat d’une requête HTTP.
+   * **[!UICONTROL Suivre les redirections]** : la redirection de fichier permet d’utiliser des remplacements pour diriger les entrées ou les sorties de données vers un périphérique d’un différent type.
+   * **[!UICONTROL Ajouter des en-têtes HTTP au fichier]** : dans certains cas, vous pouvez ajouter des en-têtes HTTP supplémentaires à un fichier. Le plus souvent, ces en-têtes sont utilisés pour fournir des informations supplémentaires à des fins de résolution de problèmes, pour le [partage de ressources entre origines multiples (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) ou pour définir des directives de mise en cache spécifiques.
+   * **[!UICONTROL Ignorer le code de retour HTTP]** : les codes de retour HTTP, également appelés codes d’état HTTP, indiquent le résultat d’une requête HTTP.
 
-1. La variable **[!UICONTROL Traiter les erreurs]** permet d&#39;activer une transition sortante &quot;Erreur&quot; après l&#39;activité si une erreur se produit pendant le transfert.
+1. L’option **[!UICONTROL Traiter les erreurs]** permet d’activer une transition sortante « Erreur » après l’activité si une erreur se produit pendant le transfert.
 
-   En outre, pour **Transfert de fichier** les activités de type , **[!UICONTROL Traitement du fichier manquant]** permet d&#39;activer une transition sortante &quot;Aucun fichier&quot; après l&#39;activité si le fichier n&#39;est pas disponible sur le chemin spécifié.
+   En outre, pour les activités de type **Transfert de fichier**, l’option **[!UICONTROL Traiter l’absence de fichier]** permet d’activer une transition sortante « Aucun fichier » après l’activité si le fichier n’est pas disponible sur le chemin spécifié.

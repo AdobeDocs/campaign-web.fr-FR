@@ -4,9 +4,9 @@ title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Pour accéder aux services d’abonnements disponibles pour votre plateforme, pr
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Page de destination par défaut"
->abstract="Sélectionnez les landing pages par défaut associées à ce service."
+>abstract="Sélectionnez les pages de destination par défaut associées à ce service."
 
 Pour créer un service d’abonnement, procédez comme suit :
 
@@ -86,25 +86,25 @@ Pour créer un service d’abonnement, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Enregistrer et réviser]**. Le nouveau service est ajouté à la liste **[!UICONTROL Services d’abonnements]**.
 
-1. Vous pouvez également sélectionner les landing pages d&#39;inscription et de désinscription par défaut associées à ce service.
+1. Vous pouvez également sélectionner les pages de destination d’abonnement et de désabonnement par défaut associées à ce service.
 
    >[!AVAILABILITY]
    >
-   >Cette fonctionnalité est en disponibilité limitée (LA). Il est limité aux clients effectuant la migration. **de Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployés dans un autre environnement.
+   >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration d’**Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
    ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
 
-   Une fois terminé, lorsque [insérer un lien](../email/message-tracking.md) dans un email, sélectionnez **[!UICONTROL Lien d&#39;abonnement]** ou **[!UICONTROL Lien de désabonnement]**. Lorsque vous cliquez sur ce lien, les utilisateurs sont redirigés vers la landing page d&#39;inscription ou de désinscription référencée dans le service. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+   Une fois que vous avez terminé, lorsque vous [insérez un lien](../email/message-tracking.md) dans un e-mail, sélectionnez **[!UICONTROL Lien d’abonnement]** ou **[!UICONTROL Lien de désabonnement]**. En cliquant sur ce lien, les utilisateurs et utilisatrices sont redirigés vers la page de destination d’abonnement ou de désabonnement référencée dans le service. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
    ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
 
-1. Enregistrez et passez en revue vos modifications.
+1. Enregistrez et vérifiez vos modifications.
 
-Vous pouvez maintenant :
+Vous pouvez maintenant effectuer les actions suivantes :
 
-* Ajoutez manuellement des abonnés à ce service et désabonnez-vous des profils. [En savoir plus](../audience/manage-subscribers.md)
+* Ajoutez manuellement des personnes abonnées à ce service et désinscrivez des profils. [En savoir plus](../audience/manage-subscribers.md)
 
-* Invitez vos clients à s’inscrire à ce service par le biais d’une landing page. [En savoir plus](../landing-pages/lp-use-cases.md#lp-subscription)
+* Invitez vos clientes et clients à s’abonner à ce service par le biais d’une page de destination. [En savoir plus](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Envoyez des messages aux personnes abonnées à ce service. [Voici comment procéder](../msg/send-to-subscribers.md).
 
