@@ -4,7 +4,7 @@ title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Pour créer un service d’abonnement, procédez comme suit :
 
    >[!AVAILABILITY]
    >
-   >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration d’**Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
+   >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
    ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
 

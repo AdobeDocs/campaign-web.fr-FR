@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 575219c7bcef303e211f504d13227183933924cc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 100%
 

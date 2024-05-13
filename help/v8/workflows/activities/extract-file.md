@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Extraction de fichier
 description: Découvrir comment utiliser l’activité de workflow Extraction de fichier
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 100%
 
