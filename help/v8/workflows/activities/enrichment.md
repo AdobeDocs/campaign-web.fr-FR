@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 2f39b200df146762fdff6e6a76aecb039d1fab6b
-workflow-type: ht
-source-wordcount: '726'
-ht-degree: 100%
+source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="acw_orchestration_enrichment_data"
 >title="Activité Enrichissement"
 >abstract="Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_reconciliation"
+>title="Réconciliation des enrichissements"
+>abstract="réconciliation d&#39;enrichissement"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
