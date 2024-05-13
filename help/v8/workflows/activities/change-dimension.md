@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Changement de dimension
 description: Découvrez comment utiliser l’activité de workflow Changement de dimension.
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 86%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 100%
 L’activité **Changement de dimension** est une activité de **ciblage**. Cette activité permet de modifier la dimension de ciblage au fur et à mesure de la construction de votre workflow. Elle déplace l’axe en fonction du modèle de données et de la dimension d’entrée. [En savoir plus sur les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions)
 
 Par exemple, vous pouvez passer de la dimension de ciblage d’un workflow « Personnes destinataires » à « Application des abonnées et abonnés » afin d’envoyer des notifications push aux personnes destinataires ciblées.
+
+>[!IMPORTANT]
+>
+>Veuillez noter que la variable **[!UICONTROL Modification de la dimension]** et **[!UICONTROL Modification de la source de données]** Les activités ne doivent pas être ajoutées sur une seule ligne. Si vous devez utiliser les deux activités consécutivement, veillez à inclure une **[!UICONTROOL Enrichissement]** activité entre elles. Cela garantit une bonne exécution et évite les conflits ou erreurs potentiels.
 
 ## Configurer l’activité Changement de dimension {#configure}
 
