@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser l’activité de workflow Requête incrémentale
 description: Découvrir comment utiliser l’activité de workflow Requête incrémentale
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '794'
 ht-degree: 92%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 92%
 >id="acw_orchestration_incrementalquery_history"
 >title="Historique des requêtes incrémentales"
 >abstract="Historique des requêtes incrémentales"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="Données traitées des requêtes incrémentales"
+>abstract="Données traitées des requêtes incrémentales"
 
 L’activité **Requête incrémentale** est une activité de **Ciblage** qui vous permet d’interroger la base de données à des moments planifiés. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela permet de ne cibler que les éléments nouveaux.
 
