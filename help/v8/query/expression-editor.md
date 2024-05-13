@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '2015'
-ht-degree: 100%
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+workflow-type: tm+mt
+source-wordcount: '2106'
+ht-degree: 95%
 
 ---
 
@@ -91,6 +91,11 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Renvoie l'écart type d'une colonne de type nombre<br /> </td> 
    <td> StdDev(&lt;valeur&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> Renvoie la concaténation des valeurs d'une colonne de type chaîne, séparées par le caractère du second argument<br /> </td> 
+   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -145,6 +150,16 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> Convertit l’horodatage NTZ (horodatage sans fuseau horaire) en TZ (horodatage avec fuseau horaire) en application de la valeur TZ de session définie.<br/> </td> 
    <td> ConvertNTZ (&lt;date+heure&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> Comparaison de deux dates<br/> </td> 
+   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -280,6 +295,16 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Convertit une chaîne en date + heure<br /> </td> 
    <td> ToDateTime(&lt;chaîne&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> Convertit une chaîne en horodatage<br /> </td> 
+   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> Convertir une date + heure en fuseau horaire<br /> </td> 
+   <td> ToTimeZone(&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ Ce tableau contient les autres fonctions disponibles.
    <td> <strong>Description</strong><br /> </td> 
    <td> <strong>Syntaxe</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> Chiffrer la chaîne fournie dans l’argument<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Renvoie la valeur 1 si la condition est vérifiée. Sinon, renvoie la valeur 2.<br /> </td> 
@@ -522,11 +547,11 @@ Ce tableau contient les autres fonctions disponibles.
    <td> Renvoie la valeur 2 si la chaîne 1 est vide, sinon renvoie la valeur 3<br /> </td> 
    <td> IsEmptyString(&lt;valeur 1&gt;, &lt;valeur 2&gt;, &lt;valeur 3&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> Renvoie un identifiant unique<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Renvoie la chaîne vide si l'argument n'a pas de valeur (null)<br /> </td> 
@@ -631,11 +656,11 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> Renvoie la longueur de la chaîne<br /> </td> 
    <td> Length(&lt;chaîne&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>Ligne</strong><br /> </td> 
+   <td> Extraire la ligne n de la chaîne<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Renvoie la chaîne en minuscules<br /> </td> 
@@ -665,6 +690,11 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extrait la valeur d’un champ XML de son XPath et des données de champ<br /> </td> 
    <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> Remplace toutes les occurrences d’une valeur de chaîne spécifiée par une autre valeur de chaîne.<br /> </td> 
+   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
