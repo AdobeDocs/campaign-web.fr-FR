@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Activité Services d’abonnements"
->abstract="Utilisez la nouvelle activité de workflow Services d’abonnements pour gérer les abonnements à un service. Vous pouvez abonner ou désabonner une population et mettre à jour plusieurs abonnements à partir d’un fichier externe. Vous pouvez également envoyer un message de confirmation pour notifier vos abonnés."
+>title="Activité Services d’abonnement"
+>abstract="Utilisez la nouvelle activité de workflow Services d’abonnement pour gérer les abonnements à un service. Vous pouvez abonner ou désinscrire une population et mettre à jour plusieurs abonnements à partir d’un fichier externe. Une option vous permet également d’envoyer un message de confirmation pour informer vos personnes abonnées."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 

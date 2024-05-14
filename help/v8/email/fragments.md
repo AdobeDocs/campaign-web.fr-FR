@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 3%
+ht-degree: 19%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
->title="Définition de vos propres fragments"
->abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails à l’échelle des campagnes. Cette fonctionnalité est utilisée pour précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par les utilisateurs marketing pour assembler rapidement les contenus d’email dans un processus de conception amélioré."
+>title="Définir vos propres fragments"
+>abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails pour plusieurs campagnes. Cette fonctionnalité est utilisée pour précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par les utilisateurs marketing pour assembler rapidement les contenus d’email dans un processus de conception amélioré."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
@@ -27,8 +27,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
->title="Définition de vos propres fragments"
->abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails à l’échelle des campagnes."
+>title="Définir vos propres fragments"
+>abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails pour plusieurs campagnes."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
@@ -38,12 +38,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="Type de fragment"
->abstract="Sélectionnez le type de fragment. Pour l’instant, seuls les fragments visuels pour les emails sont disponibles."
+>abstract="Sélectionnez le type de fragment. Pour l’instant, seuls les fragments visuels pour les e-mails sont disponibles."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
->title="Définition de vos propres fragments"
->abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails à l’échelle des campagnes. Vous pouvez également utiliser des fragments dans vos modèles d’email. Pour l’instant, seuls les fragments visuels sont disponibles."
+>title="Définir vos propres fragments"
+>abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails pour plusieurs campagnes. Vous pouvez également utiliser des fragments dans vos modèles d’e-mails. Pour l’instant, seuls les fragments visuels sont disponibles."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
@@ -52,10 +52,10 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_create_fragment"
->title="Définition de vos propres fragments"
->abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails à l’échelle des campagnes."
+>title="Définir vos propres fragments"
+>abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails pour plusieurs campagnes."
 
-Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails à l’échelle des campagnes. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour.
+Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails pour plusieurs campagnes. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour.
 
 Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par les utilisateurs marketing pour assembler rapidement les contenus d’email dans un processus de conception amélioré.
 
@@ -71,9 +71,9 @@ Pour optimiser l’utilisation des fragments :
 
 Vous pouvez créer des fragments de deux manières différentes :
 
-* Créez un fragment à partir de zéro, à l’aide de la fonction **[!UICONTROL Fragments]** menu dédié. [Voici comment procéder](#create-from-scratch).
+* Créez un fragment à partir de zéro, à l’aide de la fonction **[!UICONTROL Fragments]** menu dédié. [Voici comment procéder](#create-from-scratch)
 
-* Lors de la conception de contenu, enregistrez une partie de votre contenu en tant que fragment. [Voici comment procéder](#save-as-fragment).
+* Lors de la conception de contenu, enregistrez une partie de votre contenu en tant que fragment. [Voici comment procéder](#save-as-fragment)
 
 Une fois enregistré, votre fragment peut être utilisé dans un email ou un modèle d’email. Qu’il soit créé à partir de zéro ou d’un contenu existant, vous pouvez désormais utiliser ce fragment lors de la création de tout contenu dans Campaign. Voir [Ajout de fragments visuels](../email/use-visual-fragments.md).
 
@@ -105,7 +105,7 @@ Pour créer un fragment à partir de zéro, procédez comme suit.
 
 1. Une fois votre fragment prêt, cliquez sur **[!UICONTROL Enregistrer et fermer]**. Il est ajouté à la variable [liste de fragments](#access-manage-fragments).
 
-Ce fragment est maintenant prêt à être utilisé lors de la création d’un [email](../email/get-started-email-designer.md) ou [modèle de contenu](use-email-templates.md) dans Campaign. [Voici comment procéder](../email/use-visual-fragments.md).
+Ce fragment est maintenant prêt à être utilisé lors de la création d’un [email](../email/get-started-email-designer.md) ou [modèle de contenu](use-email-templates.md) dans Campaign. [Voici comment procéder](../email/use-visual-fragments.md)
 
 
 ### Enregistrement d’un contenu en tant que fragment {#save-as-fragment}
@@ -130,7 +130,7 @@ Tout contenu d’email peut être enregistré en tant que fragment en vue d’un
 
    ![](assets/fragment-save-confirm.png)
 
-   Ce contenu est désormais un fragment autonome ajouté à la variable [liste de fragments](#manage-fragments)et accessible à partir du menu dédié. Vous pouvez désormais utiliser ce fragment lors de la création d’un [email](../email/get-started-email-designer.md) ou [modèle de contenu](use-email-templates.md) dans Campaign. [Voici comment procéder](../email/use-visual-fragments.md).
+   Ce contenu est désormais un fragment autonome ajouté à la variable [liste de fragments](#manage-fragments)et accessible à partir du menu dédié. Vous pouvez désormais utiliser ce fragment lors de la création d’un [email](../email/get-started-email-designer.md) ou [modèle de contenu](use-email-templates.md) dans Campaign. [Voici comment procéder](../email/use-visual-fragments.md)
 
 >[!NOTE]
 >
