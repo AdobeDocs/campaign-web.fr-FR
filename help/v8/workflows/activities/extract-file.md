@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Extraction de fichier
 description: Découvrir comment utiliser l’activité de workflow Extraction de fichier
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '875'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ La section **[!UICONTROL Fichier à extraire]** vous permet de configurer les pr
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Format de destination"
->abstract="Sélectionnez le format."
+>abstract="Sélectionnez les différentes options pour paramétrer le formatage du fichier extrait."
 
 La section de format **[!UICONTROL Destination]** vous permet de configurer le format du fichier extrait.
 
@@ -82,7 +82,7 @@ La section de format **[!UICONTROL Destination]** vous permet de configurer le f
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post-traitement"
->abstract="Définir une étape de post-traitement"
+>abstract="Définissez une étape de post-traitement à appliquer comme le compressage ou le cryptage."
 
 Le **[!UICONTROL script de modification de l’export]** vous permet d’appliquer une étape de traitement à exécuter lors de l’extraction des données, comme la compression ou le chiffrement. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier le script]**.
 

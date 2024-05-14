@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Vous pouvez, par exemple, filtrer selon le planning de votre campagne. Ouvrez le
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Liste des workflows dans une campagne"
->abstract="Liste des workflows dans une campagne"
+>abstract="La variable **Workflow** répertorie tous les workflows liés à l&#39;opération en cours."
 
 Dans l’onglet **Parcourir** de la liste des campagnes, cliquez sur une campagne pour afficher ses détails.
 

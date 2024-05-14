@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 98%
 
 ---
 
@@ -53,12 +53,12 @@ Dans la liste, vous pouvez modifier, dupliquer ou supprimer des modèles de cont
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Conception de modèle de contenu"
->abstract="Conception de modèle de contenu"
+>abstract="Concevez votre modèle de contenu d&#39;email."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Sélection du modèle de contenu"
->abstract="Sélection du modèle de contenu"
+>abstract="Sélectionnez votre modèle de contenu d&#39;email."
 
 Les modèles de contenu peuvent être créés en [enregistrant un e-mail existant en tant que modèle](#save-as-template) ou à partir de la liste des modèles d’e-mail, via le bouton **Créer un modèle de contenu**, [comme décrit ci-dessous](#create-template-from-scratch).
 
@@ -133,7 +133,7 @@ Pour enregistrer un contenu d’e-mail en tant que modèle, procédez comme suit
 
 Le modèle est enregistré et affiché dans la liste **[!UICONTROL Modèles de contenu]**. Il devient alors un modèle de contenu autonome, pouvant être consulté, modifié et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates)
 
-Vous pouvez désormais utiliser ce modèle pour créer un nouveau contenu : il est disponible sous l’onglet **[!UICONTROL Modèles enregistrés]** du Concepteur d’e-mail. [Voici comment procéder](use-email-templates.md).
+Vous pouvez désormais utiliser ce modèle pour créer un nouveau contenu : il est disponible sous l’onglet **[!UICONTROL Modèles enregistrés]** du Concepteur d’e-mail. [Voici comment procéder](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
 

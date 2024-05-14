@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 100%
+source-wordcount: '2138'
+ht-degree: 97%
 
 ---
 
@@ -157,7 +157,7 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="Sélectionner une audience"
->abstract="Sélectionner une audience"
+>abstract="En utilisant la variable **Sélection de l’audience** , vous pouvez choisir l&#39;audience que vous souhaitez utiliser pour filtrer votre requête."
 
 Pour filtrer votre requête à l’aide d’une audience existante, procédez comme suit :
 
@@ -174,7 +174,7 @@ Pour filtrer votre requête à l’aide d’une audience existante, procédez co
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="Filtre prédéfini"
->abstract="Filtre prédéfini"
+>abstract="En utilisant la variable **Filtre prédéfini** vous pouvez sélectionner un filtre prédéfini dans la liste des filtres personnalisés ou parmi les favoris."
 
 Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez comme suit :
 
@@ -213,7 +213,7 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Groupe"
->abstract="Groupe"
+>abstract="Dans ce volet, vous pouvez modifier l&#39;opérateur utilisé pour associer les conditions de filtrage."
 
 Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête, il est automatiquement lié à l’autre composant par un opérateur **ET**. Cela signifie que les résultats des deux composants de filtrage sont combinés.
 

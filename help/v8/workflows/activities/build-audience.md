@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 96%
 
 ---
 
@@ -33,12 +33,12 @@ Pour définir la population de l’audience, vous pouvez :
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configurer l’activité Créer une audience{#build-audience-configuration}
+## Configurer l’activité Créer une audience {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Audience"
->abstract="Audience"
+>abstract="Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d&#39;une nouvelle diffusion."
 
 Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
