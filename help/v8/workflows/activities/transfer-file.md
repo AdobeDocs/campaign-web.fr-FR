@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité Transfert de fichier
 description: Découvrir comment utiliser l’activité de workflow Transfert de fichier
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 100%
+source-wordcount: '1175'
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Serveur distant de transfert de fichier"
->abstract="Serveur distant de transfert de fichier"
+>abstract="Indiquez le serveur à connecter."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -40,17 +40,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Effacer les fichiers source après leur transfert"
->abstract="Effacer les fichiers source après leur transfert"
+>abstract="Effacez les fichiers source après un transfert réussi."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Afficher les journaux de la session"
->abstract="Afficher les journaux de la session"
+>abstract="Les informations relatives à l’opération de transfert sont affichées dans les logs du workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="Répertorier tous les fichiers"
->abstract="Répertorier tous les fichiers"
+>abstract="Cette option indexe tous les fichiers présents sur le serveur dans la variable **vars.filenames** variable d’événement."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Traiter les fichiers absents"
->abstract="Traiter les fichiers absents"
+>abstract="Cette option permet d&#39;activer une transition sortante &quot;Aucun fichier&quot; après l&#39;activité."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Traiter les erreurs"
->abstract="Traiter les erreurs"
+>abstract="Cette option permet d&#39;activer une transition sortante &quot;Erreur&quot; après l&#39;activité."
 
 L’activité **Transfert de fichier** est une activité de **Gestion des données**. Elle permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de répertorier les fichiers sur un serveur. Le protocole utilisé peut être soit un protocole serveur à serveur, soit un protocole HTTP.
 
@@ -108,7 +108,7 @@ Suivez les étapes détaillées ci-dessous pour configurer l’activité **Trans
 
 ## Définir la destination du transfert {#destination}
 
-1. Dans la section **[!UICONTROL Serveur distant]**, spécifiez le serveur auquel se connecter à l’aide de l’une des méthodes suivantes :
+1. Dans le **[!UICONTROL Serveur distant]** , spécifiez le serveur à connecter à l’aide de l’une des méthodes suivantes :
 
    * **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** : connectez-vous à un serveur à l’aide des paramètres de connexion d’un compte externe. Dans le champ **[!UICONTROL Dossier du serveur]**, spécifiez le chemin d’accès au fichier (ou au dossier pour les actions de liste de fichiers).
    * **[!UICONTROL Configuration rapide]** : saisissez l’URL du fichier (ou dossier pour les actions de liste de fichiers).
@@ -145,7 +145,7 @@ Il est important de pouvoir limiter la taille de ce dossier de façon à préser
    +++ Options supplémentaires pour les activités de type **[!UICONTROL Transfert de fichier]**
 
    * **[!UICONTROL Supprimer les fichiers source après leur transfert]** : effacez les fichiers source après un transfert réussi.
-   * **[!UICONTROL Afficher des logs de la session]** : lorsque cette option est activée, les informations relatives à l’opération de transfert s’affichent dans les logs du workflow une fois le workflow exécuté.
+   * **[!UICONTROL Affichage des journaux de session]**: lorsque cette option est activée, les informations relatives à l’opération de transfert sont affichées dans les logs du workflow une fois le workflow exécuté.
    * **[!UICONTROL Répertorier tous les fichiers]** (Actions de listage de fichiers) : cette option indexe tous les fichiers présents sur le serveur dans la variable d’événement `vars.filenames` dans laquelle les noms de fichier sont séparés par les caractères `n`. [Découvrir comment travailler avec les variables d’événement](../event-variables.md)
 
 +++
