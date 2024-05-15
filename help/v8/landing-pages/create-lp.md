@@ -4,7 +4,7 @@ description: Découvrir comment configurer et publier une page de destination da
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1504'
 ht-degree: 100%
 

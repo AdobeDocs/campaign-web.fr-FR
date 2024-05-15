@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Mise à jour de données
 description: Découvrir comment utiliser l’activité de workflow Mise à jour de données
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Activité Mise à jour de données"
->abstract="L’activité Mise à jour de données peut désormais être utilisée dans des workflows. Utilisez l’activité Mise à jour de données pour mettre à jour en masse des champs de la base de données. Plusieurs options sont disponibles pour personnaliser le type de mise à jour."
+>abstract="L’activité Mise à jour de données peut désormais être utilisée dans des workflows. Utilisez l’activité Mise à jour de données pour effectuer la mise à jour en masse des champs de la base de données. Plusieurs options sont proposées pour personnaliser le type de mise à jour."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 

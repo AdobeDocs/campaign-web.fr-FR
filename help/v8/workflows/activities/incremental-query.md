@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Requête incrémentale
 description: Découvrir comment utiliser l’activité de workflow Requête incrémentale
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Activité Requête incrémentale"
->abstract="Utilisez la nouvelle activité Requête incrémentale pour interroger la base de données à des moments planifiés. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments."
+>abstract="Utilisez la nouvelle activité Requête incrémentale pour interroger la base de données selon un calendrier précis. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela permet de ne cibler que les éléments nouveaux."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Requête incrémentale"
->abstract="L’activité **Requête incrémentale** est une activité de **Ciblage** qui vous permet d’interroger la base de données à l’aide du concepteur de requête. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments."
+>abstract="L’activité **Requête incrémentale** est une activité de **Ciblage** qui vous permet d’interroger la base de données à l’aide du concepteur de requête. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela permet de ne cibler que les éléments nouveaux."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
@@ -33,7 +33,7 @@ ht-degree: 94%
 >title="Données traitées des requêtes incrémentales"
 >abstract="Données traitées des requêtes incrémentales"
 
-L’activité **Requête incrémentale** est une activité de **Ciblage** qui vous permet d’interroger la base de données à des moments planifiés. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments.
+L’activité **Requête incrémentale** est une activité de **Ciblage** qui vous permet d’interroger la base de données à des moments planifiés. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela permet de ne cibler que les éléments nouveaux.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ L&#39;activité **[!UICONTROL Requête incrémentale]** peut être utilisée dan
 
 La population déjà ciblée par les exécutions précédentes est stockée dans le workflow. Cela signifie que deux workflows démarrés à partir du même modèle ne partagent pas le même journal. Toutefois, deux tâches basées sur la même requête incrémentale dans le même workflow utilisent le même journal.
 
-Si le résultat d&#39;une requête incrémentale est égal à 0 lors de l&#39;une de ses exécutions, le workflow est suspendu jusqu&#39;à la prochaine exécution programmée de la requête. Les transitions et activités qui suivent la requête incrémentale ne sont donc pas traitées avant l&#39;exécution suivante.
+Si le résultat de la requête incrémentale est égal à 0 lors de l’une de ses exécutions, le workflow est mis en pause jusqu’à la prochaine exécution programmée de la requête. Les transitions et activités qui suivent la requête incrémentale ne sont alors pas traitée avant l’exécution suivante.
 
 ## Configurer l’activité Requête incrémentale {#incremental-query-configuration}
 

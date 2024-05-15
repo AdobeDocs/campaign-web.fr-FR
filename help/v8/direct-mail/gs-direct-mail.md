@@ -4,7 +4,7 @@ title: Prise en main des diffusions par courrier
 description: Découvrez comment créer et envoyer des diffusions par courrier à l’aide d’Adobe Campaign Web.
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 

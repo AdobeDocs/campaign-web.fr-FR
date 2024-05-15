@@ -4,9 +4,9 @@ title: Transition de Campaign Standard vers Adobe Campaign Web
 description: Interface d’utilisation d’Adobe Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,10 +64,10 @@ La plupart des concepts sont similaires entre l’interface de Campaign Web et 
 * Les ressources personnalisées sont des **Schémas** dans l&#39;interface d’utilisation de Campaign Web.
 * Les activités marketing n’existent plus.
 * Les Messages sont les **Diffusions**.
-* Les utilisateurs sont **Opérateurs**.
-* Les rôles sont **Droits nommés**.
-* Les groupes de sécurité **Groupes d’opérateurs**.
-* Les entités organisationnelles sont **Autorisations de dossier**
+* Les utilisateurs et utilisatrices sont les **opérateurs et opératrices**.
+* Les rôles sont les **droits nommés**.
+* Les groupes de sécurité sont les **groupes d’opérateurs et d’opératrices**.
+* Les entités organisationnelles sont les **autorisations de dossier**
 
 ## Nouvelles fonctionnalités {#new-features}
 
