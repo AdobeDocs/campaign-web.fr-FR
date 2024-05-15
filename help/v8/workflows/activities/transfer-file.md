@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité Transfert de fichier
 description: Découvrir comment utiliser l’activité de workflow Transfert de fichier
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 89%
+source-wordcount: '1177'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="Source de transfert de fichier"
->abstract="Source de transfert de fichier"
+>abstract="Saisissez le nom de fichier souhaité."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Traiter les fichiers absents"
->abstract="Cette option permet d&#39;activer une transition sortante &quot;Aucun fichier&quot; après l&#39;activité."
+>abstract="Cette option vous permet d’activer une **Aucun fichier** transition sortante après l&#39;activité."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Traiter les erreurs"
->abstract="Cette option permet d&#39;activer une transition sortante &quot;Erreur&quot; après l&#39;activité."
+>abstract="Cette option vous permet d’activer une **Erreur** transition sortante après l&#39;activité."
 
 L’activité **Transfert de fichier** est une activité de **Gestion des données**. Elle permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de répertorier les fichiers sur un serveur. Le protocole utilisé peut être soit un protocole serveur à serveur, soit un protocole HTTP.
 
