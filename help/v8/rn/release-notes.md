@@ -2,9 +2,9 @@
 title: Dernières notes de mise à jour
 description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
-workflow-type: ht
-source-wordcount: '1185'
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+workflow-type: tm+mt
+source-wordcount: '1124'
 ht-degree: 100%
 
 ---
@@ -91,10 +91,9 @@ Les améliorations ci-dessous sont disponibles pour l’ensemble des clientes et
 
 * L’option « Ne pas activer la transition si la population est vide » dans l’**Activité Partage** vous permet de choisir si le workflow doit passer à l’activité suivante lorsque le résultat du segment est vide. [En savoir plus](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**-->
-
-* Les **Champs personnalisés** sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Dans l’interface d’utilisation de Campaign Web, ces champs personnalisés sont désormais visibles sur divers écrans, tels que les détails d’un profil ou d’un profil de test. Dans l’interface d’utilisation web, vous ne pouvez pas créer de champs personnalisés, mais vous pouvez désormais modifier leur mode d’affichage. [En savoir plus](../administration/custom-fields.md)
-
+<!--* **Support of custom fields**
+* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
+-->
 
 ## Notes de mise à jour de mars {#24-3-release}
 

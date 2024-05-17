@@ -1,10 +1,12 @@
 ---
 title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés.
+hide: true
+hidefromtoc: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
-workflow-type: ht
-source-wordcount: '235'
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+workflow-type: tm+mt
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
@@ -32,19 +34,19 @@ Pour configurer des champs personnalisés, procédez comme suit :
 
 1. Dans **Administration**, cliquez sur **Schémas**.
 
-   ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields.png){zoomable="yes"}
 
 1. Recherchez le schéma souhaité, par exemple le schéma **Personnes destinataires (nms)**.
 
-   ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields2.png){zoomable="yes"}
 
 1. Cliquez sur le bouton **Autres actions** et sélectionnez **Modifier les détails personnalisés**.
 
-   ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields3.png){zoomable="yes"}
 
    L’écran **Modifier les détails personnalisés** affiche tous les champs personnalisés et leur type.
 
-   ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields4.png){zoomable="yes"}
 
    Cet écran vous permet d’effectuer les actions suivantes :
 
@@ -55,4 +57,4 @@ Pour configurer des champs personnalisés, procédez comme suit :
 
 1. Accédez à l’écran qui affiche le champ personnalisé. Dans notre exemple, il s’agit de l’écran des détails du profil.
 
-   ![](assets/custom-fields5.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields5.png){zoomable="yes"}
