@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 87%
 
 ---
 
@@ -51,23 +51,29 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB La version d’avril est en ligne.]
+>[!TAB La libération de mai est en ligne !]
 
 Découvrez les nouvelles fonctionnalités et améliorations de la version 24.4 de l’interface d’utilisation d’Adobe Campaign Web.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Nouvelles activités de workflow]
+>[!TAB Journal d’audit]
 
-Cette version est fournie avec les activités de workflow suivantes : Mettre à jour des données, Services d’abonnements, Extraire une fichier, Transférer un fichier, Test, Code JavaScript, Signal externe, Requête incrémentale.
+La nouvelle fonctionnalité Suivi fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel sur votre instance Adobe Campaign.
 
-[![Image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![Image](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
->[!TAB Notification push enrichie]
+>[!TAB Champs personnalisés]
 
-Vous pouvez désormais envoyer des notifications push enrichies via Android. La notification push enrichie est une forme améliorée de notification mobile qui va au-delà des messages texte simples en incorporant des éléments multimédias tels que des images, des boutons interactifs ou d’autres contenus multimédias enrichis.
+Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Elles sont désormais disponibles dans l’interface utilisateur Web.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![Image](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+
+>[!TAB Tableaux de lien]
+
+Vous pouvez maintenant créer un lien entre les données de la table de travail et la base de données Adobe Campaign dans l&#39;activité de workflow Enrichissement .
+
+[![image](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
