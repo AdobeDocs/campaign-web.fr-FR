@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 

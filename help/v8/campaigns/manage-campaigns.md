@@ -4,7 +4,7 @@ title: Prise en main des campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 100%
 
