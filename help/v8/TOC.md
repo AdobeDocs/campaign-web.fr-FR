@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 100%
    + [Nouveautés](rn/whats-new.md)
    + [Dernière version](rn/release-notes.md)
    + [Mises à jour de la documentation](rn/documentation-updates.md)
-   + [De Campaign Standard vers v8](rn/acs-migration.md)
 + Prise en main d’Adobe Campaign {#start}
    + [Prise en main](get-started/get-started.md)
    + [Se connecter à Campaign](get-started/connect-to-campaign.md)
@@ -29,6 +28,7 @@ ht-degree: 100%
    + [Utiliser des filtres prédéfinis](get-started/predefined-filters.md)
    + [Accès et autorisations](get-started/permissions.md)
    + [Campaign Web et console cliente](get-started/capability-matrix.md)
+   + [De Campaign Standard vers v8](rn/acs-migration.md)
    + [Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
 + Messages et diffusions {#msg}
    + [Prise en main des messages](msg/gs-messages.md)
@@ -133,6 +133,7 @@ ht-degree: 100%
    + [Mécanismes de sécurisation et limitations](get-started/guardrails.md)
    + [Variables d’événement de workflow](workflows/event-variables.md)
    + [Accéder et gérer des workflows](workflows/access-monitor.md)
+   + [A propos des workflows en lecture seule](workflows/readonly-workflows.md)
    + Créer et exécuter votre premier workflow {#create-workflow}
       + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
       + [Créer le workflow](workflows/create-workflow.md)
@@ -172,6 +173,7 @@ ht-degree: 100%
    + [Filtrer les listes](query/filter.md)
 + Rapports {#reports}
    + [Commencer avec les rapports](reporting/gs-reports.md)
+   + [Journal d’audit](reporting/audit-trail.md)
    + [Exporter vos rapports](reporting/export-reports.md)
    + [Indicateurs clés de performance](reporting/kpis.md)
    + Rapports de diffusion {#delivery-report}
