@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
-workflow-type: ht
-source-wordcount: '685'
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+workflow-type: tm+mt
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
@@ -33,18 +33,12 @@ Ces activités sont spécifiques au ciblage. Elles permettent de construire une 
 * [Combiner](combine.md) : effectuez une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
 * [Déduplication](deduplication.md) : supprimez les doublons dans le ou les résultats des activités entrantes.
 * [Enrichissement](enrichment.md) : définissez des données supplémentaires à traiter dans votre workflow. Avec cette activité, vous pouvez utiliser la transition entrante et configurer l’activité pour ajouter des données supplémentaires à la transition sortante.
-* [Requête incrémentale](incremental-query.md) : interrogez la base de données à des moments planifiés. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela permet de ne cibler que les éléments nouveaux.
+* [Requête incrémentale](incremental-query.md) : interrogez la base de données à des moments planifiés. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments.
 * [Réconciliation](reconciliation.md) : définissez le lien entre les données de la base de données d’Adobe Campaign et les données d’une table de travail, par exemple les données chargées à partir d’un fichier externe.
 * [Enregistrer l’audience](save-audience.md) : mettez à jour une audience existante ou créez une nouvelle audience à partir de la population calculée en amont dans un workflow.
 * [Partage](split.md) : segmentez la population entrante en plusieurs sous-ensembles.
 
 ## Activités de gestion des données {#data}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Activités Extraction et Chargement de fichier"
->abstract="De nouvelles activités de gestion des données sont disponibles dans les workflows. Utilisez l’activité Extraction de fichier pour exporter des données à partir d’Adobe Campaign vers un autre système sous la forme d’un fichier externe. Utilisez l’activité Chargement de fichier pour utiliser des données et des profils stockés dans un fichier externe."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 Ces activités sont spécifiques à la manipulation et à l’enrichissement des données de population.
 
@@ -60,15 +54,6 @@ Ces activités sont spécifiques à la manipulation et à l’enrichissement des
 Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux. Vous pouvez combiner des activités de canal dans la zone de travail afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement du client ou de la cliente. Les activités **Canal** suivantes sont disponibles : e-mail, SMS, notifications push Android et iOS. [Découvrez comment configurer une diffusion dans le contexte d’un workflow](channels.md).
 
 ## Activités de contrôle de flux {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Activités de workflow avancées"
->abstract="Vous pouvez maintenant configurer les activités Test, Code JavaScript et Signal externe dans un workflow. Utilisez l’activité Test pour activer les transitions de workflow en fonction des conditions. Ajoutez une activité Code JavaScript pour exécuter un fragment de code JS dans le contexte de votre workflow. Configurez une activité Signal externe pour déclencher l’exécution de votre workflow à partir d’une API ou d’un autre workflow."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

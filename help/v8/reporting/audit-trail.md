@@ -3,21 +3,28 @@ product: campaign
 title: Journal d’audit
 description: Découvrez comment surveiller votre instance à lʼaide du journal dʼaudit Campaign
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 4f7dd30f02f83624a00b3d0e6ac7ba74c1c242e0
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 48%
+source-wordcount: '615'
+ht-degree: 47%
 
 ---
 
 # Journal d’audit{#audit-trail}
 
->[!IMPORTANT]
->
->L’interface utilisateur web d’Adobe Campaign n’effectue pas le suivi des modifications apportées aux droits utilisateur, aux modèles, à la personnalisation ou aux campagnes.\
->Le Suivi peut uniquement être géré par les administrateurs de l’instance.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Suivi"
+>abstract="La nouvelle fonctionnalité Suivi fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel sur votre instance Adobe Campaign."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
+
 
 Dans l’interface utilisateur Web d’Adobe Campaign, la variable **[!UICONTROL Suivi]** offre aux utilisateurs une visibilité complète de toutes les modifications apportées à des entités importantes au sein de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance.
+
+>[!IMPORTANT]
+>
+>* L’interface utilisateur web d’Adobe Campaign ne permet pas de contrôler les modifications apportées aux droits utilisateur, aux modèles, à la personnalisation ou aux campagnes.
+>* Le Suivi peut uniquement être géré par les administrateurs de l’instance.
 
 **[!UICONTROL Suivi]** permet d’enregistrer en temps réel un journal détaillé des actions et événements se produisant dans l’instance Adobe Campaign. Il offre une méthode pratique pour accéder à un enregistrement chronologique des données, en répondant à des requêtes telles que : l’état des workflows, les derniers individus à les modifier ou les activités effectuées par les utilisateurs au sein de l’instance.
 
