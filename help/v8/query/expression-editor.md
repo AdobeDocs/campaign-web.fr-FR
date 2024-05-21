@@ -4,9 +4,9 @@ title: Créer votre première requête à l’aide du créateur de modèles de r
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
-workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '2098'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ L’éditeur d’expression est disponible à partir du bouton **[!UICONTROL Mod
 
 | Accéder depuis le champ **Attribut** | Accéder depuis le champ **Valeur** |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 L’éditeur d’expression fournit :
 
@@ -34,13 +34,13 @@ L’éditeur d’expression fournit :
 
 Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton +.
 
-![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
+![](assets/expression-editor.png){zoomable="yes"}
 
 Lorsque votre expression est prête, cliquez sur le bouton **[!UICONTROL Confirmer]**. L’expression s’affiche dans le champ sélectionné. Pour la modifier, ouvrez l’éditeur d’expression et apportez les modifications souhaitées.
 
 L’exemple ci-dessous présente une expression configurée pour le champ **[!UICONTROL Valeur]**. Pour la modifier, vous devez ouvrir l’éditeur d’expression à l’aide du bouton **[!UICONTROL Modifier une expression]**.
 
-![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
+![](assets/edit-expression-value.png){zoomable="yes"}
 
 ## Fonctions d’assistance
 
@@ -94,8 +94,8 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
   </tr>
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
-   <td> Renvoie la concaténation des valeurs d'une colonne de type chaîne, séparées par le caractère du second argument<br /> </td> 
-   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
+   <td> Renvoie la concaténation des valeurs d’une colonne de type chaîne, séparées par le caractère du deuxième argument<br />. </td> 
+   <td> StringAgg(&lt;Value&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -158,7 +158,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
   </tr>-->
   <tr> 
    <td> <strong>DateCmp</strong><br /> </td> 
-   <td> Comparaison de deux dates<br/> </td> 
+   <td> Comparer deux dates<br/> </td> 
    <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
@@ -298,13 +298,13 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
   </tr> 
   <tr> 
    <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> Convertit une chaîne en horodatage<br /> </td> 
+   <td> Convertir une chaîne en date et heure<br /> </td> 
    <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> Convertir une date + heure en fuseau horaire<br /> </td> 
-   <td> ToTimeZone(&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
+   <td> Convertir une date et une heure en fuseau horaire<br /> </td> 
+   <td> ToTimeZone(&lt;date&gt;,&lt;time zone&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -549,7 +549,7 @@ Ce tableau contient les autres fonctions disponibles.
   </tr> 
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Renvoie un identifiant unique<br /> </td> 
+   <td> Renvoie un ID unique<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
@@ -657,7 +657,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
    <td> Length(&lt;chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Ligne</strong><br /> </td> 
+   <td> <strong>Line</strong><br /> </td> 
    <td> Extraire la ligne n de la chaîne<br /> </td> 
    <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
   </tr>
@@ -694,7 +694,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
    <td> Remplace toutes les occurrences d’une valeur de chaîne spécifiée par une autre valeur de chaîne.<br /> </td> 
-   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
