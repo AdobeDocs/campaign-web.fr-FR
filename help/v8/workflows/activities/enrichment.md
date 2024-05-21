@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
-workflow-type: ht
-source-wordcount: '730'
-ht-degree: 100%
+source-git-commit: fa2d596a36652f504112c7a8543453d845462021
+workflow-type: tm+mt
+source-wordcount: '1223'
+ht-degree: 58%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="Jointure simple"
+>title="Définition du lien"
 >abstract="Jointure simple"
 
 >[!CONTEXTUALHELP]
@@ -53,15 +53,21 @@ Une fois que les données d’enrichissement ont été ajoutées au workflow, vo
 
 Par exemple, vous pouvez ajouter à la table de travail du workflow des informations relatives aux achats des clientes et clients et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
 
-## Configurer l’activité Enrichissement {#enrichment-configuration}
+## Ajouter une activité Enrichissement {#enrichment-configuration}
 
 Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
 1. Ajoutez des activités telles que **Créer une audience** et **Combiner**.
 1. Ajoutez une activité **Enrichissement**.
+1. Si plusieurs transitions ont été configurées dans votre workflow, vous pouvez utiliser la variable **[!UICONTROL Principal]** champ pour définir la transition à utiliser comme ensemble principal pour enrichir les données.
+
+## Ajouter des données d’enrichissement {#enrichment-add}
+
 1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données.
 
-   Vous pouvez sélectionner deux types de données d’enrichissement : un [attribut d’enrichissement unique](#single-attribute) de la dimension cible, ou un [lien de collection](#collection-link).
+   Vous pouvez sélectionner deux types de données d&#39;enrichissement : un seul attribut d&#39;enrichissement de la dimension cible ou un lien de collection. Chacun de ces types est présenté dans les exemples ci-dessous :
+   * [Attribut d’enrichissement unique](#single-attribute)
+   * [Lien de collection](#collection-link)
 
    >[!NOTE]
    >
@@ -69,7 +75,39 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
    ![](../assets/workflow-enrichment1.png)
 
-## Attribut d’enrichissement unique {#single-attribute}
+## Création de liens entre les tableaux {#create-links}
+
+La variable **[!UICONTROL Définition de lien]** permet de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez des données depuis un fichier contenant le numéro de compte, le pays et l&#39;email des destinataires, vous devez créer un lien vers la table des pays afin de mettre à jour ces informations dans leurs profils.
+
+Plusieurs types de liens sont disponibles :
+
+* **[!UICONTROL Lien simple de cardinalité 1]**: chaque enregistrement de l’ensemble principal peut être associé à un seul enregistrement des données liées.
+* **[!UICONTROL Lien simple de cardinalité 0 ou 1]**: chaque enregistrement de l’ensemble principal peut être associé à 0 ou 1 enregistrement des données liées, mais pas plus d’un.
+* **[!UICONTROL Lien de collection de cardinalité N]**: chaque enregistrement de l’ensemble principal peut être associé à 0, 1 ou plus (N) d’enregistrements des données liées.
+
+Pour créer un lien, procédez comme suit :
+
+1. Dans le **[!UICONTROL Définition de lien]** , cliquez sur le bouton **[!UICONTROL Ajouter un lien]** bouton .
+
+   ![](../assets/workflow-enrichment-link.png)
+
+1. Dans le **Type de relation** , sélectionnez le type de lien à créer.
+
+1. Identifiez la cible à laquelle vous souhaitez lier l&#39;ensemble principal :
+
+   * Pour associer une table existante dans la base de données, choisissez **[!UICONTROL Schéma de base de données]** et sélectionnez le tableau de votre choix dans le **[!UICONTROL Schéma cible]** champ .
+   * Pour créer un lien avec les données de la transition entrante, choisissez **Schéma temporaire** et sélectionnez la transition dont vous souhaitez utiliser les données.
+
+1. Définissez les critères de réconciliation pour faire correspondre les données de l&#39;ensemble principal avec le schéma lié. Deux types de jointures sont disponibles :
+
+   * **Jointure simple**: sélectionnez un attribut spécifique pour faire correspondre les données des deux schémas. Cliquez sur **Ajouter une jointure** et sélectionnez la variable **Source** et **Destination** attributs à utiliser comme critères de réconciliation.
+   * **Jointure avancée**: créez une jointure à l’aide de conditions avancées. Cliquez sur **Ajouter une jointure** et cliquez sur le bouton **Création d’une condition** pour ouvrir le créateur de modèles de requête.
+
+Un exemple de workflow utilisant des liens est disponible dans la [Exemples](#link-example) .
+
+## Exemples {#example}
+
+### Attribut d’enrichissement unique {#single-attribute}
 
 Ici, nous ajoutons un seul attribut d’enrichissement, par exemple, la date de naissance. Procédez comme suit :
 
@@ -79,7 +117,7 @@ Ici, nous ajoutons un seul attribut d’enrichissement, par exemple, la date de 
 
 ![](../assets/workflow-enrichment2.png)
 
-## Lien de collecte {#collection-link}
+### Lien de collecte {#collection-link}
 
 Dans ce cas pratique plus complexe, nous sélectionnons un lien de collecte qui est un lien avec une cardinalité 1-N entre les tableaux. Récupérons les trois derniers achats inférieurs à 100 USD. Pour cela, vous devez définir :
 
@@ -88,7 +126,7 @@ Dans ce cas pratique plus complexe, nous sélectionnons un lien de collecte qui 
 * un filtre : filtrez les éléments supérieurs à 100 USD ;
 * un tri : tri descendant sur le champ **Date de commande**.
 
-### Ajouter l’attribut {#add-attribute}
+#### Ajouter l’attribut {#add-attribute}
 
 C’est là que vous sélectionnez le lien de collecte à utiliser comme données d’enrichissement.
 
@@ -98,7 +136,7 @@ C’est là que vous sélectionnez le lien de collecte à utiliser comme donnée
 
 ![](../assets/workflow-enrichment3.png)
 
-### Définir les paramètres de la collecte{#collection-settings}
+#### Définir les paramètres de la collecte{#collection-settings}
 
 Définissez ensuite la manière dont les données sont collectées et le nombre d’enregistrements à récupérer.
 
@@ -111,7 +149,7 @@ Si vous souhaitez, par exemple, obtenir le montant moyen des achats d’un clien
 
 ![](../assets/workflow-enrichment5.png)
 
-### Définir des filtres{#collection-filters}
+#### Définir des filtres{#collection-filters}
 
 Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. Nous filtrons les éléments supérieurs à 100 $. [Découvrez comment utiliser le concepteur de requête](../../query/query-modeler-overview.md)
 
@@ -121,7 +159,7 @@ Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. No
 
 ![](../assets/workflow-enrichment6.png)
 
-### Définir le tri{#collection-sorting}
+#### Définir le tri{#collection-sorting}
 
 Nous devons maintenant appliquer un tri pour récupérer les trois **derniers** achats.
 
@@ -132,6 +170,20 @@ Nous devons maintenant appliquer un tri pour récupérer les trois **derniers** 
 1. Sélectionnez **Descendant** dans le menu déroulant **Tri**.
 
 ![](../assets/workflow-enrichment7.png)
+
+
+### Enrichissement avec des données liées {#link-example}
+
+L&#39;exemple ci-dessous montre un workflow paramétré pour créer un lien entre deux transitions. La première transition cible les données de profil à l&#39;aide d&#39;une activité Requête , tandis que la seconde transition regroupe les données d&#39;achat stockées dans un fichier chargé via une activité Chargement de fichier .
+
+* Le premier **Enrichissement** l’activité relie notre ensemble principal (données issues de la variable **Requête** ) avec le schéma de la propriété **Chargement de fichier** activité. Cela nous permet de faire correspondre chaque profil ciblé par la requête avec les données d&#39;achat correspondantes.
+* Une seconde **Enrichissement** l’activité est ajoutée afin d’enrichir les données de la table de workflow avec les données d’achat provenant de la **Chargement de fichier** activité. Cela nous permet d’utiliser ces données dans d’autres activités, par exemple pour personnaliser les messages envoyés aux clients avec des informations sur leur achat.
+
+  ![](../assets/workflow-enrichment-example.png)
+
+
+
+
 
 <!--
 

@@ -1,11 +1,9 @@
 ---
 title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés.
-hide: true
-hidefromtoc: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
-workflow-type: ht
+source-git-commit: 7b6b769c5825ef046fd4e5a1206b955ecf432b0d
+workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 

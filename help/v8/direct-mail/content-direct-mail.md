@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir une diffusion par courrier
 description: Découvrir comment concevoir une diffusion par courrier avec Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 96%
 
 ---
 
@@ -52,14 +52,18 @@ Pour concevoir le contenu du fichier d’extraction généré par votre diffusio
 
 1. Activez l’option **[!UICONTROL Quantité demandée]** pour limiter le nombre de personnes destinataires de votre diffusion.
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## Configurer les colonnes du fichier d’extraction {#content}
 
 Dans la section **[!UICONTROL Contenu]**, indiquez les colonnes à afficher dans le fichier d’extraction. Pour ce faire, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter un attribut]** pour créer une nouvelle colonne.
-1. Sélectionnez l’attribut à afficher dans la colonne, puis confirmez. Une fois la colonne ajoutée, vous pouvez modifier son libellé et l’attribut associé à partir de l’icône d’édition.
+1. Sélectionnez l’attribut à afficher dans la colonne, puis confirmez. Notez que vous pouvez tirer parti de l’éditeur d’expression pour sélectionner l’attribut à utiliser en cliquant sur le bouton **[!UICONTROL Expression d’édition]** bouton .
+
+   ![](assets/dm-add-attribute.png)
+
+1. Une fois la colonne ajoutée, vous pouvez modifier son libellé et l’attribut associé à partir de l’icône d’édition.
 1. Répétez ces étapes pour ajouter autant de colonnes que nécessaire à votre fichier d’extraction.
 1. Pour trier le fichier d’extraction à l’aide de l’une des colonnes, cliquez sur l’icône dans la colonne **[!UICONTROL Tri]** et sélectionnez la méthode de tri souhaitée.
 1. Pour changer la position d’une colonne, utilisez les flèches haut et bas.
