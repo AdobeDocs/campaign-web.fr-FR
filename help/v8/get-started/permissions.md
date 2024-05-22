@@ -3,10 +3,10 @@ audience: end-user
 title: Gestion des autorisations dans l’interface utilisateur web de Campaign
 description: En savoir plus sur les autorisations dans l’interface utilisateur web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 92%
 
 ---
 
@@ -48,10 +48,7 @@ ht-degree: 100%
 >title="Ce workflow est en lecture seule."
 >abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce workflow. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Ce workflow est en lecture seule."
->abstract="Vous ne pouvez pas modifier ce workflow en raison d’une zone de travail non prise en charge ou incompatible."
+
 
 Le contrôle d’accès peut restreindre l’accès aux objets et données des listes principales, telles que les diffusions, les destinataires ou les workflows. Ces restrictions s’appliquent également dans l’arborescence de navigation de l’**explorateur**. En outre, vous avez besoin d’autorisations pour créer, supprimer, dupliquer et modifier des objets à partir de l’interface utilisateur.
 
@@ -68,11 +65,11 @@ Pour afficher les autorisations d’un dossier, procédez comme suit :
 1. Dans le menu de navigation de gauche **Explorateur**, sélectionnez un dossier.
 1. Cliquez sur les trois points dans le coin supérieur droit et sélectionnez **Autorisations de dossier**.
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Vérifiez les détails dans l’écran, comme ci-dessous :
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    Un groupe, un opérateur ou une opératrice, peut disposer des autorisations de lecture, d’écriture et/ou de suppression sur les données stockées dans le dossier sélectionné.
 
@@ -94,11 +91,17 @@ Vous pouvez créer, renommer, réorganiser et déplacer des dossiers pour organi
 Pour créer un dossier, procédez comme suit :
 
 1. Dans le menu de navigation de gauche **Explorateur**, sélectionnez un dossier.
-1. Cliquez sur les trois points dans le coin supérieur droit et choisissez **Créer un sous-dossier**.
-1. Saisissez le nom du dossier et enregistrez-le.
+1. Cliquez sur les trois points dans le coin supérieur droit et choisissez **Créer un dossier**.
+1. Saisissez le nom du dossier.
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Sélectionnez le type de dossier. Par défaut, le type de dossier parent est sélectionné, &quot;Diffusions&quot;, dans notre exemple. Pour modifier le type de dossier, cliquez sur l’icône de dossier et sélectionnez un autre type.
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Cliquez sur **Créer**.
 
    Le dossier est ajouté en tant que sous-dossier du dossier actuel. Accédez à ce nouveau dossier pour y créer des composants directement. Vous pouvez également créer un composant à partir de n’importe quel dossier, puis l’enregistrer dans ce nouveau dossier, à partir de la section **Options supplémentaires** des propriétés, comme illustré ci-dessous pour une diffusion :
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
