@@ -1,11 +1,11 @@
 ---
-title: Dernières notes de mise à jour
-description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
+title: Notes de mise à jour de l’interface utilisateur web de Campaign v8
+description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface utilisateur web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
+workflow-type: tm+mt
+source-wordcount: '1461'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,45 @@ ht-degree: 100%
 >title="Notes de mise à jour"
 >abstract="Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, les notes de mise à jour de Campaign sont mises à jour plusieurs fois par mois, avec les derniers correctifs, les dernières fonctionnalités et les dernières améliorations. Nous vous recommandons de les vérifier régulièrement."
 
-<!--Last update: **March 19, 2024**-->
-
 Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont complétées plusieurs fois par mois. Veuillez les vérifier régulièrement.
+
+## Notes de mise à jour de mai {#24-5-release}
+
+**Date de publication** : mercredi 21 mai 2024
+
+Les fonctionnalités et améliorations suivantes sont disponibles pour tous les utilisateurs à compter de la version de mai.
+
+### Journal d’audit  {#24-5-1}
+
+La nouvelle **Suivi** La fonctionnalité fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel sur votre instance Adobe Campaign. Il offre une méthode pratique pour suivre toutes les modifications apportées à vos données Campaign, en répondant à des requêtes telles que : l’état des workflows, les derniers individus à les modifier ou les activités effectuées par les utilisateurs dans l’instance. [En savoir plus](../reporting/audit-trail.md)
+
+### Champs personnalisés {#24-5-2}
+
+Les **Champs personnalisés** sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Dans l’interface d’utilisation de Campaign Web, ces champs personnalisés sont désormais visibles sur divers écrans, tels que les détails d’un profil ou d’un profil de test. Dans l’interface d’utilisation web, vous ne pouvez pas créer de champs personnalisés, mais vous pouvez désormais modifier leur mode d’affichage. [En savoir plus](../administration/custom-fields.md)
+
+### Création de liens entre les tableaux {#24-5-3}
+
+Vous pouvez maintenant créer des liens avec un autre tableau de la variable **Enrichissement** activité de workflow. Utilisez la nouvelle **Définition de lien** dans les paramètres de l’activité afin de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez des données depuis un fichier contenant le numéro de compte, le pays et l&#39;email des destinataires, vous pouvez maintenant créer un lien vers la table des pays afin de mettre à jour ces informations dans leurs profils. [En savoir plus](../workflows/activities/enrichment.md#create-links)
+
+<!--
+### Content fragments {#24-5-4}
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
+
+
+### Améliorations générales {#improvements-24-5}
+
+* **Canal Courrier** - Vous pouvez désormais utiliser l’éditeur d’expression pour sélectionner les attributs à afficher dans les fichiers d’extraction de courrier. [En savoir plus](../direct-mail/content-direct-mail.md)
+
+* **Gestion des dossiers** - Vous pouvez désormais créer un sous-dossier d’un type différent de celui du dossier parent. [En savoir plus](../get-started/permissions.md#folders)
+
+
+<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
+
+* **Mondialisation** - Dans le cadre de nos efforts continus pour offrir une expérience utilisateur unifiée, nous harmonisons la terminologie utilisée dans les produits et applications Adobe Experience Cloud. Cela affecte le terme allemand &quot;Titre&quot; qui est remplacé par &quot;Libellé&quot; lorsqu’il se rapporte au nom d’un objet. Les modifications seront progressivement déployées dans l’interface utilisateur et dans la documentation.
+
 
 ## Notes de mise à jour d’avril {#april-24-4-release}
 
@@ -45,11 +81,6 @@ Vous pouvez désormais envoyer des notifications push enrichies via Android. La 
 
 Notez que cette fonctionnalité est en **Disponibilité limitée**.
 
-<!--
-* **Audit Trail**
-
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
--->
 
 ### Nouvelles fonctionnalités en disponibilité limitée {#acs-24-4}
 
@@ -91,9 +122,7 @@ Les améliorations ci-dessous sont disponibles pour l’ensemble des clientes et
 
 * L’option « Ne pas activer la transition si la population est vide » dans l’**Activité Partage** vous permet de choisir si le workflow doit passer à l’activité suivante lorsque le résultat du segment est vide. [En savoir plus](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**
-* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
--->
+
 
 ## Notes de mise à jour de mars {#24-3-release}
 
