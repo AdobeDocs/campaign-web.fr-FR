@@ -3,10 +3,10 @@ audience: end-user
 title: Gestion des autorisations dans l’interface utilisateur web de Campaign
 description: En savoir plus sur les autorisations dans l’interface utilisateur web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 89%
 
 ---
 
@@ -81,6 +81,26 @@ En savoir plus sur les autorisations de dossier dans la [documentation de Campai
 
 
 ## Utiliser des dossiers {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Propriétés du dossier"
+>abstract="Propriétés du dossier"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Sécurité des dossiers"
+>abstract="Sécurité des dossiers"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Restrictions relatives aux dossiers"
+>abstract="Restrictions relatives aux dossiers"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Planification des dossiers"
+>abstract="Planification des dossiers"
 
 Vous pouvez créer, renommer, réorganiser et déplacer des dossiers pour organiser vos composants et vos données. Vous pouvez également supprimer des dossiers à partir du même menu.
 
