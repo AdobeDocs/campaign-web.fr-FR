@@ -1,11 +1,11 @@
 ---
-title: Notes de mise à jour de l’interface utilisateur web de Campaign v8
-description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface utilisateur web de Campaign
+title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
+description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1461'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -22,19 +22,19 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 **Date de publication** : mercredi 21 mai 2024
 
-Les fonctionnalités et améliorations suivantes sont disponibles pour tous les utilisateurs à compter de la version de mai.
+Les fonctionnalités et améliorations suivantes sont disponibles pour tous les utilisateurs et utilisatrices à compter de la version de mai.
 
 ### Journal d’audit  {#24-5-1}
 
-La nouvelle **Suivi** La fonctionnalité fournit un enregistrement détaillé et chronologique de toutes les actions et tous les événements qui ont été réalisés en temps réel sur votre instance Adobe Campaign. Il offre une méthode pratique pour suivre toutes les modifications apportées à vos données Campaign, en répondant à des requêtes telles que : l’état des workflows, les derniers individus à les modifier ou les activités effectuées par les utilisateurs dans l’instance. [En savoir plus](../reporting/audit-trail.md)
+La nouvelle fonctionnalité **Journal d’audit** fournit un enregistrement détaillé et chronologique en temps réel de toutes les actions et tous les événements qui se sont produits dans votre instance Adobe Campaign. Elle offre une méthode pratique de suivi toutes les modifications apportées à vos données Campaign, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes à les modifier ou les activités effectuées par les utilisateurs et utilisatrices dans l’instance. [En savoir plus](../reporting/audit-trail.md)
 
 ### Champs personnalisés {#24-5-2}
 
 Les **Champs personnalisés** sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Dans l’interface d’utilisation de Campaign Web, ces champs personnalisés sont désormais visibles sur divers écrans, tels que les détails d’un profil ou d’un profil de test. Dans l’interface d’utilisation web, vous ne pouvez pas créer de champs personnalisés, mais vous pouvez désormais modifier leur mode d’affichage. [En savoir plus](../administration/custom-fields.md)
 
-### Création de liens entre les tableaux {#24-5-3}
+### Créer de liens entre les tables {#24-5-3}
 
-Vous pouvez maintenant créer des liens avec un autre tableau de la variable **Enrichissement** activité de workflow. Utilisez la nouvelle **Définition de lien** dans les paramètres de l’activité afin de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez des données depuis un fichier contenant le numéro de compte, le pays et l&#39;email des destinataires, vous pouvez maintenant créer un lien vers la table des pays afin de mettre à jour ces informations dans leurs profils. [En savoir plus](../workflows/activities/enrichment.md#create-links)
+Vous pouvez maintenant créer des liens avec une autre table de l’activité de workflow **Enrichissement**. Utilisez la nouvelle section **Définition du lien** dans les paramètres de l’activité afin de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous pouvez maintenant créer un lien vers la table des pays afin de mettre à jour cette information dans leur profil. [En savoir plus](../workflows/activities/enrichment.md#create-links)
 
 <!--
 ### Content fragments {#24-5-4}
@@ -46,14 +46,14 @@ Vous pouvez maintenant créer des liens avec un autre tableau de la variable **E
 
 ### Améliorations générales {#improvements-24-5}
 
-* **Canal Courrier** - Vous pouvez désormais utiliser l’éditeur d’expression pour sélectionner les attributs à afficher dans les fichiers d’extraction de courrier. [En savoir plus](../direct-mail/content-direct-mail.md)
+* **Courrier** : vous pouvez désormais utiliser l’éditeur d’expression pour sélectionner les attributs à afficher dans les fichiers d’extraction de courrier. [En savoir plus](../direct-mail/content-direct-mail.md)
 
-* **Gestion des dossiers** - Vous pouvez désormais créer un sous-dossier d’un type différent de celui du dossier parent. [En savoir plus](../get-started/permissions.md#folders)
+* **Gestion des dossiers** : vous pouvez désormais créer un sous-dossier d’un type différent de celui du dossier parent. [En savoir plus](../get-started/permissions.md#folders)
 
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
-* **Mondialisation** - Dans le cadre de nos efforts continus pour offrir une expérience utilisateur unifiée, nous harmonisons la terminologie utilisée dans les produits et applications Adobe Experience Cloud. Cela affecte le terme allemand &quot;Titre&quot; qui est remplacé par &quot;Libellé&quot; lorsqu’il se rapporte au nom d’un objet. Les modifications seront progressivement déployées dans l’interface utilisateur et dans la documentation.
+* **Harmonisation linguistique** : dans le cadre de nos efforts continus pour offrir une expérience client unifiée, nous harmonisons la terminologie utilisée dans les produits et applications Adobe Experience Cloud. Par exemple, le terme allemand « Titel » est remplacé par « Label » lorsqu’il se rapporte au nom d’un objet. Les modifications seront progressivement déployées dans l’interface d’utilisation et la documentation.
 
 
 ## Notes de mise à jour d’avril {#april-24-4-release}
@@ -116,7 +116,7 @@ Les améliorations ci-dessous sont disponibles pour l’ensemble des clientes et
 
 <!--**Workflow - Execution options**: -->
 
-* Vous pouvez désormais gérer les **options d’exécution** de toutes les activités de workflow. Vous pouvez ainsi définir le mode d’exécution de l’activité et son comportement en cas d’erreur. [En savoir plus](../workflows/orchestrate-activities.md#execution-options-execution)
+* Vous pouvez désormais gérer les **options d’exécution** de toutes les activités de workflow. Vous pouvez ainsi définir le mode d’exécution et le comportement de l’activité en cas d’erreur. [En savoir plus](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 

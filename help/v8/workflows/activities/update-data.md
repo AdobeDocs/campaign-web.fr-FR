@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Mise à jour de données
 description: Découvrir comment utiliser l’activité de workflow Mise à jour de données
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ title: Concevoir une diffusion par courrier
 description: Découvrir comment concevoir une diffusion par courrier avec Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Pour concevoir le contenu du fichier d’extraction généré par votre diffusio
 Dans la section **[!UICONTROL Contenu]**, indiquez les colonnes à afficher dans le fichier d’extraction. Pour ce faire, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter un attribut]** pour créer une nouvelle colonne.
-1. Sélectionnez l’attribut à afficher dans la colonne, puis confirmez. Notez que vous pouvez tirer parti de l’éditeur d’expression pour sélectionner l’attribut à utiliser en cliquant sur le bouton **[!UICONTROL Expression d’édition]** bouton .
+1. Sélectionnez l’attribut à afficher dans la colonne, puis confirmez. Notez que vous pouvez utiliser l’éditeur d’expression pour sélectionner l’attribut à utiliser en cliquant sur le bouton **[!UICONTROL Modifier l’expression]**.
 
    ![](assets/dm-add-attribute.png)
 
