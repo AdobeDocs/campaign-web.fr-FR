@@ -5,9 +5,9 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '701'
 ht-degree: 99%
 
 ---
@@ -64,6 +64,7 @@ ht-degree: 99%
          + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
          + [Envoyer en plusieurs vagues](advanced-settings/send-using-waves.md)
          + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
+         + [Planifier l&#39;envoi d&#39;une diffusion](monitor/schedule-sending.md)
    + Notifications push {#push}
       + [Prise en main des notifications push](push/gs-push.md)
       + [Créer une diffusion notification push](push/create-push.md)
@@ -133,7 +134,7 @@ ht-degree: 99%
    + [Mécanismes de sécurisation et limitations](get-started/guardrails.md)
    + [Variables d’événement de workflow](workflows/event-variables.md)
    + [Accéder et gérer des workflows](workflows/access-monitor.md)
-   + [A propos des workflows en lecture seule](workflows/readonly-workflows.md)
+   + [À propos des workflows en lecture seule](workflows/readonly-workflows.md)
    + Créer et exécuter votre premier workflow {#create-workflow}
       + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
       + [Créer le workflow](workflows/create-workflow.md)

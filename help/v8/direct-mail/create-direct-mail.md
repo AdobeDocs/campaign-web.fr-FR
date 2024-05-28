@@ -3,9 +3,9 @@ audience: end-user
 title: Créer une diffusion par courrier
 description: Découvrez comment créer une diffusion par courrier avec Adobe Campaign Web.
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '460'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
 
-   ![](assets/dm-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-create.png){zoomable="yes"}
 
 1. Saisissez un **[!UICONTROL libellé]** pour la diffusion et accédez au menu déroulant **[!UICONTROL Options supplémentaires]**. Si votre diffusion est basée sur un schéma étendu, des champs d’**options personnalisées** spécifiques sont disponibles.
 
-   ![](assets/dm-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-properties.png){zoomable="yes"}
 
    +++Configurez les paramètres suivants en fonction de vos besoins.
    * **[!UICONTROL Nom interne]** : attribuez un identifiant unique à la diffusion.
@@ -41,7 +41,7 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
    * [Découvrir comment sélectionner une audience existante](../audience/add-audience.md)
    * [Découvrir comment créer une audience](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour définir les informations (colonnes) à exporter dans le fichier d’extraction. [En savoir plus](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content.png){zoomable="yes"}
 
-1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le fichier d’extraction est automatiquement envoyé à la date et à l’heure exactes que vous avez définies. [Découvrez comment planifier des diffusions.](../msg/gs-messages.md#gs-schedule)
+1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le fichier d’extraction est automatiquement envoyé à la date et à l’heure exactes que vous avez définies. [Découvrez comment planifier des diffusions.](../msg/gs-deliveries.md#gs-schedule)
 
    >[!NOTE]
    >
@@ -61,6 +61,6 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-settings.png){zoomable="yes"}
 
 1. Une fois votre diffusion par courrier prête, cliquez sur le bouton **[!UICONTROL Vérifier et envoyer]** pour valider et envoyer votre diffusion et générer le fichier d’extraction. [Découvrir comment prévisualiser et envoyer une diffusion par courrier](send-direct-mail.md)

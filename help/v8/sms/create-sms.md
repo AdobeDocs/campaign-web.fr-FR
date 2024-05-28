@@ -3,9 +3,9 @@ audience: end-user
 title: Créer une diffusion SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '498'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
 
-   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_1.png){zoomable="yes"}
 
 1. Saisissez un **[!UICONTROL libellé]** pour la diffusion et accédez au menu déroulant **[!UICONTROL Options supplémentaires]**. Si votre diffusion est basée sur un schéma étendu, des champs d’**options personnalisées** spécifiques sont disponibles.
 
@@ -55,7 +55,7 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. [En savoir plus sur les audiences](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_2.png){zoomable="yes"}
 
    Découvrez comment sélectionner une audience existante sur [cette page](../audience/add-audience.md).
 
@@ -63,13 +63,13 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
 1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin et mesurer l’impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](../audience/control-group.md)
 
-1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à concevoir le contenu de votre SMS. [En savoir plus](content-sms.md)
+1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à concevoir le contenu de votre SMS. [En savoir plus](content-sms.md).
 
-   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_4.png){zoomable="yes"}
 
    Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/preview-test.md) et [configurer des offres](../msg/offers.md).
 
-1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour la personne destinataire. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#gs-schedule).
+1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour la personne destinataire. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
@@ -77,4 +77,4 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_3.png){zoomable="yes"}

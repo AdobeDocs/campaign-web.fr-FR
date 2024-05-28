@@ -3,9 +3,9 @@ audience: end-user
 title: Préparer et envoyer un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '891'
 ht-degree: 100%
 
 ---
@@ -25,29 +25,29 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
 1. Dans le tableau de bord de la diffusion, cliquez sur **[!UICONTROL Vérifier et envoyer]**.
 
-   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
 1. Cliquez sur le bouton **[!UICONTROL Préparer]** dans le coin supérieur droit et confirmez.
 
-   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Si vous avez planifié votre diffusion et désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../msg/gs-messages.md#gs-schedule)
+   >Si vous avez planifié votre diffusion et désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../msg/gs-deliveries.md#gs-schedule)
 
 1. La progression de la préparation s’affiche. La durée de cette opération varie en fonction de la taille de la population ciblée.
 
    Vous pouvez arrêter la préparation à tout moment à l’aide du bouton **[!UICONTROL Arrêter la préparation]**.
 
-   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
    >Pendant la phase de préparation, aucun message n&#39;est envoyé. Vous pouvez donc lancer ou annuler cette opération sans aucun risque.
 
 1. Une fois la préparation terminée, vérifiez les KPI. Si le nombre de messages à envoyer ne correspond pas à vos attentes, modifiez l’audience et relancez la préparation.
 
-   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-preparation-complete.png){zoomable="yes"}
 
    Voici les KPI qui s’affichent :
 
@@ -55,13 +55,13 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
    * **[!UICONTROL À diffuser]** : le nombre de messages qui seront envoyés.
    * **[!UICONTROL À exclure]** : le nombre de messages exclus par une [règle de typologie](../advanced-settings/delivery-settings.md#typology).
 
-1. Cliquez sur le bouton **[!UICONTROL Logs]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md)
+1. Cliquez sur le bouton **[!UICONTROL Logs]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md).
 
-   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-logs.png){zoomable="yes"}
 
 1. Si la préparation détecte une erreur critique qui empêche l’envoi de la diffusion, le statut de préparation apparaît comme ayant échoué dans le tableau de bord de la diffusion.
 
-   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-error.png){zoomable="yes"}
 
 1. Si vous modifiez la diffusion après la préparation, vous devez relancer la préparation pour que ces modifications soient prises en compte.
 
@@ -72,7 +72,7 @@ Une fois la préparation terminée sans erreur, le message est prêt à être en
 
 Une fois la [préparation](#prepare) terminée, vous pouvez envoyer l’e-mail.
 
-Si le message est planifié, il sera envoyé à la date et à l’heure définies. [En savoir plus](../msg/gs-messages.md#gs-schedule).
+Si le message est planifié, il sera envoyé à la date et à l’heure définies. [En savoir plus](../msg/gs-deliveries.md#gs-schedule).
 
 ### Envoyer immédiatement {#send-immediately}
 
@@ -80,7 +80,7 @@ Pour envoyer immédiatement un e-mail, procédez comme suit.
 
 1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **[!UICONTROL Envoyer]** dans le coin supérieur droit.
 
-   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send.png){zoomable="yes"}
 
 1. Confirmez cette action pour envoyer immédiatement le message à la cible principale.
 
@@ -90,17 +90,17 @@ Pour envoyer immédiatement un e-mail, procédez comme suit.
 
 Si vous avez planifié l’envoi de votre e-mail à une date et une heure ultérieures, procédez comme suit.
 
-1. Avant de cliquer sur le bouton **[!UICONTROL Vérifier et envoyer]**, assurez-vous de définir un planning pour votre e-mail. [En savoir plus](../msg/gs-messages.md#gs-schedule).
+1. Avant de cliquer sur le bouton **[!UICONTROL Vérifier et envoyer]**, assurez-vous de définir un planning pour votre e-mail. [En savoir plus](../msg/gs-deliveries.md#gs-schedule).
 
 1. Dans le tableau de bord de la diffusion, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]** dans le coin supérieur droit.
 
-   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Confirmer l’envoi]**. La diffusion sera envoyée à la cible principale, à la date planifiée.
 
    >[!NOTE]
    >
-   >Si vous avez désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../msg/gs-messages.md#gs-schedule).
+   >Si vous avez désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../msg/gs-deliveries.md#gs-schedule).
 
 ## Suspendre ou arrêter l’envoi {#pause-stop-sending}
 
@@ -110,7 +110,7 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’
 
 * Cliquez sur **[!UICONTROL Arrêter l’envoi]** pour interrompre immédiatement l’envoi. Une fois arrêtés, la préparation et l’envoi ne peuvent pas être repris.
 
-![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## Vérifier les KPI {#check-kpis}
 
@@ -150,7 +150,7 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’
 
 Une fois l’envoi terminé, vous pouvez vérifier les KPI affichés :
 
-![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-kpis.png){zoomable="yes"}
 
 * **[!UICONTROL Envoyé]** : le nombre de messages diffusés. Le pourcentage affiché est basé sur le nombre total de messages à diffuser.
 
