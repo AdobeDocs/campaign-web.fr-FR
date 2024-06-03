@@ -4,7 +4,7 @@ title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 100%
 

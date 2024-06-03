@@ -3,7 +3,7 @@ audience: end-user
 title: À propos des workflows en lecture seule
 description: Découvrez pourquoi les workflows sont en mode lecture seule.
 source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
