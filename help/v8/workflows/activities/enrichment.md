@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 26c51246755ee409b586fcfe2ced61fd0ed536a0
+source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 99%
@@ -25,7 +25,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Définition du lien"
->abstract="Créez un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers la table des pays afin de mettre à jour cette information dans leur profil.
+>abstract="Créez un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers la table des pays afin de mettre à jour cette information dans leur profil."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
