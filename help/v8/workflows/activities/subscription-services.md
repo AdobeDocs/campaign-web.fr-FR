@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser l’activité Services d’abonnement
 description: Découvrez comment utiliser l’activité de workflow Services d’abonnement.
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
+source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 100%
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Générer une transition sortante"
 >abstract="Activez l’option **Générer une transition sortante** pour ajouter une transition après l’activité."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="Informations additionnelles"
+>abstract="Informations additionnelles"
 
 L’activité **Services d’abonnement** est une activité de **Gestion des données**. Celle-ci vous permet de créer ou de supprimer un abonnement à un service d’information pour la population spécifiée dans la transition.
 
