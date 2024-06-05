@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Enregistrer l’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
+source-git-commit: 75c612d50d2d4a675829a412e2c4f55ed1cb817c
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -53,4 +53,4 @@ Le contenu de l’audience enregistrée est ensuite disponible dans la vue déta
 
 ## Exemple{#save-audience-example}
 
-L’exemple suivant illustre une mise à jour simple de l’audience à partir du ciblage. Un planificateur est ajouté de sorte à exécuter le workflow une fois par mois. Une requête récupère tous les profils abonnés aux différents services applicatifs disponibles. L’activité **Enregistrer l’audience** permet de mettre à jour l’audience spécifiée en y supprimant les profils s’étant désabonnés des services depuis la dernière exécution du workflow et en y ajoutant les nouveaux profils abonnés.
+L’exemple suivant illustre une mise à jour simple de l’audience à partir du ciblage. Un planificateur est ajouté de sorte à exécuter le workflow une fois par mois. Une requête récupère tous les profils abonnés aux différentes applications disponibles. L’activité **Enregistrer l’audience** permet de mettre à jour l’audience spécifiée en y supprimant les profils s’étant désabonnés des services depuis la dernière exécution du workflow et en y ajoutant les nouveaux profils abonnés.
