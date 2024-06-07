@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -99,8 +99,8 @@ En savoir plus sur les autorisations de dossier dans la [documentation de Campai
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
->title="Planification des dossiers"
->abstract="Planification des dossiers"
+>title="Planning des dossiers"
+>abstract="Planning des dossiers"
 
 Vous pouvez créer, renommer, réorganiser et déplacer des dossiers pour organiser vos composants et vos données. Vous pouvez également supprimer des dossiers à partir du même menu.
 
@@ -111,12 +111,12 @@ Vous pouvez créer, renommer, réorganiser et déplacer des dossiers pour organi
 Pour créer un dossier, procédez comme suit :
 
 1. Dans le menu de navigation de gauche **Explorateur**, sélectionnez un dossier.
-1. Cliquez sur les trois points dans le coin supérieur droit et choisissez **Créer un dossier**.
+1. Cliquez sur les trois points dans le coin supérieur droit et choisissez **Créer un sous-dossier**.
 1. Saisissez le nom du dossier.
 
    ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. Sélectionnez le type de dossier. Par défaut, le type de dossier parent est sélectionné, &quot;Diffusions&quot;, dans notre exemple. Pour modifier le type de dossier, cliquez sur l’icône de dossier et sélectionnez un autre type.
+1. Sélectionnez le type de dossier. Par défaut, le type de dossier parent est sélectionné, « Diffusions » dans notre exemple. Pour modifier le type de dossier, cliquez sur l’icône de dossier et sélectionnez un autre type.
 
    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 

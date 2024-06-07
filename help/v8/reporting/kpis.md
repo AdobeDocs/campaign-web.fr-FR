@@ -3,7 +3,7 @@ title: Indicateurs clés de performance
 description: Découvrez comment comprendre les indicateurs clés de performance
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 100%
 
