@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
+source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 100%
+source-wordcount: '1673'
+ht-degree: 98%
 
 ---
 
@@ -357,6 +357,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_defaultlp"
 >title="Page de destination par défaut"
 >abstract="Sélectionnez la page de destination par défaut associée à ce service d’inscription."
+
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Paramètres des critères des alertes de diffusion"
 >abstract="Alertes de diffusion"
@@ -375,6 +377,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="Créer un tableau de bord des alertes de diffusion"
 >abstract="Créer un tableau de bord des alertes de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Création d’un critère d’alerte"
+>abstract="Pour créer vos propres filtres de diffusion, créez un nouveau filtre prédéfini dans la console Campaign v8 à partir du **Administration** > **Configuration** > **Filtres prédéfinis** noeud ."
 
 <!-- IDs -->
 
