@@ -4,7 +4,7 @@ title: Utiliser l’activité Services d’abonnement
 description: Découvrez comment utiliser l’activité de workflow Services d’abonnement.
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
 ht-degree: 100%
 
@@ -29,8 +29,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
->title="Informations additionnelles"
->abstract="Informations additionnelles"
+>title="Informations supplémentaires"
+>abstract="Informations supplémentaires"
 
 L’activité **Services d’abonnement** est une activité de **Gestion des données**. Celle-ci vous permet de créer ou de supprimer un abonnement à un service d’information pour la population spécifiée dans la transition.
 

@@ -4,7 +4,7 @@ title: Gestion des autorisations dans l’interface utilisateur web de Campaign
 description: En savoir plus sur les autorisations dans l’interface utilisateur web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
 ht-degree: 100%
 
@@ -84,8 +84,8 @@ En savoir plus sur les autorisations de dossier dans la [documentation de Campai
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_properties"
->title="Propriétés du dossier"
->abstract="Propriétés du dossier"
+>title="Propriétés des dossiers"
+>abstract="Propriétés des dossiers"
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_security"

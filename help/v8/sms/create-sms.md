@@ -4,7 +4,7 @@ title: Créer une diffusion SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
 ht-degree: 100%
 

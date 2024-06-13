@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier.
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1230'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Pour définir le fichier cible à charger, procédez comme suit :
 
 1. Dans la section **Gestion des rejets**, spécifiez le comportement de l’activité en cas d’erreur :
 
-   * Dans le **[!UICONTROL Nombre d&#39;erreurs autorisé]** , indiquez le nombre maximal d’erreurs autorisées lors du traitement du fichier à charger. Par exemple, si la valeur est définie sur « 20 », l’exécution du workflow échoue si plus de 20 erreurs se produisent lors du chargement du fichier.
+   * Dans le champ **[!UICONTROL Nombre d’erreurs autorisées]**, spécifiez le nombre maximum d’erreurs autorisées lors du traitement du fichier à charger. Par exemple, si la valeur est définie sur « 20 », l’exécution du workflow échoue si plus de 20 erreurs se produisent lors du chargement du fichier.
 
    * Pour conserver les erreurs qui se sont produites lors du chargement du fichier, activez l’option **[!UICONTROL Conserver les rejets dans un fichier]** et saisissez le nom de votre choix pour le fichier dans le champ **[!UICONTROL Fichier de rejets]**.
 

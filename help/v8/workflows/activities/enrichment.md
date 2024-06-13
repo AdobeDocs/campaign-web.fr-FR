@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Définition du lien"
->abstract="Créez un lien entre les données du tableau de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers la table des pays afin de mettre à jour cette information dans leur profil."
+>abstract="Créez un lien entre les données du tableau de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
@@ -83,7 +83,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 >abstract="Vous pouvez maintenant créer un lien entre les données de la table de travail et la base de données Adobe Campaign dans l&#39;activité de workflow Enrichissement."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
-La section **[!UICONTROL Définition du lien]** permet de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers la table des pays afin de mettre à jour cette information dans leur profil.
+La section **[!UICONTROL Définition du lien]** permet de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil.
 
 Plusieurs types de liens sont disponibles :
 

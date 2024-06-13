@@ -6,9 +6,9 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 99%
          + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
          + [Envoyer en plusieurs vagues](advanced-settings/send-using-waves.md)
          + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
-         + [Planifier l&#39;envoi d&#39;une diffusion](monitor/schedule-sending.md)
+         + [Planifier l’envoi d’une diffusion](monitor/schedule-sending.md)
    + Notifications push {#push}
       + [Prise en main des notifications push](push/gs-push.md)
       + [Créer une diffusion notification push](push/create-push.md)

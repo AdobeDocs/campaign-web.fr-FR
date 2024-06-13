@@ -4,7 +4,7 @@ title: Créer une diffusion par courrier
 description: Découvrez comment créer une diffusion par courrier avec Adobe Campaign Web.
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
 ht-degree: 100%
 
