@@ -3,10 +3,10 @@ title: Notes de mise à jour initiales de l’interface utilisateur web de Campa
 description: Découvrez les nouvelles fonctionnalités accompagnant la prochaine version de l’interface utilisateur web de Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: c40278f2424b8d6bdc396b3253ac999c23ed8312
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles pour tous les 
 
 ### Fragments de contenu {#24-6-1}
 
-* Vous pouvez désormais créer, utiliser et enregistrer **fragments visuels** pour assembler rapidement vos emails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs emails sur Adobe Campaign pour un processus de conception amélioré et accéléré. [En savoir plus](../email/fragments.md)
-
-* Vous pouvez désormais créer, utiliser et gérer des **fragment d’expression** pour créer rapidement du contenu personnalisé. Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs contenus dans Adobe Campaign pour un processus de conception amélioré et accéléré.
+Vous pouvez désormais créer, utiliser et gérer des **visuel** et **expression** fragments pour assembler rapidement vos emails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs emails sur Adobe Campaign pour un processus de conception amélioré et accéléré.
 
 ### Listes de contrôle {#24-6-2}
 
@@ -42,3 +40,4 @@ Vous pouvez désormais créer des plans et des programmes pour organiser vos cam
 
 ### Améliorations {#improvements-24-6}
 
+* **Réconciliation dans l&#39;activité Enrichissement**: l&#39;activité Enrichissement peut désormais être utilisée pour réconcilier les données du schéma de la base de données Campaign avec les données d&#39;un autre schéma, ou avec les données provenant d&#39;un schéma temporaire tel que les données téléchargées à l&#39;aide d&#39;une activité Chargement de fichier . Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d&#39;un profil, indiqué dans un fichier téléchargé, avec l&#39;un des pays disponibles dans la table dédiée de la base de données Campaign.
