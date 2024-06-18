@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
+workflow-type: tm+mt
+source-wordcount: '1623'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,32 @@ ht-degree: 100%
 >abstract="Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, les notes de mise à jour de Campaign sont mises à jour plusieurs fois par mois, avec les derniers correctifs, les dernières fonctionnalités et les dernières améliorations. Nous vous recommandons de les vérifier régulièrement."
 
 Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont complétées plusieurs fois par mois. Veuillez les vérifier régulièrement.
+
+## Notes de mise à jour de juin {#24-6-release}
+
+**Date de publication**: 18-19 juin 2024
+
+Les fonctionnalités et améliorations suivantes sont disponibles pour tous les utilisateurs à compter de la version de juin.
+<!--
+### Visual fragments {#24-6-1}
+
+You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+
+### Seed lists {#24-6-2}
+
+A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
+
+### Alertes de diffusion {#24-6-3}
+
+La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d’utilisateurs de recevoir automatiquement des notifications contenant des informations sur l’exécution de leurs diffusions. [En savoir plus](../msg/delivery-alerting.md)
+
+### Plans et programmes {#24-6-4}
+
+Vous pouvez désormais créer des plans et des programmes pour organiser vos campagnes. En définissant une hiérarchie de dossiers, vous pouvez organiser vos campagnes en programmes et vos programmes en plans. [En savoir plus](../administration/plans-programs.md)
+
+### Améliorations {#improvements-24-6}
+
+* **Réconciliation dans l&#39;activité Enrichissement**: l&#39;activité Enrichissement peut désormais être utilisée pour réconcilier les données du schéma de la base de données Campaign avec les données d&#39;un autre schéma, ou avec les données provenant d&#39;un schéma temporaire tel que les données téléchargées à l&#39;aide d&#39;une activité Chargement de fichier . Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d&#39;un profil, indiqué dans un fichier téléchargé, avec l&#39;un des pays disponibles dans la table dédiée de la base de données Campaign. [En savoir plus](../workflows/activities/enrichment.md)
 
 ## Notes de mise à jour de mai {#24-5-release}
 
