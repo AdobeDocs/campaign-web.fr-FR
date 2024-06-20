@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 90%
 
 ---
 
@@ -51,29 +51,24 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB La version de mai est en ligne.]
+>[!TAB La version de juin est en ligne !]
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version 24.4 de l’interface d’utilisation d’Adobe Campaign Web.
+Découvrez les nouvelles fonctionnalités et améliorations de la version 24.6 de l’interface d’utilisation d’Adobe Campaign Web.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Journal d’audit]
+>[!TAB Alertes de diffusion]
 
-La nouvelle fonctionnalité de journal d’audit fournit un enregistrement détaillé et chronologique de toutes les actions et de tous les événements qui ont été réalisés en temps réel sur votre instance Adobe Campaign.
+Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs de recevoir automatiquement des notifications par e-mail contenant des informations sur leurs exécutions de diffusion.
 
-[![Image](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
+[![Image](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB Champs personnalisés]
+>[!TAB Plans et programmes]
 
-Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Ils sont désormais disponibles dans l’interface d’utilisation de Campaign Web.
+Adobe Campaign vous permet de configurer la hiérarchie des dossiers des plans marketing et des programmes.
 
-[![Image](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
->[!TAB Lier des tables]
-
-Vous pouvez maintenant créer un lien entre les données de la table de travail et la base de données Adobe Campaign dans l&#39;activité de workflow Enrichissement.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 

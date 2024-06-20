@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 98%
+source-wordcount: '1555'
+ht-degree: 100%
 
 ---
 
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Script d’initialisation de l’exécution"
 >abstract="Script d’initialisation de l’exécution"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="Tableau de bord des critères des alertes de diffusion"
->abstract="Tableau de bord des critères des alertes de diffusion"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="Tableau de bord des alertes de diffusion"
->abstract="Tableau de bord des alertes de diffusion"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="Créer des critères d’alerte de diffusion"
->abstract="Créer des critères d’alerte de diffusion"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="Indicateurs à ajouter aux alertes"
->abstract="Indicateurs à ajouter aux alertes"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="Type d’alerte"
->abstract="Type d’alerte"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="Fréquence du critère"
->abstract="Fréquence du critère"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="Critères des alertes de diffusion"
->abstract="Critères des alertes de diffusion"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="Paramètres généraux des alertes de diffusion"
->abstract="Alertes de diffusion"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="Paramètres des critères des alertes de diffusion"
->abstract="Alertes de diffusion"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="Alertes de diffusion envoyées"
->abstract="Alertes de diffusion envoyées"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="Historique des alertes de diffusion"
->abstract="Historique des alertes de diffusion"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="Créer un tableau de bord des alertes de diffusion"
->abstract="Créer un tableau de bord des alertes de diffusion"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Création d’un critère d’alerte"
->abstract="Pour créer vos propres filtres de diffusion, créez un nouveau filtre prédéfini dans la console Campaign v8 à partir du **Administration** > **Configuration** > **Filtres prédéfinis** noeud ."
 
 <!-- IDs -->
 

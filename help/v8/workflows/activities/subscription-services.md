@@ -3,14 +3,14 @@ audience: end-user
 title: Utiliser l’activité Services d’abonnement
 description: Découvrez comment utiliser l’activité de workflow Services d’abonnement.
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
-workflow-type: ht
-source-wordcount: '598'
-ht-degree: 100%
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+workflow-type: tm+mt
+source-wordcount: '972'
+ht-degree: 86%
 
 ---
 
-# Services d’abonnement {#subscriptipon-services}
+# Services d’abonnement {#subscription-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -56,9 +56,11 @@ Pour configurer l’activité **Services d’abonnement**, procédez comme suit�
 
    * **Sélectionner un type d’opération depuis un chemin de transition entrante** : sélectionnez la colonne des données entrantes spécifiant l’opération à effectuer pour chaque enregistrement. Vous pouvez, par exemple, importer un fichier qui spécifie le service à gérer pour chaque ligne dans une colonne « opération ».
 
-     >[!NOTE]
+     Seul un champ Booléen ou Entier peut être sélectionné ici. Assurez-vous que les données contenant l’opération à effectuer correspondent à ce format. Par exemple, si vous chargez des données depuis une activité Chargement de fichier, vérifiez que vous avez correctement paramétré le format de la colonne qui contient l’opération dans l’activité **[!UICONTROL Chargement de fichier]**. Un exemple vous est présenté dans [cette section ](#uc2).
+
+     >[!CAUTION]
      >
-     >Seul un champ Booléen ou Entier peut être sélectionné ici. Assurez-vous que les données contenant l’opération à effectuer correspondent à ce format. Par exemple, si vous chargez des données depuis une activité Chargement de fichier, vérifiez que vous avez correctement paramétré le format de la colonne qui contient l’opération dans l’activité **[!UICONTROL Chargement de fichier]**. Un exemple vous est présenté dans [cette section ](#uc2).
+     >Par défaut, si vous sélectionnez cette option, la variable **Services d’inscriptions** l’activité s’attend à ce qu’une définition de lien soit associée à la variable **Services (nms)** Configuration de la table dans le workflow. Pour cela, vérifiez que vous avez configuré un lien de réconciliation dans un **Activité d’enrichissement** vers le haut dans le workflow. Un exemple d’utilisation de cette option est disponible [here](#uc2).
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
@@ -86,14 +88,13 @@ Le workflow ci-dessous montre comment abonner une audience à un service existan
 
 * L’activité **[!UICONTROL Services d’abonnement]** vous permet de sélectionner le service auquel les profils doivent s’abonner.
 
-<!--
-### Updating multiple subscription statuses from a file {#uc2}
+### Mise à jour de plusieurs statuts d’abonnement à partir d’un fichier {#uc2}
 
-The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
+Le workflow ci-dessous montre comment importer un fichier contenant des profils et comment mettre à jour leur abonnement à plusieurs services spécifiés dans le fichier.
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Load file]** activity loads a CSV file containing the data and defines the structure of the imported columns. The "service" and "operation" columns specify the service to update and the operation to perform (subscription or unsubscription).
+* L’activité **[!UICONTROL Chargement de fichier]** charge un fichier CSV contenant les données et définit la structure des colonnes importées. Les colonnes « service » et « opération » spécifient le service à mettre à jour et l’opération à effectuer (abonnement ou désabonnement).
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -104,26 +105,24 @@ The workflow below shows how to import a file containing profiles and update the
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement, a remapping of values must be performed in the detail of the "operation" column in the sample file configuration screen.
+  Comme vous l’avez peut-être remarqué, l’opération est spécifiée en tant que &quot;sub&quot; ou &quot;unsub&quot; dans le fichier. Le système attend une valeur de type **Booléen** ou **Entier** pour déterminer l’opération à réaliser : la valeur &quot;0&quot; pour désabonner et la valeur &quot;1&quot; pour abonner. Pour répondre à cette exigence :
+   * La variable **Type de données** pour la colonne &quot;operation&quot; est définie sur integer.
+   * A **Remappage de valeurs** doivent être effectuées pour correspondre aux valeurs &quot;sub&quot; et &quot;unsub&quot; avec les valeurs &quot;1&quot; et &quot;0&quot;.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  If your file already uses "0" and "1" to identify the operation, you don't need to remap those values. Only make sure that the column is processed as a **Boolean** or **Integer** in the sample file columns.
+  Si le fichier utilise déjà les valeurs « 0 » et « 1 » pour identifier l’opération, il n’est pas nécessaire de mapper ces valeurs à nouveau. Assurez-vous uniquement que la colonne soit traitée comme un **Booléen** ou un **Nombre entier** dans les colonnes du fichier d’exemple.
 
-* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. The **email** field of the file is matched to the **email** field of the profile resource.
+* Une activité de **[!UICONTROL Réconciliation]** permet d’identifier les données provenant du fichier comme appartenant à la dimension des profils de la base de données Adobe Campaign. Le champ **e-mail** du fichier correspond au champ **e-mail** de la ressource de profil.
+
+  ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
+
+* Un **[!UICONTROL Enrichissement]** crée un lien de réconciliation vers la table &quot;Services (nms)&quot;, avec une jointure simple entre la colonne &quot;service&quot; du fichier téléchargé et le champ &quot;nom interne&quot; des services dans la base de données.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* An **[!UICONTROL Enrichment]** activity creates a link to the "Services (nms)" table and creates a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
+* A **[!UICONTROL Services d’inscriptions]** identifie les services à mettre à jour comme provenant de la transition.
 
-    ![](../assets/workflow-subscription-service-uc2-enrichment.png)
+  Le **[!UICONTROL Type d’opération]** est identifié comme provenant du champ **operation** du fichier. Seul un champ Booléen ou Entier peut être sélectionné ici. Si la colonne du fichier contenant l’opération à effectuer n’apparaît pas dans la liste, vérifiez que vous avez correctement défini le format de la colonne dans l’activité **[!UICONTROL Chargement de fichier]**, comme expliqué plus haut dans cet exemple.
 
-* A **[!UICONTROL Deduplication]** based on the **email** field identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
-
-  ![](../assets/workflow-subscription-service-uc2-dedup.png)
-  
-* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
-
-  The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
-
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)
