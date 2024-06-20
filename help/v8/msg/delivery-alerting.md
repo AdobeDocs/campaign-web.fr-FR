@@ -2,15 +2,22 @@
 audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 0%
+source-wordcount: '342'
+ht-degree: 2%
 
 ---
 
-
 # Prise en main des alertes de diffusion {#gs-delivery-alerting}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Alertes de diffusion"
+>abstract="Les alertes de diffusion sont désormais disponibles dans Campaign. Cette fonctionnalité est un système de gestion des alertes qui permet à des groupes d’utilisateurs de recevoir automatiquement des notifications électroniques contenant des informations sur leurs exécutions de diffusion."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs de recevoir automatiquement des notifications par e-mail contenant des informations sur leurs exécutions de diffusion. Les destinataires peuvent surveiller les diffusions en cours traitées par Adobe Campaign et prendre les mesures appropriées en cas de problème.
 

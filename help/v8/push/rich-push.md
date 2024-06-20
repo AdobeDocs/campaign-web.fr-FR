@@ -3,22 +3,15 @@ audience: end-user
 title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1420'
 ht-degree: 100%
 
 ---
 
 # Créer une diffusion de notification push Android enrichie {#rich-push}
 
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Diffusion de notification push enrichie"
->abstract="Vous pouvez désormais envoyer des notifications push enrichies via Android. Pour l’instant, cette fonctionnalité est en disponibilité limitée."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"

@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 75%
+source-wordcount: '1681'
+ht-degree: 73%
 
 ---
 
@@ -77,12 +77,6 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
 ## Créer de liens entre les tables {#create-links}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Liens entre les tables"
->abstract="Vous pouvez maintenant créer un lien entre les données de la table de travail et la base de données Adobe Campaign dans l&#39;activité de workflow Enrichissement."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
-
 La section **[!UICONTROL Définition du lien]** permet de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil.
 
 Plusieurs types de liens sont disponibles :
@@ -112,6 +106,14 @@ Pour créer un lien, procédez comme suit :
 Un exemple de workflow utilisant des liens est disponible dans la section [Exemples](#link-example).
 
 ## Réconciliation des données {#reconciliation}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Réconciliation des données"
+>abstract="L&#39;activité Enrichissement du workflow peut désormais être utilisée pour réconcilier les données du schéma de la base de données Campaign avec celles d&#39;un autre schéma, ou avec des données provenant d&#39;un schéma temporaire tel que des données chargées à l&#39;aide d&#39;une activité Chargement de fichier ."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
+
 
 La variable **Enrichissement** peut être utilisée pour réconcilier des données provenant du schéma de la base de données Campaign avec des données issues d’un autre schéma, ou avec des données provenant d’un schéma temporaire, tel que des données téléchargées à l’aide d’une activité de Chargement de fichier . Ce type de lien définit une réconciliation vers un enregistrement unique. Adobe Campaign crée un lien vers une table cible en y ajoutant une clé étrangère afin de stocker une référence à l’enregistrement unique.
 
