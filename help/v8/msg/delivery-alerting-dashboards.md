@@ -2,10 +2,11 @@
 audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 17%
+ht-degree: 40%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
 >title="Tableaux de bord des alertes de diffusion"
->abstract="Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs de recevoir automatiquement des notifications par e-mail contenant des informations sur leurs exécutions de diffusion. Les tableaux de bord des alertes de diffusion vous permettent de spécifier qui recevra des alertes par email, de choisir et de configurer les critères des alertes à utiliser pour envoyer ces alertes et d’accéder à l’historique de toutes les notifications envoyées."
+>abstract="Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs et utilisatrices de recevoir automatiquement des notifications par e-mail contenant des informations sur leurs exécutions de diffusion. Les tableaux de bord des alertes de diffusion vous permettent de spécifier qui recevra des alertes par e-mail, de choisir et de configurer les critères des alertes à utiliser pour envoyer ces alertes et d’accéder à l’historique de toutes les notifications envoyées."
 
 Les tableaux de bord des alertes de diffusion vous permettent de spécifier qui recevra des alertes par email, de choisir et de configurer les critères des alertes à utiliser pour envoyer ces alertes et d’accéder à l’historique de toutes les notifications envoyées. Elles sont accessibles à partir du **Alertes de diffusion** dans le volet de navigation de gauche, sous **Tableaux de bord** .
 
@@ -25,12 +26,12 @@ Les tableaux de bord des alertes de diffusion vous permettent de spécifier qui 
 >[!CONTEXTUALHELP]
 >id="acw_delery_alerting_dashboard_create"
 >title="Créer un tableau de bord des alertes de diffusion"
->abstract="La création d&#39;un tableau de bord des alertes de diffusion permet de définir qui recevra les alertes par email, de choisir et de configurer les critères des alertes à utiliser pour envoyer ces alertes et d&#39;accéder à l&#39;historique de toutes les notifications envoyées."
+>abstract="La création d’un tableau de bord des alertes de diffusion permet de définir qui recevra les alertes par e-mail, de choisir et de configurer les critères des alertes à utiliser pour envoyer ces alertes et d’accéder à l’historique de toutes les notifications envoyées."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="Paramètres généraux des alertes de diffusion"
->abstract="Définissez les propriétés générales du tableau de bord des alertes de diffusion. La variable **Sélectionner un groupe d’alertes** vous permet de spécifier la variable **groupe d&#39;opérateurs** pour recevoir les alertes envoyées par ce tableau de bord."
+>abstract="Définissez les propriétés générales du tableau de bord des alertes de diffusion. Le champ **Sélectionner un groupe d’alertes** vous permet de spécifier le **groupe d’opérateurs** pour recevoir les alertes envoyées par ce tableau de bord."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
@@ -90,7 +91,7 @@ Le tableau de bord des alertes s’ouvre avec des données vides. Lorsque vous �
 
 Désormais, chaque fois qu&#39;une diffusion répond aux critères définis dans ce tableau de bord, une notification d&#39;alerte est envoyée au groupe d&#39;opérateurs spécifié.
 
-## Gestion des tableaux de bord des alertes
+## Gérer les tableaux de bord des alertes
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
@@ -100,7 +101,7 @@ Désormais, chaque fois qu&#39;une diffusion répond aux critères définis dans
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
 >title="Historique des alertes de diffusion"
->abstract="La variable **Histoire** contient toutes les alertes envoyées à partir de ce tableau de bord. Cliquez sur un élément pour accéder aux alertes correspondantes envoyées à ce moment précis."
+>abstract="Le volet **Historique** contient toutes les alertes envoyées à partir de ce tableau de bord. Cliquez sur un élément pour accéder aux alertes correspondantes envoyées à ce moment précis."
 
 Tous les tableaux de bord des alertes créés sont accessibles à partir du **Alertes de diffusion** , dans le **Tableaux de bord** .
 

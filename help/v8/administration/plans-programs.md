@@ -6,7 +6,7 @@ exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Plans et programmes"
->abstract="Vous pouvez maintenant paramétrer la hiérarchie des dossiers des plans marketing et des programmes dans l&#39;interface utilisateur Web de Campaign."
+>abstract="Vous pouvez maintenant paramétrer la hiérarchie des dossiers des plans marketing et des programmes dans l’interface d’utilisation de Campaign Web."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 Adobe Campaign vous permet de configurer la hiérarchie des dossiers des plans marketing et des programmes.

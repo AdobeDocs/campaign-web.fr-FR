@@ -2,10 +2,11 @@
 audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 12%
+ht-degree: 32%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="Tableau de bord des critères des alertes de diffusion"
->abstract="L&#39;interface utilisateur web de Campaign fournit des critères d&#39;alerte prédéfinis (diffusions avec faible débit, diffusions dont la préparation a échoué...) que vous pouvez ajouter à votre tableau de bord. Vous pouvez également créer vos propres critères en fonction de vos besoins."
+>abstract="L’interface d’utilisation de Campaign Web fournit des critères d’alerte prédéfinis (diffusions avec faible débit, diffusions dont la préparation a échoué...) que vous pouvez ajouter à votre tableau de bord. Vous pouvez également créer vos propres critères en fonction de vos besoins."
 
 L&#39;interface utilisateur web de Campaign fournit des critères d&#39;alerte prédéfinis (diffusions avec faible débit, diffusions dont la préparation a échoué...) que vous pouvez ajouter à votre tableau de bord. Vous pouvez également créer vos propres critères en fonction de vos besoins.
 
@@ -43,22 +44,22 @@ Des critères d&#39;alerte prédéfinis sont disponibles dans l&#39;interface ut
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
 >title="Créer des critères d’alerte de diffusion"
->abstract="Outre les critères d’alerte prédéfinis fournis par Adobe Campaign, vous pouvez créer vos propres critères en fonction de vos besoins."
+>abstract="Outre les critères d’alerte prédéfinis fournis par Adobe Campaign, vous pouvez créer vos propres critères en fonction de vos besoins."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indicateurs à ajouter aux alertes"
->abstract="Sélectionnez les indicateurs à afficher en colonnes dans la section &quot;Détails&quot; des alertes par email."
+>abstract="Sélectionnez les indicateurs à afficher en colonnes dans la section « Détails » des alertes par e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Type d’alerte"
->abstract="Spécifiez la variable **Type d’alerte** pour le critère, c&#39;est-à-dire le libellé et la couleur à afficher en regard du critère de diffusion dans la section &quot;Résumé&quot; des alertes."
+>abstract="Spécifiez le **Type d’alerte** pour le critère, c&#39;est-à-dire le libellé et la couleur à afficher en regard du critère de diffusion dans la section « Résumé » des alertes."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
 >title="Fréquence du critère"
->abstract="Contrôler la fréquence des alertes par jour pour chaque diffusion répondant au critère."
+>abstract="Contrôlez la fréquence des alertes par jour pour chaque diffusion répondant au critère."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
@@ -84,7 +85,7 @@ Pour créer un nouveau critère, procédez comme suit :
 
 1. Dans le **Indicateurs à ajouter dans les alertes** , choisissez les indicateurs à afficher en colonnes dans la section &quot;Détails&quot; des alertes par email.
 
-1. Spécifiez la variable **Type d’alerte** pour le critère, c&#39;est-à-dire le libellé et la couleur à afficher en regard du critère de diffusion dans la section &quot;Résumé&quot; des alertes.
+1. Spécifiez le **Type d’alerte** pour le critère, c&#39;est-à-dire le libellé et la couleur à afficher en regard du critère de diffusion dans la section « Résumé » des alertes.
 
 1. La variable **Fréquence des critères** permet de contrôler la fréquence des alertes par jour pour chaque diffusion répondant au critère :
 

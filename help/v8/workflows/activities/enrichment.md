@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -111,7 +111,7 @@ Un exemple de workflow utilisant des liens est disponible dans la section [Exemp
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Réconciliation des données"
->abstract="L&#39;activité Enrichissement du workflow peut désormais être utilisée pour réconcilier les données du schéma de la base de données Campaign avec celles d&#39;un autre schéma, ou avec des données provenant d&#39;un schéma temporaire tel que des données chargées à l&#39;aide d&#39;une activité Chargement de fichier ."
+>abstract="L’activité Enrichissement du workflow peut désormais être utilisée pour réconcilier les données du schéma de la base de données Campaign avec celles d’un autre schéma, ou avec des données provenant d’un schéma temporaire tel que des données chargées à l’aide d’une activité Chargement de fichier."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 
