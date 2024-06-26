@@ -4,9 +4,9 @@ description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB La version de juin est en ligne !]
+>[!TAB La version de juin est en ligne.]
 
 Découvrez les nouvelles fonctionnalités et améliorations de la version 24.6 de l’interface d’utilisation d’Adobe Campaign Web.
 
@@ -59,13 +59,13 @@ Découvrez les nouvelles fonctionnalités et améliorations de la version 24.6 
 
 >[!TAB Alertes de diffusion]
 
-Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs de recevoir automatiquement des notifications par e-mail contenant des informations sur leurs exécutions de diffusion.
+Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs et d’utilisatrices de recevoir automatiquement des notifications par e-mail contenant des informations sur l’exécution de leurs diffusions.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
 >[!TAB Plans et programmes]
 
-Adobe Campaign vous permet de configurer la hiérarchie des dossiers des plans marketing et des programmes.
+Adobe Campaign permet de configurer la hiérarchie des dossiers des plans marketing et des programmes.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 

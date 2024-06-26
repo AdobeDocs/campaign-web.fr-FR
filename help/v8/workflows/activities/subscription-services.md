@@ -4,9 +4,9 @@ title: Utiliser l’activité Services d’abonnement
 description: Découvrez comment utiliser l’activité de workflow Services d’abonnement.
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '972'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Pour configurer l’activité **Services d’abonnement**, procédez comme suit�
 
      >[!CAUTION]
      >
-     >Par défaut, si vous sélectionnez cette option, la variable **Services d’inscriptions** l’activité s’attend à ce qu’une définition de lien soit associée à la variable **Services (nms)** Configuration de la table dans le workflow. Pour cela, vérifiez que vous avez configuré un lien de réconciliation dans un **Activité d’enrichissement** vers le haut dans le workflow. Un exemple d’utilisation de cette option est disponible [here](#uc2).
+     >Par défaut, si vous sélectionnez cette option, l’activité **Services d’abonnements** s’attend à ce qu’une définition de lien soit associée au tableau **Services (nms)** configurée dans le workflow. Pour ce faire, vérifiez que vous avez configuré un lien de réconciliation dans une **activité Enrichissement** vers le haut dans le workflow. Un exemple d’utilisation de cette option est disponible [ici](#uc2).
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
@@ -105,9 +105,9 @@ Le workflow ci-dessous montre comment importer un fichier contenant des profils 
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  Comme vous l’avez peut-être remarqué, l’opération est spécifiée en tant que &quot;sub&quot; ou &quot;unsub&quot; dans le fichier. Le système attend une valeur de type **Booléen** ou **Entier** pour déterminer l’opération à réaliser : la valeur &quot;0&quot; pour désabonner et la valeur &quot;1&quot; pour abonner. Pour répondre à cette exigence :
-   * La variable **Type de données** pour la colonne &quot;operation&quot; est définie sur integer.
-   * A **Remappage de valeurs** doivent être effectuées pour correspondre aux valeurs &quot;sub&quot; et &quot;unsub&quot; avec les valeurs &quot;1&quot; et &quot;0&quot;.
+  Comme vous l’avez peut-être remarqué, l’opération est spécifiée en tant que &quot;sub&quot; ou &quot;unsub&quot; dans le fichier. Le système attend une valeur de type **Booléen** ou **Entier** pour déterminer l’opération à réaliser : la valeur &quot;0&quot; pour désabonner et la valeur &quot;1&quot; pour abonner. Pour répondre à cette exigence :
+   * Le **Type de données** pour la colonne « operation » est défini sur entier.
+   * Un **remappage de valeurs** doit être effectué pour faire correspondre les valeurs « sub » et « unsub » avec les valeurs « 1 » et « 0 ».
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
@@ -117,11 +117,11 @@ Le workflow ci-dessous montre comment importer un fichier contenant des profils 
 
   ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
 
-* Un **[!UICONTROL Enrichissement]** crée un lien de réconciliation vers la table &quot;Services (nms)&quot;, avec une jointure simple entre la colonne &quot;service&quot; du fichier téléchargé et le champ &quot;nom interne&quot; des services dans la base de données.
+* L’activité **[!UICONTROL Enrichissement]** crée un lien de réconciliation vers le tableau « Services (nms) » avec une jointure simple entre la colonne « service » du fichier chargé et le champ « nom interne » des services dans la base de données.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* A **[!UICONTROL Services d’inscriptions]** identifie les services à mettre à jour comme provenant de la transition.
+* L’élément **[!UICONTROL Services d’abonnements]** identifie les services à mettre à jour comme provenant de la transition.
 
   Le **[!UICONTROL Type d’opération]** est identifié comme provenant du champ **operation** du fichier. Seul un champ Booléen ou Entier peut être sélectionné ici. Si la colonne du fichier contenant l’opération à effectuer n’apparaît pas dans la liste, vérifiez que vous avez correctement défini le format de la colonne dans l’activité **[!UICONTROL Chargement de fichier]**, comme expliqué plus haut dans cet exemple.
 
