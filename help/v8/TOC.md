@@ -8,7 +8,7 @@ breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 97%
       + [Envoyer des BAT](preview-test/test-deliveries.md)
       + [Tester le rendu des e-mails](preview-test/email-rendering.md)
    + Alertes de diffusion {#delivery-alerting}
-      + [Prise en main des alertes de diffusion](msg/delivery-alerting.md)
+      + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
       + [Critères des alertes de diffusion](msg/delivery-alerting-criteria.md)
 + Pages de destination {#landing-pages}
@@ -208,5 +208,5 @@ ht-degree: 97%
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Création et gestion d’un dossier](administration/create-manage-folder.md)
+   + [Créer et gérer un dossier](administration/create-manage-folder.md)
 + [Documentation de Campaign v8 (console) >](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home)

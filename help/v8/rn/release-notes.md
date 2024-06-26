@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 ## Notes de mise à jour de juin {#24-6-release}
 
-**Date de publication**: 18-19 juin 2024
+**Date de publication** : 18-19 juin 2024
 
-Les fonctionnalités et améliorations suivantes sont disponibles pour tous les utilisateurs à compter de la version de juin.
+Les fonctionnalités et améliorations suivantes sont disponibles pour tous les utilisateurs et utilisatrices à compter de la version de juin.
 <!--
 ### Visual fragments {#24-6-1}
 
@@ -34,15 +34,15 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### Alertes de diffusion {#24-6-3}
 
-La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d’utilisateurs de recevoir automatiquement des notifications contenant des informations sur l’exécution de leurs diffusions. [En savoir plus](../msg/delivery-alerting.md)
+La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d’utilisateurs et d’utilisatrices de recevoir automatiquement des notifications contenant des informations sur l’exécution de leurs diffusions. [En savoir plus](../msg/delivery-alerting.md)
 
 ### Plans et programmes {#24-6-4}
 
-Vous pouvez désormais créer des plans et des programmes pour organiser vos campagnes. En définissant une hiérarchie de dossiers, vous pouvez organiser vos campagnes en programmes et vos programmes en plans. [En savoir plus](../administration/plans-programs.md)
+Vous pouvez désormais créer des plans et des programmes pour organiser vos campagnes. En définissant une hiérarchie des dossiers, vous pouvez organiser vos campagnes en programmes et vos programmes en plans. [En savoir plus](../administration/plans-programs.md)
 
 ### Améliorations {#improvements-24-6}
 
-* **Réconciliation dans l&#39;activité Enrichissement**: la variable **Enrichissement** peut désormais être utilisée pour réconcilier des données issues du schéma de la base de données Campaign avec des données issues d’un autre schéma, ou avec des données provenant d’un schéma temporaire tel que des données téléchargées à l’aide d’une activité de Chargement de fichier . Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d&#39;un profil, indiqué dans un fichier téléchargé, avec l&#39;un des pays disponibles dans la table dédiée de la base de données Campaign. [En savoir plus](../workflows/activities/enrichment.md)
+* **Réconciliation dans l&#39;activité Enrichissement**: la variable **Enrichissement** peut désormais être utilisée pour réconcilier des données issues du schéma de la base de données Campaign avec des données issues d’un autre schéma, ou avec des données provenant d’un schéma temporaire tel que des données téléchargées à l’aide d’une activité de Chargement de fichier . Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d’un profil, indiqué dans un fichier chargé, avec l’un des pays disponibles dans le tableau dédié de la base de données Campaign. [En savoir plus](../workflows/activities/enrichment.md)
 
 ## Notes de mise à jour de mai {#24-5-release}
 

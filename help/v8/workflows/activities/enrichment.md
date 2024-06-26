@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -115,31 +115,31 @@ Un exemple de workflow utilisant des liens est disponible dans la section [Exemp
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 
-La variable **Enrichissement** peut être utilisée pour réconcilier des données provenant du schéma de la base de données Campaign avec des données issues d’un autre schéma, ou avec des données provenant d’un schéma temporaire, tel que des données téléchargées à l’aide d’une activité de Chargement de fichier . Ce type de lien définit une réconciliation vers un enregistrement unique. Adobe Campaign crée un lien vers une table cible en y ajoutant une clé étrangère afin de stocker une référence à l’enregistrement unique.
+L’activité **Enrichissement** peut être utilisée pour réconcilier des données provenant du schéma de la base de données Campaign avec des données issues d’un autre schéma, ou avec des données provenant d’un schéma temporaire, comme des données chargées à l’aide d’une activité Chargement de fichier. Ce type de lien définit une réconciliation vers un enregistrement unique. Adobe Campaign crée un lien vers un tableau cible en ajoutant une clé étrangère permettant de stocker une référence vers l’enregistrement unique.
 
-Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d&#39;un profil, indiqué dans un fichier téléchargé, avec l&#39;un des pays disponibles dans la table dédiée de la base de données Campaign.
+Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d’un profil, indiqué dans un fichier chargé, avec l’un des pays disponibles dans le tableau dédié de la base de données Campaign.
 
-Suivez les étapes pour configurer une **Enrichissement** activité avec un lien de réconciliation :
+Procédez comme suit pour configurer une activité **Enrichissement** avec un lien de réconciliation :
 
-1. Cliquez sur le bouton **Ajouter un lien** dans le **Réconciliation** .
+1. Cliquez sur le bouton **Ajouter un lien** dans la section **Réconciliation**.
 1. Identifiez les données avec lesquelles vous souhaitez créer un lien de réconciliation.
 
-   * Pour créer un lien de réconciliation avec les données de la base Campaign, sélectionnez **Schéma de base de données** et choisissez le schéma dans lequel la cible est stockée.
-   * Pour créer un lien de réconciliation avec les données provenant de la transition d&#39;entrée, sélectionnez **Schéma temporaire** et sélectionnez la transition de workflow dans laquelle les données cibles sont stockées.
+   * Pour créer un lien de réconciliation avec les données de la base de données Campaign, sélectionnez **Schéma de base de données** et choisissez le schéma dans lequel la cible est stockée.
+   * Pour créer un lien de réconciliation avec les données provenant de la transition en entrée, sélectionnez **Schéma temporaire** et choisissez la transition de workflow dans laquelle les données cibles sont stockées.
 
-1. La variable **Libellé** et **Nom** les champs sont automatiquement renseignés en fonction du schéma cible sélectionné. Vous pouvez modifier leurs valeurs si nécessaire.
+1. Les champs **Libellé** et **Nom** sont renseignés automatiquement en fonction du schéma cible sélectionné. Vous pouvez modifier leurs valeurs si nécessaire.
 
-1. Dans le **Critères de réconciliation** , indiquez comment vous souhaitez réconcilier les données des tables source et de destination :
+1. Dans la section **Critères de réconciliation**, indiquez comment vous souhaitez réconcilier les données des tableaux source et de destination :
 
-   * **Jointure simple**: réconciliez un champ spécifique de la table source avec un autre champ de la table de destination. Pour ce faire, cliquez sur le bouton **Ajouter une jointure** et indiquez le **Source** et **Destination** champs à utiliser pour la réconciliation.
+   * **Jointure simple** : réconciliez un champ spécifique du tableau source avec un autre champ du tableau de destination. Pour ce faire, cliquez sur le bouton **Ajouter une jointure** et renseignez les champs **Source** et **Destination** à utiliser pour la réconciliation.
 
      >[!NOTE]
      >
-     >Vous pouvez utiliser une ou plusieurs **Jointure simple** , auquel cas elles doivent toutes être vérifiées afin que les données puissent être liées.
+     >Vous pouvez utiliser une **Jointure simple**, ou plusieurs, auquel cas elles doivent toutes être vérifiées afin que les données puissent être liées.
 
-   * **Jointure avancée**: utilisez le modèle de requête pour configurer les critères de réconciliation. Pour ce faire, cliquez sur le bouton **Création d’une condition** définissez ensuite vos critères de réconciliation en créant votre propre règle à l’aide des opérations ET et OU.
+   * **Jointure avancée** : utilisez le concepteur de requête pour configurer les critères de réconciliation. Pour ce faire, cliquez sur le bouton **Créer une condition**, puis définissez vos critères de réconciliation en créant votre propre règle à l’aide des opérations ET et OU.
 
-L&#39;exemple ci-dessous montre un workflow configuré pour créer un lien entre la table des destinataires de la base de données Adobe Campaign et un tableau temporaire généré par une **Chargement de fichier** activité. Dans cet exemple, l&#39;activité Enrichissement permet de réconcilier les deux tables en utilisant l&#39;adresse email comme critère de réconciliation.
+L’exemple ci-dessous montre un workflow configuré pour créer un lien entre le tableau des personnes destinataires de la base de données Adobe Campaign et un tableau temporaire généré par une activité **Chargement de fichier**. Dans cet exemple, l’activité Enrichissement réconcilie les deux tableaux en utilisant l’adresse e-mail comme critère de réconciliation.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -211,11 +211,11 @@ Nous devons maintenant appliquer un tri pour récupérer les trois **derniers** 
 
 ### Enrichissement avec des données liées {#link-example}
 
-L’exemple ci-dessous montre un workflow configuré pour créer un lien entre deux transitions. Les premières transitions ciblent les données de profil à l&#39;aide d&#39;un **Requête** , tandis que la seconde transition inclut des données d’achat stockées dans un fichier chargé via une activité Chargement de fichier .
+L’exemple ci-dessous montre un workflow configuré pour créer un lien entre deux transitions. La première transition cible les données de profil à l’aide d’une activité **Requête**, tandis que la seconde transition inclut les données d’achat stockées dans un fichier chargé via une activité Chargement de fichier.
 
 ![](../assets/enrichment-uc-link.png)
 
-* Le premier **Enrichissement** l’activité relie l’ensemble principal (données issues de la variable **Requête** ) avec le schéma de la propriété **Chargement de fichier** activité. Cela nous permet de faire correspondre chaque profil ciblé par la requête avec les données d’achat correspondantes.
+* La première activité **Enrichissement** lie l’ensemble principal (données issues de l’activité **Requête**) au schéma de l’activité **Chargement de fichier**. Cela nous permet de faire correspondre chaque profil ciblé par la requête avec les données d’achat correspondantes.
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
