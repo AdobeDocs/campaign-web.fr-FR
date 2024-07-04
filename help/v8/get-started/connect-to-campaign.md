@@ -3,8 +3,8 @@ title: Se connecter à l’interface web d’Adobe Campaign
 description: Découvrir comment vous connecter à l’interface utilisateur d’Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
-workflow-type: ht
-source-wordcount: '559'
+workflow-type: tm+mt
+source-wordcount: '549'
 ht-degree: 100%
 
 ---
@@ -25,11 +25,11 @@ Pour vous connecter à Adobe Experience Cloud, les étapes de base sont les su
 
    Une fois la connexion à Experience Cloud effectuée, vous pouvez accéder rapidement à toutes vos solutions et applications.
 
-   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
+   ![](assets/exc-home.png){zoomable="yes"}
 
 1. Vérifiez que vous vous trouvez dans la bonne organisation.
 
-   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
    Apprenez-en plus sur les organisations dans Adobe Experience Cloud dans [cet article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){target="_blank"}.
 
@@ -40,11 +40,11 @@ Pour accéder à votre environnement Campaign, sélectionnez **Campaign** dans l
 
 Si vous disposez déjà d’une connexion à une autre solution Adobe Experience Cloud, vous pouvez également accéder à votre environnement Campaign à partir du sélecteur de solution situé en haut à droite de votre écran.
 
-![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
+![](assets/solution-switcher.png){zoomable="yes"}
 
 Si vous avez accès à plusieurs environnements, y compris le panneau de contrôle Campaign, cliquez sur le bouton **Démarrer** de l’instance appropriée.
 
-![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
+![](assets/launch-campaign.png){zoomable="yes"}
 
 Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à utiliser l’interface utilisateur sur [cette page](user-interface.md).
 
@@ -59,7 +59,7 @@ La barre supérieure de l’interface vous permet d’effectuer les actions suiv
 * vérifier vos notifications de produit ;
 * modifier votre profil Adobe et gérer les paramètres, par exemple [mettre à jour votre langue préférée](#language-pref) ou [passer au thème clair/sombre](#dark-theme).
 
-![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## Navigateurs pris en charge {#browsers}
 

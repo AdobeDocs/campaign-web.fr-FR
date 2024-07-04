@@ -5,7 +5,7 @@ description: Découvrir comment parcourir et filtrer les listes de Campaign Web
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -18,17 +18,17 @@ La plupart des liens du menu de navigation de gauche affichent des listes d’ob
 
 Les listes sont affichées en colonnes. Vous pouvez également afficher des informations supplémentaires en modifiant la configuration des colonnes. Pour ce faire, cliquez sur l’icône **Configurer une colonne pour une disposition personnalisée** dans le coin supérieur droit de la liste.
 
-![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Dans la fenêtre **Configurer des colonnes**, ajoutez ou supprimez des colonnes et modifiez leur ordre d’affichage.
 
 Par exemple, pour les paramètres suivants :
 
-![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 La liste affiche les colonnes suivantes :
 
-![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## Trier les données {#sort-lists}
 
@@ -40,7 +40,7 @@ Pour les colonnes numériques ou de date, la flèche vers le **haut** indique qu
 
 Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou les filtres intégrés et personnalisés pour adapter la liste selon des critères contextuels.
 
-![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Des informations détaillées sur l’utilisation des filtres et la création de vos propres filtres personnalisés sont disponibles dans [cette section](../query/filter.md).
 

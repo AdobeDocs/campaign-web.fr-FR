@@ -4,7 +4,7 @@ description: Découvrir comment créer et gérer des filtres prédéfinis dans A
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '762'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Les filtres prédéfinis sont des filtres personnalisés qui sont créés et enr
 
 Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-ensemble spécifique de vos données ou créer vos propres filtres prédéfinis et les enregistrer.
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable="yes"}{zoomable="yes"}
 
 ## Créer un filtre prédéfini {#create-predefined-filter}
 
@@ -47,11 +47,11 @@ Vous pouvez enregistrer un filtre personnalisé à partir du [concepteur de requ
 1. Ouvrez le concepteur de requête et définissez vos conditions de filtrage. Dans l’exemple ci-dessous, vous filtrez les personnes destinataires qui vivent à Madrid et qui ont un abonnement à une newsletter.
 1. Cliquez sur le bouton **Sélectionner ou enregistrer un filtre** et sélectionnez **Enregistrer en tant que filtre**.
 
-   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save.png){zoomable="yes"}
 
 1. Sélectionnez **Créer un filtre**, puis saisissez un nom et une description pour ce filtre.
 
-   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
    Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter).
 
@@ -71,12 +71,12 @@ Vous pouvez créer un filtre à partir de l’entrée **Filtres prédéfinis** d
 
 1. Définissez la règle pour le filtre. Par exemple, les profils de plus de 30 ans.
 
-   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
+   ![](assets/filter-30+.png){zoomable="yes"}
 
 
 1. Enregistrez vos modifications.
 
-   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-filter.png){zoomable="yes"}
 
 
 Le filtre est ajouté à la liste des filtres prédéfinis. Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter).
@@ -89,7 +89,7 @@ Lors de la création d’un filtre prédéfini, vous pouvez activer l’option *
 
 Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les utilisateurs et utilisatrices de la section **Filtres favoris** de la liste de création de filtre, comme illustré ci-dessous :
 
-![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
 
 ## Utiliser un filtre prédéfini {#use-predefined-filter}
 
@@ -103,21 +103,21 @@ Par exemple, pour créer une audience à partir d’un filtre prédéfini, proc�
 1. Saisissez le nom de l’audience, puis cliquez sur le bouton **Créer une audience**.
 1. Sélectionnez l’activité **Requête**, puis, dans le volet de droite, cliquez sur le bouton **Créer une audience**.
 
-   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-from-filter.png){zoomable="yes"}
 
 1. À partir du bouton **Sélectionner ou enregistrer un filtre**, choisissez l’option **Sélectionner un filtre personnalisé**.
 
-   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-select-custom-filter.png){zoomable="yes"}
 
 1. Accédez au filtre prédéfini à utiliser pour créer l’audience, sélectionnez-le et confirmez.
 
-   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-filter-list.png){zoomable="yes"}
 
 1. Vérifiez les propriétés de règle pour ce filtre et confirmez.
 
    Le filtre est désormais utilisé comme requête dans l’activité **Requête**.
 
-   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-confirm.png){zoomable="yes"}
 
 1. Enregistrez vos modifications et cliquez sur le bouton **Démarrer** pour créer l’audience et la rendre disponible dans la liste des audiences.
 
@@ -125,7 +125,7 @@ Par exemple, pour créer une audience à partir d’un filtre prédéfini, proc�
 
 Les filtres prédéfinis sont tous regroupés dans l’entrée dédiée du menu de navigation de gauche.
 
-![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
+![](assets/list-of-filters.png){zoomable="yes"}
 
 Dans cette liste, vous pouvez créer un nouveau filtre comme décrit ci-dessus et réaliser les actions ci-dessous :
 
