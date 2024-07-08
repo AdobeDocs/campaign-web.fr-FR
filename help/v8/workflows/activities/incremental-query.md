@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Requête incrémentale
 description: Découvrir comment utiliser l’activité de workflow Requête incrémentale
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
 ht-degree: 100%
 
