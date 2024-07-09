@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '2092'
-ht-degree: 100%
+source-wordcount: '2103'
+ht-degree: 98%
 
 ---
 
@@ -244,7 +244,7 @@ Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inc
 >title="Propriétés de la règle"
 >abstract="Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit.<br/>Ce volet permet d’afficher les données obtenues, de récupérer une version de code SQL de la requête et de vérifier le nombre d’enregistrements ciblés.<br/>Utilisez le bouton **Sélectionner ou enregistrer un filtre** pour enregistrer votre requête en tant que filtre prédéfini ou remplacer le contenu de la zone de travail par un filtre existant."
 
-Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide du volet **Propriétés des règles** situé sur le côté droit. Les opérations disponibles sont les suivantes :
+Une fois que vous avez créé votre requête dans la zone de travail, vous pouvez la vérifier à l’aide de la fonction **Propriétés des règles** volet situé à droite Ce volet s’affiche lors de la création d’une requête pour créer une audience. Les opérations disponibles sont les suivantes :
 
 * **Afficher les résultats** : affiche les données issues de votre requête.
 * **Affichage du code** : affiche une version basée sur le code de la requête en SQL.
