@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
+source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 100%
+source-wordcount: '1627'
+ht-degree: 95%
 
 ---
 
@@ -318,3 +318,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_editcustomfields"
 >title="Modifier les attributs personnalisés"
 >abstract="Modifier les attributs personnalisés"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="Messages transactionnels"
+>abstract="Messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="Propriétés des messages transactionnels"
+>abstract="Propriétés des messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="Événement de message transactionnel"
+>abstract="Événement de message transactionnel"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Contexte des messages transactionnels"
+>abstract="Contexte des messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="Contenu des messages transactionnels"
+>abstract="Contenu des messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Personnalisation des messages transactionnels"
+>abstract="Personnalisation des messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Personnalisation des messages transactionnels"
+>abstract="Personnalisation des messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="Logs d’exclusion des messages transactionnels"
+>abstract="Logs d’exclusion des messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Contexte des messages transactionnels"
+>abstract="Contexte des messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="Historique des événements des messages transactionnels"
+>abstract="Historique des événements des messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="Aperçu de l’historique des événements des messages transactionnels"
+>abstract="Aperçu de l’historique des événements des messages transactionnels"
+
