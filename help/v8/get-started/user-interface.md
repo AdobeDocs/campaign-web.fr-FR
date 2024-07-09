@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
+source-git-commit: 14fd007c2fc57a246905cc31800913536fea5734
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 95%
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -354,17 +354,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Personnalisation des messages transactionnels"
 
 >[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Personnalisation des messages transactionnels"
->abstract="Personnalisation des messages transactionnels"
-
->[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Logs d’exclusion des messages transactionnels"
 >abstract="Logs d’exclusion des messages transactionnels"
 
 >[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
+>id="acw_transacmessages_addcontext"
 >title="Contexte des messages transactionnels"
 >abstract="Contexte des messages transactionnels"
 
