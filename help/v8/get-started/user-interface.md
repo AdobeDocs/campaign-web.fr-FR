@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -340,8 +340,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
->title="Événement de message transactionnel"
->abstract="Événement de message transactionnel"
+>title="Événement des messages transactionnels"
+>abstract="Événement des messages transactionnels"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
