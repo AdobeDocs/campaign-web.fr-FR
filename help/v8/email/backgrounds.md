@@ -5,7 +5,7 @@ description: Découvrez comment personnaliser l’arrière-plan des e-mails.
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -27,15 +27,15 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
 * Définissez une **[!UICONTROL Couleur d’arrière-plan]** pour l’ensemble de l’e-mail. N’oubliez pas de sélectionner les paramètres du corps dans l’arborescence de navigation accessible à partir du volet de gauche.
 
-  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_1.png){zoomable="yes"}
 
 * Définissez la même couleur d’arrière-plan pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur d’arrière-plan de la fenêtre]**. Cette option vous permet de sélectionner un paramètre différent de la couleur d’arrière-plan.
 
-  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_2.png){zoomable="yes"}
 
 * Définissez une couleur d’arrière-plan différente pour chaque composant de structure. Sélectionnez une structure dans l’arborescence de navigation du volet de gauche afin d’appliquer une couleur d’arrière-plan spécifique uniquement sur cette structure.
 
-  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -43,7 +43,7 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
 * Définissez une **[!UICONTROL Image d’arrière-plan]** pour le contenu d’un composant de structure.
 
-  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -51,7 +51,7 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
 * Définissez une couleur de fond au niveau des colonnes.
 
-  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >

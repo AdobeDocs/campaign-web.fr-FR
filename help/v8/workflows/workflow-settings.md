@@ -4,8 +4,8 @@ title: Configurer les paramètres de workflow
 description: Découvrir comment configurer les paramètres de workflow à l’aide d’Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
-workflow-type: ht
-source-wordcount: '1067'
+workflow-type: tm+mt
+source-wordcount: '1063'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Lors de la création d’un workflow ou de l’orchestration des activités d’
 
 Ces paramètres sont prédéfinis dans le modèle sélectionné lors de la création du workflow, mais peuvent être modifiés selon les besoins du workflow.
 
-![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Propriétés de workflow  {#properties}
 
@@ -34,7 +34,7 @@ Ces paramètres sont prédéfinis dans le modèle sélectionné lors de la créa
 La section **[!UICONTROL Propriétés]** fournit des paramètres génériques qui peuvent être configurés lors de la création du workflow. Pour accéder aux propriétés d’un workflow existant, cliquez sur le bouton **[!UICONTROL Paramètres]** situé dans la barre d’actions qui se trouve au-dessus de la zone de travail du workflow.
 
 
-![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
 
 
 Ces propriétés sont les suivantes :
