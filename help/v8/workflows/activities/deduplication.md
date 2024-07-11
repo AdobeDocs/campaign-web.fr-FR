@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Déduplication
 description: Découvrez comment utiliser l’activité de workflow Déduplication.
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -54,10 +54,10 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Sélectionnez la **méthode de déduplication** à utiliser :
 
-   * **Sélection aléatoire**: sélectionne de manière aléatoire l’enregistrement à conserver en dehors des doublons.
-   * **Utiliser une expression**: conserver les enregistrements dans lesquels la valeur de l&#39;expression renseignée est la plus petite ou la plus grande.
-   * **Valeurs non vides**: conservez les enregistrements pour lesquels l’expression n’est pas vide.
-   * **Après une liste de valeurs**: définissez un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attributs** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Pour définir un nouveau champ, cliquez sur le bouton **Bouton Ajouter** situé au-dessus de la liste des valeurs.
+   * **Sélection aléatoire** : sélectionne au hasard l’enregistrement à conserver parmi les doublons.
+   * **À partir d’une expression** : permet de conserver les enregistrements dont la valeur de l’expression renseignée est la plus petite ou la plus grande.
+   * **Valeurs non vides** : conserve les enregistrements pour lesquels l’expression n’est pas vide.
+   * **Par ordonnancement de valeurs** : définit un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attributs** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Pour définir un nouveau champ, cliquez sur le bouton **Ajouter** situé au-dessus de la liste des valeurs.
 
 1. Cochez l’option **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
 

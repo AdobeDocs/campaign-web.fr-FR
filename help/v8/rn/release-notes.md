@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1623'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Vous pouvez désormais créer des plans et des programmes pour organiser vos cam
 
 ### Améliorations {#improvements-24-6}
 
-* **Réconciliation dans l&#39;activité Enrichissement**: la variable **Enrichissement** peut désormais être utilisée pour réconcilier des données issues du schéma de la base de données Campaign avec des données issues d’un autre schéma, ou avec des données provenant d’un schéma temporaire tel que des données téléchargées à l’aide d’une activité de Chargement de fichier . Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d’un profil, indiqué dans un fichier chargé, avec l’un des pays disponibles dans le tableau dédié de la base de données Campaign. [En savoir plus](../workflows/activities/enrichment.md)
+* **Réconciliation dans l’activité Enrichissement** : l’activité **Enrichissement** peut désormais être utilisée pour réconcilier des données du schéma de la base de données Campaign avec des données provenant d’un autre schéma, ou avec des données provenant d’un schéma temporaire tel que des données chargées à l’aide d’une activité Chargement de fichier. Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d’un profil, indiqué dans un fichier chargé, avec l’un des pays disponibles dans le tableau dédié de la base de données Campaign. [En savoir plus](../workflows/activities/enrichment.md)
 
 ## Notes de mise à jour de mai {#24-5-release}
 

@@ -4,9 +4,9 @@ title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,4 +59,4 @@ La barre d’outils située dans le coin supérieur droit de la zone de travail 
 
 ### Le volet Propriétés de la règle {#rule-properties}
 
-Sur le côté droit, le volet **[!UICONTROL Propriétés de la règle]** fournit des informations sur votre requête. Il vous permet d’effectuer diverses opérations pour vérifier la requête et vous assurer qu’elle correspond à vos besoins. Ce volet s’affiche lors de la création d’une requête pour créer une audience. [Découvrez comment vérifier et valider votre requête](build-query.md#check-and-validate-your-query)
+Sur le côté droit, le volet **[!UICONTROL Propriétés de la règle]** fournit des informations sur votre requête. Il vous permet d’effectuer diverses opérations pour vérifier la requête et vous assurer qu’elle correspond à vos besoins. Ce volet s’affiche lors de la création d’une requête pour créer une audience. [Découvrir comment vérifier et valider votre requête](build-query.md#check-and-validate-your-query)
