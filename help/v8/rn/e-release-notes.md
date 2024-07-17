@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: e9bba947dd1065287e698d20cf1b6b55c423003b
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 50%
 
 ---
 
@@ -17,28 +17,29 @@ L’interface d’utilisation d’Adobe Campaign Web fournit continuellement d
 
 **Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication.**. Les liens, les écrans et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md), à la date de publication.
 
-## Notes de mise à jour de juin {#24-6-release}
+## Notes de mise à jour de juillet {#24-7-release}
 
-**Date de publication** : 18-19 juin 2024
+**Date de publication** : 30-31 juillet 2024
 
-Les fonctionnalités et améliorations suivantes sont disponibles pour tous les utilisateurs et utilisatrices à compter de la version de juin.
+Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version de juillet.
 
-### Fragments de contenu {#24-6-1}
+### Fragments d’expression {#24-7-1}
 
-Vous pouvez désormais créer, utiliser et gérer des fragments **visuels** et d’**expression** pour assembler rapidement vos e-mails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs e-mails sur Adobe Campaign pour un processus de conception amélioré et accéléré.
+Vous pouvez désormais créer, utiliser et gérer des **fragments d’expression** pour créer rapidement du contenu personnalisé. Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs contenus dans Adobe Campaign pour un processus de conception amélioré et accéléré.
 
-### Listes de contrôle {#24-6-2}
+### Listes de contrôle {#24-7-2}
 
 Une liste de contrôle, autrement dit, un **groupe de recouvrements**, est une liste d’adresses de contrôle. Elle est utilisée pour inclure des adresses spécifiques dans vos diffusions, puis pour cibler des profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui ne font pas partie de l’audience de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible. Vous pouvez utiliser des adresses de contrôle lors de l’envoi d’épreuves ou pour protéger votre liste de publipostage.
 
-### Alertes de diffusion {#24-6-3}
+### Modèles de notification push riches {#24-7.3}
 
-La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d’utilisateurs et d’utilisatrices de recevoir automatiquement des notifications contenant des informations sur l’exécution de leurs diffusions.
+Vous pouvez désormais envoyer des notifications push enrichies. Une notification push enrichie est une forme améliorée de notification mobile qui va au-delà des messages texte simples en incorporant des éléments multimédias tels que des images, des boutons interactifs ou d’autres contenus multimédias enrichis. Avec cette version, un ensemble de modèles pour les notifications push enrichies est désormais disponible pour vos applications iOS et Android.
 
-### Plans et programmes {#24-6-4}
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.3 ou v8.7.2. [En savoir plus dans les notes de mise à jour de la console cliente Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
 
-Vous pouvez désormais créer des plans et des programmes pour organiser vos campagnes. En définissant une hiérarchie des dossiers, vous pouvez organiser vos campagnes en programmes et vos programmes en plans.
 
-### Améliorations {#improvements-24-6}
+### Améliorations {#improvements-24-7}
 
-* **Réconciliation dans l’activité Enrichissement** : l’activité Enrichissement peut désormais être utilisée pour réconcilier des données du schéma de la base de données Campaign avec des données provenant d’un autre schéma, ou avec des données provenant d’un schéma temporaire tel que des données chargées à l’aide d’une activité Chargement de fichier. Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d’un profil, indiqué dans un fichier chargé, avec l’un des pays disponibles dans le tableau dédié de la base de données Campaign.
+* **Gestion des dossiers** - Vous pouvez désormais gérer les autorisations et les restrictions sur les dossiers.
