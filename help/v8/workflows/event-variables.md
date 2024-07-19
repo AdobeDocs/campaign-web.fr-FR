@@ -4,7 +4,7 @@ title: Variables d’événement de workflow
 description: Découvrez comment exploiter les variables d’événement dans vos workflows.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Découvrez comment gérer les ressources avec Adobe Experience Ma
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '379'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Pour plus d’informations sur le chargement de ressources, reportez-vous à la 
 
 1. Sur la page d’accueil, accédez au menu avancé et sélectionnez [!DNL Experience Manager Assets].
 
-   ![](assets/assets_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_1.png){zoomable="yes"}
 
 1. Sous **Gestion des ressources**, cliquez sur **Ressources** et choisissez le référentiel pour vos ressources dans Adobe Campaign.
 
@@ -36,25 +36,25 @@ Pour plus d’informations sur le chargement de ressources, reportez-vous à la 
 
 1. Une fois dans le dossier sélectionné ou créé, cliquez sur **[!UICONTROL Ajouter des ressources]** pour charger une nouvelle ressource dans votre dossier.
 
-   ![](assets/assets_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_2.png){zoomable="yes"}
 
 1. Dans **[!UICONTROL Charger les fichiers]**, cliquez sur **[!UICONTROL Parcourir]** et choisissez si vous souhaitez **[!UICONTROL Parcourir les fichiers]** ou **[!UICONTROL Parcourir les dossiers]**.
 
 1. Sélectionnez le fichier que vous souhaitez charger. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Charger]**.
 
-   ![](assets/assets_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_3.png){zoomable="yes"}
 
 1. Pour accéder au menu avancé de gestion des ressources, sélectionnez la ressource que vous venez de charger.
 
    Pour en savoir plus sur la gestion de vos ressources, reportez-vous à cette [page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=fr).
 
-   ![](assets/assets_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_4.png){zoomable="yes"}
 
 1. Pour modifier davantage vos ressources avec Adobe Photoshop Express, double-cliquez dessus. Ensuite, dans le menu de droite, sélectionnez l’icône **[!UICONTROL Mode d’édition]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=fr#edit-using-express){target="_blank"}.
 
 1. Dans [!DNL Adobe Campaign], sélectionnez le menu **[!UICONTROL Sélecteur de ressources]** dans le volet gauche du concepteur d’e-mail.
 
-   ![](assets/assets_6.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_6.png){zoomable="yes"}
 
 1. Sélectionnez le dossier **[!UICONTROL Assets]** que vous avez créé précédemment. Vous pouvez également rechercher votre ressource ou votre dossier dans la barre de recherche.
 
@@ -62,8 +62,8 @@ Pour plus d’informations sur le chargement de ressources, reportez-vous à la 
 
 1. Faites glisser et déposez votre ressource dans le contenu de votre e-mail.
 
-   ![](assets/assets_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_5.png){zoomable="yes"}
 
 1. Vous pouvez personnaliser davantage vos ressources, par exemple en ajoutant un lien externe ou du texte à l’aide des onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]**. [En savoir plus sur les paramètres des composants](../email/content-components.md)
 
-   ![](assets/assets_7.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_7.png){zoomable="yes"}

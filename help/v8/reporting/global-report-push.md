@@ -5,7 +5,7 @@ description: Comprendre les rapports globaux du canal de notification push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '546'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporti
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI (indicateurs clés de performance) qui illustrent l’engagement de vos visiteurs et de vos visiteuses par rapport à chaque diffusion de notification push. Les mesures sont détaillées ci-dessous.
 
-![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
@@ -50,7 +50,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI (in
 
 Le tableau et le graphe **[!UICONTROL Audience ciblée]** présentent les données relatives à vos destinataires pour chaque diffusion de notification push envoyée. Les mesures sont détaillées ci-dessous.
 
-![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures d’audience ciblée.
 
@@ -71,7 +71,7 @@ Le tableau et le graphe **[!UICONTROL Audience ciblée]** présentent les donné
 
 Le tableau **[!UICONTROL Statistiques de diffusion]** renseigne sur le succès des diffusions de notifications push. Les mesures sont détaillées ci-dessous.
 
-![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des statistiques de diffusion.
 
@@ -105,6 +105,6 @@ Les types d’erreur de notifications push sont répertoriés dans la [documenta
 >title="Rapport de débit de diffusion"
 >abstract="Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de la notification push de l’ensemble de la plateforme dans un délai donné."
 
-![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
-Le rapport **[!UICONTROL Débit de diffusion]** offre des informations complètes sur l’efficacité du système de diffusion des notifications push, ainsi qu’un résumé détaillé des taux de réussite et d’erreur sur une période donnée.
+Le rapport **[!UICONTROL Débit de diffusion]** offre des informations complètes sur l’efficacité du système de diffusion des notifications push, ainsi qu’un résumé détaillé des taux de succès et d’erreur sur une période donnée.

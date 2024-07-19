@@ -5,7 +5,7 @@ description: Présentation des rapports de campagne du canal de notification pus
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Chaque rapport de campagne est divisé en différents widgets qui détaillent le
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI qui donnent des informations détaillées sur les interactions de vos visiteurs et visiteuses avec votre diffusion Notification push. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 
 +++En savoir plus sur les mesures des rapports de campagne par notification push.
@@ -48,7 +48,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI qui
 
 Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
 
 +++En savoir plus sur les mesures des rapports de campagne par notification push.
@@ -70,9 +70,9 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne Notification push.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -95,9 +95,9 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne Notification push.
 
 * **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 

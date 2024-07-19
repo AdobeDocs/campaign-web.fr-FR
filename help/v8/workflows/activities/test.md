@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Test
 description: Découvrez comment utiliser l’activité de workflow Test
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 

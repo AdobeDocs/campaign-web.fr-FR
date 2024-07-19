@@ -5,7 +5,7 @@ description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign�
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ La diffusion par SMS comprend les étapes suivantes. Pour plus d’informations 
 
 1. Sur la page de contenu de la diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu que vous avez personnalisé.
 
-   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_1.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Ajouter un ou plusieurs profils de test]** pour sélectionner un ou plusieurs profils de test.
 
@@ -36,7 +36,7 @@ La diffusion par SMS comprend les étapes suivantes. Pour plus d’informations 
 
 1. Dans le volet de droite, vous trouverez un aperçu de la diffusion par SMS, où les éléments personnalisés sont remplacés dynamiquement par les données du profil sélectionné.
 
-   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_3.png){zoomable="yes"}
 
 Vous pouvez maintenant vérifier et envoyer votre SMS à votre audience.
 
@@ -48,13 +48,13 @@ L’envoi de BAT est une étape importante pour garantir la qualité et l’effi
 
 ![](../assets/do-not-localize/book.png) Découvrez comment envoyer des BAT dans [cette section](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
+![](assets/sms_send_6.png){zoomable="yes"}
 
 ## Envoyer votre diffusion par SMS {#send-sms}
 
 1. Après avoir personnalisé le contenu de votre SMS, cliquez sur **[!UICONTROL Vérifier et envoyer]** sur votre page **[!UICONTROL Diffusion]**.
 
-   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_4.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Préparer]** et suivez la progression et les statistiques fournies.
 
@@ -62,7 +62,7 @@ L’envoi de BAT est une étape importante pour garantir la qualité et l’effi
 
 1. Envoyez les messages en cliquant sur **[!UICONTROL Envoyer]** pour poursuivre le processus d’envoi final.
 
-   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_5.png){zoomable="yes"}
 
    Si la diffusion SMS a été planifiée, cliquez sur le bouton **[!UICONTROL Envoyer comme prévu]**. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#schedule-the-delivery-sending).
 

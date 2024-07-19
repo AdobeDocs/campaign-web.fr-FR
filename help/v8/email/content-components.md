@@ -5,7 +5,7 @@ description: Découvrez comment utiliser des composants de contenu dans vos emai
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1165'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ Pour ajouter des composants de contenu à votre e-mail et les ajuster selon vos 
 
 1. Faites glisser et déposez le **[!UICONTROL contenu]** de votre choix dans les structures appropriées.
 
-   ![](assets/email_designer_add_content_components.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_add_content_components.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -54,7 +54,7 @@ Pour ajouter des composants de contenu à votre e-mail et les ajuster selon vos 
 
 1. Ajustez les attributs de style de chaque composant à l’aide de l’onglet **[!UICONTROL Style]**. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de chaque composant. [En savoir plus sur l’alignement et la marge intérieure](alignment-and-padding.md).
 
-   ![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 1. Dans le menu avancé de votre **[!UICONTROL Contenu]** dans le volet de droite, vous pouvez facilement supprimer ou dupliquer n’importe quel composant de contenu, si nécessaire.
 
@@ -64,7 +64,7 @@ Vous pouvez ajouter un conteneur simple à l’intérieur duquel vous ajouterez 
 
 Par exemple, ajoutez un composant **[!UICONTROL Conteneur]**, puis ajoutez un composant [Bouton](#button) à l’intérieur de ce conteneur. Vous pouvez utiliser un arrière-plan spécifique pour le conteneur et un autre pour le bouton.
 
-![](assets/email_designer_container_component.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer_container_component.png){zoomable="yes"}
 
 ## Bouton {#buttons}
 
@@ -72,11 +72,11 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
 
 1. À partir de la liste **[!UICONTROL Contenu]**, faites glisser et déposez le composant de **[!UICONTROL bouton]** dans un composant de **[!UICONTROL structure]**.
 
-   ![](assets/email_designer_13.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_13.png){zoomable="yes"}
 
 1. Cliquez sur le bouton que vous venez d’ajouter pour personnaliser le texte et accéder aux onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]**.
 
-   ![](assets/email_designer_14.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_14.png){zoomable="yes"}
 
 1. Depuis l’onglet **[!UICONTROL Paramètres]**, dans le champ **[!UICONTROL URL]**, ajoutez l’URL vers laquelle vous souhaitez rediriger lors d’un clic sur le bouton.
 
@@ -88,7 +88,7 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
    * **[!UICONTROL Parent]** : ouvre le lien dans le cadre parent.
    * **[!UICONTROL Haut]** : ouvre le lien dans le corps complet de la fenêtre.
 
-   ![](assets/email_designer_15.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_15.png){zoomable="yes"}
 
 1. Vous pouvez personnaliser davantage votre bouton en modifiant les attributs de style, tels que la **[!UICONTROL bordure]**, la **[!UICONTROL taille]**, la **[!UICONTROL marge]**, etc. depuis l’onglet **[!UICONTROL Styles]**.
 
@@ -98,13 +98,13 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
 
 1. Dans le menu **[!UICONTROL Contenu]**, faites glisser et déposez du **[!UICONTROL texte]** dans un composant de **[!UICONTROL structure]**.
 
-   ![](assets/email_designer_11.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_11.png){zoomable="yes"}
 
 1. Cliquez sur le composant que vous venez d’ajouter pour personnaliser le texte et accéder aux onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]**.
 
 1. Modifiez votre texte avec les options suivantes disponibles dans la barre d’outils contextuelle :
 
-   ![](assets/email_designer_27.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_27.png){zoomable="yes"}
 
    * **[!UICONTROL Modifier le style de texte]** : appliquez le style gras, italique, souligné ou barré à votre texte.
    * **Modifier l’alignement** : sélectionnez l’alignement gauche, droite, centré ou justifié pour votre texte.
@@ -120,7 +120,7 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
 
 1. Ajustez les autres attributs de style tels que la couleur du texte, la famille de polices, la bordure, la marge intérieure, la marge, etc. depuis l’onglet **[!UICONTROL Styles]**.
 
-   ![](assets/email_designer_12.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_12.png){zoomable="yes"}
 
 ## Diviseur {#divider}
 
@@ -128,7 +128,7 @@ Utilisez le composant **[!UICONTROL Diviseur]** pour insérer une ligne de sépa
 
 Vous pouvez ajuster les attributs de style, tels que le style, la hauteur et la couleurs des lignes depuis l’onglet **[!UICONTROL Styles]**.
 
-![](assets/email_designer_16.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer_16.png){zoomable="yes"}
 
 ## HTML {#HTML}
 
@@ -136,11 +136,11 @@ Utilisez le composant **[!UICONTROL HTML]** pour copier-coller les différentes 
 
 1. À partir des **[!UICONTROL Composants]**, faites glisser et déposez le composant **[!UICONTROL HTML]** dans une **[!UICONTROL structure]**.
 
-   ![](assets/email_designer_22.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_22.png){zoomable="yes"}
 
 1. Cliquez sur le composant que vous venez d’ajouter, puis sélectionnez **[!UICONTROL Afficher le code source]** dans la barre d’outils contextuelle pour ajouter votre code HTML.
 
-   ![](assets/email_designer_23.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_23.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -152,26 +152,26 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
 1. Dans le menu **[!UICONTROL Contenu]**, faites glisser et déposez **[!UICONTROL Image]** dans un composant de **[!UICONTROL structure]**.
 
-   ![](assets/email_designer_9.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_9.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources. Vous pouvez également choisir d’**[!UICONTROL importer votre contenu multimédia]**.
 
    Pour en savoir plus sur le chargement et l’ajout de ressources dans Adobe Experience Manager, reportez-vous à la [Documentation d’Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=fr).
 
-   ![](assets/email_designer_28.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_28.png){zoomable="yes"}
 
 1. Parcourez vos dossiers pour localiser la ressource spécifique dont vous avez besoin ou utilisez la barre de recherche pour la chercher efficacement.
 
    Une fois que vous avez trouvé la ressource recherchée, cliquez sur **[!UICONTROL Sélectionner]**.
 
-   ![](assets/email_designer_29.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_29.png){zoomable="yes"}
 
 1. Cliquez sur le composant que vous venez d’ajouter et configurez les propriétés de l’image à l’aide de l’onglet **[!UICONTROL Paramètres]** :
 
    * **[!UICONTROL Titre de l’image]** permet de définir le titre de l’image.
    * **[!UICONTROL Texte alternatif]** permet de définir la légende associée à votre image. Cela correspond à l’attribut HTML alternatif.
 
-   ![](assets/email_designer_10.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_10.png){zoomable="yes"}
 
 1. Vous pouvez ajouter un lien pour rediriger votre audience vers un autre contenu. [En savoir plus](message-tracking.md)
 
@@ -187,13 +187,13 @@ Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des p
 
 1. Dans le champ **[!UICONTROL Social]** de l’onglet **[!UICONTROL Paramètres]**, sélectionnez les médias sociaux à ajouter ou à supprimer.
 
-   ![](assets/email_designer_20.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_20.png){zoomable="yes"}
 
 1. Sélectionnez la taille des icônes dans le champ **[!UICONTROL Taille des images]**.
 
 1. Cliquez sur chaque icône de réseau social pour configurer l’**[!UICONTROL URL]** vers laquelle votre audience est redirigée.
 
-   ![](assets/email_designer_21.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_21.png){zoomable="yes"}
 
 1. Vous pouvez également modifier les icônes de chaque média social si nécessaire dans le champ **[!UICONTROL Source]**.
 

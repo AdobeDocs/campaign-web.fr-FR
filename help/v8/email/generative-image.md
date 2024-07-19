@@ -7,8 +7,8 @@ exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
-workflow-type: ht
-source-wordcount: '391'
+workflow-type: tm+mt
+source-wordcount: '379'
 ht-degree: 100%
 
 ---
@@ -35,13 +35,13 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant de 
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Génération de l’expérience]**.
 
-   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-1.png){zoomable="yes"}
 
 1. Ajoutez un texte descriptif pour affiner davantage vos résultats.
 
-   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-2.png){zoomable="yes"}
 
-1. Sélectionnez **[!UICONTROL Charger le fichier]** pour ajouter une ressource de marque comportant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
+1. Sélectionnez **[!UICONTROL Charger le fichier]** pour ajouter une ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant de contenu.
 
    Cliquez également sur **[!UICONTROL Contenu chargé]** pour rechercher des fichiers mis à jour précédemment. Notez que le contenu chargé est exclusivement disponible pour réutilisation par l’utilisateur ou l’utilisatrice en cours.
 
@@ -51,20 +51,20 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant de 
 
 1. Personnalisez les paramètres **[!UICONTROL Couleur et ton]**, **[!UICONTROL Type de contenu]**, **[!UICONTROL Éclairage]** et **[!UICONTROL Composition]** en fonction des caractéristiques de votre ressource.
 
-   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. Quand la configuration rapide vous satisfait, cliquez sur **[!UICONTROL Générer]**.
 
 1. Parcourez les **[!UICONTROL Suggestions de variation]** pour trouver la ressource souhaitée. Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 
-   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-5.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-6.png){zoomable="yes"}
 
 1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test.  [En savoir plus](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-7.png){zoomable="yes"}
 
 1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)

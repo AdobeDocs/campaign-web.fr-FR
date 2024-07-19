@@ -5,7 +5,7 @@ description: Découvrez comment filtrer les listes Adobe Campaign Web à l’a
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Pour appliquer des filtres à une liste, cliquez sur le bouton **[!UICONTROL Aff
 
 Le volet des filtres s’ouvre, affichant les filtres disponibles pour la liste sélectionnée. Vous pouvez, par exemple, filtrer les campagnes selon leur statut, dates de début et de fin ou dossier de stockage, tandis que la liste des services d’abonnement peut être filtrée selon leur canal et dossier de stockage.
 
-![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Pour filtrer une liste selon vos propres critères, créez un filtre personnalisé. Pour ce faire, accédez au bas du volet des filtres et cliquez sur le bouton **Ajouter des règles**. [Découvrez comment créer des filtres personnalisés](#custom)
 
@@ -36,6 +36,6 @@ Les filtres personnalisés vous permettent d’affiner les listes en fonction de
 
    L’exemple ci-dessous présente un filtre personnalisé conçu pour s’afficher dans la liste des campagnes par SMS exécutées par les opérateurs des services de running ou de yoga.
 
-   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Une fois votre filtre personnalisé configuré, cliquez sur **[!UICONTROL Confirmer]** pour l’appliquer à la liste.

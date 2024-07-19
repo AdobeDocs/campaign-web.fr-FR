@@ -5,7 +5,7 @@ description: Découvrez comment créer un workflow avec Adobe Campaign Web.
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '733'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Pour ce faire, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un workflow]** dans le coin supérieur droit de l’écran.
 
-   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-create.png){zoomable="yes"}
 
 1. Dans les **Propriétés** du workflow, sélectionnez le modèle à utiliser pour créer le workflow (vous pouvez également utiliser le modèle intégré par défaut). [En savoir plus sur les modèles de workflow](#workflow-templates).
 
@@ -34,7 +34,7 @@ Pour ce faire, procédez comme suit :
 
 1. Développez la section **[!UICONTROL Options supplémentaires]** pour configurer d’autres paramètres pour le workflow. Découvrez comment configurer les propriétés de workflow sur [cette page](workflow-settings.md#properties).
 
-   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-additional-options.png){zoomable="yes"}
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un workflow]** pour confirmer la création de votre workflow.
 
@@ -65,14 +65,14 @@ Pour créer un modèle de workflow à partir d’un workflow existant, procédez
 1. Ouvrez le menu **Workflows** et accédez au workflow à enregistrer en tant que modèle.
 1. Cliquez sur les trois points à droite du nom du workflow, puis choisissez **Copier en tant que modèle**.
 
-   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-copy-as-template.png){zoomable="yes"}
 
 1. Dans la fenêtre contextuelle, confirmez la création du modèle.
 1. Dans la zone de travail du modèle de workflow, vérifiez, ajoutez et configurez les activités selon vos besoins.
 1. Accédez aux paramètres en cliquant sur le bouton **Paramètres** pour modifier le nom du modèle de workflow, puis saisissez une description.
 1. Sélectionnez le **dossier** et le **dossier d’exécution** du modèle. Le dossier correspond à l’emplacement où le modèle de workflow est enregistré. Le dossier d’exécution est le dossier dans lequel les workflows créés à partir de ce modèle sont enregistrés.
 
-   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-settings-template.png){zoomable="yes"}
 
    Les autres propriétés sont communes aux workflows. Apprenez-en davantage en consultant [cette page](workflow-settings.md#properties).
 
@@ -91,14 +91,14 @@ Pour créer un modèle de workflow à partir de zéro, procédez comme suit :
 1. Saisissez le libellé et ouvrez les options supplémentaires afin de saisir une description de votre modèle de workflow.
 1. Sélectionnez le dossier et le dossier d’exécution du modèle. Le dossier correspond à l’emplacement où le modèle de workflow est enregistré. Le dossier d’exécution est le dossier dans lequel les workflows créés à partir de ce modèle sont enregistrés.
 
-   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-wf-template.png){zoomable="yes"}
 
    Les autres propriétés sont communes aux workflows. Apprenez-en davantage en consultant [cette page](workflow-settings.md#properties).
 
 1. Cliquez sur le bouton **Créer** pour confirmer vos paramètres.
 1. Dans la zone de travail du modèle de workflow, ajoutez et configurez les activités selon vos besoins.
 
-   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-template-activities.png){zoomable="yes"}
 
 1. Enregistrez vos modifications.
 

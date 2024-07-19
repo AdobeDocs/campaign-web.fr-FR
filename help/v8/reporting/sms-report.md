@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux rapports de diffusion SMS et les ut
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '504'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ La **Vue d’ensemble de la diffusion SMS** offre une vue d’ensemble complète
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur les taux d’erreur et de réussite, ainsi que sur la manière dont vos visiteurs et visiteuses interagissent avec vos SMS.
 
-![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
@@ -53,7 +53,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui
 
 Le graphe et le tableau **Population ciblée** affichent les données relatives à votre audience. Les mesures sont détaillées ci-dessous.
 
-![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
@@ -72,7 +72,7 @@ Le graphe et le tableau **Population ciblée** affichent les données relatives 
 
 Le rapport **Statistiques globales** présente les données des SMS envoyés. Les mesures sont détaillées ci-dessous.
 
-![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion SMS.
 
@@ -92,7 +92,7 @@ Le rapport **Statistiques globales** présente les données des SMS envoyés. Le
 
 Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les raisons qui ont empêché les profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message. Les règles d’exclusion sont détaillées dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Débit de diffusion {#delivery-throughput}
 
@@ -103,4 +103,4 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les raisons qui on
 
 Ce rapport présente des informations détaillées sur le débit des diffusions au cours d’une période spécifiée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
 
-![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_2.png){zoomable="yes"}

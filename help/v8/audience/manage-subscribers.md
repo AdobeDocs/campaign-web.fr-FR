@@ -5,7 +5,7 @@ description: Découvrez comment gérer les personnes abonnées à un service dan
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '304'
 ht-degree: 100%
 
 ---
@@ -24,15 +24,15 @@ Pour ajouter manuellement des personnes abonnées, procédez comme suit.
 
 1. Accédez à l’onglet **[!UICONTROL Personnes abonnées]** et cliquez sur **[!UICONTROL Ajouter des personnes abonnées]**.
 
-   ![](assets/service-subscribers-tab.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-tab.png){zoomable="yes"}
 
 1. Sélectionnez les profils à ajouter dans la liste, puis cliquez sur **[!UICONTROL Confirmer]**.
 
-   ![](assets/service-subscribers-select-profiles.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Envoyer]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> pour que les personnes destinataires sélectionnées reçoivent le [message de confirmation](manage-services.md#create-confirmation-message) d’abonnement que vous avez défini lors de la [création du service](manage-services.md#create-service).
+1. Cliquez sur **[!UICONTROL Envoyer]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> pour que les personnes destinataires sélectionnéss reçoivent le [message de confirmation](manage-services.md#create-confirmation-message) d’abonnement que vous avez défini lors de la [création du service](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-confirmation-msg.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -50,13 +50,13 @@ Une fois les [personnes abonnées ajoutées](#add-subscribers) à votre service,
 
 1. Cliquez sur l’icône représentant trois points de suspension située en regard du nom de la personne souhaitée, puis sélectionnez **[!UICONTROL Supprimer]**.
 
-   ![](assets/service-subscribers-delete.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-delete.png){zoomable="yes"}
 
 1. Confirmez la suppression.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** pour que la personne destinataire sélectionnée reçoive le [message de confirmation](manage-services.md#create-confirmation-message) de désabonnement que vous avez défini lors de la [création du service](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-delete-confirmation.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 
 La personne destinataire est supprimée de l’onglet **[!UICONTROL Personnes abonnées]** et n’est plus abonnée à votre service.
 
@@ -66,6 +66,6 @@ Un service d’abonnement peut avoir une durée limitée. Les profils sont autom
 
 Cette période est spécifiée lors de la [création du service](manage-services.md#create-service). Dans les **[!UICONTROL Options supplémentaires]**, désactivez l’option **[!UICONTROL Période de validité illimitée]** et définissez une période de validité pour le service.
 
-![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
+![](assets/service-create-validity-period.png){zoomable="yes"}
 
 Une fois la durée spécifiée expirée, toutes les personnes abonnées sont automatiquement désabonnées de ce service.

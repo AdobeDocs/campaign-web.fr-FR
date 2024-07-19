@@ -5,7 +5,7 @@ description: Découvrez les différentes manières d’ajuster le style du conte
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Une fois que vous avez commencé à créer le contenu de votre e-mail dans [!DNL
 
 Vous pouvez appliquer vos modifications au corps de l’e-mail, à un composant de structure ou à un composant de contenu.
 
-![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 Consultez les liens ci-dessous pour découvrir comment ajuster certains paramètres de style des e-mails.
 

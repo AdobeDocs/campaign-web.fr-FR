@@ -4,7 +4,7 @@ title: Concevoir une diffusion par courrier
 description: Découvrir comment concevoir une diffusion par courrier avec Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 100%
 

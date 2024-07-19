@@ -7,8 +7,8 @@ exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
-workflow-type: ht
-source-wordcount: '469'
+workflow-type: tm+mt
+source-wordcount: '457'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Pour générer le contenu d’un e-mail avec l’assistant IA, procédez comme s
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Génération de l’expérience]**.
 
-   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-1.png){zoomable="yes"}
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer.
 
@@ -46,7 +46,7 @@ Pour générer le contenu d’un e-mail avec l’assistant IA, procédez comme s
    * Pour les commentaires et les enquêtes : créez un e-mail invitant les clientes et clients à fournir des commentaires sur leur expérience logicielle récente et à participer à un questionnaire d’amélioration des produits.
    * Pour les e-mails d’anniversaire : générez un e-mail d’anniversaire, célébrez le jour spécial du client ou de la cliente et offrez-lui une remise.
 
-   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-2.png){zoomable="yes"}
 
 1. Sélectionnez **[!UICONTROL Charger un fichier]** pour ajouter une ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
@@ -56,7 +56,7 @@ Pour générer le contenu d’un e-mail avec l’assistant IA, procédez comme s
 
 1. Choisissez la **[!UICONTROL Langue]** et le **[!UICONTROL Ton]** à donner au texte. Vous vous assurez ainsi que le texte est adapté à votre audience et à votre objectif.
 
-   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-3.png){zoomable="yes"}
 
 1. Personnalisez les paramètres de ressources **[!UICONTROL Type de contenu]** de sorte à les faire correspondre aux caractéristiques de ressources souhaitées.
 
@@ -64,16 +64,16 @@ Pour générer le contenu d’un e-mail avec l’assistant IA, procédez comme s
 
 1. Parcourez les **[!UICONTROL Suggestions de variation]** pour trouver l’e-mail de votre choix. Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 
-   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-4.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-5.png){zoomable="yes"}
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil ou personnalisez davantage votre contenu, si nécessaire. [En savoir plus sur la personnalisation du contenu](../personalization/personalize.md).
 
 1. Après avoir défini le contenu de votre e-mail, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-6.png){zoomable="yes"}
 
 1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)

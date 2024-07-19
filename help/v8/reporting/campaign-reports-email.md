@@ -5,7 +5,7 @@ description: En savoir plus sur les rapports de campagne du canal E-mail
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1571'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Chaque rapport de campagne est divisé en différents widgets qui détaillent le
 
 La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion e-mail. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_1.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_1.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -50,7 +50,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent
 
 Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_2.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_2.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -71,7 +71,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_3.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_3.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -96,7 +96,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 Le tableau **[!UICONTROL Statistiques des réactions]** contient les données disponibles relatives à l’activité des destinataires de votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_4.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_4.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -120,7 +120,7 @@ Le tableau **[!UICONTROL Statistiques des réactions]** contient les données di
 
 Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_5.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_5.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -145,7 +145,7 @@ Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** conti
 
 Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_6.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -185,7 +185,7 @@ Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** co
 
 Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les données disponibles pour les e-mails envoyés. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_7.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_7.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -211,7 +211,7 @@ Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateu
 
 Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_8.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_8.png){zoomable="yes"}
 
 +++ En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -236,7 +236,7 @@ Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche d
 
 Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les URL qui ont reçu le plus grand nombre de clics lors d’une diffusion. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_9.png){zoomable="yes"}
 
 +++ En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -259,7 +259,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contiennent les données disponibles pour le comportement des destinataires par lien. Les mesures sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_10.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_10.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -278,7 +278,7 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 
 Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des destinataires par lien.
 
-![](assets/campaign_report_email_11.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_email_11.png){zoomable="yes"}
 
 ## Activités utilisateurs {#user-activities-email}
 
@@ -289,7 +289,7 @@ Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les don
 
 Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Les mesures de ce rapport sont détaillées ci-dessous.
 
-![](assets/campaign_report_email_user_activities.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 

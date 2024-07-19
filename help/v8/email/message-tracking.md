@@ -4,8 +4,8 @@ title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
-workflow-type: ht
-source-wordcount: '549'
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 1. Sélectionnez le type de lien que vous souhaitez créer :
 
-   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL Lien externe]** : insérez un lien vers une URL externe.
 
@@ -38,11 +38,11 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * **[!UICONTROL Page de destination]** : insérez un lien vers une page de destination. Si vous sélectionnez une page de destination dynamique (avec l’option **[!UICONTROL Service à partir d’une URL]** sélectionnée), vous pouvez sélectionner n’importe quel service dans la liste. [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+     ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
    * **[!UICONTROL Lien d’abonnement]** : insérez un lien vers un service d’abonnement. Lorsque les utilisateurs et utilisatrices cliquent sur le lien, ils sont redirigés vers la page de destination d’abonnement référencée dans le service sélectionné. [En savoir plus](../audience/manage-services.md#create-service)
 
-     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
    * **[!UICONTROL Lien de désabonnement]** : insérez un lien vers un service de désabonnement. Lorsque les personnes abonnées cliquent sur le lien, elles sont redirigées vers la page de destination de désabonnement référencée dans le service sélectionné. [En savoir plus](../audience/manage-services.md#create-service)
 
@@ -59,7 +59,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
    * Vous pouvez modifier le lien ainsi que sa **[!UICONTROL Cible]**.
    * Vous pouvez choisir de souligner le lien en cochant l’option correspondante.
 
-   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -77,11 +77,11 @@ Le [concepteur d’e-mail](create-email-content.md) permet de gérer les URL tra
 
 1. Pour éditer un lien, cliquez sur l’icône représentant un crayon correspondante.
 
-   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-links.png){zoomable="yes"}
 
 1. Vous pouvez modifier le **[!UICONTROL Type de tracking]** si nécessaire :
 
-   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
    Pour chaque URL trackée, vous pouvez définir le mode de tracking sur l’une des valeurs suivantes :
 
@@ -92,6 +92,6 @@ Le [concepteur d’e-mail](create-email-content.md) permet de gérer les URL tra
 
 1. Ajoutez une **[!UICONTROL Catégorie]** à votre lien pour regrouper les liens trackés, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
 1. Une fois votre diffusion envoyée, accédez à votre rapport de diffusion. Dans le menu **[!UICONTROL Tracking]**, le rapport **[!UICONTROL URL et flux de clics]** affiche les URL de votre diffusion les plus visitées. [En savoir plus](../reporting/gs-reports.md)

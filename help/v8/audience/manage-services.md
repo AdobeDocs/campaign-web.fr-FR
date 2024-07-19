@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux services d’abonnements, comment l
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -31,11 +31,11 @@ Pour accéder aux services d’abonnements disponibles pour votre plateforme, pr
 
 1. Accédez au menu **[!UICONTROL Services d’abonnements]** sur le rail de navigation de gauche.
 
-   ![](assets/service-list.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-list.png){zoomable="yes"}
 
 1. La liste de tous les services d’abonnements existants s’affiche. Vous pouvez rechercher les services et les filtrer selon le canal, le dossier ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
-   ![](assets/service-filters.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-filters.png){zoomable="yes"}
 
 1. Pour modifier un service existant, cliquez sur son nom.
 
@@ -62,13 +62,13 @@ Pour créer un service d’abonnement, procédez comme suit :
 
 1. Sélectionnez le bouton **[!UICONTROL Créer un service d’abonnement]**.
 
-   ![](assets/service-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-button.png){zoomable="yes"}
 
 1. Sélectionnez un canal : **[!UICONTROL E-mail]** ou **[!UICONTROL SMS]**.
 
 1. Dans les propriétés du service, saisissez un libellé et définissez les **[!UICONTROL options supplémentaires]** de votre choix.
 
-   ![](assets/service-create-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-properties.png){zoomable="yes"}
 
 1. Par défaut, les services sont stockés dans le dossier **[!UICONTROL Services et abonnements]**. Vous pouvez le modifier en accédant à l’emplacement souhaité. [Découvrez comment utiliser les dossiers](../get-started/permissions.md#folders)
 
@@ -78,11 +78,11 @@ Pour créer un service d’abonnement, procédez comme suit :
    * Plus aucun profil ne peut s’abonner à ce service.
    * Toutes les personnes abonnées à ce service sont automatiquement désabonnées.
 
-   ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-validity-period.png){zoomable="yes"}
 
 1. Lorsqu’une personne s’abonne à un service ou s’en désabonne, vous pouvez envoyer un message de confirmation. Sélectionnez les modèles à utiliser pour ce message en fonction de votre cas d’utilisation. Ces modèles doivent être configurés avec le mapping de ciblage **[!UICONTROL Abonnements]**. [En savoir plus](#create-confirmation-message)
 
-   ![](assets/service-create-confirmation-msg.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-confirmation-msg.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer et réviser]**. Le nouveau service est ajouté à la liste **[!UICONTROL Services d’abonnements]**.
 
@@ -92,11 +92,11 @@ Pour créer un service d’abonnement, procédez comme suit :
    >
    >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
-   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-default-lp.png){zoomable="yes"}
 
    Une fois que vous avez terminé, lorsque vous [insérez un lien](../email/message-tracking.md) dans un e-mail, sélectionnez **[!UICONTROL Lien d’abonnement]** ou **[!UICONTROL Lien de désabonnement]**. En cliquant sur ce lien, les utilisateurs et utilisatrices sont redirigés vers la page de destination d’abonnement ou de désabonnement référencée dans le service. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
-   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
 1. Enregistrez et vérifiez vos modifications.
 
@@ -127,7 +127,7 @@ Pour envoyer des messages de confirmation aux personnes qui s’abonnent à ou s
 
 1. Ne sélectionnez pas d’audience pour cette diffusion. À la place, accédez aux **[!UICONTROL Paramètres]** de diffusion, puis à l’onglet [Audience](../advanced-settings/delivery-settings.md#audience) et sélectionnez le mapping de ciblage des **[!UICONTROL Abonnements]** dans la liste.
 
-   ![](assets/service-confirmation-template-mapping.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-confirmation-template-mapping.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -135,7 +135,7 @@ Pour envoyer des messages de confirmation aux personnes qui s’abonnent à ou s
 
 1. Modifiez le contenu de votre modèle de diffusion, enregistrez-le et fermez-le.
 
-   ![](assets/service-confirmation-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-confirmation-template.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -171,13 +171,13 @@ Pour mesurer l’efficacité de vos services d’abonnement pour les canaux SMS 
 
 1. Sélectionnez un service existant dans la liste **[!UICONTROL Services d’abonnements]**. Cliquez sur **[!UICONTROL Calculer]** pour obtenir le nombre total de personnes abonnées.
 
-   ![](assets/service-logs-subscribers-count.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-logs-subscribers-count.png){zoomable="yes"}
 
 1. Dans le tableau de bord du service, sélectionnez **[!UICONTROL Journaux]** pour visualiser la liste des personnes abonnées à ce service.
 
    Vous pouvez vérifier le nombre total de personnes abonnées, le nom et l’adresse de chaque personne destinataire et la date de son abonnement ou de son désabonnement. Vous pouvez également les filtrer.
 
-   ![](assets/service-logs.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-logs.png){zoomable="yes"}
 
 1. Dans le tableau de bord du service, sélectionnez **[!UICONTROL Rapports]**. Vérifiez les indicateurs suivants :
 
@@ -185,7 +185,7 @@ Pour mesurer l’efficacité de vos services d’abonnement pour les canaux SMS 
 
    * Vous pouvez visualiser le nombre d’abonnements et de désabonnements sur une période sélectionnée. Utilisez la liste déroulante pour modifier la période.
 
-     ![](assets/service-reports.png){zoomable=&quot;yes&quot;}
+     ![](assets/service-reports.png){zoomable="yes"}
 
    * Le graphe **[!UICONTROL Évolution globale des abonnements]** affiche la répartition par période, y compris les abonnements, les désabonnements, l’évolution en nombre et le pourcentage de fidélité.<!--what is Registered?-->
 

@@ -5,7 +5,7 @@ description: Découvrez comment prévisualiser le contenu de votre diffusion ave
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
-   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-button.png){zoomable="yes"}
 
 1. Sélectionnez les profils à utiliser pour prévisualiser votre contenu. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter un ou des profils de test]** (pour les e-mails et les SMS) ou le bouton **[!UICONTROL Ajouter une ou des personnes abonnées]** (pour les notifications push).
 
@@ -31,17 +31,17 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit.
 
    * L’onglet **[!UICONTROL Profils]** répertorie les profils stockés dans votre base de données. [Découvrir comment utiliser des profils](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-select-profiles.png){zoomable="yes"}
 
 1. Lorsque vous parcourez le profil de test ou la liste des profils, vous pouvez ajouter des filtres pour affiner votre recherche. Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. [Découvrez comment ajouter des règles à l’aide du concepteur de requête](../query/query-modeler-overview.md).
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** pour confirmer votre sélection.
 
    Un aperçu du contenu de la diffusion s’affiche dans le volet de droite de l’écran **[!UICONTROL Simuler]**. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche.
 
-   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-preview.png){zoomable="yes"}
 
 1. Si vous avez ajouté plusieurs profils, vous pouvez passer d’un profil à l’autre dans la liste pour prévisualiser le contenu de la diffusion correspondante. Vous pouvez également ajouter d’autres profils de test et effacer votre sélection à l’aide des boutons correspondants dans le volet de gauche.
 

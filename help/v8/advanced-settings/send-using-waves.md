@@ -6,7 +6,7 @@ feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '788'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Pour envoyer des diffusions par vagues, procédez comme suit.
 
 Si vous sélectionnez cette option, toutes les vagues ont la même taille (sauf la dernière) et le délai entre chaque vague est toujours le même.
 
-![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
+![](assets/waves-same-size.png){zoomable="yes"}
 
 * Indiquez la taille de toutes les vagues dans lesquelles vous partagez la diffusion. Vous pouvez saisir un pourcentage ou une valeur numérique. Seule la dernière vague peut varier en taille, car elle doit inclure le nombre de messages restant.
 
@@ -70,7 +70,7 @@ Grâce aux vagues, vous pouvez limiter le nombre des messages à 20 par jour, c
 
 Pour ce faire, sélectionnez l’option **[!UICONTROL Planification de plusieurs vagues de même taille]**. Saisissez **[!UICONTROL 20]** comme taille de vague et **[!UICONTROL 1 j]** dans le champ **[!UICONTROL Intervalle]**.
 
-![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
+![](assets/waves-call-center.png){zoomable="yes"}
 
 ## Planifier des vagues selon un calendrier {#waves-calendar}
 
@@ -88,7 +88,7 @@ Ajoutez autant de vagues que vous le souhaitez. Vous pouvez les réorganiser sel
 
 Dans l’exemple ci-dessous, la première vague représente 25 % du nombre total de messages inclus dans la diffusion et démarre immédiatement. Les deux vagues suivantes terminent la diffusion et sont définies pour commencer à six heures d’intervalle.
 
-![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
+![](assets/waves-calendar.png){zoomable="yes"}
 
 Le processus d’accélération constitue un cas d’utilisation courant de plusieurs vagues selon un calendrier.
 
@@ -98,4 +98,4 @@ Pour éviter que les emails soient marqués comme spam, vous pouvez augmenter pr
 
 Pour ce faire, utilisez l’option **[!UICONTROL Planifier les vagues selon un calendrier]**. Par exemple, définissez la première vague sur 10 %, la deuxième sur 15 %, la troisième sur 20 %, etc.
 
-![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
+![](assets/waves-ramp-up.png){zoomable="yes"}

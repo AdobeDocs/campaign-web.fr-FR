@@ -4,8 +4,8 @@ title: Rapports globaux pour le canal Courrier
 description: En savoir plus sur les rapports globaux pour le canal courrier
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
-workflow-type: ht
-source-wordcount: '626'
+workflow-type: tm+mt
+source-wordcount: '620'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporti
 
 La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions par courrier. Les mesures sont décrites ci-dessous.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
@@ -54,7 +54,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicat
 
 Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des données relatives à vos personnes destinataires, avec les mesures détaillées fournies ci-dessous.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures d’audience ciblée.
 
@@ -104,7 +104,7 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** fournit une répartition du
 >title="Causes d’exclusion"
 >abstract="Le graphe **Causes d’exclusion** illustre la distribution des messages rejetés, classés par règle, lors de la préparation de la diffusion."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 

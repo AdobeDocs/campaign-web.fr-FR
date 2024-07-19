@@ -2,8 +2,9 @@
 audience: end-user
 title: À propos de la quarantaine
 description: Comprendre la gestion des adresses en quarantaine
-source-git-commit: 9abf58c35fcf396e3003f9ecba728cd77df844a1
-workflow-type: ht
+exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
+source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 

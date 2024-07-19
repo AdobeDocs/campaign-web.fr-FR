@@ -10,7 +10,7 @@ keywords: destination, page de destination, cas d’utilisation
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1353'
 ht-degree: 100%
 
 ---
@@ -40,13 +40,13 @@ Dans l’interface [!DNL Adobe Campaign Web], quatre modèles prêts à l’emp
 
 1. Définissez les propriétés et les paramètres de la page de destination.
 
-   ![](assets/lp-uc-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-properties.png){zoomable="yes"}
 
 1. Selon votre cas, sélectionnez la page **[!UICONTROL Acquisition]**, **[!UICONTROL Abonnement]**, **[!UICONTROL Désabonnement]** ou **[!UICONTROL Liste bloquée]**.
 
 1. Le contenu de la page s’affiche. Sélectionnez la partie correspondant au formulaire de page de destination.
 
-   ![](assets/lp-uc-form.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-form.png){zoomable="yes"}
 
 1. Modifiez votre contenu en fonction du modèle sélectionné :
 
@@ -59,7 +59,7 @@ Dans l’interface [!DNL Adobe Campaign Web], quatre modèles prêts à l’emp
 
 1. Modifiez la page **[!UICONTROL Confirmation]** si nécessaire, ainsi que les pages **[!UICONTROL Erreur]** et **[!UICONTROL Expiration]**. La page **[!UICONTROL Confirmation]** s’affichera pour vos personnes destinataires une fois le formulaire envoyé.
 
-   ![](assets/lp-uc-confirmation-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-page.png){zoomable="yes"}
 
 1. [Testez](create-lp.md#test-landing-page) et [publiez](create-lp.md#publish-landing-page) votre page de destination.
 
@@ -67,7 +67,7 @@ Dans l’interface [!DNL Adobe Campaign Web], quatre modèles prêts à l’emp
 
 1. [Insérez un lien](../email/message-tracking.md#insert-links) dans le contenu de votre message. Sélectionnez **[!UICONTROL Page de destination]** comme **[!UICONTROL Type de lien]** et sélectionnez la page de destination que vous avez créée.
 
-   ![](assets/lp-uc-email-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-email-link.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -95,7 +95,7 @@ Le premier modèle vous permet d’ajouter ou de mettre à jour un profil dans l
 
 1. De plus, vous pouvez ajouter une case à cocher invitant vos clientes et clients à s’abonner à votre service de newsletter. [Découvrir comment créer un service](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-acquisition-page.png){zoomable="yes"}
 
 1. Ajustez votre contenu selon vos besoins et enregistrez vos modifications.
 
@@ -105,11 +105,11 @@ Le premier modèle vous permet d’ajouter ou de mettre à jour un profil dans l
 
 Une fois l’e-mail reçu, si vos personnes destinataires cliquent sur le lien vers la page de destination et envoient le formulaire, leur profil sera ajouté à la base de données Campaign ou mis à jour avec les informations fournies.
 
-![](assets/lp-uc-profile-updated.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-profile-updated.png){zoomable="yes"}
 
 En cas d’abonnement à votre newsletter, le service correspondant leur sera proposé.
 
-![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
 
 ## Abonnement à un service {#lp-subscription}
 
@@ -124,13 +124,13 @@ Un des cas d’utilisation les plus courants consiste à inviter vos clientes et
 
 1. Créez tout d’abord un modèle de confirmation pour les utilisateurs et utilisatrices qui s’abonnent à votre événement, afin que vous puissiez le sélectionner facilement lors de la création du service. [En savoir plus](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-email.png){zoomable="yes"}
 
 1. Créez un service d’inscription qui stockera les personnes enregistrées dans votre événement. [Découvrir comment créer un service](../audience/manage-services.md)
 
 1. Sélectionnez le modèle que vous avez créé comme e-mail de confirmation que les personnes recevront lors de leur inscription.
 
-   ![](assets/lp-uc-subscription-service.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-service.png){zoomable="yes"}
 
 1. [Créez une page de destination](create-lp.md#create-landing-page) pour permettre aux personnes destinataires de s’inscrire à votre événement. Sélectionnez le modèle **[!UICONTROL Abonnement]**.
 
@@ -140,7 +140,7 @@ Un des cas d’utilisation les plus courants consiste à inviter vos clientes et
 
 1. Dans le champ **[!UICONTROL Abonnements et services]**, sélectionnez le service que vous avez créé pour votre événement. Laissez l’option **[!UICONTROL S’abonner à si cette option est cochée]** activée.
 
-   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -170,11 +170,11 @@ Vous pouvez permettre à vos clientes et clients de se désabonner d’un servic
 
 1. Vous pouvez ajouter une section **[!UICONTROL Case à cocher]**, sélectionner le service et choisir l’option **[!UICONTROL Se désabonner si cette case est cochée]**.
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
 1. Vous pouvez également développer la section **[!UICONTROL Appel à l’action]** et sélectionner l’option **[!UICONTROL Mises à jour supplémentaires]**. Sélectionnez le service et cochez l’option **[!UICONTROL Se désabonner]**.
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
 1. Ajustez votre contenu selon vos besoins et enregistrez vos modifications.
 
@@ -198,7 +198,7 @@ Vous pouvez configurer une page de destination **[!UICONTROL Liste bloquée]**, 
 
 1. Dans la liste déroulante correspondante, sélectionnez **[!UICONTROL Canal (e-mail)]** pour permettre aux personnes destinataires de ne pas recevoir de communications par e-mail uniquement. Vous pouvez également sélectionner **[!UICONTROL Tous les canaux]** pour les exclure des communications sur tous les canaux.
 
-   ![](assets/lp-uc-denylist.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-denylist.png){zoomable="yes"}
 
 1. Ajustez votre contenu selon vos besoins et enregistrez vos modifications.
 
@@ -212,6 +212,6 @@ Pour vérifier que le choix du profil correspondant a été mis à jour, accéde
 
 Par exemple, si vous choisissez de mettre à jour l’option **[!UICONTROL Canal (e-mail)]** dans votre page de destination, l’option **[!UICONTROL Ne plus contacter par e-mail]** est cochée.
 
-![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 
 Ce profil ne recevra pas de communications par e-mail de votre marque, sauf en cas de nouvel abonnement.

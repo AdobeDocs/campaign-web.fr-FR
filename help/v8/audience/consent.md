@@ -4,7 +4,7 @@ title: Consentement
 description: En savoir plus sur le consentement dans Adobe Campaign Web
 badge: label="Disponibilité limitée"
 source-git-commit: 9a184d7558ca39be3afed4a7217a5e5687799c0d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 100%
 

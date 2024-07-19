@@ -4,8 +4,8 @@ title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: ht
-source-wordcount: '333'
+workflow-type: tm+mt
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -28,24 +28,24 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
 1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**, puis sur **[!UICONTROL Sélectionner une audience]**.
 
-   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-audience.png){zoomable="yes"}
 
 1. Cet écran affiche toutes les audiences existantes pour le dossier actuel.
 
-   ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-audience2.png){zoomable="yes"}
 
    Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section de l’écran dédiée aux filtres. [En savoir plus sur les audiences Adobe Experience Platform](manage-audience.md#monitor)
 
-   ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-audience-folder.png){zoomable="yes"}
 
 1. La section Filtre permet d’accéder aux options de filtrage afin d’affiner la liste des audiences. Pour ce faire, cliquez sur **Ajouter des règles** pour accéder au concepteur de requête, qui vous permet de créer des filtres avancés pour la liste des audiences. [Découvrir comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
 
    Par exemple, vous pouvez également définir une règle pour filtrer l’origine des audiences, comme indiqué ci-dessous :
 
-   ![](assets/filter-on-aep-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/filter-on-aep-audience.png){zoomable="yes"}
 
 1. Cliquez sur **Confirmer** pour ajouter votre audience comme cible principale de la diffusion. Une fois l’opération terminée, vous pouvez toujours affiner l’audience à l’aide du concepteur de requête en cliquant sur le bouton **Modifier des règles**.
 
-   ![](assets/refine-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/refine-audience.png){zoomable="yes"}
 
    Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne reçoit pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](control-group.md)

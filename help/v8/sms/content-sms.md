@@ -5,7 +5,7 @@ description: Découvrez comment concevoir votre diffusion SMS.
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '256'
 ht-degree: 100%
 
 ---
@@ -30,11 +30,11 @@ Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :
 
    En outre, en cliquant sur **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, vous pouvez inclure des champs de personnalisation, des blocs de contenu et du contenu dynamique dans votre message.
 
-   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_1.png){zoomable="yes"}
 
 1. Saisissez votre message texte dans le champ **[!UICONTROL Message]** ou cliquez sur l’option **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour définir le contenu et ajouter du contenu dynamique. [En savoir plus](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_2.png){zoomable="yes"}
 
 1. Par défaut, le tracking est activé pour les diffusions. Vous pouvez désactiver cette option dans la **[!UICONTROL section Fonctionnalités facultatives]**.
 

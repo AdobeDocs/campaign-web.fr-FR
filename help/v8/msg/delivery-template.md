@@ -7,8 +7,8 @@ role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
-workflow-type: ht
-source-wordcount: '1109'
+workflow-type: tm+mt
+source-wordcount: '1085'
 ht-degree: 100%
 
 ---
@@ -48,24 +48,24 @@ Un modèle peut inclure les éléments suivants :
 
 Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL Gestion des campagnes]** > **[!UICONTROL Diffusions]** dans le menu de gauche, puis accédez à l’onglet **Modèles**.
 
-![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
+![](assets/templates-tab.png){zoomable="yes"}
 
 Tous les modèles qui ont été [créés](#create-a-delivery-template) sur l’environnement actuel sont affichés.
 
 Vous pouvez filtrer les modèles de contenu sur les canaux et les dossiers. Vous pouvez également définir des filtres avancés en créant une règle à l’aide d’attributs de diffusion. [En savoir plus sur le concepteur de requête](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
+![](assets/templates-filters.png){zoomable="yes"}
 
 Pour modifier un modèle, cliquez sur l’élément souhaité dans la liste. De là :
 
 * Vous pouvez modifier son contenu, ses propriétés, son audience et toutes les offres qui y sont associées.
 * Vous pouvez également tester votre modèle. [En savoir plus](#test-template)
 
-![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
+![](assets/templates-edition.png){zoomable="yes"}
 
-Pour supprimer ou [dupliquer](#copy-an-existing-template) un modèle, sélectionnez l’action correspondante dans le menu **[!UICONTROL Plus d’actions]**, depuis la liste **[!UICONTROL Modèles]** ou depuis un écran de modification de modèle.
+Pour supprimer ou [dupliquer](#copy-an-existing-template) un modèle, sélectionnez l’action correspondante dans le menu **[!UICONTROL Plus d’actions]**, depuis la liste **[!UICONTROL Modèles]** ou depuis un écran d’édition de modèle.
 
-![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
+![](assets/templates-more-actions.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -96,15 +96,15 @@ Pour dupliquer un modèle de diffusion, procédez comme suit :
 
 1. Confirmez la duplication.
 
-   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-duplicate-confirm.png){zoomable="yes"}
 
 1. Le nouveau tableau de bord de modèle s’ouvre dans l’écran central. Modifiez les paramètres du modèle selon vos besoins.
 
-   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-duplicated-item.png){zoomable="yes"}
 
 1. Cliquez sur le bouton **[!UICONTROL Vérifier]** pour enregistrer et vérifier votre modèle. Vous pouvez toujours modifier tous ses paramètres, le supprimer et le dupliquer.
 
-   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-review-screen.png){zoomable="yes"}
 
 1. Testez le rendu du modèle si nécessaire. [En savoir plus](#test-template)
 
@@ -119,7 +119,7 @@ Pour enregistrer une diffusion comme modèle, procédez comme suit :
 1. Accédez au menu **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
 1. Dans l’onglet **[!UICONTROL Parcourir]**, cliquez sur le bouton **[!UICONTROL Plus d’actions]** à droite du nom de la diffusion souhaitée, puis sélectionnez **[!UICONTROL Copier comme modèle]**.
 
-   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-convert-delivery.png){zoomable="yes"}
 
    Vous pouvez également sélectionner un modèle dans la liste et sélectionner cette option dans l’écran d’édition du modèle.
 
@@ -144,12 +144,12 @@ Pour configurer un modèle de diffusion à partir de zéro, procédez comme suit
 1. Accédez à l’onglet **Modèles** depuis le menu de gauche **Diffusions**. [En savoir plus](#access-manage-templates)
 1. Cliquez sur le bouton **[!UICONTROL Créer un modèle]**.
 
-   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-create-button.png){zoomable="yes"}
 
 1. Sélectionnez le canal à utiliser pour votre modèle.
 1. Le modèle de diffusion intégré pour ce canal est utilisé par défaut pour vous aider à créer votre propre modèle. Cliquez sur le bouton dédié situé à droite du canal sélectionné pour sélectionner un autre modèle si nécessaire.
 
-   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-channel-browse.png){zoomable="yes"}
 
 1. Cliquez de nouveau sur le bouton **[!UICONTROL Créer un modèle]**.
 
@@ -179,7 +179,7 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** en haut à droite de l’écran.
 
-   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-simulate-button.png){zoomable="yes"}
 
 1. Sélectionnez un ou plusieurs profils de test pour vérifier le rendu de votre e-mail. Vous pouvez également sélectionner des profils réels dans votre base de données. [En savoir plus sur les profils de test](../audience/test-profiles.md)
 
@@ -187,7 +187,7 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
 [En savoir plus sur la prévisualisation de contenu](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-stimulate.png){zoomable="yes"}
 
 1. Fermez la fenêtre pour revenir à l’écran de modification du modèle.
 

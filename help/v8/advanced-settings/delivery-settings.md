@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2414'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Lors de l’association d’une typologie à un message ou à un modèle de mess
 
 Les typologies vous permettent de vous assurer que vos diffusions contiennent toujours certains éléments (comme un lien de désabonnement ou un objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clientes et clients désabonnés, les concurrents et les clientes et clients ne faisant pas partie du programme de fidélité).
 
-![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-typology.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des pr
 
 Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qui s’appliquent à votre diffusion.
 
-![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-delivery.png){zoomable="yes"}
 
 Le compte externe de **[!UICONTROL Routage]** intégré est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des diffusions.
 
@@ -232,7 +232,7 @@ Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectio
 
 La **[!UICONTROL Limite de validité des ressources]** est utilisée pour les ressources chargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque). Au-delà de cette limite, ces ressources ne sont plus disponibles.
 
-![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-validity.png){zoomable="yes"}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

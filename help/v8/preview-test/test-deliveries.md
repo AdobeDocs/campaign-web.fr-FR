@@ -5,7 +5,7 @@ description: Découvrir comment définir et envoyer des BAT
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1124'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Pour commencer à tester le contenu de votre message :
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 1. Cliquez sur le bouton **[!UICONTROL Envoyer un BAT]** pour envoyer des BAT.
 
-   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. Sélectionnez les personnes destinataires de vos BAT.
 
@@ -78,17 +78,17 @@ Les étapes d’envoi de BAT aux profils de test sont détaillées ci-dessous.
 
 1. Dans la liste déroulante **[!UICONTROL Mode]**, choisissez les **[!UICONTROL Profils de test]** pour cibler les personnes destinataires fictives qui recevront le BAT ou la diffusion par SMS.
 
-   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
 1. Si vous avez déjà sélectionné des profils pour [prévisualiser le message](preview-content.md) dans l’écran de simulation du contenu, ils sont présélectionnés comme profils destinataires des BAT. Vous pouvez effacer votre sélection et/ou ajouter des profils destinataires supplémentaires à l’aide du bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]**.
 
 1. Lorsque vous parcourez le profil de test ou la liste des profils, vous pouvez ajouter des filtres pour affiner votre recherche. Par exemple, vous pouvez définir une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. Découvrez comment ajouter des règles à l’aide du [concepteur de requêtes](../query/query-modeler-overview.md).
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
 1. Si vous souhaitez envoyer le message final aux personnes destinataires du BAT, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
 
-   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-include-test.png){zoomable="yes"}
 
 1. Une fois les profils de test sélectionnés, vous pouvez [envoyer le BAT](#send-test).
 
@@ -108,7 +108,7 @@ Pour remplacer les données de profil de la cible principale, procédez comme su
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter une adresse]** et indiquez l’adresse e-mail ou le numéro de téléphone qui recevra le BAT.
 
-   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ Pour remplacer les données de profil de la cible principale, procédez comme su
 
 1. Confirmez la personne destinataire et renouvelez l’opération pour ajouter autant d’adresses e-mail ou de numéros de téléphone que nécessaire.
 
-   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
 
 1. Si vous souhaitez envoyer le message final aux personnes destinataires du BAT, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
 
@@ -130,13 +130,13 @@ Lorsque vous travaillez avec les notifications push, les BAT ne peuvent être en
 
 1. Dans le contenu de votre diffusion push, cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis sur le bouton **[!UICONTROL Envoyer un BAT]**.
 
-   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-push.png){zoomable="yes"}
 
 1. Si vous avez déjà sélectionné des abonnés et abonnées pour [prévisualiser la diffusion](preview-content.md) dans l’écran de simulation du contenu, ces profils sont présélectionnés comme abonnés du test.
 
    Vous pouvez effacer votre sélection et/ou ajouter d’autres abonnés et abonnées à l’aide du bouton dédié.
 
-   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
 
 1. Si vous souhaitez envoyer la notification push finale aux personnes abonnées du test, sélectionnez l’option **[!UICONTROL Inclure la population du test dans la cible principale]**.
 
@@ -150,7 +150,7 @@ Pour envoyer le BAT aux personnes destinataires sélectionnées, procédez comme
 
 1. Confirmez l’envoi.
 
-   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-send-test.png){zoomable="yes"}
 
 1. Vous pouvez envoyer autant de BAT que nécessaire jusqu’à ce que le contenu de votre diffusion soit finalisé.
 
@@ -166,8 +166,8 @@ Une fois les BAT envoyés, vous pouvez accéder à leurs logs à partir de l’�
 
 Ces logs permettent d’accéder à tous les BAT envoyés pour la diffusion sélectionnée et de visualiser des statistiques spécifiques relatives à leur envoi. [Découvrir comment surveiller les logs de diffusion](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-test-log.png){zoomable="yes"}
 
 Vous pouvez également accéder aux BAT envoyés à partir de la [liste de diffusion](../msg/gs-messages.md), comme pour n’importe quelle diffusion.
 
-![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-deliveries-list.png){zoomable="yes"}

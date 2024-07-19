@@ -10,8 +10,8 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '671'
+workflow-type: tm+mt
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
@@ -33,15 +33,15 @@ Vous pouvez rendre le contenu de votre message dynamique en insérant des élém
 
 * **Personnalisez vos messages** pour chaque destinataire en utilisant des données de profil telles que son prénom, ses centres d’intérêt, son lieu de vie, ses achats, etc. Vous pouvez sélectionner n’importe quel champ disponible dans la base depuis l’éditeur de personnalisation associé au ou à la destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. La syntaxe suivante insère la ville du ou de la destinataire dans votre contenu : &lt;%= recipient.location.city %>.
 
-  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
 
 * **Créez du contenu conditionnel** pour adapter vos diffusions à chaque destinataire et afficher uniquement le contenu pertinent pour une cliente ou un client donné(e) en fonction des informations dont vous disposez à son sujet. Vous pouvez ainsi afficher des blocs de texte et/ou des images spécifiques en fonction de conditions. Par exemple, adaptez une bannière d’e-mail en fonction de l’abonnement des destinataires à un service spécifique.
 
-  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
 * **Utilisez des blocs de personnalisation** pour gagner du temps et tirer facilement profit du contenu personnalisé réutilisable dans vos messages. Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir de l’e-mail. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation.
 
-  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## Accéder à l’éditeur d’expression {#access}
 
@@ -51,15 +51,15 @@ Voici quelques exemples d’accès à l’éditeur d’expression en fonction du
 
 * *Accès à l’éditeur d’expression à partir du champ Nom de l’expéditeur*
 
-  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
 
 * *Accès à l’éditeur d’expression à partir d’un composant de texte d’e-mail*
 
-  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
-* *Accéder à l’éditeur d’expression à partir d’un lien dans un e-mail*
+* *Accès à l’éditeur d’expression à partir d’un lien dans un e-mail*
 
-  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 
 >[!NOTE]
 >

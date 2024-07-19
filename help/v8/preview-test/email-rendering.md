@@ -5,7 +5,7 @@ description: Découvrez comment tester le rendu de vos e-mails dans l’interfac
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '227'
 ht-degree: 100%
 
 ---
@@ -32,21 +32,21 @@ Suivez ensuite les étapes ci-dessous.
 
 1. Cliquez sur le bouton **[!UICONTROL Rendu d’e-mail]**.
 
-   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-button.png){zoomable="yes"}
 
 1. Cliquez sur **Connecter votre compte Litmus** dans la section supérieure droite.
 
-   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-litmus.png){zoomable="yes"}
 
 1. Saisissez vos informations d’identification et connectez-vous.
 
-   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-credentials.png){zoomable="yes"}
 
 1. Cliquez sur le bouton **Exécuter le test** pour générer les aperçus d’e-mail.
 
 1. Examinez le contenu des e-mails tel qu’il s’affiche sur les principaux clients de bureau, mobiles et web.
 
-   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-previews.png){zoomable="yes"}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.

@@ -4,8 +4,8 @@ title: Créer une audience unique pour une diffusion
 description: Découvrez comment créer une audience unique pour une diffusion.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: ht
-source-wordcount: '228'
+workflow-type: tm+mt
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Pour créer une audience unique pour une diffusion, procédez comme suit :
 
 1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
 
-   ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder0.png){zoomable="yes"}
 
 1. Sélectionner **Créer votre audience** pour ouvrir le concepteur de requête, qui vous permet de définir la population ciblée en filtrant les données contenues dans la base de données. [Découvrir comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-modeler.png){zoomable="yes"}
 
 1. Une fois votre requête prête, cliquez sur **Confirmer** pour utiliser l’audience créée comme cible principale de votre diffusion.
 

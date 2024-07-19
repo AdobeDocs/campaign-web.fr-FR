@@ -5,7 +5,7 @@ description: Découvrez comment charger des profils à partir d’un fichier ext
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Pour cibler des profils à partir d’un fichier dans vos e-mails, procédez com
 1. Ouvrez une diffusion par e-mail existante ou [créez une diffusion par e-mail](../email/create-email.md).
 1. Dans la section **Audience**, cliquez sur **Sélectionner l’audience** puis choisissez **Sélectionner à partir d’un fichier**.
 
-   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-from-file.png){zoomable="yes"}
 
 1. Sélectionnez le fichier local à charger. Le format doit correspondre à celui de l’[exemple de fichier](#sample-file).
 1. Prévisualisez et vérifiez le mappage des données dans la section centrale de l’écran.
@@ -66,7 +66,7 @@ Pour cibler des profils à partir d’un fichier dans vos e-mails, procédez com
 
 Lors de la création du contenu du message, vous pouvez ajouter de la personnalisation en utilisant les champs du fichier d’entrée. [Découvrir comment personnaliser le contenu](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
+![](assets/select-external-perso.png){zoomable="yes"}
 
 ## Exemple de fichier {#sample-file}
 
@@ -101,7 +101,7 @@ Campaign Web vous permet de prévisualiser et d’envoyer des BAT lors de l’u
 
 1. Un aperçu du contenu de la diffusion s’affiche dans le volet de droite de l’écran. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche. [En savoir plus sur la prévisualisation du contenu de la diffusion](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-preview.png){zoomable="yes"}
 
 1. Pour envoyer un BAT, cliquez sur le bouton **[!UICONTROL Envoyer un BAT]**.
 
@@ -113,6 +113,6 @@ Campaign Web vous permet de prévisualiser et d’envoyer des BAT lors de l’u
 
 1. Une fois l’ajout des profils de BAT effectué et lorsque vous êtes en mesure d’envoyer les BAT, cliquez sur le bouton **[!UICONTROL Envoyer un BAT]**, puis confirmez l’envoi.
 
-   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-test.png){zoomable="yes"}
 
 1. Vous pouvez surveiller à tout moment l’envoi du BAT à l’aide du bouton **[!UICONTROL Afficher les BAT]**. [En savoir plus sur la surveillance des BAT](../preview-test/test-deliveries.md#access-test-deliveries)

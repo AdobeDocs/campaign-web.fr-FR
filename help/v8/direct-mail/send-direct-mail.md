@@ -5,7 +5,7 @@ description: Découvrir comment prévisualiser et envoyer une diffusion par cour
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -22,13 +22,13 @@ La prévisualisation de votre fichier d’extraction comprend les étapes suivan
 
 1. Sur la page de contenu de la diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu que vous avez personnalisé.
 
-   ![](assets/dm-simulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-simulate.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Ajouter un ou plusieurs profils de test]** pour sélectionner un ou plusieurs profils et prévisualiser leurs données dans le contenu du fichier d’extraction.
 
 1. Dans le volet de droite, vous trouverez une prévisualisation du fichier d’extraction, où les éléments personnalisés sont remplacés dynamiquement par les données du profil sélectionné.
 
-   ![](assets/dm-preview-right.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-preview-right.png){zoomable="yes"}
 
 ## Envoyer des BAT {#test-dm}
 
@@ -42,7 +42,7 @@ Pour les diffusions par courrier, l’envoi de BAT génère un exemple du fichie
 
 1. Dans le tableau de bord de la diffusion du BAT, cliquez sur l’icône **[!UICONTROL Aperçu du fichier]** pour accéder à une prévisualisation du fichier d’extraction.
 
-   ![](assets/dm-proof.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-proof.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -54,13 +54,13 @@ Une fois que le courrier est prêt à être envoyé à votre clientèle, vous po
 
 1. Après avoir conçu le contenu de votre fichier d’extraction, cliquez sur **[!UICONTROL Réviser et envoyer]** depuis votre page **[!UICONTROL Diffusion]**.
 
-   ![](assets/dm-review-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-review-send.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Préparer]** et suivez la progression et les statistiques fournies.
 
    En cas d’erreur, reportez-vous au menu **[!UICONTROL Journaux]** pour obtenir des informations détaillées sur l’échec.
 
-   ![](assets/dm-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-prepare.png){zoomable="yes"}
 
 1. Envoyez les messages en cliquant sur **[!UICONTROL Envoyer]** pour poursuivre le processus d’envoi final.
 

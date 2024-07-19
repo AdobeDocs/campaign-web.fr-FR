@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux rapports de diffusion des notificat
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '476'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Le **rapport de diffusion des notifications push** offre une vue d’ensemble co
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec vos notifications push.
 
-![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_3.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion des notifications push.
 
@@ -53,7 +53,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des indicat
 
 Le tableau et le graphe **Population ciblée** affichent des données relatives à votre audience : messages à délivrer et exclusions. Les mesures sont détaillées ci-dessous.
 
-![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_4.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion des notifications push.
 
@@ -72,7 +72,7 @@ Le tableau et le graphe **Population ciblée** affichent des données relatives 
 
 Le rapport **Statistiques globales** présente des données relatives aux notifications push envoyées : succès, erreurs et mises en quarantaine. Les mesures sont détaillées ci-dessous.
 
-![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_5.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion des notifications push.
 
@@ -94,7 +94,7 @@ Le rapport **Statistiques globales** présente des données relatives aux notifi
 Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message. Les règles d’exclusion sont détaillées dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_6.png){zoomable="yes"}
 
 ## Débit de diffusion {#delivery-throughput}
 
@@ -105,4 +105,4 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes r
 
 Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
 
-![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_2.png){zoomable="yes"}

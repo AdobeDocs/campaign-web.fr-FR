@@ -5,7 +5,7 @@ description: Comprendre les rapports globaux du canal SMS
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '583'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporti
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** offre des indicateurs clés de performance (KPI) complets, qui fournissent des informations détaillées sur les schémas d’interaction de vos visiteurs et de vos visiteuses avec chaque diffusion SMS. Les mesures suivantes sont décrites ci-dessous.
 
-![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
@@ -50,7 +50,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** offre des indicateu
 
 Le tableau et le graphe **[!UICONTROL Audience ciblée]** présentent les données relatives à vos destinataires pour chaque diffusion SMS envoyée. Les mesures sont détaillées ci-dessous.
 
-![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures d’audience ciblée.
 
@@ -71,7 +71,7 @@ Le tableau et le graphe **[!UICONTROL Audience ciblée]** présentent les donné
 
 Le tableau **[!UICONTROL Statistiques de diffusion]** détaille le succès de chaque diffusion SMS. Les mesures sont détaillées ci-dessous.
 
-![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des statistiques de diffusion.
 
@@ -98,7 +98,7 @@ Le graphe et le tableau **[!UICONTROL Causes d’exclusion]** affichent les rais
 
 Les types d’erreur sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
 ## Débit de diffusion {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ Les types d’erreur sont répertoriés dans la [documentation d’Adobe Campai
 >title="Débit des diffusions par SMS"
 >abstract="Le rapport **Débit de diffusion** fournit des informations détaillées sur l’efficacité du système de diffusion des SMS, et présente une vue d’ensemble détaillée des taux de succès et d’erreur dans un délai donné."
 
-![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
 
 Le rapport **[!UICONTROL Débit de diffusion]** fournit des informations complètes sur l’efficacité du système de diffusion des SMS, et offre un résumé détaillé des taux de succès et d’erreur pendant une période donnée.

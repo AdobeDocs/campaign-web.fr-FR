@@ -5,7 +5,7 @@ description: Découvrir comment accéder aux rapports de courrier pour les utili
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '658'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Le **rapport de diffusion par courrier** offre des informations et des données 
 
 La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec chaque diffusion par courrier, en exposant les KPI essentiels.  Les mesures sont décrites ci-dessous.
 
-![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
@@ -43,13 +43,13 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des informations d�
 >title="Population cible initiale"
 >abstract="Le graphe **Population cible initiale** affiche les données relatives à vos destinataires et messages, en fonction des résultats de la préparation de la diffusion."
 
-Le graphe **[!UICONTROL Population cible initiale]** affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de personnes destinataires exclues.
+Le graphe **[!UICONTROL Population cible initiale]** affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de destinataires exclus.
 
-![](assets/direct-mail-delivery-targeted-population.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
 
 Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre exact.
 
-![](assets/direct-mail-delivery-targeted-population_2.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par courrier.
 
@@ -69,7 +69,7 @@ Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre
 
 Le graphe **[!UICONTROL Statistiques de diffusion]** offre une vue d’ensemble complète des performances de vos diffusions, avec des mesures détaillées du succès et de l’efficacité.
 
-![](assets/direct-mail-delivery-stats.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par courrier.
 
@@ -92,7 +92,7 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** offre une vue d’ensemble 
 
 La graphe **[!UICONTROL Causes d’exclusion]** fournit une répartition détaillée des raisons pour lesquelles les messages sont rejetés pendant le processus de préparation de la diffusion. Cette répartition est organisée selon différentes règles, offrant une vue d’ensemble des facteurs contribuant à l’exclusion des messages. Les règles d’exclusion sont détaillées dans la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
 
-![](assets/direct-mail-delivery-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++En savoir plus sur les mesures de causes d’exclusion.
 
@@ -121,6 +121,6 @@ La graphe **[!UICONTROL Causes d’exclusion]** fournit une répartition détail
 
 Le tableau **[!UICONTROL Exclusions]** fournit une répartition détaillée, classée par règles spécifiques, des messages qui ont été rejetés lors de la phase de préparation de la diffusion. Cette répartition exhaustive permet de comprendre clairement les raisons de l’exclusion de ces messages du processus de diffusion.
 
-![](assets/direct-mail-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 Les mesures disponibles sont les mêmes que celles des [causes d’exclusion](#direct-mail-delivery-exclusions) décrites ci-dessus.

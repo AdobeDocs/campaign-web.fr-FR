@@ -5,7 +5,7 @@ description: Comprendre comment exporter vos rapports
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, c
 
 1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Exporter sous forme de fichier PDF]** ou **[!UICONTROL Exporter sous forme de fichier CSV]**.
 
-   ![](assets/global_report_export.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_export.png){zoomable="yes"}
 
 1. Localisez le dossier dans lequel vous souhaitez enregistrer votre fichier, renommez-le si nécessaire, puis cliquez sur **[!UICONTROL Enregistrer]**.
 

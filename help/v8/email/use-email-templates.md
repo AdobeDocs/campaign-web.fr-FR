@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '252'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Lors de la [création d’un e-mail](../email/create-email.md), accédez à la section **[!UICONTROL Sélectionner un modèle de conception]** de l’interface **[!UICONTROL Créer votre e-mail]** pour commencer à créer le contenu à partir d’un modèle.
 
-![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer-templates.png){zoomable="yes"}
 
 Vous pouvez choisir parmi les options suivantes :
 
@@ -41,17 +41,17 @@ Pour commencer à créer votre contenu avec l’un des modèles enregistrés ou 
 
 1. Pour utiliser un modèle personnalisé existant, accédez à l’onglet **[!UICONTROL Modèles enregistrés]**.
 
-   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
 
 1. La liste de tous les [modèles enregistrés](#save-as-template) s’affiche. Vous pouvez les trier **[!UICONTROL Par nom]**, selon la **[!UICONTROL Dernière modification]** et la **[!UICONTROL Dernière création]**.
 
-   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-saved-templates.png){zoomable="yes"}
 
 1. Sélectionnez un modèle dans la liste pour afficher son contenu.
 
 1. Utilisez les flèches droite et gauche pour naviguer entre les modèles (d’exemple ou enregistrés selon votre sélection).
 
-   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite de l’écran.
 

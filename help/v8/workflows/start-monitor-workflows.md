@@ -5,7 +5,7 @@ description: Découvrez comment créer des workflows à l’aide d’Adobe Camp
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Une fois le workflow en cours d’exécution, chaque activité de la zone de tra
 
 Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide du flux visuel. Vous pouvez ainsi identifier rapidement le statut de chaque activité et le nombre de profils qu’elle contient.
 
-![](assets/workflow-execution.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-execution.png){zoomable="yes"}
 
 ## Transitions de workflow {#transitions}
 
@@ -31,7 +31,7 @@ Dans les workflows, les données véhiculées d’une activité à l’autre via
 * Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
 * Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données véhiculées dans la transition sélectionnée.
 
-![](assets/transition.png){zoomable=&quot;yes&quot;}
+![](assets/transition.png){zoomable="yes"}
 
 ## Surveiller l’exécution des activités {#activities}
 
@@ -39,10 +39,10 @@ Les indicateurs visuels situés dans le coin supérieur droit de chaque activit�
 
 | Indicateur visuel | Description |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable=&quot;yes&quot;}{width="70%"} | L’activité est en cours d’exécution. |
-| ![](assets/activity-status-orange.png){zoomable=&quot;yes&quot;}{width="70%"} | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
-| ![](assets/activity-status-red.png){zoomable=&quot;yes&quot;}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les logs de workflow pour obtenir plus d’informations. |
-| ![](assets/activity-status-green.png){zoomable=&quot;yes&quot;}{width="70%"} | L’activité a été exécutée correctement. |
+| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | L’activité est en cours d’exécution. |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les logs de workflow pour obtenir plus d’informations. |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | L’activité a été exécutée correctement. |
 
 ## Surveiller les logs et les tâches {#logs-tasks}
 
@@ -50,7 +50,7 @@ La surveillance des logs et des tâches de workflow est une étape essentielle p
 
 Le menu **[!UICONTROL Logs et tâches]** fournit un historique de l’exécution du workflow : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées. L’historique est conservé pendant la durée indiquée dans les [options d’exécution](workflow-settings.md) du workflow. Tous les messages sont alors enregistrés pendant cette période, même après un redémarrage du workflow. Si vous ne souhaitez pas conserver les messages d’une exécution précédente, cliquez sur le bouton **[!UICONTROL Purger l’historique]**.
 
-![](assets/workflow-logs.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-logs.png){zoomable="yes"}
 
 Deux types d’informations sont disponibles :
 
