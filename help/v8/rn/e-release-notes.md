@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
+source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 55%
+source-wordcount: '454'
+ht-degree: 46%
 
 ---
 
@@ -50,14 +50,13 @@ Vous pouvez désormais envoyer des notifications push enrichies. Une notificatio
 
 #### Fragments de contenu {#LA-24-7}
 
-Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs contenus dans Adobe Campaign pour un processus de conception amélioré et accéléré.
+Vous pouvez désormais créer et utiliser des fragments de contenu. Un fragment de contenu est un composant réutilisable pouvant être référencé dans un ou plusieurs messages. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour. Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par les utilisateurs marketing pour assembler rapidement le contenu d’un message dans un processus de conception amélioré.
 
-* Vous pouvez désormais créer, utiliser et gérer des **fragments d’expression** pour créer rapidement du contenu personnalisé.
+Deux types de fragments sont disponibles :
 
-* Vous pouvez désormais créer, utiliser et enregistrer des **fragments visuels** pour assembler rapidement vos emails et vos modèles de contenu. [En savoir plus](../email/fragments.md)
+* **Les fragments d’expression** sont des expressions prédéfinies disponibles à partir d’une entrée dédiée dans l’éditeur d’expression.
+* **Les fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs diffusions email ou dans des modèles de contenu. [En savoir plus](../email/fragments.md)
 
-
-
-
-
-
+  >[!AVAILABILITY]
+  >
+  >**Les fragments visuels** sont en disponibilité limitée (LA). Cette fonctionnalité est limitée aux clients effectuant la migration de **Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
