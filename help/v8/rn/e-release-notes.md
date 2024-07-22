@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
+source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 46%
+source-wordcount: '401'
+ht-degree: 39%
 
 ---
 
@@ -23,32 +23,7 @@ L’interface d’utilisation d’Adobe Campaign Web fournit continuellement d
 
 Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version de juillet.
 
-### Listes de contrôle {#24-7-2}
-
-Une liste de contrôle, autrement dit, un **groupe de recouvrements**, est une liste d’adresses de contrôle. Elle est utilisée pour inclure des adresses spécifiques dans vos diffusions, puis pour cibler des profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui ne font pas partie de l’audience de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible. Vous pouvez utiliser des adresses de contrôle lors de l’envoi d’épreuves ou pour protéger votre liste de publipostage.
-
-### Modèles de notification push riches {#24-7.3}
-
-Vous pouvez désormais envoyer des notifications push enrichies. Une notification push enrichie est une forme améliorée de notification mobile qui va au-delà des messages texte simples en incorporant des éléments multimédias tels que des images, des boutons interactifs ou d’autres contenus multimédias enrichis. Avec cette version, un ensemble de modèles pour les notifications push enrichies est désormais disponible pour vos applications iOS et Android.
-
->[!AVAILABILITY]
->
->Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.3 ou v8.7.2. [En savoir plus dans les notes de mise à jour de la console cliente Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
-
-
-### Améliorations {#improvements-24-7}
-
-**Gestion des dossiers** - Vous pouvez désormais gérer les autorisations et les restrictions sur les dossiers.
-
-### Nouvelles fonctionnalités en disponibilité limitée {#acs-24-4}
-
->[!AVAILABILITY]
->
->Les fonctionnalités suivantes sont en disponibilité limitée. Celles-ci sont limitées aux clientes et clients qui effectuent la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et elles ne peuvent pas être déployées dans un autre environnement.
->
->Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr).
-
-#### Fragments de contenu {#LA-24-7}
+### Fragments de contenu {#24-7-1}
 
 Vous pouvez désormais créer et utiliser des fragments de contenu. Un fragment de contenu est un composant réutilisable pouvant être référencé dans un ou plusieurs messages. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour. Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par les utilisateurs marketing pour assembler rapidement le contenu d’un message dans un processus de conception amélioré.
 
@@ -60,3 +35,19 @@ Deux types de fragments sont disponibles :
   >[!AVAILABILITY]
   >
   >**Les fragments visuels** sont en disponibilité limitée (LA). Cette fonctionnalité est limitée aux clients effectuant la migration de **Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
+
+### Listes de contrôle {#24-7-2}
+
+Une liste de contrôle, autrement dit, un **groupe de recouvrements**, est une liste d’adresses de contrôle. Elle est utilisée pour inclure des adresses spécifiques dans vos diffusions, puis pour cibler des profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui ne font pas partie de l’audience de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible. Vous pouvez utiliser des adresses de contrôle lors de l’envoi d’épreuves ou pour protéger votre liste de publipostage.
+
+### Modèles de notification push enrichis {#24-7-3}
+
+Vous pouvez désormais envoyer des notifications push enrichies. Une notification push enrichie est une forme améliorée de notification mobile qui va au-delà des messages texte simples en incorporant des éléments multimédias tels que des images, des boutons interactifs ou d’autres contenus multimédias enrichis. Avec cette version, un ensemble de modèles pour les notifications push enrichies est désormais disponible pour vos applications iOS et Android.
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.3 ou v8.7.2. En savoir plus dans les [Notes de mise à jour de la console cliente Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
+
+### Améliorations {#improvements-24-7}
+
+**Gestion des dossiers** - Vous pouvez désormais gérer les autorisations et les restrictions sur les dossiers.
