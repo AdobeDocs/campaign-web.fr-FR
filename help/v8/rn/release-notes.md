@@ -2,7 +2,7 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -54,22 +54,11 @@ Les **Champs personnalisés** sont des attributs supplémentaires ajoutés aux s
 
 Vous pouvez maintenant créer des liens avec une autre table de l’activité de workflow **Enrichissement**. Utilisez la nouvelle section **Définition du lien** dans les paramètres de l’activité afin de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous pouvez maintenant créer un lien vers la table des pays afin de mettre à jour cette information dans leur profil. [En savoir plus](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### Améliorations générales {#improvements-24-5}
 
 * **Courrier** : vous pouvez désormais utiliser l’éditeur d’expression pour sélectionner les attributs à afficher dans les fichiers d’extraction de courrier. [En savoir plus](../direct-mail/content-direct-mail.md)
 
 * **Gestion des dossiers** : vous pouvez désormais créer un sous-dossier d’un type différent de celui du dossier parent. [En savoir plus](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **Harmonisation linguistique** : dans le cadre de nos efforts continus pour offrir une expérience client unifiée, nous harmonisons la terminologie utilisée dans les produits et applications Adobe Experience Cloud. Par exemple, le terme allemand « Titel » est remplacé par « Label » lorsqu’il se rapporte au nom d’un objet. Les modifications seront progressivement déployées dans l’interface d’utilisation et la documentation.
 
@@ -125,22 +114,15 @@ Notez que cette fonctionnalité est en **Disponibilité limitée**.
 ### Améliorations générales {#improvements-24-4}
 
 Les améliorations ci-dessous sont disponibles pour l’ensemble des clientes et clients à compter de la version d’avril.
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * L’activité **Charger un fichier** a été améliorée avec plusieurs sections qui vous permettent de charger un exemple de fichier, de gérer les erreurs et les rejets, et de supprimer les fichiers chargés une fois l’activité exécutée. [En savoir plus](../workflows/activities/load-file.md)
 
 
 * Vous pouvez désormais **copier/coller des activités** d’un workflow à un autre à partir d’un autre onglet du navigateur. [En savoir plus](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * Vous pouvez désormais gérer les **options d’exécution** de toutes les activités de workflow. Vous pouvez ainsi définir le mode d’exécution et le comportement de l’activité en cas d’erreur. [En savoir plus](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * L’option « Ne pas activer la transition si la population est vide » dans l’**Activité Partage** vous permet de choisir si le workflow doit passer à l’activité suivante lorsque le résultat du segment est vide. [En savoir plus](../workflows/activities/split.md)
-
-
 
 ## Notes de mise à jour de mars {#24-3-release}
 
