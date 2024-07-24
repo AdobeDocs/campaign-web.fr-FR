@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1629'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -335,8 +335,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
->title="Application mobile de messagerie transactionnelle"
->abstract="Application mobile de messagerie transactionnelle"
+>title="Application mobile de messages transactionnels"
+>abstract="Application mobile de messages transactionnels"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"

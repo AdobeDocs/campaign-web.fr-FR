@@ -4,7 +4,7 @@ title: Créer des fragments de contenu
 description: Découvrez comment utiliser les fragments de contenu.
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
 ht-degree: 100%
 
