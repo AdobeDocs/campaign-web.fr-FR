@@ -4,7 +4,7 @@ title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 100%
 
