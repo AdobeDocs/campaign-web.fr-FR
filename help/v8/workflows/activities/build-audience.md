@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Pour définir la population de l’audience, vous pouvez :
 
 * sélectionner une audience existante, créée sous forme de liste dans la console cliente ;
 * sélectionner une audience Adobe Experience Platform ;
-* Créez une audience à l’aide du concepteur de requêtes en définissant et combinant des critères de filtrage.
+* Créez une nouvelle audience avec le modeleur de requête en définissant et combinant des critères de filtrage.
 
 >[!NOTE]
 >
