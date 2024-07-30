@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 95%
 
 ---
 
@@ -51,9 +51,9 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB La version de juin est en ligne.]
+>[!TAB La version de juillet est en ligne !]
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version 24.6 de l’interface d’utilisation d’Adobe Campaign Web.
+Découvrez les nouvelles fonctionnalités et améliorations de l’interface utilisateur web d’Adobe Campaign version du 24 juillet.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
