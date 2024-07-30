@@ -3,10 +3,10 @@ audience: end-user
 title: À propos de la quarantaine
 description: Comprendre la gestion des adresses en quarantaine
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ La quarantaine permet de réduire les coûts d’envoi des SMS en excluant les n
 
 ## Pourquoi une adresse est-elle mise en quarantaine ?
 
-Une adresse peut être mise en quarantaine pour de nombreuses raisons :
+De nombreuses raisons peuvent mettre une adresse en quarantaine :
 
 - Pour les SMS, des numéros de téléphone erronés.
 - Pour les SMS, lorsque le profil répond à un SMS avec un mot-clé tel que « STOP ».

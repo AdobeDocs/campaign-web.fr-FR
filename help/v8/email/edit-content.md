@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 >id="acw_deliveries_email_options"
 >title="Modifier le tracking"
 >abstract="Par défaut, le tracking est activé pour la diffusion, ce qui signifie que tous les liens inclus dans le contenu du message sont suivis. Vous pouvez désactiver cette option à partir d’ici."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=fr" text="Ajouter des liens et suivre les messages"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Ajouter des liens et suivre les messages"
 
 La fenêtre **[!UICONTROL Modifier le contenu]** de l’e-mail vous permet d’effectuer les opérations suivantes :
 

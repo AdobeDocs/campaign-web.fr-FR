@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '3354'
-ht-degree: 87%
+source-wordcount: '3372'
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Avant de concevoir une notification push enrichie, vous devez d’abord configurer votre connecteur V2. Consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) pour accéder à la procédure détaillée.
+>* Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus dans la console cliente Campaign v8 [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>
+>* Avant de concevoir une notification push enrichie, vous devez d’abord configurer votre connecteur V2. Consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} pour obtenir la procédure détaillée.
+
 
 Firebase Cloud Messaging vous permet de choisir entre deux types de messages :
 

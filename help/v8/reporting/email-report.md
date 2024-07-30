@@ -3,7 +3,7 @@ audience: end-user
 title: Rapports de diffusion E-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 100%
@@ -279,7 +279,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BAT sont exclus.
+* **[!UICONTROL Moyenne plate-forme]** : Ce taux moyen, affiché sous chaque taux (réactivité, clics distincts, et clics cumulés), est calculé sur les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
 
 +++
 

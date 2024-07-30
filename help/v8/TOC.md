@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 94%
+source-wordcount: '745'
+ht-degree: 93%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 94%
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
       + [Définir une population témoin](audience/control-group.md)
+      + [Ajouter un groupe de type piège](audience/trap-group.md)
    + Utiliser des services d’abonnement {#work-with-services}
       + [Créer et gérer des services d’abonnement](audience/manage-services.md)
       + [Gérer des personnes abonnées](audience/manage-subscribers.md)

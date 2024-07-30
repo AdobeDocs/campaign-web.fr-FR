@@ -3,17 +3,17 @@ audience: end-user
 title: Plans et programmes
 description: Découvrir comment créer et envoyer des plans et des programmes dans Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Plans et programmes {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Plans et programmes"
 >abstract="Vous pouvez maintenant paramétrer la hiérarchie des dossiers des plans marketing et des programmes dans l’interface d’utilisation de Campaign Web."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
@@ -82,9 +82,9 @@ Vous pouvez les configurer comme suit :
 
 Vous pouvez lier une campagne à un programme de deux manières différentes :
 
-### Méthode 1 : vous disposez déjà d’un programme et souhaitez créer une campagne qui lui est liée.
+### Voie #1 : Vous avez déjà un programme et souhaitez créer une campagne qui lui est associée.
 
-Pour lier une nouvelle campagne à votre programme, créez directement votre campagne dans le programme :
+Pour associer une nouvelle opération à votre programme, créez directement l&#39;opération dans le programme :
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ Les paramètres **[!UICONTROL Dossier]** seront automatiquement renseignés avec
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### Méthode 2 : vous avez déjà une campagne existante et souhaitez la lier à un programme existant.
+### Voie #2 : vous avez déjà une campagne existante et souhaitez la lier à un programme existant
 
 Cliquez sur le bouton **[!UICONTROL Paramètres]** de la campagne que vous souhaitez lier à votre programme :
 

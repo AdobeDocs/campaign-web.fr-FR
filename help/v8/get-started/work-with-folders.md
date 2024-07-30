@@ -3,7 +3,7 @@ audience: end-user
 title: Utilisation de dossiers
 description: Découvrez comment gérer un dossier dans Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 29%

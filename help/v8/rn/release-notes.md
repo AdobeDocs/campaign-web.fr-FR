@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '1938'
-ht-degree: 99%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -37,9 +37,9 @@ Deux types de fragments sont disponibles :
   >
   >Les **fragments visuels** sont en disponibilité limitée (LA). Cette fonctionnalité est limitée aux clientes et clients qui effectuent la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
-### Listes de contrôle {#24-7-2}
+### Groupe de recouvrements {#24-7-2}
 
-Une liste de contrôle, autrement dit, un **groupe de recouvrements**, est une liste d’adresses de contrôle. Elle est utilisée pour inclure des adresses spécifiques dans vos diffusions, puis pour cibler des profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui ne font pas partie de l’audience de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible. Vous pouvez utiliser des adresses de contrôle lors de l’envoi d’épreuves ou pour protéger votre liste de publipostage.
+Un **groupe de pièges** est une liste d&#39;adresses de contrôle. Elle est utilisée pour inclure des adresses spécifiques dans vos diffusions, puis pour cibler des profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui ne font pas partie de l’audience de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible. Vous pouvez utiliser des adresses de contrôle lors de l’envoi de BAT ou pour protéger votre liste de diffusion. [En savoir plus](../audience/trap-group.md)
 
 ### Modèles de notifications push enrichies {#24-7-3}
 
@@ -47,7 +47,7 @@ Vous pouvez désormais envoyer des notifications push enrichies. La notification
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus dans la console cliente Campaign v8 [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
+>Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus dans la console cliente Campaign v8 [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 
 ### Améliorations {#improvements-24-7}
 
