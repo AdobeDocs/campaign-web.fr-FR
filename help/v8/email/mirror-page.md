@@ -3,10 +3,10 @@ audience: end-user
 title: Ajouter un lien vers la page miroir
 description: Découvrez comment ajouter et gérer le lien vers la page miroir.
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -36,11 +36,9 @@ Pour ajouter un lien vers une page miroir dans l’e-mail :
 
    ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Bloc de contenu]**, sélectionnez **[!UICONTROL URL de la page miroir]** et cliquez sur **[!UICONTROL Ajouter]**.
+1. Dans le menu **[!UICONTROL Fragments]**, sélectionnez **[!UICONTROL URL de page miroir]** et cliquez sur **[!UICONTROL Ajouter]**. [Découvrez comment utiliser les fragments d’expression](../content/use-expression-fragments.md)
 
    ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
-
-   Pour plus d’informations sur l’insertion de blocs de contenu personnalisés, consultez [cette section](../personalization/personalize.md#personalize-emails).
 
 La page miroir est automatiquement créée.
 

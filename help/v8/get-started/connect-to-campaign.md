@@ -2,10 +2,10 @@
 title: Se connecter à l’interface web d’Adobe Campaign
 description: Découvrir comment vous connecter à l’interface utilisateur d’Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,51 @@ Si vous avez accès à plusieurs environnements, y compris le panneau de contrô
 ![](assets/launch-campaign.png){zoomable="yes"}
 
 Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à utiliser l’interface utilisateur sur [cette page](user-interface.md).
+
+### Contrôle d&#39;accès {#access-control}
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Autorisation requise"
+>abstract="Avant de pouvoir créer cet objet, votre administrateur ou administratrice doit vous accorder une autorisation."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Cette audience est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette audience. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Ce service est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce service. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Profil en lecture seule des personnes destinataires"
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier ce profil. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Cette campagne est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette campagne. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Cette diffusion est en lecture seule."
+>abstract="Vous ne disposez pas des autorisations nécessaires pour modifier cette diffusion. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Ce workflow est en lecture seule."
+>abstract="Vous ne disposez pas des permissions nécessaires pour modifier ce workflow. Si nécessaire, contactez votre administrateur ou administratrice, qui vous accordera l’accès."
+
+Le contrôle d’accès peut restreindre l’accès aux objets et données des listes principales, telles que les diffusions, les destinataires ou les workflows. Ces restrictions s’appliquent également dans l’arborescence de navigation de l’explorateur. En outre, vous avez besoin d’autorisations pour créer, supprimer, dupliquer et modifier des objets à partir de l’interface utilisateur.
+
+Toutes les autorisations de Campaign web sont synchronisées avec celles de la console cliente Campaign. Seuls les administrateurs de Campaign peuvent définir et modifier les permissions utilisateur.
+
+Lorsque vous naviguez dans l’interface utilisateur de Campaign Web, vous pouvez accéder aux données, aux objets et aux fonctionnalités selon vos autorisations. Par exemple, si vous ne disposez pas des autorisations d’accès à un dossier, vous ne pouvez pas l’afficher. Vos autorisations ont également une incidence sur la gestion des objets et des données. Sans autorisation d’écriture pour un dossier spécifique, vous ne pouvez pas créer de diffusion dans ce dossier, même si vous pouvez l’afficher dans l’interface utilisateur.
+
+Vous pouvez apprendre à [afficher et gérer les autorisations ici](permissions.md).
 
 ## Navigation de niveau supérieur d’Adobe Experience Cloud {#top-bar}
 

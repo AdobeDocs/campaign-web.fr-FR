@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 100%
+source-wordcount: '1689'
+ht-degree: 98%
 
 ---
 
@@ -81,9 +81,9 @@ Dans la section Gestion de contenu, vous pouvez afficher vos modèles de contenu
 
 * **Modèles de contenu** : pour un processus de conception accéléré et amélioré, vous pouvez créer des modèles autonomes afin de réutiliser facilement le contenu personnalisé dans [!DNL Adobe Campaign]. Cette fonctionnalité, uniquement réservée aux e-mails, permet aux personnes orientées sur le contenu d’utiliser des modèles autonomes afin que les utilisateurs et utilisatrices marketing puissent les réutiliser et les adapter dans leurs propres campagnes par e-mail. En savoir plus dans [cette section](../email/create-email-templates.md).
 
-<!--
-* **Fragments** -
--->
+* **Fragments** - Un fragment est un composant réutilisable qui peut être référencé dans une ou plusieurs diffusions sur plusieurs campagnes. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour. [Découvrez comment utiliser des fragments](../content/fragments.md)
+
+Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés destinés aux utilisateurs et utilisatrices marketing et permettant d’assembler rapidement les contenus d’e-mail dans un processus de conception amélioré.
 
 ### Gestion des clientes et clients {#user-interface-customer-management}
 

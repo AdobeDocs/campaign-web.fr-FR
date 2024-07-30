@@ -4,8 +4,8 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
-workflow-type: ht
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Vous pouvez désormais créer et utiliser des fragments de contenu. Un fragment 
 Deux types de fragments sont disponibles :
 
 * Les **fragments d’expression** sont des expressions prédéfinies disponibles à partir d’une entrée dédiée dans l’éditeur d’expression.
-* Les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs diffusions e-mail ou dans des modèles de contenu. [En savoir plus](../email/fragments.md)
+* Les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs diffusions e-mail ou dans des modèles de contenu. [En savoir plus](../content/fragments.md)
 
   >[!AVAILABILITY]
   >

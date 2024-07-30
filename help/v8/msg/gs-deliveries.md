@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 100%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -89,9 +89,9 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
   Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données de l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n’importe quel champ associé au ou à la destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. [En savoir plus](../personalization/personalize.md)
 
-* Insérer des **blocs de contenu** prédéfinis
+* Insertion de **fragments d’expression** prédéfinis
 
-  Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation. [En savoir plus](../personalization/personalize.md#ootb-content-blocks)
+  Campaign est fourni avec un ensemble de fragments d&#39;expression qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. les fragments d’expression sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation. Vous pouvez également créer vos propres fragments d’expression en fonction de vos besoins. [Découvrez comment utiliser les fragments d’expression](../content/use-expression-fragments.md)
 
 * Créer du **contenu conditionnel**
 

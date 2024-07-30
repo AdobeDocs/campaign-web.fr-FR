@@ -3,7 +3,7 @@ audience: end-user
 title: Plans et programmes
 description: Découvrir comment créer et envoyer des plans et des programmes dans Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Pour mieux les organiser, Adobe recommande la hiérarchie suivante : Plan `>` P
 
 ## Créer et configurer un plan {#create-plan}
 
-Pour créer un plan, vous devez créer un dossier avec le type de dossier **[!UICONTROL Plan]**. [En savoir plus sur la création d’un dossier](create-manage-folder.md).
+Pour créer un plan, vous devez créer un dossier avec le type de dossier **[!UICONTROL Plan]**. [En savoir plus sur la création d’un dossier](../get-started/work-with-folders.md).
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Vous pouvez les configurer comme suit :
 
 ## Créer et configurer un programme
 
-Pour créer un programme dans votre plan ([En savoir plus sur la création d’un plan.](#create-plan)), vous devez être dans votre plan et créer un dossier avec le type de dossier **[!UICONTROL Programme]**.[En savoir plus sur la création d’un dossier](create-manage-folder.md).
+Pour créer un programme dans votre plan ([En savoir plus sur la création d’un plan.](#create-plan)), vous devez être dans votre plan et créer un dossier avec le type de dossier **[!UICONTROL Programme]**.[En savoir plus sur la création d’un dossier](../get-started/work-with-folders.md).
 
 ![](assets/program_create.png){zoomable="yes"}
 

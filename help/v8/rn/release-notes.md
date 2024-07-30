@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
-workflow-type: ht
-source-wordcount: '1623'
-ht-degree: 100%
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
+source-wordcount: '1938'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,42 @@ ht-degree: 100%
 >abstract="Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, les notes de mise à jour de Campaign sont mises à jour plusieurs fois par mois, avec les derniers correctifs, les dernières fonctionnalités et les dernières améliorations. Nous vous recommandons de les vérifier régulièrement."
 
 Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont complétées plusieurs fois par mois. Veuillez les vérifier régulièrement.
+
+## Notes de mise à jour de juillet {#24-7-release}
+
+**Date de publication** : 30-31 juillet 2024
+
+Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version de juillet.
+
+### Fragments de contenu {#24-7-1}
+
+Vous pouvez désormais créer et utiliser des fragments de contenu. Un fragment de contenu est un composant réutilisable pouvant être référencé dans un ou plusieurs messages. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour. Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés destinés aux utilisateurs et utilisatrices marketing et permettant d’assembler rapidement les contenus de messages dans un processus de conception amélioré.
+
+Deux types de fragments sont disponibles :
+
+* Les **fragments d’expression** sont des expressions prédéfinies disponibles à partir d’une entrée dédiée dans l’éditeur d’expression.
+* Les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs diffusions e-mail ou dans des modèles de contenu. [En savoir plus](../content/fragments.md)
+
+  >[!AVAILABILITY]
+  >
+  >Les **fragments visuels** sont en disponibilité limitée (LA). Cette fonctionnalité est limitée aux clientes et clients qui effectuent la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
+
+### Listes de contrôle {#24-7-2}
+
+Une liste de contrôle, autrement dit, un **groupe de recouvrements**, est une liste d’adresses de contrôle. Elle est utilisée pour inclure des adresses spécifiques dans vos diffusions, puis pour cibler des profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui ne font pas partie de l’audience de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible. Vous pouvez utiliser des adresses de contrôle lors de l’envoi d’épreuves ou pour protéger votre liste de publipostage.
+
+### Modèles de notifications push enrichies {#24-7-3}
+
+Vous pouvez désormais envoyer des notifications push enrichies. La notification push enrichie est une forme améliorée de notification mobile qui va au-delà des messages texte simples en incorporant des éléments multimédias tels que des images, des boutons interactifs ou d’autres contenus multimédias enrichis. Avec cette version, un ensemble de modèles pour les notifications push enrichies est désormais disponible pour vos applications iOS et Android.
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus dans la console cliente Campaign v8 [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
+
+### Améliorations {#improvements-24-7}
+
+**Gestion des dossiers** : vous pouvez désormais gérer les autorisations et les restrictions sur les dossiers.
+
 
 ## Notes de mise à jour de juin {#24-6-release}
 

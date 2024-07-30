@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 98%
+source-wordcount: '741'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,8 @@ ht-degree: 98%
    + [Découvrir l’interface](get-started/user-interface.md)
    + [Parcourir et filtrer les listes](get-started/list-filters.md)
    + [Utiliser des filtres prédéfinis](get-started/predefined-filters.md)
-   + [Accès et autorisations](get-started/permissions.md)
+   + [Utiliser des dossiers](get-started/work-with-folders.md)
+   + [Autorisations](get-started/permissions.md)
    + [Campaign Web et console cliente](get-started/capability-matrix.md)
    + [De Campaign Standard vers v8](rn/acs-migration.md)
    + [Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
@@ -37,30 +38,7 @@ ht-degree: 98%
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
    + E-mails {#email}
       + [Créer votre premier e-mail](email/create-email.md)
-      + Définir le contenu d’un email {#content}
-         + [Configurer le contenu de l’e-mail](email/edit-content.md)
-         + Gérer le contenu réutilisable {#manage-reusable-content}
-            + [Utiliser des modèles de contenu](email/create-email-templates.md)
-            + [Utiliser les fragments visuels](email/fragments.md)
-            + [Ajouter des fragments visuels à vos e-mails](email/use-visual-fragments.md)
-         + Commencer à rédiger l’e-mail {#start-design}
-            + [Commencer avec le concepteur d’e-mail](email/get-started-email-designer.md)
-            + [Démarrer en partant de zéro](email/create-email-content.md)
-            + [Importer le contenu des e-mails](email/existing-content.md)
-            + [Coder votre propre contenu](email/code-content.md)
-            + [Utiliser des modèles de contenu d’e-mail](email/use-email-templates.md)
-         + Concevoir le contenu {#design-content}
-            + [Utiliser les composants de contenu](email/content-components.md)
-            + [Ajouter des liens et suivre les messages](email/message-tracking.md)
-            + [Ajouter un lien vers la page miroir](email/mirror-page.md)
-            + [Ajouter un pré-titre](email/preheader.md)
-            + [Générer la version texte](email/text-version-email.md)
-         + Donner un style à votre contenu {#style}
-            + [Prise en main du style des e-mails](email/get-started-email-style.md)
-            + [Modifier les paramètres d’arrière-plan](email/backgrounds.md)
-            + [Ajuster l’alignement vertical et la marge intérieure](email/alignment-and-padding.md)
-            + [Définir un style pour les liens](email/styling-links.md)
-            + [Ajouter des attributs de style intégrés](email/inline-styling.md)
+      + [Configurer le contenu de l’e-mail](email/edit-content.md)
       + Envoyer et surveiller l’e-mail {#monitor}
          + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
          + [Envoyer en plusieurs vagues](advanced-settings/send-using-waves.md)
@@ -89,11 +67,6 @@ ht-degree: 98%
       + [Génération d’e-mails avec l’assistant IA](email/generative-content.md)
       + [Génération de SMS avec l’assistant IA](email/generative-sms.md)
       + [Génération de notifications push avec l’assistant AI](email/generative-push.md)
-   + Rendre votre contenu dynamique {#dynamic-content}
-      + [Prise en main du contenu dynamique](personalization/gs-personalization.md)
-      + [Ajouter de la personnalisation](personalization/personalize.md)
-      + [Créer du contenu conditionnel](personalization/conditions.md)
-      + [Ajouter des blocs de contenu intégrés](personalization/content-blocks.md)
    + [Ajouter des offres à vos messages](msg/offers.md)
    + [Envoyer des messages à vos personnes abonnées](msg/send-to-subscribers.md)
    + [Configurer les paramètres de diffusion](advanced-settings/delivery-settings.md)
@@ -106,6 +79,37 @@ ht-degree: 98%
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
       + [Critères des alertes de diffusion](msg/delivery-alerting-criteria.md)
++ Gestion de contenu {#content}
+   + Création de contenu dynamique {#dynamic-content}
+      + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
+      + [Ajouter de la personnalisation](personalization/personalize.md)
+      + [Créer du contenu conditionnel](personalization/conditions.md)
+   + Réutilisation du contenu {#manage-reusable-content}
+      + [Utiliser des modèles de contenu](email/create-email-templates.md)
+      + Fragments de contenu {#fragments}
+         + [Prise en main des fragments de contenu](content/fragments.md)
+         + [Création et modification de fragments de contenu](content/create-fragment.md)
+         + [Utiliser des fragments visuels dans vos emails](content/use-visual-fragments.md)
+         + [Utilisation de fragments d’expression dans l’éditeur d’expression](content/use-expression-fragments.md)
+   + Concevoir des emails {#email-design}
+      + [Commencer avec le concepteur d’e-mail](email/get-started-email-designer.md)
+      + Commencer à rédiger l’e-mail {#start-design}
+         + [Démarrer en partant de zéro](email/create-email-content.md)
+         + [Importer le contenu des e-mails](email/existing-content.md)
+         + [Coder votre propre contenu](email/code-content.md)
+         + [Utiliser des modèles de contenu d’e-mail](email/use-email-templates.md)
+      + Concevoir le contenu {#design-content}
+         + [Utiliser les composants de contenu](email/content-components.md)
+         + [Ajouter des liens et suivre les messages](email/message-tracking.md)
+         + [Ajouter un lien vers la page miroir](email/mirror-page.md)
+         + [Ajouter un pré-titre](email/preheader.md)
+         + [Générer la version texte](email/text-version-email.md)
+      + Donner un style à votre contenu {#style}
+         + [Prise en main du style des e-mails](email/get-started-email-style.md)
+         + [Modifier les paramètres d’arrière-plan](email/backgrounds.md)
+         + [Ajuster l’alignement vertical et la marge intérieure](email/alignment-and-padding.md)
+         + [Définir un style pour les liens](email/styling-links.md)
+         + [Ajouter des attributs de style intégrés](email/inline-styling.md)
 + Pages de destination {#landing-pages}
    + [Commencer avec les pages de destination](landing-pages/get-started-lp.md)
    + [Créer et publier une page de destination](landing-pages/create-lp.md)
@@ -210,5 +214,4 @@ ht-degree: 98%
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Créer et gérer un dossier](administration/create-manage-folder.md)
 + [Documentation de Campaign v8 (console) >](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home)

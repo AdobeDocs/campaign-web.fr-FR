@@ -1,6 +1,6 @@
 ---
-title: Prise en main du contenu dynamique
-description: Découvrez comment rendre votre contenu dynamique à l’aide de la personnalisation, du contenu conditionnel et des blocs de contenu intégrés.
+title: Comment rendre votre contenu dynamique ?
+description: Découvrez comment rendre votre contenu dynamique grâce à la personnalisation et au contenu conditionnel.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 91%
 
 ---
 
-# Prise en main du contenu dynamique {#gs-dynamic-content}
+# Comment rendre votre contenu dynamique ? {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personnalisation"
->abstract="L’éditeur d’expression vous permet de sélectionner, d&#39;organiser, de personnaliser et de valider toutes les données afin de créer une expérience personnalisée pour votre contenu. Vous pouvez personnaliser vos messages pour chaque destinataire en utilisant les données de son profil, et créer un contenu conditionnel afin d’adapter votre message à chaque destinataire et uniquement afficher le contenu pertinent. De plus, des blocs de personnalisation sont disponibles pour ajouter du contenu personnalisé prédéfini à vos diffusions."
+>abstract="L’éditeur d’expression vous permet de sélectionner, d&#39;organiser, de personnaliser et de valider toutes les données afin de créer une expérience personnalisée pour votre contenu. Vous pouvez personnaliser vos messages pour chaque destinataire en exploitant les données de son profil, et créer un contenu conditionnel afin d&#39;adapter votre message à chaque destinataire et uniquement afficher le contenu pertinent."
 
 En tant que spécialiste marketing, il est essentiel de cibler les clientes et clients qui s’intéressent véritablement à vos offres et de les impliquer grâce à un contenu efficace et pertinent. Étant donné la diversité des destinataires que vous rencontrez, la création de plusieurs éléments de contenu marketing pour séduire différentes personnes peut représenter une perte de temps et d’argent. C’est là que le contenu dynamique entre en jeu.
 
@@ -38,10 +38,6 @@ Vous pouvez rendre le contenu de votre message dynamique en insérant des élém
 * **Créez du contenu conditionnel** pour adapter vos diffusions à chaque destinataire et afficher uniquement le contenu pertinent pour une cliente ou un client donné(e) en fonction des informations dont vous disposez à son sujet. Vous pouvez ainsi afficher des blocs de texte et/ou des images spécifiques en fonction de conditions. Par exemple, adaptez une bannière d’e-mail en fonction de l’abonnement des destinataires à un service spécifique.
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
-
-* **Utilisez des blocs de personnalisation** pour gagner du temps et tirer facilement profit du contenu personnalisé réutilisable dans vos messages. Campaign est fourni avec un ensemble de blocs de personnalisation qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir de l’e-mail. Les blocs de contenu sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation.
-
-  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## Accéder à l’éditeur d’expression {#access}
 
@@ -64,35 +60,3 @@ Voici quelques exemples d’accès à l’éditeur d’expression en fonction du
 >[!NOTE]
 >
 >Outre l’éditeur d’expression, vous pouvez également utiliser un créateur de contenu conditionnel dédié lors de la conception d’un e-mail. [Découvrez comment créer du contenu conditionnel dans les e-mails](conditions.md).
-
-## Explorons plus en détail {#dive-deeper}
-
-Maintenant que vous savez comment rendre votre contenu dynamique, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser cette fonctionnalité.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="Personnaliser le contenu" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>Ajouter de la personnalisation</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="Prospect" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>Ajouter du contenu conditionnel</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="Peu fréquent" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>Ajouter des blocs de contenu intégrés</strong></a>
-</div>
-<p></td>
-</tr></table>

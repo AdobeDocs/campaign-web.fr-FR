@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Ajouter des structures"
->abstract="Les structures définissent la disposition du fragment. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre fragment."
+>abstract="Les structures définissent la disposition du fragment de contenu. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre fragment."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -45,8 +45,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Définir les colonnes du fragment"
->abstract="Le concepteur d’e-mail permet de définir facilement la disposition du fragment en définissant la structure des colonnes."
+>title="Définition des colonnes de fragments de contenu"
+>abstract="Le Designer email vous permet de définir facilement la disposition de votre fragment de contenu en définissant la structure des colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
