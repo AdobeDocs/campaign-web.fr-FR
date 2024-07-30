@@ -3,24 +3,23 @@ audience: end-user
 title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 100%
+source-wordcount: '3354'
+ht-degree: 87%
 
 ---
 
 # Créer une diffusion de notification push Android enrichie {#rich-push}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="Bouton Rappeler plus tard"
 >abstract="Le bouton **Rappeler plus tard** permet de planifier un rappel. Le champ Date et heure exige une valeur représentant une époque en secondes."
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Cette fonctionnalité est en **disponibilité limitée** (LA).
+>Avant de concevoir une notification push enrichie, vous devez d’abord configurer votre connecteur V2. Consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) pour accéder à la procédure détaillée.
 
 Firebase Cloud Messaging vous permet de choisir entre deux types de messages :
 
@@ -32,19 +31,31 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 
 ## Définir le contenu de la notification {#push-message}
 
-Une fois votre diffusion de notification push créée, vous pouvez en définir le contenu. Trois modèles sont disponibles :
+Une fois votre diffusion push créée, vous pouvez définir son contenu à l&#39;aide de l&#39;un des modèles suivants :
 
-* Le **modèle par défaut** vous permet d’envoyer des notifications avec une simple icône et une image associée.
+* **Par défaut** vous permet d’envoyer des notifications avec une simple icône et une image associée.
 
-* Le **modèle de base** peut inclure du texte, des images et des boutons dans vos notifications.
+* **De base** peut inclure du texte, des images et des boutons dans vos notifications.
 
-* Le **modèle de carrousel** vous permet d’envoyer des notifications avec du texte et plusieurs images que les utilisateurs et utilisatrices peuvent faire défiler.
+* **Carrousel** vous permet d’envoyer des notifications avec du texte et plusieurs images que les utilisateurs peuvent parcourir.
+
+* Les **boutons d’icône** vous permettent d’envoyer des notifications avec une icône et une image correspondante.
+
+* **La boîte de saisie** rassemble les entrées et les commentaires de l’utilisateur directement via la notification.
+
+* **Le catalogue de produits** affiche une variété d’images de produits.
+
+* **La notation de produit** permet aux utilisateurs de donner leur avis et d’évaluer les produits.
+
+* **Timer** inclut un minuteur de compte à rebours en direct dans vos notifications.
+
+* **Zero Bezel** utilise toute la surface d’arrière-plan d’une image, avec du texte superposé de manière transparente.
 
 Accédez aux onglets ci-dessous pour en savoir plus sur la personnalisation de ces modèles.
 
 >[!BEGINTABS]
 
->[!TAB Modèle par défaut]
+>[!TAB Par défaut]
 
 1. Dans le menu déroulant **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL Par défaut]**.
 
@@ -66,7 +77,7 @@ Accédez aux onglets ci-dessous pour en savoir plus sur la personnalisation de c
 
 Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
 
->[!TAB Modèle de base]
+>[!TAB De base]
 
 1. Dans le menu déroulant **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL De base]**.
 
@@ -116,7 +127,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
 
->[!TAB Modèle de carrousel]
+>[!TAB Carrousel]
 
 1. Dans le menu déroulant **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL Carrousel]**.
 
@@ -165,6 +176,245 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
 
+>[!TAB Boutons d’icône]
+
+1. Dans la liste déroulante **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL Boutons d’icône]**.
+
+   ![](assets/rich_push_icon_1.png)
+
+1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
+
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+
+   * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
+
+   * **[!UICONTROL Lien profond]** : les liens profonds sont des URL qui orientent les personnes vers des sections spécifiques d’une application, même si celle-ci est fermée. Après un clic, une boîte de dialogue s’affiche, permettant aux utilisateurs et aux utilisatrices de choisir parmi différentes applications capables de gérer le lien.
+
+   * **[!UICONTROL Ouvrir l’application]** : les URL d’ouverture de l’application vous permettent de vous connecter directement au contenu d’une application. Cela permet à votre application de se définir elle-même comme gestionnaire par défaut d’un type spécifique de lien, sans boîte de dialogue de choix.
+
+   Pour plus d’informations sur la gestion des liens des applications Android, consultez la [documentation destinée au développement Android](https://developer.android.com/training/app-links).
+
+   ![](assets/rich_push_icon_2.png)
+
+1. Pour personnaliser davantage votre notification push, vous pouvez choisir l’**[!UICONTROL icône]** de notification à afficher sur les appareils de vos profils.
+
+1. Ajoutez l’URL de votre **[!UICONTROL image de bouton Annuler]**.
+
+1. Cliquez sur **[!UICONTROL Ajouter une icône]** et saisissez votre **URL d&#39;image**, **[!UICONTROL URI de lien]** et choisissez votre **[!UICONTROL type de lien]**.
+
+   Veillez à inclure trois icônes au minimum et cinq icônes au maximum.
+
+   ![](assets/rich_push_icon_3.png)
+
+1. Gérez l’ordre de vos images à l’aide des flèches haut et bas.
+
+1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
+
+   ![](assets/rich_push_icon_4.png)
+
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+
+>[!TAB Zone de saisie]
+
+1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Zone de saisie]**.
+
+   ![](assets/rich_push_input_1.png)
+
+1. Pour composer votre message, saisissez votre texte dans les champs **[!UICONTROL Titre]**, **[!UICONTROL Message]** et **[!UICONTROL Message étendu]**.
+
+   Le texte **[!UICONTROL Message]** s’affiche dans la vue réduite, alors que le **[!UICONTROL Message étendu]** s’affiche lorsque la notification est développée.
+
+   ![](assets/rich_push_input_2.png)
+
+1. Utilisez les champs de personnalisation dynamiques pour définir le contenu, personnaliser les données et ajouter du contenu dynamique. [En savoir plus](../personalization/personalize.md)
+
+1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
+
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+
+   * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
+
+   * **[!UICONTROL Lien profond]** : les liens profonds sont des URL qui orientent les personnes vers des sections spécifiques d’une application, même si celle-ci est fermée. Après un clic, une boîte de dialogue s’affiche, permettant aux utilisateurs et aux utilisatrices de choisir parmi différentes applications capables de gérer le lien.
+
+   * **[!UICONTROL Ouvrir l’application]** : les URL d’ouverture de l’application vous permettent de vous connecter directement au contenu d’une application. Cela permet à votre application de se définir elle-même comme gestionnaire par défaut d’un type spécifique de lien, sans boîte de dialogue de choix.
+
+   Pour plus d’informations sur la gestion de liens d’applications Android, consultez la [documentation de développement Android](https://developer.android.com/training/app-links).
+
+1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à lui ajouter et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
+
+1. Renseignez les options suivantes pour votre **boîte de saisie** :
+
+   * **[!UICONTROL Input receiver name]** : saisissez le nom ou l’identifiant du récepteur de l’entrée.
+   * **[!UICONTROL Texte d’entrée]** : saisissez le texte de la **zone de saisie**.
+   * **[!UICONTROL Retour texte]** : saisissez le texte à afficher après une réponse.
+   * **[!UICONTROL Image de retour]** : ajoutez l’URL de l’image affichée après une réponse.
+
+   ![](assets/rich_push_input_3.png)
+
+1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
+
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+
+>[!TAB Catalogue de produits]
+
+1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Catalogue de produits]**.
+
+   ![](assets/rich_push_catalog_1.png)
+
+1. Pour composer votre message, saisissez votre texte dans les champs **[!UICONTROL Titre]** et **[!UICONTROL Message]**.
+
+   ![](assets/rich_push_catalog_2.png)
+
+1. Utilisez les champs de personnalisation dynamiques pour définir le contenu, personnaliser les données et ajouter du contenu dynamique. [En savoir plus](../personalization/personalize.md)
+
+1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
+
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+
+   * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
+
+   * **[!UICONTROL Lien profond]** : les liens profonds sont des URL qui orientent les personnes vers des sections spécifiques d’une application, même si celle-ci est fermée. Après un clic, une boîte de dialogue s’affiche, permettant aux utilisateurs et aux utilisatrices de choisir parmi différentes applications capables de gérer le lien.
+
+   * **[!UICONTROL Ouvrir l’application]** : les URL d’ouverture de l’application vous permettent de vous connecter directement au contenu d’une application. Cela permet à votre application de se définir elle-même comme gestionnaire par défaut d’un type spécifique de lien, sans boîte de dialogue de choix.
+
+   Pour plus d’informations sur la gestion des liens des applications Android, consultez la [documentation destinée au développement Android](https://developer.android.com/training/app-links).
+
+1. Pour personnaliser davantage votre notification push, vous pouvez choisir l’**[!UICONTROL icône]** de notification à afficher sur les appareils de vos profils.
+
+1. Saisissez votre **texte de clic pour action** et **image**.
+
+1. Choisissez votre **[!UICONTROL Type d’affichage]** entre Horizontal ou Vertical.
+
+1. Renseignez les informations sur les éléments **[!UICONTROL Catalog]** .
+
+   Veillez à inclure trois éléments au minimum et cinq éléments au maximum.
+
+   ![](assets/rich_push_catalog_3.png)
+
+1. Gérez l’ordre de vos images à l’aide des flèches haut et bas.
+
+1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
+
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+
+>[!TAB Évaluation des produits]
+
+1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Évaluation des produits]**.
+
+   ![](assets/rich_push_rating_1.png)
+
+1. Pour composer votre message, saisissez votre texte dans les champs **[!UICONTROL Titre]**, **[!UICONTROL Message]** et **[!UICONTROL Message étendu]**.
+
+   Le texte **[!UICONTROL Message]** s’affiche dans la vue réduite, alors que le **[!UICONTROL Message étendu]** s’affiche lorsque la notification est développée.
+
+   ![](assets/rich_push_rating_2.png)
+
+1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
+
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+
+   * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
+
+   * **[!UICONTROL Lien profond]** : les liens profonds sont des URL qui orientent les personnes vers des sections spécifiques d’une application, même si celle-ci est fermée. Après un clic, une boîte de dialogue s’affiche, permettant aux utilisateurs et aux utilisatrices de choisir parmi différentes applications capables de gérer le lien.
+
+   * **[!UICONTROL Ouvrir l’application]** : les URL d’ouverture de l’application vous permettent de vous connecter directement au contenu d’une application. Cela permet à votre application de se définir elle-même comme gestionnaire par défaut d’un type spécifique de lien, sans boîte de dialogue de choix.
+
+   Pour plus d’informations sur la gestion de liens d’applications Android, consultez la [documentation de développement Android](https://developer.android.com/training/app-links).
+
+1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à lui ajouter et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
+
+1. Ajoutez votre **[!UICONTROL icône Évaluation dans l’état non sélectionné]** et l’ **[!UICONTROL icône Évaluation dans l’état sélectionné]** des URL.
+
+   ![](assets/rich_push_rating_3.png)
+
+1. Cliquez sur **[!UICONTROL Ajouter une évaluation]** et saisissez votre **[!UICONTROL URI de lien]** et **[!UICONTROL Type de lien]**.
+
+   Veillez à inclure un minimum de trois évaluations et un maximum de cinq évaluations.
+
+   ![](assets/rich_push_rating_4.png)
+
+1. Gérez l’ordre de vos images à l’aide des flèches haut et bas.
+
+1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
+
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+
+>[!TAB Timer]
+
+1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Timer]**.
+
+   ![](assets/rich_push_timer_1.png)
+
+1. Pour composer votre message, saisissez votre texte dans les champs **[!UICONTROL Titre]** et **[!UICONTROL Message]**.
+
+   Utilisez les champs de personnalisation dynamiques pour définir le contenu, personnaliser les données et ajouter du contenu dynamique. [En savoir plus](../personalization/personalize.md)
+
+   ![](assets/rich_push_timer_2.png)
+
+1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
+
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+
+   * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
+
+   * **[!UICONTROL Lien profond]** : les liens profonds sont des URL qui orientent les personnes vers des sections spécifiques d’une application, même si celle-ci est fermée. Après un clic, une boîte de dialogue s’affiche, permettant aux utilisateurs et aux utilisatrices de choisir parmi différentes applications capables de gérer le lien.
+
+   * **[!UICONTROL Ouvrir l’application]** : les URL d’ouverture de l’application vous permettent de vous connecter directement au contenu d’une application. Cela permet à votre application de se définir elle-même comme gestionnaire par défaut d’un type spécifique de lien, sans boîte de dialogue de choix.
+
+   Pour plus d’informations sur la gestion de liens d’applications Android, consultez la [documentation de développement Android](https://developer.android.com/training/app-links).
+
+   ![](assets/rich_push_timer_3.png)
+
+1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à lui ajouter et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
+
+1. Définissez la **[!UICONTROL durée du minuteur]** en secondes ou l’**[!UICONTROL horodatage de fin du minuteur]** sur un horodatage d’époque spécifique.
+
+   ![](assets/rich_push_timer_4.png)
+
+1. Saisissez le texte et l’image qui s’afficheront une fois le minuteur expiré dans les champs **[!UICONTROL Autre titre]**, **[!UICONTROL Autre message]**, **[!UICONTROL Autre message étendu]** et **[!UICONTROL Autre image de lancement]**.
+
+   ![](assets/rich_push_timer_5.png)
+
+1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
+
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+
+>[!TAB Zéro bezel]
+
+1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Zero Bezel]**.
+
+   ![](assets/rich_push_bezel_1.png)
+
+1. Pour composer votre message, saisissez votre texte dans les champs **[!UICONTROL Titre]**, **[!UICONTROL Message]** et **[!UICONTROL Message étendu]**.
+
+   Le texte **[!UICONTROL Message]** s’affiche dans la vue réduite, alors que le **[!UICONTROL Message étendu]** s’affiche lorsque la notification est développée.
+
+   ![](assets/rich_push_bezel_2.png)
+
+1. Utilisez les champs de personnalisation dynamiques pour définir le contenu, personnaliser les données et ajouter du contenu dynamique. [En savoir plus](../personalization/personalize.md)
+
+1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
+
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+
+   * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
+
+   * **[!UICONTROL Lien profond]** : les liens profonds sont des URL qui orientent les personnes vers des sections spécifiques d’une application, même si celle-ci est fermée. Après un clic, une boîte de dialogue s’affiche, permettant aux utilisateurs et aux utilisatrices de choisir parmi différentes applications capables de gérer le lien.
+
+   * **[!UICONTROL Ouvrir l’application]** : les URL d’ouverture de l’application vous permettent de vous connecter directement au contenu d’une application. Cela permet à votre application de se définir elle-même comme gestionnaire par défaut d’un type spécifique de lien, sans boîte de dialogue de choix.
+
+   Pour plus d’informations sur la gestion de liens d’applications Android, consultez la [documentation de développement Android](https://developer.android.com/training/app-links).
+
+1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à lui ajouter et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
+
+   ![](assets/rich_push_bezel_3.png)
+
+1. Choisissez le **[!UICONTROL style de notification réduite]** pour votre notification, que la notification affiche principalement une image ou du texte.
+
+1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
+
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+
 >[!ENDTABS]
 
 ## Paramètres avancés des notifications push {#push-advanced}
@@ -176,6 +426,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 | **[!UICONTROL Couleur de l’icône]** | Définissez la couleur de votre icône avec vos codes couleur hexadécimaux. |
 | **[!UICONTROL Couleur du titre]** | Définissez la couleur de votre titre avec vos codes couleur hexadécimaux. |
 | **[!UICONTROL Couleur du texte de message]** | Définissez la couleur de votre texte de message avec vos codes couleur hexadécimaux. |
+| **[!UICONTROL Couleur du minuteur]** | Définissez la couleur de votre minuteur avec vos codes couleur hexadécimaux. |
 | **[!UICONTROL Couleur d’arrière-plan de la notification]** | Définissez la couleur de votre arrière-plan de notification avec vos codes couleur hexadécimaux. |
 | **[!UICONTROL Son]** | Définissez le son à émettre lorsque l’appareil reçoit votre notification. |
 | **[!UICONTROL Nombre de notifications]** | Définissez le nombre de nouvelles informations non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur ou à l’utilisatrice de voir rapidement le nombre de notifications en attente. |

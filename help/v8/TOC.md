@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
+source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '734'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,9 @@ ht-degree: 100%
    + Notifications push {#push}
       + [Prise en main des notifications push](push/gs-push.md)
       + [Créer une diffusion notification push](push/create-push.md)
-      + [Créer une diffusion de notification push Android enrichie](push/rich-push.md)
+      + Push riche {#rich-push}
+         + [Créer une diffusion de notification push Android enrichie](push/rich-push.md)
+         + [Concevoir une diffusion push iOS enrichie](push/rich-push-ios.md)
       + [Concevoir une diffusion de notification push](push/content-push.md)
       + [Prévisualiser et envoyer une diffusion push](push/send-push.md)
    + SMS {#sms}
