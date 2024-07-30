@@ -2,7 +2,7 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 99%
@@ -52,7 +52,6 @@ Vous pouvez désormais envoyer des notifications push enrichies. La notification
 ### Améliorations {#improvements-24-7}
 
 **Gestion des dossiers** : vous pouvez désormais gérer les autorisations et les restrictions sur les dossiers.
-
 
 ## Notes de mise à jour de juin {#24-6-release}
 
