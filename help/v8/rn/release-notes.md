@@ -2,9 +2,9 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1939'
 ht-degree: 97%
 
 ---
@@ -44,6 +44,8 @@ Un **groupe de pièges** est une liste d&#39;adresses de contrôle. Elle est uti
 ### Modèles de notifications push enrichies {#24-7-3}
 
 Vous pouvez désormais envoyer des notifications push enrichies. La notification push enrichie est une forme améliorée de notification mobile qui va au-delà des messages texte simples en incorporant des éléments multimédias tels que des images, des boutons interactifs ou d’autres contenus multimédias enrichis. Avec cette version, un ensemble de modèles pour les notifications push enrichies est désormais disponible pour vos applications iOS et Android.
+
+[En savoir plus](../push/rich-push.md)
 
 >[!AVAILABILITY]
 >
