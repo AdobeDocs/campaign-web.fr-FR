@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 >id="acw_deliveries_email_options"
 >title="Modifier le tracking"
 >abstract="Par défaut, le tracking est activé pour la diffusion, ce qui signifie que tous les liens inclus dans le contenu du message sont suivis. Vous pouvez désactiver cette option à partir d’ici."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Ajouter des liens et suivre les messages"
+>additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Ajouter des liens et suivre les messages"
 
 La fenêtre **[!UICONTROL Modifier le contenu]** de l’e-mail vous permet d’effectuer les opérations suivantes :
 
@@ -73,7 +73,7 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez votre objet directement dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter [personnalisation](../personalization/personalize.md) à l’aide de divers attributs et fragments d’expression, ou offres.
+1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter des éléments de [personnalisation](../personalization/personalize.md) à l’aide de divers attributs, fragments d’expression ou offres.
 
 1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]** puis sélectionnez un ou plusieurs fichiers.
 

@@ -6,7 +6,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenu SMS"
->abstract="Créez le contenu de vos diffusions SMS et personnalisez-le avec des champs de personnalisation, des fragments d&#39;expression et du contenu dynamique. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu**."
+>abstract="Créez le contenu de vos diffusions SMS et personnalisez-le avec des champs de personnalisation, des fragments d’expression et du contenu dynamique. Pour commencer à composer votre message, cliquez sur le bouton **Modifier le contenu**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -26,7 +26,7 @@ Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :
 
 1. Dans votre page de diffusion, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour concevoir le contenu de votre SMS.
 
-1. Sur la page **[!UICONTROL Modifier le contenu]**, vous pouvez personnaliser le nom de l’expéditeur ou expéditrice en accédant au **[!UICONTROL champ Expéditeur]** et en saisissant le nom souhaité.
+1. Sur la page **[!UICONTROL Modifier le contenu]**, vous pouvez personnaliser le nom de l’expéditeur ou expéditrice en accédant au **[!UICONTROL champ Expéditeur ou expéditrice]** et en saisissant le nom souhaité.
 
    En outre, en cliquant sur **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, vous pouvez inclure des champs de personnalisation, des fragments d’expression et du contenu dynamique dans votre message.
 

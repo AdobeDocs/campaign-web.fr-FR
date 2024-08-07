@@ -7,7 +7,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 64%
 >
 >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
-Vous pouvez utiliser un fragment visuel dans une [diffusion e-mail](../email/get-started-email-designer.md) ou dans un [modèle de contenu](../email/use-email-templates.md). Les étapes sont détaillées ci-dessous. [Découvrez comment créer et gérer des fragments de contenu](fragments.md).
+Vous pouvez utiliser un fragment visuel dans une [diffusion e-mail](../email/get-started-email-designer.md) ou dans un [modèle de contenu](../email/use-email-templates.md). Les étapes sont détaillées ci-dessous. [Découvrez comment créer et gérer des fragments de contenu.](fragments.md)
 
 ![](assets/fragments.gif)
 
-## Utilisation d’un fragment visuel {#use-fragment}
+## Utiliser un fragment visuel {#use-fragment}
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
@@ -30,7 +30,7 @@ Vous pouvez utiliser un fragment visuel dans une [diffusion e-mail](../email/get
 
 <!-- pas vu dans l'UI-->
 
-Pour insérer un fragment visuel dans un contenu d’email, procédez comme suit :
+Pour insérer un fragment visuel dans le contenu d’un e-mail, procédez comme suit :
 
 1. Ouvrez un contenu d’e-mail ou de modèle à l’aide du [Concepteur d’e-mail](../email/get-started-email-designer.md).
 
@@ -46,11 +46,11 @@ Pour insérer un fragment visuel dans un contenu d’email, procédez comme suit
 
    >[!NOTE]
    >
-   >Les fragments sont triés par date de création : les fragments récemment ajoutés sont affichés en premier dans la liste.
+   >Les fragments sont triés par date de création : les fragments récemment ajoutés sont affichés en premier dans la liste.
 
    Si des fragments visuels ont été modifiés ou ajoutés pendant que vous modifiez votre contenu, cliquez sur l’icône **Actualiser** pour mettre à jour la liste avec les dernières modifications.
 
-1. Faites glisser et déposez tout fragment visuel de la liste dans la zone où vous souhaitez l’insérer. Comme tout autre composant, vous pouvez déplacer le fragment dans votre contenu.
+1. Faites glisser un fragment visuel de la liste et déposez-le dans la zone où vous souhaitez l’insérer. Comme tout autre composant, vous pouvez déplacer le fragment dans votre contenu.
 
 1. Sélectionnez le fragment pour afficher ses options dans le volet de droite.
 
@@ -67,7 +67,7 @@ Pour insérer un fragment visuel dans un contenu d’email, procédez comme suit
 
    Vous pouvez également supprimer le fragment de votre contenu ou le dupliquer. Ces actions peuvent être effectuées directement à partir du menu contextuel qui s’affiche au-dessus du fragment.
 
-1. Ajoutez autant de fragments visuels que vous le souhaitez et **[!UICONTROL Enregistrez]** vos modifications.
+1. Ajoutez autant de fragments visuels que vous le souhaitez et **[!UICONTROL enregistrez]** vos modifications.
 
 ## Rompre l’héritage {#break-inheritance}
 

@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Définition des colonnes de fragments de contenu"
->abstract="Le Designer email vous permet de définir facilement la disposition de votre fragment de contenu en définissant la structure des colonnes."
+>title="Définir les colonnes du fragment de contenu"
+>abstract="Le concepteur d’e-mail permet de définir facilement la disposition du fragment de contenu en définissant la structure des colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
