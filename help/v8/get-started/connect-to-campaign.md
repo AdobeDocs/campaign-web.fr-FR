@@ -3,9 +3,9 @@ title: Se connecter à l’interface web d’Adobe Campaign
 description: Découvrir comment vous connecter à l’interface utilisateur d’Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Si vous avez accès à plusieurs environnements, y compris le panneau de contrô
 
 Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à utiliser l’interface utilisateur sur [cette page](user-interface.md).
 
-### Contrôle d&#39;accès {#access-control}
+### Contrôle d’accès {#access-control}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
@@ -87,7 +87,7 @@ Vous êtes maintenant connecté(e) à Campaign. Découvrez comment commencer à 
 
 Le contrôle d’accès peut restreindre l’accès aux objets et données des listes principales, telles que les diffusions, les destinataires ou les workflows. Ces restrictions s’appliquent également dans l’arborescence de navigation de l’explorateur. En outre, vous avez besoin d’autorisations pour créer, supprimer, dupliquer et modifier des objets à partir de l’interface utilisateur.
 
-Toutes les autorisations de Campaign web sont synchronisées avec celles de la console cliente Campaign. Seuls les administrateurs de Campaign peuvent définir et modifier les permissions utilisateur.
+Toutes les autorisations de Campaign web sont synchronisées avec celles de la console cliente Campaign. Seuls les administrateurs ou les administratrices de Campaign peuvent définir et modifier les autorisations utilisateur.
 
 Lorsque vous naviguez dans l’interface utilisateur de Campaign Web, vous pouvez accéder aux données, aux objets et aux fonctionnalités selon vos autorisations. Par exemple, si vous ne disposez pas des autorisations d’accès à un dossier, vous ne pouvez pas l’afficher. Vos autorisations ont également une incidence sur la gestion des objets et des données. Sans autorisation d’écriture pour un dossier spécifique, vous ne pouvez pas créer de diffusion dans ce dossier, même si vous pouvez l’afficher dans l’interface utilisateur.
 

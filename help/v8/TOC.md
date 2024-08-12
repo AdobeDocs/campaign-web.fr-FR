@@ -6,9 +6,9 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 93%
    + Notifications push {#push}
       + [Prise en main des notifications push](push/gs-push.md)
       + [Créer une diffusion notification push](push/create-push.md)
-      + Push riche {#rich-push}
-         + [Créer une diffusion de notification push Android enrichie](push/rich-push.md)
-         + [Concevoir une diffusion push iOS enrichie](push/rich-push-ios.md)
+      + Notification push enrichie {#rich-push}
+         + [Concevoir une diffusion de notification push Android enrichie](push/rich-push.md)
+         + [Concevoir une diffusion de notification push iOS enrichie](push/rich-push-ios.md)
       + [Concevoir une diffusion de notification push](push/content-push.md)
       + [Prévisualiser et envoyer une diffusion push](push/send-push.md)
    + SMS {#sms}
@@ -80,20 +80,20 @@ ht-degree: 93%
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
       + [Critères des alertes de diffusion](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
-   + Création de contenu dynamique {#dynamic-content}
+   + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
       + [Ajouter de la personnalisation](personalization/personalize.md)
       + [Créer du contenu conditionnel](personalization/conditions.md)
-   + Réutilisation du contenu {#manage-reusable-content}
+   + Réutiliser du contenu {#manage-reusable-content}
       + [Utiliser des modèles de contenu](email/create-email-templates.md)
       + Fragments de contenu {#fragments}
-         + [Prise en main des fragments de contenu](content/fragments.md)
-         + [Création et modification de fragments de contenu](content/create-fragment.md)
-         + [Utiliser des fragments visuels dans vos emails](content/use-visual-fragments.md)
-         + [Utilisation de fragments d’expression dans l’éditeur d’expression](content/use-expression-fragments.md)
-   + Concevoir des emails {#email-design}
+         + [Commencer avec les fragments de contenu](content/fragments.md)
+         + [Créer et modifier des fragments de contenu](content/create-fragment.md)
+         + [Utiliser des fragments visuels dans vos e-mails](content/use-visual-fragments.md)
+         + [Utiliser des fragments d’expression dans l’éditeur d’expression](content/use-expression-fragments.md)
+   + Concevoir des e-mails {#email-design}
       + [Commencer avec le concepteur d’e-mail](email/get-started-email-designer.md)
-      + Commencer à rédiger l’e-mail {#start-design}
+      + Commencer à rédiger votre e-mail {#start-design}
          + [Démarrer en partant de zéro](email/create-email-content.md)
          + [Importer le contenu des e-mails](email/existing-content.md)
          + [Coder votre propre contenu](email/code-content.md)
@@ -134,7 +134,7 @@ ht-degree: 93%
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
       + [Définir une population témoin](audience/control-group.md)
-      + [Ajouter un groupe de type piège](audience/trap-group.md)
+      + [Ajouter un groupe de recouvrements](audience/trap-group.md)
    + Utiliser des services d’abonnement {#work-with-services}
       + [Créer et gérer des services d’abonnement](audience/manage-services.md)
       + [Gérer des personnes abonnées](audience/manage-subscribers.md)

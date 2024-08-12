@@ -4,7 +4,7 @@ title: Créer une diffusion SMS
 description: Découvrez comment concevoir votre diffusion SMS.
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 

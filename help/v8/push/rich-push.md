@@ -4,13 +4,13 @@ title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3372'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Créer une diffusion de notification push Android enrichie {#rich-push}
+# Concevoir une diffusion de notification push Android enrichie {#rich-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -19,9 +19,9 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->* Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus dans la console cliente Campaign v8 [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>* Cette fonctionnalité nécessite une mise à jour vers Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus dans les [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} de la console cliente Campaign v8.
 >
->* Avant de concevoir une notification push enrichie, vous devez d’abord configurer votre connecteur V2. Consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} pour obtenir la procédure détaillée.
+>* Avant de concevoir une notification push enrichie, vous devez d’abord configurer votre connecteur V2. Consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} pour accéder à la procédure détaillée.
 
 
 Firebase Cloud Messaging vous permet de choisir entre deux types de messages :
@@ -34,25 +34,25 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 
 ## Définir le contenu de la notification {#push-message}
 
-Une fois votre diffusion push créée, vous pouvez définir son contenu à l&#39;aide de l&#39;un des modèles suivants :
+Une fois votre diffusion push créée, vous pouvez définir son contenu à l’aide d’un des modèles suivants :
 
-* **Par défaut** vous permet d’envoyer des notifications avec une simple icône et une image associée.
+* Le **modèle par défaut** vous permet d’envoyer des notifications avec une simple icône et une image associée.
 
-* **De base** peut inclure du texte, des images et des boutons dans vos notifications.
+* Le **modèle de base** peut inclure du texte, des images et des boutons dans vos notifications.
 
-* **Carrousel** vous permet d’envoyer des notifications avec du texte et plusieurs images que les utilisateurs peuvent parcourir.
+* Le **carousel** vous permet d’envoyer des notifications avec du texte et plusieurs images que les utilisateurs et utilisatrices peuvent faire défiler.
 
 * Les **boutons d’icône** vous permettent d’envoyer des notifications avec une icône et une image correspondante.
 
-* **La boîte de saisie** rassemble les entrées et les commentaires de l’utilisateur directement via la notification.
+* La **zone d’entrée** rassemble les entrées et les commentaires des utilisateurs et utilisatrices directement via la notification.
 
-* **Le catalogue de produits** affiche une variété d’images de produits.
+* Le **catalogue de produits** affiche de nombreuses images de produits.
 
-* **La notation de produit** permet aux utilisateurs de donner leur avis et d’évaluer les produits.
+* La **notation de produit** permet aux utilisateurs et utilisatrices de donner leur avis et d’évaluer les produits.
 
-* **Timer** inclut un minuteur de compte à rebours en direct dans vos notifications.
+* Le **retardateur** inclut un minuteur avec compte à rebours dynamique dans vos notifications.
 
-* **Zero Bezel** utilise toute la surface d’arrière-plan d’une image, avec du texte superposé de manière transparente.
+* Le **Zéro Bezel** utilise toute la surface d’arrière-plan d’une image, avec du texte superposé de manière transparente.
 
 Accédez aux onglets ci-dessous pour en savoir plus sur la personnalisation de ces modèles.
 
@@ -78,7 +78,7 @@ Accédez aux onglets ci-dessous pour en savoir plus sur la personnalisation de c
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
 
 >[!TAB De base]
 
@@ -128,9 +128,9 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
 
->[!TAB Carrousel]
+>[!TAB Carousel]
 
 1. Dans le menu déroulant **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL Carrousel]**.
 
@@ -177,11 +177,11 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
 
->[!TAB Boutons d’icône]
+>[!TAB Boutons d’icônes]
 
-1. Dans la liste déroulante **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL Boutons d’icône]**.
+1. Dans le menu déroulant **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL Boutons d’icônes]**.
 
    ![](assets/rich_push_icon_1.png)
 
@@ -203,9 +203,9 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL de votre **[!UICONTROL image de bouton Annuler]**.
 
-1. Cliquez sur **[!UICONTROL Ajouter une icône]** et saisissez votre **URL d&#39;image**, **[!UICONTROL URI de lien]** et choisissez votre **[!UICONTROL type de lien]**.
+1. Cliquez sur **[!UICONTROL Ajouter une icône]**, saisissez votre **URL d’image**, **[!UICONTROL URI de lien]** et choisissez votre **[!UICONTROL type de lien]**.
 
-   Veillez à inclure trois icônes au minimum et cinq icônes au maximum.
+   Veillez à inclure trois icônes minimum et cinq icônes maximum.
 
    ![](assets/rich_push_icon_3.png)
 
@@ -215,11 +215,11 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
    ![](assets/rich_push_icon_4.png)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
 
->[!TAB Zone de saisie]
+>[!TAB Zone d’entrée]
 
-1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Zone de saisie]**.
+1. Dans le menu déroulant **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Zone d’entrée]**.
 
    ![](assets/rich_push_input_1.png)
 
@@ -245,22 +245,22 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à lui ajouter et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
 
-1. Renseignez les options suivantes pour votre **boîte de saisie** :
+1. Renseignez les options suivantes pour votre **zone d’entrée** :
 
-   * **[!UICONTROL Input receiver name]** : saisissez le nom ou l’identifiant du récepteur de l’entrée.
-   * **[!UICONTROL Texte d’entrée]** : saisissez le texte de la **zone de saisie**.
-   * **[!UICONTROL Retour texte]** : saisissez le texte à afficher après une réponse.
-   * **[!UICONTROL Image de retour]** : ajoutez l’URL de l’image affichée après une réponse.
+   * **[!UICONTROL Nom du récepteur d’entrée]** : saisissez le nom ou l’identifiant du récepteur d’entrée.
+   * **[!UICONTROL Texte d’entrée]** : saisissez le texte de la **zone d’entrée**.
+   * **[!UICONTROL Texte de commentaire]** : saisissez le texte à afficher après une réponse.
+   * **[!UICONTROL Image de commentaire]** : ajoutez l’URL de l’image affichée après une réponse.
 
    ![](assets/rich_push_input_3.png)
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
 
->[!TAB Catalogue de produits]
+>[!TAB Catalogue des produits]
 
-1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Catalogue de produits]**.
+1. Dans le menu déroulant **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Catalogue des produits]**.
 
    ![](assets/rich_push_catalog_1.png)
 
@@ -288,9 +288,9 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Choisissez votre **[!UICONTROL Type d’affichage]** entre Horizontal ou Vertical.
 
-1. Renseignez les informations sur les éléments **[!UICONTROL Catalog]** .
+1. Renseignez les informations sur les produits du **[!UICONTROL Catalogue]**.
 
-   Veillez à inclure trois éléments au minimum et cinq éléments au maximum.
+   Veillez à inclure trois produits minimum et cinq produits maximum.
 
    ![](assets/rich_push_catalog_3.png)
 
@@ -298,11 +298,11 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
 
->[!TAB Évaluation des produits]
+>[!TAB Notation des produits]
 
-1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Évaluation des produits]**.
+1. Dans le menu déroulant **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Notation des produits]**.
 
    ![](assets/rich_push_rating_1.png)
 
@@ -326,13 +326,13 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à lui ajouter et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
 
-1. Ajoutez votre **[!UICONTROL icône Évaluation dans l’état non sélectionné]** et l’ **[!UICONTROL icône Évaluation dans l’état sélectionné]** des URL.
+1. Ajoutez vos URL **[!UICONTROL icône Notation dans l’état non sélectionné]** et **[!UICONTROL icône Notation dans l’état sélectionné]**.
 
    ![](assets/rich_push_rating_3.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter une évaluation]** et saisissez votre **[!UICONTROL URI de lien]** et **[!UICONTROL Type de lien]**.
+1. Cliquez sur **[!UICONTROL Ajouter une notation]** et saisissez votre **[!UICONTROL URI de lien]** et **[!UICONTROL type de lien]**.
 
-   Veillez à inclure un minimum de trois évaluations et un maximum de cinq évaluations.
+   Veillez à inclure trois notations minimum et cinq notations maximum.
 
    ![](assets/rich_push_rating_4.png)
 
@@ -340,11 +340,11 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
 
->[!TAB Timer]
+>[!TAB Retardateur]
 
-1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Timer]**.
+1. Dans le menu déroulant **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Retardateur]**.
 
    ![](assets/rich_push_timer_1.png)
 
@@ -370,21 +370,21 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à lui ajouter et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
 
-1. Définissez la **[!UICONTROL durée du minuteur]** en secondes ou l’**[!UICONTROL horodatage de fin du minuteur]** sur un horodatage d’époque spécifique.
+1. Définissez la **[!UICONTROL durée du retardateur]** en secondes ou l’**[!UICONTROL horodatage de fin du retardateur]** sur un horodatage d’époque spécifique.
 
    ![](assets/rich_push_timer_4.png)
 
-1. Saisissez le texte et l’image qui s’afficheront une fois le minuteur expiré dans les champs **[!UICONTROL Autre titre]**, **[!UICONTROL Autre message]**, **[!UICONTROL Autre message étendu]** et **[!UICONTROL Autre image de lancement]**.
+1. Saisissez le texte et l’image qui s’afficheront une fois le retardateur ayant expiré dans les champs **[!UICONTROL Autre titre]**, **[!UICONTROL Autre message]**, **[!UICONTROL Autre message étendu]** et **[!UICONTROL Autre image de lancement]**.
 
    ![](assets/rich_push_timer_5.png)
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
 
->[!TAB Zéro bezel]
+>[!TAB Zéro Bezel]
 
-1. Dans la liste déroulante **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Zero Bezel]**.
+1. Dans le menu déroulant **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Zéro Bezel]**.
 
    ![](assets/rich_push_bezel_1.png)
 
@@ -416,7 +416,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des abonnés et abonnées de test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
 
 >[!ENDTABS]
 
@@ -429,7 +429,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 | **[!UICONTROL Couleur de l’icône]** | Définissez la couleur de votre icône avec vos codes couleur hexadécimaux. |
 | **[!UICONTROL Couleur du titre]** | Définissez la couleur de votre titre avec vos codes couleur hexadécimaux. |
 | **[!UICONTROL Couleur du texte de message]** | Définissez la couleur de votre texte de message avec vos codes couleur hexadécimaux. |
-| **[!UICONTROL Couleur du minuteur]** | Définissez la couleur de votre minuteur avec vos codes couleur hexadécimaux. |
+| **[!UICONTROL Couleur du retardateur]** | Définissez la couleur de votre retardateur avec vos codes couleur hexadécimaux. |
 | **[!UICONTROL Couleur d’arrière-plan de la notification]** | Définissez la couleur de votre arrière-plan de notification avec vos codes couleur hexadécimaux. |
 | **[!UICONTROL Son]** | Définissez le son à émettre lorsque l’appareil reçoit votre notification. |
 | **[!UICONTROL Nombre de notifications]** | Définissez le nombre de nouvelles informations non lues à afficher directement sur l’icône de l’application. Cela permet à l’utilisateur ou à l’utilisatrice de voir rapidement le nombre de notifications en attente. |

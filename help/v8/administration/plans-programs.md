@@ -4,9 +4,9 @@ title: Plans et programmes
 description: Découvrir comment créer et envoyer des plans et des programmes dans Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -82,9 +82,9 @@ Vous pouvez les configurer comme suit :
 
 Vous pouvez lier une campagne à un programme de deux manières différentes :
 
-### Voie #1 : Vous avez déjà un programme et souhaitez créer une campagne qui lui est associée.
+### Méthode 1 : vous disposez déjà d’un programme et souhaitez créer une campagne qui lui est liée.
 
-Pour associer une nouvelle opération à votre programme, créez directement l&#39;opération dans le programme :
+Pour lier une nouvelle campagne à votre programme, créez directement votre campagne dans le programme :
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ Les paramètres **[!UICONTROL Dossier]** seront automatiquement renseignés avec
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### Voie #2 : vous avez déjà une campagne existante et souhaitez la lier à un programme existant
+### Méthode 2 : vous avez déjà une campagne existante et souhaitez la lier à un programme existant.
 
 Cliquez sur le bouton **[!UICONTROL Paramètres]** de la campagne que vous souhaitez lier à votre programme :
 

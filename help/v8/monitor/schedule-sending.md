@@ -4,9 +4,9 @@ title: Planifier l’envoi d’une diffusion
 description: Apprendre à planifier une diffusion
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Vous pouvez planifier l’envoi d’une diffusion. Les étapes dépendent du fai
 ## Diffusion autonome
 
 Pour les diffusions autonomes, vous pouvez planifier directement la date et l’heure.
-Voir ci-dessous des exemples pour chaque type de diffusion : email, sms, notification push.
+Consultez ci-dessous des exemples pour chaque type de diffusion : e-mail, SMS et notification push.
 
 ### E-mail {#schedule-email-standalone}
 
@@ -59,7 +59,7 @@ Pour planifier une diffusion push autonome à une date et une heure spécifiques
 
 ![](assets/schedule-push-standalone.png){zoomable="yes"}
 
-Vous pouvez également vérifier que le planning est pris en compte :
+Vous pouvez également vérifier que le planning est pris en compte :
 
 ![](assets/schedule-push-standalone-prepare.png){zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Deux types de fragments sont disponibles :
 
 ### Groupe de recouvrements {#24-7-2}
 
-Un **groupe de pièges** est une liste d&#39;adresses de contrôle. Elle est utilisée pour inclure des adresses spécifiques dans vos diffusions, puis pour cibler des profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui ne font pas partie de l’audience de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible. Vous pouvez utiliser des adresses de contrôle lors de l’envoi de BAT ou pour protéger votre liste de diffusion. [En savoir plus](../audience/trap-group.md)
+Un **groupe de recouvrements** est une liste d’adresses de contrôle. Elle est utilisée pour inclure des adresses spécifiques dans vos diffusions, puis pour cibler des profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui ne font pas partie de l’audience de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible. Vous pouvez utiliser des adresses de contrôle lors de l’envoi d’épreuves ou pour protéger votre liste de publipostage. [En savoir plus](../audience/trap-group.md)
 
 ### Modèles de notifications push enrichies {#24-7-3}
 
@@ -49,7 +49,7 @@ Vous pouvez désormais envoyer des notifications push enrichies. La notification
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus dans la console cliente Campaign v8 [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>Cette fonctionnalité nécessite une mise à jour vers Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus dans les [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} de la console cliente Campaign v8.
 
 ### Améliorations {#improvements-24-7}
 

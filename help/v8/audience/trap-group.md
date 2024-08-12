@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser un groupe de recouvrements
 description: Découvrez comment utiliser un groupe de recouvrements pour votre diffusion dans l’interface d’utilisation de Campaign Web.
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
 ht-degree: 100%
 

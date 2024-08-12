@@ -4,7 +4,7 @@ title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
 ht-degree: 100%
 

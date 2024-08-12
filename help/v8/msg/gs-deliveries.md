@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -89,9 +89,9 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
   Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau de vos messages. Vous pouvez sélectionner n’importe quel champ disponible dans la base de données de l’éditeur de personnalisation. Pour une diffusion, vous pouvez sélectionner n’importe quel champ associé au ou à la destinataire, au message ou à la diffusion. Ces attributs de personnalisation peuvent être insérés dans l’objet ou dans le corps de vos messages. [En savoir plus](../personalization/personalize.md)
 
-* Insertion de **fragments d’expression** prédéfinis
+* Insérer des **fragments d’expression** prédéfinis
 
-  Campaign est fourni avec un ensemble de fragments d&#39;expression qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. les fragments d’expression sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation. Vous pouvez également créer vos propres fragments d’expression en fonction de vos besoins. [Découvrez comment utiliser les fragments d’expression](../content/use-expression-fragments.md)
+  Campaign est fourni avec un ensemble de fragments d’expression qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Les fragments d’expression sont disponibles à partir d’une entrée dédiée dans l’éditeur de personnalisation. Vous pouvez également créer vos propres fragments d’expression en fonction de vos besoins. [Découvrez comment utiliser les fragments d’expression.](../content/use-expression-fragments.md)
 
 * Créer du **contenu conditionnel**
 

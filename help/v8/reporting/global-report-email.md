@@ -4,7 +4,7 @@ title: Rapports globaux du canal e-mail
 description: En savoir plus sur les rapports globaux du canal e-mail
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1592'
 ht-degree: 100%
 
@@ -239,7 +239,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des KPI (indicateurs cl
 
 * **[!UICONTROL Nombre total de clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Moyenne plate-forme]** : Ce taux moyen, affiché sous chaque taux (réactivité, clics distincts, et clics cumulés), est calculé sur les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
+* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés) est calculé sur les diffusions envoyées au cours des six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les épreuves sont exclues.
 +++
 
 ### Top 10 des liens les plus visités {#top10-global-report-email}

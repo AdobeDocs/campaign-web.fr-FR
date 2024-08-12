@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1636'
 ht-degree: 100%
 

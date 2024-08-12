@@ -4,7 +4,7 @@ title: Commencer avec les fragments de contenu
 description: Découvrez comment utiliser les fragments de contenu.
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
 ht-degree: 100%
 

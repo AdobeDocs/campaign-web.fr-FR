@@ -3,7 +3,7 @@ audience: end-user
 title: Ajouter des fragments d’expression dans l’éditeur d’expression
 description: Découvrez comment utiliser les fragments de contenu.
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Découvrez comment surveiller votre instance à lʼaide du journal 
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 

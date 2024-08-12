@@ -4,7 +4,7 @@ title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
