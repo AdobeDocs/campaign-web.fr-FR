@@ -3,10 +3,10 @@ audience: end-user
 title: Transition de Campaign Standard vers Adobe Campaign Web
 description: Interface d’utilisation d’Adobe Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 448b002a284b05000da80fd165b300bc24178c78
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 82%
 
 ---
 
@@ -25,30 +25,28 @@ Nous avons le plaisir de vous annoncer que les utilisateurs et les utilisatrices
 * Intégration à Adobe Experience Platform : Managed Cloud Services v8 se connecte en tout simplicité à Adobe Experience Platform, ce qui permet aux clientes et clients d’exploiter tout le potentiel de leurs données et de diffuser des campagnes personnalisées et à fort impact sur tous les canaux.
 * Interface d’utilisation et expérience cohérentes : soyez sans crainte, la transition vers Managed Cloud Services v8 ne perturbera pas votre workflow. Vous continuerez à profiter de l’interface d’utilisation et de l’expérience client dont vous avez l’habitude, ce qui garantit une courbe d’apprentissage minimale pour votre équipe.
 
-<!--
-As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
--->
-
 ## Fonctionnalités principales {#key-features}
 
-Examinons plus en détail les principales fonctionnalités offertes par Campaign v8 :
+En tant qu’utilisateur ou utilisatrice de Campaign v8, vous avez accès à la nouvelle interface de Campaign Web et à la console v8. Les données et les paramètres sont synchronisés d’un environnement à un autre. De plus, l’ensemble de vos données et paramètres déjà disponibles dans la console cliente sont visibles dans l’interface d’utilisation de Campaign Web, à partir du volet de navigation de gauche de l’explorateur. [En savoir plus](../get-started/user-interface.md#user-interface-explorer)
+
+L’interface utilisateur web de Campaign est conçue pour que les marketeurs puissent facilement créer et orchestrer leurs campagnes. Examinons plus en détail les principales fonctionnalités que l&#39;interface utilisateur web de Campaign v8 vous proposera :
 
 * Expérience moderne, conviviale et unifiée. [En savoir plus](../get-started/connect-to-campaign.md).
 * Nouvelles fonctionnalités puissantes et processus fluides. [En savoir plus](../get-started/user-interface.md)
 * Nouveau concepteur de requête simplifié et intuitif. [En savoir plus](../query/query-modeler-overview.md)
 * Fonctionnalités intégrées de gestion de campagnes cross-canal. [En savoir plus](../msg/gs-messages.md)
 * Nouvelles activités de workflow de campagne repensées. [En savoir plus](../workflows/gs-workflows.md)
-* Audience cible avec le concepteur de requête. [En savoir plus](../query/query-modeler-overview.md)
 * Création et gestion faciles de profils. [En savoir plus](../audience/about-recipients.md)
 * Filtres prédéfinis. [En savoir plus](../get-started/predefined-filters.md)
 * Convertisseur HTML pour la conception d’e-mails. [En savoir plus](../email/existing-content.md)
 * SMS avec des offres. [En savoir plus](../msg/offers.md)
 
-## Console et interface web {#console}
+La console cliente Campaign est conçue pour les administrateurs et les développeurs afin de configurer et de personnaliser leur environnement. Les fonctionnalités clés disponibles dans la console cliente Campaign sont présentées dans [cette documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
 
-En tant qu’utilisateur ou utilisatrice de Campaign v8, vous avez accès à la nouvelle interface de Campaign Web et à la console v8. Les données et les paramètres sont synchronisés d’un environnement à un autre. De plus, l’ensemble de vos données et paramètres déjà disponibles dans la console cliente sont visibles dans l’interface d’utilisation de Campaign Web, à partir du volet de navigation de gauche de l’explorateur. [En savoir plus](../get-started/user-interface.md#user-interface-explorer)
-
-Pour les fonctionnalités prises en charge et non prises en charge ainsi que l’interopérabilité entre l’interface d’utilisation de Campaign Web et la console cliente Campaign, consultez [cette page](../get-started/capability-matrix.md).
+>[!NOTE]
+>
+>En savoir plus sur les fonctionnalités prises en charge et non prises en charge et l&#39;interopérabilité entre l&#39;interface utilisateur Web de Campaign et la console cliente Campaign [ sur cette page](../get-started/capability-matrix.md)
+>
 
 ## Terminologie {#terminology}
 
@@ -61,16 +59,17 @@ La plupart des concepts sont similaires entre Campaign v8 et Campaign Standard
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* Les ressources personnalisées sont appelées **schémas**.
+* Les ressources et les ressources personnalisées sont les **schémas** et **schémas personnalisés**
 * Les messages sont appelés **diffusions**.
-* Les utilisateurs et les utilisatrices des produits sont les **opérateurs et opératrices**.
 * Les rôles sont configurés avec les **droits nommés**.
 * Les groupes de sécurité sont les **groupes d’opérateurs et d’opératrices**.
 * Les entités organisationnelles sont gérées au moyen des **autorisations de dossier**.
+* Les utilisateurs de produit sont **Opérateurs** dans la console cliente
+* La préparation de la diffusion est l’**analyse de la diffusion** dans la console cliente.
 
-## Nouveautés {#new-features}
+## Fonctionnalités spécifiques {#new-features}
 
-Pour que vous puissiez passer facilement à Campaign v8, les fonctionnalités clés de Campaign Standard ont été ajoutées à Campaign v8. Elles sont présentées dans [cette documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"}.
+Pour que vous puissiez passer facilement à Campaign v8, les fonctionnalités clés de Campaign Standard ont été ajoutées à Campaign v8. Elles sont détaillées dans [cette documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"} et ne sont disponibles que pour les utilisateurs qui passent du Campaign Standard.
 
 * **Rapports dynamiques** : les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=fr){target="_blank"}.
 
