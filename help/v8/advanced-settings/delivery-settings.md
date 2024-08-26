@@ -4,10 +4,10 @@ title: Configurer les paramètres de diffusion
 description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -286,3 +286,9 @@ Vous pouvez également personnaliser le libellé des BAT :
 
 * Utilisez l’option **[!UICONTROL Conserver le code diffusion pour le BAT]** pour associer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte.
 * Par défaut, l’objet du BAT est précédé du préfixe « BAT # », où # correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe de libellé]**.
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="Variables"
+>abstract="Variables"
