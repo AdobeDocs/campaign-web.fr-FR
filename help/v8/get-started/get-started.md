@@ -4,9 +4,9 @@ title: Commencer avec Adobe Campaign Web
 description: Commencer avec Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: be012a2412024f75f2888cb1f9c067d970fd3ca7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ En utilisant Campaign, vous pouvez :
 * **Intégrer** les canaux e-mail, mobiles, en ligne et hors ligne au parcours client
 * **Automatiser** la diffusion de messages et d&#39;offres pertinents et opportuns
 
-## Découvrez l&#39;interface utilisateur Web de Campaign {#web}
+## Découvrir l’interface d’utilisation de Campaign Web {#web}
 
 Initialement accessible uniquement par le biais d’une [console cliente](#ac-client), Campaign offre à présent une nouvelle interface utilisateur web avec une convivialité et une accessibilité accrues, ainsi qu’une nouvelle conception qui améliore considérablement votre expérience en tant que client ou cliente. Cette nouvelle interface utilisateur moderne simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform.
 
@@ -53,7 +53,7 @@ Découvrez comment vous connecter à Adobe Campaign Web sur [cette page](conne
 
 ## À propos de la console cliente Campaign {#ac-client}
 
-La console cliente est conçue pour permettre aux administrateurs et aux utilisateurs expérimentés d’effectuer leurs tâches. La console cliente Campaign est une application de navigateur installée sur votre système. Elle utilise l’API des services web pour se connecter à votre serveur d’applications Campaign.
+La console cliente est conçue pour permettre aux administrateurs et administratrices, ainsi qu’aux utilisateurs et utilisatrices possédant une bonne expérience, d’effectuer leurs tâches. La console cliente Campaign est une application de navigateur installée sur votre système. Elle utilise l’API des services web pour se connecter à votre serveur d’applications Campaign.
 
 Les données de Campaign sont stockées dans le serveur d’applications. Les données sont disponibles sur la console cliente et sur l’interface utilisateur web de Campaign. Par exemple, si vous créez un modèle de diffusion à partir de la console cliente, il est également disponible dans l’interface utilisateur web de Campaign. De même, si vous créez une diffusion e-mail dans l’interface utilisateur web de Campaign, celle-ci est également accessible sur la console cliente.
 
