@@ -3,9 +3,9 @@ audience: end-user
 title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 100%
 >id="acw_deliveries_email_audience_select"
 >title="Sélectionner une audience existante"
 >abstract="Parcourez la liste pour sélectionner une audience existante. Utilisez l&#39;icône Afficher les filtres pour filtrer la liste ou sélectionnez un dossier spécifique."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Affiner la cible"
+>abstract="Ces règles ne peuvent être modifiées que dans la console de bureau."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_target"
+>title="Cible supplémentaire"
+>abstract="Ces règles ne peuvent être modifiées que dans la console de bureau."
 
 Cette section explique comment sélectionner une audience existante lors de la définition de la population cible d’une diffusion. Lors de la définition de la cible principale d’une diffusion, vous pouvez également :
 * [Créer une audience unique](one-time-audience.md) à l’aide du concepteur de requête.
