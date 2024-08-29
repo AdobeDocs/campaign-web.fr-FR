@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les messages et les diffusions dans Adobe Campaign Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 42df1758c2d1a4eb78012c8aea8b25f1fdd50148
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Parcourez les sections ci-dessous pour découvrir comment créer et envoyer des 
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
-    <td>
+    <td align="center">
     <a href="../email/create-email.md">
     <img alt="E-mail" src="assets/do-not-localize/email.jpg">
     </a>
@@ -30,7 +30,7 @@ Parcourez les sections ci-dessous pour découvrir comment créer et envoyer des 
     </div>
     <p>
     </td>
-    <td>
+    <td align="center">
     <a href="../push/create-push.md">
       <img alt="Notifications push" src="assets/do-not-localize/push.jpg">
     </a>
@@ -39,15 +39,24 @@ Parcourez les sections ci-dessous pour découvrir comment créer et envoyer des 
     </div>
     <p>
     </td>
-    <td>
+    <td align="center">
     <a href="../sms/create-sms.md">
       <img alt="SMS" src="assets/do-not-localize/sms.jpg">
     </a>
+    </div>
     <div>
     <a href="../sms/create-sms.md"><strong>Créer des SMS</strong></a>
     </div>
     <p>
     </td>
+    <td align="center">
+    <a href="../direct-mail/gs-direct-mail.md">
+      <img alt="Notifications push" src="assets/do-not-localize/direct-mail.jpg">
+    </a>
+    <div>
+    <a href="../direct-mail/gs-direct-mail.md"><strong> Créer des messages de courrier </strong></a>
+    </div>
+    <p>
+    </td>
     </tr>
-    </table>
-
+</table>
