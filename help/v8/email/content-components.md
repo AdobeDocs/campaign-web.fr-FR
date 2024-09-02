@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser les composants de contenu du concepteur d’e-mail
 description: Découvrez comment utiliser des composants de contenu dans vos emails.
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
+source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1199'
 ht-degree: 97%
 
 ---
@@ -150,8 +150,7 @@ Utilisez le composant **[!UICONTROL HTML]** pour copier-coller les différentes 
 
 >[!IMPORTANT]
 >
->L’accès au menu Assets est limité aux utilisateurs disposant d’une licence Adobe Experience Essentials active. Si vous ne possédez pas cette licence, le menu Assets ne sera pas disponible.
-
+>L’accès au menu Assets est limité aux utilisateurs disposant d’une licence Adobe Experience Manager as a Cloud Service active. Si vous ne possédez pas cette licence, le menu Assets ne sera pas disponible.
 
 Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de votre ordinateur dans l’e-mail.
 
