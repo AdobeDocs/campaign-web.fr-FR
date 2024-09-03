@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 3086ed78ee2fe5ca3dee70fbd1ae1b92486330ca
+source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 44%
+source-wordcount: '346'
+ht-degree: 42%
 
 ---
 
@@ -42,4 +42,4 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 
 * **Captcha des landing pages** - Vous pouvez désormais ajouter des captcha pour protéger votre landing page des spams et des abus causés par les robots. Cela n’est pas intrusif pour vos clients, car il ne nécessite aucune interaction de leur part et repose sur des interactions avec votre site.
 
-* **API REST** - DESC. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.
+* **API REST** - En tant qu’utilisateur migré Campaign Standard, vous pouvez désormais utiliser les API REST pour travailler avec les messages transactionnels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.
