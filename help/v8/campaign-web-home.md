@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 89%
 
 ---
 
@@ -51,23 +51,23 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB La version de juillet est en ligne !]
+>[!TAB La version d’août est en ligne !]
 
 Découvrez les nouvelles fonctionnalités et améliorations de la version de juillet 2024 de l’interface utilisateur web d’Adobe Campaign.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Alertes de diffusion]
+>[!TAB Répartition des valeurs]
 
-Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs et d’utilisatrices de recevoir automatiquement des notifications par e-mail contenant des informations sur l’exécution de leurs diffusions.
+Lors de l&#39;accès à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ.
 
-[![Image](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![Image](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB Plans et programmes]
+>[!TAB Captcha dans les landing pages]
 
-Adobe Campaign permet de configurer la hiérarchie des dossiers des plans marketing et des programmes.
+Vous pouvez maintenant ajouter des captcha pour protéger votre landing page contre les spams et les abus causés par les robots. Cette fonctionnalité est en disponibilité limitée.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]

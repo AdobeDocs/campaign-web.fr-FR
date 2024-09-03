@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser des dossiers
 description: Découvrez comment gérer un dossier dans Adobe Campaign.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 54%
 
 ---
 
@@ -77,3 +77,33 @@ Pour supprimer un dossier, sélectionnez-le dans votre arborescence **[!UICONTRO
 Sélectionnez **[!UICONTROL Supprimer le dossier]**.
 
 ![](assets/folder_delete.png){zoomable="yes"}
+
+## Répartition des valeurs dans un dossier {#distribution-values-folder}
+
+La répartition des valeurs permet de connaître le pourcentage d’une valeur dans une colonne d’un tableau.
+
+Pour connaître la répartition des valeurs dans un dossier, procédez comme suit :
+
+Par exemple, parmi les diffusions, nous voulons connaître la distribution des valeurs de la colonne **Canal**.
+
+Pour obtenir ces informations, accédez au dossier **[!UICONTROL Diffusions]** et cliquez sur l&#39;icône **[!UICONTROL Configurer les colonnes]** .
+
+Dans la fenêtre **[!UICONTROL Configurer les colonnes]**, cliquez sur l&#39;icône **[!UICONTROL Informations]** de la colonne que vous souhaitez connaître. Cliquez ensuite sur le bouton **[!UICONTROL Répartition des valeurs]** .
+
+![](assets/values_deliveries.png){zoomable="yes"}
+
+Vous obtiendrez le pourcentage des valeurs dans la colonne **[!UICONTROL Canal]**.
+
+![](assets/values_percentage.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> Pour les colonnes comportant de nombreuses valeurs, seules les vingt premières valeurs s’affichent. Une notification **[!UICONTROL Charge partielle]** vous avertira.
+
+Vous pouvez également répartir les valeurs d’un lien.
+
+Dans la liste des attributs, cliquez sur le bouton **+** en regard du lien souhaité, comme illustré ci-dessous. Ceci ajoute le lien vers les **[!UICONTROL Colonnes de sortie]**. Vous pouvez maintenant avoir l&#39;icône **[!UICONTROL Informations]**, ce qui vous permet d&#39;afficher la distribution de ses valeurs. Si vous ne souhaitez pas conserver le lien dans les **[!UICONTROL Colonnes de sortie]**, veillez à cliquer sur le bouton **[!UICONTROL Annuler]** .
+
+![](assets/values_link.png){zoomable="yes"}
+
+Il est également possible de répartir les valeurs dans un modèle de requête. [En savoir plus ici](../query/build-query.md#distribution-of-values-in-a-query).

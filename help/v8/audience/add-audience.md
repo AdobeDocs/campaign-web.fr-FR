@@ -3,9 +3,9 @@ audience: end-user
 title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -17,16 +17,6 @@ ht-degree: 100%
 >id="acw_deliveries_email_audience_select"
 >title="Sélectionner une audience existante"
 >abstract="Parcourez la liste pour sélectionner une audience existante. Utilisez l&#39;icône Afficher les filtres pour filtrer la liste ou sélectionnez un dossier spécifique."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_refine_target"
->title="Affiner la cible"
->abstract="Ces règles ne peuvent être modifiées que dans la console de bureau."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_additional_target"
->title="Cible supplémentaire"
->abstract="Ces règles ne peuvent être modifiées que dans la console de bureau."
 
 Cette section explique comment sélectionner une audience existante lors de la définition de la population cible d’une diffusion. Lors de la définition de la cible principale d’une diffusion, vous pouvez également :
 * [Créer une audience unique](one-time-audience.md) à l’aide du concepteur de requête.
@@ -58,4 +48,4 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne reçoit pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](control-group.md)
+1. Vous pouvez également définir une population témoin afin de mesurer l’impact de vos campagnes. La population témoin ne reçoit pas le message. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](control-group.md)
