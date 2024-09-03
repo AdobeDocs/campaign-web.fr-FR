@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 802c4db04efdcac3b9251f3e40671272c79a3043
+source-git-commit: 3086ed78ee2fe5ca3dee70fbd1ae1b92486330ca
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 42%
+source-wordcount: '330'
+ht-degree: 44%
 
 ---
 
@@ -23,11 +23,8 @@ L’interface d’utilisation d’Adobe Campaign Web fournit continuellement d
 
 Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version d’août.
 
-* **Diffusion externe** - Vous pouvez désormais définir des diffusions externes et des modèles de diffusion externes, dans l’interface utilisateur web de Campaign. Avec ce mode, les messages sont générés dans un fichier d&#39;entrée qui peut être partagé avec votre fournisseur externe. Le mode Diffusion externe est le mode par défaut du canal courrier.
+**Répartition des valeurs** - Lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ. Une fenêtre contextuelle dédiée affiche le nombre et le pourcentage de chaque valeur.
 
-* **Fragments visuels** - Vous pouvez désormais archiver des fragments de contenu visuel.
-
-* **Répartition des valeurs** - Lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ. Une fenêtre contextuelle dédiée affiche le nombre et le pourcentage de chaque valeur.
 
 ### Nouvelles fonctionnalités en disponibilité limitée {#acs-24-8}
 
@@ -35,13 +32,14 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 >
 >Les fonctionnalités suivantes sont en disponibilité limitée. Celles-ci sont limitées aux clientes et clients qui effectuent la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et elles ne peuvent pas être déployées dans un autre environnement.
 >
->Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr).
+>Reportez-vous aux pages de documentation suivantes : [transition Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs Campaign Standards](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"}.
 
 * **Marque pour courrier** - Les administrateurs techniques peuvent désormais définir une ou plusieurs marques pour centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux pages de destination ainsi que les paramètres du tracking des messages. Vous pouvez maintenant créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles.
 
-* **reCaptcha** - Vous pouvez désormais utiliser le mécanisme Google reCAPTCHA pour protéger votre landing page contre les spams et les abus causés par les robots. Cela n’est pas intrusif pour vos clients, car il ne nécessite aucune interaction de leur part et repose sur des interactions avec votre site.
+* **Abonnements avec landing pages** - Vous pouvez désormais lier une landing page à un service et envoyer un message de confirmation lorsque les utilisateurs la valident.
 
-* **Abonnements avec landing pages** - Vous pouvez désormais lier une landing page à un service afin que les profils puissent s’abonner à un service spécifique lors de sa validation.
+* **Fragments visuels** - Vous pouvez désormais archiver des fragments de contenu visuel.
 
+* **Captcha des landing pages** - Vous pouvez désormais ajouter des captcha pour protéger votre landing page des spams et des abus causés par les robots. Cela n’est pas intrusif pour vos clients, car il ne nécessite aucune interaction de leur part et repose sur des interactions avec votre site.
 
-
+* **API REST** - DESC. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.
