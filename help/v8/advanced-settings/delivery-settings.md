@@ -4,10 +4,10 @@ title: Configurer les paramètres de diffusion
 description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
-workflow-type: ht
-source-wordcount: '2416'
-ht-degree: 100%
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
+workflow-type: tm+mt
+source-wordcount: '2787'
+ht-degree: 89%
 
 ---
 
@@ -288,7 +288,68 @@ Vous pouvez également personnaliser le libellé des BAT :
 * Par défaut, l’objet du BAT est précédé du préfixe « BAT # », où # correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe de libellé]**.
 
 
+
+
+## Paramètres SMTP pour la diffusion email {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="Paramètres SMTP"
+>abstract="Vous pouvez ajouter des paramètres SMTP supplémentaires à votre diffusion email."
+
+Vous pouvez ajouter des paramètres SMTP supplémentaires à votre diffusion email. Vous pouvez le faire dans l&#39;onglet SMTP des paramètres de la diffusion.
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### Encodage des caractères {#character-encoding}
+
+La section **[!UICONTROL Encodage des caractères]** vous permet de définir un encodage spécifique. Le codage par défaut est UTF-8, qui fonctionne pour la plupart des caractères. Cependant, certains fournisseurs de messagerie peuvent ne pas afficher correctement les caractères spéciaux s’ils ne prennent pas en charge le codage UTF-8 standard.
+
+Par exemple, si vous souhaitez envoyer un email avec des caractères japonais, il est préférable d’utiliser un encodage qui prend spécifiquement en charge ces caractères, de sorte que votre audience au Japon puisse tout voir correctement.
+
+Pour ce faire, activez le bouton d’activation/désactivation **[!UICONTROL Forcer l’encodage utilisé pour les messages]** et sélectionnez l’encodage approprié dans la liste qui prend en charge vos caractères spéciaux.
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### E-mails rebond {#bounce-emails}
+
+L&#39;onglet **[!UICONTROL SMTP]** des paramètres de la diffusion permet également de configurer la gestion des mails rebonds.
+
+* **[!UICONTROL Erreurs à adresse]** : si vous activez l’option **[!UICONTROL Utiliser l’adresse d’erreur par défaut définie pour le bouton d’activation/désactivation de la plateforme]**, les messages rejetés sont reçus dans la zone d’erreur par défaut de la plateforme. Si vous ne l&#39;activez pas, vous pouvez définir une adresse d&#39;erreur spécifique pour votre diffusion.
+
+* **[!UICONTROL Adresse des rebonds]** : vous pouvez également définir une autre adresse vers laquelle les e-mails de rebond non traités seront transférés. Cette adresse permet d’étudier les raisons des rebonds lorsque les e-mails n’ont pas pu être qualifiés automatiquement par l’application.
+
+Ces deux champs peuvent être personnalisés comme décrit dans [cette section](../personalization/gs-personalization.md).
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### En-têtes SMTP supplémentaires {#smtp-headers}
+
+Vous pouvez ajouter des **[!UICONTROL en-têtes SMTP]** à votre diffusion email, dans l’onglet SMTP des paramètres de la diffusion.
+
+Le script saisi dans cette fenêtre doit référencer un en-tête par ligne sous la forme nom:valeur.
+
+Les valeurs sont automatiquement encodées, si nécessaire.
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>L’ajout d’un script pour l’insertion d’en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
+
+## Ajouter des variables {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variables"
 >abstract="Variables"
+
+Vous pouvez ajouter des variables à votre diffusion, ce qui peut s’avérer utile pour le suivi. Pour ce faire, procédez comme suit :
+accédez à l’onglet **[!UICONTROL Variables]** comme illustré ci-dessous.
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+Cliquez sur le bouton **[!UICONTROL Ajouter des variables]** pour saisir les détails de votre variable, puis cliquez sur **[!UICONTROL Confirmer]** pour enregistrer vos modifications.
+
+![](assets/variables-add.png){zoomable="yes"}

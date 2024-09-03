@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Concepteur de requête"
 >abstract="Définissez des critères de filtrage pour les personnes destinataires ou toute autre dimension de ciblage issue de la base de données. Tirez parti de votre audience Adobe Experience Platform pour affiner davantage votre audience cible et maximiser l’impact de votre campagne."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Affiner la cible"
+>abstract="Ces règles ne peuvent être modifiées que dans la console cliente."
 
 L’interface utilisateur web d’Adobe Campaign comporte un concepteur de requête qui simplifie le processus de filtrage des bases de données selon différents critères. Elle assure une compatibilité totale avec les requêtes créées dans la console cliente, ce qui facilite une transition transparente vers l’interface utilisateur web.
 
@@ -38,6 +43,12 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 | **Filtrer les données de rapports** : ajoutez une règle pour filtrer les données affichées dans les rapports. [Découvrir comment utiliser les rapports](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Personnaliser les listes** : créez des règles personnalisées pour filtrer les données affichées dans les listes, telles que les personnes destinataires, les listes de diffusions, etc. [Découvrir comment filtrer les listes](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Créer du contenu conditionnel** : rendez le contenu d’un e-mail dynamique en créant des conditions qui définissent quel contenu doit être affiché pour différentes personnes destinataires, ce qui garantit des e-mails personnalisés et pertinents. [Découvrir comment créer du contenu conditionnel](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
+
+>[!NOTE]
+>
+>Lors de l’accès à un objet créé dans la console cliente où des règles ont été appliquées, comme une audience ou un filtre prédéfini, la section **[!UICONTROL Affiner la cible]** peut s’afficher. Cela signifie que des paramètres supplémentaires ont été configurés pour affiner la cible des règles. Ces paramètres ne peuvent être modifiés que dans la console.
+>
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## Interface du concepteur de requête {#interface}
 
