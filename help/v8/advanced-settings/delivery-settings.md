@@ -4,10 +4,10 @@ title: Configurer les paramètres de diffusion
 description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 78356629dc64702d81645b684350304f65b88597
+source-git-commit: 8c4e19504606ec02dd05eb4e3fbc4d21d9972860
 workflow-type: tm+mt
-source-wordcount: '2787'
-ht-degree: 89%
+source-wordcount: '2826'
+ht-degree: 88%
 
 ---
 
@@ -343,9 +343,11 @@ Les valeurs sont automatiquement encodées, si nécessaire.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variables"
->abstract="Variables"
+>abstract="Vous pouvez ajouter des variables à votre diffusion, ce qui peut s’avérer utile pour le suivi et la personnalisation. Ces variables sont accessibles à partir du contenu de votre diffusion et de vos workflows."
 
-Vous pouvez ajouter des variables à votre diffusion, ce qui peut s’avérer utile pour le suivi. Pour ce faire, accédez à l’onglet **[!UICONTROL Variables]** comme illustré ci-dessous.
+Vous pouvez ajouter des variables à votre diffusion, ce qui peut s’avérer utile pour le suivi et la personnalisation. Ces variables sont accessibles à partir du contenu de votre diffusion et de vos workflows.
+
+Pour ajouter une variable, accédez à l’onglet **[!UICONTROL Variables]** comme illustré ci-dessous.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
