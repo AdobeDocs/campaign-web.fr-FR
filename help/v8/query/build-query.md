@@ -3,9 +3,9 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2212'
 ht-degree: 95%
 
 ---
@@ -30,19 +30,17 @@ Vous pouvez ajouter deux types d’éléments :
 
 ## Répartition des valeurs dans une requête {#distribution-values-query}
 
-La répartition des valeurs permet de connaître le pourcentage d’une valeur dans un champ d’un tableau. Connaître la répartition des valeurs dans une requête peut vous aider à affiner votre segmentation.
+La répartition des valeurs affiche le pourcentage de chaque valeur d&#39;un champ dans un tableau, selon les paramètres de la requête courante. Connaître la répartition des valeurs dans une requête peut vous aider à affiner votre segmentation.
 
-Pour accéder à la fonctionnalité, dans votre requête, cliquez sur le bouton de sélection d’attributs comme illustré ci-dessous. Cliquez ensuite sur l’icône **[!UICONTROL Informations]** en regard de l’attribut sélectionné. Vous pouvez y accéder au bouton **[!UICONTROL Répartition des valeurs]** .
+Pour accéder à cette option, dans votre requête, cliquez sur le bouton de sélection d&#39;attributs comme illustré ci-dessous. Cliquez ensuite sur l’icône **[!UICONTROL Informations]** en regard de l’attribut sélectionné. Vous avez accès au bouton **[!UICONTROL Répartition des valeurs]** .
 
 ![](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Pour les champs comportant de nombreuses valeurs, seules les vingt premières valeurs s’affichent. Une notification **[!UICONTROL Charge partielle]** vous avertira.
-
->[!NOTE]
+>* Pour les champs avec de nombreuses valeurs, seules les vingt premières valeurs sont affichées. Dans ce cas, une notification **[!UICONTROL Charge partielle]** vous avertit.
 >
-> La fonction **[!UICONTROL Répartition des valeurs]** est accessible dans chaque sélecteur d’attributs.
+>* L’option **[!UICONTROL Répartition des valeurs]** est accessible dans chaque sélecteur d’attributs.
 
 ## Ajouter des composants de filtrage {#filtering}
 
