@@ -7,7 +7,7 @@ exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 42%
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,11 @@ L’interface d’utilisation d’Adobe Campaign Web fournit continuellement d
 
 ## Notes de mise à jour d’août {#24-8-release}
 
-**Date de publication** : 3 septembre 2024
+**Date de publication** : 3 septembre 2024
 
 Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version d’août.
 
-**Répartition des valeurs** - Lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ. Une fenêtre contextuelle dédiée affiche le nombre et le pourcentage de chaque valeur.
+**Répartition des valeurs** : lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ. Une fenêtre contextuelle dédiée indique le nombre et le pourcentage pour chaque valeur.
 
 
 ### Nouvelles fonctionnalités en disponibilité limitée {#acs-24-8}
@@ -34,13 +34,13 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 >
 >Reportez-vous aux pages de documentation suivantes : [transition Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs Campaign Standards](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"}.
 
-* **Marque pour courrier** - Les administrateurs techniques peuvent désormais définir une ou plusieurs marques pour centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux pages de destination ainsi que les paramètres du tracking des messages. Vous pouvez maintenant créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles.
+* **Branding du publipostage direct** : les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux pages de destination ainsi que les paramètres du tracking des messages. Vous pouvez à présent créer ces marques et les associer à des messages ou à des pages de destination. Cette configuration est gérée dans des modèles.
 
 * **Abonnements avec landing pages** - Vous pouvez désormais lier une landing page à un service et envoyer un message de confirmation lorsque les utilisateurs la valident.
 
-* **Fragments visuels** - Vous pouvez désormais archiver des fragments de contenu visuel.
+* **Fragments visuels** : vous pouvez désormais archiver des fragments de contenu visuel.
 
-* **Captcha des landing pages** - Vous pouvez désormais ajouter des captcha pour protéger votre landing page des spams et des abus causés par les robots. Cela n’est pas intrusif pour vos clients, car il ne nécessite aucune interaction de leur part et repose sur des interactions avec votre site.
+* **Captcha des landing pages** - Vous pouvez désormais ajouter des captcha pour protéger votre landing page des spams et des abus causés par les robots. Il ne présente pas d’intrusion par rapport à votre clientèle, car il ne nécessite aucune interaction de sa part et repose sur les interactions avec votre site.
 
 * **API REST** — En tant qu’utilisateur migré Campaign Standard, vous pouvez désormais utiliser les API REST pour travailler avec les messages transactionnels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.
 
