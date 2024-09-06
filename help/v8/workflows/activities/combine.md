@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '1046'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Sélectionner le type de segmentation"
->abstract="Choisissez comment combiner des audiences : union, intersection ou exclusion."
+>abstract="Sélectionnez comment combiner des audiences. L’ **Union** vous permet de regrouper le résultat de plusieurs activités dans une seule cible. L&#39; **Intersection** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité. l’**Exclusion** permet d’exclure des éléments d’une population selon certains critères. "
 
 Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 
@@ -57,14 +57,9 @@ Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 ## Union {#combine-union}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_intersection_reconciliation_options"
->title="Options de réconciliation des interactions"
->abstract="Sélectionnez le type de réconciliation pour définir la manière dont les duplicatas sont traités :"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Options de réconciliation"
->abstract="Sélectionnez le **type de réconciliation** pour définir comment gérer les doublons."
+>abstract="Sélectionnez le **Type de réconciliation** pour définir comment gérer les doublons. Par défaut, l’option **Clés** est activée, ce qui signifie que l’activité ne conserve qu’un seul élément lorsque les éléments des différentes transitions entrantes ont la même clé. Utilisez l&#39;option **Une sélection de colonnes** pour définir la liste des colonnes sur lesquelles s&#39;applique la réconciliation des données."
 
 Dans l’activité **Combiner**, vous pouvez configurer une **Union**. Pour cela, vous devez sélectionner le **type de réconciliation** pour définir la manière dont les doublons sont traités :
 
@@ -72,6 +67,11 @@ Dans l’activité **Combiner**, vous pouvez configurer une **Union**. Pour cela
 * **Une sélection de colonnes** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles est appliquée la réconciliation des données. Vous devez d’abord sélectionner l’ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
 
 ## Intersection {#combine-intersection}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Options de réconciliation des interactions"
+>abstract="Sélectionnez le **Type de réconciliation** pour définir comment gérer les doublons. Par défaut, l’option **Clés** est activée, ce qui signifie que l’activité ne conserve qu’un seul élément lorsque les éléments des différentes transitions entrantes ont la même clé. Utilisez l&#39;option **Une sélection de colonnes** pour définir la liste des colonnes sur lesquelles s&#39;applique la réconciliation des données."
 
 Dans l’activité **Combiner**, vous pouvez configurer une **intersection**. Pour cela, suivez les étapes supplémentaires ci-dessous :
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Test
 description: Découvrez comment utiliser l’activité de workflow Test
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 8478b7101d78904b0255b728fd814a8319aa2e56
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 83%
+source-wordcount: '376'
+ht-degree: 97%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test"
 >title="Activité Test"
->abstract="L&#39;activité **Test** permet d&#39;activer des transitions en fonction de conditions spécifiées. Par défaut, l’activité présente un test booléen simple. Si la condition définie dans la transition &quot;True&quot; est remplie, cette transition sera activée. Sinon, une transition &quot;False&quot; par défaut sera activée. Vous pouvez configurer les conditions selon vos besoins."
+>abstract="L’activité **Test** est une activité de **contrôle de flux**. Il permet d’activer des transitions en fonction de conditions spécifiées."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Conditions"
->abstract="Cliquez sur le bouton **[!UICONTROL Ajouter une condition]** pour ajouter plusieurs transitions en sortie à l’activité. Lors de l’exécution du workflow, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, le workflow se poursuit sur la voie de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, les workflows s’arrêtent à ce stade."
+>abstract="L&#39;activité **Test** peut avoir plusieurs transitions en sortie. Lors de l’exécution du workflow, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, le workflow se poursuit sur la voie de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, les workflows s’arrêtent à ce stade."
 
 L’activité **Test** est une activité de **contrôle de flux**. Il permet d’activer des transitions en fonction de conditions spécifiées.
 
