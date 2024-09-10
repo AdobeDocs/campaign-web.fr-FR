@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
 ht-degree: 100%
 
