@@ -2,9 +2,9 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
+source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '477'
 ht-degree: 59%
 
 ---
@@ -23,7 +23,7 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 <table>
 <thead>
 <tr>
-<th><strong>Assistant IA dans Adobe Campaign Web - Accélérateur de contenu</strong><br/></th>
+<th><strong>Assistant d’IA - Accélérateur de contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
