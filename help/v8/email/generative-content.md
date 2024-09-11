@@ -3,7 +3,7 @@ audience: end-user
 title: Contenu génératif
 description: Prise en main de l’assistant d’IA dans Adobe Campaign Web pour l’accélération du contenu
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 65%
@@ -17,7 +17,7 @@ ht-degree: 65%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web for Content Acceleration. Pour plus d’informations, contactez votre personne représentante Adobe.
+>Vous devez accepter un [ accord utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web for Content Acceleration. Pour plus d’informations, contactez votre personne représentante Adobe.
 
 
 Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistant d’IA dans Adobe Campaign Web for Content Acceleration dans Campaign, optimisé par l’IA générative, pour passer votre contenu au niveau supérieur.
