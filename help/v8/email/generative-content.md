@@ -1,16 +1,16 @@
 ---
 audience: end-user
 title: Contenu génératif
-description: Prise en main de l’assistant d’IA dans Adobe Campaign Web pour l’accélération du contenu
+description: Prise en main de l’assistant d’IA pour l’accélération du contenu
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 65%
+source-wordcount: '1585'
+ht-degree: 66%
 
 ---
 
-# Génération d’emails à l’aide de l’assistant d’IA dans Adobe Campaign Web - Content Accelerator {#generative-content}
+# Génération d’emails avec l’assistant d’IA - Accélérateur de contenu {#generative-content}
 
 >[!IMPORTANT]
 >
