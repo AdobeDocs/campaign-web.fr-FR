@@ -4,21 +4,14 @@ title: Journal d’audit
 description: Découvrez comment surveiller votre instance à lʼaide du journal dʼaudit Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
-workflow-type: ht
-source-wordcount: '615'
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+workflow-type: tm+mt
+source-wordcount: '582'
 ht-degree: 100%
 
 ---
 
 # Journal d’audit{#audit-trail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Journal d’audit"
->abstract="La nouvelle fonctionnalité de journal d’audit fournit un enregistrement détaillé et chronologique de toutes les actions et de tous les événements qui ont été réalisés en temps réel sur votre instance Adobe Campaign."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
-
 
 Dans l’interface d’utilisation d’Adobe Campaign Web, la fonctionnalité **[!UICONTROL Journal d’audio]** offre aux utilisateurs et utilisatrices une visibilité complète de toutes les modifications apportées à des entités importantes au sein de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance.
 

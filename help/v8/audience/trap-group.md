@@ -2,8 +2,9 @@
 audience: end-user
 title: Utiliser un groupe de recouvrements
 description: Découvrez comment utiliser un groupe de recouvrements pour votre diffusion dans l’interface d’utilisation de Campaign Web.
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -12,7 +13,7 @@ ht-degree: 100%
 # Utiliser un groupe de recouvrements {#trap-group}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Groupe de recouvrements"
 >abstract="Vous pouvez utiliser un groupe de recouvrements pour inclure des adresses spécifiques dans vos diffusions afin de surveiller et vérifier le processus de distribution en ciblant les profils qui ne correspondent pas aux critères de ciblage définis."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
