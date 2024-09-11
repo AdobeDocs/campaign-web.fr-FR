@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+source-git-commit: 1b31adb5de2e2fd9d2d6a835e899b4dfc6fe22f2
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 89%
+source-wordcount: '470'
+ht-degree: 83%
 
 ---
 
@@ -51,11 +51,11 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB La version d’août est en ligne !]
+>[!TAB Assistant IA - Accélérateur de contenu]
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version de juillet 2024 de l’interface utilisateur web d’Adobe Campaign.
+Découvrez l’aperçu des fonctionnalités en direct de l’ [accélérateur de contenu d’assistant d’IA](../v8/email/generative-gs.md), conçu pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.
 
-[![Image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Répartition des valeurs]
 
