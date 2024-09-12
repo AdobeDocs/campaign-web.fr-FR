@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Prise en main de l’assistant d’IA - Accélérateur de contenu
-description: Prise en main de l’assistant d’IA - Accélérateur de contenu
+title: Prise en main de l’accélérateur de contenu de l’assistant d’IA
+description: Prise en main de l’accélérateur de contenu de l’assistant d’IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 57%
 
 ---
 
-# Utilisation de l’assistant d’IA - Accélérateur de contenu  {#generative-gs}
+# Utilisation de l’accélérateur de contenu de l’assistant d’IA  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -51,9 +51,9 @@ L’assistant IA rend la création et l’exécution de campagnes marketing sur 
 >
 >* Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web for Content Acceleration. Pour plus d’informations, contactez votre personne représentante Adobe.
 
-## Accès à l’assistant d’IA - Accélérateur de contenu {#generative-access}
+## Accès à l’accélérateur de contenu de l’assistant d’IA {#generative-access}
 
-Assistant d’IA : l’accélérateur de contenu pour les emails, les notifications push et les SMS est désormais disponible en disponibilité générale (GA) et est disponible pour tous les utilisateurs. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs sont présentées ci-dessous.
+L’accélérateur de contenu de l’assistant d’IA pour les emails, les notifications push et les SMS est désormais disponible en disponibilité générale (GA) et est disponible pour tous les utilisateurs. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs sont présentées ci-dessous.
 
 +++  Découvrez comment attribuer des autorisations liées à la génération de contenu
 

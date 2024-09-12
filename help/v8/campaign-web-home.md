@@ -3,7 +3,7 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 83%
@@ -51,7 +51,7 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!BEGINTABS]
 
->[!TAB Assistant IA - Accélérateur de contenu]
+>[!TAB Accélérateur de contenu d’assistant d’IA]
 
 ✨ Découvrez l’aperçu de nos fonctionnalités en direct [Accélérateur de contenu d’assistant d’IA](../v8/email/generative-gs.md), conçu pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.
 

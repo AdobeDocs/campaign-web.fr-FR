@@ -3,14 +3,14 @@ audience: end-user
 title: Contenu génératif
 description: Prise en main de l’assistant d’IA pour l’accélération du contenu
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 66%
 
 ---
 
-# Génération d’emails avec l’assistant d’IA - Accélérateur de contenu {#generative-content}
+# Génération d’emails avec l’accélérateur de contenu de l’assistant d’IA {#generative-content}
 
 >[!IMPORTANT]
 >
