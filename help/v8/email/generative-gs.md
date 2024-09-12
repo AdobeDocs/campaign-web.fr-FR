@@ -3,9 +3,9 @@ audience: end-user
 title: Prise en main de l’accélérateur de contenu de l’assistant d’IA
 description: Prise en main de l’accélérateur de contenu de l’assistant d’IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 57%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 57%
 
 >[!INFO]
 >
->Découvrez une expérience pratique grâce à [notre démonstration interactive ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), conçue pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.
+>Découvrez-en plus grâce à [notre aperçu des fonctionnalités en direct](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), conçu pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.
 
 
 À mesure que le secteur du marketing devient plus compétitif, les marques cherchent des moyens efficaces de générer du contenu ayant un impact de manière efficace et rapide. L’assistant d’IA dans Adobe Campaign Web for Content Acceleration, optimisé par Microsoft Azure OpenAI et Adobe Firefly, est la fonctionnalité de génération de contenu d’IA de l’Adobe qui révolutionne la manière dont les marketeurs créent du contenu professionnel et cohérent sur le plan de la marque sur plusieurs canaux tels que Email, SMS, Push. Grâce aux modèles avancés de GenAI et à une compréhension approfondie des directives de la marque, l’assistant IA génère automatiquement du contenu personnalisé, attrayant et efficace en fonction de l’objectif marketing, avec un contenu optimisé pour les styles, les mises en page, le ton et bien plus encore.
