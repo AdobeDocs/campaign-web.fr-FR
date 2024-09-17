@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -59,13 +59,13 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!TAB Répartition des valeurs]
 
-Lors de l&#39;accès à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ.
+Lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB Captcha dans les landing pages]
+>[!TAB Captcha dans les pages de destination]
 
-Vous pouvez maintenant ajouter des captcha pour protéger votre landing page contre les spams et les abus causés par les robots. Cette fonctionnalité est en disponibilité limitée.
+Vous pouvez désormais ajouter un captcha pour protéger votre page de destination contre les spams et les abus causés par les robots. Cette fonctionnalité est en disponibilité limitée.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 

@@ -7,8 +7,8 @@ description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '749'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
    + [Aide contextuelle optimisée par l’IA](get-started/-using-ai.md)
 + Messages et diffusions {#msg}
    + [Prise en main des messages](msg/gs-messages.md)
-   + [Accès aux diffusions](msg/gs-deliveries.md)
+   + [Accéder aux diffusions](msg/gs-deliveries.md)
    + [Créer une diffusion](msg/create-deliveries.md)
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
    + E-mails {#email}
