@@ -3,7 +3,7 @@ title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 

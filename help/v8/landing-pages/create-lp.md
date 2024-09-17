@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
 source-wordcount: '1619'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Pour créer une page de destination, procédez comme suit :
 
    Par défaut, les pages de destination sont stockées dans le dossier **[!UICONTROL Applications web]**. Vous pouvez le modifier en accédant à l’emplacement de votre choix dans les **[!UICONTROL Options supplémentaires]**. [Découvrir comment utiliser les dossiers](../get-started/permissions.md#folders)
 
-   Vous pouvez également configurer le captcha pour sécuriser votre landing page. [En savoir plus ici](#captcha).
+   Vous pouvez également configurer le captcha pour sécuriser votre page de destination. [En savoir plus ici](#captcha).
 
    ![](assets/lp-properties.png){zoomable="yes"}
 
@@ -158,26 +158,26 @@ Pour créer une page de destination, procédez comme suit :
 
 Une fois tous les paramètres définis et toutes les pages [conçues](lp-content.md), vous pouvez [tester](#test-landing-page) et [publier](#publish-landing-page) votre page de destination comme décrit ci-dessous.
 
-## Sécurisez votre landing page avec un captcha {#captcha}
+## Sécuriser votre page de destination avec un captcha {#captcha}
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Elle est limitée aux clients utilisant **Adobe Campaign v8.7.2 mis à niveau avec la dernière version de correctif** et ne peut pas être déployée dans un autre environnement.
+>Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients utilisant **Adobe Campaign v8.7.2 mis à niveau vers la dernière version de correctif** et ne peut pas être déployée dans un autre environnement.
 
-La mise en place d&#39;un captcha vous permet de protéger votre landing page contre les spams et les abus.
+Configurer un captcha vous permet de protéger votre page de destination contre le spam et les abus.
 
-Pour l&#39;utiliser, accédez aux **[!UICONTROL Propriétés]** de votre landing page.
-Dans les **[!UICONTROL options supplémentaires]** également. Activez le bouton d’activation/désactivation **[!UICONTROL Additional Enable captcha solution]** .
+Pour l’utiliser, accédez aux **[!UICONTROL Propriétés]** de votre page de destination.
+Dans les **[!UICONTROL Options supplémentaires]** également. Activez le bouton (bascule) **[!UICONTROL Solution supplémentaire d’activation de captcha]**.
 
 ![](assets/lp-properties-captcha.png){zoomable="yes"}
 
-Pour vérifier les paramètres du captcha, cliquez sur le bouton **[!UICONTROL Réviser et publier]** et **[!UICONTROL Simuler le contenu]**. Lors de l’envoi du formulaire, le widget captcha fonctionne pendant la validation comme ci-dessous.
+Pour vérifier les paramètres du captcha, cliquez sur le bouton **[!UICONTROL Réviser et publier]**, puis sur **[!UICONTROL Simuler le contenu]**. Lors de la soumission du formulaire, vous constatez que le widget captcha fonctionne pendant la validation comme ci-dessous.
 
 ![](assets/lp-captcha.png){zoomable="yes"}
 
 >[!NOTE]
 >
->Le widget captcha dans Adobe Campaign v8 est ALTCHA fonctionnant en mode flottant. Il apparaît pendant la validation et disparaît une fois le processus terminé.
+>Le widget captcha dans Adobe Campaign v8 est ALTCHA fonctionnant en mode flottant. Il apparaît pendant la validation et disparaît une fois le processus terminé.
 
 
 ## Tester la page de destination {#test-landing-page}

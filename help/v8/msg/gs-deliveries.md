@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Accès aux diffusions
-description: Découvrez comment accéder à vos diffusions et les gérer sur le Web de Campaign
+title: Accéder aux diffusions
+description: Découvrez comment accéder à vos diffusions et les gérer dans Campaign Web.
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
@@ -9,35 +9,35 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# Accès aux diffusions {#work-with-deliveries}
+# Accéder aux diffusions {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Diffusions"
 >abstract="Une diffusion est une communication qui est envoyée à une audience sur un canal spécifique : e-mail, SMS ou notification push. Dans cet écran, vous pouvez modifier, dupliquer et supprimer des diffusions existantes. Vous pouvez également afficher des rapports pour les diffusions terminées. Cliquez sur le bouton **Créer une diffusion** pour ajouter une nouvelle diffusion."
 
-## Accès aux diffusions {#access}
+## Accéder aux diffusions {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"
 >title="Cible supplémentaire"
 >abstract="Ces règles ne peuvent être modifiées que dans la console cliente."
 
-Les diffusions sont accessibles à partir du menu **[!UICONTROL Diffusions]** sur le volet de navigation de gauche. Toutes les diffusions créées à partir de la console cliente ou de l&#39;interface utilisateur web s&#39;affichent dans cette liste. Dans cet écran, vous pouvez surveiller toutes les diffusions existantes, les dupliquer ou les supprimer, ou en créer de nouvelles.
+Les diffusions sont accessibles à partir du menu **[!UICONTROL Diffusions]** sur le volet de navigation de gauche. Toutes les diffusions créées à partir de la console cliente ou de l’interface d’utilisation web s’affichent dans cette liste. Dans cet écran, vous pouvez surveiller toutes les diffusions existantes, les dupliquer ou les supprimer, ou en créer de nouvelles.
 
 ![](assets/deliveries-list.png)
 
-Pour ouvrir une diffusion, cliquez sur son nom dans la liste. La diffusion s&#39;ouvre, ce qui vous permet d&#39;effectuer différentes actions, comme modifier ses paramètres, vérifier son exécution ou contrôler ses performances à l&#39;aide de rapports dédiés.
+Pour ouvrir une diffusion, cliquez sur son nom dans la liste. La diffusion s’ouvre, ce qui vous permet d’effectuer différentes actions, comme modifier ses paramètres, vérifier son exécution ou surveiller ses performances à l’aide de rapports dédiés.
 
 ![](assets/delivery-details.png)
 
 >[!NOTE]
 >
->Si vous ouvrez une diffusion créée dans la console cliente, la section **[!UICONTROL Cible supplémentaire]** peut s’afficher pour l’audience. Cela signifie que plusieurs cibles ont été configurées pour cette diffusion. Ces paramètres ne peuvent être modifiés que dans la console.
+>Si vous ouvrez une diffusion créée dans la console cliente, la section **[!UICONTROL Cible supplémentaire]** peut être présentée à l’audience. Cela signifie que plusieurs cibles ont été configurées pour cette diffusion. Ces paramètres ne peuvent être modifiés que dans la console.
 >
 >![](assets/target-warning-audience.png){zoomable="yes"}
 

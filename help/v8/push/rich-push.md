@@ -4,7 +4,7 @@ title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3372'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 >[!TAB Carousel]
 
-1. Dans le menu déroulant **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL Carrousel]**.
+1. Dans le menu déroulant **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL Carousel]**.
 
    ![](assets/rich_push_carousel.png)
 

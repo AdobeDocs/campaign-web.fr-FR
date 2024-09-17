@@ -90,7 +90,7 @@ Suivez les étapes détaillées ci-dessous pour configurer l’activité **Trans
 
 1. Par défaut, pour le chargement de fichiers, les fichiers chargés sur un serveur sont automatiquement enregistrés. Si vous ne souhaitez pas conserver cet historique, désactivez l’option **[!UICONTROL Garder un historique des fichiers envoyés]**.
 
-## Paramètres d’historisation   {#historization}
+## Paramètres d’historisation {#historization}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"

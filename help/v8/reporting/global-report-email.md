@@ -4,7 +4,7 @@ title: Rapports globaux du canal e-mail
 description: En savoir plus sur les rapports globaux du canal e-mail
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 100%
 

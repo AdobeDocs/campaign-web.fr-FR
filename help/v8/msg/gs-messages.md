@@ -4,7 +4,7 @@ title: Commencer avec les messages et les diffusions dans Adobe Campaign Web
 description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de Campaign Web.
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 42df1758c2d1a4eb78012c8aea8b25f1fdd50148
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

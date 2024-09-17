@@ -2,8 +2,9 @@
 audience: end-user
 title: Concevoir une diffusion de notification push iOS enrichie
 description: Découvrez comment concevoir une diffusion de notification push iOS enrichie avec Adobe Campaign Web.
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
-workflow-type: ht
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 100%
 
@@ -87,11 +88,11 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
    ![](assets/rich_push_ios_basic_3.png)
 
-1. Dans le menu **[!UICONTROL Options de couleurs]**, saisissez des codes de couleur hexadécimaux pour la **[!UICONTROL Couleur d’arrière-plan de la notification]**, la **[!UICONTROL Couleur d’arrière-plan de la notification]** et la **[!UICONTROL Couleur du texte du message]**.
+1. Dans le menu **[!UICONTROL Options de couleurs]**, saisissez des codes de couleur hexadécimaux pour la **[!UICONTROL couleur d’arrière-plan de la notification]**, la **[!UICONTROL couleur d’arrière-plan de la notification]** et la **[!UICONTROL couleur du texte du message]**.
 
    ![](assets/rich_push_ios_basic_4.png)
 
-1. Pour une personnalisation plus poussée, explorez les options **[!UICONTROL Supplémentaires]** disponibles pour vos notifications push. [En savoir plus](#push-advanced)
+1. Pour une personnalisation plus poussée, explorez les options **[!UICONTROL supplémentaires]** disponibles pour vos notifications push. [En savoir plus](#push-advanced)
 
 1. Dans le menu **[!UICONTROL Variables de l’application]**, vos **[!UICONTROL variables d’application]** sont automatiquement ajoutées. Elles permettent de définir le comportement des notifications. Par exemple, vous pouvez configurer l’affichage d’un écran spécifique lorsqu’une personne active la notification.
 
@@ -210,4 +211,3 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 | **[!UICONTROL Thread-id]** | Définissez l’identifiant utilisé pour regrouper les notifications associées. |
 | **[!UICONTROL Catégorie]** | Définissez le nom de votre identifiant de catégorie qui affichera les boutons d’action. Ces notifications permettent à la personne d’effectuer plus rapidement différentes tâches en réponse à une notification, sans ouvrir l’application ou la parcourir. |
 | **[!UICONTROL Identifiant du contenu Target]** | Définissez un identifiant utilisé pour cibler la fenêtre d’application à afficher au premier plan à l’ouverture de la notification. |
-

@@ -6,7 +6,7 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -136,17 +136,17 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utili
 
    ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-1. Vous pouvez envoyer un message lors de l&#39;envoi de votre landing page. [En savoir plus ici](#lp-message)
+1. Vous pouvez envoyer un message lors de la soumission de votre page de destination. [En savoir plus ici](#lp-message)
 
-### Envoyer un message après envoi {#lp-message}
+### Envoyer un message après la soumission {#lp-message}
 
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
-Pour envoyer automatiquement un message de confirmation après l&#39;envoi d&#39;une landing page, procédez comme suit :
-1. Dans la section **[!UICONTROL APPELER À L’ACTION]** , cochez l’option **[!UICONTROL Envoyer un email de confirmation]** .
-1. Dans la liste déroulante associée, sélectionnez le modèle de message transactionnel qui doit être envoyé.
+Pour envoyer automatiquement un message de confirmation après la soumission d’une page de destination, procédez comme suit :
+1. Dans la section **[!UICONTROL APPEL À L’ACTION]**, cochez l’option **[!UICONTROL Envoyer un e-mail de confirmation]**.
+1. Dans la liste déroulante associée, choisissez le modèle de message transactionnel qui doit être envoyé.
 
 ![](assets/lp-confirmation.png){zoomable="yes"}
 

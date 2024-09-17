@@ -2,13 +2,13 @@
 audience: end-user
 title: Créer des fragments de contenu
 description: Découvrez comment créer des fragments de contenu.
-source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
+exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
-
 
 # Créer des fragments de contenu {#fragments}
 
@@ -141,9 +141,9 @@ Pour supprimer un fragment de contenu, procédez comme suit :
 >
 >Lors de la suppression d’un fragment de contenu, les diffusions et les modèles qui l’utilisent sont mis à jour : le fragment est supprimé du contenu, mais il est toujours référencé. Pour conserver le contenu du fragment dans ces diffusions et modèles, vous devez rompre l’héritage avant de supprimer le fragment, [comme décrit dans cette section](use-visual-fragments.md#break-inheritance).
 
-### Archivage d’un fragment de contenu {#archive}
+### Archiver un fragment de contenu {#archive}
 
-Vous pouvez nettoyer la liste des fragments à partir des fragments qui ne sont plus pertinents pour votre marque. Pour ce faire, cliquez sur le bouton **[!UICONTROL Autres actions]** en regard du fragment souhaité et sélectionnez **[!UICONTROL Archiver]**. Le fragment est supprimé de la liste des fragments, ce qui empêche les utilisateurs de l’utiliser dans de futurs emails ou modèles.
+Vous pouvez supprimer de la liste des fragments les fragments qui ne sont plus pertinents pour votre marque. Pour ce faire, cliquez sur le bouton **[!UICONTROL Autres actions]** en regard du fragment souhaité et sélectionnez **[!UICONTROL Archiver]**. Le fragment est supprimé de la liste des fragments, ce qui empêche les utilisateurs et utilisatrices de l’utiliser dans les futurs e-mails ou modèles.
 
 Pour accéder aux fragments archivés, utilisez le volet de filtrage afin de les afficher. Pour désarchiver un fragment, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Désarchiver]**.
 

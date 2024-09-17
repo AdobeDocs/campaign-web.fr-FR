@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
 workflow-type: tm+mt
 source-wordcount: '2852'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -290,32 +290,32 @@ Vous pouvez également personnaliser le libellé des BAT :
 
 
 
-## Paramètres SMTP pour la diffusion email {#smtp}
+## Paramètres SMTP pour la diffusion par e-mail {#smtp}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_smtp"
 >title="Paramètres SMTP"
->abstract="Vous pouvez ajouter des paramètres SMTP supplémentaires à votre diffusion email."
+>abstract="Vous pouvez ajouter des paramètres SMTP supplémentaires à votre diffusion par e-mail."
 
-Vous pouvez ajouter des paramètres SMTP supplémentaires à votre diffusion email. Vous pouvez le faire dans l&#39;onglet SMTP des paramètres de la diffusion.
+Vous pouvez ajouter des paramètres SMTP supplémentaires à votre diffusion par e-mail. Vous pouvez le faire dans l’onglet SMTP des paramètres de la diffusion.
 
 ![](assets/smtp_tab.png){zoomable="yes"}
 
 ### Encodage des caractères {#character-encoding}
 
-La section **[!UICONTROL Encodage des caractères]** vous permet de définir un encodage spécifique. Le codage par défaut est UTF-8, qui fonctionne pour la plupart des caractères. Cependant, certains fournisseurs de messagerie peuvent ne pas afficher correctement les caractères spéciaux s’ils ne prennent pas en charge le codage UTF-8 standard.
+La section **[!UICONTROL Encodage des caractères]** vous permet de définir un encodage spécifique. L’encodage par défaut est UTF-8, qui fonctionne pour la plupart des caractères. Cependant, certains fournisseurs de messagerie peuvent ne pas afficher correctement les caractères spéciaux s’ils ne prennent pas en charge l’encodage UTF-8 standard.
 
-Par exemple, si vous souhaitez envoyer un email avec des caractères japonais, il est préférable d’utiliser un encodage qui prend spécifiquement en charge ces caractères, de sorte que votre audience au Japon puisse tout voir correctement.
+Par exemple, si vous souhaitez envoyer un e-mail contenant des caractères japonais, il est préférable d’utiliser un encodage qui prend spécifiquement en charge ces caractères, de sorte que votre audience au Japon puisse voir tout le contenu correctement.
 
-Pour ce faire, activez le bouton d’activation/désactivation **[!UICONTROL Forcer l’encodage utilisé pour les messages]** et sélectionnez l’encodage approprié dans la liste qui prend en charge vos caractères spéciaux.
+Pour ce faire, activez le bouton (bascule) **[!UICONTROL Forcer l’encodage utilisé pour les messages]** et sélectionnez dans la liste l’encodage approprié qui prend en charge vos caractères spéciaux.
 
 ![](assets/smtp_encoding.png){zoomable="yes"}
 
-### E-mails rebond {#bounce-emails}
+### E-mails de rebond {#bounce-emails}
 
-L&#39;onglet **[!UICONTROL SMTP]** des paramètres de la diffusion permet également de configurer la gestion des mails rebonds.
+L’onglet **[!UICONTROL SMTP]** des propriétés de la diffusion vous permet également de configurer la gestion des e-mails de rebond.
 
-* **[!UICONTROL Erreurs à adresse]** : si vous activez l’option **[!UICONTROL Utiliser l’adresse d’erreur par défaut définie pour le bouton d’activation/désactivation de la plateforme]**, les messages rejetés sont reçus dans la zone d’erreur par défaut de la plateforme. Si vous ne l&#39;activez pas, vous pouvez définir une adresse d&#39;erreur spécifique pour votre diffusion.
+* **[!UICONTROL Adresse des erreurs]**  : si vous activez le bouton (bascule) **[!UICONTROL Utiliser l’adresse d’erreur par défaut de la plateforme]**, les e-mails de rebond sont réceptionnés dans la boîte d’erreur par défaut de la plateforme. Si vous ne l&#39;activez pas, vous pouvez définir une adresse d’erreur spécifique pour votre diffusion.
 
 * **[!UICONTROL Adresse des rebonds]** : vous pouvez également définir une autre adresse vers laquelle les e-mails de rebond non traités seront transférés. Cette adresse permet d’étudier les raisons des rebonds lorsque les e-mails n’ont pas pu être qualifiés automatiquement par l’application.
 
@@ -325,9 +325,9 @@ Ces deux champs peuvent être personnalisés comme décrit dans [cette section](
 
 ### En-têtes SMTP supplémentaires {#smtp-headers}
 
-Vous pouvez ajouter des **[!UICONTROL en-têtes SMTP]** à votre diffusion email, dans l’onglet SMTP des paramètres de la diffusion.
+Vous pouvez ajouter des **[!UICONTROL en-têtes SMTP]** à votre diffusion par e-mail, dans l’onglet SMTP des paramètres de la diffusion.
 
-Le script saisi dans cette fenêtre doit référencer un en-tête par ligne sous la forme nom:valeur.
+Le script saisi dans cette fenêtre doit référencer un en-tête par ligne sous la forme suivante : nom: valeur.
 
 Les valeurs sont automatiquement encodées, si nécessaire.
 
@@ -345,7 +345,7 @@ Les valeurs sont automatiquement encodées, si nécessaire.
 >title="Variables"
 >abstract="Vous pouvez ajouter des variables à votre diffusion, ce qui peut s’avérer utile pour le suivi et la personnalisation. Ces variables sont accessibles à partir du contenu de votre diffusion et de vos workflows."
 
-Vous pouvez ajouter des variables à votre diffusion, ce qui peut s’avérer utile pour le suivi et la personnalisation. Ces variables sont accessibles à partir du contenu de votre diffusion et de vos workflows. Les variables stockées sont utilisées pour définir des valeurs qui restent constantes dans tous les messages de la diffusion. Ils peuvent également être configurés dans des modèles de diffusion.
+Vous pouvez ajouter des variables à votre diffusion, ce qui peut s’avérer utile pour le suivi et la personnalisation. Ces variables sont accessibles à partir du contenu de votre diffusion et de vos workflows. Les variables stockées sont utilisées pour définir des valeurs qui restent constantes dans tous les messages de la diffusion. Elles peuvent également être configurées dans des modèles de diffusion.
 
 Pour ajouter une variable, accédez à l’onglet **[!UICONTROL Variables]** comme illustré ci-dessous.
 

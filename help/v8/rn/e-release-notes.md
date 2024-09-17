@@ -7,7 +7,7 @@ exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -32,16 +32,16 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 >
 >Les fonctionnalités suivantes sont en disponibilité limitée. Celles-ci sont limitées aux clientes et clients qui effectuent la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et elles ne peuvent pas être déployées dans un autre environnement.
 >
->Reportez-vous aux pages de documentation suivantes : [transition Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs Campaign Standards](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"}.
+>Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"}.
 
 * **Branding du publipostage direct** : les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux pages de destination ainsi que les paramètres du tracking des messages. Vous pouvez à présent créer ces marques et les associer à des messages ou à des pages de destination. Cette configuration est gérée dans des modèles.
 
-* **Abonnements avec landing pages** - Vous pouvez désormais lier une landing page à un service et envoyer un message de confirmation lorsque les utilisateurs la valident.
+* **Abonnements avec les pages de destination** : vous pouvez désormais lier une page de destination à un service, et envoyer un message de confirmation lorsque des utilisateurs ou utilisatrices la valident.
 
 * **Fragments visuels** : vous pouvez désormais archiver des fragments de contenu visuel.
 
-* **Captcha des landing pages** - Vous pouvez désormais ajouter des captcha pour protéger votre landing page des spams et des abus causés par les robots. Il ne présente pas d’intrusion par rapport à votre clientèle, car il ne nécessite aucune interaction de sa part et repose sur les interactions avec votre site.
+* **Captcha des pages de destination** : vous pouvez désormais ajouter un captcha pour protéger votre page de destination contre les spams et les abus causés par les robots. Cette action n’implique pas votre clientèle, car elle ne nécessite aucune interaction de sa part et repose sur les interactions avec votre site.
 
-* **API REST** — En tant qu’utilisateur migré Campaign Standard, vous pouvez désormais utiliser les API REST pour travailler avec les messages transactionnels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.
+* **API REST** : en tant qu’utilisateur ou utilisatrice ayant effectué la migration depuis Campaign Standard, vous pouvez désormais utiliser les API REST pour les messages transactionnels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.
 
 
