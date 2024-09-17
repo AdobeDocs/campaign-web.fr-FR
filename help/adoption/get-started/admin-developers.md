@@ -3,9 +3,9 @@ title: Commencer avec Adobe Campaign v8 pour les administrateurs et administra
 description: Ce tutoriel offre une vue d’ensemble des principales fonctionnalités administratives et de gestion des données de Campaign v8. Il est destiné aux administrateurs et administratrices et aux spécialistes du marketing technique qui migrent de Campaign Standard vers Campaign v8.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
 workflow-type: tm+mt
-source-wordcount: '2667'
+source-wordcount: '2666'
 ht-degree: 16%
 
 ---
@@ -17,7 +17,7 @@ Cette page donne un aperçu des principales fonctionnalités administratives et 
 
 Le changement majeur pour vous est l’introduction de la console cliente, l’application native qui communique avec le serveur applicatif Adobe Campaign.
 
-La console cliente Campaign centralise toutes les fonctionnalités et tous les paramètres. Il reste synchronisé avec l’interface utilisateur Web de Campaign, assurant la cohérence entre les deux environnements.
+La console cliente Campaign centralise toutes les fonctionnalités et tous les paramètres. Il est synchronisé avec l&#39;interface utilisateur Web de Campaign, assurant la cohérence entre les deux environnements.
 
 ![](assets/client_console.png){zoomable="yes"}
 
