@@ -4,7 +4,7 @@ title: Utiliser un groupe de recouvrements
 description: Découvrez comment utiliser un groupe de recouvrements pour votre diffusion dans l’interface d’utilisation de Campaign Web.
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
 source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
 ht-degree: 100%
 
