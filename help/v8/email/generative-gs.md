@@ -5,12 +5,12 @@ description: Prise en main de l’accélérateur de contenu de l’assistant d�
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '840'
+ht-degree: 58%
 
 ---
 
-# Utilisation de l’accélérateur de contenu de l’assistant d’IA  {#generative-gs}
+# Utilisation de l&#39;accélérateur de contenu de l&#39;assistant IA  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
