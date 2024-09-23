@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 99%
+source-wordcount: '1765'
+ht-degree: 98%
 
 ---
 
@@ -415,4 +415,59 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="A propos des packages"
 >abstract="A propos des packages"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="Schéma"
+>abstract="Schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="Types de schéma"
+>abstract="Types de schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="Propriétés de schéma"
+>abstract="Schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="Sélectionner un schéma existant"
+>abstract="Schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="Sélectionner une base de données externe"
+>abstract="Schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Ajouter des tables"
+>abstract="Schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="Journaux et tâches de workflow"
+>abstract="Schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="Mettez à jour la base de données"
+>abstract="Schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="Mettre à jour le script"
+>abstract="Schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="Démarrer la mise à jour de la base de données"
+>abstract="Schéma"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Ajouter des tables"
+>abstract="Schéma"
