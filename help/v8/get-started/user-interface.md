@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
 workflow-type: tm+mt
 source-wordcount: '1762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -402,18 +402,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="A propos de l&#39;instance"
->abstract="A propos de l&#39;instance"
+>title="À propos de l’instance"
+>abstract="À propos de l’instance"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="A propos du web"
->abstract="A propos du web"
+>title="À propos du web"
+>abstract="À propos du web"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
->title="A propos des packages"
->abstract="A propos des packages"
+>title="À propos des packages"
+>abstract="À propos des packages"
 
 <!--Schema-->
 
@@ -429,7 +429,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_properties"
->title="Propriétés de schéma"
+>title="Propriétés du schéma"
 >abstract="Schéma"
 
 >[!CONTEXTUALHELP]
@@ -444,12 +444,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_add_tables"
->title="Ajouter des tables"
+>title="Ajouter des tableaux"
 >abstract="Schéma"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
->title="Journaux et tâches de workflow"
+>title="Journaux et tâches du workflow"
 >abstract="Schéma"
 
 >[!CONTEXTUALHELP]

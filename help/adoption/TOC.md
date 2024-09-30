@@ -2,13 +2,13 @@
 audience: end-user
 user-guide-title: Guide d’adoption de Campaign
 title: Guide d’adoption d’Adobe Campaign
-user-guide-description: Les utilisateurs Campaign Standards qui passent à Campaign v8, découvrez comment commencer.
+user-guide-description: Utilisateurs et utilisatrices Campaign Standard qui passent à Campaign v8, découvrez comment commencer.
 description: Utilisateurs de Campaign Standard, découvrez comment commencer avec Campaign v8.
 breadcrumb-title: Guide d’adoption de Campaign
 source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 2%
+ht-degree: 34%
 
 ---
 
