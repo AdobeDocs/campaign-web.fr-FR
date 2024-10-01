@@ -10,7 +10,7 @@ ht-degree: 59%
 
 ---
 
-# Utiliser l’accélérateur de contenu de l’assistant IA  {#generative-gs}
+# Utilisation de l&#39;accélérateur de contenu de l&#39;assistant IA  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
