@@ -4,9 +4,9 @@ title: Nouveautés de l’interface utilisateur web de Campaign
 description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -72,13 +72,13 @@ Utilisez la nouvelle interface utilisateur web de Campaign pour :
 * Surveiller l’envoi et la mesure des résultats à l’aide de rapports intégrés - [En savoir plus](../reporting/delivery-reports.md)
 
 
-**Génération de contenu avec accélérateur de contenu de l’assistant d’IA**
+**Génération de contenu avec l’accélérateur de contenu de l’assistant IA**
 
-Dites adieu au problème de la création manuelle de contenu et embrassez une nouvelle ère de campagnes rationalisées avec notre concepteur de contenu innovant, optimisé par Microsoft Azure OpenAI et Adobe Firefly.
+Dites adieu à la pénibilité de la création manuelle de contenu et embarquez dans une nouvelle ère de campagnes optimisées avec notre concepteur de contenu innovant, basé sur Microsoft Azure OpenAI et Adobe Firefly.
 
-Redéfinissez la diffusion de contenu à l’aide de notre éditeur de glisser-déposer WYSIWYG avancé, conçu pour plus de simplicité et d’efficacité. Doté d’une intégration AEM transparente, de fonctionnalités de contenu dynamique et d’un accélérateur de contenu d’assistant d’IA capable de changer les jeux, cet outil tout-en-un rend la création de diffusion intuitive, efficace et hautement personnalisée.
+Redéfinissez la diffusion de contenu à l’aide de notre éditeur de glisser-déposer WYSIWYG avancé, conçu pour vous assurer plus de simplicité et d’efficacité. Bénéficiant d’une intégration transparente dans AEM, de fonctionnalités de contenu dynamique et d’un Accélérateur de contenu de l’Assistant d’IA capable de révolutionner vos habitudes, cet outil tout-en-un rend la création de diffusions intuitive, efficace et hautement personnalisée.
 
-Exploitez la puissance des algorithmes avancés de l’accélérateur de contenu de l’assistant d’IA pour créer du contenu attrayant et personnalisé qui génère des résultats. Augmentez vos taux d’ouverture, vos clics publicitaires et vos conversions grâce à une génération de contenu intelligente pilotée par l’IA. En savoir plus dans [cette section](../email/generative-gs.md).
+Exploitez la puissance des algorithmes avancés de l’accélérateur de contenu de l’assistant IA pour créer du contenu attrayant et personnalisé qui génère des résultats. Augmentez vos taux d’ouverture, vos clics publicitaires et vos conversions grâce à une génération de contenu intelligente pilotée par l’IA. En savoir plus dans [cette section](../email/generative-gs.md).
 
 **Nouvelles activités de workflow de campagne repensées**
 
@@ -121,7 +121,7 @@ Vous pouvez désormais **importer et convertir tout contenu HTML** dans l’édi
 
 **SMS avec des offres**
 
-La nouvelle interface utilisateur web de Campaign vous permet désormais d’**intégrer des offres à des SMS** en plus des e-mails. Atteignez votre audience sur ses appareils mobiles, en proposant des promotions et des notifications opportunes. Optimisez vos efforts marketing en exploitant la puissance des offres intégrées par SMS sur notre plateforme web avancée. En savoir plus dans [cette section](../msg/offers.md).
+La nouvelle interface utilisateur web de Campaign vous permet désormais d’**intégrer des offres à des SMS** en plus des e-mails. Atteignez votre audience sur ses appareils mobiles, en proposant des promotions et des notifications opportunes. Optimisez vos efforts marketing en exploitant la puissance des offres intégrées par SMS sur notre plateforme web avancée. En savoir plus dans [cette section](../msg/offers.md).
 
 ## Migrer vers l’interface utilisateur web de Campaign
 

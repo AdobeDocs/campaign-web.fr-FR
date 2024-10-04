@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 <table>
 <thead>
 <tr>
-<th><strong>Accélérateur de contenu de l’assistant AI</strong><br/></th>
+<th><strong>Accélérateur de contenu de l’assistant IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une fois que vous avez conçu et personnalisé votre message, redirigez-le vers le niveau supérieur avec l’assistant d’IA dans Adobe Campaign Web for Content Acceleration. Cet outil puissant vous permet d’optimiser l’impact de votre contenu en générant un éventail de texte engageant, de titres principaux et d’images visuellement attrayantes.</p>
-<p>Découvrez une expérience pratique avec <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">notre aperçu des fonctionnalités en direct</a>, conçu pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.</a>.</p>
+<p>Une fois que vous avez conçu et personnalisé votre message, passez au niveau supérieur avec l’assistant IA dans Adobe Campaign Web pour l’accélération de contenu. Cet outil puissant vous permet d’optimiser l’impact de votre contenu en générant un éventail de textes attirants, de grands titres et d’images visuellement attrayantes.</p>
+<p>Plongez dans une expérience pratique avec la <a href="https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator">prévisualisation de notre fonctionnalité en direct</a>, conçue pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.</a></p>
 <p>Pour plus d’informations, consultez la <a href="../email/generative-gs.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
-<p>Date de disponibilité : 12 septembre</p>
+<p>Date de disponibilité : 12 septembre</p>
 </td>
 </tr>
 </tbody>

@@ -4,7 +4,7 @@ title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1762'
 ht-degree: 100%
 
@@ -429,7 +429,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_properties"
->title="Propriétés du schéma"
+>title="Propriétés de schéma"
 >abstract="Schéma"
 
 >[!CONTEXTUALHELP]
@@ -449,12 +449,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
->title="Journaux et tâches du workflow"
+>title="Journaux et tâches de workflow"
 >abstract="Schéma"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_update"
->title="Mettez à jour la base de données"
+>title="Mettre à jour la base de données"
 >abstract="Schéma"
 
 >[!CONTEXTUALHELP]
