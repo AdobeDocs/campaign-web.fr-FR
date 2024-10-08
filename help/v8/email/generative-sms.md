@@ -1,31 +1,31 @@
 ---
 audience: end-user
-title: SMS avec l’assistant d’IA pour l’accélération du contenu
-description: Prise en main de l’assistant d’IA pour l’accélération du contenu
+title: SMS avec l’assistant IA pour l’accélération de contenu
+description: Commencer avec l’assistant IA pour l’accélération de contenu
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
-# Génération de SMS avec l’accélérateur de contenu de l’assistant d’IA {#generative-sms}
+# Génération de SMS avec l’accélérateur de contenu de l’assistant IA {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web for Content Acceleration. Pour plus d’informations, contactez votre personne représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web pour l’accélération de contenu. Pour plus d’informations, contactez votre personne représentante Adobe.
 
-Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, redirigez votre communication vers le niveau supérieur grâce à l’assistant d’IA dans Adobe Campaign Web for Content Acceleration in Campaign, optimisé par une technologie IA innovante.
+Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, améliorez votre communication grâce à l’assistant IA dans Adobe Campaign Web pour l’accélération de contenu, propulsé par une technologie d’IA innovante.
 
 Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre contenu, permettant à vos messages d’avoir un impact efficace et de maximiser l’engagement.
 
 >[!BEGINTABS]
 
->[!TAB Génération complète de SMS]
+>[!TAB Génération de SMS complet]
 
 1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -43,17 +43,17 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
    ![](assets/sms-genai-2.png){zoomable="yes"}
 
-1. Personnalisez votre invite avec l’option **[!UICONTROL Paramètres de texte]** :
+1. Adaptez votre prompt avec les options **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
    * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
-   * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
+   * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
    ![](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Télécharger une ressource de marque]** pour ajouter toute ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA ou en sélectionner une précédemment téléchargée.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
-   Les fichiers précédemment téléchargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque téléchargées]** . Il vous suffit d’activer/désactiver les ressources que vous souhaitez inclure dans votre génération.
+   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
 1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
@@ -69,7 +69,7 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
    * **[!UICONTROL Reformuler]** : l’assistant IA reformule votre message afin de continuer à proposer un contenu attrayant pour les différentes audiences.
 
-   Vous pouvez également modifier les **[!UICONTROL tons]** et la **[!UICONTROL stratégie de communication]** de votre texte.
+   Vous pouvez également modifier le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre texte.
 
    ![](assets/sms-genai-5.png){zoomable="yes"}
 
@@ -95,19 +95,19 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Personnalisez votre SMS selon vos besoins. [En savoir plus](../sms/content-sms.md)
 
-1. Accédez au menu **[!UICONTROL Assistant IA]** en regard de votre champ **[!UICONTROL Message]**.
+1. Accédez au menu **[!UICONTROL Assistant IA]** en regard de votre champ **[!UICONTROL Message]**.
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant d’IA pour l’accélération du contenu pour personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
-1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
-   Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL bibliothèque d’invites]** qui offre un large éventail d’idées d’invite pour améliorer vos campagnes.
+   Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui dispose d’un large éventail d’idées de prompts pour améliorer vos campagnes.
 
    ![](assets/sms-text-2.png){zoomable="yes"}
 
-1. Personnalisez votre invite avec l’option **[!UICONTROL Paramètres de texte]** :
+1. Adaptez votre prompt avec les options **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : sélectionnez l’approche de communication souhaitée pour le texte généré.
    * **[!UICONTROL Langue]** : choisissez la langue du contenu de la variante.
@@ -116,9 +116,9 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    ![](assets/sms-text-3.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Télécharger une ressource de marque]** pour ajouter toute ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA ou en sélectionner une précédemment téléchargée.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
-   Les fichiers précédemment téléchargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque téléchargées]** . Il vous suffit d’activer/désactiver les ressources que vous souhaitez inclure dans votre génération.
+   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
 1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
@@ -132,7 +132,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
-   Vous pouvez également modifier les **[!UICONTROL tons]** et la **[!UICONTROL stratégie de communication]** de votre texte.
+   Vous pouvez également modifier le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre texte.
 
    ![](assets/sms-text-4.png){zoomable="yes"}
 

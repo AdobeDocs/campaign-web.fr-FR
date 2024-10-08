@@ -1,21 +1,21 @@
 ---
 audience: end-user
 title: Commencer avec l’accélérateur de contenu de l’Assistant IA
-description: Prise en main de l’accélérateur de contenu de l’assistant d’IA
+description: Commencer avec l’accélérateur de contenu de l’assistant IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Utilisation de l&#39;accélérateur de contenu de l&#39;assistant IA  {#generative-gs}
+# Utiliser l’accélérateur de contenu de l’assistant IA  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Accélérateur de contenu de l’Assistant IA"
->abstract="L’assistant IA rend la création et l’exécution de campagnes marketing sur plusieurs canaux tels que les e-mails, les SMS et les notifications push, intuitifs, simples et sans accroc tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats."
+>abstract="L’assistant IA rend la création et l’exécution de campagnes marketing sur plusieurs canaux (comme les e-mails, les SMS et les notifications push) intuitives, simples et sans accroc tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 
@@ -38,31 +38,31 @@ ht-degree: 59%
 
 >[!INFO]
 >
->Découvrez-en plus grâce à [notre aperçu des fonctionnalités en direct](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), conçu pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.
+>Plongez dans une expérience pratique avec la [prévisualisation de notre fonctionnalité en direct](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator), conçue pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.
 
 
-À mesure que le secteur du marketing devient plus compétitif, les marques cherchent des moyens efficaces de générer du contenu ayant un impact de manière efficace et rapide. L’assistant d’IA dans Adobe Campaign Web for Content Acceleration, optimisé par Microsoft Azure OpenAI et Adobe Firefly, est la fonctionnalité de génération de contenu d’IA de l’Adobe qui révolutionne la manière dont les marketeurs créent du contenu professionnel et cohérent sur le plan de la marque sur plusieurs canaux tels que Email, SMS, Push. Grâce aux modèles avancés de GenAI et à une compréhension approfondie des directives de la marque, l’assistant IA génère automatiquement du contenu personnalisé, attrayant et efficace en fonction de l’objectif marketing, avec un contenu optimisé pour les styles, les mises en page, le ton et bien plus encore.
+À mesure que le secteur du marketing devient plus compétitif, les marques cherchent des moyens efficaces de générer du contenu ayant un impact de manière efficace et rapide. L’assistant IA dans Adobe Campaign Web pour l’accélération de contenu, propulsé par Microsoft Azure OpenAI et Adobe Firefly, est la fonctionnalité de génération de contenu IA d’Adobe qui révolutionne la manière dont les spécialistes du marketing créent du contenu professionnel et cohérent pour les marques, sur des canaux tels que les e-mails, les SMS et les notifications push. Grâce aux modèles avancés de GenAI et à une compréhension approfondie des directives de la marque, l’assistant IA génère automatiquement du contenu personnalisé, attrayant et efficace en fonction de l’objectif marketing, avec un contenu optimisé pour les styles, les mises en page, le ton et bien plus encore.
 
-L’assistant IA rend la création et l’exécution de campagnes marketing sur plusieurs canaux tels que les e-mails, les SMS et les notifications push, intuitifs, simples et sans accroc tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats.
+L’assistant IA rend la création et l’exécution de campagnes marketing sur plusieurs canaux (comme les e-mails, les SMS et les notifications push) intuitives, simples et sans accroc tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats.
 
 >[!IMPORTANT]
 >
 >* Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](#generative-guardrails).
 >
->* Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web for Content Acceleration. Pour plus d’informations, contactez votre personne représentante Adobe.
+>* Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web pour l’accélération de contenu. Pour plus d’informations, contactez votre personne représentante Adobe.
 
-## Accès à l’accélérateur de contenu de l’assistant d’IA {#generative-access}
+## Accéder à l’accélérateur de contenu de l’assistant IA {#generative-access}
 
-L’accélérateur de contenu de l’assistant d’IA pour les emails, les notifications push et les SMS est désormais disponible en disponibilité générale (GA) et est disponible pour tous les utilisateurs. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs sont présentées ci-dessous.
+L’accélérateur de contenu de l’assistant IA pour les e-mails, les notifications push et les SMS est désormais disponible en disponibilité générale (GA) et est disponible pour tous les utilisateurs et utilisatrices. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs et utilisatrices sont détaillées ci-dessous.
 
-+++  Découvrez comment attribuer des autorisations liées à la génération de contenu
++++  Découvrez comment attribuer des autorisations liées à la génération de contenu.
 
-1. **Créer un profil de produit** - Dans [Admin Console](https://stage.adminconsole.adobe.com/), créez un profil de produit avec le modèle spécifique suivant :
+1. **Créer un profil de produit** : dans [Admin Console](https://stage.adminconsole.adobe.com/), créez un profil de produit avec le modèle spécifique suivant :
    `Campaign - <instance-name> - AIAssistant`
 
-1. **Ajouter des utilisateurs** - Ajoutez l’utilisateur requis à ce profil de produit,
+1. **Ajouter des utilisateurs et utilisatrices** : ajoutez la personne requise à ce profil de produit,
 ou
-   **Créer un groupe d’utilisateurs** et ajoutez ce groupe d’utilisateurs au profil de produit et ajoutez des utilisateurs à ce profil de produit.
+   **Créer un groupe d’utilisateurs et d’utilisatrices** : ajoutez ce groupe d’utilisateurs et d’utilisatrices au profil de produit et ajoutez des utilisateurs et utilisatrices à ce profil de produit.
 
 Découvrez comment définir des autorisations dans Campaign dans [cette section](../get-started/permissions.md).
 
@@ -70,24 +70,24 @@ Découvrez comment définir des autorisations dans Campaign dans [cette section]
 
 ## Mécanismes de sécurisation et limitations {#generative-guardrails}
 
-Les instructions générales pour l’utilisation de l’assistant d’IA dans Adobe Campaign Web for Content Acceleration pour la génération de courriers électroniques sont répertoriées ci-dessous :
+Vous trouverez ci-dessous des instructions générales concernant l’utilisation de l’assistant IA dans Adobe Campaign Web pour l’accélération de contenu pour la génération d’e-mails :
 
 * La qualité du contenu généré est fortement influencée par l’invite/l’objectif marketing que vous définissez. Utilisez une invite bien définie pour que le modèle GenAI soit interprété avec précision. 
 * Chargez les ressources de marque pour qu’elles soient précises sur le contenu de la marque. Autrement, le contenu est basé sur des informations disponibles au public. Le contenu chargé peut se présenter dans les formats suivants : fichiers PDF, JPEG, PNG ou ZIP (avec les formats de fichiers pris en charge).
-* La taille maximale pour la ressource de marque chargée est de 50 Mo.Des fichiers plus volumineux ou de nombreuses images peuvent faire l’objet d’un traitement, mais le temps de traitement sera plus long.
-* Utilisez des [modèles de courrier électronique intégrés](../email/create-email-templates.md), un modèle spécifique à la marque ou un modèle personnalisé pour créer votre contenu d’email à l’aide de l’accélérateur de contenu. Il est recommandé d’utiliser des modèles d’email avec jusqu’à 8-10 images.
+* La taille maximale pour la ressource de marque chargée est de 50 Mo.Des fichiers plus volumineux ou de nombreuses images peuvent fonctionner, mais le temps de traitement sera plus long.
+* Utilisez des [modèles d’e-mails intégrés](../email/create-email-templates.md), un modèle de marque spécifique ou un modèle personnalisé pour créer le contenu de votre e-mail à l’aide de l’accélérateur de contenu. Il est recommandé d’utiliser des modèles d’e-mail contenant jusqu’à 8-10 images.
 * Veillez à signaler les sorties problématiques à l’aide des icônes de pouce vers le haut, de pouce vers le bas ou d’indicateur lors de la sélection de variantes.
-* Votre utilisation de l’assistant IA est soumise aux directives d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Dans le cadre de l’engagement de l’Adobe à promouvoir la transparence dans l’utilisation des outils d’IA générative dans la création de médias, l’Adobe appliquera des Contents credentials lorsque le contenu ou un projet qui incluait une ressource générée par un Firefly est téléchargé ou exporté. [En savoir plus](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* Votre utilisation de l’assistant IA est soumise aux directives d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* Dans le cadre de l’engagement d’Adobe à promouvoir la transparence dans l’utilisation d’outils d’IA générative dans la création de médias, Adobe appliquera Content Credentials (informations de traçabilité du contenu) lorsque le contenu ou un projet qui incluait une ressource générée par un Firefly est téléchargé ou exporté. [En savoir plus](https://helpx.adobe.com/fr/firefly/using/content-credentials.html)
 
-Les restrictions suivantes s’appliquent à l’assistant d’IA dans Adobe Campaign Web pour l’accélération du contenu :
+Les restrictions suivantes s’appliquent à l’assistant IA dans Adobe Campaign Web pour l’accélération de contenu :
 
-* L’assistant d’IA dans Adobe Campaign Web pour l’accélération de contenu est actuellement pris en charge en anglais uniquement. Les entrées non anglaises peuvent produire des résultats incohérents ou erronés. Les questions découlant des réponses non anglaises ne seront pas traitées ni améliorées pour le moment.
+* L’assistant IA dans Adobe Campaign Web pour l’accélération de contenu est actuellement pris en charge en anglais uniquement. Les entrées non anglaises peuvent produire des résultats incohérents ou erronés. Les questions portant sur des réponses non anglaises ne seront pas traitées ni améliorées pour le moment.
 * Uniquement disponible pour les canaux e-mail, push et SMS.
 * Il est possible que le contenu de GenAI ne soit pas toujours précis : envoyez-nous vos commentaires pour que nos ingénieures et ingénieurs puissent affiner les modèles.
 * Vous pouvez charger plusieurs ressources de marque, mais vous ne pouvez en utiliser qu’une seule pour une génération spécifique.
 
-## Fonctionnalités de génération de contenu de l’assistant IA {#generative-features}
+## Fonctionnalités de génération de contenu de l’assistant IA {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

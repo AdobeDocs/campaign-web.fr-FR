@@ -4,9 +4,9 @@ title: Créer et gérer un dossier
 description: Découvrir comment créer et gérer un dossier dans Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 440fb6d303fc70b3fd0903c485cb6b5e6d3ba0c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Dans notre exemple, nous créons un dossier dans le dossier **[!UICONTROL Diffus
 
 ![](assets/folder_new.png){zoomable="yes"}
 
-Vous pouvez modifier le type de votre dossier en cliquant sur l&#39;icône de type Dossier et vous pouvez le choisir dans la liste présentée :
+Vous pouvez modifier le type de votre dossier en cliquant sur l’icône de Type de dossier et le choisir dans la liste qui s’affiche :
 
 ![](assets/folder_type.png){zoomable="yes"}
 
