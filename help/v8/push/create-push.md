@@ -59,7 +59,7 @@ Configurez vos paramètres de diffusion comme indiqué ci-dessous :
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
->title="Définir le contenu de l’audience de la notification push."
+>title="Définir l’audience de la notification push"
 >abstract="Pour définir l’audience de votre message, vous devez d’abord sélectionner l’application associée à la diffusion par notification push. Par défaut, votre notification push est envoyée à toutes les personnes abonnées de l’application. Vous pouvez affiner une audience spécifique en cliquant sur le bouton **Sélectionner une audience**. Si nécessaire, ajoutez une population témoin pour mesurer l’impact de votre diffusion."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=fr" text="Définir une population témoin"
 
