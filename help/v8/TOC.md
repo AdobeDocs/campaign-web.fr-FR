@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 100%
          + [Ajuster l’alignement vertical et la marge intérieure](email/alignment-and-padding.md)
          + [Définir un style pour les liens](email/styling-links.md)
          + [Ajouter des attributs de style intégrés](email/inline-styling.md)
-   + Assistant IA pour l’accélérateur de contenu{#ai-assistant}
+   + Accélérateur de contenu de l’assistant AI {#ai-assistant}
       + [Utiliser l’accélérateur de contenu de l’assistant IA](email/generative-gs.md)
       + [Génération d’e-mails avec IA](email/generative-content.md)
       + [Génération de SMS avec IA](email/generative-sms.md)
@@ -142,7 +142,7 @@ ht-degree: 100%
       + [Créer et gérer des services d’abonnement](audience/manage-services.md)
       + [Gérer des personnes abonnées](audience/manage-subscribers.md)
 + Campagnes cross-canal {#campaigns}
-   + [Prise en main des campagnes](campaigns/gs-campaigns.md)
+   + [Commencer avec les campagnes](campaigns/gs-campaigns.md)
    + [Accéder aux campagnes et les gérer](campaigns/manage-campaigns.md)
    + [Créer votre première campagne](campaigns/create-campaigns.md)
    + [Plans et programmes](administration/plans-programs.md)
