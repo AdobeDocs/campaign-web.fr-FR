@@ -3,10 +3,10 @@ title: Migration des utilisateurs et utilisatrices techniques vers Adobe Develo
 description: Découvrez comment migrer la gestion des accès des utilisateurs de Campaign Standard vers Campaign V8
 feature: Technote
 role: Admin
-source-git-commit: 3e2fa429a57b967f156546ad6a4fedee8f871c25
+source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 4%
+source-wordcount: '845'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Les concepts suivants sont utilisés dans Adobe Campaign Standard et Campaign V8
 
 >[!CAUTION]
 >
->Les fonctionnalités de ces rôles/droits nommés peuvent varier dans l’implémentation, ce qui peut entraîner des problèmes d’autorisation (par exemple, l’élévation de privilèges ou des perturbations des fonctionnalités). Nous recommandons aux utilisateurs de passer en revue ces mappages après la transition afin d’assurer un contrôle d’accès correct. [En savoir plus sur les autorisations](../../v8/start/manage-permissions.md)
+>Les fonctionnalités de ces rôles/droits nommés peuvent varier dans l’implémentation, ce qui peut entraîner des problèmes d’autorisation (par exemple, l’élévation de privilèges ou des perturbations des fonctionnalités). Nous recommandons aux utilisateurs de passer en revue ces mappages après la transition afin d’assurer un contrôle d’accès correct. [En savoir plus sur les autorisations](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 Le tableau ci-dessous décrit l’approche de migration pour les groupes de rôles utilisateur lors de la transition de Adobe Campaign Standard vers Campaign V8. En Campaign Standard, un **groupe de sécurité**, appelé **groupe d’opérateurs** dans Campaign V8, est utilisé pour affecter un ensemble de rôles à un utilisateur. Bien que certains groupes de sécurité/groupes d’opérateurs soient disponibles d’usine, les utilisateurs peuvent créer de nouveaux groupes ou en modifier d’existants, si nécessaire.
 
@@ -35,7 +35,7 @@ Le tableau ci-dessous décrit l’approche de migration pour les groupes de rôl
 |---------|----------|---------|
 | **Terminologie**  | Groupe de sécurité | Groupe d’opérateurs |
 
-Dans Adobe Campaign Standard et Campaign V8, les **groupes de sécurité** et les **groupes d’opérateurs** sont mappés aux profils de produit dans Admin Console. Si vous souhaitez affecter un **groupe de sécurité** ou un **groupe d’opérateurs** à un utilisateur, vous pouvez lier le **profil de produit** correspondant dans la console d’administration. Cette association est synchronisée lorsque l’utilisateur se connecte. [En savoir plus sur le profil de produit](../../v8/start/manage-permissions.md)
+Dans Adobe Campaign Standard et Campaign V8, les **groupes de sécurité** et les **groupes d’opérateurs** sont mappés aux profils de produit dans Admin Console. Si vous souhaitez affecter un **groupe de sécurité** ou un **groupe d’opérateurs** à un utilisateur, vous pouvez lier le **profil de produit** correspondant dans la console d’administration. Cette association est synchronisée lorsque l’utilisateur se connecte. [En savoir plus sur le profil de produit](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Groupe de sécurité Campaign Standard** | **Groupe d’opérateurs Campaign V8** |
 |----------|---------|
@@ -63,7 +63,7 @@ Dans Adobe Campaign Standard, le terme **Rôle utilisateur** est appelé **Droit
 
 ## Approche de migration à partir de l’entité organisationnelle
 
-Dans Adobe Campaign Standard, l’ **entité organisationnelle** t est mappé au modèle de hiérarchie **Folder** existant dans Campaign V8 pour maintenir un contrôle d’accès similaire. [En savoir plus sur la gestion des dossiers](../../v8/start/folder-permissions.md)
+Dans Adobe Campaign Standard, l’ **entité organisationnelle** t est mappé au modèle de hiérarchie **Folder** existant dans Campaign V8 pour maintenir un contrôle d’accès similaire. [En savoir plus sur la gestion des dossiers](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
 |---------|----------|---------|
@@ -73,7 +73,7 @@ Dans Adobe Campaign Standard, l’ **entité organisationnelle** t est mappé au
 
 Dans Campaign V8, **Programmes** sont représentés sous la forme **Dossiers**. Campaign V8 permet la création de dossiers et leur limitation d&#39;accès.
 
-En utilisant les **Groupes** et les **droits nommés**, les **opérateurs** peuvent avoir accès à des **dossiers** spécifiques dans la hiérarchie de navigation, avec la possibilité d&#39;attribuer des autorisations de lecture, d&#39;écriture et de suppression. [En savoir plus sur la gestion des dossiers](../../v8/start/folder-permissions.md)
+En utilisant les **Groupes** et les **droits nommés**, les **opérateurs** peuvent avoir accès à des **dossiers** spécifiques dans la hiérarchie de navigation, avec la possibilité d&#39;attribuer des autorisations de lecture, d&#39;écriture et de suppression. [En savoir plus sur la gestion des dossiers](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 Comme un **Programme** est traité comme un **Dossier** dans Campaign V8, son accès peut être géré de la même manière que tout autre dossier. Après la migration, les administrateurs de Campaign Standard peuvent suivre les étapes suivantes :
 
