@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: ht
-source-wordcount: '1762'
-ht-degree: 100%
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+workflow-type: tm+mt
+source-wordcount: '1766'
+ht-degree: 94%
 
 ---
 
@@ -112,6 +112,17 @@ Découvrez comment créer et envoyer des offres dans des e-mails et des SMS dans
 ### Rapports {#left-nav-reporting}
 
 * **Rapports** : l’entrée **Rapport** fournit un résumé global et synthétique des mesures de trafic et d’engagement pour chaque canal de votre environnement Campaign. Ces rapports sont composés de différents widgets, chacun fournissant une perspective spécifique des performances de vos campagnes ou diffusions. En savoir plus dans [cette section](../reporting/global-reports.md).
+
+### Administration {#left-nav-admin}
+
+
+* **Suivi** - L’entrée **Suivi** offre aux utilisateurs une visibilité complète de toutes les modifications apportées à toutes les entités importantes de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance. [En savoir plus](../reporting/audit-trail.md)
+
+* **Comptes externes** - Créez de nouveaux comptes externes à l’aide de l’interface utilisateur web pour répondre à vos besoins spécifiques et garantir des transferts de données transparents. [En savoir plus](../administration/external-account.md)
+
+* **Schémas** - Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas d’usine par le biais de la console Adobe Campaign. [En savoir plus](../administration/custom-fields.md)
+
+* **Alertes de diffusion** - Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs de recevoir automatiquement des notifications par e-mail avec des informations sur leurs exécutions de diffusion. [En savoir plus](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -321,77 +332,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="Messages transactionnels"
->abstract="Messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="Propriétés des messages transactionnels"
->abstract="Propriétés des messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="Propriétés des e-mails de la messagerie transactionnelle"
->abstract="Propriétés des e-mails de la messagerie transactionnelle"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="Propriétés des SMS de la messagerie transactionnelle"
->abstract="Propriétés des SMS de la messagerie transactionnelle"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="Propriétés push de la messagerie transactionnelle"
->abstract="Propriétés push de la messagerie transactionnelle"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="Application mobile de messages transactionnels"
->abstract="Application mobile de messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="Événement des messages transactionnels"
->abstract="Événement des messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="Contexte des messages transactionnels"
->abstract="Contexte des messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="Contenu des messages transactionnels"
->abstract="Contenu des messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Personnalisation des messages transactionnels"
->abstract="Personnalisation des messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="Logs d’exclusion des messages transactionnels"
->abstract="Logs d’exclusion des messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="Contexte des messages transactionnels"
->abstract="Contexte des messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="Historique des événements des messages transactionnels"
->abstract="Historique des événements des messages transactionnels"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="Aperçu de l’historique des événements des messages transactionnels"
->abstract="Aperçu de l’historique des événements des messages transactionnels"
 
 <!--about-->
 

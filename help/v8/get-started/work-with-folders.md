@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser des dossiers
 description: Découvrez comment gérer un dossier dans Adobe Campaign.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="Planning des dossiers"
 >abstract="Planning des dossiers"
 
-## À propos des dossiers
+## À propos des dossiers {#about-folders}
 
 Dans Adobe Campaign, les dossiers sont des objets qui vous permettent d’organiser vos composants et vos données.
 
@@ -43,7 +43,7 @@ Vous pouvez créer, renommer, réorganiser et déplacer des dossiers dans l’ar
 Vous pouvez configurer un type de dossier. Par exemple : un dossier de diffusions.
 L’icône du dossier change en fonction de ce type.
 
-## Créer un dossier
+## Créer un dossier {#create-a-folder}
 
 Pour créer un dossier dans l’interface utilisateur web d’Adobe Campaign, procédez comme suit :
 
@@ -52,8 +52,7 @@ Sous le menu **[!UICONTROL ...]** se trouve **[!UICONTROL Créer un dossier]**.
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Lorsque vous créez un dossier, par défaut, le type de dossier est le type du dossier parent.
-Dans notre exemple, nous créons un dossier dans le dossier **[!UICONTROL Diffusions]**.
+Lorsque vous créez un dossier, par défaut, le type de dossier est le type du dossier parent. Dans notre exemple, nous créons un dossier dans le dossier **[!UICONTROL Diffusions]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,7 @@ Si vous souhaitez créer un dossier sans type spécifique, choisissez le type **
 
 Vous pouvez également [créer et gérer des dossiers dans la console Adobe Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-## Supprimer un dossier
+## Supprimer un dossier {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +106,11 @@ Dans la liste des attributs, cliquez sur le bouton **+** en regard du lien souha
 ![](assets/values_link.png){zoomable="yes"}
 
 Il est également possible de disposer de la répartition des valeurs dans un concepteur de requête. [En savoir plus ici](../query/build-query.md#distribution-of-values-in-a-query).
+
+### Filtrer les valeurs {#filter-values}
+
+En utilisant les **[!UICONTROL filtres avancés]** dans la fenêtre de distribution des valeurs, vous pouvez filtrer vos résultats selon des conditions spécifiées.
+
+Dans l&#39;exemple de la liste de diffusions ci-dessus, qui affiche la distribution par canal, vous pouvez, par exemple, la filtrer pour afficher uniquement les diffusions dont l&#39;état est **Terminé**.
+
+![](assets/values_filter.png){zoomable="yes"}

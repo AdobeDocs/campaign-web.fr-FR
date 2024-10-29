@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 99%
+source-wordcount: '769'
+ht-degree: 98%
 
 ---
 
@@ -65,6 +65,11 @@ ht-degree: 99%
       + [Créer une diffusion par courrier](direct-mail/create-direct-mail.md)
       + [Concevoir le fichier d’extraction](direct-mail/content-direct-mail.md)
       + [Prévisualiser et envoyer une diffusion par courrier](direct-mail/send-direct-mail.md)
+   + Messages transactionnels {#transactional-messages}
+      + [Prise en main des messages transactionnels](transactional-messaging/transactional.md)
+      + [Créer un message transactionnel](transactional-messaging/create-transactional.md)
+      + [Valider votre message transactionnel](transactional-messaging/validate-transactional.md)
+      + [Surveillance des messages transactionnels](transactional-messaging/monitor-transactional.md)
    + [Ajouter des offres à vos messages](msg/offers.md)
    + [Envoyer des messages à vos personnes abonnées](msg/send-to-subscribers.md)
    + [Configurer les paramètres de diffusion](advanced-settings/delivery-settings.md)
@@ -218,4 +223,5 @@ ht-degree: 99%
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
    + [Configurer des champs personnalisés](administration/custom-fields.md)
+   + [Configuration des comptes externes](administration/external-account.md)
 + [Documentation de Campaign v8 (console) >](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home)

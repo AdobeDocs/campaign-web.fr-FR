@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
+source-git-commit: 0f60fdce8050991e086875c055563087f8a221d1
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 100%
+source-wordcount: '1189'
+ht-degree: 87%
 
 ---
 
@@ -48,21 +48,27 @@ La barre d’outils située dans le coin supérieur droit de la zone de travail 
 
 ## Gérer des activités {#manage}
 
-Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le panneau des propriétés, vous permettant d’effectuer plusieurs opérations. Vous pouvez ainsi :
+Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le volet des propriétés, ce qui vous permet d’effectuer plusieurs opérations.
+
+![](assets/activity-action.png){zoomable="yes"}
+
+Vous pouvez ainsi :
 
 * **Supprimer** l’activité à partir de la zone de travail.
 * **Désactivez/activez** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités qui suivent sur le même chemin ne sont pas exécutées et le workflow est arrêté.
-* **Copiez** l’activité. Consultez [cette section](#copy).
-* Accédez aux **Journaux et tâches** de l’activité.
 * **Mettez en pause/Reprenez** l’activité. Lorsque le workflow est exécuté, il s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
-
-![](assets/activity-action.png){zoomable="yes"}{width="50%"}
+* **Copiez** l’activité. Consultez [cette section](#copy).
+* **Déplacer** une activité et tous ses noeuds enfants vers une autre transition. Voir [cette section](#move)
+* Accédez aux **options d’exécution** de l’activité.
+* Accédez aux **Journaux et tâches** de l’activité.
 
 Plusieurs activités de **Ciblage**, telles que **Combiner** ou **Déduplication**, vous permettent de traiter la population restante et de l’inclure dans une transition de sortie supplémentaire. Par exemple, si vous utilisez une activité **Partage**, le complément est constitué de la population qui ne correspond à aucun des sous-ensembles définis précédemment. Pour utiliser cette fonctionnalité, activez l’option **Générer le complément**.
 
 ![](assets/workflow-split-complement.png)
 
-## Copier des activités {#copy}
+## Déplacer ou copier des activités {#move-copy}
+
+### Activités de copier-coller {#copy}
 
 Vous pouvez copier des activités de workflow et les coller dans n’importe quel workflow. Le workflow de destination peut se trouver dans un autre onglet du navigateur.
 
@@ -72,13 +78,27 @@ Pour copier des activités, vous avez deux possibilités :
 
   ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
-* Copier plusieurs activités à l’aide du bouton de la barre d’outils.
+* copier plusieurs activités à l’aide du bouton de la barre d’outils.
 
   ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 Pour coller les activités copiées, cliquez sur le bouton **+** sur une transition et sélectionnez « Coller l’activité X ».
 
 ![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+
+### Déplacer les activités et leurs noeuds enfants {#move}
+
+Journey Optimizer vous permet de déplacer une activité, ainsi que l’ensemble du contenu de ses noeuds enfants (y compris toutes les transitions et activités qu’elle contient), jusqu’à la fin d’une autre transition au sein du même workflow.
+
+Ce processus déconnecte l’activité et tout ce qui se trouve dans sa transition sortante de l’emplacement initial, en la déplaçant vers la nouvelle transition cible.
+
+Pour déplacer une activité :
+
+1. Sélectionnez l’activité que vous souhaitez déplacer.
+1. Dans le volet des propriétés de l’activité, cliquez sur le bouton **Déplacer** .
+1. Sélectionnez la transition où vous souhaitez positionner l&#39;activité et sa transition sortante, puis validez.
+
+![](assets/activity-move.png)
 
 ## Options d’exécution {#execution}
 

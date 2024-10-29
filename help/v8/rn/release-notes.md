@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: ef040ec079961771b734208ecf8ac9e510b38104
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 95%
+source-wordcount: '697'
+ht-degree: 69%
 
 ---
 
@@ -17,6 +17,75 @@ ht-degree: 95%
 >abstract="Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, les notes de mise à jour de Campaign sont mises à jour plusieurs fois par mois, avec les derniers correctifs, les dernières fonctionnalités et les dernières améliorations. Nous vous recommandons de les vérifier régulièrement."
 
 Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont complétées plusieurs fois par mois. Veuillez les vérifier régulièrement.
+
+## Version d’octobre {#24-10-release}
+
+**Date de publication** : 29 octobre 2024
+
+Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version d’octobre.
+
+### Fonctionnalités
+
+<table>
+<thead>
+<tr>
+<th><strong>Comptes externes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais configurer et gérer des comptes externes directement via l’interface utilisateur web d’Adobe Campaign. Cette nouvelle fonctionnalité facilite la configuration de différents types de comptes externes, tels que les mails rebonds (POP3) ou les instances d'exécution.</p>
+<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Messages transactionnels</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer et surveiller des messages transactionnels dans l'interface utilisateur Web de Campaign. Les messages transactionnels sont un module spécialisé d’Adobe Campaign conçu pour gérer les messages déclenchés. Ces messages sont générés automatiquement en réponse aux événements provenant des systèmes d'information. Parmi les exemples courants de ces événements, citons les clics sur des boutons ou des liens, l’abandon de panier, la demande d’alertes de disponibilité de produits, la création ou la modification de compte, etc.</p>
+<p>Pour plus d’informations, consultez la <a href="../transactional-messaging/transactional.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>External deliveries</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### Améliorations
+
+* **Activités de workflow** - Vous pouvez désormais déplacer une activité et tous ses noeuds enfants d’une transition vers une autre au sein d’un workflow. Un bouton **Déplacer** dédié est disponible dans le volet des propriétés de l’activité pour effectuer cette opération. [En savoir plus](../workflows/orchestrate-activities.md#move)
+
+* **Activité Enrichissement de workflow**
+
+   * Vous pouvez maintenant définir un Alias et un Libellé lors de la création d&#39;un champ dans l&#39;activité **Enrichissement**. [En savoir plus](../workflows/activities/enrichment.md#collection-settings)
+   * Vous pouvez désormais ajouter des offres pour chaque profil dans l’activité **Enrichissement** . [En savoir plus](../workflows/activities/enrichment.md##add-offers)
+
+* **Répartition des valeurs** : lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ. Une fenêtre contextuelle dédiée indique le nombre et le pourcentage pour chaque valeur. [En savoir plus](../query/build-query.md#distribution-values-query)
+
 
 ## Mises à jour de septembre {#9-2024}
 
@@ -39,13 +108,11 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 </tbody>
 </table>
 
-## Notes de mise à jour d’août {#24-8-release}
+## Version d’août {#24-8-release}
 
 **Date de publication** : 3 septembre 2024
 
 Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version d’août.
-
-* **Répartition des valeurs** : lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ. Une fenêtre contextuelle dédiée indique le nombre et le pourcentage pour chaque valeur. [En savoir plus](../query/build-query.md#distribution-values-query)
 
 * **Paramètres SMTP** : les paramètres SMTP sont désormais disponibles dans les paramètres de diffusion par e-mail. [En savoir plus](../advanced-settings/delivery-settings.md#smtp)
 
