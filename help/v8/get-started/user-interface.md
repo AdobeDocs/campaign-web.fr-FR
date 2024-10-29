@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 94%
+source-wordcount: '2011'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 94%
 La nouvelle interface d’Adobe Campaign Web offre une expérience utilisateur moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette nouvelle interface est intégrée aux applications et solutions Adobe Experience Cloud.
 
 Découvrez comment vous connecter à Adobe Campaign et découvrez les principes de base de la navigation dans Experience Cloud [dans cet article](connect-to-campaign.md).
-
 
 >[!NOTE]
 >
@@ -39,6 +38,46 @@ Les **indicateurs clés de performance** vous permettent de vérifier l’effica
 La liste **Récents** offre des raccourcis vers les diffusions récemment créées et modifiées. Cette liste affiche le canal, le statut, la personne propriétaire, les dates de création et de modification. Cliquez sur le bouton **Afficher plus** pour charger d’autres diffusions.
 
 Accédez aux pages principales d’aide d’Adobe Campaign Web depuis la section **Formation** sur la page.
+
+### A propos du lien {#user-interface-about}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="A propos de la page"
+>abstract="La page À propos fournit des détails sur votre instance Adobe Campaign."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="À propos des instances"
+>abstract="La section Instance fournit des informations clés sur votre client de console, y compris la version et le numéro de build associé."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="A propos du Web"
+>abstract="La section Web affiche la version de votre interface utilisateur Web de Campaign, avec la date de dernière mise à jour, le cas échéant."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="A propos des packages installés"
+>abstract="La section Packages installés répertorie tous les modules, fonctionnalités et intégrations présents sur votre instance."
+
+Au bas de la page, le lien **[!UICONTROL À propos]** fournit des détails sur votre instance Adobe Campaign. ces informations sont en lecture seule.
+
+![](assets/about-link.png){zoomable="yes"}
+
+La section **Instance** fournit des informations clés sur votre client de console, y compris la **version** et le numéro **build** associé.
+
+* La **version** fait référence à la version officielle que vous utilisez,
+* **build** fait référence à une itération spécifique de cette version.
+
+Les numéros de version et de build sont essentiels à la résolution des problèmes, car ils aident à déterminer exactement les fonctionnalités et les correctifs présents dans votre environnement.
+
+La section **Web** affiche la version de votre interface utilisateur Web de Campaign, avec la date de dernière mise à jour, le cas échéant. Cela permet de suivre les modifications ou les améliorations apportées à l’interface utilisateur Web de Campaign.
+
+La section **Packages installés** répertorie tous les modules, fonctionnalités et intégrations présents sur votre instance. Ces packages étendent les fonctionnalités d’Adobe Campaign, ce qui lui permet d’effectuer des tâches spécialisées telles que l’intégration à d’autres solutions d’Adobe ou l’activation de workflows spécifiques. Compte tenu du grand nombre de packages, vous pouvez effectuer une recherche dans cette section pour vérifier rapidement si un module particulier est installé sur votre instance.
+
+![](assets/about.png){zoomable="yes"}
 
 ## Menu de navigation de gauche {#user-interface-left-nav}
 
@@ -331,30 +370,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Modifier les attributs personnalisés"
 
 
-
-
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="À propos"
->abstract="À propos"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="À propos de l’instance"
->abstract="À propos de l’instance"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="À propos du web"
->abstract="À propos du web"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="À propos des packages"
->abstract="À propos des packages"
 
 <!--Schema-->
 
