@@ -4,9 +4,9 @@ title: Journal d’audit
 description: Découvrez comment surveiller votre instance à lʼaide du journal dʼaudit Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
-workflow-type: ht
-source-wordcount: '582'
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en 
 
 * **Compte externe** : permet de vérifier les modifications apportées aux comptes externes dans Campaign V8. Utilisé par des processus techniques tels que des workflows techniques ou des workflows de campagne.
 
-  Pour plus d’informations sur les comptes externes, consultez cette [page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/external-accounts).
+  Pour plus d’informations sur les comptes externes, consultez cette [page](../administration/external-account.md).
 
 * **Mapping de diffusion** : permet de surveiller les activités et les modifications récentes apportées à votre mapping de diffusion dans Campaign V8.
 

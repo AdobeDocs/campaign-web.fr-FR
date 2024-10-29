@@ -3,10 +3,10 @@ title: Commencer avec Adobe Campaign v8 pour les administrateurs et administra
 description: Ce tutoriel offre une vue d’ensemble des principales fonctionnalités administratives et de gestion des données de Campaign v8. Il est destiné aux administrateurs et administratrices et aux spécialistes du marketing technique qui migrent de Campaign Standard vers Campaign v8.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
-workflow-type: ht
-source-wordcount: '2666'
-ht-degree: 100%
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+workflow-type: tm+mt
+source-wordcount: '2657'
+ht-degree: 99%
 
 ---
 
@@ -229,9 +229,9 @@ En tant qu’administrateur ou administratrice, vous devez définir les configur
 
 En tant qu’administrateur ou administratrice, vous êtes responsable de la configuration et de la maintenance des comptes externes de Campaign. Comme dans Campaign Standard, les comptes externes sont utilisés par les processus techniques tels que les workflows techniques ou de campagne.
 
-Le processus de transition vers Campaign v8 prend en charge vos comptes externes de Campaign Standard existants : ils sont désormais disponibles dans la console cliente.
+Le processus de transition vers Campaign v8 prend en charge vos comptes externes de Campaign Standard existants.
 
-En savoir plus sur la [configuration de compte externe](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}.
+Pour en savoir plus, consultez la [documentation du compte externe](../../v8/administration/external-account.md).
 
 
 <!--
