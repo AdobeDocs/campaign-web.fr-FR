@@ -3,10 +3,10 @@ audience: end-user
 title: Parcourir et filtrer les listes
 description: Découvrir comment parcourir et filtrer les listes de Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,10 @@ Les listes sont affichées en colonnes. Vous pouvez également afficher des info
 ![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Dans la fenêtre **Configurer des colonnes**, ajoutez ou supprimez des colonnes et modifiez leur ordre d’affichage.
+
+Vous pouvez modifier l’ordre de votre liste en **par glisser-déposer** ou en utilisant les **flèches haut et bas** comme illustré ci-dessous :
+
+![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Par exemple, pour les paramètres suivants :
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser des dossiers
 description: Découvrez comment gérer un dossier dans Adobe Campaign.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 86%
+source-wordcount: '574'
+ht-degree: 79%
 
 ---
 
@@ -65,6 +65,20 @@ Configurez le type de dossier en cliquant sur le bouton **[!UICONTROL Confirmer]
 Si vous souhaitez créer un dossier sans type spécifique, choisissez le type **[!UICONTROL Dossier générique]**.
 
 Vous pouvez également [créer et gérer des dossiers dans la console Adobe Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+
+
+## Réorganiser les dossiers {#reorder-folders}
+
+Vous pouvez réorganiser les dossiers selon vos besoins. Pour ce faire, cliquez sur le bouton **[!UICONTROL Réorganiser les dossiers]** comme illustré ci-dessous.
+
+Dans notre exemple, le dossier **Diffusions** contient 4 dossiers.
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+Vous pouvez modifier l’ordre de vos dossiers en les faisant glisser **par glisser-déposer** ou en utilisant les **flèches haut et bas**.
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
 
 ## Supprimer un dossier {#delete-a-folder}
 
