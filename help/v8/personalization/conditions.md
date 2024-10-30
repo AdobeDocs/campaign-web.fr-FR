@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 100%
+source-wordcount: '1011'
+ht-degree: 91%
 
 ---
 
@@ -116,3 +116,20 @@ Dans cet exemple, nous allons créer un e-mail avec plusieurs variantes basées 
 
    >[!NOTE]
    >Si aucune des règles définies dans les variantes n’est respectée lors de l’envoi du message, le composant de contenu affiche le contenu défini dans la **[!UICONTROL Variante par défaut]** du volet **[!UICONTROL Contenu conditionnel]**.
+
+## Utilisation de variables pour le contenu conditionnel {#variables-conditional}
+
+Les variables peuvent être utilisées pour le contenu conditionnel dans votre diffusion.
+
+En savoir plus sur [l’ajout de variables à une diffusion](../advanced-settings/delivery-settings.md#variables-delivery).
+
+Sélectionnez l’élément dans lequel vous souhaitez placer un contenu conditionnel.
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+Pour utiliser votre variable, configurez la condition à l’aide du bouton **[!UICONTROL Editer l’expression]** , comme illustré ci-dessous.
+Dans cet exemple, cette image s’affiche lorsque la valeur de la variable est `launch`.
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+Vous pouvez également créer une autre variante avec la valeur `reminder`, par exemple, où une autre image s&#39;affiche.

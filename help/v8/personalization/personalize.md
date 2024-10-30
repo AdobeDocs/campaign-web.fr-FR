@@ -6,19 +6,27 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '580'
+ht-degree: 68%
 
 ---
 
 
 # Personnaliser votre contenu {#add-personalization}
 
-Vous pouvez personnaliser n’importe quelle diffusion à l’aide de l’éditeur d’expression, accessible dans les champs de l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, comme l’objet, les liens d’e-mail et les composants de contenu texte/bouton. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md/#access).
+La Personalization du contenu de la diffusion est une fonctionnalité clé qui vous permet d’adapter les messages aux destinataires individuels, rendant ainsi la communication plus pertinente et attrayante.
 
-## Syntaxe de la personnalisation {#syntax}
+Dans Adobe Campaign, en utilisant les [données de profil](#data-personalization), telles que le nom, l’emplacement ou les interactions antérieures du profil, et des [variables spécifiques de votre diffusion](#variables-personalization), vous pouvez personnaliser dynamiquement des éléments tels que du texte, des images et des offres dans votre communication.
+
+La personnalisation de la diffusion améliore non seulement l’expérience utilisateur, mais également les taux d’engagement, ce qui entraîne une conversion plus élevée et une plus grande satisfaction client.
+
+## Utilisation des données de profil pour la personnalisation {#data-personalization}
+
+Vous pouvez personnaliser n’importe quelle diffusion avec des données de profil à l’aide de l’éditeur d’expression, accessible dans les champs avec l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, comme l’objet, les liens d’email et les composants de contenu texte/bouton. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md/#access).
+
+### Syntaxe de la personnalisation {#syntax}
 
 Les balises de personnalisation suivent une syntaxe spécifique : `<%= table.field %>`. Par exemple, pour insérer le nom de la personne destinataire dans le tableau des destinataires, utilisez la syntaxe `<%= recipient.lastName %>`.
 
@@ -26,7 +34,7 @@ Pendant le processus de préparation de la diffusion, Adobe Campaign interprèt
 
 Lors du chargement de contacts depuis un fichier externe pour une diffusion e-mail autonome, tous les champs du fichier d’entrée peuvent être personnalisés. La syntaxe est la suivante : `<%= dataSource.field %>`.
 
-## Ajouter des balises de personnalisation {#add}
+### Ajouter des balises de personnalisation {#add}
 
 Pour ajouter des balises de personnalisation dans une diffusion, procédez comme suit :
 
@@ -56,3 +64,20 @@ Pour ajouter des balises de personnalisation dans une diffusion, procédez comme
    ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## Utilisation de variables pour la personnalisation {#variables-personalization}
+
+Vous pouvez également utiliser des variables pour personnaliser votre diffusion.
+En savoir plus sur [l’ajout de variables à une diffusion](../advanced-settings/delivery-settings.md#variables-delivery).
+
+Par exemple, la variable `deliveryType` est définie comme ci-dessous.
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+Cette variable peut être utilisée dans le contenu de la diffusion, en utilisant l’icône **[!UICONTROL Ajouter Personalization]** et l’expression `<%= variables.deliveryType %>` de notre exemple.
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+Vous pouvez vérifier l’utilisation de votre variable à l’aide du bouton **[!UICONTROL Simuler le contenu]** .
+
+![](assets/variables-simulate.png){zoomable="yes"}
