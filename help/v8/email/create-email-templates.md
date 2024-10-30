@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 93%
 
 ---
 
@@ -47,6 +47,17 @@ Ce tableau de bord affiche tous les modèles de contenu disponibles sous la form
 
 Dans la liste, vous pouvez modifier, dupliquer ou supprimer des modèles de contenu existants. Utilisez le bouton situé dans la section supérieure pour créer un modèle de contenu.
 
+### Modèle de contenu en mode lecture seule {#template-readonly}
+
+Les droits d&#39;accès peuvent être appliqués aux modèles de contenu.
+
+Si vous ne disposez pas d’autorisations d’édition pour un modèle de contenu particulier, le modèle de contenu s’affiche en **mode lecture seule**. Dans ce cas, le bouton **[!UICONTROL Modifier le contenu]** est remplacé par le bouton **[!UICONTROL Afficher le contenu]**, ce qui vous permet d’afficher le modèle sans apporter de modifications.
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+Comme illustré ci-dessous, toutes les icônes de fonctions sont désactivées, ce qui limite l’interaction à l’affichage uniquement.
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## Créer des modèles de contenu {#create-content-templates}
 

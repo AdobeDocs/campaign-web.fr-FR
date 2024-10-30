@@ -4,10 +4,10 @@ title: Ajouter des fragments visuels à vos e-mails
 description: Découvrir comment ajouter des fragments visuels à vos e-mails
 badge: label="Disponibilité limitée"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 87%
 
 ---
 
@@ -68,6 +68,18 @@ Pour insérer un fragment visuel dans le contenu d’un e-mail, procédez comme 
    Vous pouvez également supprimer le fragment de votre contenu ou le dupliquer. Ces actions peuvent être effectuées directement à partir du menu contextuel qui s’affiche au-dessus du fragment.
 
 1. Ajoutez autant de fragments visuels que vous le souhaitez et **[!UICONTROL enregistrez]** vos modifications.
+
+### Fragment visuel en mode lecture seule {#fragment-readonly}
+
+Les droits d&#39;accès peuvent être appliqués aux fragments visuels.
+
+Si vous ne disposez pas d’autorisations d’édition pour un fragment visuel particulier, le modèle de contenu s’affiche en **mode lecture seule**. Dans ce cas, le bouton **[!UICONTROL Modifier le contenu]** est remplacé par le bouton **[!UICONTROL Afficher le contenu]**, ce qui vous permet d’afficher le fragment sans apporter de modifications.
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+Comme illustré ci-dessous, toutes les icônes de fonctions sont désactivées, ce qui limite l’interaction à l’affichage uniquement.
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## Rompre l’héritage {#break-inheritance}
 
