@@ -1,14 +1,22 @@
 ---
 title: Compte externe
 description: Découvrez comment configurer des comptes externes
-source-git-commit: 6ba9706ce0a2b5431fb619093789ad54af65813f
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 26%
+source-wordcount: '565'
+ht-degree: 25%
 
 ---
 
 # Configuration des comptes externes {#external-accounts}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Comptes externes"
+>abstract="Vous pouvez désormais vous connecter à d’autres plateformes ou personnaliser les connexions pour qu’elles s’adaptent à votre workflow, et créer facilement de nouveaux comptes externes pour répondre à vos besoins spécifiques et garantir un transfert de données transparent."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
+
 
 >[!AVAILABILITY]
 >
