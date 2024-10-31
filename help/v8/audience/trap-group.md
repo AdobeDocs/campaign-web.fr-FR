@@ -3,20 +3,14 @@ audience: end-user
 title: Utiliser un groupe de recouvrements
 description: Découvrez comment utiliser un groupe de recouvrements pour votre diffusion dans l’interface d’utilisation de Campaign Web.
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
-workflow-type: ht
-source-wordcount: '434'
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
 
 # Utiliser un groupe de recouvrements {#trap-group}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Groupe de recouvrements"
->abstract="Vous pouvez utiliser un groupe de recouvrements pour inclure des adresses spécifiques dans vos diffusions afin de surveiller et vérifier le processus de distribution en ciblant les profils qui ne correspondent pas aux critères de ciblage définis."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 Un **[!UICONTROL groupe de recouvrements]** (également appelé **[!UICONTROL liste de contrôle]**) est utilisé pour inclure des adresses spécifiques dans vos diffusions afin de surveiller et vérifier le processus de distribution en ciblant les profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui n’entrent pas dans le cadre de la diffusion peuvent la recevoir, comme tout autre destinataire cible.
 

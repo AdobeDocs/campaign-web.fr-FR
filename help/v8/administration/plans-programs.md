@@ -3,20 +3,14 @@ audience: end-user
 title: Plans et programmes
 description: Découvrir comment créer et envoyer des plans et des programmes dans Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
-workflow-type: ht
-source-wordcount: '415'
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+workflow-type: tm+mt
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
 
 # Plans et programmes {#plan-and-programs}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Plans et programmes"
->abstract="Vous pouvez maintenant paramétrer la hiérarchie des dossiers des plans marketing et des programmes dans l’interface d’utilisation de Campaign Web."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 Adobe Campaign permet de configurer la hiérarchie des dossiers des plans marketing et des programmes.
 
