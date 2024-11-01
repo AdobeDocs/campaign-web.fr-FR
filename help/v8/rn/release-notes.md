@@ -2,9 +2,9 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
+source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 42%
 
 ---
@@ -91,3 +91,5 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 * **Version et informations système** - Vous pouvez désormais accéder aux détails sur les versions de votre instance, à la fois pour la console cliente et l’interface utilisateur web. Cette nouvelle section répertorie également tous les packages natifs installés dans votre environnement. [En savoir plus](../get-started/user-interface.md#user-interface-about)
 
 * **Listes** - Vous pouvez désormais facilement réorganiser les valeurs d’une liste. [En savoir plus](../get-started/work-with-folders.md)
+
+* **Diffusion** - Les variables de diffusion sont désormais accessibles à partir des champs de personnalisation. [En savoir plus](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
