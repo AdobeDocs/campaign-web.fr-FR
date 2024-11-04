@@ -43,7 +43,7 @@ ht-degree: 98%
       + [Créer votre premier e-mail](email/create-email.md)
       + [Configurer le contenu de l’e-mail](email/edit-content.md)
       + Envoyer et surveiller l’e-mail {#monitor}
-         + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
+         + [Préparation et envoi d’un e-mail](monitor/prepare-send.md)
          + [Envoyer en plusieurs vagues](advanced-settings/send-using-waves.md)
          + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
          + [Planifier l’envoi d’une diffusion](monitor/schedule-sending.md)
@@ -113,8 +113,8 @@ ht-degree: 98%
          + [Ajuster l’alignement vertical et la marge intérieure](email/alignment-and-padding.md)
          + [Définir un style pour les liens](email/styling-links.md)
          + [Ajouter des attributs de style intégrés](email/inline-styling.md)
-   + Accélérateur de contenu de l’assistant AI {#ai-assistant}
-      + [Utiliser l’accélérateur de contenu de l’assistant IA](email/generative-gs.md)
+   + Accélérateur de contenu de l’Assistant IA {#ai-assistant}
+      + [Utiliser l’accélérateur de contenu de l’Assistant IA](email/generative-gs.md)
       + [Génération d’e-mails avec IA](email/generative-content.md)
       + [Génération de SMS avec IA](email/generative-sms.md)
       + [Génération de notifications push avec IA](email/generative-push.md)

@@ -140,7 +140,7 @@ L’exemple ci-dessous montre un workflow configuré pour créer un lien entre l
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
->title="Proposition d&#39;offres"
+>title="Proposition d’offre"
 >abstract="L&#39;activité Enrichissement permet d&#39;ajouter des offres pour chaque profil."
 
 L&#39;activité **[!UICONTROL Enrichissement]** vous permet d&#39;ajouter des offres pour chaque profil.
