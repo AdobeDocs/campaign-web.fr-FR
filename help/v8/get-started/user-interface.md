@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
 source-wordcount: '2011'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -39,28 +39,28 @@ La liste **Récents** offre des raccourcis vers les diffusions récemment créé
 
 Accédez aux pages principales d’aide d’Adobe Campaign Web depuis la section **Formation** sur la page.
 
-### A propos du lien {#user-interface-about}
+### Lien À propos {#user-interface-about}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_about"
->title="A propos de la page"
->abstract="La page À propos fournit des détails sur votre instance Adobe Campaign."
+>title="Page À propos"
+>abstract="La page À propos fournit des détails sur votre instance Adobe Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="À propos des instances"
->abstract="La section Instance fournit des informations clés sur votre client de console, y compris la version et le numéro de build associé."
+>title="Instance À propos"
+>abstract="L’instance À propos fournit des informations clés sur la clientèle de votre console, y compris la version et le numéro de build associé."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="A propos du Web"
->abstract="La section Web affiche la version de votre interface utilisateur Web de Campaign, avec la date de dernière mise à jour, le cas échéant."
+>title="À propos du web"
+>abstract="La section À propos du web affiche la version de l’interface d’utilisation web de Campaign, ainsi que la date de sa dernière mise à jour, si elle est disponible."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
->title="A propos des packages installés"
->abstract="La section Packages installés répertorie tous les modules, fonctionnalités et intégrations présents sur votre instance."
+>title="À propos des packages installés"
+>abstract="La section À propos des packages installés répertorie l’ensemble des modules, fonctionnalités et intégrations disponibles sur votre instance."
 
 Au bas de la page, le lien **[!UICONTROL À propos]** fournit des détails sur votre instance Adobe Campaign. ces informations sont en lecture seule.
 

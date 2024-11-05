@@ -5,16 +5,16 @@ description: A propos des messages transactionnels avec Adobe Campaign Web
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
-# A propos des messages transactionnels {#transactional-messaging}
+# À propos des messages transactionnels {#transactional-messaging}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
 >title="Messages transactionnels"
->abstract="Les messages transactionnels sont un module spécialisé d’Adobe Campaign conçu pour gérer les messages déclenchés."
+>abstract="Les messages transactionnels constituent un module spécialisé d’Adobe Campaign conçu pour gérer les messages déclenchés."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"

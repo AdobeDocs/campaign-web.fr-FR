@@ -5,7 +5,7 @@ description: Découvrez comment surveiller un message transactionnel dans l’in
 source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -40,13 +40,13 @@ Vous pouvez y voir les détails.
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="Historique des événements des messages transactionnels"
->abstract="Vous pouvez disposer d’une vue sur les événements qui déclenchent votre message transactionnel."
+>title="Historique des événements pour les messages transactionnels"
+>abstract="Vous pouvez obtenir un aperçu des événements déclenchant vos messages transactionnels."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="Aperçu de l’historique des événements des messages transactionnels"
->abstract="Vous pouvez disposer d’une vue sur les événements qui déclenchent votre message transactionnel."
+>title="Aperçu de l’historique des événements pour les messages transactionnels"
+>abstract="Vous pouvez obtenir un aperçu des événements déclenchant vos messages transactionnels."
 
 Vous pouvez également disposer d’une vue sur les événements qui déclenchent votre message transactionnel.
 Pour les voir, accédez à la section **[!UICONTROL Historique des événements]** .

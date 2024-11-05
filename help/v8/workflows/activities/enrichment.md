@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -141,7 +141,7 @@ L’exemple ci-dessous montre un workflow configuré pour créer un lien entre l
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="Proposition d’offre"
->abstract="L&#39;activité Enrichissement permet d&#39;ajouter des offres pour chaque profil."
+>abstract="L’activité Enrichissement vous permet d’ajouter des offres à chaque profil."
 
 L&#39;activité **[!UICONTROL Enrichissement]** vous permet d&#39;ajouter des offres pour chaque profil.
 

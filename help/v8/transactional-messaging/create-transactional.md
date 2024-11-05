@@ -5,7 +5,7 @@ description: Découvrez comment créer un message transactionnel dans l’interf
 source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -45,18 +45,18 @@ Pour créer un modèle de message transactionnel, procédez comme suit :
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
->title="Propriétés des emails de messagerie transactionnelle"
->abstract="Renseignez ce formulaire pour configurer les propriétés des emails de messagerie transactionnelle."
+>title="Propriétés des e-mails pour les messages transactionnels"
+>abstract="Renseignez ce formulaire pour configurer les propriétés des e-mails pour les messages transactionnels."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="Propriétés SMS des messages transactionnels"
->abstract="Renseignez ce formulaire pour configurer les propriétés SMS des messages transactionnels."
+>title="Propriétés des SMS pour les messages transactionnels"
+>abstract="Renseignez ce formulaire pour configurer les propriétés SMS pour les messages transactionnels."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="Propriétés push des messages transactionnels"
->abstract="Renseignez ce formulaire pour configurer les propriétés push des messages transactionnels."
+>title="Propriétés push pour les messages transactionnels"
+>abstract="Renseignez ce formulaire pour configurer les propriétés push pour les messages transactionnels."
 
 La section **[!UICONTROL Propriétés]** d&#39;un message transactionnel vous aidera à configurer :
 
@@ -74,10 +74,10 @@ La section **[!UICONTROL Propriétés]** d&#39;un message transactionnel vous ai
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
->title="Application mobile de messagerie transactionnelle"
->abstract="Dans cette section, vous pouvez sélectionner l&#39;application dans laquelle vous souhaitez envoyer votre message."
+>title="Application mobile pour les messages transactionnels"
+>abstract="Dans cette section, vous pouvez sélectionner l’application avec laquelle vous souhaitez envoyer votre message."
 
-Dans cette section, vous pouvez sélectionner l&#39;application dans laquelle vous souhaitez envoyer votre message.
+Dans cette section, vous pouvez sélectionner l’application avec laquelle vous souhaitez envoyer votre message.
 
 En cliquant sur l’icône de recherche, vous accédez à l’application mobile répertoriée dans votre instance Adobe Campaign.
 
@@ -87,15 +87,15 @@ En cliquant sur l’icône de recherche, vous accédez à l’application mobile
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
->title="Contexte de la messagerie transactionnelle"
->abstract="L’exemple de contexte vous permet de créer un événement de test pour prévisualiser le message transactionnel reçu avec la personnalisation du profil."
+>title="Contexte des messages transactionnels"
+>abstract="L’exemple de contexte vous permet de créer un événement test pour prévisualiser le message transactionnel reçu avec la personnalisation du profil."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
->title="Contexte de la messagerie transactionnelle"
->abstract="L’exemple de contexte vous permet de créer un événement de test pour prévisualiser le message transactionnel reçu avec la personnalisation du profil. "
+>title="Contexte des messages transactionnels"
+>abstract="L’exemple de contexte vous permet de créer un événement test pour prévisualiser le message transactionnel reçu avec la personnalisation du profil. "
 
-L’exemple de contexte vous permet de créer un événement de test pour prévisualiser le message transactionnel reçu avec la personnalisation du profil.
+L’exemple de contexte vous permet de créer un événement test pour prévisualiser le message transactionnel reçu avec la personnalisation du profil.
 
 Cette étape est facultative. Vous pouvez utiliser le modèle sans l’exemple de contexte, mais l’inconvénient est que vous ne pouvez pas prévisualiser le contenu personnalisé.
 
@@ -105,17 +105,17 @@ Le contenu du contexte dépend de la personnalisation dont vous avez besoin.
 
 ![](assets/transactional-context.png){zoomable="yes"}
 
-### Contenu du modèle de message transactionnel {#transactional-content}
+### Modèle de contenu pour les messages transactionnels {#transactional-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
->title="Contenu des messages transactionnels"
->abstract="Découvrez comment créer le contenu des messages transactionnels"
+>title="Contenu pour les messages transactionnels"
+>abstract="Découvrez comment créer le contenu de messages transactionnels."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
 >title="Personnalisation des messages transactionnels"
->abstract="Découvrez comment personnaliser le contenu des messages transactionnels"
+>abstract="Découvrez comment personnaliser le contenu des messages transactionnels."
 
 Travailler sur le contenu d&#39;un message transactionnel est comme la création de contenu d&#39;une diffusion. Cliquez sur **[!UICONTROL Ouvrir le concepteur d&#39;email]** ou **[!UICONTROL Editer le corps d&#39;email]** et sélectionnez un contenu de modèle ou importez votre code d&#39;HTML.
 
@@ -177,7 +177,7 @@ Les déclencheurs peuvent désormais envoyer l’envoi de votre message transact
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
->title="Événement de message transactionnel"
+>title="Événement pour les messages transactionnels"
 >abstract="La configuration du type d’événement lie le message à l’événement déclencheur."
 
 La configuration du type d’événement lie le message à l’événement déclencheur.
