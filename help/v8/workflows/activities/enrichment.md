@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2061'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -136,55 +136,55 @@ L’exemple ci-dessous montre un workflow configuré pour créer un lien entre l
 
 ![](../assets/enrichment-reconciliation.png)
 
-## Ajout d’offres {#add-offers}
+## Ajouter des offres {#add-offers}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="Proposition d’offre"
->abstract="L’activité Enrichissement vous permet d’ajouter des offres à chaque profil."
+>abstract="L’activité Enrichissement permet d’ajouter des offres pour chaque profil."
 
-L&#39;activité **[!UICONTROL Enrichissement]** vous permet d&#39;ajouter des offres pour chaque profil.
+L’activité **[!UICONTROL Enrichissement]** vous permet d’ajouter des offres pour chaque profil.
 
-Pour ce faire, suivez les étapes pour configurer une activité **[!UICONTROL Enrichissement]** avec une offre :
+Pour ce faire, suivez les étapes pour configurer une activité **[!UICONTROL Enrichissement]** avec une offre :
 
-1. Dans l&#39;activité **[!UICONTROL Enrichissement]**, dans la section **[!UICONTROL Proposition d&#39;offre]**, cliquez sur le bouton **[!UICONTROL Ajouter une offre]**
+1. Dans l’activité **[!UICONTROL Enrichissement]**, dans la section **[!UICONTROL Proposition d’offre]**, cliquez sur le bouton **[!UICONTROL Ajouter une offre]**.
 
    ![](../assets/enrichment-addoffer.png)
 
-1. Vous avez le choix entre deux options :
+1. Vous avez le choix entre deux options pour la sélection d’offre :
 
-   * **[!UICONTROL Rechercher la meilleure offre dans la catégorie]** : cochez cette option et spécifiez les paramètres d&#39;appel au moteur d&#39;offres (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera la ou les meilleures offres à ajouter en fonction de ces paramètres. Nous vous recommandons de remplir le champ Catégorie ou Thème, plutôt que les deux en même temps.
+   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres de l’appel au moteur d’offres (emplacement, catégorie ou thème(s), date de contact, nombre d’offres à conserver). Le moteur calculera la ou les meilleures offres à ajouter en fonction de ces paramètres. Il est conseillé de renseigner l’un ou l’autre des champs Catégorie et Thème, mais pas les deux en même temps.
 
      ![](../assets/enrichment-bestoffer.png)
 
-   * **[!UICONTROL Une offre prédéfinie]** : cochez cette option et définissez un emplacement, une offre précise, ainsi qu&#39;une date de contact afin de directement paramétrer l&#39;offre que vous souhaitez ajouter, sans appeler le moteur d&#39;offres.
+   * **[!UICONTROL Une offre prédéfinie]** : cochez cette option et définissez un emplacement, une offre précise, ainsi qu’une date de contact afin de directement paramétrer l’offre que vous souhaitez ajouter, sans appeler le moteur d’offres.
 
      ![](../assets/enrichment-predefinedoffer.png)
 
-1. Après avoir sélectionné votre offre, cliquez sur le bouton **[!UICONTROL Confirmer]** .
+1. Après avoir sélectionné votre offre, cliquez sur le bouton **[!UICONTROL Confirmer]**.
 
 Vous pouvez maintenant utiliser l’offre dans l’activité de diffusion.
 
 ### Utilisation des offres de l’activité Enrichissement
 
-Dans un workflow, si vous souhaitez utiliser les offres que vous obtenez d&#39;une activité d&#39;enrichissement dans votre diffusion, procédez comme suit :
+Dans un workflow, si vous souhaitez utiliser les offres que vous obtenez d’une activité Enrichissement dans votre diffusion, procédez comme suit :
 
-1. Ouvrez l&#39;activité de diffusion et lancez l&#39;édition de contenu. Cliquez sur le bouton **[!UICONTROL Paramètres des offres]** et sélectionnez dans la liste déroulante l&#39;**[!UICONTROL Espace offres]** correspondant à votre offre.
-Si vous souhaitez afficher uniquement les offres de l’activité d’enrichissement, définissez le nombre de **[!UICONTROL Propositions]** sur 0, puis enregistrez les modifications.
+1. Ouvrez l’activité de diffusion et lancez la modification de contenu. Cliquez sur le bouton **[!UICONTROL Paramètres des offres]** et sélectionnez dans la liste déroulante l’**[!UICONTROL Emplacement]** correspondant à votre offre.
+Si vous souhaitez afficher uniquement les offres de l’activité Enrichissement, définissez le nombre de **[!UICONTROL Propositions]** sur 0, puis enregistrez les modifications.
 
    ![](../assets/offers-settings.png)
 
-1. Dans le concepteur d&#39;email, lors de l&#39;ajout d&#39;une personnalisation avec des offres, cliquez sur l&#39;icône **[!UICONTROL Propositions]** , il affichera la ou les offres que vous obtenez de l&#39;activité **[!UICONTROL Enrichissement]** . Ouvrez l&#39;offre que vous souhaitez sélectionner en cliquant dessus.
+1. Dans le concepteur d’e-mail, lors de l’ajout d’une personnalisation avec des offres, cliquez sur l’icône **[!UICONTROL Propositions]** qui affiche la ou les offres que vous obtenez de l’activité **[!UICONTROL Enrichissement]**. Ouvrez l’offre que vous souhaitez sélectionner en cliquant dessus.
 
    ![](../assets/offers-propositions.png)
 
-   Accédez à **[!UICONTROL Fonctions de rendu]** et sélectionnez **[!UICONTROL HTML rendering]** ou **[!UICONTROL Text rendering]** en fonction de vos besoins.
+   Accédez à **[!UICONTROL Fonctions de rendu]** et sélectionnez **[!UICONTROL Rendu HTML]** ou **[!UICONTROL Rendu de texte]** en fonction de vos besoins.
 
    ![](../assets/offers-rendering.png)
 
 >[!NOTE]
 >
->Si vous choisissez d&#39;avoir plusieurs offres dans l&#39;activité **[!UICONTROL Enrichissement]** à l&#39;option **[!UICONTROL Nombre d&#39;offres à conserver]**, toutes les offres sont affichées en cliquant sur l&#39;icône **[!UICONTROL Propositions]**.
+>Si vous choisissez d’avoir plusieurs offres dans l’activité **[!UICONTROL Enrichissement]** à l’option **[!UICONTROL Nombre d’offres à conserver]**, toutes les offres sont affichées en cliquant sur l’icône **[!UICONTROL Propositions]**.
 
 ## Exemples {#example}
 
@@ -202,10 +202,10 @@ Ici, nous ajoutons un seul attribut d’enrichissement, par exemple, la date de 
 
 Dans ce cas pratique plus complexe, nous sélectionnons un lien de collecte qui est un lien avec une cardinalité 1-N entre les tableaux. Récupérons les trois derniers achats inférieurs à 100 USD. Pour cela, vous devez définir :
 
-* un attribut d&#39;enrichissement : le champ **Price**
+* un attribut d’enrichissement : le champ **Prix** ;
 * le nombre de lignes à récupérer : 3 ;
 * un filtre : filtrez les éléments supérieurs à 100 USD ;
-* un tri : tri décroissant sur le champ **Date de commande**.
+* un tri : tri descendant sur le champ **Date de commande**.
 
 #### Ajouter l’attribut {#add-attribute}
 
@@ -213,7 +213,7 @@ C’est là que vous sélectionnez le lien de collecte à utiliser comme donnée
 
 1. Cliquez dans le champ **Attribut**.
 1. Cliquez sur **Afficher les attributs avancés**.
-1. Sélectionnez le champ **Price** dans la table **Achats**.
+1. Sélectionnez le champ **Prix** dans le tableau **Achats**.
 
 <!-- ![](../assets/workflow-enrichment3.png) -->
 
@@ -237,7 +237,7 @@ Utilisez les champs **Libellé** et **Alias** de votre attribut afin de le rendr
 Ici, nous définissons la valeur maximale de l’attribut d’enrichissement. Nous filtrons les éléments supérieurs à 100 $. [Découvrez comment utiliser le concepteur de requête](../../query/query-modeler-overview.md)
 
 1. Cliquez sur **Créer des filtres**.
-1. Ajoutez les deux filtres suivants : **Price** existe ET **Price** est inférieur à 100. Le premier filtre les valeurs NULL, car elles apparaissent comme la valeur la plus élevée.
+1. Ajoutez les deux filtres suivants : **Prix** existe ET **Prix** est inférieur à 100. Le premier filtre les valeurs NULL, car elles apparaissent comme la valeur la plus élevée.
 1. Cliquez sur **Confirmer**.
 
 ![](../assets/workflow-enrichment6bis.png)

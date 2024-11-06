@@ -6,9 +6,9 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
       + [Créer votre premier e-mail](email/create-email.md)
       + [Configurer le contenu de l’e-mail](email/edit-content.md)
       + Envoyer et surveiller l’e-mail {#monitor}
-         + [Préparation et envoi d’un e-mail](monitor/prepare-send.md)
+         + [Préparer et envoyer un e-mail](monitor/prepare-send.md)
          + [Envoyer en plusieurs vagues](advanced-settings/send-using-waves.md)
          + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
          + [Planifier l’envoi d’une diffusion](monitor/schedule-sending.md)
@@ -66,10 +66,10 @@ ht-degree: 98%
       + [Concevoir le fichier d’extraction](direct-mail/content-direct-mail.md)
       + [Prévisualiser et envoyer une diffusion par courrier](direct-mail/send-direct-mail.md)
    + Messages transactionnels {#transactional-messages}
-      + [Prise en main des messages transactionnels](transactional-messaging/transactional.md)
+      + [Commencer avec les messages transactionnels](transactional-messaging/transactional.md)
       + [Créer un message transactionnel](transactional-messaging/create-transactional.md)
       + [Valider votre message transactionnel](transactional-messaging/validate-transactional.md)
-      + [Surveillance des messages transactionnels](transactional-messaging/monitor-transactional.md)
+      + [Surveiller des messages transactionnels](transactional-messaging/monitor-transactional.md)
    + [Ajouter des offres à vos messages](msg/offers.md)
    + [Envoyer des messages à vos personnes abonnées](msg/send-to-subscribers.md)
    + [Configurer les paramètres de diffusion](advanced-settings/delivery-settings.md)
@@ -114,7 +114,7 @@ ht-degree: 98%
          + [Définir un style pour les liens](email/styling-links.md)
          + [Ajouter des attributs de style intégrés](email/inline-styling.md)
    + Accélérateur de contenu de l’Assistant IA {#ai-assistant}
-      + [Utiliser l’accélérateur de contenu de l’Assistant IA](email/generative-gs.md)
+      + [Utiliser l’accélérateur de contenu de l’assistant IA](email/generative-gs.md)
       + [Génération d’e-mails avec IA](email/generative-content.md)
       + [Génération de SMS avec IA](email/generative-sms.md)
       + [Génération de notifications push avec IA](email/generative-push.md)
@@ -223,5 +223,5 @@ ht-degree: 98%
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configuration des comptes externes](administration/external-account.md)
+   + [Configurer des comptes externes](administration/external-account.md)
 + [Documentation de Campaign v8 (console) >](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home)

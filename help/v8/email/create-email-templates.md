@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,9 +49,9 @@ Dans la liste, vous pouvez modifier, dupliquer ou supprimer des modèles de cont
 
 ### Modèle de contenu en mode lecture seule {#template-readonly}
 
-Les droits d&#39;accès peuvent être appliqués aux modèles de contenu.
+Les droits d’accès peuvent être appliqués aux modèles de contenu.
 
-Si vous ne disposez pas d’autorisations d’édition pour un modèle de contenu particulier, le modèle de contenu s’affiche en **mode lecture seule**. Dans ce cas, le bouton **[!UICONTROL Modifier le contenu]** est remplacé par le bouton **[!UICONTROL Afficher le contenu]**, ce qui vous permet d’afficher le modèle sans apporter de modifications.
+Si vous ne disposez pas d’autorisations de modification pour un modèle de contenu en particulier, ce dernier s’affiche en **mode lecture seule**. Dans ce cas, le bouton **[!UICONTROL Modifier le contenu]** est remplacé par le bouton **[!UICONTROL Afficher le contenu]**, ce qui vous permet d’afficher le modèle sans apporter de modifications.
 
 ![](assets/template-readonly.png){zoomable="yes"}
 

@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Validation des messages transactionnels
-description: Découvrez comment valider un message transactionnel dans l’interface utilisateur web de Campaign
+title: Valider des messages transactionnels
+description: Découvrir comment valider un message transactionnel dans l’interface d’utilisation de Campaign Web
 source-git-commit: e0d87d22d9712837f085f94f9d9ba63e96f36b36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Validation des messages transactionnels
+# Valider des messages transactionnels
 
 Pendant ou après la création de votre message transactionnel, vous pouvez valider le contenu à l’aide d’un exemple de données.
 
 ## Simuler le contenu {#simulate-content}
 
-Pour simuler le contenu de votre message, procédez comme suit :
+Pour simuler le contenu de votre message, procédez comme suit :
 
-* Assurez-vous que le chemin de personnalisation dans le contenu de votre message correspond à votre exemple de contexte. Dans l’exemple ci-dessous, pour afficher le prénom du profil de test, nous utilisons le chemin *rtEvent.ctx.basicDetails.firstName*
+* Assurez-vous que le chemin de personnalisation dans le contenu de votre message correspond à votre exemple de contexte. Dans l’exemple ci-dessous, pour afficher le prénom du profil de test, nous utilisons le chemin *rtEvent.ctx.basicDetails.firstName*.
 
-  Vous pouvez modifier le contenu du message ou l’exemple de contexte pour les aligner.
+  Vous pouvez modifier le contenu du message ou l’exemple de contexte pour les faire correspondre.
 
   ![](assets/validate-verification.png){zoomable="yes"}
 
@@ -27,19 +27,19 @@ Pour simuler le contenu de votre message, procédez comme suit :
 
   ![](assets/validate-simulate.png){zoomable="yes"}
 
-  Après avoir vérifié votre contenu, cliquez sur le bouton **[!UICONTROL Fermer]** .
+  Après avoir vérifié votre contenu, cliquez sur le bouton **[!UICONTROL Fermer]**.
 
 * N’oubliez pas de cliquer sur le bouton **[!UICONTROL Republier]** si vous avez apporté des modifications à votre contenu.
 
 ## Envoyer un BAT
 
-Si vous souhaitez tester et tester le message transactionnel tel qu’il serait diffusé par le canal de votre choix (email, SMS ou notification push, par exemple), vous pouvez utiliser la fonction BAT.
+Si vous souhaitez tester et expérimenter le message transactionnel tel qu’il serait diffusé via le canal de votre choix (e-mail, SMS ou notification push, par exemple), vous pouvez utiliser la fonctionnalité de BAT.
 
-Dans la [fenêtre de contenu de la simulation](#simulate-content), cliquez sur le bouton **[!UICONTROL Envoyer le BAT]** .
+Dans la [fenêtre de contenu de la simulation](#simulate-content), cliquez sur le bouton **[!UICONTROL Envoyer un BAT]**.
 
 ![](assets/transactional-proof.png){zoomable="yes"}
 
-Dans la nouvelle fenêtre qui s&#39;affiche, saisissez l&#39;adresse email (ou le numéro de téléphone, selon le canal) où vous souhaitez recevoir le BAT. Une fois que vous avez saisi l’adresse souhaitée, cliquez sur **[!UICONTROL Envoyer le BAT]** et sur les boutons **[!UICONTROL Confirmer]** . Cette action vous permet d’envoyer un exemple de message transactionnel, en vous assurant que toutes les personnalisations, le contenu dynamique et la mise en forme s’affichent correctement comme pour vos utilisateurs finaux.
+Dans la nouvelle fenêtre qui s’affiche, saisissez l’adresse e-mail (ou le numéro de téléphone, selon le canal) où vous souhaitez recevoir le BAT. Une fois que vous avez saisi l’adresse souhaitée, cliquez sur les boutons **[!UICONTROL Envoyer un BAT]** et **[!UICONTROL Confirmer]**. Cette action vous permet d’envoyer un exemple de votre message transactionnel, en vous assurant que l’ensemble des personnalisations, du contenu dynamique et de la mise en forme s’affichent comme ils le devraient pour vos utilisateurs et utilisatrices finaux.
 
 ![](assets/transactional-sendproof.png){zoomable="yes"}
 

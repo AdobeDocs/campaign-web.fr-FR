@@ -5,9 +5,9 @@ description: Découvrir comment ajouter des fragments visuels à vos e-mails
 badge: label="Disponibilité limitée"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Pour insérer un fragment visuel dans le contenu d’un e-mail, procédez comme 
 
 ### Fragment visuel en mode lecture seule {#fragment-readonly}
 
-Les droits d&#39;accès peuvent être appliqués aux fragments visuels.
+Les droits d’accès peuvent être appliqués aux fragments visuels.
 
 Si vous ne disposez pas d’autorisations d’édition pour un fragment visuel particulier, le modèle de contenu s’affiche en **mode lecture seule**. Dans ce cas, le bouton **[!UICONTROL Modifier le contenu]** est remplacé par le bouton **[!UICONTROL Afficher le contenu]**, ce qui vous permet d’afficher le fragment sans apporter de modifications.
 

@@ -4,9 +4,9 @@ title: Utiliser des dossiers
 description: Découvrez comment gérer un dossier dans Adobe Campaign.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -71,11 +71,11 @@ Vous pouvez également [créer et gérer des dossiers dans la console Adobe Cam
 
 Vous pouvez réorganiser les dossiers selon vos besoins. Pour ce faire, cliquez sur le bouton **[!UICONTROL Réorganiser les dossiers]** comme illustré ci-dessous.
 
-Dans notre exemple, le dossier **Diffusions** contient 4 dossiers.
+Dans notre exemple, le dossier **Diffusions** contient 4 dossiers.
 
 ![](assets/folder-reorder.png){zoomable="yes"}
 
-Vous pouvez modifier l’ordre de vos dossiers en les faisant glisser **par glisser-déposer** ou en utilisant les **flèches haut et bas**.
+Vous pouvez modifier l’ordre de vos dossiers par **glisser-déposer** ou en utilisant les **flèches haut et bas**.
 
 ![](assets/folder-draganddrop.png){zoomable="yes"}
 
@@ -123,8 +123,8 @@ Il est également possible de disposer de la répartition des valeurs dans un co
 
 ### Filtrer les valeurs {#filter-values}
 
-En utilisant les **[!UICONTROL filtres avancés]** dans la fenêtre de distribution des valeurs, vous pouvez filtrer vos résultats selon des conditions spécifiées.
+En utilisant les **[!UICONTROL Filtres avancés]** dans la fenêtre de distribution des valeurs, vous pouvez filtrer vos résultats selon des conditions spécifiées.
 
-Dans l&#39;exemple de la liste de diffusions ci-dessus, qui affiche la distribution par canal, vous pouvez, par exemple, la filtrer pour afficher uniquement les diffusions dont l&#39;état est **Terminé**.
+Dans l’exemple de la liste de diffusions ci-dessus, qui affiche la distribution par canal, vous pouvez, par exemple, la filtrer pour afficher uniquement les diffusions dont le statut est **Terminé**.
 
 ![](assets/values_filter.png){zoomable="yes"}

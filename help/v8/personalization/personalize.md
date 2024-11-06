@@ -7,24 +7,24 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 
 # Personnaliser votre contenu {#add-personalization}
 
-La Personalization du contenu de la diffusion est une fonctionnalité clé qui vous permet d’adapter les messages aux destinataires individuels, rendant ainsi la communication plus pertinente et attrayante.
+La personnalisation du contenu de la diffusion est une fonctionnalité clé qui vous permet d’adapter les messages à chaque personne destinataire, rendant ainsi la communication plus pertinente et attrayante.
 
-Dans Adobe Campaign, en utilisant les [données de profil](#data-personalization), telles que le nom, l’emplacement ou les interactions antérieures du profil, et des [variables spécifiques de votre diffusion](#variables-personalization), vous pouvez personnaliser dynamiquement des éléments tels que du texte, des images et des offres dans votre communication.
+Dans Adobe Campaign, en utilisant des [données de profil](#data-personalization) telles que le nom, l’emplacement ou les interactions antérieures du profil, et des [variables spécifiques de votre diffusion](#variables-personalization), vous pouvez personnaliser dynamiquement des éléments tels que du texte, des images et des offres dans votre communication.
 
-La personnalisation de la diffusion améliore non seulement l’expérience utilisateur, mais également les taux d’engagement, ce qui entraîne une conversion plus élevée et une plus grande satisfaction client.
+La personnalisation de la diffusion améliore non seulement l’expérience client, mais également les taux d’engagement, ce qui entraîne une conversion plus élevée et une plus grande satisfaction de la clientèle.
 
-## Utilisation des données de profil pour la personnalisation {#data-personalization}
+## Utiliser des données de profil pour la personnalisation {#data-personalization}
 
-Vous pouvez personnaliser n’importe quelle diffusion avec des données de profil à l’aide de l’éditeur d’expression, accessible dans les champs avec l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, comme l’objet, les liens d’email et les composants de contenu texte/bouton. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md/#access).
+Vous pouvez personnaliser n’importe quelle diffusion avec des données de profil à l’aide de l’éditeur d’expression, accessible dans les champs de l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, comme l’objet, les liens d’e-mail et les composants de contenu de texte/bouton. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md/#access).
 
 ### Syntaxe de la personnalisation {#syntax}
 
@@ -68,16 +68,16 @@ Pour ajouter des balises de personnalisation dans une diffusion, procédez comme
 ## Utilisation de variables pour la personnalisation {#variables-personalization}
 
 Vous pouvez également utiliser des variables pour personnaliser votre diffusion.
-En savoir plus sur [l’ajout de variables à une diffusion](../advanced-settings/delivery-settings.md#variables-delivery).
+En savoir plus sur l’[ajout de variables à une diffusion](../advanced-settings/delivery-settings.md#variables-delivery).
 
 Par exemple, la variable `deliveryType` est définie comme ci-dessous.
 
 ![](assets/variables-deliveryType.png){zoomable="yes"}
 
-Cette variable peut être utilisée dans le contenu de la diffusion, en utilisant l’icône **[!UICONTROL Ajouter Personalization]** et l’expression `<%= variables.deliveryType %>` de notre exemple.
+Cette variable peut être utilisée dans le contenu de la diffusion, en utilisant l’icône **[!UICONTROL Ajouter une personnalisation]** et l’expression `<%= variables.deliveryType %>` de notre exemple.
 
 ![](assets/variables-perso.png){zoomable="yes"}
 
-Vous pouvez vérifier l’utilisation de votre variable à l’aide du bouton **[!UICONTROL Simuler le contenu]** .
+Vous pouvez vérifier l’utilisation de votre variable à l’aide du bouton **[!UICONTROL Simuler le contenu]**.
 
 ![](assets/variables-simulate.png){zoomable="yes"}

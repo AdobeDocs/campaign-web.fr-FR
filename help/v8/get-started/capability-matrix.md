@@ -4,9 +4,9 @@ title: Matrice des fonctionnalités de l’interface utilisateur web de Campaign
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ L’interface utilisateur web de Campaign ne présente pas les fonctionnalités 
 
 ### Comptes externes {#external}
 
-Adobe Campaign est fourni avec un ensemble de comptes externes prédéfinis pour la connexion aux systèmes externes. En tant qu’administrateur système Campaign, vous pouvez créer et gérer des comptes externes. [En savoir plus](../administration/external-account.md)
+Adobe Campaign est fourni avec un ensemble de comptes externes prédéfinis pour la connexion aux systèmes externes. En tant qu’administrateur ou administratrice système de Campaign, vous pouvez créer et gérer des comptes externes. [En savoir plus](../administration/external-account.md)
 
 ### Création et extension de schéma {#schema}
 

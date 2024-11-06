@@ -4,9 +4,9 @@ description: Découvrir comment concevoir du contenu spécifique à une page de 
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -144,7 +144,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utili
 >
 >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
-Pour envoyer automatiquement un message de confirmation après l&#39;envoi d&#39;une landing page, procédez comme suit :
+Pour envoyer automatiquement un message de confirmation après la soumission d’une page de destination, procédez comme suit :
 
 1. Dans la section **[!UICONTROL APPEL À L’ACTION]**, cochez l’option **[!UICONTROL Envoyer un e-mail de confirmation]**.
 

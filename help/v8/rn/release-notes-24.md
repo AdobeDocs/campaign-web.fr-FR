@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation précédente de Ca
 description: Versions de l’interface d’utilisation de Campaign Web 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Cette page répertorie toutes les modifications et améliorations disponibles da
 <tbody>
 <tr>
 <td>
-<p>Une fois que vous avez conçu et personnalisé votre message, passez au niveau supérieur avec l’accélérateur de contenu de l’assistant d’IA dans Adobe Campaign Web. Cet outil puissant vous permet d’optimiser l’impact de votre contenu en générant un éventail de textes attirants, de grands titres et d’images visuellement attrayantes.</p>
+<p>Après avoir conçu et personnalisé votre message, améliorez-le avec l’accélérateur de contenu de l’Assistant IA dans Adobe Campaign Web. Cet outil puissant vous permet d’optimiser l’impact de votre contenu en générant un éventail de textes attirants, de grands titres et d’images visuellement attrayantes.</p>
 <p>Plongez dans une expérience pratique avec la <a href="https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator">prévisualisation de notre fonctionnalité en direct</a>, conçue pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.</a></p>
 <p>Pour plus d’informations, consultez la <a href="../email/generative-gs.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

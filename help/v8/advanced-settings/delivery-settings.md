@@ -5,9 +5,9 @@ description: Découvrez comment configurer les paramètres de diffusion dans Cam
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2888'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -351,8 +351,8 @@ Pour ajouter une variable, accédez à l’onglet **[!UICONTROL Variables]** com
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-Cliquez sur le bouton **[!UICONTROL Ajouter des variables]** pour saisir les détails de votre variable. Vous pouvez ajouter directement sa valeur ou utiliser une expression pour celle-ci en activant la case à cocher **[!UICONTROL La valeur est le résultat d&#39;une expression]**. Cliquez ensuite sur **[!UICONTROL Confirmer]** pour enregistrer vos modifications.
+Cliquez sur le bouton **[!UICONTROL Ajouter des variables]** pour saisir les détails de votre variable. Vous pouvez ajouter directement sa valeur ou utiliser une expression pour celle-ci en activant la case à cocher **[!UICONTROL La valeur est le résultat d’une expression]**. Cliquez sur **[!UICONTROL Confirmer]** pour sauvegarder vos changements.
 
 ![](assets/variables-add.png){zoomable="yes"}
 
-En savoir plus sur [l’utilisation de variables pour la personnalisation](../personalization/personalize.md#variables-personalization) et [ l’utilisation de variables pour le contenu dynamique](../personalization/conditions.md#variables-conditional).
+En savoir plus sur l’[utilisation de variables pour la personnalisation](../personalization/personalize.md#variables-personalization) et l’[utilisation de variables pour le contenu dynamique](../personalization/conditions.md#variables-conditional)

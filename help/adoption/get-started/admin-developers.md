@@ -4,9 +4,9 @@ description: Ce tutoriel offre une vue d’ensemble des principales fonctionnali
 role: Admin, Developer
 level: Beginner, Experienced
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2657'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -229,9 +229,9 @@ En tant qu’administrateur ou administratrice, vous devez définir les configur
 
 En tant qu’administrateur ou administratrice, vous êtes responsable de la configuration et de la maintenance des comptes externes de Campaign. Comme dans Campaign Standard, les comptes externes sont utilisés par les processus techniques tels que les workflows techniques ou de campagne.
 
-Le processus de transition vers Campaign v8 prend en charge vos comptes externes de Campaign Standard existants.
+Le processus de transition vers Campaign v8 prend en charge vos comptes externes de Campaign Standard existants.
 
-Pour en savoir plus, consultez la [documentation du compte externe](../../v8/administration/external-account.md).
+En savoir plus dans la [documentation sur le compte externe](../../v8/administration/external-account.md)
 
 
 <!--

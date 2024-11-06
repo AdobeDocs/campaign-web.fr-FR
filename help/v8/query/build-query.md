@@ -4,9 +4,9 @@ title: Créer votre première requête à l’aide du créateur de modèles de r
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2227'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

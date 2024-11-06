@@ -4,9 +4,9 @@ title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -49,33 +49,33 @@ Accédez aux pages principales d’aide d’Adobe Campaign Web depuis la secti
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="Instance À propos"
->abstract="L’instance À propos fournit des informations clés sur la clientèle de votre console, y compris la version et le numéro de build associé."
+>title="À propos de l’instance"
+>abstract="La section Instance fournit des informations clés sur votre console cliente, y compris la version et le numéro de build associé."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
 >title="À propos du web"
->abstract="La section À propos du web affiche la version de l’interface d’utilisation web de Campaign, ainsi que la date de sa dernière mise à jour, si elle est disponible."
+>abstract="La section Web affiche la version de votre interface d’utilisation de Campaign Web, avec la date de la dernière mise à jour, le cas échéant."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
 >title="À propos des packages installés"
->abstract="La section À propos des packages installés répertorie l’ensemble des modules, fonctionnalités et intégrations disponibles sur votre instance."
+>abstract="La section Packages installés répertorie tous les modules, fonctionnalités et intégrations présents sur votre instance."
 
-Au bas de la page, le lien **[!UICONTROL À propos]** fournit des détails sur votre instance Adobe Campaign. ces informations sont en lecture seule.
+Au bas de la page, le lien **[!UICONTROL À propos]** fournit des détails sur votre instance Adobe Campaign. Ces informations sont en lecture seule.
 
 ![](assets/about-link.png){zoomable="yes"}
 
-La section **Instance** fournit des informations clés sur votre client de console, y compris la **version** et le numéro **build** associé.
+La section **Instance** fournit des informations clés sur votre console cliente, y compris la **version** et le numéro de **build** associé.
 
-* La **version** fait référence à la version officielle que vous utilisez,
-* **build** fait référence à une itération spécifique de cette version.
+* La **version** fait référence à la version officielle que vous utilisez.
+* Le **build** fait référence à une itération spécifique de cette version.
 
 Les numéros de version et de build sont essentiels à la résolution des problèmes, car ils aident à déterminer exactement les fonctionnalités et les correctifs présents dans votre environnement.
 
-La section **Web** affiche la version de votre interface utilisateur Web de Campaign, avec la date de dernière mise à jour, le cas échéant. Cela permet de suivre les modifications ou les améliorations apportées à l’interface utilisateur Web de Campaign.
+La section **Web** affiche la version de votre interface d’utilisation de Campaign Web, avec la date de la dernière mise à jour, le cas échéant. Cela permet de suivre les modifications ou les améliorations apportées à l’interface d’utilisation de Campaign Web.
 
-La section **Packages installés** répertorie tous les modules, fonctionnalités et intégrations présents sur votre instance. Ces packages étendent les fonctionnalités d’Adobe Campaign, ce qui lui permet d’effectuer des tâches spécialisées telles que l’intégration à d’autres solutions d’Adobe ou l’activation de workflows spécifiques. Compte tenu du grand nombre de packages, vous pouvez effectuer une recherche dans cette section pour vérifier rapidement si un module particulier est installé sur votre instance.
+La section **Packages installés** répertorie tous les modules, fonctionnalités et intégrations présents sur votre instance. Ces packages étendent la fonctionnalité d’Adobe Campaign, ce qui lui permet d’effectuer des tâches spécialisées telles que l’intégration à d’autres solutions Adobe ou l’activation de workflows spécifiques. Compte tenu du grand nombre de packages, vous pouvez effectuer une recherche dans cette section pour vérifier rapidement si un module particulier est installé sur votre instance.
 
 ![](assets/about.png){zoomable="yes"}
 
@@ -155,13 +155,13 @@ Découvrez comment créer et envoyer des offres dans des e-mails et des SMS dans
 ### Administration {#left-nav-admin}
 
 
-* **Suivi** - L’entrée **Suivi** offre aux utilisateurs une visibilité complète de toutes les modifications apportées à toutes les entités importantes de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance. [En savoir plus](../reporting/audit-trail.md)
+* **Journal d’audit** : l’entrée **Journal d’audit** offre aux utilisateurs et utilisatrices une visibilité complète de toutes les modifications apportées à des entités importantes au sein de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance. [En savoir plus](../reporting/audit-trail.md)
 
-* **Comptes externes** - Créez de nouveaux comptes externes à l’aide de l’interface utilisateur web pour répondre à vos besoins spécifiques et garantir des transferts de données transparents. [En savoir plus](../administration/external-account.md)
+* **Comptes externes** : créez des comptes externes à l’aide de l’interface d’utilisation web pour répondre à vos besoins spécifiques et garantir des transferts de données transparents. [En savoir plus](../administration/external-account.md)
 
-* **Schémas** - Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas d’usine par le biais de la console Adobe Campaign. [En savoir plus](../administration/custom-fields.md)
+* **Schémas** : les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. [En savoir plus](../administration/custom-fields.md)
 
-* **Alertes de diffusion** - Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs de recevoir automatiquement des notifications par e-mail avec des informations sur leurs exécutions de diffusion. [En savoir plus](../msg/delivery-alerting.md)
+* **Alertes de diffusion** : les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs et d’utilisatrices de recevoir automatiquement des notifications par e-mail contenant des informations sur les exécutions de leurs diffusions. [En savoir plus](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 

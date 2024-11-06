@@ -4,9 +4,9 @@ description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 >[!BEGINTABS]
 
 
->[!TAB Version du 24 octobre]
+>[!TAB Version d’octobre 2024]
 
-La version d’octobre est désormais en ligne, avec notamment les messages transactionnels, les comptes externes et d’autres améliorations.
+La version d’octobre est maintenant en ligne. Elle contient les messages transactionnels, les comptes externes et d’autres améliorations encore.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
