@@ -1,14 +1,14 @@
 ---
 title: Compte externe
-description: Découvrez comment configurer des comptes externes
+description: Découvrir comment configurer des comptes externes
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 25%
+ht-degree: 94%
 
 ---
 
-# Configuration des comptes externes {#external-accounts}
+# Configurer des comptes externes {#external-accounts}
 
 
 >[!CONTEXTUALHELP]
@@ -20,28 +20,28 @@ ht-degree: 25%
 
 >[!AVAILABILITY]
 >
-> Notez que les comptes externes ne sont actuellement disponibles que pour les mails rebonds (POP3) et l&#39;instance Exécution, avec des types de compte supplémentaires à ajouter à l&#39;avenir.
-> Les comptes externes non pris en charge créés dans la console Adobe Campaign sont visibles dans l’interface utilisateur web, mais ne peuvent pas être modifiés ni accessibles.
+> Notez que les comptes externes ne sont actuellement disponibles que pour les e-mails rejetés (POP3) et l’instance d’exécution, et des types de compte supplémentaires seront ajoutés à l’avenir.
+> Les comptes externes non pris en charge créés dans la console Adobe Campaign sont visibles dans l’interface d’utilisation web, mais ne peuvent pas être modifiés et ne sont pas accessibles.
 
-Adobe Campaign est fourni avec un ensemble de comptes externes préconfigurés pour une intégration facile avec divers systèmes. Si vous devez vous connecter à d’autres plateformes ou personnaliser les connexions pour qu’elles s’adaptent à votre workflow, vous pouvez désormais facilement créer de nouveaux comptes externes à l’aide de l’interface utilisateur web pour répondre à vos besoins spécifiques et garantir un transfert de données transparent.
+Adobe Campaign est fourni avec un ensemble de comptes externes préconfigurés pour faciliter l’intégration avec différents systèmes. Si vous devez vous connecter à d’autres plateformes ou personnaliser les connexions pour qu’elles s’adaptent à votre workflow, vous pouvez désormais facilement créer des comptes externes à l’aide de l’interface d’utilisation web pour répondre à vos besoins spécifiques et garantir des transferts de données transparents.
 
 ## Créer un compte externe {#create-ext-account}
 
 Pour créer un compte externe, procédez comme suit : Les paramètres détaillés dépendent du type de compte externe.
 
-1. Dans le menu de gauche, sélectionnez **[!UICONTROL Comptes externes]** sous **[!UICONTROL Administration]**.
+1. Dans le menu du volet de gauche, sélectionnez **[!UICONTROL Comptes externes]** sous **[!UICONTROL Administration]**.
 
 1. Cliquez sur **[!UICONTROL Créer un compte externe]**.
 
    ![](assets/external_account_create_1.png)
 
-1. Saisissez votre **[!UICONTROL Libellé]** et sélectionnez votre compte externe **[!UICONTROL Type]**.
+1. Saisissez votre **[!UICONTROL Libellé]** et sélectionnez le **[!UICONTROL Type]** de votre compte externe.
 
    ![](assets/external_account_create_2.png)
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-1. Dans la liste déroulante **[!UICONTROL Options avancées]**, vous pouvez modifier le chemin **[!UICONTROL Nom interne]** ou **[!UICONTROL Dossier]** si nécessaire.
+1. Dans la liste déroulante **[!UICONTROL Options avancées]**, vous pouvez modifier le **[!UICONTROL Nom interne]** ou le chemin du **[!UICONTROL Dossier]** si nécessaire.
 
    ![](assets/external_account_create_3.png)
 
@@ -55,7 +55,7 @@ Pour créer un compte externe, procédez comme suit : Les paramètres détaill�
 
    ![](assets/external_account_create_4.png)
 
-1. Une fois la configuration terminée, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Comptes externes spécifiques à Campaign {#campaign-specific}
 
@@ -63,13 +63,13 @@ Pour créer un compte externe, procédez comme suit : Les paramètres détaill�
 
 >[!AVAILABILITY]
 >
-> OAuth 2.0 n’est actuellement pas pris en charge.
+> OAuth 2.0 n’est actuellement pas pris en charge.
 
-Le compte externe Mails rebonds spécifie le compte POP3 externe utilisé pour se connecter au service de messagerie. Tous les serveurs configurés pour l’accès POP3 peuvent recevoir des retours.
+Le compte externe d’e-mails rejetés spécifie le compte POP3 externe utilisé pour se connecter au service d’e-mail. Tous les serveurs configurés pour l’accès POP3 peuvent recevoir les retours d’e-mails.
 
 ![](assets/external_account_bounce.png)
 
-Pour configurer le compte externe **[!UICONTROL Mails rebonds (POP3)]** :
+Pour configurer le compte externe **[!UICONTROL E-mails rejetés (POP3)]** :
 
 * **[!UICONTROL Serveur]**
 
@@ -77,36 +77,36 @@ Pour configurer le compte externe **[!UICONTROL Mails rebonds (POP3)]** :
 
 * **[!UICONTROL Port]**
 
-  Numéro de port de connexion POP3 (le port par défaut est 110)
+  Numéro de port de la connexion POP3 (port par défaut : 110)
 
 * **[!UICONTROL Compte]**
 
-  Nom de l’utilisateur
+  Nom de l’utilisateur ou l’utilisatrice
 
 * **[!UICONTROL Mot de passe]**
 
-  Mot de passe du compte utilisateur
+  Mot de passe du compte d’utilisateur ou d’utilisatrice
 
 * **[!UICONTROL Chiffrement]**
 
-  Type de chiffrement choisi entre :
+  Type de chiffrement choisi entre ce qui suit :
 
-   * Par défaut (POP3 si port 110, POP3S si port 995)
-   * POP3 qui bascule en SSL après envoi d&#39;un STARTTLS
-   * POP3 non sécurisé (port 110 par défaut)
-   * POP3 securisé au dessus de SSL (port 995 par défaut)
+   * Par défaut (POP3 si port 110, POP3S si port 995)
+   * POP3 basculant en SSL après envoi d’un STARTTLS
+   * POP3 non sécurisé (port 110 par défaut)
+   * POP3 securisé au dessus de SSL (port 995 par défaut)
 
 * **[!UICONTROL Fonction]**
 
-  Email entrant, lorsque le compte externe est configuré pour recevoir les emails entrants, ou SOAP routeur, pour traiter SOAP requêtes.
+  E-mail entrant, lorsque le compte externe est configuré pour recevoir les e-mails entrants, ou routeur SOAP, pour traiter les requêtes SOAP.
 
-### Instance d&#39;exécution{#instance-exec}
+### Instance d’exécution{#instance-exec}
 
-Si vous disposez d’une architecture segmentée, vous devez identifier les instances d’exécution associées à l’instance de pilotage et établir des connexions entre elles. Les modèles de messages transactionnels sont déployés sur l&#39;instance d&#39;exécution.
+Dans le cas d’une architecture segmentée, vous devez identifier les instances d’exécution associées à l’instance de pilotage et établir des connexions entre elles. Les modèles de messages transactionnels sont déployés sur l’instance d’exécution.
 
 ![](assets/external_account_exec.png)
 
-Pour configurer le compte externe **[!UICONTROL Instance d&#39;exécution]** :
+Pour configurer le compte externe d’**[!UICONTROL Instance d’exécution]** :
 
 * **[!UICONTROL URL]**
 
@@ -122,9 +122,9 @@ Pour configurer le compte externe **[!UICONTROL Instance d&#39;exécution]** :
 
 * **[!UICONTROL Méthode]**
 
-  Choisissez entre Service Web ou Federated Data Access (FDA).
-En cas de méthode FDA, sélectionnez votre compte FDA. Notez que la connexion de Campaign aux systèmes externes est limitée aux utilisateurs avancés et n&#39;est disponible que depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
+  Choisissez entre Service web ou Federated Data Access (FDA).
+En cas de méthode FDA, sélectionnez votre compte FDA. Notez que la connexion de la campagne aux systèmes externes est réservée à une utilisation avancée et n’est disponible qu’à partir de la console cliente. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Créer un workflow d’archivage]**
 
-  Pour chaque instance d&#39;exécution enregistrée dans Message Center, qu&#39;une ou plusieurs instances soient présentes, vous devez créer un workflow d&#39;archivage distinct pour chaque compte externe associé à l&#39;instance d&#39;exécution.
+  Pour chaque instance d’exécution enregistrée dans Message Center, qu’une ou plusieurs instances soient présentes, vous devez créer un workflow d’archivage distinct pour chaque compte externe associé à l’instance d’exécution.
