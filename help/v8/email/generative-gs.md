@@ -4,7 +4,7 @@ title: Commencer avec l’accélérateur de contenu de l’Assistant IA
 description: Commencer avec l’accélérateur de contenu de l’assistant IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
 ht-degree: 100%
 
