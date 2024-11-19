@@ -3,10 +3,10 @@ audience: end-user
 title: Matrice des fonctionnalités de l’interface utilisateur web de Campaign/de la console cliente
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: ht
-source-wordcount: '2075'
-ht-degree: 100%
+source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
+workflow-type: tm+mt
+source-wordcount: '2086'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (cons
 * **Calendrier marketing**. Le calendrier des campagnes affiche l’ensemble des programmes, plans, campagnes et diffusions dans un journal global. Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#campaign-calendar){target="_blank"}
 * **Programmes et plans**. Chaque campagne appartient à un programme qui appartient à son tour à un plan. Dans l’interface utilisateur web de Campaign, toutes les campagnes sont associées à un plan et à un programme intégrés par défaut. Vous pouvez uniquement créer et gérer des plans et des programmes dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#work-with-plan-and-program){target="_blank"}
 * **Gestion des fournisseurs, des budgets et des coûts**. Vous pouvez configurer les prestataires de services impliqués dans les traitements réalisés dans vos opérations, y compris les structures de coûts, et gérer vos budgets au sein de chaque programme et campagne. Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=fr){target="_blank"}
-* **Marketing distribué** (marketing central/local) Adobe Campaign propose une application Marketing distribué pour la mise en œuvre de campagnes de coopération entre entités centrales (sièges sociaux, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}
+* **Marketing distribué** (marketing central/local) Adobe Campaign propose une application de Marketing Distribué qui permet de mettre en oeuvre des opérations de coopération entre les entités centrales (siège social, départements marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}
 * **Gestion des ressources marketing** (MRM), objectifs, simulations et contrôle des coûts Adobe Campaign propose une application MRM (gestion des ressources marketing) qui permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, ressources marketing et budgets impliqués. Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=fr){target="_blank"}
 * **Gestion des tâches**. Dans le cadre de l’application MRM, les tâches de Campaign peuvent être créées, affectées, suivies et surveillées à partir du tableau de bord de la campagne. Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=fr){target="_blank"}
 
@@ -176,6 +176,11 @@ Data Management combine un ensemble d’activités pour résoudre des problèmes
 La configuration de Campaign et la connexion à des systèmes externes sont limitées aux utilisateurs et utilisatrices expérimentés et ne sont disponibles que depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr){target="_blank"}
 
 ## Validations {#approvals-capabilities}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_approval"
+>title="Gestion des validations"
+>abstract="La gestion des validations n’est disponible que depuis la console cliente. "
 
 L’interface utilisateur web de Campaign ne présente pas la gestion de la validation du contenu, des diffusions, des workflows, des campagnes et des cibles. Elles ne sont disponibles que dans la console cliente.
 
