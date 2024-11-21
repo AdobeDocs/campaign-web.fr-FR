@@ -4,7 +4,7 @@ description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
 >title="Élément 2"
->abstract="Interface de zone de travail de workflow simplifiée"
+>abstract="Interface de zone de workflow simplifiée"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
