@@ -3,10 +3,10 @@ title: Créer une page de destination
 description: Découvrir comment configurer et publier une page de destination dans Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 865978dd8083723187a90647060f8758d4d888be
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 100%
+source-wordcount: '1629'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,15 @@ L’interface utilisateur web de Campaign vous permet de créer, concevoir et pu
 
 ## Accéder aux pages de destination {#access-landing-pages}
 
-Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
+Pour accéder à la liste des landing pages, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Landing pages]** dans le menu de gauche.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-L’inventaire **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer à l’aide du bouton **[!UICONTROL Afficher les filtres]**. Vous pouvez limiter les résultats à un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
+L’inventaire **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer à l’aide du bouton **[!UICONTROL Afficher les filtres]** .
+
+* Vous pouvez filtrer les éléments que vous avez créés ou modifiés.
+
+* Vous pouvez limiter les résultats à un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 
