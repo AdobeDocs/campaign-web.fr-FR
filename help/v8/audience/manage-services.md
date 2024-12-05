@@ -4,9 +4,9 @@ title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Plusieurs services peuvent être définis en parallèle, comme les newsletters s
 
 Pour accéder aux services d’abonnements disponibles pour votre plateforme, procédez comme suit.
 
-1. Accédez au menu **[!UICONTROL Services d’abonnements]** sur le rail de navigation de gauche, sous **[!UICONTROL Gestion des clients]**.
+1. Accédez au menu **[!UICONTROL Services d’abonnement]** sur le rail de navigation de gauche, dans **[!UICONTROL Gestion des clientes et clients]**.
 
    ![](assets/service-list.png){zoomable="yes"}
 

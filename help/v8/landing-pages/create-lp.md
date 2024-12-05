@@ -4,9 +4,9 @@ description: Découvrir comment configurer et publier une page de destination da
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1629'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ L’interface utilisateur web de Campaign vous permet de créer, concevoir et pu
 
 ## Accéder aux pages de destination {#access-landing-pages}
 
-Pour accéder à la liste des landing pages, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Landing pages]** dans le menu de gauche.
+Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-L’inventaire **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer à l’aide du bouton **[!UICONTROL Afficher les filtres]** .
+L’inventaire **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer à l’aide du bouton **[!UICONTROL Afficher les filtres]**.
 
 * Vous pouvez filtrer les éléments que vous avez créés ou modifiés.
 
