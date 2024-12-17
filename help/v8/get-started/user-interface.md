@@ -3,9 +3,9 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
+source-git-commit: ef7949d115342e47f68cfbd88c1137f4eaf38cc0
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2058'
 ht-degree: 98%
 
 ---
@@ -454,20 +454,29 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
->title="Propriétés de mappage de Target"
->abstract="Propriétés de mappage de Target"
+>title="Propriétés du mapping de ciblage"
+>abstract="Propriétés du mapping de ciblage"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
->title="Mappage de la cible"
->abstract="Mappage de la cible"
+>title="Mapping de ciblage"
+>abstract="Mapping de ciblage"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
->title="Liste bloquée de mappage de Target"
->abstract="Liste bloquée de mappage de Target"
+>title="Liste bloquée de mapping de ciblage"
+>abstract="Liste bloquée de mapping de ciblage"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
->title="Stockage du mapping de Target"
->abstract="Stockage de refus de mappage de Target"
+>title="Stockage du mapping de ciblage"
+>abstract="Mapping de ciblage refuser le stockage"
+
+
+
+<!-- Favorites & recents -->
+
+>[!CONTEXTUALHELP]
+>id="acw_attribute_picker_favorites_recents"
+>title="Favoris et récents"
+>abstract="Favoris et récents"
