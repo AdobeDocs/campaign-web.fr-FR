@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: ef7949d115342e47f68cfbd88c1137f4eaf38cc0
 workflow-type: tm+mt
 source-wordcount: '2058'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -459,18 +459,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
->title="Mapping de ciblage"
->abstract="Mapping de ciblage"
+>title="Mappage du mapping de ciblage"
+>abstract="Mappage du mapping de ciblage"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
->title="Liste bloquée de mapping de ciblage"
->abstract="Liste bloquée de mapping de ciblage"
+>title="Liste bloquée du mapping de ciblage"
+>abstract="Liste bloquée du mapping de ciblage"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
 >title="Stockage du mapping de ciblage"
->abstract="Mapping de ciblage refuser le stockage"
+>abstract="Refus de stockage du mapping de ciblage"
 
 
 
