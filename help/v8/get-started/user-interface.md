@@ -3,9 +3,9 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ef7949d115342e47f68cfbd88c1137f4eaf38cc0
+source-git-commit: 7efaac360dc00f5bd92b47efbe113cfe99042eb6
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2064'
 ht-degree: 100%
 
 ---
@@ -472,11 +472,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Stockage du mapping de ciblage"
 >abstract="Refus de stockage du mapping de ciblage"
 
-
-
 <!-- Favorites & recents -->
 
 >[!CONTEXTUALHELP]
 >id="acw_attribute_picker_favorites_recents"
 >title="Favoris et récents"
 >abstract="Favoris et récents"
+
+<!-- Options -->
+
+>[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="Options"
+>abstract="Options"
+
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="Créer une option"
+>abstract="Créer une option"
