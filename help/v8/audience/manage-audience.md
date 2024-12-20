@@ -3,9 +3,9 @@ audience: end-user
 title: Commencer avec les audiences
 description: Découvrez comment utiliser des audiences dans Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="acw_audiences_count"
 >title="Taille de l’audience"
 >abstract="Vous trouverez ici le nombre total de profils que comporte l’audience. Cliquez sur le bouton **Calculer** pour mettre à jour et recalculer les résultats de l’audience."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Ciblage"
+>abstract="Ciblage"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
