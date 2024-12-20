@@ -3,9 +3,9 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7efaac360dc00f5bd92b47efbe113cfe99042eb6
+source-git-commit: e5dfb307ae53333b4e2e55ca57a605790d8b6d62
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2074'
 ht-degree: 100%
 
 ---
@@ -490,3 +490,15 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_options_create"
 >title="Créer une option"
 >abstract="Créer une option"
+
+<!-- JavaScript codes -->
+
+>[!CONTEXTUALHELP]
+>id="acw_javascript_codes_list"
+>title="Codes JavaScript"
+>abstract="Codes JavaScript"
+
+>[!CONTEXTUALHELP]
+>id="acw_javascript_codes_create"
+>title="Créer un code JavaScript"
+>abstract="Créer un code JavaScript"
