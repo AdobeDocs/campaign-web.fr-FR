@@ -3,10 +3,10 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 23930d4fb665db1b67dbb07d1b1cffb4e38bdaff
+source-git-commit: ef4b74d601431f7113d06f705c676930c59cb4d6
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 100%
+source-wordcount: '2108'
+ht-degree: 99%
 
 ---
 
@@ -476,8 +476,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_attribute_picker_favorites_recents"
->title="Favoris et récents"
->abstract="Favoris et récents"
+>title="Favoris et Récents"
+>abstract="Favoris et Récents"
 
 <!-- Options -->
 
@@ -519,3 +519,35 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="Liste des valeurs d’énumération"
 >abstract="Liste des valeurs d’énumération"
+
+<!-- Typology rules -->
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules"
+>title="Règles commerciales"
+>abstract="Règles commerciales"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_properties"
+>title="Propriétés de l’ensemble de règles"
+>abstract="Propriétés de l’ensemble de règles"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_ip_affinity"
+>title="Affinité IP"
+>abstract="Affinité IP"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_properties"
+>title="Propriétés de la règle"
+>abstract="Propriétés de la règle"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_filtering"
+>title="Filtrage"
+>abstract="Filtrage"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_code"
+>title="Code"
+>abstract="Code"
