@@ -3,7 +3,7 @@ audience: end-user
 title: Découvrir l’interface
 description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ef4b74d601431f7113d06f705c676930c59cb4d6
+source-git-commit: 8b627ff3116346fb09243b560b0a492d690b95fa
 workflow-type: tm+mt
 source-wordcount: '2108'
 ht-degree: 99%
@@ -528,26 +528,26 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Règles commerciales"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_set_properties"
->title="Propriétés de l’ensemble de règles"
+>id="acw_business_rules_typology_properties"
+>title="Propriétés de la typologie"
 >abstract="Propriétés de l’ensemble de règles"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_set_ip_affinity"
+>id="acw_business_rules_typology_ip_affinity"
 >title="Affinité IP"
 >abstract="Affinité IP"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_properties"
->title="Propriétés de la règle"
+>id="acw_business_rules_typology_rules_properties"
+>title="Propriétés des règles de typologie"
 >abstract="Propriétés de la règle"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_filtering"
+>id="acw_business_rules_typology_rules_filtering"
 >title="Filtrage"
 >abstract="Filtrage"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_code"
+>id="acw_business_rules_typology_rules_code"
 >title="Code"
 >abstract="Code"
