@@ -5,8 +5,8 @@ description: Interface utilisateur d’Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 8b627ff3116346fb09243b560b0a492d690b95fa
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -488,8 +488,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_options_create"
->title="Créer une option"
->abstract="Créer une option"
+>title="Option Créer"
+>abstract="Option Créer"
 
 <!-- JavaScript codes -->
 
@@ -500,8 +500,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
->title="Créer un code JavaScript"
->abstract="Créer un code JavaScript"
+>title="Créer du code JavaScript"
+>abstract="Créer du code JavaScript"
 
 <!-- Enumerations -->
 
@@ -517,15 +517,15 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
->title="Liste des valeurs d’énumération"
->abstract="Liste des valeurs d’énumération"
+>title="Liste de valeurs d’énumération"
+>abstract="Liste de valeurs d’énumération"
 
 <!-- Typology rules -->
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
->title="Règles commerciales"
->abstract="Règles commerciales"
+>title="Règles métier"
+>abstract="Règles métier"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
