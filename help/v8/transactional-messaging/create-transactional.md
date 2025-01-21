@@ -2,10 +2,11 @@
 audience: end-user
 title: Créer des messages transactionnels
 description: Découvrir comment créer un message transactionnel dans l’interface d’utilisation de Campaign Web
-source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
-workflow-type: ht
-source-wordcount: '1189'
-ht-degree: 100%
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 98%
 
 ---
 
@@ -116,6 +117,11 @@ Le contenu du contexte dépend de la personnalisation dont vous avez besoin.
 >id="acw_transacmessages_personalization"
 >title="Personnalisation des messages transactionnels"
 >abstract="Découvrir comment personnaliser le contenu des messages transactionnels"
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_event_context"
+>title="Event context"
+>abstract="Ce menu fournit des variables de l’événement déclencheur que vous pouvez exploiter pour personnaliser le contenu de votre message transactionnel."
 
 Le travail sur le contenu d’un message transactionnel est comparable à la création de contenu d’une diffusion. Cliquez sur **[!UICONTROL Ouvrir le concepteur d’e-mail]** ou **[!UICONTROL Modifier le corps de l’e-mail]** et sélectionnez un contenu de modèle ou importez votre code HTML.
 
