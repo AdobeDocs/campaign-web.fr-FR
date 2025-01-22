@@ -3,7 +3,7 @@ audience: end-user
 title: À propos des workflows en lecture seule
 description: Découvrez pourquoi les workflows sont en mode lecture seule.
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Certains workflows peuvent être en lecture seule. Dans ce cas, ils s’affichent comme suit :
 
-- La mention **[!UICONTROL ** Lecture seule **]** à côté du bouton **[!UICONTROL Paramètres]**.
+- La mention **[!UICONTROL Lecture seule]** à côté du bouton **[!UICONTROL Paramètres]**.
 - Les boutons d’action ne sont pas accessibles.
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
