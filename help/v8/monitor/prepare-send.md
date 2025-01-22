@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Préparer et envoyer un e-mail
+title: Préparation et envoi d’un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 99%
+source-wordcount: '889'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Lorsque vous avez défini le [contenu](../email/edit-content.md), l’[audience]
 
 Pendant la préparation de la diffusion, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées.
 
-Les règles de validation utilisées pendant la préparation de la diffusion sont décrites dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
+Les règles de validation utilisées pendant la préparation de la diffusion sont décrites dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=fr){target="_blank"}.
 
 Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-dessous.
 
@@ -136,14 +136,14 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="Mesures envoyées"
+>title="Envoyés"
 >abstract="Nombre total de messages traités lors de l’analyse de la diffusion."
 >additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/reports/kpis" text="Comprendre les KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="Mesures des erreurs"
+>title="Erreurs"
 >abstract="Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés."
 >additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/reports/kpis" text="Comprendre les KPI"
 
