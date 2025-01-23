@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
-workflow-type: ht
-source-wordcount: '773'
-ht-degree: 100%
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 99%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 100%
    + [Accéder aux diffusions](msg/gs-deliveries.md)
    + [Créer une diffusion](msg/create-deliveries.md)
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
+   + [Utiliser les typologies](msg/typologies.md)
    + E-mails {#email}
       + [Créer votre premier e-mail](email/create-email.md)
       + [Configurer le contenu de l’e-mail](email/edit-content.md)
