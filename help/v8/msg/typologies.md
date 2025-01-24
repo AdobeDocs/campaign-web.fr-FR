@@ -6,13 +6,13 @@ hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
+source-git-commit: cd6424bb99ab150915889323b850273134d0d73e
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 18%
+ht-degree: 27%
 
 ---
-
 
 # Utiliser les typologies {#typologies}
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
->title="Affinité IP"
+>title="Affinité d’IP"
 >abstract="La gestion des affinités avec les adresses IP permet de mieux contrôler le trafic SMTP sortant en associant différentes adresses IP à chaque type de trafic, selon la typologie de son action de diffusion."
 
 >[!CONTEXTUALHELP]
