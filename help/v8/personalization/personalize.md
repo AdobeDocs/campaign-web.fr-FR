@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_add_current_date"
 >title="Ajouter la date actuelle"
->abstract="Ce menu fournit des fonctions liées au formatage des dates que vous pouvez utiliser pour personnaliser votre contenu."
+>abstract="Ce menu fournit des fonctions liées à la mise en forme des dates que vous pouvez utiliser pour personnaliser votre contenu."
 
 La personnalisation du contenu de la diffusion est une fonctionnalité clé qui vous permet d’adapter les messages à chaque personne destinataire, rendant ainsi la communication plus pertinente et attrayante.
 

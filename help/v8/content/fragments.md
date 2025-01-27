@@ -4,9 +4,9 @@ title: Commencer avec les fragments de contenu
 description: Découvrez comment utiliser les fragments de contenu.
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_fragments"
 >title="Ajouter des fragments d’expression"
->abstract="Les fragments d’expression sont des blocs de contenu prédéfinis qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Vous pouvez également créer vos propres fragments d’expression en fonction de vos besoins."
+>abstract="Les fragments d’expression sont des blocs de contenu prédéfini qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Vous pouvez également créer vos propres fragments d’expression en fonction de vos besoins."
 
 ## Que sont les fragments de contenu ? {#what}
 

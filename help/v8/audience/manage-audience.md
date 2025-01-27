@@ -4,7 +4,7 @@ title: Commencer avec les audiences
 description: Découvrez comment utiliser des audiences dans Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
 ht-degree: 100%
 

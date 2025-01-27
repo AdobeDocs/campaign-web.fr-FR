@@ -5,9 +5,9 @@ role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2453'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,7 @@ Liens utiles :
    * Découvrir comment [planifier une diffusion autonome](../../v8/msg/gs-deliveries.md#gs-schedule)
    * Découvrir comment [planifier une diffusion dans un workflow](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
-* **Ajouter des offres** - Vous pouvez ajouter des offres à vos diffusions dans l’interface utilisateur Web d’Adobe Campaign. Ces offres sont disponibles à partir du menu de gauche Offres qui vous permet d’accéder à la liste des offres.  Découvrir comment [ajouter des offres à vos messages](../../v8/msg/offers.md)
+* **Ajouter des offres** : vous pouvez ajouter des offres à vos diffusions dans l’interface d’utilisation d’Adobe Campaign Web. Ces offres sont disponibles à partir du menu de gauche Offres qui vous permet d’accéder à la liste des offres.  Découvrir comment [ajouter des offres à vos messages](../../v8/msg/offers.md)
 
 >[!AVAILABILITY]
 >

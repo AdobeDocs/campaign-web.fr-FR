@@ -4,9 +4,9 @@ title: À propos des workflows en lecture seule
 description: Découvrez pourquoi les workflows sont en mode lecture seule.
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 36%
 
 Certains workflows sont en lecture seule. Les workflows techniques natifs sont toujours en lecture seule, mais cette restriction peut également être activée sur d’autres types de workflows.
 
-Les utilisateurs de Campaign peuvent avoir un accès restreint aux données d’Adobe Campaign. Un administrateur Campaign peut lui accorder le droit d&#39;afficher certaines fonctionnalités, mais pas de les modifier. Les autorisations utilisateur/utilisatrice sur les données sont essentielles pour assurer la sécurité des données et des processus. En savoir plus sur la gestion des autorisations dans Campaign dans [cette section](../get-started/permissions.md)
+Les personnes utilisant Campaign peuvent avoir un accès restreint aux données d’Adobe Campaign. L’équipe d’administration de Campaign peut leur accorder le droit d’afficher certaines fonctionnalités, mais pas de les modifier. Les autorisations d’utilisation sur les données sont essentielles pour assurer la sécurité des données et des processus. En savoir plus sur la gestion des autorisations de Campaign dans [cette section](../get-started/permissions.md).
 
-Lorsqu’un workflow est en mode lecture seule :
+Lorsqu’un workflow est en mode lecture seule :
 
 * La mention **[!UICONTROL Lecture seule]** à côté du bouton **[!UICONTROL Paramètres]**.
 * Les boutons d’action ne sont pas accessibles.
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
 
-Les utilisateurs ne peuvent rien modifier dans un workflow en lecture seule. ils ne sont pas autorisés à modifier les paramètres des activités.
+Il est impossible de modifier quoi que ce soit dans un workflow en lecture seule. Il est impossible de modifier les paramètres des activités.
 
 ![](assets/scheduler-readonly.png){zoomable="yes"}
 
-Les utilisateurs ne peuvent pas supprimer le workflow.
+Le workflow ne peut pas être supprimé.
 
 ![](assets/readonly-rights.png){zoomable="yes"}
 
@@ -49,7 +49,7 @@ Dans le cas d’un workflow de campagne en lecture seule, l’utilisateur ou l�
 
 ### Workflows techniques {#readonly-tech-wf}
 
-Les workflows techniques natifs sont en lecture seule pour tous les utilisateurs de Campaign, même pour l&#39;administrateur. Cependant, les utilisateurs peuvent les **mettre en pause** ou **arrêter** si nécessaire. Ce sont les seules actions autorisées.
+Les workflows techniques natifs sont en lecture seule pour toutes les personnes utilisant Campaign, même pour l’équipe d’administration. L’utilisateur ou l’utilisatrice peut toutefois les mettre en **pause** ou les **arrêter** si nécessaire. Ce sont les seules actions autorisées.
 
 ![](assets/readonly-technical-workflow.png){zoomable="yes"}
 
