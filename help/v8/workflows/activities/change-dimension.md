@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Générer un complémentaire"
+>title="Générer un complément"
 >abstract="Vous pouvez générer une transition sortante supplémentaire avec la population restante, qui a été exclue en tant que doublon. Pour ce faire, activez l’option **Générer un complément**."
 
 >[!CONTEXTUALHELP]
