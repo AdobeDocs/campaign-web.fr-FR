@@ -4,7 +4,7 @@ title: Utiliser des dossiers
 description: Découvrez comment gérer un dossier dans Adobe Campaign.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ description: Découvrir comment concevoir du contenu spécifique à une page de 
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -93,7 +93,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utili
 
    * **[!UICONTROL Non si coché]**.<!--TBC-->
 
-1. Vous pouvez supprimer et ajouter autant de champs que vous le souhaitez (champs de texte, boutons radio, cases à cocher, liste déroulante, etc.) selon les besoins.
+1. Vous pouvez supprimer et ajouter autant de champs que nécessaire (tels que des champs de texte, des boutons radio, des cases à cocher, une liste déroulante, etc.).
 
 1. Une fois tous les champs ajoutés ou mis à jour, cliquez sur **[!UICONTROL Appel à l’action]** pour développer la section correspondante. Cela permet de définir le comportement du bouton dans le composant **[!UICONTROL Formulaire]**. [Voici comment procéder](#define-actions-on-form-submission)
 

@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Code JavaScript
 description: Découvrez comment utiliser l’activité de workflow Code JavaScript
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 100%
 

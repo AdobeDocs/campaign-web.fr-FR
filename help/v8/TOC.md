@@ -6,7 +6,7 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 100%
 

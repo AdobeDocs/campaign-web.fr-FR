@@ -3,13 +3,13 @@ title: Commencer avec Adobe Campaign v8 pour les administrateurs et administra
 description: Ce tutoriel offre une vue d’ensemble des principales fonctionnalités administratives et de gestion des données de Campaign v8. Il est destiné aux administrateurs et administratrices et aux spécialistes du marketing technique qui migrent de Campaign Standard vers Campaign v8.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: ht
+exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 100%
 
 ---
-
 
 # Commencer pour les administrateurs et administratrices et les développeurs et développeuses {#acs-gs-admin}
 
@@ -166,7 +166,7 @@ Voir les liens vers d’autres ressources utiles ci-dessous :
 
 Les API REST de Campaign vous permettent de créer des intégrations pour Adobe Campaign et de construire votre propre écosystème en interfaçant Adobe Campaign avec l’ensemble des technologies que vous utilisez.
 
-En tant qu’utilisateur ou utilisatrice passant à Campaign v8, des API REST sont à votre disposition.
+En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Campaign v8, des API REST sont à votre disposition.
 
 En savoir plus dans la [documentation sur l’API REST](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
 
@@ -281,7 +281,7 @@ Pour un processus de conception accéléré et amélioré, créez des modèles d
 
 ### Règles de typologie {#acs-gs-admin-rules}
 
-En tant qu’administrateur ou administratrice, vous êtes responsable de la création et de la maintenance des règles de typologie pour vos diffusions. Comme dans Adobe Campaign Standard, dans Campaign v8, les règles de typologie sont des règles d’entreprise qui vous permettent d’effectuer des vérifications et filtrages de votre message avant de l’envoyer.
+En tant qu’administrateur ou administratrice, vous êtes responsable de la création et de la maintenance des règles de typologie pour vos diffusions. Comme dans Adobe Campaign Standard, dans Campaign v8, les règles de typologie sont des règles métier qui vous permettent d’effectuer des vérifications et filtrages de votre message avant de l’envoyer.
 
 Lors de la transition de votre environnement de Campaign Standard vers Campaign v8, vos règles de typologie sont déplacées vers Campaign v8.
 
@@ -305,4 +305,3 @@ En tant qu’utilisateur ou utilisatrice de Campaign Standard migrant vers Camp
 Notez que Campaign peut également être intégré à Adobe Experience Manager 6.5. Pour configurer cette intégration, voir [cette documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
 * Si votre environnement Campaign Standard était intégré à **Triggers**, vous devez configurer cette intégration dans Campaign v8, comme indiqué sur [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
 * Si votre environnement Campaign Standard était intégré à **Adobe Target**, vous devez configurer cette intégration dans Campaign v8 comme indiqué sur [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.
-

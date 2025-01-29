@@ -4,7 +4,7 @@ title: Plans et programmes
 description: Découvrir comment créer et envoyer des plans et des programmes dans Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 

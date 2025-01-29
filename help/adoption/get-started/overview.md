@@ -3,13 +3,13 @@ title: Commencer avec Adobe Campaign v8 après la transition depuis Campaign 
 description: Découvrir les étapes requises pour commencer à utiliser votre nouvelle application Campaign v8
 role: User, Admin, Developer
 level: Beginner
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
-workflow-type: ht
+exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 100%
 
 ---
-
 
 # De Campaign Standard vers v8 {#ac-acs}
 
@@ -59,7 +59,7 @@ Les améliorations clés apportées à Adobe Campaign v8 sont répertoriées c
 
 ### Nouvelles fonctionnalités d’Adobe Campaign v8 {#ac-new-features}
 
-En tant qu’utilisateur ou utilisatrice passant à Adobe Campaign v8, les fonctionnalités suivantes sont désormais à votre disposition :
+En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Adobe Campaign v8, les fonctionnalités suivantes sont désormais à votre disposition :
 
 * **Notification push enrichie**
 
@@ -230,4 +230,3 @@ Accédez au guide de référence approprié pour votre rôle afin de découvrir 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
 Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
-

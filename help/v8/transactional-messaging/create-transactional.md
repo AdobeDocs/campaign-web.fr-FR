@@ -4,7 +4,7 @@ title: Créer des messages transactionnels
 description: Découvrir comment créer un message transactionnel dans l’interface d’utilisation de Campaign Web
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Découvrez comment configurer les paramètres de diffusion dans Cam
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2888'
 ht-degree: 100%
 

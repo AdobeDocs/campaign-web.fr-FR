@@ -4,7 +4,7 @@ title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 100%
 

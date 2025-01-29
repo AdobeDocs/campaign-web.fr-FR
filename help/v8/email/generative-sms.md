@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: SMS avec l’accélérateur de contenu de l’assistant d’IA
+title: SMS avec l’accélérateur de contenu de l’Assistant IA
 description: Commencer avec l’accélérateur de contenu de l’assistant IA
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 90%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [ contrat utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’accélérateur de contenu de l’assistant d’IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre personne représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’accélérateur de contenu de l’Assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou votre représentante Adobe.
 
-Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, redirigez votre communication vers le niveau supérieur grâce à l’accélérateur de contenu de l’assistant d’IA dans le web Adobe Campaign, optimisé par une technologie IA innovante.
+Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, améliorez votre communication grâce à l’accélérateur de contenu de l’Assistant IA dans Adobe Campaign Web, propulsé par une technologie d’IA innovante.
 
 Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre contenu, permettant à vos messages d’avoir un impact efficace et de maximiser l’engagement.
 
@@ -99,7 +99,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** pour que l’accélérateur de contenu de l’assistant d’IA personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’accélérateur de contenu de l’Assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 

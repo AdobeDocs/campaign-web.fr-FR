@@ -3,7 +3,7 @@ title: Notes de mise à jour de l’interface d’utilisation précédente de Ca
 description: Versions de l’interface d’utilisation de Campaign Web 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2206'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Cette page répertorie toutes les modifications et améliorations disponibles da
 <table>
 <thead>
 <tr>
-<th><strong>Accélérateur de contenu de l’assistant IA</strong><br/></th>
+<th><strong>Accélérateur de contenu de l’Assistant IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>

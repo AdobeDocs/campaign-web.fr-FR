@@ -3,7 +3,7 @@ title: Assistant IA pour les cas d’utilisation de l’accélérateur de conte
 description: Découvrir comment utiliser l’Assistant IA pour l’accélérateur de contenu à travers les cas d’utilisation
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 source-git-commit: a387304ed95a6e33beb31f15f888a77edf0cad6e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 100%
 

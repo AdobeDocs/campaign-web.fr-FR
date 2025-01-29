@@ -4,7 +4,7 @@ title: À propos de la quarantaine
 description: Comprendre la gestion des adresses en quarantaine
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
 source-git-commit: 3e99bf1453ef38ec915dc82828f44c7d7ffb2acd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
