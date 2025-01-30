@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
+source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 35%
+source-wordcount: '514'
+ht-degree: 31%
 
 ---
 
@@ -67,7 +67,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
 <tr>
 <td>
 <p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface utilisateur web d’Adobe Campaign. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les typologies valident que vos diffusions contiennent toujours des éléments requis (tels qu’un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible prévue (tels que les clients et clientes désabonnés, les concurrents et les clientes et clients ne faisant pas partie du programme de fidélité).</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
 <tr>
 <td>
 <p>Vous pouvez désormais créer des énumérations directement via l'interface utilisateur web d'Adobe Campaign. Une énumération est une liste de valeurs suggérées par le système pour renseigner les champs. Utilisez des énumérations pour normaliser les valeurs de ces champs, faciliter la saisie de données ou les utiliser dans des requêtes.</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
 <tr>
 <td>
 <p>Vous pouvez désormais accéder aux options techniques de l’interface utilisateur web d’Adobe Campaign et créer vos propres options personnalisées en fonction de vos besoins. Cela s’avère particulièrement utile lorsque vous travaillez avec des activités de workflow de code JavaScript pour stocker des données intermédiaires.</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -116,7 +116,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
 <tr>
 <td>
 <p>Vous pouvez désormais créer des codes JavaScript dans l’interface utilisateur web d’Adobe Campaign. Vous pouvez ainsi créer des fonctions réutilisables qui peuvent être utilisées dans les workflows, comme une bibliothèque.</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
    * Vous pouvez désormais sélectionner d’autres champs personnalisés à afficher dans l’interface
    * Vous pouvez désormais définir des règles pour l’affichage des champs personnalisés de type lien, telles que la restriction des valeurs de liste en fonction des entrées d’un autre champ
    * Vous pouvez désormais organiser les champs dans l’interface avec plus de flexibilité : les champs peuvent s’étendre sur une seule colonne ou être regroupés en sous-sections pour une meilleure organisation
-   * Vous pouvez désormais définir des champs spécifiques en lecture seule.
+   * Vous pouvez désormais définir des champs spécifiques en lecture seule
 
 * Filtres récents et Favoris : pour réutiliser rapidement des attributs fréquemment utilisés, vous pouvez désormais les ajouter aux favoris. Cela permet de s’assurer qu’elles sont facilement accessibles pour les tâches futures. Outre les favoris, vous pouvez également afficher et utiliser les attributs sélectionnés le plus récemment.
 
