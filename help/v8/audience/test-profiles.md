@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 >abstract="Les profils de test sont des profils destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant d’envoyer vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d’un message et envoyer des BAT aux profils de test afin de contrôler et de valider le contenu et les paramètres d’un message."
 
 Les profils de test sont utilisés pour envoyer des BAT et valider le contenu et les paramètres de votre message. Ces profils sont des profils destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant d’envoyer vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d’un message et envoyer des BAT aux profils de test afin de contrôler et de valider le contenu et les paramètres d’un message.
+
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -105,3 +107,9 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 Le profil de test que vous venez de créer est maintenant prêt à être utilisé pour envoyer un BAT. [En savoir plus](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
+
+## Vidéo pratique {#video}
+
+Découvrez comment créer et gérer des profils de test à l’aide de l’interface utilisateur web de Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
