@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
+source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 35%
 
 ---
 
@@ -17,31 +17,120 @@ L’interface d’utilisation d’Adobe Campaign Web fournit continuellement d
 
 **Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication.**. Les liens, les écrans et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md), à la date de publication.
 
-## Notes de mise à jour d’août {#24-8-release}
+## Version du 25 janvier {#25-1-release}
 
-**Date de publication** : 3 septembre 2024
+**Date de publication** : 5 février 2025
 
-Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version d’août.
+Les fonctionnalités et améliorations suivantes sont disponibles à partir de la version de janvier.
 
-**Répartition des valeurs** : lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ. Une fenêtre contextuelle dédiée indique le nombre et le pourcentage pour chaque valeur.
+### Fonctionnalités {#25-1-features}
 
 
-### Nouvelles fonctionnalités en disponibilité limitée {#acs-24-8}
+<table>
+<thead>
+<tr>
+<th><strong>Créer et utiliser des fragments visuels</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les fragments visuels sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs diffusions d’e-mail ou dans des modèles de contenu. Cette fonctionnalité est désormais disponible pour tous les clients qui s’exécutent sur le serveur version 8.6.4 et ultérieures.</p>
+<p>Pour plus d’informations, consultez la <a href="../content/use-visual-fragments.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
->[!AVAILABILITY]
->
->Les fonctionnalités suivantes sont en disponibilité limitée. Celles-ci sont limitées aux clientes et clients qui effectuent la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et elles ne peuvent pas être déployées dans un autre environnement.
->
->Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"}.
+<table>
+<thead>
+<tr>
+<th><strong>Utiliser un système tiers pour envoyer des diffusions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez maintenant définir des diffusions externes et des modèles de diffusion externes dans l'interface utilisateur web de Campaign. Avec ce mode, les messages sont générés dans un fichier d’entrée qui peut être partagé avec votre fournisseur externe. Le mode de diffusion externe est le mode par défaut du canal de publipostage direct.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Branding du publipostage direct** : les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux pages de destination ainsi que les paramètres du tracking des messages. Vous pouvez à présent créer ces marques et les associer à des messages ou à des pages de destination. Cette configuration est gérée dans des modèles.
+<table>
+<thead>
+<tr>
+<th><strong>Contrôler et filtrer l’envoi des diffusions avec des typologies</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface utilisateur web d’Adobe Campaign. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les typologies valident que vos diffusions contiennent toujours des éléments requis (tels qu’un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible prévue (tels que les clients et clientes désabonnés, les concurrents et les clientes et clients ne faisant pas partie du programme de fidélité).</p>
+<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Abonnements avec les pages de destination** : vous pouvez désormais lier une page de destination à un service, et envoyer un message de confirmation lorsque des utilisateurs ou utilisatrices la valident.
+<table>
+<thead>
+<tr>
+<th><strong>Gestion des énumérations</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer des énumérations directement via l'interface utilisateur web d'Adobe Campaign. Une énumération est une liste de valeurs suggérées par le système pour renseigner les champs. Utilisez des énumérations pour normaliser les valeurs de ces champs, faciliter la saisie de données ou les utiliser dans des requêtes.</p>
+<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Fragments visuels** : vous pouvez désormais archiver des fragments de contenu visuel.
+<table>
+<thead>
+<tr>
+<th><strong>Création d’options personnalisées</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais accéder aux options techniques de l’interface utilisateur web d’Adobe Campaign et créer vos propres options personnalisées en fonction de vos besoins. Cela s’avère particulièrement utile lorsque vous travaillez avec des activités de workflow de code JavaScript pour stocker des données intermédiaires.</p>
+<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Captcha des pages de destination** : vous pouvez désormais ajouter un captcha pour protéger votre page de destination contre les spams et les abus causés par les robots. Cette action n’implique pas votre clientèle, car elle ne nécessite aucune interaction de sa part et repose sur les interactions avec votre site.
 
-* **API REST** : en tant qu’utilisateur ou utilisatrice ayant effectué la migration depuis Campaign Standard, vous pouvez désormais utiliser les API REST pour les messages transactionnels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.
+<table>
+<thead>
+<tr>
+<th><strong>Définition et appel de codes JavaScript</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer des codes JavaScript dans l’interface utilisateur web d’Adobe Campaign. Vous pouvez ainsi créer des fonctions réutilisables qui peuvent être utilisées dans les workflows, comme une bibliothèque.</p>
+<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations {#25-1-improvements}
+
+* Personnalisez l’affichage des champs personnalisés dans l’interface :
+
+   * Vous pouvez désormais sélectionner d’autres champs personnalisés à afficher dans l’interface
+   * Vous pouvez désormais définir des règles pour l’affichage des champs personnalisés de type lien, telles que la restriction des valeurs de liste en fonction des entrées d’un autre champ
+   * Vous pouvez désormais organiser les champs dans l’interface avec plus de flexibilité : les champs peuvent s’étendre sur une seule colonne ou être regroupés en sous-sections pour une meilleure organisation
+   * Vous pouvez désormais définir des champs spécifiques en lecture seule.
+
+* Filtres récents et Favoris : pour réutiliser rapidement des attributs fréquemment utilisés, vous pouvez désormais les ajouter aux favoris. Cela permet de s’assurer qu’elles sont facilement accessibles pour les tâches futures. Outre les favoris, vous pouvez également afficher et utiliser les attributs sélectionnés le plus récemment.
 
 
