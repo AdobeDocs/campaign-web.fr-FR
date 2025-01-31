@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 31%
+source-wordcount: '511'
+ht-degree: 21%
 
 ---
 
@@ -51,7 +51,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez maintenant définir des diffusions externes et des modèles de diffusion externes dans l'interface utilisateur web de Campaign. Avec ce mode, les messages sont générés dans un fichier d’entrée qui peut être partagé avec votre fournisseur externe. Le mode de diffusion externe est le mode par défaut du canal de publipostage direct.</p>
+<p>Vous pouvez maintenant définir des diffusions externes et des modèles de diffusion externes dans l'interface web de Campaign. Dans ce mode, les messages sont compilés dans un fichier d’entrée, qui peut être partagé avec votre fournisseur externe. Par défaut, le mode de diffusion externe est utilisé pour le canal courrier.</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
 <table>
 <thead>
 <tr>
-<th><strong>Contrôler et filtrer l’envoi des diffusions avec des typologies</strong><br/></th>
+<th><strong>Création de règles métier (règles de typologie)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface utilisateur web d’Adobe Campaign. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les typologies valident que vos diffusions contiennent toujours des éléments requis (tels qu’un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible prévue (tels que les clients et clientes désabonnés, les concurrents et les clientes et clients ne faisant pas partie du programme de fidélité).</p>
+<p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface web d’Adobe Campaign. Une typologie est un ensemble de règles de typologie qui permettent de contrôler, de filtrer et de hiérarchiser les diffusions. Les typologies garantissent que vos diffusions contiennent toujours les éléments requis (tels qu’un lien de désabonnement ou une ligne d’objet) et appliquent des règles de filtrage pour exclure des groupes spécifiques de votre audience cible (tels que les désabonnés, les concurrents ou les clients ne faisant pas partie du programme de fidélité).</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
