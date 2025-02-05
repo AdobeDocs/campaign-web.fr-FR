@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -52,24 +52,24 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 >[!BEGINTABS]
 
 
->[!TAB Version d’octobre 2024]
+>[!TAB Version du 25 janvier]
 
-La version d’octobre est maintenant en ligne. Elle contient les messages transactionnels, les comptes externes et d’autres améliorations encore.
+La version de janvier est maintenant en ligne, avec des messages transactionnels, des comptes externes et d’autres améliorations.
 
-[![Image](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB Accélérateur de contenu de l’assistant IA]
 
 ✨ Plongez dans une expérience pratique avec la prévisualisation de notre fonctionnalité en direct, l’[accélérateur de contenu de l’assistant IA](../v8/email/generative-gs.md), conçu pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.
 
-[![Image](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![bouton En savoir plus](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Répartition des valeurs]
+>[!TAB FAQ]
 
-Lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ.
+Les questions fréquentes sur l’interface utilisateur web de Campaign sont répertoriées dans une nouvelle page dédiée.
 
-[![Image](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
+[![bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]

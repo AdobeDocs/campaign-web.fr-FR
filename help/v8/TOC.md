@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Documentation de l’interface utilisateur web d’Adobe Campaign](campaign-web-home.md)
 + Notes de mise à jour {#release-notes}
    + [Nouveautés](rn/whats-new.md)
-   + [Notes de mise à jour anticipées](rn/e-release-notes.md)
+   + [Version anticipée](rn/e-release-notes.md)
    + [Dernière version](rn/release-notes.md)
    + Versions précédentes {#previous-release-notes}
       + [Versions 2024](rn/release-notes-24.md)
@@ -30,6 +30,7 @@ ht-degree: 100%
    + [Parcourir et filtrer les listes](get-started/list-filters.md)
    + [Utiliser des filtres prédéfinis](get-started/predefined-filters.md)
    + [Utiliser des dossiers](get-started/work-with-folders.md)
+   + [Sélectionner des attributs et les ajouter aux favoris](get-started/attributes.md)
    + [Autorisations](get-started/permissions.md)
    + [Campaign Web et console cliente](get-started/capability-matrix.md)
    + [De Campaign Standard vers v8](rn/acs-migration.md)
@@ -40,7 +41,6 @@ ht-degree: 100%
    + [Accéder aux diffusions](msg/gs-deliveries.md)
    + [Créer une diffusion](msg/create-deliveries.md)
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
-   + [Utiliser des typologies](msg/typologies.md)
    + E-mails {#email}
       + [Créer votre premier e-mail](email/create-email.md)
       + [Configurer le contenu de l’e-mail](email/edit-content.md)
@@ -72,6 +72,7 @@ ht-degree: 100%
       + [Créer un message transactionnel](transactional-messaging/create-transactional.md)
       + [Valider votre message transactionnel](transactional-messaging/validate-transactional.md)
       + [Surveiller des messages transactionnels](transactional-messaging/monitor-transactional.md)
+   + [Envoyer des diffusions externes](msg/send-external-deliveries.md)
    + [Ajouter des offres à vos messages](msg/offers.md)
    + [Envoyer des messages à vos personnes abonnées](msg/send-to-subscribers.md)
    + [Configurer les paramètres de diffusion](advanced-settings/delivery-settings.md)
@@ -227,4 +228,8 @@ ht-degree: 100%
 + Configuration {#conf}
    + [Configurer des champs personnalisés](administration/custom-fields.md)
    + [Configurer des comptes externes](administration/external-account.md)
+   + [Utiliser des typologies](administration/typologies.md)
+   + [Gérer les énumérations](administration/enumerations.md)
+   + [Configurer [!DNL Campaign] options](administration/options.md)
+   + [Utiliser les codes JavaScript](administration/javascript-codes.md)
 + [Documentation de Campaign v8 (console) >](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home)

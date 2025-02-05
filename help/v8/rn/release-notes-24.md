@@ -2,9 +2,9 @@
 title: Notes de mise à jour de l’interface d’utilisation précédente de Campaign v8 Web
 description: Versions de l’interface d’utilisation de Campaign Web 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2506'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,66 @@ ht-degree: 100%
 # Notes de mise à jour 2024 {#2024-release}
 
 Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions 2024**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
+
+
+## Version d’octobre 2024 {#24-10-release}
+
+**Date de publication** : 29 octobre 2024
+
+Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version d’octobre.
+
+### Fonctionnalités
+
+<table>
+<thead>
+<tr>
+<th><strong>Comptes externes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais configurer et gérer des comptes externes directement via l’interface d’utilisation d’Adobe Campaign Web. Cette nouvelle fonctionnalité facilite la configuration de différents types de comptes externes, tels que les e-mails rejetés (POP3) ou les instances d’exécution.</p>
+<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Messages transactionnels</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les messages transactionnels (Message Center) sont désormais disponibles dans l’interface d’utilisation de Campaign Web. Ce module complémentaire est conçu pour les messages de déclenchement qui sont générés à partir d’événements déclenchés depuis des systèmes d’information et qui peuvent correspondre aux éléments suivants : facture, confirmation de commande, confirmation d’expédition, changement de mot de passe, notification d’indisponibilité d’un produit, relevé de compte, création d’un compte sur un site web, etc.</p>
+<p>Pour plus d’informations, consultez la <a href="../transactional-messaging/transactional.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Améliorations
+
+* **Activités de workflows** : vous pouvez désormais déplacer une activité et tous ses nœuds enfant d’une transition vers une autre au sein d’un workflow. Un bouton **Déplacer** dédié est disponible dans le volet des propriétés de l’activité pour effectuer cette opération. [En savoir plus](../workflows/orchestrate-activities.md#move)
+
+* **Activité d’enrichissement de workflow**
+
+   * Vous pouvez désormais définir un Alias et un Libellé lors de la création d’un champ dans l’activité **Enrichissement**. [En savoir plus](../workflows/activities/enrichment.md#collection-settings)
+   * Vous pouvez désormais ajouter des offres pour chaque profil dans l’activité **Enrichissement**. [En savoir plus](../workflows/activities/enrichment.md##add-offers)
+
+* **Répartition des valeurs** : lorsque vous accédez à la liste des champs à personnaliser, vous pouvez désormais vérifier comment les valeurs sont distribuées pour chaque champ. Une fenêtre contextuelle dédiée indique le nombre et le pourcentage pour chaque valeur. [En savoir plus](../query/build-query.md#distribution-values-query)
+
+* **Version et informations sur le système** : vous pouvez désormais accéder aux détails sur les versions de votre instance, à la fois pour la console cliente et l’interface d’utilisation web. Cette nouvelle section répertorie également tous les packages intégrés installés dans votre environnement. [En savoir plus](../get-started/user-interface.md#user-interface-about)
+
+* **Listes** : vous pouvez désormais facilement réorganiser les valeurs d’une liste. [En savoir plus](../get-started/work-with-folders.md)
+
+* **Diffusion** : les variables de diffusion sont désormais accessibles à partir des champs de personnalisation. [En savoir plus](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## Mises à jour de septembre {#9-2024}

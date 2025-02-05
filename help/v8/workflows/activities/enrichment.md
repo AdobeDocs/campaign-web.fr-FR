@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2061'
-ht-degree: 100%
+source-wordcount: '2071'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 >title="Activité Enrichissement"
 >abstract="Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
 
-1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données.
+1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données. [Découvrez comment sélectionner des attributs et les ajouter aux favoris](../../get-started/attributes.md)
 
    Vous pouvez sélectionner deux types de données d’enrichissement : un attribut d’enrichissement unique de la dimension cible, ou un lien de collection. Chacun de ces types est détaillé dans les exemples ci-dessous :
    * [Attribut d’enrichissement unique](#single-attribute)

@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Extraction de fichier
 description: Découvrir comment utiliser l’activité de workflow Extraction de fichier
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ La section **[!UICONTROL Fichier à extraire]** vous permet de configurer les pr
 1. Indiquez les colonnes à présenter dans le fichier extrait. Pour ce faire, procédez comme suit :
 
    1. Cliquez sur **[!UICONTROL Ajouter une colonne de sortie]**.
-   1. Sélectionnez l’attribut à afficher dans la colonne, puis confirmez. Les attributs disponibles dépendent de la dimension de ciblage du workflow.
+   1. Sélectionnez l’attribut à afficher dans la colonne, puis confirmez. Les attributs disponibles dépendent de la dimension de ciblage du workflow. [Découvrez comment sélectionner des attributs et les ajouter aux favoris](../../get-started/attributes.md)
    1. Une fois la colonne ajoutée, vous pouvez modifier son **[!UICONTROL libellé]** et l’**[!UICONTROL attribut]** associé.
    1. Si vous souhaitez appliquer une transformation aux valeurs de la colonne, sélectionnez-la dans la liste déroulante. Par exemple, vous pouvez mettre toutes les valeurs de la colonne sélectionnée en majuscules.
 

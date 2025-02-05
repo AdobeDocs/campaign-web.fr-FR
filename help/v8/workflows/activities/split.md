@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Partage
 description: Découvrez comment utiliser l’activité de workflow Partage.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
       >[!NOTE]
       >
-      >Lorsque vous définissez une limite de population pour un sous-ensemble, vous pouvez classer les profils sélectionnés en fonction d’un attribut de profil spécifique, dans un ordre croissant ou décroissant. Pour ce faire, activez l’option **[!UICONTROL Activer le tri]**. Par exemple, vous pouvez restreindre un sous-ensemble afin de n’inclure que les 50 premiers profils qui ont le montant d’achat le plus élevé.
+      >Lors de la définition d’une limite de population pour un sous-ensemble, vous pouvez classer les profils sélectionnés en fonction d’un [attribut de profil](../../get-started/attributes.md) spécifique, par ordre croissant ou décroissant. Pour ce faire, activez l’option **[!UICONTROL Activer le tri]**. Par exemple, vous pouvez restreindre un sous-ensemble afin de n’inclure que les 50 premiers profils qui ont le montant d’achat le plus élevé.
 
 1. Une fois que vous avez paramétré tous les sous-ensembles, vous pouvez sélectionner la population restante qui ne correspond à aucun des sous-ensembles et les inclure dans une transition sortante supplémentaire. Pour ce faire, activez l’option **[!UICONTROL Générer un complément]**.
 
