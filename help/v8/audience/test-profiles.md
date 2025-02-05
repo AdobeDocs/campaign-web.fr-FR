@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -110,6 +110,6 @@ Le profil de test que vous venez de créer est maintenant prêt à être utilis�
 
 ## Vidéo pratique {#video}
 
-Découvrez comment créer et gérer des profils de test à l’aide de l’interface utilisateur web de Campaign.
+Découvrez comment créer et gérer des profils de test à l’aide de l’interface d’utilisation web de Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
