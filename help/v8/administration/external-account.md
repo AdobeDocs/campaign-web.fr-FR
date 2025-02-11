@@ -2,25 +2,20 @@
 title: Gérer le compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 51%
+source-wordcount: '686'
+ht-degree: 46%
 
 ---
 
 # Gestion des comptes externes {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Comptes externes"
->abstract="Vous pouvez désormais vous connecter à d’autres plateformes ou personnaliser les connexions pour qu’elles s’adaptent à votre workflow, et créer facilement des comptes externes pour répondre à vos besoins spécifiques et garantir un transfert de données fluide."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
-
 >[!AVAILABILITY]
 >
-> Notez que les comptes externes ne sont actuellement disponibles que pour les e-mails bounce (POP3), le routage et l&#39;instance d&#39;exécution, avec d&#39;autres types de comptes à ajouter à l&#39;avenir.
-> Les comptes externes non pris en charge créés dans la console Adobe Campaign sont visibles dans l’interface d’utilisation web, mais ne peuvent pas être modifiés et ne sont pas accessibles.
+>* Actuellement, les comptes externes ne sont disponibles que pour les e-mails bounce (POP3), le routage et l&#39;instance d&#39;exécution. D’autres types de comptes seront ajoutés à l’avenir.
+>
+>* Les comptes externes non pris en charge créés dans la console Adobe Campaign sont visibles dans l’interface utilisateur web, mais ne peuvent pas être modifiés ni consultés.
 
 Adobe Campaign est fourni avec un ensemble de comptes externes préconfigurés pour faciliter l’intégration avec différents systèmes. Si vous devez vous connecter à d’autres plateformes ou personnaliser les connexions pour qu’elles s’adaptent à votre workflow, vous pouvez désormais facilement créer des comptes externes à l’aide de l’interface d’utilisation web pour répondre à vos besoins spécifiques et garantir des transferts de données transparents.
 

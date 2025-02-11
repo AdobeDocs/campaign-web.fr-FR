@@ -2,7 +2,7 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4ece6d0a766682d65fb4a3f9135b667f558cb51c
+source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 83%
@@ -145,6 +145,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <tr>
 <td>
 <p>L’accélérateur de contenu de l’assistant d’IA est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
+<img src="assets/do-not-localize/ai-lp.gif">
 <p>Pour plus d’informations sur l’accélérateur de contenu de l’assistant AI, consultez la <a href="../email/generative-lp.md">documentation détaillée</a>.</p>
 </td>
 </tr>

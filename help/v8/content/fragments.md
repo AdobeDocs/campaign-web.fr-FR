@@ -3,20 +3,14 @@ audience: end-user
 title: Commencer avec les fragments de contenu
 description: Découvrez comment utiliser les fragments de contenu.
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '383'
 ht-degree: 95%
 
 ---
 
 # Commencer avec les fragments de contenu {#gs-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Fragments de contenu"
->abstract="Vous pouvez désormais créer et utiliser des fragments de contenu. Un fragment de contenu est un composant réutilisable pouvant être référencé dans un ou plusieurs messages. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"

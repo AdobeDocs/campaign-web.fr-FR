@@ -3,20 +3,14 @@ audience: end-user
 title: Commencer avec l’accélérateur de contenu de l’Assistant IA
 description: Commencer avec l’accélérateur de contenu de l’assistant IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
 
 # Utiliser l’accélérateur de contenu de l’Assistant IA  {#generative-gs}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Accélérateur de contenu de l’Assistant IA"
->abstract="L’assistant IA rend la création et l’exécution de campagnes marketing sur plusieurs canaux (comme les e-mails, les SMS et les notifications push) intuitives, simples et sans accroc tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 
 >[!CONTEXTUALHELP]
