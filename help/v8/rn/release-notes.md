@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais définir des diffusions externes et des modèles de diffusion externe dans l’interface web de Campaign. Dans ce mode, les messages sont compilés dans un fichier de sortie, qui peut être partagé avec votre fournisseur externe. Par défaut, le mode de diffusion externe est utilisé pour le canal courrier.</p>
+<p>Vous pouvez désormais définir des diffusions externes et des modèles de diffusion externe dans l’interface web de Campaign. Avec ce mode, les messages sont compilés dans un fichier de sortie qui peut être partagé avec votre fournisseur externe. Par défaut, le mode de diffusion externe est utilisé pour le canal courrier.</p>
 <img src="assets/do-not-localize/external-delivery.gif">
 <p>Pour plus d’informations, consultez la <a href="../msg/send-external-deliveries.md">documentation détaillée</a>.</p>
 </td>
@@ -138,15 +138,15 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <table>
 <thead>
 <tr>
-<th><strong>Génération de pages de destination avec l’accélérateur de contenu de l’assistant d’IA</strong><br/></th>
+<th><strong>Génération de page de destination avec l’accélérateur de contenu de l’assistant IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’accélérateur de contenu de l’assistant d’IA est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
+<p>L’accélérateur de contenu de l’assistant IA est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Pour plus d’informations sur l’accélérateur de contenu de l’assistant AI, consultez la <a href="../email/generative-lp.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations sur l’accélérateur de contenu de l’assistant IA, consultez la <a href="../email/generative-lp.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -166,4 +166,4 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 
 * Filtres récents et favoris : pour réutiliser rapidement des attributs fréquemment utilisés, vous pouvez désormais les ajouter aux favoris. Cela permet de s’assurer qu’ils sont facilement accessibles pour les tâches futures. Outre les favoris, vous pouvez également afficher et utiliser les derniers attributs sélectionnés.
 
-* Comptes externes : le nouveau type **[!UICONTROL Routage]** peut être sélectionné lors de la création d’un compte externe. Il permet de configurer un compte externe spécifique à utiliser dans vos diffusions externes. [En savoir plus](../administration/external-account.md#routing)
+* Comptes externes : le nouveau type **[!UICONTROL Routage]** peut être sélectionné lors de la création d’un compte externe. Il permet de configurer un compte externe spécifique à utiliser dans vos diffusions externes. [En savoir plus](../administration/external-account.md#routing)
