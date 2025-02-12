@@ -6,9 +6,9 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '798'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 97%
       + [Génération d’e-mails avec IA](email/generative-content.md)
       + [Génération de SMS avec IA](email/generative-sms.md)
       + [Génération de notifications push avec IA](email/generative-push.md)
-      + [Génération de pages de destination avec l’IA](email/generative-lp.md)
+      + [Génération de page de destination avec IA](email/generative-lp.md)
       + [Cas d’utilisation de l’Assistant IA](email/generative-uc.md)
 + Pages de destination {#landing-pages}
    + [Commencer avec les pages de destination](landing-pages/get-started-lp.md)
@@ -231,6 +231,6 @@ ht-degree: 97%
    + [Configurer des comptes externes](administration/external-account.md)
    + [Utiliser des typologies](administration/typologies.md)
    + [Gérer les énumérations](administration/enumerations.md)
-   + [Configurer [!DNL Campaign] options](administration/options.md)
+   + [Configurer les options  [!DNL Campaign] ](administration/options.md)
    + [Utiliser les codes JavaScript](administration/javascript-codes.md)
 + [Documentation de Campaign v8 (console) >](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home)

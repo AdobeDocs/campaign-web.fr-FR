@@ -4,9 +4,9 @@ description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,24 +52,24 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 >[!BEGINTABS]
 
 
->[!TAB Version du 25 janvier]
+>[!TAB Version de janvier 2025]
 
-La version de janvier est maintenant en ligne, avec des messages transactionnels, des comptes externes et d’autres améliorations.
+La version de janvier est maintenant en ligne. Elle contient les messages transactionnels, les comptes externes et d’autres améliorations.
 
-[![bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![Bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB Accélérateur de contenu de l’assistant IA]
 
 ✨ Plongez dans une expérience pratique avec la prévisualisation de notre fonctionnalité en direct, l’[accélérateur de contenu de l’assistant IA](../v8/email/generative-gs.md), conçu pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.
 
-[![bouton En savoir plus](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Bouton En savoir plus](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB FAQ]
 
-Les questions fréquentes sur l’interface utilisateur web de Campaign sont répertoriées dans une nouvelle page dédiée.
+Les questions fréquentes sur l’interface d’utilisation web de Campaign sont répertoriées dans une nouvelle page dédiée.
 
-[![bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
+[![Bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
