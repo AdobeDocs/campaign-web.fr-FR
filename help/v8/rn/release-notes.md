@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 93%
 
 ---
 
@@ -138,15 +138,15 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <table>
 <thead>
 <tr>
-<th><strong>Génération de page de destination avec l’accélérateur de contenu de l’assistant IA</strong><br/></th>
+<th><strong>Génération de pages de destination avec l’assistant AI</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’accélérateur de contenu de l’assistant IA est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
+<p>L’assistant AI est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Pour plus d’informations sur l’accélérateur de contenu de l’assistant IA, consultez la <a href="../email/generative-lp.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations sur l’assistant AI, consultez la <a href="../email/generative-lp.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

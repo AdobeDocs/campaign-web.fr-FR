@@ -4,10 +4,10 @@ title: Journal d’audit
 description: Découvrez comment surveiller votre instance à lʼaide du journal dʼaudit Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en 
 
 Pour accéder au **[!UICONTROL journal d’audit]** de votre instance, procédez comme suit :
 
-1. Sous le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Journal d’audit]**.
+1. Dans le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Journal d’audit]**.
 
    ![](assets/audit-trail-1.png)
 

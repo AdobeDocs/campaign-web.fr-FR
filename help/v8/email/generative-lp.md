@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Page de destination avec l’accélérateur de contenu de l’assistant d’IA
-description: Commencer avec l’accélérateur de contenu de l’assistant IA
+title: Page de destination avec l’assistant AI
+description: Commencer avec l’assistant IA
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 66%
+source-wordcount: '1521'
+ht-degree: 70%
 
 ---
 
-# Génération de pages de destination avec l’accélérateur de contenu de l’assistant d’IA {#generative-lp}
+# Génération de pages de destination avec l’assistant AI{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Générer des pages de destination avec l’IA"
->abstract="Vous pouvez désormais utiliser l’accélérateur de contenu de l’assistant AI pour créer vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes."
+>abstract="Vous pouvez désormais utiliser l’assistant d’IA pour créer vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 
@@ -24,19 +24,19 @@ ht-degree: 66%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’accélérateur de contenu de l’Assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou votre représentante Adobe.
+>Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou votre représentante Adobe.
 
-Transformez vos pages de destination avec l’accélérateur de contenu de l’assistant AI dans Adobe Campaign Web, optimisé par l’IA générative.
+Transformez vos pages de destination à l’aide de l’assistant AI dans Adobe Campaign Web, optimisé par l’IA générative.
 
 Créez sans effort du contenu percutant, y compris des pages complètes, des fragments de texte personnalisés et des visuels personnalisés qui résonnent avec votre audience, ce qui entraîne un engagement et une interaction accrus.
 
-Explorez les onglets ci-dessous pour savoir comment utiliser l’accélérateur de contenu de l’Assistant IA dans Adobe Campaign Web.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant d’IA dans Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Génération complète de la page de destination]
 
-Dans l’exemple suivant, nous utiliserons l’accélérateur de contenu de l’assistant AI pour affiner un modèle de page de destination existant.
+Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un modèle de page de destination existant.
 
 1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -46,7 +46,7 @@ Dans l’exemple suivant, nous utiliserons l’accélérateur de contenu de l’
 
    ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** de l’accélérateur de contenu de l’assistant d’IA pour personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -99,7 +99,7 @@ Une fois votre page de destination prête, vous pouvez la publier pour la rendre
 
 >[!TAB Génération de texte uniquement]
 
-Dans l’exemple suivant, nous utiliserons l’accélérateur de contenu de l’assistant AI pour améliorer le contenu de notre page de destination.
+Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer le contenu de notre page de destination.
 
 1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -109,7 +109,7 @@ Dans l’exemple suivant, nous utiliserons l’accélérateur de contenu de l’
 
    ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** de l’accélérateur de contenu de l’assistant d’IA pour personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -159,19 +159,19 @@ Une fois votre page de destination prête, vous pouvez la publier pour la rendre
 
 >[!TAB Génération image seule]
 
-Dans l’exemple ci-dessous, découvrez comment tirer parti de l’accélérateur de contenu de l’assistant d’IA pour optimiser et améliorer vos ressources, offrant ainsi une expérience plus conviviale.
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
 1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
    Pour plus d&#39;informations sur la configuration de votre page de destination, reportez-vous à [cette page](../landing-pages/create-lp.md).
 
-1. Sélectionnez la ressource à modifier à l’aide de l’accélérateur de contenu de l’assistant IA .
+1. Sélectionnez la ressource à modifier à l’aide de l’assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Style de référence]** de l’accélérateur de contenu de l’assistant d’IA pour personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
+1. Activez l’option **[!UICONTROL Style de référence]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 

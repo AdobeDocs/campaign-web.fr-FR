@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Notifications push avec l’accélérateur de contenu de l’Assistant IA
-description: Commencer avec l’accélérateur de contenu de l’assistant IA
+title: Notification push avec l’assistant AI
+description: Commencer avec l’assistant IA
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 95%
 
 ---
 
-# Génération de notifications push avec l’accélérateur de contenu de l’assistant AI {#generative-push}
+# Génération de notifications push avec l’assistant IA {#generative-push}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’accélérateur de contenu de l’Assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou votre représentante Adobe.
+>Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou votre représentante Adobe.
 
-L’accélérateur de contenu de l’Assistant IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
+L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
 
 Dans l’exemple suivant, nous utiliserons l’assistant IA pour concevoir des messages attrayants afin de créer une expérience client plus attrayante.
 

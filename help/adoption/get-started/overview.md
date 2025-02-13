@@ -4,10 +4,10 @@ description: Découvrir les étapes requises pour commencer à utiliser votre no
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 100%
+source-wordcount: '1556'
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Adobe Cam
 
   Adobe Experience Manager as a Cloud Service offre une agilité cloud native, ce qui vous permet d’accélérer le temps d’évaluation et de vous adapter à l’évolution des besoins de l’entreprise. Cette intégration permet non seulement d’améliorer vos fonctionnalités de gestion de contenu, mais également de proposer à vos clientes et clients des expériences plus personnalisées et plus attrayantes sur tous les points de contact.
 
-* **Assistant IA - Accélérateur de contenu**
+* **Assistant IA**
 
   L’assistant IA de Campaign rend la création et l’exécution de campagnes marketing sur plusieurs canaux (comme les e-mails, les SMS et les notifications push) intuitives, simples et sans accroc tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats.
 
@@ -105,7 +105,7 @@ En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Adobe Cam
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Il fournit une variante de modèles d’e-mail et génère et génère à nouveau des images. En savoir plus sur l’assistant IA - Accélérateur de contenu dans [cette section](../../v8/email/generative-content.md). Adobe Campaign v8 comprend un assistant IA disponible pour les canaux [E-mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) et [Push](../../v8/email/generative-push.md).
+  Il fournit une variante de modèles d’e-mail et génère et génère à nouveau des images. En savoir plus sur l’assistant AI dans [cette section](../../v8/email/generative-content.md). Adobe Campaign v8 comprend un assistant IA disponible pour les canaux [E-mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) et [Push](../../v8/email/generative-push.md).
 
 * **Infrastructure SMS mise à niveau - SMS v2.0**
 
