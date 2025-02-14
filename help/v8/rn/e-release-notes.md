@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités accompagnant la version s
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
-source-wordcount: '543'
-ht-degree: 100%
+source-git-commit: 256d78c616891b4893186c6ad58cb6cbc4f6cde1
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 42%
 
 ---
 
@@ -17,45 +17,13 @@ L’interface d’utilisation d’Adobe Campaign Web fournit continuellement d
 
 **Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication.**. Les liens, les écrans et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md), à la date de publication.
 
-## Version de janvier 2025 {#25-1-release}
+## Version du 25 février {#25-2-ern}
 
-**Date de publication** : 5 février 2025
+**Date de publication** : 18 février 2025
 
-Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version de janvier.
+Les fonctionnalités et améliorations suivantes sont disponibles à partir de la version de février.
 
-### Fonctionnalités {#25-1-features}
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Créer et utiliser des fragments visuels</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les fragments visuels sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs diffusions e-mail ou dans des modèles de contenu. Cette fonctionnalité est désormais disponible pour les clientes et clients utilisant la version 8.6.4 du serveur et les versions ultérieures.</p>
-<p>Pour plus d’informations, consultez la <a href="../content/use-visual-fragments.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Utiliser un système tiers pour envoyer des diffusions</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais définir des diffusions externes et des modèles de diffusion externe dans l’interface web de Campaign. Avec ce mode, les messages sont compilés dans un fichier d’entrée qui peut être partagé avec votre fournisseur externe. Par défaut, le mode de diffusion externe est utilisé pour le canal courrier.</p>
-</td>
-</tr>
-</tbody>
-</table>
+### Fonctionnalités {#25-2-ern-features}
 
 <table>
 <thead>
@@ -66,7 +34,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface web d’Adobe Campaign. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et hiérarchiser les diffusions. Les typologies garantissent que vos diffusions contiennent toujours les éléments requis (tels qu’un lien de désabonnement ou une ligne d’objet) et appliquent des règles de filtrage pour exclure des groupes spécifiques de votre audience cible (tels que les personnes désabonnées, les concurrentes ou concurrents, ou les personnes ne faisant pas partie du programme de fidélité).</p>
+<p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface utilisateur web d’Adobe Campaign. Les typologies vous permettent de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions. Les typologies sont utilisées pour vérifier que les diffusions contiennent toujours des composants obligatoires (tels qu’un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre audience (tels que les désabonnés, les concurrents ou les clients non fidèles).</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>Pour plus d’informations, consultez la <a href="../administration/typologies.md">documentation détaillée</a>.</p>
 </td>
@@ -77,64 +45,20 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <table>
 <thead>
 <tr>
-<th><strong>Gérer vos énumérations</strong><br/></th>
+<th><strong>Mappings de ciblage</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer des énumérations directement via l’interface d’utilisation web d’Adobe Campaign. Une énumération est une liste de valeurs proposées par le système pour renseigner les champs. Utilisez des énumérations pour normaliser les valeurs de ces champs, faciliter la saisie de données ou les utiliser dans des requêtes.</p>
-<img src="assets/do-not-localize/enumerations.gif">
-<p>Pour plus d’informations, consultez la <a href="../administration/enumerations.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Créer des options personnalisées</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais accéder aux options techniques de l’interface d’utilisation web d’Adobe Campaign et créer vos propres options personnalisées en fonction de vos besoins. Cela s’avère particulièrement utile lorsque vous travaillez avec des activités de workflow de code JavaScript pour stocker des données intermédiaires.</p>
-<img src="assets/do-not-localize/options.gif">
-<p>Pour plus d’informations, consultez la <a href="../administration/options.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais créer des mappings de ciblage dans l’interface utilisateur web de Campaign. Les mappings de ciblage définissent la manière dont différents canaux de diffusion (e-mail, SMS, notifications push) sont liés aux champs de données d’un schéma. Le mapping de ciblage permet de définir l'audience ciblée : profils, bénéficiaires d'un contrat, opérateurs, abonnés, prospects, etc.</p>
+<p>Pour plus d’informations, consultez la <a href="../administration/typologies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
-<thead>
-<tr>
-<th><strong>Définir et appeler des codes JavaScript</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais créer des codes JavaScript dans l’interface d’utilisation web d’Adobe Campaign. Vous pouvez ainsi créer des fonctions réutilisables qui peuvent être utilisées dans les workflows, à la manière d’une bibliothèque.</p>
-<img src="assets/do-not-localize/javascript.gif">
-<p>Pour plus d’informations, consultez la <a href="../administration/javascript-codes.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+### Amélioration {#25-2-improvements}
 
-### Améliorations {#25-1-improvements}
-
-* Personnalisez l’affichage des champs personnalisés dans l’interface :
-
-   * Vous pouvez désormais sélectionner d’autres champs personnalisés à afficher dans l’interface.
-   * Vous pouvez désormais définir des règles pour l’affichage des champs personnalisés de type lien, par exemple en limitant les valeurs de liste en fonction de l’entrée d’un autre champ.
-   * Vous pouvez désormais organiser les champs dans l’interface avec plus de flexibilité : les champs peuvent s’étendre sur une seule colonne ou être regroupés en sous-sections pour une meilleure organisation.
-   * Vous pouvez désormais définir des champs spécifiques en lecture seule.
-
-* Filtres récents et favoris : pour réutiliser rapidement des attributs fréquemment utilisés, vous pouvez désormais les ajouter aux favoris. Cela permet de s’assurer qu’ils sont facilement accessibles pour les tâches futures. Outre les favoris, vous pouvez également afficher et utiliser les derniers attributs sélectionnés.
-
-
+Vous pouvez désormais modifier les détails d’un schéma à partir du nouveau bouton **Modifier les détails personnalisés** disponible dans l’écran du formulaire.
