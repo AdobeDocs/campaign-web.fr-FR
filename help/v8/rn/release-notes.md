@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 93%
+source-wordcount: '770'
+ht-degree: 74%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 93%
 Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont complétées plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 Les modifications et améliorations disponibles avec les versions précédentes sont répertoriées [sur cette page](release-notes-24.md).
+
+## Version du 25 février {#25-2-release}
+
+**Date de publication** : 18 février 2025
+
+Les fonctionnalités et améliorations suivantes sont disponibles à partir de la version de février.
+
+### Fonctionnalités {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Créer des règles métier (règles de typologie)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface utilisateur web d’Adobe Campaign. Les typologies vous permettent de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions. Les typologies sont utilisées pour vérifier que les diffusions contiennent toujours des composants obligatoires (tels qu’un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre audience (tels que les désabonnés, les concurrents ou les clients non fidèles).</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>Pour plus d’informations, consultez la <a href="../administration/typologies.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Mappings de ciblage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer des mappings de ciblage dans l’interface utilisateur web de Campaign. Les mappings de ciblage définissent la manière dont différents canaux de diffusion (e-mail, SMS, notifications push) sont liés aux champs de données d’un schéma. Le mapping de ciblage permet de définir l'audience ciblée : profils, bénéficiaires d'un contrat, opérateurs, abonnés, prospects, etc.</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>Pour plus d’informations, consultez la <a href="../administration/target-mappings.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Détails du schéma</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais accéder aux détails d’un schéma en sélectionnant son nom dans la liste. L’édition des champs personnalisés est désormais accessible à partir du bouton <b>Modifier les champs personnalisés</b> disponible dans les détails du schéma.</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>Pour plus d’informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Version de janvier 2025 {#25-1-release}
 
@@ -62,25 +121,6 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### Améliorations {#25-1-improvements}

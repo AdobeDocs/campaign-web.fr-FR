@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 93%
+ht-degree: 90%
 
 ---
 
@@ -52,9 +52,9 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 >[!BEGINTABS]
 
 
->[!TAB Version de janvier 2025]
+>[!TAB Version du 25 février]
 
-La version de janvier est maintenant en ligne. Elle contient les messages transactionnels, les comptes externes et d’autres améliorations.
+La version de février est maintenant en ligne, avec ses règles métier, ses mappings de ciblage et d’autres améliorations.
 
 [![Bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

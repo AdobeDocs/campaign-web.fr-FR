@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 99%
    + [Version anticipée](rn/e-release-notes.md)
    + [Dernière version](rn/release-notes.md)
    + Versions précédentes {#previous-release-notes}
+      + [Versions 2025](rn/release-notes-25.md)
       + [Versions 2024](rn/release-notes-24.md)
    + [Mises à jour de la documentation](rn/documentation-updates.md)
 + Prise en main d’Adobe Campaign {#start}
@@ -227,10 +228,12 @@ ht-degree: 99%
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
+   + [Utilisation des règles métier (typologies)](administration/typologies.md)
+   + [Gestion des mappings de ciblage](administration/target-mappings.md)
+   + [Utilisation des schémas](administration/schemas.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer des comptes externes](administration/external-account.md)
-   + [Utiliser des typologies](administration/typologies.md)
-   + [Gérer les énumérations](administration/enumerations.md)
    + [Configurer les options  [!DNL Campaign] ](administration/options.md)
+   + [Configurer des comptes externes](administration/external-account.md)
+   + [Gérer les énumérations](administration/enumerations.md)
    + [Utiliser les codes JavaScript](administration/javascript-codes.md)
 + [Documentation de Campaign v8 (console) >](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home)

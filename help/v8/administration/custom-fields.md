@@ -2,9 +2,9 @@
 title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '925'
 ht-degree: 5%
 
 ---
@@ -68,9 +68,11 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
 
    Utilisez le filtre **[!UICONTROL Modifiable]** dans le volet Filtres pour identifier rapidement les schémas comportant des champs personnalisés.
 
-   ![](assets/custom-fields-list.png)
+   ![](assets/custom-fields-open.png)
 
-1. Cliquez sur l’icône en forme de crayon située à côté du nom du schéma pour accéder à ses champs personnalisés. Dans cet exemple, nous allons ajouter des champs pour le schéma **[!UICONTROL Destinataires]**.
+1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir. Une vue de schéma détaillée affiche [En savoir plus sur les détails du schéma](../administration/schemas.md). Cliquez sur le bouton **[!UICONTROL Modifier les détails personnalisés]** pour accéder aux champs personnalisés. Dans cet exemple, nous allons ajouter des champs pour le schéma **[!UICONTROL Destinataires]**.
+
+   ![](assets/custom-fields-edit.png)
 
 1. La liste des champs personnalisés affichée dans l’interface pour le schéma s’affiche. Ici, le champ « ID CRM » est visible dans l’écran des détails des profils et a été marqué comme obligatoire.
 
@@ -78,9 +80,9 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
    |  ---  |  ---  |
    | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-1. Pour ajouter un champ personnalisé à l’interface , cliquez sur le bouton **[!UICONTROL Ajouter]** dans le coin supérieur droit de l’écran, puis sélectionnez l’une des options suivantes :
+1. Pour ajouter un champ personnalisé à l’interface , cliquez sur le bouton représentant des points de suspension et choisissez l’une des options suivantes :
 
-   * **[!UICONTROL Attributs personnalisés]** : sélectionnez un ou plusieurs champs personnalisés à afficher dans l’interface.
+   * **[!UICONTROL Sélectionner des champs personnalisés]** : sélectionnez un ou plusieurs champs personnalisés à afficher dans l’interface.
    * **[!UICONTROL Remplir automatiquement la liste des champs personnalisés]** : ajoutez à l&#39;interface tous les champs personnalisés définis pour le schéma.
 
    ![](assets/custom-fields-add.png)
@@ -91,7 +93,7 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
    * **Rendre les champs obligatoires** : cochez la case **Obligatoire**.
    * **Modifier les paramètres des champs** : cliquez sur le bouton représentant des points de suspension et choisissez **[!UICONTROL Modifier]**. [En savoir plus](#settings)
    * **Supprimer les champs** : cliquez sur le bouton représentant des points de suspension et choisissez **[!UICONTROL Supprimer]**.
-   * **Organiser les champs en sous-sections dans l&#39;interface** : cliquez sur **[!UICONTROL Ajouter]** et choisissez **[!UICONTROL Séparateur]**. [En savoir plus](#separator)
+   * **Organiser les champs en sous-sections dans l’interface** : cliquez sur le bouton représentant des points de suspension à côté des flèches haut et bas et choisissez **[!UICONTROL Ajouter un séparateur]**. [En savoir plus](#separator)
 
 ## Configuration des paramètres de champs personnalisés {#settings}
 
@@ -124,7 +126,7 @@ Les paramètres disponibles sont les suivants :
 
 L’interface utilisateur web de Campaign vous permet d’ajouter des séparateurs afin de regrouper les champs personnalisés dans l’interface pour une meilleure lisibilité. Pour ce faire, procédez comme suit :
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez **[!UICONTROL Séparateur]**.
+1. Cliquez sur le bouton représentant des points de suspension à côté des flèches haut et bas et sélectionnez **[!UICONTROL Ajouter un séparateur]**.
 
 1. Une nouvelle ligne représentant le séparateur est ajoutée à la liste. Cliquez sur le bouton représentant des points de suspension et choisissez **[!UICONTROL Modifier]** pour nommer la sous-section.
 
