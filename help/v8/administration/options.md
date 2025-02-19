@@ -1,21 +1,15 @@
 ---
-title: Configurer [!DNL Campaign] options
+title: 'Configurer les options  [!DNL Campaign] '
 description: Découvrez comment configurer les options de Campaign et créer vos propres options personnalisées.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '383'
+ht-degree: 2%
 
 ---
 
 # Configurer les options de [!DNL Campaign] {#options}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Créer des options personnalisées"
->abstract="Vous pouvez maintenant créer vos propres options techniques personnalisées en fonction de vos besoins. Cela s’avère particulièrement utile lorsque vous utilisez des activités de workflow **Code JavaScript** pour stocker des données intermédiaires."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"
@@ -31,7 +25,7 @@ Adobe Campaign Web s’accompagne d’options techniques qui vous permettent de 
 
 >[!IMPORTANT]
 >
->Les options intégrées sont préconfigurées et ne doivent être modifiées que par les utilisateurs avancés. Si vous avez des questions ou des demandes, communiquez avec le représentant de votre Adobe.
+>Les options intégrées sont préconfigurées et ne doivent être modifiées que par les utilisateurs avancés. Si vous avez des questions ou des demandes, contactez votre représentant ou représentante Adobe.
 
 ## Accéder aux options de Campaign {#access}
 

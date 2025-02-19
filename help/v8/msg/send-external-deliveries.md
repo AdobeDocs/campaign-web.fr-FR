@@ -3,20 +3,14 @@ audience: end-user
 title: Prise en main des diffusions externes
 description: Découvrez comment créer et envoyer des diffusions externes à l’aide d’Adobe Campaign Web
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 19%
+source-wordcount: '465'
+ht-degree: 10%
 
 ---
 
 # Envoyer des diffusions externes {#gs-direct-mail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Création de diffusions externes"
->abstract="Vous pouvez désormais définir des diffusions externes et des modèles de diffusion externe dans l’interface web de Campaign. Avec ce mode, les messages sont compilés dans un fichier de sortie qui peut être partagé avec votre fournisseur externe. Par défaut, le mode de diffusion externe est utilisé pour le canal courrier."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 
 Adobe Campaign permet de gérer les diffusions créées en dehors de Campaign afin de diffuser en masse des emails personnalisés, des SMS ou des notifications push (iOS et Android) via un système externe.
