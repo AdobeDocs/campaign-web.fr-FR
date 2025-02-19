@@ -7,7 +7,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 91%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.4. Pour en savoir plus, consultez les notes de mise à jour de la console cliente [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
+>Cette fonctionnalité nécessite une mise à jour de Campaign vers la version 8.6.4. En savoir plus dans les [Notes de mise à jour de la console cliente Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
 
-Dans l’interface web de Campaign, les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs [diffusions e-mail](../email/get-started-email-designer.md) ou dans [modèles de contenu](../email/use-email-templates.md). Découvrez comment créer et gérer des fragments de contenu dans [ cette section ](fragments.md).
+Dans l’interface web de Campaign, les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs [diffusions e-mail](../email/get-started-email-designer.md) ou dans [modèles de contenu](../email/use-email-templates.md). Découvrez comment créer et gérer des fragments de contenu dans [cette section](fragments.md).
 
 ![](assets/do-not-localize/fragments.gif)
 
