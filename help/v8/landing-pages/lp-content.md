@@ -4,9 +4,9 @@ description: Découvrir comment concevoir du contenu spécifique à une page de 
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -87,12 +87,12 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et aux utili
    * **[!UICONTROL S’abonner si cette case est cochée]** : les utilisateurs et les utilisatrices doivent cocher la case pour accepter (abonnement).
    * **[!UICONTROL Se désabonner si cette case est cochée]** : les utilisateurs et les utilisatrices doivent cocher la case pour retirer leur consentement (désabonnement).
 
-   Si vous sélectionnez **[!UICONTROL Champ]**, sélectionnez un champ dans la liste [attributs](../get-started/attributes.md) et choisissez entre les deux options ci-dessous :
+   Si vous sélectionnez **[!UICONTROL Champ]**, sélectionnez un champ dans la [liste des attributs](../get-started/attributes.md), puis choisissez l’une des deux options ci-dessous :
 
    * **[!UICONTROL Oui si coché]**.<!--TBC-->
    * **[!UICONTROL Non si coché]**.<!--TBC-->
 
-1. Vous pouvez supprimer et ajouter autant de champs que nécessaire (tels que des champs de texte, des boutons radio, des cases à cocher, une liste déroulante, etc.).
+1. Vous pouvez supprimer et ajouter autant de champs que vous le souhaitez (champs de texte, boutons radio, cases à cocher, liste déroulante, etc.).
 
 1. Une fois tous les champs ajoutés ou mis à jour, cliquez sur **[!UICONTROL Appel à l’action]** pour développer la section correspondante. Cela permet de définir le comportement du bouton dans le composant **[!UICONTROL Formulaire]**. [Voici comment procéder](#define-actions-on-form-submission)
 
@@ -163,7 +163,7 @@ Pour envoyer automatiquement un message de confirmation après la soumission d�
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Développez et modifiez toute autre section correspondant aux autres champs que vous avez ajoutés (bouton radio, liste déroulante, date et heure, etc.) à votre formulaire.
+1. Développez et modifiez toute autre section correspondant aux autres champs que vous avez ajoutés à votre formulaire (bouton radio, liste déroulante, date et heure, etc.).
 
 1. Développez la section **[!UICONTROL Appel à l’action]** pour modifier l’aspect du bouton dans le formulaire du composant. Par exemple, vous pouvez changer de police, ajouter une bordure, modifier la couleur du libellé en le survolant avec votre souris ou ajuster lʼalignement du bouton.
 

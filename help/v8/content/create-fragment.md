@@ -4,9 +4,9 @@ title: Créer des fragments de contenu
 description: Découvrez comment créer des fragments de contenu.
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 
    >[!AVAILABILITY]
    >
-   >Les fragments visuels nécessitent une mise à jour de Campaign v8.6.4. Pour en savoir plus, consultez les notes de mise à jour de la console cliente [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
+   >Les fragments visuels nécessitent une mise à jour de Campaign vers la version 8.6.4. Pour en savoir plus, consultez les [Notes de mise à jour de la console cliente Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Cliquez sur le bouton **Créer**.
 

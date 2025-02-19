@@ -5,9 +5,9 @@ description: Découvrez comment configurer les paramètres de diffusion dans Cam
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2765'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Les paramètres de diffusion sont des **paramètres de diffusions techniques** d
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Les typologies vous permettent de normaliser les pratiques commerciales, sur toutes les diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
+>abstract="Les typologies vous permettent de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Paramètres de typologie de la diffusion"
->abstract="Les règles de typologie vous permettent de normaliser les pratiques commerciales, sur toutes les diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
+>abstract="Les règles de typologie vous permettent de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
-Les typologies sont des ensembles de **règles de typologie** qui sont exécutées pendant la phase de préparation afin d’appliquer facilement plusieurs règles de filtrage en même temps à une diffusion. Ils permettent aux professionnels du marketing de normaliser les pratiques commerciales sur toutes les diffusions, car ils peuvent contrôler, filtrer et hiérarchiser l’envoi des diffusions. [Découvrez comment créer des typologies et des règles de typologie](../administration/typologies.md)
+Les typologies sont des ensembles de **règles de typologie** qui sont exécutées pendant la phase de préparation afin d’appliquer facilement plusieurs règles de filtrage en même temps à une diffusion. Elles permettent aux personnes spécialisées dans le marketing de normaliser les pratiques commerciales pour toutes les diffusions, car elles leur permettent de contrôler, filtrer et gérer la priorité de l’envoi des diffusions. [Découvrir comment créer des typologies et des règles de typologie](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
 
