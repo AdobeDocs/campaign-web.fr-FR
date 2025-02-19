@@ -2,7 +2,7 @@
 title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 5%
@@ -38,6 +38,7 @@ ht-degree: 5%
 >abstract="Indiquez le nom à afficher dans l’interface de la sous-section."
 
 <!-- NOT USED IN THE UI?-->
+
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
 >title="Paramètres des attributs"
