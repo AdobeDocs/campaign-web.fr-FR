@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="Propriétés du lien"
->abstract="Utilisez le concepteur de requête pour spécifier les règles d’affichage d’un champ personnalisé de type lien. Par exemple, restreignez les valeurs de liste en fonction de l’entrée d’un autre champ."
+>abstract="Utilisez le concepteur de requête pour spécifier les règles d’affichage d’un champ personnalisé de type lien. Par exemple, limitez les valeurs d’une liste en fonction de l’entrée d’un autre champ."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
@@ -109,7 +109,7 @@ Les paramètres disponibles sont les suivants :
 * **[!UICONTROL Visible si]** : définissez une condition à l’aide d’une expression xtk qui contrôle quand le champ doit être affiché. Par exemple, masquer le champ si un autre champ est vide.
 * **[!UICONTROL Obligatoire]** : permet au champ d’être obligatoire dans l’interface.
 * **[!UICONTROL Lecture seule]** : permet au champ d’être en lecture seule dans l’interface. Les utilisateurs et les utilisatrices ne pourront pas modifier la valeur du champ.
-* **[!UICONTROL Paramètres de filtrage]** (pour les champs de type lien) : utilisez le concepteur de requête pour spécifier les règles d’affichage d’un champ personnalisé de type lien. Par exemple, restreignez les valeurs de liste en fonction de l’entrée d’un autre champ.
+* **[!UICONTROL Paramètres de filtrage]** (pour les champs de type lien) : utilisez le concepteur de requête pour spécifier les règles d’affichage d’un champ personnalisé de type lien. Par exemple, limitez les valeurs d’une liste en fonction de l’entrée d’un autre champ.
 
   Vous pouvez également référencer dans vos conditions une valeur saisie dans d’autres champs à l’aide de la syntaxe `$(<field-name>)`. Cela vous permet de référencer la valeur actuelle d’un champ telle qu’elle a été saisie dans le formulaire, même si elle n’a pas encore été enregistrée dans la base de données.
 

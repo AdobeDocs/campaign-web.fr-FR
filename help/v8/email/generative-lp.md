@@ -6,16 +6,16 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
-# Génération de pages de destination avec l’assistant AI{#generative-lp}
+# Génération des pages de destination avec l’assistant IA{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Générer des pages de destination avec l’IA"
->abstract="Vous pouvez désormais utiliser l’assistant d’IA pour créer vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes."
+>abstract="Vous pouvez à présent utiliser l’assistant IA pour créer les diffusions de vos pages de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 
