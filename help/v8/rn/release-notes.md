@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 Les modifications et améliorations disponibles avec les versions précédentes sont répertoriées [sur cette page](release-notes-24.md).
 
-## Version du 25 février {#25-2-release}
+## Version de février 2025 {#25-2-release}
 
-**Date de publication** : 18 février 2025
+**Date de publication** : 18 février 2025
 
-Les fonctionnalités et améliorations suivantes sont disponibles à partir de la version de février.
+Les fonctionnalités et améliorations suivantes sont disponibles à compter de la version de février.
 
 ### Fonctionnalités {#25-2-features}
 
@@ -37,7 +37,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface utilisateur web d’Adobe Campaign. Les typologies vous permettent de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions. Les typologies sont utilisées pour vérifier que les diffusions contiennent toujours des composants obligatoires (tels qu’un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre audience (tels que les désabonnés, les concurrents ou les clients non fidèles).</p>
+<p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface d’utilisation web d’Adobe Campaign. Les typologies permettent de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions. Les typologies permettent de confirmer que les diffusions contiennent toujours certains composants obligatoires (comme un lien de désabonnement ou un objet) ou des règles de filtrage pour exclure des groupes de votre audience (tels que les personnes désabonnées, la concurrence, et la clientèle ne faisant pas partie du programme de fidélité).</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>Pour plus d’informations, consultez la <a href="../administration/typologies.md">documentation détaillée</a>.</p>
 </td>
@@ -54,7 +54,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer des mappings de ciblage dans l’interface utilisateur web de Campaign. Les mappings de ciblage définissent la manière dont différents canaux de diffusion (e-mail, SMS, notifications push) sont liés aux champs de données d’un schéma. Le mapping de ciblage permet de définir l'audience ciblée : profils, bénéficiaires d'un contrat, opérateurs, abonnés, prospects, etc.</p>
+<p>Vous pouvez désormais créer des mappings de ciblage dans l’interface d’utilisation web de Campaign. Les mappings de ciblage définissent la manière dont différents canaux de diffusion (e-mails, SMS, notifications push) sont liés aux champs de données d’un schéma. Le mapping de ciblage vous permet de définir l’audience ciblée : profils, bénéficiaires de contrats, opérateurs et opératrices, personnes abonnées, prospects, etc.</p>
 <img src="assets/do-not-localize/target-mapping.gif">
 <p>Pour plus d’informations, consultez la <a href="../administration/target-mappings.md">documentation détaillée</a>.</p>
 </td>
@@ -71,7 +71,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à partir de l
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais accéder aux détails d’un schéma en sélectionnant son nom dans la liste. L’édition des champs personnalisés est désormais accessible à partir du bouton <b>Modifier les champs personnalisés</b> disponible dans les détails du schéma.</p>
+<p>Vous pouvez désormais accéder aux détails d’un schéma en sélectionnant son nom dans la liste. La modification des champs personnalisés est désormais accessible à partir du bouton <b>Modifier les champs personnalisés</b> disponible dans les détails du schéma.</p>
 <img src="assets/do-not-localize/schemas.gif">
 <p>Pour plus d’informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
 </td>
@@ -177,15 +177,15 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <table>
 <thead>
 <tr>
-<th><strong>Génération de pages de destination avec l’assistant AI</strong><br/></th>
+<th><strong>Génération de page de destination avec l’assistant IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’assistant AI est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
+<p>L’assistant IA est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Pour plus d’informations sur l’assistant AI, consultez la <a href="../email/generative-lp.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations sur l’assistant IA, consultez la <a href="../email/generative-lp.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

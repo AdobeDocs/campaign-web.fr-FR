@@ -6,9 +6,9 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [Version anticipée](rn/e-release-notes.md)
    + [Dernière version](rn/release-notes.md)
    + Versions précédentes {#previous-release-notes}
-      + [Versions 2025](rn/release-notes-25.md)
+      + [Versions de 2025](rn/release-notes-25.md)
       + [Versions 2024](rn/release-notes-24.md)
    + [Mises à jour de la documentation](rn/documentation-updates.md)
 + Prise en main d’Adobe Campaign {#start}
@@ -118,12 +118,12 @@ ht-degree: 98%
          + [Définir un style pour les liens](email/styling-links.md)
          + [Ajouter des attributs de style intégrés](email/inline-styling.md)
    + Assistant IA {#ai-assistant}
-      + [Utiliser l’assistant d’IA](email/generative-gs.md)
+      + [Utiliser l’assistant IA](email/generative-gs.md)
       + [Génération d’e-mails avec IA](email/generative-content.md)
       + [Génération de SMS avec IA](email/generative-sms.md)
       + [Génération de notifications push avec IA](email/generative-push.md)
       + [Génération de page de destination avec IA](email/generative-lp.md)
-      + [Cas d’utilisation de l’Assistant IA](email/generative-uc.md)
+      + [Cas d’utilisation de l’assistant IA](email/generative-uc.md)
 + Pages de destination {#landing-pages}
    + [Commencer avec les pages de destination](landing-pages/get-started-lp.md)
    + [Créer et publier une page de destination](landing-pages/create-lp.md)
@@ -228,11 +228,11 @@ ht-degree: 98%
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
-   + [Utilisation des règles métier (typologies)](administration/typologies.md)
-   + [Gestion des mappings de ciblage](administration/target-mappings.md)
-   + [Utilisation des schémas](administration/schemas.md)
+   + [Utiliser les règles métier (typologies)](administration/typologies.md)
+   + [Gérer les mappings de ciblage](administration/target-mappings.md)
+   + [Utiliser les schémas](administration/schemas.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options  [!DNL Campaign] ](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + [Configurer des comptes externes](administration/external-account.md)
    + [Gérer les énumérations](administration/enumerations.md)
    + [Utiliser les codes JavaScript](administration/javascript-codes.md)

@@ -4,9 +4,9 @@ title: Contenu génératif
 description: Commencer avec l’assistant IA
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1563'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 92%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou votre représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 
-Une fois vos e-mails créés et personnalisés, utilisez l’assistant AI dans Adobe Campaign Web dans Campaign optimisé par l’IA générative pour booster votre contenu.
+Une fois que vous avez créé et personnalisé vos e-mails, utilisez l’assistant IA dans Adobe Campaign Web optimisé par l’IA générative pour améliorer votre contenu.
 
-L’assistant d’IA d’Adobe Campaign Web peut vous aider à optimiser l’impact de vos diffusions en générant des e-mails complets, du contenu textuel ciblé et même des images spécialement conçues pour résonner auprès de votre audience. Cela optimise vos campagnes par e-mail pour un meilleur engagement.
+L’assistant IA dans Adobe Campaign Web peut vous aider à optimiser l’impact de vos diffusions en générant des e-mails entiers, du contenu texte ciblé et même des images spécifiquement adaptées à votre audience. Cela optimise vos campagnes par e-mail pour un meilleur engagement.
 
-Avec vos campagnes par e-mail, vous pouvez utiliser l’assistant IA pour générer des e-mails, du texte ou des images complets. Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant d’IA dans Adobe Campaign Web.
+Avec vos campagnes par e-mail, vous pouvez utiliser l’assistant IA pour générer des e-mails, du texte ou des images complets. Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA dans Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Génération d’e-mail complet]
 
-Dans l’exemple suivant, nous utiliserons l’assistant AI dans Adobe Campaign Web pour affiner un e-mail existant et le personnaliser pour un événement spécial.
+Dans l’exemple suivant, nous utiliserons l’assistant IA dans Adobe Campaign Web afin d’améliorer un e-mail existant en le personnalisant pour un événement spécial.
 
 1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -71,7 +71,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI dans Adobe Campaign 
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
-1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
+1. Lorsque votre invite est prête, cliquez sur **[!UICONTROL Générer]**.
 
 1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 
@@ -125,7 +125,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant IA afin d’améliorer 
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
-1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
+1. Lorsque votre invite est prête, cliquez sur **[!UICONTROL Générer]**.
 
 1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 

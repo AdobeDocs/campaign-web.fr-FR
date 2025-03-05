@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Notification push avec l’assistant AI
+title: Notifications push avec l’assistant IA
 description: Commencer avec l’assistant IA
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -14,10 +14,10 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails).
+>Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou votre représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
 
@@ -61,7 +61,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant IA pour concevoir des m
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
-1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
+1. Lorsque votre invite est prête, cliquez sur **[!UICONTROL Générer]**.
 
 1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 

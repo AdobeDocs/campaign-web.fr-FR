@@ -3,7 +3,7 @@ title: 'Configurer les options de  [!DNL Campaign] '
 description: Découvrez comment configurer les options de Campaign et créer vos propres options personnalisées.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
 ht-degree: 100%
 

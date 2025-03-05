@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: SMS avec l’assistant AI
+title: SMS avec l’assistant IA
 description: Commencer avec l’assistant IA
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant d’IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou votre représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, faites passer votre communication au niveau supérieur à l’aide de l’assistant AI dans Adobe Campaign Web, optimisé par une technologie d’IA innovante.
+Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, améliorez votre communication grâce à l’assistant IA dans Adobe Campaign Web, optimisé par une technologie d’IA innovante.
 
 Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre contenu, permettant à vos messages d’avoir un impact efficace et de maximiser l’engagement.
 
@@ -55,7 +55,7 @@ Cet outil pratique vous fournit des suggestions intelligentes pour affiner votre
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
-1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
+1. Lorsque votre invite est prête, cliquez sur **[!UICONTROL Générer]**.
 
 1. Parcourez les **[!UICONTROL Variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 
@@ -99,7 +99,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser du contenu de référence]** pour que l’assistant d’IA personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -120,7 +120,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
-1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
+1. Lorsque votre invite est prête, cliquez sur **[!UICONTROL Générer]**.
 
 1. Parcourez les **[!UICONTROL Variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 

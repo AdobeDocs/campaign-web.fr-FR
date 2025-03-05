@@ -5,15 +5,15 @@ description: Découvrez comment surveiller votre instance à lʼaide du journal 
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Journal d’audit{#audit-trail}
 
-Dans l’interface d’utilisation d’Adobe Campaign Web, la fonctionnalité **[!UICONTROL Journal d’audio]** offre aux utilisateurs et utilisatrices une visibilité complète de toutes les modifications apportées à des entités importantes au sein de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance.
+Dans l’interface d’utilisation d’Adobe Campaign Web, la fonctionnalité **[!UICONTROL Journal d’audit]** offre aux utilisateurs et utilisatrices une visibilité complète de toutes les modifications apportées à des entités importantes au sein de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance.
 
 >[!IMPORTANT]
 >

@@ -3,9 +3,9 @@ title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 27e44682178267353418de210af51067eee4141b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 87%
 >title="Paramètres des attributs"
 >abstract="Paramètres des attributs"
 
-Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Ils vous permettent de personnaliser les schémas en incluant de nouveaux attributs en fonction des besoins de votre entreprise. Découvrez comment étendre un schéma dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=fr){target="_blank"}.
+Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas prêts à l’emploi via la console Adobe Campaign. Ils vous permettent de personnaliser les schémas en incluant de nouveaux attributs en fonction des besoins de votre entreprise. Découvrez comment étendre un schéma dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=fr){target="_blank"}.
 
-Les champs personnalisés peuvent être affichés sur différents écrans, comme les détails de profil dans l’interface de Campaign Web. Les administrateurs et les administratrices peuvent contrôler quels champs sont visibles et la manière dont ils apparaissent. Ces modifications s’appliquent à tous les utilisateurs et utilisatrices de Campaign.
+Les champs personnalisés peuvent être affichés sur différents écrans, comme les détails de profil dans l’interface web de Campaign. Les administrateurs et les administratrices peuvent contrôler quels champs sont visibles et la manière dont ils apparaissent. Ces modifications s’appliquent à tous les utilisateurs et utilisatrices de Campaign.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
 
    ![](assets/custom-fields-open.png)
 
-1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir. Une vue de schéma détaillée affiche [En savoir plus sur les détails du schéma](../administration/schemas.md). Cliquez sur le bouton **[!UICONTROL Modifier les détails personnalisés]** pour accéder aux champs personnalisés. Dans cet exemple, nous voulons ajouter des champs pour le schéma **[!UICONTROL Personnes destinataires]**.
+1. Sélectionnez le schéma dans la liste pour l’ouvrir. Une vue de schéma détaillée affiche [En savoir plus sur les détails du schéma](../administration/schemas.md). Cliquez sur le bouton **[!UICONTROL Modifier les détails personnalisés]** pour accéder aux champs personnalisés. Dans cet exemple, nous voulons ajouter des champs pour le schéma **[!UICONTROL Personnes destinataires]**.
 
    ![](assets/custom-fields-edit.png)
 
@@ -81,9 +81,9 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
    |  ---  |  ---  |
    | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-1. Pour ajouter un champ personnalisé à l’interface , cliquez sur le bouton représentant des points de suspension et choisissez l’une des options suivantes :
+1. Pour ajouter un champ personnalisé à l’interface, cliquez sur le bouton représentant des points de suspension et choisissez l’une des options suivantes :
 
-   * **[!UICONTROL Sélectionner des champs personnalisés]** : sélectionnez un ou plusieurs champs personnalisés à afficher dans l’interface.
+   * **[!UICONTROL Sélectionner des champs personnalisés]** : sélectionnez un ou plusieurs champs personnalisés à afficher dans l’interface.
    * **[!UICONTROL Remplir automatiquement la liste des champs personnalisés]** : ajoutez tous les champs personnalisés définis pour le schéma à l’interface.
 
    ![](assets/custom-fields-add.png)
@@ -94,7 +94,7 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
    * **Rendre les champs obligatoires** : cochez la case **Obligatoire**.
    * **Modifier les paramètres des champs** : cliquez sur le bouton représentant des points de suspension et choisissez **[!UICONTROL Modifier]**. [En savoir plus](#settings)
    * **Supprimer des champs** : cliquez sur le bouton représentant des points de suspension et choisissez **[!UICONTROL Supprimer]**.
-   * **Organiser les champs en sous-sections dans l’interface** : cliquez sur le bouton représentant des points de suspension à côté des flèches haut et bas et choisissez **[!UICONTROL Ajouter un séparateur]**. [En savoir plus](#separator)
+   * **Organiser les champs en sous-sections dans l’interface** : cliquez sur le bouton représentant des points de suspension à côté des flèches haut et bas et choisissez **[!UICONTROL Ajouter un séparateur]**. [En savoir plus](#separator)
 
 ## Configurer les paramètres des champs personnalisés {#settings}
 

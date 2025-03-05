@@ -3,9 +3,9 @@ title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 93%
 
 >[!AVAILABILITY]
 >
->* Actuellement, les comptes externes ne sont disponibles que pour les e-mails bounce (POP3), le routage et l&#39;instance d&#39;exécution. D’autres types de comptes seront ajoutés à l’avenir.
+>* Actuellement, les comptes externes ne sont disponibles que pour les e-mails rejetés (POP3), le routage et l’instance d’exécution. D’autres types de comptes seront ajoutés à l’avenir.
 >
->* Les comptes externes non pris en charge créés dans la console Adobe Campaign sont visibles dans l’interface utilisateur web, mais ne peuvent pas être modifiés ni consultés.
+>* Les comptes externes non pris en charge créés dans la console Adobe Campaign sont visibles dans l’interface d’utilisation web, mais ne peuvent pas être modifiés et ne sont pas accessibles.
 
 Adobe Campaign est fourni avec un ensemble de comptes externes préconfigurés pour faciliter l’intégration avec différents systèmes. Si vous devez vous connecter à d’autres plateformes ou personnaliser les connexions pour qu’elles s’adaptent à votre workflow, vous pouvez désormais facilement créer des comptes externes à l’aide de l’interface d’utilisation web pour répondre à vos besoins spécifiques et garantir des transferts de données transparents.
 
