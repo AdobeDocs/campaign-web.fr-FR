@@ -4,7 +4,7 @@ description: Découvrez comment migrer la gestion des accès utilisateur de Camp
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 5%
@@ -89,7 +89,9 @@ En utilisant les **Groupes** et **Droits nommés**, les **Opérateurs** peuvent 
 Un **Programme** étant traité comme un **Dossier** dans Campaign V8, son accès peut être géré de la même manière que n’importe quel autre dossier. Après la migration, les administrateurs Campaign Standard peuvent suivre les étapes suivantes :
 
 1. Dans l’explorateur, cliquez avec le bouton droit de la souris sur un dossier et sélectionnez **[!UICONTROL Propriétés...]**.
+
 1. Accédez à l’onglet **[!UICONTROL Sécurité]**.
+
 1. Modifiez les autorisations du groupe d’opérateurs en fonction du modèle d’accès souhaité. 
 
 ## Mappage du profil de produit pour accéder aux API REST 
