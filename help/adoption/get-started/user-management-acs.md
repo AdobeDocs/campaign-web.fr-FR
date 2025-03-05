@@ -4,10 +4,10 @@ description: Découvrez comment migrer la gestion des accès utilisateur de Camp
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 6%
+source-wordcount: '982'
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,7 @@ Les concepts ci-dessous sont utilisés dans Adobe Campaign Standard et Campaign 
 >
 >Les fonctionnalités de ces rôles/droits nommés peuvent varier dans l’implémentation, ce qui peut entraîner des problèmes d’autorisation (par exemple, élévation des privilèges ou perturbations des fonctionnalités). Nous recommandons aux utilisateurs de passer en revue ces mappages après la transition pour garantir un contrôle d’accès approprié. [En savoir plus sur les autorisations](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-Le tableau ci-dessous décrit l’approche de migration des groupes de rôles utilisateur lors de la transition de Adobe Campaign Standard vers Campaign V8. En Campaign Standard, un **Groupe de sécurité**, appelé **Groupe d’opérateurs** dans Campaign V8, est utilisé pour affecter un ensemble de rôles à un utilisateur. Bien que certains groupes de sécurité/groupes d’opérateurs soient disponibles par défaut, les utilisateurs peuvent créer des groupes ou modifier des groupes existants si nécessaire.
+Le tableau ci-dessous décrit l’approche de migration des groupes de rôles utilisateur lors de la transition de Adobe Campaign Standard vers Campaign V8. Dans Campaign Standard, un **Groupe de sécurité**, appelé **Groupe d’opérateurs** dans Campaign V8, est utilisé pour affecter un ensemble de rôles à un utilisateur. Bien que certains groupes de sécurité/groupes d’opérateurs soient disponibles par défaut, les utilisateurs peuvent créer des groupes ou modifier des groupes existants si nécessaire.
 
 | | **Campaign Standard** | **Campaign V8** |
 |---------|----------|---------|
@@ -46,9 +46,13 @@ Dans Adobe Campaign Standard et Campaign V8, les **groupes de sécurité** et **
 
 ## Approche de migration des rôles utilisateur vers les droits nommés
 
+>[!CAUTION]
+>
+>Lors de la migration de Adobe Campaign Standard vers Campaign V8, les utilisateurs possédant le rôle **Modèle de données** mais pas **Administration** obtiendront automatiquement l’accès **Administration**, car la création de schémas dans Campaign V8 nécessite des droits d’administration. Pour éviter cela, supprimez leur rôle **Modèle de données** avant la migration.
+
 Dans Adobe Campaign Standard, le terme **rôle utilisateur** est appelé **droit nommé** dans Campaign V8. Le tableau ci-dessous décrit la terminologie utilisée pour **Droits nommés** dans Campaign V8, qui correspond à **Rôles utilisateur** dans Campaign Standard.
 
-| **Rôle d&#39;utilisateur Campaign Standard** | **Droit nommé dans Campaign V8** | **Description**  |
+| **Rôle utilisateur Campaign Standard** | **Droit nommé dans Campaign V8** | **Description**  |
 |----------|---------|---------|
 | Administration  | Administration  | L’utilisateur disposant du droit d’administration dispose d’un accès complet à l’instance. |
 | Modèle de données  | Administration | Droit pour exécuter des publications et créer des ressources personnalisées. Fonctionnalité liée à la création de schémas disponible pour l’administrateur dans Campaign V8.  |
@@ -64,6 +68,12 @@ Dans Adobe Campaign Standard, le terme **rôle utilisateur** est appelé **droit
 
 ## Approche de la migration depuis l’entité organisationnelle
 
+>[!CAUTION]
+>
+>Les entités organisationnelles de Adobe Campaign Standard sans **Toutes (toutes)** en tant que parent direct ou indirect ne seront pas migrées vers Campaign V8.
+></br>
+>Les utilisateurs appartenant à plusieurs groupes de sécurité sont affectés à l&#39;entité organisationnelle du groupe de sécurité ayant le rang le plus élevé. Si plusieurs groupes possèdent des unités de niveau supérieur parallèles, la connexion est limitée dans Campaign Standard, mais elle accorde un accès plus large dans Campaign v8 après la migration, ce qui peut entraîner une réaffectation des privilèges. Pour éviter cela, évitez d&#39;affecter des utilisateurs à des groupes de sécurité ayant des entités organisationnelles parallèles.
+
 Dans Adobe Campaign Standard, l’**organisation uni** t est mappée au modèle de hiérarchie existant **Dossier** dans Campaign V8 afin de conserver un contrôle d’accès similaire. [En savoir plus sur la gestion des dossiers](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
@@ -76,7 +86,7 @@ Dans Campaign V8, les **programmes** sont représentés sous la forme de **dossi
 
 En utilisant les **Groupes** et **Droits nommés**, les **Opérateurs** peuvent avoir accès à des **Dossiers** spécifiques dans la hiérarchie de navigation, avec la possibilité d’attribuer des autorisations de lecture, d’écriture et de suppression. [En savoir plus sur la gestion des dossiers](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
-Un **Programme** étant traité comme un **Dossier** dans Campaign V8, son accès peut être géré de la même manière que n’importe quel autre dossier. Après la migration, les administrateurs de Campaign Standard peuvent suivre les étapes suivantes :
+Un **Programme** étant traité comme un **Dossier** dans Campaign V8, son accès peut être géré de la même manière que n’importe quel autre dossier. Après la migration, les administrateurs Campaign Standard peuvent suivre les étapes suivantes :
 
 1. Dans l’explorateur, cliquez avec le bouton droit de la souris sur un dossier et sélectionnez **[!UICONTROL Propriétés...]**.
 1. Accédez à l’onglet **[!UICONTROL Sécurité]**.
@@ -84,23 +94,23 @@ Un **Programme** étant traité comme un **Dossier** dans Campaign V8, son accè
 
 ## Mappage du profil de produit pour accéder aux API REST 
 
-Pour accéder aux API transactionnelles à partir de l&#39;instance d&#39;exécution dans Campaign V8, un nouveau **profil de produit** est requis, en plus des profils de produit **Administrateur** et **Message Center**. Ce nouveau **profil de produit** sera ajouté en Campaign Standard aux comptes techniques existants ou précréés.
+Pour accéder aux API transactionnelles à partir de l&#39;instance d&#39;exécution dans Campaign V8, un nouveau **profil de produit** est requis, en plus des profils de produit **Administrateur** et **Message Center**. Ce nouveau **profil de produit** sera ajouté aux comptes techniques existants ou précréés dans Campaign Standard.
 
-Après la migration, les utilisateurs du Campaign Standard doivent consulter leurs **mappages de profils de produit** et attribuer le **profil de produit** approprié s’ils ne souhaitent pas lier leurs **comptes techniques** au **profil d’administrateur** de produit. Pour les intégrations futures, il est recommandé d’utiliser l’identifiant client Campaign V8 **Tenant ID** dans l’**URL REST** au lieu de l’ancien Campaign Standard **Tenant ID**.
+Après la migration, les utilisateurs de Campaign Standard doivent consulter leurs **mappages de profils de produit** et attribuer le **profil de produit** approprié s’ils ne souhaitent pas lier leurs **comptes techniques** au **profil d’administrateur** de produit. Pour les intégrations futures, il est recommandé d’utiliser l’identifiant client Campaign V8 **Tenant ID** dans l’**URL REST** au lieu de l’identifiant client Campaign Standard **Tenant ID** précédent.
 
-## Migration de l&#39;accès aux ressources Campaign intégrées pour les opérateurs Campaign Standards
+## Migration de l&#39;accès aux ressources Campaign intégrées pour les opérateurs Campaign Standard
 
 Les opérateurs migrés depuis Campaign Standard disposeront d&#39;un accès en lecture à des ressources intégrées spécifiques dans Campaign V8.
 
 ## Groupes et rôles de sécurité non migrés {#non-migrated-groups-roles}
 
-Vous trouverez ci-dessous une liste des rôles de Campaign Standard qui n’ont pas été transférés :
+Vous trouverez ci-dessous une liste des rôles Campaign Standard qui n’ont pas été transférés :
 
 * Compte Relais Par Défaut 
 
 * Notification push Message Center 
 
-Vous trouverez ci-dessous une liste des mappages de groupes de sécurité du Campaign Standard qui n’ont pas fait l’objet d’une transition.
+Vous trouverez ci-dessous une liste des mappages de groupes de sécurité Campaign Standard qui n’ont pas fait l’objet d’une transition.
 
 * Agents Message Center
 
@@ -109,3 +119,5 @@ Vous trouverez ci-dessous une liste des mappages de groupes de sécurité du Cam
 * Chargés d&#39;application Adobe Experience Manager
 
 * Compte Relais
+
+Notez que les rôles personnalisés créés et affectés aux utilisateurs dans Adobe Campaign Standard ne seront pas migrés vers Campaign V8.
