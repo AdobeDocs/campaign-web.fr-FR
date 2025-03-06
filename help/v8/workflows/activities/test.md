@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Test
 description: Découvrez comment utiliser l’activité de workflow Test
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: 7654d1838f3a7e5165558e6a1313c9e8b57b401a
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Conditions"
->abstract="L’activité **Test** peut avoir plusieurs transitions sortantes. Lors de l’exécution du workflow, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, le workflow se poursuit sur la voie de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, les workflows s’arrêtent à ce stade."
+>abstract="L’activité **Test** peut avoir plusieurs transitions sortantes. Lors de l’exécution du workflow, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, le workflow se poursuit sur la voie de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, le workflow s’arrête à ce stade."
 
 L’activité **Test** est une activité de **contrôle de flux**. Il permet d’activer des transitions en fonction de conditions spécifiées.
 
@@ -40,7 +40,7 @@ Pour configurer l’activité **Test**, procédez comme suit :
 
 1. Vous pouvez ajouter plusieurs transitions de sortie à une activité **[!UICONTROL Test]**. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter une condition]** et configurez le libellé et la condition associée pour chaque transition.
 
-1. Lors de l’exécution du workflow, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, le workflow se poursuit sur la voie de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, les workflows s’arrêtent à ce stade.
+1. Lors de l’exécution du workflow, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, le workflow se poursuit sur la voie de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, le workflow s’arrête à ce stade.
 
 ## Exemple {#example}
 
