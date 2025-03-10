@@ -5,7 +5,7 @@ description: Découvrez comment créer et gérer vos directives de marque.
 hide: true
 hidefromtoc: true
 badge: label="Version bêta" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -104,6 +104,6 @@ Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même le
 
    ![](assets/brands_5.png)
 
-Les directives de votre marque sont désormais accessibles à partir de la liste déroulante **[!UICONTROL Marque]** dans le menu de l’assistant d’IA, ce qui lui permet de générer du contenu et des ressources conformes à vos spécifications. [En savoir plus sur l’assistant IA](gs-generative.md)
+Les directives de votre marque sont désormais accessibles à partir de la liste déroulante **[!UICONTROL Marque]** dans le menu de l’assistant d’IA, ce qui lui permet de générer du contenu et des ressources conformes à vos spécifications. [En savoir plus sur l’assistant IA](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
