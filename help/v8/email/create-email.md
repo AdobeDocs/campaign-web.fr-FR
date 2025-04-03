@@ -3,9 +3,9 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 90%
 
 ---
@@ -164,7 +164,7 @@ Des informations supplémentaires sur la prévisualisation des e-mails et l’en
 
    >[!NOTE]
    >
-   >Le bouton **[!UICONTROL Simuler du contenu]** est désactivé dans des cas d’utilisation spécifiques. Les limites sont détaillées [dans cette section](#content-simulation-limitations).
+   >Le bouton **[!UICONTROL Simuler du contenu]** est désactivé dans des contextes spécifiques. Les limites sont détaillées [dans cette section](#content-simulation-limitations).
 
 1. Dans la zone de gauche, sélectionnez le ou les profils que vous souhaitez utiliser pour prévisualiser l’e-mail.
 
@@ -195,7 +195,7 @@ Des informations supplémentaires sur la prévisualisation des e-mails et l’en
 
    Vous pouvez vérifier à tout moment le statut de l’envoi et accéder aux BAT envoyés en cliquant sur le bouton **[!UICONTROL Afficher les BAT]** dans l’écran Simuler du contenu.
 
-## Limites de la simulation de contenu {#content-simulation-limitations}
+### Limites de la simulation de contenu {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
