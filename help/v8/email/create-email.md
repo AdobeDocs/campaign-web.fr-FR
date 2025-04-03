@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1493'
+ht-degree: 90%
 
 ---
 
@@ -162,6 +162,10 @@ Des informations supplémentaires sur la prévisualisation des e-mails et l’en
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >Le bouton **[!UICONTROL Simuler du contenu]** est désactivé dans des cas d’utilisation spécifiques. Les limites sont détaillées [dans cette section](#content-simulation-limitations).
+
 1. Dans la zone de gauche, sélectionnez le ou les profils que vous souhaitez utiliser pour prévisualiser l’e-mail.
 
    Le volet de droite affiche un aperçu de l’e-mail en fonction du profil sélectionné. Si vous avez ajouté plusieurs profils, vous pouvez passer d’un profil à l’autre pour prévisualiser l’e-mail correspondant.
@@ -190,6 +194,37 @@ Des informations supplémentaires sur la prévisualisation des e-mails et l’en
    ![](assets/proof-sent.png){zoomable="yes"}
 
    Vous pouvez vérifier à tout moment le statut de l’envoi et accéder aux BAT envoyés en cliquant sur le bouton **[!UICONTROL Afficher les BAT]** dans l’écran Simuler du contenu.
+
+## Limites de la simulation de contenu {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="La simulation de contenu n’est pas prise en charge"
+>abstract="Le bouton **Simuler du contenu** est désactivé, car la diffusion multilingue ne contient qu’un seul paramètre régional."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="La simulation de contenu n’est pas prise en charge"
+>abstract="Le bouton **Simuler du contenu** est désactivé, car il n’est pas compatible avec les diffusions réconciliées au cours de cette phase."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="La simulation de contenu n’est pas prise en charge"
+>abstract="Le bouton **Simuler du contenu** est désactivé, car il n’est pas pris en charge en mode Campaign Enterprise Full Federated Access (FFDA)."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="La simulation de contenu n’est pas prise en charge"
+>abstract="Le bouton **Simuler du contenu** est désactivé, car aucun contenu n’a été chargé."
+
+Dans certains cas, vous ne pouvez pas effectuer de simulation de contenu et le bouton **[!UICONTROL Simuler du contenu]** est désactivé.
+
+La simulation de contenu n’est pas prise en charge dans les cas suivants :
+
+<!--* When a multilingual delivery contains only one locale,-->
+* Avec des diffusions réconciliées,
+* Lorsque votre modèle de déploiement Campaign est [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* Si aucun fichier n’a été chargé.
 
 ## Envoyer et surveiller l’e-mail {#prepare-send}
 
