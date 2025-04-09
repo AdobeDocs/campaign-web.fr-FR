@@ -2,10 +2,10 @@
 title: Se connecter à l’interface web d’Adobe Campaign
 description: Découvrir comment vous connecter à l’interface utilisateur d’Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,9 @@ Vous ne pouvez utiliser que l’authentification unique (SSO) pour vous connecte
 
 Pour vous connecter à Adobe Experience Cloud, les étapes de base sont les suivantes :
 
-1. Connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
+1. Accédez à [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID. Apprenez-en plus sur les types d’identités chez Adobe dans [cet article](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}.
+1. Connectez-vous à l’aide de votre Adobe ID ou de votre Enterprise ID. En savoir plus sur les types d’identité dans Adobe dans [cet article](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}.
 
    Une fois la connexion à Experience Cloud effectuée, vous pouvez accéder rapidement à toutes vos solutions et applications.
 
@@ -31,7 +31,7 @@ Pour vous connecter à Adobe Experience Cloud, les étapes de base sont les su
 
    ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   Apprenez-en plus sur les organisations dans Adobe Experience Cloud dans [cet article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){target="_blank"}.
+   En savoir plus sur les organisations dans Adobe Experience Cloud dans [cet article](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){target="_blank"}.
 
 
 ## Accéder à Adobe Campaign {#access-to-campaign}
@@ -100,7 +100,7 @@ La barre supérieure de l’interface vous permet d’effectuer les actions suiv
 * partager des commentaires à propos de l’interface utilisateur web de Campaign ;
 * basculer entre vos organisations ;
 * basculer entre vos solutions et applications Adobe Experience Cloud.
-* rechercher de l’aide sur [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=fr){target="_blank"} ;
+* recherchez de l’aide sur [ Adobe Experience League ](https://experienceleague.adobe.com/docs/?lang=fr){target="_blank"}
 * vérifier vos notifications de produit ;
 * modifier votre profil Adobe et gérer les paramètres, par exemple [mettre à jour votre langue préférée](#language-pref) ou [passer au thème clair/sombre](#dark-theme).
 
@@ -134,17 +134,10 @@ Pour changer de langue :
 1. Cliquez ensuite sur le lien de la langue affichée sous votre adresse e-mail.
 1. Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue si le composant que vous utilisez n’est pas localisé dans votre première langue.
 
-<!--
->[!CAUTION]
->
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
->
--->
-
 ## Thèmes sombre et clair {#dark-theme}
 
 Adobe Campaign est disponible dans les thèmes clair et sombre. Par défaut, l’interface utilisateur est activée avec le thème clair. Pour passer au thème sombre, cliquez sur l’icône de votre profil, puis utilisez la bascule **Thème sombre** pour l’activer/le désactiver.
 
-Les paramètres de profil utilisateur et les préférences de compte sont détaillés dans [cette section](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=fr#preferences){target="_blank"}.
+Les paramètres du profil utilisateur et les préférences du compte sont détaillés dans [cette section](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=fr#preferences){target="_blank"}.
 
-Apprenez-en plus sur les composants de l’interface centrale Experience Cloud dans [cette documentation](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=fr){target="_blank"}.
+En savoir plus sur les composants de l’interface centrale d’Experience Cloud dans [cette documentation](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=fr){target="_blank"}.
