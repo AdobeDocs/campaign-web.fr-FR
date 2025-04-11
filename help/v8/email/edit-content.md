@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 51%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Définir le contenu de l’e-mail"
->abstract="L’écran **Modifier le contenu** vous permet de définir les éléments de base de votre message, tels que l’adresse de la personne expéditrice et l’objet, d’effectuer des actions supplémentaires, telles que l’ajout de pièces jointes ou d’offres, et d’accéder au concepteur d’e-mail pour peaufiner l’aspect de votre message."
+>abstract="L’écran **Modifier le contenu** vous permet de définir des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet, d’effectuer des actions supplémentaires telles que l’ajout de pièces jointes ou d’offres, et d’accéder au Designer d’e-mail pour donner un aspect soigné à votre message."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Joindre des fichiers à un e-mail"
->abstract="Sélectionnez un ou plusieurs fichiers à insérer dans votre message. Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par e-mail."
+>abstract="Sélectionnez un ou plusieurs fichiers à insérer dans votre message. Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -35,9 +35,9 @@ ht-degree: 100%
 
 La fenêtre **[!UICONTROL Modifier le contenu]** de l’e-mail vous permet d’effectuer les opérations suivantes :
 
-* Définir des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet.
-* Effectuer des actions supplémentaires telles que l’ajout de pièces jointes ou la configuration d’offres.
-* Accéder au [concepteur d’e-mail](get-started-email-designer.md#start-authoring) pour commencer à créer le contenu de votre e-mail.
+* Définissez des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet.
+* Exécuter des actions supplémentaires, telles que l’ajout de pièces jointes ou la configuration d’offres.
+* Accédez au [Designer d’e-mail](get-started-email-designer.md#start-authoring) pour commencer à créer le contenu de votre e-mail.
 
 >[!NOTE]
 >
@@ -47,11 +47,11 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir de la fenêtre [tableau de bord de diffusion des e-mails](../email/create-email.md).
 
-   ![](assets/email-edit-content-button.png){zoomable="yes"}
+   ![Capture d’écran affichant le bouton Modifier le contenu dans le tableau de bord de la diffusion e-mail.](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. La fenêtre de modification du contenu de l’e-mail s’ouvre.
 
-   ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
+   ![Capture d’écran affichant le tableau de bord d’édition du contenu de l’e-mail.](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -61,25 +61,25 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
    >[!NOTE]
    >
-   >Pour améliorer davantage l’expérience des destinataires, vous pouvez ajouter le nom d’une personne, par exemple « Eve de Luma ».
+   >Pour améliorer davantage l’expérience des destinataires, vous pouvez ajouter le nom d’une personne, par exemple « Eve de Luma ».
 
-1. Le champ **[!UICONTROL Adresse e-mail de l’expéditeur]** est également défini dans le modèle d’e-mail. Assurez-vous que le domaine de l’adresse est identique au sous-domaine délégué à Adobe.
+1. Le champ **[!UICONTROL Adresse e-mail de l’expéditeur]** est également défini dans le modèle d’e-mail. Assurez-vous que le domaine de l’adresse correspond au sous-domaine que vous avez délégué à Adobe.
 
    >[!NOTE]
    >
    >Vous pouvez modifier la partie qui précède le signe « @ », mais pas l’adresse du domaine.
 
-1. Développez la section **[!UICONTROL Champs de réponse]**. Le nom et l’adresse de la personne expéditrice sont utilisés par défaut pour les réponses. Adobe recommande toutefois d’utiliser une adresse réelle existante, comme l’assistance clientèle de votre marque. Ainsi, si un destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
+1. Développez la section **[!UICONTROL Champs de réponse]**. Le nom et l’adresse de la personne expéditrice sont utilisés par défaut pour les réponses. Cependant, Adobe recommande d’utiliser une adresse réelle existante, telle que l’assistance clientèle de votre marque. Dans ce cas, si un destinataire envoie une réponse, l’équipe de l’assistance clientèle sera en mesure de la gérer.
 
-   ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
+   ![Capture d’écran affichant la section Champs de réponse dans l’éditeur de contenu d’e-mail.](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter des éléments de [personnalisation](../personalization/personalize.md) à l’aide de divers attributs, fragments d’expression ou offres.
+1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter [personnalisation](../personalization/personalize.md) à l’aide de divers attributs, fragments d’expression ou offres.
 
-1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]** puis sélectionnez un ou plusieurs fichiers.
+1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]**, puis sélectionnez un ou plusieurs fichiers.
 
    >[!NOTE]
    >
-   >    Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email.
+   >Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email.
 
    <!--limitation on size + number of files?-->
 
@@ -87,7 +87,7 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
    Vous pouvez ensuite les insérer dans l’e-mail à l’aide de champs de personnalisation. [Découvrez comment envoyer des offres.](../msg/offers.md)
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour organiser et concevoir le contenu de l’e-mail en utilisant le [concepteur d’e-mail](get-started-email-designer.md#start-authoring). Des informations supplémentaires sur la conception de contenu d’e-mail sont disponibles dans les sections suivantes :
+1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour organiser et concevoir le contenu de l’e-mail en utilisant le [concepteur d’e-mail](get-started-email-designer.md#start-authoring). Pour plus d’informations sur la conception de contenu d’e-mail, consultez les sections suivantes :
 
    * [Rédiger des e-mails à partir de zéro](create-email-content.md)
    * [Donner un style à votre contenu](get-started-email-style.md)
@@ -96,7 +96,6 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
    >
    >Vous pouvez également pointer sur l’aperçu de l’e-mail et sélectionner **[!UICONTROL Ouvrir le concepteur d&#39;e-mail]**.
 
-1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
+1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking](message-tracking.md).
 
-1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)
-
+1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail](../preview-test/preview-test.md).

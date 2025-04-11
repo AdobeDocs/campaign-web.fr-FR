@@ -2,15 +2,14 @@
 title: Gérer les mappings de ciblage
 description: Découvrez comment gérer les mappings de ciblage.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
-workflow-type: ht
-source-wordcount: '787'
-ht-degree: 100%
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 54%
 
 ---
 
 # Gérer les mappings de ciblage {#target-mappings}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
@@ -29,7 +28,7 @@ Chaque canal de communication utilise un mapping de ciblage par défaut pour cib
 
 Les mappings de ciblage sont accessibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Mappings de ciblage]**. Depuis cet écran, vous pouvez accéder aux détails de chaque mapping de ciblage ou en créer de nouveaux en fonction de vos besoins.
 
-![](assets/target-mappings-list.png)
+![Écran de liste des mappings de ciblage affichant les mappings disponibles](assets/target-mappings-list.png)
 
 Pour plus d’informations sur les mappings de ciblage intégrés fournis avec Adobe Campaign, reportez-vous à la [documentation de la console cliente Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
 
@@ -55,7 +54,7 @@ Pour plus d’informations sur les mappings de ciblage intégrés fournis avec A
 >title="Stockage du mapping de ciblage"
 >abstract="La section **[!UICONTROL Stockage]** vous permet d’identifier l’emplacement où les logs doivent être stockés."
 
-Pour créer un mapping de ciblage, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Mappings de ciblage]**. Cliquez sur le bouton **[!UICONTROL Créer un mapping]**, puis suivez les étapes présentées dans les sections ci-dessous.
+Pour créer un mapping de ciblage, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Mappings de ciblage]**. Cliquez sur le bouton **[!UICONTROL Créer un mappage]**, puis suivez les étapes présentées dans les sections ci-dessous.
 
 1. Dans la section **[!UICONTROL Propriétés]**, saisissez un **[!UICONTROL Libellé]** pour le mapping de ciblage.
 
@@ -64,11 +63,11 @@ Pour créer un mapping de ciblage, accédez au menu **[!UICONTROL Administration
 1. Sélectionnez la population cible. Vous pouvez, au choix, effectuer ce qui suit :
 
    * **[!UICONTROL Utiliser directement la dimension de ciblage]** : sélectionnez la dimension à cibler directement dans la liste des dimensions disponibles.
-   * **[!UICONTROL Utiliser les données liées]** : cette option permet de partir d’une dimension de ciblage (par exemple, les abonnements), puis de passer à la dimension de ciblage que vous souhaitez cibler (par exemple, les destinataires).
+   * **[!UICONTROL Utiliser les données liées]** : commencez à partir d&#39;une dimension de ciblage (par exemple, les abonnements), puis passez à la dimension de ciblage que vous souhaitez cibler (par exemple, les destinataires).
 
-   ![](assets/target-mappings-properties.png)
+   ![Écran des propriétés des mappings de ciblage affichant les options de population](assets/target-mappings-properties.png)
 
-1. Si la dimension sélectionnée n’est pas déjà utilisée par un mapping de ciblage existant, les schémas pour stocker les logs doivent être créés. Pour ce faire, des options supplémentaires sont disponibles dans la section **[!UICONTROL Stockage]**. Pour plus d’informations, développez la section ci-dessous.
+1. Si la dimension sélectionnée n’est pas déjà utilisée par un mapping de ciblage existant, des schémas pour stocker les logs doivent être créés. D’autres options sont disponibles dans la section **[!UICONTROL Stockage]**. Pour plus d’informations, développez la section ci-dessous.
 
    +++Options de stockage pour les nouvelles dimensions de ciblage
 
@@ -77,42 +76,42 @@ Pour créer un mapping de ciblage, accédez au menu **[!UICONTROL Administration
 
       Dans l’exemple ci-dessous, le nom du broadlog est « cusbroadlogSupplier ».
 
-      ![](assets/target-mappings-new.png)
+      ![Exemple d’options de stockage pour les nouvelles dimensions de ciblage](assets/target-mappings-new.png)
 
-   1. **[!UICONTROL Logs de diffusion]** : activez les options de cette section pour enrichir les logs d’envoi avec un champ de code segment ou avec un champ contenant l’adresse IP de diffusion. Par exemple, vous pouvez enregistrer un code segment calculé pendant le workflow dans les logs d’envoi afin d’affiner la cible ultérieurement. Cela vous permettra de cibler les profils ayant ce code segment spécifique.
+   1. **[!UICONTROL Logs de diffusion]** : activez les options de cette section pour enrichir les logs d&#39;envoi avec un champ de code segment ou un champ contenant l&#39;adresse IP de diffusion. Par exemple, enregistrez un code segment calculé pendant le workflow dans les logs d’envoi pour affiner la cible ultérieurement. Cela permet de cibler les profils avec ce code segment spécifique.
 
-   1. **[!UICONTROL Exclusions]** : indiquez comment stocker les logs d’exclusions.
+   1. **[!UICONTROL Exclusions]** : indiquez comment stocker les journaux d’exclusions.
 
-   1. **[!UICONTROL Logs de tracking]** : activez l’option **[!UICONTROL Générer un schéma pour le tracking]** afin de générer un schéma de stockage pour les logs de tracking.
+   1. **[!UICONTROL Logs de tracking]** : activez l&#39;option **[!UICONTROL Générer un schéma pour le tracking]** afin de générer un schéma de stockage pour les logs de tracking.
 
 +++
 
-1. Utilisez la section **[!UICONTROL Mapping]** pour identifier les attributs du schéma du mapping de ciblage à utiliser pour chaque champ d’adresse de diffusion. Pour chaque champ, sélectionnez l’attribut souhaité à mapper. Vous pouvez également créer une expression pour identifier le champ. Par exemple, vous pouvez appliquer une fonction inférieure à l’attribut address.
+1. Utilisez la section **[!UICONTROL Mapping]** pour identifier les attributs du schéma du mapping de ciblage à utiliser pour chaque champ d’adresse de diffusion. Pour chaque champ, sélectionnez l’attribut souhaité à mapper. Vous pouvez également créer une expression pour identifier le champ. Par exemple, appliquez une fonction inférieure à l’attribut address.
 
-   ![](assets/target-mappings-mapping.png)
+   ![Section de mappage affichant la sélection des attributs pour les champs d’adresse de diffusion](assets/target-mappings-mapping.png)
 
-1. Lorsque votre mapping de ciblage est prêt, cliquez sur le bouton **[!UICONTROL Créer]**. Le système crée automatiquement le mapping de ciblage et tous les schémas associés pour les logs.
+1. Lorsque votre mapping de ciblage est prêt, cliquez sur le bouton **[!UICONTROL Créer]**. Le système crée automatiquement le mapping de ciblage et tous les schémas associés pour les journaux.
 
-Une fois votre mapping de ciblage créé, deux sections supplémentaires s’affichent à l’écran :
+Une fois votre mapping de ciblage créé, deux sections supplémentaires s&#39;affichent à l&#39;écran :
 
 * **[!UICONTROL Liste bloquée]** : cette section permet d’identifier les attributs du schéma du mapping de ciblage à utiliser pour les listes bloquées.
 
-  ![](assets/target-mappings-denylisting.png)
+  ![section de Liste bloquée affichant la sélection d&#39;attributs](assets/target-mappings-denylisting.png)
 
 * **[!UICONTROL Stockage]** : cette section permet d’identifier les tables à utiliser pour stocker les logs.
 
-  ![](assets/target-mappings-storage.png)
+  ![Section Stockage présentant les options du tableau pour les journaux](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL Schéma des messages]** : identifie le schéma à utiliser pour stocker les logs d’envoi.
-   * **[!UICONTROL Messages exclus]** : cette section explique comment gérer le stockage des logs de diffusion et d’exclusion.
+   * **[!UICONTROL Schéma des messages]** : identifie le schéma à utiliser pour stocker les logs d’envoi.
+   * **[!UICONTROL Messages exclus]** : indique comment gérer le stockage des logs de diffusion et d’exclusion.
 
       * **[!UICONTROL Stocker les exclusions et les messages dans le même tableau]**
       * **[!UICONTROL Stocker les messages uniquement]** : ne pas stocker les exclusions.
       * **[!UICONTROL Stocker les exclusions et les messages dans des tableaux distincts]** : sélectionnez le schéma à utiliser pour stocker les logs d’exclusion dans le champ **[!UICONTROL Schéma de rejet]**.
 
    * **[!UICONTROL Logs de tracking]** : choisissez où stocker les logs de tracking et la source du trafic par défaut.
-   * **[!UICONTROL Champs supplémentaires]** : cette section vous permet de spécifier une liste de champs supplémentaires à stocker dans les logs de diffusion. Ces champs peuvent stocker en permanence des informations sur les personnes individuelles de la cible (par exemple, `recipient/@firstName`) ou stocker des données supplémentaires calculées lors du workflow (par exemple, `[targetData/@offeCode]`).
+   * **[!UICONTROL Champs supplémentaires]** : indiquez une liste de champs supplémentaires à stocker dans les logs de diffusion. Ces champs peuvent stocker de manière permanente des informations sur des membres individuels de la cible (par exemple, `recipient/@firstName`) ou stocker des données supplémentaires calculées pendant le workflow (par exemple, `[targetData/@offeCode]`).
 
-     Pour ce faire, sélectionnez **[!UICONTROL Ajouter un champ]**. Identifiez les informations que vous souhaitez enregistrer dans le champ **[!UICONTROL Source]** et l’attribut à utiliser dans les logs d’envoi pour enregistrer ces informations dans le champ **[!UICONTROL Destination]**.
+     Pour ce faire, sélectionnez **[!UICONTROL Ajouter un champ]**. Identifiez les informations à enregistrer dans le champ **[!UICONTROL Source]** et l’attribut à utiliser dans les journaux d’envoi pour enregistrer ces informations dans le champ **[!UICONTROL Destination]**.
 
-     ![](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+     ![Section Champs supplémentaires présentant les options de stockage des données supplémentaires](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

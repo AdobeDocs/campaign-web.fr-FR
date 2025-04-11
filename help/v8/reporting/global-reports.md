@@ -3,10 +3,10 @@ audience: end-user
 title: Prise en main des rapports globaux
 description: Comprendre les rapports globaux
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 61%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Les **rapports globaux** constitue un outil efficace, offrant un résumé global consolidé des mesures de trafic et d’engagement pour chaque canal de votre instance Campaign. Ces rapports se composent de différents widgets, chacun offrant une perspective différente des performances de vos campagnes ou diffusions.
 
-Les indicateurs clés de performance (KPI) sont actualisés toutes les heures, ce qui permet d’obtenir des informations à jour. Par défaut, les données sont filtrées pour couvrir les 30 derniers jours, offrant ainsi une perspective actuelle et pertinente sur les performances de vos campagnes et diffusions.
+Les indicateurs de performance clés (KPI) sont actualisés toutes les heures, ce qui garantit la mise à jour des informations. Par défaut, les filtres de données couvrent les 30 derniers jours, offrant ainsi une perspective actuelle et pertinente sur les performances de vos campagnes et diffusions.
 
 La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
 
@@ -36,18 +36,18 @@ Pour accéder à vos rapports globaux et les gérer, procédez comme suit :
 
 1. Dans le menu de gauche, sélectionnez un rapport dans la liste et naviguez dans l’onglet pour afficher les données de chaque canal.
 
-   ![](assets/global_report_manage_3.png){zoomable="yes"}
+   ![Capture d’écran affichant le menu de gauche et les onglets pour parcourir les données de chaque canal](assets/global_report_manage_3.png){zoomable="yes"}
 
 1. Dans votre tableau de bord, choisissez une **Heure de début** et une **[!UICONTROL Heure de fin]** pour cibler des données spécifiques.
 
-   ![](assets/global_report_manage_1.png){zoomable="yes"}
+   ![Capture d’écran affichant le tableau de bord avec des options permettant de sélectionner les heures de début et de fin du ciblage des données](assets/global_report_manage_1.png){zoomable="yes"}
 
-1. Dans le champ **[!UICONTROL Sélectionner un dossier]**, choisissez si vous souhaitez cibler des diffusions ou une campagne à partir d’un dossier spécifique.
+1. Dans le champ **[!UICONTROL Choisir un dossier]**, choisissez de cibler les diffusions ou les campagnes à partir d’un dossier spécifique.
 
-   ![](assets/global_report_manage_2.png){zoomable="yes"}
+   ![Capture d’écran affichant le champ Choisir le dossier pour sélectionner des diffusions ou des campagnes](assets/global_report_manage_2.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Ajouter des règles]** pour commencer à créer des requêtes afin de mieux filtrer les données de reporting. [Découvrez comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
+1. Cliquez sur **[!UICONTROL Ajouter des règles]** pour commencer à créer des requêtes afin de mieux filtrer les données de reporting. [Découvrez comment utiliser le module de modélisation des requêtes](../query/query-modeler-overview.md).
 
-1. Dans **[!UICONTROL URL et flux de clics]**, vous pouvez également choisir **[!UICONTROL Liens les plus visités]** ou **[!UICONTROL Période]**.
+1. Dans les **[!UICONTROL URL et flux de clics]**, choisissez l’**[!UICONTROL Liens les plus visités]** ou la **[!UICONTROL Période]**.
 
-   Les options **[!UICONTROL Afficher par]** vous permettent de filtrer sur des URL, des libellés ou des catégories.
+   Les options **[!UICONTROL Afficher par]** permettent de filtrer par URL, libellé ou catégorie.

@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les fragments de contenu
 description: Découvrez comment utiliser les fragments de contenu.
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 77%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 ## Que sont les fragments de contenu ? {#what}
 
-Un fragment de contenu est un composant réutilisable pouvant être référencé dans un ou plusieurs messages. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour. Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés destinés aux utilisateurs et utilisatrices marketing et permettant d’assembler rapidement les contenus de messages dans un processus de conception amélioré.
+Un fragment de contenu est un composant réutilisable pouvant être référencé dans un ou plusieurs messages. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour. Cette fonctionnalité permet aux utilisateurs marketing de précréer plusieurs blocs de contenu personnalisés et d’assembler rapidement le contenu du message dans un processus de conception amélioré.
 
 Deux types de fragments sont disponibles :
 
-* Les **fragments d’expression** sont des expressions prédéfinies disponibles à partir d’une entrée dédiée dans l’éditeur d’expression. Campaign est fourni avec un ensemble de blocs de contenu prédéfini qui contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Vous pouvez également créer vos propres fragments d’expression en fonction de vos besoins.
+* Les **fragments d’expression** sont des expressions prédéfinies disponibles à partir d’une entrée dédiée dans l’éditeur d’expression. Campaign comprend un ensemble de blocs de contenu prédéfinis qui contiennent des rendus spécifiques que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Vous pouvez également créer vos propres fragments d’expression en fonction de vos besoins.
 
 * Les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs [diffusions e-mail](../email/get-started-email-designer.md) ou dans des [modèles de contenu](../email/use-email-templates.md).
 
@@ -38,7 +38,7 @@ Deux types de fragments sont disponibles :
 
 ## Explorons plus en détail
 
-Maintenant que vous connaissez le b.a.-ba des fragments de contenu et leur utilisation dans Adobe Campaign, nous allons parcourir les sections de la documentation consacrées à l’utilisation de cette fonctionnalité.
+Maintenant que vous comprenez ce que sont les fragments de contenu et ce que vous pouvez en faire dans Adobe Campaign, explorez les sections de documentation suivantes pour commencer à utiliser la fonctionnalité.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

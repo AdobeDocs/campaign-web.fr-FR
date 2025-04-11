@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité Signal externe
 description: Découvrez comment utiliser l’activité de workflow Signal externe
 exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 36%
 
 ---
 
@@ -29,27 +29,27 @@ ht-degree: 100%
 >title="Déclencheurs de fin"
 >abstract="Déclencheurs de fin"
 
-L’activité **Signal externe** est une activité de **contrôle de flux**. Elle permet de déclencher l’exécution d’un workflow à partir d’un autre workflow ou d’un appel API.
+L’activité **Signal externe** est une activité de **contrôle de flux**. Elle permet de déclencher l&#39;exécution d&#39;un workflow à partir d&#39;un autre workflow ou d&#39;un appel API.
 
 >[!NOTE]
 >
->Cette page présente les principales étapes pour configurer une activité **[!UICONTROL Signal externe]** dans l’interface d’utilisation de Campaign Web et la déclencher à partir d’un autre workflow ou d’un appel API. Des informations détaillées sur le déclenchement d’un workflow et ses bonnes pratiques, ainsi que sur l’utilisation des API Campaign, sont disponibles dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>Cette page décrit les étapes principales pour configurer une activité **[!UICONTROL Signal externe]** dans l&#39;interface utilisateur web de Campaign et la déclencher à partir d&#39;un autre workflow ou d&#39;un appel API. Vous trouverez des informations détaillées sur le déclenchement d’un workflow, les bonnes pratiques et la manière d’utiliser les API Campaign dans la documentation de [Campaign v8 (console cliente)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Suivez ces étapes pour configurer l’activité **Signal externe** et déclencher son exécution :
 
 1. Ajoutez une activité **Signal externe** à votre workflow.
 
-1. Effectuez la configuration de votre workflow et démarrez son exécution. L’activité **[!UICONTROL Signal externe]** s’affiche comme étant forme « En attente », c’est-à-dire en attente de déclenchement.
+1. Terminez la configuration de votre workflow et lancez son exécution. L’activité **[!UICONTROL Signal externe]** s’affiche sous la forme « En attente », en attente de déclenchement.
 
-   ![](../assets/external-signal-pending.png)
+   ![La capture d’écran montre l’activité Signal externe dans un état en attente.](../assets/external-signal-pending.png)
 
-1. Récupérez les informations ci-dessous :
+1. Récupérez les informations suivantes :
 
    * **Nom interne du workflow**, qui s’affiche en regard de son libellé.
 
      +++Afficher l’exemple
 
-     ![](../assets/external-signal-workflow-name.png)
+     ![La capture d’écran affiche le nom interne du workflow en regard de son libellé.](../assets/external-signal-workflow-name.png)
 
 +++
 
@@ -57,15 +57,15 @@ Suivez ces étapes pour configurer l’activité **Signal externe** et déclench
 
      +++Afficher l’exemple
 
-     ![](../assets/external-signal-name.png)
+     ![La capture d’écran affiche le nom de l’activité Signal externe dans les options d’exécution.](../assets/external-signal-name.png)
 
 +++
 
-1. Pour déclencher le workflow, vous devez exécuter la fonction JavaScript `PostEvent`. Cette fonction vous permet de transmettre des variables avec les valeurs de votre choix et de les utiliser dans le workflow déclenché.
+1. Pour déclencher le workflow, exécutez la fonction `PostEvent` JavaScript . Cette fonction vous permet de transmettre des variables avec les valeurs de votre choix et de les utiliser dans le workflow déclenché.
 
    La fonction `PostEvent` peut être exécutée à partir d’un autre workflow ou d’un appel API.
 
-   * Pour déclencher une activité **[!UICONTROL Signal externe]** à partir d’un workflow, exécutez la fonction PostEvent à partir du volet **[!UICONTROL Script d’initialisation]**, accessible à partir des **[!UICONTROL options d’exécution]** de l’activité. Pour l’activité **[!UICONTROL Code JavaScript]**, exécutez la fonction à partir du script de l’activité.
+   * Pour déclencher une activité **[!UICONTROL Signal externe]** à partir d&#39;un workflow, exécutez la fonction PostEvent depuis le volet **[!UICONTROL Script d&#39;initialisation]**, accessible à partir des **[!UICONTROL Options d&#39;exécution]** de l&#39;activité. Pour l’activité **[!UICONTROL Code JavaScript]**, exécutez la fonction à partir du script de l’activité.
 
      La syntaxe est la suivante :
 
@@ -75,10 +75,10 @@ Suivez ces étapes pour configurer l’activité **Signal externe** et déclench
 
    +++Afficher l’exemple
 
-   Dans cet exemple, nous déclenchons l’activité Signal externe « signal1 » qui a été ajoutée au workflow dont le nom interne est « WKF12345 ». Nous transmettons également une variable nommée « customID », avec la valeur « 123456 ».
+   Dans cet exemple, l’activité de signal externe « signal1 » est déclenchée. Elle a été ajoutée au workflow dont le nom interne est « WKF12345 ». Une variable nommée « customID » est transmise avec la valeur « 123456 ».
 
-   ![](../assets/external-signal-sample.png)
+   ![La capture d’écran illustre un exemple de déclenchement de l’activité Signal externe à l’aide de la fonction PostEvent.](../assets/external-signal-sample.png)
 
 +++
 
-   * Pour déclencher une activité **[!UICONTROL Signal externe]** à partir d’un appel API, suivez les étapes détaillées dans la documentation de l’API Campaign. [Découvrir comment utiliser la méthode statique `PostEvent`](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=fr)
+   * Pour déclencher une activité **[!UICONTROL Signal externe]** à partir d’un appel API, suivez les étapes détaillées dans la documentation de l’API Campaign. [Découvrez comment utiliser la méthode de `PostEvent` statique](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=fr).

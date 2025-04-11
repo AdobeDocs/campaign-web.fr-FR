@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 90%
 
 ---
 
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
-![](../assets/workflow-audience.png)
+![Capture d’écran montrant l’interface de configuration de l’audience du workflow.](../assets/workflow-audience.png)
 
 1. Ajoutez une activité **Créer une audience**.
 1. Définissez un libellé.
@@ -56,7 +56,7 @@ Pour configurer l’activité **Créer une audience**, procédez comme suit :
 Pour créer votre propre requête, procédez comme suit :
 
 1. Sélectionnez **Créer la vôtre (requête)**.
-1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. Par défaut, la cible est sélectionnée parmi les destinataires. [En savoir plus sur les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions)
+1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération, comme les destinataires, les bénéficiaires d’un contrat, les opérateurs ou les abonnés. Par défaut, la cible est sélectionnée parmi les destinataires. [En savoir plus sur les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions)
 1. Cliquez sur **Continuer**.
 1. Utilisez le concepteur de requêtes pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
 
@@ -70,8 +70,8 @@ Pour sélectionner une audience existante, procédez comme suit :
 
 >[!ENDTABS]
 
-## Exemples{#build-audience-examples}
+## Exemples {#build-audience-examples}
 
 Voici un exemple de workflow avec deux activités **Créer une audience**. La première cible l’audience des joueurs et joueuses de poker, suivie d’une diffusion e-mail. La seconde cible l’audience des clientes et clients VIP, suivie d’une diffusion SMS.
 
-![](../assets/workflow-audience-example.png)
+![Capture d’écran montrant un exemple de workflow avec deux activités Créer une audience ciblant des audiences différentes.](../assets/workflow-audience-example.png)

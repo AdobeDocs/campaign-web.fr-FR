@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne pour le canal Courrier
 description: Comprendre les rapports de campagne du canal Courrier
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 56%
 
 ---
 
@@ -23,9 +23,9 @@ Chaque rapport de campagne est divisé en différents widgets qui détaillent le
 >title="Vue d’ensemble de la diffusion"
 >abstract="La **Vue d’ensemble de la diffusion** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions courrier. Les mesures sont décrites ci-dessous."
 
-La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions par courrier. Les mesures sont décrites ci-dessous.
+La **[!UICONTROL Présentation de la diffusion]** présente des mesures de performances clés (KPI) et offre des informations détaillées sur l’interaction de vos visiteurs et visiteuses avec chaque diffusion de publipostage direct. Les mesures sont décrites ci-dessous.
 
-![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![Présentation des mesures de diffusion des campagnes de publipostage direct](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
@@ -33,9 +33,9 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicat
 
 * **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Nombre total de clics]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
+* **[!UICONTROL Nombre total de clics]** : nombre total de destinataires distincts ayant cliqué dans une diffusion au moins une fois.
 
 +++
 
@@ -46,9 +46,9 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicat
 >title="Statistiques initiales sur l’audience cible"
 >abstract="Les données de la personne destinataire et les informations sur le message s’affichent dans le tableau **Statistiques initiales sur l´audience cible**, reflétant l’analyse de préparation de la diffusion."
 
-Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos personnes destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles affichent l’audience initiale, le nombre de messages à envoyer et le nombre de personnes destinataires exclues.
+Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion et affichent l’audience initiale, le nombre de messages à envoyer et le nombre de destinataires exclus.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
+![Statistiques de l’audience cible initiale des campagnes par publipostage direct](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures de statistiques initiales sur l’audience cible.
 
@@ -56,7 +56,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Rejetées par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
+* **[!UICONTROL Rejetés par les règles]** : nombre total d’adresses ignorées pendant l’analyse lors de l’application des règles, telles que les adresses manquantes, les adresses en quarantaine ou les adresses sur une liste bloquée de données.
 
 +++
 
@@ -67,19 +67,19 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 >title="Statistiques de diffusion"
 >abstract="Le tableau **Statistiques d’exécution** détaille le succès de votre diffusion par courrier et les erreurs qui se sont produites."
 
-![](assets/direct-mail-campaign-exec.png)
+![Statistiques d’exécution des campagnes Courrier](assets/direct-mail-campaign-exec.png)
 
-Le tableau **[!UICONTROL Statistiques d’exécution]** fournit une répartition du succès de chaque diffusion par courrier, avec les mesures détaillées décrites ci-dessous.
+Le tableau **[!UICONTROL Statistiques d’exécution]** fournit une répartition des performances de chaque diffusion Courrier, avec les mesures détaillées décrites ci-dessous.
 
 +++En savoir plus sur les mesures des statistiques de diffusion.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à délivrer.
+* **[!UICONTROL Succès]** : nombre de messages traités avec succès, par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à délivrer.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours, par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à délivrer.
+* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (par exemple, utilisateur ou utilisatrice inconnu(e), domaine invalide), par rapport au nombre de messages à diffuser.
 
 +++
 
@@ -90,7 +90,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** fournit une répartition
 >title="Flux de clics générés"
 >abstract="Le tableau **Flux de clics générés** affiche les données disponibles sur les interactions des destinataires avec votre diffusion."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
+![Diffuser des données en continu pour les campagnes de publipostage direct](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 Le tableau **Flux de clics générés** illustre les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
@@ -100,6 +100,6 @@ Le tableau **Flux de clics générés** illustre les raisons qui ont empêché d
 
 * **[!UICONTROL Nombre total de clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
+* **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
 
 +++

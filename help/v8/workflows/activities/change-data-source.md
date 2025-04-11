@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Modifier la source de données
 description: Découvrez comment utiliser l’activité de workflow Modifier la source de données.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 80%
 
 ---
 
@@ -17,21 +17,21 @@ ht-degree: 100%
 >title="Modifier la source de données"
 >abstract="L’activité **Modifier la source de données** vous permet de sélectionner une autre source de données pour la table de travail de votre workflow."
 
-L’activité **Modifier la source de données** est une activité de **ciblage**. Cette activité permet de modifier la source de données utilisée par la table de travail de votre workflow. Vous bénéficiez ainsi d’une plus grande flexibilité grâce à la gestion des données dans vos différentes bases de données et à l’amélioration des performances.
+L’activité **Modifier la source de données** est une activité de **ciblage**. Cette activité permet de modifier la source de données utilisée par la table de travail de votre workflow. Vous bénéficiez ainsi d’une plus grande flexibilité en gérant les données de vos différentes bases de données et en améliorant les performances.
 
 Dans les workflows, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une **table de travail** temporaire. Par défaut, les tables de travail sont créées dans la même base de données que la source des données traitées. Par exemple, lors de l’interrogation de la table Profils stockée dans la base de données cloud, une table de travail est créée sur la même base de données cloud.
 
 Dans certains cas, les données ne sont pas disponibles dans la base de données actuelle ou ne sont pas suffisamment efficaces pour effectuer des opérations unitaires. Vous devrez peut-être donc forcer le workflow à utiliser une autre base de données pour effectuer ces opérations en ajoutant une activité **[!UICONTROL Modifier la source de données]**.
 
-Des informations détaillées sur l’architecture de Campaign sont disponibles dans la [Documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=fr).
+Vous trouverez des informations détaillées sur l’architecture de Campaign dans la documentation de [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=fr).
 
 >[!IMPORTANT]
 >
->Veuillez noter que les activités **[!UICONTROL Changer la dimension]** et **[!UICONTROL Modifier la source de données]** ne doivent pas être ajoutées sur une même ligne. Si vous devez utiliser les deux activités consécutivement, veillez à inclure une activité **[!UICONTROL Enrichissement]** entre les deux. Cela garantit une bonne exécution et évite les erreurs et conflits potentiels.
+>Notez que les activités **[!UICONTROL Changer la dimension]** et **[!UICONTROL Modifier la source de données]** ne doivent pas être ajoutées sur une même ligne. Si vous devez utiliser les deux activités de manière consécutive, incluez une activité **[!UICONTROL Enrichissement]** entre elles. Cela garantit une bonne exécution et évite les erreurs et conflits potentiels.
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -45,9 +45,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Configurer l’activité Modifier la source de données {#configure}
 
-Pour configurer l’activité **Changement de dimension**, procédez comme suit :
+Pour configurer l’activité **Modifier la source de données** procédez comme suit :
 
-![](../assets/workflow-change-data-source-add.png)
+![Capture d’écran montrant comment ajouter l’activité Modifier la source de données à un workflow.](../assets/workflow-change-data-source-add.png)
 
 1. Ajoutez une activité **Modifier la source de données** à votre workflow.
 
@@ -65,6 +65,6 @@ Pour configurer l’activité **Changement de dimension**, procédez comme suit�
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

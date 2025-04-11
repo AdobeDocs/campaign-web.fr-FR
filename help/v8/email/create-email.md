@@ -3,13 +3,12 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
-workflow-type: ht
-source-wordcount: '1492'
-ht-degree: 100%
+source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+workflow-type: tm+mt
+source-wordcount: '1626'
+ht-degree: 66%
 
 ---
-
 
 # Créer votre premier e-mail {#first-email}
 
@@ -29,45 +28,45 @@ Basé sur un [modèle de conception](../email/create-email-templates.md) prédé
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Sélectionner le modèle d’e-mail"
->abstract="Un modèle d’e-mail est une configuration de diffusion spécifique qui contient des paramètres prédéfinis, tels que des règles de typologie, des paramètres de personnalisation ou de routage. Les modèles sont définis dans la console cliente Campaign."
+>abstract="Un modèle d’e-mail est une configuration de diffusion spécifique qui contient des paramètres prédéfinis, tels que des règles de typologie, une personnalisation ou des paramètres de routage. Les modèles sont définis dans la console cliente Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="Définir les propriétés de vos e-mails"
->abstract="Les propriétés sont les paramètres de diffusion courants qui vous permettent de nommer et de classer votre diffusion. Les paramètres supplémentaires sont facultatifs. Si votre diffusion est basée sur un schéma étendu défini dans la console Adobe Campaign v8, des champs spécifiques d’**Options personnalisées** sont disponibles."
+>abstract="Les propriétés sont les paramètres de diffusion courants qui vous aident à nommer et à classer votre diffusion. Les paramètres supplémentaires sont facultatifs. Si votre diffusion est basée sur un schéma étendu défini dans la console Adobe Campaign v8, des champs spécifiques d’**Options personnalisées** sont disponibles."
 
 Vous pouvez créer une diffusion par e-mail autonome ou créer un e-mail dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion d’e-mail autonome (ponctuelle). En savoir plus sur les étapes de création de diffusions dans Adobe Campaign sur [cette page](../msg/gs-deliveries.md).
 
 Pour créer une diffusion d’e-mail autonome, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Diffusions]** dans le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
+1. Accédez au menu **[!UICONTROL Diffusions]** sur le rail de gauche, puis cliquez sur le bouton **[!UICONTROL Créer une diffusion]**.
 
-   ![](../msg/assets/create-a-delivery.png)
+   ![Capture d’écran affichant le bouton Créer une diffusion dans le menu Diffusions](../msg/assets/create-a-delivery.png)
 
-1. Sélectionnez le canal **[!UICONTROL E-mail]** et choisissez un modèle de diffusion e-mail dans la liste.
+1. Sélectionnez **[!UICONTROL E-mail]** comme canal, puis choisissez un modèle de diffusion e-mail dans la liste.
 
    >[!NOTE]
    >
-   >Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. [En savoir plus](../msg/delivery-template.md).
+   >Les modèles sont des paramètres de diffusion préconfigurés enregistrés en vue d’une utilisation ultérieure. [En savoir plus](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png)
+   ![Capture d’écran affichant la sélection du canal e-mail et du modèle](assets/channel-template.png){zoomable="yes"}
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une diffusion]** pour confirmer.
-1. Indiquez un libellé pour la diffusion et configurez les options supplémentaires en fonction de vos besoins :
+1. Saisissez un libellé pour la diffusion et configurez les options supplémentaires en fonction de vos besoins :
 
    * **[!UICONTROL Nom interne]** : attribuez un identifiant unique à la diffusion.
    * **[!UICONTROL Dossier]** : stockez la diffusion dans un dossier spécifique.
-   * **[!UICONTROL Code de diffusion]** : utilisez ce champ pour organiser vos diffusions selon votre propre convention de nommage.
-   * **[!UICONTROL Description]** : spécifiez une description pour la diffusion.
-   * **[!UICONTROL Nature]** : indiquez la nature de l’e-mail à des fins de classification.<!--The content of the list is defined in the delivery template selected when creating the email.-->
+   * **[!UICONTROL Code de diffusion]** : utilisez ce champ pour organiser vos diffusions selon votre propre convention de nommage.
+   * **[!UICONTROL Description]** : spécifiez une description pour la diffusion.
+   * **[!UICONTROL Nature]** : indiquez la nature de l’e-mail à des fins de classification.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
    >
    >Si vous avez étendu votre schéma avec des champs personnalisés spécifiques, vous pouvez y accéder dans la section **[!UICONTROL Options personnalisées]**.
 
-   ![](assets/email-properties.png)
+   ![Capture d’écran affichant la configuration des propriétés de l’e-mail](assets/email-properties.png){zoomable="yes"}
 
-1. De plus, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via le bouton **[!UICONTROL Paramètres]** situé en haut à droite de l’écran. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique. [En savoir plus](../advanced-settings/delivery-settings.md)
+1. De plus, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via le bouton **[!UICONTROL Paramètres]** situé en haut à droite de l’écran. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés si nécessaire pour cet e-mail spécifique. [En savoir plus](../advanced-settings/delivery-settings.md)
 
 ## Définir l’audience {#define-audience}
 
@@ -82,19 +81,19 @@ Dans ce cas d’utilisation, vous envoyez l’e-mail à une audience existante.
 
 Des instructions supplémentaires sur l’utilisation des audiences sont disponibles dans [cette section](../audience/about-recipients.md).
 
-1. Pour sélectionner l’audience de l’e-mail, cliquez sur le bouton **[!UICONTROL Sélectionner l’audience]** et choisissez une audience existante dans la liste.
+1. Pour sélectionner l’audience de l’e-mail, cliquez sur le bouton **[!UICONTROL Sélectionner l’audience]**, puis choisissez une audience existante dans la liste.
 
-   Dans cet exemple, nous allons utiliser une audience existante ciblant des client(e)s appartenant aux niveaux de points de fidélité argent et or.
+   Dans cet exemple, nous allons utiliser une audience existante ciblant des clients appartenant aux niveaux de points de fidélité Argent et Or .
 
-   ![](assets/create-audience.png)
+   ![Capture d’écran montrant le processus de sélection de l’audience](assets/create-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Les audiences disponibles dans la liste proviennent de votre instance Campaign v8 ou d’Adobe Experience Platform si l’intégration Destination/Source a été configurée sur votre instance. L’intégration vous permet d’envoyer des segments Experience Platform vers Adobe Campaign et d’envoyer des logs de diffusion et de tracking Campaign à Adobe Experience Platform. Découvrez comment utiliser Campaign et Adobe Experience Platform dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=fr).
+   >Les audiences disponibles dans la liste proviennent de votre instance Campaign v8 ou de Adobe Experience Platform si l’intégration Destination/Source a été configurée sur votre instance. Cette intégration vous permet d’envoyer des segments Experience Platform à Adobe Campaign et d’envoyer des logs de diffusion et de tracking Campaign à Adobe Experience Platform. Découvrez comment utiliser Campaign et Adobe Experience Platform dans la documentation de [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=fr){target="_blank"}.
 
 1. Une fois l’audience sélectionnée, vous pouvez affiner davantage la cible en appliquant des règles supplémentaires.
 
-   ![](assets/audience-selected.png)
+   ![Capture d’écran montrant le processus d’affinement de l’audience](assets/audience-selected.png){zoomable="yes"}
 
 1. Vous pouvez également définir une population témoin afin d’analyser le comportement des destinataires de l’e-mail par rapport au comportement des profils qui n’ont pas été ciblés. [Découvrez comment travailler avec les populations témoins.](../audience/control-group.md)
 
@@ -106,31 +105,31 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans 
 
 1. Dans le tableau de bord de la diffusion e-mail, cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
 
-   ![](assets/email-edit-content.png)
+   ![Capture d’écran affichant le bouton Modifier le contenu](assets/email-edit-content.png){zoomable="yes"}
 
    Une interface dédiée s’affiche, dans laquelle vous pouvez configurer le contenu de l’e-mail et accéder au concepteur d’e-mail. [En savoir plus](edit-content.md).
 
-   ![](assets/edit-content.png)
+   ![Capture d’écran montrant l’interface de Designer par e-mail](assets/edit-content.png){zoomable="yes"}
 
-1. Indiquez l’objet de l’e-mail et personnalisez-le à l’aide de l’éditeur d’expression. [Découvrez comment personnaliser du contenu](../personalization/personalize.md).
+1. Saisissez l’objet de votre e-mail et personnalisez-le à l’aide de l’éditeur d’expression. [Découvrir comment personnaliser du contenu](../personalization/personalize.md)
 
-   ![](assets/subject-line.png)
+   ![Capture d’écran affichant la configuration de l’objet](assets/subject-line.png){zoomable="yes"}
 
 1. Pour concevoir le contenu de l’e-mail, cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]**.
 
    Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, utilisez un [modèle de contenu prédéfini](create-email-templates.md).
 
-   ![](assets/select-template.png)
+   ![Capture d’écran montrant la sélection d’un modèle de contenu prédéfini](assets/select-template.png){zoomable="yes"}
 
 1. Une fois le modèle sélectionné, il s’affiche dans le [concepteur d’e-mail](create-email-content.md). Vous pouvez ainsi apporter les modifications nécessaires et le personnaliser à souhait.
 
-   Par exemple, pour personnaliser le titre de l’e-mail, sélectionnez le bloc de composant et cliquez sur **[!UICONTROL Ajouter une personnalisation]**.
+   Par exemple, pour personnaliser le titre de l’e-mail, sélectionnez le bloc de composant, puis cliquez sur **[!UICONTROL Ajouter un Personalization]**.
 
-   ![](assets/add-perso.png)
+   ![Capture d’écran montrant le processus de personnalisation](assets/add-perso.png){zoomable="yes"}
 
 1. Une fois que vous êtes satisfait du contenu, enregistrez et fermez votre conception. Cliquez sur **[!UICONTROL Enregistrer]** pour revenir à l’écran de création d’e-mail.
 
-   ![](assets/save-content.png)
+   ![Capture d’écran affichant le bouton Enregistrer](assets/save-content.png){zoomable="yes"}
 
 ## Planifier l’envoi {#schedule}
 
@@ -142,7 +141,7 @@ Lorsqu’une diffusion est envoyée dans le cadre d’un workflow, vous devez ut
 
 1. Définissez la date et l’heure d’envoi.
 
-   ![](assets/schedule.png)
+   ![Capture d’écran affichant la configuration de planification](assets/schedule.png){zoomable="yes"}
 
 Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
 
@@ -154,13 +153,13 @@ Avant d’envoyer votre e-mail, vous pouvez le prévisualiser et le tester pour 
 
 Dans ce cas d’utilisation, vous prévisualisez l’e-mail et envoyez des BAT à des adresses e-mail spécifiques tout en empruntant l’identité de certains des profils ciblés.
 
-Des informations supplémentaires sur la prévisualisation des e-mails et l’envoi de BAT sont disponibles dans [cette section](../preview-test/preview-test.md).
+Des informations supplémentaires sur la prévisualisation d’un e-mail et l’envoi de BAT sont disponibles dans [cette section](../preview-test/preview-test.md).
 
 1. Pour vérifier votre e-mail, cliquez sur **[!UICONTROL Vérifier et envoyer]**. Un aperçu de votre e-mail s’affiche, ainsi que toutes les propriétés, l’audience et le planning configurés. Vous pouvez modifier chacun de ces éléments en cliquant sur le bouton Modifier.
 
 1. Pour prévisualiser l’e-mail et envoyer des BAT, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
-   ![](assets/review-email.png)
+   ![Capture d’écran affichant le bouton Simuler du contenu](assets/review-email.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -170,28 +169,28 @@ Des informations supplémentaires sur la prévisualisation des e-mails et l’en
 
    Le volet de droite affiche un aperçu de l’e-mail en fonction du profil sélectionné. Si vous avez ajouté plusieurs profils, vous pouvez passer d’un profil à l’autre pour prévisualiser l’e-mail correspondant.
 
-   ![](assets/preview.png)
+   ![Capture d’écran affichant l’aperçu de l’e-mail en fonction des profils sélectionnés](assets/preview.png){zoomable="yes"}
 
-   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. Pour envoyer des BAT, cliquez sur le bouton **[!UICONTROL Envoyer des BAT]**, puis sélectionnez le mode à utiliser.
+1. Pour envoyer des BAT, cliquez sur le bouton **[!UICONTROL Envoyer des BAT]**, puis choisissez le mode que vous souhaitez utiliser.
 
    Dans cet exemple, utilisez le mode **[!UICONTROL Substituer à partir de la cible principale]**, qui envoie des BAT à des adresses e-mail spécifiques tout en empruntant l’identité de certains des profils ciblés par l’e-mail.
 
-   ![](assets/proof-mode.png)
+   ![Capture d’écran affichant la sélection du mode d’envoi du BAT](assets/proof-mode.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Ajouter une adresse]** et indiquez la ou les adresses e-mail qui reçoivent les BAT.
 
    Pour chaque adresse e-mail, sélectionnez le profil dont vous souhaitez emprunter l’identité. Vous pouvez également laisser Adobe Campaign sélectionner un profil aléatoire à partir de la cible.
 
-   ![](assets/proof-test-profile.png)
+   ![Capture d’écran affichant l’ajout d’adresses e-mail pour les BAT](assets/proof-test-profile.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Envoyer un BAT]**, puis confirmez l’envoi.
+1. Cliquez sur **[!UICONTROL Envoyer un BAT]** et confirmez l’envoi.
 
    Les BAT sont envoyés aux adresses e-mail spécifiées à l’aide du profil sélectionné avec le préfixe **[BAT x]**.
 
-   ![](assets/proof-sent.png)
+   ![Capture d’écran affichant la confirmation de l’envoi du BAT](assets/proof-sent.png){zoomable="yes"}
 
    Vous pouvez vérifier à tout moment le statut de l’envoi et accéder aux BAT envoyés en cliquant sur le bouton **[!UICONTROL Afficher les BAT]** dans l’écran Simuler du contenu.
 
@@ -223,7 +222,7 @@ La simulation de contenu n’est pas prise en charge dans les cas suivants :
 
 <!--* When a multilingual delivery contains only one locale,-->
 * Avec des diffusions réconciliées
-* Lorsque votre modèle de déploiement Campaign est [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment).
+* Lorsque votre modèle de déploiement Campaign est [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
 * Lorsqu’aucun fichier de données n’a été chargé.
 
 ## Envoyer et surveiller l’e-mail {#prepare-send}
@@ -232,22 +231,22 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 
 1. Pour lancer la préparation de l’e-mail, cliquez sur **[!UICONTROL Préparer]**. [Découvrez comment préparer un e-mail](../monitor/prepare-send.md).
 
-   ![](assets/preparation.png)
+   ![Capture d’écran affichant le bouton Préparer](assets/preparation.png){zoomable="yes"}
 
-1. Une fois que votre e-mail est prêt à être envoyé, cliquez sur le bouton **[!UICONTROL Envoyer]** (ou **[!UICONTROL Envoyer comme prévu]** si vous avez planifié son envoi) et confirmez l’envoi.
+1. Une fois que votre e-mail est prêt à être envoyé, cliquez sur le bouton **[!UICONTROL Envoyer]** (ou **[!UICONTROL Envoyer comme prévu]** si vous avez planifié son envoi), puis confirmez l’envoi.
 
 1. Au cours du processus d’envoi, vous pouvez suivre son avancement et visualiser les statistiques en temps réel directement à partir de cet écran.
 
-   ![](assets/sending-email.png)
+   ![Capture d’écran montrant la progression de l’envoi des e-mails](assets/sending-email.png){zoomable="yes"}
 
    <!--
-    ![](assets/sent-email.png){zoomable="yes"}-->
+    ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}-->
 
    Vous pouvez également accéder à des informations détaillées sur l’envoi en cliquant sur le bouton **[!UICONTROL Logs]**. [Découvrez comment surveiller les logs de diffusion](../monitor/delivery-logs.md).
 
 1. Une fois l’e-mail envoyé, vous pouvez accéder à des rapports dédiés pour une analyse plus approfondie en cliquant sur le bouton **[!UICONTROL Créer des rapports]**.
 
-![](assets/reports.png)
+![Capture d’écran affichant le bouton Reporting](assets/reports.png){zoomable="yes"}
 
 ## Vidéo pratique {#video}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Créer une diffusion SMS
 description: Découvrez comment concevoir votre diffusion SMS.
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 49%
 
 ---
 
@@ -20,23 +20,23 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="Contenu du message SMS"
->abstract="Définissez le contenu de votre SMS. Pour composer votre message, cliquez sur le champ **Message** et saisissez le contenu du message. Utilisez l’éditeur d’expression pour ajouter des données personnalisées et du contenu dynamique. Vous pouvez également personnaliser le nom de l’expéditeur ou de l’expéditrice. Par défaut, le suivi est activé pour toutes les diffusions SMS, afin que vous puissiez mesurer le moment où les personnes destinataires cliquent sur les liens."
+>abstract="Définissez le contenu de votre SMS. Pour composer votre message, cliquez sur le champ **Message** et saisissez le contenu du message. Utilisez l’éditeur d’expression pour ajouter des données personnalisées et du contenu dynamique. Vous pouvez également personnaliser le nom de l’expéditeur ou de l’expéditrice. Par défaut, le tracking est activé pour toutes les diffusions SMS, ce qui vous permet de mesurer le moment où les destinataires cliquent sur des liens."
 
 Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :
 
 1. Dans votre page de diffusion, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour concevoir le contenu de votre SMS.
 
-1. Sur la page **[!UICONTROL Modifier le contenu]**, vous pouvez personnaliser le nom de l’expéditeur ou expéditrice en accédant au **[!UICONTROL champ Expéditeur ou expéditrice]** et en saisissant le nom souhaité.
+1. Sur la page **[!UICONTROL Modifier le contenu]**, personnalisez le nom de l’expéditeur ou expéditrice en accédant au champ **[!UICONTROL Expéditeur]** et en saisissant le nom souhaité.
 
-   En outre, en cliquant sur **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, vous pouvez inclure des champs de personnalisation, des fragments d’expression et du contenu dynamique dans votre message.
+   De plus, cliquez sur **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour inclure des champs de personnalisation, des fragments d’expression et du contenu dynamique dans votre message.
 
-   ![](assets/sms_content_1.png){zoomable="yes"}
+   ![Capture d’écran montrant la page Modifier le contenu avec des options pour personnaliser le nom de l’expéditeur et ajouter des champs de personnalisation](assets/sms_content_1.png){zoomable="yes"}
 
 1. Saisissez votre message texte dans le champ **[!UICONTROL Message]** ou cliquez sur l’option **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** pour définir le contenu et ajouter du contenu dynamique. [En savoir plus](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png){zoomable="yes"}
+   ![Capture d’écran affichant le champ Message avec des options pour ajouter du contenu dynamique](assets/sms_content_2.png){zoomable="yes"}
 
-1. Par défaut, le tracking est activé pour les diffusions. Vous pouvez désactiver cette option dans la **[!UICONTROL section Fonctionnalités facultatives]**.
+1. Par défaut, le tracking est activé pour les diffusions. Désactivez cette option dans la **[!UICONTROL section Fonctionnalités facultatives]** si nécessaire.
 
 1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 
@@ -44,4 +44,4 @@ Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu.
 
-Vous pouvez maintenant vérifier et envoyer votre SMS à votre audience.
+Vérifiez et envoyez votre SMS à votre audience.

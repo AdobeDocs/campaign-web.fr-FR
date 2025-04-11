@@ -2,10 +2,10 @@
 title: Indicateurs clés de performance
 description: Découvrez comment comprendre les indicateurs clés de performance
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 27e44682178267353418de210af51067eee4141b
-workflow-type: ht
-source-wordcount: '1199'
-ht-degree: 100%
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+workflow-type: tm+mt
+source-wordcount: '1191'
+ht-degree: 37%
 
 ---
 
@@ -23,70 +23,66 @@ ht-degree: 100%
 >title="Indésirables"
 >abstract="KPI pour le courrier indésirable"
 
-Accédez à la page d’accueil pour vérifier les indicateurs clés de performances de votre plateforme. Ces indicateurs indiquent le nombre et le pourcentage de messages délivrés, ouverts, mais aussi les clics, les désinscriptions et les taux d’erreur.
+Accédez à la page d’accueil pour vérifier les indicateurs clés de performances de votre plateforme. Ces indicateurs affichent le nombre et le pourcentage de messages diffusés, ouverts, ayant fait l&#39;objet d&#39;un clic, les désabonnements et les taux d&#39;erreur.
 
-Par défaut, les mesures sont calculées pour les diffusions au cours des 7 derniers jours. Vous pouvez modifier la période dans la liste déroulante située dans la section supérieure droite de la vignette. Les messages envoyés aux profils de test sont exclus.
+Les mesures sont calculées par défaut pour les diffusions envoyées au cours des sept derniers jours. Vous pouvez modifier le point dans la liste déroulante de la section supérieure droite de la carte. Les messages envoyés aux profils de test sont exclus.
 
 Vous pouvez sélectionner le canal à afficher. Par défaut, ces indicateurs reflètent les mesures pour le canal e-mail.
 
-![](assets/kpi.png){zoomable="yes"}
+![Capture d’écran affichant la carte KPI avec les mesures pour le canal e-mail.](assets/kpi.png){zoomable="yes"}
 
 ## Message délivré {#ui-delivered-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Délivrés"
->abstract="Cette mesure indique, pour le canal sélectionné, la somme de tous les messages traités et le pourcentage de messages délivrés par rapport au nombre total de messages envoyés."
+>abstract="Cette mesure affiche, pour le canal sélectionné, la somme de tous les messages traités avec succès, et le pourcentage de messages diffusés avec succès par rapport au nombre total de messages envoyés."
 
-Le nombre de messages délivrés reflète votre taux de délivrabilité. Ce taux ne peux jamais être de 100 % pour les raisons suivantes : certaines adresses e-mail ou numéros de téléphone peuvent être erronés, les bloqueurs de spam des fournisseurs de messagerie peuvent rejeter vos messages ou des problèmes de délivrabilité peuvent se produire.
+Le nombre de messages délivrés reflète votre taux de délivrabilité. Il ne peut jamais être égal à 100 % pour les raisons suivantes : certaines adresses ou certains numéros de téléphone peuvent être erronés, des bloqueurs de spam chez les fournisseurs de messagerie peuvent rejeter vos messages ou des problèmes de délivrabilité peuvent se produire.
 
-L’indicateur **Délivrés** montre les KPI suivants, pour chaque canal :
+L’indicateur **Diffusé** affiche les KPI suivants pour chaque canal :
 
-* Pourcentage du nombre de messages délivrés par rapport au nombre total de messages envoyés.
+* Pourcentage du nombre de messages diffusés avec succès par rapport au nombre total de messages envoyés.
 
 * Nombre de messages traités.
 
 Dans Adobe Campaign, la règle pour marquer un message comme « Délivré » est la suivante :
 
-Nombre de messages pour lesquels le champ « adresse de contrôle » est égal à « Non » et dont le statut est égal à « Pris en compte par le prestataire » (pour les SMS) ou « Envoyé » (pour les e-mails) ou « Reçu sur le mobile » (pour les notifications push).
-
+Nombre de messages pour lesquels le champ « adresse de contrôle » est égal à « Non » et dont le statut est égal à « Pris en compte par le prestataire » (pour les SMS), « Envoyés » (pour les Emails), ou « Reçus sur le mobile » (pour les Notifications push).
 
 ## Total des ouvertures {#ui-open-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Ouvertures"
->abstract="Cette mesure indique, pour le canal sélectionné, le nombre de messages ouverts et le pourcentage de messages ouverts par rapport au nombre total de messages délivrés."
+>abstract="Cette mesure affiche, pour le canal sélectionné, la somme de tous les messages ouverts et le pourcentage de messages ouverts par rapport au nombre total de messages diffusés avec succès."
 
-Le nombre d’e-mails ouverts est calculé par le tracking du nombre de fois où un message est ouvert, indépendamment du nombre de personnes destinataires individuelles qui ont ouvert ces messages. Cet indicateur n’est disponible que pour les e-mails.
+Le nombre total d’ouvertures est calculé en suivant le nombre total d’ouvertures d’un message, quel que soit le nombre de destinataires individuels qui génèrent ces ouvertures. Cet indicateur n’est disponible que pour les e-mails.
 
-L’indicateur **Ouvertures** montre les KPI suivants, pour chaque canal :
+L’indicateur **Ouvertures** affiche les KPI suivants pour chaque canal :
 
-* Pourcentage du nombre de messages ouverts par rapport au nombre total de messages délivrés.
+* Pourcentage du nombre de messages ouverts par rapport au nombre total de messages diffusés avec succès.
 
 * Nombre total de messages ouverts, par canal.
 
-Adobe Campaign détecte les messages ouverts lorsque la personne destinataire télécharge les images dans l’e-mail. Les e-mails HTML et Multipart/Alternative incluent une image de 0 pixel, qui vous permet de détecter les messages ouverts. Les messages au format texte ne contenant aucune image, il est impossible de détecter s’ils ont été ouverts ou non. Les valeurs calculées à partir du nombre de messages ouverts sont toujours des estimations, en raison de la marge d’erreur liée à l’affichage des images.
-
-
+Adobe Campaign détecte les messages ouverts lorsque la personne destinataire télécharge les images dans l’e-mail. Les e-mails HTML et Multipart/Alternative incluent une image de 0 pixel, qui permet de détecter les messages qui ont été ouverts. Les messages au format texte ne contenant aucune image, il est impossible de détecter s’ils ont été ouverts. Les valeurs calculées à partir des ouvertures de messages sont toujours des estimations en raison de la marge d’erreur liée à l’affichage des images.
 
 ## Taux de clics {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clics"
->abstract="Cette mesure indique, pour le canal sélectionné, le nombre total d’URL ayant fait l’objet d’un clic dans les messages, ainsi que le pourcentage de clics par rapport au nombre total de messages délivrés."
+>abstract="Cette mesure indique, pour le canal sélectionné, la somme de toutes les URL cliquées dans les messages et le pourcentage de clics par rapport au nombre total de messages diffusés avec succès."
 
-Dans votre message, vous pouvez ajouter des URL qui redirigent les personnes destinataires vers une page spécifique. Le taux de clics mesure le nombre et le pourcentage de destinataires ayant cliqué sur un lien dans le message.
+Ajoutez des URL dans le contenu de votre message pour rediriger les destinataires vers une page particulière. Le taux de clic publicitaire mesure le nombre et le pourcentage de destinataires qui ont cliqué sur un lien dans le message.
 
-L’indicateur **Clics** montre les KPI suivants, pour chaque canal :
+L’indicateur **Clics** affiche les KPI suivants pour chaque canal :
 
 * Pourcentage du nombre de clics par rapport au nombre total de messages délivrés.
 
-* Nombre de personnes distinctes ayant cliqué au moins une fois pour une même diffusion. Les liens de désinscription et les liens vers la page miroir de l’email sont exclus.
+* Nombre de personnes distinctes ayant cliqué au moins une fois dans une diffusion. Les liens de désinscription et les liens vers la page miroir de l’e-mail sont exclus.
 
-Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats`). Cette table agrégée est utilisée pour des raisons de performances lors de l’affichage des rapports, à la place de la table des logs de tracking des personnes destinataires (`nms:trackingLogRcp`) et elle n’est pas calculée en temps réel. La table est générée quelques minutes après la récupération des logs de tracking.
-
+Ces mesures sont basées sur le tableau de suivi consolidé (`nms:trackingStats`). Ce tableau d’agrégats est utilisé pour des raisons de performances lors de l’affichage des rapports, au lieu du tableau des logs de tracking des destinataires (`nms:trackingLogRcp`). Il n’est pas calculé en temps réel. La table est générée quelques minutes après la récupération des logs de tracking.
 
 ## Taux d’abonnements {#ui-sub-kpi}
 
@@ -95,11 +91,11 @@ Ces mesures sont basées sur la table de tracking consolidé (`nms:trackingStats
 >title="Abonnements"
 >abstract="Cette mesure indique, pour le canal sélectionné, le nombre total d’abonnements à un service, ainsi que le pourcentage d’abonnements par rapport au nombre total de messages diffusés."
 
+Les destinataires peuvent accepter les communications par e-mail et SMS.
 
-Les personnes destinataires peuvent souscrire aux communications par e-mail et par SMS.
+L’indicateur **Abonnements** affiche les KPI suivants pour chaque canal :
 
-L’indicateur **Abonnements** indique les KPI suivants. Pour chaque canal est indiqué le pourcentage du nombre d’abonnements par rapport au nombre total de messages transmis avec succès.
-
+* Pourcentage du nombre d&#39;abonnements par rapport au nombre total de messages diffusés avec succès.
 
 >[!NOTE]
 >
@@ -112,15 +108,13 @@ L’indicateur **Abonnements** indique les KPI suivants. Pour chaque canal est i
 >title="Désinscriptions"
 >abstract="Cette mesure indique, pour le canal sélectionné, le total des désinscriptions à un service, ainsi que le pourcentage de désinscriptions par rapport au nombre total de messages délivrés."
 
+Les destinataires doivent pouvoir se désabonner des e-mails et SMS via un lien de désabonnement dédié dans le contenu de l&#39;e-mail ou en répondant à STOP à un SMS.
 
-Les personnes destinataires doivent pouvoir se désinscrire des e-mails et des SMS par le biais d’un lien de désinscription dédié dans le contenu de l’email, ou en répondant STOP à un SMS.
-
-L’indicateur **Désinscriptions** montre les KPI suivants, pour chaque canal :
+L’indicateur **Désabonnements** affiche les KPI suivants pour chaque canal :
 
 * Pourcentage du nombre de désinscriptions par rapport au nombre total de messages délivrés.
 
-* Nombre total de tous les clics sur un lien de désinscription, soit une catégorie d’URL égale à « opt-out ».
-
+* Somme de tous les clics sur un lien de désinscription, c&#39;est-à-dire avec une catégorie d&#39;URL égale à « Opt-out ».
 
 >[!NOTE]
 >
@@ -133,11 +127,11 @@ L’indicateur **Désinscriptions** montre les KPI suivants, pour chaque canal 
 >title="Erreurs"
 >abstract="Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds. Le taux associé est le ratio par rapport au nombre de messages à délivrer."
 
-Certains messages envoyés par votre plateforme Adobe Campaign peuvent ne pas arriver à destination. Cela peut se produire lorsque l’adresse de l’utilisateur ou de l’utilisatrice ou le numéro de téléphone contient des fautes de frappe, si la personne destinataire a modifié son adresse e-mail, ou si sa boîte de réception est pleine. Si un message ne peut pas être envoyé à un profil, le serveur distant envoie automatiquement un message d’erreur à Adobe Campaign. Cette erreur est qualifiée pour déterminer si l’adresse e-mail, le numéro de téléphone ou l’appareil doit être mis en quarantaine.
+Certains messages envoyés par votre plateforme Adobe Campaign peuvent ne pas arriver à destination. Cela peut se produire lorsque l’adresse utilisateur ou le téléphone comporte des fautes de frappe, si le destinataire a modifié son adresse e-mail ou si sa boîte de réception est pleine. Si un message ne peut pas être envoyé à un profil, le serveur distant envoie automatiquement un message d’erreur à Adobe Campaign. Cette erreur est qualifiée pour déterminer si l’adresse e-mail, le numéro de téléphone ou l’appareil doit être mis en quarantaine.
 
-Par conséquent, vous devez toujours vérifier et mettre à jour votre base de données, et vous assurer que tous les profils sont actifs et réels. Les erreurs de diffusion peuvent être temporaires ou permanentes (rebonds temporaires ou définitifs), selon la raison pour laquelle le message n’a pas été délivré.
+Vérifiez et mettez à jour régulièrement votre base de données et assurez-vous que tous les profils sont actifs et réels. Les erreurs de diffusion peuvent être temporaires ou permanentes (soft ou hard bounce), selon la raison pour laquelle le message n&#39;a pas été diffusé.
 
-L’indicateur **Erreurs** montre les KPI suivants, pour chaque canal :
+L’indicateur **Erreurs** affiche les KPI suivants pour chaque canal :
 
 * Pourcentage du nombre d’erreurs, par rapport au nombre total de messages à délivrer.
 
@@ -150,15 +144,14 @@ L’indicateur **Erreurs** montre les KPI suivants, pour chaque canal :
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Envoyés"
->abstract="Cette mesure indique, pour le canal publipostage direct, la somme de tous les messages envoyés et le pourcentage de messages envoyés au fournisseur, par rapport au nombre total de messages préparés lors de la phase de préparation de la diffusion."
+>abstract="Cette mesure indique, pour le canal courrier, la somme de tous les messages envoyés et le pourcentage de messages envoyés au fournisseur, par rapport au nombre total de messages préparés pendant la phase de préparation de la diffusion."
 
-Lors de la phase de préparation, le fichier d’extraction de publipostage direct est généré, mais les informations relatives aux personnes destinataires (c’est-à-dire les logs de diffusion) ne sont pas mises à jour.  L’état d’une diffusion est passé de En attente de diffusion à Envoyé lorsque l’utilisateur ou l’utilisatrice de Campaign confirme l’envoi de la diffusion. La diffusion est alors paramétrée sur Terminé.
+Lors de la phase de préparation, le fichier d&#39;extraction du courrier est généré, mais les informations relatives aux destinataires (logs de diffusion) ne sont pas mises à jour. Le statut d&#39;une diffusion passe de En attente de diffusion à Envoyé lorsque l&#39;utilisateur Campaign confirme l&#39;envoi de la diffusion. La diffusion est alors paramétrée sur Terminé.
 
-Il n’y a jamais 100 % des messages envoyés par rapport au total des messages préparés, car certaines adresses peuvent être manquantes ou incomplètes.
+Il ne peut jamais s&#39;agir de 100 % des messages envoyés par rapport au total des messages préparés, car certaines adresses peuvent être manquantes ou incomplètes.
 
-L’indicateur **Envoyé** montre les KPI suivants, pour le canal publipostage direct :
+L’indicateur **Envoyé** affiche les KPI suivants pour le canal Publipostage direct :
 
 * Pourcentage du nombre de messages envoyés par rapport au nombre total de messages préparés.
 
 * Somme de tous les messages envoyés.
-

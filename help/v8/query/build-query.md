@@ -3,43 +3,43 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
-source-wordcount: '2242'
-ht-degree: 100%
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+workflow-type: tm+mt
+source-wordcount: '2310'
+ht-degree: 73%
 
 ---
 
+
 # Créer votre première requête {#build-query}
 
-Pour commencer à créer une requête, accédez au concepteur de requête à partir de l’emplacement de votre choix, en fonction de l’action que vous souhaitez effectuer. Le concepteur de requête s’ouvre et affiche une zone de travail vierge. Cliquez sur le bouton **+** pour configurer le premier nœud de votre requête.
+Pour commencer à créer une requête, accédez au concepteur de requête à partir de l’emplacement de votre choix, en fonction de l’action que vous souhaitez effectuer. Query Modeler s’ouvre avec une zone de travail vide. Cliquez sur le bouton **+** pour configurer le premier nœud de votre requête.
 
 Vous pouvez ajouter deux types d’éléments :
 
-* Les **composants de filtrage** (condition personnalisée, audience sélectionnée, filtre prédéfini) vous permettent de créer vos propres règles, de sélectionner une audience ou un filtre prédéfini pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
+* **Composants de filtrage** (condition personnalisée, Sélectionner une audience, filtre prédéfini) vous permettent de créer vos propres règles, de sélectionner une audience ou d’utiliser un filtre prédéfini pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
 
-  Exemple : *personnes destinataires qui se sont abonnées à la newsletter « Sports »*. *Personnes destinataires résidant à New York*, *Personnes destinataires résidant à San Francisco*.
+  Exemple : *Destinataires abonnés à la newsletter &#39;Sports&#39;*, *Destinataires résidant à New York*, *Destinataires résidant à San Francisco*
 
-  ![](assets/query-add-component.png){zoomable="yes"}
+  ![Exemple d&#39;ajout de composants de filtrage à une requête.](assets/query-add-component.png){zoomable="yes"}
 
-* Les **opérateurs de groupe** (ET, OU, SAUF) vous permettent de regrouper les composants de filtrage dans le diagramme. Ils sont ajoutés sur les transitions existantes avant un composant de filtrage. [Découvrir comment utiliser les opérateurs](#filtering)
+* **Les opérateurs de groupe** (AND, OR, EXCEPT) permettent de regrouper des composants de filtrage dans le diagramme. Ils sont ajoutés sur les transitions existantes avant un composant de filtrage. [Découvrir comment utiliser les opérateurs](#filtering)
 
   Example : *personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**qui vivent à New York **OU**à San Francisco*.
 
-  ![](assets/query-add-operator.png){zoomable="yes"}
+  ![Description : exemple d’ajout d’opérateurs de groupe à une requête.](assets/query-add-operator.png){zoomable="yes"}
 
 ## Répartition des valeurs dans une requête {#distribution-values-query}
 
-La répartition des valeurs affiche le pourcentage de chaque valeur d’un champ dans un tableau, selon les paramètres de requête actuels. Connaître la répartition des valeurs dans une requête peut vous aider à affiner votre segmentation.
+La répartition des valeurs affiche le pourcentage de chaque valeur d’un champ dans une table, en fonction des paramètres de requête actuels. Connaître la distribution des valeurs dans une requête permet d’affiner la segmentation.
 
-Pour accéder à cette option, dans votre requête, cliquez sur le bouton de sélection d’attribut comme illustré ci-dessous. Cliquez ensuite sur l’icône **[!UICONTROL Informations]** en regard de l’attribut sélectionné. Vous avez accès au bouton **[!UICONTROL Répartition des valeurs]**.
+Pour accéder à cette option, dans votre requête, cliquez sur le bouton de sélection d’attribut comme illustré ci-dessous. Cliquez ensuite sur l’icône **[!UICONTROL Informations]** en regard de l’attribut sélectionné. Vous pouvez accéder au bouton **[!UICONTROL Répartition des valeurs]**.
 
-![](assets/values_query.png){zoomable="yes"}
+![Description : Accès à l&#39;option de répartition des valeurs dans une requête.](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
->* Pour les champs comportant de nombreuses valeurs, seules les vingt premières valeurs sont affichées. Dans ce cas, une notification **[!UICONTROL Chargement partiel]** vous en informe.
->
+>* Pour les champs comportant de nombreuses valeurs, seules les vingt premières valeurs sont affichées. Dans ce cas, une notification **[!UICONTROL Chargement partiel]** vous avertit.
 >* L’option **[!UICONTROL Répartition des valeurs]** est accessible dans chaque sélecteur d’attributs. [Découvrir comment sélectionner des attributs](../get-started/attributes.md)
 >* Vous pouvez ajouter des conditions sur les résultats à l’aide des **[!Afiltres avancés]**. [En savoir plus ici](../get-started/work-with-folders.md#filter-the-values).
 
@@ -60,50 +60,50 @@ Les composants de filtrage vous permettent d’affiner votre requête à l’aid
 
 Pour filtrer votre requête à l’aide d’une condition personnalisée, procédez comme suit :
 
-1. Cliquez sur le bouton **+** sur le nœud souhaité, puis sélectionnez **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’affiche sur le côté droit.
+1. Cliquez sur le bouton **+** sur le nœud souhaité, puis sélectionnez **[!UICONTROL Condition personnalisée]**. Le volet des propriétés de condition personnalisée s’ouvre sur le côté droit.
 
-1. Dans le champ **Attribut**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données Campaign, y compris les attributs de vos tableaux liés. [Découvrir comment sélectionner des attributs et les ajouter aux favoris](../get-started/attributes.md)
+1. Dans le champ **Attribut**, sélectionnez l’attribut de la base de données que vous souhaitez utiliser pour créer votre condition. La liste des attributs comprend tous les attributs de votre base de données Campaign, y compris les attributs des tables liées. [Découvrir comment sélectionner des attributs et les ajouter aux favoris](../get-started/attributes.md)
 
-   ![](assets/query-custom-condition-fields.png){zoomable="yes"}
+   ![Sélection des attributs d’une condition personnalisée dans une requête.](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Le bouton **Modifier une expression** permet d’utiliser l’éditeur d’expression de Campaign Web pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. [Découvrez comment modifier des expressions](expression-editor.md)
+   >Le bouton **Modifier l&#39;expression** permet d&#39;utiliser l&#39;éditeur d&#39;expression Web de Campaign pour définir manuellement une expression à l&#39;aide des champs de la base de données et des fonctions d&#39;assistance. [Découvrez comment modifier des expressions](expression-editor.md)
 
 1. Sélectionnez l’opérateur à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Notez que les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
    +++Liste des opérateurs disponibles
 
    | Opérateur | Intérêt | Exemple |
-   |  ---  |  ---  |  ---  |
-   | Égal à | Obtenir un résultat rigoureusement identique à ce qui est entré dans la seconde colonne Valeur. | Nom (@lastName) égal à « Jones ». Ici ne seront renvoyées que les personnes destinataires dont le nom est « Jones ». |
-   | Différent de | Obtenir un résultat différent de la valeur renseignée. | Langue (@language) différent de « Anglais ». |
-   | Supérieur à | Obtenir un résultat supérieur à la valeur indiquée. | Âge (@age) supérieur à « 50 »</strong> pour renvoyer toutes les valeurs supérieures à « 50 », donc « 51 », « 52 », etc. |
-   | Inférieur à | Obtenir un résultat inférieur à la valeur indiquée. | Date de création (@created) strictement plus tôt que « DaysAgo(100) »</strong> afin de retrouver toutes les personnes destinataires créées dans la base il y a moins de 100 jours. |
-   | Supérieur ou égal à | Obtenir un résultat rigoureusement égal ou supérieur à la valeur renseignée. | Âge (@age) supérieur ou égal à « 30 »</strong>, afin de retrouver les personnes destinataires dont l’âge est de 30 ans et plus. |
-   | Inférieur ou égal à | Obtenir un résultat rigoureusement égal ou inférieur à la valeur renseignée. | Âge (@age) inférieur ou égal à « 60 »</strong>, afin de retrouver les personnes destinataires dont l’âge est de 60 ans et moins. |
-   | Compris dans | Obtenir les résultats compris dans les valeurs indiquées. Ces valeurs doivent toujours être séparées par une virgule. | Date de naissance (@birthDate) est compris dans « 12/10/1979,12/10/1984 ». Les personnes destinataires nées entre ces dates sont alors renvoyées. |
-   | Pas dans | Le principe est le même qu’avec l’opérateur Compris dans. Ici, il s’agit d’exclure les personnes destinataires en fonction des valeurs indiquées. | La date de naissance (@birthDate) n’est pas incluse dans 12/10/1979,12/10/1984. Contrairement à l’exemple précédent, les personnes destinataires nées entre ces dates ne seront pas renvoyées. |
-   | Est vide | Dans ce cas, le résultat recherché correspond à une valeur vide dans la seconde colonne Valeur. | Mobile (@mobilePhone) est vide afin de retrouver toutes les personnes destinataires ne disposant pas d’un numéro de téléphone mobile. |
+   |---|---|---|
+   | Égal à | Obtenir un résultat rigoureusement identique à ce qui est entré dans la seconde colonne Valeur. | Le nom (@lastName) égal à « Jones » renvoie uniquement les destinataires dont le nom est Jones. |
+   | Différent de | Obtenir un résultat différent de la valeur renseignée. | Langue (@language) différente de &#39;Anglais&#39;. |
+   | Supérieur à | Obtenir un résultat supérieur à la valeur indiquée. | L’âge (@age) supérieur à 50 renvoie toutes les valeurs supérieures à « 50 », telles que « 51 » et « 52 ». |
+   | Inférieur à | Obtenir un résultat inférieur à la valeur indiquée. | La date de création (@created) avant &#39;DaysAgo(100)&#39; renvoie tous les destinataires créés il y a moins de 100 jours. |
+   | Supérieur ou égal à | Obtenir un résultat rigoureusement égal ou supérieur à la valeur renseignée. | L’âge (@age) supérieur ou égal à « 30 » renvoie tous les destinataires âgés de 30 ans ou plus. |
+   | Inférieur ou égal à | Obtenir un résultat rigoureusement égal ou inférieur à la valeur renseignée. | L’âge (@age) inférieur ou égal à « 60 » renvoie tous les destinataires âgés de 60 ans ou moins. |
+   | Compris dans | Obtenir les résultats compris dans les valeurs indiquées. Ces valeurs doivent être séparées par une virgule. | La date de naissance (@birthDate) est incluse dans « 12/10/1979,12/10/1984 » renverra les destinataires nés entre ces dates. |
+   | Pas dans | Fonctionne comme si était inclus dans l’opérateur . Ici, les destinataires sont exclus en fonction des valeurs saisies. | La date de naissance (@birthDate) n’est pas incluse dans 12/10/1979,12/10/1984. Les destinataires nés dans ces dates ne seront pas renvoyés. |
+   | Est vide | Renvoie les résultats correspondant à une valeur vide dans la deuxième colonne Valeur . | Mobile (@mobilePhone) est vide afin de retrouver toutes les personnes destinataires ne disposant pas d’un numéro de téléphone mobile. |
    | N’est pas vide | Le principe est contraire à l’opérateur Est vide. Il n’est pas nécessaire de saisir de données dans la seconde colonne Valeur. | E-mail (@email) n’est pas vide. |
-   | Commence par | Obtenir des résultats commençant par la valeur indiquée. | N° de compte (@account) commence par « 32010 ». |
-   | Ne commence pas par | Obtenir des résultats qui ne commencent pas par la valeur renseignée. | N° de compte (@account) ne commence pas par « 20 ». |
-   | Contient | Obtenir un résultat comportant au moins la valeur qui est renseignée. | Domaine d’e-mail (@domain) contient « mail »</strong>. Ici, tous les noms de domaine comportant la valeur « mail » seront renvoyés en résultat. Par conséquent, le nom de domaine « gmail.com » fera partie des résultats renvoyés. |
-   | Ne contient pas | Ne pas obtenir de résultats contenant au moins la valeur renseignée. | Domaine d’e-mail (@domain) ne contient pas « vo »</strong>. Dans ce cas, les noms de domaine contenant la valeur « vo » ne seront pas renvoyés. Ainsi, le nom de domaine « voila.fr » ne sera pas renvoyé. |
-   | Comme | « Comme » est quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère de substitution « % » dans la valeur recherchée. | Nom (@lastName) comme « Jon%s ». Ici, le caractère de substitution sert de joker afin de retrouver le nom Jones dans le cas très hypothétique où l’opérateur aurait oublié quelle est la lettre située entre les lettre « n » et « s ». |
-   | Pas comme | « Comme » est quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère de substitution « % » dans la valeur recherchée. | Nom (@lastName) pas comme « Smi%h ». Ici, les personnes destinataires dont le nom est « Smi%h » ne seront pas renvoyées. |
+   | Commence par | Renvoie les résultats commençant par la valeur saisie. | N° de compte (@account) commence par « 32010 ». |
+   | Ne commence pas par | Renvoie les résultats ne commençant pas par la valeur saisie. | Le compte # (@account) ne commence pas par &#39;20&#39;. |
+   | Contient | Renvoie les résultats contenant au moins la valeur saisie. | Le domaine d&#39;e-mail (@domain) contient &#39;mail&#39; renverra tous les noms de domaine contenant &#39;mail&#39;, tels que &#39;gmail.com&#39;. |
+   | Ne contient pas | Ne pas obtenir de résultats contenant au moins la valeur renseignée. | Le domaine d&#39;e-mail (@domain) ne contient pas &#39;vo&#39;. Les noms de domaine contenant &#39;vo&#39;, tels que &#39;voila.fr&#39;, n&#39;apparaîtront pas dans les résultats. |
+   | Comme | De la même manière que l&#39;opérateur Contient , il permet d&#39;insérer un caractère générique % dans la valeur. | Nom (@lastName) comme « Jon%s ». Le caractère générique agit comme un « joker » pour trouver des noms tels que « Jones ». |
+   | Pas comme | De la même manière que l&#39;opérateur Contient , il permet d&#39;insérer un caractère générique % dans la valeur. | Nom (@lastName) pas comme « Smi%h ». Les destinataires dont le nom est « Smith » ne seront pas renvoyés. |
 
 +++
 
-1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression de Campaign Web pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur le bouton **Modifier une expression**. [Découvrez comment modifier des expressions](expression-editor.md)
+1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l&#39;éditeur d&#39;expression Web de Campaign pour définir manuellement une expression à l&#39;aide des champs de la base de données et des fonctions d&#39;assistance. Pour ce faire, cliquez sur le bouton **Modifier une expression**. [Découvrez comment modifier des expressions](expression-editor.md)
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
-   ![](assets/query-custom-condition.png){zoomable="yes"}
+   ![Exemple de requête ciblant des profils âgés de 21 ans ou plus.](assets/query-custom-condition.png){zoomable="yes"}
 
    Pour les attributs de type date, des valeurs prédéfinies sont disponibles à l’aide de l’option **[!UICONTROL Préréglages]**.
 
-   ![](assets/date-presets.png){zoomable="yes"}
+   ![Exemple d’utilisation de paramètres prédéfinis de date dans une requête.](assets/date-presets.png){zoomable="yes"}
 
 #### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
@@ -119,15 +119,15 @@ Ici, la requête cible les marques dont le libellé est « running ».
 
 1. Naviguez dans la table **Marque** et sélectionnez l’attribut **Libellé**.
 
-   ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Capture d’écran du tableau des marques](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Définissez la valeur attendue de l’attribut.
 
-   ![](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![Exemple de valeur attendue définie](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
 
 Voici un exemple de requête dans laquelle un lien de table a été directement sélectionné. Les valeurs disponibles pour cette table doivent être sélectionnées avec un sélecteur dédié.
 
-![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Exemple de requête](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -139,19 +139,19 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
 1. Sélectionnez le tableau **Achats** et confirmez.
 
-   ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+   ![Capture d’écran du tableau des achats](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
 1. Une transition sortante est ajoutée, vous permettant ainsi de créer des sous-conditions.
 
-   ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+   ![Exemple de transition sortante](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Sélectionnez l’attribut **Prix** et ciblez les achats de 1 000 $ ou plus.
 
-   ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+   ![Capture d’écran de l’attribut Prix](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Ajoutez des sous-conditions adaptées à vos besoins. Ici, nous avons ajouté une condition pour cibler les profils ayant acheté un produit BrewMaster.
 
-   ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+   ![ Exemple de sous-conditions ](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -161,11 +161,11 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 
 1. Naviguez dans le tableau de collection souhaité et sélectionnez l’attribut sur lequel vous souhaitez effectuer une opération d’agrégat.
 
-   ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Capture d’écran de la liste des attributs](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Dans le volet des propriétés, activez l’option **Données agrégées** et sélectionnez la fonction d’agrégat souhaitée.
 
-   ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+   ![Capture d&#39;écran de l&#39;option Données agrégées](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
 ### Sélectionner une audience {#audiences}
 
@@ -182,7 +182,7 @@ Pour filtrer votre requête à l’aide d’une audience existante, procédez co
 
    *Exemple de requête renvoyant tous les profils appartenant à l’audience « Festivaliers » :*
 
-   ![](assets/query-audience.png){zoomable="yes"}
+   ![Capture d’écran d’un exemple de requête](assets/query-audience.png){zoomable="yes"}
 
 ### Utiliser un filtre prédéfini {#predefined-filters}
 
@@ -199,7 +199,7 @@ Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez com
 
    *Exemple de requête renvoyant tous les profils correspondant au filtre prédéfini « Clients inactifs » :*
 
-   ![](assets/query-predefined-filter.png){zoomable="yes"}
+   ![Capture d’écran d’un exemple de requête](assets/query-predefined-filter.png){zoomable="yes"}
 
 ### Copier-coller des composants {#copy}
 
@@ -221,7 +221,7 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
 
 1. Pour coller le ou les composants, cliquez sur le bouton + situé à la fin de la transition souhaitée et sélectionnez **Coller n éléments**.
 
-   ![](assets/copy-paste.png){zoomable="yes"}
+   ![Exemple de collage de composants](assets/copy-paste.png){zoomable="yes"}
 
 ## Combiner des composants de filtrage avec des opérateurs {#operators}
 
@@ -234,7 +234,7 @@ Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête,
 
 Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de filtre prédéfinie avec un opérateur **ET**, ce qui signifie que les résultats de la requête incluent les personnes destinataires ciblées par le filtre prédéfini « Madrilènes » ET appartenant à l’audience « Chasseurs et chasseuses de remises ».
 
-![](assets/query-operator.png){zoomable="yes"}
+![Exemple de requête](assets/query-operator.png){zoomable="yes"}
 
 Pour changer l’opérateur utilisé pour relier les conditions de filtrage, cliquez dessus et sélectionnez-en un autre dans le volet **Groupe** qui s’ouvre sur la droite.
 
@@ -244,13 +244,13 @@ Les opérateurs disponibles sont les suivants :
 * **OU (Union)** : inclut des résultats correspondant à au moins un des composants de filtrage dans les transitions sortantes.
 * **SAUF (Exclusion)** : exclut les résultats correspondant à tous les composants de filtrage dans la transition sortante.
 
-![](assets/query-operator-change.png){zoomable="yes"}
+![Exemple de requête](assets/query-operator-change.png){zoomable="yes"}
 
 En outre, vous pouvez créer des groupes intermédiaires de composants en cliquant sur le bouton **+** sur une transition. Vous pouvez ainsi ajouter un opérateur à cet emplacement spécifique pour regrouper plusieurs composants et affiner votre requête.
 
 Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inclure les résultats des audiences « VIP à récompenser » ou « Super VIP ».
 
-![](assets/query-intermediate-group.png){zoomable="yes"}
+![Exemple de requête](assets/query-intermediate-group.png){zoomable="yes"}
 
 ## Vérifier et valider votre requête
 
@@ -274,4 +274,5 @@ Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer
 
 Vous pouvez modifier votre requête à tout moment en l’ouvrant. Gardez à l’esprit que lors de l’ouverture d’une requête existante, elle s’affiche dans une vue simplifiée sans la visibilité des boutons **+**. Pour ajouter de nouveaux éléments à la requête, sélectionnez un composant ou un opérateur dans la zone de travail afin d’afficher les boutons **+**.
 
-![](assets/edit-audience.png){zoomable="yes"}
+![Exemple de requête](assets/edit-audience.png){zoomable="yes"}
+

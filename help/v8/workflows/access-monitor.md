@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 52%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 100%
 >title="Workflows"
 >abstract="Sur cet écran, vous pouvez accéder à la liste complète des workflows autonomes et de campagne, vérifier leur statut actuel, les dates de dernière/prochaine exécution et créer un nouveau workflow. Rendez-vous sur l’onglet « Modèles » pour accéder aux modèles de workflow disponibles."
 
-Le menu **[!UICONTROL Workflows]** vous permet d’accéder à la liste complète des workflows. Les **workflows autonomes**, créés à partir de cet écran et les **workflows de campagne**, créés dans une campagne, sont répertoriés.
+Le menu **[!UICONTROL Workflows]** permet d’accéder à la liste complète des workflows. Cette liste comprend les **workflows autonomes**, créés à partir de cet écran, et les **workflows de campagne**, créés dans une campagne.
 
-![](assets/workflow-list.png){zoomable="yes"}
+![Écran Liste des workflows affichant les workflows de campagne et autonomes](assets/workflow-list.png){zoomable="yes"}
 
 Chaque workflow de la liste affiche des informations sur son [statut](#status) en cours, la dernière fois qu’il a été exécuté ou modifié, ainsi que la date et l’heure de la prochaine exécution planifiée.
 
-Vous pouvez personnaliser les colonnes affichées en cliquant sur l’icône **[!UICONTROL Configurer la colonne pour une disposition personnalisée]**, située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste, telles que la dernière activité à avoir rencontré une erreur pour chaque workflow ou la dimension de ciblage appliquée.
+Personnalisez les colonnes affichées en cliquant sur l’icône **[!UICONTROL Configurer la colonne pour une disposition personnalisée]** située dans le coin supérieur droit de la liste. Vous pouvez ainsi ajouter des informations supplémentaires à la liste, telles que la dernière activité en erreur pour chaque workflow ou la dimension de ciblage appliquée.
 
-Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Vous pouvez par exemple filtrer les workflows afin de n’afficher que ceux appartenant à une campagne ou ceux traités au cours d’une période spécifique.
+De plus, une barre de recherche et des filtres sont disponibles pour simplifier la recherche dans la liste. Par exemple, filtrez les workflows pour n’afficher que ceux appartenant à une campagne ou ceux traités au cours d’une période spécifique.
 
-Pour dupliquer ou supprimer un workflow, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Dupliquer]** ou **[!UICONTROL Supprimer]**.
+Pour dupliquer ou supprimer un workflow, cliquez sur le bouton représentant des points de suspension, puis sélectionnez **[!UICONTROL Dupliquer]** ou **[!UICONTROL Supprimer]**.
 
 >[!NOTE]
 >
@@ -43,12 +43,12 @@ Les workflows peuvent adopter plusieurs statuts :
 * **[!UICONTROL En pause]** : le workflow a été suspendu.
 * **[!UICONTROL Avec erreur]** : le workflow a rencontré une erreur. Ouvrez le workflow et consultez les logs et tâches pour identifier l’erreur et la résoudre. [Découvrez comment surveiller les logs et les tâches.](start-monitor-workflows.md#logs-tasks)
 
-Pour obtenir des informations détaillées sur le démarrage et la surveillance de l’exécution des workflows, consultez [cette page](start-monitor-workflows.md).
+Vous trouverez des informations détaillées sur le démarrage et la surveillance de l’exécution des workflows dans [cette page](start-monitor-workflows.md).
 
 ## Modèles de workflows {#templates}
 
-L’onglet **[!UICONTROL Modèles]** répertorie tous les modèles de workflows disponibles.
+L’onglet **[!UICONTROL Modèles]** répertorie tous les modèles de workflow disponibles.
 
 Les modèles de workflow contiennent des activités préconfigurées et des configurations globales des propriétés qui peuvent être réutilisées pour créer de nouveaux workflows.
 
-Vous pouvez créer des modèles de workflow à partir d’un workflow existant ou à partir de zéro. [Découvrez comment créer des modèles de workflow](create-workflow.md#workflow-templates).
+Créer des modèles de workflow à partir d’un workflow existant ou en partant de zéro. [Découvrez comment créer des modèles de workflow](create-workflow.md#workflow-templates).

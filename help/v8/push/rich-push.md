@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '3372'
-ht-degree: 100%
+source-wordcount: '3379'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 
 * Le **[!UICONTROL Message de notification]**, géré automatiquement par le SDK FCM. FCM affiche automatiquement le message sur les appareils de vos utilisateurs et utilisatrices pour le compte de l&#39;application cliente. Les messages de notification contiennent un ensemble de paramètres et d’options prédéfini, mais peuvent encore être personnalisés avec des variables d’application personnalisées.
 
-![](assets/rich_push.png){zoomable="yes"}
+![Capture d’écran de la page Diffuser sur Android](assets/rich_push.png){zoomable="yes"}
 
 ## Définir le contenu de la notification {#push-message}
 

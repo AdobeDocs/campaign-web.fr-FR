@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 100%
+source-wordcount: '644'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >title="Créer des profils de test"
 >abstract="Les profils de test sont des profils destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant d’envoyer vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d’un message et envoyer des BAT aux profils de test afin de contrôler et de valider le contenu et les paramètres d’un message."
 
-Les profils de test sont utilisés pour envoyer des BAT et valider le contenu et les paramètres de votre message. Ces profils sont des profils destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant d’envoyer vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d’un message et envoyer des BAT aux profils de test afin de contrôler et de valider le contenu et les paramètres d’un message.
+Les profils de test sont utilisés pour envoyer des BAT et valider le contenu et les paramètres de votre message. Ces profils sont des destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant l’envoi de vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d’un message et envoyer des BAT aux profils de test pour contrôler et valider le contenu et les paramètres de votre message.
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
@@ -35,19 +35,19 @@ Les étapes permettant d’envoyer des BAT à des profils sont présentées dans
 
 ## Accéder aux profils de test et les gérer {#access-test-profiles}
 
-Pour accéder à la liste des profils de test, sélectionnez **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** dans le menu de gauche, puis cliquez sur l’onglet **[!UICONTROL Profils de test]**.
+Pour accéder à la liste des profils de test, sélectionnez **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** dans le menu de gauche, puis cliquez sur l’onglet **[!UICONTROL Profils de test]**.
 
-![](assets/test-profile-list.png){zoomable="yes"}
+![Vue Liste des profils de test](assets/test-profile-list.png){zoomable="yes"}
 
 * Vous pouvez filtrer sur un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png){zoomable="yes"}
+  ![Filtres de la liste des profils de test](assets/test-profile-list-filters.png){zoomable="yes"}
 
 * Vous pouvez dupliquer n’importe quel profil de test et le mettre à jour si nécessaire. Les étapes permettant de modifier un profil de test sont les mêmes que lors de la [création d’un profil de test](#create-test-profile).
 
 * Pour supprimer un profil de test, sélectionnez l’option correspondante dans le menu **[!UICONTROL Plus d’actions]**.
 
-  ![](assets/test-profile-list-delete.png){zoomable="yes"}
+  ![Option Supprimer le profil de test](assets/test-profile-list-delete.png){zoomable="yes"}
 
 * Pour modifier un profil de test, cliquez sur l’élément souhaité dans la liste. Les étapes permettant de modifier un profil de test sont les mêmes que lors de la [création d’un profil de test](#create-test-profile).
 
@@ -55,7 +55,7 @@ Vous pouvez également accéder aux profils de test via la vue **[!UICONTROL Exp
 
 De là, vous pouvez parcourir, créer et gérer des dossiers ou des sous-dossiers, ainsi que vérifier les autorisations associées. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png){zoomable="yes"}
+![Vue des dossiers de profils de test](assets/test-profiles-folders.png){zoomable="yes"}
 
 Dans la vue **[!UICONTROL Explorateur]**, vous pouvez également filtrer, supprimer, modifier et [créer](#create-test-profile) des profils de test.
 
@@ -68,15 +68,15 @@ Dans la vue **[!UICONTROL Explorateur]**, vous pouvez également filtrer, suppri
 
 Pour créer un profil de test, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** et sélectionnez l’onglet **[!UICONTROL Profils de test]**.
+1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]**, puis sélectionnez l’onglet **[!UICONTROL Profils de test]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un profil de test]**.
 
-   ![](assets/test-profile-create.png){zoomable="yes"}
+   ![bouton Créer un profil de test](assets/test-profile-create.png){zoomable="yes"}
 
 1. Renseignez les détails du profil de test si nécessaire. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png){zoomable="yes"}
+   ![Formulaire des détails du profil de test](assets/test-profile-details.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -92,13 +92,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. Dans la section **[!UICONTROL Coordonnées]**, saisissez l’adresse e-mail et d’autres données pertinentes. L’adresse e-mail s’affiche entre parenthèses après le libellé du profil de test.
 
-   ![](assets/test-profile-address.png){zoomable="yes"}
+   ![Section Coordonnées](assets/test-profile-address.png){zoomable="yes"}
 
 1. Si vous sélectionnez la case à cocher **[!UICONTROL Ne plus contacter (tous canaux)]**, le profil de test est sur la liste bloquée. Ce ou cette destinataire ne sera plus ciblé(e) sur aucun canal (e-mail, SMS, etc.).
 
 1. Dans l’onglet **[!UICONTROL Données supplémentaires]**, renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Gestion des données et auxquelles vous souhaitez attribuer une valeur spécifique. [En savoir plus sur les workflows](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png){zoomable="yes"}
+   ![Onglet Données additionnelles](assets/test-profile-additional-data.png){zoomable="yes"}
 
    Assurez-vous que les données supplémentaires de la cible ont été définies avec un alias commençant par &#39;@&#39; dans l’activité du workflow **[!UICONTROL Enrichissement]**. Sinon, vous ne pouvez pas l’utiliser correctement avec vos adresses de contrôle dans l’activité de diffusion. [En savoir plus sur l’activité d’enrichissement](../workflows/activities/enrichment.md)
 

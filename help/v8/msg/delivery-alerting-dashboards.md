@@ -3,10 +3,10 @@ audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Les tableaux de bord des alertes de diffusion permettent de spécifier qui recevra des alertes par e-mail, de choisir et de configurer les critères des alertes à utiliser pour envoyer ces alertes et d’accéder à l’historique de toutes les notifications envoyées. Ils sont accessibles à partir du menu **Alertes de diffusion** dans le volet de navigation de gauche, sous l’onglet **Tableaux de bord**.
 
-![](assets/alerting-dashboard-list.png)
+![Capture d’écran affichant la liste des tableaux de bord des alertes dans le menu Alertes de diffusion.](assets/alerting-dashboard-list.png)
 
 ## Créer un tableau de bord de diffusion {#dashboards}
 
@@ -47,21 +47,21 @@ Pour créer un tableau de bord de diffusion, procédez comme suit :
 
 1. Accédez au menu **Alertes de diffusion** dans le volet de navigation de gauche, puis cliquez sur **Créer un tableau de bord de diffusion**.
 
-   ![](assets/alerting-dashboard.png)
+   ![Capture d’écran affichant l’option Créer un tableau de bord de diffusion dans le menu Alertes de diffusion](assets/alerting-dashboard.png).
 
 1. Donnez un nom à votre tableau de bord dans le champ **Libellé**. Le champ **Nom interne** est renseigné automatiquement et en lecture seule.
 
 1. Dans le champ **Sélectionner un groupe d’alertes**, spécifiez le **groupe d’opérateurs et d’opératrices** qui recevra les alertes envoyées par ce tableau de bord. Toutes les personnes membres du groupe d’opérateurs et d’opératrices sélectionné recevront les alertes.
 
-   En savoir plus sur les autorisations et les groupes d’opérateurs et d’opératrices dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+   En savoir plus sur les autorisations et les groupes d’opérateurs dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. Dans la section **Critères des alertes de diffusion**, ajoutez les critères que vous souhaitez utiliser pour envoyer des alertes. Faites votre choix parmi les critères prédéfinis ou créez vos propres critères pour répondre à des besoins spécifiques. [Découvrir comment utiliser les critères](../msg/delivery-alerting-criteria.md)
 
-1. Les critères comportent des valeurs de paramètres par défaut qui définissent la manière dont ils doivent être appliqués. Vous pouvez modifier ces valeurs en fonction de vos besoins à partir de la section **Paramètres des critères**.
+1. Les critères comportent des valeurs de paramètre par défaut qui définissent la manière dont ils doivent être appliqués. Vous pouvez modifier ces valeurs en fonction de vos besoins à partir de la section **Paramètres des critères**.
 
-   ![](assets/alerting-criteria-parameters.png)
+   ![Capture d’écran affichant la section Paramètres des critères dans le tableau de bord de la diffusion.](assets/alerting-criteria-parameters.png)
 
-   Par exemple, par défaut, le paramètre de critère **Taille minimale de la cible de diffusion** est défini sur 50, ce qui signifie qu’une diffusion ne sera incluse dans l’alerte envoyée par ce tableau de bord que si elle cible au moins 50 profils. Vous pouvez modifier ce paramètre si vous souhaitez inclure des diffusions ciblant moins de 50 profils.
+   Par exemple, par défaut, le paramètre de critère **Taille minimale de la cible de diffusion** est défini sur 50, ce qui signifie qu’une diffusion ne sera incluse dans l’alerte envoyée par ce tableau de bord que si elle cible au moins 50 profils. Vous pouvez modifier ce paramètre si vous souhaitez inclure des diffusions ciblant moins de 50 profils.
 
    Développez la section ci-dessous pour plus d’informations sur chaque paramètre de critère :
 
@@ -83,7 +83,7 @@ Pour créer un tableau de bord de diffusion, procédez comme suit :
 
    Vous pouvez également enregistrer le tableau de bord et l’activer ultérieurement.
 
-   ![](assets/alerting-dashboard-enable.png)
+   ![Capture d’écran affichant l’option de basculement Activé dans les paramètres du tableau de bord de diffusion.](assets/alerting-dashboard-enable.png)
 
 1. Pour enregistrer le tableau de bord des alertes, cliquez sur le bouton **Enregistrer**.
 
@@ -105,12 +105,12 @@ Désormais, dès qu’une diffusion répond aux critères définis dans ce table
 
 Tous les tableaux de bord des alertes créés sont accessibles à partir du menu **Alertes de diffusion**, dans l’onglet **Tableaux de bord**.
 
-![](assets/alerting-dashboard-list.png)
+![Capture d’écran affichant la liste des tableaux de bord des alertes dans le menu Alertes de diffusion.](assets/alerting-dashboard-list.png)
 
 Vous pouvez dupliquer ou supprimer un tableau de bord à l’aide du bouton **Plus d’actions** situé en regard de son nom.
 
 Pour accéder à la vue détaillée d’un tableau de bord, cliquez sur son nom dans la liste. Dans cet écran, vous pouvez visualiser la dernière alerte envoyée. Toutes les alertes envoyées sont répertoriées dans le volet de gauche. Cliquez sur un élément pour accéder aux alertes correspondantes envoyées à ce moment précis.
 
-![](assets/alerting-dashboard-details.png)
+![Capture d’écran affichant la vue détaillée d’un tableau de bord d’alertes.](assets/alerting-dashboard-details.png)
 
 Pour modifier le tableau de bord, cliquez sur le bouton **Paramètres** dans le coin supérieur droit et apportez les modifications souhaitées.

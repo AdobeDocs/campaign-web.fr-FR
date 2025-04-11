@@ -3,10 +3,10 @@ audience: end-user
 title: Ajouter un pré-titre dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails.
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 69%
 
 ---
 
@@ -31,17 +31,17 @@ Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
 1. Cliquez sur l’icône **[!UICONTROL Arborescence de navigation]** dans le volet de gauche, puis sélectionnez **[!UICONTROL Corps]**.
 
-   ![](assets/preheader_body.png){zoomable="yes"}
+   ![Capture d’écran affichant l’icône Arborescence de navigation et la sélection Corps dans l’interface de Designer Email.](assets/preheader_body.png){zoomable="yes"}
 
 1. Sous l’onglet **[!UICONTROL Paramètres]**, saisissez le texte de votre pré-titre.
 
 1. Pour le personnaliser davantage, cliquez sur l’icône **[!UICONTROL Ajouter une personnalisation]** à gauche du champ **[!UICONTROL Pré-titre]**.
 
-   ![](assets/preheader_body_settings.png){zoomable="yes"}
+   ![Capture d’écran affichant l’onglet Paramètres et l’icône Ajouter une personnalisation dans l’interface de Designer par e-mail.](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Dans la fenêtre **[!UICONTROL Modifier la personnalisation]**, vous pouvez ajouter des [champs de personnalisation](../personalization/personalize.md), des [fragments d’expression](../content/use-expression-fragments.md) et du [contenu conditionnel](../personalization/conditions.md) à l’aide des entrées dédiées situées sur la gauche.
+1. Dans la fenêtre **[!UICONTROL Modifier le Personalization]**, ajoutez [champs de personnalisation](../personalization/personalize.md), [fragments d’expression](../content/use-expression-fragments.md) et [contenu conditionnel](../personalization/conditions.md) à l’aide des entrées dédiées situées sur la gauche.
 
-   ![](assets/preheader_body_personalization.png){zoomable="yes"}
+   ![Capture d’écran affichant la fenêtre Modifier le Personalization avec des options pour les champs de personnalisation, les fragments d’expression et le contenu conditionnel.](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
