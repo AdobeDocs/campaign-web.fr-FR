@@ -3,18 +3,18 @@ audience: end-user
 title: Rapports de campagne
 description: Découvrez comment accéder aux rapports de campagne et les utiliser.
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '315'
+ht-degree: 15%
 
 ---
 
 # Prise en main des rapports de campagne {#campaign-reports}
 
-Les **rapports de campagne** fournissent une vue d’ensemble complète de votre **campagne**, intégrant toutes les informations pertinentes concernant les différentes diffusions incluses. Ces rapports proposent une analyse approfondie des performances de chaque diffusion, pour chaque canal : taux de succès, engagement de l’audience et autres mesures essentielles. Ils vous permettent d’évaluer l’efficacité globale et l’impact de votre campagne.
+Les **rapports de campagne** offrent une vue d’ensemble complète de votre **campagne**, intégrant toutes les informations pertinentes concernant les différentes diffusions incluses. Ces rapports offrent une analyse détaillée des performances de chaque diffusion par canal, y compris les taux de succès, l’engagement de l’audience et d’autres mesures clés. Ils vous aident à évaluer l’efficacité globale et l’impact de votre campagne.
 
-La liste complète des rapports et mesures associées pour chaque canal est disponible dans les pages suivantes :
+La liste complète des rapports et des mesures associées pour chaque canal est disponible sur les pages suivantes :
 
 * [Canal de campagne par e-mail](campaign-reports-email.md)
 * [Canal de campagne par SMS](campaign-reports-sms.md)
@@ -25,30 +25,30 @@ La liste complète des rapports et mesures associées pour chaque canal est disp
 
 Pour accéder à vos rapports de campagne et les gérer, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Campagnes]**. Cliquez sur le bouton **Rapports** dans le tableau de bord de votre campagne.
+1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur le bouton **Rapports** dans le tableau de bord de votre campagne.
 
-   ![](assets/manage_campaign_report_2.png){zoomable="yes"}
+   ![Capture d’écran affichant le menu Campagnes et le bouton Rapports](assets/manage_campaign_report_2.png){zoomable="yes"}
 
-   Vous pouvez également utiliser les trois points **Plus d’actions** en regard du nom de la campagne dans la liste des campagnes et sélectionner **[!UICONTROL Afficher le rapport]**.
+   Vous pouvez également utiliser les trois points **Autres actions** en regard du nom de la campagne dans la liste des campagnes, puis sélectionner **[!UICONTROL Afficher le rapport]**.
 
-   ![](assets/manage_campaign_report_1.png){zoomable="yes"}
+   ![Capture d’écran affichant le bouton Autres actions et l’option Afficher le rapport](assets/manage_campaign_report_1.png){zoomable="yes"}
 
-1. Dans le menu de gauche, sélectionnez un rapport dans la liste et naviguez dans l’onglet pour afficher les données de chaque canal.
+1. Dans le menu de gauche, sélectionnez un rapport dans la liste, puis parcourez les onglets pour afficher les données de chaque canal.
 
-   ![](assets/manage_campaign_report_4.png){zoomable="yes"}
+   ![Capture d’écran affichant le menu de gauche avec les options de rapport et les onglets pour les données de canal](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. Dans votre tableau de bord, cliquez sur **[!UICONTROL Sélectionner des diffusions]** si vous souhaitez cibler une diffusion spécifique incluse dans votre campagne.
+1. Dans votre tableau de bord, cliquez sur **[!UICONTROL Sélectionner les diffusions]** pour cibler une diffusion spécifique incluse dans votre campagne.
 
-1. Dans le menu **[!UICONTROL Débit de diffusion]**, choisissez une **Heure de début** et une **[!UICONTROL Heure de fin]** pour cibler des données spécifiques.
+1. Dans le menu **[!UICONTROL Débit de diffusion]**, choisissez une **Heure de début** et une **[!UICONTROL Heure de fin]** pour vous concentrer sur des données spécifiques.
 
-   ![](assets/manage_campaign_report_3.png){zoomable="yes"}
+   ![Capture d’écran affichant le menu Débit de diffusion avec les options Début et Fin](assets/manage_campaign_report_3.png){zoomable="yes"}
 
-1. Dans le champ **[!UICONTROL Sélectionner un dossier]**, choisissez si vous souhaitez cibler des diffusions ou une campagne d’un dossier spécifique.
+1. Dans le champ **[!UICONTROL Choisir un dossier]**, choisissez de cibler les diffusions ou les campagnes à partir d’un dossier spécifique.
 
-   Vous pouvez également sélectionner **[!UICONTROL Ajouter des règles]** pour commencer à créer des requêtes afin de mieux filtrer les données de rapport. [Découvrez comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
+   Vous pouvez également sélectionner **[!UICONTROL Ajouter des règles]** pour créer des requêtes afin de mieux filtrer les données de rapport. [Découvrir comment utiliser le concepteur de requête](../query/query-modeler-overview.md)
 
-   ![](assets/manage_campaign_report_4.png){zoomable="yes"}
+   ![Capture d’écran affichant le champ Choisir le dossier et l’option Ajouter des règles](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. Dans **[!UICONTROL URL et flux de clics]**, vous pouvez également choisir **[!UICONTROL Liens les plus visités]** ou **[!UICONTROL Période]**.
+1. Dans les **[!UICONTROL URL et flux de clics]**, choisissez l’**[!UICONTROL Liens les plus visités]** ou la **[!UICONTROL Période]**.
 
-   Les options **[!UICONTROL Afficher par]** vous permettent de filtrer sur des URL, des libellés ou des catégories.
+   Les options **[!UICONTROL Afficher par]** permettent de filtrer par URL, libellé ou catégorie.

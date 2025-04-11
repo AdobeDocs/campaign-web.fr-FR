@@ -3,42 +3,42 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 34%
 
 ---
 
 # Démarrer et surveiller vos workflows {#start-monitor}
 
-Une fois que vous avez créé votre workflow et conçu les tâches à effectuer dans la zone de travail, vous pouvez lancer et contrôler son exécution.
+Une fois que vous avez créé votre workflow et conçu les tâches à effectuer dans la zone de travail, vous pouvez le lancer et surveiller son exécution.
 
 ## Démarrer le workflow {#start}
 
 Pour démarrer le workflow, accédez au menu **[!UICONTROL Workflows]** ou à la campagne associée, puis cliquez sur le bouton **[!UICONTROL Démarrer]** dans le coin supérieur droit de la zone de travail.
 
-Une fois le workflow en cours d’exécution, chaque activité de la zone de travail est exécutée dans un ordre séquentiel, jusqu’à ce que le workflow soit terminé.
+Une fois le workflow en cours d’exécution, chaque activité de la zone de travail s’exécute de manière séquentielle jusqu’à ce que le workflow soit terminé.
 
-Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide du flux visuel. Vous pouvez ainsi identifier rapidement le statut de chaque activité et le nombre de profils qu’elle contient.
+Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide d’un flux visuel. Vous pouvez ainsi identifier rapidement le statut de chaque activité et le nombre de profils qu’elle contient.
 
-![](assets/workflow-execution.png){zoomable="yes"}
+![Représentation visuelle de l’exécution du workflow en cours.](assets/workflow-execution.png){zoomable="yes"}
 
 ## Transitions de workflow {#transitions}
 
-Dans les workflows, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une table de travail temporaire. Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l’écran.
+Dans les workflows, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une table de travail temporaire. Ces données peuvent être affichées pour chaque transition. Pour afficher les données, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l&#39;écran.
 
 * Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
-* Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données véhiculées dans la transition sélectionnée.
+* Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données transportées dans la transition sélectionnée.
 
-![](assets/transition.png){zoomable="yes"}
+![Exemple de propriétés de transition et de prévisualisation des données.](assets/transition.png){zoomable="yes"}
 
 ## Surveiller l’exécution des activités {#activities}
 
-Les indicateurs visuels situés dans le coin supérieur droit de chaque activité vous permettent de vérifier leur exécution :
+Les indicateurs visuels situés dans le coin supérieur droit de chaque activité vous permettent de vérifier leur statut d’exécution :
 
 | Indicateur visuel | Description |
-|-----|------------|
+|------------------|-------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | L’activité est en cours d’exécution. |
 | ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les logs de workflow pour obtenir plus d’informations. |
@@ -46,25 +46,23 @@ Les indicateurs visuels situés dans le coin supérieur droit de chaque activit�
 
 ## Surveiller les logs et les tâches {#logs-tasks}
 
-La surveillance des logs et des tâches de workflow est une étape essentielle pour analyser vos workflows et vérifier qu’ils s’exécutent correctement. Les logs sont accessibles à partir de l’icône **[!UICONTROL Logs]**, située dans la barre d’outils d’actions et dans le volet des propriétés de chaque activité.
+La surveillance des logs et des tâches de workflow est une étape essentielle pour analyser vos workflows et vérifier qu’ils s’exécutent correctement. Les journaux et tâches sont accessibles à partir de l’icône **[!UICONTROL Journaux]** disponible dans la barre d’outils d’actions et dans le volet des propriétés de chaque activité.
 
-Le menu **[!UICONTROL Logs et tâches]** fournit un historique de l’exécution du workflow : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées. L’historique est conservé pendant la durée indiquée dans les [options d’exécution](workflow-settings.md) du workflow. Tous les messages sont alors enregistrés pendant cette période, même après un redémarrage du workflow. Si vous ne souhaitez pas conserver les messages d’une exécution précédente, cliquez sur le bouton **[!UICONTROL Purger l’historique]**.
+Le menu **[!UICONTROL Journaux et tâches]** fournit un historique de l’exécution du workflow, enregistrant toutes les actions des utilisateurs et utilisatrices ainsi que les erreurs rencontrées. L’historique est conservé pendant la durée indiquée dans les [options d’exécution](workflow-settings.md) du workflow. Pendant cette durée, tous les messages sont enregistrés, même après un redémarrage du workflow. Si vous ne souhaitez pas enregistrer les messages d&#39;une exécution précédente, cliquez sur le bouton **[!UICONTROL Purger l&#39;historique]**.
 
-![](assets/workflow-logs.png){zoomable="yes"}
+![Exemple d’interface de logs et de tâches de workflow.](assets/workflow-logs.png){zoomable="yes"}
 
 Deux types d’informations sont disponibles :
 
-* L’onglet **[!UICONTROL Log]** affiche l’historique de l’exécution de toutes les activités du workflow. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d’exécution.
+* L’onglet **[!UICONTROL Log]** contient l’historique de l’exécution de toutes les activités du workflow. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d’exécution.
 * L’onglet **[!UICONTROL Tâches]** permet de voir le séquencement de l’exécution des activités.
 
 Sous les deux onglets, vous pouvez choisir les colonnes à afficher et leur ordre, appliquer des filtres et trouver rapidement des informations à l’aide du champ de recherche.
 
 ## Commandes d’exécution du workflow {#execution-commands}
 
-La barre d’actions située dans le coin supérieur droit propose des commandes dédiées à la gestion de l’exécution du workflow. Vous pouvez ainsi effectuer les actions suivantes :
+La barre d’actions située dans le coin supérieur droit propose des commandes pour gérer l’exécution du workflow. Vous pouvez ainsi effectuer les actions suivantes :
 
-* **[!UICONTROL Démarrer]** / **[!UICONTROL Reprendre]** l’exécution du workflow, qui adopte alors le statut En cours. Si le workflow était en pause, il s’agit d’une reprise, sinon il s’agit d’un démarrage et les activités initiales sont alors activées.
-
-* **[!UICONTROL Mettre en pause]** l’exécution du workflow, qui adopte alors le statut En pause. Aucune nouvelle activité ne sera activée jusqu’à la prochaine reprise, mais les opérations en cours ne sont pas suspendues.
-
-* **[!UICONTROL Arrêter]** un workflow en cours d’exécution, qui adopte alors le statut Terminé. Les opérations en cours sont interrompues si possible. Il n’est pas possible de reprendre à l’endroit où le workflow s’est arrêté.
+* **[!UICONTROL Démarrer]** / **[!UICONTROL Reprendre]** l’exécution du workflow. Si le workflow était en pause, il reprend. Sinon, elle démarre et les activités initiales sont activées.
+* **[!UICONTROL Mettre en pause]** l’exécution du workflow. Le workflow adopte alors le statut En pause . Aucune nouvelle activité n’est activée jusqu’à sa reprise, mais les opérations en cours ne sont pas suspendues.
+* **[!UICONTROL Arrêter]** workflow en cours d’exécution. Le workflow adopte alors le statut Terminé . Les opérations en cours sont interrompues si possible. Vous ne pouvez pas reprendre le workflow à partir du point où il s’est arrêté.

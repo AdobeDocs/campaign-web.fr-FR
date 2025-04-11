@@ -3,67 +3,67 @@ audience: end-user
 title: Utiliser l’activité de workflow Mise à jour de données
 description: Découvrir comment utiliser l’activité de workflow Mise à jour de données
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
 # Mise à jour de données {#update-data}
 
-L’activité **Mise à jour de données** est une activité de **Gestion des données**. L’activité Mise à jour de données permet de mettre à jour en masse les champs de la base de données. Plusieurs options vous permettent de personnaliser la mise à jour des données.
+L’activité **Mise à jour de données** est une activité de **Gestion des données**. Elle permet de mettre à jour en masse les champs de la base de données. Plusieurs options vous permettent de personnaliser la mise à jour des données.
 
 <!--
-The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely
+The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update it if it has already been added. You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely.
 
-Specify how to identify the records in the database: if data relate to an existing targeting dimension, select the **Using the targeting dimension** option and select the targeting dimension and fields to update. Otherwise, specify one or more custom links to identify the data in the database, or direct use of reconciliation keys.
+Specify how to identify the records in the database: if data relate to an existing targeting dimension, select the **Using the targeting dimension** option and select the targeting dimension and fields to update. Otherwise, specify one or more custom links to identify the data in the database, or directly use reconciliation keys.
 
 Select the fields to update and reconciliation settings. You can use the **Auto-mapping** option to automatically identify the fields to be updated.
 
-The **Advanced options** section let you specify additional settings to manage data and duplicates.
+The **Advanced options** section lets you specify additional settings to manage data and duplicates.
 
-Toggle the **Generate an outbound transition** option to add an outbound transition that will be activated at the end of the execution of the **Update data** activity. The update generally marks the end of a targeting workflow and therefore the option is not activated by default.
+Toggle the **Generate an outbound transition** option to add an outbound transition that will be activated at the end of the execution of the **Update data** activity. The update generally marks the end of a targeting workflow, and therefore the option is not activated by default.
 
-Toggle the **Generate an outbound transition for rejects** option to add an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default.
+Toggle the **Generate an outbound transition for rejects** option to add an outbound transition containing records that have not been correctly processed after the update (for example, if there is a duplicate). The update generally marks the end of a targeting workflow, and therefore the option is not activated by default.
 -->
 
-## Configurer l’activité Mise à jour de données{#update-data-configuration}
+## Configurer l’activité Mise à jour de données {#update-data-configuration}
 
-Pour configurer l’activité **Mise à jour de données**, commencez par ajouter l’activité à votre workflow et définissez un libellé.
+Pour paramétrer l&#39;activité **Mise à jour de données**, ajoutez l&#39;activité à votre workflow et définissez un libellé.
 
-![](../assets/workflow-update-data.png)
+![Activité de mise à jour des données de workflow](../assets/workflow-update-data.png)
 
 ### Type d&#39;opération
 
 Le champ **Type d&#39;opération** permet de choisir le traitement à réaliser sur les données de la base de données :
 
-* **Insérer ou mettre à jour** : insérez des données ou mettez-les à jour si des enregistrements existent déjà dans la base de données.
-* **Insérer** : insérez des données uniquement. Les enregistrements déjà existants ne sont pas mis à jour. Si des critères de réconciliation sont définis, seuls les enregistrements non réconciliés sont ajoutés.
-* **Mettre à jour** : mettre à jour des données des enregistrements déjà présents en base uniquement.
-* **Supprimer** : supprimer des données.
+* **Insérer ou mettre à jour** : insérez des données ou mettez-les à jour si les enregistrements existent déjà dans la base de données.
+* **Insérer** : permet d’insérer des données uniquement. Les enregistrements qui existent déjà ne sont pas mis à jour. Si des critères de réconciliation sont définis, seuls les enregistrements non réconciliés sont ajoutés.
+* **Mise à jour** : permet de mettre à jour uniquement les données des enregistrements qui existent déjà dans la base de données.
+* **Supprimer** : permet de supprimer des données.
 
-Le champ **Taille des mises à jours** permet de sélectionner le nombre d&#39;éléments de la transition entrante qui seront mis à jour. Par exemple, si vous indiquez 500, les 500 premiers enregistrements traités seront mis à jour.
+Le champ **Taille des mises à jours** permet de sélectionner le nombre d&#39;éléments de la transition entrante qui seront mis à jour. Par exemple, si vous spécifiez 500, les 500 premiers enregistrements traités seront mis à jour.
 
 ### Identification des enregistrements
 
 Cette section vous permet de définir comment identifier les enregistrements dans la base de données :
 
-* Si les données saisies correspondent à une dimension de ciblage existante, sélectionnez l’option **Utiliser la dimension de ciblage** et sélectionnez-la dans le champ **Dimension de ciblage à mettre à jour**.
-* Vous pouvez également sélectionner **Utiliser des liens personnalisés** et spécifier un ou plusieurs liens qui permettront d’identifier les données de la base de données.
-* Si le type d’opération sélectionné implique une mise à jour, vous devez obligatoirement utiliser l’option **Utiliser des règles de réconciliation**.
+* Si les entrées de données se rapportent à une dimension de ciblage existante, sélectionnez l&#39;option **Utiliser la dimension de ciblage** et choisissez-la dans le champ **Dimension de ciblage à mettre à jour**.
+* Vous pouvez également sélectionner **Utilisation de liens personnalisés** et définir un ou plusieurs liens permettant d&#39;identifier les données de la base.
+* Si le type d&#39;opération sélectionné nécessite une mise à jour, utilisez l&#39;option **Utilisation des règles de réconciliation**.
 
 ### Champs à mettre à jour
 
-Dans l’onglet **Champs à mettre à jour**, ajoutez les champs sur lesquels appliquer la mise à jour et, au besoin, ajoutez des conditions pour que cette mise à jour soit réalisée. Pour cela, utilisez le champ **Pris en compte si** Les conditions sont appliquées les unes après les autres, dans l&#39;ordre de la liste. Utilisez les flèches situées à droite pour modifier l&#39;ordre des mises à jour. Vous pouvez utiliser plusieurs fois le même champ de destination.
+Dans la section **Champs à mettre à jour** ajoutez les champs sur lesquels la mise à jour sera appliquée. Si nécessaire, ajoutez des conditions afin que cette mise à jour soit effectuée. Utilisez le champ **Pris en compte si** pour définir des conditions. Les conditions sont appliquées de manière séquentielle dans l’ordre des listes. Utilisez les flèches situées à droite pour modifier l&#39;ordre des mises à jour. Vous pouvez utiliser plusieurs fois le même champ de destination.
 
-Vous pouvez associer automatiquement les champs à l’aide du bouton **Mappage automatique**. L’association automatique détecte les champs portant le même nom.
+Liez automatiquement les champs à l’aide du bouton **Mappage automatique**. L’association automatique détecte les champs portant le même nom.
 
-Dans le cadre d’une opération de type **Insérer ou mettre à jour**, vous pouvez sélectionner individuellement, pour chaque champ, l’opération à appliquer. Pour cela, sélectionnez la valeur souhaitée dans le champ **Type d’opération**.
+Lors d&#39;une opération de type **Insérer ou mettre à jour**, sélectionnez individuellement l&#39;opération à appliquer pour chaque champ. Utilisez le champ **Type d’opération** pour spécifier la valeur souhaitée.
 
 ### Options avancées
 
-Les **options avancées** permettent de spécifier des options supplémentaires pour le traitement des données mises à jour ainsi que pour la gestion des doublons.
+La section **Options avancées** vous permet de spécifier des options supplémentaires pour gérer la mise à jour des données et la gestion des doublons.
 
 <!--
 * **Disable automatic key management**
@@ -75,6 +75,6 @@ Les **options avancées** permettent de spécifier des options supplémentaires 
 
 Les deux dernières options permettent d’effectuer des actions spécifiques :
 
-* **Générer une transition sortante** : crée une transition sortante qui sera activée à la fin de l’exécution. La mise à jour marque généralement la fin d’un workflow de ciblage et l’option n’est donc pas activée par défaut.
+* **Générer une transition sortante** : crée une transition sortante qui sera activée en fin d&#39;exécution. La mise à jour marque généralement la fin d’un workflow de ciblage et l’option n’est donc pas activée par défaut.
 
-* **Générer une transition sortante pour les rejets** : créé une transition sortante qui contient les enregistrements qui n’ont pas été correctement traités après la mise à jour (par exemple en cas de doublon). La mise à jour marque généralement la fin d’un workflow de ciblage et l’option n’est donc pas activée par défaut.
+* **Générer une transition sortante pour les rejets** : crée une transition sortante contenant les enregistrements qui n&#39;ont pas été correctement traités après la mise à jour (par exemple s&#39;il y a un doublon). La mise à jour marque généralement la fin d&#39;un workflow de ciblage et l&#39;option n&#39;est pas activée par défaut.

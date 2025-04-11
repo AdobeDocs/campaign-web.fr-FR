@@ -3,19 +3,19 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez le b.a.-ba de la création de contenu à l’aide du concepteur d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 45%
 
 ---
 
-# Comencer avec le concepteur d’e-mail {#get-started-email-designer}
 
+# Commencer avec le concepteur d’e-mail {#get-started-email-designer}
 
-Une fois que vous avez créé un e-mail dans Adobe Campaign, vous devez en définir le contenu.
+Une fois que vous avez créé un email dans Adobe Campaign, vous devez en définir le contenu.
 
-Le concepteur d’e-mail permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuite par glisser-déposer. Un monde de possibilités s’offre à vous : commencez à partir de zéro, importez un contenu précédent ou tirez parti de modèles existants. Vous pouvez concevoir et affiner le contenu de chaque e-mail pour un usage promotionnel ou transactionnel.
+Le concepteur d’e-mail permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuitive par glisser-déposer. Que vous commenciez à partir de zéro, que vous importiez du contenu existant ou que vous utilisiez des modèles existants, concevez et affinez tout le contenu de chaque e-mail, qu’il soit promotionnel ou transactionnel.
 
 <!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
@@ -23,15 +23,15 @@ The Email Designer allows you to create email content and email content template
 
 * Tirez parti des fonctionnalités de conception d’e-mail de [!DNL Campaign] pour créer en toute facilité des e-mails en responsive design. [En savoir plus](create-email-content.md)
 
-* Améliorez l’expérience des clients et clientes en créant des profils personnalisés en fonction de leurs attributs de profil. [En savoir plus](../personalization/personalize.md)
+* Améliorez l’expérience des clients en créant des e-mails personnalisés en fonction de leurs attributs de profil. [En savoir plus](../personalization/personalize.md)
 
 * Configurez du contenu conditionnel et élaborez une personnalisation dynamique basée sur le profil du ou de la destinataire. [En savoir plus](../personalization/conditions.md)
 
 ## Bonnes pratiques en matière de conception d’e-mail {#best-practices}
 
-Lors de l’envoi d’e-mails, il est important de tenir compte du fait que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu de l’e-mail. Vous risquez de rencontrer ces problèmes si vous utilisez des classes CSS non prises en charge par le fournisseur de messagerie utilisé pour le transfert, comme « is-desktop-hidden », par exemple, pour masquer une image sur les appareils mobiles.
+Lors de l’envoi d’e-mails, tenez compte du fait que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu de l’e-mail. Cela est particulièrement vrai lors de l’utilisation de classes CSS qui peuvent ne pas être prises en charge par le fournisseur de messagerie utilisé pour le transfert. Par exemple, si vous utilisez la classe CSS « is-desktop-hidden » pour masquer une image sur les appareils mobiles, son rendu risque d’être incorrect.
 
-Pour éviter autant que possible ces problèmes de rendu, une bonne pratique consiste à concevoir une structure d’e-mail aussi simple que possible. Privilégiez une conception d’e-mail unique, qui fonctionne aussi bien sur les postes de travail que les appareils mobiles et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception dont la prise en charge par tous les clients de messagerie est aléatoire. En suivant ces bonnes pratiques, vous pouvez vous assurer que vos e-mails sont correctement rendus, quelle que soit la manière dont ils sont affichés ou transférés par les destinataires.
+Pour minimiser ces problèmes de rendu, veillez à ce que la structure de votre conception d’e-mail soit aussi simple que possible. Utilisez une conception unique qui fonctionne aussi bien pour les ordinateurs de bureau et les appareils mobiles et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception qui ne sont pas entièrement pris en charge par tous les clients de messagerie. En suivant ces bonnes pratiques, vous vous assurez que le rendu de vos e-mails est cohérent, quelle que soit la manière dont ils sont affichés ou transférés par les destinataires.
 
 ## Commencer à créer du contenu {#start-authoring}
 
@@ -41,8 +41,8 @@ Pour éviter autant que possible ces problèmes de rendu, une bonne pratique con
 
 * **Codez ou collez du code HTML brut** directement dans le concepteur d’e-mail. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
 
-* **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer un contenu d’e-mail dans [cette section](existing-content.md).
+* **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer du contenu d’e-mail dans [cette section](existing-content.md).
 
-* **Sélectionnez un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’e-mail dans [cette section](create-email-templates.md).
+* **Sélectionnez un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser les modèles d’e-mail dans [cette section](create-email-templates.md).
 
-  ![](assets/email_designer_create_options.png){zoomable="yes"}
+  ![Options disponibles dans l’interface de Designer des e-mails pour créer du contenu d’e-mail](assets/email_designer_create_options.png){zoomable="yes"}

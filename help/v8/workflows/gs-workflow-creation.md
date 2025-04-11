@@ -3,52 +3,50 @@ audience: end-user
 title: Principes fondamentaux de la création de workflows
 description: Découvrir les principes fondamentaux des workflows avec Adobe Campaign Web
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 100%
+source-wordcount: '300'
+ht-degree: 41%
 
 ---
 
-
 # Principes fondamentaux de la création de workflows {#gs-workflow-creation}
 
-Avec Adobe Campaign Web, vous pouvez créer des workflows dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
+Avec Adobe Campaign Web, vous pouvez créer des workflows sur une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes et le traitement de fichiers.
 
 ## Quels sont les éléments d’un workflow ? {#gs-workflow-inside}
 
-Le diagramme de workflow est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
+Le diagramme de workflow représente le processus planifié. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 
-![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
+![Exemple de diagramme de workflow montrant les tâches et leurs connexions](assets/workflow-example.png){zoomable="yes"}
 
 Chaque workflow comprend :
 
-* des **Activités** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
+* des **Activités** : une activité est une tâche à effectuer. Les icônes du diagramme représentent les différentes activités. Chaque activité possède des propriétés spécifiques et des propriétés communes à toutes les activités.
 
-  Dans un diagramme de workflow, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d’actions récurrentes.
+  Dans un diagramme de workflow, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d&#39;actions récurrentes.
 
 * **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
 
-* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque workflow utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être utilisées tout au long du cycle de vie du workflow.
+* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque workflow utilise plusieurs tables de travail. Les données contenues dans ces tableaux peuvent être utilisées tout au long du cycle de vie du workflow.
 
 ## Étapes essentielles pour créer un workflow {#gs-workflow-steps}
-
 
 Les campagnes offrent deux manières de créer un workflow :
 
 1. Les workflows peuvent être créés en tant que workflows autonomes à partir du menu **Workflows**.
 
-   ![](assets/create-a-standalone-wf.png){zoomable="yes"}
+   ![Capture d’écran de l’interface de création d’un workflow autonome](assets/create-a-standalone-wf.png){zoomable="yes"}
 
-1. Les workflows peuvent être créés directement au sein d’une campagne, à partir de l’onglet **Workflow** de la campagne. Lorsqu’il est inclus dans une campagne, le workflow est exécuté avec tous les autres workflows de la campagne et les mesures de rapports sont toutes regroupées au niveau de la campagne.
+1. Les workflows peuvent être créés directement dans une campagne, à partir de l&#39;onglet **Workflow** de la campagne. Lorsqu’il est inclus dans une campagne, le workflow s’exécute avec tous les autres workflows de la campagne et les mesures de rapports sont regroupées au niveau de la campagne.
 
-   ![](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
+   ![Capture d’écran de l’interface de création d’un workflow dans une campagne](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
 
 Pour créer des workflows, procédez comme suit :
 
-![](assets/workflow-creation-process.png){zoomable="yes"}
+![Diagramme illustrant le processus de création de workflow](assets/workflow-creation-process.png){zoomable="yes"}
 
-Ces étapes sont détaillées dans la section suivante :
+Ces étapes sont détaillées dans les sections suivantes :
 
 1. [Créer votre workflow et définir ses propriétés](create-workflow.md)
 1. [Orchestrer et configurer des activités](orchestrate-activities.md)

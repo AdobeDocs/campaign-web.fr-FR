@@ -4,10 +4,10 @@ title: Commencer avec les pages de destination
 description: En savoir plus sur les pages de destination dans Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 60%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 [!DNL Adobe Campaign] vous permet de créer, concevoir et partager des pages de destination.
 
-Dans le cadre de campagnes marketing, une page de destination est une page web autonome vers laquelle est dirigé une personne lorsqu’elle clique sur un lien dans une diffusion ou sur un site web.
+Dans le contexte des campagnes marketing, une page de destination est une page web autonome sur laquelle le visiteur est redirigé après avoir cliqué sur un lien dans une diffusion ou sur un site web.
 
-Les pages de destination vous permettent d’orienter vos utilisateurs et utilisatrices vers des formulaires en ligne sur lesquelles ils peuvent mettre à jour leurs données, s’abonner à vos communications ou à un service spécifique tel qu’une newsletter, ou s’en désabonner.
+Les landing pages vous permettent d’orienter vos utilisateurs vers des formulaires en ligne où ils peuvent mettre à jour leurs données, s’inscrire ou non à la réception de vos communications ou s’abonner à un service spécifique tel qu’une newsletter.
 
 >[!CAUTION]
 >
 >Les pages de destination que vous créez dans l’interface utilisateur web de Campaign sont différentes des formulaires web créés à partir de la console cliente. Vous ne pouvez pas afficher ni modifier les formulaires web créés dans la console cliente dans l’interface utilisateur web de Campaign.
 >
->En savoir plus sur les formulaires web dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
+>Pour en savoir plus sur les formulaires web, consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
 
 Les principales fonctionnalités des pages de destination sont répertoriées ci-dessous :
 
@@ -37,7 +37,7 @@ Les principales fonctionnalités des pages de destination sont répertoriées ci
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Prospect" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Créer des pages de destination à l’aide de modèles préremplis" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>Créer des pages de destination</strong>
 </div>
@@ -45,7 +45,7 @@ Les principales fonctionnalités des pages de destination sont répertoriées ci
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="Peu fréquent" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Configurer des services d’abonnement pour les utilisateurs" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong>Créer des services d’abonnement</strong></a>
@@ -53,7 +53,7 @@ Les principales fonctionnalités des pages de destination sont répertoriées ci
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="Validation" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Conception de pages de destination réactives" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>Concevoir des pages de destination</strong></a>
@@ -62,7 +62,7 @@ Les principales fonctionnalités des pages de destination sont répertoriées ci
 </td>
 <td>
 <a href="lp-templates.md">
-<img alt="Validation" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="Utiliser des modèles de contenu pour les pages de destination" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-templates.md"><strong>Utiliser des modèles de contenu</strong></a>

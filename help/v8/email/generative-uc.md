@@ -2,10 +2,10 @@
 title: Cas d’utilisation de l’assistant IA
 description: Découvrir comment utiliser l’assistant IA à travers les cas d’utilisation
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 56%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
+>Avant de commencer à utiliser cette fonctionnalité, lisez les [Mécanismes de sécurisation et limites](generative-gs.md#generative-guardrails) associés.
 
 ## Utiliser un contenu existant
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Démonstration de la réutilisation de contenu existant avec l’assistant AI](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Après avoir configuré votre diffusion, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
@@ -25,31 +25,31 @@ ht-degree: 100%
 
 1. Activez la fonctionnalité **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction des détails de votre diffusion, y compris le nom de la diffusion et l’audience ciblée.
 
-1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Prompt]** et personnalisez les paramètres selon vos besoins.
+1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Invite]** et personnalisez les paramètres si nécessaire.
 
-1. Lorsque le prompt vous satisfait, cliquez sur **[!UICONTROL Générer]**.
+1. Une fois l’invite créée, cliquez sur **[!UICONTROL Générer]**.
 
 1. Explorez les **[!UICONTROL variations]** disponibles et cliquez sur **[!UICONTROL Prévisualisation]** pour afficher la variation sélectionnée en plein écran.
 
-Lorsque vous avez défini votre contenu, votre audience et votre planning, vous pouvez préparer votre diffusion.
+Une fois que vous avez défini le contenu, l’audience et le planning, préparez votre diffusion.
 
 ## Affiner la variation
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![Démonstration de l’affinement des variations de contenu avec l’assistant AI](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Une fois votre diffusion préparée et configurée, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
 1. Ouvrez le menu **[!UICONTROL Assistant IA]**.
 
-1. Ajustez le contenu en saisissant la requête souhaitée dans la zone **[!UICONTROL Prompt]** et modifiez les paramètres si nécessaire.
+1. Ajustez le contenu en saisissant la requête souhaitée dans la zone **[!UICONTROL Invite]**, puis modifiez les paramètres si nécessaire.
 
-1. Lorsque vous le souhaitez, cliquez sur **[!UICONTROL Générer]**.
+1. Une fois prêt, cliquez sur **[!UICONTROL Générer]**.
 
 1. Passez en revue les **[!UICONTROL variations]** générées et sélectionnez **[!UICONTROL Prévisualisation]** pour afficher l’option choisie en plein écran.
 
 1. Dans la fenêtre **[!UICONTROL Prévisualisation]**, accédez à l’option **[!UICONTROL Affiner]** pour une personnalisation plus poussée, notamment ce qui suit :
 
-   * **[!UICONTROL Utiliser comme contenu de référence]** : la variation sélectionnée servira de référence pour générer plus de contenu.
+   * **[!UICONTROL Utiliser comme contenu de référence]** : la variation sélectionnée agit comme référence pour générer davantage de contenu.
 
    * **[!UICONTROL Élaborer]** : laissez l’Assistant IA développer certains points, offrant plus de détails et de profondeur pour un meilleur engagement.
 
@@ -59,33 +59,33 @@ Lorsque vous avez défini votre contenu, votre audience et votre planning, vous 
 
    * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez le langage avec l’Assistant IA afin de garantir un message clair et accessible pour tous les lecteurs et lectrices.
 
-   De plus, vous pouvez ajuster le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre contenu.
+   De plus, ajustez le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre contenu.
 
-1. Lorsque vous avez trouvé le contenu approprié, cliquez sur **[!UICONTROL Sélectionner]**.
+1. Une fois votre contenu prêt, cliquez sur **[!UICONTROL Sélectionner]**.
 
 ## Générer une image similaire
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![Démonstration de la génération d’images similaires avec l’assistant AI](assets/do-not-localize/uc-image-similar.gif)
 
 1. Après avoir configuré votre diffusion, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
 1. Ouvrez la section **[!UICONTROL Assistant IA]**.
 
-1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Prompt]** et personnalisez les paramètres selon vos besoins.
+1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Invite]** et personnalisez les paramètres si nécessaire.
 
-1. Lorsque le prompt vous satisfait, cliquez sur **[!UICONTROL Générer]**.
+1. Une fois l’invite créée, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL Suggestions de variation]** pour trouver la ressource souhaitée.
+1. Parcourez les **[!UICONTROL suggestions de variation]** pour trouver la ressource souhaitée.
 
    Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
 
-1. Choisissez **[!UICONTROL Générer des résultats similaires]** pour explorer les variations d’image qui ressemblent étroitement à l’option actuelle, offrant des conceptions alternatives avec un thème similaire.
+1. Choisissez **[!UICONTROL Générer comme]** pour explorer les variations d’image qui ressemblent beaucoup à l’option actuelle, en proposant d’autres conceptions avec un thème similaire.
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
 ## Charger une référence stylistique
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![Démonstration du chargement d’une référence de style pour l’assistant AI](assets/do-not-localize/uc-image-reference.gif)
 
 1. Après avoir configuré votre diffusion, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -97,12 +97,12 @@ Lorsque vous avez défini votre contenu, votre audience et votre planning, vous 
 
 1. Cliquez sur **[!UICONTROL Charger l’image]** pour inclure une image qui ajoute du contexte à votre variation.
 
-1. Affinez le contenu en spécifiant ce que vous souhaitez générer dans la zone **[!UICONTROL Prompt]** et ajustez les paramètres selon vos besoins.
+1. Affinez le contenu en spécifiant ce que vous souhaitez générer dans la zone **[!UICONTROL Invite]**, puis ajustez les paramètres selon vos besoins.
 
-1. Lorsque le prompt vous satisfait, cliquez sur **[!UICONTROL Générer]**.
+1. Une fois l’invite créée, cliquez sur **[!UICONTROL Générer]**.
 
 1. Passez en revue les **[!UICONTROL suggestions de variation]** pour trouver la ressource que vous préférez.
 
-1. Sélectionnez **[!UICONTROL Prévisualisation]** pour afficher la variation choisie en plein écran.
+1. Sélectionnez **[!UICONTROL Aperçu]** pour afficher la variation choisie en plein écran.
 
 1. Une fois que vous avez trouvé le contenu approprié, cliquez sur **[!UICONTROL Sélectionner]**.
