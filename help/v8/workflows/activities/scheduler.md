@@ -13,8 +13,9 @@ ht-degree: 29%
 # Planificateur {#scheduler}
 
 >[!CONTEXTUALHELP]
->
->L’activité **Planificateur** est une activité de **contrôle de flux**. Elle permet de planifier le démarrage du workflow. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité du workflow.
+>id="acw_orchestration_scheduler"
+>title="Scheduler activity"
+>abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
 
 ## Bonnes pratiques {#scheduler-best-practices}
 

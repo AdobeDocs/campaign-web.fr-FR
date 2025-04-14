@@ -13,8 +13,9 @@ ht-degree: 21%
 # À propos des workflows en lecture seule {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->
-Certains workflows sont en lecture seule. Les workflows techniques natifs sont toujours en lecture seule, mais cette restriction peut également s’appliquer à d’autres types de workflows.
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to your rights or the type of the workflow."
 
 Les utilisateurs de Campaign peuvent avoir un accès restreint aux données d’Adobe Campaign. Un administrateur Campaign peut lui accorder le droit d&#39;afficher certaines fonctionnalités, mais pas de les modifier. Les autorisations utilisateur/utilisatrice sur les données sont essentielles pour assurer la sécurité des données et des processus. En savoir plus sur la gestion des autorisations dans Campaign dans [cette section](../get-started/permissions.md).
 
