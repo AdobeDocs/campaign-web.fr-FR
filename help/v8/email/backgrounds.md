@@ -13,8 +13,9 @@ ht-degree: 40%
 # Personnaliser l’arrière-plan des e-mails {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
-Lors de la définition d’arrière-plans avec le Designer Email, Adobe recommande ce qui suit :
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
 
 1. Appliquez une couleur de fond au corps de votre email si votre design le requiert.
 1. Définissez les couleurs de fond au niveau de la colonne dans la plupart des cas.

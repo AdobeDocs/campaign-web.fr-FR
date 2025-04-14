@@ -12,8 +12,9 @@ ht-degree: 25%
 # Dimensions de ciblage {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->
-La dimension de ciblage, également appelée mappage de ciblage, correspond au type de données géré par une opération. Il définit la population ciblée, telle que les profils, les bénéficiaires d’un contrat, les opérateurs ou les abonnés.
+>id="acw_orchestration_build_audience_dimension"
+>title="Select the targeting dimension"
+>abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
 
 ## Dimensions de ciblage des workflows {#workflow}
 

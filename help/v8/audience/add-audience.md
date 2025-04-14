@@ -13,8 +13,10 @@ ht-degree: 57%
 # Sélectionner une audience existante {#add-audience}
 
 >[!CONTEXTUALHELP]
->
-Cette section explique comment sélectionner une audience existante lors de la définition de la population cible d’une diffusion. Lors de la définition de la cible principale d’une diffusion, vous pouvez également :
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
+>abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+
 * [Créer une audience unique](one-time-audience.md) à l’aide du concepteur de requête.
 * [Charger une audience depuis un fichier externe](file-audience.md) (pour les e-mails uniquement).
 
