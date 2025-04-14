@@ -3,9 +3,9 @@ audience: end-user
 title: Commencer avec les audiences
 description: Découvrez comment utiliser des audiences dans Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '371'
 ht-degree: 66%
 
 ---
@@ -14,23 +14,23 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
->title="Properties"
->abstract="Here you can find a summary of the audience properties, such as its origin or its storage folder. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
+>title="Propriétés"
+>abstract="Vous y trouverez un résumé des propriétés de l’audience, telles que son origine ou son dossier de stockage. Cliquez sur le lien dans la section **Dernier workflow** pour ouvrir le workflow qui a été utilisé pour créer l’audience."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
->title="Audience size"
->abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
+>title="Taille de l’audience"
+>abstract="Vous trouverez ici le nombre total de profils que comporte l’audience. Cliquez sur le bouton **Calculer** pour mettre à jour et recalculer les résultats de l’audience."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
->title="Targeting"
->abstract="Targeting"
+>title="Ciblage"
+>abstract="Ciblage"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
->title="Audience error"
->abstract="Audience data is not available. Please wait for the end of the workflow execution."
+>title="Erreur d’audience"
+>abstract="Données d’audience non disponibles Veuillez attendre la fin de l&#39;exécution du workflow."
 
 L’audience est la cible principale de votre diffusion : il s’agit des profils qui reçoivent les messages. La liste des audiences disponibles dans Campaign Web est accessible à partir du menu **[!UICONTROL Audiences]**.
 

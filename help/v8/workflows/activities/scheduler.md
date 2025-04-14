@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur.
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 29%
+source-wordcount: '505'
+ht-degree: 40%
 
 ---
 
@@ -14,8 +14,10 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="Scheduler activity"
->abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
+>title="Activité Planificateur"
+>abstract="L’activité **Planificateur** vous permet de planifier le démarrage du workflow. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité du workflow."
+
+L’activité **Planificateur** est une activité de **contrôle de flux**. Elle permet de planifier le démarrage du workflow. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité du workflow.
 
 ## Bonnes pratiques {#scheduler-best-practices}
 
@@ -27,13 +29,13 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
->title="Scheduler validity"
->abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
+>title="Validité du planificateur"
+>abstract="Vous pouvez définir une période de validité pour le planificateur. Elle peut être permanente (par défaut) ou valide jusqu’à une date spécifique."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler options"
->abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
+>title="Options du planificateur"
+>abstract="Définissez la fréquence du planificateur. Il peut être exécuté à un moment précis, ou encore une ou plusieurs fois par jour, semaine ou mois."
 
 Pour configurer l’activité **Planificateur**, procédez comme suit :
 
@@ -59,7 +61,7 @@ Pour configurer l’activité **Planificateur**, procédez comme suit :
    * **Période de validité** : le workflow est exécuté selon la fréquence spécifiée, jusqu&#39;à une date spécifique. Spécifiez les dates de début et de fin.
 
 >[!NOTE]\
-Si vous souhaitez démarrer le workflow immédiatement, cliquez sur **Exécuter la tâche en attente** dans la barre d’actions supérieure du planificateur. Ce bouton n’est disponible que lorsque le workflow a été démarré.
+>Si vous souhaitez démarrer le workflow immédiatement, cliquez sur **Exécuter la tâche en attente** dans la barre d’actions supérieure du planificateur. Ce bouton n’est disponible que lorsque le workflow a été démarré.
 
 ## Exemple {#scheduler-example}
 
