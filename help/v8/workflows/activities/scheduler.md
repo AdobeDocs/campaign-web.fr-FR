@@ -14,7 +14,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >
-L’activité **Planificateur** est une activité de **contrôle de flux**. Elle permet de planifier le démarrage du workflow. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité du workflow.
+>L’activité **Planificateur** est une activité de **contrôle de flux**. Elle permet de planifier le démarrage du workflow. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité du workflow.
 
 ## Bonnes pratiques {#scheduler-best-practices}
 
@@ -24,9 +24,15 @@ L’activité **Planificateur** est une activité de **contrôle de flux**. Elle
 
 ## Configurer l’activité Planificateur {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 Pour configurer l’activité **Planificateur**, procédez comme suit :
 
