@@ -52,7 +52,7 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 >[!BEGINTABS]
 
 
->[!TAB Version du 25 février]
+>[!TAB Version de février 2025]
 
 La version de février est maintenant en ligne. Elle contient les règles métier, les mappings de ciblage et d’autres améliorations encore.
 
