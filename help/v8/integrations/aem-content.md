@@ -3,10 +3,10 @@ audience: end-user
 title: Gérer les ressources avec Adobe Experience Manager as a Cloud service
 description: Découvrez comment gérer les ressources avec Adobe Experience Manager as a Cloud service.
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 40%
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 40%
 
 L’intégration de l’interface Web d’Adobe Campaign à Adobe Experience Manager permet une gestion rationalisée du contenu et des formulaires de diffusion des e-mails directement dans la plateforme Adobe Experience Manager.
 
-![](assets/do-not-localize/book.png)[En savoir plus sur Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=fr)
+![](assets/do-not-localize/book.png)[En savoir plus sur Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=fr)
 
 ## Créer un modèle dans [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne pour le canal Courrier
 description: Comprendre les rapports de campagne du canal Courrier
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 56%
+ht-degree: 51%
 
 ---
 
@@ -27,7 +27,7 @@ La **[!UICONTROL Présentation de la diffusion]** présente des mesures de perfo
 
 ![Présentation des mesures de diffusion des campagnes de publipostage direct](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de diffusion.
++++En savoir plus sur les mesures de présentation des diffusions.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -50,7 +50,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 ![Statistiques de l’audience cible initiale des campagnes par publipostage direct](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de statistiques initiales sur l’audience cible.
++++En savoir plus sur les mesures Statistiques initiales sur l’audience cible.
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
@@ -94,7 +94,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** fournit une répartition
 
 Le tableau **Flux de clics générés** illustre les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
-+++En savoir plus sur les mesures de flux de clics générés.
++++En savoir plus sur les mesures Flux de clics générés.
 
 * **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports globaux pour le canal Courrier
 description: En savoir plus sur les rapports globaux pour le canal courrier
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -29,7 +29,7 @@ La **[!UICONTROL Présentation de la diffusion]** présente des mesures de perfo
 
 ![Cette image présente les mesures de vue d’ensemble des diffusions pour les diffusions par publipostage direct.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de diffusion.
++++En savoir plus sur les mesures de présentation des diffusions.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -109,7 +109,7 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** fournit une répartition du
 
 Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
-+++En savoir plus sur les mesures de causes d’exclusion.
++++En savoir plus sur les causes des mesures d’exclusion.
 
 * **[!UICONTROL Adresse en quarantaine]** : type d&#39;erreur générée lors de la mise en quarantaine d&#39;une adresse.
 

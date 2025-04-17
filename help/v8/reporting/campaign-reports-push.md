@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne de canal de notification push
 description: Présentation des rapports de campagne du canal de notification push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 64%
+ht-degree: 56%
 
 ---
 
@@ -25,7 +25,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI qui
 
 ![Mesures de synthèse des diffusions affichées dans le rapport Présentation des diffusions](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne push.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -48,7 +48,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 ![Statistiques initiales sur l’audience cible affichées dans le rapport](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne push.
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
@@ -69,7 +69,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 ![Statistiques d’exécution affichées dans le rapport](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne push.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -79,7 +79,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (enregistrement non valide, rejet de message ou erreur de payload, par exemple), par rapport au nombre de messages à diffuser.
 
-  Les types d’erreur de notifications push sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
+  Les types d’erreur des notifications push sont répertoriés dans la documentation d’[Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
 
 +++
 
@@ -94,7 +94,7 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 ![ Flux de clics générés affichés dans le rapport](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne push.
 
 * **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 

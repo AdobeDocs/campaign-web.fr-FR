@@ -6,10 +6,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version bêta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 41%
+ht-degree: 40%
 
 ---
 
@@ -104,6 +104,6 @@ Les utilisateurs peuvent saisir les détails manuellement ou charger un document
 
    ![Options de menu avancées dans le tableau de bord Marques](assets/brands_5.png)
 
-Vos directives de marque sont désormais accessibles à partir du menu déroulant **[!UICONTROL Marque]** dans le menu de l’assistant d’IA. Cela permet à l’assistant d’IA de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant IA](../email/generative-gs.md)
+Vos directives de marque sont désormais accessibles à partir du menu déroulant **[!UICONTROL Marque]** dans le menu de l’assistant d’IA. Cela permet à l’assistant d’IA de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant IA](../email/generative-gs.md)
 
 ![Menu assistant AI avec liste déroulante Marque](assets/brands_6.png)

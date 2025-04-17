@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de courrier
 description: Découvrir comment accéder aux rapports de courrier pour les utiliser
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 41%
+source-wordcount: '677'
+ht-degree: 35%
 
 ---
 
@@ -27,7 +27,7 @@ La **[!UICONTROL Présentation de la diffusion]** fournit des informations déta
 
 ![Graphique des mesures de présentation de la diffusion présentant les indicateurs clés de performances pour la diffusion de publipostage direct.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de diffusion.
++++En savoir plus sur les mesures de présentation des diffusions.
 
 * **[!UICONTROL Messages à diffuser]** : Nombre total de messages traités lors de la préparation de la diffusion.
 * **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui remplissent les critères des profils cibles pour les messages de publipostage direct.
@@ -49,7 +49,7 @@ Placez le pointeur de la souris sur une partie du graphique pour afficher le nom
 
 ![Vue détaillée du graphique initial de la population cible avec la fonctionnalité de survol.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de diffusion par courrier.
++++En savoir plus sur les mesures des rapports de diffusion Courrier.
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 * **[!UICONTROL À délivrer]** : nombre total de messages à délivrer après la préparation de la diffusion.
@@ -67,7 +67,7 @@ Le graphique **[!UICONTROL Statistiques de diffusion]** donne un aperçu des per
 
 ![Graphique des statistiques de diffusion présentant les taux de succès, les erreurs et les quarantaines.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par courrier.
++++En savoir plus sur les mesures des rapports de campagne de publipostage direct.
 
 * **[!UICONTROL Message envoyé]** : nombre total de messages à délivrer après la préparation de la diffusion.
 * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
@@ -82,11 +82,11 @@ Le graphique **[!UICONTROL Statistiques de diffusion]** donne un aperçu des per
 >title="Causes d’exclusion des diffusions"
 >abstract="Le graphe **Causes d’exclusion** illustre la distribution des messages rejetés, classés par règle, lors de la préparation de la diffusion."
 
-Le graphique **[!UICONTROL Causes d’exclusion]** fournit une répartition des raisons du rejet du message lors de la préparation de la diffusion. Cette répartition est organisée par différentes règles, offrant une vue détaillée des facteurs contribuant à l’exclusion des messages. Les règles d’exclusion sont détaillées dans la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
+Le graphique **[!UICONTROL Causes d’exclusion]** fournit une répartition des raisons du rejet du message lors de la préparation de la diffusion. Cette répartition est organisée par différentes règles, offrant une vue détaillée des facteurs contribuant à l’exclusion des messages. Les règles d’exclusion sont décrites dans la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
 
 ![Graphique des causes d’exclusion présentant la répartition des messages rejetés par règle.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++En savoir plus sur les mesures de causes d’exclusion.
++++En savoir plus sur les causes des mesures d’exclusion.
 
 * **[!UICONTROL Adresse en quarantaine]** : type d&#39;erreur générée lors de la mise en quarantaine d&#39;une adresse.
 * **[!UICONTROL Adresse non renseignée]** : type d&#39;erreur générée lorsqu&#39;une adresse n&#39;existe pas.

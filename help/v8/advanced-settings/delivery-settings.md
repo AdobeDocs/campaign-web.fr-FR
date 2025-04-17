@@ -4,10 +4,10 @@ title: Configurer les paramètres de diffusion
 description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2765'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ Trois modes sont disponibles :
 
 >[!NOTE]
 >
->Le paramétrage des règles de gestion de la fatigue et de la pression s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
+>Le paramétrage des règles de gestion de la fatigue et de la pression s’effectue dans la console cliente Campaign. En savoir plus dans la documentation de [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
 
 ### Paramètres de capacité {#capacity-settings}
 
@@ -92,7 +92,7 @@ Le champ **[!UICONTROL Importance de la personne destinataire]** est une formule
 
 >[!NOTE]
 >
->La configuration de règles de typologie s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=fr){target="_blank"}.
+>La configuration de règles de typologie s’effectue dans la console cliente Campaign. En savoir plus dans la documentation de [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=fr){target="_blank"}.
 
 ## Paramètres de l’audience {#audience}
 
@@ -130,7 +130,7 @@ Vous pouvez définir les paramètres d’**[!UICONTROL Envoi]** ci-dessous.
 
 * **[!UICONTROL Test de la diffusion par SMTP]** (canal e-mail) : cette option vous permet de tester l’envoi via SMTP. L’e-mail est traité jusqu’à la connexion au serveur SMTP mais n’est pas envoyé : pour chaque personne destinataire de l’e-mail, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et met fin à la connexion avant la commande SMTP DATA.
 
-* **[!UICONTROL E-mail Cci]** (canal e-mail) : cette option permet de stocker les e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail Cci à la cible de vos messages. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=fr){target="_blank"}.
+* **[!UICONTROL E-mail Cci]** (canal e-mail) : cette option permet de stocker les e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail Cci à la cible de vos messages. En savoir plus dans la documentation de [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=fr){target="_blank"}.
 
 Dans la section **[!UICONTROL Définition de vague]**, sélectionnez l’option **[!UICONTROL Envoyer en plusieurs vagues]** pour augmenter progressivement le volume envoyé par vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. [En savoir plus](send-using-waves.md)
 
@@ -159,7 +159,7 @@ Vous pouvez également définir les balises partagées avec l’outil d’analys
 
 >[!NOTE]
 >
->La configuration des fonctionnalités Web analytics s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=fr#external-account-ac){target="_blank"}.
+>La configuration des fonctionnalités Web analytics s’effectue dans la console cliente Campaign. En savoir plus dans la documentation de [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=fr#external-account-ac){target="_blank"}.
 
 ## Reprises {#retries}
 
@@ -228,7 +228,7 @@ La **[!UICONTROL Limite de validité des ressources]** est utilisée pour les re
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-En savoir plus sur la période de validité des diffusions dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr#validity-period){target="_blank"}.
+En savoir plus sur la période de validité des diffusions dans la documentation [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr#validity-period){target="_blank"}.
 
 ### Gestion des pages miroir (canal e-mail) {#mirror}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Changement de dimension
 description: Découvrez comment utiliser l’activité de workflow Changement de dimension.
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 52%
 >title="Activité Changement de dimension"
 >abstract="Cette activité vous permet de modifier la dimension de ciblage à mesure que vous créez une audience. Elle déplace l’axe en fonction du modèle de données et de la dimension d’entrée. Par exemple, vous pouvez passer de la dimension « contrats » à la dimension « clients »."
 
-L’activité **Changement de dimension** est une activité de **ciblage**. Cette activité permet de modifier la dimension de ciblage au fur et à mesure de la construction de votre workflow. Elle déplace l’axe en fonction du modèle de données et de la dimension d’entrée. [En savoir plus sur les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions).
+L’activité **Changement de dimension** est une activité de **ciblage**. Cette activité permet de modifier la dimension de ciblage au fur et à mesure de la construction de votre workflow. Elle déplace l’axe en fonction du modèle de données et de la dimension d’entrée. [Découvrez les dimensions de ciblage](../../audience/about-recipients.md#targeting-dimensions).
 
 Par exemple, vous pouvez basculer la dimension de ciblage d’un workflow de « Destinataires » vers « Application des abonnés » pour envoyer des notifications push aux destinataires ciblés.
 

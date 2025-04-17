@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports globaux du canal SMS
 description: Comprendre les rapports globaux du canal SMS
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 54%
+ht-degree: 48%
 
 ---
 
@@ -29,7 +29,7 @@ Le rapport **[!UICONTROL Présentation de la diffusion]** propose des indicateur
 
 ![Capture d’écran du rapport Présentation de la diffusion , présentant les indicateurs clés de performance pour la diffusion par SMS.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de diffusion.
++++En savoir plus sur les mesures de présentation des diffusions.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -83,7 +83,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** détaille le succès de ch
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (par exemple, utilisateur ou utilisatrice inconnu(e), domaine invalide), par rapport au nombre de messages à diffuser.
 
-  Les types d’erreur de SMS sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#sms-quarantines){target="_blank"}.
+  Les types d’erreurs SMS sont répertoriés dans la documentation d’[Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** détaille le succès de ch
 
 Le graphe et le tableau **[!UICONTROL Causes d’exclusion]** affichent les raisons qui ont empêché des profils utilisateurs exclus des profils ciblés de recevoir vos diffusions SMS.
 
-Les types d’erreur sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
+Les types d’erreur sont répertoriés dans la documentation d’[Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
 
 ![Capture d’écran du rapport Causes d’exclusion, présentant les raisons des exclusions de diffusion SMS.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 

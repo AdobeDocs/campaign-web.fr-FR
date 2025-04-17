@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports globaux du canal de notification push
 description: Comprendre les rapports globaux du canal de notification push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 71%
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI (in
 
 ![Mesures de présentation de la diffusion, affichant les KPI liés aux performances des notifications push.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de diffusion.
++++En savoir plus sur les mesures de présentation des diffusions.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -83,7 +83,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** renseigne sur le succès d
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (enregistrement non valide, rejet de message, erreur de payload et raisons similaires) par rapport au nombre de messages à diffuser.
 
-  Les types d’erreur de notifications push sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
+  Les types d’erreur des notifications push sont répertoriés dans la documentation d’[Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** renseigne sur le succès d
 
 Le graphe et le tableau **[!UICONTROL Causes d’exclusion]** illustrent les raisons pour lesquelles les profils utilisateur exclus des profils ciblés n’ont pas reçu le message.
 
-Les types d’erreur de notifications push sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
+Les types d’erreur des notifications push sont répertoriés dans la documentation d’[Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
 
 ## Débit de diffusion {#delivery-throughput-sms}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion E-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 93%
+source-wordcount: '2448'
+ht-degree: 89%
 
 ---
 
@@ -75,13 +75,13 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** détaille le succès de vot
 >title="Causes d’exclusion lors d’une diffusion"
 >abstract="Le tableau et le graphe **Causes d’exclusion** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion."
 
-Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion. Les règles d’exclusion sont détaillées dans la section [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
+Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion. Les règles d’exclusion sont décrites dans la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
 
 ![Capture d’écran du graphique et du tableau Causes d’exclusion](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
-* **[!UICONTROL Utilisateur inconnu]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que l’adresse e-mail n’est pas valide.
+* **[!UICONTROL Utilisateur inconnu]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse e-mail est invalide.
 
 * **[!UICONTROL Domaine invalide]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse e-mail est erroné ou n&#39;existe plus.
 
@@ -153,13 +153,13 @@ Le tableau **[!UICONTROL Statistiques de domaine]** contient les données dispon
 
 Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** contiennent les données disponibles pour chaque type d’erreur. Les mesures sont détaillées ci-dessous.
 
-Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
+Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la documentation [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
 ![Capture d’écran de la répartition des erreurs par type](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
-* **[!UICONTROL Utilisateur inconnu]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que l’adresse e-mail n’est pas valide.
+* **[!UICONTROL Utilisateur inconnu]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse e-mail est invalide.
 
 * **[!UICONTROL Domaine invalide]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse e-mail est erroné ou n&#39;existe plus.
 

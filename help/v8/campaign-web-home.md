@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ La version de février est maintenant en ligne. Elle contient les règles métie
 
 ✨ Plongez dans une expérience pratique avec la prévisualisation de notre fonctionnalité en direct, l’[Assistant IA](../v8/email/generative-gs.md), conçue pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.
 
-[![Bouton En savoir plus](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![bouton En savoir plus](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB FAQ]
 
@@ -132,5 +132,5 @@ Les questions fréquentes sur l’interface d’utilisation web de Campaign sont
 
 ## Autres ressources
 
-* [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Documentation Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr){target="_blank"}
+* [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Documentation Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr){target="_blank"}

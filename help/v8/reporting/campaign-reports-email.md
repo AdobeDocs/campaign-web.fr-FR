@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de campagne du canal e-mail
 description: En savoir plus sur les rapports de campagne du canal E-mail
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 93%
+ht-degree: 87%
 
 ---
 
@@ -83,7 +83,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à délivrer.
 
-  Les types d’erreur d’e-mail sont répertoriés dans la section [Documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
+  Les types d’erreur e-mail sont répertoriés dans la documentation d’[Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
 
 +++
 
@@ -143,7 +143,7 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque type de domaine. Les mesures sont détaillées ci-dessous.
 
-Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
+Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la documentation [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
 ![Capture d’écran de la Répartition des erreurs par graphique et tableau de type](assets/campaign_report_email_6.png){zoomable="yes"}
 

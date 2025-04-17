@@ -4,10 +4,10 @@ description: Découvrez la fonctionnalité principale de Campaign v8. Il est de
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2453'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -194,7 +194,7 @@ Liens utiles :
 >
 >* Les liens de tracking, d’URL de page miroir, d’abonnement/de désabonnement fonctionnent comme dans Campaign Standard.
 >
->Voir aussi les sections suivantes : [Tracking et surveillance](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} dans Adobe Campaign.
+>Consultez également les sections suivantes : [Suivi et surveillance](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Valorisation de marque](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} dans Adobe Campaign.
 
 ### Diffusion par e-mail {#acs-gs-marketers-email}
 
@@ -208,7 +208,7 @@ Dans Campaign v8, les étapes détaillées pour créer, tester et envoyer une d
 
 1. **Concevoir et définir du contenu**
 
-   Le concepteur d’e-mail de Campaign v8 est similaire à celui disponible dans Campaign Standard. Pour rappel, l’[éditeur d’e-mail hérité de Campaign Standard a été abandonné](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} il y a quelques années. Vous devez déjà avoir effectué la transition vers le concepteur d’e-mail de Campaign pour créer et personnaliser le contenu de votre e-mail.
+   Le concepteur d’e-mail de Campaign v8 est similaire à celui disponible dans Campaign Standard. Pour rappel, l[ancien éditeur d’e-mail de Campaign Standard était obsolète](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} il y a quelques années. Vous devez déjà avoir effectué la transition vers le concepteur d’e-mail de Campaign pour créer et personnaliser le contenu de votre e-mail.
 
    Découvrez comment naviguer dans le concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail et personnaliser et tester votre e-mail dans la vidéo suivante :
 
@@ -309,9 +309,9 @@ Dans Campaign v8, les étapes détaillées pour créer, tester et envoyer une d
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8 prend en charge le canal de notification push Android et iOS. Pour la transition de workflows et de diffusions existants qui utilisent le canal de notification push, contactez la personne responsable de la transition Adobe Campaign. En savoir plus sur la [configuration de canal](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+>* Adobe Campaign v8 prend en charge le canal de notification push Android et iOS. Pour la transition de workflows et de diffusions existants qui utilisent le canal de notification push, contactez la personne responsable de la transition Adobe Campaign. En savoir plus sur la [configuration du canal](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 >
->* Notez que le SDK V4 pour les applications mobiles a été [abandonné dans Campaign Standard](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} il y a quelques années. Vous devez déjà avoir effectué la transition vers le SDK Adobe Experience Platform, qui est le même que celui utilisé dans Campaign v8.
+>* Notez que le SDK V4 pour les applications mobiles a été [obsolète dans Campaign Standard](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} il y a quelques années. Vous devez déjà avoir effectué la transition vers le SDK Adobe Experience Platform, qui est le même que celui utilisé dans Campaign v8.
 > 
 
 ### Courrier {#acs-gs-marketers-direct-mail}
@@ -369,15 +369,15 @@ En savoir plus sur les pages de destination dans les sections suivantes :
 
 ## Rapports {#acs-gs-marketers-reporting}
 
-Adobe Campaign fournit un ensemble d’[outils de reporting](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. En tant qu’administrateur ou administratrice, vous pouvez créer et configurer des rapports à partager avec d’autres utilisateurs et utilisatrices de Campaign.
+Adobe Campaign fournit un ensemble d’[outils de reporting](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. En tant qu’administrateur ou administratrice, vous pouvez créer et configurer des rapports à partager avec d’autres utilisateurs et utilisatrices de Campaign.
 
 La suite complète d’outils de reporting d’Adobe Campaign fournit des informations précieuses sur l’efficacité de vos efforts marketing, ce qui vous permet d’optimiser vos campagnes pour un impact maximum. En savoir plus dans la [documentation sur le reporting](../../v8/reporting/gs-reports.md).
 
-En outre, comme avec l’expérience d’Adobe Campaign Standard, les rapports dynamiques sont à votre disposition dans Campaign v8 pour vos diffusions par e-mail. Il propose des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Il offre la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. En savoir plus dans la [documentation sur le reporting dynamique](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+En outre, comme avec l’expérience d’Adobe Campaign Standard, les rapports dynamiques sont à votre disposition dans Campaign v8 pour vos diffusions par e-mail. Il propose des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Il offre la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. En savoir plus dans la [documentation sur les rapports dynamiques](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
 >[!AVAILABILITY]
 >
->* Les [rapports dynamiques](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} peuvent être utilisés pour la création de rapports sur les diffusions par e-mail, les campagnes avec diffusions par e-mail et les messages transactionnels. L’analyse démographique par dimension de profil est également disponible.
+>* Le [reporting dynamique](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} peut être utilisé pour le reporting des diffusions par e-mail, des campagnes avec des diffusions par e-mail et des messages transactionnels. L’analyse démographique par dimension de profil est également disponible.
 >
 > * Le [reporting de l’interface d’utilisation d’Adobe Campaign Web](../../v8/reporting/campaign-reports.md) est également disponible pour tous les utilisateurs et utilisatrices qui passent d’Adobe Campaign Standard à Adobe Campaign v8.
 

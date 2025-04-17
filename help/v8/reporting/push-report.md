@@ -3,10 +3,10 @@ audience: end-user
 title: Rapports de diffusion Notifications push
 description: Découvrez comment accéder aux rapports de diffusion des notifications push et les utiliser.
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 73%
+source-wordcount: '566'
+ht-degree: 68%
 
 ---
 
@@ -85,7 +85,7 @@ Le rapport **Statistiques globales** présente les données pour les notificatio
 >title="Exclusions de notifications push"
 >abstract="Le graphe et le tableau **Exclusions** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message."
 
-Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message. Les règles d’exclusion sont détaillées dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){_blank}.
+Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message. Les règles d’exclusion sont décrites dans la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){_blank}.
 
 ![Cette capture d’écran présente le graphique et le tableau Exclusions, qui affichent les raisons empêchant les profils utilisateur exclus de recevoir des messages.](assets/reporting_push_6.png){zoomable="yes"}
 

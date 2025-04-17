@@ -3,10 +3,10 @@ audience: end-user
 title: Sélectionner une audience existante
 description: Découvrez comment sélectionner une audience.
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -21,7 +21,7 @@ Cette section explique comment sélectionner une audience existante lors de la d
 * [Créer une audience unique](one-time-audience.md) à l’aide du concepteur de requête.
 * [Charger une audience depuis un fichier externe](file-audience.md) (pour les e-mails uniquement).
 
-Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à partir du menu **Audience** sur la gauche. Ils proviennent de plusieurs sources, telles que la console cliente, les workflows d’audience web de Campaign ou Adobe Experience Platform. [En savoir plus sur les audiences](manage-audience.md)
+Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à partir du menu **Audience** sur la gauche. Ils proviennent de plusieurs sources, telles que la console cliente, les workflows d’audience web de Campaign ou Adobe Experience Platform. [En savoir plus sur les audiences](manage-audience.md).
 
 Pour sélectionner une audience existante pour votre message, procédez comme suit :
 
@@ -33,7 +33,7 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
    [Cette capture d’écran présente la liste des audiences existantes dans le dossier actif.](assets/create-audience2.png){zoomable="yes"}
 
-   Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section de l’écran dédiée aux filtres. [En savoir plus sur les audiences Adobe Experience Platform](manage-audience.md#monitor)
+   Pour choisir une audience dans Adobe Experience Platform, accédez à `AEP Audiences folder` dans la section de l’écran dédiée aux filtres. [En savoir plus sur les audiences Adobe Experience Platform](manage-audience.md#monitor)
 
    [Cette capture d’écran présente la section de filtrage avec le dossier Audiences AEP sélectionné.](assets/select-audience-folder.png){zoomable="yes"}
 
