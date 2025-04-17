@@ -4,9 +4,9 @@ description: Découvrez comment migrer la gestion des accès utilisateur de Camp
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
+source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1403'
 ht-degree: 3%
 
 ---
@@ -178,4 +178,6 @@ Vous trouverez ci-dessous une liste des mappages de groupes de sécurité Campai
 
 * Compte Relais
 
-Notez que les rôles personnalisés créés et affectés aux utilisateurs dans Adobe Campaign Standard ne seront pas migrés vers Campaign v8.
+>[!NOTE]
+>
+>Les rôles personnalisés créés et affectés aux utilisateurs dans Adobe Campaign Standard ne seront pas migrés vers Adobe Campaign v8.
