@@ -4,9 +4,9 @@ description: Découvrez comment migrer la gestion des accès utilisateur de Camp
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
+source-git-commit: cc1f89fe5a67898e0905bd2823f73aa8b9424164
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '1020'
 ht-degree: 5%
 
 ---
@@ -68,13 +68,15 @@ Dans Adobe Campaign Standard, le terme **rôle utilisateur** est appelé **droit
 
 ## Approche de la migration depuis l’entité organisationnelle
 
->[!CAUTION]
->
->Les entités organisationnelles de Adobe Campaign Standard sans **Toutes (toutes)** en tant que parent direct ou indirect ne seront pas migrées vers Campaign V8.
-></br>
->Les utilisateurs appartenant à plusieurs groupes de sécurité sont affectés à l&#39;entité organisationnelle du groupe de sécurité ayant le rang le plus élevé. Si plusieurs groupes possèdent des unités de niveau supérieur parallèles, la connexion est limitée dans Campaign Standard, mais elle accorde un accès plus large dans Campaign v8 après la migration, ce qui peut entraîner une réaffectation des privilèges. Pour éviter cela, évitez d&#39;affecter des utilisateurs à des groupes de sécurité ayant des entités organisationnelles parallèles.
+### Remarques sur la mise en garde
 
-Dans Adobe Campaign Standard, l’**organisation uni** t est mappée au modèle de hiérarchie existant **Dossier** dans Campaign V8 afin de conserver un contrôle d’accès similaire. [En savoir plus sur la gestion des dossiers](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Les entités organisationnelles de Adobe Campaign Standard sans **Toutes (toutes)** en tant que parent direct ou indirect ne seront pas migrées vers Campaign V8.
+
+Les utilisateurs appartenant à plusieurs groupes de sécurité sont affectés à l&#39;entité organisationnelle du groupe de sécurité ayant le rang le plus élevé. Si plusieurs groupes comportent des entités de niveau supérieur parallèles, le système sélectionne l’entité organisationnelle de l’utilisateur dans Campaign Standard et l’utilisateur n’a accès qu’à l’entité organisationnelle sélectionnée par le système et à ses enfants. Dans Campaign v8, après la migration, l’utilisateur aurait accès à **toutes les entités organisationnelles attribuées et leurs enfants**, ce qui pourrait augmenter les privilèges. Pour éviter cela, évitez d&#39;affecter des utilisateurs à des groupes de sécurité ayant des entités organisationnelles parallèles. <!--Know more about parallel organizational unit assignment here (link to ' Parallel Organizational Unit Assignment' section)-->
+
+### Gestion des entités organisationnelles et des dossiers
+
+Dans Adobe Campaign Standard, l’**entité organisationnelle** est associée au modèle de hiérarchie existant **Dossier** dans Campaign V8 afin de conserver un contrôle d’accès similaire. [En savoir plus sur la gestion des dossiers](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
 |---------|----------|---------|
