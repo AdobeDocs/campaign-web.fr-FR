@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Notifications push avec l’assistant IA
-description: Commencer avec l’assistant IA
+title: Notification push avec l’assistant AI
+description: Prise en main de l’assistant AI
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 23%
+source-wordcount: '548'
+ht-degree: 17%
 
 ---
 
-# Génération de notifications push avec l’assistant IA {#generative-push}
+# Génération de notifications push avec l’assistant AI {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 23%
 >
 >Vous devez accepter un [contrat utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant d’utiliser l’assistant AI dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-L’assistant d’IA vous aide à optimiser l’impact de vos diffusions en suggérant différents contenus qui résonnent avec votre audience.
+L’assistant d’IA permet d’optimiser l’impact de vos diffusions en suggérant différents contenus qui résonnent avec votre audience.
 
 Dans l’exemple suivant, l’assistant AI est utilisé pour concevoir des messages attrayants afin de créer une expérience client plus attrayante.
 
@@ -31,7 +31,7 @@ Dans l’exemple suivant, l’assistant AI est utilisé pour concevoir des messa
 
    ![Capture d’écran affichant le menu Afficher l’assistant IA](assets/push-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -44,7 +44,7 @@ Dans l’exemple suivant, l’assistant AI est utilisé pour concevoir des messa
 1. Personnalisez l’invite à l’aide de l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Ton]** : ajustez le ton de votre e-mail pour qu’il résonne avec votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, l’assistant d’IA adapte le message en conséquence.
+   * **[!UICONTROL Ton]** : ajustez le ton de votre e-mail pour qu’il résonne avec votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, l’assistant AI adapte le message en conséquence.
 
    ![Capture d’écran affichant les options des paramètres de texte](assets/push-genai-3.png){zoomable="yes"}
 

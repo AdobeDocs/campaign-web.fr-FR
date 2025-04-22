@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: SMS avec l’assistant IA
-description: Commencer avec l’assistant IA
+title: SMS avec l’assistant AI
+description: Prise en main de l’assistant AI
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 38%
+source-wordcount: '884'
+ht-degree: 30%
 
 ---
 
-# Génération de SMS avec l’assistant IA {#generative-sms}
+# Génération de SMS avec l’assistant AI {#generative-sms}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 38%
 >
 >Vous devez accepter un [contrat utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant d’utiliser l’assistant AI dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, améliorez votre communication à l’aide de l’assistant AI d’Adobe Campaign Web, optimisé par une technologie d’IA innovante.
+Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audience, améliorez votre communication à l’aide de l’assistant AI dans Adobe Campaign Web, optimisé par une technologie d’IA innovante.
 
 Cet outil fournit des suggestions intelligentes pour affiner votre contenu, en veillant à ce que vos messages résonnent efficacement et optimisent l’engagement.
 
@@ -46,7 +46,7 @@ Cet outil fournit des suggestions intelligentes pour affiner votre contenu, en v
 1. Personnalisez l’invite à l’aide de l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Ton]** : assurez-vous que le ton de votre e-mail correspond à votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, l’assistant d’IA adapte le message en conséquence.
+   * **[!UICONTROL Ton]** : assurez-vous que le ton de votre e-mail correspond à votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, l’assistant AI adapte le message en conséquence.
    * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
    ![Capture d’écran affichant les options des paramètres de texte](assets/sms-genai-3.png){zoomable="yes"}
@@ -64,8 +64,8 @@ Cet outil fournit des suggestions intelligentes pour affiner votre contenu, en v
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation et affiner votre variation en fonction de vos préférences :
 
    * **[!UICONTROL Utiliser comme contenu de référence]** : la variante choisie sert de contenu de référence pour générer d’autres résultats.
-   * **[!UICONTROL Utiliser un langage plus simple]** : l’assistant d’IA vous aide à rédiger des messages clairs et concis que tout le monde peut comprendre.
-   * **[!UICONTROL Reformuler]** : l’assistant d’IA reformule votre message afin qu’il reste attrayant pour différentes audiences.
+   * **[!UICONTROL Utiliser un langage plus simple]** : l’assistant d’IA vous aide à écrire des messages clairs et concis que tout le monde peut comprendre.
+   * **[!UICONTROL Reformuler]** : l’assistant AI reformule votre message afin qu’il reste attrayant pour différentes audiences.
 
    Vous pouvez également modifier le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre texte.
 
@@ -97,7 +97,7 @@ Lorsque vous définissez le contenu, l’audience et le planning, préparez votr
 
    ![Capture d’écran affichant le menu Assistant IA](assets/sms-text-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser du contenu de référence]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -125,8 +125,8 @@ Lorsque vous définissez le contenu, l’audience et le planning, préparez votr
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation et affiner votre variation en fonction de vos préférences :
 
    * **[!UICONTROL Utiliser comme contenu de référence]** : la variante choisie sert de contenu de référence pour générer d’autres résultats.
-   * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
-   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
+   * **[!UICONTROL Reformuler]** : l’assistant d’IA peut reformuler votre message de différentes manières, ce qui vous permet d’écrire des textes frais et attrayants pour diverses audiences.
+   * **[!UICONTROL Utiliser un langage plus simple]** : utilisez l’assistant d’IA pour simplifier votre langue, en assurant la clarté et l’accessibilité pour une audience plus large.
 
    Vous pouvez également modifier le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre texte.
 

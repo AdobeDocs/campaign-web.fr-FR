@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
       + [Versions de 2025](rn/release-notes-25.md)
       + [Versions 2024](rn/release-notes-24.md)
    + [Mises à jour de la documentation](rn/documentation-updates.md)
-+ Prise en main d’Adobe Campaign {#start}
++ Prise en main d’Adobe Campaign {#start}
    + [Prise en main](get-started/get-started.md)
    + [Se connecter à Campaign](get-started/connect-to-campaign.md)
    + [Découvrir l’interface](get-started/user-interface.md)
@@ -37,7 +37,7 @@ ht-degree: 100%
    + [De Campaign Standard vers v8](rn/acs-migration.md)
    + [Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
    + [Questions fréquentes](get-started/faq.md)
-+ Messages et diffusions {#msg}
++ Messages et diffusions {#msg}
    + [Prise en main des messages](msg/gs-messages.md)
    + [Accéder aux diffusions](msg/gs-deliveries.md)
    + [Créer une diffusion](msg/create-deliveries.md)
@@ -53,7 +53,7 @@ ht-degree: 100%
    + Notifications push {#push}
       + [Prise en main des notifications push](push/gs-push.md)
       + [Créer une diffusion notification push](push/create-push.md)
-      + Notification push enrichie {#rich-push}
+      + Notification push riche {#rich-push}
          + [Concevoir une diffusion de notification push Android enrichie](push/rich-push.md)
          + [Concevoir une diffusion de notification push iOS enrichie](push/rich-push-ios.md)
       + [Concevoir une diffusion de notification push](push/content-push.md)
@@ -87,25 +87,25 @@ ht-degree: 100%
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
       + [Critères des alertes de diffusion](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
-   + Créer du contenu dynamique {#dynamic-content}
+   + Création de contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
       + [Ajouter de la personnalisation](personalization/personalize.md)
       + [Créer du contenu conditionnel](personalization/conditions.md)
-   + Réutiliser du contenu {#manage-reusable-content}
+   + Réutiliser le contenu {#manage-reusable-content}
       + [Utiliser des modèles de contenu](email/create-email-templates.md)
       + Fragments de contenu {#fragments}
          + [Commencer avec les fragments de contenu](content/fragments.md)
          + [Créer et modifier des fragments de contenu](content/create-fragment.md)
          + [Utiliser des fragments visuels dans vos e-mails](content/use-visual-fragments.md)
          + [Utiliser des fragments d’expression dans l’éditeur d’expression](content/use-expression-fragments.md)
-   + Concevoir des e-mails {#email-design}
+   + Conception d&#39;e-mails {#email-design}
       + [Commencer avec le concepteur d’e-mail](email/get-started-email-designer.md)
-      + Commencer à rédiger votre e-mail {#start-design}
+      + Commencer à rédiger l’e-mail {#start-design}
          + [Démarrer en partant de zéro](email/create-email-content.md)
          + [Importer le contenu des e-mails](email/existing-content.md)
          + [Coder votre propre contenu](email/code-content.md)
          + [Utiliser des modèles de contenu d’e-mail](email/use-email-templates.md)
-      + Concevoir le contenu {#design-content}
+      + Concevoir votre contenu {#design-content}
          + [Utiliser les composants de contenu](email/content-components.md)
          + [Ajouter des liens et suivre les messages](email/message-tracking.md)
          + [Ajouter un lien vers la page miroir](email/mirror-page.md)
@@ -117,8 +117,8 @@ ht-degree: 100%
          + [Ajuster l’alignement vertical et la marge intérieure](email/alignment-and-padding.md)
          + [Définir un style pour les liens](email/styling-links.md)
          + [Ajouter des attributs de style intégrés](email/inline-styling.md)
-   + Assistant IA {#ai-assistant}
-      + [Utiliser l’assistant IA](email/generative-gs.md)
+   + Assistant IA {#ai-assistant}
+      + [Utiliser l’assistant d’IA](email/generative-gs.md)
       + [Génération d’e-mails avec IA](email/generative-content.md)
       + [Génération de SMS avec IA](email/generative-sms.md)
       + [Génération de notifications push avec IA](email/generative-push.md)
@@ -131,11 +131,11 @@ ht-degree: 100%
    + [Modifier le contenu d’une page de destination](landing-pages/lp-content.md)
    + [Utiliser des modèles de page de destination](landing-pages/lp-templates.md)
    + [Apprendre avec des cas d’utilisation](landing-pages/lp-use-cases.md)
-+ Profils et audiences {#audiences}
++ Profils et audiences  {#audiences}
    + [Prise en main des profils et des audiences](audience/gs-audiences-recipients.md)
    + [Dimensions de ciblage](audience/targeting-dimensions.md)
    + [Quarantaine](audience/quarantine.md)
-   + Utiliser les profils {#work-with-profiles}
+   + Utilisation de profils {#work-with-profiles}
       + [Commencer avec les profils](audience/about-recipients.md)
       + [Explorer les détails des profils](audience/profile-view.md)
       + [Créer un profil](audience/create-profile.md)
@@ -143,14 +143,14 @@ ht-degree: 100%
    + Utiliser les audiences {#audiences}
       + [Commencer avec les audiences](audience/manage-audience.md)
       + [Créer des audiences](audience/create-audience.md)
-   + Sélectionner les personnes destinataires de vos diffusions {#target-audiences}
+   + Sélectionner les destinataires de la diffusion {#target-audiences}
       + [Commencer avec la sélection d’audiences](audience/delivery-recipients.md)
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
       + [Charger une audience d’e-mail à partir d’un fichier](audience/file-audience.md)
       + [Définir une population témoin](audience/control-group.md)
       + [Ajouter un groupe de recouvrements](audience/trap-group.md)
-   + Utiliser des services d’abonnement {#work-with-services}
+   + Utiliser des services d’inscription {#work-with-services}
       + [Créer et gérer des services d’abonnement](audience/manage-services.md)
       + [Gérer des personnes abonnées](audience/manage-subscribers.md)
 + Campagnes cross-canal {#campaigns}
@@ -164,7 +164,7 @@ ht-degree: 100%
    + [Variables d’événement de workflow](workflows/event-variables.md)
    + [Accéder et gérer des workflows](workflows/access-monitor.md)
    + [À propos des workflows en lecture seule](workflows/readonly-workflows.md)
-   + Créer et exécuter votre premier workflow {#create-workflow}
+   + Création et exécution de votre premier workflow {#create-workflow}
       + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
       + [Créer le workflow](workflows/create-workflow.md)
       + [Orchestrer les activités](workflows/orchestrate-activities.md)
@@ -195,7 +195,7 @@ ht-degree: 100%
       + [Transfert de fichier](workflows/activities/transfer-file.md)
       + [Mise à jour de données](workflows/activities/update-data.md)
       + [Attente](workflows/activities/wait.md)
-+ Interroger la base de données {#query-database}
++ Interrogation de la base de données {#query-database}
    + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
    + [Éditer les expressions](query/expression-editor.md)

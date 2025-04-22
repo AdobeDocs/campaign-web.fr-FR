@@ -6,10 +6,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version bêta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 40%
+source-wordcount: '508'
+ht-degree: 37%
 
 ---
 
@@ -83,7 +83,7 @@ Les utilisateurs peuvent saisir les détails manuellement ou charger un document
 
    ![Onglet Contenu visuel avec des exemples d’options d’image](assets/brands_3.png)
 
-1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Enregistrer]**, puis sur **[!UICONTROL Publier]** pour mettre à disposition vos directives de marque dans l’assistant IA.
+1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Enregistrer]** puis **[!UICONTROL Publier]** pour rendre votre ligne directrice de marque disponible dans l’assistant AI.
 
 1. Pour modifier la marque publiée, cliquez sur **[!UICONTROL Modifier la marque]**.
 
@@ -104,6 +104,6 @@ Les utilisateurs peuvent saisir les détails manuellement ou charger un document
 
    ![Options de menu avancées dans le tableau de bord Marques](assets/brands_5.png)
 
-Vos directives de marque sont désormais accessibles à partir du menu déroulant **[!UICONTROL Marque]** dans le menu de l’assistant d’IA. Cela permet à l’assistant d’IA de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant IA](../email/generative-gs.md)
+Vos directives de marque sont désormais accessibles à partir de la liste déroulante **[!UICONTROL Marque]** dans le menu de l’assistant AI. Cela permet à l’assistant AI de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant AI](../email/generative-gs.md)
 
 ![Menu assistant AI avec liste déroulante Marque](assets/brands_6.png)
