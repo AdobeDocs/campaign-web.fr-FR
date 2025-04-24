@@ -6,30 +6,30 @@ hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: b2de0d0061e5c2b582c3e73ccaf2dab1490cc854
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # Aide contextuelle optimisée par l’IA {#using-ai}
 
-Obtenez des réponses rapides et générées par l’IA, basées sur la documentation du produit et votre contexte de produit actuel, à l’aide de l’aide contextuelle optimisée par l’IA dédiée aux questions/réponses disponible dans les cases d’aide contextuelle du produit.
+Obtenez des réponses rapides et générées par l’IA en fonction de la documentation du produit et de votre contexte de produit actuel, grâce à l’aide contextuelle optimisée par l’IA sous forme de Q&amp;R, disponible dans les boîtes de dialogue d’aide contextuelle du produit.
 
-L’**Aide contextuelle avec IA généralisée**, intégrée à l’aide contextuelle, révolutionne la recherche de documentation et la réponse aux questions pratiques en parcourant sans effort de vastes référentiels de documentation et en identifiant instantanément les informations précises dont vous avez besoin.
+L’**aide contextuelle avec l’IA générative**, incorporée dans l’aide contextuelle, révolutionne la recherche de documentation et la réponse aux questions pratiques. En effet, elle analyse facilement de vastes référentiels de documentation grâce à l’identification instantanée des informations précises dont vous avez besoin.
 
-Grâce aux fonctionnalités de Campaign Gen AI, ce composant améliore votre expérience, ce qui facilite la récupération des informations et la résolution des problèmes. Que vous recherchiez des conseils pour une tâche complexe ou parcouriez des documents volumineux, l’aide contextuelle optimisée par l’IA est votre compagnon idéal, offrant une efficacité et une précision inégalées dans chaque interaction.
+Grâce aux fonctionnalités de l’IA générative de Campaign, ce composant transforme votre expérience, en facilitant la récupération d’informations et la résolution des problèmes. Que vous recherchiez des instructions pour une tâche complexe ou que vous parcouriez des documents volumineux, l’aide contextuelle optimisée par l’IA incarne votre meilleur compagnon, offrant une efficacité et une précision inégalées à chaque interaction.
 
 <!--
 [Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)-->
 
 >[!AVAILABILITY]
 >
->* L’aide contextuelle optimisée par l’IA est disponible dans sa version Beta et peut être modifiée sans préavis.
+>* L’aide contextuelle optimisée par l’IA est disponible dans sa version bêta et peut être modifiée sans préavis.
 >
->* Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version. Par conséquent, assurez-vous [votre langue préférée](connect-to-campaign.md#language-pref) est l’anglais avant d’utiliser cette fonctionnalité.
+>* Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version. En conséquence, assurez-vous que [votre langue préférée](connect-to-campaign.md#language-pref) est définie sur Anglais avant d’utiliser cette fonctionnalité.
 >
->* L’aide contextuelle optimisée par l’IA n’est pas disponible dans le Designer d’e-mail de Campaign pour le moment.
+>* Pour le moment, l’aide contextuelle optimisée par l’IA n’est pas disponible dans le concepteur d’e-mail de Campaign.
 
 <!--
 ## Consent {#consent-ai}
@@ -47,32 +47,32 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Questions suggérées {#questions-ai}
 
-Dans le champ de saisie, l’aide contextuelle optimisée par l’IA pour Adobe Campaign propose trois questions suggérées. Ces questions sont générées par l’IA, se rapportent à la zone d’aide et s’alignent sur le contexte du produit actuel. Sélectionnez une question pour obtenir la réponse.
+Dans le champ de saisie, l’aide contextuelle optimisée par l’IA d’Adobe Campaign suggère trois questions. Ces questions générées par l’IA concernent la boîte de dialogue d’aide et le contexte du produit actuel. Sélectionnez une question pour obtenir la réponse.
 
-[Exemple de questions suggérées dans l&#39;aide contextuelle](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[Exemple de suggestions de questions dans l’aide contextuelle](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 ## Réponses {#answers-ai}
 
-L’aide contextuelle optimisée par l’IA d’Adobe Campaign vous apporte une assistance, mais vous devez vérifier les faits. Il peut générer des informations incorrectes, inexactes ou trompeuses. Consultez toujours la documentation du produit associée à chaque zone d’aide.
+L’aide contextuelle optimisée par l’IA d’Adobe Campaign vous apporte une assistance, mais vous devez vérifier les faits. Elle peut renvoyer des informations incorrectes, imprécises ou trompeuses. Consultez toujours la documentation du produit associée dans chaque boîte de dialogue d’aide.
 
-Copiez une réponse dans le presse-papiers à l’aide de l’icône **Copier** située au bas de la fenêtre contextuelle d’aide.
+Vous pouvez copier une réponse dans le presse-papiers à l’aide de l’icône **Copier** au bas de la fenêtre contextuelle d’aide.
 
-[Exemple de copie d&#39;une réponse dans une aide contextuelle](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[Exemple de copie d’une réponse dans l’aide contextuelle](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 
 ## Commentaires {#feedback-ai}
 
-L’intelligence artificielle et les modèles de machine learning s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L’aide contextuelle optimisée par l’IA de Campaign continue de s’améliorer. Utiliser le <img src="assets/do-not-localize/thumb.png" width="10%"/> des boutons chaque fois que vous lisez une réponse pour signaler les réponses inappropriées à nos ingénieurs.
+L’intelligence artificielle et les modèles de machine learning s’améliorent au fil du temps pour mieux traiter des cas d’utilisation spécifiques. L’aide contextuelle optimisée par l’IA de Campaign continue de s’améliorer. Utilisez les boutons <img src="assets/do-not-localize/thumb.png" width="10%"/> pour signaler toute réponse inappropriée à notre équipe d’ingénierie.
 
 ## Recommandations {#recommendations-ai}
 
-Lorsque vous posez une question dans l’aide contextuelle optimisée par l’IA, le contexte actuel du produit, tel que l’écran dans lequel vous vous trouvez et le contenu de la zone d’aide actuelle, est pris en compte.
+Lorsque vous posez une question dans l’aide contextuelle optimisée par l’IA, le contexte du produit actuel, c’est-à-dire l’écran sur lequel vous vous trouvez, et le contenu de la boîte de dialogue d’aide actuelle sont pris en compte.
 
-Par conséquent, il est recommandé de poser des questions relatives au contexte de l’interface utilisateur. Par exemple, si vous devez apprendre à envoyer une diffusion push dans un workflow, accédez à l’entrée de menu de gauche **Workflow** et utilisez une boîte d’aide contextuelle dans ce contexte spécifique. Pour en savoir plus sur les mesures de reporting, accédez aux rapports de campagne ou de diffusion et commencez à partir de là.
+Par conséquent, il est recommandé de poser des questions en lien avec le contexte de l’interface d’utilisation. Par exemple, si vous voulez apprendre à envoyer une diffusion par notifications push dans un workflow, accédez à l’entrée **Workflow** dans le menu de gauche et utilisez une boîte de dialogue d’aide contextuelle dans ce contexte spécifique. Pour en savoir plus sur les mesures des rapports, accédez aux rapports de campagne ou de diffusion.
 
-Pour tirer le meilleur parti de l’aide contextuelle optimisée par l’IA, suivez ces recommandations :
+Pour tirer le meilleur parti de l’aide contextuelle optimisée par l’IA, suivez les recommandations suivantes :
 
-* Soyez précis et précis, en évitant toute ambiguïté. Des réponses précises dépendent de questions claires.
-* Fournissez des informations détaillées sur ce que vous essayez d’apprendre pour aider l’aide contextuelle optimisée par l’IA à trouver les informations correctes.
-* Reformuler et affiner vos questions pour améliorer la précision des réponses. Si la réponse n’est pas utile, essayez différentes approches et ajoutez du contexte.
-* Utilisez des termes et un libellé appropriés avec un ton neutre.
-* Évaluez les réponses et fournissez des commentaires pour aider les ingénieurs à améliorer les résultats.
+* Faites preuve de précision et évitez toute ambiguïté. Pour obtenir des réponses précises, il faut poser des questions claires.
+* Fournissez des informations détaillées sur ce que vous essayez d’apprendre pour aider l’aide contextuelle optimisée par l’IA à trouver les informations appropriées.
+* Reformulez et affinez vos questions pour améliorer la précision des réponses. Si la réponse ne vous aide pas, essayez différentes approches et ajoutez du contexte.
+* Utilisez des mots et des phrases appropriés, avec un ton neutre.
+* Évaluez les réponses et envoyez des commentaires pour aider l’équipe d’ingénierie à améliorer les résultats.

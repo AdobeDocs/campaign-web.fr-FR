@@ -4,15 +4,15 @@ title: Parcourir et filtrer les listes
 description: Découvrir comment parcourir et filtrer les listes de Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # Parcourir et filtrer les listes {#list-screens}
 
-La plupart des liens du menu de navigation de gauche affichent des listes d’objets, telles que la liste des **Diffusions** ou **Campagnes**. Certaines de ces fenêtres de liste sont en lecture seule. Vous pouvez personnaliser l’affichage de la liste et filtrer ces listes, comme décrit ci-dessous.
+La plupart des liens du menu de navigation de gauche affichent des listes d’objets, telles que la liste des **diffusions** ou des **campagnes**. Certaines de ces fenêtres de liste sont en lecture seule. Vous pouvez personnaliser l’affichage de ces listes et les filtrer, comme décrit ci-dessous.
 
 ## Personnaliser les fenêtres de liste {#custom-lists}
 
@@ -24,29 +24,29 @@ Dans la fenêtre **Configurer des colonnes**, ajoutez ou supprimez des colonnes 
 
 Vous pouvez modifier l’ordre de votre liste par **glisser-déposer** ou en utilisant les **flèches haut et bas**, comme illustré ci-dessous :
 
-[La capture d’écran montre comment réorganiser les colonnes de la liste à l’aide des boutons glisser-déposer ou fléchés.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La capture d’écran montre comment réorganiser les colonnes de la liste à l’aide des du glisser-déposer ou des flèches.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Par exemple, pour les paramètres suivants :
 
-[La capture d’écran affiche un exemple de paramètres de colonne dans l’écran Configurer les colonnes.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La capture d’écran montre un exemple de paramètres de colonne sur l’écran Configurer les colonnes.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 La liste affiche les colonnes suivantes :
 
-[La capture d’écran présente la liste obtenue avec les colonnes configurées en fonction des paramètres d’exemple.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La capture d’écran présente la liste obtenue avec les colonnes configurées en fonction des exemples de paramètres.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## Trier les données {#sort-lists}
 
 Vous pouvez trier les éléments de la liste en cliquant sur l’en-tête d’une colonne. Une flèche s’affiche (vers le haut ou vers le bas) pour indiquer que la liste est triée sur cette colonne.
 
-Pour les colonnes numériques ou de date, la flèche **Haut** indique que la liste est triée par ordre croissant, tandis que la flèche **Bas** indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont classées par ordre alphabétique.
+Pour les colonnes numériques ou de date, la flèche **vers le haut** indique que la liste est triée par ordre croissant, tandis que la flèche **vers le bas** indique un ordre décroissant. Pour les colonnes de type chaîne ou alphanumérique, les valeurs sont classées par ordre alphabétique.
 
 ## Filtres {#list-built-in-filters}
 
-Pour rechercher des éléments plus rapidement, utilisez la barre de recherche ou les filtres intégrés et personnalisés pour adapter la liste en fonction de critères contextuels.
+Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou les filtres intégrés et personnalisés afin d’adapter la liste selon des critères contextuels.
 
 [La capture d’écran présente les options de filtre disponibles pour affiner la vue Liste.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Vous trouverez des informations détaillées sur l’utilisation des filtres et la création de vos propres filtres personnalisés dans [cette section](../query/filter.md).
+Vous trouverez des informations détaillées sur l’utilisation des filtres et la création de filtres personnalisés dans [cette section](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}

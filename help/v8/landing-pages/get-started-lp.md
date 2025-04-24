@@ -5,9 +5,9 @@ description: En savoir plus sur les pages de destination dans Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 60%
 
 [!DNL Adobe Campaign] vous permet de créer, concevoir et partager des pages de destination.
 
-Dans le contexte des campagnes marketing, une page de destination est une page web autonome sur laquelle le visiteur est redirigé après avoir cliqué sur un lien dans une diffusion ou sur un site web.
+Dans le cadre de campagnes marketing, une page de destination est une page web autonome vers laquelle une personne est dirigée lorsqu’elle clique sur un lien dans une diffusion ou sur un site web.
 
-Les landing pages vous permettent d’orienter vos utilisateurs vers des formulaires en ligne où ils peuvent mettre à jour leurs données, s’inscrire ou non à la réception de vos communications ou s’abonner à un service spécifique tel qu’une newsletter.
+Les pages de destination vous permettent d’orienter vos utilisateurs et utilisatrices vers des formulaires en ligne leur permettant de mettre à jour leurs données, de s’abonner à vos communications ou à un service spécifique tel qu’une newsletter, ou de s’en désabonner.
 
 >[!CAUTION]
 >
 >Les pages de destination que vous créez dans l’interface utilisateur web de Campaign sont différentes des formulaires web créés à partir de la console cliente. Vous ne pouvez pas afficher ni modifier les formulaires web créés dans la console cliente dans l’interface utilisateur web de Campaign.
 >
->Pour en savoir plus sur les formulaires web, consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
+>Pour en savoir plus sur les formulaires web, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
 
 Les principales fonctionnalités des pages de destination sont répertoriées ci-dessous :
 
@@ -45,7 +45,7 @@ Les principales fonctionnalités des pages de destination sont répertoriées ci
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="Configurer des services d’abonnement pour les utilisateurs" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Configurer des services d’abonnement pour les utilisateurs et utilisatrices" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong>Créer des services d’abonnement</strong></a>
@@ -53,7 +53,7 @@ Les principales fonctionnalités des pages de destination sont répertoriées ci
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="Conception de pages de destination réactives" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Concevoir des pages de destination réactives" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>Concevoir des pages de destination</strong></a>

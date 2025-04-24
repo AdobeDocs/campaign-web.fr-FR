@@ -4,7 +4,7 @@ title: Prise en main des diffusions SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Le canal SMS propose trois méthodes pour créer des diffusions par SMS :
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="Créer une diffusion par SMS" src="assets/do-not-localize/design_sms.png">
+<img alt="Concevoir une diffusion SMS" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong>Concevoir une diffusion SMS<strong></strong></a>
@@ -44,7 +44,7 @@ Le canal SMS propose trois méthodes pour créer des diffusions par SMS :
 <p></td>
 <td>
 <a href="send-sms.md">
-<img alt="Envoyer une diffusion par SMS" src="assets/do-not-localize/send_sms.png">
+<img alt="Envoyer une diffusion SMS" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
 <a href="send-sms.md"><strong>Envoyer une diffusion SMS</strong></a>
