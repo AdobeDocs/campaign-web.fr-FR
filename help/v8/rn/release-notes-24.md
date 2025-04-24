@@ -5,7 +5,7 @@ exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '2501'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -156,7 +156,7 @@ Vous pouvez désormais envoyer des notifications push enrichies. La notification
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité nécessite une mise à jour vers Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus sur la console cliente Campaign v8 [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>Cette fonctionnalité nécessite une mise à jour vers Campaign v8.6.3 <!--or v8.7.2-->. Pour en savoir plus, consultez les [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} de la console cliente Campaign v8.
 
 ### Améliorations {#improvements-24-7}
 
@@ -272,7 +272,7 @@ Les améliorations ci-dessous sont disponibles pour l’ensemble des clientes et
 
 >[!AVAILABILITY]
 >
->Cette version est disponible pour l’ensemble des utilisateurs et utilisatrices à partir de la [version 8.6 de Campaign (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr). Pour en savoir plus sur les versions et les mises à niveau de la console cliente Adobe Campaign, consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=fr){target="_blank"}.
+>Cette version est disponible pour l’ensemble des utilisateurs et utilisatrices à partir de la [version 8.6 de Campaign (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr). Pour en savoir plus sur les versions et les mises à niveau de la console cliente d’Adobe Campaign, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=fr){target="_blank"}.
 
 **Date de publication** : 19-20 mars 2024
 
