@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser les règles métier (typologies)
 description: Découvrez comment utiliser les typologies et les règles de typologie pour contrôler, filtrer et surveiller l’envoi des diffusions.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 42%
+source-wordcount: '1474'
+ht-degree: 39%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 42%
 >title="Typologies et règles de typologie"
 >abstract="Les typologies vous permettent de normaliser les pratiques commerciales sur toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions. Les profils répondant aux critères au sein d’une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="Filtrage"
+>abstract=" Deux types de règles de typologie sont disponibles : les règles <br/><br/>**de contrôle** qui assurent la qualité et la validité du message avant son envoi, telles que l&#39;affichage des caractères, la longueur des SMS, le format des adresses ou le raccourcissement des URL. <br/><br/>**Filtrage** règles qui excluent des segments de l’audience cible en fonction de critères spécifiques, tels que l’âge, le lieu, le pays ou les numéros de téléphone."
+
 ## À propos des typologies
 
 Les typologies vous permettent de normaliser les pratiques commerciales sur toutes les diffusions. Une **typologie** est un ensemble de **règles de typologie** qui vous permet de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions. Les profils répondant aux critères au sein d’une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation.
@@ -35,7 +40,7 @@ Les typologies sont accessibles via le menu **[!UICONTROL Administration]** > **
 
 >[!NOTE]
 >
->La liste **[!UICONTROL Règles de typologie]** affiche toutes les règles existantes créées à ce jour dans l’interface d’utilisation web ou la console cliente. Toutefois, seules les règles **Contrôle** et **Filtrage** peuvent être créées dans l’interface d’utilisation web. Pour créer d’autres types de règles de typologie, telles que les règles de pression ou de capacité, utilisez la console cliente Campaign v8. [Découvrir comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>La liste **[!UICONTROL Règles de typologie]** affiche toutes les règles existantes créées à ce jour dans l’interface d’utilisation web ou la console cliente. Toutefois, seules les règles **Contrôle** et **Filtrage** peuvent être créées dans l’interface d’utilisation web. Pour créer d’autres types de règles de typologie, telles que les règles de pression ou de capacité, utilisez la console cliente Campaign v8. [Découvrez comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 Voici les principales étapes à suivre pour appliquer des typologies à vos messages :
 
@@ -103,7 +108,7 @@ Définissez les propriétés de la règle de typologie :
 
    >[!NOTE]
    >
-   >Actuellement, seules les règles de typologie **Contrôle** et **Filtrage** peuvent être créées à partir de l’interface utilisateur web. Pour créer d’autres types de règles, utilisez la console cliente. [Découvrir comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >Actuellement, seules les règles de typologie **Contrôle** et **Filtrage** peuvent être créées à partir de l’interface utilisateur web. Pour créer d’autres types de règles, utilisez la console cliente. [Découvrez comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. Sélectionnez un **[!UICONTROL Canal]** à associer à la règle.
 
