@@ -68,8 +68,8 @@ Les instructions générales pour l’utilisation de l’assistant AI dans Adobe
 * La taille maximale des ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou de nombreuses images peuvent augmenter le temps de traitement.
 * Utilisez des [modèles d’e-mail intégrés](../email/create-email-templates.md), des modèles spécifiques à la marque ou des modèles personnalisés pour créer le contenu de vos e-mails à l’aide de l’assistant AI. Il est recommandé d’utiliser des modèles d’e-mail contenant entre 8 et 10 images.
 * Signalez les sorties problématiques à l’aide des icônes de pouces vers le haut, vers le bas ou d’indicateur lors de la sélection de variantes.
-* Votre utilisation de l’assistant AI est soumise aux directives d’utilisation de Adobe Experience Cloud Generative AI. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Dans le cadre de l’engagement d’Adobe en faveur de la transparence dans l’utilisation des outils d’IA génératifs dans la création de médias, Adobe applique Content Credentials lorsque du contenu ou un projet contenant une ressource générée par Firefly est téléchargé ou exporté. [En savoir plus](https://helpx.adobe.com/fr/firefly/using/content-credentials.html).
+* Votre utilisation de l’assistant AI est soumise aux directives d’utilisation de Adobe Experience Cloud Generative AI. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* Dans le cadre de l’engagement d’Adobe en faveur de la transparence dans l’utilisation des outils d’IA génératifs dans la création de médias, Adobe applique Content Credentials lorsque du contenu ou un projet contenant une ressource générée par Firefly est téléchargé ou exporté. [En savoir plus](https://helpx.adobe.com/fr/firefly/using/content-credentials.html)
 
 Les restrictions suivantes s’appliquent à l’assistant IA dans Adobe Campaign Web :
 
