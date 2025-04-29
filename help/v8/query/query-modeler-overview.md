@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 53%
+source-wordcount: '888'
+ht-degree: 41%
 
 ---
 
@@ -54,10 +54,16 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 
 Query Modeler fournit une zone de travail centrale où vous créez votre requête, ainsi qu’un volet de droite qui fournit des informations sur votre requête.
 
+>[!IMPORTANT]
+>
+>Une toute nouvelle interface pour Query Modeler est disponible. Le nouveau créateur de règles vous permet de créer votre requête plus facilement grâce à son interface simplifiée. Pour passer à cette expérience, appuyez sur le bouton de basculement dans le coin supérieur droit. Vous pouvez revenir au modèle de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le requêteur dans cette nouvelle interface.
+>![Image illustrant le bouton (bascule) de la nouvelle interface du créateur de règles ](assets/query-modeler-toggle.png){zoomable="yes"}
+
+
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="Nouvelle expérience client"
->abstract="Utilisez ce bouton pour basculer entre l’expérience de modélisation de requête classique et la nouvelle expérience de création de règles."
+>title="Nouvelle expérience du créateur de règles"
+>abstract="Utilisez ce bouton pour basculer entre l’expérience du Query Modeler classique et celle du nouveau créateur de règles. Le nouveau créateur de règles vous permet de créer votre requête plus facilement, grâce à son interface simplifiée et intuitive."
 
 ![Image illustrant l’interface de query modeler](assets/query-interface.png){zoomable="yes"}
 
@@ -65,13 +71,31 @@ Query Modeler fournit une zone de travail centrale où vous créez votre requêt
 
 La zone de travail centrale du Query Modeler vous permet d’ajouter et de combiner les différents composants afin de créer votre requête. [Découvrez comment créer une requête](build-query.md)
 
-La barre d’outils située dans le coin supérieur droit de la zone de travail propose des options permettant de manipuler facilement les composants de requête et de naviguer dans la zone de travail :
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
+La barre d’outils située dans le coin inférieur droit de la zone de travail propose des options permettant de manipuler facilement les composants de requête et de naviguer dans la zone de travail :
 
 * **Mode de sélection multiple** : sélectionnez plusieurs composants de filtrage pour les copier et coller à l’emplacement de votre choix.
 * **Faire pivoter** : retournez la zone de travail verticalement.
 * **Ajuster à l’écran** : adaptez le niveau de zoom de la zone de travail à votre écran.
 * **Zoom arrière** / **Zoom avant** : zoom arrière ou avant sur la zone de travail.
 * **Afficher la carte** : ouvrez un instantané de la zone de travail indiquant votre emplacement actuel.
+
+>[!TAB Nouvelle expérience du créateur de règles]
+
+La barre d’outils située dans le coin supérieur droit de la zone de travail propose des options permettant de manipuler facilement les composants de requête et de naviguer dans la zone de travail :
+
+* **Déplacer vers le haut** : déplace le composant d’une ligne vers le haut.
+* **Déplacer vers le bas la sélection** : déplace le composant vers le bas d’une ligne.
+* **Sélection de groupe** : permet de placer deux composants dans un groupe.
+* **Dissocier la sélection** : permet de séparer les composants d’un seul groupe.
+* **Développer tout** : permet de développer tous les groupes.
+* **Tout réduire** : réduisez tous les groupes.
+* **Supprimer tout** : supprimez tous les groupes et composants.
+
+>[!ENDTABS]
 
 ### Le volet Propriétés de la règle {#rule-properties}
 

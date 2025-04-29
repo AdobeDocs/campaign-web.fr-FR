@@ -2,10 +2,10 @@
 title: Utiliser les schémas
 description: Découvrez comment utiliser les schémas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 69%
+source-wordcount: '513'
+ht-degree: 66%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Utiliser les schémas"
->abstract="Vous pouvez désormais accéder aux détails d’un schéma en sélectionnant son nom dans la liste. La modification des champs personnalisés est également accessible à partir du bouton **Modifier les détails personnalisés**."
+>abstract="Vous pouvez désormais accéder aux détails d’un schéma en sélectionnant son nom dans la liste. L’édition des champs personnalisés est également accessible à partir du bouton **Édition de l’écran**."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
@@ -73,8 +73,10 @@ L’onglet **[!UICONTROL Données]** fournit des informations sur les données d
 
 Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas prêts à l’emploi via la console Adobe Campaign. Ils vous permettent de personnaliser les schémas en incluant de nouveaux attributs en fonction des besoins de votre entreprise.
 
-Les champs personnalisés peuvent être affichés dans différents écrans, comme les détails du profil dans l’interface Web de Campaign. Vous pouvez contrôler quels champs sont visibles et la manière dont ils apparaissent dans l’interface. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier les détails personnalisés]** dans le menu **[!UICONTROL Schémas]**.
+Les champs personnalisés peuvent être affichés dans différents écrans, comme les détails du profil dans l’interface Web de Campaign. Vous pouvez contrôler quels champs sont visibles et la manière dont ils apparaissent dans l’interface. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modification de l’écran]** dans le menu **[!UICONTROL Schémas]**.
 
 ![Écran de champs personnalisés affichant les attributs modifiables](assets/schemas-custom.png)
+
+Cliquez sur **[!UICONTROL Aperçu]** pour afficher les champs personnalisés dans un exemple d’écran.
 
 Pour plus d’informations sur la modification des champs personnalisés dans un schéma, consultez cette section : [Configurer des champs personnalisés](../administration/custom-fields.md).

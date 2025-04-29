@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 73%
+source-wordcount: '2780'
+ht-degree: 62%
 
 ---
 
@@ -15,19 +15,48 @@ ht-degree: 73%
 
 Pour commencer à créer une requête, accédez au concepteur de requête à partir de l’emplacement de votre choix, en fonction de l’action que vous souhaitez effectuer. Query Modeler s’ouvre avec une zone de travail vide. Cliquez sur le bouton **+** pour configurer le premier nœud de votre requête.
 
+>[!IMPORTANT]
+>
+>Une toute nouvelle interface pour Query Modeler est disponible. Le nouveau créateur de règles vous permet de créer votre requête plus facilement grâce à son interface simplifiée. Pour passer à cette expérience, appuyez sur le bouton de basculement dans le coin supérieur droit. Vous pouvez revenir au modèle de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le requêteur dans cette nouvelle interface.
+>![Image illustrant le bouton (bascule) de la nouvelle interface du créateur de règles ](assets/query-modeler-toggle.png){zoomable="yes"}
+
 Vous pouvez ajouter deux types d’éléments :
 
 * **Composants de filtrage** (condition personnalisée, Sélectionner une audience, filtre prédéfini) vous permettent de créer vos propres règles, de sélectionner une audience ou d’utiliser un filtre prédéfini pour affiner votre requête. Ils sont ajoutés au début de votre requête et sur les transitions en pointillés. [Découvrir comment utiliser les composants de filtrage](#filtering)
 
   Exemple : *Destinataires abonnés à la newsletter &#39;Sports&#39;*, *Destinataires résidant à New York*, *Destinataires résidant à San Francisco*
 
-  ![Exemple d&#39;ajout de composants de filtrage à une requête.](assets/query-add-component.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
+![Exemple d&#39;ajout de composants de filtrage à une requête.](assets/query-add-component.png){zoomable="yes"}
+
+
+>[!TAB Nouveau créateur de règles]
+
+![Exemple d&#39;ajout de composants de filtrage à une requête.](assets/ruleb-1.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+
 
 * **Les opérateurs de groupe** (AND, OR, EXCEPT) permettent de regrouper des composants de filtrage dans le diagramme. Ils sont ajoutés sur les transitions existantes avant un composant de filtrage. [Découvrir comment utiliser les opérateurs](#filtering)
 
-  Example : *personnes destinataires qui se sont abonnées à la newsletter « Sports »**ET**qui vivent à New York **OU**à San Francisco*.
+  Exemple : *Destinataires Super VIP **ET** VIP pour récompenser les destinataires **OU** Démo VIP, **SAUF** âgés de moins de 21 ans et de plus de 45 ans.
 
-  ![Description : exemple d’ajout d’opérateurs de groupe à une requête.](assets/query-add-operator.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
+![Description : exemple d’ajout d’opérateurs de groupe à une requête.](assets/ruleb-13.png){zoomable="yes"}
+
+>[!TAB Nouveau créateur de règles]
+
+![Exemple d&#39;ajout de composants de filtrage à une requête.](assets/ruleb-14.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 
 ## Répartition des valeurs dans une requête {#distribution-values-query}
 
@@ -99,11 +128,31 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
 
    *Exemple de requête renvoyant tous les profils âgés de 21 ans ou plus :*
 
-   ![Exemple de requête ciblant des profils âgés de 21 ans ou plus.](assets/query-custom-condition.png){zoomable="yes"}
+>[!BEGINTABS]
 
-   Pour les attributs de type date, des valeurs prédéfinies sont disponibles à l’aide de l’option **[!UICONTROL Préréglages]**.
+>[!TAB Modéliseur de requête classique]
 
-   ![Exemple d’utilisation de paramètres prédéfinis de date dans une requête.](assets/date-presets.png){zoomable="yes"}
+![Exemple de requête ciblant des profils âgés de 21 ans ou plus.](assets/query-custom-condition.png){zoomable="yes"}
+
+>[!TAB Nouveau créateur de règles]
+
+![Exemple de requête ciblant des profils âgés de 21 ans ou plus.](assets/ruleb-3.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+Pour les attributs de type date, des valeurs prédéfinies sont disponibles à l’aide de l’option **[!UICONTROL Préréglages]**.
+
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
+![Exemple d’utilisation de paramètres prédéfinis de date dans une requête.](assets/date-presets.png){zoomable="yes"}
+
+>[!TAB Nouveau créateur de règles]
+
+![Exemple d’utilisation de paramètres prédéfinis de date dans une requête.](assets/ruleb-4.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 #### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
@@ -165,7 +214,17 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 
 1. Dans le volet des propriétés, activez l’option **Données agrégées** et sélectionnez la fonction d’agrégat souhaitée.
 
-   ![Capture d&#39;écran de l&#39;option Données agrégées](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
+![Capture d&#39;écran de l&#39;option Données agrégées](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!TAB Nouveau créateur de règles]
+
+![Capture d&#39;écran de l&#39;option Données agrégées](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!ENDTABS]
 
 ### Sélectionner une audience {#audiences}
 
@@ -176,6 +235,10 @@ Les conditions personnalisées vous permettent d’effectuer des opérations d�
 
 Pour filtrer votre requête à l’aide d’une audience existante, procédez comme suit :
 
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
 1. Cliquez sur le bouton **+** sur le nœud souhaité, puis choisissez **[!UICONTROL Sélectionner une audience]**.
 
 1. Le volet de propriétés **Sélectionner une audience** s’ouvre sur le côté droit. Sélectionnez l’audience à utiliser pour filtrer votre requête.
@@ -183,6 +246,18 @@ Pour filtrer votre requête à l’aide d’une audience existante, procédez co
    *Exemple de requête renvoyant tous les profils appartenant à l’audience « Festivaliers » :*
 
    ![Capture d’écran d’un exemple de requête](assets/query-audience.png){zoomable="yes"}
+
+>[!TAB Nouveau créateur de règles]
+
+1. Cliquez sur le bouton **Développer** en regard du bouton **[!UICONTROL Ajouter une condition]** et choisissez **[!UICONTROL Sélectionner une audience]**.
+
+1. Le volet de propriétés **Sélectionner une audience** s’ouvre sur le côté droit. Sélectionnez l’audience à utiliser pour filtrer votre requête.
+
+   *Exemple de requête renvoyant tous les profils appartenant à l’audience « Coffee Works » :*
+
+   ![Capture d’écran d’un exemple de requête](assets/ruleb-7.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ### Utiliser un filtre prédéfini {#predefined-filters}
 
@@ -193,6 +268,10 @@ Pour filtrer votre requête à l’aide d’une audience existante, procédez co
 
 Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez comme suit :
 
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
 1. Cliquez sur le bouton **+** sur le nœud souhaité, puis sélectionnez **[!UICONTROL Filtre prédéfini]**.
 
 1. Le volet Propriétés **Filtre prédéfini** s’ouvre sur le côté droit. Sélectionnez un filtre prédéfini dans la liste des filtres personnalisés ou dans les favoris.
@@ -201,6 +280,18 @@ Pour filtrer votre requête à l’aide d’un filtre prédéfini, procédez com
 
    ![Capture d’écran d’un exemple de requête](assets/query-predefined-filter.png){zoomable="yes"}
 
+>[!TAB Nouveau créateur de règles]
+
+1. Cliquez sur le bouton **Développer** en regard du bouton **[!UICONTROL Ajouter une condition]** et sélectionnez **[!UICONTROL Filtre prédéfini]**.
+
+1. Le volet Propriétés **Filtre prédéfini** s’ouvre sur le côté droit. Sélectionnez un filtre prédéfini dans la liste des filtres personnalisés ou dans les favoris.
+
+   *Exemple de requête renvoyant tous les profils correspondant au filtre prédéfini « Clients inactifs » :*
+
+   ![Capture d’écran d’un exemple de requête](assets/ruleb-8.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 ### Copier-coller des composants {#copy}
 
 Le concepteur de requête vous permet de copier un ou plusieurs composants de filtrage et de les coller à la fin d’une transition. Cette opération peut être exécutée dans la zone de travail de la requête actuelle ou dans n’importe quelle zone de travail de votre instance.
@@ -208,6 +299,11 @@ Le concepteur de requête vous permet de copier un ou plusieurs composants de fi
 >[!NOTE]
 >
 >La sélection copiée est conservée tant que vous travaillez dans votre instance. Si vous vous déconnectez et vous reconnectez, votre sélection ne sera plus disponible pour le collage.
+
+>[!IMPORTANT]
+>
+>Il est actuellement impossible de copier et coller des composants dans l’expérience du créateur de nouvelles règles. Pour suivre les étapes suivantes, cliquez sur le bouton (bascule) **[!UICONTROL Revenir à l’expérience classique]** dans la partie supérieure pour utiliser Classic Query Modeler.
+
 
 Pour copier-coller des composants de filtrage, procédez comme suit :
 
@@ -232,7 +328,11 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
 
 Chaque fois que vous ajoutez un nouveau composant de filtrage à votre requête, il est automatiquement lié à l’autre composant par un opérateur **ET**. Cela signifie que les résultats des deux composants de filtrage sont combinés.
 
-Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de filtre prédéfinie avec un opérateur **ET**, ce qui signifie que les résultats de la requête incluent les personnes destinataires ciblées par le filtre prédéfini « Madrilènes » ET appartenant à l’audience « Chasseurs et chasseuses de remises ».
+Dans cet exemple, nous avons ajouté de nouveaux composants de filtrage de type audience sur la seconde transition. Le composant est lié à la condition de filtre prédéfinie avec un opérateur **AND**, ce qui signifie que les résultats de la requête incluent les destinataires ciblés par le filtre prédéfini « Abonnés à une newsletter - MADRID » ET appartenant à l’audience « Acheteurs (à toute heure) ».
+
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
 
 ![Exemple de requête](assets/query-operator.png){zoomable="yes"}
 
@@ -246,11 +346,37 @@ Les opérateurs disponibles sont les suivants :
 
 ![Exemple de requête](assets/query-operator-change.png){zoomable="yes"}
 
-En outre, vous pouvez créer des groupes intermédiaires de composants en cliquant sur le bouton **+** sur une transition. Vous pouvez ainsi ajouter un opérateur à cet emplacement spécifique pour regrouper plusieurs composants et affiner votre requête.
+En outre, vous pouvez créer des groupes intermédiaires de composants en les regroupant dans un même groupe et en les liant entre eux. Ainsi, l’opérateur ET est placé par défaut, vous pouvez ensuite le remplacer par l’opérateur de votre choix.
+
+>[!TAB Nouveau créateur de règles]
+
+![Exemple de requête](assets/ruleb-9.png){zoomable="yes"}
+
+Pour modifier l&#39;opérateur utilisé pour relier les conditions de filtrage, cliquez dessus, il devient OR, EXCEPT puis revient à AND, et sélectionnez l&#39;opérateur de votre choix.
+
+Les opérateurs disponibles sont les suivants :
+
+* **ET (Intersection)** : combine les résultats correspondant à tous les composants de filtrage dans les transitions sortantes.
+* **OU (Union)** : inclut des résultats correspondant à au moins un des composants de filtrage dans les transitions sortantes.
+* **SAUF (Exclusion)** : exclut les résultats correspondant à tous les composants de filtrage dans la transition sortante.
+
+![Exemple de requête](assets/ruleb-10.gif){zoomable="yes"}
+
+>[!ENDTABS]
 
 Dans l’exemple ci-dessous, nous avons créé un groupe intermédiaire pour inclure les résultats des audiences « VIP à récompenser » ou « Super VIP ».
 
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
 ![Exemple de requête](assets/query-intermediate-group.png){zoomable="yes"}
+
+>[!TAB Nouveau créateur de règles]
+
+![Exemple de requête dans le nouveau créateur de règles](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Vérifier et valider votre requête
 
@@ -272,7 +398,19 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
 
 Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour effectuer l’enregistrement.
 
+
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
 Vous pouvez modifier votre requête à tout moment en l’ouvrant. Gardez à l’esprit que lors de l’ouverture d’une requête existante, elle s’affiche dans une vue simplifiée sans la visibilité des boutons **+**. Pour ajouter de nouveaux éléments à la requête, sélectionnez un composant ou un opérateur dans la zone de travail afin d’afficher les boutons **+**.
 
 ![Exemple de requête](assets/edit-audience.png){zoomable="yes"}
 
+>[!TAB Nouveau créateur de règles]
+
+Vous pouvez modifier votre requête à tout moment en l’ouvrant. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter une condition]** dans le coin supérieur gauche.
+
+![Exemple de requête dans le nouveau créateur de règles](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]

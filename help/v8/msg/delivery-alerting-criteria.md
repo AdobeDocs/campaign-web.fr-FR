@@ -3,10 +3,10 @@ audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 51%
+source-wordcount: '712'
+ht-degree: 50%
 
 ---
 
@@ -61,11 +61,6 @@ Les critères des alertes prédéfinis sont disponibles dans l’interface d’u
 >title="Fréquence du critère"
 >abstract="Contrôlez la fréquence des alertes par jour pour chaque diffusion répondant au critère."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Créer un critère d’alerte"
->abstract="Pour créer vos propres filtres de diffusion, créez un filtre prédéfini dans la console Campaign v8 à partir du nœud **Administration** > **Configuration** > **Filtres prédéfinis**."
-
 Pour créer un critère, procédez comme suit :
 
 1. Accédez au menu **Alertes de diffusion** dans le volet de navigation de gauche, puis sélectionnez l’onglet **Critères**.
@@ -79,7 +74,7 @@ Pour créer un critère, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si aucun des filtres prédéfinis ne répond à vos besoins, contactez votre administrateur pour créer votre propre filtre. Vous trouverez des informations détaillées sur la création de filtres prédéfinis dans la console Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}.
+   >Si aucun des filtres prédéfinis ne répond à vos besoins, vous pouvez en créer vos propres à partir du menu **Gestion des clients** > **Filtres prédéfinis**. [En savoir plus](../get-started/predefined-filters.md)
    >
    >Cette opération doit être effectuée par un utilisateur expert ou une utilisatrice experte uniquement.
 

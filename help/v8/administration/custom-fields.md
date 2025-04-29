@@ -2,10 +2,10 @@
 title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 75%
+source-wordcount: '988'
+ht-degree: 72%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Modifier les détails personnalisés"
+>title="Édition d’écran"
 >abstract="Tous les champs personnalisés du schéma sélectionné qui sont affichés dans l’interface s’affichent. Vous pouvez modifier leur ordre d’affichage dans l’interface à l’aide des flèches vers le haut et vers le bas, et regrouper les champs en sous-sections en ajoutant des séparateurs. Pour supprimer un champ personnalisé ou modifier des paramètres tels que les conditions de visibilité, cliquez sur le bouton représentant des points de suspension."
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
 
    ![Capture d’écran affichant le menu Schémas et le filtre modifiable dans le volet de navigation](assets/custom-fields-open.png)
 
-1. Sélectionnez le schéma dans la liste pour l’ouvrir. Une vue de schéma détaillée s’affiche. [En savoir plus sur les détails du schéma](../administration/schemas.md). Cliquez sur le bouton **[!UICONTROL Modifier les détails personnalisés]** pour accéder aux champs personnalisés. Dans cet exemple, des champs sont ajoutés pour le schéma **[!UICONTROL Destinataires]**.
+1. Sélectionnez le schéma dans la liste pour l’ouvrir. Une vue de schéma détaillée s’affiche. [En savoir plus sur les détails du schéma](../administration/schemas.md). Cliquez sur le bouton **[!UICONTROL Modification de l’écran]** pour accéder aux champs personnalisés. Dans cet exemple, des champs sont ajoutés pour le schéma **[!UICONTROL Destinataires]**.
 
-   ![Capture d’écran affichant le bouton Modifier les détails personnalisés en mode schéma](assets/custom-fields-edit.png)
+   ![Capture d’écran affichant le bouton Définition d’écran dans la vue de schéma](assets/custom-fields-edit.png)
 
-1. La liste des champs personnalisés affichée dans l’interface pour le schéma s’affiche. Ici, le champ « CRM Id » est visible sur l’écran des détails des profils et a été marqué comme obligatoire.
+   La liste des champs personnalisés affichée dans l’interface pour le schéma s’affiche.
 
-   | Configuration des champs personnalisés | Rendu dans l’interface |
-   |  ---  |  ---  |
-   | ![Capture d’écran affichant la configuration des champs personnalisés](assets/custom-fields-detail.png){zoomable="yes"} | ![Capture d’écran affichant le rendu du champ de l’identifiant CRM dans l’interface](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour afficher les champs personnalisés dans un exemple d’écran.
+
+   ![](assets/custom-fields-edit2.png)
+
+   Ici, le champ « Montant » a été marqué comme obligatoire.
+
+   ![](assets/custom-fields-edit3.png)
 
 1. Pour ajouter un champ personnalisé à l’interface, cliquez sur le bouton représentant des points de suspension et choisissez l’une des options suivantes :
 
@@ -89,7 +93,7 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
 
 1. Une fois les champs personnalisés ajoutés, vous pouvez effectuer les opérations suivantes :
 
-   * **Réorganiser les champs** : utilisez les flèches haut et bas.
+   * **Réorganiser les champs** : utilisez les flèches vers le haut et vers le bas, ou déplacez les champs par glisser-déposer.
    * **Rendre les champs obligatoires** : cochez la case **Obligatoire**.
    * **Modifier les paramètres du champ** : cliquez sur le bouton représentant des points de suspension et choisissez **[!UICONTROL Modifier]**. [En savoir plus](#settings)
    * **Supprimer des champs** : cliquez sur le bouton représentant des points de suspension et choisissez **[!UICONTROL Supprimer]**.

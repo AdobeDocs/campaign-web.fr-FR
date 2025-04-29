@@ -3,10 +3,10 @@ audience: end-user
 title: Sélectionner des attributs et les ajouter aux favoris
 description: Découvrez comment utiliser les attributs et accéder facilement aux attributs favoris et récemment utilisés.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
-source-git-commit: c0c9c5da3369e55269411b7348004006cd3c139e
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 91%
 
 ---
 
@@ -29,15 +29,15 @@ L’interface propose également un outil de répartition des valeurs, qui vous 
 
 Le menu **[!UICONTROL Favoris et récents]** du sélecteur d’attributs fournit une vue organisée des attributs que vous avez ajoutés aux favoris et de ceux que vous avez utilisés récemment. Les attributs favoris apparaissent en premier, suivis des attributs utilisés récemment, ce qui vous aide à les localiser rapidement.
 
-![Menu Attributs favoris et récents, montrant les attributs favoris et récemment utilisés](assets/attributes-favorites.png)
+![Menu Attributs favoris et récents, montrant les attributs favoris et récemment utilisés](assets/attributes-favorite.png)
 
-Pour ajouter un attribut aux favoris, pointez sur son bouton d’informations et sélectionnez l’icône en forme d’étoile. L’attribut est alors automatiquement ajouté à votre liste de favoris. Pour supprimer un attribut des favoris, sélectionnez à nouveau l’icône en forme d’étoile.
+Pour ajouter un attribut aux favoris, cliquez sur le bouton Développer et sélectionnez **[!UICONTROL Ajouter aux favoris]**. L’attribut est alors automatiquement ajouté à votre liste de favoris. Pour supprimer un attribut des favoris, sélectionnez à nouveau l’icône en forme d’étoile.
 
 Vous pouvez ajouter jusqu’à 20 attributs aux favoris. Les attributs favoris et récents sont associés à chaque utilisateur et utilisatrice au sein d’une organisation, ce qui garantit l’accessibilité sur différents ordinateurs et offre une expérience fluide sur tous les appareils.
 
 ## Identifier la répartition des valeurs dans un tableau {#distribution}
 
-Le bouton **Répartition des valeurs**, disponible dans le volet d’informations d’un attribut, vous permet d’analyser la répartition des valeurs de cet attribut dans le tableau. Cette fonctionnalité est particulièrement utile pour comprendre les valeurs disponibles, leur nombre et leur pourcentage. Cela permet également d’éviter des problèmes, par exemple en matière de majuscules ou d’orthographe, lors de la création de requêtes ou d’expressions.
+Le bouton **Répartition des valeurs**, disponible lorsque vous cliquez sur le bouton de développement en regard de l’attribut, permet aux utilisateurs d’analyser la répartition des valeurs de cet attribut dans le tableau. Cette fonctionnalité est particulièrement utile pour comprendre les valeurs disponibles, leur nombre et leur pourcentage. Cela permet également d’éviter des problèmes, par exemple en matière de majuscules ou d’orthographe, lors de la création de requêtes ou d’expressions.
 
 ![Interface de l’outil Répartition des valeurs, montrant les nombres et les pourcentages des valeurs d’attribut](assets/attributes-distribution-values.png)
 

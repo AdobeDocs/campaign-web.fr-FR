@@ -2,10 +2,10 @@
 title: Utiliser des filtres prédéfinis
 description: Découvrir comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 100%
+source-wordcount: '803'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,11 @@ ht-degree: 100%
 >id="acw_predefined-filters-dashboard"
 >title="Filtres prédéfinis"
 >abstract="L’interface d’utilisation de Campaign Web offre une expérience conviviale et simple de gestion et de personnalisation des filtres prédéfinis qui répond à vos besoins. Créez-les une fois et enregistrez-les pour une utilisation ultérieure."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Créer un critère d’alerte"
+>abstract="Vous pouvez créer vos propres filtres de diffusion à partir du menu Gestion des clients > Filtres prédéfinis ."
 
 Les filtres prédéfinis sont des filtres personnalisés que vous créez, puis que vous enregistrez en vue d’une utilisation ultérieure. Ils servent de raccourcis lors des opérations de filtrage avec le concepteur de requête. Vous pouvez notamment les utiliser pour filtrer une liste de données ou créer l’audience d’une diffusion.
 

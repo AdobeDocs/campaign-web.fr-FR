@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 87%
+source-wordcount: '2192'
+ht-degree: 83%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 87%
 
 L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées qui vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, telles que la manipulation de dates, de chaînes, de champs numériques et le tri.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >La section ci-dessous fournit des informations sur l’utilisation de l’éditeur d’expression pour créer des règles. Gardez à l’esprit que la syntaxe utilisée pour créer des règles diffère de celle utilisée pour ajouter de la personnalisation.
+
+>[!IMPORTANT]
+>
+>Une toute nouvelle interface pour Query Modeler est disponible. Pour passer à cette nouvelle expérience de créateur de règles, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au modèle de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le requêteur dans cette nouvelle interface.
+>![Image illustrant le bouton (bascule) de la nouvelle interface du créateur de règles ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Utiliser l’éditeur d’expression {#edit}
 
@@ -41,7 +46,17 @@ Lorsque votre expression est prête, cliquez sur le bouton **[!UICONTROL Confirm
 
 L’exemple ci-dessous présente une expression configurée pour le champ **[!UICONTROL Valeur]**. Pour le modifier, ouvrez l’éditeur d’expression à l’aide du bouton **[!UICONTROL Modifier l’expression]**.
 
+>[!BEGINTABS]
+
+>[!TAB Modéliseur de requête classique]
+
 ![Exemple d&#39;édition d&#39;expression pour un champ de valeur](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB Nouveau créateur de règles]
+
+![Exemple d&#39;édition d&#39;expression pour un champ de valeur](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Fonctions d’assistance
 

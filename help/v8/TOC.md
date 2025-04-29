@@ -5,9 +5,9 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '823'
 ht-degree: 94%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 94%
    + [Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
    + [Questions fréquentes](get-started/faq.md)
 + Messages et diffusions {#msg}
-   + [Prise en main des messages](msg/gs-messages.md)
+   + [Commencer avec les messages](msg/gs-messages.md)
    + [Accéder aux diffusions](msg/gs-deliveries.md)
    + [Créer une diffusion](msg/create-deliveries.md)
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
@@ -51,7 +51,7 @@ ht-degree: 94%
          + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
          + [Planifier l’envoi d’une diffusion](monitor/schedule-sending.md)
    + Notifications push {#push}
-      + [Prise en main des notifications push](push/gs-push.md)
+      + [Commencer avec les notifications push](push/gs-push.md)
       + [Créer une diffusion notification push](push/create-push.md)
       + Notification push riche {#rich-push}
          + [Concevoir une diffusion de notification push Android enrichie](push/rich-push.md)
@@ -68,6 +68,9 @@ ht-degree: 94%
       + [Créer une diffusion par courrier](direct-mail/create-direct-mail.md)
       + [Concevoir le fichier d’extraction](direct-mail/content-direct-mail.md)
       + [Prévisualiser et envoyer une diffusion par courrier](direct-mail/send-direct-mail.md)
+   + Centre d’appel {#call-center}
+      + [Prise en main des diffusions du centre d’appel](call-center/gs-call-center.md)
+      + [Création et envoi d&#39;une diffusion de centre d&#39;appels](call-center/create-call-center.md)
    + Messages transactionnels {#transactional-messages}
       + [Commencer avec les messages transactionnels](transactional-messaging/transactional.md)
       + [Créer un message transactionnel](transactional-messaging/create-transactional.md)
@@ -164,7 +167,7 @@ ht-degree: 94%
    + [Variables d’événement de workflow](workflows/event-variables.md)
    + [Accéder et gérer des workflows](workflows/access-monitor.md)
    + [À propos des workflows en lecture seule](workflows/readonly-workflows.md)
-   + Création et exécution de votre premier workflow {#create-workflow}
+   + Créer et exécuter votre premier workflow {#create-workflow}
       + [Principes fondamentaux de la création de workflows](workflows/gs-workflow-creation.md)
       + [Créer le workflow](workflows/create-workflow.md)
       + [Orchestrer les activités](workflows/orchestrate-activities.md)

@@ -3,16 +3,21 @@ audience: end-user
 title: Filtrer des listes
 description: Découvrez comment filtrer les listes Adobe Campaign Web à l’aide de filtres intégrés et personnalisés.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 65%
+source-wordcount: '413'
+ht-degree: 51%
 
 ---
 
 # Filtrer des listes {#filter-lists}
 
 Adobe Campaign Web fournit des filtres dans chaque liste d’objets, ce qui vous permet de filtrer les informations en fonction de critères contextuels spécifiques. Par exemple, vous pouvez filtrer les diffusions en fonction de leur statut, de leur canal, de leur date de contact ou de leur dossier. Vous pouvez également masquer les BAT.
+
+>[!IMPORTANT]
+>
+>Une toute nouvelle interface pour Query Modeler est disponible. Le nouveau créateur de règles vous permet de créer votre requête plus facilement grâce à son interface simplifiée. Pour passer à cette expérience, appuyez sur le bouton de basculement dans le coin supérieur droit. Vous pouvez revenir au modèle de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le requêteur dans cette nouvelle interface.
+>![Image illustrant le bouton (bascule) de la nouvelle interface du créateur de règles ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Appliquer des filtres {#apply}
 

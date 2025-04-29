@@ -3,9 +3,9 @@ audience: end-user
 title: Plans et programmes
 description: Découvrir comment créer et envoyer des plans et des programmes dans Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '522'
 ht-degree: 23%
 
 ---
@@ -38,9 +38,13 @@ Pour gérer les **[!UICONTROL options personnalisées]** :
 
 1. Accédez à la **[!UICONTROL Schémas]**.
 1. Choisissez les schémas **[!UICONTROL modifiables]** dans les filtres.
-1. Cliquez sur l’icône **[!UICONTROL Modifier les détails personnalisés]**.
+1. Cliquez sur le schéma .
 
 ![Capture d’écran montrant la modification des détails personnalisés d’un plan](assets/plan_edit.png){zoomable="yes"}
+
+1. Cliquez sur le bouton **[!UICONTROL Modification de l’écran]**.
+
+   ![](assets/plan_edit2.png){zoomable="yes"}
 
 Configurez les options personnalisées :
 
@@ -64,9 +68,13 @@ Pour gérer les **[!UICONTROL options personnalisées]** :
 
 1. Accédez à la **[!UICONTROL Schémas]**.
 1. Choisissez les schémas **[!UICONTROL modifiables]** dans les filtres.
-1. Cliquez sur l’icône **[!UICONTROL Modifier les détails personnalisés]**.
+1. Cliquez sur le schéma .
 
 ![Capture d’écran montrant la modification des détails personnalisés d’un programme](assets/program_edit.png){zoomable="yes"}
+
+1. Cliquez sur le bouton **[!UICONTROL Modification de l’écran]**.
+
+   ![](assets/program_edit2.png){zoomable="yes"}
 
 Configurez les options personnalisées :
 
