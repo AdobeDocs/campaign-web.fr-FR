@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
+source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 34%
+source-wordcount: '689'
+ht-degree: 35%
 
 ---
 
@@ -92,7 +92,7 @@ ko * Built-in options are now only visible in the list of options if the **Show 
 ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 -->
 
-**Éditeur d’email** : pour améliorer l’accessibilité dans l’interface utilisateur web de Campaign, deux nouveaux champs sont désormais disponibles dans le Designer d’email : ils correspondent à l’élément `title` et l’attribut lang dans l’élément `html` du contenu de votre email. Vous pouvez définir ces paramètres en plus du champ Pré-titre , dans la section Corps de l’e-mail.
+**Éditeur d’email** : pour améliorer l’accessibilité dans l’interface utilisateur web de Campaign, deux nouveaux champs sont désormais disponibles dans le Designer d’email : ils correspondent à l’élément `title` et l’attribut lang dans l’élément `html` du contenu de votre email. Vous pouvez définir ces paramètres en plus du champ Pré-titre , dans la section Corps de l’e-mail. Pour plus d’informations, consultez la [documentation détaillée](../email/metadata.md).
 
 <!--
 **Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
