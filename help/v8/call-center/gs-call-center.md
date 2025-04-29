@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Prise en main des diffusions du centre d’appel
+title: Prise en main du canal du centre d’appel
 description: Découvrez comment créer et envoyer des diffusions de centre d’appel avec Adobe Campaign Web
-source-git-commit: 86f45da9787e1c5835dcd9b3b2f232c3240c0bd4
+exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
+source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '191'
 ht-degree: 8%
 
 ---
 
-
-# Prise en main des diffusions e-mail du centre d’appel {#gs-call-center}
+# Prise en main du canal du centre d’appel {#gs-call-center}
 
 Le canal du centre d’appels permet d’exporter des listes de contacts ciblées pour les campagnes téléphoniques sortantes directement depuis l’interface utilisateur web d’Adobe Campaign. Utilisez-le pour coordonner les appels par le biais d’équipes internes ou de centres de contact externes.
 
