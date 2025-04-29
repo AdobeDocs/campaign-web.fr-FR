@@ -3,7 +3,7 @@ audience: end-user
 title: Ajout de métadonnées au contenu de votre e-mail
 description: Découvrez comment améliorer la lisibilité et l’accessibilité du contenu de votre e-mail avec les métadonnées
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 929151c9907a6a508fef37ef1da9157f8a52d9eb
+source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 21%
@@ -37,12 +37,12 @@ Pour configurer ces paramètres, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Corps]** dans l’**[!UICONTROL Arborescence de navigation]** à gauche ou en haut du volet de droite.
 
-   ![](assets/email_body.png)
+   ![](assets/email_body.png){width="90%"}
 
 1. Dans l’onglet **[!UICONTROL Paramètres]**, saisissez du texte dans les champs **[!UICONTROL Pré-titre]**, **[!UICONTROL Titre du document]** et/ou **[!UICONTROL Langue du document]**.
 
 1. Vous pouvez également cliquer sur l’icône de personnalisation en regard de chaque champ pour personnaliser votre contenu à partir des attributs de profil, des audiences, des attributs contextuels, etc. [En savoir plus sur la personnalisation](../personalization/gs-personalization.md)
 
-   ![](assets/email_body_settings.png)
+   ![](assets/email_body_settings.png){width="70%"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer vos modifications.
