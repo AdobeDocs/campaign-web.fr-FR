@@ -2,9 +2,10 @@
 audience: end-user
 title: Création d’une diffusion de centre d’appels
 description: Découvrez comment créer une diffusion de centre d’appels avec Adobe Campaign Web
-source-git-commit: 0721d20ddec3271d9fac5f5645bd5865380ef9ba
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 13%
 
 ---
@@ -16,7 +17,7 @@ Vous pouvez créer une diffusion de centre d&#39;appels autonome, ou en créer u
 Pour créer et envoyer une nouvelle diffusion de centre d’appel autonome, procédez comme suit :
 
 1. Créer la diffusion, [en savoir plus](#create-delivery)
-1. Sélectionnez l’audience, [en savoir plus](#select-audience)
+1. Définir l&#39;audience, [en savoir plus](#select-audience)
 1. Modifier le contenu, [en savoir plus](#edit-content)
 1. Prévisualiser et envoyer la diffusion, [en savoir plus](#preview-send)
 
@@ -42,7 +43,7 @@ Pour créer la diffusion et configurer ses propriétés, procédez comme suit :
 >
 >Vous pouvez planifier l’envoi de votre diffusion à une date spécifique. Pour plus d’informations à ce sujet, consultez cette [section](../msg/gs-deliveries.md#gs-schedule).
 
-## Sélectionner l’audience{#select-audience}
+## Définir l’audience{#select-audience}
 
 Vous devez maintenant définir l’audience qui sera ciblée pour le fichier d’extraction.
 
@@ -65,7 +66,7 @@ Vous devez maintenant définir l’audience qui sera ciblée pour le fichier d�
 
 ## Modifier le contenu{#edit-content}
 
-Maintenant, concevons le contenu du fichier d’extraction qui sera généré par la diffusion du centre d’appels.
+Maintenant, éditons le contenu du fichier d&#39;extraction qui sera généré par la diffusion du centre d&#39;appels.
 
 1. Dans la page de diffusion, cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
 
@@ -101,7 +102,7 @@ Lorsque le contenu de la diffusion est prêt, vous pouvez le prévisualiser à l
 
 Les étapes principales pour prévisualiser et envoyer le fichier d’extraction sont les suivantes. Pour plus d’informations, consultez [cette page](../direct-mail/send-direct-mail.md).
 
-1. Sur la page de contenu de la diffusion, cliquez sur **[!UICONTROL Simuler du contenu]**.
+1. Sur la page de contenu de la diffusion, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
    ![Capture d’écran affichant l’option Simuler du contenu dans la page de contenu de la diffusion](assets/cc-simulate0.png){zoomable="yes"}
 
@@ -124,5 +125,3 @@ Une fois votre diffusion envoyée, le fichier d’extraction est automatiquement
 Suivez les données de vos KPI (indicateurs clés de performance) à partir de votre page de diffusion et les données à partir du menu **[!UICONTROL Journaux]**.
 
 Commencez à mesurer l’impact de votre message à l’aide de rapports intégrés. [En savoir plus](../reporting/direct-mail.md)
-
-
