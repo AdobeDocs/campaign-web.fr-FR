@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 662b5e6c041b9caa90ac78f1a2ff60bfb9af6101
+source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 94%
+source-wordcount: '460'
+ht-degree: 93%
 
 ---
 
@@ -54,7 +54,7 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!TAB Version du 25 avril]
 
-La version d’avril est désormais en ligne, avec ses règles métier, ses mappings de ciblage et d’autres améliorations.
+La version d’avril est désormais en ligne, avec le canal Centre d’appels , le nouveau créateur de règles et d’autres améliorations.
 
 [![Bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
