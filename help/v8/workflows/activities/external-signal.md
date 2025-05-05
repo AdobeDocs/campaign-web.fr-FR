@@ -51,7 +51,7 @@ Suivez ces étapes pour configurer l’activité **Signal externe** et déclench
 
      ![La capture d’écran affiche le nom interne du workflow en regard de son libellé.](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * **Nom de l’activité Signal externe**, qui s’affiche dans les **[!UICONTROL options d’exécution]** du workflow.
 
@@ -59,7 +59,7 @@ Suivez ces étapes pour configurer l’activité **Signal externe** et déclench
 
      ![La capture d’écran affiche le nom de l’activité Signal externe dans les options d’exécution.](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. Pour déclencher le workflow, exécutez la fonction `PostEvent` JavaScript . Cette fonction vous permet de transmettre des variables avec les valeurs de votre choix et de les utiliser dans le workflow déclenché.
 
@@ -79,6 +79,6 @@ Suivez ces étapes pour configurer l’activité **Signal externe** et déclench
 
    ![La capture d’écran illustre un exemple de déclenchement de l’activité Signal externe à l’aide de la fonction PostEvent.](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * Pour déclencher une activité **[!UICONTROL Signal externe]** à partir d’un appel API, suivez les étapes détaillées dans la documentation de l’API Campaign. [Découvrez comment utiliser la méthode de `PostEvent` statique](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=fr).

@@ -51,7 +51,8 @@ Configurez vos paramètres de diffusion comme indiqué ci-dessous :
    * **[!UICONTROL Code de diffusion]** : organisez vos diffusions à l’aide de votre propre convention de nommage.
    * **[!UICONTROL Description]** : spécifiez une description pour la diffusion.
    * **[!UICONTROL Nature]** : indiquez la nature de la diffusion à des fins de classification.
-+++
+
+   +++
 
 ## Sélectionner l’audience de votre diffusion par notification push {#create-audience-push}
 

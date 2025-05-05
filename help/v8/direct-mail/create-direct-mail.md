@@ -34,7 +34,8 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
    * **[!UICONTROL Code de diffusion]** : organisez vos diffusions à l’aide de votre propre convention de nommage.
    * **[!UICONTROL Description]** : spécifiez une description pour la diffusion.
    * **[!UICONTROL Nature]** : indiquez la nature de la diffusion à des fins de classification.
-+++
+
+   +++
 
 1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre.
 

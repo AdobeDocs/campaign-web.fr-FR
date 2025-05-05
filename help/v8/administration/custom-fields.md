@@ -122,7 +122,7 @@ Les paramètres disponibles sont les suivants :
 
   ![Capture d’écran montrant un exemple de paramètres de filtre pour les champs personnalisés](assets/custom-fields-ref.png)
 
-+++
+  +++
 
 * **[!UICONTROL S’étendre sur deux colonnes]** : par défaut, les champs personnalisés s’affichent dans l’interface en deux colonnes. Activez cette option pour afficher le champ personnalisé sur toute la largeur de l’écran au lieu de deux colonnes.
 

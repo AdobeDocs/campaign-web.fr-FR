@@ -35,7 +35,7 @@ Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 1. Ajoutez plusieurs activités, telles que des activités de canal, pour former au moins deux branches d’exécution différentes.
 1. Ajoutez une activité **Rendez-vous** à l’une des branches.
 1. Dans la section **Options de fusion**, cochez toutes les activités précédentes à joindre.
-1. Dans le menu déroulant Ensemble de Principal **** choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l’une des populations de la transition entrante.
+1. Dans le menu déroulant Ensemble de Principal **&#x200B;**&#x200B;choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l’une des populations de la transition entrante.
 
 ## Exemple {#and-join-example}
 

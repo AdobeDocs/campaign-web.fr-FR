@@ -60,7 +60,8 @@ Pour configurer l’activité **Planificateur**, procédez comme suit :
    * **Permanent (n’expire jamais)** : le workflow est exécuté selon la fréquence spécifiée, sans limite de durée ni de nombre d’itérations.
    * **Période de validité** : le workflow est exécuté selon la fréquence spécifiée, jusqu&#39;à une date spécifique. Spécifiez les dates de début et de fin.
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Si vous souhaitez démarrer le workflow immédiatement, cliquez sur **Exécuter la tâche en attente** dans la barre d’actions supérieure du planificateur. Ce bouton n’est disponible que lorsque le workflow a été démarré.
 
 ## Exemple {#scheduler-example}

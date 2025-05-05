@@ -61,14 +61,14 @@ Suivez les étapes détaillées ci-dessous pour configurer l’activité **Trans
    * **[!UICONTROL Test d’existence de fichier]** : vérifiez la présence d’un fichier donné sur le serveur. Génère deux transitions sortantes après l’activité : « Fichier existant » et « Fichier inexistant ».
    * **[!UICONTROL Liste de fichiers]** : liste de tous les fichiers disponibles sur le serveur.
 
-+++
+   +++
 
    +++Actions disponibles avec les activités de type **Téléchargement web**
 
    * **[!UICONTROL Transfert simple (GET)]** : récupérez un fichier.
    * **[!UICONTROL Transfert à l’aide d’un formulaire (POST)]** : chargez un fichier et des paramètres supplémentaires.
 
-+++
+   +++
 
    ![Capture d’écran affichant les options d’action du fichier de transfert de workflow](../assets/workflow-transfer-file-action.png)
 
@@ -148,7 +148,7 @@ Il est important de limiter la taille de ce dossier afin de préserver l’espac
    * **[!UICONTROL Afficher les logs de session]** : lorsque cette option est activée, les informations relatives à l’opération de transfert sont affichées dans les logs de workflow une fois le workflow exécuté.
    * **[!UICONTROL Répertorier tous les fichiers]** (Actions de listage de fichiers) : cette option indexe tous les fichiers présents sur le serveur dans la variable d’événement `vars.filenames` dans laquelle les noms de fichier sont séparés par les caractères `n`. [Découvrir comment travailler avec les variables d’événement](../event-variables.md)
 
-+++
+   +++
 
    +++Options supplémentaires pour les activités de type **[!UICONTROL Téléchargement web]**
 

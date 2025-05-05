@@ -88,7 +88,7 @@ Pour créer une page de destination, procédez comme suit :
    * **[!UICONTROL Acquisition]** : il s’agit du modèle par défaut des pages de destination. Il permet de capturer et de mettre à jour les données du profil.
    * **[!UICONTROL Abonnement]** : utilisez ce modèle pour permettre aux utilisateurs et aux utilisatrices de s’abonner à un [service](../audience/manage-services.md).
    * **[!UICONTROL Désabonnement]** : ce modèle peut être utilisé dans une diffusion envoyée aux abonnés d&#39;un service pour leur permettre de se désabonner de ce [service](../audience/manage-services.md).
-   * placer sur la liste bloquée **** : ce modèle doit être utilisé lorsqu&#39;un profil clique sur un lien d&#39;opt-out dans une diffusion et ne souhaite plus être contacté.
+   * placer sur la liste bloquée **&#x200B;**&#x200B;: ce modèle doit être utilisé lorsqu&#39;un profil clique sur un lien d&#39;opt-out dans une diffusion et ne souhaite plus être contacté.
 
    ![Capture d’écran affichant les modèles de page de destination.](assets/lp-templates.png){zoomable="yes"}
 
@@ -120,7 +120,7 @@ Pour créer une page de destination, procédez comme suit :
      >
      >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
-     Pour les modèles **[!UICONTROL Acquisition]** et **[!UICONTROL Abonnement]**, cette option est sélectionnée par défaut. Placer sur la liste bloquée Pour les modèles **[!UICONTROL Désabonnement]** et ****, cette option est désélectionnée par défaut et ne peut pas être modifiée.
+     Pour les modèles **[!UICONTROL Acquisition]** et **[!UICONTROL Abonnement]**, cette option est sélectionnée par défaut. Placer sur la liste bloquée Pour les modèles **[!UICONTROL Désabonnement]** et **&#x200B;**, cette option est désélectionnée par défaut et ne peut pas être modifiée.
 
 1. Une page de destination peut comporter des pages supplémentaires. Pour ajouter des pages, accédez à la section **[!UICONTROL Pages]**, puis cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour chaque page que vous souhaitez concevoir pour cette page de destination. Le contenu de chaque page est déjà prérempli. Modifiez-le si nécessaire. [En savoir plus](lp-content.md).
 

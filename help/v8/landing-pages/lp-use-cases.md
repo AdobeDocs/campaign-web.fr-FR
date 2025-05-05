@@ -38,7 +38,7 @@ Dans l’interface [!DNL Adobe Campaign Web], quatre modèles prêts à l’empl
 
    ![Capture d’écran affichant l’interface des propriétés et des paramètres de la page de destination.](assets/lp-uc-properties.png){zoomable="yes"}
 
-1. Placer sur la liste bloquée Selon votre cas, sélectionnez la page **[!UICONTROL Acquisition]**, **[!UICONTROL Abonnement]**, **[!UICONTROL Désabonnement]** ou ****.
+1. Placer sur la liste bloquée Selon votre cas, sélectionnez la page **[!UICONTROL Acquisition]**, **[!UICONTROL Abonnement]**, **[!UICONTROL Désabonnement]** ou **&#x200B;**.
 
 1. Le contenu de la page s’affiche. Sélectionnez la partie correspondant au formulaire de page de destination.
 

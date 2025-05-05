@@ -67,7 +67,7 @@ Procédez comme suit :
 
 ## Profils placés sur la liste bloquée {#denylisted-profiles}
 
-Placer sur la liste bloquée Après une désinscription (opt-out), les profils sont ajoutés à la **** pour un canal donné. Cela signifie qu’elles ne sont plus ciblées par aucune diffusion.
+Placer sur la liste bloquée Après une désinscription (opt-out), les profils sont ajoutés à la **&#x200B;**&#x200B;pour un canal donné. Cela signifie qu’elles ne sont plus ciblées par aucune diffusion.
 
 >[!NOTE]
 >
