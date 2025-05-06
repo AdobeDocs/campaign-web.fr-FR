@@ -84,7 +84,7 @@ Pour créer un mapping de ciblage, accédez au menu **[!UICONTROL Administration
 
    1. **[!UICONTROL Logs de tracking]** : activez l&#39;option **[!UICONTROL Générer un schéma pour le tracking]** afin de générer un schéma de stockage pour les logs de tracking.
 
-   +++
++++
 
 1. Utilisez la section **[!UICONTROL Mapping]** pour identifier les attributs du schéma du mapping de ciblage à utiliser pour chaque champ d’adresse de diffusion. Pour chaque champ, sélectionnez l’attribut souhaité à mapper. Vous pouvez également créer une expression pour identifier le champ. Par exemple, appliquez une fonction inférieure à l’attribut address.
 

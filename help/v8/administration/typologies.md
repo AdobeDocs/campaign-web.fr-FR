@@ -134,7 +134,7 @@ Définissez les propriétés de la règle de typologie :
 
    **[!UICONTROL À la fin de l’analyse]** : effectuez des vérifications nécessitant une personnalisation complète du message.
 
-   +++
++++
 
    * **[!UICONTROL Niveau]** : indiquez le niveau d’alerte de la règle. Pour plus d’informations, développez la section ci-dessous.
 
@@ -148,7 +148,7 @@ Définissez les propriétés de la règle de typologie :
 
    **[!UICONTROL Verbeux]** : affichez les informations dans les logs serveur.
 
-   +++
++++
 
 ### Créer le contenu de la règle {#build}
 
