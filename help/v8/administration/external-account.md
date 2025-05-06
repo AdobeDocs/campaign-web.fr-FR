@@ -200,7 +200,7 @@ Pour vous connecter à la console Adobe Campaign à l&#39;aide d&#39;un Adobe ID
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-AWS.png)
 
@@ -231,7 +231,7 @@ Pour savoir où trouver l’ID de la clé d’accès et la clé d’accès secr�
 
 ### Stockage Azure Blob {#azure-blob-external-account}
 
-Le compte externe **[!UICONTROL Stockage Blob Azure]** peut être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow **[!UICONTROL Transfert de fichier]**. Pour plus d’informations, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Le compte externe **[!UICONTROL Stockage Blob Azure]** peut être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow **[!UICONTROL Transfert de fichier]**. Pour plus d’informations, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-azure.png)
 
@@ -251,7 +251,7 @@ Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser av
 
 ## Hadoop
 
-Le compte externe Hadoop permet de connecter votre instance Campaign à votre base de données externe Hadoop. Pour en savoir plus sur Hadoop, consultez la [documentation de la console Campaign V7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
+Le compte externe Hadoop permet de connecter votre instance Campaign à votre base de données externe Hadoop. Pour en savoir plus sur Hadoop, consultez la [documentation de la console Campaign V7](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
 
 ![Capture d’écran affichant la configuration du compte externe Hadoop.](assets/external-hadoop.png)
 
