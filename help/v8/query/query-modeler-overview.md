@@ -3,14 +3,20 @@ audience: end-user
 title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 41%
+source-wordcount: '926'
+ht-degree: 40%
 
 ---
 
 # Utiliser le concepteur de requête {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Nouveau Créateur De Règles"
+>abstract="Un nouveau créateur de règles est désormais disponible pour vous aider à définir des conditions complexes dans une interface utilisateur améliorée. Vous pouvez passer de l’ancien au nouveau créateur de règles selon vos besoins."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"

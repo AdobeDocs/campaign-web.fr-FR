@@ -3,20 +3,14 @@ audience: end-user
 title: Page de destination avec l’assistant AI
 description: Prise en main de l’assistant AI
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1463'
 ht-degree: 26%
 
 ---
 
 # Génération de pages de destination avec l’assistant AI{#generative-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Générer des pages de destination avec l’IA"
->abstract="Vous pouvez désormais utiliser l’assistant AI pour créer vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!IMPORTANT]
 >
@@ -91,9 +85,9 @@ Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pou
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../landing-pages/create-lp.md#test-landing-page).
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../landing-pages/create-lp.md#test-landing-page)
 
-Une fois votre page de destination prête, publiez-la pour la rendre disponible dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page).
+Une fois votre page de destination prête, publiez-la pour la rendre disponible dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
 
 >[!TAB Génération de texte uniquement]
 
@@ -147,9 +141,9 @@ Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pou
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../landing-pages/create-lp.md#test-landing-page).
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../landing-pages/create-lp.md#test-landing-page)
 
-Une fois votre page de destination prête, publiez-la pour la rendre disponible dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page).
+Une fois votre page de destination prête, publiez-la pour la rendre disponible dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
 
 >[!TAB Génération d’image uniquement]
 
@@ -200,8 +194,8 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant AI 
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../landing-pages/create-lp.md#test-landing-page).
+1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../landing-pages/create-lp.md#test-landing-page)
 
-Une fois votre page de destination prête, publiez-la pour la rendre disponible dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page).
+Une fois votre page de destination prête, publiez-la pour la rendre disponible dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
 
 >[!ENDTABS]
