@@ -2,17 +2,17 @@
 title: Gérer les mappings de ciblage
 description: Découvrez comment gérer les mappings de ciblage.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
 # Gérer les mappings de ciblage {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn5"
 >title="Mappings de ciblage"
 >abstract="Vous pouvez désormais créer des mappings de ciblage dans l’interface d’utilisation web de Campaign. Les mappings de ciblage définissent la manière dont différents canaux de diffusion (e-mails, SMS, notifications push) sont liés aux champs de données d’un schéma."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
@@ -30,7 +30,7 @@ Les mappings de ciblage sont accessibles à partir du menu **[!UICONTROL Adminis
 
 ![Écran de liste des mappings de ciblage affichant les mappings disponibles](assets/target-mappings-list.png)
 
-Pour plus d’informations sur les mappings de ciblage intégrés fournis avec Adobe Campaign, reportez-vous à la [documentation de la console cliente Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur les mappings de ciblage intégrés fournis avec Adobe Campaign, reportez-vous à la documentation de la console cliente [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
 
 ## Créer un mapping de ciblage {#create-mapping}
 
@@ -84,7 +84,7 @@ Pour créer un mapping de ciblage, accédez au menu **[!UICONTROL Administration
 
    1. **[!UICONTROL Logs de tracking]** : activez l&#39;option **[!UICONTROL Générer un schéma pour le tracking]** afin de générer un schéma de stockage pour les logs de tracking.
 
-   +++
++++
 
 1. Utilisez la section **[!UICONTROL Mapping]** pour identifier les attributs du schéma du mapping de ciblage à utiliser pour chaque champ d’adresse de diffusion. Pour chaque champ, sélectionnez l’attribut souhaité à mapper. Vous pouvez également créer une expression pour identifier le champ. Par exemple, appliquez une fonction inférieure à l’attribut address.
 

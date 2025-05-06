@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser les règles métier (typologies)
 description: Découvrez comment utiliser les typologies et les règles de typologie pour contrôler, filtrer et surveiller l’envoi des diffusions.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 39%
@@ -13,7 +13,7 @@ ht-degree: 39%
 # Utiliser les règles métier (typologies) {#typologies}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn4"
 >title="Règles métier"
 >abstract="Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface d’utilisation web d’Adobe Campaign. Les typologies permettent de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
@@ -134,7 +134,7 @@ Définissez les propriétés de la règle de typologie :
 
    **[!UICONTROL À la fin de l’analyse]** : effectuez des vérifications nécessitant une personnalisation complète du message.
 
-   +++
++++
 
    * **[!UICONTROL Niveau]** : indiquez le niveau d’alerte de la règle. Pour plus d’informations, développez la section ci-dessous.
 
@@ -148,7 +148,7 @@ Définissez les propriétés de la règle de typologie :
 
    **[!UICONTROL Verbeux]** : affichez les informations dans les logs serveur.
 
-   +++
++++
 
 ### Créer le contenu de la règle {#build}
 
