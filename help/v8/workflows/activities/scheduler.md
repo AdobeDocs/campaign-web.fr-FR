@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur.
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 40%
@@ -61,7 +61,6 @@ Pour configurer l’activité **Planificateur**, procédez comme suit :
    * **Période de validité** : le workflow est exécuté selon la fréquence spécifiée, jusqu&#39;à une date spécifique. Spécifiez les dates de début et de fin.
 
 >[!NOTE]
->\
 >Si vous souhaitez démarrer le workflow immédiatement, cliquez sur **Exécuter la tâche en attente** dans la barre d’actions supérieure du planificateur. Ce bouton n’est disponible que lorsque le workflow a été démarré.
 
 ## Exemple {#scheduler-example}
