@@ -4,9 +4,9 @@ description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 >[!BEGINTABS]
 
 
->[!TAB Version du 25 avril]
+>[!TAB Version d’avril 2025]
 
-La version d’avril est désormais en ligne, avec le canal Centre d’appels , le nouveau créateur de règles et d’autres améliorations.
+La version d’avril est désormais en ligne, avec le canal Centre d’appel, le nouveau créateur de règles et d’autres améliorations.
 
 [![Bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -63,7 +63,7 @@ La version d’avril est désormais en ligne, avec le canal Centre d’appels , 
 
 ✨ Plongez dans une expérience pratique avec la prévisualisation de notre fonctionnalité en direct, l’[Assistant IA](../v8/email/generative-gs.md), conçue pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.
 
-[![bouton En savoir plus](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Bouton En savoir plus](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB FAQ]
 
@@ -132,5 +132,5 @@ Les questions fréquentes sur l’interface d’utilisation web de Campaign sont
 
 ## Autres ressources
 
-* [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Documentation Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr){target="_blank"}
+* [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Documentation Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=fr){target="_blank"}

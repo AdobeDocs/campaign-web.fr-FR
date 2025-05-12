@@ -4,9 +4,9 @@ title: Modifier le contenu de l’e-mail
 description: Découvrez le b.a.-ba de la création de contenu à l’aide du concepteur d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ The Email Designer allows you to create email content and email content template
 
 Lors de l’envoi d’e-mails, il est important de tenir compte du fait que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu. Cela s’applique notamment lors de l’utilisation de classes CSS qui peuvent ne pas être prises en charge par le fournisseur de messagerie utilisé pour le transfert. Par exemple, si vous utilisez la classe CSS « is-desktop-hidden » pour masquer une image sur les appareils mobiles, le rendu risque de ne pas s’effectuer correctement.
 
-Pour éviter autant que possible ces problèmes de rendu, une bonne pratique consiste à concevoir une structure d’e-mail aussi simple que possible. Privilégiez une conception d’e-mail unique, qui fonctionne aussi bien sur les postes de travail que les appareils mobiles et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception dont la prise en charge par tous les clients de messagerie est aléatoire. Lorsque vous utilisez des images dans vos e-mails, évitez les images dont la taille est supérieure à 2 Mo ou utilisez des liens d’image codés.
+Pour éviter autant que possible ces problèmes de rendu, une bonne pratique consiste à concevoir une structure d’e-mail aussi simple que possible. Privilégiez une conception d’e-mail unique, qui fonctionne aussi bien sur les postes de travail que les appareils mobiles et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception dont la prise en charge par tous les clients de messagerie est aléatoire. Lorsque vous utilisez des images dans vos e-mails, évitez celles dont la taille est supérieure à 2 Mo ou utilisez des liens d’image codés.
 
 En suivant ces bonnes pratiques, vous pouvez vous assurer que vos e-mails sont correctement rendus, quelle que soit la manière dont ils sont affichés ou transférés par les destinataires.
 

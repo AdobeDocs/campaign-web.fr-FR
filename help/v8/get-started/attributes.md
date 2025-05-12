@@ -4,9 +4,9 @@ title: Sélectionner des attributs et les ajouter aux favoris
 description: Découvrez comment utiliser les attributs et accéder facilement aux attributs favoris et récemment utilisés.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Vous pouvez ajouter jusqu’à 20 attributs aux favoris. Les attributs favoris 
 
 ## Identifier la répartition des valeurs dans un tableau {#distribution}
 
-Le bouton **Répartition des valeurs**, disponible lorsque vous cliquez sur le bouton de développement en regard de l’attribut, permet aux utilisateurs d’analyser la répartition des valeurs de cet attribut dans le tableau. Cette fonctionnalité est particulièrement utile pour comprendre les valeurs disponibles, leur nombre et leur pourcentage. Cela permet également d’éviter des problèmes, par exemple en matière de majuscules ou d’orthographe, lors de la création de requêtes ou d’expressions.
+Le bouton **Répartition des valeurs**, disponible en cliquant sur le bouton Développer en regard d’un attribut, vous permet d’analyser la répartition des valeurs de cet attribut dans le tableau. Cette fonctionnalité est particulièrement utile pour comprendre les valeurs disponibles, leur nombre et leur pourcentage. Cela permet également d’éviter des problèmes, par exemple en matière de majuscules ou d’orthographe, lors de la création de requêtes ou d’expressions.
 
 ![Interface de l’outil Répartition des valeurs, montrant les nombres et les pourcentages des valeurs d’attribut](assets/attributes-distribution-values.png)
 
