@@ -2,9 +2,9 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de l’interface d’utilisation de Campaign Web 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
-source-wordcount: '2501'
+source-wordcount: '2470'
 ht-degree: 99%
 
 ---
@@ -122,7 +122,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 * **Captcha dans les pages de destination** : vous pouvez désormais ajouter un captcha pour protéger votre page de destination contre le spam et les abus causés par les robots. Cette action n’implique pas vos clients, car elle ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. [En savoir plus](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Notes de mise à jour de juillet {#24-7-release}
@@ -168,9 +168,9 @@ Vous pouvez désormais envoyer des notifications push enrichies. La notification
 
 Les fonctionnalités et améliorations suivantes sont disponibles pour tous les utilisateurs et utilisatrices à compter de la version de juin.
 
-### Alertes de diffusion {#24-6-3}
+<!--### Delivery alerting {#24-6-3}
 
-La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d’utilisateurs et d’utilisatrices de recevoir automatiquement des notifications contenant des informations sur l’exécution de leurs diffusions. [En savoir plus](../msg/delivery-alerting.md)
+The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### Plans et programmes {#24-6-4}
 
