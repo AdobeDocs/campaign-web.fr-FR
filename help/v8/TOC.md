@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
+source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 94%
+source-wordcount: '828'
+ht-degree: 93%
 
 ---
 
@@ -127,7 +127,9 @@ ht-degree: 94%
       + [Génération de notifications push avec IA](email/generative-push.md)
       + [Génération de page de destination avec IA](email/generative-lp.md)
       + [Cas d’utilisation de l’assistant IA](email/generative-uc.md)
-      + [Créer et gérer vos marques (version bêta)](content/brands.md)
+      + Marques (version bêta) {#ai-assistant}
+         + [Créer et gérer vos marques](content/brands.md)
+         + [Évaluation du score d’alignement de votre marque](content/brands-score.md)
 + Pages de destination {#landing-pages}
    + [Commencer avec les pages de destination](landing-pages/get-started-lp.md)
    + [Créer et publier une page de destination](landing-pages/create-lp.md)
