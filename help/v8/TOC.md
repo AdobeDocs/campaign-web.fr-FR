@@ -8,7 +8,7 @@ breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 93%
       + [Versions de 2025](rn/release-notes-25.md)
       + [Versions 2024](rn/release-notes-24.md)
    + [Mises à jour de la documentation](rn/documentation-updates.md)
-+ Prise en main d’Adobe Campaign {#start}
++ Commencer avec Adobe Campaign {#start}
    + [Prise en main](get-started/get-started.md)
    + [Se connecter à Campaign](get-started/connect-to-campaign.md)
    + [Découvrir l’interface](get-started/user-interface.md)
@@ -53,13 +53,13 @@ ht-degree: 93%
    + Notifications push {#push}
       + [Commencer avec les notifications push](push/gs-push.md)
       + [Créer une diffusion notification push](push/create-push.md)
-      + Notification push riche {#rich-push}
+      + Notification push enrichie {#rich-push}
          + [Concevoir une diffusion de notification push Android enrichie](push/rich-push.md)
          + [Concevoir une diffusion de notification push iOS enrichie](push/rich-push-ios.md)
       + [Concevoir une diffusion de notification push](push/content-push.md)
       + [Prévisualiser et envoyer une diffusion push](push/send-push.md)
    + SMS {#sms}
-      + [Prise en main des diffusions SMS](sms/gs-sms.md)
+      + [Commencer avec les diffusions SMS](sms/gs-sms.md)
       + [Créer une diffusion SMS](sms/create-sms.md)
       + [Créer une diffusion par SMS](sms/content-sms.md)
       + [Prévisualiser et envoyer une diffusion par SMS](sms/send-sms.md)
@@ -69,8 +69,8 @@ ht-degree: 93%
       + [Concevoir le fichier d’extraction](direct-mail/content-direct-mail.md)
       + [Prévisualiser et envoyer une diffusion par courrier](direct-mail/send-direct-mail.md)
    + Centre d’appel {#call-center}
-      + [Prise en main des diffusions du centre d’appel](call-center/gs-call-center.md)
-      + [Création et envoi d&#39;une diffusion de centre d&#39;appels](call-center/create-call-center.md)
+      + [Commencer avec les diffusions de centre d’appel](call-center/gs-call-center.md)
+      + [Créer et envoyer une diffusion de centre d’appel](call-center/create-call-center.md)
    + Messages transactionnels {#transactional-messages}
       + [Commencer avec les messages transactionnels](transactional-messaging/transactional.md)
       + [Créer un message transactionnel](transactional-messaging/create-transactional.md)
@@ -90,29 +90,29 @@ ht-degree: 93%
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
       + [Critères des alertes de diffusion](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
-   + Création de contenu dynamique {#dynamic-content}
+   + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
       + [Ajouter de la personnalisation](personalization/personalize.md)
       + [Créer du contenu conditionnel](personalization/conditions.md)
-   + Réutiliser le contenu {#manage-reusable-content}
+   + Réutiliser du contenu {#manage-reusable-content}
       + [Utiliser des modèles de contenu](email/create-email-templates.md)
       + Fragments de contenu {#fragments}
          + [Commencer avec les fragments de contenu](content/fragments.md)
          + [Créer et modifier des fragments de contenu](content/create-fragment.md)
          + [Utiliser des fragments visuels dans vos e-mails](content/use-visual-fragments.md)
          + [Utiliser des fragments d’expression dans l’éditeur d’expression](content/use-expression-fragments.md)
-   + Conception d&#39;e-mails {#email-design}
+   + Concevoir des e-mails {#email-design}
       + [Commencer avec le concepteur d’e-mail](email/get-started-email-designer.md)
-      + Commencer à rédiger l’e-mail {#start-design}
+      + Commencer à rédiger votre e-mail {#start-design}
          + [Démarrer en partant de zéro](email/create-email-content.md)
          + [Importer le contenu des e-mails](email/existing-content.md)
          + [Coder votre propre contenu](email/code-content.md)
          + [Utiliser des modèles de contenu d’e-mail](email/use-email-templates.md)
-      + Concevoir votre contenu {#design-content}
+      + Concevoir le contenu {#design-content}
          + [Utiliser les composants de contenu](email/content-components.md)
          + [Ajouter des liens et suivre les messages](email/message-tracking.md)
          + [Ajouter un lien vers la page miroir](email/mirror-page.md)
-         + [Ajout de métadonnées](email/metadata.md)
+         + [Ajouter des métadonnées](email/metadata.md)
          + [Générer la version texte](email/text-version-email.md)
       + Donner un style à votre contenu {#style}
          + [Prise en main du style des e-mails](email/get-started-email-style.md)
@@ -121,7 +121,7 @@ ht-degree: 93%
          + [Définir un style pour les liens](email/styling-links.md)
          + [Ajouter des attributs de style intégrés](email/inline-styling.md)
    + Assistant IA {#ai-assistant}
-      + [Utiliser l’assistant d’IA](email/generative-gs.md)
+      + [Utiliser l’assistant IA](email/generative-gs.md)
       + [Génération d’e-mails avec IA](email/generative-content.md)
       + [Génération de SMS avec IA](email/generative-sms.md)
       + [Génération de notifications push avec IA](email/generative-push.md)
@@ -136,11 +136,11 @@ ht-degree: 93%
    + [Modifier le contenu d’une page de destination](landing-pages/lp-content.md)
    + [Utiliser des modèles de page de destination](landing-pages/lp-templates.md)
    + [Apprendre avec des cas d’utilisation](landing-pages/lp-use-cases.md)
-+ Profils et audiences  {#audiences}
-   + [Prise en main des profils et des audiences](audience/gs-audiences-recipients.md)
++ Profils et audiences {#audiences}
+   + [Commencer avec les profils et les audiences](audience/gs-audiences-recipients.md)
    + [Dimensions de ciblage](audience/targeting-dimensions.md)
    + [Quarantaine](audience/quarantine.md)
-   + Utilisation de profils {#work-with-profiles}
+   + Utilisation des profils {#work-with-profiles}
       + [Commencer avec les profils](audience/about-recipients.md)
       + [Explorer les détails des profils](audience/profile-view.md)
       + [Créer un profil](audience/create-profile.md)
@@ -148,7 +148,7 @@ ht-degree: 93%
    + Utiliser les audiences {#audiences}
       + [Commencer avec les audiences](audience/manage-audience.md)
       + [Créer des audiences](audience/create-audience.md)
-   + Sélectionner les destinataires de la diffusion {#target-audiences}
+   + Sélectionner les personnes destinataires de vos diffusions {#target-audiences}
       + [Commencer avec la sélection d’audiences](audience/delivery-recipients.md)
       + [Sélectionner une audience existante](audience/add-audience.md)
       + [Créer une audience ponctuelle](audience/one-time-audience.md)
