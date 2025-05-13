@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Rendez-vous
 description: Découvrez comment utiliser l’activité de workflow Rendez-vous.
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 45%
 >title="Activité Rendez-vous"
 >abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’un workflow. Elle est déclenchée une fois toutes les activités précédentes terminées. Cela permet de s’assurer que certaines activités sont terminées avant de continuer à exécuter le workflow."
 
-L’activité **Rendez-vous** est une activité de **contrôle de flux**. Il synchronise plusieurs branches d’exécution d’un workflow.
+L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle synchronise plusieurs branches d’exécution d’un workflow.
 
-Cette activité ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées. En d’autres termes, il s’active une fois toutes les activités précédentes terminées. Cela permet de s’assurer que certaines activités sont terminées avant de continuer à exécuter le workflow.
+Cette activité ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées. En d’autres termes, elle s’active une fois toutes les activités précédentes terminées. Cela permet de s’assurer que certaines activités sont terminées avant de continuer à exécuter le workflow.
 
 ## Configurer l’activité Rendez-vous {#and-join-configuration}
 
@@ -30,12 +30,12 @@ Cette activité ne déclenche sa transition sortante qu’une fois toutes les tr
 
 Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 
-![Capture d’écran affichant l’interface de configuration de l’activité AND-join.](../assets/workflow-andjoin.png)
+![Capture d’écran affichant l’interface de configuration de l’activité Rendez-vous.](../assets/workflow-andjoin.png)
 
-1. Ajoutez plusieurs activités, telles que des activités de canal, pour former au moins deux branches d’exécution différentes.
+1. Ajoutez plusieurs activités telles que des activités de canal afin de former au moins deux branches d’exécution différentes.
 1. Ajoutez une activité **Rendez-vous** à l’une des branches.
-1. Dans la section **Options de fusion**, cochez toutes les activités précédentes à joindre.
-1. Dans le menu déroulant Ensemble de Principal **&#x200B;**&#x200B;choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l’une des populations de la transition entrante.
+1. Dans les **Options de fusion**, cochez les activités précédentes à joindre.
+1. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l’une des populations de la transition entrante.
 
 ## Exemple {#and-join-example}
 

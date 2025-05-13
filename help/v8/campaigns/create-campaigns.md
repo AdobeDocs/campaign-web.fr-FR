@@ -4,9 +4,9 @@ title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 69%
 >title="Propriétés de la campagne"
 >abstract="Dans cet écran, vous pouvez vérifier et mettre à jour les paramètres de votre campagne : son libellé, son nom interne, son dossier et sa description. Vous pouvez également afficher la personne à laquelle elle est affectée."
 
-Pour créer une campagne, définissez ses paramètres, planifiez et incluez des workflows et des diffusions.
+Pour créer une campagne, définissez ses paramètres et son planning, puis incluez des workflows et des diffusions.
 
 ## Créer la campagne {#campaign-create}
 
@@ -30,18 +30,18 @@ Pour créer une campagne procédez comme suit :
 
 1. Cliquez sur le menu **[!UICONTROL Campagnes]**, puis sur le bouton **[!UICONTROL Créer une campagne]**.
 
-   ![Capture d’écran affichant le bouton « Créer une campagne » dans le menu Campagnes ](assets/create-campaign-button.png)
+   ![Capture d’écran montrant le bouton « Créer une campagne » dans le menu Campagnes](assets/create-campaign-button.png)
 
-1. Sélectionnez le **Modèle** à utiliser, puis fournissez un libellé pour la campagne. [En savoir plus](manage-campaigns.md#manage-campaign-templates).
-1. Si nécessaire, modifiez les **options supplémentaires** suivantes : nom interne, dossier, personne désignée, description et nature.
-1. Définissez le **planning** de votre campagne. Découvrez comment définir le planning de vos campagnes dans [cette section](#campaign-schedule).
+1. Sélectionnez le **Modèle** à utiliser, puis saisissez un libellé pour la campagne. [En savoir plus](manage-campaigns.md#manage-campaign-templates).
+1. Si nécessaire, vous pouvez modifier les **options supplémentaires** suivantes : nom interne, dossier, personnes assignées, description et nature.
+1. Définissez le **planning** de votre campagne. Découvrez comment définir le planning de votre campagne dans [cette section](#campaign-schedule).
 1. Cliquez sur **Créer**.
 
-   ![Capture d’écran affichant l’écran des propriétés de la campagne, y compris les champs pour le nom interne, le dossier, la personne désignée, la description et la nature.](assets/create-a-campaign-properties.png)
+   ![Capture d’écran montrant l’écran des propriétés de la campagne, y compris les champs nom interne, dossier, personne désignée, description et nature.](assets/create-a-campaign-properties.png)
 
 1. Ajoutez des workflows et des diffusions à votre campagne :
 
-   * Dans l’onglet **Workflows**, cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. En savoir plus sur la [création d’un workflow](../workflows/create-workflow.md).
+   * Dans l’onglet **Workflows**, cliquez sur **Créer un workflow**. Un workflow par défaut est automatiquement ajouté lors de la création de votre campagne. Découvrez comment [créer un workflow](../workflows/create-workflow.md).
 
    * Dans l’onglet **Diffusions**, cliquez sur **Créer une diffusion**. [En savoir plus](../msg/gs-messages.md)
 
@@ -58,15 +58,15 @@ Vous pouvez également afficher les rapports dédiés en cliquant sur le bouton 
 >title="Planning de la campagne"
 >abstract="Sélectionnez le planning de la campagne. Vous pouvez créer la campagne, qui démarre à la date de début. Par défaut, la date de début de la campagne est sa date de création. Elle dure 5 jours. Les dates de début et de fin sont affichées dans la liste des campagnes et peuvent être utilisées comme filtre."
 
-La campagne démarre à la date de début. Tant que la date de début n’est pas atteinte, la campagne a le statut **[!UICONTROL Version préliminaire]**. Lorsque la date de début est atteinte, elle devient **[!UICONTROL En cours]**. Une fois la date de fin atteinte, le statut de la campagne est défini sur **[!UICONTROL Terminé]**.
+La campagne démarre à la date de début. Tant que la date de début n’est pas atteinte, la campagne a le statut **[!UICONTROL Version préliminaire]**. Lorsque la date de début est atteinte, le statut devient **[!UICONTROL En cours]**. Une fois la date de fin atteinte, le statut de la campagne est défini sur **[!UICONTROL Terminé]**.
 
 Les dates de début et de fin sont affichées dans la liste des campagnes et peuvent être utilisées comme filtre. Consultez cette [section](manage-campaigns.md#access-campaigns).
 
 >[!NOTE]
 >
->Vous pouvez modifier ces propriétés ultérieurement à partir de l’icône **Configurer les paramètres de campagne** située en regard du libellé de la campagne. Consultez cette [section](gs-campaigns.md#campaign-dashboard).
+>Vous pouvez toujours modifier ces propriétés ultérieurement à partir de l’icône **Configurer les paramètres de campagne** à côté du libellé de la campagne. Consultez cette [section](gs-campaigns.md#campaign-dashboard).
 
-Une fois la date atteinte, les diffusions créées dans cette campagne dans le cadre d’un workflow et prêtes à être envoyées sont envoyées. Pour cela, le workflow doit avoir été démarré.
+Une fois la date atteinte, les diffusions prêtes à être envoyées créées dans cette campagne dans le cadre d’un workflow sont envoyées. Pour cela, le workflow doit avoir été démarré.
 
 <!--
     +++WORKF

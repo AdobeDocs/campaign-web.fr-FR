@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Branchement
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 58%
 >title="Transitions de l’activité Branchement"
 >abstract="Par défaut, deux transitions sont créées avec une activité **Branchement**. Cliquez sur le bouton **Ajouter une transition** pour définir une transition sortante supplémentaire, puis renseignez son libellé."
 
-L’activité **Branchement** est une activité de **contrôle de flux**. Il permet de créer des transitions sortantes afin de lancer plusieurs activités simultanément.
+L’activité **Branchement** est une activité de **contrôle de flux**. Elle permet de créer des transitions sortantes afin de lancer plusieurs activités simultanément.
 
 ## Configurer l’activité Branchement {#fork-configuration}
 
@@ -33,13 +33,13 @@ Pour configurer l’activité **Branchement**, procédez comme suit :
 
 1. Ajoutez une activité **Branchement** à votre workflow.
 1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
-1. Ajoutez un libellé à chaque transition.
+1. Ajoutez un Libellé à chaque diffusion.
 
 ## Exemple {#fork-example}
 
-Dans l&#39;exemple suivant, deux activités **Branchement** sont utilisées :
+Dans l’exemple suivant, deux activités **Branchement** sont utilisées :
 
 * Une avant les deux requêtes, pour les exécuter simultanément.
-* Une après l’intersection, pour envoyer simultanément un e-mail et un SMS à la population ciblée.
+* Une après l’intersection, pour envoyer simultanément un e-mail et un SMS à la population ciblée.
 
-![Capture d’écran d’exemple de formulaire de workflow](../assets/workflow-fork-example.png)
+![Capture d’écran d’exemple de branchement de workflow](../assets/workflow-fork-example.png)

@@ -4,9 +4,9 @@ title: À propos de la prévisualisation et du test des diffusions
 description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 57%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=fr" text="Envoyer des BAT"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=fr#test-landing-page" text="Tester des pages de destination"
 
-Une fois le contenu de la diffusion défini, vous pouvez utiliser des profils et des profils de test pour le prévisualiser et le tester avant d’envoyer le message. Cette étape garantit la précision et élimine les erreurs dans le contenu et les paramètres de personnalisation.
+Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils et les profils de test pour le prévisualiser et le tester avant d’envoyer le message. Cette étape garantit la précision et élimine les erreurs dans le contenu et les paramètres de personnalisation.
 
 [!DNL Adobe Campaign Web user interface] vous permet d’effectuer les opérations suivantes :
 
@@ -28,7 +28,7 @@ Une fois le contenu de la diffusion défini, vous pouvez utiliser des profils et
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
 * [Prévisualiser et tester vos pages de destination](../landing-pages/create-lp.md#test-landing-page)
 
-Pour effectuer ces actions, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**, accessible à partir de l’écran de modification du contenu de la diffusion ou du [Designer d’e-mail](../email/get-started-email-designer.md).
+Effectuez ces actions à l’aide du bouton **[!UICONTROL Simuler le contenu]**, accessible à partir de l’écran Modifier le contenu de la diffusion ou du [concepteur d’e-mail](../email/get-started-email-designer.md).
 
 ![Bouton Simuler du contenu dans l’écran de modification du contenu de votre diffusion](assets/simulate-button.png){zoomable="yes"}
 

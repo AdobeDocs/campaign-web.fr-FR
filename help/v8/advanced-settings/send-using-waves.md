@@ -5,9 +5,9 @@ description: En savoir plus sur les paramètres de diffusion dans Campaign Web
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Pour envoyer des diffusions par vagues, procédez comme suit.
 
    >[!CAUTION]
    >
-   >Veillez à ce que les dernières vagues ne dépassent pas la date limite d’envoi qui est définie dans l’onglet [Validité](delivery-settings.md#validity). Sinon, certains messages peuvent ne pas être envoyés. Une règle de contrôle de typologie spécifique, la **[!UICONTROL vérification de la planification des vagues]**, garantit que la dernière vague est planifiée avant la limite de validité de la diffusion. Pour en savoir plus sur les règles de contrôle, consultez la documentation de [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=fr).
+   >Veillez à ce que les dernières vagues ne dépassent pas la date limite d’envoi qui est définie dans l’onglet [Validité](delivery-settings.md#validity). Sinon, certains messages peuvent ne pas être envoyés. Une règle de contrôle de typologie spécifique, la **[!UICONTROL vérification de la planification des vagues]**, garantit que la dernière vague est planifiée avant la limite de validité de la diffusion. En savoir plus sur les règles de contrôle dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=fr)
    >
    >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. [En savoir plus](delivery-settings.md#retries)
 
@@ -70,7 +70,7 @@ Grâce aux vagues, vous pouvez limiter le nombre des messages à 20 par jour, c
 
 Pour ce faire, sélectionnez l’option **[!UICONTROL Planification de plusieurs vagues de même taille]**. Saisissez **[!UICONTROL 20]** comme taille de vague et **[!UICONTROL 1 j]** dans le champ **[!UICONTROL Intervalle]**.
 
-![Exemple d’ondes pour le traitement du centre d’appels](assets/waves-call-center.png){zoomable="yes"}
+![Exemple de vagues pour le traitement d’un centre d’appels](assets/waves-call-center.png){zoomable="yes"}
 
 ## Planifier des vagues selon un calendrier {#waves-calendar}
 
@@ -88,14 +88,14 @@ Ajoutez autant de vagues que nécessaire. Réorganisez-les selon vos besoins.
 
 Dans l’exemple ci-dessous, la première vague représente 25 % du nombre total de messages inclus dans la diffusion et démarre immédiatement. Les deux vagues suivantes terminent la diffusion et sont définies pour commencer à six heures d’intervalle.
 
-![Exemple de vagues programmées par calendrier](assets/waves-calendar.png){zoomable="yes"}
+![Exemple de vagues programmées selon un calendrier](assets/waves-calendar.png){zoomable="yes"}
 
-Un cas d’utilisation courant pour l’utilisation de plusieurs vagues selon un calendrier se produit pendant le processus de montée en réputation.
+Le processus d’accélération constitue un cas d’utilisation courant de plusieurs vagues selon un calendrier.
 
 Lorsque vous envoyez des emails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des emails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
 
-Pour éviter d’être marqué comme indésirable, augmentez progressivement le volume envoyé à l’aide des vagues. Cela permet de garantir le bon développement de la phase de démarrage et de réduire le taux global d’adresses non valides.
+Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume d’envoi à l’aide de vagues. Cela permet d’assurer une phase de démarrage en douceur tout en réduisant le taux d’adresses invalides.
 
 Pour ce faire, utilisez l’option **[!UICONTROL Planifier les vagues selon un calendrier]**. Par exemple, définissez la première vague sur 10 %, la deuxième sur 15 %, la troisième sur 20 %, etc.
 
-![Exemple de vagues pour le processus de montée en puissance](assets/waves-ramp-up.png){zoomable="yes"}
+![Exemple de vagues pour le processus d’accélération](assets/waves-ramp-up.png){zoomable="yes"}

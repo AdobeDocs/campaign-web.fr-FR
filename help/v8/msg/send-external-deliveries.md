@@ -4,19 +4,19 @@ title: Commencer avec les diffusions externes
 description: Découvrir comment créer et envoyer des diffusions externes à l’aide d’Adobe Campaign Web
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 # Envoyer des diffusions externes {#gs-direct-mail}
 
-Adobe Campaign vous permet de gérer les diffusions créées en dehors de Campaign afin de diffuser en masse des e-mails personnalisés, des SMS ou des notifications push (iOS et Android) via un système externe.
+Adobe Campaign vous permet de gérer des diffusions créées en dehors de Campaign afin de diffuser en masse des e-mails personnalisés, des SMS ou des notifications push (iOS et Android) via un système externe.
 
 <!--The supported channels are Email, Mobile (SMS), and Push (iOS and Android).-->
 
-Lors de la création d&#39;une diffusion externe, Adobe Campaign génère automatiquement un fichier d&#39;extraction contenant tous les profils ciblés et les données sélectionnées. Ce fichier est envoyé au serveur de votre choix, qui gère le processus d’envoi.
+Lors de la création d’une diffusion externe, Adobe Campaign génère automatiquement un fichier d’extraction contenant tous les profils ciblés et les données sélectionnées. Ce fichier est envoyé au serveur de votre choix, qui va gérer le processus d’envoi.
 
 ## Créer un compte externe dédié {#routing-external-account}
 
@@ -38,11 +38,11 @@ Une fois le compte externe spécifique configuré, créez la diffusion externe. 
 
    Trois options s’offrent à vous :
 
-   * **Dans un workflow** : ajoutez une activité de canal externe (e-mail, SMS ou notification push) à votre workflow. Pour obtenir des instructions détaillées sur la configuration des workflows, consultez [cette page](../workflows/gs-workflow-creation.md).
-   * **Dans une campagne** : après avoir créé une campagne, vous pouvez créer une diffusion externe de canal e-mail, SMS ou push. Pour plus d’informations sur la configuration de votre campagne, consultez [cette page](../campaigns/gs-campaigns.md).
+   * **Dans un workflow** : ajoutez une activité de canal externe (e-mail, SMS ou notification push) à votre workflow. Pour obtenir des instructions détaillées sur la configuration d’un workflow, consultez [cette page](../workflows/gs-workflow-creation.md).
+   * **Dans une campagne** : après avoir créé une campagne, vous pouvez créer une diffusion externe de canal e-mail, SMS ou notification push. Pour plus d’informations sur la configuration de votre campagne, consultez [cette page](../campaigns/gs-campaigns.md).
    * **Diffusion autonome** : interagissez directement et instantanément avec vos clientes et clients à l’aide d’une diffusion externe individuelle. [Apprendre à créer une diffusion](../msg/gs-deliveries.md)
 
-1. Dans la diffusion ou le modèle de diffusion [paramètres](../advanced-settings/delivery-settings.md), sélectionnez le compte externe créé pour le canal de votre choix (dans cet exemple, le canal SMS) et enregistrez.
+1. Dans les [paramètres](../advanced-settings/delivery-settings.md) de la diffusion ou du modèle de diffusion, sélectionnez le compte externe créé pour le canal de votre choix (dans cet exemple, le canal SMS) et enregistrez.
 
    ![Configuration du routage de la diffusion externe](assets/external-delivery-routing.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Une fois le compte externe spécifique configuré, créez la diffusion externe. 
 
    ![Modifier le contenu dans la diffusion externe](assets/external-delivery-edit-content.png){zoomable="yes"}
 
-1. Contrairement à une diffusion standard, vous ne concevez pas le contenu du message lui-même. Définissez plutôt les propriétés et les colonnes du fichier qui sera envoyé au système externe.
+1. Contrairement à une diffusion standard, vous ne concevez pas le contenu du message lui-même. Vous devez plutôt définir les propriétés et les colonnes du fichier qui sera envoyé au système externe.
 
    ![Configuration des propriétés du fichier pour une diffusion externe](assets/external-delivery-file-properties.png){zoomable="yes"}
 
@@ -63,7 +63,7 @@ Une fois le compte externe spécifique configuré, créez la diffusion externe. 
    * Définissez les propriétés du fichier d’extraction. [En savoir plus](../direct-mail/content-direct-mail.md#properties)
    * Sélectionnez les colonnes contenant les informations à exporter dans le fichier. [En savoir plus](../direct-mail/content-direct-mail.md#content)
 
-1. Prévisualisez le fichier et envoyez des BAT<!--not in UI right now - to check--> [Voici comment procéder](../direct-mail/send-direct-mail.md#preview-dm)
+1. Prévisualisez le fichier et envoyez des BAT<!--not in UI right now - to check-->. [Voici comment procéder](../direct-mail/send-direct-mail.md#preview-dm)
 
    ![Simuler une diffusion externe](assets/external-delivery-simulate.png){zoomable="yes"}
 
@@ -71,4 +71,4 @@ Une fois le compte externe spécifique configuré, créez la diffusion externe. 
 
 Une fois la diffusion envoyée, le fichier d’extraction est automatiquement généré et exporté vers l’emplacement spécifié dans le [compte externe](../administration/external-account.md#create-ext-account) sélectionné dans les paramètres du modèle de diffusion.
 
-Suivez les KPI à partir de la page de diffusion et les données à partir du menu **[!UICONTROL Journaux]**.
+Suivez les KPI à partir de la page de la diffusion et le données à partir du menu **[!UICONTROL Logs]**.

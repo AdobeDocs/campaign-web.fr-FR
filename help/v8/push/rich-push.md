@@ -4,9 +4,9 @@ title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->* Cette fonctionnalité nécessite une mise à jour vers Campaign v8.6.3 <!--or v8.7.2-->. En savoir plus dans les [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} de la console cliente Campaign v8.
+>* Cette fonctionnalité nécessite une mise à jour vers Campaign v8.6.3 <!--or v8.7.2-->. Pour en savoir plus, consultez les [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} de la console cliente Campaign v8.
 >
 >* Avant de concevoir une notification push enrichie, vous devez d’abord configurer votre connecteur V2. Consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} pour accéder à la procédure détaillée.
 
@@ -78,7 +78,7 @@ Accédez aux onglets ci-dessous pour en savoir plus sur la personnalisation de c
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
 >[!TAB De base]
 
@@ -128,7 +128,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
 >[!TAB Carousel]
 
@@ -173,11 +173,11 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
    ![](assets/rich_push_carousel_3.png)
 
-1. Gérez l’ordre de vos images à l’aide des flèches haut et bas.
+1. Ajustez l’ordre de vos images à l’aide des flèches haut et bas.
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
 >[!TAB Boutons d’icônes]
 
@@ -209,13 +209,13 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
    ![](assets/rich_push_icon_3.png)
 
-1. Gérez l’ordre de vos images à l’aide des flèches haut et bas.
+1. Ajustez l’ordre de vos images à l’aide des flèches haut et bas.
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
    ![](assets/rich_push_icon_4.png)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
 >[!TAB Zone d’entrée]
 
@@ -256,7 +256,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
 >[!TAB Catalogue des produits]
 
@@ -294,11 +294,11 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
    ![](assets/rich_push_catalog_3.png)
 
-1. Gérez l’ordre de vos images à l’aide des flèches haut et bas.
+1. Ajustez l’ordre de vos images à l’aide des flèches haut et bas.
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
 >[!TAB Notation des produits]
 
@@ -336,11 +336,11 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
    ![](assets/rich_push_rating_4.png)
 
-1. Gérez l’ordre de vos images à l’aide des flèches haut et bas.
+1. Ajustez l’ordre de vos images à l’aide des flèches haut et bas.
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
 >[!TAB Retardateur]
 
@@ -380,7 +380,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
 >[!TAB Zéro Bezel]
 
@@ -416,11 +416,11 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Configurez les **[!UICONTROL Paramètres avancés]** de votre notification push. [En savoir plus](#push-advanced)
 
-Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées test pour prévisualiser et tester le message.
+Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
 >[!ENDTABS]
 
-## Paramètres avancés des notifications push {#push-advanced}
+## Paramètres avancés des notifications Push {#push-advanced}
 
 ![](assets/push_content_5.png){zoomable="yes"}
 

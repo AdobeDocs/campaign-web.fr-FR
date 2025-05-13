@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2043'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 79%
 
 L’activité **Enrichissement** est une activité de **ciblage**. Elle améliore les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de segmentation.
 
-Les données d’enrichissement peuvent provenir de l’une des sources suivantes :
+Les données d’enrichissement tirent leur origine des sources suivantes :
 
-* **Le même tableau de travail** que celui ciblé dans votre workflow :
-   * Ciblez un groupe de clients et de clientes et ajoutez le champ « Date de naissance » au tableau de travail actuel.
+* **Le même tableau de travail** que celui ciblé dans votre workflow :
+   * Ciblez un groupe de clientes et de clients et ajoutez le champ « Date de naissance » au tableau de travail actuel.
 
-* **Autre table de travail** :
-   * Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » du tableau « Achat ».
+* **Un autre tableau de travail** :
+   * Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat ».
 
-Une fois que les données d’enrichissement ont été ajoutées au workflow, elles peuvent être utilisées dans les activités suivantes pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Il peut également être utilisé pour créer des messages et des campagnes marketing personnalisés qui trouvent un écho auprès de votre audience cible.
+Une fois que les données d’enrichissement ont été ajoutées au workflow, elles peuvent être utilisées dans les activités suivantes pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Elles peuvent également être utilisées pour créer des messages et des campagnes marketing personnalisés qui résonnent auprès de votre audience cible.
 
-Par exemple, vous pouvez ajouter au tableau de workflow des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
+Par exemple, vous pouvez ajouter des informations relatives aux achats des clientes et clients au tableau de travail du workflow et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
 
 ## Ajouter une activité Enrichissement {#enrichment-configuration}
 
@@ -38,7 +38,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
 1. Ajoutez des activités telles que **Créer une audience** et **Combiner**.
 1. Ajoutez une activité **Enrichissement**.
-1. Si plusieurs transitions sont configurées dans votre workflow, utilisez le champ **[!UICONTROL Ensemble de Principal]** pour définir la transition à utiliser comme ensemble principal pour l’enrichissement.
+1. Si plusieurs transitions ont été configurées dans votre workflow, vous pouvez utiliser le champ **[!UICONTROL Ensemble principal]** pour définir la transition à utiliser comme ensemble principal pour l’enrichissement.
 
 ## Ajouter des données d’enrichissement {#enrichment-add}
 
@@ -50,40 +50,40 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Activité Enrichissement"
->abstract="Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités suivantes pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui trouvent un écho auprès de votre audience cible."
+>abstract="Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités suivantes pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins ou pour créer des messages et des campagnes marketing personnalisés qui résonneront auprès de votre audience cible."
 
 1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour l’enrichissement. [Découvrez comment sélectionner des attributs et les ajouter aux favoris](../../get-started/attributes.md).
 
-   Vous pouvez sélectionner deux types de données d’enrichissement : un attribut d’enrichissement unique de la dimension cible ou un lien de collection. Chaque type est détaillé dans les exemples ci-dessous :
+   Vous pouvez sélectionner deux types de données d’enrichissement : un attribut d’enrichissement unique de la dimension cible, ou un lien de collection. Chacun des types est détaillé dans les exemples ci-dessous :
    * [Attribut d’enrichissement unique](#single-attribute)
-   * [Lien de collecte](#collection-link)
+   * [Lien de collection](#collection-link)
 
    >[!NOTE]
    >
    >Le **bouton Modifier l’expression** dans l’écran de sélection d’attributs vous permet de créer des expressions avancées pour sélectionner l’attribut. [Découvrez comment utiliser l’éditeur d’expression](../../query/expression-editor.md).
 
-   ![Capture d’écran affichant l’écran de sélection des données d’enrichissement](../assets/workflow-enrichment1.png)
+   ![Copie d’écran affichant l’écran de sélection des données d’enrichissement](../assets/workflow-enrichment1.png)
 
 ## Créer de liens entre les tables {#create-links}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Définition du lien"
->abstract="Créez un lien entre les données du tableau de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’adresse e-mail des destinataires, vous devez créer un lien vers la table des pays pour mettre à jour ces informations dans leurs profils."
+>abstract="Créez un lien entre les données du tableau de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’adresse e-mail des destinataires, vous pouvez maintenant créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil."
 
-La section **[!UICONTROL Définition du lien]** permet de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’adresse e-mail des destinataires, vous devez créer un lien vers la table des pays pour mettre à jour ces informations dans leurs profils.
+La section **[!UICONTROL Définition du lien]** permet de créer un lien entre les données de la table de travail et la base de données Adobe Campaign. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’adresse e-mail des destinataires, vous pouvez maintenant créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil.
 
 Plusieurs types de liens sont disponibles :
 
-* Lien simple de cardinalité **[!UICONTROL 1]** : chaque enregistrement de l&#39;ensemble principal est associé à un et un seul enregistrement des données liées.
-* Lien simple de cardinalité **[!UICONTROL 0 ou 1]** : chaque enregistrement de l&#39;ensemble principal est associé à 0 ou 1 enregistrement des données liées, mais pas plus d&#39;un.
-* **[!UICONTROL Lien de collecte de cardinalité N]** : chaque enregistrement de l&#39;ensemble principal est associé à 0, 1 ou plusieurs (N) enregistrements des données liées.
+* **[!UICONTROL Lien simple de cardinalité 1]** : chaque enregistrement de l’ensemble principal est associé à un seul enregistrement des données liées.
+* **[!UICONTROL Lien simple de cardinalité 0 ou 1]** : chaque enregistrement de l’ensemble principal est associé à 0 ou 1 enregistrement des données liées (et pas plus de un).
+* **[!UICONTROL Lien de collection de cardinalité N]** : chaque enregistrement de l’ensemble principal peut être associé à 0, 1 ou plus (N) d’enregistrements des données liées.
 
 Pour créer un lien, procédez comme suit :
 
 1. Dans la section **[!UICONTROL Définition du lien]**, cliquez sur le bouton **[!UICONTROL Ajouter un lien]**.
 
-   ![Capture d’écran affichant la section de définition du lien](../assets/workflow-enrichment-link.png)
+   ![Copie d’écran affichant la section de définition des liens](../assets/workflow-enrichment-link.png)
 
 1. Dans la liste déroulante **Type de relation**, sélectionnez le type de lien que vous souhaitez créer.
 
@@ -196,7 +196,7 @@ Ici, nous ajoutons un seul attribut d’enrichissement, par exemple, la date de 
 
 ![](../assets/workflow-enrichment2.png)
 
-### Lien de collecte {#collection-link}
+### Lien de collection {#collection-link}
 
 Dans ce cas pratique plus complexe, nous sélectionnons un lien de collecte qui est un lien avec une cardinalité 1-N entre les tableaux. Récupérons les trois derniers achats inférieurs à 100 USD. Pour cela, vous devez définir :
 

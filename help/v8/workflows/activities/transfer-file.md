@@ -4,9 +4,9 @@ title: Utiliser l’activité Transfert de fichier
 description: Découvrir comment utiliser l’activité de workflow Transfert de fichier
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1253'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -41,15 +41,15 @@ L’activité **Transfert de fichier** est une activité de **Gestion des donné
 
 >[!NOTE]
 >
->Avec l’interface utilisateur web de Campaign, deux activités ont été consolidées en une seule en fusionnant les fonctionnalités **Transfert de fichier** et **Téléchargement web**. Cette consolidation n’a aucun impact sur les fonctionnalités de l’activité.
+>Avec l’interface d’utilisation de Campaign Web, deux activités ont été consolidées en une seule en fusionnant les fonctionnalités **Transfert de fichier** et **Téléchargement web**. Cette consolidation n’a aucun impact sur les fonctionnalités de l’activité.
 
 Suivez les étapes détaillées ci-dessous pour configurer l’activité **Transfert de fichier**.
 
 ## Choisir le protocole de transfert et l’opération {#protocol}
 
-1. Ajoutez une activité **Transfert de fichier** dans votre workflow, puis indiquez le type de transfert à effectuer en fonction du protocole que vous souhaitez utiliser :
+1. Ajoutez une activité **Transfert de fichier** dans votre workflow, puis indiquez le type de transfert à effectuer en fonction du protocole que vous souhaitez utiliser :
 
-   * Pour le protocole HTTP, sélectionnez **[!UICONTROL Téléchargement web]**. Vous pouvez ainsi effectuer une opération GET ou POST pour télécharger un fichier sur une URL explicite, un compte externe ou une instance Adobe Campaign.
+   * Pour le protocole HTTP, sélectionnez **[!UICONTROL Téléchargement web]**. Vous pouvez ainsi effectuer une opération GET ou POST pour télécharger un fichier sur une URL explicite, un compte externe ou une instance Adobe Campaign.
    * Pour les autres protocoles serveur à serveur et actions connexes, sélectionnez **[!UICONTROL Transfert de fichier]**.
 
 1. Sélectionnez l’action à exécuter avec l’activité. Les actions disponibles dépendent du type de transfert que vous avez sélectionné. Pour plus d’informations, développez les sections ci-dessous.
@@ -57,18 +57,18 @@ Suivez les étapes détaillées ci-dessous pour configurer l’activité **Trans
    +++Actions disponibles avec les activités de type **Transfert de fichier**
 
    * **[!UICONTROL Téléchargement web]** : téléchargez un fichier à partir du serveur.
-   * **[!UICONTROL Chargement de fichier]** : chargez un fichier sur le serveur.
-   * **[!UICONTROL Test d’existence de fichier]** : vérifiez la présence d’un fichier donné sur le serveur. Génère deux transitions sortantes après l’activité : « Fichier existant » et « Fichier inexistant ».
+   * **[!UICONTROL Chargement de fichier]** : chargez un fichier sur le serveur.
+   * **[!UICONTROL Test d’existence de fichier]** : vérifiez la présence d’un fichier donné sur le serveur. Génère deux transitions sortantes après l’activité : « Fichier existe » et « Fichier n’existe pas ».
    * **[!UICONTROL Liste de fichiers]** : liste de tous les fichiers disponibles sur le serveur.
 
-   +++
++++
 
    +++Actions disponibles avec les activités de type **Téléchargement web**
 
    * **[!UICONTROL Transfert simple (GET)]** : récupérez un fichier.
    * **[!UICONTROL Transfert à l’aide d’un formulaire (POST)]** : chargez un fichier et des paramètres supplémentaires.
 
-   +++
++++
 
    ![Capture d’écran affichant les options d’action du fichier de transfert de workflow](../assets/workflow-transfer-file-action.png)
 
@@ -86,7 +86,7 @@ Suivez les étapes détaillées ci-dessous pour configurer l’activité **Trans
 
    ![Capture d’écran affichant les options de configuration du serveur de fichiers de transfert de workflow](../assets/workflow-transfer-file-server.png)
 
-1. Pour les actions POST de téléchargement web, vous pouvez transmettre des paramètres supplémentaires avec l’opération. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un paramètre]** puis indiquez le nom et la valeur des paramètres. Vous pouvez ajouter autant de paramètres que vous le souhaitez.
+1. Pour les actions POST de téléchargement web, vous pouvez transmettre des paramètres supplémentaires avec l’opération. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter un paramètre]**, puis indiquez le nom et la valeur des paramètres. Vous pouvez ajouter autant de paramètres que vous le souhaitez.
 
 1. Par défaut, pour le chargement de fichiers, les fichiers chargés sur un serveur sont automatiquement enregistrés. Si vous ne souhaitez pas conserver cet historique, désactivez l’option **[!UICONTROL Garder un historique des fichiers envoyés]**.
 
@@ -101,7 +101,7 @@ Suivez les étapes détaillées ci-dessous pour configurer l’activité **Trans
 
 ![Capture d’écran affichant les paramètres d’historisation du fichier de transfert de workflow](../assets/workflow-transfer-file-historization.png)
 
-Il est important de limiter la taille de ce dossier afin de préserver l’espace physique sur le serveur. Pour ce faire, définissez un nombre maximal de fichiers ou la taille totale du dossier de l’activité. Par défaut, 100 fichiers et 50 Mo sont autorisés.
+Il est important de limiter la taille de ce dossier pour préserver l’espace physique sur le serveur. Pour ce faire, définissez un nombre maximum de fichiers ou la taille totale du dossier de l’activité. Par défaut, 100 fichiers et 50 Mo sont autorisés.
 
 À chaque exécution de l’activité, le dossier est vérifié comme suit :
 
@@ -111,19 +111,19 @@ Il est important de limiter la taille de ce dossier afin de préserver l’espac
 
 >[!CAUTION]
 >
->Si l’activité n’est pas exécutée à nouveau, son dossier ne sera pas vérifié ni purgé. Soyez prudent lorsque vous transférez des fichiers volumineux.
+>Si l’activité n’est pas réexécutée, son dossier ne sera pas vérifié ni purgé. Faites attention lorsque vous transférez des fichiers volumineux.
 
 ## Options avancées et de gestion des erreurs {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Effacer les fichiers source après leur transfert"
->abstract="Effacez les fichiers sources après un transfert réussi."
+>abstract="Effacez les fichiers source après un transfert réussi."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Afficher les logs de la session"
->abstract="Les informations relatives à l’opération de transfert s’affichent dans les logs de workflow."
+>abstract="Les informations relatives à l’opération de transfert sont affichées dans les logs des workflows."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
@@ -144,11 +144,11 @@ Il est important de limiter la taille de ce dossier afin de préserver l’espac
 
    +++ Options supplémentaires pour les activités de type **[!UICONTROL Transfert de fichier]**
 
-   * **[!UICONTROL Effacer les fichiers sources après leur transfert]** : effacer les fichiers sources après un transfert réussi.
-   * **[!UICONTROL Afficher les logs de session]** : lorsque cette option est activée, les informations relatives à l’opération de transfert sont affichées dans les logs de workflow une fois le workflow exécuté.
+   * **[!UICONTROL Supprimer les fichiers source après leur transfert]** : effacez les fichiers source après un transfert réussi.
+   * **[!UICONTROL Afficher les logs de la session]** : lorsque cette option est activée, les informations relatives à l’opération de transfert s’affichent dans les logs du workflow une fois le workflow exécuté.
    * **[!UICONTROL Répertorier tous les fichiers]** (Actions de listage de fichiers) : cette option indexe tous les fichiers présents sur le serveur dans la variable d’événement `vars.filenames` dans laquelle les noms de fichier sont séparés par les caractères `n`. [Découvrir comment travailler avec les variables d’événement](../event-variables.md)
 
-   +++
++++
 
    +++Options supplémentaires pour les activités de type **[!UICONTROL Téléchargement web]**
 

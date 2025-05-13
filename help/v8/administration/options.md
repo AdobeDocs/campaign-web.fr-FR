@@ -3,9 +3,9 @@ title: 'Configurer les options de  [!DNL Campaign] '
 description: Découvrez comment configurer les options de Campaign et créer vos propres options personnalisées.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -21,22 +21,20 @@ ht-degree: 50%
 >title="Option Créer"
 >abstract="Option Créer"
 
-Adobe Campaign Web comprend des options techniques qui vous permettent de configurer l’application de manière plus spécifique. Certaines de ces options sont intégrées, tandis que d’autres peuvent être ajoutées manuellement en fonction des besoins.
+Adobe Campaign Web propose des options techniques qui vous permettent de configurer l’application de manière plus spécifique. Certaines de ces options sont intégrées, tandis que d’autres peuvent être ajoutées manuellement selon vos besoins.
 
->[!IMPORTANT]
->\
->Les options intégrées sont préconfigurées et ne doivent être modifiées que par des personnes expérimentées. Si vous avez des questions ou des demandes, contactez votre représentant Adobe.
+>[!IMPORTANT]\
+>Les options intégrées sont préconfigurées et ne doivent être modifiées que par des personnes expérimentées. Pour toute question ou demande, contactez votre représentant ou représentante Adobe.
 
 ## Accéder aux options de Campaign {#access}
 
-Les options sont disponibles à partir du menu **[!UICONTROL Administration]** / **[!UICONTROL Options]**. Utilisez le volet de filtrage pour réduire la liste et localiser rapidement l’option dont vous avez besoin.
+Les options sont disponibles à partir du menu **[!UICONTROL Administration]** / **[!UICONTROL Options]**. Utilisez le volet de filtrage pour affiner la liste et trouver rapidement l’option dont vous avez besoin.
 
 ![](assets/options-list.png)\
-[Liste des options du menu Administration / Options]
+[Liste des options du menu Administration/Options]
 
->[!NOTE]
->\
->Bien que l’emplacement du menu des options diffère entre la console Adobe Campaign et l’interface d’utilisation web, la liste est identique et fonctionne comme un miroir. Pour plus de détails sur les options disponibles, reportez-vous à la liste des options dans la documentation de [Campaign v7](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>[!NOTE]\
+>Bien que l’emplacement du menu des options diffère entre la console Adobe Campaign et l’interface d’utilisation web, la liste est identique et fonctionne comme un miroir. Pour plus d’informations sur les options disponibles, consultez la liste des options dans la [documentation de Campaign v7](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 Dans la liste des options, vous pouvez effectuer les actions suivantes :
 
@@ -46,7 +44,7 @@ Dans la liste des options, vous pouvez effectuer les actions suivantes :
 
 ## Créer une option {#create}
 
-L’interface utilisateur web d’Adobe Campaign vous permet de créer des options personnalisées pour répondre à vos besoins. Cela s’avère particulièrement utile lorsque vous utilisez des activités de workflow **[!UICONTROL Code JavaScript]** pour stocker des données intermédiaires.
+L’interface d’utilisation d’Adobe Campaign Web vous permet de créer vos propres options personnalisées en fonction de vos besoins. Cela s’avère particulièrement utile lorsque vous utilisez des activités de workflow **[!UICONTROL Code JavaScript]** pour stocker des données intermédiaires.
 
 Pour créer une option, procédez comme suit :
 
@@ -54,18 +52,18 @@ Pour créer une option, procédez comme suit :
 1. Attribuez un nom à l’option, sélectionnez son type et définissez la valeur souhaitée.
 1. Cliquez sur **[!UICONTROL Créer]** pour créer l’option.
 
-![Interface de création d’options affichant les champs de nom, de type et de valeur](assets/options-create.png)
+![Interface de création d’options montrant les champs de nom, de type et de valeur](assets/options-create.png)
 
-Les options peuvent servir de stockage temporaire des données et offrir les avantages suivants :
+Les options peuvent servir d’espace de stockage temporaire pour des données, ce qui offre les avantages suivants :
 
-* Valeurs saisies : les options prennent en charge des types de données spécifiques, tels que des dates, des entiers, des chaînes, etc.
+* Valeurs typées : les options prennent en charge les types de données spécifiques, tels que les dates, les entiers, les chaînes, etc.
 * Flexibilité : les options permettent aux utilisateurs et aux utilisatrices de stocker et de récupérer les données efficacement sans avoir à gérer des tables de bases de données.
 
-Dans l’exemple ci-dessous, une option personnalisée nommée `sampleOption` est créée avec la valeur initiale « a ». Une activité **[!UICONTROL Code JavaScript]** dans un workflow modifie la valeur de cette option et la stocke dans une variable. La valeur mise à jour s’affiche dans les logs du workflow et est reflétée dans le menu **[!UICONTROL Options]**.
+Dans l’exemple ci-dessous, une option personnalisée nommée `sampleOption` est créée avec la valeur initiale « a ». Une activité **[!UICONTROL Code JavaScript]** dans un workflow modifie la valeur de cette option et la stocke dans une variable. La valeur mise à jour s’affiche dans les logs du workflow et est reflétée dans le menu **[!UICONTROL Options]**.
 
 1. Créez l’option.
 
-   ![Interface de création d’option personnalisée affichant le `sampleOption` de nom et la valeur initiale « a »](assets/options-sample-create.png)
+   ![Interface de création d’option personnalisée montrant le nom `sampleOption` et la valeur initiale « a »](assets/options-sample-create.png)
 
 1. Configurez une activité **[!UICONTROL Code JavaScript]** et démarrez le workflow.
 
@@ -73,8 +71,8 @@ Dans l’exemple ci-dessous, une option personnalisée nommée `sampleOption` es
 
 1. Exécutez le workflow pour afficher la valeur mise à jour dans les logs du workflow.
 
-   ![Logs de workflow affichant la valeur mise à jour de l’option personnalisée](assets/options-sample-logs.png)
+   ![Journaux de workflow montrant la valeur mise à jour de l’option personnalisée](assets/options-sample-logs.png)
 
 1. La valeur mise à jour est désormais visible dans le menu **[!UICONTROL Options]**.
 
-   ![Menu Options affichant la valeur mise à jour de l’option personnalisée](assets/options-sample-updated.png)
+   ![Menu Options montrant la valeur mise à jour de l’option personnalisée](assets/options-sample-updated.png)

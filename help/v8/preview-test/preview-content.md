@@ -4,9 +4,9 @@ title: Prévisualiser le contenu de la diffusion
 description: Découvrez comment prévisualiser le contenu de votre diffusion avec l’interface utilisateur web de Campaign.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -14,25 +14,25 @@ ht-degree: 30%
 
 La fonctionnalité de simulation de contenu de [!DNL Campaign] permet de prévisualiser le contenu du message avant son envoi. Cette fonctionnalité vous permet de contrôler la personnalisation et de vérifier l’affichage du message pour vos destinataires.
 
-Pour prévisualiser le contenu de votre diffusion, procédez comme suit :
+Pour prévisualiser le contenu de votre diffusion, procédez comme suit :
 
 1. Accédez à l’écran de modification du contenu de la diffusion ou au [Concepteur d’e-mail](../email/get-started-email-designer.md).
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
-   ![Image illustrant le bouton Simuler du contenu](assets/simulate-button.png){zoomable="yes"}
+   ![Image affichant le bouton Simuler du contenu](assets/simulate-button.png){zoomable="yes"}
 
-1. Sélectionnez les profils à utiliser pour prévisualiser votre contenu. Pour effectuer cette action, cliquez sur le bouton **[!UICONTROL Ajouter un ou plusieurs profils de test]** (pour les e-mails et les SMS) ou sur le bouton **[!UICONTROL Ajouter un ou plusieurs abonnés]** (pour les notifications push).
+1. Sélectionnez les profils à utiliser pour prévisualiser votre contenu. Pour effectuer cette action, cliquez sur le bouton **[!UICONTROL Ajouter un ou des profils de test]** (pour les e-mails et les SMS) ou le bouton **[!UICONTROL Ajouter une ou des personnes abonnées]** (pour les notifications push).
 
-1. Combinez des profils et des profils de test pour prévisualiser votre e-mail ou SMS.
+1. Combinez les profils et les profils de test pour prévisualiser votre e-mail ou SMS.
 
-   * L’onglet **[!UICONTROL Profils de test]** répertorie les profils de test, qui représentent des personnes destinataires supplémentaires et fictives dans la base de données. [Découvrez comment utiliser les profils de test](../audience/test-profiles.md).
+   * L’onglet **[!UICONTROL Profils de test]** répertorie les profils de test, qui représentent des personnes destinataires supplémentaires et fictives dans la base de données. [Découvrez comment utiliser des profils test](../audience/test-profiles.md).
 
-   * L’onglet **[!UICONTROL Profils]** répertorie les profils stockés dans votre base de données. [Découvrez comment utiliser les profils](../audience/about-recipients.md).
+   * L’onglet **[!UICONTROL Profils]** répertorie les profils stockés dans votre base de données. [Découvrez comment utiliser des profils](../audience/about-recipients.md).
 
    ![Image montrant la sélection des profils](assets/simulate-select-profiles.png){zoomable="yes"}
 
-1. Lorsque vous parcourez le profil de test ou les listes de profils, utilisez des filtres pour affiner votre recherche. Par exemple, définissez une règle pour rechercher tous les profils de test avec le statut **[!UICONTROL Prospect]**. [Découvrez comment ajouter des règles à l’aide du concepteur de requête](../query/query-modeler-overview.md).
+1. Lorsque vous parcourez le profil de test ou la liste des profils, utilisez des filtres pour affiner votre recherche. Par exemple, définissez une règle pour rechercher tous les profils de test dotés du statut **[!UICONTROL Prospect]**. [Découvrez comment ajouter des règles à l’aide du concepteur de requête](../query/query-modeler-overview.md).
 
    ![Image montrant les filtres appliqués aux profils de test](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
@@ -40,13 +40,13 @@ Pour prévisualiser le contenu de votre diffusion, procédez comme suit :
 
    Un aperçu du contenu de la diffusion s’affiche dans le volet de droite de l’écran **[!UICONTROL Simuler]**. Les éléments personnalisés sont remplacés par les données du profil sélectionné dans le volet de gauche.
 
-   ![Image illustrant la prévisualisation du contenu de la diffusion](assets/simulate-preview.png){zoomable="yes"}
+   ![Image affichant la prévisualisation du contenu de la diffusion](assets/simulate-preview.png){zoomable="yes"}
 
-1. Si plusieurs profils sont ajoutés, basculez entre eux dans la liste pour prévisualiser le contenu de diffusion correspondant. Ajoutez d’autres profils de test ou effacez votre sélection à l’aide des boutons correspondants dans le volet de gauche.
+1. Si plusieurs profils ont été ajoutés, passez d’un profil à l’autre dans la liste pour prévisualiser le contenu de la diffusion correspondante. Aoutez d’autres profils de test et effacez votre sélection à l’aide des boutons correspondants dans le volet de gauche.
 
-1. Pour les diffusions par e-mail, ajustez l’**[!UICONTROL Niveau de zoom]** et prévisualisez votre contenu sur un poste de bureau ou un appareil mobile à l’aide de l’icône dédiée dans le coin supérieur droit.
+1. Pour les diffusions par e-mail, ajustez l’**[!UICONTROL Échelle]** et prévisualisez votre contenu sur un poste de travail ou un appareil mobile à l’aide de l’icône dédiée dans le coin supérieur droit.
 
-1. À partir de l’écran **[!UICONTROL Simuler]**, vous pouvez également effectuer les opérations suivantes :
-   * Envoyer des BAT à des destinataires spécifiques pour validation - [En savoir plus](test-deliveries.md).
-   * Accédez aux journaux des BAT envoyés - [En savoir plus](test-deliveries.md#access-test-deliveries).
-   * Pour les e-mails uniquement, vérifiez le rendu du contenu des messages dans les principaux clients de messagerie - [En savoir plus](email-rendering.md).
+1. L’écran **[!UICONTROL Simuler]** vous permet également d’effectuer les actions suivantes :
+   * Envoyer des BAT à des destinataires spécifiques pour validation - [En savoir plus](test-deliveries.md)
+   * Accéder aux logs des BAT envoyées - [En savoir plus](test-deliveries.md#access-test-deliveries)
+   * Pour les e-mails uniquement, vérifiez le rendu du contenu des messages dans les clients de messagerie les plus courants - [En savoir plus](email-rendering.md)

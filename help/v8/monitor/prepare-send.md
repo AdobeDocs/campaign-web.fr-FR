@@ -4,9 +4,9 @@ title: Préparation et envoi d’un e-mail
 description: Découvrez comment préparer et envoyer un e-mail avec l’interface utilisateur web de Campaign.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 59%
 
 ## Préparer l’envoi {#prepare}
 
-Lorsque vous définissez votre [contenu](../email/edit-content.md), [audience](../audience/add-audience.md) et [planning](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), vous êtes prêt(e) à préparer votre diffusion e-mail.
+Lorsque vous avez défini le [contenu](../email/edit-content.md), l’[audience](../audience/add-audience.md) et le [planning](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), vous pouvez préparer votre diffusion par e-mail.
 
-Pendant la préparation de la diffusion, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Une fois la préparation terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées.
+Pendant la préparation de la diffusion, la population cible est calculée et le contenu du message est généré pour chaque profil inclus dans la cible. Lorsque la préparation est terminée, les messages sont prêts à être envoyés immédiatement ou à la date et à l’heure planifiées.
 
 Les règles de validation utilisées pendant la préparation de la diffusion sont décrites dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=fr){target="_blank"}.
 
@@ -26,13 +26,13 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
    ![Bouton Vérifier et envoyer dans le tableau de bord de la diffusion](assets/email-review-and-send.png){zoomable="yes"}
 
-1. Cliquez sur le bouton **[!UICONTROL Préparer]** situé dans le coin supérieur droit, puis confirmez.
+1. Cliquez sur le bouton **[!UICONTROL Préparer]** dans le coin supérieur droit et confirmez.
 
    ![Bouton Préparer dans le tableau de bord de la diffusion](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Si vous planifiez votre diffusion et désactivez l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../msg/gs-deliveries.md#gs-schedule)
+   >Si vous avez planifié votre diffusion et désactivé l’option **[!UICONTROL Activer la confirmation avant l’envoi]**, les étapes de préparation et d’envoi sont regroupées sous le bouton **[!UICONTROL Préparer et envoyer]**. [En savoir plus sur la planification](../msg/gs-deliveries.md#gs-schedule)
 
 1. La progression de la préparation s’affiche. La durée de cette opération varie en fonction de la taille de la population ciblée.
 
@@ -41,7 +41,7 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
    ![Bouton Arrêter la préparation dans le tableau de bord de la diffusion](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
-   >Pendant la phase de préparation, aucun message n&#39;est envoyé. Vous pouvez le démarrer ou l’arrêter sans risquer d’impacter quoi que ce soit.
+   >Pendant la phase de préparation, aucun message n&#39;est envoyé. Vous pouvez lancer ou annuler cette opération sans aucun risque.
 
 1. Une fois la préparation terminée, vérifiez les KPI. Si le nombre de messages à envoyer ne correspond pas à vos attentes, modifiez l’audience et relancez la préparation.
 
@@ -53,7 +53,7 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
    * **[!UICONTROL À diffuser]** : le nombre de messages qui seront envoyés.
    * **[!UICONTROL À exclure]** : le nombre de messages exclus par une [règle de typologie](../advanced-settings/delivery-settings.md#typology).
 
-1. Cliquez sur le bouton **[!UICONTROL Journaux]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md).
+1. Cliquez sur le bouton **[!UICONTROL Logs]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md).
 
    ![Bouton Logs dans le tableau de bord de la diffusion](assets/email-prepare-logs.png){zoomable="yes"}
 
@@ -61,15 +61,15 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
    ![Statut d’erreur dans le tableau de bord de la diffusion](assets/email-prepare-error.png){zoomable="yes"}
 
-1. Si vous apportez des modifications à votre diffusion après la préparation, redémarrez la préparation pour que ces modifications soient prises en compte.
+1. Si vous modifiez la diffusion après la préparation, relancez la préparation pour que ces modifications soient prises en compte.
 
-Une fois la préparation terminée sans erreur, votre message est prêt à être envoyé.
+Une fois la préparation terminée sans erreur, le message est prêt à être envoyé.
 
 ## Envoyer le message {#send}
 
 Une fois la [préparation](#prepare) terminée, vous pouvez envoyer l’e-mail.
 
-Si le message est planifié, il est envoyé à la date et à l’heure définies. [En savoir plus sur la planification](../msg/gs-deliveries.md#gs-schedule)
+Si le message est planifié, il sera envoyé à la date et à l’heure définies. [En savoir plus sur la planification](../msg/gs-deliveries.md#gs-schedule)
 
 ### Envoyer immédiatement {#send-immediately}
 
@@ -85,7 +85,7 @@ Pour envoyer immédiatement un e-mail, procédez comme suit.
 
 ### Planifier l’envoi {#schedule-the-send}
 
-Si vous planifiez l’envoi de votre e-mail à une date et une heure ultérieures, procédez comme suit.
+Si vous avez planifié l’envoi de votre e-mail à une date et une heure ultérieures, procédez comme suit.
 
 1. Avant de cliquer sur le bouton **[!UICONTROL Vérifier et envoyer]**, assurez-vous de définir un planning pour votre e-mail. [En savoir plus sur la planification](../msg/gs-deliveries.md#gs-schedule)
 
@@ -93,7 +93,7 @@ Si vous planifiez l’envoi de votre e-mail à une date et une heure ultérieure
 
    ![Bouton Envoyer comme prévu dans le tableau de bord de la diffusion](assets/email-send-as-scheduled.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Confirmer l’envoi]**. La diffusion est envoyée à la cible principale à la date planifiée.
+1. Cliquez sur **[!UICONTROL Confirmer l’envoi]**. La diffusion est envoyée à la cible principale, à la date planifiée.
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’
 
 * Cliquez sur **[!UICONTROL Arrêter l’envoi]** pour interrompre immédiatement l’envoi. Une fois arrêtés, la préparation et l’envoi ne peuvent pas être repris.
 
-![Boutons Pause ou Arrêt de l’envoi dans le tableau de bord de la diffusion](assets/email-send-pause-or-stop.png){zoomable="yes"}
+![Boutons Suspendre ou Arrêter l’envoi dans le tableau de bord de la diffusion](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## Vérifier les KPI {#check-kpis}
 
@@ -126,7 +126,7 @@ Deux actions peuvent être effectuées à tout moment pendant le processus d’
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Clics"
->abstract="Nombre de destinataires ayant cliqué au moins une fois dans l’e-mail. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages diffusés."
+>abstract="Le nombre de personnes destinataires ayant cliqué au moins une fois dans l’e-mail. Cet indicateur est mis à jour toutes les 5 minutes. Le pourcentage affiché est le ratio du nombre de clics distincts par rapport au nombre de messages diffusés."
 >additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/reports/kpis" text="Comprendre les KPI"
 
 >[!CONTEXTUALHELP]
@@ -157,8 +157,8 @@ Une fois l’envoi terminé, vous pouvez vérifier les KPI affichés :
 
 >[!NOTE]
 >
->Tous les indicateurs sont mis à jour toutes les 5 minutes après le début de la diffusion. Les indicateurs de préparation de diffusion sont exprimés en temps réel.
+>Les indicateurs sont mis à jour toutes les 5 minutes après le début de la diffusion. Les indicateurs de préparation de diffusion sont exprimés en temps réel.
 
-En savoir plus sur les indicateurs de performance clés sur [cette page](../reporting/kpis.md).
+Pour en savoir plus sur les KPI, consultez [cette page](../reporting/kpis.md).
 
 Vous pouvez également consulter les journaux. [En savoir plus](delivery-logs.md).

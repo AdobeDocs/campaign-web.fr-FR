@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Modifier la source de données
 description: Découvrez comment utiliser l’activité de workflow Modifier la source de données.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 80%
 >title="Modifier la source de données"
 >abstract="L’activité **Modifier la source de données** vous permet de sélectionner une autre source de données pour la table de travail de votre workflow."
 
-L’activité **Modifier la source de données** est une activité de **ciblage**. Cette activité permet de modifier la source de données utilisée par la table de travail de votre workflow. Vous bénéficiez ainsi d’une plus grande flexibilité en gérant les données de vos différentes bases de données et en améliorant les performances.
+L’activité **Modifier la source de données** est une activité de **ciblage**. Cette activité permet de modifier la source de données utilisée par la table de travail de votre workflow. Vous bénéficiez ainsi d’une plus grande flexibilité grâce à la gestion des données dans vos différentes bases de données et à l’amélioration des performances.
 
 Dans les workflows, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une **table de travail** temporaire. Par défaut, les tables de travail sont créées dans la même base de données que la source des données traitées. Par exemple, lors de l’interrogation de la table Profils stockée dans la base de données cloud, une table de travail est créée sur la même base de données cloud.
 
 Dans certains cas, les données ne sont pas disponibles dans la base de données actuelle ou ne sont pas suffisamment efficaces pour effectuer des opérations unitaires. Vous devrez peut-être donc forcer le workflow à utiliser une autre base de données pour effectuer ces opérations en ajoutant une activité **[!UICONTROL Modifier la source de données]**.
 
-Vous trouverez des informations détaillées sur l’architecture de Campaign dans la documentation de [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=fr).
+Des informations détaillées sur l’architecture de Campaign sont disponibles dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=fr).
 
 >[!IMPORTANT]
 >
->Notez que les activités **[!UICONTROL Changer la dimension]** et **[!UICONTROL Modifier la source de données]** ne doivent pas être ajoutées sur une même ligne. Si vous devez utiliser les deux activités de manière consécutive, incluez une activité **[!UICONTROL Enrichissement]** entre elles. Cela garantit une bonne exécution et évite les erreurs et conflits potentiels.
+>Notez que les activités **[!UICONTROL Changer la dimension]** et **[!UICONTROL Modifier la source de données]** ne doivent pas être ajoutées sur une même ligne. Si vous devez utiliser les deux activités consécutivement, incluez une activité **[!UICONTROL Enrichissement]** entre les deux. Cela garantit une bonne exécution et évite les erreurs et conflits potentiels.
 
 <!--
 
@@ -45,7 +45,7 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Configurer l’activité Modifier la source de données {#configure}
 
-Pour configurer l’activité **Modifier la source de données** procédez comme suit :
+Pour configurer l’activité **Modifier la source de données**, procédez comme suit :
 
 ![Capture d’écran montrant comment ajouter l’activité Modifier la source de données à un workflow.](../assets/workflow-change-data-source-add.png)
 

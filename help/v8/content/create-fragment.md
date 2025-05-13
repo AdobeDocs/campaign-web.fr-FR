@@ -4,9 +4,9 @@ title: Créer des fragments de contenu
 description: Découvrez comment créer des fragments de contenu.
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 46%
 >title="Type de fragment de contenu"
 >abstract="Sélectionnez le type de fragment que vous souhaitez créer : Les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs diffusions e-mail ou dans des modèles de contenu. Les **fragments d’expression** sont des expressions prédéfinies disponibles à partir d’une entrée dédiée dans l’éditeur d’expression."
 
-Il existe deux manières de créer des fragments de contenu :
+Il y a deux manières de créer des fragments de contenu :
 
 * Créez un fragment à partir de zéro, à l’aide du menu dédié **[!UICONTROL Fragments]**. [Voici comment procéder](#create-from-scratch)
-* Lors de la conception du contenu, enregistrez une partie de votre contenu en tant que fragment. [Voici comment procéder](#save-as-fragment)
+* Lors de la conception de contenu, enregistrez une partie de votre contenu en tant que fragment. [Voici comment procéder](#save-as-fragment)
 
   >[!NOTE]
   >
   >Cette fonctionnalité n’est disponible que pour les fragments visuels. Les fragments d’expression sont créés exclusivement à partir du menu **Fragments**.
 
-Une fois enregistré, le fragment de contenu peut être utilisé dans n’importe quelle diffusion ou modèle de contenu.
+Une fois enregistré, le fragment de contenu peut être utilisé dans une diffusion ou un modèle de contenu.
 
 ## Créer un fragment de contenu à partir de zéro {#create-from-scratch}
 
@@ -46,11 +46,11 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 
 1. [Accédez à la liste des fragments](#access-manage-fragments) par le biais du menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]** et sélectionnez **[!UICONTROL Créer un fragment]**.
 
-   ![Écran Liste de fragments présentant l’option Créer un fragment ](assets/fragments-list.png)
+   ![Écran Liste des fragments présentant l’option Créer un fragment](assets/fragments-list.png)
 
-1. Saisissez le libellé du fragment. Si nécessaire, définissez des options supplémentaires, telles que le nom interne du fragment, son dossier et une description.
+1. Saisissez le libellé du fragment. Si nécessaire, définissez d’autres options, telles que le nom interne du fragment, son dossier et une description.
 
-1. Choisissez le type de fragment à créer : **Fragment visuel** ou **Fragment d’expression**. [Découvrez les différences entre les fragments visuels et d’expression.](fragments.md)
+1. Choisissez le type de fragment à créer : **Fragment visuel** ou **Fragment d’expression**. [Découvrez les différences entre les fragments visuels et d’expression.](fragments.md)
 
    ![Écran de création de fragment affichant la sélection du type](assets/fragment-create.png)
 
@@ -60,36 +60,36 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 
 1. Cliquez sur le bouton **Créer**.
 
-   * Pour les **fragments visuels**, le [concepteur d’e-mail](../email/get-started-email-designer.md) s’affiche. Modifiez le contenu selon vos besoins, de la même manière que pour tout e-mail contenu dans une campagne, puis cliquez sur le bouton **Enregistrer et fermer**. Ajoutez des images, des liens, des champs de personnalisation et du contenu dynamique.
+   * Pour les **fragments visuels**, le [concepteur d’e-mail](../email/get-started-email-designer.md) s’affiche. Modifiez le contenu selon vos besoins, comme vous le feriez pour n’importe quel e-mail d’une campagne, puis cliquez sur le bouton **Enregistrer et fermer**. Ajoutez des images, des liens, des champs de personnalisation et du contenu dynamique.
 
-     ![Écran Email Designer pour les fragments visuels](assets/fragment-designer.png)
+     ![Écran du concepteur d’e-mail pour les fragments visuels](assets/fragment-designer.png)
 
    * Pour les **fragments d’expression**, l’éditeur d’expression s’ouvre. Utilisez ses fonctionnalités de personnalisation et de création pour créer le contenu, puis cliquez sur **Confirmer**. [Découvrez comment travailler avec l’éditeur d’expression](../personalization/personalize.md).
 
      ![Écran de l’éditeur d’expression pour les fragments d’expression](assets/fragment-expression.png)
 
-1. Une fois le contenu prêt, cliquez sur **Enregistrer**.
+1. Lorsque le contenu est prêt, cliquez sur **Enregistrer**.
 
-Ce fragment de contenu est maintenant prêt à être utilisé lors de la création d’une diffusion ou d’un [modèle de contenu](../email/use-email-templates.md) dans Campaign. Découvrez comment utiliser les fragments visuels et d’expression dans les sections suivantes :
+Ce fragment de contenu est maintenant prêt à être utilisé lors de la création d’une diffusion ou d’un [modèle de contenu](../email/use-email-templates.md) dans Campaign. Découvrez comment utiliser des fragments d’expression et visuels dans ces sections :
 * [Ajouter des fragments visuels à vos e-mails](use-visual-fragments.md)
 * [Ajouter des fragments d’expression à l’éditeur d’expression](use-expression-fragments.md)
 
-## Enregistrer le contenu en tant que fragment visuel {#save-as-fragment}
+## Enregistrer du contenu en tant que fragment visuel {#save-as-fragment}
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Enregistrer en tant que fragment"
->abstract="Pour enregistrer le contenu en tant que fragment visuel, sélectionnez les éléments à inclure dans le fragment, notamment les champs de personnalisation et le contenu dynamique. Seules les sections adjacentes peuvent être sélectionnées. Les structures vides ou autres fragments de contenu ne peuvent pas être sélectionnés. Le contenu devient alors un fragment autonome, ajouté à la liste des fragments et accessible à partir du menu dédié. Ce fragment peut être utilisé lors de la création d’un e-mail ou modèle de contenu dans Campaign."
+>abstract="Pour enregistrer du contenu en tant que fragment visuel, sélectionnez les éléments à inclure dans le fragment, notamment les champs de personnalisation et le contenu dynamique. Seules les sections adjacentes peuvent être sélectionnées. Les structures vides ou autres fragments de contenu ne peuvent pas être sélectionnés. Le contenu devient ensuite un fragment autonome ajouté à la liste de fragments et accessible à partir du menu dédié. Ce fragment peut être utilisé lors de la création d’un e-mail ou d’un modèle de contenu dans Campaign."
 
 <!--pas vu dans l'UI-->
 
-Tout contenu d’e-mail peut être enregistré en tant que fragment visuel pour une réutilisation ultérieure. Lors de la conception d’une diffusion [modèle de contenu](../email/use-email-templates.md) ou [e-mail](../email/get-started-email-designer.md), enregistrez une partie du contenu en tant que fragment visuel. Pour ce faire, procédez comme suit :
+Tout contenu d’e-mail peut être enregistré en tant que fragment visuel en vue d’une réutilisation ultérieure. Lors de la conception d’un [modèle de contenu](../email/use-email-templates.md) ou d’une diffusion par [e-mail](../email/get-started-email-designer.md), enregistrez une partie du contenu en tant que fragment visuel. Pour ce faire, procédez comme suit :
 
-1. Dans le [Designer d’e-mail](../email/get-started-email-designer.md), cliquez sur le bouton **Plus** en haut à droite de l’écran.
+1. Dans le [Concepteur d’e-mail](../email/get-started-email-designer.md), cliquez sur le bouton **Plus** en haut à droite de l’écran.
 
 1. Sélectionnez **[!UICONTROL Enregistrer en tant que fragment]** à partir du menu déroulant.
 
-   ![Option Enregistrer en tant que fragment dans Email Designer](assets/fragment-save-as.png)
+   ![Option Enregistrer en tant que fragment dans le Concepteur d’e-mail](assets/fragment-save-as.png)
 
 1. L’écran **[!UICONTROL Enregistrer en tant que fragment]** s’affiche. Sélectionnez les éléments à inclure dans le fragment, notamment les champs de personnalisation et le contenu dynamique.
 
@@ -101,13 +101,13 @@ Tout contenu d’e-mail peut être enregistré en tant que fragment visuel pour 
 
 1. Cliquez sur **[!UICONTROL Créer]**. Renseignez le nom du fragment et enregistrez-le.
 
-   ![Enregistrer l’écran de confirmation pour les fragments visuels](assets/fragment-save-confirm.png)
+   ![Écran Enregistrer la confirmation pour les fragments visuels](assets/fragment-save-confirm.png)
 
-   Ce contenu est désormais un fragment autonome, ajouté à la [liste de fragments](#manage-fragments) et accessible à partir du menu dédié. Utilisez ce fragment lors de la création d’un [e-mail](../email/get-started-email-designer.md) ou [modèle de contenu](../email/use-email-templates.md) dans Campaign. [Voici comment procéder](../content/use-visual-fragments.md)
+   Ce contenu est désormais un fragment autonome ajouté à la [liste de fragments](#manage-fragments) et accessible à partir du menu dédié. Utilisez ce fragment lors de la création d’un [e-mail](../email/get-started-email-designer.md) ou d’un [modèle de contenu](../email/use-email-templates.md) dans Campaign. [Voici comment procéder](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >
->Les modifications apportées au nouveau fragment ne sont pas propagées à l’e-mail ou au modèle d’où il provient. De même, lorsque le contenu d’origine est modifié dans l’e-mail ou le modèle, le nouveau fragment n’est pas modifié.
+>Les modifications apportées au nouveau fragment ne sont pas propagées dans l’e-mail ou le modèle d’où elles proviennent. De même, lorsque le contenu d’origine est modifié dans l’e-mail ou le modèle, le nouveau fragment n’est pas modifié.
 
 ## Gérer vos fragments de contenu {#manage-fragments}
 
@@ -139,11 +139,11 @@ Pour supprimer un fragment de contenu, procédez comme suit :
 
 >[!CAUTION]
 >
->Lors de la suppression d’un fragment, les diffusions et les modèles qui l’utilisent sont mis à jour. Le fragment est supprimé du contenu mais reste référencé. Pour conserver le contenu du fragment dans ces diffusions et modèles, rompez l’héritage avant de supprimer le fragment, [comme indiqué dans cette section](use-visual-fragments.md#break-inheritance).
+>Lors de la suppression d’un fragment, les diffusions et les modèles qui l’utilisent sont mis à jour. Le fragment est supprimé du contenu mais reste référencé. Pour conserver le contenu du fragment dans ces diffusions et modèles, rompez l’héritage avant de supprimer le fragment, [comme décrit dans cette section](use-visual-fragments.md#break-inheritance).
 
 ### Archiver un fragment de contenu {#archive}
 
-Vous pouvez nettoyer la liste de fragments en archivant les fragments qui ne sont plus pertinents pour votre marque. Pour ce faire, cliquez sur le bouton **[!UICONTROL Autres actions]** en regard du fragment souhaité et sélectionnez **[!UICONTROL Archiver]**. Le fragment est supprimé de la liste des fragments, ce qui empêche ses utilisateurs de l’utiliser dans de futurs e-mails ou modèles.
+Vous pouvez supprimer de la liste des fragments les fragments qui ne sont plus pertinents pour votre marque. Pour ce faire, cliquez sur le bouton **[!UICONTROL Autres actions]** en regard du fragment souhaité et sélectionnez **[!UICONTROL Archiver]**. Le fragment est supprimé de la liste des fragments, ce qui empêche les utilisateurs et utilisatrices de l’utiliser dans les futurs e-mails ou modèles.
 
 Pour accéder aux fragments archivés, utilisez le volet de filtrage afin de les afficher. Pour désarchiver un fragment, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Désarchiver]**.
 
