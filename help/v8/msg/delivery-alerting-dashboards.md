@@ -10,7 +10,7 @@ exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -51,21 +51,21 @@ Pour créer un tableau de bord de diffusion, procédez comme suit :
 
 1. Accédez au menu **Alertes de diffusion** dans le volet de navigation de gauche, puis cliquez sur **Créer un tableau de bord de diffusion**.
 
-   ![Capture d’écran affichant l’option Créer un tableau de bord de diffusion dans le menu Alertes de diffusion](assets/alerting-dashboard.png).
+   ![Capture d’écran affichant l’option Créer un tableau de bord de diffusion dans le menu Alertes de diffusion.](assets/alerting-dashboard.png)
 
 1. Donnez un nom à votre tableau de bord dans le champ **Libellé**. Le champ **Nom interne** est renseigné automatiquement et en lecture seule.
 
 1. Dans le champ **Sélectionner un groupe d’alertes**, spécifiez le **groupe d’opérateurs et d’opératrices** qui recevra les alertes envoyées par ce tableau de bord. Toutes les personnes membres du groupe d’opérateurs et d’opératrices sélectionné recevront les alertes.
 
-   En savoir plus sur les autorisations et les groupes d’opérateurs dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   En savoir plus sur les autorisations et les groupes d’opérateurs et d’opératrices dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 1. Dans la section **Critères des alertes de diffusion**, ajoutez les critères que vous souhaitez utiliser pour envoyer des alertes. Faites votre choix parmi les critères prédéfinis ou créez vos propres critères pour répondre à des besoins spécifiques. [Découvrir comment utiliser les critères](../msg/delivery-alerting-criteria.md)
 
-1. Les critères comportent des valeurs de paramètre par défaut qui définissent la manière dont ils doivent être appliqués. Vous pouvez modifier ces valeurs en fonction de vos besoins à partir de la section **Paramètres des critères**.
+1. Les critères comportent des valeurs de paramètres par défaut qui définissent la manière dont ils doivent être appliqués. Vous pouvez modifier ces valeurs en fonction de vos besoins à partir de la section **Paramètres des critères**.
 
    ![Capture d’écran affichant la section Paramètres des critères dans le tableau de bord de la diffusion.](assets/alerting-criteria-parameters.png)
 
-   Par exemple, par défaut, le paramètre de critère **Taille minimale de la cible de diffusion** est défini sur 50, ce qui signifie qu’une diffusion ne sera incluse dans l’alerte envoyée par ce tableau de bord que si elle cible au moins 50 profils. Vous pouvez modifier ce paramètre si vous souhaitez inclure des diffusions ciblant moins de 50 profils.
+   Par exemple, par défaut, le paramètre de critère **Taille minimale de la cible de diffusion** est défini sur 50, ce qui signifie qu’une diffusion ne sera incluse dans l’alerte envoyée par ce tableau de bord que si elle cible au moins 50 profils. Vous pouvez modifier ce paramètre si vous souhaitez inclure des diffusions ciblant moins de 50 profils.
 
    Développez la section ci-dessous pour plus d’informations sur chaque paramètre de critère :
 
@@ -81,7 +81,7 @@ Pour créer un tableau de bord de diffusion, procédez comme suit :
    * **Débit minimal attendu (dans les messages envoyés par heure)** : seules les diffusions dont le débit est inférieur à la valeur spécifiée sont prises en compte pour le critère Diffusions avec faible débit.
    * **Taux de traitement minimal requis pour le critère « Diffusions en cours »** : seules les diffusions dont le pourcentage de messages traités est supérieur au pourcentage spécifié sont prises en compte.
 
-   +++
++++
 
 1. Par défaut, les tableaux de bord des alertes sont désactivés, ce qui signifie que les alertes par e-mail liées à ce tableau de bord ne sont pas envoyées. Pour activer immédiatement le tableau de bord, faites basculer l’option **Activé** dans la section **Général** en regard du champ de sélection du groupe d’alertes.
 
