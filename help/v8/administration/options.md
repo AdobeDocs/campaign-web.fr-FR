@@ -2,8 +2,8 @@
 title: 'Configurer les options de  [!DNL Campaign] '
 description: Découvrez comment configurer les options de Campaign et créer vos propres options personnalisées.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
-workflow-type: ht
+source-git-commit: 10a43da9df57a32f987b3d4c51bea91da10cbf92
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -24,7 +24,6 @@ ht-degree: 100%
 Adobe Campaign Web propose des options techniques qui vous permettent de configurer l’application de manière plus spécifique. Certaines de ces options sont intégrées, tandis que d’autres peuvent être ajoutées manuellement selon vos besoins.
 
 >[!IMPORTANT]
->\
 >Les options intégrées sont préconfigurées et ne doivent être modifiées que par des personnes expérimentées. Pour toute question ou demande, contactez votre représentant ou représentante Adobe.
 
 ## Accéder aux options de Campaign {#access}
@@ -35,7 +34,6 @@ Les options sont disponibles à partir du menu **[!UICONTROL Administration]** /
 [Liste des options du menu Administration/Options]
 
 >[!NOTE]
->\
 >Bien que l’emplacement du menu des options diffère entre la console Adobe Campaign et l’interface d’utilisation web, la liste est identique et fonctionne comme un miroir. Pour plus d’informations sur les options disponibles, consultez la liste des options dans la [documentation de Campaign v7](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 Dans la liste des options, vous pouvez effectuer les actions suivantes :

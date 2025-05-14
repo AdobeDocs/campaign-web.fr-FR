@@ -3,8 +3,8 @@ audience: end-user
 title: Personnaliser l’arrière-plan des e-mails
 description: Découvrez comment personnaliser l’arrière-plan des e-mails.
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
-workflow-type: ht
+source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -41,7 +41,6 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Veillez à ne pas définir de couleur d’arrière-plan de la fenêtre, car celle-ci peut masquer les couleurs d’arrière-plan de la structure.
 
 * Définissez une **[!UICONTROL Image d’arrière-plan]** pour le contenu d’un composant de structure.
@@ -50,7 +49,6 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Certains programmes de messagerie ne prennent pas en charge les images d’arrière-plan. Lorsqu’elles ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Sélectionnez une couleur d’arrière-plan de secours appropriée dans le cas où l’image ne pourrait s’afficher.
 
 * Définissez une couleur de fond au niveau des colonnes.
@@ -59,7 +57,6 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Il s&#39;agit du cas pratique le plus courant. Adobe vous recommande de définir les couleurs d’arrière-plan au niveau des colonnes afin de profiter d’une plus grande flexibilité lors de l’édition de l’ensemble du contenu d’e-mail.
 
   Vous pouvez également définir une image de fond au niveau des colonnes, mais cette option est rarement utilisée.
