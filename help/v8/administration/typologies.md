@@ -6,7 +6,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -21,26 +21,26 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="Typologies et règles de typologie"
->abstract="Les typologies vous permettent de normaliser les pratiques commerciales sur toutes les diffusions. Une typologie est un ensemble de règles de typologie qui vous permet de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions. Les profils répondant aux critères au sein d’une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
+>abstract="Les typologies vous permettent de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
 >title="Filtrage"
->abstract=" Deux types de règles de typologie sont disponibles : les règles <br/><br/>**de contrôle** qui assurent la qualité et la validité du message avant son envoi, telles que l&#39;affichage des caractères, la longueur des SMS, le format des adresses ou le raccourcissement des URL. <br/><br/>**Filtrage** règles qui excluent des segments de l’audience cible en fonction de critères spécifiques, tels que l’âge, le lieu, le pays ou les numéros de téléphone."
+>abstract=" Deux types de règles de typologie sont disponibles : les règles <br/><br/>**Contrôle** qui assurent la qualité et la validité des messages avant leur envoi (par exemple, l’affichage des caractères, la longueur des SMS, le format des adresses ou le raccourcissement des URL). Les règles <br/><br/>**Filtrage** excluent des segments de l’audience cible en fonction de critères spécifiques (par exemple, l’âge, l’adresse, le pays ou les numéros de téléphone)."
 
 ## À propos des typologies
 
-Les typologies vous permettent de normaliser les pratiques commerciales sur toutes les diffusions. Une **typologie** est un ensemble de **règles de typologie** qui vous permet de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions. Les profils répondant aux critères au sein d’une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation.
+Les typologies vous permettent de normaliser les pratiques commerciales de l’ensemble des diffusions. Une **typologie** est un ensemble de **règles de typologie** qui permet de contrôler, filtrer et ajuster la priorité de l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation.
 
-Les typologies s’assurent que vos diffusions contiennent toujours certains éléments, tels qu’un lien de désinscription ou une ligne d’objet, ou des règles de filtrage pour exclure des groupes de votre cible prévue, tels que les désabonnés, les concurrents ou les clients non fidèles.
+Les typologies vous permettent de vous assurer que vos diffusions contiennent toujours certains éléments, comme un lien de désabonnement ou un objet, ou des règles de filtrage pour exclure des groupes de votre cible visée, tels que la clientèle désabonnée, les concurrents et les clientes et clients ne faisant pas partie du programme de fidélité.
 
-Les typologies sont accessibles via le menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**. Depuis cet écran, accédez à toutes les typologies et règles de typologie existantes, ou créez-en de nouvelles en fonction de vos besoins.
+Les typologies sont accessibles via le menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**. À partir de cet écran, accédez à toutes les typologies et règles de typologie existantes, ou créez-en de nouvelles en fonction de vos besoins.
 
 ![Liste des règles métier dans l’interface](assets/business-rules-list.png)
 
 >[!NOTE]
 >
->La liste **[!UICONTROL Règles de typologie]** affiche toutes les règles existantes créées à ce jour dans l’interface d’utilisation web ou la console cliente. Toutefois, seules les règles **Contrôle** et **Filtrage** peuvent être créées dans l’interface d’utilisation web. Pour créer d’autres types de règles de typologie, telles que les règles de pression ou de capacité, utilisez la console cliente Campaign v8. [Découvrez comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>La liste **[!UICONTROL Règles de typologie]** affiche toutes les règles existantes créées à ce jour dans l’interface d’utilisation web ou la console cliente. Toutefois, seules les règles **Contrôle** et **Filtrage** peuvent être créées dans l’interface d’utilisation web. Pour créer d’autres types de règles de typologie, par exemple des règles de pression ou de capacité, utilisez la console cliente de Campaign v8. [Découvrir comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 Voici les principales étapes à suivre pour appliquer des typologies à vos messages :
 
@@ -54,7 +54,7 @@ Voici les principales étapes à suivre pour appliquer des typologies à vos mes
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="Propriétés de la typologie"
->abstract="Définissez les propriétés de la typologie et développez la section **[!UICONTROL Options supplémentaires]** pour accéder aux paramètres avancés. Utilisez le champ **[!UICONTROL Affinité IP]** pour associer des affinités IP aux typologies. Vous pouvez ainsi mieux contrôler le trafic SMTP sortant en définissant les adresses IP spécifiques qui peuvent être utilisées pour chaque affinité."
+>abstract="Définissez les propriétés de la typologie et développez la section **[!UICONTROL Options supplémentaires]** pour accéder aux paramètres avancés. Utilisez le champ **[!UICONTROL Affinité IP]** pour associer des affinités IP aux typologies. Cela vous permet de mieux contrôler le trafic SMTP sortant en définissant des adresses IP spécifiques qui peuvent être utilisées pour chaque affinité."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
@@ -67,17 +67,17 @@ Pour créer une typologie, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une typologie]** et saisissez un **[!UICONTROL Libellé]** pour la typologie.
 
-1. Développez la section **[!UICONTROL Options supplémentaires]** pour définir des paramètres avancés, tels que le nom interne de la typologie, le dossier de stockage et la description.
+1. Développez la section **[!UICONTROL Options supplémentaires]** pour configurer les paramètres avancés, tels que le nom interne de la typologie, son dossier de stockage et sa description.
 
    ![Interface de création de typologie](assets/business-rules-typology.png)
 
    >[!NOTE]
    >
-   >Le champ **[!UICONTROL Affinité IP]** vous permet d’associer des affinités IP à des typologies. Cela permet de mieux contrôler le trafic SMTP sortant en définissant les adresses IP spécifiques qui peuvent être utilisées pour chaque affinité. Vous pouvez, par exemple, utiliser une affinité par pays ou sous-domaine. Vous pouvez ensuite créer une typologie par pays et associer chaque affinité à la typologie correspondante.
+   >Le champ **[!UICONTROL Affinité IP]** vous permet d’associer des affinités IP à des typologies. Cela vous permet de mieux contrôler le trafic SMTP sortant en définissant des adresses IP spécifiques qui peuvent être utilisées pour chaque affinité. Vous pouvez, par exemple, utiliser une affinité par pays ou sous-domaine. Vous pouvez ensuite créer une typologie par pays et associer chaque affinité à la typologie correspondante.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la typologie.
 
-Les détails de la typologie s’ouvrent. Sur cet écran, référencez directement les règles de typologie existantes ou créez de nouvelles règles de typologie à référencer ultérieurement :
+Les détails de la typologie s’ouvrent. Sur cet écran, référencez directement les règles de typologie existantes ou créez de nouvelles règles de typologie à référencer ultérieurement :
 * [Découvrir comment créer une règle de typologie](#add-rules)
 * [Découvrir comment référencer des règles dans une typologie](#add-rules)
 
@@ -102,41 +102,41 @@ Définissez les propriétés de la règle de typologie :
 
 1. Sélectionnez le **[!UICONTROL type]** de la règle de typologie :
 
-   * **Contrôle** : assure la qualité et la validité de la pré-envoi du message, comme l’affichage des caractères, la longueur du SMS, le format de l’adresse ou le raccourcissement de l’URL. Ces règles sont créées à l’aide d’une interface de script pour définir une logique complexe pour les vérifications et modifications de contenu.
+   * **Contrôle** : vérifie la qualité et la validité du message avant l’envoi (par exemple, l’affichage des caractères, la longueur du SMS, le format d’adresse, le raccourcissement des URL). Ces règles sont créés à l’aide d’une interface de script pour définir une logique complexe pour la vérification et la modification du contenu.
 
-   * **Filtrage** : exclut des segments de l’audience cible en fonction de critères spécifiques, tels que l’âge, le lieu, le pays ou les numéros de téléphone. Ces règles sont liées à une dimension de ciblage.
+   * **Filtrage** : exclut des segments de l’audience cible en fonction de critères spécifiques tels que l’âge, l’adresse, le pays ou les numéros de téléphone. Ces règles sont liées à une dimension de ciblage.
 
    >[!NOTE]
    >
-   >Actuellement, seules les règles de typologie **Contrôle** et **Filtrage** peuvent être créées à partir de l’interface utilisateur web. Pour créer d’autres types de règles, utilisez la console cliente. [Découvrez comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >Pour l’instant, seules les règles de typologie **Contrôle** et **Filtrage** peuvent être créées à partir de l’interface d’utilisation web. Pour créer d’autres types de règles, utilisez la console cliente. [Découvrir comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. Sélectionnez un **[!UICONTROL Canal]** à associer à la règle.
 
-1. Désactivez l’option **[!UICONTROL Actif]** si vous ne souhaitez pas que la règle soit active immédiatement après sa création.
+1. Désactivez l’option **[!UICONTROL Active]** si vous ne souhaitez pas que la règle soit active immédiatement après sa création.
 
-1. Définissez l’ordre d’exécution **[!UICONTROL la règle]**.
+1. Définissez l’**[!UICONTROL ordre d’exécution]** de la règle.
 
-   Par défaut, l’ordre des règles de typologie est défini sur 50. Adaptez cette valeur pour gérer la séquence dans laquelle les règles de typologie seront exécutées lorsque plusieurs règles du même type sont exécutées au cours de la même phase de traitement des messages. Par exemple, une règle de filtrage dont l’ordre d’exécution est défini sur 20 sera exécutée avant une règle de filtrage dont l’ordre d’exécution est défini sur 30.
+   Par défaut, l’ordre des règles de typologie est défini sur 50. Adaptez cette valeur pour gérer la séquence d’exécution des règles de typologie lorsque plusieurs règles d’un même type sont exécutées au cours de la même phase de traitement des messages. Par exemple, une règle de filtrage dont l’ordre d’exécution est défini sur 20 sera exécutée avant une règle de filtrage dont l’ordre d’exécution est défini sur 30.
 
-1. Développez la section **[!UICONTROL Options supplémentaires]** pour accéder aux paramètres avancés, tels que le nom interne de la règle, l’espace de stockage du dossier et la description.
+1. Développez la section **[!UICONTROL Options supplémentaires]** pour accéder aux paramètres avancés, tels que le nom interne de la règle, son dossier de stockage et sa description.
 
-1. Pour les règles de contrôle, deux champs supplémentaires sont disponibles dans les options supplémentaires. Indiquez à quel moment la règle doit s’appliquer et son niveau d’alerte :
+1. Pour les règles de contrôle, deux champs supplémentaires sont disponibles dans les options supplémentaires. Indiquez le moment où la règle doit s’appliquer et son niveau d’alerte :
 
-   * **[!UICONTROL Phase]** : indiquez à quel moment du cycle de vie de la diffusion la règle sera appliquée. Sélectionnez la valeur dans la liste déroulante **[!UICONTROL Phase]**. Développez la section ci-dessous pour plus d’informations sur les valeurs possibles.
+   * **[!UICONTROL Phase]** : indiquez à quelle étape du cycle de vie de la diffusion la règle sera appliquée. Sélectionnez la valeur dans la liste déroulante **[!UICONTROL Phase]**. Développez la section ci-dessous pour plus d’informations sur les valeurs possibles.
 
    +++Phases des règles de contrôle :
 
-   **[!UICONTROL Au début du ciblage]** : permet d&#39;éviter l&#39;exécution de l&#39;étape de personnalisation en cas d&#39;erreur.
+   **[!UICONTROL Au début du ciblage]** : évitez l’exécution de l’étape de personnalisation en cas d’erreurs.
 
-   **[!UICONTROL Après ciblage]** : sélectionnez cette phase si vous avez besoin de connaître le volume de la cible pour appliquer la règle de pilotage. Par exemple, la règle de contrôle **[!UICONTROL Vérifier la taille du BAT]** s&#39;applique après chaque étape de ciblage. Cette règle empêche la personnalisation des messages s’il y a trop de destinataires de BAT.
+   **[!UICONTROL Après le ciblage]** : si vous devez connaître le volume de la cible pour appliquer la règle de contrôle, sélectionnez cette phase. Par exemple, la règle de contrôle **[!UICONTROL Vérifier la taille du BAT]** s’applique après chaque étape de ciblage. Cette règle empêche la personnalisation des messages si les personnes destinataires du BAT sont trop nombreuses.
 
-   **[!UICONTROL Au début de la personnalisation]** : sélectionnez cette phase si le contrôle porte sur la validation de la personnalisation du message. La personnalisation des messages est réalisée au cours de la phase d’analyse.
+   **[!UICONTROL Au début de la personnalisation]** : sélectionnez cette phase lorsque le contrôle porte sur la validation de la personnalisation des messages. La personnalisation des messages est réalisée au cours de la phase d’analyse.
 
-   **[!UICONTROL À la fin de l’analyse]** : effectuez des vérifications nécessitant une personnalisation complète du message.
+   **[!UICONTROL À la fin de l’analyse]** : effectuez des vérifications nécessitant une personnalisation complète du message.
 
-   +++
++++
 
-   * **[!UICONTROL Niveau]** : indiquez le niveau d’alerte de la règle. Pour plus d’informations, développez la section ci-dessous.
+   * **[!UICONTROL Niveau]** : indiquez le niveau d’alerte de la règle. Pour plus d’informations, développez la section ci-dessous.
 
    +++Niveaux des règles de contrôle :
 
@@ -148,35 +148,35 @@ Définissez les propriétés de la règle de typologie :
 
    **[!UICONTROL Verbeux]** : affichez les informations dans les logs serveur.
 
-   +++
++++
 
 ### Créer le contenu de la règle {#build}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="Filtrage"
->abstract="Les règles **Filtrage** excluent des segments de l’audience cible en fonction de critères spécifiques, tels que l’âge, le lieu, le pays ou les numéros de téléphone. Sélectionnez la dimension de ciblage de la règle de typologie et cliquez sur le bouton **[!UICONTROL Ajouter des règles]** pour accéder au concepteur de requête et créer la règle."
+>abstract="Les règles **Filtrage** excluent des segments de l’audience cible en fonction de critères spécifiques tels que l’âge, l’adresse, le pays ou les numéros de téléphone. Sélectionnez la dimension de ciblage de la règle de typologie et cliquez sur le bouton **[!UICONTROL Ajouter des règles]** pour accéder au concepteur de requête et créer la règle."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"
 >title="Code"
->abstract="Les règles **Contrôle** vérifient la qualité et la validité de la pré-envoi du message, telles que l’affichage des caractères, la longueur du SMS, le format de l’adresse ou le raccourcissement des URL. Ces règles sont créées à l’aide du code JavaScript."
+>abstract="Les règles **Contrôle** vérifient la qualité et la validité des messages avant l’envoi (par exemple, l’affichage des caractères, la longueur du SMS, le format d’adresse, le raccourcissement des URL). Ces règles sont créées à l’aide de code JavaScript."
 
 Une fois les propriétés de la règle de typologie définies, créez le contenu de la règle.
 
-* Pour les **règles de contrôle**, cliquez sur le bouton **Modifier le code** et saisissez la logique de la règle en JavaScript. Dans l&#39;exemple ci-dessous, une règle est créée pour afficher un avertissement dans les logs si la cible est vide.
+* Pour les **règles de contrôle**, cliquez sur le bouton **Modifier le code** et saisissez la logique de la règle en JavaScript. Dans l’exemple ci-dessous, une règle est créée pour afficher un avertissement dans les logs si la cible est vide.
 
   ![Éditeur de code de règle de contrôle](assets/business-rules-code.png)
 
 * Pour les **règles de filtrage**, sélectionnez la dimension de ciblage et cliquez sur le bouton **[!UICONTROL Ajouter des règles]** pour définir les critères de filtrage à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
-  ![Modéliseur de requête de règle de filtrage](assets/business-rules-query.png)
+  ![Concepteur de requête de règle de filtrage](assets/business-rules-query.png)
 
-Lorsque votre règle est prête, cliquez sur le bouton **[!UICONTROL Créer]** pour créer la règle de typologie. Référencez la règle dans une typologie pour l&#39;appliquer aux messages.
+Lorsque votre règle est prête, cliquez sur le bouton **[!UICONTROL Créer]** pour créer la règle de typologie. Référencez la règle dans une typologie pour l’appliquer aux messages.
 
 ## Référencer des règles de typologie dans une typologie {#add-rules}
 
-Pour référencer une ou plusieurs règles dans une typologie, procédez comme suit :
+Pour référencer une ou plusieurs règles dans une typologie, procédez comme suit :
 
 1. Accédez à l’onglet **[!UICONTROL Typologie]** et ouvrez la typologie dans laquelle vous souhaitez référencer la ou les règles.
 
@@ -196,6 +196,6 @@ Vous pouvez désormais appliquer la typologie à des messages. Une fois cette op
 
 Pour appliquer une typologie à un message ou à un modèle de message, sélectionnez la typologie dans les paramètres du message. [Découvrir comment configurer les paramètres de diffusion](../advanced-settings/delivery-settings.md#typology)
 
-![Appliquer la typologie à l&#39;interface des messages](assets/business-rules-apply.png)
+![Interface Appliquer la typologie à des messages](assets/business-rules-apply.png)
 
-Une fois appliquées, les règles de typologie incluses dans la typologie sont exécutées pour vérifier la validité de la diffusion pendant la préparation du message. Les profils répondant aux critères d’une règle de typologie sont exclus des audiences de diffusion.
+Une fois appliquées, les règles de typologie incluses dans la typologie sont exécutées pour vérifier la validité de la diffusion pendant la préparation du message. Les profils correspondant à des critères inclus dans une règle de typologie sont exclus des audiences de diffusion.

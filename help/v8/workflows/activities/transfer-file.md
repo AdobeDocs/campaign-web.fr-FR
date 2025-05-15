@@ -4,7 +4,7 @@ title: Utiliser l’activité Transfert de fichier
 description: Découvrir comment utiliser l’activité de workflow Transfert de fichier
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 100%
 

@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 76%
+ht-degree: 97%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 76%
 L’activité **Chargement de fichier** est une activité de **Data Management**. Utilisez-la lorsque vous travaillez avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour la [personnalisation](../../personalization/gs-personalization.md) ou la mise à jour des profils ou des tables.
 
 >[!NOTE]
->Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Avec la console de l’interface utilisateur web, vous pouvez charger des fichiers jusqu’à une taille maximale de 50 Mo. Dans la console cliente, l’activité Chargement de données a une limite de 150MB. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=fr){target="_blank"}
+>Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Avec la console de l’interface utilisateur web, vous pouvez charger des fichiers jusqu’à une taille maximale de 50 Mo. Dans la console cliente, l’activité Chargement de données a une limite de 150MB. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Combinée avec l’activité [Réconciliation](reconciliation.md), elle permet de lier des données non identifiées à des ressources existantes. L’activité **Chargement de fichier** peut par exemple être placée après une activité de **Réconciliation** si vous importez des données non standard dans la base de données.
 
 ## Configurer l’activité Chargement de fichier {#load-configuration}
 
-La configuration de l’activité **Charger un fichier** s’effectue en deux étapes. Tout d’abord, définissez la structure de fichiers attendue en chargeant un exemple de fichier. Une fois cette opération effectuée, spécifiez l’origine du fichier dont les données seront importées. Suivez les étapes ci-dessous pour configurer l’activité :
+La configuration de l’activité **Charger un fichier** s’effectue en deux étapes. Définissez d’abord la structure attendue du fichier en chargeant un fichier d’exemple. Une fois cela effectué, spécifiez la provenance du fichier dont les données sont importées. Suivez les étapes ci-dessous pour configurer l’activité :
 
-![Capture D’Écran De Configuration De L’Activité Chargement De Fichier De Workflow](../assets/workflow-load-file.png)
+![Capture d’écran de configuration de l’activité de chargement de fichier du workflow](../assets/workflow-load-file.png)
 
 ### Configurer le fichier d’exemple {#sample}
 
@@ -55,7 +55,7 @@ La configuration de l’activité **Charger un fichier** s’effectue en deux é
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Nouveau mappage des valeurs de l’activité Chargement de fichier"
->abstract="Utilisez cette option pour mapper des valeurs spécifiques des fichiers chargés à de nouvelles valeurs. Par exemple, si la colonne contient des valeurs « Vrai »/« Faux », vous pouvez ajouter un mappage pour remplacer automatiquement ces valeurs par des caractères « 0 »/« 1 »."
+>abstract="Utilisez cette option pour mapper des valeurs spécifiques des fichiers chargés à de nouvelles valeurs. Par exemple, si la colonne contient des valeurs « True » et « False », vous pouvez ajouter un mappage pour remplacer automatiquement ces valeurs par des caractères « 0 » et « 1 »."
 
 Pour configurer le fichier d’exemple utilisé pour définir la structure de fichier attendue, procédez comme suit :
 
@@ -82,12 +82,12 @@ Pour configurer le fichier d’exemple utilisé pour définir la structure de fi
    * **[!UICONTROL Largeur]** (type de données chaîne) : nombre maximum de caractères à afficher dans la colonne.
    * **[!UICONTROL Transformation des données]** (type de données chaîne) : applique une transformation aux valeurs contenues dans la colonne.
    * **[!UICONTROL Gestion des espaces]** (type de données chaîne) : indiquez comment gérer les espaces contenus dans la colonne.
-   * **[!UICONTROL Séparateurs]** (types de données date, heure, entier et nombre) : spécifiez les caractères à utiliser comme séparateurs.
+   * **[!UICONTROL Séparateurs]** (types de données date, heure, nombre entier et nombre) : spécifiez les caractères à utiliser comme séparateurs.
    * **[!UICONTROL Autoriser les valeurs NULL]** : indiquez comment gérer les valeurs vides dans la colonne. L’option « Paramètre par défaut d’Adobe Campaign » renvoie une erreur si une valeur vide est présente.
-   * **[!UICONTROL Traitement des erreurs]** (type de données de chaîne) : indiquez le comportement en cas d’erreur dans l’une des lignes.
+   * **[!UICONTROL Traitement des erreurs]** (type de données chaîne) : indiquez le comportement à suivre en cas d’erreur dans l’une des lignes.
    * **[!UICONTROL Remappage des valeurs]** : cette option vous permet de mapper des valeurs spécifiques à de nouvelles valeurs. Par exemple, si la colonne contient des valeurs de type « True » et « False », vous pouvez ajouter un mappage pour remplacer automatiquement ces valeurs par les caractères « 0 » et « 1 ».
 
-   +++
++++
 
 1. Dans la section **Mise en forme**, indiquez la mise en forme du fichier externe pour vous assurer que les données sont correctement importées.
 
@@ -106,12 +106,12 @@ Pour configurer le fichier d’exemple utilisé pour définir la structure de fi
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Base de données cible"
->abstract="Si vous accédez à une activité **[!UICONTROL Chargement de fichier]** déjà configurée dans la console cliente, une section **[!UICONTROL Base de données cible]** supplémentaire est disponible si vous avez configuré l’activité pour charger le fichier dans une base de données externe."
+>abstract="Si vous accédez à une activité **[!UICONTROL Charger un fichier]** qui a déjà été configurée dans la console cliente, une section supplémentaire **[!UICONTROL Base de données cible]** est disponible si vous avez configuré l’activité pour charger le fichier vers une base de données externe."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="Commande de chargement de fichier"
->abstract="L’autorisation d’une commande arbitraire pour le prétraitement pose un problème de sécurité. Désactivez l&#39;option de sécurité XtkSecurity_Disable_Preproc pour forcer l&#39;utilisation d&#39;une liste prédéfinie de commandes."
+>abstract="L’autorisation d’une instruction arbitraire pour le prétraitement pose un problème de sécurité. Désactivez l’option de sécurité XtkSecurity_Disable_Preproc pour forcer l’utilisation d’une liste prédéfinie d’instructions."
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ Pour définir le fichier cible à charger, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si vous accédez à une activité **[!UICONTROL Charger le fichier]** déjà configurée dans la console cliente, une section **[!UICONTROL Base de données cible]** supplémentaire s’affiche si vous avez configuré l’activité pour charger le fichier dans une base de données externe. Celle-ci vous permet de spécifier si vous souhaitez charger le fichier vers le serveur Campaign ou vers la base de données externe.
+   >Si vous accédez à une activité **[!UICONTROL Charger un fichier]** qui a déjà été configurée dans la console cliente, une section supplémentaire appelée **[!UICONTROL Base de données cible]** s’affiche si vous avez configuré l’activité pour charger le fichier vers une base de données externe. Celle-ci vous permet de spécifier si vous souhaitez charger le fichier vers le serveur Campaign ou vers la base de données externe.
 
 ### Options additionnelles {#options}
 
@@ -149,11 +149,11 @@ Pour définir le fichier cible à charger, procédez comme suit :
 
 1. Dans la section **Gestion des rejets**, spécifiez le comportement de l’activité en cas d’erreur :
 
-   * Dans le champ **[!UICONTROL Nombre d’erreurs autorisées]**, spécifiez le nombre maximum d’erreurs autorisées lors du traitement du fichier à charger. Par exemple, si la valeur est définie sur « 20 », l’exécution du workflow échoue s’il y a plus de 20 erreurs lors du chargement du fichier.
+   * Dans le champ **[!UICONTROL Nombre d’erreurs autorisées]**, spécifiez le nombre maximum d’erreurs autorisées lors du traitement du fichier à charger. Par exemple, si la valeur est définie sur « 20 », l’exécution du workflow échoue si plus de 20 erreurs se produisent lors du chargement du fichier.
 
    * Pour conserver les erreurs qui se sont produites lors du chargement du fichier, activez l’option **[!UICONTROL Conserver les rejets dans un fichier]** et saisissez le nom de votre choix pour le fichier dans le champ **[!UICONTROL Fichier de rejets]**.
 
-     Après avoir activé cette option, une transition de sortie supplémentaire nommée « Complémentaire » est ajoutée après l’activité. Toute erreur qui se produit lors de l’importation sera stockée dans le fichier spécifié sur le serveur.
+     Après avoir activé cette option, une transition de sortie supplémentaire nommée « Complémentaire » est ajoutée après l’activité. Toute erreur qui se produit pendant l’import est stockée dans le fichier spécifié sur le serveur.
 
 1. Pour supprimer le fichier chargé du serveur une fois le workflow exécuté, activez l’option **[!UICONTROL Supprimer le fichier après l’import]**.
 

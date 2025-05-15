@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 33%
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Définir le contenu de l’e-mail"
->abstract="L’écran **Modifier le contenu** vous permet de définir des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet, d’effectuer des actions supplémentaires telles que l’ajout de pièces jointes ou d’offres, et d’accéder au Designer d’e-mail pour donner un aspect soigné à votre message."
+>abstract="L’écran **Modifier le contenu** vous permet de définir les éléments de base de votre message, tels que l’adresse de la personne expéditrice et l’objet, d’effectuer des actions supplémentaires, telles que l’ajout de pièces jointes ou d’offres, et d’accéder au concepteur d’e-mail pour peaufiner l’aspect de votre message."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -25,7 +25,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Joindre des fichiers à un e-mail"
->abstract="Sélectionnez un ou plusieurs fichiers à insérer dans votre message. Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email."
+>abstract="Sélectionnez un ou plusieurs fichiers à insérer dans votre message. Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -36,7 +36,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="Ajouter des langues"
->abstract="Dans cet onglet, vous trouverez une liste des langues dans lesquelles la diffusion doit être envoyée. Vous pouvez ajouter d’autres langues en cliquant sur le bouton Ajouter une langue , ou en dupliquant une autre langue via cet onglet."
+>abstract="Dans cet onglet, vous trouverez une liste des langues dans lesquelles la diffusion doit être envoyée. Vous pouvez ajouter d’autres langues en cliquant sur le bouton Ajouter une langue, ou en dupliquant une autre langue via cet onglet."
 
 La fenêtre **[!UICONTROL Modifier le contenu]** de l’e-mail vous permet d’effectuer les opérations suivantes :
 
@@ -55,45 +55,45 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir de la fenêtre [tableau de bord de diffusion des e-mails](../email/create-email.md).
 
-   ![Capture d’écran affichant le bouton Modifier le contenu dans le tableau de bord de la diffusion e-mail.](assets/email-edit-content-button.png){zoomable="yes"}
+   ![Capture d’écran montrant le bouton Modifier le contenu dans le tableau de bord de la diffusion e-mail.](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. La fenêtre de modification du contenu de l’e-mail s’ouvre.
 
-   ![Capture d’écran affichant le tableau de bord d’édition du contenu de l’e-mail.](assets/email-edit-content-dashboard.png){zoomable="yes"}
+   ![Capture d’écran montrant le tableau de bord de modification du contenu de l’e-mail.](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Si vous configurez un nouvel e-mail, les champs **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL Adresse e-mail de l’expéditeur]** sont déjà renseignés.
+   >Si vous configurez un nouvel e-mail, les champs **[!UICONTROL Nom de la personne expéditrice]** et **[!UICONTROL Adresse e-mail de la personne expéditrice]** sont déjà renseignés.
 
 1. Le champ **[!UICONTROL Nom de l’expéditeur]** est défini dans le modèle d’e-mail. Si vous voulez le modifier, utilisez un nom facilement identifiable par les destinataires, tel que le nom de votre marque, pour augmenter le taux d’ouverture de vos diffusions.
 
    >[!NOTE]
    >
-   >Pour améliorer davantage l’expérience des destinataires, vous pouvez ajouter le nom d’une personne, par exemple « Eve de Luma ».
+   >Pour améliorer davantage l’expérience des destinataires, vous pouvez ajouter le nom d’une personne, par exemple « Eve de Luma ».
 
-1. Le champ **[!UICONTROL Adresse e-mail de l’expéditeur]** est également défini dans le modèle d’e-mail. Assurez-vous que le domaine de l’adresse correspond au sous-domaine que vous avez délégué à Adobe.
+1. Le champ **[!UICONTROL Adresse e-mail de l’expéditeur]** est également défini dans le modèle d’e-mail. Assurez-vous que le domaine de l’adresse est identique au sous-domaine délégué à Adobe.
 
    >[!NOTE]
    >
    >Vous pouvez modifier la partie qui précède le signe « @ », mais pas l’adresse du domaine.
 
-1. Développez la section **[!UICONTROL Champs de réponse]**. Le nom et l’adresse de la personne expéditrice sont utilisés par défaut pour les réponses. Cependant, Adobe recommande d’utiliser une adresse réelle existante, telle que l’assistance clientèle de votre marque. Dans ce cas, si un destinataire envoie une réponse, l’équipe de l’assistance clientèle sera en mesure de la gérer.
+1. Développez la section **[!UICONTROL Champs de réponse]**. Le nom et l’adresse de la personne expéditrice sont utilisés par défaut pour les réponses. Adobe recommande toutefois d’utiliser une adresse réelle existante, telle que l’assistance clientèle de votre marque. Ainsi, si une personne destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
 
-   ![Capture d’écran affichant la section Champs de réponse dans l’éditeur de contenu d’e-mail.](assets/email-edit-content-reply-to.png){zoomable="yes"}
+   ![Capture d’écran montrant la section Champs de réponse dans l’éditeur de contenu d’e-mail.](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter [personnalisation](../personalization/personalize.md) à l’aide de divers attributs, fragments d’expression ou offres.
+1. Définissez l’**[!UICONTROL Objet]** de l’e-mail. Saisissez directement l’objet dans le champ dédié ou ouvrez l’éditeur d’expression pour ajouter des éléments de [personnalisation](../personalization/personalize.md) à l’aide de divers attributs, fragments d’expression ou offres.
 
-1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]**, puis sélectionnez un ou plusieurs fichiers.
+1. Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton **[!UICONTROL Ajouter une pièce jointe]** puis sélectionnez un ou plusieurs fichiers.
 
    >[!NOTE]
    >
-   >Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email.
+   >Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par e-mail.
 
    <!--limitation on size + number of files?-->
 
 1. Si vous souhaitez envoyer des offres par e-mail, sélectionnez-les à l’aide du bouton **[!UICONTROL configurer les offres]**.
 
-   Vous pouvez ensuite les insérer dans l’e-mail à l’aide de champs de personnalisation. [Découvrez comment envoyer des offres.](../msg/offers.md)
+   Vous pouvez ensuite les insérer dans l’e-mail à l’aide des champs de personnalisation. [Découvrez comment envoyer des offres.](../msg/offers.md)
 
 ## Modifier le corps de l’e-mail
 
@@ -111,7 +111,7 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
 1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
 
-1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail](../preview-test/preview-test.md).
+1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)
 
 ## Configurer une diffusion multilingue
 
@@ -129,7 +129,7 @@ Pour créer des variantes de langue, procédez comme suit :
 
    >[!IMPORTANT]
    >
-   >Le bouton **[!UICONTROL Ajouter une langue]** n’est disponible que si la dimension cible contient le schéma Langue . Pour en savoir plus sur les schémas et les dimensions de la cible, consultez la [documentation détaillée](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >Le bouton **[!UICONTROL Ajouter une langue]** n’est disponible que si la dimension cible contient le schéma Langue . Pour en savoir plus sur les schémas et les dimensions de la cible, consultez la [documentation détaillée](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Pour créer des variantes de langue, procédez comme suit :
 
    >[!NOTE]
    >
-   >Les langues disponibles dans cette liste dépendent des valeurs définies par l’attribut Langue (valeurs telles que : système, utilisateur, dbenum, etc.) En savoir plus sur la gestion des énumérations dans cette [section](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Les langues disponibles dans cette liste dépendent des valeurs définies par l’attribut Langue (valeurs telles que : système, utilisateur, dbenum, etc.) En savoir plus sur la gestion des énumérations dans cette [section](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}
@@ -188,4 +188,4 @@ Pour supprimer une variante de langue, cliquez sur les trois points du côté dr
 Pour dupliquer une variante de langue, cliquez sur les trois points du côté droit de l’onglet et sélectionnez Dupliquer. Si vous choisissez de dupliquer une langue autre que la langue par défaut, le contenu dupliqué sera basé sur la langue que vous avez choisi de dupliquer.
 
 
-1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail](../preview-test/preview-test.md).
+1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)

@@ -3,7 +3,7 @@ title: Dimensions de ciblage
 description: En savoir plus sur les dimensions de ciblage dans Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 

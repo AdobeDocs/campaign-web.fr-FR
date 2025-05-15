@@ -6,13 +6,13 @@ exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 56%
+ht-degree: 94%
 
 ---
 
 # Rapports de campagne de canal de notification push {#campaign-reports-push-channel}
 
-Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Pour le canal de notification push, les mesures et les rapports sont détaillés ci-dessous. Découvrez comment accéder à vos rapports de campagne sur [cette page](campaign-reports.md).
+Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Pour le canal de notification push, les mesures et les rapports sont détaillés ci-dessous. Découvrez comment accéder aux rapports de campagne sur [cette page](campaign-reports.md).
 
 ## Synthèse des diffusions {#delivery-summary-push}
 
@@ -23,7 +23,7 @@ Chaque rapport de campagne est divisé en différents widgets qui détaillent le
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI qui donnent des informations détaillées sur les interactions de vos visiteurs et visiteuses avec votre diffusion Notification push. Les mesures sont détaillées ci-dessous.
 
-![Mesures de synthèse des diffusions affichées dans le rapport Présentation des diffusions](assets/campaign-reporting-push-summary.png){zoomable="yes"}
+![Mesures de synthèse des diffusions affichées dans le rapport Vue d’ensemble de la diffusion](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne push.
 
@@ -31,7 +31,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI qui
 
 * **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Nombre total de clics]** : nombre total de destinataires distincts ayant cliqué dans une diffusion au moins une fois.
 
@@ -42,7 +42,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI qui
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Statistiques initiales sur l’audience cible"
->abstract="Le tableau **Statistiques initiales sur l’audience cible** affiche les données relatives à vos destinataires."
+>abstract="Le tableau **Statistiques initiales sur l’audience cible** affiche des données relatives à vos personnes destinataires."
 
 Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affiche des données relatives à vos destinataires. Les mesures sont détaillées ci-dessous.
 
@@ -54,7 +54,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Rejetés par les règles]** : nombre total d’adresses ignorées pendant l’analyse lors de l’application des règles, telles que l’adresse manquante, mise en quarantaine ou en cours de place sur la liste bloquée.
+* **[!UICONTROL Rejetés par les règles]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, mise en quarantaine, placée sur la liste bloquée, etc.
 
 +++
 
@@ -73,13 +73,13 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Succès]** : nombre de messages traités avec succès, par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours, par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des rebonds par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (enregistrement non valide, rejet de message ou erreur de payload, par exemple), par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (enregistrement non valide, rejet du message, erreur de payload, par exemple) par rapport au nombre de messages à diffuser.
 
-  Les types d’erreur des notifications push sont répertoriés dans la documentation d’[Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
+  Les types d’erreur de notifications push sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
 
 +++
 
@@ -92,7 +92,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relatives à la manière dont vos destinataires ont interagi avec votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![ Flux de clics générés affichés dans le rapport](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
+![Flux de clics générés affichés dans le rapport](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne push.
 
@@ -100,6 +100,6 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 * **[!UICONTROL Nombre total de clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Réactivité]** : ratio du nombre de destinataires ciblé(e)s ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de destinataires ciblé(e)s ayant ouvert une diffusion.
+* **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
 +++

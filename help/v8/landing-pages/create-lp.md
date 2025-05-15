@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Créer et gérer des pages de destination"
->abstract="Adobe Campaign vous permet de créer, de concevoir et de partager des pages de destination pour diriger vos utilisateurs vers des pages web en ligne où vous pouvez gérer des cas d’acquisition, d’abonnement/de désabonnement, et de placer sur la liste bloquée des cas d’utilisation, en fonction de modèles intégrés."
+>abstract="Adobe Campaign vous permet de créer, concevoir et partager des pages de destination afin d’orienter vos utilisateurs et vos utilisatrices vers des pages web en ligne où vous pouvez gérer des cas d’utilisation d’acquisition, d’abonnement/de désabonnement et de liste de blocage, en fonction de modèles intégrés."
 
-L’interface utilisateur web de Campaign vous permet de créer, concevoir et publier des pages de destination. Après la publication, vous pouvez insérer un lien vers votre formulaire dans une diffusion. Lorsque les destinataires cliquent sur ce lien, ils sont redirigés vers la page de destination correspondante.
+L’interface utilisateur web de Campaign vous permet de créer, concevoir et publier des pages de destination. Une fois la publication effectuée, vous pouvez insérer un lien vers votre formulaire dans une diffusion. Lorsque les personnes destinataires cliquent sur ce lien, elles sont redirigées vers la page de destination correspondante.
 
 [!DNL Adobe Campaign] est fourni avec quatre modèles pour gérer les cas d’utilisation suivants : **acquisition**, **abonnement**, **désabonnement** et **liste bloquée**. [En savoir plus](lp-use-cases.md)
 
@@ -26,20 +26,20 @@ L’interface utilisateur web de Campaign vous permet de créer, concevoir et pu
 
 Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
 
-![Capture d’écran affichant l’inventaire des landing pages dans l’interface web de Campaign.](assets/lp-inventory.png){zoomable="yes"}
+![Capture d’écran montrant l’inventaire des pages de destination dans l’interface de Campaign Web.](assets/lp-inventory.png){zoomable="yes"}
 
 L’inventaire **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer à l’aide du bouton **[!UICONTROL Afficher les filtres]**.
 
 * Vous pouvez filtrer les éléments que vous avez créés ou modifiés.
-* Vous pouvez limiter les résultats à un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [moteur de requête](../query/query-modeler-overview.md).
+* Vous pouvez limiter les résultats à un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
-![Capture d’écran affichant les options de filtre dans l’inventaire des pages de destination.](assets/lp-inventory-filter.png){zoomable="yes"}
+![Capture d’écran montrant les options de filtre dans l’inventaire des pages de destination.](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
 >[!CAUTION]
 >
->Vous ne pouvez pas afficher ni modifier les pages de destination créées à partir de la console cliente (formulaires web) dans l’interface utilisateur web de Campaign. Pour en savoir plus, consultez la [documentation de la console Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
+>Vous ne pouvez pas afficher ni modifier les pages de destination créées à partir de la console cliente (formulaires web) dans l’interface utilisateur web de Campaign. En savoir plus dans la [documentation de la console Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -55,7 +55,7 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Définir le contenu de chaque page"
->abstract="Ajustez le contenu de chaque page qui fait partie de cette page de destination, tel que le formulaire lui-même, la page de confirmation affichée lors de l’envoi du formulaire ou la page vers laquelle les utilisateurs sont dirigés en cas d’erreur."
+>abstract="Ajustez le contenu de chaque page qui fait partie de cette page de destination, comme le formulaire lui-même, la page de confirmation qui s’affiche lors de l’envoi du formulaire, ou la page vers laquelle les utilisateurs et les utilisatrices sont redirigés en cas d’erreur."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
@@ -82,15 +82,15 @@ Pour créer une page de destination, procédez comme suit :
 
 1. Dans l’inventaire **[!UICONTROL Pages de destination]**, cliquez sur **[!UICONTROL Créer une page de destination]**.
 
-   ![Capture d’écran affichant le bouton Créer une page de destination.](assets/lp-create-button.png){zoomable="yes"}
+   ![Capture d’écran montrant le bouton Créer une page de destination.](assets/lp-create-button.png){zoomable="yes"}
 
 1. Choisissez un modèle :
    * **[!UICONTROL Acquisition]** : il s’agit du modèle par défaut des pages de destination. Il permet de capturer et de mettre à jour les données du profil.
    * **[!UICONTROL Abonnement]** : utilisez ce modèle pour permettre aux utilisateurs et aux utilisatrices de s’abonner à un [service](../audience/manage-services.md).
-   * **[!UICONTROL Désabonnement]** : ce modèle peut être utilisé dans une diffusion envoyée aux abonnés d&#39;un service pour leur permettre de se désabonner de ce [service](../audience/manage-services.md).
-   * placer sur la liste bloquée **&#x200B;**&#x200B;: ce modèle doit être utilisé lorsqu&#39;un profil clique sur un lien d&#39;opt-out dans une diffusion et ne souhaite plus être contacté.
+   * **[!UICONTROL Désabonnement]** : ce modèle peut être utilisé dans une diffusion envoyée aux personnes abonnées à un service afin de leur permettre de se désabonner de ce [service](../audience/manage-services.md).
+   * **[!UICONTROL Liste de blocage]** : ce modèle doit être utilisé lorsqu’un profil clique sur un lien de désinscription dans une diffusion et ne souhaite plus être contacté.
 
-   ![Capture d’écran affichant les modèles de page de destination.](assets/lp-templates.png){zoomable="yes"}
+   ![Capture d’écran montrant les modèles de page de destination.](assets/lp-templates.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -106,27 +106,27 @@ Pour créer une page de destination, procédez comme suit :
 
    ![Capture d’écran affichant la section des propriétés de la page de destination.](assets/lp-properties.png){zoomable="yes"}
 
-1. Dans la section **[!UICONTROL Préchargement des données]** , les options suivantes sont disponibles :
+1. Dans la section **[!UICONTROL Préchargement des données]**, les options ci-dessous sont disponibles :
 
-   * Lorsque l’option **[!UICONTROL Préremplir avec les données référencées dans le formulaire]** est activée, si la personne qui visite la page de destination correspond à un profil de la base de données, les informations du profil sont automatiquement pré-chargées dans le formulaire. Il suffit à l’utilisateur de remplir les champs manquants et de mettre à jour les valeurs existantes si nécessaire. Cela permet de fusionner les données des profils existants au lieu de créer des doublons.
+   * Lorsque l’option **[!UICONTROL Préremplir avec les données référencées dans le formulaire]** est activée, si la personne qui visite la page de destination correspond à un profil de la base de données, les informations du profil sont automatiquement pré-chargées dans le formulaire. La personne doit simplement renseigner les champs manquants et mettre à jour les valeurs existantes si nécessaire. Cela permet de fusionner les données des profils existants au lieu de créer des doublons.
 
      >[!NOTE]
      >
      >Cette option est sélectionnée par défaut pour tous les modèles de page de destination.
 
-   * L’option **[!UICONTROL Autoriser l’absence d’identifiant]** permet à n’importe quelle personne d’accéder à la page de destination. La désélection de cette option empêche les visiteurs anonymes de l’utiliser, ce qui signifie que seuls les utilisateurs identifiés peuvent accéder au formulaire et l’envoyer.
+   * L’option **[!UICONTROL Autoriser l’absence d’identifiant]** permet à n’importe quelle personne d’accéder à la page de destination. Désélectionner cette option empêche les personnes anonymes d’utiliser la page, ce qui signifie que seuls les utilisateurs et utilisatrices identifiés peuvent accéder au formulaire et l’envoyer.
 
      >[!AVAILABILITY]
      >
      >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
-     Pour les modèles **[!UICONTROL Acquisition]** et **[!UICONTROL Abonnement]**, cette option est sélectionnée par défaut. Placer sur la liste bloquée Pour les modèles **[!UICONTROL Désabonnement]** et **&#x200B;**, cette option est désélectionnée par défaut et ne peut pas être modifiée.
+     Pour les modèles **[!UICONTROL Acquisition]** et **[!UICONTROL Abonnement]**, cette option est sélectionnée par défaut. Pour les modèles **[!UICONTROL Désabonnement]** et **[!UICONTROL Liste bloquée]**, cette option est désélectionnée par défaut et ne peut pas être modifiée.
 
 1. Une page de destination peut comporter des pages supplémentaires. Pour ajouter des pages, accédez à la section **[!UICONTROL Pages]**, puis cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour chaque page que vous souhaitez concevoir pour cette page de destination. Le contenu de chaque page est déjà prérempli. Modifiez-le si nécessaire. [En savoir plus](lp-content.md).
 
-   ![Capture d’écran affichant la section pages de l’éditeur de page de destination.](assets/lp-pages.png){zoomable="yes"}
+   ![Capture d’écran affichant la section de page de l’éditeur de page de destination.](assets/lp-pages.png){zoomable="yes"}
 
-1. Dans la section **[!UICONTROL Stockage]**, l’option **[!UICONTROL Mise à jour de l’enregistrement préchargé]** est sélectionnée par défaut. Elle permet de mettre à jour les profils stockés dans la base de données via la landing page. La zone de préchargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données.
+1. Dans la section **[!UICONTROL Stockage]**, l’option **[!UICONTROL Mise à jour de l’enregistrement préchargé]** est sélectionnée par défaut. Elle permet de mettre à jour les profils stockés dans la base via la page de destination. La zone de préchargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données.
 
    Vous pouvez également sélectionner parmi les champs du contexte courant de la page de destination, ceux qui seront utilisés pour retrouver le profil correspondant dans la base de données. Pour ce faire, désélectionnez l’option **[!UICONTROL Mettre à jour l’enregistrement pré-chargé]** et cochez les champs de votre choix sous **[!UICONTROL Options de réconciliation]**.
 
@@ -154,11 +154,11 @@ Pour créer une page de destination, procédez comme suit :
 
      >[!NOTE]
      >
-     >Pour des raisons de sécurité et de performances de la plateforme, Adobe vous recommande de définir une date de fin.
+     >Pour des raisons de sécurité et de performances de la plateforme, Adobe recommande de définir une date de fin.
 
 1. Cliquez sur **[!UICONTROL Réviser et publier]**.
 
-Une fois que vous avez défini tous les paramètres et [conception](lp-content.md) toutes les pages, vous pouvez [tester](#test-landing-page) et [publier](#publish-landing-page) votre page de destination comme indiqué ci-dessous.
+Une fois tous les paramètres définis et toutes les pages [conçues](lp-content.md), vous pouvez [tester](#test-landing-page) et [publier](#publish-landing-page) votre page de destination comme décrit ci-dessous.
 
 ## Sécuriser votre page de destination avec un captcha {#captcha}
 
@@ -171,7 +171,7 @@ Configurer un captcha vous permet de protéger votre page de destination contre 
 Pour l’utiliser, accédez aux **[!UICONTROL Propriétés]** de votre page de destination.
 Dans les **[!UICONTROL Options supplémentaires]** également. Activez le bouton (bascule) **[!UICONTROL Solution supplémentaire d’activation de captcha]**.
 
-![Capture d’écran affichant le bouton bascule Activer la solution captcha supplémentaire](assets/lp-properties-captcha.png){zoomable="yes"}
+![Capture d’écran montrant le bouton pour activer une solution Captcha supplémentaire](assets/lp-properties-captcha.png){zoomable="yes"}.
 
 Pour vérifier les paramètres du captcha, cliquez sur le bouton **[!UICONTROL Réviser et publier]**, puis sur **[!UICONTROL Simuler le contenu]**. Lors de la soumission du formulaire, vous constatez que le widget captcha fonctionne pendant la validation comme ci-dessous.
 
@@ -214,7 +214,7 @@ Pour tester votre page de destination, suivez ces étapes :
 
 1. sélectionnez **[!UICONTROL Ouvrir l’aperçu]** pour tester votre page de destination.
 
-   ![Capture d’écran du bouton Ouvrir l’aperçu](assets/lp-open-preview.png){zoomable="yes"}
+   ![Capture d’écran du bouton Ouvrir la prévisualisation](assets/lp-open-preview.png){zoomable="yes"}
 
 1. L’aperçu de votre page de destination s’ouvre dans un nouvel onglet. Les éléments personnalisés sont remplacés par les données du profil de test sélectionné.
 
@@ -240,6 +240,6 @@ Une fois la publication effectuée :
 >
 >Pour tester ou tirer pleinement profit de votre page de destination, vous ne pouvez pas copier-coller ce lien directement dans un navigateur web ou dans vos diffusions. À la place, utilisez la fonction [Simuler le contenu](#test-landing-page) pour la tester et suivez les étapes décrites dans [cette section](lp-use-cases.md) pour utiliser correctement votre page de destination.
 
-![Capture d’écran affichant l’URL de la page de destination](assets/lp-published.png){zoomable="yes"}
+![Capture d’écran montrant l’URL de la page de destination](assets/lp-published.png){zoomable="yes"}
 
 Vous pouvez surveiller les impacts de vos pages de destination par le biais de logs<!--and specific reports-->. Cliquez sur le bouton **[!UICONTROL Logs]**.

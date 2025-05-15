@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Ajout de métadonnées au contenu de votre e-mail
+title: Ajouter des métadonnées au contenu de votre e-mail
 description: Découvrez comment améliorer la lisibilité et l’accessibilité du contenu de votre e-mail avec les métadonnées
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
-# Ajout de métadonnées au contenu de votre e-mail {#email-metadata}
+# Ajouter des métadonnées au contenu de votre e-mail {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Définir un pré-titre"
+>title="Définir un pré-en-tête"
 >abstract="Un pré-en-tête est un bref résumé qui suit l’objet d’un e-mail lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail et contient généralement une seule phrase."
 
 Lors de la conception de vos e-mails, vous pouvez définir des méta-attributs supplémentaires pour votre contenu afin d’en améliorer la lisibilité et l’accessibilité. Le [!DNL Journey Optimizer] [Email Designer](get-started-email-designer.md) permet de définir les éléments suivants :

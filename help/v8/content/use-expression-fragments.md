@@ -4,7 +4,7 @@ title: Ajouter des fragments d’expression dans l’éditeur d’expression
 description: Découvrez comment utiliser les fragments de contenu.
 exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
