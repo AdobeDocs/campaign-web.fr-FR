@@ -3,7 +3,7 @@ title: Gérer les énumérations
 description: Découvrir comment utiliser les énumérations
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
 ht-degree: 100%
 
