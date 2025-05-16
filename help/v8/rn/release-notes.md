@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,18 +20,18 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 Les modifications et améliorations disponibles avec les versions précédentes sont dans [2024](release-notes-24.md) et [2025](release-notes-25.md).
 
-## Mises à jour de mai 2025 {#25-5-release}
+## Mises à jour de mai 2025 {#25-5-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Score d’alignement des marques (Beta)</strong><br/></th>
+<th><strong>Score d’alignement sur la marque (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La fonction Score d’alignement de la marque offre des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux directives de votre marque. Cette fonctionnalité est disponible dans Beta.</p>
+<p>La fonction Score d’alignement sur la marque fournit des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux règles de votre marque. Cette fonctionnalité est disponible en version bêta.</p>
 <p>Pour plus d’informations, consultez la <a href="../content/brands-score.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>

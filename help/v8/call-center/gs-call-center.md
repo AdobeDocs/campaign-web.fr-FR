@@ -4,9 +4,9 @@ title: Commencer avec le canal centre d’appel
 description: Découvrir comment créer et envoyer des diffusions de centre d’appel à l’aide d’Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Canal centre d’appel"
->abstract="Le canal centre d’appel est désormais disponible dans l’interface d’utilisation de Campaign Web. Ce canal fait référence à une méthode de communication utilisée pour gérer et suivre les communications gérées via un centre d’appels."
+>abstract="Le canal centre d’appel est désormais disponible dans l’interface d’utilisation de Campaign Web. Ce canal fait référence à une méthode de communication utilisée pour gérer et suivre les échanges réalisés via un centre d’appel."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 Le canal centre d’appel permet d’exporter des listes de contacts ciblés pour les campagnes téléphoniques sortantes directement depuis l’interface d’utilisation d’Adobe Campaign Web. Utilisez-le pour coordonner les appels par le biais d’équipes internes ou de centres de contact externes.
