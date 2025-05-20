@@ -3,10 +3,10 @@ audience: end-user
 title: Gestion des autorisations dans l’interface utilisateur web de Campaign
 description: En savoir plus sur les autorisations dans l’interface utilisateur web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,12 @@ Dans la section **[!UICONTROL Sécurité]** des **[!UICONTROL Paramètres du dos
 Vous pouvez cliquer directement sur les autorisations et les définir sur **[!UICONTROL Autorisé]** ou **[!UICONTROL Refusé]**.
 
 ![Exemple d’autorisations refusées dans les paramètres de sécurité des dossiers](assets/folder_security_denied.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Vous ne devriez pas être en mesure de créer un objet pour lequel vous n’avez pas au moins un dossier avec des droits d’écriture.
+>
+>Vous n’avez pas besoin d’être administrateur pour créer des fragments, mais vous devez disposer de droits d’écriture sur au moins un dossier « Fragment visuel de contenu ». Sinon, vous ne pourrez pas créer de fragment visuel.
 
 Si l’option **[!UICONTROL Propager]** est activée, toutes les autorisations définies pour un dossier sont appliquées à tous ses sous-dossiers. Ces autorisations peuvent être remplacées pour chaque sous-dossier.
 

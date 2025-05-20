@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: ht
-source-wordcount: '828'
-ht-degree: 100%
+source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 99%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 100%
    + Centre d’appel {#call-center}
       + [Commencer avec les diffusions de centre d’appel](call-center/gs-call-center.md)
       + [Créer et envoyer une diffusion de centre d’appel](call-center/create-call-center.md)
+   + [Canal externe personnalisé](call-center/gs-custom-channel.md)
    + Messages transactionnels {#transactional-messages}
       + [Commencer avec les messages transactionnels](transactional-messaging/transactional.md)
       + [Créer un message transactionnel](transactional-messaging/create-transactional.md)

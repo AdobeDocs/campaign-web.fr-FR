@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
-workflow-type: ht
-source-wordcount: '737'
-ht-degree: 100%
+source-git-commit: ea6c38d4c640c15994035d96c7a05934cf22d04b
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,9 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 Les modifications et améliorations disponibles avec les versions précédentes sont dans [2024](release-notes-24.md) et [2025](release-notes-25.md).
 
-## Mises à jour de mai 2025 {#25-5-release}
+## Version du 25 mai {#25-5-release}
+
+À compter de la version de mai, les fonctionnalités suivantes seront disponibles pour tous les utilisateurs.
 
 <table>
 <thead>
@@ -39,101 +41,24 @@ Les modifications et améliorations disponibles avec les versions précédentes 
 </tbody>
 </table>
 
-## Version d’avril 2025 {#25-4-release}
-
-**Date de publication** : 29 avril 2025
-
-### Nouvelles fonctionnalités {#25-4-features}
-
-Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et utilisatrices à compter de la version d’avril.
-
 <table>
 <thead>
 <tr>
-<th><strong>Canal centre d’appel</strong><br/></th>
+<th><strong>Canal personnalisé pour les diffusions externes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le canal centre d’appel est désormais disponible dans l’interface d’utilisation de Campaign Web. Ce canal fait référence à une méthode de communication utilisée pour gérer et suivre les communications ou interactions gérées par un centre d’appel (généralement des appels téléphoniques passés par des agentes et agents à des clientes et clients ou à des prospects).</p>
-<img src="assets/do-not-localize/call-center.gif">
-<p>Pour plus d’informations, consultez la <a href="../call-center/gs-call-center.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais, directement à partir de l’interface utilisateur web d’Adobe Campaign, orchestrer et exécuter des diffusions en fonction de canaux externes personnalisés. Ces diffusions peuvent être autonomes ou faire partie d’un workflow. La création du canal externe personnalisé intégré à un tiers est effectuée dans la console.</p>
+<p>Remarque : la création de rapports n’est pas disponible dans l’interface utilisateur web pour le canal personnalisé. Vous devez accéder à la console cliente pour accéder aux rapports.</p>
+<p>Pour plus d’informations, consultez la <a href="../call-center/gs-custom-channel.md">documentation détaillée</a>.</p>
+<img src="assets/do-not-localize/custom-channel.gif">
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Nouveau créateur de règles</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Un nouveau créateur de règles est désormais disponible pour vous aider à définir des conditions complexes dans une interface d’utilisation améliorée. Vous pouvez passer de l’ancien au nouveau créateur de règles selon vos besoins.</p>
-<img src="assets/do-not-localize/rule-builder-release.gif">
-<p>Pour plus d’informations, consultez la <a href="../query/query-modeler-overview.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+### Améliorations {#25-5-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Création d’un compte externe</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>En tant qu’administrateur ou administratrice Campaign, vous pouvez désormais configurer de nouvelles connexions avec des systèmes externes à partir de l’interface d’utilisation de Campaign Web.
-Vous pouvez également afficher, mettre à jour et gérer les comptes externes existants.</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Améliorations {#25-4-improvements}
-
-**Améliorations générales de l’interface**
-
-* Les options Description du champ, Ajouter aux favoris et Distribution des valeurs pour les attributs de schéma sont désormais plus visibles dans l’interface d’utilisation. Pour plus d’informations, consultez la [documentation détaillée](../get-started/attributes.md).
-* Dans l’interface d’utilisation, la date et l’heure s’affichent désormais en fonction de la langue principale définie dans les préférences d’Experience League. Cette fonctionnalité est uniquement disponible pour plusieurs langues. Pour consulter la liste complète des langues prises en charge, reportez-vous à la [documentation détaillée](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/browser-language){target=_blank}.
-
-<!--
-ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
-ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
--->
-
-**Éditeur d’e-mails** : pour améliorer l’accessibilité dans l’interface d’utilisation de Campaign Web, deux nouveaux champs sont désormais disponibles dans le concepteur d’e-mail : ils correspondent à l’élément `title` et l’attribut lang dans l’élément `html` du contenu de votre e-mail. Vous pouvez définir ces paramètres en plus du champ Pré-en-tête, dans la section Corps de l’e-mail. Pour plus d’informations, consultez la [documentation détaillée](../email/metadata.md).
-
-<!--
-**Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
--->
-
-**Schémas**
-
-* Vous pouvez désormais modifier le schéma temporaire d’une liste à partir de l’interface d’utilisation de Campaign Web. Pour plus d’informations, consultez la [documentation détaillée](../audience/manage-audience.md).
-* Vous pouvez désormais prévisualiser les champs personnalisés d’un schéma dans un exemple d’écran. Pour plus d’informations, consultez la [documentation détaillée](../administration/custom-fields.md#add).
-* Vous pouvez désormais déplacer des champs personnalisés dans la liste à l’aide du glisser-déposer. Pour plus d’informations, consultez la [documentation détaillée](../administration/custom-fields.md#add).
-
-
-### Nouvelles fonctionnalités en disponibilité limitée {#25-4-features-la}
-
->[!AVAILABILITY]
->
->Les fonctionnalités suivantes sont en disponibilité limitée. Elles sont limitées aux clientes et clients effectuant la migration **d’Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployées dans un autre environnement. Elles nécessitent une mise à niveau du serveur Campaign vers la version 8.7.4.
->
->Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr).
-
-* **Création de diffusions multilingues** : vous pouvez désormais envoyer plusieurs diffusions par e-mail dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix. Pour plus d’informations, consultez la [documentation détaillée](../email/edit-content.md).
-
-* **Rapports dynamiques pour le multilinguisme** : les rapports dynamiques sont désormais disponibles pour les diffusions par e-mail multilingues. Pour plus d’informations, consultez la [documentation détaillée](../reporting/global-reports.md).
-
-* **Prise en charge de l’API REST SMS (disponibilité limitée)** : l’API REST de messagerie transactionnelle est désormais disponible pour le canal SMS. Lorsque le payload contient à la fois un e-mail et un téléphone mobile, vous pouvez utiliser le champ « wishedChannel » pour spécifier le canal. S’il n’est pas fourni, l’e-mail est utilisé par défaut, sauf si wishedChannel demande explicitement un SMS. Pour plus d’informations, consultez la [documentation détaillée](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
-
+L’écran de création des règles de typologie a été mis à jour afin de faciliter la sélection du type de règle.

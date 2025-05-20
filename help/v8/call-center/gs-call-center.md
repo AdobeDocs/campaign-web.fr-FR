@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec le canal centre d’appel
 description: Découvrir comment créer et envoyer des diffusions de centre d’appel à l’aide d’Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 81%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 
 Le canal centre d’appel permet d’exporter des listes de contacts ciblés pour les campagnes téléphoniques sortantes directement depuis l’interface d’utilisation d’Adobe Campaign Web. Utilisez-le pour coordonner les appels par le biais d’équipes internes ou de centres de contact externes.
 
-Vous pouvez configurer des diffusions d’appel dans des workflows ou en tant que diffusions autonomes, définir votre audience et générer des fichiers d’export personnalisables avec toutes les données de contact et de personnalisation nécessaires.
+Vous pouvez configurer les diffusions du centre d’appel dans des workflows ou en tant que diffusions autonomes, définir votre audience et générer des fichiers d’exportation personnalisables avec toutes les données de contact et de personnalisation nécessaires.
 
 Ce canal est idéal pour les suivis de leads, les appels de rétention ou la sensibilisation au service. Il permet d’étendre votre stratégie omnicanale avec des interactions vocales personnalisées.
+
+>[!NOTE]
+>
+>La création de rapports n’est pas disponible dans l’interface utilisateur web pour le canal du centre d’appel. Vous devez accéder à la console cliente pour accéder aux rapports.
 
 Vous pouvez utiliser le canal centre d’appel de l’une des manières suivantes :
 
