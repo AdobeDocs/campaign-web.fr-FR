@@ -54,7 +54,7 @@ Pour créer la diffusion et configurer ses propriétés, procédez comme suit :
 
    ![Capture d’écran affichant la configuration des propriétés d’une diffusion personnalisée](assets/cus-properties.png){zoomable="yes"}
 
-Pour plus d&#39;informations sur la création de diffusion, consultez la documentation du centre d&#39;appels [](../call-center/create-call-center.md#create-delivery).
+Pour plus d&#39;informations sur la création de diffusion, consultez la documentation du centre d&#39;appels [&#128279;](../call-center/create-call-center.md#create-delivery).
 
 ## Définir l’audience{#select-audience}
 
@@ -78,7 +78,7 @@ Maintenant, modifions le contenu du fichier d’extraction qui sera généré pa
 
    ![Capture d’écran affichant les options de configuration des attributs pour le fichier d’extraction.](assets/cc-content-attributes.png)
 
-Pour plus d’informations sur l’édition de contenu, consultez la documentation du centre d’appels [](../call-center/create-call-center.md#edit-content).
+Pour plus d’informations sur l’édition de contenu, consultez la documentation du centre d’appels [&#128279;](../call-center/create-call-center.md#edit-content).
 
 ## Prévisualiser et envoyer la diffusion{#preview-send}
 
@@ -94,4 +94,4 @@ Lorsque le contenu de la diffusion est prêt, vous pouvez le prévisualiser à l
 
 1. Cliquez sur **[!UICONTROL Envoyer]** pour poursuivre le processus d’envoi final, puis confirmez.
 
-Pour plus d’informations sur la prévisualisation et l’envoi, reportez-vous à la documentation du centre d’appel [](../call-center/create-call-center.md#preview-send).
+Pour plus d’informations sur la prévisualisation et l’envoi, reportez-vous à la documentation du centre d’appel [&#128279;](../call-center/create-call-center.md#preview-send).
