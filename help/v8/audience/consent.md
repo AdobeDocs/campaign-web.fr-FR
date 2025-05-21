@@ -4,7 +4,7 @@ title: Consentement
 description: En savoir plus sur le consentement dans Adobe Campaign Web
 badge: label="Disponibilité limitée"
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe Campaign vous permet de collecter des données, y compris des information
 
 ## Gérer l’opt-out {#opt-out}
 
-Donner aux personnes destinataires la capacité de se désabonner des communications d’une marque est une obligation légale. Il est également nécessaire de s’assurer que ce choix est respecté. <!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=fr#privacy-regulations){target="_blank"}.-->
+Donner aux personnes destinataires la capacité de se désabonner des communications d’une marque est une obligation légale. Il est également nécessaire de s’assurer que ce choix est respecté. <!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#privacy-regulations){target="_blank"}.-->
 
 **Pourquoi est-ce important ?**
 
@@ -87,6 +87,6 @@ QUESTION: When a user marks an email as spam, is the profile's No longer contact
 >
 >The **[!UICONTROL Denylisted]** status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications.
 
-Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops){target="_blank"}.
+Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
-Learn more about quarantine in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr#non-deliverable-bounces){target="_blank"}.-->
+Learn more about quarantine in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html#non-deliverable-bounces){target="_blank"}.-->

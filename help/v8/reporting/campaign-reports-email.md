@@ -6,7 +6,7 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Chaque rapport de campagne est divisé en différents widgets qui détaillent le
 
 La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec votre diffusion e-mail. Les mesures sont détaillées ci-dessous.
 
-![Capture d’écran du rapport Présentation de la diffusion](assets/campaign_report_email_1.png){zoomable="yes"}
+![Capture d’écran du rapport Vue d’ensemble de la diffusion](assets/campaign_report_email_1.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -71,7 +71,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![Capture d&#39;écran du tableau Statistiques d&#39;exécution détaillant le succès de la diffusion](assets/campaign_report_email_3.png){zoomable="yes"}
+![Capture d’écran du tableau Statistiques d’exécution détaillant le succès de la diffusion](assets/campaign_report_email_3.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -83,7 +83,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 * **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à délivrer.
 
-  Les types d’erreur e-mail sont répertoriés dans la documentation d’[Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
+  Les types d’erreur d’e-mail sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 Le tableau **[!UICONTROL Statistiques des réactions]** contient les données disponibles relatives à l’activité des destinataires de votre diffusion. Les mesures sont détaillées ci-dessous.
 
-![Capture d’écran du tableau Statistiques de réaction contenant les données disponibles pour l’activité des destinataires pour la diffusion](assets/campaign_report_email_4.png){zoomable="yes"}
+![Capture d’écran du tableau Statistiques des réactions contenant les données disponibles relatives à l’activité des personnes destinataires de la diffusion](assets/campaign_report_email_4.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -143,9 +143,9 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** contiennent les données disponibles pour les erreurs possibles rencontrées pour chaque type de domaine. Les mesures sont détaillées ci-dessous.
 
-Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la documentation [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
+Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
-![Capture d’écran de la Répartition des erreurs par graphique et tableau de type](assets/campaign_report_email_6.png){zoomable="yes"}
+![Capture d’écran du graphe et du tableau Répartition des erreurs par type](assets/campaign_report_email_6.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -155,7 +155,7 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 
 * **[!UICONTROL Boîte pleine]** : type d’erreur générée, après cinq tentatives de diffusion, indiquant que la boîte de réception de la personne destinataire contient trop de messages.
 
-* **[!UICONTROL Compte désactivé]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
+* **[!UICONTROL Compte désactivé]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que l’adresse n’existe plus.
 
 * **[!UICONTROL Refusé]** : type d’erreur générée lorsqu’une adresse est refusée par le FAI (Fournisseur d’accès Internet), par exemple, suite à l’application d’une règle de sécurité (logiciel anti-spams).
 
@@ -185,7 +185,7 @@ Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** co
 
 Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur les données disponibles pour les e-mails envoyés. Les mesures sont détaillées ci-dessous.
 
-![Capture d’écran des mesures des statistiques de diffusion](assets/campaign_report_email_7.png){zoomable="yes"}
+![Capture d’écran des mesures Statistiques de diffusion](assets/campaign_report_email_7.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -259,7 +259,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contiennent les données disponibles pour le comportement des destinataires par lien. Les mesures sont détaillées ci-dessous.
 
-![Capture d’écran du graphique des 10 liens les plus visités](assets/campaign_report_email_10.png){zoomable="yes"}
+![Capture d’écran du graphe des 10 liens les plus visités](assets/campaign_report_email_10.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne par e-mail.
 
@@ -278,7 +278,7 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 
 Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des destinataires par lien.
 
-![Capture d’écran du graphique Répartition des clics au fil du temps](assets/campaign_report_email_11.png){zoomable="yes"}
+![Capture d’écran du graphe Répartition des clics dans le temps](assets/campaign_report_email_11.png){zoomable="yes"}
 
 ## Activités utilisateurs {#user-activities-email}
 
@@ -289,7 +289,7 @@ Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les don
 
 Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Les mesures de ce rapport sont détaillées ci-dessous.
 
-![Capture d’écran du rapport des activités utilisateur](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
+![Capture d’écran du rapport Activités utilisateurs](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 

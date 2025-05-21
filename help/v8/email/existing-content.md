@@ -4,8 +4,8 @@ title: Importer le contenu des e-mails
 description: Découvrez comment importer le contenu des e-mails.
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '291'
+workflow-type: tm+mt
+source-wordcount: '290'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Vous pouvez importer du contenu HTML existant dans le concepteur d’e-mail. Ce 
 >
 >La structure du fichier ZIP est libre. Toutefois, les références doivent être relatives et adaptées à l’arborescence du dossier ZIP.
 
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
@@ -56,4 +56,4 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
 Découvrez comment créer un e-mail en chargeant un fichier HTML, le rendre compatible avec le concepteur d’e-mail et le convertir en modèle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447034/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

@@ -4,7 +4,7 @@ title: Ajuster l’alignement vertical et la marge intérieure dans le concepteu
 description: Découvrez comment ajuster l’alignement vertical et la marge intérieure.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 100%
 

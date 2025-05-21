@@ -4,8 +4,8 @@ title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '652'
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 Le concepteur d’e-mail permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir le corps de votre e-mail en quelques secondes.
 
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
@@ -110,4 +110,4 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 Découvrez comment naviguer dans le concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail, ainsi que le personnaliser et le tester.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453566/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

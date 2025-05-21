@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 75%
+source-wordcount: '643'
+ht-degree: 99%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 75%
 >title="Créer des profils de test"
 >abstract="Les profils de test sont des profils destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant d’envoyer vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d’un message et envoyer des BAT aux profils de test afin de contrôler et de valider le contenu et les paramètres d’un message."
 
-Les profils de test sont utilisés pour envoyer des BAT et valider le contenu et les paramètres de votre message. Ces profils sont des destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant l’envoi de vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d’un message et envoyer des BAT aux profils de test pour contrôler et valider le contenu et les paramètres de votre message.
+Les profils de test sont utilisés pour envoyer des BAT et valider le contenu et les paramètres de votre message. Ces profils sont des profils destinataires supplémentaires qui vous permettent de prévisualiser et de tester la personnalisation et le rendu avant d’envoyer vos messages. Vous pouvez sélectionner un profil de test lors de la prévisualisation du contenu d’un message et envoyer des BAT aux profils de test afin de contrôler et de valider le contenu et les paramètres d’un message.
 
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Les étapes permettant d’envoyer des BAT à des profils sont présentées dans [cette section](../preview-test/test-deliveries.md#test-profiles).
 
@@ -35,9 +35,9 @@ Les étapes permettant d’envoyer des BAT à des profils sont présentées dans
 
 ## Accéder aux profils de test et les gérer {#access-test-profiles}
 
-Pour accéder à la liste des profils de test, sélectionnez **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** dans le menu de gauche, puis cliquez sur l’onglet **[!UICONTROL Profils de test]**.
+Pour accéder à la liste des profils de test, sélectionnez **[!UICONTROL Gestion des clientes et clients]** > **[!UICONTROL Profils]** dans le menu de gauche, puis cliquez sur l’onglet **[!UICONTROL Profils de test]**.
 
-![Vue Liste des profils de test](assets/test-profile-list.png){zoomable="yes"}
+![Vue de la liste des profils de test](assets/test-profile-list.png){zoomable="yes"}
 
 * Vous pouvez filtrer sur un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
@@ -55,7 +55,7 @@ Vous pouvez également accéder aux profils de test via la vue **[!UICONTROL Exp
 
 De là, vous pouvez parcourir, créer et gérer des dossiers ou des sous-dossiers, ainsi que vérifier les autorisations associées. [Découvrez comment créer des dossiers](../get-started/permissions.md#folders)
 
-![Vue des dossiers de profils de test](assets/test-profiles-folders.png){zoomable="yes"}
+![Vue des dossiers des profils de test](assets/test-profiles-folders.png){zoomable="yes"}
 
 Dans la vue **[!UICONTROL Explorateur]**, vous pouvez également filtrer, supprimer, modifier et [créer](#create-test-profile) des profils de test.
 
@@ -68,11 +68,11 @@ Dans la vue **[!UICONTROL Explorateur]**, vous pouvez également filtrer, suppri
 
 Pour créer un profil de test, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]**, puis sélectionnez l’onglet **[!UICONTROL Profils de test]**.
+1. Accédez à **[!UICONTROL Gestion des clients]** > **[!UICONTROL Profils]** et sélectionnez l’onglet **[!UICONTROL Profils de test]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un profil de test]**.
 
-   ![bouton Créer un profil de test](assets/test-profile-create.png){zoomable="yes"}
+   ![Bouton Créer un profil de test](assets/test-profile-create.png){zoomable="yes"}
 
 1. Renseignez les détails du profil de test si nécessaire. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
@@ -98,7 +98,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. Dans l’onglet **[!UICONTROL Données supplémentaires]**, renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Gestion des données et auxquelles vous souhaitez attribuer une valeur spécifique. [En savoir plus sur les workflows](../workflows/gs-workflows.md)
 
-   ![Onglet Données additionnelles](assets/test-profile-additional-data.png){zoomable="yes"}
+   ![Onglet Données supplémentaires](assets/test-profile-additional-data.png){zoomable="yes"}
 
    Assurez-vous que les données supplémentaires de la cible ont été définies avec un alias commençant par &#39;@&#39; dans l’activité du workflow **[!UICONTROL Enrichissement]**. Sinon, vous ne pouvez pas l’utiliser correctement avec vos adresses de contrôle dans l’activité de diffusion. [En savoir plus sur l’activité Enrichissement](../workflows/activities/enrichment.md)
 
@@ -112,4 +112,4 @@ Le profil de test que vous venez de créer est maintenant prêt à être utilis�
 
 Découvrez comment créer et gérer des profils de test à l’aide de l’interface d’utilisation web de Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442897?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

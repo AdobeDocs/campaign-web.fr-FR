@@ -3,7 +3,7 @@ title: Gérer les mappings de ciblage
 description: Découvrez comment gérer les mappings de ciblage.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 100%
 

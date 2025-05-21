@@ -4,7 +4,7 @@ title: Prise en main des diffusions par courrier
 description: Découvrez comment créer et envoyer des diffusions par courrier à l’aide d’Adobe Campaign Web.
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -13,13 +13,13 @@ ht-degree: 100%
 
 # Prise en main des diffusions par courrier {#gs-direct-mail}
 
-Le canal Courrier est un canal hors ligne qui vous permet de produire des fichiers pour diffuser en masse des lettres personnalisées à votre clientèle, comme des cartes postales, des flyers ou des catalogues.
+Le canal Courrier est un canal hors ligne qui vous permet de produire des fichiers pour diffuser en masse des lettres personnalisées à votre clientèle, comme des cartes postales, des prospectus ou des catalogues.
 
-Lors de la création d’une diffusion par courrier, Adobe Campaign génère automatiquement un fichier d’extraction contenant tous les profils ciblés et les données sélectionnées, telles que les adresses postales et les attributs de profil. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par votre fournisseur de services postaux, qui gérera le processus de publipostage à proprement parler.
+Lors de la création d’une diffusion par courrier, Adobe Campaign génère un fichier d’extraction contenant tous les profils ciblés et les données sélectionnées, telles que les adresses postales et les attributs de profil. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par votre fournisseur de services postaux, qui gérera le processus de diffusion.
 
 Pour créer des diffusions par courrier, vous disposez de trois options :
 
-* **Workflows** : après avoir ajouté une activité de canal Courrier à votre workflow et configuré les paramètres de base, vous pouvez concevoir le contenu de vos diffusions par courrier à partir du menu du volet de droite. Pour obtenir des instructions détaillées sur la configuration d’un workflow, consultez [cette page](../workflows/gs-workflow-creation.md).
+* **Workflows** : après avoir ajouté une activité de canal Courrier à votre workflow et configuré les paramètres de base, concevez le contenu de vos diffusions par courrier à partir du menu du volet de droite. Pour obtenir des instructions détaillées sur la configuration d’un workflow, consultez [cette page](../workflows/gs-workflow-creation.md).
 * **Campagnes** : après avoir créé une campagne, vous pouvez créer une diffusion par courrier. Pour plus d’informations sur la configuration de votre campagne, consultez [cette page](../campaigns/gs-campaigns.md).
 * **Diffusions autonomes** : attirez la clientèle directement et instantanément avec des diffusions par courrier individuelles, sans avoir recours à des workflows ou à des campagnes. [Apprendre à créer une diffusion](../msg/gs-deliveries.md)
 

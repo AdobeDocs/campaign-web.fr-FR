@@ -4,7 +4,7 @@ title: Utiliser l’activité Signal externe
 description: Découvrez comment utiliser l’activité de workflow Signal externe
 exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 

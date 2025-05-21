@@ -4,7 +4,7 @@ title: Créer une audience unique pour une diffusion
 description: Découvrez comment créer une audience unique pour une diffusion.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 

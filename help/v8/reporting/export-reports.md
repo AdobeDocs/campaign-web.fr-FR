@@ -4,7 +4,7 @@ title: Exporter vos rapports
 description: Comprendre comment exporter vos rapports
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 

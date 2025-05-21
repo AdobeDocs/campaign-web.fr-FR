@@ -9,7 +9,7 @@ level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 source-git-commit: a9ce4fd103c4af8f47ba887031e8d6d53e8d5f0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 100%
 

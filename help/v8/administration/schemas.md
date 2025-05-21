@@ -5,7 +5,7 @@ exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 66%
+ht-degree: 95%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 66%
 
 **[!DNL Adobe Campaign]** utilise des schémas XML pour définir la structure physique et logique des données dans l’application. Un schéma est un document XML lié à une table de base de données qui définit les éléments suivants :
 
-* Structure de la table SQL, notamment le nom de la table, les champs et les relations.
-* La structure des données XML, y compris les éléments, les attributs, la hiérarchie, les types, les valeurs par défaut et les étiquettes.
+* Structure de la table SQL, comprenant le nom de la table, les champs et les relations.
+* Structure des données XML, comprenant des éléments, des attributs, une hiérarchie, des types, des valeurs par défaut et des libellés.
 
 Les schémas jouent un rôle essentiel dans ce qui suit :
 
@@ -51,7 +51,7 @@ L’onglet **[!UICONTROL Vue d’ensemble]** offre une vue générale du schéma
 
 * La section **[!UICONTROL Propriétés]** affiche des informations clés, telles que le nom du schéma, l’espace de noms et le nom de la table associée.
 
-* La section **[!UICONTROL Définition du schéma]** affiche des détails sur la définition du schéma, y compris la clé primaire utilisée pour la réconciliation des données et ses liens avec d&#39;autres tables.
+* La section **[!UICONTROL Définition du schéma]** affiche des détails sur la définition du schéma, comme la clé primaire utilisée pour la réconciliation des données et ses liens avec d’autres tables.
 
   Cliquez sur le bouton **[!UICONTROL Aperçu du schéma]** pour visualiser les différents champs et liens composant le schéma. Vous pouvez ainsi vérifier la structure complète d’un schéma. Si le schéma a été étendu avec des champs personnalisés, vous pouvez visualiser toutes ses extensions.
 
@@ -67,10 +67,10 @@ L’onglet **[!UICONTROL Données]** fournit des informations sur les données d
 
 Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas prêts à l’emploi via la console Adobe Campaign. Ils vous permettent de personnaliser les schémas en incluant de nouveaux attributs en fonction des besoins de votre entreprise.
 
-Les champs personnalisés peuvent être affichés dans différents écrans, comme les détails du profil dans l’interface Web de Campaign. Vous pouvez contrôler quels champs sont visibles et la manière dont ils apparaissent dans l’interface. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modification de l’écran]** dans le menu **[!UICONTROL Schémas]**.
+Les champs personnalisés peuvent être affichés sur différents écrans, comme les détails de profil dans l’interface web de Campaign. Vous pouvez contrôler quels champs sont visibles et la manière dont ils apparaissent dans l’interface. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modification de l’écran]** dans le menu **[!UICONTROL Schémas]**.
 
 ![Écran de champs personnalisés affichant les attributs modifiables](assets/schemas-custom.png)
 
 Cliquez sur **[!UICONTROL Aperçu]** pour afficher les champs personnalisés dans un exemple d’écran.
 
-Pour plus d’informations sur la modification des champs personnalisés dans un schéma, consultez cette section : [Configurer des champs personnalisés](../administration/custom-fields.md).
+Pour plus d’informations sur la modification des champs personnalisés dans un schéma, reportez-vous à la section [Configurer des champs personnalisés](../administration/custom-fields.md).

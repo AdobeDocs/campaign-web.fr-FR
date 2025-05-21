@@ -6,13 +6,13 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '677'
-ht-degree: 35%
+ht-degree: 95%
 
 ---
 
 # Rapport de diffusion par courrier {#direct-mail-report}
 
-Le **rapport de diffusion courrier** fournit des informations et des données complètes spécifiques à votre diffusion courrier. Il comprend des informations détaillées sur les performances, l’efficacité et les résultats de diffusions individuelles, offrant ainsi une vue d’ensemble complète.
+Le **rapport de diffusion par courrier** fournit des informations et des données complètes spécifiques au canal Courrier. Il fournit des informations détaillées sur les performances, l’efficacité et les résultats de vos diffusions individuelles, ce qui vous permet d’obtenir une vue d’ensemble complète.
 
 ## Synthèse des diffusions {#delivery-summary-direct-mail}
 
@@ -23,15 +23,15 @@ Le **rapport de diffusion courrier** fournit des informations et des données co
 >title="Vue d’ensemble de la diffusion"
 >abstract="La **Vue d’ensemble de la diffusion** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions courrier. Les mesures sont décrites ci-dessous."
 
-La **[!UICONTROL Présentation de la diffusion]** fournit des informations détaillées sur les interactions des visiteurs avec chaque diffusion de publipostage direct, en présentant les mesures de performances clés (KPI) essentielles. Les mesures sont décrites ci-dessous.
+La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec chaque diffusion par courrier, en exposant les KPI essentiels. Les mesures sont décrites ci-dessous.
 
-![Graphique des mesures de présentation de la diffusion présentant les indicateurs clés de performances pour la diffusion de publipostage direct.](assets/direct-overview.png){zoomable="yes"}{align="center"}
+![Graphique des mesures de vue d’ensemble de la diffusion affichant les indicateurs de performances clés pour la diffusion courrier.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures de présentation des diffusions.
 
-* **[!UICONTROL Messages à diffuser]** : Nombre total de messages traités lors de la préparation de la diffusion.
-* **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui remplissent les critères des profils cibles pour les messages de publipostage direct.
-* **[!UICONTROL À exclure]** : nombre de profils utilisateur exclus des profils ciblés qui ne recevront pas de messages de publipostage direct.
+* **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
+* **[!UICONTROL Ciblés]** : nombre de profils de personnes qui remplissent les critères de ciblage pour les messages par courrier.
+* **[!UICONTROL À exclure]** : nombre de profils de personnes exclues des profils ciblés, qui ne recevront pas les messages par courrier.
 +++
 
 ### Population cible initiale {#direct-mail-delivery-targeted-population}
@@ -41,13 +41,13 @@ La **[!UICONTROL Présentation de la diffusion]** fournit des informations déta
 >title="Population cible initiale"
 >abstract="Le graphe **Population cible initiale** affiche les données relatives à vos destinataires et messages, en fonction des résultats de la préparation de la diffusion."
 
-Le graphique **[!UICONTROL Population cible initiale]** affiche les données relatives aux destinataires. Les mesures sont calculées lors de la préparation de la diffusion et comprennent l’audience initiale, le nombre de messages à envoyer et le nombre de destinataires exclus.
+Le graphique **[!UICONTROL Population cible initiale]** affiche les données relatives à vos destinataires. Les mesures sont calculées lors de la préparation de la diffusion. Elles incluent l’audience initiale, le nombre de messages à envoyer et le nombre de destinataires exclus.
 
-![Graphique de population cible initiale présentant la taille de l’audience, les messages à envoyer et les exclusions.](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
+![Graphique de la population cible initiale affichant la taille de l’audience, les messages à envoyer et les exclusions.](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
 
-Placez le pointeur de la souris sur une partie du graphique pour afficher le nombre exact.
+Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre exact.
 
-![Vue détaillée du graphique initial de la population cible avec la fonctionnalité de survol.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
+![Vue détaillée du graphique de la population cible initiale avec la fonctionnalité de survol du curseur.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion Courrier.
 
@@ -63,16 +63,16 @@ Placez le pointeur de la souris sur une partie du graphique pour afficher le nom
 >title="Statistiques de diffusion"
 >abstract="Le graphe **Statistiques de diffusion** détaille le succès de votre diffusion par courrier et les erreurs qui se sont produites."
 
-Le graphique **[!UICONTROL Statistiques de diffusion]** donne un aperçu des performances des diffusions et propose des mesures détaillées pour mesurer les performances et l’efficacité.
+Le graphique **[!UICONTROL Statistiques de diffusion]** offre une vue d’ensemble complète des performances des diffusions, avec des mesures détaillées du succès et de l’efficacité.
 
-![Graphique des statistiques de diffusion présentant les taux de succès, les erreurs et les quarantaines.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
+![Graphique des statistiques de diffusion affichant les taux de succès, les erreurs et les quarantaines.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de campagne de publipostage direct.
 
 * **[!UICONTROL Message envoyé]** : nombre total de messages à délivrer après la préparation de la diffusion.
-* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
-* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (par exemple, utilisateur ou utilisatrice inconnu(e), domaine invalide) par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (par exemple, personne inconnue, domaine invalide) par rapport au nombre de messages à diffuser.
 +++
 
 ### Causes d’exclusion {#direct-mail-delivery-exclusions}
@@ -82,17 +82,17 @@ Le graphique **[!UICONTROL Statistiques de diffusion]** donne un aperçu des per
 >title="Causes d’exclusion des diffusions"
 >abstract="Le graphe **Causes d’exclusion** illustre la distribution des messages rejetés, classés par règle, lors de la préparation de la diffusion."
 
-Le graphique **[!UICONTROL Causes d’exclusion]** fournit une répartition des raisons du rejet du message lors de la préparation de la diffusion. Cette répartition est organisée par différentes règles, offrant une vue détaillée des facteurs contribuant à l’exclusion des messages. Les règles d’exclusion sont décrites dans la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
+La graphe **[!UICONTROL Causes d’exclusion]** fournit une répartition des raisons pour lesquelles les messages sont rejetés pendant la préparation de la diffusion. Cette répartition est organisée selon différentes règles, offrant une vue détaillée des facteurs contribuant à l’exclusion des messages. Les règles d’exclusion sont détaillées dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
 
-![Graphique des causes d’exclusion présentant la répartition des messages rejetés par règle.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
+![Graphique des causes d’exclusion affichant la répartition des messages rejetés par règle.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++En savoir plus sur les causes des mesures d’exclusion.
 
-* **[!UICONTROL Adresse en quarantaine]** : type d&#39;erreur générée lors de la mise en quarantaine d&#39;une adresse.
-* **[!UICONTROL Adresse non renseignée]** : type d&#39;erreur générée lorsqu&#39;une adresse n&#39;existe pas.
+* **[!UICONTROL Adresse en quarantaine]** : type d’erreur générée lorsque l’adresse est mise en quarantaine.
+* **[!UICONTROL Adresse non renseignée]** : type d’erreur générée lorsqu’une adresse n’existe pas.
 * **[!UICONTROL Adresse de mauvaise qualité]** : type d’erreur générée lorsque la note de qualité de l’adresse postale est trop basse.
-* **[!UICONTROL adresse Placer sur la liste bloquée placée sur la liste bloquée]** : type d&#39;erreur générée lors de l&#39;enregistrement du destinataire lors de la diffusion.
-* **[!UICONTROL Double]** : type d’erreur générée lorsque le destinataire a été exclu en raison de valeurs de clé non uniques.
+* **[!UICONTROL Adresse placée sur la liste de blocage]** : type d’erreur générée lors de la diffusion lorsque la personne destinataire a été placée sur la liste de blocage.
+* **[!UICONTROL Double]** : type d’erreur générée lorsque la personne destinataire a été exclue, car ses valeurs de clés n’étaient pas uniques.
 * **[!UICONTROL Population témoin]** : l’adresse de la personne destinataire fait partie de la population témoin.
 * **[!UICONTROL Cible limitée en taille]** : la taille de diffusion maximale a été atteinte pour la personne destinataire.
 +++
@@ -104,8 +104,8 @@ Le graphique **[!UICONTROL Causes d’exclusion]** fournit une répartition des 
 >title="Exclusions"
 >abstract="Le tableau **[!UICONTROL Exclusions]** affiche une répartition détaillée, par règle, des messages qui ont été rejetés pendant le processus de préparation de la diffusion."
 
-Le tableau **[!UICONTROL Exclusions]** fournit une répartition détaillée, classée par règles spécifiques, des messages rejetés lors de la préparation de la diffusion. Cette répartition permet de bien comprendre les raisons derrière les exclusions de messages.
+Le tableau **[!UICONTROL Exclusions]** fournit une répartition détaillée, classée par règles spécifiques, des messages qui ont été rejetés lors de la préparation de la diffusion. Cette répartition permet de bien comprendre les raisons derrière les exclusions de messages.
 
-![Tableau des exclusions présentant la répartition détaillée des messages rejetés par règle.](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
+![Tableau des exclusions affichant la répartition détaillée des messages rejetés par règle.](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 Les mesures disponibles sont les mêmes que celles des [causes d’exclusion](#direct-mail-delivery-exclusions) décrites ci-dessus.

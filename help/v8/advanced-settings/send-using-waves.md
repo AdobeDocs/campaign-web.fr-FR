@@ -5,7 +5,7 @@ description: En savoir plus sur les paramètres de diffusion dans Campaign Web
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
 

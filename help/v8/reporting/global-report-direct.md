@@ -6,15 +6,15 @@ exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 59%
+ht-degree: 96%
 
 ---
 
 # Rapports globaux pour le canal Courrier {#global-report-direct}
 
-Les rapports globaux sur le publipostage direct offrent aux utilisateurs une vue d’ensemble complète des mesures de trafic et d’engagement au niveau du canal.
+Les rapports globaux sur le courrier offrent aux utilisateurs et utilisatrices une vue d’ensemble complète des mesures de trafic et d’engagement au niveau d’un canal.
 
-Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporting]**. Vous pouvez filtrer vos données en fonction de la date du rapport, du dossier ou des règles. [En savoir plus](global-reports.md)
+Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporting]**. Vous pouvez filtrer vos données en fonction de la date, du dossier ou des règles du rapport. [En savoir plus](global-reports.md)
 
 ## Synthèse des diffusions {#delivery-summary-direct}
 
@@ -25,9 +25,9 @@ Accédez au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Reporti
 >title="Vue d’ensemble de la diffusion"
 >abstract="La **Vue d’ensemble de la diffusion** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions courrier. Les mesures sont décrites ci-dessous."
 
-La **[!UICONTROL Présentation de la diffusion]** présente des mesures de performances clés (KPI) et offre des informations détaillées sur l’interaction de vos visiteurs et visiteuses avec chaque diffusion de publipostage direct. Les mesures sont décrites ci-dessous.
+La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicateurs clés de performance, qui offrent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec les diffusions par courrier. Les mesures sont décrites ci-dessous.
 
-![Cette image présente les mesures de vue d’ensemble des diffusions pour les diffusions par publipostage direct.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![Cette image montre les mesures de vue d’ensemble de la diffusion pour les diffusions courrier.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures de présentation des diffusions.
 
@@ -35,9 +35,9 @@ La **[!UICONTROL Présentation de la diffusion]** présente des mesures de perfo
 
 * **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Désabonnements]** : nombre de destinataires ayant cliqué sur des liens de désabonnement.
+* **[!UICONTROL Désabonnements]** : nombre de personnes destinataires ayant cliqué sur le lien de désabonnement.
 
 +++
 
@@ -55,7 +55,7 @@ La **[!UICONTROL Présentation de la diffusion]** présente des mesures de perfo
 
 Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des données relatives à vos personnes destinataires, avec les mesures détaillées fournies ci-dessous.
 
-![Cette image montre les mesures d’audience ciblée pour les diffusions par publipostage direct.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![Cette image montre les mesures d’audience ciblée pour les diffusions courrier.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures d’audience ciblée.
 
@@ -63,7 +63,7 @@ Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des d
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Exclusion]** : nombre total d’adresses ignorées pendant l’analyse lors de l’application des règles, telles que l’adresse manquante, mise en quarantaine ou sur une liste bloquée.
+* **[!UICONTROL Exclusion]** : nombre total d’adresses ignorées pendant l’analyse lors de l’application des règles : adresse manquante, en quarantaine, sur liste de blocage, etc.
 
 +++
 
@@ -85,11 +85,11 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** fournit une répartition du
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
-* **[!UICONTROL Succès]** : nombre de messages traités avec succès, par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Erreurs / Bounces]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des retours, par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Erreurs/Rebonds]** : nombre total d’erreurs accumulées lors des diffusions et du traitement automatique des rebonds par rapport au nombre de messages à diffuser.
 
-* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (par exemple, utilisateur ou utilisatrice inconnu(e), domaine invalide), par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Nouvelles quarantaines]** : nombre total d’adresses mises en quarantaine à la suite d’un échec de diffusion (par exemple, personne inconnue, domaine invalide) par rapport au nombre de messages à diffuser.
 
 +++
 
@@ -105,21 +105,21 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** fournit une répartition du
 >title="Causes d’exclusion"
 >abstract="Le graphe **Causes d’exclusion** illustre la distribution des messages rejetés, classés par règle, lors de la préparation de la diffusion."
 
-![Cette image montre les causes des mesures d’exclusion pour les diffusions par publipostage direct.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![Cette image montre les causes des mesures d’exclusion pour les diffusions courrier.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
 +++En savoir plus sur les causes des mesures d’exclusion.
 
-* **[!UICONTROL Adresse en quarantaine]** : type d&#39;erreur générée lors de la mise en quarantaine d&#39;une adresse.
+* **[!UICONTROL Adresse en quarantaine]** : type d’erreur générée lorsque l’adresse est mise en quarantaine.
 
 * **[!UICONTROL Adresse non renseignée]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que l’adresse n’existe pas.
 
-* **[!UICONTROL Adresse de mauvaise qualité]** : type d’erreur générée lorsque l’indice de qualité de l’adresse postale est trop faible.
+* **[!UICONTROL Adresse de mauvaise qualité]** : type d’erreur générée lorsque la note de qualité de l’adresse postale est trop basse.
 
 * **[!UICONTROL Adresse placée sur la liste bloquée]** : type d’erreur générée lorsque la personne destinataire a été placée sur la liste bloquée lors de l’exécution de la diffusion.
 
-* **[!UICONTROL Double]** : type d&#39;erreur générée lors de l&#39;exclusion du destinataire car ses valeurs de clé ne sont pas uniques.
+* **[!UICONTROL Double]** : type d’erreur générée lorsque la personne destinataire a été exclue, car ses valeurs de clés n’étaient pas uniques.
 
 * **[!UICONTROL Population témoin]** : l’adresse de la personne destinataire fait partie de la population témoin.
 

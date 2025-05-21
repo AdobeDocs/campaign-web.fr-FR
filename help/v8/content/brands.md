@@ -7,7 +7,7 @@ exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
 source-wordcount: '1275'
-ht-degree: 17%
+ht-degree: 31%
 
 ---
 
@@ -15,37 +15,37 @@ ht-degree: 17%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est publiée sous la forme d’une version Private Beta. Elle sera progressivement disponible pour tous les clients dans les prochaines versions.
+>Cette fonctionnalité est publiée sous la forme d’une version Private Beta. Elle sera progressivement disponible pour l’ensemble des clientes et clients dans les prochaines versions.
 
 Les directives de marque sont un ensemble complet de règles et de normes qui définissent l’identité visuelle et verbale d’une marque. Elles servent de référence pour homogénéiser la représentation de la marque sur tous les canaux de marketing et de communication.
 
-Dans [!DNL Adobe Campaign Web], les utilisateurs peuvent saisir et organiser manuellement des informations sur la marque ou charger des documents de directives sur la marque pour une extraction automatique des données.
+Dans [!DNL Adobe Campaign Web], les utilisateurs et utilisatrices peuvent saisir et organiser manuellement les informations de marque ou charger des documents de directives de marque pour une extraction de données automatique.
 
 ## Accéder aux marques {#generative-access}
 
-Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Campaign Web], les utilisateurs doivent disposer des profils de produit **[!UICONTROL Administrateur (administrateur)]** et **[!UICONTROL Kit de marque]** pour créer et gérer des marques. Pour un accès en lecture seule, les utilisateurs ont besoin du profil de produit [!UICONTROL assistant IA].
+Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Campaign Web], les utilisateurs et utilisatrices doivent disposer de profils de produit **[!UICONTROL Administration (admin)]** et **[!UICONTROL Kit de marque]** pour créer et gérer des marques. Pour un accès en lecture seule, les utilisateurs et utilisatrices ont besoin d’un profil de produit [!UICONTROL Assistant IA].
 
 [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-+++ Découvrez comment attribuer des autorisations liées à la marque
++++ Découvrir comment attribuer des autorisations liées à la marque
 
 1. Accédez à votre produit Campaign sur la page d’accueil [Admin Console](https://adminconsole.adobe.com/enterprise).
 
-   ![Page d’accueil Admin Console montrant l’accès au produit Campaign](assets/brands_admin_1.png)
+   ![Page d’accueil Admin Console montrant l’accès au produit Campaign](assets/brands_admin_1.png)
 
-1. Sélectionnez le **[!DNL Product profile]** en fonction du niveau d’autorisations que vous souhaitez accorder à votre utilisateur.
+1. Sélectionnez le **[!DNL Product profile]** en fonction du niveau d’autorisations que vous souhaitez accorder à la personne.
 
-   ![Sélection du profil de produit dans Admin Console](assets/brands_admin_2.png)
+   ![Sélection du profil de produit dans Admin Console](assets/brands_admin_2.png)
 
 1. Cliquez sur **[!DNL Add users]** pour attribuer le profil de produit sélectionné.
 
-   ![Option Ajouter des utilisateurs dans Admin Console](assets/brands_admin_3.png)
+   ![Option Ajouter des utilisateurs et des utilisatrices dans Admin Console](assets/brands_admin_3.png)
 
-1. Saisissez le nom, le groupe d’utilisateurs ou l’adresse e-mail de votre utilisateur.
+1. Saisissez le nom de la personne, le groupe d’utilisateurs et d’utilisatrices ou l’adresse e-mail.
 
 1. Cliquez sur **Enregistrer** pour appliquer les changements.
 
-Les utilisateurs et utilisatrices déjà affectés à ce rôle voient leurs autorisations automatiquement mises à jour.
+Les personnes déjà affectées à ce rôle voient leurs autorisations automatiquement mises à jour.
 
 +++
 
@@ -53,7 +53,7 @@ Les utilisateurs et utilisatrices déjà affectés à ce rôle voient leurs auto
 
 Pour créer et configurer vos directives de marque, suivez les étapes indiquées ci-dessous.
 
-Les utilisateurs peuvent saisir les détails manuellement ou charger un document de directives de marque pour extraire automatiquement les informations :
+Les utilisateurs et utilisatrices peuvent saisir les détails manuellement ou charger un document de directives de marque pour extraire automatiquement les informations :
 
 1. Dans le menu **[!UICONTROL Marques]**, cliquez sur **[!UICONTROL Créer une marque]**.
 
@@ -99,7 +99,7 @@ Les utilisateurs peuvent saisir les détails manuellement ou charger un document
 
 Vos directives de marque sont désormais accessibles à partir de la liste déroulante **[!UICONTROL Marque]** dans le menu de l’assistant AI. Cela permet à l’assistant AI de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant AI](../email/generative-gs.md)
 
-![Menu assistant AI avec liste déroulante Marque](assets/brands_6.png)
+![Menu de l’Assistant IA avec la liste déroulante Marque](assets/brands_6.png)
 
 ### Définir une marque par défaut {#default-brand}
 
@@ -157,7 +157,7 @@ Utilisez l’onglet **[!UICONTROL À propos de la marque]** pour établir l’id
 
 Vous pouvez désormais personnaliser davantage votre marque ou [publier votre marque](#create-brand-kit).
 
-### Style d&#39;écriture {#writing-style}
+### Règle de style {#writing-style}
 
 La section **[!UICONTROL Style d’écriture]** décrit les normes d’écriture de contenu et explique en détail comment la langue, le formatage et la structure doivent être utilisés pour garantir la clarté, la cohérence et l’homogénéité de l’ensemble des ressources.
 

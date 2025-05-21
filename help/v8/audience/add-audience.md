@@ -6,7 +6,7 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 58%
+ht-degree: 98%
 
 ---
 
@@ -21,15 +21,15 @@ Cette section explique comment sélectionner une audience existante lors de la d
 * [Créer une audience unique](one-time-audience.md) à l’aide du concepteur de requête.
 * [Charger une audience depuis un fichier externe](file-audience.md) (pour les e-mails uniquement).
 
-Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à partir du menu **Audience** sur la gauche. Ils proviennent de plusieurs sources, telles que la console cliente, les workflows d’audience web de Campaign ou Adobe Experience Platform. [En savoir plus sur les audiences](manage-audience.md).
+Les audiences qui peuvent être ciblées dans les diffusions sont accessibles à partir du menu **Audience** sur la gauche. Elles proviennent de plusieurs sources telles que la console cliente, ou encore les workflows d’audience Web Campaign ou Adobe Experience Platform. [En savoir plus sur les audiences](manage-audience.md).
 
 Pour sélectionner une audience existante pour votre message, procédez comme suit :
 
-1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**, puis choisissez **[!UICONTROL Sélectionner une audience]**.
+1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**, puis sur **[!UICONTROL Sélectionner une audience]**.
 
    [Cette capture d’écran présente le bouton **Sélectionner une audience** dans l’assistant de création de diffusion.](assets/create-audience.png){zoomable="yes"}
 
-1. Cet écran affiche toutes les audiences existantes pour le dossier actif.
+1. Cet écran affiche toutes les audiences existantes pour le dossier actuel.
 
    [Cette capture d’écran présente la liste des audiences existantes dans le dossier actif.](assets/create-audience2.png){zoomable="yes"}
 
@@ -43,7 +43,7 @@ Pour sélectionner une audience existante pour votre message, procédez comme su
 
    [Cette capture d’écran présente un filtre appliqué aux audiences en fonction de leur origine.](assets/filter-on-aep-audience.png){zoomable="yes"}
 
-1. Cliquez sur **Confirmer** pour ajouter votre audience comme cible principale de la diffusion. Une fois cette opération terminée, vous pouvez affiner l’audience à l’aide du modéliseur de requêtes en cliquant sur le bouton **Modifier les règles**.
+1. Cliquez sur **Confirmer** pour ajouter votre audience comme cible principale de la diffusion. Une fois l’opération terminée, vous pouvez affiner l’audience à l’aide du concepteur de requête en cliquant sur le bouton **Modifier des règles**.
 
    [Cette capture d’écran présente le bouton **Modifier les règles** qui permet d’affiner l’audience.](assets/refine-audience.png){zoomable="yes"}
 

@@ -4,7 +4,7 @@ title: Messages transactionnels
 description: À propos des messages transactionnels avec Adobe Campaign Web
 exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

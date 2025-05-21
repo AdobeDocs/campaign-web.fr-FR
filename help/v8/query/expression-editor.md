@@ -6,14 +6,14 @@ exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
 source-wordcount: '2192'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
 
 # Éditer les expressions {#expression}
 
-L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées qui vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, telles que la manipulation de dates, de chaînes, de champs numériques et le tri.
+L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques comme la manipulation de dates, de chaînes, de champs numériques et le tri.
 
 >[!NOTE]
 >
@@ -30,12 +30,12 @@ L’éditeur d’expression est disponible à partir du bouton **[!UICONTROL Mod
 
 | Accéder depuis le champ **Attribut** | Accéder depuis le champ **Valeur** |
 | --- | --- |
-| ![ Éditeur d’expression pour le champ Attribut ](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![ Éditeur d’expression pour le champ Valeur ](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| ![Éditeur d’expression pour le champ Attribut](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Éditeur d’expression pour le champ Valeur](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 L’éditeur d’expression fournit :
 
-* Un **champ de saisie (1)** où l&#39;expression est définie.
-* Liste des **champs (2)** disponibles pouvant être utilisés dans l’expression et correspondant à la dimension de ciblage de la requête.
+* un **champ de saisie (1)**, dans lequel l’expression est définie ;
+* la liste des **champs (2)** disponibles, utilisables dans l’expression et correspondant à la dimension de ciblage de la requête ;
 * des **fonctions d’assistance (3)**, triées par catégorie.
 
 Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton +.
@@ -44,17 +44,17 @@ Modifiez l’expression en saisissant une expression directement dans le champ d
 
 Lorsque votre expression est prête, cliquez sur le bouton **[!UICONTROL Confirmer]**. L’expression s’affiche dans le champ sélectionné. Pour la modifier, ouvrez l’éditeur d’expression et apportez les modifications souhaitées.
 
-L’exemple ci-dessous présente une expression configurée pour le champ **[!UICONTROL Valeur]**. Pour le modifier, ouvrez l’éditeur d’expression à l’aide du bouton **[!UICONTROL Modifier l’expression]**.
+L’exemple ci-dessous présente une expression configurée pour le champ **[!UICONTROL Valeur]**. Pour la modifier, ouvrez l’éditeur d’expression à l’aide du bouton **[!UICONTROL Modifier une expression]**.
 
 >[!BEGINTABS]
 
 >[!TAB Modéliseur de requête classique]
 
-![Exemple d&#39;édition d&#39;expression pour un champ de valeur](assets/edit-expression-value.png){zoomable="yes"}
+![Exemple d&#39;édition d&#39;expression pour le champ Valeur](assets/edit-expression-value.png){zoomable="yes"}
 
 >[!TAB Nouveau créateur de règles]
 
-![Exemple d&#39;édition d&#39;expression pour un champ de valeur](assets/ruleb-12.png){zoomable="yes"}
+![Exemple d&#39;édition d&#39;expression pour le champ Valeur](assets/ruleb-12.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -64,7 +64,7 @@ L’outil d’édition de requêtes permet d’utiliser des fonctions avancées 
 
 ### Agrégat
 
-Les fonctions d’agrégat effectuent des calculs sur un ensemble de valeurs.
+Les fonctions d’agrégat effectuent des calculs sur un jeu de valeurs.
 
 <table>
 <tbody>
@@ -100,12 +100,12 @@ Les fonctions d’agrégat effectuent des calculs sur un ensemble de valeurs.
 </tr>
 <tr>
 <td><strong>Min</strong></td>
-<td>Renvoie la valeur minimale d’une colonne de type nombre, chaîne ou date</td>
+<td>Renvoie la valeur minimum d’une colonne de type nombre, chaîne ou date</td>
 <td>Min(&lt;valeur&gt;)</td>
 </tr>
 <tr>
 <td><strong>StdDev</strong></td>
-<td>Renvoie l’écart type d’un nombre, d’une chaîne ou d’une colonne de date</td>
+<td>Renvoie l’écart type d’une colonne de type nombre, chaîne ou date</td>
 <td>StdDev(&lt;valeur&gt;)</td>
 </tr>
 <tr>
@@ -164,12 +164,12 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>ConvertNTZ</strong></td>
-<td>Convertit l’horodatage NTZ (horodatage sans fuseau horaire) en TZ (horodatage avec fuseau horaire) appliquant la session TZ définie</td>
-<td>ConvertNTZ(&lt;date+heure&gt;)</td>
+<td>Convertit l’horodatage NTZ (horodatage sans fuseau horaire) en TZ (horodatage avec fuseau horaire) en application de la valeur TZ de session définie.</td>
+<td>ConvertNTZ(&lt;date+time&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateCmp</strong></td>
-<td>Compare deux dates.</td>
+<td>Compare deux dates</td>
 <td>DateCmp(&lt;date&gt;, &lt;date&gt;)</td>
 </tr>
 <tr>
@@ -199,7 +199,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>DaysDiff</strong></td>
-<td>Renvoie le nombre de jours entre deux dates</td>
+<td>Renvoie le nombre de jours entre deux dates.</td>
 <td>DaysDiff(&lt;date de fin&gt;, &lt;date de début&gt;)</td>
 </tr>
 <tr>
@@ -253,8 +253,8 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <td>MonthsOld(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Le plus ancien</strong></td>
-<td>Renvoie la date la plus ancienne d’une plage</td>
+<td><strong>Oldest</strong></td>
+<td>Renvoie la date la plus ancienne d’une plage.</td>
 <td>Oldest(&lt;date, date&gt;)</td>
 </tr>
 <tr>
@@ -309,17 +309,17 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>ToTimestamp</strong></td>
-<td>Convertit une chaîne en date et heure</td>
-<td>ToTimestamp(&lt;chaîne&gt;)</td>
+<td>Convertir une chaîne en date et heure.</td>
+<td>ToTimestamp(&lt;string&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToTimeZone</strong></td>
-<td>Convertit une date + heure en fuseau horaire</td>
-<td>ToTimeZone(&lt;date&gt;, &lt;fuseau horaire&gt;)</td>
+<td>Convertit une date et une heure en fuseau horaire</td>
+<td>ToTimeZone(&lt;date&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDate</strong></td>
-<td>Arrondit une date + une heure à la seconde près</td>
+<td>Arrondit une date et une heure à la seconde.</td>
 <td>TruncDate(@lastModified, &lt;nombre de secondes&gt;)</td>
 </tr>
 <tr>
@@ -338,7 +338,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <td>TruncTime(&lt;date&gt;, &lt;nombre de secondes&gt;)</td>
 </tr>
 <tr>
-<td><strong>WeekDay</strong></td>
+<td><strong>TruncWeek</strong></td>
 <td>Arrondit une date à la semaine</td>
 <td>TruncWeek(&lt;date&gt;)</td>
 </tr>
@@ -363,13 +363,13 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <td>YearAndMonth(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Il y a ans</strong></td>
-<td>Renvoie le nombre d’années entre une date donnée et la date actuelle</td>
+<td><strong>YearsAgo</strong></td>
+<td>Renvoie le nombre d’années entre une date donnée et la date actuelle.</td>
 <td>YearsAgo(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsDiff</strong></td>
-<td>Renvoie le nombre d’années entre deux dates</td>
+<td>Renvoie le nombre d’années entre deux dates.</td>
 <td>YearsDiff(&lt;date de fin&gt;, &lt;date de début&gt;)</td>
 </tr>
 <tr>
@@ -382,7 +382,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 
 >[!NOTE]
 >
->Notez que la fonction **DateOnly** prend en compte le fuseau horaire du serveur, et non celui de l&#39;opérateur.
+>Notez que la fonction **DateOnly** prend uniquement en compte le fuseau horaire du serveur, et non celui de l’opérateur.
 
 
 ### Géomarketing

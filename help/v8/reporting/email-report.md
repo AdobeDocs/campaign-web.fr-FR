@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2448'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Le graphe **[!UICONTROL Population cible initiale]** affiche les données relati
 
 Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre exact.
 
-![Capture d’écran d’un graphique avec une souris sur une partie pour afficher le nombre exact](assets/reporting_email_1.1.png){zoomable="yes"}
+![Capture d’écran d’un graphique avec le pointeur de la souris qui montre le nombre exact](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
@@ -75,7 +75,7 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** détaille le succès de vot
 >title="Causes d’exclusion lors d’une diffusion"
 >abstract="Le tableau et le graphe **Causes d’exclusion** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion."
 
-Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion. Les règles d’exclusion sont décrites dans la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
+Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répartition par règle des messages rejetés lors de la préparation de la diffusion. Les règles d’exclusion sont détaillées dans la [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.
 
 ![Capture d’écran du graphique et du tableau Causes d’exclusion](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -87,7 +87,7 @@ Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répa
 
 * **[!UICONTROL Boîte pleine]** : type d’erreur générée, après cinq tentatives de diffusion, indiquant que la boîte de réception de la personne destinataire contient trop de messages.
 
-* **[!UICONTROL Compte désactivé]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
+* **[!UICONTROL Compte désactivé]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que l’adresse n’existe plus.
 
 * **[!UICONTROL Refusé]** : type d’erreur générée lorsqu’une adresse est refusée par le FAI (Fournisseur d’accès Internet), par exemple, suite à l’application d’une règle de sécurité (logiciel anti-spams).
 
@@ -153,7 +153,7 @@ Le tableau **[!UICONTROL Statistiques de domaine]** contient les données dispon
 
 Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** contiennent les données disponibles pour chaque type d’erreur. Les mesures sont détaillées ci-dessous.
 
-Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la documentation [Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
+Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
 ![Capture d’écran de la répartition des erreurs par type](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
@@ -165,7 +165,7 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 
 * **[!UICONTROL Boîte pleine]** : type d’erreur générée, après cinq tentatives de diffusion, indiquant que la boîte de réception de la personne destinataire contient trop de messages.
 
-* **[!UICONTROL Compte désactivé]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
+* **[!UICONTROL Compte désactivé]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que l’adresse n’existe plus.
 
 * **[!UICONTROL Refusé]** : type d’erreur générée lorsqu’une adresse est refusée par le FAI (Fournisseur d’accès Internet), par exemple, suite à l’application d’une règle de sécurité (logiciel anti-spams).
 
@@ -193,7 +193,7 @@ Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** af
 
 Cliquez sur l’icône en regard du nom de chaque domaine pour afficher les détails.
 
-![Capture d’écran de la Répartition des erreurs par domaine avec les détails de chaque domaine](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![Capture d’écran de la répartition des erreurs par domaine avec les détails de chaque domaine](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Les mesures disponibles sont les mêmes que celles de la [Répartition des erreurs par type](#email-delivery-breakdown-type) décrites ci-dessus.
 
@@ -294,7 +294,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contiennent les données disponibles pour le comportement des personnes destinataires par lien.
 
-![Capture d’écran du graphique des 10 liens les plus visités](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
+![Capture d’écran du graphe des 10 liens les plus visités](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
@@ -315,7 +315,7 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 
 Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les données disponibles sur le comportement des destinataires par lien.
 
-![Capture d’écran du graphique Répartition des clics au fil du temps](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
+![Capture d’écran du graphe Répartition des clics dans le temps](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## Activités utilisateurs {#user-activities-email}
 
@@ -326,7 +326,7 @@ Le graphe **[!UICONTROL Répartition des clics dans le temps]** contient les don
 
 Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des ouvertures et des clics sous la forme d’un diagramme. Vous pouvez choisir la période pour laquelle cibler les données : dernier jour, dernière heure ou 30 dernières minutes.
 
-![Capture d’écran du rapport des activités utilisateur](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
+![Capture d’écran du rapport Activités utilisateurs](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 

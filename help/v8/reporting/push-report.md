@@ -6,7 +6,7 @@ exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 68%
+ht-degree: 96%
 
 ---
 
@@ -30,14 +30,14 @@ Le **rapport de diffusion des notifications push** offre une vue d’ensemble co
 
 Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des indicateurs clés de performances (KPI) qui donnent des informations détaillées sur la manière dont vos visiteurs et visiteuses interagissent avec vos messages push.
 
-![Cette capture d’écran présente le rapport Présentation de la diffusion , qui fournit des KPI sur l’engagement des visiteurs avec les messages push.](assets/reporting_push_3.png){zoomable="yes"}
+![Cette capture d’écran montre le rapport de vue d’ensemble de la diffusion, qui fournit des KPI sur l’engagement des visiteurs avec les messages Push.](assets/reporting_push_3.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion des notifications push.
 
 * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de la préparation de la diffusion.
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 * **[!UICONTROL Clics]** : nombre total de destinataires ayant interagi avec le message push.
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion ayant empêché celle-ci d’être envoyée aux profils.
 
 +++
 
@@ -50,7 +50,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des indicat
 
 Le tableau et le graphe **Population ciblée** affichent des données relatives à votre audience : messages à délivrer et exclusions. Les mesures sont détaillées ci-dessous.
 
-![Cette capture d’écran présente le graphique et le tableau Population ciblée, qui affichent les données relatives aux messages à diffuser et aux exclusions.](assets/reporting_push_4.png){zoomable="yes"}
+![Cette capture d’écran montre le graphique et le tableau Population ciblée, qui affichent les données relatives aux messages à diffuser et aux exclusions.](assets/reporting_push_4.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion des notifications push.
 
@@ -66,15 +66,15 @@ Le tableau et le graphe **Population ciblée** affichent des données relatives 
 >title="Statistiques globales des notifications push"
 >abstract="Le rapport **Statistiques globales** présente des données relatives aux notifications push envoyées : succès, erreurs et mises en quarantaine."
 
-Le rapport **Statistiques globales** présente les données pour les notifications push envoyées : succès, erreurs et quarantaines. Les mesures sont détaillées ci-dessous.
+Le rapport **Statistiques globales** présente des données relatives aux notifications push envoyées : succès, erreurs et mises en quarantaine. Les mesures sont détaillées ci-dessous.
 
-![Cette capture d’écran présente le rapport Statistiques globales , qui présente des données sur les succès, les erreurs et les mises en quarantaine pour les notifications push envoyées.](assets/reporting_push_5.png){zoomable="yes"}
+![Cette capture d’écran montre le rapport Statistiques globales, qui présente des données sur les succès, les erreurs et les mises en quarantaine pour les notifications Push envoyées.](assets/reporting_push_5.png){zoomable="yes"}
 
 +++En savoir plus sur les mesures des rapports de diffusion des notifications push.
 
 * **[!UICONTROL Succès]** : nombre de messages traités avec succès.
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs qui se sont produites pendant la diffusion, empêchant l’envoi des messages à certains profils.
-* **[!UICONTROL Nouvelle quarantaine]** : nombre de profils qui ont été exclus et ajoutés à la quarantaine.
+* **[!UICONTROL Nouvelle quarantaine]** : nombre de profils qui ont été exclus et ajoutés à la quarantaine.
 
 +++
 
@@ -85,9 +85,9 @@ Le rapport **Statistiques globales** présente les données pour les notificatio
 >title="Exclusions de notifications push"
 >abstract="Le graphe et le tableau **Exclusions** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message."
 
-Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message. Les règles d’exclusion sont décrites dans la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){_blank}.
+Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes raisons qui ont empêché les profils utilisateur, qui ont été exclus des profils ciblés, de recevoir le message. Les règles d’exclusion sont détaillées dans la [Documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){_blank}.
 
-![Cette capture d’écran présente le graphique et le tableau Exclusions, qui affichent les raisons empêchant les profils utilisateur exclus de recevoir des messages.](assets/reporting_push_6.png){zoomable="yes"}
+![Cette capture d’écran montre le graphique et le tableau Exclusions, qui affichent les raisons empêchant les profils utilisateur exclus de recevoir des messages.](assets/reporting_push_6.png){zoomable="yes"}
 
 ## Débit de diffusion {#delivery-throughput}
 
@@ -98,4 +98,4 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes r
 
 Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
 
-![Cette capture d’écran présente le rapport Débit des diffusions , qui fournit des détails sur la vitesse de diffusion des messages de la plateforme au cours d’une période spécifiée.](assets/reporting_push_2.png){zoomable="yes"}
+![Cette capture d’écran montre le rapport Débit des diffusions, qui fournit des détails sur la vitesse de diffusion des messages de la plateforme pour une période spécifiée.](assets/reporting_push_2.png){zoomable="yes"}

@@ -4,7 +4,7 @@ title: Personnaliser l’arrière-plan des e-mails
 description: Découvrez comment personnaliser l’arrière-plan des e-mails.
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 

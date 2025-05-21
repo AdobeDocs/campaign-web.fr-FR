@@ -4,7 +4,7 @@ title: Envoyer des BAT
 description: Découvrir comment définir et envoyer des BAT
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 100%
 

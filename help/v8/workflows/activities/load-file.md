@@ -30,7 +30,7 @@ ht-degree: 97%
 L’activité **Chargement de fichier** est une activité de **Data Management**. Utilisez-la lorsque vous travaillez avec des profils et des données stockés dans un fichier externe. Les profils et les données ne sont pas ajoutés à la base de données, mais tous les champs du fichier d’entrée sont disponibles pour la [personnalisation](../../personalization/gs-personalization.md) ou la mise à jour des profils ou des tables.
 
 >[!NOTE]
->Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Avec la console de l’interface utilisateur web, vous pouvez charger des fichiers jusqu’à une taille maximale de 50 Mo. Dans la console cliente, l’activité Chargement de données a une limite de 150MB. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=fr){target="_blank"}
+>Les formats de fichier pris en charge sont les suivants : texte (TXT) et valeur séparée par des virgules (CSV). Avec la console de l’interface utilisateur web, vous pouvez charger des fichiers jusqu’à une taille maximale de 50 Mo. Dans la console cliente, l’activité Chargement de données a une limite de 150MB. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Combinée avec l’activité [Réconciliation](reconciliation.md), elle permet de lier des données non identifiées à des ressources existantes. L’activité **Chargement de fichier** peut par exemple être placée après une activité de **Réconciliation** si vous importez des données non standard dans la base de données.
 
@@ -87,7 +87,7 @@ Pour configurer le fichier d’exemple utilisé pour définir la structure de fi
    * **[!UICONTROL Traitement des erreurs]** (type de données chaîne) : indiquez le comportement à suivre en cas d’erreur dans l’une des lignes.
    * **[!UICONTROL Remappage des valeurs]** : cette option vous permet de mapper des valeurs spécifiques à de nouvelles valeurs. Par exemple, si la colonne contient des valeurs de type « True » et « False », vous pouvez ajouter un mappage pour remplacer automatiquement ces valeurs par les caractères « 0 » et « 1 ».
 
-   +++
++++
 
 1. Dans la section **Mise en forme**, indiquez la mise en forme du fichier externe pour vous assurer que les données sont correctement importées.
 
