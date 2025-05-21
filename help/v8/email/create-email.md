@@ -5,8 +5,8 @@ description: Découvrez comment envoyer votre premier e-mail avec l’interface 
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -252,4 +252,4 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

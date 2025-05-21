@@ -5,8 +5,8 @@ description: Découvrez comment ajouter et gérer le lien vers la page miroir.
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

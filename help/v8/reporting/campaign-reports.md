@@ -5,8 +5,8 @@ description: Découvrez comment accéder aux rapports de campagne et les utilise
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
