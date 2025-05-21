@@ -37,7 +37,7 @@ Tout d’abord, vous devez configurer le canal externe personnalisé. Les étape
 1. Créez un compte externe de routage.
 1. Créez un nouveau modèle de diffusion associé au nouveau canal.
 
-Pour plus d’informations, consultez la documentation de la [console cliente](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+Pour plus d’informations, consultez la documentation de la [console cliente](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=fr)
 
 ## Créer une diffusion{#create-delivery}
 
