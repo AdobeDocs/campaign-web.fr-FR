@@ -3,7 +3,7 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 89%
@@ -54,7 +54,7 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!TAB Version du 25 mai]
 
-La version de mai est maintenant en ligne, avec le canal du centre d’appels, le nouveau créateur de règles et d’autres améliorations.
+La version de mai est maintenant en ligne, avec le nouveau canal personnalisé, le score d’alignement de la marque et l’amélioration des règles de typologie.
 
 [![Bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
