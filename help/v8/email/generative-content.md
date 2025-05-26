@@ -1,35 +1,35 @@
 ---
 audience: end-user
 title: Contenu génératif
-description: Prise en main de l’assistant AI
+description: Commencer avec l’assistant IA
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1525'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# Génération d’e-mails avec l’assistant AI {#generative-content}
+# Génération d’e-mails avec l’assistant IA {#generative-content}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter un [contrat utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant d’utiliser l’assistant AI dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Une fois vos e-mails créés et personnalisés, utilisez l’assistant AI dans Adobe Campaign Web pour améliorer votre contenu.
+Une fois vos e-mails créés et personnalisés, utilisez l’assistant IA dans Adobe Campaign Web pour améliorer votre contenu.
 
-L’assistant AI d’Adobe Campaign Web permet d’optimiser l’impact de vos diffusions en générant des e-mails complets, du contenu textuel ciblé et des images adaptés pour interagir avec votre audience. Cela améliore vos campagnes par e-mail pour un meilleur engagement.
+L’assistant IA d’Adobe Campaign Web vous permet d’optimiser l’impact de vos diffusions en générant des e-mails entiers, du contenu texte ciblé et même des images personnalisées qui résonnent auprès de votre audience. Cela améliore vos campagnes par e-mail pour un meilleur engagement.
 
-Avec vos campagnes par e-mail, utilisez l’assistant AI pour générer des e-mails, du texte ou des images complets. Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant AI dans Adobe Campaign Web.
+Dans vos campagnes par e-mail, utilisez l’assistant IA pour générer des e-mails entiers, du texte ou des images. Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA d’Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Génération d’e-mail complet]
 
-Dans l’exemple suivant, utilisez l’assistant AI dans Adobe Campaign Web pour affiner un e-mail existant et le personnaliser pour un événement spécial.
+Dans l’exemple suivant, nous utiliserons l’assistant IA d’Adobe Campaign Web afin d’améliorer un e-mail existant en le personnalisant pour un événement spécial.
 
 1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -37,9 +37,9 @@ Dans l’exemple suivant, utilisez l’assistant AI dans Adobe Campaign Web pour
 
 1. Personnalisez la disposition selon vos besoins et accédez au menu **[!UICONTROL Assistant IA]**.
 
-   ![Capture d’écran affichant le menu Assistant IA dans Adobe Campaign Web](assets/full-email-1.png){zoomable="yes"}
+   ![Capture d’écran affichant le menu d’assistant IA d’Adobe Campaign Web](assets/full-email-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’asistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -52,7 +52,7 @@ Dans l’exemple suivant, utilisez l’assistant AI dans Adobe Campaign Web pour
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, l’assistant AI adapte le message en conséquence.
+   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA adapte le message en conséquence.
 
    ![Capture d’écran affichant les options de paramètres de texte dans Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
 
@@ -66,7 +66,7 @@ Dans l’exemple suivant, utilisez l’assistant AI dans Adobe Campaign Web pour
 
    ![Capture d’écran montrant les options de paramètres d’image dans Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque qui fournit un contexte supplémentaire à l’assistant AI, ou sélectionnez-en une précédemment chargée.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter n’importe quelle ressource de marque pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
 
@@ -76,7 +76,7 @@ Dans l’exemple suivant, utilisez l’assistant AI dans Adobe Campaign Web pour
 
 1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
-   * **[!UICONTROL Reformuler]** : l’assistant d’IA reformule votre message de différentes manières, en gardant vos écrits frais et attrayants pour diverses audiences.
+   * **[!UICONTROL Reformuler]** : l’assistant IA reformule votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
    * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez les termes pour garantir la clarté et l’accessibilité pour toucher une audience plus large.
 
    Vous pouvez également modifier le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre texte.
@@ -93,7 +93,7 @@ Lorsque vous définissez le contenu, l’audience et le planning, préparez la d
 
 >[!TAB Génération de texte uniquement]
 
-Dans l’exemple suivant, utilisez l’assistant AI pour améliorer le contenu de votre invitation par e-mail pour un événement à venir.
+Dans l’exemple suivant, utilisez l’assistant IA afin d’améliorer le contenu de votre e-mail d’invitation pour un événement à venir.
 
 1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -103,7 +103,7 @@ Dans l’exemple suivant, utilisez l’assistant AI pour améliorer le contenu d
 
    ![Capture d’écran montrant la sélection du composant de texte dans Adobe Campaign Web](assets/text-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -114,12 +114,12 @@ Dans l’exemple suivant, utilisez l’assistant AI pour améliorer le contenu d
 1. Adaptez votre prompt à l’aide de l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, l’assistant AI adapte le message en conséquence.
+   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA adapte le message en conséquence.
    * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
    ![Capture d’écran montrant les options de paramètres de texte dans Adobe Campaign Web](assets/text-genai-3.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque qui fournit un contexte supplémentaire à l’assistant AI, ou sélectionnez-en une précédemment chargée.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter n’importe quelle ressource de marque fournissant du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
 
@@ -147,7 +147,7 @@ Lorsque vous définissez le contenu, l’audience et le planning, préparez la d
 
 >[!TAB Génération d’images]
 
-Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant AI pour optimiser et améliorer vos ressources, offrant ainsi une expérience plus conviviale.
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
 1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -155,13 +155,13 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant AI 
 
 1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]**.
 
-1. Sélectionnez la ressource à modifier à l’aide de l’assistant AI.
+1. Sélectionnez la ressource à modifier à l’aide de l’assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
    ![Capture d’écran montrant le menu Assistant IA pour la génération d’images dans Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Style de référence]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Style de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -180,7 +180,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant AI 
 
    ![Capture d’écran montrant les options de paramètres d’image dans Adobe Campaign Web](assets/image-genai-3.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque qui fournit un contexte supplémentaire à l’assistant AI, ou sélectionnez-en une précédemment chargée.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter n’importe quelle ressource de marque fournissant du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
 
@@ -206,6 +206,6 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant AI 
 
 ## Vidéo pratique {#video}
 
-Découvrez comment utiliser l’assistant AI pour générer du contenu d’e-mail, du texte et des images complets.
+Découvrez comment utiliser l’assistant IA pour générer du contenu complet, du texte et des images pour les e-mails.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)

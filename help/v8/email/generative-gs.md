@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Commencer avec l’assistant IA
-description: Prise en main de l’assistant AI
+description: Commencer avec l’assistant IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ L’Assistant IA simplifie la création et l’exécution de campagnes marketin
 >
 >* Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe sur les [Mécanismes de sécurisation et limitations](#generative-guardrails).
 >
->* Vous devez accepter un [contrat utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant d’utiliser l’assistant AI dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>* Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-## Accéder à l’assistant AI {#generative-access}
+## Accéder à l’assistant IA {#generative-access}
 
-L’assistant AI pour les e-mails, les notifications push et les SMS est désormais à disponibilité générale (GA) et disponible pour tous les utilisateurs. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs et utilisatrices sont détaillées ci-dessous.
+L’assistant IA pour les e-mails, les notifications push et les SMS est désormais disponible en disponibilité générale (GA) pour tous les utilisateurs et utilisatrices. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs et utilisatrices sont détaillées ci-dessous.
 
 +++ Découvrir comment attribuer des autorisations liées à la génération de contenu
 
@@ -61,14 +61,14 @@ Découvrez comment définir des autorisations dans Campaign dans [cette section]
 
 ## Mécanismes de sécurisation et limitations {#generative-guardrails}
 
-Les instructions générales pour l’utilisation de l’assistant AI dans Adobe Campaign Web pour la génération d’e-mails sont répertoriées ci-dessous :
+Vous trouverez ci-dessous des instructions générales concernant l’utilisation de l’assistant IA dans Adobe Campaign Web pour la génération d’e-mails :
 
 * La qualité du contenu généré est fortement influencée par le prompt ou l’objectif marketing que vous définissez. Utilisez un prompt bien défini pour que le modèle GenAI soit interprété avec précision.
 * Chargez des ressources de marque pour garantir un contenu précis et intégré à la marque. Autrement, le contenu est basé sur des informations disponibles au public. Le contenu chargé peut se présenter dans les formats suivants : fichiers PDF, JPEG, PNG ou ZIP (avec les formats de fichiers pris en charge).
 * La taille maximale pour les ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou de nombreuses images peuvent augmenter le temps de traitement.
-* Utilisez des [modèles d’e-mail intégrés](../email/create-email-templates.md), des modèles spécifiques à la marque ou des modèles personnalisés pour créer le contenu de vos e-mails à l’aide de l’assistant AI. Il est recommandé d’utiliser des modèles d’e-mail contenant jusqu’à 8 à 10 images.
+* Utilisez des [modèles d’e-mail intégrés](../email/create-email-templates.md), des modèles spécifiques à la marque ou des modèles personnalisés pour créer le contenu de votre e-mail à l’aide de l’assistant IA. Il est recommandé d’utiliser des modèles d’e-mail contenant jusqu’à 8 à 10 images.
 * Signalez les sorties problématiques à l’aide des icônes de pouces vers le haut, vers le bas ou d’indicateurs lors de la sélection de variantes.
-* Votre utilisation de l’assistant AI est soumise aux directives d’utilisation de Adobe Experience Cloud Generative AI. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+* Votre utilisation de l’assistant IA est soumise aux directives d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Dans le cadre de l’engagement d’Adobe à la transparence dans l’utilisation d’outils d’IA générative dans la création de médias, Adobe applique Content Credentials (informations de traçabilité du contenu) lorsque le contenu ou un projet qui inclut une ressource générée par un Firefly est téléchargé ou exporté. [En savoir plus](https://helpx.adobe.com/fr/firefly/using/content-credentials.html).
 
 Les restrictions suivantes s’appliquent à l’assistant IA dans Adobe Campaign Web :
@@ -86,24 +86,24 @@ Les restrictions suivantes s’appliquent à l’assistant IA dans Adobe Campai
 <img alt="[Génération d’e-mails avec l’Assistant IA]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Génération d’e-mails avec l’assistant AI</strong></a>
+<a href="generative-content.md"><strong>Génération d’e-mails avec l’assistant IA</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-sms.md">
-<img alt="[Génération de SMS avec l’Assistant IA]" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="[Génération de SMS avec l’assistant IA]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>Génération de SMS avec l’assistant AI</strong>
+<div><a href="generative-sms.md"><strong>Génération de SMS avec l’assistant IA</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-push.md">
-<img alt="[Génération de notifications push avec l’Assistant IA]" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="[Génération de notifications push avec l’assistant IA]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>Génération de notifications push avec l’assistant AI</strong></a>
+<a href="generative-push.md"><strong>Génération de notifications push avec l’assistant IA</strong></a>
 </div>
 <p></td>
 </tr></table>

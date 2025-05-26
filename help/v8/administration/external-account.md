@@ -3,9 +3,9 @@ title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
 source-git-commit: 75bb03c393ddafeeb869a44a523ab875a893ec3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1400'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -87,28 +87,28 @@ Pour configurer le compte externe **[!UICONTROL E-mails rejetés (POP3)]**, rens
 
 >[!IMPORTANT]
 >
->Avant de configurer votre compte externe POP3 à l’aide de Microsoft OAuth 2.0, vous devez enregistrer votre application sur le portail Azure. Pour plus d’informations, consultez [cette page](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app){target=_blank}.
+>Avant de configurer votre compte externe POP3 à l’aide de Microsoft OAuth 2.0, vous devez enregistrer votre application sur le portail Azure. Pour plus d’informations, consultez [cette page](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app){target=_blank}.
 
-Pour configurer un environnement externe POP3 à l’aide de Microsoft OAuth 2.0, cochez la case Microsoft OAuth 2.0 et renseignez les champs suivants :
+Pour configurer un environnement externe POP3 à l’aide de Microsoft OAuth 2.0, cochez la case Microsoft OAuth 2.0 et renseignez les champs suivants :
 
-* **[!UICONTROL Client Azure]**
+* **[!UICONTROL Locataire Azure]**
 
-  L’ID Azure (ou l’ID de répertoire (client)) se trouve dans le menu déroulant Essentiels de la présentation de votre application dans le portail Azure.
+  L’ID Azure (ou ID de répertoire, ou de locataire) se trouve dans le menu déroulant Essentiels de la vue d’ensemble de votre application dans le portail Azure.
 
-* **[!UICONTROL Identifiant de client Azure]**
+* **[!UICONTROL Identifiant client Azure]**
 
-  L’ID client (ou l’ID d’application (client)) se trouve dans le menu déroulant Essentiels de la présentation de votre application dans le portail Azure.
+  L’ID client (ou ID d’application, ou de client) se trouve dans le menu déroulant Essentiels de la vue d’ensemble de votre application dans le portail Azure.
 
 * **[!UICONTROL Secret client Azure]**
 
-  L’ID de secret client se trouve dans la colonne Secrets client du menu Certificats et secrets de votre application dans le portail Azure.
+  L’ID de secret client se trouve dans la variable Secrets clients du menu Certificats et secrets de votre application dans le portail Azure.
 
 
 * **[!UICONTROL URL de redirection Azure]**
 
-  L’URL de redirection se trouve dans le menu Authentification de votre application dans le portail Azure. Elle doit se terminer par la syntaxe suivante : nl/jsp/oauth.jsp, par exemple `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+  L’URL de redirection se trouve dans le menu Authentification de votre application dans le portail Azure. Elle doit se terminer par la syntaxe suivante : nl/jsp/oauth.jsp, par exemple `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
-Un accès Internet est nécessaire pour la configuration et l’utilisation du bouton Tester la connexion dans la console cliente. Après la configuration, le processus inMail peut communiquer avec les serveurs Microsoft sans Internet.
+Un accès Internet est nécessaire pour la configuration et pour utiliser le bouton Tester la connexion dans la console cliente. Après la configuration, le processus inMail peut communiquer avec les serveurs Microsoft sans Internet.
 
 Après avoir saisi les différentes informations d’identification, vous pouvez cliquer sur Configurer la connexion pour terminer la configuration de votre compte externe.
 
@@ -162,9 +162,9 @@ Pour configurer le compte externe d’**[!UICONTROL Instance d’exécution]** 
 
 ### Adobe Experience Cloud
 
-Pour vous connecter à la console Adobe Campaign à l&#39;aide d&#39;un Adobe ID, vous devez configurer le compte externe Adobe Experience Cloud (MAC) .
+Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, vous devez configurer le compte externe Adobe Experience Cloud (MAC).
 
-![Capture d’écran affichant les champs de configuration du compte externe Adobe Experience Cloud MAC.](assets/external-MAC.png)
+![Capture d’écran montrant les champs de configuration du compte externe Adobe Experience Cloud MAC.](assets/external-MAC.png)
 
 * **[!UICONTROL Serveurs IMS]**
 
@@ -188,7 +188,7 @@ Pour vous connecter à la console Adobe Campaign à l&#39;aide d&#39;un Adobe ID
 
 * **[!UICONTROL Identifiant de l&#39;organisation IMS]**
 
-  Identifiant de votre organisation. Pour trouver l’identifiant de votre organisation, reportez-vous à [ cette page ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){target=_blank}.
+  Identifiant de votre organisation. Pour trouver l’ID de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){target=_blank}.
 
 * **[!UICONTROL Masque de correspondance]**
 
@@ -208,7 +208,7 @@ Pour vous connecter à la console Adobe Campaign à l&#39;aide d&#39;un Adobe ID
 
 Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
-![Capture d’écran affichant les champs de configuration du compte externe Amazon Simple Storage Service S3.](assets/external-AWS.png)
+![Capture d’écran montrant les champs de configuration du compte externe Amazon Simple Storage Service S3.](assets/external-AWS.png)
 
 Lors de la configuration de ce nouveau compte externe, vous devez indiquer les informations suivantes :
 
@@ -221,7 +221,7 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 
 * **[!UICONTROL ID de la clé d&#39;accès AWS]**
 
-  Pour savoir où trouver votre ID de la clé d’accès AWS, consultez [cette page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
+  Pour savoir où trouver votre ID de la clé d’accès AWS, consultez cette [page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
 
 * **[!UICONTROL Clé d&#39;accès secrète à AWS]**
 
@@ -237,9 +237,9 @@ Pour savoir où trouver l’ID de la clé d’accès et la clé d’accès secr�
 
 ### Stockage Azure Blob {#azure-blob-external-account}
 
-Le compte externe **[!UICONTROL Stockage Blob Azure]** peut être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow **[!UICONTROL Transfert de fichier]**. Pour plus d’informations, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Le compte externe **[!UICONTROL Stockage Blob Azure]** peut être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow **[!UICONTROL Transfert de fichier]**. Pour plus d’informations, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
-![Capture d’écran affichant les champs de configuration du compte externe de stockage Blob Azure.](assets/external-azure.png)
+![Capture d’écran montrant les champs de configuration du compte externe Stockage Blob Azure.](assets/external-azure.png)
 
 Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser avec Adobe Campaign, vous devez fournir les détails suivants :
 
@@ -253,13 +253,13 @@ Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser av
 
 * **[!UICONTROL Clé d’accès]**
 
-  Pour savoir où trouver votre **&#x200B;**&#x200B;clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  Pour savoir où trouver votre **** clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
 
 ## Hadoop
 
-Le compte externe Hadoop permet de connecter votre instance Campaign à votre base de données externe Hadoop. Pour en savoir plus sur Hadoop, consultez la [documentation de la console Campaign V7](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
+Le compte externe Hadoop vous permet de connecter votre instance Campaign à votre base de données externe Hadoop. Pour en savoir plus sur Hadoop, consultez la [documentation de la console Campaign V7](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
 
-![Capture d’écran affichant la configuration du compte externe Hadoop.](assets/external-hadoop.png)
+![Capture d’écran montrant la configuration du compte externe Hadoop.](assets/external-hadoop.png)
 
 * **[!UICONTROL Serveur]**
 
@@ -267,4 +267,4 @@ Le compte externe Hadoop permet de connecter votre instance Campaign à votre ba
 
 * **[!UICONTROL Compte]**
 
-  Nom de votre compte de serveur Hadoop.
+  Nom du compte de votre serveur Hadoop.

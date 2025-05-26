@@ -4,9 +4,9 @@ title: Plans et programmes
 description: Découvrir comment créer et envoyer des plans et des programmes dans Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ Pour gérer les **[!UICONTROL Options personnalisées]**, procédez comme suit 
 
 1. Accédez aux **[!UICONTROL Schémas]**.
 1. Choisissez les schémas **[!UICONTROL Modifiables]** dans les filtres.
-1. Cliquez sur le schéma .
+1. Cliquez sur le schéma.
 
 ![Capture d’écran montrant la modification des détails personnalisés d’un plan](assets/plan_edit.png){zoomable="yes"}
 
-1. Cliquez sur le bouton **[!UICONTROL Modification de l’écran]**.
+1. Cliquez sur le bouton **[!UICONTROL Édition d’écran]**.
 
    ![](assets/plan_edit2.png){zoomable="yes"}
 
@@ -68,11 +68,11 @@ Pour gérer les **[!UICONTROL Options personnalisées]**, procédez comme suit 
 
 1. Accédez aux **[!UICONTROL Schémas]**.
 1. Choisissez les schémas **[!UICONTROL Modifiables]** dans les filtres.
-1. Cliquez sur le schéma .
+1. Cliquez sur le schéma.
 
 ![Capture d’écran montrant la modification des détails personnalisés d’un programme](assets/program_edit.png){zoomable="yes"}
 
-1. Cliquez sur le bouton **[!UICONTROL Modification de l’écran]**.
+1. Cliquez sur le bouton **[!UICONTROL Édition d’écran]**.
 
    ![](assets/program_edit2.png){zoomable="yes"}
 

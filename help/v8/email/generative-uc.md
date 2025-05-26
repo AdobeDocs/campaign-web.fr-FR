@@ -3,9 +3,9 @@ title: Cas d’utilisation de l’assistant IA
 description: Découvrir comment utiliser l’assistant IA à travers les cas d’utilisation
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 75%
 
 1. Ouvrez la section **[!UICONTROL Assistant IA]**.
 
-1. Activez la fonction **[!UICONTROL Utiliser le contenu d’origine]** dans l’assistant AI pour personnaliser le nouveau contenu en fonction des détails de votre diffusion, y compris le nom de la diffusion et l’audience ciblée.
+1. Activez la fonctionnalité **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction des détails de votre diffusion, y compris le nom de la diffusion et l’audience ciblée.
 
 1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Prompt]** et personnalisez les paramètres selon vos besoins.
 
@@ -51,13 +51,13 @@ Une fois que vous avez défini le contenu, l’audience et le planning, prépare
 
    * **[!UICONTROL Utiliser comme contenu de référence]** : la variation sélectionnée sert de référence pour générer plus de contenu.
 
-   * **[!UICONTROL Développer]** : laissez AI Assistant développer certains points, en offrant plus de profondeur et de détails pour un meilleur engagement.
+   * **[!UICONTROL Élaborer]** : laissez l’assistant IA développer certains points, offrant plus de détails et de profondeur pour un meilleur engagement.
 
-   * **[!UICONTROL Résumer]** : pour obtenir des informations détaillées, utilisez l’assistant AI afin de créer des résumés concis qui seront plus faciles à résumer pour les destinataires d’e-mails.
+   * **[!UICONTROL Résumer]** : pour les informations volumineuses, utilisez l’assistant IA afin de créer des résumés concis plus faciles à assimiler par les personnes destinataires des e-mails.
 
-   * **[!UICONTROL Reformulation]** : l’assistant d’IA peut présenter votre message de différentes manières, ce qui permet de garder le contenu à jour pour diverses audiences.
+   * **[!UICONTROL Reformuler]** : l’assistant IA peut présenter votre message de différentes manières, ce qui permet de maintenir le contenu intéressant pour diverses audiences.
 
-   * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez la langue à l’aide de l’assistant AI pour vous assurer que le message est clair et accessible à tous les lecteurs.
+   * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez le langage avec l’assistant IA afin de garantir un message clair et accessible pour tous les lecteurs et lectrices.
 
    De plus, ajustez le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre contenu.
 
@@ -89,11 +89,11 @@ Une fois que vous avez défini le contenu, l’audience et le planning, prépare
 
 1. Après avoir configuré votre diffusion, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Sélectionnez la ressource à modifier à l’aide de l’assistant AI.
+1. Choisissez la ressource que vous souhaitez modifier à l’aide de l’assistant IA.
 
 1. Dans le menu du volet de droite, choisissez **[!UICONTROL Assistant IA]**.
 
-1. Activez l’option **[!UICONTROL Style de référence]** afin que l’assistant AI puisse générer du nouveau contenu à l’aide du matériau de référence.
+1. Activez l’option **[!UICONTROL Style de référence]** afin que l’assistant IA puisse générer un nouveau contenu à l’aide du matériel de référence.
 
 1. Cliquez sur **[!UICONTROL Charger l’image]** pour inclure une image qui ajoute du contexte à votre variation.
 

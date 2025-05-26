@@ -3,9 +3,9 @@ title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -70,17 +70,17 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
 
    ![Capture d’écran affichant le menu Schémas et le filtre modifiable dans le volet de navigation](assets/custom-fields-open.png)
 
-1. Sélectionnez le schéma dans la liste pour l’ouvrir. Une vue de schéma détaillée s’affiche. [En savoir plus sur les détails du schéma](../administration/schemas.md). Cliquez sur le bouton **[!UICONTROL Modification de l’écran]** pour accéder aux champs personnalisés. Dans cet exemple, des champs sont ajoutés pour le schéma **[!UICONTROL Destinataires]**.
+1. Sélectionnez le schéma dans la liste pour l’ouvrir. Une vue de schéma détaillée s’affiche. [En savoir plus sur les détails du schéma](../administration/schemas.md). Cliquez sur le bouton **[!UICONTROL Édition d’écran]** pour accéder aux champs personnalisés. Dans cet exemple, des champs sont ajoutés pour le schéma **[!UICONTROL Destinataires]**.
 
-   ![Capture d’écran affichant le bouton Définition d’écran dans la vue de schéma](assets/custom-fields-edit.png)
+   ![Capture d’écran montrant le bouton Définition des écrans dans la vue du schéma](assets/custom-fields-edit.png)
 
-   La liste des champs personnalisés affichée dans l’interface pour le schéma s’affiche.
+   La liste des champs personnalisés du schéma qui s’affichent dans l’interface apparaît.
 
 1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour afficher les champs personnalisés dans un exemple d’écran.
 
    ![](assets/custom-fields-edit2.png)
 
-   Ici, le champ « Montant » a été marqué comme obligatoire.
+   Ici, le champ « Quantité » a été marqué comme obligatoire.
 
    ![](assets/custom-fields-edit3.png)
 
@@ -93,7 +93,7 @@ Pour afficher des champs personnalisés dans l’interface, procédez comme suit
 
 1. Une fois les champs personnalisés ajoutés, vous pouvez effectuer les opérations suivantes :
 
-   * **Réorganiser les champs** : utilisez les flèches vers le haut et vers le bas, ou déplacez les champs par glisser-déposer.
+   * **Réorganiser les champs** : utilisez les flèches haut et bas, ou déplacez les champs par glisser-déposer.
    * **Rendre les champs obligatoires** : cochez la case **Obligatoire**.
    * **Modifier les paramètres des champs** : cliquez sur le bouton représentant des points de suspension et choisissez **[!UICONTROL Modifier]**. [En savoir plus](#settings)
    * **Supprimer des champs** : cliquez sur le bouton représentant des points de suspension et choisissez **[!UICONTROL Supprimer]**.
@@ -122,7 +122,7 @@ Les paramètres disponibles sont les suivants :
 
   ![Capture d’écran illustrant un exemple de paramètres de filtre pour les champs personnalisés](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL Étendre sur deux colonnes]** : par défaut, les champs personnalisés s’affichent dans l’interface sur deux colonnes. Activez cette option pour afficher le champ personnalisé sur toute la largeur de l’écran au lieu de deux colonnes.
 

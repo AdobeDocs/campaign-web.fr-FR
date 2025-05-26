@@ -3,9 +3,9 @@ title: Utiliser les schémas
 description: Découvrez comment utiliser les schémas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ L’onglet **[!UICONTROL Données]** fournit des informations sur les données d
 
 Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas prêts à l’emploi via la console Adobe Campaign. Ils vous permettent de personnaliser les schémas en incluant de nouveaux attributs en fonction des besoins de votre entreprise.
 
-Les champs personnalisés peuvent être affichés sur différents écrans, comme les détails de profil dans l’interface web de Campaign. Vous pouvez contrôler quels champs sont visibles et la manière dont ils apparaissent dans l’interface. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modification de l’écran]** dans le menu **[!UICONTROL Schémas]**.
+Les champs personnalisés peuvent être affichés sur différents écrans, comme les détails de profil dans l’interface web de Campaign. Vous pouvez contrôler quels champs sont visibles et la manière dont ils apparaissent dans l’interface. Pour ce faire, cliquez sur le bouton **[!UICONTROL Édition d’écran]** dans le menu **[!UICONTROL Schémas]**.
 
 ![Écran de champs personnalisés affichant les attributs modifiables](assets/schemas-custom.png)
 

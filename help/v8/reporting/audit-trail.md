@@ -5,9 +5,9 @@ description: Découvrez comment surveiller votre instance à lʼaide du journal 
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en 
 
 +++ En savoir plus sur les entités disponibles du journal d’audit
 
-* **Le journal d&#39;audit des schémas de Source** vous permet de surveiller les activités et les modifications récentes apportées à vos schémas dans la console cliente Campaign v8.
+* **Journal d’audit du schéma source** : permet de surveiller les activités et les modifications récentes apportées à vos schémas dans la console cliente Campaign v8.
 
   Pour plus d’informations sur les schémas, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
@@ -41,7 +41,7 @@ La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en 
 
   Pour plus d’informations sur les workflows, consultez [cette page](../workflows/gs-workflows.md).
 
-* Le **journal d&#39;audit des options** vous permet de surveiller les activités et les modifications récentes apportées à vos options dans Campaign v8.
+* **Journal d’audit des options** : permet de surveiller les activités et les modifications récentes apportées à vos options dans Campaign v8.
 
   Pour plus d’informations sur les options, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
@@ -49,15 +49,15 @@ La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en 
 
   Pour plus d’informations sur les diffusions, consultez cette [page](../msg/gs-deliveries.md).
 
-* Le **Compte externe** vous permet de vérifier les modifications apportées aux comptes externes dans Campaign v8, utilisés par des processus techniques tels que les workflows techniques ou les workflows de campagne.
+* **Compte externe** : permet de vérifier les modifications apportées aux comptes externes dans Campaign v8. Utilisé par des processus techniques tels que des workflows techniques ou des workflows de campagne.
 
   Pour plus d’informations sur les comptes externes, consultez cette [page](../administration/external-account.md).
 
-* **Mapping de diffusion** permet de surveiller les activités et les modifications récentes apportées à votre mapping de diffusion dans Campaign v8.
+* **Mapping de diffusion** : permet de surveiller les activités et les modifications récentes apportées à votre mapping de diffusion dans Campaign v8.
 
   Pour plus d’informations sur les mappings de diffusion, consultez cette [page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
-* **Application web** vous permet de vérifier les modifications apportées aux formulaires web dans Campaign v8, utilisés pour créer des pages avec des champs de saisie et de sélection, et qui peuvent inclure des données de la base de données.
+* **Application web** : permet de vérifier les modifications apportées aux formulaires web dans Campaign v8. Utilisé pour créer des pages avec des champs de saisie et de sélection et pouvant inclure des données de la base de données.
 
   Pour plus d’informations sur les applications web, consultez cette [page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/webapps).
 
@@ -65,7 +65,7 @@ La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en 
 
   Pour plus d’informations sur les offres, consultez cette [page](../msg/offers.md).
 
-* **Opérateur** permet de surveiller les activités et les modifications récentes apportées à vos opérateurs dans Campaign v8.
+* **Opérateur ou opératrice** : permet de surveiller les activités et les modifications récentes apportées à vos opérateurs et opératrices dans Campaign v8.
 
   Pour plus d’informations sur les opérateurs et opératrices, consultez cette [page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 

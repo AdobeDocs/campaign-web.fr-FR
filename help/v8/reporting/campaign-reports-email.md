@@ -4,9 +4,9 @@ title: Rapports de campagne du canal e-mail
 description: En savoir plus sur les rapports de campagne du canal E-mail
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1677'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui donnent
 
 ![Capture d’écran du rapport Vue d’ensemble de la diffusion](assets/campaign_report_email_1.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -52,7 +52,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 ![Capture d’écran du tableau Statistiques initiales sur l’audience cible](assets/campaign_report_email_2.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
@@ -73,7 +73,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 ![Capture d’écran du tableau Statistiques d’exécution détaillant le succès de la diffusion](assets/campaign_report_email_3.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -98,7 +98,7 @@ Le tableau **[!UICONTROL Statistiques des réactions]** contient les données di
 
 ![Capture d’écran du tableau Statistiques des réactions contenant les données disponibles relatives à l’activité des personnes destinataires de la diffusion](assets/campaign_report_email_4.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Ouvertures uniques]** : nombre total de personnes destinataires ciblées ayant ouvert un message au moins une fois.
 
@@ -122,7 +122,7 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 ![Capture d’écran du tableau Flux de clics générés](assets/campaign_report_email_5.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 
@@ -147,7 +147,7 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 
 ![Capture d’écran du graphe et du tableau Répartition des erreurs par type](assets/campaign_report_email_6.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Utilisateur inconnu]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse e-mail est invalide.
 
@@ -187,7 +187,7 @@ Les mesures **[!UICONTROL Statistiques de diffusion]** fournissent des indicateu
 
 ![Capture d’écran des mesures Statistiques de diffusion](assets/campaign_report_email_7.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Message(s) à diffuser]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
 
@@ -213,7 +213,7 @@ Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche d
 
 ![Capture d’écran du tableau Taux d’ouverture et de clic publicitaire](assets/campaign_report_email_8.png){zoomable="yes"}
 
-+++ En savoir plus sur les mesures des rapports de campagne par e-mail.
++++ En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Envoyés]** : nombre total de messages envoyés.
 
@@ -238,7 +238,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 ![Capture d’écran du rapport URL et flux de clics](assets/campaign_report_email_9.png){zoomable="yes"}
 
-+++ En savoir plus sur les mesures des rapports de campagne par e-mail.
++++ En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
@@ -261,7 +261,7 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 
 ![Capture d’écran du graphe des 10 liens les plus visités](assets/campaign_report_email_10.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne par e-mail.
++++En savoir plus sur les mesures de rapports de campagne par e-mail.
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
@@ -291,7 +291,7 @@ Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des o
 
 ![Capture d’écran du rapport Activités utilisateurs](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures des rapports de diffusion par e-mail.
++++En savoir plus sur les mesures de rapports de diffusion par e-mail.
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 

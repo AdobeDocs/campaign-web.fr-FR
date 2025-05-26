@@ -4,9 +4,9 @@ title: Créer votre première requête à l’aide du créateur de modèles de r
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2192'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ L’édition d’une expression consiste à saisir manuellement des conditions p
 
 >[!IMPORTANT]
 >
->Une toute nouvelle interface pour Query Modeler est disponible. Pour passer à cette nouvelle expérience de créateur de règles, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au modèle de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le requêteur dans cette nouvelle interface.
->![Image illustrant le bouton (bascule) de la nouvelle interface du créateur de règles ](assets/query-modeler-toggle.png){zoomable="yes"}
+>Une toute nouvelle interface pour le concepteur de requête est disponible. Pour passer à cette nouvelle expérience de créateur de règles, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
+>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Utiliser l’éditeur d’expression {#edit}
 
@@ -48,9 +48,9 @@ L’exemple ci-dessous présente une expression configurée pour le champ **[!UI
 
 >[!BEGINTABS]
 
->[!TAB Modéliseur de requête classique]
+>[!TAB Concepteur de requête classique]
 
-![Exemple d&#39;édition d&#39;expression pour le champ Valeur](assets/edit-expression-value.png){zoomable="yes"}
+![Exemple d’édition d’expression pour le champ Valeur](assets/edit-expression-value.png){zoomable="yes"}
 
 >[!TAB Nouveau créateur de règles]
 

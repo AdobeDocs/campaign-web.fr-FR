@@ -4,9 +4,9 @@ title: Rapports globaux pour le canal Courrier
 description: En savoir plus sur les rapports globaux pour le canal courrier
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicat
 
 ![Cette image montre les mesures de vue d’ensemble de la diffusion pour les diffusions courrier.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de présentation des diffusions.
++++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -81,7 +81,7 @@ Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des d
 
 Le graphe **[!UICONTROL Statistiques de diffusion]** fournit une répartition du succès de chaque diffusion par courrier, avec les mesures détaillées décrites ci-dessous.
 
-+++En savoir plus sur les mesures des statistiques de diffusion.
++++En savoir plus sur les mesures de statistiques de diffusion.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -109,7 +109,7 @@ Le graphe **[!UICONTROL Statistiques de diffusion]** fournit une répartition du
 
 Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
-+++En savoir plus sur les causes des mesures d’exclusion.
++++En savoir plus sur les mesures de causes d’exclusion.
 
 * **[!UICONTROL Adresse en quarantaine]** : type d’erreur générée lorsque l’adresse est mise en quarantaine.
 

@@ -4,9 +4,9 @@ title: Rapports de diffusion Notifications push
 description: Découvrez comment accéder aux rapports de diffusion des notifications push et les utiliser.
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des indicat
 
 ![Cette capture d’écran montre le rapport de vue d’ensemble de la diffusion, qui fournit des KPI sur l’engagement des visiteurs avec les messages Push.](assets/reporting_push_3.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de diffusion des notifications push.
++++En savoir plus sur les mesures de rapports de diffusion de notifications push.
 
 * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de la préparation de la diffusion.
 * **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
@@ -52,7 +52,7 @@ Le tableau et le graphe **Population ciblée** affichent des données relatives 
 
 ![Cette capture d’écran montre le graphique et le tableau Population ciblée, qui affichent les données relatives aux messages à diffuser et aux exclusions.](assets/reporting_push_4.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de diffusion des notifications push.
++++En savoir plus sur les mesures de rapports de diffusion de notifications push.
 
 * **[!UICONTROL À délivrer]** : nombre total de messages traités lors de la préparation de la diffusion.
 * **[!UICONTROL Exclusions]** : nombre de profils qui ont été exclus de l’analyse.
@@ -70,7 +70,7 @@ Le rapport **Statistiques globales** présente des données relatives aux notifi
 
 ![Cette capture d’écran montre le rapport Statistiques globales, qui présente des données sur les succès, les erreurs et les mises en quarantaine pour les notifications Push envoyées.](assets/reporting_push_5.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de diffusion des notifications push.
++++En savoir plus sur les mesures de rapports de diffusion de notifications push.
 
 * **[!UICONTROL Succès]** : nombre de messages traités avec succès.
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs qui se sont produites pendant la diffusion, empêchant l’envoi des messages à certains profils.

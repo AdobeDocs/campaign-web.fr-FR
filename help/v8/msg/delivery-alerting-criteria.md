@@ -8,9 +8,9 @@ robots: noindex
 googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Pour créer un critère, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si aucun des filtres prédéfinis ne répond à vos besoins, vous pouvez en créer vos propres à partir du menu **Gestion des clients** > **Filtres prédéfinis**. [En savoir plus](../get-started/predefined-filters.md)
+   >Si aucun des filtres prédéfinis ne répond à vos besoins, vous pouvez créer les vôtres à partir du menu **Gestion des clientes et clients** > **Filtres prédéfinis**. [En savoir plus](../get-started/predefined-filters.md)
    >
    >Cette opération doit être effectuée par un utilisateur expert ou une utilisatrice experte uniquement.
 

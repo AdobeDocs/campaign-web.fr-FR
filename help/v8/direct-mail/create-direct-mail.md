@@ -4,9 +4,9 @@ title: Créer une diffusion par courrier
 description: Découvrez comment créer une diffusion par courrier avec Adobe Campaign Web.
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,7 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
    * **[!UICONTROL Code de diffusion]** : organisez vos diffusions à l’aide de votre propre convention de nommage.
    * **[!UICONTROL Description]** : spécifiez une description pour la diffusion.
    * **[!UICONTROL Nature]** : indiquez la nature de la diffusion à des fins de classification.
-
-   +++
++++
 
 1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre.
 
@@ -58,7 +57,7 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsqu’une diffusion est envoyée dans le cadre d’un workflow, vous devez utiliser l’activité **Planificateur**. En savoir plus sur [ cette page ](../workflows/activities/scheduler.md).
+   >Lorsqu’une diffusion est envoyée dans le cadre d’un workflow, vous devez utiliser l’activité **Planificateur**. En savoir plus sur [cette page](../workflows/activities/scheduler.md).
 
 1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 

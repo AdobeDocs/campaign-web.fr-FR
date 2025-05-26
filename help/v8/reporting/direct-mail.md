@@ -4,9 +4,9 @@ title: Rapports de courrier
 description: Découvrir comment accéder aux rapports de courrier pour les utiliser
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des informations d�
 
 ![Graphique des mesures de vue d’ensemble de la diffusion affichant les indicateurs de performances clés pour la diffusion courrier.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de présentation des diffusions.
++++En savoir plus sur les mesures de vue d’ensemble de diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 * **[!UICONTROL Ciblés]** : nombre de profils de personnes qui remplissent les critères de ciblage pour les messages par courrier.
@@ -49,7 +49,7 @@ Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre
 
 ![Vue détaillée du graphique de la population cible initiale avec la fonctionnalité de survol du curseur.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de diffusion Courrier.
++++En savoir plus sur les mesures de rapports de diffusion par courrier.
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 * **[!UICONTROL À délivrer]** : nombre total de messages à délivrer après la préparation de la diffusion.
@@ -67,7 +67,7 @@ Le graphique **[!UICONTROL Statistiques de diffusion]** offre une vue d’ensemb
 
 ![Graphique des statistiques de diffusion affichant les taux de succès, les erreurs et les quarantaines.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne de publipostage direct.
++++En savoir plus sur les mesures de rapports de campagne par courrier.
 
 * **[!UICONTROL Message envoyé]** : nombre total de messages à délivrer après la préparation de la diffusion.
 * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
@@ -86,7 +86,7 @@ La graphe **[!UICONTROL Causes d’exclusion]** fournit une répartition des rai
 
 ![Graphique des causes d’exclusion affichant la répartition des messages rejetés par règle.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++En savoir plus sur les causes des mesures d’exclusion.
++++En savoir plus sur les mesures de causes d’exclusion.
 
 * **[!UICONTROL Adresse en quarantaine]** : type d’erreur générée lorsque l’adresse est mise en quarantaine.
 * **[!UICONTROL Adresse non renseignée]** : type d’erreur générée lorsqu’une adresse n’existe pas.

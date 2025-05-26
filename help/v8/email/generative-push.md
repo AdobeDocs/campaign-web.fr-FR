@@ -1,27 +1,27 @@
 ---
 audience: end-user
-title: Notification push avec l’assistant AI
-description: Prise en main de l’assistant AI
+title: Notifications push avec l’assistant IA
+description: Commencer avec l’assistant IA
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Génération de notifications push avec l’assistant AI {#generative-push}
+# Génération de notifications push avec l’assistant IA {#generative-push}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter un [contrat utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant d’utiliser l’assistant AI dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-L’assistant d’IA permet d’optimiser l’impact de vos diffusions en suggérant différents contenus qui résonnent avec votre audience.
+L’assistant IA permet d’optimiser l’impact de vos diffusions en suggérant un contenu différent, qui résonne auprès de votre audience.
 
-Dans l’exemple suivant, l’assistant AI est utilisé pour concevoir des messages attrayants afin de créer une expérience client plus attrayante.
+Dans l’exemple suivant, nous utiliserons l’assistant IA pour concevoir des messages attrayants afin de créer une expérience clientèle plus attrayante.
 
 1. Après avoir créé et configuré votre diffusion de notifications push, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -31,7 +31,7 @@ Dans l’exemple suivant, l’assistant AI est utilisé pour concevoir des messa
 
    ![Copie d’écran affichant le menu Afficher l’assistant IA](assets/push-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -44,7 +44,7 @@ Dans l’exemple suivant, l’assistant AI est utilisé pour concevoir des messa
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Ton]** : adaptez le ton de votre e-mail pour qu’il résonne auprès de votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, l’assistant AI adapte le message en conséquence.
+   * **[!UICONTROL Ton]** : adaptez le ton de votre e-mail pour qu’il résonne auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA adapte le message en conséquence.
 
    ![Capture d’écran affichant les options des paramètres de texte](assets/push-genai-3.png){zoomable="yes"}
 
@@ -57,7 +57,7 @@ Dans l’exemple suivant, l’assistant AI est utilisé pour concevoir des messa
 
    ![Capture d’écran affichant les options des paramètres d’image](assets/push-genai-4.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque contenant du contenu qui fournit un contexte supplémentaire à l’assistant d’IA, ou sélectionnez-en une précédemment chargée.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
 

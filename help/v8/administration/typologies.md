@@ -4,7 +4,7 @@ title: Utiliser les règles métier (typologies)
 description: Découvrez comment utiliser les typologies et les règles de typologie pour contrôler, filtrer et surveiller l’envoi des diffusions.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1474'
 ht-degree: 100%
 

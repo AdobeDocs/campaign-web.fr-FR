@@ -5,9 +5,9 @@ description: Découvrir comment créer et gérer vos directives de marque
 badge: label="Version bêta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1275'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Les utilisateurs et utilisatrices peuvent saisir les détails manuellement ou ch
 
    ![](assets/brands-15.png)
 
-1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Enregistrer]** puis **[!UICONTROL Publier]** pour rendre votre ligne directrice de marque disponible dans l’assistant AI.
+1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Enregistrer]**, puis sur **[!UICONTROL Publier]** pour mettre à disposition vos directives de marque dans l’assistant IA.
 
 1. Pour apporter des modifications à votre marque publiée, cliquez sur **[!UICONTROL Modifier la marque]**.
 
@@ -97,13 +97,13 @@ Les utilisateurs et utilisatrices peuvent saisir les détails manuellement ou ch
 
    ![Options de menu avancées dans le tableau de bord Marques](assets/brands-6.png)
 
-Vos directives de marque sont désormais accessibles à partir de la liste déroulante **[!UICONTROL Marque]** dans le menu de l’assistant AI. Cela permet à l’assistant AI de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant AI](../email/generative-gs.md)
+Vos directives de marque sont désormais accessibles à partir du menu déroulant **[!UICONTROL Marque]** dans le menu de l’assistant IA. Cela permet à l’assistant IA de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant IA](../email/generative-gs.md)
 
-![Menu de l’Assistant IA avec la liste déroulante Marque](assets/brands_6.png)
+![Menu de l’assistant IA avec la liste déroulante Marque](assets/brands_6.png)
 
 ### Définir une marque par défaut {#default-brand}
 
-Vous pouvez désigner une marque par défaut à appliquer automatiquement lors de la génération du contenu et du calcul des scores d’alignement lors de la création de la campagne.
+Vous pouvez désigner une marque par défaut à appliquer automatiquement lors de la génération du contenu et du calcul des scores d’alignement pendant la création de campagne.
 
 Pour définir une marque par défaut, accédez au tableau de bord **[!UICONTROL Marques]**. Ouvrez le menu avancé en cliquant sur l’icône ![](assets/do-not-localize/Smock_More_18_N.svg) et sélectionnez **[!UICONTROL Marquer comme marque par défaut]**.
 
@@ -115,53 +115,53 @@ Pour définir une marque par défaut, accédez au tableau de bord **[!UICONTROL 
 
 Utilisez l’onglet **[!UICONTROL À propos de la marque]** pour établir l’identité principale de votre marque en décrivant son objectif, sa personnalité, son slogan et d’autres attributs déterminants.
 
-1. Commencez par renseigner les informations fondamentales de votre marque dans la catégorie **[!UICONTROL Détails clés]** :
+1. Commencez par renseigner les informations fondamentales de votre marque dans la catégorie **[!UICONTROL Détails clés]** :
 
-   * **[!UICONTROL Nom du kit de marque]** : saisissez le nom du kit de marque.
+   * **[!UICONTROL Nom du kit de marque]** : saisissez le nom de votre kit de marque.
 
-   * **[!UICONTROL Quand l’utiliser]** : spécifiez les scénarios ou les contextes où ce kit de marque doit être appliqué.
+   * **[!UICONTROL Quand l’utiliser]** : spécifiez les scénarios ou les contextes dans lesquels ce kit de marque doit être appliqué.
 
-   * **[!UICONTROL Nom de la marque]** : saisissez le nom officiel de la marque.
+   * **[!UICONTROL Nom de la marque]** : saisissez le nom officiel de la marque.
 
-   * **[!UICONTROL Description de la marque]** : donnez un aperçu de ce que représente cette marque.
+   * **[!UICONTROL Description de la marque]** : fournissez une vue d’ensemble de ce que représente cette marque.
 
-   * **[!UICONTROL Ligne de balise par défaut]** : ajoutez la ligne de balise principale associée à la marque.
+   * **[!UICONTROL Slogan par défaut]** : ajoutez le slogan principal associé à la marque.
 
      ![Catégorie Détails clés](assets/brands-about-1.png)
 
-1. Dans la catégorie **[!UICONTROL Principes directeurs]**, clarifiez l’orientation et la philosophie de base de votre marque :
+1. Dans la catégorie **[!UICONTROL Principes directeurs]**, précisez l’orientation et la philosophie de base de votre marque :
 
-   * **[!UICONTROL Mission]** : détaillez l’objectif de votre marque.
+   * **[!UICONTROL Mission]** : détaillez l’objectif de votre marque.
 
-   * **[!UICONTROL Vision]** : Décrivez votre objectif à long terme ou l’état futur souhaité.
+   * **[!UICONTROL Vision]** : décrivez votre objectif à long terme ou l’état futur souhaité.
 
-   * **[!UICONTROL Positionnement sur le marché]** : Expliquez comment votre marque est positionnée sur le marché.
+   * **[!UICONTROL Positionnement sur le marché]** : expliquez comment votre marque se positionne sur le marché.
 
-   ![Catégorie des principes directeurs](assets/brands-about-2.png)
+   ![Catégorie Principes directeurs](assets/brands-about-2.png)
 
-1. Dans la catégorie **[!UICONTROL Valeurs de marque principales]**, cliquez sur ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_Add_18_N.svg "Icône Ajouter") pour ajouter les valeurs de base de la marque et renseigner les détails :
+1. Dans la catégorie **[!UICONTROL Valeurs de marque de base]**, cliquez sur l’icône ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_Add_18_N.svg "Ajouter") pour ajouter des valeurs de base de la marque et renseigner les détails :
 
-   * **[!UICONTROL Valeur]** : attribuez un nom à une valeur de marque principale.
+   * **[!UICONTROL Valeur]** : attribuez un nom à une valeur de la marque de base.
 
-   * **[!UICONTROL Description]** : expliquez ce que cette valeur signifie pour votre marque.
+   * **[!UICONTROL Description]** : expliquez ce que cette valeur signifie pour votre marque.
 
-   * **[!UICONTROL Comportements]** : Décrivez les actions ou attitudes qui reflètent cette valeur dans la pratique.
+   * **[!UICONTROL Comportements]** : décrivez les actions ou attitudes qui reflètent cette valeur dans la pratique.
 
-   * **[!UICONTROL Manifestations]** : donnez des exemples de la manière dont cette valeur est exprimée dans le branding réel.
+   * **[!UICONTROL Manifestations]** : donnez des exemples de la manière dont cette valeur est exprimée dans l’image de marque réelle.
 
      ![](assets/brands-12.png)
 
-1. Si nécessaire, cliquez sur l’icône ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_Edit_18_N.svg "Modifier")pour mettre à jour ou supprimer l’une des valeurs de votre marque principale.
+1. Si nécessaire, cliquez sur l’icône ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_Edit_18_N.svg "Modifier") pour mettre à jour ou supprimer l’une des valeurs de votre marque de base.
 
-   ![Modifier la valeur](assets/brands-10.png)
+   ![Modifier votre valeur](assets/brands-10.png)
 
 Vous pouvez désormais personnaliser davantage votre marque ou [publier votre marque](#create-brand-kit).
 
-### Règle de style {#writing-style}
+### Style d’écriture {#writing-style}
 
-La section **[!UICONTROL Style d’écriture]** décrit les normes d’écriture de contenu et explique en détail comment la langue, le formatage et la structure doivent être utilisés pour garantir la clarté, la cohérence et l’homogénéité de l’ensemble des ressources.
+La section **[!UICONTROL Style d’écriture]** décrit les normes d’écriture de contenu et explique en détail comment la langue, la mise en forme et la structure doivent être utilisées pour garantir la clarté, la cohérence et l’homogénéité entre tous les matériels.
 
-+++ Catégorie et exemples disponibles
++++ Catégorie disponible et exemples
 
 <table>
   <thead>
@@ -175,56 +175,56 @@ La section **[!UICONTROL Style d’écriture]** décrit les normes d’écriture
   <tbody>
     <tr>
       <td rowspan="4">Normes de création de contenu</td>
-      <td>Normes de message de marque</td>
-      <td>Mettez l’accent sur l’innovation et le message client.</td>
-      <td>Ne promettez pas outre mesure les fonctionnalités du produit.</td>
+      <td>Normes de messages de marque</td>
+      <td>Mettez l’accent sur l’innovation et les messages axés sur le client ou la cliente.</td>
+      <td>Ne faites pas de promesses au-delà des fonctionnalités du produit.</td>
     </tr>
     <tr>
-      <td>Utilisation des balises</td>
+      <td>Utilisation du slogan</td>
       <td>Placez le slogan sous le logo sur toutes les ressources de marketing numérique.</td>
       <td>Ne modifiez ou ne traduisez pas le slogan.</td>
     </tr>
     <tr>
-      <td>Messagerie principale</td>
-      <td>Insistez sur l'énoncé des principaux avantages, comme l'amélioration de la productivité.</td>
-      <td>N’utilisez pas de propositions de valeur non liées.</td>
+      <td>Messages de base</td>
+      <td>Insistez sur l’énoncé de l’avantage clé, comme l’amélioration de la productivité.</td>
+      <td>Évitez d’utiliser des propositions de valeur sans rapport.</td>
     </tr>
     <tr>
       <td>Normes de dénomination</td>
-      <td>Utilisez des noms simples et descriptifs tels que « ProScheduler ».</td>
-      <td>N’utilisez pas de termes complexes ou de caractères spéciaux.</td>
+      <td>Utilisez des noms simples et descriptifs tels que « ProScheduler ».</td>
+      <td>N’utilisez ni termes complexes ni caractères spéciaux.</td>
     </tr>
     <tr>
       <td rowspan="5">Style de communication de la marque</td>
-      <td>Caractéristiques de la personnalité d’une marque</td>
-      <td>Amical et accessible.</td>
-      <td>Ne sois pas défaitiste.</td>
+      <td>Caractéristiques de personnalité de la marque</td>
+      <td>Conviviale et accessible.</td>
+      <td>Ne soyez pas défaitiste.</td>
     </tr>
     <tr>
-      <td>Mécanique de l'écriture</td>
+      <td>Mécanique d’écriture</td>
       <td>Faites en sorte que les phrases soient courtes et percutantes.</td>
-      <td>N'utilisez pas trop de jargon.</td>
+      <td>N’utilisez pas trop de jargon.</td>
     </tr>
     <tr>
-      <td>Ton Situationnel</td>
-      <td>Maintenir un ton professionnel dans les communications de crise.</td>
-      <td>Ne méprisez pas les communications d’assistance.</td>
+      <td>Ton en fonction de la situation</td>
+      <td>Gardez un ton professionnel dans les communications de crise.</td>
+      <td>Ne faites pas preuve de mépris dans les communications de support.</td>
     </tr>
     <tr>
-      <td>Instructions relatives au choix de mots</td>
-      <td>Utilisez des mots comme « innovant » et « intelligent ».</td>
-      <td>Évitez les mots tels que « bon marché » ou « hack ».</td>
+      <td>Instructions relatives au choix des mots</td>
+      <td>Utilisez des mots comme « innovant » et « intelligent ».</td>
+      <td>Évitez les mots tels que « bon marché » ou « piratage ».</td>
     </tr>
     <tr>
       <td>Normes linguistiques</td>
-      <td>Respectez les conventions américaines en anglais.</td>
-      <td>Ne mélangez pas l'orthographe britannique et américaine.</td>
+      <td>Respectez les conventions de l’anglais américain.</td>
+      <td>Ne mélangez pas les orthographes britannique et américaine.</td>
     </tr>
     <tr>
-      <td rowspan="3">Normes De Conformité Légale</td>
-      <td>Normes relatives aux marques</td>
+      <td rowspan="3">Normes de conformité légale</td>
+      <td>Normes de marque commerciale</td>
       <td>Utilisez toujours le symbole ™ ou ®.</td>
-      <td>N’omettez pas les symboles légaux si nécessaire.</td>
+      <td>N’omettez pas les symboles légaux lorsqu’ils sont nécessaires.</td>
     </tr>
     <tr>
       <td>Normes de copyright</td>
@@ -233,8 +233,8 @@ La section **[!UICONTROL Style d’écriture]** décrit les normes d’écriture
     </tr>
     <tr>
       <td>Normes de non-responsabilité</td>
-      <td>Afficher de manière lisible les clauses de non-responsabilité sur les ressources numériques.</td>
-      <td>Ne masquez pas les clauses de non-responsabilité dans les zones non visibles.</td>
+      <td>Présentez clairement les clauses de non-responsabilité sur les ressources numériques.</td>
+      <td>Ne dissimulez pas les clauses de non-responsabilité dans les zones non visibles.</td>
     </tr>
 </table>
 
@@ -242,17 +242,17 @@ La section **[!UICONTROL Style d’écriture]** décrit les normes d’écriture
 
 </br>
 
-Pour personnaliser votre **[!UICONTROL Style d’écriture]** :
+Pour personnaliser votre **[!UICONTROL Style d’écriture]** :
 
 1. Dans l’onglet **[!UICONTROL Style d’écriture]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une directive, une exception ou une exclusion.
 
-1. Saisissez votre règle, votre exception ou votre exclusion, puis cliquez sur **[!UICONTROL Ajouter]**.
+1. Saisissez votre instruction, exception ou exclusion, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](assets/brands-3.png)
 
-1. Sélectionnez l’une des instructions ou exclusions à mettre à jour ou à supprimer.
+1. Sélectionnez l’une de vos instructions ou exclusions à mettre à jour ou à supprimer.
 
-1. Cliquez sur le ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_Edit_18_N.svg "Modifier") pour modifier votre exemple ou sur l’icône ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_Delete_18_N.svg "Supprimer") pour le supprimer.
+1. Cliquez sur ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_Edit_18_N.svg "Modifier") pour modifier votre exemple ou sur l’icône ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_Delete_18_N.svg "Supprimer") pour le supprimer.
 
    ![](assets/brands-11.png)
 
@@ -260,9 +260,9 @@ Vous pouvez désormais personnaliser davantage votre marque ou [publier votre ma
 
 ### Contenu visuel {#visual-content}
 
-La section **[!UICONTROL Contenu visuel]** définit les normes en matière d’imagerie et de conception, en détaillant les spécifications nécessaires pour conserver une apparence de marque unifiée et cohérente.
+La section **[!UICONTROL Contenu visuel]** définit les normes d’imagerie et de conception, en détaillant les spécifications nécessaires pour maintenir une apparence de marque unifiée et cohérente.
 
-+++ Catégories et exemples disponibles
++++ Catégories disponibles et exemples
 
 <table>
   <thead>
@@ -275,23 +275,23 @@ La section **[!UICONTROL Contenu visuel]** définit les normes en matière d’i
   <tbody>
     <tr>
       <td>Normes de photographie</td>
-      <td>Utiliser l'éclairage naturel pour les prises de vue extérieures.</td>
-      <td>Évitez les images trop modifiées ou pixellisées.</td>
+      <td>Utilisez un éclairage naturel pour les prises de vue en extérieur.</td>
+      <td>Évitez les images trop retouchées ou pixellisées.</td>
     </tr>
     <tr>
-      <td>Normes d'illustration</td>
+      <td>Normes d’illustration</td>
       <td>Utilisez des styles épurés et minimalistes.</td>
-      <td>Éviter les situations trop complexes.</td>
+      <td>Évitez les énoncés trop complexes.</td>
     </tr>
     <tr>
       <td>Normes des icônes</td>
-      <td>Utilisez un système de grille cohérent de 24 px.</td>
-      <td>Ne mélangez pas les dimensions des icônes, n’utilisez pas d’épaisseurs de contour incohérentes ou ne vous écartez pas des règles de grille.</td>
+      <td>Utilisez un système de grille de 24 pixels homogène.</td>
+      <td>Ne mélangez pas différentes tailles d’icônes, n’utilisez pas d’épaisseurs de traits incohérentes et ne débordez pas du quadrillage.</td>
     </tr>
     <tr>
       <td>Instructions d’utilisation</td>
-      <td>Choisissez des images de style de vie qui reflètent des clients réels utilisant le produit dans des environnements professionnels.</td>
-      <td>N’utilisez pas d’images qui contredisent le ton de la marque ou semblent hors contexte.</td>
+      <td>Choisissez des images de la vie de tous les jours qui reflètent des clientes et clients réels utilisant le produit dans des environnements professionnels.</td>
+      <td>N’utilisez pas d’images en contradiction avec l’identité de la marque ou qui semblent hors sujet.</td>
     </tr>
 </table>
 
@@ -299,22 +299,22 @@ La section **[!UICONTROL Contenu visuel]** définit les normes en matière d’i
 
 </br>
 
-Pour personnaliser votre **[!UICONTROL contenu visuel]** :
+Pour personnaliser votre **[!UICONTROL contenu visuel]**, procédez comme suit :
 
 1. Dans l’onglet **[!UICONTROL Contenu visuel]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une directive, une exclusion ou un exemple.
 
-1. Saisissez votre règle, exclusion ou exemple et cliquez sur **[!UICONTROL Ajouter]**.
+1. Saisissez votre instruction, exclusion ou exemple, puis cliquez sur **[!UICONTROL Ajouter]**.
 
-   ![Ajout d’un bouton d’exclusion ou d’exemple](assets/brands-4.png)
+   ![Bouton d’ajout d’une exclusion ou d’un exemple](assets/brands-4.png)
 
-1. Pour ajouter une image montrant une utilisation correcte, sélectionnez **[!UICONTROL Exemple]** et cliquez sur **[!UICONTROL Sélectionner une image]**. Vous pouvez également ajouter une image montrant une utilisation incorrecte comme exemple d’action à ne pas faire.
+1. Pour ajouter une image présentant une utilisation correcte, sélectionnez **[!UICONTROL Exemple]** et cliquez sur **[!UICONTROL Sélectionner une image]**. Vous pouvez également ajouter une image montrant une utilisation incorrecte comme exemple d’exclusion.
 
    ![Ajout d’une image en tant qu’exemple](assets/brands-13.png)
 
-1. Sélectionnez l’une des instructions ou exclusions à mettre à jour ou à supprimer.
+1. Sélectionnez l’une de vos instructions ou exclusions à mettre à jour ou à supprimer.
 
-1. Sélectionnez l’une de vos directives ou exclusions pour la mettre à jour. Cliquez sur l’icône ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_Delete_18_N.svg "Supprimer") pour le supprimer.
+1. Sélectionnez l’une de vos instructions ou exclusions pour la mettre à jour. Cliquez sur ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_Delete_18_N.svg "Supprimer") pour la supprimer.
 
-   ![Supprimer l’exclusion ou la consigne](assets/brands-14.png)
+   ![Supprimer une exclusion ou une instruction](assets/brands-14.png)
 
 Vous pouvez désormais personnaliser davantage votre marque ou [publier votre marque](#create-brand-kit).

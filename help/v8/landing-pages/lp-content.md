@@ -4,9 +4,9 @@ description: Découvrir comment concevoir du contenu spécifique à une page de 
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1248'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Pour définir un contenu spécifique qui permet aux utilisateurs et aux utilisat
    * **[!UICONTROL Page de destination]** : sélectionnez une autre page de destination vers laquelle les personnes seront redirigées. Veillez à configurer la page de destination sélectionnée en conséquence.
 
 1. Pour apporter des mises à jour supplémentaires lors de l’envoi du formulaire, sélectionnez **[!UICONTROL Mises à jour supplémentaires]**, puis sélectionnez l’élément à mettre à jour :
-   * [Service d’abonnement](../audience/manage-services.md) : définissez si vous souhaitez abonner ou désabonner des utilisateurs et des utilisatrices lors de l’envoi du formulaire. Lors de la conception d’un email, si vous définissez un lien de type **[!UICONTROL page de destination]** vers cette page de destination, le service sélectionné est automatiquement utilisé. [En savoir plus sur l&#39;insertion de liens](../email/message-tracking.md)
+   * [Service d’abonnement](../audience/manage-services.md) : définissez si vous souhaitez abonner ou désabonner des utilisateurs et des utilisatrices lors de l’envoi du formulaire. Lors de la conception d’un email, si vous définissez un lien de type **[!UICONTROL page de destination]** vers cette page de destination, le service sélectionné est automatiquement utilisé. [En savoir plus sur l’insertion de liens](../email/message-tracking.md)
 
      >[!NOTE]
      >
@@ -131,7 +131,7 @@ Pour définir un contenu spécifique qui permet aux utilisateurs et aux utilisat
 
    ![Paramètres du service à partir de l’URL dans le composant de formulaire](assets/lp-form-service-from-url.png){zoomable="yes"}
 
-   Lors de la conception d’un e-mail, si vous définissez un lien de type **[!UICONTROL page de destination]** vers cette page de destination, vous pouvez sélectionner n’importe quel service dans la liste. Vous pouvez ensuite sélectionner d’autres services lors de la définition d’autres liens vers cette page de destination. [En savoir plus sur l&#39;insertion de liens](../email/message-tracking.md)
+   Lors de la conception d’un e-mail, si vous définissez un lien de type **[!UICONTROL page de destination]** vers cette page de destination, vous pouvez sélectionner n’importe quel service dans la liste. Vous pouvez ensuite sélectionner d’autres services lors de la définition d’autres liens vers cette page de destination. [En savoir plus sur l’insertion de liens](../email/message-tracking.md)
 
    ![Paramètres du lien d’e-mail vers la page de destination](assets/email-link-to-landing-page.png){zoomable="yes"}
 

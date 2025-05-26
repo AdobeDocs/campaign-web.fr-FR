@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Page de destination avec l’assistant AI
-description: Prise en main de l’assistant AI
+title: Page de destination avec l’assistant IA
+description: Commencer avec l’assistant IA
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1463'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 77%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter un [contrat utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Transformez vos pages de destination avec l’assistant AI dans Adobe Campaign Web, optimisé par l’IA générative.
+Transformez vos pages de destination avec l’assistant IA dans Adobe Campaign Web, optimisé par l’IA générative.
 
 Créez sans effort du contenu à fort impact, y compris des pages complètes, des fragments de texte sur mesure et des visuels personnalisés qui correspondent à votre audience, ce qui entraîne un engagement et une interaction accrus.
 
-Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant AI dans Adobe Campaign Web.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA d’Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Génération d’une page de destination complète]
 
-Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pour affiner un modèle de page de destination existant.
+Dans l’exemple suivant, découvrez comment profiter de l’assistant IA pour affiner un modèle de page de destination existant.
 
 1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -37,9 +37,9 @@ Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pou
 
 1. Personnalisez la disposition selon vos besoins et accédez au menu **[!UICONTROL Assistant IA]**.
 
-   ![Capture d’écran affichant le menu Assistant AI dans l’éditeur de page de destination.](assets/lp_full_gen_1.png){zoomable="yes"}
+   ![Capture d’écran montrant le menu Assistant IA dans l’éditeur de la page de destination.](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’asistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -50,7 +50,7 @@ Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pou
 1. Adaptez votre prompt avec les options **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Ton]** : le ton de votre page de destination doit correspondre à votre audience. Que vous souhaitiez donner une impression informative, ludique ou convaincante, AI Assistant peut adapter le message en conséquence.
+   * **[!UICONTROL Ton]** : le ton de votre page de destination doit correspondre à votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
 
    ![Capture d’écran affichant les options de paramètres de texte.](assets/lp_full_gen_3.png){zoomable="yes"}
 
@@ -64,7 +64,7 @@ Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pou
 
    ![Capture d’écran affichant les options de paramètres d’image.](assets/lp_full_gen_4.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque qui fournit un contexte supplémentaire à l’assistant AI, ou sélectionnez-en une précédemment chargée.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter n’importe quelle ressource de marque pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
 
@@ -76,7 +76,7 @@ Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pou
 
 1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
-   * **[!UICONTROL Reformuler]** : l’assistant d’IA peut reformuler votre message de différentes manières, ce qui vous permet d’écrire des textes frais et attrayants pour diverses audiences.
+   * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
    * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez les termes pour garantir la clarté et l’accessibilité pour toucher une audience plus large.
 
    Vous pouvez également modifier le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre texte.
@@ -91,7 +91,7 @@ Une fois votre page de destination prête, publiez-la afin de pouvoir l’utilis
 
 >[!TAB Génération de texte uniquement]
 
-Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pour améliorer le contenu de votre page de destination.
+Dans l’exemple suivant, découvrez comment utiliser l’assistant IA pour améliorer le contenu de votre page de destination.
 
 1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -99,9 +99,9 @@ Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pou
 
 1. Sélectionnez un **[!UICONTROL composant de texte]** pour cibler un contenu spécifique, puis accédez au menu **[!UICONTROL Assistant IA]**.
 
-   ![Capture d’écran affichant le menu Assistant AI pour les composants texte.](assets/lp-text-genai-1.png){zoomable="yes"}
+   ![Capture d’écran montrant le menu Assistant IA pour les composants de texte.](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -112,12 +112,12 @@ Dans l’exemple suivant, découvrez comment tirer parti de l’assistant AI pou
 1. Adaptez votre prompt avec les options **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Ton]** : le ton de votre page de destination doit correspondre à votre audience. Que vous souhaitiez donner une impression informative, ludique ou convaincante, AI Assistant peut adapter le message en conséquence.
+   * **[!UICONTROL Ton]** : le ton de votre page de destination doit correspondre à votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
    * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
    ![Capture d’écran affichant les options de paramètres de texte.](assets/lp-text-genai-3.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque qui fournit un contexte supplémentaire à l’assistant AI, ou sélectionnez-en une précédemment chargée.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter n’importe quelle ressource de marque fournissant du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
 
@@ -147,19 +147,19 @@ Une fois votre page de destination prête, publiez-la afin de pouvoir l’utilis
 
 >[!TAB Génération d’image uniquement]
 
-Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant AI pour optimiser et améliorer vos ressources, offrant ainsi une expérience plus conviviale.
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
 1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
    Pour plus d’informations sur la configuration de votre page de destination, consultez [cette page](../landing-pages/create-lp.md).
 
-1. Sélectionnez la ressource à modifier à l’aide de l’assistant AI.
+1. Sélectionnez la ressource à modifier à l’aide de l’assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
-   ![Capture d’écran affichant le menu Assistant AI pour les composants d’image.](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![Capture d’écran montrant le menu Assistant AI pour les composants d’image.](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Style de référence]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
+1. Activez l’option **[!UICONTROL Style de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -178,7 +178,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant AI 
 
    ![Capture d’écran affichant les options de paramètres d’image.](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque qui fournit un contexte supplémentaire à l’assistant AI, ou sélectionnez-en une précédemment chargée.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter n’importe quelle ressource de marque fournissant du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
 

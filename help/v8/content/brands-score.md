@@ -1,31 +1,32 @@
 ---
 audience: end-user
 title: Alignement sur la marque
-description: Découvrez comment créer, valider et gérer du contenu sur la marque à l’aide du score de marque.
+description: Découvrez comment créer, valider et gérer du contenu conforme à la marque à l’aide du score de marque.
 badge: label="Version bêta" type="Informative"
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: tm+mt
+exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
+source-git-commit: 86c28c023adc7a70ea9d0c47fdd40857e05cb8b7
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
-# Alignement des marques (Beta){#brands-score}
+# Alignement sur la marque (version bêta){#brands-score}
 
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est publiée sous la forme d’une version Private Beta. Elle sera progressivement disponible pour l’ensemble des clientes et clients dans les prochaines versions.
->Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant d’IA. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant IA. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-La fonction d’alignement des marques est conçue pour vous aider à créer, réviser et gérer du contenu conforme à vos directives de marque. Il garantit la cohérence du ton, des messages et de l’identité visuelle dans vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
+La fonctionnalité Alignement sur la marque est conçue pour vous aider à créer, vérifier et gérer du contenu conforme à vos directives de marque. Elle garantit la cohérence du ton, des messages et de l’identité visuelle dans vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
 
-## Valider le contenu avec l’alignement de la marque {#validate-content}
+## Valider le contenu avec l’alignement sur la marque {#validate-content}
 
-Une fois [votre marque est configurée et publiée](brands.md), évaluez son score d’alignement directement dans votre campagne par e-mail pour vous assurer que votre contenu correspond à vos directives de marque :
+Une fois [votre marque configurée et publiée](brands.md), évaluez son score d’alignement sur la marque directement dans votre campagne par e-mail pour vous assurer que votre contenu est conforme à vos directives de marque :
 
 1. Créez votre [campagne par e-mail](../email/create-email.md).
 
-1. Ouvrez le menu **[!UICONTROL Alignement des marques]** dans le concepteur d’e-mail.
+1. Ouvrez le menu **[!UICONTROL Alignement sur la marque]** dans le concepteur d’e-mail.
 
    Votre contenu sera automatiquement évalué par rapport à votre marque par défaut. [Découvrez comment attribuer une marque par défaut](brands.md).
 
@@ -35,16 +36,16 @@ Une fois [votre marque est configurée et publiée](brands.md), évaluez son sco
 
    ![](assets/brand-score-2.png)
 
-1. Parcourez le **score d’alignement des marques** (élevé, Medium, faible) et passez en revue les commentaires détaillés.
+1. Parcourez le **Score d’alignement sur la marque** (Élevé, Moyen, Faible) et passez en revue les commentaires détaillés.
 
-1. Cliquez sur l’icône ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_FullScreen_18_N.svg "Plein écran") pour afficher plus d’informations sur votre score.
+1. Cliquez sur l’icône ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_FullScreen_18_N.svg "Plein écran") pour afficher plus d’informations sur votre score.
 
    ![](assets/brand-score-3.png)
 
-1. Sélectionnez une directive avec indicateur pour afficher les commentaires et suggestions spécifiques.
+1. Sélectionnez une directive marquée pour afficher les commentaires et suggestions spécifiques.
 
    ![](assets/brand-score-4.png)
 
-1. Modifiez votre contenu en fonction des recommandations pour améliorer l’alignement de la marque.
+1. Modifiez votre contenu en fonction des recommandations pour améliorer l’alignement sur la marque.
 
 1. Réévaluez manuellement le contenu après avoir apporté des modifications pour actualiser votre score d’alignement.

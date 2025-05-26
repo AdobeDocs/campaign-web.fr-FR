@@ -4,9 +4,9 @@ title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -62,8 +62,8 @@ Le concepteur de requête fournit une zone de travail centrale où vous pouvez c
 
 >[!IMPORTANT]
 >
->Une toute nouvelle interface pour Query Modeler est disponible. Le nouveau créateur de règles vous permet de créer votre requête plus facilement grâce à son interface simplifiée. Pour passer à cette expérience, appuyez sur le bouton de basculement dans le coin supérieur droit. Vous pouvez revenir au modèle de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le requêteur dans cette nouvelle interface.
->![Image illustrant le bouton (bascule) de la nouvelle interface du créateur de règles ](assets/query-modeler-toggle.png){zoomable="yes"}
+>Une toute nouvelle interface pour le concepteur de requête est disponible. Le nouveau créateur de règles, grâce à son interface simplifiée, vous permet de créer votre requête plus facilement. Pour passer à cette expérience, appuyez sur le bouton (bascule) dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
+>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
@@ -79,9 +79,9 @@ Le concepteur de requête fournit une zone de travail centrale où vous pouvez a
 
 >[!BEGINTABS]
 
->[!TAB Modéliseur de requête classique]
+>[!TAB Concepteur de requête classique]
 
-La barre d’outils située dans le coin inférieur droit de la zone de travail propose des options permettant de manipuler facilement les composants de requête et de naviguer dans la zone de travail :
+La barre d’outils située dans le coin inférieur droit de la zone de travail fournit des options permettant de manipuler facilement les composants de requête et de naviguer dans la zone de travail :
 
 * **Mode de sélection multiple** : sélectionnez plusieurs composants de filtrage pour les copier et coller à l’emplacement de votre choix.
 * **Faire pivoter** : retournez la zone de travail verticalement.
@@ -89,17 +89,17 @@ La barre d’outils située dans le coin inférieur droit de la zone de travail 
 * **Zoom arrière**/**Zoom avant** : effectuez un zoom arrière ou avant dans la zone de travail.
 * **Afficher la carte** : ouvre un instantané de la zone de travail indiquant où vous vous trouvez.
 
->[!TAB Nouvelle expérience du créateur de règles]
+>[!TAB Nouvelle expérience de créateur de règles]
 
 La barre d’outils située dans le coin supérieur droit de la zone de travail fournit des options permettant de manipuler facilement les composants de requête et de naviguer dans la zone de travail :
 
-* **Déplacer vers le haut** : déplace le composant d’une ligne vers le haut.
-* **Déplacer vers le bas la sélection** : déplace le composant vers le bas d’une ligne.
-* **Sélection de groupe** : permet de placer deux composants dans un groupe.
-* **Dissocier la sélection** : permet de séparer les composants d’un seul groupe.
-* **Développer tout** : permet de développer tous les groupes.
-* **Tout réduire** : réduisez tous les groupes.
-* **Supprimer tout** : supprimez tous les groupes et composants.
+* **Déplacer la sélection vers le haut** : déplacez le composant d’une ligne vers le haut.
+* **Déplacer la sélection vers le bas** : déplacez le composant d’une ligne vers le bas.
+* **Grouper la sélection** : placez deux composants dans un groupe.
+* **Dissocier la sélection** : séparez les composants d’un même groupe.
+* **Développer tout** : développez tous les groupes.
+* **Réduire tout** : réduisez tous les groupes.
+* **Supprimer tout** : supprimez tous les groupes et composants.
 
 >[!ENDTABS]
 
