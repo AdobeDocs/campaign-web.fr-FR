@@ -2,7 +2,7 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de 2025 de l’interface d’utilisation web de Campaign
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: a0ca24df649cc5bdca6d58a6519ffb03b2234cb4
+source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 98%
@@ -31,7 +31,7 @@ Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et ut
 <tr>
 <td>
 <p>Le canal centre d’appel est désormais disponible dans l’interface d’utilisation de Campaign Web. Ce canal fait référence à une méthode de communication utilisée pour gérer et suivre les communications ou interactions gérées par un centre d’appel (généralement des appels téléphoniques passés par des agentes et agents à des clientes et clients ou à des prospects).</p>
-<p>Remarque : la création de rapports n’est pas disponible dans l’interface utilisateur web pour le canal du centre d’appels. Vous devez accéder à la console cliente pour accéder aux rapports.</p></td>
+<p>Remarque : la création de rapports n’est pas disponible dans l’interface utilisateur web pour le canal du centre d’appels. Vous devez accéder à la console cliente pour accéder aux rapports.</p>
 <img src="assets/do-not-localize/call-center.gif">
 <p>Pour plus d’informations, consultez la <a href="../call-center/gs-call-center.md">documentation détaillée</a>.</p>
 </td>
