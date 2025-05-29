@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 Les modifications et améliorations disponibles avec les versions précédentes sont dans [2024](release-notes-24.md) et [2025](release-notes-25.md).
 
-## Version du 25 mai {#25-5-release}
+## Version de mai 2025 {#25-5-release}
 
-À compter de la version de mai, les fonctionnalités suivantes seront disponibles pour tous les utilisateurs.
+Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et utilisatrices à compter de la version de mai.
 
 <table>
 <thead>
@@ -50,8 +50,8 @@ Les modifications et améliorations disponibles avec les versions précédentes 
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais, directement à partir de l’interface utilisateur web d’Adobe Campaign, orchestrer et exécuter des diffusions en fonction de canaux externes personnalisés. Ces diffusions peuvent être autonomes ou faire partie d’un workflow. La création du canal externe personnalisé intégré à un tiers est effectuée dans la console.</p>
-<p>Remarque : la création de rapports n’est pas disponible dans l’interface utilisateur web pour le canal personnalisé. Vous devez accéder à la console cliente pour accéder aux rapports.</p>
+<p>Vous pouvez désormais orchestrer et exécuter des diffusions directement à partir de l’UI Web d’Adobe Campaign,en fonction de canaux externes personnalisés. Ces diffusions peuvent être autonomes ou faire partie d’un workflow. La création du canal externe personnalisé intégré à un tiers est effectuée dans la console.</p>
+<p>Remarque : la création de rapports n’est pas disponible dans l’UI Web pour le canal personnalisé. Vous devez parcourir la console cliente pour accéder aux rapports.</p>
 <p>Pour plus d’informations, consultez la <a href="../call-center/gs-custom-channel.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>

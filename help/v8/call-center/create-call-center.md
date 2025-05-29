@@ -4,15 +4,15 @@ title: Créer une diffusion de centre d’appel
 description: Découvrir comment créer une diffusion de centre d’appel à l’aide d’Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Créer et envoyer une diffusion de centre d’appel {#create-call-center}
 
-Vous pouvez créer une diffusion de centre d’appel autonome ou en créer une dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion de centre d’appel autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Vous pouvez créer une diffusion de centre d’appel autonome ou en créer une dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 Pour créer une diffusion de centre d’appel autonome, effectuez les étapes principales suivantes :
 
@@ -62,7 +62,7 @@ Vous devez maintenant définir l’audience qui sera ciblée pour le fichier d�
 >
 >Les personnes destinataires de centre d’appel doivent afficher au minimum leur nom et leur numéro de téléphone. Les personnes destinataires dont les informations sont incomplètes seront exclues des diffusions de centre d’appel.
 >
->Pour savoir comment configurer des populations témoins, consultez cette [page](../audience/control-group.md).
+>Pour découvrir comment configurer des populations témoins, consultez cette [page](../audience/control-group.md).
 
 ## Modifier le contenu{#edit-content}
 
@@ -72,7 +72,7 @@ Modifions maintenant le contenu du fichier d’extraction qui sera généré par
 
    ![Capture d’écran montrant la modification du contenu pour une diffusion de centre d’appel](assets/cc-content0.png){zoomable="yes"}
 
-1. Spécifiez le **[!UICONTROL Nom du fichier]**. Pour découvrir comment personnaliser le nom du fichier, consultez cette [page](../personalization/personalize.md).
+1. Renseignez le champ **[!UICONTROL Nom du fichier]**. Pour découvrir comment personnaliser le nom du fichier, consultez cette [page](../personalization/personalize.md).
 
 1. Sélectionnez un **[!UICONTROL Format de fichier]** : **Texte**, **Texte contenant des colonnes à largeur fixe**, **CSV (Excel)** ou **XML**.
 
