@@ -4,15 +4,23 @@ title: Configurer les paramètres de diffusion
 description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '2765'
-ht-degree: 100%
+source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
+workflow-type: tm+mt
+source-wordcount: '2800'
+ht-degree: 98%
 
 ---
 
 
 # Configurer les paramètres de diffusion {#del-settings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="Paramètres de diffusion SMS"
+>abstract="Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse expéditeur, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement."
+
+
 
 Les paramètres de diffusion sont des **paramètres de diffusions techniques** définis dans le modèle de diffusion. Ils peuvent être surchargés pour chaque diffusion. Ces paramètres sont disponibles depuis le bouton **Paramètres** disponible lors de la modification d’une diffusion ou d’un modèle de diffusion.
 
@@ -109,7 +117,7 @@ Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des pr
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Paramètres de diffusion de la diffusion"
+>title="Paramètres globaux de la diffusion"
 >abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez modifier les modes de diffusion et de routine, activer E-mail Cci, envoyer par vagues et choisir le format des e-mails envoyés. Ces options sont limitées aux personnes expertes uniquement."
 
 Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qui s’appliquent à votre diffusion.
