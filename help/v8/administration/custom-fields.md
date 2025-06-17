@@ -2,10 +2,10 @@
 title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
-workflow-type: ht
-source-wordcount: '988'
-ht-degree: 100%
+source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
+workflow-type: tm+mt
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,13 @@ Les champs personnalisés sont disponibles pour les schémas suivants :
 * Adresses de contrôle (nms)
 * Diffusions (nms)
 
-## Ajouter des champs personnalisés à l’interface {#add}
+## Ajouter des champs personnalisés à l’interface {#add-custom}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_screen_definition"
+>title="Définition des écrans"
+>abstract="Définissez la liste des champs personnalisés à modifier pour le schéma et leurs propriétés. Cliquez sur le bouton **Aperçu** pour afficher les champs personnalisés dans un exemple d’écran."
+
 
 Pour afficher des champs personnalisés dans l’interface, procédez comme suit :
 
