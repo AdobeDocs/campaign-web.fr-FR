@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, éditeur, résumé, e-mail
-source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
+source-git-commit: 4ebe0990f086d6d9ea54ea68c3061e8361344b5c
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 1%
