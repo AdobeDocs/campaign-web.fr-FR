@@ -134,6 +134,7 @@ Vous pouvez saisir n’importe quelle chaîne CSS valide dans la zone de texte *
   }
 }
 ```
+
 +++
 
 +++ Exemples de CSS non valides
@@ -160,6 +161,7 @@ La syntaxe non valide, telle que les accolades manquantes, n’est pas acceptée
 body {
   background: red;
 ```
+
 +++
 
 ## Implémentation technique {#implementation}
