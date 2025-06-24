@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser des dossiers
 description: Découvrez comment gérer un dossier dans Adobe Campaign.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 86%
 
 ---
 
@@ -23,19 +23,9 @@ ht-degree: 100%
 >abstract="Sécurité des dossiers"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Restrictions relatives aux dossiers"
->abstract="Restrictions relatives aux dossiers"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="Planning des dossiers"
 >abstract="Planning des dossiers"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="Favoris"
->abstract="Favoris"
 
 ## À propos des dossiers {#about-folders}
 
@@ -46,6 +36,16 @@ Vous pouvez créer, renommer, réorganiser et déplacer des dossiers dans l’ar
 ![Interface Dossiers affichant l’organisation des dossiers](assets/folders.png){zoomable="yes"}
 
 Vous pouvez configurer un type de dossier. Par exemple, un dossier de diffusions. L’icône du dossier change en fonction du type.
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Restrictions relatives aux dossiers"
+>abstract="Les dossiers Objets créés automatiquement et Workflows techniques sont restreints et ne peuvent pas être affichés dans le panneau de gauche."
+
+>[!IMPORTANT]
+>
+>Les dossiers **[!UICONTROL Objets créés automatiquement]** et **[!UICONTROL Workflows techniques]** sont restreints et ne peuvent pas être affichés dans le panneau de gauche.
+
 
 ## Créer un dossier {#create-a-folder}
 
@@ -80,6 +80,19 @@ Dans cet exemple, le dossier **Diffusions** contient quatre sous-dossiers.
 Vous pouvez modifier l’ordre de vos dossiers par **glisser-déposer** ou en utilisant les **flèches haut et bas**.
 
 ![Fonctionnalité de glisser-déposer pour la réorganisation des dossiers](assets/folder-draganddrop.png){zoomable="yes"}
+
+### Dossiers favoris {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favoris"
+>abstract="Vos dossiers favoris s’affichent dans la partie supérieure de l’onglet de gauche."
+
+Les dossiers qui ont été marqués comme « Favoris » s’affichent toujours en haut de l’onglet de gauche.
+
+Vous pouvez ajouter des dossiers aux favoris en cliquant sur le bouton en forme d’étoile dans le coin supérieur droit lors de l’affichage d’un dossier.
+
+![Capture d’écran de l’emplacement des dossiers favoris](assets/folders-favorite.png){zoomable="yes"}
 
 ## Supprimer un dossier {#delete-a-folder}
 

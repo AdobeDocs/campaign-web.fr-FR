@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
-workflow-type: ht
-source-wordcount: '2780'
-ht-degree: 100%
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+workflow-type: tm+mt
+source-wordcount: '2863'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Pour commencer à créer une requête, accédez au concepteur de requête à par
 >[!IMPORTANT]
 >
 >Une toute nouvelle interface pour le concepteur de requête est disponible. Le nouveau créateur de règles, grâce à son interface simplifiée, vous permet de créer votre requête plus facilement. Pour passer à cette expérience, appuyez sur le bouton (bascule) dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
->![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Vous pouvez ajouter deux types d’éléments :
 
@@ -318,6 +318,18 @@ Pour copier-coller des composants de filtrage, procédez comme suit :
 1. Pour coller le ou les composants, cliquez sur le bouton + situé à la fin de la transition souhaitée et sélectionnez **Coller n éléments**.
 
    ![Exemple de collage de composants](assets/copy-paste.png){zoomable="yes"}
+
+## Glisser-déposer des composants {#drag-and-drop}
+
+>[!IMPORTANT]
+>
+>Cette fonctionnalité n’est disponible que pour la nouvelle expérience du créateur de règles.
+
+Lorsque vous ajoutez des composants à votre requête, vous pouvez les déplacer vers le haut et vers le bas à l’aide de la fonction glisser-déposer.
+
+À gauche de chaque composant, vous pouvez cliquer sur les points de suspension et les maintenir enfoncés pour faire glisser le composant vers le haut et le bas en fonction de l’emplacement où vous souhaitez placer et regrouper les composants.
+
+![Gif montrant comment faire glisser et déposer les composants dans le nouveau créateur de règles](assets/ruleb-drag.gif){zoomable="yes"}
 
 ## Combiner des composants de filtrage avec des opérateurs {#operators}
 

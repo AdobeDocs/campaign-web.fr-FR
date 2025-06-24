@@ -3,16 +3,18 @@ audience: end-user
 title: Rapports de campagne pour le canal Courrier
 description: Comprendre les rapports de campagne du canal Courrier
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 93%
 
 ---
 
-# Rapports de campagne pour le canal Courrier {#campaign-reports-direct-mail}
+# Rapports de campagne pour les canaux de diffusion externes {#campaign-reports-direct-mail}
 
-Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Les rapports et mesures du canal Courrier sont détaillés ci-dessous. Découvrez comment accéder aux rapports de campagne sur [cette page](campaign-reports.md).
+Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Pour les canaux de diffusion externes, les rapports et mesures sont détaillés ci-dessous. Découvrez comment accéder aux rapports de campagne sur [cette page](campaign-reports.md).
+
+Le rapport suivant est décrit dans le contexte du courrier. Il est également disponible pour les canaux du centre d’appel et externes personnalisés.
 
 ## Synthèse des diffusions {#delivery-summary-direct}
 

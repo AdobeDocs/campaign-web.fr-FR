@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
+source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 99%
+source-wordcount: '834'
+ht-degree: 98%
 
 ---
 
@@ -218,13 +218,13 @@ ht-degree: 99%
       + [Rapport de diffusion par e-mail](reporting/email-report.md)
       + [Rapport de diffusion des notifications push](reporting/push-report.md)
       + [Rapport de diffusion SMS](reporting/sms-report.md)
-      + [Rapport de diffusion par courrier](reporting/direct-mail.md)
+      + [Rapport de diffusion externe](reporting/direct-mail.md)
    + Rapports de campagne {#campaign-report}
       + [Prise en main des rapports de campagne](reporting/campaign-reports.md)
       + [Rapport de campagne par e-mail](reporting/campaign-reports-email.md)
       + [Rapport de campagne par notification push](reporting/campaign-reports-push.md)
       + [Rapport de campagne par SMS](reporting/campaign-reports-sms.md)
-      + [Rapport de campagne par courrier](reporting/campaign-reports-direct-mail.md)
+      + [Rapport de campagne de diffusion externe](reporting/campaign-reports-direct-mail.md)
    + Rapports globaux {#global-report}
       + [Prise en main des rapports globaux](reporting/global-reports.md)
       + [Rapport global par e-mail](reporting/global-report-email.md)

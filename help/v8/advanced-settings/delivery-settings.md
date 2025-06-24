@@ -4,23 +4,15 @@ title: Configurer les paramètres de diffusion
 description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
+source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
 workflow-type: tm+mt
-source-wordcount: '2800'
-ht-degree: 98%
+source-wordcount: '3324'
+ht-degree: 87%
 
 ---
 
 
 # Configurer les paramètres de diffusion {#del-settings}
-
-
->[!CONTEXTUALHELP]
->id="acw_sms_delivery_settings"
->title="Paramètres de diffusion SMS"
->abstract="Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse expéditeur, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement."
-
-
 
 Les paramètres de diffusion sont des **paramètres de diffusions techniques** définis dans le modèle de diffusion. Ils peuvent être surchargés pour chaque diffusion. Ces paramètres sont disponibles depuis le bouton **Paramètres** disponible lors de la modification d’une diffusion ou d’un modèle de diffusion.
 
@@ -287,8 +279,62 @@ Vous pouvez également personnaliser le libellé des BAT :
 * Utilisez l’option **[!UICONTROL Conserver le code diffusion pour le BAT]** pour associer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte.
 * Par défaut, l’objet du BAT est précédé du préfixe « BAT # », où # correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe de libellé]**.
 
+## Paramètres SMS (canal SMS) {#sms-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="Paramètres de diffusion SMS"
+>abstract="Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse expéditeur, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement."
+
+Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse expéditeur, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement.
+
+* **[!UICONTROL Adresse d’expédition]**
+
+  Le champ est limité à 21 caractères par la spécification SMPP, mais certains fournisseurs peuvent autoriser des valeurs plus longues. Notez également que des restrictions très strictes peuvent être appliquées dans certains pays (longueur, contenu, caractères autorisés, etc.). Vous devrez donc peut-être vérifier que le contenu que vous placez ici est légal. Faites particulièrement preuve de prudence lorsque vous utilisez des champs personnalisés.
 
 
+  Ce champ facultatif vous permet de remplacer l’adresse d’expéditeur (oADC). Son contenu est placé dans le champ *source_addr* du PDU SUBMIT_SM.
+
+  Bien que la spécification SMPP limite ce champ à 21 caractères, certains fournisseurs peuvent prendre en charge des valeurs plus longues. Sachez que certains pays imposent des réglementations strictes sur les adresses des expéditeurs (en ce qui concerne la longueur, le contenu, les caractères autorisés, etc.). Vérifiez donc toujours que votre saisie est conforme aux exigences locales. Soyez très prudent lorsque vous utilisez des champs personnalisés.
+
+  Si ce champ est laissé vide, la valeur du champ Numéro source défini dans le compte externe sera utilisée. Si les deux valeurs sont vides, le champ *source_addr* est vide.
+
+* **[!UICONTROL Type de service]** :
+
+  Ce paramètre est transmis au fournisseur en l’état.
+
+* **[!UICONTROL Identifiant service ou programme]**
+
+  >[!NOTE]
+  >
+  >L’utilisation de ce champ est découragée. Les paramètres SMPP facultatifs, disponibles dans la console cliente, offrent une implémentation beaucoup plus flexible.
+  >
+  >Ce champ ne peut pas être utilisé simultanément avec des paramètres SMPP facultatifs.
+
+  Associé au paramètre de compte externe correspondant, permet d’envoyer un paramètre facultatif avec chaque MT. Ce champ définit la partie valeur du fichier TLV.
+
+* **[!UICONTROL Mode de transmission]**
+
+  Ce champ définit le type de SMS à envoyer : s’il s’agit d’un message normal ou flash, et s’il doit être stocké sur l’appareil mobile ou la carte SIM. Ce paramètre est transmis dans le champ facultatif dest_addr_subunit du PDU SUBMIT_SM.
+
+   * **Flash** définit la valeur sur 1. Envoie un SMS Flash qui apparaît immédiatement à l’écran et n’est pas stocké.
+   * **Normal** définit la valeur sur 0. Envoie un SMS standard.
+   * **Enregistré sur le mobile** définit la valeur sur 2. Indique à l’appareil de stocker le SMS en mémoire interne.
+   * **Enregistré sur le terminal** définit la valeur sur 3. Indique à l’appareil de stocker le SMS sur la carte SIM.
+
+* **[!UICONTROL Priorité, type de communication]**
+
+  Ces champs sont ignorés par le connecteur SMPP étendu.
+
+* **[!UICONTROL Nombre maximal de SMS par message]**
+
+  Ce paramètre n’est effectif que si l’option Payload du message est désactivée (pour plus d’informations, consultez les paramètres du compte externe ). Si le message nécessite plus de SMS que cette valeur, une erreur est déclenchée.
+
+  Alors que le protocole SMS permet de diviser les messages en jusqu’à 255 parties, certains appareils mobiles peuvent avoir des difficultés à réassembler les messages en plus de 10 parties (la limite dépend du modèle d’appareil). Pour plus de fiabilité, il est préférable de limiter les messages à 5 parties ou moins.
+
+  Notez qu’en raison du fonctionnement des messages personnalisés dans Adobe Campaign, les tailles des messages peuvent varier. Un nombre élevé de messages longs peut entraîner une augmentation des coûts d’envoi. Par conséquent, l’utilisation d’une limite raisonnable permet de contrôler les dépenses.
+
+  Définir cette valeur sur 0 désactive la limite.
 
 ## Paramètres SMTP pour la diffusion par e-mail {#smtp}
 
