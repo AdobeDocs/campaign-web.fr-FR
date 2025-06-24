@@ -2,10 +2,11 @@
 audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
+badge: label="Disponibilité limitée"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1146'
 ht-degree: 95%
 
 ---
@@ -81,7 +82,7 @@ Pour créer un tableau de bord de diffusion, procédez comme suit :
    * **Débit minimal attendu (dans les messages envoyés par heure)** : seules les diffusions dont le débit est inférieur à la valeur spécifiée sont prises en compte pour le critère Diffusions avec faible débit.
    * **Taux de traitement minimal requis pour le critère &#39;Diffusions en cours&#39;** : seules les diffusions dont le pourcentage de messages traités est supérieur au pourcentage spécifié sont prises en compte.
 
-   +++
++++
 
 1. Par défaut, les tableaux de bord des alertes sont désactivés, ce qui signifie que les alertes par e-mail liées à ce tableau de bord ne sont pas envoyées. Pour activer immédiatement le tableau de bord, faites basculer l’option **Activé** dans la section **Général** en regard du champ de sélection du groupe d’alertes.
 

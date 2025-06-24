@@ -2,10 +2,11 @@
 audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
+badge: label="Disponibilité limitée"
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
