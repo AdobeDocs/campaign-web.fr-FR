@@ -2,14 +2,10 @@
 audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '315'
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -21,6 +17,10 @@ Les alertes de diffusion sont un système de gestion des alertes qui permet à d
 Les notifications sont personnalisées en fonction de critères d’alertes spécifiques définis via l’interface d’utilisation web d’Adobe Campaign.
 
 Pour plus d’informations sur la gestion des échecs de diffusions, reportez-vous à la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
 ## Table des matières des notifications par e-mail {#content}
 

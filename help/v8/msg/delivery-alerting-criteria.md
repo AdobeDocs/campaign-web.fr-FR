@@ -2,14 +2,10 @@
 audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
@@ -26,6 +22,10 @@ L’interface d’utilisation de Campaign Web fournit des critères des alertes
 Les critères des alertes sont accessibles à partir du menu **Alertes de diffusion** dans le volet de navigation de gauche, sous l’onglet **Critères**.
 
 ![Liste des critères d’alerte affichés dans le menu Alertes de diffusion](assets/alerting-criteria-list.png)
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
 ## Critères des alertes prédéfinis {#ootb-criteria}
 

@@ -2,10 +2,10 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de l’interface d’utilisation de Campaign Web 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '2470'
-ht-degree: 100%
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 * **Captcha dans les pages de destination** : vous pouvez désormais ajouter un captcha pour protéger votre page de destination contre le spam et les abus causés par les robots. Cette action n’implique pas vos clients, car elle ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. [En savoir plus](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Notes de mise à jour de juillet {#24-7-release}
@@ -168,9 +168,6 @@ Vous pouvez désormais envoyer des notifications push enrichies. La notification
 
 Les fonctionnalités et améliorations suivantes sont disponibles pour tous les utilisateurs et utilisatrices à compter de la version de juin.
 
-<!--### Delivery alerting {#24-6-3}
-
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### Plans et programmes {#24-6-4}
 
@@ -179,6 +176,18 @@ Vous pouvez désormais créer des plans et des programmes pour organiser vos cam
 ### Améliorations {#improvements-24-6}
 
 * **Réconciliation dans l’activité Enrichissement** : l’activité **Enrichissement** peut désormais être utilisée pour réconcilier des données du schéma de la base de données Campaign avec des données provenant d’un autre schéma, ou avec des données provenant d’un schéma temporaire tel que des données chargées à l’aide d’une activité Chargement de fichier. Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d’un profil, indiqué dans un fichier chargé, avec l’un des pays disponibles dans le tableau dédié de la base de données Campaign. [En savoir plus](../workflows/activities/enrichment.md)
+
+
+### Nouvelle fonctionnalité en disponibilité limitée {#acs-24-6}
+
+>[!AVAILABILITY]
+>
+>Les fonctionnalités suivantes sont en disponibilité limitée (LA). Il est limité aux clients effectuant la migration de **de Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployé dans un autre environnement.
+
+* **Alertes de diffusion**
+
+La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d’utilisateurs et d’utilisatrices de recevoir automatiquement des notifications contenant des informations sur l’exécution de leurs diffusions. [En savoir plus](../msg/delivery-alerting.md)
+
 
 ## Notes de mise à jour de mai {#24-5-release}
 

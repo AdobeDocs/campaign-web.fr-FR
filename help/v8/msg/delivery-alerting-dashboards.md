@@ -2,15 +2,11 @@
 audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 100%
+source-wordcount: '1144'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +20,10 @@ ht-degree: 100%
 Les tableaux de bord des alertes de diffusion permettent de spécifier qui recevra des alertes par e-mail, de choisir et de configurer les critères des alertes à utiliser pour envoyer ces alertes et d’accéder à l’historique de toutes les notifications envoyées. Ils sont accessibles à partir du menu **Alertes de diffusion** dans le volet de navigation de gauche, sous l’onglet **Tableaux de bord**.
 
 ![Capture d’écran affichant la liste des tableaux de bord des alertes dans le menu Alertes de diffusion.](assets/alerting-dashboard-list.png)
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
 ## Créer un tableau de bord de diffusion {#dashboards}
 
@@ -75,11 +75,11 @@ Pour créer un tableau de bord de diffusion, procédez comme suit :
    * **Période de contrôle avant et après la date de contact (en heures)** : nombre d&#39;heures avant et après l&#39;heure actuelle. Seules les diffusions dont la date de contact est comprise dans cette plage sont prises en compte. Ce paramètre s&#39;applique à tous les critères. Par défaut, la valeur de ce champ est définie sur 24 heures.
    * **Taux maximal de rebonds temporaires** : une notification est envoyée pour toutes les diffusions dont le taux de rebonds temporaires est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
    * **Taux maximal de rebonds définitifs** : une notification est envoyée pour toutes les diffusions dont le taux de rebonds définitifs est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
-   * **Limite de durée minimale pour une diffusion ayant le statut « Démarrage en attente » (en minutes)** : une notification est envoyée pour toutes les diffusions ayant le statut Démarrage en attente pendant une durée supérieure à celle spécifiée dans le champ. Le statut Démarrage en attente signifie que les messages n’ont pas encore été pris en compte par le système.
+   * **Seuil de temps minimum pour une diffusion en &#39;Démarrage en attente&#39; (en minutes)** : une notification est envoyée pour toutes les diffusions dont le statut Démarrage en attente est supérieur à la durée spécifiée dans ce champ, le statut Démarrage en attente signifiant que les messages n&#39;ont pas encore été pris en compte par le système.
    * **Délai minimal (en minutes) nécessaire pour le calcul du débit** : seules les diffusions ayant démarré (avec le statut En cours) depuis plus longtemps que la durée spécifiée sont prises en compte pour le critère Diffusions avec faible débit.
    * **Pourcentage maximal des messages traités pour le calcul du débit** : seules les diffusions dont le pourcentage de messages traités est inférieur au pourcentage spécifié sont prises en compte pour le critère Diffusions avec faible débit.
    * **Débit minimal attendu (dans les messages envoyés par heure)** : seules les diffusions dont le débit est inférieur à la valeur spécifiée sont prises en compte pour le critère Diffusions avec faible débit.
-   * **Taux de traitement minimal requis pour le critère « Diffusions en cours »** : seules les diffusions dont le pourcentage de messages traités est supérieur au pourcentage spécifié sont prises en compte.
+   * **Taux de traitement minimal requis pour le critère &#39;Diffusions en cours&#39;** : seules les diffusions dont le pourcentage de messages traités est supérieur au pourcentage spécifié sont prises en compte.
 
 +++
 
