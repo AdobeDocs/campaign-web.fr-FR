@@ -2,9 +2,9 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de 2025 de l’interface d’utilisation web de Campaign
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
+source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,49 @@ ht-degree: 100%
 # Notes de mise à jour 2025 {#2025-release}
 
 Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions de 2025**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
+
+## Version de mai 2025 {#25-5-release}
+
+Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et utilisatrices à compter de la version de mai.
+
+<table>
+<thead>
+<tr>
+<th><strong>Score d’alignement sur la marque (version bêta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La fonction Score d’alignement sur la marque fournit des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux règles de votre marque. Cette fonctionnalité est disponible en version bêta.</p>
+<p>Pour plus d’informations, consultez la <a href="../content/brands-score.md">documentation détaillée</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal personnalisé pour les diffusions externes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais orchestrer et exécuter des diffusions directement à partir de l’UI Web d’Adobe Campaign,en fonction de canaux externes personnalisés. Ces diffusions peuvent être autonomes ou faire partie d’un workflow. La création du canal externe personnalisé intégré à un tiers est effectuée dans la console.</p>
+<p>Remarque : la création de rapports n’est pas disponible dans l’UI Web pour le canal personnalisé. Vous devez parcourir la console cliente pour accéder aux rapports.</p>
+<p>Pour plus d’informations, consultez la <a href="../call-center/gs-custom-channel.md">documentation détaillée</a>.</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations {#25-5-improvements}
+
+L’écran de création des règles de typologie a été mis à jour afin de faciliter la sélection du type de règle.
 
 ## Version d’avril 2025 {#25-4-release}
 
