@@ -6,8 +6,8 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -284,9 +284,9 @@ Vous pouvez également personnaliser le libellé des BAT :
 >[!CONTEXTUALHELP]
 >id="acw_sms_delivery_settings"
 >title="Paramètres de diffusion SMS"
->abstract="Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse expéditeur, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement."
+>abstract="Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse d’expédition, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement."
 
-Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse expéditeur, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement.
+Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse d’expédition, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement.
 
 <!--
 
