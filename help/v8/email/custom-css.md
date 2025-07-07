@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: css, éditeur, résumé, e-mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: 416dab7e671a33a44da43d93d6de9fc73d816600
+source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 8%
+source-wordcount: '712'
+ht-degree: 7%
 
 ---
 
@@ -41,14 +41,13 @@ Pour ajouter du code CSS personnalisé au contenu de votre e-mail, procédez com
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter un CSS personnalisé]**.
 
-1. Saisissez votre code CSS dans la zone de texte dédiée qui s’affiche. Assurez-vous que le code CSS personnalisé est valide et suit la syntaxe appropriée. [En savoir plus](#use-valid-css)
-
-   ![Saisissez le CSS personnalisé dans la zone de texte dédiée](assets/email-body-custom-css.png){width="65%"}
-
    >[!NOTE]
    >
    >Le bouton **[!UICONTROL Ajouter un fichier CSS personnalisé]** n’est disponible que lorsque **[!UICONTROL Corps]** est sélectionné. Cependant, vous pouvez appliquer des styles CSS personnalisés à tous les composants de votre contenu.
 
+1. Saisissez votre code CSS dans la zone de texte dédiée qui s’affiche. Assurez-vous que le code CSS personnalisé est valide et suit la syntaxe appropriée. [En savoir plus](#use-valid-css)
+
+   ![Saisissez le CSS personnalisé dans la zone de texte dédiée](assets/email-body-custom-css.png){width="65%"}
 
 1. Enregistrez votre CSS personnalisé et vérifiez qu’il est correctement appliqué à votre contenu. Si ce n’est pas le cas, consultez la section [Dépannage](#troubleshooting).
 
@@ -68,8 +67,9 @@ Vous pouvez saisir n’importe quelle chaîne CSS valide dans la zone de texte *
 >
 >Évitez d’utiliser des feuilles CSS qui pourraient altérer involontairement la disposition ou la fonctionnalité du contenu.
 
-+++ Exemples de CSS valide
++++ Exemples de CSS
 
+Vous trouverez ci-dessous des exemples de CSS valide.
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -220,7 +220,7 @@ Par exemple :
 
 +++
 
-## Mécanismes de sécurisation
+## Mécanismes de sécurisation - Contenu importé
 
 Si vous souhaitez utiliser une page CSS personnalisée avec du contenu importé dans le Designer d’e-mail, tenez compte des points suivants :
 
@@ -237,20 +237,30 @@ Si votre CSS personnalisé n’est pas appliqué, tenez compte des options ci-de
 
 * Assurez-vous que votre CSS est valide et ne comporte pas d’erreurs de syntaxe (telles que des accolades manquantes, des noms de propriété incorrects). [Voici comment procéder](#use-valid-css)
 
-* Assurez-vous que votre CSS est ajouté à la balise `<style>` avec l’attribut `data-name="global-custom"` et que `data-disabled` n’est pas appliqué à `global-custom`. [En savoir plus](#implementation)
+* Assurez-vous que votre CSS est ajouté à la balise `<style>` avec l’attribut `data-name="global-custom"`.
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
- 
-  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
-  
-  * Consider adding `!important` to your declarations to ensure they take precedence. 
-    
-    For example:
+* Vérifiez si la balise de style de `global-custom` possède l’attribut `data-disabled` défini sur `true`. Si c’est le cas, le code CSS personnalisé n’est pas appliqué.
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+  +++Par exemple :
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
++++
+
+* Assurez-vous que votre CSS n’est pas remplacée par d’autres règles CSS.
+
+   * Utilisez les outils de développement de votre navigateur pour inspecter le contenu et vérifier que votre CSS cible les sélecteurs corrects.
+
+   * Pensez à ajouter des `!important` à vos déclarations pour vous assurer qu’elles sont prioritaires.
+
++++ Par exemple :
+
+     ```css
+     .acr-Form {
+       background: red !important;
+     }
+     ```
+
++++
