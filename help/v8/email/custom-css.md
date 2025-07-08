@@ -1,6 +1,6 @@
 ---
 title: Ajouter du CSS personnalisé au contenu de votre e-mail
-description: Découvrez comment ajouter du code CSS personnalisé au contenu de votre e-mail directement dans le Designer d’e-mail d’Adobe Campaign
+description: Découvrez comment ajouter du code CSS personnalisé au contenu de votre e-mail directement dans le concepteur d’e-mail d’Adobe Campaign.
 feature: Email Design
 topic: Content Management
 role: User
@@ -12,7 +12,7 @@ exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 7%
+ht-degree: 87%
 
 ---
 
@@ -23,49 +23,49 @@ ht-degree: 7%
 >title="Saisir votre propre CSS"
 >abstract="Pour plus de flexibilité et de contrôle sur l’apparence de votre contenu, vous pouvez ajouter du CSS personnalisé directement dans le concepteur d’e-mail pour appliquer un style avancé et spécifique."
 
-Lors de la conception de vos e-mails, vous pouvez ajouter votre propre CSS personnalisé directement dans le [Designer d’e-mail](get-started-email-designer.md). Cette fonctionnalité vous permet d’appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu.
+Lors de la conception de vos e-mails, vous pouvez ajouter votre propre CSS personnalisé directement dans le [concepteur d’e-mail](get-started-email-designer.md). Cette fonctionnalité vous permet d’appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu.
 
-## Définir le CSS personnalisé {#define-custom-css}
+## Définir un CSS personnalisé {#define-custom-css}
 
-Pour ajouter du code CSS personnalisé au contenu de votre e-mail, procédez comme suit.
+Pour ajouter un CSS personnalisé au contenu de votre e-mail, procédez comme suit.
 
-1. Vérifiez qu’un contenu est défini dans le Designer d’e-mail en ajoutant au moins un [composant](content-components.md).
+1. Vérifiez qu’il y a du contenu défini dans le concepteur d’e-mail en ajoutant au moins un [composant](content-components.md).
 
-1. Sélectionnez **[!UICONTROL Corps]** dans l’arborescence de navigation **[!UICONTROL à gauche]** ou en haut du volet de droite. La section **[!UICONTROL Styles CSS]** s’affiche à droite.
+1. Sélectionnez **[!UICONTROL Corps]** dans l’**[!UICONTROL arborescence de navigation]** à gauche, ou en haut du volet de droite. La section **[!UICONTROL Styles CSS]** s’affiche à droite.
 
-   ![Sélectionnez le bouton Ajouter un CSS personnalisé](assets/email-body-css-styles.png){width="85%"}
-
-   >[!NOTE]
-   >
-   >La section **[!UICONTROL Styles CSS]** n’est disponible que lorsque du contenu est déjà présent dans l’éditeur.
-
-1. Cliquez sur le bouton **[!UICONTROL Ajouter un CSS personnalisé]**.
+   ![Sélectionnez le bouton Ajouter un fichier CSS personnalisé](assets/email-body-css-styles.png){width="85%"}.
 
    >[!NOTE]
    >
-   >Le bouton **[!UICONTROL Ajouter un fichier CSS personnalisé]** n’est disponible que lorsque **[!UICONTROL Corps]** est sélectionné. Cependant, vous pouvez appliquer des styles CSS personnalisés à tous les composants de votre contenu.
+   >La section **[!UICONTROL Styles CSS]** n’est disponible que lorsqu’il y a déjà du contenu dans l’éditeur.
 
-1. Saisissez votre code CSS dans la zone de texte dédiée qui s’affiche. Assurez-vous que le code CSS personnalisé est valide et suit la syntaxe appropriée. [En savoir plus](#use-valid-css)
+1. Cliquez sur le bouton **[!UICONTROL Ajouter un fichier CSS personnalisé]**.
 
-   ![Saisissez le CSS personnalisé dans la zone de texte dédiée](assets/email-body-custom-css.png){width="65%"}
+   >[!NOTE]
+   >
+   >Le bouton **[!UICONTROL Ajouter un code CSS personnalisé]** n’est disponible que si **[!UICONTROL Corps]** est sélectionné. Cependant, vous pouvez appliquer des styles CSS personnalisés à l’ensemble des composants de votre contenu.
+
+1. Saisissez votre code CSS dans la zone de texte qui s’affiche. Vérifiez que le CSS personnalisé est valide et qu’il suit la syntaxe appropriée. [En savoir plus](#use-valid-css)
+
+   ![Saisissez le CSS personnalisé dans la zone de texte](assets/email-body-custom-css.png){width="65%"}.
 
 1. Enregistrez votre CSS personnalisé et vérifiez qu’il est correctement appliqué à votre contenu. Si ce n’est pas le cas, consultez la section [Dépannage](#troubleshooting).
 
-   ![Sélectionnez le bouton Ajouter un CSS personnalisé](assets/email-body-custom-css-applied.png){width="85%"}
+   ![Sélectionnez le bouton Ajouter un fichier CSS personnalisé](assets/email-body-custom-css-applied.png){width="85%"}.
 
-1. Si vous supprimez tout le contenu, la section disparaît et le CSS personnalisé défini précédemment n’est plus appliqué.
+1. Si vous supprimez l’ensemble du contenu, la section disparaît et le CSS personnalisé défini précédemment ne s’applique plus.
 
-1. Ajoutez à nouveau du contenu à l’éditeur pour que la section **[!UICONTROL styles CSS]** réapparaisse. Le CSS personnalisé est appliqué à nouveau.
+1. Ajoutez à nouveau du contenu à l’éditeur pour que la section **[!UICONTROL styles CSS]** réapparaisse. Le CSS personnalisé s’applique à nouveau.
 
-## Assurez-vous d’utiliser un CSS valide {#use-valid-css}
+## Utiliser un CSS valide {#use-valid-css}
 
-Vous pouvez saisir n’importe quelle chaîne CSS valide dans la zone de texte **[!UICONTROL Ajouter un CSS personnalisé]**. Une feuille de style CSS correctement formatée est immédiatement appliquée au contenu.
+Vous pouvez saisir n’importe quelle chaîne CSS valide dans la zone de texte **[!UICONTROL Ajouter un fichier CSS personnalisé]**. Un CSS correctement formaté s’applique immédiatement au contenu.
 
 >[!CAUTION]
 >
 >Les utilisateurs et utilisatrices sont responsables de la sécurité de leur CSS personnalisé. Assurez-vous que votre CSS n’introduit pas de vulnérabilités ou de conflits avec le contenu existant.
 >
->Évitez d’utiliser des feuilles CSS qui pourraient altérer involontairement la disposition ou la fonctionnalité du contenu.
+>Évitez d’utiliser du CSS qui pourrait altérer involontairement la disposition ou la fonctionnalité du contenu.
 
 +++ Exemples de CSS
 
@@ -138,11 +138,11 @@ Vous trouverez ci-dessous des exemples de CSS valide.
 
 +++
 
-Si une page CSS non valide est saisie, un message d’erreur s’affiche, indiquant que la page CSS ne peut pas être enregistrée. Vous trouverez ci-dessous des exemples de CSS non valide.
+Si vous saisissez un CSS non valide, un message d’erreur s’affiche, indiquant que le CSS ne peut pas être enregistré. Vous trouverez ci-dessous des exemples de CSS non valide.
 
-+++ Exemples de CSS non valides
++++ Exemples de CSS non valide
 
-L’utilisation de balises `<style>` n’est pas acceptée :
+Vous ne pouvez pas utiliser de balises `<style>` :
 
 ```html
 <style type="text/css">
@@ -156,7 +156,7 @@ L’utilisation de balises `<style>` n’est pas acceptée :
 </style>
 ```
 
-La syntaxe non valide, telle que les accolades manquantes, n’est pas acceptée :
+Vous ne pouvez pas utiliser de syntaxe non valide, telle que des accolades manquantes :
 
 ```css
 body {
@@ -167,7 +167,7 @@ body {
 
 ## Implémentation technique {#implementation}
 
-Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cadre d’une balise `<style>` avec l’attribut `data-name="global-custom"`, comme dans l’exemple ci-dessous. Cela permet de s’assurer que les styles personnalisés sont appliqués globalement au contenu.
+Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cadre d’une balise `<style>` avec l’attribut `data-name="global-custom"`, comme dans l’exemple ci-dessous. Cela permet de s’assurer que les styles personnalisés s’appliquent globalement au contenu.
 
 +++ Voir l’exemple
 
@@ -206,7 +206,7 @@ Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cad
 
 +++
 
-Le CSS personnalisé n’est pas interprété ni validé par le volet Designer d’e-mail **[!UICONTROL Paramètres]**. Il est entièrement indépendant et ne peut être modifié que par l’intermédiaire de l’option **[!UICONTROL Ajouter un CSS personnalisé]**.
+Le CSS personnalisé n’est pas interprété ni validé par le volet **[!UICONTROL Paramètres]** du concepteur d’e-mail. Il est entièrement indépendant et ne peut être modifié que par l’intermédiaire de l’option **[!UICONTROL Ajouter un fichier CSS personnalisé]**.
 
 <!--
 If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
@@ -224,20 +224,20 @@ For example:
 
 ## Mécanismes de sécurisation - Contenu importé
 
-Si vous souhaitez utiliser une page CSS personnalisée avec du contenu importé dans le Designer d’e-mail, tenez compte des points suivants :
+Si vous souhaitez utiliser un CSS personnalisé avec du contenu importé dans le concepteur d’e-mail, tenez compte des points suivants :
 
-* Si vous importez du contenu HTML externe, y compris du contenu CSS, sauf si vous le convertissez, il se trouve en **[!UICONTROL mode de compatibilité]**, où la section **[!UICONTROL styles CSS]** n’est pas disponible. [En savoir plus sur l’importation de contenu existant](existing-content.md)
+* Si vous importez du contenu HTML externe qui inclut du CSS, à moins de le convertir, il se trouve en **[!UICONTROL mode de compatibilité]**, où la section **[!UICONTROL Styles CSS]** n’est pas disponible. [En savoir plus sur l’import de contenu existant](existing-content.md)
 
-* Si vous importez du contenu créé avec le Designer d’e-mail, y compris le CSS appliqué via l’option **[!UICONTROL Ajouter un CSS personnalisé]**, le CSS précédemment appliqué sera visible et modifiable à partir de la même option.
+* Si vous importez du contenu créé avec le concepteur d’e-mail, y compris le CSS appliqué via l’option **[!UICONTROL Ajouter un fichier CSS personnalisé]**, le CSS précédemment appliqué sera visible et modifiable à partir de la même option.
 
 <!--
 * If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.-->
 
 ## Résolution des problèmes {#troubleshooting}
 
-Si votre CSS personnalisé n’est pas appliqué, tenez compte des options ci-dessous.
+Si votre CSS personnalisé ne s’applique pas, envisagez les options ci-dessous.
 
-* Assurez-vous que votre CSS est valide et ne comporte pas d’erreurs de syntaxe (telles que des accolades manquantes, des noms de propriété incorrects). [Voici comment procéder](#use-valid-css)
+* Assurez-vous que votre CSS est valide et ne comporte pas d’erreurs de syntaxe (telles que des accolades manquantes, des noms de propriété incorrects, etc.). [Voici comment procéder](#use-valid-css)
 
 * Assurez-vous que votre CSS est ajouté à la balise `<style>` avec l’attribut `data-name="global-custom"`.
 
@@ -249,7 +249,7 @@ Si votre CSS personnalisé n’est pas appliqué, tenez compte des options ci-de
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * Assurez-vous que votre CSS n’est pas remplacée par d’autres règles CSS.
 
