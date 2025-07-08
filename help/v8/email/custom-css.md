@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: css, éditeur, résumé, e-mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
+source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '692'
 ht-degree: 7%
 
 ---
@@ -138,9 +138,9 @@ Vous trouverez ci-dessous des exemples de CSS valide.
 
 +++
 
-+++ Exemples de CSS non valides
-
 Si une page CSS non valide est saisie, un message d’erreur s’affiche, indiquant que la page CSS ne peut pas être enregistrée. Vous trouverez ci-dessous des exemples de CSS non valide.
+
++++ Exemples de CSS non valides
 
 L’utilisation de balises `<style>` n’est pas acceptée :
 
@@ -208,17 +208,19 @@ Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cad
 
 Le CSS personnalisé n’est pas interprété ni validé par le volet Designer d’e-mail **[!UICONTROL Paramètres]**. Il est entièrement indépendant et ne peut être modifié que par l’intermédiaire de l’option **[!UICONTROL Ajouter un CSS personnalisé]**.
 
-Si la balise de style de `global-custom` possède l’attribut `data-disabled` défini sur `true`, le CSS personnalisé n’est pas appliqué.
+<!--
+If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
-+++ Voir l’exemple
++++ See sample
 
-Par exemple :
+For example:
 
 ```html
 <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
 ```
 
 +++
+-->
 
 ## Mécanismes de sécurisation - Contenu importé
 
@@ -247,7 +249,7 @@ Si votre CSS personnalisé n’est pas appliqué, tenez compte des options ci-de
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * Assurez-vous que votre CSS n’est pas remplacée par d’autres règles CSS.
 
