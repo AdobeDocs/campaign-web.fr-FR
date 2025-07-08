@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -20,22 +20,22 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 Les modifications et améliorations disponibles avec les versions précédentes sont dans [2024](release-notes-24.md) et [2025](release-notes-25.md).
 
-## Version du 25 juin {#25-6-release}
+## Version du 25 juin {#25-6-release}
 
 ### Améliorations {#25-6-improvements}
 
-* Le rapport Résumé de diffusion est désormais disponible pour les canaux Centre d’appel et Personnalisé . [En savoir plus](../reporting/direct-mail.md)
+* Le rapport Résumé de diffusion est désormais disponible pour les canaux Centre d’appel et Personnalisé. [En savoir plus](../reporting/direct-mail.md)
 
-* Lors de la configuration d&#39;une diffusion SMS, vous avez désormais accès aux paramètres SMS spécifiques. Il s’agit des mêmes paramètres disponibles dans la console cliente. [En savoir plus](../advanced-settings/delivery-settings.md#sms-tab)
+* Lors de la configuration d’une diffusion par SMS, vous avez désormais accès aux paramètres des SMS spécifiques. Il s’agit des mêmes paramètres que dans la console cliente. [En savoir plus](../advanced-settings/delivery-settings.md#sms-tab)
 
-* Vos dossiers favoris s’affichent désormais dans la partie supérieure du panneau de gauche de la page Explorateur, ce qui facilite leur accès. [En savoir plus](../get-started/work-with-folders.md#favorite-folders)
+* Vos dossiers favoris s’affichent désormais dans la partie supérieure du panneau de gauche de la page Explorateur, ce qui les rend plus accessibles. [En savoir plus](../get-started/work-with-folders.md#favorite-folders)
 
-* Le Créateur de règles prend désormais en charge le glisser-déposer, ce qui vous permet de réorganiser plus efficacement les composants de votre requête. [En savoir plus](../query/build-query.md#drag-and-drop)
+* Le créateur de règles prend désormais en charge le glisser-déposer, ce qui vous permet de réorganiser plus efficacement les composants de votre requête. [En savoir plus](../query/build-query.md#drag-and-drop)
 
-* La « condition humaine » dans le Créateur de règles a été améliorée. Il s’agit de la version écrite en langage clair de vos règles, affichée en bas de l’écran :
+* La « condition humaine » dans le créateur de règles a été améliorée. Il s’agit de la version écrite en langage clair de vos règles, affichée en bas de l’écran :
 
    * Les attributs sont maintenant mis en surbrillance et le schéma associé s’affiche.
    * Vous pouvez cliquer sur ces éléments pour afficher des informations plus détaillées.
-   * Vous pouvez maintenant copier la condition humaine à l&#39;aide du bouton correspondant.
+   * Vous pouvez désormais copier la condition humaine à l’aide du bouton correspondant.
 
-* L&#39;accès aux dossiers « Workflows techniques » et « Objets créés automatiquement » est désormais restreint afin de les empêcher d&#39;être consultés. [En savoir plus](../get-started/work-with-folders.md#about-folders)
+* L’accès aux dossiers « Workflows techniques » et « Objets créés automatiquement » est désormais restreint afin de les empêcher d’être consultés. [En savoir plus](../get-started/work-with-folders.md#about-folders)

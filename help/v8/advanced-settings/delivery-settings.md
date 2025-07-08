@@ -5,9 +5,9 @@ description: Découvrez comment configurer les paramètres de diffusion dans Cam
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '3159'
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des pr
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Paramètres globaux de la diffusion"
->abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez modifier les modes de diffusion et de routine, activer E-mail Cci, envoyer par vagues et choisir le format des e-mails envoyés. Ces options sont limitées aux personnes expertes uniquement."
+>abstract="Les paramètres de diffusion sont des paramètres techniques qui s’appliquent à votre diffusion. Vous pouvez modifier les modes de diffusion et de routine, activer E-mail Cci, envoyer par vagues et choisir le format des e-mails envoyés. Ces options sont limitées aux personnes expertes."
 
 Les paramètres de **[!UICONTROL Diffusion]** sont des paramètres techniques qui s’appliquent à votre diffusion.
 
@@ -284,9 +284,9 @@ Vous pouvez également personnaliser le libellé des BAT :
 >[!CONTEXTUALHELP]
 >id="acw_sms_delivery_settings"
 >title="Paramètres de diffusion SMS"
->abstract="Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse d’expédition, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement."
+>abstract="Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse de l’expéditeur ou de l’expéditrice, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes."
 
-Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse d’expédition, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes uniquement.
+Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliquent à votre diffusion SMS. Vous pouvez définir l’adresse de l’expéditeur ou de l’expéditrice, les paramètres de service, le mode de transmission, etc. Ces options sont limitées aux personnes expertes.
 
 <!--
 
@@ -303,7 +303,7 @@ Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliqu
 
 -->
 
-* **[!UICONTROL Type de service]** :
+* **[!UICONTROL Type de service]** :
 
   Ce paramètre est transmis au fournisseur en l’état.
 
@@ -311,20 +311,20 @@ Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliqu
 
   >[!NOTE]
   >
-  >L’utilisation de ce champ est découragée. Les paramètres SMPP facultatifs, disponibles dans la console cliente, offrent une implémentation beaucoup plus flexible.
+  >L’utilisation de ce champ est déconseillée. Les paramètres SMPP facultatifs, disponibles dans la console cliente, offrent une implémentation beaucoup plus flexible.
   >
-  >Ce champ ne peut pas être utilisé simultanément avec des paramètres SMPP facultatifs.
+  >Ce champ ne peut pas être utilisé en même temps que les paramètres SMPP facultatifs.
 
   Associé au paramètre de compte externe correspondant, permet d’envoyer un paramètre facultatif avec chaque MT. Ce champ définit la partie valeur du fichier TLV.
 
 * **[!UICONTROL Mode de transmission]**
 
-  Ce champ définit le type de SMS à envoyer : s’il s’agit d’un message normal ou flash, et s’il doit être stocké sur l’appareil mobile ou la carte SIM. Ce paramètre est transmis dans le champ facultatif dest_addr_subunit du PDU SUBMIT_SM.
+  Ce champ définit le type de SMS à envoyer : s’il s’agit d’un message normal ou flash, et s’il doit être stocké sur l’appareil mobile ou la carte SIM. Ce paramètre est transmis dans le champ facultatif dest_addr_subunit du PDU SUBMIT_SM.
 
-   * **Flash** définit la valeur sur 1. Envoie un SMS Flash qui apparaît immédiatement à l’écran et n’est pas stocké.
+   * **Flash** définit la valeur sur 1. Envoie un SMS flash qui apparaît immédiatement à l’écran et n’est pas stocké.
    * **Normal** définit la valeur sur 0. Envoie un SMS standard.
-   * **Enregistré sur le mobile** définit la valeur sur 2. Indique à l’appareil de stocker le SMS en mémoire interne.
-   * **Enregistré sur le terminal** définit la valeur sur 3. Indique à l’appareil de stocker le SMS sur la carte SIM.
+   * **Enregistré sur mobile** définit la valeur sur 2. Cela indique à l’appareil de stocker le SMS dans la mémoire interne.
+   * **Enregistré sur le terminal** définit la valeur sur 3. Cela indique à l’appareil de stocker le SMS sur la carte SIM.
 
 * **[!UICONTROL Priorité, type de communication]**
 
@@ -332,13 +332,13 @@ Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliqu
 
 * **[!UICONTROL Nombre maximal de SMS par message]**
 
-  Ce paramètre n’est effectif que si l’option Payload du message est désactivée (pour plus d’informations, consultez les paramètres du compte externe ). Si le message nécessite plus de SMS que cette valeur, une erreur est déclenchée.
+  Ce paramètre ne fonctionne que si l’option Payload du message est désactivée (voir dans les paramètres du compte externe pour plus d’informations). Si le message nécessite plus de SMS que cette valeur, une erreur est déclenchée.
 
-  Alors que le protocole SMS permet de diviser les messages en jusqu’à 255 parties, certains appareils mobiles peuvent avoir des difficultés à réassembler les messages en plus de 10 parties (la limite dépend du modèle d’appareil). Pour plus de fiabilité, il est préférable de limiter les messages à 5 parties ou moins.
+  Alors que le protocole SMS permet de diviser les messages en 255 parties (max.), certains appareils mobiles peuvent avoir des difficultés à réassembler les messages divisés en plus de 10 parties (la limite dépend du modèle de l’appareil). Pour plus de fiabilité, il est préférable de limiter les messages à 5 parties ou moins.
 
   Notez qu’en raison du fonctionnement des messages personnalisés dans Adobe Campaign, les tailles des messages peuvent varier. Un nombre élevé de messages longs peut entraîner une augmentation des coûts d’envoi. Par conséquent, l’utilisation d’une limite raisonnable permet de contrôler les dépenses.
 
-  Définir cette valeur sur 0 désactive la limite.
+  Pour désactiver la limite, définissez cette valeur sur 0.
 
 ## Paramètres SMTP pour la diffusion par e-mail {#smtp}
 

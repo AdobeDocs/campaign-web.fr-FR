@@ -5,9 +5,9 @@ description: Découvrez comment utiliser les alertes de diffusion.
 badge: label="Disponibilité limitée"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -76,13 +76,13 @@ Pour créer un tableau de bord de diffusion, procédez comme suit :
    * **Période de contrôle avant et après la date de contact (en heures)** : nombre d&#39;heures avant et après l&#39;heure actuelle. Seules les diffusions dont la date de contact est comprise dans cette plage sont prises en compte. Ce paramètre s&#39;applique à tous les critères. Par défaut, la valeur de ce champ est définie sur 24 heures.
    * **Taux maximal de rebonds temporaires** : une notification est envoyée pour toutes les diffusions dont le taux de rebonds temporaires est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
    * **Taux maximal de rebonds définitifs** : une notification est envoyée pour toutes les diffusions dont le taux de rebonds définitifs est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
-   * **Seuil de temps minimum pour une diffusion en &#39;Démarrage en attente&#39; (en minutes)** : une notification est envoyée pour toutes les diffusions dont le statut Démarrage en attente est supérieur à la durée spécifiée dans ce champ, le statut Démarrage en attente signifiant que les messages n&#39;ont pas encore été pris en compte par le système.
+   * **Durée minimale pour une diffusion ayant le statut Démarrage en attente (en minutes)** : une notification est envoyée pour toutes les diffusions ayant le statut Démarrage en attente pendant une durée supérieure à celle spécifiée dans ce champ. Le statut Démarrage en attente signifie que les messages n’ont pas encore été pris en compte par le système.
    * **Délai minimal (en minutes) nécessaire pour le calcul du débit** : seules les diffusions ayant démarré (avec le statut En cours) depuis plus longtemps que la durée spécifiée sont prises en compte pour le critère Diffusions avec faible débit.
    * **Pourcentage maximal des messages traités pour le calcul du débit** : seules les diffusions dont le pourcentage de messages traités est inférieur au pourcentage spécifié sont prises en compte pour le critère Diffusions avec faible débit.
    * **Débit minimal attendu (dans les messages envoyés par heure)** : seules les diffusions dont le débit est inférieur à la valeur spécifiée sont prises en compte pour le critère Diffusions avec faible débit.
    * **Taux de traitement minimal requis pour le critère &#39;Diffusions en cours&#39;** : seules les diffusions dont le pourcentage de messages traités est supérieur au pourcentage spécifié sont prises en compte.
 
-   +++
++++
 
 1. Par défaut, les tableaux de bord des alertes sont désactivés, ce qui signifie que les alertes par e-mail liées à ce tableau de bord ne sont pas envoyées. Pour activer immédiatement le tableau de bord, faites basculer l’option **Activé** dans la section **Général** en regard du champ de sélection du groupe d’alertes.
 

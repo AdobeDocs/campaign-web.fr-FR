@@ -4,17 +4,17 @@ title: Rapports de courrier
 description: Découvrir comment accéder aux rapports de courrier pour les utiliser
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Rapport de diffusion externe {#direct-mail-report}
 
-Le **rapport de diffusion externe** fournit des informations et des données complètes spécifiques à votre diffusion externe. Il fournit des informations détaillées sur les performances, l’efficacité et les résultats de vos diffusions individuelles, ce qui vous permet d’obtenir une vue d’ensemble complète.
+Le **rapport de diffusion externe** fournit des informations et des données complètes relatives à votre diffusion externe. Il fournit des informations détaillées sur les performances, l’efficacité et les résultats de vos diffusions individuelles, ce qui vous permet d’obtenir une vue d’ensemble complète.
 
-Le rapport suivant est décrit dans le contexte du courrier. Il est également disponible pour les canaux du centre d’appel et externes personnalisés.
+Le rapport suivant est présenté dans le contexte du courrier. Il est également disponible pour les canaux du centre d’appel et externes personnalisés.
 
 ## Synthèse des diffusions {#delivery-summary-direct-mail}
 

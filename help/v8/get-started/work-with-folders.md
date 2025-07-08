@@ -4,9 +4,9 @@ title: Utiliser des dossiers
 description: Découvrez comment gérer un dossier dans Adobe Campaign.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Vous pouvez configurer un type de dossier. Par exemple, un dossier de diffusions
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
 >title="Restrictions relatives aux dossiers"
->abstract="Les dossiers Objets créés automatiquement et Workflows techniques sont restreints et ne peuvent pas être affichés dans le panneau de gauche."
+>abstract="Les dossiers « Objets créés automatiquement » et « Workflows techniques » sont restreints et ne peuvent pas être affichés dans le panneau de gauche."
 
 >[!IMPORTANT]
 >
@@ -88,9 +88,9 @@ Vous pouvez modifier l’ordre de vos dossiers par **glisser-déposer** ou en ut
 >title="Favoris"
 >abstract="Vos dossiers favoris s’affichent dans la partie supérieure de l’onglet de gauche."
 
-Les dossiers qui ont été marqués comme « Favoris » s’affichent toujours en haut de l’onglet de gauche.
+Les dossiers qui ont été marqués comme Favoris s’affichent toujours dans la partie supérieure de l’onglet de gauche.
 
-Vous pouvez ajouter des dossiers aux favoris en cliquant sur le bouton en forme d’étoile dans le coin supérieur droit lors de l’affichage d’un dossier.
+Vous pouvez ajouter des dossiers aux favoris en cliquant sur le bouton en forme d’étoile qui apparaît dans le coin supérieur droit lorsque vous affichez un dossier.
 
 ![Capture d’écran de l’emplacement des dossiers favoris](assets/folders-favorite.png){zoomable="yes"}
 

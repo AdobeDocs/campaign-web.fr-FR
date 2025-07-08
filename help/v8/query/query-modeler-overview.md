@@ -4,9 +4,9 @@ title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 | Usage | Exemple |
 |  ---  |  ---  |
 | **Définir les audiences** : indiquez la population à cibler dans vos messages ou workflows et créez facilement de nouvelles audiences adaptées à vos besoins. [Découvrir comment créer des audiences](../audience/one-time-audience.md) | ![Image montrant comment accéder à l’interface de création d’audience](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **Personnaliser les activités de workflow** : appliquez des règles à des activités de workflow, telles que **Partage** et **Réconciliation**, afin de respecter vos besoins spécifiques. [En savoir plus sur les activités de workflow](../workflows/activities/about-activities.md) | ![Image illustrant comment accéder aux options de personnalisation d’un workflow](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Personnaliser les activités de workflow** : appliquez des règles à des activités de workflow, telles que **Partage** et **Réconciliation**, afin de respecter vos besoins spécifiques. [En savoir plus sur les activités de workflow](../workflows/activities/about-activities.md) | ![Image montrant comment accéder aux options de personnalisation d’un workflow](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
 | **Filtres prédéfinis** : créez des filtres prédéfinis qui servent de raccourcis lors de diverses opérations de filtrage, que vous utilisiez des listes de données ou que vous créiez l’audience pour une diffusion. [Découvrir comment utiliser des filtres prédéfinis](../get-started/predefined-filters.md) | ![Image montrant comment accéder aux filtres prédéfinis](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
-| **Filtrer les données de rapports** : ajoutez des règles pour filtrer les données affichées dans les rapports. [Découvrir comment utiliser les rapports](../reporting/gs-reports.md) | ![Image illustrant comment filtrer des données dans les rapports](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
-| **Personnaliser les listes** : créez des règles personnalisées pour filtrer les données affichées dans les listes, telles que les personnes destinataires ou les listes de diffusions. [Découvrir comment filtrer les listes](../get-started/list-filters.md#list-built-in-filters) | ![Image illustrant comment personnaliser les filtres de liste](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
-| **Créer du contenu conditionnel** : rendez le contenu d’un e-mail dynamique en créant des conditions qui définissent quel contenu doit être affiché pour différentes personnes destinataires, ce qui garantit des e-mails personnalisés et pertinents. [Découvrir comment créer du contenu conditionnel](../personalization/conditions.md) | ![Image illustrant comment créer du contenu conditionnel](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
+| **Filtrer les données de rapports** : ajoutez des règles pour filtrer les données affichées dans les rapports. [Découvrir comment utiliser les rapports](../reporting/gs-reports.md) | ![Image montrant comment filtrer des données dans les rapports](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **Personnaliser les listes** : créez des règles personnalisées pour filtrer les données affichées dans les listes, telles que les personnes destinataires ou les listes de diffusions. [Découvrir comment filtrer les listes](../get-started/list-filters.md#list-built-in-filters) | ![Image montrant comment personnaliser les filtres de liste](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **Créer du contenu conditionnel** : rendez le contenu d’un e-mail dynamique en créant des conditions qui définissent quel contenu doit être affiché pour différentes personnes destinataires, ce qui garantit des e-mails personnalisés et pertinents. [Découvrir comment créer du contenu conditionnel](../personalization/conditions.md) | ![Image montrant comment créer du contenu conditionnel](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Le concepteur de requête fournit une zone de travail centrale où vous pouvez c
 >[!IMPORTANT]
 >
 >Une toute nouvelle interface pour le concepteur de requête est disponible. Le nouveau créateur de règles, grâce à son interface simplifiée, vous permet de créer votre requête plus facilement. Pour passer à cette expérience, appuyez sur le bouton (bascule) dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
->&#x200B;>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
