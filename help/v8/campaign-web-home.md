@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+source-git-commit: bf1b45af28305c07060097280d7cb1e12db87368
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 91%
 
 ---
 
@@ -52,9 +52,9 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 >[!BEGINTABS]
 
 
->[!TAB Version de mai 2025]
+>[!TAB Mises à jour du 25 juillet]
 
-La version de mai est maintenant en ligne, avec le nouveau canal personnalisé, le score d’alignement de la marque et l’amélioration des règles de typologie.
+De nouvelles fonctionnalités et améliorations sont désormais disponibles dans l’interface utilisateur web de Campaign. Pour tirer parti de ces améliorations, veillez à mettre à niveau votre environnement Campaign vers la version 8.8. Pour une vue d’ensemble complète, consultez les notes de mise à jour.
 
 [![Bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
