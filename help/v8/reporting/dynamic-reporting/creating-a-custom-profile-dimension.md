@@ -50,7 +50,7 @@ Pour ajouter un nouveau champ de profil, vous devez étendre votre schéma, proc
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Pour appliquer les modifications apportées aux schémas, lancez l&#39;assistant de mise à jour de la base de données via **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Mettre à jour la structure de la base de données]** et exécutez la commande Mettre à jour la structure de la base de données. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. Pour appliquer les modifications apportées aux schémas, lancez l&#39;assistant de mise à jour de la base de données via **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Mettre à jour la structure de la base de données]** et exécutez la commande Mettre à jour la structure de la base de données. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 

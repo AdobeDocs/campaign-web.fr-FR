@@ -47,7 +47,7 @@ Vous pouvez maintenant utiliser ce modèle pour envoyer vos diffusions.
 
 >[!TAB Adobe Campaign V8]
 
-Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré, convertir une diffusion existante en modèle ou créer un modèle de diffusion à partir de zéro. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
+Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré, convertir une diffusion existante en modèle ou créer un modèle de diffusion à partir de zéro. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr)
 
 Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
