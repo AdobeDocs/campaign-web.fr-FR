@@ -3,8 +3,8 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
-workflow-type: ht
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
+workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
 1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)
 
-## Configurer une diffusion multilingue
+## Configurer une diffusion multilingue {#multilingual-delivery}
 
 Dans l’interface d’utilisation de Campaign Web, vous pouvez configurer vos diffusions par e-mail en tant que diffusions multilingues, ce qui vous permet d’envoyer des messages en fonction de la langue préférée d’un profil. Lorsqu’aucune préférence n’est définie, le message est envoyé dans la langue par défaut.
 

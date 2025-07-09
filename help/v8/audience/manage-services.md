@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1127'
 ht-degree: 100%
 
 ---
@@ -87,10 +87,6 @@ Pour créer un service d’abonnement, procédez comme suit :
 1. Cliquez sur **[!UICONTROL Enregistrer et réviser]**. Le nouveau service est ajouté à la liste **[!UICONTROL Services d’abonnements]**.
 
 1. Sélectionnez les pages de destination d’abonnement et de désabonnement par défaut associées à ce service.
-
-   >[!AVAILABILITY]
-   >
-   >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
    ![Capture d’écran affichant les paramètres de page de destination par défaut d’un service d’abonnement](assets/service-create-default-lp.png){zoomable="yes"}
 

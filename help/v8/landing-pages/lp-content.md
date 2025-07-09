@@ -3,9 +3,9 @@ title: Définir du contenu spécifique à une page de destination
 description: Découvrir comment concevoir du contenu spécifique à une page de destination dans Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '1248'
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+workflow-type: tm+mt
+source-wordcount: '1161'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,6 @@ Pour concevoir plus précisément le contenu de votre page de destination :
 * Utilisez les mêmes composants que ceux utilisés pour concevoir un e-mail. [En savoir plus](../email/content-components.md#add-content-components)
 
 * Ajoutez du contenu conditionnel à vos pages de destination, comme vous le feriez pour un e-mail. [En savoir plus](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >Cette fonctionnalité est en disponibilité limitée. Elle est limitée aux personnes effectuant la migration **depuis Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
 ## Utiliser le composant de formulaire {#use-form-component}
 
@@ -125,10 +121,6 @@ Pour définir un contenu spécifique qui permet aux utilisateurs et aux utilisat
 
 1. Sélectionnez l’option **[!UICONTROL Service à partir d’une URL]** pour permettre l’utilisation de la page de destination pour plusieurs services, ce qui la rend dynamique. Définissez si vous souhaitez abonner ou désabonner des utilisateurs et des utilisatrices lors de l’envoi du formulaire.
 
-   >[!AVAILABILITY]
-   >
-   >Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
-
    ![Paramètres du service à partir de l’URL dans le composant de formulaire](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Lors de la conception d’un e-mail, si vous définissez un lien de type **[!UICONTROL page de destination]** vers cette page de destination, vous pouvez sélectionner n’importe quel service dans la liste. Vous pouvez ensuite sélectionner d’autres services lors de la définition d’autres liens vers cette page de destination. [En savoir plus sur l’insertion de liens](../email/message-tracking.md)
@@ -138,10 +130,6 @@ Pour définir un contenu spécifique qui permet aux utilisateurs et aux utilisat
 1. Envoyez un message lors de la soumission de votre page de destination. [En savoir plus ici](#lp-message)
 
 ### Envoyer un message après la soumission {#lp-message}
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
 Pour envoyer automatiquement un message de confirmation après la soumission d’une page de destination, procédez comme suit :
 

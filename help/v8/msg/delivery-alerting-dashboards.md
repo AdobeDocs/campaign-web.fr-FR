@@ -2,11 +2,10 @@
 audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
-badge: label="Disponibilité limitée"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
-workflow-type: ht
-source-wordcount: '1146'
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+workflow-type: tm+mt
+source-wordcount: '1115'
 ht-degree: 100%
 
 ---
@@ -21,10 +20,6 @@ ht-degree: 100%
 Les tableaux de bord des alertes de diffusion permettent de spécifier qui recevra des alertes par e-mail, de choisir et de configurer les critères des alertes à utiliser pour envoyer ces alertes et d’accéder à l’historique de toutes les notifications envoyées. Ils sont accessibles à partir du menu **Alertes de diffusion** dans le volet de navigation de gauche, sous l’onglet **Tableaux de bord**.
 
 ![Capture d’écran affichant la liste des tableaux de bord des alertes dans le menu Alertes de diffusion.](assets/alerting-dashboard-list.png)
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est en disponibilité limitée. Celle-ci est limitée aux clientes et aux clients effectuant la migration **d’Adobe Campaign Standard vers Adobe Campaign v8** et ne peut pas être déployée dans un autre environnement.
 
 ## Créer un tableau de bord de diffusion {#dashboards}
 

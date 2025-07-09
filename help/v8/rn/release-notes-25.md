@@ -2,16 +2,36 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de 2025 de l’interface d’utilisation web de Campaign
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
-workflow-type: ht
-source-wordcount: '1438'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '1604'
+ht-degree: 99%
 
 ---
 
 # Notes de mise à jour 2025 {#2025-release}
 
 Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions de 2025**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
+
+## Version du 25 juin {#25-6-release}
+
+### Améliorations {#25-6-improvements}
+
+* Le rapport Résumé de diffusion est désormais disponible pour les canaux Centre d’appel et Personnalisé. [En savoir plus](../reporting/direct-mail.md)
+
+* Lors de la configuration d’une diffusion par SMS, vous avez désormais accès aux paramètres des SMS spécifiques. Il s’agit des mêmes paramètres que dans la console cliente. [En savoir plus](../advanced-settings/delivery-settings.md#sms-tab)
+
+* Vos dossiers favoris s’affichent désormais dans la partie supérieure du panneau de gauche de la page Explorateur, ce qui les rend plus accessibles. [En savoir plus](../get-started/work-with-folders.md#favorite-folders)
+
+* Le créateur de règles prend désormais en charge le glisser-déposer, ce qui vous permet de réorganiser plus efficacement les composants de votre requête. [En savoir plus](../query/build-query.md#drag-and-drop)
+
+* La « condition humaine » dans le créateur de règles a été améliorée. Il s’agit de la version écrite en langage clair de vos règles, affichée en bas de l’écran :
+
+   * Les attributs sont maintenant mis en surbrillance et le schéma associé s’affiche.
+   * Vous pouvez cliquer sur ces éléments pour afficher des informations plus détaillées.
+   * Vous pouvez désormais copier la condition humaine à l’aide du bouton correspondant.
+
+* L’accès aux dossiers « Workflows techniques » et « Objets créés automatiquement » est désormais restreint afin de les empêcher d’être consultés. [En savoir plus](../get-started/work-with-folders.md#about-folders)
 
 ## Version de mai 2025 {#25-5-release}
 
@@ -153,7 +173,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **Rapports dynamiques pour le multilinguisme** : les rapports dynamiques sont désormais disponibles pour les diffusions par e-mail multilingues. Pour plus d’informations, consultez la [documentation détaillée](../reporting/global-reports.md).
 
-* **Prise en charge de l’API REST SMS (disponibilité limitée)** : l’API REST de messagerie transactionnelle est désormais disponible pour le canal SMS. Lorsque le payload contient à la fois un e-mail et un téléphone mobile, vous pouvez utiliser le champ « wishedChannel » pour spécifier le canal. S’il n’est pas fourni, l’e-mail est utilisé par défaut, sauf si wishedChannel demande explicitement un SMS. Pour plus d’informations, consultez la [documentation détaillée](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **Prise en charge de l’API REST SMS (disponibilité limitée)** : l’API REST de messagerie transactionnelle est désormais disponible pour le canal SMS. Lorsque le payload contient à la fois un e-mail et un téléphone mobile, vous pouvez utiliser le champ « wishedChannel » pour spécifier le canal. S’il n’est pas fourni, l’e-mail est utilisé par défaut, sauf si wishedChannel demande explicitement un SMS. Pour plus d’informations, consultez la [documentation détaillée](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}.
 
 ## Version de février 2025 {#25-2-release}
 
