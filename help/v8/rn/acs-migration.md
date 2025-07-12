@@ -76,7 +76,7 @@ Pour que vous puissiez passer facilement à Campaign v8, les fonctionnalités c
 
 * **Branding centralisé** : Adobe Campaign permet aux entreprises de définir des directives visuelles et techniques pour la marque. Les utilisateurs et utilisatrices peuvent présenter une marque cohérente aux clientes et clients, depuis les logos jusqu’aux aspects techniques tels que l’expéditeur de l’e-mail, l’URL ou les domaines. [En savoir plus](../administration/branding/branding-gs.md)
 
-* **API REST** : les personnes ayant migré vers Campaign Standard peuvent utiliser des API REST pour créer des intégrations pour Adobe Campaign et créer des écosystèmes en interfaçant Adobe Campaign avec d’autres technologies. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}
+* **API REST** : les personnes ayant migré vers Campaign Standard peuvent utiliser des API REST pour créer des intégrations pour Adobe Campaign et créer des écosystèmes en interfaçant Adobe Campaign avec d’autres technologies. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr){target="_blank"}
 
 * **Pages de destination** : les pages de destination de Campaign v8 incluent des améliorations pour assurer la parité des fonctionnalités avec Campaign Standard. En savoir plus dans la section [notes de mise à jour](../rn/release-notes.md#new-24-4) et dans la [documentation](../landing-pages/get-started-lp.md) des pages de destination.
 
