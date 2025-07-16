@@ -3,9 +3,9 @@ audience: end-user
 title: Tracker les messages
 description: Découvrez comment ajouter des liens et tracker les messages envoyés.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '568'
 ht-degree: 100%
 
 ---
@@ -31,10 +31,6 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
    ![Capture d’écran illustrant l’interface pour insérer des liens dans l’outil de tracking des messages](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL Lien externe]** : insérez un lien vers une URL externe.
-
-     >[!AVAILABILITY]
-     >
-     >Les fonctionnalités suivantes (lien vers une **[!UICONTROL Page de destination]**, **[!UICONTROL Lien d’abonnement]** et **[!UICONTROL Lien de désabonnement]**) sont en disponibilité limitée. Elles sont limitées aux clientes et clients effectuant la migration à partir d’**Adobe Campaign Standard vers Adobe Campaign v8** et ne peuvent pas être déployées dans un autre environnement.
 
    * **[!UICONTROL Page de destination]** : insérez un lien vers une page de destination. Si vous sélectionnez une page de destination dynamique (avec l’option **[!UICONTROL Service à partir d’une URL]** sélectionnée), vous pouvez sélectionner n’importe quel service dans la liste. [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
