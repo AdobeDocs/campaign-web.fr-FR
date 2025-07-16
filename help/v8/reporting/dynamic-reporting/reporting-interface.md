@@ -5,7 +5,7 @@ level: Beginner
 audience: end-user
 exl-id: 9b5a8b5f-2258-4861-b5c2-feefef67ccb3
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Le tableau **Insérer** vous permet de personnaliser vos rapports en ajoutant de
 * [Ajouter des visualisations](adding-visualizations.md)
 * [Ajouter des composants](adding-components.md)
 
-## Onglets     {#tabs}
+## Onglets {#tabs}
 
 Les onglets de gauche vous permettent de créer votre rapport et de filtrer les données selon les besoins.
 

@@ -6,9 +6,9 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -211,7 +211,7 @@ ht-degree: 99%
 + Rapports {#reports}
    + [Journal d’audit](reporting/audit-trail.md)
    + [Indicateurs clés de performance](reporting/kpis.md)
-   + Rapports standards {#standard-reports}
+   + Rapports standard {#standard-reports}
       + [Commencer avec les rapports](reporting/gs-reports.md)
       + [Exporter vos rapports](reporting/export-reports.md)
       + Rapports de diffusion {#delivery-report}
@@ -233,8 +233,8 @@ ht-degree: 99%
          + [Rapport global par SMS](reporting/global-report-sms.md)
          + [Rapport global sur le courrier](reporting/global-report-direct.md)
    + Rapports dynamiques {#dynamic-reporting}
-      + [Prise en main des rapports dynamiques](reporting/dynamic-reporting/get-started-reporting.md)
-      + Reporting {#about-reporting}
+      + [Commencer avec les rapports dynamiques](reporting/dynamic-reporting/get-started-reporting.md)
+      + À propos des rapports {#about-reporting}
          + [Rapports dynamiques](reporting/dynamic-reporting/about-dynamic-reports.md)
          + [Interface de reporting](reporting/dynamic-reporting/reporting-interface.md)
          + [Liste des composants](reporting/dynamic-reporting/list-of-components.md)
@@ -257,16 +257,16 @@ ht-degree: 99%
          + [Ajouter des visualisations](reporting/dynamic-reporting/adding-visualizations.md)
          + [Ajouter des composants](reporting/dynamic-reporting/adding-components.md)
          + [Création d&#39;une dimension de profil personnalisé](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
-         + [Accord sur l&#39;utilisation des rapports dynamiques](reporting/dynamic-reporting/pii-agreement.md)
+         + [Accord sur l’utilisation des rapports dynamiques](reporting/dynamic-reporting/pii-agreement.md)
 + Intégrations {#integrations}
    + [Utiliser d’autres solutions Adobe](integrations/integration.md)
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuration {#conf}
    + Branding {#branding}
-      + [À propos de l’image de marque](administration/branding/branding-gs.md)
+      + [À propos du branding](administration/branding/branding-gs.md)
       + [Configurer une marque](administration/branding/branding-configure.md)
-      + [Attribution d’une marque](administration/branding/branding-assign.md)
+      + [Attribuer une marque](administration/branding/branding-assign.md)
    + [Utiliser les règles métier (typologies)](administration/typologies.md)
    + [Gérer les mappings de ciblage](administration/target-mappings.md)
    + [Utiliser les schémas](administration/schemas.md)

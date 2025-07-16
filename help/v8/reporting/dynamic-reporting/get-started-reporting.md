@@ -5,9 +5,9 @@ audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ Les rapports dynamiques sont constitués de rapports entièrement personnalisabl
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Gestion des rapports</a></p></td><td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Créer vos rapports</a></p></td><td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personnaliser vos rapports</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Gérer des rapports</a></p></td><td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Créer vos rapports</a></p></td><td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personnaliser vos rapports</a></p></td></tr>
 </table>
 
-## Gestion des rapports {#manage-share-reports}
+## Gérer des rapports {#manage-share-reports}
 
-Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
+Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clientes et clients les plus importants et mesurer leur impact sur les personnes destinataires.
 
-**Gérez vos rapports dynamiques** grâce à diverses fonctionnalités : actualisez les données en temps réel, imprimez vos rapports ou exportez-les au format CSV.
+**Gérez vos rapports dynamiques** grâce à différentes fonctionnalités : vous pouvez actualiser les données en temps réel, imprimer vos rapports ou les exporter en tant que fichiers CSV.
 
 En savoir plus :
 
@@ -33,7 +33,7 @@ En savoir plus :
 
 ## Créer vos rapports {#build-reports}
 
-L’interface utilisateur web d’Adobe Campaign est fournie avec un ensemble de **rapports dynamiques d’usine** qui vous permettent de mesurer différents aspects de vos campagnes marketing : bounces, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de tracking, etc.
+L’interface d’utilisation d’Adobe Campaign Web est fournie avec un ensemble de **rapports dynamiques prêts à l’emploi**. Vous pouvez ainsi mesurer différents aspects de vos campagnes marketing : rebonds, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les personnes destinataires, rapports liés aux canaux, rapports de débit de diffusion et de tracking, etc.
 
 **Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports en version usine.
 

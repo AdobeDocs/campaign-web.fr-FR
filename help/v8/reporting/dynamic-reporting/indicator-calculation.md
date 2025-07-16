@@ -5,7 +5,7 @@ level: Intermediate
 audience: end-user
 exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -184,7 +184,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   <tr> 
    <td> Clics uniques<br/> </td> 
    <td> @uniqueclicks<br/> </td> 
-   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. </a>.<br/> </td> 
+   <td> Les clics uniques sont calculés à l’aide des concepts de ThetaSketch. </a>.<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 

@@ -10,9 +10,9 @@ hidefromtoc: true
 keywords: css, éditeur, résumé, e-mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -222,7 +222,7 @@ For example:
 +++
 -->
 
-## Mécanismes de sécurisation - Contenu importé
+## Mécanismes de sécurisation : contenu importé
 
 Si vous souhaitez utiliser un CSS personnalisé avec du contenu importé dans le concepteur d’e-mail, tenez compte des points suivants :
 
@@ -241,21 +241,21 @@ Si votre CSS personnalisé ne s’applique pas, envisagez les options ci-dessous
 
 * Assurez-vous que votre CSS est ajouté à la balise `<style>` avec l’attribut `data-name="global-custom"`.
 
-* Vérifiez si la balise de style de `global-custom` possède l’attribut `data-disabled` défini sur `true`. Si c’est le cas, le code CSS personnalisé n’est pas appliqué.
+* Vérifiez si la balise de style `global-custom` a l’attribut `data-disabled` défini sur `true`. Si c’est le cas, le CSS personnalisé n’est pas appliqué.
 
-  +++Par exemple :
+  +++Par exemple :
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
-* Assurez-vous que votre CSS n’est pas remplacée par d’autres règles CSS.
+* Assurez-vous que votre CSS n’est pas remplacé par d’autres règles CSS.
 
    * Utilisez les outils de développement de votre navigateur pour inspecter le contenu et vérifier que votre CSS cible les sélecteurs corrects.
 
-   * Pensez à ajouter des `!important` à vos déclarations pour vous assurer qu’elles sont prioritaires.
+   * Pensez à ajouter `!important` à vos déclarations pour vous assurer qu’elles sont prioritaires.
 
 +++ Par exemple :
 

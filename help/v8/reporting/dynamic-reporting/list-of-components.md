@@ -5,15 +5,15 @@ level: Beginner
 audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Liste des composants {#list-of-components}
 
-Notez que si deux composants ne sont pas compatibles, la cellule affiche la valeur **Aucun**.
+Notez que si deux composants ne sont pas compatibles, la cellule affiche la valeur **Aucun**.
 
 ## Dimensions {#dimensions}
 
@@ -57,7 +57,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Profil<br/> </td> 
-   <td> Regroupe les champs de profil personnalisés et d’usine créés lors de l’extension de la ressource de profil.<br/> </td> 
+   <td> Regroupe les champs de profil personnalisés et prêts à l’emploi créés lors de l’extension de la ressource de profil.<br/> </td> 
   </tr> 
   <tr> 
    <td> Domaine du destinataire<br/> </td> 
@@ -100,7 +100,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
 
 ## Mesures   {#metrics}
 
-Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
+Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition en fonction du type de diffusion.
 
 ### Mesures des e-mails {#email-and-sms-metrics}
 
@@ -213,7 +213,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de destinataires ayant ouvert la diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Désabonné unique<br/> </td> 
+   <td> Désabonnements uniques<br/> </td> 
    <td> Nombre de destinataires ayant cliqué sur le lien de désabonnement.<br/> </td> 
   </tr> 
   <tr> 

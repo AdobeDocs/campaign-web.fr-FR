@@ -5,9 +5,9 @@ level: Intermediate
 audience: end-user
 exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Le deuxième tableau, **Statistiques de tracking**, contient les données dispon
 * **Clic** : nombre de clics sur un contenu dans une diffusion.
 * **Désabonnement** : nombre de clics sur le lien de désinscription.
 * **Page miroir** : nombre de clics sur le lien de la page miroir.
-* **Sur la liste bloquée** : nombre de destinataires ayant déclaré un e-mail comme spam ou courrier indésirable.
+* **Sur la liste bloquée** : nombre de personnes destinataires ayant déclaré un e-mail comme étant un spam ou un courrier indésirable.

@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 23%
 
 ## Associer une marque à un modèle {#linking-a-brand-to-a-template}
 
-Pour utiliser les paramètres définis pour une marque, celle-ci doit être associée à un modèle de diffusion. Pour ce faire, vous devez créer, ou éditer, un modèle.
+Pour utiliser les paramètres définis pour une marque, elle doit être liée à un modèle de diffusion. Pour ce faire, vous devez créer ou modifier un modèle.
 
-Votre modèle sera lié à la marque. Dans l&#39;éditeur d&#39;email, les éléments comme l&#39;**adresse email de l&#39;expéditeur par défaut**, le **nom de l&#39;expéditeur par défaut** ou le **logo** utiliseront les données paramétrées de la marque.
+Votre modèle sera lié à la marque. Dans l’éditeur d’e-mail, les éléments comme l’**adresse e-mail de l’expéditeur ou de l’expéditrice par défaut**, le **nom de l’expéditeur ou de l’expéditrice par défaut** ou le **logo** utiliseront les données paramétrées de la marque.
 
 >[!BEGINTABS]
 
->[!TAB Adobe Campaign Web]
+>[!TAB Adobe Campaign Web]
 
 Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré, convertir une diffusion existante en modèle ou créer un modèle de diffusion à partir de zéro. [En savoir plus](../../msg/delivery-template.md)
 
@@ -37,7 +37,7 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
    ![](assets/branding_assign_web_2.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Diffusion]**, accédez au champ **[!UICONTROL Branding]** et sélectionnez la marque que vous souhaitez lier au modèle.
+1. Dans l’onglet **[!UICONTROL Diffusion]**, accédez au champ **[!UICONTROL Branding]** et sélectionnez la marque que vous souhaitez lier au modèle.
 
    ![](assets/branding_assign_web_3.png)
 
@@ -45,13 +45,13 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
 Vous pouvez maintenant utiliser ce modèle pour envoyer vos diffusions.
 
->[!TAB Adobe Campaign V8]
+>[!TAB Adobe Campaign V8]
 
 Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré, convertir une diffusion existante en modèle ou créer un modèle de diffusion à partir de zéro. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr)
 
 Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
-1. Accédez à **[!UICONTROL Ressources]** `>` **[!UICONTROL Modèles]** `>` **[!UICONTROL Modèles de diffusion]** dans l’explorateur Adobe Campaign.
+1. Accédez à **[!UICONTROL Ressources]** `>` **[!UICONTROL Modèles]** `>` **[!UICONTROL Modèles de diffusion]** dans l’explorateur Adobe Campaign.
 
 1. Sélectionnez un modèle de diffusion ou dupliquez un modèle existant.
 
@@ -71,11 +71,11 @@ Vous pouvez maintenant utiliser ce modèle pour envoyer vos diffusions.
 
 >[!ENDTABS]
 
-## Attribution d’une marque à votre diffusion {#assigning-a-brand-to-an-email}
+## Attribuer une marque à votre diffusion {#assigning-a-brand-to-an-email}
 
 >[!BEGINTABS]
 
->[!TAB Adobe Campaign Web]
+>[!TAB Adobe Campaign Web]
 
 Pour créer une diffusion autonome, procédez comme suit.
 
@@ -91,21 +91,21 @@ Pour créer une diffusion autonome, procédez comme suit.
 
    ![](assets/branding_assign_web_5.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Diffusion]**, accédez au champ **[!UICONTROL Branding]**.
+1. Dans l’onglet **[!UICONTROL Diffusion]**, accédez au champ **[!UICONTROL Branding]**.
 
    ![](assets/branding_assign_web_6.png)
 
-1. Sélectionnez la marque que vous souhaitez lier au modèle.
+1. Sélectionnez la marque que vous souhaitez associer au modèle.
 
    ![](assets/branding_assign_web_7.png)
 
 1. Personnalisez davantage vos diffusions. Pour plus d’informations sur la création d’un e-mail, consultez la section [Créer votre premier e-mail](../../email/create-email.md).
 
->[!TAB Adobe Campaign V8]
+>[!TAB Adobe Campaign V8]
 
 Pour créer une diffusion autonome, procédez comme suit.
 
-1. Pour créer une diffusion, accédez à l&#39;onglet **[!UICONTROL Campagnes]**.
+1. Pour créer une diffusion, accédez à l’onglet **[!UICONTROL Campagnes]**.
 
 1. Cliquez sur **[!UICONTROL Diffusions]** puis sur le bouton **[!UICONTROL Créer]** au-dessus de la liste des diffusions existantes.
 
@@ -123,6 +123,6 @@ Pour créer une diffusion autonome, procédez comme suit.
 
 1. Une fois la configuration effectuée, sélectionnez **OK**.
 
-1. Personnalisez davantage vos diffusions. Pour plus d&#39;informations sur la création d&#39;un email, consultez la section [Conception et envoi d&#39;emails](../../email/create-email.md).
+1. Personnalisez davantage vos diffusions. Pour plus d’informations sur la création d’un e-mail, consultez la section [Concevoir et envoyer des e-mails](../../email/create-email.md).
 
 >[!ENDTABS]

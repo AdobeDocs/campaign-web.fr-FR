@@ -5,9 +5,9 @@ audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1230'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ Pour résoudre ce problème, procédez comme suit :
 
 * Après avoir importé votre mapping de ciblage à partir d’un fichier XML, vous devrez également importer l’enrichissement du reporting.
 
-* Au lieu d’importer votre mapping de ciblage, vous pouvez le créer directement dans l’interface utilisateur web d’Adobe Campaign, ce qui créera automatiquement l’enrichissement du reporting.
+* Au lieu d’importer votre mapping de ciblage, vous pouvez le créer directement dans l’interface d’utilisation d’Adobe Campaign Web, ce qui créera automatiquement l’enrichissement des rapports.
 
 ## Divergence entre le nombre d’en-têtes de colonnes et la somme des lignes
 

@@ -5,7 +5,7 @@ audience: end-user
 level: Intermediate
 exl-id: b341edad-aa82-43d8-a5a1-b33a19973a1a
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
 ht-degree: 100%
 
