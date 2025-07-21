@@ -6,14 +6,19 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
-workflow-type: ht
-source-wordcount: '315'
-ht-degree: 100%
+source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 95%
 
 ---
 
 # Commencer avec le branding {#branding-gs}
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité n’est disponible qu’à la demande, pour les nouvelles implémentations. Pour obtenir l’accès, contactez votre représentant Adobe.
+
 
 >[!IMPORTANT]
 >
