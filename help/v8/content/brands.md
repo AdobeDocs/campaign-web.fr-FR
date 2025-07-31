@@ -2,20 +2,15 @@
 audience: end-user
 title: Gérer la marque
 description: Découvrir comment créer et gérer vos directives de marque
-badge: label="Version bêta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: ht
-source-wordcount: '1275'
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+workflow-type: tm+mt
+source-wordcount: '1255'
 ht-degree: 100%
 
 ---
 
 # Créer et gérer vos marques {#brands}
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est publiée sous la forme d’une version Private Beta. Elle sera progressivement disponible pour l’ensemble des clientes et clients dans les prochaines versions.
 
 Les directives de marque sont un ensemble complet de règles et de normes qui définissent l’identité visuelle et verbale d’une marque. Elles servent de référence pour homogénéiser la représentation de la marque sur tous les canaux de marketing et de communication.
 

@@ -2,20 +2,18 @@
 audience: end-user
 title: Alignement sur la marque
 description: Découvrez comment créer, valider et gérer du contenu conforme à la marque à l’aide du score de marque.
-badge: label="Version bêta" type="Informative"
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
-source-git-commit: 86c28c023adc7a70ea9d0c47fdd40857e05cb8b7
-workflow-type: ht
-source-wordcount: '247'
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+workflow-type: tm+mt
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
 
-# Alignement sur la marque (version bêta){#brands-score}
+# Alignement sur la marque {#brands-score}
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est publiée sous la forme d’une version Private Beta. Elle sera progressivement disponible pour l’ensemble des clientes et clients dans les prochaines versions.
 >Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant IA. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 La fonctionnalité Alignement sur la marque est conçue pour vous aider à créer, vérifier et gérer du contenu conforme à vos directives de marque. Elle garantit la cohérence du ton, des messages et de l’identité visuelle dans vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
