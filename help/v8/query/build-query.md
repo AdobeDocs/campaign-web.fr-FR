@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
-workflow-type: ht
-source-wordcount: '2863'
-ht-degree: 100%
+source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
+workflow-type: tm+mt
+source-wordcount: '2921'
+ht-degree: 98%
 
 ---
 
@@ -407,6 +407,13 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
   >[!IMPORTANT]
   >
   >Sélectionnez un filtre prédéfini dans le volet Propriétés de la règle pour remplacer la requête qui a été créée dans la zone de travail par le filtre sélectionné.
+
+Lors de l’utilisation de la nouvelle expérience de créateur de règles, vous pouvez afficher la population cible directement sur chaque condition et groupe :
+
+* Cliquez sur l’icône **Calculer la condition** sur la condition ou le groupe de votre choix pour calculer et afficher le nombre d’enregistrements ciblés par votre requête.
+* Cliquez sur le numéro du résultat pour afficher la liste détaillée des enregistrements.
+
+![Affichage de la population et des résultats](assets/ruleb-11bis.png){zoomable="yes"}
 
 Lorsque votre requête est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** dans le coin supérieur droit pour effectuer l’enregistrement.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 96%
 
 ---
 
@@ -143,6 +143,7 @@ Les options avancées dépendent du système d’exploitation mobile : Android 
 | **[!UICONTROL Nombre de notifications]** | Définissez un nombre qui s’affichera directement sur l’icône de l’application, indiquant le nombre de nouvelles informations non lues. Vous obtiendrez ainsi une référence visuelle rapide pour l’utilisateur ou l’utilisatrice. |
 | **[!UICONTROL Volume]** | Volume de votre son de 0 à 100. |
 | **[!UICONTROL Contenu mutable]** | Activez cette option pour permettre à l’application mobile de télécharger le contenu multimédia associé à la notification. Consultez à ce sujet la [Documentation développeur Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
+| **[!UICONTROL Contenu disponible]** | Activez cette option pour permettre à votre notification de déclencher des mises à jour en arrière-plan sur les appareils iOS, même lorsque l&#39;application n&#39;est pas activement ouverte. Cela permet de s’assurer que le contenu tel que les messages ou les mises à jour de données peut être traité et stocké dans la boîte de réception de l’application sans nécessiter d’interaction utilisateur. Lorsqu’il est sélectionné, l’indicateur `content-available: 1` est ajouté à la payload `aps` conformément aux normes du service Apple Push Notification Service (APNS). |
 | **[!UICONTROL Score de pertinence]** | Définissez un score de pertinence compris entre 0 et 100 pour classer par priorité l’ordre des notifications dans le résumé des notifications. Des scores plus élevés indiquent des notifications plus importantes. |
 | **[!UICONTROL Niveau d&#39;interruption]** | <ul> <li>**[!UICONTROL Actif]** : défini par défaut, le système présente immédiatement la notification, illumine l’écran et peut émettre un son. Les notifications ne passent pas en mode Thème.</li><li>**[!UICONTROL Passif]** : le système ajoute la notification à la liste de notifications sans allumer l’écran ni émettre de son. Les notifications ne passent pas en mode Thème.</li><li>**[!UICONTROL Sensible à l’heure]** : le système présente immédiatement la notification, allume l’écran, peut émettre un son et passer en mode Concentration. Ce niveau ne nécessite pas d’autorisation spéciale de la part d’Apple.</li> <li>**[!UICONTROL Critique]** : le système présente immédiatement la notification, allume l’écran et contourne le bouton de désactivation ou le mode Concentration. Notez que ce niveau nécessite une autorisation spéciale de la part d’Apple.</ul> |
 | **[!UICONTROL Thread-id]** | Identifiant utilisé pour regrouper les notifications associées. Les notifications ayant le même id de thread sont organisées en tant que conversation ou thread unique dans la liste de notifications. |

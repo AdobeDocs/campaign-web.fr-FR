@@ -4,10 +4,10 @@ title: Configurer les paramètres de diffusion
 description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
-workflow-type: ht
-source-wordcount: '3159'
-ht-degree: 100%
+source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
+workflow-type: tm+mt
+source-wordcount: '3449'
+ht-degree: 99%
 
 ---
 
@@ -340,6 +340,29 @@ Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliqu
 
   Pour désactiver la limite, définissez cette valeur sur 0.
 
+* **[!UICONTROL Paramètres SMPP facultatifs (TLV)]**
+
+  Vous pouvez spécifier des champs supplémentaires à envoyer en tant que paramètres SMPP facultatifs (TLV). Ces champs supplémentaires sont envoyés avec chaque MT et les champs personnalisés permettent d’avoir des valeurs différentes pour chaque MT.
+Le tableau répertorie les paramètres facultatifs à envoyer avec chaque message. Les colonnes contiennent les informations suivantes :
+
+   * **Libellé** : il s’agit d’un libellé de forme libre facultatif. Il n’est pas transmis au fournisseur. Vous pouvez fournir une description textuelle du paramètre.
+   * **Balise** : valeur de balise, au format décimal (par exemple, 12345) ou hexadécimal avec le préfixe 0x (par exemple, 0x12ab). Les balises peuvent aller entre 0 et 65535. Demandez au fournisseur de services SMPP les balises qu’il prend en charge.
+   * **Valeur** : valeur à envoyer dans le paramètre facultatif. Il s’agit d’un champ personnalisé.
+   * **Format** : codage utilisé pour le paramètre. Vous pouvez sélectionner n’importe quel codage de texte pris en charge ou les formats binaires les plus courants. Demandez au fournisseur de services SMPP le format requis.
+   * **Longueur maximale** : nombre maximal d’octets pour ce paramètre. Ceci est ignoré pour les champs binaires, car les champs binaires ont une taille fixe.
+
+  **Utiliser des formats binaires pour TLV**
+
+  Campaign prend en charge l’envoi de TLV au format binaire. Le fichier binaire se limite à l’envoi de nombres.
+
+  Comme les champs personnalisés génèrent toujours du texte, le champ personnalisé doit contenir une représentation décimale du nombre (toute chaîne est correcte tant qu’elle ne contient que des chiffres). Les valeurs peuvent être signées ou non, le moteur de personnalisation les convertit simplement en la bonne représentation binaire.
+
+  Lors de l’utilisation de formats binaires, les valeurs spéciales «  » (chaîne vide), « null » et « undefined » désactivent complètement le champ sans générer d’erreur. Dans ces 3 cas spéciaux, la balise n’est pas transmise du tout. Cela permet de transmettre un TLV spécifique uniquement pour certains messages lorsque vous utilisez du code JavaScript soigneusement conçu dans le champ de personnalisation.
+
+  >[!NOTE]
+  >
+  >Les formats binaires sont toujours codés dans un format big-endian.
+
 ## Paramètres SMTP pour la diffusion par e-mail {#smtp}
 
 >[!CONTEXTUALHELP]
@@ -377,7 +400,7 @@ Ces deux champs peuvent être personnalisés comme décrit dans [cette section](
 
 Vous pouvez ajouter des **[!UICONTROL en-têtes SMTP]** à votre diffusion par e-mail, dans l’onglet SMTP des paramètres de la diffusion.
 
-Le script saisi dans cette fenêtre doit référencer un en-tête par ligne sous la forme suivante : nom: valeur.
+Le script renseigné dans cette fenêtre doit référencer un en-tête par ligne au format suivant : name:value.
 
 Les valeurs sont automatiquement encodées, si nécessaire.
 
