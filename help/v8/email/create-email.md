@@ -5,8 +5,8 @@ description: Découvrez comment envoyer votre premier e-mail avec l’interface 
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1625'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisati
 
 Basé sur un [modèle de conception](../email/create-email-templates.md) prédéfini, l’e-mail propose également du contenu personnalisé en fonction des attributs de profil du client ou de la cliente.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Créer la diffusion e-mail {#create-email}
 
@@ -199,7 +199,7 @@ Des informations supplémentaires sur la prévisualisation des e-mails et l’en
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
 >title="La simulation de contenu n’est pas prise en charge."
->abstract="Le bouton **Simuler le contenu** est désactivé, car la diffusion multilingue ne contient qu’un seul paramètre régional."
+>abstract="Le bouton Simuler le contenu est désactivé, car la diffusion multilingue ne contient qu’un seul ensemble de paramètres régionaux.****"
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_reconcilied_deliveries"
@@ -252,4 +252,4 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
