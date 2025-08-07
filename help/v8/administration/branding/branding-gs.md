@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
 source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité n’est disponible qu’à la demande, pour les nouvelles implémentations. Pour obtenir l’accès, contactez votre représentant Adobe.
+>Cette fonctionnalité est uniquement disponible à la demande pour les nouvelles implémentations. Pour y accéder, contactez votre représentant ou représentante Adobe.
 
 
 >[!IMPORTANT]

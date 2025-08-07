@@ -4,7 +4,7 @@ title: Gérer la marque
 description: Découvrir comment créer et gérer vos directives de marque
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1255'
 ht-degree: 100%
 

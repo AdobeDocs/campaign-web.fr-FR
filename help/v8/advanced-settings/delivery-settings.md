@@ -5,9 +5,9 @@ description: Découvrez comment configurer les paramètres de diffusion dans Cam
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3449'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -400,7 +400,7 @@ Ces deux champs peuvent être personnalisés comme décrit dans [cette section](
 
 Vous pouvez ajouter des **[!UICONTROL en-têtes SMTP]** à votre diffusion par e-mail, dans l’onglet SMTP des paramètres de la diffusion.
 
-Le script renseigné dans cette fenêtre doit référencer un en-tête par ligne au format suivant : name:value.
+Le script saisi dans cette fenêtre doit référencer un en-tête par ligne sous la forme suivante : nom:value.
 
 Les valeurs sont automatiquement encodées, si nécessaire.
 

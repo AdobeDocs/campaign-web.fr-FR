@@ -3,9 +3,9 @@ title: Utiliser des filtres prédéfinis
 description: Découvrir comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ Dans cette liste, vous pouvez créer un filtre et effectuer les actions ci-desso
 
 Vous pouvez également modifier ou supprimer un filtre prédéfini directement à partir du créateur de règles. Dans la fenêtre de sélection des filtres prédéfinis, utilisez le bouton **Plus d’actions**. Vous pouvez supprimer le filtre ou le modifier. Vous pouvez modifier le libellé, ajouter une description et l’ajouter en tant que favori.
 
-![Édition de filtres prédéfinis](assets/filter-edit.png){zoomable="yes"}
+![Modification des filtres prédéfinis](assets/filter-edit.png){zoomable="yes"}
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

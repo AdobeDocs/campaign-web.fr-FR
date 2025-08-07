@@ -4,9 +4,9 @@ title: Concevoir une diffusion de notification push iOS enrichie
 description: Découvrez comment concevoir une diffusion de notification push iOS enrichie avec Adobe Campaign Web.
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
 source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1625'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -203,7 +203,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 | Paramètre | Description |
 |-----------|-------------|
 | **[!UICONTROL Contenu modifiable]** | Activez cette option pour permettre à l’application mobile de télécharger le contenu multimédia. |
-| **[!UICONTROL Contenu disponible]** | Activez cette option pour permettre à votre notification de déclencher des mises à jour en arrière-plan sur les appareils iOS, même lorsque l&#39;application n&#39;est pas activement ouverte. Cela permet de s’assurer que le contenu tel que les messages ou les mises à jour de données peut être traité et stocké dans la boîte de réception de l’application sans nécessiter d’interaction utilisateur. Lorsqu’il est sélectionné, l’indicateur `content-available: 1` est ajouté à la payload `aps` conformément aux normes du service Apple Push Notification Service (APNS). |
+| **[!UICONTROL Contenu disponible]** | Activez cette option pour permettre à votre notification de déclencher des mises à jour en arrière-plan sur les appareils iOS, même lorsque l’application n’est pas activement ouverte. Cela permet de s’assurer que le contenu, comme les messages ou les mises à jour de données, peut être traité et stocké dans la boîte de réception de l’application sans nécessiter d’interaction de l’utilisateur ou de l’utilisatrice. Lorsqu’il est sélectionné, l’indicateur `content-available: 1` est ajouté au payload `aps` conformément aux normes du service de notifications push d’Apple (APNS). |
 | **[!UICONTROL Score de pertinence]** | Définissez un score de pertinence compris entre 0 et 100. Le système l’utilise pour trier les notifications dans le récapitulatif des notifications. |
 | **[!UICONTROL Niveau d&#39;interruption]** | <ul><li>**Actif** : défini par défaut, le système présente immédiatement la notification, illumine l’écran et peut émettre un son. Les notifications n’outrepassent pas le mode Concentration.</li><li>**Passif** : le système ajoute la notification à la liste de notifications sans allumer l’écran ni émettre de son. Les notifications n’outrepassent pas le mode Concentration.</li><li>**Sensible à l’heure** : le système présente immédiatement la notification, allume l’écran, peut émettre un son et outrepasser le mode Concentration. Ce niveau ne nécessite pas d’autorisation spéciale de la part d’Apple.</li><li>**Critique** : le système présente immédiatement la notification, allume l’écran et contourne le bouton de désactivation ou le mode Concentration. Notez que ce niveau nécessite une autorisation spéciale de la part d’Apple.</li></ul> |
 | **[!UICONTROL Thread-id]** | Définissez l’identifiant utilisé pour regrouper les notifications associées. |

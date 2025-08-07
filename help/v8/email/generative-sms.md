@@ -4,9 +4,9 @@ title: SMS avec l’assistant IA
 description: Commencer avec l’assistant IA
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
->&#x200B;></br>
+>></br>
 >
 >Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
@@ -29,7 +29,7 @@ Cet outil vous fournit des suggestions intelligentes pour affiner votre contenu,
 
 1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Accédez au menu **[!UICONTROL Afficher l’assistant AI]**. Vous pouvez également y accéder en regard de votre champ **[!UICONTROL Message]**.
+1. Accédez au menu **[!UICONTROL Afficher l’assistant IA]**. Vous pouvez également y accéder en regard de votre champ **[!UICONTROL Message]**.
 
    ![Copie d’écran affichant le menu Afficher l’assistant IA](assets/sms-genai-1.png){zoomable="yes"}
 
@@ -53,11 +53,11 @@ Cet outil vous fournit des suggestions intelligentes pour affiner votre contenu,
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL Variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
+1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
 
-1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement des marques]** et identifier les alignements incorrects avec votre marque.
+1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement sur la marque]** et identifier les alignements incorrects avec votre marque.
 
-   En savoir plus sur le [score d’alignement des marques](../content/brands-score.md).
+   En savoir plus sur le [score d’alignement sur la marque](../content/brands-score.md).
 
    ![](assets/sms-genai-5.png){zoomable="yes"}
 
