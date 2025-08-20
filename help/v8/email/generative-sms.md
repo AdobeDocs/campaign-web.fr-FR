@@ -4,7 +4,7 @@ title: SMS avec l’assistant IA
 description: Commencer avec l’assistant IA
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Une fois que vous avez conçu et personnalisé vos SMS en fonction de votre audi
 
 Cet outil vous fournit des suggestions intelligentes pour affiner votre contenu, permettant à vos messages d’avoir un impact efficace et de maximiser l’engagement.
 
-1. Après avoir créé et configuré votre diffusion e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Après avoir créé et configuré votre diffusion SMS, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
    Pour plus d’informations sur la configuration de votre diffusion par SMS, consultez [cette page](../sms/create-sms.md).
 
@@ -49,7 +49,7 @@ Cet outil vous fournit des suggestions intelligentes pour affiner votre contenu,
 
 1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
-   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
+   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez les ressources que vous souhaitez inclure dans votre génération.
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
