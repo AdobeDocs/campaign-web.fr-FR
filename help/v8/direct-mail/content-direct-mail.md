@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Contenu du fichier d’extraction"
->abstract="Cliquez sur le bouton **Modifier le contenu** pour lancer la conception du fichier d’extraction requis par votre fournisseur de services postaux. Vous pouvez ainsi définir les propriétés du fichier, telles que son libellé et son format, et spécifier les colonnes à inclure dans le fichier."
+>abstract="Cliquez sur le bouton **Modifier le contenu** pour lancer la conception du fichier d’extraction requis par votre fournisseur de courrier. Vous pouvez ainsi définir les propriétés du fichier, telles que son libellé et son format, et spécifier les colonnes à inclure dans le fichier."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
@@ -37,7 +37,7 @@ Pour concevoir le contenu du fichier d’extraction généré par votre diffusio
 
 1. Développez la section **[!UICONTROL Format d’extraction]** pour accéder aux options spécifiques du fichier d’extraction. Les valeurs disponibles dépendent du format sélectionné.
 
-+++ Options de format d’extraction disponibles
+   +++ Options de format d’extraction disponibles
 
    * **[!UICONTROL Utiliser la première ligne comme en-tête des colonnes]** (formats Texte/CSV (Excel)) : activez cette option pour utiliser la première colonne comme en-tête.
    * **[!UICONTROL Séparateur de colonne]** (format Texte) : spécifiez le caractère à utiliser comme séparateur de colonne dans le fichier d’extraction.
@@ -48,7 +48,7 @@ Pour concevoir le contenu du fichier d’extraction généré par votre diffusio
    * **[!UICONTROL Format des nombres]** : indiquez le format des nombres dans le fichier d’extraction.
    * **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** : activez cette option si vous exportez des valeurs d’énumération et souhaitez récupérer les libellés de colonnes plus faciles à comprendre que les identifiants internes.
 
-+++
+   +++
 
 1. Activez l’option **[!UICONTROL Quantité demandée]** pour limiter le nombre de personnes destinataires de votre diffusion.
 

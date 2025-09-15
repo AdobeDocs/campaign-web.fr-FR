@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux e-mail, SMS, courrier et notification Push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal qui déclenchent des actions en fonction du comportement de la clientèle et des données.
 
-Vous pouvez par exemple créer une campagne de bienvenue par e-mail qui inclut une série de messages sur différents canaux, tels que les canaux e-mails, SMS, notifications Push et courrier. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente effectue un achat, ou encore envoyer un message d’anniversaire personnalisé par SMS.
+Vous pouvez, par exemple, créer une campagne de bienvenue par e-mail qui inclut une série de messages sur différents canaux, tels que les canaux e-mail, SMS, notifications push et courrier. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente effectue un achat, ou encore envoyer un message d’anniversaire personnalisé par SMS.
 
 Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent la clientèle sur plusieurs points de contact et génèrent des conversions.
 
@@ -67,7 +67,7 @@ Commencez à créer votre workflow avec les activités pertinentes :
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="Activité Courrier"
->abstract="L’activité Courrier facilite l’envoi de courrier depuis votre workflow, en vous permettant d’envoyer des messages ponctuels et récurrents. Elle automatise le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal qui déclenchent des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité Courrier facilite l’envoi de courrier depuis votre workflow, en vous permettant d’envoyer des messages ponctuels et récurrents. Elle automatise le processus de génération du fichier d’extraction requis par les fournisseurs de courrier. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal qui déclenchent des actions en fonction du comportement de la clientèle et des données."
 
 Pour configurer une diffusion dans le cadre d’un workflow, procédez comme suit :
 

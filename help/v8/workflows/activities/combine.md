@@ -70,12 +70,12 @@ Dans l’activité **Combiner**, configurez une **Union** en sélectionnant le *
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
->title="Options de réconciliation des interactions"
+>title="Options de réconciliation des intersections"
 >abstract="Sélectionnez le **type de réconciliation** pour définir comment gérer les doublons. Par défaut, l’option **Clés** est activée, ce qui signifie que l’activité ne conserve qu’un élément lorsque des éléments provenant de différentes transitions entrantes possèdent la même clé. Utilisez l’option **Une sélection de colonnes** pour définir la liste des colonnes sur lesquelles est appliquée la réconciliation des données."
 
 Dans l’activité **Combiner**, configurez une **Intersection** en procédant comme suit :
 
-1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
+1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les doublons sont traités. Pour plus d’informations, consultez la section [Union](#union).
 1. Cochez l&#39;option **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire contiend l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire est alors ajoutée à l’activité.
 
 ## Exclusion {#combine-exclusion}
