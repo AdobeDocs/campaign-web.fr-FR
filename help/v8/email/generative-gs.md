@@ -4,7 +4,7 @@ title: Commencer avec l’assistant IA
 description: Commencer avec l’assistant IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Conditions de l’IA Generative d’Adobe"
+>title="Conditions de l’IA générative d’Adobe"
 >abstract="L’accès à cette fonctionnalité est soumis à votre acceptation des directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Vérifiez la précision des résultats de cette fonctionnalité et assurez-vous qu’ils sont adaptés à votre cas d’utilisation."
 >additional-url="https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Directives à l’intention des utilisateurs de l’IA générative Adobe"
 
