@@ -1,7 +1,6 @@
 ---
 title: Basculer vers le mode sombre
 description: Découvrez comment utiliser le mode sombre dans le Designer d’e-mail Adobe Campaign
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -9,9 +8,9 @@ level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, éditeur
 hide: true
 hidefromtoc: true
-source-git-commit: 795a18d14c353666e081c70f6095924bb6d918e1
+source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1515'
 ht-degree: 4%
 
 ---
