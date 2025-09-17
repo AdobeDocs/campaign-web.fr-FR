@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
-source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Cette page a pour but de rendre votre contenu accessible à tous vos destinatair
 
 <!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
@@ -138,15 +137,19 @@ Pour vérifier de manière plus cohérente si votre contenu est accessible de ma
 
 ## Utiliser le mode sombre {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
+Parmi les bonnes pratiques pour concevoir du contenu en mode sombre, utilisez des PNG ou des SVG transparents, définissez les balises meta et CSS appropriées et fournissez un style de secours accessible si le mode sombre n’est pas pris en charge.
 
-Le mode sombre améliore l’accessibilité visuelle pour les utilisateurs et utilisatrices sensibles à la lumière ou ayant une déficience visuelle, pour une expérience de visionnage améliorée.
+<!--TO PUBLISH WHEN DARK MODE IS RELEASED
+
+Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-Parmi les bonnes pratiques pour concevoir du contenu en mode sombre, utilisez des PNG ou des SVG transparents, définissez les balises meta et CSS appropriées et fournissez un style de secours accessible si le mode sombre n’est pas pris en charge. Enfin, assurez-vous que les e-mails s’affichent correctement en mode sombre en testant tout le contenu des e-mails et les éléments de l’interface utilisateur en modes clair et sombre.
+Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
 
-Les bonnes pratiques détaillées spécifiques au mode sombre, y compris les directives pour assurer l’accessibilité, sont répertoriées dans [cette section](dark-mode.md#best-practices). <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## Utilisation d’attributs spécifiques pour l’accessibilité {#attributes}
 
