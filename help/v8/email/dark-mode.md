@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
 workflow-type: tm+mt
 source-wordcount: '1515'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Basculer vers le mode sombre"
->abstract="Passez en mode sombre où vous pouvez prévisualiser la manière dont il peut s’afficher et définir des paramètres personnalisés spécifiques. <br>Le rendu final dépend du client de messagerie du destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>abstract="Basculez vers le mode sombre pour prévisualiser le rendu et définir des paramètres personnalisés spécifiques. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Basculer vers le mode sombre"
->abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie du destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
+>abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
 
 Lors de la conception de vos e-mails, le [!DNL Adobe Campaign] [Email Designer](get-started-email-designer.md) vous permet de passer à la vue **[!UICONTROL Mode sombre]**.
 
@@ -133,12 +133,12 @@ Cela signifie qu’il détecte les zones comportant des éléments clairs et som
 >
 >Le rendu final peut varier en fonction du client de messagerie du destinataire. Pour voir une simulation qui se rapproche le plus possible du résultat final pour chaque client de messagerie, utilisez l’option [ Rendu des e-mails ](../preview-test/email-rendering.md).
 
-### Définition du mode sombre personnalisé {#define-custom-dark-mode}
+### Définir le mode sombre personnalisé {#define-custom-dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Utiliser une image spécifique pour le mode sombre"
->abstract="Vous pouvez sélectionner une autre image qui s’affichera lorsque le mode sombre sera activé. <br>L’ajout d’une image spécifique pour le mode sombre ne garantit pas qu’elle s’affiche correctement dans tous les clients de messagerie. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>abstract="Vous pouvez sélectionner une autre image qui s’affichera lorsque le mode sombre sera activé. <br>L’ajout d’une image spécifique pour le mode sombre ne garantit pas qu’elle s’affichera correctement dans tous les clients de messagerie. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
 
 Après avoir basculé en **[!UICONTROL mode sombre]**, vous pouvez choisir de modifier des éléments de style spécifiques de votre contenu qui s’afficheront uniquement lorsque le mode sombre sera activé dans le client de messagerie du destinataire, à condition qu’il prenne en charge cette fonctionnalité.
 
