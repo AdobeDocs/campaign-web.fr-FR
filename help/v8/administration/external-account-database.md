@@ -160,7 +160,7 @@ Dans l’interface utilisateur web d’Adobe Campaign, configurez votre compte e
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-1. Pour configurer le compte externe BigQuery **** Google, renseignez les champs suivants :
+1. Pour configurer le compte externe BigQuery **&#x200B;**&#x200B;Google, renseignez les champs suivants :
 
    * **[!UICONTROL Type]** : BigQuery Google
 
