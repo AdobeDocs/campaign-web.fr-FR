@@ -4,7 +4,7 @@ title: Ajouter des fragments visuels à vos e-mails
 description: Découvrir comment ajouter des fragments visuels à vos e-mails
 badge: label="Disponibilité limitée"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 >Cette fonctionnalité nécessite une mise à jour de Campaign vers la version 8.6.4. En savoir plus dans les [Notes de mise à jour de la console cliente Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
 
-Dans l’interface de Campaign Web, les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs [diffusions par e-mail](../email/get-started-email-designer.md) ou dans des [modèles de contenu](../email/use-email-templates.md). Découvrez comment créer et gérer des fragments de contenu dans [cette section](fragments.md).
+Dans l’interface de Campaign Web, les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs [diffusions par e-mail](../email/get-started-email-designer.md) ou dans des [modèles de contenu](../content/use-email-templates.md). Découvrez comment créer et gérer des fragments de contenu dans [cette section](fragments.md).
 
 ![Représentation visuelle de fragments visuels utilisés](assets/do-not-localize/fragments.gif)
 

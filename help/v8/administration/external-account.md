@@ -1,67 +1,18 @@
 ---
 title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
-exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: 75bb03c393ddafeeb869a44a523ab875a893ec3b
-workflow-type: ht
-source-wordcount: '1400'
-ht-degree: 100%
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 97%
 
 ---
 
-# Gérer des comptes externes {#external-accounts}
+# Comptes externes spécifiques à Campaign {#external-account}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Création d’un compte externe"
->abstract="En tant qu’administrateur ou administratrice Campaign, vous pouvez désormais configurer de nouvelles connexions avec des systèmes externes à partir de l’interface d’utilisation de Campaign Web. Vous pouvez également afficher, mettre à jour et gérer les comptes externes existants."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
+Suivez les étapes ci-dessous pour configurer les paramètres du compte en fonction du type de compte externe que vous avez sélectionné.
 
-Adobe Campaign est fourni avec des comptes externes préconfigurés pour faciliter l’intégration avec différents systèmes. Pour vous connecter à d’autres plateformes ou personnaliser les connexions en fonction de votre workflow, créez des comptes externes à l’aide de l’interface utilisateur web. Cela garantit des transferts de données transparents.
-
-## Créer un compte externe {#create-ext-account}
-
-Pour créer un compte externe, procédez comme suit. Les paramètres détaillés dépendent du type de compte externe. [En savoir plus](#campaign-specific)
-
-1. Dans le menu du volet de gauche, sélectionnez **[!UICONTROL Comptes externes]** sous **[!UICONTROL Administration]**.
-
-1. Cliquez sur **[!UICONTROL Créer un compte externe]**.
-
-   ![Capture d’écran montrant l’option de création d’un compte externe dans l’interface utilisateur web.](assets/external_account_create_1.png)
-
-1. Saisissez votre **[!UICONTROL Libellé]** et sélectionnez le **[!UICONTROL Type]** de votre compte externe.
-
-   >[!NOTE]
-   >
-   >Les paramètres des types spécifiques à Campaign sont décrits dans [cette section](#campaign-specific).
-
-   ![Capture d&#39;écran montrant les champs permettant de saisir le libellé et de sélectionner le type de compte externe.](assets/external_account_create_2.png)
-
-1. Cliquez sur **[!UICONTROL Créer]**.
-
-1. Dans la liste déroulante **[!UICONTROL Options supplémentaires]**, vous pouvez modifier le **[!UICONTROL Nom interne]** ou le chemin du **[!UICONTROL Dossier]** si nécessaire.
-
-   ![Capture d’écran montrant des options supplémentaires pour la configuration du nom interne et du chemin de dossier.](assets/external_account_create_3.png)
-
-1. Activez l&#39;option **[!UICONTROL Exporter automatiquement dans les packages]** pour exporter automatiquement les données gérées par ce compte externe.<!--Exported where??-->
-
-   ![Capture d’écran montrant l’option permettant d’activer l’exportation automatique dans les packages.](assets/external_account_create_exported.png)
-
-1. Dans la section **[!UICONTROL Détails]**, configurez l’accès au compte en spécifiant des informations d’identification selon le type de compte externe choisi. [En savoir plus](#bounce)
-
-1. Cliquez sur **[!UICONTROL Tester la connexion]** pour vérifier que votre configuration est correcte.
-
-1. Dans le menu **[!UICONTROL Plus...]**, dupliquez ou supprimez votre compte externe.
-
-   ![Capture d’écran montrant le menu Plus avec des options pour dupliquer ou supprimer le compte externe.](assets/external_account_create_4.png)
-
-1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Enregistrer]**.
-
-## Comptes externes spécifiques à Campaign {#campaign-specific}
-
-Selon le type de compte externe que vous avez sélectionné, suivez les étapes ci-dessous pour configurer les paramètres du compte.
-
-### E-mails rejetés (POP3) {#bounce}
+## E-mails rejetés (POP3) {#bounce}
 
 Le compte externe « E-mails rejetés » spécifie le compte POP3 externe utilisé pour se connecter au service de messagerie. Tous les serveurs configurés pour l’accès POP3 peuvent recevoir les retours d’e-mails.
 
@@ -103,7 +54,6 @@ Pour configurer un environnement externe POP3 à l’aide de Microsoft OAuth 2.
 
   L’ID de secret client se trouve dans la variable Secrets clients du menu Certificats et secrets de votre application dans le portail Azure.
 
-
 * **[!UICONTROL URL de redirection Azure]**
 
   L’URL de redirection se trouve dans le menu Authentification de votre application dans le portail Azure. Elle doit se terminer par la syntaxe suivante : nl/jsp/oauth.jsp, par exemple `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
@@ -112,11 +62,11 @@ Un accès Internet est nécessaire pour la configuration et pour utiliser le bou
 
 Après avoir saisi les différentes informations d’identification, vous pouvez cliquer sur Configurer la connexion pour terminer la configuration de votre compte externe.
 
-### Routage {#routing}
+## Routage {#routing}
 
 Pour configurer un compte externe spécifique pour les diffusions externes, procédez comme suit.
 
-1. Créez un compte externe. [En savoir plus](../administration/external-account.md#create-ext-account)
+1. Créez un compte externe. [En savoir plus](create-external-account.md)
 
 1. Sélectionnez le type **[!UICONTROL Routage]**.
 
@@ -136,9 +86,9 @@ Pour configurer un compte externe spécifique pour les diffusions externes, proc
 
    ![Capture d’écran montrant la configuration des champs de post-traitement pour le routage des comptes externes.](assets/external-account-post-processing.png){zoomable="yes"}
 
-1. Dans le champ **[!UICONTROL Activité]**, modifiez le nom de l’activité de workflow de post-traitement qui sera affiché dans les journaux. <!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
+1. Dans le champ **[!UICONTROL Activité]**, modifiez le nom de l’activité de workflow de post-traitement qui sera affiché dans les logs. <!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
 
-### Instance d’exécution {#instance-exec}
+## Instance d’exécution {#instance-exec}
 
 Dans le cas d’une architecture segmentée, identifiez les instances d’exécution associées à l’instance de pilotage et établissez des connexions entre elles. Les modèles de messages transactionnels sont déployés sur l’instance d’exécution.
 
@@ -157,114 +107,3 @@ Pour configurer le compte externe d’**[!UICONTROL Instance d’exécution]** 
   Sélectionnez votre compte FDA. Notez que la connexion de la campagne aux systèmes externes est réservée à une utilisation avancée et n’est disponible qu’à partir de la console cliente. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Créer un workflow d’archivage]** : pour chaque instance d’exécution enregistrée dans Message Center, qu’une ou plusieurs instances soient présentes, vous devez créer un workflow d’archivage distinct pour chaque compte externe associé à l’instance d’exécution.
-
-## Comptes externes d’intégration de solutions Adobe
-
-### Adobe Experience Cloud
-
-Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, vous devez configurer le compte externe Adobe Experience Cloud (MAC).
-
-![Capture d’écran montrant les champs de configuration du compte externe Adobe Experience Cloud MAC.](assets/external-MAC.png)
-
-* **[!UICONTROL Serveurs IMS]**
-
-  URL de votre serveur IMS. Assurez-vous que les instances de test et de production pointent sur le même point de terminaison de production IMS.
-
-* **[!UICONTROL Scope IMS]**
-
-  Les périmètres définis ici doivent être un sous-ensemble de ceux provisionnés par IMS.
-
-* **[!UICONTROL Identifiant du client IMS]**
-
-  ID de votre client IMS.
-
-* **[!UICONTROL Secret client IMS]**
-
-  Informations d’identification de votre secret client IMS.
-
-* **[!UICONTROL Serveur de rappel]**
-
-  URL d’accès à votre instance Adobe Campaign.
-
-* **[!UICONTROL Identifiant de l&#39;organisation IMS]**
-
-  Identifiant de votre organisation. Pour trouver l’ID de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){target=_blank}.
-
-* **[!UICONTROL Masque de correspondance]**
-
-  Syntaxe qui permettra la synchronisation des noms de configuration dans Enterprise Dashboard avec les groupes dans Adobe Campaign.
-
-* **[!UICONTROL Serveur]**
-
-  URL de votre instance Adobe Experience Cloud.
-
-* **[!UICONTROL Tenant]**
-
-  Nom de votre tenant Adobe Experience Cloud.
-
-## Transfert de données vers des comptes externes
-
-### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
-
-Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
-
-![Capture d’écran montrant les champs de configuration du compte externe Amazon Simple Storage Service S3.](assets/external-AWS.png)
-
-Lors de la configuration de ce nouveau compte externe, vous devez indiquer les informations suivantes :
-
-* **[!UICONTROL Serveur du compte AWS S3]**
-
-  URL du serveur qui doit être renseignée de la manière suivante :
-
-  `  <S3bucket name>.s3.amazonaws.com/<s3object path>`
-
-
-* **[!UICONTROL ID de la clé d&#39;accès AWS]**
-
-  Pour savoir où trouver votre ID de la clé d’accès AWS, consultez cette [page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
-
-* **[!UICONTROL Clé d&#39;accès secrète à AWS]**
-
-  Pour savoir où trouver votre clé d&#39;accès secrète à AWS, consultez [cette page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
-
-* **[!UICONTROL Région AWS]**
-
-  Pour en savoir plus sur la région AWS, consultez cette [page](https://aws.amazon.com/fr/about-aws/global-infrastructure/regions_az/).
-
-* La case à cocher **[!UICONTROL Utiliser le chiffrement coté serveur]** vous permet de stocker votre fichier en mode chiffré dans S3.
-
-Pour savoir où trouver l’ID de la clé d’accès et la clé d’accès secrète, consultez la [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) d’Amazon Web Services.
-
-### Stockage Azure Blob {#azure-blob-external-account}
-
-Le compte externe **[!UICONTROL Stockage Blob Azure]** peut être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow **[!UICONTROL Transfert de fichier]**. Pour plus d’informations, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
-
-![Capture d’écran montrant les champs de configuration du compte externe Stockage Blob Azure.](assets/external-azure.png)
-
-Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser avec Adobe Campaign, vous devez fournir les détails suivants :
-
-* **[!UICONTROL Serveur]**
-
-  URL de votre serveur de stockage Azure Blob.
-
-* **[!UICONTROL Chiffrement]**
-
-  Type de chiffrement choisi entre **[!UICONTROL Aucun]** et **[!UICONTROL SSL]**.
-
-* **[!UICONTROL Clé d’accès]**
-
-  Pour savoir où trouver votre **** clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
-
-## Hadoop
-
-Le compte externe Hadoop vous permet de connecter votre instance Campaign à votre base de données externe Hadoop. Pour en savoir plus sur Hadoop, consultez la [documentation de la console Campaign V7](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
-
-![Capture d’écran montrant la configuration du compte externe Hadoop.](assets/external-hadoop.png)
-
-* **[!UICONTROL Serveur]**
-
-  URL de votre serveur de stockage Hadoop.
-
-* **[!UICONTROL Compte]**
-
-  Nom du compte de votre serveur Hadoop.

@@ -3,7 +3,7 @@ audience: end-user
 title: Commencer avec les fragments de contenu
 description: Découvrez comment utiliser les fragments de contenu.
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Deux types de fragments sont disponibles :
 
 * Les **fragments d’expression** sont des expressions prédéfinies disponibles à partir d’une entrée dédiée dans l’éditeur d’expression. Campaign comprend un ensemble de blocs de contenu prédéfini qui contiennent des rendus spécifiques que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutation ou un lien vers la page miroir du message. Vous pouvez également créer vos propres fragments d’expression en fonction de vos besoins.
 
-* Les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs [diffusions e-mail](../email/get-started-email-designer.md) ou dans des [modèles de contenu](../email/use-email-templates.md).
+* Les **fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs [diffusions e-mail](../email/get-started-email-designer.md) ou dans des [modèles de contenu](../content/use-email-templates.md).
 
   >[!AVAILABILITY]
   >

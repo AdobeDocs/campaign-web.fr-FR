@@ -3,7 +3,7 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisation, vous planifiez l’envoi d’un e-mail aux membres argent et or du programme de fidélité à une date spécifique.
 
-Basé sur un [modèle de conception](../email/create-email-templates.md) prédéfini, l’e-mail propose également du contenu personnalisé en fonction des attributs de profil du client ou de la cliente.
+Basé sur un [modèle de conception](../content/create-email-templates.md) prédéfini, l’e-mail propose également du contenu personnalisé en fonction des attributs de profil du client ou de la cliente.
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
@@ -83,7 +83,7 @@ Des instructions supplémentaires sur l’utilisation des audiences sont disponi
 
 1. Pour sélectionner l’audience de l’e-mail, cliquez sur le bouton **[!UICONTROL Sélectionner l’audience]** et choisissez une audience existante dans la liste.
 
-   Dans cet exemple, nous allons utiliser une audience existante ciblant des client(e)s appartenant aux niveaux de points de fidélité argent et or.
+   Dans cet exemple, nous allons utiliser une audience existante ciblant les clientes et clients appartenant aux niveaux de points de fidélité argent et or.
 
    ![Capture d’écran montrant le processus de sélection de l’audience](assets/create-audience.png){zoomable="yes"}
 
@@ -117,7 +117,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans 
 
 1. Pour concevoir le contenu de l’e-mail, cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]**.
 
-   Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, utilisez un [modèle de contenu prédéfini](create-email-templates.md).
+   Sélectionnez la méthode à utiliser pour créer le contenu de l’e-mail. Dans cet exemple, utilisez un [modèle de contenu prédéfini](../content/create-email-templates.md).
 
    ![Capture d’écran montrant la sélection d’un modèle de contenu prédéfini](assets/select-template.png){zoomable="yes"}
 
@@ -252,4 +252,4 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

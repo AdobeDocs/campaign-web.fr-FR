@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Un modèle inclut les éléments suivants :
 
 >[!NOTE]
 >
->Les modèles de diffusion diffèrent des [modèles de contenu](../email/create-email-templates.md), qui permettent de réutiliser uniquement le contenu de vos e-mails et de commencer à créer du contenu avec l’un des exemples de modèles d’e-mail prêts à l’emploi.
+>Les modèles de diffusion diffèrent des [modèles de contenu](../content/create-email-templates.md), qui permettent de réutiliser uniquement le contenu de vos e-mails et de commencer à créer du contenu avec l’un des exemples de modèles d’e-mail prêts à l’emploi.
 
 ## Accéder aux modèles de diffusion et les gérer {#access-manage-templates}
 

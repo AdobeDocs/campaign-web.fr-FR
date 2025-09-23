@@ -4,16 +4,20 @@ description: Vous trouverez ici des questions courantes relatives aux rapports d
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
-source-wordcount: '1230'
-ht-degree: 100%
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
+source-wordcount: '1245'
+ht-degree: 98%
 
 ---
 
 # Résolution des problèmes{#troubleshooting}
 
 Cette section contient des questions courantes relatives aux rapports dynamiques.
+
+## Dans quelles langues les rapports dynamiques sont-ils disponibles ? {#langages}
+
+Actuellement, les rapports dynamiques ne sont disponibles qu’en anglais.
 
 ## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne.  {#unique-open-clicks-no-match}
 
@@ -195,9 +199,9 @@ Une divergence entre le nombre d’en-têtes de colonnes et la somme de toutes l
 
   Par exemple :
 
-   * Si un profil A ouvre un e-mail sur trois jours différents, la ventilation par jour affichera A sur trois lignes, bien que dans l’en-tête, A compte pour 1.
+   * Si un profil A ouvre un e-mail sur trois jours différents, la répartition par jour affichera A sur trois lignes, bien que dans l’en-tête, A compte pour 1.
 
-   * Si le profil A clique sur trois liens différents dans un e-mail le même jour, la ventilation par URL de suivi affiche A sur trois lignes, bien que dans l’en-tête, A compte pour 1. Il en va de même pour les ventilations par appareil et navigateur.
+   * Si le profil A clique sur trois liens différents dans un e-mail le même jour, la répartition par URL de suivi affiche A sur trois lignes, bien que dans l’en-tête, A compte pour 1. Il en va de même pour les répartitions par appareil et navigateur.
 
 * **Mesures d’ouverture** : le nombre d’ouvertures est déterminé par l’agrégation du total des événements d’ouverture réels et des événements de clic unique (par identifiant de personne destinataire), à l’exception des cas où aucun événement d’ouverture n’a eu lieu, puisqu’il n’est pas possible de cliquer sur un lien d’e-mail sans événement d’ouverture.
 

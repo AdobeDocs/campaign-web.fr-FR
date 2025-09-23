@@ -3,7 +3,7 @@ audience: end-user
 title: Commencer avec l’assistant IA
 description: Commencer avec l’assistant IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%
@@ -66,7 +66,7 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 * La qualité du contenu généré est fortement influencée par le prompt ou l’objectif marketing que vous définissez. Utilisez un prompt bien défini pour que le modèle GenAI soit interprété avec précision.
 * Chargez des ressources de marque pour garantir un contenu précis et intégré à la marque. Autrement, le contenu est basé sur des informations disponibles au public. Le contenu chargé peut se présenter dans les formats suivants : fichiers PDF, JPEG, PNG ou ZIP (avec les formats de fichiers pris en charge).
 * La taille maximale pour les ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou de nombreuses images peuvent augmenter le temps de traitement.
-* Utilisez des [modèles d’e-mail intégrés](../email/create-email-templates.md), des modèles spécifiques à la marque ou des modèles personnalisés pour créer le contenu de votre e-mail à l’aide de l’assistant IA. Il est recommandé d’utiliser des modèles d’e-mail contenant jusqu’à 8 à 10 images.
+* Utilisez des [modèles d’e-mail intégrés](../content/create-email-templates.md), des modèles spécifiques à la marque ou des modèles personnalisés pour créer le contenu de votre e-mail à l’aide de l’assistant IA. Il est recommandé d’utiliser des modèles d’e-mail contenant jusqu’à 8 à 10 images.
 * Signalez les sorties problématiques à l’aide des icônes de pouces vers le haut, vers le bas ou d’indicateurs lors de la sélection de variantes.
 * Votre utilisation de l’assistant IA est soumise aux directives d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Dans le cadre de l’engagement d’Adobe à la transparence dans l’utilisation d’outils d’IA générative dans la création de médias, Adobe applique Content Credentials (informations de traçabilité du contenu) lorsque le contenu ou un projet qui inclut une ressource générée par un Firefly est téléchargé ou exporté. [En savoir plus](https://helpx.adobe.com/fr/firefly/using/content-credentials.html).

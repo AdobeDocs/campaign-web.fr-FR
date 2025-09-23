@@ -3,7 +3,7 @@ audience: end-user
 title: Créer des fragments de contenu
 description: Découvrez comment créer des fragments de contenu.
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
@@ -70,7 +70,7 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 
 1. Lorsque le contenu est prêt, cliquez sur **Enregistrer**.
 
-Ce fragment de contenu est maintenant prêt à être utilisé lors de la création d’une diffusion ou d’un [modèle de contenu](../email/use-email-templates.md) dans Campaign. Découvrez comment utiliser des fragments d’expression et visuels dans ces sections :
+Ce fragment de contenu est maintenant prêt à être utilisé lors de la création d’une diffusion ou d’un [modèle de contenu](../content/use-email-templates.md) dans Campaign. Découvrez comment utiliser des fragments d’expression et visuels dans ces sections :
 * [Ajouter des fragments visuels à vos e-mails](use-visual-fragments.md)
 * [Ajouter des fragments d’expression à l’éditeur d’expression](use-expression-fragments.md)
 
@@ -83,7 +83,7 @@ Ce fragment de contenu est maintenant prêt à être utilisé lors de la créati
 
 <!--pas vu dans l'UI-->
 
-Tout contenu d’e-mail peut être enregistré en tant que fragment visuel en vue d’une réutilisation ultérieure. Lors de la conception d’un [modèle de contenu](../email/use-email-templates.md) ou d’une diffusion par [e-mail](../email/get-started-email-designer.md), enregistrez une partie du contenu en tant que fragment visuel. Pour ce faire, procédez comme suit :
+Tout contenu d’e-mail peut être enregistré en tant que fragment visuel en vue d’une réutilisation ultérieure. Lors de la conception d’un [modèle de contenu](../content/use-email-templates.md) ou d’une diffusion par [e-mail](../email/get-started-email-designer.md), enregistrez une partie du contenu en tant que fragment visuel. Pour ce faire, procédez comme suit :
 
 1. Dans le [Concepteur d’e-mail](../email/get-started-email-designer.md), cliquez sur le bouton **Plus** en haut à droite de l’écran.
 
@@ -103,7 +103,7 @@ Tout contenu d’e-mail peut être enregistré en tant que fragment visuel en vu
 
    ![Écran Enregistrer la confirmation pour les fragments visuels](assets/fragment-save-confirm.png)
 
-   Ce contenu est désormais un fragment autonome ajouté à la [liste de fragments](#manage-fragments) et accessible à partir du menu dédié. Utilisez ce fragment lors de la création d’un [e-mail](../email/get-started-email-designer.md) ou d’un [modèle de contenu](../email/use-email-templates.md) dans Campaign. [Voici comment procéder](../content/use-visual-fragments.md)
+   Ce contenu est désormais un fragment autonome ajouté à la [liste de fragments](#manage-fragments) et accessible à partir du menu dédié. Utilisez ce fragment lors de la création d’un [e-mail](../email/get-started-email-designer.md) ou d’un [modèle de contenu](../content/use-email-templates.md) dans Campaign. [Voici comment procéder](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >
