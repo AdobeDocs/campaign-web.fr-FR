@@ -3,10 +3,10 @@ keywords: Campaign Web;accueil;thèmes populaires
 description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
+source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 99%
+source-wordcount: '481'
+ht-degree: 91%
 
 ---
 
@@ -54,7 +54,7 @@ Découvrez les dernières améliorations apportées à Adobe Campaign Web et �
 
 >[!TAB Version du 25 septembre]
 
-De nouvelles fonctionnalités et améliorations sont désormais disponibles dans l’interface d’utilisation de Campaign Web. Pour tirer parti de ces améliorations, veillez à mettre à niveau votre environnement Campaign vers la version 8.8. Pour une vue d’ensemble complète, consultez les notes de mise à jour.
+La version de septembre est en ligne. De nouvelles fonctionnalités et améliorations sont désormais disponibles dans l’interface utilisateur web de Campaign, notamment le canal personnalisé pour les diffusions API, la création de compte externe et le verrouillage de contenu d’e-mail. Pour une vue d’ensemble complète, consultez les notes de mise à jour.
 
 [![Bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
