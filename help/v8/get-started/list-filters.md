@@ -3,7 +3,7 @@ audience: end-user
 title: Parcourir et filtrer les listes
 description: Découvrir comment parcourir et filtrer les listes de Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
+source-git-commit: b81f80655b1becf6e1e23f8c0095970c95ebcb05
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
@@ -18,13 +18,13 @@ La plupart des liens du menu de navigation de gauche affichent des listes d’ob
 
 Les listes sont affichées en colonnes. Vous pouvez également afficher des informations supplémentaires en modifiant la configuration des colonnes. Pour ce faire, cliquez sur l’icône **Configurer une colonne pour une disposition personnalisée** dans le coin supérieur droit de la liste.
 
-[La capture d’écran présente l’icône Configurer la colonne utilisée pour personnaliser la disposition des colonnes de la liste.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La capture d’écran présente l’icône Configurer la colonne utilisée pour personnaliser la disposition des colonnes de la liste.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 Dans la fenêtre **Configurer des colonnes**, ajoutez ou supprimez des colonnes et modifiez leur ordre d’affichage.
 
 Vous pouvez modifier l’ordre de votre liste par **glisser-déposer** ou en utilisant les **flèches haut et bas**, comme illustré ci-dessous :
 
-[La capture d’écran montre comment réorganiser les colonnes de la liste à l’aide des du glisser-déposer ou des flèches.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La capture d’écran montre comment réorganiser les colonnes de la liste à l’aide des du glisser-déposer ou des flèches.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 Par exemple, pour les paramètres suivants :
 
@@ -32,7 +32,7 @@ Par exemple, pour les paramètres suivants :
 
 La liste affiche les colonnes suivantes :
 
-[La capture d’écran présente la liste obtenue avec les colonnes configurées en fonction des exemples de paramètres.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La capture d’écran présente la liste obtenue avec les colonnes configurées en fonction des exemples de paramètres.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Trier les données {#sort-lists}
 
@@ -44,7 +44,7 @@ Pour les colonnes numériques ou de date, la flèche **vers le haut** indique qu
 
 Pour trouver les éléments plus rapidement, vous pouvez utiliser la barre de recherche ou les filtres intégrés et personnalisés afin d’adapter la liste selon des critères contextuels.
 
-[La capture d’écran présente les options de filtre disponibles pour affiner la vue Liste.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La capture d’écran présente les options de filtre disponibles pour affiner la vue Liste.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
 Vous trouverez des informations détaillées sur l’utilisation des filtres et la création de filtres personnalisés dans [cette section](../query/filter.md).
 
