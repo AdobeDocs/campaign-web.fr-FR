@@ -4,9 +4,9 @@ description: Découvrir les étapes requises pour commencer à utiliser votre no
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: ht
-source-wordcount: '1555'
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
+workflow-type: tm+mt
+source-wordcount: '1553'
 ht-degree: 100%
 
 ---
@@ -142,8 +142,6 @@ Pour que vous puissiez passer facilement à Campaign v8, les fonctionnalités c
 
 La plupart des concepts sont similaires entre Adobe Campaign v8 et Adobe Campaign Standard. Il existe toutefois quelques différences tel que décrit ci-dessous.
 
-### Changements de terminologie {#terminology-changes}
-
 Voici quelques différences terminologiques entre Campaign Standard et Campaign 8.
 
 * Les ressources personnalisées sont appelées **schémas**.
@@ -160,6 +158,7 @@ De plus, en tant que personne utilisant déjà Campaign, notez que certains conc
 * L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer la préparation des messages, cliquez sur le bouton **Préparer**. [En savoir plus](../../v8/monitor/prepare-send.md)
 * L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu.** [En savoir plus](../../v8/preview-test/preview-test.md).
 * Les listes s’appellent désormais **Audiences**. [En savoir plus](../../v8/audience/gs-audiences-recipients.md).
+
 
 ## Nouvelle expérience client
 
@@ -229,4 +228,4 @@ Accédez au guide de référence approprié pour votre rôle afin de découvrir 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
