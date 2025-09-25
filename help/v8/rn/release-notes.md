@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -159,7 +159,7 @@ Les fonctionnalités suivantes sont disponibles à partir de la version de septe
 
 ### Améliorations {#25-9-improvements}
 
-* Un ensemble de nouveaux opérateurs a été ajouté lors de la configuration d’une condition à l’aide de la fonctionnalité de contenu conditionnel d’Email Designer.
+* Un ensemble de nouveaux opérateurs a été ajouté lors de la configuration d’une condition à l’aide de la fonctionnalité de contenu conditionnel du Concepteur d’e-mail.
 * La dimension de filtrage est désormais disponible dans l’activité de workflow **Créer une audience**. Pour l’afficher ou le modifier, cliquez sur l’icône en regard de la dimension de ciblage. [En savoir plus](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
 
