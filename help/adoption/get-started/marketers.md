@@ -5,7 +5,7 @@ role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2453'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ La principale différence réside dans l’interface d’utilisation. Voici une 
 
 Dans la vidéo ci-dessous, découvrez comment accéder à l’interface d’utilisation de Campaign Web et y naviguer, et comment personnaliser les listes de stock.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453424?quality=12&learn=on&captions=fre_fr){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 Pour plus de détails, consultez la documentation ci-dessous :
 
@@ -54,7 +54,7 @@ Dans Adobe Campaign, un profil désigne un enregistrement stocké dans la base 
 
 1. Découvrez comment accéder aux profils, les gérer et les explorer à l’aide de l’interface d’utilisation de Campaign Web dans cette vidéo :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3448366?quality=12&learn=on&captions=fre_fr){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
 
    En savoir plus dans la documentation [Commencer avec les profils](../../v8/audience/about-recipients.md).
 
@@ -66,7 +66,7 @@ Les audiences désignent un ensemble de profils qui partagent des comportements 
 
 Découvrez comment créer et gérer des audiences, comment sélectionner des audiences pour une diffusion et définir des populations témoins dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3453204?quality=12&learn=on&captions=fre_fr){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
 Pour plus d’informations, voir [Commencer avec les audiences](../../v8/audience/manage-audience.md){target="_blank"}.
 
@@ -144,7 +144,7 @@ L’interface d’utilisation du workflow a été entièrement repensée dans l�
 
 Découvrez le fonctionnement des workflows et comment créer un workflow de ciblage dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3453972?quality=12&learn=on&captions=fre_fr){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
 
 Obtenez plus de détails dans la [documentation sur le workflow](../../v8/workflows/gs-workflows.md).
 
@@ -200,7 +200,7 @@ Liens utiles :
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007?quality=12&learn=on&captions=fre_fr){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
 
 Découvrez comment créer votre premier e-mail ciblé dans la [documentation Créer votre premier e-mail](../../v8/email/create-email.md).
 
@@ -212,13 +212,13 @@ Dans Campaign v8, les étapes détaillées pour créer, tester et envoyer une d
 
    Découvrez comment naviguer dans le concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail et personnaliser et tester votre e-mail dans la vidéo suivante :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3453566?quality=12&learn=on&captions=fre_fr){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
    Le concepteur d’e-mail permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuitive par glisser-déposer. En savoir plus dans la [documentation sur le concepteur d’e-mail](../../v8/email/get-started-email-designer.md)
 
    Découvrez comment créer un e-mail en chargeant un fichier HTML, le rendre compatible avec le concepteur d’e-mail et le convertir en modèle dans cette vidéo :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3447034?quality=12&learn=on&captions=fre_fr){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
    Un fragment de contenu est un composant réutilisable pouvant être référencé dans un ou plusieurs messages. En savoir plus sur les [fragments de contenu](../../v8/content/fragments.md) pour simplifier la création de votre diffusion par e-mail.
 
@@ -228,7 +228,7 @@ Dans Campaign v8, les étapes détaillées pour créer, tester et envoyer une d
 
    Découvrez comment prévisualiser le contenu et la personnalisation des e-mails, envoyer des diffusions de test (BAT), ou encore vérifier le rendu des e-mails dans les clients populaires de bureau, mobiles et web dans cette vidéo :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3450339?quality=12&learn=on&captions=fre_fr){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
 1. **Envoyer un e-mail et consulter les logs**
 
