@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer des BAT
 description: Découvrir comment définir et envoyer des BAT
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 100%
+source-wordcount: '1167'
+ht-degree: 99%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 100%
 >id="acw_email_preview_mode"
 >title="Mode Aperçu"
 >abstract="Prévisualisez et testez le message en incluant la population test à la cible principale."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_proof_target"
+>title="Cible de BAT supplémentaire"
+>abstract="Cible de BAT supplémentaire."
 
 Une fois le contenu de votre message défini, vous pouvez le prévisualiser et le tester en envoyant des BAT aux profils de test. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier son contenu dans le message à l’aide des données de profil de test.
 
