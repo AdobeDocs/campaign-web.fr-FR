@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
-source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
-workflow-type: ht
+exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
+source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
+workflow-type: tm+mt
 source-wordcount: '1536'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -23,9 +24,7 @@ Le [Concepteur d’e-mail](create-email-content.md) [!DNL Adobe Campaign], qui p
 
 En conséquence, les bonnes pratiques pour concevoir un contenu accessible avec [!DNL Adobe Campaign] sont répertoriées ci-dessous.
 
-Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos pages de destination conçus avec [!DNL Adobe Campaign].
-
-<!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
+Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos pages de destination conçues avec [!DNL Adobe Campaign].
  
 ## Garantir la lisibilité du texte {#text-readability}
 
