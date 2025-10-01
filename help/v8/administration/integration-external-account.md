@@ -1,14 +1,15 @@
 ---
 title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+exl-id: 99648377-112b-428a-8faf-5268d730f19a
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Comptes externes d’intégration de solutions Adobe {#integration-external-account}
+# Comptes externes d’intégration de solution Adobe {#integration-external-account}
 
 Selon le type de compte externe d’intégration de solution Adobe que vous avez sélectionné, suivez les étapes ci-dessous pour configurer les paramètres de connexion et de compte afin d’assurer une intégration transparente aux services Adobe.
 
@@ -18,7 +19,7 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, 
 
 ![Capture d’écran montrant les champs de configuration du compte externe Adobe Experience Cloud MAC.](assets/external-MAC.png)
 
-Pour configurer le compte externe **[!UICONTROL Adobe Experience Cloud]**, renseignez les champs suivants :
+Pour configurer le compte externe **[!UICONTROL Adobe Experience Cloud]**, renseignez les champs suivants :
 
 * **[!UICONTROL Serveurs IMS]**
 

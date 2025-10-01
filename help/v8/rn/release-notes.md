@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 Les modifications et améliorations disponibles avec les versions précédentes sont répertoriées sur les pages [2024](release-notes-24.md) et [2025](release-notes-25.md).
 
-## Version du 25 septembre {#25-9-release}
+## Version de septembre 2025 {#25-9-release}
 
-_23 septembre 2025_
+_23 septembre 2025_
 
-Les fonctionnalités suivantes sont disponibles à partir de la version de septembre.
+Les fonctionnalités suivantes sont disponibles à compter de la version de septembre.
 
 <table>
 <thead>
@@ -35,7 +35,7 @@ Les fonctionnalités suivantes sont disponibles à partir de la version de septe
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais, directement à partir de l’interface utilisateur web d’Adobe Campaign, orchestrer et exécuter des diffusions en fonction de canaux d’API personnalisés. Ces diffusions peuvent être autonomes ou faire partie d’un workflow. La configuration du canal d’API personnalisé s’effectue dans la console.</p>
+<p>Vous pouvez désormais, directement à partir de l’interface d’utilisation d’Adobe Campaign Web, orchestrer et exécuter des diffusions basées sur des canaux d’API personnalisés. Ces diffusions peuvent être autonomes ou faire partie d’un workflow. La configuration du canal d’API personnalisé est effectuée dans la console.</p>
 <p>Pour plus d’informations, consultez la <a href="../call-center/gs-custom-channel.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -61,13 +61,13 @@ Les fonctionnalités suivantes sont disponibles à partir de la version de septe
 <table>
 <thead>
 <tr>
-<th><strong>Verrouillage du contenu d'un e-mail</strong><br/></th>
+<th><strong>Verrouillage du contenu des e-mails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Campaign vous permet désormais de verrouiller le contenu dans les modèles d’e-mail, soit en verrouillant l’intégralité du modèle, soit des structures et composants spécifiques. Cela vous permet d’éviter les modifications ou suppressions involontaires, de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.</p>
+<p>Campaign permet désormais de verrouiller du contenu dans les modèles d’e-mail, en verrouillant soit l’ensemble du modèle, soit des structures et composants spécifiques. Cela vous permet d’éviter les modifications ou suppressions involontaires, de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.</p>
 <p>Pour plus d’informations, consultez la <a href="../content/content-locking.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -160,7 +160,7 @@ Les fonctionnalités suivantes sont disponibles à partir de la version de septe
 ### Améliorations {#25-9-improvements}
 
 * Un ensemble de nouveaux opérateurs a été ajouté lors de la configuration d’une condition à l’aide de la fonctionnalité de contenu conditionnel du Concepteur d’e-mail.
-* La dimension de filtrage est désormais disponible dans l’activité de workflow **Créer une audience**. Pour l’afficher ou le modifier, cliquez sur l’icône en regard de la dimension de ciblage. [En savoir plus](../workflows/activities/build-audience.md#build-audience-configuration).
+* La dimension de filtrage est désormais disponible dans l’activité de workflow **Créer une audience**. Pour l’afficher ou la modifier, cliquez sur l’icône en regard de la dimension de ciblage. [En savoir plus](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
 
 NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.

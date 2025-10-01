@@ -3,9 +3,9 @@ title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Pour créer un compte externe, procédez comme suit. Les paramètres de configur
 1. Saisissez votre **[!UICONTROL Libellé]** et sélectionnez le **[!UICONTROL Type]** de votre compte externe.
 
    * [Types spécifiques à Campaign](external-account.md)
-   * [Intégration de la solution Adobe](integration-external-account.md)
-   * [Transférer les données](transfer-external-account.md)
-   * [Base externe](external-account-database.md)
+   * [Intégration de solution Adobe](integration-external-account.md)
+   * [Transférer des données](transfer-external-account.md)
+   * [Base de données externe](external-account-database.md)
 
    ![Capture d&#39;écran montrant les champs permettant de saisir le libellé et de sélectionner le type de compte externe.](assets/external_account_create_2.png)
 

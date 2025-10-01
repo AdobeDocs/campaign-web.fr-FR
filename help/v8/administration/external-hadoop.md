@@ -1,10 +1,11 @@
 ---
 title: Gérer un compte externe
-description: Découvrez comment configurer des comptes externes Hadoop
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+description: Découvrir comment configurer des comptes externes Hadoop
+exl-id: d2dc4d88-a97d-48bb-b668-ed970e138dfd
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+workflow-type: ht
 source-wordcount: '75'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +15,7 @@ Le compte externe Hadoop vous permet de connecter votre instance Campaign à vot
 
 ![Capture d’écran montrant la configuration du compte externe Hadoop.](assets/external-hadoop.png)
 
-Pour configurer le compte externe **[!UICONTROL Hadoop]**, renseignez les champs suivants :
+Pour configurer le compte externe **[!UICONTROL Hadoop]**, renseignez les champs suivants :
 
 * **[!UICONTROL Serveur]**
 

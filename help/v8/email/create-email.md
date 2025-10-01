@@ -4,7 +4,7 @@ title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1625'
 ht-degree: 100%
 
@@ -199,7 +199,7 @@ Des informations supplémentaires sur la prévisualisation des e-mails et l’en
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
 >title="La simulation de contenu n’est pas prise en charge."
->abstract="Le bouton Simuler le contenu est désactivé, car la diffusion multilingue ne contient qu’un seul ensemble de paramètres régionaux.****"
+>abstract="Le bouton **Simuler le contenu** est désactivé, car la diffusion multilingue ne contient qu’un seul ensemble de paramètres régionaux."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_reconcilied_deliveries"
@@ -252,4 +252,4 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
