@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 99%
 
 ---
 
@@ -77,8 +77,10 @@ ht-degree: 100%
       + [Créer un message transactionnel](transactional-messaging/create-transactional.md)
       + [Valider votre message transactionnel](transactional-messaging/validate-transactional.md)
       + [Surveiller des messages transactionnels](transactional-messaging/monitor-transactional.md)
+      + [Enrichissement des messages transactionnels avec des données de profil](transactional-messaging/profile-enrichment.md)
    + [Envoyer des diffusions externes](msg/send-external-deliveries.md)
    + [Ajouter des offres à vos messages](msg/offers.md)
+   + [Configurer une diffusion multilingue](msg/multilingual.md)
    + [Envoyer des messages à vos personnes abonnées](msg/send-to-subscribers.md)
    + [Configurer les paramètres de diffusion](advanced-settings/delivery-settings.md)
    + Prévisualiser et tester votre diffusion {#preview-test}

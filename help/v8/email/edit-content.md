@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
-workflow-type: ht
-source-wordcount: '1229'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -33,17 +33,12 @@ ht-degree: 100%
 >abstract="Par défaut, le tracking est activé pour la diffusion, ce qui signifie que tous les liens inclus dans le contenu du message sont suivis. Vous pouvez désactiver cette option à partir d’ici."
 >additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Ajouter des liens et suivre les messages"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_multilingual"
->title="Ajouter des langues"
->abstract="Dans cet onglet, vous trouverez une liste des langues dans lesquelles la diffusion doit être envoyée. Vous pouvez ajouter d’autres langues en cliquant sur le bouton Ajouter une langue, ou en dupliquant une autre langue via cet onglet."
-
 La fenêtre **[!UICONTROL Modifier le contenu]** de l’e-mail vous permet d’effectuer les opérations suivantes :
 
 * Définir des éléments de base de votre message, tels que l’adresse de l’expéditeur et l’objet.
 * Effectuer des actions supplémentaires telles que l’ajout de pièces jointes ou la configuration d’offres.
 * Accéder au [concepteur d’e-mail](get-started-email-designer.md#start-authoring) pour commencer à créer le contenu de votre e-mail.
-* Ajoutez des variantes linguistiques à vos diffusions.
+* Ajoutez des variantes linguistiques à vos diffusions. [En savoir plus](../msg/multilingual.md)
 
 >[!NOTE]
 >
@@ -110,82 +105,5 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
    * [Donner un style à votre contenu](get-started-email-style.md)
 
 1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
-
-1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)
-
-## Configurer une diffusion multilingue {#multilingual-delivery}
-
-Dans l’interface d’utilisation de Campaign Web, vous pouvez configurer vos diffusions par e-mail en tant que diffusions multilingues, ce qui vous permet d’envoyer des messages en fonction de la langue préférée d’un profil. Lorsqu’aucune préférence n’est définie, le message est envoyé dans la langue par défaut.
-
-Dans une diffusion multilingue, la gestion des langues repose sur des variantes. Chaque variante représente une langue.
-
-Pendant la création de la diffusion, vous pouvez ajouter le nombre de variantes qui correspond à celui des langues dont vous avez besoin pour le message. Vous pouvez également définir la langue par défaut lors de l’ajout de nouvelles langues.
-
-### Ajouter une variante linguistique
-
-Pour créer des variantes linguistiques, procédez comme suit :
-
-1. Cliquez sur le bouton **[!UICONTROL Ajouter une langue]** dans la section supérieure de l’écran de configuration de l’e-mail.
-
-   >[!IMPORTANT]
-   >
-   >Le bouton **[!UICONTROL Ajouter une langue]** n’est disponible que si la dimension cible contient le schéma Langue. Pour en savoir plus sur les schémas et les dimensions cibles, consultez la [documentation détaillée](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
-
-   ![](assets/edit-content_2.png){zoomable="yes"}
-
-
-1. Sélectionnez la langue à ajouter dans la liste déroulante **[!UICONTROL Langue]**. Lors de l’ajout de la première langue, elle est définie par défaut et le contenu actuel est celui par défaut. Lorsque vous ajoutez de nouvelles langues, le contenu est basé sur le contenu par défaut.
-
-   >[!NOTE]
-   >
-   >Les langues disponibles dans cette liste dépendent des valeurs définies par l’attribut Langue (valeurs telles que : système, utilisateur ou utilisatrice, dbenum, etc.) En savoir plus sur la gestion des énumérations dans cette [section](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/conf/enumerations){target=_blank}.
-
-
-   ![](assets/edit-content_3.png){zoomable="yes"}
-
-   Par exemple ici, pour l’anglais (US) :
-
-   ![](assets/edit-content_8.png){zoomable="yes"}
-
-
-1. Répétez ce processus pour ajouter d’autres langues. Le panneau **[!UICONTROL Langue]** affiche la liste des langues que vous avez choisies, le nombre de langues différentes ainsi que la langue par défaut.
-
-   Par exemple, si vous avez choisi l’anglais, le français et le suédois, vous pouvez voir ces 3 langues comme illustré ci-dessous :
-
-   ![](assets/edit-content_9.png){zoomable="yes"}
-
-   Vous pouvez cliquer sur le bouton Développer dans le coin supérieur droit pour supprimer toutes les langues.
-
-### Définir le contenu d’e-mail pour chaque variante
-
-Une fois les langues définies, définissez le contenu de l’e-mail qui sera envoyé aux profils avec cette langue préférée.
-
-Pour définir le contenu d’un e-mail, procédez comme suit :
-
-1. Ouvrez le [Concepteur d’e-mail](get-started-email-designer.md#start-authoring) en cliquant sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]**.
-
-   >[!NOTE]
-   >
-   >Vous pouvez également pointer sur l’aperçu de l’e-mail et sélectionner **[!UICONTROL Ouvrir le concepteur d’e-mail]**.
-
-   ![](assets/edit-content_11.png){zoomable="yes"}
-
-
-1. Vous pouvez prévisualiser la diffusion en cliquant sur le bouton **[!UICONTROL Simuler le contenu]**, puis choisir le profil et la langue d’affichage de l’e-mail.
-
-1. Dans la fenêtre Simuler le contenu, vous pouvez changer de profil pour prévisualiser le contenu de l’e-mail correspondant à la langue configurée pour ce profil.
-
-   ![](assets/edit-content_5.png){zoomable="yes"}
-
-### Dupliquer ou supprimer des variantes linguistiques
-
-Vous pouvez cliquer sur le bouton Développer dans le coin supérieur droit puis cliquer sur le bouton **[!UICONTROL Supprimer toutes les variantes]** pour supprimer toutes les langues.
-
-![](assets/edit-content_13.png){zoomable="yes"}
-
-Pour supprimer une variante linguistique, cliquez sur les trois points à droite de l’onglet et sélectionnez Supprimer.
-
-Pour dupliquer une variante linguistique, cliquez sur les trois points à droite de l’onglet et sélectionnez Dupliquer. Si vous choisissez de dupliquer une langue autre que la langue par défaut, le contenu dupliqué sera basé sur la langue que vous avez choisie pour la duplication.
-
 
 1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)
