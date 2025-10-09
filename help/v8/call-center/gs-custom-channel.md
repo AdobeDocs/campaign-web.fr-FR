@@ -4,7 +4,7 @@ title: Commencer avec les canaux personnalisés
 description: Découvrir comment créer et envoyer des diffusions de canaux personnalisés à l’aide d’Adobe Campaign Web
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 100%
 
