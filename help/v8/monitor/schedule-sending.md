@@ -69,7 +69,7 @@ Vous pouvez créer une diffusion autonome dans une campagne sans utiliser de wor
 
 ## Planifier une diffusion dans un workflow de campagne
 
-Dans le cadre d’un workflow de campagne, la bonne pratique consiste à utiliser l’activité **[!UICONTROL Planificateur]** pour appliquer une date et une heure de lancement du workflow, impliquant l’envoi de la diffusion. [En savoir plus sur le planificateur ](../workflows/activities/scheduler.md)
+Dans le cadre d’un workflow de campagne, la bonne pratique consiste à utiliser l’activité **[!UICONTROL Planificateur]** pour appliquer une date et une heure de lancement du workflow, impliquant l’envoi de la diffusion. [En savoir plus sur le planificateur &#x200B;](../workflows/activities/scheduler.md)
 
 ![Planifier une diffusion dans un workflow de campagne](assets/schedule-workflow.png){zoomable="yes"}
 
