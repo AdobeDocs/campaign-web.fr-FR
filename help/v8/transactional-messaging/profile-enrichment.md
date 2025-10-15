@@ -1,49 +1,49 @@
 ---
 audience: end-user
-title: Enrichissement du profil dans les messages transactionnels
-description: Découvrir comment créer un message transactionnel dans l’interface d’utilisation de Campaign Web
+title: Enrichissement des profils dans les messages transactionnels
+description: Découvrez comment créer un message transactionnel dans l’interface d’utilisation de Campaign Web.
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 
-# Enrichissement des messages transactionnels avec des données de profil{#profile-enrichment}
+# Enrichir des messages transactionnels avec des données de profils{#profile-enrichment}
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera déployée globalement dans une prochaine version. Votre serveur doit être mis à niveau vers la version 8.8.2 ou ultérieure.
+>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version. Votre serveur doit être mis à niveau vers la version 8.8.2 ou une version ultérieure.
 >
->Actuellement, cette fonctionnalité n’est disponible que pour les e-mails.
+>Cette fonctionnalité n’est actuellement disponible que pour les e-mails.
 
-Cette fonctionnalité vous permet de personnaliser les messages transactionnels en liant les champs de la base de données Adobe Campaign au contenu des messages. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant des seuils de performances.
+Cette fonctionnalité vous permet de personnaliser les messages transactionnels en liant des champs de la base de données Adobe Campaign au contenu des messages. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant vos seuils de performances.
 
-* Les messages transactionnels basés sur un événement utilisent des données contenues dans l&#39;événement lui-même.
-* Les messages transactionnels basés sur un profil utilisent des données contenues dans la base de données Adobe Campaign.
+* Les messages transactionnels basés sur des événements utilisent les données que contiennent les événements.
+* Les messages transactionnels basés sur des profils utilisent les données contenues dans la base de données Adobe Campaign.
 
-Pour configurer l’enrichissement des profils, procédez comme suit :
+Pour configurer l’enrichissement des profils, procédez comme suit :
 
-1. Créez le message transactionnel, [en savoir plus](#create-enrichment)
-1. Définissez le type d&#39;événement, [en savoir plus](#event-enrichment)
-1. Configurez les paramètres d&#39;enrichissement, [en savoir plus](#settings-enrichment)
-1. Définir le contenu, [en savoir plus](#content-enrichment)
-1. Validation et envoi, [en savoir plus](#send-enrichment)
+1. Créez le message transactionnel. [En savoir plus](#create-enrichment)
+1. Définissez le type d’événement. [En savoir plus](#event-enrichment)
+1. Configurez les paramètres d&#39;enrichissement. [En savoir plus](#settings-enrichment)
+1. Définissez le contenu. [En savoir plus](#content-enrichment)
+1. Validez et envoyez. [En savoir plus](#send-enrichment)
 
 ## Créer le message transactionnel{#create-enrichment}
 
 Tout d’abord, vous devez créer un message transactionnel.
 
-1. Dans la section **[!UICONTROL Messages déclenchés]**, accédez à **[!UICONTROL Messages transactionnels]** et créez un message transactionnel.
+1. Dans la section **[!UICONTROL Messages déclenchés]**, accédez à **[!UICONTROL Messages transactionnels]** et créez un nouveau message transactionnel.
 
    ![](assets/transactional-browse.png){zoomable="yes"}
 
 1. Choisissez un modèle et définissez les propriétés. Pour en savoir plus à ce sujet, consultez cette [page](create-transactional.md#transactional-message).
 
-## Définition du type d’événement{#event-enrichment}
+## Définir le type d’événement{#event-enrichment}
 
-Vous devez ensuite définir l’événement comme basé sur le profil pour cibler les données contenues dans la base de données Adobe Campaign.
+Vous devez ensuite définir l’événement en tant qu’événement basé sur des profils pour cibler les données contenues dans la base de données Adobe Campaign.
 
 1. Dans la section **Type d’événement**, sélectionnez **Sélectionner le type d’événement**, puis choisissez si vous souhaitez utiliser un type d’événement existant ou créer le vôtre.
 
@@ -53,18 +53,18 @@ Vous devez ensuite définir l’événement comme basé sur le profil pour cible
 
    ![](assets/profile-enrich.png){zoomable="yes"}
 
-1. Saisissez les informations relatives au type d&#39;événement :
+1. Saisissez les informations relatives au type d’événement :
 
    * Pour un type d’événement existant, sélectionnez-le dans la liste.
-   * Pour un nouveau, ajoutez un libellé et un nom.
+   * Pour un nouveau type d’événement, ajoutez un libellé et un nom.
 
-1. Choisissez ensuite **Profile RT** dans le menu déroulant **Type d’événement**.
+1. Ensuite, sélectionnez **Profil RT** dans la liste déroulante **Type d’événement**.
 
    ![](assets/profile-enrich1.png){zoomable="yes"}
 
 ## Configurer les paramètres d’enrichissement{#settings-enrichment}
 
-À présent, ajoutons des champs à l’événement qui vous permettront de personnaliser le message transactionnel.
+À présent, ajoutons des champs à l’événement. Ceux-ci vous permettront ensuite de personnaliser le message transactionnel.
 
 1. Dans la section **Données**, cliquez sur **Paramètres d’enrichissement**.
 
@@ -72,9 +72,9 @@ Vous devez ensuite définir l’événement comme basé sur le profil pour cible
 
    >[!NOTE]
    >
-   >Ce bouton est disponible uniquement lorsque vous définissez un événement basé sur un profil.
+   >Ce bouton est disponible uniquement lorsque vous définissez un événement basé sur des profils.
 
-1. Dans la section **Attributs supplémentaires**, cliquez sur **ajouter un attribut** et sélectionnez les champs nécessaires.
+1. Dans la section **Attributs supplémentaires**, cliquez sur **Ajouter un attribut** et sélectionnez les champs nécessaires.
 
    ![](assets/profile-enrich3.png){zoomable="yes"}
 
@@ -93,18 +93,18 @@ Vous devez ensuite définir le contenu du message transactionnel.
 
    ![](assets/template-content.png){zoomable="yes"}
 
-1. Lors de l’utilisation de la personnalisation, sur la ligne d’objet par exemple, utilisez le menu **Enrichissement du profil** pour ajouter les champs basés sur le profil précédemment définis.
+1. Lorsque vous utilisez la personnalisation, sur la ligne d’objet par exemple, utilisez le menu **Enrichissement de profil** pour ajouter les champs basés sur des profils, que vous avez précédemment définis.
 
    ![](assets/profile-enrich4.png){zoomable="yes"}
 
 
 ## Valider et envoyer{#send-enrichment}
 
-Enfin, vous devez valider et envoyer la diffusion.
+Pour finir, vous devez valider et envoyer la diffusion.
 
 1. Validez la diffusion en simulant le contenu et en envoyant des BAT. Consultez cette [page](validate-transactional.md).
 
-1. Cliquez sur le bouton **[!UICONTROL Vérifier et publier]** pour créer et publier le message. Les déclencheurs peuvent maintenant lancer l’envoi de votre message transactionnel.
+1. Cliquez sur le bouton **[!UICONTROL Vérifier et publier]** pour créer et publier le message. Les déclencheurs peuvent désormais exécuter l’envoi de votre message transactionnel.
 
 
 <!--

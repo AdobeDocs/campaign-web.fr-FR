@@ -6,9 +6,9 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 99%
       + [Créer un message transactionnel](transactional-messaging/create-transactional.md)
       + [Valider votre message transactionnel](transactional-messaging/validate-transactional.md)
       + [Surveiller des messages transactionnels](transactional-messaging/monitor-transactional.md)
-      + [Enrichissement des messages transactionnels avec des données de profil](transactional-messaging/profile-enrichment.md)
+      + [Enrichir des messages transactionnels avec des données de profils](transactional-messaging/profile-enrichment.md)
    + [Envoyer des diffusions externes](msg/send-external-deliveries.md)
    + [Ajouter des offres à vos messages](msg/offers.md)
    + [Configurer une diffusion multilingue](msg/multilingual.md)
@@ -276,7 +276,7 @@ ht-degree: 99%
    + [Gérer les mappings de ciblage](administration/target-mappings.md)
    + [Utiliser les schémas](administration/schemas.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)
       + [Intégration de solution Adobe](administration/integration-external-account.md)

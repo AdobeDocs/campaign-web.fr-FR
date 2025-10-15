@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 Les modifications et améliorations disponibles avec les versions précédentes sont répertoriées sur les pages [2024](release-notes-24.md) et [2025](release-notes-25.md).
 
-## Mises à jour d’octobre 2025 {#25-9-updates}
+## Mises à jour d’octobre 2025 {#25-9-updates}
 
-_9 octobre 2025_
+_9 octobre 2025_
 
 <table>
 <thead>
 <tr>
-<th><strong>Fonctionnalités multilingues pour les messages transactionnels, les notifications push et les SMS (LA)</strong><br/></th> 
+<th><strong>Fonctionnalités multilingues pour les messages transactionnels, les notifications push et les SMS (disponibilité limitée)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais envoyer plusieurs messages transactionnels, notifications push et SMS dans différentes langues dans l’interface utilisateur web d’Adobe Campaign. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix.</p>
-<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera déployée globalement dans une prochaine version.</p>
+<p>Vous pouvez désormais envoyer plusieurs messages transactionnels, notifications push et SMS dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues que vous avez choisies.</p>
+<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -44,14 +44,14 @@ _9 octobre 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Enrichissement du profil dans les messages transactionnels (LA)</strong><br/></th> 
+<th><strong>Enrichissement des profils dans les messages transactionnels (disponibilité limitée)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Cette fonctionnalité vous permet de personnaliser les messages transactionnels en liant les champs de la base de données Adobe Campaign au contenu du message. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant des seuils de performances.</p>
-<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera déployée globalement dans une prochaine version. Actuellement, cette fonctionnalité n’est disponible que pour les e-mails.</p>
+<p>Cette fonctionnalité vous permet de personnaliser les messages transactionnels en liant des champs de la base de données Adobe Campaign au contenu des messages. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant vos seuils de performances.</p>
+<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version. Cette fonctionnalité n’est actuellement disponible que pour les e-mails.</p>
 <p>Pour plus d’informations, consultez la <a href="../transactional-messaging/profile-enrichment.md">documentation détaillée</a>.</p>
 </td>
 </tr>
