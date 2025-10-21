@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 100%
+source-wordcount: '1302'
+ht-degree: 90%
 
 ---
 
@@ -60,7 +60,7 @@ Vous pouvez ainsi :
 * **Copiez** l’activité. Consultez [cette section](#copy).
 * **Déplacez** une activité et tous ses nœuds enfant vers une autre transition. Consultez [cette section](#move).
 * Accédez aux **Options d’exécution** de l’activité.
-* Accédez aux **Journaux et tâches** de l’activité.
+* Accédez aux **Logs et tâches** de l’activité.
 
 Plusieurs activités de **Ciblage**, telles que **Combiner** ou **Déduplication**, vous permettent de traiter la population restante et de l’inclure dans une transition de sortie supplémentaire. Par exemple, si vous utilisez une activité **Partage**, le complément est constitué de la population qui ne correspond à aucun des sous-ensembles définis précédemment. Pour utiliser cette fonctionnalité, activez l’option **Générer le complément**.
 
@@ -106,7 +106,12 @@ Toutes les activités permettent de gérer les options d’exécution. Sélectio
 
 ![Panneau Options d’exécution](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### Propriétés
+### Propriétés {#properties}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_properties"
+>title="Propriétés d’une activité    "
+>abstract="Cette section vous permet de définir comment et où une activité s’exécute. Vous pouvez définir l’action d’exécution, limiter la durée d’exécution, choisir un fuseau horaire, attribuer l’affinité de la machine, gérer le comportement asynchrone et spécifier ce qui se passe en cas d’erreur."
 
 Le champ **Exécution** vous permet de définir l&#39;action à effectuer au moment du démarrage de la tâche.
 
@@ -118,11 +123,21 @@ Le champ **Affinité** vous permet de forcer l’exécution d’un workflow ou d
 
 Le champ **Comportement** vous permet de définir la marche à suivre en cas de tâches asynchrones.
 
-### Gestion des erreurs
+### Gestion des erreurs {#execution-options}
 
-Le champ **En cas d’erreur** vous permet de définir l’action à effectuer si l’activité rencontre une erreur.
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_error"
+>title="Script d’initialisation"
+>abstract="Cette section vous permet de définir ce qui se passe en cas d’échec d’une activité. Vous pouvez choisir des actions telles que l’arrêt du workflow, le déplacement vers l’activité suivante ou le déclenchement d’un processus de gestion des erreurs personnalisé."
 
-### Script d’initialisation
+Le champ **En cas d’erreur** permet d’indiquer l’action à effectuer si l’activité rencontre une erreur. Consultez cette [section](workflow-settings.md#error-settings).
+
+### Script d’initialisation {#initialization-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_initialization"
+>title="Script d’initialisation"
+>abstract="Cette section vous permet d’ajouter un JavaScript qui s’exécute au démarrage de l’activité. Utilisez-la pour initialiser des variables, définir des paramètres ou préparer des données spécifiques à l’exécution de cette activité."
 
 Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de l’activité. Consultez la section relative aux [variables d’événement](../workflows/event-variables.md).
 

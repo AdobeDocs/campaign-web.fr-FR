@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser les règles métier (typologies)
 description: Découvrez comment utiliser les typologies et les règles de typologie pour contrôler, filtrer et surveiller l’envoi des diffusions.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
-workflow-type: ht
-source-wordcount: '1474'
-ht-degree: 100%
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+workflow-type: tm+mt
+source-wordcount: '1503'
+ht-degree: 85%
 
 ---
 
@@ -88,69 +88,25 @@ Les détails de la typologie s’ouvrent. Sur cet écran, référencez directeme
 >title="Propriétés de la règle de typologie"
 >abstract="Définissez les propriétés de la règle de typologie. Les règles **Contrôle** vérifient la qualité et la validité du message avant l’envoi, tandis que les règles **Filtrage** excluent des segments de l’audience cible en fonction de critères spécifiques.<br/><br/>Vous pouvez également modifier l’ordre d’exécution de la règle pour gérer la séquence d’exécution des règles de typologie lorsque plusieurs règles du même type sont exécutées au cours de la même phase de traitement des messages."
 
-Pour créer une règle de typologie, accédez au menu **[!UICONTROL Règles métier]**, puis sélectionnez l’onglet **[!UICONTROL Règles de typologie]**.
+Deux types de règles de typologie sont disponibles :
 
-Cliquez sur le bouton **[!UICONTROL Créer une règle de typologie]**, puis suivez les étapes détaillées ci-dessous.
+* **Contrôle** : vérifie la qualité et la validité du message avant l’envoi (par exemple, l’affichage des caractères, la longueur du SMS, le format d’adresse, le raccourcissement des URL). Ces règles sont créés à l’aide d’une interface de script pour définir une logique complexe pour la vérification et la modification du contenu.
 
-### Définir les propriétés de la règle de typologie {#properties}
+* **Filtrage** : exclut des segments de l’audience cible en fonction de critères spécifiques tels que l’âge, l’adresse, le pays ou les numéros de téléphone. Ces règles sont liées à une dimension de ciblage.
 
-Définissez les propriétés de la règle de typologie :
+>[!NOTE]
+>
+>Pour l’instant, seules les règles de typologie **Contrôle** et **Filtrage** peuvent être créées à partir de l’interface d’utilisation web. Pour créer d’autres types de règles, utilisez la console cliente. [Découvrir comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
-1. Saisissez un **[!UICONTROL libellé]** pour la règle.
+Pour créer une règle de typologie, procédez comme suit :
 
-   ![Interface de création des règles de contrôle](assets/business-rules-control-rule.png)
+1. Accédez au menu **[!UICONTROL Règles métier]**, puis sélectionnez l’onglet **[!UICONTROL Règles de typologie]**.
 
-1. Sélectionnez le **[!UICONTROL type]** de la règle de typologie :
+1. Cliquez sur le bouton **[!UICONTROL Créer une règle de typologie]**, puis suivez les étapes détaillées ci-dessous.
 
-   * **Contrôle** : vérifie la qualité et la validité du message avant l’envoi (par exemple, l’affichage des caractères, la longueur du SMS, le format d’adresse, le raccourcissement des URL). Ces règles sont créés à l’aide d’une interface de script pour définir une logique complexe pour la vérification et la modification du contenu.
+[Créer une règle de typologie](assets/business-rules-create-typo.png)
 
-   * **Filtrage** : exclut des segments de l’audience cible en fonction de critères spécifiques tels que l’âge, l’adresse, le pays ou les numéros de téléphone. Ces règles sont liées à une dimension de ciblage.
-
-   >[!NOTE]
-   >
-   >Pour l’instant, seules les règles de typologie **Contrôle** et **Filtrage** peuvent être créées à partir de l’interface d’utilisation web. Pour créer d’autres types de règles, utilisez la console cliente. [Découvrir comment créer des règles de typologie dans la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
-
-1. Sélectionnez un **[!UICONTROL Canal]** à associer à la règle.
-
-1. Désactivez l’option **[!UICONTROL Active]** si vous ne souhaitez pas que la règle soit active immédiatement après sa création.
-
-1. Définissez l’**[!UICONTROL ordre d’exécution]** de la règle.
-
-   Par défaut, l’ordre des règles de typologie est défini sur 50. Adaptez cette valeur pour gérer la séquence d’exécution des règles de typologie lorsque plusieurs règles d’un même type sont exécutées au cours de la même phase de traitement des messages. Par exemple, une règle de filtrage dont l’ordre d’exécution est défini sur 20 sera exécutée avant une règle de filtrage dont l’ordre d’exécution est défini sur 30.
-
-1. Développez la section **[!UICONTROL Options supplémentaires]** pour accéder aux paramètres avancés, tels que le nom interne de la règle, son dossier de stockage et sa description.
-
-1. Pour les règles de contrôle, deux champs supplémentaires sont disponibles dans les options supplémentaires. Indiquez le moment où la règle doit s’appliquer et son niveau d’alerte :
-
-   * **[!UICONTROL Phase]** : indiquez à quelle étape du cycle de vie de la diffusion la règle sera appliquée. Sélectionnez la valeur dans la liste déroulante **[!UICONTROL Phase]**. Développez la section ci-dessous pour plus d’informations sur les valeurs possibles.
-
-   +++Phases des règles de contrôle :
-
-   **[!UICONTROL Au début du ciblage]** : évitez l’exécution de l’étape de personnalisation en cas d’erreurs.
-
-   **[!UICONTROL Après le ciblage]** : si vous devez connaître le volume de la cible pour appliquer la règle de contrôle, sélectionnez cette phase. Par exemple, la règle de contrôle **[!UICONTROL Vérifier la taille du BAT]** s’applique après chaque étape de ciblage. Cette règle empêche la personnalisation des messages si les personnes destinataires du BAT sont trop nombreuses.
-
-   **[!UICONTROL Au début de la personnalisation]** : sélectionnez cette phase lorsque le contrôle porte sur la validation de la personnalisation des messages. La personnalisation des messages est réalisée au cours de la phase d’analyse.
-
-   **[!UICONTROL À la fin de l’analyse]** : effectuez des vérifications nécessitant une personnalisation complète du message.
-
-+++
-
-   * **[!UICONTROL Niveau]** : indiquez le niveau d’alerte de la règle. Pour plus d’informations, développez la section ci-dessous.
-
-   +++Niveaux des règles de contrôle :
-
-   **[!UICONTROL Erreur]** : arrêtez la préparation du message.
-
-   **[!UICONTROL Avertissement]** : affichez un avertissement dans les logs de préparation.
-
-   **[!UICONTROL Info]** : affichez des informations dans les logs de préparation.
-
-   **[!UICONTROL Verbeux]** : affichez les informations dans les logs serveur.
-
-+++
-
-### Créer le contenu de la règle {#build}
+### Définir les propriétés principales de la règle {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
@@ -162,17 +118,84 @@ Définissez les propriétés de la règle de typologie :
 >title="Code"
 >abstract="Les règles **Contrôle** vérifient la qualité et la validité des messages avant l’envoi (par exemple, l’affichage des caractères, la longueur du SMS, le format d’adresse, le raccourcissement des URL). Ces règles sont créées à l’aide de code JavaScript."
 
-Une fois les propriétés de la règle de typologie définies, créez le contenu de la règle.
+Il s’agit des propriétés principales lors de la création d’une règle de typologie.
 
-* Pour les **règles de contrôle**, cliquez sur le bouton **Modifier le code** et saisissez la logique de la règle en JavaScript. Dans l’exemple ci-dessous, une règle est créée pour afficher un avertissement dans les logs si la cible est vide.
+>[!BEGINTABS]
 
-  ![Éditeur de code de règle de contrôle](assets/business-rules-code.png)
+>[!TAB Règles de contrôle]
 
-* Pour les **règles de filtrage**, sélectionnez la dimension de ciblage et cliquez sur le bouton **[!UICONTROL Ajouter des règles]** pour définir les critères de filtrage à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
+1. Saisissez un **[!UICONTROL libellé]** pour la règle.
 
-  ![Concepteur de requête de règle de filtrage](assets/business-rules-query.png)
+[Créer une règle de contrôle](assets/business-rules-create-typo1.png)
 
-Lorsque votre règle est prête, cliquez sur le bouton **[!UICONTROL Créer]** pour créer la règle de typologie. Référencez la règle dans une typologie pour l’appliquer aux messages.
+1. Développez la section **[!UICONTROL Options supplémentaires]** pour accéder aux paramètres avancés, tels que le nom interne de la règle, l’espace de stockage du dossier et la description. Vous pouvez également spécifier le moment où la règle doit s’appliquer et son niveau d’alerte. Pour plus d’informations, développez les sections ci-dessous.
+
+   +++Phases :
+
+   Indiquez à quel moment du cycle de vie des diffusions la règle sera appliquée. Sélectionnez la valeur dans la liste déroulante **[!UICONTROL Phase]** :
+
+   * **[!UICONTROL Au début du ciblage]** : évitez l’exécution de l’étape de personnalisation en cas d’erreurs.
+
+   * **[!UICONTROL Après le ciblage]** : si vous devez connaître le volume de la cible pour appliquer la règle de contrôle, sélectionnez cette phase. Par exemple, la règle de contrôle **[!UICONTROL Vérifier la taille du BAT]** s’applique après chaque étape de ciblage. Cette règle empêche la personnalisation des messages si les personnes destinataires du BAT sont trop nombreuses.
+
+   * **[!UICONTROL Au début de la personnalisation]** : sélectionnez cette phase lorsque le contrôle porte sur la validation de la personnalisation des messages. La personnalisation des messages est réalisée au cours de la phase d’analyse.
+
+   * **[!UICONTROL À la fin de l’analyse]** : effectuez des vérifications nécessitant une personnalisation complète du message.
+
+   +++
+
+   +++Niveau :
+
+   Indiquez le niveau d’alerte de la règle :
+
+   * **[!UICONTROL Erreur]** : arrêtez la préparation du message.
+
+   * **[!UICONTROL Avertissement]** : affichez un avertissement dans les logs de préparation.
+
+   * **[!UICONTROL Info]** : affichez des informations dans les logs de préparation.
+
+   * **[!UICONTROL Verbeux]** : affichez les informations dans les logs serveur.
+
+   +++
+
+1. Pour créer le contenu de la règle, cliquez sur le bouton **Modifier le code** et saisissez la logique de la règle à l’aide de JavaScript. Dans l’exemple ci-dessous, une règle est créée pour afficher un avertissement dans les logs si la cible est vide.
+
+   ![Éditeur de code de règle de contrôle](assets/business-rules-code.png)
+
+1. Cliquez sur **Créer**.
+
+
+>[!TAB Règles de filtrage]
+
+1. Saisissez un **[!UICONTROL libellé]** pour la règle.
+
+[Créer une règle de filtrage](assets/business-rules-create-typo2.png)
+
+1. Développez la section **[!UICONTROL Options supplémentaires]** pour accéder aux paramètres avancés, tels que le nom interne de la règle, son dossier de stockage et sa description.
+
+1. Pour construire le contenu de la règle, sélectionnez la dimension de ciblage et cliquez sur le bouton **[!UICONTROL Ajouter des règles]** pour définir les critères de filtrage à l&#39;aide du [créateur de règles](../query/query-modeler-overview.md).
+
+   ![Concepteur de requête de règle de filtrage](assets/business-rules-query.png)
+
+1. Cliquez sur **Créer**
+
+>[!ENDTABS]
+
+### Définir les propriétés supplémentaires de la règle {#add-properties}
+
+Définissons maintenant les paramètres supplémentaires. Dans cet écran, vous pouvez toujours modifier les propriétés principales précédemment définies.
+
+[Créer une règle de filtrage supplémentaire](assets/business-rules-create-typo2.png)
+
+1. Désactivez l’option **[!UICONTROL Active]** si vous ne souhaitez pas que la règle soit active immédiatement après sa création.
+
+1. Définissez l’**[!UICONTROL ordre d’exécution]** de la règle.
+
+   Par défaut, l’ordre des règles de typologie est défini sur 50. Adaptez cette valeur pour gérer la séquence d’exécution des règles de typologie lorsque plusieurs règles d’un même type sont exécutées au cours de la même phase de traitement des messages. Par exemple, une règle de filtrage dont l’ordre d’exécution est défini sur 20 sera exécutée avant une règle de filtrage dont l’ordre d’exécution est défini sur 30.
+
+1. Sélectionnez un **[!UICONTROL Canal]** à associer à la règle.
+
+Votre règle est prête à être référencée dans une typologie pour l&#39;appliquer aux messages.
 
 ## Référencer des règles de typologie dans une typologie {#add-rules}
 
@@ -180,7 +203,7 @@ Pour référencer une ou plusieurs règles dans une typologie, procédez comme s
 
 1. Accédez à l’onglet **[!UICONTROL Typologie]** et ouvrez la typologie dans laquelle vous souhaitez référencer la ou les règles.
 
-1. Sélectionnez l’onglet **[!UICONTROL Règles de typologie]** et cliquez sur le bouton **[!UICONTROL Ajouter des règles de typologie]**.
+1. Sélectionnez l’onglet **[!UICONTROL Règles de typologie]** et cliquez sur le bouton **[!UICONTROL Ajouter des règles)]**
 
    ![Ajouter une interface de règles de typologie](assets/business-rules-reference.png)
 
