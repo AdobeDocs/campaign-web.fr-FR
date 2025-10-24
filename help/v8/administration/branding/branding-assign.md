@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 74%
 
 ---
 
@@ -126,3 +126,27 @@ Pour créer une diffusion autonome, procédez comme suit.
 1. Personnalisez davantage vos diffusions. Pour plus d’informations sur la création d’un e-mail, consultez la section [Concevoir et envoyer des e-mails](../../email/create-email.md).
 
 >[!ENDTABS]
+
+## Vérifier le branding associé aux messages transactionnels {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>Cette section s&#39;applique uniquement aux messages transactionnels (Message Center).
+>
+>Bien que les fonctionnalités transactionnelles soient disponibles dans l’interface utilisateur web de Campaign, les étapes de vérification ci-dessous doivent être exécutées dans la console cliente Campaign v8 (instance de pilotage).
+
+Les diffusions transactionnelles synchronisées entre les instances d&#39;exécution en temps réel (RT) et l&#39;instance de pilotage ne répliquent pas les propriétés telles que le routage ou le branding. Ces diffusions synchronisées sont générées toutes les semaines à partir du même modèle pour rétablir les indicateurs de diffusion dans l&#39;instance de pilotage.
+
+Pour cette raison, l&#39;instance de pilotage affiche la marque par défaut. Les paramètres réels de marque et de routage utilisés pendant l&#39;exécution du message sont définis dans le modèle de message transactionnel sur l&#39;instance de pilotage.
+
+Pour vérifier quelle marque a été utilisée pour un message transactionnel :
+
+1. Identifier le nom interne du modèle transactionnel publié sur Real-Time (par exemple, `TransactionalMessaging4768`).
+
+   ![](assets/branding-transactional.png)
+
+1. Dans l&#39;instance de pilotage, recherchez ce nom interne sous **Modèles de messages transactionnels**.
+
+   ![](assets/branding-transactional2.png)
+
+1. Ouvrez le modèle pour afficher la marque et d’autres propriétés associées.

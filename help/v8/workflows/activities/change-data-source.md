@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Modifier la source de données
 description: Découvrez comment utiliser l’activité de workflow Modifier la source de données.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 93%
 
 ---
 
@@ -28,6 +28,10 @@ Des informations détaillées sur l’architecture de Campaign sont disponibles 
 >[!IMPORTANT]
 >
 >Notez que les activités **[!UICONTROL Changer la dimension]** et **[!UICONTROL Modifier la source de données]** ne doivent pas être ajoutées sur une même ligne. Si vous devez utiliser les deux activités consécutivement, incluez une activité **[!UICONTROL Enrichissement]** entre les deux. Cela garantit une bonne exécution et évite les erreurs et conflits potentiels.
+
+>[!NOTE]
+>
+>L’activité **Modifier la Source de données** peut traiter un maximum d’un million d’enregistrements par exécution. Contactez votre représentant ou représentante Adobe si vous devez augmenter cette limite.
 
 <!--
 
