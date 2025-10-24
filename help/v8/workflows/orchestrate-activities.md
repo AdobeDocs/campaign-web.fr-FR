@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 90%
+source-wordcount: '1287'
+ht-degree: 91%
 
 ---
 
@@ -111,7 +111,7 @@ Toutes les activités permettent de gérer les options d’exécution. Sélectio
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="Propriétés d’une activité    "
->abstract="Cette section vous permet de définir comment et où une activité s’exécute. Vous pouvez définir l’action d’exécution, limiter la durée d’exécution, choisir un fuseau horaire, attribuer l’affinité de la machine, gérer le comportement asynchrone et spécifier ce qui se passe en cas d’erreur."
+>abstract="Cette section vous permet de configurer les paramètres d’exécution d’une activité, notamment l’action à effectuer, la durée maximale, le fuseau horaire, l’affinité de la machine et le comportement asynchrone."
 
 Le champ **Exécution** vous permet de définir l&#39;action à effectuer au moment du démarrage de la tâche.
 

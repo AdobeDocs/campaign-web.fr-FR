@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser les règles métier (typologies)
 description: Découvrez comment utiliser les typologies et les règles de typologie pour contrôler, filtrer et surveiller l’envoi des diffusions.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 85%
+source-wordcount: '1506'
+ht-degree: 83%
 
 ---
 
@@ -45,7 +45,7 @@ Les typologies sont accessibles via le menu **[!UICONTROL Administration]** > **
 Voici les principales étapes à suivre pour appliquer des typologies à vos messages :
 
 1. [Créez une typologie](#typology).
-1. [Créez des règles de typologie](#typology-rules).
+1. [Créez des règles de typologie](#typology-rule).
 1. [Référencez les règles de typologie dans la typologie](#add-rules).
 1. [Appliquez la typologie à un message](#message).
 
@@ -104,7 +104,7 @@ Pour créer une règle de typologie, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une règle de typologie]**, puis suivez les étapes détaillées ci-dessous.
 
-[Créer une règle de typologie](assets/business-rules-create-typo.png)
+   ![Créer une règle de typologie](assets/business-rules-create-typo.png)
 
 ### Définir les propriétés principales de la règle {#properties}
 
@@ -118,7 +118,7 @@ Pour créer une règle de typologie, procédez comme suit :
 >title="Code"
 >abstract="Les règles **Contrôle** vérifient la qualité et la validité des messages avant l’envoi (par exemple, l’affichage des caractères, la longueur du SMS, le format d’adresse, le raccourcissement des URL). Ces règles sont créées à l’aide de code JavaScript."
 
-Il s’agit des propriétés principales lors de la création d’une règle de typologie.
+Voici les principales propriétés à définir lors de la création d’une règle de typologie :
 
 >[!BEGINTABS]
 
@@ -126,11 +126,11 @@ Il s’agit des propriétés principales lors de la création d’une règle de 
 
 1. Saisissez un **[!UICONTROL libellé]** pour la règle.
 
-[Créer une règle de contrôle](assets/business-rules-create-typo1.png)
+   ![Créer une règle de contrôle](assets/business-rules-create-typo1.png)
 
-1. Développez la section **[!UICONTROL Options supplémentaires]** pour accéder aux paramètres avancés, tels que le nom interne de la règle, l’espace de stockage du dossier et la description. Vous pouvez également spécifier le moment où la règle doit s’appliquer et son niveau d’alerte. Pour plus d’informations, développez les sections ci-dessous.
+1. La section **[!UICONTROL Options supplémentaires]** vous permet d’accéder aux paramètres avancés, tels que le nom interne de la règle, l’espace de stockage du dossier et la description. Vous pouvez également spécifier le moment où la règle doit s’appliquer et son niveau d’alerte. Pour plus d’informations, développez les sections ci-dessous.
 
-   +++Phases :
+   +++Phases
 
    Indiquez à quel moment du cycle de vie des diffusions la règle sera appliquée. Sélectionnez la valeur dans la liste déroulante **[!UICONTROL Phase]** :
 
@@ -144,17 +144,17 @@ Il s’agit des propriétés principales lors de la création d’une règle de 
 
    +++
 
-   +++Niveau :
+   +++Niveau
 
    Indiquez le niveau d’alerte de la règle :
 
-   * **[!UICONTROL Erreur]** : arrêtez la préparation du message.
+   * **[!UICONTROL Erreur]** : arrête la préparation du message
 
-   * **[!UICONTROL Avertissement]** : affichez un avertissement dans les logs de préparation.
+   * **[!UICONTROL Warning]** : affiche un avertissement dans les logs de préparation
 
-   * **[!UICONTROL Info]** : affichez des informations dans les logs de préparation.
+   * **[!UICONTROL Info]** : affichage d’informations dans les logs de préparation.
 
-   * **[!UICONTROL Verbeux]** : affichez les informations dans les logs serveur.
+   * **[!UICONTROL Verbose]** : affichage d’informations dans les journaux du serveur
 
    +++
 
@@ -169,7 +169,7 @@ Il s’agit des propriétés principales lors de la création d’une règle de 
 
 1. Saisissez un **[!UICONTROL libellé]** pour la règle.
 
-[Créer une règle de filtrage](assets/business-rules-create-typo2.png)
+   ![Créer une règle de filtrage](assets/business-rules-create-typo2.png)
 
 1. Développez la section **[!UICONTROL Options supplémentaires]** pour accéder aux paramètres avancés, tels que le nom interne de la règle, son dossier de stockage et sa description.
 
@@ -185,7 +185,7 @@ Il s’agit des propriétés principales lors de la création d’une règle de 
 
 Définissons maintenant les paramètres supplémentaires. Dans cet écran, vous pouvez toujours modifier les propriétés principales précédemment définies.
 
-[Créer une règle de filtrage supplémentaire](assets/business-rules-create-typo2.png)
+![Créer une règle de filtrage supplémentaire](assets/business-rules-create-typo3.png)
 
 1. Désactivez l’option **[!UICONTROL Active]** si vous ne souhaitez pas que la règle soit active immédiatement après sa création.
 
