@@ -4,9 +4,9 @@ title: Envoyer des BAT
 description: Découvrir comment définir et envoyer des BAT
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Pour remplacer les données de profil de la cible principale, procédez comme su
 
    >[!CAUTION]
    >
-   >Si vous n’avez pas sélectionné d’[audience](../audience/about-recipients.md) pour votre diffusion, l’option **[!UICONTROL Substituer à partir de la cible principale]** est grisée et vous ne pourrez pas sélectionner de profil de substitution. En outre, même si une audience cible est sélectionnée, pour les diffusions de type récurrent, cette option sera toujours grisée, car la diffusion principale est un modèle.
+   >Si vous n’avez pas sélectionné d’[audience](../audience/about-recipients.md) pour votre diffusion, l’option **[!UICONTROL Substituer à partir de la cible principale]** est grisée et vous ne pouvez pas sélectionner de profil de substitution. En outre, même si une audience cible est sélectionnée, pour les diffusions de type récurrent, cette option sera toujours grisée car la diffusion principale est un modèle.
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter une adresse]** et indiquez l’adresse e-mail ou le numéro de téléphone qui recevra le BAT.
 

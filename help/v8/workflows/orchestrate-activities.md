@@ -4,9 +4,9 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -110,8 +110,8 @@ Toutes les activités permettent de gérer les options d’exécution. Sélectio
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
->title="Propriétés d’une activité    "
->abstract="Cette section vous permet de configurer les paramètres d’exécution d’une activité, notamment l’action à effectuer, la durée maximale, le fuseau horaire, l’affinité de la machine et le comportement asynchrone."
+>title="Propriétés d’une activité"
+>abstract="Dans cette section, vous pouvez configurer les paramètres d’exécution d’une activité, notamment l’action à effectuer, la durée maximale, le fuseau horaire, l’affinité machine et le comportement asynchrone."
 
 Le champ **Exécution** vous permet de définir l&#39;action à effectuer au moment du démarrage de la tâche.
 
@@ -128,16 +128,16 @@ Le champ **Comportement** vous permet de définir la marche à suivre en cas de 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_error"
 >title="Script d’initialisation"
->abstract="Cette section vous permet de définir ce qui se passe en cas d’échec d’une activité. Vous pouvez choisir des actions telles que l’arrêt du workflow, le déplacement vers l’activité suivante ou le déclenchement d’un processus de gestion des erreurs personnalisé."
+>abstract="Dans cette section, vous pouvez définir ce qui se passe en cas d’échec d’une activité. Vous pouvez choisir des actions telles que l’arrêt du workflow, le passage à l’activité suivante ou le déclenchement d’un processus de gestion des erreurs personnalisé."
 
-Le champ **En cas d’erreur** permet d’indiquer l’action à effectuer si l’activité rencontre une erreur. Consultez cette [section](workflow-settings.md#error-settings).
+Dans le champ **En cas d’erreur**, vous pouvez définir l’action à effectuer si l’activité rencontre une erreur. Consultez cette [section](workflow-settings.md#error-settings).
 
 ### Script d’initialisation {#initialization-options}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
 >title="Script d’initialisation"
->abstract="Cette section vous permet d’ajouter un JavaScript qui s’exécute au démarrage de l’activité. Utilisez-la pour initialiser des variables, définir des paramètres ou préparer des données spécifiques à l’exécution de cette activité."
+>abstract="Dans cette section, vous pouvez ajouter du code JavaScript qui s’exécute au démarrage de l’activité. Cela permet d’initialiser des variables, de définir des paramètres ou de préparer des données spécifiques à l’exécution de cette activité."
 
 Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de l’activité. Consultez la section relative aux [variables d’événement](../workflows/event-variables.md).
 

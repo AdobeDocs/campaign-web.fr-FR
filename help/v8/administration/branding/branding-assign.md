@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -131,21 +131,21 @@ Pour créer une diffusion autonome, procédez comme suit.
 
 >[!IMPORTANT]
 >
->Cette section s&#39;applique uniquement aux messages transactionnels (Message Center).
+>Cette section s’applique uniquement aux messages transactionnels (Message Center).
 >
->Bien que les fonctionnalités transactionnelles soient disponibles dans l’interface utilisateur web de Campaign, les étapes de vérification ci-dessous doivent être exécutées dans la console cliente Campaign v8 (instance de pilotage).
+>Bien que les fonctionnalités transactionnelles soient disponibles dans l’interface d’utilisation d’Adobe Campaign Web, les étapes de vérification ci-dessous doivent être effectuées dans la console cliente Campaign v8 (instance de pilotage).
 
-Les diffusions transactionnelles synchronisées entre les instances d&#39;exécution en temps réel (RT) et l&#39;instance de pilotage ne répliquent pas les propriétés telles que le routage ou le branding. Ces diffusions synchronisées sont générées toutes les semaines à partir du même modèle pour rétablir les indicateurs de diffusion dans l&#39;instance de pilotage.
+Les diffusions transactionnelles synchronisées entre les instances d’exécution en temps réel (RT) et l’instance de pilotage ne répliquent pas les propriétés telles que le routage ou le branding. Ces diffusions synchronisées sont générées toutes les semaines à partir du même modèle pour rétablir les indicateurs de diffusion dans l’instance de pilotage.
 
-Pour cette raison, l&#39;instance de pilotage affiche la marque par défaut. Les paramètres réels de marque et de routage utilisés pendant l&#39;exécution du message sont définis dans le modèle de message transactionnel sur l&#39;instance de pilotage.
+Pour cette raison, l’instance de pilotage affiche la marque par défaut. Les paramètres de marque et de routage réellement utilisés pendant l’exécution du message sont définis dans le modèle de message transactionnel sur l’instance de pilotage.
 
-Pour vérifier quelle marque a été utilisée pour un message transactionnel :
+Pour vérifier quelle marque a été utilisée pour un message transactionnel :
 
-1. Identifier le nom interne du modèle transactionnel publié sur Real-Time (par exemple, `TransactionalMessaging4768`).
+1. Identifiez le nom interne du modèle transactionnel publié sur l’instance d’exécution en temps réel (par exemple, `TransactionalMessaging4768`).
 
    ![](assets/branding-transactional.png)
 
-1. Dans l&#39;instance de pilotage, recherchez ce nom interne sous **Modèles de messages transactionnels**.
+1. Dans l’instance de pilotage, recherchez ce nom interne sous **Modèles de messages transactionnels**.
 
    ![](assets/branding-transactional2.png)
 

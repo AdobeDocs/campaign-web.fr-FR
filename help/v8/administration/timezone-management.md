@@ -1,61 +1,61 @@
 ---
 title: Gestion des fuseaux horaires
-description: Découvrez comment l’interface utilisateur web d’Adobe Campaign affiche les valeurs de date et d’heure en fonction des fuseaux horaires du navigateur, de l’opérateur, du workflow et du serveur.
+description: Découvrez comment l’interface d’utilisation d’Adobe Campaign Web affiche les valeurs de date et d’heure en fonction du fuseau horaire du navigateur, de l’opérateur ou de l’opératrice, du workflow et du serveur.
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 # Gestion des fuseaux horaires {#timezone-management}
 
-L’interface utilisateur web d’Adobe Campaign affiche toutes les valeurs de date et d’heure en fonction du **fuseau horaire local du navigateur web de l’utilisateur**. Ce comportement peut entraîner des différences lors de la comparaison des horodatages entre l’interface utilisateur web et la console cliente.
+L’interface d’utilisation d’Adobe Campaign Web affiche toutes les valeurs de date et d’heure en fonction du **fuseau horaire local du navigateur web de l’utilisateur ou de l’utilisatrice**. Ce comportement peut faire apparaître des différences entre les dates et heures de l’interface d’utilisation web et de la console cliente.
 
-Cette section explique les différences attendues entre les fuseaux horaires **UI web**, **console cliente** et **exécution de workflow**.
+Cette section explique les différences attendues entre les fuseaux horaires de l’**interface d’utilisation web**, de la **console cliente** et de l’**exécution des workflows**.
 
 >[!NOTE]
 >
->Aucune donnée stockée sur le serveur n&#39;est modifiée. Seul son affichage dans l’interface change.
+>Aucune donnée stockée sur le serveur n’est modifiée. Seul l’affichage dans l’interface change.
 
 ## Principaux concepts
 
-* **Fuseau horaire du serveur** : le fuseau horaire du serveur correspond au fuseau horaire configuré sur le système d&#39;exploitation du serveur. Toutes les dates et heures sont stockées en interne en UTC sur le serveur.
+* **Fuseau horaire du serveur** : le fuseau horaire du serveur correspond au fuseau horaire configuré sur le système d’exploitation du serveur. Toutes les dates et heures sont stockées en interne en UTC sur le serveur.
 
-* **Comportement de la console cliente** : la console cliente affiche les horodatages à l’aide du **fuseau horaire de l’opérateur**, défini dans les paramètres de l’opérateur. Par défaut, cela correspond au fuseau horaire du **serveur**.
+* **Comportement de la console cliente** : la console cliente affiche les dates et heures selon le **fuseau horaire de l’opérateur ou de l’opératrice**, défini dans les paramètres de l’opérateur ou de l’opératrice. Cela correspond par défaut au **fuseau horaire du serveur**.
 
-* **Comportement de l’interface utilisateur web** : l’interface utilisateur web affiche la date et l’heure à l’aide du **fuseau horaire local du navigateur**. Lorsque l’utilisateur modifie le fuseau horaire du navigateur ou du système, les valeurs de date et d’heure affichées sont automatiquement mises à jour.
+* **Comportement de l’interface d’utilisation web** : l’interface d’utilisation web affiche les dates et heures selon le **fuseau horaire local du navigateur**. Si le fuseau horaire du navigateur ou du système est modifié, les valeurs de date et d’heure affichées sont automatiquement mises à jour.
 
-* **Comportement des workflows** : les workflows interprètent les horodatages locaux en fonction du **fuseau horaire configuré du workflow**. S’il n’est pas spécifié, le fuseau horaire du **serveur** est utilisé par défaut.
+* **Comportement des workflows** : les workflows interprètent les dates et heures locales en fonction du **fuseau horaire configuré des workflows**. S’il n’est pas spécifié, le **fuseau horaire du serveur** est utilisé par défaut.
 
 ## Exemple
 
 | Interface | Fuseau horaire utilisé | Exemple d’affichage |
 |------------|----------------|-----------------|
-| Console cliente | Opérateur (par défaut = serveur) | `2025-10-20 14:00:00` |
+| Console cliente | Opérateur ou opératrice (par défaut : serveur) | `2025-10-20 14:00:00` |
 | Interface utilisateur web | Fuseau horaire local du navigateur | `2025-10-20 21:00:00` (pour le navigateur en UTC +7) |
 
-Dans cet exemple, les deux interfaces font référence au même horodatage UTC sous-jacent, mais chacune l’affiche avec un fuseau horaire différent.
+Dans cet exemple, les deux interfaces utilisent les mêmes dates et heures UTC sous-jacentes, mais chacune les affiche selon un fuseau horaire différent.
 
 ## Impact
 
-Des différences dans les heures affichées peuvent apparaître dans :
+Des différences dans les heures affichées peuvent apparaître dans :
 
-* Champs de profil ou de données contenant des valeurs `datetime`
-* Logs de diffusion ou dates de contact
-* Exécution des workflows et horodatage des imports
+* les champs de profil ou de données contenant des valeurs `datetime` ;
+* les logs de diffusion ou dates de contact ;
+* l’exécution des workflows et les dates et heures des imports.
 
-Les données sous-jacentes restent identiques. La différence réside uniquement dans le **rendu**.
+Les données sous-jacentes restent les mêmes. La différence réside uniquement dans le **rendu**.
 
 >[!NOTE]
 >
->Si des utilisateurs de plusieurs régions collaborent sur la même instance, des incohérences apparentes entre les horodatages de l’interface utilisateur web et de la console peuvent se produire.
+>Si des utilisateurs et utilisatrices de différentes régions collaborent sur la même instance, des différences entre les dates et heures de l’interface d’utilisation web et de la console peuvent apparaître.
 
 ## Recommandations
 
-Pour aligner les valeurs d’affichage sur les interfaces, vous pouvez :
+Pour harmoniser les valeurs affichées sur les différentes interfaces, vous pouvez :
 
-* Modifiez le **fuseau horaire du navigateur** pour qu’il corresponde au **fuseau horaire de l’opérateur ou du serveur**.
-* Lors de l’exportation de données (les exportations utilisent UTC), assurez-vous que les outils de création de rapports convertissent de manière cohérente.
-* Lors de la conception de workflows, définissez explicitement le **fuseau horaire du workflow** dans les propriétés d’activité pour une planification et un comportement d’importation prévisibles.
-* Signalez aux utilisateurs professionnels que les différences d’horodatage entre les vues de l’interface utilisateur web et de la console cliente sont **normales et attendues**.
+* modifier le **fuseau horaire du navigateur** pour qu’il corresponde au **fuseau horaire de l’opérateur ou de l’opératrice, ou du serveur**.
+* Lors de l’export de données (les exports utilisent UTC), vérifiez que la conversion dans les outils de création de rapports est cohérente.
+* Lors de la conception de workflows, définissez explicitement le **fuseau horaire du workflow** dans les propriétés de l’activité afin de garantir une planification et un import prévisibles.
+* Informez les personnes professionnelles que les différences de date et heure entre les affichages de l’interface d’utilisation web et de la console cliente sont **normales et attendues**.

@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
 source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou
 
 1. **Vérifier les instructions relatives à la délivrabilité** : avant de commencer à utiliser le nouveau domaine, la stratégie doit être discutée avec l&#39;équipe Adobe chargée de la délivrabilité Elle aidera à définir les bonnes pratiques, si une nouvelle affinité doit être créée pour fractionner les adresses IP entre les domaines par exemple, et/ou si un plan de propagation doit être défini.
 
-## Note de compatibilité {#compatibility-note}
+## Remarque sur la compatibilité {#compatibility-note}
 
-Le nouveau modèle de branding centralisé n’est pas compatible avec la configuration [branding hérité](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} précédemment utilisée dans la console cliente.
+Le nouveau modèle de branding centralisé n’est pas compatible avec la configuration de [ branding héritée](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=fr#configuring-multibranding){target="_blank"} qui était utilisée dans la console cliente.
 
-Dans l’approche héritée, les clients implémentaient le branding en étendant le formulaire extAccount et en utilisant l’onglet **Branding**.
+Dans l’approche héritée, les clients et clientes implémentaient le branding en étendant le formulaire extAccount et en utilisant l’onglet **Branding**.
 
 ![](assets/branding-legacy.png)
 
-Si votre environnement existant utilise cette configuration héritée, elle ne peut pas être migrée directement vers le nouveau modèle de branding centralisé. Une réimplémentation complète des paramètres de marque est nécessaire pour adopter le nouveau système.
+Si votre environnement existant utilise cette configuration héritée, elle ne peut pas être migrée directement vers le nouveau modèle de branding centralisé. Une réimplémentation complète des paramètres de branding est nécessaire pour adopter le nouveau système.
