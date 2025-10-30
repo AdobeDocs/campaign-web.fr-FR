@@ -110,4 +110,4 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 Découvrez comment naviguer dans le concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail, ainsi que le personnaliser et le tester.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453566/?captions=fre_fr&quality=12)
