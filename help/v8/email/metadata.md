@@ -4,7 +4,7 @@ title: Ajouter des métadonnées au contenu de votre e-mail
 description: Découvrir comment améliorer la lisibilité et l’accessibilité du contenu de votre e-mail avec les métadonnées
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Lors de la conception de vos e-mails, vous pouvez définir des méta-attributs s
 
   >[!NOTE]
   >
-  >Les pré-titres ne sont pas pris en charge par tous les clients de messagerie. Le pré-titre ne s’affiche pas s’il n’est pas pris en charge.
+  >Les pré-en-têtes ne sont pas pris en charge par tous les clients de messagerie. Le pré-en-tête ne s’affiche pas s’il n’est pas pris en charge.
 
 * **[!UICONTROL Titre du document]** : ce champ, qui correspond à l’élément `<title>`, fournit des informations descriptives sur le contenu de votre e-mail, généralement affichées sous la forme d’une infobulle lorsque vous pointez dessus. Il peut aider les utilisateurs et utilisatrices en situation de handicap en fournissant un contexte supplémentaire et peut contribuer à une meilleure compréhension de votre contenu par les moteurs de recherche.
 

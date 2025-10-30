@@ -4,9 +4,9 @@ title: Rapports de campagne du canal e-mail
 description: En savoir plus sur les rapports de campagne du canal E-mail
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -132,7 +132,7 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 +++
 
-## Non diffusables {#non-deliverables-email}
+## Non-délivrables {#non-deliverables-email}
 
 ### Répartition des erreurs par type {#delivery-summary-email-breakdown-per-type}
 
@@ -291,7 +291,7 @@ Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des o
 
 ![Capture d’écran du rapport Activités utilisateurs](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 

@@ -61,6 +61,6 @@ Les profils de test sont les profils destinataires des BAT. Ceux-ci peuvent exa
 
    ![Bouton Envoyer comme prévu pour la diffusion de notifications push planifiée](assets/push_send_4.png){zoomable="yes"}
 
-Une fois votre diffusion envoyée, suivez les données de vos KPI (indicateurs clés de performance) à partir de votre page de diffusion et les données à partir du menu **[!UICONTROL Journaux]**.
+Une fois votre diffusion envoyée, suivez les données de vos KPI (indicateurs clés de performance) à partir de votre page de diffusion et les données à partir du menu **[!UICONTROL Logs]**.
 
 Commencez à mesurer l’impact de votre message à l’aide de rapports intégrés. [En savoir plus](../reporting/push-report.md).

@@ -29,7 +29,7 @@ Une fois que vous créez votre workflow, les audiences résultantes sont automat
 
 Les colonnes **[!UICONTROL Origine]** indiquent l’origine des audiences : les audiences **[!UICONTROL Adobe Campaign]** ont été créées dans la console Adobe Campaign v8 ou l’interface d’utilisation web, tandis que les audiences **[!UICONTROL Adobe Experience Platform]** sont créées dans Adobe Experience Platform et intégrées à Campaign à l’aide de l’intégration des sources et destinations d’Adobe.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Créer votre première audience {#create}
 
@@ -98,4 +98,4 @@ Si vous préférez ne pas remplacer les résultats de l’audience existante, co
 
 Découvrez comment créer et gérer des audiences, comment sélectionner des audiences pour une diffusion et définir des populations témoins.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453204?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

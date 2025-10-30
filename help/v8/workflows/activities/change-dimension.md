@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Changement de dimension
 description: Découvrez comment utiliser l’activité de workflow Changement de dimension.
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%
 
@@ -46,6 +46,6 @@ Pour configurer l’activité **Changement de dimension**, procédez comme suit�
 
 Dans cet exemple, envoyez une diffusion SMS à tous les profils ayant effectué un achat. Utilisez d’abord une activité **[!UICONTROL Créer une audience]** liée à une dimension de ciblage « Achat » personnalisée pour cibler tous les achats qui se sont produits.
 
-Utilisez ensuite une activité **[!UICONTROL Changement de dimension]** pour changer la dimension de ciblage du workflow sur « Personnes destinataires ». Cela permet de cibler les personnes destinataires qui correspondent à la requête.
+Utilisez ensuite une activité **[!UICONTROL Changement de dimension]** pour changer la dimension de ciblage du workflow sur « Personnes destinataires ». Cela permet de cibler les destinataires qui correspondent à la requête.
 
 ![Capture d’écran montrant un exemple de l’activité Changement de dimension utilisée dans un workflow](../assets/workflow-change-dimension-example.png)

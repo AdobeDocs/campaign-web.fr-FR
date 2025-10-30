@@ -6,9 +6,9 @@ content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
-source-wordcount: '478'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Pour ajouter un nouveau champ de profil, vous devez étendre votre schéma. Proc
 
    ![](assets/custom_field_1.png)
 
-1. Identifiez votre schéma des personnes destinataires personnalisé et sélectionnez-le. Si vous n’avez pas encore étendu le schéma nms:recipient intégré, reportez-vous à [cette procédure](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identifiez votre schéma des personnes destinataires personnalisé et sélectionnez-le. Si vous n&#39;avez pas encore étendu le schéma nms:recipient intégré, reportez-vous à [cette procédure](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Ajoutez votre champ personnalisé à l’éditeur de schéma.
 
@@ -84,11 +84,11 @@ Avant d’étendre le log avec notre champ de profil, veillez à ce que la fenê
 
 Votre champ de profil est maintenant disponible en tant que dimension de profil dans vos rapports. Pour supprimer votre dimension de profil, vous pouvez la sélectionner et cliquer sur l’icône **[!UICONTROL Supprimer]**.
 
-Maintenant que le schéma des personnes destinataires a été étendu avec ce champ de profil et que votre dimension personnalisée a été créée, vous pouvez commencer à cibler les personnes destinataires dans les diffusions.
+Maintenant que le schéma des destinataires a été étendu avec ce champ de profil et que votre dimension personnalisée a été créée, vous pouvez commencer à cibler les destinataires dans les diffusions.
 
 ## Étape 3 : créer un rapport dynamique pour filtrer les personnes destinataires avec la dimension de profil {#create-report}
 
-Après l’envoi de votre diffusion, vous pouvez ventiler des rapports à l’aide de votre dimension de profil.
+Après l’envoi de votre diffusion, vous pouvez répartir les rapports à l’aide de votre dimension de profil.
 
 1. Depuis l’onglet **[!UICONTROL Rapports]**, sélectionnez un rapport avec des paramètres d’usine et cliquez sur le bouton **[!UICONTROL Créer]** pour en lancer un à partir de zéro.
 

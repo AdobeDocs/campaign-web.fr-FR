@@ -3,7 +3,7 @@ audience: end-user
 title: Enrichissement des profils dans les messages transactionnels
 description: Découvrez comment créer un message transactionnel dans l’interface d’utilisation de Campaign Web.
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 

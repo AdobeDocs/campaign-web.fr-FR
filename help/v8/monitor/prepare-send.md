@@ -5,8 +5,8 @@ description: Découvrez comment préparer et envoyer un e-mail avec l’interfac
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '949'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
    >[!NOTE]
    >Pendant la phase de préparation, aucun message n&#39;est envoyé. Vous pouvez lancer ou annuler cette opération sans aucun risque.
 
-1. Une fois la préparation terminée, vérifiez les KPI. Si le nombre de messages à envoyer ne correspond pas à vos attentes, modifiez l’audience et relancez la préparation.
+1. Une fois la préparation terminée, vérifiez les KPI. Si le nombre de messages à envoyer ne correspond pas à vos attentes, modifiez l’audience et redémarrez la préparation.
 
    ![Écran de fin de la préparation affichant les KPI](assets/email-preparation-complete.png){zoomable="yes"}
 
@@ -61,7 +61,7 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
 
    ![Statut d’erreur dans le tableau de bord de la diffusion](assets/email-prepare-error.png){zoomable="yes"}
 
-1. Si vous modifiez la diffusion après la préparation, relancez la préparation pour que ces modifications soient prises en compte.
+1. Si vous modifiez la diffusion après la préparation, redémarrez la préparation pour que ces modifications soient prises en compte.
 
 Une fois la préparation terminée sans erreur, le message est prêt à être envoyé.
 
@@ -161,4 +161,4 @@ Une fois l’envoi terminé, vous pouvez vérifier les KPI affichés :
 
 Pour en savoir plus sur les KPI, consultez [cette page](../reporting/kpis.md).
 
-Vous pouvez également consulter les journaux. [En savoir plus](delivery-logs.md).
+Vous pouvez également consulter les logs. [En savoir plus](delivery-logs.md).

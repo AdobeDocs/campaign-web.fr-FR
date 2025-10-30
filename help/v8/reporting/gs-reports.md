@@ -4,7 +4,7 @@ title: Commencer avec les rapports
 description: Découvrez comment accéder aux rapports et les gérer dans Campaign Web.
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 100%
 
@@ -201,4 +201,4 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451609?quality=12&captions=fre_fr)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)-->

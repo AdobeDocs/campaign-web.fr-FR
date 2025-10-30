@@ -4,7 +4,7 @@ description: Grâce au rapport d'usine des notifications push, découvrez les pe
 level: Intermediate
 audience: end-user
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
 

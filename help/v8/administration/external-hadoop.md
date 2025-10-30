@@ -3,7 +3,7 @@ title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes Hadoop
 exl-id: d2dc4d88-a97d-48bb-b668-ed970e138dfd
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 100%
 

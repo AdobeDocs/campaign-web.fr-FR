@@ -5,8 +5,8 @@ description: Découvrir comment utiliser l’activité de workflow Mise à jour 
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '478'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Cette section vous permet de définir comment identifier les enregistrements dan
 
 Dans la section **Champs à mettre à jour**, ajoutez les champs sur lesquels la mise à jour sera appliquée. Si nécessaire, ajoutez des conditions afin que cette mise à jour soit effectuée. Utilisez le champ **Pris en compte si** pour définir des conditions. Les conditions sont appliquées les unes après les autres dans l’ordre de la liste. Utilisez les flèches situées à droite pour modifier l&#39;ordre des mises à jour. Vous pouvez utiliser plusieurs fois le même champ de destination.
 
-Associez automatiquement les champs à l’aide du bouton **Mappage automatique**. L’association automatique détecte les champs portant le même nom.
+Associez automatiquement les champs à l’aide du bouton **Mapping automatique**. L’association automatique détecte les champs portant le même nom.
 
 Dans le cadre d’une opération de type **Insérer ou mettre à jour**, sélectionnez individuellement, pour chaque champ, l’opération à appliquer. Utilisez le champ **Type d’opération** pour spécifier la valeur souhaitée.
 

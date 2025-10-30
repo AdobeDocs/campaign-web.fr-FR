@@ -4,7 +4,7 @@ title: Créer votre première requête à l’aide du créateur de modèles de r
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2921'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
    | Comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) comme « Jon%s ». Le caractère générique agit comme un « joker » pour trouver des noms tels que « Jones ». |
    | Pas comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) pas comme « Smi%h ». Les personnes destinataires dont le nom est « Smith » ne seront pas renvoyées. |
 
-+++
+   +++
 
 1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression de Campaign Web pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur le bouton **Modifier une expression**. [Découvrez comment modifier des expressions](expression-editor.md)
 
@@ -162,7 +162,7 @@ Pour un **lien 1-1**, accédez à la table liée, sélectionnez l’attribut sou
 
 Vous pouvez également sélectionner directement un lien de table dans le sélecteur de **Valeur** et confirmer. Dans ce cas, les valeurs disponibles pour la table sélectionnée doivent être sélectionnées à l’aide d’un sélecteur dédié, comme illustré dans l’exemple ci-dessous.
 
-+++Exemple de requête
++++Exemple d&#39;édition d&#39;une requête
 
 Ici, la requête cible les marques dont le libellé est « running ».
 
@@ -178,13 +178,13 @@ Voici un exemple de requête dans laquelle un lien de table a été directement 
 
 ![Exemple de requête](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner votre requête, comme illustré dans l’exemple ci-dessous.
 
-+++Exemple de requête
++++Exemple d&#39;édition d&#39;une requête
 
-Ici, la requête cible les personnes destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
+Ici, la requête cible les destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
 
 1. Sélectionnez le tableau **Achats** et confirmez.
 
@@ -202,7 +202,7 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
    ![Exemples de sous-conditions](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 #### Utiliser des données agrégées {#aggregate}
 

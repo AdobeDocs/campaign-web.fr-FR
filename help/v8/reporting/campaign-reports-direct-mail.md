@@ -4,9 +4,9 @@ title: Rapports de campagne pour le canal Courrier
 description: Comprendre les rapports de campagne du canal Courrier
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '574'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicat
 
 ![Vue d’ensemble des mesures des campagnes de diffusion par courrier](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de diffusion.
++++En savoir plus sur les mesures de vue d’ensemble de la diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -52,7 +52,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 ![Statistiques de l’audience cible initiale des campagnes par courrier](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de statistiques de l’audience cible initiale.
++++En savoir plus sur les mesures Statistiques initiales sur l’audience cible .
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
@@ -73,7 +73,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 Le tableau **[!UICONTROL Statistiques d’exécution]** fournit une répartition du succès de chaque diffusion par courrier, avec les mesures détaillées décrites ci-dessous.
 
-+++En savoir plus sur les mesures de statistiques de diffusion.
++++En savoir plus sur les mesures Statistiques de diffusion .
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -96,7 +96,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** fournit une répartition
 
 Le tableau **Flux de clics générés** illustre les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
-+++En savoir plus sur les mesures de flux de clics générés.
++++En savoir plus sur les mesures Flux de clics générés .
 
 * **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 

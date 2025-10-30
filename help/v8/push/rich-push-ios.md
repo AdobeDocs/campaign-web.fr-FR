@@ -4,7 +4,7 @@ title: Concevoir une diffusion de notification push iOS enrichie
 description: Découvrez comment concevoir une diffusion de notification push iOS enrichie avec Adobe Campaign Web.
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
 source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
 

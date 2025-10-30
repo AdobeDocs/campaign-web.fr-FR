@@ -68,6 +68,6 @@ L’envoi de BAT est une étape importante pour garantir la qualité et l’effi
 
 1. Confirmez l’action d’envoi en cliquant sur le bouton **[!UICONTROL Envoyer]**.
 
-Une fois votre diffusion envoyée, vous pouvez suivre les données de KPI à partir de la page de la diffusion et les données à partir du menu **[!UICONTROL Journaux]**.
+Une fois votre diffusion envoyée, vous pouvez suivre les données de KPI à partir de la page de la diffusion et les données à partir du menu **[!UICONTROL Logs]**.
 
 Commencez à mesurer l’impact de votre message à l’aide de rapports intégrés. [En savoir plus](../reporting/sms-report.md)

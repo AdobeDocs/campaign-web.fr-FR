@@ -5,8 +5,8 @@ description: Découvrez comment créer une diffusion de notification push avec A
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '738'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,6 @@ Configurez vos paramètres de diffusion comme indiqué ci-dessous :
    * **[!UICONTROL Code de diffusion]** : organisez vos diffusions à l’aide de votre propre convention de nommage.
    * **[!UICONTROL Description]** : spécifiez une description pour la diffusion.
    * **[!UICONTROL Nature]** : indiquez la nature de la diffusion à des fins de classification.
-
    +++
 
 ## Sélectionner l’audience de votre diffusion par notification push {#create-audience-push}
@@ -68,7 +67,7 @@ Vous devez d’abord sélectionner l’application, puis affiner l’audience de
 
    ![Capture d’écran montrant la sélection de l’audience pour la diffusion de la notification push](assets/push_create_2.png){zoomable="yes"}
 
-1. Sélectionnez une audience existante ou créez votre propre audience pour affiner la population cible de votre diffusion de notification push. Pour les notifications push, la [dimension de ciblage](../audience/about-recipients.md#targeting-dimensions) par défaut est **Applications abonnée** (nms:appSubscriptionRcp), qui est liée au tableau des personnes destinataires.
+1. Sélectionnez une audience existante ou créez votre propre audience pour affiner la population cible de votre diffusion de notification push. Pour les notifications push, la [dimension cible](../audience/about-recipients.md#targeting-dimensions) par défaut est **Application abonnée** (nms:appSubscriptionRcp), qui est liée au tableau des destinataires.
 
    Découvrez comment sélectionner une audience existante sur [cette page](../audience/add-audience.md).
 

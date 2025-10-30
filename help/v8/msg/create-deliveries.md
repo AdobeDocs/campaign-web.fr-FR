@@ -91,7 +91,7 @@ Vous pouvez personnaliser le contenu du message en procédant comme suit :
 
 * Ajouter des **offres personnalisées**
 
-  Insérez des offres personnalisées dans le contenu de votre message, en fonction de l’emplacement des destinataires, de la météo actuelle ou de la dernière commande. [En savoir plus](../msg/offers.md)
+  Insérez des offres personnalisées dans le contenu de votre message, en fonction de l’emplacement des destinataires, de la météo actuelle ou du dernier bon de commande. [En savoir plus](../msg/offers.md)
 
 ## Prévisualiser et tester vos diffusions
 

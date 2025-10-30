@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -61,14 +61,14 @@ Suivez les étapes détaillées ci-dessous pour configurer l’activité **Trans
    * **[!UICONTROL Test d’existence de fichier]** : vérifiez la présence d’un fichier donné sur le serveur. Génère deux transitions sortantes après l’activité : « Fichier existe » et « Fichier n’existe pas ».
    * **[!UICONTROL Liste de fichiers]** : liste de tous les fichiers disponibles sur le serveur.
 
-+++
+   +++
 
    +++Actions disponibles avec les activités de type **Téléchargement web**
 
    * **[!UICONTROL Transfert simple (GET)]** : récupérez un fichier.
    * **[!UICONTROL Transfert à l’aide d’un formulaire (POST)]** : chargez un fichier et des paramètres supplémentaires.
 
-+++
+   +++
 
    ![Capture d’écran affichant les options d’action du fichier de transfert de workflow](../assets/workflow-transfer-file-action.png)
 
@@ -142,13 +142,13 @@ Il est important de limiter la taille de ce dossier pour préserver l’espace p
 
 1. Dans les **[!UICONTROL Options avancées]**, d’autres options sont disponibles en fonction du type d’activité que vous configurez. Pour plus d’informations, développez les sections ci-dessous.
 
-   +++ Options supplémentaires pour les activités de type **[!UICONTROL Transfert de fichier]**
+   +++Options supplémentaires pour les activités de type **[!UICONTROL Transfert de fichier]**
 
    * **[!UICONTROL Supprimer les fichiers source après leur transfert]** : effacez les fichiers source après un transfert réussi.
    * **[!UICONTROL Afficher les logs de la session]** : lorsque cette option est activée, les informations relatives à l’opération de transfert s’affichent dans les logs du workflow une fois le workflow exécuté.
    * **[!UICONTROL Répertorier tous les fichiers]** (Actions de listage de fichiers) : cette option indexe tous les fichiers présents sur le serveur dans la variable d’événement `vars.filenames` dans laquelle les noms de fichier sont séparés par les caractères `n`. [Découvrir comment travailler avec les variables d’événement](../event-variables.md)
 
-+++
+   +++
 
    +++Options supplémentaires pour les activités de type **[!UICONTROL Téléchargement web]**
 

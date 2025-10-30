@@ -4,9 +4,9 @@ title: Rapports de campagne de canal de notification push
 description: Présentation des rapports de campagne du canal de notification push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI qui
 
 ![Mesures de synthèse des diffusions affichées dans le rapport Vue d’ensemble de la diffusion](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne push.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -48,7 +48,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 ![Statistiques initiales sur l’audience cible affichées dans le rapport](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne push.
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
@@ -69,7 +69,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 ![Statistiques d’exécution affichées dans le rapport](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne push.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -94,7 +94,7 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 ![Flux de clics générés affichés dans le rapport](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de rapports de campagne par notification push.
++++En savoir plus sur les mesures des rapports de campagne push.
 
 * **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 

@@ -3,7 +3,7 @@ title: Mécanismes de sécurisation et limitations des workflows dans l’interf
 description: Mécanismes de sécurisation et limitations lors de l’utilisation de workflows dans l’interface utilisateur web de Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Veuillez noter que, bien que cette page identifie les points essentiels à prend
 >title="Activité non modifiable"
 >abstract="Lorsqu’une activité **Requête** ou **Enrichissement** est paramétrée avec des données supplémentaires dans la console, les données d’enrichissement sont prises en compte dans Campaign Web et transmises à la transition sortante, mais elles ne peuvent pas être modifiées."
 
-Les activités de workflow qui ne sont pas encore prises en charge dans l’interface d’utilisation web de Campaign sont en lecture seule et affichées en tant qu’activités incompatibles. Vous pouvez toujours exécuter le workflow, envoyer des messages, vérifier les journaux, etc. Les activités de workflow disponibles dans l’interface utilisateur web de Campaign et dans la console cliente Campaign sont modifiables.
+Les activités de workflow qui ne sont pas encore prises en charge dans l’interface d’utilisation web de Campaign sont en lecture seule et affichées en tant qu’activités incompatibles. Vous pouvez toujours exécuter le workflow, envoyer des messages, vérifier les logs, etc. Les activités de workflow disponibles dans l’interface utilisateur web de Campaign et dans la console cliente Campaign sont modifiables.
 
 | Console | Web |
 | --- | --- |

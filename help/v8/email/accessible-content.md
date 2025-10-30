@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ title: Rapports de diffusion E-mail
 description: Découvrez comment accéder aux rapports de diffusion par e-mail et les utiliser.
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2448'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Placez le pointeur de la souris sur une partie du graphe pour afficher le nombre
 
 ![Capture d’écran d’un graphique avec le pointeur de la souris qui montre le nombre exact](assets/reporting_email_1.1.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
@@ -79,7 +79,7 @@ Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répa
 
 ![Capture d’écran du graphique et du tableau Causes d’exclusion](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Utilisateur inconnu]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse e-mail est invalide.
 
@@ -120,7 +120,7 @@ Le tableau **[!UICONTROL Statistiques de domaine]** contient les données dispon
 
 ![Capture d’écran des statistiques de diffusion](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL E-mails traités]** : nombre total de messages traités par le serveur de diffusion.
 
@@ -137,7 +137,7 @@ Le tableau **[!UICONTROL Statistiques de domaine]** contient les données dispon
 * **[!UICONTROL Désinscriptions]** : pourcentage du nombre de clics effectués sur un lien de désinscription, par rapport au nombre de messages traités avec succès.
 +++
 
-## Non diffusables {#non-deliverables-email}
+## Non-délivrables {#non-deliverables-email}
 
 ### Répartition des erreurs par type {#email-delivery-breakdown-type}
 
@@ -157,7 +157,7 @@ Les erreurs présentées dans ce rapport déclenchent le processus de mise en qu
 
 ![Capture d’écran de la répartition des erreurs par type](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Utilisateur inconnu]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse e-mail est invalide.
 
@@ -218,7 +218,7 @@ Le rapport **[!UICONTROL Statistiques de diffusion]** fournit des indicateurs cl
 
 ![Capture d’écran des statistiques de diffusion](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à délivrer.
 
@@ -246,7 +246,7 @@ Le tableau **[!UICONTROL Taux d’ouvertures et de clics]** affiche des données
 
 ![Capture d’écran du tableau Taux d’ouverture et de clic publicitaire](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Envoyés]** : nombre total de messages envoyés.
 
@@ -271,7 +271,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 ![Capture d’écran du rapport URL et flux de clics](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
@@ -296,7 +296,7 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 
 ![Capture d’écran du graphe des 10 liens les plus visités](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
@@ -328,7 +328,7 @@ Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des o
 
 ![Capture d’écran du rapport Activités utilisateurs](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
@@ -347,7 +347,7 @@ Le graphe **[!UICONTROL Statistiques de tracking]** fournit des statistiques sur
 
 ![Capture d’écran du graphique Statistiques de tracking](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de rapports de diffusion par e-mail.
++++En savoir plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 

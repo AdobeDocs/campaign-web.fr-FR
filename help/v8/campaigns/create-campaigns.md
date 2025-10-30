@@ -47,7 +47,7 @@ Pour créer une campagne procédez comme suit :
 
 ## Surveiller et suivre la campagne {#campaign-monitoring}
 
-La surveillance des campagnes est une étape essentielle pour analyser l’efficacité de votre campagne. Ouvrez votre campagne, puis cliquez sur le bouton **Journaux**.
+La surveillance des campagnes est une étape essentielle pour analyser l’efficacité de votre campagne. Ouvrez votre campagne, puis cliquez sur le bouton **Logs**.
 
 Vous pouvez également afficher les rapports dédiés en cliquant sur le bouton **Rapports**. Consultez cette [section](../reporting/campaign-reports.md).
 

@@ -3,7 +3,7 @@ title: Dimension de ciblage et dimension de filtrage
 description: En savoir plus sur les dimensions de ciblage et de filtrage dans l’interface d’utilisation d’Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 

@@ -71,7 +71,7 @@ Dans l’exemple ci-dessous, une option personnalisée nommée `sampleOption` es
 
 1. Exécutez le workflow pour afficher la valeur mise à jour dans les logs du workflow.
 
-   ![Journaux de workflow montrant la valeur mise à jour de l’option personnalisée](assets/options-sample-logs.png)
+   ![Logs de workflow montrant la valeur mise à jour de l’option personnalisée](assets/options-sample-logs.png)
 
 1. La valeur mise à jour est désormais visible dans le menu **[!UICONTROL Options]**.
 

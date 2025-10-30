@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 100%
 
@@ -180,7 +180,7 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
    ![Bouton Simuler le contenu](assets/templates-simulate-button.png){zoomable="yes"}
 
-1. Sélectionnez un ou plusieurs profils de test pour vérifier le rendu de votre e-mail. Vous pouvez également sélectionner des profils réels dans votre base de données. [En savoir plus sur les profils de test](../audience/test-profiles.md)
+1. Sélectionnez un ou plusieurs profils de test pour vérifier le rendu de vos e-mails. Vous pouvez également sélectionner des profils réels dans votre base de données. [En savoir plus sur les profils de test](../audience/test-profiles.md)
 
 1. Basculez entre les différents profils pour obtenir une représentation personnalisée du message selon le profil sélectionné. Vous pouvez également ajuster le niveau de zoom et choisir la vue pour ordinateur ou mobile.
 

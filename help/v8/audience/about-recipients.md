@@ -4,8 +4,8 @@ description: Découvrez comment surveiller et gérer les profils dans Campaign 
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '439'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ De plus, des **[!UICONTROL profils de test]**, désignés comme des « profils 
 
 Les profils et les profils de test sont utiles pour tester les diffusions avant qu’elles n’atteignent l’audience visée. Cela permet de prévisualiser le contenu et la personnalisation des messages, envoyer des BAT à des fins de test et de validation, évaluer le rendu des e-mails sur différentes plateformes et appareils et tester les pages de destination. [Découvrir comment prévisualiser et tester des diffusions](../preview-test/preview-test.md)
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Accéder à la liste des profils {#access}
 
@@ -46,4 +46,4 @@ Pour supprimer un profil, sélectionnez l’option correspondante dans le menu *
 
 Découvrez comment accéder aux profils, les gérer et les explorer à l’aide de l’interface utilisateur web de Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448366?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

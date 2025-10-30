@@ -40,7 +40,7 @@ Toutes les étapes de validation, les avertissements et les erreurs sont répert
 * L’icône jaune indique une erreur de traitement non critique.
 * L’icône rouge indique une erreur critique qui empêche l’envoi de la diffusion. Les erreurs critiques doivent être corrigées pour que la diffusion soit envoyée.
 
-![ Onglet Journaux affichant les étapes de validation, les avertissements et les erreurs avec des icônes colorées indiquant les types de messages.](assets/logs.png){zoomable="yes"}
+![ Onglet Logs affichant les étapes de validation, les avertissements et les erreurs avec des icônes colorées indiquant les types de messages.](assets/logs.png){zoomable="yes"}
 
 ## Diffusions {#deliveries-tab}
 

@@ -1,12 +1,12 @@
 ---
 title: Utiliser l’aide contextuelle optimisée par l’IA dans Campaign Web
 description: Poser des questions dans les fenêtres contextuelles d’aide de Campaign Web
-badge: label="Version bêta"
+badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: b2de0d0061e5c2b582c3e73ccaf2dab1490cc854
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Grâce aux fonctionnalités de l’IA générative de Campaign, ce composant tra
 
 >[!AVAILABILITY]
 >
->* L’aide contextuelle optimisée par l’IA est disponible dans sa version bêta et peut être modifiée sans préavis.
+>* L’aide contextuelle optimisée par l’IA est disponible dans sa version Beta et peut être modifiée sans préavis.
 >
 >* Cette fonctionnalité n’est disponible qu’en **anglais**. Les autres langues ne sont pas prises en charge dans cette version. En conséquence, assurez-vous que [votre langue préférée](connect-to-campaign.md#language-pref) est définie sur Anglais avant d’utiliser cette fonctionnalité.
 >
@@ -42,7 +42,7 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/fr/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 -->
 
 ## Questions suggérées {#questions-ai}

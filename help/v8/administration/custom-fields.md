@@ -3,9 +3,9 @@ title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -128,7 +128,7 @@ Les paramètres disponibles sont les suivants :
 
   ![Capture d’écran illustrant un exemple de paramètres de filtre pour les champs personnalisés](assets/custom-fields-ref.png)
 
-+++
+  +++
 
 * **[!UICONTROL Étendre sur deux colonnes]** : par défaut, les champs personnalisés s’affichent dans l’interface sur deux colonnes. Activez cette option pour afficher le champ personnalisé sur toute la largeur de l’écran au lieu de deux colonnes.
 

@@ -3,7 +3,7 @@ title: Utiliser les schémas
 description: Découvrez comment utiliser les schémas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Les schémas jouent un rôle essentiel dans ce qui suit :
 
-* Mappage des données d’application avec les tables de la base de données.
+* Mapping des données d’application avec les tables de la base de données.
 * Définition des relations entre les objets de données.
 * Spécification de la structure et des propriétés de chaque champ.
 

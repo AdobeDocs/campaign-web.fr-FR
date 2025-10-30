@@ -107,9 +107,9 @@ Le workflow ci-dessous montre comment importer un fichier contenant des profils 
 
   Comme vous l’avez peut-être remarqué, l’opération est spécifiée en tant que « sub » ou « unsub » dans le fichier. Le système attend une valeur de type **Booléen** ou **Entier** pour déterminer l’opération à réaliser : la valeur &quot;0&quot; pour désabonner et la valeur &quot;1&quot; pour abonner. Pour répondre à cette exigence :
    * Le **Type de données** pour la colonne « operation » est défini sur entier.
-   * Un **remappage de valeurs** doit être effectué pour faire correspondre les valeurs « sub » et « unsub » avec les valeurs « 1 » et « 0 ».
+   * Un **remapping des valeurs** doit être effectué pour faire correspondre les valeurs « sub » et « unsub » avec les valeurs « 1 » et « 0 ».
 
-  ![Capture d’écran de l’interface de mappage du service d’abonnement de workflow.](../assets/workflow-subscription-service-uc2-mapping.png)
+  ![Capture d’écran de l’interface de mapping du service d’abonnement de workflow.](../assets/workflow-subscription-service-uc2-mapping.png)
 
   Si le fichier utilise déjà les valeurs « 0 » et « 1 » pour identifier l’opération, il n’est pas nécessaire de mapper ces valeurs à nouveau. Assurez-vous uniquement que la colonne soit traitée comme une valeur **Booléenne** ou **Nombre entier** dans les colonnes du fichier d’exemple.
 

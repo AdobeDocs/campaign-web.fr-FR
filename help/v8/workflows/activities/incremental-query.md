@@ -36,9 +36,9 @@ L’activité **Requête incrémentale** est une activité de **Ciblage** qui vo
 L’activité **[!UICONTROL Requête incrémentale]** peut être utilisée pour différents objectifs :
 
 * segmentation d’individus afin de définir la cible d’un message, une audience, ou d’autres opérations.
-* Exporter des données. Par exemple, vous pouvez utiliser l’activité pour exporter régulièrement les nouveaux journaux dans des fichiers. Cela se révèle utile pour les outils de reporting externe ou de Business Intelligence.
+* Exporter des données. Par exemple, vous pouvez utiliser l’activité pour exporter régulièrement les nouveaux logs dans des fichiers. Cela se révèle utile pour les outils de reporting externe ou de Business Intelligence.
 
-La population déjà ciblée par les exécutions précédentes est stockée dans le workflow. Deux workflows démarrés à partir du même modèle ne partagent pas le même log. Toutefois, deux tâches basées sur la même requête incrémentale dans le même workflow utilisent le même journal.
+La population déjà ciblée par les exécutions précédentes est stockée dans le workflow. Deux workflows démarrés à partir du même modèle ne partagent pas le même log. Toutefois, deux tâches basées sur la même requête incrémentielle dans le même workflow utilisent le même log.
 
 Si le résultat d’une requête incrémentale est égal à 0 lors de l’une de ses exécutions, le workflow est mis en pause jusqu’à la prochaine exécution programmée de la requête. Les transitions et les activités qui suivent la requête incrémentale ne sont donc pas traitées avant l’exécution suivante.
 
@@ -61,7 +61,7 @@ Pour configurer l’activité **Requête incrémentale**, procédez comme suit 
 
    * **[!UICONTROL Exclure les résultats de l’exécution précédente]** : à chaque exécution de l’activité, les résultats des exécutions précédentes sont exclus.
 
-     Les enregistrements déjà ciblés dans les exécutions précédentes peuvent être consignés dans un log selon un nombre de jours maximum à partir de celui où ils ont été ciblés. Utilisez le champ **[!UICONTROL Historique en jours]** pour définir cette valeur. Si cette valeur est égale à zéro, les personnes destinataires ne sont jamais purgées du journal.
+     Les enregistrements déjà ciblés dans les exécutions précédentes peuvent être consignés dans un log selon un nombre de jours maximum à partir de celui où ils ont été ciblés. Utilisez le champ **[!UICONTROL Historique en jours]** pour définir cette valeur. Si cette valeur est égale à zéro, les personnes destinataires ne sont jamais purgées du log.
 
    * **[!UICONTROL Utiliser un champ de date]** : cette option permet d’exclure les résultats des exécutions précédentes en fonction d’un champ de date spécifique. Choisissez le champ de date souhaité dans la liste des attributs disponibles pour la dimension de ciblage sélectionnée. Lors des exécutions suivantes du workflow, seules les données qui auront été modifiées ou créées après la date de la dernière exécution seront récupérées.
 

@@ -57,7 +57,7 @@ Dans l’onglet **Parcourir** de la liste des campagnes, cliquez sur une campagn
 
 Le statut et le planning de la campagne sont affichés en haut de l’écran. Utilisez le bouton **Paramètres** pour mettre à jour les propriétés de votre campagne, telles que son libellé, son dossier et sa description. Vous pouvez également modifier le planning de votre campagne à partir de l’écran des paramètres. Pour en savoir plus sur les plannings de campagnes, consultez [cette section](create-campaigns.md#campaign-schedule).
 
-Dans le tableau de bord de campagne, utilisez les boutons **Journaux** et **Rapports** pour surveiller votre campagne. En savoir plus dans cette [section](create-campaigns.md#create-campaigns).
+Dans le tableau de bord de campagne, utilisez les boutons **Logs** et **Rapports** pour surveiller votre campagne. En savoir plus dans cette [section](create-campaigns.md#create-campaigns).
 
 Pour chaque campagne, le tableau de bord affiche deux onglets principaux : Workflows et Diffusions.
 

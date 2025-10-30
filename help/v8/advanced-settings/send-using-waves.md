@@ -64,7 +64,7 @@ Si vous sélectionnez cette option, toutes les vagues ont la même taille (sauf 
 
 * Dans la section **[!UICONTROL Intervalle]**, indiquez le délai entre le démarrage de deux vagues consécutives. Par exemple, si vous saisissez **[!UICONTROL 2 j]**, la première vague démarre immédiatement, la deuxième démarre dans deux jours, la troisième dans quatre jours, etc.
 
-Un centre d’appel est impliqué dans le cas d’utilisation de plusieurs vagues de même taille. Lorsque vous gérez une campagne téléphonique de fidélisation, votre entreprise a une capacité de traitement des appels limitée pour contacter les abonnés.
+Un centre d’appel est impliqué dans le cas d’utilisation de plusieurs vagues de même taille. Lorsque vous gérez une campagne téléphonique de fidélisation, votre organisation a une capacité de traitement des appels limitée pour contacter les personnes abonnées.
 
 Grâce aux vagues, vous pouvez limiter le nombre des messages à 20 par jour, ce qui correspond à la capacité de traitement quotidien d&#39;un centre d&#39;appels.
 

@@ -107,9 +107,9 @@ Dans cet exemple, un e-mail avec plusieurs variantes est créé en fonction de l
 
 1. Le concepteur de requête s’ouvre pour vous permettre de créer une condition en filtrant les données de profil de la personne destinataire. [Découvrez comment utiliser le concepteur de requête](../query/query-modeler-overview.md).
 
-   Une fois la condition de la première variante du message prête, cliquez sur **[!UICONTROL Confirmer]**. Dans cet exemple, une règle ciblant les personnes destinataires dont la langue est le « français » est créée.
+   Une fois la condition de la première variante du message prête, cliquez sur **[!UICONTROL Confirmer]**. Dans cet exemple, une règle ciblant les destinataires dont la langue est le « français » est créée.
 
-   ![Capture d’écran montrant une condition ciblant des personnes destinataires dont la langue est le français.](assets/condition-example.png){zoomable="yes"}{width="800" align="center"}
+   ![Capture d’écran montrant une condition ciblant les destinataires dont la langue est le français.](assets/condition-example.png){zoomable="yes"}{width="800" align="center"}
 
 1. La règle est désormais associée à la variante. Pour une meilleure lisibilité, renommez la variante en cliquant sur le menu représentant des points de suspension.
 

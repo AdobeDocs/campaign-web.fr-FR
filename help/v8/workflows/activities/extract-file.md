@@ -62,7 +62,7 @@ La section de format **[!UICONTROL Destination]** vous permet de configurer le f
 
 1. Cliquez sur le bouton **[!UICONTROL Format d’extraction]** pour accéder à des options spécifiques liées au format sélectionné. Pour plus d’informations, développez la section ci-dessous.
 
-+++ Options de format d’extraction disponibles
+   +++ Options de format d’extraction disponibles
 
    * **[!UICONTROL Utiliser la première ligne comme en-tête des colonnes]** (formats Texte/CSV (Excel)) : activez cette option pour utiliser la première colonne comme en-tête.
    * **[!UICONTROL Séparateur de colonne]** (format texte) : spécifiez le caractère à utiliser comme séparateur de colonne dans le fichier de sortie.
@@ -73,7 +73,7 @@ La section de format **[!UICONTROL Destination]** vous permet de configurer le f
    * **[!UICONTROL Format des nombres]** : indiquez le format des nombres dans le fichier de sortie.
    * **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** : activez cette option si vous exportez des valeurs d’énumération et souhaitez récupérer les libellés de colonnes plus faciles à comprendre que les identifiants internes.
 
-+++
+   +++
 
    ![Capture d’écran montrant les options de configuration du fichier à extraire.](../assets/extract-file-format.png)
 

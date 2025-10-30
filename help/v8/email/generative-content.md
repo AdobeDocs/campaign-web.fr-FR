@@ -4,7 +4,7 @@ title: Contenu génératif
 description: Commencer avec l’assistant IA
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant IA d’Adobe Campaign
 
 1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter n’importe quelle ressource de marque pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
-   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
+   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez les ressources que vous souhaitez inclure dans votre génération.
 
    ![Capture d’écran montrant les options de paramètres des marques dans Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
 
@@ -127,7 +127,7 @@ Dans l’exemple suivant, utilisez l’assistant IA afin d’améliorer le cont
 
 1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter n’importe quelle ressource de marque fournissant du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
-   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
+   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez les ressources que vous souhaitez inclure dans votre génération.
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
@@ -196,7 +196,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA
 
 1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter n’importe quelle ressource de marque pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
-   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Sélectionnez les ressources que vous souhaitez inclure dans votre génération.
+   Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Activez les ressources que vous souhaitez inclure dans votre génération.
 
 1. Quand la configuration de votre prompt vous satisfait, cliquez sur **[!UICONTROL Générer]**.
 

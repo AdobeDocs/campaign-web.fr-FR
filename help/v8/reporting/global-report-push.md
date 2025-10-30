@@ -4,9 +4,9 @@ title: Rapports globaux du canal de notification push
 description: Comprendre les rapports globaux du canal de notification push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI (in
 
 ![Mesures de la vue d’ensemble de la diffusion, affichant les KPI liés aux performances des notifications push.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de diffusion.
++++En savoir plus sur les mesures de vue d’ensemble de la diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -73,7 +73,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** renseigne sur le succès d
 
 ![Mesures des statistiques de diffusion, affichant les taux de succès, les erreurs et les mises en quarantaine pour les notifications push.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de statistiques de diffusion.
++++En savoir plus sur les mesures Statistiques de diffusion .
 
 * **[!UICONTROL Nombre total de messages]** : nombre total de messages à diffuser après la préparation de la diffusion.
 

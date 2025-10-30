@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Après avoir publié et envoyé votre message transactionnel, vous pouvez accéder aux rapports et aux logs associés.
 
-## Journaux de message transactionnel {#transactional-logs}
+## Logs de message transactionnel {#transactional-logs}
 
 Une fois votre message publié, vérifiez son exécution en cliquant sur le bouton **[!UICONTROL Logs]**.
 

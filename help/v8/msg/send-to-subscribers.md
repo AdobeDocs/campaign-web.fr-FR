@@ -5,8 +5,8 @@ description: Découvrez comment envoyer des messages aux personnes abonnées à 
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Pour envoyer des messages à vos personnes abonnées, créez une audience spéci
 
 1. Créez une diffusion. Les étapes de création d’une diffusion sont détaillées sur [cette page](../msg/gs-messages.md#create-delivery).
 
-1. Accédez à vos paramètres de diffusion et définissez le mapping de ciblage par défaut sur **Abonnements (nms:subscriptions)**.
+1. Accédez aux paramètres de votre diffusion et remplacez le mapping de ciblage par défaut par **Abonnements (nms:subscriptions)**.
 
    ![Capture d’écran affichant les paramètres de diffusion avec le mapping de ciblage remplacé par Abonnements dans Adobe Campaign.](assets/service-delivery-change-mapping.png){zoomable="yes"}
 

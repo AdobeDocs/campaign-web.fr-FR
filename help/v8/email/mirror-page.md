@@ -5,8 +5,8 @@ description: Découvrez comment ajouter et gérer le lien vers la page miroir.
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Par défaut, la période de conservation d’une page miroir est de **60 jours*
 >
 >* Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées chiffrées requises pour afficher l’e-mail original. L’utilisation d’attributs personnalisés avec des valeurs élevées peut générer de longues URL de pages miroir. Cela peut empêcher le lien de fonctionner dans les navigateurs web qui imposent des limites de longueur d’URL.
 >
->* Dans le BAT envoyé aux profils de test, le lien vers la page miroir est inactif. Il n’est activé que dans les messages finaux.
+>* Dans le BAT envoyé aux profils de test, le lien vers la page miroir est inactif. Il n’est actif que dans les messages finaux.
 
 ## Génération de la page miroir {#mirror-page-generation}
 

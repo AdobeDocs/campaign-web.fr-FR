@@ -4,7 +4,7 @@ title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 100%
 

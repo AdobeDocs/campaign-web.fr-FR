@@ -22,10 +22,10 @@ L’activité **Enrichissement** est une activité de **ciblage**. Elle amélior
 
 Les données d’enrichissement tirent leur origine des sources suivantes :
 
-* **Le même tableau de travail** que celui ciblé dans votre workflow :
-   * Ciblez un groupe de clientes et de clients et ajoutez le champ « Date de naissance » au tableau de travail actuel.
+* **La même table de travail** que celle ciblée dans votre workflow :
+   * Ciblez un groupe de clientes et de clients et ajoutez le champ « Date de naissance » à la table de travail actuelle.
 
-* **Un autre tableau de travail** :
+* **Une autre table de travail** :
    * Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat ».
 
 Une fois que les données d’enrichissement ont été ajoutées au workflow, elles peuvent être utilisées dans les activités suivantes pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Elles peuvent également être utilisées pour créer des messages et des campagnes marketing personnalisés qui résonnent auprès de votre audience cible.

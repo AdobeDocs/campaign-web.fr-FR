@@ -9,7 +9,7 @@ keywords: mode sombre, e-mail, couleur, éditeur
 hide: true
 hidefromtoc: true
 source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 100%
 

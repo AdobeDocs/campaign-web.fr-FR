@@ -8,7 +8,7 @@ level: Intermediate
 keywords: css, éditeur, résumé, e-mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -167,7 +167,7 @@ body {
 
 Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cadre d’une balise `<style>` avec l’attribut `data-name="global-custom"`, comme dans l’exemple ci-dessous. Cela permet de s’assurer que les styles personnalisés s’appliquent globalement au contenu.
 
-+++ Voir l’exemple
++++ Voir l’exemple 
 
 ```html
 <!DOCTYPE html>
@@ -247,7 +247,7 @@ Si votre CSS personnalisé ne s’applique pas, envisagez les options ci-dessous
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Assurez-vous que votre CSS n’est pas remplacé par d’autres règles CSS.
 
@@ -255,7 +255,7 @@ Si votre CSS personnalisé ne s’applique pas, envisagez les options ci-dessous
 
    * Pensez à ajouter `!important` à vos déclarations pour vous assurer qu’elles sont prioritaires.
 
-+++ Par exemple :
+     +++ Par exemple :
 
      ```css
      .acr-Form {
@@ -263,4 +263,4 @@ Si votre CSS personnalisé ne s’applique pas, envisagez les options ci-dessous
      }
      ```
 
-+++
+     +++

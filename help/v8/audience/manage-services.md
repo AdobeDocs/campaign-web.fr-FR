@@ -4,7 +4,7 @@ title: Utiliser des services d’inscription
 description: Découvrez comment accéder aux services d’abonnements, comment les créer et comment les gérer dans Adobe Campaign Web.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 100%
 
@@ -162,7 +162,7 @@ Vous pouvez maintenant sélectionner ces messages lors de la [création d’un s
 >title="Évolution globale des abonnements"
 >abstract="Ce graphique affiche la répartition par période, y compris les abonnements, les désabonnements, l’évolution en chiffres et le pourcentage de fidélité."
 
-Pour mesurer l’efficacité de vos services d’abonnement pour les canaux SMS et e-mail, accédez aux journaux et aux rapports d’un service donné.
+Pour mesurer l’efficacité de vos services d’abonnement pour les canaux SMS et e-mail, accédez aux logs et aux rapports d’un service donné.
 
 1. Sélectionnez un service existant dans la liste **[!UICONTROL Services d’abonnements]**. Cliquez sur **[!UICONTROL Calculer]** pour obtenir le nombre total de personnes abonnées.
 

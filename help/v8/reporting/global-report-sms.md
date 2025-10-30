@@ -4,9 +4,9 @@ title: Rapports globaux du canal SMS
 description: Comprendre les rapports globaux du canal SMS
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** offre des indicateu
 
 ![Capture d’écran du rapport Vue d’ensemble de la diffusion, présentant les indicateurs de performances clés pour la diffusion par SMS.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de diffusion.
++++En savoir plus sur les mesures de vue d’ensemble de la diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -73,7 +73,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** détaille le succès de ch
 
 ![Capture d’écran du rapport Statistiques de diffusion, présentant les taux de succès, les erreurs et les quarantaines des diffusions par SMS.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de statistiques de diffusion.
++++En savoir plus sur les mesures Statistiques de diffusion .
 
 * **[!UICONTROL Nombre total de messages]** : nombre total de messages à diffuser après la préparation de la diffusion.
 

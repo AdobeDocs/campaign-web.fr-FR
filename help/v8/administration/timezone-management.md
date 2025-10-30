@@ -2,7 +2,7 @@
 title: Gestion des fuseaux horaires
 description: Découvrez comment l’interface d’utilisation d’Adobe Campaign Web affiche les valeurs de date et d’heure en fonction du fuseau horaire du navigateur, de l’opérateur ou de l’opératrice, du workflow et du serveur.
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 

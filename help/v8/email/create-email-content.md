@@ -5,8 +5,8 @@ description: Découvrez comment concevoir le contenu des e-mails en partant de z
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 Le concepteur d’e-mail permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir le corps de votre e-mail en quelques secondes.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
@@ -72,7 +72,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
    ![Capture d’écran affichant le volet Composants de structure dans le concepteur d’e-mail.](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
+1. Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
    >
    >Vous ne pouvez pas revenir au concepteur visuel de cet e-mail après avoir basculé vers l’éditeur de code.
 
-1. Une fois que votre contenu est prêt, cliquez sur **[!UICONTROL Simuler du contenu]** pour vérifier le rendu de l’e-mail. Choisissez la vue de bureau ou mobile. [En savoir plus sur la prévisualisation des e-mails](../preview-test/preview-test.md).
+1. Une fois que votre contenu est prêt, cliquez sur **[!UICONTROL Simuler du contenu]** pour vérifier le rendu des e-mails. Choisissez la vue de bureau ou mobile. [En savoir plus sur la prévisualisation des e-mails](../preview-test/preview-test.md).
 
    ![Capture d’écran affichant les options de simulation dans le Concepteur d’e-mail.](assets/email_designer-simulate.png){zoomable="yes"}
 
@@ -110,4 +110,4 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 Découvrez comment naviguer dans le concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail, ainsi que le personnaliser et le tester.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453566/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

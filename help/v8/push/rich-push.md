@@ -48,7 +48,7 @@ Une fois votre diffusion push créée, vous pouvez définir son contenu à l’a
 
 * Le **catalogue de produits** affiche de nombreuses images de produits.
 
-* La **notation de produit** permet aux utilisateurs et utilisatrices de donner leur avis et d’évaluer les produits.
+* La **notation de produit** permet aux utilisateurs et utilisatrices de laisser des commentaires et d’évaluer les produits.
 
 * Le **retardateur** inclut un minuteur avec compte à rebours dynamique dans vos notifications.
 

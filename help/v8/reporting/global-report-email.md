@@ -4,9 +4,9 @@ title: Rapports globaux du canal e-mail
 description: En savoir plus sur les rapports globaux du canal e-mail
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** présente des indicateurs c
 
 ![Mesures de la vue d’ensemble de la diffusion](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de diffusion.
++++En savoir plus sur les mesures de vue d’ensemble de la diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -76,7 +76,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition d
 
 ![Mesures des statistiques de diffusion](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de statistiques de diffusion.
++++En savoir plus sur les mesures Statistiques de diffusion .
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -112,7 +112,7 @@ Les types d’erreur d’e-mail sont répertoriés dans la [documentation d’Ad
 
 Le rapport Débit de diffusion présente des informations détaillées sur l’efficacité du processus de diffusion, ainsi qu’une vue d’ensemble des taux de succès et d’erreur survenus au cours d’une période donnée.
 
-+++En savoir plus sur les mesures de débit de diffusion.
++++En savoir plus sur les mesures de débit des diffusions.
 
 * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à délivrer.
 
@@ -120,7 +120,7 @@ Le rapport Débit de diffusion présente des informations détaillées sur l’e
 
 +++
 
-## Non diffusables {#non-deliverables-email}
+## Non-délivrables {#non-deliverables-email}
 
 ### Répartition des erreurs par type {#delivery-summary-email-breakdown-per-type}
 
@@ -135,7 +135,7 @@ Le tableau et le graphe **[!UICONTROL Répartition des erreurs par type]** prés
 
 Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion des quarantaines, consultez la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=fr){target="_blank"}.
 
-+++En savoir plus sur les mesures de répartition des erreurs par type.
++++En savoir plus sur la Répartition des erreurs par type de mesure.
 
 * **[!UICONTROL Utilisateur inconnu]** : type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse e-mail est invalide.
 
@@ -177,7 +177,7 @@ Les mesures des **[!UICONTROL Statistiques de diffusion]** offrent des KPI (indi
 
 ![Mesures de tracking des statistiques de diffusion](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de statistiques de diffusion.
++++En savoir plus sur les mesures Statistiques de diffusion .
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -205,7 +205,7 @@ Le tableau **[!UICONTROL Taux d’ouvertures et de clics]** affiche des données
 
 ![Mesures des taux d’ouvertures et de clics](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de taux d’ouvertures et de clics.
++++En savoir plus sur les mesures Taux d’ouverture et de clic publicitaire .
 
 * **[!UICONTROL Envoyés]** : nombre total de messages envoyés.
 
@@ -231,7 +231,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des KPI (indicateurs cl
 
 ![Mesures des URL et flux de clics](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures d’URL et de flux de clics.
++++En savoir plus sur les URL et les mesures de flux de clics.
 
 * **[!UICONTROL Réactivité]** : ratio du nombre de personnes destinataires ciblées ayant cliqué dans une diffusion, par rapport à l’estimation du nombre de personnes destinataires ciblées ayant ouvert une diffusion.
 
@@ -253,7 +253,7 @@ Le tableau et le graphe des **[!UICONTROL 10 liens les plus visités]** contien
 
 ![Mesures Top 10 des liens les plus visités](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de top 10 des liens les plus visités.
++++En savoir plus sur les mesures des 10 liens les plus visités .
 
 * **[!UICONTROL Nombre total de clics]** : nombre total de clics sur les liens dans les diffusions.
 
@@ -283,7 +283,7 @@ Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des o
 
 ![Mesures des activités utilisateurs et utilisatrices](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures d’activités des utilisateurs et utilisatrices.
++++En savoir plus sur les mesures des activités des utilisateurs.
 
 * **[!UICONTROL Nombre total de clics]** : nombre total de clics sur les liens dans les diffusions.
 

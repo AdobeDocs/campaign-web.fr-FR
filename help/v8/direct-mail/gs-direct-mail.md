@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Le canal Courrier est un canal hors ligne qui vous permet de produire des fichiers pour diffuser en masse des lettres personnalisées à votre clientèle, comme des cartes postales, des prospectus ou des catalogues.
 
-Lors de la création d’une diffusion par courrier, Adobe Campaign génère un fichier d’extraction contenant tous les profils ciblés et les données sélectionnées, telles que les adresses postales et les attributs de profil. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par votre fournisseur de services postaux, qui gérera le processus de diffusion.
+Lors de la création d’une diffusion par courrier, Adobe Campaign génère un fichier d’extraction contenant tous les profils ciblés et les données sélectionnées, telles que les adresses postales et les attributs de profil. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par votre fournisseur de courrier, qui gérera le processus de diffusion.
 
 Pour créer des diffusions par courrier, vous disposez de trois options :
 

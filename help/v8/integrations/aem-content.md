@@ -4,7 +4,7 @@ title: Gérer les ressources avec Adobe Experience Manager as a Cloud serv
 description: Découvrez comment gérer les ressources avec Adobe Experience Manager as a Cloud service.
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Une fois que le modèle Experience Manager est disponible dans Adobe Campaign�
 
 1. Dans Campaign Web, à partir du menu **[!UICONTROL Diffusions]**, cliquez sur **[!UICONTROL Créer une diffusion]**.
 
-1. Dans la fenêtre du modèle d’e-mail, sélectionnez le modèle **[!UICONTROL Diffusion de contenu AEM par e-mail]**.
+1. Dans la fenêtre du modèle d’e-mail, sélectionnez le modèle **[!UICONTROL Diffusion de contenu AEM par e-mail]** natif.
 
    ![Capture d’écran montrant la sélection du modèle « Diffusion de contenu AEM par e-mail ».](assets/aem_5.png)
 

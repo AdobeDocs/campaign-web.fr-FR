@@ -21,7 +21,7 @@ Adobe Campaign inclut plusieurs connecteurs qui permettent de communiquer avec d
 
 Découvrez les solutions et les applications qui peuvent être connectées à Campaign, ainsi que les cas d’utilisation associés, dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html?lang=fr){target="_blank"}.
 
-De plus, avec la nouvelle interface utilisateur web de Campaign, vous pouvez connecter votre environnement Adobe Experience Manager as a Cloud Service pour réaliser les cas d’utilisation suivants :
+De plus, avec la nouvelle interface d’utilisation web de Campaign, vous pouvez connecter votre environnement Adobe Experience Manager as a Cloud Service pour réaliser les cas d’utilisation suivants :
 
 * Gérer vos ressources Adobe Experience Manager as a Cloud service. [En savoir plus](aem-assets.md)
 * Gérez les modèles avec Adobe Experience Manager as a Cloud Service. [En savoir plus](aem-content.md)

@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Une population témoin est une sous-population exclue de la diffusion. Définissez une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option permet de mesurer l’impact de votre campagne.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](create-audience.md#video)
+➡️ [Découvrir cette fonctionnalité en vidéo](create-audience.md#video)
 
 ## Activer la population témoin {#add-a-control-group}
 

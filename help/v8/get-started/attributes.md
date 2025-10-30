@@ -4,7 +4,7 @@ title: Sélectionner des attributs et les ajouter aux favoris
 description: Découvrez comment utiliser les attributs et accéder facilement aux attributs favoris et récemment utilisés.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 

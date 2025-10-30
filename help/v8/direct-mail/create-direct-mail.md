@@ -4,9 +4,9 @@ title: Créer une diffusion par courrier
 description: Découvrez comment créer une diffusion par courrier avec Adobe Campaign Web.
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
    * **[!UICONTROL Code de diffusion]** : organisez vos diffusions à l’aide de votre propre convention de nommage.
    * **[!UICONTROL Description]** : spécifiez une description pour la diffusion.
    * **[!UICONTROL Nature]** : indiquez la nature de la diffusion à des fins de classification.
-+++
+   +++
 
 1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre.
 
@@ -45,7 +45,7 @@ Pour créer une diffusion par courrier autonome, procédez comme suit :
 
    >[!NOTE]
    >
-   >Les personnes destinataires doivent afficher au minimum leur nom et leur adresse postale. Une adresse est considérée comme complète si les champs relatifs au nom, au code postal et à la ville ne sont pas vides. Les personnes destinataires dont les adresses sont incomplètes seront exclues des diffusions par courrier.
+   >Les destinataires de courrier doivent afficher au minimum leur nom et leur adresse postale. Une adresse est considérée comme complète si les champs relatifs au nom, au code postal et à la ville ne sont pas vides. Les personnes destinataires dont les adresses sont incomplètes seront exclues des diffusions par courrier.
 
 1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin et mesurer l’impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [Découvrir comment travailler avec les populations témoins](../audience/control-group.md)
 

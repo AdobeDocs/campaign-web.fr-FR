@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Chargement de fichier
 description: Découvrez comment utiliser l’activité de workflow Chargement de fichier.
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -54,8 +54,8 @@ La configuration de l’activité **Charger un fichier** s’effectue en deux é
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
->title="Nouveau mappage des valeurs de l’activité Chargement de fichier"
->abstract="Utilisez cette option pour mapper des valeurs spécifiques des fichiers chargés à de nouvelles valeurs. Par exemple, si la colonne contient des valeurs « True » et « False », vous pouvez ajouter un mappage pour remplacer automatiquement ces valeurs par des caractères « 0 » et « 1 »."
+>title="Remapping des valeurs pour l’activité Chargement de fichier"
+>abstract="Utilisez cette option pour mapper des valeurs spécifiques des fichiers chargés à de nouvelles valeurs. Par exemple, si la colonne contient des valeurs « True » et « False », vous pouvez ajouter un mapping pour remplacer automatiquement ces valeurs par des caractères « 0 » et « 1 »."
 
 Pour configurer le fichier d’exemple utilisé pour définir la structure de fichier attendue, procédez comme suit :
 
@@ -75,7 +75,7 @@ Pour configurer le fichier d’exemple utilisé pour définir la structure de fi
 
 1. Pour les types de fichiers à colonnes délimitées, utilisez la section **Colonnes** pour configurer les propriétés de chaque colonne.
 
-   +++Options disponibles pour les colonnes des fichiers
+   +++Options disponibles pour les colonnes de fichier
 
    * **[!UICONTROL Libellé]** : libellé à afficher de la colonne.
    * **[!UICONTROL Type de données]** : type de données que contient la colonne.
@@ -85,9 +85,9 @@ Pour configurer le fichier d’exemple utilisé pour définir la structure de fi
    * **[!UICONTROL Séparateurs]** (types de données date, heure, nombre entier et nombre) : spécifiez les caractères à utiliser comme séparateurs.
    * **[!UICONTROL Autoriser les valeurs NULL]** : indiquez comment gérer les valeurs vides dans la colonne. L’option « Paramètre par défaut d’Adobe Campaign » renvoie une erreur si une valeur vide est présente.
    * **[!UICONTROL Traitement des erreurs]** (type de données chaîne) : indiquez le comportement à suivre en cas d’erreur dans l’une des lignes.
-   * **[!UICONTROL Remappage des valeurs]** : cette option vous permet de mapper des valeurs spécifiques à de nouvelles valeurs. Par exemple, si la colonne contient des valeurs de type « True » et « False », vous pouvez ajouter un mappage pour remplacer automatiquement ces valeurs par les caractères « 0 » et « 1 ».
+   * **[!UICONTROL Remapping des valeurs]** : cette option vous permet de mapper des valeurs spécifiques à de nouvelles valeurs. Par exemple, si la colonne contient des valeurs de type « True » et « False », vous pouvez ajouter un mapping pour remplacer automatiquement ces valeurs par les caractères « 0 » et « 1 ».
 
-+++
+   +++
 
 1. Dans la section **Mise en forme**, indiquez la mise en forme du fichier externe pour vous assurer que les données sont correctement importées.
 

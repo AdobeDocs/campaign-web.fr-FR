@@ -5,7 +5,7 @@ description: Découvrez comment surveiller votre instance à lʼaide du journal 
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Dans l’interface d’utilisation d’Adobe Campaign Web, la fonctionnalité *
 >* L’interface d’utilisation d’Adobe Campaign Web ne réalise pas d’audit sur les modifications apportées aux droits des utilisateurs et utilisatrices, aux modèles, aux personnalisations ni aux campagnes.
 >* Seuls les administrateurs et les administratrices de l’instance peuvent gérer le journal d’audit.
 
-La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en temps réel un journal détaillé des actions et des événements se produisant dans l’instance Adobe Campaign. Elle offre une méthode pratique d’accès à un enregistrement chronologique des données, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes qui les modifient ou les activités effectuées par les utilisateurs et utilisatrices au sein de l’instance.
+La fonctionnalité **[!UICONTROL Journal d’audit]** permet d’enregistrer en temps réel un log détaillé des actions et des événements se produisant dans l’instance Adobe Campaign. Elle offre une méthode pratique d’accès à un enregistrement chronologique des données, en répondant à des requêtes telles que : le statut des workflows, les dernières personnes qui les modifient ou les activités effectuées par les utilisateurs et utilisatrices au sein de l’instance.
 
 +++ En savoir plus sur les entités disponibles du journal d’audit
 
