@@ -94,7 +94,7 @@ Pour tirer parti des variations d’e-mail [!DNL GenStudio] que vous venez de cr
 
    >[!NOTE]
    >
-   >Les expériences GenStudio [créées à partir d’un modèle [!DNL Adobe Campaign]  ](#export-from-ajo-to-genstudio) sont importées directement dans le Designer d’e-mail. Les expériences GenStudio créées sans modèle de [!DNL Adobe Campaign] sont importées en [mode de compatibilité](../email/existing-content.md).
+   >Les expériences GenStudio [créées à partir d’un modèle [!DNL Adobe Campaign]  &#x200B;](#export-from-ajo-to-genstudio) sont importées directement dans le Designer d’e-mail. Les expériences GenStudio créées sans modèle de [!DNL Adobe Campaign] sont importées en [mode de compatibilité](../email/existing-content.md).
 
    Utilisez les [outils d’édition de contenu d’e-mail](../email/create-email-content.md) et [champs de personnalisation](../personalization/personalize.md) pour modifier votre e-mail selon vos besoins. Enregistrez votre contenu.
 
