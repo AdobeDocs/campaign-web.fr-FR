@@ -2,10 +2,10 @@
 title: Explorer les détails des profils
 description: Découvrez comment explorer les détails d’un profil.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 88%
 
 ---
 
@@ -27,6 +27,10 @@ Les informations relatives au profil sont organisées comme suit :
 * L’onglet **[!UICONTROL Abonnements]** permet d’accéder aux informations relatives aux services auxquels le profil est abonné. [En savoir plus sur les services d’abonnement](manage-services.md)
 
   ![Capture d’écran affichant l’onglet Abonnements et répertoriant les services auxquels le profil est abonné.](assets/profile-subscriptions.png){zoomable="yes"}
+
+* Vous pouvez afficher des onglets personnalisés, tels que des achats, en définissant des liens de collection dans la définition d&#39;écran du schéma Destinataires . [En savoir plus sur les liens de collection](../administration/schemas.md#collection-lists)
+
+  ![Capture d’écran affichant l’onglet personnalisé](assets/schemas-collection4.png){zoomable="yes"}
 
 * De plus, le bouton **[!UICONTROL Logs]** situé dans le coin supérieur droit de l’écran permet d’afficher l’historique des interactions du profil par le biais des logs d’envoi, d’exclusion et de tracking. [En savoir plus sur les logs de diffusion](../monitor/delivery-logs.md)
 

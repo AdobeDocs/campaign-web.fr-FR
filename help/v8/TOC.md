@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,7 @@ ht-degree: 100%
          + [Définir un style pour les liens](email/styling-links.md)
          + [Ajouter des attributs de style intégrés](email/inline-styling.md)
          + [Ajouter un fichier CSS personnalisé](email/custom-css.md)
+         + [Gérer le contenu en mode sombre](email/dark-mode.md)
       + [Créer du contenu accessible](email/accessible-content.md)
    + Assistant IA {#ai-assistant}
       + [Utiliser l’assistant IA](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 100%
    + [Utiliser d’autres solutions Adobe](integrations/integration.md)
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Utiliser GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configuration {#conf}
    + Branding {#branding}
       + [À propos du branding](administration/branding/branding-gs.md)
@@ -285,6 +287,7 @@ ht-degree: 100%
       + [Base de données externe](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [Transférer des données](administration/transfer-external-account.md)
+      + [Compte externe CRM](administration/external-crm.md)
    + [Gérer les énumérations](administration/enumerations.md)
    + [Utiliser les codes JavaScript](administration/javascript-codes.md)
 + [Documentation de Campaign v8 (console) >](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home)

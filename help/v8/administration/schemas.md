@@ -2,10 +2,10 @@
 title: Utiliser les schémas
 description: Découvrez comment utiliser les schémas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '597'
+ht-degree: 80%
 
 ---
 
@@ -63,7 +63,9 @@ L’onglet **[!UICONTROL Données]** fournit des informations sur les données d
 
 ![Onglet Données de schéma présentant la structure et les attributs des données](assets/schemas-data.png)
 
-## Modifier des champs personnalisés {#fields}
+## Configuration de la définition d’écran {#screen-definition}
+
+### Modifier des champs personnalisés {#fields}
 
 Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas prêts à l’emploi via la console Adobe Campaign. Ils vous permettent de personnaliser les schémas en incluant de nouveaux attributs en fonction des besoins de votre entreprise.
 
@@ -74,3 +76,27 @@ Les champs personnalisés peuvent être affichés sur différents écrans, comme
 Cliquez sur **[!UICONTROL Aperçu]** pour afficher les champs personnalisés dans un exemple d’écran.
 
 Pour plus d’informations sur la modification des champs personnalisés dans un schéma, reportez-vous à la section [Configurer des champs personnalisés](../administration/custom-fields.md).
+
+### Ajout de listes de collection {#collection-lists}
+
+Cette section **Liste de listes personnalisées** vous permet de définir des liens de collection, tels que des achats. Les données associées sont ensuite affichées dans les écrans de profil via un onglet dédié.
+
+>[!NOTE]
+>
+>Actuellement, cette fonctionnalité n’est disponible que pour le schéma Destinataires .
+
+1. Pour ajouter une liste de collection à l’interface, cliquez sur le bouton représentant des points de suspension et choisissez **Sélectionner des listes personnalisées**.
+
+   ![Création de listes de collections](assets/schemas-collection1.png)
+
+1. Sélectionnez l’une des listes personnalisées disponibles, par exemple Achats, puis cliquez sur **Confirmer**.
+
+   ![Création de listes de collections](assets/schemas-collection2.png)
+
+1. Accédez au menu **Profils** et filtrez les profils qui ont effectué des achats.
+
+   ![Création de listes de collections](assets/schemas-collection3.png)
+
+1. Cliquez sur un profil. Vous remarquerez que le nouvel onglet s’affiche. Vous pouvez ajouter d’autres colonnes si nécessaire.
+
+   ![Création de listes de collections](assets/schemas-collection4.png)

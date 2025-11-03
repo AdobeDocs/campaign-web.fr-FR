@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 90%
 
 ---
 
@@ -35,11 +35,13 @@ Pour ouvrir une diffusion, cliquez sur son nom dans la liste. La diffusion s’o
 
 ![Écran de détails de la diffusion affichant les paramètres et les rapports](assets/delivery-details.png)
 
->[!NOTE]
->
->Si vous ouvrez une diffusion créée dans la console cliente, la section **[!UICONTROL Cible supplémentaire]** peut être présentée à l’audience. Cela indique que plusieurs cibles ont été configurées pour cette diffusion. Ces paramètres ne peuvent être modifiés que dans la console.
->
->![Message d’avertissement concernant une configuration cible supplémentaire](assets/target-warning-audience.png){zoomable="yes"}
+Si vous ouvrez une diffusion créée dans la console cliente, deux nouvelles sections peuvent s’afficher pour l’audience. Ces paramètres ne peuvent être modifiés que dans la console.
+
+* **[!UICONTROL Cible supplémentaire]** : indique que plusieurs cibles ont été paramétrées pour cette diffusion.
+
+* **[!UICONTROL Cible de BAT supplémentaire]** : indique qu&#39;une condition dynamique a été définie au niveau des cibles de BAT dans cette diffusion.
+
+![Message d’avertissement concernant une configuration cible supplémentaire](assets/target-warning-audience.png){zoomable="yes"}
 
 ## Dupliquer une diffusion {#delivery-duplicate}
 

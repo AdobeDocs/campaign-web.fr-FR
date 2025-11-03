@@ -3,7 +3,7 @@ audience: end-user
 title: Importer le contenu des e-mails
 description: Découvrez comment importer le contenu des e-mails.
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -46,9 +46,9 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
    ![Capture d’écran montrant l’onglet Convertisseur HTML et le bouton Convertir.](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->L’utilisation d’une balise `<table>` comme premier calque d’un fichier HTML peut entraîner une perte de style, y compris des paramètres d’arrière-plan et de largeur de la balise de calque supérieure.
+   >[!NOTE]
+   >
+   >L’utilisation d’une balise `<table>` comme premier calque d’un fichier HTML peut entraîner une perte de style, y compris des paramètres d’arrière-plan et de largeur de la balise de calque supérieure.
 
 1. Personnalisez votre fichier importé selon vos besoins à l’aide des fonctionnalités du concepteur d’e-mail. [En savoir plus](content-components.md)
 
@@ -56,4 +56,4 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
 Découvrez comment créer un e-mail en chargeant un fichier HTML, le rendre compatible avec le concepteur d’e-mail et le convertir en modèle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447034/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
