@@ -278,7 +278,7 @@ ht-degree: 99%
    + [Gérer les mappings de ciblage](administration/target-mappings.md)
    + [Utiliser les schémas](administration/schemas.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
    + [Gestion des fuseaux horaires](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)
