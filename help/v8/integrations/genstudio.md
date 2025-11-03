@@ -23,7 +23,7 @@ ht-degree: 9%
 
 ## Prise en main de GenStudio {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} est une application générée, basée sur l’IA, qui permet aux équipes marketing de créer leurs propres annonces et e-mails afin de générer des campagnes marketing personnalisées et percutantes, conformes à vos normes de marque et à vos politiques d’entreprise. En utilisant la technologie d’IA d’Adobe, il fournit une suite complète d’outils qui simplifient les complexités de la création et de la gestion de contenu afin que les créatifs puissent se concentrer sur l’innovation.
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} est une application générée, basée sur l’IA, qui permet aux équipes marketing de créer leurs propres annonces et e-mails afin de générer des campagnes marketing personnalisées et percutantes, conformes à vos normes de marque et à vos politiques d’entreprise. En utilisant la technologie d’IA d’Adobe, il fournit une suite complète d’outils qui simplifient les complexités de la création et de la gestion de contenu afin que les créatifs puissent se concentrer sur l’innovation.
 
 >[!AVAILABILITY]
 >
@@ -33,7 +33,7 @@ Pour améliorer l’efficacité marketing et maintenir la cohérence de la marqu
 
 >[!INFO]
 >
->Pour en savoir plus, consultez cette [présentation](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} et une [démonstration](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
+>Pour en savoir plus, consultez cette [présentation](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} et une [démonstration](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
 
 ## Utilisation des fonctionnalités de GenStudio dans Adobe Campaign {#use-genstudio}
 
@@ -57,13 +57,13 @@ Tout d’abord, vous pouvez exporter un modèle HTML [!DNL Adobe Campaign], y co
 
    >[!NOTE]
    >
-   >Découvrez comment télécharger un modèle HTML dans [!DNL GenStudio] dans la section dédiée [Guide de l’utilisateur d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.<!--GenStudio doc to be updated with Campaign-->
+   >Découvrez comment télécharger un modèle HTML dans [!DNL GenStudio] dans la section dédiée [Guide de l’utilisateur d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.<!--GenStudio doc to be updated with Campaign-->
 
 1. Dans GenStudio, utilisez ce modèle pour créer plusieurs variations d’e-mail avec des invites d’IA et les enregistrer.
 
    >[!NOTE]
    >
-   >Découvrez comment créer des expériences e-mail dans la [section](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dédiée à GenStudio.
+   >Découvrez comment créer des expériences e-mail dans la [section](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dédiée à GenStudio.
 
 ### Utilisation des expériences GenStudio dans Adobe Campaign {#leverage-genstudio-experiences}
 
