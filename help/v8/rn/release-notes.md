@@ -2,7 +2,7 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 64%
@@ -88,7 +88,7 @@ _3 novembre 2025_
 <tr>
 <td>
 <p>Le Designer d’e-mail offre désormais la possibilité de passer en mode sombre, où vous pouvez en outre définir des paramètres personnalisés spécifiques. Notez que le rendu final dépend du client de messagerie du destinataire et que tous les clients de messagerie ne prennent pas en charge le mode sombre.</p>
-<p>Pour plus d’informations, consultez la <a href="../email/accessible-content.md#dark-mode">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../email/dark-mode.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
