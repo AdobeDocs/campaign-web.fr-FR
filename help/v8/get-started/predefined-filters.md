@@ -2,7 +2,7 @@
 title: Utiliser des filtres prédéfinis
 description: Découvrir comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: a12ddf56a72e62ec8f4d668f686672dcdc195a09
+source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
@@ -87,7 +87,7 @@ Lors de la création d’un filtre prédéfini, vous pouvez activer l’option *
 
 Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les utilisateurs et utilisatrices de la section **Filtres favoris** de la liste de création de filtre, comme illustré ci-dessous :
 
-![Section Filtres favoris](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
+![Section Filtres favoris](assets/predefined-filters-favorite.png){zoomable="yes"}
 
 ## Utiliser un filtre prédéfini {#use-predefined-filter}
 
