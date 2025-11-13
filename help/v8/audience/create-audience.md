@@ -108,4 +108,4 @@ Si vous préférez ne pas remplacer les résultats de l’audience existante, co
 
 Découvrez comment créer et gérer des audiences, comment sélectionner des audiences pour une diffusion et définir des populations témoins.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453204?captions=fre_fr&quality=12)
