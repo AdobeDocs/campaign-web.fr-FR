@@ -3,9 +3,9 @@ title: Utiliser les schémas
 description: Découvrez comment utiliser les schémas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '597'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ L’onglet **[!UICONTROL Données]** fournit des informations sur les données d
 
 ![Onglet Données de schéma présentant la structure et les attributs des données](assets/schemas-data.png)
 
-## Configuration de la définition d’écran {#screen-definition}
+## Configurer la définition d’écran {#screen-definition}
 
 ### Modifier des champs personnalisés {#fields}
 
@@ -77,19 +77,19 @@ Cliquez sur **[!UICONTROL Aperçu]** pour afficher les champs personnalisés dan
 
 Pour plus d’informations sur la modification des champs personnalisés dans un schéma, reportez-vous à la section [Configurer des champs personnalisés](../administration/custom-fields.md).
 
-### Ajout de listes de collection {#collection-lists}
+### Ajouter des listes de collection {#collection-lists}
 
-Cette section **Liste de listes personnalisées** vous permet de définir des liens de collection, tels que des achats. Les données associées sont ensuite affichées dans les écrans de profil via un onglet dédié.
+La section **Liste des listes personnalisées** vous permet de définir des liens de collection, tels que les achats. Les données associées sont alors affichées sur les écrans des profils via un onglet dédié.
 
 >[!NOTE]
 >
->Actuellement, cette fonctionnalité n’est disponible que pour le schéma Destinataires .
+>Actuellement, cette fonctionnalité n’est disponible que pour le schéma Destinataires.
 
-1. Pour ajouter une liste de collection à l’interface, cliquez sur le bouton représentant des points de suspension et choisissez **Sélectionner des listes personnalisées**.
+1. Pour ajouter une liste de collections à l’interface, cliquez sur le bouton représentant des points de suspension et choisissez **Sélectionner des listes personnalisées**.
 
-   ![Création de listes de collections](assets/schemas-collection1.png)
+   ![Création de listes de collection](assets/schemas-collection1.png)
 
-1. Sélectionnez l’une des listes personnalisées disponibles, par exemple Achats, puis cliquez sur **Confirmer**.
+1. Sélectionnez l’une des listes personnalisées disponibles, par exemple les achats, puis cliquez sur **Confirmer**.
 
    ![Création de listes de collections](assets/schemas-collection2.png)
 

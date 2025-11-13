@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Pour ouvrir une diffusion, cliquez sur son nom dans la liste. La diffusion s’o
 
 Si vous ouvrez une diffusion créée dans la console cliente, deux nouvelles sections peuvent s’afficher pour l’audience. Ces paramètres ne peuvent être modifiés que dans la console.
 
-* **[!UICONTROL Cible supplémentaire]** : indique que plusieurs cibles ont été paramétrées pour cette diffusion.
+* **[!UICONTROL Cible supplémentaire]** : indique que plusieurs cibles ont été configurées pour cette diffusion.
 
-* **[!UICONTROL Cible de BAT supplémentaire]** : indique qu&#39;une condition dynamique a été définie au niveau des cibles de BAT dans cette diffusion.
+* **[!UICONTROL Cible de BAT supplémentaire]** : indique qu’une condition dynamique a été définie pour les cibles des BAT dans cette diffusion.
 
 ![Message d’avertissement concernant une configuration cible supplémentaire](assets/target-warning-audience.png){zoomable="yes"}
 

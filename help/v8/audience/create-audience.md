@@ -4,9 +4,9 @@ title: Créer des audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1015'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
-## À propos de la création d’une audience
+## À propos de la création d’audiences
 
 Campaign Web vous permet de créer de nouvelles audiences dans une zone de travail visuelle de workflow. En plus de commencer de zéro pour créer une audience simple, vous pouvez également tirer parti des activités de workflow pour affiner votre audience. Vous pouvez par exemple combiner plusieurs audiences en une seule, enrichir votre audience avec des attributs externes ou la diviser en plusieurs audiences en fonction des règles de votre choix.
 
@@ -33,13 +33,13 @@ Les colonnes **[!UICONTROL Origine]** indiquent l’origine des audiences : les
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
-## Autorisations des groupes d’opérateurs personnalisés
+## Autorisations des groupes d’opérateurs et d’opératrices personnalisés
 
-Lors de la création d’une audience, un workflow est automatiquement créé et stocké dans le dossier **[!UICONTROL Profils et cibles]** / **[!UICONTROL Tâches]** / **[!UICONTROL Workflows de ciblage]**.
+Lors de la création d’une audience, un workflow est automatiquement créé et stocké dans le dossier **[!UICONTROL Profils et cibles]** / **[!UICONTROL Traitements]** / **[!UICONTROL Workflows de ciblage]**.
 
-Si vous êtes affecté à un groupe d’opérateurs personnalisé et que vous rencontrez une erreur « Vous n’avez pas de droits » lors de la création d’audiences, vous devez vous assurer que votre groupe d’opérateurs dispose des autorisations nécessaires sur ce dossier.
+Si vous faites partie d’un groupe d’opérateurs et d’opératrices personnalisé et que l’erreur « Vous ne possédez pas les droits requis » s’affiche lorsque vous créez des audiences, vous devez vous assurer que votre groupe d’opérateurs et d’opératrices dispose des autorisations nécessaires sur ce dossier.
 
-Pour résoudre ce problème, un administrateur doit ajouter votre groupe d’opérateurs personnalisé à la section relative à la sécurité des dossiers dans la console Campaign. [Découvrez comment gérer les autorisations sur les dossiers](../get-started/permissions.md#folder-permissions)
+Pour résoudre ce problème, un administrateur ou une administratrice doit ajouter votre groupe d’opérateurs et d’opératrices personnalisé à la section relative à la sécurité des dossiers dans la console Campaign. [Découvrir comment gérer les autorisations des dossiers](../get-started/permissions.md#folder-permissions)
 
 ## Créer votre première audience {#create}
 
@@ -108,4 +108,4 @@ Si vous préférez ne pas remplacer les résultats de l’audience existante, co
 
 Découvrez comment créer et gérer des audiences, comment sélectionner des audiences pour une diffusion et définir des populations témoins.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453204?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

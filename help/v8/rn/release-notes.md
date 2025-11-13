@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 Les modifications et améliorations disponibles avec les versions précédentes sont répertoriées sur les pages [2024](release-notes-24.md) et [2025](release-notes-25.md).
 
-## Version du 25 octobre {#25-10-updates}
+## Version d’octobre 2025 {#25-10-updates}
 
-_3 novembre 2025_
+_3 novembre 2025_
 
 <table>
 <thead>
@@ -65,13 +65,13 @@ _3 novembre 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Intégration avec Adobe GenStudio</strong><br/></th>
+<th><strong>Intégration d’Adobe GenStudio</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Pour améliorer l’efficacité marketing et maintenir la cohérence de la marque, vous pouvez désormais intégrer facilement des expériences GenStudio for Performance Marketing à Campaign. Vous pouvez ainsi tirer parti de la création de contenu optimisée par l’IA pour GenStudio ainsi que des fonctionnalités d’orchestration avancées de Campaign.<p>
+<p>Pour améliorer l’efficacité du marketing et maintenir la cohérence de la marque, vous pouvez désormais intégrer les expériences GenStudio for Performance Marketing à Campaign de manière transparente. Vous pouvez ainsi tirer parti de la création de contenu basée sur l’IA de GenStudio tout en bénéficiant des fonctionnalités d’orchestration avancées de Campaign.<p>
 <p>Pour plus d’informations, consultez la <a href="../integrations/genstudio.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -87,7 +87,7 @@ _3 novembre 2025_
 <tbody>
 <tr>
 <td>
-<p>Le Designer d’e-mail offre désormais la possibilité de passer en mode sombre, où vous pouvez en outre définir des paramètres personnalisés spécifiques. Notez que le rendu final dépend du client de messagerie du destinataire et que tous les clients de messagerie ne prennent pas en charge le mode sombre.</p>
+<p>Le Concepteur d’e-mail offre désormais la possibilité de passer en mode sombre, dans lequel vous pouvez en outre définir des paramètres personnalisés spécifiques. Notez que le rendu final dépend du client de messagerie de la personne destinataire et que certains clients de messagerie ne prennent pas en charge le mode sombre.</p>
 <p>Pour plus d’informations, consultez la <a href="../email/dark-mode.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -112,13 +112,13 @@ _3 novembre 2025_
 
 ### Améliorations {#25-10-improvements}
 
-* Dans les diffusions créées dans la console cliente, la section **Audience** indique désormais si une condition dynamique a été définie pour les cibles de BAT. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+* Dans les diffusions créées dans la console cliente, la section **Audience** indique désormais si une condition dynamique a été définie pour les cibles des BAT. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-* Vous pouvez désormais basculer entre le nouveau créateur de règles et l’ancien lors de la configuration d’une condition à l’aide de la fonctionnalité de contenu conditionnel du Designer d’e-mail. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+* Vous pouvez désormais basculer entre le nouveau créateur de règles et l’ancien lors de la configuration d’une condition à l’aide de la fonctionnalité de contenu conditionnel du Concepteur d’e-mail. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* Vous pouvez désormais sélectionner des liens de collection, tels que des achats, dans la définition d&#39;écran du schéma Destinataires . Les données associées sont alors affichées sur les écrans de profil via un onglet dédié. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* Vous pouvez désormais sélectionner des liens de collection, tels que des achats, dans la définition de l’écran du schéma Destinataires. Les données associées sont alors affichées sur les écrans des profils via un onglet dédié. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
-* En tant qu&#39;administrateur Campaign, vous pouvez désormais configurer des connexions à Salesforce CRM et Microsoft Dynamics.
+* En tant qu’administrateur ou administratrice Campaign, vous pouvez désormais configurer des connexions vers Salesforce CRM et Microsoft Dynamics.
   [En savoir plus](../administration/external-crm.md)
 
 <!--
