@@ -57,7 +57,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_settings"
 >title="Paramètres d’enrichissement"
->abstract="Paramètres d’enrichissement : dimension ciblage, attributs et options supplémentaires."
+>abstract="Paramètres d’enrichissement : dimension de ciblage, attributs et options supplémentaires."
 
 1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour l’enrichissement. [Découvrez comment sélectionner des attributs et les ajouter aux favoris](../../get-started/attributes.md).
 
