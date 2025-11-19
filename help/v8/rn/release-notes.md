@@ -3,7 +3,7 @@ title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 W
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 
