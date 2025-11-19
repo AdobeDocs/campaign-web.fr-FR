@@ -171,7 +171,7 @@ Le tableau et le graphe **[!UICONTROL Répartition des erreurs par domaine]** il
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="Statistiques de diffusion"
->abstract="Les KPI (indicateurs clés de performance) des **Statistiques de diffusion** offrent une vue d’ensemble complète des performances de vos diffusions et campagnes, et vous donnent des informations sur les diffusions réussies, les erreurs rencontrées et l’interaction client."
+>abstract="Les KPI (indicateurs clés de performance) des **Statistiques de diffusion** offrent une vue d’ensemble complète des performances de vos diffusions et campagnes, et vous donnent des informations sur les diffusions réussies, les erreurs rencontrées et l’engagement client."
 
 Les mesures des **[!UICONTROL Statistiques de diffusion]** offrent des KPI (indicateurs clés de performance) pour éclairer les données obtenues avec chaque diffusion e-mail. Vous trouverez plus d’informations sur ces mesures ci-dessous.
 
