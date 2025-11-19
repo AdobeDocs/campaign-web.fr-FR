@@ -3,7 +3,7 @@ title: Utiliser les schémas
 description: Découvrez comment utiliser les schémas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
 
