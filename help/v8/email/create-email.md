@@ -252,4 +252,4 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
