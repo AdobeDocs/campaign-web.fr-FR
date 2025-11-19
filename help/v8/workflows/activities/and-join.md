@@ -5,8 +5,8 @@ description: Découvrez comment utiliser l’activité de workflow Rendez-vous.
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
