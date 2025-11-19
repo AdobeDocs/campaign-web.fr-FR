@@ -5,8 +5,8 @@ description: Découvrez comment accéder aux services d’abonnements, comment l
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
