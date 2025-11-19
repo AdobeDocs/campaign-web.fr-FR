@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, éditeur
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 100%
 
