@@ -23,7 +23,7 @@ Les profils de test sont utilisés pour envoyer des BAT et valider le contenu et
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Les étapes permettant d’envoyer des BAT à des profils sont présentées dans [cette section](../preview-test/test-deliveries.md#test-profiles).
 
@@ -112,4 +112,4 @@ Le profil de test que vous venez de créer est maintenant prêt à être utilis�
 
 Découvrez comment créer et gérer des profils de test à l’aide de l’interface d’utilisation web de Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442897?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
