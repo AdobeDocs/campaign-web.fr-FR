@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
@@ -125,7 +125,10 @@ Pour créer une diffusion autonome, procédez comme suit.
 
 1. Personnalisez davantage vos diffusions. Pour plus d’informations sur la création d’un e-mail, consultez la section [Concevoir et envoyer des e-mails](../../email/create-email.md).
 
+1. Vous pouvez également ajouter des informations sur la marque avec les champs de personnalisation. Accédez à **[!UICONTROL Branding]** et sélectionnez les blocs de personnalisation liés à la marque que vous souhaitez insérer (tels que le nom de la marque, l’URL du logo, l’URL du site web, les informations sur l’expéditeur, etc.).
+
 >[!ENDTABS]
+
 
 ## Vérifier le branding associé aux messages transactionnels {#check-branding-transactional}
 
