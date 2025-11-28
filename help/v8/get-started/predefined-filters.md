@@ -2,10 +2,10 @@
 title: Utiliser des filtres prédéfinis
 description: Découvrir comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
+source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,11 @@ ht-degree: 100%
 >title="Créer un critère d’alerte"
 >abstract="Vous pouvez créer vos propres filtres de diffusion à partir du menu Gestion des clientes et clients > Filtres prédéfinis."
 
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-select"
+>title="Enregistrer le filtre"
+>abstract="Sélectionnez un filtre prédéfini existant. Les filtres prédéfinis sont des filtres personnalisés que vous créez, puis que vous enregistrez en vue d’une utilisation ultérieure. Ils servent de raccourcis lors des opérations de filtrage avec le concepteur de requête. Vous pouvez notamment les utiliser pour filtrer une liste de données ou créer l’audience d’une diffusion."
+
 Les filtres prédéfinis sont des filtres personnalisés que vous créez, puis que vous enregistrez en vue d’une utilisation ultérieure. Ils servent de raccourcis lors des opérations de filtrage avec le concepteur de requête. Vous pouvez notamment les utiliser pour filtrer une liste de données ou créer l’audience d’une diffusion.
 
 Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-ensemble spécifique de données ou créer vos propres filtres prédéfinis et les enregistrer.
@@ -43,6 +48,11 @@ Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-e
 >id="acw_predefined-filters-rules"
 >title="Créer des règles de filtrage prédéfinies"
 >abstract="Pour définir les conditions de filtrage de votre filtre personnalisé, cliquez sur le bouton « Créer une règle »."
+
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-save"
+>title="Enregistrer le filtre"
+>abstract="Cet écran vous permet d’enregistrer votre règle en tant que filtre prédéfini. Vous pouvez créer un nouveau filtre prédéfini ou remplacer un filtre existant. Pour enregistrer le filtre en tant que favori, activez/désactivez l’option **[!UICONTROL Filtre favori]**. Vous pouvez également activer l&#39;option **[!UICONTROL Filtre partagé]** pour rendre le filtre accessible aux autres utilisateurs."
 
 ### Créer un filtre à partir du concepteur de requête {#create-from-rule-builder}
 
