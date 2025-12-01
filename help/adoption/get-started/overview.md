@@ -4,7 +4,7 @@ description: Découvrir les étapes requises pour commencer à utiliser votre no
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 100%
@@ -105,7 +105,7 @@ En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Adobe Cam
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Il fournit une variante de modèles d’e-mail et génère et génère à nouveau des images. En savoir plus sur l’assistant IA dans [cette section](../../v8/email/generative-content.md). Adobe Campaign v8 comprend un assistant IA disponible pour les canaux [E-mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) et [Push](../../v8/email/generative-push.md).
+  Il fournit une variante de modèles d’e-mail et génère et génère à nouveau des images. En savoir plus sur l’assistant IA dans [cette section](../../v8/content/generative-full-content.md). Adobe Campaign v8 comprend un assistant IA disponible pour les canaux [E-mail](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) et [Push](../../v8/content/generative-full-content.md).
 
 * **Infrastructure SMS mise à niveau - SMS v2.0**
 
@@ -228,4 +228,4 @@ Accédez au guide de référence approprié pour votre rôle afin de découvrir 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->

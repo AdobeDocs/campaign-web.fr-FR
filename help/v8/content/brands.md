@@ -3,10 +3,10 @@ audience: end-user
 title: Gérer la marque
 description: Découvrir comment créer et gérer vos directives de marque
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 100%
+source-wordcount: '1420'
+ht-degree: 86%
 
 ---
 
@@ -92,7 +92,7 @@ Les utilisateurs et utilisatrices peuvent saisir les détails manuellement ou ch
 
    ![Options de menu avancées dans le tableau de bord Marques](assets/brands-6.png)
 
-Vos directives de marque sont désormais accessibles à partir du menu déroulant **[!UICONTROL Marque]** dans le menu de l’assistant IA. Cela permet à l’assistant IA de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant IA](../email/generative-gs.md)
+Vos directives de marque sont désormais accessibles à partir du menu déroulant **[!UICONTROL Marque]** dans le menu de l’assistant IA. Cela permet à l’assistant IA de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant IA](../content/generative-gs.md)
 
 ![Menu de l’assistant IA avec la liste déroulante Marque](assets/brands_6.png)
 
@@ -241,11 +241,20 @@ Pour personnaliser votre **[!UICONTROL Style d’écriture]** :
 
 1. Dans l’onglet **[!UICONTROL Style d’écriture]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une directive, une exception ou une exclusion.
 
-1. Saisissez votre instruction, exception ou exclusion, puis cliquez sur **[!UICONTROL Ajouter]**.
+1. Entrez votre règle, votre exception ou votre exclusion. Vous pouvez également inclure des **[!UICONTROL exemples]** pour mieux illustrer la manière dont ils doivent être appliqués.
 
    ![](assets/brands-3.png)
 
-1. Sélectionnez l’une de vos instructions ou exclusions à mettre à jour ou à supprimer.
+1. Spécifiez le **[!UICONTROL contexte d’utilisation]** pour votre règle, exception ou exclusion :
+
+   * **[!UICONTROL Type de canal]** : choisissez où cette règle, exception ou exclusion doit s’appliquer. Par exemple, vous pouvez souhaiter qu’un style d’écriture spécifique apparaisse uniquement dans les canaux E-mail, Mobile, Impression ou autres canaux de communication.
+
+   * **[!UICONTROL Type d’élément]** : spécifiez à quel élément de contenu la règle s’applique. Il peut s’agir d’éléments tels que des en-têtes, des boutons, des liens ou d’autres composants de votre contenu.
+
+   ![](assets/brands-16.png)
+
+1. Une fois votre règle, votre exception ou votre exclusion configurée, cliquez sur **[!UICONTROL Ajouter]**.
+1. Si nécessaire, sélectionnez l’une des instructions ou exclusions à mettre à jour ou à supprimer.
 
 1. Cliquez sur ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_Edit_18_N.svg "Modifier") pour modifier votre exemple ou sur l’icône ![Texte secondaire de l’image d’exploration](assets/do-not-localize/Smock_Delete_18_N.svg "Supprimer") pour le supprimer.
 
@@ -298,9 +307,19 @@ Pour personnaliser votre **[!UICONTROL contenu visuel]**, procédez comme suit 
 
 1. Dans l’onglet **[!UICONTROL Contenu visuel]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une directive, une exclusion ou un exemple.
 
-1. Saisissez votre instruction, exclusion ou exemple, puis cliquez sur **[!UICONTROL Ajouter]**.
+1. Entrez votre règle, votre exclusion ou votre exemple.
 
    ![Bouton d’ajout d’une exclusion ou d’un exemple](assets/brands-4.png)
+
+1. Spécifiez le **[!UICONTROL contexte d’utilisation]** pour votre règle ou votre exclusion :
+
+   * **[!UICONTROL Type de canal]** : choisissez où cette règle, exception ou exclusion doit s’appliquer. Par exemple, vous pouvez souhaiter qu’un style d’écriture spécifique apparaisse uniquement dans les canaux E-mail, Mobile, Impression ou autres canaux de communication.
+
+   * **[!UICONTROL Type d’élément]** : spécifiez à quel élément de contenu la règle s’applique. Il peut s’agir d’éléments tels que des en-têtes, des boutons, des liens ou d’autres composants de votre contenu.
+
+     ![Ajouter du contenu d’utilisation](assets/brands-17.png)
+
+1. Une fois votre règle, votre exception ou votre exclusion configurée, cliquez sur **[!UICONTROL Ajouter]**.
 
 1. Pour ajouter une image présentant une utilisation correcte, sélectionnez **[!UICONTROL Exemple]** et cliquez sur **[!UICONTROL Sélectionner une image]**. Vous pouvez également ajouter une image montrant une utilisation incorrecte comme exemple d’exclusion.
 

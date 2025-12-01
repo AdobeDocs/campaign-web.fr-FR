@@ -3,7 +3,7 @@ audience: end-user
 title: Nouveautés de l’interface utilisateur web de Campaign
 description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Dites adieu à la pénibilité de la création manuelle de contenu et embarquez 
 
 Redéfinissez la diffusion de contenu à l’aide de notre éditeur de glisser-déposer WYSIWYG avancé, conçu pour vous assurer plus de simplicité et d’efficacité. Bénéficiant d’une intégration transparente à AEM, de fonctionnalités de contenu dynamique et d’un assistant IA capable de révolutionner vos habitudes, cet outil tout-en-un rend la création de diffusions intuitive, efficace et hautement personnalisée.
 
-Exploitez la puissance des algorithmes avancés de l’assistant IA pour créer du contenu attrayant et personnalisé qui génère des résultats. Augmentez vos taux d’ouverture, vos clics publicitaires et vos conversions grâce à une génération de contenu intelligente pilotée par l’IA. En savoir plus dans [cette section](../email/generative-gs.md).
+Exploitez la puissance des algorithmes avancés de l’assistant IA pour créer du contenu attrayant et personnalisé qui génère des résultats. Augmentez vos taux d’ouverture, vos clics publicitaires et vos conversions grâce à une génération de contenu intelligente pilotée par l’IA. En savoir plus dans [cette section](../content/generative-gs.md).
 
 **Nouvelles activités de workflow de campagne repensées**
 
