@@ -3,10 +3,10 @@ audience: end-user
 title: Contenu génératif
 description: Découvrez comment générer des expériences de contenu complètes avec l’assistant AI dans Journey Optimizer.
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 46%
+source-wordcount: '1606'
+ht-degree: 45%
 
 ---
 
@@ -42,8 +42,6 @@ Avant de commencer à créer du contenu avec l’assistant AI, vous devez config
 
 Une fois l’assistant d’IA ouvert, vous pouvez configurer les paramètres de génération pour créer du contenu correspondant aux objectifs de votre marque et de votre campagne. Personnalisez les paramètres de texte et d’image, ajoutez des ressources de marque et fournissez des invites pour guider l’IA dans la génération de variations pertinentes pour votre audience.
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’asistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
-
 1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
@@ -57,6 +55,7 @@ Une fois l’assistant d’IA ouvert, vous pouvez configurer les paramètres de 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
+   * **[!UICONTROL Langues]** : sélectionnez la langue du contenu généré.
    * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA adapte le message en conséquence.
 
      ![Capture d’écran affichant les options de paramètres de texte dans Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
@@ -103,7 +102,7 @@ Après avoir généré des variations de contenu, vous pouvez affiner les résul
 
    * **[!UICONTROL Modifier la stratégie de communication]** : modifiez l’approche de messagerie en fonction de vos objectifs, tels que créer une urgence ou mettre l’accent sur un appel passionnant.
 
-   ![Affiner le menu affichant les options](assets/full-email-5.png){zoomable="yes"}
+     ![Affiner le menu affichant les options](assets/full-email-5.png){zoomable="yes"}
 
 1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
@@ -112,7 +111,7 @@ Après avoir généré des variations de contenu, vous pouvez affiner les résul
 1. Insérez des champs de personnalisation pour personnaliser votre contenu en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../preview-test/preview-content.md)
 
 1. Examinez et activez votre contenu :
-   * **E-mail** : lorsque vous avez défini le contenu, l’audience et le planning, vous êtes prêt à préparer votre campagne par e-mail. [En savoir plus](../monitor/prepare-send.md)
+   * **E-mail** : lorsque vous avez défini le contenu, l’audience et le planning, vous êtes prêt(e) à préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)
    * **Page de destination** : une fois votre page de destination prête, vous pouvez la publier pour la rendre disponible pour une utilisation dans un message. [En savoir plus](../landing-pages/create-lp.md)
 
 ## Pour les canaux mobiles {#mobile-channels}
@@ -190,7 +189,8 @@ Après avoir examiné les variations de notification push générées, vous pouv
    * **[!UICONTROL Reformuler]** : reformulez votre message de différentes manières pour conserver une écriture soignée et attrayante pour diverses audiences.
    * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez votre texte pour en garantir la clarté et l’accessibilité pour une audience plus large.
    * **[!UICONTROL Traduire]** : simplifiez votre langue pour garantir la clarté et l’accessibilité pour une audience plus large.
-Vous pouvez également modifier le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre texte.
+
+   Vous pouvez également modifier le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre texte.
 
    ![Affiner les options pour les notifications push](assets/push-genai-5.png){zoomable="yes"}
 

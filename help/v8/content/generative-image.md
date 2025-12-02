@@ -2,10 +2,10 @@
 audience: end-user
 title: Contenu génératif
 description: Découvrez comment générer des images avec l’assistant AI
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 46%
+source-wordcount: '1098'
+ht-degree: 47%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 46%
 >
 >Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant IA dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Utilisez l’assistant AI dans Adobe Campaign Web pour créer du contenu visuel attrayant qui améliore vos messages dans les e-mails, les pages web, les pages de destination et les notifications push. L’assistant AI vous aide à générer et à optimiser des images, en veillant à ce que votre contenu soit visuellement attrayant et aligné avec votre marque.
+Utilisez l’assistant AI dans Adobe Campaign Web pour créer du contenu visuel attrayant qui améliore vos messages dans les e-mails, les pages de destination et les notifications push. L’assistant AI vous aide à générer et à optimiser des images, en veillant à ce que votre contenu soit visuellement attrayant et aligné avec votre marque.
 
 ## Pour les e-mails et les landing pages {#email-web-channels}
 
-L’assistant AI peut générer des expériences visuelles complètes pour vos campagnes par e-mail et landing pages. Cette fonctionnalité vous permet de produire des images de marque attrayantes qui résonnent avec votre audience à travers les points de contact numériques.
+L’assistant AI peut générer des expériences visuelles complètes pour vos diffusions e-mail et vos pages de destination. Cette fonctionnalité vous permet de produire des images de marque attrayantes qui résonnent avec votre audience à travers les points de contact numériques.
 
 ### Accès et configuration {#access-configure}
 
@@ -68,6 +68,8 @@ Pour commencer à générer des images avec l’assistant AI, commencez par conf
 
 ### Affiner et finaliser {#refine-finalize}
 
+Après avoir généré des variations d’image, vous pouvez examiner les résultats, vérifier l’alignement de la marque et sélectionner la meilleure option pour votre contenu.
+
 1. Parcourez les **[!UICONTROL variations]** générées.
 
 1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement sur la marque]** et identifier les alignements incorrects avec votre marque.
@@ -92,23 +94,13 @@ Pour commencer à générer des images avec l’assistant AI, commencez par conf
 
 ## Pour les canaux mobiles {#mobile-channels}
 
-L’assistant AI vous permet de générer du texte attrayant pour les notifications push et les SMS, ce qui vous permet de créer des communications mobiles qui captent l’attention et résonnent avec votre audience à travers tous les points de contact mobiles.
+L’assistant AI vous permet de générer des images attrayantes pour les notifications push, ce qui vous permet de créer des communications mobiles visuellement attrayantes qui captent l’attention et résonnent avec votre audience.
 
 ### Accès et configuration {#mobile-access-configure}
 
-Pour commencer à générer du texte pour les canaux mobiles avec l’assistant AI, commencez par configurer votre diffusion et ouvrez l’assistant AI. Les étapes permettant d’accéder à l’assistant AI diffèrent légèrement selon que vous utilisez des notifications push ou des SMS.
+Pour commencer à générer des images pour les notifications push avec l’assistant AI, commencez par configurer votre diffusion et ouvrez l’assistant AI.
 
-1. Créez et configurez votre diffusion mobile :
-
-   * **Notifications push** : après avoir créé et configuré votre diffusion de notification push, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../push/create-push.md)
-   * **SMS** : après avoir créé et configuré votre diffusion SMS, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../sms/create-sms.md)
-
-1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
-
-1. Personnalisez votre message selon vos besoins :
-
-   * **Notifications push** : [En savoir plus](../push/content-push.md)
-   * **SMS** : [En savoir plus](../sms/content-sms.md)
+1. Après avoir créé et configuré votre diffusion Notification push, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../push/create-push.md)
 
 1. Accédez au menu **[!UICONTROL Afficher l’assistant IA]**.
 

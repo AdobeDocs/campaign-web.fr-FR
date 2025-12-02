@@ -3,10 +3,10 @@ audience: end-user
 title: Gérer la marque
 description: Découvrir comment créer et gérer vos directives de marque
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
 source-wordcount: '1420'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -18,9 +18,7 @@ Dans [!DNL Adobe Campaign Web], les utilisateurs et utilisatrices peuvent saisi
 
 ## Accéder aux marques {#generative-access}
 
-Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Campaign Web], les utilisateurs et utilisatrices doivent disposer de profils de produit **[!UICONTROL Administration (admin)]** et **[!UICONTROL Kit de marque]** pour créer et gérer des marques. Pour un accès en lecture seule, les utilisateurs et utilisatrices ont besoin d’un profil de produit [!UICONTROL Assistant IA].
-
-[En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Campaign Web], les utilisateurs et utilisatrices doivent disposer de profils de produit **[!UICONTROL Administration (admin)]** et **[!UICONTROL Kit de marque]** pour créer et gérer des marques. Pour un accès en lecture seule, les utilisateurs ont besoin du profil de produit [!UICONTROL assistant IA]. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Découvrir comment attribuer des autorisations liées à la marque
 

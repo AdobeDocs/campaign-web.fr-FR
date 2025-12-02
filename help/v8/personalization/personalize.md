@@ -3,10 +3,11 @@ title: Personnaliser votre contenu dans Campaign
 description: Découvrir comment personnaliser votre contenu dans Adobe Campaign Web
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 100%
@@ -28,7 +29,7 @@ La personnalisation de la diffusion améliore l’expérience client et les taux
 
 ## Utiliser des données de profil pour la personnalisation {#data-personalization}
 
-Vous personnalisez n’importe quelle diffusion avec des données de profil à l’aide de l’éditeur d’expression, accessible dans les champs de l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, comme l’objet, les liens d’e-mail et les composants de contenu de texte/bouton. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md/#access).
+Vous personnalisez n’importe quelle diffusion avec des données de profil à l’aide de l’éditeur d’expression, accessible dans les champs de l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**, comme l’objet, les liens d’e-mail et les composants de contenu de texte/bouton. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md#access).
 
 ### Syntaxe de la personnalisation {#syntax}
 
@@ -42,7 +43,7 @@ Lors du chargement de contacts depuis un fichier externe pour une diffusion e-ma
 
 Pour ajouter des balises de personnalisation dans une diffusion, procédez comme suit :
 
-1. Ouvrez l’éditeur d’expression à l’aide de l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** accessible à partir des champs de modification de type texte, tels que l’objet ou le corps du SMS. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md/#access).
+1. Ouvrez l’éditeur d’expression à l’aide de l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** accessible à partir des champs de modification de type texte, tels que l’objet ou le corps du SMS. [Découvrez comment accéder à l’éditeur d’expression](gs-personalization.md#access).
 
    ![Capture d’écran montrant comment accéder à la boîte de dialogue de personnalisation](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 

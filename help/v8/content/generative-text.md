@@ -2,10 +2,10 @@
 audience: end-user
 title: Contenu génératif
 description: Découvrez comment générer des expériences de contenu texte avec l’assistant AI
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 40%
+source-wordcount: '1441'
+ht-degree: 39%
 
 ---
 
@@ -112,8 +112,6 @@ Avant de commencer à générer du texte avec l’assistant AI pour les canaux m
 1. Créez et configurez votre diffusion mobile :
    * **Notifications push** : après avoir créé et configuré votre diffusion de notification push, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../push/create-push.md)
    * **SMS** : après avoir créé et configuré votre diffusion SMS, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../sms/create-sms.md)
-
-1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
 1. Personnalisez votre message selon vos besoins :
    * **Notifications push** : [En savoir plus](../push/content-push.md)
