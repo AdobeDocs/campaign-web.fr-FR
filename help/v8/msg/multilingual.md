@@ -16,7 +16,7 @@ ht-degree: 92%
 >title="Ajouter des langues"
 >abstract="Dans cet onglet, vous trouverez une liste des langues dans lesquelles la diffusion doit être envoyée. Vous pouvez ajouter d’autres langues en cliquant sur le bouton Ajouter une langue, ou en dupliquant une autre langue via cet onglet."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id=« acw_multilingual_file_upload »
 >title=« Importer des variantes de langue »
 >abstract=« Utilisez cette boîte de dialogue pour ajouter une variante de langue en important un fichier CSV. Le fichier renseigne automatiquement tous les champs disponibles pour la langue sélectionnée. Vous pouvez faire un glisser-déposer de votre fichier ou le choisir sur votre ordinateur avant de confirmer. »
