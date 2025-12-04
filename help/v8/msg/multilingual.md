@@ -2,10 +2,10 @@
 audience: end-user
 title: Configurer une diffusion multilingue
 description: Découvrez comment configurer une diffusion multilingue.
-source-git-commit: e005c409a61748d99b70b2a99f4f4f89d4d6229e
+source-git-commit: 50a798abea166e89d58e8e46eb55590333071ef0
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 92%
+source-wordcount: '628'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 92%
 >abstract="Dans cet onglet, vous trouverez une liste des langues dans lesquelles la diffusion doit être envoyée. Vous pouvez ajouter d’autres langues en cliquant sur le bouton Ajouter une langue, ou en dupliquant une autre langue via cet onglet."
 
 >[!CONTEXTUALHELP]
->id=« acw_multilingual_file_upload »
->title=« Importer des variantes de langue »
->abstract=« Utilisez cette boîte de dialogue pour ajouter une variante de langue en important un fichier CSV. Le fichier renseigne automatiquement tous les champs disponibles pour la langue sélectionnée. Vous pouvez faire un glisser-déposer de votre fichier ou le choisir sur votre ordinateur avant de confirmer. »
+>id="acw_multilingual_file_upload"
+>title="Importer les variantes de langue"
+>abstract="Utilisez cette boîte de dialogue pour ajouter une variante de langue en important un fichier CSV. Le fichier renseigne automatiquement tous les champs disponibles pour la langue sélectionnée. Vous pouvez faire un glisser-déposer de votre fichier ou le choisir sur votre ordinateur avant de confirmer."
 
 Dans l’interface d’utilisation de Campaign Web, vous pouvez configurer vos diffusions en tant que diffusions multilingues, ce qui vous permet d’envoyer des messages en fonction de la langue préférée d’un profil. Lorsqu’aucune préférence n’est définie, le message est envoyé dans la langue par défaut.
 
