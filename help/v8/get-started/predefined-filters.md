@@ -3,9 +3,9 @@ title: Utiliser des filtres prédéfinis
 description: Découvrir comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Vous pouvez utiliser des filtres intégrés existants pour accéder à un sous-e
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-save"
 >title="Enregistrer le filtre"
->abstract="Cet écran vous permet d’enregistrer votre règle en tant que filtre prédéfini. Vous pouvez créer un nouveau filtre prédéfini ou remplacer un filtre existant. Pour enregistrer le filtre en tant que favori, activez/désactivez l’option **[!UICONTROL Filtre favori]**. Vous pouvez également activer l&#39;option **[!UICONTROL Filtre partagé]** pour rendre le filtre accessible aux autres utilisateurs."
+>abstract="Cet écran vous permet d’enregistrer votre règle en tant que filtre prédéfini. Vous pouvez créer un nouveau filtre prédéfini ou remplacer un filtre existant. Pour enregistrer le filtre en tant que favori, activez l’option **[!UICONTROL Filtre favori]**. Vous pouvez également activer l’option **[!UICONTROL Filtre partagé]** pour rendre le filtre accessible aux autres utilisateurs et utilisatrices."
 
 ### Créer un filtre à partir du concepteur de requête {#create-from-rule-builder}
 

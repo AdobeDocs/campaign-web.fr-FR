@@ -3,9 +3,9 @@ title: Cas d’utilisation de l’assistant IA
 description: Découvrir comment utiliser l’assistant IA à travers les cas d’utilisation
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -109,17 +109,17 @@ Une fois que vous avez défini le contenu, l’audience et le planning, prépare
 
 ## Générer du contenu dans les langues prises en charge{#languages}
 
-![Démonstration animée d’AI Assistant générant du contenu dans plusieurs langues, notamment le français, l’espagnol et l’allemand](assets/do-not-localize/ai-language.gif)
+![Démonstration animée de l’assistant IA générant du contenu dans plusieurs langues, notamment en français, en espagnol et en allemand](assets/do-not-localize/ai-language.gif)
 
 1. Une fois votre diffusion préparée et configurée, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
 1. Ouvrez le menu **[!UICONTROL Assistant IA]**.
 
-1. Ajustez le contenu en saisissant la demande souhaitée dans la zone **[!UICONTROL Invite]** en français, espagnol, allemand, italien, japonais, suédois, néerlandais ou norvégien.
+1. Ajustez le contenu en saisissant votre demande dans la zone **[!UICONTROL Prompt]** en français, espagnol, allemand, italien, japonais, suédois, néerlandais ou norvégien.
 
-1. Personnalisez votre invite à l’aide de l’option **[!UICONTROL Paramètres de texte]** et sélectionnez les **[!UICONTROL Langues]** de votre choix pour le contenu généré.
+1. Personnalisez votre prompt à l’aide de l’option **[!UICONTROL Paramètres de texte]** et sélectionnez les **[!UICONTROL Langues]** de votre choix pour le contenu généré.
 
-1. Personnalisez davantage votre invite selon vos besoins, puis cliquez sur **[!UICONTROL Générer]**.
+1. Personnalisez davantage votre prompt selon vos besoins, puis cliquez sur **[!UICONTROL Générer]**.
 
 1. Examinez les **[!UICONTROL suggestions de variation]** dans la langue sélectionnée.
 

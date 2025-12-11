@@ -6,9 +6,9 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,10 +130,10 @@ ht-degree: 98%
       + [Créer du contenu accessible](email/accessible-content.md)
    + Assistant IA {#ai-assistant}
       + [Utiliser l’assistant IA](content/generative-gs.md)
-      + [Bonnes pratiques relatives aux invites d&#39;IA](content/ai-assistant-prompting-guide.md)
+      + [Bonnes pratiques en matière de prompts d’IA](content/ai-assistant-prompting-guide.md)
       + [Génération de contenu complet avec l’IA](content/generative-full-content.md)
-      + [Génération de texte avec l’IA](content/generative-text.md)
-      + [Génération d’images avec l’IA](content/generative-image.md)
+      + [Génération de texte avec l’IA](content/generative-text.md)
+      + [Génération d’images avec l’IA](content/generative-image.md)
       + [Cas d’utilisation de l’assistant IA](content/generative-uc.md)
       + Marques {#ai-assistant}
          + [Créer et gérer vos marques](content/brands.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
    + [Gérer les mappings de ciblage](administration/target-mappings.md)
    + [Utiliser les schémas](administration/schemas.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + [Gestion des fuseaux horaires](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)

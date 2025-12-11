@@ -3,9 +3,9 @@ title: Gérer les mappings de ciblage
 description: Découvrez comment gérer les mappings de ciblage.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '806'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 ## À propos des mappings de ciblage {#about}
 
-Chaque canal de communication utilise un mapping de ciblage par défaut pour cibler ses destinataires. Par défaut, les modèles de diffusion par e-mail et SMS ciblent les **[!UICONTROL destinataires]**. Leur mapping de ciblage utilise donc les champs de la table **nms:recipient**. Pour les notifications push, le mapping de ciblage par défaut est **Applications abonnées (nms:appSubscriptionRcp)**, qui est lié au tableau des destinataires.
+Chaque canal de communication utilise un mapping de ciblage par défaut pour cibler ses destinataires. Par défaut, les modèles de diffusion par e-mail et SMS ciblent les **[!UICONTROL destinataires]**. Leur mapping de ciblage utilise donc les champs de la table **nms:recipient**. Pour les notifications push, le mapping de ciblage par défaut est **Applications abonnées (nms:appSubscriptionRcp)**, qui est lié à la table des personnes destinataires.
 
 Les mappings de ciblage sont accessibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Mappings de ciblage]**. Depuis cet écran, vous pouvez accéder aux détails de chaque mapping de ciblage ou en créer de nouveaux en fonction de vos besoins.
 

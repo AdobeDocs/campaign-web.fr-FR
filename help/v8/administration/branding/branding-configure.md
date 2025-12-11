@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -61,28 +61,28 @@ Une **[!UICONTROL marque]** est définie par les caractéristiques suivantes :
 
   Ces paramètres seront appliqués aux URL suivies correspondant à tout nom de domaine spécifié dans la **[!UICONTROL Liste des noms de domaine]**, qui peut inclure des expressions régulières.
 
-  **Exemple :** une URL suivie telle que `https://www.example.com` sera `https://www.example.com/?age=21&deliveryName=DM101` lorsque les paramètres supplémentaires `age=21` et `deliveryName=DM101` seront configurés pour ce domaine.
+  **Exemple :** une URL suivie telle que `https://www.example.com` devient `https://www.example.com/?age=21&deliveryName=DM101` lorsque les paramètres supplémentaires `age=21` et `deliveryName=DM101` sont configurés pour ce domaine.
 
-## Configuration du branding pour les messages transactionnels {#branding-transactional-config}
+## Configurer le branding pour les messages transactionnels {#branding-transactional-config}
 
 >[!IMPORTANT]
 >
 >Cette section s’applique uniquement aux messages transactionnels (Message Center).
 >
->Bien que les fonctionnalités transactionnelles soient disponibles dans l’interface utilisateur web de Campaign, les étapes ci-dessous doivent être exécutées dans la console cliente Campaign v8 (instance de pilotage).
+>Bien que les fonctionnalités transactionnelles soient disponibles dans l’interface d’utilisation d’Adobe Campaign Web, les étapes de vérification ci-dessous doivent être effectuées dans la console cliente de Campaign v8 (instance de pilotage).
 
-Si vous utilisez la messagerie transactionnelle (Message Center) avec le branding, une configuration supplémentaire est requise.
+Si vous utilisez la messagerie transactionnelle (Message Center) avec le branding, une configuration supplémentaire est nécessaire.
 
 ### Formules de tracking des instances en temps réel
 
-Lorsque le branding est activé sur une instance de pilotage en temps réel (RT), des options de tracking spécifiques sont utilisées pour gérer les formules de tracking. Ces formules sont configurées de manière centralisée sur l&#39;instance de pilotage RT plutôt qu&#39;individuellement sur chaque instance d&#39;exécution RT.
+Lorsque le branding est activé sur une instance de pilotage en temps réel (RT), des options de tracking spécifiques sont utilisées pour gérer les formules de tracking. Ces formules sont configurées de manière centralisée sur l’instance de pilotage en temps réel plutôt qu’individuellement sur chaque instance d’exécution en temps réel.
 
-Les options suivantes définissent les formules de tracking utilisées par les diffusions RT :
+Les options suivantes définissent les formules de tracking utilisées par les diffusions en temps réel :
 
-* **`NmsTracking_RT_ClickFormula`** : indique la formule utilisée pour le suivi des clics sur les instances RT
+* **`NmsTracking_RT_ClickFormula`** : indique la formule utilisée pour le suivi des clics sur les instances en temps réel.
 
-* **`NmsTracking_RT_OpenFormula`** : indique la formule utilisée pour le suivi des ouvertures sur les instances RT
+* **`NmsTracking_RT_OpenFormula`** : indique la formule utilisée pour le suivi des ouvertures sur les instances en temps réel.
 
-Si votre implémentation nécessite des formules de tracking personnalisées pour les messages transactionnels, utilisez l’option ci-dessous :
+Si votre implémentation nécessite des formules de tracking personnalisées pour les messages transactionnels, utilisez l’option ci-dessous :
 
-* **`Branding_RT_ListXtkOptions_toPublish`** : répertoriez ici les noms des options XTK pour vos formules personnalisées (séparées par des virgules). Cela permet de s’assurer que les diffusions RT peuvent appliquer les formules de suivi personnalisées.
+* **`Branding_RT_ListXtkOptions_toPublish`** : listez ici les noms des options XTK pour vos formules personnalisées (séparées par des virgules). Cela permet de s’assurer que les diffusions en temps réel peuvent appliquer les formules de tracking personnalisées.

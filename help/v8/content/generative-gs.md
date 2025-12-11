@@ -4,9 +4,9 @@ title: Commencer avec l’assistant IA
 description: Commencer avec l’assistant IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ L’Assistant IA simplifie la création et l’exécution de campagnes marketin
 
 ## Accéder à l’assistant IA {#generative-access}
 
-L’assistant AI pour les e-mails, les notifications push, les pages de destination et les SMS est désormais disponible en disponibilité générale (GA) et accessible à tous les utilisateurs. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs et utilisatrices sont détaillées ci-dessous.
+L’assistant IA pour les e-mails, les notifications push, les pages de destination et les SMS est désormais disponible en disponibilité générale (GA) pour l’ensemble des utilisateurs et des utilisatrices. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs et utilisatrices sont détaillées ci-dessous.
 
 +++ Découvrir comment attribuer des autorisations liées à la génération de contenu
 
@@ -83,27 +83,27 @@ Les restrictions suivantes s’appliquent à l’assistant IA dans Adobe Campai
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="[Génération de contenu complet avec l’assistant d’IA]" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="[Génération de contenu complet avec l’assistant IA]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Génération de contenu complet avec l’assistant AI</strong></a>
+<a href="generative-full-content.md"><strong>Génération de contenu complet avec l’assistant IA</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-text.md">
-<img alt="[Génération de contenu texte avec l’assistant AI]" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="[Génération de contenu texte avec l’assistant IA]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-text.md"><strong>Génération de texte avec l’assistant AI</strong>
+<div><a href="generative-text.md"><strong>Génération de texte avec l’assistant IA</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="[Génération d’images avec l’assistant d’IA]" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="[Génération d’image avec l’assistant IA]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-image.md"><strong>Génération d’images avec l’assistant AI</strong></a>
+<a href="generative-image.md"><strong>Génération d’image avec l’assistant IA</strong></a>
 </div>
 <p></td>
 </tr></table>
