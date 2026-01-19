@@ -8,7 +8,7 @@ robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 100%
 
@@ -148,17 +148,17 @@ Dans la section **Gestion des décisions**, vous pouvez visualiser les offres et
 
 Découvrez comment créer et envoyer des offres dans des e-mails et des SMS dans [cette section](../msg/offers.md).
 
-### Rapports {#left-nav-reporting}
+### Reporting {#left-nav-reporting}
 
 * **Rapports** : l’entrée **Rapport** fournit un résumé global et synthétique des mesures de trafic et d’engagement pour chaque canal de votre environnement Campaign. Ces rapports sont composés de différents widgets, chacun fournissant une perspective spécifique des performances de vos campagnes ou diffusions. En savoir plus dans [cette section](../reporting/global-reports.md).
 
-### Administration {#left-nav-admin}
+### Administration  {#left-nav-admin}
 
-* **Journal d’audit** : l’entrée **Journal d’audit** offre aux utilisateurs et utilisatrices une visibilité complète de toutes les modifications apportées à des entités importantes de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance. [En savoir plus](../reporting/audit-trail.md)
+* **Journal d’audit** : l’entrée **Journal d’audit** offre aux utilisateurs et utilisatrices une visibilité complète de toutes les modifications apportées à des entités importantes de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance. [En savoir plus](../reporting/audit-trail.md).
 
-* **Comptes externes** : créez des comptes externes à l’aide de l’interface d’utilisation web pour répondre à vos besoins et garantir des transferts de données fluides. [En savoir plus](../administration/external-account.md)
+* **Comptes externes** : créez des comptes externes à l’aide de l’interface d’utilisation web pour répondre à vos besoins et garantir des transferts de données fluides. [En savoir plus](../administration/external-account.md).
 
-* **Schémas** : les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. [En savoir plus](../administration/custom-fields.md)
+* **Schémas** : les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. [En savoir plus](../administration/custom-fields.md).
 
 <!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 
@@ -172,5 +172,5 @@ Découvrez [sur cette page](list-filters.md) comment parcourir, rechercher et fi
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_notification"
->title="Diffusion au fil de l&#39;eau"
->abstract="Diffusion au fil de l&#39;eau"
+>title="Diffusion continue"
+>abstract="Diffusion continue"
