@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Ces activités sont spécifiques au ciblage. Elles permettent de créer une ou p
 * [Enregistrer l’audience](save-audience.md) : mettez à jour une audience existante ou créez une nouvelle audience à partir de la population calculée en amont dans un workflow.
 * [Partage](split.md) : segmentez la population entrante en plusieurs sous-ensembles.
 
-## Activités de gestion des données {#data}
+## Activités de Data Management {#data}
 
 Ces activités sont spécifiques à la manipulation et à l’enrichissement des données de population.
 
@@ -59,7 +59,12 @@ Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes ma
 >title="Activité Fin"
 >abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative."
 
-Les activités ci-après sont spécifiques à l’organisation et à l’exécution du workflow. Leur principale tâche est de coordonner les autres activités :
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="Signal externe"
+>abstract="d’espace réservé pour la section signal externe dans les paramètres de l’activité Fin . Disponible uniquement pour les campagnes orchestrées. NE PAS DELETE"
+
+Les activités ci-après sont spécifiques à l’organisation et à l’exécution des workflows. Leur principale tâche est de coordonner les autres activités :
 
 * [Rendez-vous](and-join.md) : synchronisez plusieurs branches d’exécution d’un workflow.
 * **Fin** : marque visuellement la fin d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative.
