@@ -100,7 +100,7 @@ Les types d’erreurs sont répertoriés dans la [documentation d’Adobe Campa
 
 ![Capture d’écran du rapport Causes d’exclusion, présentant les raisons des exclusions de la diffusion SMS.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
-## Débit de diffusion {#delivery-throughput-sms}
+## Débit des diffusions {#delivery-throughput-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_sms"

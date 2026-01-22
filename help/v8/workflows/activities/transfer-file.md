@@ -90,7 +90,7 @@ Suivez les étapes détaillées ci-dessous pour configurer l’activité **Trans
 
 1. Par défaut, pour le chargement de fichiers, les fichiers chargés sur un serveur sont automatiquement enregistrés. Si vous ne souhaitez pas conserver cet historique, désactivez l’option **[!UICONTROL Garder un historique des fichiers envoyés]**.
 
-## Paramètres d’historisation {#historization}
+## Paramètres d’historisation   {#historization}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -153,7 +153,7 @@ Il est important de limiter la taille de ce dossier pour préserver l’espace p
    +++Options supplémentaires pour les activités de type **[!UICONTROL Téléchargement web]**
 
    * **[!UICONTROL Suivre les redirections]** : la redirection de fichier permet d’utiliser des remplacements pour diriger les entrées ou les sorties de données vers un périphérique d’un différent type.
-   * **[!UICONTROL Ajouter des en-têtes HTTP au fichier]** : dans certains cas, vous pouvez ajouter des en-têtes HTTP supplémentaires à un fichier. Le plus souvent, ces en-têtes sont utilisés pour fournir des informations supplémentaires à des fins de résolution de problèmes, pour le [partage de ressources entre origines multiples (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) ou pour définir des directives de mise en cache spécifiques.
+   * **[!UICONTROL Ajouter des en-têtes HTTP au fichier]** : dans certains cas, vous pouvez ajouter des en-têtes HTTP supplémentaires à un fichier. Le plus souvent, ces en-têtes sont utilisés pour fournir des informations supplémentaires à des fins de résolution de problèmes, pour le [partage de ressources entre origines multiples (CORS)](https://developer.mozilla.org/fr/docs/Web/HTTP/CORS) ou pour définir des directives de mise en cache spécifiques.
    * **[!UICONTROL Ignorer le code de retour HTTP]** : les codes de retour HTTP, également appelés codes d’état HTTP, indiquent le résultat d’une requête HTTP.
 
 1. L’option **[!UICONTROL Traiter les erreurs]** permet d’activer une transition sortante « Erreur » après l’activité si une erreur se produit pendant le transfert.

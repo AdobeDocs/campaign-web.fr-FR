@@ -97,11 +97,11 @@ Le tableau et le graphe **[!UICONTROL Causes d’exclusion]** affichent la répa
 
 +++
 
-## Débit de diffusion {#delivery-throughtput}
+## Débit des diffusions {#delivery-throughtput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Débit de diffusion"
+>title="Débit des diffusions"
 >abstract="Le rapport **Débit de diffusion** présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme dans un délai donné."
 
 Ce rapport présente des informations détaillées sur le débit de diffusion de l’ensemble de la plateforme au cours d’une période donnée. La mesure principale utilisée pour mesurer la vitesse de diffusion des messages est le nombre de messages envoyés par heure.
@@ -256,7 +256,7 @@ Le tableau **[!UICONTROL Taux d’ouvertures et de clics]** affiche des données
 
 * **[!UICONTROL Clics]** : nombre de destinataires ciblé(e)s distinct(e)s ayant cliqué au moins une fois dans une même diffusion.
 
-* **[!UICONTROL Réactivité brute]** : pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.
+* **[!UICONTROL Réactivité brute]** : pourcentage du nombre de personnes destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de personnes destinataires ayant ouvert au moins une fois une même diffusion.
 +++
 
 ## URL et flux de clics {#url-email}

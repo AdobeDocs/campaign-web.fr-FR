@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Requête incrémentale"
->abstract="L’activité **Requête incrémentale** est une activité de **Ciblage** qui vous permet d’interroger la base de données à l’aide du concepteur de requête. À chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments."
+>abstract="L’activité **Requête incrémentale** est une activité de **Ciblage** qui vous permet d’interroger la base de données à l’aide du concepteur de requête. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
@@ -27,7 +27,7 @@ ht-degree: 100%
 >title="Données traitées des requêtes incrémentales"
 >abstract="Données traitées des requêtes incrémentales"
 
-L’activité **Requête incrémentale** est une activité de **Ciblage** qui vous permet d’interroger la base de données à des moments planifiés. À chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela permet de ne cibler que les éléments nouveaux.
+L’activité **Requête incrémentale** est une activité de **Ciblage** qui vous permet d’interroger la base de données à des moments planifiés. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela permet de ne cibler que les éléments nouveaux.
 
 >[!NOTE]
 >

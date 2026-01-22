@@ -1,5 +1,5 @@
 ---
-title: Créer une page de destination
+title: Créer une landing page
 description: Découvrir comment configurer et publier une page de destination dans Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
@@ -11,41 +11,41 @@ ht-degree: 100%
 ---
 
 
-# Créer et publier des pages de destination {#create-lp}
+# Créer et publier des landing pages {#create-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
->title="Créer et gérer des pages de destination"
->abstract="Adobe Campaign vous permet de créer, concevoir et partager des pages de destination afin d’orienter vos utilisateurs et vos utilisatrices vers des pages web en ligne où vous pouvez gérer des cas d’utilisation d’acquisition, d’abonnement/de désabonnement et de liste de blocage, en fonction de modèles intégrés."
+>title="Créer et gérer des landing pages"
+>abstract="Adobe Campaign vous permet de créer, concevoir et partager des landing pages afin d’orienter vos utilisateurs et vos utilisatrices vers des pages web en ligne où vous pouvez gérer des cas d’utilisation d’acquisition, d’abonnement/de désabonnement et de liste de blocage, en fonction de modèles intégrés."
 
-L’interface utilisateur web de Campaign vous permet de créer, concevoir et publier des pages de destination. Une fois la publication effectuée, vous pouvez insérer un lien vers votre formulaire dans une diffusion. Lorsque les personnes destinataires cliquent sur ce lien, elles sont redirigées vers la page de destination correspondante.
+L’interface d’utilisation web de Campaign vous permet de créer, concevoir et publier des landing pages. Une fois la publication effectuée, vous pouvez insérer un lien vers votre formulaire dans une diffusion. Lorsque les personnes destinataires cliquent sur ce lien, elles sont redirigées vers la page de destination correspondante.
 
 [!DNL Adobe Campaign] est fourni avec quatre modèles pour gérer les cas d’utilisation suivants : **acquisition**, **abonnement**, **désabonnement** et **liste bloquée**. [En savoir plus](lp-use-cases.md)
 
-## Accéder aux pages de destination {#access-landing-pages}
+## Accéder aux landing pages {#access-landing-pages}
 
-Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
+Pour accéder à la liste des landing pages, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Landing pages]** dans le menu de gauche.
 
-![Capture d’écran montrant l’inventaire des pages de destination dans l’interface de Campaign Web.](assets/lp-inventory.png){zoomable="yes"}
+![Capture d’écran montrant l’inventaire des landing pages dans l’interface de Campaign Web.](assets/lp-inventory.png){zoomable="yes"}
 
-L’inventaire **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer à l’aide du bouton **[!UICONTROL Afficher les filtres]**.
+L’inventaire **[!UICONTROL Landing pages]** affiche tous les éléments créés. Vous pouvez les filtrer à l’aide du bouton **[!UICONTROL Afficher les filtres]**.
 
 * Vous pouvez filtrer les éléments que vous avez créés ou modifiés.
 * Vous pouvez limiter les résultats à un [dossier](../get-started/permissions.md#folders) spécifique à l’aide de la liste déroulante ou ajouter des règles à l’aide du [concepteur de requête](../query/query-modeler-overview.md).
 
-![Capture d’écran montrant les options de filtre dans l’inventaire des pages de destination.](assets/lp-inventory-filter.png){zoomable="yes"}
+![Capture d’écran montrant les options de filtre dans l’inventaire des landing pages.](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
 >[!CAUTION]
 >
->Vous ne pouvez pas afficher ni modifier les pages de destination créées à partir de la console cliente (formulaires web) dans l’interface utilisateur web de Campaign. En savoir plus dans la [documentation de la console Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
+>Vous ne pouvez pas afficher ni modifier les landing pages créées à partir de la console cliente (formulaires web) dans l’interface d’utilisation web de Campaign. En savoir plus dans la [documentation de la console Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
 Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les points de suspension en regard d’une page de destination pour sélectionner l’action souhaitée.
 
-## Créer une page de destination {#create-landing-page}
+## Créer une landing page {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
@@ -85,7 +85,7 @@ Pour créer une page de destination, procédez comme suit :
    ![Capture d’écran montrant le bouton Créer une page de destination.](assets/lp-create-button.png){zoomable="yes"}
 
 1. Choisissez un modèle :
-   * **[!UICONTROL Acquisition]** : il s’agit du modèle par défaut des pages de destination. Il permet de capturer et de mettre à jour les données du profil.
+   * **[!UICONTROL Acquisition]** : il s’agit du modèle par défaut des landing pages. Il permet de capturer et de mettre à jour les données du profil.
    * **[!UICONTROL Abonnement]** : utilisez ce modèle pour permettre aux utilisateurs et aux utilisatrices de s’abonner à un [service](../audience/manage-services.md).
    * **[!UICONTROL Désabonnement]** : ce modèle peut être utilisé dans une diffusion envoyée aux personnes abonnées à un service afin de leur permettre de se désabonner de ce [service](../audience/manage-services.md).
    * **[!UICONTROL Liste de blocage]** : ce modèle doit être utilisé lorsqu’un profil clique sur un lien de désinscription dans une diffusion et ne souhaite plus être contacté.
@@ -100,7 +100,7 @@ Pour créer une page de destination, procédez comme suit :
 
 1. Renseignez les champs des **[!UICONTROL Propriétés]**, tels que le libellé.
 
-   Par défaut, les pages de destination sont stockées dans le dossier **[!UICONTROL Applications web]**. Vous pouvez le modifier en accédant à l’emplacement de votre choix dans les **[!UICONTROL Options supplémentaires]**. [Découvrez comment utiliser les dossiers](../get-started/permissions.md#folders).
+   Par défaut, les landing pages sont stockées dans le dossier **[!UICONTROL Applications web]**. Vous pouvez le modifier en accédant à l’emplacement de votre choix dans les **[!UICONTROL Options supplémentaires]**. [Découvrez comment utiliser les dossiers](../get-started/permissions.md#folders).
 
    Vous pouvez également configurer le captcha pour sécuriser votre page de destination. [En savoir plus ici](#captcha).
 
@@ -230,4 +230,4 @@ Une fois la publication effectuée :
 
 ![Capture d’écran montrant l’URL de la page de destination](assets/lp-published.png){zoomable="yes"}
 
-Vous pouvez surveiller les impacts de vos pages de destination par le biais de logs<!--and specific reports-->. Cliquez sur le bouton **[!UICONTROL Logs]**.
+Vous pouvez surveiller les impacts de vos landing pages par le biais de logs<!--and specific reports-->. Cliquez sur le bouton **[!UICONTROL Logs]**.

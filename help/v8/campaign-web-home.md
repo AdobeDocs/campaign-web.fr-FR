@@ -4,7 +4,7 @@ description: Centre d’aide de Campaign Web
 title: Documentation du produit Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Élément 3"
->abstract="Expérience client repensée pour les audiences, les abonnements, les ressources AEM, les pages de destination"
+>abstract="Expérience client repensée pour les audiences, les abonnements, les ressources AEM, les landing pages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
@@ -103,7 +103,7 @@ Les questions fréquentes sur l’interface d’utilisation web de Campaign sont
     </tr>
 </table>
 
-## Parcourir la documentation
+## Accéder à la documentation
 
 <table style="table-layout:auto">
   <tr style="border: 0;">

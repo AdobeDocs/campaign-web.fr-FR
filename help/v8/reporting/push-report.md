@@ -89,7 +89,7 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les différentes r
 
 ![Cette capture d’écran montre le graphique et le tableau Exclusions, qui affichent les raisons empêchant les profils utilisateur exclus de recevoir des messages.](assets/reporting_push_6.png){zoomable="yes"}
 
-## Débit de diffusion {#delivery-throughput}
+## Débit des diffusions {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"

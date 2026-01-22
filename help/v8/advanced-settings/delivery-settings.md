@@ -24,7 +24,7 @@ Les paramètres de diffusion sont des **paramètres de diffusions techniques** d
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
->title="Typologie"
+>title="Typology"
 >abstract="Les typologies vous permettent de normaliser les pratiques commerciales de l’ensemble des diffusions. Une typologie est un ensemble de règles de typologie qui permet de contrôler, filtrer et prioriser l’envoi des diffusions. Les profils qui correspondent à des critères dans une règle de typologie sont exclus des audiences de diffusion lors de la phase de préparation."
 
 >[!CONTEXTUALHELP]
@@ -60,7 +60,7 @@ Dans le champ **[!UICONTROL Type de poids]**, trois options sont disponibles :
 * **[!UICONTROL Dépend du destinataire]**
 * **[!UICONTROL Défini dans chaque règle]**
 
-Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Le poids peut être fixe ou calculé au travers d’une formule afin de l’adapter en fonction des destinataires. Par exemple, vous pouvez définir le poids d’une diffusion en fonction des centres d’intérêt d’un(e) destinataire.
+Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Le poids peut être fixe ou calculé au travers d&#39;une formule afin de l&#39;adapter en fonction du destinataire. Par exemple, vous pouvez définir le poids d&#39;une diffusion en fonction des centres d&#39;intérêt d&#39;un destinataire.
 
 Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode d’évaluation de la cible.
 
@@ -72,7 +72,7 @@ Trois modes sont disponibles :
 
 >[!NOTE]
 >
->Le paramétrage des règles de gestion de la fatigue et de la pression s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
+>Le paramétrage des règles de gestion de la fatigue et de la pression s’effectue dans la console cliente Campaign. En savoir plus dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
 
 ### Paramètres de capacité {#capacity-settings}
 

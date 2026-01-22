@@ -16,8 +16,8 @@ ht-degree: 100%
 >id="acw_deliveries_simulate"
 >title="Prévisualiser et tester votre contenu"
 >abstract="Une fois le contenu défini, prévisualisez-le et testez-le à l’aide de profils et de profils de test."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=fr" text="Envoyer des BAT"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=fr#test-landing-page" text="Tester des pages de destination"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=fr" text="Envoi de BAT"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=fr#test-landing-page" text="Tester des landing pages"
 
 Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils et les profils de test pour le prévisualiser et le tester avant d’envoyer le message. Cette étape garantit la précision et élimine les erreurs dans le contenu et les paramètres de personnalisation.
 
@@ -26,7 +26,7 @@ Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils e
 * [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
 * [Envoyer des BAT](test-deliveries.md) à des personnes destinataires ou à des personnes abonnées spécifiques à des fins de test et de validation
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
-* [Prévisualiser et tester vos pages de destination](../landing-pages/create-lp.md#test-landing-page)
+* [Prévisualiser et tester vos landing pages](../landing-pages/create-lp.md#test-landing-page)
 
 Effectuez ces actions à l’aide du bouton **[!UICONTROL Simuler le contenu]**, accessible à partir de l’écran Modifier le contenu de la diffusion ou du [concepteur d’e-mail](../email/get-started-email-designer.md).
 

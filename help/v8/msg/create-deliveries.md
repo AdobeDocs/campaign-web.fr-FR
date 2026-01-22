@@ -7,13 +7,13 @@ role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 100%
 
 ---
 
-# Créer une diffusion {#create-delivery}
+# Création dʼune diffusion {#create-delivery}
 
 <!-- /NEO-92684 / DOCAC-13767-->
 
@@ -43,7 +43,7 @@ Pour créer une diffusion autonome, procédez comme suit :
 
 1. Définissez le contenu du message. Découvrez les canaux de diffusion et comment définir un contenu de diffusion dans les sections suivantes :
 
-   * [Canal e-mail](../email/create-email.md)
+   * [Canal email](../email/create-email.md)
    * [Canal des notifications push](../push/gs-push.md)
    * [Canal SMS](../sms/create-sms.md)
 

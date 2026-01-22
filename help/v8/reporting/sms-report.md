@@ -93,7 +93,7 @@ Le graphe et le tableau **[!UICONTROL Exclusions]** affichent les raisons qui on
 
 ![Description : l’image présente le graphe et le tableau Exclusions, qui détaillent les raisons de l’exclusion des profils utilisateur de la réception des messages.](assets/reporting_sms_6.png){zoomable="yes"}
 
-## Débit de diffusion {#delivery-throughput}
+## Débit des diffusions {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"

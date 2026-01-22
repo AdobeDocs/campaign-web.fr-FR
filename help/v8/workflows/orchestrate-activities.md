@@ -38,7 +38,7 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail et clique
 
 La barre d’outils située dans le coin supérieur droit de la zone de travail fournit des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail :
 
-* **Mode de sélection multiple** : sélectionnez plusieurs activités pour les supprimer toutes en même temps ou pour les copier et les coller. Consultez [cette section](#copy).
+* **Mode de sélection multiple** : sélectionnez plusieurs activités pour les supprimer toutes en même temps ou pour les copier et les coller. Voir [cette section](#copy).
 * **Faire pivoter** : retournez la zone de travail verticalement.
 * **Ajuster à l’écran** : adaptez le niveau de zoom de la zone de travail à votre écran.
 * **Zoom arrière**/**Zoom avant** : effectuez un zoom arrière ou avant dans la zone de travail.
@@ -57,8 +57,8 @@ Vous pouvez ainsi :
 * **Supprimer** l’activité à partir de la zone de travail.
 * **Désactivez/activez** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités qui suivent sur le même chemin ne sont pas exécutées et le workflow est arrêté.
 * **Mettez en pause/Reprenez** l’activité. Lorsque le workflow est exécuté, il s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
-* **Copiez** l’activité. Consultez [cette section](#copy).
-* **Déplacez** une activité et tous ses nœuds enfant vers une autre transition. Consultez [cette section](#move).
+* **Copiez** l’activité. Voir [cette section](#copy).
+* **Déplacez** une activité et tous ses nœuds enfant vers une autre transition. Voir [cette section](#move).
 * Accédez aux **Options d’exécution** de l’activité.
 * Accédez aux **Logs et tâches** de l’activité.
 
@@ -127,16 +127,16 @@ Le champ **Comportement** vous permet de définir la marche à suivre en cas de 
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_error"
->title="Script d’initialisation"
+>title="Script d&#39;initialisation"
 >abstract="Dans cette section, vous pouvez définir ce qui se passe en cas d’échec d’une activité. Vous pouvez choisir des actions telles que l’arrêt du workflow, le passage à l’activité suivante ou le déclenchement d’un processus de gestion des erreurs personnalisé."
 
 Dans le champ **En cas d’erreur**, vous pouvez définir l’action à effectuer si l’activité rencontre une erreur. Consultez cette [section](workflow-settings.md#error-settings).
 
-### Script d’initialisation {#initialization-options}
+### Script d&#39;initialisation {#initialization-options}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
->title="Script d’initialisation"
+>title="Script d&#39;initialisation"
 >abstract="Dans cette section, vous pouvez ajouter du code JavaScript qui s’exécute au démarrage de l’activité. Cela permet d’initialiser des variables, de définir des paramètres ou de préparer des données spécifiques à l’exécution de cette activité."
 
 Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de l’activité. Consultez la section relative aux [variables d’événement](../workflows/event-variables.md).

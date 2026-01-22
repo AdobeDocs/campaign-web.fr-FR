@@ -5,8 +5,8 @@ description: Découvrir comment configurer les paramètres de workflow à l’ai
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1083'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
->title="Propriétés du workflow"
+>title="Propriétés d&#39;exécution        "
 >abstract="Dans cet écran, choisissez le modèle à utiliser pour créer le workflow et indiquez un libellé. Développez la section **Options supplémentaires** pour configurer d’autres paramètres tels que le nom interne du workflow, son dossier, son fuseau horaire et le groupe de personnes responsables. Il est vivement recommandé de sélectionner un groupe de personnes responsables afin d’alerter les opérateurs et opératrices en cas d’erreur."
 
 Lors de la création d’un workflow ou de l’orchestration des activités d’un workflow dans la zone de travail, accédez aux paramètres avancés du workflow. Par exemple, définissez un fuseau horaire spécifique pour le workflow, gérer le comportement du workflow en cas d’erreur ou indiquer le délai après lequel l’historique du workflow doit être purgé.
@@ -23,11 +23,11 @@ Ces paramètres sont prédéfinis dans le modèle sélectionné lors de la créa
 
 ![Interface du bouton Paramètres de workflow](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## Propriétés de workflow  {#properties}
+## Propriétés d&#39;exécution         {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
->title="Propriétés de workflow "
+>title="Propriétés d&#39;exécution        "
 >abstract="Cette section fournit des propriétés de workflow génériques, qui sont également accessibles lors de la création du workflow. Vous pouvez choisir le modèle à utiliser pour créer le workflow et indiquer un libellé. Développez la section Options supplémentaires pour configurer des paramètres spécifiques tels que le dossier de stockage du workflow ou le fuseau horaire."
 
 La section **[!UICONTROL Propriétés]** fournit des paramètres génériques qui peuvent être configurés lors de la création du workflow. Pour accéder aux propriétés d’un workflow existant, cliquez sur le bouton **[!UICONTROL Paramètres]** situé dans la barre d’actions qui se trouve au-dessus de la zone de travail du workflow.
@@ -99,11 +99,11 @@ Lorsque le workflow est [associé à une campagne](create-workflow.md), il s’a
 
 * **[!UICONTROL Erreurs consécutives]** : ce champ est disponible lorsque la valeur **[!UICONTROL Ignorer]** est sélectionnée dans le champ **[!UICONTROL En cas d’erreur]**. Indiquez le nombre d’erreurs qui peuvent être ignorées avant l’arrêt du processus. Une fois ce nombre atteint, le statut du workflow passe à **[!UICONTROL Échec]**. Si la valeur de ce champ est 0, le workflow ne sera jamais arrêté, quel que soit le nombre d’erreurs.
 
-## Script d’initialisation {#initialization-script}
+## Script d&#39;initialisation {#initialization-script}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_initialization"
->title="Script d’initialisation"
+>title="Script d&#39;initialisation"
 >abstract="Dans cette section, vous pouvez définir le code JavaScript qui s’exécute au début du workflow. Cela vous permet d’initialiser des variables, de définir des paramètres ou de préparer des données avant l’exécution d’activités de workflow."
 
 Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution du workflow. Consultez la section relative aux [variables d’événement](../workflows/event-variables.md).

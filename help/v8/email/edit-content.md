@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Définir le contenu de l’e-mail"
+>title="Définition du contenu de l’e-mail"
 >abstract="L’écran **Modifier le contenu** vous permet de définir les éléments de base de votre message, tels que l’adresse de la personne expéditrice et l’objet, d’effectuer des actions supplémentaires, telles que l’ajout de pièces jointes ou d’offres, et d’accéder au concepteur d’e-mail pour peaufiner l’aspect de votre message."
 
 >[!CONTEXTUALHELP]

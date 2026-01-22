@@ -98,7 +98,7 @@ Le graphe et le tableau **[!UICONTROL Causes d’exclusion]** illustrent les rai
 
 Les types d’erreur de notifications push sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#push-error-types){target="_blank"}.
 
-## Débit de diffusion {#delivery-throughput-sms}
+## Débit des diffusions {#delivery-throughput-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_push"

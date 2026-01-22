@@ -101,11 +101,11 @@ Le graphe et le tableau des exclusions illustrent les raisons qui ont empêché 
 
 Les types d’erreur d’e-mail sont répertoriés dans la [documentation d’Adobe Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){target="_blank"}.
 
-## Débit de diffusion {#delivery-throughput}
+## Débit des diffusions {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_email"
->title="Débit de diffusion"
+>title="Débit des diffusions"
 >abstract="Le rapport **Débit de diffusion** fournit des informations complètes sur le débit des diffusions, en mettant en évidence les taux de succès et d’erreur au cours d’une période donnée."
 
 ![Mesures de débit de diffusion](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
