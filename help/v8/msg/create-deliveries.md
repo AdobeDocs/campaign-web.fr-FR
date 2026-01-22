@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Activer l’enrichissement de profil"
->abstract="Sélectionnez les champs pour l’enrichissement de profil."
+>abstract="Sélectionnez les champs pour l’enrichissement du profil. Seuls les champs avec un index peuvent être sélectionnés comme clés de réconciliation. Les champs non pris en charge sont grisés."
 
 Vous pouvez créer des diffusions autonomes à partir du menu de gauche **[!UICONTROL Diffusions]**, ou créer des diffusions dans le cadre d’un workflow, incluses ou non dans une campagne.
 
