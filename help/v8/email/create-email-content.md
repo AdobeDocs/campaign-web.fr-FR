@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 97%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 
 Le concepteur d’e-mail permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir le corps de votre e-mail en quelques secondes.
 
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
@@ -104,10 +104,12 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
    ![Capture d’écran affichant les options de simulation dans le Concepteur d’e-mail.](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. Vous pouvez également valider la qualité de votre contenu pour évaluer la lisibilité, l’efficacité de CTA, la qualité de l’objet, etc. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
+
 1. Lorsque votre e-mail est prêt, cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Vidéo pratique {#video}
 
-Découvrez comment naviguer dans le concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail, ainsi que le personnaliser et le tester.
+Découvrez comment naviguer dans le Concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail, ainsi que le personnaliser et le tester.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453566/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

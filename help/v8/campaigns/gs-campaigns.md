@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Prise en main des campagnes
+title: Commencer avec les campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '221'
 ht-degree: 100%
 
 ---
 
-# Prise en main des campagnes {#campaigns}
+# Commencer avec les campagnes {#campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
->title="Campagnes"
+>title="Opérations"
 >abstract="Parcourez la liste des campagnes. Sélectionnez une campagne pour afficher son contenu, ses diffusions et ses détails. Vous pouvez filtrer par statut, date de début/fin ou avec des règles personnalisées. Vous pouvez également afficher des rapports pour les campagnes terminées. Cliquez sur le bouton **Créer une campagne** pour ajouter une nouvelle campagne. Accédez à l’onglet **Modèles** pour afficher et créer des modèles."
 
 Grâce à la fonctionnalité de gestion de campagne intégrée, Adobe Campaign permet d’orchestrer en toute facilité vos initiatives marketing ciblées. Tirez parti de la possibilité de définir un planning pour planifier la durée et le lancement de vos campagnes, sur la base de vos objectifs stratégiques, et optimisez l’engagement de votre audience.
@@ -29,4 +29,5 @@ Découvrez comment créer, gérer et surveiller des campagnes dans les sections 
 
 * [Accéder aux campagnes et les gérer](manage-campaigns.md)
 * [Créer votre première campagne](create-campaigns.md)
+* [Configuration et gestion du processus de validation](campaign-approvals.md)
 * [Parcourez vos rapports de campagne](../reporting/campaign-reports.md).

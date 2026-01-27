@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '973'
+ht-degree: 98%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
    + [Version anticipée](rn/e-release-notes.md)
    + [Dernière version](rn/release-notes.md)
    + Versions précédentes {#previous-release-notes}
-      + [Versions de 2025](rn/release-notes-25.md)
+      + [Versions 2025](rn/release-notes-25.md)
       + [Versions 2024](rn/release-notes-24.md)
    + [Mises à jour de la documentation](rn/documentation-updates.md)
-+ Commencer avec Adobe Campaign {#start}
-   + [Prise en main](get-started/get-started.md)
++ Prise en main d’Adobe Campaign {#start}
+   + [Commencer](get-started/get-started.md)
    + [Se connecter à Campaign](get-started/connect-to-campaign.md)
    + [Découvrir l’interface](get-started/user-interface.md)
    + [Parcourir et filtrer les listes](get-started/list-filters.md)
@@ -34,20 +34,21 @@ ht-degree: 100%
    + [Sélectionner des attributs et les ajouter aux favoris](get-started/attributes.md)
    + [Autorisations](get-started/permissions.md)
    + [Campaign Web et console cliente](get-started/capability-matrix.md)
-   + [De Campaign Standard vers v8](rn/acs-migration.md)
+   + [De Campaign Standard à v8](rn/acs-migration.md)
    + [Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
-   + [Questions fréquentes](get-started/faq.md)
-+ Messages et diffusions {#msg}
+   + [FAQ](get-started/faq.md)
+   + Messages et diffusions {#msg}
    + [Commencer avec les messages](msg/gs-messages.md)
    + [Accéder aux diffusions](msg/gs-deliveries.md)
-   + [Créer une diffusion](msg/create-deliveries.md)
+   + [Création dʼune diffusion](msg/create-deliveries.md)
    + [Utiliser des modèles de diffusion](msg/delivery-template.md)
    + E-mails {#email}
       + [Créer votre premier e-mail](email/create-email.md)
       + [Configurer le contenu de l’e-mail](email/edit-content.md)
+      + [Créer des expériences de contenu](email/ab-testing.md)
       + Envoyer et surveiller l’e-mail {#monitor}
          + [Préparation et envoi d’un e-mail](monitor/prepare-send.md)
-         + [Envoyer en plusieurs vagues](advanced-settings/send-using-waves.md)
+         + [Envoi en plusieurs vagues](advanced-settings/send-using-waves.md)
          + [Surveiller les logs de diffusion](monitor/delivery-logs.md)
          + [Planifier l’envoi d’une diffusion](monitor/schedule-sending.md)
    + Notifications push {#push}
@@ -63,9 +64,9 @@ ht-degree: 100%
       + [Créer une diffusion SMS](sms/create-sms.md)
       + [Créer une diffusion par SMS](sms/content-sms.md)
       + [Prévisualiser et envoyer une diffusion par SMS](sms/send-sms.md)
-   + Courrier {#direct-mail}
+   + Canal Courrier {#direct-mail}
       + [Prise en main des diffusions par courrier](direct-mail/gs-direct-mail.md)
-      + [Créer une diffusion par courrier](direct-mail/create-direct-mail.md)
+      + [Création d’une diffusion courrier](direct-mail/create-direct-mail.md)
       + [Concevoir le fichier d’extraction](direct-mail/content-direct-mail.md)
       + [Prévisualiser et envoyer une diffusion par courrier](direct-mail/send-direct-mail.md)
    + Centre d’appel {#call-center}
@@ -73,7 +74,7 @@ ht-degree: 100%
       + [Créer et envoyer une diffusion de centre d’appel](call-center/create-call-center.md)
    + [Canaux personnalisés](call-center/gs-custom-channel.md)
    + Messages transactionnels {#transactional-messages}
-      + [Commencer avec les messages transactionnels](transactional-messaging/transactional.md)
+      + [Prise en main des messages transactionnels](transactional-messaging/transactional.md)
       + [Créer un message transactionnel](transactional-messaging/create-transactional.md)
       + [Valider votre message transactionnel](transactional-messaging/validate-transactional.md)
       + [Surveiller des messages transactionnels](transactional-messaging/monitor-transactional.md)
@@ -86,12 +87,12 @@ ht-degree: 100%
    + Prévisualiser et tester votre diffusion {#preview-test}
       + [À propos de la prévisualisation et des BAT](preview-test/preview-test.md)
       + [Prévisualiser le contenu du message](preview-test/preview-content.md)
-      + [Envoyer des BAT](preview-test/test-deliveries.md)
+      + [Envoi de BAT](preview-test/test-deliveries.md)
       + [Tester le rendu des e-mails](preview-test/email-rendering.md)
    + Alertes de diffusion {#delivery-alerting}
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
-      + [Critères des alertes de diffusion](msg/delivery-alerting-criteria.md)
+      + [Critères des alertes de diffusion       ](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
    + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
@@ -108,7 +109,7 @@ ht-degree: 100%
          + [Utiliser des fragments visuels dans vos e-mails](content/use-visual-fragments.md)
          + [Utiliser des fragments d’expression dans l’éditeur d’expression](content/use-expression-fragments.md)
    + Concevoir des e-mails {#email-design}
-      + [Commencer avec le concepteur d’e-mail](email/get-started-email-designer.md)
+      + [Prise en main du concepteur d’e-mail](email/get-started-email-designer.md)
       + Commencer à rédiger votre e-mail {#start-design}
          + [Démarrer en partant de zéro](email/create-email-content.md)
          + [Importer le contenu des e-mails](email/existing-content.md)
@@ -137,9 +138,10 @@ ht-degree: 100%
       + [Cas d’utilisation de l’assistant IA](content/generative-uc.md)
       + Marques {#ai-assistant}
          + [Créer et gérer vos marques](content/brands.md)
-         + [Évaluer le score d’alignement sur la marque](content/brands-score.md)
-+ Pages de destination {#landing-pages}
-   + [Commencer avec les pages de destination](landing-pages/get-started-lp.md)
+         + [Personnaliser votre marque](content/brands-personalize.md)
+         + [Évaluation de votre contenu](content/brands-score.md)
++ Landing pages {#landing-pages}
+   + [Commencer avec les landing pages](landing-pages/get-started-lp.md)
    + [Créer et publier une page de destination](landing-pages/create-lp.md)
    + [Modifier le contenu d’une page de destination](landing-pages/lp-content.md)
    + [Utiliser des modèles de page de destination](landing-pages/lp-templates.md)
@@ -149,13 +151,13 @@ ht-degree: 100%
    + [Dimensions de ciblage](audience/targeting-dimensions.md)
    + [Quarantaine](audience/quarantine.md)
    + Utilisation des profils {#work-with-profiles}
-      + [Commencer avec les profils](audience/about-recipients.md)
+      + [Prise en main des profils](audience/about-recipients.md)
       + [Explorer les détails des profils](audience/profile-view.md)
       + [Créer un profil](audience/create-profile.md)
       + [Utiliser les profils de test](audience/test-profiles.md)
    + Utiliser les audiences {#audiences}
       + [Commencer avec les audiences](audience/manage-audience.md)
-      + [Créer des audiences](audience/create-audience.md)
+      + [Création d’audiences](audience/create-audience.md)
    + Sélectionner les personnes destinataires de vos diffusions {#target-audiences}
       + [Commencer avec la sélection d’audiences](audience/delivery-recipients.md)
       + [Sélectionner une audience existante](audience/add-audience.md)
@@ -170,9 +172,10 @@ ht-degree: 100%
    + [Commencer avec les campagnes](campaigns/gs-campaigns.md)
    + [Accéder aux campagnes et les gérer](campaigns/manage-campaigns.md)
    + [Créer votre première campagne](campaigns/create-campaigns.md)
+   + [Configuration et gestion du processus de validation](campaigns/campaign-approvals.md)
    + [Plans et programmes](administration/plans-programs.md)
 + Workflows {#wf}
-   + [Prise en main des workflows](workflows/gs-workflows.md)
+   + [Commencer avec les workflows](workflows/gs-workflows.md)
    + [Mécanismes de sécurisation et limitations](get-started/guardrails.md)
    + [Variables d’événement de workflow](workflows/event-variables.md)
    + [Accéder et gérer des workflows](workflows/access-monitor.md)
@@ -190,17 +193,18 @@ ht-degree: 100%
       + [Modifier la source de données](workflows/activities/change-data-source.md)
       + [Changement de dimension](workflows/activities/change-dimension.md)
       + [Combiner](workflows/activities/combine.md)
+      + [Diffusion continue](workflows/activities/continuous-delivery.md)
       + [Déduplication](workflows/activities/deduplication.md)
       + [E-mail, SMS, Push, Courrier](workflows/activities/channels.md)
       + [Enrichissement](workflows/activities/enrichment.md)
       + [Signal externe](workflows/activities/external-signal.md)
-      + [Extraire un fichier](workflows/activities/extract-file.md)
+      + [Extraction de fichier](workflows/activities/extract-file.md)
       + [Branchement](workflows/activities/fork.md)
       + [Requête incrémentale](workflows/activities/incremental-query.md)
       + [Code JavaScript](workflows/activities/javascript-code.md)
-      + [Charger un fichier](workflows/activities/load-file.md)
+      + [Chargement de fichier](workflows/activities/load-file.md)
       + [Réconciliation](workflows/activities/reconciliation.md)
-      + [Enregistrer l’audience](workflows/activities/save-audience.md)
+      + [Sauvegarde d&#39;audience](workflows/activities/save-audience.md)
       + [Planificateur](workflows/activities/scheduler.md)
       + [Partage](workflows/activities/split.md)
       + [Services d’abonnements](workflows/activities/subscription-services.md)
@@ -214,13 +218,13 @@ ht-degree: 100%
    + [Éditer les expressions](query/expression-editor.md)
    + [Exemples de requêtes](query/query-samples.md)
    + [Filtrer les listes](query/filter.md)
-+ Rapports {#reports}
++ Reporting {#reports}
    + [Journal d’audit](reporting/audit-trail.md)
    + [Indicateurs clés de performance](reporting/kpis.md)
-   + Rapports standard {#standard-reports}
+   + Rapports standards {#standard-reports}
       + [Commencer avec les rapports](reporting/gs-reports.md)
-      + [Exporter vos rapports](reporting/export-reports.md)
-      + Rapports de diffusion {#delivery-report}
+      + [Exportation des rapports](reporting/export-reports.md)
+      + Rapports sur les diffusions {#delivery-report}
          + [Prise en main des rapports de diffusion](reporting/delivery-reports.md)
          + [Rapport de diffusion par e-mail](reporting/email-report.md)
          + [Rapport de diffusion des notifications push](reporting/push-report.md)
@@ -263,13 +267,14 @@ ht-degree: 100%
          + [Ajouter des visualisations](reporting/dynamic-reporting/adding-visualizations.md)
          + [Ajouter des composants](reporting/dynamic-reporting/adding-components.md)
          + [Création d&#39;une dimension de profil personnalisé](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
-         + [Accord sur l’utilisation des rapports dynamiques](reporting/dynamic-reporting/pii-agreement.md)
+         + [Accord sur l&#39;utilisation des rapports dynamiques](reporting/dynamic-reporting/pii-agreement.md)
 + Intégrations {#integrations}
    + [Utiliser d’autres solutions Adobe](integrations/integration.md)
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Gestion des copies de langue avec Adobe Experience Manager](integrations/aem-multilingual.md)
    + [Utiliser GenStudio for Performance Marketing](integrations/genstudio.md)
-+ Configuration {#conf}
++ Configuration  {#conf}
    + Branding {#branding}
       + [À propos du branding](administration/branding/branding-gs.md)
       + [Configurer une marque](administration/branding/branding-configure.md)
@@ -279,7 +284,7 @@ ht-degree: 100%
    + [Utiliser les schémas](administration/schemas.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
    + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
-   + [Gestion des fuseaux horaires](administration/timezone-management.md)
+   + [Gestion du fuseau horaire](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)
       + [Intégration de solution Adobe](administration/integration-external-account.md)

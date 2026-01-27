@@ -3,8 +3,8 @@ audience: end-user
 title: Nouveautés de l’interface utilisateur web de Campaign
 description: Découvrir les nouvelles fonctionnalités de l’interface utilisateur web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
 
@@ -142,15 +142,15 @@ Comme vous utilisez déjà Campaign, vous remarquerez que certains concepts ont 
 
 * Les personnes destinataires sont désormais des **Profils**. [En savoir plus](../audience/gs-audiences-recipients.md).
 * Les adresses de contrôle sont désormais des **Profils de test**. [En savoir plus](../preview-test/test-deliveries.md).
-* L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer la préparation des messages, cliquez sur le bouton **Préparer**. [En savoir plus](../monitor/prepare-send.md)
-* L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu.** [En savoir plus](../preview-test/preview-test.md).
+* L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer la préparation des messages, cliquez sur le bouton **Préparer**. [En savoir plus](../monitor/prepare-send.md).
+* L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu.** [En savoir plus](../preview-test/preview-test.md)
 * Les listes s’appellent désormais **Audiences**. [En savoir plus](../audience/gs-audiences-recipients.md).
 
 ## Limites{#limitations-beta}
 
 Les restrictions ci-dessous s’appliquent à cette version :
 
-* Les objets modifiables sont les suivants : personnes destinataires, diffusions, campagnes, workflows, audiences, services d’abonnement, filtres prédéfinis, modèles et pages de destination. Les autres sont en lecture seule. Utilisez des filtres et créez des règles pour tous les parcourir.
+* Les objets modifiables sont les suivants : personnes destinataires, diffusions, campagnes, workflows, audiences, services d’abonnement, filtres prédéfinis, modèles et landing pages. Les autres sont en lecture seule. Utilisez des filtres et créez des règles pour tous les parcourir.
 * Les fonctionnalités d’administration et de configuration avancée ne sont pas disponibles dans l’interface utilisateur web de Campaign.
 * Les mesures de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
 * Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes, mais la préparation de la diffusion est en temps réel.

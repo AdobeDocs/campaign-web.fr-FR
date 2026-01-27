@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 100%
+source-wordcount: '1648'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Découvrez comment créer votre premier e-mail ciblé. Dans ce cas d’utilisati
 
 Basé sur un [modèle de conception](../content/create-email-templates.md) prédéfini, l’e-mail propose également du contenu personnalisé en fonction des attributs de profil du client ou de la cliente.
 
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Créer la diffusion e-mail {#create-email}
 
@@ -68,7 +68,7 @@ Pour créer une diffusion d’e-mail autonome, procédez comme suit :
 
 1. De plus, des paramètres avancés, tels que les règles de typologie et les mappings de ciblage, sont accessibles via le bouton **[!UICONTROL Paramètres]** situé en haut à droite de l’écran. Ces paramètres sont préconfigurés dans le modèle sélectionné, mais peuvent être modifiés selon les besoins pour cet e-mail spécifique. [En savoir plus](../advanced-settings/delivery-settings.md)
 
-## Définir l’audience {#define-audience}
+## Définition de l’audience {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
@@ -97,7 +97,7 @@ Des instructions supplémentaires sur l’utilisation des audiences sont disponi
 
 1. Vous pouvez également définir une population témoin afin d’analyser le comportement des destinataires de l’e-mail par rapport au comportement des profils qui n’ont pas été ciblés. [Découvrez comment travailler avec les populations témoins.](../audience/control-group.md)
 
-## Définir le contenu de l’e-mail {#create-content}
+## Définition du contenu de l’e-mail {#create-content}
 
 Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans ce cas d’utilisation, vous allez utiliser un [modèle de diffusion](../msg/delivery-template.md) prédéfini pour concevoir votre e-mail.<!--TBC delivery template or email content template?-->
 
@@ -107,7 +107,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans 
 
    ![Capture d’écran affichant le bouton Modifier le contenu](assets/email-edit-content.png){zoomable="yes"}
 
-   Une interface dédiée s’affiche, dans laquelle vous pouvez configurer le contenu de l’e-mail et accéder au concepteur d’e-mail. [En savoir plus](edit-content.md).
+   Une interface dédiée s’affiche, dans laquelle vous pouvez configurer le contenu de l’e-mail et accéder au concepteur d’e-mail. [En savoir plus](edit-content.md)
 
    ![Capture d’écran montrant l’interface du concepteur d’e-mail](assets/edit-content.png){zoomable="yes"}
 
@@ -152,6 +152,8 @@ Pour en savoir plus sur la planification des diffusions, consultez [cette sectio
 Avant d’envoyer votre e-mail, vous pouvez le prévisualiser et le tester pour vous assurer qu’il répond à vos attentes.
 
 Dans ce cas d’utilisation, vous prévisualisez l’e-mail et envoyez des BAT à des adresses e-mail spécifiques tout en empruntant l’identité de certains des profils ciblés.
+
+Vous pouvez également valider la qualité de votre contenu pour vérifier la lisibilité, l’efficacité de CTA, la qualité de l’objet, etc. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
 
 Des informations supplémentaires sur la prévisualisation des e-mails et l’envoi de BAT sont disponibles dans [cette section](../preview-test/preview-test.md).
 
@@ -252,4 +254,4 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

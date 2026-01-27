@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '700'
+ht-degree: 30%
 
 ---
 
@@ -20,43 +20,28 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 
 Les modifications et améliorations disponibles avec les versions précédentes sont répertoriées sur les pages [2024](release-notes-24.md) et [2025](release-notes-25.md).
 
-## Version d’octobre 2025 {#25-10-updates}
+## Version du 26 janvier {#26-1-release}
 
-_3 novembre 2025_
+_27 janvier 2026_
+
+### Nouvelles fonctionnalités {#26-1-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Fonctionnalités multilingues pour les messages transactionnels, les notifications push et les SMS (disponibilité limitée)</strong><br/></th> 
+<th><strong>Fonctionnalités de diffusion multilingue (GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais envoyer plusieurs messages transactionnels, notifications push et SMS dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues que vous avez choisies.</p>
-<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version.</p>
-<p>Pour plus d’informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--
-* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
--->
-
-<table>
-<thead>
-<tr>
-<th><strong>Enrichissement des profils dans les messages transactionnels (disponibilité limitée)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Cette fonctionnalité vous permet de personnaliser les messages transactionnels en liant des champs de la base de données Adobe Campaign au contenu des messages. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant vos seuils de performances.</p>
-<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version. Cette fonctionnalité n’est actuellement disponible que pour les e-mails.</p>
-<p>Pour plus d’informations, consultez la <a href="../transactional-messaging/profile-enrichment.md">documentation détaillée</a>.</p>
+<p>La fonctionnalité de diffusion multilingue est désormais disponible pour tous les clients (GA). Cette fonctionnalité vous permet d’envoyer plusieurs messages dans différentes langues dans l’interface utilisateur web d’Adobe Campaign. Vous pouvez choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues que vous avez choisies. 
+<p>Pour plus d'informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
+<p>Les améliorations suivantes ont été apportées aux notifications push multilingues :</p>
+<ul>
+<li>Vous pouvez désormais remplir rapidement toutes les variantes de langue en chargeant un fichier CSV contenant votre contenu multilingue. <a href="../msg/multilingual.md#csv-upload">En savoir plus</a>
+</li>
+<li>Les notifications push riches sont désormais prises en charge.</li>
 </td>
 </tr>
 </tbody>
@@ -65,14 +50,14 @@ _3 novembre 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Intégration d’Adobe GenStudio</strong><br/></th>
+<th><strong>Enrichissement du profil dans les messages transactionnels (GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Pour améliorer l’efficacité du marketing et maintenir la cohérence de la marque, vous pouvez désormais intégrer les expériences GenStudio for Performance Marketing à Campaign de manière transparente. Vous pouvez ainsi tirer parti de la création de contenu basée sur l’IA de GenStudio tout en bénéficiant des fonctionnalités d’orchestration avancées de Campaign.<p>
-<p>Pour plus d’informations, consultez la <a href="../integrations/genstudio.md">documentation détaillée</a>.</p>
+<p>La fonctionnalité Enrichissement du profil dans les messages transactionnels est désormais disponible pour tous les clients (GA). Outre les e-mails, les SMS et les notifications push sont désormais pris en charge. Cette fonctionnalité vous permet de personnaliser les messages transactionnels en liant les champs de la base de données Adobe Campaign au contenu du message. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant vos seuils de performances.</p>
+<p>Pour plus d'informations, consultez la <a href="../transactional-messaging/profile-enrichment.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -81,47 +66,71 @@ _3 novembre 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Prise en charge du mode sombre dans le Concepteur d’e-mail</strong><br/></th> 
+<th><strong>Live Copies et copies de langue de Adobe Experience Manager</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le Concepteur d’e-mail offre désormais la possibilité de passer en mode sombre, dans lequel vous pouvez en outre définir des paramètres personnalisés spécifiques. Notez que le rendu final dépend du client de messagerie de la personne destinataire et que certains clients de messagerie ne prennent pas en charge le mode sombre.</p>
-<p>Pour plus d’informations, consultez la <a href="../email/dark-mode.md">documentation détaillée</a>.</p>
+<p>L’intégration de contenu Adobe Experience Manager vous permet d’accéder à toutes les copies de langue et Live Copies créées dans Adobe Experience Manager directement dans Campaign lors de la création de diffusions. Vous pouvez actualiser le contenu en temps réel pour récupérer les dernières versions de Adobe Experience Manager. Cette intégration élimine la synchronisation manuelle de contenu entre Adobe Experience Manager et Campaign, rationalisant ainsi votre workflow de campagne multilingue.</p>
+<p>Pour plus d'informations, consultez la <a href="../integrations/aem-multilingual.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!-- table>
+<table>
 <thead>
 <tr>
-<th><strong>Continuous delivery activity</strong><br/></th> not ready
+<th><strong>Expériences de contenu - Tests A/B</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Continuous delivery activity</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>Les expériences de contenu dans Adobe Campaign Web vous permettent de définir plusieurs variantes de diffusion de test A/B afin de mesurer celle qui fonctionne le mieux pour votre audience cible. Vous pouvez varier le contenu, l’objet ou l’expéditeur de la diffusion afin de tester différentes versions et de déterminer la variante produisant les meilleurs résultats. Vous pouvez effectuer des tests A/B sur divers éléments d’e-mail tels que l’objet, le nom de l’expéditeur et le contenu du corps de l’e-mail.</p>
+<p>Pour plus d'informations, consultez la <a href="../email/ab-testing.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-### Améliorations {#25-10-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>Activité de diffusion au fil de l'eau</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L'activité Diffusion au fil de l'eau permet d'ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois, ce qui le rend plus efficace pour les alertes de faible volume ou les notifications envoyées selon les besoins. Une diffusion au fil de l’eau crée une instance de diffusion unique. Tous les logs de diffusion (broadLog) et les logs de tracking référencent cette diffusion, simplifiant la surveillance et le reporting.</p>
+<p>Pour plus d'informations, consultez la <a href="../workflows/activities/continuous-delivery.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* Dans les diffusions créées dans la console cliente, la section **Audience** indique désormais si une condition dynamique a été définie pour les cibles des BAT. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+<table>
+<thead>
+<tr>
+<th><strong>Gestion de la validation des campagnes</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le processus de validation permet de coordonner plusieurs parties prenantes et d’assurer un contrôle qualité avant l’envoi des diffusions. Utilisez les validations lorsque votre organisation nécessite la validation de différentes équipes, telles que les responsables marketing qui examinent le contenu ou les analystes de données qui valident les audiences cibles.</p>
+<p>Pour plus d'informations, consultez la <a href="../campaigns/campaign-approvals.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* Vous pouvez désormais basculer entre le nouveau créateur de règles et l’ancien lors de la configuration d’une condition à l’aide de la fonctionnalité de contenu conditionnel du Concepteur d’e-mail. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+### Améliorations {#26-1-improvements}
 
-* Vous pouvez désormais sélectionner des liens de collection, tels que des achats, dans la définition de l’écran du schéma Destinataires. Les données associées sont alors affichées sur les écrans des profils via un onglet dédié. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
-
-* En tant qu’administrateur ou administratrice Campaign, vous pouvez désormais configurer des connexions vers Salesforce CRM et Microsoft Dynamics.
-  [En savoir plus](../administration/external-crm.md)
-
-<!--
-* Stop button for deliveries not linked to release and no info
--->
-
+* Les rapports dynamiques prennent désormais en charge les notifications push et les SMS. [En savoir plus](../reporting/dynamic-reporting/get-started-reporting.md)
+* Filtres prédéfinis - Une nouvelle option de « filtre partagé » vous permet de rendre un filtre prédéfini disponible pour d’autres utilisateurs de votre organisation. [En savoir plus](../get-started/predefined-filters.md#share-filter)
+* Les champs de personnalisation créés dans Adobe Experience Manager, tels que le nom, l’e-mail, la date et l’adresse, sont désormais inclus et disponibles lors de l’utilisation de modèles de contenu.
+* L’évaluation de la qualité du contenu recherche désormais les problèmes de lisibilité, de cohésion et d’efficacité indépendamment des directives de la marque, en identifiant les messages imprécis, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content/brands-score.md)
+* Les directives de marque incluent désormais une section Couleurs qui définit les normes du système de couleurs de votre marque, assurant ainsi une utilisation cohérente des couleurs primaires, secondaires, d’accentuation et neutres dans toutes les expériences. [En savoir plus](../content/brands-personalize.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: Créer une diffusion SMS
 description: Découvrez comment créer et envoyer des SMS à l’aide d’Adobe Campaign Web.
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 98%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,9 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
 1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin et mesurer l’impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](../audience/control-group.md)
 
-1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à concevoir le contenu de votre SMS. [En savoir plus](content-sms.md).
+1. Vous pouvez configurer votre diffusion par SMS en tant que diffusion multilingue afin d’envoyer des messages en fonction de la langue préférée d’un profil. [En savoir plus](../msg/multilingual.md).
+
+1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à concevoir le contenu de votre SMS. [En savoir plus](content-sms.md)
 
    ![Capture d’écran affichant le bouton Modifier le contenu](assets/sms_create_4.png){zoomable="yes"}
 
@@ -71,7 +73,7 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsqu’une diffusion est envoyée dans le cadre d’un workflow, utilisez l’activité **Planificateur**. En savoir plus sur [cette page](../workflows/activities/scheduler.md).
+   >Lorsqu’une diffusion est envoyée dans le cadre d’un workflow, utilisez l’activité **Planificateur**. En savoir plus à ce propos sur [cette page](../workflows/activities/scheduler.md).
 
 1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 

@@ -2,9 +2,9 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de 2025 de l’interface d’utilisation web de Campaign
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '2667'
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '3052'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,111 @@ ht-degree: 100%
 # Notes de mise à jour 2025 {#2025-release}
 
 Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions de 2025**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
+
+## Version d’octobre 2025 {#25-10-updates}
+
+_3 novembre 2025_
+
+<table>
+<thead>
+<tr>
+<th><strong>Fonctionnalités multilingues pour les messages transactionnels, les notifications push et les SMS (disponibilité limitée)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais envoyer plusieurs messages transactionnels, notifications push et SMS dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues que vous avez choisies.</p>
+<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version.</p>
+<p>Pour plus d'informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Enrichissement des profils dans les messages transactionnels (disponibilité limitée)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Cette fonctionnalité vous permet de personnaliser les messages transactionnels en liant des champs de la base de données Adobe Campaign au contenu des messages. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant vos seuils de performances.</p>
+<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version. Cette fonctionnalité n’est actuellement disponible que pour les e-mails.</p>
+<p>Pour plus d'informations, consultez la <a href="../transactional-messaging/profile-enrichment.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Intégration d’Adobe GenStudio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Pour améliorer l’efficacité du marketing et maintenir la cohérence de la marque, vous pouvez désormais intégrer les expériences GenStudio for Performance Marketing à Campaign de manière transparente. Vous pouvez ainsi tirer parti de la création de contenu basée sur l’IA de GenStudio tout en bénéficiant des fonctionnalités d’orchestration avancées de Campaign.<p>
+<p>Pour plus d'informations, consultez la <a href="../integrations/genstudio.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Prise en charge du mode sombre dans le Concepteur d’e-mail</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le Concepteur d’e-mail offre désormais la possibilité de passer en mode sombre, dans lequel vous pouvez en outre définir des paramètres personnalisés spécifiques. Notez que le rendu final dépend du client de messagerie de la personne destinataire et que certains clients de messagerie ne prennent pas en charge le mode sombre.</p>
+<p>Pour plus d'informations, consultez la <a href="../email/dark-mode.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>Continuous delivery activity</strong><br/></th> not ready
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Continuous delivery activity</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Améliorations {#25-10-improvements}
+
+* Dans les diffusions créées dans la console cliente, la section **Audience** indique désormais si une condition dynamique a été définie pour les cibles des BAT. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+
+* Vous pouvez désormais basculer entre le nouveau créateur de règles et l’ancien lors de la configuration d’une condition à l’aide de la fonctionnalité de contenu conditionnel du Concepteur d’e-mail. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+
+* Vous pouvez désormais sélectionner des liens de collection, tels que des achats, dans la définition de l’écran du schéma Destinataires. Les données associées sont alors affichées sur les écrans des profils via un onglet dédié. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
+
+* En tant qu’administrateur ou administratrice Campaign, vous pouvez désormais configurer des connexions vers Salesforce CRM et Microsoft Dynamics.
+  [En savoir plus](../administration/external-crm.md)
+
+<!--
+* Stop button for deliveries not linked to release and no info
+-->
 
 ## Version de septembre 2025 {#25-9-release}
 
@@ -29,7 +134,7 @@ Les fonctionnalités suivantes sont disponibles à compter de la version de sept
 <tr>
 <td>
 <p>Vous pouvez désormais, directement à partir de l’interface d’utilisation d’Adobe Campaign Web, orchestrer et exécuter des diffusions basées sur des canaux d’API personnalisés. Ces diffusions peuvent être autonomes ou faire partie d’un workflow. La configuration du canal d’API personnalisé est effectuée dans la console.</p>
-<p>Pour plus d’informations, consultez la <a href="../call-center/gs-custom-channel.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../call-center/gs-custom-channel.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -45,7 +150,7 @@ Les fonctionnalités suivantes sont disponibles à compter de la version de sept
 <tr>
 <td>
 <p>En tant qu’administrateur ou administratrice Campaign, vous pouvez désormais configurer de nouvelles connexions avec des systèmes externes à partir de l’interface d’utilisation de Campaign Web. Vous pouvez également afficher, mettre à jour et gérer les comptes externes existants.</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/create-external-account.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/create-external-account.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -61,7 +166,7 @@ Les fonctionnalités suivantes sont disponibles à compter de la version de sept
 <tr>
 <td>
 <p>Campaign permet désormais de verrouiller du contenu dans les modèles d’e-mail, en verrouillant soit l’ensemble du modèle, soit des structures et composants spécifiques. Cela vous permet d’éviter les modifications ou suppressions involontaires, de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.</p>
-<p>Pour plus d’informations, consultez la <a href="../content/content-locking.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../content/content-locking.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -190,7 +295,7 @@ Les fonctionnalités suivantes sont disponibles à compter de la version de juil
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -223,7 +328,7 @@ Les fonctionnalités suivantes sont disponibles à compter de la version de juil
 <tr>
 <td>
 <p>Lors de la conception de vos e-mails, vous pouvez désormais ajouter votre propre CSS personnalisé directement dans le concepteur d’e-mail. Cette fonctionnalité vous permet d’appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu.</p>
-<p>Pour plus d’informations, consultez la <a href="../email/custom-css.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../email/custom-css.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -240,7 +345,7 @@ Les fonctionnalités suivantes sont disponibles à compter de la version de juil
 <td>
 <p>Vous pouvez désormais créer et personnaliser vos propres marques pour définir clairement votre identité visuelle et verbale dans les communications. Grâce au score d’alignement de la marque, vous pouvez recevoir des commentaires en temps réel sur la manière dont votre contenu reflète le ton, le style et les directives de votre marque, ce qui vous permet de rester constamment en phase avec la marque pour chaque message envoyé.
 </p>
-<p>Pour plus d’informations, consultez la <a href="../content/brands.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../content/brands.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -256,7 +361,7 @@ Les fonctionnalités suivantes sont disponibles à compter de la version de juil
 <tr>
 <td>
 <p>La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d’utilisateurs et d’utilisatrices de recevoir automatiquement des notifications contenant des informations sur l’exécution de leurs diffusions.</p>
-<p>Pour plus d’informations, consultez la <a href="../msg/delivery-alerting.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../msg/delivery-alerting.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +403,7 @@ Les fonctionnalités suivantes sont disponibles à compter de la version de juil
 <td>
 <p>Vous pouvez désormais accéder aux rapports dynamiques qui fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Les rapports dynamiques sont également disponibles pour les diffusions d’e-mails multilingues et les messages transactionnels.</p>
 <p>Cette fonctionnalité n’est disponible qu’à la demande. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 au minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.
-<p>Pour plus d’informations, consultez la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -313,9 +418,9 @@ Les fonctionnalités suivantes sont disponibles à compter de la version de juil
 <tbody>
 <tr>
 <td>
-<p>Les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux pages de destination ainsi que les paramètres du tracking des messages. Vous pouvez créer ces marques et les associer à des messages ou à des pages de destination. Cette configuration est gérée dans des modèles. Les options de branding sont désormais disponibles pour tous les canaux, y compris les SMS et le courrier.</p>
+<p>Les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux landing pages ainsi que les paramètres de suivi des messages. Vous pouvez créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles. Les options de branding sont désormais disponibles pour tous les canaux, y compris les SMS et le courrier.</p>
 <p>Cette fonctionnalité est uniquement disponible à la demande pour les nouvelles implémentations. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 au minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.
-<p>Pour plus d’informations, consultez la <a href="../administration/branding/branding-gs.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/branding/branding-gs.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -334,14 +439,14 @@ Reportez-vous aux [notes de mise à jour](https://experienceleague.adobe.com/doc
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=fr){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -368,10 +473,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=fr) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -385,15 +490,15 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * Vous pouvez désormais activer les notifications en arrière-plan sur iOS à l’aide de la nouvelle option **Contenu disponible**, disponible dans la section **Paramètres avancés** de l’écran d’édition du contenu d’iOS. L’indicateur `content-available:1` est alors ajouté au payload `aps`. Consultez [cette page](../push/content-push.md) pour en savoir plus. Voir également [cette page](../push/rich-push-ios.md)
 
-* Les améliorations suivantes des pages de destination sont désormais disponibles :
+* Les améliorations suivantes des landing pages sont désormais disponibles :
 
    * Vous pouvez désormais référencer une page de destination d’abonnement/de désinscription par défaut lors de la configuration d’un service. Lors de la conception d’un e-mail, si vous définissez un lien vers cette page de destination, les utilisateurs et utilisatrices qui envoient le formulaire de la page de destination sont automatiquement abonnés à ce service ou désinscrits de ce service. [En savoir plus](../audience/manage-services.md#create-service)
    * Une nouvelle option de configuration de page de destination permet aux visiteurs et visiteuses anonymes d’accéder à la page de destination. Si vous désélectionnez cette option, seuls les utilisateurs et les utilisatrices identifiés peuvent accéder au formulaire et l’envoyer. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
    * Une nouvelle option de configuration de page de destination permet de stocker des données internes supplémentaires lors de l’envoi de la page de destination. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
    * Une nouvelle option permet d’utiliser une page de destination pour plusieurs services, ce qui la rend dynamique. Lors de l’ajout d’un lien vers un e-mail, si vous sélectionnez une page de destination dynamique, vous pouvez sélectionner n’importe quel service. Si vous sélectionnez une page de destination associée à un service spécifique, ce service sera automatiquement utilisé (vous ne pouvez pas en sélectionner un autre). [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * Le contenu conditionnel est désormais pris en charge dans les pages de destination. [En savoir plus](../landing-pages/lp-content.md)
+   * Le contenu conditionnel est désormais pris en charge dans les landing pages. [En savoir plus](../landing-pages/lp-content.md)
    * Vous pouvez lier une page de destination à un service et envoyer un message de confirmation lorsque des utilisateurs et utilisatrices la valident. [En savoir plus](../landing-pages/lp-content.md#lp-message)
-   * Vous pouvez ajouter un captcha pour protéger votre page de destination contre les spams et les abus causés par les robots. Cette action n’implique pas vos clients, car elle ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. [En savoir plus](../landing-pages/create-lp.md#captcha)
+   * Vous pouvez ajouter un captcha pour protéger votre page de destination contre les spams et les abus causés par les robots. Il ne présente pas d’intrusion par rapport à vos clients, car il ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. [En savoir plus](../landing-pages/create-lp.md#captcha)
 
 ## Version du 25 juin {#25-6-release}
 
@@ -429,7 +534,7 @@ Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et ut
 <tr>
 <td>
 <p>La fonction Score d’alignement sur la marque fournit des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux règles de votre marque. Cette fonctionnalité est disponible en version Beta.</p>
-<p>Pour plus d’informations, consultez la <a href="../content/brands-score.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../content/brands-score.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
@@ -447,7 +552,7 @@ Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et ut
 <td>
 <p>Vous pouvez désormais orchestrer et exécuter des diffusions directement à partir de l’UI Web d’Adobe Campaign,en fonction de canaux externes personnalisés. Ces diffusions peuvent être autonomes ou faire partie d’un workflow. La création du canal externe personnalisé intégré à un tiers est effectuée dans la console.</p>
 <p>Remarque : la création de rapports n’est pas disponible dans l’UI Web pour le canal personnalisé. Vous devez parcourir la console cliente pour accéder aux rapports.</p>
-<p>Pour plus d’informations, consultez la <a href="../call-center/gs-custom-channel.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../call-center/gs-custom-channel.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>
 </tr>
@@ -478,7 +583,7 @@ Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et ut
 <p>Le canal centre d’appel est désormais disponible dans l’interface d’utilisation de Campaign Web. Ce canal fait référence à une méthode de communication utilisée pour gérer et suivre les communications ou interactions gérées par un centre d’appel (généralement des appels téléphoniques passés par des agentes et agents à des clientes et clients ou à des prospects).</p>
 <p>Remarque : la création de rapports n’est pas disponible dans l’UI Web pour le canal du centre d’appel. Vous devez parcourir la console cliente pour accéder aux rapports.</p>
 <img src="assets/do-not-localize/call-center.gif">
-<p>Pour plus d’informations, consultez la <a href="../call-center/gs-call-center.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../call-center/gs-call-center.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -495,7 +600,7 @@ Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et ut
 <td>
 <p>Un nouveau créateur de règles est désormais disponible pour vous aider à définir des conditions complexes dans une interface d’utilisation améliorée. Vous pouvez passer de l’ancien au nouveau créateur de règles selon vos besoins.</p>
 <img src="assets/do-not-localize/rule-builder-release.gif">
-<p>Pour plus d’informations, consultez la <a href="../query/query-modeler-overview.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../query/query-modeler-overview.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -512,7 +617,7 @@ Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et ut
 <td>
 <p>En tant qu’administrateur ou administratrice Campaign, vous pouvez désormais configurer de nouvelles connexions avec des systèmes externes à partir de l’interface d’utilisation de Campaign Web.
 Vous pouvez également afficher, mettre à jour et gérer les comptes externes existants.</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -522,7 +627,7 @@ Vous pouvez également afficher, mettre à jour et gérer les comptes externes e
 
 **Améliorations générales de l’interface**
 
-* Les options Description du champ, Ajouter aux favoris et Distribution des valeurs pour les attributs de schéma sont désormais plus visibles dans l’interface d’utilisation. Pour plus d’informations, consultez la [documentation détaillée](../get-started/attributes.md).
+* Les options Description du champ, Ajouter aux favoris et Distribution des valeurs pour les attributs de schéma sont désormais plus visibles dans l’interface d’utilisation. Pour plus d&#39;informations, consultez la [documentation détaillée](../get-started/attributes.md).
 * Dans l’interface d’utilisation, la date et l’heure s’affichent désormais en fonction de la langue principale définie dans les préférences d’Experience League. Cette fonctionnalité est uniquement disponible pour plusieurs langues. Pour consulter la liste complète des langues prises en charge, reportez-vous à la [documentation détaillée](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
@@ -530,7 +635,7 @@ ko * Built-in options are now only visible in the list of options if the **Show 
 ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 -->
 
-**Éditeur d’e-mails** : pour améliorer l’accessibilité dans l’interface d’utilisation de Campaign Web, deux nouveaux champs sont désormais disponibles dans le concepteur d’e-mail : ils correspondent à l’élément `title` et l’attribut lang dans l’élément `html` du contenu de votre e-mail. Vous pouvez définir ces paramètres en plus du champ Pré-en-tête, dans la section Corps de l’e-mail. Pour plus d’informations, consultez la [documentation détaillée](../email/metadata.md).
+**Éditeur d’e-mails** : pour améliorer l’accessibilité dans l’interface d’utilisation de Campaign Web, deux nouveaux champs sont désormais disponibles dans le concepteur d’e-mail : ils correspondent à l’élément `title` et l’attribut lang dans l’élément `html` du contenu de votre e-mail. Vous pouvez définir ces paramètres en plus du champ Pré-en-tête, dans la section Corps de l’e-mail. Pour plus d&#39;informations, consultez la [documentation détaillée](../email/metadata.md).
 
 <!--
 **Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
@@ -538,9 +643,9 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 **Schémas**
 
-* Vous pouvez désormais modifier le schéma temporaire d’une liste à partir de l’interface d’utilisation de Campaign Web. Pour plus d’informations, consultez la [documentation détaillée](../audience/manage-audience.md).
-* Vous pouvez désormais prévisualiser les champs personnalisés d’un schéma dans un exemple d’écran. Pour plus d’informations, consultez la [documentation détaillée](../administration/custom-fields.md#add).
-* Vous pouvez désormais déplacer des champs personnalisés dans la liste à l’aide du glisser-déposer. Pour plus d’informations, consultez la [documentation détaillée](../administration/custom-fields.md#add).
+* Vous pouvez désormais modifier le schéma temporaire d’une liste à partir de l’interface d’utilisation de Campaign Web. Pour plus d&#39;informations, consultez la [documentation détaillée](../audience/manage-audience.md).
+* Vous pouvez désormais prévisualiser les champs personnalisés d’un schéma dans un exemple d’écran. Pour plus d&#39;informations, consultez la [documentation détaillée](../administration/custom-fields.md#add).
+* Vous pouvez désormais déplacer des champs personnalisés dans la liste à l’aide du glisser-déposer. Pour plus d&#39;informations, consultez la [documentation détaillée](../administration/custom-fields.md#add).
 
 
 ### Nouvelles fonctionnalités en disponibilité limitée {#25-4-features-la}
@@ -551,11 +656,11 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr).
 
-* **Création de diffusions multilingues** : vous pouvez désormais envoyer plusieurs diffusions par e-mail dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix. Pour plus d’informations, consultez la [documentation détaillée](../email/edit-content.md).
+* **Création de diffusions multilingues** : vous pouvez désormais envoyer plusieurs diffusions par e-mail dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix. Pour plus d&#39;informations, consultez la [documentation détaillée](../email/edit-content.md).
 
-* **Rapports dynamiques pour le multilinguisme** : les rapports dynamiques sont désormais disponibles pour les diffusions par e-mail multilingues. Pour plus d’informations, consultez la [documentation détaillée](../reporting/global-reports.md).
+* **Rapports dynamiques pour le multilinguisme** : les rapports dynamiques sont désormais disponibles pour les diffusions par e-mail multilingues. Pour plus d&#39;informations, consultez la [documentation détaillée](../reporting/global-reports.md).
 
-* **Prise en charge de l’API REST SMS (disponibilité limitée)** : l’API REST de messagerie transactionnelle est désormais disponible pour le canal SMS. Lorsque le payload contient à la fois un e-mail et un téléphone mobile, vous pouvez utiliser le champ « wishedChannel » pour spécifier le canal. S’il n’est pas fourni, l’e-mail est utilisé par défaut, sauf si wishedChannel demande explicitement un SMS. Pour plus d’informations, consultez la [documentation détaillée](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr){target=_blank}.
+* **Prise en charge de l’API REST SMS (disponibilité limitée)** : l’API REST de messagerie transactionnelle est désormais disponible pour le canal SMS. Lorsque le payload contient à la fois un e-mail et un téléphone mobile, vous pouvez utiliser le champ « wishedChannel » pour spécifier le canal. S’il n’est pas fourni, l’e-mail est utilisé par défaut, sauf si wishedChannel demande explicitement un SMS. Pour plus d&#39;informations, consultez la [documentation détaillée](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr){target=_blank}.
 
 ## Version de février 2025 {#25-2-release}
 
@@ -576,7 +681,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <td>
 <p>Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface d’utilisation web d’Adobe Campaign. Les typologies permettent de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions. Les typologies permettent de confirmer que les diffusions contiennent toujours certains composants obligatoires (comme un lien de désabonnement ou un objet) ou des règles de filtrage pour exclure des groupes de votre audience (tels que les personnes désabonnées, la concurrence, et la clientèle ne faisant pas partie du programme de fidélité).</p>
 <img src="assets/do-not-localize/typology.gif">
-<p>Pour plus d’informations, consultez la <a href="../administration/typologies.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/typologies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -593,7 +698,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <td>
 <p>Vous pouvez désormais créer des mappings de ciblage dans l’interface d’utilisation web de Campaign. Les mappings de ciblage définissent la manière dont différents canaux de diffusion (e-mails, SMS, notifications push) sont liés aux champs de données d’un schéma. Le mapping de ciblage vous permet de définir l’audience ciblée : profils, bénéficiaires de contrats, opérateurs et opératrices, personnes abonnées, prospects, etc.</p>
 <img src="assets/do-not-localize/target-mapping.gif">
-<p>Pour plus d’informations, consultez la <a href="../administration/target-mappings.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/target-mappings.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -610,7 +715,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <td>
 <p>Vous pouvez désormais accéder aux détails d’un schéma en sélectionnant son nom dans la liste. La modification des champs personnalisés est désormais accessible à partir du bouton <b>Modifier les champs personnalisés</b> disponible dans les détails du schéma.</p>
 <img src="assets/do-not-localize/schemas.gif">
-<p>Pour plus d’informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -636,7 +741,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <td>
 <p>Les fragments visuels sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs diffusions e-mail ou dans des modèles de contenu. Cette fonctionnalité est désormais disponible pour les clientes et clients utilisant la version 8.6.4 du serveur et les versions ultérieures.</p>
 <img src="assets/do-not-localize/visual-fragment.gif">
-<p>Pour plus d’informations, consultez la <a href="../content/use-visual-fragments.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../content/use-visual-fragments.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -653,7 +758,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <td>
 <p>Vous pouvez désormais définir des diffusions externes et des modèles de diffusion externe dans l’interface web de Campaign. Avec ce mode, les messages sont compilés dans un fichier de sortie qui peut être partagé avec votre fournisseur externe. Par défaut, le mode de diffusion externe est utilisé pour le canal courrier.</p>
 <img src="assets/do-not-localize/external-delivery.gif">
-<p>Pour plus d’informations, consultez la <a href="../msg/send-external-deliveries.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../msg/send-external-deliveries.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -670,7 +775,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <td>
 <p>Vous pouvez désormais créer des énumérations directement via l’interface d’utilisation web d’Adobe Campaign. Une énumération est une liste de valeurs proposées par le système pour renseigner les champs. Utilisez des énumérations pour normaliser les valeurs de ces champs, faciliter la saisie de données ou les utiliser dans des requêtes.</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<p>Pour plus d’informations, consultez la <a href="../administration/enumerations.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/enumerations.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -687,7 +792,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <td>
 <p>Vous pouvez désormais accéder aux options techniques de l’interface d’utilisation web d’Adobe Campaign et créer vos propres options personnalisées en fonction de vos besoins. Cela s’avère particulièrement utile lorsque vous travaillez avec des activités de workflow de code JavaScript pour stocker des données intermédiaires.</p>
 <img src="assets/do-not-localize/options.gif">
-<p>Pour plus d’informations, consultez la <a href="../administration/options.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/options.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -705,7 +810,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <td>
 <p>Vous pouvez désormais créer des codes JavaScript dans l’interface d’utilisation web d’Adobe Campaign. Vous pouvez ainsi créer des fonctions réutilisables qui peuvent être utilisées dans les workflows, à la manière d’une bibliothèque.</p>
 <img src="assets/do-not-localize/javascript.gif">
-<p>Pour plus d’informations, consultez la <a href="../administration/javascript-codes.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/javascript-codes.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

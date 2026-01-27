@@ -2,21 +2,15 @@
 audience: end-user
 title: Enrichissement des profils dans les messages transactionnels
 description: Découvrez comment créer un message transactionnel dans l’interface d’utilisation de Campaign Web.
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '464'
+ht-degree: 97%
 
 ---
 
 
 # Enrichir des messages transactionnels avec des données de profils{#profile-enrichment}
-
->[!AVAILABILITY]
->
->Cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version. Votre serveur doit être mis à niveau vers la version 8.8.2 ou une version ultérieure.
->
->Cette fonctionnalité n’est actuellement disponible que pour les e-mails.
 
 Cette fonctionnalité vous permet de personnaliser les messages transactionnels en liant des champs de la base de données Adobe Campaign au contenu des messages. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant vos seuils de performances.
 
@@ -31,6 +25,12 @@ Pour configurer l’enrichissement des profils, procédez comme suit :
 1. Définissez le contenu. [En savoir plus](#content-enrichment)
 1. Validez et envoyez. [En savoir plus](#send-enrichment)
 
+>[!NOTE]
+>
+>Votre serveur doit être mis à niveau vers la version 8.8.2 ou une version ultérieure.
+>
+>Actuellement, cette fonctionnalité n’est disponible que pour les e-mails, les SMS et les notifications push.
+
 ## Créer le message transactionnel{#create-enrichment}
 
 Tout d’abord, vous devez créer un message transactionnel.
@@ -39,7 +39,7 @@ Tout d’abord, vous devez créer un message transactionnel.
 
    ![](assets/transactional-browse.png){zoomable="yes"}
 
-1. Choisissez un modèle et définissez les propriétés. Pour en savoir plus à ce sujet, consultez cette [page](create-transactional.md#transactional-message).
+1. Choisissez un modèle et définissez les propriétés. Pour plus d’informations à ce sujet, consultez cette [page](create-transactional.md#transactional-message).
 
 ## Définir le type d’événement{#event-enrichment}
 
@@ -89,7 +89,7 @@ Vous devez ensuite définir l’événement en tant qu’événement basé sur d
 
 Vous devez ensuite définir le contenu du message transactionnel.
 
-1. Dans la section **Contenu**, cliquez sur le bouton **Modifier le contenu** et définissez le contenu de votre message. Consultez cette [page](create-transactional.md#transactional-content).
+1. Dans la section **Contenu**, cliquez sur le bouton **Modifier le contenu** et définissez le contenu de votre message. Voir cette [page](create-transactional.md#transactional-content).
 
    ![](assets/template-content.png){zoomable="yes"}
 
@@ -102,7 +102,7 @@ Vous devez ensuite définir le contenu du message transactionnel.
 
 Pour finir, vous devez valider et envoyer la diffusion.
 
-1. Validez la diffusion en simulant le contenu et en envoyant des BAT. Consultez cette [page](validate-transactional.md).
+1. Validez la diffusion en simulant le contenu et en envoyant des BAT. Voir cette [page](validate-transactional.md).
 
 1. Cliquez sur le bouton **[!UICONTROL Vérifier et publier]** pour créer et publier le message. Les déclencheurs peuvent désormais exécuter l’envoi de votre message transactionnel.
 

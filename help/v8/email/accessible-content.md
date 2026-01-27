@@ -1,16 +1,16 @@
 ---
 title: Concevoir du contenu accessible
-description: Découvrez comment concevoir du contenu accessible pour vos e-mails et vos pages de destination dans Adobe Campaign.
+description: Découvrez comment concevoir du contenu accessible pour vos e-mails et vos landing pages dans Adobe Campaign.
 feature: Email Design, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: ht
-source-wordcount: '1623'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '1643'
+ht-degree: 98%
 
 ---
 
@@ -24,8 +24,7 @@ Le [Concepteur d’e-mail](create-email-content.md) [!DNL Adobe Campaign], qui p
 
 En conséquence, les bonnes pratiques pour concevoir un contenu accessible avec [!DNL Adobe Campaign] sont répertoriées ci-dessous.
 
-Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos pages de destination conçus avec [!DNL Adobe Campaign].
-
+Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos landing pages conçus avec [!DNL Adobe Campaign].
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
@@ -123,6 +122,8 @@ Pour vérifier l’accessibilité de votre contenu, vous pouvez utiliser les fon
 * Prévisualisez votre contenu à l’aide de profils de test. [Voici comment procéder](../preview-test/preview-content.md)
 
 * Utilisez l’option [Rendu des e-mails](../preview-test/email-rendering.md) qui utilise Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir si le texte, les couleurs et les images rendent votre contenu accessible. <!--Litmus includes accessibility testing-->
+
+* Validez la qualité de votre contenu pour évaluer la lisibilité, qui est un composant essentiel de l’accessibilité. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
 
 * Envoyez des BAT pour tester le rendu de votre contenu avant de l’envoyer à votre audience réelle. [Voici comment procéder](../preview-test/test-deliveries.md)
 

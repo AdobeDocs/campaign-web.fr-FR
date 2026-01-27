@@ -3,10 +3,10 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
@@ -106,4 +106,6 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
 1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
 
-1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)
+1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. Vous pouvez également valider la qualité de votre contenu pour évaluer la lisibilité, l’efficacité de CTA et la qualité globale. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
+
+1. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)

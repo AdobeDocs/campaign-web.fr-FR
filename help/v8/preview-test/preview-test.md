@@ -3,10 +3,10 @@ audience: end-user
 title: À propos de la prévisualisation et du test des diffusions
 description: Découvrez comment prévisualiser et tester des diffusions.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils e
 * [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
 * [Envoyer des BAT](test-deliveries.md) à des personnes destinataires ou à des personnes abonnées spécifiques à des fins de test et de validation
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
+* [Validez la qualité de votre contenu](../content/brands-score.md#validate-quality) pour évaluer la lisibilité, l’efficacité de CTA, la qualité de l’objet, etc
 * [Prévisualiser et tester vos landing pages](../landing-pages/create-lp.md#test-landing-page)
 
 Effectuez ces actions à l’aide du bouton **[!UICONTROL Simuler le contenu]**, accessible à partir de l’écran Modifier le contenu de la diffusion ou du [concepteur d’e-mail](../email/get-started-email-designer.md).
