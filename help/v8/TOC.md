@@ -92,7 +92,7 @@ ht-degree: 98%
    + Alertes de diffusion {#delivery-alerting}
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
-      + [Critères des alertes de diffusion       ](msg/delivery-alerting-criteria.md)
+      + [Critères des alertes de diffusion       &#x200B;](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
    + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
@@ -283,7 +283,7 @@ ht-degree: 98%
    + [Gérer les mappings de ciblage](administration/target-mappings.md)
    + [Utiliser les schémas](administration/schemas.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
    + [Gestion du fuseau horaire](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)

@@ -92,7 +92,7 @@ Les réviseurs et réviseuses désignés peuvent approuver ou rejeter les envois
 
 1. Vous pouvez éventuellement ajouter un **[!UICONTROL Commentaire]** pour expliquer votre décision.
 
-   ![ Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire ](assets/approvals4.png){zoomable="yes"}
+   ![&#x200B; Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire &#x200B;](assets/approvals4.png){zoomable="yes"}
 
 1. Confirmez votre décision. Le statut de validation est immédiatement mis à jour dans le tableau de bord de la diffusion. Consultez cette [section](#rack-approvals).
 

@@ -61,7 +61,7 @@ Outre l’alignement de la marque, vous pouvez évaluer la qualité générale d
 
 Pour évaluer la qualité de votre contenu :
 
-1. Créez votre [ diffusion e-mail ](../email/create-email.md).
+1. Créez votre [&#x200B; diffusion e-mail &#x200B;](../email/create-email.md).
 
 1. Ouvrez le menu **[!UICONTROL Alignement des marques]** dans le Designer Email.
 
