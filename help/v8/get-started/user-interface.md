@@ -140,7 +140,7 @@ Dans la section **Gestion des clientes et clients**, vous pouvez afficher vos pr
 >id="acw_offers_list"
 >title="Offres"
 >abstract="Parcourez les listes d’offres et de modèles d’offres qui ont été créées dans la console à l’aide du module **Interaction**. Ces listes sont en lecture seule."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="Ajouter des offres à une diffusion"
+>additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/start/offers" text="Ajouter des offres à une diffusion"
 
 Dans la section **Gestion des décisions**, vous pouvez visualiser les offres et les modèles d’offres. Ces listes sont en lecture seule.
 
