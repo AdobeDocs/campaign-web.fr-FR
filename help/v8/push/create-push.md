@@ -16,7 +16,7 @@ ht-degree: 93%
 >id="acw_push_notification_template"
 >title="Modèle de notification push"
 >abstract="Sélectionnez un modèle de notification push pour démarrer votre diffusion par notification push. Les modèles de diffusion vous permettent de réutiliser facilement du contenu et des paramètres personnalisés dans vos campagnes et diffusions."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Utiliser des modèles de diffusion"
+>additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/start/delivery-template" text="Utiliser des modèles de diffusion"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
