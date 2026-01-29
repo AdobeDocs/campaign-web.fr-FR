@@ -2,7 +2,7 @@
 audience: end-user
 title: Configurer une diffusion multilingue
 description: Découvrez comment configurer une diffusion multilingue.
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 926ebfbe775a7af809fa80175c6baed15fd761f5
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 39%
