@@ -3,10 +3,10 @@ audience: end-user
 title: Créer une diffusion par notification push
 description: Découvrez comment créer une diffusion de notification push avec Adobe Campaign Web.
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 4e5840f8566fb511ef2d862833a09b581f0250c2
+source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 93%
+source-wordcount: '755'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 93%
 >id="acw_push_notification_template"
 >title="Modèle de notification push"
 >abstract="Sélectionnez un modèle de notification push pour démarrer votre diffusion par notification push. Les modèles de diffusion vous permettent de réutiliser facilement du contenu et des paramètres personnalisés dans vos campagnes et diffusions."
->additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/start/delivery-template" text="Utiliser des modèles de diffusion"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
