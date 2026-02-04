@@ -32,7 +32,7 @@ Pour améliorer l’efficacité du marketing et maintenir la cohérence de la ma
 
 >[!INFO]
 >
->Pour en savoir plus, consultez cette [vue d’ensemble](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} et une [démonstration](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#demo){target="_blank"} d’[!DNL Adobe GenStudio for Performance Marketing].
+>Pour en savoir plus, consultez cette [vue d’ensemble](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} et une [démonstration](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#demo){target="_blank"} d’[!DNL Adobe GenStudio for Performance Marketing].
 
 ## Utiliser les fonctionnalités de GenStudio dans Adobe Campaign {#use-genstudio}
 
