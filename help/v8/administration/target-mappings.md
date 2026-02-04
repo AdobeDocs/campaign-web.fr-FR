@@ -60,7 +60,7 @@ Pour créer un mapping de ciblage, accédez au menu **[!UICONTROL Administration
 
 1. Développez la section **[!UICONTROL Options supplémentaires]** pour configurer les paramètres avancés, tels que le nom interne du mapping de ciblage, son dossier de stockage et sa description.
 
-1. Sélectionnez la population cible. Vous pouvez, au choix, effectuer ce qui suit :
+1. Sélectionnez la population cible. Vous pouvez, au choix :
 
    * **[!UICONTROL Utiliser directement la dimension de ciblage]** : sélectionnez la dimension à cibler directement dans la liste des dimensions disponibles.
    * **[!UICONTROL Utiliser les données liées]** : démarrez d’une dimension de ciblage (par exemple, les abonnements), puis passez à la dimension de ciblage que vous souhaitez cibler (par exemple, les destinataires).

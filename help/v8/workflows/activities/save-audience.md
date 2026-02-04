@@ -4,13 +4,13 @@ title: Utiliser l’activité de workflow Enregistrer l’audience
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 
 ---
 
-# Enregistrer l’audience {#save-audience}
+# Sauvegarde d&#39;audience {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
@@ -48,7 +48,7 @@ Pour configurer l’activité **Enregistrer l’audience**, procédez comme suit
 
 1. Cochez l’option **Générer une transition sortante** si vous souhaitez ajouter une transition après l’activité **Enregistrer l’audience**.
 
-Le contenu de l’audience enregistrée est ensuite disponible dans la vue détaillée de l’audience, accessible depuis le menu **Audiences**. Les colonnes disponibles dans cette vue correspondent aux colonnes de la transition entrante de l’activité **Enregistrer l’audience** du workflow.
+Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis le menu **Audiences**. Les colonnes disponibles dans cette vue correspondent aux colonnes de la transition entrante de l’activité **Enregistrer l’audience** du workflow.
 
 ## Exemple {#save-audience-example}
 

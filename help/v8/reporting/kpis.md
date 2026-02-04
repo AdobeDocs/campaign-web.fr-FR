@@ -3,7 +3,7 @@ title: Indicateurs clés de performance
 description: Découvrez comment comprendre les indicateurs clés de performance
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1191'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ L’indicateur **Abonnements** montre les KPI suivants, pour chaque canal :
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
->title="Désinscriptions"
+>title="Désabonnements"
 >abstract="Cette mesure indique, pour le canal sélectionné, le total des désinscriptions à un service, ainsi que le pourcentage de désinscriptions par rapport au nombre total de messages délivrés."
 
 Les personnes destinataires doivent pouvoir se désinscrire des e-mails et des SMS par le biais d’un lien de désinscription dédié dans le contenu de l’email, ou en répondant STOP à un SMS.
@@ -127,7 +127,7 @@ L’indicateur **Désinscriptions** montre les KPI suivants, pour chaque canal 
 >title="Erreurs"
 >abstract="Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds. Le taux associé est le ratio par rapport au nombre de messages à délivrer."
 
-Certains messages envoyés par votre plateforme Adobe Campaign peuvent ne pas arriver à destination. Cela peut se produire lorsque l’adresse de l’utilisateur ou de l’utilisatrice ou le numéro de téléphone contient des fautes de frappe, si la personne destinataire a modifié son adresse e-mail, ou si sa boîte de réception est pleine. Si un message ne peut pas être envoyé à un profil, le serveur distant envoie automatiquement un message d’erreur à Adobe Campaign. Cette erreur est qualifiée pour déterminer si l&#39;adresse e-mail, le numéro de téléphone ou l&#39;appareil doit être mis en quarantaine.
+Certains messages envoyés par votre plateforme Adobe Campaign peuvent ne pas arriver à destination. Cela peut se produire lorsque l’adresse de l’utilisateur ou de l’utilisatrice ou le numéro de téléphone contient des fautes de frappe, si la personne destinataire a modifié son adresse e-mail, ou si sa boîte de réception est pleine. Si un message ne peut pas être envoyé à un profil, le serveur distant envoie automatiquement un message d&#39;erreur à Adobe Campaign. Cette erreur est qualifiée pour déterminer si l&#39;adresse e-mail, le numéro de téléphone ou l&#39;appareil doit être mis en quarantaine.
 
 Vérifiez et mettez à jour régulièrement votre base de données et assurez-vous que tous les profils sont actifs et réels. Les erreurs de diffusion peuvent être temporaires ou permanentes (rebonds temporaires ou définitifs), selon la raison pour laquelle le message n’a pas été diffusé.
 

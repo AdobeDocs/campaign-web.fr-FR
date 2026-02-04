@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '950'
 ht-degree: 100%
 
@@ -75,8 +75,8 @@ Dans l’activité **Combiner**, configurez une **Union** en sélectionnant le *
 
 Dans l’activité **Combiner**, configurez une **Intersection** en procédant comme suit :
 
-1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les doublons sont traités. Pour plus d’informations, consultez la section [Union](#union).
-1. Cochez l&#39;option **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire contiend l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire est alors ajoutée à l’activité.
+1. Sélectionnez le **Type de réconciliation** pour définir la manière dont les doublons sont traités. Pour plus d&#39;informations, consultez la section [Union](#union).
+1. Cochez l’option **Générer le complémentaire** si vous souhaitez exploiter la population restante. Le complémentaire contiend l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire est alors ajoutée à l’activité.
 
 ## Exclusion {#combine-exclusion}
 
@@ -104,7 +104,7 @@ Dans l’activité **Combiner**, configurez une **Exclusion** en procédant comm
 
 1. Dans la section **Ensembles à joindre**, sélectionnez **Ensemble principal** parmi les transitions entrantes. C’est l’ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l’ensemble principal.
 1. Au besoin, manipulez les tables entrantes. Pour exclure une cible d’une autre dimension, replacez cette cible dans la même dimension de ciblage que la cible principale. Cliquez sur **Ajouter une règle** dans la section **Règles d’exclusion** et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure.
-1. Cochez l&#39;option **Générer le complémentaire** si vous souhaitez exploiter la population restante. Pour plus d’informations, consultez la section [Intersection](#intersection).
+1. Cochez l’option **Générer le complémentaire** si vous souhaitez exploiter la population restante. Pour plus d&#39;informations, consultez la section [Intersection](#intersection).
 
 ## Exemples {#combine-examples}
 

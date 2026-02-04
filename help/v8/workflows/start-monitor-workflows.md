@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Une fois que vous avez créé votre workflow et conçu les tâches à effectuer dans la zone de travail, vous pouvez lancer et contrôler son exécution.
 
-## Démarrer le workflow {#start}
+## Démarrez le workflow {#start}
 
 Pour démarrer le workflow, accédez au menu **[!UICONTROL Workflows]** ou à la campagne associée, puis cliquez sur le bouton **[!UICONTROL Démarrer]** dans le coin supérieur droit de la zone de travail.
 

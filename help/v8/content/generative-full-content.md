@@ -52,7 +52,7 @@ Une fois l’assistant IA ouvert, vous pouvez configurer les paramètres de gé
 
 1. **Pour les e-mails**, vous pouvez activer les options **[!UICONTROL Objet]** et **[!UICONTROL Pré-en-tête]** pour les inclure dans la génération des variantes.
 
-1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
+1. Adaptez votre prompt à l’aide de l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
    * **[!UICONTROL Langues]** : sélectionnez la langue du contenu généré.
@@ -94,7 +94,7 @@ Après avoir généré des variations de contenu, vous pouvez affiner les résul
 
    * **[!UICONTROL Reformuler]** : réécrivez le message tout en préservant sa signification. Cette option vous permet de générer une autre formulation, d’améliorer le flux ou d’ajuster les expressions sans modifier le message principal.
 
-   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, pour garantir clarté et accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, ce qui garantit clarté et accessibilité pour une audience plus large.
 
    * **[!UICONTROL Traduire]** : simplifiez votre texte pour garantir la clarté et l’accessibilité afin de toucher une audience plus large.
 

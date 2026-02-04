@@ -4,9 +4,9 @@ title: Utiliser l’activité de workflow Rendez-vous
 description: Découvrez comment utiliser l’activité de workflow Rendez-vous.
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
->title="Activité Rendez-vous"
+>title="Activité AND-join"
 >abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’un workflow. Elle est déclenchée une fois toutes les activités précédentes terminées. Cela permet de s’assurer que certaines activités sont terminées avant de continuer à exécuter le workflow."
 
 L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle synchronise plusieurs branches d’exécution d’un workflow.

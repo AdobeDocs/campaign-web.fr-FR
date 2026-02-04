@@ -4,7 +4,7 @@ title: Plans et programmes
 description: Découvrir comment créer et envoyer des plans et des programmes dans Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -17,8 +17,8 @@ Adobe Campaign permet de configurer la hiérarchie des dossiers des plans marke
 Pour mieux organiser ces composants, Adobe recommande la hiérarchie suivante : Plan `>` Programmes `>` Campagnes.
 
 * Un **plan** peut contenir plusieurs programmes. Il définit des objectifs stratégiques pour une période spécifique.
-* Un **programme** peut contenir d’autres programmes, des campagnes, des workflows et des pages de destination.
-* Une **campagne** peut contenir des diffusions, des workflows et des pages de destination.
+* Un **programme** peut contenir d’autres programmes, des campagnes, des workflows et des landing pages.
+* Une **campagne** peut contenir des diffusions, des workflows et des landing pages.
 
 ## Créer et configurer un plan {#create-plan}
 

@@ -4,7 +4,7 @@ title: Matrice des fonctionnalités de l’interface utilisateur web de Campaign
 description: Liste des fonctionnalités prises en charge dans l’interface utilisateur web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Avec l’interface d’utilisation de Campaign Web, vous pouvez créer des camp
 
 Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (console cliente) et découvrir comment utiliser ces fonctionnalités.
 
-* **Calendrier marketing**. Le calendrier des campagnes affiche l’ensemble des programmes, plans, campagnes et diffusions. Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#campaign-calendar){target="_blank"}
+* **Calendrier marketing**. La chronologie des campagnes affiche l’ensemble des programmes, plans, campagnes et diffusions. Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#campaign-calendar){target="_blank"}
 * **Programmes et plans**. Chaque campagne appartient à un programme qui appartient à son tour à un plan. Dans l’interface d’utilisation de Campaign Web, toutes les campagnes sont associées à un plan et à un programme intégrés par défaut. Vous pouvez uniquement créer et gérer des plans et des programmes dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#work-with-plan-and-program){target="_blank"}
 * **Gestion des fournisseurs, des budgets et des coûts** Vous pouvez configurer les prestataires de services impliqués dans les traitements réalisés dans vos opérations, y compris les structures de coûts, et gérer vos budgets au sein de chaque programme et campagne. Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=fr){target="_blank"}
 * **Marketing distribué** (marketing central/local) Adobe Campaign propose une application de marketing distribué pour la mise en œuvre de campagnes de coopération entre entités centrales (sièges sociaux, services marketing, etc.) et entités locales (magasins, agences régionales, etc.). Cette fonctionnalité est disponible uniquement dans la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}
@@ -45,14 +45,14 @@ Utilisez les liens fournis pour parcourir la documentation de Campaign v8 (cons
 * **Centre d’appel et canaux personnalisés**. Le centre d’appel et d’autres canaux personnalisés peuvent être implémentés dans votre environnement Campaign. Ces canaux ne peuvent être disponibles que dans la console cliente. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=fr#other-channels){target="_blank"}
 * **Marketing social** avec X (Twitter). Vous interagissez avec vos clientes et clients via X (Twitter) en publiant des messages et en envoyant des messages directs. Cette fonctionnalité, fournie avec le module complémentaire de marketing social, n’est disponible que depuis la console cliente. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=fr){target="_blank"}
 
-## Pages de destination et applications web {#Webapps-capabilities}
+## Landing pages et applications web {#Webapps-capabilities}
 
-Adobe Campaign vous permet de créer, concevoir et partager des pages de destination. L’expérience des pages de destination a été entièrement repensée dans la nouvelle interface. Découvrez comment créer, concevoir et publier une page de destination dans l’interface d’utilisation de Campaign Web [dans cette section](../landing-pages/get-started-lp.md).
+Adobe Campaign vous permet de créer, concevoir et partager des landing pages. L’expérience des landing pages a été entièrement repensée dans la nouvelle interface. Découvrez comment créer, concevoir et publier une page de destination dans l’interface d’utilisation de Campaign Web [dans cette section](../landing-pages/get-started-lp.md).
 
-Par conséquent, dans la console cliente Campaign, vous ne pouvez pas modifier, mettre à jour ni changer une page de destination créée dans l’interface web, et inversement. Les types d’applications web suivants ne sont pas disponibles dans l’interface d’utilisation de Campaign Web. Ils sont toutefois visibles dans la liste des pages de destination. Utilisez les liens fournis pour parcourir la documentation de Campaign Classic v7 et en savoir plus sur ces applications web :
+Par conséquent, dans la console cliente Campaign, vous ne pouvez pas modifier, mettre à jour ni changer une page de destination créée dans l’interface web, et inversement. Les types d’applications web suivants ne sont pas disponibles dans l’interface d’utilisation de Campaign Web. Ils sont toutefois visibles dans la liste des landing pages. Utilisez les liens fournis pour parcourir la documentation de Campaign Classic v7 et en savoir plus sur ces applications web :
 
 * **Applications web**. Adobe Campaign vous permet de créer et de publier des applications web dynamiques et interactives, composées de données issues de la base de données et dont le contenu est adapté en fonction des droits de la personne connectée. Cette fonctionnalité est disponible uniquement dans la console cliente. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7.](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=fr){target="_blank"}
-* **Formulaires web**. Les pages web et de destination conçues dans la console cliente sont visibles dans l’interface utilisateur web de Campaign, mais ne peuvent être ni éditées ni modifiées. Certaines options peuvent différer entre le concepteur de page web de la console cliente et le concepteur de page de destination fourni avec l’interface d’utilisation de Campaign Web. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7.](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=fr){target="_blank"}
+* **Formulaires web**. Les pages web et les landing pages conçues dans la console cliente sont visibles dans l’interface d’utilisation web de Campaign, mais ne peuvent être ni éditées ni modifiées. Certaines options peuvent différer entre le concepteur de page web de la console cliente et le concepteur de page de destination fourni avec l’interface d’utilisation de Campaign Web. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7.](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=fr){target="_blank"}
 * **Questionnaires en ligne**. Vous pouvez créer des questionnaires en ligne et collecter les réponses à partir de la console cliente uniquement. Cette fonctionnalité n’est pas disponible dans l’interface d’utilisation de Campaign Web. [Apprenez-en davantage en consultant la documentation de Campaign Classic v7.](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html?lang=fr){target="_blank"}
 
 ## Profils, profils de test et audiences {#profiles-audiences-capabilities}
@@ -72,7 +72,7 @@ Le traitement ponctuel d’import/export, tel que décrit dans la [documentation
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=fr){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -104,16 +104,16 @@ Vous pouvez sélectionner les règles de typologie pour une diffusion ou un mod�
 Sélectionnez les liens fournis pour parcourir la documentation de Campaign v8 (console cliente) et en savoir plus sur les règles de typologie :
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=fr){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
-* Création de règles de lassitude/pression [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}
+* Création de règles de lassitude/pression [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=fr){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=fr){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
 * Simulation de campagne [En savoir plus](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=fr){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## Workflows {#wf-capabilities}
@@ -136,7 +136,7 @@ Vous pouvez envoyer des offres dans vos diffusions créées dans l’interface u
 
 Découvrez comment gérer un catalogue d’offres dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 
-## Intégrations aux solutions Adobe Experience Cloud {#exc-capabilities}
+## Intégrations avec les solutions Adobe Experience Cloud {#exc-capabilities}
 
 La nouvelle interface d’utilisation moderne de Campaign simplifie la conception et la diffusion des campagnes marketing et offre une expérience cohérente avec d’autres solutions Adobe, notamment Adobe Experience Platform et Adobe Experience Manager.
 
@@ -147,7 +147,7 @@ Les intégrations suivantes sont disponibles dans la console cliente Adobe Camp
 * Intégration à Adobe Target [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-at.html?lang=fr){target="_blank"}
 * Intégration aux Triggers Adobe Experience Cloud [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html?lang=fr){target="_blank"}
 
-## Rapports {#reporting-capabilities}
+## Reporting {#reporting-capabilities}
 
 La nouvelle interface d’utilisation de Campaign Web comprend un ensemble de nouveaux rapports et KPI pour tous les canaux : rapports de diffusion, rapports de campagne et rapports globaux. En savoir plus dans [cette section](../reporting/gs-reports.md)
 
@@ -202,7 +202,7 @@ Les utilisateurs et utilisatrices de Campaign ne peuvent accéder à l’interfa
 
 Les autorisations sont définies dans Adobe Admin Console et la console cliente Adobe Campaign, comme décrit [dans cette section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr). Vous ne pouvez effectuer aucune action sur les autorisations à partir de l’interface d’utilisation d’Adobe Campaign Web.
 
-## Surveillance {#monitoring-capabilities}
+## Contrôle  {#monitoring-capabilities}
 
 Les fonctionnalités de surveillance de la plateforme Campaign ne sont disponibles que dans la console cliente et le panneau de contrôle de Campaign. Elles ne s’affichent pas dans l’interface d’utilisation de Campaign Web.
 

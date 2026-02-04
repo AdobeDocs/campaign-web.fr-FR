@@ -4,7 +4,7 @@ title: Prévisualiser et envoyer une diffusion par courrier
 description: Découvrir comment prévisualiser et envoyer une diffusion par courrier avec Adobe Campaign Web
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ La prévisualisation de votre fichier d’extraction comprend les étapes suivan
 
    ![Capture d’écran montrant la prévisualisation du fichier d’extraction dans le volet de droite](assets/dm-preview-right.png){zoomable="yes"}
 
-## Envoyer des BAT {#test-dm}
+## Envoi de BAT {#test-dm}
 
 À l’aide d’**Adobe Campaign**, envoyez des BAT avant de les diffuser à votre audience principale. Cette étape valide votre diffusion et identifie les problèmes éventuels. Les personnes destinataires du test vérifient alors divers éléments, tels que les paramètres de personnalisation, détectent les erreurs éventuelles et garantissent des performances optimales. Ce processus affine et optimise votre fichier d’extraction avant d’atteindre votre audience principale.
 

@@ -4,7 +4,7 @@ title: Surveiller les logs de diffusion
 description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -26,8 +26,8 @@ Les onglets suivants sont disponibles :
 * [Logs](#logs-tab)
 * [Diffusions](#deliveries-tab)
 * [Exclusions](#exclusion-tab)
-* [Causes d’exclusion](#exclusion-causes)
-* [URL trackées](#tracked-urls)
+* [Causes d&#39;exclusion](#exclusion-causes)
+* [Tracked URLs](#tracked-urls)
 * [Tracking](#tracking)
 
 ## Logs {#logs-tab}
@@ -54,13 +54,13 @@ L’onglet **Logs d’exclusion** répertorie tous les messages qui ont été ex
 
 ![Onglet Exclusions répertoriant les messages exclus et les raisons des échecs d’envoi.](assets/logs3.png){zoomable="yes"}
 
-## Causes d’exclusion {#exclusion-causes-tab}
+## Causes d&#39;exclusion {#exclusion-causes-tab}
 
 L’onglet **Causes des exclusions** affiche, pour chaque cause possible, le nombre de messages qui ont été exclus de la cible.
 
 ![Onglet Causes d’exclusion indiquant le nombre de messages exclus pour chaque cause.](assets/logs4.png){zoomable="yes"}
 
-## URL suivies {#tracked-urls-tab}
+## Tracked URLs {#tracked-urls-tab}
 
 L’onglet **URL trackées** regroupe les URL contenues dans les messages envoyés, y compris leur type et leur source.
 
@@ -68,7 +68,7 @@ L’onglet **URL trackées** regroupe les URL contenues dans les messages envoy
 
 ## Tracking {#tracking-tab}
 
-L’onglet **Tracking** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les données de tracking sur les messages envoyés, notamment toutes les URL qui ont fait l’objet d’un tracking par Adobe Campaign.
+L’onglet **Tracking** liste l’historique du tracking pour cette diffusion. Cet onglet affiche les données de tracking sur les messages envoyés, notamment toutes les URL qui ont fait l’objet d’un tracking par Adobe Campaign.
 
 ![Onglet Tracking affichant l’historique du tracking et les données des messages envoyés.](assets/logs6.png){zoomable="yes"}
 

@@ -1,15 +1,15 @@
 ---
-title: Questions fréquentes
+title: Forum aux questions
 description: Questions fréquentes sur l’interface d’utilisation de Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
 ht-degree: 100%
 
 ---
 
-# Questions fréquentes
+# Forum aux questions
 
 La section suivante répertorie les questions fréquentes sur la nouvelle interface de Campaign. Vous avez d’autres questions ? Voulez-vous partager votre expérience ou échanger des idées avec vos pairs ? Ou avez-vous à formuler des commentaires concernant le contenu de formation pour l&#39;équipe d&#39;Adobe ? Rejoignez la conversation dans la [communauté d’Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=fr){target="_blank"}.
 

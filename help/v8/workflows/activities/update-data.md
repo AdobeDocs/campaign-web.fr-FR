@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Mise à jour de données
 description: Découvrir comment utiliser l’activité de workflow Mise à jour de données
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Le champ **Type d&#39;opération** permet de choisir le traitement à réaliser 
 * **Mettre à jour** : mettez à jour les données des enregistrements déjà existants dans la base de données uniquement.
 * **Supprimer** : supprimez des données.
 
-Le champ **Taille des mises à jours** permet de sélectionner le nombre d&#39;éléments de la transition entrante qui seront mis à jour. Par exemple, si vous indiquez 500, les 500 premiers enregistrements traités seront mis à jour.
+Le champ **Taille de lot** permet de sélectionner le nombre d’éléments de la transition entrante qui seront mis à jour. Par exemple, si vous indiquez 500, les 500 premiers enregistrements traités seront mis à jour.
 
 ### Identification des enregistrements
 
@@ -57,13 +57,13 @@ Cette section vous permet de définir comment identifier les enregistrements dan
 
 Dans la section **Champs à mettre à jour**, ajoutez les champs sur lesquels la mise à jour sera appliquée. Si nécessaire, ajoutez des conditions afin que cette mise à jour soit effectuée. Utilisez le champ **Pris en compte si** pour définir des conditions. Les conditions sont appliquées les unes après les autres dans l’ordre de la liste. Utilisez les flèches situées à droite pour modifier l&#39;ordre des mises à jour. Vous pouvez utiliser plusieurs fois le même champ de destination.
 
-Associez automatiquement les champs à l’aide du bouton **Mapping automatique**. L’association automatique détecte les champs portant le même nom.
+Associez automatiquement les champs à l’aide du bouton **Mapping automatique**. L&#39;association automatique détecte les champs portant le même nom.
 
 Dans le cadre d’une opération de type **Insérer ou mettre à jour**, sélectionnez individuellement, pour chaque champ, l’opération à appliquer. Utilisez le champ **Type d’opération** pour spécifier la valeur souhaitée.
 
 ### Options avancées
 
-La section **Options avancées** vous permet de définir des paramètres supplémentaires pour la gestion des données et des doublons.
+La section **Options avancées** vous permet de définir des paramètres supplémentaires pour la mise à jour des données et la gestion des doublons.
 
 <!--
 * **Disable automatic key management**

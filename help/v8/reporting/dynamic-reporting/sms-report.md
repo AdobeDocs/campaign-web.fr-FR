@@ -4,7 +4,7 @@ description: Grâce au rapport d'usine SMS, découvrez les performances de vos d
 level: Intermediate
 audience: end-user
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
 ht-degree: 100%
 

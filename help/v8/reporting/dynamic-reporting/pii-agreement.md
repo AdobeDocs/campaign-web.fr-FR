@@ -5,13 +5,13 @@ level: Beginner
 audience: end-user
 exl-id: 9fcef466-f306-480e-b42e-d18daa8bcf06
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
 ---
 
-# Accord sur l’utilisation des rapports dynamiques {#pii-agreement}
+# Accord sur l&#39;utilisation des rapports dynamiques {#pii-agreement}
 
 L’accord sur l’utilisation des rapports dynamiques fonctionne comme un consentement pop-up pour le traitement des données. Par défaut, seuls les utilisateurs et utilisatrices auxquels sont affectés des droits d’administration peuvent afficher et accepter ou refuser cet accord.
 
@@ -19,13 +19,13 @@ Pour accéder à l’accord sur l’utilisation des rapports dynamiques, sélect
 
 ![](assets/pii-agreement.png)
 
-Trois options sont disponibles :
+Trois options sont disponibles :
 
 * **[!UICONTROL Me demander plus tard]** : tant que vous n’avez pas accepté ou refusé l’accord, les dimensions de profil ne s’affichent pas dans vos rapports et les PII de vos clientes et clients ne sont pas collectées ni envoyées.
 * **[!UICONTROL Accepter]** : lorsque vous acceptez les termes de cet accord, vous autorisez Adobe Campaign à collecter les PII de vos clients et à les transférer au centre de données ou de reporting.
 * **[!UICONTROL Refuser]** : lorsque vous refusez les termes de l&#39;accord, les dimensions de profil ne s&#39;affichent pas dans vos rapports et les PII de vos clients ne sont pas collectées ni envoyées. Notez que dans ce cas, externalID sera toujours collecté et utilisé pour identifier les utilisateurs finaux.
 
-Le tableau ci-dessous indique ce qui se passe après l&#39;acceptation de cet accord selon votre zone géographique.
+Le tableau ci-dessous indique ce qui se passe après l’acceptation de cet accord selon votre zone géographique.
 
 |  | Rapports dynamiques | Connecteur Microsoft Dynamics 365 |
 |---|---|---|

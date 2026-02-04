@@ -4,7 +4,7 @@ title: À propos de la quarantaine
 description: Comprendre la gestion des adresses en quarantaine
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Une adresse peut être mise en quarantaine pour de nombreuses raisons :
 * Pour les SMS, des numéros de téléphone erronés.
 * Pour les SMS, lorsque le profil répond à un SMS avec un mot-clé tel que « STOP ».
 * Pour les e-mails, lorsque votre message est signalé comme un spam. Le message est automatiquement redirigé vers une boîte e-mail technique gérée par Adobe. L’adresse e-mail de l’utilisateur ou de l’utilisatrice est alors automatiquement mise en quarantaine avec le statut Placé sur la liste bloquée.
-* Une adresse e-mail peut être mise en quarantaine, par exemple, lorsque la boîte de réception est pleine, si l’adresse n’existe pas ou si le serveur de messagerie n’est pas disponible.
+* Une adresse e-mail peut être mise en quarantaine, par exemple, lorsque la boîte de réception est pleine, si l&#39;adresse n&#39;existe pas ou si le serveur de messagerie n&#39;est pas disponible.
 
 En savoir plus sur les échecs de diffusions dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
 

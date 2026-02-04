@@ -4,7 +4,7 @@ title: À propos des workflows en lecture seule
 description: Découvrez pourquoi les workflows sont en mode lecture seule.
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Le workflow ne peut pas être supprimé.
 
 Selon le type de workflow, le mode lecture seule peut varier.
 
-### Les workflows de campagne {#readonly-campaign-wf}
+### Les workflows des opérations {#readonly-campaign-wf}
 
 Dans le cas d’un workflow de campagne en lecture seule, l’utilisateur ou l’utilisatrice ne peut pas accéder au bouton de surveillance.
 

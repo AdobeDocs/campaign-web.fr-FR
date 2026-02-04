@@ -4,7 +4,7 @@ title: Utiliser une activité de workflow de diffusion
 description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push, SMS, courrier).
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 >* [Créer une diffusion par notification push autonome](../../push/create-push.md)
 >* [Créer une diffusion par courrier autonome](../../direct-mail/create-direct-mail.md)
 
-## Conditions préalables {#channel-activity-prereq}
+## Conditions préalables requises {#channel-activity-prereq}
 
 Commencez à créer votre workflow avec les activités pertinentes :
 
@@ -40,7 +40,7 @@ Commencez à créer votre workflow avec les activités pertinentes :
 
      ![Capture d’écran montrant les critères de réconciliation d’un workflow](../assets/workflow-reconciliation-criteria.png)
 
-* Pour envoyer une diffusion récurrente, démarrez votre workflow avec une activité **Planificateur**. Utilisez une activité **Planificateur** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
+* Pour envoyer une diffusion récurrente, démarrez votre workflow avec une activité **Planificateur**. Utilisez une activité **Planificateur** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de la diffusion. Voir [cette section](scheduler.md).
 
 ## Configurer l’activité Canal {#create-a-delivery-in-a-workflow}
 

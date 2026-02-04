@@ -4,7 +4,7 @@ title: Créer une diffusion de centre d’appel
 description: Découvrir comment créer une diffusion de centre d’appel à l’aide d’Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Pour créer une diffusion de centre d’appel autonome, effectuez les étapes pr
 1. Modifier le contenu, [en savoir plus](#edit-content)
 1. Prévisualiser et envoyer la diffusion, [en savoir plus](#preview-send)
 
-## Créer la diffusion{#create-delivery}
+## Création de la diffusion{#create-delivery}
 
 Suivez ces étapes pour créer la diffusion et configurer ses propriétés :
 
@@ -41,9 +41,9 @@ Suivez ces étapes pour créer la diffusion et configurer ses propriétés :
 
 >[!NOTE]
 >
->Vous pouvez planifier l’envoi de votre diffusion à une date spécifique. Pour plus d’informations à ce sujet, consultez cette [section](../msg/gs-deliveries.md#gs-schedule).
+>Vous pouvez planifier l’envoi de votre diffusion à une date spécifique. Voir à ce propos cette [section](../msg/gs-deliveries.md#gs-schedule).
 
-## Définir l’audience{#select-audience}
+## Définition de l’audience{#select-audience}
 
 Vous devez maintenant définir l’audience qui sera ciblée pour le fichier d’extraction.
 
@@ -92,7 +92,7 @@ Modifions maintenant le contenu du fichier d’extraction qui sera généré par
 
 1. Répétez ces étapes pour ajouter autant de colonnes que nécessaire à votre fichier d’extraction.
 
-   Vous pouvez alors modifier les attributs, trier le fichier d’extraction ou changer les colonnes de place. Pour en savoir plus à ce sujet, consultez cette [page](../direct-mail/content-direct-mail.md#content).
+   Vous pouvez alors modifier les attributs, trier le fichier d’extraction ou changer les colonnes de place. Pour plus d’informations à ce sujet, consultez cette [page](../direct-mail/content-direct-mail.md#content).
 
    ![Capture d’écran affichant les options de configuration des attributs pour le fichier d’extraction.](assets/cc-content-attributes.png)
 

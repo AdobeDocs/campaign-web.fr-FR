@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# De Campaign Standard vers v8 {#ac-acs}
+# De Campaign Standard à v8 {#ac-acs}
 
 Bienvenue dans Adobe Campaign v8.
 
@@ -67,7 +67,7 @@ En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Adobe Cam
 
   ![](../../v8/push/assets/rich_push.png){zoomable="yes"}
 
-  Pour faciliter la création de ces notifications enrichies, Adobe Campaign v8 fournit divers modèles qui vous permettent de concevoir et de personnaliser le contenu de notifications complexes, comme des carrousels ou des minuteurs.
+  Pour faciliter la création de ces notifications enrichies, Adobe Campaign v8 fournit divers modèles qui vous permettent de concevoir et de personnaliser le contenu de notifications complexes, comme des carrousels ou des retardateurs.
 
   Vous pouvez personnaliser vos notifications en fonction du système de la cliente ou du client :
 
@@ -93,7 +93,7 @@ En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Adobe Cam
 
   Adobe Experience Manager as a Cloud Service offre une agilité cloud native, ce qui vous permet d’accélérer le temps d’évaluation et de vous adapter à l’évolution des besoins de l’entreprise. Cette intégration permet non seulement d’améliorer vos fonctionnalités de gestion de contenu, mais également de proposer à vos clientes et clients des expériences plus personnalisées et plus attrayantes sur tous les points de contact.
 
-* **Assistant IA**
+* **Assistant IA**
 
   L’assistant IA de Campaign rend la création et l’exécution de campagnes marketing sur plusieurs canaux (comme les e-mails, les SMS et les notifications push) intuitives, simples et sans accroc tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats.
 
@@ -128,13 +128,13 @@ Adobe Campaign v8 est disponible en tant que Managed Cloud Service, offrant 
 
 Pour que vous puissiez passer facilement à Campaign v8, les fonctionnalités clés de Campaign Standard ont été ajoutées à Campaign v8. Elles sont détaillées dans [cette documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"}.
 
-* **Rapports dynamiques** : les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Il offre la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=fr){target="_blank"}.
+* **Rapports dynamiques** : les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=fr){target="_blank"}.
 
 * **Branding centralisé** : chaque entreprise dispose de ses directives visuelles et techniques en ce qui concerne le branding. Avec Adobe Campaign, vous pouvez définir un ensemble de spécifications pour présenter à vos clientes et clients une marque cohérente, des logos aux aspects techniques, tels que l’identifiant expéditeur des e-mails, l’URL ou les domaines. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=fr)
 
 * **API REST** : en tant qu’utilisateur ou utilisatrice ayant migré à partir de Campaign Standard, vous pouvez utiliser les API REST pour créer des intégrations pour Adobe Campaign et pour créer votre propre réseau en connectant Adobe Campaign avec les technologies que vous utilisez. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.
 
-* **Pages de destination** : certaines améliorations ont été apportées aux pages de destination de Campaign v8 pour garantir la parité des fonctionnalités avec Campaign Standard. En savoir plus dans la section [notes de mise à jour](../../v8/rn/release-notes.md#new-24-4) et dans la [documentation](../../v8/landing-pages/get-started-lp.md) des pages de destination.
+* **Landing pages** : certaines améliorations ont été apportées aux landing pages de Campaign v8 pour garantir la parité des fonctionnalités avec Campaign Standard. En savoir plus dans la section [notes de mise à jour](../../v8/rn/release-notes.md#new-24-4) et dans la [documentation](../../v8/landing-pages/get-started-lp.md) des landing pages.
 
 * **Fragments visuels** : les fragments visuels sont des composants visuels réutilisables qui peuvent être référencés dans une ou plusieurs diffusions par e-mail ou dans des modèles de contenu. Lors de la modification d’un fragment, chaque contenu qui l’utilise est mis à jour. Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés destinés aux utilisateurs et utilisatrices marketing et permettant d’assembler rapidement les contenus de messages dans un processus de conception amélioré. [En savoir plus](../../v8//content/use-visual-fragments.md)
 
@@ -155,8 +155,8 @@ De plus, en tant que personne utilisant déjà Campaign, notez que certains conc
 
 * Les personnes destinataires sont désormais des **Profils**. [En savoir plus](../../v8/audience/gs-audiences-recipients.md).
 * Les adresses de contrôle sont désormais des **Profils de test**. [En savoir plus](../../v8/preview-test/test-deliveries.md).
-* L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer la préparation des messages, cliquez sur le bouton **Préparer**. [En savoir plus](../../v8/monitor/prepare-send.md)
-* L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu.** [En savoir plus](../../v8/preview-test/preview-test.md).
+* L’analyse de la diffusion s’appelle désormais **préparation de la diffusion**. Lorsque vous devez lancer la préparation des messages, cliquez sur le bouton **Préparer**. [En savoir plus](../../v8/monitor/prepare-send.md).
+* L’aperçu de l’e-mail est désormais disponible via le bouton **Simuler le contenu.** [En savoir plus](../../v8/preview-test/preview-test.md)
 * Les listes s’appellent désormais **Audiences**. [En savoir plus](../../v8/audience/gs-audiences-recipients.md).
 
 
@@ -228,4 +228,4 @@ Accédez au guide de référence approprié pour votre rôle afin de découvrir 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->

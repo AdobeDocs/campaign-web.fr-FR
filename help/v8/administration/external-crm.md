@@ -54,7 +54,7 @@ Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre co
 
    * **[!UICONTROL Clé privée (encodée en Base64)]** : indiquez la clé privée encodée au format Base64.
 
-     Pour cela, vous pouvez utiliser l’aide d’un encodeur Base64 ou vous servir de la ligne de commande `base64 -w0 private.key` sous Linux.
+     Pour cela, vous pouvez utiliser l&#39;aide d&#39;un encodeur Base64 ou utiliser la ligne de commande `base64 -w0 private.key` sous Linux.
 
    * **[!UICONTROL Identifiant de clé personnalisée]** : saisissez l’identifiant de clé personnalisée utilisé pour votre certificat.
 
