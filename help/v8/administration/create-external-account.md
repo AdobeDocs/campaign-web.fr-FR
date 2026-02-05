@@ -3,7 +3,7 @@ title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
 ht-degree: 100%
 
