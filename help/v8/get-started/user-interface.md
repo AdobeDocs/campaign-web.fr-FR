@@ -7,10 +7,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 99%
 
 ---
 
@@ -140,6 +140,7 @@ Dans la section **Gestion des clientes et clients**, vous pouvez afficher vos pr
 >id="acw_offers_list"
 >title="Offres"
 >abstract="Parcourez les listes d’offres et de modèles d’offres qui ont été créées dans la console à l’aide du module **Interaction**. Ces listes sont en lecture seule."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="Ajouter des offres à une diffusion"
 
 Dans la section **Gestion des décisions**, vous pouvez visualiser les offres et les modèles d’offres. Ces listes sont en lecture seule.
 

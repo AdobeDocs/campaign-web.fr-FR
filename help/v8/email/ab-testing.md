@@ -2,14 +2,20 @@
 audience: end-user
 title: Créer des expériences de contenu
 description: Découvrez comment créer des expériences de contenu dans Adobe Campaign Web
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 2%
+source-wordcount: '1154'
+ht-degree: 3%
 
 ---
 
 # Créer des expériences de contenu {#content-experiment}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Expériences de contenu - Tests A/B"
+>abstract="Vous pouvez désormais définir plusieurs variantes de diffusion pour tester celle qui fonctionne le mieux. Faites varier le contenu, l’objet ou l’expéditeur entre les éléments d’e-mail pour déterminer des résultats optimaux."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 ## À propos des expériences de contenu {#about-content-experiment}
 

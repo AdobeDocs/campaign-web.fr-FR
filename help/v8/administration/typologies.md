@@ -3,20 +3,14 @@ audience: end-user
 title: Utiliser les règles métier (typologies)
 description: Découvrez comment utiliser les typologies et les règles de typologie pour contrôler, filtrer et surveiller l’envoi des diffusions.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
-workflow-type: ht
-source-wordcount: '1506'
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+workflow-type: tm+mt
+source-wordcount: '1475'
 ht-degree: 100%
 
 ---
 
 # Utiliser les règles métier (typologies) {#typologies}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Règles métier"
->abstract="Vous pouvez désormais créer des typologies et des règles de typologie dans l’interface d’utilisation web d’Adobe Campaign. Les typologies permettent de contrôler, de filtrer et de hiérarchiser l’envoi des diffusions."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"

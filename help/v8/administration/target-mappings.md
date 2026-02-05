@@ -2,20 +2,14 @@
 title: Gérer les mappings de ciblage
 description: Découvrez comment gérer les mappings de ciblage.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
-workflow-type: ht
-source-wordcount: '806'
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+workflow-type: tm+mt
+source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
 # Gérer les mappings de ciblage {#target-mappings}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Mappings de ciblage"
->abstract="Vous pouvez désormais créer des mappings de ciblage dans l’interface d’utilisation web de Campaign. Les mappings de ciblage définissent la manière dont différents canaux de diffusion (e-mails, SMS, notifications push) sont liés aux champs de données d’un schéma."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"

@@ -3,14 +3,20 @@ audience: end-user
 title: Configuration et gestion du processus de validation
 description: Découvrez comment gérer les validations des campagnes marketing dans Campaign Web.
 feature: Approvals, Campaigns
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 4%
+source-wordcount: '723'
+ht-degree: 5%
 
 ---
 
 # Gérer le processus de validation {#campaign-approvals}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn6"
+>title="Gestion de la validation des campagnes"
+>abstract="Vous pouvez désormais coordonner la validation des parties prenantes avant d’envoyer des diffusions. Nécessite les approbations des responsables marketing, des analystes de données ou d’autres équipes pour le contrôle qualité."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!IMPORTANT]
 >
@@ -92,7 +98,7 @@ Les réviseurs et réviseuses désignés peuvent approuver ou rejeter les envois
 
 1. Vous pouvez éventuellement ajouter un **[!UICONTROL Commentaire]** pour expliquer votre décision.
 
-   ![&#x200B; Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire &#x200B;](assets/approvals4.png){zoomable="yes"}
+   ![ Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire ](assets/approvals4.png){zoomable="yes"}
 
 1. Confirmez votre décision. Le statut de validation est immédiatement mis à jour dans le tableau de bord de la diffusion. Consultez cette [section](#rack-approvals).
 
