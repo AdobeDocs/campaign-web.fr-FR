@@ -2,7 +2,8 @@
 audience: end-user
 title: Configurer une diffusion multilingue
 description: Découvrez comment configurer une diffusion multilingue.
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: eea0e997-4da2-4998-b010-234626b21353
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 39%
@@ -256,4 +257,3 @@ Au cours de la diffusion, Campaign remplace ces espaces réservés par les donn�
 | Incompatibilité de casse du nom de colonne | Les noms des colonnes ne correspondent pas exactement. | Les noms des colonnes sont sensibles à la casse. Utilisez les noms exacts indiqués ci-dessus (par exemple, `badge`, et non `Badge` ou `BADGE`). |
 
 >Les bonnes pratiques sont répertoriées dans cette [section](#csv-best-practices). La structure des colonnes est présentée dans cette [section](#csv-columns).
-

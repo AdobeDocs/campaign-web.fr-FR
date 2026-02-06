@@ -6,13 +6,13 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 3%
 
 ---
-
 
 # Créer des e-mails multilingues avec Adobe Experience Manager {#aem-multilingual}
 
@@ -29,7 +29,7 @@ L’intégration de Adobe Experience Manager vous permet de créer des diffusion
 Avant de créer une diffusion e-mail multilingue, vérifiez que vous disposez des éléments suivants :
 
 * Accès à une instance Adobe Experience Manager configurée pour l&#39;intégration de l&#39;interface Web d&#39;Adobe Campaign.
-* Un contenu Adobe Experience Manager avec des copies de langue a déjà été créé et approuvé. En savoir plus sur l&#39;Assistant Copie de la langue dans la documentation de [Adobe Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Un contenu Adobe Experience Manager avec des copies de langue a déjà été créé et approuvé. En savoir plus sur l&#39;Assistant Copie de la langue dans la documentation de [Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Modèle de diffusion d’e-mail configuré pour recevoir du contenu Adobe Experience Manager. Reportez-vous aux étapes détaillées dans la section [Activation du mode multilingue](#enable-multilingual).
 
 ## Création de votre diffusion multilingue
@@ -116,5 +116,3 @@ Après avoir créé des variantes de contenu, vous pouvez les gérer directement
    >[!CAUTION]
    >
    >Après la dissociation, vous ne pouvez pas actualiser le contenu de Adobe Experience Manager ni créer de variantes. Le contenu devient indépendant de Adobe Experience Manager.
-
-

@@ -3,7 +3,8 @@ audience: end-user
 title: Configuration et gestion du processus de validation
 description: Découvrez comment gérer les validations des campagnes marketing dans Campaign Web.
 feature: Approvals, Campaigns
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 5%
@@ -98,7 +99,7 @@ Les réviseurs et réviseuses désignés peuvent approuver ou rejeter les envois
 
 1. Vous pouvez éventuellement ajouter un **[!UICONTROL Commentaire]** pour expliquer votre décision.
 
-   ![&#x200B; Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire &#x200B;](assets/approvals4.png){zoomable="yes"}
+   ![ Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire ](assets/approvals4.png){zoomable="yes"}
 
 1. Confirmez votre décision. Le statut de validation est immédiatement mis à jour dans le tableau de bord de la diffusion. Consultez cette [section](#rack-approvals).
 
