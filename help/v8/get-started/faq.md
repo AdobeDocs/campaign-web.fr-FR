@@ -2,10 +2,10 @@
 title: Forum aux questions
 description: Questions fréquentes sur l’interface d’utilisation de Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Pour accéder à la nouvelle interface d’utilisation, vous devez utiliser Adob
 
 +++ Cela signifie-t-il qu’Adobe Campaign Classic v7 ne va plus être pris en charge ?
 
-Adobe Campaign Classic v7 sera pris en charge jusqu’au 31 mars 2027. Consultez la page [Produits et périodes d’assistance technique](https://helpx.adobe.com/fr/support/programs/eol-matrix.html){target="_blank"}.
+Consultez la page [ Produits et périodes d’assistance technique ](https://helpx.adobe.com/fr/support/programs/eol-matrix.html){target="_blank"} pour connaître les dates de fin de prise en charge de Adobe Campaign Classic v7.
 
 +++
 
