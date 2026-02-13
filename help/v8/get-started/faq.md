@@ -59,7 +59,7 @@ Pour accéder à la nouvelle interface d’utilisation, vous devez utiliser Adob
 
 +++ Cela signifie-t-il qu’Adobe Campaign Classic v7 ne va plus être pris en charge ?
 
-Consultez la page [ Produits et périodes d’assistance technique ](https://helpx.adobe.com/fr/support/programs/eol-matrix.html){target="_blank"} pour connaître les dates de fin de prise en charge de Adobe Campaign Classic v7.
+Consultez la page [&#x200B; Produits et périodes d’assistance technique &#x200B;](https://helpx.adobe.com/fr/support/programs/eol-matrix.html){target="_blank"} pour connaître les dates de fin de prise en charge de Adobe Campaign Classic v7.
 
 +++
 
