@@ -4,7 +4,7 @@ description: Ce tutoriel offre une vue d’ensemble des principales fonctionnali
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
+source-git-commit: be4876090ecaac853aaa88948505c444bef27ec2
 workflow-type: tm+mt
 source-wordcount: '2777'
 ht-degree: 100%
@@ -47,7 +47,7 @@ La console cliente Campaign est une application native qui communique avec le se
 
 La vidéo suivante explique comment télécharger et installer la console cliente Adobe Campaign et gérer votre connexion à votre instance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449883?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
 Pour plus d’informations, consulez [Se connecter à Campaign avec la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
@@ -57,7 +57,7 @@ Notez que la console cliente doit être installée dans un environnement pris en
 
 Découvrez l’interface d’utilisation d’Adobe Campaign v8 et comment naviguer parmi les principales fonctionnalités avec ce tutoriel vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426437?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
 Consultez [Utiliser la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} pour plus de détails.
 
@@ -69,7 +69,7 @@ Les bonnes pratiques de sécurité sont profondément ancrées dans nos processu
 
 ### Droits d’accès et autorisations {#acs-gs-admin-rights}
 
-Adobe Campaign vous permet de définir et gérer les droits attribués aux utilisateurs et utilisatrices. Ces autorisations sont définies en combinant les autorisations des groupes d’opérateurs et d’opératrices, les droits nommés et les autorisations sur les dossiers.
+Adobe Campaign vous permet de définir et gérer les droits attribués aux utilisateurs. Ces autorisations sont définies en combinant les autorisations des groupes d’opérateurs, les droits nommés et les autorisations sur les dossiers.
 
 En tant qu’utilisateur ou utilisatrice de Campaign Standard passant à Campaign v8, vos autorisations et droits d’accès restent les mêmes. Adobe a déplacé les groupes de sécurité vers les groupes d’opérateurs et d’opératrices de Campaign v8, et vos autorisations par entité organisationnelle ont été transférées vers les autorisations de dossier. Utilisateurs et utilisatrices de Campaign - Utilisez votre Adobe ID pour vous connecter à Campaign v8, puis utilisez les mêmes identifiant et mot de passe que dans Campaign Standard.
 
@@ -120,7 +120,7 @@ Plusieurs options sont disponibles pour personnaliser l’interface d’utilisat
 
 * **Gestion des dossiers** : dans Adobe Campaign, les dossiers sont des objets qui vous permettent d’organiser vos composants et vos données. Ils sont également utilisés pour gérer les autorisations. Découvrez comment [utiliser les dossiers](../../v8/get-started/work-with-folders.md).
 
-* **Champs personnalisés** : les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Ces champs personnalisés sont affichés sur divers écrans, par exemple dans les détails d’un profil ou d’un profil de test. En savoir plus dans la [documentation sur la configuration des champs personnalisés](../../v8/administration/custom-fields.md).
+* **Champs personnalisés** : les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Ces champs personnalisés sont affichés sur divers écrans, par exemple dans les détails d’un profil ou d’un profil de test. En savoir plus dans la [documentation sur la configuration des champs personnalisés](../../v8/administration/schemas-custom-fields.md).
 
 ## Configurer l’image de marque {#acs-gs-admin-branding}
 
@@ -132,7 +132,7 @@ En savoir plus dans la [documentation sur l’image de marque](https://experienc
 
 Comme Campaign Standard, Adobe Campaign v8 est fourni avec son modèle de données prédéfini. Adobe Campaign repose sur une base de données cloud contenant des tables liées entre elles. En savoir plus dans la [documentation sur le modèle de données](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
 
-Un schéma est un document XML associé à une table de la base de données, il définit la structure des données et décrit la définition SQL de la table. Voir la [documentation sur la création de schémas](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
+Un schéma est un document XML associé à une table de la base de données, il définit la structuration des données et décrit la définition SQL de la table. Voir la [documentation sur la création de schémas](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
 Découvrez comment créer un schéma et étendre un schéma existant dans Campaign v8 dans cette vidéo :
 
@@ -156,7 +156,7 @@ Voir les liens vers d’autres ressources utiles ci-dessous :
 
 * Découvrez ce que sont les dimensions de ciblage et les tables de travail, ainsi que la manière dont Adobe Campaign gère les données provenant de différentes sources de données dans cette vidéo :
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452593?captions=fre_fr&quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
 * Campaign vous aide à ajouter des contacts à la base de données cloud. Vous pouvez charger un fichier, planifier et automatiser plusieurs mises à jour des contacts, collecter des données sur le web ou saisir des informations de profil directement dans le tableau des destinataires.  En savoir plus dans la [documentation sur l’import de données (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
@@ -195,9 +195,9 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You can design your landing page content, and save it for future reuse. See the [landing page template documentation](../../v8/landing-pages/lp-templates.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
 ## Confidentialité et consentement
@@ -212,9 +212,9 @@ N’oubliez pas que votre environnement Campaign Standard reste actif pendant u
 
 Comme dans Campaign Standard, en tant qu’administrateur ou administratrice, vous pouvez créer des services d’abonnement et les spécialistes du marketing peuvent envoyer des messages à leurs personnes abonnées. Les concepts clés et les étapes d’implémentation sont alignés avec Campaign Standard. Vous trouverez ci-dessous des liens utiles et une vidéo.
 
-Découvrez comment configurer et gérer les abonnements et cibler les personnes abonnées.
+Découvrez comment configurer et gérer les abonnements et cibler les abonnés.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426557?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * Voir les services d’abonnement dans la [documentation sur l’interface d’utilisation web](../../v8/audience/manage-subscribers.md).
 
@@ -272,7 +272,7 @@ Utilisez Campaign pour créer du contenu dynamique et envoyer des messages perso
 
 Avec Campaign v8, en tant qu’administrateur ou administratrice, vous pouvez définir des blocs de contenu dynamique et les utiliser pour personnaliser le contenu de votre diffusion par e-mail comme expliqué dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3449008?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 Liens utiles :
 

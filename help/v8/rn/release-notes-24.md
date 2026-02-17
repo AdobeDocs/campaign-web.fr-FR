@@ -2,8 +2,8 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de l’interface d’utilisation de Campaign Web 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <tr>
 <td>
 <p>Vous pouvez désormais configurer et gérer des comptes externes directement via l’interface d’utilisation d’Adobe Campaign Web. Cette nouvelle fonctionnalité facilite la configuration de différents types de comptes externes, tels que les e-mails rejetés (POP3) ou les instances d’exécution.</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -49,7 +49,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <tr>
 <td>
 <p>Les messages transactionnels (Message Center) sont désormais disponibles dans l’interface d’utilisation de Campaign Web. Ce module complémentaire est conçu pour les messages de déclenchement qui sont générés à partir d’événements déclenchés depuis des systèmes d’information et qui peuvent correspondre aux éléments suivants : facture, confirmation de commande, confirmation d’expédition, changement de mot de passe, notification d’indisponibilité d’un produit, relevé de compte, création d’un compte sur un site web, etc.</p>
-<p>Pour plus d’informations, consultez la <a href="../transactional-messaging/transactional.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../transactional-messaging/transactional.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -87,7 +87,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <td>
 <p>Après avoir conçu et personnalisé votre message, améliorez-le avec l’assistant IA dans Adobe Campaign Web. Cet outil puissant vous permet d’optimiser l’impact de votre contenu en générant un éventail de textes attirants, de grands titres et d’images visuellement attrayantes.</p>
 <p>Plongez dans une expérience pratique avec la <a href="https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator">prévisualisation de notre fonctionnalité en direct</a>, conçue pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.</a></p>
-<p>Pour plus d’informations, consultez la <a href="../content/generative-gs.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../content/generative-gs.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>Date de disponibilité : 12 septembre</p>
 </td>
@@ -113,16 +113,16 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 >
 >Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"}.
 
-* **Branding du publipostage direct** : les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux pages de destination ainsi que les paramètres du tracking des messages. Vous pouvez à présent créer ces marques et les associer à des messages ou à des pages de destination. Cette configuration est gérée dans des modèles. [En savoir plus](../administration/branding/branding-assign.md)
+* **Branding du publipostage direct** : les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux landing pages ainsi que les paramètres de suivi des messages. Vous pouvez à présent créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles. [En savoir plus](../administration/branding/branding-assign.md)
 
 * **Abonnements avec les pages de destination** : vous pouvez désormais lier une page de destination à un service, et envoyer un message de confirmation lorsque des utilisateurs ou utilisatrices la valident. [En savoir plus](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 
 * **Fragments visuels** : vous pouvez désormais archiver des fragments de contenu visuel. [En savoir plus](../content/create-fragment.md#archive)
 
-* **Captcha dans les pages de destination** : vous pouvez désormais ajouter un captcha pour protéger votre page de destination contre le spam et les abus causés par les robots. Cette action n’implique pas vos clients, car elle ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. [En savoir plus](../landing-pages/create-lp.md#captcha)
+* **Captcha dans les pages de destination** : vous pouvez désormais ajouter un captcha pour protéger votre page de destination contre le spam et les abus causés par les robots. Il ne présente pas d’intrusion par rapport à vos clients, car il ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. [En savoir plus](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Notes de mise à jour de juillet {#24-7-release}
@@ -201,7 +201,7 @@ La nouvelle fonctionnalité **Journal d’audit** fournit un enregistrement dét
 
 ### Champs personnalisés {#24-5-2}
 
-Les **Champs personnalisés** sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Dans l’interface d’utilisation de Campaign Web, ces champs personnalisés sont désormais visibles sur divers écrans, tels que les détails d’un profil ou d’un profil de test. Dans l’interface d’utilisation web, vous ne pouvez pas créer de champs personnalisés, mais vous pouvez désormais modifier leur mode d’affichage. [En savoir plus](../administration/custom-fields.md)
+Les **Champs personnalisés** sont des attributs supplémentaires ajoutés aux schémas intégrés via la console Adobe Campaign. Dans l’interface d’utilisation de Campaign Web, ces champs personnalisés sont désormais visibles sur divers écrans, tels que les détails d’un profil ou d’un profil de test. Dans l’interface d’utilisation web, vous ne pouvez pas créer de champs personnalisés, mais vous pouvez désormais modifier leur mode d’affichage. [En savoir plus](../administration/schemas-custom-fields.md)
 
 ### Créer de liens entre les tables {#24-5-3}
 
@@ -233,7 +233,7 @@ Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et ut
 * **Test** : utilisez cette activité pour activer les transitions en fonction de conditions spécifiées. [En savoir plus](../workflows/activities/test.md)
 * **Code JavaScript** : utilisez cette activité pour exécuter un fragment de code JavaScript dans le contexte d’un workflow. [En savoir plus](../workflows/activities/javascript-code.md)
 * **Signal externe** : utilisez cette activité pour déclencher l’exécution d’un workflow à partir d’un autre workflow ou d’un appel API. [En savoir plus](../workflows/activities/external-signal.md)
-* **Requête incrémentale** : utilisez cette activité pour interroger la base de données à des moments planifiés. À chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments. [En savoir plus](../workflows/activities/incremental-query.md)
+* **Requête incrémentale** : utilisez cette activité pour interroger la base de données à des moments planifiés. A chaque nouvelle exécution de cette activité, les résultats des exécutions précédentes sont exclus. Cela vous permet de ne cibler que les nouveaux éléments. [En savoir plus](../workflows/activities/incremental-query.md)
 
 **Modèles de notification push enrichies**
 
@@ -250,19 +250,19 @@ Notez que cette fonctionnalité est en **Disponibilité limitée**.
 >
 >Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr).
 
-* **Branding** : en tant qu’utilisateur ou utilisatrice ayant migré à partir de Campaign Standard, vos administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux pages de destination ainsi que les paramètres du tracking des messages. Vous pouvez créer ces marques et les associer à des messages ou à des pages de destination. Cette configuration est gérée dans des modèles. [En savoir plus](../administration/branding/branding-gs.md)
+* **Branding** : en tant qu’utilisateur ou utilisatrice ayant effectué la migration depuis Campaign Standard, votre administration technique peut désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent leur identité. Par exemple : le logo de la marque, le domaine d’URL d’accès aux landing pages ainsi que les paramètres de suivi des messages. Vous pouvez créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles. [En savoir plus](../administration/branding/branding-gs.md)
 
 * **API REST** : en tant qu’utilisateur ou utilisatrice ayant effectué la migration depuis Campaign Standard, vous pouvez utiliser les API REST pour créer des intégrations pour Adobe Campaign et créer votre propre réseau en interfaçant Adobe Campaign avec le panneau de technologies que vous utilisez. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr)
 
 * **Rapports dynamiques** : en tant qu’utilisateur ou utilisatrice ayant effectué la migration depuis Campaign Standard, vous pouvez accéder aux rapports dynamiques qui fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. [En savoir plus](../reporting/dynamic-reporting/get-started-reporting.md)
 
-* **Pages de destination** : les améliorations suivantes apportées aux pages de destination ne sont disponibles que pour les utilisateurs et utilisatrices effectuant la migration depuis Campaign Standard :
+* **Landing pages** : les améliorations suivantes apportées aux landing pages ne sont disponibles que pour les utilisateurs et utilisatrices effectuant la migration depuis Campaign Standard :
 
    * Vous pouvez désormais référencer une page de destination d’abonnement/de désinscription par défaut lors de la configuration d’un service. Lors de la conception d’un e-mail, si vous définissez un lien vers cette page de destination, les utilisateurs et utilisatrices qui envoient le formulaire de la page de destination sont automatiquement abonnés à ce service ou désinscrits de ce service. [En savoir plus](../audience/manage-services.md#create-service)
    * Une nouvelle option de configuration de page de destination permet aux visiteurs et visiteuses anonymes d’accéder à la page de destination. Si vous désélectionnez cette option, seuls les utilisateurs et les utilisatrices identifiés peuvent accéder au formulaire et l’envoyer. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
    * Une nouvelle option de configuration de page de destination permet de stocker des données internes supplémentaires lors de l’envoi de la page de destination. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
    * Une nouvelle option permet d’utiliser une page de destination pour plusieurs services, ce qui la rend dynamique. Lors de l’ajout d’un lien vers un e-mail, si vous sélectionnez une page de destination dynamique, vous pouvez sélectionner n’importe quel service. Si vous sélectionnez une page de destination associée à un service spécifique, ce service sera automatiquement utilisé (vous ne pouvez pas en sélectionner un autre). [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * Le contenu conditionnel est désormais pris en charge dans les pages de destination. [En savoir plus](../landing-pages/lp-content.md)
+   * Le contenu conditionnel est désormais pris en charge dans les landing pages. [En savoir plus](../landing-pages/lp-content.md)
 
 ### Améliorations générales {#improvements-24-4}
 

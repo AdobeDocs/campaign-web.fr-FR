@@ -2,7 +2,7 @@
 title: Explorer les détails des profils
 description: Découvrez comment explorer les détails d’un profil.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Les informations relatives au profil sont organisées comme suit :
 
   ![Copie d’écran montrant l’onglet Abonnements et répertoriant les services auxquels le profil est abonné.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* Vous pouvez afficher des onglets personnalisés, tels que les achats, en définissant des liens de collection dans la définition d’écran du schéma Destinataires. [En savoir plus sur les liens de collection](../administration/schemas.md#collection-lists)
+* Vous pouvez afficher des onglets personnalisés, tels que les achats, en définissant des liens de collection dans la définition d’écran du schéma Destinataires. [En savoir plus sur les liens de collection](../administration/schemas-collection-lists.md)
 
   ![Copie d’écran montrant l’onglet personnalisé](assets/schemas-collection4.png){zoomable="yes"}
 

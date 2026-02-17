@@ -1,8 +1,10 @@
 ---
 title: Champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
+hide: true
+hidefromtoc: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 99%
@@ -45,7 +47,7 @@ ht-degree: 99%
 
 Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas prêts à l’emploi via la console Adobe Campaign. Ils vous permettent de personnaliser les schémas en incluant de nouveaux attributs en fonction des besoins de votre entreprise. Découvrez comment étendre un schéma dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=fr){target="_blank"}.
 
-Les champs personnalisés peuvent être affichés sur différents écrans, comme les détails de profil dans l’interface web de Campaign. Les administrateurs et les administratrices peuvent contrôler quels champs sont visibles et la manière dont ils apparaissent. Ces modifications s’appliquent à tous les utilisateurs et utilisatrices de Campaign.
+Les champs personnalisés peuvent être affichés sur différents écrans, comme les détails de profil dans l’interface web de Campaign. Les administrateurs et les administratrices peuvent contrôler quels champs sont visibles et la manière dont ils apparaissent. Ces modifications s&#39;appliquent à tous les utilisateurs de Campaign.
 
 >[!NOTE]
 >
