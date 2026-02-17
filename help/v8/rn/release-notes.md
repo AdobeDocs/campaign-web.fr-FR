@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 42%
+source-wordcount: '274'
+ht-degree: 46%
 
 ---
 
@@ -66,7 +66,7 @@ _17 février 2026_
 <tr>
 <td>
 <p>L’inventaire des campagnes comprend désormais une vue Chronologie qui vous permet de visualiser et de gérer les campagnes au fil du temps : basculer entre la liste et la chronologie, naviguer par semaine, mois ou jour, utiliser le bouton Aujourd’hui pour accéder à la date actuelle et ouvrir les détails de la campagne (statut, workflows, diffusions) dans un panneau de droite, avec les mêmes filtres et recherches que la vue Liste.</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>Pour plus d'informations, consultez la <a href="../campaigns/manage-campaigns.md#timeline">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -82,16 +82,16 @@ _17 février 2026_
 <tr>
 <td>
 <p>Vous pouvez désormais créer et gérer des schémas directement à partir de l’interface utilisateur web de Campaign. Cette fonctionnalité vous permet de créer des tables, d’étendre les schémas existants et de créer des formulaires personnalisés. Vous pouvez définir des structures de données personnalisées pour répondre aux besoins spécifiques de votre entreprise sans avoir à accéder à la console cliente.</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>Pour plus d'informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Améliorations {#26-2-improvements}
+### Amélioration {#26-2-improvements}
 
 * Les directives de marque incluent désormais une section Couleurs qui définit les normes du système de couleurs de votre marque, assurant ainsi une utilisation cohérente des couleurs primaires, secondaires, d’accentuation et neutres dans toutes les expériences.
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [En savoir plus](../content/brands-personalize.md)
 
 
 
