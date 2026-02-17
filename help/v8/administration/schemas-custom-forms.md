@@ -30,7 +30,7 @@ Voici le modèle de données utilisé pour cet exemple :
 
 Pour ce cas d’utilisation, trois schémas sont créés : les schémas Achats, Produits et Marque . Voici un exemple :
 
-![ Formulaires personnalisés ](assets/schemas-forms.png)
+![&#x200B; Formulaires personnalisés &#x200B;](assets/schemas-forms.png)
 
 ## Configurer la définition d’écran {#form-screen-schema}
 
@@ -38,7 +38,7 @@ Définissez les champs à afficher et leur organisation. Pour obtenir des instru
 
 Voici un exemple pour le schéma Marque dans lequel la liste personnalisée Produits est ajoutée. Le formulaire affiche alors la liste des produits associés à la marque.
 
-![ Formulaires personnalisés ](assets/schemas-forms2.png)
+![&#x200B; Formulaires personnalisés &#x200B;](assets/schemas-forms2.png)
 
 Pour le schéma Produits , nous ajoutons la liste personnalisée Achats . Ainsi que pour le schéma Achats , les champs Produit et Destinataire .
 
@@ -46,10 +46,10 @@ Pour le schéma Produits , nous ajoutons la liste personnalisée Achats . Ainsi 
 
 Créez des dossiers dans l’Explorateur pour accéder à votre formulaire personnalisé. Pour obtenir des instructions détaillées, consultez cette [section](schemas-create-publish.md#navigation).
 
-![ Formulaires personnalisés ](assets/schemas-forms3.png)
+![&#x200B; Formulaires personnalisés &#x200B;](assets/schemas-forms3.png)
 
 La vue Liste affiche tous les enregistrements de ce schéma. Si le schéma comporte une définition de formulaire configurée, la liste est modifiable et vous pouvez créer, modifier et supprimer des enregistrements.
-![ Formulaires personnalisés ](assets/schemas-forms4.png)
+![&#x200B; Formulaires personnalisés &#x200B;](assets/schemas-forms4.png)
 
 Vous pouvez alors :
 

@@ -38,7 +38,7 @@ Une fois les champs personnalisés ajoutés, vous pouvez les prévisualiser, les
 
 Pour configurer des paramètres spécifiques à chaque champ personnalisé, cliquez sur l’icône représentant des points de suspension sur une ligne de champ de la liste et sélectionnez **[!UICONTROL Modifier]**.
 
-![ Boîte de dialogue Paramètres des attributs ](assets/schemas-attribute-settings.png)
+![&#x200B; Boîte de dialogue Paramètres des attributs &#x200B;](assets/schemas-attribute-settings.png)
 
 Les paramètres disponibles sont les suivants :
 
