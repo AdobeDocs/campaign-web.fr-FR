@@ -5,9 +5,9 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
+source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '975'
 ht-degree: 98%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 98%
    + [Version anticipée](rn/e-release-notes.md)
    + [Dernière version](rn/release-notes.md)
    + Versions précédentes {#previous-release-notes}
+      + [Versions 2026](rn/release-notes-26.md)
       + [Versions 2025](rn/release-notes-25.md)
       + [Versions 2024](rn/release-notes-24.md)
    + [Mises à jour de la documentation](rn/documentation-updates.md)
@@ -92,7 +93,7 @@ ht-degree: 98%
    + Alertes de diffusion {#delivery-alerting}
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
-      + [Critères des alertes de diffusion       &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Critères des alertes de diffusion       ](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
    + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
@@ -283,7 +284,7 @@ ht-degree: 98%
    + [Gérer les mappings de ciblage](administration/target-mappings.md)
    + [Utiliser les schémas](administration/schemas.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + [Gestion du fuseau horaire](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)
