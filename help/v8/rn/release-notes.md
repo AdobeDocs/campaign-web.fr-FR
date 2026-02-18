@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
+source-git-commit: 06208ed2cbb08d9cebfceff3ebbc661c0b9682ee
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 
@@ -88,10 +88,11 @@ _17 février 2026_
 </tbody>
 </table>
 
+<!-->
 ### Amélioration {#26-2-improvements}
 
 * Les directives de marque incluent désormais une section Couleurs qui définit les normes du système de couleurs de votre marque, assurant ainsi une utilisation cohérente des couleurs primaires, secondaires, d’accentuation et neutres dans toutes les expériences.
-  [En savoir plus](../content/brands-personalize.md)
+  [En savoir plus](../content/brands-personalize.md)—>
 
 
 
