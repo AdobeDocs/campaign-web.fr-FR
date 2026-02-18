@@ -5,8 +5,8 @@ description: Découvrez comment utiliser l’activité de workflow Partage.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1065'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 L’activité **Partage** est une activité de **ciblage** qui segmente les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population.
 
-## Configurer l’activité Partage {#split-configuration}
+## Configurer l&#39;activité Partage {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
@@ -102,7 +102,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
    >
    >L’option **[!UICONTROL Générer tous les sous-ensembles dans le même tableau]** vous permet de regrouper tous les sous-ensembles dans une seule transition sortante.
 
-1. L&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations qui appartiennent à plusieurs sous-ensembles :
+1. L’option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations qui appartiennent à plusieurs sous-ensembles :
 
    * Lorsque la case est décochée, l’activité de partage garantit qu’une personne destinataire ne sera pas présente dans plusieurs transitions en sortie, même si elle vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
    * Lorsque la case est cochée, les personnes destinataires peuvent apparaître dans plusieurs sous-ensembles si elles sont associées aux bons critères de filtrage. Adobe Campaign vous recommande d’utiliser des critères exclusifs.

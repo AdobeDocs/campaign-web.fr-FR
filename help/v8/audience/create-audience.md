@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Créer des audiences
+title: Création d’audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Créer des audiences {#create-audiences}
+# Création d’audiences {#create-audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -31,7 +31,7 @@ Une fois que vous créez votre workflow, les audiences résultantes sont automat
 
 Les colonnes **[!UICONTROL Origine]** indiquent l’origine des audiences : les audiences **[!UICONTROL Adobe Campaign]** ont été créées dans la console Adobe Campaign v8 ou l’interface d’utilisation web, tandis que les audiences **[!UICONTROL Adobe Experience Platform]** sont créées dans Adobe Experience Platform et intégrées à Campaign à l’aide de l’intégration des sources et destinations d’Adobe.
 
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Autorisations des groupes d’opérateurs et d’opératrices personnalisés
 
@@ -108,4 +108,4 @@ Si vous préférez ne pas remplacer les résultats de l’audience existante, co
 
 Découvrez comment créer et gérer des audiences, comment sélectionner des audiences pour une diffusion et définir des populations témoins.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453204?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

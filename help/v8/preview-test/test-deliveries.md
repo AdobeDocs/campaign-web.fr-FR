@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Envoyer des BAT
+title: Envoi de BAT
 description: Découvrir comment définir et envoyer des BAT
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Envoyer des BAT {#send-test-deliveries}
+# Envoi de BAT {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"

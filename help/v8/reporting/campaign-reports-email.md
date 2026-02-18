@@ -223,7 +223,7 @@ Le tableau **[!UICONTROL Taux d’ouverture et de clic publicitaire]** affiche d
 
 * **[!UICONTROL Clics uniques]** : nombre et poucentage de personnes destinataires ciblées distinctes ayant cliqué au moins une fois dans une même diffusion.
 
-* **[!UICONTROL Réactivité brute]** : pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.
+* **[!UICONTROL Réactivité brute]** : pourcentage du nombre de personnes destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de personnes destinataires ayant ouvert au moins une fois une même diffusion.
 
 +++
 
