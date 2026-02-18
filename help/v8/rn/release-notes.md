@@ -89,6 +89,7 @@ _17 février 2026_
 </table>
 
 <!-->
+
 ### Amélioration {#26-2-improvements}
 
 * Les directives de marque incluent désormais une section Couleurs qui définit les normes du système de couleurs de votre marque, assurant ainsi une utilisation cohérente des couleurs primaires, secondaires, d’accentuation et neutres dans toutes les expériences.

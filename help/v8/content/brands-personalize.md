@@ -251,6 +251,7 @@ Pour personnaliser votre **[!UICONTROL contenu visuel]**, procédez comme suit 
 Vous pouvez désormais personnaliser davantage votre marque ou [publier votre marque](#create-brand-kit).
 
 <!-->
+
 ## Couleurs {#colors}
 
 La section **[!UICONTROL Couleurs]** décrit les normes du système de couleurs de votre marque et décrit comment les couleurs sont sélectionnées, organisées et appliquées dans les expériences. Il garantit une utilisation cohérente des couleurs primaires, secondaires, d’accentuation et neutres afin de conserver une identité de marque cohérente, accessible et reconnaissable.
