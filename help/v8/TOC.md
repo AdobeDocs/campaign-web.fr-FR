@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 98%
+source-wordcount: '998'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 98%
    + Alertes de diffusion {#delivery-alerting}
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
-      + [Critères des alertes de diffusion       &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Critères des alertes de diffusion       ](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
    + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
@@ -282,9 +282,16 @@ ht-degree: 98%
       + [Attribuer une marque](administration/branding/branding-assign.md)
    + [Utiliser les règles métier (typologies)](administration/typologies.md)
    + [Gérer les mappings de ciblage](administration/target-mappings.md)
-   + [Utiliser les schémas](administration/schemas.md)
+   + Utiliser les schémas {#schemas}
+      + [À propos des schémas](administration/schemas.md)
+      + [Accès et configuration des schémas](administration/schemas-browse-access.md)
+      + [Configurer les colonnes de la liste](administration/schemas-list-columns.md)
+      + [Modifier des champs personnalisés](administration/schemas-custom-fields.md)
+      + [Ajouter des listes de collection](administration/schemas-collection-lists.md)
+      + [Création et publication de schémas](administration/schemas-create-publish.md)
+      + [Utilisation de formulaires personnalisés](administration/schemas-custom-forms.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + [Gestion du fuseau horaire](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)
