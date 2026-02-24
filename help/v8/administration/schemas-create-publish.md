@@ -1,9 +1,10 @@
 ---
 title: Création et publication de schémas
 description: Découvrez comment créer, étendre et publier des schémas.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -13,6 +14,10 @@ ht-degree: 0%
 ## Création et gestion de schémas {#create-schemas}
 
 Vous pouvez créer des schémas, étendre les schémas existants et accéder à des bases de données externes.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera déployée à l’échelle mondiale dans une prochaine version.
 
 ### Création ou extension d’un schéma {#create-new}
 
@@ -70,11 +75,11 @@ Pour publier vos modifications de schéma :
 1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Schémas]** pour accéder à la liste des schémas.
 1. Cliquez sur **[!UICONTROL Publication]** et confirmez.
 
-   ![&#x200B; Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish1.png)
+   ![ Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish1.png)
 
 1. Sélectionnez dans la liste le schéma à synchroniser.
 
-   ![&#x200B; Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish2.png)
+   ![ Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish2.png)
 
 1. Vérifiez le script SQL qui sera exécuté pour mettre à jour la structure de la base de données.
 1. Cliquez sur **[!UICONTROL Publier]** et confirmez pour poursuivre la publication.

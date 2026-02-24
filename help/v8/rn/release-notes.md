@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 51%
+source-wordcount: '267'
+ht-degree: 55%
 
 ---
 
@@ -75,13 +75,14 @@ _17 février 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Création de schémas</strong><br/></th> 
+<th><strong>Création de schémas (LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Vous pouvez désormais créer et gérer des schémas directement à partir de l’interface utilisateur web de Campaign. Cette fonctionnalité vous permet de créer des tables, d’étendre les schémas existants et de créer des formulaires personnalisés. Vous pouvez définir des structures de données personnalisées pour répondre aux besoins spécifiques de votre entreprise sans avoir à accéder à la console cliente.</p>
+<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version.</p>
 <p>Pour plus d'informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
 </td>
 </tr>
