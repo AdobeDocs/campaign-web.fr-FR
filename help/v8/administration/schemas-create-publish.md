@@ -75,11 +75,11 @@ Pour publier vos modifications de schéma :
 1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Schémas]** pour accéder à la liste des schémas.
 1. Cliquez sur **[!UICONTROL Publication]** et confirmez.
 
-   ![ Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish1.png)
+   ![&#x200B; Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish1.png)
 
 1. Sélectionnez dans la liste le schéma à synchroniser.
 
-   ![ Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish2.png)
+   ![&#x200B; Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish2.png)
 
 1. Vérifiez le script SQL qui sera exécuté pour mettre à jour la structure de la base de données.
 1. Cliquez sur **[!UICONTROL Publier]** et confirmez pour poursuivre la publication.
