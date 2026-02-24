@@ -4,10 +4,10 @@ description: Découvrez la fonctionnalité principale de Campaign v8. Il est de
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: a343e7c3387e185eec62b4e63ed93ae6fb9eeb80
 workflow-type: tm+mt
 source-wordcount: '2453'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ La principale différence réside dans l’interface d’utilisation. Voici une 
 
 Dans la vidéo ci-dessous, découvrez comment accéder à l’interface d’utilisation de Campaign Web et y naviguer, et comment personnaliser les listes de stock.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453424?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 Pour plus de détails, consultez la documentation ci-dessous :
 
@@ -54,11 +54,13 @@ Dans Adobe Campaign, un profil désigne un enregistrement stocké dans la base 
 
 1. Découvrez comment accéder aux profils, les gérer et les explorer à l’aide de l’interface d’utilisation de Campaign Web dans cette vidéo :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3448366?captions=fre_fr&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
 
    En savoir plus dans la documentation [Commencer avec les profils](../../v8/audience/about-recipients.md).
 
-1. Découvrez comment [créer et gérer des profils de test](../../v8/audience/test-profiles.md) dans Campaign v8.
+1. Découvrez comment créer et gérer des profils de test dans Campaign v8
+
+   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
 
 ### Gérer des audiences {#acs-gs-marketers-audiences}
 
@@ -66,7 +68,7 @@ Les audiences désignent un ensemble de profils qui partagent des comportements 
 
 Découvrez comment créer et gérer des audiences, comment sélectionner des audiences pour une diffusion et définir des populations témoins dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3453204?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
 Pour plus d’informations, voir [Commencer avec les audiences](../../v8/audience/manage-audience.md){target="_blank"}.
 
@@ -138,13 +140,13 @@ Pour en savoir plus sur les campagnes, consultez la documentation ci-dessous :
 1. [Créer votre première campagne](../../v8/campaigns/create-campaigns.md)
 
 
-### Créer un workflow {#acs-gs-marketers-wf}
+### Création dʼun workflow {#acs-gs-marketers-wf}
 
 L’interface d’utilisation du workflow a été entièrement repensée dans l’interface d’utilisation de Campaign Web afin de faciliter l’utilisation, la configuration, l’exécution et la résolution des problèmes. Comme vous le faisiez déjà dans Campaign Standard, grâce aux workflows, passez à la vitesse supérieure : orchestrez l’ensemble des processus et tâches, améliorez la vitesse et l’échelle de chaque composante de vos campagnes marketing, de la création de segments jusqu’à la préparation des messages et leur diffusion. Dans une interface unique et conviviale, vous pouvez coordonner vos canaux et orchestrer vos campagnes.
 
 Découvrez le fonctionnement des workflows et comment créer un workflow de ciblage dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3453972?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
 
 Obtenez plus de détails dans la [documentation sur le workflow](../../v8/workflows/gs-workflows.md).
 
@@ -200,7 +202,7 @@ Liens utiles :
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
 
 Découvrez comment créer votre premier e-mail ciblé dans la [documentation Créer votre premier e-mail](../../v8/email/create-email.md).
 
@@ -210,15 +212,15 @@ Dans Campaign v8, les étapes détaillées pour créer, tester et envoyer une d
 
    Le concepteur d’e-mail de Campaign v8 est similaire à celui disponible dans Campaign Standard. Pour rappel, l’[éditeur d’e-mail hérité de Campaign Standard a été abandonné](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} il y a quelques années. Vous devez déjà avoir effectué la transition vers le concepteur d’e-mail de Campaign pour créer et personnaliser le contenu de votre e-mail.
 
-   Découvrez comment naviguer dans le concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail et personnaliser et tester votre e-mail dans la vidéo suivante :
+   Découvrez comment naviguer dans le Concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail et personnaliser et tester votre e-mail dans la vidéo suivante :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3453566?captions=fre_fr&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
    Le concepteur d’e-mail permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuitive par glisser-déposer. En savoir plus dans la [documentation sur le concepteur d’e-mail](../../v8/email/get-started-email-designer.md)
 
    Découvrez comment créer un e-mail en chargeant un fichier HTML, le rendre compatible avec le concepteur d’e-mail et le convertir en modèle dans cette vidéo :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3447034?captions=fre_fr&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
    Un fragment de contenu est un composant réutilisable pouvant être référencé dans un ou plusieurs messages. En savoir plus sur les [fragments de contenu](../../v8/content/fragments.md) pour simplifier la création de votre diffusion par e-mail.
 
@@ -228,7 +230,7 @@ Dans Campaign v8, les étapes détaillées pour créer, tester et envoyer une d
 
    Découvrez comment prévisualiser le contenu et la personnalisation des e-mails, envoyer des diffusions de test (BAT), ou encore vérifier le rendu des e-mails dans les clients populaires de bureau, mobiles et web dans cette vidéo :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3450339?captions=fre_fr&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
 1. **Envoyer un e-mail et consulter les logs**
 
@@ -314,9 +316,11 @@ Dans Campaign v8, les étapes détaillées pour créer, tester et envoyer une d
 >* Notez que le SDK V4 pour les applications mobiles a été [abandonné dans Campaign Standard](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} il y a quelques années. Vous devez déjà avoir effectué la transition vers le SDK Adobe Experience Platform, qui est le même que celui utilisé dans Campaign v8.
 > 
 
-### Courrier {#acs-gs-marketers-direct-mail}
+### Canal Courrier {#acs-gs-marketers-direct-mail}
 
 Le canal Courrier est un canal hors ligne qui vous permet de produire des fichiers pour diffuser en masse des lettres personnalisées à votre clientèle, comme des cartes postales, des prospectus ou des catalogues. Lors de la création d’une diffusion par courrier, Adobe Campaign génère automatiquement un fichier d’extraction contenant tous les profils ciblés et les données sélectionnées, comme les adresses postales et les attributs de profil.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
 
 Dans Campaign v8, les étapes détaillées pour créer, tester et envoyer une diffusion par courrier sont similaires à Campaign Standard.
 
@@ -329,20 +333,20 @@ Dans Campaign v8, les étapes détaillées pour créer, tester et envoyer une d
 
 Notez que le canal in-app n’est pas disponible dans Campaign v8. Si vous devez envoyer des notifications in-app, contactez votre personne représentante Adobe.
 
-## Créer et gérer des pages de destination {#acs-gs-marketers-lp}
+## Créer et gérer des landing pages {#acs-gs-marketers-lp}
 
-L’interface d’utilisation web d’Adobe Campaign v8 est fournie avec une expérience client repensée pour les pages de destination. Campaign vous permet de créer, concevoir et partager des pages de destination. Les pages de destination vous permettent d’orienter vos utilisateurs et utilisatrices vers des formulaires en ligne sur lesquels ils peuvent mettre à jour leurs données, s’abonner à vos communications ou à un service spécifique tel qu’une newsletter, ou s’en désabonner.
+L’interface d’utilisation web d’Adobe Campaign v8 est fournie avec une expérience client repensée pour les landing pages. Campaign vous permet de créer, concevoir et partager des landing pages. Les landing pages vous permettent d’orienter vos utilisateurs et utilisatrices vers des formulaires en ligne où il leur est possible de mettre à jour leurs données, de s’abonner à vos communications ou à un service spécifique tel qu’une newsletter, ou de s’en désabonner.
 
-En tant qu’utilisateur ou utilisatrice de Campaign Standard passant à Campaign v8, vos pages de destination existantes ont été migrées vers l’interface d’utilisation de Campaign Web. Vous pouvez accéder à la même gamme de fonctionnalités.
+En tant qu’utilisateur ou utilisatrice de Campaign Standard passant à Campaign v8, vos landing pages existantes ont été migrées vers l’interface d’utilisation de Campaign Web. Vous pouvez accéder à la même gamme de fonctionnalités.
 
-En savoir plus sur les pages de destination dans les sections suivantes :
+En savoir plus sur les landing pages dans les sections suivantes :
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="Lead" src="assets/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/landing-pages/create-lp"><strong>Créer des pages de destination</strong>
+<div><a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/landing-pages/create-lp"><strong>Créer des landing pages</strong>
 </div>
 <p>
 </td>
@@ -351,7 +355,7 @@ En savoir plus sur les pages de destination dans les sections suivantes :
 <img alt="Validation" src="assets/lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/landing-pages/lp-content"><strong>Concevoir des pages de destination</strong></a>
+<a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/landing-pages/lp-content"><strong>Concevoir des landing pages</strong></a>
 </div>
 <p>
 </td>
@@ -367,13 +371,13 @@ En savoir plus sur les pages de destination dans les sections suivantes :
 </tr></table>
 
 
-## Rapports {#acs-gs-marketers-reporting}
+## Reporting {#acs-gs-marketers-reporting}
 
 Adobe Campaign fournit un ensemble d’[outils de reporting](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. En tant qu’administrateur ou administratrice, vous pouvez créer et configurer des rapports à partager avec d’autres utilisateurs et utilisatrices de Campaign.
 
 La suite complète d’outils de reporting d’Adobe Campaign fournit des informations précieuses sur l’efficacité de vos efforts marketing, ce qui vous permet d’optimiser vos campagnes pour un impact maximum. En savoir plus dans la [documentation sur le reporting](../../v8/reporting/gs-reports.md).
 
-En outre, comme avec l’expérience d’Adobe Campaign Standard, les rapports dynamiques sont à votre disposition dans Campaign v8 pour vos diffusions par e-mail. Il propose des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Il offre la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. En savoir plus dans la [documentation sur les rapports dynamiques](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+En outre, comme avec l’expérience d’Adobe Campaign Standard, les rapports dynamiques sont à votre disposition dans Campaign v8 pour vos diffusions par e-mail. Il propose des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. En savoir plus dans la [documentation sur les rapports dynamiques](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
 >[!AVAILABILITY]
 >
