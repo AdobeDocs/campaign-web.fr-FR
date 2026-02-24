@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser l’activité Transfert de fichier
 description: Découvrir comment utiliser l’activité de workflow Transfert de fichier
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 97%
@@ -155,6 +155,8 @@ Il est important de limiter la taille de ce dossier pour préserver l’espace p
    * **[!UICONTROL Suivre les redirections]** : la redirection de fichier permet d’utiliser des remplacements pour diriger les entrées ou les sorties de données vers un périphérique d’un différent type.
    * **[!UICONTROL Ajouter des en-têtes HTTP au fichier]** : dans certains cas, vous pouvez ajouter des en-têtes HTTP supplémentaires à un fichier. Le plus souvent, ces en-têtes sont utilisés pour fournir des informations supplémentaires à des fins de résolution de problèmes, pour le [partage de ressources entre origines multiples (CORS)](https://developer.mozilla.org/fr/docs/Web/HTTP/CORS) ou pour définir des directives de mise en cache spécifiques.
    * **[!UICONTROL Ignorer le code de retour HTTP]** : les codes de retour HTTP, également appelés codes d’état HTTP, indiquent le résultat d’une requête HTTP.
+
+   +++
 
 1. L’option **[!UICONTROL Traiter les erreurs]** permet d’activer une transition sortante « Erreur » après l’activité si une erreur se produit pendant le transfert.
 

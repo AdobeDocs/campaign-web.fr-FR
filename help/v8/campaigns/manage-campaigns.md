@@ -3,7 +3,7 @@ audience: end-user
 title: Commencer avec les campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 71%
@@ -29,7 +29,7 @@ Pour accéder à vos campagnes et les gérer, cliquez sur le menu **[!UICONTROL 
 
 L’onglet **[!UICONTROL Parcourir]** fournit des informations sur le statut actuel des campagnes, les dates de début et de fin, la date de création, la dernière fois qu’elles ont été modifiées, etc. Vous pouvez personnaliser les colonnes affichées en cliquant sur l’icône **Configurer la colonne pour une disposition personnalisée**, située dans le coin supérieur droit de la liste. Ceci vous permet d’ajouter ou de supprimer des colonnes et de réorganiser les informations dans la liste des campagnes.
 
-### Rechercher et filtrer l’inventaire {#search}
+### Rechercher et filtrer l’inventaire {#search-and-filter}
 
 Une barre de recherche et des filtres sont disponibles pour faciliter la recherche dans la liste. [En savoir plus](../get-started/user-interface.md#list-screens). Vous pouvez, par exemple, filtrer selon le planning de votre campagne. Ouvrez le panneau de filtrage et accédez à la section **Date de début et de fin** :
 
