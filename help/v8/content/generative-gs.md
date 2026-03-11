@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec l’assistant IA
 description: Commencer avec l’assistant IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 3d6943c5856a2631846f773b864f52bbedff6ce1
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 96%
 
 ---
 
@@ -33,6 +33,39 @@ ht-degree: 100%
 >Plongez dans une expérience pratique avec la [prévisualisation de notre fonctionnalité en direct](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator), conçue pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.
 
 À mesure que le secteur du marketing devient plus compétitif, les marques cherchent des moyens efficaces de générer rapidement du contenu percutant. L’Assistant IA dans Adobe Campaign Web, optimisé par Microsoft Azure OpenAI et Adobe Firefly, est la fonctionnalité de génération de contenu IA d’Adobe qui révolutionne la manière dont les spécialistes du marketing créent du contenu professionnel et cohérent pour les marques, sur des canaux tels que les e-mails, les SMS et les notifications push. Grâce à des modèles avancés de GenAI et à une compréhension approfondie des directives de la marque, l’Assistant IA génère automatiquement du contenu personnalisé, attrayant et efficace en fonction de l’objectif marketing, avec un contenu optimisé pour les styles, les mises en page et le ton de la marque, et bien plus encore.
+
+L’assistant d’IA prend en charge la génération **dans plusieurs langues** ce qui vous permet d’atteindre et d’impliquer diverses audiences internationales. L’assistant AI est disponible dans les langues suivantes :
+
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+  <tbody>
+    <tr style="border: 0;background-color: #FFFFFF;">
+      <td>
+        <ul>
+          <li>Chinois (Hong Kong)</li>
+          <li>Chinois (simplifié)</li>
+          <li>Chinois (Taïwan)</li>
+          <li>Néerlandais</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Français</li>
+          <li>Allemand</li>
+          <li>Italien</li>
+          <li>Japonais</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Norvégien</li>
+          <li>Portugais</li>
+          <li>Espagnol</li>
+          <li>Suédois</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 L’Assistant IA simplifie la création et l’exécution de campagnes marketing sur plusieurs canaux tels que les e-mails, les SMS et les notifications push, tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats.
 
