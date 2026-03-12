@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec l’assistant IA
 description: Commencer avec l’assistant IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 3d6943c5856a2631846f773b864f52bbedff6ce1
+source-git-commit: dbaf192b6d5200d8606859a1a09972df6bb3c26b
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 96%
+source-wordcount: '828'
+ht-degree: 83%
 
 ---
 
@@ -79,14 +79,19 @@ L’Assistant IA simplifie la création et l’exécution de campagnes marketin
 
 L’assistant IA pour les e-mails, les notifications push, les pages de destination et les SMS est désormais disponible en disponibilité générale (GA) pour l’ensemble des utilisateurs et des utilisatrices. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs et utilisatrices sont détaillées ci-dessous.
 
-+++ Découvrir comment attribuer des autorisations liées à la génération de contenu
++++ Découvrez comment attribuer des autorisations liées à la génération de contenu
 
-1. **Créer un profil de produit** - dans [Admin Console](https://stage.adminconsole.adobe.com/), créez un profil de produit avec le modèle spécifique suivant :
+1. **Accédez à [Admin Console](https://adminconsole.adobe.com/)**, accédez au menu **Produits**, puis sélectionnez **Adobe Campaign Managed Cloud**.
+
+1. Accédez à l’instance pour laquelle vous souhaitez accorder des autorisations, puis cliquez sur **Nouveau profil** pour créer un profil de produit avec le nom de profil de produit spécifique suivant :
+
    `Campaign - <instance-name> - AIAssistant`
 
-1. **Ajouter des utilisateurs et utilisatrices** - ajoutez la personne requise à ce profil de produit,\
-   ou\
-   **Créer un groupe d’utilisateurs et d’utilisatrices** - ajoutez ce groupe d’utilisateurs et d’utilisatrices au profil de produit et ajoutez des utilisateurs et utilisatrices à ce profil de produit.
+1. Configurez le profil de produit avec les autorisations requises pour l’accès à l’assistant AI.
+
+1. **Ajouter des utilisateurs ou des groupes d’utilisateurs**. Choisissez l’une des options suivantes :
+   * **Ajouter des utilisateurs individuels** : ajoutez directement les utilisateurs requis au profil de produit.
+   * **Ajouter des groupes d’utilisateurs** : créez un groupe d’utilisateurs, ajoutez des utilisateurs à ce groupe, puis ajoutez le groupe d’utilisateurs au profil de produit.
 
 Découvrez comment définir des autorisations dans Campaign dans [cette section](../get-started/permissions.md).
 
