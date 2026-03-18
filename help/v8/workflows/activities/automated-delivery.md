@@ -16,4 +16,4 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="Activité de diffusion automatisée"
->abstract="L&#39;activité **Diffusion automatisée** permet de créer, configurer et exécuter des actions de diffusion dans votre workflow. Vous pouvez créer une nouvelle diffusion depuis un modèle, sélectionner une diffusion explicite existante créée séparément ou utiliser une diffusion spécifiée dans la transition entrante. Configurez les destinataires et le contenu, puis choisissez l’action d’exécution.
+>abstract="L&#39;activité **Diffusion automatisée** permet de créer, configurer et exécuter des actions de diffusion dans votre workflow. Vous pouvez créer une nouvelle diffusion depuis un modèle, sélectionner une diffusion explicite existante créée séparément ou utiliser une diffusion spécifiée dans la transition entrante. Configurez les destinataires et le contenu, puis choisissez l’action d’exécution."
