@@ -6,7 +6,7 @@ exl-id: eea0e997-4da2-4998-b010-234626b21353
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Diffusions multilingues"
->abstract="Vous pouvez désormais envoyer des messages dans plusieurs langues dans l’interface utilisateur web de Campaign. Pour les notifications push, renseignez toutes les variantes de langue en chargeant un fichier CSV."
+>abstract="Vous pouvez désormais envoyer des messages dans plusieurs langues dans l’interface d’utilisation de Campaign Web. Pour les notifications push, renseignez toutes les variantes de langue en chargeant un fichier CSV."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]

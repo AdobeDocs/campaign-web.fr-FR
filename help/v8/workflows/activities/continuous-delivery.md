@@ -6,7 +6,7 @@ exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 6%
+ht-degree: 28%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Activité de diffusion au fil de l&#39;eau"
->abstract="Vous pouvez maintenant ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois, ce qui le rend plus efficace pour les alertes de faible volume ou les notifications envoyées selon les besoins."
+>title="Activité de diffusion continue"
+>abstract="Vous pouvez maintenant ajouter des destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois, ce qui le rend plus efficace pour les alertes ou notifications à faible volume envoyées selon les besoins."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
-L&#39;activité **Diffusion au fil de l&#39;eau** vous permet d&#39;ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois, ce qui le rend plus efficace pour les alertes de faible volume ou les notifications envoyées selon les besoins.
+L&#39;activité **Diffusion au fil de l&#39;eau** vous permet d&#39;ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois, ce qui le rend plus efficace pour les alertes ou notifications à faible volume envoyées selon les besoins.
 
 Une diffusion au fil de l’eau crée une instance de diffusion unique. Tous les logs de diffusion (broadLog) et les logs de tracking référencent cette diffusion, simplifiant la surveillance et le reporting.
 

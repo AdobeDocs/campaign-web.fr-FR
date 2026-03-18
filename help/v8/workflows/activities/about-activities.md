@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes ma
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
 >title="Signal externe"
->abstract="d’espace réservé pour la section signal externe dans les paramètres de l’activité Fin . Disponible uniquement pour les campagnes orchestrées. NE PAS DELETE"
+>abstract="Espace réservé pour la section de signal externe dans les paramètres d’activité de fin. Disponible uniquement pour les campagnes orchestrées. NE PAS SUPPRIMER"
 
 Les activités ci-après sont spécifiques à l’organisation et à l’exécution des workflows. Leur principale tâche est de coordonner les autres activités :
 

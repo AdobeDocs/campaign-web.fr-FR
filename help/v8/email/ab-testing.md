@@ -6,7 +6,7 @@ exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="Expériences de contenu - Tests A/B"
->abstract="Vous pouvez désormais définir plusieurs variantes de diffusion pour tester celle qui fonctionne le mieux. Faites varier le contenu, l’objet ou l’expéditeur entre les éléments d’e-mail pour déterminer des résultats optimaux."
+>title="Expériences de contenu - Tests AB"
+>abstract="Vous pouvez désormais définir plusieurs variantes de diffusion pour tester celle qui fonctionne le mieux. Faites varier le contenu, l’objet ou l’entité d’expédition entre les éléments d’e-mail pour déterminer des résultats optimaux."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 ## À propos des expériences de contenu {#about-content-experiment}

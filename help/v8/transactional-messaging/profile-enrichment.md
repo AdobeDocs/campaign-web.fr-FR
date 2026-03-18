@@ -6,7 +6,7 @@ exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Enrichissement du profil"
+>title="Enrichissement de profil"
 >abstract="Vous pouvez désormais personnaliser les messages transactionnels en liant les champs de la base de données Campaign au contenu. Sélectionnez les mappings de ciblage, les colonnes d’enrichissement et les clés de réconciliation pour une personnalisation en temps réel précise."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 

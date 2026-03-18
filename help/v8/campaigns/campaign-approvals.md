@@ -7,7 +7,7 @@ exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn6"
->title="Gestion de la validation des campagnes"
->abstract="Vous pouvez désormais coordonner la validation des parties prenantes avant d’envoyer des diffusions. Nécessite les approbations des responsables marketing, des analystes de données ou d’autres équipes pour le contrôle qualité."
+>title="Gestion de la validation de campagne"
+>abstract="Vous pouvez désormais coordonner la validation des parties prenantes avant d’envoyer des diffusions. Cela nécessite les approbations des personnes chargées de la gestion marketing, de l’analyse de données ou d’autres équipes pour le contrôle qualité."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!IMPORTANT]
@@ -99,7 +99,7 @@ Les réviseurs et réviseuses désignés peuvent approuver ou rejeter les envois
 
 1. Vous pouvez éventuellement ajouter un **[!UICONTROL Commentaire]** pour expliquer votre décision.
 
-   ![&#x200B; Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire &#x200B;](assets/approvals4.png){zoomable="yes"}
+   ![ Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire ](assets/approvals4.png){zoomable="yes"}
 
 1. Confirmez votre décision. Le statut de validation est immédiatement mis à jour dans le tableau de bord de la diffusion. Consultez cette [section](#rack-approvals).
 
