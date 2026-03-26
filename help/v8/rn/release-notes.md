@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
+source-git-commit: 304e3771ee55777d2eaf7a6c83ee4af3c97aa3b6
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 42%
+source-wordcount: '568'
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,42 @@ ht-degree: 42%
 
 Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont complétées plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
-## Mise à jour de mars 2026 {#26-3-release}
+## Version du 26 mars {#26-3-release}
+
+### Nouvelles fonctionnalités {#26-3-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Création de schémas (GA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La fonctionnalité de création de schémas est désormais disponible pour tous les clients (GA). Cette fonctionnalité vous permet de créer et de gérer des schémas directement à partir de l’interface utilisateur web de Campaign. Vous pouvez créer des tables, étendre des schémas existants et créer des formulaires personnalisés. Vous pouvez définir des structures de données personnalisées pour répondre aux besoins spécifiques de votre entreprise sans avoir à accéder à la console cliente.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Thèmes dans Email Designer (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les thèmes offrent une expérience de création d’emails améliorée en vous permettant de définir des styles de thème réutilisables qui correspondent aux directives de votre marque. Vous pouvez désormais utiliser des variables de thème dans des fragments, ce qui garantit une mise en forme cohérente dans vos modèles d’e-mail. Cette fonctionnalité vous permet de créer des e-mails plus rapidement avec des modules prédéfinis qui abstraient des éléments de contenu tels que des titres, des descriptions, des images et des liens, tout en préservant la cohérence de la marque.</p>
+<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version.</p>
+<p>Pour plus d'informations, consultez la <a href="../email/apply-email-themes.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -38,55 +73,18 @@ Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent 
 </tbody>
 </table>
 
-## Version du 26 février {#26-2-release}
-
-_17 février 2026_
-
-### Nouvelles fonctionnalités {#26-2-features}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Delivery scheduling compute process</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
-<th><strong>Vue Chronologie dans l’inventaire des campagnes</strong><br/></th> 
+<th><strong>Activité de diffusion automatisée</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’inventaire des campagnes comprend désormais une vue Chronologie qui vous permet de visualiser et de gérer les campagnes au fil du temps : basculer entre la liste et la chronologie, naviguer par semaine, mois ou jour, utiliser le bouton Aujourd’hui pour accéder à la date actuelle et ouvrir les détails de la campagne (statut, workflows, diffusions) dans un panneau de droite, avec les mêmes filtres et recherches que la vue Liste.</p>
-<p>Pour plus d'informations, consultez la <a href="../campaigns/manage-campaigns.md#timeline">documentation détaillée</a>.</p>
+<p>L’activité de workflow <strong>Diffusion automatisée</strong> est désormais disponible dans la palette du workflow. Vous pouvez l’utiliser pour créer ou exécuter des actions de diffusion (préparer, envoyer un BAT, préparer et démarrer, etc.) directement dans votre workflow. Sélectionnez une diffusion existante créée en dehors du workflow pour la réutiliser à chaque exécution ou créez une diffusion à partir d'un modèle chaque fois que l'activité s'exécute.</p>
+<p><img src="assets/do-not-localize/workflow-automated-delivery.gif"/></p>
+<p>Pour plus d’informations, consultez la documentation <a href="../workflows/activities/automated-delivery.md"> détaillée.</p>
 </td>
 </tr>
 </tbody>
@@ -95,26 +93,23 @@ _17 février 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Création de schémas (LA)</strong><br/></th> 
+<th><strong>Plusieurs branches de workflow et activité Jointure</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et gérer des schémas directement à partir de l’interface utilisateur web de Campaign. Cette fonctionnalité vous permet de créer des tables, d’étendre les schémas existants et de créer des formulaires personnalisés. Vous pouvez définir des structures de données personnalisées pour répondre aux besoins spécifiques de votre entreprise sans avoir à accéder à la console cliente.</p>
-<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version.</p>
-<p>Pour plus d'informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
+
+<p><strong>Plusieurs branches</strong> sont désormais prises en charge. Au lieu d’utiliser un <strong>Branchement</strong>, vous pouvez cliquer sur <strong>Ajouter une branche</strong> dans la barre d’outils. L’activité <strong>Rendez-vous</strong> a également été améliorée. Il s’agit désormais d’une activité générique <strong>Joindre</strong> qui vous permet de choisir entre les options de jointure ET et OU.</p>
+<p><img src="assets/do-not-localize/workflow-branches-join.gif"/></p>
+<p>Pour plus d’informations, consultez les pages de documentation <a href="../workflows/orchestrate-activities.md#toolbar">Orchestrer les activités</a> et <a href="../workflows/activities/join.md">Joindre</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+### Améliorations {#26-3-improvements}
 
-### Improvement {#26-2-improvements}
-
-* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)-->
-
-
-
+* L’activité de workflow **Démarrer** a été ajoutée pour améliorer la compatibilité avec la console cliente. Cette activité est facultative et n&#39;est pas insérée par défaut dans les nouveaux workflows. Toutefois, il est ajouté automatiquement aux workflows existants.
+  [En savoir plus](../workflows/activities/about-activities.md#flow-control)
+* Le champ de sélection du fuseau horaire dans les paramètres **Planning** d&#39;une diffusion a été déplacé sous le champ **Date de contact**. [En savoir plus](../msg/create-deliveries.md#gs-schedule)
