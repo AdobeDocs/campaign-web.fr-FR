@@ -1,16 +1,95 @@
 ---
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de 2026 de l’interface d’utilisation web de Campaign
-source-git-commit: abec861b2c542644b90d3385fb5cf1d785ae7b70
+exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 20%
+source-wordcount: '746'
+ht-degree: 22%
 
 ---
 
 # Notes de mise à jour 2026 {#2026-release}
 
 Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions de 2026**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
+
+## Version du 26 février {#26-2-release}
+
+_17 février 2026_
+
+### Nouvelles fonctionnalités {#26-2-features}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Delivery scheduling compute process</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Vue Chronologie dans l’inventaire des campagnes</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’inventaire des campagnes comprend désormais une vue Chronologie qui vous permet de visualiser et de gérer les campagnes au fil du temps : basculer entre la liste et la chronologie, naviguer par semaine, mois ou jour, utiliser le bouton Aujourd’hui pour accéder à la date actuelle et ouvrir les détails de la campagne (statut, workflows, diffusions) dans un panneau de droite, avec les mêmes filtres et recherches que la vue Liste.</p>
+<p>Pour plus d'informations, consultez la <a href="../campaigns/manage-campaigns.md#timeline">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Création de schémas (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer et gérer des schémas directement à partir de l’interface utilisateur web de Campaign. Cette fonctionnalité vous permet de créer des tables, d’étendre les schémas existants et de créer des formulaires personnalisés. Vous pouvez définir des structures de données personnalisées pour répondre aux besoins spécifiques de votre entreprise sans avoir à accéder à la console cliente.</p>
+<p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+
+### Improvement {#26-2-improvements}
+
+* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
+[Learn more](../content/brands-personalize.md)-->
 
 ## Version du 26 janvier {#26-1-release}
 
@@ -74,7 +153,7 @@ _27 janvier 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Expériences de contenu - Tests A/B</strong><br/></th> 
+<th><strong>Expériences de contenu - Tests AB</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
@@ -90,7 +169,7 @@ _27 janvier 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Activité de diffusion au fil de l'eau</strong><br/></th> 
+<th><strong>Activité de diffusion continue</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
@@ -106,7 +185,7 @@ _27 janvier 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Gestion de la validation des campagnes</strong><br/></th> 
+<th><strong>Gestion de la validation de campagne</strong><br/></th> 
 </tr>
 </thead>
 <tbody>

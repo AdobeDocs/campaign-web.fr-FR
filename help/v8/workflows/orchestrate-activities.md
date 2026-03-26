@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
-workflow-type: ht
-source-wordcount: '1287'
-ht-degree: 100%
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+workflow-type: tm+mt
+source-wordcount: '1321'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,7 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail et clique
 La barre d’outils située dans le coin supérieur droit de la zone de travail fournit des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail :
 
 * **Mode de sélection multiple** : sélectionnez plusieurs activités pour les supprimer toutes en même temps ou pour les copier et les coller. Voir [cette section](#copy).
+* **Ajouter une branche** : cliquez sur le bouton **+** de la barre d’outils pour créer une branche d’exécution distincte sur la zone de travail. Le résultat est équivalent à l’utilisation d’un [branchement](activities/fork.md) pour les chemins parallèles, mais le diagramme est plus clair graphiquement.
 * **Faire pivoter** : retournez la zone de travail verticalement.
 * **Ajuster à l’écran** : adaptez le niveau de zoom de la zone de travail à votre écran.
 * **Zoom arrière**/**Zoom avant** : effectuez un zoom arrière ou avant dans la zone de travail.

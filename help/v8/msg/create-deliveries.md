@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Activer l’enrichissement de profil"
->abstract="Sélectionnez les champs pour l’enrichissement de profil. Seuls les champs avec un index peuvent être sélectionnés comme clés de réconciliation. Les champs non pris en charge sont grisés."
+>abstract="Sélectionnez les champs pour l’enrichissement de profil. Seuls les champs comportant un index peuvent être sélectionnés comme clés de réconciliation. Les champs non pris en charge sont grisés."
 
 Vous pouvez créer des diffusions autonomes à partir du menu de gauche **[!UICONTROL Diffusions]**, ou créer des diffusions dans le cadre d’un workflow, incluses ou non dans une campagne.
 
@@ -113,11 +113,18 @@ Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin
 
 Vous pouvez définir la date et l’heure d’envoi exactes de vos messages. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture.
 
-Pour planifier l’envoi d’une diffusion, ouvrez-la et accédez à la section **[!UICONTROL Planning]**. Utilisez le bouton (bascule) **[!UICONTROL Activer le planning]** pour l’activer et définir la date et l’heure d’envoi. Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
+Pour planifier l’envoi d’une diffusion, procédez comme suit :
+
+1. Ouvrez votre diffusion et accédez à la section **[!UICONTROL Planifier]**.
+1. Utilisez le bouton (bascule) **[!UICONTROL Activer la planification]** pour l’activer.
+1. Dans le champ **[!UICONTROL Date de contact]**, cliquez sur l’icône de calendrier et définissez la date et l’heure d’envoi.
+1. Dans le champ **[!UICONTROL Fuseau horaire]**, utilisez le menu déroulant pour sélectionner le fuseau horaire de votre choix.
+
+Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
 
 ![Capture d’écran affichant l’interface de planning d’une diffusion](assets/schedule.png){zoomable="yes"}
 
-Par défaut, l’option **[!UICONTROL Activer la confirmation avant l’envoi]** est activée. Cette option nécessite de confirmer l’envoi avant que la diffusion ne soit envoyée à la date et à l’heure planifiées. Si vous souhaitez envoyer automatiquement la diffusion à la date et l’heure planifiées, vous pouvez désactiver cette option.
+Par défaut, l’option **[!UICONTROL Activer la confirmation avant l’envoi]** est activée. Cette option nécessite de confirmer l’envoi avant que la diffusion ne soit envoyée à la date planifiée. Si vous devez envoyer automatiquement la diffusion à la date et à l’heure planifiées, vous pouvez désactiver cette option.me.
 
 Découvrez les étapes à suivre pour envoyer une diffusion planifiée dans [cette section](../monitor/prepare-send.md#schedule-the-send).
 

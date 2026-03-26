@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Branchement
 description: Découvrez comment utiliser l’activité de workflow Branchement.
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
 >title="Activité Branchement"
->abstract="L’activité **Branchement** permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle."
+>abstract="L&#39;activité **Branchement** permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
@@ -24,6 +24,8 @@ ht-degree: 100%
 >abstract="Par défaut, deux transitions sont créées avec une activité **Branchement**. Cliquez sur le bouton **Ajouter une transition** pour définir une transition sortante supplémentaire, puis renseignez son libellé."
 
 L’activité **Branchement** est une activité de **contrôle de flux**. Elle permet de créer des transitions sortantes afin de lancer plusieurs activités simultanément.
+
+Vous pouvez également créer une branche distincte à l’aide du bouton de la barre d’outils **Ajouter une branche** (**+**). Voir [Orchestrer des activités](../orchestrate-activities.md#toolbar).
 
 ## Configurer l’activité Branchement {#fork-configuration}
 

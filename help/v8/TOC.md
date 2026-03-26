@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 96%
+source-wordcount: '1011'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 96%
    + Alertes de diffusion {#delivery-alerting}
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
-      + [Critères des alertes de diffusion       &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Critères des alertes de diffusion       ](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
    + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
@@ -115,6 +115,7 @@ ht-degree: 96%
          + [Démarrer en partant de zéro](email/create-email-content.md)
          + [Importer le contenu des e-mails](email/existing-content.md)
          + [Coder votre propre contenu](email/code-content.md)
+         + [Appliquer des thèmes au contenu de votre e-mail](email/apply-email-themes.md)
       + Concevoir le contenu {#design-content}
          + [Utiliser les composants de contenu](email/content-components.md)
          + [Ajouter des liens et suivre les messages](email/message-tracking.md)
@@ -190,7 +191,7 @@ ht-degree: 96%
       + [Démarrer et surveiller vos workflows](workflows/start-monitor-workflows.md)
    + Utiliser les activités de workflow {#design-workflows}
       + [À propos des activités de workflows](workflows/activities/about-activities.md)
-      + [Rendez-vous](workflows/activities/and-join.md)
+      + [Diffusion automatisée](workflows/activities/automated-delivery.md)
       + [Créer une audience](workflows/activities/build-audience.md)
       + [Modifier la source de données](workflows/activities/change-data-source.md)
       + [Changement de dimension](workflows/activities/change-dimension.md)
@@ -204,6 +205,7 @@ ht-degree: 96%
       + [Branchement](workflows/activities/fork.md)
       + [Requête incrémentale](workflows/activities/incremental-query.md)
       + [Code JavaScript](workflows/activities/javascript-code.md)
+      + [Jointure](workflows/activities/join.md)
       + [Chargement de fichier](workflows/activities/load-file.md)
       + [Réconciliation](workflows/activities/reconciliation.md)
       + [Sauvegarde d&#39;audience](workflows/activities/save-audience.md)
@@ -292,7 +294,7 @@ ht-degree: 96%
       + [Création et publication de schémas](administration/schemas-create-publish.md)
       + [Utilisation de formulaires personnalisés](administration/schemas-custom-forms.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + [Gestion du fuseau horaire](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)

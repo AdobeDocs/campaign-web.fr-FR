@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '617'
+ht-degree: 88%
 
 ---
 
@@ -60,16 +60,26 @@ Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes ma
 >abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative."
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_start"
+>title="Activité Fin"
+>abstract="L’activité **Début** vous permet de marquer graphiquement le début d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
 >title="Signal externe"
 >abstract="Espace réservé pour la section de signal externe dans les paramètres d’activité de fin. Disponible uniquement pour les campagnes orchestrées. NE PAS SUPPRIMER"
 
 Les activités ci-après sont spécifiques à l’organisation et à l’exécution des workflows. Leur principale tâche est de coordonner les autres activités :
 
-* [Rendez-vous](and-join.md) : synchronisez plusieurs branches d’exécution d’un workflow.
-* **Fin** : marque visuellement la fin d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative.
 * [Signal externe](external-signal.md) : déclenchez l’exécution d’un workflow à partir d’un autre workflow ou d’un appel API.
 * [Branchement](fork.md) : créez des transitions sortantes afin de lancer plusieurs activités simultanément.
+* [Joindre](join.md) : synchronisez plusieurs branches d’exécution d’un workflow.
 * [Planificateur](scheduler.md) : planifiez le moment de démarrage du workflow.
+* **Début** et **Fin** : marquez graphiquement le début et la fin d’un workflow. Ils sont facultatifs et n’ont aucun impact fonctionnel.
+
+  >[!NOTE]
+  >
+  >Notez que l&#39;activité **Start** est automatiquement ajoutée à tous les workflows créés avant la version 26.3. Elle n’est pas insérée par défaut dans les nouveaux workflows.
+
 * [Test](test.md) : activez des transitions en fonction de conditions spécifiées.
 * [Attente](wait.md) : suspendez temporairement l’exécution d’une partie d’un workflow.
