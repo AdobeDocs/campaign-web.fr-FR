@@ -3,20 +3,14 @@ audience: end-user
 title: Configurer une diffusion multilingue
 description: Découvrez comment configurer une diffusion multilingue.
 exl-id: eea0e997-4da2-4998-b010-234626b21353
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 40%
+source-wordcount: '1484'
+ht-degree: 39%
 
 ---
 
 # Configurer une diffusion multilingue {#multilingual-delivery}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Diffusions multilingues"
->abstract="Vous pouvez désormais envoyer des messages dans plusieurs langues dans l’interface d’utilisation de Campaign Web. Pour les notifications push, renseignez toutes les variantes de langue en chargeant un fichier CSV."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -134,7 +128,7 @@ Pour les notifications push, vous pouvez rapidement remplir toutes les variantes
 
 * **Efficacité** : ajoutez plusieurs langues et leur contenu en une seule opération
 * **Cohérence** : assurer une messagerie uniforme dans toutes les variantes linguistiques
-* **Collaboration** : permettez aux équipes de contenu de préparer des traductions dans des outils de feuille de calcul familiers
+* **** : permettez aux équipes de contenu de préparer des traductions dans des outils de feuille de calcul familiers
 * **Gestion en masse** : gérez et mettez facilement à jour un grand nombre de variantes linguistiques
 
 ### Conditions préalables requises {#csv-best-practices}
