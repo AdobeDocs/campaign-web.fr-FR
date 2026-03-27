@@ -79,7 +79,7 @@ Pour définir un thème que vous pouvez exploiter dans les futurs contenus d’e
 
 1. Sélectionnez un thème Adobe. Dans cet exemple, sélectionnez le **[!UICONTROL Thème par défaut]** et cliquez sur **[!UICONTROL Créer]**.
 
-   ![ Sélecteur de thème avec le thème par défaut sélectionné et le bouton Créer ](assets/theme-select.png)
+   ![&#x200B; Sélecteur de thème avec le thème par défaut sélectionné et le bouton Créer &#x200B;](assets/theme-select.png)
 
 1. Vous pouvez également sélectionner un modèle personnalisé dans l’onglet **[!UICONTROL Mes thèmes]** et cliquer sur **[!UICONTROL Modifier]** pour le mettre à jour.
 
@@ -163,7 +163,7 @@ Pour appliquer des thèmes de style par défaut ou personnalisés à un modèle 
 
 1. Lorsqu’un thème est sélectionné dans un modèle de contenu, vous pouvez cliquer sur le bouton **[!UICONTROL Modifier le thème]** pour le mettre à jour. [En savoir plus](#create-and-edit-themes)
 
-   ![ Modèle de contenu dans Email Designer avec le bouton Modifier le thème dans le panneau Thèmes ](assets/theme-edit-in-template.png){width="40%"}
+   ![&#x200B; Modèle de contenu dans Email Designer avec le bouton Modifier le thème dans le panneau Thèmes &#x200B;](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -177,7 +177,7 @@ Pour appliquer des thèmes de style par défaut ou personnalisés à un modèle 
 
    Pour ce faire, sélectionnez un composant de structure, cliquez sur l’option **[!UICONTROL Utiliser la variante du thème spécifique]** dans l’onglet **[!UICONTROL Styles]** à droite, puis appliquez la variante souhaitée à cette structure.
 
-   ![ Structure sélectionnée avec l’option Utiliser la variante du thème spécifique dans l’onglet Styles ](assets/theme-structure-variant.png)
+   ![&#x200B; Structure sélectionnée avec l’option Utiliser la variante du thème spécifique dans l’onglet Styles &#x200B;](assets/theme-structure-variant.png)
 
    Dans cet exemple, la première variante de couleur du thème actuel est appliquée à l’ensemble du contenu de l’e-mail, mais la troisième variante de couleur est appliquée à la structure sélectionnée. Vous pouvez constater que les couleurs de fond du corps et de la fenêtre d’affichage pour cette structure spécifique sont différentes du reste du contenu.
 
@@ -227,7 +227,7 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Vous pouvez naviguer entre les onglets **[!UICONTROL Thèmes]** et **[!UICONTROL Mes thèmes]** et sélectionner jusqu’à cinq thèmes compatibles (dans les deux onglets) pour votre fragment.
 
-   ![Boîte de dialogue Sélectionner des thèmes compatibles avec les onglets Thèmes Adobe et Mes thèmes ](assets/fragment-select-compatible-themes.png){width=70%}
+   ![Boîte de dialogue Sélectionner des thèmes compatibles avec les onglets Thèmes Adobe et Mes thèmes &#x200B;](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
