@@ -25,6 +25,7 @@ Le [Concepteur d’e-mail](create-email-content.md) [!DNL Adobe Campaign], qui p
 En conséquence, les bonnes pratiques pour concevoir un contenu accessible avec [!DNL Adobe Campaign] sont répertoriées ci-dessous.
 
 Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos landing pages conçus avec [!DNL Adobe Campaign].
+
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
