@@ -1,14 +1,14 @@
 ---
 solution: Campaign, Campaign v8 Web User Interface
 title: Cas d’utilisation de page de destination
-description: Découvrir les cas d’utilisation les plus courants pour les pages de destination dans l’interface utilisateur web de Campaign
+description: Découvrir les cas d’utilisation les plus courants pour les landing pages dans l’interface d’utilisation web de Campaign
 feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: a9ce4fd103c4af8f47ba887031e8d6d53e8d5f0b
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >id="acw_landingpages_templates"
 >title="Copier l’URL avec précaution"
 >abstract="Lors de la création d’une page de destination, quatre modèles prêts à l’emploi permettent de mettre en œuvre différents cas pratiques : ajouter ou mettre à jour un profil dans la base de données Campaign, abonner des clientes et clients à un service, les désabonner d’un service ou exclure des utilisateurs et utilisatrices."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=fr#create-landing-page" text="Créer une page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=fr#create-landing-page" text="Créer une landing page"
 
 Pour utiliser correctement votre page de destination, référencez-la en tant que lien dans un message à l’aide de l’option dédiée. Vous ne pouvez pas copier-coller le lien affiché dans le tableau de bord des diffusions publiées directement dans vos diffusions ou dans une page web. Utilisez plutôt la fonctionnalité **Simuler le contenu** pour le tester.
 
@@ -74,7 +74,7 @@ Une fois qu’elles ont reçu l’e-mail, si vos personnes destinataires cliquen
 * Elles seront redirigées vers la page de confirmation.
 * Toute autre action définie dans votre page de destination sera appliquée. Par exemple, soit les utilisateurs et utilisatrices seront abonnés à votre service, soit ils ne recevront plus de communications de votre part.
 
-Vous trouverez ci-dessous quelques exemples d’utilisation des pages de destination [!DNL Adobe Campaign] dans les différents cas d’utilisation possibles.
+Vous trouverez ci-dessous quelques exemples d’utilisation des landing pages [!DNL Adobe Campaign] dans les différents cas d’utilisation possibles.
 
 ## Acquisition de profils {#lp-acquisition}
 
@@ -137,7 +137,8 @@ Un des cas d’utilisation les plus courants consiste à inviter vos clientes et
 
    ![Capture d’écran montrant l’interface de la case à cocher d’abonnement.](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
-1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
+1. You can add an additional checkbox to offer subscription to your newsletter for example.
+-->
 
 1. Ajustez votre contenu selon vos besoins et enregistrez vos modifications.
 

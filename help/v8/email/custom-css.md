@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 keywords: css, éditeur, résumé, e-mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -229,7 +229,8 @@ Si vous souhaitez utiliser un CSS personnalisé avec du contenu importé dans le
 * Si vous importez du contenu créé avec le concepteur d’e-mail, y compris le CSS appliqué via l’option **[!UICONTROL Ajouter un fichier CSS personnalisé]**, le CSS précédemment appliqué sera visible et modifiable à partir de la même option.
 
 <!--
-* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.-->
+* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.
+-->
 
 ## Résolution des problèmes {#troubleshooting}
 

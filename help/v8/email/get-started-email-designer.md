@@ -3,23 +3,25 @@ audience: end-user
 title: Modifier le contenu de l’e-mail
 description: Découvrez le b.a.-ba de la création de contenu à l’aide du concepteur d’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Commencer avec le concepteur d’e-mail {#get-started-email-designer}
+# Prise en main du concepteur d’e-mail {#get-started-email-designer}
 
 Une fois que vous avez créé un e-mail dans Adobe Campaign, vous devez en définir le contenu.
 
 Le concepteur d’e-mail permet de créer des e-mails captivants et personnalisés au moyen d’une interface intuitive par glisser-déposer. Que vous commenciez à partir de zéro, que vous importiez un contenu précédent ou que vous tiriez parti de modèles existants, vous pouvez créer et personnaliser le contenu de chaque e-mail pour un usage promotionnel ou transactionnel.
 
-<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+<!--
+Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
-The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.
+-->
 
 * Tirez parti des fonctionnalités de conception d’e-mail de [!DNL Campaign] pour créer en toute facilité des e-mails en responsive design. [En savoir plus](create-email-content.md)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Activité de workflow de diffusion automatisée
 description: Découvrez comment utiliser l’activité de workflow de diffusion automatisée
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 5%
@@ -26,7 +26,8 @@ ht-degree: 5%
 L&#39;activité **Diffusion automatisée** vous permet de créer, configurer et exécuter des actions de diffusion directement dans votre workflow. Utilisez-la lorsque vous souhaitez exécuter une diffusion prédéfinie selon un planning ou dans le cadre d’un flux automatisé, ou lorsque vous souhaitez générer une nouvelle diffusion à partir d’un modèle à chaque exécution de l’activité.
 
 <!--
-**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. -->
+**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. 
+-->
 
 Pour configurer cette activité, procédez comme suit :
 

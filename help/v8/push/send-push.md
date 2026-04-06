@@ -3,8 +3,8 @@ audience: end-user
 title: Envoyer une diffusion par notification push
 description: Découvrez comment envoyer une diffusion par notification push dans Adobe Campaign Web.
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 
@@ -24,8 +24,10 @@ Voici les étapes principales pour prévisualiser votre notification push. Pour 
 
 1. Cliquez sur **[!UICONTROL Ajouter un ou plusieurs abonnés]** pour sélectionner un ou plusieurs profils afin de prévisualiser leurs données dans le contenu de la notification push.
 
-   <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png){zoomable="yes"}-->
+   <!--
+    Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png){zoomable="yes"}
+    -->
 
 1. Dans le volet de droite, vous trouverez un aperçu de la notification push, où les éléments personnalisés sont remplacés dynamiquement par les données du profil sélectionné.
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, éditeur
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -148,7 +148,8 @@ Après avoir basculé en **[!UICONTROL mode sombre]**, vous pouvez choisir de mo
 <!--
 >[!WARNING]
 >
->Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.
+-->
 
 Pour tirer parti du style du mode sombre personnalisé du Concepteur d’e-mail, Journey Optimizer utilise la<!-- `@media (prefers-color-scheme: dark)` method--> requête CSS `@media (prefers-color-scheme: dark)`, qui détecte si le client de messagerie de l’utilisateur ou de l’utilisatrice est en mode sombre et applique la conception avec thème sombre définie dans votre e-mail.
 
@@ -204,15 +205,19 @@ Le mode sombre peut modifier les couleurs, les arrière-plans et les images, par
 
 * Évitez de vous reposer uniquement sur les couleurs d’arrière-plan pour le contenu essentiel. Certains clients remplacent les couleurs d’arrière-plan en mode sombre, afin de s’assurer que les informations clés sont toujours visibles.
 
-<!--**Inline critical styles**
+<!--
+**Inline critical styles**
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.
+-->
 
 **Créez du contenu accessible en mode sombre**
 
-<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+<!--
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+-->
 
 * Utilisez des combinaisons de couleurs faciles à distinguer pour les personnes atteintes de daltonisme.
 

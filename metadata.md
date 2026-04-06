@@ -9,16 +9,16 @@ landing-page-breadcrumb-title: Campaign
 type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign-web.fr-FR
 index: true
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 98%
+ht-degree: 71%
 
 ---
 
 
 # Métadonnées à usage interne
 
-Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui sont transmises aux fichiers TOC.md des guides de l&#39;utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier metadata.md pour n&#39;importe quel guide de l&#39;utilisateur, faites-le dans n&#39;importe quel fichier TOC.md.
+Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier du contenu metadata.md pour n’importe quel guide de l’utilisateur, effectuez vos modifications dans n’importe quel fichier TOC.md.
 
-Consultez la section [Métadonnées](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=fr) pour obtenir une liste de valeurs valides pour la **solution**, le **produit** et le **type**.
+Consultez [Métadonnées](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=en) pour obtenir une liste de valeurs valides pour **solution**, **produit** et **type**.

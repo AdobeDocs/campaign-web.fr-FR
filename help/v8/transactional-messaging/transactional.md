@@ -3,8 +3,8 @@ audience: end-user
 title: Messages transactionnels
 description: À propos des messages transactionnels avec Adobe Campaign Web
 exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 
@@ -17,10 +17,12 @@ ht-degree: 100%
 >title="Messages transactionnels"
 >abstract="Les messages transactionnels constituent un module spécialisé d’Adobe Campaign conçu pour gérer les messages déclenchés."
 
-<!-- >>[!CONTEXTUALHELP]
+<!--
+>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
->abstract="Transactional messaging exclusion logs" -->
+>abstract="Transactional messaging exclusion logs" 
+-->
 
 Les messages transactionnels constituent un module spécialisé d’Adobe Campaign conçu pour gérer les messages déclenchés. Ces messages sont générés automatiquement en réponse aux événements provenant des systèmes d’information. Parmi les exemples courants de ces événements, citons les clics sur des boutons ou des liens, l’abandon de panier, la demande d’alertes de disponibilité de produits, la création ou la modification de compte.
 

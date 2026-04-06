@@ -3,10 +3,10 @@ title: Créer une landing page
 description: Découvrir comment configurer et publier une page de destination dans Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,9 +74,11 @@ Vous pouvez dupliquer ou supprimer une page de destination. Cliquez sur les poin
 >title="Définir des options de stockage"
 >abstract="La zone de pré-chargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données."
 
-<!--The main steps to create landing pages are as follows:
+<!--
+The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png){zoomable="yes"}-->
+![](assets/lp-creation-process.png){zoomable="yes"}
+-->
 
 Pour créer une page de destination, procédez comme suit :
 

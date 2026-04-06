@@ -3,7 +3,7 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 100%
@@ -22,7 +22,7 @@ L’édition d’une expression consiste à saisir manuellement des conditions p
 >[!IMPORTANT]
 >
 >Une toute nouvelle interface pour le concepteur de requête est disponible. Pour passer à cette nouvelle expérience de créateur de règles, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
->>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Utiliser l’éditeur d’expression {#edit}
 
@@ -505,7 +505,7 @@ Ce tableau contient les autres fonctions disponibles.
    <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
-   <td> <strong>Case</strong><br /> </td> 
+   <td> <strong>Casse</strong><br /> </td> 
    <td> Renvoie la valeur 1 si la condition est vérifiée. Sinon, renvoie la valeur 2.<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;valeur 1&gt;), Else(&lt;valeur 2&gt;))<br /> </td> 
   </tr> 
@@ -524,11 +524,13 @@ Ce tableau contient les autres fonctions disponibles.
    <td> Renvoie la valeur 3 si la valeur 1 = la valeur 2. Sinon, renvoie la valeur 4.<br /> </td> 
    <td> Decode(&lt;valeur 1&gt;, &lt;valeur 2&gt;, &lt;valeur 3&gt;, &lt;valeur 4&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <!--
+<tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> -->
+  </tr> 
+-->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Renvoie la valeur 1 (ne peut être utilisée qu'en paramètre de la fonction Case)<br /> </td> 
