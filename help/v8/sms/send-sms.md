@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer une diffusion par SMS
 description: Découvrez comment envoyer des SMS à l’aide d’Adobe Campaign Web.
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 2bcb1c890ca90b73183fe5e168fb3ec3b08dea1f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ La diffusion par SMS comprend les étapes suivantes. Pour plus d’informations 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
     ![Selecting test profiles for SMS preview](assets/sms_send_2.png){zoomable="yes"}
--->
+    -->
 
 1. Dans le volet de droite, vous pouvez voir un aperçu de la diffusion par SMS, où les éléments personnalisés sont remplacés dynamiquement par les données du profil sélectionné.
 
