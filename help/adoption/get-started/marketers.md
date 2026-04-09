@@ -361,11 +361,11 @@ En savoir plus sur les landing pages dans les sections suivantes :
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases">
+<a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/landing-pages/lp-use-cases">
 <img alt="Cas d’utilisation de pages de destination et modèles intégrés" src="assets/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>Cas d’utilisation de pages de destination et modèles intégrés</strong></a>
+<a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>Cas d’utilisation de pages de destination et modèles intégrés</strong></a>
 </div>
 <p>
 </td>
