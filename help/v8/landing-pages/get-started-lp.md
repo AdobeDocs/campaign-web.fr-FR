@@ -4,10 +4,10 @@ title: Commencer avec les landing pages
 description: En savoir plus sur les landing pages dans Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
+workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -61,11 +61,11 @@ Les principales fonctionnalités des landing pages sont répertoriées ci-dessou
 <p>
 </td>
 <td>
-<a href="lp-templates.md">
-<img alt="Utiliser des modèles de contenu pour les landing pages" src="../assets/do-not-localize/lp-reporting.jpg">
+<a href="lp-use-cases.md">
+<img alt="Cas d’utilisation de pages de destination et modèles intégrés" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-templates.md"><strong>Utiliser des modèles de contenu</strong></a>
+<a href="lp-use-cases.md"><strong>Cas d’utilisation des pages de destination</strong></a>
 </div>
 <p>
 </td>

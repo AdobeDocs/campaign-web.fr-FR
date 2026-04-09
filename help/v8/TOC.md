@@ -5,9 +5,9 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1006'
 ht-degree: 97%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 97%
    + Alertes de diffusion {#delivery-alerting}
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
-      + [Critères des alertes de diffusion       &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Critères des alertes de diffusion       ](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
    + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
@@ -147,7 +147,6 @@ ht-degree: 97%
    + [Commencer avec les landing pages](landing-pages/get-started-lp.md)
    + [Créer et publier une page de destination](landing-pages/create-lp.md)
    + [Modifier le contenu d’une page de destination](landing-pages/lp-content.md)
-   + [Utiliser des modèles de page de destination](landing-pages/lp-templates.md)
    + [Apprendre avec des cas d’utilisation](landing-pages/lp-use-cases.md)
 + Profils et audiences {#audiences}
    + [Commencer avec les profils et les audiences](audience/gs-audiences-recipients.md)
@@ -294,7 +293,7 @@ ht-degree: 97%
       + [Création et publication de schémas](administration/schemas-create-publish.md)
       + [Utilisation de formulaires personnalisés](administration/schemas-custom-forms.md)
    + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + [Gestion du fuseau horaire](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)
