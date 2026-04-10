@@ -3,9 +3,8 @@ audience: end-user
 title: Exemples de requêtes
 description: Découvrez comment utiliser le concepteur de requête.
 hide: true
-hidefromtoc: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
@@ -33,4 +32,4 @@ ht-degree: 100%
 
 * Effectuez le suivi après une diffusion précédente.
 
-  Une diffusion « Offre sports d’été » est envoyée. Quatre jours après la diffusion, deux autres diffusions sont envoyées. L’une d’elles est « Offre sports nautiques », l&#39;autre est une relance de la première diffusion « Offre sports d&#39;été ». La diffusion « Offre sports nautiques » est envoyée aux personnes destinataires qui ont cliqué sur la thématique « sports nautiques » dans la première diffusion. Ces clics montrent l’intérêt des personnes destinataires. Elles peuvent donc être orientées vers des offres similaires. En revanche, les personnes destinataires qui n’ont pas cliqué dans l’email « Offre sports d’été » sont relancées avec le même contenu.
+  Une diffusion « Offre sports d’été » est envoyée. Quatre jours après la diffusion, deux autres diffusions sont envoyées. L’une d’elles est « Offre sports nautiques », l&#39;autre est une relance de la première diffusion « Offre sports d&#39;été ». La diffusion &quot;Offre sports nautiques&quot; est envoyée aux destinataires qui ont cliqué sur la thématique &quot;sports nautiques&quot; dans la première diffusion. Ces clics montrent l&#39;intérêt des destinataires. Ils peuvent donc être orientés vers des offres similaires. En revanche, les destinataires qui n&#39;ont pas cliqué dans l&#39;email &quot;Offre sports d&#39;été&quot; sont relancés avec le même contenu.

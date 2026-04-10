@@ -5,10 +5,10 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 97%
 + [Documentation de l’interface utilisateur web d’Adobe Campaign](campaign-web-home.md)
 + Notes de mise à jour {#release-notes}
    + [Nouveautés](rn/whats-new.md)
-   + [Version anticipée](rn/e-release-notes.md)
+   + {hide-from-toc}[Version anticipée](rn/e-release-notes.md)
    + [Dernière version](rn/release-notes.md)
    + Versions précédentes {#previous-release-notes}
       + [Versions 2026](rn/release-notes-26.md)
       + [Versions 2025](rn/release-notes-25.md)
       + [Versions 2024](rn/release-notes-24.md)
-   + [Mises à jour de la documentation](rn/documentation-updates.md)
+   + {hide-from-toc}[ Mises à jour de la documentation ](rn/documentation-updates.md)
 + Prise en main d’Adobe Campaign {#start}
    + [Commencer](get-started/get-started.md)
    + [Se connecter à Campaign](get-started/connect-to-campaign.md)
-   + [Découvrir l’interface](get-started/user-interface.md)
+   + {hide-from-toc}[Découvrir l’interface](get-started/user-interface.md)
    + [Parcourir et filtrer les listes](get-started/list-filters.md)
    + [Utiliser des filtres prédéfinis](get-started/predefined-filters.md)
    + [Utiliser des dossiers](get-started/work-with-folders.md)
@@ -36,7 +36,7 @@ ht-degree: 97%
    + [Autorisations](get-started/permissions.md)
    + [Campaign Web et console cliente](get-started/capability-matrix.md)
    + [De Campaign Standard à v8](rn/acs-migration.md)
-   + [Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
+   + {hide-from-toc}[ Aide contextuelle optimisée par l’IA ](get-started/using-ai.md)
    + [FAQ](get-started/faq.md)
 + Messages et diffusions {#msg}
    + [Commencer avec les messages](msg/gs-messages.md)
@@ -93,7 +93,7 @@ ht-degree: 97%
    + Alertes de diffusion {#delivery-alerting}
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
-      + [Critères des alertes de diffusion       &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Critères des alertes de diffusion       ](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
    + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
@@ -219,7 +219,7 @@ ht-degree: 97%
    + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
    + [Éditer les expressions](query/expression-editor.md)
-   + [Exemples de requêtes](query/query-samples.md)
+   + {hide-from-toc}[Exemples de requêtes](query/query-samples.md)
    + [Filtrer les listes](query/filter.md)
 + Reporting {#reports}
    + [Journal d’audit](reporting/audit-trail.md)
@@ -292,8 +292,8 @@ ht-degree: 97%
       + [Ajouter des listes de collection](administration/schemas-collection-lists.md)
       + [Création et publication de schémas](administration/schemas-create-publish.md)
       + [Utilisation de formulaires personnalisés](administration/schemas-custom-forms.md)
-   + [Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + {hide-from-toc}[Configurer des champs personnalisés](administration/custom-fields.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + [Gestion du fuseau horaire](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)
