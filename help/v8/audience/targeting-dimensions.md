@@ -38,7 +38,7 @@ Utilisez d&#39;autres mappings de ciblage intégrés dans les workflows et les d
 | Visiteurs et visiteuses | Visiteurs et visiteuses dont les profils ont été collectés par le biais d’une recommandation (marketing viral, par exemple) | mns:visitor |
 | Abonnements | Profils abonnés à un service d’information, par exemple à une newsletter | nms:subscription |
 | Abonnements des visiteurs et visiteuses | Personnes abonnées à un service d’information | nms:visitorSub |
-| Opérateurs | Opérateurs et opératrices Adobe Campaign | nms:operator |
+| Les opérateurs | Opérateurs et opératrices Adobe Campaign | nms:operator |
 | Fichier externe | Diffusion via un fichier contenant toutes les informations nécessaires | Aucun schéma associé, aucune cible renseignée |
 | Applications abonnés | Profils abonnés à une application | nms:appSubscriptionRcp |
 
@@ -55,6 +55,6 @@ Pour sélectionner la clientèle qui a souscrit une police d’assurance-vie dep
 * Dimension de ciblage : **clientèle**
 * Dimension de filtrage : **personne titulaire du contrat**
 
-Vous pouvez ensuite définir les conditions de filtrage dans l’activité **Créer une audience**. Consultez cette [page](../workflows/activities/build-audience.md).
+Vous pouvez ensuite définir les conditions de filtrage dans l’activité **Créer une audience**. Voir cette [page](../workflows/activities/build-audience.md).
 
 Lors de la sélection d’une dimension de ciblage, seules les dimensions de filtrage compatibles s’affichent dans l’interface. Ces deux dimensions doivent nécessairement avoir un lien. Ainsi, le contenu de la liste Dimension de filtrage dépend de la dimension de ciblage sélectionnée dans le premier champ.

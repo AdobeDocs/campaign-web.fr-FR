@@ -88,7 +88,7 @@ Le workflow ci-dessous montre comment abonner une audience à un service existan
 
 * L’activité **[!UICONTROL Services d’abonnement]** vous permet de sélectionner le service auquel les profils doivent s’abonner.
 
-### Mise à jour de plusieurs statuts d’abonnement à partir d’un fichier {#uc2}
+### Mise à jour de plusieurs statuts d&#39;abonnement depuis un fichier {#uc2}
 
 Le workflow ci-dessous montre comment importer un fichier contenant des profils et comment mettre à jour leur abonnement à plusieurs services spécifiés dans le fichier.
 
@@ -111,9 +111,9 @@ Le workflow ci-dessous montre comment importer un fichier contenant des profils 
 
   ![Capture d’écran de l’interface de mapping du service d’abonnement de workflow.](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  Si le fichier utilise déjà les valeurs « 0 » et « 1 » pour identifier l’opération, il n’est pas nécessaire de mapper ces valeurs à nouveau. Assurez-vous uniquement que la colonne soit traitée comme une valeur **Booléenne** ou **Nombre entier** dans les colonnes du fichier d’exemple.
+  Si le fichier utilise déjà les valeurs &quot;0&quot; et &quot;1&quot; pour identifier l’opération, il n’est pas nécessaire de recodifier ces valeurs. Assurez-vous uniquement que la colonne soit traitée comme une valeur **Booléenne** ou **Nombre entier** dans les colonnes du fichier d’exemple.
 
-* Une activité de **[!UICONTROL Réconciliation]** permet d’identifier les données provenant du fichier comme appartenant à la dimension des profils de la base de données Adobe Campaign. Le champ **e-mail** du fichier correspond au champ **e-mail** de la ressource de profil.
+* Une **[!UICONTROL Réconciliation]** permet d’identifier les données provenant du fichier comme appartenant à la dimension des profils de la base de données Adobe Campaign. Le champ **e-mail** du fichier correspond au champ **e-mail** de la ressource de profil.
 
   ![Capture d’écran de l’interface de réconciliation du service d’abonnement de workflow.](../assets/workflow-subscription-service-uc2-reconciliation.png)
 

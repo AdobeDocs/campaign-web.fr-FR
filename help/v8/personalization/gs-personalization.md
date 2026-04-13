@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Vous pouvez rendre le contenu de votre message dynamique en insérant des élém
 
   [Description : exemple de contenu conditionnel dans une bannière d’e-mail en fonction de l’abonnement du ou de la destinataire.](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Accéder à l’éditeur d’expression {#access}
 

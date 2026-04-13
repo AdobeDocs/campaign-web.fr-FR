@@ -6,7 +6,7 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 71%
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 71%
 >title="Planning de la campagne"
 >abstract="Définissez ou modifiez le planning de votre campagne."
 
-Pour accéder à vos campagnes et les gérer, cliquez sur le menu **[!UICONTROL Campagnes]** dans le volet de navigation de gauche. Deux onglets sont disponibles :
+Pour accéder à vos campagnes et les gérer, cliquez sur le menu **[!UICONTROL Campagnes]** dans le volet de navigation de gauche. Deux onglets sont disponibles :
 
 * L’onglet **Parcourir** répertorie toutes les campagnes existantes. Cliquez sur une campagne pour afficher son tableau de bord ou créez une campagne à l’aide du bouton **Créer une campagne**. Consultez cette [section](create-campaigns.md#create-campaigns).
 

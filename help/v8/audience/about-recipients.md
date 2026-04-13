@@ -1,5 +1,5 @@
 ---
-title: Commencer avec les profils
+title: Prise en main des profils
 description: Découvrez comment surveiller et gérer les profils dans Campaign Web.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
@@ -22,9 +22,9 @@ Un **profil**, également appelé « destinataire » dans la console cliente, 
 
 De plus, des **[!UICONTROL profils de test]**, désignés comme des « profils de contrôle » dans la console cliente, permettent de cibler des personnes destinataires supplémentaires qui ne correspondent pas aux critères de ciblage d’une diffusion donnée. Ces profils contiennent des coordonnées fictives ou des coordonnées contrôlées par l’expéditeur ou l’expéditrice. Les profils de test sont les profils destinataires des BAT utilisés pour tester les messages en envoyant des BAT. [Découvrir comment utiliser des profils de test](test-profiles.md)
 
-Les profils et les profils de test sont utiles pour tester les diffusions avant qu’elles n’atteignent l’audience visée. Cela permet de prévisualiser le contenu et la personnalisation des messages, envoyer des BAT à des fins de test et de validation, évaluer le rendu des e-mails sur différentes plateformes et appareils et tester les pages de destination. [Découvrir comment prévisualiser et tester des diffusions](../preview-test/preview-test.md)
+Les profils et les profils de test sont utiles pour tester les diffusions avant qu’elles n’atteignent l’audience visée. Cela permet de prévisualiser le contenu et la personnalisation des messages, envoyer des BAT à des fins de test et de validation, évaluer le rendu des e-mails sur différentes plateformes et appareils et tester les landing pages. [Découvrir comment prévisualiser et tester des diffusions](../preview-test/preview-test.md)
 
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Accéder à la liste des profils {#access}
 

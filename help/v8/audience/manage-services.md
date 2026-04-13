@@ -5,8 +5,8 @@ description: Découvrez comment accéder aux services d’abonnements, comment l
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1127'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Pour accéder aux services d’abonnements disponibles pour votre plateforme, pr
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Page de destination par défaut"
->abstract="Sélectionnez les pages de destination par défaut associées à ce service."
+>abstract="Sélectionnez les landing pages par défaut associées à ce service."
 
 Pour créer un service d’abonnement, procédez comme suit :
 
@@ -86,7 +86,7 @@ Pour créer un service d’abonnement, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Enregistrer et réviser]**. Le nouveau service est ajouté à la liste **[!UICONTROL Services d’abonnements]**.
 
-1. Sélectionnez les pages de destination d’abonnement et de désabonnement par défaut associées à ce service.
+1. Sélectionnez les landing pages d’abonnement et de désabonnement par défaut associées à ce service.
 
    ![Capture d’écran affichant les paramètres de page de destination par défaut d’un service d’abonnement](assets/service-create-default-lp.png){zoomable="yes"}
 
@@ -96,13 +96,13 @@ Pour créer un service d’abonnement, procédez comme suit :
 
 1. Enregistrez et vérifiez vos modifications.
 
-Vous pouvez maintenant effectuer les actions suivantes :
+Vous pouvez maintenant :
 
 * Ajoutez manuellement des personnes abonnées à ce service et désinscrivez des profils. [En savoir plus](../audience/manage-subscribers.md)
 
 * Invitez vos clientes et clients à s’abonner à ce service par le biais d’une page de destination. [En savoir plus](../landing-pages/lp-use-cases.md#lp-subscription)
 
-* Envoyez des messages aux personnes abonnées à ce service. [Voici comment procéder](../msg/send-to-subscribers.md).
+* Envoyez des messages aux personnes abonnées à ce service. [Voici comment procéder](../msg/send-to-subscribers.md)
 
 ## Créer un message de confirmation {#create-confirmation-message}
 
@@ -116,7 +116,7 @@ Vous pouvez maintenant effectuer les actions suivantes :
 >title="Sélectionner le modèle de diffusion pour les désabonnements"
 >abstract="Pour envoyer des messages de confirmation aux personnes qui se désabonnent de votre service, vous devez sélectionner un modèle de diffusion avec le mapping de ciblage **[!UICONTROL Abonnements]**, sans cible définie."
 
-Pour envoyer des messages de confirmation aux personnes qui s’abonnent à votre service ou s’en désabonnent, créez un modèle de diffusion avec le mapping de ciblage **[!UICONTROL Abonnements]**, sans cible définie. Procédez comme suit :
+Pour envoyer des messages de confirmation aux personnes qui s’abonnent à votre service ou s’en désabonnent, créez un modèle de diffusion avec le mapping de ciblage **[!UICONTROL Abonnements]**, sans cible définie. Suivez les étapes ci-dessous :
 
 1. Créez un modèle de diffusion pour la confirmation d’abonnement. [Découvrir comment créer un modèle](../msg/delivery-template.md)
 

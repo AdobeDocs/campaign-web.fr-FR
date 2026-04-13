@@ -14,17 +14,17 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
->title="Prise en main"
+>title="Commencer"
 >abstract="La nouvelle interface d’Adobe Campaign Web offre une expérience client intégrée, intuitive et cohérente."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
->title="Prise en main"
+>title="Commencer"
 >abstract="La nouvelle interface d’Adobe Campaign Web offre une expérience client intégrée, intuitive et cohérente."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="Prise en main"
+>title="Commencer"
 >abstract="La nouvelle interface d’Adobe Campaign Web offre une expérience client intégrée, intuitive et cohérente."
 
 Adobe Campaign propose une plateforme qui permet de concevoir des expériences client cross-canal ainsi quʼun environnement pour lʼorchestration visuelle de campagnes, la gestion dʼinteractions en temps réel et lʼexécution cross-canal.

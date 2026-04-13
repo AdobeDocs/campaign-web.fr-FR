@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Rapports de diffusion
+title: Rapports sur les diffusions
 description: Découvrez comment accéder aux rapports de diffusion et les utiliser.
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639

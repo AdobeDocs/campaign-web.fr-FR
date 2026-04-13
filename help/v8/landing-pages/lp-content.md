@@ -34,7 +34,7 @@ Pour concevoir plus précisément le contenu de votre page de destination :
 
 * Utilisez les mêmes composants que ceux utilisés pour concevoir un e-mail. [En savoir plus](../email/content-components.md#add-content-components)
 
-* Ajoutez du contenu conditionnel à vos pages de destination, comme vous le feriez pour un e-mail. [En savoir plus](../personalization/conditions.md#condition-condition-builder)
+* Ajoutez du contenu conditionnel à vos landing pages, comme vous le feriez pour un e-mail. [En savoir plus](../personalization/conditions.md#condition-condition-builder)
 
 ## Utiliser le composant de formulaire {#use-form-component}
 
@@ -68,7 +68,7 @@ Pour définir un contenu spécifique qui permet aux utilisateurs et aux utilisat
 
    ![Paramètres de champ de texte dans le composant de formulaire](assets/lp-form-text-field.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Rendre le champ du formulaire obligatoire]** si nécessaire. Dans ce cas, la page de destination ne peut être envoyée que si l&#39;utilisateur a renseigné ce champ.
+1. Activez l’option **[!UICONTROL Rendre le champ du formulaire obligatoire]** si nécessaire. Dans ce cas, la landing page ne peut être envoyée que si l&#39;utilisateur a renseigné ce champ.
 
    >[!NOTE]
    >

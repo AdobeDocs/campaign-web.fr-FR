@@ -19,7 +19,7 @@ ht-degree: 100%
 
 L’activité **Modifier la source de données** est une activité de **ciblage**. Cette activité permet de modifier la source de données utilisée par la table de travail de votre workflow. Vous bénéficiez ainsi d’une plus grande flexibilité grâce à la gestion des données dans vos différentes bases de données et à l’amélioration des performances.
 
-Dans les workflows, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une **table de travail** temporaire. Par défaut, les tables de travail sont créées dans la même base de données que la source des données traitées. Par exemple, lors de l’interrogation de la table Profils stockée dans la base de données cloud, une table de travail est créée sur la même base de données cloud.
+Dans les workflows, les données véhiculées d’une activité à l’autre via les transitions sont stockées dans une **table de travail** temporaire. Par défaut, les tables de travail sont créées dans la même base de données que la source des données traitées. Par exemple, lors de l’interrogation de la table « Profils » stockée dans la base de données cloud, une table de travail est créée sur la même base de données cloud.
 
 Dans certains cas, les données ne sont pas disponibles dans la base de données actuelle ou ne sont pas suffisamment efficaces pour effectuer des opérations unitaires. Vous devrez peut-être donc forcer le workflow à utiliser une autre base de données pour effectuer ces opérations en ajoutant une activité **[!UICONTROL Modifier la source de données]**.
 

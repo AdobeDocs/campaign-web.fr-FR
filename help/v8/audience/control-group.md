@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Une population témoin est une sous-population exclue de la diffusion. Définissez une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option permet de mesurer l’impact de votre campagne.
 
-➡️ [Découvrir cette fonctionnalité en vidéo](create-audience.md#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](create-audience.md#video)
 
 ## Activer la population témoin {#add-a-control-group}
 
@@ -119,4 +119,4 @@ Les profils inclus dans l’audience ou correspondant au résultat de la requêt
 
 Une fois la diffusion envoyée, extrayez les logs d’envoi pour comparer le comportement entre les profils qui n’ont pas reçu la communication et la cible effective. Utilisez les logs de diffusion pour créer un autre ciblage.
 
-Pour savoir quels profils ont été supprimés de la cible, vérifiez les **logs de diffusion**. En savoir plus [dans cette section](#check-control-group).
+Pour savoir quels profils ont été supprimés de la cible, vérifiez les **logs de diffusion**. En savoir plus dans [cette section](#check-control-group).

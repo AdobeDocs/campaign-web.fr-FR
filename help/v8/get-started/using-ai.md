@@ -3,9 +3,8 @@ title: Utiliser l’aide contextuelle optimisée par l’IA dans Campaign Web
 description: Poser des questions dans les fenêtres contextuelles d’aide de Campaign Web
 badge: label="Beta"
 hide: true
-hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%

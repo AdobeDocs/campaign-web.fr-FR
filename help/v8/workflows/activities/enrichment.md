@@ -4,7 +4,7 @@ title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 100%
 
@@ -140,7 +140,7 @@ L’exemple ci-dessous montre un workflow configuré pour créer un lien entre l
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
->title="Proposition d’offre"
+>title="Proposition d&#39;offres"
 >abstract="L’activité Enrichissement permet d’ajouter des offres pour chaque profil."
 
 L’activité **[!UICONTROL Enrichissement]** vous permet d’ajouter des offres pour chaque profil.
@@ -157,7 +157,7 @@ Pour ce faire, suivez les étapes pour configurer une activité **[!UICONTROL En
 
      ![](../assets/enrichment-bestoffer.png)
 
-   * **[!UICONTROL Une offre prédéfinie]** : cochez cette option et définissez un emplacement, une offre précise, ainsi qu’une date de contact afin de directement paramétrer l’offre que vous souhaitez ajouter, sans appeler le moteur d’offres.
+   * **[!UICONTROL Une offre prédéfinie]** : cochez cette option et définissez un emplacement, une offre précise, ainsi qu&#39;une date de contact afin de directement paramétrer l&#39;offre que vous souhaitez ajouter, sans appeler le moteur d&#39;offres.
 
      ![](../assets/enrichment-predefinedoffer.png)
 

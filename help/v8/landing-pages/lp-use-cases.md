@@ -10,8 +10,8 @@ keywords: destination, page de destination, cas d’utilisation
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1419'
+ht-degree: 100%
 
 ---
 

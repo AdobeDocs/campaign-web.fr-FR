@@ -8,8 +8,8 @@ level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1102'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Un modèle inclut les éléments suivants :
 * Du [contenu](../email/edit-content.md) personnalisé,
 * Des [champs personnalisés](../personalization/personalize.md) et du [contenu conditionnel](../personalization/conditions.md),
 * Des liens vers la [page miroir](../email/mirror-page.md) et des [liens](../email/message-tracking.md) de désinscription,
-* D’autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
+* Autres propriétés de diffusion, telles que la validité des ressources et les paramètres de reprise ou de mise en quarantaine.
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Pour créer un modèle de diffusion, vous pouvez :
 
 ### Dupliquer un modèle de diffusion existant {#copy-an-existing-template}
 
-Campaign inclut des modèles intégrés pour chaque canal : e-mail, notification push et SMS. Le moyen le plus simple de créer un modèle de diffusion consiste à dupliquer et à personnaliser un modèle intégré.
+Campaign inclut des modèles intégrés pour chaque canal : e-mail, notification push et SMS. Le moyen le plus simple de créer un modèle de diffusion consiste à dupliquer et personnaliser un modèle intégré.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Pour dupliquer un modèle de diffusion, procédez comme suit :
 
 1. Testez le rendu du modèle si nécessaire. [En savoir plus](#test-template)
 
-Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez maintenant le sélectionner lors de la création d’une diffusion.
+Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez désormais le sélectionner lors de la création d’une diffusion.
 
 ### Convertir une diffusion en modèle {#convert-an-existing-delivery}
 
@@ -129,7 +129,7 @@ Pour enregistrer une diffusion comme modèle, procédez comme suit :
 
 1. Testez le rendu du modèle si nécessaire. [En savoir plus](#test-template)
 
-Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez maintenant le sélectionner lors de la création d’une diffusion.
+Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez désormais le sélectionner lors de la création d’une diffusion.
 
 ### Créer un modèle de diffusion {#create-a-new-template}
 
@@ -168,7 +168,7 @@ Pour créer un modèle de diffusion à partir de zéro, procédez comme suit :
 
 1. Testez le rendu du modèle si nécessaire. [En savoir plus](#test-template)
 
-Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez maintenant le sélectionner lors de la création d’une diffusion.
+Le nouveau modèle est ajouté à la liste des [**modèles**](#access-manage-templates). Vous pouvez désormais le sélectionner lors de la création d’une diffusion.
 
 ## Tester un modèle de diffusion {#test-template}
 

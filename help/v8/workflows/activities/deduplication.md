@@ -44,7 +44,7 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Dans la section **Champs pour identifier les doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs permet de spécifier ceux à traiter en premier. [Découvrez comment sélectionner des attributs et les ajouter aux favoris](../../get-started/attributes.md).
 
-1. Dans la section **Paramètres de déduplication**, sélectionnez le nombre de **Doublons à conserver** uniques. La valeur par défaut de ce champs est 1. La valeur 0 conserve tous les doublons.
+1. Dans la section **Paramètres de déduplication**, sélectionnez le nombre de **Doublons à conserver** uniques. La valeur par défaut de ce champ est 1. La valeur 0 conserve tous les doublons.
 
    Par exemple, si des enregistrements A et B sont considérés comme des doublons d’un enregistrement Y, et qu’un enregistrement C est considéré comme un doublon d&#39;un enregistrement Z :
 
