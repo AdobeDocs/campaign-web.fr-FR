@@ -128,7 +128,7 @@ Pour les notifications push, vous pouvez rapidement remplir toutes les variantes
 
 * **Efficacité** : ajoutez plusieurs langues et leur contenu en une seule opération
 * **Cohérence** : assurer une messagerie uniforme dans toutes les variantes linguistiques
-* **** : permettez aux équipes de contenu de préparer des traductions dans des outils de feuille de calcul familiers
+* **&#x200B;**&#x200B;: permettez aux équipes de contenu de préparer des traductions dans des outils de feuille de calcul familiers
 * **Gestion en masse** : gérez et mettez facilement à jour un grand nombre de variantes linguistiques
 
 ### Conditions préalables requises {#csv-best-practices}
