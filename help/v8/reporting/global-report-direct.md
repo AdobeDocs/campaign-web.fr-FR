@@ -79,7 +79,7 @@ Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des d
 >title="Statistiques de diffusion"
 >abstract="Le tableau **Statistiques de diffusion** détaille le succès de votre diffusion de courrier et les erreurs qui se sont produites."
 
-Le graphe **[!UICONTROL Statistiques de diffusion]** fournit une répartition du succès de chaque diffusion par courrier, avec les mesures détaillées décrites ci-dessous.
+Le graphe et le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition du succès de chaque diffusion par courrier, avec les mesures détaillées décrites ci-dessous.
 
 +++En savoir plus sur les mesures Statistiques de diffusion .
 

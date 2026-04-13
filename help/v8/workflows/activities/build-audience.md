@@ -67,7 +67,7 @@ Pour sélectionner une audience existante, procédez comme suit :
 
 1. Sélectionnez **Lecture d’audience**.
 1. Cliquez sur **Continuer**.
-1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d’une nouvelle diffusion. Reportez-vous à cette [section](../../audience/add-audience.md).
+1. Sélectionnez votre audience, de la même manière que vous utilisez une audience lors de la conception d’une nouvelle diffusion. Consultez cette [section](../../audience/add-audience.md).
 
 >[!ENDTABS]
 

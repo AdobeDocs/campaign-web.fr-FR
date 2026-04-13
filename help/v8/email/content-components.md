@@ -40,7 +40,7 @@ Vous pouvez ajouter autant de **[!UICONTROL contenus]** que nécessaire dans une
 
 Pour ajouter des composants de contenu à votre e-mail et les ajuster selon vos besoins, suivez les étapes ci-dessous.
 
-1. Dans le concepteur d’e-mail, utilisez un [contenu existant](existing-content.md) ou faites glisser et déposez une **[!UICONTROL structure]** dans votre contenu vide pour définir la disposition de votre e-mail. [Voici comment procéder](create-email-content.md).
+1. Dans le concepteur d’e-mail, utilisez un [contenu existant](existing-content.md) ou faites glisser et déposez une **[!UICONTROL structure]** dans votre contenu vide pour définir la disposition de votre e-mail. [Voici comment procéder](create-email-content.md)
 
 1. Faites glisser et déposez le **[!UICONTROL contenu]** de votre choix dans les structures appropriées.
 

@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
->title="Contenu"
+>title="Content"
 >abstract="Dans cette section, indiquez les colonnes à afficher dans le fichier d’extraction. Une fois cette opération terminée, vous pouvez prévisualiser le fichier d’extraction à l’aide du bouton **Simuler le contenu**."
 
 Pour concevoir le contenu du fichier d’extraction généré par votre diffusion par courrier, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir de la page de diffusion, puis configurez les propriétés et le contenu du fichier.

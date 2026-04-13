@@ -35,7 +35,7 @@ Les tableaux de bord des alertes de diffusion permettent de spécifier qui recev
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
->title="Critères des alertes de diffusion"
+>title="Critères des alertes de diffusion       "
 >abstract="Dans cette section, ajoutez les critères que vous souhaitez utiliser pour envoyer des alertes à partir de ce tableau de bord. Faites votre choix parmi les critères prédéfinis ou créez vos propres critères pour répondre à des besoins spécifiques."
 
 >[!CONTEXTUALHELP]

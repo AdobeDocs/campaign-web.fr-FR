@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Critères des alertes de diffusion {#delivery-alerting-criteria}
+# Critères des alertes de diffusion        {#delivery-alerting-criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"

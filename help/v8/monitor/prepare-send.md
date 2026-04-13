@@ -5,8 +5,8 @@ description: Découvrez comment préparer et envoyer un e-mail avec l’interfac
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '949'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Les étapes principales de l’envoi d’une diffusion sont répertoriées ci-de
    * **[!UICONTROL À diffuser]** : le nombre de messages qui seront envoyés.
    * **[!UICONTROL À exclure]** : le nombre de messages exclus par une [règle de typologie](../advanced-settings/delivery-settings.md#typology).
 
-1. Cliquez sur le bouton **[!UICONTROL Logs]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md).
+1. Cliquez sur le bouton **[!UICONTROL Logs]** et vérifiez qu’il n’y a aucune erreur. Le dernier message de logs affiche les erreurs éventuelles et leur nombre. [En savoir plus](delivery-logs.md)
 
    ![Bouton Logs dans le tableau de bord de la diffusion](assets/email-prepare-logs.png){zoomable="yes"}
 
@@ -161,4 +161,4 @@ Une fois l’envoi terminé, vous pouvez vérifier les KPI affichés :
 
 Pour en savoir plus sur les KPI, consultez [cette page](../reporting/kpis.md).
 
-Vous pouvez également consulter les logs. [En savoir plus](delivery-logs.md).
+Vous pouvez également consulter les logs. [En savoir plus](delivery-logs.md)
