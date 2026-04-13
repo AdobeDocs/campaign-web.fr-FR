@@ -3,10 +3,10 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
+source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 97%
+source-wordcount: '1648'
+ht-degree: 98%
 
 ---
 
@@ -173,10 +173,7 @@ Des informations supplémentaires sur la prévisualisation des e-mails et l’en
 
    ![Capture d’écran montrant l’aperçu de l’e-mail en fonction des profils sélectionnés](assets/preview.png){zoomable="yes"}
 
-   <!--
-En outre, le bouton **[!UICONTROL Rendu d’e-mail]** vous permet de prévisualiser l’e-mail à l’aide de plusieurs appareils ou fournisseurs de messagerie. Découvrez comment prévisualiser le rendu des e-mails .
-
-—>
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering-->
 
 1. Pour envoyer des BAT, cliquez sur le bouton **[!UICONTROL Envoyer des BAT]**, puis sélectionnez le mode à utiliser.
 
@@ -257,4 +254,4 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
