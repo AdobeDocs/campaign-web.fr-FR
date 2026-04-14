@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # Créer un message WhatsApp {#create-whatsapp}
 
-L&#39;interface utilisateur Web d&#39;Adobe Campaign **** vous permet de concevoir des messages WhatsApp qui utilisent des modèles approuvés par Meta, de les personnaliser pour chaque profil et de les tester avant de les envoyer.
+L&#39;interface utilisateur Web d&#39;Adobe Campaign **&#x200B;**&#x200B;vous permet de concevoir des messages WhatsApp qui utilisent des modèles approuvés par Meta, de les personnaliser pour chaque profil et de les tester avant de les envoyer.
 
 
 +++ En savoir plus sur les éléments de message pris en charge et les appels à l’action
