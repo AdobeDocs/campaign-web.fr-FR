@@ -5,9 +5,9 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 95%
 
 ---
@@ -73,6 +73,8 @@ ht-degree: 95%
    + Centre d’appel {#call-center}
       + [Commencer avec les diffusions de centre d’appel](call-center/gs-call-center.md)
       + [Créer et envoyer une diffusion de centre d’appel](call-center/create-call-center.md)
+   + {hide-from-toc}[Prise en main de WhatsApp](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[Créer une diffusion WhatsApp](whatsapp/create-whatsapp.md)
    + [Canaux personnalisés](call-center/gs-custom-channel.md)
    + Messages transactionnels {#transactional-messages}
       + [Prise en main des messages transactionnels](transactional-messaging/transactional.md)
