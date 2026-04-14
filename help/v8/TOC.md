@@ -5,9 +5,9 @@ user-guide-description: Documentation du produit pour l’interface utilisateur 
 title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
-source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 95%
       + [Versions 2026](rn/release-notes-26.md)
       + [Versions 2025](rn/release-notes-25.md)
       + [Versions 2024](rn/release-notes-24.md)
-   + {hide-from-toc}[&#x200B; Mises à jour de la documentation &#x200B;](rn/documentation-updates.md)
+   + {hide-from-toc}[ Mises à jour de la documentation ](rn/documentation-updates.md)
 + Prise en main d’Adobe Campaign {#start}
    + [Commencer](get-started/get-started.md)
    + [Se connecter à Campaign](get-started/connect-to-campaign.md)
@@ -36,7 +36,7 @@ ht-degree: 95%
    + [Autorisations](get-started/permissions.md)
    + [Campaign Web et console cliente](get-started/capability-matrix.md)
    + [De Campaign Standard à v8](rn/acs-migration.md)
-   + {hide-from-toc}[&#x200B; Aide contextuelle optimisée par l’IA &#x200B;](get-started/using-ai.md)
+   + {hide-from-toc}[ Aide contextuelle optimisée par l’IA ](get-started/using-ai.md)
    + [FAQ](get-started/faq.md)
 + Messages et diffusions {#msg}
    + [Commencer avec les messages](msg/gs-messages.md)
@@ -73,6 +73,8 @@ ht-degree: 95%
    + Centre d’appel {#call-center}
       + [Commencer avec les diffusions de centre d’appel](call-center/gs-call-center.md)
       + [Créer et envoyer une diffusion de centre d’appel](call-center/create-call-center.md)
+   + {hide-from-toc}[Prise en main de WhatsApp](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[Créer une diffusion WhatsApp](whatsapp/create-whatsapp.md)
    + [Canaux personnalisés](call-center/gs-custom-channel.md)
    + Messages transactionnels {#transactional-messages}
       + [Prise en main des messages transactionnels](transactional-messaging/transactional.md)
@@ -93,7 +95,7 @@ ht-degree: 95%
    + Alertes de diffusion {#delivery-alerting}
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
-      + [Critères des alertes de diffusion       &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Critères des alertes de diffusion       ](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
    + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
@@ -293,7 +295,7 @@ ht-degree: 95%
       + [Création et publication de schémas](administration/schemas-create-publish.md)
       + [Utilisation de formulaires personnalisés](administration/schemas-custom-forms.md)
    + {hide-from-toc}[Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + [Gestion du fuseau horaire](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)
