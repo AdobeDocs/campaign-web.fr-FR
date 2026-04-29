@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 88%
+source-wordcount: '629'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ Toutes les activités sont présentées dans les sections ci-dessous :
 
 Ces activités sont spécifiques au ciblage. Elles permettent de créer une ou plusieurs audiences cibles en définissant une audience, puis en divisant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
-* [Créer une audience](build-audience.md) : définissez votre population cible. Sélectionnez une audience existante ou utilisez le concepteur de requête pour définir votre propre requête.
+* [Créer une audience](build-audience.md) : définissez votre population cible. Sélectionnez une audience existante ou utilisez le concepteur de requête pour définir votre propre requête. Vous pouvez également configurer **Données d’enrichissement** (disponible pour les requêtes).
 * [Modifier la source de données](change-data-source.md) : modifiez la source de données de la table de travail de votre workflow.
 * [Changement de dimension](change-dimension.md) : modifiez la dimension de ciblage lors de la création de votre workflow.
 * [Combiner](combine.md) : effectuez une segmentation sur votre population entrante. Utilisez une union, une intersection ou une exclusion.
@@ -61,7 +61,7 @@ Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes ma
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
->title="Activité Fin"
+>title="Activité de fin"
 >abstract="L’activité **Début** vous permet de marquer graphiquement le début d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative."
 
 >[!CONTEXTUALHELP]
