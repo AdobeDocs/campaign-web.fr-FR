@@ -2,9 +2,9 @@
 title: Mécanismes de sécurisation et limitations des workflows dans l’interface utilisateur web de Campaign
 description: Mécanismes de sécurisation et limitations lors de l’utilisation de workflows dans l’interface utilisateur web de Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 21c2b9735c465f582516b9b4c07126a4ba620583
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '382'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,14 @@ Les activités de workflow qui ne sont pas encore prises en charge dans l’inte
 | --- | --- |
 | ![Capture d’écran montrant les limites des activités dans la console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Capture d’écran montrant les limites des activités dans l’interface web](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
-Lorsqu’une activité **Requête** ou **Enrichissement** est paramétrée avec des données additionnelles dans la console, les données d’enrichissement sont prises en compte dans Campaign Web et transmises à la transition sortante, mais elles ne peuvent pas être éditées.
+<!--
+When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
 | --- | --- |
-| ![Capture d’écran montrant les limites des options dans la console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Capture d’écran montrant les limites des options dans l’interface web](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+
+-->
 
 Dans la console, l’activité **Enrichissement** peut effectuer à la fois la réconciliation et l’enrichissement. Si vous avez défini des paramètres de réconciliation dans l’activité **Enrichissement** dans la console cliente, elle s’affichera en tant qu’activité **Réconciliation** dans l’interface d’utilisation de Campaign Web.
 

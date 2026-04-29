@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Enrichissement
 description: Découvrez comment utiliser l’activité de workflow Enrichissement.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 100%
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 100%
 >abstract="L’activité **Enrichissement** permet d’enrichir les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de segmentation."
 
 L’activité **Enrichissement** est une activité de **ciblage**. Elle améliore les données ciblées avec des informations supplémentaires provenant de la base de données. Elle est généralement utilisée dans un workflow après les activités de segmentation.
+
+>[!NOTE]
+>
+>L’activité **Créer une audience** vous permet également d’ajouter des **données supplémentaires**. Voir [Utiliser l’activité Créer une audience](build-audience.md#build-audience-configuration).
 
 Les données d’enrichissement tirent leur origine des sources suivantes :
 

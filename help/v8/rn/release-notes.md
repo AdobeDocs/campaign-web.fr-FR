@@ -2,10 +2,10 @@
 title: Notes de mise à jour de l’interface d’utilisation de Campaign v8 Web
 description: Découvrez les nouvelles fonctionnalités accompagnant la dernière version de l’interface d’utilisation de Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 304e3771ee55777d2eaf7a6c83ee4af3c97aa3b6
+source-git-commit: f1f207785ad25ceb8f9891bfad74193768cb2937
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 28%
+source-wordcount: '631'
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,19 @@ ht-degree: 28%
 
 Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont complétées plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
+## Version d’avril 2026 {#26-4-release}
+
+_29 avril 2026_
+
+### Amélioration {#26-4-improvement}
+
+La section **Données d’enrichissement** est désormais disponible dans l’activité de workflow **Créer une audience** (type de requête). Vous pouvez afficher, ajouter, modifier et supprimer des **données supplémentaires** directement depuis l’interface utilisateur web de Campaign. Comme dans l’activité **Enrichissement**, vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection et des expressions.
+
+[En savoir plus](../workflows/activities/build-audience.md)
+
 ## Version du 26 mars {#26-3-release}
+
+_24 mars_ 2026_
 
 ### Nouvelles fonctionnalités {#26-3-features}
 
