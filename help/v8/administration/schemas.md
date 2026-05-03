@@ -4,8 +4,8 @@ description: Découvrez comment utiliser les schémas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 39%
+source-wordcount: '319'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schémas"
->abstract="Adobe Campaign utilise des schémas XML pour définir la structure physique et logique des données dans l’application. Depuis cet écran, vous pouvez afficher tous les schémas existants, accéder aux détails du schéma, configurer des formulaires personnalisés et créer ou étendre des schémas directement à partir de l’interface utilisateur web."
+>abstract="Adobe Campaign utilise des schémas XML pour définir la structure physique et logique des données dans l’application. Depuis cet écran, vous pouvez afficher tous les schémas existants, accéder aux détails du schéma, configurer des formulaires personnalisés et créer ou étendre des schémas directement à partir de l’interface d’utilisation web."
 
 **[!DNL Adobe Campaign]** utilise des schémas XML pour définir la structure physique et logique des données dans l’application. Un schéma est un document XML lié à une table de base de données qui définit les éléments suivants :
 
