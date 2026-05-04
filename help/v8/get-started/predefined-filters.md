@@ -3,9 +3,9 @@ title: Utiliser des filtres prédéfinis
 description: Découvrir comment créer et gérer des filtres prédéfinis dans Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '1061'
+ht-degree: 100%
 
 ---
 
@@ -67,11 +67,11 @@ Vous pouvez enregistrer un filtre personnalisé à partir du [concepteur de requ
 
    ![Interface de l’option Enregistrer les détails du filtre](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter). Vous pouvez également activer l&#39;option **[!UICONTROL Filtre partagé]** pour rendre le filtre accessible aux autres utilisateurs. En savoir plus dans [cette section](#share-filter).
+   Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter). Vous pouvez également activer l’option **[!UICONTROL Filtre partagé]** pour rendre le filtre accessible aux autres utilisateurs et utilisatrices.En savoir plus dans [cette section](#share-filter).
 
 1. Cliquez sur **Confirmer** pour sauvegarder vos changements.
 
-Votre filtre personnalisé est désormais disponible dans la liste **Filtres prédéfinis**.
+Votre filtre personnalisé est désormais disponible dans la liste des **Filtres prédéfinis**.
 
 ### Créer un filtre à partir de la liste des filtres {#create-filter-from-list}
 
@@ -89,7 +89,7 @@ Vous pouvez créer un filtre à partir de l’entrée **Filtres prédéfinis** d
 
    ![Interface du message Nouveau filtre enregistré](assets/new-filter.png){zoomable="yes"}
 
-Le filtre est ajouté à la liste des filtres prédéfinis. Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter). Vous pouvez également partager le filtre avec d&#39;autres utilisateurs en activant l&#39;option **[!UICONTROL Filtre partagé]**. En savoir plus dans [cette section](#share-filter).
+Le filtre est ajouté à la liste des filtres prédéfinis. Si nécessaire, vous pouvez enregistrer le filtre en tant que favori. En savoir plus dans [cette section](#fav-filter). Vous pouvez également partager le filtre avec d’autres utilisateurs et utilisatrices en activant l’option **[!UICONTROL Filtre partagé]**.En savoir plus dans [cette section](#share-filter).
 
 ## Enregistrer votre filtre comme favori {#fav-filter}
 
@@ -99,13 +99,13 @@ Lorsqu’un filtre est enregistré comme favori, il est disponible pour tous les
 
 ![Section Filtres favoris](assets/predefined-filters-favorite.png){zoomable="yes"}
 
-## Partage d’un filtre prédéfini {#share-filter}
+## Partager un filtre prédéfini {#share-filter}
 
-Par défaut, les filtres prédéfinis que vous créez sont privés et visibles uniquement par vous. Pour rendre un filtre accessible aux autres opérateurs et opératrices de votre organisation, activez l’option **[!UICONTROL Filtre partagé]**.
+Par défaut, les filtres prédéfinis que vous créez sont privés et visibles uniquement par vous.Pour rendre un filtre accessible aux autres opérateurs et opératrices de votre organisation, activez l’option **[!UICONTROL Filtre partagé]**.
 
-![Option de filtre partagé](assets/predefined-filters-shared.png){zoomable="yes"}
+![Option Filtre partagé](assets/predefined-filters-shared.png){zoomable="yes"}
 
-Les filtres partagés apparaissent dans la liste des filtres prédéfinis pour tous les utilisateurs et utilisatrices, ce qui leur permet d’utiliser ces filtres dans leurs propres workflows et requêtes.
+Les filtres partagés apparaissent dans la liste des filtres prédéfinis pour tous les utilisateurs et utilisatrices. Ils peuvent ainsi être utilisés dans leurs propres workflows et requêtes.
 
 ## Utiliser un filtre prédéfini {#use-predefined-filter}
 
@@ -129,7 +129,7 @@ Par exemple, pour créer une audience à partir d’un filtre prédéfini, proc�
 
    ![Interface de la liste de filtres prédéfinis](assets/build-audience-filter-list.png){zoomable="yes"}
 
-   Vous pouvez également modifier ou supprimer un filtre prédéfini existant à l’aide du bouton ![](../content/assets/do-not-localize/Smock_More_18_N.svg) .
+   Vous pouvez également modifier ou supprimer un filtre prédéfini à l’aide du bouton ![](../content/assets/do-not-localize/Smock_More_18_N.svg).
 
 1. Vérifiez les propriétés de règle pour ce filtre et confirmez.
 
@@ -151,7 +151,7 @@ Dans cette liste, vous pouvez créer un filtre et effectuer les actions ci-desso
 * dupliquer un filtre prédéfini ;
 * supprimer un filtre prédéfini.
 
-Vous pouvez également modifier ou supprimer un filtre prédéfini directement à partir du créateur de règles. Dans la fenêtre de sélection des filtres prédéfinis, utilisez le bouton **Plus d’actions**. Vous pouvez supprimer le filtre ou le modifier. Vous pouvez modifier le libellé, ajouter une description, l’ajouter en tant que favori ou activer/désactiver l’option **[!UICONTROL Filtre partagé]** pour contrôler qui peut accéder au filtre.
+Vous pouvez également modifier ou supprimer un filtre prédéfini directement à partir du créateur de règles. Dans la fenêtre de sélection des filtres prédéfinis, utilisez le bouton **Plus d’actions**. Vous pouvez supprimer le filtre ou le modifier. Vous pouvez modifier le libellé, ajouter une description, l’ajouter en tant que favori ou activer/désactiver l’option **[!UICONTROL Filtre partagé]** afin de contrôler qui peut accéder au filtre.
 
 ![Modification des filtres prédéfinis](assets/filter-edit.png){zoomable="yes"}
 

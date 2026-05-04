@@ -5,9 +5,9 @@ description: En savoir plus sur les landing pages dans Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Les principales fonctionnalités des landing pages sont répertoriées ci-dessou
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Créer des landing pages à l’aide de modèles préremplis" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Créer des pages de destination à l’aide de modèles préremplis" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>Créer des landing pages</strong>
 </div>
@@ -53,7 +53,7 @@ Les principales fonctionnalités des landing pages sont répertoriées ci-dessou
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="Concevoir des landing pages réactives" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Concevoir des pages de destination réactives" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>Concevoir des landing pages</strong></a>
@@ -65,7 +65,7 @@ Les principales fonctionnalités des landing pages sont répertoriées ci-dessou
 <img alt="Cas d’utilisation de pages de destination et modèles intégrés" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-use-cases.md"><strong>Cas d’utilisation des pages de destination</strong></a>
+<a href="lp-use-cases.md"><strong>Cas d’utilisation de pages de destination</strong></a>
 </div>
 <p>
 </td>

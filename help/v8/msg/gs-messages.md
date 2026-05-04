@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Commencer avec les messages et les diffusions dans Adobe Campaign Web
-description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de l’interface utilisateur web d’Adobe Campaign
+description: Découvrez comment utiliser les diffusions et envoyer des messages à l’aide de l’interface d’utilisation de Campaign Web.
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 75%
+workflow-type: ht
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
 
 
 # Commencer avec les messages{#gs-messages}
 
-Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, notamment par e-mail, SMS, notifications push, [WhatsApp](../whatsapp/get-started-whatsapp.md) et courrier, et mesurer leur impact à l’aide de différents rapports dédiés.
+Avec Adobe Campaign, vous pouvez envoyer des campagnes cross-canal, y compris sous forme d’e-mails, de SMS, de notifications push, de [WhatsApp](../whatsapp/get-started-whatsapp.md) et de courrier, puis mesurer leur impact à l’aide de différents rapports dédiés.
 
 Vous concevez et envoyez ces messages à l’aide de diffusions, et vous pouvez les personnaliser pour chaque destinataire. Ces diffusions peuvent être autonomes ou incluses dans des workflows, dans le cadre d’une campagne marketing. Découvrez comment créer et gérer des diffusions dans Adobe Campaign dans [cette section](gs-deliveries.md).
 

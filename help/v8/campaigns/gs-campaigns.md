@@ -4,8 +4,8 @@ title: Commencer avec les campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: tm+mt
-source-wordcount: '221'
+workflow-type: ht
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -29,5 +29,5 @@ Découvrez comment créer, gérer et surveiller des campagnes dans les sections 
 
 * [Accéder aux campagnes et les gérer](manage-campaigns.md)
 * [Créer votre première campagne](create-campaigns.md)
-* [Configuration et gestion du processus de validation](campaign-approvals.md)
+* [Configurer et gérer le processus de validation](campaign-approvals.md)
 * [Parcourez vos rapports de campagne](../reporting/campaign-reports.md).
