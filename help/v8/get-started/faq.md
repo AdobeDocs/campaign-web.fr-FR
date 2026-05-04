@@ -77,6 +77,6 @@ Pour l’instant, toutes les fonctionnalités seront disponibles via la console 
 
 +++ Existe-t-il des mécanismes de sécurisation ou des limitations pour la nouvelle interface d’utilisation web ?
 
-Les mécanismes de sécurisation et limites de Campaign v8 sont présentés [ici](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. En outre, des mécanismes de sécurisation spécifiques s’appliquent aux workflows dans l’interface d’utilisation web. Vous pouvez les consulter sur [cette page](../get-started/guardrails.md). Consultez également [Adobe Campaign Managed Cloud Services | Description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Les mécanismes de sécurisation et limites de Campaign v8 sont présentés [ici](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. En outre, des mécanismes de sécurisation spécifiques s’appliquent aux workflows dans l’interface d’utilisation web. Vous pouvez les consulter sur [cette page](../get-started/guardrails.md). Consultez également [Adobe Campaign Managed Cloud Services | Description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 +++
