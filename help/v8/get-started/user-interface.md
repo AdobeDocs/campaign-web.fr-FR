@@ -7,8 +7,8 @@ robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
-workflow-type: tm+mt
-source-wordcount: '1525'
+workflow-type: ht
+source-wordcount: '1564'
 ht-degree: 100%
 
 ---
@@ -151,7 +151,7 @@ Découvrez comment créer et envoyer des offres dans des e-mails et des SMS dans
 
 * **Rapports** : l’entrée **Rapport** fournit un résumé global et synthétique des mesures de trafic et d’engagement pour chaque canal de votre environnement Campaign. Ces rapports sont composés de différents widgets, chacun fournissant une perspective spécifique des performances de vos campagnes ou diffusions. En savoir plus dans [cette section](../reporting/global-reports.md).
 
-### Administration  {#left-nav-admin}
+### Administration {#left-nav-admin}
 
 * **Journal d’audit** : l’entrée **Journal d’audit** offre aux utilisateurs et utilisatrices une visibilité complète de toutes les modifications apportées à des entités importantes de votre instance, généralement celles qui ont un impact significatif sur le bon fonctionnement de l’instance. [En savoir plus](../reporting/audit-trail.md).
 

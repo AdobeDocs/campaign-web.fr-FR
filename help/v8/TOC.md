@@ -6,9 +6,9 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
       + [Versions 2026](rn/release-notes-26.md)
       + [Versions 2025](rn/release-notes-25.md)
       + [Versions 2024](rn/release-notes-24.md)
-   + {hide-from-toc}[&#x200B; Mises à jour de la documentation &#x200B;](rn/documentation-updates.md)
+   + {hide-from-toc}[Mises à jour de la documentation](rn/documentation-updates.md)
 + Prise en main d’Adobe Campaign {#start}
    + [Commencer](get-started/get-started.md)
    + [Se connecter à Campaign](get-started/connect-to-campaign.md)
@@ -36,7 +36,7 @@ ht-degree: 95%
    + [Autorisations](get-started/permissions.md)
    + [Campaign Web et console cliente](get-started/capability-matrix.md)
    + [De Campaign Standard à v8](rn/acs-migration.md)
-   + {hide-from-toc}[&#x200B; Aide contextuelle optimisée par l’IA &#x200B;](get-started/using-ai.md)
+   + {hide-from-toc}[Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
    + [FAQ](get-started/faq.md)
 + Messages et diffusions {#msg}
    + [Commencer avec les messages](msg/gs-messages.md)
@@ -73,7 +73,7 @@ ht-degree: 95%
    + Centre d’appel {#call-center}
       + [Commencer avec les diffusions de centre d’appel](call-center/gs-call-center.md)
       + [Créer et envoyer une diffusion de centre d’appel](call-center/create-call-center.md)
-   + {hide-from-toc}[Prise en main de WhatsApp](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[Commencer avec WhatsApp](whatsapp/get-started-whatsapp.md)
    + {hide-from-toc}[Créer une diffusion WhatsApp](whatsapp/create-whatsapp.md)
    + [Canaux personnalisés](call-center/gs-custom-channel.md)
    + Messages transactionnels {#transactional-messages}
@@ -95,7 +95,7 @@ ht-degree: 95%
    + Alertes de diffusion {#delivery-alerting}
       + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
       + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
-      + [Critères des alertes de diffusion       &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Critères des alertes de diffusion](msg/delivery-alerting-criteria.md)
 + Gestion de contenu {#content}
    + Créer du contenu dynamique {#dynamic-content}
       + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
@@ -143,8 +143,8 @@ ht-degree: 95%
       + Marques {#ai-assistant}
          + [Créer et gérer vos marques](content/brands.md)
          + [Personnaliser votre marque](content/brands-personalize.md)
-         + [Création et gestion de modèles génératifs](content/generative-models.md)
-         + [Évaluation de votre contenu](content/brands-score.md)
+         + [Créer et gérer des modèles génératifs](content/generative-models.md)
+         + [Évaluer votre contenu](content/brands-score.md)
 + Landing pages {#landing-pages}
    + [Commencer avec les landing pages](landing-pages/get-started-lp.md)
    + [Créer et publier une page de destination](landing-pages/create-lp.md)
@@ -176,7 +176,7 @@ ht-degree: 95%
    + [Commencer avec les campagnes](campaigns/gs-campaigns.md)
    + [Accéder aux campagnes et les gérer](campaigns/manage-campaigns.md)
    + [Créer votre première campagne](campaigns/create-campaigns.md)
-   + [Configuration et gestion du processus de validation](campaigns/campaign-approvals.md)
+   + [Configurer et gérer le processus de validation](campaigns/campaign-approvals.md)
    + [Plans et programmes](administration/plans-programs.md)
 + Workflows {#wf}
    + [Commencer avec les workflows](workflows/gs-workflows.md)
@@ -221,7 +221,7 @@ ht-degree: 95%
    + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
    + [Créer votre première requête](query/build-query.md)
    + [Éditer les expressions](query/expression-editor.md)
-   + {hide-from-toc}[Exemples de requêtes](query/query-samples.md)
+   + {hide-from-toc}[Exemples de requête](query/query-samples.md)
    + [Filtrer les listes](query/filter.md)
 + Reporting {#reports}
    + [Journal d’audit](reporting/audit-trail.md)
@@ -277,9 +277,9 @@ ht-degree: 95%
    + [Utiliser d’autres solutions Adobe](integrations/integration.md)
    + [Gérer les ressources avec Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gérer les modèles avec Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
-   + [Gestion des copies de langue avec Adobe Experience Manager](integrations/aem-multilingual.md)
+   + [Gérer des copies de langue avec Adobe Experience Manager](integrations/aem-multilingual.md)
    + [Utiliser GenStudio for Performance Marketing](integrations/genstudio.md)
-+ Configuration  {#conf}
++ Configuration {#conf}
    + Branding {#branding}
       + [À propos du branding](administration/branding/branding-gs.md)
       + [Configurer une marque](administration/branding/branding-configure.md)
@@ -288,14 +288,14 @@ ht-degree: 95%
    + [Gérer les mappings de ciblage](administration/target-mappings.md)
    + Utiliser les schémas {#schemas}
       + [À propos des schémas](administration/schemas.md)
-      + [Accès et configuration des schémas](administration/schemas-browse-access.md)
-      + [Configurer les colonnes de la liste](administration/schemas-list-columns.md)
+      + [Accéder aux schémas et les configurer](administration/schemas-browse-access.md)
+      + [Configurer des colonnes de listes](administration/schemas-list-columns.md)
       + [Modifier des champs personnalisés](administration/schemas-custom-fields.md)
       + [Ajouter des listes de collection](administration/schemas-collection-lists.md)
-      + [Création et publication de schémas](administration/schemas-create-publish.md)
-      + [Utilisation de formulaires personnalisés](administration/schemas-custom-forms.md)
+      + [Créer et publier des schémas](administration/schemas-create-publish.md)
+      + [Utiliser les formulaires personnalisés](administration/schemas-custom-forms.md)
    + {hide-from-toc}[Configurer des champs personnalisés](administration/custom-fields.md)
-   + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
    + [Gestion du fuseau horaire](administration/timezone-management.md)
    + Comptes externes {#external-accounts}
       + [Créer des comptes externes](administration/create-external-account.md)
