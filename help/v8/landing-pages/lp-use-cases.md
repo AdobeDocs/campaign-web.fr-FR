@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1445'
 ht-degree: 100%
 
 ---
@@ -94,7 +94,7 @@ Le premier modèle vous permet d’ajouter ou de mettre à jour un profil dans l
 
 1. Ajustez votre contenu selon vos besoins et enregistrez vos modifications.
 
-1. Vérifiez et [publiez](create-lp.md#publish-landing-page) votre page de destination.
+1. Révisez et [publiez](create-lp.md#publish-landing-page) votre page de destination.
 
 1. Créez un [e-mail](../email/create-email.md) et [ajoutez un lien](../email/message-tracking.md#insert-links) à votre page de destination.
 
@@ -174,7 +174,7 @@ Vous pouvez permettre à vos clientes et clients de se désabonner d’un servic
 
 1. Ajustez votre contenu selon vos besoins et enregistrez vos modifications.
 
-1. Prévisualisez et [publiez](create-lp.md#publish-landing-page) votre page de destination.
+1. Révisez et [publiez](create-lp.md#publish-landing-page) votre page de destination.
 
 1. Créez un [e-mail](../email/create-email.md) et [ajoutez un lien](../email/message-tracking.md#insert-links) à la page de destination.
 
@@ -198,7 +198,7 @@ Vous pouvez configurer une page de destination **[!UICONTROL Liste bloquée]**, 
 
 1. Ajustez votre contenu selon vos besoins et enregistrez vos modifications.
 
-1. Vérifiez et [publiez](create-lp.md#publish-landing-page) votre page de destination.
+1. Révisez et [publiez](create-lp.md#publish-landing-page) votre page de destination.
 
 1. Créez un [e-mail](../email/create-email.md) et [ajoutez un lien](../email/message-tracking.md#insert-links) à votre page de destination afin de permettre aux utilisateurs et aux utilisatrices de se désinscrire des communications.
 

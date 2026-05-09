@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser l’activité de workflow Planificateur
 description: Découvrez comment utiliser l’activité de workflow Planificateur.
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '510'
 ht-degree: 100%
 
 ---

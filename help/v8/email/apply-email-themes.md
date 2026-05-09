@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 2%
+source-wordcount: '2077'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Thèmes dans Email Designer (LA)"
+>title="Thèmes dans le Concepteur d’e-mail (LA)"
 >abstract="Appliquez des styles de thème et des variables réutilisables pour que le contenu des e-mails reste cohérent avec votre marque. Cette fonctionnalité est réservée à un nombre restreint d’organisations (disponibilité limitée)"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
@@ -79,7 +79,7 @@ Pour définir un thème que vous pouvez exploiter dans les futurs contenus d’e
 
 1. Sélectionnez un thème Adobe. Dans cet exemple, sélectionnez le **[!UICONTROL Thème par défaut]** et cliquez sur **[!UICONTROL Créer]**.
 
-   ![&#x200B; Sélecteur de thème avec le thème par défaut sélectionné et le bouton Créer &#x200B;](assets/theme-select.png)
+   ![ Sélecteur de thème avec le thème par défaut sélectionné et le bouton Créer ](assets/theme-select.png)
 
 1. Vous pouvez également sélectionner un modèle personnalisé dans l’onglet **[!UICONTROL Mes thèmes]** et cliquer sur **[!UICONTROL Modifier]** pour le mettre à jour.
 
@@ -163,7 +163,7 @@ Pour appliquer des thèmes de style par défaut ou personnalisés à un modèle 
 
 1. Lorsqu’un thème est sélectionné dans un modèle de contenu, vous pouvez cliquer sur le bouton **[!UICONTROL Modifier le thème]** pour le mettre à jour. [En savoir plus](#create-and-edit-themes)
 
-   ![&#x200B; Modèle de contenu dans Email Designer avec le bouton Modifier le thème dans le panneau Thèmes &#x200B;](assets/theme-edit-in-template.png){width="40%"}
+   ![ Modèle de contenu dans Email Designer avec le bouton Modifier le thème dans le panneau Thèmes ](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -177,7 +177,7 @@ Pour appliquer des thèmes de style par défaut ou personnalisés à un modèle 
 
    Pour ce faire, sélectionnez un composant de structure, cliquez sur l’option **[!UICONTROL Utiliser la variante du thème spécifique]** dans l’onglet **[!UICONTROL Styles]** à droite, puis appliquez la variante souhaitée à cette structure.
 
-   ![&#x200B; Structure sélectionnée avec l’option Utiliser la variante du thème spécifique dans l’onglet Styles &#x200B;](assets/theme-structure-variant.png)
+   ![ Structure sélectionnée avec l’option Utiliser la variante du thème spécifique dans l’onglet Styles ](assets/theme-structure-variant.png)
 
    Dans cet exemple, la première variante de couleur du thème actuel est appliquée à l’ensemble du contenu de l’e-mail, mais la troisième variante de couleur est appliquée à la structure sélectionnée. Vous pouvez constater que les couleurs de fond du corps et de la fenêtre d’affichage pour cette structure spécifique sont différentes du reste du contenu.
 
@@ -227,7 +227,7 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Vous pouvez naviguer entre les onglets **[!UICONTROL Thèmes]** et **[!UICONTROL Mes thèmes]** et sélectionner jusqu’à cinq thèmes compatibles (dans les deux onglets) pour votre fragment.
 
-   ![Boîte de dialogue Sélectionner des thèmes compatibles avec les onglets Thèmes Adobe et Mes thèmes &#x200B;](assets/fragment-select-compatible-themes.png){width=70%}
+   ![Boîte de dialogue Sélectionner des thèmes compatibles avec les onglets Thèmes Adobe et Mes thèmes ](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
@@ -261,7 +261,7 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Attribuez un nom à votre thème.
 
-1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro, comme l’ajout d’une variante de couleur, la modification des polices, etc. [Voici comment procéder](#create-and-edit-themes)
+1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro, comme l’ajout d’une variante de couleur, la modification des polices, etc. [Découvrez comment ](#create-and-edit-themes)
 
    ![Thème généré dans l’éditeur affichant la palette de couleurs et les commandes de variantes](assets/generate-theme-colors.png){width=90%}
 

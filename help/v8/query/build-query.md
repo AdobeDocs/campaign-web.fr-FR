@@ -3,10 +3,10 @@ audience: end-user
 title: Créer votre première requête à l’aide du créateur de modèles de requête
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 100%
+source-wordcount: '2946'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez ajouter deux types d’éléments :
 
 >[!TAB Nouveau créateur de règles]
 
-![Exemple d&#39;ajout de composants de filtrage à une requête.](assets/ruleb-1.png){zoomable="yes"}
+![Exemple d’ajout de composants de filtrage à une requête.](assets/ruleb-1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -114,7 +114,7 @@ Pour filtrer votre requête à l’aide d’une condition personnalisée, procé
    | Compris dans | Renvoie les résultats compris dans les valeurs indiquées. Ces valeurs doivent être séparées par une virgule. | Date de naissance (@birthDate) est compris dans « 12/10/1979,12/10/1984 ». Les personnes destinataires nées entre ces dates sont alors renvoyées. |
    | Pas dans | Le principe est le même qu’avec l’opérateur Est compris dans. Ici, les personnes destinataires sont exclues en fonction des valeurs saisies. | La date de naissance (@birthDate) n’est pas incluse dans 12/10/1979,12/10/1984. Les personnes destinataires nées entre ces dates ne seront pas renvoyées. |
    | Est vide | Renvoie les résultats correspondant à une valeur vide dans la seconde colonne Valeur. | Mobile (@mobilePhone) est vide afin de retrouver toutes les personnes destinataires ne disposant pas d’un numéro de téléphone mobile. |
-   | N’est pas vide | Le principe est contraire à l’opérateur Est vide. Il n’est pas nécessaire de saisir de données dans la seconde colonne Valeur. | E-mail (@email) n’est pas vide. |
+   | N’est pas vide | Fonctionne à l’inverse de l’opérateur Est vide . Il n’est pas nécessaire de saisir des données dans la deuxième colonne Valeur . | E-mail (@email) n’est pas vide. |
    | Commence par | Renvoie des résultats commençant par la valeur indiquée. | N° de compte (@account) commence par « 32010 ». |
    | Ne commence pas par | Renvoie les résultats qui ne commencent pas par la valeur renseignée. | N° de compte (@account) ne commence pas par « 20 ». |
    | Contient | Renvoies les résultats comportant au moins la valeur renseignée. | Domaine d’e-mail (@domain) contient « mail ». Ici, tous les noms de domaine comportant la valeur « mail », comme « gmail.com », seront renvoyés en résultat. |

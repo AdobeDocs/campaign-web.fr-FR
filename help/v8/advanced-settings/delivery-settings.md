@@ -4,10 +4,10 @@ title: Configurer les paramètres de diffusion
 description: Découvrez comment configurer les paramètres de diffusion dans Campaign Web.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '3449'
-ht-degree: 100%
+source-wordcount: '3516'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ Les typologies sont des ensembles de **règles de typologie** qui sont exécuté
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
 >title="Poids de la diffusion"
->abstract="Le poids des diffusions permet d’identifier les diffusions prioritaires dans le cadre de la gestion de la pression. Les messages dont le poids est le plus important sont prioritaires."
+>abstract="Le poids des diffusions permet d’identifier les diffusions prioritaires dans le cadre de la gestion de la pression. Les messages dont le poids est le plus élevé sont prioritaires."
 
 Dans cette section, les paramètres de pression vous permettent de définir un **seuil** pour configurer des règles de gestion d’usure, qui est le nombre maximal de messages pouvant être envoyés à un profil sur une période donnée.
 
@@ -60,7 +60,7 @@ Dans le champ **[!UICONTROL Type de poids]**, trois options sont disponibles :
 * **[!UICONTROL Dépend du destinataire]**
 * **[!UICONTROL Défini dans chaque règle]**
 
-Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Le poids peut être fixe ou calculé au travers d&#39;une formule afin de l&#39;adapter en fonction du destinataire. Par exemple, vous pouvez définir le poids d&#39;une diffusion en fonction des centres d&#39;intérêt d&#39;un destinataire.
+Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Les poids peuvent être définis ou calculés au moyen d’une formule en fonction des destinataires. Vous pouvez par exemple définir le poids d’une diffusion en fonction des centres d’intérêt des destinataires.
 
 Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode d’évaluation de la cible.
 
@@ -101,7 +101,7 @@ Le champ **[!UICONTROL Importance de la personne destinataire]** est une formule
 >title="Paramètres d’audience de la diffusion"
 >abstract="Sélectionnez un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Vous pouvez également définir les paramètres d’exclusion de la diffusion."
 
-Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Le mapping de ciblage est le type de données qu’une opération traite. Il permet de définir la population ciblée : personnes destinataires, personnes bénéficiaires de contrats, opérateurs et opératrices, personnes abonnées, etc. [En savoir plus sur les mappings de ciblage](../audience/targeting-dimensions.md).
+Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Le mapping de ciblage est le type de données qu’une opération traite. Elle permet de définir la population ciblée : destinataires, titulaires d&#39;un contrat, opérateurs, abonnés, etc. [En savoir plus sur les mapping de ciblage](../audience/targeting-dimensions.md).
 
 Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des profils qui ne souhaitent plus être contactés ou qui sont mis en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr){target="_blank"}
 
@@ -197,7 +197,7 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validité des paramètres"
->abstract="Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.<br>Le champ **Limite de validité des ressources** est utilisé pour les ressources chargées, comme la page miroir ou les images. Au-delà de cette limite, ces ressources ne sont plus disponibles."
+>abstract="Le champ **Durée de diffusion** permet de saisir la limite pour les reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de validité n’est pas atteinte.<br>Le champ **Limite de validité des ressources** est utilisé pour les ressources chargées, comme la page miroir ou les images. Au-delà de cette limite, ces ressources ne sont plus disponibles."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
@@ -207,7 +207,7 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
 >title="Durée de diffusion"
->abstract="Le champ **Durée de diffusion** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte."
+>abstract="Le champ **Durée de diffusion** permet de saisir la limite pour les reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de validité n’est pas atteinte."
 
 <!--
 >[!CONTEXTUALHELP]
@@ -218,7 +218,7 @@ Vous pouvez sélectionner un autre mode de validation dans le champ correspondan
 
 ### Période de validité {#validity-period}
 
-Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.
+Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour les reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de validité n’est pas atteinte.
 
 Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l’heure. L’heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
 
@@ -232,7 +232,7 @@ En savoir plus sur la période de validité des diffusions dans la [documentatio
 
 ### Gestion des pages miroir (canal e-mail) {#mirror}
 
-La page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’e-mail. Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’e-mail.
+La page miroir est une page HTML accessible en ligne via un navigateur web. Son contenu est identique à celui de l’e-mail. Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’e-mail.
 
 Outre le mode par défaut, les options disponibles sont les suivantes :
 

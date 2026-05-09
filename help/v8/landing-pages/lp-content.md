@@ -3,10 +3,10 @@ title: Définir du contenu spécifique à une page de destination
 description: Découvrir comment concevoir du contenu spécifique à une page de destination dans Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 100%
+source-wordcount: '1170'
+ht-degree: 96%
 
 ---
 
@@ -88,7 +88,7 @@ Pour définir un contenu spécifique qui permet aux utilisateurs et aux utilisat
    * **[!UICONTROL Oui si coché]**.
    * **[!UICONTROL Non si coché]**.
 
-1. Supprimez et ajoutez autant de champs que vous le souhaitez (champs de texte, boutons radio, cases à cocher, listes déroulantes, etc.).
+1. Supprimer et ajouter autant de champs (tels que des champs de texte, des boutons radio, des cases à cocher, des listes déroulantes, etc.) en fonction des besoins.
 
 1. Une fois tous les champs ajoutés ou mis à jour, cliquez sur **[!UICONTROL Appel à l’action]** pour développer la section correspondante. Cela permet de définir le comportement du bouton dans le composant **[!UICONTROL Formulaire]**. [Voici comment procéder](#define-actions-on-form-submission)
 
@@ -151,7 +151,7 @@ Pour envoyer automatiquement un message de confirmation après la soumission d�
 
    ![Paramètres du style des cases à cocher](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Développez et modifiez toute autre section correspondant aux autres champs que vous avez ajoutés à votre formulaire (bouton radio, liste déroulante, date et heure, etc.).
+1. Développez et modifiez toute autre section correspondant aux autres champs que vous avez ajoutés (bouton radio, liste déroulante, date et heure, etc.) à votre formulaire.
 
 1. Développez la section **[!UICONTROL Appel à l’action]** pour modifier l’aspect du bouton dans le formulaire du composant. Par exemple, changez de police, ajoutez une bordure, modifiez la couleur du libellé en le survolant avec votre souris ou ajustez lʼalignement du bouton.
 

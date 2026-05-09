@@ -2,9 +2,9 @@
 title: Gérer les énumérations
 description: Découvrir comment utiliser les énumérations
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '646'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"
 >title="Énumérations"
->abstract="Une énumération est une liste de valeurs proposées par le système pour renseigner des champs. Utilisez des énumérations pour normaliser les valeurs de ces champs, faciliter la saisie de données ou les utiliser dans des requêtes."
+>abstract="Une énumération est une liste de valeurs proposées par le système pour renseigner les champs. Utilisez des énumérations pour normaliser les valeurs de ces champs, faciliter la saisie de données ou les utiliser dans des requêtes."
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"

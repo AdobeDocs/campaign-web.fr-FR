@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les fragments de contenu
 description: Découvrez comment utiliser les fragments de contenu.
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Deux types de fragments sont disponibles :
 
   >[!AVAILABILITY]
   >
-  >Cette fonctionnalité nécessite une mise à jour de Campaign vers la version 8.6.4. En savoir plus dans les [Notes de mise à jour de la console cliente Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
+  >Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.4. Pour en savoir plus, consultez les notes de mise à jour de la console cliente [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Explorons plus en détail
 

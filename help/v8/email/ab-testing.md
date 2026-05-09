@@ -3,10 +3,10 @@ audience: end-user
 title: Créer des expériences de contenu
 description: Découvrez comment créer des expériences de contenu dans Adobe Campaign Web
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 3%
+source-wordcount: '1170'
+ht-degree: 9%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"
 >title="Expériences de contenu"
->abstract="Les expériences de contenu permettent de définir plusieurs variantes de diffusion de test A/B afin de mesurer celle qui fonctionne le mieux pour votre audience cible. Vous pouvez varier le contenu, l’objet ou l’expéditeur de la diffusion afin de tester différentes versions et de déterminer la variante produisant les meilleurs résultats."
+>abstract="Les expériences de contenu permettent de définir plusieurs variantes de diffusion de test A/B afin de mesurer celle qui fonctionne le mieux pour votre audience cible. Vous pouvez faire varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion afin de tester différentes versions et de déterminer la variante produisant les meilleurs résultats."
 
 ## À propos des expériences de contenu {#about-content-experiment}
 
-Les expériences de contenu dans Adobe Campaign Web vous permettent de définir plusieurs variantes de diffusion de test A/B afin de mesurer celle qui fonctionne le mieux pour votre audience cible. Vous pouvez varier le contenu, l’objet ou l’expéditeur de la diffusion afin de tester différentes versions et de déterminer la variante produisant les meilleurs résultats.
+Les expériences de contenu dans Adobe Campaign Web vous permettent de définir plusieurs variantes de diffusion de test A/B afin de mesurer celle qui fonctionne le mieux pour votre audience cible. Vous pouvez faire varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion afin de tester différentes versions et de déterminer la variante produisant les meilleurs résultats.
 
 Vous pouvez effectuer des tests A/B sur divers éléments d’e-mail, tels que :
 
@@ -171,7 +171,7 @@ Lors de la création d’expériences de contenu, tenez compte des recommandatio
 
 * **Documentez vos apprentissages** : conservez des enregistrements des résultats d’expérience pour éclairer les stratégies de campagne futures.
 
-## Rubriques connexes : {#related-topics}
+## Rubriques connexes {#related-topics}
 
 * [Créer votre premier e-mail](create-email.md)
 * [Configurer le contenu des e-mails](edit-content.md)

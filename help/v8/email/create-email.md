@@ -3,9 +3,9 @@ audience: end-user
 title: Envoyer votre premier e-mail
 description: Découvrez comment envoyer votre premier e-mail avec l’interface utilisateur web de Campaign.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1695'
 ht-degree: 98%
 
 ---
@@ -135,7 +135,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit. Dans 
 
 Lorsqu’une diffusion est envoyée dans le cadre d’un workflow, vous devez utiliser l’activité **Planificateur**. En savoir plus sur [cette page](../workflows/activities/scheduler.md). Les étapes ci-dessous s’appliquent uniquement aux diffusions autonomes.
 
-1. Accédez à la section **[!UICONTROL Planifier]** des propriétés de la diffusion.
+1. Accédez à la section **[!UICONTROL Planifier]** dans les propriétés de la diffusion.
 
 1. Utilisez le bouton (bascule) **[!UICONTROL Activer la planification]** pour l’activer.
 
@@ -254,4 +254,4 @@ Après avoir validé et testé votre e-mail, vous pouvez lancer sa préparation 
 
 Découvrez comment créer entièrement une diffusion par e-mail, définir l’audience, concevoir le contenu, simuler l’aperçu et envoyer un BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454007/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

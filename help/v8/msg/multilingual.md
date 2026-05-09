@@ -3,10 +3,10 @@ audience: end-user
 title: Configurer une diffusion multilingue
 description: Découvrez comment configurer une diffusion multilingue.
 exl-id: eea0e997-4da2-4998-b010-234626b21353
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 39%
+source-wordcount: '1489'
+ht-degree: 40%
 
 ---
 
@@ -128,7 +128,7 @@ Pour les notifications push, vous pouvez rapidement remplir toutes les variantes
 
 * **Efficacité** : ajoutez plusieurs langues et leur contenu en une seule opération
 * **Cohérence** : assurer une messagerie uniforme dans toutes les variantes linguistiques
-* **&#x200B;**&#x200B;: permettez aux équipes de contenu de préparer des traductions dans des outils de feuille de calcul familiers
+* **** : permettez aux équipes de contenu de préparer des traductions dans des outils de feuille de calcul familiers
 * **Gestion en masse** : gérez et mettez facilement à jour un grand nombre de variantes linguistiques
 
 ### Conditions préalables requises {#csv-best-practices}

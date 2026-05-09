@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser l’activité de workflow d’attente
 description: Découvrez comment utiliser l’activité de workflow d’attente.
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '185'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 L’activité d’**attente** est une activité de **contrôle de flux**. Elle est utilisée pour permettre qu’un certain temps s’écoule entre l’exécution de deux activités. Elle peut par exemple être utilisée pour attendre plusieurs jours après une activité de diffusion e-mail, puis analyser les ouvertures et les clics générés pendant cette période avant d’effectuer les opérations à suivre, comme l’envoi d’un e-mail de rappel ou la création d’une audience.
 
-## Configuration  {#wait-configuration}
+## Configuration {#wait-configuration}
 
 Pour configurer l’activité d’**attente**, procédez comme suit :
 

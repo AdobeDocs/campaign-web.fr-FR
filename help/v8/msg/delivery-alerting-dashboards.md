@@ -3,9 +3,9 @@ audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1130'
 ht-degree: 99%
 
 ---
@@ -35,7 +35,7 @@ Les tableaux de bord des alertes de diffusion permettent de spécifier qui recev
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
->title="Critères des alertes de diffusion       "
+>title="Critères des alertes de diffusion"
 >abstract="Dans cette section, ajoutez les critères que vous souhaitez utiliser pour envoyer des alertes à partir de ce tableau de bord. Faites votre choix parmi les critères prédéfinis ou créez vos propres critères pour répondre à des besoins spécifiques."
 
 >[!CONTEXTUALHELP]

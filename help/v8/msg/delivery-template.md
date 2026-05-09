@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 100%
 
 ---
@@ -184,7 +184,7 @@ Vous pouvez tester le rendu de n’importe quel modèle de diffusion, qu’il so
 
 1. Basculez entre les différents profils pour obtenir une représentation personnalisée du message selon le profil sélectionné. Vous pouvez également ajuster le niveau de zoom et choisir la vue pour ordinateur ou mobile.
 
-[En savoir plus sur la prévisualisation de contenu](../preview-test/preview-content.md)
+   [En savoir plus sur la prévisualisation de contenu](../preview-test/preview-content.md)
 
    ![Prévisualisation du contenu simulé](assets/templates-stimulate.png){zoomable="yes"}
 

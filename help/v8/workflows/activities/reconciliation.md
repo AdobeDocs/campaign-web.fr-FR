@@ -3,9 +3,9 @@ audience: end-user
 title: Utiliser l’activité de workflow Réconciliation
 description: Découvrez comment utiliser l’activité de workflow Réconciliation
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---

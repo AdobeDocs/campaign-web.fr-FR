@@ -3,9 +3,9 @@ audience: end-user
 title: Rapports globaux pour le canal Courrier
 description: En savoir plus sur les rapports globaux pour le canal courrier
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 96%
 
 ---

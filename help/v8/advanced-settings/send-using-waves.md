@@ -4,9 +4,9 @@ title: Envoyer par vagues
 description: En savoir plus sur les paramètres de diffusion dans Campaign Web
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,7 @@ Dans l’exemple ci-dessous, la première vague représente 25 % du nombre tota
 
 Le processus d’accélération constitue un cas d’utilisation courant de plusieurs vagues selon un calendrier.
 
-Lorsque vous envoyez des emails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des emails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
+Lorsque vous envoyez des e-mails à l’aide d’une nouvelle plateforme, rien n’est plus suspect pour un FAI (fournisseur d’accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
 
 Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume d’envoi à l’aide de vagues. Cela permet d’assurer une phase de démarrage en douceur tout en réduisant le taux d’adresses invalides.
 
