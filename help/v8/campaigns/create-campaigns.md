@@ -3,9 +3,9 @@ audience: end-user
 title: Créer des campagnes à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des campagnes cross-canal à l’aide d’Adobe Campaign Web.
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: f1fe8e08401f6ad98ab6920c9ae33fa6336c209d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '455'
 ht-degree: 100%
 
 ---

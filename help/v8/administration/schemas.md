@@ -2,10 +2,10 @@
 title: À propos des schémas
 description: Découvrez comment utiliser les schémas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 56%
+ht-degree: 64%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Création de schémas"
->abstract="Vous pouvez désormais créer et gérer des schémas directement à partir de l’interface utilisateur web de Campaign. Vous pouvez créer des tables, étendre des schémas existants et créer des formulaires personnalisés."
+>abstract="Vous pouvez désormais créer et gérer des schémas directement à partir de l’interface d’utilisation web de Campaign. Vous pouvez créer des tables, étendre des schémas existants et créer des formulaires personnalisés."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]

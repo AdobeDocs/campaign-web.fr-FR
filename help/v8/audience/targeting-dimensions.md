@@ -2,10 +2,10 @@
 title: Dimension de ciblage et dimension de filtrage
 description: En savoir plus sur les dimensions de ciblage et de filtrage dans l’interface d’utilisation d’Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '587'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ En outre, créez de nouveaux mappings de ciblage en fonction de besoins spécifi
 
 ## Dimensions de filtrage {#filtering}
 
-La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateurs ou opératrices, abonné(e)s, etc. La dimension de filtrage permet d’appliquer des filtres à cette population en référençant les données associées sans modifier la dimension de ciblage principale. Vous pouvez, par exemple, sélectionner la population en fonction de critères spécifiques, tels que les titulaires d’un contrat ou les personnes abonnées à une newsletter.
+La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateur ou opératrice, abonnées et abonnés, etc. La dimension de filtrage permet d&#39;appliquer des filtres à cette population en référençant les données associées sans modifier la dimension de ciblage principale. Vous pouvez, par exemple, sélectionner la population en fonction de critères spécifiques, tels que les titulaires d’un contrat ou les personnes abonnées à une newsletter.
 
 Les dimensions de filtrage sont disponibles uniquement dans l’activité **Créer une audience**.
 

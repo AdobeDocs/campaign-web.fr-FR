@@ -3,14 +3,14 @@ audience: end-user
 title: Alertes de diffusion
 description: Découvrez comment utiliser les alertes de diffusion.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '718'
 ht-degree: 100%
 
 ---
 
-# Critères des alertes de diffusion        {#delivery-alerting-criteria}
+# Critères des alertes de diffusion {#delivery-alerting-criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"

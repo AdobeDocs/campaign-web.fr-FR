@@ -3,10 +3,10 @@ audience: end-user
 title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 93%
+source-wordcount: '676'
+ht-degree: 96%
 
 ---
 
@@ -90,7 +90,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
    Cliquez sur l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui seront trackées. Vous pouvez modifier le **[!UICONTROL Type de suivi]** ou le **[!UICONTROL Libellé]**, ainsi qu’ajouter des **[!UICONTROL Catégories]** si nécessaire.
 
-[En savoir plus sur le tracking des liens et des messages.](message-tracking.md)
+   [En savoir plus sur le tracking des liens et des messages.](message-tracking.md)
 
    ![Capture d’écran affichant l’onglet Liens dans le Concepteur d’e-mail.](assets/email_designer-links.png){zoomable="yes"}
 

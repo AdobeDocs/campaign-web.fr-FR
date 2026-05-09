@@ -3,9 +3,9 @@ audience: end-user
 title: Configurer les paramètres de workflow
 description: Découvrir comment configurer les paramètres de workflow à l’aide d’Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1087'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
->title="Propriétés d&#39;exécution        "
+>title="Propriétés d&#39;exécution"
 >abstract="Dans cet écran, choisissez le modèle à utiliser pour créer le workflow et indiquez un libellé. Développez la section **Options supplémentaires** pour configurer d’autres paramètres tels que le nom interne du workflow, son dossier, son fuseau horaire et le groupe de personnes responsables. Il est vivement recommandé de sélectionner un groupe de personnes responsables afin d’alerter les opérateurs et opératrices en cas d’erreur."
 
 Lors de la création d’un workflow ou de l’orchestration des activités d’un workflow dans la zone de travail, accédez aux paramètres avancés du workflow. Par exemple, définissez un fuseau horaire spécifique pour le workflow, gérer le comportement du workflow en cas d’erreur ou indiquer le délai après lequel l’historique du workflow doit être purgé.
@@ -23,11 +23,11 @@ Ces paramètres sont prédéfinis dans le modèle sélectionné lors de la créa
 
 ![Interface du bouton Paramètres de workflow](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## Propriétés d&#39;exécution         {#properties}
+## Propriétés d&#39;exécution {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
->title="Propriétés d&#39;exécution        "
+>title="Propriétés d&#39;exécution"
 >abstract="Cette section fournit des propriétés de workflow génériques, qui sont également accessibles lors de la création du workflow. Vous pouvez choisir le modèle à utiliser pour créer le workflow et indiquer un libellé. Développez la section Options supplémentaires pour configurer des paramètres spécifiques tels que le dossier de stockage du workflow ou le fuseau horaire."
 
 La section **[!UICONTROL Propriétés]** fournit des paramètres génériques qui peuvent être configurés lors de la création du workflow. Pour accéder aux propriétés d’un workflow existant, cliquez sur le bouton **[!UICONTROL Paramètres]** situé dans la barre d’actions qui se trouve au-dessus de la zone de travail du workflow.

@@ -3,10 +3,10 @@ audience: end-user
 title: Activité de workflow de diffusion automatisée
 description: Découvrez comment utiliser l’activité de workflow de diffusion automatisée
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Activité de diffusion automatisée"
->abstract="L&#39;activité de workflow Diffusion automatisée est désormais disponible dans la palette du workflow. Vous pouvez l’utiliser pour créer ou exécuter des actions de diffusion (préparer, envoyer un BAT, préparer et démarrer, etc.) directement dans votre workflow."
+>abstract="L&#39;activité de workflow Diffusion automatisée est désormais disponible dans la palette du workflow. Vous pouvez l’utiliser pour créer ou exécuter des actions de diffusion (préparer, envoyer un BAT, préparer et démarrer, etc.) directement dans votre workflow."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
@@ -82,7 +82,7 @@ Vous pouvez utiliser un script pour modifier le comportement de l’activité, p
 
 Cliquez sur **Créer un script** et écrivez votre logique de modification dans l’éditeur.
 
-## Rubriques connexes : {#related}
+## Rubriques connexes {#related}
 
 * [À propos des activités de workflows](about-activities.md)
 * [Diffusion continue](continuous-delivery.md)

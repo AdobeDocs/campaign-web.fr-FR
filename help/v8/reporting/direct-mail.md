@@ -3,9 +3,9 @@ audience: end-user
 title: Rapports de courrier
 description: Découvrir comment accéder aux rapports de courrier pour les utiliser
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '710'
 ht-degree: 95%
 
 ---
@@ -81,7 +81,7 @@ Le graphique **[!UICONTROL Statistiques de diffusion]** offre une vue d’ensemb
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
->title="Causes d’exclusion des diffusions"
+>title="Causes d’exclusion lors d’une diffusion"
 >abstract="Le graphe **Causes d’exclusion** illustre la distribution des messages rejetés, classés par règle, lors de la préparation de la diffusion."
 
 La graphe **[!UICONTROL Causes d’exclusion]** fournit une répartition des raisons pour lesquelles les messages sont rejetés pendant la préparation de la diffusion. Cette répartition est organisée selon différentes règles, offrant une vue détaillée des facteurs contribuant à l’exclusion des messages. Les règles d’exclusion sont détaillées dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=fr#email-error-types){_blank}.

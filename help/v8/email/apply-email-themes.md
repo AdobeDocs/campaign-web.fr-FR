@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 2%
+source-wordcount: '2077'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Thèmes dans Email Designer (LA)"
+>title="Thèmes dans le Concepteur d’e-mail (LA)"
 >abstract="Appliquez des styles de thème et des variables réutilisables pour que le contenu des e-mails reste cohérent avec votre marque. Cette fonctionnalité est réservée à un nombre restreint d’organisations (disponibilité limitée)"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
@@ -261,7 +261,7 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Attribuez un nom à votre thème.
 
-1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro, comme l’ajout d’une variante de couleur, la modification des polices, etc. [Voici comment procéder](#create-and-edit-themes)
+1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro, comme l’ajout d’une variante de couleur, la modification des polices, etc. [Découvrez comment &#x200B;](#create-and-edit-themes)
 
    ![Thème généré dans l’éditeur affichant la palette de couleurs et les commandes de variantes](assets/generate-theme-colors.png){width=90%}
 

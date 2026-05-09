@@ -3,7 +3,7 @@ audience: end-user
 title: Utiliser l’activité de workflow Combiner
 description: Découvrez comment utiliser l’activité de workflow Combiner.
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Sélectionner le type de segmentation"
->abstract="Sélectionnez comment combiner des audiences. L’**Union** regroupe le résultat de plusieurs activités dans une cible unique. L’**intersection** conserve uniquement les éléments communs aux différentes populations entrantes dans l’activité. L’**Exclusion** exclut des éléments d’une population selon certains critères."
+>abstract="Sélectionnez comment combiner des audiences. L’**Union** regroupe le résultat de plusieurs activités dans une cible unique. l’**Intersection** conserve uniquement les éléments communs aux différentes populations entrantes dans l’activité. L’**Exclusion** exclut des éléments d’une population selon certains critères."
 
 Pour commencer à configurer l’activité **Combiner**, procédez comme suit :
 

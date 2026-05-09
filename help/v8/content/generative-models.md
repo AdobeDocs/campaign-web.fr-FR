@@ -1,18 +1,18 @@
 ---
-title: Création et gestion de modèles génératifs
+title: Créer et gérer des modèles génératifs
 description: Découvrez comment créer et gérer vos modèles génératifs.
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 0%
+source-wordcount: '560'
+ht-degree: 10%
 
 ---
 
-# Création et gestion de modèles génératifs {#generative-models}
+# Créer et gérer des modèles génératifs {#generative-models}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Développez vos fonctionnalités de création d’images par l’IA avec des modèles intégrés, des modèles Firefly personnalisés et des fournisseurs de génération d’images tiers pour répondre à vos besoins spécifiques et améliorer l’alignement de la marque.
 
-Choisissez le modèle adapté à vos besoins :
+Choisissez le modèle adapté à vos besoins :
 
 - **[!UICONTROL Adobe model]**, optimisé par Firefly Image Model 4, est fourni prêt à l’emploi et prêt à être utilisé pour la génération immédiate d’images sans configuration supplémentaire.
 - Le **[!UICONTROL modèle partenaire]**, optimisé par Gemini 2.5 Flash, offre des fonctionnalités spécialisées pour des cas d’utilisation spécifiques.

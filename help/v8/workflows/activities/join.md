@@ -3,10 +3,10 @@ audience: end-user
 title: Utiliser l’activité de workflow Joindre
 description: Découvrez comment utiliser l’activité de workflow Joindre .
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 33%
+source-wordcount: '489'
+ht-degree: 43%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Plusieurs branches de workflow et activité Jointure"
+>title="Branches de workflow multiples et activité Jointure"
 >abstract="Plusieurs branches sont désormais prises en charge. Au lieu d’utiliser un branchement, vous pouvez cliquer sur Ajouter une branche dans la barre d’outils. L’activité Rendez-vous a également été améliorée. Il s’agit désormais d’une activité de jointure générique qui vous permet de choisir entre les options de jointure ET et OU."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
@@ -28,7 +28,7 @@ ht-degree: 33%
 >title="Activité de jointure"
 >abstract="L&#39;activité **Joindre** permet de fusionner plusieurs transitions entrantes. Choisissez de continuer lorsque toutes les transitions entrantes sont terminées (AND) ou lorsqu’une transition entrante est terminée (OR)."
 
-L&#39;activité **Joindre** est une activité de contrôle de flux **Flow**. Il synchronise plusieurs branches d’exécution d’un workflow.
+L&#39;activité **Joindre** est une activité de contrôle de flux **Flow**. Elle synchronise plusieurs branches d’exécution d’un workflow.
 Vous pouvez choisir le mode d’évaluation des transitions entrantes :
 
 * **AND** : se poursuit uniquement après l’activation de toutes les transitions entrantes sélectionnées.
@@ -47,7 +47,7 @@ Lorsque l’option **OR** est sélectionnée, l’exécution se poursuit dès qu
 
 Pour configurer l&#39;activité **Joindre**, procédez comme suit :
 
-1. Ajoutez plusieurs activités, telles que des activités de canal, pour former au moins deux branches d’exécution différentes. Vous pouvez utiliser un **Branchement** ou ajouter une branche distincte à l’aide du bouton de la barre d’outils **Ajouter une branche** (+). Voir [Orchestrer des activités](../orchestrate-activities.md#toolbar).
+1. Ajoutez plusieurs activités telles que des activités de canal afin de former au moins deux branches d’exécution différentes. Vous pouvez utiliser un **Branchement** ou ajouter une branche distincte à l’aide du bouton de la barre d’outils **Ajouter une branche** (+). Voir [Orchestrer des activités](../orchestrate-activities.md#toolbar).
 
    ![Capture d’écran montrant deux branches.](../assets/workflow-join.png)
 

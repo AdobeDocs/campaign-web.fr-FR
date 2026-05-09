@@ -3,10 +3,10 @@ audience: end-user
 title: Commencer avec les campagnes
 description: Découvrez comment commencer avec les campagnes cross-canal.
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 70%
+source-wordcount: '1002'
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ Pour accéder à vos campagnes et les gérer, cliquez sur le menu **[!UICONTROL 
 
 ## Inventaire des campagnes {#inventory}
 
-L’onglet **[!UICONTROL Parcourir]** fournit des informations sur le statut actuel des campagnes, les dates de début et de fin, la date de création, la dernière fois qu’elles ont été modifiées, etc. Vous pouvez personnaliser les colonnes affichées en cliquant sur l’icône **Configurer la colonne pour une disposition personnalisée**, située dans le coin supérieur droit de la liste. Ceci vous permet d’ajouter ou de supprimer des colonnes et de réorganiser les informations dans la liste des campagnes.
+L’onglet **[!UICONTROL Parcourir]** fournit des informations sur le statut actuel des campagnes, les dates de début et de fin, la date de création, la dernière fois qu’elles ont été modifiées, etc. Vous pouvez personnaliser les colonnes affichées en cliquant sur l’icône **Configurer la colonne pour une disposition personnalisée** située dans le coin supérieur droit de la liste. Ceci vous permet d’ajouter ou de supprimer des colonnes et de réorganiser les informations dans la liste des campagnes.
 
 ### Rechercher et filtrer l’inventaire {#search-and-filter}
 
@@ -35,7 +35,7 @@ Une barre de recherche et des filtres sont disponibles pour faciliter la recherc
 
 ![Description : panneau de filtrage affichant des options pour filtrer les campagnes par dates de début et de fin](assets/campaign-filter-on-dates.png)
 
-### Mode Chronologie {#timeline}
+### Vue Chronologie {#timeline}
 
 Par défaut, l’écran de la campagne affiche la **vue Liste** (inventaire). Vous pouvez basculer vers la **vue Chronologie** à tout moment à l’aide du bouton (bascule) d’affichage. Les deux vues affichent les mêmes campagnes et partagent les mêmes filtres et la même recherche. Lorsque vous modifiez les filtres ou effectuez une recherche dans une vue, l’autre vue reflète la même sélection.
 
