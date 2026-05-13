@@ -3,10 +3,15 @@ audience: end-user
 title: Utiliser un groupe de recouvrements
 description: Découvrez comment utiliser un groupe de recouvrements pour votre diffusion dans l’interface d’utilisation de Campaign Web.
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 429
+ht-degree: 91%
 
 ---
 
@@ -41,7 +46,7 @@ Pour configurer un **[!UICONTROL groupe de recouvrements]**, accédez aux param�
 * [Sélectionner des profils de test](#select-test-profiles)
 * [Créer une condition](#create-condition)
 
-[Capture d’écran de l’interface des paramètres du groupe de recouvrements](assets/trap-group.png){zoomable="yes"}
+[Capture d’écran de l’interface des paramètres du groupe de pièges](assets/trap-group.png){zoomable="yes"}
 
 ### Sélectionner des profils de test {#select-test-profiles}
 
@@ -53,11 +58,11 @@ Lorsque vous cliquez sur le bouton, vous pouvez accéder aux profils de test à 
 
 Vous pouvez également créer de nouveaux profils de test. [En savoir plus](#create-seed)
 
-[Capture d’écran de l’interface Sélectionner les profils de test](assets/trap-select-test-profiles.png){zoomable="yes"}
+[Capture d’écran de l’interface Sélectionner des profils de test](assets/trap-select-test-profiles.png){zoomable="yes"}
 
 Après avoir confirmé vos profils de test, vérifiez que le nombre correct apparaît sous **[!UICONTROL Groupe de recouvrements]**.
 
-[Capture d’écran de la confirmation du groupe de recouvrements](assets/trap-check.png){zoomable="yes"}
+[Capture d’écran de confirmation du groupe de pièges](assets/trap-check.png){zoomable="yes"}
 
 ### Créer une condition {#create-condition}
 
@@ -67,13 +72,13 @@ Avec l’option **[!UICONTROL Créer une condition]**, créez une requête pour 
 
 Votre requête s’affiche sous **[!UICONTROL Groupe de recouvrements]**.
 
-[Capture d’écran d’affichage des requêtes de groupe de recouvrements](assets/trap-custom.png){zoomable="yes"}
+[Capture d’écran de l’affichage des requêtes du groupe de pièges](assets/trap-custom.png){zoomable="yes"}
 
 ## Créer un profil de test {#create-seed}
 
 Vous pouvez créer un **[!UICONTROL profil de test]** depuis le dossier **[!UICONTROL Explorateur]** > **[!UICONTROL Ressources]** > **[!UICONTROL Gestion de campagnes]** > **[!UICONTROL Membres de contrôle]**.
 
-[Capture d’écran de la navigation pour créer un profil de test](assets/trap-create.png){zoomable="yes"}
+[Créer une capture d’écran de navigation de profil de test](assets/trap-create.png){zoomable="yes"}
 
 Configurez tous les paramètres de votre **[!UICONTROL profil de test]** comme pour n’importe quel profil :
 

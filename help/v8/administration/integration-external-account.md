@@ -2,14 +2,19 @@
 title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: 99648377-112b-428a-8faf-5268d730f19a
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/ZkfG6g4YYAkefJI1Pi7xsdulm1zS1BFJdXBTS37x2T8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: 213
+ht-degree: 97%
 
 ---
 
-# Comptes externes d’intégration de solution Adobe {#integration-external-account}
+# Comptes externes d’intégration de solutions Adobe {#integration-external-account}
 
 Selon le type de compte externe d’intégration de solution Adobe que vous avez sélectionné, suivez les étapes ci-dessous pour configurer les paramètres de connexion et de compte afin d’assurer une intégration transparente aux services Adobe.
 
@@ -23,7 +28,7 @@ Pour configurer le compte externe **[!UICONTROL Adobe Experience Cloud]**, ren
 
 * **[!UICONTROL Serveurs IMS]**
 
-  URL de votre serveur IMS. Assurez-vous que les instances de test et de production pointent sur le même point de terminaison de production IMS.
+  URL de votre serveur IMS. Assurez-vous que les instances d’évaluation et de production pointent sur le même point d’entrée de production IMS.
 
 * **[!UICONTROL Scope IMS]**
 

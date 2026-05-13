@@ -2,9 +2,14 @@
 title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: 8f41312e-422f-4be1-b874-1b143c500912
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/3UXLVWPQ0AxtloNmhumWXdi4VOVbHqveeZdkGlxhlQQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: 3911
 ht-degree: 100%
 
 ---
@@ -21,7 +26,7 @@ Le compte externe Amazon Redshift permet de connecter l’instance Campaign à l
 
 Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe Amazon Redshift.
 
-1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et Amazon Redshift comme **[!UICONTROL type de fournisseur]**.
+1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et Azure Synapse Analytics comme **[!UICONTROL type de fournisseur]**.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -87,7 +92,7 @@ Le compte externe Azure Synapse Analytics permet de connecter l’instance Campa
 
 Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe Azure Synapse Analytics.
 
-1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et Azure Synapse Analytics comme **[!UICONTROL type de fournisseur]**.
+1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et Amazon Redshift comme **[!UICONTROL type de fournisseur]**.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -336,7 +341,7 @@ Le compte externe Relais HTTP vers base distante permet de connecter l’instanc
 
 Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe Relais HTTP vers base distante.
 
-1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et Relais HTTP vers base distante comme **[!UICONTROL Type de fournisseur]**.
+1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et Azure Synapse Analytics comme **[!UICONTROL type de fournisseur]**.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 

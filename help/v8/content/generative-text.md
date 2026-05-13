@@ -2,9 +2,16 @@
 audience: end-user
 title: Contenu génératif
 description: Découvrir comment générer des expériences de contenu texte avec l’assistant IA
-source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
-workflow-type: ht
-source-wordcount: '1441'
+exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
+TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 1462
 ht-degree: 100%
 
 ---
@@ -45,7 +52,7 @@ Découvrez comment créer des prompts clairs, affiner les paramètres et génér
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
-   Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées de prompts pour améliorer vos diffusions. [En savoir plus sur les bonnes pratiques relatives aux prompts](ai-assistant-prompting-guide.md)
+   Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui vous met à disposition un large éventail d’idées de prompts pour améliorer vos diffusions. [En savoir plus sur les bonnes pratiques relatives aux prompts](ai-assistant-prompting-guide.md).
 
    ![Capture d’écran montrant la bibliothèque de prompts dans Adobe Campaign Web](assets/text-genai-2.png){zoomable="yes"}
 
@@ -78,13 +85,13 @@ Découvrez comment réviser le texte généré, apporter des améliorations et a
 
 1. Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
 
-1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
+1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
    * **[!UICONTROL Utiliser comme contenu de référence]** : la variante choisie sert de contenu de référence pour générer d’autres résultats.
    * **[!UICONTROL Élaborer]** : permet de développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
    * **[!UICONTROL Résumer]** : permet de condenser des points clés en résumés clairs et concis qui retiennent l’attention et encouragent la lecture.
    * **[!UICONTROL Reformuler]** : permet de reformuler le message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
-   * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez vos énoncés pour garantir la clarté et l’accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez votre texte pour en garantir la clarté et l’accessibilité pour une audience plus large.
    * **[!UICONTROL Traduire]** : simplifiez votre texte pour garantir la clarté et l’accessibilité afin de toucher une audience plus large.
 
    Vous pouvez également modifier le **[!UICONTROL Ton]** et la **[!UICONTROL Stratégie de communication]** de votre texte.
@@ -144,7 +151,7 @@ Une fois que vous avez accédé à l’assistant IA, vous pouvez configurer les
 
      ![Panneau Paramètres de texte](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Charger un fichier]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA, ou sélectionnez-en une chargée précédemment.
+1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Charger un fichier]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Contenu de référence chargé]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
@@ -176,7 +183,7 @@ Après avoir généré des variations de texte pour vos messages mobiles, vous p
 
    * **[!UICONTROL Changer de ton]** : ajustez le ton du message pour mieux correspondre à votre style de communication, c’est-à-dire le rendre plus convivial, professionnel, urgent ou inspirant.
 
-   * **[!UICONTROL Modifier la stratégie de communication]** : modifiez l’approche des messages en fonction de vos objectifs, par exemple créer un sentiment d’urgence ou mettre en avant un aspect attractif et enthousiasmant.
+   * **[!UICONTROL Modifier la stratégie de communication]** : modifiez l’approche des messages en fonction de vos objectifs, tels que créer un sentiment d’urgence ou mettre en avant un aspect attractif et enthousiasmant.
 
      ![Variations de texte générées avec le score d’alignement sur la marque](assets/sms-genai-5.png){zoomable="yes"}
 

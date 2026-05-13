@@ -4,10 +4,27 @@ description: Découvrez comment migrer la gestion des accès utilisateur de Camp
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
+TQID: https://experienceleague.adobe.com/mzGXV-UDaMU1UlCJPmmP6jPD9jSdRLesXnsHPvUfbRY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: efa38731-2723-4334-8d8b-a778af834835
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 3%
+source-wordcount: 1453
+ht-degree: 7%
 
 ---
 
@@ -38,7 +55,7 @@ Le tableau ci-dessous décrit l’approche de migration des groupes de rôles ut
 
 Dans Adobe Campaign Standard et Campaign v8, les **groupes de sécurité** et **groupes d’opérateurs** sont mappés aux profils de produit dans Admin Console. Si vous souhaitez affecter un **Groupe de sécurité** ou **Groupe d’opérateurs** à un utilisateur, vous pouvez lier le **profil de produit** correspondant dans Admin Console. Cette association est synchronisée lorsque l’utilisateur se connecte. [En savoir plus sur le profil de produit](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-| **Groupe de sécurité Campaign Standard** | **Groupe d’opérateurs Campaign v8** |
+| **Groupe de sécurité** | **Groupe d’opérateurs Campaign v8** |
 |----------|---------|
 | Administrateurs | Administrateurs |
 | Responsables de la diffusion | Administrateurs |
@@ -52,14 +69,14 @@ Dans Adobe Campaign Standard et Campaign v8, les **groupes de sécurité** et **
 
 Dans Adobe Campaign Standard, le terme **rôle utilisateur** est appelé **droit nommé** dans Campaign v8. Le tableau ci-dessous décrit la terminologie utilisée pour **Droits nommés** dans Campaign v8, qui correspond à **Rôles utilisateur** dans Campaign Standard.
 
-| **Rôle utilisateur Campaign Standard** | **Droit nommé dans Campaign v8** | **Description**  |
+| **Rôle utilisateur** | **Droit nommé dans Campaign v8** | **Description**  |
 |----------|---------|---------|
-| Administration  | Administration  | L’utilisateur disposant du droit d’administration dispose d’un accès complet à l’instance. |
+| Administration | Administration | L’utilisateur disposant du droit d’administration dispose d’un accès complet à l’instance. |
 | Modèle de données  | Administration | Droit pour exécuter des publications et créer des ressources personnalisées. Fonctionnalité liée à la création de schémas disponible pour l’administrateur dans Campaign v8.  |
-| DéliVRABILITÉ  | Administration  | Droit pour valider les diffusions préalablement analysées.  |
+| Délivrabilité  | Administration  | Droit pour valider les diffusions préalablement analysées.  |
 | Exporter | Exporter | Droit pour exporter des données.  |
 | Accès aux fichiers  | Accès aux fichiers  | Droit pour valider les diffusions préalablement analysées.  |
-| Import générique  | Importer  | Droit pour l&#39;import de données génériques |
+| Import générique  | Import  | Droit pour l&#39;import de données génériques |
 | Préparation des diffusions | Préparation des diffusions | Droit pour créer, modifier, préparer et supprimer des diffusions.  |
 | Exécution du script SQL | Exécution du script SQL | Droit pour exécuter toute commande SQL directement sur la base de données. |
 | Démarrer les diffusions  | Démarrer les diffusions  | Droit pour valider les diffusions préalablement analysées.  |
@@ -71,8 +88,7 @@ Dans Adobe Campaign Standard, le terme **rôle utilisateur** est appelé **droit
 >[!IMPORTANT]
 >
 >Les entités organisationnelles dans Adobe Campaign Standard sans **Toutes (toutes)** comme parent direct ou indirect ne seront pas migrées vers Campaign v8.
-></br>
->Les utilisateurs appartenant à plusieurs groupes de sécurité sont affectés à l&#39;entité organisationnelle du groupe de sécurité ayant le rang le plus élevé. Si plusieurs groupes comportent des entités de niveau supérieur parallèles, le système sélectionne l’entité organisationnelle de l’utilisateur dans Campaign Standard et l’utilisateur n’a accès qu’à l’entité organisationnelle sélectionnée par le système et à ses enfants. Dans Campaign v8, après la migration, l’utilisateur aurait accès à **toutes les entités organisationnelles attribuées et leurs enfants**, ce qui pourrait augmenter les privilèges. Pour éviter cela, évitez d&#39;affecter des utilisateurs à des groupes de sécurité ayant des entités organisationnelles parallèles. En savoir plus sur l’[affectation parallèle d’entités organisationnelles](#parallel-assignments).
+></br>>Les utilisateurs appartenant à plusieurs groupes de sécurité sont affectés à l&#39;entité organisationnelle du groupe de sécurité ayant le rang le plus élevé. Si plusieurs groupes comportent des entités de niveau supérieur parallèles, le système sélectionne l’entité organisationnelle de l’utilisateur dans Campaign Standard et l’utilisateur n’a accès qu’à l’entité organisationnelle sélectionnée par le système et à ses enfants. Dans Campaign v8, après la migration, l’utilisateur aurait accès à **toutes les entités organisationnelles attribuées et leurs enfants**, ce qui pourrait augmenter les privilèges. Pour éviter cela, évitez d&#39;affecter des utilisateurs à des groupes de sécurité ayant des entités organisationnelles parallèles. En savoir plus sur l’[affectation parallèle d’entités organisationnelles](#parallel-assignments).
 
 
 Dans Adobe Campaign Standard, l’**entité organisationnelle** est associée au modèle de hiérarchie existant **Dossier** dans Campaign v8 afin de conserver un contrôle d’accès similaire. [En savoir plus sur la gestion des dossiers](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
@@ -166,7 +182,7 @@ Vous trouverez ci-dessous une liste des rôles Campaign Standard qui n’ont pas
 
 * Compte Relais Par Défaut 
 
-* Notification push Message Center 
+* Push Message Center 
 
 Vous trouverez ci-dessous une liste des mappages de groupes de sécurité Campaign Standard qui n’ont pas fait l’objet d’une transition.
 

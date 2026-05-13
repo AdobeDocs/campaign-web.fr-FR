@@ -3,10 +3,26 @@ title: Guide de création de prompt de contenu avec l’assistant IA
 description: Découvrez comment créer des prompts efficaces pour la génération de contenu optimisée par l’IA à l’aide du cadre CO-STAR afin de créer du contenu marketing à conversion élevée et aligné sur la marque.
 role: User
 level: Intermediate
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '2085'
-ht-degree: 100%
+exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
+TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 2111
+ht-degree: 91%
 
 ---
 
@@ -113,19 +129,19 @@ Ces demandes ne sont pas prises en charge et doivent être traitées par d’aut
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&amp;check; **Audience cible définie** : indique la population, le rôle ou le segment.
+&check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&amp;check; **Alignement sur le type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&amp;check; **Sélections de liste déroulante configurées** : le ton, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans le prompt.
+&check; **Les sélections déroulantes configurées** : La tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
 
-&amp;check; **Focalisation du document spécifiée** : met en évidence le contenu ou les sections à référencer.
+&check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
 
-&amp;check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
+&check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
 
-&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -135,11 +151,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Stimule les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
+&check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&amp;check; « Génère des pistes pour notre webinaire B2B sur la &quot;réduction des coûts du cloud de 40 %&quot; qui aura lieu le 15 mars »
+&check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
 
-&amp;check; « Fais la promotion de notre réduction saisonnière de 25 % disponible pour une durée limitée sur les abonnements premium, valable jusqu’au 25 décembre »
+&check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
 
 **Exemples de ce qu’il faut éviter :**
 
@@ -156,11 +172,11 @@ Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Encourage les téléchargements de notre nouvelle application mobile qui aide les utilisateurs et utilisatrices à suivre les habitudes durables du quotidien avec des recommandations personnalisées et écologiques »
+&check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
 
-&amp;check; « Fais la promotion de l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les spécialistes du marketing »
+&check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
 
-&amp;check; « Stimule la participation à notre événement de lancement de produit présentant l’assistant d’écriture IA révolutionnaire qui permet de gagner plus de 5 heures par semaine »
+&check; « Attirez l’attention à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
 
 **Exemples de ce qu’il faut éviter :**
 
@@ -301,7 +317,7 @@ Une fois le contenu généré, utilisez la fonctionnalité **Affiner** pour l’
 </thead>
 <tbody>
 <tr>
-<td><strong>E-mail</strong></td>
+<td><strong>Email</strong></td>
 <td>« Stimule les prospects de l’entreprise en présentant trois témoignages de la clientèle avec des mesures de retour sur investissement détaillées (IBM : réduction des coûts de 45 %, Accenture : augmentation des prospects de 200 %, Microsoft : gains de temps de 60 %), ciblant les directeurs et directrices informatiques des entreprises de plus de 1 000 personnes. »</td>
 </tr>
 <tr>
@@ -313,7 +329,7 @@ Une fois le contenu généré, utilisez la fonctionnalité **Affiner** pour l’
 <td>« Réengage les utilisateurs et utilisatrices qui n’ont pas ouvert l’application depuis 7 jours avec des recommandations de contenu personnalisé basées sur leur historique de lecture .»</td>
 </tr>
 <tr>
-<td><strong>Pages de destination</strong></td>
+<td><strong>Landing pages</strong></td>
 <td>« Convertis les visiteurs et visiteuses B2B en prospects qualifiés en démontrant comment notre solution de sécurité d’entreprise prévient 99,9 % des cyberattaques, grâce aux témoignages Fortune 500 et à un audit de sécurité gratuit. »</td>
 </tr>
 </tbody>

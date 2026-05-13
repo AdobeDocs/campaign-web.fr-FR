@@ -3,9 +3,14 @@ audience: end-user
 title: Concevoir une diffusion de notification push enrichie
 description: Découvrir comment concevoir une diffusion Android de notifications push enrichie avec Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/QhjmtA9msOTTN5RmYg8a7pE-zY02c4H-aDk5EtStRgg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '3472'
+source-wordcount: 3472
 ht-degree: 100%
 
 ---
@@ -72,7 +77,7 @@ Accédez aux onglets ci-dessous pour en savoir plus sur la personnalisation de c
 
 1. Définissez l’**[!UICONTROL action du clic]** associée à un clic de l’utilisateur ou de l’utilisatrice sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à ajouter à votre notification et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
+1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à lui ajouter et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
 
    ![](assets/rich_push_default_3.png)
 
@@ -233,7 +238,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action de clic]** :
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
 
    * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
 
@@ -272,7 +277,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action de clic]** :
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
 
    * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
 

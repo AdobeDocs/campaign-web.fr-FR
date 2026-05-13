@@ -3,13 +3,15 @@ title: Notes de mise à jour de l’interface d’utilisation web de Campaign v
 description: Découvrez les nouvelles fonctionnalités accompagnant la version suivante de l’interface d’utilisation de Campaign Web.
 hide: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
-workflow-type: ht
-source-wordcount: '262'
+TQID: https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07NFEA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 262
 ht-degree: 100%
 
 ---
-
 
 # Notes de mise à jour anticipées {#e-release}
 

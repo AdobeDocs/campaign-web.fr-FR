@@ -2,9 +2,25 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de 2025 de l’interface d’utilisation web de Campaign
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: ht
-source-wordcount: '3136'
+TQID: https://experienceleague.adobe.com/z7Nz4ghVS6vEP7Aa3lgB1fv66coY-MCvyGALfzOn0O0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 3136
 ht-degree: 100%
 
 ---
@@ -674,7 +690,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Consultez les pages de documentation suivantes : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md) et [Fonctionnalités pour les utilisateurs et les utilisatrices de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr).
 
-* **Création de diffusions multilingues** : vous pouvez désormais envoyer plusieurs diffusions par e-mail dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix.Pour plus d&#39;informations, consultez la [documentation détaillée](../email/edit-content.md).
+* **Création de diffusions multilingues** : vous pouvez désormais envoyer plusieurs diffusions par e-mail dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix. Pour plus d&#39;informations, consultez la [documentation détaillée](../email/edit-content.md).
 
 * **Rapports dynamiques pour le multilinguisme** : les rapports dynamiques sont désormais disponibles pour les diffusions par e-mail multilingues. Pour plus d&#39;informations, consultez la [documentation détaillée](../reporting/global-reports.md).
 

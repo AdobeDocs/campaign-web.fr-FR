@@ -3,9 +3,14 @@ audience: end-user
 title: À propos de la quarantaine
 description: Comprendre la gestion des adresses en quarantaine
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '400'
+TQID: https://experienceleague.adobe.com/HRR7lWqh4GbMQiZ-Wm7EHr60452-HusFd0e4cG2G11E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 431
 ht-degree: 100%
 
 ---

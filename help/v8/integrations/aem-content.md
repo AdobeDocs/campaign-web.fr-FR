@@ -3,9 +3,17 @@ audience: end-user
 title: Gérer les ressources avec Adobe Experience Manager as a Cloud service
 description: Découvrez comment gérer les ressources avec Adobe Experience Manager as a Cloud service.
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 615
 ht-degree: 100%
 
 ---
@@ -20,7 +28,7 @@ L’intégration de l’interface Adobe Campaign Web à Adobe Experience Man
 
 ## Créer un modèle dans [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
-1. Accédez à l’instance de création [!DNL Adobe Experience Manager] et cliquez sur Adobe Experience dans le coin supérieur gauche de la page. Choisissez **[!UICONTROL Sites]** dans le menu.
+1. Accédez à l’instance de création [!DNL Adobe Experience Manager] et cliquez sur Adobe Experience dans le coin supérieur gauche de la page. Sélectionnez **[!UICONTROL Sites]** dans le menu.
 
 1. Accédez à **[!UICONTROL Campagnes > Nom de votre marque > Zone principale > Nom de votre page]**.
 
@@ -86,7 +94,7 @@ Une fois que le modèle Experience Manager est disponible dans Adobe Campaign�
 
 1. Si vous avez ajouté du contenu personnalisé à votre modèle Experience Manager, cliquez sur **[!UICONTROL Simuler du contenu]** pour prévisualiser l’affichage du message à l’aide de profils de test.
 
-[En savoir plus sur la prévisualisation et les profils de test](../preview-test/preview-content.md)
+   [En savoir plus sur la prévisualisation et les profils de test](../preview-test/preview-content.md)
 
 1. Lors de l’affichage de l’aperçu du message, tout élément personnalisé est automatiquement remplacé par les données correspondantes du profil de test sélectionné.
 

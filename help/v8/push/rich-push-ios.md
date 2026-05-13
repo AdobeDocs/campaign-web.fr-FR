@@ -1,11 +1,14 @@
 ---
 audience: end-user
 title: Concevoir une diffusion de notification push iOS enrichie
-description: Découvrez comment concevoir une diffusion de notification push iOS enrichie avec Adobe Campaign Web.
+description: Découvrir comment concevoir une diffusion de notification push iOS enrichie avec Adobe Campaign Web
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
+TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: 1653
 ht-degree: 100%
 
 ---
@@ -95,7 +98,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser des personnes abonnées de test pour prévisualiser et tester le message.
 
->[!TAB Carousel]
+>[!TAB Carrousel]
 
 1. Dans le menu déroulant **[!UICONTROL Modèle]**, sélectionnez **[!UICONTROL Carousel]**.
 
@@ -120,7 +123,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Cliquez sur **[!UICONTROL Ajouter une image]** et saisissez l’URL de votre **[!UICONTROL image]**, le **[!UICONTROL texte]** et l’**[!UICONTROL URL d’action]**.
 
-   Veillez à inclure trois images minimum et cinq images maximum.
+   Veillez à inclure trois images minimum et cinq maximum.
 
    ![Écran d’ajout d’images au carrousel](assets/rich_push_ios_carousel_3.png)
 
@@ -128,7 +131,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Dans la liste déroulante **[!UICONTROL Paramètres avancés]**, accédez à l’onglet **[!UICONTROL Son et pastille]** pour personnaliser des paramètres supplémentaires tels que les options de son et de pastille pour vos notifications. [En savoir plus](#sound-badge)
 
-1. Dans le menu **[!UICONTROL Options de couleurs]**, saisissez des codes de couleur hexadécimaux pour la **[!UICONTROL couleur d’arrière-plan de la notification]**, la **[!UICONTROL couleur d’arrière-plan de la notification]** et la **[!UICONTROL couleur du texte du message]**.
+1. Dans le menu **[!UICONTROL Options des couleurs]**, saisissez des codes de couleur hexadécimaux pour la **[!UICONTROL couleur d’arrière-plan de la notification]**, la **[!UICONTROL couleur d’arrière-plan de la notification]** et la **[!UICONTROL couleur du texte du message]**.
 
    ![Écran des options des couleurs](assets/rich_push_ios_carousel_4.png)
 
@@ -142,7 +145,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Dans le menu déroulant **[!UICONTROL Type de notification]**, sélectionnez **[!UICONTROL Retardateur]**.
 
-   ![Écran de sélection du modèle de minuteur](assets/rich_push_ios_timer_1.png)
+   ![Écran de sélection du modèle de retardateur](assets/rich_push_ios_timer_1.png)
 
 1. Pour composer votre message, saisissez votre texte dans les champs **[!UICONTROL Titre]**, **[!UICONTROL Titre étendu]**, **[!UICONTROL Message]** et **[!UICONTROL Message étendu]**.
 
@@ -160,7 +163,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Définissez la **[!UICONTROL durée du retardateur]** en secondes ou l’**[!UICONTROL horodatage de fin du retardateur]** sur un horodatage d’époque spécifique.
 
-   ![Écran des paramètres de durée du minuteur](assets/rich_push_ios_timer_3.png)
+   ![Écran des paramètres de durée du retardateur](assets/rich_push_ios_timer_3.png)
 
 1. Saisissez le texte et l’image qui s’afficheront une fois le retardateur ayant expiré dans les champs **[!UICONTROL Autre titre]**, **[!UICONTROL Autre message]** et **[!UICONTROL Autre image de lancement]**.
 
@@ -185,7 +188,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 | Paramètre | Description |
 |-----------|-------------|
 | **[!UICONTROL Mode d’alerte critique]** | Activez cette option pour ajouter du son à votre notification, même si le téléphone de la personne est en mode Concentration ou en mode silencieux. |
-| **[!UICONTROL Actualiser la pastille]** | Activez cette option pour actualiser la valeur de la pastille. |
+| **[!UICONTROL Nettoyer la pastille]** | Activez cette option pour actualiser la valeur de la pastille. |
 | **[!UICONTROL Son]** | Définissez le son à émettre lorsque l’appareil reçoit votre notification. |
 | **[!UICONTROL Nombre de notifications]** | Définissez un nombre à afficher directement sur l’icône de l’application pour indiquer le nombre de notifications non lues. |
 | **[!UICONTROL Volume]** | Définissez le volume de votre son de 0 à 100. Les sons doivent être inclus dans l’application et définis lors de la création du service. |
@@ -205,7 +208,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 | **[!UICONTROL Contenu modifiable]** | Activez cette option pour permettre à l’application mobile de télécharger le contenu multimédia. |
 | **[!UICONTROL Contenu disponible]** | Activez cette option pour permettre à votre notification de déclencher des mises à jour en arrière-plan sur les appareils iOS, même lorsque l’application n’est pas activement ouverte. Cela permet de s’assurer que le contenu, comme les messages ou les mises à jour de données, peut être traité et stocké dans la boîte de réception de l’application sans nécessiter d’interaction de l’utilisateur ou de l’utilisatrice. Lorsqu’il est sélectionné, l’indicateur `content-available: 1` est ajouté au payload `aps` conformément aux normes du service de notifications push d’Apple (APNS). |
 | **[!UICONTROL Score de pertinence]** | Définissez un score de pertinence compris entre 0 et 100. Le système l’utilise pour trier les notifications dans le récapitulatif des notifications. |
-| **[!UICONTROL Niveau d&#39;interruption]** | <ul><li>**Actif** : défini par défaut, le système présente immédiatement la notification, illumine l’écran et peut émettre un son. Les notifications n’outrepassent pas le mode Concentration.</li><li>**Passif** : le système ajoute la notification à la liste de notifications sans allumer l’écran ni émettre de son. Les notifications n’outrepassent pas le mode Concentration.</li><li>**Sensible à l’heure** : le système présente immédiatement la notification, allume l’écran, peut émettre un son et outrepasser le mode Concentration. Ce niveau ne nécessite pas d’autorisation spéciale de la part d’Apple.</li><li>**Critique** : le système présente immédiatement la notification, allume l’écran et contourne le bouton de désactivation ou le mode Concentration. Notez que ce niveau nécessite une autorisation spéciale de la part d’Apple.</li></ul> |
+| **[!UICONTROL Niveau d’interruption]** | <ul><li>**Actif** : défini par défaut, le système présente immédiatement la notification, illumine l’écran et peut émettre un son. Les notifications n’outrepassent pas le mode Concentration.</li><li>**Passif** : le système ajoute la notification à la liste de notifications sans allumer l’écran ni émettre de son. Les notifications n’outrepassent pas le mode Concentration.</li><li>**Sensible à l’heure** : le système présente immédiatement la notification, allume l’écran, peut émettre un son et outrepasser le mode Concentration. Ce niveau ne nécessite pas d’autorisation spéciale de la part d’Apple.</li><li>**Critique** : le système présente immédiatement la notification, allume l’écran et contourne le bouton de désactivation ou le mode Concentration. Notez que ce niveau nécessite une autorisation spéciale de la part d’Apple.</li></ul> |
 | **[!UICONTROL Thread-id]** | Définissez l’identifiant utilisé pour regrouper les notifications associées. |
-| **[!UICONTROL Catégorie]** | Définissez le nom de votre identifiant de catégorie qui affichera les boutons d’action. Ces notifications permettent à la personne d’effectuer plus rapidement différentes tâches en réponse à une notification, sans ouvrir l’application ou la parcourir. |
+| **[!UICONTROL Catégorie]** | Définissez le nom de votre identifiant de catégorie qui affichera les boutons d’action. Ces notifications permettent à l&#39;utilisateur d&#39;effectuer plus rapidement différentes tâches en réponse à celles-ci, sans ouvrir l&#39;application ou la parcourir. |
 | **[!UICONTROL Identifiant du contenu Target]** | Définissez un identifiant utilisé pour cibler la fenêtre d’application à afficher au premier plan à l’ouverture de la notification. |

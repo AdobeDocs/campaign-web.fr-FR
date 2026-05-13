@@ -2,10 +2,16 @@
 title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 100%
+source-wordcount: 743
+ht-degree: 97%
 
 ---
 
@@ -13,7 +19,7 @@ ht-degree: 100%
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Capture d’écran montrant les champs de configuration du compte externe Amazon Simple Storage Service S3.](assets/external-AWS.png)
 
@@ -59,7 +65,7 @@ Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser av
 
 * **[!UICONTROL Clé d’accès]**
 
-  Pour savoir où trouver votre **** clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  Pour savoir où trouver votre **&#x200B;**&#x200B;clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
 
 ## SFTP
 
