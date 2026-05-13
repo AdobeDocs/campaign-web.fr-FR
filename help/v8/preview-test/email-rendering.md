@@ -3,10 +3,13 @@ audience: end-user
 title: Tester le rendu des e-mails
 description: Découvrez comment tester le rendu de vos e-mails dans l’interface d’utilisation web de Campaign.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/EY2zw8-EfxmTKS3kCcigZY5f-piIO7S2s-gT8knFbeY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 245
+ht-degree: 100%
 
 ---
 

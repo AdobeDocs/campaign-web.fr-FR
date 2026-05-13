@@ -1,16 +1,18 @@
 ---
 audience: end-user
-title: Créer une diffusion par courrier
+title: Création d’une diffusion courrier
 description: Découvrez comment créer une diffusion par courrier avec Adobe Campaign Web.
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: 504
 ht-degree: 98%
 
 ---
 
-# Créer une diffusion par courrier {#create-direct-mail}
+# Création d’une diffusion courrier {#create-direct-mail}
 
 Vous pouvez créer une diffusion par courrier autonome ou créer une diffusion par courrier dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion par courrier autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 

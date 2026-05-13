@@ -3,10 +3,13 @@ audience: end-user
 title: Commencer avec les canaux personnalisés
 description: Découvrir comment créer et envoyer des diffusions de canaux personnalisés à l’aide d’Adobe Campaign Web
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 99%
+source-wordcount: 740
+ht-degree: 89%
 
 ---
 
@@ -32,11 +35,11 @@ Pour envoyer une nouvelle diffusion personnalisée autonome, effectuez les étap
 
 Tout d’abord, vous devez configurer le canal personnalisé. Les étapes principales à effectuer dans la console cliente sont les suivantes. Ces étapes sont communes aux canaux externes et d’API personnalisés :
 
-1. Configurez le schéma pour ajouter le nouveau canal à la liste des canaux disponibles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=fr#configure-schema){target="_blank"}
-1. Créez un compte externe de routage. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=fr#create-ext-account){target="_blank"}
-1. Créez un modèle de diffusion associé au nouveau canal. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=fr#create-template){target="_blank"}
+1. Configurez le schéma pour ajouter le nouveau canal à la liste des canaux disponibles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#configure-schema){target="_blank"}
+1. Créez un compte externe de routage. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-ext-account){target="_blank"}
+1. Créez un modèle de diffusion associé au nouveau canal. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-template){target="_blank"}
 
-Les canaux d’API personnalisés nécessitent une configuration supplémentaire. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=fr#api-additional){target="_blank"}
+Les canaux d’API personnalisés nécessitent une configuration supplémentaire. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional){target="_blank"}
 
 ## Création de la diffusion{#create-delivery}
 
@@ -84,7 +87,7 @@ Maintenant, modifions le contenu de la diffusion.
 
 1. Dans le tableau de bord de diffusion, cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
 
-1. Renseignez les champs selon vos besoins. Pour découvrir comment configurer cet écran, consultez cette [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=fr#api-additional-screen){target="_blank"}.
+1. Renseignez les champs selon vos besoins. Pour découvrir comment configurer cet écran, consultez cette [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-screen){target="_blank"}.
 
    ![Copie d’écran montrant les options de configuration des attributs pour le canal d’API.](assets/cc-content-attributes-api.png)
 
@@ -112,7 +115,7 @@ Lorsque le contenu de la diffusion est prêt, vous pouvez le prévisualiser à l
 
 1. Dans la page du contenu de diffusion, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** et sélectionnez les profils de test.
 
-1. Sur le côté droit, cliquez sur **Ouvrir l’aperçu**. Cette fonctionnalité doit être configurée à l’aide de JSSP. Voir cette [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=fr#api-additional-preview){target="_blank"}.
+1. Sur le côté droit, cliquez sur **Ouvrir l’aperçu**. Cette fonctionnalité doit être configurée à l’aide de JSSP. Voir cette [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-preview){target="_blank"}.
 
    ![Copie d’écran montrant l’option Simuler du contenu dans la page du contenu de la diffusion pour l’API.](assets/cus-simulate-api.png){zoomable="yes"}
 

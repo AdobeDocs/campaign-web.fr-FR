@@ -4,10 +4,14 @@ title: Configuration et gestion du processus de validation
 description: Découvrez comment gérer les validations des campagnes marketing dans Campaign Web.
 feature: Approvals, Campaigns
 exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/Gpk7fY-VSFdgvgJo2STGjJ8-mHBkVZnp8cD-bFZrWpU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 5%
+source-wordcount: 696
+ht-degree: 10%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 5%
 >
 >Les validations ne sont disponibles que pour les diffusions créées dans une campagne. Cela ne s’applique pas aux diffusions autonomes ou aux diffusions créées dans des workflows en dehors d’un contexte de campagne.
 
-Le processus de validation permet de coordonner plusieurs parties prenantes et d’assurer un contrôle qualité avant l’envoi des diffusions. Utilisez les validations lorsque votre organisation nécessite la validation de différentes équipes, telles que les responsables marketing qui examinent le contenu ou les analystes de données qui valident les audiences cibles.
+Le processus de validation permet de coordonner plusieurs parties prenantes et d’assurer un contrôle qualité avant l’envoi des diffusions. Utilisez les validations lorsque votre organisation nécessite la validation de différentes équipes, comme les responsables marketing qui examinent le contenu ou les analystes de données qui valident les audiences cibles.
 
 Lorsque les validations sont activées, vous devez soumettre le contenu ou la cible à la validation. Les réviseurs et réviseuses désignés reçoivent des notifications par e-mail demandant la validation et peuvent les approuver ou les refuser directement depuis l’interface utilisateur web. Les diffusions ne peuvent pas être envoyées tant que toutes les validations requises n’ont pas été accordées. Vous pouvez activer :
 
@@ -93,7 +97,7 @@ Les réviseurs et réviseuses désignés peuvent approuver ou rejeter les envois
 
 1. Vous pouvez éventuellement ajouter un **[!UICONTROL Commentaire]** pour expliquer votre décision.
 
-   ![&#x200B; Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire &#x200B;](assets/approvals4.png){zoomable="yes"}
+   ![ Capture d’écran affichant la boîte de dialogue d’approbation avec les boutons Approuver, Rejeter et le champ Commentaire ](assets/approvals4.png){zoomable="yes"}
 
 1. Confirmez votre décision. Le statut de validation est immédiatement mis à jour dans le tableau de bord de la diffusion. Consultez cette [section](#rack-approvals).
 

@@ -3,9 +3,12 @@ audience: end-user
 title: Charger une audience d’e-mail à partir d’un fichier
 description: Découvrez comment charger des profils à partir d’un fichier externe pour créer l’audience de vos e-mails.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/nYbaAG2fwqgnoE-Xnw-k5frpOAuD1bkHfUMC91LpXxc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 694
 ht-degree: 100%
 
 ---

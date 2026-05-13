@@ -7,10 +7,16 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 98%
+source-wordcount: 1687
+ht-degree: 96%
 
 ---
 
@@ -25,7 +31,7 @@ Le [Concepteur d’e-mail](create-email-content.md) [!DNL Adobe Campaign], qui p
 En conséquence, les bonnes pratiques pour concevoir un contenu accessible avec [!DNL Adobe Campaign] sont répertoriées ci-dessous.
 
 Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos landing pages conçus avec [!DNL Adobe Campaign].
-
+ 
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
@@ -90,7 +96,7 @@ Utilisez le composant **[!UICONTROL Image]** pour fournir un texte secondaire po
 Pour un texte secondaire efficace dans les produits numériques, suivez les directives ci-dessous :
 
 * Décrivez l’objectif de l’image de manière concise et contextuelle.
-* Évitez les expressions redondantes telles que « Image de... » et utilisez un texte de remplacement vide pour les images décoratives.
+* Évitez les expressions redondantes telles que « Image de ... ». et utilisez du texte de remplacement vide pour les images décoratives.
 * Pour les icônes significatives, fournissez des libellés significatifs. Pour les images complexes, utilisez un bref texte de remplacement ainsi qu’une description plus longue ailleurs.
 
 ## Utiliser un format lisible {#readable-format}
@@ -224,7 +230,8 @@ Ajoutez des `role="presentation"` (ou des `role="none"`) aux tableaux de disposi
 </table>
 ```
 
-Les lecteurs d’écran lisent : « Bonjour le monde. Bienvenue dans notre newsletter. » *(Aucune mention de lignes, colonnes ou tableau)*
+Les lecteurs d’écran lisent :
+« Bonjour le monde. Bienvenue dans notre newsletter. » *(Aucune mention de lignes, colonnes ou tableau)*
 
 +++
 
@@ -260,7 +267,8 @@ Les lecteurs d’écran lisent : « Bonjour le monde. Bienvenue dans notre new
 </table> 
 ```
 
-Les lecteurs d’écran lisent : « Tableau avec 2 colonnes et 3 lignes. »
+Les lecteurs d’écran lisent :
+« Tableau avec 2 colonnes et 3 lignes. »
 
 « Nom, Alice. Score, 95. »
 
@@ -290,8 +298,8 @@ Utilisez le Concepteur d’e-mail pour [ajouter un lien](message-tracking.md#ins
 </p>
 ```
 
-Les lecteurs d’écran lisent :
-« Lien, notes de mise à jour d’août. »
+Les lecteurs d’écran lisent :
+« Lien, notes de mise à jour d’août. »
 
 +++
 
@@ -305,8 +313,8 @@ Les lecteurs d’écran lisent :
 </p>
 ```
 
-Les lecteurs d’écran lisent :
-« Lien, cliquez ici. » *(Ne fournit aucun contexte en dehors de l’ordre de lecture)*
+Les lecteurs d’écran lisent :
+« Lien, cliquez ici. » *(Ne fournit aucun contexte en dehors de l’ordre de lecture)*
 
 +++
 

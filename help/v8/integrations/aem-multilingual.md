@@ -7,9 +7,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/t7jTgugTG9NOGwqQ9OMcRCrLcr83sTI5cu-O-iYQsRk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 527
 ht-degree: 5%
 
 ---
@@ -23,7 +28,7 @@ L’intégration de Adobe Experience Manager vous permet de créer des diffusion
 Avant de créer une diffusion e-mail multilingue, vérifiez que vous disposez des éléments suivants :
 
 * Accès à une instance Adobe Experience Manager configurée pour l&#39;intégration de l&#39;interface Web d&#39;Adobe Campaign.
-* Un contenu Adobe Experience Manager avec des copies de langue a déjà été créé et approuvé. En savoir plus sur l&#39;Assistant Copie de la langue dans la documentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Un contenu Adobe Experience Manager avec des copies de langue a déjà été créé et approuvé. En savoir plus sur l&#39;Assistant Copie de la langue dans la documentation de [](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Modèle de diffusion d’e-mail configuré pour recevoir du contenu Adobe Experience Manager. Reportez-vous aux étapes détaillées dans la section [Activation du mode multilingue](#enable-multilingual).
 
 ## Création de votre diffusion multilingue

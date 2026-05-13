@@ -3,14 +3,18 @@ audience: end-user
 title: Alignement sur la marque
 description: Découvrez comment créer, valider et gérer du contenu conforme à la marque à l’aide du score de marque.
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+TQID: https://experienceleague.adobe.com/j4YLHVWdNYp0UDaf0CNTKqI-qpO4XjDuOJF9NIAEJK0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 36%
+source-wordcount: 511
+ht-degree: 37%
 
 ---
 
-# Évaluation de votre contenu {#brands-score}
+# Évaluer votre contenu {#brands-score}
 
 >[!AVAILABILITY]
 >
@@ -61,7 +65,7 @@ Outre l’alignement de la marque, vous pouvez évaluer la qualité générale d
 
 Pour évaluer la qualité de votre contenu :
 
-1. Créez votre [&#x200B; diffusion e-mail &#x200B;](../email/create-email.md).
+1. Créez votre [ diffusion e-mail ](../email/create-email.md).
 
 1. Ouvrez le menu **[!UICONTROL Alignement des marques]** dans le Designer Email.
 

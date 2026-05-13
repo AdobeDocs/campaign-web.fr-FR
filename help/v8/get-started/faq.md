@@ -2,9 +2,12 @@
 title: Forum aux questions
 description: Questions fréquentes sur l’interface d’utilisation de Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
-workflow-type: ht
-source-wordcount: '865'
+TQID: https://experienceleague.adobe.com/ArGP0QngUR7EiLAsdQb6FcneQ1fj4vcna40-tVEMXwE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 865
 ht-degree: 100%
 
 ---
@@ -65,7 +68,7 @@ Consultez la page [Produits et périodes du support technique ](https://helpx.ad
 
 +++ J’utilise actuellement Adobe Campaign Standard, comment accéder à la nouvelle interface d’utilisation ?
 
-Pour accéder à la nouvelle interface d’utilisation, vous devez utiliser Adobe Campaign v8.6.La première étape consiste à obtenir une licence sur les SKU Managed Cloud Services, Advanced ou Enterprise.Contactez votre interlocuteur ou interlocutrice Adobe. Si vous utilisez déjà Managed Cloud Service Advanced ou Enterprise, contactez la personne chargée de votre transition pour planifier le passage à la version v8. Pour en savoir plus, consultez le [Guide d’adoption](../../adoption/home.md) dédié.
+Pour accéder à la nouvelle interface d’utilisation, vous devez utiliser Adobe Campaign v8.6. La première étape consiste à obtenir une licence sur les SKU Managed Cloud Services, Advanced ou Enterprise. Contactez votre interlocuteur ou interlocutrice Adobe. Si vous utilisez déjà Managed Cloud Service Advanced ou Enterprise, contactez la personne chargée de votre transition pour planifier le passage à la version v8. Pour en savoir plus, consultez le [Guide d’adoption](../../adoption/home.md) dédié.
 
 +++
 

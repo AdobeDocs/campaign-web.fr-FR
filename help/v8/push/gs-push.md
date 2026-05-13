@@ -3,9 +3,12 @@ audience: end-user
 title: Commencer avec les notifications push
 description: Découvrez comment créer et envoyer des notifications push à l’aide d’Adobe Campaign Web.
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: 206
 ht-degree: 100%
 
 ---
@@ -29,16 +32,16 @@ Pour créer des notifications push, vous disposez de trois options :
 <a href="create-push.md">
 <img alt="Créer une diffusion par notification push" src="assets/do-not-localize/push_create.jpeg">
 </a>
-<div><a href="create-push.md"><strong>Créer une diffusion par notification push</strong>
+<div><a href="create-push.md"><strong>Créer une diffusion de notification push</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="content-push.md">
-<img alt="Concevoir une diffusion par notification push" src="assets/do-not-localize/push_design.jpeg">
+<img alt="Concevoir une diffusion de notification push" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md"><strong>Concevoir une diffusion par notification push<strong></strong></a>
+<a href="content-push.md"><strong>Concevoir une diffusion de notification push<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -52,7 +55,7 @@ Pour créer des notifications push, vous disposez de trois options :
 </td>
 <td>
 <a href="send-push.md">
-<img alt="Rapport des diffusions par notification push" src="assets/do-not-localize/push_report.jpeg">
+<img alt="Rapport de diffusion des notifications push" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
 <a href="send-push.md"><strong>Rapport des diffusions par notification push</strong></a>

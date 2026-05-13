@@ -3,9 +3,12 @@ audience: end-user
 title: Création d’audiences
 description: Découvrez comment créer des audiences dans Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/3uaqEhHU8Hn8OkHogqYfPMXfKSaexNrD-9Y94ZX-SA0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: 1018
 ht-degree: 100%
 
 ---
@@ -109,4 +112,4 @@ Si vous préférez ne pas remplacer les résultats de l’audience existante, co
 
 Découvrez comment créer et gérer des audiences, comment sélectionner des audiences pour une diffusion et définir des populations témoins.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453204?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
