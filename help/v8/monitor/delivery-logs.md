@@ -4,7 +4,8 @@ title: Surveiller les logs de diffusion
 description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 429
