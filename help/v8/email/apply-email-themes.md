@@ -12,7 +12,7 @@ exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Thèmes dans le Concepteur d’e-mail (LA)"
->abstract="Appliquez des styles de thème et des variables réutilisables pour que le contenu des e-mails reste cohérent avec votre marque. Cette fonctionnalité est réservée à un nombre restreint d’organisations (disponibilité limitée)"
+>abstract="Appliquez des styles de thème et des variables réutilisables pour que le contenu des e-mails reste cohérent avec votre marque. Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée)."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]

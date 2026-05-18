@@ -6,7 +6,7 @@ exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 13%
+ht-degree: 23%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Activité de diffusion automatisée"
->abstract="L&#39;activité de workflow Diffusion automatisée est désormais disponible dans la palette du workflow. Vous pouvez l’utiliser pour créer ou exécuter des actions de diffusion (préparer, envoyer un BAT, préparer et démarrer, etc.) directement dans votre workflow."
+>abstract="L’activité de workflow Diffusion automatisée est désormais disponible dans la palette du workflow. Vous pouvez l’utiliser pour créer ou exécuter des actions de diffusion (préparer, envoyer un BAT, préparer et démarrer, etc.) directement dans votre workflow."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="Activité de diffusion automatisée"
->abstract="L&#39;activité **Diffusion automatisée** est utilisée à des fins d&#39;automatisation : créez ou réutilisez une diffusion dans votre workflow, puis choisissez l&#39;action à effectuer (préparer, préparer et démarrer, envoyer un bon à tirer, etc.). Vous pouvez sélectionner une diffusion explicite existante créée en dehors du workflow ou créer une diffusion à partir d’un modèle à chaque exécution de l’activité."
+>abstract="L’activité **Diffusion automatisée** est utilisée à des fins d’automatisation : créez ou réutilisez une diffusion dans votre workflow, puis choisissez l’action à effectuer (préparer, préparer et démarrer, envoyer un BAT, etc.). Vous pouvez sélectionner une diffusion explicite existante créée en dehors du workflow ou créer une diffusion à partir d’un modèle à chaque exécution de l’activité."
 
 L&#39;activité **Diffusion automatisée** vous permet de créer, configurer et exécuter des actions de diffusion directement dans votre workflow. Utilisez-la lorsque vous souhaitez exécuter une diffusion prédéfinie selon un planning ou dans le cadre d’un flux automatisé, ou lorsque vous souhaitez générer une nouvelle diffusion à partir d’un modèle à chaque exécution de l’activité.
 

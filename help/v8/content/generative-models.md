@@ -8,7 +8,7 @@ exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Intégration de modèles de génération d&#39;images"
+>title="Intégration de modèles de génération d’images"
 >abstract="Activez l’intégration transparente des modèles Firefly standard et personnalisés, ainsi que des modèles d’image tiers approuvés, afin d’offrir une plus grande flexibilité, un meilleur contrôle et un meilleur alignement de la marque lors de la génération d’images."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
