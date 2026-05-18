@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 43%
+ht-degree: 58%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="Activité de jointure"
->abstract="L&#39;activité **Joindre** permet de fusionner plusieurs transitions entrantes. Choisissez de continuer lorsque toutes les transitions entrantes sont terminées (AND) ou lorsqu’une transition entrante est terminée (OR)."
+>abstract="L’activité **Jointure** permet de fusionner plusieurs transitions entrantes. Choisissez de continuer lorsque toutes les transitions entrantes sont terminées (ET) ou lorsqu’une transition entrante est terminée (OU)."
 
 L&#39;activité **Joindre** est une activité de contrôle de flux **Flow**. Elle synchronise plusieurs branches d’exécution d’un workflow.
 Vous pouvez choisir le mode d’évaluation des transitions entrantes :
@@ -38,7 +38,7 @@ Lorsque l’option **AND** est sélectionnée, cette activité ne déclenche sa 
 
 Lorsque l’option **OR** est sélectionnée, l’exécution se poursuit dès que l’une des transitions entrantes sélectionnées est activée. Il n&#39;attend pas chaque succursale.
 
-## Configuration de l&#39;activité Jointure {#join-configuration}
+## Configurer l’activité Jointure {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
