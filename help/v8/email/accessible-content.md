@@ -8,17 +8,11 @@ level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1687
@@ -38,7 +32,6 @@ En conséquence, les bonnes pratiques pour concevoir un contenu accessible avec 
 
 Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos landing pages conçus avec [!DNL Adobe Campaign].
  
-
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
