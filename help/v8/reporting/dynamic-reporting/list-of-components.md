@@ -6,7 +6,7 @@ audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '764'
 ht-degree: 100%
 
 ---
@@ -98,7 +98,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures   {#metrics}
+## Mesures {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition en fonction du type de diffusion.
 
@@ -122,14 +122,14 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Rebonds + erreurs<br/> </td> 
-   <td> Nombre total d'erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br/> </td> 
+   <td> Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taux de rebond + erreurs<br/> </td> 
    <td> Pourcentage d'emails qui ont fait l'objet d'un bounce par rapport au nombre d'emails envoyés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clics<br/> </td> 
+   <td> Clic<br/> </td> 
    <td> Nombre de clics sur un contenu dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
@@ -137,7 +137,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de clics dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Delivrés<br/> </td> 
+   <td> Délivrés<br/> </td> 
    <td> Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.<br/> </td> 
   </tr> 
   <tr> 
@@ -170,10 +170,10 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Ouvertures<br/> </td> 
-   <td> Nombre d'ouvertures d'un message dans une diffusion.<br/> </td> 
+   <td> Nombre d’ouvertures d’un message dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Taux d'ouverture<br/> </td> 
+   <td> Taux d’ouverture<br/> </td> 
    <td> Pourcentage de messages ouverts.<br/> </td> 
   </tr> 
   <tr> 

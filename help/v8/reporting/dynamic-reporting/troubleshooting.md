@@ -5,8 +5,8 @@ audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '1245'
+workflow-type: tm+mt
+source-wordcount: '1248'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ Cette section contient des questions courantes relatives aux rapports dynamiques
 
 Actuellement, les rapports dynamiques ne sont disponibles qu’en anglais.
 
-## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne.  {#unique-open-clicks-no-match}
+## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne. {#unique-open-clicks-no-match}
 
 Il s&#39;agit d&#39;un comportement attendu.
 Prenons l&#39;exemple suivant pour expliquer ce comportement.
@@ -29,13 +29,13 @@ Un e-mail est envoyé aux profils P1 et P2.
 P1 ouvre l&#39;e-mail deux fois le premier jour, puis trois fois le jour suivant.
 
 P2, quant à lui, ouvre l&#39;e-mail une fois le premier jour et ne le rouvre pas les jours suivants.
-Voici une représentation visuelle de l&#39;interaction des profils avec l&#39;e-mail envoyé :
+Voici une représentation visuelle de l’interaction des profils avec l’e-mail envoyé :
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Jour</strong> <br/> </th> 
-   <th align="center"> <strong>Ouvertures</strong><br/> </th> 
+   <th align="center"> <strong>Ouvertures</strong> <br/> </th> 
    <th align="center"> <strong>Ouvertures uniques</strong> <br/> </th> 
   </tr> 
  </thead> 
@@ -63,7 +63,7 @@ Cela donne le tableau suivant :
  <thead> 
   <tr> 
    <th align="center"> <strong></strong> <br/> </th> 
-   <th align="center"> <strong>Ouvertures</strong><br/> </th> 
+   <th align="center"> <strong>Ouvertures</strong> <br/> </th> 
    <th align="center"> <strong>Ouvertures uniques</strong> <br/> </th> 
   </tr> 
  </thead> 
@@ -90,7 +90,7 @@ Cela donne le tableau suivant :
 >
 >Les décomptes uniques reposent sur un sketch HLL, ce qui peut entraîner de légères imprécisions dans le cas de nombres élevés.
 
-## Les décomptes des ouvertures ne correspondent pas à ceux de la base de données.  {#open-counts-no-match-database}
+## Les décomptes des ouvertures ne correspondent pas à ceux de la base de données. {#open-counts-no-match-database}
 
 Cela peut être dû au fait que la méthode heuristique est utilisée dans les rapports dynamiques pour tracker les ouvertures, même lorsque nous ne pouvons pas tracker l&#39;action **[!UICONTROL Ouvrir]**.
 
@@ -104,10 +104,10 @@ Ces occurrences sont ajoutées car **&quot;un clic sur un e-mail implique l&#39;
 >
 >Comme les décomptes uniques reposent sur le sketch HLL, des incohérences mineures entre les décomptes sont possibles.
 
-## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ?  {#counts-recurring-deliveries}
+## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ? {#counts-recurring-deliveries}
 
 Lors de l&#39;utilisation de diffusions récurrentes et transactionnelles, les décomptes sont attribués aux diffusions parents et enfants.
-Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s&#39;exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
+Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s’exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
 Supposons que seule une personne a ouvert toutes les diffusions enfants à plusieurs reprises. Dans ce cas, chaque diffusion enfant récurrente affichera le nombre 1 d&#39;**[!UICONTROL Ouverture.]**
 Toutefois, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent aura également un décompte de 1 pour les **[!UICONTROL ouvertures uniques]**.
 
@@ -118,8 +118,8 @@ Les rapports doivent se présenter comme suit :
   <tr> 
    <th align="center"> <strong>Diffusion</strong> <br/> </th> 
    <th align="center"> <strong>Envoyés</strong> <br/> </th> 
-   <th align="center"> <strong>Delivrés</strong> <br/> </th>
-   <th align="center"> <strong>Ouvertures</strong><br/> </th> 
+   <th align="center"> <strong>Délivrés</strong> <br/> </th>
+   <th align="center"> <strong>Ouvertures</strong> <br/> </th> 
    <th align="center"> <strong>Ouvertures uniques</strong> <br/> </th>
   </tr> 
  </thead> 
@@ -155,7 +155,7 @@ Les rapports doivent se présenter comme suit :
  </tbody> 
 </table>
 
-## Quelle est la signification des couleurs dans le tableau des rapports ?  {#reports-color-signification}
+## Quelle est la signification des couleurs dans le tableau des rapports ? {#reports-color-signification}
 
 Les couleurs affichées dans vos rapports sont aléatoires et ne peuvent pas être personnalisées. Elles représentent une barre de progression et s&#39;affichent pour mettre en évidence la valeur maximale atteinte dans vos rapports.
 

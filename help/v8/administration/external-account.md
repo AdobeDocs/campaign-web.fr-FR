@@ -3,8 +3,8 @@ title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: ht
-source-wordcount: '648'
+workflow-type: tm+mt
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -63,7 +63,7 @@ Un accès Internet est nécessaire pour la configuration et pour utiliser le bou
 
 Après avoir saisi les différentes informations d’identification, vous pouvez cliquer sur Configurer la connexion pour terminer la configuration de votre compte externe.
 
-## Routage  {#routing}
+## Routage {#routing}
 
 Pour configurer un compte externe spécifique pour les diffusions externes, procédez comme suit.
 

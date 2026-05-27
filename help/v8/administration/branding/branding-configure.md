@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
-workflow-type: ht
-source-wordcount: '548'
+workflow-type: tm+mt
+source-wordcount: '554'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Une **[!UICONTROL marque]** est définie par les caractéristiques suivantes :
 
   ![](assets/branding_2.png)
 
-* Le paramètre **[!UICONTROL Configurations de marque]** définit les serveurs utilisés pour le tracking ainsi que l’accès aux pages de destination. Cette section contient les champs suivants :
+* Le paramètre **[!UICONTROL Configurations de marque]** définit les serveurs utilisés pour le tracking ainsi que l’accès aux landing pages. Cette section contient les champs suivants :
 
    * **[!UICONTROL Sous-domaine de marque]** fait référence à l’URL de sous-domaine désignée spécifique à cette marque, demandée pour délégation à partir d’Adobe.
 

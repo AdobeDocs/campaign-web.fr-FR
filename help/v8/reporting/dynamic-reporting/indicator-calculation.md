@@ -5,8 +5,8 @@ level: Intermediate
 audience: end-user
 exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
-source-wordcount: '379'
+workflow-type: tm+mt
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 100%
 
 Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul en fonction du type de diffusion.
 
-## Diffusion Email  {#email-delivery}
+## Diffusion Email {#email-delivery}
 
 <table> 
  <thead> 
   <tr> 
    <th> <strong>Libellé</strong> <br/> </th> 
    <th> <strong>Nom du champ</strong> <br/> </th> 
-   <th> <strong>Formule de calcul de l'indicateur</strong> <br/> </th> 
+   <th> <strong>Formule de calcul de l’indicateur</strong> <br/> </th> 
    <th> <strong>Commentaires</strong><br/> </th> 
   </tr> 
  </thead> 
@@ -62,9 +62,9 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Clics<br/> </td> 
+   <td> Clic<br/> </td> 
    <td> @clicks<br/> </td> 
-   <td> count(@trackingUrlType=1 ou 10 ou 11)<br/> </td> 
+   <td> count(@trackingUrlType=1 or 10 or 11)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Delivrés<br/> </td> 
+   <td> Délivrés<br/> </td> 
    <td> @delivered<br/> </td> 
    <td> count(@status=1)<br/> </td> 
    <td> </td> 
@@ -92,7 +92,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux de rebond définitif<br/> </td> 
+   <td> Taux de rebonds définitifs<br/> </td> 
    <td> @rateHardBounces<br/> </td> 
    <td> @hardBounces/@sent<br/> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br/> </td> 
@@ -134,7 +134,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux d'ouverture<br/> </td> 
+   <td> Taux d’ouverture<br/> </td> 
    <td> @rateOpens<br/> </td> 
    <td> @opens/@delivered<br/> </td> 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
@@ -165,7 +165,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   </tr> 
   <tr> 
    <td> Traités/envoyés<br/> </td> 
-   <td> @envoyé<br/> </td> 
+   <td> @sent<br/> </td> 
    <td> @delivered + @bounces<br/> </td> 
    <td> </td> 
   </tr> 
@@ -195,7 +195,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   </tr> 
   <tr> 
    <td> Inatteignable <br/> </td> 
-   <td> @Inatteignable<br/> </td> 
+   <td> @unreachable<br/> </td> 
    <td> count(@failureReason=3)<br/> </td> 
    <td> </td> 
   </tr> 
@@ -212,7 +212,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Utilisateur inconnu<br/> </td> 
+   <td> Utilisateur inconnu ou utilisatrice inconnue<br/> </td> 
    <td> @unknownUser<br/> </td> 
    <td> count(@failureReason=1)<br/> </td> 
    <td> </td> 
