@@ -4,8 +4,7 @@ title: Utiliser l’activité de workflow Modifier la source de données
 description: Découvrez comment utiliser l’activité de workflow Modifier la source de données.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 TQID: https://experienceleague.adobe.com/fJB0PL8T0B6A8aIFuLp8prh6-l28GQACQT91YR8hrBo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 395
