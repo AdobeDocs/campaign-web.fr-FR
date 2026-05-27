@@ -3,7 +3,7 @@ title: Notes de mise à jour précédentes de l’interface d’utilisation web 
 description: Versions de l’interface d’utilisation web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # Notes de mise à jour 2026 {#2026-release}
 
-Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions 2026**.Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
+Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions 2026**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
 
 ## Version de février 2026 {#26-2-release}
 
@@ -80,7 +80,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et gérer des schémas directement à partir de l’interface d’utilisation web de Campaign.Cette fonctionnalité permet de créer des tables, d’étendre les schémas existants et de créer des formulaires personnalisés.Vous pouvez définir des structures de données personnalisées pour répondre aux besoins spécifiques de votre entreprise, sans avoir à accéder à la console cliente.</p>
+<p>Vous pouvez désormais créer et gérer des schémas directement à partir de l’interface d’utilisation web de Campaign. Cette fonctionnalité permet de créer des tables, d’étendre les schémas existants et de créer des formulaires personnalisés. Vous pouvez définir des structures de données personnalisées pour répondre aux besoins spécifiques de votre entreprise, sans avoir à accéder à la console cliente.</p>
 <p>Remarque : cette fonctionnalité n’est disponible que pour un ensemble d’organisations donné (disponibilité limitée) et sera déployée en disponibilité générale dans une prochaine version.</p>
 <p>Pour plus d'informations, consultez la <a href="../administration/schemas.md">documentation détaillée</a>.</p>
 </td>
@@ -111,11 +111,11 @@ _27 janvier 2026_
 <tbody>
 <tr>
 <td>
-<p>La fonctionnalité de diffusion multilingue est désormais disponible pour toutes les clientes et tous les clients (GA).Cette fonctionnalité permet d’envoyer plusieurs messages dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web.Vous pouvez choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée.Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix.
+<p>La fonctionnalité de diffusion multilingue est désormais disponible pour toutes les clientes et tous les clients (GA). Cette fonctionnalité permet d’envoyer plusieurs messages dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. Vous pouvez choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix. 
 <p>Pour plus d'informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
 <p>Les améliorations suivantes ont été apportées aux notifications push multilingues :</p>
 <ul>
-<li>Vous pouvez désormais remplir rapidement toutes les variantes de langue en chargeant un fichier CSV comportant votre contenu multilingue.<a href="../msg/multilingual.md#csv-upload">En savoir plus</a>
+<li>Vous pouvez désormais remplir rapidement toutes les variantes de langue en chargeant un fichier CSV comportant votre contenu multilingue. <a href="../msg/multilingual.md#csv-upload">En savoir plus</a>
 </li>
 <li>Les notifications push riches sont désormais prises en charge.</li>
 </td>
@@ -132,7 +132,7 @@ _27 janvier 2026_
 <tbody>
 <tr>
 <td>
-<p>La fonctionnalité Enrichissement du profil dans les messages transactionnels est désormais disponible pour toutes les clientes et tous les clients (GA).En plus des e-mails, les SMS et les notifications push sont désormais pris en charge.Cette fonctionnalité permet de personnaliser les messages transactionnels en liant des champs de la base de données Adobe Campaign au contenu des messages.Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant vos seuils de performances.</p>
+<p>La fonctionnalité Enrichissement du profil dans les messages transactionnels est désormais disponible pour toutes les clientes et tous les clients (GA). En plus des e-mails, les SMS et les notifications push sont désormais pris en charge. Cette fonctionnalité permet de personnaliser les messages transactionnels en liant des champs de la base de données Adobe Campaign au contenu des messages. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant vos seuils de performances.</p>
 <p>Pour plus d'informations, consultez la <a href="../transactional-messaging/profile-enrichment.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -148,7 +148,7 @@ _27 janvier 2026_
 <tbody>
 <tr>
 <td>
-<p>L’intégration de contenu Adobe Experience Manager permet d’accéder à toutes les copies de langue et Live Copies créées dans Adobe Experience Manager directement dans Campaign lors de la création de diffusions.Vous pouvez actualiser le contenu en temps réel pour récupérer les dernières versions d’Adobe Experience Manager.Cette intégration élimine la synchronisation manuelle de contenu entre Adobe Experience Manager et Campaign, ce qui rationalise votre workflow de campagne multilingue.</p>
+<p>L’intégration de contenu Adobe Experience Manager permet d’accéder à toutes les copies de langue et Live Copies créées dans Adobe Experience Manager directement dans Campaign lors de la création de diffusions. Vous pouvez actualiser le contenu en temps réel pour récupérer les dernières versions d’Adobe Experience Manager. Cette intégration élimine la synchronisation manuelle de contenu entre Adobe Experience Manager et Campaign, ce qui rationalise votre workflow de campagne multilingue.</p>
 <p>Pour plus d'informations, consultez la <a href="../integrations/aem-multilingual.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -164,7 +164,7 @@ _27 janvier 2026_
 <tbody>
 <tr>
 <td>
-<p>Les expériences de contenu dans Adobe Campaign Web vous permettent de définir plusieurs variantes de diffusion de test A/B afin de mesurer celle qui fonctionne le mieux pour votre audience cible.Vous pouvez faire varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion afin de tester différentes versions et de déterminer la variante produisant les meilleurs résultats.Vous pouvez effectuer des tests AB sur divers éléments d’e-mail tels que l’objet, le nom de l’expéditeur ou de l’expéditrice et le contenu du corps de l’e-mail.</p>
+<p>Les expériences de contenu dans Adobe Campaign Web vous permettent de définir plusieurs variantes de diffusion de test A/B afin de mesurer celle qui fonctionne le mieux pour votre audience cible. Vous pouvez faire varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion afin de tester différentes versions et de déterminer la variante produisant les meilleurs résultats. Vous pouvez effectuer des tests AB sur divers éléments d’e-mail tels que l’objet, le nom de l’expéditeur ou de l’expéditrice et le contenu du corps de l’e-mail.</p>
 <p>Pour plus d’informations, consultez la <a href="../email/ab-testing.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -180,7 +180,7 @@ _27 janvier 2026_
 <tbody>
 <tr>
 <td>
-<p>L’activité Diffusion continue permet d’ajouter de nouveaux destinataires à une diffusion existante.Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois, ce qui le rend plus efficace pour les alertes ou notifications à faible volume envoyées selon les besoins. Une diffusion continue crée une instance de diffusion unique.Tous les logs de diffusion (broadLog) et les logs de tracking référencent cette diffusion, ce qui simplifie la surveillance et le reporting.</p>
+<p>L’activité Diffusion continue permet d’ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois, ce qui le rend plus efficace pour les alertes ou notifications à faible volume envoyées selon les besoins. Une diffusion continue crée une instance de diffusion unique. Tous les logs de diffusion (broadLog) et les logs de tracking référencent cette diffusion, ce qui simplifie la surveillance et le reporting.</p>
 <p>Pour plus d’informations, consultez la <a href="../workflows/activities/continuous-delivery.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -196,7 +196,7 @@ _27 janvier 2026_
 <tbody>
 <tr>
 <td>
-<p>Le processus de validation permet de coordonner plusieurs parties prenantes et d’assurer un contrôle qualité avant l’envoi des diffusions.Utilisez les validations lorsque votre organisation nécessite la validation de différentes équipes, comme les responsables marketing qui examinent le contenu ou les analystes de données qui valident les audiences cibles.</p>
+<p>Le processus de validation permet de coordonner plusieurs parties prenantes et d’assurer un contrôle qualité avant l’envoi des diffusions. Utilisez les validations lorsque votre organisation nécessite la validation de différentes équipes, comme les responsables marketing qui examinent le contenu ou les analystes de données qui valident les audiences cibles.</p>
 <p>Pour plus d'informations, consultez la <a href="../campaigns/campaign-approvals.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -205,7 +205,7 @@ _27 janvier 2026_
 
 ### Améliorations {#26-1-improvements}
 
-* Les rapports dynamiques prennent désormais en charge les notifications push et les SMS.[En savoir plus](../reporting/dynamic-reporting/get-started-reporting.md)
-* Filtres prédéfinis - Une nouvelle option de « filtre partagé » permet de mettre un filtre prédéfini à disposition d’autres utilisateurs et utilisatrices de votre organisation.[En savoir plus](../get-started/predefined-filters.md#share-filter)
+* Les rapports dynamiques prennent désormais en charge les notifications push et les SMS. [En savoir plus](../reporting/dynamic-reporting/get-started-reporting.md)
+* Filtres prédéfinis - Une nouvelle option de « filtre partagé » permet de mettre un filtre prédéfini à disposition d’autres utilisateurs et utilisatrices de votre organisation. [En savoir plus](../get-started/predefined-filters.md#share-filter)
 * Les champs de personnalisation créés dans Adobe Experience Manager, tels que le nom, l’e-mail, la date et l’adresse, sont désormais inclus et disponibles lors de l’utilisation de modèles de contenu.
-* L’évaluation de la qualité du contenu recherche désormais les problèmes de lisibilité, de cohésion et d’efficacité, indépendamment des directives de la marque, en identifiant les messages imprécis, les incohérences de ton ou les problèmes structurels.[En savoir plus](../content/brands-score.md)
+* L’évaluation de la qualité du contenu recherche désormais les problèmes de lisibilité, de cohésion et d’efficacité, indépendamment des directives de la marque, en identifiant les messages imprécis, les incohérences de ton ou les problèmes structurels. [En savoir plus](../content/brands-score.md)
