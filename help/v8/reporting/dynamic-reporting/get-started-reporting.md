@@ -6,7 +6,7 @@ level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
 source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -26,11 +26,11 @@ Les rapports dynamiques sont constitués de rapports entièrement personnalisabl
 
 ## Gérer des rapports {#manage-share-reports}
 
-Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clientes et clients les plus importants et mesurer leur impact sur les personnes destinataires.
+Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
 **Gérez vos rapports dynamiques** grâce à différentes fonctionnalités : vous pouvez actualiser les données en temps réel, imprimer vos rapports ou les exporter en tant que fichiers CSV.
 
-En savoir plus :
+En savoir plus:
 
 * [Rapports dynamiques](about-dynamic-reports.md)
 * [Interface de reporting](reporting-interface.md)
@@ -41,7 +41,7 @@ L’interface d’utilisation d’Adobe Campaign Web est fournie avec un ensem
 
 **Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports en version usine.
 
-En savoir plus :
+En savoir plus:
 
 * [Liste des composants](list-of-components.md)
 * [Calcul des indicateurs](indicator-calculation.md)
@@ -53,7 +53,7 @@ En savoir plus :
 
 Effectuez un glisser-déposer d’**éléments de visualisation** pour ajouter des représentations graphiques de vos données dans les rapports et les configurer selon vos besoins.
 
-En savoir plus :
+En savoir plus:
 
 * [Ajouter des panneaux](adding-panels.md)
 * [Ajouter des visualisations](adding-visualizations.md)
