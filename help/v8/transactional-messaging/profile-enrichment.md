@@ -5,7 +5,7 @@ description: Découvrez comment créer un message transactionnel dans l’interf
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '470'
 ht-degree: 97%
 
 ---

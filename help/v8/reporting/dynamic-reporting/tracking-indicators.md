@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: cdb41d18-7d92-4128-a29b-70e17b6a3358
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '158'
 ht-degree: 100%
 
 ---
@@ -17,13 +17,13 @@ Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs cl�
 
 >[!NOTE]
 >
->Pour permettre l&#39;accès à ces données, le tracking doit être activé lors la préparation de la diffusion.
+>Pour permettre l’accès à ces données, le tracking doit être activé lors la préparation de la diffusion.
 
 ![](assets/delivery_reports_2.png)
 
 Le tableau **[!UICONTROL Indicateurs de tracking]** et le graphique **Top 5 des diffusions** contiennent les données disponibles pour le tracking email, telles que :
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès. Les erreurs remontées (rebonds) sont prises en compte. Cependant, les plaintes (déclarations comme spam) et les messages d&#39;absence de type « absent du bureau » ne sont pas pris en compte.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès. Les erreurs soulevées (rebonds) sont prises en compte. Cependant, les plaintes (déclarations comme spam) et les messages d’absence de type « absence du bureau » ne sont pas pris en compte.
 * **Ouverture** : nombre d&#39;ouvertures d&#39;un message dans une diffusion.
 * **Clic** : nombre de clics sur un contenu dans une diffusion.
 * **Désabonnement** : nombre de clics sur le lien de désinscription.

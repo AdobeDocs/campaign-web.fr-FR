@@ -4,8 +4,7 @@ title: Utiliser l’activité de workflow Créer une audience
 description: Découvrez comment utiliser l’activité de workflow Créer une audience.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaBpanE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
 source-wordcount: 514
@@ -63,7 +62,7 @@ Pour créer votre propre requête, procédez comme suit :
 1. Sélectionnez la **Dimension de filtrage** en cliquant sur l’icône en regard de la dimension de ciblage. La dimension de filtrage permet d’appliquer des filtres à la population ciblée en référençant des critères associés sans modifier la dimension de ciblage principale. [En savoir plus sur les dimensions de ciblage](../../audience/targeting-dimensions.md#filtering)
 1. Cliquez sur **Continuer**.
 1. Utilisez le concepteur de requêtes pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
-1. Utilisez la section **Données d’enrichissement** pour améliorer les données ciblées avec des informations supplémentaires provenant de la base de données, par exemple des références de contrat ou des abonnements à des newsletters. Ces données sont stockées avec l’audience dans le workflow **table de travail** et sont disponibles pour les activités qui suivent. Vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection ou des expressions. Pour obtenir des étapes détaillées et des exemples, voir [&#x200B; Ajouter des données d’enrichissement &#x200B;](enrichment.md#enrichment-add).
+1. Utilisez la section **Données d’enrichissement** pour améliorer les données ciblées avec des informations supplémentaires provenant de la base de données, par exemple des références de contrat ou des abonnements à des newsletters. Ces données sont stockées avec l’audience dans le workflow **table de travail** et sont disponibles pour les activités qui suivent. Vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection ou des expressions. Pour obtenir des étapes détaillées et des exemples, voir [ Ajouter des données d’enrichissement ](enrichment.md#enrichment-add).
 
 >[!TAB Lecture d’audience]
 
