@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 1564
 ht-degree: 100%
@@ -127,7 +127,7 @@ Dans la section **Gestion de campagnes**, vous pouvez accéder aux campagnes mar
 
   Utilisez le bouton **Autres actions** pour supprimer ou dupliquer une diffusion.
 
-  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"} [Capture d’écran montrant le bouton Plus d’actions avec des options pour supprimer ou dupliquer une diffusion]
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%"} [Capture d’écran montrant le bouton Plus d’actions avec des options pour supprimer ou dupliquer une diffusion]
 
 * **Workflows** : dans cet écran, vous pouvez accéder à la liste complète des workflows et des modèles de workflows. Vous pouvez vérifier leur statut, les dates de dernière exécution ou de prochaine exécution, et créer un nouveau workflow ou un nouveau modèle de workflow. Vous pouvez filtrer la liste selon les mêmes critères que pour les autres objets. En outre, vous pouvez filtrer les workflows selon qu’ils appartiennent ou non à une campagne. Pour en savoir plus sur les workflows, consultez [cette section](../workflows/gs-workflows.md).
 

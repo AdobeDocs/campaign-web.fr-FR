@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 90%
@@ -50,7 +50,7 @@ Pour créer une diffusion autonome, procédez comme suit :
 1. Sélectionnez un canal de diffusion.
 1. Définissez l’audience de la diffusion, pour la cible principale et la population témoin. [En savoir plus sur les audiences](../audience/about-recipients.md).
 
-   ![Capture d’écran montrant l’interface de sélection d’audience](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   ![Capture d’écran montrant l’interface de sélection d’audience](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. Définissez le contenu du message. Découvrez les canaux de diffusion et comment définir un contenu de diffusion dans les sections suivantes :
 

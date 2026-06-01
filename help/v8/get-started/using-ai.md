@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 525
 ht-degree: 100%
@@ -58,7 +58,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Dans le champ de saisie, l’aide contextuelle optimisée par l’IA d’Adobe Campaign suggère trois questions. Ces questions générées par l’IA concernent la boîte de dialogue d’aide et le contexte du produit actuel. Sélectionnez une question pour obtenir la réponse.
 
-[Exemple de suggestions de questions dans l’aide contextuelle](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[Exemple de suggestions de questions dans l’aide contextuelle](assets/do-not-localize/suggested-questions.png){width="600"}{zoomable="yes"}
 
 ## Réponses {#answers-ai}
 
@@ -66,7 +66,7 @@ L’aide contextuelle optimisée par l’IA d’Adobe Campaign vous apporte une
 
 Vous pouvez copier une réponse dans le presse-papiers à l’aide de l’icône **Copier** au bas de la fenêtre contextuelle d’aide.
 
-[Exemple de copie d’une réponse dans l’aide contextuelle](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[Exemple de copie d’une réponse dans l’aide contextuelle](assets/do-not-localize/copy-answer.png){width="600"}{zoomable="yes"}
 
 ## Commentaires {#feedback-ai}
 

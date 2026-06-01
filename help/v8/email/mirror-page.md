@@ -11,7 +11,7 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 397
 ht-degree: 100%
@@ -24,7 +24,7 @@ La page miroir est une version en ligne de votre e-mail. Il est recommandé, pou
 
 La page miroir générée par Adobe Campaign contient toutes les données de personnalisation.
 
-![Exemple de lien miroir dans un e-mail](assets/mirror-page-link.png){width="600" align="left"}
+![Exemple de lien miroir dans un e-mail](assets/mirror-page-link.png){width="600"}
 
 ## Ajouter un lien vers la page miroir {#link-to-mirror-page}
 

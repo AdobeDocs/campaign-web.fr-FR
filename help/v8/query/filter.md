@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 416
-ht-degree: 100%
+source-wordcount: 337
+ht-degree: 97%
 
 ---
 
@@ -21,8 +21,8 @@ Adobe Campaign Web fournit des filtres dans chaque liste d’objets, ce qui vous
 
 >[!IMPORTANT]
 >
->Une toute nouvelle interface pour le concepteur de requête est disponible. Le nouveau créateur de règles, grâce à son interface simplifiée, vous permet de créer votre requête plus facilement. Pour passer à cette expérience, appuyez sur le bouton (bascule) dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
->![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
+>Une toute nouvelle interface pour Query Modeler est disponible. Le nouveau créateur de règles vous permet de créer votre requête plus facilement grâce à son interface simplifiée. Pour passer à cette expérience, appuyez sur le bouton de basculement dans le coin supérieur droit. Vous pouvez revenir au modèle de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le requêteur dans cette nouvelle interface.
+>![Image illustrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Appliquer des filtres {#apply}
 
@@ -30,7 +30,7 @@ Pour appliquer des filtres à une liste, cliquez sur le bouton **[!UICONTROL Aff
 
 Le volet des filtres s’ouvre, affichant les filtres disponibles pour la liste sélectionnée. Vous pouvez, par exemple, filtrer les campagnes selon leur statut, dates de début et de fin ou dossier de stockage, tandis que la liste des services d’abonnement peut être filtrée selon leur canal et dossier de stockage.
 
-![Volet Filtres affichant les filtres disponibles pour les listes](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Volet Filtres affichant les filtres disponibles pour les listes](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 Pour filtrer une liste selon vos propres critères, créez un filtre personnalisé. Pour ce faire, accédez au bas du volet des filtres et cliquez sur le bouton **Ajouter des règles**. [Découvrez comment créer des filtres personnalisés](#custom).
 
@@ -46,6 +46,6 @@ Les filtres personnalisés vous permettent d’affiner les listes en fonction de
 
    L’exemple ci-dessous présente un filtre personnalisé conçu pour s’afficher dans la liste des campagnes par SMS exécutées par les opérateurs et opératrices des services de running ou de yoga.
 
-   ![Exemple de filtre personnalisé affichant des campagnes SMS filtrées par service](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+   ![Exemple de filtre personnalisé affichant des campagnes SMS filtrées par service](assets/filters-sample.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 1. Une fois votre filtre personnalisé configuré, cliquez sur **[!UICONTROL Confirmer]** pour l’appliquer à la liste.

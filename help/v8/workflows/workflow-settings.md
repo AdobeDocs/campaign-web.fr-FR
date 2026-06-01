@@ -6,10 +6,10 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 100%
+source-wordcount: 1070
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Lors de la création d’un workflow ou de l’orchestration des activités d’
 
 Ces paramètres sont prédéfinis dans le modèle sélectionné lors de la création du workflow, mais peuvent être modifiés selon les besoins du workflow.
 
-![Interface du bouton Paramètres de workflow](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![Interface du bouton Paramètres de workflow](assets/workflow-settings-button.png){zoomable="yes"}{width="70%"}
 
 ## Propriétés d&#39;exécution {#properties}
 
@@ -35,15 +35,15 @@ Ces paramètres sont prédéfinis dans le modèle sélectionné lors de la créa
 
 La section **[!UICONTROL Propriétés]** fournit des paramètres génériques qui peuvent être configurés lors de la création du workflow. Pour accéder aux propriétés d’un workflow existant, cliquez sur le bouton **[!UICONTROL Paramètres]** situé dans la barre d’actions qui se trouve au-dessus de la zone de travail du workflow.
 
-![Interface des paramètres de workflow](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![Interface des paramètres de workflow](assets/workflow-settings.png){zoomable="yes"}{width="70%"}
 
 Ces propriétés sont les suivantes :
 
 * Le **[!UICONTROL libellé]** du workflow qui s’affiche dans la liste.
 * Le **[!UICONTROL nom interne]** du workflow.
 * Le **[!UICONTROL dossier]** dans lequel le workflow doit être enregistré.
-* Le **[!UICONTROL fuseau horaire]** par défaut à utiliser dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
-Les valeurs possibles sont les suivantes :
+* La valeur par défaut **[!UICONTROL Fuseau horaire]** à utiliser dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur Campaign actuel.
+Les valeurs possibles sont :
    * **Fuseau horaire du serveur** pour utiliser le fuseau horaire du serveur applicatif Adobe Campaign.
    * **Fuseau horaire de l’opérateur ou de l’opératrice** pour utiliser le fuseau horaire de l’opérateur ou de l’opératrice Adobe Campaign qui exécute le workflow, tel que défini dans le profil de l’opérateur ou de l’opératrice, dans la console cliente.
    * **Fuseau horaire de la base de données** pour utiliser le fuseau horaire du serveur de base de données.
