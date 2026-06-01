@@ -208,7 +208,7 @@ En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Campaign 
 
 En savoir plus dans la [documentation sur l’API REST](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr){target="_blank"}.
 
-Notez que certaines recommandations et limitations s’appliquent aux API REST lors de la transition de Campaign Standard vers Campaign v8. Celles-ci sont répertoriées sur [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}. Des restrictions spécifiques s’appliquent également lors de la transition vers Campaign v8, comme indiqué dans la remarque sur la disponibilité ci-dessous :
+Notez que certaines recommandations et limitations s’appliquent aux API REST lors de la transition de Campaign Standard vers Campaign v8. Celles-ci sont répertoriées sur [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}. Des restrictions spécifiques s’appliquent également lors de la transition vers Campaign v8, comme indiqué dans la remarque sur la disponibilité ci-dessous :
 
 >[!AVAILABILITY]
 >
@@ -233,9 +233,9 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You choose a built-in template when you create a landing page, then design the content. See [Create and publish a landing page](../../v8/landing-pages/create-lp.md) and [Learn through use cases](../../v8/landing-pages/lp-use-cases.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
 ## Confidentialité et consentement
