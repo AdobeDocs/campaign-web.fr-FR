@@ -7,17 +7,12 @@ role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 TQID: https://experienceleague.adobe.com/zYZcNQ5MrJD4uzlHbZCRcMN7kg6AIb9R-84yEhhCjfs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 90%
@@ -50,7 +45,7 @@ Pour créer une diffusion autonome, procédez comme suit :
 1. Sélectionnez un canal de diffusion.
 1. Définissez l’audience de la diffusion, pour la cible principale et la population témoin. [En savoir plus sur les audiences](../audience/about-recipients.md).
 
-   ![Capture d’écran montrant l’interface de sélection d’audience](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   ![Capture d’écran montrant l’interface de sélection d’audience](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. Définissez le contenu du message. Découvrez les canaux de diffusion et comment définir un contenu de diffusion dans les sections suivantes :
 

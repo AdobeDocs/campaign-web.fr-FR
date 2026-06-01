@@ -3,9 +3,8 @@ title: Mécanismes de sécurisation et limitations des workflows dans l’interf
 description: Mécanismes de sécurisation et limitations lors de l’utilisation de workflows dans l’interface utilisateur web de Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 TQID: https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 382
 ht-degree: 100%
@@ -29,14 +28,14 @@ Les activités de workflow qui ne sont pas encore prises en charge dans l’inte
 
 | Console | Web |
 | --- | --- |
-| ![Capture d’écran montrant les limites des activités dans la console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Capture d’écran montrant les limites des activités dans l’interface web](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Capture d’écran montrant les limites des activités dans la console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Capture d’écran montrant les limites des activités dans l’interface web](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 <!--
 When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
 | --- | --- |
-| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 -->
 
@@ -44,7 +43,7 @@ Dans la console, l’activité **Enrichissement** peut effectuer à la fois la r
 
 | Console | Web |
 | --- | --- |
-| ![Capture d’écran montrant l’activité d’enrichissement dans la console](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Capture d’écran montrant l’activité d’enrichissement dans l’interface web](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Capture d’écran montrant l’activité d’enrichissement dans la console](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Capture d’écran montrant l’activité d’enrichissement dans l’interface web](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 ## Zone de travail du workflow {#wkf-canvas}
 
@@ -52,10 +51,10 @@ Lors de la création d’un workflow dans l’interface utilisateur de Campaign�
 
 | Console | Web |
 | --- | --- |
-| ![Capture d’écran montrant plusieurs points d’entrée dans la console](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Capture d’écran montrant plusieurs points d’entrée dans l’interface web](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Capture d’écran montrant plusieurs points d’entrée dans la console](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Capture d’écran montrant plusieurs points d’entrée dans l’interface web](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 Le positionnement des nœuds est actualisé à chaque fois qu’une activité est ajoutée ou supprimée. Si vous créez un workflow dans la console, que vous le modifiez à l’aide de l’interface d’utilisation de Campaign Web et que vous le rouvrez dans la console, vous constaterez peut-être de légers problèmes de positionnement. Cela n’a aucun impact sur les processus et les tâches du workflow.
 
 | Workflow initial | Changement de positionnement |
 | --- | --- |
-| ![Capture d’écran montrant le positionnement initial du workflow](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Capture d’écran montrant les changements de positionnement après modifications](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Capture d’écran montrant le positionnement initial du workflow](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Capture d’écran montrant les changements de positionnement après modifications](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" zoomable="yes"} |

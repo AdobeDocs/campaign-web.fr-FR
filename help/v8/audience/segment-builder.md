@@ -3,7 +3,7 @@ audience: end-user
 title: Créer une audience à l’aide du créateur de règles de Campaign
 description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Le créateur de règles permet de définir la population ciblée par votre diffu
 
 La palette, située à gauche, contient tous les éléments sur lesquels vous pouvez appliquer un filtre pour créer votre audience. Utilisez la barre de recherche pour rechercher rapidement des éléments. Déplacez les tuiles contenues dans la palette vers la zone de travail centrale pour les configurer et en tenir compte.
 
-![Interface de palette affichant les options de filtrage et les onglets](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![Interface de palette affichant les options de filtrage et les onglets](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
 
 La palette est divisée en deux onglets :
 
@@ -37,13 +37,13 @@ La palette est divisée en deux onglets :
 
 La zone de travail est la zone centrale où vous pouvez paramétrer et combiner les règles selon les éléments ajoutés depuis la palette. Pour ajouter une nouvelle règle, faites glisser une tuile depuis la palette et déposez-la sur la zone de travail. Des options spécifiques au contexte sont présentées en fonction du type de données ajouté.
 
-![Interface de la zone de travail affichant les options de configuration des règles](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![Interface de la zone de travail affichant les options de configuration des règles](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## Le volet Propriétés de la règle
 
 Sur le côté droit, le volet **Propriétés des règles** vous permet d’effectuer les actions ci-après.
 
-![Volet Propriétés des règles affichant les actions disponibles](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![Volet Propriétés des règles affichant les actions disponibles](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **Afficher les résultats** : affiche la liste des profils ciblés par l’audience.
 * **Affichage du code** : affiche une version basée sur le code de l’audience dans SQL.
