@@ -16,10 +16,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 100%
+source-wordcount: 570
+ht-degree: 96%
 
 ---
 
@@ -60,18 +60,13 @@ La console cliente Campaign est conçue pour les équipes d’administration et 
 >
 >Pour en savoir plus sur les fonctionnalités prises en charge et non prises en charge, ainsi que sur l’interopérabilité entre l’interface d’utilisation de Campaign Web et la console cliente Campaign, consultez [cette page](../get-started/capability-matrix.md).
 
-## Terminologie {#terminology}
-
-La plupart des concepts sont similaires entre Campaign v8 et Campaign Standard. Il existe toutefois quelques différences en matière de terminologie : Voici quelques exemples :
-
 <!--
+## Terminology {#terminology}
+Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few terminology differences. Examples include:
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
 * The delivery preparation is the **Delivery analysis**. [Learn more](../monitor/prepare-send.md).
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
--->
-
-<!--
 * Custom resources are **Schemas**
 * Messages are referred to as **Deliveries**
 * Roles are configured with **Named Rights**
@@ -83,7 +78,7 @@ La plupart des concepts sont similaires entre Campaign v8 et Campaign Standard
 
 ## Fonctionnalités spécifiques {#new-features}
 
-Pour que vous puissiez passer facilement à Campaign v8, les fonctionnalités clés de Campaign Standard ont été ajoutées à Campaign v8. Elles sont présentées dans [cette documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target=&quot;_blank} et ne sont disponibles que pour les personnes qui font la transition depuis Campaign Standard.
+Afin d’assurer une transition en douceur vers Campaign v8, des fonctionnalités Campaign Standard essentielles ont été ajoutées à Campaign v8 :
 
 * **Rapports dynamiques** : les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil à des fins d’analyse démographique selon différents critères, tels que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles telles que les ouvertures et les clics. [En savoir plus](../reporting/dynamic-reporting/get-started-reporting.md).
 

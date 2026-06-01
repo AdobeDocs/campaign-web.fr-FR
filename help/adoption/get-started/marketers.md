@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 2877
-ht-degree: 98%
+source-wordcount: 2803
+ht-degree: 97%
 
 ---
 
@@ -92,8 +92,8 @@ Découvrez comment créer et gérer des audiences, comment sélectionner des aud
 
 Pour plus d’informations, voir [Commencer avec les audiences](../../v8/audience/manage-audience.md){target="_blank"}.
 
-Comme dans Campaign Standard, vous pouvez ajouter une population témoin à votre diffusion. Définissez une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option vous aide à mesurer l’impact de votre campagne.
-Découvrez comment [définir une population témoin](../../v8/audience/control-group.md){target="_blank"}.
+Comme dans Campaign Standard, vous pouvez ajouter une population témoin à votre diffusion. Vous pouvez définir une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option vous permet de mesurer l’impact de votre campagne.
+Découvrez comment [&#x200B; définir une population témoin &#x200B;](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -123,7 +123,7 @@ Vous pouvez gérer et créer vos services tels que les newsletters, ainsi que v�
 <img alt="Peu fréquent" src="assets/workflow-activities.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>Gérer des personnes abonnées<strong></strong></a>
+<a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>Gérer les personnes abonnées<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -216,7 +216,7 @@ Liens utiles :
 >
 >* Les liens de tracking, d’URL de page miroir, d’abonnement/de désabonnement fonctionnent comme dans Campaign Standard.
 >
->Consultez également les sections suivantes : [Tracking et surveillance](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} dans Adobe Campaign.
+>Consultez également les sections suivantes : [Tracking et surveillance](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](../../v8/administration/branding/branding-gs.md) dans Adobe Campaign.
 
 ### Diffusion par e-mail {#acs-gs-marketers-email}
 
@@ -398,11 +398,11 @@ Adobe Campaign fournit un ensemble d’[outils de reporting](https://experience
 
 La suite complète d’outils de reporting d’Adobe Campaign fournit des informations précieuses sur l’efficacité de vos efforts marketing, ce qui vous permet d’optimiser vos campagnes pour un impact maximum. En savoir plus dans la [documentation sur le reporting](../../v8/reporting/gs-reports.md).
 
-En outre, comme avec l’expérience d’Adobe Campaign Standard, les rapports dynamiques sont à votre disposition dans Campaign v8 pour vos diffusions par e-mail. Il propose des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. En savoir plus dans la [documentation sur les rapports dynamiques](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+En outre, comme avec l’expérience d’Adobe Campaign Standard, les rapports dynamiques sont à votre disposition dans Campaign v8 pour vos diffusions par e-mail. Il propose des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Pour en savoir plus, consultez la [documentation sur les rapports dynamiques](../../v8/reporting/dynamic-reporting/get-started-reporting.md).
 
 >[!AVAILABILITY]
 >
->* Les [rapports dynamiques](https://experienceleague.adobe.com/fr/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} peuvent être utilisés pour la création de rapports sur les diffusions par e-mail, les campagnes avec diffusions par e-mail et les messages transactionnels. L’analyse démographique par dimension de profil est également disponible.
+>* Les [rapports dynamiques](../../v8/reporting/dynamic-reporting/get-started-reporting.md) peuvent être utilisés pour la création de rapports sur les diffusions par e-mail, les campagnes avec diffusions par e-mail et les messages transactionnels. L’analyse démographique par dimension de profil est également disponible.
 >
 > * Le [reporting de l’interface d’utilisation d’Adobe Campaign Web](../../v8/reporting/campaign-reports.md) est également disponible pour tous les utilisateurs et utilisatrices qui passent d’Adobe Campaign Standard à Adobe Campaign v8.
 

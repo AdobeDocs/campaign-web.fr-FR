@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 1621
-ht-degree: 99%
+source-wordcount: 1589
+ht-degree: 100%
 
 ---
 
@@ -147,13 +147,13 @@ Adobe Campaign v8 est disponible en tant que Managed Cloud Service, offrant 
 
 ## Fonctionnalités de Campaign Standard ajoutées dans la v8 {#ac-v8-added}
 
-Pour que vous puissiez passer facilement à Campaign v8, les fonctionnalités clés de Campaign Standard ont été ajoutées à Campaign v8. Elles sont détaillées dans [cette documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=fr){target="_blank"}.
+Pour que vous puissiez passer facilement à Campaign v8, les fonctionnalités clés de Campaign Standard ont été ajoutées à Campaign v8. Elles sont détaillées dans [cette documentation](../../v8/rn/acs-migration.md).
 
-* **Rapports dynamiques** : les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=fr){target="_blank"}.
+* **Rapports dynamiques** : les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. [En savoir plus](../../v8/reporting/dynamic-reporting/get-started-reporting.md)
 
-* **Branding centralisé** : chaque entreprise dispose de ses directives visuelles et techniques en ce qui concerne le branding. Avec Adobe Campaign, vous pouvez définir un ensemble de spécifications pour présenter à vos clientes et clients une marque cohérente, des logos aux aspects techniques, tels que l’identifiant expéditeur des e-mails, l’URL ou les domaines. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=fr)
+* **Branding centralisé** : chaque entreprise dispose de ses directives visuelles et techniques en ce qui concerne le branding. Avec Adobe Campaign, vous pouvez définir un ensemble de spécifications pour présenter à vos clientes et clients une marque cohérente, des logos aux aspects techniques, tels que l’identifiant expéditeur des e-mails, l’URL ou les domaines. [En savoir plus](../../v8/administration/branding/branding-gs.md)
 
-* **API REST** : en tant qu’utilisateur ou utilisatrice ayant migré à partir de Campaign Standard, vous pouvez utiliser les API REST pour créer des intégrations pour Adobe Campaign et pour créer votre propre réseau en connectant Adobe Campaign avec les technologies que vous utilisez. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=fr){target="_blank"}.
+* **API REST** : en tant qu’utilisateur ou utilisatrice ayant migré à partir de Campaign Standard, vous pouvez utiliser les API REST pour créer des intégrations pour Adobe Campaign et pour créer votre propre réseau en connectant Adobe Campaign avec les technologies que vous utilisez. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr){target="_blank"}
 
 * **Landing pages** : certaines améliorations ont été apportées aux landing pages de Campaign v8 pour garantir la parité des fonctionnalités avec Campaign Standard. En savoir plus dans la section [notes de mise à jour](../../v8/rn/release-notes.md#new-24-4) et dans la [documentation](../../v8/landing-pages/get-started-lp.md) des landing pages.
 
@@ -203,12 +203,12 @@ Accédez au guide de référence approprié pour votre rôle afin de découvrir 
   <tr>
     <td>
     <a href="marketers.md">
-    <strong>Professionnel du marketing</strong>
+    <strong>Personne spécialiste du marketing</strong>
     </a>
     </td>
     <td>
       <a href="admin-developers.md">
-      <strong>Administrateur ou développeur</strong>
+      <strong>Administrateur ou administratrice ou développeur ou développeuse</strong>
       </a>
     </td>
   </tr>
