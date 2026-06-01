@@ -5,12 +5,25 @@ role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 TQID: https://experienceleague.adobe.com/5IcrHiiZw336nAlxRhiWlE2XfR-9TE7uj-cs6gW3xf4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48id: b631758a-142d-425f-b9aa-f756d85cb979id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2: id: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f529d0bd-1401-4c88-9833-43228cc1d40f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
 source-wordcount: 2803
@@ -80,7 +93,7 @@ Découvrez comment créer et gérer des audiences, comment sélectionner des aud
 Pour plus d’informations, voir [Commencer avec les audiences](../../v8/audience/manage-audience.md){target="_blank"}.
 
 Comme dans Campaign Standard, vous pouvez ajouter une population témoin à votre diffusion. Vous pouvez définir une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option vous permet de mesurer l’impact de votre campagne.
-Découvrez comment [ définir une population témoin ](../../v8/audience/control-group.md){target="_blank"}.
+Découvrez comment [&#x200B; définir une population témoin &#x200B;](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
 >
