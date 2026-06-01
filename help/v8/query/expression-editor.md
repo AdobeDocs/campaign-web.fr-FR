@@ -4,14 +4,12 @@ title: Créer votre première requête à l’aide du créateur de modèles de r
 description: Découvrez comment créer votre première requête dans le créateur de modèles de requête Adobe Campaign Web.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 TQID: https://experienceleague.adobe.com/o2K9C4wrjB9N85UbQKqA19jdZPFSZW4VDhdyB-4-7NE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: eceffbb89ed4635df723e139bb2dab8b7efc1d30
 workflow-type: tm+mt
-source-wordcount: 2199
-ht-degree: 100%
+source-wordcount: 2152
+ht-degree: 98%
 
 ---
 
@@ -25,8 +23,8 @@ L’édition d’une expression consiste à saisir manuellement des conditions p
 
 >[!IMPORTANT]
 >
->Une toute nouvelle interface pour le concepteur de requête est disponible. Pour passer à cette nouvelle expérience de créateur de règles, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
->![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
+>Une toute nouvelle interface pour Query Modeler est disponible. Pour passer à cette nouvelle expérience de créateur de règles, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au modèle de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le requêteur dans cette nouvelle interface.
+>![Image illustrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Utiliser l’éditeur d’expression {#edit}
 
@@ -533,7 +531,7 @@ Ce tableau contient les autres fonctions disponibles.
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> 
+  </tr>
   -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
