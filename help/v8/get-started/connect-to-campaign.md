@@ -3,15 +3,12 @@ title: Se connecter à l’interface web d’Adobe Campaign
 description: Découvrir comment vous connecter à l’interface utilisateur d’Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 TQID: https://experienceleague.adobe.com/TSbgkDH1v-9HH-szfGQx0z6-6fP8tny4s7Vx2SE8gUo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 964
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -100,18 +97,18 @@ Vous pouvez apprendre à [afficher et gérer les autorisations ici](permissions.
 
 ## Navigation de niveau supérieur d’Adobe Experience Cloud {#top-bar}
 
-La barre supérieure de l’interface vous donne un accès rapide aux principales fonctionnalités d’Experience Cloud.
+La barre supérieure de l’interface vous donne un accès rapide aux principales fonctionnalités d’Experience Cloud.
 
 ![Capture d’écran montrant la barre de navigation supérieure d’Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
-Utilisez la barre supérieure pour :
+Utilisez la barre supérieure pour effectuer les opérations suivantes :
 
 * Partager des commentaires à propos de l’interface d’utilisation de Campaign Web
 * Basculer entre vos organisations
 * Basculer entre vos solutions et applications Adobe Experience Cloud
 * Rechercher de l’aide sur [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=fr){target="_blank"}
-* Affichez vos notifications de produit.
-* Modifiez votre profil Adobe et gérez les paramètres, par exemple [mise à jour de la langue souhaitée](#language-pref) ou [basculement entre les thèmes clairs et sombres](#dark-theme).
+* Afficher les notifications de vos produits.
+* Modifier votre profil Adobe et gérer les paramètres, par exemple [mettre à jour la langue préférée](#language-pref) ou [basculer entre les thèmes clair et sombre](#dark-theme).
 
 ## Navigateurs pris en charge {#browsers}
 
