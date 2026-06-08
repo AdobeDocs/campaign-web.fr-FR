@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3032
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -375,8 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et personnaliser vos propres marques pour définir clairement votre identité visuelle et verbale dans les communications. Grâce au score d’alignement de la marque, vous pouvez recevoir des commentaires en temps réel sur la manière dont votre contenu reflète le ton, le style et les directives de votre marque, ce qui vous permet de rester constamment en phase avec la marque pour chaque message envoyé.
-</p>
+<p>Vous pouvez désormais créer et personnaliser vos propres marques pour définir clairement votre identité visuelle et verbale dans les communications. Grâce au score d’alignement de la marque, vous pouvez recevoir des commentaires en temps réel sur la manière dont votre contenu reflète le ton, le style et les directives de votre marque, ce qui vous permet de rester constamment en phase avec la marque pour chaque message envoyé.</p>
 <p>Pour plus d'informations, consultez la <a href="../content/brands.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -436,8 +435,7 @@ table>
 <tr>
 <td>
 <p>Vous pouvez désormais accéder aux rapports dynamiques qui fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Les rapports dynamiques sont également disponibles pour les diffusions d’e-mails multilingues et les messages transactionnels.</p>
-<p>Cette fonctionnalité n’est disponible qu’à la demande. Pour obtenir l’accès, contactez votre représentant Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank"> de mise à jour de la console cliente </a>.
-<p>Pour plus d'informations, consultez la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentation détaillée</a>.</p>
+<p>Cette fonctionnalité n’est disponible qu’à la demande. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.<p>Pour plus d'informations, consultez la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -453,8 +451,7 @@ table>
 <tr>
 <td>
 <p>Les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux landing pages ainsi que les paramètres de suivi des messages. Vous pouvez créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles. Les options de branding sont désormais disponibles pour tous les canaux, y compris les SMS et le courrier.</p>
-<p>Cette fonctionnalité n’est disponible qu’à la demande, pour les nouvelles implémentations. Pour obtenir l’accès, contactez votre représentant Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank"> de mise à jour de la console cliente </a>.
-<p>Pour plus d'informations, consultez la <a href="../administration/branding/branding-gs.md">documentation détaillée</a>.</p>
+<p>Cette fonctionnalité n’est disponible qu’à la demande, pour les nouvelles implémentations. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.<p>Pour plus d'informations, consultez la <a href="../administration/branding/branding-gs.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -649,7 +646,7 @@ Les fonctionnalités suivantes sont disponibles pour tous les utilisateurs et ut
 <tbody>
 <tr>
 <td>
-<p>En tant qu’administrateur Campaign, vous pouvez désormais configurer de nouvelles connexions avec des systèmes externes à partir de l’interface utilisateur web de Campaign.
+<p>En tant qu’administrateur ou administratrice Campaign, vous pouvez désormais configurer de nouvelles connexions avec des systèmes externes à partir de l’interface d’utilisation de Campaign Web.
 Vous pouvez également afficher, mettre à jour et gérer les comptes externes existants.</p>
 <p>Pour plus d'informations, consultez la <a href="../administration/external-account.md">documentation détaillée</a>.</p>
 </td>
@@ -688,7 +685,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Les fonctionnalités suivantes sont en disponibilité limitée. Elles sont limitées aux clientes et clients effectuant la migration **d’Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployées dans un autre environnement. Elles nécessitent une mise à niveau du serveur Campaign vers la version 8.7.4.
 >
->Reportez-vous à la page de documentation suivante : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md)
+>Consultez la page de documentation suivante : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md).
 
 * **Création de diffusions multilingues** : vous pouvez désormais envoyer plusieurs diffusions par e-mail dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. La fonction Diffusion multilingue permet de choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix. Pour plus d&#39;informations, consultez la [documentation détaillée](../email/edit-content.md).
 

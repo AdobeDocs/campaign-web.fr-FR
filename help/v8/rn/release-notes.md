@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
-workflow-type: tm+mt
-source-wordcount: 631
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 610
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ ht-degree: 91%
 
 Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont complétées plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
-## Version d’avril 2026 {#26-4-release}
+## Version d’avril 2026 {#26-4-release}
 
-_29 avril 2026_
+_29 avril 2026_
 
 ### Amélioration {#26-4-improvement}
 
-La section **Données d’enrichissement** est désormais disponible dans l’activité de workflow **Créer une audience** (type de requête). Vous pouvez afficher, ajouter, modifier et supprimer des **données supplémentaires** directement depuis l’interface utilisateur web de Campaign. Comme dans l’activité **Enrichissement**, vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection et des expressions.
+La section **Données d’enrichissement** est désormais disponible dans l’activité de workflow **Créer une audience** (type requête).Vous pouvez afficher, ajouter, modifier et supprimer des **données supplémentaires** directement depuis l’interface d’utilisation de Campaign Web.Comme dans l’activité **Enrichissement**, vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection et des expressions.
 
 [En savoir plus](../workflows/activities/build-audience.md)
 
 ## Version de mars 2026 {#26-3-release}
 
-_24 mars_ 2026_
+_24 mars 2026_
 
 ### Nouvelles fonctionnalités {#26-3-features}
 
@@ -132,6 +132,5 @@ _24 mars_ 2026_
 
 ### Améliorations {#26-3-improvements}
 
-* L’activité de workflow **Démarrer** a été ajoutée pour améliorer la compatibilité avec la console cliente. Cette activité est facultative et n’est pas insérée par défaut dans les nouveaux workflows. Toutefois, elle est ajoutée automatiquement aux workflows existants.
-  [En savoir plus](../workflows/activities/about-activities.md#flow-control)
+* L’activité de workflow **Démarrer** a été ajoutée pour améliorer la compatibilité avec la console cliente. Cette activité est facultative et n’est pas insérée par défaut dans les nouveaux workflows. Toutefois, elle est ajoutée automatiquement aux workflows existants.  [En savoir plus](../workflows/activities/about-activities.md#flow-control)
 * Le champ de sélection du fuseau horaire dans les paramètres **Planifier** d’une diffusion a été déplacé sous le champ **Date de contact**. [En savoir plus](../msg/create-deliveries.md#gs-schedule)

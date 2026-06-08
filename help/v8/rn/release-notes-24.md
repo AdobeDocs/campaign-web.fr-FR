@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2580
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 >
 >Les fonctionnalités suivantes sont en disponibilité limitée. Elles sont limitées aux clientes et clients effectuant la migration **d’Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployées dans un autre environnement.
 >
->Reportez-vous à la page de documentation suivante : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md)
+>Consultez la page de documentation suivante : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md).
 
 * **Branding du publipostage direct** : les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux landing pages ainsi que les paramètres de suivi des messages. Vous pouvez à présent créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles. [En savoir plus](../administration/branding/branding-assign.md)
 
@@ -264,7 +264,7 @@ Notez que cette fonctionnalité est en **Disponibilité limitée**.
 >
 >Les fonctionnalités suivantes sont en disponibilité limitée. Elles sont limitées aux clientes et clients effectuant la migration **d’Adobe Campaign Standard à Adobe Campaign v8** et ne peuvent pas être déployées dans un autre environnement.
 >
->Reportez-vous à la page de documentation suivante : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md)
+>Consultez la page de documentation suivante : [Transition de Campaign Standard vers Campaign v8](../rn/acs-migration.md).
 
 * **Branding** : en tant qu’utilisateur ou utilisatrice ayant effectué la migration depuis Campaign Standard, votre administration technique peut désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent leur identité. Par exemple : le logo de la marque, le domaine d’URL d’accès aux landing pages ainsi que les paramètres de suivi des messages. Vous pouvez créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles. [En savoir plus](../administration/branding/branding-gs.md)
 
