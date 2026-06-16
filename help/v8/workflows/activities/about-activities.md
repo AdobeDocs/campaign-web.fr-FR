@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 89%
+source-wordcount: 583
+ht-degree: 88%
 
 ---
 
@@ -66,19 +66,9 @@ Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes ma
 ## Activités de contrôle de flux {#flow-control}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_end"
->title="Activité Fin"
->abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
->title="Activité de fin"
+>title="Activité Fin"
 >abstract="L’activité **Début** vous permet de marquer graphiquement le début d’un workflow. Cette activité n’a aucun impact fonctionnel et est donc facultative."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_signal"
->title="Signal externe"
->abstract="Espace réservé pour la section de signal externe dans les paramètres d’activité de fin. Disponible uniquement pour les campagnes orchestrées. NE PAS SUPPRIMER"
 
 Les activités ci-après sont spécifiques à l’organisation et à l’exécution des workflows. Leur principale tâche est de coordonner les autres activités :
 
@@ -86,7 +76,7 @@ Les activités ci-après sont spécifiques à l’organisation et à l’exécut
 * [Branchement](fork.md) : créez des transitions sortantes afin de lancer plusieurs activités simultanément.
 * [Joindre](join.md) : synchronisez plusieurs branches d’exécution d’un workflow.
 * [Planificateur](scheduler.md) : planifiez le moment de démarrage du workflow.
-* **Début** et **Fin** : marquez graphiquement le début et la fin d’un workflow. Ils sont facultatifs et n’ont aucun impact fonctionnel.
+* **Début** et [Fin](end.md) : marquez graphiquement le début et la fin d’un workflow. Ils sont facultatifs et n’ont aucun impact fonctionnel.
 
   >[!NOTE]
   >

@@ -10,10 +10,10 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2064
-ht-degree: 99%
+source-wordcount: 2327
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ L’activité **Enrichissement** est une activité de **ciblage**. Elle amélior
 
 >[!NOTE]
 >
->L’activité **Créer une audience** vous permet également d’ajouter des **données supplémentaires**. Voir [Utiliser l’activité Créer une audience](build-audience.md#build-audience-configuration).
+>L&#39;activité **Créer une audience** (type de requête) prend également en charge **données d&#39;enrichissement**. Voir [&#x200B; En savoir plus &#x200B;](build-audience.md#build-audience-configuration).
 
 Les données d’enrichissement tirent leur origine des sources suivantes :
 
@@ -62,19 +62,50 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 >title="Activité Enrichissement"
 >abstract="Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités suivantes pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins ou pour créer des messages et des campagnes marketing personnalisés qui résonneront auprès de votre audience cible."
 
+La section **Données d’enrichissement** est disponible dans les activités **Enrichissement** et **Créer une audience** (type de requête). Elle permet d’enrichir les données ciblées avec des informations supplémentaires issues de la base de données, par exemple des références de contrat ou des abonnements à des newsletters. Ces données sont stockées avec l’audience dans le workflow **table de travail** et sont disponibles pour les activités qui suivent. Vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection ou des expressions et accéder aux options avancées.
 
+Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour l’enrichissement. [Découvrez comment sélectionner des attributs et les ajouter aux favoris](../../get-started/attributes.md).
 
-1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour l’enrichissement. [Découvrez comment sélectionner des attributs et les ajouter aux favoris](../../get-started/attributes.md).
+Vous pouvez sélectionner deux types de données d’enrichissement : un attribut d’enrichissement unique de la dimension cible, ou un lien de collection. Chacun des types est détaillé dans les exemples ci-dessous :
 
-   Vous pouvez sélectionner deux types de données d’enrichissement : un attribut d’enrichissement unique de la dimension cible, ou un lien de collection. Chacun des types est détaillé dans les exemples ci-dessous :
-   * [Attribut d’enrichissement unique](#single-attribute)
-   * [Lien de collection](#collection-link)
+* [Attribut d’enrichissement unique](#single-attribute)
+* [Lien de collection](#collection-link)
 
-   >[!NOTE]
-   >
-   >Le **bouton Modifier l’expression** dans l’écran de sélection d’attributs vous permet de créer des expressions avancées pour sélectionner l’attribut. [Découvrez comment utiliser l’éditeur d’expression](../../query/expression-editor.md).
+>[!NOTE]
+>
+>Le **bouton Modifier l’expression** dans l’écran de sélection d’attributs vous permet de créer des expressions avancées pour sélectionner l’attribut. [Découvrez comment utiliser l’éditeur d’expression](../../query/expression-editor.md).
 
-   ![Copie d’écran affichant l’écran de sélection des données d’enrichissement](../assets/workflow-enrichment1.png)
+![Copie d’écran affichant l’écran de sélection des données d’enrichissement](../assets/workflow-enrichment1.png)
+
+Après avoir ajouté au moins un attribut d’enrichissement, cliquez sur **[!UICONTROL Paramètres avancés]** pour configurer la création des données d’enrichissement, y compris le regroupement, la déduplication, la gestion des clés primaires et les données d’événement entrant. Ces options reflètent la console cliente et sont destinées aux scénarios de workflow avancés.
+
+![Capture d’écran affichant les paramètres avancés d’enrichissement](../assets/workflow-query-advanced-parameters.png)
+
+>[!NOTE]
+>
+>Les options disponibles varient entre les activités **Créer une audience** et **Enrichissement**.
+
+Les options suivantes sont disponibles pour chaque activité :
+
++++ Activité Créer une audience (type de requête)
+
+* **[!UICONTROL Conserver toutes les données additionnelles de l&#39;ensemble principal]** : Conserve les colonnes additionnelles de l&#39;ensemble principal entrant dans la transition sortante.
+* **[!UICONTROL Regrouper les données par élément de dimension de ciblage]** : regroupe le résultat afin que chaque enregistrement ciblé n’apparaisse qu’une seule fois.
+* **[!UICONTROL Supprimer les lignes en double (DISTINCT)]** : supprime les lignes en double du jeu de résultats.
+* **[!UICONTROL Désactiver l’ajout automatique des clés primaires de la dimension de ciblage]** : empêche l’activité d’ajouter automatiquement des clés primaires de la dimension de ciblage au résultat.
+* **[!UICONTROL Désactiver le filtrage automatique des enregistrements d&#39;identifiant 0]** : permet de conserver les enregistrements dont la valeur d&#39;identifiant est 0 plutôt que de les filtrer automatiquement.
+* **[!UICONTROL Utiliser les données d’événement entrant]** : utilise les données de la transition entrante comme entrée de travail de l’activité.
+
++++
+
++++ Activité Enrichissement
+
+* **[!UICONTROL Regrouper les données par élément de dimension de ciblage]** : regroupe le résultat afin que chaque enregistrement ciblé n’apparaisse qu’une seule fois.
+* **[!UICONTROL Supprimer les lignes en double (DISTINCT)]** : supprime les lignes en double du jeu de résultats.
+* **[!UICONTROL Désactiver le filtrage automatique des enregistrements d&#39;identifiant 0]** : permet de conserver les enregistrements dont la valeur d&#39;identifiant est 0 plutôt que de les filtrer automatiquement.
+* **[!UICONTROL Ajouter un identifiant pour chaque ligne du résultat]** : ajoute un identifiant unique à chaque ligne de sortie.
+
++++
 
 ## Créer de liens entre les tables {#create-links}
 
@@ -179,8 +210,8 @@ Vous pouvez maintenant utiliser l’offre dans l’activité de diffusion.
 
 Dans un workflow, si vous souhaitez utiliser les offres que vous obtenez d’une activité Enrichissement dans votre diffusion, procédez comme suit :
 
-1. Ouvrez l’activité de diffusion et lancez la modification de contenu. Cliquez sur le bouton **[!UICONTROL Paramètres des offres]** et sélectionnez dans la liste déroulante l’**[!UICONTROL Emplacement]** correspondant à votre offre.
-Si vous souhaitez afficher uniquement les offres de l’activité Enrichissement, définissez le nombre de **[!UICONTROL Propositions]** sur 0, puis enregistrez les modifications.
+1. Ouvrez l’activité de diffusion et accédez à l’édition du contenu. Cliquez sur le bouton **[!UICONTROL Paramètres des offres]** et sélectionnez dans la liste déroulante le **[!UICONTROL Emplacement des offres]** correspondant à votre offre.
+Si vous souhaitez afficher uniquement les offres de l&#39;activité d&#39;enrichissement, définissez le nombre de **[!UICONTROL Propositions]** sur 0 et enregistrez les modifications.
 
    ![](../assets/offers-settings.png)
 
