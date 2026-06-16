@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6581a2d6ab44b711ed6aea6736d60f932a7ce315
+source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: 243
 ht-degree: 45%
 
 ---
@@ -42,11 +42,7 @@ _16 juin 2026_
 
 * Les activités de workflow **Déduplication** et **Fin** prennent désormais en charge plusieurs transitions entrantes. Lorsque
 Si plusieurs transitions entrantes sont disponibles, utilisez la section **Ensembles à joindre** dans l’activité
-propriétés pour sélectionner les transitions à connecter. En savoir plus dans ces pages : [Déduplication](../workflows/activities/deduplication.md),
-
-<!--
-[End](../workflows/activities/end.md)
--->
+propriétés pour sélectionner les transitions à connecter. En savoir plus sur ces pages : [Déduplication](../workflows/activities/deduplication.md), [Fin](../workflows/activities/end.md)
 
 * Les paramètres avancés sont désormais exposés dans la section **Données d’enrichissement** des activités de workflow **Créer une audience** (type de requête) et **Enrichissement**. Ces paramètres vous permettent d’affiner la création des données d’enrichissement, y compris le regroupement, la déduplication, la gestion des clés primaires et les données d’événement entrantes. [En savoir plus](../workflows/activities/enrichment.md)
 
