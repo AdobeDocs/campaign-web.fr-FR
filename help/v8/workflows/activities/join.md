@@ -5,8 +5,8 @@ description: Découvrez comment utiliser l’activité de workflow Joindre .
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 58%
+source-wordcount: '473'
+ht-degree: 59%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 58%
 >title="Activité de jointure"
 >abstract="L’activité **Jointure** permet de fusionner plusieurs transitions entrantes. Choisissez de continuer lorsque toutes les transitions entrantes sont terminées (ET) ou lorsqu’une transition entrante est terminée (OU)."
 
-L&#39;activité **Joindre** est une activité de contrôle de flux **Flow**. Elle synchronise plusieurs branches d’exécution d’un workflow.
+L&#39;activité **Joindre** est une activité de contrôle de flux **Flow**. Il synchronise plusieurs branches d’exécution d’un workflow.
 Vous pouvez choisir le mode d’évaluation des transitions entrantes :
 
 * **AND** : se poursuit uniquement après l’activation de toutes les transitions entrantes sélectionnées.
