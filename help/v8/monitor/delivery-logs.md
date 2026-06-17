@@ -4,7 +4,8 @@ title: Surveiller les logs de diffusion
 description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
 source-wordcount: 456
@@ -46,13 +47,13 @@ Toutes les étapes de validation, les avertissements et les erreurs sont répert
 * L’icône jaune indique une erreur de traitement non critique.
 * L’icône rouge indique une erreur critique qui empêche l’envoi de la diffusion. Les erreurs critiques doivent être corrigées pour que la diffusion soit envoyée.
 
-![ Onglet Logs affichant les étapes de validation, les avertissements et les erreurs avec des icônes colorées indiquant les types de messages.](assets/logs.png){zoomable="yes"}
+![&#x200B; Onglet Logs affichant les étapes de validation, les avertissements et les erreurs avec des icônes colorées indiquant les types de messages.](assets/logs.png){zoomable="yes"}
 
 ## Diffusions {#deliveries-tab}
 
 L&#39;onglet **Envois** propose un historique des occurrences de cette diffusion. Y est répertoriée la liste des messages envoyés et leur statut. Il permet de visualiser l&#39;état de la diffusion pour chaque destinataire.
 
-![ L’onglet Diffusions affichant l&#39;historique des messages envoyés et leur statut.](assets/logs2.png){zoomable="yes"}
+![&#x200B; L’onglet Diffusions affichant l&#39;historique des messages envoyés et leur statut.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusions {#exclusion-tab}
 
