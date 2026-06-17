@@ -4,12 +4,11 @@ title: Surveiller les logs de diffusion
 description: Découvrez comment surveiller les logs de diffusion.
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 100%
+source-wordcount: 456
+ht-degree: 94%
 
 ---
 
@@ -23,6 +22,10 @@ ht-degree: 100%
 Une fois la diffusion préparée et lorsque vous avez cliqué sur le bouton **Envoyer**, accédez aux logs de diffusion pour vérifier les avertissements, les erreurs, le statut, les exclusions et les données de tracking. Vous pouvez accéder à ces logs depuis le tableau de bord des messages. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
 Pour afficher les logs, accédez au tableau de bord de votre diffusion et cliquez sur le bouton **Logs**.
+
+>[!TIP]
+>
+>Chaque onglet de journal peut être exporté au format CSV à l’aide du bouton **Exporter les lignes chargées au format CSV** situé au-dessus de la liste. En savoir plus dans [Exporter les données de liste](../get-started/list-filters.md#export-list).
 
 Les onglets suivants sont disponibles :
 
@@ -77,4 +80,4 @@ L’onglet **Tracking** liste l’historique du tracking pour cette diffusion. C
 
 >[!NOTE]
 >
->Si le tracking n&#39;est pas activé pour une diffusion, cet onglet n&#39;est pas affiché.
+>Si le tracking n’est pas activé pour une diffusion, cet onglet n’est pas affiché.
