@@ -1,10 +1,11 @@
 ---
 title: Modifier des champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
-workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 53%
+exl-id: 1b531722-0935-4787-a673-60d97f776936
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
+workflow-type: ht
+source-wordcount: '703'
+ht-degree: 100%
 
 ---
 
@@ -12,21 +13,21 @@ ht-degree: 53%
 
 Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas prêts à l’emploi via la console Adobe Campaign. Ils vous permettent de personnaliser les schémas en incluant de nouveaux attributs en fonction des besoins de votre entreprise.
 
-Les champs personnalisés peuvent être affichés sur différents écrans, comme les détails du profil dans l’interface. Vous pouvez contrôler quels champs sont visibles et comment ils apparaissent dans l’interface.
+Les champs personnalisés peuvent être affichés sur différents écrans, comme les détails de profil dans l’interface.Vous pouvez contrôler quels champs sont visibles et la manière dont ils apparaissent dans l’interface.
 
-Pour plus d&#39;informations sur l&#39;écran de définition d&#39;écran et sur la façon d&#39;y accéder, consultez la section [Accéder à la définition d&#39;écran](schemas-browse-access.md#screen-def).
+Pour plus d’informations sur la définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
 
-Pour ajouter des champs personnalisés à la liste :
+Pour ajouter des champs personnalisés à la liste :
 
 1. Accédez au menu **[!UICONTROL Schémas]** et recherchez les schémas modifiables à l’aide des filtres.
 
-1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modification de l’écran]** dans la vue des détails du schéma pour accéder à la définition d’écran.
+1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modification d’écran]** dans la vue des détails du schéma pour accéder à la définition d’écran.
 
-1. Cliquez sur l’icône représentant des points de suspension au-dessus du tableau **[!UICONTROL Liste de champs personnalisés]** et choisissez **[!UICONTROL Sélectionner des attributs]** pour sélectionner un ou plusieurs champs personnalisés à afficher dans l’interface.
-   ![Écran de champs personnalisés affichant les attributs modifiables](assets/schemas-custom5.png)
-1. Sélectionnez les champs personnalisés à ajouter et confirmez-les.
+1. Cliquez sur l’icône représentant trois points de suspension située au-dessus du tableau **[!UICONTROL Liste de champs personnalisés]**, puis choisissez **[!UICONTROL Sélectionner des attributs]** pour déterminer un ou plusieurs champs personnalisés à afficher dans l’interface.
+   ![Écran de champs personnalisés affichant des attributs modifiables](assets/schemas-custom5.png)
+1. Sélectionnez les champs personnalisés à ajouter et confirmez votre choix.
 
-   ![Écran de champs personnalisés affichant les attributs modifiables](assets/schemas-custom2.png)
+   ![Écran de champs personnalisés affichant des attributs modifiables](assets/schemas-custom2.png)
 
    >[!NOTE]
    >
@@ -34,15 +35,15 @@ Pour ajouter des champs personnalisés à la liste :
 
 Une fois les champs personnalisés ajoutés, vous pouvez les prévisualiser, les réorganiser, les rendre obligatoires, modifier leurs paramètres ou les organiser en sous-sections.
 
-## Configurer les paramètres de champ {#field-settings}
+## Configurer les paramètres des champs {#field-settings}
 
-Pour configurer des paramètres spécifiques à chaque champ personnalisé, cliquez sur l’icône représentant des points de suspension sur une ligne de champ de la liste et sélectionnez **[!UICONTROL Modifier]**.
+Pour configurer des paramètres spécifiques pour chaque champ personnalisé, cliquez sur le bouton représentant des points de suspension à côté du champ souhaité dans la liste, puis sélectionnez **[!UICONTROL Modifier]**.
 
-![&#x200B; Boîte de dialogue Paramètres des attributs &#x200B;](assets/schemas-attribute-settings.png)
+![Boîte de dialogue des paramètres des attributs](assets/schemas-attribute-settings.png)
 
 Les paramètres disponibles sont les suivants :
 
-* **[!UICONTROL Attribut]** : nom du champ personnalisé (lecture seule).
+* **[!UICONTROL Attribut]** : nom du champ personnalisé (lecture seule).
 * **[!UICONTROL Libellé (personnalisé)]** : libellé à afficher dans l’interface. Si aucun libellé n’est renseigné, le libellé défini dans le schéma s’affiche.
 * **[!UICONTROL Visible si]** : définissez une condition à l’aide d’une expression xtk qui contrôle quand le champ doit être affiché. Par exemple, masquer le champ si un autre champ est vide.
 * **[!UICONTROL Obligatoire]** : permet au champ d’être obligatoire dans l’interface.
@@ -63,19 +64,19 @@ Les paramètres disponibles sont les suivants :
 
 ## Prévisualiser les champs personnalisés {#preview}
 
-Cliquez sur **[!UICONTROL Aperçu]** pour afficher les champs personnalisés dans un exemple d’écran. Vous pouvez ainsi voir comment les champs apparaîtront dans l’interface, y compris les champs marqués comme obligatoires.
+Cliquez sur **[!UICONTROL Aperçu]** pour afficher les champs personnalisés dans un exemple d’écran. Vous pouvez ainsi voir comment les champs apparaîtront dans l’interface, y compris ceux marqués comme obligatoires.
 
-![Aperçu des champs personnalisés](assets/schemas-custom4.png)
+![Prévisualiser les champs personnalisés](assets/schemas-custom4.png)
 
-## Organisation des champs dans les sous-sections {#separator}
+## Organiser des champs personnalisés en sous-sections {#separator}
 
-Vous pouvez ajouter des séparateurs pour regrouper les champs personnalisés dans l’interface afin d’en améliorer la lisibilité. Pour ce faire, procédez comme suit :
+Vous pouvez ajouter des séparateurs afin de regrouper des champs personnalisés dans l’interface pour une meilleure lisibilité. Pour ce faire, procédez comme suit :
 
-1. Cliquez sur l’icône représentant des points de suspension au-dessus du tableau **[!UICONTROL Liste de champs personnalisés]** et choisissez **[!UICONTROL Ajouter un séparateur]**.
+1. Cliquez sur l’icône représentant des points de suspension au-dessus du tableau **[!UICONTROL Liste des champs personnalisés]** et choisissez **[!UICONTROL Ajouter un séparateur]**.
 
 1. Une nouvelle ligne représentant le séparateur est ajoutée à la liste. Cliquez sur l’icône représentant des points de suspension sur la ligne de séparation et choisissez **[!UICONTROL Modifier]**.
 
-1. Saisissez un **[!UICONTROL Libellé]** pour le séparateur et (facultatif) définissez une condition **[!UICONTROL Visible si]** pour contrôler l’affichage du séparateur.
+1. Saisissez un **[!UICONTROL Libellé]** pour le séparateur. Si vous le souhaitez, définissez une condition **[!UICONTROL Visible si]** pour contrôler l’affichage du séparateur.
 
    ![Boîte de dialogue Propriétés du séparateur](assets/schemas-custom3.png)
 

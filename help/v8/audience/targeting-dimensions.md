@@ -3,16 +3,13 @@ title: Dimension de ciblage et dimension de filtrage
 description: En savoir plus sur les dimensions de ciblage et de filtrage dans l’interface d’utilisation d’Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 TQID: https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 587
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +50,7 @@ En outre, créez de nouveaux mappings de ciblage en fonction de besoins spécifi
 
 ## Dimensions de filtrage {#filtering}
 
-La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateur ou opératrice, abonnées et abonnés, etc. La dimension de filtrage permet d&#39;appliquer des filtres à cette population en référençant les données associées sans modifier la dimension de ciblage principale. Vous pouvez, par exemple, sélectionner la population en fonction de critères spécifiques, tels que les titulaires d’un contrat ou les personnes abonnées à une newsletter.
+La dimension de ciblage permet de définir la population visée par l’opération : destinataires, bénéficiaires de contrats, opérateurs, abonnés, etc. La dimension de filtrage permet d’appliquer des filtres à la population ciblée en référençant des critères associés sans modifier la dimension de ciblage principale.Vous pouvez, par exemple, sélectionner la population en fonction de critères spécifiques, tels que les titulaires d’un contrat ou les personnes abonnées à une newsletter.
 
 Les dimensions de filtrage sont disponibles uniquement dans l’activité **Créer une audience**.
 

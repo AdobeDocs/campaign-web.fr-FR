@@ -4,15 +4,12 @@ title: Rapports globaux du canal SMS
 description: Comprendre les rapports globaux du canal SMS
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 TQID: https://experienceleague.adobe.com/I0CK5wcp99rHrQUw6e-dYpHQzms7kS5IW-RY-k4-W24
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 689
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +32,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** offre des indicateu
 
 ![Capture d’écran du rapport Vue d’ensemble de la diffusion, présentant les indicateurs de performances clés pour la diffusion par SMS.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de la diffusion.
++++Découvrez-en plus sur les mesures de la vue d’ensemble de la diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -58,7 +55,7 @@ Le tableau et le graphe **[!UICONTROL Audience ciblée]** présentent les donné
 
 ![Capture d’écran du rapport Audience ciblée, présentant les données sur les destinataires et les exclusions pour les diffusions par SMS.](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures d’audience ciblée.
++++Découvrez-en plus sur les mesures Audience ciblée.
 
 * **[!UICONTROL Audience ciblée]** : nombre total de destinataires ciblés.
 
@@ -79,7 +76,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** détaille le succès de ch
 
 ![Capture d’écran du rapport Statistiques de diffusion, présentant les taux de succès, les erreurs et les quarantaines des diffusions par SMS.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures Statistiques de diffusion .
++++Découvrez-en plus sur les mesures Statistiques de diffusion.
 
 * **[!UICONTROL Nombre total de messages]** : nombre total de messages à diffuser après la préparation de la diffusion.
 

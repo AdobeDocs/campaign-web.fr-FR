@@ -4,17 +4,13 @@ title: Rapports de campagne du canal e-mail
 description: En savoir plus sur les rapports de campagne du canal E-mail
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 TQID: https://experienceleague.adobe.com/5UyJT1-bkt0XtqVkTQl7VobPRsxG36tJYe35KSk8n5c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1707
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -254,7 +250,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 * **[!UICONTROL Nombre total de clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Moyenne plateforme]** : Ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
+* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées au cours des six derniers mois.Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
 
 +++
 
@@ -299,7 +295,7 @@ Le graphe **[!UICONTROL Activités utilisateurs]** affiche la répartition des o
 
 ![Capture d’écran du rapport Activités utilisateurs](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures des rapports de diffusion par e-mail.
++++Découvrez-en plus sur les mesures des rapports de diffusion par e-mail.
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 

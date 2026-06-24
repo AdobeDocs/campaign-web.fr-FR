@@ -3,18 +3,14 @@ title: À propos des schémas
 description: Découvrez comment utiliser les schémas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 TQID: https://experienceleague.adobe.com/D7gEyOdvyADCac9T3By3KKnx7kpN8LuE2-rnRBJDyMA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 319
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -44,18 +40,18 @@ Les schémas jouent un rôle essentiel dans ce qui suit :
 
 Chaque entité d’Adobe Campaign dispose d’un schéma dédié, ce qui permet d’assurer la cohérence des données et leur organisation.
 
-L’interface des schémas vous permet d’effectuer les opérations suivantes :
+L’interface des schémas vous permet d’effectuer les opérations suivantes :
 
-* [Accéder aux schémas et les personnaliser](schemas-browse-access.md) - Affichez les schémas disponibles, explorez leurs détails et personnalisez l’affichage de l’écran
-* [Configurer les colonnes de la liste](schemas-list-columns.md) - Configurez les colonnes affichées par défaut dans les vues de liste.
-* [Modifier les champs personnalisés](schemas-custom-fields.md) - Configurer les champs personnalisés qui s’affichent dans les écrans de détails et les organiser en sections.
-* [Ajouter des listes de collection](schemas-collection-lists.md) - Ajoutez des listes de collection pour afficher les données associées dans les écrans de profil.
-* [Création et gestion des schémas](schemas-create-publish.md#create-schemas) - Créez de nouveaux schémas et étendez les schémas existants
-* [Publication et synchronisation des schémas](schemas-create-publish.md#publish) - Synchronisez les modifications de schéma avec la structure de la base de données.
-* [Utilisation de formulaires personnalisés](schemas-custom-forms.md) - Créez, modifiez et gérez des enregistrements dans des schémas personnalisés à l’aide de formulaires de saisie de données.
+* [Accéder aux schémas et les personnaliser](schemas-browse-access.md) : affichez les schémas disponibles, explorez leurs détails et personnalisez l’affichage de l’écran.
+* [Configurer les colonnes de la liste](schemas-list-columns.md) : configurez les colonnes affichées par défaut dans les vues de liste.
+* [Modifier les champs personnalisés](schemas-custom-fields.md) : configurez les champs personnalisés qui s’affichent dans les écrans de détails et organisez-les en sections.
+* [Ajouter des listes de collections](schemas-collection-lists.md) : ajoutez des listes de collections pour afficher les données associées dans les écrans de profil.
+* [Créer et gérer les schémas](schemas-create-publish.md#create-schemas) : créez de nouveaux schémas et étendez les schémas existants.
+* [Publier et synchroniser les schémas](schemas-create-publish.md#publish) : synchronisez les modifications de schéma avec la structure de la base de données.
+* [Utiliser des formulaires personnalisés](schemas-custom-forms.md) : créez, modifiez et gérez des enregistrements dans des schémas personnalisés à l’aide de formulaires de saisie de données.
 
 >[!NOTE]
 >
->Vous devez disposer de droits d’administrateur pour gérer les schémas.
+>Vous devez disposer des droits d’administration pour gérer les schémas.
 
 Vous trouverez des informations détaillées sur les schémas dans la [documentation de la console Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.

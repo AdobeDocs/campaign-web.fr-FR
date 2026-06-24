@@ -1,28 +1,29 @@
 ---
-title: Ajouter des listes de collection
-description: Découvrez comment ajouter des listes de collection pour afficher les données associées dans les écrans de profil.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
-workflow-type: tm+mt
+title: Ajout de listes de collections
+description: Découvrez comment ajouter des listes de collections pour afficher les données associées sur les écrans de profil.
+exl-id: 5ae68741-146c-4e0f-b451-c32e9a2290f8
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
-# Ajouter des listes de collection {#collection-lists}
+# Ajout de listes de collections {#collection-lists}
 
-La section **Liste de listes personnalisées** vous permet de définir des liens de collection, tels que des achats. Les données associées sont alors affichées sur les écrans des profils via un onglet dédié.
+La section **Liste des listes personnalisées** vous permet de définir des liens de collection, tels que les achats.Les données associées sont alors affichées sur les écrans des profils via un onglet dédié.
 
-Pour plus d&#39;informations sur l&#39;écran de définition d&#39;écran et sur la façon d&#39;y accéder, consultez la section [Accéder à la définition d&#39;écran](schemas-browse-access.md#screen-def).
+Pour plus d’informations sur la définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
 
 >[!NOTE]
 >
 >Actuellement, cette fonctionnalité n’est disponible que pour le schéma Destinataires.
 
-Pour ajouter des listes de collections :
+Pour ajouter des listes de collections :
 
 1. Accédez au menu **[!UICONTROL Schémas]** et recherchez les schémas modifiables à l’aide des filtres.
 
-1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modification de l’écran]** dans la vue des détails du schéma pour accéder à la définition d’écran.
+1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modification d’écran]** dans la vue des détails du schéma pour accéder à la définition d’écran.
 
 1. Cliquez sur l’icône représentant des points de suspension et choisissez **[!UICONTROL Sélectionner des listes personnalisées]**.
 

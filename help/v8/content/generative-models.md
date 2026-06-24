@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 11%
 >abstract="Activez l’intégration transparente des modèles Firefly standard et personnalisés, ainsi que des modèles d’image tiers approuvés, afin d’offrir une plus grande flexibilité, un meilleur contrôle et un meilleur alignement de la marque lors de la génération d’images."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=fr" text="Voir les notes de mise à jour"
 
-Développez vos fonctionnalités de création d’images par l’IA avec des modèles intégrés, des modèles Firefly personnalisés et des fournisseurs de génération d’images tiers pour répondre à vos besoins spécifiques et améliorer l’alignement de la marque.
+Développez vos fonctionnalités de création d’images par l’IA avec des modèles intégrés, des modèles Firefly personnalisés et des fournisseurs de génération d’images tiers pour répondre à vos besoins spécifiques et améliorer l’alignement sur la marque.
 
 Choisissez le modèle adapté à vos besoins :
 
-- **[!UICONTROL Adobe model]**, optimisé par Firefly Image Model 4, est fourni prêt à l’emploi et prêt à être utilisé pour la génération immédiate d’images sans configuration supplémentaire.
-- Le **[!UICONTROL modèle partenaire]**, optimisé par Gemini 2.5 Flash, offre des fonctionnalités spécialisées pour des cas d’utilisation spécifiques.
+- Le **[!UICONTROL modèle Adobe]**, optimisé par Firefly Image Model 4, est prêt à l’emploi et à être utilisé pour la génération immédiate d’images sans configuration supplémentaire.
+- Le **[!UICONTROL modèle partenaire]**, optimisé par Gemini 2.5 Flash, offre des fonctionnalités spécialisées pour des cas d’utilisation spécifiques.
 - Les **[!UICONTROL modèles personnalisés]** sont des modèles spécifiques à la marque, entraînés sur vos propres ressources et ajoutés par votre entreprise.
 
-  En savoir plus sur les **[!UICONTROL modèles personnalisés]** dans la documentation d’[Adobe Firefly](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  En savoir plus sur les **[!UICONTROL modèles personnalisés]** dans la [documentation d’Adobe Firefly](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
-Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu. [En savoir plus sur la génération d’images](generative-image.md).
+Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu.[En savoir plus sur la génération d’images](generative-image.md).
 
-## Gestion des modèles génératifs
+## Gérer les modèles génératifs
 
-Gérez vos modèles génératifs depuis un emplacement centralisé. Affichez tous les modèles disponibles, filtrez et recherchez des modèles spécifiques et configurez leurs paramètres pour vos marques.
+Gérez vos modèles génératifs depuis un emplacement centralisé.Affichez tous les modèles disponibles, filtrez et recherchez des modèles spécifiques et configurez leurs paramètres pour vos marques.
 
 1. Dans le menu **[!UICONTROL Marques]**, sélectionnez l’onglet **[!UICONTROL Modèles génératifs]**.
 
    ![](assets/gen-model-manage-1.png){zoomable="yes"}
 
-1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_Filter_18_N.svg) pour accéder au menu de filtrage. Filtrez les modèles par **[!UICONTROL Type]** ou **[!UICONTROL Statut]**.
+1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_Filter_18_N.svg) pour accéder au menu de filtrage.Filtrez les modèles par **[!UICONTROL Type]** ou par **[!UICONTROL Statut]**.
 
    ![](assets/gen-model-manage-2.png){zoomable="yes"}
 
@@ -54,33 +54,33 @@ Gérez vos modèles génératifs depuis un emplacement centralisé. Affichez tou
 
 1. Cliquez sur **[!UICONTROL Ajouter un modèle]** pour créer un nouveau modèle génératif à partir de zéro.
 
-Vous pouvez désormais sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu. [En savoir plus sur la génération d’images](generative-image.md).
+Vous pouvez désormais sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu.[En savoir plus sur la génération d’images](generative-image.md).
 
 ## Ajouter un modèle génératif
 
 >[!IMPORTANT]
 >
->La création de modèles Firefly personnalisés nécessite un contrat Firefly ETLA.
+>La création de modèles Firefly personnalisés nécessite un contrat ETLA Firefly.
 
-Les modèles Firefly personnalisés sont des modèles d’IA spécifiques à la marque, entraînés sur vos propres ressources. Ils vous permettent de générer des images qui s’alignent précisément sur l’identité, le style et les directives visuelles de votre marque.
+Les modèles Firefly personnalisés sont des modèles spécifiques à la marque entraînés sur vos propres ressources, ce qui vous permet de générer des images qui s’alignent précisément sur l’identité, le style et les directives visuelles de votre marque.
 
 En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez étendre vos fonctionnalités d’IA au-delà des modèles par défaut et vous assurer que le contenu généré reflète de manière cohérente l’esthétique et les exigences uniques de votre marque.
 
-➡️ [Découvrez comment entraîner votre modèle personnalisé](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [Découvrir comment entraîner votre modèle personnalisé](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Dans le menu **[!UICONTROL Marques]**, accédez à l’onglet **[!UICONTROL Modèles génératifs]** et cliquez sur **[!UICONTROL Ajouter un modèle]**.
 
    ![](assets/gen-model-manage-4.png){zoomable="yes"}
 
-1. Saisissez un **[!UICONTROL Nom]** pour votre modèle.
+1. Saisissez le **[!UICONTROL nom]** de votre modèle.
 
 1. Saisissez votre **[!UICONTROL ID de modèle]**.
 
-   Pour trouver votre identifiant de modèle Firefly, accédez au site web Firefly et à vos modèles formés. L’identifiant unique est disponible dans la section de gestion du modèle une fois publié. Pour plus d&#39;informations, consultez la documentation sur les modèles personnalisés Firefly [&#128279;](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Pour trouver votre ID de modèle Firefly, accédez au site web Firefly et à vos modèles entraînés.L’identifiant unique est disponible dans la section de gestion du modèle une fois publié.Pour plus d’informations, consultez la [documentation sur les modèles Firefly personnalisés](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
-1. Vous pouvez éventuellement saisir une **[!UICONTROL Description]** pour vous aider à identifier le modèle.
+1. Vous pouvez également saisir une **[!UICONTROL description]** pour vous aider à identifier le modèle.
 
 1. Cliquez sur **[!UICONTROL Tester la connexion]** pour vérifier la configuration du modèle.
 
@@ -88,7 +88,7 @@ En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez éte
 
    ![](assets/gen-model-manage-7.png){zoomable="yes"}
 
-1. Après l’enregistrement, votre modèle personnalisé est ajouté à votre liste de modèles. Vous pouvez la désactiver ou la supprimer à tout moment.
+1. Après l’enregistrement, votre modèle personnalisé est ajouté à votre liste de modèles.Vous pouvez le désactiver ou le supprimer à tout moment.
 
    ![](assets/gen-model-manage-8.png){zoomable="yes"}
 
@@ -100,6 +100,6 @@ En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez éte
     If disabled, select which brands this model should be applied to.
 -->
 
-Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs personnalisés lors de la création d’images dans votre contenu. [En savoir plus sur la génération d’images](generative-image.md).
+Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs personnalisés lors de la création d’images dans votre contenu.[En savoir plus sur la génération d’images](generative-image.md).
 
 ![](assets/gen-model-manage-9.png){zoomable="yes"}

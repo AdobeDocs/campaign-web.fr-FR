@@ -4,16 +4,12 @@ title: Utiliser les règles métier (typologies)
 description: Découvrez comment utiliser les typologies et les règles de typologie pour contrôler, filtrer et surveiller l’envoi des diffusions.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 TQID: https://experienceleague.adobe.com/LUgINZylWuInxi4LabDWk5-xp6wAv01gsNYT8dnNdx8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1500
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +70,7 @@ Pour créer une typologie, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le champ **[!UICONTROL Affinité IP]** vous permet d’associer des affinités IP à des typologies. Cela vous permet de mieux contrôler le trafic SMTP sortant en définissant des adresses IP spécifiques qui peuvent être utilisées pour chaque affinité. Par exemple, vous pouvez utiliser une affinité par pays ou sous-domaine. Vous pouvez ensuite créer une typologie par pays et lier chaque affinité à la typologie correspondante.
+   >Le champ **[!UICONTROL Affinité IP]** vous permet d’associer des affinités IP à des typologies. Cela vous permet de mieux contrôler le trafic SMTP sortant en définissant des adresses IP spécifiques qui peuvent être utilisées pour chaque affinité. Par exemple, vous pouvez utiliser une affinité par pays ou sous-domaine.Vous pouvez ensuite créer une typologie par pays et associer chaque affinité à la typologie correspondante.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la typologie.
 

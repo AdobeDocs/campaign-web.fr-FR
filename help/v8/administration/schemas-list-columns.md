@@ -1,33 +1,34 @@
 ---
-title: Configurer les colonnes de la liste par défaut
+title: Configuration des colonnes de listes par défaut
 description: Découvrez comment configurer les colonnes affichées par défaut dans les vues Liste.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
-workflow-type: tm+mt
+exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Configurer les colonnes de la liste {#list-columns}
+# Configurer des colonnes de listes {#list-columns}
 
-La section **[!UICONTROL Configuration de la liste d’inventaire]** vous permet de configurer les colonnes affichées par défaut dans les vues Liste. Chaque colonne affiche son libellé et l’attribut correspondant.
+La section **[!UICONTROL Configuration de la liste d’inventaire]** vous permet de configurer les colonnes affichées par défaut dans les vues Liste.Chaque colonne affiche son libellé et l’attribut correspondant.
 
-Pour plus d&#39;informations sur l&#39;écran de définition d&#39;écran et sur la façon d&#39;y accéder, consultez la section [Accéder à la définition d&#39;écran](schemas-browse-access.md#screen-def).
+Pour plus d’informations sur la définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
 
-Pour ajouter de nouvelles colonnes à la liste par défaut, procédez comme suit :
+Pour ajouter de nouvelles colonnes à la liste par défaut, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Schémas]** et recherchez les schémas modifiables à l’aide des filtres.
 
-1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modification de l’écran]** dans la vue des détails du schéma pour accéder à la définition d’écran.
+1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modification d’écran]** dans la vue des détails du schéma pour accéder à la définition d’écran.
 
 1. Cliquez sur l’icône représentant des points de suspension (trois points).
-1. Choisissez **[!UICONTROL Sélectionner les colonnes]**.
-   ![Configuration des colonnes de liste](assets/schemas-list-columns2.png)
+1. Choisissez **[!UICONTROL Sélectionner des colonnes]**.
+   ![Configuration de colonnes de liste](assets/schemas-list-columns2.png)
 
 1. Sélectionnez les attributs à afficher dans les vues de liste et confirmez.
 
-   ![Configuration des colonnes de liste](assets/schemas-list-columns.png)
+   ![Configuration de colonnes de liste](assets/schemas-list-columns.png)
 
-1. Accédez au menu **Profils** pour accéder à la vue Liste des profils. Les nouveaux onglets s’affichent. Vous pouvez ajouter d’autres colonnes si nécessaire.
+1. Accédez au menu **Profils** pour accéder à la vue Liste des profils.Vous remarquerez que les nouveaux onglets s’affichent.Vous pouvez ajouter d’autres colonnes si nécessaire.
 
-   ![Configuration des colonnes de liste](assets/schemas-list-columns3.png)
+   ![Configuration de colonnes de liste](assets/schemas-list-columns3.png)

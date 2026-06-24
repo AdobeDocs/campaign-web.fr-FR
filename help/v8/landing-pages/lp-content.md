@@ -4,12 +4,11 @@ description: Découvrir comment concevoir du contenu spécifique à une page de 
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 TQID: https://experienceleague.adobe.com/Q9tP0Cf1np2-49fxWzaqEwfqiTX4UIfUV4evNCd3PLM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1170
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +90,7 @@ Pour définir un contenu spécifique qui permet aux utilisateurs et aux utilisat
    * **[!UICONTROL Oui si coché]**.
    * **[!UICONTROL Non si coché]**.
 
-1. Supprimer et ajouter autant de champs (tels que des champs de texte, des boutons radio, des cases à cocher, des listes déroulantes, etc.) en fonction des besoins.
+1. Supprimez et ajoutez autant de champs que vous le souhaitez (champs de texte, cases d’option, cases à cocher, listes déroulantes, etc.)en fonction des besoins.
 
 1. Une fois tous les champs ajoutés ou mis à jour, cliquez sur **[!UICONTROL Appel à l’action]** pour développer la section correspondante. Cela permet de définir le comportement du bouton dans le composant **[!UICONTROL Formulaire]**. [Voici comment procéder](#define-actions-on-form-submission)
 
@@ -154,7 +153,7 @@ Pour envoyer automatiquement un message de confirmation après la soumission d�
 
    ![Paramètres du style des cases à cocher](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Développez et modifiez toute autre section correspondant aux autres champs que vous avez ajoutés (bouton radio, liste déroulante, date et heure, etc.) à votre formulaire.
+1. Développez et modifiez toute autre section qui correspond aux autres champs que vous avez ajoutés (case d’option, liste déroulante, date et heure, etc.)à votre formulaire.
 
 1. Développez la section **[!UICONTROL Appel à l’action]** pour modifier l’aspect du bouton dans le formulaire du composant. Par exemple, changez de police, ajoutez une bordure, modifiez la couleur du libellé en le survolant avec votre souris ou ajustez lʼalignement du bouton.
 

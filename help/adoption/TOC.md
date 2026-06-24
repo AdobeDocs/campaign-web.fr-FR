@@ -6,8 +6,8 @@ user-guide-description: Utilisateurs et utilisatrices de Campaign Standard pass
 description: Utilisateurs et utilisatrices de Campaign Standard, découvrez comment commencer avec Campaign v8.
 breadcrumb-title: Guide d’adoption de Campaign
 source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
-workflow-type: tm+mt
-source-wordcount: '70'
+workflow-type: ht
+source-wordcount: '87'
 ht-degree: 100%
 
 ---

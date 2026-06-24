@@ -6,21 +6,14 @@ role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 TQID: https://experienceleague.adobe.com/EVKNvanXqgwtYSwwUXDbZGu-h-Oc1WoU-nBQT0jvkW0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 645
 ht-degree: 100%
 
@@ -37,7 +30,7 @@ Les profils de test sont utilisés pour envoyer des BAT et valider le contenu et
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=fr){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Les étapes permettant d’envoyer des BAT à des profils sont présentées dans [cette section](../preview-test/test-deliveries.md#test-profiles).
 
@@ -126,4 +119,4 @@ Le profil de test que vous venez de créer est maintenant prêt à être utilis�
 
 Découvrez comment créer et gérer des profils de test à l’aide de l’interface d’utilisation web de Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442897?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

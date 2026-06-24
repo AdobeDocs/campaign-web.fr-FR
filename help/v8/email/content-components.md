@@ -4,14 +4,12 @@ title: Utiliser les composants de contenu du concepteur d’e-mail
 description: Découvrez comment utiliser des composants de contenu dans vos emails.
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1402
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +97,7 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
 
 ## Texte {#text}
 
-Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajuster le style (bordure, taille, marge intérieure, etc.) à l’aide des onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]**.
+Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajuster le style (bordure, taille, marge intérieure, etc.)à l’aide des onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]**.
 
 1. Dans le menu **[!UICONTROL Contenu]**, faites glisser et déposez du **[!UICONTROL texte]** dans un composant de **[!UICONTROL structure]**.
 

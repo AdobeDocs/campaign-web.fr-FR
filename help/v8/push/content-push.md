@@ -4,11 +4,10 @@ title: Concevoir une diffusion de notification push
 description: Découvrez comment concevoir une diffusion de notification push avec Adobe Campaign Web.
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 TQID: https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 1657
+workflow-type: ht
+source-wordcount: 1615
 ht-degree: 100%
 
 ---
@@ -53,7 +52,7 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 * Le **[!UICONTROL Message de données]** est géré par l’application cliente. Ces messages sont envoyés directement à l’application mobile, qui génère et affiche une notification Android sur l’appareil. Les messages de données contiennent uniquement vos variables d&#39;application personnalisées.
 
   Pour définir le contenu, personnaliser les données et ajouter du contenu dynamique, cliquez sur le champ **[!UICONTROL Message]** et utilisez l’éditeur d’expression. Accédez à cet éditeur pour personnaliser vos messages.
-Dans le menu **[!UICONTROL Variables de l’application]**, vos variables d’application sont automatiquement ajoutées. Ces variables vous permettent de définir le comportement des notifications. Par exemple, configurez un écran d’application spécifique qui s’affichera lorsque l’utilisateur ou l’utilisatrice activera la notification.
+Dans le menu **[!UICONTROL Variables d’application]**, vos variables d’application sont automatiquement ajoutées. Ces variables vous permettent de définir le comportement de la notification. Par exemple, configurez un écran d’application spécifique à afficher lorsque l’utilisateur ou l’utilisatrice active la notification.
 
   ![Description : exemple de définition du contenu d’un message de données dans les notifications Android](assets/push_content_4.png){zoomable="yes"}
 

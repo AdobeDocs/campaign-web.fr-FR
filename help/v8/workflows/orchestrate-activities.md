@@ -4,12 +4,11 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1326
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +41,7 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail et clique
 La barre d’outils située dans le coin supérieur droit de la zone de travail fournit des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail :
 
 * **Mode de sélection multiple** : sélectionnez plusieurs activités pour les supprimer toutes en même temps ou pour les copier et les coller. Voir [cette section](#copy).
-* **Ajouter une branche** : cliquez sur le bouton **+** de la barre d’outils pour créer une branche d’exécution distincte sur la zone de travail. Le résultat est équivalent à l’utilisation d’un [branchement](activities/fork.md) pour les chemins parallèles, mais le diagramme est plus clair graphiquement.
+* **Ajouter une branche** : cliquez sur le bouton **+** de la barre d’outils pour créer une branche d’exécution distincte sur la zone de travail.Le résultat est équivalent à l’utilisation d’une activité [Branchement](activities/fork.md) pour les chemins parallèles, mais le diagramme est plus clair graphiquement.
 * **Faire pivoter** : retournez la zone de travail verticalement.
 * **Ajuster à l’écran** : adaptez le niveau de zoom de la zone de travail à votre écran.
 * **Zoom arrière**/**Zoom avant** : effectuez un zoom arrière ou avant dans la zone de travail.

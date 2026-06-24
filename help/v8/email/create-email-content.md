@@ -4,14 +4,12 @@ title: Concevoir des e-mails dans le concepteur d’e-mail
 description: Découvrez comment concevoir le contenu des e-mails en partant de zéro.
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 TQID: https://experienceleague.adobe.com/z3yAopnbrS2h1jYhH1EgQYU89rNTDQBwjXiDK0YeiLU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 676
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +107,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
    ![Capture d’écran affichant les options de simulation dans le Concepteur d’e-mail.](assets/email_designer-simulate.png){zoomable="yes"}
 
-1. Vous pouvez également valider la qualité de votre contenu pour évaluer la lisibilité, l’efficacité de CTA, la qualité de l’objet, etc. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
+1. Vous pouvez également valider la qualité de votre contenu pour évaluer la lisibilité, l’efficacité CTA, la qualité de l’objet, etc.[En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
 
 1. Lorsque votre e-mail est prêt, cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -117,4 +115,4 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
 Découvrez comment naviguer dans le Concepteur d’e-mail. Découvrez comment structurer et concevoir entièrement un e-mail, ainsi que le personnaliser et le tester.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453566/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

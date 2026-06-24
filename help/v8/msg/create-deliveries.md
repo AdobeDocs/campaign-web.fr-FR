@@ -7,20 +7,15 @@ role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 TQID: https://experienceleague.adobe.com/zYZcNQ5MrJD4uzlHbZCRcMN7kg6AIb9R-84yEhhCjfs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 986
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -124,18 +119,18 @@ Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin
 
 Vous pouvez définir la date et l’heure d’envoi exactes de vos messages. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez maximiser les taux d’ouverture.
 
-Pour planifier l’envoi d’une diffusion, procédez comme suit :
+Pour planifier l’envoi d’une diffusion, procédez comme suit :
 
-1. Ouvrez votre diffusion et accédez à la section **[!UICONTROL Planifier]**.
+1. Ouvrez votre diffusion et accédez à la section **[!UICONTROL Planning]**.
 1. Utilisez le bouton (bascule) **[!UICONTROL Activer la planification]** pour l’activer.
-1. Dans le champ **[!UICONTROL Date de contact]**, cliquez sur l’icône de calendrier et définissez la date et l’heure d’envoi.
+1. Dans le champ **[!UICONTROL Date de contact]**, cliquez sur l’icône de calendrier et définissez la date et l’heure de l’envoi.
 1. Dans le champ **[!UICONTROL Fuseau horaire]**, utilisez le menu déroulant pour sélectionner le fuseau horaire de votre choix.
 
 Une fois la diffusion envoyée, l’envoi effectif démarre à la date de contact que vous avez définie.
 
 ![Capture d’écran affichant l’interface de planning d’une diffusion](assets/schedule.png){zoomable="yes"}
 
-Par défaut, l’option **[!UICONTROL Activer la confirmation avant l’envoi]** est activée. Cette option nécessite de confirmer l’envoi avant que la diffusion ne soit envoyée à la date planifiée. Si vous devez envoyer automatiquement la diffusion à la date et à l’heure planifiées, vous pouvez désactiver cette option.me.
+Par défaut, l’option **[!UICONTROL Activer la confirmation avant l’envoi]** est activée. Cette option nécessite de confirmer l’envoi avant que la diffusion ne soit envoyée à la date et à l’heure planifiées. Si vous avez besoin d’envoyer la diffusion automatiquement à la date et à l’heure planifiées, vous pouvez désactiver cette option.
 
 Découvrez les étapes à suivre pour envoyer une diffusion planifiée dans [cette section](../monitor/prepare-send.md#schedule-the-send).
 

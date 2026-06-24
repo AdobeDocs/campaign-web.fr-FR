@@ -4,12 +4,11 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 TQID: https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5zexYOA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 363
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +42,7 @@ Les workflows peuvent adopter plusieurs statuts :
 * **[!UICONTROL Brouillon]** : le workflow a été créé et enregistré.
 * **[!UICONTROL En cours]** : le workflow est en cours d’exécution.
 * **[!UICONTROL Terminé]** : l’exécution du workflow est terminée.
-* **[!UICONTROL En pause]** : le workflow a été mis en pause, manuellement ou automatiquement après avoir rencontré une erreur. Si le workflow a été suspendu en raison d’une erreur, ouvrez-le et accédez aux journaux et tâches pour identifier le problème et le résoudre. [Découvrez comment surveiller les logs et les tâches.](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL En pause]** : le workflow a été mis en pause, manuellement ou automatiquement après avoir rencontré une erreur.Si le workflow a été mis en pause en raison d’une erreur, ouvrez-le et consultez les journaux ainsi que les tâches afin d’identifier le problème et de le résoudre.[Découvrez comment surveiller les logs et les tâches.](start-monitor-workflows.md#logs-tasks)
 
 Pour obtenir des informations détaillées sur le démarrage et la surveillance de l’exécution des workflows, consultez [cette page](start-monitor-workflows.md).
 

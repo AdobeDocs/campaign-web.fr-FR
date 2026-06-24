@@ -4,12 +4,11 @@ title: Envoyer des messages aux personnes abonnées à un service
 description: Découvrez comment envoyer des messages aux personnes abonnées à un service.
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 TQID: https://experienceleague.adobe.com/AqhjUeWF14SOAq23MOAZjlTRiw8UOdc9c9az1AyCJIc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 296
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

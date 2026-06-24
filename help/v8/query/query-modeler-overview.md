@@ -4,11 +4,10 @@ title: Utiliser le concepteur de requête
 description: Découvrez comment travailler avec le concepteur de requête d’Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 TQID: https://experienceleague.adobe.com/lT-df-KAmZo0z77wk9iB882eSxmrW60-a-WYnHd0RzE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 892
+workflow-type: ht
+source-wordcount: 813
 ht-degree: 100%
 
 ---
@@ -59,8 +58,8 @@ Le concepteur de requête fournit une zone de travail centrale où vous pouvez c
 
 >[!IMPORTANT]
 >
->Une toute nouvelle interface pour le concepteur de requête est disponible. Le nouveau créateur de règles, grâce à son interface simplifiée, vous permet de créer votre requête plus facilement. Pour passer à cette expérience, appuyez sur le bouton (bascule) dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
->![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
+>Une toute nouvelle interface pour le concepteur de requête est disponible. Le nouveau créateur de règles vous permet de créer votre requête plus facilement grâce à son interface simplifiée. Pour passer à cette nouvelle expérience, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au Concepteur de requête classique à tout moment en cliquant sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes qu’avec le Concepteur de requête dans cette nouvelle interface.
+>![Image montrant le bouton (bascule) pour activer la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]

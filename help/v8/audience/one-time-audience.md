@@ -4,14 +4,12 @@ title: Créer une audience unique pour une diffusion
 description: Découvrez comment créer une audience unique pour une diffusion.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 TQID: https://experienceleague.adobe.com/96G-USwsSAOJUSeXTpgpCTgeCNfwgIBHorvcxvObcuw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 251
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +25,11 @@ Pour créer une audience unique pour une diffusion, procédez comme suit :
 
 1. Dans la section **Audience** de l’assistant de création de diffusion, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]**.
 
-   [Capture d’écran affichant la section Audience de l’assistant de création de diffusion avec le bouton Sélectionner une audience en surbrillance](assets/segment-builder0.png){zoomable="yes"}
+   [Copie d’écran montrant la section Audience de l’assistant de création de diffusion avec le bouton Sélectionner l’audience mis en évidence](assets/segment-builder0.png){zoomable="yes"}
 
 1. Sélectionnez **Créer la vôtre** pour ouvrir le concepteur de requête. Le concepteur de requête permet de définir la population ciblée en filtrant les données contenues dans la base de données. [Découvrir comment utiliser le concepteur de requête](../query/query-modeler-overview.md).
 
-   [Capture d’écran montrant l’interface du requêteur](assets/query-modeler.png){zoomable="yes"}
+   [Copie d’écran affichant l’interface du concepteur de requête](assets/query-modeler.png){zoomable="yes"}
 
 1. Une fois votre requête prête, cliquez sur **Confirmer** pour utiliser l’audience créée comme cible principale de votre diffusion.
 

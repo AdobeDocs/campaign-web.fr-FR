@@ -1,14 +1,15 @@
 ---
-title: Parcourir et accéder aux schémas
+title: Parcourir les schémas et y accéder
 description: Découvrez comment parcourir les schémas et y accéder dans l’interface.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
-workflow-type: tm+mt
+exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Accès et configuration des schémas {#access}
+# Accéder aux schémas et les configurer {#access}
 
 Les schémas sont accessibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Schémas]**.
 
@@ -40,24 +41,24 @@ L’onglet **[!UICONTROL Données]** fournit des informations sur les données d
 
 ## Personnaliser l’affichage de l’écran {#screen-def}
 
-La définition d’écran vous permet de configurer l’affichage et la modification des champs de schéma dans l’interface. Vous pouvez configurer les colonnes par défaut pour les vues de liste, personnaliser les champs personnalisés qui s’affichent dans les écrans de détail, ajouter des listes de collection pour afficher les données associées et organiser les champs en sections avec des séparateurs et des critères de visibilité.
+La définition d’écran vous permet de configurer l’affichage et la modification des champs de schéma dans l’interface.Vous pouvez configurer les colonnes par défaut pour les vues de liste, personnaliser les champs personnalisés qui s’affichent dans les écrans de détail, ajouter des listes de collections pour afficher les données associées et organiser les champs en sections avec des séparateurs et des critères de visibilité.
 
-Pour accéder à la définition d’écran :
+Pour accéder à la définition d’écran :
 
 1. Accédez au menu **[!UICONTROL Schémas]** et recherchez les schémas modifiables à l’aide des filtres.
 
    ![Écran de liste des schémas affichant les schémas et les filtres disponibles](assets/schemas-list2.png)
 
-1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modification de l’écran]** dans la vue des détails du schéma pour accéder à la définition d’écran.
+1. Sélectionnez le nom du schéma dans la liste pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modification d’écran]** dans la vue des détails du schéma pour accéder à la définition d’écran.
 
    ![Écran de liste des schémas affichant les schémas et les filtres disponibles](assets/schemas-list3.png)
 
-   Les différentes listes vous permettent de réorganiser les éléments à l’aide des icônes fléchées vers le haut et vers le bas ou de les faire glisser et de les déposer. Pour supprimer des éléments, cliquez sur l’icône de la corbeille sur une ligne spécifique ou sélectionnez **[!UICONTROL Tout supprimer]** à partir de l’icône représentant des points de suspension.
+   Les différentes listes vous permettent de réorganiser les éléments à l’aide des icônes de flèche vers le haut et vers le bas ou de les faire glisser et de les déposer.Pour supprimer des éléments, cliquez sur l’icône de la corbeille sur une ligne spécifique ou sélectionnez **[!UICONTROL Tout supprimer]** à partir de l’icône représentant des points de suspension.
 
-   ![Section Définition d’un écran Général](assets/schemas-general.png)
+   ![Section générale de la définition de l’écran](assets/schemas-general.png)
 
-À partir de la définition d’écran, vous pouvez :
+Dans l’onglet Définition d’écran, vous pouvez :
 
-* [Configurer les colonnes de la liste par défaut](schemas-list-columns.md) - Configurez les colonnes affichées par défaut dans les vues Liste.
-* [Modifier les champs personnalisés](schemas-custom-fields.md) - Configurer les champs personnalisés qui s’affichent dans les écrans de détails et les organiser en sections.
-* [Ajouter des listes de collection](schemas-collection-lists.md) - Ajoutez des listes de collection pour afficher les données associées dans les écrans de profil.
+* [Configurer les colonnes de la liste par défaut](schemas-list-columns.md) : configurez les colonnes affichées par défaut dans les vues Liste.
+* [Modifier les champs personnalisés](schemas-custom-fields.md) : configurez les champs personnalisés qui s’affichent dans les écrans de détails et organisez-les en sections.
+* [Ajouter des listes de collections](schemas-collection-lists.md) : ajoutez des listes de collections pour afficher les données associées dans les écrans de profil.

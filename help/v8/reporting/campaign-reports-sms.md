@@ -4,14 +4,12 @@ title: Rapports de campagne du canal SMS
 description: Présentation des rapports de campagne du canal SMS
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 TQID: https://experienceleague.adobe.com/k-EClMV8DYeD3QZU3zb6fZU4eSy4qyDuw0XtGNMXHLo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 532
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +28,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui
 
 ![Rapport de vue d’ensemble de la diffusion montrant les mesures des SMS](assets/campaign_report_sms_1.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne SMS.
++++Découvrez-en plus sur les mesures de rapports de campagne par SMS.
 
 * **[!UICONTROL Total envoyé]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -53,7 +51,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 ![Tableau des statistiques sur l’audience cible initiale montrant les données des destinataires](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne SMS.
++++Découvrez-en plus sur les mesures de rapports de campagne par SMS.
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
@@ -74,7 +72,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** détaille le succès de 
 
 ![Tableau des statistiques d’exécution montrant les mesures de succès de la diffusion](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne SMS.
++++Découvrez-en plus sur les mesures de rapports de campagne par SMS.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -99,7 +97,7 @@ Le tableau **[!UICONTROL Flux de clics générés]** affiche des données relati
 
 ![Tableau des flux de clics générés montrant les données d’interaction des destinataires](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne SMS.
++++Découvrez-en plus sur les mesures de rapports de campagne par SMS.
 
 * **[!UICONTROL Clics distincts]** : nombre total de destinataires distinct(e)s ayant cliqué dans une diffusion au moins une fois.
 

@@ -4,17 +4,13 @@ title: Rapports de campagne pour le canal Courrier
 description: Comprendre les rapports de campagne du canal Courrier
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 TQID: https://experienceleague.adobe.com/QKxR-bOuqjwx6Rmn0ncEESNE-A1-1yH2bDFPhzfDPXE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 576
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +33,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicat
 
 ![Vue d’ensemble des mesures des campagnes de diffusion par courrier](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de la diffusion.
++++Découvrez-en plus sur les mesures de la vue d’ensemble de la diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -60,7 +56,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 ![Statistiques de l’audience cible initiale des campagnes par courrier](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures Statistiques initiales sur l’audience cible .
++++En savoir plus sur les mesures Statistiques initiales sur l’audience cible.
 
 * **[!UICONTROL Audience initiale]** : nombre total de personnes destinataires ciblées.
 
@@ -81,7 +77,7 @@ Le tableau **[!UICONTROL Statistiques initiales sur l’audience cible]** affich
 
 Le tableau **[!UICONTROL Statistiques d’exécution]** fournit une répartition du succès de chaque diffusion par courrier, avec les mesures détaillées décrites ci-dessous.
 
-+++En savoir plus sur les mesures Statistiques de diffusion .
++++Découvrez-en plus sur les mesures Statistiques de diffusion.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -104,7 +100,7 @@ Le tableau **[!UICONTROL Statistiques d’exécution]** fournit une répartition
 
 Le tableau **Flux de clics générés** illustre les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
-+++En savoir plus sur les mesures Flux de clics générés .
++++En savoir plus sur les mesures Flux de clics générés.
 
 * **[!UICONTROL Clics uniques]** : nombre total de personnes destinataires distinctes ayant cliqué dans une diffusion au moins une fois.
 

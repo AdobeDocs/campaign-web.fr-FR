@@ -6,9 +6,9 @@ content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '517'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Pour ajouter un nouveau champ de profil, vous devez étendre votre schéma. Proc
 
    ![](assets/custom_field_1.png)
 
-1. Identifiez votre schéma des personnes destinataires personnalisé et sélectionnez-le. Si vous n&#39;avez pas encore étendu le schéma nms:recipient intégré, reportez-vous à [cette procédure](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identifiez votre schéma des personnes destinataires personnalisé et sélectionnez-le. Si vous n’avez pas encore étendu le schéma intégré nms:recipient, reportez-vous à [cette procédure](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Ajoutez votre champ personnalisé à l’éditeur de schéma.
 
@@ -54,7 +54,7 @@ Pour ajouter un nouveau champ de profil, vous devez étendre votre schéma. Proc
 
    ![](assets/custom_field_4.png)
 
-Votre nouveau champ de profil est maintenant prêt à être utilisé et sélectionné par vos personnes destinataires.
+Votre nouveau champ de profil est maintenant prêt à être utilisé et sélectionné par vos destinataires.
 
 ## Étape 2 : lier votre nouveau champ personnalisé {#link-custom}
 
@@ -64,7 +64,7 @@ Votre nouveau champ de profil est maintenant prêt à être utilisé et sélecti
 
 Maintenant que votre champ de profil est créé, nous devons le lier à la dimension de rapport dynamique correspondante.
 
-Avant d’étendre le log avec notre champ de profil, veillez à ce que la fenêtre des PII ait été acceptée afin de pouvoir envoyer des données de PII vers le rapport dynamique. Pour en savoir plus à ce sujet, consultez cette [page](pii-agreement.md).
+Avant d’étendre le log avec notre champ de profil, veillez à ce que la fenêtre des PII ait été acceptée afin de pouvoir envoyer des données de PII vers le rapport dynamique. Pour plus d’informations à ce sujet, consultez cette [page](pii-agreement.md).
 
 1. Accédez au dossier **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]** > **[!UICONTROL Champ de rapport supplémentaire]** dans l’explorateur.
 
@@ -90,7 +90,7 @@ Maintenant que le schéma des destinataires a été étendu avec ce champ de pro
 
 Après l’envoi de votre diffusion, vous pouvez répartir les rapports à l’aide de votre dimension de profil.
 
-1. Depuis l’onglet **[!UICONTROL Rapports]**, sélectionnez un rapport avec des paramètres d’usine et cliquez sur le bouton **[!UICONTROL Créer]** pour en lancer un à partir de zéro.
+1. Depuis l&#39;onglet **[!UICONTROL Rapports]**, sélectionnez un rapport aux paramètres d&#39;usine et cliquez sur le bouton **[!UICONTROL Créer]** pour en lancer un à partir de zéro.
 
    ![](assets/custom_field_8.png)
 

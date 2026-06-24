@@ -4,15 +4,12 @@ title: Rapports de diffusion SMS
 description: Découvrez comment accéder aux rapports de diffusion SMS et les utiliser.
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 TQID: https://experienceleague.adobe.com/C-KNGxZ2YfM6sHQVJARzemPJ0ltBtmrG7Ps2y5K-jx0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 620
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +35,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI qui
 
 ![Description : l’image présente le rapport Vue d’ensemble de la diffusion, qui inclut des KPI tels que les taux de succès, les taux d’erreur et l’engagement des visiteurs et visiteuses.](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de diffusion SMS.
++++Découvrez-en plus sur les mesures des rapports de diffusion par SMS.
 
 * **[!UICONTROL Total envoyé]** : pourcentage et nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -61,7 +58,7 @@ Le graphe et le tableau **Population ciblée** affichent les données relatives 
 
 ![Description : l’image présente le graphe et le tableau Population ciblée, qui incluent des mesures telles que les messages à diffuser et les exclusions.](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de diffusion SMS.
++++Découvrez-en plus sur les mesures des rapports de diffusion par SMS.
 
 * **[!UICONTROL À délivrer]** : nombre total et pourcentage de messages traités lors de la préparation de la diffusion.
 
@@ -79,7 +76,7 @@ Le rapport **Statistiques globales** présente les données des SMS envoyés. Le
 
 ![Description : l’image présente le rapport Statistiques globales, qui inclut des mesures telles que les taux de succès, les erreurs et les quarantaines.](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de diffusion SMS.
++++Découvrez-en plus sur les mesures des rapports de diffusion par SMS.
 
 * **[!UICONTROL Succès]** : nombre et pourcentage de messages traités avec succès.
 

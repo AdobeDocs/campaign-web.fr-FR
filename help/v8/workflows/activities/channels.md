@@ -1,23 +1,21 @@
 ---
 audience: end-user
 title: Utiliser une activité de workflow de diffusion
-description: Découvrez comment ajouter une activité de workflow de diffusion (e-mail, notification push, SMS, WhatsApp, publipostage direct)
+description: Découvrez comment ajouter une activité de workflow de diffusion (E-mail, Notification push, SMS, WhatsApp, Courrier).
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 995
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Activités E-mail, SMS, WhatsApp, Push, Courrier {#channel}
+# Activités E-mail, SMS, WhatsApp, Notification push, Courrier {#channel}
 
-Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux e-mail, SMS, WhatsApp, courrier et push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal qui déclenchent des actions en fonction du comportement de la clientèle et des données.
+Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux e-mail, SMS, WhatsApp, courrier et notification push.Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal qui déclenchent des actions en fonction du comportement de la clientèle et des données.
 
 Vous pouvez, par exemple, créer une campagne de bienvenue par e-mail qui inclut une série de messages sur différents canaux, tels que les canaux e-mail, SMS, notifications push et courrier. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente effectue un achat, ou encore envoyer un message d’anniversaire personnalisé par SMS.
 
@@ -77,7 +75,7 @@ Commencez à créer votre workflow avec les activités pertinentes :
 
 Pour configurer une diffusion dans le cadre d’un workflow, procédez comme suit :
 
-1. Ajoutez une activité de canal : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL WhatsApp]**, **[!UICONTROL Notification push (Android)]**, **[!UICONTROL Notification push (iOS)]** ou **[!UICONTROL Courrier]**.
+1. Ajoutez une activité de canal : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL WhatsApp]**, **[!UICONTROL Notification push (Android)]**, **[!UICONTROL Notification push (iOS)]** ou **[!UICONTROL Courrier]**.
 
 1. Sélectionnez le **Type de diffusion** : unique ou récurrent.
 

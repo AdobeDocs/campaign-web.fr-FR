@@ -8,23 +8,16 @@ level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, éditeur
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
 TQID: https://experienceleague.adobe.com/QE0TMgusTCuEYsVi2Gf8X2cV7tlvAJJw6-D-b8eXylM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-subfeature_v2:
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+subfeature_v2: id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1519
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +70,7 @@ Que vous définissiez ou non des paramètres personnalisés pour le mode sombre 
 
 ### Clients appliquant leur propre mode sombre {#default-support}
 
-Certains clients de messagerie appliquent systématiquement leur propre mode sombre par défaut pour tous les e-mails reçus. Les couleurs, les arrière-plans, les images, etc. sont automatiquement ajustés avec les paramètres du mode sombre spécifiques au client de messagerie, ce qui signifie qu’aucune modification externe n’est possible.
+Certains clients de messagerie appliquent systématiquement leur propre mode sombre par défaut pour tous les e-mails reçus. Les couleurs, arrière-plans, images, etc., sont automatiquement ajustés avec les paramètres du mode sombre spécifiques au client de messagerie, ce qui signifie qu’aucune modification externe n’est possible.
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
