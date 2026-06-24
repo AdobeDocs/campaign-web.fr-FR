@@ -4,8 +4,10 @@ title: Surveiller des messages transactionnels
 description: Découvrir comment surveiller un message transactionnel dans l’interface d’utilisation de Campaign Web
 exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
 TQID: https://experienceleague.adobe.com/iN7Hiu3GYci7bOZvVUsg6H-ZfpziQcZbvkvFg-gBcbE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: ht
 source-wordcount: 301
