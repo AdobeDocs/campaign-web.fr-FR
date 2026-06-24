@@ -4,20 +4,14 @@ title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 TQID: https://experienceleague.adobe.com/Yt-mvqKULJIMshitpuuU03U7Dl2m0DnhWoP8kdBoaUI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: d1110311-2ca4-442b-be37-088a6db845eeid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
 workflow-type: tm+mt
 source-wordcount: 583
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +31,7 @@ Toutes les activités sont présentées dans les sections ci-dessous :
 
 Ces activités sont spécifiques au ciblage. Elles permettent de créer une ou plusieurs audiences cibles en définissant une audience, puis en divisant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
-* [Créer une audience](build-audience.md) : définissez votre population cible. Sélectionnez une audience existante ou utilisez le concepteur de requête pour définir votre propre requête. Vous pouvez également configurer **Données d’enrichissement** (disponible pour les requêtes).
+* [Créer une audience](build-audience.md) : définissez votre population cible. Sélectionnez une audience existante ou utilisez le concepteur de requête pour définir votre propre requête. Vous pouvez également configurer les **Données d’enrichissement** (disponible pour les requêtes).
 * [Modifier la source de données](change-data-source.md) : modifiez la source de données de la table de travail de votre workflow.
 * [Changement de dimension](change-dimension.md) : modifiez la dimension de ciblage lors de la création de votre workflow.
 * [Combiner](combine.md) : effectuez une segmentation sur votre population entrante. Utilisez une union, une intersection ou une exclusion.
@@ -74,13 +68,13 @@ Les activités ci-après sont spécifiques à l’organisation et à l’exécut
 
 * [Signal externe](external-signal.md) : déclenchez l’exécution d’un workflow à partir d’un autre workflow ou d’un appel API.
 * [Branchement](fork.md) : créez des transitions sortantes afin de lancer plusieurs activités simultanément.
-* [Joindre](join.md) : synchronisez plusieurs branches d’exécution d’un workflow.
+* [Jointure](join.md) : synchronisez plusieurs branches d’exécution d’un workflow.
 * [Planificateur](scheduler.md) : planifiez le moment de démarrage du workflow.
-* **Début** et [Fin](end.md) : marquez graphiquement le début et la fin d’un workflow. Ils sont facultatifs et n’ont aucun impact fonctionnel.
+* **Début** et [Fin](end.md) : marquent visuellement le début et la fin d’un workflow. Ces éléments sont facultatifs et n’ont aucun impact fonctionnel.
 
   >[!NOTE]
   >
-  >Notez que l&#39;activité **Start** est automatiquement ajoutée à tous les workflows créés avant la version 26.3. Elle n’est pas insérée par défaut dans les nouveaux workflows.
+  >Notez que l’activité **Début** est automatiquement ajoutée à tous les workflows créés avant la version 26.3. Cette activité n’est pas insérée par défaut dans les nouveaux workflows.
 
 * [Test](test.md) : activez des transitions en fonction de conditions spécifiées.
 * [Attente](wait.md) : suspendez temporairement l’exécution d’une partie d’un workflow.
