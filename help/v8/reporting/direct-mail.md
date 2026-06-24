@@ -10,9 +10,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 710
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des informations d�
 
 ![Graphique des mesures de vue d’ensemble de la diffusion affichant les indicateurs de performances clés pour la diffusion courrier.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de la diffusion.
++++Découvrez-en plus sur les mesures de la vue d’ensemble de la diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 * **[!UICONTROL Ciblés]** : nombre de profils de personnes qui remplissent les critères de ciblage pour les messages par courrier.
@@ -75,7 +75,7 @@ Le graphique **[!UICONTROL Statistiques de diffusion]** offre une vue d’ensemb
 
 ![Graphique des statistiques de diffusion affichant les taux de succès, les erreurs et les quarantaines.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures des rapports de campagne de publipostage direct .
++++En savoir plus sur les mesures de rapports de campagne par courrier.
 
 * **[!UICONTROL Message envoyé]** : nombre total de messages à délivrer après la préparation de la diffusion.
 * **[!UICONTROL Succès]** : nombre de messages traités avec succès par rapport au nombre de messages à diffuser.
@@ -94,7 +94,7 @@ La graphe **[!UICONTROL Causes d’exclusion]** fournit une répartition des rai
 
 ![Graphique des causes d’exclusion affichant la répartition des messages rejetés par règle.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++En savoir plus sur les causes des mesures d’exclusion.
++++Découvrez les causes des mesures d’exclusion.
 
 * **[!UICONTROL Adresse en quarantaine]** : type d’erreur générée lorsque l’adresse est mise en quarantaine.
 * **[!UICONTROL Adresse non renseignée]** : type d’erreur générée lorsqu’une adresse n’existe pas.

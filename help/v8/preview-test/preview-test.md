@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 229
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Une fois le contenu de la diffusion rédigé, vous pouvez utiliser les profils e
 * [Prévisualiser le contenu et la personnalisation du message](preview-content.md)
 * [Envoyer des BAT](test-deliveries.md) à des personnes destinataires ou à des personnes abonnées spécifiques à des fins de test et de validation
 * [Vérifier le rendu des e-mails](email-rendering.md) pour les clients de bureau, mobiles et web les plus courants
-* [Validez la qualité de votre contenu](../content/brands-score.md#validate-quality) pour évaluer la lisibilité, l’efficacité de CTA, la qualité de l’objet, etc
+* [Validez la qualité de votre contenu](../content/brands-score.md#validate-quality) pour évaluer la lisibilité, l’efficacité du CTA, la qualité de l’objet, etc.
 * [Prévisualiser et tester vos landing pages](../landing-pages/create-lp.md#test-landing-page)
 
 Effectuez ces actions à l’aide du bouton **[!UICONTROL Simuler le contenu]**, accessible à partir de l’écran Modifier le contenu de la diffusion ou du [concepteur d’e-mail](../email/get-started-email-designer.md).

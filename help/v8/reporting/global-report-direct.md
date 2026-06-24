@@ -10,9 +10,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 661
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ La **[!UICONTROL Vue d’ensemble de la diffusion]** affiche des KPI, ou indicat
 
 ![Cette image montre les mesures de vue d’ensemble de la diffusion pour les diffusions courrier.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de la diffusion.
++++Découvrez-en plus sur les mesures de la vue d’ensemble de la diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -63,7 +63,7 @@ Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des d
 
 ![Cette image montre les mesures d’audience ciblée pour les diffusions courrier.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++En savoir plus sur les mesures d’audience ciblée.
++++Découvrez-en plus sur les mesures Audience ciblée.
 
 * **[!UICONTROL Audience ciblée]** : nombre total de destinataires ciblés.
 
@@ -87,7 +87,7 @@ Le tableau et le graphe pour **[!UICONTROL Audience ciblée]** présentent des d
 
 Le graphe et le tableau **[!UICONTROL Statistiques de diffusion]** fournit une répartition du succès de chaque diffusion par courrier, avec les mesures détaillées décrites ci-dessous.
 
-+++En savoir plus sur les mesures Statistiques de diffusion .
++++Découvrez-en plus sur les mesures Statistiques de diffusion.
 
 * **[!UICONTROL Message à diffuser]** : nombre total de messages à diffuser après la préparation de la diffusion.
 
@@ -115,7 +115,7 @@ Le graphe et le tableau **[!UICONTROL Statistiques de diffusion]** fournit une r
 
 Le graphe et le tableau Exclusions illustrent les raisons qui ont empêché des profils d’utilisateurs et d’utilisatrices exclus des profils ciblés de recevoir le message.
 
-+++En savoir plus sur les causes des mesures d’exclusion.
++++Découvrez les causes des mesures d’exclusion.
 
 * **[!UICONTROL Adresse en quarantaine]** : type d’erreur générée lorsque l’adresse est mise en quarantaine.
 

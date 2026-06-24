@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 699
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -111,6 +111,6 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
 1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
 
-1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. Vous pouvez également valider la qualité de votre contenu pour évaluer la lisibilité, l’efficacité de CTA et la qualité globale. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
+1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. Vous pouvez également valider la qualité de votre contenu pour évaluer la lisibilité, l’efficacité CTA et la qualité globale.[En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality).
 
 1. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)

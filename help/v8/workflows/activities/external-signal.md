@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 411
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

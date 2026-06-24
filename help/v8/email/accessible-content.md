@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1687
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,6 @@ En conséquence, les bonnes pratiques pour concevoir un contenu accessible avec 
 
 Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos landing pages conçus avec [!DNL Adobe Campaign].
  
-
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
@@ -103,7 +102,7 @@ Utilisez le composant **[!UICONTROL Image]** pour fournir un texte secondaire po
 Pour un texte secondaire efficace dans les produits numériques, suivez les directives ci-dessous :
 
 * Décrivez l’objectif de l’image de manière concise et contextuelle.
-* Évitez les expressions redondantes telles que « Image de ... ». et utilisez du texte de remplacement vide pour les images décoratives.
+* Évitez les expressions redondantes telles que « Image de… »et utilisez du texte de remplacement vide pour les images décoratives.
 * Pour les icônes significatives, fournissez des libellés significatifs. Pour les images complexes, utilisez un bref texte de remplacement ainsi qu’une description plus longue ailleurs.
 
 ## Utiliser un format lisible {#readable-format}
@@ -137,7 +136,7 @@ Pour vérifier l’accessibilité de votre contenu, vous pouvez utiliser les fon
 
 * Utilisez l’option [Rendu des e-mails](../preview-test/email-rendering.md) qui utilise Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir si le texte, les couleurs et les images rendent votre contenu accessible. <!--Litmus includes accessibility testing-->
 
-* Validez la qualité de votre contenu pour évaluer la lisibilité, qui est un composant essentiel de l’accessibilité. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
+* Validez la qualité de votre contenu pour évaluer la lisibilité, qui est un composant essentiel de l’accessibilité.[En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
 
 * Envoyez des BAT pour tester le rendu de votre contenu avant de l’envoyer à votre audience réelle. [Voici comment procéder](../preview-test/test-deliveries.md)
 
@@ -237,8 +236,8 @@ Ajoutez des `role="presentation"` (ou des `role="none"`) aux tableaux de disposi
 </table>
 ```
 
-Les lecteurs d’écran lisent :
-« Bonjour le monde. Bienvenue dans notre newsletter. » *(Aucune mention de lignes, colonnes ou tableau)*
+Les lecteurs d’écran lisent :
+« Bonjour le monde.Bienvenue dans notre newsletter. » *(Aucune mention de lignes, colonnes ou tableau)*
 
 +++
 
@@ -274,8 +273,8 @@ Les lecteurs d’écran lisent :
 </table> 
 ```
 
-Les lecteurs d’écran lisent :
-« Tableau avec 2 colonnes et 3 lignes. »
+Les lecteurs d’écran lisent :
+« Tableau avec 2 colonnes et 3 lignes. »
 
 « Nom, Alice. Score, 95. »
 
@@ -305,8 +304,8 @@ Utilisez le Concepteur d’e-mail pour [ajouter un lien](message-tracking.md#ins
 </p>
 ```
 
-Les lecteurs d’écran lisent :
-« Lien, notes de mise à jour d’août. »
+Les lecteurs d’écran lisent :
+« Lien, notes de mise à jour d’août. »
 
 +++
 
@@ -320,8 +319,8 @@ Les lecteurs d’écran lisent :
 </p>
 ```
 
-Les lecteurs d’écran lisent :
-« Lien, cliquez ici. » *(Ne fournit aucun contexte en dehors de l’ordre de lecture)*
+Les lecteurs d’écran lisent :
+« Lien, cliquez ici. »*(Ne fournit aucun contexte en dehors de l’ordre de lecture)*
 
 +++
 

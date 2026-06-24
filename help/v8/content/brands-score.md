@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 511
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 37%
 >
 >Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant IA. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-La fonction de révision du contenu fournit des outils d’évaluation complets permettant de mesurer la conformité de vos campagnes avec les directives de votre marque et de maintenir les normes de qualité du contenu dans toutes les communications :
+La fonction de révision du contenu fournit des outils d’évaluation complets permettant de mesurer la conformité de vos campagnes avec les directives de votre marque et de maintenir les normes de qualité du contenu dans toutes les communications :
 
-* **Alignement des marques** : examinez et gérez le contenu qui respecte les directives de votre marque. Cela garantit la cohérence du ton, du message et de l’identité visuelle dans vos campagnes par e-mail.
-* **Vérification de la qualité** : validez votre contenu avant sa mise en ligne pour maintenir des normes élevées et l’intégrité de la marque.
+* **Alignement sur la marque** : vérifier et gérer du contenu conforme à vos directives de marque.Cela garantit la cohérence du ton, du message et de l’identité visuelle dans vos campagnes par e-mail.
+* **Vérification de la qualité** : validez votre contenu avant sa mise en ligne pour maintenir des normes élevées et l’intégrité de la marque.
 
 ## Valider le contenu avec l’alignement sur la marque {#validate-content}
 
@@ -62,15 +62,15 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
 >[!NOTE]
 >
->L’évaluation de la qualité du contenu est indépendante des directives de la marque. Même si une marque est sélectionnée dans le menu déroulant, ses directives ne sont pas appliquées au contrôle qualité. La sélection de la marque n’est pertinente que pour la notation de l’alignement de la marque.
+>L’évaluation de la qualité du contenu est indépendante des directives de la marque.Même si une marque est sélectionnée dans le menu déroulant, ses directives ne sont pas appliquées au contrôle qualité.La sélection de la marque n’est pertinente que pour la notation de l’alignement de la marque.
 
 Outre l’alignement de la marque, vous pouvez évaluer la qualité générale du contenu afin d’identifier les problèmes potentiels de lisibilité, de cohésion du contenu et d’efficacité, indépendamment des directives de votre marque.
 
-Pour évaluer la qualité de votre contenu :
+Pour évaluer la qualité de votre contenu :
 
-1. Créez votre [&#x200B; diffusion e-mail &#x200B;](../email/create-email.md).
+1. Créez votre [diffusion par e-mail](../email/create-email.md).
 
-1. Ouvrez le menu **[!UICONTROL Alignement des marques]** dans le Designer Email.
+1. Ouvrez le menu **[!UICONTROL Alignement sur la marque]** dans le Concepteur d’e-mail.
 
    ![](assets/quality-score-1.png)
 
@@ -82,21 +82,21 @@ Pour évaluer la qualité de votre contenu :
 
    ![](assets/quality-score-3.png)
 
-1. Cliquez sur l’icône ![Plein écran pour obtenir des informations détaillées](assets/do-not-localize/Smock_FullScreen_18_N.svg "Plein écran") pour obtenir une vue détaillée de votre score de qualité.
+1. Cliquez sur l’![icône Plein écran pour obtenir des informations détaillées](assets/do-not-localize/Smock_FullScreen_18_N.svg "Plein écran") pour obtenir une vue détaillée de votre score de qualité.
 
    ![](assets/quality-score-4.png)
 
-1. Sélectionnez un élément avec indicateur pour afficher des commentaires spécifiques et des suggestions d’amélioration exploitables. Les scores sont basés sur les catégories suivantes :
+1. Sélectionnez un élément avec indicateur pour afficher des commentaires spécifiques et des suggestions d’amélioration exploitables.Les scores sont basés sur les catégories suivantes :
 
-   * **[!UICONTROL Efficacité de CTA]** : évalue dans quelle mesure votre call-to-action motive les lecteurs à effectuer l’action souhaitée.
-   * **[!UICONTROL Objet]** : évalue la clarté, la pertinence et la qualité pour attirer l’attention afin d’encourager les ouvertures d’e-mails.
-   * **[!UICONTROL Lisibilité]** : mesure à quel point votre contenu est facile à comprendre et attrayant pour les lecteurs et lectrices.
-   * **[!UICONTROL Vérification anti-spam]** : identifie les déclencheurs de spam courants susceptibles d&#39;avoir un impact sur la délivrabilité.
-   * **[!UICONTROL Cohésion du contenu]** : garantit le bon déroulement de votre contenu et le respect des rubriques.
-   * **[!UICONTROL Relecture]** : vérifie les problèmes d’orthographe, de grammaire et de clarté.
+   * **[!UICONTROL Efficacité de CTA]** : évalue dans quelle mesure votre appel à l’action motive les lecteurs et lectrices à effectuer l’action souhaitée.
+   * **[!UICONTROL Objet]** : évalue la clarté, la pertinence et la qualité pour attirer l’attention afin d’encourager les ouvertures d’e-mails.
+   * **[!UICONTROL Lisibilité]** : mesure à quel point votre contenu est facile à comprendre et attrayant pour les lecteurs et lectrices.
+   * **[!UICONTROL Vérification anti-spam]** : identifie les déclencheurs de spam courants susceptibles d&#39;avoir un impact sur la délivrabilité.
+   * **[!UICONTROL Cohésion du contenu]** : garantit le bon déroulement de votre contenu et le respect des rubriques.
+   * **[!UICONTROL Relecture]** : vérifie les problèmes d’orthographe, de grammaire et de clarté.
 
    ![](assets/quality-score-5.png)
 
 1. Modifiez votre contenu en fonction des recommandations afin d’améliorer la lisibilité, la cohésion du contenu et la qualité globale.
 
-1. Cliquez sur **[!UICONTROL Réévaluer le score]** après avoir apporté des modifications pour actualiser votre score de qualité.
+1. Cliquez sur **[!UICONTROL Réévaluer le score]** après avoir apporté des modifications pour actualiser votre score d’alignement.

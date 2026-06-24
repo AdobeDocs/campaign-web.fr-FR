@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/U-EF1-B9KZ1bbmh5Khlw-89zuo5garZiWeC-lHx
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 379
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Deux types de fragments sont disponibles :
 
   >[!AVAILABILITY]
   >
-  >Cette fonctionnalité nécessite une mise à jour de Campaign v8.6.4. Pour en savoir plus, consultez les notes de mise à jour de la console cliente [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
+  >Cette fonctionnalité nécessite une mise à jour vers Campaign v8.6.4.Pour en savoir plus, consultez les [notes de mise à jour de la console cliente Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Explorons plus en détail
 
@@ -55,7 +55,7 @@ Maintenant que vous connaissez le b.a.-ba des fragments de contenu et leur utili
 </td>
 <td>
 <a href="use-visual-fragments.md">
-<img alt="Ajouter des fragments visuels à vos e-mails" src="assets/do-not-localize/visual.png">
+<img alt="Ajout de fragments visuels à vos e-mails" src="assets/do-not-localize/visual.png">
 </a>
 <div><a href="use-visual-fragments.md"><strong>Ajouter des fragments visuels à vos e-mails</strong>
 </div>
@@ -63,7 +63,7 @@ Maintenant que vous connaissez le b.a.-ba des fragments de contenu et leur utili
 </td>
 <td>
 <a href="use-expression-fragments.md">
-<img alt="Ajouter des fragments d’expression à l’éditeur d’expression" src="assets/do-not-localize/expression.png">
+<img alt="Ajout de fragments d’expression à l’éditeur d’expression" src="assets/do-not-localize/expression.png">
 </a>
 <div>
 <a href="use-expression-fragments.md"><strong>Utiliser des fragments d’expression dans l’éditeur d’expression</strong></a>

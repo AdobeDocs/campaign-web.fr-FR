@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 337
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ Adobe Campaign Web fournit des filtres dans chaque liste d’objets, ce qui vous
 
 >[!IMPORTANT]
 >
->Une toute nouvelle interface pour Query Modeler est disponible. Le nouveau créateur de règles vous permet de créer votre requête plus facilement grâce à son interface simplifiée. Pour passer à cette expérience, appuyez sur le bouton de basculement dans le coin supérieur droit. Vous pouvez revenir au modèle de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le requêteur dans cette nouvelle interface.
->![Image illustrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
+>Une toute nouvelle interface pour le concepteur de requête est disponible. Le nouveau créateur de règles vous permet de créer votre requête plus facilement grâce à son interface simplifiée. Pour passer à cette nouvelle expérience, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au Concepteur de requête classique à tout moment en cliquant sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes qu’avec le Concepteur de requête dans cette nouvelle interface.
+>![Image montrant le bouton (bascule) pour activer la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Appliquer des filtres {#apply}
 

@@ -8,8 +8,8 @@ product_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 3911
+workflow-type: ht
+source-wordcount: 3863
 ht-degree: 100%
 
 ---
@@ -239,8 +239,8 @@ Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre co
 
 ## MySQL
 
-Le compte externe MySQL permet de connecter l’instance Campaign à la base de données externe MySQL.
-Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe MySQL.
+Le compte externe MySQL vous permet de connecter l’instance Campaign à la base de données externe MySQL.
+Dans l’interface d’utilisation web d’Adobe Campaign, configurez votre compte externe MySQL.
 
 1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et MySQL comme **[!UICONTROL type de fournisseur]**.
 
@@ -303,7 +303,7 @@ Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre co
 ## ODBC (Sybase ASE, Sybase IQ).
 
 Le compte externe ODBC (Sybase ASE, Sybase IQ) permet de connecter l’instance Campaign à la base de données externe ODBC (Sybase ASE, Sybase IQ).
-Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe ODBC (Sybase ASE, Sybase IQ).
+Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe ODBC (Sybase ASE, Sybase IQ).
 
 1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et ODBC (Sybase ASE, Sybase IQ) comme **[!UICONTROL type de fournisseur]**.
 
@@ -370,7 +370,7 @@ Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre co
 ## Oracle
 
 Le compte externe Oracle permet de connecter l’instance Campaign à la base de données externe Oracle.
-Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe Oracle.
+Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe Oracle.
 
 1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et Oracle comme **[!UICONTROL type de fournisseur]**.
 
@@ -399,7 +399,7 @@ Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre co
 ## PostgreSQL
 
 Le compte externe PostgreSQL permet de connecter l’instance Campaign à la base de données externe PostgreSQL.
-Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe PostgreSQL.
+Dans l’interface d’utilisation d’Adobe Campaign Web, configurez votre compte externe PostgreSQL.
 
 1. [Créez votre compte externe](external-account.md), puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL type]** de votre compte externe et PostgreSQL comme **[!UICONTROL type de fournisseur]**.
 

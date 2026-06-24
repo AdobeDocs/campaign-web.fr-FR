@@ -10,9 +10,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1695
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ Avant d’envoyer votre e-mail, vous pouvez le prévisualiser et le tester pour 
 
 Dans ce cas d’utilisation, vous prévisualisez l’e-mail et envoyez des BAT à des adresses e-mail spécifiques tout en empruntant l’identité de certains des profils ciblés.
 
-Vous pouvez également valider la qualité de votre contenu pour vérifier la lisibilité, l’efficacité de CTA, la qualité de l’objet, etc. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
+Vous pouvez également valider la qualité de votre contenu pour vérifier la lisibilité, l’efficacité CTA, la qualité de l’objet, etc.[En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
 
 Des informations supplémentaires sur la prévisualisation des e-mails et l’envoi de BAT sont disponibles dans [cette section](../preview-test/preview-test.md).
 

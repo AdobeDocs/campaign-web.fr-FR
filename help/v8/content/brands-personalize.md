@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Gérer la marque
-description: Découvrez comment personnaliser vos directives de marque
+description: Découvrez comment personnaliser les consignes de votre marque.
 role: User
 level: Beginner, Intermediate
 exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
@@ -16,23 +16,23 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 997
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Personnaliser votre marque {#brands-personalize}
 
-Pour créer un kit de marque complet qui assure la cohérence de l’ensemble de votre contenu et de vos canaux, configurez les quatre onglets suivants, chacun se concentrant sur un aspect différent de l’identité de votre marque :
+Pour créer un kit de marque complet qui assure la cohérence de l’ensemble de votre contenu et de vos canaux, configurez les quatre onglets suivants. Chaque onglet se concentre sur un aspect différent de l’identité de votre marque :
 
-* **[!UICONTROL À propos de la marque]** établit l&#39;identité et les valeurs fondamentales de votre marque.
-* Le **[!UICONTROL style d’écriture]** définit les normes de langue et de contenu.
-* **[!UICONTROL Contenu visuel]** définit les directives relatives à l’imagerie et à la conception.
+* **[!UICONTROL À propos de la marque]** définit l’identité et les valeurs fondamentales de votre marque.
+* **[!UICONTROL Style d’écriture]** définit les normes de langue et de contenu.
+* **[!UICONTROL Contenu visuel]** définit les consignes relatives à l’imagerie et à la conception.
 
 <!-- * **[!UICONTROL Colors]** manages your brand's color system and usage. -->
 
-Une fois la configuration effectuée, vous pouvez utiliser vos directives de marque pour valider la qualité du contenu et l’alignement de la marque. [En savoir plus sur la validation de la qualité du contenu](brands-score.md#validate-quality)
+Une fois la configuration effectuée, vous pouvez utiliser les consignes de la marque pour valider la qualité du contenu et l’alignement sur la marque.[Découvrez-en plus sur la validation de la qualité du contenu](brands-score.md#validate-quality).
 
 ## À propos de la marque {#about-brand}
 

@@ -8,9 +8,9 @@ TQID: https://experienceleague.adobe.com/ho7HNrKlPzv5i-ar4T-GZpVQPLpHzzbH4xrAUdJ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 180
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 60%
 
 * Effectuez le suivi après une diffusion précédente.
 
-  Une diffusion « Offre sports d&#39;été » est envoyée. Quatre jours après la diffusion, deux autres diffusions sont envoyées. L’une d’elles est « Offre sports nautiques », l&#39;autre est une relance de la première diffusion « Offre sports d&#39;été ». La diffusion « Offre sports nautiques » est envoyée aux destinataires qui ont cliqué sur le lien « sports nautiques » dans la première diffusion. Ces clics indiquent que le destinataire est intéressé par la rubrique. Il est logique de les orienter vers des offres similaires. Cependant, les destinataires qui n’ont pas cliqué dans l’« Offre de sports d’été » recevront à nouveau le même contenu.
+  Une diffusion « Offre sports d&#39;été » est envoyée.Quatre jours après la diffusion, deux autres diffusions sont envoyées.L’une d’elles est « Offre sports nautiques », l&#39;autre est une relance de la première diffusion « Offre sports d&#39;été ». La diffusion « Offre sports nautiques » est envoyée aux destinataires qui ont cliqué sur le lien « sports nautiques » dans la première diffusion.Ces clics indiquent que la personne destinataire est intéressée par le sujet.Il est logique de l’orienter vers des offres similaires.Cependant, les destinataires qui n’ont pas cliqué sur l’« Offre de sports d’été » recevront à nouveau le même contenu.

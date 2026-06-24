@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1038
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 
    >[!AVAILABILITY]
    >
-   >Les fragments visuels nécessitent une mise à jour de Campaign v8.6.4. Pour en savoir plus, consultez les notes de mise à jour de la console cliente [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
+   >Les fragments visuels nécessitent une mise à jour vers Campaign v8.6.4.Pour en savoir plus, consultez les [notes de mise à jour de la console cliente Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Cliquez sur le bouton **Créer**.
 
@@ -76,8 +76,8 @@ Pour créer un modèle de contenu à partir de zéro, procédez comme suit.
 1. Lorsque le contenu est prêt, cliquez sur **Enregistrer**.
 
 Ce fragment de contenu est maintenant prêt à être utilisé lors de la création d’une diffusion ou d’un [modèle de contenu](../content/use-email-templates.md) dans Campaign. Découvrez comment utiliser des fragments d’expression et visuels dans ces sections :
-* [Ajouter des fragments visuels à vos e-mails](use-visual-fragments.md)
-* [Ajouter des fragments d’expression à l’éditeur d’expression](use-expression-fragments.md)
+* [Ajout de fragments visuels à vos e-mails](use-visual-fragments.md)
+* [Ajout de fragments d’expression à l’éditeur d’expression](use-expression-fragments.md)
 
 ## Enregistrer du contenu en tant que fragment visuel {#save-as-fragment}
 

@@ -14,9 +14,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 3516
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: 3482
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Dans le champ **[!UICONTROL Type de poids]**, trois options sont disponibles :
 * **[!UICONTROL Dépend du destinataire]**
 * **[!UICONTROL Défini dans chaque règle]**
 
-Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Les poids peuvent être définis ou calculés au moyen d’une formule en fonction des destinataires. Vous pouvez par exemple définir le poids d’une diffusion en fonction des centres d’intérêt des destinataires.
+Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité.Par défaut, le poids d’une diffusion est défini sur 5.Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Les poids peuvent être définis ou calculés au moyen d’une formule en fonction des destinataires.Par exemple, vous pouvez définir le poids d’une diffusion en fonction des centres d’intérêt d’un ou d’une destinataire.
 
 Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode d’évaluation de la cible.
 
@@ -109,7 +109,7 @@ Le champ **[!UICONTROL Importance de la personne destinataire]** est une formule
 >title="Paramètres d’audience de la diffusion"
 >abstract="Sélectionnez un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Vous pouvez également définir les paramètres d’exclusion de la diffusion."
 
-Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Le mapping de ciblage est le type de données qu’une opération traite. Elle permet de définir la population ciblée : destinataires, titulaires d&#39;un contrat, opérateurs, abonnés, etc. [En savoir plus sur les mapping de ciblage](../audience/targeting-dimensions.md).
+Dans cette section, vous pouvez sélectionner un **mapping de ciblage** parmi ceux disponibles. Les mappings de ciblage sont définis dans la console Adobe Campaign v8. Le mapping de ciblage est le type de données qu’une opération traite. Il permet de définir la population ciblée : personnes destinataires, personnes bénéficiaires de contrats, opérateurs et opératrices, personnes abonnées, etc. [En savoir plus sur les mappings de ciblage](../audience/targeting-dimensions.md).
 
 Dans le champ **[!UICONTROL Exclusion]**, vous pouvez choisir d’exclure des profils qui ne souhaitent plus être contactés ou qui sont mis en quarantaine. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=fr){target="_blank"}
 
@@ -240,7 +240,7 @@ En savoir plus sur la période de validité des diffusions dans la [documentatio
 
 ### Gestion des pages miroir (canal e-mail) {#mirror}
 
-La page miroir est une page HTML accessible en ligne via un navigateur web. Son contenu est identique à celui de l’e-mail. Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’e-mail.
+La page miroir est une page HTML accessible en ligne via un navigateur webet dont le contenu est identique à celui de l’e-mail.Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’e-mail.
 
 Outre le mode par défaut, les options disponibles sont les suivantes :
 
@@ -350,7 +350,7 @@ Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliqu
 
 * **[!UICONTROL Paramètres SMPP facultatifs (TLV)]**
 
-  Vous pouvez spécifier des champs supplémentaires à envoyer en tant que paramètres SMPP facultatifs (TLV). Ces champs supplémentaires sont envoyés avec chaque MT et les champs personnalisés permettent d’avoir des valeurs différentes pour chaque MT.
+  Vous pouvez spécifier des champs supplémentaires à envoyer en tant que paramètres SMPP facultatifs (TLV). Ces champs supplémentaires sont envoyés avec chaque MT et les champs personnalisés permettent d&#39;avoir des valeurs différentes pour chaque MT.
 Le tableau répertorie les paramètres facultatifs à envoyer avec chaque message. Les colonnes contiennent les informations suivantes :
 
    * **Libellé** : il s’agit d’un libellé de forme libre facultatif. Il n’est pas transmis au fournisseur. Vous pouvez fournir une description textuelle du paramètre.

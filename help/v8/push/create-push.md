@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/J2FB-oR-oGwBw18HLWt3F3nzu-mHXVnRlyPlSr5
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 779
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Configurez vos paramètres de diffusion comme indiqué ci-dessous :
    * **[!UICONTROL Nature]** : indiquez la nature de la diffusion à des fins de classification.
    +++
 
-1. Vous pouvez configurer votre notification push en tant que diffusion multilingue pour envoyer des messages en fonction de la langue préférée d&#39;un profil. [En savoir plus](../msg/multilingual.md).
+1. Vous pouvez configurer votre notification push en tant que diffusion multilingue afin d’envoyer des messages en fonction des préférences linguistiques du profil.[En savoir plus](../msg/multilingual.md).
 
 ## Sélectionner l’audience de votre diffusion par notification push {#create-audience-push}
 
@@ -72,7 +72,7 @@ Vous devez d’abord sélectionner l’application, puis affiner l’audience de
 
    ![Capture d’écran montrant la sélection de l’audience pour la diffusion de la notification push](assets/push_create_2.png){zoomable="yes"}
 
-1. Sélectionnez une audience existante ou créez votre propre audience pour affiner la population cible de votre diffusion de notification push. Pour les notifications push, la [dimension cible](../audience/about-recipients.md#targeting-dimensions) par défaut est **Application abonnée** (nms:appSubscriptionRcp), qui est liée au tableau des destinataires.
+1. Sélectionnez une audience existante ou créez votre propre audience pour affiner la population cible de votre diffusion de notification push. Pour la notification push, la [dimension cible](../audience/about-recipients.md#targeting-dimensions) par défaut est **Applications abonnées** (nms:appSubscriptionRcp), qui est liée à la table des personnes destinataires.
 
    Découvrez comment sélectionner une audience existante sur [cette page](../audience/add-audience.md).
 

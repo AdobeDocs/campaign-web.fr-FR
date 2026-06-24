@@ -9,7 +9,7 @@ product_v2:
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
 source-wordcount: 518
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Pour créer votre propre requête, procédez comme suit :
 1. Sélectionnez la **Dimension de filtrage** en cliquant sur l’icône en regard de la dimension de ciblage. La dimension de filtrage permet d’appliquer des filtres à la population ciblée en référençant des critères associés sans modifier la dimension de ciblage principale. [En savoir plus sur les dimensions de ciblage](../../audience/targeting-dimensions.md#filtering)
 1. Cliquez sur **Continuer**.
 1. Utilisez le concepteur de requêtes pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
-1. Utilisez la section **Données d’enrichissement** pour améliorer les données ciblées avec des informations supplémentaires provenant de la base de données, par exemple des références de contrat ou des abonnements à des newsletters. Ces données sont stockées avec l’audience dans le workflow **table de travail** et sont disponibles pour les activités qui suivent. Vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection ou des expressions et accéder aux options avancées. Pour obtenir des étapes détaillées et des exemples, voir [&#x200B; Ajouter des données d’enrichissement &#x200B;](enrichment.md#enrichment-add).
+1. Utilisez la section **Enrichissement des données** pour enrichir les données ciblées avec des informations supplémentaires provenant de la base de données, par exemple, les références de contrat ou les abonnements à la newsletter. Ces données sont stockées avec l’audience dans la **table de travail** de workflows et sont disponibles pour les activités qui suivent. Vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection ou des expressions et accéder aux options avancées. Pour obtenir des étapes détaillées et des exemples, consultez [Ajouter des données d’enrichissement &#x200B;](enrichment.md#enrichment-add).
 
 >[!TAB Lecture d’audience]
 

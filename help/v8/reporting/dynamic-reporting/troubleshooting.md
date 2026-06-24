@@ -5,8 +5,8 @@ audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
-source-wordcount: '1248'
+workflow-type: ht
+source-wordcount: '1146'
 ht-degree: 100%
 
 ---
@@ -21,14 +21,14 @@ Actuellement, les rapports dynamiques ne sont disponibles qu’en anglais.
 
 ## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne. {#unique-open-clicks-no-match}
 
-Il s&#39;agit d&#39;un comportement attendu.
-Prenons l&#39;exemple suivant pour expliquer ce comportement.
+Il s’agit d’un comportement attendu.
+Prenons l’exemple suivant pour expliquer ce comportement.
 
 Un e-mail est envoyé aux profils P1 et P2.
 
 P1 ouvre l&#39;e-mail deux fois le premier jour, puis trois fois le jour suivant.
 
-P2, quant à lui, ouvre l&#39;e-mail une fois le premier jour et ne le rouvre pas les jours suivants.
+P2, quant à lui, ouvre l’e-mail une fois le premier jour et ne le rouvre pas les jours suivants.
 Voici une représentation visuelle de l’interaction des profils avec l’e-mail envoyé :
 
 <table> 
@@ -106,10 +106,10 @@ Ces occurrences sont ajoutées car **&quot;un clic sur un e-mail implique l&#39;
 
 ## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ? {#counts-recurring-deliveries}
 
-Lors de l&#39;utilisation de diffusions récurrentes et transactionnelles, les décomptes sont attribués aux diffusions parents et enfants.
-Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s’exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
-Supposons que seule une personne a ouvert toutes les diffusions enfants à plusieurs reprises. Dans ce cas, chaque diffusion enfant récurrente affichera le nombre 1 d&#39;**[!UICONTROL Ouverture.]**
-Toutefois, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent aura également un décompte de 1 pour les **[!UICONTROL ouvertures uniques]**.
+Lorsque vous travaillez avec des diffusions récurrentes et transactionnelles, les nombres sont attribués aux diffusions parent et enfant.
+Prenons l’exemple d’une diffusion récurrente nommée **R1** définie pour s’exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
+Supposons qu’une seule personne ait ouvert toutes les diffusions enfants plusieurs fois. Dans ce cas, les diffusions enfants récurrentes individuelles affichent le nombre **[!UICONTROL Ouverture]** de 1 pour chacune d’elles.
+Cependant, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent a également **[!UICONTROL Ouverture unique]** défini sur 1.
 
 Les rapports doivent se présenter comme suit :
 

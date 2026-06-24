@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 542
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Les utilisateurs et utilisatrices peuvent saisir les détails manuellement ou ch
 
 Vos directives de marque sont désormais accessibles à partir du menu déroulant **[!UICONTROL Marque]** dans le menu de l’assistant IA. Cela permet à l’assistant IA de générer du contenu et des ressources alignés sur vos spécifications. [En savoir plus sur l’assistant IA](../content/generative-gs.md)
 
-Vous pouvez également utiliser les directives de votre marque pour évaluer la qualité de votre contenu et l’alignement de votre marque. [En savoir plus sur la validation de la qualité du contenu](brands-score.md#validate-quality)
+Vous pouvez également utiliser les directives de votre marque pour évaluer la qualité de votre contenu et l’alignement sur votre marque.[En savoir plus sur la validation de la qualité du contenu](brands-score.md#validate-quality)
 
 ![Menu de l’assistant IA avec la liste déroulante Marque](assets/brands_6.png)
 

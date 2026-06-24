@@ -20,16 +20,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 2111
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 2055
+ht-degree: 100%
 
 ---
 
 # Bonnes pratiques relatives aux prompts de l’assistant IA {#ai-assistant-prompting-guide}
 
-Ce guide vous aide à structurer les demandes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de vos campagnes.
-Découvrez comment écrire des prompts efficaces qui permettent à l’assistant IA de générer du contenu marketing de haute qualité, conforme à votre marque et adapté à vos objectifs.
+Ce guide vous aide à structurer les demandes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit des messages qui correspondent aux consignes de votre marque, aux besoins de l’audience et aux objectifs de vos campagnes.
+Découvrez comment rédiger des prompts efficaces pour que l’assistant IA génère du contenu marketing de qualité, conforme à la marque et adapté à vos objectifs.
 
 ## Utiliser le cadre CO-STAR {#costar-framework}
 
@@ -129,19 +129,19 @@ Ces demandes ne sont pas prises en charge et doivent être traitées par d’aut
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&check; **Audience cible définie** : indique la population, le rôle ou le segment.
+&amp;check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&check; **Alignement du type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&amp;check; **Alignement sur le type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&check; **Les sélections déroulantes configurées** : La tonalité, la stratégie et le paramètre régional sont sélectionnés, ne les incluez pas dans l’invite.
+&amp;check; **Sélections de liste déroulante configurées** : le ton, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
 
-&check; **Focus du document spécifié** : met en surbrillance le contenu ou les sections à référencer.
+&amp;check; **Focalisation du document spécifiée** : met en évidence le contenu ou les sections à référencer.
 
-&check; **Marque appliquée** : les directives de marque appropriées sont sélectionnées.
+&amp;check; **Marque appliquée** : les consignes de marque appropriées sont sélectionnées.
 
-&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -151,11 +151,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&check; « Augmentez les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
+&amp;check; « Stimule les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&check; « Générer des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % » qui aura lieu le 15 mars »
+&amp;check; « Génère des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
 
-&check; « Promouvoir notre réduction de 25 % pour les vacances à durée limitée sur les abonnements Premium, jusqu’au 25 décembre »
+&amp;check; « Fais la promotion de notre réduction à durée limitée de 25 % sur les abonnements Premium, valable jusqu’au 25 décembre »
 
 **Exemples de ce qu’il faut éviter :**
 
@@ -167,16 +167,16 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 ### Structurer votre objectif
 
-Fournissez toujours le contexte et la proposition de valeur afin que l’IA puisse générer du contenu pertinent.
-Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **Action + Produit/Service + Valeur/Avantage + Urgence/Contexte**
+Fournissez toujours du contexte ainsi que la proposition de valeur afin que l’IA génère du contenu pertinent.
+Utilisez cette formule pour rédiger des objectifs efficaces : **Action + Produit/Service + Valeur/Avantage + Urgence/Contexte**
 
 **Exemples de bons objectifs :**
 
-&check; « Encouragez les téléchargements de notre nouvelle application mobile qui aide les utilisateurs à suivre les habitudes de vie durables avec des recommandations personnalisées et écologiques »
+&amp;check; « Encourage les téléchargements de notre nouvelle application mobile qui permet aux utilisateurs et aux utilisatrices de suivre des habitudes de vie durables avec des recommandations personnalisées et écoresponsables »
 
-&check; « Promouvoir l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les professionnels du marketing »
+&amp;check; « Fais la promotion de l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les spécialistes marketing »
 
-&check; « Attirez l’attention à notre événement de lancement de produit présentant l’assistant d’écriture d’IA révolutionnaire qui vous permet de gagner plus de 5 heures par semaine »
+&amp;check; « Encourage la participation à notre événement de lancement de produit présentant l’assistant d’écriture IA révolutionnaire qui permet de gagner plus de 5 heures par semaine »
 
 **Exemples de ce qu’il faut éviter :**
 
@@ -279,7 +279,7 @@ Utilisez le tableau ci-dessous pour explorer chaque ton en détail, y compris qu
 >
 >Si vous avez déjà chargé une ressource de marque par l’intermédiaire du menu **Ressources de marque**, vous n’avez pas besoin de la référencer dans votre prompt. Le système utilise automatiquement tous les documents sélectionnés.
 
-Les ressources de marque fournissent des informations factuelles qui enrichissent votre contenu généré avec des détails précis et spécifiques.
+Les ressources de la marque fournissent des informations factuelles qui permettent d’enrichir le contenu généré avec des détails précis.
 Lorsque vous chargez des documents généraux tels que des brochures de produit, ajoutez au prompt les parties sur lesquelles vous souhaitez mettre l’accent :
 
 * **Au lieu de** _« Utilise la brochure produit »_, **écrivez plutôt** _« Concentre-toi sur les fonctionnalités de sécurité avancées et les certifications de conformité, en particulier la conformité à la norme SOC 2 et le chiffrement des données »_.

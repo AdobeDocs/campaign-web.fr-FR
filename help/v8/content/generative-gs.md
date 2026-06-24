@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 887
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 84%
 
 À mesure que le secteur du marketing devient plus compétitif, les marques cherchent des moyens efficaces de générer rapidement du contenu percutant. L’Assistant IA dans Adobe Campaign Web, optimisé par Microsoft Azure OpenAI et Adobe Firefly, est la fonctionnalité de génération de contenu IA d’Adobe qui révolutionne la manière dont les spécialistes du marketing créent du contenu professionnel et cohérent pour les marques, sur des canaux tels que les e-mails, les SMS et les notifications push. Grâce à des modèles avancés de GenAI et à une compréhension approfondie des directives de la marque, l’Assistant IA génère automatiquement du contenu personnalisé, attrayant et efficace en fonction de l’objectif marketing, avec un contenu optimisé pour les styles, les mises en page et le ton de la marque, et bien plus encore.
 
-L’assistant d’IA prend en charge la génération **dans plusieurs langues** ce qui vous permet d’atteindre et d’impliquer diverses audiences internationales. L’assistant AI est disponible dans les langues suivantes :
+L’assistant IA prend en charge la génération **dans plusieurs langues**, ce qui vous permet d’atteindre et d’impliquer diverses audiences internationales.L’assistant IA est disponible dans les langues suivantes :
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -84,19 +84,19 @@ L’Assistant IA simplifie la création et l’exécution de campagnes marketin
 
 L’assistant IA pour les e-mails, les notifications push, les pages de destination et les SMS est désormais disponible en disponibilité générale (GA) pour l’ensemble des utilisateurs et des utilisatrices. Les autorisations et les étapes requises pour accorder l’accès aux utilisateurs et utilisatrices sont détaillées ci-dessous.
 
-+++ Découvrez comment attribuer des autorisations liées à la génération de contenu
++++ En savoir plus sur l’attribution des autorisations liées à la génération de contenu
 
-1. **Accédez à [Admin Console](https://adminconsole.adobe.com/)**, accédez au menu **Produits**, puis sélectionnez **Adobe Campaign Managed Cloud**.
+1. **Accédez à [Admin Console](https://adminconsole.adobe.com/)**, au menu **Produits**, puis sélectionnez **Adobe Campaign Managed Cloud**.
 
-1. Accédez à l’instance pour laquelle vous souhaitez accorder des autorisations, puis cliquez sur **Nouveau profil** pour créer un profil de produit avec le nom de profil de produit spécifique suivant :
+1. Accédez à l’instance pour laquelle vous souhaitez accorder des autorisations, puis cliquez sur **Nouveau profil** pour créer un profil de produit avec le nom de profil de produit spécifique suivant :
 
    `Campaign - <instance-name> - AIAssistant`
 
-1. Configurez le profil de produit avec les autorisations requises pour l’accès à l’assistant AI.
+1. Configurez le profil de produit avec les autorisations requises pour l’accès à l’assistant IA.
 
-1. **Ajouter des utilisateurs ou des groupes d’utilisateurs**. Choisissez l’une des options suivantes :
-   * **Ajouter des utilisateurs individuels** : ajoutez directement les utilisateurs requis au profil de produit.
-   * **Ajouter des groupes d’utilisateurs** : créez un groupe d’utilisateurs, ajoutez des utilisateurs à ce groupe, puis ajoutez le groupe d’utilisateurs au profil de produit.
+1. **Ajoutez des personnes ou des groupes d’utilisateurs et d’utilisatrices**.Choisissez l’une des options suivantes :
+   * **Ajouter des personnes individuelles** : ajoutez les personnes requises directement à ce profil de produit.
+   * **Ajouter des groupes d’utilisateurs et d’utilisatrices** : créez un groupe d’utilisateurs et d’utilisatrices, ajoutez des personnes à ce groupe, puis ajoutez le groupe au profil de produit.
 
 Découvrez comment définir des autorisations dans Campaign dans [cette section](../get-started/permissions.md).
 

@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 552
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
 1. Activez l’option **[!UICONTROL Activer la population témoin]** pour définir une population témoin et mesurer l’impact de votre diffusion. Les messages ne sont pas envoyés à cette population témoin. Vous pouvez ainsi comparer le comportement de la population qui a reçu le message avec celui des contacts qui ne l’ont pas reçu. [En savoir plus](../audience/control-group.md)
 
-1. Vous pouvez configurer votre diffusion par SMS en tant que diffusion multilingue afin d’envoyer des messages en fonction de la langue préférée d’un profil. [En savoir plus](../msg/multilingual.md).
+1. Vous pouvez configurer votre diffusion par SMS en tant que diffusion multilingue afin d’envoyer des messages en fonction des préférences linguistiques du profil.[En savoir plus](../msg/multilingual.md).
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à concevoir le contenu de votre SMS. [En savoir plus](content-sms.md)
 

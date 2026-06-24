@@ -11,9 +11,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1500
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Pour créer une typologie, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le champ **[!UICONTROL Affinité IP]** vous permet d’associer des affinités IP à des typologies. Cela vous permet de mieux contrôler le trafic SMTP sortant en définissant des adresses IP spécifiques qui peuvent être utilisées pour chaque affinité. Par exemple, vous pouvez utiliser une affinité par pays ou sous-domaine. Vous pouvez ensuite créer une typologie par pays et lier chaque affinité à la typologie correspondante.
+   >Le champ **[!UICONTROL Affinité IP]** vous permet d’associer des affinités IP à des typologies. Cela vous permet de mieux contrôler le trafic SMTP sortant en définissant des adresses IP spécifiques qui peuvent être utilisées pour chaque affinité. Par exemple, vous pouvez utiliser une affinité par pays ou sous-domaine.Vous pouvez ensuite créer une typologie par pays et associer chaque affinité à la typologie correspondante.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la typologie.
 

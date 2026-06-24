@@ -22,7 +22,7 @@ Utilisez l’onglet **Projet** pour :
 * **Ouvrir...** : ouvre un rapport ou un modèle créé précédemment.
 * **Enregistrer sous...** : duplique les modèles pour les rendre modifiables.
 * **Actualiser le projet** : met à jour votre rapport en fonction des nouvelles données et des changements de filtre.
-* **Télécharger CSV** : exporte vos rapports sous forme de fichier CSV.
+* **Télécharger CSV** : exporte vos rapports sous forme de fichiers CSV.
 
 L’onglet **Modifier** permet les opérations suivantes :
 
@@ -66,7 +66,7 @@ La barre d&#39;outils se trouve au-dessus de votre espace de travail. Composée 
 * [Ajouter des visualisations](adding-visualizations.md)
 * [Ajouter des composants](adding-components.md)
 
-### Onglet Projet     {#project-tab}
+### Onglet Projet {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -87,7 +87,7 @@ L’onglet **Modifier** permet les opérations suivantes :
 * **Annuler** : annule la dernière action effectuée sur votre tableau de bord.
 * **Effacer tout** : supprime tous les panneaux sur votre tableau de bord.
 
-### Onglet Insérer     {#insert-tab}
+### Onglet Insérer {#insert-tab}
 
 ![](assets/tab_insert.png)
 

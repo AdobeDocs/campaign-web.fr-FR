@@ -9,7 +9,7 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3472
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Accédez aux onglets ci-dessous pour en savoir plus sur la personnalisation de c
 
 1. Définissez l’**[!UICONTROL action du clic]** associée à un clic de l’utilisateur ou de l’utilisatrice sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à lui ajouter et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
+1. Pour personnaliser davantage votre notification push, vous pouvez choisir une URL d’**[!UICONTROL image]** à ajouter à votre notification et l’**[!UICONTROL icône]** de la notification qui s’affichera sur les appareils de vos profils.
 
    ![](assets/rich_push_default_3.png)
 
@@ -101,7 +101,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action de clic]** :
 
    * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
 
@@ -192,7 +192,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action de clic]** :
 
    * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
 
@@ -238,7 +238,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action de clic]** :
 
    * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
 
@@ -277,7 +277,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action de clic]** :
 
    * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
 
@@ -319,7 +319,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action de clic]** :
 
    * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
 
@@ -361,7 +361,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action de clic]** :
 
    * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
 
@@ -403,7 +403,7 @@ Une fois que vous avez défini le contenu de votre message, vous pouvez utiliser
 
 1. Ajoutez l’URL qui définit l’**[!UICONTROL Action de clic]** associée à un clic sur votre notification. Cela détermine le comportement lorsque l’utilisateur ou l’utilisatrice interagit avec la notification, par exemple en ouvrant une fenêtre spécifique ou en effectuant une action spécifique dans votre application.
 
-1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action du clic]** :
+1. Sélectionnez le **[!UICONTROL Type de lien]** de l’URL que vous avez ajoutée au champ **[!UICONTROL Action de clic]** :
 
    * **[!UICONTROL URL web]** : les URL web orientent les utilisateurs et les utilisatrices vers du contenu en ligne. Après un clic, celles-ci entrainent l’ouverture du navigateur web par défaut de l’appareil qui accède ensuite à l’URL désignée.
 

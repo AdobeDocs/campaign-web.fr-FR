@@ -3,21 +3,21 @@ title: Créer et publier des schémas
 description: Découvrez comment créer, étendre et publier des schémas.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
 source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Créer et publier des schémas {#create-publish}
 
-## Création et gestion de schémas {#create-schemas}
+## Création et publication de schémas {#create-schemas}
 
 Vous pouvez créer des schémas, étendre les schémas existants et accéder à des bases de données externes.
 
 ### Création ou extension d’un schéma {#create-new}
 
-Pour créer ou étendre un schéma :
+Pour créer ou étendre un schéma :
 
 1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Schémas]**.
 1. Cliquez sur **[!UICONTROL Créer un schéma]**.
@@ -32,27 +32,27 @@ Pour créer ou étendre un schéma :
 
 Le schéma est créé et la structure de schéma générée s’affiche.
 
-Par défaut, le schéma est vide. Vous devez maintenant ajouter les champs que vous souhaitez inclure dans votre schéma à l’aide de l’éditeur de schémas :
+Par défaut, le schéma est vide.Vous devez maintenant ajouter les champs que vous souhaitez inclure dans votre schéma à l’aide de l’éditeur de schémas :
 
 1. Cliquez sur l’icône en forme de crayon dans la section **[!UICONTROL Contenu]** de l’écran des détails du schéma.
-2. Ajoutez les éléments nécessaires et enregistrez. Voici un exemple de structure de schéma personnalisée :
+2. Ajoutez les éléments nécessaires et enregistrez.Voici un exemple de structure de schéma personnalisée :
 
    ![Boîte de dialogue de création de schéma](assets/schemas-create3.png)
 
 Le système valide automatiquement la structure XML et génère le schéma.
 
-### Définition de l’édition de l’écran {#define-attributes}
+### Définition de la modification d’écran {#define-attributes}
 
-Après avoir créé le schéma, vous devez définir l’édition de l’écran.
+Après avoir créé le schéma, vous devez définir la modification d’écran.
 
-Pour plus d&#39;informations sur l&#39;écran de définition d&#39;écran et sur la façon d&#39;y accéder, consultez la section [Accéder à la définition d&#39;écran](schemas-browse-access.md#screen-def).
+Pour plus d’informations sur l’écran de définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
 
-Dans notre exemple, nous ajoutons simplement deux champs personnalisés :
+Dans notre exemple, nous ajoutons simplement deux champs personnalisés :
 
 1. Cliquez sur le bouton **[!UICONTROL Modification d’écran]** dans la vue des détails du schéma pour accéder à la définition d’écran.
 
 1. Cliquez sur l’icône représentant des points de suspension au-dessus du tableau **[!UICONTROL Liste de champs personnalisés]** et choisissez **[!UICONTROL Sélectionner des attributs]**.
-1. Sélectionnez les champs personnalisés à ajouter et confirmez-les.
+1. Sélectionnez les champs personnalisés à ajouter et confirmez votre choix.
 
    ![Boîte de dialogue de création de schéma](assets/schemas-create4.png)
 
@@ -64,40 +64,38 @@ Après avoir créé ou modifié un schéma, vous devez le publier pour synchroni
 
 >[!CAUTION]
 >
->La publication des modifications du schéma modifie la structure de la base de données. Assurez-vous de comprendre l’impact de ces modifications avant de confirmer la publication.
+>La publication des modifications du schéma modifie la structure de la base de données.Assurez-vous de comprendre l’impact de ces modifications avant de confirmer la publication.
 
-Pour publier vos modifications de schéma :
+Pour publier vos modifications de schéma :
 
 1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Schémas]** pour accéder à la liste des schémas.
 1. Cliquez sur **[!UICONTROL Publication]** et confirmez.
 
-   ![&#x200B; Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish1.png)
+   ![Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish1.png)
 
-1. Sélectionnez dans la liste le schéma à synchroniser.
+1. Dans la liste, sélectionnez le schéma à synchroniser.
 
-   ![&#x200B; Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish2.png)
+   ![Boîte de dialogue de publication de schéma affichant les modifications à appliquer](assets/schemas-publish2.png)
 
 1. Vérifiez le script SQL qui sera exécuté pour mettre à jour la structure de la base de données.
-1. Cliquez sur **[!UICONTROL Publier]** et confirmez pour poursuivre la publication.
+1. Cliquez sur **[!UICONTROL Publier]** et confirmez pour lancer la publication.
 
 >[!NOTE]
 >
 >Le processus peut prendre un certain temps en fonction de la taille de votre base de données et de la complexité des modifications.
 
-### Créer une entrée de navigation {#navigation}
+### Création d’une entrée de navigation {#navigation}
 
-Après avoir publié un schéma personnalisé, vous pouvez créer une entrée de navigation dans l’Explorateur pour accéder à vos données personnalisées :
+Après avoir publié un schéma personnalisé, vous pouvez créer une entrée de navigation dans l’Explorateur pour accéder à vos données personnalisées :
 
 1. Accédez au menu **[!UICONTROL Explorateur]** et sélectionnez un dossier dans lequel vous souhaitez placer votre schéma personnalisé.
-1. Cliquez sur l’icône représentant des points de suspension, puis sur **[!UICONTROL Créer un dossier]**.
-   ![Création d’une entrée de navigation pour le schéma personnalisé](assets/schemas-publish3.png)
-1. Ajoutez un libellé et choisissez votre schéma dans le champ **[!UICONTROL Type de dossier]**.
-   ![Création d’une entrée de navigation pour le schéma personnalisé](assets/schemas-publish5.png)
+1. Cliquez sur l’icône représentant des points de suspension, puis sur **[!UICONTROL Créer un dossier]**.   ![Création d’une entrée de navigation pour le schéma personnalisé](assets/schemas-publish3.png)
+1. Ajoutez un libellé et choisissez votre schéma dans le champ **[!UICONTROL Type de dossier]**.   ![Création d’une entrée de navigation pour le schéma personnalisé](assets/schemas-publish5.png)
 1. Le schéma personnalisé est désormais accessible à partir de la vue **[!UICONTROL Explorateur]**.
 
-À partir du nouveau dossier, vous pouvez :
+À partir du nouveau dossier, vous pouvez effectuer les opérations suivantes :
 
-* Afficher la liste des enregistrements dans votre schéma personnalisé.
-* Créer de nouveaux enregistrements.
-* Modifier et supprimer des enregistrements existants.
-* Personnaliser les colonnes affichées par défaut dans la vue Liste.
+* Afficher la liste des enregistrements dans votre schéma personnalisé
+* Créer de nouveaux enregistrements
+* Modifier et supprimer des enregistrements existants
+* Personnaliser les colonnes affichées par défaut dans la vue Liste

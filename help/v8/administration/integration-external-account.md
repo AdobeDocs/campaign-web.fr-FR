@@ -8,9 +8,9 @@ product_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 213
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Pour configurer le compte externe **[!UICONTROL Adobe Experience Cloud]**, ren
 
 * **[!UICONTROL Serveurs IMS]**
 
-  URL de votre serveur IMS. Assurez-vous que les instances d’évaluation et de production pointent sur le même point d’entrée de production IMS.
+  URL de votre serveur IMS.Assurez-vous que les instances d’évaluation et de production pointent sur le même point d’entrée de production IMS.
 
 * **[!UICONTROL Scope IMS]**
 

@@ -10,9 +10,9 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 587
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ En outre, créez de nouveaux mappings de ciblage en fonction de besoins spécifi
 
 ## Dimensions de filtrage {#filtering}
 
-La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateur ou opératrice, abonnées et abonnés, etc. La dimension de filtrage permet d&#39;appliquer des filtres à cette population en référençant les données associées sans modifier la dimension de ciblage principale. Vous pouvez, par exemple, sélectionner la population en fonction de critères spécifiques, tels que les titulaires d’un contrat ou les personnes abonnées à une newsletter.
+La dimension de ciblage permet de définir la population visée par l’opération : destinataires, bénéficiaires de contrats, opérateurs, abonnés, etc. La dimension de filtrage permet d’appliquer des filtres à la population ciblée en référençant des critères associés sans modifier la dimension de ciblage principale.Vous pouvez, par exemple, sélectionner la population en fonction de critères spécifiques, tels que les titulaires d’un contrat ou les personnes abonnées à une newsletter.
 
 Les dimensions de filtrage sont disponibles uniquement dans l’activité **Créer une audience**.
 

@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1002
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 69%
 >title="Planning de la campagne"
 >abstract="Définissez ou modifiez le planning de votre campagne."
 
-Pour accéder à vos campagnes et les gérer, cliquez sur le menu **[!UICONTROL Campagnes]** dans le volet de navigation de gauche. Deux onglets sont disponibles :
+Pour accéder à vos campagnes et les gérer, cliquez sur le menu **[!UICONTROL Campagnes]** dans le volet de navigation de gauche. Deux onglets sont disponibles :
 
 * L’onglet **Parcourir** répertorie toutes les campagnes existantes. Cliquez sur une campagne pour afficher son tableau de bord ou créez une campagne à l’aide du bouton **Créer une campagne**. Consultez cette [section](create-campaigns.md#create-campaigns).
 
@@ -32,29 +32,29 @@ Pour accéder à vos campagnes et les gérer, cliquez sur le menu **[!UICONTROL 
 
 ## Inventaire des campagnes {#inventory}
 
-L’onglet **[!UICONTROL Parcourir]** fournit des informations sur le statut actuel des campagnes, les dates de début et de fin, la date de création, la dernière fois qu’elles ont été modifiées, etc. Vous pouvez personnaliser les colonnes affichées en cliquant sur l’icône **Configurer la colonne pour une disposition personnalisée** située dans le coin supérieur droit de la liste. Ceci vous permet d’ajouter ou de supprimer des colonnes et de réorganiser les informations dans la liste des campagnes.
+L’onglet **[!UICONTROL Parcourir]** fournit des informations sur le statut actuel de la campagne, les dates de début et de fin, la date de création, la dernière modification, etc. Vous pouvez personnaliser les colonnes affichées en cliquant sur l’icône **Configurer la colonne pour une disposition personnalisée**, située dans le coin supérieur droit de la liste.Ceci vous permet d’ajouter ou de supprimer des colonnes et de réorganiser les informations dans la liste des campagnes.
 
-### Rechercher et filtrer l’inventaire {#search-and-filter}
+### Recherche et filtres de l’inventaire{#search-and-filter}
 
-Une barre de recherche et des filtres sont disponibles pour faciliter la recherche dans la liste. [En savoir plus](../get-started/user-interface.md#list-screens). Vous pouvez, par exemple, filtrer selon le planning de votre campagne. Ouvrez le panneau de filtrage et accédez à la section **Date de début et de fin** :
+Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste.[En savoir plus](../get-started/user-interface.md#list-screens). Vous pouvez, par exemple, filtrer selon le planning de votre campagne. Ouvrez le panneau de filtrage et accédez à la section **Date de début et de fin** :
 
 ![Description : panneau de filtrage affichant des options pour filtrer les campagnes par dates de début et de fin](assets/campaign-filter-on-dates.png)
 
 ### Vue Chronologie {#timeline}
 
-Par défaut, l’écran de la campagne affiche la **vue Liste** (inventaire). Vous pouvez basculer vers la **vue Chronologie** à tout moment à l’aide du bouton (bascule) d’affichage. Les deux vues affichent les mêmes campagnes et partagent les mêmes filtres et la même recherche. Lorsque vous modifiez les filtres ou effectuez une recherche dans une vue, l’autre vue reflète la même sélection.
+Par défaut, l’écran de la campagne affiche la **vue Liste** (inventaire).Vous pouvez passer à la **vue Chronologie** à tout moment à l’aide du bouton (bascule) d’affichage.Les deux vues affichent les mêmes campagnes et partagent les mêmes filtres et la même recherche. Lorsque vous modifiez les filtres ou effectuez une recherche dans une vue, l’autre vue reflète la même sélection.
 
-La vue Chronologie vous permet de visualiser et de gérer vos campagnes au fil du temps. Toutes vos campagnes s’affichent dans un format temporel, ce qui facilite la planification et la coordination de vos activités marketing.
+La vue Chronologie vous permet de visualiser et de gérer vos campagnes.Toutes vos campagnes s’affichent dans un format temporel, ce qui facilite la planification et la coordination de vos activités marketing.
 
 ![](assets/timeline-view.png)
 
-**Fonctionnement de la chronologie :**
+**Fonctionnement de la chronologie :**
 
-* La chronologie affiche vos campagnes en fonction de leurs dates de début et de fin. Les campagnes qui s’étendent sur plusieurs jours apparaissent entre les dates appropriées.
-* Vous pouvez naviguer par semaine, mois ou jour. Utilisez le sélecteur de date ou les boutons fléchés pour vous déplacer entre les périodes. Utilisez le bouton **Aujourd’hui** pour revenir rapidement à la date actuelle.
-* La sélection d’une campagne ouvre un panneau de droite avec les détails de la campagne : statut, dates de début et de fin, liste des workflows et liste des diffusions. Vous pouvez accéder à ces workflows et diffusions à partir du panneau.
+* La chronologie affiche vos campagnes en fonction de leurs dates de début et de fin.Les campagnes qui s’étendent sur plusieurs jours apparaissent entre les dates appropriées.
+* Vous pouvez naviguer par semaine, mois ou jour.Utilisez le sélecteur de date ou les boutons fléchés pour vous déplacer entre les périodes.Utilisez le bouton **Aujourd’hui** pour revenir rapidement à la date actuelle.
+* La sélection d’une campagne ouvre un panneau à droite avec les détails de la campagne : statut, dates de début et de fin, liste des workflows et liste des diffusions.Vous pouvez accéder à ces workflows et diffusions à partir du panneau.
 * Les campagnes en cours sont prioritaires dans l’affichage lorsque de nombreuses campagnes tombent à la même date.
-* Lorsque de nombreuses campagnes tombent sur un seul jour (dans la vue Mois, par exemple), un contrôle **Plus** vous permet de développer l&#39;ensemble des campagnes pour ce jour, ou de passer à la vue Semaine ou Jour pour plus de détails.
+* Lorsque de nombreuses campagnes tombent sur un seul jour (dans la vue Mois, par exemple), un bouton **Plus** vous permet de développer l’ensemble des campagnes pour ce jour, ou de passer à la vue Semaine ou Jour pour plus de détails.
 
 ## Tableau de bord de la campagne {#campaign-dashboard}
 

@@ -10,9 +10,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 624
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Le rapport **[!UICONTROL Vue d’ensemble de la diffusion]** fournit des KPI (in
 
 ![Mesures de la vue d’ensemble de la diffusion, affichant les KPI liés aux performances des notifications push.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures de vue d’ensemble de la diffusion.
++++Découvrez-en plus sur les mesures de la vue d’ensemble de la diffusion.
 
 * **[!UICONTROL Messages à diffuser]** : nombre total de messages traités lors de la préparation de la diffusion.
 
@@ -58,7 +58,7 @@ Le tableau et le graphe **[!UICONTROL Audience ciblée]** présentent les donné
 
 ![Mesures d’audience ciblée, affichant les données relatives aux personnes destinataires et aux exclusions des notifications push.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures d’audience ciblée.
++++Découvrez-en plus sur les mesures Audience ciblée.
 
 * **[!UICONTROL Audience ciblée]** : nombre total de destinataires ciblés.
 
@@ -79,7 +79,7 @@ Le tableau **[!UICONTROL Statistiques de diffusion]** renseigne sur le succès d
 
 ![Mesures des statistiques de diffusion, affichant les taux de succès, les erreurs et les mises en quarantaine pour les notifications push.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++En savoir plus sur les mesures Statistiques de diffusion .
++++Découvrez-en plus sur les mesures Statistiques de diffusion.
 
 * **[!UICONTROL Nombre total de messages]** : nombre total de messages à diffuser après la préparation de la diffusion.
 

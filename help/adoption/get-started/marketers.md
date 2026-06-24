@@ -25,9 +25,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2803
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Dans Adobe Campaign, un profil désigne un enregistrement stocké dans la base 
 
    En savoir plus dans la documentation [Commencer avec les profils](../../v8/audience/about-recipients.md).
 
-1. Découvrez comment créer et gérer des profils de test dans Campaign v8
+1. Découvrez comment créer et gérer des profils de test dans Campaign v8.
 
    >[!VIDEO](https://video.tv.adobe.com/v/3442897?captions=fre_fr&quality=12&learn=on){transcript=true}
 
@@ -92,8 +92,8 @@ Découvrez comment créer et gérer des audiences, comment sélectionner des aud
 
 Pour plus d’informations, voir [Commencer avec les audiences](../../v8/audience/manage-audience.md){target="_blank"}.
 
-Comme dans Campaign Standard, vous pouvez ajouter une population témoin à votre diffusion. Vous pouvez définir une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option vous permet de mesurer l’impact de votre campagne.
-Découvrez comment [&#x200B; définir une population témoin &#x200B;](../../v8/audience/control-group.md){target="_blank"}.
+Comme dans Campaign Standard, vous pouvez ajouter une population témoin à votre diffusion. Vous pouvez définir une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option permet de mesurer l’impact de votre campagne.
+Découvrez comment [définir une population témoin](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -398,7 +398,7 @@ Adobe Campaign fournit un ensemble d’[outils de reporting](https://experience
 
 La suite complète d’outils de reporting d’Adobe Campaign fournit des informations précieuses sur l’efficacité de vos efforts marketing, ce qui vous permet d’optimiser vos campagnes pour un impact maximum. En savoir plus dans la [documentation sur le reporting](../../v8/reporting/gs-reports.md).
 
-En outre, comme avec l’expérience d’Adobe Campaign Standard, les rapports dynamiques sont à votre disposition dans Campaign v8 pour vos diffusions par e-mail. Il propose des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Pour en savoir plus, consultez la [documentation sur les rapports dynamiques](../../v8/reporting/dynamic-reporting/get-started-reporting.md).
+En outre, comme avec l’expérience d’Adobe Campaign Standard, les rapports dynamiques sont à votre disposition dans Campaign v8 pour vos diffusions par e-mail. Il propose des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. En savoir plus dans la [documentation sur les rapports dynamiques](../../v8/reporting/dynamic-reporting/get-started-reporting.md).
 
 >[!AVAILABILITY]
 >
