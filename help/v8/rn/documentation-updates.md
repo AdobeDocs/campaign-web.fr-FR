@@ -5,12 +5,11 @@ description: Mises à jour de la documentation d’Adobe Campaign Web
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 493b80a92ae52bc76fcee7431fbf2ffa465bb3e0
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 80%
+source-wordcount: 138
+ht-degree: 53%
 
 ---
 
@@ -20,6 +19,7 @@ Cette page répertorie toutes les mises à jour de la documentation d’Adobe C
 
 ## Juin 2026 {#june-2026}
 
+* Ajout d’une note sur les exigences en matière d’encodage pour les diffusions de publipostage direct ciblant les langues CJC (japonais, coréen, chinois simplifié, chinois traditionnel). Le codage Latin-1 (1252) par défaut ne peut pas représenter les caractères CJK, ce qui entraîne un aperçu de fichier vide. Les utilisateurs doivent sélectionner UTF-8 (65001) dans les paramètres Format d’extraction . [En savoir plus](../direct-mail/content-direct-mail.md)
 * Ajout d&#39;une page sur les conseils de la CNIL pour les pixels de tracking email et les fonctionnalités Adobe Campaign associées. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
 
 ## Décembre 2025 {#december-2025}
