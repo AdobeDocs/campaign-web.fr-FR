@@ -3,9 +3,9 @@ title: Notes de mise à jour précédentes de l’interface d’utilisation web 
 description: Versions de l’interface d’utilisation web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -219,12 +219,10 @@ _27 janvier 2026_
 <tbody>
 <tr>
 <td>
-<p>La fonctionnalité de diffusion multilingue est désormais disponible pour tous les clients (GA). Cette fonctionnalité vous permet d’envoyer plusieurs messages dans différentes langues dans l’interface utilisateur web d’Adobe Campaign. Vous pouvez choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix. 
-<p>Pour plus d'informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
+<p>La fonctionnalité de diffusion multilingue est désormais disponible pour l’ensemble des clientes et clients (disponibilité générale). Elle vous permet d’envoyer plusieurs messages dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. Vous pouvez choisir la langue par défaut de votre diffusion, ainsi que les différentes langues dans lesquelles elle peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues que vous avez choisies.<p>Pour plus d'informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
 <p>Les améliorations suivantes ont été apportées aux notifications push multilingues :</p>
 <ul>
-<li>Vous pouvez désormais remplir rapidement toutes les variantes de langue en chargeant un fichier CSV contenant votre contenu multilingue. <a href="../msg/multilingual.md#csv-upload">En savoir plus</a>
-</li>
+<li>Vous pouvez désormais renseigner rapidement toutes les variantes linguistiques en chargeant un fichier CSV contenant votre contenu multilingue. <a href="../msg/multilingual.md#csv-upload">En savoir plus</a></li>
 <li>Les notifications push riches sont désormais prises en charge.</li>
 </td>
 </tr>
