@@ -4,14 +4,12 @@ title: Concevoir une diffusion par courrier
 description: Découvrir comment concevoir une diffusion par courrier avec Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 TQID: https://experienceleague.adobe.com/fKC3OQ7C-LxYlcHO3IuQt-dI6Ju3jn8ywPxzLzhfbwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 606
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
+workflow-type: tm+mt
+source-wordcount: 648
+ht-degree: 93%
 
 ---
 
@@ -48,7 +46,7 @@ Pour concevoir le contenu du fichier d’extraction généré par votre diffusio
    * **[!UICONTROL Séparateur de colonne]** (format Texte) : spécifiez le caractère à utiliser comme séparateur de colonne dans le fichier d’extraction.
    * **[!UICONTROL Délimiteur de chaîne]** (format Texte) : indiquez comment délimiter les chaînes dans le fichier d’extraction.
    * **[!UICONTROL Fin de ligne]** (format Texte) : indiquez comment délimiter la fin des lignes dans le fichier d’extraction.
-   * **[!UICONTROL Encodage]** : choisissez l’encodage du fichier d’extraction.
+   * **[!UICONTROL Encodage]** : choisissez l’encodage du fichier d’extraction. L’encodage par défaut est **Latin-1 (1252)**. Lors de la création de diffusions de publipostage direct ciblant des destinataires dans les langues CJK (japonais, coréen, chinois simplifié, chinois traditionnel), sélectionnez **UTF-8 (65001)** à la place. Latin-1 ne peut pas représenter les caractères CJK et génèrera un aperçu de fichier vide.
    * **[!UICONTROL Format et séparateurs de date]** : indiquez le format des dates dans le fichier d’extraction.
    * **[!UICONTROL Format des nombres]** : indiquez le format des nombres dans le fichier d’extraction.
    * **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** : activez cette option si vous exportez des valeurs d’énumération et souhaitez récupérer les libellés de colonnes plus faciles à comprendre que les identifiants internes.
