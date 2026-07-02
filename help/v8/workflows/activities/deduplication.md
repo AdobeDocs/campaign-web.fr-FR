@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 769
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
 >title="Ensembles à joindre"
->abstract="Cochez les activités précédentes que vous souhaitez connecter en tant que transitions entrantes de l’activité **Déduplication**.Les activités sélectionnées sont ensuite connectées à l’activité **Déduplication**.Cette section s’affiche uniquement lorsque plusieurs transitions entrantes peuvent être connectées à l’activité."
+>abstract="Cochez les activités précédentes que vous souhaitez connecter en tant que transitions entrantes de l’activité **Déduplication**. Les activités sélectionnées sont ensuite connectées à l’activité **Déduplication**. Cette section s’affiche uniquement lorsque plusieurs transitions entrantes peuvent être connectées à l’activité."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 L’activité **Déduplication** est une activité de **ciblage**. Cette activité supprime les doublons dans les résultats des activités entrantes, tels que les profils dupliqués dans la liste des destinataires. L’activité **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités utilisant les données ciblées.
 
-L’activité prend en charge plusieurs transitions entrantes.Lorsque plusieurs transitions entrantes sont disponibles, utilisez la section **Ensembles à joindre** dans les propriétés de l’activité pour sélectionner celles à connecter à l’activité.Les transitions sélectionnées sont ensuite liées à la **déduplication** dans la zone de travail du workflow.
+L’activité prend en charge plusieurs transitions entrantes. Lorsque plusieurs transitions entrantes sont disponibles, utilisez la section **Ensembles à joindre** dans les propriétés de l’activité pour sélectionner celles à connecter à l’activité. Les transitions sélectionnées sont ensuite liées à la **déduplication** dans la zone de travail du workflow.
 
 ## Configurer l’activité Déduplication {#deduplication-configuration}
 
@@ -52,7 +52,7 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Ajoutez une activité **Déduplication** à votre workflow.
 
-1. Dans la section **Ensembles à joindre**, cochez les activités précédentes que vous souhaitez connecter en tant que transitions entrantes de l’activité de **Déduplication**.Les activités sélectionnées sont ensuite liées à la **déduplication** dans la zone de travail du workflow.Utilisez le champ **Ensemble principal** pour définir la transition entrante de référence.Les enregistrements des autres ensembles sont comparés à l’ensemble principal pour identifier les doublons.
+1. Dans la section **Ensembles à joindre**, cochez les activités précédentes que vous souhaitez connecter en tant que transitions entrantes de l’activité de **Déduplication**. Les activités sélectionnées sont ensuite liées à la **déduplication** dans la zone de travail du workflow. Utilisez le champ **Ensemble principal** pour définir la transition entrante de référence. Les enregistrements des autres ensembles sont comparés à l’ensemble principal pour identifier les doublons.
 
    >[!NOTE]
    >
