@@ -2,9 +2,9 @@
 title: Modifier des champs personnalisés
 description: Découvrez comment configurer des champs personnalisés et leur visibilité dans l’interface.
 exl-id: 1b531722-0935-4787-a673-60d97f776936
-source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '744'
 ht-degree: 95%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 95%
 >id="acw_schema_detail_screen_configuration"
 >title="Configuration de l&#39;écran détaillé"
 >abstract="Configurer les champs personnalisés à afficher dans les écrans de détails et les organiser en sections. Ajoutez des listes de collection pour afficher les données associées dans les écrans de profil."
->additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="Ajouter des listes de collection"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="Ajouter des listes de collection"
 
 Les champs personnalisés sont des attributs supplémentaires ajoutés aux schémas prêts à l’emploi via la console Adobe Campaign. Ils vous permettent de personnaliser les schémas en incluant de nouveaux attributs en fonction des besoins de votre entreprise.
 
