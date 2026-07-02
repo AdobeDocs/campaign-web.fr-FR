@@ -2,16 +2,21 @@
 title: Configuration des colonnes de listes par défaut
 description: Découvrez comment configurer les colonnes affichées par défaut dans les vues Liste.
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
-source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 94%
 
 ---
 
 # Configurer des colonnes de listes {#list-columns}
 
-La section **[!UICONTROL Configuration de la liste d’inventaire]** vous permet de configurer les colonnes affichées par défaut dans les vues Liste.Chaque colonne affiche son libellé et l’attribut correspondant.
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="Configuration de la liste d’inventaire"
+>abstract="Configurer les colonnes affichées par défaut dans les vues Liste. Chaque colonne affiche son libellé et l’attribut correspondant."
+
+La section **[!UICONTROL Configuration de la liste d’inventaire]** vous permet de configurer les colonnes affichées par défaut dans les vues Liste. Chaque colonne affiche son libellé et l’attribut correspondant.
 
 Pour plus d’informations sur la définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
 
@@ -29,6 +34,6 @@ Pour ajouter de nouvelles colonnes à la liste par défaut, procédez comme suit
 
    ![Configuration de colonnes de liste](assets/schemas-list-columns.png)
 
-1. Accédez au menu **Profils** pour accéder à la vue Liste des profils.Vous remarquerez que les nouveaux onglets s’affichent.Vous pouvez ajouter d’autres colonnes si nécessaire.
+1. Accédez au menu **Profils** pour accéder à la vue Liste des profils. Vous remarquerez que les nouveaux onglets s’affichent. Vous pouvez ajouter d’autres colonnes si nécessaire.
 
    ![Configuration de colonnes de liste](assets/schemas-list-columns3.png)
