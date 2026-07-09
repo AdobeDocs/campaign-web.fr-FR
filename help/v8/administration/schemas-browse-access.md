@@ -2,14 +2,19 @@
 title: Parcourir les schémas et y accéder
 description: Découvrez comment parcourir les schémas et y accéder dans l’interface.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 90%
 
 ---
 
 # Accéder aux schémas et les configurer {#access}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_action_data"
+>title="Actions sur les données"
+>abstract="Configurer les actions disponibles pour les écrans de détails et de listes du schéma. Activez **[!UICONTROL Lecture seule]** pour définir l’écran de détails en lecture seule et supprimer les actions de la liste. Activez **[!UICONTROL Ne pas autoriser la suppression]** pour supprimer l’action de suppression des écrans de détails et de liste."
 
 Les schémas sont accessibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Schémas]**.
 
@@ -41,7 +46,7 @@ L’onglet **[!UICONTROL Données]** fournit des informations sur les données d
 
 ## Personnaliser l’affichage de l’écran {#screen-def}
 
-La définition d’écran vous permet de configurer l’affichage et la modification des champs de schéma dans l’interface.Vous pouvez configurer les colonnes par défaut pour les vues de liste, personnaliser les champs personnalisés qui s’affichent dans les écrans de détail, ajouter des listes de collections pour afficher les données associées et organiser les champs en sections avec des séparateurs et des critères de visibilité.
+La définition d’écran vous permet de configurer l’affichage et la modification des champs de schéma dans l’interface. Vous pouvez configurer les colonnes par défaut pour les vues de liste, personnaliser les champs personnalisés qui s’affichent dans les écrans de détail, ajouter des listes de collections pour afficher les données associées et organiser les champs en sections avec des séparateurs et des critères de visibilité.
 
 Pour accéder à la définition d’écran :
 
@@ -53,7 +58,7 @@ Pour accéder à la définition d’écran :
 
    ![Écran de liste des schémas affichant les schémas et les filtres disponibles](assets/schemas-list3.png)
 
-   Les différentes listes vous permettent de réorganiser les éléments à l’aide des icônes de flèche vers le haut et vers le bas ou de les faire glisser et de les déposer.Pour supprimer des éléments, cliquez sur l’icône de la corbeille sur une ligne spécifique ou sélectionnez **[!UICONTROL Tout supprimer]** à partir de l’icône représentant des points de suspension.
+   Les différentes listes vous permettent de réorganiser les éléments à l’aide des icônes de flèche vers le haut et vers le bas ou de les faire glisser et de les déposer. Pour supprimer des éléments, cliquez sur l’icône de la corbeille sur une ligne spécifique ou sélectionnez **[!UICONTROL Tout supprimer]** à partir de l’icône représentant des points de suspension.
 
    ![Section générale de la définition de l’écran](assets/schemas-general.png)
 

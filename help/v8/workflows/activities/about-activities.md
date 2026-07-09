@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 583
-ht-degree: 100%
+source-wordcount: 637
+ht-degree: 91%
 
 ---
 
@@ -51,6 +51,11 @@ Ces activités sont spécifiques au ciblage. Elles permettent de créer une ou p
 ## Activités de Data Management {#data}
 
 Ces activités sont spécifiques à la manipulation et à l’enrichissement des données de population.
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="Activité Chargement (SGBD)"
+>abstract="L&#39;activité **Chargement (SGBD)** est une activité de **Gestion des données**. Utilisez cette activité pour charger des données directement à partir d’une base de données relationnelle externe dans votre workflow, sans passer par la console cliente. Les données extraites sont disponibles dans l’ensemble du workflow et peuvent être utilisées à des fins de ciblage, d’enrichissement ou de traitement des données ultérieur."
 
 * [Extraction de fichier](extract-file.md) : exportez des données à partir d’Adobe Campaign vers un autre système sous la forme d’un fichier externe.
 * [Chargement de fichier](load-file.md) : utilisez des profils et des données stockés dans un fichier externe.
