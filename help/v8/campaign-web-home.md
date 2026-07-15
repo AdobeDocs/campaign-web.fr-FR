@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e6737eef2f3566d5a62f36e54ae02d81fbb1716c
-workflow-type: ht
-source-wordcount: 523
+source-git-commit: 1b73c95ac5c6147f71d328772b3988f9417121f2
+workflow-type: tm+mt
+source-wordcount: 707
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ Les questions fréquentes sur l’interface d’utilisation web de Campaign sont
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <a href="get-started/get-started.md#web"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
     <div><strong>Découvrir la nouvelle interface utilisateur</strong><br/> Découvrez la nouvelle interface d’Adobe Campaign Web et l’expérience de navigation intégrée à Adobe Experience Platform.</div>
     </td>
     <td>
@@ -110,7 +110,7 @@ Les questions fréquentes sur l’interface d’utilisation web de Campaign sont
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="get-started/user-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="get-started/get-started.md#web"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
@@ -124,22 +124,22 @@ Les questions fréquentes sur l’interface d’utilisation web de Campaign sont
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Commencer</strong><br/><a href="get-started/user-interface.md">Interface d’utilisation</a> - <a href="get-started/connect-to-campaign.md">Se connecter à Campaign</a> - <a href="get-started/permissions.md">Accès et autorisations</a>
+      <strong>Commencer</strong><br/><a href="get-started/get-started.md#web">Interface d’utilisation</a> - <a href="get-started/connect-to-campaign.md">Se connecter à Campaign</a> - <a href="get-started/permissions.md">Accès et autorisations</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
-<br/>
-<strong>Expérience du client ou de la cliente</strong><br/> <a href="workflows/gs-workflows.md" target="_blank">Automatiser avec des workflows</a> – <a href="campaigns/gs-campaigns.md" target="_blank">Orchestration des campagnes</a> – <a href="personalization/gs-personalization.md">Contenu dynamique</a> – <a href="reporting/gs-reports.md">Rapports et analyse</a>
+    <br/>
+      <strong>Expérience du client ou de la cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatiser avec des workflows</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orchestration des campagnes</a> - <a href="personalization/gs-personalization.md">Contenu dynamique</a> - <a href="reporting/gs-reports.md">Rapports et analyse</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
-<br/>
-<strong>Envoyer des messages</strong><br/> <a href="msg/gs-deliveries.md">Créer une diffusion</a> – <a href="email/create-email.md">E-mail</a> – <a href="push/gs-push.md">Notifications push</a> – <a href="sms/gs-sms.md">SMS</a> – <a href="msg/delivery-template.md">Modèles de diffusion</a> – <a href="preview-test/preview-test.md">Aperçu et test</a> 
+    <br/>
+      <strong>Envoyer des messages</strong><br/><a href="msg/gs-deliveries.md">Créer une diffusion</a> - <a href="email/create-email.md">E-mail</a> - <a href="push/gs-push.md">Notifications push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modèles de diffusion</a> - <a href="preview-test/preview-test.md">Aperçu et test</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
-<br/>
-<strong>Profils et audiences</strong><br/> <a href="audience/gs-audiences-recipients.md">Prise en main</a> – <a href="audience/create-audience.md">Créer des audiences</a> – <a href="audience/test-profiles.md">Profils de test</a> – <a href="audience/manage-services.md">Services d’abonnements</a> – <a href="query/query-modeler-overview.md">Concepteur de requête</a>
+    <br/>
+      <strong>Profils et audiences</strong><br/><a href="audience/gs-audiences-recipients.md">Commencer</a> - <a href="audience/create-audience.md">Créer des audiences</a> - <a href="audience/test-profiles.md">Profils de test</a> - <a href="audience/manage-services.md">Services d’abonnements</a> - <a href="query/query-modeler-overview.md">Concepteur de requête</a>
     </td>
   </tr>
 </table>

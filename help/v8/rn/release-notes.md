@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
-workflow-type: ht
+source-git-commit: b8cf1d45b1a69efbe8e055d57b430d0fa04f8494
+workflow-type: tm+mt
 source-wordcount: 243
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -38,11 +38,12 @@ _16 juin 2026_
 * Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
 -->
 
-* Vous pouvez désormais exporter des données depuis n’importe quel écran de liste, y compris les journaux de suivi.Trouvez votre liste et cliquez simplement sur le bouton d’export.L’export inclut les lignes actuellement chargées et prend en compte les colonnes affichées à l’écran, ainsi que les recherches ou filtres actifs.[En savoir plus](../get-started/list-filters.md)
+* Vous pouvez désormais exporter des données depuis n’importe quel écran de liste, y compris les journaux de suivi. Trouvez votre liste et cliquez simplement sur le bouton d’export. L’export inclut les lignes actuellement chargées et prend en compte les colonnes affichées à l’écran, ainsi que les recherches ou filtres actifs. [En savoir plus](../get-started/list-filters.md)
 
-* Les activités de workflow **Déduplication** et **Fin** prennent désormais en charge plusieurs transitions entrantes.Siplusieurs transitions entrantes sont disponibles, utilisez la section **Ensembles à joindre** dansles propriétés de l’activité pour sélectionner les transitions à connecter.En savoir plus dans ces pages : [Déduplication](../workflows/activities/deduplication.md), [Fin](../workflows/activities/end.md)
+* Les activités de workflow **Déduplication** et **Fin** prennent désormais en charge plusieurs transitions entrantes. Lorsque plusieurs transitions entrantes sont disponibles, utilisez la section **Ensembles à joindre** dans l&#39;activité
+les propriétés de l’activité pour sélectionner les transitions à connecter. En savoir plus dans ces pages : [Déduplication](../workflows/activities/deduplication.md), [Fin](../workflows/activities/end.md)
 
-* Les paramètres avancés sont désormais exposés dans la section **Données d’enrichissement** des activités de workflow **Créer une audience** (type de requête) et **Enrichissement**.Ces paramètres vous permettent d’affiner la manière dont les données d’enrichissement sont créées, notamment le regroupement, la déduplication, la gestion des clés primaires et les données d’événement entrant.[En savoir plus](../workflows/activities/enrichment.md)
+* Les paramètres avancés sont désormais exposés dans la section **Données d’enrichissement** des activités de workflow **Créer une audience** (type de requête) et **Enrichissement**. Ces paramètres vous permettent d’affiner la manière dont les données d’enrichissement sont créées, notamment le regroupement, la déduplication, la gestion des clés primaires et les données d’événement entrant. [En savoir plus](../workflows/activities/enrichment.md)
 
 <!--
 * Delivery templates now allow you to define a time zone in the Schedule settings.
