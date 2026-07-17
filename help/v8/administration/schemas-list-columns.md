@@ -5,7 +5,7 @@ exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_schema_inventory_list_configuration"
 >title="Configuration de la liste d’inventaire"
->abstract="Configurer les colonnes affichées par défaut dans les vues Liste. Chaque colonne affiche son libellé et l’attribut correspondant."
+>abstract="Configurez les colonnes affichées par défaut dans les vues de liste. Chaque colonne affiche son libellé et l’attribut correspondant."
 
 La section **[!UICONTROL Configuration de la liste d’inventaire]** vous permet de configurer les colonnes affichées par défaut dans les vues Liste. Chaque colonne affiche son libellé et l’attribut correspondant.
 
