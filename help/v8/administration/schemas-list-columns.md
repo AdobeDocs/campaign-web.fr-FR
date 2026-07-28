@@ -2,10 +2,10 @@
 title: Configuration des colonnes de listes par défaut
 description: Découvrez comment configurer les colonnes affichées par défaut dans les vues Liste.
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
-source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '247'
+ht-degree: 77%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_schema_inventory_list_configuration"
 >title="Configuration de la liste d’inventaire"
->abstract="Configurez les colonnes affichées par défaut dans les vues de liste. Chaque colonne affiche son libellé et l’attribut correspondant."
+>abstract="Configurez les colonnes affichées par défaut dans les vues de liste. Chaque colonne affiche son libellé et l’attribut correspondant. Ajoutez des filtres personnalisés pour afficher les champs de filtre d’accès rapide dans le volet Filtres de la vue Liste."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="Ajouter des filtres personnalisés"
 
 La section **[!UICONTROL Configuration de la liste d’inventaire]** vous permet de configurer les colonnes affichées par défaut dans les vues Liste. Chaque colonne affiche son libellé et l’attribut correspondant.
 
@@ -37,3 +38,7 @@ Pour ajouter de nouvelles colonnes à la liste par défaut, procédez comme suit
 1. Accédez au menu **Profils** pour accéder à la vue Liste des profils. Vous remarquerez que les nouveaux onglets s’affichent. Vous pouvez ajouter d’autres colonnes si nécessaire.
 
    ![Configuration de colonnes de liste](assets/schemas-list-columns3.png)
+
+>[!NOTE]
+>
+>Vous pouvez également ajouter des champs de filtre d’accès rapide dans le volet Filtres de la vue Liste. Pour plus d’informations, voir [Ajouter des filtres personnalisés](schemas-custom-filters.md).

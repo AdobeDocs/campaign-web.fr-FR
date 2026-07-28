@@ -4,20 +4,22 @@ title: Ajouter des offres à vos messages
 description: Découvrez comment ajouter et envoyer des offres
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 825
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
+workflow-type: tm+mt
+source-wordcount: 805
+ht-degree: 92%
 
 ---
 
 # Ajouter des offres à vos messages {#offers-content}
 
-Vous pouvez ajouter des offres à vos diffusions dans l’interface utilisateur web d’Adobe Campaign. Ces offres sont disponibles à partir du menu **Offres** à gauche qui vous permet d’accéder à la liste des offres. Toutes ces offres sont en lecture seule et doivent avoir été créées dans la console cliente Campaign, à l’aide du module **[!UICONTROL Interaction]**. Pour plus d’informations sur Interaction et sur la gestion d’un catalogue d’offres dans la console, consultez la [documentation de Campaign V8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
+Vous pouvez ajouter des offres à vos diffusions directement depuis l’interface utilisateur web de Campaign. Ces offres sont disponibles à partir du menu **Offres** à gauche qui vous permet d’accéder à la liste des offres.
+
+Depuis l’interface utilisateur web de Campaign, vous pouvez également créer et gérer directement des environnements d’offres, des emplacements et des offres, sans passer à la console cliente. [En savoir plus](../offers/gs-offer-management.md).
+
+Pour les configurations avancées, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 
 Pour envoyer des offres avec une diffusion, procédez comme suit :
 
@@ -46,7 +48,7 @@ Pour sélectionner les offres à ajouter à votre diffusion, procédez comme sui
 
 1. Configurez les offres qui doivent être proposées aux destinataires.
 
-   En premier lieu, sélectionnez l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement en consultant la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=fr){target="_blank"}.
+   En premier lieu, sélectionnez l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement directement à partir de l’interface utilisateur web de Campaign dans cette [section](../offers/offer-space.md).
 
    ![Capture d’écran montrant la sélection de l’emplacement dans le contenu de création des offres](assets/offer-create-content.png){zoomable="yes"}
 

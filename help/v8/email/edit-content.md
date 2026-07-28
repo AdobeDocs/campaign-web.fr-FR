@@ -4,14 +4,12 @@ title: Modifier le contenu de l’e-mail
 description: Découvrez comment modifier le contenu de l’e-mail dans l’interface utilisateur web de Campaign.
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 699
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
+workflow-type: tm+mt
+source-wordcount: 728
+ht-degree: 96%
 
 ---
 
@@ -77,6 +75,10 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
    >
    >Vous pouvez modifier la partie qui précède le signe « @ », mais pas l’adresse du domaine.
 
+   >[!NOTE]
+   >
+   >Les administrateurs peuvent limiter ce champ à une liste prédéfinie d’adresses d’expéditeur. Dans ce cas, vous sélectionnez une adresse dans une liste déroulante au lieu de la saisir. [En savoir plus](../administration/options.md#restrict-sender-address)
+
 1. Développez la section **[!UICONTROL Champs de réponse]**. Le nom et l’adresse de la personne expéditrice sont utilisés par défaut pour les réponses. Adobe recommande toutefois d’utiliser une adresse réelle existante, telle que l’assistance clientèle de votre marque. Ainsi, si une personne destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
 
    ![Capture d’écran montrant la section Champs de réponse dans l’éditeur de contenu d’e-mail.](assets/email-edit-content-reply-to.png){zoomable="yes"}
@@ -111,6 +113,6 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
 1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez désactiver cette option dans la section **[!UICONTROL Fonctionnalités facultatives]**. [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
 
-1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. Vous pouvez également valider la qualité de votre contenu pour évaluer la lisibilité, l’efficacité CTA et la qualité globale.[En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality).
+1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. Vous pouvez également valider la qualité de votre contenu pour évaluer la lisibilité, l’efficacité CTA et la qualité globale. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality).
 
 1. [Découvrez comment prévisualiser et tester votre e-mail.](../preview-test/preview-test.md)

@@ -2,16 +2,37 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de l’interface d’utilisation web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: ht
-source-wordcount: '1204'
-ht-degree: 100%
+source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 98%
 
 ---
 
 # Notes de mise à jour 2026 {#2026-release}
 
 Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions 2026**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
+
+## Version de juin 2026 {#26-6-release}
+
+_16 juin 2026_
+
+### Améliorations {#26-6-improvements}
+
+<!--
+* Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
+-->
+
+* Vous pouvez désormais exporter des données depuis n’importe quel écran de liste, y compris les journaux de suivi. Trouvez votre liste et cliquez simplement sur le bouton d’export. L’export inclut les lignes actuellement chargées et prend en compte les colonnes affichées à l’écran, ainsi que les recherches ou filtres actifs. [En savoir plus](../get-started/list-filters.md)
+
+* Les activités de workflow **Déduplication** et **Fin** prennent désormais en charge plusieurs transitions entrantes. Lorsque plusieurs transitions entrantes sont disponibles, utilisez la section **Ensembles à joindre** dans l&#39;activité
+les propriétés de l’activité pour sélectionner les transitions à connecter. En savoir plus dans ces pages : [Déduplication](../workflows/activities/deduplication.md), [Fin](../workflows/activities/end.md)
+
+* Les paramètres avancés sont désormais exposés dans la section **Données d’enrichissement** des activités de workflow **Créer une audience** (type de requête) et **Enrichissement**. Ces paramètres vous permettent d’affiner la manière dont les données d’enrichissement sont créées, notamment le regroupement, la déduplication, la gestion des clés primaires et les données d’événement entrant. [En savoir plus](../workflows/activities/enrichment.md)
+
+<!--
+* Delivery templates now allow you to define a time zone in the Schedule settings.
+-->
 
 ## Version d’avril 2026 {#26-4-release}
 
@@ -219,10 +240,12 @@ _27 janvier 2026_
 <tbody>
 <tr>
 <td>
-<p>La fonctionnalité de diffusion multilingue est désormais disponible pour l’ensemble des clientes et clients (disponibilité générale). Elle vous permet d’envoyer plusieurs messages dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. Vous pouvez choisir la langue par défaut de votre diffusion, ainsi que les différentes langues dans lesquelles elle peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues que vous avez choisies.<p>Pour plus d'informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
+<p>La fonctionnalité de diffusion multilingue est désormais disponible pour l’ensemble des clientes et clients (disponibilité générale). Elle vous permet d’envoyer plusieurs messages dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. Vous pouvez choisir la langue par défaut de votre diffusion, ainsi que les différentes langues dans lesquelles elle peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues que vous avez choisies. 
+<p>Pour plus d'informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
 <p>Les améliorations suivantes ont été apportées aux notifications push multilingues :</p>
 <ul>
-<li>Vous pouvez désormais renseigner rapidement toutes les variantes linguistiques en chargeant un fichier CSV contenant votre contenu multilingue. <a href="../msg/multilingual.md#csv-upload">En savoir plus</a></li>
+<li>Vous pouvez désormais renseigner rapidement toutes les variantes linguistiques en chargeant un fichier CSV contenant votre contenu multilingue. <a href="../msg/multilingual.md#csv-upload">En savoir plus</a>
+</li>
 <li>Les notifications push riches sont désormais prises en charge.</li>
 </td>
 </tr>

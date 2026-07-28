@@ -3,16 +3,13 @@ title: 'Configurer les options de  [!DNL Campaign] '
 description: Découvrez comment configurer les options de Campaign et créer vos propres options personnalisées.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 TQID: https://experienceleague.adobe.com/a3MU21qEI7ggDv-gUT4--glIkWdU05mz14v3U9Q2wnM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 447
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
+workflow-type: tm+mt
+source-wordcount: 592
+ht-degree: 75%
 
 ---
 
@@ -83,3 +80,17 @@ Dans l’exemple ci-dessous, une option personnalisée nommée `sampleOption` es
 1. La valeur mise à jour est désormais visible dans le menu **[!UICONTROL Options]**.
 
    ![Menu Options affichant la valeur mise à jour de l’option personnalisée](assets/options-sample-updated.png)
+
+## Restreindre l’adresse e-mail de l’expéditeur aux diffusions {#restrict-sender-address}
+
+Par défaut, les marketeurs peuvent saisir n’importe quelle adresse dans le champ **[!UICONTROL E-mail de l’expéditeur]** d’une diffusion par e-mail. Pour restreindre ce champ à une liste prédéfinie d’adresses, créez ou modifiez l’option de `NmsDelivery_senderAddressMask` intégrée et définissez sa valeur sur une liste séparée par des virgules des adresses d’expéditeur autorisées, par exemple `abc@adobe.com,bcd@adobe.com`.
+
+![Option permettant de restreindre les valeurs dans le menu De](assets/option-restrict-from.png)
+
+Une fois que cette option a une valeur, le champ **[!UICONTROL De l’e-mail]** devient une liste déroulante contenant uniquement ces adresses, au lieu d’un champ de texte libre. Si l’option n’existe pas ou si sa valeur est vide, le champ reste en texte libre, comme auparavant.
+
+![Valeurs disponibles dans un email](assets/option-restrict-from2.png)
+
+Cette restriction est globale. Elle s’applique à chaque marque et modèle de diffusion et ne prend pas en charge les champs de personnalisation, mais uniquement les adresses statiques.
+
+Pour plus d&#39;informations sur le champ **[!UICONTROL De l&#39;e-mail]**, voir [Configurer le contenu de l&#39;e-mail](../email/edit-content.md#edit-content).

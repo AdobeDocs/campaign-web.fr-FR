@@ -2,19 +2,14 @@
 title: Parcourir les schémas et y accéder
 description: Découvrez comment parcourir les schémas et y accéder dans l’interface.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 90%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
 # Accéder aux schémas et les configurer {#access}
-
->[!CONTEXTUALHELP]
->id="acw_schema_action_data"
->title="Actions sur les données"
->abstract="Configurer les actions disponibles pour les écrans de détails et de listes du schéma. Activez **[!UICONTROL Lecture seule]** pour définir l’écran de détails en lecture seule et supprimer les actions de la liste. Activez **[!UICONTROL Ne pas autoriser la suppression]** pour supprimer l’action de suppression des écrans de détails et de liste."
 
 Les schémas sont accessibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Schémas]**.
 
@@ -65,5 +60,7 @@ Pour accéder à la définition d’écran :
 Dans l’onglet Définition d’écran, vous pouvez :
 
 * [Configurer les colonnes de la liste par défaut](schemas-list-columns.md) : configurez les colonnes affichées par défaut dans les vues Liste.
+* [Ajouter des filtres personnalisés](schemas-custom-filters.md) - Ajoutez des champs de filtre d’accès rapide dans le volet Filtres d’une vue Liste.
 * [Modifier les champs personnalisés](schemas-custom-fields.md) : configurez les champs personnalisés qui s’affichent dans les écrans de détails et organisez-les en sections.
 * [Ajouter des listes de collections](schemas-collection-lists.md) : ajoutez des listes de collections pour afficher les données associées dans les écrans de profil.
+* [Actions de contrôle sur les données](schemas-action-data.md) - Restreignez les actions de création, de modification et de suppression des schémas personnalisés.

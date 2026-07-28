@@ -4,14 +4,12 @@ title: Utiliser les composants de contenu du concepteur d’e-mail
 description: Découvrez comment utiliser des composants de contenu dans vos emails.
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1402
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
+workflow-type: tm+mt
+source-wordcount: 1517
+ht-degree: 85%
 
 ---
 
@@ -99,7 +97,7 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
 
 ## Texte {#text}
 
-Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajuster le style (bordure, taille, marge intérieure, etc.)à l’aide des onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]**.
+Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajuster le style (bordure, taille, marge intérieure, etc.) à l’aide des onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]**.
 
 1. Dans le menu **[!UICONTROL Contenu]**, faites glisser et déposez du **[!UICONTROL texte]** dans un composant de **[!UICONTROL structure]**.
 
@@ -116,7 +114,7 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
    * **[!UICONTROL Créer une liste]** : ajoutez une liste à puces ou à nombres à votre texte.
    * **[!UICONTROL Définir un titre]** : ajoutez jusqu’à six niveaux de titre à votre texte.
    * **Taille de police** : sélectionnez la taille de police de votre texte en pixels.
-   * **[!UICONTROL Modifier l’image]** : ajoutez une image ou une ressource à votre composant de texte.
+   * **[!UICONTROL Modifier l’image]** : ajoutez une image à votre composant de texte à partir de votre bibliothèque Adobe Experience Manager Assets ou de votre ordinateur, ou réutilisez une image disponible sur votre instance Adobe Campaign. [En savoir plus](#image)
    * **[!UICONTROL Afficher le code source]** : affichez le code source de votre texte. Impossible d’effectuer une modification.
    * **[!UICONTROL Dupliquer]** : ajoutez une copie de votre composant de texte.
    * **[!UICONTROL Supprimer]** : supprimez le composant de texte sélectionné de votre e-mail.
@@ -153,27 +151,53 @@ Utilisez le composant **[!UICONTROL HTML]** pour copier-coller les différentes
 
 ## Image {#image}
 
->[!IMPORTANT]
->
->L’accès au menu Assets est limité aux personnes disposant d’une licence Adobe Experience Manager as a Cloud Service active. Si vous ne possédez pas cette licence, le menu Assets ne sera pas disponible.
-
-Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de votre ordinateur dans l’e-mail.
+Utilisez le composant **[!UICONTROL Image]** pour insérer une image dans votre e-mail.
 
 1. Dans le menu **[!UICONTROL Contenu]**, faites glisser et déposez **[!UICONTROL Image]** dans un composant de **[!UICONTROL structure]**.
 
    ![Capture d’écran affichant la façon de faire glisser et déposer un composant d’image dans le Concepteur d’e-mail.](assets/email_designer_9.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources. Vous pouvez également choisir d’**[!UICONTROL importer votre contenu multimédia]**.
+1. Sélectionnez l’une des options suivantes pour ajouter votre image :
+
+   ![Capture d’écran montrant les options des composants d’image dans le Designer d’e-mail.](assets/email_designer_28.png){zoomable="yes"}
+
+   +++**[!UICONTROL Parcourir]**
+
+   Sélectionnez cette option pour sélectionner une image dans votre bibliothèque Adobe Experience Manager Assets.
+
+   >[!IMPORTANT]
+   >
+   >Cette option nécessite une licence Adobe Experience Manager as a Cloud Service active.
+
+   Parcourez vos dossiers pour localiser la ressource spécifique dont vous avez besoin ou utilisez la barre de recherche pour la chercher efficacement. Une fois la ressource trouvée, cliquez sur **[!UICONTROL Sélectionner]**.
+
+   ![Capture d’écran affichant le processus de sélection de ressources dans le Concepteur d’e-mail.](assets/email_designer_29.png){zoomable="yes"}
 
    Pour en savoir plus sur le chargement et l’ajout de ressources dans Adobe Experience Manager, reportez-vous à la [documentation d’Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=fr).
 
-   ![Capture d’écran affichant l’option de navigation pour les composants d’image dans le Concepteur d’e-mail.](assets/email_designer_28.png){zoomable="yes"}
+   +++
 
-1. Parcourez vos dossiers pour localiser la ressource spécifique dont vous avez besoin ou utilisez la barre de recherche pour la chercher efficacement.
+   +++**[!UICONTROL Importer]**
 
-   Une fois que vous avez trouvé la ressource recherchée, cliquez sur **[!UICONTROL Sélectionner]**.
+   Sélectionnez cette option pour charger une nouvelle image à partir de votre ordinateur. Le fichier est chargé en tant que ressource publique sur votre instance Adobe Campaign.
 
-   ![Capture d’écran affichant le processus de sélection de ressources dans le Concepteur d’e-mail.](assets/email_designer_29.png){zoomable="yes"}
+   +++
+
+   +++**[!UICONTROL Importer ressource publique]**
+
+   Sélectionnez cette option pour sélectionner une image déjà disponible sur votre instance Adobe Campaign, telle qu’un fichier précédemment importé dans le Designer de messagerie ou en tant que ressource publique à partir de la console cliente.
+
+   ![Capture d’écran montrant le processus de sélection des ressources publiques dans le Designer d’e-mail.](assets/email_designer_30.png){zoomable="yes"}
+
+   Recherchez la ressource par nom. Vous pouvez également utiliser des filtres et réorganiser les colonnes.
+
+   >[!NOTE]
+   >
+   >Les contraintes de sécurité sont les mêmes que dans la console cliente : vous pouvez uniquement sélectionner les ressources auxquelles vous avez accès en fonction de vos droits d’utilisateur.
+
+   Sélectionnez la ressource, puis cliquez sur **[!UICONTROL Confirmer]**.
+
+   +++
 
 1. Cliquez sur le composant que vous venez d’ajouter et configurez les propriétés de l’image à l’aide de l’onglet **[!UICONTROL Paramètres]** :
 
