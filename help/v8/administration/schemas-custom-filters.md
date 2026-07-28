@@ -23,7 +23,7 @@ Pour plus d’informations sur l’écran de définition d’écran et la façon
 
 1. Dans la section **[!UICONTROL Configuration de la liste d’inventaire]**, cliquez sur l’icône représentant des points de suspension au-dessus du tableau **[!UICONTROL Filtres personnalisés]**, puis choisissez **[!UICONTROL Sélectionner des attributs]**.
 
-   ![ Sélection de filtres personnalisés ](assets/schemas-custom-filters1.png)
+   ![&#x200B; Sélection de filtres personnalisés &#x200B;](assets/schemas-custom-filters1.png)
 
 1. Sélectionnez un ou plusieurs attributs et confirmez.
 

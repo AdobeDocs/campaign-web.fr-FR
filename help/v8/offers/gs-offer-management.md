@@ -3,8 +3,10 @@ audience: end-user
 title: Prise en main de la gestion des offres
 description: Découvrez comment gérer les offres dans Adobe Campaign Web
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 763
@@ -81,7 +83,7 @@ Certaines fonctionnalités d’offre ne sont pas encore exposées dans l’inter
 
 * **Tracking des offres** — Paramétrer le tracking des propositions d&#39;offres pour alimenter l&#39;historique des propositions. Voir [Suivi des propositions d’offre](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}.
 
-* **Rôles Opérateur** — Attribution des droits Chargé d&#39;offres / Chargé de diffusion. Pour plus d&#39;informations, consultez la section [ Opérateurs du module Interaction ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
+* **Rôles Opérateur** — Attribution des droits Chargé d&#39;offres / Chargé de diffusion. Pour plus d&#39;informations, consultez la section [&#x200B; Opérateurs du module Interaction &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
 
 * **Bonnes pratiques d’interaction et règles d’arbitrage**. Voir [Bonnes pratiques relatives aux interactions de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=fr){target="_blank"}.
 
