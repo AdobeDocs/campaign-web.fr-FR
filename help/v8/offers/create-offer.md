@@ -136,5 +136,5 @@ Une fois qu’une offre est active, la modification de n’importe quel paramèt
 
 Lorsque l&#39;offre est en ligne, elle peut être sélectionnée dans n&#39;importe quelle diffusion qui cible l&#39;emplacement correspondant. Découvrez comment configurer des offres dans une diffusion dans [Ajouter des offres à vos messages](../msg/offers.md).
 
-Pour une intégration complète des diffusions sortantes, y compris sur la construction de l’appel au moteur et la manière dont le tracking est appliqué aux liens des offres, reportez-vous à la section [Offres de la documentation Campaign v8 dans les diffusions sortantes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}.
+Pour une intégration complète des diffusions sortantes, y compris sur la construction de l’appel au moteur et la manière dont le tracking est appliqué aux liens des offres, reportez-vous à la section [Offres de la documentation Campaign v8 dans les diffusions sortantes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=fr){target="_blank"}.
 

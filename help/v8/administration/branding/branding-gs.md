@@ -37,7 +37,7 @@ Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou
 
 ## Note de compatibilité {#compatibility-note}
 
-Le nouveau modèle de branding centralisé n’est pas compatible avec la configuration de [&#x200B; branding héritée](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#configuring-multibranding){target="_blank"} qui était utilisée dans la console cliente.
+Le nouveau modèle de branding centralisé n’est pas compatible avec la configuration de [&#x200B; branding héritée](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=fr#configuring-multibranding){target="_blank"} qui était utilisée dans la console cliente.
 
 Dans l’approche héritée, les clients et clientes implémentaient le branding en étendant le formulaire extAccount et en utilisant l’onglet **Branding**.
 

@@ -77,11 +77,11 @@ Les environnements d&#39;offres et les emplacements sont accessibles via l&#39;*
 
 Certaines fonctionnalités d’offre ne sont pas encore exposées dans l’interface utilisateur web et doivent toujours être configurées à partir de la console cliente :
 
-* **Simulation d’offres** — Le module **Simulation** qui permet de tester la répartition des offres avant leur envoi. Voir [Simulation d’offres](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}.
+* **Simulation d’offres** — Le module **Simulation** qui permet de tester la répartition des offres avant leur envoi. Voir [Simulation d’offres](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=fr#offer-simulation){target="_blank"}.
 
 * **Filtres prédéfinis** gestion : règles de filtrage réutilisables pouvant être référencées à partir de n’importe quelle offre. Voir [Gestion des filtres prédéfinis](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}.
 
-* **Tracking des offres** — Paramétrer le tracking des propositions d&#39;offres pour alimenter l&#39;historique des propositions. Voir [Suivi des propositions d’offre](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}.
+* **Tracking des offres** — Paramétrer le tracking des propositions d&#39;offres pour alimenter l&#39;historique des propositions. Voir [Suivi des propositions d’offre](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=fr){target="_blank"}.
 
 * **Rôles Opérateur** — Attribution des droits Chargé d&#39;offres / Chargé de diffusion. Pour plus d&#39;informations, consultez la section [&#x200B; Opérateurs du module Interaction &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
 
