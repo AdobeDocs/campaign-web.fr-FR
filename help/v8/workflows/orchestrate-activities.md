@@ -6,16 +6,16 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1326
-ht-degree: 100%
+source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
+workflow-type: tm+mt
+source-wordcount: 1720
+ht-degree: 75%
 
 ---
 
 # Orchestrer les activités {#orchestrate}
 
-Une fois que vous avez [créé un workflow](create-workflow.md), à partir du menu de workflow ou au sein d’une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’il exécutera. Pour ce faire, une zone de travail visuelle dédiée vous permet de créer un diagramme de workflow. Dans ce diagramme, vous pouvez ajouter différentes activités et les enchaîner dans un ordre séquentiel.
+Une fois que vous avez [créé un workflow](create-workflow.md), à partir du menu de workflow ou au sein d’une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’il exécutera. Pour ce faire, une zone de travail visuelle dédiée vous permet de créer un diagramme de workflow. Dans ce diagramme, vous pouvez ajouter différentes activités et les enchaîner dans un ordre séquentiel. Des barres de défilement horizontales et verticales s’affichent autour de la zone de travail, ce qui vous permet de parcourir les workflows volumineux en faisant glisser directement la souris sur la zone à afficher.
 
 ## Ajouter des activités {#add}
 
@@ -31,7 +31,7 @@ Une fois qu’une activité a été ajoutée au diagramme, un volet s’affiche 
 
 Répétez ce processus pour ajouter autant d’activités que vous le souhaitez en fonction des tâches que votre workflow exécute. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton **+** sur la transition entre les activités, puis sélectionnez l’activité souhaitée et configurez-la dans le volet de droite.
 
-Pour supprimer une activité, sélectionnez-la dans la zone de travail et cliquez sur l’icône **Supprimer** dans les propriétés de l’activité.
+Pour supprimer une activité, sélectionnez-la dans la zone de travail et cliquez sur l’icône **Supprimer** dans les propriétés de l’activité. Consultez [Supprimer et déconnecter les activités](#delete) pour connaître les options disponibles.
 
 >[!TIP]
 >
@@ -39,10 +39,10 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail et clique
 
 ## Barre d’outils {#toolbar}
 
-La barre d’outils située dans le coin supérieur droit de la zone de travail fournit des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail :
+La barre d’outils, située dans le coin supérieur droit de la zone de travail, propose des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail.
 
 * **Mode de sélection multiple** : sélectionnez plusieurs activités pour les supprimer toutes en même temps ou pour les copier et les coller. Voir [cette section](#copy).
-* **Ajouter une branche** : cliquez sur le bouton **+** de la barre d’outils pour créer une branche d’exécution distincte sur la zone de travail.Le résultat est équivalent à l’utilisation d’une activité [Branchement](activities/fork.md) pour les chemins parallèles, mais le diagramme est plus clair graphiquement.
+* **Ajouter une branche** : cliquez sur le bouton **+** de la barre d’outils pour créer une branche d’exécution distincte sur la zone de travail. Le résultat est équivalent à l’utilisation d’une activité [Branchement](activities/fork.md) pour les chemins parallèles, mais le diagramme est plus clair graphiquement.
 * **Faire pivoter** : retournez la zone de travail verticalement.
 * **Ajuster à l’écran** : adaptez le niveau de zoom de la zone de travail à votre écran.
 * **Zoom arrière**/**Zoom avant** : effectuez un zoom arrière ou avant dans la zone de travail.
@@ -58,7 +58,7 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 
 Vous pouvez ainsi :
 
-* **Supprimer** l’activité à partir de la zone de travail.
+* **Supprimer** l’activité à partir de la zone de travail. Voir [cette section](#delete-activity).
 * **Désactivez/activez** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités qui suivent sur le même chemin ne sont pas exécutées et le workflow est arrêté.
 * **Mettez en pause/Reprenez** l’activité. Lorsque le workflow est exécuté, il s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 * **Copiez** l’activité. Voir [cette section](#copy).
@@ -103,6 +103,58 @@ Pour déplacer une activité, procédez comme suit :
 1. Sélectionnez la transition où vous souhaitez placer l’activité et sa transition sortante, puis confirmez.
 
 ![Déplacer l’activité et les nœuds enfants](assets/activity-move.png)
+
+## Supprimer et déconnecter les activités {#delete}
+
+### Suppression d’une activité {#delete-activity}
+
+Pour supprimer une activité, sélectionnez-la dans la zone de travail et cliquez sur l’icône **Supprimer** dans les propriétés de l’activité. Une boîte de dialogue de confirmation s’affiche.
+
+* Si l’activité n’est connectée à aucune autre activité, confirmez sa suppression.
+
+  ![Supprimer l’activité simple](assets/workflow-delete.png)
+
+* Si l’activité est connectée à une ou plusieurs activités suivantes, choisissez comment les gérer :
+
+  ![Supprimer le multiple d’activité](assets/workflow-delete2.png)
+
+  * **Supprimer toutes les activités suivantes** : supprime l’activité et chaque activité qui la suit sur le même chemin.
+  * **Supprimer uniquement cette activité** : supprime uniquement l’activité sélectionnée et reconnecte le chemin d’accès restant. Cette option n’est disponible que lorsque l’activité a un seul successeur.
+  * **Supprimer et créer une nouvelle branche** : supprime l’activité sélectionnée mais conserve ses activités suivantes, en les déplaçant dans une nouvelle branche distincte.
+
+Cliquez sur **Supprimer** pour confirmer votre choix, ou sur **Annuler** pour fermer la boîte de dialogue sans rien supprimer.
+
+### Déconnexion d’une transition {#disconnect-transition}
+
+Vous pouvez déconnecter deux activités sans supprimer aucune d’elles. Les activités placées après la transition déconnectée ne sont pas supprimées : elles sont déplacées dans une nouvelle branche distincte du workflow.
+
+Vous pouvez ainsi réorganiser un diagramme de workflow, par exemple pour mettre temporairement de côté un groupe d’activités que vous souhaitez conserver, sans avoir à les supprimer et à les recréer.
+
+Vous pouvez effectuer cette opération sur une seule transition :
+
+1. Sélectionnez la transition à déconnecter.
+
+1. Cliquez sur l’icône **Déconnecter** dans les propriétés de la transition.
+
+   ![Icône Déconnecter dans le volet des propriétés de la transition](assets/workflow-transition.png)
+
+   Cette icône n’est disponible que lorsque la transition mène à une activité en aval. Une boîte de dialogue de confirmation s’affiche.
+
+1. Cliquez sur **Déconnecter** pour confirmer ou sur **Annuler** pour fermer la boîte de dialogue sans rien déconnecter.
+
+   ![Boîte de dialogue de confirmation de déconnexion de la transition](assets/workflow-transition2.png)
+
+Si l’activité source comporte plusieurs transitions sortantes (par exemple, une activité **Partage** avec plusieurs branches de résultats ou une activité **Branchement**), vous pouvez supprimer l’une d’elles individuellement depuis le volet des propriétés de l’activité :
+
+1. Sélectionnez l’activité puis localisez la transition à supprimer dans la section **Segment**.
+
+1. Cliquez sur l’icône de corbeille en regard de cette transition. Une boîte de dialogue de confirmation s’affiche.
+
+   ![Icône Corbeille en regard d’un résultat de segment](assets/workflow-transition3.png)
+
+1. Cliquez sur **Supprimer** pour confirmer ou sur **Annuler** pour fermer la boîte de dialogue sans rien supprimer.
+
+   ![Boîte de dialogue de confirmation de suppression de la transition](assets/workflow-transition4.png)
 
 ## Options d’exécution {#execution}
 
@@ -155,9 +207,9 @@ Pour y parvenir, les activités suivantes ont été ajoutées :
 
 * une activité **[!UICONTROL Branchement]** qui divise le workflow en trois chemins (un pour chaque ensemble de clients et clientes)
 * des activités **[!UICONTROL Créer une audience]** destinées à cibler les trois ensembles de clients et clientes :
-   * les clients et clientes disposant d’une adresse e-mail
-   * les clientes et clients appartenant à l’audience préexistante « Intéressés par la ou les machines à café »
-   * les clientes et clients appartenant à l’audience préexistante « VIP ou récompense »
+  * les clients et clientes disposant d’une adresse e-mail
+  * les clientes et clients appartenant à l’audience préexistante « Intéressés par la ou les machines à café »
+  * les clientes et clients appartenant à l’audience préexistante « VIP ou récompense »
 * une activité **[!UICONTROL Combiner]** qui regroupe les clients et clientes disposant d’une adresse e-mail et ceux ou celles intéressés par les machines à café
 * une activité **[!UICONTROL Combiner]** qui exclut les clients et clientes VIP
 * une activité **[!UICONTROL Diffusion e-mail]** qui envoie un e-mail aux clients et clientes correspondants
