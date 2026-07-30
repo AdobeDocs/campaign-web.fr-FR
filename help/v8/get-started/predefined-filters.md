@@ -5,8 +5,8 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 TQID: https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+source-git-commit: a6d831e2fd3abf7701aac09b112baa6c0ef239cb
+workflow-type: tm+mt
 source-wordcount: 1061
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ Vous pouvez créer un filtre à partir de l’entrée **Filtres prédéfinis** d
 
 1. Définissez la règle pour le filtre. Par exemple, les profils de plus de 30 ans.
 
-   ![Règle de filtre pour les profils de plus de 30 ans](assets/filter-30+.png){zoomable="yes"}
+   ![Règle de filtre pour les profils de plus de 30 ans](assets/filter-30-plus.png){zoomable="yes"}
 
 1. Enregistrez vos modifications.
 
