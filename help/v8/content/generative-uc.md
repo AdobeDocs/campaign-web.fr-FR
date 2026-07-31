@@ -3,7 +3,8 @@ title: Générer des cas d’utilisation de contenu
 description: Découvrez à travers les cas d’utilisation comment utiliser l’IA pour générer du contenu
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1243

@@ -5,11 +5,20 @@ role: User
 level: Intermediate
 exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
 TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 2054
@@ -120,19 +129,19 @@ Ces demandes ne sont pas prises en charge et doivent être traitées par d’aut
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&amp;check; **Audience cible définie** : indique la population, le rôle ou le segment.
+&check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&amp;check; **Alignement sur le type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&check; **Alignement sur le type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&amp;check; **Sélections de liste déroulante configurées** : le ton, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
+&check; **Sélections de liste déroulante configurées** : le ton, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
 
-&amp;check; **Focalisation du document spécifiée** : met en évidence le contenu ou les sections à référencer.
+&check; **Focalisation du document spécifiée** : met en évidence le contenu ou les sections à référencer.
 
-&amp;check; **Marque appliquée** : les consignes de marque appropriées sont sélectionnées.
+&check; **Marque appliquée** : les consignes de marque appropriées sont sélectionnées.
 
-&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -142,11 +151,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Stimule les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
+&check; « Stimule les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&amp;check; « Génère des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
+&check; « Génère des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
 
-&amp;check; « Fais la promotion de notre réduction à durée limitée de 25 % sur les abonnements Premium, valable jusqu’au 25 décembre »
+&check; « Fais la promotion de notre réduction à durée limitée de 25 % sur les abonnements Premium, valable jusqu’au 25 décembre »
 
 **Exemples de ce qu’il faut éviter :**
 
@@ -163,11 +172,11 @@ Utilisez cette formule pour rédiger des objectifs efficaces : **Action + Produ
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Encourage les téléchargements de notre nouvelle application mobile qui permet aux utilisateurs et aux utilisatrices de suivre des habitudes de vie durables avec des recommandations personnalisées et écoresponsables »
+&check; « Encourage les téléchargements de notre nouvelle application mobile qui permet aux utilisateurs et aux utilisatrices de suivre des habitudes de vie durables avec des recommandations personnalisées et écoresponsables »
 
-&amp;check; « Fais la promotion de l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les spécialistes marketing »
+&check; « Fais la promotion de l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les spécialistes marketing »
 
-&amp;check; « Encourage la participation à notre événement de lancement de produit présentant l’assistant d’écriture IA révolutionnaire qui permet de gagner plus de 5 heures par semaine »
+&check; « Encourage la participation à notre événement de lancement de produit présentant l’assistant d’écriture IA révolutionnaire qui permet de gagner plus de 5 heures par semaine »
 
 **Exemples de ce qu’il faut éviter :**
 
