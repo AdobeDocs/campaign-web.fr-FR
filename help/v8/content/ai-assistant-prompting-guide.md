@@ -1,5 +1,5 @@
 ---
-title: Guide de création de prompt de contenu avec l’assistant IA
+title: Guide d’invite Generate Content
 description: Découvrez comment créer des prompts efficaces pour la génération de contenu optimisée par l’IA à l’aide du cadre CO-STAR afin de créer du contenu marketing à conversion élevée et aligné sur la marque.
 role: User
 level: Intermediate
@@ -19,21 +19,21 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 2055
-ht-degree: 100%
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 2054
+ht-degree: 97%
 
 ---
 
-# Bonnes pratiques relatives aux prompts de l’assistant IA {#ai-assistant-prompting-guide}
+# Bonnes pratiques relatives à l’invite de génération de contenu {#ai-assistant-prompting-guide}
 
-Ce guide vous aide à structurer les demandes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit des messages qui correspondent aux consignes de votre marque, aux besoins de l’audience et aux objectifs de vos campagnes.
-Découvrez comment rédiger des prompts efficaces pour que l’assistant IA génère du contenu marketing de qualité, conforme à la marque et adapté à vos objectifs.
+Ce guide vous aide à structurer vos requêtes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de vos campagnes.
+Découvrez comment écrire des invites efficaces qui permettent à l&#39;IA de générer du contenu marketing sur la marque de haute qualité adapté à vos objectifs.
 
 ## Utiliser le cadre CO-STAR {#costar-framework}
 
-Pour obtenir les meilleurs résultats avec l’assistant IA, organisez vos prompts en utilisant le cadre CO-STAR. Cette approche structurée garantit que l’IA comprend exactement ce dont vous avez besoin.
+Pour de meilleurs résultats avec Générer du contenu, organisez vos invites à l&#39;aide du framework CO-STAR. Cette approche structurée garantit que l’IA comprend exactement ce dont vous avez besoin.
 
 | Composant | Signification | Pourquoi est-ce important ? |
 |-|-|-|
@@ -129,19 +129,19 @@ Ces demandes ne sont pas prises en charge et doivent être traitées par d’aut
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&amp;check; **Audience cible définie** : indique la population, le rôle ou le segment.
+&check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&amp;check; **Alignement sur le type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&check; **Alignement sur le type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&amp;check; **Sélections de liste déroulante configurées** : le ton, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
+&check; **Sélections de liste déroulante configurées** : le ton, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
 
-&amp;check; **Focalisation du document spécifiée** : met en évidence le contenu ou les sections à référencer.
+&check; **Focalisation du document spécifiée** : met en évidence le contenu ou les sections à référencer.
 
-&amp;check; **Marque appliquée** : les consignes de marque appropriées sont sélectionnées.
+&check; **Marque appliquée** : les consignes de marque appropriées sont sélectionnées.
 
-&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -151,11 +151,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Stimule les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
+&check; « Stimule les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&amp;check; « Génère des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
+&check; « Génère des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
 
-&amp;check; « Fais la promotion de notre réduction à durée limitée de 25 % sur les abonnements Premium, valable jusqu’au 25 décembre »
+&check; « Fais la promotion de notre réduction à durée limitée de 25 % sur les abonnements Premium, valable jusqu’au 25 décembre »
 
 **Exemples de ce qu’il faut éviter :**
 
@@ -172,11 +172,11 @@ Utilisez cette formule pour rédiger des objectifs efficaces : **Action + Produ
 
 **Exemples de bons objectifs :**
 
-&amp;check; « Encourage les téléchargements de notre nouvelle application mobile qui permet aux utilisateurs et aux utilisatrices de suivre des habitudes de vie durables avec des recommandations personnalisées et écoresponsables »
+&check; « Encourage les téléchargements de notre nouvelle application mobile qui permet aux utilisateurs et aux utilisatrices de suivre des habitudes de vie durables avec des recommandations personnalisées et écoresponsables »
 
-&amp;check; « Fais la promotion de l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les spécialistes marketing »
+&check; « Fais la promotion de l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les spécialistes marketing »
 
-&amp;check; « Encourage la participation à notre événement de lancement de produit présentant l’assistant d’écriture IA révolutionnaire qui permet de gagner plus de 5 heures par semaine »
+&check; « Encourage la participation à notre événement de lancement de produit présentant l’assistant d’écriture IA révolutionnaire qui permet de gagner plus de 5 heures par semaine »
 
 **Exemples de ce qu’il faut éviter :**
 

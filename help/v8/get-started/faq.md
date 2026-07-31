@@ -7,10 +7,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 865
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Pour savoir par où commencer, consultez [cette page](../get-started/get-started
 
 +++ Quelles sont les nouvelles fonctionnalités de la nouvelle interface d’utilisation web ?
 
-La nouvelle interface d’utilisation d’Adobe Campaign v8 est cohérente avec Adobe Experience Platform et a été conçue pour un marketing plus efficace. La nouvelle zone de travail des workflows fournit un espace de travail intuitif et avancé pour la composition d’audiences, la gestion des workflows et la conception de contenu, ainsi que des cas d’utilisation intégrés à des applications natives Adobe Experience Platform telles que Journey Optimizer et Real-Time CDP. Stimulez la créativité, augmentez la productivité et personnalisez les campagnes cross-canal à grande échelle avec l’assistant IA, nativement intégré au concepteur de messages WYSIWYG.
+La nouvelle interface d’utilisation d’Adobe Campaign v8 est cohérente avec Adobe Experience Platform et a été conçue pour un marketing plus efficace. La nouvelle zone de travail des workflows fournit un espace de travail intuitif et avancé pour la composition d’audiences, la gestion des workflows et la conception de contenu, ainsi que des cas d’utilisation intégrés à des applications natives Adobe Experience Platform telles que Journey Optimizer et Real-Time CDP. Stimulez la créativité, augmentez la productivité et personnalisez les campagnes cross-canal à l’échelle avec Generate Content (Générer du contenu), nativement intégré au concepteur de messages de WYSIWYG.
 
 Les spécialistes du marketing peuvent utiliser l’IA générative pour créer des e-mails HTML complets et générer du texte et des images avec des suggestions d’améliorations et de variantes. Vous pouvez consulter les nouvelles fonctionnalités sur [cette page](../rn/whats-new.md). Pour en savoir plus sur la nouvelle interface et la voir en action, consultez [cette page](../get-started/user-interface.md). De plus, vous pouvez consulter les [tutoriels](https://experienceleague.adobe.com/fr/docs/campaign-web-learn/tutorials/overview){target="_blank"} pour en savoir plus sur la nouvelle interface grâce à une série de vidéos.
 
@@ -64,7 +64,7 @@ Pour accéder à la nouvelle interface d’utilisation, vous devez utiliser Adob
 
 +++ Cela signifie-t-il qu’Adobe Campaign Classic v7 ne va plus être pris en charge ?
 
-Consultez la page [Produits et périodes du support technique ](https://helpx.adobe.com/fr/support/programs/eol-matrix.html){target="_blank"} pour connaître les dates de fin de prise en charge d’Adobe Campaign Classic v7.
+Consultez la page [Produits et périodes du support technique &#x200B;](https://helpx.adobe.com/fr/support/programs/eol-matrix.html){target="_blank"} pour connaître les dates de fin de prise en charge d’Adobe Campaign Classic v7.
 
 +++
 

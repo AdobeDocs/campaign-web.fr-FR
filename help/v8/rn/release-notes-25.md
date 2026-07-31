@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
-source-wordcount: 3032
-ht-degree: 100%
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 3030
+ht-degree: 98%
 
 ---
 
@@ -375,7 +375,8 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et personnaliser vos propres marques pour définir clairement votre identité visuelle et verbale dans les communications. Grâce au score d’alignement de la marque, vous pouvez recevoir des commentaires en temps réel sur la manière dont votre contenu reflète le ton, le style et les directives de votre marque, ce qui vous permet de rester constamment en phase avec la marque pour chaque message envoyé.</p>
+<p>Vous pouvez désormais créer et personnaliser vos propres marques pour définir clairement votre identité visuelle et verbale dans les communications. Grâce au score d’alignement de la marque, vous pouvez recevoir des commentaires en temps réel sur la manière dont votre contenu reflète le ton, le style et les directives de votre marque, ce qui vous permet de rester constamment en phase avec la marque pour chaque message envoyé.
+</p>
 <p>Pour plus d'informations, consultez la <a href="../content/brands.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -435,7 +436,8 @@ table>
 <tr>
 <td>
 <p>Vous pouvez désormais accéder aux rapports dynamiques qui fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Les rapports dynamiques sont également disponibles pour les diffusions d’e-mails multilingues et les messages transactionnels.</p>
-<p>Cette fonctionnalité n’est disponible qu’à la demande. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.<p>Pour plus d'informations, consultez la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentation détaillée</a>.</p>
+<p>Cette fonctionnalité n’est disponible qu’à la demande. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.
+<p>Pour plus d'informations, consultez la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -451,7 +453,8 @@ table>
 <tr>
 <td>
 <p>Les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux landing pages ainsi que les paramètres de suivi des messages. Vous pouvez créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles. Les options de branding sont désormais disponibles pour tous les canaux, y compris les SMS et le courrier.</p>
-<p>Cette fonctionnalité n’est disponible qu’à la demande, pour les nouvelles implémentations. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.<p>Pour plus d'informations, consultez la <a href="../administration/branding/branding-gs.md">documentation détaillée</a>.</p>
+<p>Cette fonctionnalité n’est disponible qu’à la demande, pour les nouvelles implémentations. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.
+<p>Pour plus d'informations, consultez la <a href="../administration/branding/branding-gs.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -523,13 +526,13 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * Les améliorations suivantes des landing pages sont désormais disponibles :
 
-   * Vous pouvez désormais référencer une page de destination d’abonnement/de désinscription par défaut lors de la configuration d’un service. Lors de la conception d’un e-mail, si vous définissez un lien vers cette page de destination, les utilisateurs et utilisatrices qui envoient le formulaire de la page de destination sont automatiquement abonnés à ce service ou désinscrits de ce service. [En savoir plus](../audience/manage-services.md#create-service)
-   * Une nouvelle option de configuration de page de destination permet aux visiteurs et visiteuses anonymes d’accéder à la page de destination. Si vous désélectionnez cette option, seuls les utilisateurs et les utilisatrices identifiés peuvent accéder au formulaire et l’envoyer. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
-   * Une nouvelle option de configuration de page de destination permet de stocker des données internes supplémentaires lors de l’envoi de la page de destination. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
-   * Une nouvelle option permet d’utiliser une page de destination pour plusieurs services, ce qui la rend dynamique. Lors de l’ajout d’un lien vers un e-mail, si vous sélectionnez une page de destination dynamique, vous pouvez sélectionner n’importe quel service. Si vous sélectionnez une page de destination associée à un service spécifique, ce service sera automatiquement utilisé (vous ne pouvez pas en sélectionner un autre). [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * Le contenu conditionnel est désormais pris en charge dans les landing pages. [En savoir plus](../landing-pages/lp-content.md)
-   * Vous pouvez lier une page de destination à un service et envoyer un message de confirmation lorsque des utilisateurs et utilisatrices la valident. [En savoir plus](../landing-pages/lp-content.md#lp-message)
-   * Vous pouvez ajouter un captcha pour protéger votre page de destination contre les spams et les abus causés par les robots. Il ne présente pas d’intrusion par rapport à vos clients, car il ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. [En savoir plus](../landing-pages/create-lp.md#captcha)
+  * Vous pouvez désormais référencer une page de destination d’abonnement/de désinscription par défaut lors de la configuration d’un service. Lors de la conception d’un e-mail, si vous définissez un lien vers cette page de destination, les utilisateurs et utilisatrices qui envoient le formulaire de la page de destination sont automatiquement abonnés à ce service ou désinscrits de ce service. [En savoir plus](../audience/manage-services.md#create-service)
+  * Une nouvelle option de configuration de page de destination permet aux visiteurs et visiteuses anonymes d’accéder à la page de destination. Si vous désélectionnez cette option, seuls les utilisateurs et les utilisatrices identifiés peuvent accéder au formulaire et l’envoyer. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
+  * Une nouvelle option de configuration de page de destination permet de stocker des données internes supplémentaires lors de l’envoi de la page de destination. [En savoir plus](../landing-pages/create-lp.md#create-landing-page)
+  * Une nouvelle option permet d’utiliser une page de destination pour plusieurs services, ce qui la rend dynamique. Lors de l’ajout d’un lien vers un e-mail, si vous sélectionnez une page de destination dynamique, vous pouvez sélectionner n’importe quel service. Si vous sélectionnez une page de destination associée à un service spécifique, ce service sera automatiquement utilisé (vous ne pouvez pas en sélectionner un autre). [En savoir plus](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * Le contenu conditionnel est désormais pris en charge dans les landing pages. [En savoir plus](../landing-pages/lp-content.md)
+  * Vous pouvez lier une page de destination à un service et envoyer un message de confirmation lorsque des utilisateurs et utilisatrices la valident. [En savoir plus](../landing-pages/lp-content.md#lp-message)
+  * Vous pouvez ajouter un captcha pour protéger votre page de destination contre les spams et les abus causés par les robots. Il ne présente pas d’intrusion par rapport à vos clients, car il ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. [En savoir plus](../landing-pages/create-lp.md#captcha)
 
 ## Version du 25 juin {#25-6-release}
 
@@ -545,9 +548,9 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * La « condition humaine » dans le créateur de règles a été améliorée. Il s’agit de la version écrite en langage clair de vos règles, affichée en bas de l’écran :
 
-   * Les attributs sont maintenant mis en surbrillance et le schéma associé s’affiche.
-   * Vous pouvez cliquer sur ces éléments pour afficher des informations plus détaillées.
-   * Vous pouvez désormais copier la condition humaine à l’aide du bouton correspondant.
+  * Les attributs sont maintenant mis en surbrillance et le schéma associé s’affiche.
+  * Vous pouvez cliquer sur ces éléments pour afficher des informations plus détaillées.
+  * Vous pouvez désormais copier la condition humaine à l’aide du bouton correspondant.
 
 * L’accès aux dossiers « Workflows techniques » et « Objets créés automatiquement » est désormais restreint afin de les empêcher d’être consultés. [En savoir plus](../get-started/work-with-folders.md#about-folders)
 
@@ -850,15 +853,15 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <table>
 <thead>
 <tr>
-<th><strong>Génération de page de destination avec l’assistant IA</strong><br/></th>
+<th><strong>Génération de la page de destination avec l’option Générer le contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’assistant IA est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
+<p>L’option Générer du contenu est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Pour plus d’informations sur l’assistant IA, consultez la <a href="../content/generative-full-content.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations sur l’option Générer du contenu , consultez la <a href="../content/generative-full-content.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -869,10 +872,10 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 
 * Personnalisez l’affichage des champs personnalisés dans l’interface :
 
-   * Vous pouvez désormais sélectionner d’autres champs personnalisés à afficher dans l’interface.
-   * Vous pouvez désormais définir des règles pour l’affichage des champs personnalisés de type lien, par exemple en limitant les valeurs de liste en fonction de l’entrée d’un autre champ.
-   * Vous pouvez désormais organiser les champs dans l’interface avec plus de flexibilité : les champs peuvent s’étendre sur une seule colonne ou être regroupés en sous-sections pour une meilleure organisation.
-   * Vous pouvez désormais définir des champs spécifiques en lecture seule.
+  * Vous pouvez désormais sélectionner d’autres champs personnalisés à afficher dans l’interface.
+  * Vous pouvez désormais définir des règles pour l’affichage des champs personnalisés de type lien, par exemple en limitant les valeurs de liste en fonction de l’entrée d’un autre champ.
+  * Vous pouvez désormais organiser les champs dans l’interface avec plus de flexibilité : les champs peuvent s’étendre sur une seule colonne ou être regroupés en sous-sections pour une meilleure organisation.
+  * Vous pouvez désormais définir des champs spécifiques en lecture seule.
 
 * Filtres récents et favoris : pour réutiliser rapidement des attributs fréquemment utilisés, vous pouvez désormais les ajouter aux favoris. Cela permet de s’assurer qu’ils sont facilement accessibles pour les tâches futures. Outre les favoris, vous pouvez également afficher et utiliser les derniers attributs sélectionnés.
 

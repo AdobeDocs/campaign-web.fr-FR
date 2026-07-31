@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1327
-ht-degree: 100%
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 1326
+ht-degree: 96%
 
 ---
 
@@ -85,13 +85,13 @@ Utilisez la nouvelle interface utilisateur web de Campaign pour :
 * Surveiller l’envoi et la mesure des résultats à l’aide de rapports intégrés - [En savoir plus](../reporting/delivery-reports.md)
 
 
-**Génération de contenu avec l’assistant IA**
+**Génération de contenu avec l’option Générer le contenu**
 
 Dites adieu à la pénibilité de la création manuelle de contenu et embarquez dans une nouvelle ère de campagnes optimisées avec notre concepteur de contenu innovant, basé sur Microsoft Azure OpenAI et Adobe Firefly.
 
-Redéfinissez la diffusion de contenu à l’aide de notre éditeur de glisser-déposer WYSIWYG avancé, conçu pour vous assurer plus de simplicité et d’efficacité. Bénéficiant d’une intégration transparente à AEM, de fonctionnalités de contenu dynamique et d’un assistant IA capable de révolutionner vos habitudes, cet outil tout-en-un rend la création de diffusions intuitive, efficace et hautement personnalisée.
+Redéfinissez la diffusion de contenu à l’aide de notre éditeur de glisser-déposer WYSIWYG avancé, conçu pour vous assurer plus de simplicité et d’efficacité. Doté d’une intégration transparente d’AEM, de fonctionnalités de contenu dynamique et du service révolutionnaire Generate Content, cet outil tout-en-un rend la création de diffusions intuitive, efficace et hautement personnalisée.
 
-Exploitez la puissance des algorithmes avancés de l’assistant IA pour créer du contenu attrayant et personnalisé qui génère des résultats. Augmentez vos taux d’ouverture, vos clics publicitaires et vos conversions grâce à une génération de contenu intelligente pilotée par l’IA. En savoir plus dans [cette section](../content/generative-gs.md).
+Tirez parti de la puissance des algorithmes avancés de l’IA pour créer du contenu attrayant et personnalisé qui génère des résultats. Augmentez vos taux d’ouverture, vos clics publicitaires et vos conversions grâce à une génération de contenu intelligente pilotée par l’IA. En savoir plus dans [cette section](../content/generative-gs.md).
 
 **Nouvelles activités de workflow de campagne repensées**
 
