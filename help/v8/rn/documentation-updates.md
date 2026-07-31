@@ -5,12 +5,11 @@ description: Mises à jour de la documentation d’Adobe Campaign Web
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 138
-ht-degree: 53%
+ht-degree: 33%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 53%
 
 Cette page répertorie toutes les mises à jour de la documentation d’Adobe Campaign Web.
 
-## Juin 2026 {#june-2026}
+## Juin 2026 {#june-2026}
 
 * Ajout d’une note sur les exigences en matière d’encodage pour les diffusions de publipostage direct ciblant les langues CJC (japonais, coréen, chinois simplifié, chinois traditionnel). Le codage Latin-1 (1252) par défaut ne peut pas représenter les caractères CJK, ce qui entraîne un aperçu de fichier vide. Les utilisateurs doivent sélectionner UTF-8 (65001) dans les paramètres Format d’extraction . [En savoir plus](../direct-mail/content-direct-mail.md)
 * Ajout d&#39;une page sur les conseils de la CNIL pour les pixels de tracking email et les fonctionnalités Adobe Campaign associées. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
@@ -27,5 +26,5 @@ Cette page répertorie toutes les mises à jour de la documentation d’Adobe C
 
 **Date : 1er décembre 2025**
 
-* Réorganisation du guide de documentation de l’assistant IA avec des pages consolidées pour la [génération de contenu complet](../content/generative-full-content.md), la [génération de texte](../content/generative-text.md) et la [génération d’images](../content/generative-image.md).
-* Ajout du [guide des bonnes pratiques en matière de prompts avec l’assistant IA](../content/ai-assistant-prompting-guide.md) pour aider les utilisateurs et utilisatrices à créer des prompts efficaces.
+* Réorganisation du guide de documentation Generate Content avec des pages consolidées pour [génération de contenu complet](../content/generative-full-content.md), [génération de texte](../content/generative-text.md) et [génération d’images](../content/generative-image.md)
+* Ajout du [guide des bonnes pratiques relatives à l’invite Generate Content](../content/ai-assistant-prompting-guide.md) pour aider les utilisateurs à créer des invites efficaces

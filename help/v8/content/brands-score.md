@@ -4,16 +4,13 @@ title: Alignement sur la marque
 description: Découvrez comment créer, valider et gérer du contenu conforme à la marque à l’aide du score de marque.
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 TQID: https://experienceleague.adobe.com/j4YLHVWdNYp0UDaf0CNTKqI-qpO4XjDuOJF9NIAEJK0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 511
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 510
+ht-degree: 97%
 
 ---
 
@@ -21,11 +18,11 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’assistant IA. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser Générer du contenu. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 La fonction de révision du contenu fournit des outils d’évaluation complets permettant de mesurer la conformité de vos campagnes avec les directives de votre marque et de maintenir les normes de qualité du contenu dans toutes les communications :
 
-* **Alignement sur la marque** : vérifier et gérer du contenu conforme à vos directives de marque.Cela garantit la cohérence du ton, du message et de l’identité visuelle dans vos campagnes par e-mail.
+* **Alignement sur la marque** : vérifier et gérer du contenu conforme à vos directives de marque. Cela garantit la cohérence du ton, du message et de l’identité visuelle dans vos campagnes par e-mail.
 * **Vérification de la qualité** : validez votre contenu avant sa mise en ligne pour maintenir des normes élevées et l’intégrité de la marque.
 
 ## Valider le contenu avec l’alignement sur la marque {#validate-content}
@@ -62,7 +59,7 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
 >[!NOTE]
 >
->L’évaluation de la qualité du contenu est indépendante des directives de la marque.Même si une marque est sélectionnée dans le menu déroulant, ses directives ne sont pas appliquées au contrôle qualité.La sélection de la marque n’est pertinente que pour la notation de l’alignement de la marque.
+>L’évaluation de la qualité du contenu est indépendante des directives de la marque. Même si une marque est sélectionnée dans le menu déroulant, ses directives ne sont pas appliquées au contrôle qualité. La sélection de la marque n’est pertinente que pour la notation de l’alignement de la marque.
 
 Outre l’alignement de la marque, vous pouvez évaluer la qualité générale du contenu afin d’identifier les problèmes potentiels de lisibilité, de cohésion du contenu et d’efficacité, indépendamment des directives de votre marque.
 
@@ -86,7 +83,7 @@ Pour évaluer la qualité de votre contenu :
 
    ![](assets/quality-score-4.png)
 
-1. Sélectionnez un élément avec indicateur pour afficher des commentaires spécifiques et des suggestions d’amélioration exploitables.Les scores sont basés sur les catégories suivantes :
+1. Sélectionnez un élément avec indicateur pour afficher des commentaires spécifiques et des suggestions d’amélioration exploitables. Les scores sont basés sur les catégories suivantes :
 
    * **[!UICONTROL Efficacité de CTA]** : évalue dans quelle mesure votre appel à l’action motive les lecteurs et lectrices à effectuer l’action souhaitée.
    * **[!UICONTROL Objet]** : évalue la clarté, la pertinence et la qualité pour attirer l’attention afin d’encourager les ouvertures d’e-mails.

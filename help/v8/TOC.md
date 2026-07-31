@@ -6,10 +6,10 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 nudge: true
-source-git-commit: 68812d0fd77a150e21c40bbae2bb930ddf84a8a0
+source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 96%
       + [Ajouter un fichier CSS personnalisé](email/custom-css.md)
       + [Gérer le contenu en mode sombre](email/dark-mode.md)
     + [Créer du contenu accessible](email/accessible-content.md)
-  + Assistant IA {#ai-assistant}
-    + [Utiliser l’assistant IA](content/generative-gs.md)
+  + Generate Content {#ai-assistant}
+    + [Utilisation de l’option Générer du contenu](content/generative-gs.md)
     + [Bonnes pratiques en matière de prompts d’IA](content/ai-assistant-prompting-guide.md)
     + [Génération de contenu complet avec l’IA](content/generative-full-content.md)
     + [Génération de texte avec l’IA](content/generative-text.md)
     + [Génération d’images avec l’IA](content/generative-image.md)
-    + [Cas d’utilisation de l’assistant IA](content/generative-uc.md)
+    + [Générer des cas d’utilisation de contenu](content/generative-uc.md)
     + Marques {#ai-assistant}
       + [Créer et gérer vos marques](content/brands.md)
       + [Personnaliser votre marque](content/brands-personalize.md)
@@ -306,7 +306,7 @@ ht-degree: 96%
     + [Créer et publier des schémas](administration/schemas-create-publish.md)
     + [Utiliser les formulaires personnalisés](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Configurer des champs personnalisés](administration/custom-fields.md)
-  + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
   + [Gestion du fuseau horaire](administration/timezone-management.md)
   + Comptes externes {#external-accounts}
     + [Créer des comptes externes](administration/create-external-account.md)

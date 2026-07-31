@@ -5,30 +5,16 @@ role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -67,14 +53,14 @@ Les améliorations clés apportées à Adobe Campaign v8 sont répertoriées c
 
   Adobe Campaign v8 tire parti des technologies de base de données avancées à l’échelle du cloud, ce qui se traduit par une amélioration significative des performances et de l’efficacité. Cette architecture repensée offre plusieurs avantages clés :
 
-   * *Échelle* : le système prend désormais en charge une augmentation substantielle des fonctionnalités de traitement, avec un débit de traitement par lot pouvant atteindre **20 millions d’opérations par heure**. Avec cette nouvelle architecture, il est possible de gérer des profils encore plus élevés avec des performances prévisibles.
-   * *Vitesse* : le système a été amélioré pour n’importe quelle activité marketing : segmentation, préparation de diffusion ou débit pour les messages transactionnels, qui s’élève désormais à **1 million par heure**.
+  * *Échelle* : le système prend désormais en charge une augmentation substantielle des fonctionnalités de traitement, avec un débit de traitement par lot pouvant atteindre **20 millions d’opérations par heure**. Avec cette nouvelle architecture, il est possible de gérer des profils encore plus élevés avec des performances prévisibles.
+  * *Vitesse* : le système a été amélioré pour n’importe quelle activité marketing : segmentation, préparation de diffusion ou débit pour les messages transactionnels, qui s’élève désormais à **1 million par heure**.
 
   Les services cloud entièrement gérés fournissent aux utilisateurs et utilisatrices les avantages suivants :
 
-   * Exploration des données en temps réel : accédez instantanément aux données et analysez-les pour obtenir des aperçus rapides et prendre des décisions plus éclairées.
+  * Exploration des données en temps réel : accédez instantanément aux données et analysez-les pour obtenir des aperçus rapides et prendre des décisions plus éclairées.
 
-   * Création rapide d’audiences : créez facilement des audiences ciblées en quelques minutes pour une segmentation des campagnes plus efficace.
+  * Création rapide d’audiences : créez facilement des audiences ciblées en quelques minutes pour une segmentation des campagnes plus efficace.
 
   Dans l’ensemble, l’architecture robuste d’Adobe Campaign v8 constitue une base puissante pour la gestion de campagnes marketing complexes et étendues, avec une vitesse et une efficacité accrues.
 
@@ -92,9 +78,9 @@ En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Adobe Cam
 
   Vous pouvez personnaliser vos notifications en fonction du système de la cliente ou du client :
 
-   * Pour les modèles [Android](../../v8/push/rich-push.md)
+  * Pour les modèles [Android](../../v8/push/rich-push.md)
 
-   * Pour les modèles [iOS](../../v8/push/rich-push.md)
+  * Pour les modèles [iOS](../../v8/push/rich-push.md)
 
   Les notifications push constituent un outil essentiel pour impliquer les utilisateurs et utilisatrices d’applications mobiles, ce qui vous permet de les atteindre même lorsqu’ils n’utilisent pas activement votre application.
 
@@ -104,29 +90,29 @@ En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Adobe Cam
 
   Les principales fonctionnalités activées par cette intégration sont les suivantes :
 
-   * *Gestion des ressources* : dans Adobe Campaign v8, le concepteur d’e-mail fournit un sélecteur pour accéder aux ressources et les gérer. Cette fonctionnalité simplifie l’intégration d’éléments d’Adobe Experience Manager dans votre diffusion, rendant ainsi la gestion de contenu plus efficace. [En savoir plus sur la gestion des ressources](../../v8/integrations/aem-assets.md)
+  * *Gestion des ressources* : dans Adobe Campaign v8, le concepteur d’e-mail fournit un sélecteur pour accéder aux ressources et les gérer. Cette fonctionnalité simplifie l’intégration d’éléments d’Adobe Experience Manager dans votre diffusion, rendant ainsi la gestion de contenu plus efficace. [En savoir plus sur la gestion des ressources](../../v8/integrations/aem-assets.md)
 
-     ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *Import de modèle d’e-mail* : Adobe Campaign v8 vous permet de parcourir et d’importer directement des modèles d’e-mail d’Adobe Experience Manager dans Campaign. [En savoir plus sur l’import de modèle d’e-mail](../../v8/integrations/aem-content.md)
+  * *Import de modèle d’e-mail* : Adobe Campaign v8 vous permet de parcourir et d’importer directement des modèles d’e-mail d’Adobe Experience Manager dans Campaign. [En savoir plus sur l’import de modèle d’e-mail](../../v8/integrations/aem-content.md)
 
-     ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
   Adobe Experience Manager as a Cloud Service offre une agilité cloud native, ce qui vous permet d’accélérer le temps d’évaluation et de vous adapter à l’évolution des besoins de l’entreprise. Cette intégration permet non seulement d’améliorer vos fonctionnalités de gestion de contenu, mais également de proposer à vos clientes et clients des expériences plus personnalisées et plus attrayantes sur tous les points de contact.
 
-* **Assistant IA**
+* **Générer le contenu**
 
-  L’assistant IA de Campaign rend la création et l’exécution de campagnes marketing sur plusieurs canaux (comme les e-mails, les SMS et les notifications push) intuitives, simples et sans accroc tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats.
+  Le contenu généré par Campaign rend la création et l’exécution de campagnes marketing sur plusieurs canaux tels que les e-mails, les SMS et les notifications push intuitives, simples et sans tracas, tout en permettant de gagner du temps, d’améliorer l’efficacité et d’obtenir de meilleurs résultats.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  L’assistant IA révolutionne la manière dont vous créez du contenu de marque professionnel et cohérent sur les canaux. Grâce aux modèles avancés de GenAI et à une compréhension approfondie des directives de votre marque, l’assistant IA génère automatiquement du contenu personnalisé, attrayant et efficace en fonction de l’objectif marketing, avec un contenu optimisé pour les styles, les mises en page, le ton et bien plus encore.
+  Générer du contenu révolutionne la façon dont vous créez du contenu professionnel et cohérent sur l’ensemble des canaux. Grâce aux modèles GenAI avancés et à une compréhension approfondie de vos directives de marque, Générer du contenu génère automatiquement du contenu personnalisé, attrayant et efficace en fonction de l’objectif marketing avec du contenu optimisé pour les styles de contour de la marque, les mises en page, le ton, etc.
 
-  L’assistant IA rend la création et l’exécution de campagnes marketing intuitives, simples et sans accroc tout en gagnant du temps, en améliorant l’efficacité et en obtenant de meilleurs résultats.
+  L’option Générer du contenu rend la création et l’exécution des campagnes marketing intuitives, simples et sans tracas, tout en permettant de gagner du temps, d’améliorer l’efficacité et de générer de meilleurs résultats.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Il fournit une variante de modèles d’e-mail et génère et génère à nouveau des images. En savoir plus sur l’assistant IA dans [cette section](../../v8/content/generative-full-content.md). Adobe Campaign v8 comprend un assistant IA disponible pour les canaux [E-mail](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) et [Push](../../v8/content/generative-full-content.md).
+  Il fournit une variante de modèles d’e-mail et génère et génère à nouveau des images. En savoir plus sur la fonction Générer du contenu dans [cette section](../../v8/content/generative-full-content.md). Adobe Campaign v8 dispose de la fonctionnalité Générer du contenu disponible pour les [e-mails](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) et [notifications push](../../v8/content/generative-full-content.md).
 
 * **Infrastructure SMS mise à niveau - SMS v2.0**
 
@@ -249,5 +235,5 @@ Accédez au guide de référence approprié pour votre rôle afin de découvrir 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/fr/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->
