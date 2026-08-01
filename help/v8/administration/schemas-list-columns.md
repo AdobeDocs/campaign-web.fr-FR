@@ -15,7 +15,7 @@ ht-degree: 77%
 >id="acw_schema_inventory_list_configuration"
 >title="Configuration de la liste d’inventaire"
 >abstract="Configurez les colonnes affichées par défaut dans les vues de liste. Chaque colonne affiche son libellé et l’attribut correspondant. Ajoutez des filtres personnalisés pour afficher les champs de filtre d’accès rapide dans le volet Filtres de la vue Liste."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="Ajouter des filtres personnalisés"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=fr" text="Ajouter des filtres personnalisés"
 
 La section **[!UICONTROL Configuration de la liste d’inventaire]** vous permet de configurer les colonnes affichées par défaut dans les vues Liste. Chaque colonne affiche son libellé et l’attribut correspondant.
 
