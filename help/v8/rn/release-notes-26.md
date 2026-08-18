@@ -2,16 +2,117 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de l’interface d’utilisation web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
+source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 98%
+source-wordcount: '2025'
+ht-degree: 72%
 
 ---
 
 # Notes de mise à jour 2026 {#2026-release}
 
 Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions 2026**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
+
+## Version du 26 juillet {#26-7-release}
+
+_28 juillet 2026_
+
+### Nouvelles fonctionnalités {#26-7-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestion des offres</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais gérer les offres de bout en bout directement à partir de l’interface utilisateur web de Campaign. Configurez les environnements d'offres et les emplacements, créez votre catalogue d'offres et vos catégories, créez des offres avec des règles d'éligibilité et des poids de priorité, puis validez et déployez-les pour les utiliser dans vos diffusions. Les configurations avancées restent disponibles dans la console cliente.</p>
+<p>Pour plus d’informations, consultez la <a href="../offers/gs-offer-management.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Paramétrage des marques</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les administrateurs techniques peuvent désormais créer et configurer des marques directement à partir de l’interface utilisateur web de Campaign, sans utiliser la console cliente. Tous les paramètres de marque, notamment l’identité, le sous-domaine et les protocoles, les paramètres d’en-tête des e-mails et les paramètres de tracking des URL, sont désormais disponibles dans l’interface utilisateur web.</p>
+<p>Pour plus d’informations, consultez la <a href="../administration/branding/branding-configure.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Ressources publiques dans le Designer Email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Lors de l’ajout d’images à vos e-mails, vous pouvez désormais sélectionner <strong>ressources publiques</strong>. Vous pouvez ainsi choisir une image déjà disponible sur votre instance Adobe Campaign, telle qu’un fichier précédemment importé dans le Designer de messagerie ou une ressource publique téléchargée à partir de la console cliente.</p>
+<p>Pour plus d’informations, consultez la <a href="../email/content-components.md#image">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité de workflow Chargement (SGBD)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’activité <strong> Chargement (SGBD)</strong> est désormais disponible dans l’interface utilisateur web de Campaign. Utilisez cette activité pour charger des données directement à partir d’une base de données relationnelle externe dans votre workflow. Les données extraites sont disponibles dans l’ensemble du workflow et peuvent être utilisées à des fins de ciblage, d’enrichissement ou de traitement des données ultérieur.</p>
+<p>Pour plus d’informations, consultez la <a href="../workflows/activities/data-loading-rdbms.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Pages dynamiques JavaScript</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les pages Dynamic JavaScript (JSSP) vous permettent de créer des pages côté serveur, qui génèrent du contenu dynamique lors d’un accès via une URL, tel que des API personnalisées, des exports ou une logique d’application web. Vous pouvez désormais créer, modifier, dupliquer et supprimer ces pages directement depuis l’interface utilisateur web de Campaign.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/dynamic-javascript-pages.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations {#26-7-improvements}
+
+* Les améliorations suivantes ont été apportées à **configuration de schéma personnalisé** :
+  * La nouvelle section **Données d’action** vous permet de restreindre les actions disponibles sur les enregistrements d’un schéma personnalisé, quelles que soient les règles de sécurité configurées sur des dossiers individuels. [En savoir plus](../administration/schemas-action-data.md)
+  * Des **filtres personnalisés** ont été ajoutés dans la section **Configuration de la liste d’inventaire**. Ils vous permettent de choisir les attributs qui s’affichent en tant que champs d’accès rapide dans le volet Filtres de la vue Liste. [En savoir plus](../administration/schemas-custom-filters.md)
+
+* Les améliorations suivantes ont été apportées aux **workflows** :
+  * La suppression d’une activité de workflow est désormais plus flexible : lorsque l’activité comporte d’autres activités, vous pouvez choisir de toutes les supprimer, de ne supprimer que l’activité sélectionnée ou de la supprimer tout en conservant ses activités suivantes dans une nouvelle branche. [En savoir plus](../workflows/orchestrate-activities.md#delete-activity)
+  * Vous pouvez désormais déconnecter une transition entre deux activités de workflow sans supprimer l’une ou l’autre. Vous pouvez ainsi réorganiser un diagramme de workflow, par exemple pour mettre temporairement de côté un groupe d’activités que vous souhaitez conserver, sans avoir à les supprimer et à les recréer. [En savoir plus](../workflows/orchestrate-activities.md#disconnect-transition)
+  * Des barres de défilement horizontales et verticales s’affichent désormais autour de la zone de travail des workflows. Vous pouvez ainsi parcourir les workflows volumineux en faisant glisser directement la souris sur la zone à afficher. [En savoir plus](../workflows/orchestrate-activities.md)
+  * Lors de l’enregistrement ou du démarrage/redémarrage d’un workflow, un avertissement s’affiche désormais si un autre utilisateur ou une autre utilisatrice a modifié le workflow dans l’interface utilisateur web ou la console cliente depuis que vous l’avez ouvert. Vous pouvez choisir de remplacer les autres modifications par les vôtres, de recharger le workflow pour obtenir la dernière version ou d’annuler.
+
+* **Adresse e-mail de l’expéditeur** : vous pouvez désormais restreindre le champ **E-mail de l’expéditeur** de vos diffusions à une liste prédéfinie d’adresses, à l’aide de l’option **NmsDelivery_senderAddressMask**. [En savoir plus](../administration/options.md#restrict-sender-address)
+* Amélioration des **messages d’erreur de connexion** : lorsqu’une tentative de connexion échoue, l’interface utilisateur web affiche désormais un message d’erreur plus spécifique dans plusieurs cas (par exemple, si aucune zone de sécurité n’est affectée à l’utilisateur ou si son adresse IP est restreinte).
 
 ## Version de juin 2026 {#26-6-release}
 
@@ -240,11 +341,11 @@ _27 janvier 2026_
 <tbody>
 <tr>
 <td>
-<p>La fonctionnalité de diffusion multilingue est désormais disponible pour l’ensemble des clientes et clients (disponibilité générale). Elle vous permet d’envoyer plusieurs messages dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. Vous pouvez choisir la langue par défaut de votre diffusion, ainsi que les différentes langues dans lesquelles elle peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues que vous avez choisies. 
+<p>La fonctionnalité de diffusion multilingue est désormais disponible pour toutes les clientes et tous les clients (GA). Cette fonctionnalité permet d’envoyer plusieurs messages dans différentes langues dans l’interface d’utilisation d’Adobe Campaign Web. Vous pouvez choisir la langue par défaut de votre diffusion ainsi que les différentes langues dans lesquelles la diffusion peut être envoyée. Vous pouvez également prévisualiser ces diffusions dans les langues de votre choix. 
 <p>Pour plus d'informations, consultez la <a href="../msg/multilingual.md">documentation détaillée</a>.</p>
 <p>Les améliorations suivantes ont été apportées aux notifications push multilingues :</p>
 <ul>
-<li>Vous pouvez désormais renseigner rapidement toutes les variantes linguistiques en chargeant un fichier CSV contenant votre contenu multilingue. <a href="../msg/multilingual.md#csv-upload">En savoir plus</a>
+<li>Vous pouvez désormais remplir rapidement toutes les variantes de langue en chargeant un fichier CSV comportant votre contenu multilingue. <a href="../msg/multilingual.md#csv-upload">En savoir plus</a>
 </li>
 <li>Les notifications push riches sont désormais prises en charge.</li>
 </td>
