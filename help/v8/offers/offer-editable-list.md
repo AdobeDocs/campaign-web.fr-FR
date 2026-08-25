@@ -3,8 +3,10 @@ audience: end-user
 title: Ajouter une liste modifiable au schéma d’offre
 description: Découvrez comment afficher un lien vers une collection personnalisée sous la forme d’une liste modifiable directement dans l’écran des détails de l’offre.
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: ht
 source-wordcount: 449
