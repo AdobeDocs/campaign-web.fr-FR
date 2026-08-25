@@ -1,52 +1,49 @@
 ---
 audience: end-user
 title: Contenu génératif
-description: Découvrez comment générer des expériences de contenu complètes à l’aide de l’IA dans Journey Optimizer.
+description: Découvrez comment générer des expériences de contenu complètes à l’aide de l’IA dans Journey Optimizer.
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 TQID: https://experienceleague.adobe.com/nXCZiZL0nd7Jso0wMFrBCEZCzzcx83-c0BdI-PxCOp4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1620
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Générer le contenu complet {#generative-full-content}
+# Générer du contenu complet {#generative-full-content}
 
 >[!IMPORTANT]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails).
+>Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant d’utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Utilisez l’IA dans Adobe Campaign Web pour générer des expériences de contenu complètes sur vos canaux d’e-mail, de page de destination et de notification push. L’IA vous aide à optimiser l’impact de vos diffusions en créant un contenu complet qui trouve un écho auprès de votre audience.
+Utilisez l’IA dans Adobe Campaign Web pour générer des expériences de contenu complètes pour vos canaux d’e-mail, de pages de destination et de notifications push. L’IA vous aide à optimiser l’impact de vos diffusions en créant un contenu exhaustif qui trouve un écho auprès de votre audience.
 
 ## Pour les e-mails et les pages de destination {#email-web-channels}
 
-Utilisez l’IA pour produire des expériences de contenu complètes pour vos diffusions e-mail et vos pages de destination, en générant du texte et des images. Cette fonctionnalité robuste vous permet de créer du contenu attrayant et conforme à votre marque, qui résonne auprès de votre audience sur l’ensemble des points de contact numériques.
+Utilisez l’IA pour créer des expériences de contenu complètes pour vos diffusions par e-mail et vos pages de destination, en générant à la fois du texte et des images. Cette fonctionnalité robuste vous permet de créer du contenu attrayant et conforme à votre marque, qui résonne auprès de votre audience sur l’ensemble des points de contact numériques.
 
 ### Accéder et configurer {#access-configure}
 
-Avant de commencer à créer du contenu avec l’IA, vous devez configurer votre diffusion et ouvrir l’éditeur de contenu. Suivez les étapes ci-dessous pour préparer votre espace de travail et accéder au panneau Générer du contenu .
+Avant de commencer à créer du contenu avec l’IA, vous devrez configurer votre diffusion et ouvrir l’éditeur de contenu. Suivez les étapes ci-dessous pour préparer votre espace de travail et accéder au panneau Génération de contenu.
 
 1. Créez et configurez votre diffusion :
 
    * **E-mail** : après avoir créé et configuré votre diffusion par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../email/create-email-content.md)
    * **Page de destination** : après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**. [En savoir plus](../landing-pages/create-lp.md)
 
-1. Personnalisez votre disposition selon vos besoins et accédez au menu **[!UICONTROL Générer le contenu]**.
+1. Personnalisez votre mise en page selon vos besoins et accédez au menu **[!UICONTROL Générer du contenu]**.
 
-   ![Panneau Générer du contenu affichant la sélection de la marque et le champ d’invite](assets/full-email-1.png){zoomable="yes"}
+   ![Panneau Générer du contenu affichant la sélection de la marque et le champ du prompt](assets/full-email-1.png){zoomable="yes"}
 
-### Générer le contenu complet {#generate-content}
+### Générer du contenu complet {#generate-content}
 
-Lorsque Générer du contenu est ouvert, vous pouvez maintenant configurer les paramètres de génération pour créer du contenu qui correspond aux objectifs de votre marque et de votre campagne. Personnalisez les paramètres de texte et d’image, ajoutez des ressources de marque et saisissez des prompts pour guider l’IA dans la génération de variations pertinentes pour votre audience.
+Une fois l’outil Générer du contenu ouvert, vous pouvez configurer les paramètres de génération pour créer du contenu qui correspond à votre marque et à vos objectifs de campagne. Personnalisez les paramètres de texte et d’image, ajoutez des ressources de marque et saisissez des prompts pour guider l’IA dans la génération de variations pertinentes pour votre audience.
 
 1. Sélectionnez votre **[!UICONTROL marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
 
@@ -62,7 +59,7 @@ Lorsque Générer du contenu est ouvert, vous pouvez maintenant configurer les p
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
    * **[!UICONTROL Langues]** : sélectionnez la langue du contenu généré.
-   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, l’IA adapte le message en conséquence.
+   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’IA adapte le message en conséquence.
 
      ![Capture d’écran affichant les options de paramètres de texte dans Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
 
@@ -74,7 +71,7 @@ Lorsque Générer du contenu est ouvert, vous pouvez maintenant configurer les p
    * **[!UICONTROL Éclairage]** : modifiez l’éclairage de l’image pour façonner son atmosphère et mettre en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : organisez les éléments dans le cadre de l’image.
 
-1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter une ressource de marque contenant du contenu pouvant fournir une IA contextuelle supplémentaire ou sélectionnez une ressource précédemment chargée.
+1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Charger un fichier]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Contenu de référence chargé]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
@@ -100,7 +97,7 @@ Après avoir généré des variations de contenu, vous pouvez affiner les résul
 
    * **[!UICONTROL Reformuler]** : réécrivez le message tout en préservant sa signification. Cette option vous permet de générer une autre formulation, d’améliorer le flux ou d’ajuster les expressions sans modifier le message principal.
 
-   * **[!UICONTROL Utiliser un langage plus simple]** : utilisez l’IA pour modifier/affiner votre langue, en garantissant la clarté et l’accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’IA pour simplifier votre langage, ce qui garantit clarté et accessibilité pour une audience plus large.
 
    * **[!UICONTROL Traduire]** : simplifiez votre texte pour garantir la clarté et l’accessibilité afin de toucher une audience plus large.
 
@@ -122,11 +119,11 @@ Après avoir généré des variations de contenu, vous pouvez affiner les résul
 
 ## Pour les canaux mobiles {#mobile-channels}
 
-Générer du contenu prend également en charge la génération de contenu pour les notifications push mobiles, ce qui vous permet de créer des titres, des messages et des images attrayants pour vos applications mobiles. Vous pouvez ainsi maintenir une communication cohérente et de haute qualité entre tous les points de contact de la clientèle, y compris les appareils mobiles.
+L’option Générer du contenu prend également en charge la génération de contenu pour les notifications push mobiles, ce qui vous permet de créer des titres, des messages et des images attrayants pour vos applications mobiles. Vous pouvez ainsi maintenir une communication cohérente et de haute qualité entre tous les points de contact de la clientèle, y compris les appareils mobiles.
 
 ### Accéder et configurer {#mobile-access-configure}
 
-Pour utiliser l’IA afin de générer du contenu pour les notifications push, commencez par configurer votre diffusion push et ouvrez l’éditeur de contenu. Les étapes ci-dessous vous guideront tout au long de la préparation de votre diffusion et de l’accès aux outils de génération de contenu.
+Pour utiliser l’IA afin de générer du contenu pour les notifications push, configurez d’abord votre système de diffusion push et ouvrez l’éditeur de contenu. Les étapes ci-dessous vous guideront dans la préparation de votre diffusion et dans l’accès aux outils de génération de contenu.
 
 1. Après avoir créé et configuré votre diffusion de notifications push, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -134,13 +131,13 @@ Pour utiliser l’IA afin de générer du contenu pour les notifications push, c
 
 1. Personnalisez vos notifications push selon vos besoins. [En savoir plus](../push/content-push.md)
 
-1. Accédez au menu **[!UICONTROL Afficher générer le contenu]**.
+1. Accédez au menu **[!UICONTROL Afficher Générer du contenu]**.
 
-   ![Capture d’écran affichant le menu Afficher générer le contenu](assets/push-genai-1.png){zoomable="yes"}
+   ![Copie d’écran affichant le menu Afficher Générer du contenu](assets/push-genai-1.png){zoomable="yes"}
 
-### Générer le contenu complet {#mobile-generate-content}
+### Générer du contenu complet {#mobile-generate-content}
 
-Une fois que vous avez accédé à Générer du contenu pour les notifications push, vous pouvez configurer les paramètres de génération pour créer du contenu mobile attrayant. Définissez vos préférences de texte et d’image, sélectionnez les ressources de la marque et utilisez les prompts pour générer des variations de notification push qui impliquent vos utilisateurs et utilisatrices d’appareils mobiles.
+Une fois que vous avez accédé à la fonctionnalité de génération de contenu pour les notifications push, vous pouvez configurer les paramètres de génération afin de créer du contenu mobile attrayant. Définissez vos préférences de texte et d’image, sélectionnez les ressources de la marque et utilisez les prompts pour générer des variations de notification push qui impliquent vos utilisateurs et utilisatrices d’appareils mobiles.
 
 1. Sélectionnez votre **[!UICONTROL marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
 
@@ -148,7 +145,7 @@ Une fois que vous avez accédé à Générer du contenu pour les notifications p
 
    Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui offre un large éventail d’idées de prompts pour améliorer votre diffusion. [En savoir plus sur les bonnes pratiques relatives aux prompts](ai-assistant-prompting-guide.md)
 
-   ![Générer le contenu avec le champ et les options d’invite](assets/push-genai-2.png){zoomable="yes"}
+   ![Générer du contenu avec le champ et les options de prompt](assets/push-genai-2.png){zoomable="yes"}
 
 1. Choisissez le champ que vous souhaitez générer : **[!UICONTROL Titre]**, **[!UICONTROL Sous-titre]**, **[!UICONTROL Message]** et/ou **[!UICONTROL Image]**.
 
@@ -156,7 +153,7 @@ Une fois que vous avez accédé à Générer du contenu pour les notifications p
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
    * **[!UICONTROL Langues]** : sélectionnez la langue du contenu généré.
-   * **[!UICONTROL Ton]** : le ton de vos notifications push doit trouver écho auprès de votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, l’IA peut adapter le message en conséquence.
+   * **[!UICONTROL Ton]** : le ton de vos notifications push doit trouver écho auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’IA peut adapter le message en conséquence.
 
      ![Panneau Paramètres de texte pour les notifications push](assets/push-genai-3.png){zoomable="yes"}
 
@@ -169,7 +166,7 @@ Une fois que vous avez accédé à Générer du contenu pour les notifications p
 
      ![Paramètres d’image des notifications push](assets/push-genai-4.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter une ressource de marque contenant du contenu pouvant fournir une IA contextuelle supplémentaire ou sélectionnez une ressource précédemment chargée.
+1. Dans le menu **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Charger un fichier]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Contenu de référence chargé]**. Activez simplement les ressources que vous souhaitez inclure dans votre génération.
 
@@ -210,6 +207,6 @@ Lorsque vous définissez le contenu, l’audience et le planning, préparez votr
 
 ## Vidéo pratique {#video}
 
-Découvrez comment utiliser l’IA pour générer du contenu d’e-mail, du texte et des images complets.
+Découvrez comment utiliser l’IA pour générer du contenu complet, du texte et des images pour les e-mails.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)

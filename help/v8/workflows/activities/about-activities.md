@@ -4,20 +4,14 @@ title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 TQID: https://experienceleague.adobe.com/Yt-mvqKULJIMshitpuuU03U7Dl2m0DnhWoP8kdBoaUI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: d1110311-2ca4-442b-be37-088a6db845eeid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 597
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +46,7 @@ Ces activités sont spécifiques au ciblage. Elles permettent de créer une ou p
 
 Ces activités sont spécifiques à la manipulation et à l’enrichissement des données de population.
 
-* [Chargement (SGBD)](data-loading-rdbms.md) : chargez des données directement depuis une base de données relationnelle externe dans votre workflow.
+* [Chargement des données (SGBD)](data-loading-rdbms.md) : chargez des données directement depuis une base de données relationnelle externe dans votre workflow.
 * [Extraction de fichier](extract-file.md) : exportez des données à partir d’Adobe Campaign vers un autre système sous la forme d’un fichier externe.
 * [Chargement de fichier](load-file.md) : utilisez des profils et des données stockés dans un fichier externe.
 * [Transfert de fichier](transfer-file.md) : recevez ou envoyez des fichiers, testez la présence de fichiers ou répertoriez les fichiers sur un serveur. Le protocole utilisé peut être soit un protocole serveur à serveur, soit un protocole HTTP.

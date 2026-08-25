@@ -1,53 +1,51 @@
 ---
 audience: end-user
 title: Vérifier les paramètres de l’environnement d’offres
-description: Découvrez comment afficher, configurer et déployer un environnement d'offres dans Campaign Web
+description: Découvrir comment afficher, configurer et déployer un environnement d’offres dans Campaign Web
 feature: Offers
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 319
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 # Vérifier les paramètres de l’environnement d’offres {#offer-environment}
 
-Un **environnement d&#39;offres** est le conteneur dans lequel vous organisez votre catalogue d&#39;offres et les emplacements associés. Il existe deux types d’environnements :
+Un **environnement d’offres** est le conteneur dans lequel vous organisez votre catalogue d’offres et les emplacements associés. Il existe deux types d’environnements :
 
-* un environnement **En édition**, dans lequel les offres sont créées, configurées et approuvées,
-* un environnement en lecture seule **en ligne**, dans lequel les offres approuvées et déployées sont disponibles pour la sélection de la diffusion.
+* un environnement **Conception**, dans lequel les offres sont créées, configurées et approuvées ;
+* un environnement en lecture seule **En ligne**, dans lequel les offres approuvées et déployées sont disponibles pour la sélection de la diffusion.
 
-Chaque environnement **Conception** est lié à un environnement **En ligne**. Lorsqu&#39;une offre est terminée et validée, elle est automatiquement déployée dans l&#39;environnement **En ligne** et disponible pour diffusion.
+Chaque environnement **Conception** est lié à un environnement **En ligne**. Lorsqu’une offre est terminée et approuvée, elle est automatiquement déployée dans l’environnement **En ligne** et disponible pour diffusion.
 
-![Capture d’écran affichant les environnements.](assets/offers-env.png){zoomable="yes"}
+![Copie d’écran affichant les environnements.](assets/offers-env.png){zoomable="yes"}
 
-Par défaut, Campaign est fourni avec deux environnements **En édition** et **En ligne** préconfigurés pour cibler la table des destinataires intégrée (offres identifiées).
+Par défaut, Campaign est fourni avec un environnement **Conception** et un environnement **En ligne** préconfigurés pour cibler la table des destinataires intégrée (offres identifiées).
 
-Pour cibler une autre table, telle que les profils anonymes visitant votre site web pour des interactions entrantes, vous devez créer des environnements supplémentaires (un par dimension de ciblage). Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}.
+Pour cibler une autre table, par exemple les profils anonymes qui visitent votre site web pour des interactions entrantes, vous devez créer des environnements supplémentaires (un par dimension de ciblage). Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}.
 
-## Accès aux environnements d’offres {#offer-environment-settings}
+## Accéder aux environnements d’offres {#offer-environment-settings}
 
-Les environnements d’offres sont stockés sous forme de dossiers. Pour accéder aux paramètres d’environnement et les vérifier (éligibilité, gestion du poids, sécurité), procédez comme suit :
+Les environnements d’offres sont stockés sous forme de dossiers. Pour accéder aux paramètres de l’environnement et les vérifier (éligibilité, gestion du poids, sécurité), suivez les étapes suivantes :
 
 >[!CAUTION]
 >
->Ces paramètres peuvent être modifiés, mais soyez très prudent, car les modifications peuvent interrompre votre implémentation existante.
+>Ces paramètres peuvent être modifiés, mais vous devez faire preuve de beaucoup de prudence, car les modifications risquent de compromettre votre implémentation existante.
 
-1. Dans le menu de navigation de gauche, ouvrez l’**[!UICONTROL Explorateur]** et localisez le dossier d’environnement d’offres sous le nœud **Environnement en édition**.
+1. Dans le menu de navigation de gauche, ouvrez l’**[!UICONTROL Explorateur]** et localisez le dossier d’environnement d’offres sous le nœud **Environnement Conception**.
 
-1. Cliquez sur le bouton ... et sélectionnez **[!UICONTROL Paramètres du dossier]** pour afficher les paramètres d’environnement.
+1. Cliquez sur le bouton … et sélectionnez **[!UICONTROL Paramètres du dossier]** pour afficher les paramètres d’environnement.
 
-   ![Capture d’écran affichant l’option Paramètres de dossier d’un environnement](assets/offers-env-1.png){zoomable="yes"}
+   ![Copie d’écran affichant l’option Paramètres de dossier d’un environnement](assets/offers-env-1.png){zoomable="yes"}
 
-1. Consultez les différentes sections. Les paramètres de dossier d’un environnement d’offres regroupent les options spécifiques à une offre.
+1. Examinez les différentes sections. Les paramètres du dossier d’un environnement d’offres regroupent les options spécifiques aux offres.
 
-   ![Capture d’écran affichant les paramètres Propriétés d’un environnement](assets/offers-env-2.png){zoomable="yes"}
+   ![Copie d’écran affichant les paramètres Propriétés d’un environnement](assets/offers-env-2.png){zoomable="yes"}
 
-   La plupart des paramètres reflètent la configuration de l’environnement d’offres disponible dans la console cliente. Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html){target="_blank"}.
+   La plupart des paramètres reproduisent la configuration de l’environnement d’offres disponible dans la console cliente. Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html?lang=fr){target="_blank"}.
 
 <!--
 ## Create a new offer environment {#create}
@@ -117,7 +115,7 @@ This section gathers the offer-specific settings of the folder.
 
 ### Execution instances {#execution-instances}
 
-* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html?lang=fr#distributed-architecture){target="_blank"}.
+* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html#distributed-architecture){target="_blank"}.
 
 ### Targets of this environment {#targets}
 
@@ -149,7 +147,7 @@ and [Anonymous interactions](https://experienceleague.adobe.com/docs/campaign/ca
 
   ![Screenshot showing the other Environment settings of an environment](assets/offers-env-5.png){zoomable="yes"}
 
-* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=fr#offer-presentation){target="_blank"} for the full rule reference.
+* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-presentation){target="_blank"} for the full rule reference.
 
 * **[!UICONTROL Filters on the target]** — Filter rules that apply to every offer in the environment. Use **[!UICONTROL Add rules]** to open the rule builder and restrict the audience targeted by all offers contained in this environment.
 

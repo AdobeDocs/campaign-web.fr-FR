@@ -1,18 +1,17 @@
 ---
-title: Générer des cas d’utilisation de contenu
-description: Découvrez à travers les cas d’utilisation comment utiliser l’IA pour générer du contenu
+title: Cas d’utilisation de génération de contenu
+description: Découvrir comment utiliser l’IA pour générer du contenu à travers des cas d’utilisation
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1243
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Générer des cas d’utilisation de contenu {#generative-uc}
+# Cas d’utilisation de génération de contenu {#generative-uc}
 
 >[!NOTE]
 >
@@ -20,15 +19,15 @@ ht-degree: 69%
 
 ## Utiliser un contenu existant
 
-![Démonstration de la réutilisation du contenu existant avec l’option Générer du contenu](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Démonstration de la réutilisation de contenu existant avec la génération de contenu](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 Générez des variations à partir du contenu et du contexte déjà présents dans votre campagne afin qu’elles restent cohérentes avec votre message et votre audience.
 
 1. Après avoir configuré votre diffusion, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
-1. Ouvrez la section **[!UICONTROL Générer le contenu]**.
+1. Ouvrez la section **[!UICONTROL Générer du contenu]**.
 
-1. Activez la fonction **[!UICONTROL Utiliser le contenu d’origine]** dans Générer du contenu pour adapter le nouveau contenu en fonction des détails de votre diffusion, y compris le nom de la diffusion et l’audience ciblée.
+1. Activez la fonctionnalité **[!UICONTROL Utiliser le contenu original]** dans Générer du contenu afin de personnaliser le nouveau contenu en fonction des détails de votre diffusion, y compris le nom de la diffusion et l’audience ciblée.
 
 1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Prompt]** et personnalisez les paramètres selon vos besoins.
 
@@ -40,13 +39,13 @@ Une fois que vous avez défini le contenu, l’audience et le planning, prépare
 
 ## Affiner la variation {#refine}
 
-![Démonstration de l’affinement des variations de contenu avec l’option Générer du contenu](assets/do-not-localize/gen-ai-variation.gif)
+![Démonstration de l’affinement des variations de contenu avec la génération de contenu](assets/do-not-localize/gen-ai-variation.gif)
 
 Ajustez une variation générée par l’IA en affinant le lieu, le ton, la longueur, la formulation et la stratégie avant de sélectionner le texte final.
 
 1. Une fois votre diffusion préparée et configurée, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Ouvrez le menu **[!UICONTROL Générer le contenu]**.
+1. Ouvrez le menu **[!UICONTROL Générer du contenu]**.
 
 1. Ajustez le contenu en saisissant la requête souhaitée dans la zone **[!UICONTROL Prompt]** et modifiez les paramètres si nécessaire.
 
@@ -58,13 +57,13 @@ Ajustez une variation générée par l’IA en affinant le lieu, le ton, la long
 
    * **[!UICONTROL Utiliser comme contenu de référence]** : la variation sélectionnée sert de référence pour générer plus de contenu.
 
-   * **[!UICONTROL Développer]** : utilisez l’IA pour développer certains points, en offrant plus de profondeur et de détail pour un meilleur engagement.
+   * **[!UICONTROL Élaborer]** : utilisez l’IA pour développer certains points en apportant davantage de profondeur et de détails, afin de favoriser un meilleur engagement.
 
-   * **[!UICONTROL Résumer]** : pour obtenir des informations longues, utilisez l’IA pour modifier/affiner le contenu, afin de créer des résumés concis qui seront plus faciles à assimiler pour les destinataires d’e-mails.
+   * **[!UICONTROL Résumer]** : pour les informations volumineuses, utilisez l’IA pour modifier et affiner le contenu afin de créer des résumés concis, plus faciles à assimiler pour les destinataires des e-mails.
 
-   * **[!UICONTROL Reformuler]** : utilisez l’IA pour modifier/affiner votre message, le présentant de différentes manières afin de garder le contenu à jour pour diverses audiences.
+   * **[!UICONTROL Reformuler]** : utilisez l’IA pour modifier et affiner votre message en le présentant de différentes manières, afin de garder un contenu attrayant pour diverses audiences.
 
-   * **[!UICONTROL Utiliser un langage plus simple]** : utilisez l’IA pour modifier/affiner la langue, en veillant à ce que le message soit clair et accessible à tous les lecteurs.
+   * **[!UICONTROL Utiliser un langage plus simple]** : utilisez l’IA pour modifier et affiner le langage afin de garantir que le message est clair et accessible à l’ensemble des lecteurs et lectrices.
 
    De plus, ajustez le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre contenu.
 
@@ -72,13 +71,13 @@ Ajustez une variation générée par l’IA en affinant le lieu, le ton, la long
 
 ## Générer une image similaire
 
-![Démonstration de la génération d’images similaires avec l’option Générer du contenu](assets/do-not-localize/uc-image-similar.gif)
+![Démonstration de la génération d’images similaires avec la génération de contenu](assets/do-not-localize/uc-image-similar.gif)
 
 Lorsqu’une image est presque parfaite, générez des options supplémentaires qui conservent le même aspect général et le même thème.
 
 1. Après avoir configuré votre diffusion, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
-1. Ouvrez la section **[!UICONTROL Générer le contenu]**.
+1. Ouvrez la section **[!UICONTROL Générer du contenu]**.
 
 1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Prompt]** et personnalisez les paramètres selon vos besoins.
 
@@ -94,7 +93,7 @@ Lorsqu’une image est presque parfaite, générez des options supplémentaires 
 
 ## Charger une référence stylistique
 
-![Démonstration du chargement d’une référence de style pour Générer du contenu](assets/do-not-localize/uc-image-reference.gif)
+![Démonstration du chargement d’une référence stylistique pour la génération de contenu](assets/do-not-localize/uc-image-reference.gif)
 
 Chargez une image de référence afin que les nouveaux visuels suivent le style, la palette ou la composition de votre choix.
 
@@ -102,9 +101,9 @@ Chargez une image de référence afin que les nouveaux visuels suivent le style,
 
 1. Sélectionnez la ressource à modifier.
 
-1. Dans le menu du volet de droite, choisissez **[!UICONTROL Générer le contenu]**.
+1. Dans le menu du volet de droite, choisissez **[!UICONTROL Générer du contenu]**.
 
-1. Activez l’option **[!UICONTROL Style de référence]** pour utiliser l’IA afin de générer un nouveau contenu à l’aide du matériau de référence.
+1. Activez l’option **[!UICONTROL Style de référence]** pour utiliser l’IA afin de générer du nouveau contenu à partir du contenu de référence.
 
 1. Cliquez sur **[!UICONTROL Charger l’image]** pour inclure une image qui ajoute du contexte à votre variation.
 
@@ -122,11 +121,11 @@ Chargez une image de référence afin que les nouveaux visuels suivent le style,
 
 ![Démonstration animée de l’option Générer du contenu générant du contenu dans plusieurs langues, notamment le français, l’espagnol et l’allemand](assets/do-not-localize/ai-language.gif)
 
-Produisez du texte dans les langues prises en charge par l’IA, en combinant votre invite avec des paramètres de langue explicites.
+Produisez du texte dans les langues prises en charge par l’IA, en combinant votre prompt avec des paramètres linguistiques explicites.
 
 1. Une fois votre diffusion préparée et configurée, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Ouvrez le menu **[!UICONTROL Générer le contenu]**.
+1. Ouvrez le menu **[!UICONTROL Générer du contenu]**.
 
 1. Ajustez le contenu en saisissant votre demande dans la zone **[!UICONTROL Prompt]** en français, espagnol, allemand, italien, japonais, suédois, néerlandais ou norvégien.
 
@@ -146,7 +145,7 @@ Vous pouvez donner plus de contexte à l’IA en ajoutant du **contenu de réfé
 
 1. Lorsque votre campagne est prête, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Ouvrez **[!UICONTROL Générer le contenu]**.
+1. Ouvrez **[!UICONTROL Générer du contenu]**.
 
 1. Décrivez ce que vous souhaitez dans le champ **[!UICONTROL Prompt]**.
 
@@ -166,7 +165,7 @@ Vous pouvez donner plus de contexte à l’IA en ajoutant du **contenu de réfé
 
 ![Démonstration animée de l’option Générer du contenu générant du contenu avec un modèle personnalisé](assets/do-not-localize/gen-ai-model.gif)
 
-Enregistrez un modèle génératif personnalisé et acheminez la génération d’images à partir de l’option Générer le contenu.
+Enregistrez un modèle génératif personnalisé et acheminez la génération d’images à partir de l’outil Générer du contenu.
 
 1. Dans le menu **[!UICONTROL Marques]**, ouvrez l’onglet **[!UICONTROL Modèles génératifs]** et cliquez sur **[!UICONTROL Ajouter un modèle]**.
 
@@ -178,7 +177,7 @@ Enregistrez un modèle génératif personnalisé et acheminez la génération d�
 
 1. Dans la campagne, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Sélectionnez la ressource à modifier, puis ouvrez le menu **[!UICONTROL Générer le contenu]**.
+1. Sélectionnez la ressource à modifier, puis ouvrez le menu **[!UICONTROL Générer du contenu]**.
 
 1. Spécifiez votre requête dans le champ **[!UICONTROL Prompt]** et ajustez les paramètres restants selon vos besoins.
 
@@ -190,13 +189,13 @@ Enregistrez un modèle génératif personnalisé et acheminez la génération d�
 
 ## Utiliser Gemini comme modèle génératif pour l’image de superposition de texte
 
-![Démonstration animée de l’option Générer du contenu , avec Gemini comme modèle génératif](assets/do-not-localize/gen-nano.gif)
+![Démonstration animée de l’option Générer du contenu générant du contenu avec Gemini comme modèle génératif](assets/do-not-localize/gen-nano.gif)
 
-Avec **Gemini 2.5** sélectionné comme modèle génératif, vous pouvez produire des variantes d’image dans Générer du contenu, ajouter des recouvrements de texte à partir d’une URL, d’un fichier ou d’une invite générée par l’IA, puis positionner les recouvrements avant d’appliquer une variation finale.
+Avec **Gemini 2.5** sélectionné comme modèle génératif, vous pouvez produire des variantes d’image dans Générer du contenu, ajouter des recouvrements de texte à partir d’une URL, d’un fichier ou d’un prompt généré par l’IA, puis positionner les recouvrements avant d’appliquer une variation finale.
 
 1. Lorsque votre campagne est prête, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Sélectionnez la ressource à utiliser comme image de base et ouvrez **[!UICONTROL Générer le contenu]**.
+1. Sélectionnez la ressource à utiliser comme image de base et ouvrez **[!UICONTROL Générer du contenu]**.
 
 1. Cliquez sur **[!UICONTROL Ouvrir les paramètres]** pour ajuster les options de génération d’images.
 

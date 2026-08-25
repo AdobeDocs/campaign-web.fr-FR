@@ -4,14 +4,12 @@ title: Filtrer des listes
 description: Découvrez comment filtrer les listes Adobe Campaign Web à l’aide de filtres intégrés et personnalisés.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
-workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: 450
+ht-degree: 100%
 
 ---
 
@@ -21,8 +19,8 @@ Adobe Campaign Web fournit des filtres dans chaque liste d’objets, ce qui vous
 
 >[!IMPORTANT]
 >
->Une toute nouvelle interface pour le concepteur de requête est disponible. Le nouveau créateur de règles vous permet de créer votre requête plus facilement grâce à son interface simplifiée. Pour passer à cette nouvelle expérience, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au Concepteur de requête classique à tout moment en cliquant sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes qu’avec le Concepteur de requête dans cette nouvelle interface.
->![Image montrant le bouton (bascule) pour activer la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
+>Une toute nouvelle interface pour le concepteur de requête est disponible. Le nouveau créateur de règles, grâce à son interface simplifiée, vous permet de créer votre requête plus facilement. Pour passer à cette expérience, appuyez sur le bouton (bascule) dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
+>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Appliquer des filtres {#apply}
 
@@ -36,7 +34,7 @@ Pour filtrer une liste selon vos propres critères, créez un filtre personnalis
 
 >[!NOTE]
 >
->Pour les schémas personnalisés, les administrateurs peuvent ajouter leurs propres champs d’accès rapide au volet Filtres, au-dessus du bouton **Ajouter des règles**. Pour plus d’informations, voir [Ajouter des filtres personnalisés](../administration/schemas-custom-filters.md).
+>Pour les schémas personnalisés, les administrateurs et administratrices peuvent ajouter leurs propres champs d’accès rapide au volet Filtres, au-dessus du bouton **Ajouter des règles**. Pour plus d’informations, consultez [Ajouter des filtres personnalisés](../administration/schemas-custom-filters.md).
 
 Une fois appliqués à une liste, les filtres sont visibles dans la barre de recherche. Vous pouvez supprimer un filtre individuel à tout moment ou supprimer tous les filtres en cliquant sur le bouton **Tout effacer**.
 

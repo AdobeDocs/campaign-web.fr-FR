@@ -4,12 +4,11 @@ title: Créer des workflows à l’aide d’Adobe Campaign Web
 description: Découvrez comment créer des workflows à l’aide d’Adobe Campaign Web.
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1720
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +38,7 @@ Pour supprimer une activité, sélectionnez-la dans la zone de travail et clique
 
 ## Barre d’outils {#toolbar}
 
-La barre d’outils, située dans le coin supérieur droit de la zone de travail, propose des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail.
+La barre d’outils, située dans le coin supérieur droit de la zone de travail, offre des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail.
 
 * **Mode de sélection multiple** : sélectionnez plusieurs activités pour les supprimer toutes en même temps ou pour les copier et les coller. Voir [cette section](#copy).
 * **Ajouter une branche** : cliquez sur le bouton **+** de la barre d’outils pour créer une branche d’exécution distincte sur la zone de travail. Le résultat est équivalent à l’utilisation d’une activité [Branchement](activities/fork.md) pour les chemins parallèles, mais le diagramme est plus clair graphiquement.
@@ -58,7 +57,7 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 
 Vous pouvez ainsi :
 
-* **Supprimer** l’activité à partir de la zone de travail. Voir [cette section](#delete-activity).
+* **Supprimer** l’activité à partir de la zone de travail. Consultez [cette section](#delete-activity).
 * **Désactivez/activez** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités qui suivent sur le même chemin ne sont pas exécutées et le workflow est arrêté.
 * **Mettez en pause/Reprenez** l’activité. Lorsque le workflow est exécuté, il s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 * **Copiez** l’activité. Voir [cette section](#copy).
@@ -104,35 +103,35 @@ Pour déplacer une activité, procédez comme suit :
 
 ![Déplacer l’activité et les nœuds enfants](assets/activity-move.png)
 
-## Supprimer et déconnecter les activités {#delete}
+## Supprimer et déconnecter des activités {#delete}
 
-### Suppression d’une activité {#delete-activity}
+### Supprimer une activité {#delete-activity}
 
 Pour supprimer une activité, sélectionnez-la dans la zone de travail et cliquez sur l’icône **Supprimer** dans les propriétés de l’activité. Une boîte de dialogue de confirmation s’affiche.
 
 * Si l’activité n’est connectée à aucune autre activité, confirmez sa suppression.
 
-  ![Supprimer l’activité simple](assets/workflow-delete.png)
+  ![Supprimer une seule activité](assets/workflow-delete.png)
 
-* Si l’activité est connectée à une ou plusieurs activités suivantes, choisissez comment les gérer :
+* Si l’activité est connectée à une ou plusieurs activités suivantes, choisissez la manière de les gérer :
 
-  ![Supprimer le multiple d’activité](assets/workflow-delete2.png)
+  ![Supprimer plusieurs activités](assets/workflow-delete2.png)
 
-  * **Supprimer toutes les activités suivantes** : supprime l’activité et chaque activité qui la suit sur le même chemin.
-  * **Supprimer uniquement cette activité** : supprime uniquement l’activité sélectionnée et reconnecte le chemin d’accès restant. Cette option n’est disponible que lorsque l’activité a un seul successeur.
-  * **Supprimer et créer une nouvelle branche** : supprime l’activité sélectionnée mais conserve ses activités suivantes, en les déplaçant dans une nouvelle branche distincte.
+  * **Supprimer toutes les activités suivantes** : supprime l’activité et chaque activité qui la suit sur le même chemin.
+  * **Supprimer uniquement cette activité** : supprime uniquement l’activité sélectionnée et reconnecte le chemin d’accès restant. Cette option n’est disponible que si l’activité a un seul successeur.
+  * **Supprimer et créer une nouvelle branche** : supprime l’activité sélectionnée mais conserve ses activités suivantes, en les déplaçant dans une nouvelle branche distincte.
 
 Cliquez sur **Supprimer** pour confirmer votre choix, ou sur **Annuler** pour fermer la boîte de dialogue sans rien supprimer.
 
-### Déconnexion d’une transition {#disconnect-transition}
+### Déconnecter une transition {#disconnect-transition}
 
-Vous pouvez déconnecter deux activités sans supprimer aucune d’elles. Les activités placées après la transition déconnectée ne sont pas supprimées : elles sont déplacées dans une nouvelle branche distincte du workflow.
+Vous pouvez dissocier deux activités sans supprimer aucune d’entre elles. Les activités placées après la transition déconnectée ne sont pas supprimées : elles sont déplacées dans une nouvelle branche distincte du workflow.
 
-Vous pouvez ainsi réorganiser un diagramme de workflow, par exemple pour mettre temporairement de côté un groupe d’activités que vous souhaitez conserver, sans avoir à les supprimer et à les recréer.
+Vous pouvez ainsi réorganiser le diagramme du workflow, par exemple pour mettre temporairement de côté un groupe d’activités que vous souhaitez conserver, sans avoir à supprimer et à recréer les activités.
 
-Vous pouvez effectuer cette opération sur une seule transition :
+Vous pouvez effectuer cette opération en une seule transition :
 
-1. Sélectionnez la transition à déconnecter.
+1. Sélectionnez la transition que vous souhaitez déconnecter.
 
 1. Cliquez sur l’icône **Déconnecter** dans les propriétés de la transition.
 
@@ -144,11 +143,11 @@ Vous pouvez effectuer cette opération sur une seule transition :
 
    ![Boîte de dialogue de confirmation de déconnexion de la transition](assets/workflow-transition2.png)
 
-Si l’activité source comporte plusieurs transitions sortantes (par exemple, une activité **Partage** avec plusieurs branches de résultats ou une activité **Branchement**), vous pouvez supprimer l’une d’elles individuellement depuis le volet des propriétés de l’activité :
+Si l’activité source comporte plusieurs transitions sortantes (par exemple, une activité **Partage** avec plusieurs branches de résultats ou une activité **Branchement**), vous pouvez supprimer l’une d’elles individuellement depuis le volet des propriétés de l’activité :
 
-1. Sélectionnez l’activité puis localisez la transition à supprimer dans la section **Segment**.
+1. Sélectionnez l’activité, puis localisez la transition à supprimer dans la section **Segment**.
 
-1. Cliquez sur l’icône de corbeille en regard de cette transition. Une boîte de dialogue de confirmation s’affiche.
+1. Cliquez sur l’icône de corbeille située en regard de cette transition. Une boîte de dialogue de confirmation s’affiche.
 
    ![Icône Corbeille en regard d’un résultat de segment](assets/workflow-transition3.png)
 

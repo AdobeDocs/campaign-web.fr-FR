@@ -1,116 +1,114 @@
 ---
 audience: end-user
-title: Création et publication d’une offre
-description: Découvrez comment créer, configurer, approuver et déployer une offre dans Campaign Web
+title: Créer et publier une offre
+description: Découvrir comment créer, configurer, approuver et déployer une offre dans Campaign Web
 feature: Offers
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1057
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Création et publication d’une offre {#create-offer}
+# Créer et publier une offre {#create-offer}
 
-Une **offre** est une proposition individuelle ayant sa propre période d&#39;éligibilité, son propre filtre cible, son propre poids et son propre contenu. Les offres sont organisées dans le catalogue d&#39;offres au travers de **catégories** et sont présentées aux destinataires par le biais d&#39;un **emplacement**.
+Une **offre** est une proposition individuelle avec sa propre période d’éligibilité, son filtre cible, son poids et son contenu. Les offres sont organisées dans le catalogue d’offres au travers de **catégories** et sont présentées aux destinataires par le biais d’un **emplacement**.
 
-Avant de créer une offre, assurez-vous que l&#39;environnement des offres est paramétré et qu&#39;au moins un emplacement est publié. Pour en savoir plus, consultez les sections [Configurer un environnement d&#39;offres](offer-environment.md) et [Créer et gérer des emplacements](offer-space.md).
+Avant de créer une offre, assurez-vous que l’environnement des offres est configuré et qu’au moins un emplacement est publié. Pour en savoir plus, consultez les sections [Configurer un environnement d’offres](offer-environment.md) et [Créer et gérer des emplacements](offer-space.md).
 
-## Accès au catalogue d&#39;offres {#access}
+## Accéder au catalogue d’offres {#access}
 
-Pour parcourir et créer des offres, sélectionnez **[!UICONTROL Offres]** dans le rail de navigation de gauche. La liste affiche les offres existantes. Utilisez le champ de recherche, le sélecteur de dossiers ou le [moteur de requête](../query/query-modeler-overview.md) pour filtrer la liste.
+Pour parcourir et créer des offres, sélectionnez **[!UICONTROL Offres]** dans le rail de navigation de gauche. La liste affiche les offres existantes. Utilisez le champ de recherche, le sélecteur de dossiers ou le [concepteur de requête](../query/query-modeler-overview.md) pour filtrer la liste.
 
-![Capture d’écran affichant le catalogue d’offres.](assets/offers-offer.png){zoomable="yes"}
+![Copie d’écran affichant le catalogue d’offres.](assets/offers-offer.png){zoomable="yes"}
 
-Cliquez sur le nom d’une offre pour l’ouvrir en vue de la modifier ou utilisez les trois points en regard pour la **[!UICONTROL Dupliquer]** ou **[!UICONTROL Supprimer]**.
+Cliquez sur le nom d’une offre pour l’ouvrir en vue de la modifier ou utilisez les trois points en regard pour la **[!UICONTROL Dupliquer]** ou la **[!UICONTROL Supprimer]**.
 
-## Création d’une offre {#create}
+## Créer une offre {#create}
 
-Pour créer une offre :
+Pour créer une offre :
 
 1. Dans la liste des offres, cliquez sur **[!UICONTROL Créer une offre]**.
 
-1. Sélectionnez le **[!UICONTROL Modèle]** à partir duquel créer l&#39;offre (par exemple, une offre vierge ou un modèle d&#39;offre anonyme).
+1. Sélectionnez le **[!UICONTROL modèle]** à partir duquel créer l’offre (par exemple, une offre vierge ou un modèle d’offre anonyme).
 
-   ![Capture d’écran montrant la création d’offres.](assets/offers-offer-1.png){zoomable="yes"}
+   ![Copie d’écran montrant la création d’une offre.](assets/offers-offer-1.png){zoomable="yes"}
 
-1. Saisissez un **[!UICONTROL Libellé]** et, éventuellement, affectez l’offre à un opérateur ou une opératrice à l’aide du **[!UICONTROL Affecté à]** et/ou saisissez un **[!UICONTROL Code d’offre]**.
+1. Saisissez un **[!UICONTROL Libellé]** et, éventuellement, affectez l’offre à un opérateur ou une opératrice à l’aide de l’option **[!UICONTROL Affecté à]** et/ou saisissez un **[!UICONTROL code d’offre]**.
 
-1. Développez **[!UICONTROL Options supplémentaires]** pour modifier le **[!UICONTROL Nom interne]** généré automatiquement, sélectionnez la **[!UICONTROL Catégorie]** dans laquelle l&#39;offre est stockée ou ajoutez une description. Cette étape est facultative.
+1. Développez **[!UICONTROL Options supplémentaires]** pour modifier le **[!UICONTROL nom interne]** généré automatiquement, sélectionner la **[!UICONTROL catégorie]** dans laquelle l’offre est stockée ou ajouter une description. Cette étape est facultative.
 
-1. Développez **[!UICONTROL Validations]** pour affecter des approbateurs aux groupes **[!UICONTROL Validation de l&#39;éligibilité]** et **[!UICONTROL Validation du contenu]**. Cette étape est facultative.
+1. Développez **[!UICONTROL Approbations]** pour affecter des approbateurs et approbatrices aux groupes **[!UICONTROL Approbation de l’éligibilité]** et **[!UICONTROL Approbation du contenu]**. Cette étape est facultative.
 
 1. Développez **[!UICONTROL Options personnalisées]** pour remplir les champs supplémentaires que votre organisation a ajoutés au schéma d’offre. Les champs affichés dans cette section varient d’une instance Campaign à l’autre. Cette étape est facultative.
 
-1. Cliquez sur **[!UICONTROL Créer]**. L’écran de paramètres complet s’affiche.
+1. Cliquez sur **[!UICONTROL Créer]**. L’écran complet des paramètres s’affiche.
 
-   ![Capture d’écran affichant l’écran Paramètres des offres.](assets/offers-offer-2.png){zoomable="yes"}
+   ![Copie d’écran affichant l’écran Paramètres des offres.](assets/offers-offer-2.png){zoomable="yes"}
 
 ### Définir l’éligibilité {#eligibility}
 
 Cette section vous permet de contrôler quand et à qui l’offre peut être présentée. Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Planning]** — Définissez les dates de début et de fin entre lesquelles l&#39;offre peut être présentée.
+* **[!UICONTROL Planning]** : définissez les dates de début et de fin entre lesquelles l’offre peut être présentée.
 
   >[!NOTE]
   >
-  >Les croisements des périodes d&#39;éligibilité avec la catégorie parent sont pris en compte : même si le planning propre à l&#39;offre est plus large, l&#39;offre n&#39;est présentée que lorsque sa catégorie parent est également éligible.
+  >Les périodes d’éligibilité qui se chevauchent avec la catégorie parent sont prises en compte : même si le planning propre à l’offre est plus large, l’offre n’est présentée que lorsque sa catégorie parent est aussi éligible.
 
-* **[!UICONTROL Filtres sur la cible]** — Cliquez sur **[!UICONTROL Créer un filtre]** pour ouvrir le créateur de règles et restreindre l’offre à une audience spécifique. Laissez le filtre vide pour rendre l’offre éligible à l’audience entière de l’environnement. Pour réutiliser un **filtre prédéfini** déclaré au niveau de la plateforme, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}. Les filtres prédéfinis sont créés à partir de la console cliente.
+* **[!UICONTROL Filtres sur la cible]** : cliquez sur **[!UICONTROL Créer un filtre]** pour ouvrir le créateur de règles et restreindre l’offre à une audience spécifique. Laissez le filtre vide pour rendre l’offre éligible à l’audience entière de l’environnement. Pour réutiliser un **filtre prédéfini** déclaré au niveau de la plateforme, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html?lang=fr){target="_blank"}. Les filtres prédéfinis sont créés à partir de la console cliente.
 
-* **[!UICONTROL Gestion du poids de l&#39;offre]** — Cliquez sur **[!UICONTROL Afficher le poids de l&#39;offre]**, puis **[!UICONTROL Ajouter un poids]** pour influencer la priorité de l&#39;offre lorsque plusieurs offres sont éligibles en même temps. Chaque poids comporte une date de début, une date de fin et un filtre facultatif.
+* **[!UICONTROL Gestion du poids de l’offre]** : cliquez sur **[!UICONTROL Afficher le poids de l’offre]**, puis **[!UICONTROL Ajouter un poids]** pour influencer la priorité de l’offre lorsque plusieurs offres sont éligibles en même temps. Chaque poids comporte une date de début, une date de fin et un filtre facultatif.
 
 >[!NOTE]
 >
->Le moteur d’offres trie les offres éligibles par poids décroissant et renvoie d’abord les propositions pondérées les plus élevées. La logique de sélection, appelée **arbitrage**, prend également en compte les règles d’éligibilité et les poids configurés sur la catégorie parent et sur l’environnement. Pour en savoir plus sur le principe d’arbitrage, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=fr){target="_blank"}.
+>Le moteur d’offres trie les offres éligibles par poids décroissant et renvoie en premier les propositions les plus pondérées. La logique de sélection, appelée **arbitrage**, prend également en compte les règles d’éligibilité et les poids configurés sur la catégorie parent et sur l’environnement. Pour en savoir plus sur le principe d’arbitrage, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=fr){target="_blank"}.
 
 ### Définir le contenu {#content}
 
-Depuis l&#39;offre, sélectionnez l&#39;onglet **[!UICONTROL Contenu]**. Cet onglet définit les valeurs qui seront exposées par la fonction de rendu.
+Depuis l’offre, sélectionnez l’onglet **[!UICONTROL Contenu]**. Cet onglet définit les valeurs qui seront exposées par la fonction de rendu.
 
-1. Renseignez les attributs prêts à l&#39;emploi : **[!UICONTROL Titre]**, **[!UICONTROL URL de destination]**, **[!UICONTROL URL d&#39;image]** et tout attribut personnalisé déclaré dans le schéma d&#39;offre.
+1. Renseignez les attributs prêts à l’emploi : **[!UICONTROL Titre]**, **[!UICONTROL URL de destination]**, **[!UICONTROL URL d’image]** et tout attribut personnalisé déclaré dans le schéma d’offre.
 
 1. Utilisez l’[éditeur d’expression](../query/expression-editor.md) pour personnaliser les valeurs avec des données de profil, des attributs d’offre ou des champs de proposition.
 
-1. Pour les payloads HTML et texte, cliquez sur **[!UICONTROL Modifier le contenu]** pour ouvrir l’éditeur de contenu. Vous pouvez concevoir le contenu à partir de zéro, coder votre propre HTML ou importer du contenu HTML existant, en partant éventuellement d’un modèle type.
+1. Pour les payloads HTML et texte, cliquez sur **[!UICONTROL Modifier le contenu]** pour ouvrir l’éditeur de contenu. Vous pouvez concevoir le contenu à partir de zéro, coder votre propre HTML ou importer du contenu HTML existant, en partant éventuellement d’un modèle.
 
 >[!IMPORTANT]
 >
->Les attributs disponibles dans la section **[!UICONTROL Contenu]** dépendent du schéma [!DNL nms:offer]. Pour exposer des attributs personnalisés, étendez le schéma et sélectionnez-les dans la section **[!UICONTROL Contenu de l’offre]**. En savoir plus dans [Utilisation de schémas](../administration/schemas.md).
+>Les attributs disponibles dans la section **[!UICONTROL Contenu]** dépendent du schéma [!DNL nms:offer]. Pour exposer des attributs personnalisés, étendez le schéma et sélectionnez-les dans la section **[!UICONTROL Contenu de l’offre]**. Pour en savoir plus, consultez [Utiliser des schémas](../administration/schemas.md).
 
-## Prévisualiser l&#39;offre {#preview}
+## Prévisualiser l’offre {#preview}
 
-Vous pouvez prévisualiser l&#39;offre avant de l&#39;envoyer.
+Vous pouvez prévisualiser l’offre avant de l’envoyer.
 
-1. Dans l’offre, sélectionnez l’onglet **[!UICONTROL Aperçu]** en regard de **[!UICONTROL Aperçu]**.
+1. Dans l’offre, sélectionnez l’onglet **[!UICONTROL Prévisualisation]** en regard de **[!UICONTROL Vue d’ensemble]**.
 
    ![Capture d’écran affichant l’aperçu de l’offre.](assets/offers-offer-3.png){zoomable="yes"}
 
-1. Sélectionnez un profil cible et, le cas échéant, l&#39;emplacement sur lequel l&#39;aperçu doit être exécuté.
+1. Sélectionnez un profil cible et, le cas échéant, l’emplacement sur lequel la prévisualisation doit être exécutée.
 
-   La fonction de rendu définie au niveau de l&#39;emplacement est appliquée au contenu de l&#39;offre et la représentation résultante s&#39;affiche.
+   La fonction de rendu définie sur l’emplacement est appliquée au contenu de l’offre, et la représentation résultante s’affiche.
 
 >[!NOTE]
 >
->Si la prévisualisation renvoie une erreur ou aucun contenu, vérifiez la fonction de rendu de l&#39;emplacement, les règles d&#39;éligibilité de l&#39;offre et assurez-vous que tous les champs de contenu requis sont remplis.
+>Si la prévisualisation renvoie une erreur ou aucun contenu, vérifiez la fonction de rendu de l’emplacement, les règles d’éligibilité de l’offre et assurez-vous que tous les champs de contenu obligatoires sont remplis.
 
-## Valider et déployer l&#39;offre {#approve-deploy}
+## Approuver et déployer l’offre {#approve-deploy}
 
-Les offres ne sont pas immédiatement disponibles dans les diffusions : elles passent par un cycle de validation et de déploiement.
+Les offres ne sont pas immédiatement disponibles dans les diffusions : elles passent par un cycle d’approbation et de déploiement.
 
-1. Dans la présentation de l&#39;offre, cliquez sur **[!UICONTROL Validation]**.
+1. Dans la vue d’ensemble de l’offre, cliquez sur **[!UICONTROL Approbation]**.
 
-   ![Capture d’écran affichant la validation de l’offre.](assets/offers-offer-4.png){zoomable="yes"}
+   ![Copie d’écran affichant l’approbation de l’offre.](assets/offers-offer-4.png){zoomable="yes"}
 
-1. Validez les **[!UICONTROL Éligibilité]** et **[!UICONTROL Contenu]**. Le contenu peut être validé par emplacement, vous pouvez donc le valider pour un emplacement tout en laissant d&#39;autres en attente.
+1. Approuvez l’**[!UICONTROL Éligibilité]** et le **[!UICONTROL Contenu]**. Le contenu peut être approuvé par emplacement, vous pouvez donc l’approuver pour un emplacement tout en laissant les autres en attente.
 
-1. Une fois les deux validations accordées, cliquez sur **[!UICONTROL Déployer]** pour publier l’offre dans l’environnement en ligne.
+1. Une fois les deux approbations accordées, cliquez sur **[!UICONTROL Déployer]** pour publier l’offre dans l’environnement en ligne.
 
-1. Actualisez la vue de l&#39;offre pour confirmer que la représentation **[!UICONTROL en direct]** est à jour.
+1. Actualisez la vue de l’offre pour confirmer que la représentation **[!UICONTROL en ligne]** est à jour.
 
 <!--
 >[!NOTE]
@@ -120,21 +118,21 @@ Les offres ne sont pas immédiatement disponibles dans les diffusions : elles pa
 
 >[!CAUTION]
 >
->La validation de l&#39;éligibilité et du contenu d&#39;une offre est une opération à part. Une offre peut être partiellement validée (contenu uniquement, par exemple) et rester indisponible pour diffusion jusqu&#39;à ce que la validation de l&#39;éligibilité soit également accordée.
+>L’approbation de l’éligibilité et du contenu d’une offre sont deux actions distinctes. Une offre peut être partiellement approuvée (contenu uniquement, par exemple) et rester indisponible pour la diffusion jusqu’à ce que l’approbation de l’éligibilité soit également accordée.
 
 ## Surveiller le tableau de bord des offres {#dashboard}
 
-L’onglet **[!UICONTROL Présentation]** de l’offre résume le statut de l’offre dans les cartes **[!UICONTROL Propriétés]**, **[!UICONTROL Contenu]** et **[!UICONTROL Éligibilité]**, avec une icône en forme de crayon sur chacune d’elles pour revenir en édition. Une carte **[!UICONTROL Représentation]** répertorie chaque emplacement auquel l&#39;offre est liée, ainsi que son statut de conception actuel.
+L’onglet **[!UICONTROL Vue d’ensemble]** de l’offre résume le statut de l’offre dans les cartes **[!UICONTROL Propriétés]**, **[!UICONTROL Contenu]** et **[!UICONTROL Éligibilité]**, avec une icône en forme de crayon sur chacune d’elles pour revenir au mode édition. Une carte **[!UICONTROL Représentation]** répertorie chaque emplacement auquel l’offre est liée, ainsi que son statut de conception actuel.
 
-![Capture d’écran affichant le tableau de bord des offres.](assets/offers-offer-5.png){zoomable="yes"}
+![Copie d’écran affichant le tableau de bord des offres.](assets/offers-offer-5.png){zoomable="yes"}
 
-Cliquez sur **[!UICONTROL Journaux]** pour accéder aux journaux de déploiement, ou sur le menu **··** (**[!UICONTROL Plus]**) pour **[!UICONTROL Dupliquer]** ou **[!UICONTROL Supprimer]** l’offre.
+Cliquez sur **[!UICONTROL Journaux]** pour accéder aux journaux de déploiement, ou sur le menu **···** (**[!UICONTROL Plus]**) pour **[!UICONTROL Dupliquer]** ou **[!UICONTROL Supprimer]** l’offre.
 
-Une fois qu’une offre est active, la modification de n’importe quel paramètre ramène l’offre de conception à un statut modifiable. La représentation en direct reste inchangée jusqu’au prochain cycle d’approbation et de déploiement.
+Une fois qu’une offre est active, la modification de n’importe quel paramètre fait revenir l’offre de conception à un état modifiable. La représentation en ligne reste inchangée jusqu’au cycle suivant d’approbation et de déploiement.
 
-## Utiliser l&#39;offre dans une diffusion {#use-in-delivery}
+## Utiliser l’offre dans une diffusion {#use-in-delivery}
 
-Lorsque l&#39;offre est en ligne, elle peut être sélectionnée dans n&#39;importe quelle diffusion qui cible l&#39;emplacement correspondant. Découvrez comment configurer des offres dans une diffusion dans [Ajouter des offres à vos messages](../msg/offers.md).
+Lorsque l’offre est en ligne, elle peut être sélectionnée dans n’importe quelle diffusion qui cible l’emplacement correspondant. Découvrez comment configurer des offres dans une diffusion dans [Ajouter des offres à vos messages](../msg/offers.md).
 
-Pour une intégration complète des diffusions sortantes, y compris sur la construction de l’appel au moteur et la manière dont le tracking est appliqué aux liens des offres, reportez-vous à la section [Offres de la documentation Campaign v8 dans les diffusions sortantes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=fr){target="_blank"}.
+Pour l’intégration complète des diffusions sortantes, notamment la manière dont l’appel au moteur est créé et dont le suivi est appliqué aux liens des offres, consultez la [documentation de Campaign v8 sur les offres dans les diffusions sortantes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=fr){target="_blank"}.
 

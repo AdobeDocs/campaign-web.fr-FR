@@ -3,15 +3,12 @@ title: Utiliser les codes JavaScript
 description: Découvrez comment utiliser les codes JavaScript.
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
 TQID: https://experienceleague.adobe.com/MEB6-W3pMbt97vozcG7sKjyFLHzLqTs3D0B9JjU44hw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 535
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +17,12 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="Codes JavaScript"
->abstract="Les codes JavaScript sont des fonctions réutilisables qui peuvent être utilisées dans les workflows, comme une bibliothèque. Dans cette liste, vous pouvez créer, modifier, dupliquer ou supprimer un code JavaScript."
+>abstract="Les codes JavaScript sont des fonctions réutilisables qui peuvent être utilisées dans les workflows, à la manière d’une bibliothèque. Dans cette liste, vous pouvez créer, modifier, dupliquer ou supprimer un code JavaScript."
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
 >title="Créer du code JavaScript"
->abstract="Définissez un espace de noms, un nom et un libellé pour votre code JavaScript, puis écrivez son contenu à l’aide des fonctions prédéfinies disponibles pour les conditions et le formatage des dates. Une fois créés, l’espace de noms et le nom ne peuvent pas être modifiés."
+>abstract="Définissez un espace de noms, un nom et un libellé pour votre code JavaScript, puis écrivez son contenu à l’aide des fonctions prédéfinies disponibles pour les conditions et le formatage des dates. Une fois créés, l’espace de noms et le nom ne peuvent plus être modifiés."
 
 ## À propos des codes JavaScript {#about}
 
