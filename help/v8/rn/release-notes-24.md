@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2580
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -94,13 +94,13 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <table>
 <thead>
 <tr>
-<th><strong>Generate Content</strong><br/></th>
+<th><strong>Générer du contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une fois que vous avez conçu et adapté votre message, faites-le passer au niveau supérieur avec l’option Générer du contenu dans Adobe Campaign Web. Cet outil puissant vous permet d’optimiser l’impact de votre contenu en générant un éventail de textes attirants, de grands titres et d’images visuellement attrayantes.</p>
+<p>Une fois que vous avez rédigé et personnalisé votre message, améliorez-le encore grâce à la fonction Générer du contenu dans Adobe Campaign Web. Cet outil puissant vous permet d’optimiser l’impact de votre contenu en générant un éventail de textes attirants, de grands titres et d’images visuellement attrayantes.</p>
 <p>Plongez dans une expérience pratique avec la <a href="https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator">prévisualisation de notre fonctionnalité en direct</a>, conçue pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.</a></p>
 <p>Pour plus d'informations, consultez la <a href="../content/generative-gs.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

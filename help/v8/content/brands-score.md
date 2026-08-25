@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 510
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser Générer du contenu. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’outil Générer du contenu. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 La fonction de révision du contenu fournit des outils d’évaluation complets permettant de mesurer la conformité de vos campagnes avec les directives de votre marque et de maintenir les normes de qualité du contenu dans toutes les communications :
 

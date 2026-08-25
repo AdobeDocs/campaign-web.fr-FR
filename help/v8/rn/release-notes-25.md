@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 3030
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 3118
+ht-degree: 100%
 
 ---
 
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>Vous pouvez désormais accéder aux rapports dynamiques qui fournissent des rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Les rapports dynamiques sont également disponibles pour les diffusions d’e-mails multilingues et les messages transactionnels.</p>
-<p>Cette fonctionnalité n’est disponible qu’à la demande. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.
+<p>Cette fonctionnalité n’est disponible qu’à la demande. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 au minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.
 <p>Pour plus d'informations, consultez la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>Les administrateurs et administratrices techniques peuvent désormais définir une ou plusieurs marques afin de centraliser les paramètres qui affectent l’identité d’une marque. Par exemple : le logo de la marque, le domaine d’URL d’accès aux landing pages ainsi que les paramètres de suivi des messages. Vous pouvez créer ces marques et les associer à des messages ou à des landing pages. Cette configuration est gérée dans des modèles. Les options de branding sont désormais disponibles pour tous les canaux, y compris les SMS et le courrier.</p>
-<p>Cette fonctionnalité n’est disponible qu’à la demande, pour les nouvelles implémentations. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.
+<p>Cette fonctionnalité est uniquement disponible à la demande pour les nouvelles implémentations. Pour y accéder, contactez votre représentant ou représentante Adobe. Votre serveur doit être mis à niveau vers la version 8.8.1 au minimum. Reportez-vous aux <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=fr-FR" target="_blank">notes de mise à jour</a> de la console cliente.
 <p>Pour plus d'informations, consultez la <a href="../administration/branding/branding-gs.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -853,15 +853,15 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 <table>
 <thead>
 <tr>
-<th><strong>Génération de la page de destination avec l’option Générer le contenu</strong><br/></th>
+<th><strong>Génération de pages de destination avec l’option Générer du contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’option Générer du contenu est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
+<p>L’outil Générer du contenu est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Pour plus d’informations sur l’option Générer du contenu , consultez la <a href="../content/generative-full-content.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations sur Générer du contenu, consultez la <a href="../content/generative-full-content.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

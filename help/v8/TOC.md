@@ -7,9 +7,9 @@ description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 95%
       + [Ajouter un fichier CSS personnalisé](email/custom-css.md)
       + [Gérer le contenu en mode sombre](email/dark-mode.md)
     + [Créer du contenu accessible](email/accessible-content.md)
-  + Generate Content {#ai-assistant}
-    + [Utilisation de l’option Générer du contenu](content/generative-gs.md)
+  + Générer du contenu {#ai-assistant}
+    + [Utiliser la fonctionnalité de génération de contenu](content/generative-gs.md)
     + [Bonnes pratiques en matière de prompts d’IA](content/ai-assistant-prompting-guide.md)
     + [Génération de contenu complet avec l’IA](content/generative-full-content.md)
     + [Génération de texte avec l’IA](content/generative-text.md)
     + [Génération d’images avec l’IA](content/generative-image.md)
-    + [Générer des cas d’utilisation de contenu](content/generative-uc.md)
+    + [Cas d’utilisation de génération de contenu](content/generative-uc.md)
     + Marques {#ai-assistant}
       + [Créer et gérer vos marques](content/brands.md)
       + [Personnaliser votre marque](content/brands-personalize.md)
@@ -152,11 +152,11 @@ ht-degree: 95%
   + [Modifier le contenu d’une page de destination](landing-pages/lp-content.md)
   + [Apprendre avec des cas d’utilisation](landing-pages/lp-use-cases.md)
 + Gestion des offres {#offers}
-  + [Prise en main de la gestion des offres](offers/gs-offer-management.md)
+  + [Commencer avec la gestion des offres](offers/gs-offer-management.md)
   + [Vérifier les paramètres de l’environnement d’offres](offers/offer-environment.md)
-  + [Création et gestion des emplacements](offers/offer-space.md)
-  + [Création et publication d’une offre](offers/create-offer.md)
-  + [Ajout d&#39;une liste modifiable au schéma d&#39;offre](offers/offer-editable-list.md)
+  + [Créer et gérer des emplacements](offers/offer-space.md)
+  + [Créer et publier une offre](offers/create-offer.md)
+  + [Ajouter une liste modifiable au schéma d’offre](offers/offer-editable-list.md)
 + Profils et audiences {#audiences}
   + [Commencer avec les profils et les audiences](audience/gs-audiences-recipients.md)
   + [Dimensions de ciblage](audience/targeting-dimensions.md)
@@ -205,7 +205,7 @@ ht-degree: 95%
     + [Changement de dimension](workflows/activities/change-dimension.md)
     + [Combiner](workflows/activities/combine.md)
     + [Diffusion continue](workflows/activities/continuous-delivery.md)
-    + [Chargement (SGBD)](workflows/activities/data-loading-rdbms.md)
+    + [Chargement de données (SGBD)](workflows/activities/data-loading-rdbms.md)
     + [Déduplication](workflows/activities/deduplication.md)
     + [E-mail, SMS, Push, Courrier](workflows/activities/channels.md)
     + [Fin](workflows/activities/end.md)
@@ -306,7 +306,7 @@ ht-degree: 95%
     + [Créer et publier des schémas](administration/schemas-create-publish.md)
     + [Utiliser les formulaires personnalisés](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Configurer des champs personnalisés](administration/custom-fields.md)
-  + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
   + [Gestion du fuseau horaire](administration/timezone-management.md)
   + Comptes externes {#external-accounts}
     + [Créer des comptes externes](administration/create-external-account.md)
@@ -318,5 +318,5 @@ ht-degree: 95%
     + [Compte externe CRM](administration/external-crm.md)
   + [Gérer les énumérations](administration/enumerations.md)
   + [Utiliser les codes JavaScript](administration/javascript-codes.md)
-  + [Utilisation de pages JavaScript dynamiques](administration/dynamic-javascript-pages.md)
+  + [Utiliser des pages JavaScript dynamiques](administration/dynamic-javascript-pages.md)
 + [Documentation de Campaign v8 (console) >](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home)

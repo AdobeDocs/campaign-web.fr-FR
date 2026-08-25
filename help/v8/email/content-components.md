@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1517
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
    * **[!UICONTROL Créer une liste]** : ajoutez une liste à puces ou à nombres à votre texte.
    * **[!UICONTROL Définir un titre]** : ajoutez jusqu’à six niveaux de titre à votre texte.
    * **Taille de police** : sélectionnez la taille de police de votre texte en pixels.
-   * **[!UICONTROL Modifier l’image]** : ajoutez une image à votre composant de texte à partir de votre bibliothèque Adobe Experience Manager Assets ou de votre ordinateur, ou réutilisez une image disponible sur votre instance Adobe Campaign. [En savoir plus](#image)
+   * **[!UICONTROL Modifier l’image]** : ajoutez une image à votre composant de texte à partir de votre bibliothèque Adobe Experience Manager Assets ou de votre ordinateur, ou réutilisez une image disponible sur votre instance Adobe Campaign. [En savoir plus](#image)
    * **[!UICONTROL Afficher le code source]** : affichez le code source de votre texte. Impossible d’effectuer une modification.
    * **[!UICONTROL Dupliquer]** : ajoutez une copie de votre composant de texte.
    * **[!UICONTROL Supprimer]** : supprimez le composant de texte sélectionné de votre e-mail.
@@ -159,19 +159,19 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer une image dans votre 
 
    ![Capture d’écran affichant la façon de faire glisser et déposer un composant d’image dans le Concepteur d’e-mail.](assets/email_designer_9.png){zoomable="yes"}
 
-1. Sélectionnez l’une des options suivantes pour ajouter votre image :
+1. Sélectionnez l’une des options suivantes pour ajouter votre image :
 
-   ![Capture d’écran montrant les options des composants d’image dans le Designer d’e-mail.](assets/email_designer_28.png){zoomable="yes"}
+   ![Copie d’écran affichant les options des composants d’image dans le Concepteur d’e-mail.](assets/email_designer_28.png){zoomable="yes"}
 
    +++**[!UICONTROL Parcourir]**
 
-   Sélectionnez cette option pour sélectionner une image dans votre bibliothèque Adobe Experience Manager Assets.
+   Sélectionnez cette option pour choisir une image dans votre bibliothèque Adobe Experience Manager Assets.
 
    >[!IMPORTANT]
    >
-   >Cette option nécessite une licence Adobe Experience Manager as a Cloud Service active.
+   >Cette option nécessite une licence Adobe Experience Manager as a Cloud Service active.
 
-   Parcourez vos dossiers pour localiser la ressource spécifique dont vous avez besoin ou utilisez la barre de recherche pour la chercher efficacement. Une fois la ressource trouvée, cliquez sur **[!UICONTROL Sélectionner]**.
+   Parcourez vos dossiers pour localiser la ressource spécifique dont vous avez besoin ou utilisez la barre de recherche pour la chercher efficacement. Une fois que vous avez trouvé la ressource recherchée, cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![Capture d’écran affichant le processus de sélection de ressources dans le Concepteur d’e-mail.](assets/email_designer_29.png){zoomable="yes"}
 
@@ -181,23 +181,23 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer une image dans votre 
 
    +++**[!UICONTROL Importer]**
 
-   Sélectionnez cette option pour charger une nouvelle image à partir de votre ordinateur. Le fichier est chargé en tant que ressource publique sur votre instance Adobe Campaign.
+   Sélectionnez cette option pour charger une nouvelle image depuis votre ordinateur. Le fichier est chargé en tant que ressource publique sur votre instance Adobe Campaign.
 
    +++
 
-   +++**[!UICONTROL Importer ressource publique]**
+   +++**[!UICONTROL Importer la ressource publique]**
 
-   Sélectionnez cette option pour sélectionner une image déjà disponible sur votre instance Adobe Campaign, telle qu’un fichier précédemment importé dans le Designer de messagerie ou en tant que ressource publique à partir de la console cliente.
+   Sélectionnez cette option pour choisir une image déjà disponible sur votre instance Adobe Campaign, par exemple un fichier précédemment importé dans le Concepteur d’e-mail ou une ressource publique depuis la console cliente.
 
-   ![Capture d’écran montrant le processus de sélection des ressources publiques dans le Designer d’e-mail.](assets/email_designer_30.png){zoomable="yes"}
+   ![Copie d’écran affichant le processus de sélection de ressources publiques dans le Concepteur d’e-mail.](assets/email_designer_30.png){zoomable="yes"}
 
    Recherchez la ressource par nom. Vous pouvez également utiliser des filtres et réorganiser les colonnes.
 
    >[!NOTE]
    >
-   >Les contraintes de sécurité sont les mêmes que dans la console cliente : vous pouvez uniquement sélectionner les ressources auxquelles vous avez accès en fonction de vos droits d’utilisateur.
+   >Les contraintes de sécurité sont les mêmes que dans la console cliente : vous ne pouvez sélectionner que les ressources auxquelles vous avez accès, en fonction de vos droits d’utilisation.
 
-   Sélectionnez la ressource, puis cliquez sur **[!UICONTROL Confirmer]**.
+   Sélectionnez la ressource et cliquez sur **[!UICONTROL Confirmer]**.
 
    +++
 

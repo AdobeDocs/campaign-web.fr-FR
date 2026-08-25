@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 728
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
 
    >[!NOTE]
    >
-   >Les administrateurs peuvent limiter ce champ à une liste prédéfinie d’adresses d’expéditeur. Dans ce cas, vous sélectionnez une adresse dans une liste déroulante au lieu de la saisir. [En savoir plus](../administration/options.md#restrict-sender-address)
+   >Les administrateurs et administratrices peuvent limiter ce champ à une liste prédéfinie d’adresses d’expédition. Dans ce cas, vous sélectionnez une adresse dans une liste déroulante au lieu de la saisir. [En savoir plus](../administration/options.md#restrict-sender-address)
 
 1. Développez la section **[!UICONTROL Champs de réponse]**. Le nom et l’adresse de la personne expéditrice sont utilisés par défaut pour les réponses. Adobe recommande toutefois d’utiliser une adresse réelle existante, telle que l’assistance clientèle de votre marque. Ainsi, si une personne destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
 

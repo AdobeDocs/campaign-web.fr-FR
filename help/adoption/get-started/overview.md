@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 1589
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 1604
+ht-degree: 100%
 
 ---
 
@@ -114,19 +114,19 @@ En tant qu’utilisateur ou utilisatrice Campaign Standard passant à Adobe Cam
 
   Adobe Experience Manager as a Cloud Service offre une agilité cloud native, ce qui vous permet d’accélérer le temps d’évaluation et de vous adapter à l’évolution des besoins de l’entreprise. Cette intégration permet non seulement d’améliorer vos fonctionnalités de gestion de contenu, mais également de proposer à vos clientes et clients des expériences plus personnalisées et plus attrayantes sur tous les points de contact.
 
-* **Générer le contenu**
+* **Générer du contenu**
 
-  Le contenu généré par Campaign rend la création et l’exécution de campagnes marketing sur plusieurs canaux tels que les e-mails, les SMS et les notifications push intuitives, simples et sans tracas, tout en permettant de gagner du temps, d’améliorer l’efficacité et d’obtenir de meilleurs résultats.
+  La génération de contenu de Campaign rend la création et l’exécution de campagnes marketing sur plusieurs canaux (comme les e-mails, les SMS et les notifications push) intuitives, simples et sans accroc, tout en permettant de gagner du temps, d’améliorer l’efficacité et d’obtenir de meilleurs résultats.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  Générer du contenu révolutionne la façon dont vous créez du contenu professionnel et cohérent sur l’ensemble des canaux. Grâce aux modèles GenAI avancés et à une compréhension approfondie de vos directives de marque, Générer du contenu génère automatiquement du contenu personnalisé, attrayant et efficace en fonction de l’objectif marketing avec du contenu optimisé pour les styles de contour de la marque, les mises en page, le ton, etc.
+  La génération de contenu révolutionne la manière dont vous créez du contenu professionnel et cohérent pour votre marque, sur tous les canaux. Grâce à des modèles GenAI avancés et à une compréhension approfondie des directives de votre marque, la génération de contenu génère automatiquement du contenu personnalisé, attrayant et efficace en fonction de l’objectif marketing, avec un contenu optimisé pour les styles, les mises en page, le ton et bien plus encore.
 
-  L’option Générer du contenu rend la création et l’exécution des campagnes marketing intuitives, simples et sans tracas, tout en permettant de gagner du temps, d’améliorer l’efficacité et de générer de meilleurs résultats.
+  La génération de contenu rend la création et l’exécution de campagnes marketing intuitives, simples et sans accroc, tout en permettant de gagner du temps, d’améliorer l’efficacité et d’obtenir de meilleurs résultats.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Il fournit une variante de modèles d’e-mail et génère et génère à nouveau des images. En savoir plus sur la fonction Générer du contenu dans [cette section](../../v8/content/generative-full-content.md). Adobe Campaign v8 dispose de la fonctionnalité Générer du contenu disponible pour les [e-mails](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) et [notifications push](../../v8/content/generative-full-content.md).
+  Cette méthode fournit une variante de modèles d’e-mail et génère et génère à nouveau des images. Pour en savoir plus sur la génération de contenu, consultez [cette section](../../v8/content/generative-full-content.md). Adobe Campaign v8 propose la fonctionnalité de génération de contenu dans les canaux [E-mail](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) et [Push](../../v8/content/generative-full-content.md).
 
 * **Infrastructure SMS mise à niveau - SMS v2.0**
 

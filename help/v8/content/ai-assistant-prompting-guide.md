@@ -1,5 +1,5 @@
 ---
-title: Guide d’invite Generate Content
+title: Guide de rédaction de prompt pour la génération de contenu
 description: Découvrez comment créer des prompts efficaces pour la génération de contenu optimisée par l’IA à l’aide du cadre CO-STAR afin de créer du contenu marketing à conversion élevée et aligné sur la marque.
 role: User
 level: Intermediate
@@ -20,20 +20,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 2054
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: 2109
+ht-degree: 100%
 
 ---
 
-# Bonnes pratiques relatives à l’invite de génération de contenu {#ai-assistant-prompting-guide}
+# Bonnes pratiques relatives à la rédaction de prompts pour la génération de contenu {#ai-assistant-prompting-guide}
 
-Ce guide vous aide à structurer vos requêtes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de vos campagnes.
-Découvrez comment écrire des invites efficaces qui permettent à l&#39;IA de générer du contenu marketing sur la marque de haute qualité adapté à vos objectifs.
+Ce guide vous aide à structurer les demandes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de vos campagnes.
+Découvrez comment rédiger des prompts efficaces qui permettent à l’IA de générer du contenu marketing de haute qualité, conforme à votre marque et adapté à vos objectifs.
 
 ## Utiliser le cadre CO-STAR {#costar-framework}
 
-Pour de meilleurs résultats avec Générer du contenu, organisez vos invites à l&#39;aide du framework CO-STAR. Cette approche structurée garantit que l’IA comprend exactement ce dont vous avez besoin.
+Pour obtenir les meilleurs résultats avec l’outil de génération de contenu, organisez vos prompts en utilisant le cadre CO-STAR. Cette approche structurée garantit que l’IA comprend exactement ce dont vous avez besoin.
 
 | Composant | Signification | Pourquoi est-ce important ? |
 |-|-|-|
@@ -129,19 +129,19 @@ Ces demandes ne sont pas prises en charge et doivent être traitées par d’aut
 
 Avant de générer du contenu, vérifiez les points suivants :
 
-&check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
+&amp;check; **Objectif clair** : indique clairement l’action, le produit/service, la valeur et le contexte.
 
-&check; **Audience cible définie** : indique la population, le rôle ou le segment.
+&amp;check; **Audience cible définie** : indique la population, le rôle ou le segment.
 
-&check; **Alignement sur le type de contenu** : l’objectif correspond au canal ou au format sélectionné.
+&amp;check; **Alignement sur le type de contenu** : l’objectif correspond au canal ou au format sélectionné.
 
-&check; **Sélections de liste déroulante configurées** : le ton, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
+&amp;check; **Sélections de liste déroulante configurées** : le ton, la stratégie et les paramètres régionaux sont sélectionnés, ne les incluez pas dans le prompt.
 
-&check; **Focalisation du document spécifiée** : met en évidence le contenu ou les sections à référencer.
+&amp;check; **Focalisation du document spécifiée** : met en évidence le contenu ou les sections à référencer.
 
-&check; **Marque appliquée** : les consignes de marque appropriées sont sélectionnées.
+&amp;check; **Marque appliquée** : les consignes de marque appropriées sont sélectionnées.
 
-&check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
+&amp;check; **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de structure.
 
 ## Rédiger des objectifs marketing efficaces {#marketing-objectives}
 
@@ -151,11 +151,11 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 **Exemples de bons objectifs :**
 
-&check; « Stimule les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
+&amp;check; « Stimule les inscriptions à notre essai gratuit de 30 jours du nouveau tableau de bord d’analyse optimisé par l’IA »
 
-&check; « Génère des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
+&amp;check; « Génère des pistes pour notre webinaire B2B sur la réduction des coûts du cloud de 40 % qui aura lieu le 15 mars »
 
-&check; « Fais la promotion de notre réduction à durée limitée de 25 % sur les abonnements Premium, valable jusqu’au 25 décembre »
+&amp;check; « Fais la promotion de notre réduction à durée limitée de 25 % sur les abonnements Premium, valable jusqu’au 25 décembre »
 
 **Exemples de ce qu’il faut éviter :**
 
@@ -167,16 +167,16 @@ Lors de l’élaboration des objectifs marketing, assurez-vous qu’ils sont cla
 
 ### Structurer votre objectif
 
-Fournissez toujours du contexte ainsi que la proposition de valeur afin que l’IA génère du contenu pertinent.
-Utilisez cette formule pour rédiger des objectifs efficaces : **Action + Produit/Service + Valeur/Avantage + Urgence/Contexte**
+Fournissez toujours le contexte et la proposition de valeur afin que l’IA puisse générer du contenu pertinent.
+Utilisez cette formule pour vous aider à rédiger des objectifs efficaces : **Action + Produit/Service + Valeur/Avantage + Urgence/Contexte**
 
 **Exemples de bons objectifs :**
 
-&check; « Encourage les téléchargements de notre nouvelle application mobile qui permet aux utilisateurs et aux utilisatrices de suivre des habitudes de vie durables avec des recommandations personnalisées et écoresponsables »
+&amp;check; « Encourage les téléchargements de notre nouvelle application mobile qui permet aux utilisateurs et aux utilisatrices de suivre des habitudes de vie durables avec des recommandations personnalisées et écoresponsables »
 
-&check; « Fais la promotion de l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les spécialistes marketing »
+&amp;check; « Fais la promotion de l’inscription à notre atelier exclusif sur les techniques avancées de visualisation des données pour les spécialistes marketing »
 
-&check; « Encourage la participation à notre événement de lancement de produit présentant l’assistant d’écriture IA révolutionnaire qui permet de gagner plus de 5 heures par semaine »
+&amp;check; « Encourage la participation à notre événement de lancement de produit présentant l’assistant d’écriture IA révolutionnaire qui permet de gagner plus de 5 heures par semaine »
 
 **Exemples de ce qu’il faut éviter :**
 
@@ -279,7 +279,7 @@ Utilisez le tableau ci-dessous pour explorer chaque ton en détail, y compris qu
 >
 >Si vous avez déjà chargé une ressource de marque par l’intermédiaire du menu **Ressources de marque**, vous n’avez pas besoin de la référencer dans votre prompt. Le système utilise automatiquement tous les documents sélectionnés.
 
-Les ressources de la marque fournissent des informations factuelles qui permettent d’enrichir le contenu généré avec des détails précis.
+Les ressources de marque fournissent des informations factuelles qui enrichissent votre contenu généré avec des détails précis et spécifiques.
 Lorsque vous chargez des documents généraux tels que des brochures de produit, ajoutez au prompt les parties sur lesquelles vous souhaitez mettre l’accent :
 
 * **Au lieu de** _« Utilise la brochure produit »_, **écrivez plutôt** _« Concentre-toi sur les fonctionnalités de sécurité avancées et les certifications de conformité, en particulier la conformité à la norme SOC 2 et le chiffrement des données »_.

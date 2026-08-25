@@ -9,19 +9,19 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 805
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Ajouter des offres à vos messages {#offers-content}
 
-Vous pouvez ajouter des offres à vos diffusions directement depuis l’interface utilisateur web de Campaign. Ces offres sont disponibles à partir du menu **Offres** à gauche qui vous permet d’accéder à la liste des offres.
+Vous pouvez ajouter des offres à vos diffusions directement depuis l’interface d’utilisation de Campaign Web. Ces offres sont disponibles à partir du menu **Offres** à gauche qui vous permet d’accéder à la liste des offres.
 
-Depuis l’interface utilisateur web de Campaign, vous pouvez également créer et gérer directement des environnements d’offres, des emplacements et des offres, sans passer à la console cliente. [En savoir plus](../offers/gs-offer-management.md).
+Depuis l’interface d’utilisation de Campaign Web, vous pouvez également créer et gérer directement des environnements d’offres, des emplacements et des offres, sans passer à la console cliente. [En savoir plus](../offers/gs-offer-management.md).
 
-Pour les configurations avancées, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
+Pour les configuration avancées, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=fr){target="_blank"}.
 
 Pour envoyer des offres avec une diffusion, procédez comme suit :
 
@@ -50,7 +50,7 @@ Pour sélectionner les offres à ajouter à votre diffusion, procédez comme sui
 
 1. Configurez les offres qui doivent être proposées aux destinataires.
 
-   En premier lieu, sélectionnez l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement directement à partir de l’interface utilisateur web de Campaign dans cette [section](../offers/offer-space.md).
+   En premier lieu, sélectionnez l’**[!UICONTROL emplacement]** correspondant à votre environnement d’offres. Découvrez comment créer un emplacement directement à partir de l’interface d’utilisation de Campaign Web dans cette [section](../offers/offer-space.md).
 
    ![Capture d’écran montrant la sélection de l’emplacement dans le contenu de création des offres](assets/offer-create-content.png){zoomable="yes"}
 

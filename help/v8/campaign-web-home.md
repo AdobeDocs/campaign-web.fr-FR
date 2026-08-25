@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 523
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: 703
+ht-degree: 100%
 
 ---
 
@@ -73,9 +73,9 @@ Pour une vue d’ensemble complète, consultez les notes de mise à jour.
 [![Bouton En savoir plus](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB Générer le contenu]
+>[!TAB Générer du contenu]
 
-✨ Plongez dans une expérience pratique grâce à notre aperçu en direct des fonctionnalités de [Generate Content](../v8/content/generative-gs.md), conçu pour vous permettre d’explorer ses fonctionnalités en direct et de comprendre pleinement ses fonctionnalités.
+✨ Plongez dans une expérience pratique avec la prévisualisation de notre fonctionnalité en direct [Générer du contenu](../v8/content/generative-gs.md), conçue pour explorer ses capacités en avant-première et comprendre pleinement ses possibilités.
 
 [![Bouton En savoir plus](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -128,18 +128,18 @@ Les questions fréquentes sur l’interface d’utilisation web de Campaign sont
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
-<br/>
-<strong>Expérience du client ou de la cliente</strong><br/> <a href="workflows/gs-workflows.md" target="_blank">Automatiser avec des workflows</a> – <a href="campaigns/gs-campaigns.md" target="_blank">Orchestration des campagnes</a> – <a href="personalization/gs-personalization.md">Contenu dynamique</a> – <a href="reporting/gs-reports.md">Rapports et analyse</a>
+    <br/>
+      <strong>Expérience du client ou de la cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatiser avec des workflows</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orchestration de campagne</a> - <a href="personalization/gs-personalization.md">Contenu dynamique</a> - <a href="reporting/gs-reports.md">Rapports et analyse</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
-<br/>
-<strong>Envoyer des messages</strong><br/> <a href="msg/gs-deliveries.md">Créer une diffusion</a> – <a href="email/create-email.md">E-mail</a> – <a href="push/gs-push.md">Notifications push</a> – <a href="sms/gs-sms.md">SMS</a> – <a href="msg/delivery-template.md">Modèles de diffusion</a> – <a href="preview-test/preview-test.md">Aperçu et test</a> 
+    <br/>
+      <strong>Envoyer des messages</strong><br/><a href="msg/gs-deliveries.md">Créer une diffusion</a> - <a href="email/create-email.md">E-mail</a> - <a href="push/gs-push.md">Notifications push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modèles de diffusion</a> - <a href="preview-test/preview-test.md">Aperçu et test</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
-<br/>
-<strong>Profils et audiences</strong><br/> <a href="audience/gs-audiences-recipients.md">Prise en main</a> – <a href="audience/create-audience.md">Créer des audiences</a> – <a href="audience/test-profiles.md">Profils de test</a> – <a href="audience/manage-services.md">Services d’abonnements</a> – <a href="query/query-modeler-overview.md">Concepteur de requête</a>
+    <br/>
+      <strong>Profils et audiences</strong><br/><a href="audience/gs-audiences-recipients.md">Commencer</a> - <a href="audience/create-audience.md">Créer des audiences</a> - <a href="audience/test-profiles.md">Profils de test</a> - <a href="audience/manage-services.md">Services d’abonnements</a> - <a href="query/query-modeler-overview.md">Concepteur de requête</a>
     </td>
   </tr>
 </table>

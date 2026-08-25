@@ -3,9 +3,9 @@ title: Parcourir les schémas et y accéder
 description: Découvrez comment parcourir les schémas et y accéder dans l’interface.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
 source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
