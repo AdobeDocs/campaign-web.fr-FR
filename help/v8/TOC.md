@@ -6,10 +6,10 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 nudge: true
-source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: ht
-source-wordcount: '1072'
-ht-degree: 100%
+source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 99%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 100%
     + [Génération de texte avec l’IA](content/generative-text.md)
     + [Génération d’images avec l’IA](content/generative-image.md)
     + [Cas d’utilisation de génération de contenu](content/generative-uc.md)
+    + [Métadonnées C2PA dans les Designer de messagerie et de page de destination](content/c2pa-metadata-email-designer.md)
     + Marques {#ai-assistant}
       + [Créer et gérer vos marques](content/brands.md)
       + [Personnaliser votre marque](content/brands-personalize.md)
@@ -205,7 +206,7 @@ ht-degree: 100%
     + [Changement de dimension](workflows/activities/change-dimension.md)
     + [Combiner](workflows/activities/combine.md)
     + [Diffusion continue](workflows/activities/continuous-delivery.md)
-    + [Chargement de données (SGBD)](workflows/activities/data-loading-rdbms.md)
+    + [Chargement (SGBD)](workflows/activities/data-loading-rdbms.md)
     + [Déduplication](workflows/activities/deduplication.md)
     + [E-mail, SMS, Push, Courrier](workflows/activities/channels.md)
     + [Fin](workflows/activities/end.md)
@@ -306,7 +307,7 @@ ht-degree: 100%
     + [Créer et publier des schémas](administration/schemas-create-publish.md)
     + [Utiliser les formulaires personnalisés](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Configurer des champs personnalisés](administration/custom-fields.md)
-  + [Configurer les options de  [!DNL Campaign] ](administration/options.md)
+  + [Configurer les options de  [!DNL Campaign] &#x200B;](administration/options.md)
   + [Gestion du fuseau horaire](administration/timezone-management.md)
   + Comptes externes {#external-accounts}
     + [Créer des comptes externes](administration/create-external-account.md)
