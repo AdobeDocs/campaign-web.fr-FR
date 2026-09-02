@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Cette section contient les champs suivants :
 >
 >La configuration des serveurs de suivi, de mise en miroir et d’application est stockée dans des comptes externes distincts associés au routage. Ces paramètres sont appliqués pendant l’approvisionnement et ne doivent pas être modifiés. Pour afficher les URL, accédez à l’onglet **[!UICONTROL Préfixes de branding]** à partir de votre compte externe.
 
-### Paramètres d’en-tête des e-mails {#header-param}
+### Paramètres d&#39;en-tête des emails {#header-param}
 
 Les **[!UICONTROL paramètres d’en-tête des e-mails]** vous permettent de personnaliser ce que les destinataires verront dans la section d’en-tête de vos campagnes.
 

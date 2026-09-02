@@ -2,13 +2,10 @@
 title: Utiliser des pages JavaScript dynamiques
 description: Découvrez comment utiliser des pages JavaScript dynamiques.
 exl-id: b7de9f55-2aef-4ba9-a2a1-e9ca15deacfb
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 392
 ht-degree: 100%
 
@@ -23,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_create"
->title="Créer une page dynamique JavaScript"
+>title="Créer une page JavaScript dynamique"
 >abstract="Définissez un espace de noms, un nom et un libellé pour votre page JavaScript dynamique, puis écrivez son contenu à l’aide du code JavaScript. Une fois créés, l’espace de noms et le nom ne peuvent plus être modifiés."
 
 ## À propos des pages JavaScript dynamiques {#about}
