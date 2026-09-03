@@ -2,7 +2,7 @@
 title: Actions de contrôle sur les données
 description: Découvrez comment restreindre les actions de création, de modification et de suppression sur les enregistrements de schéma personnalisé.
 source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ La section **[!UICONTROL Données d’action]** vous permet de restreindre les a
 >
 >Cette section est uniquement disponible pour les schémas personnalisés.
 
-Pour plus d’informations sur l’écran de définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
+Pour plus d’informations sur la définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
 
 Pour configurer les données d’action, suivez les étapes ci-dessous :
 

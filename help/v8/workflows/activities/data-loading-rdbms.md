@@ -8,13 +8,13 @@ product_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 772
 ht-degree: 100%
 
 ---
 
-# Chargement de données (SGBD) {#data-loading-rdbms}
+# Chargement (SGBD) {#data-loading-rdbms}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_data_loading_rdbms"

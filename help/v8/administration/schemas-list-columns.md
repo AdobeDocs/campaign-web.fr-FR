@@ -3,7 +3,7 @@ title: Configuration des colonnes de listes par défaut
 description: Découvrez comment configurer les colonnes affichées par défaut dans les vues Liste.
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
