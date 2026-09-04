@@ -41,7 +41,7 @@ Par défaut, le schéma est vide. Vous devez maintenant ajouter les champs que v
 
 1. Cliquez sur le bouton **[!UICONTROL Vérifier]** pour vérifier la structure XML du schéma avant l’enregistrement. Les erreurs identifiées s’affichent en bas de l’écran, par exemple « Format XML non valide ».
 
-   ![ Erreurs de la boîte de dialogue de création de schéma ](assets/schemas-create3bis.png)
+   ![&#x200B; Erreurs de la boîte de dialogue de création de schéma &#x200B;](assets/schemas-create3bis.png)
 
 1. Corrigez les erreurs éventuelles, puis enregistrez vos modifications pour générer le schéma.
 
