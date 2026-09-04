@@ -4,14 +4,12 @@ title: Créer une diffusion SMS
 description: Découvrez comment concevoir votre diffusion SMS.
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 TQID: https://experienceleague.adobe.com/CZSfyKVl4NOWhNVcs8ZXj9b9o3EPaVjsDOz-7t2g20s
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 275
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 278
+ht-degree: 96%
 
 ---
 
@@ -41,7 +39,7 @@ Pour concevoir le contenu d’une diffusion SMS, procédez comme suit :
 
    ![Capture d’écran montrant le champ Message avec les options permettant d’ajouter du contenu dynamique](assets/sms_content_2.png){zoomable="yes"}
 
-1. Par défaut, le tracking est activé pour les diffusions. Désactivez cette option dans la **[!UICONTROL section Fonctionnalités facultatives]** si nécessaire.
+1. Par défaut, le tracking est activé pour les diffusions. Désactivez cette option dans l’onglet **[!UICONTROL Paramètres]** > **[!UICONTROL Tracking]** de la diffusion, si nécessaire. [En savoir plus](../advanced-settings/delivery-settings.md#tracking-tab)
 
 1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle de diffusion. [En savoir plus](../advanced-settings/delivery-settings.md)
 

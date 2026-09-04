@@ -4,20 +4,14 @@ title: Utiliser les activités de workflows
 description: Découvrez les activités de workflows.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 TQID: https://experienceleague.adobe.com/Yt-mvqKULJIMshitpuuU03U7Dl2m0DnhWoP8kdBoaUI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
-workflow-type: ht
-source-wordcount: 597
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: d1110311-2ca4-442b-be37-088a6db845eeid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 616
+ht-degree: 96%
 
 ---
 
@@ -73,6 +67,7 @@ Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes ma
 
 Les activités ci-après sont spécifiques à l’organisation et à l’exécution des workflows. Leur principale tâche est de coordonner les autres activités :
 
+* [Validation](approval.md) : affectez une tâche à un groupe ou à un opérateur individuel, et acheminez le workflow en fonction de sa réponse.
 * [Signal externe](external-signal.md) : déclenchez l’exécution d’un workflow à partir d’un autre workflow ou d’un appel API.
 * [Branchement](fork.md) : créez des transitions sortantes afin de lancer plusieurs activités simultanément.
 * [Jointure](join.md) : synchronisez plusieurs branches d’exécution d’un workflow.
