@@ -53,7 +53,7 @@ Les actions disponibles pour vous sur un dossier dépendent des droits qui vous 
 
 Contactez votre administrateur si vous ne disposez pas des droits sur un dossier. Reportez-vous à cette [section](permissions.md#folder-permissions) pour savoir comment les autorisations de dossiers sont gérées.
 
-Les droits nommés **[!UICONTROL Insérer des dossiers]**, **[!UICONTROL Modifier des dossiers]** et **[!UICONTROL Supprimer un dossier]** déterminent également les actions de dossier disponibles pour un opérateur. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+Les droits nommés **[!UICONTROL Insérer des dossiers]**, **[!UICONTROL Modifier des dossiers]** et **[!UICONTROL Supprimer un dossier]** déterminent également les actions de dossier disponibles pour un opérateur. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=fr#use-named-rights){target="_blank"}.
 
 ## Créer un dossier {#create-a-folder}
 

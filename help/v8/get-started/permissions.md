@@ -55,6 +55,6 @@ Si l’option **[!UICONTROL Dossier système]** est activée, l’accès est aut
 
 Consultez cette [section](work-with-folders.md#folder-access-rights) pour découvrir comment ces droits affectent les actions disponibles sur un dossier.
 
-Les droits nommés déterminent également les actions de dossier disponibles pour un opérateur. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+Les droits nommés déterminent également les actions de dossier disponibles pour un opérateur. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=fr#use-named-rights){target="_blank"}.
 
 Toutes les autorisations de l’interface d’utilisation de Campaign Web sont synchronisées avec celles de la console cliente Campaign.
