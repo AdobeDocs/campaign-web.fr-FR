@@ -11,10 +11,10 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 522
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 640
+ht-degree: 63%
 
 ---
 
@@ -58,35 +58,35 @@ Configurez les options personnalisées :
 
 ![Capture d’écran affichant la configuration des champs personnalisés d’un plan](assets/plan_customfields.png){zoomable="yes"}
 
-## Créer et configurer un programme
+## Créer et configurer un programme {#create-program}
 
-Pour créer un programme dans votre plan ([En savoir plus sur la création d’un plan](#create-plan)), accédez à votre plan et créez un dossier avec le type de dossier **[!UICONTROL Programme]**. [En savoir plus sur la création d’un dossier](../get-started/work-with-folders.md).
+Les programmes sont disponibles à partir du menu de navigation de gauche, comme les vues Liste pour les campagnes, les diffusions et les workflows. L’entrée **[!UICONTROL Programmes]** vous permet de créer un programme au sein d’un programme existant, et non d’un plan.
 
-![Capture d’écran montrant la création d’un dossier de programme](assets/program_create.png){zoomable="yes"}
+Pour créer votre premier programme de niveau supérieur dans un plan, accédez à votre plan dans l’Explorateur (voir cette [section](#create-plan)), puis créez un dossier avec le type de dossier **[!UICONTROL Program]**. [En savoir plus sur la création d’un dossier](../get-started/work-with-folders.md).
 
-Accédez aux **[!UICONTROL Paramètres de dossier]** de votre programme pour le gérer.
+Pour créer un programme dans un programme existant, procédez comme suit :
 
-![Capture d’écran montrant les paramètres de dossier d’un programme](assets/program_settings.png){zoomable="yes"}
+1. Accédez à l’entrée **[!UICONTROL Programmes]** dans le menu de navigation de gauche. Cette vue répertorie tous vos programmes et vous permet de rechercher et de filtrer. Cliquez sur un programme pour l’ouvrir dans la vue Explorateur .
 
-Définissez des **[!UICONTROL Options personnalisées]** et la date de planification de votre programme.
+   ![Capture d’écran affichant la vue Liste du programme](assets/program_view.png){zoomable="yes"}
 
-![Capture d’écran montrant les options personnalisées d’un programme](assets/program_options.png){zoomable="yes"}
+1. Cliquez sur **[!UICONTROL Créer un programme]** et configurez les options suivantes :
 
-Pour gérer les **[!UICONTROL Options personnalisées]**, procédez comme suit :
+   ![Capture d’écran affichant l’écran Créer un programme](assets/program_create.png){zoomable="yes"}
 
-1. Accédez aux **[!UICONTROL Schémas]**.
-1. Choisissez les schémas **[!UICONTROL Modifiables]** dans les filtres.
-1. Cliquez sur le schéma.
+   * Saisissez un **[!UICONTROL Libellé]**.
+   * Sélectionnez le programme existant à utiliser comme **[!UICONTROL dossier parent]**.
+   * Vous pouvez éventuellement définir une **[!UICONTROL Période]** dans la section **[!UICONTROL Planifier]**.
 
-![Capture d’écran montrant la modification des détails personnalisés d’un programme](assets/program_edit.png){zoomable="yes"}
+   >[!TIP]
+   >
+   >Si vous créez un programme à partir de la vue Explorateur, le dossier parent est automatiquement défini sur le programme actif.
 
-1. Cliquez sur le bouton **[!UICONTROL Édition d’écran]**.
+1. Cliquez à nouveau sur **[!UICONTROL Créer un programme]** pour enregistrer les modifications et créer le programme. Le programme s’affiche alors dans la vue Explorateur . Vous pouvez le renommer, le supprimer et accéder à ses paramètres, comme pour tout autre dossier. Vous pouvez également créer des sous-programmes dans ce programme.
 
-   ![](assets/program_edit2.png){zoomable="yes"}
+   ![Capture d’écran affichant le programme dans la vue Explorateur](assets/program_explorer.png){zoomable="yes"}
 
-Configurez les options personnalisées :
-
-![Capture d’écran montrant la configuration des champs personnalisés d’un programme](assets/program_customfields.png){zoomable="yes"}
+Les options personnalisées d’un programme sont configurées de la même manière que pour un plan. Voir [Créer et configurer un plan](#create-plan).
 
 ## Comment lier une campagne à un programme
 

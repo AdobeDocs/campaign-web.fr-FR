@@ -13,10 +13,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 3482
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 3646
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Dans le champ **[!UICONTROL Type de poids]**, trois options sont disponibles :
 * **[!UICONTROL Dépend du destinataire]**
 * **[!UICONTROL Défini dans chaque règle]**
 
-Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité.Par défaut, le poids d’une diffusion est défini sur 5.Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Les poids peuvent être définis ou calculés au moyen d’une formule en fonction des destinataires.Par exemple, vous pouvez définir le poids d’une diffusion en fonction des centres d’intérêt d’un ou d’une destinataire.
+Utilisez le champ **[!UICONTROL Poids de la diffusion]** pour définir la priorité de diffusion. Chaque diffusion a un poids qui représente son niveau de priorité. Par défaut, le poids d’une diffusion est défini sur 5. Les règles de pression permettent de définir le poids des diffusions auxquelles elles s’appliquent. Les poids peuvent être définis ou calculés au moyen d’une formule en fonction des destinataires. Par exemple, vous pouvez définir le poids d’une diffusion en fonction des centres d’intérêt d’un ou d’une destinataire.
 
 Utilisez le champ **[!UICONTROL Mode de diffusion]** pour sélectionner le mode d’évaluation de la cible.
 
@@ -153,6 +153,19 @@ Concernant les e-mails, vous pouvez également modifier les **[!UICONTROL Format
   >Cette option inclut les deux versions du document. Par conséquent, celle-ci a un impact sur le débit de diffusion, car la taille de l’e-mail est plus importante.
 
 * **[!UICONTROL Envoyer tous les messages au format texte]** : le message est envoyé au format texte. Le format HTML ne sera pas envoyé, mais uniquement utilisé pour la page miroir, lorsque la personne destinataire clique sur l’e-mail.
+
+## Tracking {#tracking-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_options"
+>title="Modifier le tracking"
+>abstract="Par défaut, le tracking est activé pour la diffusion, ce qui signifie que tous les liens inclus dans le contenu du message sont suivis. Vous pouvez désactiver cette option à partir d’ici."
+>additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Ajouter des liens et suivre les messages"
+
+Cet onglet est disponible lorsqu&#39;un schéma de log de tracking est configuré pour la diffusion et que le mode de diffusion n&#39;est pas externe.
+
+* **[!UICONTROL Activer le tracking]** : activez ou désactivez le tracking de la diffusion. Lorsque cette option est désactivée, aucune donnée de suivi des clics ou des ouvertures n’est collectée.
+* **[!UICONTROL Suivi des ouvertures]** (canal e-mail) : activez ou désactivez le suivi des ouvertures de messages à l’aide du pixel de suivi. Cette option n’est disponible que lorsque l’option **[!UICONTROL Activer le tracking]** est activée. Cela vous aide à vous conformer aux réglementations de protection des données, telles que la CNIL ou le RGPD.
 
 ## Web Analytics {#web-analytics}
 
@@ -240,7 +253,7 @@ En savoir plus sur la période de validité des diffusions dans la [documentatio
 
 ### Gestion des pages miroir (canal e-mail) {#mirror}
 
-La page miroir est une page HTML accessible en ligne via un navigateur webet dont le contenu est identique à celui de l’e-mail.Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’e-mail.
+La page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’e-mail. Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’e-mail.
 
 Outre le mode par défaut, les options disponibles sont les suivantes :
 
@@ -329,10 +342,10 @@ Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliqu
 
   Ce champ définit le type de SMS à envoyer : s’il s’agit d’un message normal ou flash, et s’il doit être stocké sur l’appareil mobile ou la carte SIM. Ce paramètre est transmis dans le champ facultatif dest_addr_subunit du PDU SUBMIT_SM.
 
-   * **Flash** définit la valeur sur 1. Envoie un SMS flash qui apparaît immédiatement à l’écran et n’est pas stocké.
-   * **Normal** définit la valeur sur 0. Envoie un SMS standard.
-   * **Enregistré sur mobile** définit la valeur sur 2. Cela indique à l’appareil de stocker le SMS dans la mémoire interne.
-   * **Enregistré sur le terminal** définit la valeur sur 3. Cela indique à l’appareil de stocker le SMS sur la carte SIM.
+  * **Flash** définit la valeur sur 1. Envoie un SMS flash qui apparaît immédiatement à l’écran et n’est pas stocké.
+  * **Normal** définit la valeur sur 0. Envoie un SMS standard.
+  * **Enregistré sur mobile** définit la valeur sur 2. Cela indique à l’appareil de stocker le SMS dans la mémoire interne.
+  * **Enregistré sur le terminal** définit la valeur sur 3. Cela indique à l’appareil de stocker le SMS sur la carte SIM.
 
 * **[!UICONTROL Priorité, type de communication]**
 
@@ -350,14 +363,14 @@ Les paramètres de diffusion SMS sont des paramètres techniques qui s’appliqu
 
 * **[!UICONTROL Paramètres SMPP facultatifs (TLV)]**
 
-  Vous pouvez spécifier des champs supplémentaires à envoyer en tant que paramètres SMPP facultatifs (TLV). Ces champs supplémentaires sont envoyés avec chaque MT et les champs personnalisés permettent d&#39;avoir des valeurs différentes pour chaque MT.
-Le tableau répertorie les paramètres facultatifs à envoyer avec chaque message. Les colonnes contiennent les informations suivantes :
+  Vous pouvez spécifier des champs supplémentaires à envoyer en tant que paramètres SMPP facultatifs (TLV). Ces champs supplémentaires sont envoyés avec chaque MT et les champs personnalisés permettent d’avoir des valeurs différentes pour chaque MT.
+  Le tableau répertorie les paramètres facultatifs à envoyer avec chaque message. Les colonnes contiennent les informations suivantes :
 
-   * **Libellé** : il s’agit d’un libellé de forme libre facultatif. Il n’est pas transmis au fournisseur. Vous pouvez fournir une description textuelle du paramètre.
-   * **Balise** : valeur de balise, au format décimal (par exemple, 12345) ou hexadécimal avec le préfixe 0x (par exemple, 0x12ab). Les balises peuvent aller entre 0 et 65535. Demandez au fournisseur de services SMPP les balises qu’il prend en charge.
-   * **Valeur** : valeur à envoyer dans le paramètre facultatif. Il s’agit d’un champ personnalisé.
-   * **Format** : codage utilisé pour le paramètre. Vous pouvez sélectionner n’importe quel codage de texte pris en charge ou les formats binaires les plus courants. Demandez au fournisseur de services SMPP le format requis.
-   * **Longueur maximale** : nombre maximal d’octets pour ce paramètre. Ceci est ignoré pour les champs binaires, car les champs binaires ont une taille fixe.
+  * **Libellé** : il s’agit d’un libellé de forme libre facultatif. Il n’est pas transmis au fournisseur. Vous pouvez fournir une description textuelle du paramètre.
+  * **Balise** : valeur de balise, au format décimal (par exemple, 12345) ou hexadécimal avec le préfixe 0x (par exemple, 0x12ab). Les balises peuvent aller entre 0 et 65535. Demandez au fournisseur de services SMPP les balises qu’il prend en charge.
+  * **Valeur** : valeur à envoyer dans le paramètre facultatif. Il s’agit d’un champ personnalisé.
+  * **Format** : codage utilisé pour le paramètre. Vous pouvez sélectionner n’importe quel codage de texte pris en charge ou les formats binaires les plus courants. Demandez au fournisseur de services SMPP le format requis.
+  * **Longueur maximale** : nombre maximal d’octets pour ce paramètre. Ceci est ignoré pour les champs binaires, car les champs binaires ont une taille fixe.
 
   **Utiliser des formats binaires pour TLV**
 

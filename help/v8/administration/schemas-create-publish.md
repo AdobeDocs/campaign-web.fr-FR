@@ -2,10 +2,10 @@
 title: Créer et publier des schémas
 description: Découvrez comment créer, étendre et publier des schémas.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 91%
 
 ---
 
@@ -32,14 +32,18 @@ Pour créer ou étendre un schéma :
 
 Le schéma est créé et la structure de schéma générée s’affiche.
 
-Par défaut, le schéma est vide.Vous devez maintenant ajouter les champs que vous souhaitez inclure dans votre schéma à l’aide de l’éditeur de schémas :
+Par défaut, le schéma est vide. Vous devez maintenant ajouter les champs que vous souhaitez inclure dans votre schéma à l’aide de l’éditeur de schémas :
 
 1. Cliquez sur l’icône en forme de crayon dans la section **[!UICONTROL Contenu]** de l’écran des détails du schéma.
-2. Ajoutez les éléments nécessaires et enregistrez.Voici un exemple de structure de schéma personnalisée :
+1. Ajoutez les éléments nécessaires. Voici un exemple de structure de schéma personnalisée :
 
    ![Boîte de dialogue de création de schéma](assets/schemas-create3.png)
 
-Le système valide automatiquement la structure XML et génère le schéma.
+1. Cliquez sur le bouton **[!UICONTROL Vérifier]** pour vérifier la structure XML du schéma avant l’enregistrement. Les erreurs identifiées s’affichent en bas de l’écran, par exemple « Format XML non valide ».
+
+   ![&#x200B; Erreurs de la boîte de dialogue de création de schéma &#x200B;](assets/schemas-create3bis.png)
+
+1. Corrigez les erreurs éventuelles, puis enregistrez vos modifications pour générer le schéma.
 
 ### Définition de la modification d’écran {#define-attributes}
 
@@ -64,7 +68,7 @@ Après avoir créé ou modifié un schéma, vous devez le publier pour synchroni
 
 >[!CAUTION]
 >
->La publication des modifications du schéma modifie la structure de la base de données.Assurez-vous de comprendre l’impact de ces modifications avant de confirmer la publication.
+>La publication des modifications du schéma modifie la structure de la base de données. Assurez-vous de comprendre l’impact de ces modifications avant de confirmer la publication.
 
 Pour publier vos modifications de schéma :
 
@@ -89,8 +93,10 @@ Pour publier vos modifications de schéma :
 Après avoir publié un schéma personnalisé, vous pouvez créer une entrée de navigation dans l’Explorateur pour accéder à vos données personnalisées :
 
 1. Accédez au menu **[!UICONTROL Explorateur]** et sélectionnez un dossier dans lequel vous souhaitez placer votre schéma personnalisé.
-1. Cliquez sur l’icône représentant des points de suspension, puis sur **[!UICONTROL Créer un dossier]**.   ![Création d’une entrée de navigation pour le schéma personnalisé](assets/schemas-publish3.png)
-1. Ajoutez un libellé et choisissez votre schéma dans le champ **[!UICONTROL Type de dossier]**.   ![Création d’une entrée de navigation pour le schéma personnalisé](assets/schemas-publish5.png)
+1. Cliquez sur l’icône représentant des points de suspension, puis sur **[!UICONTROL Créer un dossier]**.
+   ![Création d’une entrée de navigation pour le schéma personnalisé](assets/schemas-publish3.png)
+1. Ajoutez un libellé et choisissez votre schéma dans le champ **[!UICONTROL Type de dossier]**.
+   ![Création d’une entrée de navigation pour le schéma personnalisé](assets/schemas-publish5.png)
 1. Le schéma personnalisé est désormais accessible à partir de la vue **[!UICONTROL Explorateur]**.
 
 À partir du nouveau dossier, vous pouvez effectuer les opérations suivantes :

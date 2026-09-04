@@ -1,10 +1,10 @@
 ---
 title: Actions de contrôle sur les données
 description: Découvrez comment restreindre les actions de création, de modification et de suppression sur les enregistrements de schéma personnalisé.
-source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 84%
 
 ---
 
@@ -33,15 +33,17 @@ Pour configurer les données d’action, suivez les étapes ci-dessous :
 
    ![Section Données d’action dans la définition d’écran](assets/schemas-action-data1.png)
 
-1. Sélectionnez l’une ou les deux options disponibles :
+1. Sélectionnez une ou plusieurs des options disponibles :
 
    * **[!UICONTROL Lecture seule]** : l’écran des détails devient accessible en lecture seule pour l’ensemble des utilisateurs et utilisatrices. Aucune action de création, de duplication, de mise à jour ou de suppression n’est disponible dans la liste, et les actions de suppression et de duplication sont masquées dans l’écran des détails. La sélection de cette option est similaire à la configuration d’une vue : les utilisateurs et utilisatrices peuvent toujours ouvrir des enregistrements et les réutiliser, par exemple lors du ciblage d’une diffusion, mais ne peuvent pas les modifier.
 
    * **[!UICONTROL Ne pas autoriser la suppression]** : l’action de suppression est supprimée de l’écran des détails et de la liste, dans chaque dossier. D’autres actions, telles que la création, la duplication et la mise à jour, restent disponibles.
 
+   * **[!UICONTROL Ne pas autoriser les doublons]** : l&#39;action en double est supprimée de l&#39;écran de détails et de la liste, dans chaque dossier. D’autres actions, telles que créer, supprimer et mettre à jour, restent disponibles.
+
      >[!NOTE]
      >
-     >L’activation de la **[!UICONTROL lecture seule]** couvre automatiquement la suppression. De ce fait, l’option **[!UICONTROL Ne pas autoriser la suppression]** est désactivée lorsque l’option **[!UICONTROL Lecture seule]** est sélectionnée.
+     >L’activation de la **[!UICONTROL Lecture seule]** couvre automatiquement la suppression et la duplication. De ce fait, les options **[!UICONTROL Ne pas autoriser la suppression]** et **[!UICONTROL Ne pas autoriser la duplication]** sont désactivées lorsque l’option **[!UICONTROL Lecture seule]** est sélectionnée.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

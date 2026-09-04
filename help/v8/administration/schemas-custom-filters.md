@@ -2,10 +2,10 @@
 title: Ajouter des filtres personnalisés
 description: Découvrez comment ajouter des filtres personnalisés en tant que champs d’accès rapide dans le volet Filtres d’une vue Liste.
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
-source-git-commit: c2e627d322937b80cb0bc09e86680757d4867dcd
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 65%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 La section **[!UICONTROL Configuration de la liste d’inventaire]** > **[!UICONTROL Filtres personnalisés]** vous permet de choisir les attributs qui s’affichent en tant que champs d’accès rapide dans le volet [Filtres](../query/filter.md) de la vue Liste d’un schéma, au-dessus du créateur de règles de **[!UICONTROL Filtres avancés]**.
 
-Pour plus d’informations sur l’écran de définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
+Pour plus d’informations sur la définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
 
 ## Ajouter des filtres personnalisés {#add}
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur l’écran de définition d’écran et la façon
 
    ![Sélecteur d’attributs affichant les attributs directs et les sous-attributs de lien](assets/schemas-custom-filters2.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**. Vous pouvez réorganiser les filtres personnalisés à l’aide des flèches vers le haut et vers le bas ou en les faisant glisser, et supprimer un filtre à l’aide de l’icône de corbeille située sur sa ligne.
+1. Cliquez sur **[!UICONTROL Enregistrer]**. Vous pouvez réorganiser les filtres personnalisés à l’aide des flèches vers le haut et vers le bas ou en les faisant glisser. Pour supprimer un filtre, cliquez sur l’icône représentant des points de suspension sur sa ligne et sélectionnez **[!UICONTROL Supprimer]**.
 
 1. Accédez à la liste des enregistrements de ce schéma et ouvrez le volet Filtres. Les attributs que vous avez sélectionnés s’affichent sous la forme de **[!UICONTROL Filtres personnalisés]**, au-dessus du créateur de règles de **[!UICONTROL Filtres avancés]**.
 
@@ -47,15 +47,20 @@ Pour plus d’informations sur l’écran de définition d’écran et la façon
 
 1. Saisissez ou sélectionnez une valeur dans l’un des filtres personnalisés pour affiner la liste.
 
-<!--
-## Configure a custom filter's settings {#settings}
+## Limiter les valeurs d’un filtre personnalisé de type lien {#settings}
 
-To configure specific settings for a custom filter, click the ellipsis icon on its row and select **[!UICONTROL Edit]**.
+Dans le cas d’un filtre personnalisé basé sur un attribut de lien, vous pouvez restreindre les valeurs disponibles dans le sélecteur.
 
-![Custom filter settings dialog](assets/schemas-custom-filters5.png)
+>[!NOTE]
+>
+>L’option **[!UICONTROL Modifier]** décrite ci-dessous n’est disponible que pour les filtres personnalisés basés sur un attribut de lien. Les filtres personnalisés basés sur d’autres types d’attributs peuvent uniquement être réorganisés ou supprimés.
 
-Available settings are:
+1. Sur la ligne d’un filtre personnalisé de type lien, cliquez sur l’icône représentant des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
 
-* **[!UICONTROL Label (custom)]**: The label to display for this filter. If no label is provided, the attribute's label defined in the schema is used.
-* **[!UICONTROL Filter settings]** (for link-type custom filters only): Use the query modeler to specify a condition that restricts the values available in the picker. For example, restrict a delivery filter to deliveries using the email channel.
--->
+   ![Option d’édition sur un filtre personnalisé de type lien](assets/schemas-custom-filters4.png)
+
+1. Dans l’onglet **[!UICONTROL Paramètres de filtre]**, cliquez sur **[!UICONTROL Modifier le filtre]** et utilisez le modéliseur de requête pour définir une condition qui limite les valeurs disponibles dans le sélecteur. Par exemple, limitez un filtre de diffusion aux diffusions utilisant le canal e-mail.
+
+   ![Onglet Paramètres de filtre dans la boîte de dialogue Paramètres de lien](assets/schemas-custom-filters5.png)
+
+1. Validez vos modifications.
