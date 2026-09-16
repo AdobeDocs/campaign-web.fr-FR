@@ -4,12 +4,10 @@ title: Configurer une diffusion multilingue
 description: Découvrez comment configurer une diffusion multilingue.
 exl-id: eea0e997-4da2-4998-b010-234626b21353
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 100%
-
 ---
-
 # Configurer une diffusion multilingue {#multilingual-delivery}
 
 >[!CONTEXTUALHELP]
@@ -124,7 +122,7 @@ Dans la liste des variantes linguistiques, vous pouvez effectuer les actions sui
 
 ## Importer des variantes linguistiques à partir d’un fichier CSV (notifications push) {#csv-upload}
 
-Pour les notifications push, vous pouvez désormais remplir rapidement toutes les variantes linguistiques en chargeant un fichier CSV comportant votre contenu multilingue.Cette fonctionnalité rationalise la création de campagnes multilingues en vous permettant de préparer du contenu hors ligne et de l’importer en bloc.
+Pour les notifications push, vous pouvez désormais remplir rapidement toutes les variantes linguistiques en chargeant un fichier CSV comportant votre contenu multilingue. Cette fonctionnalité rationalise la création de campagnes multilingues en vous permettant de préparer du contenu hors ligne et de l’importer en bloc.
 
 * **Efficacité** : ajoutez plusieurs langues et leur contenu en une seule opération.
 * **Cohérence** : assurez des messages uniformes dans toutes les variantes linguistiques.
@@ -135,11 +133,11 @@ Pour les notifications push, vous pouvez désormais remplir rapidement toutes le
 
 Suivez ces bonnes pratiques pour garantir la réussite de l’import d’un fichier CSV :
 
-* **Utiliser la structure exacte des colonnes** : les 14 colonnes doivent toutes être présentes dans votre fichier CSV, même si vous en laissez certaines vides.Les colonnes manquantes entraîneront l’échec de l’import.Vous pouvez utiliser un ordre différent, mais toutes les colonnes doivent être présentes.
-* **Faire correspondre exactement les noms des colonnes** : les noms des colonnes sont sensibles à la casse.Utilisez `title`, et non `Title`, `badge`, et non `Bbadge`, `locale`, et non `Locale`.
+* **Utiliser la structure exacte des colonnes** : les 14 colonnes doivent toutes être présentes dans votre fichier CSV, même si vous en laissez certaines vides. Les colonnes manquantes entraîneront l’échec de l’import. Vous pouvez utiliser un ordre différent, mais toutes les colonnes doivent être présentes.
+* **Faire correspondre exactement les noms des colonnes** : les noms des colonnes sont sensibles à la casse. Utilisez `title`, et non `Title`, `badge`, et non `Bbadge`, `locale`, et non `Locale`.
 * **Utiliser des codes de paramètres régionaux en minuscules** : mettez en forme les codes de paramètres régionaux en utilisant `en_us`, `fr_fr` ou `de_de` (en minuscules avec un trait de soulignement), et non `en_US` ou `en-us`.
-* **Remplir les colonnes obligatoires** : les colonnes `locale` et `language` doivent contenir des valeurs pour chaque ligne.Les valeurs vides entraînent l’échec de l’import.
-* **Conserver les paramètres régionaux uniques** : chaque code de paramètre régional ne doit apparaître qu’une seule fois dans votre fichier CSV.Les paramètres régionaux en double sont rejetés.
+* **Remplir les colonnes obligatoires** : les colonnes `locale` et `language` doivent contenir des valeurs pour chaque ligne. Les valeurs vides entraînent l’échec de l’import.
+* **Conserver les paramètres régionaux uniques** : chaque code de paramètre régional ne doit apparaître qu’une seule fois dans votre fichier CSV. Les paramètres régionaux en double sont rejetés.
 * **Enregistrer au format UTF-8** : enregistrez toujours votre fichier CSV avec le codage UTF-8 pour prendre correctement en charge les caractères internationaux.
 * **Citer le contenu contenant des virgules** : si votre titre ou le corps de votre message contient des virgules, mettez l’ensemble du champ entre guillemets doubles : `"Hello, welcome!"`.
 * **Utiliser correctement les valeurs numériques** : pour les colonnes d’indicateur (isContentAvailable, isMutableContent, silentPush), utilisez `1` pour true, `0` pour false ou laissez vide pour la valeur par défaut.
@@ -160,7 +158,7 @@ Pour importer des variantes linguistiques à partir d’un fichier CSV, procéde
 
 1. Sélectionnez votre fichier CSV en le faisant glisser et en le déposant dans la zone de chargement, ou cliquez pour parcourir votre ordinateur.
 
-   Le système valide le format et le contenu du fichier.Si la validation échoue, des messages d’erreur indiquent quelles colonnes ou données sont incorrectes.Corrigez les problèmes dans votre fichier CSV et effectuez un nouveau chargement.Consultez cette [section](#csv-troubleshooting).
+   Le système valide le format et le contenu du fichier. Si la validation échoue, des messages d’erreur indiquent quelles colonnes ou données sont incorrectes. Corrigez les problèmes dans votre fichier CSV et effectuez un nouveau chargement. Consultez cette [section](#csv-troubleshooting).
 
    ![Copie d’écran montrant la validation réussie du fichier CSV avec toutes les langues importées](assets//multilingual-csv2.png){zoomable="yes"}
 
@@ -174,7 +172,7 @@ Voici la structure de colonne appropriée à utiliser :
 
 >[!NOTE]
 >
->Vous pouvez utiliser un ordre différent, mais toutes les colonnes doivent être présentes.Pour connaître les bonnes pratiques, consultez cette [section](#csv-best-practices).
+>Vous pouvez utiliser un ordre différent, mais toutes les colonnes doivent être présentes. Pour connaître les bonnes pratiques, consultez cette [section](#csv-best-practices).
 
 1. **title** : titre de la notification (obligatoire).
 1. **messageBody** : corps du message de la notification (obligatoire).
@@ -223,7 +221,7 @@ Nouvelle Collection,Découvrez nos derniers produits,default,1,,,,,,,"{"campaign
 
 >[!NOTE]
 >
->Pour les notifications push enrichies avec des carrousels ou des boutons d’action, Campaign utilise une méthode de configuration différente de celle de l’import CSV.Configurez le contenu de notification push enrichi directement dans l’éditeur de diffusion après l’import du contenu multilingue de base.
+>Pour les notifications push enrichies avec des carrousels ou des boutons d’action, Campaign utilise une méthode de configuration différente de celle de l’import CSV. Configurez le contenu de notification push enrichi directement dans l’éditeur de diffusion après l’import du contenu multilingue de base.
 
 ### Personnalisation dans les fichiers CSV {#csv-personalization}
 
@@ -241,7 +239,7 @@ Au cours de la diffusion, Campaign remplace ces espaces réservés par les donn�
 
 | Erreur | Cause | Solution |
 |-------|-------|----------|
-| Colonnes obligatoires manquantes | Le fichier CSV ne contient pas les 14 colonnes. | Assurez-vous que votre fichier CSV comporte les 14 colonnes dans l’ordre exact indiqué ci-dessus.Utiliser des valeurs vides pour les colonnes inutilisées. |
+| Colonnes obligatoires manquantes | Le fichier CSV ne contient pas les 14 colonnes. | Assurez-vous que votre fichier CSV comporte les 14 colonnes dans l’ordre exact indiqué ci-dessus. Utiliser des valeurs vides pour les colonnes inutilisées. |
 | Valeurs de langue/paramètres régionaux non valides | Colonnes des paramètres régionaux ou de langue vides | Les colonnes des paramètres régionaux et de langue doivent avoir des valeurs pour chaque ligne |
 | Paramètres régionaux en double | Le même code de paramètre régional apparaît plusieurs fois. | Chaque valeur de paramètre régional doit être unique. Supprimez les lignes en double. |
 | Problèmes d’encodage du fichier | Le fichier CSV utilise un encodage incompatible. | Enregistrez votre fichier CSV avec l’encodage UTF-8. |
@@ -250,4 +248,4 @@ Au cours de la diffusion, Campaign remplace ces espaces réservés par les donn�
 | JSON incorrect | La colonne customFields contient un fichier JSON non valide. | Assurez-vous que la syntaxe JSON est correcte : `{"key":"value"}` ou laissez vide. |
 | Non-correspondance de la casse des noms de colonne | Les noms des colonnes ne correspondent pas exactement. | Les noms des colonnes sont sensibles à la casse. Utilisez les noms exacts indiqués ci-dessus (par exemple, `badge`, et non `Badge` ou `BADGE`). |
 
->Les bonnes pratiques sont répertoriées dans cette [section](#csv-best-practices).La structure des colonnes est détaillée dans cette [section](#csv-columns).
+>Les bonnes pratiques sont répertoriées dans cette [section](#csv-best-practices). La structure des colonnes est détaillée dans cette [section](#csv-columns).

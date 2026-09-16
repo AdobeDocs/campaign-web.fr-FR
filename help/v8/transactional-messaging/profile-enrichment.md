@@ -4,12 +4,10 @@ title: Enrichissement des profils dans les messages transactionnels
 description: Découvrez comment créer un message transactionnel dans l’interface d’utilisation de Campaign Web.
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
-
 ---
-
 # Enrichir des messages transactionnels avec des données de profils{#profile-enrichment}
 
 Cette fonctionnalité vous permet de personnaliser les messages transactionnels en liant des champs de la base de données Adobe Campaign au contenu des messages. Vous pouvez sélectionner des mappings de ciblage, des colonnes d’enrichissement et une clé de réconciliation pour garantir une personnalisation précise en temps réel tout en maintenant vos seuils de performances.

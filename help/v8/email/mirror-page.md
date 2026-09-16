@@ -6,18 +6,21 @@ exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 TQID: https://experienceleague.adobe.com/iigr3vwibRH-qRbWaTXszxTuJqgdFJG6QEC1T9Z487s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 397
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
-
 ---
-
 # Page miroir {#mirror-page}
 
 La page miroir est une version en ligne de votre e-mail. Il est recommandé, pour le marketing par e-mail, d’insérer un lien vers la page miroir. Les utilisateurs et utilisatrices peuvent consulter la page miroir d’un e-mail, par exemple en cas de problèmes de rendu ou d’images endommagées dans leur boîte de réception. Il est également recommandé de fournir une version en ligne pour des raisons d’accessibilité ou pour encourager le partage sur les réseaux sociaux.

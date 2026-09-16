@@ -6,15 +6,15 @@ exl-id: 48c34581-8825-4798-b24e-c462303f7645
 TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 429
+workflow-type: tm+mt
+source-wordcount: '429'
 ht-degree: 100%
-
 ---
-
 # Utiliser un groupe de recouvrements {#trap-group}
 
 Un **[!UICONTROL groupe de recouvrements]** (également appelé **[!UICONTROL liste de contrôle]**) est utilisé pour inclure des adresses spécifiques dans vos diffusions afin de surveiller et vérifier le processus de distribution en ciblant les profils qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui n’entrent pas dans le cadre de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible.

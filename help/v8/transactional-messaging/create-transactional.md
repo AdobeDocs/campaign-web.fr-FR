@@ -6,16 +6,17 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 TQID: https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1334
+workflow-type: tm+mt
+source-wordcount: '1334'
 ht-degree: 100%
-
 ---
-
 # Créer des messages transactionnels
 
 Dans les messages transactionnels, un événement déclenche l’envoi d’un message personnalisé. Pour activer cette fonctionnalité, créez un modèle de message pour chaque type d’événement. Ces modèles contiennent toutes les informations nécessaires à la personnalisation du message transactionnel.
@@ -175,10 +176,10 @@ Pour créer un message transactionnel, procédez comme suit :
   ![Capture d’écran affichant la page de configuration des messages transactionnels.](assets/transactional-configuration.png){zoomable="yes"}
 
   Renseignez la configuration de votre message comme pour un modèle :
-   * [Propriétés du message transactionnel](#transactional-properties)
-   * [Exemple de contexte](#context-sample)
-   * [Contenu du message](#transactional-content)
-et [configurez le type d’événement](#event-type) comme décrit ci-dessous.
+  * [Propriétés du message transactionnel](#transactional-properties)
+  * [Exemple de contexte](#context-sample)
+  * [Contenu du message](#transactional-content)
+    et [configurez le type d’événement](#event-type) comme décrit ci-dessous.
 
 * Après [validation de votre message transactionnel](validate-transactional.md), cliquez sur le bouton **[!UICONTROL Réviser et publier]** pour créer et publier votre message. Les déclencheurs peuvent désormais envoyer une notification push de votre message transactionnel.
 

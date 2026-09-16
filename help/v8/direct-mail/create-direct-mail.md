@@ -6,13 +6,12 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 504
+workflow-type: tm+mt
+source-wordcount: '504'
 ht-degree: 100%
-
 ---
-
 # Création d’une diffusion courrier {#create-direct-mail}
 
 Vous pouvez créer une diffusion par courrier autonome ou créer une diffusion par courrier dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion par courrier autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).

@@ -6,15 +6,15 @@ exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
-workflow-type: ht
-source-wordcount: 450
+workflow-type: tm+mt
+source-wordcount: '450'
 ht-degree: 100%
-
 ---
-
 # Filtrer des listes {#filter-lists}
 
 Adobe Campaign Web fournit des filtres dans chaque liste d’objets, ce qui vous permet de filtrer les informations en fonction de critères contextuels spécifiques. Vous pouvez, par exemple, filtrer les diffusions selon leur statut, leur canal, leur date de contact ou leur dossier. Vous pouvez également masquer les BAT.

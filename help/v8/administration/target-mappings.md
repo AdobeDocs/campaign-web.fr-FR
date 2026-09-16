@@ -5,19 +5,21 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 TQID: https://experienceleague.adobe.com/z1xVr4EklA-E-ftQfChptYCaC0zYrdY0Ykr-cDI8sM8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 781
+workflow-type: tm+mt
+source-wordcount: '781'
 ht-degree: 100%
-
 ---
-
 # Gérer les mappings de ciblage {#target-mappings}
 
 >[!CONTEXTUALHELP]
@@ -105,16 +107,16 @@ Une fois votre mapping de ciblage créé, deux sections supplémentaires s’aff
 
   ![Section Stockage présentant les options du tableau pour les logs](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL Schéma des messages]** : identifie le schéma à utiliser pour stocker les logs d’envoi.
-   * **[!UICONTROL Messages exclus]** : explique comment gérer le stockage des logs de diffusion et d’exclusion.
+  * **[!UICONTROL Schéma des messages]** : identifie le schéma à utiliser pour stocker les logs d’envoi.
+  * **[!UICONTROL Messages exclus]** : explique comment gérer le stockage des logs de diffusion et d’exclusion.
 
-      * **[!UICONTROL Stocker les exclusions et les messages dans le même tableau]**
-      * **[!UICONTROL Stocker les messages uniquement]** : ne pas stocker les exclusions.
-      * **[!UICONTROL Stocker les exclusions et les messages dans des tableaux distincts]** : sélectionnez le schéma à utiliser pour stocker les logs d’exclusion dans le champ **[!UICONTROL Schéma de rejet]**.
+    * **[!UICONTROL Stocker les exclusions et les messages dans le même tableau]**
+    * **[!UICONTROL Stocker les messages uniquement]** : ne pas stocker les exclusions.
+    * **[!UICONTROL Stocker les exclusions et les messages dans des tableaux distincts]** : sélectionnez le schéma à utiliser pour stocker les logs d’exclusion dans le champ **[!UICONTROL Schéma de rejet]**.
 
-   * **[!UICONTROL Logs de tracking]** : choisissez où stocker les logs de tracking et la source du trafic par défaut.
-   * **[!UICONTROL Champs supplémentaires]** : indique une liste de champs supplémentaires à stocker dans les logs de diffusion. Ces champs peuvent stocker en permanence des informations sur les personnes individuelles de la cible (par exemple, `recipient/@firstName`) ou stocker des données supplémentaires calculées pendant le workflow (par exemple, `[targetData/@offeCode]`).
+  * **[!UICONTROL Logs de tracking]** : choisissez où stocker les logs de tracking et la source du trafic par défaut.
+  * **[!UICONTROL Champs supplémentaires]** : indique une liste de champs supplémentaires à stocker dans les logs de diffusion. Ces champs peuvent stocker en permanence des informations sur les personnes individuelles de la cible (par exemple, `recipient/@firstName`) ou stocker des données supplémentaires calculées pendant le workflow (par exemple, `[targetData/@offeCode]`).
 
-     Pour ce faire, sélectionnez **[!UICONTROL Ajouter un champ]**. Identifiez les informations à enregistrer dans le champ **[!UICONTROL Source]** et l’attribut à utiliser dans les logs d’envoi pour enregistrer ces informations dans le champ **[!UICONTROL Destination]**.
+    Pour ce faire, sélectionnez **[!UICONTROL Ajouter un champ]**. Identifiez les informations à enregistrer dans le champ **[!UICONTROL Source]** et l’attribut à utiliser dans les logs d’envoi pour enregistrer ces informations dans le champ **[!UICONTROL Destination]**.
 
-     ![Section Champs supplémentaires présentant les options de stockage des données supplémentaires](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+    ![Section Champs supplémentaires présentant les options de stockage des données supplémentaires](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

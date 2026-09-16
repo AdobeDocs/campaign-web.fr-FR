@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: 91ec13d7-1c2b-45ae-af29-89d02c0f3bcb
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
-
 ---
-
 # Désabonnements{#unsubscriptions}
 
 Le rapport **[!UICONTROL Désabonnements]** permet d&#39;identifier les diffusions avec le plus de désabonnements.

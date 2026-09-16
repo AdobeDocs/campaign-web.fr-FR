@@ -6,13 +6,12 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 1070
+workflow-type: tm+mt
+source-wordcount: '1087'
 ht-degree: 100%
-
 ---
-
 # Configurer les paramètres de workflow {#workflow-settings}
 
 >[!CONTEXTUALHELP]
@@ -42,12 +41,12 @@ Ces propriétés sont les suivantes :
 * Le **[!UICONTROL libellé]** du workflow qui s’affiche dans la liste.
 * Le **[!UICONTROL nom interne]** du workflow.
 * Le **[!UICONTROL dossier]** dans lequel le workflow doit être enregistré.
-* Le **[!UICONTROL fuseau horaire]** par défaut à utiliser dans toutes les activités de workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur Campaign actuel.
+* Le **[!UICONTROL fuseau horaire]** par défaut à utiliser dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
 Les valeurs possibles sont les suivantes :
-   * **Fuseau horaire du serveur** pour utiliser le fuseau horaire du serveur applicatif Adobe Campaign.
-   * **Fuseau horaire de l’opérateur ou de l’opératrice** pour utiliser le fuseau horaire de l’opérateur ou de l’opératrice Adobe Campaign qui exécute le workflow, tel que défini dans le profil de l’opérateur ou de l’opératrice, dans la console cliente.
-   * **Fuseau horaire de la base de données** pour utiliser le fuseau horaire du serveur de base de données.
-   * Fuseau horaire spécifique.
+  * **Fuseau horaire du serveur** pour utiliser le fuseau horaire du serveur applicatif Adobe Campaign.
+  * **Fuseau horaire de l’opérateur ou de l’opératrice** pour utiliser le fuseau horaire de l’opérateur ou de l’opératrice Adobe Campaign qui exécute le workflow, tel que défini dans le profil de l’opérateur ou de l’opératrice, dans la console cliente.
+  * **Fuseau horaire de la base de données** pour utiliser le fuseau horaire du serveur de base de données.
+  * Fuseau horaire spécifique.
 * En cas d’échec d’un workflow, les opérateurs et opératrices appartenant au groupe sélectionné dans le champ **[!UICONTROL Personne(s) responsable(s)]** reçoivent une notification par e-mail.
 * Saisissez une **[!UICONTROL description]** de votre workflow.
 
@@ -96,9 +95,9 @@ Lorsque le workflow est [associé à une campagne](create-workflow.md), il s’a
 
 * **[!UICONTROL Gestion des erreurs]** : ce champ vous permet de définir les actions à effectuer si une tâche de workflow rencontre une erreur. Trois choix s’offrent à vous :
 
-   * **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement mis en pause et adopte le statut **[!UICONTROL Échec]**. Une fois le problème résolu, reprenez l’exécution du workflow à l’aide des boutons **[!UICONTROL Reprendre]**.
-   * **[!UICONTROL Ignorer]** : le statut de la tâche qui a déclenché l’erreur passe à **[!UICONTROL Échec]**, mais le workflow conserve le statut **[!UICONTROL Démarré]**.<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Abandonner le processus]** : le workflow est automatiquement arrêté et adopte le statut **[!UICONTROL Échec]**. Une fois le problème résolu, redémarrez le workflow à l’aide du bouton **[!UICONTROL Démarrer]**.
+  * **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement mis en pause et adopte le statut **[!UICONTROL Échec]**. Une fois le problème résolu, reprenez l’exécution du workflow à l’aide des boutons **[!UICONTROL Reprendre]**.
+  * **[!UICONTROL Ignorer]** : le statut de la tâche qui a déclenché l’erreur passe à **[!UICONTROL Échec]**, mais le workflow conserve le statut **[!UICONTROL Démarré]**.<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+  * **[!UICONTROL Abandonner le processus]** : le workflow est automatiquement arrêté et adopte le statut **[!UICONTROL Échec]**. Une fois le problème résolu, redémarrez le workflow à l’aide du bouton **[!UICONTROL Démarrer]**.
 
 * **[!UICONTROL Erreurs consécutives]** : ce champ est disponible lorsque la valeur **[!UICONTROL Ignorer]** est sélectionnée dans le champ **[!UICONTROL En cas d’erreur]**. Indiquez le nombre d’erreurs qui peuvent être ignorées avant l’arrêt du processus. Une fois ce nombre atteint, le statut du workflow passe à **[!UICONTROL Échec]**. Si la valeur de ce champ est 0, le workflow ne sera jamais arrêté, quel que soit le nombre d’erreurs.
 

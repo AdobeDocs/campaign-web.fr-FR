@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
-
 ---
-
 # Répartition par domaine{#breakdown-by-domains}
 
 Ce rapport contient les données de performance pour chaque domaine représenté dans l&#39;audience pour une diffusion email. S&#39;il s&#39;agit d&#39;un rapport de campagne ou de programme, les données de performance sont disponibles pour des audiences multiples. Ces données vous permettent d&#39;analyser le comportement de chaque domaine par rapport à des événements spécifiques. Par exemple l’affichage de liens, le placement d’URL sur la liste bloquée, etc.

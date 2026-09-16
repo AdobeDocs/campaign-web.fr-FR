@@ -5,15 +5,15 @@ description: Découvrez comment afficher un lien vers une collection personnalis
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
-workflow-type: ht
-source-wordcount: 449
+workflow-type: tm+mt
+source-wordcount: '449'
 ht-degree: 100%
-
 ---
-
 # Ajouter une liste modifiable au schéma d’offre {#offer-editable-list}
 
 Lorsque vous [étendez le schéma  [!DNL nms:offer] ](../administration/schemas.md) avec un lien de collection personnalisée, tel qu’un ensemble de segments liés à une offre, vous pouvez l’exposer en tant que liste modifiable directement dans la section **[!UICONTROL Options personnalisées]** de l’offre. Au lieu de gérer les enregistrements associés via un écran distinct, la collection est affichée sous forme de liste dans les détails de l’offre, et vous pouvez créer de nouveaux enregistrements associés directement dans cette liste, via une boîte de dialogue dédiée.

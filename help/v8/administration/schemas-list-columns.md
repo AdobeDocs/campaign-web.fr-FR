@@ -6,9 +6,7 @@ source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
-
 ---
-
 # Configurer des colonnes de listes {#list-columns}
 
 >[!CONTEXTUALHELP]

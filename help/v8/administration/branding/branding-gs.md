@@ -7,12 +7,10 @@ role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
 source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
-
 ---
-
 # Commencer avec le branding {#branding-gs}
 
 >[!AVAILABILITY]

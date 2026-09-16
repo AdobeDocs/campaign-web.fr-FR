@@ -6,20 +6,23 @@ exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 TQID: https://experienceleague.adobe.com/EGP8dJLZGnGqQDiDfeal6wv5UL0ygtw9Y6F9SKLGrC8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 326
+workflow-type: tm+mt
+source-wordcount: '326'
 ht-degree: 100%
-
 ---
-
 # Commencer avec les alertes de diffusion {#gs-delivery-alerting}
 
 Les alertes de diffusion sont un système de gestion des alertes qui permet à des groupes d’utilisateurs et utilisatrices de recevoir automatiquement des notifications par e-mail contenant des informations sur leurs exécutions de diffusion. Les personnes destinataires surveillent les diffusions en cours traitées par Adobe Campaign et prennent les mesures appropriées en cas de problème.

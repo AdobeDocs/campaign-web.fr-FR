@@ -6,18 +6,20 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 TQID: https://experienceleague.adobe.com/5UyJT1-bkt0XtqVkTQl7VobPRsxG36tJYe35KSk8n5c
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1707
+workflow-type: tm+mt
+source-wordcount: '1707'
 ht-degree: 100%
-
 ---
-
 # Rapports de campagne du canal E-mail {#campaign-reports-email-channel}
 
 Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Les rapports et mesures du canal E-mail sont détaillés ci-dessous. Découvrez comment accéder aux rapports de campagne sur [cette page](campaign-reports.md).
@@ -254,7 +256,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 * **[!UICONTROL Nombre total de clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées au cours des six derniers mois.Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
+* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé pour les diffusions envoyées au cours des six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
 
 +++
 

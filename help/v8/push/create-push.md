@@ -6,13 +6,12 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 TQID: https://experienceleague.adobe.com/J2FB-oR-oGwBw18HLWt3F3nzu-mHXVnRlyPlSr5ISiI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 779
+workflow-type: tm+mt
+source-wordcount: '779'
 ht-degree: 100%
-
 ---
-
 # Créer une diffusion par notification push {#create-push}
 
 >[!CONTEXTUALHELP]
@@ -56,7 +55,7 @@ Configurez vos paramètres de diffusion comme indiqué ci-dessous :
    * **[!UICONTROL Nature]** : indiquez la nature de la diffusion à des fins de classification.
    +++
 
-1. Vous pouvez configurer votre notification push en tant que diffusion multilingue afin d’envoyer des messages en fonction des préférences linguistiques du profil.[En savoir plus](../msg/multilingual.md).
+1. Vous pouvez configurer votre notification push en tant que diffusion multilingue afin d’envoyer des messages en fonction des préférences linguistiques du profil. [En savoir plus](../msg/multilingual.md).
 
 ## Sélectionner l’audience de votre diffusion par notification push {#create-audience-push}
 

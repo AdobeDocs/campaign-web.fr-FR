@@ -6,15 +6,15 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 TQID: https://experienceleague.adobe.com/UMmuuMnex1ZqWjUZxNOrUi-g3dtevPO7l7sLXo5Zp1c
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 363
+workflow-type: tm+mt
+source-wordcount: '363'
 ht-degree: 100%
-
 ---
-
 # Prévisualiser le contenu du message {#preview-content}
 
 La fonctionnalité de simulation de contenu de [!DNL Campaign] permet de prévisualiser le contenu du message avant son envoi. Cette fonctionnalité vous permet de contrôler la personnalisation et de vérifier l’affichage du message pour vos destinataires.

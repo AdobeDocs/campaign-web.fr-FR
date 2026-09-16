@@ -10,9 +10,7 @@ source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
-
 ---
-
 # Configurer des marques {#branding-configure}
 
 Les administrateurs et administratrices techniques peuvent créer et gérer plusieurs marques directement à partir de l’interface d’utilisation web. Vous pouvez ainsi définir tous les éléments qui constituent votre identité de marque, y compris les logos et même les paramètres de tracking e-mail.

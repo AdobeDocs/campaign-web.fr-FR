@@ -6,12 +6,10 @@ role: User
 level: Beginner, Intermediate
 exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
-
 ---
-
 # Créer et gérer des modèles génératifs {#generative-models}
 
 >[!CONTEXTUALHELP]
@@ -30,17 +28,17 @@ Choisissez le modèle adapté à vos besoins :
 
   En savoir plus sur les **[!UICONTROL modèles personnalisés]** dans la [documentation d’Adobe Firefly](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
-Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu.[En savoir plus sur la génération d’images](generative-image.md).
+Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu. [En savoir plus sur la génération d’images](generative-image.md).
 
 ## Gérer les modèles génératifs
 
-Gérez vos modèles génératifs depuis un emplacement centralisé.Affichez tous les modèles disponibles, filtrez et recherchez des modèles spécifiques et configurez leurs paramètres pour vos marques.
+Gérez vos modèles génératifs depuis un emplacement centralisé. Affichez tous les modèles disponibles, filtrez et recherchez des modèles spécifiques et configurez leurs paramètres pour vos marques.
 
 1. Dans le menu **[!UICONTROL Marques]**, sélectionnez l’onglet **[!UICONTROL Modèles génératifs]**.
 
    ![](assets/gen-model-manage-1.png){zoomable="yes"}
 
-1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_Filter_18_N.svg) pour accéder au menu de filtrage.Filtrez les modèles par **[!UICONTROL Type]** ou par **[!UICONTROL Statut]**.
+1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_Filter_18_N.svg) pour accéder au menu de filtrage. Filtrez les modèles par **[!UICONTROL Type]** ou par **[!UICONTROL Statut]**.
 
    ![](assets/gen-model-manage-2.png){zoomable="yes"}
 
@@ -54,7 +52,7 @@ Gérez vos modèles génératifs depuis un emplacement centralisé.Affichez tous
 
 1. Cliquez sur **[!UICONTROL Ajouter un modèle]** pour créer un nouveau modèle génératif à partir de zéro.
 
-Vous pouvez désormais sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu.[En savoir plus sur la génération d’images](generative-image.md).
+Vous pouvez désormais sélectionner n’importe lequel de vos modèles génératifs lors de la création d’images dans votre contenu. [En savoir plus sur la génération d’images](generative-image.md).
 
 ## Ajouter un modèle génératif
 
@@ -76,7 +74,7 @@ En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez éte
 
 1. Saisissez votre **[!UICONTROL ID de modèle]**.
 
-   Pour trouver votre ID de modèle Firefly, accédez au site web Firefly et à vos modèles entraînés.L’identifiant unique est disponible dans la section de gestion du modèle une fois publié.Pour plus d’informations, consultez la [documentation sur les modèles Firefly personnalisés](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Pour trouver votre ID de modèle Firefly, accédez au site web Firefly et à vos modèles entraînés. L’identifiant unique est disponible dans la section de gestion du modèle une fois publié. Pour plus d’informations, consultez la [documentation sur les modèles Firefly personnalisés](https://helpx.adobe.com/fr/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
@@ -88,7 +86,7 @@ En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez éte
 
    ![](assets/gen-model-manage-7.png){zoomable="yes"}
 
-1. Après l’enregistrement, votre modèle personnalisé est ajouté à votre liste de modèles.Vous pouvez le désactiver ou le supprimer à tout moment.
+1. Après l’enregistrement, votre modèle personnalisé est ajouté à votre liste de modèles. Vous pouvez le désactiver ou le supprimer à tout moment.
 
    ![](assets/gen-model-manage-8.png){zoomable="yes"}
 
@@ -100,6 +98,6 @@ En créant des fournisseurs de modèles Firefly personnalisés, vous pouvez éte
     If disabled, select which brands this model should be applied to.
 -->
 
-Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs personnalisés lors de la création d’images dans votre contenu.[En savoir plus sur la génération d’images](generative-image.md).
+Une fois configurés, vous pouvez sélectionner n’importe lequel de vos modèles génératifs personnalisés lors de la création d’images dans votre contenu. [En savoir plus sur la génération d’images](generative-image.md).
 
 ![](assets/gen-model-manage-9.png){zoomable="yes"}

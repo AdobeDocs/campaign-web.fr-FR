@@ -5,12 +5,10 @@ audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '1146'
+workflow-type: tm+mt
+source-wordcount: '1255'
 ht-degree: 100%
-
 ---
-
 # Résolution des problèmes{#troubleshooting}
 
 Cette section contient des questions courantes relatives aux rapports dynamiques.
@@ -21,14 +19,14 @@ Actuellement, les rapports dynamiques ne sont disponibles qu’en anglais.
 
 ## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne. {#unique-open-clicks-no-match}
 
-Il s’agit d’un comportement attendu.
-Prenons l’exemple suivant pour expliquer ce comportement.
+Il s&#39;agit d&#39;un comportement attendu.
+Prenons l&#39;exemple suivant pour expliquer ce comportement.
 
 Un e-mail est envoyé aux profils P1 et P2.
 
 P1 ouvre l&#39;e-mail deux fois le premier jour, puis trois fois le jour suivant.
 
-P2, quant à lui, ouvre l’e-mail une fois le premier jour et ne le rouvre pas les jours suivants.
+P2, quant à lui, ouvre l&#39;e-mail une fois le premier jour et ne le rouvre pas les jours suivants.
 Voici une représentation visuelle de l’interaction des profils avec l’e-mail envoyé :
 
 <table> 
@@ -106,10 +104,10 @@ Ces occurrences sont ajoutées car **&quot;un clic sur un e-mail implique l&#39;
 
 ## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ? {#counts-recurring-deliveries}
 
-Lorsque vous travaillez avec des diffusions récurrentes et transactionnelles, les nombres sont attribués aux diffusions parent et enfant.
-Prenons l’exemple d’une diffusion récurrente nommée **R1** définie pour s’exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
-Supposons qu’une seule personne ait ouvert toutes les diffusions enfants plusieurs fois. Dans ce cas, les diffusions enfants récurrentes individuelles affichent le nombre **[!UICONTROL Ouverture]** de 1 pour chacune d’elles.
-Cependant, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent a également **[!UICONTROL Ouverture unique]** défini sur 1.
+Lors de l&#39;utilisation de diffusions récurrentes et transactionnelles, les décomptes sont attribués aux diffusions parents et enfants.
+Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s&#39;exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
+Supposons que seule une personne a ouvert toutes les diffusions enfants à plusieurs reprises. Dans ce cas, chaque diffusion enfant récurrente affichera le nombre 1 d&#39;**[!UICONTROL Ouverture.]**
+Toutefois, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent aura également un décompte de 1 pour les **[!UICONTROL ouvertures uniques]**.
 
 Les rapports doivent se présenter comme suit :
 
@@ -199,16 +197,16 @@ Une divergence entre le nombre d’en-têtes de colonnes et la somme de toutes l
 
   Par exemple :
 
-   * Si un profil A ouvre un e-mail sur trois jours différents, la répartition par jour affichera A sur trois lignes, bien que dans l’en-tête, A compte pour 1.
+  * Si un profil A ouvre un e-mail sur trois jours différents, la répartition par jour affichera A sur trois lignes, bien que dans l’en-tête, A compte pour 1.
 
-   * Si le profil A clique sur trois liens différents dans un e-mail le même jour, la répartition par URL de suivi affiche A sur trois lignes, bien que dans l’en-tête, A compte pour 1. Il en va de même pour les répartitions par appareil et navigateur.
+  * Si le profil A clique sur trois liens différents dans un e-mail le même jour, la répartition par URL de suivi affiche A sur trois lignes, bien que dans l’en-tête, A compte pour 1. Il en va de même pour les répartitions par appareil et navigateur.
 
 * **Mesures d’ouverture** : le nombre d’ouvertures est déterminé par l’agrégation du total des événements d’ouverture réels et des événements de clic unique (par identifiant de personne destinataire), à l’exception des cas où aucun événement d’ouverture n’a eu lieu, puisqu’il n’est pas possible de cliquer sur un lien d’e-mail sans événement d’ouverture.
 
   Par exemple :
 
-   * Lorsque le profil A ouvre un e-mail suivi (avec l’URL U1), il s’enregistre en tant qu’événement d’ouverture avec l’URL indiquée comme nulle. Cliquer sur U1 ultérieurement génère un événement de clic. Bien que le clic de A sur U1 soit également comptabilisé comme événement d’ouverture, il n’existe aucun événement d’ouverture spécifique pour U1. Par conséquent, A n’est compté qu’une seule fois dans le nombre d’ouvertures uniques.
+  * Lorsque le profil A ouvre un e-mail suivi (avec l’URL U1), il s’enregistre en tant qu’événement d’ouverture avec l’URL indiquée comme nulle. Cliquer sur U1 ultérieurement génère un événement de clic. Bien que le clic de A sur U1 soit également comptabilisé comme événement d’ouverture, il n’existe aucun événement d’ouverture spécifique pour U1. Par conséquent, A n’est compté qu’une seule fois dans le nombre d’ouvertures uniques.
 
-   * Un profil R ouvre un e-mail le jour 1, enregistrant ainsi un événement d’ouverture, puis clique sur un lien. Au cours des deux jours suivants, R rouvre l’e-mail et clique à nouveau sur le lien, générant ainsi un événement de clic chaque jour. Bien que l’engagement de R soit suivi quotidiennement dans le nombre d’ouvertures, R n’est compté qu’une seule fois dans l’en-tête de colonne, qui se concentre sur les engagements uniques.
+  * Un profil R ouvre un e-mail le jour 1, enregistrant ainsi un événement d’ouverture, puis clique sur un lien. Au cours des deux jours suivants, R rouvre l’e-mail et clique à nouveau sur le lien, générant ainsi un événement de clic chaque jour. Bien que l’engagement de R soit suivi quotidiennement dans le nombre d’ouvertures, R n’est compté qu’une seule fois dans l’en-tête de colonne, qui se concentre sur les engagements uniques.
 
 * **Événement négatif** : dans les rapports, un événement négatif signifie que les tentatives de diffusion qui ont été initialement marquées comme réussies ont finalement échoué après les nouvelles tentatives. Elles sont indiquées par le nombre -1. Pour éviter toute confusion, ces nombres négatifs sont exclus des nombres de mesures de diffusion affichés. Par conséquent, le total de toutes les lignes pour la mesure de diffusion peut ne pas correspondre au nombre d’en-têtes de colonnes.

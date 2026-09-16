@@ -5,15 +5,15 @@ description: Découvrir comment utiliser l’activité de workflow Chargement de
 exl-id: 18c969f7-c94e-4fff-a132-a2114860841f
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 100%
-
 ---
-
 # Chargement (SGBD) {#data-loading-rdbms}
 
 >[!CONTEXTUALHELP]
@@ -24,7 +24,7 @@ ht-degree: 100%
 L’activité **Chargement de données (SGBD)** est une activité de **Gestion des données**. Utilisez cette activité pour charger des données directement à partir d’une base de données relationnelle externe dans votre workflow. Les données extraites sont disponibles tout au long du workflow et peuvent être utilisées pour le ciblage, l’enrichissement ou un traitement ultérieur des données.
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]

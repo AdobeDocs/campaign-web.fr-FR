@@ -3,12 +3,10 @@ title: Notes de mise à jour précédentes de l’interface d’utilisation web 
 description: Versions de l’interface d’utilisation web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 100%
-
 ---
-
 # Notes de mise à jour 2026 {#2026-release}
 
 Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions 2026**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
@@ -29,7 +27,7 @@ _28 juillet 2026_
 <tr>
 <td>
 <p>Vous pouvez désormais gérer les offres de bout en bout directement depuis l’interface d’utilisation de Campaign Web. Configurez les environnements d’offres et les emplacements, créez votre catalogue d’offres et vos catégories, créez des offres avec des règles d’éligibilité et des poids de priorité, puis approuvez et déployez-les pour les utiliser dans vos diffusions. Les configurations avancées restent disponibles dans la console cliente.</p>
-<p>Pour plus d’informations, consultez la <a href="../offers/gs-offer-management.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../offers/gs-offer-management.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -45,7 +43,7 @@ _28 juillet 2026_
 <tr>
 <td>
 <p>Les administrateurs et administratrices techniques peuvent désormais créer et configurer des marques directement à partir de l’interface d’utilisation de Campaign Web, sans utiliser la console cliente. Tous les paramètres de marque, notamment l’identité, le sous-domaine et les protocoles, les paramètres d’en-tête des e-mails et les paramètres de tracking des URL, sont désormais disponibles dans l’interface d’utilisation web.</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/branding/branding-configure.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../administration/branding/branding-configure.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -61,7 +59,7 @@ _28 juillet 2026_
 <tr>
 <td>
 <p>Lors de l’ajout d’images à vos e-mails, vous pouvez désormais sélectionner des <strong>ressources publiques</strong>. Cela vous permet de choisir une image déjà disponible sur votre instance Adobe Campaign, telle qu’un fichier précédemment importé dans le Concepteur d’e-mail ou une ressource publique chargée à partir de la console cliente.</p>
-<p>Pour plus d’informations, consultez la <a href="../email/content-components.md#image">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../email/content-components.md#image">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -77,7 +75,7 @@ _28 juillet 2026_
 <tr>
 <td>
 <p>L’activité <strong>Chargement de données (SGBD)</strong> est désormais disponible dans l’interface d’utilisation de Campaign Web. Utilisez cette activité pour charger des données directement à partir d’une base de données relationnelle externe dans votre workflow. Les données extraites sont disponibles tout au long du workflow et peuvent être utilisées pour le ciblage, l’enrichissement ou un traitement ultérieur des données.</p>
-<p>Pour plus d’informations, consultez la <a href="../workflows/activities/data-loading-rdbms.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../workflows/activities/data-loading-rdbms.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

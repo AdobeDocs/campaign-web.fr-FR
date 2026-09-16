@@ -9,12 +9,10 @@ level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 hide: true
 source-git-commit: aa1a7c48d1708e73e4d6c6bbe4decd2e5ca69102
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
-
 ---
-
 
 # Créer un message WhatsApp {#create-whatsapp}
 
@@ -48,34 +46,34 @@ Dans l’interface d’utilisation d’Adobe Campaign Web, procédez comme suit
 
    ![](assets/whatsapp-create-1.png)
 
-1. Choisissez **[!UICONTROL WhatsApp]** et sélectionnez un modèle de diffusion.[En savoir plus sur les modèles](../msg/delivery-template.md).
+1. Choisissez **[!UICONTROL WhatsApp]** et sélectionnez un modèle de diffusion. [En savoir plus sur les modèles](../msg/delivery-template.md).
 
    ![](assets/whatsapp-create-2.png)
 
 1. Cliquez sur **[!UICONTROL Créer une diffusion]** pour confirmer.
 
-1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle.[En savoir plus](../advanced-settings/delivery-settings.md)
+1. Cliquez sur **[!UICONTROL Paramètres]** pour accéder aux options avancées liées à votre modèle. [En savoir plus](../advanced-settings/delivery-settings.md)
 
    ![](assets/whatsapp-create-3.png)
 
 1. Saisissez le **[!UICONTROL libellé]** de la diffusion. Utilisez **[!UICONTROL Options supplémentaires]** si vous avez besoin d’un nom interne, d’un dossier, d’un code de diffusion, d’une description ou d’une nature, selon le même modèle que les autres canaux.
 
-1. Cliquez sur **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou en créer une.[En savoir plus sur les audiences](../audience/about-recipients.md).
+1. Cliquez sur **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou en créer une. [En savoir plus sur les audiences](../audience/about-recipients.md).
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour ouvrir l’éditeur de contenu WhatsApp, reportez-vous à [Définir votre contenu WhatsApp](#whatsapp-content)).
 
    ![](assets/whatsapp-create-4.png)
 
-1. Vous pouvez activer **[!UICONTROL Activer la planification]** pour effectuer l’envoi à une date et une heure spécifiques.[En savoir plus](../msg/gs-deliveries.md#gs-schedule).
+1. Vous pouvez activer **[!UICONTROL Activer la planification]** pour effectuer l’envoi à une date et une heure spécifiques. [En savoir plus](../msg/gs-deliveries.md#gs-schedule).
 
 
 ## Définir votre contenu WhatsApp{#whatsapp-content}
 
 >[!BEGINSHADEBOX]
 
-Avant de concevoir votre message WhatsApp dans l’interface d’utilisation d’Adobe Campaign Web, créez et envoyez votre modèle dans Meta.[En savoir plus](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Avant de concevoir votre message WhatsApp dans l’interface d’utilisation d’Adobe Campaign Web, créez et envoyez votre modèle dans Meta. [En savoir plus](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
-Votre modèle WhatsApp doit être approuvé par Meta avant utilisation.L’approbation prend souvent quelques heures, mais peut prendre jusqu’à 24 heures.[En savoir plus](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+Votre modèle WhatsApp doit être approuvé par Meta avant utilisation. L’approbation prend souvent quelques heures, mais peut prendre jusqu’à 24 heures. [En savoir plus](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +95,7 @@ Votre modèle WhatsApp doit être approuvé par Meta avant utilisation.L’appro
 
    ![](assets/whatsapp-design-3.png)
 
-1. Dans le champ **Espace réservé de personnalisation**, utilisez l’éditeur de personnalisation pour mapper les champs et expressions de profil aux paramètres du modèle.[En savoir plus](../personalization/personalize.md).
+1. Dans le champ **Espace réservé de personnalisation**, utilisez l’éditeur de personnalisation pour mapper les champs et expressions de profil aux paramètres du modèle. [En savoir plus](../personalization/personalize.md).
 
    ![](assets/whatsapp-design-4.png)
 
@@ -105,6 +103,6 @@ Lorsque le message est prêt :
 
 * **Diffusion autonome ou de campagne** : utilisez **[!UICONTROL Vérifier et envoyer]** et **[!UICONTROL Envoyer]** dans le tableau de bord de la diffusion.
 
-* **Workflow** : ouvrez la diffusion à partir de l’activité de workflow lorsque l’exécution la rend disponible, puis utilisez le tableau de bord de diffusion de la même manière.[En savoir plus](../workflows/start-monitor-workflows.md)
+* **Workflow** : ouvrez la diffusion à partir de l’activité de workflow lorsque l’exécution la rend disponible, puis utilisez le tableau de bord de diffusion de la même manière. [En savoir plus](../workflows/start-monitor-workflows.md)
 
 Vous pouvez ensuite suivre les résultats à partir des points d’entrée **[!UICONTROL Rapports]** de la diffusion et [rapports de diffusion](../reporting/delivery-reports.md).

@@ -6,16 +6,17 @@ exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 TQID: https://experienceleague.adobe.com/KiKxS4DGB1G8je5lqmO8DGePSzSGXzqfaW--g7GLIII
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 661
+workflow-type: tm+mt
+source-wordcount: '661'
 ht-degree: 100%
-
 ---
-
 # Rapports globaux pour le canal Courrier {#global-report-direct}
 
 Les rapports globaux sur le courrier offrent aux utilisateurs et utilisatrices une vue d’ensemble complète des mesures de trafic et d’engagement au niveau d’un canal.

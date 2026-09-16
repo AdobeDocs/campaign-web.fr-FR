@@ -3,15 +3,13 @@ title: Ajout de listes de collections
 description: Découvrez comment ajouter des listes de collections pour afficher les données associées sur les écrans de profil.
 exl-id: 5ae68741-146c-4e0f-b451-c32e9a2290f8
 source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
-
 ---
-
 # Ajout de listes de collections {#collection-lists}
 
-La section **Liste des listes personnalisées** vous permet de définir des liens de collection, tels que les achats.Les données associées sont alors affichées sur les écrans des profils via un onglet dédié.
+La section **Liste des listes personnalisées** vous permet de définir des liens de collection, tels que les achats. Les données associées sont alors affichées sur les écrans des profils via un onglet dédié.
 
 Pour plus d’informations sur la définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
 

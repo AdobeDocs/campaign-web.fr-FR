@@ -3,12 +3,10 @@ title: Gérer un compte externe
 description: Découvrir comment configurer des comptes externes
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
-
 ---
-
 # Comptes externes spécifiques à Campaign {#external-account}
 
 Suivez les étapes ci-dessous pour configurer les paramètres du compte en fonction du type de compte externe que vous avez sélectionné.
@@ -30,10 +28,10 @@ Pour configurer le compte externe **[!UICONTROL E-mails rejetés (POP3)]**, rens
 * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur.
 
 * **[!UICONTROL Chiffrement]** : type de chiffrement, choisi parmi ce qui suit :
-   * Par défaut (POP3 si port 110, POP3S si port 995).
-   * POP3 qui bascule en SSL après envoi d’un STARTTLS.
-   * POP3 non sécurisé (port 110 par défaut).
-   * POP3 securisé au dessus de SSL (port 995 par défaut).
+  * Par défaut (POP3 si port 110, POP3S si port 995).
+  * POP3 qui bascule en SSL après envoi d’un STARTTLS.
+  * POP3 non sécurisé (port 110 par défaut).
+  * POP3 securisé au dessus de SSL (port 995 par défaut).
 
 * **[!UICONTROL Fonction]** : sélectionnez **[!UICONTROL E-mail entrant]** pour configurer le compte de réception des e-mails entrants ou **[!UICONTROL routeur SOAP]** pour gérer les requêtes SOAP.
 

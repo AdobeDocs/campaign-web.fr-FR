@@ -5,21 +5,22 @@ exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
 TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 743
+workflow-type: tm+mt
+source-wordcount: '743'
 ht-degree: 100%
-
 ---
-
 # Comptes externes de transfert de données {#transfer-external-account}
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Le connecteur Amazon Simple Storage Service (S3) peut désormais être utilisé pour importer ou exporter des données depuis ou vers Adobe Campaign.Il peut être configuré dans une activité de workflow. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données depuis ou vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Capture d’écran montrant les champs de configuration du compte externe Amazon Simple Storage Service S3.](assets/external-AWS.png)
 
@@ -95,9 +96,9 @@ Pour configurer le compte externe **[!UICONTROL SFTP]**, renseignez les champs s
 
   Choisissez la méthode d’authentification auprès du serveur SFTP. Les options incluent :
 
-   * **[!UICONTROL Mot de passe]** : authentifiez-vous à l’aide du mot de passe du compte.
+  * **[!UICONTROL Mot de passe]** : authentifiez-vous à l’aide du mot de passe du compte.
 
-   * **[!UICONTROL Clé publique]** : authentifiez-vous à l’aide d’une paire de clés SSH (clés privée et publique).
+  * **[!UICONTROL Clé publique]** : authentifiez-vous à l’aide d’une paire de clés SSH (clés privée et publique).
 
 Si l’authentification par **[!UICONTROL Clé publique]** est sélectionnée, les champs suivants doivent être renseignés :
 
@@ -141,8 +142,8 @@ Pour configurer le compte externe **[!UICONTROL HTTP]**, renseignez les champs s
 
   Sélectionnez le type d’authentification de la connexion. Les options incluent :
 
-   * Mot de passe
-   * Clé publique
+  * Mot de passe
+  * Clé publique
 
 Si vous utilisez l’authentification par **[!UICONTROL clé publique]**, dans le menu **[!UICONTROL Authentification PublicKey]**, saisissez les valeurs requises pour :
 
@@ -180,7 +181,7 @@ Pour configurer le compte externe **[!UICONTROL FTP]**, renseignez les champs su
 
   Sélectionnez le type de chiffrement de la connexion. Les options incluent :
 
-   * Par défaut
-   * POP3 + STARTTLS
-   * POP3 non sécurisé
-   * POP3 sécurisé
+  * Par défaut
+  * POP3 + STARTTLS
+  * POP3 non sécurisé
+  * POP3 sécurisé

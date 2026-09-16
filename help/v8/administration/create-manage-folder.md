@@ -4,12 +4,10 @@ title: Créer et gérer un dossier
 description: Découvrir comment créer et gérer un dossier dans Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
-
 ---
-
 # Créer et gérer un dossier
 
 Dans Adobe Campaign, vous pouvez créer des dossiers pour gérer votre arborescence de navigation. Dans **[!UICONTROL Explorateur]**, accédez au dossier dans lequel vous souhaitez créer votre dossier.

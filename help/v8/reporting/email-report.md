@@ -6,20 +6,24 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 TQID: https://experienceleague.adobe.com/Pmd2So-q8JbSJs9dMLqpxJv8s0js59AsEJDhvf5kZmQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 2481
+workflow-type: tm+mt
+source-wordcount: '2481'
 ht-degree: 100%
-
 ---
-
 # Rapport de diffusion par e-mail {#email-report}
 
 Le **rapport de diffusion par e-mail** offre des informations et des données complètes spécifiques au canal e-mail. Il fournit des informations détaillées sur les performances, l’efficacité et les résultats de vos diffusions individuelles, ce qui vous permet d’obtenir une vue d’ensemble complète.
@@ -289,7 +293,7 @@ Le rapport **[!UICONTROL URL et flux de clics]** fournit des indicateurs clés d
 
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions.
 
-* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé sur les diffusions envoyées au cours des six derniers mois.Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
+* **[!UICONTROL Moyenne plateforme]** : ce taux moyen, affiché sous chaque taux (réactivité, clics distincts et clics cumulés), est calculé sur les diffusions envoyées au cours des six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
 
 +++
 
@@ -415,6 +419,6 @@ Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les st
 >title="Rapport Hotclicks"
 >abstract="Le rapport **Hotclicks** présente le contenu de l’e-mail (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. Les blocs de personnalisation, liens de désinscription, liens de page miroir et liens d’offre sont pris en compte dans le total des clics cumulés, mais ne sont pas affichés dans le rapport."
 
-Ce rapport présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien.Les blocs de personnalisation, liens de désinscription, liens de page miroir et liens d’offre sont pris en compte dans le total des clics cumulés, mais ne sont pas affichés dans le rapport.
+Ce rapport présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. Les blocs de personnalisation, liens de désinscription, liens de page miroir et liens d’offre sont pris en compte dans le total des clics cumulés, mais ne sont pas affichés dans le rapport.
 
 ![Capture d’écran du rapport Hotclicks](assets/reporting11.png){zoomable="yes"}

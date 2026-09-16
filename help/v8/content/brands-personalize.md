@@ -8,20 +8,23 @@ exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
 TQID: https://experienceleague.adobe.com/Wwn4Gh2Xgf8A5dHJ-2bWu6DIziufzW7TsAlKDrUgWY4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 997
+workflow-type: tm+mt
+source-wordcount: '997'
 ht-degree: 100%
-
 ---
-
 # Personnaliser votre marque {#brands-personalize}
 
 Pour créer un kit de marque complet qui assure la cohérence de l’ensemble de votre contenu et de vos canaux, configurez les quatre onglets suivants. Chaque onglet se concentre sur un aspect différent de l’identité de votre marque :
@@ -32,7 +35,7 @@ Pour créer un kit de marque complet qui assure la cohérence de l’ensemble de
 
 <!-- * **[!UICONTROL Colors]** manages your brand's color system and usage. -->
 
-Une fois la configuration effectuée, vous pouvez utiliser les consignes de la marque pour valider la qualité du contenu et l’alignement sur la marque.[Découvrez-en plus sur la validation de la qualité du contenu](brands-score.md#validate-quality).
+Une fois la configuration effectuée, vous pouvez utiliser les consignes de la marque pour valider la qualité du contenu et l’alignement sur la marque. [Découvrez-en plus sur la validation de la qualité du contenu](brands-score.md#validate-quality).
 
 ## À propos de la marque {#about-brand}
 

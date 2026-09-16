@@ -6,13 +6,12 @@ exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 759
+workflow-type: tm+mt
+source-wordcount: '759'
 ht-degree: 100%
-
 ---
-
 # Créer et envoyer une diffusion de centre d’appel {#create-call-center}
 
 Vous pouvez créer une diffusion de centre d’appel autonome ou en créer une dans le cadre d’un workflow de campagne. Les étapes ci-dessous détaillent la procédure d’une diffusion autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont détaillées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
@@ -117,7 +116,7 @@ La prévisualisation et l’envoi du fichier d’extraction comprennent les éta
 
    ![Capture d’écran montrant l’option Vérifier et envoyer dans la page de diffusion](assets/cc-review-send.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Préparer]** et suivez la progression et les statistiques fournies, puis confirmez.
+1. Cliquez sur **[!UICONTROL Préparer]** et suez la progression et les statistiques fournies, puis confirmez.
 
    ![Capture d’écran montrant l’option de préparation et le menu Logs](assets/cc-prepare.png){zoomable="yes"}
 

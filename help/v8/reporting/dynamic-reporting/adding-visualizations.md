@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: 87b53a84-498e-430b-a3ed-22a3a9422dae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
-
 ---
-
 # Ajouter des visualisations{#adding-visualizations}
 
 L’onglet **Visualisations** vous permet de positionner des éléments de visualisation, tels que des zones, des diagrammes circulaires ou des graphiques. Les visualisations vous offrent une représentation graphique de vos données.

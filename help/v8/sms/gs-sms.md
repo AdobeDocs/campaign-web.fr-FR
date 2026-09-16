@@ -6,15 +6,15 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 TQID: https://experienceleague.adobe.com/o-0MeELRewgw68-diUevmn9qDYgEK8rzDlHv54Kx00A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 173
+workflow-type: tm+mt
+source-wordcount: '173'
 ht-degree: 100%
-
 ---
-
 # Prise en main des diffusions SMS {#sms}
 
 Les diffusions par SMS offrent un moyen pratique et efficace d’envoyer des SMS sur les appareils mobiles de vos clientes et clients. Grâce à cette fonctionnalité, vous pouvez créer, personnaliser et prévisualiser des SMS pour une communication efficace.
@@ -40,7 +40,7 @@ Le canal SMS propose trois méthodes pour créer des diffusions par SMS :
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="Créer une diffusion par SMS" src="assets/do-not-localize/design_sms.png">
+<img alt="Concevoir une diffusion SMS" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong>Concevoir une diffusion SMS<strong></strong></a>

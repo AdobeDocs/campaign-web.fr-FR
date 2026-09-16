@@ -5,15 +5,15 @@ description: Découvrir comment afficher, configurer et déployer un environneme
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
-workflow-type: ht
-source-wordcount: 319
+workflow-type: tm+mt
+source-wordcount: '319'
 ht-degree: 100%
-
 ---
-
 # Vérifier les paramètres de l’environnement d’offres {#offer-environment}
 
 Un **environnement d’offres** est le conteneur dans lequel vous organisez votre catalogue d’offres et les emplacements associés. Il existe deux types d’environnements :
@@ -117,7 +117,7 @@ This section gathers the offer-specific settings of the folder.
 
 ### Execution instances {#execution-instances}
 
-* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html?lang=fr#distributed-architecture){target="_blank"}.
+* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html#distributed-architecture){target="_blank"}.
 
 ### Targets of this environment {#targets}
 
@@ -149,7 +149,7 @@ and [Anonymous interactions](https://experienceleague.adobe.com/docs/campaign/ca
 
   ![Screenshot showing the other Environment settings of an environment](assets/offers-env-5.png){zoomable="yes"}
 
-* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=fr#offer-presentation){target="_blank"} for the full rule reference.
+* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-presentation){target="_blank"} for the full rule reference.
 
 * **[!UICONTROL Filters on the target]** — Filter rules that apply to every offer in the environment. Use **[!UICONTROL Add rules]** to open the rule builder and restrict the audience targeted by all offers contained in this environment.
 

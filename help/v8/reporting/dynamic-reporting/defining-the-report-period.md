@@ -5,12 +5,10 @@ audience: end-user
 level: Intermediate
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
-
 ---
-
 # Définir la période d&#39;un rapport{#defining-the-report-period}
 
 >[!NOTE]
