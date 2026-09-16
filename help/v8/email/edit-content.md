@@ -47,7 +47,7 @@
 <target xml:lang="en-XX">Par défaut, le tracking est activé pour la diffusion, ce qui signifie que tous les liens inclus dans le contenu du message sont suivis. Vous pouvez désactiver cette option à partir d’ici.</target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/email-design/design-content/message-tracking</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/email-design/design-content/message-tracking</target>
 </trans-unit>
 <trans-unit id="tu13" xml:space="preserve">

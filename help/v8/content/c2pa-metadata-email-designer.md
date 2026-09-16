@@ -171,7 +171,7 @@
 <target xml:lang="en-XX">Transparence du contenu d’IA générative</target>
 </trans-unit>
 <trans-unit id="tu43" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency</target>
 </trans-unit>
 </body>
