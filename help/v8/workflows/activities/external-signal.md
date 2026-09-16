@@ -51,12 +51,12 @@
 <target xml:lang="en-XX">L’activité <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Signal externe<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> est une activité de <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>contrôle de flux<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph>. Elle permet de déclencher l’exécution d’un workflow à partir d’un autre workflow ou d’un appel API.</target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
-<source xml:lang="en-US">This page explains the main steps to configure an <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>External Signal<ph id="3" ctype="x-LINK_REF">]**</ph> activity in Campaign Web User Interface and trigger it from another workflow or an API call. Detailed information on how to trigger a workflow, best practices, and how to work with Campaign APIs is available in the <ph id="5" ctype="x-LINK">[</ph>Campaign v8 (client console) documentation<ph id="6" ctype="x-LINK">[#$tu13]</ph>.</source>
-<target xml:lang="en-XX">Cette page explique les principales étapes pour configurer une activité <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Signal externe<ph id="3" ctype="x-LINK_REF">]**</ph> dans l’interface d’utilisation de Campaign Web et la déclencher à partir d’un autre workflow ou d’un appel API. Des informations détaillées sur le déclenchement d’un workflow et ses bonnes pratiques, ainsi que sur l’utilisation des API Campaign, sont disponibles dans la <ph id="5" ctype="x-LINK">[</ph>documentation de Campaign v8 (console cliente)<ph id="6" ctype="x-LINK">[#$tu13]</ph>.</target>
+<source xml:lang="en-US">This page explains the main steps to configure an <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>External Signal<ph id="3" ctype="x-LINK_REF">]**</ph> activity in Campaign Web User Interface and trigger it from another workflow or an API call. Detailed information on how to trigger a workflow, best practices, and how to work with Campaign APIs is available in the <ph id="5" ctype="x-LINK">&lbrack;</ph>Campaign v8 (client console) documentation<ph id="6" ctype="x-LINK">[#$tu13]</ph>.</source>
+<target xml:lang="en-XX">Cette page explique les principales étapes pour configurer une activité <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Signal externe<ph id="3" ctype="x-LINK_REF">]**</ph> dans l’interface d’utilisation de Campaign Web et la déclencher à partir d’un autre workflow ou d’un appel API. Des informations détaillées sur le déclenchement d’un workflow et ses bonnes pratiques, ainsi que sur l’utilisation des API Campaign, sont disponibles dans la <ph id="5" ctype="x-LINK">&lbrack;</ph>documentation de Campaign v8 (console cliente)<ph id="6" ctype="x-LINK">[#$tu13]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu14" xml:space="preserve">
 <source xml:lang="en-US">Follow these steps to configure the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>External signal<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> activity and trigger its execution:</source>
@@ -131,8 +131,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>La capture d’écran illustre un exemple de déclenchement de l’activité Signal externe à l’aide de la fonction PostEvent.<ph id="2" ctype="x-IMAGE">](../assets/external-signal-sample.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu32" xml:space="preserve">
-<source xml:lang="en-US">To trigger an <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>External signal<ph id="3" ctype="x-LINK_REF">]**</ph> activity from an API call, follow the steps detailed in the Campaign API documentation. <ph id="5" ctype="x-LINK">[</ph>Learn how to use the static <ph id="6" ctype="x-CODE">`PostEvent`</ph> method<ph id="7" ctype="x-LINK">[#$tu33]</ph>.</source>
-<target xml:lang="en-XX">Pour déclencher une activité <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Signal externe<ph id="3" ctype="x-LINK_REF">]**</ph> à partir d’un appel API, suivez les étapes détaillées dans la documentation de l’API Campaign. <ph id="5" ctype="x-LINK">[</ph>Découvrir comment utiliser la méthode statique <ph id="6" ctype="x-CODE">`PostEvent`</ph><ph id="7" ctype="x-LINK">[#$tu33]</ph>.</target>
+<source xml:lang="en-US">To trigger an <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>External signal<ph id="3" ctype="x-LINK_REF">]**</ph> activity from an API call, follow the steps detailed in the Campaign API documentation. <ph id="5" ctype="x-LINK">&lbrack;</ph>Learn how to use the static <ph id="6" ctype="x-CODE">`PostEvent`</ph> method<ph id="7" ctype="x-LINK">[#$tu33]</ph>.</source>
+<target xml:lang="en-XX">Pour déclencher une activité <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Signal externe<ph id="3" ctype="x-LINK_REF">]**</ph> à partir d’un appel API, suivez les étapes détaillées dans la documentation de l’API Campaign. <ph id="5" ctype="x-LINK">&lbrack;</ph>Découvrir comment utiliser la méthode statique <ph id="6" ctype="x-CODE">`PostEvent`</ph><ph id="7" ctype="x-LINK">[#$tu33]</ph>.</target>
 </trans-unit>
 </body>
 </file>

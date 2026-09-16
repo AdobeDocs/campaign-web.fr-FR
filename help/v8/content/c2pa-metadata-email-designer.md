@@ -15,20 +15,20 @@
 <target xml:lang="en-XX">Métadonnées C2PA dans le concepteur d’e-mail et de page de destination</target>
 </trans-unit>
 <trans-unit id="tu4" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!BEGINSHADEBOX">[!BEGINSHADEBOX]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!BEGINSHADEBOX">[!BEGINSHADEBOX]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!BEGINSHADEBOX">[!BEGINSHADEBOX]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!BEGINSHADEBOX">[!BEGINSHADEBOX]</ph></target>
 </trans-unit>
 <trans-unit id="tu5" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>On this page:<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> Learn what happens to C2PA metadata already attached to an image as it moves through the email and landing page designer in Adobe Campaign Web User Interface.</source>
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Sur cette page :<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> découvrez ce qu’il advient des métadonnées C2PA déjà jointes à une image lorsque celle-ci est déplacée dans le concepteur d’e-mail et de page de destination dans l’interface d’utilisation d’Adobe Campaign Web.</target>
 </trans-unit>
 <trans-unit id="tu6" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!ENDSHADEBOX">[!ENDSHADEBOX]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!ENDSHADEBOX">[!ENDSHADEBOX]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!ENDSHADEBOX">[!ENDSHADEBOX]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!ENDSHADEBOX">[!ENDSHADEBOX]</ph></target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!INFO">[!INFO]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!INFO">[!INFO]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!INFO">[!INFO]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!INFO">[!INFO]</ph></target>
 </trans-unit>
 <trans-unit id="tu8" xml:space="preserve">
 <source xml:lang="en-US">New laws are emerging around generative AI transparency, and Adobe is working to meet applicable requirements across jurisdictions. C2PA metadata are the provenance tool Adobe uses to meet the requirements of these laws.</source>

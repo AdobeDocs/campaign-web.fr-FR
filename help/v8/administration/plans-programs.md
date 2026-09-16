@@ -143,8 +143,8 @@
 <target xml:lang="en-XX">Vous pouvez éventuellement définir une <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Période<ph id="3" ctype="x-LINK_REF">]**</ph> dans la section <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Planning<ph id="7" ctype="x-LINK_REF">]**</ph>.</target>
 </trans-unit>
 <trans-unit id="tu36" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></target>
 </trans-unit>
 <trans-unit id="tu37" xml:space="preserve">
 <source xml:lang="en-US">If you create a program from the Explorer view, the parent folder is automatically set to the current program.</source>

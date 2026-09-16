@@ -75,8 +75,8 @@
 <target xml:lang="en-XX">Ajoutez des variantes linguistiques à vos diffusions. <ph id="1" ctype="x-LINK">[</ph>En savoir plus<ph id="2" ctype="x-LINK">](../msg/multilingual.md)</ph></target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
 <source xml:lang="en-US">All the editable text fields of this screen can be filled in using personalization fields. <ph id="1" ctype="x-LINK">[</ph>Learn how to personalize content<ph id="2" ctype="x-LINK">](../personalization/personalize.md)</ph></source>
@@ -107,8 +107,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>Capture d’écran montrant le tableau de bord de modification du contenu de l’e-mail.<ph id="2" ctype="x-IMAGE">](assets/email-edit-content-dashboard.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu27" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu28" xml:space="preserve">
 <source xml:lang="en-US">If you are configuring a new email, the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>From name<ph id="3" ctype="x-LINK_REF">]**</ph> and <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>From email<ph id="7" ctype="x-LINK_REF">]**</ph> fields are already populated.</source>
@@ -119,8 +119,8 @@
 <target xml:lang="en-XX">Le champ <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Nom de l’expéditeur<ph id="3" ctype="x-LINK_REF">]**</ph> est défini dans le modèle d’e-mail. Si vous voulez le modifier, utilisez un nom facilement identifiable par les destinataires, tel que le nom de votre marque, pour augmenter le taux d’ouverture de vos diffusions.</target>
 </trans-unit>
 <trans-unit id="tu30" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu31" xml:space="preserve">
 <source xml:lang="en-US">To further improve the recipient's experience, you can add a person's name, for example, "Eve from Luma".</source>
@@ -131,16 +131,16 @@
 <target xml:lang="en-XX">Le champ <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Adresse e-mail de l’expéditeur<ph id="3" ctype="x-LINK_REF">]**</ph> est également défini dans le modèle d’e-mail. Assurez-vous que le domaine de l’adresse est identique au sous-domaine délégué à Adobe.</target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu34" xml:space="preserve">
 <source xml:lang="en-US">You can change the part preceding the '@', but not the domain address.</source>
 <target xml:lang="en-XX">Vous pouvez modifier la partie qui précède le signe « @ », mais pas l’adresse du domaine.</target>
 </trans-unit>
 <trans-unit id="tu35" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu36" xml:space="preserve">
 <source xml:lang="en-US">Administrators can restrict this field to a predefined list of sender addresses. In this case, you select an address from a dropdown list instead of typing it. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">](../administration/options.md#restrict-sender-address)</ph></source>
@@ -163,8 +163,8 @@
 <target xml:lang="en-XX">Si vous souhaitez joindre un fichier à l’e-mail, cliquez sur le bouton <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Ajouter une pièce jointe<ph id="3" ctype="x-LINK_REF">]**</ph> puis sélectionnez un ou plusieurs fichiers.</target>
 </trans-unit>
 <trans-unit id="tu41" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu42" xml:space="preserve">
 <source xml:lang="en-US">To avoid performance issues, it is recommended not to include more than one attachment per email.</source>
@@ -187,8 +187,8 @@
 <target xml:lang="en-XX">Cliquez sur le bouton <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Modifier le corps de l’e-mail<ph id="3" ctype="x-LINK_REF">]**</ph> pour organiser et concevoir le contenu de l’e-mail en utilisant le <ph id="5" ctype="x-LINK">[</ph>Concepteur d’e-mail<ph id="6" ctype="x-LINK">](get-started-email-designer.md#start-authoring)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu47" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu48" xml:space="preserve">
 <source xml:lang="en-US">You can also hover over the email preview and select <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Open email designer<ph id="3" ctype="x-LINK_REF">]**</ph>.</source>
