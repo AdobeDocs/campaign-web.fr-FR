@@ -24,7 +24,7 @@ ht-degree: 100%
 L’activité **Chargement de données (SGBD)** est une activité de **Gestion des données**. Utilisez cette activité pour charger des données directement à partir d’une base de données relationnelle externe dans votre workflow. Les données extraites sont disponibles tout au long du workflow et peuvent être utilisées pour le ciblage, l’enrichissement ou un traitement ultérieur des données.
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]
