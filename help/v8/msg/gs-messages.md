@@ -6,15 +6,15 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 TQID: https://experienceleague.adobe.com/ol49rogAOsMFxY7k6DlSEmhkuplXBAYwKVM-KOflNQI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 172
+workflow-type: tm+mt
+source-wordcount: '172'
 ht-degree: 100%
-
 ---
-
 # Commencer avec les messages{#gs-messages}
 
 Avec Adobe Campaign, vous pouvez envoyer des campagnes cross-canal, y compris sous forme d’e-mails, de SMS, de notifications push, de [WhatsApp](../whatsapp/get-started-whatsapp.md) et de courrier, puis mesurer leur impact à l’aide de différents rapports dédiés.

@@ -6,13 +6,12 @@ exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 TQID: https://experienceleague.adobe.com/NEJlbFW9x99cIjqvDUzv01K2qhqwN0HWu3Bbwi542rM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1130
+workflow-type: tm+mt
+source-wordcount: '1130'
 ht-degree: 100%
-
 ---
-
 # Tableaux de bord des alertes de diffusion {#delivery-alerting-dashboards}
 
 >[!CONTEXTUALHELP]
@@ -71,7 +70,7 @@ Pour créer un tableau de bord de diffusion, procédez comme suit :
    +++Paramètres de critères disponibles
 
    * **Taille minimale de la cible de la diffusion** : si vous saisissez par exemple la valeur 100 dans ce champ, une notification est envoyée uniquement pour les diffusions dont la cible est supérieure ou égale à 100 destinataires. Ce paramètre s&#39;applique à tous les critères.
-   * **Période de contrôle avant et après la date de contact (en heures)** : nombre d&#39;heures avant et après l&#39;heure actuelle. Seules les diffusions dont la date de contact est comprise dans cette plage sont prises en compte. Ce paramètre s&#39;applique à tous les critères. Par défaut, la valeur de ce champ est définie sur 24 heures.
+   * **Période de  avant et après la date de contact (en heures)** : nombre d&#39;heures avant et après l&#39;heure actuelle. Seules les diffusions dont la date de contact est comprise dans cette plage sont prises en compte. Ce paramètre s&#39;applique à tous les critères. Par défaut, la valeur de ce champ est définie sur 24 heures.
    * **Taux maximal de rebonds temporaires** : une notification est envoyée pour toutes les diffusions dont le taux de rebonds temporaires est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
    * **Taux maximal de rebonds définitifs** : une notification est envoyée pour toutes les diffusions dont le taux de rebonds définitifs est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
    * **Durée minimale pour une diffusion ayant le statut Démarrage en attente (en minutes)** : une notification est envoyée pour toutes les diffusions ayant le statut Démarrage en attente pendant une durée supérieure à celle spécifiée dans ce champ. Le statut Démarrage en attente signifie que les messages n’ont pas encore été pris en compte par le système.

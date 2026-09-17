@@ -6,16 +6,17 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 TQID: https://experienceleague.adobe.com/qoRSCg0-BzcmBJ6-NapGqdg2pUrkXq4QXbb2OPx-new
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1649
+workflow-type: tm+mt
+source-wordcount: '1660'
 ht-degree: 100%
-
 ---
-
 # Créer et publier des landing pages {#create-lp}
 
 >[!CONTEXTUALHELP]
@@ -164,7 +165,7 @@ Une fois tous les paramètres définis et toutes les pages [conçues](lp-content
 Configurer un captcha vous permet de protéger votre page de destination contre le spam et les abus.
 
 Pour l’utiliser, accédez aux **[!UICONTROL Propriétés]** de votre page de destination.
-Dans les **[!UICONTROL Options supplémentaires]** également. Activez le bouton (bascule) **[!UICONTROL Activer la solution captcha supplémentaire]**.
+Dans les **[!UICONTROL Options supplémentaires]** également. Activez le bouton (bascule) **[!UICONTROL Solution supplémentaire d’activation de captcha]**.
 
 ![Capture d’écran montrant le bouton pour activer une solution Captcha supplémentaire](assets/lp-properties-captcha.png){zoomable="yes"}.
 

@@ -6,15 +6,15 @@ exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 TQID: https://experienceleague.adobe.com/hpwPpLBk28eQ58sahnuBCostJpXhW7PDssUgjxainYY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 202
+workflow-type: tm+mt
+source-wordcount: '202'
 ht-degree: 100%
-
 ---
-
 # Prise en main des diffusions par courrier {#gs-direct-mail}
 
 Le canal Courrier est un canal hors ligne qui vous permet de produire des fichiers pour diffuser en masse des lettres personnalisées à votre clientèle, comme des cartes postales, des prospectus ou des catalogues.

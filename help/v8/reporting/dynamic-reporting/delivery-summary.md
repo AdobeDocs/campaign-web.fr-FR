@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: 6c5c013c-014f-4d0c-9967-32ac0fbab4af
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
-
 ---
-
 # Synthèse des diffusions{#delivery-summary}
 
 Le rapport **[!UICONTROL Synthèse des diffusions]** présente l&#39;ensemble des informations principales relatives à un email, ou à plusieurs emails.

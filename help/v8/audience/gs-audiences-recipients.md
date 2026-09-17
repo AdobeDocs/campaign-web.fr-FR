@@ -5,20 +5,23 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 TQID: https://experienceleague.adobe.com/SKT-mPGrNuXmEQx5NGEZt3tZLM271zg7-85AeC4DpVc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 203
+workflow-type: tm+mt
+source-wordcount: '203'
 ht-degree: 100%
-
 ---
-
 # Prise en main des profils et des audiences {#about-profiles}
 
 Dans Adobe Campaign Web, un **profil** désigne un enregistrement stocké dans la base de données. Il sert de composant clé pour créer des audiences pour les diffusions et ajouter des données de personnalisation à votre contenu. Différents types de profils sont stockés dans la base de données, tels que les **profils de test**, conçus pour tester vos diffusions avant de les envoyer à l’audience finale.

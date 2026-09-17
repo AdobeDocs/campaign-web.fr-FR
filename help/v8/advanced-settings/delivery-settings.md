@@ -7,19 +7,22 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 3646
-ht-degree: 97%
-
+source-wordcount: '3646'
+ht-degree: 100%
 ---
-
 # Configurer les paramètres de diffusion {#del-settings}
 
 Les paramètres de diffusion sont des **paramètres de diffusions techniques** définis dans le modèle de diffusion. Ils peuvent être surchargés pour chaque diffusion. Ces paramètres sont disponibles depuis le bouton **Paramètres** disponible lors de la modification d’une diffusion ou d’un modèle de diffusion.
@@ -162,10 +165,10 @@ Concernant les e-mails, vous pouvez également modifier les **[!UICONTROL Format
 >abstract="Par défaut, le tracking est activé pour la diffusion, ce qui signifie que tous les liens inclus dans le contenu du message sont suivis. Vous pouvez désactiver cette option à partir d’ici."
 >additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Ajouter des liens et suivre les messages"
 
-Cet onglet est disponible lorsqu&#39;un schéma de log de tracking est configuré pour la diffusion et que le mode de diffusion n&#39;est pas externe.
+Cet onglet est disponible lorsqu’un schéma de log de tracking est configuré pour la diffusion et que le mode de diffusion n’est pas externe.
 
-* **[!UICONTROL Activer le tracking]** : activez ou désactivez le tracking de la diffusion. Lorsque cette option est désactivée, aucune donnée de suivi des clics ou des ouvertures n’est collectée.
-* **[!UICONTROL Suivi des ouvertures]** (canal e-mail) : activez ou désactivez le suivi des ouvertures de messages à l’aide du pixel de suivi. Cette option n’est disponible que lorsque l’option **[!UICONTROL Activer le tracking]** est activée. Cela vous aide à vous conformer aux réglementations de protection des données, telles que la CNIL ou le RGPD.
+* **[!UICONTROL Activer le tracking]** : activez ou désactivez le tracking de la diffusion. Lorsque cette option est désactivée, aucune donnée de tracking des clics ou des ouvertures n’est collectée.
+* **[!UICONTROL Tracking d’ouverture]** (canal e-mail) : activez ou désactivez le tracking des ouvertures de messages à l’aide du pixel de tracking. Cette option n’est disponible que lorsque l’option **[!UICONTROL Activer le tracking]** est activée. Cela vous aide à vous conformer aux réglementations de protection des données, telles que la CNIL ou le RGPD.
 
 ## Web Analytics {#web-analytics}
 

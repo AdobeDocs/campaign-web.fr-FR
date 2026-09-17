@@ -6,13 +6,12 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
-workflow-type: ht
-source-wordcount: 1720
+workflow-type: tm+mt
+source-wordcount: '1720'
 ht-degree: 100%
-
 ---
-
 # Orchestrer les activités {#orchestrate}
 
 Une fois que vous avez [créé un workflow](create-workflow.md), à partir du menu de workflow ou au sein d’une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’il exécutera. Pour ce faire, une zone de travail visuelle dédiée vous permet de créer un diagramme de workflow. Dans ce diagramme, vous pouvez ajouter différentes activités et les enchaîner dans un ordre séquentiel. Des barres de défilement horizontales et verticales s’affichent autour de la zone de travail, ce qui vous permet de parcourir les workflows volumineux en faisant glisser directement la souris sur la zone à afficher.
@@ -58,7 +57,7 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 
 Vous pouvez ainsi :
 
-* **Supprimer** l’activité à partir de la zone de travail. Consultez [cette section](#delete-activity).
+* **Supprimer** l’activité à partir de la zone de travail. Voir [cette section](#delete-activity).
 * **Désactivez/activez** l’activité. Lorsque le workflow est exécuté, les activités désactivées et les activités qui suivent sur le même chemin ne sont pas exécutées et le workflow est arrêté.
 * **Mettez en pause/Reprenez** l’activité. Lorsque le workflow est exécuté, il s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 * **Copiez** l’activité. Voir [cette section](#copy).

@@ -6,15 +6,15 @@ exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 206
+workflow-type: tm+mt
+source-wordcount: '206'
 ht-degree: 100%
-
 ---
-
 # Commencer avec les notifications push {#push}
 
 Les notifications push sont essentielles pour communiquer avec les utilisateurs et utilisatrices de votre application mobile, même lorsqu’ils ne l’utilisent pas activement. Elles ont plusieurs objectifs : fournir des mises à jour, inciter à des actions spécifiques et informer de l’existence d’offres. Notez que les utilisateurs et utilisatrices doivent accepter de recevoir ces notifications.
@@ -40,7 +40,7 @@ Pour créer des notifications push, vous disposez de trois options :
 </td>
 <td>
 <a href="content-push.md">
-<img alt="Concevoir une diffusion de notification push" src="assets/do-not-localize/push_design.jpeg">
+<img alt="Concevoir une diffusion par notification push" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
 <a href="content-push.md"><strong>Concevoir une diffusion de notification push<strong></strong></a>

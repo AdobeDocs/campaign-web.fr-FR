@@ -5,15 +5,15 @@ description: Découvrir comment afficher, configurer et déployer un environneme
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
-workflow-type: ht
-source-wordcount: 319
+workflow-type: tm+mt
+source-wordcount: '319'
 ht-degree: 100%
-
 ---
-
 # Vérifier les paramètres de l’environnement d’offres {#offer-environment}
 
 Un **environnement d’offres** est le conteneur dans lequel vous organisez votre catalogue d’offres et les emplacements associés. Il existe deux types d’environnements :

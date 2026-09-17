@@ -6,15 +6,15 @@ exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 TQID: https://experienceleague.adobe.com/X4zw5wvdlQBDMJRY8B0QAPLjBOLNJh0sUK6KONmhPyU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 392
+workflow-type: tm+mt
+source-wordcount: '392'
 ht-degree: 100%
-
 ---
-
 # Prévisualiser et envoyer une diffusion push {#send-push-delivery}
 
 ## Prévisualiser la diffusion par notification push {#preview-push}
@@ -54,11 +54,11 @@ Les profils de test sont les profils destinataires des BAT. Ceux-ci peuvent exa
 
    ![Bouton Vérifier et envoyer sur la page de diffusion](assets/push_send_2.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Préparer]** et suivez la progression et les statistiques fournies.
+1. Cliquez sur **[!UICONTROL Préparer]** et suz la progression et les statistiques fournies.
 
    En cas d’erreur, reportez-vous au menu Logs pour obtenir des informations détaillées sur l’échec.
 
-   ![Suivi des progrès de la préparation et des statistiques](assets/push_send_3.png){zoomable="yes"}
+   ![Su des progrès de la préparation et des statistiques](assets/push_send_3.png){zoomable="yes"}
 
 1. Envoyez les messages en cliquant sur **[!UICONTROL Envoyer]** pour poursuivre le processus d’envoi final.
 

@@ -1,21 +1,22 @@
 ---
-title: 'Configurer les options de  [!DNL Campaign] '
+title: Configurer les options de [!DNL Campaign]
 description: Découvrez comment configurer les options de Campaign et créer vos propres options personnalisées.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 TQID: https://experienceleague.adobe.com/a3MU21qEI7ggDv-gUT4--glIkWdU05mz14v3U9Q2wnM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
-workflow-type: ht
-source-wordcount: 592
+workflow-type: tm+mt
+source-wordcount: '592'
 ht-degree: 100%
-
 ---
-
 # Configurer les options de [!DNL Campaign] {#options}
 
 >[!CONTEXTUALHELP]

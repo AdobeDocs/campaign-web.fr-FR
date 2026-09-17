@@ -5,15 +5,15 @@ exl-id: 99648377-112b-428a-8faf-5268d730f19a
 TQID: https://experienceleague.adobe.com/ZkfG6g4YYAkefJI1Pi7xsdulm1zS1BFJdXBTS37x2T8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 213
+workflow-type: tm+mt
+source-wordcount: '213'
 ht-degree: 100%
-
 ---
-
 # Comptes externes d’intégration de solutions Adobe {#integration-external-account}
 
 Selon le type de compte externe d’intégration de solution Adobe que vous avez sélectionné, suivez les étapes ci-dessous pour configurer les paramètres de connexion et de compte afin d’assurer une intégration transparente aux services Adobe.
@@ -28,7 +28,7 @@ Pour configurer le compte externe **[!UICONTROL Adobe Experience Cloud]**, ren
 
 * **[!UICONTROL Serveurs IMS]**
 
-  URL de votre serveur IMS.Assurez-vous que les instances d’évaluation et de production pointent sur le même point d’entrée de production IMS.
+  URL de votre serveur IMS. Assurez-vous que les instances d’évaluation et de production pointent sur le même point d’entrée de production IMS.
 
 * **[!UICONTROL Scope IMS]**
 

@@ -6,18 +6,18 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 995
+workflow-type: tm+mt
+source-wordcount: '995'
 ht-degree: 100%
-
 ---
-
 # Activités E-mail, SMS, WhatsApp, Notification push, Courrier {#channel}
 
-Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux e-mail, SMS, WhatsApp, courrier et notification push.Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal qui déclenchent des actions en fonction du comportement de la clientèle et des données.
+Adobe Campaign Web vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux e-mail, SMS, WhatsApp, courrier et notification push. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal qui déclenchent des actions en fonction du comportement de la clientèle et des données.
 
 Vous pouvez, par exemple, créer une campagne de bienvenue par e-mail qui inclut une série de messages sur différents canaux, tels que les canaux e-mail, SMS, notifications push et courrier. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente effectue un achat, ou encore envoyer un message d’anniversaire personnalisé par SMS.
 
@@ -38,13 +38,13 @@ Commencez à créer votre workflow avec les activités pertinentes :
 
 * Avant d’insérer une activité de canal, définissez l’audience. L’audience est la cible principale de votre diffusion : il s’agit des profils qui reçoivent les messages. Lors de l’envoi de messages dans le cadre d’un workflow de campagne, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité dédiée, par exemple :
 
-   * une activité **Créer une audience** ; [En savoir plus](build-audience.md).
+  * une activité **Créer une audience** ; [En savoir plus](build-audience.md).
 
-     ![Capture d’écran montrant l’ajout d’une diffusion dans un workflow](../../msg/assets/add-delivery-in-wf.png)
+    ![Capture d’écran montrant l’ajout d’une diffusion dans un workflow](../../msg/assets/add-delivery-in-wf.png)
 
-   * une activité **Chargement de fichier** suivie d’une activité **Réconciliation**. [En savoir plus](load-file.md).
+  * une activité **Chargement de fichier** suivie d’une activité **Réconciliation**. [En savoir plus](load-file.md).
 
-     ![Capture d’écran montrant les critères de réconciliation d’un workflow](../assets/workflow-reconciliation-criteria.png)
+    ![Capture d’écran montrant les critères de réconciliation d’un workflow](../assets/workflow-reconciliation-criteria.png)
 
 * Pour envoyer une diffusion récurrente, démarrez votre workflow avec une activité **Planificateur**. Utilisez une activité **Planificateur** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de la diffusion. Voir [cette section](scheduler.md).
 

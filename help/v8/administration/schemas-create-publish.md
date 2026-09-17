@@ -5,10 +5,8 @@ exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 91%
-
+ht-degree: 100%
 ---
-
 # Créer et publier des schémas {#create-publish}
 
 ## Création et publication de schémas {#create-schemas}
@@ -39,9 +37,9 @@ Par défaut, le schéma est vide. Vous devez maintenant ajouter les champs que v
 
    ![Boîte de dialogue de création de schéma](assets/schemas-create3.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Vérifier]** pour vérifier la structure XML du schéma avant l’enregistrement. Les erreurs identifiées s’affichent en bas de l’écran, par exemple « Format XML non valide ».
+1. Cliquez sur le bouton **[!UICONTROL Vérifier]** pour vérifier la structure XML de votre schéma avant d’enregistrer. Les erreurs identifiées s’affichent en bas de l’écran, par exemple « Format XML non valide ».
 
-   ![&#x200B; Erreurs de la boîte de dialogue de création de schéma &#x200B;](assets/schemas-create3bis.png)
+   ![Erreurs de la boîte de dialogue de création de schéma](assets/schemas-create3bis.png)
 
 1. Corrigez les erreurs éventuelles, puis enregistrez vos modifications pour générer le schéma.
 

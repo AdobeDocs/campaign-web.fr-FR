@@ -6,15 +6,15 @@ exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 TQID: https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 506
+workflow-type: tm+mt
+source-wordcount: '506'
 ht-degree: 100%
-
 ---
-
 # Sélectionner des attributs et les ajouter aux favoris {#folders}
 
 L’interface d’utilisation de Campaign Web permet de sélectionner des attributs de la base de données à différents emplacements, selon l’action que vous souhaitez effectuer. Par exemple, vous pouvez sélectionner des attributs lors de la définition des colonnes de sortie pour une diffusion par courrier ou un fichier à extraire. De même, vous pouvez sélectionner des attributs lors de l’utilisation du concepteur de requête pour créer des règles, des filtres ou des audiences.

@@ -5,15 +5,15 @@ description: Découvrir comment créer, configurer, déployer et prévisualiser 
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
-workflow-type: ht
-source-wordcount: 921
+workflow-type: tm+mt
+source-wordcount: '921'
 ht-degree: 100%
-
 ---
-
 # Créer et gérer des emplacements {#offer-space}
 
 Un **emplacement** définit où et comment une offre est exposée à un contact : le canal qu’elle utilise (e-mail, courrier, SMS, web entrant, etc.), les champs de contenu que l’offre peut utiliser et la manière dont la représentation finale est créée. Un seul environnement peut contenir plusieurs emplacements, un pour chaque point d’exposition.

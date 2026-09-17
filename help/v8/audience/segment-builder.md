@@ -4,12 +4,10 @@ title: Créer une audience à l’aide du créateur de règles de Campaign
 description: Découvrez comment utiliser le créateur de règles.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
-
 ---
-
 # Utiliser le créateur de règles {#segment-builder}
 
 Le créateur de règles permet de définir la population ciblée par votre diffusion en filtrant les données contenues dans la base de données. Utilisez-le pour créer une audience à partir d’un workflow à l’aide d’une activité **[!UICONTROL Créer une audience]** ou directement lors de la création d’une diffusion pour créer une audience unique.

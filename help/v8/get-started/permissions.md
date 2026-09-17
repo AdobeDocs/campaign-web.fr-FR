@@ -6,15 +6,15 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 88%
-
+source-wordcount: '342'
+ht-degree: 100%
 ---
-
 # Autorisations {#permissions}
 
 Chaque utilisateur et utilisatrice d’Adobe Campaign dispose de ses propres autorisations et restrictions dans l’application. L’utilisateur ou l’utilisatrice peut appartenir à un groupe d’opérateurs et d’opératrices et hériter des autorisations du groupe.
@@ -53,8 +53,8 @@ Si l’option **[!UICONTROL Propager]** est activée, toutes les autorisations d
 
 Si l’option **[!UICONTROL Dossier système]** est activée, l’accès est autorisé à tous les opérateurs et opératrices, quelles que soient leurs autorisations.
 
-Consultez cette [section](work-with-folders.md#folder-access-rights) pour découvrir comment ces droits affectent les actions disponibles sur un dossier.
+Consultez cette [section](work-with-folders.md#folder-access-rights) pour découvrir comment ces droits affectent les actions à votre disposition sur un dossier.
 
-Les droits nommés déterminent également les actions de dossier disponibles pour un opérateur. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=fr#use-named-rights){target="_blank"}.
+Les droits nommés déterminent également les actions de dossier disponibles pour un opérateur ou une opératrice. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=fr#use-named-rights){target="_blank"}.
 
 Toutes les autorisations de l’interface d’utilisation de Campaign Web sont synchronisées avec celles de la console cliente Campaign.

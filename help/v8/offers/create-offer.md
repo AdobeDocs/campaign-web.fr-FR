@@ -5,15 +5,15 @@ description: Découvrir comment créer, configurer, approuver et déployer une o
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
-workflow-type: ht
-source-wordcount: 1057
+workflow-type: tm+mt
+source-wordcount: '1057'
 ht-degree: 100%
-
 ---
-
 # Créer et publier une offre {#create-offer}
 
 Une **offre** est une proposition individuelle avec sa propre période d’éligibilité, son filtre cible, son poids et son contenu. Les offres sont organisées dans le catalogue d’offres au travers de **catégories** et sont présentées aux destinataires par le biais d’un **emplacement**.
@@ -28,7 +28,7 @@ Pour parcourir et créer des offres, sélectionnez **[!UICONTROL Offres]** dans 
 
 Cliquez sur le nom d’une offre pour l’ouvrir en vue de la modifier ou utilisez les trois points en regard pour la **[!UICONTROL Dupliquer]** ou la **[!UICONTROL Supprimer]**.
 
-## Créer une offre {#create}
+## Création d’une offre {#create}
 
 Pour créer une offre :
 

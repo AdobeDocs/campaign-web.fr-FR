@@ -6,13 +6,12 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
-workflow-type: ht
-source-wordcount: 456
+workflow-type: tm+mt
+source-wordcount: '456'
 ht-degree: 100%
-
 ---
-
 # Surveiller les logs de diffusion {#delivery-logs}
 
 >[!CONTEXTUALHELP]
@@ -26,7 +25,7 @@ Pour afficher les logs, accédez au tableau de bord de votre diffusion et clique
 
 >[!TIP]
 >
->Chaque onglet de journal peut être exporté au format CSV à l’aide du bouton **Exporter les lignes chargées au format CSV** situé au-dessus de la liste.En savoir plus dans la [documentation sur l’export de données](../get-started/list-filters.md#export-list).
+>Chaque onglet de journal peut être exporté au format CSV à l’aide du bouton **Exporter les lignes chargées au format CSV** situé au-dessus de la liste. En savoir plus dans la [documentation sur l’export de données](../get-started/list-filters.md#export-list).
 
 Les onglets suivants sont disponibles :
 

@@ -7,30 +7,41 @@ exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 TQID: https://experienceleague.adobe.com/5IcrHiiZw336nAlxRhiWlE2XfR-9TE7uj-cs6gW3xf4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
 subfeature_v2:
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
-source-wordcount: 2803
+workflow-type: tm+mt
+source-wordcount: '2851'
 ht-degree: 100%
-
 ---
-
 # Commencer pour les spécialistes du marketing {#acs-gs-marketers}
 
 Ce guide présente les principales fonctionnalités de Campaign v8 pour les spécialistes du marketing qui passent de Campaign Standard à Campaign v8.
@@ -92,7 +103,7 @@ Découvrez comment créer et gérer des audiences, comment sélectionner des aud
 
 Pour plus d’informations, voir [Commencer avec les audiences](../../v8/audience/manage-audience.md){target="_blank"}.
 
-Comme dans Campaign Standard, vous pouvez ajouter une population témoin à votre diffusion. Vous pouvez définir une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option permet de mesurer l’impact de votre campagne.
+Comme dans Campaign Standard, vous pouvez ajouter une population témoin à votre diffusion. Définissez une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option vous aide à mesurer l’impact de votre campagne.
 Découvrez comment [définir une population témoin](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
@@ -123,7 +134,7 @@ Vous pouvez gérer et créer vos services tels que les newsletters, ainsi que v�
 <img alt="Peu fréquent" src="assets/workflow-activities.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>Gérer les personnes abonnées<strong></strong></a>
+<a href="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>Gérer des personnes abonnées<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -201,8 +212,8 @@ Liens utiles :
 
 * **Planification** : vous pouvez définir la date et l’heure d’envoi exactes de vos messages. En choisissant l’heure la plus appropriée pour votre message marketing, vous pouvez optimiser les taux d’ouverture.
 
-   * Découvrir comment [planifier une diffusion autonome](../../v8/msg/gs-deliveries.md#gs-schedule)
-   * Découvrir comment [planifier une diffusion dans un workflow](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
+  * Découvrir comment [planifier une diffusion autonome](../../v8/msg/gs-deliveries.md#gs-schedule)
+  * Découvrir comment [planifier une diffusion dans un workflow](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
 * **Ajouter des offres** : vous pouvez ajouter des offres à vos diffusions dans l’interface d’utilisation d’Adobe Campaign Web. Ces offres sont disponibles à partir du menu de gauche Offres qui vous permet d’accéder à la liste des offres.  Découvrir comment [ajouter des offres à vos messages](../../v8/msg/offers.md)
 

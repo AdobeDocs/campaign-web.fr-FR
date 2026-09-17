@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: bccd04f1-d4f2-474c-89eb-c0b1087a3946
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
-
 ---
-
 # URL et flux de clics{#urls-and-click-streams}
 
 Le rapport **URL et flux de clics** affiche les URL ayant obtenu le plus de clics lors d&#39;une diffusion, ou plusieurs diffusions si elles sont liées à une campagne ou un programme.

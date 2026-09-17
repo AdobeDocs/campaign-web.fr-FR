@@ -5,12 +5,10 @@ level: Beginner
 audience: end-user
 exl-id: 9fcef466-f306-480e-b42e-d18daa8bcf06
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
-
 ---
-
 # Accord sur l&#39;utilisation des rapports dynamiques {#pii-agreement}
 
 L’accord sur l’utilisation des rapports dynamiques fonctionne comme un consentement pop-up pour le traitement des données. Par défaut, seuls les utilisateurs et utilisatrices auxquels sont affectés des droits d’administration peuvent afficher et accepter ou refuser cet accord.
@@ -30,7 +28,7 @@ Le tableau ci-dessous indique ce qui se passe après l’acceptation de cet acco
 |  | Rapports dynamiques | Connecteur Microsoft Dynamics 365 |
 |---|---|---|
 | Amériques et Asie-Pacifique | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et prêtes à l’emploi (c’est-à-dire ville, pays/région, État, genre et segments selon l’âge) sont transmises au centre de reporting des États-Unis. | **Fonctionnalité disponible**. <br>Tous les champs de profil personnalisés et prêts à l’emploi, ainsi que les champs d’événement Adobe Campaign, sont traités dans le centre de données des États-Unis. |
-| EMEA (Europe, Moyen-Orient et Afrique) | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et prêtes à l’emploi (c’est-à-dire ville, pays/région, État, genre et segments selon l’âge) sont transmises au centre de reporting EMEA. | **Fonctionnalité disponible.** <br>Tous les champs de profil personnalisés et prêts à l’emploi, ainsi que les champs d’événement Adobe Campaign, sont traités dans le centre de données EMEA.Les <br>**[!UICONTROL données de contrôle ]**qui contiennent les données d&#39;enregistrement Adobe I/O et les identifiants des événements utilisateur des clients sont envoyés et stockés dans le centre de données des Etats-Unis. |
+| EMEA (Europe, Moyen-Orient et Afrique) | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et prêtes à l’emploi (c’est-à-dire ville, pays/région, État, genre et segments selon l’âge) sont transmises au centre de reporting EMEA. | **Fonctionnalité disponible.** <br>Tous les champs de profil personnalisés et prêts à l’emploi, ainsi que les champs d’événement Adobe Campaign, sont traités dans le centre de données EMEA. Les <br>**[!UICONTROL données de contrôle ]**qui contiennent les données d&#39;enregistrement Adobe I/O et les identifiants des événements utilisateur des clients sont envoyés et stockés dans le centre de données des Etats-Unis. |
 
 Le tableau ci-dessous indique ce qui se passe après le refus de cet accord selon votre zone géographique. Notez que même si vous refusez cet accord, le reporting sur les diffusions et l&#39;intégration de Microsoft Dynamics 365 sera toujours disponible.
 

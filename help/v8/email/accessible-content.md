@@ -10,22 +10,26 @@ exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1687
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '1690'
+ht-degree: 97%
 ---
-
 # Concevoir du contenu accessible {#accessible-content}
 
 La [loi européenne sur l’accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} est une directive visant à renforcer le marché intérieur des produits et services accessibles en éliminant les obstacles dus aux différences entre les règles nationales des États membres.
@@ -38,6 +42,7 @@ En conséquence, les bonnes pratiques pour concevoir un contenu accessible avec 
 
 Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos landing pages conçus avec [!DNL Adobe Campaign].
  
+
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
@@ -59,8 +64,8 @@ Pour les polices et le texte, suivez les instructions ci-dessous :
 
 **Contraste des couleurs**
 
-* Conservez un rapport de contraste d’au moins 4,5 :1 entre le texte et l’arrière-plan.
-* Pour un texte volumineux (≥24 px ou 18 px en gras), assurez-vous d’avoir un contraste d’au moins 3 :1.
+* Conservez un rapport de contraste d’au moins 4,5:1 entre le texte et l’arrière-plan.
+* Pour un texte volumineux (≥24 px ou 18 px en gras), assurez-vous d’avoir un contraste d’au moins 3:1.
 * Évitez le texte gris clair ou pastel sur fond blanc.
 * Ne vous fiez pas uniquement à la couleur pour donner du sens, mais utilisez plutôt des soulignements, des icônes, etc.
 
@@ -102,7 +107,7 @@ Utilisez le composant **[!UICONTROL Image]** pour fournir un texte secondaire po
 Pour un texte secondaire efficace dans les produits numériques, suivez les directives ci-dessous :
 
 * Décrivez l’objectif de l’image de manière concise et contextuelle.
-* Évitez les expressions redondantes telles que « Image de… »et utilisez du texte de remplacement vide pour les images décoratives.
+* Évitez les expressions redondantes telles que « Image de… » et utilisez du texte de remplacement vide pour les images décoratives.
 * Pour les icônes significatives, fournissez des libellés significatifs. Pour les images complexes, utilisez un bref texte de remplacement ainsi qu’une description plus longue ailleurs.
 
 ## Utiliser un format lisible {#readable-format}
@@ -136,7 +141,7 @@ Pour vérifier l’accessibilité de votre contenu, vous pouvez utiliser les fon
 
 * Utilisez l’option [Rendu des e-mails](../preview-test/email-rendering.md) qui utilise Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir si le texte, les couleurs et les images rendent votre contenu accessible. <!--Litmus includes accessibility testing-->
 
-* Validez la qualité de votre contenu pour évaluer la lisibilité, qui est un composant essentiel de l’accessibilité.[En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
+* Validez la qualité de votre contenu pour évaluer la lisibilité, qui est un composant essentiel de l’accessibilité. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality)
 
 * Envoyez des BAT pour tester le rendu de votre contenu avant de l’envoyer à votre audience réelle. [Voici comment procéder](../preview-test/test-deliveries.md)
 
@@ -237,7 +242,7 @@ Ajoutez des `role="presentation"` (ou des `role="none"`) aux tableaux de disposi
 ```
 
 Les lecteurs d’écran lisent :
-« Bonjour le monde.Bienvenue dans notre newsletter. » *(Aucune mention de lignes, colonnes ou tableau)*
+« Bonjour le monde. Bienvenue dans notre newsletter. » *(Aucune mention de lignes, colonnes ou tableau)*
 
 +++
 
@@ -320,7 +325,7 @@ Les lecteurs d’écran lisent :
 ```
 
 Les lecteurs d’écran lisent :
-« Lien, cliquez ici. »*(Ne fournit aucun contexte en dehors de l’ordre de lecture)*
+« Lien, cliquez ici. » *(Ne fournit aucun contexte en dehors de l’ordre de lecture)*
 
 +++
 
@@ -338,40 +343,40 @@ La prise en charge de la navigation au clavier et du focus clavier permet aux pe
 
 * Focus via le clavier
 
-   * Assurez-vous que tous les éléments interactifs (tels que les boutons, cases à cocher, liens) ont `tabindex="0"` afin qu’ils soient inclus dans l’ordre de tabulation naturel.
+  * Assurez-vous que tous les éléments interactifs (tels que les boutons, cases à cocher, liens) ont `tabindex="0"` afin qu’ils soient inclus dans l’ordre de tabulation naturel.
 
-   * Autorisez la navigation à l’aide de la touche de tabulation et des touches fléchées (↑ ↓ ← →), qui doivent mettre en surbrillance de manière visible l’élément sélectionné.
+  * Autorisez la navigation à l’aide de la touche de tabulation et des touches fléchées (↑ ↓ ← →), qui doivent mettre en surbrillance de manière visible l’élément sélectionné.
 
 * Style de focus personnalisé
 
-   * Appliquez des styles clairs et distinctifs pour le focus sur les éléments interactifs :
+  * Appliquez des styles clairs et distinctifs pour le focus sur les éléments interactifs :
 
-     +++Exemple (CSS)
+    +++Exemple (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * Assurez-vous que les indicateurs de focus respectent les normes d’apparence de focus WCAG 2.2, notamment :
+  * Assurez-vous que les indicateurs de focus respectent les normes d’apparence de focus WCAG 2.2, notamment :
 
-      * Surface minimale : contour de 2 pixels CSS d’épaisseur.
+    * Surface minimale : contour de 2 pixels CSS d’épaisseur.
 
-      * Rapport de contraste : ≥ 3:1 entre l’état de focus et hors focus.
+    * Rapport de contraste : ≥ 3:1 entre l’état ciblé et non ciblé.
 
 * Prise en charge de l’activation au clavier
 
-   * Assurez-vous que les cases à cocher et les boutons répondent aux touches Entrée et Espace.
+  * Assurez-vous que les cases à cocher et les boutons répondent aux touches Entrée et Espace.
 
-   * Validez l’interaction à l’aide du clavier uniquement :
+  * Validez l’interaction à l’aide du clavier uniquement :
 
-      * Les touches Entrée ou Espace doivent activer/désactiver les cases à cocher.
+    * Les touches Entrée ou Espace doivent activer/désactiver les cases à cocher.
 
-      * Les touches Entrée ou Espace doivent déclencher l’action des boutons.
+    * Les touches Entrée ou Espace doivent déclencher l’action des boutons.

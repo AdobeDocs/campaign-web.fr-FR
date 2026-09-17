@@ -7,17 +7,18 @@ exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 TQID: https://experienceleague.adobe.com/2iCdY2zsGGy6us4VqszVNGpB1LeVmtZ2D1jKImBUuMA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 266
+workflow-type: tm+mt
+source-wordcount: '268'
 ht-degree: 100%
-
 ---
-
 # Commencer avec les landing pages {#get-sarted-lp}
 
 [!DNL Adobe Campaign] vous permet de créer, concevoir et partager des landing pages.
@@ -38,12 +39,13 @@ Les principales fonctionnalités des landing pages sont répertoriées ci-dessou
 * Utilisez le contenu des fonctionnalités de conception d’[!DNL Adobe Campaign] pour créer facilement des **landing pages réactives**. [En savoir plus](lp-content.md)
 * Configurez des **flux d’abonnement et de désabonnement** rapidement et facilement. [En savoir plus](lp-use-cases.md)
 * Créez des services d’abonnement pour permettre aux utilisateurs et aux utilisatrices de **s’abonner à un service**. [En savoir plus](lp-use-cases.md#lp-subscription)
-* Offrez à vos personnes destinataires la **possibilité de se désabonner** de vos communications. [En savoir plus](lp-use-cases.md#lp-unsubscription)  <!--Send a **confirmation email** upon opt-in or opt-out.-->
+* Offrez à vos personnes destinataires la **possibilité de se désabonner** de vos communications. [En savoir plus](lp-use-cases.md#lp-unsubscription)
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Créer des pages de destination à l’aide de modèles préremplis" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Créer des landing pages à l’aide de modèles préremplis" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>Créer des landing pages</strong>
 </div>
@@ -70,7 +72,9 @@ Les principales fonctionnalités des landing pages sont répertoriées ci-dessou
 <a href="lp-use-cases.md">
 <img alt="Cas d’utilisation de pages de destination et modèles intégrés" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
-<div><a href="lp-use-cases.md"><strong>Cas d’utilisation de pages de destination</strong></a></div>
+<div>
+<a href="lp-use-cases.md"><strong>Cas d’utilisation de pages de destination</strong></a>
+</div>
 <p>
 </td>
 </tr></table>

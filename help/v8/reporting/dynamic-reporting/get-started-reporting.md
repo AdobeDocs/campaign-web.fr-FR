@@ -5,12 +5,10 @@ audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
 source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
-
 ---
-
 # Prise en main de la création de rapports dynamiques {#get-started-reporting}
 
 >[!AVAILABILITY]

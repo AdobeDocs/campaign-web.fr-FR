@@ -5,15 +5,15 @@ exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 TQID: https://experienceleague.adobe.com/ArGP0QngUR7EiLAsdQb6FcneQ1fj4vcna40-tVEMXwE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: ht
-source-wordcount: 865
+workflow-type: tm+mt
+source-wordcount: '865'
 ht-degree: 100%
-
 ---
-
 # Forum aux questions
 
 La section suivante répertorie les questions fréquentes sur la nouvelle interface de Campaign. Vous avez d’autres questions ? Voulez-vous partager votre expérience ou échanger des idées avec vos pairs ? Ou avez-vous à formuler des commentaires concernant le contenu de formation pour l&#39;équipe d&#39;Adobe ? Rejoignez la conversation dans la [communauté d’Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=fr){target="_blank"}.

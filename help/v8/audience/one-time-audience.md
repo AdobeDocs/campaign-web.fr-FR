@@ -6,15 +6,15 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 TQID: https://experienceleague.adobe.com/96G-USwsSAOJUSeXTpgpCTgeCNfwgIBHorvcxvObcuw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 251
+workflow-type: tm+mt
+source-wordcount: '251'
 ht-degree: 100%
-
 ---
-
 # Créer une audience ponctuelle {#one-time}
 
 Cette section explique comment créer une audience lors de la création d’une nouvelle diffusion. Dans ce scénario, les profils inclus dans l’audience de diffusion sont ciblés en interrogeant la base de données à l’aide du concepteur de requête. L’audience obtenue est utilisée une seule fois pour cette diffusion et n’est pas enregistrée dans la liste des audiences.

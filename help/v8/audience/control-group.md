@@ -6,13 +6,12 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 TQID: https://experienceleague.adobe.com/8MWtEgcsPZRYWGan5rJfho6HVt5KqUySGJMG6sUjIkA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 800
+workflow-type: tm+mt
+source-wordcount: '800'
 ht-degree: 100%
-
 ---
-
 # Définir une population témoin {#control-group}
 
 Une population témoin est une sous-population exclue de la diffusion. Définissez une population témoin pour éviter d’envoyer des messages à une partie de votre audience et pour comparer le comportement de la cible principale après la diffusion. Cette option permet de mesurer l’impact de votre campagne.

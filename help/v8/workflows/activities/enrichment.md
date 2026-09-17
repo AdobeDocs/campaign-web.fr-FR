@@ -6,17 +6,18 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 TQID: https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
-workflow-type: ht
-source-wordcount: 2327
+workflow-type: tm+mt
+source-wordcount: '2370'
 ht-degree: 100%
-
 ---
-
 # Enrichissement {#enrichment}
 
 >[!CONTEXTUALHELP]
@@ -28,15 +29,15 @@ L’activité **Enrichissement** est une activité de **ciblage**. Elle amélior
 
 >[!NOTE]
 >
->L’activité **Créer une audience** (type de requête) prend également en charge les **données d’enrichissement**.Consultez [En savoir plus](build-audience.md#build-audience-configuration).
+>L’activité **Créer une audience** (type de requête) prend également en charge les **données d’enrichissement**. Consultez [En savoir plus](build-audience.md#build-audience-configuration).
 
 Les données d’enrichissement tirent leur origine des sources suivantes :
 
 * **La même table de travail** que celle ciblée dans votre workflow :
-   * Ciblez un groupe de clientes et de clients et ajoutez le champ « Date de naissance » à la table de travail actuelle.
+  * Ciblez un groupe de clientes et de clients et ajoutez le champ « Date de naissance » à la table de travail actuelle.
 
 * **Une autre table de travail** :
-   * Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat ».
+  * Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat ».
 
 Une fois que les données d’enrichissement ont été ajoutées au workflow, elles peuvent être utilisées dans les activités suivantes pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Elles peuvent également être utilisées pour créer des messages et des campagnes marketing personnalisés qui résonnent auprès de votre audience cible.
 
@@ -62,7 +63,7 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 >title="Activité Enrichissement"
 >abstract="Une fois que les données d’enrichissement ont été ajoutées au workflow, vous pouvez les utiliser dans les activités suivantes pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins ou pour créer des messages et des campagnes marketing personnalisés qui résonneront auprès de votre audience cible."
 
-La section **Données d’enrichissement** est disponible dans les activités **Enrichissement** et **Créer une audience** (type requête).Elle permet d’enrichir les données ciblées avec des informations supplémentaires issues de la base de données, comme des références de contrat ou des abonnements à la newsletter.Ces données sont stockées avec l’audience dans la **table de travail** de workflows et sont disponibles pour les activités suivantes.Vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection ou des expressions et accéder à des options avancées.
+La section **Données d’enrichissement** est disponible dans les activités **Enrichissement** et **Créer une audience** (type requête). Elle permet d’enrichir les données ciblées avec des informations supplémentaires issues de la base de données, comme des références de contrat ou des abonnements à la newsletter. Ces données sont stockées avec l’audience dans la **table de travail** de workflows et sont disponibles pour les activités suivantes. Vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection ou des expressions et accéder à des options avancées.
 
 Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour l’enrichissement. [Découvrez comment sélectionner des attributs et les ajouter aux favoris](../../get-started/attributes.md).
 
@@ -77,7 +78,7 @@ Vous pouvez sélectionner deux types de données d’enrichissement : un attrib
 
 ![Copie d’écran affichant l’écran de sélection des données d’enrichissement](../assets/workflow-enrichment1.png)
 
-Après avoir ajouté au moins un attribut d’enrichissement, cliquez sur **[!UICONTROL Paramètres avancés]** pour configurer la manière dont les données d’enrichissement sont créées, y compris le regroupement, la déduplication, la gestion des clés primaires et les données d’événement entrant.Ces options reflètent la console cliente et sont destinées aux scénarios de workflow avancés.
+Après avoir ajouté au moins un attribut d’enrichissement, cliquez sur **[!UICONTROL Paramètres avancés]** pour configurer la manière dont les données d’enrichissement sont créées, y compris le regroupement, la déduplication, la gestion des clés primaires et les données d’événement entrant. Ces options reflètent la console cliente et sont destinées aux scénarios de workflow avancés.
 
 ![Copie d’écran affichant les paramètres avancés de l’enrichissement](../assets/workflow-query-advanced-parameters.png)
 
@@ -210,8 +211,8 @@ Vous pouvez maintenant utiliser l’offre dans l’activité de diffusion.
 
 Dans un workflow, si vous souhaitez utiliser les offres que vous obtenez d’une activité Enrichissement dans votre diffusion, procédez comme suit :
 
-1. Ouvrez l’activité de diffusion et accédez à l’édition de contenu. Cliquez sur le bouton **[!UICONTROL Paramètres des offres]** et sélectionnez l’**[!UICONTROL Espace d’offres]** correspondant à votre offre dans la liste déroulante.
-Si vous souhaitez afficher uniquement les offres de l’activité Enrichissement, définissez le nombre de **[!UICONTROL Propositions]** sur 0, puis enregistrez les modifications.
+1. Ouvrez l’activité de diffusion et lancez la modification de contenu. Cliquez sur le bouton **[!UICONTROL Paramètres des offres]** et sélectionnez dans la liste déroulante l’**[!UICONTROL Emplacement]** correspondant à votre offre.
+Si vous souhaitez afficher uniquement les offres de l’activité Enrichissement, définissez le nombre de **[!UICONTROL Propositions]** sur 0, puis enregistrez les modifications.
 
    ![](../assets/offers-settings.png)
 

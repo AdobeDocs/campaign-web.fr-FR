@@ -7,12 +7,10 @@ role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
-
 ---
-
 # Utiliser GenStudio for Performance Marketing {#genstudio}
 
 >[!CONTEXTUALHELP]

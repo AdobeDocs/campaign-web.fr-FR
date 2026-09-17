@@ -6,15 +6,15 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 734
-ht-degree: 98%
-
+source-wordcount: '734'
+ht-degree: 100%
 ---
-
 # Configurer le contenu de l’e-mail {#edit-content}
 
 >[!CONTEXTUALHELP]
@@ -113,7 +113,7 @@ Pour configurer ou modifier le contenu d’un e-mail, procédez comme suit.
    * [Rédiger des e-mails à partir de zéro](create-email-content.md)
    * [Donner un style à votre contenu](get-started-email-style.md)
 
-1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez la désactiver ou configurer le tracking des ouvertures à partir de l&#39;onglet **[!UICONTROL Paramètres]** > **[!UICONTROL Tracking]** de la diffusion. [En savoir plus](../advanced-settings/delivery-settings.md#tracking-tab). [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
+1. Par défaut, le tracking est activé pour la diffusion. Vous pouvez le désactiver ou configurer le tracking des ouvertures à partir de l’onglet **[!UICONTROL Paramètres]** > **[!UICONTROL Tracking]** de la diffusion. [En savoir plus](../advanced-settings/delivery-settings.md#tracking-tab). [Découvrez comment ajouter des liens et gérer le tracking.](message-tracking.md)
 
 1. Une fois le contenu de votre e-mail défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier la manière dont il s’affichera avant de l’envoyer. Vous pouvez également valider la qualité de votre contenu pour évaluer la lisibilité, l’efficacité CTA et la qualité globale. [En savoir plus sur la validation de la qualité du contenu](../content/brands-score.md#validate-quality).
 

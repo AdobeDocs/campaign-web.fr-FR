@@ -6,13 +6,12 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 88%
-
+source-wordcount: '837'
+ht-degree: 100%
 ---
-
 # Utiliser des dossiers {#folders}
 
 >[!CONTEXTUALHELP]
@@ -49,11 +48,11 @@ Vous pouvez configurer un type de dossier. Par exemple, un dossier de diffusions
 >
 >Les dossiers **[!UICONTROL Objets créés automatiquement]** et **[!UICONTROL Workflows techniques]** sont restreints et ne peuvent pas être affichés dans le panneau de gauche.
 
-Les actions disponibles pour vous sur un dossier dépendent des droits qui vous ont été accordés sur celui-ci. La boîte de dialogue **[!UICONTROL Paramètres du dossier]** peut s’ouvrir en **mode lecture seule** et certaines actions ou sections peuvent ne pas être disponibles, selon vos droits.
+Les actions à votre disposition dans un dossier dépendent des droits qui vous ont été accordés sur celui-ci. La boîte de dialogue **[!UICONTROL Paramètres du dossier]** peut s’ouvrir en **mode lecture seule** et certaines actions ou sections peuvent ne pas être disponibles, selon vos droits.
 
-Contactez votre administrateur si vous ne disposez pas des droits sur un dossier. Reportez-vous à cette [section](permissions.md#folder-permissions) pour savoir comment les autorisations de dossiers sont gérées.
+Contactez votre administrateur ou administratrice si vous ne disposez pas de droits sur un dossier. Reportez-vous à cette [section](permissions.md#folder-permissions) pour savoir comment les autorisations de dossiers sont gérées.
 
-Les droits nommés **[!UICONTROL Insérer des dossiers]**, **[!UICONTROL Modifier des dossiers]** et **[!UICONTROL Supprimer un dossier]** déterminent également les actions de dossier disponibles pour un opérateur. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=fr#use-named-rights){target="_blank"}.
+Les droits nommés tels que **[!UICONTROL Insertion des dossiers]**, **[!UICONTROL Edition des dossiers]** et **[!UICONTROL Suppression des dossiers]** déterminent également les actions de dossier disponibles pour un opérateur ou une opératrice. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=fr#use-named-rights){target="_blank"}.
 
 ## Créer un dossier {#create-a-folder}
 

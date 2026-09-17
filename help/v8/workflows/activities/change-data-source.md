@@ -6,13 +6,12 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 TQID: https://experienceleague.adobe.com/fJB0PL8T0B6A8aIFuLp8prh6-l28GQACQT91YR8hrBo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 395
+workflow-type: tm+mt
+source-wordcount: '395'
 ht-degree: 100%
-
 ---
-
 # Modifier la source de données {#change-data-source}
 
 >[!CONTEXTUALHELP]

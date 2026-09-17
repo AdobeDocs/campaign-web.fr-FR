@@ -6,16 +6,17 @@ exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 TQID: https://experienceleague.adobe.com/L-EicaQ7CH2Glyh-Ikx6d0skrx5vh-lDoA8D4ziH06E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 198
+workflow-type: tm+mt
+source-wordcount: '198'
 ht-degree: 100%
-
 ---
-
 # Créer la version texte d’un e-mail {#text-version-email}
 
 Nous vous recommandons de créer une version texte du corps de votre e-mail, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.

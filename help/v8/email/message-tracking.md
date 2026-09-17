@@ -6,13 +6,12 @@ exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 TQID: https://experienceleague.adobe.com/0cPQ1ZElguYmeDUybrkRyzW0l-ZXxoxSdQTesjPLrps
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 571
+workflow-type: tm+mt
+source-wordcount: '571'
 ht-degree: 100%
-
 ---
-
 # Ajouter des liens et tracker les messages {#tracking}
 
 Utilisez le Concepteur d’e-mail pour ajouter des liens à votre contenu et tracker les messages envoyés afin de surveiller le comportement de vos destinataires.

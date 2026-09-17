@@ -6,15 +6,15 @@ exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 TQID: https://experienceleague.adobe.com/2NWIVbSKxC619uzgluzJc5spx3eThohYBbJzrXWjyeI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 545
+workflow-type: tm+mt
+source-wordcount: '545'
 ht-degree: 100%
-
 ---
-
 # Rapports de campagne de canal de notification push {#campaign-reports-push-channel}
 
 Chaque rapport de campagne est divisé en différents widgets qui détaillent le succès et les erreurs de votre campagne. Pour le canal de notification push, les mesures et les rapports sont détaillés ci-dessous. Découvrez comment accéder aux rapports de campagne sur [cette page](campaign-reports.md).

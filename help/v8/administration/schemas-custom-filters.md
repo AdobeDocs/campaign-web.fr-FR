@@ -5,15 +5,13 @@ exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 65%
-
+ht-degree: 100%
 ---
-
 # Ajouter des filtres personnalisés {#custom-filters}
 
 La section **[!UICONTROL Configuration de la liste d’inventaire]** > **[!UICONTROL Filtres personnalisés]** vous permet de choisir les attributs qui s’affichent en tant que champs d’accès rapide dans le volet [Filtres](../query/filter.md) de la vue Liste d’un schéma, au-dessus du créateur de règles de **[!UICONTROL Filtres avancés]**.
 
-Pour plus d’informations sur la définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
+Pour plus d’informations sur l’écran de définition d’écran et la façon d’y accéder, consultez la section [Accéder à la définition d’écran](schemas-browse-access.md#screen-def).
 
 ## Ajouter des filtres personnalisés {#add}
 
@@ -35,7 +33,7 @@ Pour plus d’informations sur la définition d’écran et la façon d’y acc�
 
    ![Sélecteur d’attributs affichant les attributs directs et les sous-attributs de lien](assets/schemas-custom-filters2.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**. Vous pouvez réorganiser les filtres personnalisés à l’aide des flèches vers le haut et vers le bas ou en les faisant glisser. Pour supprimer un filtre, cliquez sur l’icône représentant des points de suspension sur sa ligne et sélectionnez **[!UICONTROL Supprimer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**. Vous pouvez réorganiser les filtres personnalisés à l’aide des flèches vers le haut et vers le bas ou en les faisant glisser. Pour supprimer un filtre, cliquez sur l’icône des points de suspension sur sa ligne et sélectionnez **[!UICONTROL Supprimer]**.
 
 1. Accédez à la liste des enregistrements de ce schéma et ouvrez le volet Filtres. Les attributs que vous avez sélectionnés s’affichent sous la forme de **[!UICONTROL Filtres personnalisés]**, au-dessus du créateur de règles de **[!UICONTROL Filtres avancés]**.
 
@@ -49,18 +47,18 @@ Pour plus d’informations sur la définition d’écran et la façon d’y acc�
 
 ## Limiter les valeurs d’un filtre personnalisé de type lien {#settings}
 
-Dans le cas d’un filtre personnalisé basé sur un attribut de lien, vous pouvez restreindre les valeurs disponibles dans le sélecteur.
+Dans le cas d’un filtre personnalisé basé sur un attribut de lien, vous pouvez limiter les valeurs disponibles dans le sélecteur.
 
 >[!NOTE]
 >
 >L’option **[!UICONTROL Modifier]** décrite ci-dessous n’est disponible que pour les filtres personnalisés basés sur un attribut de lien. Les filtres personnalisés basés sur d’autres types d’attributs peuvent uniquement être réorganisés ou supprimés.
 
-1. Sur la ligne d’un filtre personnalisé de type lien, cliquez sur l’icône représentant des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
+1. Sur la ligne d’un filtre personnalisé de type lien, cliquez sur l’icône des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
 
    ![Option d’édition sur un filtre personnalisé de type lien](assets/schemas-custom-filters4.png)
 
-1. Dans l’onglet **[!UICONTROL Paramètres de filtre]**, cliquez sur **[!UICONTROL Modifier le filtre]** et utilisez le modéliseur de requête pour définir une condition qui limite les valeurs disponibles dans le sélecteur. Par exemple, limitez un filtre de diffusion aux diffusions utilisant le canal e-mail.
+1. Dans l’onglet **[!UICONTROL Paramètres de filtre]**, cliquez sur **[!UICONTROL Modifier le filtre]** et utilisez le concepteur de requête pour définir une condition qui limite les valeurs disponibles dans le sélecteur. Par exemple, limitez un filtre de diffusion aux diffusions utilisant le canal e-mail.
 
-   ![Onglet Paramètres de filtre dans la boîte de dialogue Paramètres de lien](assets/schemas-custom-filters5.png)
+   ![Onglet Paramètres de filtre dans la boîte de dialogue Paramètres du lien](assets/schemas-custom-filters5.png)
 
 1. Validez vos modifications.

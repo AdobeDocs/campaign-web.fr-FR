@@ -6,15 +6,15 @@ exl-id: 4a24792f-b9f4-4224-b3a8-75f6969b64da
 TQID: https://experienceleague.adobe.com/YWPUl-Uc62k2YII-60Thm6B2ZuXDMPNjVogjTWKyeTY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 293
+workflow-type: tm+mt
+source-wordcount: '293'
 ht-degree: 100%
-
 ---
-
 # Valider des messages transactionnels
 
 Pendant ou après la création de votre message transactionnel, vous pouvez valider le contenu à l’aide d’un exemple de données.

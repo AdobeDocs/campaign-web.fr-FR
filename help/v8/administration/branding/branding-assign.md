@@ -7,12 +7,10 @@ role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 100%
-
 ---
-
 # Attribuer votre marque {#branding-assign}
 
 ## Associer une marque à un modèle {#linking-a-brand-to-a-template}

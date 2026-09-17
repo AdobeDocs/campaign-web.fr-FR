@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: cf086a57-dd70-41bc-a039-4070cecc3a66
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 100%
-
 ---
-
 # Débit des diffusions{#delivery-throughput}
 
 Ce rapport regroupe les informations relatives au débit de diffusion d&#39;un envoi, ou de plusieurs envois. Ces données sont :

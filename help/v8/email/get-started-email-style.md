@@ -6,13 +6,12 @@ exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 TQID: https://experienceleague.adobe.com/QNNQ7G1fQWZqgylyz0MgLLCNctz42vya4fJ9rygUE-8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 120
+workflow-type: tm+mt
+source-wordcount: '120'
 ht-degree: 100%
-
 ---
-
 # Prise en main du style des e-mails {#get-started-email-style}
 
 Une fois que vous avez commencé à créer le contenu de votre e-mail dans [!DNL Adobe Campaign], vous pouvez ajuster un certain nombre de paramètres et d’attributs de style dans le volet Paramètres du concepteur d’e-mail.

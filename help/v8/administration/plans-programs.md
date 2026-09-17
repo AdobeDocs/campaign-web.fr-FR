@@ -6,18 +6,20 @@ exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 TQID: https://experienceleague.adobe.com/FSiHCjupRlS0zoI9HPdcU--Y2PZot5fQOzWICwmV-oQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 640
-ht-degree: 63%
-
+source-wordcount: '640'
+ht-degree: 100%
 ---
-
 # Plans et programmes {#plan-and-programs}
 
 Adobe Campaign permet de configurer la hiérarchie des dossiers des plans marketing et des programmes.
@@ -60,31 +62,31 @@ Configurez les options personnalisées :
 
 ## Créer et configurer un programme {#create-program}
 
-Les programmes sont disponibles à partir du menu de navigation de gauche, comme les vues Liste pour les campagnes, les diffusions et les workflows. L’entrée **[!UICONTROL Programmes]** vous permet de créer un programme au sein d’un programme existant, et non d’un plan.
+Les programmes sont disponibles à partir du menu de navigation de gauche, comme les vues de listes pour les campagnes, les diffusions et les workflows. L’entrée **[!UICONTROL Programmes]** vous permet de créer un programme au sein d’un programme existant, et non d’un plan.
 
-Pour créer votre premier programme de niveau supérieur dans un plan, accédez à votre plan dans l’Explorateur (voir cette [section](#create-plan)), puis créez un dossier avec le type de dossier **[!UICONTROL Program]**. [En savoir plus sur la création d’un dossier](../get-started/work-with-folders.md).
+Pour créer votre premier programme de niveau supérieur dans un plan, accédez à votre plan dans l’Explorateur (voir cette [section](#create-plan)), et créez un dossier avec le type de dossier **[!UICONTROL Programme]**. [En savoir plus sur la création d’un dossier](../get-started/work-with-folders.md).
 
-Pour créer un programme dans un programme existant, procédez comme suit :
+Pour créer un programme au sein d’un programme existant, procédez comme suit :
 
-1. Accédez à l’entrée **[!UICONTROL Programmes]** dans le menu de navigation de gauche. Cette vue répertorie tous vos programmes et vous permet de rechercher et de filtrer. Cliquez sur un programme pour l’ouvrir dans la vue Explorateur .
+1. Accédez à l’entrée **[!UICONTROL Programmes]** dans le menu de navigation de gauche. Cette vue répertorie tous vos programmes et vous permet de rechercher et de filtrer. Cliquer sur un programme l’ouvre dans la vue de l’explorateur.
 
-   ![Capture d’écran affichant la vue Liste du programme](assets/program_view.png){zoomable="yes"}
+   ![Capture d’écran affichant la vue de liste des programmes](assets/program_view.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Créer un programme]** et configurez les options suivantes :
+1. Cliquez sur **[!UICONTROL Créer un programme]** et configurez les options suivantes :
 
    ![Capture d’écran affichant l’écran Créer un programme](assets/program_create.png){zoomable="yes"}
 
    * Saisissez un **[!UICONTROL Libellé]**.
    * Sélectionnez le programme existant à utiliser comme **[!UICONTROL dossier parent]**.
-   * Vous pouvez éventuellement définir une **[!UICONTROL Période]** dans la section **[!UICONTROL Planifier]**.
+   * Vous pouvez éventuellement définir une **[!UICONTROL Période]** dans la section **[!UICONTROL Planning]**.
 
    >[!TIP]
    >
-   >Si vous créez un programme à partir de la vue Explorateur, le dossier parent est automatiquement défini sur le programme actif.
+   >Si vous créez un programme à partir de la vue de l’explorateur, le dossier parent est automatiquement défini sur le programme actuel.
 
-1. Cliquez à nouveau sur **[!UICONTROL Créer un programme]** pour enregistrer les modifications et créer le programme. Le programme s’affiche alors dans la vue Explorateur . Vous pouvez le renommer, le supprimer et accéder à ses paramètres, comme pour tout autre dossier. Vous pouvez également créer des sous-programmes dans ce programme.
+1. Cliquez à nouveau sur **[!UICONTROL Créer un programme]** pour enregistrer les modifications et créer le programme. Le programme s’affiche alors dans la vue de l’explorateur. Vous pouvez le renommer, le supprimer et accéder à ses paramètres, comme pour tout autre dossier. Vous pouvez également créer des sous-programmes dans ce programme.
 
-   ![Capture d’écran affichant le programme dans la vue Explorateur](assets/program_explorer.png){zoomable="yes"}
+   ![Capture d’écran affichant le programme dans la vue de l’explorateur](assets/program_explorer.png){zoomable="yes"}
 
 Les options personnalisées d’un programme sont configurées de la même manière que pour un plan. Voir [Créer et configurer un plan](#create-plan).
 

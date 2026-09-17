@@ -6,15 +6,15 @@ exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 TQID: https://experienceleague.adobe.com/eIYGGNGkUw-wo4gXH98yQDlrFctGgW7jQSODv0BtkVI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 405
+workflow-type: tm+mt
+source-wordcount: '405'
 ht-degree: 100%
-
 ---
-
 # Prévisualiser et envoyer une diffusion par SMS {#send-sms-delivery}
 
 >[!CONTEXTUALHELP]
@@ -61,7 +61,7 @@ L’envoi de BAT est une étape importante pour garantir la qualité et l’effi
 
    ![Vérifier et envoyer une diffusion SMS](assets/sms_send_4.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Préparer]** et suivez la progression et les statistiques fournies.
+1. Cliquez sur **[!UICONTROL Préparer]** et suez la progression et les statistiques fournies.
 
    En cas d’erreur, reportez-vous au menu Logs pour obtenir des informations détaillées sur l’échec.
 

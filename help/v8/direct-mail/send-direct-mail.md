@@ -6,15 +6,15 @@ exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 TQID: https://experienceleague.adobe.com/iJ6Y5vUUQbBE-X5B8WVVkjBCiaO2v4PLWoRjp5-uEhU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 573
+workflow-type: tm+mt
+source-wordcount: '573'
 ht-degree: 100%
-
 ---
-
 # Prévisualiser et envoyer une diffusion par courrier {#send-direct-mail}
 
 Une fois que vous avez configuré le fichier d’extraction pour votre diffusion par courrier, utilisez des profils de test pour le prévisualiser. Si du contenu personnalisé est inclus, examinez comment ce contenu apparaît dans les colonnes à l’aide des données de profil de test. Cela permet de s’assurer que le contenu du fichier est correctement rendu et que les éléments personnalisés sont correctement intégrés.
@@ -61,7 +61,7 @@ Une fois que le courrier est prêt à être envoyé à votre clientèle, envoyez
 
    ![Capture d’écran montrant l’option Vérifier et envoyer dans la page de diffusion](assets/dm-review-send.png){zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Préparer]** et suivez la progression et les statistiques fournies.
+1. Cliquez sur **[!UICONTROL Préparer]** et suez la progression et les statistiques fournies.
 
    En cas d’erreur, reportez-vous au menu **[!UICONTROL Logs]** pour obtenir des informations détaillées sur l’échec.
 
