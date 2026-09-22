@@ -2,10 +2,10 @@
 title: Parcourir les schémas et y accéder
 description: Découvrez comment parcourir les schémas et y accéder dans l’interface.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '531'
+ht-degree: 83%
 ---
 # Accéder aux schémas et les configurer {#access}
 
@@ -62,3 +62,5 @@ Dans l’onglet Définition d’écran, vous pouvez :
 * [Modifier les champs personnalisés](schemas-custom-fields.md) : configurez les champs personnalisés qui s’affichent dans les écrans de détails et organisez-les en sections.
 * [Ajouter des listes de collections](schemas-collection-lists.md) : ajoutez des listes de collections pour afficher les données associées dans les écrans de profil.
 * [Actions de contrôle sur les données](schemas-action-data.md) - Restreignez les actions de création, de modification et de suppression des schémas personnalisés.
+
+Pour les schémas qui alimentent une ou plusieurs entrées dans le volet de navigation de gauche, telles que **nms:delivery** ou **xtk:workflow**, la définition d’écran affiche également une section **[!UICONTROL Accès au volet de navigation]**. Cochez la case **[!UICONTROL Supprimer l’accès au menu pour]** correspondant à une entrée de menu pour la masquer du volet de navigation de gauche, pour tous les utilisateurs de l’instance, quels que soient leurs droits d’accès individuels. Certains schémas alimentent plusieurs entrées de menu : par exemple, **nms:delivery** est partagé par les entrées **[!UICONTROL Diffusions]** et **[!UICONTROL Messages transactionnels]**. Une case à cocher s’affiche donc pour chacune d’elles.

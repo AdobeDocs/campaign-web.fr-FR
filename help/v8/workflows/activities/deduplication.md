@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '835'
+ht-degree: 82%
 ---
 # Déduplication {#deduplication}
 
@@ -69,10 +69,16 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 1. Sélectionnez la **méthode de déduplication** à utiliser :
 
-   * **Sélection aléatoire** : sélectionne au hasard parmi les doublons l’enregistrement à conserver.
-   * **À partir d’une expression** : conserve les enregistrements dont la valeur de l’expression renseignée est la plus petite ou la plus grande.
-   * **Valeurs non vides** : conserve les enregistrements pour lesquels l’expression n’est pas vide.
-   * **Par ordonnancement de valeurs** : définit un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attributs** pour sélectionner un champ ou créez une expression, puis ajoutez les valeurs dans le tableau correspondant. Cliquez sur le bouton **Ajouter** situé au-dessus de la liste des valeurs pour définir un nouveau champ.
+   * **[!UICONTROL Sélection aléatoire]** : sélectionne au hasard parmi les doublons l’enregistrement à conserver.
+   * **[!UICONTROL En utilisant une expression]** : conserve les enregistrements dont l&#39;expression renseignée a la plus petite ou la plus grande valeur. Saisissez l’**[!UICONTROL Expression]**, puis choisissez l’ordre **[!UICONTROL Tri]** : **[!UICONTROL Croissant (valeurs les plus petites en premier)]** ou **[!UICONTROL Décroissant (valeurs les plus grandes en premier)]**.
+   * **[!UICONTROL Valeur non vide]** : conserve les enregistrements pour lesquels l&#39;expression n&#39;est pas vide.
+   * **[!UICONTROL En suivant une liste de valeurs]** : définit la priorité de l&#39;enregistrement en faisant correspondre une ou plusieurs valeurs pour un attribut ou une expression. Cliquez sur **[!UICONTROL Ajouter un attribut]** pour ajouter un attribut. Pour chaque attribut :
+
+     * Dans le champ **[!UICONTROL Attribut]**, sélectionnez l’attribut ou créez une expression.
+     * Cliquez sur **[!UICONTROL Ajouter une valeur]** pour créer la liste ordonnée de valeurs à prioriser.
+     * Utilisez le menu déroulant **[!UICONTROL Trier pour d’autres valeurs]** pour choisir comment trier les valeurs qui ne figurent pas dans la liste, par exemple **[!UICONTROL Indifférent (aléatoire)]**.
+
+     Lorsque plusieurs attributs sont définis, le premier est utilisé comme critère de tri principal, et les attributs suivants agissent comme des disjoncteurs, dans l’ordre.
 
 1. Cochez l’option **Générer le complément** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
 

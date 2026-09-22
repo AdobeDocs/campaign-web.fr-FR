@@ -14,7 +14,7 @@ workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 100%
 ---
-# Chargement (SGBD) {#data-loading-rdbms}
+# Chargement de données (RDBMS) {#data-loading-rdbms}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_data_loading_rdbms"

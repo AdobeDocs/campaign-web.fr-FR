@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 100%
+source-wordcount: '918'
+ht-degree: 85%
 ---
 # Gérer les mappings de ciblage {#target-mappings}
 
@@ -64,6 +64,21 @@ Pour créer un mapping de ciblage, accédez au menu **[!UICONTROL Administration
 1. Dans la section **[!UICONTROL Propriétés]**, saisissez un **[!UICONTROL Libellé]** pour le mapping de ciblage.
 
 1. Développez la section **[!UICONTROL Options supplémentaires]** pour configurer les paramètres avancés, tels que le nom interne du mapping de ciblage, son dossier de stockage et sa description.
+
+1. Activez l’option **[!UICONTROL Mapping de ciblage pour les applications mobiles]** si vous ciblez des destinataires d’applications mobiles.
+
+   ![Écran des propriétés des mappings de ciblage affichant les options de population](assets/target-mappings-properties0.png)
+
+   Vous pouvez ensuite effectuer l’une des opérations suivantes :
+
+   * Laissez le champ **[!UICONTROL Schéma des applications abonnées existantes]** vide. Adobe Campaign génère automatiquement le schéma de stockage requis pour vous, en fonction du modèle du destinataire. Vous pouvez utiliser l’option **[!UICONTROL Spécifier des champs supplémentaires]** pour ajouter des champs personnalisés au schéma généré.
+   * Sélectionnez un schéma d’application d’abonné existant. Dans ce cas, l’option **[!UICONTROL Spécifier des champs supplémentaires]** est désactivée, puisque le schéma existe déjà, et les champs **[!UICONTROL Dimension de filtrage]** et **[!UICONTROL Dimension de ciblage]** sont automatiquement renseignés en fonction du schéma sélectionné.
+
+   Les mappings de ciblage mobiles utilisent toujours leurs propres schémas de stockage dédiés, avec les logs d&#39;exclusion stockés séparément. L&#39;option **[!UICONTROL Exclusions]**, décrite dans la section **[!UICONTROL Stockage]** ci-dessous, ne s&#39;applique pas aux mappings de ciblage mobiles.
+
+   >[!NOTE]
+   >
+   >Le suffixe de schéma ne peut pas contenir d’espaces.
 
 1. Sélectionnez la population cible. Vous pouvez, au choix :
 

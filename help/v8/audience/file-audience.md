@@ -10,10 +10,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '1012'
+ht-degree: 67%
 ---
 # Charger une audience d’e-mail à partir d’un fichier {#audience-from-file}
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 L’interface utilisateur d’Adobe Campaign Web vous permet de cibler des profils contenus dans un fichier externe. Une fois les profils chargés, tous les champs du fichier d’entrée peuvent être utilisés pour personnaliser votre diffusion. [Découvrez comment personnaliser votre contenu](../personalization/personalize.md).
 
-Les profils du fichier d’entrée ne sont pas ajoutés à la base de données. Ils sont chargés et disponibles uniquement pour cette diffusion par e-mail autonome spécifique.
+Vous pouvez choisir de charger uniquement les profils pour cette diffusion e-mail autonome spécifique, sans les ajouter à la base de données, ou de les importer et de les réconcilier dans la base de données. [En savoir plus](#upload).
 
 >[!NOTE]
 >
@@ -66,7 +66,61 @@ Pour cibler des profils à partir d’un fichier dans vos e-mails, procédez com
    ![Capture d’écran montrant la prévisualisation du mapping de données dans la section centrale](assets/select-from-file-map.png)
 
 1. Sélectionnez la colonne contenant l’adresse e-mail dans la liste déroulante **Champ d’adresse**. Vous pouvez également sélectionner la colonne de liste bloquée si vous disposez de ces informations dans le fichier d’entrée.
-1. Ajustez les paramètres des colonnes et définissez la mise en forme des données à l’aide des options disponibles.
+1. Dans la section **[!UICONTROL Colonnes]**, développez une colonne pour ajuster ses paramètres et définir le format des données à l’aide des options disponibles. Pour chaque colonne que vous souhaitez utiliser pour la réconciliation, utilisez **[!UICONTROL Sélectionner le champ de destination]** pour la mapper à un attribut de schéma de destinataire.
+
+1. Utilisez le bouton **[!UICONTROL Ne pas importer les destinataires dans la base de données]** pour contrôler si les profils du fichier sont importés et réconciliés dans la base de données. Si vous choisissez de les importer, une section **[!UICONTROL Mappage et réconciliation des champs]** s&#39;affiche. Configurez les paramètres suivants :
+
+   ![Capture d’écran montrant la prévisualisation du mapping de données dans la section centrale](assets/select-from-file-map2.png)
+
+   +++**[!UICONTROL Opération]**
+
+   Choisissez l&#39;action à effectuer sur la base de données :
+
+   * **[!UICONTROL Mise à jour ou insertion]** : met à jour l&#39;enregistrement s&#39;il existe dans la base de données et le crée dans le cas contraire.
+   * **[!UICONTROL Insertion]** : insère les enregistrements dans la base.
+   * **[!UICONTROL Mise à jour]** : met à jour uniquement les enregistrements existants.
+   * **[!UICONTROL Réconciliation seule]** : recherche l’enregistrement dans la base de données mais n’effectue aucune mise à jour.
+   * **[!UICONTROL Delete]** : supprime les enregistrements de la base de données.
+
+   +++
+
+   +++**[!UICONTROL Gestion des doublons]**
+
+   Choisissez comment gérer un enregistrement qui existe à la fois dans le fichier et dans la base de données :
+
+   * **[!UICONTROL Mise à jour]** (par défaut) : met à jour l&#39;enregistrement.
+   * **[!UICONTROL Rejeter l&#39;entité]** : l&#39;exclut et enregistre une erreur.
+   * **[!UICONTROL Ignorer]** : l&#39;exclut sans laisser de trace.
+
+   +++
+
+   +++**[!UICONTROL Gestion des doublons]**
+
+   Choisissez comment gérer un enregistrement qui apparaît plusieurs fois dans le fichier lui-même :
+
+   * **[!UICONTROL Mise à jour]** (par défaut) : ne déduplique pas ; le dernier enregistrement correspondant a la priorité.
+   * **[!UICONTROL Rejeter l&#39;entité]** : exclut les enregistrements en trop et enregistre une erreur.
+   * **[!UICONTROL Ignorer]** : exclut les enregistrements en trop sans laisser de trace.
+
+   +++
+
+   +++**[!UICONTROL Type de rejet]**
+
+   Choisissez comment gérer une erreur au niveau du champ lors de la réconciliation :
+
+   * **[!UICONTROL Ignorer mais générer un avertissement]** : importe tous les autres champs et enregistre l&#39;erreur.
+   * **[!UICONTROL Rejeter l&#39;élément parent]** : rejette l&#39;enregistrement entier.
+   * **[!UICONTROL Rejeter tous les éléments]** : arrête l&#39;import et rejette tout.
+
+   +++
+
+   +++**[!UICONTROL Champs de clé de réconciliation]**
+
+   Dans la section **[!UICONTROL Colonnes]**, vous avez mappé certaines colonnes à un champ de destination. Sélectionnez ici lequel de ces champs mappés doit être utilisé pour identifier un enregistrement.
+
+   +++
+
+1. Dans la section **[!UICONTROL Formatage]**, spécifiez le codage, le délimiteur de chaîne et le séparateur de colonne utilisés par le fichier.
 1. Cliquez sur **Confirmer** une fois que les paramètres sont corrects.
 
 Lors de la création du contenu du message, ajoutez de la personnalisation en utilisant les champs du fichier d’entrée. [Découvrir comment personnaliser le contenu](../personalization/personalize.md)
@@ -86,14 +140,12 @@ Lors du chargement d’un fichier externe pour cibler des profils dans vos diffu
 * La première ligne du fichier correspond à votre en-tête de colonne.
 * Choisissez le même format de fichier que celui de l’exemple de fichier ci-dessous :
 
-  ```javascript
-  {
+  ```
   lastname,firstname,city,birthdate,email,denylist
   Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
   Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
   Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
   Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-  }
   ```
 
 ## Prévisualiser et tester votre e-mail {#test}

@@ -15,9 +15,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '630'
 ht-degree: 100%
 ---
 # Plans et programmes {#plan-and-programs}
@@ -97,8 +97,6 @@ Vous pouvez lier une campagne à un programme de deux manières différentes :
 ### Méthode 1 : vous disposez déjà d’un programme et souhaitez créer une campagne qui lui est liée.
 
 Pour lier une nouvelle campagne à votre programme, créez directement la campagne dans le programme.
-
-![Capture d’écran montrant la création d’une campagne dans un programme](assets/program_campaign_create.png){zoomable="yes"}
 
 Les paramètres **[!UICONTROL Dossier]** seront automatiquement renseignés avec le chemin d’accès à votre programme.
 

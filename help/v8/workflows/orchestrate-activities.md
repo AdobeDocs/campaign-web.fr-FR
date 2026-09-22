@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrp
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 100%
+source-wordcount: '1791'
+ht-degree: 96%
 ---
 # Orchestrer les activités {#orchestrate}
 
@@ -48,6 +48,12 @@ La barre d’outils, située dans le coin supérieur droit de la zone de travail
 * **Afficher la carte** : ouvre un instantané de la zone de travail indiquant où vous vous trouvez.
 
 ![Options de la barre d’outils pour la zone de travail du workflow](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+
+## Enregistrer ou ignorer vos modifications {#save-cancel}
+
+Utilisez le bouton **[!UICONTROL Enregistrer]** en haut de l’écran pour enregistrer les modifications apportées à votre workflow.
+
+Dès que vous apportez une modification, un bouton **[!UICONTROL Annuler]** devient également disponible à côté de **[!UICONTROL Enregistrer]**. Cliquez dessus pour ignorer toutes les modifications non enregistrées et restaurer la dernière version enregistrée du workflow. Comme cette action est irréversible, un message de confirmation s’affiche avant l’abandon des modifications.
 
 ## Gérer des activités {#manage}
 

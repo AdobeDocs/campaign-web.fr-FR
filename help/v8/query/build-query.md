@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2952'
-ht-degree: 100%
+source-wordcount: '3041'
+ht-degree: 91%
 ---
 # Créer votre première requête {#build-query}
 
@@ -71,7 +71,7 @@ Pour accéder à cette option, dans votre requête, cliquez sur le bouton de sé
 >
 >* Pour les champs comportant de nombreuses valeurs, seules les vingt premières valeurs sont affichées. Dans ce cas, une notification **[!UICONTROL Chargement partiel]** vous en informe.
 >* L’option **[!UICONTROL Répartition des valeurs]** est accessible dans chaque sélecteur d’attributs. [Découvrir comment sélectionner des attributs](../get-started/attributes.md)
->* Vous pouvez ajouter des conditions sur les résultats à l’aide des **[!Afiltres avancés]**. [En savoir plus ici](../get-started/work-with-folders.md#filter-the-values).
+>* Vous pouvez ajouter des conditions sur les résultats à l’aide des **[ !Afiltres avancés]**. [En savoir plus ici](../get-started/work-with-folders.md#filter-the-values).
 
 ## Ajouter des composants de filtrage {#filtering}
 
@@ -155,9 +155,11 @@ Pour les attributs de type date, des valeurs prédéfinies sont disponibles à l
 
 >[!ENDTABS]
 
-#### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
+### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
 Les conditions personnalisées vous permettent d’interroger des tables liées à la table actuellement utilisée par votre règle. Cela inclut les tables avec un lien de cardinalité 1-1 ou les tables de collection (lien 1-N).
+
+#### Lien 1-1
 
 Pour un **lien 1-1**, accédez à la table liée, sélectionnez l’attribut souhaité et définissez la valeur attendue.
 
@@ -169,63 +171,51 @@ Ici, la requête cible les marques dont le libellé est « running ».
 
 1. Naviguez dans la table **Marque** et sélectionnez l’attribut **Libellé**.
 
-   ![Capture d’écran de la table des marques](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Capture d’écran de la table des marques](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Définissez la valeur attendue de l’attribut.
 
-   ![Exemple de valeur attendue définie](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![Capture d’écran de la table des marques](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 Voici un exemple de requête dans laquelle un lien de table a été directement sélectionné. Les valeurs disponibles pour cette table doivent être sélectionnées avec un sélecteur dédié.
 
-![Exemple de requête](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Capture d’écran de la table des marques](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner votre requête, comme illustré dans l’exemple ci-dessous.
+#### Lien 1-N
 
-+++Exemple d&#39;édition d&#39;une requête
+Pour un lien **1-N** vous pouvez définir des conditions de deux manières :
 
-Ici, la requête cible les destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant total d’au moins 100 $.
+* **Sélectionnez la collection elle-même** par exemple **Achats**. Cela crée une condition **[!UICONTROL existe telle que]** dans laquelle vous pouvez ajouter des sous-conditions.
 
-1. Sélectionnez le tableau **Achats** et confirmez.
+  +++Exemple d&#39;édition d&#39;une requête
 
-   ![Capture d’écran de la table des achats](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+  Ici, la requête cible les destinataires qui ont effectué des achats liés au produit BrewMaster, pour plus de 100 $.
 
-1. Une transition sortante est ajoutée, vous permettant ainsi de créer des sous-conditions.
+  1. Sélectionnez le tableau **Achats** et confirmez.
 
-   ![Exemple de transition sortante](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+  1. Cliquez sur **[!UICONTROL Ajouter une condition]** pour définir les sous-conditions à appliquer à la table sélectionnée.
 
-1. Sélectionnez l’attribut **Prix** et ciblez les achats de 1 000 $ ou plus.
+     ![Capture d’écran de la table des achats](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Capture d’écran de l’attribut Prix](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+  1. Ajoutez des sous-conditions adaptées à vos besoins.
 
-1. Ajoutez des sous-conditions adaptées à vos besoins. Ici, nous avons ajouté une condition pour cibler les profils ayant acheté un produit BrewMaster.
+     ![Capture d’écran de la table des achats](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Exemples de sous-conditions](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+  +++
 
-+++ 
+* **Sélectionnez un attribut de la collection** tel que **Prix** sous **Achats**. Trois options vous sont proposées pour définir la condition.
 
-#### Utiliser des données agrégées {#aggregate}
+  ![Capture d’écran affichant les options de condition de collection](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-Les conditions personnalisées vous permettent d’effectuer des opérations d’agrégat. Pour cela, vous devez sélectionner directement un attribut dans un tableau de collection :
+  * **[!UICONTROL Par défaut]** : l’option recommandée pour la plupart des cas d’utilisation. Cela crée automatiquement une condition **[!UICONTROL existe telle que]** pour la collection. Cela équivaut à sélectionner la collection directement avec la méthode décrite ci-dessus et produit le même résultat. Par exemple, la sélection de l’attribut **Price** dans **Achats** crée une condition **Les achats existent, telle que**. Vous pouvez ensuite définir l’opérateur et la valeur, par exemple **égal à** `0`.
 
-1. Naviguez dans le tableau de collection souhaité et sélectionnez l’attribut sur lequel vous souhaitez effectuer une opération d’agrégat.
+  * **[!UICONTROL Aggregate]** : applique une fonction d&#39;agrégat à l&#39;attribut de collection sélectionné. Par exemple, sélectionnez **Compte** pour créer une condition telle que **Compte(Prix) égal à 0**. Vous pouvez utiliser la condition supplémentaire pour affiner les enregistrements inclus dans l&#39;agrégation.
 
-   ![Capture d’écran de la liste des attributs](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+  * **[!UICONTROL Avancé]** : utilise une jointure directe sur l&#39;élément de collection. L’attribut sélectionné est évalué directement, par exemple **Prix (achats/@price)**. Utilisez cette option pour une seule condition sur l&#39;élément de collection.
 
-1. Dans le volet des propriétés, activez l’option **Données agrégées** et sélectionnez la fonction d’agrégat souhaitée.
-
->[!BEGINTABS]
-
->[!TAB Concepteur de requête classique]
-
-![Capture d’écran de l’option Données agrégées](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB Nouveau créateur de règles]
-
-![Capture d&#39;écran de l’option Données agrégées](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+  L’option **[!UICONTROL Par défaut]** est sélectionnée par défaut. Utilisez **[!UICONTROL Agrégé]** lorsque vous devez compter ou agréger des enregistrements de collection, ou **[!UICONTROL Avancé]** lorsque vous avez besoin d’une jointure directe à un attribut de collection.
 
 ### Sélectionner une audience {#audiences}
 
