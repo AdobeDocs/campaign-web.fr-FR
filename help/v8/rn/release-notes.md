@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 38%
 ---
 # Notes de mise à jour {#latest-release}
 
@@ -32,36 +32,36 @@ ht-degree: 100%
 
 Les versions de l’interface utilisateur d’Adobe Campaign Web fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont complétées plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
-## Version d’août 2026 {#26-8-release}
+## Version du 26 septembre {#26-9-release}
 
-_18 août 2026_
+_2 septembre 2026_
 
-### Nouvelles fonctionnalités {#26-8-features}
+### Nouvelles fonctionnalités {#26-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Activité du workflow de validation</strong><br/></th>
+<th><strong>Canal LINE</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’activité du workflow d’<strong>approbation</strong>, auparavant uniquement disponible dans la console cliente, est désormais disponible dans l’interface d’utilisation de Campaign Web. Attribuez la tâche à un groupe, à un un opérateur individuel ou à une opératrice individuelle, personnalisez le titre et le message de la notification, puis définissez les réponses possibles (par exemple, Oui/Non) comme branches de sortie.</p>
-<p>Pour plus d'informations, consultez la <a href="../workflows/activities/approval.md">documentation détaillée</a>.</p>
+<p>Adobe Campaign prend désormais en charge le canal <strong>LINE</strong>, une application de messagerie instantanée populaire. Créez et envoyez des messages LINE à l'aide de contenu texte, image ou vidéo, dans des diffusions autonomes ou dans des workflows, aux côtés de vos autres canaux. <a href="../line/get-started-line.md">En savoir plus</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Améliorations {#26-8-improvements}
+### Améliorations {#26-9-improvements}
 
-* **Suivi des ouvertures** : vous pouvez désormais activer ou désactiver le suivi des ouvertures directement depuis l’interface d’utilisation de Campaign Web. Vous pourrez ainsi mieux respecter les réglementations en matière de protection des données. [En savoir plus](../advanced-settings/delivery-settings.md#tracking-tab)
-* **Vue Liste des programmes** : les programmes sont désormais répertoriés dans une vue dédiée, comme les campagnes, les diffusions et les workflows. Vous pouvez parcourir les programmes existants et en créer de nouveaux directement à partir de cette vue. [En savoir plus](../administration/plans-programs.md#create-program)
-* **Configuration de schéma personnalisé** : dans la section **Données d’action**, vous pouvez désormais interdire l’action **Dupliquer** sur les enregistrements d’un schéma personnalisé. [En savoir plus](../administration/schemas-action-data.md#action-data)
-* **Filtres personnalisés** : dans l’éditeur de schémas, vous pouvez désormais limiter les valeurs disponibles dans le sélecteur pour un filtre personnalisé de type lien, à l’aide de la nouvelle boîte de dialogue **Paramètres du lien**. [En savoir plus](../administration/schemas-custom-filters.md#settings)
-* **Validation du schéma** : vous pouvez désormais valider la structure d’un schéma directement à partir de l’éditeur de schémas, à l’aide du nouveau bouton **Vérifier**. [En savoir plus](../administration/schemas-create-publish.md#create-new)
-* **Sécurité des dossiers** : les actions disponibles sur un dossier sont désormais régies de manière cohérente par les droits de l’opérateur ou de l’opératrice, conformément au comportement de la console cliente. [En savoir plus](../get-started/work-with-folders.md#about-folders).
-  <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+* **Accès à la navigation latérale** : les administrateurs peuvent désormais masquer des entrées de menu spécifiques de la navigation latérale. [En savoir plus](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
+* **Types de validation supplémentaires** : vous pouvez désormais exiger des validations de budget et de début de diffusion pour les diffusions de Campaign, en plus des validations de contenu et de cible. [En savoir plus](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **Ciblage des SMS basé sur les visiteurs** : le mapping de ciblage des visiteurs est désormais disponible pour les diffusions SMS. [En savoir plus](../sms/create-sms.md)
+* **Bouton d’annulation du workflow** : un nouveau bouton **Annuler** permet d’annuler les modifications non enregistrées dans un workflow. [En savoir plus](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
+* **Déduplication avec plusieurs valeurs** : l’option **Suivant une liste de valeurs** prend désormais en charge plusieurs attributs. [En savoir plus](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
+* **Mapping de ciblage mobile** : vous pouvez désormais créer des mappings de ciblage pour les cibles des applications mobiles. [En savoir plus](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **Enrichissement de base de données externe** : vous pouvez désormais enrichir les données d&#39;une base de données externe dans l&#39;activité **Enrichissement** ou **Créer une audience**. [En savoir plus](../workflows/activities/enrichment.md#external-data)
+* **Réconciliation des audiences de fichiers** : vous pouvez désormais choisir d’importer des destinataires dans la base de données lors du ciblage d’une audience à partir d’un fichier. [En savoir plus](../audience/file-audience.md#select-and-configure-the-input-file-upload)
+* **Jointures directes sur les collections** : lors de la sélection d’un attribut directement à partir d’une collection, vous pouvez désormais choisir la manière dont la condition est créée : à l’aide de l’option par défaut recommandée, d’une fonction d’agrégat ou d’une jointure directe avancée. [En savoir plus](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
 
