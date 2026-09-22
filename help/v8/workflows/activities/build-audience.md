@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 92%
 ---
 # Créer une audience {#build-audience}
 
@@ -58,11 +58,11 @@ Pour configurer l’activité **Créer une audience**, procédez comme suit :
 Pour créer votre propre requête, procédez comme suit :
 
 1. Sélectionnez **Créer la vôtre (requête)**.
-1. Choisissez la **dimension de ciblage**. La dimension de ciblage vous permet de définir la population ciblée par l’opération, comme les personnes destinataires ou bénéficiaires d’un contrat, les opérateurs ou opératrices ou les personnes abonnées. Par défaut, la cible est sélectionnée parmi les personnes destinataires. [En savoir plus sur les dimensions de ciblage](../../audience/targeting-dimensions.md#targeting)
+1. Choisissez la **dimension de ciblage**. La dimension de ciblage vous permet de définir la population ciblée par l’opération, comme les personnes destinataires ou bénéficiaires d’un contrat, les opérateurs ou opératrices ou les personnes abonnées. Par défaut, la cible est la dimension des destinataires. [En savoir plus sur les dimensions de ciblage](../../audience/targeting-dimensions.md#targeting)
 1. Sélectionnez la **Dimension de filtrage** en cliquant sur l’icône en regard de la dimension de ciblage. La dimension de filtrage permet d’appliquer des filtres à la population ciblée en référençant des critères associés sans modifier la dimension de ciblage principale. [En savoir plus sur les dimensions de ciblage](../../audience/targeting-dimensions.md#filtering)
 1. Cliquez sur **Continuer**.
 1. Utilisez le concepteur de requêtes pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un nouvel e-mail. [Découvrez comment utiliser le concepteur de requêtes](../../query/query-modeler-overview.md).
-1. Utilisez la section **Enrichissement des données** pour enrichir les données ciblées avec des informations supplémentaires provenant de la base de données, par exemple, les références de contrat ou les abonnements à la newsletter. Ces données sont stockées avec l’audience dans la **table de travail** de workflows et sont disponibles pour les activités qui suivent. Vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection ou des expressions et accéder à des options avancées. Pour obtenir des étapes détaillées et des exemples, consultez [Ajouter des données d’enrichissement ](enrichment.md#enrichment-add).
+1. Utilisez la section **Enrichissement des données** pour enrichir les données ciblées avec des informations supplémentaires provenant de la base de données, par exemple, les références de contrat ou les abonnements à la newsletter. Ces données sont stockées avec l’audience dans la **table de travail** de workflows et sont disponibles pour les activités qui suivent. Vous pouvez ajouter des attributs d’enrichissement uniques, des liens de collection, des expressions ou des champs à partir d’une base de données externe et accéder aux options avancées. Pour obtenir des étapes détaillées et des exemples, voir [Ajouter des données d’enrichissement](enrichment.md#enrichment-add) et [Enrichir avec des données de base de données externes](enrichment.md#external-data).
 
 >[!TAB Lecture d’audience]
 

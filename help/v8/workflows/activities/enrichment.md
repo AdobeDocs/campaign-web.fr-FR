@@ -13,10 +13,10 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2370'
-ht-degree: 100%
+source-wordcount: '2702'
+ht-degree: 88%
 ---
 # Enrichissement {#enrichment}
 
@@ -38,6 +38,8 @@ Les données d’enrichissement tirent leur origine des sources suivantes :
 
 * **Une autre table de travail** :
   * Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat ».
+
+* **Base externe** : ajoutez des champs issus d&#39;une table stockée dans une base externe. [En savoir plus](#external-data).
 
 Une fois que les données d’enrichissement ont été ajoutées au workflow, elles peuvent être utilisées dans les activités suivantes pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Elles peuvent également être utilisées pour créer des messages et des campagnes marketing personnalisés qui résonnent auprès de votre audience cible.
 
@@ -142,6 +144,42 @@ Pour créer un lien, procédez comme suit :
    * **Jointure avancée** : créez une jointure à l’aide de conditions avancées. Cliquez sur **Ajouter une jointure** puis sur le bouton **Créer une condition** pour ouvrir le concepteur de requête.
 
 Un exemple de workflow utilisant des liens est disponible dans la section [Exemples](#link-example).
+
+## Enrichissement avec des données de bases de données externes {#external-data}
+
+Les activités **Enrichissement** et **Créer une audience** (type requête) permettent d&#39;ajouter des champs depuis une table stockée dans une base externe, à l&#39;aide d&#39;un compte externe **[!UICONTROL Federated Data Access (FDA)]**. [Découvrez comment configurer un compte externe](../../administration/create-external-account.md).
+
+>[!NOTE]
+>
+>Seule une jointure simple est disponible pour réconcilier des champs de base de données externes. Les conditions avancées de jointure ne sont pas prises en charge pour ce type d&#39;enrichissement.
+
+Pour ajouter des champs de base de données externes, procédez comme suit :
+
+1. Dans la section **[!UICONTROL Données d&#39;enrichissement]** du volet d&#39;activités, cliquez sur **[!UICONTROL Ajouter un champ de base de données externe]**.
+1. Sélectionnez le compte externe FDA à utiliser, puis recherchez ou saisissez le nom de la table que vous souhaitez utiliser.
+1. Sélectionnez les colonnes dont vous avez besoin et cliquez sur **Ajouter**.
+
+   ![Capture d’écran affichant le bouton de la base de données externe](../assets/workflow-enrichment8.png)
+
+1. Dans la section **[!UICONTROL Critères de réconciliation]** , définissez l’attribut **[!UICONTROL Source]** et la colonne externe **[!UICONTROL Destination]** pour réconcilier les données. Vous pouvez ajouter plusieurs jointures en cliquant sur **[!UICONTROL Ajouter une jointure]**.
+
+1. Dans le menu déroulant **[!UICONTROL Données collectées]**, choisissez la manière dont les lignes correspondantes sont collectées :
+
+   * **[!UICONTROL Collecter toutes les lignes]** : récupère chaque ligne correspondante.
+   * **[!UICONTROL Limiter le nombre de lignes]** : permet de récupérer jusqu’à un certain nombre de lignes que vous définissez. Activez **[!UICONTROL Activer le tri]** pour définir l’ordre de conservation des lignes.
+   * **[!UICONTROL Ligne unique (expert)]** : optimise la requête en supposant qu&#39;une seule ligne correspond. Si cette hypothèse n’est pas correcte, le résultat peut être erroné (données manquantes ou dupliquées).
+   * **[!UICONTROL Agréger les lignes]** : utilisez cette option lorsque les colonnes collectées contiennent déjà des valeurs agrégées, telles qu’un nombre ou une moyenne.
+   * **[!UICONTROL Fusionner]** : fusionne les lignes correspondantes en un seul résultat.
+
+   >[!NOTE]
+   >
+   >Pour les options **[!UICONTROL Limiter le nombre de lignes]** et **[!UICONTROL Fusionner]**, vous pouvez activer **[!UICONTROL Activer le tri]** afin de définir l&#39;ordre de conservation des lignes ou l&#39;ordre de fusion.
+
+1. Si vous le souhaitez, cliquez sur **[!UICONTROL Créer un filtre]** pour filtrer les données externes à l’aide du modéliseur de requêtes. [Découvrez comment utiliser le concepteur de requête](../../query/query-modeler-overview.md).
+
+   ![Capture d’écran affichant la configuration de la base de données externe](../assets/workflow-enrichment8.png)
+
+Les champs ajoutés sont libellés à l’aide du nom de l’activité et du nom de la table.
 
 ## Réconciliation des données {#reconciliation}
 

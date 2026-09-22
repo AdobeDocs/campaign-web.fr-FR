@@ -2,14 +2,46 @@
 title: Notes de mise à jour précédentes de l’interface d’utilisation web de Campaign v8
 description: Versions de l’interface d’utilisation web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2251'
 ht-degree: 100%
 ---
 # Notes de mise à jour 2026 {#2026-release}
 
 Cette page répertorie toutes les modifications et améliorations disponibles dans les **versions 2026**. Les dernières notes de mise à jour sont disponibles dans [cette page](release-notes.md).
+
+## Version d’août 2026 {#26-8-release}
+
+_18 août 2026_
+
+### Nouvelles fonctionnalités {#26-8-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité du workflow de validation</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’activité du workflow d’<strong>approbation</strong>, auparavant uniquement disponible dans la console cliente, est désormais disponible dans l’interface d’utilisation de Campaign Web. Attribuez la tâche à un groupe, à un un opérateur individuel ou à une opératrice individuelle, personnalisez le titre et le message de la notification, puis définissez les réponses possibles (par exemple, Oui/Non) comme branches de sortie.</p>
+<p>Pour plus d'informations, consultez la <a href="../workflows/activities/approval.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations {#26-8-improvements}
+
+* **Suivi des ouvertures** : vous pouvez désormais activer ou désactiver le suivi des ouvertures directement depuis l’interface d’utilisation de Campaign Web. Vous pourrez ainsi mieux respecter les réglementations en matière de protection des données. [En savoir plus](../advanced-settings/delivery-settings.md#tracking-tab)
+* **Vue Liste des programmes** : les programmes sont désormais répertoriés dans une vue dédiée, comme les campagnes, les diffusions et les workflows. Vous pouvez parcourir les programmes existants et en créer de nouveaux directement à partir de cette vue. [En savoir plus](../administration/plans-programs.md#create-program)
+* **Configuration de schéma personnalisé** : dans la section **Données d’action**, vous pouvez désormais interdire l’action **Dupliquer** sur les enregistrements d’un schéma personnalisé. [En savoir plus](../administration/schemas-action-data.md#action-data)
+* **Filtres personnalisés** : dans l’éditeur de schémas, vous pouvez désormais limiter les valeurs disponibles dans le sélecteur pour un filtre personnalisé de type lien, à l’aide de la nouvelle boîte de dialogue **Paramètres du lien**. [En savoir plus](../administration/schemas-custom-filters.md#settings)
+* **Validation du schéma** : vous pouvez désormais valider la structure d’un schéma directement à partir de l’éditeur de schémas, à l’aide du nouveau bouton **Vérifier**. [En savoir plus](../administration/schemas-create-publish.md#create-new)
+* **Sécurité des dossiers** : les actions disponibles sur un dossier sont désormais régies de manière cohérente par les droits de l’opérateur ou de l’opératrice, conformément au comportement de la console cliente. [En savoir plus](../get-started/work-with-folders.md#about-folders).
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 
 ## Version de juillet 2026 {#26-7-release}
 
