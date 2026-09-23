@@ -6,7 +6,7 @@ feature: Line App
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 13%
@@ -92,7 +92,7 @@ Un message vidéo permet d’envoyer une vidéo à vos destinataires.
 
 1. Après avoir défini le contenu, cliquez sur **Enregistrer** puis sur l’icône Précédent pour revenir à l’écran de configuration de la diffusion.
 
-1. Activez **[!UICONTROL Activer la planification]** pour envoyer à une date et une heure spécifiques. [En savoir plus](../msg/gs-deliveries.md#gs-schedule).
+1. Activez **[!UICONTROL Activer la planification]** pour envoyer à une date et une heure spécifiques. [En savoir plus](../msg/create-deliveries.md#gs-schedule).
 
    ![Planning des messages LINE](assets/line-message9.png)
 

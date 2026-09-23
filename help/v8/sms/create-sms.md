@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 97%
 ---
 # Créer une diffusion SMS {#create-sms}
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 >abstract="Sélectionnez un modèle prédéfini pour démarrer votre diffusion par SMS. Les modèles de diffusion vous permettent de réutiliser du contenu et des paramètres personnalisés dans vos campagnes et diffusions."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=fr" text="Utiliser des modèles de diffusion"
 
-Vous pouvez créer une diffusion SMS autonome ou créer un SMS dans le cadre d’un workflow de campagne. Les étapes ci-dessous expliquent la procédure d’une diffusion SMS autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont expliquées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Vous pouvez créer une diffusion SMS autonome ou créer un SMS dans le cadre d’un workflow de campagne. Les étapes ci-dessous expliquent la procédure d’une diffusion SMS autonome (ponctuelle). Si vous travaillez dans le contexte d’un workflow de campagne, les étapes de création sont expliquées dans [cette section](../workflows/activities/channels.md#create-a-delivery-in-a-workflow).
 
 Pour créer une diffusion SMS autonome, procédez comme suit :
 
@@ -55,6 +55,8 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour cibler une audience existante ou créer la vôtre. [En savoir plus sur les audiences](../audience/about-recipients.md).
 
+   Outre le mapping de ciblage par défaut **[!UICONTROL Destinataires]**, les diffusions SMS peuvent également cibler **[!UICONTROL Visiteurs]** ou **[!UICONTROL Abonnements des visiteurs]**. [Découvrez les dimensions de ciblage](../audience/targeting-dimensions.md#targeting).
+
    ![Capture d’écran affichant le bouton Sélectionner une audience](assets/sms_create_2.png){zoomable="yes"}
 
    Découvrez comment sélectionner une audience existante sur [cette page](../audience/add-audience.md).
@@ -71,7 +73,7 @@ Pour créer une diffusion SMS autonome, procédez comme suit :
 
    Dans cet écran, vous pouvez également [simuler votre contenu](../preview-test/preview-test.md) et [configurer des offres](../msg/offers.md).
 
-1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour la personne destinataire. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-deliveries.md#gs-schedule).
+1. Pour planifier votre diffusion à une date et une heure spécifiques, activez l’option **[!UICONTROL Activer la planification]**. Une fois la diffusion lancée, le message est automatiquement envoyé à la date et à l’heure exactes que vous avez définies pour la personne destinataire. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/create-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >

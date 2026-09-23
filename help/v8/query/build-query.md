@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '3041'
 ht-degree: 91%
@@ -71,7 +71,7 @@ Pour accéder à cette option, dans votre requête, cliquez sur le bouton de sé
 >
 >* Pour les champs comportant de nombreuses valeurs, seules les vingt premières valeurs sont affichées. Dans ce cas, une notification **[!UICONTROL Chargement partiel]** vous en informe.
 >* L’option **[!UICONTROL Répartition des valeurs]** est accessible dans chaque sélecteur d’attributs. [Découvrir comment sélectionner des attributs](../get-started/attributes.md)
->* Vous pouvez ajouter des conditions sur les résultats à l’aide des **[ !Afiltres avancés]**. [En savoir plus ici](../get-started/work-with-folders.md#filter-the-values).
+>* Vous pouvez ajouter des conditions sur les résultats à l’aide des **[!Afiltres avancés]**. [En savoir plus ici](../get-started/work-with-folders.md#filter-values).
 
 ## Ajouter des composants de filtrage {#filtering}
 
