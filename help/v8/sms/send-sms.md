@@ -10,7 +10,7 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
@@ -69,7 +69,7 @@ L’envoi de BAT est une étape importante pour garantir la qualité et l’effi
 
    ![Envoyer une diffusion SMS](assets/sms_send_5.png){zoomable="yes"}
 
-   Si la diffusion SMS a été planifiée, cliquez sur le bouton **[!UICONTROL Envoyer selon le planning prévu]**. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/gs-messages.md#schedule-the-delivery-sending).
+   Si la diffusion SMS a été planifiée, cliquez sur le bouton **[!UICONTROL Envoyer selon le planning prévu]**. Pour en savoir plus sur la planification des diffusions, consultez [cette section](../msg/create-deliveries.md#gs-schedule).
 
 1. Confirmez l’action d’envoi en cliquant sur le bouton **[!UICONTROL Envoyer]**.
 
