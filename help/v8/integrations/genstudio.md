@@ -6,7 +6,28 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
@@ -30,7 +51,7 @@ Pour améliorer l’efficacité du marketing et maintenir la cohérence de la ma
 
 >[!INFO]
 >
->Pour en savoir plus, consultez cette [vue d’ensemble](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} et une [démonstration](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#demo){target="_blank"} d’[!DNL Adobe GenStudio for Performance Marketing].
+>Pour en savoir plus, consultez cette [vue d’ensemble](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} et une [démonstration](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#demo){target="_blank"} d’[!DNL Adobe GenStudio for Performance Marketing].
 
 ## Utiliser les fonctionnalités de GenStudio dans Adobe Campaign {#use-genstudio}
 
@@ -104,6 +125,6 @@ Pour utiliser les variations d’e-mail [!DNL GenStudio] que vous venez de crée
 
 Discover the process of exporting an email template from Adobe Campaign to GenStudio for Performance Marketing, crafting brand-compliant emails using the template in GenStudio, and importing them seamlessly back into Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456051/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
 TO REPLACE WITH CAMPAIGN VIDEO WHEN/IF RELEASED
 -->
