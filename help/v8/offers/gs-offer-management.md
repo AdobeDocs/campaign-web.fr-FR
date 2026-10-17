@@ -48,7 +48,7 @@ Avant de commencer à utiliser les offres, familiarisez-vous avec les principaux
 * **Catalogue d’offres et catégories** : les offres sont organisées dans un catalogue hiérarchique de **catégories** et sous-catégories. Chaque catégorie peut partager des règles d’éligibilité, des dates de validité et des **thèmes d’application**. Une catégorie par défaut est proposée dans l’environnement de conception pour recevoir toutes les offres.
 
 <!--
-To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html){target="_blank"}.
+To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html?lang=fr){target="_blank"}.
 -->
 
 * **Offre** : offre individuelle ayant sa propre période d’éligibilité, son filtre cible, son poids et son contenu. Les offres sont approuvées et déployées avant de pouvoir être présentées aux destinataires. [En savoir plus](create-offer.md)
