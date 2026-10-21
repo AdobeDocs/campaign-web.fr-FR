@@ -28,7 +28,7 @@ ht-degree: 100%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 Utilisez l’IA dans Adobe Campaign Web pour générer un texte attrayant qui trouve un écho auprès de votre audience. Que vous souhaitiez améliorer le contenu de vos e-mails, créer un contenu de page de destination convaincant, rédiger des messages de notification push ou composer des SMS, l’IA vous aide à transmettre un message clair et percutant.
 

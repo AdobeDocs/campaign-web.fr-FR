@@ -82,7 +82,7 @@ L’option Générer du contenu simplifie la création et l’exécution de camp
 >
 >* Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe sur les [Mécanismes de sécurisation et limitations](#generative-guardrails).
 >
->* Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>* Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 ## Accéder à la fonctionnalité de génération de contenu {#generative-access}
 
@@ -115,7 +115,7 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 * La taille maximale pour les ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou de nombreuses images peuvent augmenter le temps de traitement.
 * Utilisez des [modèles d’e-mail intégrés](../content/create-email-templates.md), des modèles spécifiques à la marque ou des modèles personnalisés pour créer le contenu de votre e-mail à l’aide de l’IA. Il est recommandé d’utiliser des modèles d’e-mail contenant jusqu’à 8 à 10 images.
 * Signalez les sorties problématiques à l’aide des icônes de pouces vers le haut, vers le bas ou d’indicateurs lors de la sélection de variantes.
-* Votre utilisation de la fonctionnalité Générer du contenu est soumise aux instructions d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+* Votre utilisation de la fonctionnalité Générer du contenu est soumise aux instructions d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Dans le cadre de l’engagement d’Adobe à la transparence dans l’utilisation d’outils d’IA générative dans la création de médias, Adobe applique Content Credentials (informations de traçabilité du contenu) lorsque le contenu ou un projet qui inclut une ressource générée par un Firefly est téléchargé ou exporté. [En savoir plus](https://helpx.adobe.com/fr/firefly/using/content-credentials.html).
 
 Les limitations suivantes s’appliquent à la fonctionnalité Générer du contenu dans Adobe Campaign Web :
