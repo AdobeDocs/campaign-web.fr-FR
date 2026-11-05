@@ -18,10 +18,10 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: bc86048e548df4c551cde273c6100c6b5450fc5b
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 96%
 ---
 # Envoyer par vagues {#send-using-waves}
 
@@ -61,6 +61,8 @@ Pour envoyer des diffusions par vagues, procédez comme suit.
    >Veillez à ce que les dernières vagues ne dépassent pas la date limite d’envoi qui est définie dans l’onglet [Validité](delivery-settings.md#validity). Sinon, certains messages peuvent ne pas être envoyés. Une règle de contrôle de typologie spécifique, la **[!UICONTROL vérification de la planification des vagues]**, garantit que la dernière vague est planifiée avant la limite de validité de la diffusion. En savoir plus sur les règles de contrôle dans la [documentation de Campaign v8 (console cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=fr)
    >
    >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. [En savoir plus](delivery-settings.md#retries)
+   >
+   >Les vagues sont planifiées à partir de la date de contact de la diffusion. Si la diffusion démarre après l’heure prévue de certaines vagues, ces vagues sont envoyées ensemble au lieu d’être espacées.
 
 1. Pour surveiller vos envois, accédez aux [logs de diffusion](../monitor/delivery-logs.md). Vous pouvez visualiser les diffusions qui ont déjà été envoyées dans les vagues traitées (statut **[!UICONTROL Envoyé]**) et celles à envoyer dans les vagues restantes (statut **[!UICONTROL En attente]**).
 
