@@ -23,7 +23,7 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 14f1be5428c2174b63543c11cd2c64a69e33fdd4
+source-git-commit: 1848b3a9b756587f0ec5a4e9cef5731675f4e1ae
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 86%
@@ -41,8 +41,6 @@ Les landing pages vous permettent d’orienter vos utilisateurs et utilisatrices
 >Les landing pages que vous créez dans l’interface d’utilisation web de Campaign sont différentes des formulaires web créés à partir de la console cliente. Vous ne pouvez pas afficher ni modifier les formulaires web créés dans la console cliente dans l’interface utilisateur web de Campaign.
 >
 >Pour en savoir plus sur les formulaires web, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=fr){target="_blank"}.
-
->[!NOTE]
 >
 >Les landing pages créées dans l’interface utilisateur web de Campaign ne prennent pas en charge les champs de saisie masqués ou les JavaScript personnalisées. Pour calculer et stocker des valeurs qui ne s’affichent pas pour les visiteurs, créez le formulaire sous la forme d’une application web dans la console cliente.
 
