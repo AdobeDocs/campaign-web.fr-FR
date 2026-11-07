@@ -89,4 +89,4 @@ Voici plusieurs manières d’accéder à l’éditeur d’expression en fonctio
 
 Découvrez comment rendre le contenu du message dynamique à l’aide de l’éditeur d’expression pour personnaliser votre message ou ajouter du contenu conditionnel.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3505239?captions=fre_fr&quality=12)
