@@ -217,4 +217,4 @@ Lorsque vous définissez le contenu, l’audience et le planning, préparez votr
 
 Découvrez comment utiliser l’IA pour générer du contenu complet, du texte et des images pour les e-mails.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428984)
+>[!VIDEO](https://video.tv.adobe.com/v/3505095?captions=fre_fr)
