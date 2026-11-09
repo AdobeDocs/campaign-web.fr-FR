@@ -6,10 +6,10 @@ title: Documentation d’Adobe Campaign Web
 description: Documentation de Campaign Web
 breadcrumb-title: Interface utilisateur web de Campaign
 nudge: true
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: b1159f7f6d255f739c8344037f1ff1ffa6dc50fa
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 99%
+source-wordcount: '1082'
+ht-degree: 98%
 ---
 
 # Documentation d’Adobe Campaign Web {#v8}
@@ -24,7 +24,7 @@ ht-degree: 99%
     + [Versions 2025](rn/release-notes-25.md)
     + [Versions 2024](rn/release-notes-24.md)
   + {hide-from-toc}[Mises à jour de la documentation](rn/documentation-updates.md)
-+ Prise en main d’Adobe Campaign {#start}
++ Prise en main {#start}
   + [Commencer](get-started/get-started.md)
   + [Se connecter à Campaign](get-started/connect-to-campaign.md)
   + {hide-from-toc}[Découvrir l’interface](get-started/user-interface.md)
@@ -37,7 +37,7 @@ ht-degree: 99%
   + [De Campaign Standard à v8](rn/acs-migration.md)
   + {hide-from-toc}[Aide contextuelle optimisée par l’IA](get-started/using-ai.md)
   + [FAQ](get-started/faq.md)
-+ Messages et diffusions {#msg}
++ Messages {#msg}
   + [Commencer avec les messages](msg/gs-messages.md)
   + [Accéder aux diffusions](msg/gs-deliveries.md)
   + [Création dʼune diffusion](msg/create-deliveries.md)
@@ -98,7 +98,7 @@ ht-degree: 99%
     + [Commencer avec les alertes de diffusion](msg/delivery-alerting.md)
     + [Tableaux de bord des alertes de diffusion](msg/delivery-alerting-dashboards.md)
     + [Critères des alertes de diffusion](msg/delivery-alerting-criteria.md)
-+ Gestion de contenu {#content}
++ Contenu et personnalisation {#content}
   + Créer du contenu dynamique {#dynamic-content}
     + [Comment rendre votre contenu dynamique ?](personalization/gs-personalization.md)
     + [Ajouter de la personnalisation](personalization/personalize.md)
@@ -148,18 +148,7 @@ ht-degree: 99%
       + [Personnaliser votre marque](content/brands-personalize.md)
       + [Créer et gérer des modèles génératifs](content/generative-models.md)
       + [Évaluer votre contenu](content/brands-score.md)
-+ Landing pages {#landing-pages}
-  + [Commencer avec les landing pages](landing-pages/get-started-lp.md)
-  + [Créer et publier une page de destination](landing-pages/create-lp.md)
-  + [Modifier le contenu d’une page de destination](landing-pages/lp-content.md)
-  + [Apprendre avec des cas d’utilisation](landing-pages/lp-use-cases.md)
-+ Gestion des offres {#offers}
-  + [Commencer avec la gestion des offres](offers/gs-offer-management.md)
-  + [Vérifier les paramètres de l’environnement d’offres](offers/offer-environment.md)
-  + [Créer et gérer des emplacements](offers/offer-space.md)
-  + [Créer et publier une offre](offers/create-offer.md)
-  + [Ajouter une liste modifiable au schéma d’offre](offers/offer-editable-list.md)
-+ Profils et audiences {#audiences}
++ Profils &amp; audiences {#audiences}
   + [Commencer avec les profils et les audiences](audience/gs-audiences-recipients.md)
   + [Dimensions de ciblage](audience/targeting-dimensions.md)
   + [Quarantaine](audience/quarantine.md)
@@ -181,7 +170,12 @@ ht-degree: 99%
   + Utiliser des services d’inscription {#work-with-services}
     + [Créer et gérer des services d’abonnement](audience/manage-services.md)
     + [Gérer des personnes abonnées](audience/manage-subscribers.md)
-+ Campagnes cross-canal {#campaigns}
++ Landing pages et formulaires {#landing-pages}
+  + [Commencer avec les landing pages](landing-pages/get-started-lp.md)
+  + [Créer et publier une page de destination](landing-pages/create-lp.md)
+  + [Modifier le contenu d’une page de destination](landing-pages/lp-content.md)
+  + [Apprendre avec des cas d’utilisation](landing-pages/lp-use-cases.md)
++ Campagnes {#campaigns}
   + [Commencer avec les campagnes](campaigns/gs-campaigns.md)
   + [Accéder aux campagnes et les gérer](campaigns/manage-campaigns.md)
   + [Créer votre première campagne](campaigns/create-campaigns.md)
@@ -229,13 +223,19 @@ ht-degree: 99%
     + [Transfert de fichier](workflows/activities/transfer-file.md)
     + [Mise à jour de données](workflows/activities/update-data.md)
     + [Attente](workflows/activities/wait.md)
-+ Interrogation de la base de données {#query-database}
++ Offres {#offers}
+  + [Commencer avec la gestion des offres](offers/gs-offer-management.md)
+  + [Vérifier les paramètres de l’environnement d’offres](offers/offer-environment.md)
+  + [Créer et gérer des emplacements](offers/offer-space.md)
+  + [Créer et publier une offre](offers/create-offer.md)
+  + [Ajouter une liste modifiable au schéma d’offre](offers/offer-editable-list.md)
++ Requête et données {#query-database}
   + [Utiliser le concepteur de requête](query/query-modeler-overview.md)
   + [Créer votre première requête](query/build-query.md)
   + [Éditer les expressions](query/expression-editor.md)
   + {hide-from-toc}[Exemples de requête](query/query-samples.md)
   + [Filtrer les listes](query/filter.md)
-+ Reporting {#reports}
++ Rapports et suivi {#reports}
   + [Journal d’audit](reporting/audit-trail.md)
   + [Indicateurs clés de performance](reporting/kpis.md)
   + Rapports standards {#standard-reports}
