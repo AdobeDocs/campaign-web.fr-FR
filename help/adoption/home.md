@@ -17,7 +17,7 @@ feature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: f3427b47257173de3b6dcb8c69609bc5d05e4f9b
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
@@ -48,6 +48,12 @@ Découvrez les dernières améliorations offertes par Adobe Campaign v8 et fam
 La plupart des concepts sont similaires entre Adobe Campaign v8 et Adobe Campaign Standard. Les quelques différences sont répertoriées dans la section ci-dessous.
 
 [![Image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/overview.md#experiences)
+
+<!--
+Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. Learn about the terminology differences and what changes for channels, audiences, access, and APIs.
+
+[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/acs-v8-differences.md)
+-->
 
 >[!TAB Commencer en tant que spécialiste du marketing]
 
