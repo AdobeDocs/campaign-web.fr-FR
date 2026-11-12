@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 11cf5f2a6e3e77d0747a0b88758ce3fe871e66fd
+source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '777'
 ht-degree: 2%
 ---
 # Différences entre Campaign Standard et Campaign v8 {#acs-v8-differences}
@@ -50,9 +50,9 @@ Les étapes de création et d&#39;envoi des messages sont similaires dans les de
 |---|---|
 | Le canal In-App n’est pas disponible dans Campaign v8. | [Canal In-App](marketers.md#acs-gs-marketers-in-app) |
 | Pour effectuer la transition des workflows et des diffusions de notifications push existants, contactez votre gestionnaire de transition Adobe Campaign. | [Notifications push](marketers.md#acs-gs-marketers-push) |
-| Dans Campaign Standard, un profil de test peut être marqué comme un **piège** pour recevoir l’envoi final. Dans Campaign v8, activez l’option permettant d’inclure des profils de test dans l’audience principale de la diffusion. | [Tester les diffusions](../../v8/preview-test/test-deliveries.md) |
+| Dans Campaign Standard, un profil de test peut être marqué comme un **piège** pour recevoir l’envoi final. Dans Campaign v8, ajoutez un **groupe de pièges** dans les paramètres Audience de la diffusion. | [Groupe de pièges](../../v8/audience/trap-group.md) |
 | Les landing pages créées dans l’interface utilisateur web de Campaign ne prennent pas en charge les champs de saisie masqués ou les JavaScript personnalisées. | [Landing pages](../../v8/landing-pages/get-started-lp.md) |
-| Dans Campaign Standard, la transition sortante d’une activité de publipostage direct comportait également le fichier généré. Dans Campaign v8, elle ne transporte que la population ciblée. Pour envoyer le fichier à un serveur, ajoutez une activité **Extraction de données**, puis une activité **Transfert de fichier**. | [Publipostage direct](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Dans Campaign Standard, la transition sortante d’une activité de publipostage direct comportait également le fichier généré. Dans Campaign v8, elle ne transporte que la population ciblée. Pour envoyer le fichier à un serveur, ajoutez une activité **Extraction de données**, puis une activité **Transfert de fichier**. | [Publipostage direct](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, workflows et diffusions {#data-and-workflows}
 
@@ -63,7 +63,6 @@ Ces différences affectent les audiences et les workflows migrés depuis Campaig
 | Les audiences sont transformées pendant la transition. Par exemple, les audiences créées avec l&#39;activité Requête deviennent des filtres prédéfinis et les audiences de type fichier deviennent des audiences de type Liste sans dimensions. | [Gérer les audiences](marketers.md#acs-gs-marketers-audiences) |
 | Les logs historiques des workflows exécutés dans Campaign Standard ne sont pas migrés. | [Créer un workflow](marketers.md#acs-gs-marketers-wf) |
 | Dans Campaign Standard, vous pouvez sélectionner la période d’agrégation d’un e-mail récurrent. Cette option n’est pas disponible dans Campaign v8. | [Activités de canal](../../v8/workflows/activities/channels.md) |
-| Dans Campaign Standard, l’activité **Transfert de fichier** peut trier les fichiers par ordre alphanumérique. Cette option n’est pas disponible dans Campaign v8. | [Transfert de fichier](../../v8/workflows/activities/transfer-file.md) |
 | Les rapports dynamiques couvrent les diffusions par e-mail, les campagnes avec des diffusions par e-mail et les messages transactionnels. | [Reporting](marketers.md#acs-gs-marketers-reporting) |
 
 ## Accès et sécurité {#access}
@@ -86,10 +85,7 @@ Ces différences affectent les diffusions envoyées depuis Campaign Standard ava
 |---|---|
 | Les pages miroir des diffusions envoyées depuis Campaign Standard avant la transition ne sont pas disponibles. Les pages miroir des diffusions envoyées à partir de Campaign v8 fonctionnent comme d’habitude. | [Pages miroir](../../v8/email/mirror-page.md) |
 | Les données de tracking des diffusions transactionnelles en temps réel envoyées depuis Campaign Standard avant la transition ne sont pas capturées dans Campaign v8. Les liens de ces messages redirigent toujours. | [Surveiller les messages transactionnels](../../v8/transactional-messaging/monitor-transactional.md) |
-| Les paramètres des URL suivies des brouillons de diffusions ne sont pas conservés. Après la transition, le tracking, la page miroir et les liens d’abonnement suivent la norme Campaign v8 et les liens sont suivis par défaut. | [Ajouter des liens et tracker les messages](../../v8/email/message-tracking.md) |
 | Les entités géographiques ne sont pas disponibles. Le contrôle d’accès basé sur les entités géographiques est perdu. | [Contrôle d’accès](../../v8/get-started/connect-to-campaign.md#access-control) |
-| Les informations des entités **Créées par** et **Modifiées par** ne sont pas disponibles après la transition. | [Journal d’audit](admin-developers.md#acs-gs-admin-audit-trail) |
-| Les URL des sous-domaines de marque sont adaptées à la norme Campaign v8. Les configurations de marque non standard ne sont pas migrées et sont diffusées via la marque par défaut. | [Image De Marque](../../v8/administration/branding/branding-gs.md) |
 
 ## API et intégrations {#apis-and-integrations}
 
