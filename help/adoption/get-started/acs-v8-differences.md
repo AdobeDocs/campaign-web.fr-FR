@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '649'
 ht-degree: 2%
 ---
 # Différences entre Campaign Standard et Campaign v8 {#acs-v8-differences}
@@ -52,7 +52,7 @@ Les étapes de création et d&#39;envoi des messages sont similaires dans les de
 | Pour effectuer la transition des workflows et des diffusions de notifications push existants, contactez votre gestionnaire de transition Adobe Campaign. | [Notifications push](marketers.md#acs-gs-marketers-push) |
 | Dans Campaign Standard, un profil de test peut être marqué comme un **piège** pour recevoir l’envoi final. Dans Campaign v8, ajoutez un **groupe de pièges** dans les paramètres Audience de la diffusion. | [Groupe de pièges](../../v8/audience/trap-group.md) |
 | Les landing pages créées dans l’interface utilisateur web de Campaign ne prennent pas en charge les champs de saisie masqués ou les JavaScript personnalisées. | [Landing pages](../../v8/landing-pages/get-started-lp.md) |
-| Dans Campaign Standard, la transition sortante d’une activité de publipostage direct comportait également le fichier généré. Dans Campaign v8, elle ne transporte que la population ciblée. Pour envoyer le fichier à un serveur, ajoutez une activité **Extraction de données**, puis une activité **Transfert de fichier**. | [Publipostage direct](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Dans Campaign Standard, la transition sortante d’une activité de publipostage direct comportait également le fichier généré. Dans Campaign v8, elle ne transporte que la population ciblée. Pour envoyer le fichier à un serveur, ajoutez une activité **Extraction de données**, puis une activité **Transfert de fichier**. | [Publipostage direct](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, workflows et diffusions {#data-and-workflows}
 
@@ -77,16 +77,6 @@ Les groupes de sécurité, les rôles et les entités organisationnelles de Camp
 | L&#39;accès aux API transactionnelles à partir de l&#39;instance d&#39;exécution nécessite un nouveau profil de produit. | [Mappage du profil de produit](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
 | Les demandes d’accès à des informations personnelles peuvent arriver dans Campaign Standard et Campaign v8 pendant la période où votre environnement Campaign Standard reste actif. | [Informations personnelles et consentement](admin-developers.md#privacy-and-consent) |
 
-## Administration, tracking et pages miroir {#admin-tracking}
-
-Ces différences affectent les diffusions envoyées depuis Campaign Standard avant la transition et les informations administratives qui ne sont pas transférées vers Campaign v8.
-
-| Changements | En savoir plus |
-|---|---|
-| Les pages miroir des diffusions envoyées depuis Campaign Standard avant la transition ne sont pas disponibles. Les pages miroir des diffusions envoyées à partir de Campaign v8 fonctionnent comme d’habitude. | [Pages miroir](../../v8/email/mirror-page.md) |
-| Les données de tracking des diffusions transactionnelles en temps réel envoyées depuis Campaign Standard avant la transition ne sont pas capturées dans Campaign v8. Les liens de ces messages redirigent toujours. | [Surveiller les messages transactionnels](../../v8/transactional-messaging/monitor-transactional.md) |
-| Les entités géographiques ne sont pas disponibles. Le contrôle d’accès basé sur les entités géographiques est perdu. | [Contrôle d’accès](../../v8/get-started/connect-to-campaign.md#access-control) |
-
 ## API et intégrations {#apis-and-integrations}
 
 Ces différences affectent les intégrations qui appellent Campaign par le biais de son API REST, ainsi que les intégrations à d&#39;autres solutions et outils Adobe.
@@ -95,5 +85,4 @@ Ces différences affectent les intégrations qui appellent Campaign par le biais
 |---|---|
 | Les valeurs PKEY changent après la migration. Si vous stockez des PKEY en dehors de Campaign, suivez plutôt les arborescences renvoyées par l’API . | [API REST](admin-developers.md#acs-gs-admin-apis) |
 | Certains champs de profil migrés, tels que le fuseau horaire et `ccpaOptOut`, sont renvoyés uniquement par l’API `profileAndServicesExt/profile`. | [API REST](admin-developers.md#acs-gs-admin-apis) |
-| Les intégrations Dreamweaver et Adobe Experience Platform Data Connector de Campaign Standard ne sont pas disponibles dans Campaign v8. | [Utilisation de Campaign et d&#39;autres solutions Adobe](../../v8/integrations/integration.md) |
 | Adobe migre vos configurations Adobe Analytics et Audience Manager. Vous devez configurer à nouveau les intégrations Triggers et Adobe Target. | [Gestion des intégrations Adobe Campaign](admin-developers.md#acs-gs-integrations) |
