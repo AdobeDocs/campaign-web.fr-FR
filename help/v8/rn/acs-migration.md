@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 97%
 ---
 # Transition de Campaign Standard vers Campaign v8 {#acs-to-ac}
 
@@ -96,7 +96,7 @@ Pour que vous puissiez passer facilement à Campaign v8, les fonctionnalités c
 
 * **API REST** : les personnes ayant migré vers Campaign Standard peuvent utiliser des API REST pour créer des intégrations pour Adobe Campaign et créer des écosystèmes en interfaçant Adobe Campaign avec d’autres technologies. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr){target="_blank"}.
 
-* **Landing pages** : les landing pages de Campaign v8 incluent des améliorations pour assurer la parité des fonctionnalités avec Campaign Standard. En savoir plus dans la section [notes de mise à jour](../rn/release-notes.md#new-24-4) et dans la [documentation](../landing-pages/get-started-lp.md) des landing pages.
+* **Pages de destination** : les pages de destination de Campaign v8 incluent des améliorations pour les aligner sur Campaign Standard. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). --> En savoir plus dans la section [notes de mise à jour](../rn/release-notes.md#new-24-4) et dans la [documentation](../landing-pages/get-started-lp.md) des landing pages.
 
 * **Fragments visuels** : les fragments visuels sont des composants visuels réutilisables qui peuvent être référencés dans une ou plusieurs diffusions par e-mail ou dans des modèles de contenu. La modification d’un fragment met à jour tout le contenu qui l’utilise. Cette fonctionnalité permet aux équipes marketing de créer à l’avance plusieurs blocs de contenu personnalisés pour l’assemblage rapide de messages dans un processus de conception amélioré. [En savoir plus](../content/use-visual-fragments.md).
 

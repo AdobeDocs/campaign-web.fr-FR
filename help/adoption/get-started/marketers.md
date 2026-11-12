@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '2851'
-ht-degree: 100%
+source-wordcount: '2849'
+ht-degree: 98%
 ---
 # Commencer pour les spécialistes du marketing {#acs-gs-marketers}
 
@@ -231,7 +231,7 @@ Liens utiles :
 >
 >* Les diffusions dans l’un des statuts suivants ont été migrées en tant que diffusions annulées : Annulée, Reprise en cours.
 >
->* Les liens de tracking, d’URL de page miroir, d’abonnement/de désabonnement fonctionnent comme dans Campaign Standard.
+>* Les liens de tracking, les liens d&#39;URL de page miroir et les liens d&#39;abonnement/de désabonnement des diffusions envoyées depuis Campaign v8 sont conformes à la norme Campaign v8.
 >
 >Consultez également les sections suivantes : [Tracking et surveillance](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](../../v8/administration/branding/branding-gs.md) dans Adobe Campaign.
 
@@ -375,7 +375,7 @@ Notez que le canal in-app n’est pas disponible dans Campaign v8. Si vous deve
 
 L’interface d’utilisation web d’Adobe Campaign v8 est fournie avec une expérience client repensée pour les landing pages. Campaign vous permet de créer, concevoir et partager des landing pages. Les landing pages vous permettent d’orienter vos utilisateurs et utilisatrices vers des formulaires en ligne où il leur est possible de mettre à jour leurs données, de s’abonner à vos communications ou à un service spécifique tel qu’une newsletter, ou de s’en désabonner.
 
-En tant qu’utilisateur ou utilisatrice de Campaign Standard passant à Campaign v8, vos landing pages existantes ont été migrées vers l’interface d’utilisation de Campaign Web. Vous pouvez accéder à la même gamme de fonctionnalités.
+En tant qu&#39;utilisateur Campaign Standard passant à Campaign v8, vos landing pages existantes ont été migrées vers l&#39;interface utilisateur web de Campaign. <!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 En savoir plus sur les landing pages dans les sections suivantes :
 
