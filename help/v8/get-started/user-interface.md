@@ -48,7 +48,7 @@ ht-degree: 98%
 
 La nouvelle interface d’Adobe Campaign Web offre une expérience d’utilisation moderne et intuitive, afin de simplifier la conception et la diffusion des campagnes marketing. Cette interface s&#39;intègre aux applications et solutions [!DNL Adobe CX Enterprise].
 
-Découvrez comment vous connecter à Adobe Campaign et explorer les [!DNL CX Enterprise] notions de base de la navigation [ dans cet article](connect-to-campaign.md).
+Découvrez comment vous connecter à Adobe Campaign et explorer les [!DNL CX Enterprise] notions de base de la navigation [&#x200B; dans cet article](connect-to-campaign.md).
 
 >[!NOTE]
 >
