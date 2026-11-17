@@ -10,10 +10,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 100%
+source-wordcount: '1509'
+ht-degree: 98%
 ---
 # Configurer une diffusion multilingue {#multilingual-delivery}
 
@@ -32,6 +32,10 @@ Dans l’interface d’utilisation de Campaign Web, vous pouvez configurer vos 
 Dans une diffusion multilingue, la gestion des langues repose sur des variantes. Chaque variante représente une langue unique. Lors de la création de la diffusion, vous pouvez ajouter plusieurs variantes linguistiques afin de correspondre au nombre de langues requises dans votre message. Vous pouvez également modifier la langue par défaut à tout moment après l’ajout de ces variantes.
 
 La fonctionnalité multilingue est actuellement disponible pour les e-mails, les notifications push, les messages transactionnels et les SMS.
+
+>[!NOTE]
+>
+>Les diffusions multilingues à variante unique ne sont pas prises en charge. Si votre message ne nécessite qu’une seule langue, créez plutôt une diffusion standard (unique).
 
 Pour configurer des diffusions multilingues, procédez comme suit :
 

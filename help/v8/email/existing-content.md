@@ -11,10 +11,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 88%
 ---
 # Importer le contenu des e-mails {#existing-content}
 
@@ -31,6 +31,10 @@ Vous pouvez importer du contenu HTML existant dans le concepteur d’e-mail. Ce 
 >[!NOTE]
 >
 >La structure du fichier ZIP est libre. Toutefois, les références doivent être relatives et adaptées à l’arborescence du dossier ZIP.
+
+>[!IMPORTANT]
+>
+>N’utilisez pas la balise HTML `<base>` dans le contenu de votre e-mail. Pour des raisons de sécurité, cette balise n’est pas prise en charge et peut empêcher le chargement de votre contenu dans l’éditeur de contenu. Utilisez plutôt des URL absolues pour vos liens et ressources externes.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -62,4 +66,4 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
 Découvrez comment créer un e-mail en chargeant un fichier HTML, le rendre compatible avec le concepteur d’e-mail et le convertir en modèle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447034/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

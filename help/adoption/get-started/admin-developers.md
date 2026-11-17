@@ -77,10 +77,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '3256'
-ht-degree: 99%
+source-wordcount: '3253'
+ht-degree: 98%
 ---
 # Commencer pour les administrateurs et administratrices et les développeurs et développeuses {#acs-gs-admin}
 
@@ -118,7 +118,7 @@ La console cliente Campaign est une application native qui communique avec le se
 
 La vidéo suivante explique comment télécharger et installer la console cliente Adobe Campaign et gérer votre connexion à votre instance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449883?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
 Pour plus d’informations, consulez [Se connecter à Campaign avec la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
@@ -128,7 +128,7 @@ Notez que la console cliente doit être installée dans un environnement pris en
 
 Découvrez l’interface d’utilisation d’Adobe Campaign v8 et comment naviguer parmi les principales fonctionnalités avec ce tutoriel vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426437?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
 Consultez [Utiliser la console cliente](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} pour plus de détails.
 
@@ -228,7 +228,7 @@ Voir les liens vers d’autres ressources utiles ci-dessous :
 
 * Découvrez ce que sont les dimensions de ciblage et les tables de travail, ainsi que la manière dont Adobe Campaign gère les données provenant de différentes sources de données dans cette vidéo :
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452593?captions=fre_fr&quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
 * Campaign vous aide à ajouter des contacts à la base de données cloud. Vous pouvez charger un fichier, planifier et automatiser plusieurs mises à jour des contacts, collecter des données sur le web ou saisir des informations de profil directement dans le tableau des destinataires.  En savoir plus dans la [documentation sur l’import de données (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
@@ -267,9 +267,9 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You choose a built-in template when you create a landing page, then design the content. See [Create and publish a landing page](../../v8/landing-pages/create-lp.md) and [Learn through use cases](../../v8/landing-pages/lp-use-cases.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
 ## Confidentialité et consentement
@@ -286,7 +286,7 @@ Comme dans Campaign Standard, en tant qu’administrateur ou administratrice, v
 
 Découvrez comment configurer et gérer les abonnements et cibler les abonnés.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426557?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * Voir les services d’abonnement dans la [documentation sur l’interface d’utilisation web](../../v8/audience/manage-subscribers.md).
 
@@ -345,7 +345,7 @@ Utilisez Campaign pour créer du contenu dynamique et envoyer des messages perso
 
 Avec Campaign v8, en tant qu’administrateur ou administratrice, vous pouvez définir des blocs de contenu dynamique et les utiliser pour personnaliser le contenu de votre diffusion par e-mail comme expliqué dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3449008?captions=fre_fr&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 Liens utiles :
 
@@ -377,7 +377,7 @@ En tant qu’administrateur ou administratrice, familiarisez-vous avec la gestio
 
 ## Gérer les intégrations Adobe Campaign {#acs-gs-integrations}
 
-Vous pouvez connecter votre instance Campaign aux solutions Adobe Experience Cloud pour combiner les fonctionnalités. Adobe Campaign s’accompagne de plusieurs connecteurs qui vous permettent de communiquer avec des applications externes, de vous connecter à des moteurs de base de données, ainsi que de partager et de synchroniser des données. Découvrez comment combiner vos solutions dans [cette documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
+Vous pouvez connecter votre instance Campaign à des solutions [!DNL Adobe CX Enterprise] pour combiner les fonctionnalités. Adobe Campaign s’accompagne de plusieurs connecteurs qui vous permettent de communiquer avec des applications externes, de vous connecter à des moteurs de base de données, ainsi que de partager et de synchroniser des données. Découvrez comment combiner vos solutions dans [cette documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
 
 En tant qu’utilisateur ou utilisatrice de Campaign Standard migrant vers Campaign v8, les conditions suivantes s’appliquent à vous :
 

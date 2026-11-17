@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 96%
 ---
 # Nouveautés {#new}
 
@@ -48,14 +48,14 @@ Cette nouvelle interface utilisateur web de Campaign est dotée des fonctionnali
 
 **Une expérience moderne, conviviale et unifiée**
 
-La nouvelle interface utilisateur web de Campaign offre une nouvelle expérience client, alignée sur toutes les solutions et applications Adobe Experience Cloud. Elle offre les éléments suivants :
+La nouvelle interface utilisateur web de Campaign offre une nouvelle expérience utilisateur, connectée à toutes les solutions et applications [!DNL Adobe CX Enterprise]. Elle offre les éléments suivants :
 
 * L’accès à la nouvelle interface Campaign et aux autres solutions Adobe dans une session utilisateur unique et partagée
 * Une nouvelle expérience de navigation, avec tous les menus et dossiers disponibles dans le rail de gauche
 * Des sélecteurs de solution et d’organisation à partir de la barre supérieure
 * Une intégration d’Unified Shell, avec un accès direct à la communauté, au centre d’aide et au support
 
-Découvrez comment vous connecter à Adobe Experience Cloud et à Campaign sur [cette page](../get-started/connect-to-campaign.md).
+Découvrez comment vous connecter à [!DNL Adobe CX Enterprise] et vous connecter à Campaign dans [cette page](../get-started/connect-to-campaign.md).
 
 
 **De nouvelles fonctionnalités puissantes et des processus transparents**
@@ -178,7 +178,7 @@ Les restrictions ci-dessous s’appliquent à cette version :
 * Les fonctionnalités d’administration et de configuration avancée ne sont pas disponibles dans l’interface utilisateur web de Campaign.
 * Les mesures de rapports (telles que les ouvertures et les données de suivi) sont mises à jour toutes les heures.
 * Les KPI du tableau de bord de la diffusion sont mis à jour toutes les 5 minutes, mais la préparation de la diffusion est en temps réel.
-* Les notifications d’Adobe Experience Cloud et l’aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
+* Les notifications [!DNL Adobe CX Enterprise] et l&#39;aide unifiée disponibles dans la barre supérieure ne sont pas encore intégrées.
 
 Lorsque vous utilisez l’interface utilisateur web de Campaign avec des workflows créés ou modifiés dans la console cliente Campaign, des mécanismes de sécurisation et des limitations spécifiques s’appliquent. Ceux-ci sont listés [dans cette section](../get-started/guardrails.md).
 

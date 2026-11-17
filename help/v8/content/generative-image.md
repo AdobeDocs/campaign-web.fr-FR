@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 100%
+source-wordcount: '1255'
+ht-degree: 96%
 ---
 # Générer des images {#generative-image}
 
@@ -29,9 +29,13 @@ ht-degree: 100%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section sur les [Mécanismes de sécurisation et limitations](generative-gs.md#generative-guardrails) connexes.
 ></br>
 >
->Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre personne représentante Adobe.
 
 Utilisez l’IA dans Adobe Campaign Web pour créer un contenu visuel attrayant qui améliore vos messages dans les e-mails, les pages de destination et les notifications push. L’IA vous aide à générer et à optimiser des images, afin de garantir que votre contenu soit visuellement attrayant et en accord avec votre marque.
+
+>[!IMPORTANT]
+>
+>Les liens vers les images générées par l’IA sont temporaires et ne peuvent pas être utilisés pour diffuser des images à vos destinataires. Lorsque vous enregistrez votre diffusion, les images générées sont enregistrées dans votre instance Campaign et les liens sont remplacés. Enregistrez votre diffusion avant de l’envoyer.
 
 ## Pour les e-mails et les pages de destination {#email-web-channels}
 

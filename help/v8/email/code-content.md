@@ -14,10 +14,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 77%
 ---
 # Coder votre propre contenu d’e-mail {#code-content}
 
@@ -26,6 +26,10 @@ Utilisez le mode **[!UICONTROL Coder le vôtre]** pour importer du code HTML bru
 >[!CAUTION]
 >
 >Cette méthode requiert des connaissances en HTML.
+
+>[!IMPORTANT]
+>
+>N’utilisez pas la balise HTML `<base>` dans le contenu de votre e-mail. Pour des raisons de sécurité, cette balise n’est pas prise en charge et peut empêcher le chargement de votre contenu dans l’éditeur de contenu. Utilisez plutôt des URL absolues pour vos liens et ressources externes.
 
 1. Sur la page d’accueil du [concepteur d’e-mail](get-started-email-designer.md), sélectionnez **[!UICONTROL Coder le vôtre]**.
 

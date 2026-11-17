@@ -14,10 +14,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 95%
 ---
 # Utiliser la fonctionnalité de génération de contenu {#generative-gs}
 
@@ -82,7 +82,7 @@ L’option Générer du contenu simplifie la création et l’exécution de camp
 >
 >* Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe sur les [Mécanismes de sécurisation et limitations](#generative-guardrails).
 >
->* Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>* Vous devez accepter les termes d’un [contrat d’utilisation](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’IA pour générer du contenu dans Adobe Campaign Web. Pour plus d’informations, contactez votre personne représentante Adobe.
 
 ## Accéder à la fonctionnalité de génération de contenu {#generative-access}
 
@@ -115,7 +115,7 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 * La taille maximale pour les ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou de nombreuses images peuvent augmenter le temps de traitement.
 * Utilisez des [modèles d’e-mail intégrés](../content/create-email-templates.md), des modèles spécifiques à la marque ou des modèles personnalisés pour créer le contenu de votre e-mail à l’aide de l’IA. Il est recommandé d’utiliser des modèles d’e-mail contenant jusqu’à 8 à 10 images.
 * Signalez les sorties problématiques à l’aide des icônes de pouces vers le haut, vers le bas ou d’indicateurs lors de la sélection de variantes.
-* Votre utilisation de la fonctionnalité Générer du contenu est soumise aux instructions d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+* Votre utilisation de la fonctionnalité Générer du contenu est soumise aux instructions d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Dans le cadre de l’engagement d’Adobe à la transparence dans l’utilisation d’outils d’IA générative dans la création de médias, Adobe applique Content Credentials (informations de traçabilité du contenu) lorsque le contenu ou un projet qui inclut une ressource générée par un Firefly est téléchargé ou exporté. [En savoir plus](https://helpx.adobe.com/fr/firefly/using/content-credentials.html).
 
 Les limitations suivantes s’appliquent à la fonctionnalité Générer du contenu dans Adobe Campaign Web :
@@ -124,6 +124,7 @@ Les limitations suivantes s’appliquent à la fonctionnalité Générer du cont
 * Uniquement disponible pour les canaux e-mail, push et SMS.
 * Le contenu de GenAI peut ne pas toujours être précis. Partagez vos commentaires afin que l’équipe d’ingénierie puisse affiner les modèles.
 * Vous pouvez charger plusieurs ressources de marque, mais vous ne pouvez en exploiter qu’une seule pour une génération spécifique.
+* Les liens vers les images générées par l’IA sont temporaires et ne peuvent pas être utilisés pour diffuser des images à vos destinataires. Lorsque vous enregistrez votre diffusion, les images générées sont enregistrées dans votre instance Campaign et les liens sont remplacés. Enregistrez votre diffusion avant de l’envoyer.
 
 ## Fonctionnalités de génération de contenu {#generative-features}
 

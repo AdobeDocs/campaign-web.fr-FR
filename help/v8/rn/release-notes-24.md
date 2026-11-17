@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 100%
+source-wordcount: '2577'
+ht-degree: 99%
 ---
 # Notes de mise à jour 2024 {#2024-release}
 
@@ -149,7 +149,7 @@ Les fonctionnalités et améliorations suivantes sont disponibles à compter de 
 * **Captcha dans les pages de destination** : vous pouvez désormais ajouter un captcha pour protéger votre page de destination contre le spam et les abus causés par les robots. Il ne présente pas d’intrusion par rapport à vos clients, car il ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. [En savoir plus](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=fr){target="_blank"}.
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 -->
 
 
@@ -241,7 +241,7 @@ Vous pouvez maintenant créer des liens avec une autre table de l’activité de
 
 * **Gestion des dossiers** : vous pouvez désormais créer un sous-dossier d’un type différent de celui du dossier parent. [En savoir plus](../get-started/permissions.md#folders)
 
-* **Harmonisation linguistique** : dans le cadre de nos efforts continus pour offrir une expérience client unifiée, nous harmonisons la terminologie utilisée dans les produits et applications Adobe Experience Cloud. Par exemple, le terme allemand « Titel » est remplacé par « Label » lorsqu’il se rapporte au nom d’un objet. Les modifications seront progressivement déployées dans l’interface d’utilisation et la documentation.
+* **Mondialisation** - Dans le cadre de nos efforts continus pour offrir une expérience utilisateur unifiée, nous harmonisons la terminologie utilisée dans les produits et applications [!DNL Adobe CX Enterprise]. Par exemple, le terme allemand « Titel » est remplacé par « Label » lorsqu’il se rapporte au nom d’un objet. Les modifications seront progressivement déployées dans l’interface d’utilisation et la documentation.
 
 
 ## Notes de mise à jour d’avril {#april-24-4-release}
