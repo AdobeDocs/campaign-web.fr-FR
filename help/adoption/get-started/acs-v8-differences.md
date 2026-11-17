@@ -75,7 +75,7 @@ Les étapes de création et d&#39;envoi des messages sont similaires dans les de
 | Pour effectuer la transition des workflows et des diffusions de notifications push existants, contactez votre gestionnaire de transition Adobe Campaign. | [Notifications push](marketers.md#acs-gs-marketers-push) |
 | Dans Campaign Standard, un profil de test peut être marqué comme un **piège** pour recevoir l’envoi final. Dans Campaign v8, ajoutez un **groupe de pièges** dans les paramètres Audience de la diffusion. | [Groupe de pièges](../../v8/audience/trap-group.md) |
 | Les landing pages créées dans l’interface utilisateur web de Campaign ne prennent pas en charge les champs de saisie masqués ou les JavaScript personnalisées. | [Landing pages](../../v8/landing-pages/get-started-lp.md) |
-| Dans Campaign Standard, la transition sortante d’une activité de publipostage direct comportait également le fichier généré. Dans Campaign v8, elle ne transporte que la population ciblée. Pour envoyer le fichier à un serveur, ajoutez une activité **Extraction de données**, puis une activité **Transfert de fichier**. | [Publipostage direct](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Dans Campaign Standard, la transition sortante d’une activité de publipostage direct comportait également le fichier généré. Dans Campaign v8, elle ne transporte que la population ciblée. Pour envoyer le fichier à un serveur, ajoutez une activité **Extraction de données**, puis une activité **Transfert de fichier**. | [Publipostage direct](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, workflows et diffusions {#data-and-workflows}
 
