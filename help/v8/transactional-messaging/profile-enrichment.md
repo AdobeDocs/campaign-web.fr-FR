@@ -10,10 +10,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # Enrichir des messages transactionnels avec des données de profils{#profile-enrichment}
 
@@ -63,7 +63,7 @@ Vous devez ensuite définir l’événement en tant qu’événement basé sur d
    * Pour un type d’événement existant, sélectionnez-le dans la liste.
    * Pour un nouveau type d’événement, ajoutez un libellé et un nom.
 
-1. Ensuite, sélectionnez **Profil RT** dans la liste déroulante **Type d’événement**.
+1. Sélectionnez ensuite **Événement personnalisé** dans le menu déroulant **Type d’événement**.
 
    ![](assets/profile-enrich1.png){zoomable="yes"}
 

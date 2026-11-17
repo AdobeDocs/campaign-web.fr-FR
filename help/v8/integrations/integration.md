@@ -36,14 +36,14 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 95%
 ---
 # Utiliser Campaign et d’autres solutions Adobe {#gs-integration}
 
-Vous pouvez connecter votre environnement Campaign aux solutions et aux applications Adobe Experience Cloud pour combiner les fonctionnalités.
+Vous pouvez connecter votre environnement Campaign à des solutions et applications [!DNL Adobe CX Enterprise] afin de combiner les fonctionnalités.
 
 Adobe Campaign inclut plusieurs connecteurs qui permettent de communiquer avec des applications externes, de se connecter à des moteurs de base de données, ainsi que de partager et de synchroniser des données. Adobe configure ces connexions.
 

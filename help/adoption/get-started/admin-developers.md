@@ -77,10 +77,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '3256'
-ht-degree: 99%
+source-wordcount: '3253'
+ht-degree: 98%
 ---
 # Commencer pour les administrateurs et administratrices et les développeurs et développeuses {#acs-gs-admin}
 
@@ -377,7 +377,7 @@ En tant qu’administrateur ou administratrice, familiarisez-vous avec la gestio
 
 ## Gérer les intégrations Adobe Campaign {#acs-gs-integrations}
 
-Vous pouvez connecter votre instance Campaign aux solutions Adobe Experience Cloud pour combiner les fonctionnalités. Adobe Campaign s’accompagne de plusieurs connecteurs qui vous permettent de communiquer avec des applications externes, de vous connecter à des moteurs de base de données, ainsi que de partager et de synchroniser des données. Découvrez comment combiner vos solutions dans [cette documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
+Vous pouvez connecter votre instance Campaign à des solutions [!DNL Adobe CX Enterprise] pour combiner les fonctionnalités. Adobe Campaign s’accompagne de plusieurs connecteurs qui vous permettent de communiquer avec des applications externes, de vous connecter à des moteurs de base de données, ainsi que de partager et de synchroniser des données. Découvrez comment combiner vos solutions dans [cette documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
 
 En tant qu’utilisateur ou utilisatrice de Campaign Standard migrant vers Campaign v8, les conditions suivantes s’appliquent à vous :
 
