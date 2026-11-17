@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 62%
 ---
 # Prise en main des rapports globaux {#global-report-gs}
 
@@ -65,3 +65,52 @@ Pour accéder à vos rapports globaux et les gérer, procédez comme suit :
 1. Dans **[!UICONTROL URL et flux de clics]**, choisissez **[!UICONTROL Liens les plus visités]** ou **[!UICONTROL Période]**.
 
    Les options **[!UICONTROL Afficher par]** permettent d’effectuer un filtrage sur des URL, des libellés ou des catégories.
+
+## Rapports pour le canal LINE {#line-reports}
+
+Les rapports disponibles pour le canal LINE sont décrits ci-dessous.
+
+### Vue d’ensemble de la diffusion {#line-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_deliveries_overview"
+>title="Présentation de la diffusion LINE"
+>abstract="Affichez les messages à diffuser, les messages diffusés et les erreurs de diffusion pour LINE."
+
+Le rapport **[!UICONTROL Présentation de la diffusion]** affiche les messages à diffuser, les messages diffusés et les erreurs de diffusion pour LINE.
+
+### Audience ciblée {#line-targeted-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_targeted_audience"
+>title="Audience ciblée LINE"
+>abstract="Affichez l’audience ciblée par la diffusion LINE et les résultats de la diffusion qui en résultent."
+
+Le graphique et le tableau **[!UICONTROL Audience ciblée]** affichent l&#39;audience ciblée par la diffusion LINE et les résultats de diffusion qui en résultent.
+
+### Statistiques de diffusion {#line-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_delivery_stats"
+>title="Statistiques de diffusion LINE"
+>abstract="Affichez les résultats clés des diffusions pour les messages LINE, y compris les messages à diffuser, les messages diffusés et les erreurs de diffusion."
+
+Le graphique et le tableau **[!UICONTROL Statistiques de diffusion]** affichent les principaux résultats de diffusion des messages LINE, y compris les messages à diffuser, les messages diffusés et les erreurs de diffusion.
+
+### Causes d’exclusion {#line-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_exclusions"
+>title="Causes d’exclusion LINE"
+>abstract="Découvrez pourquoi les profils ciblés ont été exclus de la diffusion LINE, comme les règles d&#39;éligibilité, de validation ou de configuration."
+
+Le graphique et le tableau **[!UICONTROL Causes d’exclusion]** indiquent les raisons pour lesquelles les profils ciblés ont été exclus de la diffusion LINE, telles que les règles d’éligibilité, de validation ou de configuration.
+
+### Débit des diffusions {#line-delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_line"
+>title="Débit de diffusion LINE"
+>abstract="Affichez le taux d’envoi des messages LINE au fil du temps."
+
+Le rapport **[!UICONTROL Débit de diffusion]** affiche le taux d’envoi des messages LINE au fil du temps.

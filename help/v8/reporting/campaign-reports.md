@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 70%
 ---
 # Prise en main des rapports de campagne {#campaign-reports}
 
@@ -64,3 +64,43 @@ Pour accéder à vos rapports de campagne et les gérer, procédez comme suit :
 1. Dans **[!UICONTROL URL et flux de clics]**, choisissez les **[!UICONTROL Liens les plus visités]** ou la **[!UICONTROL Période]**.
 
    Les options **[!UICONTROL Afficher par]** permettent de filtrer sur des URL, des libellés ou des catégories.
+
+## Rapports pour le canal LINE {#line-reports}
+
+Les rapports disponibles pour le canal LINE sont décrits ci-dessous.
+
+### Synthèse des diffusions {#line-delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_deliveries_overview"
+>title="Vue d’ensemble de la diffusion"
+>abstract="Affichez les messages à diffuser, les messages diffusés et les erreurs de diffusion pour LINE."
+
+Le rapport **[!UICONTROL Présentation des diffusions]** affiche les messages à diffuser, les messages diffusés et les erreurs de diffusion pour vos diffusions LINE.
+
+#### Statistiques initiales sur l’audience cible {#line-initial-target}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_target"
+>title="Statistiques initiales sur l’audience cible"
+>abstract="Vérifiez la population cible initiale et les profils exclus avant l’exécution de la diffusion LINE."
+
+Le tableau **[!UICONTROL Statistiques initiales sur l&#39;audience cible]** affiche la population cible initiale et les profils exclus avant l&#39;exécution de la diffusion LINE.
+
+#### Statistiques d’exécution {#line-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_exec_stats"
+>title="Statistiques d’exécution"
+>abstract="Vérifiez les résultats du traitement et de la diffusion des messages LINE, y compris les messages diffusés et les erreurs."
+
+Le tableau **[!UICONTROL Statistiques d&#39;exécution]** affiche les résultats du traitement et de la diffusion des messages LINE, y compris les messages diffusés et les erreurs.
+
+#### Flux de clics générés {#line-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_click_streams"
+>title="Flux de clics générés"
+>abstract="Afficher l&#39;activité de lien suivi générée par les destinataires de la diffusion LINE."
+
+Le tableau **[!UICONTROL Flux de clics générés]** affiche l&#39;activité des liens suivis générée par les destinataires de la diffusion LINE.
