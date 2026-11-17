@@ -29,18 +29,41 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 64a07e65b7e6d933288b10117aae99f48d13a8d8
+source-git-commit: 982fb1a5060db5b4eac6c6f68487116d9a72e109
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 2%
+source-wordcount: '1926'
+ht-degree: 5%
 ---
 # Différences entre Campaign Standard et Campaign v8 {#acs-v8-differences}
 
 La plupart des concepts sont identiques dans Campaign Standard et Campaign v8. Cette page rassemble les différences qui vous affectent après la transition et fournit des liens vers la page qui explique chacune d’elles. Il complète les guides destinés aux [professionnels du marketing](marketers.md) et aux [administrateurs et développeurs](admin-developers.md).
 
-* Pour connaître les modifications terminologiques, voir [Principales différences entre Campaign Standard et Campaign v8](overview.md#experiences).
+* Pour les modifications terminologiques, voir [Terminologie](#terminology).
 * Pour connaître les vérifications à exécuter et les problèmes signalés après une transition, voir [Vérifications et dépannage après la transition](post-transition-checks.md).
 * Pour connaître les fonctionnalités disponibles uniquement dans la console cliente, voir [Console cliente Campaign Web et Campaign](../../v8/get-started/capability-matrix.md).
+
+## Terminologie {#terminology}
+
+La plupart des concepts sont similaires entre Adobe Campaign v8 et Adobe Campaign Standard. Cependant, il existe quelques différences, à commencer par la terminologie.
+
+| Dans Campaign Standard | Dans Campaign v8 |
+|---|---|
+| Ressources personnalisées | **Schémas** |
+| Messages | **Diffusions** |
+| Utilisateurs du produit | **Opérateurs** |
+| Rôles | Configuré avec **Droits nommés** |
+| Groupes de sécurité | **Groupes d&#39;opérateurs** |
+| Entités organisationnelles | Géré via **Autorisations de dossier** |
+
+De plus, en tant que personne utilisant déjà Campaign, notez que certains concepts ont été renommés pour s’aligner sur les dernières normes terminologiques. Ces modifications s’appliquent uniquement à l’interface utilisateur web de Campaign et ne sont pas répercutées dans la console cliente.
+
+| Dans Campaign Standard | Dans Campaign Web | En savoir plus |
+|---|---|---|
+| Destinataires | **Profils** | [Profils](../../v8/audience/gs-audiences-recipients.md) |
+| Adresses de contrôle | **Profils de test** | [Tester les diffusions](../../v8/preview-test/test-deliveries.md) |
+| Analyse des diffusions | **Préparation de la diffusion**. Pour lancer la préparation du message, cliquez sur le bouton **Préparer**. | [Préparer et envoyer](../../v8/monitor/prepare-send.md) |
+| Aperçu de l’e-mail | Disponible via le bouton **Simuler du contenu**. | [Prévisualiser et tester](../../v8/preview-test/preview-test.md) |
+| Listes | **Audiences** | [Audiences](../../v8/audience/gs-audiences-recipients.md) |
 
 ## Canaux et contenu {#channels}
 
@@ -52,7 +75,7 @@ Les étapes de création et d&#39;envoi des messages sont similaires dans les de
 | Pour effectuer la transition des workflows et des diffusions de notifications push existants, contactez votre gestionnaire de transition Adobe Campaign. | [Notifications push](marketers.md#acs-gs-marketers-push) |
 | Dans Campaign Standard, un profil de test peut être marqué comme un **piège** pour recevoir l’envoi final. Dans Campaign v8, ajoutez un **groupe de pièges** dans les paramètres Audience de la diffusion. | [Groupe de pièges](../../v8/audience/trap-group.md) |
 | Les landing pages créées dans l’interface utilisateur web de Campaign ne prennent pas en charge les champs de saisie masqués ou les JavaScript personnalisées. | [Landing pages](../../v8/landing-pages/get-started-lp.md) |
-| Dans Campaign Standard, la transition sortante d’une activité de publipostage direct comportait également le fichier généré. Dans Campaign v8, elle ne transporte que la population ciblée. Pour envoyer le fichier à un serveur, ajoutez une activité **Extraction de données**, puis une activité **Transfert de fichier**. | [Publipostage direct](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Dans Campaign Standard, la transition sortante d’une activité de publipostage direct comportait également le fichier généré. Dans Campaign v8, elle ne transporte que la population ciblée. Pour envoyer le fichier à un serveur, ajoutez une activité **Extraction de données**, puis une activité **Transfert de fichier**. | [Publipostage direct](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, workflows et diffusions {#data-and-workflows}
 
@@ -60,7 +83,10 @@ Ces différences affectent les audiences et les workflows migrés depuis Campaig
 
 | Changements | En savoir plus |
 |---|---|
-| Les audiences sont transformées pendant la transition. Par exemple, les audiences créées avec l&#39;activité Requête deviennent des filtres prédéfinis et les audiences de type fichier deviennent des audiences de type Liste sans dimensions. | [Gérer les audiences](marketers.md#acs-gs-marketers-audiences) |
+| Les audiences créées avec l’activité Requête dans Campaign Standard deviennent des [filtres prédéfinis](../../v8/query/build-query.md) dans Campaign v8. Campaign v8 prend également en charge l’activité Requête . | [Gérer les audiences](marketers.md#acs-gs-marketers-audiences) |
+| Une activité Lecture d’audience devient une activité Requête avec un filtre prédéfini. | [Gérer les audiences](marketers.md#acs-gs-marketers-audiences) |
+| Un filtre prédéfini ne prend que la dernière valeur une fois l’audience migrée. | [Gérer les audiences](marketers.md#acs-gs-marketers-audiences) |
+| Les audiences de type fichier deviennent des audiences de type liste sans dimensions. | [Gérer les audiences](marketers.md#acs-gs-marketers-audiences) |
 | Les logs historiques des workflows exécutés dans Campaign Standard ne sont pas migrés. | [Créer un workflow](marketers.md#acs-gs-marketers-wf) |
 | Dans Campaign Standard, vous pouvez sélectionner la période d’agrégation d’un e-mail récurrent. Cette option n’est pas disponible dans Campaign v8. | [Activités de canal](../../v8/workflows/activities/channels.md) |
 | Les rapports dynamiques couvrent les diffusions par e-mail, les campagnes avec des diffusions par e-mail et les messages transactionnels. | [Reporting](marketers.md#acs-gs-marketers-reporting) |
@@ -84,7 +110,7 @@ Ces différences affectent les intégrations qui appellent Campaign par le biais
 | Changements | En savoir plus |
 |---|---|
 | Les valeurs PKEY changent après la migration. Si vous stockez des PKEY en dehors de Campaign, suivez plutôt les arborescences renvoyées par l’API . | [Utilisation des clés](#key-usage) |
-| Certains champs de profil migrés, tels que le fuseau horaire et `ccpaOptOut`, sont renvoyés uniquement par l’API `profileAndServicesExt/profile`. | [Fuseau horaire du profil](#profile-timezone) |
+| Certains champs de profil migrés, tels que le fuseau horaire et `ccpaOptOut`, sont renvoyés uniquement par l’API `profileAndServicesExt/profile`. | [Fuseau horaire du profil et ccpaOptOut](#profile-timezone) |
 | Adobe migre vos configurations Adobe Analytics et Audience Manager. Vous devez configurer à nouveau les intégrations Triggers et Adobe Target. | [Gestion des intégrations Adobe Campaign](admin-developers.md#acs-gs-integrations) |
 
 ## Recommandations et limitations de l’API REST {#rest-api-limitations}
@@ -190,11 +216,13 @@ La section ci-dessous répertorie les différences entre les codes d’erreur et
 | - | 500 - RST-360011 Une erreur s&#39;est produite. Veuillez contacter votre administrateur. | 500 - Une erreur s’est produite. Contactez votre administrateur. |
 | Insérer un profil/service avec une valeur d’énumération de genre (ou toute autre valeur) non valide | 500 - RST-360011 Une erreur s&#39;est produite. Veuillez contacter votre administrateur. La valeur &#39;invalid&#39; n&#39;est pas valide pour l&#39;énumération &#39;nms:recipient:gender&#39; du champ &#39;@gender&#39; | 500 - Une erreur s’est produite. Contactez votre administrateur. |
 
-### Fuseau horaire du profil {#profile-timezone}
+### Fuseau horaire du profil et ccpaOptOut {#profile-timezone}
 
 Avec Campaign Standard, le fuseau horaire s’affiche dans le cadre de la réponse JSON des appels de l’API REST **profileAndServices/profile**.
 
 Avec Campaign v8, le fuseau horaire n’est affiché que dans le cadre des appels API REST **profileAndServicesExt/profile**. Il ne fait pas partie des appels API REST **profileAndServices/profile**, car il est ajouté dans un schéma étendu.
+
+Il en va de même pour le champ `ccpaOptOut` : il s’affiche uniquement dans le cadre des appels API REST **profileAndServicesExt/profile**, et non des appels API **profileAndServices/profile**, puisqu’il est ajouté dans un schéma étendu dans le cadre de la migration des données.
 
 ### Signaux externes de workflow {#workflow-signals}
 
