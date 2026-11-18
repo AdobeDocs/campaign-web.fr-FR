@@ -10,10 +10,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 001cd7b1e4d95122acbec01234630963ce58bfeb
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 98%
+source-wordcount: '1517'
+ht-degree: 97%
 ---
 # Configurer une diffusion multilingue {#multilingual-delivery}
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 >title="Importer les variantes linguistiques"
 >abstract="Utilisez cette boîte de dialogue pour ajouter une variante linguistique en important un fichier CSV. Le fichier renseigne automatiquement tous les champs disponibles pour la langue sélectionnée. Vous pouvez faire glisser et déposer votre fichier ou le choisir sur votre ordinateur avant de confirmer."
 
-Dans l’interface d’utilisation de Campaign Web, vous pouvez configurer vos diffusions en tant que diffusions multilingues, ce qui vous permet d’envoyer des messages en fonction de la langue préférée d’un profil. Lorsqu’aucune préférence n’est définie, le message est envoyé dans la langue par défaut.
+Dans l’interface d’utilisation de Campaign Web, vous pouvez configurer vos diffusions en tant que diffusions multilingues, ce qui vous permet d’envoyer des messages en fonction de la langue préférée d’un profil. Lorsqu’aucune préférence n’est définie ou qu’aucune variante ne correspond à la langue du profil, le message est envoyé dans la langue par défaut.
 
 Dans une diffusion multilingue, la gestion des langues repose sur des variantes. Chaque variante représente une langue unique. Lors de la création de la diffusion, vous pouvez ajouter plusieurs variantes linguistiques afin de correspondre au nombre de langues requises dans votre message. Vous pouvez également modifier la langue par défaut à tout moment après l’ajout de ces variantes.
 
